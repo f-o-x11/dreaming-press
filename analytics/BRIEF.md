@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-31T19:09Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-31T19:19Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3662 views → 260 engaged reads → 52 completes · 3598 sessions.
-- Channels: direct 168r/3445v · organic 44r/83v · referral 17r/61v · campaign:chatgpt.com 15r/42v · ai 13r/22v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/4v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3661 views → 260 engaged reads → 52 completes · 3597 sessions.
+- Channels: direct 168r/3444v · organic 44r/83v · referral 17r/61v · campaign:chatgpt.com 15r/42v · ai 13r/22v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/4v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 15r/42v · Perplexity 8r/12v · Doubao 4r/5v · Copilot 2r/2v · Yuanbao 1r/1v · Kimi 0r/4v.
 - Referrers: bing.com, cn.bing.com, chatgpt.com, perplexity.ai, duckduckgo.com, google.com, 127.0.0.1:49608, nav-cmp, doubao.com, 114.114.114.114:9421.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3445 views · read 4.9% · complete 1.4% · 1 pages/session · median 4s
+- direct: 3444 views · read 4.9% · complete 1.4% · 1 pages/session · median 4s
 - organic: 83 views · read 53.0% · complete 1.2% · 1.02 pages/session · median 3s
 - referral: 61 views · read 27.9% · complete 1.6% · 1.11 pages/session · median ?s
 - campaign:chatgpt.com: 42 views · read 35.7% · complete 4.8% · 1 pages/session · median ?s
@@ -60,7 +60,7 @@ so what these earn from humans is the other half of the picture.
 - /best/:cat — 37 views, 0 reads, 37 sessions, avg 4s
 - /compare/:pair — 37 views, 1 reads, 37 sessions, avg 49s
 - /build — 35 views, 0 reads, 36 sessions, avg 4s
-- /weekly — 24 views, 0 reads, 24 sessions, avg 5s
+- /weekly — 23 views, 0 reads, 23 sessions, avg 5s
 - /tools — 20 views, 0 reads, 20 sessions, avg 8s
 - /topics/:topic — 17 views, 1 reads, 17 sessions, avg 37s
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
@@ -93,7 +93,7 @@ nothing. This is the closest thing to a live query log this publication gets, an
 sample size dwarfs the engaged-read counts below.
 - /  — 561 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 358 retrieval fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 207 retrieval fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 208 retrieval fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 148 retrieval fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 86 retrieval fetches
 - /build  — 37 retrieval fetches
@@ -103,7 +103,7 @@ sample size dwarfs the engaged-read counts below.
 - /tags/opinionated  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3814 verified): / ×518 · /posts/agent-funding-august-2026-control-won-the-summer.html ×358 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×207
+- ChatGPT-User (3816 verified): / ×518 · /posts/agent-funding-august-2026-control-won-the-summer.html ×358 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×208
 - OAI-SearchBot (2123 verified): /build ×32 · / ×11 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×8
 - PerplexityBot (609 verified): / ×32 · /tags/opinionated ×7 · /posts/2026-08-17-founders-wire-stripe-openrouter-imagen-sunset-moonshot-ipo.html ×6
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -130,7 +130,7 @@ High-engagement posts to react to / cite:
 - "We're excited to release Agno 3.0, bringing us one step closer to our vision of an agent platform that builds itself. If you're new here, let's start with an introduction. I'm Ashpreet, the founder of Agno (derived from " — https://x.com/i/status/2092976230597374415
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (275 of 457 phrases have NO post, 55h ago)
+## Uncovered search demand (275 of 457 phrases have NO post, 56h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -153,12 +153,12 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8961 confirmed AI-engine fetches (ChatGPT (user browsing) 3814, GPTBot (OpenAI) 2415, ChatGPT Search (OpenAI) 2123, Perplexity 609).
+The real answer engines are crawling us — IP-verified: 8963 confirmed AI-engine fetches (ChatGPT (user browsing) 3816, GPTBot (OpenAI) 2415, ChatGPT Search (OpenAI) 2123, Perplexity 609).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 737 crawler fetches
+- /build  — 738 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 358 crawler fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 255 crawler fetches
-- /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 219 crawler fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 256 crawler fetches
+- /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 220 crawler fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 198 crawler fetches
 - /posts/time-on-site.html  — 100 crawler fetches
 - /posts/agents-that-run-for-days-durable-harness-not-model.html  — 97 crawler fetches
