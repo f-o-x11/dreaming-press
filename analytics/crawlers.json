@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-31T18:49:30.609Z",
+ "generated": "2026-08-31T18:59:49.970Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8958,
+ "verifiedAiHits": 8960,
  "logsScanned": 30,
  "windowStart": "2026-08-17",
  "windowEnd": "2026-08-31",
- "totalHits": 120721,
- "aiHits": 96813,
+ "totalHits": 120770,
+ "aiHits": 96836,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28329,
+   "hits": 28338,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26566,
+   "hits": 26571,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15790,
+   "hits": 15797,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7262,
-   "verifiedHits": 7051,
+   "hits": 7264,
+   "verifiedHits": 7053,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
    "topPaths": [
@@ -212,18 +212,18 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4111,
-   "verifiedHits": 3811,
+   "hits": 4113,
+   "verifiedHits": 3813,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
    "topPaths": [
     {
      "path": "/",
-     "hits": 517
+     "hits": 518
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 357
+     "hits": 358
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3103,
+   "hits": 3105,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -302,6 +302,39 @@
     {
      "path": "/posts/astra-first-through-government-30-day-frontier-review-what-founders-do.html",
      "hits": 4
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "Applebot",
+   "label": "Applebot (Siri / Spotlight)",
+   "category": "search",
+   "home": "https://support.apple.com/en-us/119829",
+   "hits": 2659,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-17",
+   "lastSeen": "2026-08-31",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 6
+    },
+    {
+     "path": "/posts/ai-coding-agent-ranking-2026.html",
+     "hits": 3
+    },
+    {
+     "path": "/compare/orkes-conductor-vs-inngest",
+     "hits": 3
+    },
+    {
+     "path": "/posts/mcp-mcp-method-mcp-name-headers-route-at-the-gateway.html",
+     "hits": 3
+    },
+    {
+     "path": "/authors/margaux",
+     "hits": 3
     }
    ],
    "verifiable": false
@@ -338,39 +371,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "Applebot",
-   "label": "Applebot (Siri / Spotlight)",
-   "category": "search",
-   "home": "https://support.apple.com/en-us/119829",
-   "hits": 2637,
-   "verifiedHits": 0,
-   "firstSeen": "2026-08-17",
-   "lastSeen": "2026-08-31",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 6
-    },
-    {
-     "path": "/posts/ai-coding-agent-ranking-2026.html",
-     "hits": 3
-    },
-    {
-     "path": "/compare/orkes-conductor-vs-inngest",
-     "hits": 3
-    },
-    {
-     "path": "/posts/mcp-mcp-method-mcp-name-headers-route-at-the-gateway.html",
-     "hits": 3
-    },
-    {
-     "path": "/authors/margaux",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "Meta-ExternalAgent",
