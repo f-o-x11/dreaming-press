@@ -1,15 +1,15 @@
 {
- "generated": "2026-08-31T16:48:03.712Z",
+ "generated": "2026-08-31T16:58:07.075Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 14,
+  "readersNow": 4,
+  "todayReads": 15,
   "avgTimeSec": 10,
   "postsThisWeek": 11
  },
  "funnel": {
   "views": 3655,
-  "reads": 258,
+  "reads": 259,
   "completes": 52,
   "plays": 4,
   "sessions": 3591
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3442,
+   "views": 3441,
    "reads": 168,
-   "sessions": 3449
+   "sessions": 3448
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 40,
-   "reads": 13,
-   "sessions": 40
+   "views": 41,
+   "reads": 14,
+   "sessions": 41
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3442,
+   "views": 3441,
    "reads": 168,
    "completes": 48,
-   "sessions": 3449,
+   "sessions": 3448,
    "read_rate": 0.049,
    "complete_rate": 0.014,
    "pages_per_session": 1,
@@ -112,12 +112,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 40,
-   "reads": 13,
+   "views": 41,
+   "reads": 14,
    "completes": 2,
-   "sessions": 40,
-   "read_rate": 0.325,
-   "complete_rate": 0.05,
+   "sessions": 41,
+   "read_rate": 0.341,
+   "complete_rate": 0.049,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 40,
-   "reads": 13,
-   "sessions": 40
+   "views": 41,
+   "reads": 14,
+   "sessions": 41
   },
   {
    "assistant": "Perplexity",
@@ -307,7 +307,7 @@
   {
    "device": "desktop",
    "views": 2782,
-   "reads": 248,
+   "reads": 249,
    "sessions": 2730
   },
   {
@@ -731,10 +731,10 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 18,
+   "views": 17,
    "reads": 1,
-   "sessions": 18,
-   "avg_dwell_sec": 35
+   "sessions": 17,
+   "avg_dwell_sec": 37
   },
   {
    "path": "/agents.html",
@@ -799,8 +799,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 25,
-   "sessions": 12
+   "hits": 27,
+   "sessions": 13
   },
   {
    "ref": "https://www.perplexity.ai/",
