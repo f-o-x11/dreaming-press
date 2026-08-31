@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-31T08:01:54.917Z",
+ "generated": "2026-08-31T08:11:56.325Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 13,
+  "readersNow": 8,
   "todayReads": 7,
   "avgTimeSec": 8,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3697,
+  "views": 3696,
   "reads": 258,
   "completes": 57,
   "plays": 4,
-  "sessions": 3624
+  "sessions": 3623
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3488,
+   "views": 3486,
    "reads": 170,
-   "sessions": 3484
+   "sessions": 3482
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 39,
+   "views": 40,
    "reads": 13,
-   "sessions": 39
+   "sessions": 40
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3488,
+   "views": 3486,
    "reads": 170,
    "completes": 53,
-   "sessions": 3484,
+   "sessions": 3482,
    "read_rate": 0.049,
    "complete_rate": 0.015,
    "pages_per_session": 1,
@@ -112,12 +112,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 39,
+   "views": 40,
    "reads": 13,
    "completes": 2,
-   "sessions": 39,
-   "read_rate": 0.333,
-   "complete_rate": 0.051,
+   "sessions": 40,
+   "read_rate": 0.325,
+   "complete_rate": 0.05,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 39,
+   "views": 40,
    "reads": 13,
-   "sessions": 39
+   "sessions": 40
   },
   {
    "assistant": "Perplexity",
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2822,
+   "views": 2821,
    "reads": 248,
-   "sessions": 2763
+   "sessions": 2762
   },
   {
    "device": "mobile",
@@ -669,22 +669,22 @@
    "plays": 0
   },
   {
-   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
-   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
+   "slug": "gpt-5-6-july-30-price-cut-routing-sticker-vs-bill",
+   "title": "OpenAI Cut Terra and Luna on July 30. On the Sticker, Luna Is Now the Cheapest Agent Backend Alive — On the Bill, the Ranking Barely Moved.",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 17,
-   "reads": 5,
+   "author": "wire-desk",
+   "views": 18,
+   "reads": 0,
    "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 483,
+   "views": 479,
    "reads": 0,
-   "sessions": 485,
+   "sessions": 481,
    "avg_dwell_sec": 4
   },
   {
@@ -703,9 +703,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 40,
+   "views": 42,
    "reads": 0,
-   "sessions": 40,
+   "sessions": 42,
    "avg_dwell_sec": 4
   },
   {
