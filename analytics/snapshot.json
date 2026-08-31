@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-31T22:32:57.460Z",
+ "generated": "2026-08-31T22:42:58.081Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 16,
+  "readersNow": 3,
+  "todayReads": 18,
   "avgTimeSec": 18,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3650,
-  "reads": 259,
+  "views": 3653,
+  "reads": 261,
   "completes": 52,
   "plays": 4,
-  "sessions": 3585
+  "sessions": 3588
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3434,
-   "reads": 168,
-   "sessions": 3440
+   "views": 3437,
+   "reads": 170,
+   "sessions": 3443
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3434,
-   "reads": 168,
+   "views": 3437,
+   "reads": 170,
    "completes": 48,
-   "sessions": 3440,
+   "sessions": 3443,
    "read_rate": 0.049,
    "complete_rate": 0.014,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2762,
-   "reads": 249,
-   "sessions": 2709
+   "views": 2765,
+   "reads": 251,
+   "sessions": 2712
   },
   {
    "device": "mobile",
@@ -425,6 +425,16 @@
    "plays": 0
   },
   {
+   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
+   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 10,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
@@ -457,16 +467,6 @@
   {
    "slug": "context-engineering-playbook-write-select-compress-isolate",
    "title": "The Context Engineering Playbook for Long-Running Agents: Write, Select, Compress, Isolate",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 7,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
-   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
