@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-31T00:05:47.397Z",
+ "generated": "2026-08-31T00:16:16.239Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8585,
+ "verifiedAiHits": 8587,
  "logsScanned": 30,
  "windowStart": "2026-08-17",
  "windowEnd": "2026-08-31",
- "totalHits": 115319,
- "aiHits": 93147,
+ "totalHits": 115361,
+ "aiHits": 93183,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 26628,
+   "hits": 26653,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15015,
+   "hits": 15023,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -146,10 +146,10 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6915,
-   "verifiedHits": 6704,
+   "hits": 6919,
+   "verifiedHits": 6708,
    "firstSeen": "2026-08-17",
-   "lastSeen": "2026-08-30",
+   "lastSeen": "2026-08-31",
    "topPaths": [
     {
      "path": "/build",
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3899,
-   "verifiedHits": 3599,
+   "hits": 3901,
+   "verifiedHits": 3601,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
    "topPaths": [
@@ -231,7 +231,7 @@
     },
     {
      "path": "/posts/ai-coding-agent-ranking-2026.html",
-     "hits": 139
+     "hits": 140
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -278,10 +278,10 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2797,
+   "hits": 2799,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
-   "lastSeen": "2026-08-30",
+   "lastSeen": "2026-08-31",
    "topPaths": [
     {
      "path": "/build",
@@ -509,10 +509,10 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 367,
+   "hits": 368,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
-   "lastSeen": "2026-08-30",
+   "lastSeen": "2026-08-31",
    "topPaths": [
     {
      "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
