@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-31T00:26:46.246Z",
+ "generated": "2026-08-31T00:36:47.609Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8588,
+ "verifiedAiHits": 8589,
  "logsScanned": 30,
  "windowStart": "2026-08-17",
  "windowEnd": "2026-08-31",
- "totalHits": 115384,
- "aiHits": 93198,
+ "totalHits": 115408,
+ "aiHits": 93219,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 26658,
+   "hits": 26670,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15030,
+   "hits": 15037,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6923,
-   "verifiedHits": 6712,
+   "hits": 6924,
+   "verifiedHits": 6713,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
    "topPaths": [
@@ -245,14 +245,14 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3133,
+   "hits": 3134,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
    "topPaths": [
     {
      "path": "/",
-     "hits": 30
+     "hits": 31
     },
     {
      "path": "/stack.html",
@@ -311,7 +311,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 2648,
+   "hits": 2649,
    "verifiedHits": 2412,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -377,8 +377,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2243,
-   "verifiedHits": 1988,
+   "hits": 2244,
+   "verifiedHits": 1989,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
    "topPaths": [
@@ -410,10 +410,10 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1932,
+   "hits": 1933,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
-   "lastSeen": "2026-08-30",
+   "lastSeen": "2026-08-31",
    "topPaths": [
     {
      "path": "/build",
