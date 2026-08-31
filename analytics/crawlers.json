@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-31T22:02:32.817Z",
+ "generated": "2026-08-31T22:12:36.374Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9038,
+ "verifiedAiHits": 9048,
  "logsScanned": 30,
  "windowStart": "2026-08-17",
  "windowEnd": "2026-08-31",
- "totalHits": 121482,
- "aiHits": 97214,
+ "totalHits": 121534,
+ "aiHits": 97243,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28482,
+   "hits": 28494,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15927,
+   "hits": 15934,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7310,
-   "verifiedHits": 7099,
+   "hits": 7315,
+   "verifiedHits": 7104,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
    "topPaths": [
@@ -157,7 +157,7 @@
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
-     "hits": 222
+     "hits": 223
     },
     {
      "path": "/posts/time-on-site.html",
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 4141,
-   "verifiedHits": 3841,
+   "hits": 4142,
+   "verifiedHits": 3842,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3118,
+   "hits": 3122,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2888,
+   "hits": 2902,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -410,14 +410,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2428,
-   "verifiedHits": 2173,
+   "hits": 2437,
+   "verifiedHits": 2182,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 32
+     "hits": 33
     },
     {
      "path": "/",
