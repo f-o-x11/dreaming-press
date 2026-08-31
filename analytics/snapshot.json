@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-31T14:56:13.957Z",
+ "generated": "2026-08-31T15:06:17.139Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,8 +8,8 @@
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3672,
-  "reads": 260,
+  "views": 3665,
+  "reads": 259,
   "completes": 54,
   "plays": 4,
   "sessions": 3601
@@ -17,8 +17,8 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3459,
-   "reads": 170,
+   "views": 3452,
+   "reads": 169,
    "sessions": 3459
   },
   {
@@ -73,14 +73,14 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 17
+   "sessions": 16
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3459,
-   "reads": 170,
+   "views": 3452,
+   "reads": 169,
    "completes": 50,
    "sessions": 3459,
    "read_rate": 0.049,
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 17,
+   "sessions": 16,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -255,12 +255,12 @@
    "sessions": 1
   },
   {
-   "surface": "sb-btn",
+   "surface": "rr-card",
    "clicks": 1,
    "sessions": 1
   },
   {
-   "surface": "rr-card",
+   "surface": "notranslate",
    "clicks": 1,
    "sessions": 1
   }
@@ -306,8 +306,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2798,
-   "reads": 250,
+   "views": 2791,
+   "reads": 249,
    "sessions": 2739
   },
   {
@@ -682,24 +682,17 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 472,
+   "views": 473,
    "reads": 0,
-   "sessions": 473,
+   "sessions": 474,
    "avg_dwell_sec": 4
   },
   {
    "path": "/",
-   "views": 105,
-   "reads": 7,
-   "sessions": 103,
-   "avg_dwell_sec": 43
-  },
-  {
-   "path": "/build",
-   "views": 39,
-   "reads": 0,
-   "sessions": 38,
-   "avg_dwell_sec": 5
+   "views": 102,
+   "reads": 6,
+   "sessions": 102,
+   "avg_dwell_sec": 44
   },
   {
    "path": "/best/:cat",
@@ -714,6 +707,13 @@
    "reads": 1,
    "sessions": 37,
    "avg_dwell_sec": 49
+  },
+  {
+   "path": "/build",
+   "views": 36,
+   "reads": 0,
+   "sessions": 37,
+   "avg_dwell_sec": 4
   },
   {
    "path": "/weekly",
