@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-31T06:30:57.050Z",
+ "generated": "2026-08-31T06:41:06.302Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8703,
+ "verifiedAiHits": 8705,
  "logsScanned": 30,
  "windowStart": "2026-08-17",
  "windowEnd": "2026-08-31",
- "totalHits": 116931,
- "aiHits": 94520,
+ "totalHits": 116962,
+ "aiHits": 94545,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27159,
+   "hits": 27175,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15282,
+   "hits": 15289,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -146,14 +146,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7021,
-   "verifiedHits": 6810,
+   "hits": 7024,
+   "verifiedHits": 6813,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 264
+     "hits": 265
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3963,
-   "verifiedHits": 3663,
+   "hits": 3965,
+   "verifiedHits": 3665,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1957,
+   "hits": 1958,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -443,7 +443,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 960,
+   "hits": 962,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",

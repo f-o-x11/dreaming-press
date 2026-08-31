@@ -1,12 +1,12 @@
-# Analytics brief — auto-exported 2026-08-31T06:30Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-31T06:41Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3695 views → 256 engaged reads → 57 completes · 3621 sessions.
-- Channels: direct 170r/3489v · organic 42r/80v · referral 17r/61v · campaign:chatgpt.com 12r/36v · ai 12r/22v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/2v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 12r/36v · Perplexity 8r/12v · Doubao 3r/4v · Copilot 2r/2v · Yuanbao 1r/1v · Kimi 0r/5v.
-- Referrers: bing.com, cn.bing.com, chatgpt.com, perplexity.ai, duckduckgo.com, google.com, 127.0.0.1:49608, nav-cmp, 114.114.114.114:9421, doubao.com.
+- Funnel: 3695 views → 257 engaged reads → 57 completes · 3620 sessions.
+- Channels: direct 170r/3488v · organic 42r/80v · referral 17r/61v · ai 13r/23v · campaign:chatgpt.com 12r/36v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/2v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 12r/36v · Perplexity 8r/12v · Doubao 4r/5v · Copilot 2r/2v · Yuanbao 1r/1v · Kimi 0r/5v.
+- Referrers: bing.com, cn.bing.com, chatgpt.com, perplexity.ai, duckduckgo.com, google.com, 127.0.0.1:49608, nav-cmp, doubao.com, 114.114.114.114:9421.
 - Engaged-read winners by section: stack=7, wire=8.
 
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
@@ -23,12 +23,12 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3489 views · read 4.9% · complete 1.5% · 1 pages/session · median 4s
+- direct: 3488 views · read 4.9% · complete 1.5% · 1 pages/session · median 4s
 - organic: 80 views · read 52.5% · complete 1.3% · 1.03 pages/session · median 3s
 - referral: 61 views · read 27.9% · complete 1.6% · 1.11 pages/session · median ?s
 - campaign:chatgpt.com: 36 views · read 33.3% · complete 2.8% · 1 pages/session · median ?s
-- ai: 22 views · read 54.5% · complete 0.0% · 0.69 pages/session · median 20s
-INSIGHT: ai converts 11x better per view than direct, which is 94% of all views.
+- ai: 23 views · read 56.5% · complete 0.0% · 0.7 pages/session · median 20s
+INSIGHT: ai converts 12x better per view than direct, which is 94% of all views.
 One visitor from ai is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
@@ -37,7 +37,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG" — 12 reads, 24 views, 0 listens
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 7 reads, 36 views, 0 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 5 reads, 23 views, 0 listens
-- [wire] "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest" — 5 reads, 16 views, 0 listens
+- [wire] "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest" — 5 reads, 17 views, 0 listens
 - [wire] "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy" — 5 reads, 12 views, 0 listens
 - [wire] "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks" — 5 reads, 10 views, 0 listens
 - [wire] "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory" — 5 reads, 8 views, 0 listens
@@ -54,10 +54,10 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 481 views, 0 reads, 483 sessions, avg 4s
+- /stack/:tool — 482 views, 0 reads, 484 sessions, avg 4s
 - / — 106 views, 7 reads, 104 sessions, avg 41s
-- /build — 45 views, 0 reads, 44 sessions, avg 5s
-- /best/:cat — 40 views, 0 reads, 41 sessions, avg 4s
+- /build — 46 views, 0 reads, 45 sessions, avg 5s
+- /best/:cat — 40 views, 0 reads, 40 sessions, avg 4s
 - /compare/:pair — 37 views, 1 reads, 37 sessions, avg 49s
 - /weekly — 28 views, 0 reads, 28 sessions, avg 5s
 - /tools — 23 views, 0 reads, 23 sessions, avg 8s
@@ -66,7 +66,7 @@ ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
-- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 81 views, 0 reads
+- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 80 views, 0 reads
 - [wire] "The Founder's Wire, August 20: OpenAI Puts Ads in ChatGPT Across 31 European Countries, Claude Autonomously Designed Working Protein Binders for 14 of 15 Targets, and Rillet Hit a $1B Valuation for AI Accounting" — 67 views, 0 reads
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 36 views, 7 reads
 - [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 35 views, 1 reads
@@ -78,7 +78,7 @@ These pulled real traffic and then lost it. The click already worked, so the
 problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
-- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 81 views but only 0 engaged reads (0.0%)
+- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 80 views but only 0 engaged reads (0.0%)
 - [wire] "The Founder's Wire, August 20: OpenAI Puts Ads in ChatGPT Across 31 European Countries, Claude Autonomously Designed Working Protein Binders for 14 of 15 Targets, and Rillet Hit a $1B Valuation for AI Accounting" — 67 views but only 0 engaged reads (0.0%)
 - [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 35 views but only 1 engaged reads (2.9%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
@@ -101,7 +101,7 @@ sample size dwarfs the engaged-read counts below.
 - /tags/opinionated  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3663 verified): / ×496 · /posts/agent-funding-august-2026-control-won-the-summer.html ×346 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×203
+- ChatGPT-User (3665 verified): / ×496 · /posts/agent-funding-august-2026-control-won-the-summer.html ×346 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×203
 - OAI-SearchBot (2039 verified): /build ×31 · / ×11 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×8
 - PerplexityBot (588 verified): / ×30 · /tags/opinionated ×7 · /posts/2026-08-17-founders-wire-stripe-openrouter-imagen-sunset-moonshot-ipo.html ×6
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -118,7 +118,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(33), build(31), startup(30), founder(26), agentic(22), agent(21), building(18), mcp(16), coding(15), one(14), engineering(13), here(12), systems(9), production(9), tools(8).
+Hot terms: agents(33), build(31), startup(30), founder(27), agentic(22), agent(21), building(18), mcp(16), coding(15), one(14), engineering(13), here(12), systems(9), production(9), learn(7).
 Hashtags: #ai, #aiagents, #founder, #entrepreneur, #startup, #agenticai, #motivation, #saas, #grok, #grokbuild.
 High-engagement posts to react to / cite:
 - "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that "the econom" — https://x.com/i/status/2093803322444800052
@@ -151,9 +151,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8703 confirmed AI-engine fetches (ChatGPT (user browsing) 3663, GPTBot (OpenAI) 2413, ChatGPT Search (OpenAI) 2039, Perplexity 588).
+The real answer engines are crawling us — IP-verified: 8705 confirmed AI-engine fetches (ChatGPT (user browsing) 3665, GPTBot (OpenAI) 2413, ChatGPT Search (OpenAI) 2039, Perplexity 588).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 722 crawler fetches
+- /build  — 723 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 346 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 251 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 207 crawler fetches

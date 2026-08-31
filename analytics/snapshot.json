@@ -1,25 +1,25 @@
 {
- "generated": "2026-08-31T06:30:57.616Z",
+ "generated": "2026-08-31T06:41:06.884Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 8,
-  "todayReads": 4,
-  "avgTimeSec": 11,
+  "readersNow": 9,
+  "todayReads": 5,
+  "avgTimeSec": 10,
   "postsThisWeek": 11
  },
  "funnel": {
   "views": 3695,
-  "reads": 256,
+  "reads": 257,
   "completes": 57,
   "plays": 4,
-  "sessions": 3621
+  "sessions": 3620
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3489,
+   "views": 3488,
    "reads": 170,
-   "sessions": 3485
+   "sessions": 3483
   },
   {
    "channel": "organic",
@@ -34,16 +34,16 @@
    "sessions": 55
   },
   {
+   "channel": "ai",
+   "views": 23,
+   "reads": 13,
+   "sessions": 33
+  },
+  {
    "channel": "campaign:chatgpt.com",
    "views": 36,
    "reads": 12,
    "sessions": 36
-  },
-  {
-   "channel": "ai",
-   "views": 22,
-   "reads": 12,
-   "sessions": 32
   },
   {
    "channel": "campaign:copilot.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3489,
+   "views": 3488,
    "reads": 170,
    "completes": 54,
-   "sessions": 3485,
+   "sessions": 3483,
    "read_rate": 0.049,
    "complete_rate": 0.015,
    "pages_per_session": 1,
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 22,
-   "reads": 12,
+   "views": 23,
+   "reads": 13,
    "completes": 0,
-   "sessions": 32,
-   "read_rate": 0.545,
+   "sessions": 33,
+   "read_rate": 0.565,
    "complete_rate": 0,
-   "pages_per_session": 0.69,
+   "pages_per_session": 0.7,
    "median_dwell_sec": 20
   },
   {
@@ -280,9 +280,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 4,
-   "reads": 3,
-   "sessions": 4
+   "views": 5,
+   "reads": 4,
+   "sessions": 5
   },
   {
    "assistant": "Copilot",
@@ -307,8 +307,8 @@
   {
    "device": "desktop",
    "views": 2825,
-   "reads": 246,
-   "sessions": 2765
+   "reads": 247,
+   "sessions": 2764
   },
   {
    "device": "mobile",
@@ -360,7 +360,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 16,
+   "views": 17,
    "reads": 5,
    "plays": 0
   },
@@ -552,7 +552,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 16,
+   "views": 17,
    "reads": 5,
    "plays": 0
   },
@@ -584,7 +584,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 81,
+   "views": 80,
    "reads": 0,
    "plays": 0
   },
@@ -674,7 +674,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 16,
+   "views": 17,
    "reads": 5,
    "plays": 0
   }
@@ -682,9 +682,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 481,
+   "views": 482,
    "reads": 0,
-   "sessions": 483,
+   "sessions": 484,
    "avg_dwell_sec": 4
   },
   {
@@ -696,16 +696,16 @@
   },
   {
    "path": "/build",
-   "views": 45,
+   "views": 46,
    "reads": 0,
-   "sessions": 44,
+   "sessions": 45,
    "avg_dwell_sec": 5
   },
   {
    "path": "/best/:cat",
    "views": 40,
    "reads": 0,
-   "sessions": 41,
+   "sessions": 40,
    "avg_dwell_sec": 4
   },
   {
@@ -828,14 +828,14 @@
    "sessions": 4
   },
   {
+   "ref": "https://www.doubao.com/",
+   "hits": 9,
+   "sessions": 5
+  },
+  {
    "ref": "http://114.114.114.114:9421/",
    "hits": 8,
    "sessions": 6
-  },
-  {
-   "ref": "https://www.doubao.com/",
-   "hits": 7,
-   "sessions": 4
   }
  ]
 }
