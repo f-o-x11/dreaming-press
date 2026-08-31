@@ -1,16 +1,16 @@
 {
- "generated": "2026-08-31T09:02:43.001Z",
+ "generated": "2026-08-31T09:12:49.727Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 6,
   "todayReads": 10,
   "avgTimeSec": 8,
   "postsThisWeek": 11
  },
  "funnel": {
   "views": 3694,
-  "reads": 261,
-  "completes": 57,
+  "reads": 260,
+  "completes": 56,
   "plays": 4,
   "sessions": 3620
  },
@@ -18,7 +18,7 @@
   {
    "channel": "direct",
    "views": 3484,
-   "reads": 173,
+   "reads": 172,
    "sessions": 3479
   },
   {
@@ -80,10 +80,10 @@
   {
    "channel": "direct",
    "views": 3484,
-   "reads": 173,
-   "completes": 53,
+   "reads": 172,
+   "completes": 52,
    "sessions": 3479,
-   "read_rate": 0.05,
+   "read_rate": 0.049,
    "complete_rate": 0.015,
    "pages_per_session": 1,
    "median_dwell_sec": 4
@@ -307,7 +307,7 @@
   {
    "device": "desktop",
    "views": 2821,
-   "reads": 251,
+   "reads": 250,
    "sessions": 2761
   },
   {
@@ -435,16 +435,6 @@
    "plays": 1
   },
   {
-   "slug": "context-engineering-playbook-write-select-compress-isolate",
-   "title": "The Context Engineering Playbook for Long-Running Agents: Write, Select, Compress, Isolate",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "how-to-call-deepseek-v4-flash-responses-api-thinking-mode",
    "title": "How to Call DeepSeek V4 Flash's Responses API — Thinking Mode, reasoning_content, and the 384K Output Budget",
    "section": "stack",
@@ -461,6 +451,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 9,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "context-engineering-playbook-write-select-compress-isolate",
+   "title": "The Context Engineering Playbook for Long-Running Agents: Write, Select, Compress, Isolate",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
    "reads": 3,
    "plays": 0
   },

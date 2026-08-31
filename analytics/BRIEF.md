@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-08-31T09:02Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-31T09:12Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3694 views → 261 engaged reads → 57 completes · 3620 sessions.
-- Channels: direct 173r/3484v · organic 42r/79v · referral 17r/61v · campaign:chatgpt.com 13r/40v · ai 13r/23v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/2v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3694 views → 260 engaged reads → 56 completes · 3620 sessions.
+- Channels: direct 172r/3484v · organic 42r/79v · referral 17r/61v · campaign:chatgpt.com 13r/40v · ai 13r/23v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/2v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 13r/40v · Perplexity 8r/12v · Doubao 4r/5v · Copilot 2r/2v · Yuanbao 1r/1v · Kimi 0r/5v.
 - Referrers: bing.com, cn.bing.com, chatgpt.com, perplexity.ai, duckduckgo.com, google.com, 127.0.0.1:49608, nav-cmp, doubao.com, 114.114.114.114:9421.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -23,12 +23,12 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3484 views · read 5.0% · complete 1.5% · 1 pages/session · median 4s
+- direct: 3484 views · read 4.9% · complete 1.5% · 1 pages/session · median 4s
 - organic: 79 views · read 53.2% · complete 1.3% · 1.03 pages/session · median 3s
 - referral: 61 views · read 27.9% · complete 1.6% · 1.11 pages/session · median ?s
 - campaign:chatgpt.com: 40 views · read 32.5% · complete 5.0% · 1 pages/session · median ?s
 - ai: 23 views · read 56.5% · complete 0.0% · 0.68 pages/session · median 20s
-INSIGHT: ai converts 11x better per view than direct, which is 94% of all views.
+INSIGHT: ai converts 12x better per view than direct, which is 94% of all views.
 One visitor from ai is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
@@ -103,7 +103,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - ChatGPT-User (3696 verified): / ×501 · /posts/agent-funding-august-2026-control-won-the-summer.html ×349 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×204
-- OAI-SearchBot (2060 verified): /build ×31 · / ×11 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×8
+- OAI-SearchBot (2064 verified): /build ×31 · / ×11 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×8
 - PerplexityBot (588 verified): / ×30 · /tags/opinionated ×7 · /posts/2026-08-17-founders-wire-stripe-openrouter-imagen-sunset-moonshot-ipo.html ×6
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -129,7 +129,7 @@ High-engagement posts to react to / cite:
 - "🚀 The AI Agent Engineering Roadmap Want to become an AI Agent Engineer? Don’t just learn tools—build the right foundation. Here’s the step-by-step path 👇 1️⃣ LLM Fundamentals + Reasoning 2️⃣ Context Engineering 3️⃣ Mem" — https://x.com/i/status/2092864711465586795
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (275 of 457 phrases have NO post, 45h ago)
+## Uncovered search demand (275 of 457 phrases have NO post, 46h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -152,9 +152,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8757 confirmed AI-engine fetches (ChatGPT (user browsing) 3696, GPTBot (OpenAI) 2413, ChatGPT Search (OpenAI) 2060, Perplexity 588).
+The real answer engines are crawling us — IP-verified: 8761 confirmed AI-engine fetches (ChatGPT (user browsing) 3696, GPTBot (OpenAI) 2413, ChatGPT Search (OpenAI) 2064, Perplexity 588).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 727 crawler fetches
+- /build  — 728 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 349 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 252 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 209 crawler fetches
