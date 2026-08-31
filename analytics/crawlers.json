@@ -1,12 +1,12 @@
 {
- "generated": "2026-08-31T04:49:54.930Z",
+ "generated": "2026-08-31T05:00:01.277Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8657,
+ "verifiedAiHits": 8659,
  "logsScanned": 30,
  "windowStart": "2026-08-17",
  "windowEnd": "2026-08-31",
- "totalHits": 116592,
- "aiHits": 94226,
+ "totalHits": 116635,
+ "aiHits": 94262,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27025,
+   "hits": 27029,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26266,
+   "hits": 26287,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15210,
+   "hits": 15217,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 12785,
+   "hits": 12786,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6997,
-   "verifiedHits": 6786,
+   "hits": 6998,
+   "verifiedHits": 6787,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
    "topPaths": [
@@ -212,14 +212,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3938,
-   "verifiedHits": 3638,
+   "hits": 3940,
+   "verifiedHits": 3640,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
    "topPaths": [
     {
      "path": "/",
-     "hits": 493
+     "hits": 494
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2819,
+   "hits": 2820,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1950,
+   "hits": 1953,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -418,6 +418,10 @@
     {
      "path": "/build",
      "hits": 5
+    },
+    {
+     "path": "/posts/ai-coding-agent-ranking-2026.html",
+     "hits": 3
     },
     {
      "path": "/posts/mcp-mcp-method-mcp-name-headers-route-at-the-gateway.html",
@@ -430,10 +434,6 @@
     {
      "path": "/posts/agent-tool-call-timeouts-and-cancellation.html",
      "hits": 3
-    },
-    {
-     "path": "/compare/stagehand-vs-steel",
-     "hits": 3
     }
    ],
    "verifiable": false
@@ -443,7 +443,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 958,
+   "hits": 960,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 371,
+   "hits": 372,
    "verifiedHits": 0,
    "firstSeen": "2026-08-17",
    "lastSeen": "2026-08-31",
