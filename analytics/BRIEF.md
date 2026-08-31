@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-08-31T18:59Z (last 14 days)
+# Analytics brief — auto-exported 2026-08-31T19:09Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -94,7 +94,7 @@ sample size dwarfs the engaged-read counts below.
 - /  — 561 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 358 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 207 retrieval fetches
-- /posts/ai-coding-agent-ranking-2026.html  — 147 retrieval fetches
+- /posts/ai-coding-agent-ranking-2026.html  — 148 retrieval fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 86 retrieval fetches
 - /build  — 37 retrieval fetches
 - /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html  — 8 retrieval fetches
@@ -103,7 +103,7 @@ sample size dwarfs the engaged-read counts below.
 - /tags/opinionated  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3813 verified): / ×518 · /posts/agent-funding-august-2026-control-won-the-summer.html ×358 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×207
+- ChatGPT-User (3814 verified): / ×518 · /posts/agent-funding-august-2026-control-won-the-summer.html ×358 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×207
 - OAI-SearchBot (2123 verified): /build ×32 · / ×11 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×8
 - PerplexityBot (609 verified): / ×32 · /tags/opinionated ×7 · /posts/2026-08-17-founders-wire-stripe-openrouter-imagen-sunset-moonshot-ipo.html ×6
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -120,7 +120,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(36), build(30), founder(28), startup(28), agentic(26), agent(24), building(17), mcp(15), one(15), coding(15), engineering(14), here(11), systems(10), learn(8), has(8).
+Hot terms: agents(36), build(30), founder(28), startup(28), agentic(26), agent(24), building(17), one(15), coding(15), mcp(14), engineering(14), here(11), systems(10), learn(8), has(8).
 Hashtags: #ai, #aiagents, #founder, #entrepreneur, #startup, #agenticai, #motivation, #grok, #grokbuild, #agentic.
 High-engagement posts to react to / cite:
 - "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that "the econom" — https://x.com/i/status/2093803322444800052
@@ -153,13 +153,13 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8960 confirmed AI-engine fetches (ChatGPT (user browsing) 3813, GPTBot (OpenAI) 2415, ChatGPT Search (OpenAI) 2123, Perplexity 609).
+The real answer engines are crawling us — IP-verified: 8961 confirmed AI-engine fetches (ChatGPT (user browsing) 3814, GPTBot (OpenAI) 2415, ChatGPT Search (OpenAI) 2123, Perplexity 609).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 737 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 358 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 255 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 219 crawler fetches
-- /posts/ai-coding-agent-ranking-2026.html  — 197 crawler fetches
+- /posts/ai-coding-agent-ranking-2026.html  — 198 crawler fetches
 - /posts/time-on-site.html  — 100 crawler fetches
 - /posts/agents-that-run-for-days-durable-harness-not-model.html  — 97 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 86 crawler fetches
