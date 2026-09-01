@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-01T13:36:16.963Z",
+ "generated": "2026-09-01T13:46:47.484Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 2,
   "todayReads": 15,
   "avgTimeSec": 21,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3646,
+  "views": 3644,
   "reads": 268,
   "completes": 53,
   "plays": 5,
-  "sessions": 3578
+  "sessions": 3575
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3428,
+   "views": 3426,
    "reads": 175,
-   "sessions": 3433
+   "sessions": 3430
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3428,
+   "views": 3426,
    "reads": 175,
    "completes": 49,
-   "sessions": 3433,
+   "sessions": 3430,
    "read_rate": 0.051,
    "complete_rate": 0.014,
    "pages_per_session": 1,
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2751,
+   "views": 2748,
    "reads": 261,
-   "sessions": 2693
+   "sessions": 2689
   },
   {
    "device": "mobile",
-   "views": 895,
+   "views": 896,
    "reads": 7,
-   "sessions": 885
+   "sessions": 886
   }
  ],
  "topContent": [
@@ -439,22 +439,22 @@
    "plays": 0
   },
   {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 13,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
    "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 13,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 12,
    "reads": 3,
    "plays": 0
   },
@@ -706,7 +706,7 @@
    "path": "/build",
    "views": 32,
    "reads": 0,
-   "sessions": 33,
+   "sessions": 32,
    "avg_dwell_sec": 4
   },
   {
