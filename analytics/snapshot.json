@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-01T03:06:03.290Z",
+ "generated": "2026-09-01T03:16:07.085Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 2,
-  "avgTimeSec": 13,
+  "avgTimeSec": 12,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3644,
+  "views": 3641,
   "reads": 263,
   "completes": 52,
   "plays": 4,
-  "sessions": 3579
+  "sessions": 3576
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3428,
+   "views": 3424,
    "reads": 172,
-   "sessions": 3435
+   "sessions": 3431
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 43,
+   "views": 44,
    "reads": 15,
-   "sessions": 43
+   "sessions": 44
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3428,
+   "views": 3424,
    "reads": 172,
    "completes": 48,
-   "sessions": 3435,
+   "sessions": 3431,
    "read_rate": 0.05,
    "complete_rate": 0.014,
    "pages_per_session": 1,
@@ -112,12 +112,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 43,
+   "views": 44,
    "reads": 15,
    "completes": 2,
-   "sessions": 43,
-   "read_rate": 0.349,
-   "complete_rate": 0.047,
+   "sessions": 44,
+   "read_rate": 0.341,
+   "complete_rate": 0.045,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 43,
+   "views": 44,
    "reads": 15,
-   "sessions": 43
+   "sessions": 44
   },
   {
    "assistant": "Perplexity",
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2755,
+   "views": 2753,
    "reads": 253,
-   "sessions": 2702
+   "sessions": 2700
   },
   {
    "device": "mobile",
-   "views": 887,
+   "views": 886,
    "reads": 8,
-   "sessions": 875
+   "sessions": 874
   },
   {
    "device": "tablet",
@@ -604,7 +604,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 38,
+   "views": 39,
    "reads": 1,
    "plays": 0
   },
@@ -682,9 +682,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 453,
+   "views": 454,
    "reads": 0,
-   "sessions": 453,
+   "sessions": 454,
    "avg_dwell_sec": 4
   },
   {
