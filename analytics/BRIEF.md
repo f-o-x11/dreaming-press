@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-01T22:45Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-01T22:55Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -105,7 +105,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - ChatGPT-User (3557 verified): / ×546 · /posts/agent-funding-august-2026-control-won-the-summer.html ×331 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×189
-- OAI-SearchBot (2462 verified): /build ×36 · / ×13 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×10
+- OAI-SearchBot (2468 verified): /build ×36 · / ×13 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×10
 - PerplexityBot (392 verified): / ×31 · /tags/opinionated ×7 · /posts/2026-08-17-founders-wire-stripe-openrouter-imagen-sunset-moonshot-ipo.html ×6
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -154,7 +154,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8781 confirmed AI-engine fetches (ChatGPT (user browsing) 3557, ChatGPT Search (OpenAI) 2462, GPTBot (OpenAI) 2370, Perplexity 392).
+The real answer engines are crawling us — IP-verified: 8787 confirmed AI-engine fetches (ChatGPT (user browsing) 3557, ChatGPT Search (OpenAI) 2468, GPTBot (OpenAI) 2370, Perplexity 392).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 727 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 331 crawler fetches
