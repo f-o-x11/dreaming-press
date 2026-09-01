@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-01T12:55:16.861Z",
+ "generated": "2026-09-01T13:05:26.873Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -28,7 +28,7 @@
   },
   {
    "term": "startup",
-   "count": 26
+   "count": 27
   },
   {
    "term": "coding",
@@ -36,7 +36,7 @@
   },
   {
    "term": "building",
-   "count": 15
+   "count": 16
   },
   {
    "term": "one",
@@ -63,6 +63,10 @@
    "count": 9
   },
   {
+   "term": "tools",
+   "count": 8
+  },
+  {
    "term": "every",
    "count": 8
   },
@@ -79,10 +83,6 @@
    "count": 7
   },
   {
-   "term": "tools",
-   "count": 7
-  },
-  {
    "term": "don",
    "count": 6
   }
@@ -90,22 +90,14 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 6
-  },
-  {
-   "term": "#founder",
-   "count": 4
+   "count": 5
   },
   {
    "term": "#aiagents",
    "count": 3
   },
   {
-   "term": "#entrepreneur",
-   "count": 3
-  },
-  {
-   "term": "#startup",
+   "term": "#founder",
    "count": 3
   },
   {
@@ -113,7 +105,11 @@
    "count": 2
   },
   {
-   "term": "#motivation",
+   "term": "#entrepreneur",
+   "count": 2
+  },
+  {
+   "term": "#startup",
    "count": 2
   },
   {
@@ -134,6 +130,10 @@
   },
   {
    "term": "#generativeai",
+   "count": 1
+  },
+  {
+   "term": "#python",
    "count": 1
   }
  ],
