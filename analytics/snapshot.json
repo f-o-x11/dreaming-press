@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-01T23:15:48.791Z",
+ "generated": "2026-09-01T23:25:58.983Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 22,
   "avgTimeSec": 18,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3643,
-  "reads": 268,
-  "completes": 52,
+  "views": 3640,
+  "reads": 265,
+  "completes": 49,
   "plays": 5,
-  "sessions": 3571
+  "sessions": 3567
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3425,
-   "reads": 174,
-   "sessions": 3427
+   "views": 3422,
+   "reads": 171,
+   "sessions": 3423
   },
   {
    "channel": "organic",
@@ -79,12 +79,12 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3425,
-   "reads": 174,
-   "completes": 49,
-   "sessions": 3427,
-   "read_rate": 0.051,
-   "complete_rate": 0.014,
+   "views": 3422,
+   "reads": 171,
+   "completes": 46,
+   "sessions": 3423,
+   "read_rate": 0.05,
+   "complete_rate": 0.013,
    "pages_per_session": 1,
    "median_dwell_sec": 4
   },
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2739,
-   "reads": 261,
-   "sessions": 2676
+   "views": 2736,
+   "reads": 258,
+   "sessions": 2672
   },
   {
    "device": "mobile",
@@ -369,16 +369,6 @@
    "plays": 0
   },
   {
-   "slug": "reasoning-effort-vs-thinking-budget",
-   "title": "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 11,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
    "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
    "section": "wire",
@@ -395,16 +385,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 24,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "how-to-call-deepseek-v4-flash-responses-api-thinking-mode",
-   "title": "How to Call DeepSeek V4 Flash's Responses API — Thinking Mode, reasoning_content, and the 384K Output Budget",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 13,
    "reads": 4,
    "plays": 0
   },
@@ -459,6 +439,16 @@
    "plays": 0
   },
   {
+   "slug": "how-to-call-deepseek-v4-flash-responses-api-thinking-mode",
+   "title": "How to Call DeepSeek V4 Flash's Responses API — Thinking Mode, reasoning_content, and the 384K Output Budget",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 13,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
    "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
    "section": "wire",
@@ -467,6 +457,16 @@
    "views": 13,
    "reads": 3,
    "plays": 0
+  },
+  {
+   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
+   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 9,
+   "reads": 3,
+   "plays": 1
   }
  ],
  "topListens": [
