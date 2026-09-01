@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-01T13:57:17.066Z",
+ "generated": "2026-09-01T14:07:47.400Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -15,10 +15,6 @@
    "count": 29
   },
   {
-   "term": "agentic",
-   "count": 28
-  },
-  {
    "term": "build",
    "count": 28
   },
@@ -31,11 +27,15 @@
    "count": 28
   },
   {
+   "term": "agentic",
+   "count": 27
+  },
+  {
    "term": "coding",
    "count": 19
   },
   {
-   "term": "mcp",
+   "term": "building",
    "count": 15
   },
   {
@@ -43,7 +43,7 @@
    "count": 15
   },
   {
-   "term": "building",
+   "term": "mcp",
    "count": 14
   },
   {
@@ -93,15 +93,11 @@
    "count": 5
   },
   {
-   "term": "#aiagents",
-   "count": 3
-  },
-  {
    "term": "#founder",
    "count": 3
   },
   {
-   "term": "#agenticai",
+   "term": "#aiagents",
    "count": 2
   },
   {
@@ -125,15 +121,19 @@
    "count": 1
   },
   {
-   "term": "#innovaticslab",
+   "term": "#opensource",
    "count": 1
   },
   {
-   "term": "#generativeai",
+   "term": "#agenticai",
    "count": 1
   },
   {
-   "term": "#python",
+   "term": "#mcp",
+   "count": 1
+  },
+  {
+   "term": "#aws",
    "count": 1
   }
  ],
