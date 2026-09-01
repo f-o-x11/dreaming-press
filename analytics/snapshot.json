@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-01T19:22:17.217Z",
+ "generated": "2026-09-01T19:32:46.830Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 21,
   "avgTimeSec": 19,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3653,
-  "reads": 270,
+  "views": 3652,
+  "reads": 268,
   "completes": 52,
   "plays": 5,
-  "sessions": 3582
+  "sessions": 3583
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3433,
+   "views": 3434,
    "reads": 174,
-   "sessions": 3437
+   "sessions": 3438
   },
   {
    "channel": "organic",
-   "views": 88,
-   "reads": 47,
-   "sessions": 82
+   "views": 86,
+   "reads": 45,
+   "sessions": 80
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3433,
+   "views": 3434,
    "reads": 174,
    "completes": 49,
-   "sessions": 3437,
+   "sessions": 3438,
    "read_rate": 0.051,
    "complete_rate": 0.014,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 88,
-   "reads": 47,
+   "views": 86,
+   "reads": 45,
    "completes": 0,
-   "sessions": 82,
-   "read_rate": 0.534,
+   "sessions": 80,
+   "read_rate": 0.523,
    "complete_rate": 0,
    "pages_per_session": 1.07,
    "median_dwell_sec": 3
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2752,
-   "reads": 263,
-   "sessions": 2690
+   "views": 2751,
+   "reads": 261,
+   "sessions": 2691
   },
   {
    "device": "mobile",
@@ -516,7 +516,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 5,
+   "views": 6,
    "reads": 0,
    "plays": 1
   },
@@ -633,6 +633,16 @@
    "plays": 0
   },
   {
+   "slug": "gpt-5-6-july-30-price-cut-routing-sticker-vs-bill",
+   "title": "OpenAI Cut Terra and Luna on July 30. On the Sticker, Luna Is Now the Cheapest Agent Backend Alive — On the Bill, the Ranking Barely Moved.",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 23,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "gpu-rental-price-map-h100-h200-b200-august-2026",
    "title": "What It Actually Costs to Rent an H100, H200, or B200 in August 2026",
    "section": "stack",
@@ -643,13 +653,13 @@
    "plays": 0
   },
   {
-   "slug": "gpt-5-6-july-30-price-cut-routing-sticker-vs-bill",
-   "title": "OpenAI Cut Terra and Luna on July 30. On the Sticker, Luna Is Now the Cheapest Agent Backend Alive — On the Bill, the Ranking Barely Moved.",
+   "slug": "2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell",
+   "title": "The Founder's Wire, August 23: OpenAI Shut Off Data Retention for Frontier Models, an Ex-OpenAI Nonprofit Graded Everyone's Rogue-Model Defenses (Top Mark: C+), and Google Bought Into the Silicon Under Its Own Chips",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 22,
-   "reads": 0,
+   "views": 19,
+   "reads": 2,
    "plays": 0
   },
   {
@@ -658,18 +668,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 19,
-   "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell",
-   "title": "The Founder's Wire, August 23: OpenAI Shut Off Data Retention for Frontier Models, an Ex-OpenAI Nonprofit Graded Everyone's Rogue-Model Defenses (Top Mark: C+), and Google Bought Into the Silicon Under Its Own Chips",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 19,
-   "reads": 2,
+   "views": 18,
+   "reads": 1,
    "plays": 0
   }
  ],
@@ -788,8 +788,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 35,
-   "sessions": 20
+   "hits": 33,
+   "sessions": 19
   },
   {
    "ref": "https://chatgpt.com/",
@@ -798,8 +798,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 21,
-   "sessions": 13
+   "hits": 19,
+   "sessions": 12
   },
   {
    "ref": "https://www.perplexity.ai/",
