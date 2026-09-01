@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-01T02:35:43.039Z",
+ "generated": "2026-09-01T02:45:46.448Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8377,
+ "verifiedAiHits": 8379,
  "logsScanned": 30,
  "windowStart": "2026-08-18",
  "windowEnd": "2026-09-01",
- "totalHits": 116702,
- "aiHits": 93345,
+ "totalHits": 116746,
+ "aiHits": 93369,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27429,
+   "hits": 27445,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15049,
+   "hits": 15055,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6778,
-   "verifiedHits": 6573,
+   "hits": 6781,
+   "verifiedHits": 6576,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
    "topPaths": [
@@ -274,6 +274,39 @@
    "verifiable": false
   },
   {
+   "name": "Applebot",
+   "label": "Applebot (Siri / Spotlight)",
+   "category": "search",
+   "home": "https://support.apple.com/en-us/119829",
+   "hits": 3050,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-18",
+   "lastSeen": "2026-09-01",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 7
+    },
+    {
+     "path": "/posts/ai-coding-agent-ranking-2026.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/mcp-mcp-method-mcp-name-headers-route-at-the-gateway.html",
+     "hits": 3
+    },
+    {
+     "path": "/authors/margaux",
+     "hits": 3
+    },
+    {
+     "path": "/posts/agent-tool-call-timeouts-and-cancellation.html",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Baiduspider",
    "label": "Baidu",
    "category": "search",
@@ -302,39 +335,6 @@
     {
      "path": "/posts/2026-08-20-founders-wire-chatgpt-ads-claude-protein-rillet.html",
      "hits": 4
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "Applebot",
-   "label": "Applebot (Siri / Spotlight)",
-   "category": "search",
-   "home": "https://support.apple.com/en-us/119829",
-   "hits": 3034,
-   "verifiedHits": 0,
-   "firstSeen": "2026-08-18",
-   "lastSeen": "2026-09-01",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 7
-    },
-    {
-     "path": "/posts/ai-coding-agent-ranking-2026.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/mcp-mcp-method-mcp-name-headers-route-at-the-gateway.html",
-     "hits": 3
-    },
-    {
-     "path": "/authors/margaux",
-     "hits": 3
-    },
-    {
-     "path": "/posts/agent-tool-call-timeouts-and-cancellation.html",
-     "hits": 3
     }
    ],
    "verifiable": false
@@ -377,8 +377,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2529,
-   "verifiedHits": 2275,
+   "hits": 2531,
+   "verifiedHits": 2277,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 974,
+   "hits": 975,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
