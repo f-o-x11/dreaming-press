@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-01T15:39:16.973Z",
+ "generated": "2026-09-01T15:49:34.308Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8619,
+ "verifiedAiHits": 8623,
  "logsScanned": 30,
  "windowStart": "2026-08-18",
  "windowEnd": "2026-09-01",
- "totalHits": 120544,
- "aiHits": 95770,
+ "totalHits": 120580,
+ "aiHits": 95798,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28590,
+   "hits": 28598,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 26040,
+   "hits": 26043,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
@@ -69,8 +69,8 @@
      "hits": 11
     },
     {
-     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 8
+     "path": "/",
+     "hits": 9
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15635,
+   "hits": 15644,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 12643,
+   "hits": 12645,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3942,
+   "hits": 3949,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3781,
-   "verifiedHits": 3485,
+   "hits": 3785,
+   "verifiedHits": 3489,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 986,
+   "hits": 987,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
@@ -608,11 +608,15 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 31,
+   "hits": 33,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
-   "lastSeen": "2026-08-31",
+   "lastSeen": "2026-09-01",
    "topPaths": [
+    {
+     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
+     "hits": 1
+    },
     {
      "path": "/posts/how-to-handle-a-truncated-llm-response.html",
      "hits": 1
@@ -627,10 +631,6 @@
     },
     {
      "path": "/posts/build-an-ai-agent-from-scratch-the-loop-no-framework.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/webhooks-vs-polling-for-long-running-agent-tasks.html",
      "hits": 1
     }
    ],
