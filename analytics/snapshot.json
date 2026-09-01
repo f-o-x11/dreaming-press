@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-01T18:21:17.190Z",
+ "generated": "2026-09-01T18:31:35.570Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 14,
+  "readersNow": 16,
   "todayReads": 21,
   "avgTimeSec": 16,
   "postsThisWeek": 9
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3436,
+   "views": 3435,
    "reads": 175,
-   "sessions": 3439
+   "sessions": 3438
   },
   {
    "channel": "organic",
-   "views": 87,
+   "views": 88,
    "reads": 47,
-   "sessions": 81
+   "sessions": 82
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3436,
+   "views": 3435,
    "reads": 175,
    "completes": 49,
-   "sessions": 3439,
+   "sessions": 3438,
    "read_rate": 0.051,
    "complete_rate": 0.014,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 87,
+   "views": 88,
    "reads": 47,
    "completes": 0,
-   "sessions": 81,
-   "read_rate": 0.54,
+   "sessions": 82,
+   "read_rate": 0.534,
    "complete_rate": 0,
    "pages_per_session": 1.07,
    "median_dwell_sec": 3
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2757,
+   "views": 2755,
    "reads": 264,
-   "sessions": 2695
+   "sessions": 2693
   },
   {
    "device": "mobile",
-   "views": 900,
+   "views": 902,
    "reads": 7,
-   "sessions": 890
+   "sessions": 892
   }
  ],
  "topContent": [
@@ -690,10 +690,10 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 43,
+   "views": 44,
    "reads": 1,
-   "sessions": 43,
-   "avg_dwell_sec": 42
+   "sessions": 44,
+   "avg_dwell_sec": 40
   },
   {
    "path": "/best/:cat",
@@ -710,13 +710,6 @@
    "avg_dwell_sec": 4
   },
   {
-   "path": "/weekly",
-   "views": 19,
-   "reads": 0,
-   "sessions": 19,
-   "avg_dwell_sec": 6
-  },
-  {
    "path": "/topics/:topic",
    "views": 18,
    "reads": 1,
@@ -724,10 +717,17 @@
    "avg_dwell_sec": 41
   },
   {
-   "path": "/tools",
-   "views": 17,
+   "path": "/weekly",
+   "views": 18,
    "reads": 0,
-   "sessions": 17,
+   "sessions": 18,
+   "avg_dwell_sec": 6
+  },
+  {
+   "path": "/tools",
+   "views": 16,
+   "reads": 0,
+   "sessions": 16,
    "avg_dwell_sec": 7
   },
   {
@@ -798,8 +798,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 20,
-   "sessions": 12
+   "hits": 21,
+   "sessions": 13
   },
   {
    "ref": "https://www.perplexity.ai/",
