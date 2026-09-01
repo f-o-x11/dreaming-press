@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-01T13:05:26.928Z",
+ "generated": "2026-09-01T13:15:26.999Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 13,
   "avgTimeSec": 21,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3648,
+  "views": 3645,
   "reads": 266,
   "completes": 53,
   "plays": 5,
-  "sessions": 3580
+  "sessions": 3577
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3430,
+   "views": 3427,
    "reads": 174,
-   "sessions": 3435
+   "sessions": 3432
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3430,
+   "views": 3427,
    "reads": 174,
    "completes": 49,
-   "sessions": 3435,
+   "sessions": 3432,
    "read_rate": 0.051,
    "complete_rate": 0.014,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2755,
+   "views": 2752,
    "reads": 259,
-   "sessions": 2697
+   "sessions": 2694
   },
   {
    "device": "mobile",
@@ -633,6 +633,16 @@
    "plays": 0
   },
   {
+   "slug": "gpt-5-6-july-30-price-cut-routing-sticker-vs-bill",
+   "title": "OpenAI Cut Terra and Luna on July 30. On the Sticker, Luna Is Now the Cheapest Agent Backend Alive — On the Bill, the Ranking Barely Moved.",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 21,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "ai-coding-agent-ranking-2026",
    "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
    "section": "stack",
@@ -653,16 +663,6 @@
    "plays": 0
   },
   {
-   "slug": "gpt-5-6-july-30-price-cut-routing-sticker-vs-bill",
-   "title": "OpenAI Cut Terra and Luna on July 30. On the Sticker, Luna Is Now the Cheapest Agent Backend Alive — On the Bill, the Ranking Barely Moved.",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 20,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell",
    "title": "The Founder's Wire, August 23: OpenAI Shut Off Data Retention for Frontier Models, an Ex-OpenAI Nonprofit Graded Everyone's Rogue-Model Defenses (Top Mark: C+), and Google Bought Into the Silicon Under Its Own Chips",
    "section": "wire",
@@ -676,9 +676,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 434,
+   "views": 433,
    "reads": 0,
-   "sessions": 433,
+   "sessions": 432,
    "avg_dwell_sec": 4
   },
   {
@@ -696,18 +696,18 @@
    "avg_dwell_sec": 4
   },
   {
-   "path": "/build",
-   "views": 35,
-   "reads": 0,
-   "sessions": 36,
-   "avg_dwell_sec": 4
-  },
-  {
    "path": "/compare/:pair",
    "views": 35,
    "reads": 1,
    "sessions": 35,
    "avg_dwell_sec": 52
+  },
+  {
+   "path": "/build",
+   "views": 34,
+   "reads": 0,
+   "sessions": 35,
+   "avg_dwell_sec": 4
   },
   {
    "path": "/weekly",
