@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-01T07:19:50.405Z",
+ "generated": "2026-09-01T07:29:56.898Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8476,
+ "verifiedAiHits": 8477,
  "logsScanned": 30,
  "windowStart": "2026-08-18",
  "windowEnd": "2026-09-01",
- "totalHits": 118106,
- "aiHits": 94246,
+ "totalHits": 118141,
+ "aiHits": 94271,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27897,
+   "hits": 27913,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15245,
+   "hits": 15253,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
@@ -94,15 +94,15 @@
      "hits": 14
     },
     {
+     "path": "/topics/agent-evals",
+     "hits": 12
+    },
+    {
      "path": "/tags/opinionated",
      "hits": 12
     },
     {
-     "path": "/wire.html",
-     "hits": 11
-    },
-    {
-     "path": "/weekly",
+     "path": "/topics/agent-frameworks",
      "hits": 11
     }
    ],
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6867,
-   "verifiedHits": 6662,
+   "hits": 6871,
+   "verifiedHits": 6666,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3706,
-   "verifiedHits": 3412,
+   "hits": 3707,
+   "verifiedHits": 3413,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3422,
+   "hits": 3427,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3055,
+   "hits": 3056,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",

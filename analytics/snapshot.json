@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-01T07:19:50.962Z",
+ "generated": "2026-09-01T07:29:57.390Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 6,
+  "readersNow": 9,
+  "todayReads": 8,
   "avgTimeSec": 11,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3641,
+  "views": 3645,
   "reads": 264,
-  "completes": 54,
+  "completes": 55,
   "plays": 4,
-  "sessions": 3574
+  "sessions": 3578
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3424,
-   "reads": 173,
-   "sessions": 3430
+   "views": 3429,
+   "reads": 174,
+   "sessions": 3433
   },
   {
    "channel": "organic",
-   "views": 83,
-   "reads": 43,
-   "sessions": 80
+   "views": 81,
+   "reads": 41,
+   "sessions": 78
   },
   {
    "channel": "referral",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "ai",
-   "views": 22,
-   "reads": 14,
-   "sessions": 33
+   "views": 23,
+   "reads": 15,
+   "sessions": 34
   },
   {
    "channel": "campaign:copilot.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3424,
-   "reads": 173,
-   "completes": 50,
-   "sessions": 3430,
+   "views": 3429,
+   "reads": 174,
+   "completes": 51,
+   "sessions": 3433,
    "read_rate": 0.051,
    "complete_rate": 0.015,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 83,
-   "reads": 43,
+   "views": 81,
+   "reads": 41,
    "completes": 1,
-   "sessions": 80,
-   "read_rate": 0.518,
+   "sessions": 78,
+   "read_rate": 0.506,
    "complete_rate": 0.012,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 22,
-   "reads": 14,
+   "views": 23,
+   "reads": 15,
    "completes": 0,
-   "sessions": 33,
-   "read_rate": 0.636,
+   "sessions": 34,
+   "read_rate": 0.652,
    "complete_rate": 0,
-   "pages_per_session": 0.67,
+   "pages_per_session": 0.68,
    "median_dwell_sec": 28
   },
   {
@@ -280,9 +280,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 5,
-   "reads": 5,
-   "sessions": 5
+   "views": 6,
+   "reads": 6,
+   "sessions": 6
   },
   {
    "assistant": "Copilot",
@@ -306,21 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2753,
-   "reads": 254,
-   "sessions": 2698
+   "views": 2758,
+   "reads": 256,
+   "sessions": 2703
   },
   {
    "device": "mobile",
-   "views": 886,
+   "views": 887,
    "reads": 8,
-   "sessions": 874
-  },
-  {
-   "device": "tablet",
-   "views": 2,
-   "reads": 2,
-   "sessions": 2
+   "sessions": 875
   }
  ],
  "topContent": [
@@ -351,16 +345,6 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 24,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "ai-coding-agent-ranking-2026",
-   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 22,
    "reads": 5,
    "plays": 0
   },
@@ -432,6 +416,16 @@
    "author": "dex",
    "views": 6,
    "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "ai-coding-agent-ranking-2026",
+   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -547,16 +541,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-coding-agent-ranking-2026",
-   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
    "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
    "section": "wire",
@@ -573,6 +557,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 12,
+   "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "reasoning-effort-vs-thinking-budget",
+   "title": "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
    "reads": 5,
    "plays": 0
   }
@@ -644,8 +638,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 22,
-   "reads": 5,
+   "views": 20,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -789,8 +783,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 49,
-   "sessions": 25
+   "hits": 45,
+   "sessions": 23
   },
   {
    "ref": "https://cn.bing.com/",
@@ -819,8 +813,8 @@
   },
   {
    "ref": "https://www.doubao.com/",
-   "hits": 10,
-   "sessions": 5
+   "hits": 12,
+   "sessions": 6
   },
   {
    "ref": "http://127.0.0.1:49608/",
