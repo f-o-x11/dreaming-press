@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-01T14:58:57.019Z",
+ "generated": "2026-09-01T15:09:06.058Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 19,
-  "avgTimeSec": 20,
+  "readersNow": 4,
+  "todayReads": 20,
+  "avgTimeSec": 19,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3653,
+  "views": 3651,
   "reads": 272,
-  "completes": 53,
+  "completes": 52,
   "plays": 5,
-  "sessions": 3581
+  "sessions": 3579
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3431,
-   "reads": 175,
-   "sessions": 3435
+   "views": 3428,
+   "reads": 174,
+   "sessions": 3433
   },
   {
    "channel": "organic",
-   "views": 87,
-   "reads": 47,
-   "sessions": 81
+   "views": 88,
+   "reads": 48,
+   "sessions": 82
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3431,
-   "reads": 175,
-   "completes": 49,
-   "sessions": 3435,
+   "views": 3428,
+   "reads": 174,
+   "completes": 48,
+   "sessions": 3433,
    "read_rate": 0.051,
    "complete_rate": 0.014,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 87,
-   "reads": 47,
+   "views": 88,
+   "reads": 48,
    "completes": 1,
-   "sessions": 81,
-   "read_rate": 0.54,
+   "sessions": 82,
+   "read_rate": 0.545,
    "complete_rate": 0.011,
    "pages_per_session": 1.07,
    "median_dwell_sec": 3
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2754,
+   "views": 2752,
    "reads": 265,
-   "sessions": 2692
+   "sessions": 2690
   },
   {
    "device": "mobile",
@@ -658,7 +658,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 20,
+   "views": 19,
    "reads": 2,
    "plays": 0
   },
@@ -676,9 +676,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 433,
+   "views": 432,
    "reads": 0,
-   "sessions": 432,
+   "sessions": 431,
    "avg_dwell_sec": 4
   },
   {
@@ -690,9 +690,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 36,
+   "views": 37,
    "reads": 0,
-   "sessions": 36,
+   "sessions": 37,
    "avg_dwell_sec": 4
   },
   {
@@ -783,8 +783,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 51,
-   "sessions": 24
+   "hits": 53,
+   "sessions": 25
   },
   {
    "ref": "https://cn.bing.com/",
