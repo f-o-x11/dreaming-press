@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-01T03:46:29.175Z",
+ "generated": "2026-09-01T03:56:35.699Z",
  "windowDays": 14,
  "site": {
   "readersNow": 4,
@@ -8,18 +8,18 @@
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3641,
-  "reads": 264,
+  "views": 3638,
+  "reads": 263,
   "completes": 52,
   "plays": 4,
-  "sessions": 3576
+  "sessions": 3573
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3423,
-   "reads": 172,
-   "sessions": 3430
+   "views": 3421,
+   "reads": 171,
+   "sessions": 3428
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "ai",
-   "views": 23,
+   "views": 22,
    "reads": 14,
-   "sessions": 34
+   "sessions": 33
   },
   {
    "channel": "campaign:copilot.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3423,
-   "reads": 172,
+   "views": 3421,
+   "reads": 171,
    "completes": 48,
-   "sessions": 3430,
+   "sessions": 3428,
    "read_rate": 0.05,
    "complete_rate": 0.014,
    "pages_per_session": 1,
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 23,
+   "views": 22,
    "reads": 14,
    "completes": 0,
-   "sessions": 34,
-   "read_rate": 0.609,
+   "sessions": 33,
+   "read_rate": 0.636,
    "complete_rate": 0,
-   "pages_per_session": 0.68,
+   "pages_per_session": 0.67,
    "median_dwell_sec": 28
   },
   {
@@ -280,9 +280,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 6,
+   "views": 5,
    "reads": 5,
-   "sessions": 6
+   "sessions": 5
   },
   {
    "assistant": "Copilot",
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2752,
-   "reads": 254,
-   "sessions": 2699
+   "views": 2749,
+   "reads": 253,
+   "sessions": 2696
   },
   {
    "device": "mobile",
@@ -370,7 +370,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 17,
+   "views": 16,
    "reads": 5,
    "plays": 0
   },
@@ -562,7 +562,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 17,
+   "views": 16,
    "reads": 5,
    "plays": 0
   },
@@ -682,9 +682,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 454,
+   "views": 453,
    "reads": 0,
-   "sessions": 454,
+   "sessions": 453,
    "avg_dwell_sec": 4
   },
   {
@@ -731,9 +731,9 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 16,
+   "views": 17,
    "reads": 1,
-   "sessions": 16,
+   "sessions": 17,
    "avg_dwell_sec": 41
   },
   {
@@ -819,8 +819,8 @@
   },
   {
    "ref": "https://www.doubao.com/",
-   "hits": 11,
-   "sessions": 6
+   "hits": 10,
+   "sessions": 5
   },
   {
    "ref": "http://127.0.0.1:49608/",
