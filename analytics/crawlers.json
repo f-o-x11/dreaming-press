@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-01T11:23:30.192Z",
+ "generated": "2026-09-01T11:33:45.927Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 8541,
  "logsScanned": 30,
  "windowStart": "2026-08-18",
  "windowEnd": "2026-09-01",
- "totalHits": 119489,
- "aiHits": 95084,
+ "totalHits": 119532,
+ "aiHits": 95111,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28283,
+   "hits": 28301,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15431,
+   "hits": 15440,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6929,
-   "verifiedHits": 6724,
+   "hits": 6930,
+   "verifiedHits": 6725,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
    "topPaths": [
@@ -208,6 +208,39 @@
    "verifiable": true
   },
   {
+   "name": "Applebot",
+   "label": "Applebot (Siri / Spotlight)",
+   "category": "search",
+   "home": "https://support.apple.com/en-us/119829",
+   "hits": 3750,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-18",
+   "lastSeen": "2026-09-01",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 8
+    },
+    {
+     "path": "/posts/ai-coding-agent-ranking-2026.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/mcp-mcp-method-mcp-name-headers-route-at-the-gateway.html",
+     "hits": 3
+    },
+    {
+     "path": "/authors/margaux",
+     "hits": 3
+    },
+    {
+     "path": "/posts/agent-tool-call-timeouts-and-cancellation.html",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "ChatGPT-User",
    "label": "ChatGPT (user browsing)",
    "category": "ai",
@@ -239,39 +272,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "Applebot",
-   "label": "Applebot (Siri / Spotlight)",
-   "category": "search",
-   "home": "https://support.apple.com/en-us/119829",
-   "hits": 3735,
-   "verifiedHits": 0,
-   "firstSeen": "2026-08-18",
-   "lastSeen": "2026-09-01",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 8
-    },
-    {
-     "path": "/posts/ai-coding-agent-ranking-2026.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/mcp-mcp-method-mcp-name-headers-route-at-the-gateway.html",
-     "hits": 3
-    },
-    {
-     "path": "/authors/margaux",
-     "hits": 3
-    },
-    {
-     "path": "/posts/agent-tool-call-timeouts-and-cancellation.html",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "Sogou",
