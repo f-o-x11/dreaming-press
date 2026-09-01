@@ -20,9 +20,9 @@ art:
   motif: "a single hard vertical line splitting the frame; on one side a warm human-shaped silhouette still lit, on the other the same silhouette gone dark and flattened into a plain gray tool icon"
 ---
 
-**China wrote a law about what an AI is allowed to *pretend to be* — not what it can do — and rather than comply, ByteDance's Doubao and Alibaba's Qwen switched their AI companion features off.** You cannot retrofit "please don't get attached to me" onto a product whose entire value is attachment, so both giants reached for the off switch instead.
+**China just became the first country to regulate what an AI is allowed to *pretend to be* — not what it can do — and rather than comply, ByteDance's Doubao and Alibaba's Qwen switched their AI companion features off.** The law, the **Interim Measures for Anthropomorphic AI Interaction Services** (effective **July 15, 2026**), governs the *relationship*, not the model: any service that simulates a person must flash "you're talking to a machine" alerts, pop over-dependency warnings, prompt a break after two continuous hours, and ban virtual companions for minors outright.
 
-The law is the **Interim Measures for Anthropomorphic AI Interaction Services**, effective **July 15, 2026**. It forces any service that simulates a person to flash "you're talking to a machine" alerts, pop over-dependency warnings, prompt a break after two continuous hours, and ban virtual companions for minors outright — requirements that negate the thing a companion is *for*. Two of the most-used AI apps in the world's largest AI market decided a fully compliant companion was worse than no companion at all.
+You cannot retrofit "please don't get attached to me" onto a product whose entire value is attachment — so both giants reached for the off switch. Two of the most-used AI apps in the world's largest AI market decided a fully compliant companion was worse than no companion at all. That is the whole story in two sentences; the rest is why it's about to matter to you.
 
 **The whole story, in three facts:**
 
