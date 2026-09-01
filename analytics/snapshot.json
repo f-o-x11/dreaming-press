@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-01T08:10:17.139Z",
+ "generated": "2026-09-01T08:20:25.697Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 3,
   "todayReads": 9,
   "avgTimeSec": 16,
   "postsThisWeek": 9
@@ -12,18 +12,18 @@
   "reads": 264,
   "completes": 55,
   "plays": 4,
-  "sessions": 3578
+  "sessions": 3577
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3429,
+   "views": 3428,
    "reads": 174,
-   "sessions": 3433
+   "sessions": 3432
   },
   {
    "channel": "organic",
-   "views": 82,
+   "views": 83,
    "reads": 42,
    "sessions": 79
   },
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3429,
+   "views": 3428,
    "reads": 174,
    "completes": 51,
-   "sessions": 3433,
+   "sessions": 3432,
    "read_rate": 0.051,
    "complete_rate": 0.015,
    "pages_per_session": 1,
@@ -90,13 +90,13 @@
   },
   {
    "channel": "organic",
-   "views": 82,
+   "views": 83,
    "reads": 42,
    "completes": 1,
    "sessions": 79,
-   "read_rate": 0.512,
+   "read_rate": 0.506,
    "complete_rate": 0.012,
-   "pages_per_session": 1.04,
+   "pages_per_session": 1.05,
    "median_dwell_sec": 3
   },
   {
@@ -308,7 +308,7 @@
    "device": "desktop",
    "views": 2756,
    "reads": 256,
-   "sessions": 2701
+   "sessions": 2700
   },
   {
    "device": "mobile",
@@ -459,12 +459,12 @@
    "plays": 0
   },
   {
-   "slug": "context-engineering-playbook-write-select-compress-isolate",
-   "title": "The Context Engineering Playbook for Long-Running Agents: Write, Select, Compress, Isolate",
+   "slug": "postgres-listen-notify-vs-redis-streams-vs-sqs-agent-fan-out",
+   "title": "Postgres LISTEN/NOTIFY vs Redis Streams vs SQS: Fanning Out Agent Jobs Without Reaching for Kafka",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 7,
+   "views": 8,
    "reads": 3,
    "plays": 0
   }
@@ -783,7 +783,7 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 45,
+   "hits": 46,
    "sessions": 23
   },
   {
