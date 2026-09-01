@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-01T07:50Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-01T08:00Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3642 views → 265 engaged reads → 55 completes · 3575 sessions.
-- Channels: direct 174r/3425v · organic 42r/82v · referral 16r/59v · campaign:chatgpt.com 15r/44v · ai 15r/23v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/4v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3649 views → 265 engaged reads → 55 completes · 3582 sessions.
+- Channels: direct 174r/3432v · organic 42r/82v · referral 16r/59v · campaign:chatgpt.com 15r/44v · ai 15r/23v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/4v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 15r/44v · Perplexity 8r/12v · Doubao 6r/6v · Copilot 2r/2v · Yuanbao 1r/1v · Kimi 0r/4v.
 - Referrers: bing.com, cn.bing.com, chatgpt.com, perplexity.ai, duckduckgo.com, google.com, doubao.com, 127.0.0.1:49608, nav-cmp, 114.114.114.114:9421.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3425 views · read 5.1% · complete 1.5% · 1 pages/session · median 4s
+- direct: 3432 views · read 5.1% · complete 1.5% · 1 pages/session · median 4s
 - organic: 82 views · read 51.2% · complete 1.2% · 1.04 pages/session · median 3s
 - referral: 59 views · read 27.1% · complete 1.7% · 1.11 pages/session · median ?s
 - campaign:chatgpt.com: 44 views · read 34.1% · complete 4.5% · 1 pages/session · median ?s
@@ -92,8 +92,8 @@ human just asked a question. Not index crawlers, which enumerate everything and 
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
 - /  — 563 retrieval fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 324 retrieval fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 187 retrieval fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 325 retrieval fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 188 retrieval fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 135 retrieval fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 81 retrieval fetches
 - /build  — 36 retrieval fetches
@@ -103,7 +103,7 @@ sample size dwarfs the engaged-read counts below.
 - /tags/opinionated  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3415 verified): / ×522 · /posts/agent-funding-august-2026-control-won-the-summer.html ×324 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×187
+- ChatGPT-User (3417 verified): / ×522 · /posts/agent-funding-august-2026-control-won-the-summer.html ×325 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×188
 - OAI-SearchBot (2326 verified): /build ×36 · / ×12 · /posts/serverless-inference-api-groq-fireworks-together-deepinfra-baseten.html ×9
 - PerplexityBot (370 verified): / ×29 · /tags/opinionated ×7 · /posts/2026-08-17-founders-wire-stripe-openrouter-imagen-sunset-moonshot-ipo.html ×6
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -120,14 +120,14 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(33), build(29), agentic(28), founder(28), startup(27), agent(25), coding(17), one(16), building(15), mcp(13), engineering(13), systems(12), here(11), has(9), learn(8).
+Hot terms: agents(33), build(29), agentic(28), founder(28), startup(27), agent(25), coding(17), building(16), one(16), mcp(13), systems(12), here(11), engineering(11), has(9), learn(7).
 Hashtags: #ai, #aiagents, #founder, #entrepreneur, #startup, #agenticai, #motivation, #grok, #grokbuild, #agentic.
 High-engagement posts to react to / cite:
 - "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that "the econom" — https://x.com/i/status/2093803322444800052
-- "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2092159941037699212
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2092449789204185506
 - "In the Agentic Challenge, AI agents pay for their own API calls Agentic APIs offer two ways in: an API key with no credits required, or wallet-based payment through the x402 flow, settled per call in BKN, USDC, or EURC. " — https://x.com/i/status/2092963710713176567
 - "We're excited to release Agno 3.0, bringing us one step closer to our vision of an agent platform that builds itself. If you're new here, let's start with an introduction. I'm Ashpreet, the founder of Agno (derived from " — https://x.com/i/status/2092976230597374415
+- "🚀 The AI Agent Engineering Roadmap Want to become an AI Agent Engineer? Don’t just learn tools—build the right foundation. Here’s the step-by-step path 👇 1️⃣ LLM Fundamentals + Reasoning 2️⃣ Context Engineering 3️⃣ Mem" — https://x.com/i/status/2092864711465586795
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (275 of 457 phrases have NO post, 68h ago)
@@ -153,12 +153,12 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8479 confirmed AI-engine fetches (ChatGPT (user browsing) 3415, GPTBot (OpenAI) 2368, ChatGPT Search (OpenAI) 2326, Perplexity 370).
+The real answer engines are crawling us — IP-verified: 8481 confirmed AI-engine fetches (ChatGPT (user browsing) 3417, GPTBot (OpenAI) 2368, ChatGPT Search (OpenAI) 2326, Perplexity 370).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 719 crawler fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 324 crawler fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 228 crawler fetches
-- /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 216 crawler fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 325 crawler fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 229 crawler fetches
+- /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 217 crawler fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 181 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 81 crawler fetches
 - /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 80 crawler fetches

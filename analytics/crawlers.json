@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-01T07:50:06.133Z",
+ "generated": "2026-09-01T08:00:16.334Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8479,
+ "verifiedAiHits": 8481,
  "logsScanned": 30,
  "windowStart": "2026-08-18",
  "windowEnd": "2026-09-01",
- "totalHits": 118247,
- "aiHits": 94338,
+ "totalHits": 118306,
+ "aiHits": 94363,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27960,
+   "hits": 27975,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25782,
+   "hits": 25783,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15268,
+   "hits": 15275,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6882,
-   "verifiedHits": 6677,
+   "hits": 6886,
+   "verifiedHits": 6681,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
    "topPaths": [
@@ -157,7 +157,7 @@
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
-     "hits": 216
+     "hits": 217
     },
     {
      "path": "/posts/time-on-site.html",
@@ -179,8 +179,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6201,
-   "verifiedHits": 575,
+   "hits": 6203,
+   "verifiedHits": 577,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3709,
-   "verifiedHits": 3415,
+   "hits": 3711,
+   "verifiedHits": 3417,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
    "topPaths": [
@@ -223,11 +223,11 @@
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 324
+     "hits": 325
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 187
+     "hits": 188
     },
     {
      "path": "/posts/ai-coding-agent-ranking-2026.html",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3448,
+   "hits": 3460,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
@@ -278,14 +278,14 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3336,
+   "hits": 3352,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
    "topPaths": [
     {
      "path": "/",
-     "hits": 32
+     "hits": 33
     },
     {
      "path": "/stack.html",
@@ -296,11 +296,11 @@
      "hits": 4
     },
     {
-     "path": "/posts/tool-highlight-ragflow-deep-document-rag-engine.html",
+     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
      "hits": 4
     },
     {
-     "path": "/posts/tool-highlight-minimax-h3-open-weight-video-with-native-audio.html",
+     "path": "/posts/tool-highlight-ragflow-deep-document-rag-engine.html",
      "hits": 4
     }
    ],
