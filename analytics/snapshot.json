@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-01T03:36:22.455Z",
+ "generated": "2026-09-01T03:46:29.175Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 2,
+  "readersNow": 4,
+  "todayReads": 3,
   "avgTimeSec": 12,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3638,
-  "reads": 263,
+  "views": 3641,
+  "reads": 264,
   "completes": 52,
   "plays": 4,
-  "sessions": 3573
+  "sessions": 3576
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3421,
+   "views": 3423,
    "reads": 172,
-   "sessions": 3428
+   "sessions": 3430
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "ai",
-   "views": 22,
-   "reads": 13,
-   "sessions": 33
+   "views": 23,
+   "reads": 14,
+   "sessions": 34
   },
   {
    "channel": "campaign:copilot.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3421,
+   "views": 3423,
    "reads": 172,
    "completes": 48,
-   "sessions": 3428,
+   "sessions": 3430,
    "read_rate": 0.05,
    "complete_rate": 0.014,
    "pages_per_session": 1,
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 22,
-   "reads": 13,
+   "views": 23,
+   "reads": 14,
    "completes": 0,
-   "sessions": 33,
-   "read_rate": 0.591,
+   "sessions": 34,
+   "read_rate": 0.609,
    "complete_rate": 0,
-   "pages_per_session": 0.67,
+   "pages_per_session": 0.68,
    "median_dwell_sec": 28
   },
   {
@@ -280,9 +280,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 5,
-   "reads": 4,
-   "sessions": 5
+   "views": 6,
+   "reads": 5,
+   "sessions": 6
   },
   {
    "assistant": "Copilot",
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2750,
-   "reads": 253,
-   "sessions": 2697
+   "views": 2752,
+   "reads": 254,
+   "sessions": 2699
   },
   {
    "device": "mobile",
-   "views": 886,
+   "views": 887,
    "reads": 8,
-   "sessions": 874
+   "sessions": 875
   },
   {
    "device": "tablet",
@@ -818,6 +818,11 @@
    "sessions": 10
   },
   {
+   "ref": "https://www.doubao.com/",
+   "hits": 11,
+   "sessions": 6
+  },
+  {
    "ref": "http://127.0.0.1:49608/",
    "hits": 10,
    "sessions": 2
@@ -826,11 +831,6 @@
    "ref": "nav-cmp",
    "hits": 9,
    "sessions": 4
-  },
-  {
-   "ref": "https://www.doubao.com/",
-   "hits": 9,
-   "sessions": 5
   },
   {
    "ref": "http://114.114.114.114:9421/",
