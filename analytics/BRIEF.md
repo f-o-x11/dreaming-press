@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-01T11:54Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-01T12:04Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -61,7 +61,7 @@ so what these earn from humans is the other half of the picture.
 - /best/:cat — 36 views, 0 reads, 36 sessions, avg 4s
 - /compare/:pair — 36 views, 1 reads, 36 sessions, avg 50s
 - /build — 35 views, 0 reads, 36 sessions, avg 4s
-- /weekly — 20 views, 0 reads, 20 sessions, avg 5s
+- /weekly — 19 views, 0 reads, 19 sessions, avg 6s
 - /tools — 18 views, 0 reads, 18 sessions, avg 8s
 - /topics/:topic — 18 views, 1 reads, 18 sessions, avg 41s
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
@@ -93,7 +93,7 @@ human just asked a question. Not index crawlers, which enumerate everything and 
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
 - /  — 570 retrieval fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 326 retrieval fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 327 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 188 retrieval fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 135 retrieval fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 82 retrieval fetches
@@ -104,7 +104,7 @@ sample size dwarfs the engaged-read counts below.
 - /tags/opinionated  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3449 verified): / ×529 · /posts/agent-funding-august-2026-control-won-the-summer.html ×326 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×188
+- ChatGPT-User (3450 verified): / ×529 · /posts/agent-funding-august-2026-control-won-the-summer.html ×327 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×188
 - OAI-SearchBot (2359 verified): /build ×36 · / ×12 · /posts/serverless-inference-api-groq-fireworks-together-deepinfra-baseten.html ×9
 - PerplexityBot (370 verified): / ×29 · /tags/opinionated ×7 · /posts/2026-08-17-founders-wire-stripe-openrouter-imagen-sunset-moonshot-ipo.html ×6
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -121,7 +121,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(36), agentic(28), build(28), agent(27), startup(27), founder(26), coding(17), building(16), mcp(14), one(14), systems(12), here(11), engineering(9), has(9), tools(8).
+Hot terms: agents(36), build(29), agentic(28), startup(27), agent(26), founder(26), coding(17), building(16), mcp(14), one(14), systems(13), here(11), engineering(9), has(9), co-founder(8).
 Hashtags: #ai, #founder, #aiagents, #entrepreneur, #startup, #agenticai, #motivation, #grok, #grokbuild, #agentic.
 High-engagement posts to react to / cite:
 - "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that "the econom" — https://x.com/i/status/2093803322444800052
@@ -154,12 +154,12 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8546 confirmed AI-engine fetches (ChatGPT (user browsing) 3449, ChatGPT Search (OpenAI) 2359, GPTBot (OpenAI) 2368, Perplexity 370).
+The real answer engines are crawling us — IP-verified: 8547 confirmed AI-engine fetches (ChatGPT (user browsing) 3450, ChatGPT Search (OpenAI) 2359, GPTBot (OpenAI) 2368, Perplexity 370).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 719 crawler fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 326 crawler fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 327 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 229 crawler fetches
-- /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 220 crawler fetches
+- /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 221 crawler fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 181 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 82 crawler fetches
 - /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 81 crawler fetches
