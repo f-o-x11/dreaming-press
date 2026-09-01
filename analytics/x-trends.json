@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-01T18:51:37.286Z",
+ "generated": "2026-09-01T19:01:56.149Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -11,11 +11,11 @@
    "count": 33
   },
   {
-   "term": "agent",
+   "term": "agentic",
    "count": 31
   },
   {
-   "term": "agentic",
+   "term": "agent",
    "count": 30
   },
   {
@@ -40,7 +40,7 @@
   },
   {
    "term": "building",
-   "count": 15
+   "count": 14
   },
   {
    "term": "mcp",
@@ -83,7 +83,7 @@
    "count": 7
   },
   {
-   "term": "actually",
+   "term": "llm",
    "count": 7
   }
  ],
@@ -152,7 +152,7 @@
   },
   {
    "text": "In the Agentic Challenge, AI agents pay for their own API calls Agentic APIs offer two ways in: an API key with no credits required, or wallet-based payment through the x402 flow, settled per call in BKN, USDC, or EURC. ",
-   "engagement": 207,
+   "engagement": 209,
    "url": "https://x.com/i/status/2092963710713176567",
    "created": "2026-08-27T13:13:28.000Z"
   },
