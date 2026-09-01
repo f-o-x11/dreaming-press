@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-01T07:29:57.390Z",
+ "generated": "2026-09-01T07:40:03.992Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 9,
-  "todayReads": 8,
+  "readersNow": 5,
+  "todayReads": 9,
   "avgTimeSec": 11,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3645,
-  "reads": 264,
+  "views": 3641,
+  "reads": 265,
   "completes": 55,
   "plays": 4,
-  "sessions": 3578
+  "sessions": 3574
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3429,
+   "views": 3424,
    "reads": 174,
-   "sessions": 3433
+   "sessions": 3428
   },
   {
    "channel": "organic",
-   "views": 81,
-   "reads": 41,
-   "sessions": 78
+   "views": 82,
+   "reads": 42,
+   "sessions": 79
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3429,
+   "views": 3424,
    "reads": 174,
    "completes": 51,
-   "sessions": 3433,
+   "sessions": 3428,
    "read_rate": 0.051,
    "complete_rate": 0.015,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 81,
-   "reads": 41,
+   "views": 82,
+   "reads": 42,
    "completes": 1,
-   "sessions": 78,
-   "read_rate": 0.506,
+   "sessions": 79,
+   "read_rate": 0.512,
    "complete_rate": 0.012,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2758,
-   "reads": 256,
-   "sessions": 2703
+   "views": 2754,
+   "reads": 257,
+   "sessions": 2699
   },
   {
    "device": "mobile",
@@ -676,9 +676,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 449,
+   "views": 448,
    "reads": 0,
-   "sessions": 448,
+   "sessions": 447,
    "avg_dwell_sec": 4
   },
   {
@@ -697,10 +697,10 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 37,
+   "views": 36,
    "reads": 1,
-   "sessions": 37,
-   "avg_dwell_sec": 49
+   "sessions": 36,
+   "avg_dwell_sec": 50
   },
   {
    "path": "/build",
@@ -711,9 +711,9 @@
   },
   {
    "path": "/weekly",
-   "views": 21,
+   "views": 20,
    "reads": 0,
-   "sessions": 21,
+   "sessions": 20,
    "avg_dwell_sec": 5
   },
   {
@@ -788,8 +788,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 29,
-   "sessions": 18
+   "hits": 31,
+   "sessions": 19
   },
   {
    "ref": "https://chatgpt.com/",
