@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-01T00:54:34.139Z",
+ "generated": "2026-09-01T01:04:44.513Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 4,
   "todayReads": 0,
   "avgTimeSec": 4,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3651,
+  "views": 3652,
   "reads": 262,
   "completes": 52,
   "plays": 4,
-  "sessions": 3586
+  "sessions": 3587
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3435,
+   "views": 3437,
    "reads": 170,
-   "sessions": 3442
+   "sessions": 3444
   },
   {
    "channel": "organic",
-   "views": 83,
+   "views": 82,
    "reads": 44,
-   "sessions": 81
+   "sessions": 80
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3435,
+   "views": 3437,
    "reads": 170,
    "completes": 48,
-   "sessions": 3442,
+   "sessions": 3444,
    "read_rate": 0.049,
    "complete_rate": 0.014,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 83,
+   "views": 82,
    "reads": 44,
    "completes": 1,
-   "sessions": 81,
-   "read_rate": 0.53,
+   "sessions": 80,
+   "read_rate": 0.537,
    "complete_rate": 0.012,
    "pages_per_session": 1.02,
    "median_dwell_sec": 3
@@ -312,9 +312,9 @@
   },
   {
    "device": "mobile",
-   "views": 887,
+   "views": 888,
    "reads": 8,
-   "sessions": 875
+   "sessions": 876
   },
   {
    "device": "tablet",
@@ -350,7 +350,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 24,
+   "views": 23,
    "reads": 5,
    "plays": 0
   },
@@ -542,7 +542,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 24,
+   "views": 23,
    "reads": 5,
    "plays": 0
   },
@@ -634,7 +634,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 24,
+   "views": 23,
    "reads": 5,
    "plays": 0
   },
@@ -689,9 +689,9 @@
   },
   {
    "path": "/",
-   "views": 102,
+   "views": 103,
    "reads": 6,
-   "sessions": 102,
+   "sessions": 103,
    "avg_dwell_sec": 44
   },
   {
@@ -793,14 +793,14 @@
    "sessions": 26
   },
   {
-   "ref": "https://cn.bing.com/",
-   "hits": 29,
-   "sessions": 18
-  },
-  {
    "ref": "https://chatgpt.com/",
    "hits": 29,
    "sessions": 14
+  },
+  {
+   "ref": "https://cn.bing.com/",
+   "hits": 28,
+   "sessions": 17
   },
   {
    "ref": "https://www.perplexity.ai/",
