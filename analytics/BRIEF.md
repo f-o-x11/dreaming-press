@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-01T23:36Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-01T23:46Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -103,7 +103,7 @@ sample size dwarfs the engaged-read counts below.
 - /tags/opinionated  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3562 verified): / ×547 · /posts/agent-funding-august-2026-control-won-the-summer.html ×331 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×189
+- ChatGPT-User (3563 verified): / ×547 · /posts/agent-funding-august-2026-control-won-the-summer.html ×331 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×189
 - OAI-SearchBot (2471 verified): /build ×36 · / ×13 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×10
 - PerplexityBot (393 verified): / ×31 · /tags/opinionated ×7 · /posts/2026-08-17-founders-wire-stripe-openrouter-imagen-sunset-moonshot-ipo.html ×6
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -120,8 +120,8 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(33), agent(31), agentic(30), build(29), coding(28), founder(24), startup(23), building(16), one(16), mcp(13), systems(12), here(11), code(10), has(10), engineering(9).
-Hashtags: #ai, #founder, #aiagents, #entrepreneur, #startup, #grok, #grokbuild, #agentic, #opensource, #agenticai.
+Hot terms: agents(33), agent(31), agentic(30), build(29), coding(28), founder(24), startup(22), building(18), one(16), mcp(13), systems(12), here(11), code(10), engineering(9), has(9).
+Hashtags: #ai, #founder, #startup, #aiagents, #entrepreneur, #grok, #grokbuild, #agentic, #opensource, #agenticai.
 High-engagement posts to react to / cite:
 - "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that "the econom" — https://x.com/i/status/2093803322444800052
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2092449789204185506
@@ -153,9 +153,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8796 confirmed AI-engine fetches (ChatGPT (user browsing) 3562, ChatGPT Search (OpenAI) 2471, GPTBot (OpenAI) 2370, Perplexity 393).
+The real answer engines are crawling us — IP-verified: 8798 confirmed AI-engine fetches (ChatGPT (user browsing) 3563, ChatGPT Search (OpenAI) 2471, GPTBot (OpenAI) 2371, Perplexity 393).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 727 crawler fetches
+- /build  — 728 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 331 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 230 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 221 crawler fetches
