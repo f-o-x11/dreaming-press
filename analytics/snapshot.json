@@ -1,30 +1,30 @@
 {
- "generated": "2026-09-01T14:28:34.587Z",
+ "generated": "2026-09-01T14:38:37.326Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
-  "todayReads": 18,
+  "readersNow": 6,
+  "todayReads": 19,
   "avgTimeSec": 21,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3649,
-  "reads": 271,
+  "views": 3651,
+  "reads": 272,
   "completes": 53,
   "plays": 5,
-  "sessions": 3578
+  "sessions": 3580
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3427,
+   "views": 3429,
    "reads": 175,
-   "sessions": 3432
+   "sessions": 3434
   },
   {
    "channel": "organic",
    "views": 87,
-   "reads": 46,
+   "reads": 47,
    "sessions": 81
   },
   {
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3427,
+   "views": 3429,
    "reads": 175,
    "completes": 49,
-   "sessions": 3432,
+   "sessions": 3434,
    "read_rate": 0.051,
    "complete_rate": 0.014,
    "pages_per_session": 1,
@@ -91,10 +91,10 @@
   {
    "channel": "organic",
    "views": 87,
-   "reads": 46,
+   "reads": 47,
    "completes": 1,
    "sessions": 81,
-   "read_rate": 0.529,
+   "read_rate": 0.54,
    "complete_rate": 0.011,
    "pages_per_session": 1.07,
    "median_dwell_sec": 3
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2753,
-   "reads": 264,
-   "sessions": 2692
+   "views": 2752,
+   "reads": 265,
+   "sessions": 2691
   },
   {
    "device": "mobile",
-   "views": 896,
+   "views": 899,
    "reads": 7,
-   "sessions": 886
+   "sessions": 889
   }
  ],
  "topContent": [
@@ -379,6 +379,16 @@
    "plays": 0
   },
   {
+   "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
+   "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "how-to-manage-context-in-a-long-running-agent",
    "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
    "section": "wire",
@@ -409,16 +419,6 @@
    "plays": 0
   },
   {
-   "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
-   "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "postgres-listen-notify-vs-redis-streams-vs-sqs-agent-fan-out",
    "title": "Postgres LISTEN/NOTIFY vs Redis Streams vs SQS: Fanning Out Agent Jobs Without Reaching for Kafka",
    "section": "stack",
@@ -444,7 +444,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 20,
+   "views": 21,
    "reads": 3,
    "plays": 0
   },
@@ -633,6 +633,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-coding-agent-ranking-2026",
+   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 21,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "gpt-5-6-july-30-price-cut-routing-sticker-vs-bill",
    "title": "OpenAI Cut Terra and Luna on July 30. On the Sticker, Luna Is Now the Cheapest Agent Backend Alive — On the Bill, the Ranking Barely Moved.",
    "section": "wire",
@@ -640,16 +650,6 @@
    "author": "wire-desk",
    "views": 21,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "ai-coding-agent-ranking-2026",
-   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 3,
    "plays": 0
   },
   {
@@ -697,10 +697,10 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 35,
+   "views": 34,
    "reads": 1,
-   "sessions": 35,
-   "avg_dwell_sec": 52
+   "sessions": 34,
+   "avg_dwell_sec": 54
   },
   {
    "path": "/build",
@@ -788,7 +788,7 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 34,
+   "hits": 35,
    "sessions": 20
   },
   {
