@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-01T04:57:15.829Z",
+ "generated": "2026-09-01T05:07:16.320Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8424,
+ "verifiedAiHits": 8426,
  "logsScanned": 30,
  "windowStart": "2026-08-18",
  "windowEnd": "2026-09-01",
- "totalHits": 117287,
- "aiHits": 93690,
+ "totalHits": 117331,
+ "aiHits": 93712,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27615,
+   "hits": 27626,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15146,
+   "hits": 15154,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6822,
-   "verifiedHits": 6617,
+   "hits": 6826,
+   "verifiedHits": 6621,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
    "topPaths": [
@@ -157,7 +157,7 @@
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
-     "hits": 213
+     "hits": 214
     },
     {
      "path": "/posts/time-on-site.html",
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3680,
-   "verifiedHits": 3386,
+   "hits": 3682,
+   "verifiedHits": 3388,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
    "topPaths": [
@@ -223,7 +223,7 @@
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 322
+     "hits": 323
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -278,7 +278,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3219,
+   "hits": 3236,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3049,
+   "hits": 3050,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
@@ -509,14 +509,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 372,
+   "hits": 373,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
    "topPaths": [
     {
      "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
-     "hits": 78
+     "hits": 79
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
