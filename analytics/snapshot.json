@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-01T22:35:25.375Z",
+ "generated": "2026-09-01T22:45:30.667Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 1,
   "todayReads": 22,
   "avgTimeSec": 18,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3654,
-  "reads": 269,
+  "views": 3649,
+  "reads": 268,
   "completes": 52,
   "plays": 5,
-  "sessions": 3580
+  "sessions": 3576
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3436,
-   "reads": 175,
-   "sessions": 3436
+   "views": 3431,
+   "reads": 174,
+   "sessions": 3432
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3436,
-   "reads": 175,
+   "views": 3431,
+   "reads": 174,
    "completes": 49,
-   "sessions": 3436,
+   "sessions": 3432,
    "read_rate": 0.051,
    "complete_rate": 0.014,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2749,
-   "reads": 262,
-   "sessions": 2684
+   "views": 2744,
+   "reads": 261,
+   "sessions": 2680
   },
   {
    "device": "mobile",
@@ -369,16 +369,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-22-mcp-authorization-oauth",
-   "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 12,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "reasoning-effort-vs-thinking-budget",
    "title": "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks",
    "section": "wire",
@@ -415,6 +405,16 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 14,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-22-mcp-authorization-oauth",
+   "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 10,
    "reads": 4,
    "plays": 0
   },
@@ -676,9 +676,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 426,
+   "views": 425,
    "reads": 0,
-   "sessions": 425,
+   "sessions": 424,
    "avg_dwell_sec": 4
   },
   {
@@ -732,9 +732,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 15,
+   "views": 14,
    "reads": 0,
-   "sessions": 15,
+   "sessions": 14,
    "avg_dwell_sec": 3
   },
   {
