@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-01T06:59:37.421Z",
+ "generated": "2026-09-01T07:09:43.870Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8463,
+ "verifiedAiHits": 8467,
  "logsScanned": 30,
  "windowStart": "2026-08-18",
  "windowEnd": "2026-09-01",
- "totalHits": 118007,
- "aiHits": 94186,
+ "totalHits": 118055,
+ "aiHits": 94211,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27865,
+   "hits": 27880,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15234,
+   "hits": 15238,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
@@ -146,14 +146,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6861,
-   "verifiedHits": 6656,
+   "hits": 6864,
+   "verifiedHits": 6659,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 257
+     "hits": 258
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
@@ -179,8 +179,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 6199,
-   "verifiedHits": 573,
+   "hits": 6200,
+   "verifiedHits": 574,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
    "topPaths": [
@@ -212,14 +212,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3701,
-   "verifiedHits": 3407,
+   "hits": 3704,
+   "verifiedHits": 3410,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
    "topPaths": [
     {
      "path": "/",
-     "hits": 520
+     "hits": 521
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3391,
+   "hits": 3410,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
@@ -377,8 +377,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2572,
-   "verifiedHits": 2318,
+   "hits": 2573,
+   "verifiedHits": 2319,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
    "topPaths": [
@@ -391,15 +391,15 @@
      "hits": 12
     },
     {
+     "path": "/posts/serverless-inference-api-groq-fireworks-together-deepinfra-baseten.html",
+     "hits": 9
+    },
+    {
      "path": "/posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html",
      "hits": 9
     },
     {
      "path": "/posts/cheapest-terminal-coding-agent-august-2026-free-floor.html",
-     "hits": 9
-    },
-    {
-     "path": "/posts/ollama-vs-lm-studio-vs-llama-cpp-local-agent-backend.html",
      "hits": 9
     }
    ],
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 375,
+   "hits": 377,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
@@ -531,7 +531,7 @@
      "hits": 5
     },
     {
-     "path": "/posts/cloudflare-agents-vs-langgraph.html",
+     "path": "/posts/2026-06-23-tensor-parallelism-vs-pipeline-parallelism.html",
      "hits": 4
     }
    ],
