@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-01T13:15:26.999Z",
+ "generated": "2026-09-01T13:25:54.921Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
-  "todayReads": 13,
+  "todayReads": 15,
   "avgTimeSec": 21,
   "postsThisWeek": 9
  },
  "funnel": {
   "views": 3645,
-  "reads": 266,
+  "reads": 268,
   "completes": 53,
   "plays": 5,
   "sessions": 3577
@@ -18,13 +18,13 @@
   {
    "channel": "direct",
    "views": 3427,
-   "reads": 174,
+   "reads": 175,
    "sessions": 3432
   },
   {
    "channel": "organic",
    "views": 83,
-   "reads": 42,
+   "reads": 43,
    "sessions": 79
   },
   {
@@ -80,7 +80,7 @@
   {
    "channel": "direct",
    "views": 3427,
-   "reads": 174,
+   "reads": 175,
    "completes": 49,
    "sessions": 3432,
    "read_rate": 0.051,
@@ -91,10 +91,10 @@
   {
    "channel": "organic",
    "views": 83,
-   "reads": 42,
+   "reads": 43,
    "completes": 1,
    "sessions": 79,
-   "read_rate": 0.506,
+   "read_rate": 0.518,
    "complete_rate": 0.012,
    "pages_per_session": 1.05,
    "median_dwell_sec": 3
@@ -307,7 +307,7 @@
   {
    "device": "desktop",
    "views": 2752,
-   "reads": 259,
+   "reads": 261,
    "sessions": 2694
   },
   {
@@ -409,6 +409,16 @@
    "plays": 0
   },
   {
+   "slug": "postgres-listen-notify-vs-redis-streams-vs-sqs-agent-fan-out",
+   "title": "Postgres LISTEN/NOTIFY vs Redis Streams vs SQS: Fanning Out Agent Jobs Without Reaching for Kafka",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "code-retrieval-for-ai-coding-agents",
    "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
    "section": "wire",
@@ -455,16 +465,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 9,
-   "reads": 3,
-   "plays": 1
-  },
-  {
-   "slug": "gartner-ai-agent-spending-2026",
-   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
-   "section": "wire",
-   "tags": "[\"reportive\",\"cynical\"]",
-   "author": "priya",
-   "views": 8,
    "reads": 3,
    "plays": 1
   }
@@ -783,7 +783,7 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 46,
+   "hits": 47,
    "sessions": 23
   },
   {
