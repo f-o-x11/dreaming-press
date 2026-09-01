@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-01T16:50Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-01T17:00Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3644 views → 272 engaged reads → 53 completes · 3572 sessions.
-- Channels: direct 175r/3422v · organic 48r/88v · referral 16r/59v · campaign:chatgpt.com 15r/44v · ai 15r/22v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/4v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3642 views → 272 engaged reads → 53 completes · 3570 sessions.
+- Channels: direct 175r/3420v · organic 48r/88v · referral 16r/59v · campaign:chatgpt.com 15r/44v · ai 15r/22v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/4v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 15r/44v · Perplexity 7r/11v · Doubao 7r/7v · Copilot 2r/2v · Yuanbao 1r/1v · Kimi 0r/3v.
 - Referrers: bing.com, cn.bing.com, chatgpt.com, duckduckgo.com, perplexity.ai, doubao.com, google.com, 127.0.0.1:49608, 114.114.114.114:9421, nav-cmp.
 - Engaged-read winners by section: stack=6, wire=9.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3422 views · read 5.1% · complete 1.4% · 1 pages/session · median 4s
+- direct: 3420 views · read 5.1% · complete 1.4% · 1 pages/session · median 4s
 - organic: 88 views · read 54.5% · complete 1.1% · 1.07 pages/session · median 3s
 - referral: 59 views · read 27.1% · complete 1.7% · 1.11 pages/session · median ?s
 - campaign:chatgpt.com: 44 views · read 34.1% · complete 4.5% · 1 pages/session · median ?s
@@ -92,7 +92,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 578 retrieval fetches
+- /  — 579 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 330 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 188 retrieval fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 136 retrieval fetches
@@ -104,7 +104,7 @@ sample size dwarfs the engaged-read counts below.
 - /tags/opinionated  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3501 verified): / ×536 · /posts/agent-funding-august-2026-control-won-the-summer.html ×330 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×188
+- ChatGPT-User (3505 verified): / ×537 · /posts/agent-funding-august-2026-control-won-the-summer.html ×330 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×188
 - OAI-SearchBot (2397 verified): /build ×36 · / ×13 · /posts/serverless-inference-api-groq-fireworks-together-deepinfra-baseten.html ×9
 - PerplexityBot (370 verified): / ×29 · /tags/opinionated ×7 · /posts/2026-08-17-founders-wire-stripe-openrouter-imagen-sunset-moonshot-ipo.html ×6
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -154,7 +154,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8637 confirmed AI-engine fetches (ChatGPT (user browsing) 3501, ChatGPT Search (OpenAI) 2397, GPTBot (OpenAI) 2369, Perplexity 370).
+The real answer engines are crawling us — IP-verified: 8641 confirmed AI-engine fetches (ChatGPT (user browsing) 3505, ChatGPT Search (OpenAI) 2397, GPTBot (OpenAI) 2369, Perplexity 370).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 725 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 330 crawler fetches
