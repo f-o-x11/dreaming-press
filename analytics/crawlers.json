@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-01T06:08:46.217Z",
+ "generated": "2026-09-01T06:18:57.748Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8449,
+ "verifiedAiHits": 8451,
  "logsScanned": 30,
  "windowStart": "2026-08-18",
  "windowEnd": "2026-09-01",
- "totalHits": 117668,
- "aiHits": 93932,
+ "totalHits": 117717,
+ "aiHits": 93958,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27735,
+   "hits": 27751,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25707,
+   "hits": 25708,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15198,
+   "hits": 15205,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6844,
-   "verifiedHits": 6639,
+   "hits": 6849,
+   "verifiedHits": 6644,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3689,
-   "verifiedHits": 3395,
+   "hits": 3691,
+   "verifiedHits": 3397,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
    "topPaths": [
@@ -235,10 +235,43 @@
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 80
+     "hits": 81
     }
    ],
    "verifiable": true
+  },
+  {
+   "name": "Applebot",
+   "label": "Applebot (Siri / Spotlight)",
+   "category": "search",
+   "home": "https://support.apple.com/en-us/119829",
+   "hits": 3346,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-18",
+   "lastSeen": "2026-09-01",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 8
+    },
+    {
+     "path": "/posts/ai-coding-agent-ranking-2026.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/mcp-mcp-method-mcp-name-headers-route-at-the-gateway.html",
+     "hits": 3
+    },
+    {
+     "path": "/authors/margaux",
+     "hits": 3
+    },
+    {
+     "path": "/posts/agent-tool-call-timeouts-and-cancellation.html",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
   },
   {
    "name": "Sogou",
@@ -274,44 +307,11 @@
    "verifiable": false
   },
   {
-   "name": "Applebot",
-   "label": "Applebot (Siri / Spotlight)",
-   "category": "search",
-   "home": "https://support.apple.com/en-us/119829",
-   "hits": 3330,
-   "verifiedHits": 0,
-   "firstSeen": "2026-08-18",
-   "lastSeen": "2026-09-01",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 8
-    },
-    {
-     "path": "/posts/ai-coding-agent-ranking-2026.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/mcp-mcp-method-mcp-name-headers-route-at-the-gateway.html",
-     "hits": 3
-    },
-    {
-     "path": "/authors/margaux",
-     "hits": 3
-    },
-    {
-     "path": "/posts/agent-tool-call-timeouts-and-cancellation.html",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Baiduspider",
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3050,
+   "hits": 3052,
    "verifiedHits": 0,
    "firstSeen": "2026-08-18",
    "lastSeen": "2026-09-01",
