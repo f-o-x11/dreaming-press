@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-01T01:14:51.512Z",
+ "generated": "2026-09-01T01:24:57.568Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 2,
   "todayReads": 0,
   "avgTimeSec": 4,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3647,
+  "views": 3646,
   "reads": 262,
   "completes": 52,
   "plays": 4,
-  "sessions": 3582
+  "sessions": 3581
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3432,
+   "views": 3431,
    "reads": 170,
-   "sessions": 3439
+   "sessions": 3438
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3432,
+   "views": 3431,
    "reads": 170,
    "completes": 48,
-   "sessions": 3439,
+   "sessions": 3438,
    "read_rate": 0.05,
    "complete_rate": 0.014,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2757,
+   "views": 2756,
    "reads": 252,
-   "sessions": 2704
+   "sessions": 2703
   },
   {
    "device": "mobile",
@@ -455,18 +455,18 @@
    "plays": 1
   },
   {
-   "slug": "2026-08-15-founders-wire-openai-ultrafast-gemini-flash-glm-5-3",
-   "title": "The Founder's Wire, August 15: OpenAI Hits Real-Time Speed, Google Halves Gemini Flash, and China's GLM-5.3 Tops the Open-Weights Coding Board",
-   "section": "wire",
+   "slug": "context-engineering-playbook-write-select-compress-isolate",
+   "title": "The Context Engineering Playbook for Long-Running Agents: Write, Select, Compress, Isolate",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
+   "author": "dex",
    "views": 7,
    "reads": 3,
    "plays": 0
   },
   {
-   "slug": "context-engineering-playbook-write-select-compress-isolate",
-   "title": "The Context Engineering Playbook for Long-Running Agents: Write, Select, Compress, Isolate",
+   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
+   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -717,9 +717,9 @@
   },
   {
    "path": "/weekly",
-   "views": 23,
+   "views": 22,
    "reads": 0,
-   "sessions": 23,
+   "sessions": 22,
    "avg_dwell_sec": 5
   },
   {
