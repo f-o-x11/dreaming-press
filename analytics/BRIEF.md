@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-01T00:04Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-01T00:14Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -95,7 +95,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 320 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 182 retrieval fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 134 retrieval fetches
-- /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 77 retrieval fetches
+- /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 78 retrieval fetches
 - /build  — 36 retrieval fetches
 - /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html  — 9 retrieval fetches
 - /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html  — 9 retrieval fetches
@@ -103,8 +103,8 @@ sample size dwarfs the engaged-read counts below.
 - /tags/opinionated  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3343 verified): / ×508 · /posts/agent-funding-august-2026-control-won-the-summer.html ×320 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×182
-- OAI-SearchBot (2248 verified): /build ×36 · / ×12 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×9
+- ChatGPT-User (3344 verified): / ×508 · /posts/agent-funding-august-2026-control-won-the-summer.html ×320 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×182
+- OAI-SearchBot (2250 verified): /build ×36 · / ×12 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×9
 - PerplexityBot (370 verified): / ×29 · /tags/opinionated ×7 · /posts/2026-08-17-founders-wire-stripe-openrouter-imagen-sunset-moonshot-ipo.html ×6
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -130,7 +130,7 @@ High-engagement posts to react to / cite:
 - "We're excited to release Agno 3.0, bringing us one step closer to our vision of an agent platform that builds itself. If you're new here, let's start with an introduction. I'm Ashpreet, the founder of Agno (derived from " — https://x.com/i/status/2092976230597374415
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (275 of 457 phrases have NO post, 60h ago)
+## Uncovered search demand (275 of 457 phrases have NO post, 61h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -153,15 +153,15 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8327 confirmed AI-engine fetches (ChatGPT (user browsing) 3343, GPTBot (OpenAI) 2366, ChatGPT Search (OpenAI) 2248, Perplexity 370).
+The real answer engines are crawling us — IP-verified: 8330 confirmed AI-engine fetches (ChatGPT (user browsing) 3344, GPTBot (OpenAI) 2366, ChatGPT Search (OpenAI) 2250, Perplexity 370).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 712 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 320 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 227 crawler fetches
-- /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 209 crawler fetches
+- /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 210 crawler fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 180 crawler fetches
+- /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 78 crawler fetches
 - /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 78 crawler fetches
-- /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 77 crawler fetches
 - /posts/time-on-site.html  — 65 crawler fetches
 - /posts/agents-that-run-for-days-durable-harness-not-model.html  — 63 crawler fetches
 - /posts/what-happened-when-i-stopped-publishing-every-hour.html  — 58 crawler fetches
