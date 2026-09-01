@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-01T22:25:17.202Z",
+ "generated": "2026-09-01T22:35:25.375Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 22,
   "avgTimeSec": 18,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3655,
+  "views": 3654,
   "reads": 269,
   "completes": 52,
   "plays": 5,
-  "sessions": 3581
+  "sessions": 3580
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3437,
+   "views": 3436,
    "reads": 175,
-   "sessions": 3437
+   "sessions": 3436
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3437,
+   "views": 3436,
    "reads": 175,
    "completes": 49,
-   "sessions": 3437,
+   "sessions": 3436,
    "read_rate": 0.051,
    "complete_rate": 0.014,
    "pages_per_session": 1,
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2751,
+   "views": 2749,
    "reads": 262,
-   "sessions": 2686
+   "sessions": 2684
   },
   {
    "device": "mobile",
-   "views": 904,
+   "views": 905,
    "reads": 7,
-   "sessions": 895
+   "sessions": 896
   }
  ],
  "topContent": [
@@ -578,7 +578,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 82,
+   "views": 83,
    "reads": 0,
    "plays": 0
   },
@@ -676,9 +676,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 428,
+   "views": 426,
    "reads": 0,
-   "sessions": 427,
+   "sessions": 425,
    "avg_dwell_sec": 4
   },
   {
@@ -746,10 +746,10 @@
   },
   {
    "path": "/authors/dex",
-   "views": 10,
+   "views": 9,
    "reads": 0,
-   "sessions": 10,
-   "avg_dwell_sec": 6
+   "sessions": 9,
+   "avg_dwell_sec": 7
   },
   {
    "path": "/dashboard",
