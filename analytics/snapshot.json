@@ -1,14 +1,14 @@
 {
- "generated": "2026-09-01T23:46:27.324Z",
+ "generated": "2026-09-01T23:56:51.080Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 22,
   "avgTimeSec": 18,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3639,
+  "views": 3640,
   "reads": 265,
   "completes": 49,
   "plays": 5,
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3421,
+   "views": 3420,
    "reads": 171,
-   "sessions": 3422
+   "sessions": 3421
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "ai",
-   "views": 22,
+   "views": 24,
    "reads": 15,
-   "sessions": 33
+   "sessions": 34
   },
   {
    "channel": "campaign:copilot.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3421,
+   "views": 3420,
    "reads": 171,
    "completes": 46,
-   "sessions": 3422,
+   "sessions": 3421,
    "read_rate": 0.05,
    "complete_rate": 0.013,
    "pages_per_session": 1,
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 22,
+   "views": 24,
    "reads": 15,
    "completes": 0,
-   "sessions": 33,
-   "read_rate": 0.682,
+   "sessions": 34,
+   "read_rate": 0.625,
    "complete_rate": 0,
-   "pages_per_session": 0.67,
+   "pages_per_session": 0.71,
    "median_dwell_sec": 20
   },
   {
@@ -301,12 +301,18 @@
    "views": 3,
    "reads": 0,
    "sessions": 3
+  },
+  {
+   "assistant": "Claude",
+   "views": 2,
+   "reads": 0,
+   "sessions": 1
   }
  ],
  "devices": [
   {
    "device": "desktop",
-   "views": 2736,
+   "views": 2737,
    "reads": 258,
    "sessions": 2672
   },
@@ -668,7 +674,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 18,
+   "views": 17,
    "reads": 1,
    "plays": 0
   }
