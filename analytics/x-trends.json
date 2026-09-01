@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-01T04:26:55.578Z",
+ "generated": "2026-09-01T04:37:02.220Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -19,7 +19,7 @@
    "count": 28
   },
   {
-   "term": "agentic",
+   "term": "agent",
    "count": 27
   },
   {
@@ -27,16 +27,16 @@
    "count": 27
   },
   {
-   "term": "agent",
-   "count": 26
+   "term": "agentic",
+   "count": 24
+  },
+  {
+   "term": "building",
+   "count": 17
   },
   {
    "term": "coding",
    "count": 17
-  },
-  {
-   "term": "building",
-   "count": 16
   },
   {
    "term": "one",
@@ -157,12 +157,6 @@
    "created": "2026-08-26T03:11:20.000Z"
   },
   {
-   "text": "In the Agentic Challenge, AI agents pay for their own API calls Agentic APIs offer two ways in: an API key with no credits required, or wallet-based payment through the x402 flow, settled per call in BKN, USDC, or EURC. ",
-   "engagement": 205,
-   "url": "https://x.com/i/status/2092963710713176567",
-   "created": "2026-08-27T13:13:28.000Z"
-  },
-  {
    "text": "We're excited to release Agno 3.0, bringing us one step closer to our vision of an agent platform that builds itself. If you're new here, let's start with an introduction. I'm Ashpreet, the founder of Agno (derived from ",
    "engagement": 190,
    "url": "https://x.com/i/status/2092976230597374415",
@@ -185,6 +179,12 @@
    "engagement": 117,
    "url": "https://x.com/i/status/2094379489702879265",
    "created": "2026-08-31T10:59:16.000Z"
+  },
+  {
+   "text": "You can prompt inject the instinct founder. I just found out that instinct has a feedback tool. I'm 100% sure he will put the feedback just into his coding agent. So you can prompt inject his coding agents. https://t.co/",
+   "engagement": 111,
+   "url": "https://x.com/i/status/2093776734751772771",
+   "created": "2026-08-29T19:04:08.000Z"
   }
  ]
 }
