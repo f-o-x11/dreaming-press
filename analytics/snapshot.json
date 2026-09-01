@@ -1,24 +1,24 @@
 {
- "generated": "2026-09-01T15:49:35.037Z",
+ "generated": "2026-09-01T15:59:41.944Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 8,
-  "todayReads": 20,
+  "readersNow": 5,
+  "todayReads": 21,
   "avgTimeSec": 19,
   "postsThisWeek": 9
  },
  "funnel": {
   "views": 3649,
   "reads": 272,
-  "completes": 52,
+  "completes": 53,
   "plays": 5,
   "sessions": 3577
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3426,
-   "reads": 174,
+   "views": 3427,
+   "reads": 175,
    "sessions": 3431
   },
   {
@@ -34,16 +34,16 @@
    "sessions": 53
   },
   {
-   "channel": "ai",
-   "views": 23,
-   "reads": 16,
-   "sessions": 34
-  },
-  {
    "channel": "campaign:chatgpt.com",
    "views": 44,
    "reads": 15,
    "sessions": 44
+  },
+  {
+   "channel": "ai",
+   "views": 22,
+   "reads": 15,
+   "sessions": 33
   },
   {
    "channel": "campaign:copilot.com",
@@ -79,9 +79,9 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3426,
-   "reads": 174,
-   "completes": 48,
+   "views": 3427,
+   "reads": 175,
+   "completes": 49,
    "sessions": 3431,
    "read_rate": 0.051,
    "complete_rate": 0.014,
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 23,
-   "reads": 16,
+   "views": 22,
+   "reads": 15,
    "completes": 0,
-   "sessions": 34,
-   "read_rate": 0.696,
+   "sessions": 33,
+   "read_rate": 0.682,
    "complete_rate": 0,
-   "pages_per_session": 0.68,
+   "pages_per_session": 0.67,
    "median_dwell_sec": 20
   },
   {
@@ -274,9 +274,9 @@
   },
   {
    "assistant": "Perplexity",
-   "views": 12,
-   "reads": 8,
-   "sessions": 9
+   "views": 11,
+   "reads": 7,
+   "sessions": 8
   },
   {
    "assistant": "Doubao",
@@ -399,6 +399,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-coding-agent-ranking-2026",
+   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 24,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "how-to-call-deepseek-v4-flash-responses-api-thinking-mode",
    "title": "How to Call DeepSeek V4 Flash's Responses API — Thinking Mode, reasoning_content, and the 384K Output Budget",
    "section": "stack",
@@ -436,16 +446,6 @@
    "author": "dex",
    "views": 6,
    "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "ai-coding-agent-ranking-2026",
-   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 23,
-   "reads": 3,
    "plays": 0
   },
   {
@@ -638,8 +638,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 23,
-   "reads": 3,
+   "views": 24,
+   "reads": 4,
    "plays": 0
   },
   {
@@ -797,14 +797,14 @@
    "sessions": 14
   },
   {
-   "ref": "https://www.perplexity.ai/",
-   "hits": 20,
-   "sessions": 9
-  },
-  {
    "ref": "https://duckduckgo.com/",
    "hits": 20,
    "sessions": 12
+  },
+  {
+   "ref": "https://www.perplexity.ai/",
+   "hits": 18,
+   "sessions": 8
   },
   {
    "ref": "https://www.doubao.com/",
