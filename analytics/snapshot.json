@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-01T15:19:07.097Z",
+ "generated": "2026-09-01T15:29:17.002Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 20,
   "avgTimeSec": 19,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3648,
+  "views": 3643,
   "reads": 272,
   "completes": 52,
   "plays": 5,
-  "sessions": 3578
+  "sessions": 3571
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3425,
+   "views": 3420,
    "reads": 174,
-   "sessions": 3432
+   "sessions": 3425
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3425,
+   "views": 3420,
    "reads": 174,
    "completes": 48,
-   "sessions": 3432,
+   "sessions": 3425,
    "read_rate": 0.051,
    "complete_rate": 0.014,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2749,
+   "views": 2744,
    "reads": 265,
-   "sessions": 2689
+   "sessions": 2682
   },
   {
    "device": "mobile",
@@ -678,7 +678,7 @@
    "path": "/stack/:tool",
    "views": 431,
    "reads": 0,
-   "sessions": 431,
+   "sessions": 430,
    "avg_dwell_sec": 4
   },
   {
@@ -696,13 +696,6 @@
    "avg_dwell_sec": 4
   },
   {
-   "path": "/compare/:pair",
-   "views": 33,
-   "reads": 1,
-   "sessions": 34,
-   "avg_dwell_sec": 54
-  },
-  {
    "path": "/build",
    "views": 32,
    "reads": 0,
@@ -710,18 +703,18 @@
    "avg_dwell_sec": 4
   },
   {
-   "path": "/weekly",
-   "views": 20,
-   "reads": 0,
-   "sessions": 20,
-   "avg_dwell_sec": 6
+   "path": "/compare/:pair",
+   "views": 31,
+   "reads": 1,
+   "sessions": 31,
+   "avg_dwell_sec": 60
   },
   {
-   "path": "/tools",
-   "views": 18,
+   "path": "/weekly",
+   "views": 19,
    "reads": 0,
-   "sessions": 18,
-   "avg_dwell_sec": 8
+   "sessions": 19,
+   "avg_dwell_sec": 6
   },
   {
    "path": "/topics/:topic",
@@ -729,6 +722,13 @@
    "reads": 1,
    "sessions": 18,
    "avg_dwell_sec": 41
+  },
+  {
+   "path": "/tools",
+   "views": 17,
+   "reads": 0,
+   "sessions": 17,
+   "avg_dwell_sec": 7
   },
   {
    "path": "/alternatives/:tool",
