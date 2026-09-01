@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-01T09:00:56.870Z",
+ "generated": "2026-09-01T09:11:03.394Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 9,
-  "avgTimeSec": 15,
+  "readersNow": 12,
+  "todayReads": 11,
+  "avgTimeSec": 25,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3652,
-  "reads": 264,
+  "views": 3661,
+  "reads": 266,
   "completes": 55,
-  "plays": 4,
-  "sessions": 3584
+  "plays": 5,
+  "sessions": 3592
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3435,
+   "views": 3442,
    "reads": 174,
-   "sessions": 3439
+   "sessions": 3447
   },
   {
    "channel": "organic",
@@ -29,21 +29,21 @@
   },
   {
    "channel": "referral",
-   "views": 58,
-   "reads": 15,
-   "sessions": 52
+   "views": 59,
+   "reads": 16,
+   "sessions": 53
+  },
+  {
+   "channel": "ai",
+   "views": 24,
+   "reads": 16,
+   "sessions": 35
   },
   {
    "channel": "campaign:chatgpt.com",
    "views": 44,
    "reads": 15,
    "sessions": 44
-  },
-  {
-   "channel": "ai",
-   "views": 23,
-   "reads": 15,
-   "sessions": 34
   },
   {
    "channel": "campaign:copilot.com",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 16
+   "sessions": 17
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3435,
+   "views": 3442,
    "reads": 174,
    "completes": 51,
-   "sessions": 3439,
+   "sessions": 3447,
    "read_rate": 0.051,
    "complete_rate": 0.015,
    "pages_per_session": 1,
@@ -101,13 +101,13 @@
   },
   {
    "channel": "referral",
-   "views": 58,
-   "reads": 15,
+   "views": 59,
+   "reads": 16,
    "completes": 1,
-   "sessions": 52,
-   "read_rate": 0.259,
+   "sessions": 53,
+   "read_rate": 0.271,
    "complete_rate": 0.017,
-   "pages_per_session": 1.12,
+   "pages_per_session": 1.11,
    "median_dwell_sec": null
   },
   {
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 23,
-   "reads": 15,
+   "views": 24,
+   "reads": 16,
    "completes": 0,
-   "sessions": 34,
-   "read_rate": 0.652,
+   "sessions": 35,
+   "read_rate": 0.667,
    "complete_rate": 0,
-   "pages_per_session": 0.68,
+   "pages_per_session": 0.69,
    "median_dwell_sec": 28
   },
   {
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 16,
+   "sessions": 17,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -280,9 +280,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 6,
-   "reads": 6,
-   "sessions": 6
+   "views": 7,
+   "reads": 7,
+   "sessions": 7
   },
   {
    "assistant": "Copilot",
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2761,
-   "reads": 256,
-   "sessions": 2705
+   "views": 2768,
+   "reads": 258,
+   "sessions": 2711
   },
   {
    "device": "mobile",
-   "views": 891,
+   "views": 893,
    "reads": 8,
-   "sessions": 879
+   "sessions": 881
   }
  ],
  "topContent": [
@@ -429,6 +429,16 @@
    "plays": 0
   },
   {
+   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
+   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 13,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
@@ -449,24 +459,14 @@
    "plays": 1
   },
   {
-   "slug": "openrouter-vs-litellm-vs-cloudflare-ai-gateway",
-   "title": "OpenRouter vs LiteLLM vs Cloudflare AI Gateway: Marketplace, Proxy, or Edge — How to Route Your LLM Traffic in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
+   "slug": "gartner-ai-agent-spending-2026",
+   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
+   "section": "wire",
+   "tags": "[\"reportive\",\"cynical\"]",
+   "author": "priya",
    "views": 8,
    "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "postgres-listen-notify-vs-redis-streams-vs-sqs-agent-fan-out",
-   "title": "Postgres LISTEN/NOTIFY vs Redis Streams vs SQS: Fanning Out Agent Jobs Without Reaching for Kafka",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 3,
-   "plays": 0
+   "plays": 1
   }
  ],
  "topListens": [
@@ -477,6 +477,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 9,
+   "reads": 3,
+   "plays": 1
+  },
+  {
+   "slug": "gartner-ai-agent-spending-2026",
+   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
+   "section": "wire",
+   "tags": "[\"reportive\",\"cynical\"]",
+   "author": "priya",
+   "views": 8,
    "reads": 3,
    "plays": 1
   },
@@ -557,16 +567,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 12,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "reasoning-effort-vs-thinking-budget",
-   "title": "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 11,
    "reads": 5,
    "plays": 0
   }
@@ -807,14 +807,14 @@
    "sessions": 12
   },
   {
+   "ref": "https://www.doubao.com/",
+   "hits": 14,
+   "sessions": 7
+  },
+  {
    "ref": "https://www.google.com/",
    "hits": 12,
    "sessions": 10
-  },
-  {
-   "ref": "https://www.doubao.com/",
-   "hits": 12,
-   "sessions": 6
   },
   {
    "ref": "http://127.0.0.1:49608/",
@@ -822,14 +822,14 @@
    "sessions": 2
   },
   {
+   "ref": "http://114.114.114.114:9421/",
+   "hits": 10,
+   "sessions": 7
+  },
+  {
    "ref": "nav-cmp",
    "hits": 9,
    "sessions": 4
-  },
-  {
-   "ref": "http://114.114.114.114:9421/",
-   "hits": 8,
-   "sessions": 6
   }
  ]
 }
