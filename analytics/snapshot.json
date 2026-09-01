@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-01T06:49:27.029Z",
+ "generated": "2026-09-01T06:59:37.952Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 3,
   "todayReads": 6,
   "avgTimeSec": 11,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3635,
-  "reads": 265,
+  "views": 3636,
+  "reads": 264,
   "completes": 54,
   "plays": 4,
   "sessions": 3569
@@ -18,12 +18,12 @@
   {
    "channel": "direct",
    "views": 3419,
-   "reads": 174,
+   "reads": 173,
    "sessions": 3425
   },
   {
    "channel": "organic",
-   "views": 82,
+   "views": 83,
    "reads": 43,
    "sessions": 80
   },
@@ -80,7 +80,7 @@
   {
    "channel": "direct",
    "views": 3419,
-   "reads": 174,
+   "reads": 173,
    "completes": 50,
    "sessions": 3425,
    "read_rate": 0.051,
@@ -90,13 +90,13 @@
   },
   {
    "channel": "organic",
-   "views": 82,
+   "views": 83,
    "reads": 43,
    "completes": 1,
    "sessions": 80,
-   "read_rate": 0.524,
+   "read_rate": 0.518,
    "complete_rate": 0.012,
-   "pages_per_session": 1.02,
+   "pages_per_session": 1.04,
    "median_dwell_sec": 3
   },
   {
@@ -306,8 +306,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2748,
-   "reads": 255,
+   "views": 2749,
+   "reads": 254,
    "sessions": 2694
   },
   {
@@ -405,16 +405,6 @@
    "plays": 0
   },
   {
-   "slug": "code-retrieval-for-ai-coding-agents",
-   "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 7,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "how-to-call-deepseek-v4-flash-responses-api-thinking-mode",
    "title": "How to Call DeepSeek V4 Flash's Responses API — Thinking Mode, reasoning_content, and the 384K Output Budget",
    "section": "stack",
@@ -431,6 +421,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 10,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "code-retrieval-for-ai-coding-agents",
+   "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
    "reads": 4,
    "plays": 0
   },
@@ -789,7 +789,7 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 48,
+   "hits": 49,
    "sessions": 25
   },
   {
