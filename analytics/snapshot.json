@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-01T14:18:17.112Z",
+ "generated": "2026-09-01T14:28:34.587Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 16,
+  "readersNow": 5,
+  "todayReads": 18,
   "avgTimeSec": 21,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3647,
-  "reads": 269,
+  "views": 3649,
+  "reads": 271,
   "completes": 53,
   "plays": 5,
   "sessions": 3578
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3428,
+   "views": 3427,
    "reads": 175,
    "sessions": 3432
   },
   {
    "channel": "organic",
-   "views": 84,
-   "reads": 44,
-   "sessions": 80
+   "views": 87,
+   "reads": 46,
+   "sessions": 81
   },
   {
    "channel": "referral",
@@ -79,7 +79,7 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3428,
+   "views": 3427,
    "reads": 175,
    "completes": 49,
    "sessions": 3432,
@@ -90,13 +90,13 @@
   },
   {
    "channel": "organic",
-   "views": 84,
-   "reads": 44,
+   "views": 87,
+   "reads": 46,
    "completes": 1,
-   "sessions": 80,
-   "read_rate": 0.524,
-   "complete_rate": 0.012,
-   "pages_per_session": 1.05,
+   "sessions": 81,
+   "read_rate": 0.529,
+   "complete_rate": 0.011,
+   "pages_per_session": 1.07,
    "median_dwell_sec": 3
   },
   {
@@ -306,8 +306,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2751,
-   "reads": 262,
+   "views": 2753,
+   "reads": 264,
    "sessions": 2692
   },
   {
@@ -409,6 +409,16 @@
    "plays": 0
   },
   {
+   "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
+   "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "postgres-listen-notify-vs-redis-streams-vs-sqs-agent-fan-out",
    "title": "Postgres LISTEN/NOTIFY vs Redis Streams vs SQS: Fanning Out Agent Jobs Without Reaching for Kafka",
    "section": "stack",
@@ -457,16 +467,6 @@
    "views": 13,
    "reads": 3,
    "plays": 0
-  },
-  {
-   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
-   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 9,
-   "reads": 3,
-   "plays": 1
   }
  ],
  "topListens": [
@@ -783,13 +783,13 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 49,
+   "hits": 51,
    "sessions": 24
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 31,
-   "sessions": 19
+   "hits": 34,
+   "sessions": 20
   },
   {
    "ref": "https://chatgpt.com/",
