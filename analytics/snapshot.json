@@ -1,10 +1,10 @@
 {
- "generated": "2026-09-02T08:03:48.048Z",
+ "generated": "2026-09-02T08:13:50.962Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 8,
-  "avgTimeSec": 18,
+  "avgTimeSec": 17,
   "postsThisWeek": 7
  },
  "funnel": {
@@ -12,14 +12,14 @@
   "reads": 265,
   "completes": 49,
   "plays": 5,
-  "sessions": 3528
+  "sessions": 3527
  },
  "channels": [
   {
    "channel": "direct",
    "views": 3382,
    "reads": 172,
-   "sessions": 3387
+   "sessions": 3386
   },
   {
    "channel": "organic",
@@ -82,7 +82,7 @@
    "views": 3382,
    "reads": 172,
    "completes": 45,
-   "sessions": 3387,
+   "sessions": 3386,
    "read_rate": 0.051,
    "complete_rate": 0.013,
    "pages_per_session": 1,
@@ -314,7 +314,7 @@
    "device": "desktop",
    "views": 2704,
    "reads": 259,
-   "sessions": 2642
+   "sessions": 2641
   },
   {
    "device": "mobile",
@@ -584,7 +584,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 83,
+   "views": 82,
    "reads": 0,
    "plays": 0
   },
@@ -682,9 +682,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 416,
+   "views": 417,
    "reads": 0,
-   "sessions": 415,
+   "sessions": 416,
    "avg_dwell_sec": 4
   },
   {
