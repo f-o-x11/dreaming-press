@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-02T03:40:48.149Z",
+ "generated": "2026-09-02T03:50:55.089Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 5,
-  "avgTimeSec": 21,
+  "readersNow": 7,
+  "todayReads": 6,
+  "avgTimeSec": 23,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3632,
-  "reads": 270,
+  "views": 3636,
+  "reads": 271,
   "completes": 49,
   "plays": 5,
-  "sessions": 3558
+  "sessions": 3562
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3412,
+   "views": 3415,
    "reads": 176,
-   "sessions": 3413
+   "sessions": 3417
   },
   {
    "channel": "organic",
-   "views": 86,
-   "reads": 45,
-   "sessions": 80
+   "views": 87,
+   "reads": 46,
+   "sessions": 81
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3412,
+   "views": 3415,
    "reads": 176,
    "completes": 46,
-   "sessions": 3413,
+   "sessions": 3417,
    "read_rate": 0.052,
    "complete_rate": 0.013,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 86,
-   "reads": 45,
+   "views": 87,
+   "reads": 46,
    "completes": 0,
-   "sessions": 80,
-   "read_rate": 0.523,
+   "sessions": 81,
+   "read_rate": 0.529,
    "complete_rate": 0,
    "pages_per_session": 1.07,
    "median_dwell_sec": 3
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2725,
-   "reads": 263,
-   "sessions": 2660
+   "views": 2729,
+   "reads": 264,
+   "sessions": 2664
   },
   {
    "device": "mobile",
@@ -395,6 +395,16 @@
    "plays": 0
   },
   {
+   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
+   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 12,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-22-mcp-authorization-oauth",
    "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
    "section": "wire",
@@ -451,16 +461,6 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 13,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
-   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 11,
    "reads": 3,
    "plays": 0
   },
@@ -794,8 +794,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 33,
-   "sessions": 19
+   "hits": 35,
+   "sessions": 20
   },
   {
    "ref": "https://chatgpt.com/",

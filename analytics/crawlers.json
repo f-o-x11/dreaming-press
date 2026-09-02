@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-02T03:40:47.525Z",
+ "generated": "2026-09-02T03:50:54.469Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8327,
+ "verifiedAiHits": 8720,
  "logsScanned": 30,
  "windowStart": "2026-08-19",
  "windowEnd": "2026-09-02",
- "totalHits": 116660,
- "aiHits": 93090,
+ "totalHits": 117084,
+ "aiHits": 93500,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27935,
+   "hits": 27945,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15057,
+   "hits": 15064,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -90,15 +90,15 @@
      "hits": 14
     },
     {
+     "path": "/tags/opinionated",
+     "hits": 13
+    },
+    {
      "path": "/tags/reportive",
      "hits": 13
     },
     {
      "path": "/stack/pgvector",
-     "hits": 12
-    },
-    {
-     "path": "/tags/opinionated",
      "hits": 12
     },
     {
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6702,
-   "verifiedHits": 6497,
+   "hits": 6704,
+   "verifiedHits": 6499,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4450,
+   "hits": 4462,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3393,
-   "verifiedHits": 3099,
+   "hits": 3394,
+   "verifiedHits": 3100,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
     {
      "path": "/",
-     "hits": 518
+     "hits": 519
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -302,6 +302,39 @@
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
      "hits": 75
+    }
+   ],
+   "verifiable": true
+  },
+  {
+   "name": "GPTBot",
+   "label": "GPTBot (OpenAI)",
+   "category": "ai",
+   "home": "https://openai.com/gptbot",
+   "hits": 2995,
+   "verifiedHits": 2760,
+   "firstSeen": "2026-08-19",
+   "lastSeen": "2026-09-02",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 71
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 50
+    },
+    {
+     "path": "/stack.html",
+     "hits": 47
+    },
+    {
+     "path": "/authors/dex",
+     "hits": 38
+    },
+    {
+     "path": "/wire.html",
+     "hits": 33
     }
    ],
    "verifiable": true
@@ -368,39 +401,6 @@
     {
      "path": "/posts/open-source-agent-memory-libraries-mem0-zep-letta-cognee.html",
      "hits": 9
-    }
-   ],
-   "verifiable": true
-  },
-  {
-   "name": "GPTBot",
-   "label": "GPTBot (OpenAI)",
-   "category": "ai",
-   "home": "https://openai.com/gptbot",
-   "hits": 2603,
-   "verifiedHits": 2368,
-   "firstSeen": "2026-08-19",
-   "lastSeen": "2026-09-02",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 67
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 50
-    },
-    {
-     "path": "/stack.html",
-     "hits": 47
-    },
-    {
-     "path": "/authors/dex",
-     "hits": 38
-    },
-    {
-     "path": "/wire.html",
-     "hits": 33
     }
    ],
    "verifiable": true
