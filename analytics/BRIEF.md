@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-02T14:39Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-02T14:50Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -93,7 +93,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 580 retrieval fetches
+- /  — 581 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 290 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 162 retrieval fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 140 retrieval fetches
@@ -105,9 +105,9 @@ sample size dwarfs the engaged-read counts below.
 - /tags/opinionated  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3189 verified): / ×536 · /posts/agent-funding-august-2026-control-won-the-summer.html ×290 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×162
+- ChatGPT-User (3190 verified): / ×537 · /posts/agent-funding-august-2026-control-won-the-summer.html ×290 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×162
 - OAI-SearchBot (2588 verified): /build ×38 · / ×14 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×10
-- PerplexityBot (403 verified): / ×30 · /tags/opinionated ×7 · /build ×4
+- PerplexityBot (404 verified): / ×30 · /tags/opinionated ×7 · /build ×4
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -122,7 +122,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(34), agent(33), agentic(29), coding(28), build(27), founder(24), startup(23), one(17), mcp(13), building(13), code(11), systems(11), here(10), has(10), co-founder(9).
+Hot terms: agents(33), agent(32), agentic(29), build(28), coding(28), founder(24), startup(23), one(16), building(14), mcp(12), systems(12), code(10), here(10), has(10), co-founder(9).
 Hashtags: #ai, #startup, #founder, #aiagents, #entrepreneur, #agentic, #opensource, #agenticai, #mcp, #aws.
 High-engagement posts to react to / cite:
 - "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that "the econom" — https://x.com/i/status/2093803322444800052
@@ -135,9 +135,9 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (99h old, 275 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8941 confirmed AI-engine fetches (ChatGPT (user browsing) 3189, GPTBot (OpenAI) 2761, ChatGPT Search (OpenAI) 2588, Perplexity 403).
+The real answer engines are crawling us — IP-verified: 8943 confirmed AI-engine fetches (ChatGPT (user browsing) 3190, GPTBot (OpenAI) 2761, ChatGPT Search (OpenAI) 2588, Perplexity 404).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 723 crawler fetches
+- /build  — 725 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 290 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 221 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 201 crawler fetches
