@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-02T17:11:46.020Z",
+ "generated": "2026-09-02T17:21:52.648Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,11 +8,11 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 33
+   "count": 31
   },
   {
    "term": "agent",
-   "count": 32
+   "count": 31
   },
   {
    "term": "agentic",
@@ -36,30 +36,30 @@
   },
   {
    "term": "one",
-   "count": 16
+   "count": 15
   },
   {
    "term": "building",
    "count": 14
   },
   {
-   "term": "mcp",
-   "count": 12
-  },
-  {
    "term": "systems",
    "count": 12
   },
   {
-   "term": "code",
+   "term": "mcp",
    "count": 11
   },
   {
    "term": "here",
-   "count": 10
+   "count": 11
   },
   {
    "term": "has",
+   "count": 11
+  },
+  {
+   "term": "code",
    "count": 10
   },
   {
@@ -75,11 +75,11 @@
    "count": 8
   },
   {
-   "term": "llm",
+   "term": "actually",
    "count": 7
   },
   {
-   "term": "claude",
+   "term": "llm",
    "count": 7
   },
   {
@@ -157,6 +157,12 @@
    "created": "2026-08-27T14:03:13.000Z"
   },
   {
+   "text": "Some people see @injective and think trading. But look a little closer. You have an on-chain order book, ~0.64s blocks and extremely low fees. Basically the kind of infrastructure automated strategies actually need. And ",
+   "engagement": 165,
+   "url": "https://x.com/i/status/2093736948774867120",
+   "created": "2026-08-29T16:26:02.000Z"
+  },
+  {
    "text": "🚀 The AI Agent Engineering Roadmap Want to become an AI Agent Engineer? Don’t just learn tools—build the right foundation. Here’s the step-by-step path 👇 1️⃣ LLM Fundamentals + Reasoning 2️⃣ Context Engineering 3️⃣ Mem",
    "engagement": 162,
    "url": "https://x.com/i/status/2092864711465586795",
@@ -179,12 +185,6 @@
    "engagement": 111,
    "url": "https://x.com/i/status/2093850412931821791",
    "created": "2026-08-29T23:56:54.000Z"
-  },
-  {
-   "text": "best github projects of the month seven repos the feed recycled into one carousel - skillspector - security scanner for agent skills before install https://t.co/R9Gfobl0aJ - paperclip - control panel for a full team of a",
-   "engagement": 88,
-   "url": "https://x.com/i/status/2093693036689580297",
-   "created": "2026-08-29T13:31:33.000Z"
   }
  ]
 }
