@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-02T11:47:43.245Z",
+ "generated": "2026-09-02T11:57:46.681Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 15,
   "avgTimeSec": 14,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3563,
+  "views": 3559,
   "reads": 269,
   "completes": 51,
   "plays": 5,
-  "sessions": 3489
+  "sessions": 3484
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3340,
+   "views": 3336,
    "reads": 176,
-   "sessions": 3342
+   "sessions": 3337
   },
   {
    "channel": "organic",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 18
+   "sessions": 19
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3340,
+   "views": 3336,
    "reads": 176,
    "completes": 47,
-   "sessions": 3342,
+   "sessions": 3337,
    "read_rate": 0.053,
    "complete_rate": 0.014,
    "pages_per_session": 1,
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 18,
+   "sessions": 19,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -245,6 +245,11 @@
    "sessions": 1
   },
   {
+   "surface": "upnext-bar",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
    "surface": "stat-pill",
    "clicks": 1,
    "sessions": 1
@@ -256,11 +261,6 @@
   },
   {
    "surface": "rr-card",
-   "clicks": 1,
-   "sessions": 1
-  },
-  {
-   "surface": "notranslate",
    "clicks": 1,
    "sessions": 1
   }
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2693,
+   "views": 2689,
    "reads": 263,
-   "sessions": 2629
+   "sessions": 2624
   },
   {
    "device": "mobile",
@@ -465,11 +465,11 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
-   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
+   "slug": "gartner-ai-agent-spending-2026",
+   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
+   "section": "wire",
+   "tags": "[\"reportive\",\"cynical\"]",
+   "author": "priya",
    "views": 9,
    "reads": 3,
    "plays": 1
@@ -477,22 +477,22 @@
  ],
  "topListens": [
   {
-   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
-   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 9,
-   "reads": 3,
-   "plays": 1
-  },
-  {
    "slug": "gartner-ai-agent-spending-2026",
    "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
    "section": "wire",
    "tags": "[\"reportive\",\"cynical\"]",
    "author": "priya",
    "views": 9,
+   "reads": 3,
+   "plays": 1
+  },
+  {
+   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
+   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
    "reads": 3,
    "plays": 1
   },
