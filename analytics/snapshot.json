@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-02T04:21:07.289Z",
+ "generated": "2026-09-02T04:31:16.566Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
   "todayReads": 6,
-  "avgTimeSec": 22,
+  "avgTimeSec": 20,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3634,
-  "reads": 271,
+  "views": 3632,
+  "reads": 270,
   "completes": 49,
   "plays": 5,
-  "sessions": 3560
+  "sessions": 3558
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3415,
-   "reads": 176,
-   "sessions": 3417
+   "views": 3413,
+   "reads": 175,
+   "sessions": 3415
   },
   {
    "channel": "organic",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3415,
-   "reads": 176,
+   "views": 3413,
+   "reads": 175,
    "completes": 46,
-   "sessions": 3417,
-   "read_rate": 0.052,
+   "sessions": 3415,
+   "read_rate": 0.051,
    "complete_rate": 0.013,
    "pages_per_session": 1,
    "median_dwell_sec": 4
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2727,
-   "reads": 264,
-   "sessions": 2662
+   "views": 2725,
+   "reads": 263,
+   "sessions": 2660
   },
   {
    "device": "mobile",
@@ -390,7 +390,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 24,
+   "views": 25,
    "reads": 4,
    "plays": 0
   },
@@ -619,6 +619,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-coding-agent-ranking-2026",
+   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 25,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "neo4j-vs-falkordb-vs-memgraph",
    "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
    "section": "stack",
@@ -626,16 +636,6 @@
    "author": "dex",
    "views": 24,
    "reads": 12,
-   "plays": 0
-  },
-  {
-   "slug": "ai-coding-agent-ranking-2026",
-   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 24,
-   "reads": 4,
    "plays": 0
   },
   {
@@ -682,9 +682,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 419,
+   "views": 418,
    "reads": 0,
-   "sessions": 418,
+   "sessions": 417,
    "avg_dwell_sec": 4
   },
   {
