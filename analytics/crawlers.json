@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-02T18:53:05.949Z",
+ "generated": "2026-09-02T19:03:16.298Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9027,
+ "verifiedAiHits": 9035,
  "logsScanned": 30,
  "windowStart": "2026-08-19",
  "windowEnd": "2026-09-02",
- "totalHits": 122886,
- "aiHits": 97957,
+ "totalHits": 123016,
+ "aiHits": 98079,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31068,
+   "hits": 31171,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15760,
+   "hits": 15769,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7008,
-   "verifiedHits": 6803,
+   "hits": 7013,
+   "verifiedHits": 6808,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 5153,
+   "hits": 5156,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3526,
-   "verifiedHits": 3232,
+   "hits": 3527,
+   "verifiedHits": 3233,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
     {
      "path": "/",
-     "hits": 542
+     "hits": 543
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -377,8 +377,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2877,
-   "verifiedHits": 2623,
+   "hits": 2884,
+   "verifiedHits": 2630,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
@@ -542,10 +542,10 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 187,
+   "hits": 189,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
-   "lastSeen": "2026-09-01",
+   "lastSeen": "2026-09-02",
    "topPaths": [
     {
      "path": "/dashboard",
@@ -560,11 +560,11 @@
      "hits": 2
     },
     {
-     "path": "/actuator/env",
+     "path": "/",
      "hits": 1
     },
     {
-     "path": "/newsroom",
+     "path": "/actuator/env",
      "hits": 1
     }
    ],
