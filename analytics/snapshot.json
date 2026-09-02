@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-02T08:23:58.793Z",
+ "generated": "2026-09-02T08:34:01.714Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 8,
   "avgTimeSec": 17,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3600,
-  "reads": 265,
+  "views": 3589,
+  "reads": 263,
   "completes": 49,
   "plays": 5,
-  "sessions": 3527
+  "sessions": 3517
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3383,
-   "reads": 172,
-   "sessions": 3386
+   "views": 3373,
+   "reads": 171,
+   "sessions": 3376
   },
   {
    "channel": "organic",
-   "views": 86,
-   "reads": 47,
-   "sessions": 80
+   "views": 85,
+   "reads": 46,
+   "sessions": 79
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3383,
-   "reads": 172,
+   "views": 3373,
+   "reads": 171,
    "completes": 45,
-   "sessions": 3386,
+   "sessions": 3376,
    "read_rate": 0.051,
    "complete_rate": 0.013,
    "pages_per_session": 1,
@@ -90,13 +90,13 @@
   },
   {
    "channel": "organic",
-   "views": 86,
-   "reads": 47,
+   "views": 85,
+   "reads": 46,
    "completes": 1,
-   "sessions": 80,
-   "read_rate": 0.547,
+   "sessions": 79,
+   "read_rate": 0.541,
    "complete_rate": 0.012,
-   "pages_per_session": 1.07,
+   "pages_per_session": 1.08,
    "median_dwell_sec": 3
   },
   {
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2704,
-   "reads": 259,
-   "sessions": 2641
+   "views": 2700,
+   "reads": 257,
+   "sessions": 2638
   },
   {
    "device": "mobile",
-   "views": 896,
+   "views": 889,
    "reads": 6,
-   "sessions": 886
+   "sessions": 879
   }
  ],
  "topContent": [
@@ -803,14 +803,14 @@
    "sessions": 15
   },
   {
-   "ref": "https://duckduckgo.com/",
-   "hits": 19,
-   "sessions": 12
-  },
-  {
    "ref": "https://www.perplexity.ai/",
    "hits": 18,
    "sessions": 8
+  },
+  {
+   "ref": "https://duckduckgo.com/",
+   "hits": 17,
+   "sessions": 11
   },
   {
    "ref": "https://www.google.com/",
