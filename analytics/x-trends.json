@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-02T07:23:25.712Z",
+ "generated": "2026-09-02T07:33:32.647Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -11,12 +11,12 @@
    "count": 32
   },
   {
-   "term": "agentic",
-   "count": 30
+   "term": "agents",
+   "count": 31
   },
   {
-   "term": "agents",
-   "count": 29
+   "term": "agentic",
+   "count": 30
   },
   {
    "term": "coding",
@@ -24,7 +24,7 @@
   },
   {
    "term": "build",
-   "count": 27
+   "count": 26
   },
   {
    "term": "founder",
@@ -32,11 +32,11 @@
   },
   {
    "term": "startup",
-   "count": 22
+   "count": 21
   },
   {
    "term": "building",
-   "count": 16
+   "count": 19
   },
   {
    "term": "one",
@@ -55,28 +55,16 @@
    "count": 11
   },
   {
-   "term": "has",
-   "count": 11
-  },
-  {
    "term": "code",
    "count": 10
   },
   {
-   "term": "co-founder",
-   "count": 8
-  },
-  {
-   "term": "while",
-   "count": 8
+   "term": "has",
+   "count": 10
   },
   {
    "term": "koder",
    "count": 8
-  },
-  {
-   "term": "free",
-   "count": 7
   },
   {
    "term": "today",
@@ -84,6 +72,18 @@
   },
   {
    "term": "llm",
+   "count": 7
+  },
+  {
+   "term": "claude",
+   "count": 7
+  },
+  {
+   "term": "launch",
+   "count": 7
+  },
+  {
+   "term": "engineer",
    "count": 7
   }
  ],
@@ -94,6 +94,10 @@
   },
   {
    "term": "#founder",
+   "count": 4
+  },
+  {
+   "term": "#startup",
    "count": 3
   },
   {
@@ -101,20 +105,8 @@
    "count": 2
   },
   {
-   "term": "#startup",
-   "count": 2
-  },
-  {
    "term": "#entrepreneur",
    "count": 2
-  },
-  {
-   "term": "#grok",
-   "count": 1
-  },
-  {
-   "term": "#grokbuild",
-   "count": 1
   },
   {
    "term": "#agentic",
@@ -134,6 +126,14 @@
   },
   {
    "term": "#aws",
+   "count": 1
+  },
+  {
+   "term": "#community",
+   "count": 1
+  },
+  {
+   "term": "#growth",
    "count": 1
   }
  ],

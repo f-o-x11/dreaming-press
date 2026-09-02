@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-02T07:23:25.227Z",
+ "generated": "2026-09-02T07:33:32.193Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8819,
+ "verifiedAiHits": 8821,
  "logsScanned": 30,
  "windowStart": "2026-08-19",
  "windowEnd": "2026-09-02",
- "totalHits": 117964,
- "aiHits": 94037,
+ "totalHits": 118027,
+ "aiHits": 94054,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28188,
+   "hits": 28195,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15225,
+   "hits": 15233,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6785,
-   "verifiedHits": 6580,
+   "hits": 6787,
+   "verifiedHits": 6582,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
@@ -169,7 +169,7 @@
     },
     {
      "path": "/posts/2026-08-22-founders-wire-nvidia-poolside-anthropic-ipo-gemma-billion.html",
-     "hits": 43
+     "hits": 44
     }
    ],
    "verifiable": true
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4691,
+   "hits": 4701,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -236,6 +236,39 @@
     {
      "path": "/posts/ai-coding-agent-ranking-2026.html",
      "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "Sogou",
+   "label": "Sogou",
+   "category": "search",
+   "home": "https://www.sogou.com",
+   "hits": 3438,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-19",
+   "lastSeen": "2026-09-02",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 30
+    },
+    {
+     "path": "/stack.html",
+     "hits": 18
+    },
+    {
+     "path": "/dispatches.html",
+     "hits": 4
+    },
+    {
+     "path": "/apps",
+     "hits": 4
+    },
+    {
+     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
+     "hits": 4
     }
    ],
    "verifiable": false
@@ -274,44 +307,11 @@
    "verifiable": true
   },
   {
-   "name": "Sogou",
-   "label": "Sogou",
-   "category": "search",
-   "home": "https://www.sogou.com",
-   "hits": 3406,
-   "verifiedHits": 0,
-   "firstSeen": "2026-08-19",
-   "lastSeen": "2026-09-02",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 30
-    },
-    {
-     "path": "/stack.html",
-     "hits": 18
-    },
-    {
-     "path": "/dispatches.html",
-     "hits": 4
-    },
-    {
-     "path": "/apps",
-     "hits": 4
-    },
-    {
-     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
-     "hits": 4
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Baiduspider",
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3018,
+   "hits": 3019,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -377,8 +377,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2796,
-   "verifiedHits": 2542,
+   "hits": 2798,
+   "verifiedHits": 2544,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 953,
+   "hits": 954,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
