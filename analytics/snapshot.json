@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-02T11:17:16.687Z",
+ "generated": "2026-09-02T11:27:18.327Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 13,
+  "readersNow": 3,
+  "todayReads": 14,
   "avgTimeSec": 14,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3571,
-  "reads": 267,
+  "views": 3565,
+  "reads": 268,
   "completes": 51,
   "plays": 5,
-  "sessions": 3499
+  "sessions": 3493
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3350,
-   "reads": 174,
-   "sessions": 3353
+   "views": 3343,
+   "reads": 175,
+   "sessions": 3346
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 44,
+   "views": 45,
    "reads": 15,
-   "sessions": 44
+   "sessions": 45
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3350,
-   "reads": 174,
+   "views": 3343,
+   "reads": 175,
    "completes": 47,
-   "sessions": 3353,
+   "sessions": 3346,
    "read_rate": 0.052,
    "complete_rate": 0.014,
    "pages_per_session": 1,
@@ -112,12 +112,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 44,
+   "views": 45,
    "reads": 15,
    "completes": 2,
-   "sessions": 44,
-   "read_rate": 0.341,
-   "complete_rate": 0.045,
+   "sessions": 45,
+   "read_rate": 0.333,
+   "complete_rate": 0.044,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 45,
+   "views": 46,
    "reads": 15,
-   "sessions": 45
+   "sessions": 46
   },
   {
    "assistant": "Perplexity",
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2699,
-   "reads": 261,
-   "sessions": 2637
+   "views": 2695,
+   "reads": 262,
+   "sessions": 2633
   },
   {
    "device": "mobile",
-   "views": 872,
+   "views": 870,
    "reads": 6,
-   "sessions": 862
+   "sessions": 860
   }
  ],
  "topContent": [
@@ -435,6 +435,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-23-agents-vs-workflows",
+   "title": "Agents vs Workflows: When Your LLM App Should Not Be an Agent",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 5,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
@@ -460,16 +470,6 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 9,
-   "reads": 3,
-   "plays": 1
-  },
-  {
-   "slug": "gartner-ai-agent-spending-2026",
-   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
-   "section": "wire",
-   "tags": "[\"reportive\",\"cynical\"]",
-   "author": "priya",
    "views": 9,
    "reads": 3,
    "plays": 1
@@ -669,22 +669,22 @@
    "plays": 0
   },
   {
-   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
-   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
+   "slug": "langfuse-vs-arize-phoenix-vs-braintrust-llm-observability-solo-founder",
+   "title": "Langfuse vs Arize Phoenix vs Braintrust: Which LLM Observability Tool a Solo Founder Should Self-Host",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 16,
-   "reads": 1,
+   "views": 17,
+   "reads": 0,
    "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 417,
+   "views": 416,
    "reads": 0,
-   "sessions": 416,
+   "sessions": 415,
    "avg_dwell_sec": 4
   },
   {
@@ -723,18 +723,18 @@
    "avg_dwell_sec": 45
   },
   {
-   "path": "/weekly",
-   "views": 16,
-   "reads": 0,
-   "sessions": 16,
-   "avg_dwell_sec": 6
-  },
-  {
    "path": "/tools",
    "views": 15,
    "reads": 0,
    "sessions": 15,
    "avg_dwell_sec": 7
+  },
+  {
+   "path": "/weekly",
+   "views": 15,
+   "reads": 0,
+   "sessions": 15,
+   "avg_dwell_sec": 6
   },
   {
    "path": "/alternatives/:tool",
