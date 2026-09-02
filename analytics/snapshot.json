@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-02T06:22:39.878Z",
+ "generated": "2026-09-02T06:32:40.405Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 7,
+  "readersNow": 2,
+  "todayReads": 8,
   "avgTimeSec": 19,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3617,
+  "views": 3618,
   "reads": 268,
   "completes": 50,
   "plays": 5,
-  "sessions": 3543
+  "sessions": 3545
  },
  "channels": [
   {
    "channel": "direct",
    "views": 3399,
-   "reads": 175,
-   "sessions": 3402
+   "reads": 174,
+   "sessions": 3403
   },
   {
    "channel": "organic",
-   "views": 87,
-   "reads": 47,
-   "sessions": 81
+   "views": 88,
+   "reads": 48,
+   "sessions": 82
   },
   {
    "channel": "referral",
@@ -80,9 +80,9 @@
   {
    "channel": "direct",
    "views": 3399,
-   "reads": 175,
+   "reads": 174,
    "completes": 46,
-   "sessions": 3402,
+   "sessions": 3403,
    "read_rate": 0.051,
    "complete_rate": 0.014,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 87,
-   "reads": 47,
+   "views": 88,
+   "reads": 48,
    "completes": 1,
-   "sessions": 81,
-   "read_rate": 0.54,
+   "sessions": 82,
+   "read_rate": 0.545,
    "complete_rate": 0.011,
    "pages_per_session": 1.07,
    "median_dwell_sec": 3
@@ -314,13 +314,13 @@
    "device": "desktop",
    "views": 2712,
    "reads": 262,
-   "sessions": 2648
+   "sessions": 2649
   },
   {
    "device": "mobile",
-   "views": 905,
+   "views": 906,
    "reads": 6,
-   "sessions": 895
+   "sessions": 896
   }
  ],
  "topContent": [
@@ -435,16 +435,6 @@
    "plays": 0
   },
   {
-   "slug": "code-retrieval-for-ai-coding-agents",
-   "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 6,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
@@ -473,6 +463,16 @@
    "views": 9,
    "reads": 3,
    "plays": 1
+  },
+  {
+   "slug": "reasoning-effort-vs-thinking-budget",
+   "title": "Reasoning Effort vs. Thinking Budget: How to Control How Much Your Model Thinks",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 9,
+   "reads": 3,
+   "plays": 0
   }
  ],
  "topListens": [
@@ -789,8 +789,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 49,
-   "sessions": 23
+   "hits": 51,
+   "sessions": 24
   },
   {
    "ref": "https://cn.bing.com/",
