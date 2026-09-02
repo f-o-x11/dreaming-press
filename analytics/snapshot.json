@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-02T07:13:16.551Z",
+ "generated": "2026-09-02T07:23:25.778Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 8,
   "avgTimeSec": 19,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3607,
-  "reads": 268,
+  "views": 3605,
+  "reads": 267,
   "completes": 50,
   "plays": 5,
-  "sessions": 3534
+  "sessions": 3532
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3388,
+   "views": 3387,
    "reads": 174,
-   "sessions": 3392
+   "sessions": 3391
   },
   {
    "channel": "organic",
-   "views": 88,
-   "reads": 48,
-   "sessions": 82
+   "views": 87,
+   "reads": 47,
+   "sessions": 81
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3388,
+   "views": 3387,
    "reads": 174,
    "completes": 46,
-   "sessions": 3392,
+   "sessions": 3391,
    "read_rate": 0.051,
    "complete_rate": 0.014,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 88,
-   "reads": 48,
+   "views": 87,
+   "reads": 47,
    "completes": 1,
-   "sessions": 82,
-   "read_rate": 0.545,
+   "sessions": 81,
+   "read_rate": 0.54,
    "complete_rate": 0.011,
    "pages_per_session": 1.07,
    "median_dwell_sec": 3
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2709,
-   "reads": 262,
-   "sessions": 2646
+   "views": 2707,
+   "reads": 261,
+   "sessions": 2644
   },
   {
    "device": "mobile",
@@ -361,16 +361,6 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 21,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
-   "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
    "reads": 5,
    "plays": 0
   },
@@ -431,6 +421,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 8,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
+   "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
    "reads": 4,
    "plays": 0
   },
@@ -567,13 +567,13 @@
    "plays": 0
   },
   {
-   "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
-   "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
-   "section": "wire",
+   "slug": "ai-coding-agent-ranking-2026",
+   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 8,
-   "reads": 5,
+   "views": 25,
+   "reads": 4,
    "plays": 0
   }
  ],
@@ -619,6 +619,16 @@
    "plays": 0
   },
   {
+   "slug": "gpt-5-6-july-30-price-cut-routing-sticker-vs-bill",
+   "title": "OpenAI Cut Terra and Luna on July 30. On the Sticker, Luna Is Now the Cheapest Agent Backend Alive — On the Bill, the Ranking Barely Moved.",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 26,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "ai-coding-agent-ranking-2026",
    "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
    "section": "stack",
@@ -626,16 +636,6 @@
    "author": "dex",
    "views": 25,
    "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "gpt-5-6-july-30-price-cut-routing-sticker-vs-bill",
-   "title": "OpenAI Cut Terra and Luna on July 30. On the Sticker, Luna Is Now the Cheapest Agent Backend Alive — On the Bill, the Ranking Barely Moved.",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 25,
-   "reads": 0,
    "plays": 0
   },
   {
@@ -689,9 +689,9 @@
   },
   {
    "path": "/",
-   "views": 101,
+   "views": 102,
    "reads": 6,
-   "sessions": 101,
+   "sessions": 102,
    "avg_dwell_sec": 45
   },
   {
@@ -731,9 +731,9 @@
   },
   {
    "path": "/tools",
-   "views": 16,
+   "views": 15,
    "reads": 0,
-   "sessions": 16,
+   "sessions": 15,
    "avg_dwell_sec": 7
   },
   {
@@ -789,8 +789,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 51,
-   "sessions": 24
+   "hits": 49,
+   "sessions": 23
   },
   {
    "ref": "https://cn.bing.com/",
