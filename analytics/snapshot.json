@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-02T00:17:33.282Z",
+ "generated": "2026-09-02T00:27:36.640Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,18 +8,18 @@
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3636,
+  "views": 3635,
   "reads": 265,
   "completes": 49,
   "plays": 5,
-  "sessions": 3562
+  "sessions": 3561
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3416,
+   "views": 3415,
    "reads": 171,
-   "sessions": 3417
+   "sessions": 3416
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3416,
+   "views": 3415,
    "reads": 171,
    "completes": 46,
-   "sessions": 3417,
+   "sessions": 3416,
    "read_rate": 0.05,
    "complete_rate": 0.013,
    "pages_per_session": 1,
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2733,
+   "views": 2732,
    "reads": 258,
-   "sessions": 2668
+   "sessions": 2667
   },
   {
    "device": "mobile",
@@ -669,13 +669,13 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-23-mlx-vs-llama-cpp",
-   "title": "MLX vs llama.cpp: Which Engine Should Run LLMs on Apple Silicon",
-   "section": "wire",
+   "slug": "langfuse-vs-arize-phoenix-vs-braintrust-llm-observability-solo-founder",
+   "title": "Langfuse vs Arize Phoenix vs Braintrust: Which LLM Observability Tool a Solo Founder Should Self-Host",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 16,
-   "reads": 1,
+   "reads": 0,
    "plays": 0
   }
  ],
