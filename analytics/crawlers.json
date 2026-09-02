@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-02T12:58:16.134Z",
+ "generated": "2026-09-02T13:08:26.094Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8910,
+ "verifiedAiHits": 8912,
  "logsScanned": 30,
  "windowStart": "2026-08-19",
  "windowEnd": "2026-09-02",
- "totalHits": 120020,
- "aiHits": 95402,
+ "totalHits": 120084,
+ "aiHits": 95452,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29047,
+   "hits": 29086,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15484,
+   "hits": 15492,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6888,
-   "verifiedHits": 6683,
+   "hits": 6893,
+   "verifiedHits": 6688,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 5003,
+   "hits": 5010,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3467,
-   "verifiedHits": 3173,
+   "hits": 3469,
+   "verifiedHits": 3175,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3082,
+   "hits": 3084,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -410,10 +410,10 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2425,
+   "hits": 2426,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
-   "lastSeen": "2026-09-01",
+   "lastSeen": "2026-09-02",
    "topPaths": [
     {
      "path": "/wire.html",
@@ -432,7 +432,7 @@
      "hits": 3
     },
     {
-     "path": "/posts/running-ai-agents-on-kubernetes-kagent-agentgateway.md",
+     "path": "/posts/prompt-engineering-for-agents-tool-descriptions.md",
      "hits": 2
     }
    ],
