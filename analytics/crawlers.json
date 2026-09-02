@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-02T00:47:39.923Z",
+ "generated": "2026-09-02T00:57:39.966Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8272,
+ "verifiedAiHits": 8274,
  "logsScanned": 30,
  "windowStart": "2026-08-19",
  "windowEnd": "2026-09-02",
- "totalHits": 115905,
- "aiHits": 92579,
+ "totalHits": 115936,
+ "aiHits": 92593,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27697,
+   "hits": 27701,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14931,
+   "hits": 14939,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -102,7 +102,7 @@
      "hits": 12
     },
     {
-     "path": "/topics/agent-evals",
+     "path": "/stack/integration-app",
      "hits": 11
     }
    ],
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6655,
-   "verifiedHits": 6450,
+   "hits": 6660,
+   "verifiedHits": 6455,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
@@ -212,14 +212,14 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4273,
+   "hits": 4282,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 8
+     "hits": 9
     },
     {
      "path": "/posts/mcp-mcp-method-mcp-name-headers-route-at-the-gateway.html",
@@ -344,10 +344,10 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2715,
-   "verifiedHits": 2461,
+   "hits": 2717,
+   "verifiedHits": 2463,
    "firstSeen": "2026-08-19",
-   "lastSeen": "2026-09-01",
+   "lastSeen": "2026-09-02",
    "topPaths": [
     {
      "path": "/build",
@@ -443,10 +443,10 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 942,
+   "hits": 945,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
-   "lastSeen": "2026-09-01",
+   "lastSeen": "2026-09-02",
    "topPaths": [
     {
      "path": "/",
