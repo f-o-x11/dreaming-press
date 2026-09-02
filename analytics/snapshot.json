@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-02T18:02:34.144Z",
+ "generated": "2026-09-02T18:12:41.468Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 2,
   "todayReads": 17,
   "avgTimeSec": 11,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3531,
+  "views": 3532,
   "reads": 266,
   "completes": 48,
   "plays": 5,
-  "sessions": 3456
+  "sessions": 3457
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3309,
+   "views": 3308,
    "reads": 174,
-   "sessions": 3308
+   "sessions": 3307
   },
   {
    "channel": "organic",
@@ -35,15 +35,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 46,
+   "views": 48,
    "reads": 15,
-   "sessions": 46
+   "sessions": 48
   },
   {
    "channel": "ai",
    "views": 24,
    "reads": 14,
-   "sessions": 35
+   "sessions": 37
   },
   {
    "channel": "campaign:copilot.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3309,
+   "views": 3308,
    "reads": 174,
    "completes": 44,
-   "sessions": 3308,
+   "sessions": 3307,
    "read_rate": 0.053,
    "complete_rate": 0.013,
    "pages_per_session": 1,
@@ -112,12 +112,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 46,
+   "views": 48,
    "reads": 15,
    "completes": 2,
-   "sessions": 46,
-   "read_rate": 0.326,
-   "complete_rate": 0.043,
+   "sessions": 48,
+   "read_rate": 0.313,
+   "complete_rate": 0.042,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
@@ -126,10 +126,10 @@
    "views": 24,
    "reads": 14,
    "completes": 0,
-   "sessions": 35,
+   "sessions": 37,
    "read_rate": 0.583,
    "complete_rate": 0,
-   "pages_per_session": 0.69,
+   "pages_per_session": 0.65,
    "median_dwell_sec": 20
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 47,
+   "views": 49,
    "reads": 15,
-   "sessions": 47
+   "sessions": 49
   },
   {
    "assistant": "Perplexity",
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2679,
+   "views": 2680,
    "reads": 260,
-   "sessions": 2614
+   "sessions": 2615
   },
   {
    "device": "mobile",
