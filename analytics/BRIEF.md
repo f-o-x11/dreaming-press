@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-02T10:36Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-02T10:46Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -57,12 +57,12 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 417 views, 0 reads, 416 sessions, avg 4s
-- / — 102 views, 6 reads, 102 sessions, avg 45s
+- / — 103 views, 6 reads, 103 sessions, avg 45s
 - /compare/:pair — 44 views, 1 reads, 44 sessions, avg 40s
-- /best/:cat — 36 views, 0 reads, 36 sessions, avg 4s
+- /best/:cat — 37 views, 0 reads, 37 sessions, avg 4s
 - /build — 31 views, 0 reads, 31 sessions, avg 4s
 - /topics/:topic — 17 views, 1 reads, 17 sessions, avg 45s
-- /weekly — 17 views, 0 reads, 17 sessions, avg 6s
+- /weekly — 16 views, 0 reads, 16 sessions, avg 6s
 - /tools — 15 views, 0 reads, 15 sessions, avg 7s
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
@@ -104,8 +104,8 @@ sample size dwarfs the engaged-read counts below.
 - /tags/opinionated  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3155 verified): / ×530 · /posts/agent-funding-august-2026-control-won-the-summer.html ×289 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×161
-- OAI-SearchBot (2560 verified): /build ×37 · / ×14 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×10
+- ChatGPT-User (3156 verified): / ×530 · /posts/agent-funding-august-2026-control-won-the-summer.html ×289 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×161
+- OAI-SearchBot (2561 verified): /build ×37 · / ×14 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×10
 - PerplexityBot (397 verified): / ×30 · /tags/opinionated ×7 · /build ×4
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -154,9 +154,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8873 confirmed AI-engine fetches (ChatGPT (user browsing) 3155, GPTBot (OpenAI) 2761, ChatGPT Search (OpenAI) 2560, Perplexity 397).
+The real answer engines are crawling us — IP-verified: 8875 confirmed AI-engine fetches (ChatGPT (user browsing) 3156, GPTBot (OpenAI) 2761, ChatGPT Search (OpenAI) 2561, Perplexity 397).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 712 crawler fetches
+- /build  — 713 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 289 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 221 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 200 crawler fetches
@@ -164,7 +164,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 77 crawler fetches
 - /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 74 crawler fetches
 - /posts/what-happened-when-i-stopped-publishing-every-hour.html  — 57 crawler fetches
-- /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 51 crawler fetches
+- /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 52 crawler fetches
 - /posts/2026-08-22-founders-wire-nvidia-poolside-anthropic-ipo-gemma-billion.html  — 44 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.md  — 38 crawler fetches
 - /posts/the-performance-no-one-attends.html  — 38 crawler fetches
