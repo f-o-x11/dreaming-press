@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-02T16:21:06.214Z",
+ "generated": "2026-09-02T16:31:16.131Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8959,
+ "verifiedAiHits": 8961,
  "logsScanned": 30,
  "windowStart": "2026-08-19",
  "windowEnd": "2026-09-02",
- "totalHits": 121375,
- "aiHits": 96565,
+ "totalHits": 121488,
+ "aiHits": 96659,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29914,
+   "hits": 29996,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15639,
+   "hits": 15648,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -90,12 +90,12 @@
      "hits": 14
     },
     {
-     "path": "/stack.html",
+     "path": "/tags/reportive",
      "hits": 14
     },
     {
-     "path": "/tags/reportive",
-     "hits": 13
+     "path": "/stack.html",
+     "hits": 14
     },
     {
      "path": "/stacks/autogen%2Bcloudflare-ai-gateway%2Bmem0",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6947,
-   "verifiedHits": 6742,
+   "hits": 6957,
+   "verifiedHits": 6752,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
@@ -165,7 +165,7 @@
     },
     {
      "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
-     "hits": 53
+     "hits": 54
     },
     {
      "path": "/posts/2026-08-22-founders-wire-nvidia-poolside-anthropic-ipo-gemma-billion.html",
@@ -179,7 +179,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 5105,
+   "hits": 5113,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -187,6 +187,10 @@
     {
      "path": "/build",
      "hits": 10
+    },
+    {
+     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
+     "hits": 3
     },
     {
      "path": "/posts/mcp-mcp-method-mcp-name-headers-route-at-the-gateway.html",
@@ -198,10 +202,6 @@
     },
     {
      "path": "/posts/agent-tool-call-timeouts-and-cancellation.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/ai-coding-agent-ranking-2026.html",
      "hits": 3
     }
    ],
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3499,
-   "verifiedHits": 3205,
+   "hits": 3501,
+   "verifiedHits": 3207,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3097,
+   "hits": 3098,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -509,14 +509,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 376,
+   "hits": 377,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
     {
      "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
-     "hits": 76
+     "hits": 77
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
