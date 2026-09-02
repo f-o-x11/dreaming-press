@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-02T18:32Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-02T18:43Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -106,8 +106,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - ChatGPT-User (3232 verified): / ×542 · /posts/agent-funding-august-2026-control-won-the-summer.html ×292 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×163
-- OAI-SearchBot (2612 verified): /build ×38 · / ×14 · /posts/ollama-vs-lm-studio-vs-llama-cpp-local-agent-backend.html ×11
-- PerplexityBot (407 verified): / ×30 · /tags/opinionated ×7 · /build ×4
+- OAI-SearchBot (2613 verified): /build ×38 · / ×14 · /posts/ollama-vs-lm-studio-vs-llama-cpp-local-agent-backend.html ×11
+- PerplexityBot (409 verified): / ×30 · /tags/opinionated ×7 · /build ×4
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -135,7 +135,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (103h old, 275 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9014 confirmed AI-engine fetches (ChatGPT (user browsing) 3232, GPTBot (OpenAI) 2763, ChatGPT Search (OpenAI) 2612, Perplexity 407).
+The real answer engines are crawling us — IP-verified: 9017 confirmed AI-engine fetches (ChatGPT (user browsing) 3232, GPTBot (OpenAI) 2763, ChatGPT Search (OpenAI) 2613, Perplexity 409).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 733 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 292 crawler fetches
