@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-02T16:31:16.680Z",
+ "generated": "2026-09-02T16:41:20.416Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,18 +8,14 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 31
+   "count": 33
   },
   {
    "term": "agent",
-   "count": 31
+   "count": 32
   },
   {
    "term": "agentic",
-   "count": 29
-  },
-  {
-   "term": "build",
    "count": 29
   },
   {
@@ -27,32 +23,36 @@
    "count": 29
   },
   {
+   "term": "build",
+   "count": 28
+  },
+  {
    "term": "founder",
    "count": 24
   },
   {
    "term": "startup",
-   "count": 22
+   "count": 23
   },
   {
    "term": "one",
-   "count": 15
+   "count": 16
   },
   {
    "term": "building",
    "count": 14
   },
   {
+   "term": "mcp",
+   "count": 12
+  },
+  {
    "term": "systems",
    "count": 12
   },
   {
-   "term": "mcp",
-   "count": 11
-  },
-  {
    "term": "code",
-   "count": 10
+   "count": 11
   },
   {
    "term": "here",
@@ -60,7 +60,7 @@
   },
   {
    "term": "has",
-   "count": 9
+   "count": 10
   },
   {
    "term": "co-founder",
@@ -75,11 +75,11 @@
    "count": 8
   },
   {
-   "term": "let",
+   "term": "llm",
    "count": 7
   },
   {
-   "term": "llm",
+   "term": "claude",
    "count": 7
   },
   {
@@ -90,11 +90,11 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 5
+   "count": 4
   },
   {
    "term": "#startup",
-   "count": 4
+   "count": 3
   },
   {
    "term": "#founder",
