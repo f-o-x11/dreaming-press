@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-02T04:01:01.500Z",
+ "generated": "2026-09-02T04:11:06.792Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
   "todayReads": 6,
-  "avgTimeSec": 23,
+  "avgTimeSec": 22,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3636,
+  "views": 3635,
   "reads": 271,
   "completes": 49,
   "plays": 5,
-  "sessions": 3562
+  "sessions": 3561
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3415,
+   "views": 3416,
    "reads": 176,
-   "sessions": 3417
+   "sessions": 3418
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 59,
+   "views": 58,
    "reads": 16,
-   "sessions": 53
+   "sessions": 52
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -59,9 +59,9 @@
   },
   {
    "channel": "social",
-   "views": 4,
+   "views": 3,
    "reads": 0,
-   "sessions": 4
+   "sessions": 3
   },
   {
    "channel": "campaign:producthunt/",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3415,
+   "views": 3416,
    "reads": 176,
    "completes": 46,
-   "sessions": 3417,
+   "sessions": 3418,
    "read_rate": 0.052,
    "complete_rate": 0.013,
    "pages_per_session": 1,
@@ -101,13 +101,13 @@
   },
   {
    "channel": "referral",
-   "views": 59,
+   "views": 58,
    "reads": 16,
    "completes": 1,
-   "sessions": 53,
-   "read_rate": 0.271,
+   "sessions": 52,
+   "read_rate": 0.276,
    "complete_rate": 0.017,
-   "pages_per_session": 1.11,
+   "pages_per_session": 1.12,
    "median_dwell_sec": null
   },
   {
@@ -134,10 +134,10 @@
   },
   {
    "channel": "social",
-   "views": 4,
+   "views": 3,
    "reads": 0,
    "completes": 0,
-   "sessions": 4,
+   "sessions": 3,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2729,
+   "views": 2728,
    "reads": 264,
-   "sessions": 2664
+   "sessions": 2663
   },
   {
    "device": "mobile",
@@ -584,7 +584,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 82,
+   "views": 83,
    "reads": 0,
    "plays": 0
   },
@@ -682,9 +682,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 419,
+   "views": 420,
    "reads": 0,
-   "sessions": 418,
+   "sessions": 419,
    "avg_dwell_sec": 4
   },
   {

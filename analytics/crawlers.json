@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-02T04:01:00.857Z",
+ "generated": "2026-09-02T04:11:06.039Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8722,
+ "verifiedAiHits": 8781,
  "logsScanned": 30,
  "windowStart": "2026-08-19",
  "windowEnd": "2026-09-02",
- "totalHits": 117147,
- "aiHits": 93545,
+ "totalHits": 117244,
+ "aiHits": 93619,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27958,
+   "hits": 27963,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25141,
+   "hits": 25142,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15074,
+   "hits": 15083,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6711,
-   "verifiedHits": 6506,
+   "hits": 6718,
+   "verifiedHits": 6513,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4473,
+   "hits": 4484,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3396,
-   "verifiedHits": 3102,
+   "hits": 3398,
+   "verifiedHits": 3104,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
@@ -301,10 +301,43 @@
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 75
+     "hits": 76
     }
    ],
    "verifiable": true
+  },
+  {
+   "name": "Baiduspider",
+   "label": "Baidu",
+   "category": "search",
+   "home": "https://www.baidu.com",
+   "hits": 2997,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-19",
+   "lastSeen": "2026-09-02",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 41
+    },
+    {
+     "path": "/tags/reportive",
+     "hits": 6
+    },
+    {
+     "path": "/authors/rosalinda",
+     "hits": 5
+    },
+    {
+     "path": "/tags/howto",
+     "hits": 4
+    },
+    {
+     "path": "/posts/2026-08-20-founders-wire-chatgpt-ads-claude-protein-rillet.html",
+     "hits": 4
+    }
+   ],
+   "verifiable": false
   },
   {
    "name": "GPTBot",
@@ -340,55 +373,22 @@
    "verifiable": true
   },
   {
-   "name": "Baiduspider",
-   "label": "Baidu",
-   "category": "search",
-   "home": "https://www.baidu.com",
-   "hits": 2994,
-   "verifiedHits": 0,
-   "firstSeen": "2026-08-19",
-   "lastSeen": "2026-09-02",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 41
-    },
-    {
-     "path": "/tags/reportive",
-     "hits": 6
-    },
-    {
-     "path": "/authors/rosalinda",
-     "hits": 5
-    },
-    {
-     "path": "/tags/howto",
-     "hits": 4
-    },
-    {
-     "path": "/posts/2026-08-20-founders-wire-chatgpt-ads-claude-protein-rillet.html",
-     "hits": 4
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "OAI-SearchBot",
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2729,
-   "verifiedHits": 2475,
+   "hits": 2785,
+   "verifiedHits": 2531,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 36
+     "hits": 37
     },
     {
      "path": "/",
-     "hits": 13
+     "hits": 14
     },
     {
      "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
@@ -443,7 +443,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 945,
+   "hits": 947,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -476,8 +476,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 646,
-   "verifiedHits": 385,
+   "hits": 647,
+   "verifiedHits": 386,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
