@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-02T02:29:55.969Z",
+ "generated": "2026-09-02T02:40:05.620Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 8313,
  "logsScanned": 30,
  "windowStart": "2026-08-19",
  "windowEnd": "2026-09-02",
- "totalHits": 116315,
- "aiHits": 92847,
+ "totalHits": 116361,
+ "aiHits": 92873,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27834,
+   "hits": 27858,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15008,
+   "hits": 15010,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -146,14 +146,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6681,
-   "verifiedHits": 6476,
+   "hits": 6687,
+   "verifiedHits": 6482,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 241
+     "hits": 242
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
@@ -179,8 +179,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 5072,
-   "verifiedHits": 592,
+   "hits": 5073,
+   "verifiedHits": 593,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4376,
+   "hits": 4389,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
