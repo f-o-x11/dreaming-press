@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-02T15:20:16.121Z",
+ "generated": "2026-09-02T15:30:16.440Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8949,
+ "verifiedAiHits": 8950,
  "logsScanned": 30,
  "windowStart": "2026-08-19",
  "windowEnd": "2026-09-02",
- "totalHits": 120845,
- "aiHits": 96095,
+ "totalHits": 120907,
+ "aiHits": 96147,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29575,
+   "hits": 29597,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 134
+     "hits": 135
     },
     {
      "path": "/tags/opinionated",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25296,
+   "hits": 25314,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15594,
+   "hits": 15602,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 12477,
+   "hits": 12480,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6926,
-   "verifiedHits": 6721,
+   "hits": 6929,
+   "verifiedHits": 6724,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
@@ -173,6 +173,39 @@
     }
    ],
    "verifiable": true
+  },
+  {
+   "name": "Applebot",
+   "label": "Applebot (Siri / Spotlight)",
+   "category": "search",
+   "home": "https://support.apple.com/en-us/119829",
+   "hits": 5083,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-19",
+   "lastSeen": "2026-09-02",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 10
+    },
+    {
+     "path": "/posts/mcp-mcp-method-mcp-name-headers-route-at-the-gateway.html",
+     "hits": 3
+    },
+    {
+     "path": "/authors/margaux",
+     "hits": 3
+    },
+    {
+     "path": "/posts/agent-tool-call-timeouts-and-cancellation.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/ai-coding-agent-ranking-2026.html",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
   },
   {
    "name": "Googlebot",
@@ -206,39 +239,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "Applebot",
-   "label": "Applebot (Siri / Spotlight)",
-   "category": "search",
-   "home": "https://support.apple.com/en-us/119829",
-   "hits": 5077,
-   "verifiedHits": 0,
-   "firstSeen": "2026-08-19",
-   "lastSeen": "2026-09-02",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 10
-    },
-    {
-     "path": "/posts/mcp-mcp-method-mcp-name-headers-route-at-the-gateway.html",
-     "hits": 3
-    },
-    {
-     "path": "/authors/margaux",
-     "hits": 3
-    },
-    {
-     "path": "/posts/agent-tool-call-timeouts-and-cancellation.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/ai-coding-agent-ranking-2026.html",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "Sogou",
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3489,
-   "verifiedHits": 3195,
+   "hits": 3490,
+   "verifiedHits": 3196,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
@@ -293,7 +293,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 162
+     "hits": 163
     },
     {
      "path": "/posts/ai-coding-agent-ranking-2026.html",
@@ -443,7 +443,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 969,
+   "hits": 970,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",

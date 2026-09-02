@@ -1,30 +1,30 @@
 {
- "generated": "2026-09-02T15:20:16.820Z",
+ "generated": "2026-09-02T15:30:17.051Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 0,
   "todayReads": 16,
   "avgTimeSec": 11,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3542,
-  "reads": 267,
+  "views": 3540,
+  "reads": 266,
   "completes": 49,
   "plays": 5,
-  "sessions": 3466
+  "sessions": 3465
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3318,
+   "views": 3317,
    "reads": 174,
-   "sessions": 3318
+   "sessions": 3316
   },
   {
    "channel": "organic",
-   "views": 86,
-   "reads": 46,
+   "views": 85,
+   "reads": 45,
    "sessions": 80
   },
   {
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3318,
+   "views": 3317,
    "reads": 174,
    "completes": 45,
-   "sessions": 3318,
+   "sessions": 3316,
    "read_rate": 0.052,
    "complete_rate": 0.014,
    "pages_per_session": 1,
@@ -90,13 +90,13 @@
   },
   {
    "channel": "organic",
-   "views": 86,
-   "reads": 46,
+   "views": 85,
+   "reads": 45,
    "completes": 1,
    "sessions": 80,
-   "read_rate": 0.535,
+   "read_rate": 0.529,
    "complete_rate": 0.012,
-   "pages_per_session": 1.07,
+   "pages_per_session": 1.06,
    "median_dwell_sec": 4
   },
   {
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2685,
-   "reads": 261,
-   "sessions": 2619
+   "views": 2683,
+   "reads": 260,
+   "sessions": 2618
   },
   {
    "device": "mobile",
@@ -415,16 +415,6 @@
    "plays": 0
   },
   {
-   "slug": "postgres-listen-notify-vs-redis-streams-vs-sqs-agent-fan-out",
-   "title": "Postgres LISTEN/NOTIFY vs Redis Streams vs SQS: Fanning Out Agent Jobs Without Reaching for Kafka",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
    "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
    "section": "wire",
@@ -473,6 +463,16 @@
    "views": 9,
    "reads": 3,
    "plays": 1
+  },
+  {
+   "slug": "openrouter-vs-litellm-vs-cloudflare-ai-gateway",
+   "title": "OpenRouter vs LiteLLM vs Cloudflare AI Gateway: Marketplace, Proxy, or Edge — How to Route Your LLM Traffic in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 9,
+   "reads": 3,
+   "plays": 0
   }
  ],
  "topListens": [
@@ -789,7 +789,7 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 49,
+   "hits": 47,
    "sessions": 23
   },
   {
