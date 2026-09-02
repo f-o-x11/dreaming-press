@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-02T21:46Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-02T21:56Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -57,7 +57,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 403 views, 0 reads, 402 sessions, avg 4s
-- / — 104 views, 6 reads, 104 sessions, avg 44s
+- / — 105 views, 6 reads, 105 sessions, avg 43s
 - /compare/:pair — 44 views, 1 reads, 44 sessions, avg 40s
 - /best/:cat — 37 views, 0 reads, 37 sessions, avg 4s
 - /build — 30 views, 0 reads, 30 sessions, avg 4s
@@ -104,7 +104,7 @@ sample size dwarfs the engaged-read counts below.
 - /tags/opinionated  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3263 verified): / ×547 · /posts/agent-funding-august-2026-control-won-the-summer.html ×292 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×164
+- ChatGPT-User (3264 verified): / ×547 · /posts/agent-funding-august-2026-control-won-the-summer.html ×292 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×164
 - OAI-SearchBot (2685 verified): /build ×38 · / ×15 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×11
 - PerplexityBot (412 verified): / ×30 · /tags/opinionated ×7 · /build ×4
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -134,7 +134,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (106h old, 275 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9123 confirmed AI-engine fetches (ChatGPT (user browsing) 3263, GPTBot (OpenAI) 2763, ChatGPT Search (OpenAI) 2685, Perplexity 412).
+The real answer engines are crawling us — IP-verified: 9124 confirmed AI-engine fetches (ChatGPT (user browsing) 3264, GPTBot (OpenAI) 2763, ChatGPT Search (OpenAI) 2685, Perplexity 412).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 746 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 292 crawler fetches
