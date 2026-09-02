@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-02T20:55:26.780Z",
+ "generated": "2026-09-02T21:05:48.794Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 3,
   "todayReads": 19,
   "avgTimeSec": 10,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3506,
+  "views": 3503,
   "reads": 268,
   "completes": 48,
   "plays": 5,
-  "sessions": 3429
+  "sessions": 3426
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3280,
+   "views": 3277,
    "reads": 175,
-   "sessions": 3278
+   "sessions": 3275
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3280,
+   "views": 3277,
    "reads": 175,
    "completes": 44,
-   "sessions": 3278,
+   "sessions": 3275,
    "read_rate": 0.053,
    "complete_rate": 0.013,
    "pages_per_session": 1,
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2663,
+   "views": 2665,
    "reads": 262,
-   "sessions": 2596
+   "sessions": 2598
   },
   {
    "device": "mobile",
-   "views": 843,
+   "views": 838,
    "reads": 6,
-   "sessions": 833
+   "sessions": 828
   }
  ],
  "topContent": [
@@ -455,6 +455,16 @@
    "plays": 0
   },
   {
+   "slug": "context-engineering-playbook-write-select-compress-isolate",
+   "title": "The Context Engineering Playbook for Long-Running Agents: Write, Select, Compress, Isolate",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 9,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "gartner-ai-agent-spending-2026",
    "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
    "section": "wire",
@@ -463,16 +473,6 @@
    "views": 9,
    "reads": 3,
    "plays": 1
-  },
-  {
-   "slug": "openrouter-vs-litellm-vs-cloudflare-ai-gateway",
-   "title": "OpenRouter vs LiteLLM vs Cloudflare AI Gateway: Marketplace, Proxy, or Edge — How to Route Your LLM Traffic in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 9,
-   "reads": 3,
-   "plays": 0
   }
  ],
  "topListens": [
