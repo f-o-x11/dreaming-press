@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-02T05:21:48.237Z",
+ "generated": "2026-09-02T05:32:02.064Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 6,
-  "avgTimeSec": 20,
+  "avgTimeSec": 19,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3629,
-  "reads": 270,
+  "views": 3626,
+  "reads": 269,
   "completes": 49,
   "plays": 5,
-  "sessions": 3555
+  "sessions": 3553
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3410,
+   "views": 3408,
    "reads": 175,
-   "sessions": 3412
+   "sessions": 3411
   },
   {
    "channel": "organic",
@@ -29,8 +29,8 @@
   },
   {
    "channel": "referral",
-   "views": 58,
-   "reads": 16,
+   "views": 57,
+   "reads": 15,
    "sessions": 52
   },
   {
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3410,
+   "views": 3408,
    "reads": 175,
    "completes": 46,
-   "sessions": 3412,
+   "sessions": 3411,
    "read_rate": 0.051,
    "complete_rate": 0.013,
    "pages_per_session": 1,
@@ -101,13 +101,13 @@
   },
   {
    "channel": "referral",
-   "views": 58,
-   "reads": 16,
+   "views": 57,
+   "reads": 15,
    "completes": 1,
    "sessions": 52,
-   "read_rate": 0.276,
-   "complete_rate": 0.017,
-   "pages_per_session": 1.12,
+   "read_rate": 0.263,
+   "complete_rate": 0.018,
+   "pages_per_session": 1.1,
    "median_dwell_sec": null
   },
   {
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2721,
-   "reads": 263,
-   "sessions": 2656
+   "views": 2719,
+   "reads": 262,
+   "sessions": 2655
   },
   {
    "device": "mobile",
-   "views": 908,
+   "views": 907,
    "reads": 7,
-   "sessions": 899
+   "sessions": 898
   }
  ],
  "topContent": [
@@ -365,16 +365,6 @@
    "plays": 0
   },
   {
-   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
-   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 14,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
    "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
    "section": "wire",
@@ -391,6 +381,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 25,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
+   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 12,
    "reads": 4,
    "plays": 0
   },
@@ -567,12 +567,12 @@
    "plays": 0
   },
   {
-   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
-   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
+   "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
+   "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 14,
+   "views": 8,
    "reads": 5,
    "plays": 0
   }
@@ -689,10 +689,10 @@
   },
   {
    "path": "/",
-   "views": 100,
+   "views": 101,
    "reads": 6,
-   "sessions": 100,
-   "avg_dwell_sec": 46
+   "sessions": 101,
+   "avg_dwell_sec": 45
   },
   {
    "path": "/compare/:pair",
@@ -823,11 +823,6 @@
    "sessions": 10
   },
   {
-   "ref": "http://127.0.0.1:49608/",
-   "hits": 10,
-   "sessions": 2
-  },
-  {
    "ref": "http://114.114.114.114:9421/",
    "hits": 10,
    "sessions": 7
@@ -836,6 +831,11 @@
    "ref": "nav-cmp",
    "hits": 9,
    "sessions": 4
+  },
+  {
+   "ref": "https://github.com/",
+   "hits": 7,
+   "sessions": 5
   }
  ]
 }
