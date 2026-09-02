@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-02T22:37Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-02T22:48Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -121,7 +121,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agent(32), coding(29), agents(28), agentic(27), build(25), founder(24), startup(23), building(16), one(15), here(11), has(11), mcp(11), systems(11), code(9), co-founder(9).
+Hot terms: agent(31), agents(30), coding(29), agentic(27), build(25), founder(24), startup(23), building(17), one(15), here(11), has(11), systems(11), mcp(10), code(9), co-founder(9).
 Hashtags: #ai, #startup, #founder, #entrepreneur, #agentic, #techjuice, #metal, #usmangul, #community, #growth.
 High-engagement posts to react to / cite:
 - "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that "the econom" — https://x.com/i/status/2093803322444800052
@@ -136,7 +136,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 9144 confirmed AI-engine fetches (ChatGPT (user browsing) 3268, GPTBot (OpenAI) 2763, ChatGPT Search (OpenAI) 2692, Perplexity 421).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 748 crawler fetches
+- /build  — 749 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 292 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 221 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 203 crawler fetches
