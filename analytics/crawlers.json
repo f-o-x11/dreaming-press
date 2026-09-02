@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-02T03:00:15.965Z",
+ "generated": "2026-09-02T03:10:27.599Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8314,
+ "verifiedAiHits": 8322,
  "logsScanned": 30,
  "windowStart": "2026-08-19",
  "windowEnd": "2026-09-02",
- "totalHits": 116523,
- "aiHits": 93006,
+ "totalHits": 116563,
+ "aiHits": 93035,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27895,
+   "hits": 27909,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15027,
+   "hits": 15034,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6691,
-   "verifiedHits": 6486,
+   "hits": 6694,
+   "verifiedHits": 6489,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4411,
+   "hits": 4419,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3385,
-   "verifiedHits": 3091,
+   "hits": 3392,
+   "verifiedHits": 3098,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
     {
      "path": "/",
-     "hits": 516
+     "hits": 518
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -476,8 +476,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 644,
-   "verifiedHits": 383,
+   "hits": 645,
+   "verifiedHits": 384,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
