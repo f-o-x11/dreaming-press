@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-02T23:38Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-02T23:48Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -104,7 +104,7 @@ sample size dwarfs the engaged-read counts below.
 - /tags/opinionated  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3273 verified): / ×550 · /posts/agent-funding-august-2026-control-won-the-summer.html ×292 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×164
+- ChatGPT-User (3274 verified): / ×550 · /posts/agent-funding-august-2026-control-won-the-summer.html ×292 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×164
 - OAI-SearchBot (2709 verified): /build ×38 · / ×15 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×11
 - PerplexityBot (422 verified): / ×31 · /tags/opinionated ×7 · /posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -134,7 +134,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (108h old, 275 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9167 confirmed AI-engine fetches (ChatGPT (user browsing) 3273, GPTBot (OpenAI) 2763, ChatGPT Search (OpenAI) 2709, Perplexity 422).
+The real answer engines are crawling us — IP-verified: 9169 confirmed AI-engine fetches (ChatGPT (user browsing) 3274, GPTBot (OpenAI) 2764, ChatGPT Search (OpenAI) 2709, Perplexity 422).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 753 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 292 crawler fetches
