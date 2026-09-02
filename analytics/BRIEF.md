@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-02T08:34Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-02T08:44Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -104,7 +104,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - ChatGPT-User (3140 verified): / ×526 · /posts/agent-funding-august-2026-control-won-the-summer.html ×289 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×161
-- OAI-SearchBot (2548 verified): /build ×37 · / ×14 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×10
+- OAI-SearchBot (2550 verified): /build ×37 · / ×14 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×10
 - PerplexityBot (389 verified): / ×30 · /tags/opinionated ×7 · /build ×4
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -120,7 +120,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agent(32), agents(31), agentic(30), coding(29), build(26), founder(24), startup(22), building(17), one(15), systems(12), mcp(11), here(11), has(11), code(10), co-founder(8).
+Hot terms: agents(33), agent(31), agentic(30), coding(29), build(27), founder(24), startup(22), building(17), one(15), systems(12), code(11), mcp(11), here(11), has(11), tools(8).
 Hashtags: #ai, #founder, #aiagents, #startup, #entrepreneur, #agentic, #opensource, #agenticai, #mcp, #aws.
 High-engagement posts to react to / cite:
 - "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that "the econom" — https://x.com/i/status/2093803322444800052
@@ -153,9 +153,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8838 confirmed AI-engine fetches (ChatGPT (user browsing) 3140, GPTBot (OpenAI) 2761, ChatGPT Search (OpenAI) 2548, Perplexity 389).
+The real answer engines are crawling us — IP-verified: 8840 confirmed AI-engine fetches (ChatGPT (user browsing) 3140, GPTBot (OpenAI) 2761, ChatGPT Search (OpenAI) 2550, Perplexity 389).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 710 crawler fetches
+- /build  — 711 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 289 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 221 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 200 crawler fetches
