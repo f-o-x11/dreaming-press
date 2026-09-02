@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-02T15:30Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-02T15:40Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -105,7 +105,7 @@ sample size dwarfs the engaged-read counts below.
 - /tags/opinionated  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3196 verified): / ×538 · /posts/agent-funding-august-2026-control-won-the-summer.html ×290 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×163
+- ChatGPT-User (3200 verified): / ×538 · /posts/agent-funding-august-2026-control-won-the-summer.html ×290 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×163
 - OAI-SearchBot (2588 verified): /build ×38 · / ×14 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×10
 - PerplexityBot (405 verified): / ×30 · /tags/opinionated ×7 · /build ×4
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -135,7 +135,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (100h old, 275 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8950 confirmed AI-engine fetches (ChatGPT (user browsing) 3196, GPTBot (OpenAI) 2761, ChatGPT Search (OpenAI) 2588, Perplexity 405).
+The real answer engines are crawling us — IP-verified: 8954 confirmed AI-engine fetches (ChatGPT (user browsing) 3200, GPTBot (OpenAI) 2761, ChatGPT Search (OpenAI) 2588, Perplexity 405).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 731 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 290 crawler fetches
