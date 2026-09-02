@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-02T06:52:56.061Z",
+ "generated": "2026-09-02T07:03:11.309Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8816,
+ "verifiedAiHits": 8817,
  "logsScanned": 30,
  "windowStart": "2026-08-19",
  "windowEnd": "2026-09-02",
- "totalHits": 117841,
- "aiHits": 93964,
+ "totalHits": 117888,
+ "aiHits": 93998,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28141,
+   "hits": 28166,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15203,
+   "hits": 15210,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -146,14 +146,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6774,
-   "verifiedHits": 6569,
+   "hits": 6780,
+   "verifiedHits": 6575,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 242
+     "hits": 243
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4660,
+   "hits": 4662,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -245,14 +245,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3419,
-   "verifiedHits": 3125,
+   "hits": 3420,
+   "verifiedHits": 3126,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
     {
      "path": "/",
-     "hits": 523
+     "hits": 524
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3405,
+   "hits": 3406,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -289,7 +289,7 @@
     },
     {
      "path": "/stack.html",
-     "hits": 17
+     "hits": 18
     },
     {
      "path": "/dispatches.html",
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3013,
+   "hits": 3017,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 367,
+   "hits": 368,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
