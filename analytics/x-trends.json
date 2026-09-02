@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-02T13:08:26.644Z",
+ "generated": "2026-09-02T13:18:27.501Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 34
+   "count": 35
   },
   {
    "term": "agent",
@@ -20,7 +20,7 @@
   },
   {
    "term": "coding",
-   "count": 29
+   "count": 28
   },
   {
    "term": "build",
@@ -47,12 +47,12 @@
    "count": 13
   },
   {
-   "term": "code",
+   "term": "systems",
    "count": 12
   },
   {
-   "term": "systems",
-   "count": 12
+   "term": "code",
+   "count": 11
   },
   {
    "term": "here",
@@ -61,6 +61,10 @@
   {
    "term": "has",
    "count": 10
+  },
+  {
+   "term": "model",
+   "count": 8
   },
   {
    "term": "claude",
@@ -80,10 +84,6 @@
   },
   {
    "term": "today",
-   "count": 7
-  },
-  {
-   "term": "llm",
    "count": 7
   }
  ],
