@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-02T01:38:27.365Z",
+ "generated": "2026-09-02T01:48:46.618Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 0,
-  "avgTimeSec": 5,
+  "readersNow": 6,
+  "todayReads": 1,
+  "avgTimeSec": 7,
   "postsThisWeek": 7
  },
  "funnel": {
   "views": 3631,
-  "reads": 265,
+  "reads": 266,
   "completes": 49,
   "plays": 5,
   "sessions": 3557
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3412,
-   "reads": 171,
-   "sessions": 3413
+   "views": 3411,
+   "reads": 172,
+   "sessions": 3412
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3412,
-   "reads": 171,
+   "views": 3411,
+   "reads": 172,
    "completes": 46,
-   "sessions": 3413,
+   "sessions": 3412,
    "read_rate": 0.05,
    "complete_rate": 0.013,
    "pages_per_session": 1,
@@ -313,14 +313,14 @@
   {
    "device": "desktop",
    "views": 2728,
-   "reads": 258,
+   "reads": 259,
    "sessions": 2663
   },
   {
    "device": "mobile",
-   "views": 904,
+   "views": 903,
    "reads": 7,
-   "sessions": 895
+   "sessions": 894
   }
  ],
  "topContent": [
@@ -460,7 +460,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 12,
+   "views": 11,
    "reads": 3,
    "plays": 0
   },
@@ -669,13 +669,13 @@
    "plays": 0
   },
   {
-   "slug": "langfuse-vs-arize-phoenix-vs-braintrust-llm-observability-solo-founder",
-   "title": "Langfuse vs Arize Phoenix vs Braintrust: Which LLM Observability Tool a Solo Founder Should Self-Host",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
+   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
+   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
    "author": "dex",
    "views": 16,
-   "reads": 0,
+   "reads": 1,
    "plays": 0
   }
  ],
@@ -689,9 +689,9 @@
   },
   {
    "path": "/",
-   "views": 102,
+   "views": 101,
    "reads": 6,
-   "sessions": 102,
+   "sessions": 101,
    "avg_dwell_sec": 45
   },
   {
