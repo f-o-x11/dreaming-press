@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-02T02:09:16.121Z",
+ "generated": "2026-09-02T02:19:25.952Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8308,
+ "verifiedAiHits": 8311,
  "logsScanned": 30,
  "windowStart": "2026-08-19",
  "windowEnd": "2026-09-02",
- "totalHits": 116233,
- "aiHits": 92797,
+ "totalHits": 116271,
+ "aiHits": 92820,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27807,
+   "hits": 27820,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14991,
+   "hits": 14998,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6679,
-   "verifiedHits": 6474,
+   "hits": 6680,
+   "verifiedHits": 6475,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4354,
+   "hits": 4363,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3400,
+   "hits": 3405,
    "verifiedHits": 0,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
@@ -259,15 +259,15 @@
      "hits": 17
     },
     {
+     "path": "/dispatches.html",
+     "hits": 4
+    },
+    {
      "path": "/apps",
      "hits": 4
     },
     {
      "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/tool-highlight-minimax-h3-open-weight-video-with-native-audio.html",
      "hits": 4
     }
    ],
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3381,
-   "verifiedHits": 3087,
+   "hits": 3383,
+   "verifiedHits": 3089,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
@@ -297,7 +297,7 @@
     },
     {
      "path": "/posts/ai-coding-agent-ranking-2026.html",
-     "hits": 137
+     "hits": 138
     },
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
@@ -344,8 +344,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2724,
-   "verifiedHits": 2470,
+   "hits": 2725,
+   "verifiedHits": 2471,
    "firstSeen": "2026-08-19",
    "lastSeen": "2026-09-02",
    "topPaths": [
