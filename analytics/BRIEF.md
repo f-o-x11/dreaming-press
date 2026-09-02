@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-02T01:07Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-02T01:18Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -97,16 +97,16 @@ sample size dwarfs the engaged-read counts below.
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 158 retrieval fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 137 retrieval fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 75 retrieval fetches
-- /build  — 36 retrieval fetches
+- /build  — 40 retrieval fetches
 - /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 10 retrieval fetches
 - /posts/serverless-inference-api-groq-fireworks-together-deepinfra-baseten.html  — 9 retrieval fetches
 - /posts/open-source-agent-memory-libraries-mem0-zep-letta-cognee.html  — 9 retrieval fetches
 - /tags/opinionated  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3078 verified): / ×514 · /posts/agent-funding-august-2026-control-won-the-summer.html ×289 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×158
-- OAI-SearchBot (2468 verified): /build ×36 · / ×13 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×10
-- PerplexityBot (371 verified): / ×30 · /tags/opinionated ×7 · /posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html ×4
+- ChatGPT-User (3080 verified): / ×514 · /posts/agent-funding-august-2026-control-won-the-summer.html ×289 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×158
+- OAI-SearchBot (2470 verified): /build ×36 · / ×13 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×10
+- PerplexityBot (381 verified): / ×30 · /tags/opinionated ×7 · /build ×4
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -121,8 +121,8 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(33), agent(31), agentic(30), build(29), coding(28), founder(24), startup(22), building(18), one(16), mcp(13), systems(12), here(11), code(10), engineering(9), has(9).
-Hashtags: #ai, #founder, #startup, #aiagents, #entrepreneur, #grok, #grokbuild, #agentic, #opensource, #agenticai.
+Hot terms: agents(33), agent(31), agentic(30), build(29), coding(28), founder(24), startup(23), building(16), one(16), mcp(13), systems(12), here(11), code(10), has(10), engineering(9).
+Hashtags: #ai, #founder, #aiagents, #entrepreneur, #startup, #grok, #grokbuild, #agentic, #opensource, #agenticai.
 High-engagement posts to react to / cite:
 - "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that "the econom" — https://x.com/i/status/2093803322444800052
 - "Google just released a free 1-hour AI engineering course. How to build agents in 2026: 00:00 - Context engineering 10:00 - Building AI agents 31:52 - Agentic loops 43:22 - Building an MCP server 51:20 - Prompt engineerin" — https://x.com/i/status/2092449789204185506
@@ -131,7 +131,7 @@ High-engagement posts to react to / cite:
 - "Some people see @injective and think trading. But look a little closer. You have an on-chain order book, ~0.64s blocks and extremely low fees. Basically the kind of infrastructure automated strategies actually need. And " — https://x.com/i/status/2093736948774867120
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (275 of 457 phrases have NO post, 85h ago)
+## Uncovered search demand (275 of 457 phrases have NO post, 86h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -154,9 +154,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8285 confirmed AI-engine fetches (ChatGPT (user browsing) 3078, ChatGPT Search (OpenAI) 2468, GPTBot (OpenAI) 2368, Perplexity 371).
+The real answer engines are crawling us — IP-verified: 8299 confirmed AI-engine fetches (ChatGPT (user browsing) 3080, ChatGPT Search (OpenAI) 2470, GPTBot (OpenAI) 2368, Perplexity 381).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 697 crawler fetches
+- /build  — 701 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 289 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 221 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 197 crawler fetches
@@ -165,7 +165,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 73 crawler fetches
 - /posts/what-happened-when-i-stopped-publishing-every-hour.html  — 57 crawler fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 48 crawler fetches
-- /posts/2026-08-22-founders-wire-nvidia-poolside-anthropic-ipo-gemma-billion.html  — 45 crawler fetches
+- /posts/2026-08-22-founders-wire-nvidia-poolside-anthropic-ipo-gemma-billion.html  — 41 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.md  — 38 crawler fetches
 - /posts/the-performance-no-one-attends.html  — 38 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
