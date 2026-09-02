@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-02T09:35:06.905Z",
+ "generated": "2026-09-02T09:45:16.550Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 11,
+  "readersNow": 5,
+  "todayReads": 12,
   "avgTimeSec": 15,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3588,
-  "reads": 266,
+  "views": 3584,
+  "reads": 267,
   "completes": 50,
   "plays": 5,
-  "sessions": 3516
+  "sessions": 3512
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3367,
+   "views": 3362,
    "reads": 173,
-   "sessions": 3370
+   "sessions": 3365
   },
   {
    "channel": "organic",
@@ -35,15 +35,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 43,
-   "reads": 14,
-   "sessions": 43
+   "views": 44,
+   "reads": 15,
+   "sessions": 44
   },
   {
    "channel": "ai",
    "views": 24,
    "reads": 14,
-   "sessions": 34
+   "sessions": 35
   },
   {
    "channel": "campaign:copilot.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3367,
+   "views": 3362,
    "reads": 173,
    "completes": 46,
-   "sessions": 3370,
+   "sessions": 3365,
    "read_rate": 0.051,
    "complete_rate": 0.014,
    "pages_per_session": 1,
@@ -112,12 +112,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 43,
-   "reads": 14,
+   "views": 44,
+   "reads": 15,
    "completes": 2,
-   "sessions": 43,
-   "read_rate": 0.326,
-   "complete_rate": 0.047,
+   "sessions": 44,
+   "read_rate": 0.341,
+   "complete_rate": 0.045,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
@@ -126,10 +126,10 @@
    "views": 24,
    "reads": 14,
    "completes": 0,
-   "sessions": 34,
+   "sessions": 35,
    "read_rate": 0.583,
    "complete_rate": 0,
-   "pages_per_session": 0.71,
+   "pages_per_session": 0.69,
    "median_dwell_sec": 20
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 44,
-   "reads": 14,
-   "sessions": 44
+   "views": 45,
+   "reads": 15,
+   "sessions": 45
   },
   {
    "assistant": "Perplexity",
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2703,
-   "reads": 260,
-   "sessions": 2641
+   "views": 2704,
+   "reads": 261,
+   "sessions": 2642
   },
   {
    "device": "mobile",
-   "views": 885,
+   "views": 880,
    "reads": 6,
-   "sessions": 875
+   "sessions": 870
   }
  ],
  "topContent": [
@@ -799,8 +799,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 31,
-   "sessions": 16
+   "hits": 33,
+   "sessions": 17
   },
   {
    "ref": "https://duckduckgo.com/",
