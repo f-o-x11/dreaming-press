@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-02T20:45Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-02T20:55Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3507 views → 268 engaged reads → 48 completes · 3430 sessions.
-- Channels: direct 175r/3281v · organic 46r/86v · referral 15r/60v · campaign:chatgpt.com 15r/48v · ai 14r/24v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/3v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3506 views → 268 engaged reads → 48 completes · 3429 sessions.
+- Channels: direct 175r/3280v · organic 46r/86v · referral 15r/60v · campaign:chatgpt.com 15r/48v · ai 14r/24v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/3v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 15r/49v · Perplexity 7r/11v · Doubao 6r/6v · Copilot 2r/2v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, cn.bing.com, chatgpt.com, duckduckgo.com, perplexity.ai, google.com, doubao.com, nav-cmp, 114.114.114.114:9421, github.com.
 - Engaged-read winners by section: stack=6, wire=9.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3281 views · read 5.3% · complete 1.3% · 1 pages/session · median 4s
+- direct: 3280 views · read 5.3% · complete 1.3% · 1 pages/session · median 4s
 - organic: 86 views · read 53.5% · complete 1.2% · 1.07 pages/session · median 4s
 - referral: 60 views · read 25.0% · complete 1.7% · 1.09 pages/session · median ?s
 - campaign:chatgpt.com: 48 views · read 31.3% · complete 4.2% · 1 pages/session · median ?s
@@ -104,9 +104,9 @@ sample size dwarfs the engaged-read counts below.
 - /tags/opinionated  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3254 verified): / ×545 · /posts/agent-funding-august-2026-control-won-the-summer.html ×292 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×164
+- ChatGPT-User (3255 verified): / ×545 · /posts/agent-funding-august-2026-control-won-the-summer.html ×292 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×164
 - OAI-SearchBot (2664 verified): /build ×38 · / ×15 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×11
-- PerplexityBot (410 verified): / ×30 · /tags/opinionated ×7 · /build ×4
+- PerplexityBot (411 verified): / ×30 · /tags/opinionated ×7 · /build ×4
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -134,9 +134,9 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (105h old, 275 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9091 confirmed AI-engine fetches (ChatGPT (user browsing) 3254, GPTBot (OpenAI) 2763, ChatGPT Search (OpenAI) 2664, Perplexity 410).
+The real answer engines are crawling us — IP-verified: 9093 confirmed AI-engine fetches (ChatGPT (user browsing) 3255, GPTBot (OpenAI) 2763, ChatGPT Search (OpenAI) 2664, Perplexity 411).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 741 crawler fetches
+- /build  — 743 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 292 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 221 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 203 crawler fetches
