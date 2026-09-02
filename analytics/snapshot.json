@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-02T19:44:21.889Z",
+ "generated": "2026-09-02T19:54:26.691Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 19,
   "avgTimeSec": 10,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3523,
+  "views": 3521,
   "reads": 268,
   "completes": 48,
   "plays": 5,
-  "sessions": 3447
+  "sessions": 3444
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3297,
+   "views": 3295,
    "reads": 175,
-   "sessions": 3296
+   "sessions": 3293
   },
   {
    "channel": "organic",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 20
+   "sessions": 21
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3297,
+   "views": 3295,
    "reads": 175,
    "completes": 44,
-   "sessions": 3296,
+   "sessions": 3293,
    "read_rate": 0.053,
    "complete_rate": 0.013,
    "pages_per_session": 1,
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 20,
+   "sessions": 21,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -191,8 +191,8 @@
  "navSurfaces": [
   {
    "surface": "nav-cmp",
-   "clicks": 9,
-   "sessions": 4
+   "clicks": 10,
+   "sessions": 5
   },
   {
    "surface": "dash-range",
@@ -314,13 +314,13 @@
    "device": "desktop",
    "views": 2673,
    "reads": 262,
-   "sessions": 2607
+   "sessions": 2606
   },
   {
    "device": "mobile",
-   "views": 850,
+   "views": 848,
    "reads": 6,
-   "sessions": 840
+   "sessions": 838
   }
  ],
  "topContent": [
@@ -689,10 +689,10 @@
   },
   {
    "path": "/",
-   "views": 103,
+   "views": 105,
    "reads": 6,
-   "sessions": 103,
-   "avg_dwell_sec": 45
+   "sessions": 105,
+   "avg_dwell_sec": 44
   },
   {
    "path": "/compare/:pair",
@@ -823,14 +823,14 @@
    "sessions": 6
   },
   {
+   "ref": "nav-cmp",
+   "hits": 10,
+   "sessions": 5
+  },
+  {
    "ref": "http://114.114.114.114:9421/",
    "hits": 10,
    "sessions": 7
-  },
-  {
-   "ref": "nav-cmp",
-   "hits": 9,
-   "sessions": 4
   },
   {
    "ref": "https://github.com/",
