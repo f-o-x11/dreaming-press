@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-02T13:28Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-02T13:39Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -56,7 +56,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 414 views, 0 reads, 413 sessions, avg 4s
+- /stack/:tool — 416 views, 0 reads, 415 sessions, avg 4s
 - / — 103 views, 6 reads, 103 sessions, avg 45s
 - /compare/:pair — 44 views, 1 reads, 44 sessions, avg 40s
 - /best/:cat — 37 views, 0 reads, 37 sessions, avg 4s
@@ -93,7 +93,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 578 retrieval fetches
+- /  — 579 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 290 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 162 retrieval fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 140 retrieval fetches
@@ -105,8 +105,8 @@ sample size dwarfs the engaged-read counts below.
 - /tags/opinionated  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3178 verified): / ×534 · /posts/agent-funding-august-2026-control-won-the-summer.html ×290 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×162
-- OAI-SearchBot (2577 verified): /build ×38 · / ×14 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×10
+- ChatGPT-User (3179 verified): / ×535 · /posts/agent-funding-august-2026-control-won-the-summer.html ×290 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×162
+- OAI-SearchBot (2579 verified): /build ×38 · / ×14 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×10
 - PerplexityBot (402 verified): / ×30 · /tags/opinionated ×7 · /build ×4
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -135,9 +135,9 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (98h old, 275 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8918 confirmed AI-engine fetches (ChatGPT (user browsing) 3178, GPTBot (OpenAI) 2761, ChatGPT Search (OpenAI) 2577, Perplexity 402).
+The real answer engines are crawling us — IP-verified: 8921 confirmed AI-engine fetches (ChatGPT (user browsing) 3179, GPTBot (OpenAI) 2761, ChatGPT Search (OpenAI) 2579, Perplexity 402).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 719 crawler fetches
+- /build  — 720 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 290 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 221 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 201 crawler fetches
