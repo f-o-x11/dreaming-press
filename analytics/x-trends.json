@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-03T13:43:34.169Z",
+ "generated": "2026-09-03T13:53:41.697Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 28
+   "count": 29
   },
   {
    "term": "coding",
@@ -16,11 +16,11 @@
   },
   {
    "term": "agent",
-   "count": 25
+   "count": 26
   },
   {
    "term": "build",
-   "count": 24
+   "count": 25
   },
   {
    "term": "startup",
@@ -44,7 +44,7 @@
   },
   {
    "term": "has",
-   "count": 12
+   "count": 11
   },
   {
    "term": "mcp",
@@ -55,16 +55,16 @@
    "count": 11
   },
   {
+   "term": "code",
+   "count": 10
+  },
+  {
    "term": "co-founder",
    "count": 10
   },
   {
    "term": "here",
-   "count": 9
-  },
-  {
-   "term": "code",
-   "count": 9
+   "count": 8
   },
   {
    "term": "while",
@@ -151,12 +151,6 @@
    "created": "2026-08-27T14:03:13.000Z"
   },
   {
-   "text": "Some people see @injective and think trading. But look a little closer. You have an on-chain order book, ~0.64s blocks and extremely low fees. Basically the kind of infrastructure automated strategies actually need. And ",
-   "engagement": 165,
-   "url": "https://x.com/i/status/2093736948774867120",
-   "created": "2026-08-29T16:26:02.000Z"
-  },
-  {
    "text": "🚀 THE AI AGENT ENGINEERING ROADMAP Want to become an AI Agent Engineer? 🤖 Don’t just learn tools — build the right foundation. 🧠 The Step-by-Step Path: 1️⃣ LLM Fundamentals + Reasoning 2️⃣ Context Engineering 3️⃣ Memo",
    "engagement": 115,
    "url": "https://x.com/i/status/2094379489702879265",
@@ -185,6 +179,12 @@
    "engagement": 87,
    "url": "https://x.com/i/status/2093693036689580297",
    "created": "2026-08-29T13:31:33.000Z"
+  },
+  {
+   "text": "Replicas cut latency for customers running heavy workloads by more than 60% by changing one thing: the computer underneath every coding agent. Before E2B, the team tried building sandbox infrastructure themselves on raw ",
+   "engagement": 86,
+   "url": "https://x.com/i/status/2093342749198266823",
+   "created": "2026-08-28T14:19:38.000Z"
   }
  ]
 }
