@@ -1,12 +1,12 @@
-# Analytics brief — auto-exported 2026-09-03T12:02Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-03T12:12Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3456 views → 272 engaged reads → 45 completes · 3373 sessions.
-- Channels: direct 176r/3217v · organic 46r/89v · campaign:chatgpt.com 16r/53v · ai 16r/29v · referral 15r/60v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/3v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 17r/56v · Perplexity 7r/11v · Doubao 6r/6v · Copilot 2r/2v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
-- Referrers: bing.com, chatgpt.com, cn.bing.com, perplexity.ai, google.com, duckduckgo.com, doubao.com, 114.114.114.114:9421, nav-cmp, github.com.
+- Funnel: 3457 views → 272 engaged reads → 45 completes · 3374 sessions.
+- Channels: direct 176r/3216v · organic 46r/90v · campaign:chatgpt.com 16r/54v · ai 16r/29v · referral 15r/60v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/3v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 17r/57v · Perplexity 7r/11v · Doubao 6r/6v · Copilot 2r/2v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
+- Referrers: bing.com, chatgpt.com, cn.bing.com, google.com, perplexity.ai, duckduckgo.com, doubao.com, 114.114.114.114:9421, nav-cmp, github.com.
 - Engaged-read winners by section: stack=6, wire=9.
 
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
@@ -23,10 +23,10 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3217 views · read 5.5% · complete 1.3% · 1 pages/session · median 4s
-- organic: 89 views · read 51.7% · complete 1.1% · 1.07 pages/session · median 4s
+- direct: 3216 views · read 5.5% · complete 1.3% · 1 pages/session · median 4s
+- organic: 90 views · read 51.1% · complete 1.1% · 1.07 pages/session · median 4s
 - referral: 60 views · read 25.0% · complete 1.7% · 1.09 pages/session · median ?s
-- campaign:chatgpt.com: 53 views · read 30.2% · complete 3.8% · 1.04 pages/session · median ?s
+- campaign:chatgpt.com: 54 views · read 29.6% · complete 3.7% · 1.04 pages/session · median ?s
 - ai: 29 views · read 55.2% · complete 0.0% · 0.71 pages/session · median 18s
 - social: 3 views · read 0.0% · complete 0.0% · 1 pages/session · median 233s
 INSIGHT: ai converts 10x better per view than direct, which is 93% of all views.
@@ -69,8 +69,8 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 ## Top by raw views (eyes that arrived)
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 80 views, 0 reads
 - [wire] "The Founder's Wire, August 20: OpenAI Puts Ads in ChatGPT Across 31 European Countries, Claude Autonomously Designed Working Protein Binders for 14 of 15 Targets, and Rillet Hit a $1B Valuation for AI Accounting" — 67 views, 0 reads
+- [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 39 views, 2 reads
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 38 views, 7 reads
-- [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 38 views, 2 reads
 - [wire] "OpenAI Cut Terra and Luna on July 30. On the Sticker, Luna Is Now the Cheapest Agent Backend Alive — On the Bill, the Ranking Barely Moved." — 29 views, 0 reads
 - [stack] "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG" — 24 views, 12 reads
 
@@ -93,7 +93,7 @@ sample size dwarfs the engaged-read counts below.
 - /  — 582 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 251 retrieval fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 141 retrieval fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 137 retrieval fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 138 retrieval fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 62 retrieval fetches
 - /build  — 38 retrieval fetches
 - /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html  — 11 retrieval fetches
@@ -102,7 +102,7 @@ sample size dwarfs the engaged-read counts below.
 - /tags/opinionated  — 6 retrieval fetches
 
 Per engine:
-- ChatGPT-User (2938 verified): / ×539 · /posts/agent-funding-august-2026-control-won-the-summer.html ×251 · /posts/ai-coding-agent-ranking-2026.html ×141
+- ChatGPT-User (2940 verified): / ×539 · /posts/agent-funding-august-2026-control-won-the-summer.html ×251 · /posts/ai-coding-agent-ranking-2026.html ×141
 - OAI-SearchBot (2778 verified): /build ×38 · / ×14 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×11
 - PerplexityBot (377 verified): / ×29 · /tags/opinionated ×6 · /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -129,16 +129,16 @@ High-engagement posts to react to / cite:
 - "🚀 THE AI AGENT ENGINEERING ROADMAP Want to become an AI Agent Engineer? 🤖 Don’t just learn tools — build the right foundation. 🧠 The Step-by-Step Path: 1️⃣ LLM Fundamentals + Reasoning 2️⃣ Context Engineering 3️⃣ Memo" — https://x.com/i/status/2094379489702879265
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-- Search-demand signal STALE (120h old, 275 uncovered phrases from the last good run). Treat as directional until it refreshes.
+- Search-demand signal STALE (121h old, 275 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8800 confirmed AI-engine fetches (ChatGPT (user browsing) 2938, ChatGPT Search (OpenAI) 2778, GPTBot (OpenAI) 2707, Perplexity 377).
+The real answer engines are crawling us — IP-verified: 8802 confirmed AI-engine fetches (ChatGPT (user browsing) 2940, ChatGPT Search (OpenAI) 2778, GPTBot (OpenAI) 2707, Perplexity 377).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 769 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 251 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 221 crawler fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 171 crawler fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 171 crawler fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 170 crawler fetches
 - /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 74 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 62 crawler fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 61 crawler fetches

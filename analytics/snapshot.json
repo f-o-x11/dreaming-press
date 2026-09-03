@@ -1,37 +1,37 @@
 {
- "generated": "2026-09-03T12:02:16.997Z",
+ "generated": "2026-09-03T12:12:29.513Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
+  "readersNow": 4,
   "todayReads": 13,
   "avgTimeSec": 12,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3456,
+  "views": 3457,
   "reads": 272,
   "completes": 45,
   "plays": 4,
-  "sessions": 3373
+  "sessions": 3374
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3217,
+   "views": 3216,
    "reads": 176,
-   "sessions": 3213
+   "sessions": 3212
   },
   {
    "channel": "organic",
-   "views": 89,
+   "views": 90,
    "reads": 46,
-   "sessions": 83
+   "sessions": 84
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 53,
+   "views": 54,
    "reads": 16,
-   "sessions": 51
+   "sessions": 52
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3217,
+   "views": 3216,
    "reads": 176,
    "completes": 41,
-   "sessions": 3213,
+   "sessions": 3212,
    "read_rate": 0.055,
    "complete_rate": 0.013,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 89,
+   "views": 90,
    "reads": 46,
    "completes": 1,
-   "sessions": 83,
-   "read_rate": 0.517,
+   "sessions": 84,
+   "read_rate": 0.511,
    "complete_rate": 0.011,
    "pages_per_session": 1.07,
    "median_dwell_sec": 4
@@ -112,12 +112,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 53,
+   "views": 54,
    "reads": 16,
    "completes": 2,
-   "sessions": 51,
-   "read_rate": 0.302,
-   "complete_rate": 0.038,
+   "sessions": 52,
+   "read_rate": 0.296,
+   "complete_rate": 0.037,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
   },
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 56,
+   "views": 57,
    "reads": 17,
-   "sessions": 52
+   "sessions": 53
   },
   {
    "assistant": "Perplexity",
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2631,
+   "views": 2632,
    "reads": 267,
-   "sessions": 2558
+   "sessions": 2559
   },
   {
    "device": "mobile",
@@ -605,6 +605,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 39,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -612,16 +622,6 @@
    "author": "dex",
    "views": 38,
    "reads": 7,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 38,
-   "reads": 2,
    "plays": 0
   },
   {
@@ -809,14 +809,14 @@
    "sessions": 20
   },
   {
+   "ref": "https://www.google.com/",
+   "hits": 19,
+   "sessions": 14
+  },
+  {
    "ref": "https://www.perplexity.ai/",
    "hits": 18,
    "sessions": 8
-  },
-  {
-   "ref": "https://www.google.com/",
-   "hits": 18,
-   "sessions": 13
   },
   {
    "ref": "https://duckduckgo.com/",
