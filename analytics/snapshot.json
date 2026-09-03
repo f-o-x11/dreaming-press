@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-03T00:59:23.377Z",
+ "generated": "2026-09-03T01:09:26.942Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 0,
   "avgTimeSec": 4,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3476,
-  "reads": 268,
+  "views": 3474,
+  "reads": 267,
   "completes": 47,
   "plays": 5,
-  "sessions": 3398
+  "sessions": 3396
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3245,
-   "reads": 175,
-   "sessions": 3243
+   "views": 3242,
+   "reads": 174,
+   "sessions": 3241
   },
   {
    "channel": "organic",
-   "views": 89,
+   "views": 90,
    "reads": 46,
-   "sessions": 83
+   "sessions": 84
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3245,
-   "reads": 175,
+   "views": 3242,
+   "reads": 174,
    "completes": 43,
-   "sessions": 3243,
+   "sessions": 3241,
    "read_rate": 0.054,
    "complete_rate": 0.013,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 89,
+   "views": 90,
    "reads": 46,
    "completes": 1,
-   "sessions": 83,
-   "read_rate": 0.517,
+   "sessions": 84,
+   "read_rate": 0.511,
    "complete_rate": 0.011,
    "pages_per_session": 1.07,
    "median_dwell_sec": 4
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2646,
-   "reads": 262,
-   "sessions": 2578
+   "views": 2645,
+   "reads": 261,
+   "sessions": 2577
   },
   {
    "device": "mobile",
-   "views": 830,
+   "views": 829,
    "reads": 6,
-   "sessions": 820
+   "sessions": 819
   }
  ],
  "topContent": [
@@ -360,8 +360,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 21,
-   "reads": 5,
+   "views": 20,
+   "reads": 4,
    "plays": 0
   },
   {
@@ -562,8 +562,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 21,
-   "reads": 5,
+   "views": 20,
+   "reads": 4,
    "plays": 0
   },
   {
@@ -654,8 +654,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 21,
-   "reads": 5,
+   "views": 20,
+   "reads": 4,
    "plays": 0
   },
   {
@@ -803,6 +803,11 @@
    "sessions": 17
   },
   {
+   "ref": "https://www.google.com/",
+   "hits": 19,
+   "sessions": 14
+  },
+  {
    "ref": "https://duckduckgo.com/",
    "hits": 19,
    "sessions": 12
@@ -811,11 +816,6 @@
    "ref": "https://www.perplexity.ai/",
    "hits": 18,
    "sessions": 8
-  },
-  {
-   "ref": "https://www.google.com/",
-   "hits": 18,
-   "sessions": 13
   },
   {
    "ref": "https://www.doubao.com/",
