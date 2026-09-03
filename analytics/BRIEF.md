@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-09-03T09:29Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-03T09:39Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3437 views → 270 engaged reads → 45 completes · 3355 sessions.
-- Channels: direct 175r/3202v · organic 46r/88v · campaign:chatgpt.com 16r/53v · referral 15r/60v · ai 15r/26v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/3v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 17r/56v · Perplexity 7r/11v · Doubao 6r/6v · Copilot 2r/2v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
+- Funnel: 3440 views → 271 engaged reads → 45 completes · 3358 sessions.
+- Channels: direct 175r/3204v · organic 46r/88v · campaign:chatgpt.com 16r/53v · ai 16r/27v · referral 15r/60v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/3v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 17r/56v · Perplexity 7r/11v · Doubao 6r/6v · Copilot 2r/2v · Yuanbao 1r/1v · Grok 1r/1v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, perplexity.ai, google.com, duckduckgo.com, doubao.com, 114.114.114.114:9421, nav-cmp, github.com.
 - Engaged-read winners by section: stack=6, wire=9.
 
@@ -23,13 +23,13 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3202 views · read 5.5% · complete 1.3% · 1 pages/session · median 4s
+- direct: 3204 views · read 5.5% · complete 1.3% · 1 pages/session · median 4s
 - organic: 88 views · read 52.3% · complete 1.1% · 1.07 pages/session · median 4s
 - referral: 60 views · read 25.0% · complete 1.7% · 1.09 pages/session · median ?s
 - campaign:chatgpt.com: 53 views · read 30.2% · complete 3.8% · 1.04 pages/session · median ?s
-- ai: 26 views · read 57.7% · complete 0.0% · 0.68 pages/session · median 18s
+- ai: 27 views · read 59.3% · complete 0.0% · 0.69 pages/session · median 18s
 - social: 3 views · read 0.0% · complete 0.0% · 1 pages/session · median 233s
-INSIGHT: ai converts 10x better per view than direct, which is 93% of all views.
+INSIGHT: ai converts 11x better per view than direct, which is 93% of all views.
 One visitor from ai is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
@@ -58,7 +58,7 @@ The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 401 views, 0 reads, 398 sessions, avg 4s
 - / — 104 views, 6 reads, 104 sessions, avg 41s
-- /compare/:pair — 43 views, 0 reads, 43 sessions, avg 4s
+- /compare/:pair — 44 views, 0 reads, 44 sessions, avg 4s
 - /best/:cat — 37 views, 0 reads, 37 sessions, avg 4s
 - /build — 30 views, 0 reads, 30 sessions, avg 4s
 - /tools — 17 views, 0 reads, 17 sessions, avg 7s

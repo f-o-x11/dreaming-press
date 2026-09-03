@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-03T09:29:31.614Z",
+ "generated": "2026-09-03T09:39:31.992Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 9,
-  "avgTimeSec": 12,
+  "readersNow": 3,
+  "todayReads": 10,
+  "avgTimeSec": 13,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3437,
-  "reads": 270,
+  "views": 3440,
+  "reads": 271,
   "completes": 45,
   "plays": 5,
-  "sessions": 3355
+  "sessions": 3358
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3202,
+   "views": 3204,
    "reads": 175,
-   "sessions": 3199
+   "sessions": 3201
   },
   {
    "channel": "organic",
@@ -34,16 +34,16 @@
    "sessions": 51
   },
   {
+   "channel": "ai",
+   "views": 27,
+   "reads": 16,
+   "sessions": 39
+  },
+  {
    "channel": "referral",
    "views": 60,
    "reads": 15,
    "sessions": 55
-  },
-  {
-   "channel": "ai",
-   "views": 26,
-   "reads": 15,
-   "sessions": 38
   },
   {
    "channel": "campaign:copilot.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3202,
+   "views": 3204,
    "reads": 175,
    "completes": 41,
-   "sessions": 3199,
+   "sessions": 3201,
    "read_rate": 0.055,
    "complete_rate": 0.013,
    "pages_per_session": 1,
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 26,
-   "reads": 15,
+   "views": 27,
+   "reads": 16,
    "completes": 0,
-   "sessions": 38,
-   "read_rate": 0.577,
+   "sessions": 39,
+   "read_rate": 0.593,
    "complete_rate": 0,
-   "pages_per_session": 0.68,
+   "pages_per_session": 0.69,
    "median_dwell_sec": 18
   },
   {
@@ -297,6 +297,12 @@
    "sessions": 1
   },
   {
+   "assistant": "Grok",
+   "views": 1,
+   "reads": 1,
+   "sessions": 1
+  },
+  {
    "assistant": "Kimi",
    "views": 3,
    "reads": 0,
@@ -312,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2620,
-   "reads": 265,
-   "sessions": 2548
+   "views": 2623,
+   "reads": 266,
+   "sessions": 2551
   },
   {
    "device": "mobile",
@@ -696,9 +702,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 43,
+   "views": 44,
    "reads": 0,
-   "sessions": 43,
+   "sessions": 44,
    "avg_dwell_sec": 4
   },
   {
