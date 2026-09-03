@@ -1,37 +1,37 @@
 {
- "generated": "2026-09-03T00:39:15.807Z",
+ "generated": "2026-09-03T00:49:16.607Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 8,
   "todayReads": 0,
   "avgTimeSec": 4,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3475,
-  "reads": 269,
-  "completes": 48,
+  "views": 3478,
+  "reads": 268,
+  "completes": 47,
   "plays": 5,
-  "sessions": 3397
+  "sessions": 3400
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3249,
-   "reads": 176,
-   "sessions": 3246
+   "views": 3247,
+   "reads": 175,
+   "sessions": 3245
   },
   {
    "channel": "organic",
-   "views": 86,
+   "views": 89,
    "reads": 46,
-   "sessions": 80
+   "sessions": 83
   },
   {
    "channel": "referral",
-   "views": 60,
+   "views": 62,
    "reads": 15,
-   "sessions": 55
+   "sessions": 57
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,34 +79,34 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3249,
-   "reads": 176,
-   "completes": 44,
-   "sessions": 3246,
+   "views": 3247,
+   "reads": 175,
+   "completes": 43,
+   "sessions": 3245,
    "read_rate": 0.054,
-   "complete_rate": 0.014,
+   "complete_rate": 0.013,
    "pages_per_session": 1,
    "median_dwell_sec": 4
   },
   {
    "channel": "organic",
-   "views": 86,
+   "views": 89,
    "reads": 46,
    "completes": 1,
-   "sessions": 80,
-   "read_rate": 0.535,
-   "complete_rate": 0.012,
+   "sessions": 83,
+   "read_rate": 0.517,
+   "complete_rate": 0.011,
    "pages_per_session": 1.07,
    "median_dwell_sec": 4
   },
   {
    "channel": "referral",
-   "views": 60,
+   "views": 62,
    "reads": 15,
    "completes": 1,
-   "sessions": 55,
-   "read_rate": 0.25,
-   "complete_rate": 0.017,
+   "sessions": 57,
+   "read_rate": 0.242,
+   "complete_rate": 0.016,
    "pages_per_session": 1.09,
    "median_dwell_sec": null
   },
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2645,
-   "reads": 263,
-   "sessions": 2577
+   "views": 2648,
+   "reads": 262,
+   "sessions": 2580
   },
   {
    "device": "mobile",
@@ -455,18 +455,18 @@
    "plays": 0
   },
   {
-   "slug": "context-engineering-playbook-write-select-compress-isolate",
-   "title": "The Context Engineering Playbook for Long-Running Agents: Write, Select, Compress, Isolate",
+   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
+   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 9,
+   "views": 10,
    "reads": 3,
    "plays": 0
   },
   {
-   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
-   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
+   "slug": "context-engineering-playbook-write-select-compress-isolate",
+   "title": "The Context Engineering Playbook for Long-Running Agents: Write, Select, Compress, Isolate",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -689,9 +689,9 @@
   },
   {
    "path": "/",
-   "views": 106,
+   "views": 105,
    "reads": 6,
-   "sessions": 106,
+   "sessions": 105,
    "avg_dwell_sec": 42
   },
   {
@@ -716,6 +716,13 @@
    "avg_dwell_sec": 4
   },
   {
+   "path": "/tools",
+   "views": 18,
+   "reads": 0,
+   "sessions": 18,
+   "avg_dwell_sec": 7
+  },
+  {
    "path": "/topics/:topic",
    "views": 16,
    "reads": 1,
@@ -728,13 +735,6 @@
    "reads": 0,
    "sessions": 14,
    "avg_dwell_sec": 6
-  },
-  {
-   "path": "/tools",
-   "views": 13,
-   "reads": 0,
-   "sessions": 13,
-   "avg_dwell_sec": 7
   },
   {
    "path": "/alternatives/:tool",
@@ -814,8 +814,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 17,
-   "sessions": 12
+   "hits": 18,
+   "sessions": 13
   },
   {
    "ref": "https://www.doubao.com/",
