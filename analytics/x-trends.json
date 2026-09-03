@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-03T13:53:41.697Z",
+ "generated": "2026-09-03T14:03:48.866Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -15,11 +15,11 @@
    "count": 28
   },
   {
-   "term": "agent",
-   "count": 26
+   "term": "build",
+   "count": 25
   },
   {
-   "term": "build",
+   "term": "agent",
    "count": 25
   },
   {
@@ -40,7 +40,7 @@
   },
   {
    "term": "one",
-   "count": 12
+   "count": 11
   },
   {
    "term": "has",
@@ -63,15 +63,11 @@
    "count": 10
   },
   {
-   "term": "here",
+   "term": "context",
    "count": 8
   },
   {
    "term": "while",
-   "count": 8
-  },
-  {
-   "term": "context",
    "count": 8
   },
   {
@@ -83,6 +79,10 @@
    "count": 7
   },
   {
+   "term": "here",
+   "count": 7
+  },
+  {
    "term": "free",
    "count": 7
   }
@@ -90,15 +90,15 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 5
+   "count": 6
   },
   {
    "term": "#startup",
-   "count": 4
+   "count": 5
   },
   {
    "term": "#founder",
-   "count": 4
+   "count": 5
   },
   {
    "term": "#entrepreneur",
@@ -145,12 +145,6 @@
    "created": "2026-08-29T20:49:47.000Z"
   },
   {
-   "text": "We're excited to release Agno 3.0, bringing us one step closer to our vision of an agent platform that builds itself. If you're new here, let's start with an introduction. I'm Ashpreet, the founder of Agno (derived from ",
-   "engagement": 191,
-   "url": "https://x.com/i/status/2092976230597374415",
-   "created": "2026-08-27T14:03:13.000Z"
-  },
-  {
    "text": "🚀 THE AI AGENT ENGINEERING ROADMAP Want to become an AI Agent Engineer? 🤖 Don’t just learn tools — build the right foundation. 🧠 The Step-by-Step Path: 1️⃣ LLM Fundamentals + Reasoning 2️⃣ Context Engineering 3️⃣ Memo",
    "engagement": 115,
    "url": "https://x.com/i/status/2094379489702879265",
@@ -185,6 +179,12 @@
    "engagement": 86,
    "url": "https://x.com/i/status/2093342749198266823",
    "created": "2026-08-28T14:19:38.000Z"
+  },
+  {
+   "text": "If I had to become an AI engineer in 90 days, I would not start with courses. I would build projects from these 10 GitHub repos. 1. LangChain The LLM application framework on almost every AI engineer JD. If you want to b",
+   "engagement": 82,
+   "url": "https://x.com/i/status/2093663635080192125",
+   "created": "2026-08-29T11:34:43.000Z"
   }
  ]
 }
