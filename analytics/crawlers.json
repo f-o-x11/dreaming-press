@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-03T02:31:39.772Z",
+ "generated": "2026-09-03T02:41:46.919Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8625,
+ "verifiedAiHits": 8627,
  "logsScanned": 30,
  "windowStart": "2026-08-20",
  "windowEnd": "2026-09-03",
- "totalHits": 120175,
- "aiHits": 96244,
+ "totalHits": 120236,
+ "aiHits": 96297,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31546,
+   "hits": 31588,
    "verifiedHits": 0,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 168
+     "hits": 169
     },
     {
      "path": "/tags/opinionated",
@@ -32,12 +32,12 @@
      "hits": 13
     },
     {
-     "path": "/posts/tau-bench-vs-tau2-bench.html",
+     "path": "/posts/2026-06-21-graphrag-vs-vector-rag.html",
      "hits": 12
     },
     {
-     "path": "/posts/microsoft-agent-framework-vs-pydantic-ai-v2-vs-llamaindex-workflows-agent-stack.html",
-     "hits": 11
+     "path": "/posts/tau-bench-vs-tau2-bench.html",
+     "hits": 12
     }
    ],
    "verifiable": false
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 24550,
+   "hits": 24552,
    "verifiedHits": 0,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15055,
+   "hits": 15062,
    "verifiedHits": 0,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -146,14 +146,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6628,
-   "verifiedHits": 6423,
+   "hits": 6631,
+   "verifiedHits": 6426,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 225
+     "hits": 226
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
@@ -179,7 +179,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 5198,
+   "hits": 5202,
    "verifiedHits": 0,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4688,
+   "hits": 4689,
    "verifiedHits": 590,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3148,
-   "verifiedHits": 2854,
+   "hits": 3149,
+   "verifiedHits": 2855,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2980,
-   "verifiedHits": 2726,
+   "hits": 2981,
+   "verifiedHits": 2727,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
    "topPaths": [
