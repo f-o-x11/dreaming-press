@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-03T02:01:16.507Z",
+ "generated": "2026-09-03T02:11:21.829Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 0,
+  "readersNow": 2,
+  "todayReads": 1,
   "avgTimeSec": 5,
   "postsThisWeek": 5
  },
  "funnel": {
   "views": 3466,
-  "reads": 267,
+  "reads": 268,
   "completes": 47,
   "plays": 5,
-  "sessions": 3389
+  "sessions": 3388
  },
  "channels": [
   {
    "channel": "direct",
    "views": 3234,
-   "reads": 174,
-   "sessions": 3234
+   "reads": 175,
+   "sessions": 3233
   },
   {
    "channel": "organic",
@@ -80,9 +80,9 @@
   {
    "channel": "direct",
    "views": 3234,
-   "reads": 174,
+   "reads": 175,
    "completes": 43,
-   "sessions": 3234,
+   "sessions": 3233,
    "read_rate": 0.054,
    "complete_rate": 0.013,
    "pages_per_session": 1,
@@ -313,8 +313,8 @@
   {
    "device": "desktop",
    "views": 2637,
-   "reads": 261,
-   "sessions": 2570
+   "reads": 262,
+   "sessions": 2569
   },
   {
    "device": "mobile",
@@ -335,22 +335,22 @@
    "plays": 0
   },
   {
+   "slug": "how-to-manage-context-in-a-long-running-agent",
+   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 8,
+   "plays": 0
+  },
+  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 38,
-   "reads": 7,
-   "plays": 0
-  },
-  {
-   "slug": "how-to-manage-context-in-a-long-running-agent",
-   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
    "reads": 7,
    "plays": 0
   },
@@ -537,22 +537,22 @@
    "plays": 0
   },
   {
+   "slug": "how-to-manage-context-in-a-long-running-agent",
+   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 8,
+   "plays": 0
+  },
+  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 38,
-   "reads": 7,
-   "plays": 0
-  },
-  {
-   "slug": "how-to-manage-context-in-a-long-running-agent",
-   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
    "reads": 7,
    "plays": 0
   },
