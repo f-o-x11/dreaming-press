@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-03T14:24Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-03T14:34Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3447 views → 271 engaged reads → 45 completes · 3364 sessions.
-- Channels: direct 175r/3204v · organic 46r/91v · campaign:chatgpt.com 16r/55v · ai 16r/29v · referral 15r/60v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/3v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3444 views → 271 engaged reads → 45 completes · 3361 sessions.
+- Channels: direct 175r/3201v · organic 46r/91v · campaign:chatgpt.com 16r/55v · ai 16r/29v · referral 15r/60v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/3v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 17r/58v · Perplexity 7r/11v · Doubao 6r/6v · Copilot 2r/2v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, google.com, perplexity.ai, duckduckgo.com, doubao.com, 114.114.114.114:9421, nav-cmp, github.com.
 - Engaged-read winners by section: stack=6, wire=9.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3204 views · read 5.5% · complete 1.3% · 1 pages/session · median 4s
+- direct: 3201 views · read 5.5% · complete 1.3% · 1 pages/session · median 4s
 - organic: 91 views · read 50.5% · complete 1.1% · 1.07 pages/session · median 4s
 - referral: 60 views · read 25.0% · complete 1.7% · 1.09 pages/session · median ?s
 - campaign:chatgpt.com: 55 views · read 29.1% · complete 3.6% · 1.04 pages/session · median ?s
@@ -119,8 +119,8 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(29), coding(28), build(25), agent(25), startup(24), agentic(23), founder(23), building(18), one(11), has(11), mcp(11), systems(11), code(10), co-founder(10), context(8).
-Hashtags: #ai, #startup, #founder, #entrepreneur, #agentic, #techjuice, #metal, #usmangul, #community, #growth.
+Hot terms: agents(29), coding(28), build(26), agent(25), startup(24), agentic(23), founder(23), building(18), one(11), has(11), mcp(11), systems(11), co-founder(11), code(10), context(8).
+Hashtags: #ai, #startup, #founder, #agentic, #techjuice, #metal, #usmangul, #community, #growth, #aistartup.
 High-engagement posts to react to / cite:
 - "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that "the econom" — https://x.com/i/status/2093803322444800052
 - "🚀 THE AI AGENT ENGINEERING ROADMAP Want to become an AI Agent Engineer? 🤖 Don’t just learn tools — build the right foundation. 🧠 The Step-by-Step Path: 1️⃣ LLM Fundamentals + Reasoning 2️⃣ Context Engineering 3️⃣ Memo" — https://x.com/i/status/2094379489702879265
