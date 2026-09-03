@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-03T05:04:13.170Z",
+ "generated": "2026-09-03T05:14:16.836Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 2,
   "avgTimeSec": 6,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3461,
-  "reads": 268,
+  "views": 3457,
+  "reads": 267,
   "completes": 47,
   "plays": 5,
-  "sessions": 3383
+  "sessions": 3379
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3229,
+   "views": 3226,
    "reads": 174,
-   "sessions": 3228
+   "sessions": 3224
   },
   {
    "channel": "organic",
-   "views": 90,
-   "reads": 47,
-   "sessions": 84
+   "views": 89,
+   "reads": 46,
+   "sessions": 83
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3229,
+   "views": 3226,
    "reads": 174,
    "completes": 43,
-   "sessions": 3228,
+   "sessions": 3224,
    "read_rate": 0.054,
    "complete_rate": 0.013,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 90,
-   "reads": 47,
+   "views": 89,
+   "reads": 46,
    "completes": 1,
-   "sessions": 84,
-   "read_rate": 0.522,
+   "sessions": 83,
+   "read_rate": 0.517,
    "complete_rate": 0.011,
    "pages_per_session": 1.07,
    "median_dwell_sec": 4
@@ -312,14 +312,14 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2631,
+   "views": 2627,
    "reads": 262,
-   "sessions": 2563
+   "sessions": 2559
   },
   {
    "device": "mobile",
    "views": 830,
-   "reads": 6,
+   "reads": 5,
    "sessions": 820
   }
  ],
@@ -455,16 +455,6 @@
    "plays": 0
   },
   {
-   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
-   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "context-engineering-playbook-write-select-compress-isolate",
    "title": "The Context Engineering Playbook for Long-Running Agents: Write, Select, Compress, Isolate",
    "section": "stack",
@@ -473,6 +463,16 @@
    "views": 9,
    "reads": 3,
    "plays": 0
+  },
+  {
+   "slug": "gartner-ai-agent-spending-2026",
+   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
+   "section": "wire",
+   "tags": "[\"reportive\",\"cynical\"]",
+   "author": "priya",
+   "views": 9,
+   "reads": 3,
+   "plays": 1
   }
  ],
  "topListens": [
@@ -614,7 +614,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 38,
+   "views": 37,
    "reads": 1,
    "plays": 0
   },
@@ -808,14 +808,14 @@
    "sessions": 14
   },
   {
-   "ref": "https://duckduckgo.com/",
-   "hits": 19,
-   "sessions": 12
-  },
-  {
    "ref": "https://www.perplexity.ai/",
    "hits": 18,
    "sessions": 8
+  },
+  {
+   "ref": "https://duckduckgo.com/",
+   "hits": 17,
+   "sessions": 11
   },
   {
    "ref": "https://www.doubao.com/",
