@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-03T14:44:16.738Z",
+ "generated": "2026-09-03T14:54:18.274Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 5,
   "todayReads": 16,
-  "avgTimeSec": 33,
+  "avgTimeSec": 32,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3445,
+  "views": 3450,
   "reads": 271,
   "completes": 45,
   "plays": 4,
-  "sessions": 3362
+  "sessions": 3367
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3202,
+   "views": 3206,
    "reads": 175,
-   "sessions": 3198
+   "sessions": 3203
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 29,
+   "views": 30,
    "reads": 16,
-   "sessions": 41
+   "sessions": 42
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3202,
+   "views": 3206,
    "reads": 175,
    "completes": 41,
-   "sessions": 3198,
+   "sessions": 3203,
    "read_rate": 0.055,
    "complete_rate": 0.013,
    "pages_per_session": 1,
@@ -123,11 +123,11 @@
   },
   {
    "channel": "ai",
-   "views": 29,
+   "views": 30,
    "reads": 16,
    "completes": 0,
-   "sessions": 41,
-   "read_rate": 0.552,
+   "sessions": 42,
+   "read_rate": 0.533,
    "complete_rate": 0,
    "pages_per_session": 0.71,
    "median_dwell_sec": 18
@@ -280,9 +280,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 6,
+   "views": 7,
    "reads": 6,
-   "sessions": 6
+   "sessions": 7
   },
   {
    "assistant": "Copilot",
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2628,
+   "views": 2632,
    "reads": 266,
-   "sessions": 2555
+   "sessions": 2559
   },
   {
    "device": "mobile",
-   "views": 817,
+   "views": 818,
    "reads": 5,
-   "sessions": 807
+   "sessions": 808
   }
  ],
  "topContent": [
@@ -825,8 +825,8 @@
   },
   {
    "ref": "https://www.doubao.com/",
-   "hits": 12,
-   "sessions": 6
+   "hits": 13,
+   "sessions": 7
   },
   {
    "ref": "http://114.114.114.114:9421/",
