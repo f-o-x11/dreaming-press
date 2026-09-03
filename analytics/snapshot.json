@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-03T16:15:09.985Z",
+ "generated": "2026-09-03T16:25:16.627Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 16,
   "avgTimeSec": 30,
   "postsThisWeek": 5
  },
  "funnel": {
   "views": 3446,
-  "reads": 271,
+  "reads": 270,
   "completes": 45,
   "plays": 4,
   "sessions": 3363
@@ -18,7 +18,7 @@
   {
    "channel": "direct",
    "views": 3203,
-   "reads": 175,
+   "reads": 174,
    "sessions": 3200
   },
   {
@@ -80,10 +80,10 @@
   {
    "channel": "direct",
    "views": 3203,
-   "reads": 175,
+   "reads": 174,
    "completes": 41,
    "sessions": 3200,
-   "read_rate": 0.055,
+   "read_rate": 0.054,
    "complete_rate": 0.013,
    "pages_per_session": 1,
    "median_dwell_sec": 4
@@ -319,7 +319,7 @@
   {
    "device": "desktop",
    "views": 2628,
-   "reads": 266,
+   "reads": 265,
    "sessions": 2555
   },
   {
@@ -446,7 +446,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 13,
+   "views": 14,
    "reads": 3,
    "plays": 0
   },
@@ -743,18 +743,18 @@
    "avg_dwell_sec": 6
   },
   {
+   "path": "/alternatives/:tool",
+   "views": 12,
+   "reads": 0,
+   "sessions": 12,
+   "avg_dwell_sec": 4
+  },
+  {
    "path": "/agents.html",
    "views": 11,
    "reads": 3,
    "sessions": 10,
    "avg_dwell_sec": 70
-  },
-  {
-   "path": "/alternatives/:tool",
-   "views": 11,
-   "reads": 0,
-   "sessions": 11,
-   "avg_dwell_sec": 3
   },
   {
    "path": "/submit.html",
