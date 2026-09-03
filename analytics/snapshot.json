@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-03T18:48:07.065Z",
+ "generated": "2026-09-03T18:58:17.109Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 2,
   "todayReads": 18,
   "avgTimeSec": 28,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3454,
+  "views": 3453,
   "reads": 269,
   "completes": 42,
   "plays": 4,
-  "sessions": 3373
+  "sessions": 3372
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3210,
+   "views": 3209,
    "reads": 172,
-   "sessions": 3210
+   "sessions": 3209
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3210,
+   "views": 3209,
    "reads": 172,
    "completes": 38,
-   "sessions": 3210,
+   "sessions": 3209,
    "read_rate": 0.054,
    "complete_rate": 0.012,
    "pages_per_session": 1,
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2644,
+   "views": 2643,
    "reads": 263,
-   "sessions": 2573
+   "sessions": 2572
   },
   {
    "device": "mobile",
@@ -397,21 +397,21 @@
    "plays": 0
   },
   {
-   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
-   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 11,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-22-mcp-authorization-oauth",
    "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
+   "views": 10,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
+   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
    "views": 10,
    "reads": 4,
    "plays": 0
@@ -694,9 +694,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 406,
+   "views": 407,
    "reads": 0,
-   "sessions": 403,
+   "sessions": 404,
    "avg_dwell_sec": 4
   },
   {

@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-03T18:48:06.555Z",
+ "generated": "2026-09-03T18:58:16.468Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8925,
+ "verifiedAiHits": 8947,
  "logsScanned": 30,
  "windowStart": "2026-08-20",
  "windowEnd": "2026-09-03",
- "totalHits": 125520,
- "aiHits": 100558,
+ "totalHits": 125595,
+ "aiHits": 100614,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 33984,
+   "hits": 33986,
    "verifiedHits": 0,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 25295,
+   "hits": 25320,
    "verifiedHits": 0,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15780,
+   "hits": 15787,
    "verifiedHits": 0,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6983,
-   "verifiedHits": 6777,
+   "hits": 6985,
+   "verifiedHits": 6779,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 5582,
+   "hits": 5596,
    "verifiedHits": 0,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3301,
-   "verifiedHits": 3005,
+   "hits": 3302,
+   "verifiedHits": 3006,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
    "topPaths": [
     {
      "path": "/",
-     "hits": 550
+     "hits": 551
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -311,8 +311,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3080,
-   "verifiedHits": 2825,
+   "hits": 3082,
+   "verifiedHits": 2827,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3071,
+   "hits": 3074,
    "verifiedHits": 0,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -476,8 +476,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 649,
-   "verifiedHits": 386,
+   "hits": 668,
+   "verifiedHits": 405,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
    "topPaths": [
@@ -494,12 +494,12 @@
      "hits": 5
     },
     {
-     "path": "/posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html",
+     "path": "/series",
      "hits": 5
     },
     {
-     "path": "/posts/how-to-deploy-an-llm-in-production-vllm-gpu-serving-playbook.html",
-     "hits": 4
+     "path": "/posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html",
+     "hits": 5
     }
    ],
    "verifiable": true
