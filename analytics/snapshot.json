@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-03T14:03:48.921Z",
+ "generated": "2026-09-03T14:13:56.310Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 0,
   "todayReads": 16,
   "avgTimeSec": 34,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3451,
-  "reads": 272,
+  "views": 3448,
+  "reads": 271,
   "completes": 45,
   "plays": 4,
-  "sessions": 3368
+  "sessions": 3365
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3208,
+   "views": 3206,
    "reads": 175,
-   "sessions": 3204
+   "sessions": 3202
   },
   {
    "channel": "organic",
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 55,
-   "reads": 17,
-   "sessions": 53
+   "views": 54,
+   "reads": 16,
+   "sessions": 52
   },
   {
    "channel": "ai",
    "views": 29,
    "reads": 16,
-   "sessions": 42
+   "sessions": 41
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3208,
+   "views": 3206,
    "reads": 175,
    "completes": 41,
-   "sessions": 3204,
+   "sessions": 3202,
    "read_rate": 0.055,
    "complete_rate": 0.013,
    "pages_per_session": 1,
@@ -112,12 +112,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 55,
-   "reads": 17,
+   "views": 54,
+   "reads": 16,
    "completes": 2,
-   "sessions": 53,
-   "read_rate": 0.309,
-   "complete_rate": 0.036,
+   "sessions": 52,
+   "read_rate": 0.296,
+   "complete_rate": 0.037,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
   },
@@ -126,11 +126,11 @@
    "views": 29,
    "reads": 16,
    "completes": 0,
-   "sessions": 42,
+   "sessions": 41,
    "read_rate": 0.552,
    "complete_rate": 0,
-   "pages_per_session": 0.69,
-   "median_dwell_sec": 20
+   "pages_per_session": 0.71,
+   "median_dwell_sec": 18
   },
   {
    "channel": "social",
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 58,
-   "reads": 18,
-   "sessions": 54
+   "views": 57,
+   "reads": 17,
+   "sessions": 53
   },
   {
    "assistant": "Perplexity",
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2632,
-   "reads": 267,
-   "sessions": 2559
+   "views": 2629,
+   "reads": 266,
+   "sessions": 2556
   },
   {
    "device": "mobile",
@@ -456,7 +456,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 12,
+   "views": 11,
    "reads": 3,
    "plays": 0
   },
@@ -772,9 +772,9 @@
   },
   {
    "path": "/authors/dex",
-   "views": 8,
+   "views": 7,
    "reads": 0,
-   "sessions": 8,
+   "sessions": 7,
    "avg_dwell_sec": 7
   },
   {
