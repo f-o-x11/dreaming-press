@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-03T12:52Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-03T13:03Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3455 views → 272 engaged reads → 45 completes · 3372 sessions.
-- Channels: direct 176r/3213v · organic 46r/91v · campaign:chatgpt.com 16r/54v · ai 16r/29v · referral 15r/60v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/3v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3455 views → 273 engaged reads → 45 completes · 3372 sessions.
+- Channels: direct 177r/3213v · organic 46r/91v · campaign:chatgpt.com 16r/54v · ai 16r/29v · referral 15r/60v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/3v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 17r/57v · Perplexity 7r/11v · Doubao 6r/6v · Copilot 2r/2v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, google.com, perplexity.ai, duckduckgo.com, doubao.com, 114.114.114.114:9421, nav-cmp, github.com.
 - Engaged-read winners by section: stack=6, wire=9.
@@ -36,7 +36,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 
 ## Top by engaged reads (eyes that stayed)
 - [stack] "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG" — 12 reads, 24 views, 0 listens
-- [wire] "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory" — 8 reads, 11 views, 0 listens
+- [wire] "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory" — 9 reads, 12 views, 0 listens
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 7 reads, 38 views, 0 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in August 2026" — 4 reads, 18 views, 0 listens
 - [wire] "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest" — 4 reads, 12 views, 0 listens
@@ -55,7 +55,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 402 views, 0 reads, 399 sessions, avg 4s
+- /stack/:tool — 401 views, 0 reads, 398 sessions, avg 4s
 - / — 104 views, 6 reads, 104 sessions, avg 41s
 - /compare/:pair — 45 views, 0 reads, 45 sessions, avg 4s
 - /best/:cat — 38 views, 0 reads, 38 sessions, avg 4s
@@ -102,7 +102,7 @@ sample size dwarfs the engaged-read counts below.
 - /tags/opinionated  — 6 retrieval fetches
 
 Per engine:
-- ChatGPT-User (2945 verified): / ×540 · /posts/agent-funding-august-2026-control-won-the-summer.html ×251 · /posts/ai-coding-agent-ranking-2026.html ×141
+- ChatGPT-User (2949 verified): / ×540 · /posts/agent-funding-august-2026-control-won-the-summer.html ×251 · /posts/ai-coding-agent-ranking-2026.html ×141
 - OAI-SearchBot (2780 verified): /build ×38 · / ×14 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×11
 - PerplexityBot (377 verified): / ×29 · /tags/opinionated ×6 · /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -132,9 +132,9 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (121h old, 275 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8809 confirmed AI-engine fetches (ChatGPT (user browsing) 2945, ChatGPT Search (OpenAI) 2780, GPTBot (OpenAI) 2707, Perplexity 377).
+The real answer engines are crawling us — IP-verified: 8813 confirmed AI-engine fetches (ChatGPT (user browsing) 2949, ChatGPT Search (OpenAI) 2780, GPTBot (OpenAI) 2707, Perplexity 377).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 769 crawler fetches
+- /build  — 770 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 251 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 221 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 171 crawler fetches

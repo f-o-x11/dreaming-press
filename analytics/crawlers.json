@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-03T12:52:56.456Z",
+ "generated": "2026-09-03T13:03:03.657Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8809,
+ "verifiedAiHits": 8813,
  "logsScanned": 30,
  "windowStart": "2026-08-20",
  "windowEnd": "2026-09-03",
- "totalHits": 124007,
- "aiHits": 99450,
+ "totalHits": 124058,
+ "aiHits": 99488,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 33627,
+   "hits": 33640,
    "verifiedHits": 0,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 24975,
+   "hits": 24977,
    "verifiedHits": 0,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15518,
+   "hits": 15525,
    "verifiedHits": 0,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 12366,
+   "hits": 12369,
    "verifiedHits": 0,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -146,14 +146,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6842,
-   "verifiedHits": 6637,
+   "hits": 6850,
+   "verifiedHits": 6644,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 232
+     "hits": 233
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
@@ -212,7 +212,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4711,
+   "hits": 4712,
    "verifiedHits": 612,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3239,
-   "verifiedHits": 2945,
+   "hits": 3245,
+   "verifiedHits": 2949,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3034,
+   "hits": 3035,
    "verifiedHits": 2780,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3012,
+   "hits": 3016,
    "verifiedHits": 0,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -377,7 +377,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 2942,
+   "hits": 2944,
    "verifiedHits": 2707,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -476,7 +476,7 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 638,
+   "hits": 640,
    "verifiedHits": 377,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 387,
+   "hits": 388,
    "verifiedHits": 0,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -528,7 +528,7 @@
     },
     {
      "path": "/posts/open-models-in-claude-code-anthropic-compatible-endpoint.html",
-     "hits": 5
+     "hits": 6
     },
     {
      "path": "/posts/cloudflare-agents-vs-langgraph.html",
@@ -542,7 +542,7 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 202,
+   "hits": 203,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-03",
@@ -560,12 +560,12 @@
      "hits": 2
     },
     {
-     "path": "/stack/google-adk",
+     "path": "/",
      "hits": 2
     },
     {
-     "path": "/fabrications.html",
-     "hits": 1
+     "path": "/stack/google-adk",
+     "hits": 2
     }
    ],
    "verifiable": false
