@@ -1,14 +1,14 @@
 {
- "generated": "2026-09-03T01:30:16.765Z",
+ "generated": "2026-09-03T01:40:36.745Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 0,
   "avgTimeSec": 4,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3469,
+  "views": 3468,
   "reads": 267,
   "completes": 47,
   "plays": 5,
@@ -17,7 +17,7 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3237,
+   "views": 3236,
    "reads": 174,
    "sessions": 3236
   },
@@ -73,13 +73,13 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 21
+   "sessions": 20
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3237,
+   "views": 3236,
    "reads": 174,
    "completes": 43,
    "sessions": 3236,
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 21,
+   "sessions": 20,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -191,8 +191,8 @@
  "navSurfaces": [
   {
    "surface": "nav-cmp",
-   "clicks": 10,
-   "sessions": 5
+   "clicks": 9,
+   "sessions": 4
   },
   {
    "surface": "dash-range",
@@ -312,7 +312,7 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2640,
+   "views": 2639,
    "reads": 261,
    "sessions": 2572
   },
@@ -691,8 +691,8 @@
    "path": "/",
    "views": 105,
    "reads": 6,
-   "sessions": 105,
-   "avg_dwell_sec": 42
+   "sessions": 104,
+   "avg_dwell_sec": 43
   },
   {
    "path": "/compare/:pair",
@@ -717,9 +717,9 @@
   },
   {
    "path": "/tools",
-   "views": 18,
+   "views": 17,
    "reads": 0,
-   "sessions": 18,
+   "sessions": 17,
    "avg_dwell_sec": 7
   },
   {
@@ -772,18 +772,18 @@
    "avg_dwell_sec": 7
   },
   {
-   "path": "/apps",
-   "views": 7,
-   "reads": 1,
-   "sessions": 7,
-   "avg_dwell_sec": 17
-  },
-  {
    "path": "/stack.html",
    "views": 7,
    "reads": 1,
    "sessions": 7,
    "avg_dwell_sec": 16
+  },
+  {
+   "path": "/apps",
+   "views": 6,
+   "reads": 1,
+   "sessions": 6,
+   "avg_dwell_sec": 22
   }
  ],
  "referrers": [
@@ -823,14 +823,14 @@
    "sessions": 6
   },
   {
-   "ref": "nav-cmp",
-   "hits": 10,
-   "sessions": 5
-  },
-  {
    "ref": "http://114.114.114.114:9421/",
    "hits": 10,
    "sessions": 7
+  },
+  {
+   "ref": "nav-cmp",
+   "hits": 9,
+   "sessions": 4
   },
   {
    "ref": "https://github.com/",
