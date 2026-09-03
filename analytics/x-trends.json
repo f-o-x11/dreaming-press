@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-03T16:45:48.479Z",
+ "generated": "2026-09-03T16:55:58.025Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -20,7 +20,7 @@
   },
   {
    "term": "startup",
-   "count": 25
+   "count": 24
   },
   {
    "term": "build",
@@ -31,15 +31,15 @@
    "count": 23
   },
   {
+   "term": "building",
+   "count": 21
+  },
+  {
    "term": "agentic",
    "count": 21
   },
   {
-   "term": "building",
-   "count": 20
-  },
-  {
-   "term": "has",
+   "term": "systems",
    "count": 12
   },
   {
@@ -47,7 +47,7 @@
    "count": 11
   },
   {
-   "term": "systems",
+   "term": "has",
    "count": 11
   },
   {
@@ -169,12 +169,6 @@
    "created": "2026-08-29T19:04:08.000Z"
   },
   {
-   "text": "Nvidia is nearing an agreement to acquire Hugging Face in a deal that would value the AI startup at roughly $13 billion, according to news reports. Co-founder Thomas Wolf declined to comment on those reports, but he did ",
-   "engagement": 88,
-   "url": "https://x.com/i/status/2093017694001881209",
-   "created": "2026-08-27T16:47:59.000Z"
-  },
-  {
    "text": "best github projects of the month seven repos the feed recycled into one carousel - skillspector - security scanner for agent skills before install https://t.co/R9Gfobl0aJ - paperclip - control panel for a full team of a",
    "engagement": 87,
    "url": "https://x.com/i/status/2093693036689580297",
@@ -185,6 +179,12 @@
    "engagement": 86,
    "url": "https://x.com/i/status/2093342749198266823",
    "created": "2026-08-28T14:19:38.000Z"
+  },
+  {
+   "text": "If I had 6 months to become an Agentic AI Engineer. I'd do this. Stage 1: Python and LLM Foundations Python, async, API design, Anthropic/OpenAI SDKs, tokens, embeddings, structured outputs. Stage 2: Context Engineering ",
+   "engagement": 85,
+   "url": "https://x.com/i/status/2095491337651179621",
+   "created": "2026-09-03T12:37:21.000Z"
   }
  ]
 }
