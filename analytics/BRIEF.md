@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-03T21:50Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-03T22:00Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -95,16 +95,16 @@ sample size dwarfs the engaged-read counts below.
 - /posts/ai-coding-agent-ranking-2026.html  — 141 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 139 retrieval fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 65 retrieval fetches
-- /build  — 44 retrieval fetches
+- /build  — 46 retrieval fetches
 - /posts/open-source-agent-memory-libraries-mem0-zep-letta-cognee.html  — 12 retrieval fetches
 - /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html  — 12 retrieval fetches
 - /posts/ollama-vs-lm-studio-vs-llama-cpp-local-agent-backend.html  — 12 retrieval fetches
-- /tags/opinionated  — 7 retrieval fetches
+- /tags/opinionated  — 8 retrieval fetches
 
 Per engine:
 - ChatGPT-User (3027 verified): / ×554 · /posts/agent-funding-august-2026-control-won-the-summer.html ×251 · /posts/ai-coding-agent-ranking-2026.html ×141
-- OAI-SearchBot (2878 verified): /build ×39 · / ×15 · /posts/open-source-agent-memory-libraries-mem0-zep-letta-cognee.html ×12
-- PerplexityBot (494 verified): / ×29 · /tags/opinionated ×7 · /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html ×5
+- OAI-SearchBot (2880 verified): /build ×39 · / ×15 · /posts/open-source-agent-memory-libraries-mem0-zep-letta-cognee.html ×12
+- PerplexityBot (519 verified): / ×29 · /tags/opinionated ×8 · /build ×7
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -132,9 +132,9 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (130h old, 275 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9108 confirmed AI-engine fetches (ChatGPT (user browsing) 3027, ChatGPT Search (OpenAI) 2878, GPTBot (OpenAI) 2709, Perplexity 494).
+The real answer engines are crawling us — IP-verified: 9135 confirmed AI-engine fetches (ChatGPT (user browsing) 3027, ChatGPT Search (OpenAI) 2880, GPTBot (OpenAI) 2709, Perplexity 519).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 782 crawler fetches
+- /build  — 784 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 251 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 221 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 172 crawler fetches

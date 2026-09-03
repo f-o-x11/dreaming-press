@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-03T21:50:36.015Z",
+ "generated": "2026-09-03T22:00:51.149Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9108,
+ "verifiedAiHits": 9135,
  "logsScanned": 30,
  "windowStart": "2026-08-20",
  "windowEnd": "2026-09-03",
- "totalHits": 126827,
- "aiHits": 101347,
+ "totalHits": 126890,
+ "aiHits": 101385,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 34073,
+   "hits": 34077,
    "verifiedHits": 0,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15916,
+   "hits": 15923,
    "verifiedHits": 0,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -179,7 +179,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 5932,
+   "hits": 5956,
    "verifiedHits": 0,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -212,8 +212,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 4738,
-   "verifiedHits": 638,
+   "hits": 4739,
+   "verifiedHits": 639,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3133,
-   "verifiedHits": 2878,
+   "hits": 3135,
+   "verifiedHits": 2880,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
    "topPaths": [
@@ -476,8 +476,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 757,
-   "verifiedHits": 494,
+   "hits": 782,
+   "verifiedHits": 519,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
    "topPaths": [
@@ -487,6 +487,10 @@
     },
     {
      "path": "/tags/opinionated",
+     "hits": 8
+    },
+    {
+     "path": "/build",
      "hits": 7
     },
     {
@@ -495,10 +499,6 @@
     },
     {
      "path": "/series",
-     "hits": 5
-    },
-    {
-     "path": "/build",
      "hits": 5
     }
    ],
