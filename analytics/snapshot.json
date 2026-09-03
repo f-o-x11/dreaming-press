@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-03T16:25:16.627Z",
+ "generated": "2026-09-03T16:35:39.371Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 16,
-  "avgTimeSec": 30,
+  "readersNow": 3,
+  "todayReads": 17,
+  "avgTimeSec": 31,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3446,
-  "reads": 270,
+  "views": 3447,
+  "reads": 271,
   "completes": 45,
   "plays": 4,
-  "sessions": 3363
+  "sessions": 3364
  },
  "channels": [
   {
    "channel": "direct",
    "views": 3203,
    "reads": 174,
-   "sessions": 3200
+   "sessions": 3201
   },
   {
    "channel": "organic",
-   "views": 91,
-   "reads": 46,
-   "sessions": 85
+   "views": 92,
+   "reads": 47,
+   "sessions": 86
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -82,7 +82,7 @@
    "views": 3203,
    "reads": 174,
    "completes": 41,
-   "sessions": 3200,
+   "sessions": 3201,
    "read_rate": 0.054,
    "complete_rate": 0.013,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 91,
-   "reads": 46,
+   "views": 92,
+   "reads": 47,
    "completes": 1,
-   "sessions": 85,
-   "read_rate": 0.505,
+   "sessions": 86,
+   "read_rate": 0.511,
    "complete_rate": 0.011,
    "pages_per_session": 1.07,
    "median_dwell_sec": 4
@@ -318,15 +318,21 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2628,
+   "views": 2627,
    "reads": 265,
-   "sessions": 2555
+   "sessions": 2554
   },
   {
    "device": "mobile",
-   "views": 818,
+   "views": 819,
    "reads": 5,
-   "sessions": 808
+   "sessions": 809
+  },
+  {
+   "device": "tablet",
+   "views": 1,
+   "reads": 1,
+   "sessions": 1
   }
  ],
  "topContent": [
@@ -600,7 +606,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 65,
+   "views": 64,
    "reads": 0,
    "plays": 0
   },
@@ -820,8 +826,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 16,
-   "sessions": 10
+   "hits": 18,
+   "sessions": 11
   },
   {
    "ref": "https://www.doubao.com/",
