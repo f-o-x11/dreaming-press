@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-03T08:28:53.321Z",
+ "generated": "2026-09-03T08:39:00.656Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 7,
   "avgTimeSec": 13,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3435,
+  "views": 3433,
   "reads": 268,
   "completes": 46,
   "plays": 5,
-  "sessions": 3354
+  "sessions": 3352
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3200,
+   "views": 3199,
    "reads": 173,
-   "sessions": 3199
+   "sessions": 3197
   },
   {
    "channel": "organic",
-   "views": 88,
+   "views": 87,
    "reads": 46,
-   "sessions": 82
+   "sessions": 81
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3200,
+   "views": 3199,
    "reads": 173,
    "completes": 42,
-   "sessions": 3199,
+   "sessions": 3197,
    "read_rate": 0.054,
    "complete_rate": 0.013,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 88,
+   "views": 87,
    "reads": 46,
    "completes": 1,
-   "sessions": 82,
-   "read_rate": 0.523,
+   "sessions": 81,
+   "read_rate": 0.529,
    "complete_rate": 0.011,
    "pages_per_session": 1.07,
    "median_dwell_sec": 4
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2617,
+   "views": 2615,
    "reads": 263,
-   "sessions": 2546
+   "sessions": 2544
   },
   {
    "device": "mobile",
@@ -737,18 +737,18 @@
    "avg_dwell_sec": 6
   },
   {
-   "path": "/alternatives/:tool",
-   "views": 12,
-   "reads": 0,
-   "sessions": 12,
-   "avg_dwell_sec": 4
-  },
-  {
    "path": "/agents.html",
    "views": 11,
    "reads": 3,
    "sessions": 10,
    "avg_dwell_sec": 70
+  },
+  {
+   "path": "/alternatives/:tool",
+   "views": 11,
+   "reads": 0,
+   "sessions": 11,
+   "avg_dwell_sec": 3
   },
   {
    "path": "/submit.html",
@@ -814,8 +814,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 17,
-   "sessions": 11
+   "hits": 16,
+   "sessions": 10
   },
   {
    "ref": "https://www.doubao.com/",
