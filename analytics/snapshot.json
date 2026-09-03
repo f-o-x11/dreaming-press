@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-03T18:27:31.893Z",
+ "generated": "2026-09-03T18:37:41.808Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
+  "readersNow": 7,
   "todayReads": 18,
-  "avgTimeSec": 23,
+  "avgTimeSec": 29,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3449,
+  "views": 3452,
   "reads": 269,
   "completes": 42,
   "plays": 4,
-  "sessions": 3368
+  "sessions": 3371
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3205,
+   "views": 3208,
    "reads": 172,
-   "sessions": 3205
+   "sessions": 3208
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3205,
+   "views": 3208,
    "reads": 172,
    "completes": 38,
-   "sessions": 3205,
+   "sessions": 3208,
    "read_rate": 0.054,
    "complete_rate": 0.012,
    "pages_per_session": 1,
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2639,
+   "views": 2642,
    "reads": 263,
-   "sessions": 2568
+   "sessions": 2571
   },
   {
    "device": "mobile",
@@ -387,18 +387,18 @@
    "plays": 0
   },
   {
-   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
-   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
+   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
+   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 11,
+   "views": 12,
    "reads": 4,
    "plays": 0
   },
   {
-   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
-   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
+   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
+   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -579,12 +579,12 @@
    "plays": 0
   },
   {
-   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
-   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
+   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
+   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 11,
+   "views": 12,
    "reads": 4,
    "plays": 0
   }
@@ -694,9 +694,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 402,
+   "views": 404,
    "reads": 0,
-   "sessions": 399,
+   "sessions": 401,
    "avg_dwell_sec": 4
   },
   {
