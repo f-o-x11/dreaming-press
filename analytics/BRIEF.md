@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-03T12:12Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-03T12:22Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3457 views → 272 engaged reads → 45 completes · 3374 sessions.
-- Channels: direct 176r/3216v · organic 46r/90v · campaign:chatgpt.com 16r/54v · ai 16r/29v · referral 15r/60v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/3v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3458 views → 272 engaged reads → 45 completes · 3375 sessions.
+- Channels: direct 176r/3216v · organic 46r/91v · campaign:chatgpt.com 16r/54v · ai 16r/29v · referral 15r/60v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/3v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 17r/57v · Perplexity 7r/11v · Doubao 6r/6v · Copilot 2r/2v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, google.com, perplexity.ai, duckduckgo.com, doubao.com, 114.114.114.114:9421, nav-cmp, github.com.
 - Engaged-read winners by section: stack=6, wire=9.
@@ -24,7 +24,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - direct: 3216 views · read 5.5% · complete 1.3% · 1 pages/session · median 4s
-- organic: 90 views · read 51.1% · complete 1.1% · 1.07 pages/session · median 4s
+- organic: 91 views · read 50.5% · complete 1.1% · 1.07 pages/session · median 4s
 - referral: 60 views · read 25.0% · complete 1.7% · 1.09 pages/session · median ?s
 - campaign:chatgpt.com: 54 views · read 29.6% · complete 3.7% · 1.04 pages/session · median ?s
 - ai: 29 views · read 55.2% · complete 0.0% · 0.71 pages/session · median 18s
@@ -58,7 +58,7 @@ so what these earn from humans is the other half of the picture.
 - /stack/:tool — 402 views, 0 reads, 399 sessions, avg 4s
 - / — 104 views, 6 reads, 104 sessions, avg 41s
 - /compare/:pair — 45 views, 0 reads, 45 sessions, avg 4s
-- /best/:cat — 37 views, 0 reads, 37 sessions, avg 4s
+- /best/:cat — 38 views, 0 reads, 38 sessions, avg 4s
 - /build — 30 views, 0 reads, 30 sessions, avg 4s
 - /tools — 17 views, 0 reads, 17 sessions, avg 7s
 - /topics/:topic — 16 views, 1 reads, 16 sessions, avg 57s
@@ -69,7 +69,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 ## Top by raw views (eyes that arrived)
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 80 views, 0 reads
 - [wire] "The Founder's Wire, August 20: OpenAI Puts Ads in ChatGPT Across 31 European Countries, Claude Autonomously Designed Working Protein Binders for 14 of 15 Targets, and Rillet Hit a $1B Valuation for AI Accounting" — 67 views, 0 reads
-- [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 39 views, 2 reads
+- [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 40 views, 2 reads
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 38 views, 7 reads
 - [wire] "OpenAI Cut Terra and Luna on July 30. On the Sticker, Luna Is Now the Cheapest Agent Backend Alive — On the Bill, the Ranking Barely Moved." — 29 views, 0 reads
 - [stack] "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG" — 24 views, 12 reads
