@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-03T18:07:06.182Z",
+ "generated": "2026-09-03T18:17:16.059Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8904,
+ "verifiedAiHits": 8908,
  "logsScanned": 30,
  "windowStart": "2026-08-20",
  "windowEnd": "2026-09-03",
- "totalHits": 125316,
- "aiHits": 100421,
+ "totalHits": 125353,
+ "aiHits": 100444,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 33957,
+   "hits": 33969,
    "verifiedHits": 0,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15754,
+   "hits": 15761,
    "verifiedHits": 0,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6969,
-   "verifiedHits": 6763,
+   "hits": 6973,
+   "verifiedHits": 6767,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 5537,
+   "hits": 5547,
    "verifiedHits": 0,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -307,6 +307,39 @@
    "verifiable": true
   },
   {
+   "name": "OAI-SearchBot",
+   "label": "ChatGPT Search (OpenAI)",
+   "category": "ai",
+   "home": "https://openai.com/searchbot",
+   "hits": 3068,
+   "verifiedHits": 2813,
+   "firstSeen": "2026-08-20",
+   "lastSeen": "2026-09-03",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 39
+    },
+    {
+     "path": "/",
+     "hits": 15
+    },
+    {
+     "path": "/posts/open-source-agent-memory-libraries-mem0-zep-letta-cognee.html",
+     "hits": 11
+    },
+    {
+     "path": "/posts/cheapest-terminal-coding-agent-august-2026-free-floor.html",
+     "hits": 11
+    },
+    {
+     "path": "/posts/ollama-vs-lm-studio-vs-llama-cpp-local-agent-backend.html",
+     "hits": 11
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "Baiduspider",
    "label": "Baidu",
    "category": "search",
@@ -340,45 +373,12 @@
    "verifiable": false
   },
   {
-   "name": "OAI-SearchBot",
-   "label": "ChatGPT Search (OpenAI)",
-   "category": "ai",
-   "home": "https://openai.com/searchbot",
-   "hits": 3065,
-   "verifiedHits": 2810,
-   "firstSeen": "2026-08-20",
-   "lastSeen": "2026-09-03",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 39
-    },
-    {
-     "path": "/",
-     "hits": 15
-    },
-    {
-     "path": "/posts/open-source-agent-memory-libraries-mem0-zep-letta-cognee.html",
-     "hits": 11
-    },
-    {
-     "path": "/posts/cheapest-terminal-coding-agent-august-2026-free-floor.html",
-     "hits": 11
-    },
-    {
-     "path": "/posts/ollama-vs-lm-studio-vs-llama-cpp-local-agent-backend.html",
-     "hits": 11
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "GPTBot",
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 2945,
-   "verifiedHits": 2708,
+   "hits": 2946,
+   "verifiedHits": 2709,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
    "topPaths": [

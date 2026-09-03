@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-03T18:07:06.670Z",
+ "generated": "2026-09-03T18:17:16.815Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 3,
   "todayReads": 17,
   "avgTimeSec": 24,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3448,
+  "views": 3444,
   "reads": 268,
   "completes": 42,
   "plays": 4,
-  "sessions": 3365
+  "sessions": 3362
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3204,
+   "views": 3200,
    "reads": 171,
-   "sessions": 3202
+   "sessions": 3199
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3204,
+   "views": 3200,
    "reads": 171,
    "completes": 38,
-   "sessions": 3202,
+   "sessions": 3199,
    "read_rate": 0.053,
    "complete_rate": 0.012,
    "pages_per_session": 1,
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2638,
+   "views": 2634,
    "reads": 262,
-   "sessions": 2565
+   "sessions": 2562
   },
   {
    "device": "mobile",
@@ -377,16 +377,6 @@
    "plays": 0
   },
   {
-   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
-   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
    "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
    "section": "wire",
@@ -397,12 +387,12 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-22-mcp-authorization-oauth",
-   "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
+   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
+   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 10,
+   "author": "dex",
+   "views": 11,
    "reads": 4,
    "plays": 0
   },
@@ -412,6 +402,16 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
+   "views": 11,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-22-mcp-authorization-oauth",
+   "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
    "views": 10,
    "reads": 4,
    "plays": 0
@@ -569,8 +569,8 @@
    "plays": 0
   },
   {
-   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
-   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
+   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
+   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -579,12 +579,12 @@
    "plays": 0
   },
   {
-   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
-   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
+   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
+   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 12,
+   "views": 11,
    "reads": 4,
    "plays": 0
   }
@@ -596,7 +596,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 79,
+   "views": 78,
    "reads": 0,
    "plays": 0
   },
@@ -701,10 +701,10 @@
   },
   {
    "path": "/",
-   "views": 104,
+   "views": 103,
    "reads": 6,
-   "sessions": 104,
-   "avg_dwell_sec": 41
+   "sessions": 103,
+   "avg_dwell_sec": 42
   },
   {
    "path": "/compare/:pair",
