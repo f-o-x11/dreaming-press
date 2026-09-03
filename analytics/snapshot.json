@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-03T01:19:53.233Z",
+ "generated": "2026-09-03T01:30:16.765Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 0,
   "avgTimeSec": 4,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3473,
+  "views": 3469,
   "reads": 267,
   "completes": 47,
   "plays": 5,
-  "sessions": 3395
+  "sessions": 3391
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3241,
+   "views": 3237,
    "reads": 174,
-   "sessions": 3240
+   "sessions": 3236
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3241,
+   "views": 3237,
    "reads": 174,
    "completes": 43,
-   "sessions": 3240,
+   "sessions": 3236,
    "read_rate": 0.054,
    "complete_rate": 0.013,
    "pages_per_session": 1,
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2644,
+   "views": 2640,
    "reads": 261,
-   "sessions": 2576
+   "sessions": 2572
   },
   {
    "device": "mobile",
@@ -360,7 +360,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 20,
+   "views": 18,
    "reads": 4,
    "plays": 0
   },
@@ -562,7 +562,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 20,
+   "views": 18,
    "reads": 4,
    "plays": 0
   },
@@ -649,16 +649,6 @@
    "plays": 0
   },
   {
-   "slug": "gpu-rental-price-map-h100-h200-b200-august-2026",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in August 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell",
    "title": "The Founder's Wire, August 23: OpenAI Shut Off Data Retention for Frontier Models, an Ex-OpenAI Nonprofit Graded Everyone's Rogue-Model Defenses (Top Mark: C+), and Google Bought Into the Silicon Under Its Own Chips",
    "section": "wire",
@@ -666,6 +656,16 @@
    "author": "wire-desk",
    "views": 19,
    "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "gpu-rental-price-map-h100-h200-b200-august-2026",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in August 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 18,
+   "reads": 4,
    "plays": 0
   },
   {
