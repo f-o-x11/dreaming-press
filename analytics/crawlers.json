@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-03T03:22:52.624Z",
+ "generated": "2026-09-03T03:33:16.016Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8638,
+ "verifiedAiHits": 8639,
  "logsScanned": 30,
  "windowStart": "2026-08-20",
  "windowEnd": "2026-09-03",
- "totalHits": 120406,
- "aiHits": 96443,
+ "totalHits": 120459,
+ "aiHits": 96493,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31690,
+   "hits": 31727,
    "verifiedHits": 0,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 170
+     "hits": 171
     },
     {
      "path": "/tags/opinionated",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15092,
+   "hits": 15099,
    "verifiedHits": 0,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 12347,
+   "hits": 12350,
    "verifiedHits": 0,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6647,
-   "verifiedHits": 6442,
+   "hits": 6650,
+   "verifiedHits": 6445,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
    "topPaths": [
@@ -169,7 +169,7 @@
     },
     {
      "path": "/posts/2026-08-22-founders-wire-nvidia-poolside-anthropic-ipo-gemma-billion.html",
-     "hits": 44
+     "hits": 45
     }
    ],
    "verifiable": true
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3157,
-   "verifiedHits": 2863,
+   "hits": 3158,
+   "verifiedHits": 2864,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
    "topPaths": [
@@ -542,14 +542,18 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 191,
+   "hits": 193,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
-   "lastSeen": "2026-09-02",
+   "lastSeen": "2026-09-03",
    "topPaths": [
     {
      "path": "/dashboard",
      "hits": 3
+    },
+    {
+     "path": "/newsroom",
+     "hits": 2
     },
     {
      "path": "/global-tech-news",
@@ -561,10 +565,6 @@
     },
     {
      "path": "/",
-     "hits": 1
-    },
-    {
-     "path": "/tools",
      "hits": 1
     }
    ],
