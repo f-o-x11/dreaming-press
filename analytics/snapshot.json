@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-03T19:28:42.999Z",
+ "generated": "2026-09-03T19:38:58.075Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 18,
+  "readersNow": 1,
+  "todayReads": 19,
   "avgTimeSec": 28,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3442,
-  "reads": 268,
+  "views": 3437,
+  "reads": 269,
   "completes": 42,
   "plays": 4,
-  "sessions": 3361
+  "sessions": 3356
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3199,
-   "reads": 172,
-   "sessions": 3199
+   "views": 3194,
+   "reads": 173,
+   "sessions": 3194
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3199,
-   "reads": 172,
+   "views": 3194,
+   "reads": 173,
    "completes": 38,
-   "sessions": 3199,
+   "sessions": 3194,
    "read_rate": 0.054,
    "complete_rate": 0.012,
    "pages_per_session": 1,
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2633,
-   "reads": 262,
-   "sessions": 2562
+   "views": 2634,
+   "reads": 263,
+   "sessions": 2563
   },
   {
    "device": "mobile",
-   "views": 808,
+   "views": 802,
    "reads": 5,
-   "sessions": 798
+   "sessions": 792
   },
   {
    "device": "tablet",
@@ -377,6 +377,16 @@
    "plays": 0
   },
   {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 15,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
    "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
    "section": "wire",
@@ -412,7 +422,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 10,
+   "views": 8,
    "reads": 4,
    "plays": 0
   },
@@ -443,16 +453,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 23,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 14,
    "reads": 3,
    "plays": 0
   },
@@ -569,18 +569,18 @@
    "plays": 0
   },
   {
-   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
-   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
+   "author": "priya",
+   "views": 15,
    "reads": 4,
    "plays": 0
   },
   {
-   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
-   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
+   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
+   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -681,13 +681,13 @@
    "plays": 0
   },
   {
-   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
-   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
-   "author": "dex",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
    "views": 15,
-   "reads": 1,
+   "reads": 4,
    "plays": 0
   }
  ],
