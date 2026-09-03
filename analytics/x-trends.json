@@ -1,6 +1,6 @@
 {
- "generated": "2026-09-03T17:16:14.016Z",
- "sampled": 78,
+ "generated": "2026-09-03T17:26:16.804Z",
+ "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
   "(LLM OR \"coding agent\" OR RAG OR \"AI startup\") founder -is:retweet -is:reply lang:en"
@@ -16,38 +16,30 @@
   },
   {
    "term": "agent",
-   "count": 25
+   "count": 26
   },
   {
-   "term": "build",
-   "count": 23
+   "term": "startup",
+   "count": 25
   },
   {
    "term": "founder",
    "count": 23
   },
   {
-   "term": "startup",
-   "count": 23
+   "term": "build",
+   "count": 22
   },
   {
    "term": "agentic",
-   "count": 21
+   "count": 22
   },
   {
    "term": "building",
-   "count": 19
+   "count": 21
   },
   {
    "term": "one",
-   "count": 11
-  },
-  {
-   "term": "has",
-   "count": 11
-  },
-  {
-   "term": "mcp",
    "count": 11
   },
   {
@@ -55,12 +47,20 @@
    "count": 11
   },
   {
+   "term": "co-founder",
+   "count": 11
+  },
+  {
    "term": "code",
    "count": 10
   },
   {
-   "term": "co-founder",
+   "term": "has",
    "count": 10
+  },
+  {
+   "term": "mcp",
+   "count": 9
   },
   {
    "term": "model",
@@ -170,7 +170,7 @@
   },
   {
    "text": "If I had 6 months to become an Agentic AI Engineer. I'd do this. Stage 1: Python and LLM Foundations Python, async, API design, Anthropic/OpenAI SDKs, tokens, embeddings, structured outputs. Stage 2: Context Engineering ",
-   "engagement": 95,
+   "engagement": 101,
    "url": "https://x.com/i/status/2095491337651179621",
    "created": "2026-09-03T12:37:21.000Z"
   },
