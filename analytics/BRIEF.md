@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-03T22:41Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-03T22:51Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -90,7 +90,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 600 retrieval fetches
+- /  — 601 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 251 retrieval fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 141 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 139 retrieval fetches
@@ -102,7 +102,7 @@ sample size dwarfs the engaged-read counts below.
 - /tags/opinionated  — 8 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3033 verified): / ×555 · /posts/agent-funding-august-2026-control-won-the-summer.html ×251 · /posts/ai-coding-agent-ranking-2026.html ×141
+- ChatGPT-User (3036 verified): / ×556 · /posts/agent-funding-august-2026-control-won-the-summer.html ×251 · /posts/ai-coding-agent-ranking-2026.html ×141
 - OAI-SearchBot (2885 verified): /build ×39 · / ×15 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×13
 - PerplexityBot (528 verified): / ×30 · /tags/opinionated ×8 · /build ×7
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -118,8 +118,8 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(31), agent(27), coding(26), startup(25), founder(23), build(22), building(22), agentic(20), systems(12), one(11), co-founder(11), code(10), launch(9), has(9), model(8).
+## Trending on X right now (78 recent posts sampled, 0h ago)
+Hot terms: agents(31), agent(27), coding(26), startup(24), founder(23), build(22), building(21), agentic(20), one(11), systems(11), code(10), co-founder(10), launch(9), has(9), model(8).
 Hashtags: #ai, #startup, #founder, #agentic, #techjuice, #metal, #usmangul, #community, #growth, #aistartup.
 High-engagement posts to react to / cite:
 - "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that "the econom" — https://x.com/i/status/2093803322444800052
@@ -132,7 +132,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (131h old, 275 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9155 confirmed AI-engine fetches (ChatGPT (user browsing) 3033, ChatGPT Search (OpenAI) 2885, GPTBot (OpenAI) 2709, Perplexity 528).
+The real answer engines are crawling us — IP-verified: 9158 confirmed AI-engine fetches (ChatGPT (user browsing) 3036, ChatGPT Search (OpenAI) 2885, GPTBot (OpenAI) 2709, Perplexity 528).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 785 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 251 crawler fetches
