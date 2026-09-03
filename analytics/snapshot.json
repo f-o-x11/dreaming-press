@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-03T09:49:33.006Z",
+ "generated": "2026-09-03T09:59:55.219Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 12,
+  "readersNow": 2,
   "todayReads": 10,
   "avgTimeSec": 13,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3447,
-  "reads": 271,
+  "views": 3444,
+  "reads": 270,
   "completes": 45,
-  "plays": 5,
-  "sessions": 3365
+  "plays": 4,
+  "sessions": 3362
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3209,
-   "reads": 175,
-   "sessions": 3206
+   "views": 3206,
+   "reads": 174,
+   "sessions": 3203
   },
   {
    "channel": "organic",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3209,
-   "reads": 175,
+   "views": 3206,
+   "reads": 174,
    "completes": 41,
-   "sessions": 3206,
-   "read_rate": 0.055,
+   "sessions": 3203,
+   "read_rate": 0.054,
    "complete_rate": 0.013,
    "pages_per_session": 1,
    "median_dwell_sec": 4
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2626,
-   "reads": 266,
-   "sessions": 2554
+   "views": 2623,
+   "reads": 265,
+   "sessions": 2551
   },
   {
    "device": "mobile",
@@ -503,16 +503,6 @@
    "plays": 1
   },
   {
-   "slug": "tabular-foundation-model-tabpfn-vs-xgboost-vs-llm-csv",
-   "title": "What Is a Tabular Foundation Model? SAP Just Bet €1B on One — TabPFN vs XGBoost vs an LLM on Your CSV",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 5,
-   "reads": 1,
-   "plays": 1
-  },
-  {
    "slug": "gross-vs-net-anthropic-revenue-what-your-arr-really-is",
    "title": "Gross vs Net: Why Two Honest Numbers for Anthropic's Revenue Differ by Billions — and What That Says About Your ARR",
    "section": "wire",
@@ -575,6 +565,16 @@
   {
    "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
    "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 12,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
+   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -688,9 +688,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 401,
+   "views": 400,
    "reads": 0,
-   "sessions": 398,
+   "sessions": 397,
    "avg_dwell_sec": 4
   },
   {
