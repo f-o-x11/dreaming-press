@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-03T09:39:31.992Z",
+ "generated": "2026-09-03T09:49:33.006Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 12,
   "todayReads": 10,
   "avgTimeSec": 13,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3440,
+  "views": 3447,
   "reads": 271,
   "completes": 45,
   "plays": 5,
-  "sessions": 3358
+  "sessions": 3365
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3204,
+   "views": 3209,
    "reads": 175,
-   "sessions": 3201
+   "sessions": 3206
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 27,
+   "views": 29,
    "reads": 16,
-   "sessions": 39
+   "sessions": 41
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3204,
+   "views": 3209,
    "reads": 175,
    "completes": 41,
-   "sessions": 3201,
+   "sessions": 3206,
    "read_rate": 0.055,
    "complete_rate": 0.013,
    "pages_per_session": 1,
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 27,
+   "views": 29,
    "reads": 16,
    "completes": 0,
-   "sessions": 39,
-   "read_rate": 0.593,
+   "sessions": 41,
+   "read_rate": 0.552,
    "complete_rate": 0,
-   "pages_per_session": 0.69,
+   "pages_per_session": 0.71,
    "median_dwell_sec": 18
   },
   {
@@ -291,13 +291,13 @@
    "sessions": 2
   },
   {
-   "assistant": "Yuanbao",
-   "views": 1,
+   "assistant": "Grok",
+   "views": 3,
    "reads": 1,
-   "sessions": 1
+   "sessions": 3
   },
   {
-   "assistant": "Grok",
+   "assistant": "Yuanbao",
    "views": 1,
    "reads": 1,
    "sessions": 1
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2623,
+   "views": 2626,
    "reads": 266,
-   "sessions": 2551
+   "sessions": 2554
   },
   {
    "device": "mobile",
-   "views": 817,
+   "views": 821,
    "reads": 5,
-   "sessions": 807
+   "sessions": 811
   }
  ],
  "topContent": [
@@ -702,9 +702,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 44,
+   "views": 45,
    "reads": 0,
-   "sessions": 44,
+   "sessions": 45,
    "avg_dwell_sec": 4
   },
   {
