@@ -1,12 +1,12 @@
-# Analytics brief — auto-exported 2026-09-03T08:18Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-03T08:28Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3440 views → 267 engaged reads → 46 completes · 3359 sessions.
-- Channels: direct 173r/3206v · organic 46r/88v · referral 15r/60v · campaign:chatgpt.com 15r/52v · ai 15r/26v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/3v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 16r/55v · Perplexity 7r/11v · Doubao 6r/6v · Copilot 2r/2v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
-- Referrers: bing.com, cn.bing.com, chatgpt.com, perplexity.ai, google.com, duckduckgo.com, doubao.com, 114.114.114.114:9421, nav-cmp, github.com.
+- Funnel: 3435 views → 268 engaged reads → 46 completes · 3354 sessions.
+- Channels: direct 173r/3200v · organic 46r/88v · campaign:chatgpt.com 16r/53v · referral 15r/60v · ai 15r/26v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/3v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 17r/56v · Perplexity 7r/11v · Doubao 6r/6v · Copilot 2r/2v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
+- Referrers: bing.com, chatgpt.com, cn.bing.com, perplexity.ai, google.com, duckduckgo.com, doubao.com, 114.114.114.114:9421, nav-cmp, github.com.
 - Engaged-read winners by section: stack=6, wire=9.
 
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
@@ -23,10 +23,10 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3206 views · read 5.4% · complete 1.3% · 1 pages/session · median 4s
+- direct: 3200 views · read 5.4% · complete 1.3% · 1 pages/session · median 4s
 - organic: 88 views · read 52.3% · complete 1.1% · 1.07 pages/session · median 4s
 - referral: 60 views · read 25.0% · complete 1.7% · 1.09 pages/session · median ?s
-- campaign:chatgpt.com: 52 views · read 28.8% · complete 3.8% · 1.04 pages/session · median ?s
+- campaign:chatgpt.com: 53 views · read 30.2% · complete 3.8% · 1.04 pages/session · median ?s
 - ai: 26 views · read 57.7% · complete 0.0% · 0.68 pages/session · median 18s
 - social: 3 views · read 0.0% · complete 0.0% · 1 pages/session · median 233s
 INSIGHT: ai converts 11x better per view than direct, which is 93% of all views.
@@ -57,7 +57,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 399 views, 0 reads, 396 sessions, avg 4s
-- / — 106 views, 6 reads, 106 sessions, avg 41s
+- / — 105 views, 6 reads, 105 sessions, avg 41s
 - /compare/:pair — 43 views, 0 reads, 43 sessions, avg 4s
 - /best/:cat — 37 views, 0 reads, 37 sessions, avg 4s
 - /build — 30 views, 0 reads, 30 sessions, avg 4s
@@ -104,7 +104,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - ChatGPT-User (2903 verified): / ×532 · /posts/agent-funding-august-2026-control-won-the-summer.html ×251 · /posts/ai-coding-agent-ranking-2026.html ×140
-- OAI-SearchBot (2763 verified): /build ×38 · / ×14 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×11
+- OAI-SearchBot (2764 verified): /build ×38 · / ×14 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×11
 - PerplexityBot (352 verified): / ×29 · /tags/opinionated ×6 · /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -120,7 +120,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agent(32), agents(31), coding(29), agentic(26), build(24), founder(24), startup(22), building(18), one(15), mcp(11), here(10), has(10), systems(10), code(9), model(8).
+Hot terms: agent(32), agents(30), coding(29), agentic(27), build(24), founder(24), startup(22), building(19), one(15), mcp(11), here(10), has(10), systems(10), code(9), model(8).
 Hashtags: #ai, #startup, #founder, #entrepreneur, #agentic, #techjuice, #metal, #usmangul, #community, #growth.
 High-engagement posts to react to / cite:
 - "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that "the econom" — https://x.com/i/status/2093803322444800052
@@ -133,9 +133,9 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (117h old, 275 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8725 confirmed AI-engine fetches (ChatGPT (user browsing) 2903, ChatGPT Search (OpenAI) 2763, GPTBot (OpenAI) 2707, Perplexity 352).
+The real answer engines are crawling us — IP-verified: 8726 confirmed AI-engine fetches (ChatGPT (user browsing) 2903, ChatGPT Search (OpenAI) 2764, GPTBot (OpenAI) 2707, Perplexity 352).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 754 crawler fetches
+- /build  — 755 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 251 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 221 crawler fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 170 crawler fetches
