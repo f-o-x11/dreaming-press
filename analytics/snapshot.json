@@ -1,14 +1,14 @@
 {
- "generated": "2026-09-03T05:24:28.833Z",
+ "generated": "2026-09-03T05:34:49.058Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 2,
   "todayReads": 2,
   "avgTimeSec": 6,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3459,
+  "views": 3458,
   "reads": 267,
   "completes": 47,
   "plays": 5,
@@ -19,13 +19,13 @@
    "channel": "direct",
    "views": 3228,
    "reads": 174,
-   "sessions": 3226
+   "sessions": 3227
   },
   {
    "channel": "organic",
-   "views": 89,
+   "views": 88,
    "reads": 46,
-   "sessions": 83
+   "sessions": 82
   },
   {
    "channel": "referral",
@@ -82,7 +82,7 @@
    "views": 3228,
    "reads": 174,
    "completes": 43,
-   "sessions": 3226,
+   "sessions": 3227,
    "read_rate": 0.054,
    "complete_rate": 0.013,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 89,
+   "views": 88,
    "reads": 46,
    "completes": 1,
-   "sessions": 83,
-   "read_rate": 0.517,
+   "sessions": 82,
+   "read_rate": 0.523,
    "complete_rate": 0.011,
    "pages_per_session": 1.07,
    "median_dwell_sec": 4
@@ -312,7 +312,7 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2629,
+   "views": 2628,
    "reads": 262,
    "sessions": 2561
   },
@@ -584,7 +584,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 82,
+   "views": 81,
    "reads": 0,
    "plays": 0
   },
@@ -691,8 +691,8 @@
    "path": "/",
    "views": 105,
    "reads": 6,
-   "sessions": 104,
-   "avg_dwell_sec": 43
+   "sessions": 105,
+   "avg_dwell_sec": 42
   },
   {
    "path": "/compare/:pair",
@@ -803,14 +803,14 @@
    "sessions": 17
   },
   {
-   "ref": "https://www.google.com/",
-   "hits": 19,
-   "sessions": 14
-  },
-  {
    "ref": "https://www.perplexity.ai/",
    "hits": 18,
    "sessions": 8
+  },
+  {
+   "ref": "https://www.google.com/",
+   "hits": 18,
+   "sessions": 13
   },
   {
    "ref": "https://duckduckgo.com/",
