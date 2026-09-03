@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-03T04:03:41.473Z",
+ "generated": "2026-09-03T04:13:42.448Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 6,
   "todayReads": 2,
   "avgTimeSec": 5,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3453,
+  "views": 3457,
   "reads": 268,
   "completes": 47,
   "plays": 5,
-  "sessions": 3375
+  "sessions": 3379
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3221,
+   "views": 3225,
    "reads": 174,
-   "sessions": 3220
+   "sessions": 3224
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3221,
+   "views": 3225,
    "reads": 174,
    "completes": 43,
-   "sessions": 3220,
+   "sessions": 3224,
    "read_rate": 0.054,
    "complete_rate": 0.013,
    "pages_per_session": 1,
@@ -318,9 +318,9 @@
   },
   {
    "device": "mobile",
-   "views": 820,
+   "views": 824,
    "reads": 6,
-   "sessions": 810
+   "sessions": 814
   }
  ],
  "topContent": [
@@ -599,16 +599,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 39,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -616,6 +606,16 @@
    "author": "dex",
    "views": 38,
    "reads": 7,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 38,
+   "reads": 1,
    "plays": 0
   },
   {
