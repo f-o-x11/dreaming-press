@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-03T13:13:11.318Z",
+ "generated": "2026-09-03T13:23:17.000Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,15 +8,11 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 29
+   "count": 28
   },
   {
    "term": "coding",
    "count": 28
-  },
-  {
-   "term": "agentic",
-   "count": 26
   },
   {
    "term": "agent",
@@ -27,11 +23,15 @@
    "count": 24
   },
   {
-   "term": "founder",
+   "term": "startup",
+   "count": 24
+  },
+  {
+   "term": "agentic",
    "count": 23
   },
   {
-   "term": "startup",
+   "term": "founder",
    "count": 23
   },
   {
@@ -44,7 +44,7 @@
   },
   {
    "term": "has",
-   "count": 11
+   "count": 12
   },
   {
    "term": "mcp",
@@ -59,12 +59,12 @@
    "count": 10
   },
   {
-   "term": "code",
+   "term": "here",
    "count": 9
   },
   {
-   "term": "here",
-   "count": 8
+   "term": "code",
+   "count": 9
   },
   {
    "term": "context",
@@ -83,22 +83,22 @@
    "count": 7
   },
   {
-   "term": "start",
+   "term": "free",
    "count": 7
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 6
+   "count": 5
   },
   {
    "term": "#startup",
-   "count": 5
+   "count": 4
   },
   {
    "term": "#founder",
-   "count": 5
+   "count": 4
   },
   {
    "term": "#entrepreneur",
@@ -145,16 +145,16 @@
    "created": "2026-08-29T20:49:47.000Z"
   },
   {
-   "text": "In the Agentic Challenge, AI agents pay for their own API calls Agentic APIs offer two ways in: an API key with no credits required, or wallet-based payment through the x402 flow, settled per call in BKN, USDC, or EURC. ",
-   "engagement": 210,
-   "url": "https://x.com/i/status/2092963710713176567",
-   "created": "2026-08-27T13:13:28.000Z"
-  },
-  {
    "text": "We're excited to release Agno 3.0, bringing us one step closer to our vision of an agent platform that builds itself. If you're new here, let's start with an introduction. I'm Ashpreet, the founder of Agno (derived from ",
    "engagement": 191,
    "url": "https://x.com/i/status/2092976230597374415",
    "created": "2026-08-27T14:03:13.000Z"
+  },
+  {
+   "text": "Some people see @injective and think trading. But look a little closer. You have an on-chain order book, ~0.64s blocks and extremely low fees. Basically the kind of infrastructure automated strategies actually need. And ",
+   "engagement": 165,
+   "url": "https://x.com/i/status/2093736948774867120",
+   "created": "2026-08-29T16:26:02.000Z"
   },
   {
    "text": "🚀 THE AI AGENT ENGINEERING ROADMAP Want to become an AI Agent Engineer? 🤖 Don’t just learn tools — build the right foundation. 🧠 The Step-by-Step Path: 1️⃣ LLM Fundamentals + Reasoning 2️⃣ Context Engineering 3️⃣ Memo",
