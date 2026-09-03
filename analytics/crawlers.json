@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-03T00:18:53.842Z",
+ "generated": "2026-09-03T00:28:54.182Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8573,
+ "verifiedAiHits": 8575,
  "logsScanned": 30,
  "windowStart": "2026-08-20",
  "windowEnd": "2026-09-03",
- "totalHits": 119197,
- "aiHits": 95398,
+ "totalHits": 119261,
+ "aiHits": 95453,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31003,
+   "hits": 31033,
    "verifiedHits": 0,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 156
+     "hits": 158
     },
     {
      "path": "/tags/opinionated",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 24400,
+   "hits": 24415,
    "verifiedHits": 0,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14960,
+   "hits": 14968,
    "verifiedHits": 0,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6581,
-   "verifiedHits": 6376,
+   "hits": 6586,
+   "verifiedHits": 6381,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 5151,
+   "hits": 5155,
    "verifiedHits": 0,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
@@ -311,8 +311,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2947,
-   "verifiedHits": 2693,
+   "hits": 2948,
+   "verifiedHits": 2694,
    "firstSeen": "2026-08-20",
    "lastSeen": "2026-09-03",
    "topPaths": [
@@ -344,10 +344,10 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 2940,
-   "verifiedHits": 2705,
+   "hits": 2941,
+   "verifiedHits": 2706,
    "firstSeen": "2026-08-20",
-   "lastSeen": "2026-09-02",
+   "lastSeen": "2026-09-03",
    "topPaths": [
     {
      "path": "/build",
