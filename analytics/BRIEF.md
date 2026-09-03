@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-03T11:00Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-03T11:11Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -102,8 +102,8 @@ sample size dwarfs the engaged-read counts below.
 - /tags/opinionated  — 6 retrieval fetches
 
 Per engine:
-- ChatGPT-User (2927 verified): / ×537 · /posts/agent-funding-august-2026-control-won-the-summer.html ×251 · /posts/ai-coding-agent-ranking-2026.html ×141
-- OAI-SearchBot (2775 verified): /build ×38 · / ×14 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×11
+- ChatGPT-User (2929 verified): / ×537 · /posts/agent-funding-august-2026-control-won-the-summer.html ×251 · /posts/ai-coding-agent-ranking-2026.html ×141
+- OAI-SearchBot (2777 verified): /build ×38 · / ×14 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×11
 - PerplexityBot (376 verified): / ×29 · /tags/opinionated ×6 · /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -129,10 +129,10 @@ High-engagement posts to react to / cite:
 - "🚀 THE AI AGENT ENGINEERING ROADMAP Want to become an AI Agent Engineer? 🤖 Don’t just learn tools — build the right foundation. 🧠 The Step-by-Step Path: 1️⃣ LLM Fundamentals + Reasoning 2️⃣ Context Engineering 3️⃣ Memo" — https://x.com/i/status/2094379489702879265
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-- Search-demand signal STALE (119h old, 275 uncovered phrases from the last good run). Treat as directional until it refreshes.
+- Search-demand signal STALE (120h old, 275 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8785 confirmed AI-engine fetches (ChatGPT (user browsing) 2927, ChatGPT Search (OpenAI) 2775, GPTBot (OpenAI) 2707, Perplexity 376).
+The real answer engines are crawling us — IP-verified: 8789 confirmed AI-engine fetches (ChatGPT (user browsing) 2929, ChatGPT Search (OpenAI) 2777, GPTBot (OpenAI) 2707, Perplexity 376).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 768 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 251 crawler fetches
