@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-03T20:19:22.417Z",
+ "generated": "2026-09-03T20:29:26.684Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 29
+   "count": 31
   },
   {
    "term": "agent",
@@ -20,14 +20,14 @@
   },
   {
    "term": "startup",
-   "count": 26
-  },
-  {
-   "term": "build",
-   "count": 22
+   "count": 25
   },
   {
    "term": "founder",
+   "count": 23
+  },
+  {
+   "term": "build",
    "count": 22
   },
   {
@@ -36,18 +36,18 @@
   },
   {
    "term": "agentic",
-   "count": 21
-  },
-  {
-   "term": "systems",
-   "count": 12
-  },
-  {
-   "term": "co-founder",
-   "count": 12
+   "count": 20
   },
   {
    "term": "one",
+   "count": 11
+  },
+  {
+   "term": "systems",
+   "count": 11
+  },
+  {
+   "term": "co-founder",
    "count": 11
   },
   {
@@ -59,6 +59,10 @@
    "count": 10
   },
   {
+   "term": "launch",
+   "count": 9
+  },
+  {
    "term": "model",
    "count": 8
   },
@@ -67,7 +71,7 @@
    "count": 8
   },
   {
-   "term": "launch",
+   "term": "actually",
    "count": 8
   },
   {
@@ -75,30 +79,26 @@
    "count": 8
   },
   {
+   "term": "have",
+   "count": 8
+  },
+  {
    "term": "while",
    "count": 8
-  },
-  {
-   "term": "koder",
-   "count": 8
-  },
-  {
-   "term": "free",
-   "count": 7
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 5
+   "count": 6
   },
   {
    "term": "#startup",
-   "count": 4
+   "count": 5
   },
   {
    "term": "#founder",
-   "count": 3
+   "count": 4
   },
   {
    "term": "#agentic",
@@ -151,12 +151,6 @@
    "created": "2026-08-29T16:26:02.000Z"
   },
   {
-   "text": "If I had 6 months to become an Agentic AI Engineer. I'd do this. Stage 1: Python and LLM Foundations Python, async, API design, Anthropic/OpenAI SDKs, tokens, embeddings, structured outputs. Stage 2: Context Engineering ",
-   "engagement": 154,
-   "url": "https://x.com/i/status/2095491337651179621",
-   "created": "2026-09-03T12:37:21.000Z"
-  },
-  {
    "text": "🚀 THE AI AGENT ENGINEERING ROADMAP Want to become an AI Agent Engineer? 🤖 Don’t just learn tools — build the right foundation. 🧠 The Step-by-Step Path: 1️⃣ LLM Fundamentals + Reasoning 2️⃣ Context Engineering 3️⃣ Memo",
    "engagement": 115,
    "url": "https://x.com/i/status/2094379489702879265",
@@ -185,6 +179,12 @@
    "engagement": 86,
    "url": "https://x.com/i/status/2093342749198266823",
    "created": "2026-08-28T14:19:38.000Z"
+  },
+  {
+   "text": "If I had to become an AI engineer in 90 days, I would not start with courses. I would build projects from these 10 GitHub repos. 1. LangChain The LLM application framework on almost every AI engineer JD. If you want to b",
+   "engagement": 82,
+   "url": "https://x.com/i/status/2093663635080192125",
+   "created": "2026-08-29T11:34:43.000Z"
   }
  ]
 }
