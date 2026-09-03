@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-03T07:58:16.520Z",
+ "generated": "2026-09-03T08:08:40.262Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 4,
-  "avgTimeSec": 14,
+  "readersNow": 5,
+  "todayReads": 6,
+  "avgTimeSec": 13,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3437,
-  "reads": 266,
+  "views": 3441,
+  "reads": 268,
   "completes": 46,
   "plays": 5,
   "sessions": 3360
@@ -17,8 +17,8 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3208,
-   "reads": 173,
+   "views": 3207,
+   "reads": 174,
    "sessions": 3206
   },
   {
@@ -35,15 +35,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 49,
+   "views": 52,
    "reads": 15,
-   "sessions": 49
+   "sessions": 50
   },
   {
    "channel": "ai",
-   "views": 24,
-   "reads": 14,
-   "sessions": 37
+   "views": 26,
+   "reads": 15,
+   "sessions": 38
   },
   {
    "channel": "campaign:copilot.com",
@@ -73,14 +73,14 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 21
+   "sessions": 22
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3208,
-   "reads": 173,
+   "views": 3207,
+   "reads": 174,
    "completes": 42,
    "sessions": 3206,
    "read_rate": 0.054,
@@ -112,25 +112,25 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 49,
+   "views": 52,
    "reads": 15,
    "completes": 2,
-   "sessions": 49,
-   "read_rate": 0.306,
-   "complete_rate": 0.041,
-   "pages_per_session": 1,
+   "sessions": 50,
+   "read_rate": 0.288,
+   "complete_rate": 0.038,
+   "pages_per_session": 1.04,
    "median_dwell_sec": null
   },
   {
    "channel": "ai",
-   "views": 24,
-   "reads": 14,
+   "views": 26,
+   "reads": 15,
    "completes": 0,
-   "sessions": 37,
-   "read_rate": 0.583,
+   "sessions": 38,
+   "read_rate": 0.577,
    "complete_rate": 0,
-   "pages_per_session": 0.65,
-   "median_dwell_sec": 20
+   "pages_per_session": 0.68,
+   "median_dwell_sec": 18
   },
   {
    "channel": "social",
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 21,
+   "sessions": 22,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -200,6 +200,11 @@
    "sessions": 1
   },
   {
+   "surface": "f-cols",
+   "clicks": 4,
+   "sessions": 2
+  },
+  {
    "surface": "brand",
    "clicks": 4,
    "sessions": 4
@@ -210,11 +215,6 @@
    "sessions": 3
   },
   {
-   "surface": "f-cols",
-   "clicks": 3,
-   "sessions": 1
-  },
-  {
    "surface": "dg-title",
    "clicks": 3,
    "sessions": 3
@@ -222,6 +222,11 @@
   {
    "surface": "article-byline",
    "clicks": 3,
+   "sessions": 2
+  },
+  {
+   "surface": "wire-row",
+   "clicks": 2,
    "sessions": 2
   },
   {
@@ -238,11 +243,6 @@
    "surface": "auto-link",
    "clicks": 2,
    "sessions": 2
-  },
-  {
-   "surface": "wire-row",
-   "clicks": 1,
-   "sessions": 1
   },
   {
    "surface": "upnext-bar",
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 50,
-   "reads": 15,
-   "sessions": 50
+   "views": 55,
+   "reads": 16,
+   "sessions": 51
   },
   {
    "assistant": "Perplexity",
@@ -312,8 +312,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2616,
-   "reads": 261,
+   "views": 2620,
+   "reads": 263,
    "sessions": 2549
   },
   {
@@ -599,6 +599,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 39,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -606,16 +616,6 @@
    "author": "dex",
    "views": 38,
    "reads": 7,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 37,
-   "reads": 1,
    "plays": 0
   },
   {
@@ -682,9 +682,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 396,
+   "views": 399,
    "reads": 0,
-   "sessions": 395,
+   "sessions": 396,
    "avg_dwell_sec": 4
   },
   {
@@ -724,9 +724,9 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 15,
+   "views": 16,
    "reads": 1,
-   "sessions": 15,
+   "sessions": 16,
    "avg_dwell_sec": 57
   },
   {
@@ -799,8 +799,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 33,
-   "sessions": 17
+   "hits": 36,
+   "sessions": 18
   },
   {
    "ref": "https://www.perplexity.ai/",
