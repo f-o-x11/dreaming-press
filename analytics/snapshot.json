@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-03T08:59:14.221Z",
+ "generated": "2026-09-03T09:09:16.542Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 5,
   "todayReads": 9,
-  "avgTimeSec": 13,
+  "avgTimeSec": 12,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3433,
+  "views": 3434,
   "reads": 270,
   "completes": 46,
   "plays": 5,
-  "sessions": 3352
+  "sessions": 3353
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3199,
+   "views": 3200,
    "reads": 175,
-   "sessions": 3197
+   "sessions": 3198
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3199,
+   "views": 3200,
    "reads": 175,
    "completes": 42,
-   "sessions": 3197,
+   "sessions": 3198,
    "read_rate": 0.055,
    "complete_rate": 0.013,
    "pages_per_session": 1,
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2616,
+   "views": 2617,
    "reads": 265,
-   "sessions": 2545
+   "sessions": 2546
   },
   {
    "device": "mobile",
@@ -599,16 +599,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 39,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -616,6 +606,16 @@
    "author": "dex",
    "views": 38,
    "reads": 7,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 38,
+   "reads": 2,
    "plays": 0
   },
   {
@@ -682,16 +682,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 399,
+   "views": 400,
    "reads": 0,
-   "sessions": 396,
+   "sessions": 397,
    "avg_dwell_sec": 4
   },
   {
    "path": "/",
-   "views": 105,
+   "views": 104,
    "reads": 6,
-   "sessions": 105,
+   "sessions": 104,
    "avg_dwell_sec": 41
   },
   {
