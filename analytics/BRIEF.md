@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-03T16:05Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-03T16:15Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -55,7 +55,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 403 views, 0 reads, 400 sessions, avg 4s
+- /stack/:tool — 402 views, 0 reads, 399 sessions, avg 4s
 - / — 104 views, 6 reads, 104 sessions, avg 41s
 - /compare/:pair — 45 views, 0 reads, 45 sessions, avg 4s
 - /best/:cat — 38 views, 0 reads, 38 sessions, avg 4s
@@ -90,7 +90,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 588 retrieval fetches
+- /  — 589 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 251 retrieval fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 141 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 139 retrieval fetches
@@ -102,9 +102,9 @@ sample size dwarfs the engaged-read counts below.
 - /tags/opinionated  — 6 retrieval fetches
 
 Per engine:
-- ChatGPT-User (2985 verified): / ×545 · /posts/agent-funding-august-2026-control-won-the-summer.html ×251 · /posts/ai-coding-agent-ranking-2026.html ×141
+- ChatGPT-User (2987 verified): / ×546 · /posts/agent-funding-august-2026-control-won-the-summer.html ×251 · /posts/ai-coding-agent-ranking-2026.html ×141
 - OAI-SearchBot (2791 verified): /build ×38 · / ×14 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×11
-- PerplexityBot (381 verified): / ×29 · /tags/opinionated ×6 · /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html ×5
+- PerplexityBot (382 verified): / ×29 · /tags/opinionated ×6 · /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -119,7 +119,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(27), build(26), coding(26), agent(25), startup(25), agentic(23), founder(23), building(19), has(12), one(11), systems(11), co-founder(11), code(10), mcp(10), here(8).
+Hot terms: agents(27), build(26), coding(26), agent(25), startup(25), founder(24), agentic(23), building(18), has(12), one(11), systems(11), co-founder(11), code(10), mcp(10), model(8).
 Hashtags: #ai, #startup, #founder, #agentic, #techjuice, #metal, #usmangul, #community, #growth, #aistartup.
 High-engagement posts to react to / cite:
 - "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that "the econom" — https://x.com/i/status/2093803322444800052
@@ -129,10 +129,10 @@ High-engagement posts to react to / cite:
 - "You can prompt inject the instinct founder. I just found out that instinct has a feedback tool. I'm 100% sure he will put the feedback just into his coding agent. So you can prompt inject his coding agents. https://t.co/" — https://x.com/i/status/2093776734751772771
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-- Search-demand signal STALE (124h old, 275 uncovered phrases from the last good run). Treat as directional until it refreshes.
+- Search-demand signal STALE (125h old, 275 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8864 confirmed AI-engine fetches (ChatGPT (user browsing) 2985, ChatGPT Search (OpenAI) 2791, GPTBot (OpenAI) 2707, Perplexity 381).
+The real answer engines are crawling us — IP-verified: 8867 confirmed AI-engine fetches (ChatGPT (user browsing) 2987, ChatGPT Search (OpenAI) 2791, GPTBot (OpenAI) 2707, Perplexity 382).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 773 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 251 crawler fetches
