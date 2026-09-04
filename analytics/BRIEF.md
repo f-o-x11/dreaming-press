@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-09-04T11:32Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-04T11:42Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3423 views → 273 engaged reads → 39 completes · 3327 sessions.
-- Channels: direct 176r/3179v · organic 47r/92v · ai 20r/34v · campaign:chatgpt.com 15r/54v · referral 12r/54v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/5v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 16r/57v · Doubao 9r/10v · Perplexity 8r/12v · Copilot 2r/2v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
+- Funnel: 3422 views → 273 engaged reads → 39 completes · 3326 sessions.
+- Channels: direct 176r/3179v · organic 47r/92v · ai 20r/34v · campaign:chatgpt.com 15r/53v · referral 12r/54v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/5v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 16r/56v · Doubao 9r/10v · Perplexity 8r/12v · Copilot 2r/2v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, cn.bing.com, chatgpt.com, perplexity.ai, google.com, doubao.com, duckduckgo.com, dash-range, nav-cmp, 114.114.114.114:9421.
 - Engaged-read winners by section: stack=7, wire=8.
 
@@ -25,8 +25,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - direct: 3179 views · read 5.5% · complete 1.1% · 1 pages/session · median 4s
 - organic: 92 views · read 51.1% · complete 1.1% · 1.08 pages/session · median 4s
-- campaign:chatgpt.com: 54 views · read 27.8% · complete 3.7% · 1.04 pages/session · median ?s
 - referral: 54 views · read 22.2% · complete 1.9% · 1.08 pages/session · median ?s
+- campaign:chatgpt.com: 53 views · read 28.3% · complete 3.8% · 1.04 pages/session · median ?s
 - ai: 34 views · read 58.8% · complete 0.0% · 0.81 pages/session · median 20s
 - social: 5 views · read 0.0% · complete 0.0% · 1.25 pages/session · median 233s
 INSIGHT: ai converts 11x better per view than direct, which is 93% of all views.
