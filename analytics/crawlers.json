@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-04T05:47:15.923Z",
+ "generated": "2026-09-04T05:57:19.195Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8805,
+ "verifiedAiHits": 9076,
  "logsScanned": 30,
  "windowStart": "2026-08-21",
  "windowEnd": "2026-09-04",
- "totalHits": 121753,
- "aiHits": 96390,
+ "totalHits": 122131,
+ "aiHits": 96718,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 33252,
+   "hits": 33267,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 23454,
+   "hits": 23489,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15196,
+   "hits": 15203,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
@@ -102,7 +102,7 @@
      "hits": 10
     },
     {
-     "path": "/stack/lightpanda",
+     "path": "/stacks/autogen%2Bcloudflare-ai-gateway%2Bmem0",
      "hits": 10
     }
    ],
@@ -146,7 +146,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 7913,
+   "hits": 7956,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
@@ -179,14 +179,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6670,
-   "verifiedHits": 6464,
+   "hits": 6674,
+   "verifiedHits": 6468,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 217
+     "hits": 218
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3027,
-   "verifiedHits": 2738,
+   "hits": 3028,
+   "verifiedHits": 2739,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2948,
+   "hits": 2951,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
@@ -439,6 +439,39 @@
    "verifiable": false
   },
   {
+   "name": "PerplexityBot",
+   "label": "Perplexity",
+   "category": "ai",
+   "home": "https://www.perplexity.ai/bot",
+   "hits": 1058,
+   "verifiedHits": 795,
+   "firstSeen": "2026-08-21",
+   "lastSeen": "2026-09-04",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 29
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 7
+    },
+    {
+     "path": "/build",
+     "hits": 6
+    },
+    {
+     "path": "/posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html",
+     "hits": 6
+    },
+    {
+     "path": "/calculators/llm-cost",
+     "hits": 5
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "YandexBot",
    "label": "Yandex",
    "category": "search",
@@ -470,39 +503,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "PerplexityBot",
-   "label": "Perplexity",
-   "category": "ai",
-   "home": "https://www.perplexity.ai/bot",
-   "hits": 788,
-   "verifiedHits": 525,
-   "firstSeen": "2026-08-21",
-   "lastSeen": "2026-09-04",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 29
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 7
-    },
-    {
-     "path": "/posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html",
-     "hits": 6
-    },
-    {
-     "path": "/posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html",
-     "hits": 5
-    },
-    {
-     "path": "/build",
-     "hits": 5
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "Claude-User",
