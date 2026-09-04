@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-04T21:56:46.342Z",
+ "generated": "2026-09-04T22:06:46.364Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,8 +8,8 @@
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3424,
-  "reads": 275,
+  "views": 3416,
+  "reads": 269,
   "completes": 39,
   "plays": 4,
   "sessions": 3331
@@ -17,8 +17,8 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3181,
-   "reads": 178,
+   "views": 3174,
+   "reads": 173,
    "sessions": 3172
   },
   {
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 55,
-   "reads": 13,
-   "sessions": 51
+   "views": 54,
+   "reads": 12,
+   "sessions": 50
   },
   {
    "channel": "campaign:copilot.com",
@@ -73,17 +73,17 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 25
+   "sessions": 24
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3181,
-   "reads": 178,
+   "views": 3174,
+   "reads": 173,
    "completes": 35,
    "sessions": 3172,
-   "read_rate": 0.056,
+   "read_rate": 0.055,
    "complete_rate": 0.011,
    "pages_per_session": 1,
    "median_dwell_sec": 4
@@ -100,17 +100,6 @@
    "median_dwell_sec": 4
   },
   {
-   "channel": "referral",
-   "views": 55,
-   "reads": 13,
-   "completes": 1,
-   "sessions": 51,
-   "read_rate": 0.236,
-   "complete_rate": 0.018,
-   "pages_per_session": 1.08,
-   "median_dwell_sec": null
-  },
-  {
    "channel": "campaign:chatgpt.com",
    "views": 55,
    "reads": 15,
@@ -119,6 +108,17 @@
    "read_rate": 0.273,
    "complete_rate": 0.036,
    "pages_per_session": 1.04,
+   "median_dwell_sec": null
+  },
+  {
+   "channel": "referral",
+   "views": 54,
+   "reads": 12,
+   "completes": 1,
+   "sessions": 50,
+   "read_rate": 0.222,
+   "complete_rate": 0.019,
+   "pages_per_session": 1.08,
    "median_dwell_sec": null
   },
   {
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 25,
+   "sessions": 24,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -196,8 +196,8 @@
   },
   {
    "surface": "nav-cmp",
-   "clicks": 9,
-   "sessions": 4
+   "clicks": 6,
+   "sessions": 3
   },
   {
    "surface": "article-body",
@@ -205,14 +205,14 @@
    "sessions": 5
   },
   {
-   "surface": "brand",
-   "clicks": 5,
-   "sessions": 5
-  },
-  {
    "surface": "f-cols",
    "clicks": 4,
    "sessions": 2
+  },
+  {
+   "surface": "brand",
+   "clicks": 4,
+   "sessions": 4
   },
   {
    "surface": "dg-title",
@@ -233,11 +233,6 @@
    "surface": "card-art",
    "clicks": 2,
    "sessions": 1
-  },
-  {
-   "surface": "card",
-   "clicks": 2,
-   "sessions": 2
   },
   {
    "surface": "auto-link",
@@ -261,6 +256,11 @@
   },
   {
    "surface": "sb-right",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
+   "surface": "notranslate",
    "clicks": 1,
    "sessions": 1
   }
@@ -318,8 +318,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2633,
-   "reads": 269,
+   "views": 2625,
+   "reads": 263,
    "sessions": 2550
   },
   {
@@ -701,10 +701,10 @@
   },
   {
    "path": "/",
-   "views": 112,
-   "reads": 5,
-   "sessions": 110,
-   "avg_dwell_sec": 19
+   "views": 110,
+   "reads": 4,
+   "sessions": 109,
+   "avg_dwell_sec": 18
   },
   {
    "path": "/compare/:pair",
@@ -743,7 +743,7 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 15,
+   "views": 14,
    "reads": 1,
    "sessions": 15,
    "avg_dwell_sec": 65
@@ -785,17 +785,17 @@
   },
   {
    "path": "/stack.html",
-   "views": 8,
-   "reads": 1,
-   "sessions": 8,
-   "avg_dwell_sec": 15
+   "views": 7,
+   "reads": 0,
+   "sessions": 7,
+   "avg_dwell_sec": 4
   },
   {
-   "path": "/apps",
+   "path": "/series",
    "views": 5,
-   "reads": 1,
+   "reads": 0,
    "sessions": 5,
-   "avg_dwell_sec": 22
+   "avg_dwell_sec": 3
   }
  ],
  "referrers": [
@@ -840,14 +840,14 @@
    "sessions": 2
   },
   {
-   "ref": "nav-cmp",
-   "hits": 9,
-   "sessions": 4
-  },
-  {
    "ref": "http://114.114.114.114:9421/",
    "hits": 7,
    "sessions": 5
+  },
+  {
+   "ref": "nav-cmp",
+   "hits": 6,
+   "sessions": 3
   }
  ]
 }
