@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-04T14:39:55.584Z",
+ "generated": "2026-09-04T14:49:55.981Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9436,
+ "verifiedAiHits": 9867,
  "logsScanned": 30,
  "windowStart": "2026-08-21",
  "windowEnd": "2026-09-04",
- "totalHits": 127377,
- "aiHits": 98720,
+ "totalHits": 127874,
+ "aiHits": 99162,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 33925,
+   "hits": 33927,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15592,
+   "hits": 15599,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 12372,
+   "hits": 12373,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
@@ -146,7 +146,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 10748,
+   "hits": 10803,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3123,
-   "verifiedHits": 2834,
+   "hits": 3125,
+   "verifiedHits": 2836,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
    "topPaths": [
@@ -406,6 +406,39 @@
    "verifiable": true
   },
   {
+   "name": "PerplexityBot",
+   "label": "Perplexity",
+   "category": "ai",
+   "home": "https://www.perplexity.ai/bot",
+   "hits": 1664,
+   "verifiedHits": 1401,
+   "firstSeen": "2026-08-21",
+   "lastSeen": "2026-09-04",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 29
+    },
+    {
+     "path": "/build",
+     "hits": 21
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 7
+    },
+    {
+     "path": "/posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html",
+     "hits": 6
+    },
+    {
+     "path": "/posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html",
+     "hits": 6
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "Meta-ExternalAgent",
    "label": "Meta AI",
    "category": "ai",
@@ -437,39 +470,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "PerplexityBot",
-   "label": "Perplexity",
-   "category": "ai",
-   "home": "https://www.perplexity.ai/bot",
-   "hits": 1235,
-   "verifiedHits": 972,
-   "firstSeen": "2026-08-21",
-   "lastSeen": "2026-09-04",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 29
-    },
-    {
-     "path": "/build",
-     "hits": 9
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 7
-    },
-    {
-     "path": "/posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html",
-     "hits": 6
-    },
-    {
-     "path": "/posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html",
-     "hits": 6
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "YandexBot",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 400,
+   "hits": 401,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",

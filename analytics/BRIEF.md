@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-04T14:39Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-04T14:49Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3445 views → 273 engaged reads → 39 completes · 3352 sessions.
-- Channels: direct 176r/3199v · organic 47r/93v · ai 20r/34v · campaign:chatgpt.com 15r/55v · referral 12r/54v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/5v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3444 views → 273 engaged reads → 39 completes · 3351 sessions.
+- Channels: direct 176r/3198v · organic 47r/93v · ai 20r/34v · campaign:chatgpt.com 15r/55v · referral 12r/54v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/5v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 16r/58v · Doubao 9r/10v · Perplexity 8r/12v · Copilot 2r/2v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, cn.bing.com, chatgpt.com, perplexity.ai, google.com, doubao.com, duckduckgo.com, dash-range, nav-cmp, 114.114.114.114:9421.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3199 views · read 5.5% · complete 1.1% · 1 pages/session · median 4s
+- direct: 3198 views · read 5.5% · complete 1.1% · 1 pages/session · median 4s
 - organic: 93 views · read 50.5% · complete 1.1% · 1.08 pages/session · median 4s
 - campaign:chatgpt.com: 55 views · read 27.3% · complete 3.6% · 1.04 pages/session · median ?s
 - referral: 54 views · read 22.2% · complete 1.9% · 1.08 pages/session · median ?s
@@ -95,7 +95,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/ai-coding-agent-ranking-2026.html  — 129 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 115 retrieval fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 60 retrieval fetches
-- /build  — 44 retrieval fetches
+- /build  — 56 retrieval fetches
 - /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html  — 13 retrieval fetches
 - /posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html  — 12 retrieval fetches
 - /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html  — 12 retrieval fetches
@@ -103,8 +103,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - OAI-SearchBot (2922 verified): /build ×35 · / ×16 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×13
-- ChatGPT-User (2834 verified): / ×547 · /posts/agent-funding-august-2026-control-won-the-summer.html ×210 · /posts/ai-coding-agent-ranking-2026.html ×129
-- PerplexityBot (972 verified): / ×29 · /build ×9 · /tags/opinionated ×7
+- ChatGPT-User (2836 verified): / ×547 · /posts/agent-funding-august-2026-control-won-the-summer.html ×210 · /posts/ai-coding-agent-ranking-2026.html ×129
+- PerplexityBot (1401 verified): / ×29 · /build ×21 · /tags/opinionated ×7
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -119,7 +119,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(34), agent(30), startup(27), founder(26), coding(23), build(21), agentic(19), building(16), one(11), code(11), mcp(10), week(10), has(9), systems(9), co-founder(9).
+Hot terms: agents(34), agent(30), founder(26), startup(26), coding(23), build(21), agentic(19), building(17), one(11), code(11), mcp(10), week(10), systems(10), has(9), co-founder(9).
 Hashtags: #ai, #startup, #founder, #agentic, #techjuice, #metal, #usmangul, #community, #growth, #aistartup.
 High-engagement posts to react to / cite:
 - "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that "the econom" — https://x.com/i/status/2093803322444800052
@@ -152,9 +152,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9436 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 2922, ChatGPT (user browsing) 2834, GPTBot (OpenAI) 2708, Perplexity 972).
+The real answer engines are crawling us — IP-verified: 9867 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 2922, ChatGPT (user browsing) 2836, GPTBot (OpenAI) 2708, Perplexity 1401).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 774 crawler fetches
+- /build  — 786 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 210 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 202 crawler fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 151 crawler fetches
