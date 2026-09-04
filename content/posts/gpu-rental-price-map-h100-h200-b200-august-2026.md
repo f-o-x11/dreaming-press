@@ -20,6 +20,8 @@ art:
 
 If you rent GPUs by the hour, the single most expensive mistake in 2026 isn't picking the wrong card — it's paying a hyperscaler's rate for a card a specialty cloud rents for a fifth of the price. The spread is now roughly **5–7× for the identical H100**. Here's the published map, and the small number of things that decide where you actually belong on it.
 
+*Updated for September: the B200 on-demand floor has since cracked below $4 and AWS actually raised its H200 rate — the current numbers are in [the September 2026 price map](/posts/gpu-rental-price-september-2026-b200-floor-under-4.html).*
+
 **If you read one line:** on-demand H100 is ~$2–4/GPU-hour on specialty clouds versus a ~$14/hr hyperscaler median; the decision that saves you the most money isn't *which* provider — it's whether your GPU is busy enough to rent one at all.
 
 ## The price map (published on-demand rates, early August 2026)
