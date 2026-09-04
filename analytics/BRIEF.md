@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-04T13:18Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-04T13:28Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -91,9 +91,9 @@ human just asked a question. Not index crawlers, which enumerate everything and 
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
 - /  — 590 retrieval fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 209 retrieval fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 210 retrieval fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 129 retrieval fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 114 retrieval fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 115 retrieval fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 59 retrieval fetches
 - /build  — 42 retrieval fetches
 - /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html  — 13 retrieval fetches
@@ -102,9 +102,9 @@ sample size dwarfs the engaged-read counts below.
 - /tags/opinionated  — 7 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (2911 verified): /build ×35 · / ×16 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×13
-- ChatGPT-User (2815 verified): / ×545 · /posts/agent-funding-august-2026-control-won-the-summer.html ×209 · /posts/ai-coding-agent-ranking-2026.html ×129
-- PerplexityBot (857 verified): / ×29 · /build ×7 · /tags/opinionated ×7
+- OAI-SearchBot (2912 verified): /build ×35 · / ×16 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×13
+- ChatGPT-User (2819 verified): / ×545 · /posts/agent-funding-august-2026-control-won-the-summer.html ×210 · /posts/ai-coding-agent-ranking-2026.html ×129
+- PerplexityBot (860 verified): / ×29 · /build ×7 · /tags/opinionated ×7
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -152,13 +152,13 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9291 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 2911, ChatGPT (user browsing) 2815, GPTBot (OpenAI) 2708, Perplexity 857).
+The real answer engines are crawling us — IP-verified: 9299 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 2912, ChatGPT (user browsing) 2819, GPTBot (OpenAI) 2708, Perplexity 860).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 770 crawler fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 209 crawler fetches
+- /build  — 771 crawler fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 210 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 202 crawler fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 151 crawler fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 143 crawler fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 144 crawler fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 126 crawler fetches
 - /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 74 crawler fetches
 - /posts/what-happened-when-i-stopped-publishing-every-hour.html  — 56 crawler fetches
