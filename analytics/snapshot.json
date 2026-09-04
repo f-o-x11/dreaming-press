@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-04T10:30:46.430Z",
+ "generated": "2026-09-04T10:41:16.475Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 16,
   "avgTimeSec": 23,
   "postsThisWeek": 3
  },
  "funnel": {
-  "views": 3422,
-  "reads": 271,
+  "views": 3423,
+  "reads": 270,
   "completes": 39,
   "plays": 4,
-  "sessions": 3326
+  "sessions": 3327
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3177,
+   "views": 3179,
    "reads": 173,
-   "sessions": 3167
+   "sessions": 3169
   },
   {
    "channel": "organic",
-   "views": 93,
-   "reads": 48,
-   "sessions": 86
+   "views": 92,
+   "reads": 47,
+   "sessions": 85
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3177,
+   "views": 3179,
    "reads": 173,
    "completes": 35,
-   "sessions": 3167,
+   "sessions": 3169,
    "read_rate": 0.054,
    "complete_rate": 0.011,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 93,
-   "reads": 48,
+   "views": 92,
+   "reads": 47,
    "completes": 1,
-   "sessions": 86,
-   "read_rate": 0.516,
+   "sessions": 85,
+   "read_rate": 0.511,
    "complete_rate": 0.011,
    "pages_per_session": 1.08,
    "median_dwell_sec": 4
@@ -319,14 +319,14 @@
   {
    "device": "desktop",
    "views": 2623,
-   "reads": 265,
+   "reads": 264,
    "sessions": 2537
   },
   {
    "device": "mobile",
-   "views": 798,
+   "views": 799,
    "reads": 5,
-   "sessions": 788
+   "sessions": 789
   },
   {
    "device": "tablet",
@@ -467,6 +467,16 @@
    "plays": 0
   },
   {
+   "slug": "how-to-call-deepseek-v4-flash-responses-api-thinking-mode",
+   "title": "How to Call DeepSeek V4 Flash's Responses API — Thinking Mode, reasoning_content, and the 384K Output Budget",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 10,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "context-engineering-playbook-write-select-compress-isolate",
    "title": "The Context Engineering Playbook for Long-Running Agents: Write, Select, Compress, Isolate",
    "section": "stack",
@@ -475,16 +485,6 @@
    "views": 9,
    "reads": 3,
    "plays": 0
-  },
-  {
-   "slug": "gartner-ai-agent-spending-2026",
-   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
-   "section": "wire",
-   "tags": "[\"reportive\",\"cynical\"]",
-   "author": "priya",
-   "views": 9,
-   "reads": 3,
-   "plays": 1
   }
  ],
  "topListens": [
@@ -815,11 +815,6 @@
    "sessions": 18
   },
   {
-   "ref": "https://duckduckgo.com/",
-   "hits": 21,
-   "sessions": 12
-  },
-  {
    "ref": "https://www.perplexity.ai/",
    "hits": 20,
    "sessions": 8
@@ -833,6 +828,11 @@
    "ref": "https://www.doubao.com/",
    "hits": 19,
    "sessions": 8
+  },
+  {
+   "ref": "https://duckduckgo.com/",
+   "hits": 19,
+   "sessions": 11
   },
   {
    "ref": "dash-range",
