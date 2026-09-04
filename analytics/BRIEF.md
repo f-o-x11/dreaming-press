@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-04T18:03Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-04T18:13Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3433 views → 273 engaged reads → 39 completes · 3341 sessions.
-- Channels: direct 177r/3189v · organic 46r/91v · ai 20r/34v · campaign:chatgpt.com 15r/55v · referral 12r/54v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/5v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3431 views → 273 engaged reads → 39 completes · 3339 sessions.
+- Channels: direct 177r/3187v · organic 46r/91v · ai 20r/34v · campaign:chatgpt.com 15r/55v · referral 12r/54v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/5v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 16r/58v · Doubao 9r/10v · Perplexity 8r/12v · Copilot 2r/2v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, cn.bing.com, chatgpt.com, perplexity.ai, google.com, doubao.com, duckduckgo.com, dash-range, nav-cmp, 114.114.114.114:9421.
 - Engaged-read winners by section: stack=6, wire=9.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3189 views · read 5.6% · complete 1.1% · 1 pages/session · median 4s
+- direct: 3187 views · read 5.6% · complete 1.1% · 1 pages/session · median 4s
 - organic: 91 views · read 50.5% · complete 1.1% · 1.08 pages/session · median 4s
 - campaign:chatgpt.com: 55 views · read 27.3% · complete 3.6% · 1.04 pages/session · median ?s
 - referral: 54 views · read 22.2% · complete 1.9% · 1.08 pages/session · median ?s
@@ -67,7 +67,7 @@ ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
-- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 69 views, 0 reads
+- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 68 views, 0 reads
 - [wire] "The Founder's Wire, August 20: OpenAI Puts Ads in ChatGPT Across 31 European Countries, Claude Autonomously Designed Working Protein Binders for 14 of 15 Targets, and Rillet Hit a $1B Valuation for AI Accounting" — 64 views, 0 reads
 - [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 37 views, 2 reads
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 36 views, 7 reads
@@ -79,7 +79,7 @@ These pulled real traffic and then lost it. The click already worked, so the
 problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
-- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 69 views but only 0 engaged reads (0.0%)
+- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 68 views but only 0 engaged reads (0.0%)
 - [wire] "The Founder's Wire, August 20: OpenAI Puts Ads in ChatGPT Across 31 European Countries, Claude Autonomously Designed Working Protein Binders for 14 of 15 Targets, and Rillet Hit a $1B Valuation for AI Accounting" — 64 views but only 0 engaged reads (0.0%)
 - [wire] "OpenAI Cut Terra and Luna on July 30. On the Sticker, Luna Is Now the Cheapest Agent Backend Alive — On the Bill, the Ranking Barely Moved." — 29 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
@@ -102,7 +102,7 @@ sample size dwarfs the engaged-read counts below.
 - /tags/opinionated  — 7 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (3171 verified): /build ×35 · / ×16 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×14
+- OAI-SearchBot (3174 verified): /build ×35 · / ×16 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×14
 - ChatGPT-User (2870 verified): / ×553 · /posts/agent-funding-august-2026-control-won-the-summer.html ×212 · /posts/ai-coding-agent-ranking-2026.html ×129
 - PerplexityBot (2089 verified): /build ×35 · / ×29 · /tags/opinionated ×7
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -152,9 +152,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10839 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 3171, ChatGPT (user browsing) 2870, GPTBot (OpenAI) 2709, Perplexity 2089).
+The real answer engines are crawling us — IP-verified: 10843 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 3174, ChatGPT (user browsing) 2870, GPTBot (OpenAI) 2710, Perplexity 2089).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 802 crawler fetches
+- /build  — 803 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 212 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 202 crawler fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 151 crawler fetches
