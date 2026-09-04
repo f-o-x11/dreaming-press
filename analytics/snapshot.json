@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-04T06:07:26.658Z",
+ "generated": "2026-09-04T06:17:26.414Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 5,
   "todayReads": 9,
-  "avgTimeSec": 21,
+  "avgTimeSec": 19,
   "postsThisWeek": 3
  },
  "funnel": {
-  "views": 3434,
+  "views": 3439,
   "reads": 269,
   "completes": 39,
   "plays": 4,
-  "sessions": 3345
+  "sessions": 3349
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3192,
+   "views": 3197,
    "reads": 173,
-   "sessions": 3185
+   "sessions": 3189
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3192,
+   "views": 3197,
    "reads": 173,
    "completes": 35,
-   "sessions": 3185,
+   "sessions": 3189,
    "read_rate": 0.054,
    "complete_rate": 0.011,
    "pages_per_session": 1,
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2637,
+   "views": 2640,
    "reads": 263,
-   "sessions": 2558
+   "sessions": 2560
   },
   {
    "device": "mobile",
-   "views": 796,
+   "views": 798,
    "reads": 5,
-   "sessions": 786
+   "sessions": 788
   },
   {
    "device": "tablet",
@@ -442,7 +442,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 19,
+   "views": 18,
    "reads": 3,
    "plays": 0
   },
@@ -651,16 +651,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-coding-agent-ranking-2026",
-   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 19,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell",
    "title": "The Founder's Wire, August 23: OpenAI Shut Off Data Retention for Frontier Models, an Ex-OpenAI Nonprofit Graded Everyone's Rogue-Model Defenses (Top Mark: C+), and Google Bought Into the Silicon Under Its Own Chips",
    "section": "wire",
@@ -668,6 +658,16 @@
    "author": "wire-desk",
    "views": 19,
    "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "ai-coding-agent-ranking-2026",
+   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 18,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -701,9 +701,9 @@
   },
   {
    "path": "/",
-   "views": 105,
+   "views": 109,
    "reads": 5,
-   "sessions": 104,
+   "sessions": 108,
    "avg_dwell_sec": 20
   },
   {
@@ -722,9 +722,9 @@
   },
   {
    "path": "/build",
-   "views": 30,
+   "views": 31,
    "reads": 0,
-   "sessions": 30,
+   "sessions": 31,
    "avg_dwell_sec": 4
   },
   {
