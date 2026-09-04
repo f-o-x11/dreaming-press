@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-04T09:30:16.391Z",
+ "generated": "2026-09-04T09:40:16.450Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 16,
-  "avgTimeSec": 24,
+  "avgTimeSec": 23,
   "postsThisWeek": 3
  },
  "funnel": {
-  "views": 3434,
-  "reads": 272,
+  "views": 3426,
+  "reads": 271,
   "completes": 39,
   "plays": 4,
-  "sessions": 3337
+  "sessions": 3330
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3188,
+   "views": 3181,
    "reads": 173,
-   "sessions": 3178
+   "sessions": 3171
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "ai",
-   "views": 35,
-   "reads": 21,
-   "sessions": 43
+   "views": 34,
+   "reads": 20,
+   "sessions": 42
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3188,
+   "views": 3181,
    "reads": 173,
    "completes": 35,
-   "sessions": 3178,
+   "sessions": 3171,
    "read_rate": 0.054,
    "complete_rate": 0.011,
    "pages_per_session": 1,
@@ -123,11 +123,11 @@
   },
   {
    "channel": "ai",
-   "views": 35,
-   "reads": 21,
+   "views": 34,
+   "reads": 20,
    "completes": 0,
-   "sessions": 43,
-   "read_rate": 0.6,
+   "sessions": 42,
+   "read_rate": 0.588,
    "complete_rate": 0,
    "pages_per_session": 0.81,
    "median_dwell_sec": 20
@@ -273,15 +273,15 @@
    "sessions": 53
   },
   {
-   "assistant": "Perplexity",
-   "views": 13,
-   "reads": 9,
-   "sessions": 9
-  },
-  {
    "assistant": "Doubao",
    "views": 10,
    "reads": 9,
+   "sessions": 8
+  },
+  {
+   "assistant": "Perplexity",
+   "views": 12,
+   "reads": 8,
    "sessions": 8
   },
   {
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2635,
-   "reads": 266,
-   "sessions": 2548
+   "views": 2627,
+   "reads": 265,
+   "sessions": 2541
   },
   {
    "device": "mobile",
@@ -694,9 +694,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 397,
+   "views": 395,
    "reads": 0,
-   "sessions": 394,
+   "sessions": 392,
    "avg_dwell_sec": 4
   },
   {
@@ -815,14 +815,14 @@
    "sessions": 18
   },
   {
-   "ref": "https://www.perplexity.ai/",
-   "hits": 22,
-   "sessions": 9
-  },
-  {
    "ref": "https://duckduckgo.com/",
    "hits": 21,
    "sessions": 12
+  },
+  {
+   "ref": "https://www.perplexity.ai/",
+   "hits": 20,
+   "sessions": 8
   },
   {
    "ref": "https://www.google.com/",
