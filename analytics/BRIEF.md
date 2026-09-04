@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-04T16:01Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-04T16:11Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3438 views → 272 engaged reads → 39 completes · 3346 sessions.
-- Channels: direct 176r/3193v · organic 46r/92v · ai 20r/34v · campaign:chatgpt.com 15r/55v · referral 12r/54v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/5v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3441 views → 272 engaged reads → 39 completes · 3349 sessions.
+- Channels: direct 176r/3196v · organic 46r/92v · ai 20r/34v · campaign:chatgpt.com 15r/55v · referral 12r/54v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/5v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 16r/58v · Doubao 9r/10v · Perplexity 8r/12v · Copilot 2r/2v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, cn.bing.com, chatgpt.com, perplexity.ai, google.com, doubao.com, duckduckgo.com, dash-range, nav-cmp, 114.114.114.114:9421.
 - Engaged-read winners by section: stack=6, wire=9.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3193 views · read 5.5% · complete 1.1% · 1 pages/session · median 4s
+- direct: 3196 views · read 5.5% · complete 1.1% · 1 pages/session · median 4s
 - organic: 92 views · read 50.0% · complete 1.1% · 1.08 pages/session · median 4s
 - campaign:chatgpt.com: 55 views · read 27.3% · complete 3.6% · 1.04 pages/session · median ?s
 - referral: 54 views · read 22.2% · complete 1.9% · 1.08 pages/session · median ?s
@@ -56,7 +56,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 392 views, 0 reads, 389 sessions, avg 4s
-- / — 112 views, 5 reads, 110 sessions, avg 19s
+- / — 113 views, 5 reads, 111 sessions, avg 19s
 - /compare/:pair — 63 views, 0 reads, 63 sessions, avg 4s
 - /best/:cat — 36 views, 0 reads, 36 sessions, avg 4s
 - /build — 31 views, 0 reads, 31 sessions, avg 4s
@@ -119,8 +119,8 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(34), agent(30), founder(27), startup(26), coding(23), build(20), agentic(19), building(16), one(11), code(11), mcp(10), week(10), systems(9), co-founder(9), launch(8).
-Hashtags: #startup, #ai, #founder, #agentic, #techjuice, #metal, #usmangul, #community, #growth, #aistartup.
+Hot terms: agents(35), agent(31), founder(27), startup(26), coding(23), build(19), agentic(18), building(16), one(11), code(11), mcp(10), week(10), launch(9), co-founder(9), model(8).
+Hashtags: #startup, #ai, #founder, #techjuice, #metal, #usmangul, #community, #growth, #aistartup, #aidomain.
 High-engagement posts to react to / cite:
 - "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that "the econom" — https://x.com/i/status/2093803322444800052
 - "AI agents are moving from assistants to economic actors. 🤖💳 @AEON_Community Agentic Checkout lets agents search for products, build carts and complete purchases. The AEON AI Card gives them controlled spending power wi" — https://x.com/i/status/2095793715944276257
