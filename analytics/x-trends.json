@@ -1,6 +1,6 @@
 {
- "generated": "2026-09-04T20:55:46.557Z",
- "sampled": 78,
+ "generated": "2026-09-04T21:05:48.839Z",
+ "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
   "(LLM OR \"coding agent\" OR RAG OR \"AI startup\") founder -is:retweet -is:reply lang:en"
@@ -16,11 +16,11 @@
   },
   {
    "term": "founder",
-   "count": 26
+   "count": 27
   },
   {
    "term": "startup",
-   "count": 25
+   "count": 26
   },
   {
    "term": "coding",
@@ -75,16 +75,16 @@
    "count": 8
   },
   {
+   "term": "has",
+   "count": 8
+  },
+  {
    "term": "gives",
    "count": 8
   },
   {
    "term": "koder",
    "count": 8
-  },
-  {
-   "term": "engineer",
-   "count": 7
   }
  ],
  "hashtags": [
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that \"the econom",
-   "engagement": 1731,
+   "engagement": 1729,
    "url": "https://x.com/i/status/2093803322444800052",
    "created": "2026-08-29T20:49:47.000Z"
   },
@@ -152,7 +152,7 @@
   },
   {
    "text": "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de",
-   "engagement": 391,
+   "engagement": 393,
    "url": "https://x.com/i/status/2095859430776533318",
    "created": "2026-09-04T13:00:02.000Z"
   },
