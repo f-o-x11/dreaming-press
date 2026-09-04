@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-04T03:44:52.930Z",
+ "generated": "2026-09-04T03:54:59.056Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 4,
   "avgTimeSec": 19,
   "postsThisWeek": 3
  },
  "funnel": {
-  "views": 3423,
-  "reads": 266,
+  "views": 3421,
+  "reads": 265,
   "completes": 38,
   "plays": 4,
-  "sessions": 3341
+  "sessions": 3340
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3181,
+   "views": 3180,
    "reads": 170,
-   "sessions": 3182
+   "sessions": 3181
   },
   {
    "channel": "organic",
@@ -41,8 +41,8 @@
   },
   {
    "channel": "referral",
-   "views": 56,
-   "reads": 13,
+   "views": 55,
+   "reads": 12,
    "sessions": 51
   },
   {
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3181,
+   "views": 3180,
    "reads": 170,
    "completes": 34,
-   "sessions": 3182,
+   "sessions": 3181,
    "read_rate": 0.053,
    "complete_rate": 0.011,
    "pages_per_session": 1,
@@ -101,13 +101,13 @@
   },
   {
    "channel": "referral",
-   "views": 56,
-   "reads": 13,
+   "views": 55,
+   "reads": 12,
    "completes": 1,
    "sessions": 51,
-   "read_rate": 0.232,
+   "read_rate": 0.218,
    "complete_rate": 0.018,
-   "pages_per_session": 1.1,
+   "pages_per_session": 1.08,
    "median_dwell_sec": null
   },
   {
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2628,
-   "reads": 260,
-   "sessions": 2556
+   "views": 2626,
+   "reads": 259,
+   "sessions": 2555
   },
   {
    "device": "mobile",
@@ -417,16 +417,6 @@
    "plays": 0
   },
   {
-   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
-   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
    "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
    "section": "wire",
@@ -481,6 +471,16 @@
    "title": "How to Call DeepSeek V4 Flash's Responses API — Thinking Mode, reasoning_content, and the 384K Output Budget",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 9,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "openrouter-vs-litellm-vs-cloudflare-ai-gateway",
+   "title": "OpenRouter vs LiteLLM vs Cloudflare AI Gateway: Marketplace, Proxy, or Edge — How to Route Your LLM Traffic in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 9,
    "reads": 3,
@@ -840,14 +840,14 @@
    "sessions": 4
   },
   {
-   "ref": "http://127.0.0.1:49608/",
-   "hits": 7,
-   "sessions": 1
-  },
-  {
    "ref": "http://114.114.114.114:9421/",
    "hits": 7,
    "sessions": 5
+  },
+  {
+   "ref": "https://github.com/f-o-x11/dreaming-press",
+   "hits": 6,
+   "sessions": 4
   }
  ]
 }
