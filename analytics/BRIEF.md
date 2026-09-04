@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-03T23:51Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-04T00:02Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3437 views → 268 engaged reads → 42 completes · 3356 sessions.
-- Channels: direct 172r/3194v · organic 46r/91v · campaign:chatgpt.com 16r/54v · ai 16r/30v · referral 15r/59v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/4v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3436 views → 267 engaged reads → 41 completes · 3355 sessions.
+- Channels: direct 171r/3193v · organic 46r/91v · campaign:chatgpt.com 16r/54v · ai 16r/30v · referral 15r/59v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/4v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 17r/57v · Perplexity 7r/11v · Doubao 6r/7v · Copilot 2r/2v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, google.com, perplexity.ai, duckduckgo.com, doubao.com, 114.114.114.114:9421, nav-cmp, github.com.
 - Engaged-read winners by section: stack=6, wire=9.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3194 views · read 5.4% · complete 1.2% · 1 pages/session · median 4s
+- direct: 3193 views · read 5.4% · complete 1.2% · 1 pages/session · median 4s
 - organic: 91 views · read 50.5% · complete 1.1% · 1.07 pages/session · median 4s
 - referral: 59 views · read 25.4% · complete 1.7% · 1.09 pages/session · median ?s
 - campaign:chatgpt.com: 54 views · read 29.6% · complete 3.7% · 1.04 pages/session · median ?s
@@ -55,8 +55,8 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 395 views, 0 reads, 392 sessions, avg 4s
-- / — 105 views, 6 reads, 105 sessions, avg 42s
+- /stack/:tool — 396 views, 0 reads, 393 sessions, avg 4s
+- / — 104 views, 6 reads, 104 sessions, avg 42s
 - /compare/:pair — 61 views, 0 reads, 61 sessions, avg 4s
 - /best/:cat — 38 views, 0 reads, 38 sessions, avg 4s
 - /build — 30 views, 0 reads, 30 sessions, avg 4s
@@ -90,21 +90,21 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 602 retrieval fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 251 retrieval fetches
-- /posts/ai-coding-agent-ranking-2026.html  — 141 retrieval fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 140 retrieval fetches
-- /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 66 retrieval fetches
-- /build  — 46 retrieval fetches
-- /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 13 retrieval fetches
-- /posts/open-source-agent-memory-libraries-mem0-zep-letta-cognee.html  — 12 retrieval fetches
+- /  — 568 retrieval fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 209 retrieval fetches
+- /posts/ai-coding-agent-ranking-2026.html  — 126 retrieval fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 111 retrieval fetches
+- /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 59 retrieval fetches
+- /build  — 40 retrieval fetches
 - /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html  — 12 retrieval fetches
-- /tags/opinionated  — 8 retrieval fetches
+- /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 12 retrieval fetches
+- /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html  — 12 retrieval fetches
+- /tags/opinionated  — 7 retrieval fetches
 
 Per engine:
-- ChatGPT-User (3045 verified): / ×557 · /posts/agent-funding-august-2026-control-won-the-summer.html ×251 · /posts/ai-coding-agent-ranking-2026.html ×141
-- OAI-SearchBot (2890 verified): /build ×39 · / ×15 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×13
-- PerplexityBot (550 verified): / ×30 · /tags/opinionated ×8 · /build ×7
+- OAI-SearchBot (2807 verified): /build ×35 · / ×15 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×12
+- ChatGPT-User (2689 verified): / ×524 · /posts/agent-funding-august-2026-control-won-the-summer.html ×209 · /posts/ai-coding-agent-ranking-2026.html ×126
+- PerplexityBot (511 verified): / ×29 · /tags/opinionated ×7 · /posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html ×6
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -132,20 +132,20 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (132h old, 275 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9195 confirmed AI-engine fetches (ChatGPT (user browsing) 3045, ChatGPT Search (OpenAI) 2890, GPTBot (OpenAI) 2710, Perplexity 550).
+The real answer engines are crawling us — IP-verified: 8713 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 2807, ChatGPT (user browsing) 2689, GPTBot (OpenAI) 2706, Perplexity 511).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 785 crawler fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 251 crawler fetches
-- /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 221 crawler fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 173 crawler fetches
-- /posts/ai-coding-agent-ranking-2026.html  — 171 crawler fetches
-- /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 75 crawler fetches
-- /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 66 crawler fetches
+- /build  — 751 crawler fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 209 crawler fetches
+- /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 202 crawler fetches
+- /posts/ai-coding-agent-ranking-2026.html  — 148 crawler fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 140 crawler fetches
+- /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 70 crawler fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 63 crawler fetches
+- /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 59 crawler fetches
 - /posts/what-happened-when-i-stopped-publishing-every-hour.html  — 56 crawler fetches
 - /posts/2026-08-22-founders-wire-nvidia-poolside-anthropic-ipo-gemma-billion.html  — 45 crawler fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.md  — 32 crawler fetches
-- /posts/the-performance-no-one-attends.html  — 32 crawler fetches
+- /posts/the-performance-no-one-attends.html  — 24 crawler fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.md  — 24 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
