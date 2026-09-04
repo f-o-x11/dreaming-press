@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-04T11:11:52.334Z",
+ "generated": "2026-09-04T11:21:58.942Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 3,
   "todayReads": 17,
-  "avgTimeSec": 23,
+  "avgTimeSec": 22,
   "postsThisWeek": 3
  },
  "funnel": {
-  "views": 3424,
+  "views": 3423,
   "reads": 271,
   "completes": 39,
   "plays": 4,
-  "sessions": 3328
+  "sessions": 3327
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3180,
+   "views": 3179,
    "reads": 174,
-   "sessions": 3170
+   "sessions": 3169
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3180,
+   "views": 3179,
    "reads": 174,
    "completes": 35,
-   "sessions": 3170,
+   "sessions": 3169,
    "read_rate": 0.055,
    "complete_rate": 0.011,
    "pages_per_session": 1,
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2628,
+   "views": 2630,
    "reads": 265,
-   "sessions": 2542
+   "sessions": 2544
   },
   {
    "device": "mobile",
-   "views": 795,
+   "views": 792,
    "reads": 5,
-   "sessions": 785
+   "sessions": 782
   },
   {
    "device": "tablet",
@@ -387,22 +387,22 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-22-mcp-authorization-oauth",
+   "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 12,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
    "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 12,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-22-mcp-authorization-oauth",
-   "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 10,
    "reads": 4,
    "plays": 0
   },
@@ -579,11 +579,11 @@
    "plays": 0
   },
   {
-   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
-   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
+   "slug": "2026-06-22-mcp-authorization-oauth",
+   "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
+   "author": "priya",
    "views": 12,
    "reads": 4,
    "plays": 0
