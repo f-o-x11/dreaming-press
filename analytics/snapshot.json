@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-04T04:25:06.536Z",
+ "generated": "2026-09-04T04:35:06.443Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 4,
-  "avgTimeSec": 19,
+  "readersNow": 3,
+  "todayReads": 6,
+  "avgTimeSec": 18,
   "postsThisWeek": 3
  },
  "funnel": {
-  "views": 3422,
-  "reads": 265,
-  "completes": 38,
+  "views": 3432,
+  "reads": 267,
+  "completes": 39,
   "plays": 4,
-  "sessions": 3341
+  "sessions": 3344
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3181,
-   "reads": 170,
-   "sessions": 3182
+   "views": 3190,
+   "reads": 171,
+   "sessions": 3184
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "ai",
-   "views": 31,
-   "reads": 17,
-   "sessions": 43
+   "views": 32,
+   "reads": 18,
+   "sessions": 44
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,17 +73,17 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 23
+   "sessions": 24
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3181,
-   "reads": 170,
-   "completes": 34,
-   "sessions": 3182,
-   "read_rate": 0.053,
+   "views": 3190,
+   "reads": 171,
+   "completes": 35,
+   "sessions": 3184,
+   "read_rate": 0.054,
    "complete_rate": 0.011,
    "pages_per_session": 1,
    "median_dwell_sec": 4
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 31,
-   "reads": 17,
+   "views": 32,
+   "reads": 18,
    "completes": 0,
-   "sessions": 43,
-   "read_rate": 0.548,
+   "sessions": 44,
+   "read_rate": 0.563,
    "complete_rate": 0,
-   "pages_per_session": 0.72,
+   "pages_per_session": 0.73,
    "median_dwell_sec": 18
   },
   {
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 23,
+   "sessions": 24,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -190,14 +190,14 @@
  ],
  "navSurfaces": [
   {
+   "surface": "dash-range",
+   "clicks": 10,
+   "sessions": 2
+  },
+  {
    "surface": "nav-cmp",
    "clicks": 9,
    "sessions": 4
-  },
-  {
-   "surface": "dash-range",
-   "clicks": 6,
-   "sessions": 1
   },
   {
    "surface": "article-body",
@@ -260,7 +260,7 @@
    "sessions": 1
   },
   {
-   "surface": "rr-card",
+   "surface": "sb-right",
    "clicks": 1,
    "sessions": 1
   }
@@ -274,9 +274,9 @@
   },
   {
    "assistant": "Perplexity",
-   "views": 11,
-   "reads": 7,
-   "sessions": 8
+   "views": 12,
+   "reads": 8,
+   "sessions": 9
   },
   {
    "assistant": "Doubao",
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2626,
-   "reads": 259,
-   "sessions": 2555
+   "views": 2636,
+   "reads": 261,
+   "sessions": 2558
   },
   {
    "device": "mobile",
@@ -701,9 +701,9 @@
   },
   {
    "path": "/",
-   "views": 103,
+   "views": 104,
    "reads": 5,
-   "sessions": 102,
+   "sessions": 103,
    "avg_dwell_sec": 20
   },
   {
@@ -726,6 +726,13 @@
    "reads": 0,
    "sessions": 30,
    "avg_dwell_sec": 4
+  },
+  {
+   "path": "/dashboard",
+   "views": 16,
+   "reads": 1,
+   "sessions": 4,
+   "avg_dwell_sec": 24
   },
   {
    "path": "/tools",
@@ -770,13 +777,6 @@
    "avg_dwell_sec": 23
   },
   {
-   "path": "/dashboard",
-   "views": 9,
-   "reads": 1,
-   "sessions": 3,
-   "avg_dwell_sec": 31
-  },
-  {
    "path": "/authors/dex",
    "views": 8,
    "reads": 0,
@@ -815,14 +815,14 @@
    "sessions": 19
   },
   {
+   "ref": "https://www.perplexity.ai/",
+   "hits": 20,
+   "sessions": 9
+  },
+  {
    "ref": "https://www.google.com/",
    "hits": 20,
    "sessions": 15
-  },
-  {
-   "ref": "https://www.perplexity.ai/",
-   "hits": 18,
-   "sessions": 8
   },
   {
    "ref": "https://duckduckgo.com/",
@@ -835,6 +835,11 @@
    "sessions": 8
   },
   {
+   "ref": "dash-range",
+   "hits": 10,
+   "sessions": 2
+  },
+  {
    "ref": "nav-cmp",
    "hits": 9,
    "sessions": 4
@@ -843,11 +848,6 @@
    "ref": "http://114.114.114.114:9421/",
    "hits": 7,
    "sessions": 5
-  },
-  {
-   "ref": "https://github.com/f-o-x11/dreaming-press",
-   "hits": 6,
-   "sessions": 4
   }
  ]
 }
