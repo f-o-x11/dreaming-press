@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-04T01:53:33.345Z",
+ "generated": "2026-09-04T02:03:34.670Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8742,
+ "verifiedAiHits": 8752,
  "logsScanned": 30,
  "windowStart": "2026-08-21",
  "windowEnd": "2026-09-04",
- "totalHits": 119693,
- "aiHits": 95757,
+ "totalHits": 119778,
+ "aiHits": 95784,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 33018,
+   "hits": 33028,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15034,
+   "hits": 15041,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
@@ -142,44 +142,11 @@
    "verifiable": false
   },
   {
-   "name": "Bingbot",
-   "label": "Bingbot",
-   "category": "search",
-   "home": "https://www.bing.com/webmasters",
-   "hits": 6623,
-   "verifiedHits": 6417,
-   "firstSeen": "2026-08-21",
-   "lastSeen": "2026-09-04",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 216
-    },
-    {
-     "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
-     "hits": 202
-    },
-    {
-     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
-     "hits": 61
-    },
-    {
-     "path": "/posts/what-happened-when-i-stopped-publishing-every-hour.html",
-     "hits": 56
-    },
-    {
-     "path": "/posts/2026-08-22-founders-wire-nvidia-poolside-anthropic-ipo-gemma-billion.html",
-     "hits": 45
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "Applebot",
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 6576,
+   "hits": 6632,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
@@ -206,6 +173,39 @@
     }
    ],
    "verifiable": false
+  },
+  {
+   "name": "Bingbot",
+   "label": "Bingbot",
+   "category": "search",
+   "home": "https://www.bing.com/webmasters",
+   "hits": 6625,
+   "verifiedHits": 6419,
+   "firstSeen": "2026-08-21",
+   "lastSeen": "2026-09-04",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 216
+    },
+    {
+     "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
+     "hits": 202
+    },
+    {
+     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
+     "hits": 61
+    },
+    {
+     "path": "/posts/what-happened-when-i-stopped-publishing-every-hour.html",
+     "hits": 56
+    },
+    {
+     "path": "/posts/2026-08-22-founders-wire-nvidia-poolside-anthropic-ipo-gemma-billion.html",
+     "hits": 45
+    }
+   ],
+   "verifiable": true
   },
   {
    "name": "Googlebot",
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2996,
-   "verifiedHits": 2707,
+   "hits": 2997,
+   "verifiedHits": 2708,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
    "topPaths": [
     {
      "path": "/",
-     "hits": 528
+     "hits": 529
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -476,8 +476,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 776,
-   "verifiedHits": 513,
+   "hits": 785,
+   "verifiedHits": 522,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
    "topPaths": [

@@ -1,16 +1,16 @@
 {
- "generated": "2026-09-04T01:53:34.070Z",
+ "generated": "2026-09-04T02:03:35.373Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
   "todayReads": 3,
-  "avgTimeSec": 33,
+  "avgTimeSec": 29,
   "postsThisWeek": 3
  },
  "funnel": {
-  "views": 3428,
-  "reads": 267,
-  "completes": 39,
+  "views": 3427,
+  "reads": 266,
+  "completes": 38,
   "plays": 4,
   "sessions": 3347
  },
@@ -18,7 +18,7 @@
   {
    "channel": "direct",
    "views": 3187,
-   "reads": 171,
+   "reads": 170,
    "sessions": 3189
   },
   {
@@ -41,7 +41,7 @@
   },
   {
    "channel": "referral",
-   "views": 57,
+   "views": 56,
    "reads": 14,
    "sessions": 52
   },
@@ -80,10 +80,10 @@
   {
    "channel": "direct",
    "views": 3187,
-   "reads": 171,
-   "completes": 35,
+   "reads": 170,
+   "completes": 34,
    "sessions": 3189,
-   "read_rate": 0.054,
+   "read_rate": 0.053,
    "complete_rate": 0.011,
    "pages_per_session": 1,
    "median_dwell_sec": 4
@@ -101,13 +101,13 @@
   },
   {
    "channel": "referral",
-   "views": 57,
+   "views": 56,
    "reads": 14,
    "completes": 1,
    "sessions": 52,
-   "read_rate": 0.246,
+   "read_rate": 0.25,
    "complete_rate": 0.018,
-   "pages_per_session": 1.1,
+   "pages_per_session": 1.08,
    "median_dwell_sec": null
   },
   {
@@ -318,8 +318,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2628,
-   "reads": 261,
+   "views": 2627,
+   "reads": 260,
    "sessions": 2557
   },
   {
@@ -701,16 +701,16 @@
   },
   {
    "path": "/",
-   "views": 102,
+   "views": 101,
    "reads": 6,
    "sessions": 102,
    "avg_dwell_sec": 42
   },
   {
    "path": "/compare/:pair",
-   "views": 61,
+   "views": 62,
    "reads": 0,
-   "sessions": 61,
+   "sessions": 62,
    "avg_dwell_sec": 4
   },
   {
@@ -840,14 +840,14 @@
    "sessions": 4
   },
   {
-   "ref": "https://github.com/",
-   "hits": 7,
-   "sessions": 5
-  },
-  {
    "ref": "http://127.0.0.1:49608/",
    "hits": 7,
    "sessions": 1
+  },
+  {
+   "ref": "http://114.114.114.114:9421/",
+   "hits": 7,
+   "sessions": 5
   }
  ]
 }
