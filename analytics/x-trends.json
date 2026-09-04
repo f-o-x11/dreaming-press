@@ -1,29 +1,45 @@
 {
- "generated": "2026-09-04T10:00:25.465Z",
- "sampled": 39,
+ "generated": "2026-09-04T10:10:24.794Z",
+ "sampled": 78,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
   "(LLM OR \"coding agent\" OR RAG OR \"AI startup\") founder -is:retweet -is:reply lang:en"
  ],
  "topTerms": [
   {
+   "term": "agents",
+   "count": 36
+  },
+  {
+   "term": "agent",
+   "count": 29
+  },
+  {
+   "term": "coding",
+   "count": 24
+  },
+  {
    "term": "startup",
    "count": 24
+  },
+  {
+   "term": "building",
+   "count": 22
   },
   {
    "term": "founder",
    "count": 22
   },
   {
-   "term": "coding",
-   "count": 21
+   "term": "build",
+   "count": 18
   },
   {
-   "term": "agent",
-   "count": 17
+   "term": "agentic",
+   "count": 16
   },
   {
-   "term": "building",
+   "term": "one",
    "count": 12
   },
   {
@@ -31,60 +47,44 @@
    "count": 11
   },
   {
+   "term": "week",
+   "count": 10
+  },
+  {
+   "term": "code",
+   "count": 10
+  },
+  {
+   "term": "mcp",
+   "count": 10
+  },
+  {
+   "term": "systems",
+   "count": 10
+  },
+  {
+   "term": "model",
+   "count": 9
+  },
+  {
+   "term": "launch",
+   "count": 8
+  },
+  {
+   "term": "has",
+   "count": 8
+  },
+  {
+   "term": "have",
+   "count": 8
+  },
+  {
    "term": "koder",
    "count": 8
   },
   {
-   "term": "every",
-   "count": 6
-  },
-  {
-   "term": "while",
-   "count": 6
-  },
-  {
-   "term": "free",
-   "count": 6
-  },
-  {
-   "term": "week",
-   "count": 6
-  },
-  {
-   "term": "code",
-   "count": 5
-  },
-  {
-   "term": "runs",
-   "count": 5
-  },
-  {
-   "term": "has",
-   "count": 5
-  },
-  {
-   "term": "have",
-   "count": 5
-  },
-  {
-   "term": "agents",
-   "count": 4
-  },
-  {
-   "term": "let",
-   "count": 4
-  },
-  {
-   "term": "prompt",
-   "count": 4
-  },
-  {
-   "term": "inject",
-   "count": 4
-  },
-  {
-   "term": "instinct",
-   "count": 4
+   "term": "claude",
+   "count": 7
   }
  ],
  "hashtags": [
@@ -99,6 +99,10 @@
   {
    "term": "#founder",
    "count": 4
+  },
+  {
+   "term": "#agentic",
+   "count": 1
   },
   {
    "term": "#techjuice",
@@ -131,18 +135,44 @@
   {
    "term": "#domains",
    "count": 1
-  },
-  {
-   "term": "#saas",
-   "count": 1
   }
  ],
  "topPosts": [
+  {
+   "text": "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that \"the econom",
+   "engagement": 1730,
+   "url": "https://x.com/i/status/2093803322444800052",
+   "created": "2026-08-29T20:49:47.000Z"
+  },
+  {
+   "text": "AI agents are moving from assistants to economic actors. 🤖💳 @AEON_Community Agentic Checkout lets agents search for products, build carts and complete purchases. The AEON AI Card gives them controlled spending power wi",
+   "engagement": 293,
+   "url": "https://x.com/i/status/2095772366768869820",
+   "created": "2026-09-04T07:14:04.000Z"
+  },
+  {
+   "text": "Some people see @injective and think trading. But look a little closer. You have an on-chain order book, ~0.64s blocks and extremely low fees. Basically the kind of infrastructure automated strategies actually need. And ",
+   "engagement": 165,
+   "url": "https://x.com/i/status/2093736948774867120",
+   "created": "2026-08-29T16:26:02.000Z"
+  },
+  {
+   "text": "AI agents are moving from assistants to economic actors. 🤖💳 @AEON_Community Agentic Checkout lets agents search for products, build carts and complete purchases. The AEON AI Card gives them controlled spending power wi",
+   "engagement": 122,
+   "url": "https://x.com/i/status/2095793715944276257",
+   "created": "2026-09-04T08:38:54.000Z"
+  },
   {
    "text": "left Google to build an AI startup this week I cold called nail salons, pet groomers, and massage therapists asking if they wanted a better website founder job descriptions are fake😂 If you do want a website made though",
    "engagement": 116,
    "url": "https://x.com/i/status/2093850412931821791",
    "created": "2026-08-29T23:56:54.000Z"
+  },
+  {
+   "text": "🚀 THE AI AGENT ENGINEERING ROADMAP Want to become an AI Agent Engineer? 🤖 Don’t just learn tools — build the right foundation. 🧠 The Step-by-Step Path: 1️⃣ LLM Fundamentals + Reasoning 2️⃣ Context Engineering 3️⃣ Memo",
+   "engagement": 114,
+   "url": "https://x.com/i/status/2094379489702879265",
+   "created": "2026-08-31T10:59:16.000Z"
   },
   {
    "text": "You can prompt inject the instinct founder. I just found out that instinct has a feedback tool. I'm 100% sure he will put the feedback just into his coding agent. So you can prompt inject his coding agents. https://t.co/",
@@ -151,40 +181,10 @@
    "created": "2026-08-29T19:04:08.000Z"
   },
   {
-   "text": "Replicas cut latency for customers running heavy workloads by more than 60% by changing one thing: the computer underneath every coding agent. Before E2B, the team tried building sandbox infrastructure themselves on raw ",
-   "engagement": 86,
-   "url": "https://x.com/i/status/2093342749198266823",
-   "created": "2026-08-28T14:19:38.000Z"
-  },
-  {
-   "text": "Most AI SaaS products don't fail at the model level They fail at the moment the response needs to be turned into actual action: the model returns malformed JSON, a call remains just an hour-long audio file, and the found",
-   "engagement": 60,
-   "url": "https://x.com/i/status/2094382562793640232",
-   "created": "2026-08-31T11:11:29.000Z"
-  },
-  {
-   "text": "TechBBQ 2026 🇩🇰 | Building OctOpus 48 hours in Copenhagen. Founders, investors, AI, great conversations — and a lot happening behind the scenes. Building from Sweden 🇸🇪Thinking global. 🚀 #TechBBQ #OctOpus #AI #Start",
-   "engagement": 57,
-   "url": "https://x.com/i/status/2094885173368139976",
-   "created": "2026-09-01T20:28:41.000Z"
-  },
-  {
-   "text": "“We approached Nvidia.” Hugging Face co-founder Thomas Wolf explains how the startup initiated talks with the chipmaker that ultimately led to the roughly $13 billion acquisition of the AI startup https://t.co/3nf7ye3ao3",
-   "engagement": 40,
-   "url": "https://x.com/i/status/2095563671552336219",
-   "created": "2026-09-03T17:24:47.000Z"
-  },
-  {
-   "text": "out: founder hounder in: starting a fake ai startup, not to get acquihired, but to bag an MTS boyfriend",
-   "engagement": 24,
-   "url": "https://x.com/i/status/2093757364176658558",
-   "created": "2026-08-29T17:47:10.000Z"
-  },
-  {
-   "text": "founders should never let a coding agent grade its own work separate the roles: &gt; founder: writes the task and defines what a correct result must do &gt; coding agent: writes the code &gt; testing agent: gets the orig",
-   "engagement": 10,
-   "url": "https://x.com/i/status/2094522506673856712",
-   "created": "2026-08-31T20:27:34.000Z"
+   "text": "best github projects of the month seven repos the feed recycled into one carousel - skillspector - security scanner for agent skills before install https://t.co/R9Gfobl0aJ - paperclip - control panel for a full team of a",
+   "engagement": 87,
+   "url": "https://x.com/i/status/2093693036689580297",
+   "created": "2026-08-29T13:31:33.000Z"
   }
  ]
 }
