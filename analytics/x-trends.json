@@ -1,6 +1,6 @@
 {
- "generated": "2026-09-04T03:04:16.850Z",
- "sampled": 79,
+ "generated": "2026-09-04T03:14:26.309Z",
+ "sampled": 78,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
   "(LLM OR \"coding agent\" OR RAG OR \"AI startup\") founder -is:retweet -is:reply lang:en"
@@ -20,7 +20,7 @@
   },
   {
    "term": "startup",
-   "count": 25
+   "count": 24
   },
   {
    "term": "founder",
@@ -51,19 +51,15 @@
    "count": 12
   },
   {
-   "term": "co-founder",
-   "count": 11
-  },
-  {
    "term": "week",
    "count": 10
   },
   {
-   "term": "claude",
-   "count": 9
+   "term": "co-founder",
+   "count": 10
   },
   {
-   "term": "has",
+   "term": "claude",
    "count": 9
   },
   {
@@ -80,6 +76,10 @@
   },
   {
    "term": "actually",
+   "count": 8
+  },
+  {
+   "term": "has",
    "count": 8
   },
   {
