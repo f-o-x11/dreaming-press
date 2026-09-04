@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-04T12:41:45.291Z",
+ "generated": "2026-09-04T12:55:02.199Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 24,
+  "readersNow": 1,
   "todayReads": 20,
   "avgTimeSec": 18,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3453,
+  "views": 3452,
   "reads": 273,
   "completes": 39,
   "plays": 4,
-  "sessions": 3359
+  "sessions": 3358
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3209,
+   "views": 3208,
    "reads": 176,
-   "sessions": 3201
+   "sessions": 3200
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3209,
+   "views": 3208,
    "reads": 176,
    "completes": 35,
-   "sessions": 3201,
+   "sessions": 3200,
    "read_rate": 0.055,
    "complete_rate": 0.011,
    "pages_per_session": 1,
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2641,
+   "views": 2640,
    "reads": 267,
-   "sessions": 2557
+   "sessions": 2556
   },
   {
    "device": "mobile",
@@ -596,7 +596,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 71,
+   "views": 70,
    "reads": 0,
    "plays": 0
   },
@@ -728,18 +728,18 @@
    "avg_dwell_sec": 4
   },
   {
+   "path": "/dashboard",
+   "views": 17,
+   "reads": 1,
+   "sessions": 5,
+   "avg_dwell_sec": 24
+  },
+  {
    "path": "/tools",
    "views": 17,
    "reads": 0,
    "sessions": 17,
    "avg_dwell_sec": 7
-  },
-  {
-   "path": "/dashboard",
-   "views": 16,
-   "reads": 1,
-   "sessions": 4,
-   "avg_dwell_sec": 24
   },
   {
    "path": "/topics/:topic",
