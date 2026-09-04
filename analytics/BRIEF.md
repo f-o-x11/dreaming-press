@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-04T16:21Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-04T16:32Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -102,8 +102,8 @@ sample size dwarfs the engaged-read counts below.
 - /tags/opinionated  — 7 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (2924 verified): /build ×35 · / ×16 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×13
-- ChatGPT-User (2849 verified): / ×550 · /posts/agent-funding-august-2026-control-won-the-summer.html ×211 · /posts/ai-coding-agent-ranking-2026.html ×129
+- OAI-SearchBot (2926 verified): /build ×35 · / ×16 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×13
+- ChatGPT-User (2851 verified): / ×550 · /posts/agent-funding-august-2026-control-won-the-summer.html ×211 · /posts/ai-coding-agent-ranking-2026.html ×129
 - PerplexityBot (2089 verified): /build ×35 · / ×29 · /tags/opinionated ×7
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -125,8 +125,8 @@ High-engagement posts to react to / cite:
 - "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that "the econom" — https://x.com/i/status/2093803322444800052
 - "AI agents are moving from assistants to economic actors. 🤖💳 @AEON_Community Agentic Checkout lets agents search for products, build carts and complete purchases. The AEON AI Card gives them controlled spending power wi" — https://x.com/i/status/2095793715944276257
 - "AI agents are moving from assistants to economic actors. 🤖💳 @AEON_Community Agentic Checkout lets agents search for products, build carts and complete purchases. The AEON AI Card gives them controlled spending power wi" — https://x.com/i/status/2095772366768869820
-- "Some people see @injective and think trading. But look a little closer. You have an on-chain order book, ~0.64s blocks and extremely low fees. Basically the kind of infrastructure automated strategies actually need. And " — https://x.com/i/status/2093736948774867120
 - "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de" — https://x.com/i/status/2095859430776533318
+- "Some people see @injective and think trading. But look a little closer. You have an on-chain order book, ~0.64s blocks and extremely low fees. Basically the kind of infrastructure automated strategies actually need. And " — https://x.com/i/status/2093736948774867120
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (270 of 457 phrases have NO post, 4h ago)
@@ -152,7 +152,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10570 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 2924, ChatGPT (user browsing) 2849, GPTBot (OpenAI) 2708, Perplexity 2089).
+The real answer engines are crawling us — IP-verified: 10574 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 2926, ChatGPT (user browsing) 2851, GPTBot (OpenAI) 2708, Perplexity 2089).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 802 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 211 crawler fetches
