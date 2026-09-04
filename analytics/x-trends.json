@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-04T01:03:06.549Z",
+ "generated": "2026-09-04T01:13:13.032Z",
  "sampled": 78,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,14 +8,14 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 28
-  },
-  {
-   "term": "coding",
-   "count": 26
+   "count": 32
   },
   {
    "term": "agent",
+   "count": 27
+  },
+  {
+   "term": "coding",
    "count": 26
   },
   {
@@ -27,20 +27,16 @@
    "count": 23
   },
   {
-   "term": "build",
-   "count": 22
-  },
-  {
-   "term": "agentic",
+   "term": "building",
    "count": 21
   },
   {
-   "term": "building",
+   "term": "agentic",
    "count": 20
   },
   {
-   "term": "one",
-   "count": 11
+   "term": "build",
+   "count": 18
   },
   {
    "term": "systems",
@@ -55,7 +51,15 @@
    "count": 10
   },
   {
+   "term": "one",
+   "count": 9
+  },
+  {
    "term": "has",
+   "count": 9
+  },
+  {
+   "term": "mcp",
    "count": 9
   },
   {
@@ -71,7 +75,7 @@
    "count": 8
   },
   {
-   "term": "mcp",
+   "term": "launch",
    "count": 8
   },
   {
@@ -80,10 +84,6 @@
   },
   {
    "term": "tools",
-   "count": 8
-  },
-  {
-   "term": "koder",
    "count": 8
   }
  ],
@@ -145,12 +145,6 @@
    "created": "2026-08-29T20:49:47.000Z"
   },
   {
-   "text": "If I had 6 months to become an Agentic AI Engineer. I'd do this. Stage 1: Python and LLM Foundations Python, async, API design, Anthropic/OpenAI SDKs, tokens, embeddings, structured outputs. Stage 2: Context Engineering ",
-   "engagement": 195,
-   "url": "https://x.com/i/status/2095491337651179621",
-   "created": "2026-09-03T12:37:21.000Z"
-  },
-  {
    "text": "Some people see @injective and think trading. But look a little closer. You have an on-chain order book, ~0.64s blocks and extremely low fees. Basically the kind of infrastructure automated strategies actually need. And ",
    "engagement": 165,
    "url": "https://x.com/i/status/2093736948774867120",
@@ -185,6 +179,12 @@
    "engagement": 86,
    "url": "https://x.com/i/status/2093342749198266823",
    "created": "2026-08-28T14:19:38.000Z"
+  },
+  {
+   "text": "If I had to become an AI engineer in 90 days, I would not start with courses. I would build projects from these 10 GitHub repos. 1. LangChain The LLM application framework on almost every AI engineer JD. If you want to b",
+   "engagement": 82,
+   "url": "https://x.com/i/status/2093663635080192125",
+   "created": "2026-08-29T11:34:43.000Z"
   }
  ]
 }
