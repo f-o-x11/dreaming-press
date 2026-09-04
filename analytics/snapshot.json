@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-04T05:05:55.464Z",
+ "generated": "2026-09-04T05:16:16.312Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 6,
-  "avgTimeSec": 18,
+  "readersNow": 2,
+  "todayReads": 7,
+  "avgTimeSec": 24,
   "postsThisWeek": 3
  },
  "funnel": {
   "views": 3432,
-  "reads": 267,
+  "reads": 268,
   "completes": 39,
   "plays": 4,
   "sessions": 3344
@@ -17,8 +17,8 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3190,
-   "reads": 171,
+   "views": 3191,
+   "reads": 172,
    "sessions": 3184
   },
   {
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 55,
+   "views": 54,
    "reads": 12,
-   "sessions": 51
+   "sessions": 50
   },
   {
    "channel": "campaign:copilot.com",
@@ -79,8 +79,8 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3190,
-   "reads": 171,
+   "views": 3191,
+   "reads": 172,
    "completes": 35,
    "sessions": 3184,
    "read_rate": 0.054,
@@ -100,17 +100,6 @@
    "median_dwell_sec": 4
   },
   {
-   "channel": "referral",
-   "views": 55,
-   "reads": 12,
-   "completes": 1,
-   "sessions": 51,
-   "read_rate": 0.218,
-   "complete_rate": 0.018,
-   "pages_per_session": 1.08,
-   "median_dwell_sec": null
-  },
-  {
    "channel": "campaign:chatgpt.com",
    "views": 54,
    "reads": 16,
@@ -119,6 +108,17 @@
    "read_rate": 0.296,
    "complete_rate": 0.037,
    "pages_per_session": 1.04,
+   "median_dwell_sec": null
+  },
+  {
+   "channel": "referral",
+   "views": 54,
+   "reads": 12,
+   "completes": 1,
+   "sessions": 50,
+   "read_rate": 0.222,
+   "complete_rate": 0.019,
+   "pages_per_session": 1.08,
    "median_dwell_sec": null
   },
   {
@@ -319,7 +319,7 @@
   {
    "device": "desktop",
    "views": 2635,
-   "reads": 261,
+   "reads": 262,
    "sessions": 2557
   },
   {
@@ -626,7 +626,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 39,
+   "views": 38,
    "reads": 2,
    "plays": 0
   },
