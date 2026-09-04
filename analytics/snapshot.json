@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-04T12:55:02.199Z",
+ "generated": "2026-09-04T13:04:07.781Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 20,
   "avgTimeSec": 18,
   "postsThisWeek": 14
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3208,
+   "views": 3207,
    "reads": 176,
-   "sessions": 3200
+   "sessions": 3199
   },
   {
    "channel": "organic",
-   "views": 92,
+   "views": 93,
    "reads": 47,
-   "sessions": 85
+   "sessions": 86
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3208,
+   "views": 3207,
    "reads": 176,
    "completes": 35,
-   "sessions": 3200,
+   "sessions": 3199,
    "read_rate": 0.055,
    "complete_rate": 0.011,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 92,
+   "views": 93,
    "reads": 47,
    "completes": 1,
-   "sessions": 85,
-   "read_rate": 0.511,
+   "sessions": 86,
+   "read_rate": 0.505,
    "complete_rate": 0.011,
    "pages_per_session": 1.08,
    "median_dwell_sec": 4
@@ -392,7 +392,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 15,
+   "views": 14,
    "reads": 4,
    "plays": 0
   },
@@ -584,7 +584,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 15,
+   "views": 14,
    "reads": 4,
    "plays": 0
   }
@@ -681,13 +681,13 @@
    "plays": 0
   },
   {
-   "slug": "gpu-rental-price-map-h100-h200-b200-august-2026",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in August 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
+   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
+   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
    "author": "dex",
    "views": 15,
-   "reads": 4,
+   "reads": 1,
    "plays": 0
   }
  ],
@@ -806,8 +806,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 38,
-   "sessions": 20
+   "hits": 39,
+   "sessions": 21
   },
   {
    "ref": "https://chatgpt.com/",
