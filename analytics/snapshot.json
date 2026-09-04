@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-04T14:19:23.607Z",
+ "generated": "2026-09-04T14:29:46.548Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 20,
   "avgTimeSec": 17,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3446,
+  "views": 3447,
   "reads": 273,
   "completes": 39,
   "plays": 4,
-  "sessions": 3353
+  "sessions": 3354
  },
  "channels": [
   {
@@ -35,9 +35,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 54,
+   "views": 55,
    "reads": 15,
-   "sessions": 52
+   "sessions": 53
   },
   {
    "channel": "referral",
@@ -100,6 +100,17 @@
    "median_dwell_sec": 4
   },
   {
+   "channel": "campaign:chatgpt.com",
+   "views": 55,
+   "reads": 15,
+   "completes": 2,
+   "sessions": 53,
+   "read_rate": 0.273,
+   "complete_rate": 0.036,
+   "pages_per_session": 1.04,
+   "median_dwell_sec": null
+  },
+  {
    "channel": "referral",
    "views": 54,
    "reads": 12,
@@ -108,17 +119,6 @@
    "read_rate": 0.222,
    "complete_rate": 0.019,
    "pages_per_session": 1.08,
-   "median_dwell_sec": null
-  },
-  {
-   "channel": "campaign:chatgpt.com",
-   "views": 54,
-   "reads": 15,
-   "completes": 2,
-   "sessions": 52,
-   "read_rate": 0.278,
-   "complete_rate": 0.037,
-   "pages_per_session": 1.04,
    "median_dwell_sec": null
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 57,
+   "views": 58,
    "reads": 16,
-   "sessions": 53
+   "sessions": 54
   },
   {
    "assistant": "Doubao",
@@ -324,9 +324,9 @@
   },
   {
    "device": "mobile",
-   "views": 804,
+   "views": 805,
    "reads": 5,
-   "sessions": 794
+   "sessions": 795
   },
   {
    "device": "tablet",
@@ -382,7 +382,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 16,
+   "views": 17,
    "reads": 4,
    "plays": 0
   },
@@ -574,7 +574,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 16,
+   "views": 17,
    "reads": 4,
    "plays": 0
   },
@@ -661,6 +661,16 @@
    "plays": 0
   },
   {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 17,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "ai-coding-agent-ranking-2026",
    "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
    "section": "stack",
@@ -668,16 +678,6 @@
    "author": "dex",
    "views": 17,
    "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 16,
-   "reads": 4,
    "plays": 0
   },
   {
@@ -701,9 +701,9 @@
   },
   {
    "path": "/",
-   "views": 111,
+   "views": 112,
    "reads": 5,
-   "sessions": 109,
+   "sessions": 110,
    "avg_dwell_sec": 19
   },
   {

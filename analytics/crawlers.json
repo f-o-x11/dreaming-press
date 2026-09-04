@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-04T14:19:22.732Z",
+ "generated": "2026-09-04T14:29:45.844Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9328,
+ "verifiedAiHits": 9332,
  "logsScanned": 30,
  "windowStart": "2026-08-21",
  "windowEnd": "2026-09-04",
- "totalHits": 127082,
- "aiHits": 98550,
+ "totalHits": 127171,
+ "aiHits": 98571,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 33914,
+   "hits": 33919,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 23996,
+   "hits": 24001,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15576,
+   "hits": 15583,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
@@ -146,7 +146,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 10633,
+   "hits": 10696,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
@@ -154,6 +154,10 @@
     {
      "path": "/build",
      "hits": 13
+    },
+    {
+     "path": "/post/authors/posts/authors/authors/posts/posts/posts/posts/posts/posts/posts/posts/posts/what-a-boot-check-actually-looks-like.html",
+     "hits": 3
     },
     {
      "path": "/posts/best-llm-for-research-august-2026.html",
@@ -166,10 +170,6 @@
     {
      "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
      "hits": 3
-    },
-    {
-     "path": "/posts/authors/posts/posts/authors/authors/authors/posts/posts/posts/six-months-in.html",
-     "hits": 2
     }
    ],
    "verifiable": false
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6834,
-   "verifiedHits": 6628,
+   "hits": 6839,
+   "verifiedHits": 6633,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3174,
-   "verifiedHits": 2919,
+   "hits": 3175,
+   "verifiedHits": 2920,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
    "topPaths": [
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3119,
-   "verifiedHits": 2830,
+   "hits": 3120,
+   "verifiedHits": 2831,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
    "topPaths": [
     {
      "path": "/",
-     "hits": 546
+     "hits": 547
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -443,8 +443,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1134,
-   "verifiedHits": 871,
+   "hits": 1136,
+   "verifiedHits": 873,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
    "topPaths": [
