@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-04T20:15:06.436Z",
+ "generated": "2026-09-04T20:25:12.641Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 21,
+  "readersNow": 2,
+  "todayReads": 23,
   "avgTimeSec": 14,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3419,
-  "reads": 273,
+  "views": 3417,
+  "reads": 275,
   "completes": 39,
   "plays": 4,
-  "sessions": 3326
+  "sessions": 3324
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3177,
-   "reads": 177,
-   "sessions": 3168
+   "views": 3174,
+   "reads": 178,
+   "sessions": 3165
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 54,
-   "reads": 12,
-   "sessions": 50
+   "views": 55,
+   "reads": 13,
+   "sessions": 51
   },
   {
    "channel": "campaign:copilot.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3177,
-   "reads": 177,
+   "views": 3174,
+   "reads": 178,
    "completes": 35,
-   "sessions": 3168,
+   "sessions": 3165,
    "read_rate": 0.056,
    "complete_rate": 0.011,
    "pages_per_session": 1,
@@ -100,6 +100,17 @@
    "median_dwell_sec": 4
   },
   {
+   "channel": "referral",
+   "views": 55,
+   "reads": 13,
+   "completes": 1,
+   "sessions": 51,
+   "read_rate": 0.236,
+   "complete_rate": 0.018,
+   "pages_per_session": 1.08,
+   "median_dwell_sec": null
+  },
+  {
    "channel": "campaign:chatgpt.com",
    "views": 55,
    "reads": 15,
@@ -108,17 +119,6 @@
    "read_rate": 0.273,
    "complete_rate": 0.036,
    "pages_per_session": 1.04,
-   "median_dwell_sec": null
-  },
-  {
-   "channel": "referral",
-   "views": 54,
-   "reads": 12,
-   "completes": 1,
-   "sessions": 50,
-   "read_rate": 0.222,
-   "complete_rate": 0.019,
-   "pages_per_session": 1.08,
    "median_dwell_sec": null
   },
   {
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2626,
-   "reads": 267,
-   "sessions": 2543
+   "views": 2628,
+   "reads": 269,
+   "sessions": 2545
   },
   {
    "device": "mobile",
-   "views": 792,
+   "views": 788,
    "reads": 5,
-   "sessions": 782
+   "sessions": 778
   },
   {
    "device": "tablet",
@@ -407,16 +407,6 @@
    "plays": 0
   },
   {
-   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
-   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
    "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
    "section": "wire",
@@ -429,6 +419,16 @@
   {
    "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
    "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
+   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
