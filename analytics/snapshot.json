@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-04T19:54:58.293Z",
+ "generated": "2026-09-04T20:05:03.629Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 21,
   "avgTimeSec": 14,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3423,
+  "views": 3420,
   "reads": 273,
   "completes": 39,
   "plays": 4,
-  "sessions": 3330
+  "sessions": 3327
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3181,
+   "views": 3178,
    "reads": 177,
-   "sessions": 3172
+   "sessions": 3169
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3181,
+   "views": 3178,
    "reads": 177,
    "completes": 35,
-   "sessions": 3172,
+   "sessions": 3169,
    "read_rate": 0.056,
    "complete_rate": 0.011,
    "pages_per_session": 1,
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2630,
+   "views": 2627,
    "reads": 267,
-   "sessions": 2547
+   "sessions": 2544
   },
   {
    "device": "mobile",
@@ -397,21 +397,21 @@
    "plays": 0
   },
   {
-   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
-   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "pdf-parsing-for-rag-docling-marker-llamaparse-mistral-ocr",
    "title": "Parsing PDFs for RAG in 2026: PyMuPDF4LLM vs Docling vs Marker vs LlamaParse vs Mistral OCR",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
+   "views": 10,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
+   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
    "views": 10,
    "reads": 4,
    "plays": 0
