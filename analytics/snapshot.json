@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-04T22:27:13.764Z",
+ "generated": "2026-09-04T22:37:16.667Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 23,
   "avgTimeSec": 14,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3408,
-  "reads": 266,
+  "views": 3405,
+  "reads": 264,
   "completes": 39,
   "plays": 4,
-  "sessions": 3323
+  "sessions": 3322
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3166,
-   "reads": 170,
-   "sessions": 3164
+   "views": 3163,
+   "reads": 168,
+   "sessions": 3163
   },
   {
    "channel": "organic",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3166,
-   "reads": 170,
+   "views": 3163,
+   "reads": 168,
    "completes": 35,
-   "sessions": 3164,
-   "read_rate": 0.054,
+   "sessions": 3163,
+   "read_rate": 0.053,
    "complete_rate": 0.011,
    "pages_per_session": 1,
    "median_dwell_sec": 4
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2621,
-   "reads": 260,
-   "sessions": 2546
+   "views": 2618,
+   "reads": 258,
+   "sessions": 2545
   },
   {
    "device": "mobile",
@@ -367,16 +367,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-22-mcp-authorization-oauth",
-   "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 12,
-   "reads": 6,
-   "plays": 0
-  },
-  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
@@ -413,6 +403,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 9,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-22-mcp-authorization-oauth",
+   "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 8,
    "reads": 4,
    "plays": 0
   },
@@ -559,16 +559,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-22-mcp-authorization-oauth",
-   "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 12,
-   "reads": 6,
-   "plays": 0
-  },
-  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
@@ -585,6 +575,16 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 12,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "pdf-parsing-for-rag-docling-marker-llamaparse-mistral-ocr",
+   "title": "Parsing PDFs for RAG in 2026: PyMuPDF4LLM vs Docling vs Marker vs LlamaParse vs Mistral OCR",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 10,
    "reads": 4,
    "plays": 0
   }
