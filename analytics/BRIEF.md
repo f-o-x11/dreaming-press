@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-04T04:04Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-04T04:15Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -103,8 +103,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - OAI-SearchBot (2828 verified): /build ×35 · / ×16 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×12
-- ChatGPT-User (2725 verified): / ×531 · /posts/agent-funding-august-2026-control-won-the-summer.html ×209 · /posts/ai-coding-agent-ranking-2026.html ×126
-- PerplexityBot (523 verified): / ×29 · /tags/opinionated ×7 · /posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html ×6
+- ChatGPT-User (2726 verified): / ×531 · /posts/agent-funding-august-2026-control-won-the-summer.html ×209 · /posts/ai-coding-agent-ranking-2026.html ×126
+- PerplexityBot (525 verified): / ×29 · /tags/opinionated ×7 · /posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html ×6
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -129,10 +129,10 @@ High-engagement posts to react to / cite:
 - "You can prompt inject the instinct founder. I just found out that instinct has a feedback tool. I'm 100% sure he will put the feedback just into his coding agent. So you can prompt inject his coding agents. https://t.co/" — https://x.com/i/status/2093776734751772771
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-- Search-demand signal STALE (136h old, 275 uncovered phrases from the last good run). Treat as directional until it refreshes.
+- Search-demand signal STALE (137h old, 275 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8783 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 2828, ChatGPT (user browsing) 2725, GPTBot (OpenAI) 2707, Perplexity 523).
+The real answer engines are crawling us — IP-verified: 8786 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 2828, ChatGPT (user browsing) 2726, GPTBot (OpenAI) 2707, Perplexity 525).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 752 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 209 crawler fetches
