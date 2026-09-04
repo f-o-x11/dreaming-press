@@ -1,36 +1,36 @@
 {
- "generated": "2026-09-04T08:18:53.745Z",
+ "generated": "2026-09-04T08:29:01.002Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 13,
+  "readersNow": 3,
+  "todayReads": 15,
   "avgTimeSec": 17,
   "postsThisWeek": 3
  },
  "funnel": {
   "views": 3442,
-  "reads": 270,
+  "reads": 272,
   "completes": 39,
   "plays": 4,
-  "sessions": 3349
+  "sessions": 3347
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3197,
+   "views": 3195,
    "reads": 172,
-   "sessions": 3188
+   "sessions": 3186
   },
   {
    "channel": "organic",
-   "views": 93,
-   "reads": 48,
+   "views": 94,
+   "reads": 49,
    "sessions": 87
   },
   {
    "channel": "ai",
-   "views": 34,
-   "reads": 20,
+   "views": 35,
+   "reads": 21,
    "sessions": 43
   },
   {
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3197,
+   "views": 3195,
    "reads": 172,
    "completes": 35,
-   "sessions": 3188,
+   "sessions": 3186,
    "read_rate": 0.054,
    "complete_rate": 0.011,
    "pages_per_session": 1,
@@ -90,13 +90,13 @@
   },
   {
    "channel": "organic",
-   "views": 93,
-   "reads": 48,
+   "views": 94,
+   "reads": 49,
    "completes": 1,
    "sessions": 87,
-   "read_rate": 0.516,
+   "read_rate": 0.521,
    "complete_rate": 0.011,
-   "pages_per_session": 1.07,
+   "pages_per_session": 1.08,
    "median_dwell_sec": 4
   },
   {
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 34,
-   "reads": 20,
+   "views": 35,
+   "reads": 21,
    "completes": 0,
    "sessions": 43,
-   "read_rate": 0.588,
+   "read_rate": 0.6,
    "complete_rate": 0,
-   "pages_per_session": 0.79,
+   "pages_per_session": 0.81,
    "median_dwell_sec": 20
   },
   {
@@ -273,16 +273,16 @@
    "sessions": 53
   },
   {
+   "assistant": "Perplexity",
+   "views": 13,
+   "reads": 9,
+   "sessions": 9
+  },
+  {
    "assistant": "Doubao",
    "views": 10,
    "reads": 9,
    "sessions": 8
-  },
-  {
-   "assistant": "Perplexity",
-   "views": 12,
-   "reads": 8,
-   "sessions": 9
   },
   {
    "assistant": "Copilot",
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2642,
-   "reads": 264,
-   "sessions": 2559
+   "views": 2643,
+   "reads": 266,
+   "sessions": 2558
   },
   {
    "device": "mobile",
-   "views": 799,
+   "views": 798,
    "reads": 5,
-   "sessions": 789
+   "sessions": 788
   },
   {
    "device": "tablet",
@@ -407,6 +407,16 @@
    "plays": 0
   },
   {
+   "slug": "pdf-parsing-for-rag-docling-marker-llamaparse-mistral-ocr",
+   "title": "Parsing PDFs for RAG in 2026: PyMuPDF4LLM vs Docling vs Marker vs LlamaParse vs Mistral OCR",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 10,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
    "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
    "section": "wire",
@@ -475,16 +485,6 @@
    "views": 9,
    "reads": 3,
    "plays": 1
-  },
-  {
-   "slug": "how-to-call-deepseek-v4-flash-responses-api-thinking-mode",
-   "title": "How to Call DeepSeek V4 Flash's Responses API — Thinking Mode, reasoning_content, and the 384K Output Budget",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 9,
-   "reads": 3,
-   "plays": 0
   }
  ],
  "topListens": [
@@ -816,8 +816,13 @@
   },
   {
    "ref": "https://www.perplexity.ai/",
-   "hits": 20,
+   "hits": 22,
    "sessions": 9
+  },
+  {
+   "ref": "https://duckduckgo.com/",
+   "hits": 21,
+   "sessions": 12
   },
   {
    "ref": "https://www.google.com/",
@@ -828,11 +833,6 @@
    "ref": "https://www.doubao.com/",
    "hits": 19,
    "sessions": 8
-  },
-  {
-   "ref": "https://duckduckgo.com/",
-   "hits": 19,
-   "sessions": 12
   },
   {
    "ref": "dash-range",
