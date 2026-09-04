@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-04T09:50Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-04T10:00Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3426 views → 271 engaged reads → 39 completes · 3330 sessions.
-- Channels: direct 173r/3181v · organic 48r/93v · ai 20r/34v · campaign:chatgpt.com 15r/54v · referral 12r/54v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/5v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3425 views → 271 engaged reads → 39 completes · 3329 sessions.
+- Channels: direct 173r/3180v · organic 48r/93v · ai 20r/34v · campaign:chatgpt.com 15r/54v · referral 12r/54v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/5v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 16r/57v · Doubao 9r/10v · Perplexity 8r/12v · Copilot 2r/2v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, cn.bing.com, chatgpt.com, duckduckgo.com, perplexity.ai, google.com, doubao.com, dash-range, nav-cmp, 114.114.114.114:9421.
 - Engaged-read winners by section: stack=6, wire=9.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3181 views · read 5.4% · complete 1.1% · 1 pages/session · median 4s
+- direct: 3180 views · read 5.4% · complete 1.1% · 1 pages/session · median 4s
 - organic: 93 views · read 51.6% · complete 1.1% · 1.08 pages/session · median 4s
 - campaign:chatgpt.com: 54 views · read 27.8% · complete 3.7% · 1.04 pages/session · median ?s
 - referral: 54 views · read 22.2% · complete 1.9% · 1.08 pages/session · median ?s
@@ -56,7 +56,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 395 views, 0 reads, 392 sessions, avg 4s
-- / — 112 views, 5 reads, 110 sessions, avg 19s
+- / — 111 views, 5 reads, 109 sessions, avg 19s
 - /compare/:pair — 63 views, 0 reads, 63 sessions, avg 4s
 - /best/:cat — 36 views, 0 reads, 36 sessions, avg 4s
 - /build — 31 views, 0 reads, 31 sessions, avg 4s
@@ -102,7 +102,7 @@ sample size dwarfs the engaged-read counts below.
 - /tags/opinionated  — 7 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (2869 verified): /build ×35 · / ×16 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×13
+- OAI-SearchBot (2872 verified): /build ×35 · / ×16 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×13
 - ChatGPT-User (2785 verified): / ×539 · /posts/agent-funding-august-2026-control-won-the-summer.html ×209 · /posts/ai-coding-agent-ranking-2026.html ×128
 - PerplexityBot (798 verified): / ×29 · /tags/opinionated ×7 · /build ×6
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -118,21 +118,21 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Trending on X right now (78 recent posts sampled, 0h ago)
-Hot terms: agents(36), agent(29), coding(24), startup(24), building(22), founder(22), build(18), agentic(16), one(12), co-founder(11), week(10), code(10), mcp(10), systems(10), model(9).
-Hashtags: #ai, #startup, #founder, #agentic, #techjuice, #metal, #usmangul, #community, #growth, #aistartup.
+## Trending on X right now (39 recent posts sampled, 0h ago)
+Hot terms: startup(24), founder(22), coding(21), agent(17), building(12), co-founder(11), koder(8), every(6), while(6), free(6), week(6), code(5), runs(5), has(5), have(5).
+Hashtags: #ai, #startup, #founder, #techjuice, #metal, #usmangul, #community, #growth, #aistartup, #aidomain.
 High-engagement posts to react to / cite:
-- "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that "the econom" — https://x.com/i/status/2093803322444800052
-- "AI agents are moving from assistants to economic actors. 🤖💳 @AEON_Community Agentic Checkout lets agents search for products, build carts and complete purchases. The AEON AI Card gives them controlled spending power wi" — https://x.com/i/status/2095772366768869820
-- "Some people see @injective and think trading. But look a little closer. You have an on-chain order book, ~0.64s blocks and extremely low fees. Basically the kind of infrastructure automated strategies actually need. And " — https://x.com/i/status/2093736948774867120
 - "left Google to build an AI startup this week I cold called nail salons, pet groomers, and massage therapists asking if they wanted a better website founder job descriptions are fake😂 If you do want a website made though" — https://x.com/i/status/2093850412931821791
-- "🚀 THE AI AGENT ENGINEERING ROADMAP Want to become an AI Agent Engineer? 🤖 Don’t just learn tools — build the right foundation. 🧠 The Step-by-Step Path: 1️⃣ LLM Fundamentals + Reasoning 2️⃣ Context Engineering 3️⃣ Memo" — https://x.com/i/status/2094379489702879265
+- "You can prompt inject the instinct founder. I just found out that instinct has a feedback tool. I'm 100% sure he will put the feedback just into his coding agent. So you can prompt inject his coding agents. https://t.co/" — https://x.com/i/status/2093776734751772771
+- "Replicas cut latency for customers running heavy workloads by more than 60% by changing one thing: the computer underneath every coding agent. Before E2B, the team tried building sandbox infrastructure themselves on raw " — https://x.com/i/status/2093342749198266823
+- "Most AI SaaS products don't fail at the model level They fail at the moment the response needs to be turned into actual action: the model returns malformed JSON, a call remains just an hour-long audio file, and the found" — https://x.com/i/status/2094382562793640232
+- "TechBBQ 2026 🇩🇰 | Building OctOpus 48 hours in Copenhagen. Founders, investors, AI, great conversations — and a lot happening behind the scenes. Building from Sweden 🇸🇪Thinking global. 🚀 #TechBBQ #OctOpus #AI #Start" — https://x.com/i/status/2094885173368139976
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 - Search-demand signal STALE (142h old, 275 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9160 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 2869, ChatGPT (user browsing) 2785, GPTBot (OpenAI) 2708, Perplexity 798).
+The real answer engines are crawling us — IP-verified: 9163 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 2872, ChatGPT (user browsing) 2785, GPTBot (OpenAI) 2708, Perplexity 798).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 761 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 209 crawler fetches
