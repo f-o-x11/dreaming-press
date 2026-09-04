@@ -1,12 +1,12 @@
-# Analytics brief — auto-exported 2026-09-04T01:33Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-04T01:43Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3429 views → 267 engaged reads → 39 completes · 3348 sessions.
-- Channels: direct 171r/3187v · organic 46r/90v · campaign:chatgpt.com 16r/54v · ai 16r/30v · referral 15r/59v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/4v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3429 views → 268 engaged reads → 39 completes · 3348 sessions.
+- Channels: direct 171r/3187v · organic 47r/91v · campaign:chatgpt.com 16r/54v · ai 16r/30v · referral 15r/58v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/4v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 17r/57v · Perplexity 7r/11v · Doubao 6r/7v · Copilot 2r/2v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
-- Referrers: bing.com, chatgpt.com, cn.bing.com, google.com, perplexity.ai, duckduckgo.com, doubao.com, 114.114.114.114:9421, nav-cmp, github.com.
+- Referrers: bing.com, cn.bing.com, chatgpt.com, google.com, perplexity.ai, duckduckgo.com, doubao.com, nav-cmp, 114.114.114.114:9421, github.com.
 - Engaged-read winners by section: stack=6, wire=9.
 
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
@@ -24,8 +24,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - direct: 3187 views · read 5.4% · complete 1.1% · 1 pages/session · median 4s
-- organic: 90 views · read 51.1% · complete 1.1% · 1.07 pages/session · median 4s
-- referral: 59 views · read 25.4% · complete 1.7% · 1.09 pages/session · median ?s
+- organic: 91 views · read 51.6% · complete 1.1% · 1.07 pages/session · median 4s
+- referral: 58 views · read 25.9% · complete 1.7% · 1.09 pages/session · median ?s
 - campaign:chatgpt.com: 54 views · read 29.6% · complete 3.7% · 1.04 pages/session · median ?s
 - ai: 30 views · read 53.3% · complete 0.0% · 0.71 pages/session · median 18s
 - social: 4 views · read 0.0% · complete 0.0% · 1 pages/session · median 233s
@@ -118,8 +118,8 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(33), agent(27), coding(26), startup(25), founder(23), building(22), agentic(20), build(19), systems(12), code(11), co-founder(11), one(9), has(9), mcp(9), model(8).
+## Trending on X right now (78 recent posts sampled, 0h ago)
+Hot terms: agents(33), agent(27), coding(26), startup(24), founder(23), building(21), agentic(20), build(19), code(11), systems(11), co-founder(10), one(9), has(9), mcp(9), model(8).
 Hashtags: #ai, #startup, #founder, #agentic, #techjuice, #metal, #usmangul, #community, #growth, #aistartup.
 High-engagement posts to react to / cite:
 - "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that "the econom" — https://x.com/i/status/2093803322444800052

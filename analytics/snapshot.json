@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-04T01:33:20.074Z",
+ "generated": "2026-09-04T01:43:30.857Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 2,
+  "readersNow": 2,
+  "todayReads": 3,
   "avgTimeSec": 5,
   "postsThisWeek": 3
  },
  "funnel": {
   "views": 3429,
-  "reads": 267,
+  "reads": 268,
   "completes": 39,
   "plays": 4,
   "sessions": 3348
@@ -23,9 +23,9 @@
   },
   {
    "channel": "organic",
-   "views": 90,
-   "reads": 46,
-   "sessions": 84
+   "views": 91,
+   "reads": 47,
+   "sessions": 85
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 59,
+   "views": 58,
    "reads": 15,
-   "sessions": 54
+   "sessions": 53
   },
   {
    "channel": "campaign:copilot.com",
@@ -90,22 +90,22 @@
   },
   {
    "channel": "organic",
-   "views": 90,
-   "reads": 46,
+   "views": 91,
+   "reads": 47,
    "completes": 1,
-   "sessions": 84,
-   "read_rate": 0.511,
+   "sessions": 85,
+   "read_rate": 0.516,
    "complete_rate": 0.011,
    "pages_per_session": 1.07,
    "median_dwell_sec": 4
   },
   {
    "channel": "referral",
-   "views": 59,
+   "views": 58,
    "reads": 15,
    "completes": 1,
-   "sessions": 54,
-   "read_rate": 0.254,
+   "sessions": 53,
+   "read_rate": 0.259,
    "complete_rate": 0.017,
    "pages_per_session": 1.09,
    "median_dwell_sec": null
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2630,
-   "reads": 261,
-   "sessions": 2559
+   "views": 2629,
+   "reads": 262,
+   "sessions": 2558
   },
   {
    "device": "mobile",
-   "views": 798,
+   "views": 799,
    "reads": 5,
-   "sessions": 788
+   "sessions": 789
   },
   {
    "device": "tablet",
@@ -805,13 +805,13 @@
    "sessions": 22
   },
   {
-   "ref": "https://chatgpt.com/",
+   "ref": "https://cn.bing.com/",
    "hits": 38,
-   "sessions": 19
+   "sessions": 20
   },
   {
-   "ref": "https://cn.bing.com/",
-   "hits": 36,
+   "ref": "https://chatgpt.com/",
+   "hits": 38,
    "sessions": 19
   },
   {
@@ -835,14 +835,14 @@
    "sessions": 7
   },
   {
-   "ref": "http://114.114.114.114:9421/",
-   "hits": 10,
-   "sessions": 7
-  },
-  {
    "ref": "nav-cmp",
    "hits": 9,
    "sessions": 4
+  },
+  {
+   "ref": "http://114.114.114.114:9421/",
+   "hits": 9,
+   "sessions": 6
   },
   {
    "ref": "https://github.com/",
