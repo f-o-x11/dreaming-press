@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-04T01:43:30.857Z",
+ "generated": "2026-09-04T01:53:34.070Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 3,
-  "avgTimeSec": 5,
+  "avgTimeSec": 33,
   "postsThisWeek": 3
  },
  "funnel": {
-  "views": 3429,
-  "reads": 268,
+  "views": 3428,
+  "reads": 267,
   "completes": 39,
   "plays": 4,
-  "sessions": 3348
+  "sessions": 3347
  },
  "channels": [
   {
    "channel": "direct",
    "views": 3187,
    "reads": 171,
-   "sessions": 3188
+   "sessions": 3189
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 58,
-   "reads": 15,
-   "sessions": 53
+   "views": 57,
+   "reads": 14,
+   "sessions": 52
   },
   {
    "channel": "campaign:copilot.com",
@@ -82,7 +82,7 @@
    "views": 3187,
    "reads": 171,
    "completes": 35,
-   "sessions": 3188,
+   "sessions": 3189,
    "read_rate": 0.054,
    "complete_rate": 0.011,
    "pages_per_session": 1,
@@ -101,13 +101,13 @@
   },
   {
    "channel": "referral",
-   "views": 58,
-   "reads": 15,
+   "views": 57,
+   "reads": 14,
    "completes": 1,
-   "sessions": 53,
-   "read_rate": 0.259,
-   "complete_rate": 0.017,
-   "pages_per_session": 1.09,
+   "sessions": 52,
+   "read_rate": 0.246,
+   "complete_rate": 0.018,
+   "pages_per_session": 1.1,
    "median_dwell_sec": null
   },
   {
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2629,
-   "reads": 262,
-   "sessions": 2558
+   "views": 2628,
+   "reads": 261,
+   "sessions": 2557
   },
   {
    "device": "mobile",
@@ -840,14 +840,14 @@
    "sessions": 4
   },
   {
-   "ref": "http://114.114.114.114:9421/",
-   "hits": 9,
-   "sessions": 6
-  },
-  {
    "ref": "https://github.com/",
    "hits": 7,
    "sessions": 5
+  },
+  {
+   "ref": "http://127.0.0.1:49608/",
+   "hits": 7,
+   "sessions": 1
   }
  ]
 }
