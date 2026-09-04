@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-04T09:19:55.885Z",
+ "generated": "2026-09-04T09:30:15.848Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9151,
+ "verifiedAiHits": 9153,
  "logsScanned": 30,
  "windowStart": "2026-08-21",
  "windowEnd": "2026-09-04",
- "totalHits": 124030,
- "aiHits": 97386,
+ "totalHits": 124106,
+ "aiHits": 97407,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 33544,
+   "hits": 33555,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15348,
+   "hits": 15354,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 12312,
+   "hits": 12313,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
@@ -146,7 +146,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 9044,
+   "hits": 9095,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6715,
-   "verifiedHits": 6509,
+   "hits": 6719,
+   "verifiedHits": 6513,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
    "topPaths": [
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3068,
-   "verifiedHits": 2779,
+   "hits": 3070,
+   "verifiedHits": 2781,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
    "topPaths": [
     {
      "path": "/",
-     "hits": 538
+     "hits": 539
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -509,14 +509,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 393,
+   "hits": 394,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
    "topPaths": [
     {
      "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
-     "hits": 73
+     "hits": 74
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
