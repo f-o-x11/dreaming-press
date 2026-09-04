@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-04T03:34:46.228Z",
+ "generated": "2026-09-04T03:44:52.930Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
   "todayReads": 4,
-  "avgTimeSec": 20,
+  "avgTimeSec": 19,
   "postsThisWeek": 3
  },
  "funnel": {
-  "views": 3431,
+  "views": 3423,
   "reads": 266,
   "completes": 38,
   "plays": 4,
-  "sessions": 3349
+  "sessions": 3341
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3189,
+   "views": 3181,
    "reads": 170,
-   "sessions": 3190
+   "sessions": 3182
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3189,
+   "views": 3181,
    "reads": 170,
    "completes": 34,
-   "sessions": 3190,
+   "sessions": 3182,
    "read_rate": 0.053,
    "complete_rate": 0.011,
    "pages_per_session": 1,
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2630,
+   "views": 2628,
    "reads": 260,
-   "sessions": 2558
+   "sessions": 2556
   },
   {
    "device": "mobile",
-   "views": 800,
+   "views": 794,
    "reads": 5,
-   "sessions": 790
+   "sessions": 784
   },
   {
    "device": "tablet",
@@ -387,16 +387,6 @@
    "plays": 0
   },
   {
-   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
-   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
    "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
    "section": "wire",
@@ -413,6 +403,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 10,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
+   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 9,
    "reads": 4,
    "plays": 0
   },
@@ -579,8 +579,8 @@
    "plays": 0
   },
   {
-   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
-   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
+   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
+   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -742,18 +742,18 @@
    "avg_dwell_sec": 65
   },
   {
-   "path": "/weekly",
-   "views": 14,
-   "reads": 0,
-   "sessions": 14,
-   "avg_dwell_sec": 6
-  },
-  {
    "path": "/alternatives/:tool",
    "views": 13,
    "reads": 0,
    "sessions": 13,
    "avg_dwell_sec": 4
+  },
+  {
+   "path": "/weekly",
+   "views": 13,
+   "reads": 0,
+   "sessions": 13,
+   "avg_dwell_sec": 5
   },
   {
    "path": "/agents.html",
