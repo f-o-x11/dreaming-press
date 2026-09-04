@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-04T05:16:15.793Z",
+ "generated": "2026-09-04T05:26:45.682Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8800,
+ "verifiedAiHits": 8803,
  "logsScanned": 30,
  "windowStart": "2026-08-21",
  "windowEnd": "2026-09-04",
- "totalHits": 121456,
- "aiHits": 96249,
+ "totalHits": 121571,
+ "aiHits": 96312,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 33221,
+   "hits": 33233,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 23377,
+   "hits": 23416,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
@@ -70,7 +70,7 @@
     },
     {
      "path": "/tags/howto",
-     "hits": 8
+     "hits": 9
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15171,
+   "hits": 15180,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
@@ -146,7 +146,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 7773,
+   "hits": 7822,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6658,
-   "verifiedHits": 6452,
+   "hits": 6659,
+   "verifiedHits": 6453,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3023,
-   "verifiedHits": 2734,
+   "hits": 3026,
+   "verifiedHits": 2737,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
    "topPaths": [
@@ -338,6 +338,39 @@
     }
    ],
    "verifiable": true
+  },
+  {
+   "name": "Baiduspider",
+   "label": "Baidu",
+   "category": "search",
+   "home": "https://www.baidu.com",
+   "hits": 2946,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-21",
+   "lastSeen": "2026-09-04",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 37
+    },
+    {
+     "path": "/authors/dex",
+     "hits": 4
+    },
+    {
+     "path": "/posts/2026-08-20-founders-wire-chatgpt-ads-claude-protein-rillet.html",
+     "hits": 4
+    },
+    {
+     "path": "/posts/lightpanda-vs-playwright-vs-browserless-headless-browser-ai-agents.html",
+     "hits": 4
+    },
+    {
+     "path": "/tags/snowflake",
+     "hits": 4
+    }
+   ],
+   "verifiable": false
   },
   {
    "name": "GPTBot",
@@ -371,39 +404,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "Baiduspider",
-   "label": "Baidu",
-   "category": "search",
-   "home": "https://www.baidu.com",
-   "hits": 2944,
-   "verifiedHits": 0,
-   "firstSeen": "2026-08-21",
-   "lastSeen": "2026-09-04",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 37
-    },
-    {
-     "path": "/authors/dex",
-     "hits": 4
-    },
-    {
-     "path": "/posts/2026-08-20-founders-wire-chatgpt-ads-claude-protein-rillet.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/lightpanda-vs-playwright-vs-browserless-headless-browser-ai-agents.html",
-     "hits": 4
-    },
-    {
-     "path": "/tags/snowflake",
-     "hits": 4
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "Meta-ExternalAgent",

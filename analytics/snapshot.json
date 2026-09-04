@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-04T05:16:16.312Z",
+ "generated": "2026-09-04T05:26:46.326Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
   "todayReads": 7,
-  "avgTimeSec": 24,
+  "avgTimeSec": 22,
   "postsThisWeek": 3
  },
  "funnel": {
-  "views": 3432,
+  "views": 3434,
   "reads": 268,
   "completes": 39,
   "plays": 4,
-  "sessions": 3344
+  "sessions": 3345
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3191,
+   "views": 3192,
    "reads": 172,
-   "sessions": 3184
+   "sessions": 3185
   },
   {
    "channel": "organic",
-   "views": 91,
+   "views": 92,
    "reads": 47,
-   "sessions": 85
+   "sessions": 86
   },
   {
    "channel": "ai",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 24
+   "sessions": 25
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3191,
+   "views": 3192,
    "reads": 172,
    "completes": 35,
-   "sessions": 3184,
+   "sessions": 3185,
    "read_rate": 0.054,
    "complete_rate": 0.011,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 91,
+   "views": 92,
    "reads": 47,
    "completes": 1,
-   "sessions": 85,
-   "read_rate": 0.516,
+   "sessions": 86,
+   "read_rate": 0.511,
    "complete_rate": 0.011,
    "pages_per_session": 1.07,
    "median_dwell_sec": 4
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 24,
+   "sessions": 25,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -200,6 +200,11 @@
    "sessions": 4
   },
   {
+   "surface": "brand",
+   "clicks": 5,
+   "sessions": 5
+  },
+  {
    "surface": "article-body",
    "clicks": 5,
    "sessions": 4
@@ -208,11 +213,6 @@
    "surface": "f-cols",
    "clicks": 4,
    "sessions": 2
-  },
-  {
-   "surface": "brand",
-   "clicks": 4,
-   "sessions": 4
   },
   {
    "surface": "dg-title",
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2635,
+   "views": 2637,
    "reads": 262,
-   "sessions": 2557
+   "sessions": 2558
   },
   {
    "device": "mobile",
@@ -701,9 +701,9 @@
   },
   {
    "path": "/",
-   "views": 104,
+   "views": 105,
    "reads": 5,
-   "sessions": 103,
+   "sessions": 104,
    "avg_dwell_sec": 20
   },
   {
@@ -826,8 +826,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 18,
-   "sessions": 11
+   "hits": 19,
+   "sessions": 12
   },
   {
    "ref": "https://www.doubao.com/",
