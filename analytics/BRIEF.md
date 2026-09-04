@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-04T11:01Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-04T11:11Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -55,7 +55,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 394 views, 0 reads, 391 sessions, avg 4s
+- /stack/:tool — 393 views, 0 reads, 390 sessions, avg 4s
 - / — 111 views, 5 reads, 109 sessions, avg 19s
 - /compare/:pair — 63 views, 0 reads, 63 sessions, avg 4s
 - /best/:cat — 36 views, 0 reads, 36 sessions, avg 4s
@@ -103,8 +103,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - OAI-SearchBot (2881 verified): /build ×35 · / ×16 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×13
-- ChatGPT-User (2793 verified): / ×541 · /posts/agent-funding-august-2026-control-won-the-summer.html ×209 · /posts/ai-coding-agent-ranking-2026.html ×128
-- PerplexityBot (798 verified): / ×29 · /tags/opinionated ×7 · /build ×6
+- ChatGPT-User (2794 verified): / ×541 · /posts/agent-funding-august-2026-control-won-the-summer.html ×209 · /posts/ai-coding-agent-ranking-2026.html ×128
+- PerplexityBot (799 verified): / ×29 · /tags/opinionated ×7 · /build ×6
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -129,10 +129,10 @@ High-engagement posts to react to / cite:
 - "left Google to build an AI startup this week I cold called nail salons, pet groomers, and massage therapists asking if they wanted a better website founder job descriptions are fake😂 If you do want a website made though" — https://x.com/i/status/2093850412931821791
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-- Search-demand signal STALE (143h old, 275 uncovered phrases from the last good run). Treat as directional until it refreshes.
+- Search-demand signal STALE (144h old, 275 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9180 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 2881, ChatGPT (user browsing) 2793, GPTBot (OpenAI) 2708, Perplexity 798).
+The real answer engines are crawling us — IP-verified: 9182 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 2881, ChatGPT (user browsing) 2794, GPTBot (OpenAI) 2708, Perplexity 799).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 762 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 209 crawler fetches
