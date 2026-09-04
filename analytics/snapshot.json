@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-04T06:57:58.523Z",
+ "generated": "2026-09-04T07:08:05.954Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 11,
-  "avgTimeSec": 19,
+  "readersNow": 12,
+  "todayReads": 12,
+  "avgTimeSec": 18,
   "postsThisWeek": 3
  },
  "funnel": {
-  "views": 3439,
+  "views": 3447,
   "reads": 269,
   "completes": 39,
   "plays": 4,
-  "sessions": 3347
+  "sessions": 3355
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3195,
-   "reads": 171,
-   "sessions": 3186
+   "views": 3203,
+   "reads": 172,
+   "sessions": 3194
   },
   {
    "channel": "organic",
@@ -31,12 +31,12 @@
    "channel": "ai",
    "views": 33,
    "reads": 19,
-   "sessions": 44
+   "sessions": 43
   },
   {
    "channel": "campaign:chatgpt.com",
    "views": 54,
-   "reads": 16,
+   "reads": 15,
    "sessions": 52
   },
   {
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3195,
-   "reads": 171,
+   "views": 3203,
+   "reads": 172,
    "completes": 35,
-   "sessions": 3186,
+   "sessions": 3194,
    "read_rate": 0.054,
    "complete_rate": 0.011,
    "pages_per_session": 1,
@@ -102,10 +102,10 @@
   {
    "channel": "campaign:chatgpt.com",
    "views": 54,
-   "reads": 16,
+   "reads": 15,
    "completes": 2,
    "sessions": 52,
-   "read_rate": 0.296,
+   "read_rate": 0.278,
    "complete_rate": 0.037,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
@@ -126,11 +126,11 @@
    "views": 33,
    "reads": 19,
    "completes": 0,
-   "sessions": 44,
+   "sessions": 43,
    "read_rate": 0.576,
    "complete_rate": 0,
-   "pages_per_session": 0.75,
-   "median_dwell_sec": 18
+   "pages_per_session": 0.77,
+   "median_dwell_sec": 20
   },
   {
    "channel": "social",
@@ -269,7 +269,7 @@
   {
    "assistant": "ChatGPT",
    "views": 57,
-   "reads": 17,
+   "reads": 16,
    "sessions": 53
   },
   {
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2640,
+   "views": 2647,
    "reads": 263,
-   "sessions": 2558
+   "sessions": 2565
   },
   {
    "device": "mobile",
-   "views": 798,
+   "views": 799,
    "reads": 5,
-   "sessions": 788
+   "sessions": 789
   },
   {
    "device": "tablet",
@@ -417,6 +417,16 @@
    "plays": 0
   },
   {
+   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
+   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
    "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
    "section": "wire",
@@ -471,16 +481,6 @@
    "title": "How to Call DeepSeek V4 Flash's Responses API — Thinking Mode, reasoning_content, and the 384K Output Budget",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 9,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "openrouter-vs-litellm-vs-cloudflare-ai-gateway",
-   "title": "OpenRouter vs LiteLLM vs Cloudflare AI Gateway: Marketplace, Proxy, or Edge — How to Route Your LLM Traffic in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 9,
    "reads": 3,
@@ -694,9 +694,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 397,
+   "views": 398,
    "reads": 0,
-   "sessions": 394,
+   "sessions": 395,
    "avg_dwell_sec": 4
   },
   {
@@ -811,8 +811,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 38,
-   "sessions": 19
+   "hits": 36,
+   "sessions": 18
   },
   {
    "ref": "https://www.perplexity.ai/",
