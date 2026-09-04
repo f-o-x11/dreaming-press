@@ -1,9 +1,22 @@
 {
- "fetched_at": "2026-08-29T11:40:42.968Z",
+ "fetched_at": "2026-09-04T12:05:18.007Z",
  "seeds": 25,
  "phrases": 457,
- "gaps": 275,
+ "gaps": 270,
  "top_gaps": [
+  {
+   "phrase": "ai agent security best practices",
+   "engines": [
+    "google",
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "ai agent security"
+   ],
+   "score": 7,
+   "covered": null
+  },
   {
    "phrase": "ai agent security jobs",
    "engines": [
@@ -83,19 +96,6 @@
    "covered": null
   },
   {
-   "phrase": "how to build an ai agent in copilot",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "how to build an ai agent"
-   ],
-   "score": 7,
-   "covered": null
-  },
-  {
    "phrase": "how to build an ai agent with chatgpt",
    "engines": [
     "google",
@@ -104,19 +104,6 @@
    ],
    "seeds": [
     "how to build an ai agent"
-   ],
-   "score": 7,
-   "covered": null
-  },
-  {
-   "phrase": "how to deploy llm locally",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "how to deploy llm"
    ],
    "score": 7,
    "covered": null
@@ -135,19 +122,6 @@
    "covered": null
   },
   {
-   "phrase": "llm observability datadog",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "llm observability"
-   ],
-   "score": 7,
-   "covered": null
-  },
-  {
    "phrase": "local llm reddit",
    "engines": [
     "google",
@@ -156,19 +130,6 @@
    ],
    "seeds": [
     "local llm"
-   ],
-   "score": 7,
-   "covered": null
-  },
-  {
-   "phrase": "mcp server github",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "mcp server"
    ],
    "score": 7,
    "covered": null
@@ -353,18 +314,6 @@
    "covered": null
   },
   {
-   "phrase": "ai agent security best practices",
-   "engines": [
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "ai agent security"
-   ],
-   "score": 5,
-   "covered": null
-  },
-  {
    "phrase": "ai agent security features",
    "engines": [
     "bing",
@@ -507,6 +456,54 @@
    ],
    "score": 5,
    "covered": null
+  },
+  {
+   "phrase": "best ai coding apps",
+   "engines": [
+    "google",
+    "bing"
+   ],
+   "seeds": [
+    "best ai coding"
+   ],
+   "score": 5,
+   "covered": null
+  },
+  {
+   "phrase": "best ai coding tools for beginners",
+   "engines": [
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "best ai coding"
+   ],
+   "score": 5,
+   "covered": null
+  },
+  {
+   "phrase": "best cloud gpu providers",
+   "engines": [
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "best gpu cloud"
+   ],
+   "score": 5,
+   "covered": null
+  },
+  {
+   "phrase": "best cloud gpu service",
+   "engines": [
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "best gpu cloud"
+   ],
+   "score": 5,
+   "covered": null
   }
  ],
  "covered_sample": [
@@ -591,6 +588,22 @@
    }
   },
   {
+   "phrase": "ai agent framework github",
+   "engines": [
+    "google",
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "ai agent framework"
+   ],
+   "score": 7,
+   "covered": {
+    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)"
+   }
+  },
+  {
    "phrase": "ai agent framework microsoft",
    "engines": [
     "google",
@@ -650,24 +663,8 @@
    ],
    "score": 7,
    "covered": {
-    "slug": "meta-muse-glimmer-open-weight-local-agent-model-founders",
-    "title": "Meta Open-Sourced Muse Glimmer, a 30B Agent Model That Runs on One Consumer GPU. Here's What a Founder Does With It."
-   }
-  },
-  {
-   "phrase": "ai agent vs bot",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "ai agent vs"
-   ],
-   "score": 7,
-   "covered": {
-    "slug": "web-bot-auth-sign-your-agent-skip-captcha",
-    "title": "Sign Your Agent's Requests With Web Bot Auth So Its Form-Fills Skip the CAPTCHA"
+    "slug": "2026-09-03-founders-wire-gemini-38-flash-build-vs-buy-agent-reliability-wonderful",
+    "title": "The Founder's Wire, September 3: Google's Gemini 3.8 Flash Is Cheap Until January 1, a Third of Companies Are Building Instead of Buying, and Daily Agent Use Hit 81%"
    }
   }
  ]

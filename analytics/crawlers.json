@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-04T11:42:12.521Z",
+ "generated": "2026-09-04T12:05:12.725Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9212,
+ "verifiedAiHits": 9239,
  "logsScanned": 30,
  "windowStart": "2026-08-21",
  "windowEnd": "2026-09-04",
- "totalHits": 125411,
- "aiHits": 97875,
+ "totalHits": 125742,
+ "aiHits": 97983,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 33641,
+   "hits": 33701,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 23853,
+   "hits": 23857,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15458,
+   "hits": 15474,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
@@ -146,7 +146,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 9777,
+   "hits": 9917,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
@@ -179,14 +179,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6765,
-   "verifiedHits": 6559,
+   "hits": 6790,
+   "verifiedHits": 6584,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 219
+     "hits": 220
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
@@ -194,7 +194,7 @@
     },
     {
      "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
-     "hits": 63
+     "hits": 64
     },
     {
      "path": "/posts/what-happened-when-i-stopped-publishing-every-hour.html",
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3137,
-   "verifiedHits": 2882,
+   "hits": 3147,
+   "verifiedHits": 2892,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
    "topPaths": [
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3089,
-   "verifiedHits": 2800,
+   "hits": 3090,
+   "verifiedHits": 2801,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
    "topPaths": [
     {
      "path": "/",
-     "hits": 542
+     "hits": 543
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2979,
+   "hits": 2981,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
@@ -443,8 +443,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1085,
-   "verifiedHits": 822,
+   "hits": 1101,
+   "verifiedHits": 838,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
    "topPaths": [
@@ -453,12 +453,12 @@
      "hits": 29
     },
     {
-     "path": "/tags/opinionated",
+     "path": "/build",
      "hits": 7
     },
     {
-     "path": "/build",
-     "hits": 6
+     "path": "/tags/opinionated",
+     "hits": 7
     },
     {
      "path": "/posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html",
@@ -476,30 +476,30 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 952,
+   "hits": 1008,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",
    "topPaths": [
     {
      "path": "/",
-     "hits": 27
+     "hits": 37
+    },
+    {
+     "path": "/alternatives/heygen",
+     "hits": 5
     },
     {
      "path": "/posts/tool-highlight-cloudflare-drop.html",
      "hits": 5
     },
     {
-     "path": "/alternatives/heygen",
+     "path": "/build",
      "hits": 4
     },
     {
      "path": "/posts/2026-08-20-founders-wire-chatgpt-ads-claude-protein-rillet.html",
      "hits": 4
-    },
-    {
-     "path": "/posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html",
-     "hits": 3
     }
    ],
    "verifiable": false
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 395,
+   "hits": 396,
    "verifiedHits": 0,
    "firstSeen": "2026-08-21",
    "lastSeen": "2026-09-04",

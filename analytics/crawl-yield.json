@@ -1,58 +1,58 @@
 {
- "generated": "2026-08-29T11:40:37.872Z",
+ "generated": "2026-09-04T12:05:12.817Z",
  "window_days": 14,
- "log_window": "2026-08-15 → 2026-08-29",
+ "log_window": "2026-08-21 → 2026-09-04",
  "totals": {
-  "verified_fetches": 11952,
-  "retrieval_fetches": 6590,
-  "index_fetches": 5362,
-  "referred_sessions": 42,
-  "retrieval_fetches_per_session": 157,
-  "click_through_pct": 0.637
+  "verified_fetches": 9239,
+  "retrieval_fetches": 6531,
+  "index_fetches": 2708,
+  "referred_sessions": 60,
+  "retrieval_fetches_per_session": 109,
+  "click_through_pct": 0.919
  },
  "engines": [
   {
    "engine": "ChatGPT",
-   "verified_fetches": 11097,
-   "retrieval_fetches": 5735,
-   "index_fetches": 5362,
-   "referred_sessions": 33,
-   "referred_views": 33,
-   "referred_reads": 10,
-   "fetches_per_session": 174,
-   "click_through_pct": 0.575,
+   "verified_fetches": 8401,
+   "retrieval_fetches": 5693,
+   "index_fetches": 2708,
+   "referred_sessions": 52,
+   "referred_views": 56,
+   "referred_reads": 16,
+   "fetches_per_session": 109,
+   "click_through_pct": 0.913,
    "bots": [
     {
-     "name": "GPTBot",
-     "verified": 5362,
-     "retrieval": false
+     "name": "OAI-SearchBot",
+     "verified": 2892,
+     "retrieval": true
     },
     {
      "name": "ChatGPT-User",
-     "verified": 3979,
+     "verified": 2801,
      "retrieval": true
     },
     {
-     "name": "OAI-SearchBot",
-     "verified": 1756,
-     "retrieval": true
+     "name": "GPTBot",
+     "verified": 2708,
+     "retrieval": false
     }
    ]
   },
   {
    "engine": "Perplexity",
-   "verified_fetches": 855,
-   "retrieval_fetches": 855,
+   "verified_fetches": 838,
+   "retrieval_fetches": 838,
    "index_fetches": 0,
-   "referred_sessions": 9,
+   "referred_sessions": 8,
    "referred_views": 12,
    "referred_reads": 8,
-   "fetches_per_session": 95,
-   "click_through_pct": 1.053,
+   "fetches_per_session": 105,
+   "click_through_pct": 0.955,
    "bots": [
     {
      "name": "PerplexityBot",
-     "verified": 855,
+     "verified": 838,
      "retrieval": true
     }
    ]
