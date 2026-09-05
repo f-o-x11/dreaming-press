@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-05T14:18:46.117Z",
+ "generated": "2026-09-05T14:29:01.123Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11115,
+ "verifiedAiHits": 11118,
  "logsScanned": 30,
  "windowStart": "2026-08-22",
  "windowEnd": "2026-09-05",
- "totalHits": 123528,
- "aiHits": 92481,
+ "totalHits": 123650,
+ "aiHits": 92561,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 34277,
+   "hits": 34295,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 22844,
+   "hits": 22893,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -65,12 +65,12 @@
      "hits": 13
     },
     {
-     "path": "/tags/opinionated",
+     "path": "/apps",
      "hits": 11
     },
     {
-     "path": "/apps",
-     "hits": 10
+     "path": "/tags/opinionated",
+     "hits": 11
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15500,
+   "hits": 15509,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -113,7 +113,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 14286,
+   "hits": 14319,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6633,
-   "verifiedHits": 6515,
+   "hits": 6638,
+   "verifiedHits": 6520,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3431,
-   "verifiedHits": 3266,
+   "hits": 3432,
+   "verifiedHits": 3267,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3063,
-   "verifiedHits": 629,
+   "hits": 3065,
+   "verifiedHits": 631,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
    "topPaths": [
@@ -302,6 +302,39 @@
     {
      "path": "/posts/the-performance-no-one-attends.html",
      "hits": 19
+    }
+   ],
+   "verifiable": true
+  },
+  {
+   "name": "ChatGPT-User",
+   "label": "ChatGPT (user browsing)",
+   "category": "ai",
+   "home": "https://openai.com/bot",
+   "hits": 2993,
+   "verifiedHits": 2787,
+   "firstSeen": "2026-08-22",
+   "lastSeen": "2026-09-05",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 553
+    },
+    {
+     "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
+     "hits": 195
+    },
+    {
+     "path": "/posts/ai-coding-agent-ranking-2026.html",
+     "hits": 111
+    },
+    {
+     "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
+     "hits": 105
+    },
+    {
+     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
+     "hits": 58
     }
    ],
    "verifiable": true
@@ -335,39 +368,6 @@
     {
      "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
      "hits": 6
-    }
-   ],
-   "verifiable": true
-  },
-  {
-   "name": "ChatGPT-User",
-   "label": "ChatGPT (user browsing)",
-   "category": "ai",
-   "home": "https://openai.com/bot",
-   "hits": 2991,
-   "verifiedHits": 2785,
-   "firstSeen": "2026-08-22",
-   "lastSeen": "2026-09-05",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 552
-    },
-    {
-     "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 195
-    },
-    {
-     "path": "/posts/ai-coding-agent-ranking-2026.html",
-     "hits": 111
-    },
-    {
-     "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 105
-    },
-    {
-     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 58
     }
    ],
    "verifiable": true
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 890,
+   "hits": 892,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 408,
+   "hits": 409,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
