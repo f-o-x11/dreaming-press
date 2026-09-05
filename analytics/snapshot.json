@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T02:29:55.809Z",
+ "generated": "2026-09-05T02:40:02.471Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3411,
-  "reads": 262,
-  "completes": 37,
+  "views": 3410,
+  "reads": 261,
+  "completes": 36,
   "plays": 4,
-  "sessions": 3326
+  "sessions": 3325
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3167,
-   "reads": 165,
-   "sessions": 3165
+   "views": 3166,
+   "reads": 164,
+   "sessions": 3164
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3167,
-   "reads": 165,
-   "completes": 33,
-   "sessions": 3165,
+   "views": 3166,
+   "reads": 164,
+   "completes": 32,
+   "sessions": 3164,
    "read_rate": 0.052,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2622,
-   "reads": 256,
-   "sessions": 2547
+   "views": 2621,
+   "reads": 255,
+   "sessions": 2546
   },
   {
    "device": "mobile",
@@ -457,16 +457,6 @@
    "plays": 0
   },
   {
-   "slug": "how-to-call-deepseek-v4-flash-responses-api-thinking-mode",
-   "title": "How to Call DeepSeek V4 Flash's Responses API — Thinking Mode, reasoning_content, and the 384K Output Budget",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 10,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "context-engineering-playbook-write-select-compress-isolate",
    "title": "The Context Engineering Playbook for Long-Running Agents: Write, Select, Compress, Isolate",
    "section": "stack",
@@ -485,6 +475,16 @@
    "views": 9,
    "reads": 3,
    "plays": 1
+  },
+  {
+   "slug": "openrouter-vs-litellm-vs-cloudflare-ai-gateway",
+   "title": "OpenRouter vs LiteLLM vs Cloudflare AI Gateway: Marketplace, Proxy, or Edge — How to Route Your LLM Traffic in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 9,
+   "reads": 3,
+   "plays": 0
   }
  ],
  "topListens": [
