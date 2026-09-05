@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-05T13:48:23.605Z",
+ "generated": "2026-09-05T13:58:40.794Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 5,
   "todayReads": 7,
-  "avgTimeSec": 32,
+  "avgTimeSec": 31,
   "postsThisWeek": 13
  },
  "funnel": {
   "views": 3395,
-  "reads": 261,
+  "reads": 260,
   "completes": 35,
   "plays": 4,
-  "sessions": 3307
+  "sessions": 3308
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3154,
+   "views": 3155,
    "reads": 165,
-   "sessions": 3148
+   "sessions": 3149
   },
   {
    "channel": "organic",
@@ -29,8 +29,8 @@
   },
   {
    "channel": "ai",
-   "views": 35,
-   "reads": 21,
+   "views": 34,
+   "reads": 20,
    "sessions": 43
   },
   {
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3154,
+   "views": 3155,
    "reads": 165,
    "completes": 31,
-   "sessions": 3148,
+   "sessions": 3149,
    "read_rate": 0.052,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 35,
-   "reads": 21,
+   "views": 34,
+   "reads": 20,
    "completes": 0,
    "sessions": 43,
-   "read_rate": 0.6,
+   "read_rate": 0.588,
    "complete_rate": 0,
-   "pages_per_session": 0.81,
+   "pages_per_session": 0.79,
    "median_dwell_sec": 20
   },
   {
@@ -273,16 +273,16 @@
    "sessions": 56
   },
   {
-   "assistant": "Perplexity",
-   "views": 13,
-   "reads": 9,
-   "sessions": 9
-  },
-  {
    "assistant": "Doubao",
    "views": 10,
    "reads": 9,
    "sessions": 8
+  },
+  {
+   "assistant": "Perplexity",
+   "views": 12,
+   "reads": 8,
+   "sessions": 9
   },
   {
    "assistant": "Copilot",
@@ -319,8 +319,8 @@
   {
    "device": "desktop",
    "views": 2608,
-   "reads": 256,
-   "sessions": 2530
+   "reads": 255,
+   "sessions": 2531
   },
   {
    "device": "mobile",
@@ -383,16 +383,6 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 12,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "pdf-parsing-for-rag-docling-marker-llamaparse-mistral-ocr",
-   "title": "Parsing PDFs for RAG in 2026: PyMuPDF4LLM vs Docling vs Marker vs LlamaParse vs Mistral OCR",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 10,
    "reads": 4,
    "plays": 0
   },
@@ -479,6 +469,16 @@
   {
    "slug": "context-engineering-playbook-write-select-compress-isolate",
    "title": "The Context Engineering Playbook for Long-Running Agents: Write, Select, Compress, Isolate",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 9,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "openrouter-vs-litellm-vs-cloudflare-ai-gateway",
+   "title": "OpenRouter vs LiteLLM vs Cloudflare AI Gateway: Marketplace, Proxy, or Edge — How to Route Your LLM Traffic in 2026",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -579,12 +579,12 @@
    "plays": 0
   },
   {
-   "slug": "pdf-parsing-for-rag-docling-marker-llamaparse-mistral-ocr",
-   "title": "Parsing PDFs for RAG in 2026: PyMuPDF4LLM vs Docling vs Marker vs LlamaParse vs Mistral OCR",
-   "section": "stack",
+   "slug": "2026-06-22-mcp-authorization-oauth",
+   "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 10,
+   "views": 9,
    "reads": 4,
    "plays": 0
   }
@@ -816,7 +816,7 @@
   },
   {
    "ref": "https://www.perplexity.ai/",
-   "hits": 22,
+   "hits": 20,
    "sessions": 9
   },
   {
