@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-05T19:53Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-05T20:03Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -92,17 +92,17 @@ nothing. This is the closest thing to a live query log this publication gets, an
 sample size dwarfs the engaged-read counts below.
 - /  — 607 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 195 retrieval fetches
-- /posts/ai-coding-agent-ranking-2026.html  — 111 retrieval fetches
+- /posts/ai-coding-agent-ranking-2026.html  — 126 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 105 retrieval fetches
 - /build  — 86 retrieval fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 58 retrieval fetches
 - /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 15 retrieval fetches
 - /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html  — 15 retrieval fetches
-- /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html  — 14 retrieval fetches
 - /posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html  — 7 retrieval fetches
+- /authors  — 6 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (3301 verified): /build ×33 · / ×18 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×15
+- OAI-SearchBot (3303 verified): /build ×33 · / ×18 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×15
 - ChatGPT-User (2825 verified): / ×562 · /posts/agent-funding-august-2026-control-won-the-summer.html ×195 · /posts/ai-coding-agent-ranking-2026.html ×111
 - PerplexityBot (2838 verified): /build ×53 · / ×27 · /posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html ×7
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -152,12 +152,12 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 11224 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 3301, ChatGPT (user browsing) 2825, Perplexity 2838, GPTBot (OpenAI) 2260).
+The real answer engines are crawling us — IP-verified: 11226 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 3303, ChatGPT (user browsing) 2825, Perplexity 2838, GPTBot (OpenAI) 2260).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 674 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 195 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 177 crawler fetches
-- /posts/ai-coding-agent-ranking-2026.html  — 131 crawler fetches
+- /posts/ai-coding-agent-ranking-2026.html  — 146 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 126 crawler fetches
 - /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 76 crawler fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 70 crawler fetches
