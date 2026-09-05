@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T20:44:16.314Z",
+ "generated": "2026-09-05T20:54:23.839Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -11,12 +11,12 @@
    "count": 38
   },
   {
-   "term": "startup",
+   "term": "agent",
    "count": 27
   },
   {
-   "term": "agent",
-   "count": 26
+   "term": "startup",
+   "count": 27
   },
   {
    "term": "founder",
@@ -24,7 +24,7 @@
   },
   {
    "term": "building",
-   "count": 22
+   "count": 23
   },
   {
    "term": "coding",
@@ -32,27 +32,23 @@
   },
   {
    "term": "agentic",
-   "count": 20
+   "count": 19
   },
   {
    "term": "mcp",
-   "count": 17
+   "count": 16
   },
   {
    "term": "build",
-   "count": 17
+   "count": 16
   },
   {
    "term": "code",
-   "count": 15
-  },
-  {
-   "term": "claude",
-   "count": 13
+   "count": 14
   },
   {
    "term": "launch",
-   "count": 11
+   "count": 12
   },
   {
    "term": "model",
@@ -60,6 +56,10 @@
   },
   {
    "term": "week",
+   "count": 10
+  },
+  {
+   "term": "claude",
    "count": 10
   },
   {
@@ -139,14 +139,8 @@
  ],
  "topPosts": [
   {
-   "text": "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that \"the econom",
-   "engagement": 1731,
-   "url": "https://x.com/i/status/2093803322444800052",
-   "created": "2026-08-29T20:49:47.000Z"
-  },
-  {
    "text": "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de",
-   "engagement": 856,
+   "engagement": 857,
    "url": "https://x.com/i/status/2095859430776533318",
    "created": "2026-09-04T13:00:02.000Z"
   },
@@ -185,6 +179,12 @@
    "engagement": 108,
    "url": "https://x.com/i/status/2096075332579385542",
    "created": "2026-09-05T03:17:57.000Z"
+  },
+  {
+   "text": "Most AI SaaS products don't fail at the model level They fail at the moment the response needs to be turned into actual action: the model returns malformed JSON, a call remains just an hour-long audio file, and the found",
+   "engagement": 60,
+   "url": "https://x.com/i/status/2094382562793640232",
+   "created": "2026-08-31T11:11:29.000Z"
   }
  ]
 }
