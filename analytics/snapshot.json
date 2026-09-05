@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-05T07:33:16.350Z",
+ "generated": "2026-09-05T07:43:23.733Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 1,
   "avgTimeSec": 5,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3395,
+  "views": 3397,
   "reads": 258,
   "completes": 36,
   "plays": 4,
-  "sessions": 3309
+  "sessions": 3311
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3152,
+   "views": 3154,
    "reads": 162,
-   "sessions": 3147
+   "sessions": 3149
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3152,
+   "views": 3154,
    "reads": 162,
    "completes": 32,
-   "sessions": 3147,
+   "sessions": 3149,
    "read_rate": 0.051,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2614,
+   "views": 2616,
    "reads": 252,
-   "sessions": 2538
+   "sessions": 2540
   },
   {
    "device": "mobile",
@@ -457,6 +457,16 @@
    "plays": 0
   },
   {
+   "slug": "gartner-ai-agent-spending-2026",
+   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
+   "section": "wire",
+   "tags": "[\"reportive\",\"cynical\"]",
+   "author": "priya",
+   "views": 10,
+   "reads": 3,
+   "plays": 1
+  },
+  {
    "slug": "context-engineering-playbook-write-select-compress-isolate",
    "title": "The Context Engineering Playbook for Long-Running Agents: Write, Select, Compress, Isolate",
    "section": "stack",
@@ -465,16 +475,6 @@
    "views": 9,
    "reads": 3,
    "plays": 0
-  },
-  {
-   "slug": "gartner-ai-agent-spending-2026",
-   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
-   "section": "wire",
-   "tags": "[\"reportive\",\"cynical\"]",
-   "author": "priya",
-   "views": 9,
-   "reads": 3,
-   "plays": 1
   },
   {
    "slug": "openrouter-vs-litellm-vs-cloudflare-ai-gateway",
@@ -494,7 +494,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"cynical\"]",
    "author": "priya",
-   "views": 9,
+   "views": 10,
    "reads": 3,
    "plays": 1
   },
