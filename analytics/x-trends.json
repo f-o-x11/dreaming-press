@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T10:25:06.258Z",
+ "generated": "2026-09-05T10:35:16.693Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,7 +12,7 @@
   },
   {
    "term": "agent",
-   "count": 31
+   "count": 30
   },
   {
    "term": "founder",
@@ -36,11 +36,11 @@
   },
   {
    "term": "building",
-   "count": 18
+   "count": 17
   },
   {
    "term": "mcp",
-   "count": 14
+   "count": 15
   },
   {
    "term": "launch",
@@ -56,7 +56,7 @@
   },
   {
    "term": "one",
-   "count": 9
+   "count": 10
   },
   {
    "term": "co-founder",
@@ -89,16 +89,24 @@
  ],
  "hashtags": [
   {
-   "term": "#startup",
-   "count": 6
+   "term": "#ai",
+   "count": 7
   },
   {
-   "term": "#ai",
+   "term": "#startup",
    "count": 6
   },
   {
    "term": "#founder",
    "count": 4
+  },
+  {
+   "term": "#buildinpublic",
+   "count": 2
+  },
+  {
+   "term": "#agents",
+   "count": 1
   },
   {
    "term": "#techjuice",
@@ -127,14 +135,6 @@
   {
    "term": "#aidomain",
    "count": 1
-  },
-  {
-   "term": "#domains",
-   "count": 1
-  },
-  {
-   "term": "#saas",
-   "count": 1
   }
  ],
  "topPosts": [
@@ -146,7 +146,7 @@
   },
   {
    "text": "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de",
-   "engagement": 647,
+   "engagement": 650,
    "url": "https://x.com/i/status/2095859430776533318",
    "created": "2026-09-04T13:00:02.000Z"
   },
