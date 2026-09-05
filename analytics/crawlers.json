@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-05T01:29:14.496Z",
+ "generated": "2026-09-05T01:39:15.868Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10343,
+ "verifiedAiHits": 10352,
  "logsScanned": 30,
  "windowStart": "2026-08-22",
  "windowEnd": "2026-09-05",
- "totalHits": 117143,
- "aiHits": 88682,
+ "totalHits": 117226,
+ "aiHits": 88730,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 33260,
+   "hits": 33261,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 21464,
+   "hits": 21495,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -58,7 +58,7 @@
     },
     {
      "path": "/stack.html",
-     "hits": 20
+     "hits": 21
     },
     {
      "path": "/dashboard",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14948,
+   "hits": 14955,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -113,7 +113,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 12045,
+   "hits": 12080,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3334,
-   "verifiedHits": 3169,
+   "hits": 3341,
+   "verifiedHits": 3176,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2912,
-   "verifiedHits": 2706,
+   "hits": 2914,
+   "verifiedHits": 2708,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
    "topPaths": [
