@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-05T01:49:28.892Z",
+ "generated": "2026-09-05T01:59:35.357Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 0,
   "avgTimeSec": 5,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3414,
-  "reads": 262,
-  "completes": 38,
+  "views": 3411,
+  "reads": 261,
+  "completes": 37,
   "plays": 4,
-  "sessions": 3330
+  "sessions": 3327
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3171,
-   "reads": 166,
-   "sessions": 3170
+   "views": 3168,
+   "reads": 165,
+   "sessions": 3167
   },
   {
    "channel": "organic",
@@ -79,12 +79,12 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3171,
-   "reads": 166,
-   "completes": 34,
-   "sessions": 3170,
+   "views": 3168,
+   "reads": 165,
+   "completes": 33,
+   "sessions": 3167,
    "read_rate": 0.052,
-   "complete_rate": 0.011,
+   "complete_rate": 0.01,
    "pages_per_session": 1,
    "median_dwell_sec": 4
   },
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2623,
-   "reads": 256,
-   "sessions": 2549
+   "views": 2620,
+   "reads": 255,
+   "sessions": 2546
   },
   {
    "device": "mobile",
@@ -671,16 +671,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-coding-agent-ranking-2026",
-   "title": "AI Coding Agent Ranking, August 2026: Claude Code vs Codex vs Cursor vs Grok Build vs Gemini vs Muse Code",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
    "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
    "section": "wire",
@@ -688,6 +678,16 @@
    "author": "dex",
    "views": 15,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "how-to-manage-context-in-a-long-running-agent",
+   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 14,
+   "reads": 11,
    "plays": 0
   }
  ],
