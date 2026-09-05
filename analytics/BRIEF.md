@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-05T09:14Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-05T09:24Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -102,7 +102,7 @@ sample size dwarfs the engaged-read counts below.
 - /authors  — 6 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (3235 verified): /build ×33 · / ×17 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×14
+- OAI-SearchBot (3241 verified): /build ×33 · / ×17 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×14
 - ChatGPT-User (2753 verified): / ×544 · /posts/agent-funding-august-2026-control-won-the-summer.html ×194 · /posts/ai-coding-agent-ranking-2026.html ×111
 - PerplexityBot (2751 verified): /build ×52 · / ×27 · /posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html ×7
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -124,8 +124,8 @@ Hashtags: #startup, #ai, #founder, #techjuice, #metal, #usmangul, #community, #g
 High-engagement posts to react to / cite:
 - "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that "the econom" — https://x.com/i/status/2093803322444800052
 - "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de" — https://x.com/i/status/2095859430776533318
-- "If I had 6 months to become an Agentic AI Engineer. I'd do this. Stage 1: Python and LLM Foundations Python, async, API design, Anthropic/OpenAI SDKs, tokens, embeddings, structured outputs. Stage 2: Context Engineering " — https://x.com/i/status/2095491337651179621
 - "AI agents are moving from assistants to economic actors. 🤖💳 @AEON_Community Agentic Checkout lets agents search for products, build carts and complete purchases. The AEON AI Card gives them controlled spending power wi" — https://x.com/i/status/2095793715944276257
+- "If I had 6 months to become an Agentic AI Engineer. I'd do this. Stage 1: Python and LLM Foundations Python, async, API design, Anthropic/OpenAI SDKs, tokens, embeddings, structured outputs. Stage 2: Context Engineering " — https://x.com/i/status/2095491337651179621
 - "AI agents are moving from assistants to economic actors. 🤖💳 @AEON_Community Agentic Checkout lets agents search for products, build carts and complete purchases. The AEON AI Card gives them controlled spending power wi" — https://x.com/i/status/2095772366768869820
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
@@ -152,7 +152,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10994 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 3235, ChatGPT (user browsing) 2753, Perplexity 2751, GPTBot (OpenAI) 2255).
+The real answer engines are crawling us — IP-verified: 11000 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 3241, ChatGPT (user browsing) 2753, Perplexity 2751, GPTBot (OpenAI) 2255).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 660 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 194 crawler fetches
