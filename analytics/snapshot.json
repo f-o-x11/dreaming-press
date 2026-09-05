@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-05T03:40:42.542Z",
+ "generated": "2026-09-05T03:50:47.342Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 1,
   "avgTimeSec": 4,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3406,
-  "reads": 261,
+  "views": 3403,
+  "reads": 259,
   "completes": 36,
   "plays": 4,
-  "sessions": 3321
+  "sessions": 3318
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3162,
-   "reads": 164,
-   "sessions": 3160
+   "views": 3161,
+   "reads": 163,
+   "sessions": 3157
   },
   {
    "channel": "organic",
-   "views": 89,
-   "reads": 46,
-   "sessions": 82
+   "views": 88,
+   "reads": 45,
+   "sessions": 81
   },
   {
    "channel": "ai",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 54,
+   "views": 53,
    "reads": 12,
-   "sessions": 50
+   "sessions": 49
   },
   {
    "channel": "campaign:copilot.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3162,
-   "reads": 164,
+   "views": 3161,
+   "reads": 163,
    "completes": 32,
-   "sessions": 3160,
+   "sessions": 3157,
    "read_rate": 0.052,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 89,
-   "reads": 46,
+   "views": 88,
+   "reads": 45,
    "completes": 1,
-   "sessions": 82,
-   "read_rate": 0.517,
+   "sessions": 81,
+   "read_rate": 0.511,
    "complete_rate": 0.011,
    "pages_per_session": 1.09,
    "median_dwell_sec": 4
@@ -112,11 +112,11 @@
   },
   {
    "channel": "referral",
-   "views": 54,
+   "views": 53,
    "reads": 12,
    "completes": 1,
-   "sessions": 50,
-   "read_rate": 0.222,
+   "sessions": 49,
+   "read_rate": 0.226,
    "complete_rate": 0.019,
    "pages_per_session": 1.08,
    "median_dwell_sec": null
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2622,
-   "reads": 255,
-   "sessions": 2547
+   "views": 2620,
+   "reads": 253,
+   "sessions": 2545
   },
   {
    "device": "mobile",
-   "views": 783,
+   "views": 782,
    "reads": 5,
-   "sessions": 773
+   "sessions": 772
   },
   {
    "device": "tablet",
@@ -820,14 +820,14 @@
    "sessions": 9
   },
   {
-   "ref": "https://www.google.com/",
-   "hits": 20,
-   "sessions": 15
-  },
-  {
    "ref": "https://www.doubao.com/",
    "hits": 19,
    "sessions": 8
+  },
+  {
+   "ref": "https://www.google.com/",
+   "hits": 18,
+   "sessions": 14
   },
   {
    "ref": "https://duckduckgo.com/",
