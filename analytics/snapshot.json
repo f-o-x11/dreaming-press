@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-05T13:18:13.203Z",
+ "generated": "2026-09-05T13:28:16.654Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 5,
+  "readersNow": 5,
+  "todayReads": 7,
   "avgTimeSec": 11,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3393,
-  "reads": 259,
+  "views": 3392,
+  "reads": 261,
   "completes": 35,
   "plays": 4,
-  "sessions": 3305
+  "sessions": 3304
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3153,
-   "reads": 163,
-   "sessions": 3147
+   "views": 3151,
+   "reads": 165,
+   "sessions": 3145
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 56,
+   "views": 57,
    "reads": 15,
-   "sessions": 54
+   "sessions": 55
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3153,
-   "reads": 163,
+   "views": 3151,
+   "reads": 165,
    "completes": 31,
-   "sessions": 3147,
+   "sessions": 3145,
    "read_rate": 0.052,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -101,12 +101,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 56,
+   "views": 57,
    "reads": 15,
    "completes": 2,
-   "sessions": 54,
-   "read_rate": 0.268,
-   "complete_rate": 0.036,
+   "sessions": 55,
+   "read_rate": 0.263,
+   "complete_rate": 0.035,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
   },
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 59,
+   "views": 60,
    "reads": 16,
-   "sessions": 55
+   "sessions": 56
   },
   {
    "assistant": "Perplexity",
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2606,
-   "reads": 254,
-   "sessions": 2528
+   "views": 2607,
+   "reads": 256,
+   "sessions": 2529
   },
   {
    "device": "mobile",
-   "views": 786,
+   "views": 784,
    "reads": 4,
-   "sessions": 776
+   "sessions": 774
   },
   {
    "device": "tablet",
@@ -457,6 +457,16 @@
    "plays": 0
   },
   {
+   "slug": "how-to-write-a-claude-skill-that-triggers",
+   "title": "How to Write a Claude Skill That Actually Triggers: The SKILL.md Description Craft",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 4,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "gartner-ai-agent-spending-2026",
    "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
    "section": "wire",
@@ -469,16 +479,6 @@
   {
    "slug": "context-engineering-playbook-write-select-compress-isolate",
    "title": "The Context Engineering Playbook for Long-Running Agents: Write, Select, Compress, Isolate",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 9,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "openrouter-vs-litellm-vs-cloudflare-ai-gateway",
-   "title": "OpenRouter vs LiteLLM vs Cloudflare AI Gateway: Marketplace, Proxy, or Edge — How to Route Your LLM Traffic in 2026",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -701,9 +701,9 @@
   },
   {
    "path": "/",
-   "views": 111,
+   "views": 109,
    "reads": 3,
-   "sessions": 110,
+   "sessions": 108,
    "avg_dwell_sec": 11
   },
   {
