@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T15:29:45.165Z",
+ "generated": "2026-09-05T15:39:52.112Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,18 +8,18 @@
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3385,
+  "views": 3383,
   "reads": 260,
   "completes": 35,
   "plays": 4,
-  "sessions": 3298
+  "sessions": 3296
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3145,
+   "views": 3142,
    "reads": 165,
-   "sessions": 3139
+   "sessions": 3136
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 57,
+   "views": 58,
    "reads": 15,
-   "sessions": 55
+   "sessions": 56
   },
   {
    "channel": "referral",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3145,
+   "views": 3142,
    "reads": 165,
    "completes": 31,
-   "sessions": 3139,
-   "read_rate": 0.052,
+   "sessions": 3136,
+   "read_rate": 0.053,
    "complete_rate": 0.01,
    "pages_per_session": 1,
    "median_dwell_sec": 4
@@ -101,12 +101,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 57,
+   "views": 58,
    "reads": 15,
    "completes": 2,
-   "sessions": 55,
-   "read_rate": 0.263,
-   "complete_rate": 0.035,
+   "sessions": 56,
+   "read_rate": 0.259,
+   "complete_rate": 0.034,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
   },
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 60,
+   "views": 61,
    "reads": 16,
-   "sessions": 56
+   "sessions": 57
   },
   {
    "assistant": "Doubao",
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2599,
+   "views": 2597,
    "reads": 255,
-   "sessions": 2522
+   "sessions": 2520
   },
   {
    "device": "mobile",
@@ -362,7 +362,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 32,
+   "views": 30,
    "reads": 7,
    "plays": 0
   },
@@ -554,7 +554,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 32,
+   "views": 30,
    "reads": 7,
    "plays": 0
   },
@@ -606,7 +606,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 63,
+   "views": 62,
    "reads": 0,
    "plays": 0
   },
@@ -626,7 +626,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 32,
+   "views": 30,
    "reads": 7,
    "plays": 0
   },
