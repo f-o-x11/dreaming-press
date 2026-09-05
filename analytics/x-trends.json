@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T18:42:54.540Z",
+ "generated": "2026-09-05T18:53:05.720Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,11 +8,11 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 38
+   "count": 40
   },
   {
    "term": "agent",
-   "count": 31
+   "count": 30
   },
   {
    "term": "founder",
@@ -36,15 +36,15 @@
   },
   {
    "term": "mcp",
-   "count": 16
+   "count": 17
   },
   {
    "term": "build",
-   "count": 16
+   "count": 17
   },
   {
    "term": "code",
-   "count": 13
+   "count": 14
   },
   {
    "term": "launch",
@@ -59,15 +59,19 @@
    "count": 10
   },
   {
+   "term": "claude",
+   "count": 10
+  },
+  {
    "term": "co-founder",
    "count": 10
   },
   {
-   "term": "claude",
-   "count": 9
+   "term": "one",
+   "count": 8
   },
   {
-   "term": "one",
+   "term": "tools",
    "count": 8
   },
   {
@@ -80,10 +84,6 @@
   },
   {
    "term": "next",
-   "count": 7
-  },
-  {
-   "term": "has",
    "count": 7
   }
  ],
@@ -146,7 +146,7 @@
   },
   {
    "text": "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de",
-   "engagement": 833,
+   "engagement": 836,
    "url": "https://x.com/i/status/2095859430776533318",
    "created": "2026-09-04T13:00:02.000Z"
   },
@@ -158,7 +158,7 @@
   },
   {
    "text": "If I had 6 months to become an Agentic AI Engineer. I'd do this. Stage 1: Python and LLM Foundations Python, async, API design, Anthropic/OpenAI SDKs, tokens, embeddings, structured outputs. Stage 2: Context Engineering ",
-   "engagement": 640,
+   "engagement": 641,
    "url": "https://x.com/i/status/2095491337651179621",
    "created": "2026-09-03T12:37:21.000Z"
   },
