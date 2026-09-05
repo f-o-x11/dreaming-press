@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-05T16:10:06.427Z",
+ "generated": "2026-09-05T16:20:16.617Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 7,
-  "avgTimeSec": 29,
+  "avgTimeSec": 28,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3383,
+  "views": 3379,
   "reads": 260,
   "completes": 35,
   "plays": 4,
-  "sessions": 3296
+  "sessions": 3294
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3142,
+   "views": 3139,
    "reads": 165,
-   "sessions": 3136
+   "sessions": 3133
   },
   {
    "channel": "organic",
@@ -29,15 +29,15 @@
   },
   {
    "channel": "ai",
-   "views": 34,
+   "views": 32,
    "reads": 20,
-   "sessions": 43
+   "sessions": 42
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 58,
+   "views": 59,
    "reads": 15,
-   "sessions": 56
+   "sessions": 57
   },
   {
    "channel": "referral",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 22
+   "sessions": 21
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3142,
+   "views": 3139,
    "reads": 165,
    "completes": 31,
-   "sessions": 3136,
+   "sessions": 3133,
    "read_rate": 0.053,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 58,
+   "views": 59,
    "reads": 15,
    "completes": 2,
-   "sessions": 56,
-   "read_rate": 0.259,
+   "sessions": 57,
+   "read_rate": 0.254,
    "complete_rate": 0.034,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 34,
+   "views": 32,
    "reads": 20,
    "completes": 0,
-   "sessions": 43,
-   "read_rate": 0.588,
+   "sessions": 42,
+   "read_rate": 0.625,
    "complete_rate": 0,
-   "pages_per_session": 0.79,
+   "pages_per_session": 0.76,
    "median_dwell_sec": 20
   },
   {
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 22,
+   "sessions": 21,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -210,12 +210,12 @@
    "sessions": 2
   },
   {
-   "surface": "brand",
-   "clicks": 4,
-   "sessions": 4
+   "surface": "dg-title",
+   "clicks": 3,
+   "sessions": 3
   },
   {
-   "surface": "dg-title",
+   "surface": "brand",
    "clicks": 3,
    "sessions": 3
   },
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 61,
+   "views": 62,
    "reads": 16,
-   "sessions": 57
+   "sessions": 58
   },
   {
    "assistant": "Doubao",
@@ -280,9 +280,9 @@
   },
   {
    "assistant": "Perplexity",
-   "views": 12,
+   "views": 10,
    "reads": 8,
-   "sessions": 9
+   "sessions": 8
   },
   {
    "assistant": "Copilot",
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2597,
+   "views": 2592,
    "reads": 255,
-   "sessions": 2520
+   "sessions": 2517
   },
   {
    "device": "mobile",
-   "views": 785,
+   "views": 786,
    "reads": 4,
-   "sessions": 775
+   "sessions": 776
   },
   {
    "device": "tablet",
@@ -701,9 +701,9 @@
   },
   {
    "path": "/",
-   "views": 109,
+   "views": 107,
    "reads": 3,
-   "sessions": 108,
+   "sessions": 106,
    "avg_dwell_sec": 11
   },
   {
@@ -815,13 +815,13 @@
    "sessions": 18
   },
   {
-   "ref": "https://www.perplexity.ai/",
-   "hits": 20,
-   "sessions": 9
-  },
-  {
    "ref": "https://www.doubao.com/",
    "hits": 19,
+   "sessions": 8
+  },
+  {
+   "ref": "https://www.perplexity.ai/",
+   "hits": 18,
    "sessions": 8
   },
   {
