@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-05T01:59:34.760Z",
+ "generated": "2026-09-05T02:09:41.451Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10363,
+ "verifiedAiHits": 10373,
  "logsScanned": 30,
  "windowStart": "2026-08-22",
  "windowEnd": "2026-09-05",
- "totalHits": 117394,
- "aiHits": 88826,
+ "totalHits": 117525,
+ "aiHits": 88920,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 33289,
+   "hits": 33297,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 21536,
+   "hits": 21605,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14969,
+   "hits": 14976,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -113,7 +113,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 12147,
+   "hits": 12180,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6438,
-   "verifiedHits": 6320,
+   "hits": 6441,
+   "verifiedHits": 6323,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3346,
-   "verifiedHits": 3181,
+   "hits": 3347,
+   "verifiedHits": 3182,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3043,
-   "verifiedHits": 609,
+   "hits": 3044,
+   "verifiedHits": 610,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2919,
-   "verifiedHits": 2713,
+   "hits": 2921,
+   "verifiedHits": 2715,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
    "topPaths": [
@@ -373,6 +373,39 @@
    "verifiable": false
   },
   {
+   "name": "PerplexityBot",
+   "label": "Perplexity",
+   "category": "ai",
+   "home": "https://www.perplexity.ai/bot",
+   "hits": 2406,
+   "verifiedHits": 2222,
+   "firstSeen": "2026-08-22",
+   "lastSeen": "2026-09-05",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 41
+    },
+    {
+     "path": "/",
+     "hits": 27
+    },
+    {
+     "path": "/posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html",
+     "hits": 7
+    },
+    {
+     "path": "/authors",
+     "hits": 6
+    },
+    {
+     "path": "/posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html",
+     "hits": 6
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "GPTBot",
    "label": "GPTBot (OpenAI)",
    "category": "ai",
@@ -401,39 +434,6 @@
     {
      "path": "/wire.html",
      "hits": 33
-    }
-   ],
-   "verifiable": true
-  },
-  {
-   "name": "PerplexityBot",
-   "label": "Perplexity",
-   "category": "ai",
-   "home": "https://www.perplexity.ai/bot",
-   "hits": 2399,
-   "verifiedHits": 2215,
-   "firstSeen": "2026-08-22",
-   "lastSeen": "2026-09-05",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 41
-    },
-    {
-     "path": "/",
-     "hits": 27
-    },
-    {
-     "path": "/posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html",
-     "hits": 7
-    },
-    {
-     "path": "/authors",
-     "hits": 6
-    },
-    {
-     "path": "/posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html",
-     "hits": 6
     }
    ],
    "verifiable": true

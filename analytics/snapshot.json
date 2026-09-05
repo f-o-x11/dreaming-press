@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-05T01:59:35.357Z",
+ "generated": "2026-09-05T02:09:42.114Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 0,
+  "readersNow": 2,
+  "todayReads": 1,
   "avgTimeSec": 5,
   "postsThisWeek": 13
  },
  "funnel": {
   "views": 3411,
-  "reads": 261,
+  "reads": 262,
   "completes": 37,
   "plays": 4,
   "sessions": 3327
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3168,
+   "views": 3167,
    "reads": 165,
-   "sessions": 3167
+   "sessions": 3166
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "ai",
-   "views": 34,
-   "reads": 20,
-   "sessions": 42
+   "views": 35,
+   "reads": 21,
+   "sessions": 43
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3168,
+   "views": 3167,
    "reads": 165,
    "completes": 33,
-   "sessions": 3167,
+   "sessions": 3166,
    "read_rate": 0.052,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -123,11 +123,11 @@
   },
   {
    "channel": "ai",
-   "views": 34,
-   "reads": 20,
+   "views": 35,
+   "reads": 21,
    "completes": 0,
-   "sessions": 42,
-   "read_rate": 0.588,
+   "sessions": 43,
+   "read_rate": 0.6,
    "complete_rate": 0,
    "pages_per_session": 0.81,
    "median_dwell_sec": 20
@@ -273,15 +273,15 @@
    "sessions": 54
   },
   {
+   "assistant": "Perplexity",
+   "views": 13,
+   "reads": 9,
+   "sessions": 9
+  },
+  {
    "assistant": "Doubao",
    "views": 10,
    "reads": 9,
-   "sessions": 8
-  },
-  {
-   "assistant": "Perplexity",
-   "views": 12,
-   "reads": 8,
    "sessions": 8
   },
   {
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2620,
-   "reads": 255,
-   "sessions": 2546
+   "views": 2622,
+   "reads": 256,
+   "sessions": 2548
   },
   {
    "device": "mobile",
-   "views": 790,
+   "views": 788,
    "reads": 5,
-   "sessions": 780
+   "sessions": 778
   },
   {
    "device": "tablet",
@@ -816,8 +816,8 @@
   },
   {
    "ref": "https://www.perplexity.ai/",
-   "hits": 20,
-   "sessions": 8
+   "hits": 22,
+   "sessions": 9
   },
   {
    "ref": "https://www.google.com/",
