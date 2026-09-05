@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-05T13:28:15.982Z",
+ "generated": "2026-09-05T13:38:22.695Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11107,
+ "verifiedAiHits": 11109,
  "logsScanned": 30,
  "windowStart": "2026-08-22",
  "windowEnd": "2026-09-05",
- "totalHits": 123223,
- "aiHits": 92296,
+ "totalHits": 123290,
+ "aiHits": 92333,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 34157,
+   "hits": 34183,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15467,
+   "hits": 15475,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -113,7 +113,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 14183,
+   "hits": 14210,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6619,
-   "verifiedHits": 6501,
+   "hits": 6621,
+   "verifiedHits": 6503,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3426,
-   "verifiedHits": 3261,
+   "hits": 3428,
+   "verifiedHits": 3263,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3061,
-   "verifiedHits": 627,
+   "hits": 3062,
+   "verifiedHits": 628,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
    "topPaths": [
@@ -443,14 +443,18 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 1550,
+   "hits": 1551,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
-   "lastSeen": "2026-09-04",
+   "lastSeen": "2026-09-05",
    "topPaths": [
     {
      "path": "/",
      "hits": 4
+    },
+    {
+     "path": "/posts/mistral-shieldstral-open-weight-policy-guard-founders.md",
+     "hits": 2
     },
     {
      "path": "/posts/2026-06-22-bentoml-vs-ray-serve-vs-kserve.html",
@@ -462,10 +466,6 @@
     },
     {
      "path": "/posts/the-number-i-almost-shipped.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/how-to-deploy-an-llm-in-production-vllm-gpu-serving-playbook.md",
      "hits": 2
     }
    ],
