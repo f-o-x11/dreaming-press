@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-05T16:40:34.472Z",
+ "generated": "2026-09-05T16:50:35.917Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11148,
+ "verifiedAiHits": 11150,
  "logsScanned": 30,
  "windowStart": "2026-08-22",
  "windowEnd": "2026-09-05",
- "totalHits": 124575,
- "aiHits": 93199,
+ "totalHits": 124683,
+ "aiHits": 93286,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 34506,
+   "hits": 34547,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 23170,
+   "hits": 23203,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15609,
+   "hits": 15617,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -98,11 +98,11 @@
      "hits": 13
     },
     {
-     "path": "/stacks/autogen%2Bcloudflare-ai-gateway%2Bmem0",
+     "path": "/posts/2026-06-22-mcp-authorization-oauth.html",
      "hits": 10
     },
     {
-     "path": "/stack/qdrant",
+     "path": "/stacks/autogen%2Bcloudflare-ai-gateway%2Bmem0",
      "hits": 10
     }
    ],
@@ -113,7 +113,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 14554,
+   "hits": 14564,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6667,
-   "verifiedHits": 6549,
+   "hits": 6670,
+   "verifiedHits": 6552,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5812,
+   "hits": 5815,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -190,7 +190,7 @@
     },
     {
      "path": "/build",
-     "hits": 38
+     "hits": 39
     },
     {
      "path": "/tags/opinionated",
@@ -208,44 +208,11 @@
    "verifiable": false
   },
   {
-   "name": "OAI-SearchBot",
-   "label": "ChatGPT Search (OpenAI)",
-   "category": "ai",
-   "home": "https://openai.com/searchbot",
-   "hits": 3435,
-   "verifiedHits": 3270,
-   "firstSeen": "2026-08-22",
-   "lastSeen": "2026-09-05",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 33
-    },
-    {
-     "path": "/",
-     "hits": 17
-    },
-    {
-     "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
-     "hits": 15
-    },
-    {
-     "path": "/posts/cheapest-terminal-coding-agent-august-2026-free-floor.html",
-     "hits": 13
-    },
-    {
-     "path": "/posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html",
-     "hits": 13
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "Sogou",
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3431,
+   "hits": 3439,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -272,6 +239,39 @@
     }
    ],
    "verifiable": false
+  },
+  {
+   "name": "OAI-SearchBot",
+   "label": "ChatGPT Search (OpenAI)",
+   "category": "ai",
+   "home": "https://openai.com/searchbot",
+   "hits": 3436,
+   "verifiedHits": 3271,
+   "firstSeen": "2026-08-22",
+   "lastSeen": "2026-09-05",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 33
+    },
+    {
+     "path": "/",
+     "hits": 17
+    },
+    {
+     "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
+     "hits": 15
+    },
+    {
+     "path": "/posts/cheapest-terminal-coding-agent-august-2026-free-floor.html",
+     "hits": 13
+    },
+    {
+     "path": "/posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html",
+     "hits": 13
+    }
+   ],
+   "verifiable": true
   },
   {
    "name": "Googlebot",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3009,
-   "verifiedHits": 2803,
+   "hits": 3010,
+   "verifiedHits": 2804,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
    "topPaths": [

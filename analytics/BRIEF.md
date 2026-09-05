@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-05T16:40Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-05T16:50Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -102,8 +102,8 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html  — 7 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (3270 verified): /build ×33 · / ×17 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×15
-- ChatGPT-User (2803 verified): / ×556 · /posts/agent-funding-august-2026-control-won-the-summer.html ×195 · /posts/ai-coding-agent-ranking-2026.html ×111
+- OAI-SearchBot (3271 verified): /build ×33 · / ×17 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×15
+- ChatGPT-User (2804 verified): / ×556 · /posts/agent-funding-august-2026-control-won-the-summer.html ×195 · /posts/ai-coding-agent-ranking-2026.html ×111
 - PerplexityBot (2818 verified): /build ×53 · / ×27 · /posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html ×7
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -152,9 +152,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 11148 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 3270, ChatGPT (user browsing) 2803, Perplexity 2818, GPTBot (OpenAI) 2257).
+The real answer engines are crawling us — IP-verified: 11150 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 3271, ChatGPT (user browsing) 2804, Perplexity 2818, GPTBot (OpenAI) 2257).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 669 crawler fetches
+- /build  — 670 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 195 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 177 crawler fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 131 crawler fetches
