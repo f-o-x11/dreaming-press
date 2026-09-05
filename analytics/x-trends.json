@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T02:19:48.795Z",
+ "generated": "2026-09-05T02:29:55.752Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 40
+   "count": 41
   },
   {
    "term": "agent",
@@ -16,11 +16,11 @@
   },
   {
    "term": "founder",
-   "count": 27
+   "count": 28
   },
   {
    "term": "startup",
-   "count": 26
+   "count": 24
   },
   {
    "term": "coding",
@@ -28,7 +28,7 @@
   },
   {
    "term": "build",
-   "count": 19
+   "count": 20
   },
   {
    "term": "building",
@@ -36,7 +36,7 @@
   },
   {
    "term": "agentic",
-   "count": 17
+   "count": 16
   },
   {
    "term": "mcp",
@@ -55,6 +55,10 @@
    "count": 10
   },
   {
+   "term": "has",
+   "count": 10
+  },
+  {
    "term": "model",
    "count": 9
   },
@@ -63,19 +67,11 @@
    "count": 9
   },
   {
-   "term": "co-founder",
-   "count": 9
-  },
-  {
    "term": "claude",
    "count": 8
   },
   {
-   "term": "engineer",
-   "count": 8
-  },
-  {
-   "term": "has",
+   "term": "actually",
    "count": 8
   },
   {
@@ -85,20 +81,24 @@
   {
    "term": "gives",
    "count": 8
+  },
+  {
+   "term": "co-founder",
+   "count": 8
   }
  ],
  "hashtags": [
   {
    "term": "#startup",
-   "count": 5
+   "count": 6
   },
   {
    "term": "#ai",
-   "count": 5
+   "count": 6
   },
   {
    "term": "#founder",
-   "count": 3
+   "count": 4
   },
   {
    "term": "#techjuice",
@@ -145,12 +145,6 @@
    "created": "2026-08-29T20:49:47.000Z"
   },
   {
-   "text": "If I had 6 months to become an Agentic AI Engineer. I'd do this. Stage 1: Python and LLM Foundations Python, async, API design, Anthropic/OpenAI SDKs, tokens, embeddings, structured outputs. Stage 2: Context Engineering ",
-   "engagement": 605,
-   "url": "https://x.com/i/status/2095491337651179621",
-   "created": "2026-09-03T12:37:21.000Z"
-  },
-  {
    "text": "AI agents are moving from assistants to economic actors. 🤖💳 @AEON_Community Agentic Checkout lets agents search for products, build carts and complete purchases. The AEON AI Card gives them controlled spending power wi",
    "engagement": 548,
    "url": "https://x.com/i/status/2095793715944276257",
@@ -158,7 +152,7 @@
   },
   {
    "text": "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de",
-   "engagement": 504,
+   "engagement": 510,
    "url": "https://x.com/i/status/2095859430776533318",
    "created": "2026-09-04T13:00:02.000Z"
   },
@@ -185,6 +179,12 @@
    "engagement": 112,
    "url": "https://x.com/i/status/2094379489702879265",
    "created": "2026-08-31T10:59:16.000Z"
+  },
+  {
+   "text": "You can prompt inject the instinct founder. I just found out that instinct has a feedback tool. I'm 100% sure he will put the feedback just into his coding agent. So you can prompt inject his coding agents. https://t.co/",
+   "engagement": 111,
+   "url": "https://x.com/i/status/2093776734751772771",
+   "created": "2026-08-29T19:04:08.000Z"
   }
  ]
 }

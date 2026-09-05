@@ -1,10 +1,10 @@
 {
- "generated": "2026-09-05T02:19:48.850Z",
+ "generated": "2026-09-05T02:29:55.809Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 1,
-  "avgTimeSec": 5,
+  "avgTimeSec": 4,
   "postsThisWeek": 13
  },
  "funnel": {
@@ -12,14 +12,14 @@
   "reads": 262,
   "completes": 37,
   "plays": 4,
-  "sessions": 3327
+  "sessions": 3326
  },
  "channels": [
   {
    "channel": "direct",
    "views": 3167,
    "reads": 165,
-   "sessions": 3166
+   "sessions": 3165
   },
   {
    "channel": "organic",
@@ -82,7 +82,7 @@
    "views": 3167,
    "reads": 165,
    "completes": 33,
-   "sessions": 3166,
+   "sessions": 3165,
    "read_rate": 0.052,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -320,7 +320,7 @@
    "device": "desktop",
    "views": 2622,
    "reads": 256,
-   "sessions": 2548
+   "sessions": 2547
   },
   {
    "device": "mobile",
@@ -397,22 +397,22 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-22-mcp-authorization-oauth",
+   "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 9,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
    "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 9,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-22-mcp-authorization-oauth",
-   "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 8,
    "reads": 4,
    "plays": 0
   },
