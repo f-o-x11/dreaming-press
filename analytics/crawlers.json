@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-05T01:08:55.736Z",
+ "generated": "2026-09-05T01:19:07.578Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10312,
+ "verifiedAiHits": 10339,
  "logsScanned": 30,
  "windowStart": "2026-08-22",
  "windowEnd": "2026-09-05",
- "totalHits": 117013,
- "aiHits": 88621,
+ "totalHits": 117095,
+ "aiHits": 88660,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 33251,
+   "hits": 33255,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14932,
+   "hits": 14940,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -113,7 +113,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 11988,
+   "hits": 12019,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6433,
-   "verifiedHits": 6315,
+   "hits": 6435,
+   "verifiedHits": 6317,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3347,
+   "hits": 3355,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3324,
-   "verifiedHits": 3159,
+   "hits": 3333,
+   "verifiedHits": 3168,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2910,
-   "verifiedHits": 2704,
+   "hits": 2911,
+   "verifiedHits": 2705,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
    "topPaths": [
@@ -344,14 +344,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2710,
+   "hits": 2712,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 35
+     "hits": 36
     },
     {
      "path": "/authors/dex",
@@ -410,29 +410,29 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2379,
-   "verifiedHits": 2195,
+   "hits": 2396,
+   "verifiedHits": 2212,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 38
+     "hits": 41
     },
     {
      "path": "/",
      "hits": 27
     },
     {
+     "path": "/posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html",
+     "hits": 7
+    },
+    {
+     "path": "/authors",
+     "hits": 6
+    },
+    {
      "path": "/posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html",
-     "hits": 6
-    },
-    {
-     "path": "/dashboard",
-     "hits": 6
-    },
-    {
-     "path": "/posts/2026-08-22-founders-wire-nvidia-poolside-anthropic-ipo-gemma-billion.html",
      "hits": 6
     }
    ],

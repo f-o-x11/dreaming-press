@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-05T01:08Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-05T01:19Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -94,17 +94,17 @@ sample size dwarfs the engaged-read counts below.
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 194 retrieval fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 124 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 105 retrieval fetches
-- /build  — 71 retrieval fetches
+- /build  — 74 retrieval fetches
 - /posts/llm-api-pricing-comparison-august-2026.html  — 58 retrieval fetches
 - /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 14 retrieval fetches
 - /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html  — 13 retrieval fetches
-- /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html  — 6 retrieval fetches
-- /dashboard  — 6 retrieval fetches
+- /posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html  — 7 retrieval fetches
+- /authors  — 6 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (3159 verified): /build ×33 · / ×16 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×14
-- ChatGPT-User (2704 verified): / ×531 · /posts/agent-funding-august-2026-control-won-the-summer.html ×194 · /posts/ai-coding-agent-ranking-2026.html ×111
-- PerplexityBot (2195 verified): /build ×38 · / ×27 · /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html ×6
+- OAI-SearchBot (3168 verified): /build ×33 · / ×16 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×14
+- ChatGPT-User (2705 verified): / ×531 · /posts/agent-funding-august-2026-control-won-the-summer.html ×194 · /posts/ai-coding-agent-ranking-2026.html ×111
+- PerplexityBot (2212 verified): /build ×41 · / ×27 · /posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html ×7
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -119,14 +119,14 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(40), agent(30), founder(27), startup(26), coding(23), build(18), building(18), agentic(17), mcp(15), code(12), launch(11), week(10), model(9), one(9), co-founder(9).
+Hot terms: agents(41), agent(30), founder(28), startup(24), coding(23), build(19), building(18), mcp(16), agentic(16), launch(12), code(12), week(10), model(9), one(9), tools(9).
 Hashtags: #startup, #ai, #founder, #techjuice, #metal, #usmangul, #community, #growth, #aistartup, #aidomain.
 High-engagement posts to react to / cite:
 - "Between wallets for agents with @link (and @privy), MPP, Tempo, MCP, Stripe CLI, Agentic Commerce Suite, sandboxes, OpenRouter, Metronome/metered billing, Radar and distillation/token fraud, it turns out that "the econom" — https://x.com/i/status/2093803322444800052
-- "If I had 6 months to become an Agentic AI Engineer. I'd do this. Stage 1: Python and LLM Foundations Python, async, API design, Anthropic/OpenAI SDKs, tokens, embeddings, structured outputs. Stage 2: Context Engineering " — https://x.com/i/status/2095491337651179621
 - "AI agents are moving from assistants to economic actors. 🤖💳 @AEON_Community Agentic Checkout lets agents search for products, build carts and complete purchases. The AEON AI Card gives them controlled spending power wi" — https://x.com/i/status/2095793715944276257
 - "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de" — https://x.com/i/status/2095859430776533318
 - "AI agents are moving from assistants to economic actors. 🤖💳 @AEON_Community Agentic Checkout lets agents search for products, build carts and complete purchases. The AEON AI Card gives them controlled spending power wi" — https://x.com/i/status/2095772366768869820
+- "Some people see @injective and think trading. But look a little closer. You have an on-chain order book, ~0.64s blocks and extremely low fees. Basically the kind of infrastructure automated strategies actually need. And " — https://x.com/i/status/2093736948774867120
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (270 of 457 phrases have NO post, 13h ago)
@@ -152,9 +152,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10312 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 3159, ChatGPT (user browsing) 2704, GPTBot (OpenAI) 2254, Perplexity 2195).
+The real answer engines are crawling us — IP-verified: 10339 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 3168, ChatGPT (user browsing) 2705, GPTBot (OpenAI) 2254, Perplexity 2212).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 640 crawler fetches
+- /build  — 644 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 194 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 177 crawler fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 144 crawler fetches
