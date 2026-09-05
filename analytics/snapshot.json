@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-05T08:13:44.321Z",
+ "generated": "2026-09-05T08:23:47.313Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 1,
+  "readersNow": 3,
+  "todayReads": 2,
   "avgTimeSec": 5,
   "postsThisWeek": 13
  },
  "funnel": {
   "views": 3398,
-  "reads": 258,
+  "reads": 259,
   "completes": 36,
   "plays": 4,
   "sessions": 3312
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3156,
+   "views": 3154,
    "reads": 162,
-   "sessions": 3151
+   "sessions": 3149
   },
   {
    "channel": "organic",
-   "views": 88,
-   "reads": 45,
-   "sessions": 81
+   "views": 90,
+   "reads": 46,
+   "sessions": 83
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3156,
+   "views": 3154,
    "reads": 162,
    "completes": 32,
-   "sessions": 3151,
+   "sessions": 3149,
    "read_rate": 0.051,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -90,13 +90,13 @@
   },
   {
    "channel": "organic",
-   "views": 88,
-   "reads": 45,
+   "views": 90,
+   "reads": 46,
    "completes": 1,
-   "sessions": 81,
+   "sessions": 83,
    "read_rate": 0.511,
    "complete_rate": 0.011,
-   "pages_per_session": 1.09,
+   "pages_per_session": 1.08,
    "median_dwell_sec": 4
   },
   {
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2614,
-   "reads": 252,
-   "sessions": 2538
+   "views": 2613,
+   "reads": 253,
+   "sessions": 2537
   },
   {
    "device": "mobile",
-   "views": 783,
+   "views": 784,
    "reads": 5,
-   "sessions": 773
+   "sessions": 774
   },
   {
    "device": "tablet",
@@ -694,9 +694,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 389,
+   "views": 390,
    "reads": 0,
-   "sessions": 386,
+   "sessions": 387,
    "avg_dwell_sec": 4
   },
   {
@@ -801,8 +801,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 46,
-   "sessions": 22
+   "hits": 48,
+   "sessions": 23
   },
   {
    "ref": "https://cn.bing.com/",
