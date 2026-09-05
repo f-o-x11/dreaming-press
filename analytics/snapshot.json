@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-05T12:06:56.563Z",
+ "generated": "2026-09-05T12:17:12.065Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 3,
   "avgTimeSec": 12,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3399,
+  "views": 3398,
   "reads": 259,
   "completes": 36,
   "plays": 4,
-  "sessions": 3311
+  "sessions": 3310
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3156,
+   "views": 3155,
    "reads": 163,
-   "sessions": 3150
+   "sessions": 3149
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3156,
+   "views": 3155,
    "reads": 163,
    "completes": 32,
-   "sessions": 3150,
+   "sessions": 3149,
    "read_rate": 0.052,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2611,
+   "views": 2610,
    "reads": 254,
-   "sessions": 2533
+   "sessions": 2532
   },
   {
    "device": "mobile",
@@ -362,7 +362,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 36,
+   "views": 35,
    "reads": 7,
    "plays": 0
   },
@@ -554,7 +554,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 36,
+   "views": 35,
    "reads": 7,
    "plays": 0
   },
@@ -611,16 +611,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 36,
-   "reads": 7,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
    "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
    "section": "stack",
@@ -628,6 +618,16 @@
    "author": "dex",
    "views": 36,
    "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 35,
+   "reads": 7,
    "plays": 0
   },
   {
