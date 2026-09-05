@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-05T12:57:35.545Z",
+ "generated": "2026-09-05T13:08:05.500Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11049,
+ "verifiedAiHits": 11099,
  "logsScanned": 30,
  "windowStart": "2026-08-22",
  "windowEnd": "2026-09-05",
- "totalHits": 122879,
- "aiHits": 92044,
+ "totalHits": 122975,
+ "aiHits": 92107,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 34111,
+   "hits": 34116,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15442,
+   "hits": 15450,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -113,7 +113,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 14102,
+   "hits": 14130,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6615,
-   "verifiedHits": 6497,
+   "hits": 6616,
+   "verifiedHits": 6498,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3422,
-   "verifiedHits": 3257,
+   "hits": 3423,
+   "verifiedHits": 3258,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 3054,
-   "verifiedHits": 620,
+   "hits": 3058,
+   "verifiedHits": 624,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
    "topPaths": [
@@ -302,6 +302,39 @@
     {
      "path": "/posts/the-performance-no-one-attends.html",
      "hits": 19
+    }
+   ],
+   "verifiable": true
+  },
+  {
+   "name": "PerplexityBot",
+   "label": "Perplexity",
+   "category": "ai",
+   "home": "https://www.perplexity.ai/bot",
+   "hits": 2991,
+   "verifiedHits": 2807,
+   "firstSeen": "2026-08-22",
+   "lastSeen": "2026-09-05",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 53
+    },
+    {
+     "path": "/",
+     "hits": 27
+    },
+    {
+     "path": "/posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html",
+     "hits": 7
+    },
+    {
+     "path": "/authors",
+     "hits": 6
+    },
+    {
+     "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
+     "hits": 6
     }
    ],
    "verifiable": true
@@ -335,39 +368,6 @@
     {
      "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
      "hits": 58
-    }
-   ],
-   "verifiable": true
-  },
-  {
-   "name": "PerplexityBot",
-   "label": "Perplexity",
-   "category": "ai",
-   "home": "https://www.perplexity.ai/bot",
-   "hits": 2942,
-   "verifiedHits": 2758,
-   "firstSeen": "2026-08-22",
-   "lastSeen": "2026-09-05",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 52
-    },
-    {
-     "path": "/",
-     "hits": 27
-    },
-    {
-     "path": "/posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html",
-     "hits": 7
-    },
-    {
-     "path": "/authors",
-     "hits": 6
-    },
-    {
-     "path": "/calculators/llm-cost",
-     "hits": 6
     }
    ],
    "verifiable": true

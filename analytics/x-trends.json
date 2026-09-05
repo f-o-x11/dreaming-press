@@ -1,6 +1,6 @@
 {
- "generated": "2026-09-05T12:57:36.000Z",
- "sampled": 79,
+ "generated": "2026-09-05T13:08:06.131Z",
+ "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
   "(LLM OR \"coding agent\" OR RAG OR \"AI startup\") founder -is:retweet -is:reply lang:en"
@@ -8,11 +8,11 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 37
+   "count": 38
   },
   {
    "term": "agent",
-   "count": 31
+   "count": 32
   },
   {
    "term": "founder",
@@ -28,19 +28,19 @@
   },
   {
    "term": "agentic",
-   "count": 18
+   "count": 19
   },
   {
    "term": "building",
-   "count": 17
+   "count": 18
+  },
+  {
+   "term": "mcp",
+   "count": 16
   },
   {
    "term": "build",
    "count": 16
-  },
-  {
-   "term": "mcp",
-   "count": 15
   },
   {
    "term": "launch",
@@ -146,7 +146,7 @@
   },
   {
    "text": "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de",
-   "engagement": 707,
+   "engagement": 715,
    "url": "https://x.com/i/status/2095859430776533318",
    "created": "2026-09-04T13:00:02.000Z"
   },
