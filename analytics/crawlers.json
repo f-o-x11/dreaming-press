@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-05T20:13:47.969Z",
+ "generated": "2026-09-05T20:24:07.370Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11239,
+ "verifiedAiHits": 11241,
  "logsScanned": 30,
  "windowStart": "2026-08-22",
  "windowEnd": "2026-09-05",
- "totalHits": 125726,
- "aiHits": 94092,
+ "totalHits": 125856,
+ "aiHits": 94201,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 34792,
+   "hits": 34890,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 212
+     "hits": 213
     },
     {
      "path": "/tags/opinionated",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 23518,
+   "hits": 23519,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15761,
+   "hits": 15768,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -113,7 +113,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 14730,
+   "hits": 14746,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6717,
-   "verifiedHits": 6599,
+   "hits": 6720,
+   "verifiedHits": 6602,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3479,
-   "verifiedHits": 3314,
+   "hits": 3480,
+   "verifiedHits": 3315,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
    "topPaths": [
@@ -344,8 +344,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3022,
-   "verifiedHits": 2838,
+   "hits": 3023,
+   "verifiedHits": 2839,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
    "topPaths": [
@@ -377,14 +377,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2769,
+   "hits": 2771,
    "verifiedHits": 0,
    "firstSeen": "2026-08-22",
    "lastSeen": "2026-09-05",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 36
+     "hits": 37
     },
     {
      "path": "/authors/dex",
@@ -443,7 +443,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 1553,
+   "hits": 1554,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-05",
@@ -465,7 +465,7 @@
      "hits": 2
     },
     {
-     "path": "/posts/2026-06-22-bentoml-vs-ray-serve-vs-kserve.html",
+     "path": "/posts/claude-code-background-agents-draft-pr-review-queue-founders.md",
      "hits": 2
     }
    ],

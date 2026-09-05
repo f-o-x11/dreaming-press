@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-05T20:13:48.541Z",
+ "generated": "2026-09-05T20:24:07.938Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 8,
   "avgTimeSec": 27,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3357,
+  "views": 3353,
   "reads": 261,
   "completes": 35,
   "plays": 4,
-  "sessions": 3271
+  "sessions": 3267
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3117,
+   "views": 3113,
    "reads": 165,
-   "sessions": 3110
+   "sessions": 3106
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3117,
+   "views": 3113,
    "reads": 165,
    "completes": 31,
-   "sessions": 3110,
+   "sessions": 3106,
    "read_rate": 0.053,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -324,9 +324,9 @@
   },
   {
    "device": "mobile",
-   "views": 777,
+   "views": 773,
    "reads": 5,
-   "sessions": 767
+   "sessions": 763
   },
   {
    "device": "tablet",
@@ -352,7 +352,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 14,
+   "views": 15,
    "reads": 11,
    "plays": 0
   },
@@ -544,7 +544,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 14,
+   "views": 15,
    "reads": 11,
    "plays": 0
   },
@@ -671,6 +671,16 @@
    "plays": 0
   },
   {
+   "slug": "how-to-manage-context-in-a-long-running-agent",
+   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 15,
+   "reads": 11,
+   "plays": 0
+  },
+  {
    "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
    "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
    "section": "wire",
@@ -678,16 +688,6 @@
    "author": "dex",
    "views": 15,
    "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "how-to-manage-context-in-a-long-running-agent",
-   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 14,
-   "reads": 11,
    "plays": 0
   }
  ],
