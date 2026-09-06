@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-06T22:56:54.790Z",
+ "generated": "2026-09-06T23:07:05.906Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16090,
+ "verifiedAiHits": 16142,
  "logsScanned": 30,
  "windowStart": "2026-08-23",
  "windowEnd": "2026-09-06",
- "totalHits": 129898,
- "aiHits": 97688,
+ "totalHits": 130009,
+ "aiHits": 97782,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36853,
+   "hits": 36878,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 20862,
+   "hits": 20872,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 16501,
+   "hits": 16516,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15813,
+   "hits": 15820,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -146,14 +146,14 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 7584,
-   "verifiedHits": 7493,
+   "hits": 7633,
+   "verifiedHits": 7542,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 139
+     "hits": 141
     },
     {
      "path": "/",
@@ -168,8 +168,8 @@
      "hits": 9
     },
     {
-     "path": "/posts/how-to-deploy-an-llm-in-production-vllm-gpu-serving-playbook.html",
-     "hits": 8
+     "path": "/posts/2026-08-28-founders-wire-ai-cyber-defense-microduck-vertical-agents.html",
+     "hits": 9
     }
    ],
    "verifiable": true
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6643,
-   "verifiedHits": 6519,
+   "hits": 6645,
+   "verifiedHits": 6521,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3510,
-   "verifiedHits": 3438,
+   "hits": 3511,
+   "verifiedHits": 3439,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2992,
-   "verifiedHits": 2897,
+   "hits": 2994,
+   "verifiedHits": 2899,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
    "topPaths": [

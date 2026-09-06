@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-06T22:56:55.230Z",
+ "generated": "2026-09-06T23:07:06.491Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 36
+   "count": 34
   },
   {
    "term": "startup",
@@ -19,24 +19,24 @@
    "count": 26
   },
   {
+   "term": "agentic",
+   "count": 24
+  },
+  {
    "term": "agent",
-   "count": 25
+   "count": 24
   },
   {
    "term": "building",
    "count": 23
   },
   {
-   "term": "agentic",
-   "count": 22
+   "term": "coding",
+   "count": 18
   },
   {
    "term": "mcp",
-   "count": 18
-  },
-  {
-   "term": "coding",
-   "count": 18
+   "count": 17
   },
   {
    "term": "build",
@@ -44,19 +44,19 @@
   },
   {
    "term": "code",
-   "count": 14
-  },
-  {
-   "term": "claude",
-   "count": 12
-  },
-  {
-   "term": "model",
-   "count": 11
+   "count": 13
   },
   {
    "term": "launch",
    "count": 10
+  },
+  {
+   "term": "model",
+   "count": 10
+  },
+  {
+   "term": "claude",
+   "count": 9
   },
   {
    "term": "co-founder",
@@ -109,6 +109,18 @@
    "count": 1
   },
   {
+   "term": "#aiagents",
+   "count": 1
+  },
+  {
+   "term": "#mcp",
+   "count": 1
+  },
+  {
+   "term": "#aiautomation",
+   "count": 1
+  },
+  {
    "term": "#techjuice",
    "count": 1
   },
@@ -122,18 +134,6 @@
   },
   {
    "term": "#community",
-   "count": 1
-  },
-  {
-   "term": "#growth",
-   "count": 1
-  },
-  {
-   "term": "#techbbq",
-   "count": 1
-  },
-  {
-   "term": "#octopus",
    "count": 1
   }
  ],
