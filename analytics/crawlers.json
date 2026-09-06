@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-06T08:44:15.763Z",
+ "generated": "2026-09-06T08:54:20.931Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15413,
+ "verifiedAiHits": 15505,
  "logsScanned": 30,
  "windowStart": "2026-08-23",
  "windowEnd": "2026-09-06",
- "totalHits": 125478,
- "aiHits": 94473,
+ "totalHits": 125610,
+ "aiHits": 94591,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35997,
+   "hits": 36013,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 20118,
+   "hits": 20121,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 15698,
+   "hits": 15709,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15202,
+   "hits": 15209,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -146,14 +146,14 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 7172,
-   "verifiedHits": 7081,
+   "hits": 7264,
+   "verifiedHits": 7173,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 133
+     "hits": 135
     },
     {
      "path": "/",
@@ -161,7 +161,7 @@
     },
     {
      "path": "/posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html",
-     "hits": 8
+     "hits": 9
     },
     {
      "path": "/posts/how-to-deploy-an-llm-in-production-vllm-gpu-serving-playbook.html",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6416,
-   "verifiedHits": 6295,
+   "hits": 6419,
+   "verifiedHits": 6298,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
    "topPaths": [
