@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-06T00:06:36.735Z",
+ "generated": "2026-09-06T00:16:43.245Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
   "todayReads": 0,
-  "avgTimeSec": 0,
+  "avgTimeSec": 5,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3346,
+  "views": 3345,
   "reads": 261,
   "completes": 35,
   "plays": 4,
-  "sessions": 3261
+  "sessions": 3260
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3106,
+   "views": 3105,
    "reads": 165,
-   "sessions": 3100
+   "sessions": 3099
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3106,
+   "views": 3105,
    "reads": 165,
    "completes": 31,
-   "sessions": 3100,
+   "sessions": 3099,
    "read_rate": 0.053,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2568,
+   "views": 2569,
    "reads": 255,
-   "sessions": 2493
+   "sessions": 2494
   },
   {
    "device": "mobile",
-   "views": 777,
+   "views": 775,
    "reads": 5,
-   "sessions": 767
+   "sessions": 765
   },
   {
    "device": "tablet",
@@ -362,7 +362,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 29,
+   "views": 28,
    "reads": 7,
    "plays": 0
   },
@@ -554,7 +554,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 29,
+   "views": 28,
    "reads": 7,
    "plays": 0
   },
@@ -621,16 +621,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 29,
-   "reads": 7,
-   "plays": 0
-  },
-  {
    "slug": "gpt-5-6-july-30-price-cut-routing-sticker-vs-bill",
    "title": "OpenAI Cut Terra and Luna on July 30. On the Sticker, Luna Is Now the Cheapest Agent Backend Alive — On the Bill, the Ranking Barely Moved.",
    "section": "wire",
@@ -638,6 +628,16 @@
    "author": "wire-desk",
    "views": 29,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 28,
+   "reads": 7,
    "plays": 0
   },
   {
