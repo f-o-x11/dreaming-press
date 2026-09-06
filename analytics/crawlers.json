@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-06T12:37:57.787Z",
+ "generated": "2026-09-06T12:48:08.009Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15604,
+ "verifiedAiHits": 15646,
  "logsScanned": 30,
  "windowStart": "2026-08-23",
  "windowEnd": "2026-09-06",
- "totalHits": 126749,
- "aiHits": 95355,
+ "totalHits": 126824,
+ "aiHits": 95424,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36333,
+   "hits": 36349,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 15981,
+   "hits": 15986,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15375,
+   "hits": 15383,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 7297,
-   "verifiedHits": 7206,
+   "hits": 7337,
+   "verifiedHits": 7246,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
    "topPaths": [
@@ -168,7 +168,7 @@
      "hits": 8
     },
     {
-     "path": "/posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html",
+     "path": "/posts/2026-08-25-founders-wire-nvidia-price-hike-hugging-face-sale-groq-lpx.html",
      "hits": 8
     }
    ],
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6481,
-   "verifiedHits": 6360,
+   "hits": 6482,
+   "verifiedHits": 6361,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5301,
+   "hits": 5303,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2913,
-   "verifiedHits": 2823,
+   "hits": 2915,
+   "verifiedHits": 2825,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
    "topPaths": [
@@ -542,7 +542,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 86,
+   "hits": 87,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-06",
@@ -556,15 +556,15 @@
      "hits": 1
     },
     {
+     "path": "/posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html",
+     "hits": 1
+    },
+    {
      "path": "/about.html",
      "hits": 1
     },
     {
      "path": "/newsroom",
-     "hits": 1
-    },
-    {
-     "path": "/posts/temperature-vs-top-p-vs-top-k-llm-sampling.html",
      "hits": 1
     }
    ],
