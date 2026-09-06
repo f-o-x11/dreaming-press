@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-06T11:06:47.694Z",
+ "generated": "2026-09-06T11:17:01.555Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
-  "todayReads": 7,
+  "todayReads": 8,
   "avgTimeSec": 9,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3349,
-  "reads": 254,
+  "views": 3350,
+  "reads": 255,
   "completes": 34,
   "plays": 5,
-  "sessions": 3269
+  "sessions": 3270
  },
  "channels": [
   {
@@ -23,9 +23,9 @@
   },
   {
    "channel": "organic",
-   "views": 84,
-   "reads": 42,
-   "sessions": 77
+   "views": 85,
+   "reads": 43,
+   "sessions": 78
   },
   {
    "channel": "ai",
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 84,
-   "reads": 42,
+   "views": 85,
+   "reads": 43,
    "completes": 1,
-   "sessions": 77,
-   "read_rate": 0.5,
+   "sessions": 78,
+   "read_rate": 0.506,
    "complete_rate": 0.012,
    "pages_per_session": 1.09,
    "median_dwell_sec": 4
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2569,
-   "reads": 248,
-   "sessions": 2498
+   "views": 2570,
+   "reads": 249,
+   "sessions": 2499
   },
   {
    "device": "mobile",
@@ -367,6 +367,16 @@
    "plays": 0
   },
   {
+   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
+   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 10,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
@@ -382,16 +392,6 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 9,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
-   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
    "views": 9,
    "reads": 4,
    "plays": 0
@@ -559,6 +559,16 @@
    "plays": 0
   },
   {
+   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
+   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 10,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
@@ -574,16 +584,6 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 9,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
-   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
    "views": 9,
    "reads": 4,
    "plays": 0
@@ -801,8 +801,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 48,
-   "sessions": 23
+   "hits": 50,
+   "sessions": 24
   },
   {
    "ref": "https://chatgpt.com/",
