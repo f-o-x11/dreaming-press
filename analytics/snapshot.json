@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-06T09:25:16.316Z",
+ "generated": "2026-09-06T09:35:54.992Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 3,
   "todayReads": 7,
   "avgTimeSec": 9,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3335,
+  "views": 3336,
   "reads": 254,
   "completes": 34,
   "plays": 5,
-  "sessions": 3254
+  "sessions": 3255
  },
  "channels": [
   {
@@ -35,9 +35,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 60,
+   "views": 61,
    "reads": 16,
-   "sessions": 58
+   "sessions": 59
   },
   {
    "channel": "referral",
@@ -101,11 +101,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 60,
+   "views": 61,
    "reads": 16,
    "completes": 2,
-   "sessions": 58,
-   "read_rate": 0.267,
+   "sessions": 59,
+   "read_rate": 0.262,
    "complete_rate": 0.033,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 63,
+   "views": 64,
    "reads": 17,
-   "sessions": 59
+   "sessions": 60
   },
   {
    "assistant": "Doubao",
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2561,
+   "views": 2563,
    "reads": 248,
-   "sessions": 2489
+   "sessions": 2491
   },
   {
    "device": "mobile",
-   "views": 773,
+   "views": 772,
    "reads": 5,
-   "sessions": 764
+   "sessions": 763
   },
   {
    "device": "tablet",
@@ -362,7 +362,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 24,
+   "views": 23,
    "reads": 5,
    "plays": 0
   },
@@ -554,7 +554,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 24,
+   "views": 23,
    "reads": 5,
    "plays": 0
   },
@@ -646,7 +646,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 24,
+   "views": 23,
    "reads": 5,
    "plays": 0
   },
@@ -694,9 +694,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 389,
+   "views": 390,
    "reads": 0,
-   "sessions": 386,
+   "sessions": 387,
    "avg_dwell_sec": 4
   },
   {
