@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-06T04:09:46.435Z",
+ "generated": "2026-09-06T04:20:06.417Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 2,
   "todayReads": 1,
   "avgTimeSec": 5,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3341,
+  "views": 3339,
   "reads": 254,
   "completes": 32,
   "plays": 4,
-  "sessions": 3257
+  "sessions": 3256
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3104,
+   "views": 3103,
    "reads": 160,
-   "sessions": 3097
+   "sessions": 3096
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 50,
+   "views": 49,
    "reads": 12,
-   "sessions": 46
+   "sessions": 45
   },
   {
    "channel": "campaign:copilot.com",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 21
+   "sessions": 20
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3104,
+   "views": 3103,
    "reads": 160,
    "completes": 28,
-   "sessions": 3097,
+   "sessions": 3096,
    "read_rate": 0.052,
    "complete_rate": 0.009,
    "pages_per_session": 1,
@@ -112,11 +112,11 @@
   },
   {
    "channel": "referral",
-   "views": 50,
+   "views": 49,
    "reads": 12,
    "completes": 1,
-   "sessions": 46,
-   "read_rate": 0.24,
+   "sessions": 45,
+   "read_rate": 0.245,
    "complete_rate": 0.02,
    "pages_per_session": 1.09,
    "median_dwell_sec": null
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 21,
+   "sessions": 20,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -260,7 +260,7 @@
    "sessions": 1
   },
   {
-   "surface": "mtabbar",
+   "surface": "more",
    "clicks": 1,
    "sessions": 1
   }
@@ -324,9 +324,9 @@
   },
   {
    "device": "mobile",
-   "views": 775,
+   "views": 773,
    "reads": 5,
-   "sessions": 765
+   "sessions": 764
   },
   {
    "device": "tablet",
@@ -701,9 +701,9 @@
   },
   {
    "path": "/",
-   "views": 107,
+   "views": 106,
    "reads": 3,
-   "sessions": 106,
+   "sessions": 105,
    "avg_dwell_sec": 11
   },
   {
