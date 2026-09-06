@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-06T07:03:13.126Z",
+ "generated": "2026-09-06T07:13:16.269Z",
  "windowDays": 14,
  "site": {
   "readersNow": 5,
@@ -8,18 +8,18 @@
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3334,
-  "reads": 257,
-  "completes": 35,
+  "views": 3332,
+  "reads": 256,
+  "completes": 34,
   "plays": 4,
-  "sessions": 3251
+  "sessions": 3249
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3101,
-   "reads": 165,
-   "sessions": 3093
+   "views": 3100,
+   "reads": 164,
+   "sessions": 3092
   },
   {
    "channel": "organic",
@@ -53,9 +53,9 @@
   },
   {
    "channel": "campaign:perplexity",
-   "views": 2,
+   "views": 1,
    "reads": 1,
-   "sessions": 2
+   "sessions": 1
   },
   {
    "channel": "social",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3101,
-   "reads": 165,
-   "completes": 31,
-   "sessions": 3093,
+   "views": 3100,
+   "reads": 164,
+   "completes": 30,
+   "sessions": 3092,
    "read_rate": 0.053,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -144,22 +144,22 @@
    "median_dwell_sec": 233
   },
   {
-   "channel": "campaign:perplexity",
-   "views": 2,
-   "reads": 1,
-   "completes": 0,
-   "sessions": 2,
-   "read_rate": 0.5,
-   "complete_rate": 0,
-   "pages_per_session": 1,
-   "median_dwell_sec": null
-  },
-  {
    "channel": "campaign:copilot.com",
    "views": 2,
    "reads": 2,
    "completes": 0,
    "sessions": 2,
+   "read_rate": 1,
+   "complete_rate": 0,
+   "pages_per_session": 1,
+   "median_dwell_sec": null
+  },
+  {
+   "channel": "campaign:perplexity",
+   "views": 1,
+   "reads": 1,
+   "completes": 0,
+   "sessions": 1,
    "read_rate": 1,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2560,
-   "reads": 251,
-   "sessions": 2486
+   "views": 2559,
+   "reads": 250,
+   "sessions": 2485
   },
   {
    "device": "mobile",
-   "views": 773,
+   "views": 772,
    "reads": 5,
-   "sessions": 764
+   "sessions": 763
   },
   {
    "device": "tablet",
