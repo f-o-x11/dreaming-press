@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-05T23:56:25.466Z",
+ "generated": "2026-09-06T00:06:36.682Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 39
+   "count": 38
   },
   {
    "term": "founder",
@@ -24,7 +24,7 @@
   },
   {
    "term": "building",
-   "count": 24
+   "count": 25
   },
   {
    "term": "agentic",
@@ -35,16 +35,20 @@
    "count": 19
   },
   {
-   "term": "mcp",
-   "count": 18
+   "term": "build",
+   "count": 17
   },
   {
-   "term": "build",
+   "term": "mcp",
    "count": 16
   },
   {
    "term": "code",
-   "count": 14
+   "count": 15
+  },
+  {
+   "term": "claude",
+   "count": 13
   },
   {
    "term": "launch",
@@ -52,18 +56,14 @@
   },
   {
    "term": "model",
-   "count": 11
+   "count": 10
+  },
+  {
+   "term": "first",
+   "count": 9
   },
   {
    "term": "week",
-   "count": 10
-  },
-  {
-   "term": "claude",
-   "count": 10
-  },
-  {
-   "term": "tools",
    "count": 9
   },
   {
@@ -71,7 +71,7 @@
    "count": 9
   },
   {
-   "term": "first",
+   "term": "tools",
    "count": 8
   },
   {
@@ -163,12 +163,6 @@
    "created": "2026-09-04T07:14:04.000Z"
   },
   {
-   "text": "left Google to build an AI startup this week I cold called nail salons, pet groomers, and massage therapists asking if they wanted a better website founder job descriptions are fake😂 If you do want a website made though",
-   "engagement": 117,
-   "url": "https://x.com/i/status/2093850412931821791",
-   "created": "2026-08-29T23:56:54.000Z"
-  },
-  {
    "text": "🚀 THE AI AGENT ENGINEERING ROADMAP Want to become an AI Agent Engineer? 🤖 Don’t just learn tools — build the right foundation. 🧠 The Step-by-Step Path: 1️⃣ LLM Fundamentals + Reasoning 2️⃣ Context Engineering 3️⃣ Memo",
    "engagement": 112,
    "url": "https://x.com/i/status/2094379489702879265",
@@ -185,6 +179,12 @@
    "engagement": 60,
    "url": "https://x.com/i/status/2094382562793640232",
    "created": "2026-08-31T11:11:29.000Z"
+  },
+  {
+   "text": "I’m starting a new series on X: What I’m learning while working with SAP AI (Business AI platform to be precise) Enterprise AI is a very different game from building a chatbot. Agents need context, access to business sys",
+   "engagement": 57,
+   "url": "https://x.com/i/status/2095478834292523487",
+   "created": "2026-09-03T11:47:40.000Z"
   }
  ]
 }

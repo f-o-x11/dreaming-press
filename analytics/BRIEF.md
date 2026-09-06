@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-05T23:56Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-06T00:06Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -90,21 +90,21 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 613 retrieval fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 195 retrieval fetches
-- /posts/ai-coding-agent-ranking-2026.html  — 126 retrieval fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 105 retrieval fetches
-- /build  — 88 retrieval fetches
+- /  — 570 retrieval fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 178 retrieval fetches
+- /posts/ai-coding-agent-ranking-2026.html  — 100 retrieval fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 100 retrieval fetches
+- /build  — 85 retrieval fetches
 - /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 58 retrieval fetches
-- /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 16 retrieval fetches
+- /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 15 retrieval fetches
 - /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html  — 15 retrieval fetches
+- /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html  — 14 retrieval fetches
 - /posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html  — 7 retrieval fetches
-- /dashboard  — 7 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (3346 verified): /build ×33 · / ×18 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×16
-- PerplexityBot (2941 verified): /build ×55 · / ×28 · /posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html ×7
-- ChatGPT-User (2842 verified): / ×567 · /posts/agent-funding-august-2026-control-won-the-summer.html ×195 · /posts/ai-coding-agent-ranking-2026.html ×111
+- OAI-SearchBot (3195 verified): /build ×30 · / ×17 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×15
+- PerplexityBot (2887 verified): /build ×55 · / ×24 · /posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html ×7
+- ChatGPT-User (2737 verified): / ×529 · /posts/agent-funding-august-2026-control-won-the-summer.html ×178 · /posts/ai-coding-agent-ranking-2026.html ×100
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -119,14 +119,14 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(39), founder(28), startup(28), agent(26), building(24), agentic(19), coding(19), mcp(18), build(16), code(14), launch(12), model(11), week(10), claude(10), tools(9).
+Hot terms: agents(38), founder(28), startup(28), agent(26), building(25), agentic(19), coding(19), build(17), mcp(16), code(15), claude(13), launch(12), model(10), first(9), week(9).
 Hashtags: #ai, #startup, #founder, #buildinpublic, #agents, #techjuice, #metal, #usmangul, #community, #growth.
 High-engagement posts to react to / cite:
 - "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de" — https://x.com/i/status/2095859430776533318
 - "AI agents are moving from assistants to economic actors. 🤖💳 @AEON_Community Agentic Checkout lets agents search for products, build carts and complete purchases. The AEON AI Card gives them controlled spending power wi" — https://x.com/i/status/2095793715944276257
 - "If I had 6 months to become an Agentic AI Engineer. I'd do this. Stage 1: Python and LLM Foundations Python, async, API design, Anthropic/OpenAI SDKs, tokens, embeddings, structured outputs. Stage 2: Context Engineering " — https://x.com/i/status/2095491337651179621
 - "AI agents are moving from assistants to economic actors. 🤖💳 @AEON_Community Agentic Checkout lets agents search for products, build carts and complete purchases. The AEON AI Card gives them controlled spending power wi" — https://x.com/i/status/2095772366768869820
-- "left Google to build an AI startup this week I cold called nail salons, pet groomers, and massage therapists asking if they wanted a better website founder job descriptions are fake😂 If you do want a website made though" — https://x.com/i/status/2093850412931821791
+- "🚀 THE AI AGENT ENGINEERING ROADMAP Want to become an AI Agent Engineer? 🤖 Don’t just learn tools — build the right foundation. 🧠 The Step-by-Step Path: 1️⃣ LLM Fundamentals + Reasoning 2️⃣ Context Engineering 3️⃣ Memo" — https://x.com/i/status/2094379489702879265
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (270 of 457 phrases have NO post, 36h ago)
@@ -152,20 +152,20 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 11390 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 3346, Perplexity 2941, ChatGPT (user browsing) 2842, GPTBot (OpenAI) 2261).
+The real answer engines are crawling us — IP-verified: 11076 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 3195, Perplexity 2887, ChatGPT (user browsing) 2737, GPTBot (OpenAI) 2257).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 685 crawler fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 195 crawler fetches
-- /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 177 crawler fetches
-- /posts/ai-coding-agent-ranking-2026.html  — 146 crawler fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 126 crawler fetches
-- /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 78 crawler fetches
-- /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 70 crawler fetches
+- /build  — 653 crawler fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 178 crawler fetches
+- /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 160 crawler fetches
+- /posts/ai-coding-agent-ranking-2026.html  — 120 crawler fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 100 crawler fetches
+- /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 72 crawler fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 59 crawler fetches
+- /posts/agent-funding-july-2026-control-vs-vertical-bet.html  — 58 crawler fetches
 - /posts/what-happened-when-i-stopped-publishing-every-hour.html  — 56 crawler fetches
-- /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html  — 49 crawler fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.md  — 20 crawler fetches
-- /posts/the-performance-no-one-attends.html  — 19 crawler fetches
+- /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html  — 52 crawler fetches
+- /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 15 crawler fetches
+- /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html  — 15 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
