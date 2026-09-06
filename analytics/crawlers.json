@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-06T01:27:29.778Z",
+ "generated": "2026-09-06T01:37:36.811Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11107,
+ "verifiedAiHits": 11438,
  "logsScanned": 30,
  "windowStart": "2026-08-23",
  "windowEnd": "2026-09-06",
- "totalHits": 119039,
- "aiHits": 89057,
+ "totalHits": 119422,
+ "aiHits": 89414,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35475,
+   "hits": 35494,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 15056,
+   "hits": 15069,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -113,21 +113,21 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14886,
+   "hits": 14892,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
    "topPaths": [
+    {
+     "path": "/tags/reportive",
+     "hits": 14
+    },
     {
      "path": "/stack.html",
      "hits": 13
     },
     {
      "path": "/tags/opinionated",
-     "hits": 13
-    },
-    {
-     "path": "/tags/reportive",
      "hits": 13
     },
     {
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6186,
-   "verifiedHits": 6169,
+   "hits": 6191,
+   "verifiedHits": 6174,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5242,
+   "hits": 5243,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -206,6 +206,39 @@
     }
    ],
    "verifiable": false
+  },
+  {
+   "name": "PerplexityBot",
+   "label": "Perplexity",
+   "category": "ai",
+   "home": "https://www.perplexity.ai/bot",
+   "hits": 3311,
+   "verifiedHits": 3220,
+   "firstSeen": "2026-08-23",
+   "lastSeen": "2026-09-06",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 55
+    },
+    {
+     "path": "/",
+     "hits": 25
+    },
+    {
+     "path": "/posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html",
+     "hits": 8
+    },
+    {
+     "path": "/posts/how-to-deploy-an-llm-in-production-vllm-gpu-serving-playbook.html",
+     "hits": 7
+    },
+    {
+     "path": "/dashboard",
+     "hits": 7
+    }
+   ],
+   "verifiable": true
   },
   {
    "name": "OAI-SearchBot",
@@ -274,39 +307,6 @@
    "verifiable": false
   },
   {
-   "name": "PerplexityBot",
-   "label": "Perplexity",
-   "category": "ai",
-   "home": "https://www.perplexity.ai/bot",
-   "hits": 2980,
-   "verifiedHits": 2889,
-   "firstSeen": "2026-08-23",
-   "lastSeen": "2026-09-06",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 55
-    },
-    {
-     "path": "/",
-     "hits": 24
-    },
-    {
-     "path": "/posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html",
-     "hits": 7
-    },
-    {
-     "path": "/dashboard",
-     "hits": 7
-    },
-    {
-     "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
-     "hits": 6
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "ChatGPT-User",
    "label": "ChatGPT (user browsing)",
    "category": "ai",
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2547,
+   "hits": 2552,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -410,8 +410,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2204,
-   "verifiedHits": 625,
+   "hits": 2205,
+   "verifiedHits": 626,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
    "topPaths": [
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 718,
+   "hits": 720,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",

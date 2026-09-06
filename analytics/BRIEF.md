@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-06T01:27Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-06T01:37Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3359 views → 261 engaged reads → 35 completes · 3273 sessions.
-- Channels: direct 165r/3119v · organic 45r/88v · ai 20r/32v · campaign:chatgpt.com 16r/59v · referral 12r/50v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/6v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3359 views → 260 engaged reads → 35 completes · 3273 sessions.
+- Channels: direct 164r/3119v · organic 45r/88v · ai 20r/32v · campaign:chatgpt.com 16r/59v · referral 12r/50v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/6v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 17r/62v · Doubao 9r/10v · Perplexity 8r/10v · Copilot 2r/2v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, cn.bing.com, chatgpt.com, doubao.com, perplexity.ai, google.com, duckduckgo.com, dash-range, 114.114.114.114:9421, nav-cmp.
 - Engaged-read winners by section: stack=6, wire=9.
@@ -90,7 +90,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 572 retrieval fetches
+- /  — 573 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 178 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 101 retrieval fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 100 retrieval fetches
@@ -99,11 +99,11 @@ sample size dwarfs the engaged-read counts below.
 - /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 15 retrieval fetches
 - /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html  — 15 retrieval fetches
 - /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html  — 14 retrieval fetches
-- /posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html  — 7 retrieval fetches
+- /posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html  — 8 retrieval fetches
 
 Per engine:
+- PerplexityBot (3220 verified): /build ×55 · / ×25 · /posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html ×8
 - OAI-SearchBot (3209 verified): /build ×30 · / ×17 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×15
-- PerplexityBot (2889 verified): /build ×55 · / ×24 · /posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html ×7
 - ChatGPT-User (2751 verified): / ×531 · /posts/agent-funding-august-2026-control-won-the-summer.html ×178 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×101
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -126,10 +126,10 @@ High-engagement posts to react to / cite:
 - "AI agents are moving from assistants to economic actors. 🤖💳 @AEON_Community Agentic Checkout lets agents search for products, build carts and complete purchases. The AEON AI Card gives them controlled spending power wi" — https://x.com/i/status/2095793715944276257
 - "If I had 6 months to become an Agentic AI Engineer. I'd do this. Stage 1: Python and LLM Foundations Python, async, API design, Anthropic/OpenAI SDKs, tokens, embeddings, structured outputs. Stage 2: Context Engineering " — https://x.com/i/status/2095491337651179621
 - "AI agents are moving from assistants to economic actors. 🤖💳 @AEON_Community Agentic Checkout lets agents search for products, build carts and complete purchases. The AEON AI Card gives them controlled spending power wi" — https://x.com/i/status/2095772366768869820
-- "🚀 THE AI AGENT ENGINEERING ROADMAP Want to become an AI Agent Engineer? 🤖 Don’t just learn tools — build the right foundation. 🧠 The Step-by-Step Path: 1️⃣ LLM Fundamentals + Reasoning 2️⃣ Context Engineering 3️⃣ Memo" — https://x.com/i/status/2094379489702879265
+- "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2096075332579385542
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (270 of 457 phrases have NO post, 37h ago)
+## Uncovered search demand (270 of 457 phrases have NO post, 38h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -152,7 +152,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 11107 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 3209, Perplexity 2889, ChatGPT (user browsing) 2751, GPTBot (OpenAI) 2258).
+The real answer engines are crawling us — IP-verified: 11438 confirmed AI-engine fetches (Perplexity 3220, ChatGPT Search (OpenAI) 3209, ChatGPT (user browsing) 2751, GPTBot (OpenAI) 2258).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 656 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 178 crawler fetches
