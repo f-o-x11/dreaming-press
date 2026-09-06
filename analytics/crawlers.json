@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-06T02:58:29.784Z",
+ "generated": "2026-09-06T03:08:36.491Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13533,
+ "verifiedAiHits": 13534,
  "logsScanned": 30,
  "windowStart": "2026-08-23",
  "windowEnd": "2026-09-06",
- "totalHits": 121855,
- "aiHits": 91680,
+ "totalHits": 121919,
+ "aiHits": 91717,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35591,
+   "hits": 35621,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 15196,
+   "hits": 15219,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -113,21 +113,21 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14948,
+   "hits": 14954,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
    "topPaths": [
+    {
+     "path": "/tags/opinionated",
+     "hits": 15
+    },
     {
      "path": "/tags/reportive",
      "hits": 14
     },
     {
      "path": "/stack.html",
-     "hits": 13
-    },
-    {
-     "path": "/tags/opinionated",
      "hits": 13
     },
     {
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6215,
-   "verifiedHits": 6198,
+   "hits": 6216,
+   "verifiedHits": 6199,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3289,
-   "verifiedHits": 3222,
+   "hits": 3290,
+   "verifiedHits": 3223,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2566,
+   "hits": 2569,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",

@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-06T02:58:30.359Z",
+ "generated": "2026-09-06T03:08:37.079Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3349,
-  "reads": 258,
-  "completes": 35,
+  "views": 3346,
+  "reads": 255,
+  "completes": 32,
   "plays": 4,
-  "sessions": 3263
+  "sessions": 3261
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3111,
-   "reads": 164,
-   "sessions": 3103
+   "views": 3109,
+   "reads": 161,
+   "sessions": 3101
   },
   {
    "channel": "organic",
@@ -29,7 +29,7 @@
   },
   {
    "channel": "ai",
-   "views": 32,
+   "views": 31,
    "reads": 20,
    "sessions": 42
   },
@@ -79,12 +79,12 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3111,
-   "reads": 164,
-   "completes": 31,
-   "sessions": 3103,
-   "read_rate": 0.053,
-   "complete_rate": 0.01,
+   "views": 3109,
+   "reads": 161,
+   "completes": 28,
+   "sessions": 3101,
+   "read_rate": 0.052,
+   "complete_rate": 0.009,
    "pages_per_session": 1,
    "median_dwell_sec": 4
   },
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 32,
+   "views": 31,
    "reads": 20,
    "completes": 0,
    "sessions": 42,
-   "read_rate": 0.625,
+   "read_rate": 0.645,
    "complete_rate": 0,
-   "pages_per_session": 0.76,
+   "pages_per_session": 0.74,
    "median_dwell_sec": 20
   },
   {
@@ -280,7 +280,7 @@
   },
   {
    "assistant": "Perplexity",
-   "views": 10,
+   "views": 9,
    "reads": 8,
    "sessions": 8
   },
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2569,
-   "reads": 252,
-   "sessions": 2493
+   "views": 2565,
+   "reads": 249,
+   "sessions": 2490
   },
   {
    "device": "mobile",
-   "views": 779,
+   "views": 780,
    "reads": 5,
-   "sessions": 769
+   "sessions": 770
   },
   {
    "device": "tablet",
@@ -821,7 +821,7 @@
   },
   {
    "ref": "https://www.perplexity.ai/",
-   "hits": 18,
+   "hits": 17,
    "sessions": 8
   },
   {
