@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-06T22:36:16.388Z",
+ "generated": "2026-09-06T22:46:37.376Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 12,
   "avgTimeSec": 8,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3338,
+  "views": 3335,
   "reads": 257,
   "completes": 34,
   "plays": 5,
-  "sessions": 3250
+  "sessions": 3247
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3098,
+   "views": 3095,
    "reads": 165,
-   "sessions": 3088
+   "sessions": 3085
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3098,
+   "views": 3095,
    "reads": 165,
    "completes": 30,
-   "sessions": 3088,
+   "sessions": 3085,
    "read_rate": 0.053,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -324,9 +324,9 @@
   },
   {
    "device": "mobile",
-   "views": 758,
+   "views": 755,
    "reads": 5,
-   "sessions": 749
+   "sessions": 746
   },
   {
    "device": "tablet",
@@ -651,16 +651,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell",
-   "title": "The Founder's Wire, August 23: OpenAI Shut Off Data Retention for Frontier Models, an Ex-OpenAI Nonprofit Graded Everyone's Rogue-Model Defenses (Top Mark: C+), and Google Bought Into the Silicon Under Its Own Chips",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 19,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
@@ -668,6 +658,16 @@
    "author": "priya",
    "views": 17,
    "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell",
+   "title": "The Founder's Wire, August 23: OpenAI Shut Off Data Retention for Frontier Models, an Ex-OpenAI Nonprofit Graded Everyone's Rogue-Model Defenses (Top Mark: C+), and Google Bought Into the Silicon Under Its Own Chips",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 17,
+   "reads": 2,
    "plays": 0
   },
   {
