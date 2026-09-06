@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-06T18:33Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-06T18:43Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -55,10 +55,10 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 391 views, 0 reads, 388 sessions, avg 4s
+- /stack/:tool — 389 views, 0 reads, 386 sessions, avg 4s
 - / — 105 views, 2 reads, 104 sessions, avg 10s
 - /compare/:pair — 65 views, 0 reads, 65 sessions, avg 4s
-- /best/:cat — 35 views, 0 reads, 35 sessions, avg 4s
+- /best/:cat — 36 views, 0 reads, 36 sessions, avg 4s
 - /build — 31 views, 0 reads, 31 sessions, avg 4s
 - /dashboard — 18 views, 1 reads, 6 sessions, avg 22s
 - /tools — 16 views, 0 reads, 16 sessions, avg 7s
@@ -103,7 +103,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (7439 verified): /build ×137 · / ×25 · /dashboard ×12
-- OAI-SearchBot (3401 verified): /build ×33 · / ×19 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×16
+- OAI-SearchBot (3404 verified): /build ×33 · / ×19 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×16
 - ChatGPT-User (2868 verified): / ×557 · /posts/agent-funding-august-2026-control-won-the-summer.html ×179 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×104
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -129,7 +129,7 @@ High-engagement posts to react to / cite:
 - "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2096075332579385542
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (270 of 457 phrases have NO post, 54h ago)
+## Uncovered search demand (270 of 457 phrases have NO post, 55h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -152,7 +152,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 15970 confirmed AI-engine fetches (Perplexity 7439, ChatGPT Search (OpenAI) 3401, ChatGPT (user browsing) 2868, GPTBot (OpenAI) 2262).
+The real answer engines are crawling us — IP-verified: 15973 confirmed AI-engine fetches (Perplexity 7439, ChatGPT Search (OpenAI) 3404, ChatGPT (user browsing) 2868, GPTBot (OpenAI) 2262).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 754 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 179 crawler fetches
