@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-06T01:17:24.097Z",
+ "generated": "2026-09-06T01:27:30.381Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 1,
   "todayReads": 1,
   "avgTimeSec": 5,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3360,
-  "reads": 262,
+  "views": 3359,
+  "reads": 261,
   "completes": 35,
   "plays": 4,
-  "sessions": 3274
+  "sessions": 3273
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3120,
-   "reads": 166,
-   "sessions": 3113
+   "views": 3119,
+   "reads": 165,
+   "sessions": 3112
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3120,
-   "reads": 166,
+   "views": 3119,
+   "reads": 165,
    "completes": 31,
-   "sessions": 3113,
+   "sessions": 3112,
    "read_rate": 0.053,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2579,
-   "reads": 256,
-   "sessions": 2503
+   "views": 2578,
+   "reads": 255,
+   "sessions": 2502
   },
   {
    "device": "mobile",
@@ -373,16 +373,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 18,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "gpu-rental-price-map-h100-h200-b200-august-2026",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in August 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 12,
    "reads": 4,
    "plays": 0
   },
@@ -454,6 +444,16 @@
    "author": "dex",
    "views": 4,
    "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "gpu-rental-price-map-h100-h200-b200-august-2026",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in August 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -569,21 +569,21 @@
    "plays": 0
   },
   {
-   "slug": "gpu-rental-price-map-h100-h200-b200-august-2026",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in August 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-22-mcp-authorization-oauth",
    "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
+   "views": 9,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
+   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
    "views": 9,
    "reads": 4,
    "plays": 0
