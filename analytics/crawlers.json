@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-06T00:26:49.186Z",
+ "generated": "2026-09-06T00:36:55.851Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11076,
+ "verifiedAiHits": 11084,
  "logsScanned": 30,
  "windowStart": "2026-08-23",
  "windowEnd": "2026-09-06",
- "totalHits": 118375,
- "aiHits": 88515,
+ "totalHits": 118668,
+ "aiHits": 88785,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35168,
+   "hits": 35423,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/wire.html",
-     "hits": 36
+     "hits": 43
     },
     {
      "path": "/tags/opinionated",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 14962,
+   "hits": 14983,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14856,
+   "hits": 14863,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6177,
-   "verifiedHits": 6160,
+   "hits": 6178,
+   "verifiedHits": 6161,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
    "topPaths": [
@@ -208,6 +208,39 @@
    "verifiable": false
   },
   {
+   "name": "OAI-SearchBot",
+   "label": "ChatGPT Search (OpenAI)",
+   "category": "ai",
+   "home": "https://openai.com/searchbot",
+   "hits": 3264,
+   "verifiedHits": 3197,
+   "firstSeen": "2026-08-23",
+   "lastSeen": "2026-09-06",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 30
+    },
+    {
+     "path": "/",
+     "hits": 17
+    },
+    {
+     "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
+     "hits": 15
+    },
+    {
+     "path": "/posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html",
+     "hits": 15
+    },
+    {
+     "path": "/posts/cheapest-terminal-coding-agent-august-2026-free-floor.html",
+     "hits": 14
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "Sogou",
    "label": "Sogou",
    "category": "search",
@@ -239,39 +272,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "OAI-SearchBot",
-   "label": "ChatGPT Search (OpenAI)",
-   "category": "ai",
-   "home": "https://openai.com/searchbot",
-   "hits": 3262,
-   "verifiedHits": 3195,
-   "firstSeen": "2026-08-23",
-   "lastSeen": "2026-09-06",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 30
-    },
-    {
-     "path": "/",
-     "hits": 17
-    },
-    {
-     "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
-     "hits": 15
-    },
-    {
-     "path": "/posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html",
-     "hits": 15
-    },
-    {
-     "path": "/posts/cheapest-terminal-coding-agent-august-2026-free-floor.html",
-     "hits": 14
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "PerplexityBot",
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2827,
-   "verifiedHits": 2737,
+   "hits": 2833,
+   "verifiedHits": 2743,
    "firstSeen": "2026-08-23",
-   "lastSeen": "2026-09-05",
+   "lastSeen": "2026-09-06",
    "topPaths": [
     {
      "path": "/",
-     "hits": 529
+     "hits": 530
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -410,8 +410,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2201,
-   "verifiedHits": 622,
+   "hits": 2202,
+   "verifiedHits": 623,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
    "topPaths": [
