@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-06T20:44:44.000Z",
+ "generated": "2026-09-06T20:54:57.354Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16042,
+ "verifiedAiHits": 16043,
  "logsScanned": 30,
  "windowStart": "2026-08-23",
  "windowEnd": "2026-09-06",
- "totalHits": 129219,
- "aiHits": 97204,
+ "totalHits": 129272,
+ "aiHits": 97248,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36804,
+   "hits": 36809,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 20746,
+   "hits": 20749,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 16380,
+   "hits": 16389,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15711,
+   "hits": 15719,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 7570,
-   "verifiedHits": 7479,
+   "hits": 7571,
+   "verifiedHits": 7480,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5339,
+   "hits": 5342,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -538,6 +538,39 @@
    "verifiable": false
   },
   {
+   "name": "CCBot",
+   "label": "Common Crawl (feeds many LLMs)",
+   "category": "ai",
+   "home": "https://commoncrawl.org/ccbot",
+   "hits": 108,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-26",
+   "lastSeen": "2026-09-06",
+   "topPaths": [
+    {
+     "path": "/dashboard",
+     "hits": 3
+    },
+    {
+     "path": "/global-tech-news",
+     "hits": 2
+    },
+    {
+     "path": "/",
+     "hits": 2
+    },
+    {
+     "path": "/comparisons/fine-tuning-and-training",
+     "hits": 1
+    },
+    {
+     "path": "/stack/comet-opik",
+     "hits": 1
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "YouBot",
    "label": "You.com",
    "category": "ai",
@@ -565,39 +598,6 @@
     },
     {
      "path": "/newsroom",
-     "hits": 1
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "CCBot",
-   "label": "Common Crawl (feeds many LLMs)",
-   "category": "ai",
-   "home": "https://commoncrawl.org/ccbot",
-   "hits": 84,
-   "verifiedHits": 0,
-   "firstSeen": "2026-08-26",
-   "lastSeen": "2026-09-06",
-   "topPaths": [
-    {
-     "path": "/dashboard",
-     "hits": 3
-    },
-    {
-     "path": "/global-tech-news",
-     "hits": 2
-    },
-    {
-     "path": "/",
-     "hits": 2
-    },
-    {
-     "path": "/comparisons/fine-tuning-and-training",
-     "hits": 1
-    },
-    {
-     "path": "/stack/comet-opik",
      "hits": 1
     }
    ],
