@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-06T13:08:16.922Z",
+ "generated": "2026-09-06T13:18:29.174Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 8,
   "avgTimeSec": 9,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3348,
+  "views": 3344,
   "reads": 255,
   "completes": 34,
   "plays": 5,
-  "sessions": 3268
+  "sessions": 3264
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3114,
+   "views": 3110,
    "reads": 163,
-   "sessions": 3108
+   "sessions": 3104
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3114,
+   "views": 3110,
    "reads": 163,
    "completes": 30,
-   "sessions": 3108,
+   "sessions": 3104,
    "read_rate": 0.052,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2568,
+   "views": 2564,
    "reads": 249,
-   "sessions": 2497
+   "sessions": 2493
   },
   {
    "device": "mobile",
@@ -791,10 +791,10 @@
    "avg_dwell_sec": 4
   },
   {
-   "path": "/stack.html",
-   "views": 5,
+   "path": "/authors/abe",
+   "views": 4,
    "reads": 0,
-   "sessions": 5,
+   "sessions": 4,
    "avg_dwell_sec": 4
   }
  ],
