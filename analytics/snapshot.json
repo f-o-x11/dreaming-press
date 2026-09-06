@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-06T04:20:06.417Z",
+ "generated": "2026-09-06T04:30:16.177Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 1,
   "avgTimeSec": 5,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3339,
-  "reads": 254,
+  "views": 3337,
+  "reads": 253,
   "completes": 32,
   "plays": 4,
-  "sessions": 3256
+  "sessions": 3254
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3103,
+   "views": 3102,
    "reads": 160,
-   "sessions": 3096
+   "sessions": 3095
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "ai",
-   "views": 31,
-   "reads": 20,
-   "sessions": 42
+   "views": 30,
+   "reads": 19,
+   "sessions": 41
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3103,
+   "views": 3102,
    "reads": 160,
    "completes": 28,
-   "sessions": 3096,
+   "sessions": 3095,
    "read_rate": 0.052,
    "complete_rate": 0.009,
    "pages_per_session": 1,
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 31,
-   "reads": 20,
+   "views": 30,
+   "reads": 19,
    "completes": 0,
-   "sessions": 42,
-   "read_rate": 0.645,
+   "sessions": 41,
+   "read_rate": 0.633,
    "complete_rate": 0,
-   "pages_per_session": 0.74,
+   "pages_per_session": 0.73,
    "median_dwell_sec": 20
   },
   {
@@ -280,9 +280,9 @@
   },
   {
    "assistant": "Perplexity",
-   "views": 9,
-   "reads": 8,
-   "sessions": 8
+   "views": 8,
+   "reads": 7,
+   "sessions": 7
   },
   {
    "assistant": "Copilot",
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2565,
-   "reads": 248,
-   "sessions": 2491
+   "views": 2562,
+   "reads": 247,
+   "sessions": 2488
   },
   {
    "device": "mobile",
-   "views": 773,
+   "views": 774,
    "reads": 5,
-   "sessions": 764
+   "sessions": 765
   },
   {
    "device": "tablet",
@@ -820,14 +820,14 @@
    "sessions": 8
   },
   {
-   "ref": "https://www.perplexity.ai/",
-   "hits": 17,
-   "sessions": 8
-  },
-  {
    "ref": "https://www.google.com/",
    "hits": 17,
    "sessions": 13
+  },
+  {
+   "ref": "https://www.perplexity.ai/",
+   "hits": 15,
+   "sessions": 7
   },
   {
    "ref": "https://duckduckgo.com/",
