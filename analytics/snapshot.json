@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-06T23:07:06.566Z",
+ "generated": "2026-09-06T23:17:16.559Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 41,
+  "readersNow": 29,
   "todayReads": 12,
   "avgTimeSec": 8,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3367,
+  "views": 3355,
   "reads": 257,
   "completes": 34,
   "plays": 5,
-  "sessions": 3279
+  "sessions": 3267
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3127,
+   "views": 3114,
    "reads": 165,
-   "sessions": 3117
+   "sessions": 3104
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 63,
+   "views": 64,
    "reads": 14,
-   "sessions": 61
+   "sessions": 62
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3127,
+   "views": 3114,
    "reads": 165,
    "completes": 30,
-   "sessions": 3117,
+   "sessions": 3104,
    "read_rate": 0.053,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -101,12 +101,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 63,
+   "views": 64,
    "reads": 14,
    "completes": 2,
-   "sessions": 61,
-   "read_rate": 0.222,
-   "complete_rate": 0.032,
+   "sessions": 62,
+   "read_rate": 0.219,
+   "complete_rate": 0.031,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
   },
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 68,
+   "views": 69,
    "reads": 15,
-   "sessions": 62
+   "sessions": 63
   },
   {
    "assistant": "Doubao",
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2612,
+   "views": 2600,
    "reads": 251,
-   "sessions": 2533
+   "sessions": 2521
   },
   {
    "device": "mobile",
@@ -606,7 +606,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 57,
+   "views": 48,
    "reads": 0,
    "plays": 0
   },
@@ -661,16 +661,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell",
-   "title": "The Founder's Wire, August 23: OpenAI Shut Off Data Retention for Frontier Models, an Ex-OpenAI Nonprofit Graded Everyone's Rogue-Model Defenses (Top Mark: C+), and Google Bought Into the Silicon Under Its Own Chips",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 16,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "how-to-manage-context-in-a-long-running-agent",
    "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
    "section": "wire",
@@ -688,6 +678,16 @@
    "author": "dex",
    "views": 15,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe",
+   "title": "The Founder's Wire, September 4: A 'Firewall for Agents' Raises $50M, HiddenLayer Takes $100M a Day Later, and Crusoe Hits $30B for the Compute Underneath",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 14,
+   "reads": 2,
    "plays": 0
   }
  ],
@@ -736,9 +736,9 @@
   },
   {
    "path": "/tools",
-   "views": 16,
+   "views": 15,
    "reads": 0,
-   "sessions": 16,
+   "sessions": 15,
    "avg_dwell_sec": 7
   },
   {
