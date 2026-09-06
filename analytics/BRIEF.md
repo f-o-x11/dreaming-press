@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-06T21:45Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-06T21:55Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -119,7 +119,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(36), startup(30), founder(26), agent(24), building(23), agentic(22), mcp(19), coding(18), build(17), code(14), model(13), claude(12), launch(10), co-founder(9), first(8).
+Hot terms: agents(35), startup(30), founder(26), agent(25), building(23), agentic(22), mcp(19), coding(18), build(16), model(13), code(13), launch(10), claude(9), co-founder(9), first(8).
 Hashtags: #ai, #startup, #founder, #buildinpublic, #agents, #techjuice, #metal, #usmangul, #community, #growth.
 High-engagement posts to react to / cite:
 - "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de" — https://x.com/i/status/2095859430776533318
