@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-06T02:28:09.827Z",
+ "generated": "2026-09-06T02:38:15.689Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13336,
+ "verifiedAiHits": 13516,
  "logsScanned": 30,
  "windowStart": "2026-08-23",
  "windowEnd": "2026-09-06",
- "totalHits": 121530,
- "aiHits": 91423,
+ "totalHits": 121763,
+ "aiHits": 91626,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35552,
+   "hits": 35569,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 15147,
+   "hits": 15169,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14930,
+   "hits": 14934,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6202,
-   "verifiedHits": 6185,
+   "hits": 6207,
+   "verifiedHits": 6190,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
    "topPaths": [
@@ -175,11 +175,44 @@
    "verifiable": true
   },
   {
+   "name": "PerplexityBot",
+   "label": "Perplexity",
+   "category": "ai",
+   "home": "https://www.perplexity.ai/bot",
+   "hits": 5374,
+   "verifiedHits": 5283,
+   "firstSeen": "2026-08-23",
+   "lastSeen": "2026-09-06",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 101
+    },
+    {
+     "path": "/",
+     "hits": 25
+    },
+    {
+     "path": "/posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html",
+     "hits": 8
+    },
+    {
+     "path": "/authors",
+     "hits": 7
+    },
+    {
+     "path": "/posts/how-to-deploy-an-llm-in-production-vllm-gpu-serving-playbook.html",
+     "hits": 7
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "ClaudeBot",
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5246,
+   "hits": 5248,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -208,45 +241,12 @@
    "verifiable": false
   },
   {
-   "name": "PerplexityBot",
-   "label": "Perplexity",
-   "category": "ai",
-   "home": "https://www.perplexity.ai/bot",
-   "hits": 5197,
-   "verifiedHits": 5106,
-   "firstSeen": "2026-08-23",
-   "lastSeen": "2026-09-06",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 99
-    },
-    {
-     "path": "/",
-     "hits": 25
-    },
-    {
-     "path": "/posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html",
-     "hits": 8
-    },
-    {
-     "path": "/authors",
-     "hits": 7
-    },
-    {
-     "path": "/posts/how-to-deploy-an-llm-in-production-vllm-gpu-serving-playbook.html",
-     "hits": 7
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "OAI-SearchBot",
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3286,
-   "verifiedHits": 3219,
+   "hits": 3287,
+   "verifiedHits": 3220,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
    "topPaths": [
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2843,
-   "verifiedHits": 2753,
+   "hits": 2845,
+   "verifiedHits": 2755,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
    "topPaths": [
     {
      "path": "/",
-     "hits": 532
+     "hits": 533
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2561,
+   "hits": 2564,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
