@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-06T23:37:46.432Z",
+ "generated": "2026-09-06T23:47:48.502Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 36
+   "count": 34
   },
   {
    "term": "startup",
@@ -19,24 +19,24 @@
    "count": 26
   },
   {
-   "term": "agent",
-   "count": 25
+   "term": "agentic",
+   "count": 24
   },
   {
-   "term": "agentic",
-   "count": 23
+   "term": "agent",
+   "count": 24
   },
   {
    "term": "building",
    "count": 23
   },
   {
-   "term": "mcp",
-   "count": 19
-  },
-  {
    "term": "coding",
    "count": 18
+  },
+  {
+   "term": "mcp",
+   "count": 17
   },
   {
    "term": "build",
@@ -44,14 +44,14 @@
   },
   {
    "term": "code",
-   "count": 13
-  },
-  {
-   "term": "model",
-   "count": 11
+   "count": 12
   },
   {
    "term": "launch",
+   "count": 10
+  },
+  {
+   "term": "model",
    "count": 10
   },
   {
@@ -63,7 +63,7 @@
    "count": 9
   },
   {
-   "term": "first",
+   "term": "september",
    "count": 8
   },
   {
@@ -83,7 +83,7 @@
    "count": 8
   },
   {
-   "term": "september",
+   "term": "first",
    "count": 7
   }
  ],
