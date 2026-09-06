@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-06T07:53:47.812Z",
+ "generated": "2026-09-06T08:03:54.792Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 6,
   "todayReads": 7,
-  "avgTimeSec": 8,
+  "avgTimeSec": 9,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3338,
-  "reads": 257,
+  "views": 3336,
+  "reads": 255,
   "completes": 34,
-  "plays": 4,
-  "sessions": 3255
+  "plays": 5,
+  "sessions": 3254
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3105,
-   "reads": 165,
-   "sessions": 3097
+   "views": 3104,
+   "reads": 164,
+   "sessions": 3096
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 49,
-   "reads": 12,
-   "sessions": 45
+   "views": 48,
+   "reads": 11,
+   "sessions": 44
   },
   {
    "channel": "campaign:copilot.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3105,
-   "reads": 165,
+   "views": 3104,
+   "reads": 164,
    "completes": 30,
-   "sessions": 3097,
+   "sessions": 3096,
    "read_rate": 0.053,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -112,12 +112,12 @@
   },
   {
    "channel": "referral",
-   "views": 49,
-   "reads": 12,
+   "views": 48,
+   "reads": 11,
    "completes": 1,
-   "sessions": 45,
-   "read_rate": 0.245,
-   "complete_rate": 0.02,
+   "sessions": 44,
+   "read_rate": 0.229,
+   "complete_rate": 0.021,
    "pages_per_session": 1.09,
    "median_dwell_sec": null
   },
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2564,
-   "reads": 251,
+   "views": 2563,
+   "reads": 249,
    "sessions": 2490
   },
   {
    "device": "mobile",
-   "views": 773,
+   "views": 772,
    "reads": 5,
-   "sessions": 764
+   "sessions": 763
   },
   {
    "device": "tablet",
@@ -362,8 +362,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 28,
-   "reads": 7,
+   "views": 26,
+   "reads": 6,
    "plays": 0
   },
   {
@@ -452,9 +452,9 @@
    "section": "wire",
    "tags": "[\"reportive\",\"cynical\"]",
    "author": "priya",
-   "views": 10,
+   "views": 11,
    "reads": 3,
-   "plays": 1
+   "plays": 2
   },
   {
    "slug": "context-engineering-playbook-write-select-compress-isolate",
@@ -494,9 +494,9 @@
    "section": "wire",
    "tags": "[\"reportive\",\"cynical\"]",
    "author": "priya",
-   "views": 10,
+   "views": 11,
    "reads": 3,
-   "plays": 1
+   "plays": 2
   },
   {
    "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
@@ -554,8 +554,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 28,
-   "reads": 7,
+   "views": 26,
+   "reads": 6,
    "plays": 0
   },
   {
@@ -636,8 +636,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 28,
-   "reads": 7,
+   "views": 26,
+   "reads": 6,
    "plays": 0
   },
   {
@@ -701,10 +701,10 @@
   },
   {
    "path": "/",
-   "views": 107,
-   "reads": 3,
-   "sessions": 106,
-   "avg_dwell_sec": 11
+   "views": 106,
+   "reads": 2,
+   "sessions": 105,
+   "avg_dwell_sec": 10
   },
   {
    "path": "/compare/:pair",
