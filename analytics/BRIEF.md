@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-06T06:32Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-06T06:42Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3334 views → 256 engaged reads → 35 completes · 3251 sessions.
-- Channels: direct 164r/3101v · organic 42r/84v · ai 19r/30v · campaign:chatgpt.com 16r/59v · referral 12r/49v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/6v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3334 views → 257 engaged reads → 35 completes · 3251 sessions.
+- Channels: direct 165r/3101v · organic 42r/84v · ai 19r/30v · campaign:chatgpt.com 16r/59v · referral 12r/49v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/2v · social 0r/6v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 17r/62v · Doubao 9r/10v · Perplexity 7r/8v · Copilot 2r/2v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, doubao.com, google.com, perplexity.ai, duckduckgo.com, dash-range, 114.114.114.114:9421, nav-cmp.
 - Engaged-read winners by section: stack=6, wire=9.
@@ -119,17 +119,17 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(39), startup(29), founder(27), agent(26), building(24), agentic(19), coding(19), mcp(18), build(15), code(14), launch(12), model(11), claude(10), week(9), tools(9).
+Hot terms: agents(38), startup(29), founder(27), agent(25), building(24), agentic(19), coding(19), mcp(16), build(16), code(15), claude(13), launch(12), model(10), week(9), co-founder(9).
 Hashtags: #ai, #startup, #founder, #buildinpublic, #agents, #techjuice, #metal, #usmangul, #community, #growth.
 High-engagement posts to react to / cite:
 - "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de" — https://x.com/i/status/2095859430776533318
 - "AI agents are moving from assistants to economic actors. 🤖💳 @AEON_Community Agentic Checkout lets agents search for products, build carts and complete purchases. The AEON AI Card gives them controlled spending power wi" — https://x.com/i/status/2095793715944276257
 - "If I had 6 months to become an Agentic AI Engineer. I'd do this. Stage 1: Python and LLM Foundations Python, async, API design, Anthropic/OpenAI SDKs, tokens, embeddings, structured outputs. Stage 2: Context Engineering " — https://x.com/i/status/2095491337651179621
 - "AI agents are moving from assistants to economic actors. 🤖💳 @AEON_Community Agentic Checkout lets agents search for products, build carts and complete purchases. The AEON AI Card gives them controlled spending power wi" — https://x.com/i/status/2095772366768869820
-- "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2096075332579385542
+- "🚀 THE AI AGENT ENGINEERING ROADMAP Want to become an AI Agent Engineer? 🤖 Don’t just learn tools — build the right foundation. 🧠 The Step-by-Step Path: 1️⃣ LLM Fundamentals + Reasoning 2️⃣ Context Engineering 3️⃣ Memo" — https://x.com/i/status/2094379489702879265
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (270 of 457 phrases have NO post, 42h ago)
+## Uncovered search demand (270 of 457 phrases have NO post, 43h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.

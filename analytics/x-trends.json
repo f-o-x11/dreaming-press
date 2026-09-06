@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-06T06:32:51.980Z",
+ "generated": "2026-09-06T06:42:56.274Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 39
+   "count": 38
   },
   {
    "term": "startup",
@@ -20,7 +20,7 @@
   },
   {
    "term": "agent",
-   "count": 26
+   "count": 25
   },
   {
    "term": "building",
@@ -36,15 +36,19 @@
   },
   {
    "term": "mcp",
-   "count": 18
+   "count": 16
   },
   {
    "term": "build",
-   "count": 15
+   "count": 16
   },
   {
    "term": "code",
-   "count": 14
+   "count": 15
+  },
+  {
+   "term": "claude",
+   "count": 13
   },
   {
    "term": "launch",
@@ -52,18 +56,10 @@
   },
   {
    "term": "model",
-   "count": 11
-  },
-  {
-   "term": "claude",
    "count": 10
   },
   {
    "term": "week",
-   "count": 9
-  },
-  {
-   "term": "tools",
    "count": 9
   },
   {
@@ -72,6 +68,10 @@
   },
   {
    "term": "first",
+   "count": 8
+  },
+  {
+   "term": "tools",
    "count": 8
   },
   {
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de",
-   "engagement": 927,
+   "engagement": 929,
    "url": "https://x.com/i/status/2095859430776533318",
    "created": "2026-09-04T13:00:02.000Z"
   },
@@ -152,7 +152,7 @@
   },
   {
    "text": "If I had 6 months to become an Agentic AI Engineer. I'd do this. Stage 1: Python and LLM Foundations Python, async, API design, Anthropic/OpenAI SDKs, tokens, embeddings, structured outputs. Stage 2: Context Engineering ",
-   "engagement": 653,
+   "engagement": 654,
    "url": "https://x.com/i/status/2095491337651179621",
    "created": "2026-09-03T12:37:21.000Z"
   },
@@ -163,16 +163,16 @@
    "created": "2026-09-04T07:14:04.000Z"
   },
   {
-   "text": "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra",
-   "engagement": 113,
-   "url": "https://x.com/i/status/2096075332579385542",
-   "created": "2026-09-05T03:17:57.000Z"
-  },
-  {
    "text": "🚀 THE AI AGENT ENGINEERING ROADMAP Want to become an AI Agent Engineer? 🤖 Don’t just learn tools — build the right foundation. 🧠 The Step-by-Step Path: 1️⃣ LLM Fundamentals + Reasoning 2️⃣ Context Engineering 3️⃣ Memo",
    "engagement": 112,
    "url": "https://x.com/i/status/2094379489702879265",
    "created": "2026-08-31T10:59:16.000Z"
+  },
+  {
+   "text": "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra",
+   "engagement": 111,
+   "url": "https://x.com/i/status/2096075332579385542",
+   "created": "2026-09-05T03:17:57.000Z"
   },
   {
    "text": "Most AI SaaS products don't fail at the model level They fail at the moment the response needs to be turned into actual action: the model returns malformed JSON, a call remains just an hour-long audio file, and the found",
