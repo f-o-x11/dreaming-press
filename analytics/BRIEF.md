@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-06T16:10Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-06T16:20Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -90,7 +90,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 596 retrieval fetches
+- /  — 597 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 179 retrieval fetches
 - /build  — 169 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 103 retrieval fetches
@@ -102,9 +102,9 @@ sample size dwarfs the engaged-read counts below.
 - /dashboard  — 12 retrieval fetches
 
 Per engine:
-- PerplexityBot (7432 verified): /build ×137 · / ×25 · /dashboard ×12
-- OAI-SearchBot (3337 verified): /build ×32 · / ×18 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×16
-- ChatGPT-User (2852 verified): / ×553 · /posts/agent-funding-august-2026-control-won-the-summer.html ×179 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×103
+- PerplexityBot (7434 verified): /build ×137 · / ×25 · /dashboard ×12
+- OAI-SearchBot (3338 verified): /build ×32 · / ×18 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×16
+- ChatGPT-User (2855 verified): / ×554 · /posts/agent-funding-august-2026-control-won-the-summer.html ×179 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×103
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -152,7 +152,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 15881 confirmed AI-engine fetches (Perplexity 7432, ChatGPT Search (OpenAI) 3337, ChatGPT (user browsing) 2852, GPTBot (OpenAI) 2260).
+The real answer engines are crawling us — IP-verified: 15887 confirmed AI-engine fetches (Perplexity 7434, ChatGPT Search (OpenAI) 3338, ChatGPT (user browsing) 2855, GPTBot (OpenAI) 2260).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 752 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 179 crawler fetches
