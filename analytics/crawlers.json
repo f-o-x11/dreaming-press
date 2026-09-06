@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-06T01:47:43.168Z",
+ "generated": "2026-09-06T01:57:45.040Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11441,
+ "verifiedAiHits": 12474,
  "logsScanned": 30,
  "windowStart": "2026-08-23",
  "windowEnd": "2026-09-06",
- "totalHits": 119466,
- "aiHits": 89441,
+ "totalHits": 120542,
+ "aiHits": 90494,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35505,
+   "hits": 35517,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 15082,
+   "hits": 15102,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14899,
+   "hits": 14907,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6192,
-   "verifiedHits": 6175,
+   "hits": 6195,
+   "verifiedHits": 6178,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
    "topPaths": [
@@ -212,14 +212,14 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3311,
-   "verifiedHits": 3220,
+   "hits": 4343,
+   "verifiedHits": 4252,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 55
+     "hits": 78
     },
     {
      "path": "/",
@@ -230,11 +230,11 @@
      "hits": 8
     },
     {
-     "path": "/posts/how-to-deploy-an-llm-in-production-vllm-gpu-serving-playbook.html",
+     "path": "/authors",
      "hits": 7
     },
     {
-     "path": "/dashboard",
+     "path": "/posts/how-to-deploy-an-llm-in-production-vllm-gpu-serving-playbook.html",
      "hits": 7
     }
    ],
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3277,
-   "verifiedHits": 3210,
+   "hits": 3278,
+   "verifiedHits": 3211,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
    "topPaths": [
