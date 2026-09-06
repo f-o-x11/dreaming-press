@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-06T00:36:55.851Z",
+ "generated": "2026-09-06T00:47:02.679Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11084,
+ "verifiedAiHits": 11088,
  "logsScanned": 30,
  "windowStart": "2026-08-23",
  "windowEnd": "2026-09-06",
- "totalHits": 118668,
- "aiHits": 88785,
+ "totalHits": 118708,
+ "aiHits": 88811,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35423,
+   "hits": 35428,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 14983,
+   "hits": 14997,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -113,11 +113,15 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14863,
+   "hits": 14871,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
    "topPaths": [
+    {
+     "path": "/stack.html",
+     "hits": 13
+    },
     {
      "path": "/tags/opinionated",
      "hits": 13
@@ -125,10 +129,6 @@
     {
      "path": "/tags/reportive",
      "hits": 13
-    },
-    {
-     "path": "/stack.html",
-     "hits": 12
     },
     {
      "path": "/posts/2026-06-22-mcp-authorization-oauth.html",
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5232,
+   "hits": 5240,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3264,
-   "verifiedHits": 3197,
+   "hits": 3265,
+   "verifiedHits": 3198,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2833,
-   "verifiedHits": 2743,
+   "hits": 2835,
+   "verifiedHits": 2745,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
    "topPaths": [
@@ -377,10 +377,10 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 2323,
-   "verifiedHits": 2257,
+   "hits": 2324,
+   "verifiedHits": 2258,
    "firstSeen": "2026-08-23",
-   "lastSeen": "2026-09-05",
+   "lastSeen": "2026-09-06",
    "topPaths": [
     {
      "path": "/build",
@@ -509,10 +509,10 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 401,
+   "hits": 402,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
-   "lastSeen": "2026-09-05",
+   "lastSeen": "2026-09-06",
    "topPaths": [
     {
      "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
@@ -531,7 +531,7 @@
      "hits": 7
     },
     {
-     "path": "/posts/cloudflare-agents-vs-langgraph.html",
+     "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
      "hits": 4
     }
    ],
