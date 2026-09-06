@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-06T18:43:19.039Z",
+ "generated": "2026-09-06T18:53:25.879Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 4,
   "todayReads": 10,
   "avgTimeSec": 8,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3332,
-  "reads": 256,
+  "views": 3330,
+  "reads": 255,
   "completes": 34,
   "plays": 5,
-  "sessions": 3247
+  "sessions": 3245
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3092,
+   "views": 3091,
    "reads": 163,
-   "sessions": 3085
+   "sessions": 3084
   },
   {
    "channel": "organic",
@@ -31,13 +31,13 @@
    "channel": "ai",
    "views": 32,
    "reads": 19,
-   "sessions": 43
+   "sessions": 42
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 63,
-   "reads": 15,
-   "sessions": 61
+   "views": 62,
+   "reads": 14,
+   "sessions": 60
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3092,
+   "views": 3091,
    "reads": 163,
    "completes": 30,
-   "sessions": 3085,
+   "sessions": 3084,
    "read_rate": 0.053,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 63,
-   "reads": 15,
+   "views": 62,
+   "reads": 14,
    "completes": 2,
-   "sessions": 61,
-   "read_rate": 0.238,
+   "sessions": 60,
+   "read_rate": 0.226,
    "complete_rate": 0.032,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -126,10 +126,10 @@
    "views": 32,
    "reads": 19,
    "completes": 0,
-   "sessions": 43,
+   "sessions": 42,
    "read_rate": 0.594,
    "complete_rate": 0,
-   "pages_per_session": 0.74,
+   "pages_per_session": 0.76,
    "median_dwell_sec": 20
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 68,
-   "reads": 16,
-   "sessions": 62
+   "views": 67,
+   "reads": 15,
+   "sessions": 61
   },
   {
    "assistant": "Doubao",
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2574,
-   "reads": 250,
-   "sessions": 2498
+   "views": 2571,
+   "reads": 249,
+   "sessions": 2495
   },
   {
    "device": "mobile",
-   "views": 757,
+   "views": 758,
    "reads": 5,
-   "sessions": 748
+   "sessions": 749
   },
   {
    "device": "tablet",
@@ -715,9 +715,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 36,
+   "views": 35,
    "reads": 0,
-   "sessions": 36,
+   "sessions": 35,
    "avg_dwell_sec": 4
   },
   {
@@ -806,8 +806,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 36,
-   "sessions": 19
+   "hits": 34,
+   "sessions": 18
   },
   {
    "ref": "https://cn.bing.com/",
