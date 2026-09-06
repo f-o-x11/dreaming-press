@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-06T08:14:01.417Z",
+ "generated": "2026-09-06T08:24:02.978Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13905,
+ "verifiedAiHits": 14676,
  "logsScanned": 30,
  "windowStart": "2026-08-23",
  "windowEnd": "2026-09-06",
- "totalHits": 123870,
- "aiHits": 92908,
+ "totalHits": 124679,
+ "aiHits": 93698,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35972,
+   "hits": 35982,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 20115,
+   "hits": 20117,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 15663,
+   "hits": 15678,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15180,
+   "hits": 15187,
    "verifiedHits": 0,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
@@ -142,12 +142,45 @@
    "verifiable": false
   },
   {
+   "name": "PerplexityBot",
+   "label": "Perplexity",
+   "category": "ai",
+   "home": "https://www.perplexity.ai/bot",
+   "hits": 6441,
+   "verifiedHits": 6350,
+   "firstSeen": "2026-08-23",
+   "lastSeen": "2026-09-06",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 119
+    },
+    {
+     "path": "/",
+     "hits": 25
+    },
+    {
+     "path": "/posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html",
+     "hits": 8
+    },
+    {
+     "path": "/posts/how-to-deploy-an-llm-in-production-vllm-gpu-serving-playbook.html",
+     "hits": 8
+    },
+    {
+     "path": "/authors",
+     "hits": 7
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "Bingbot",
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6410,
-   "verifiedHits": 6289,
+   "hits": 6414,
+   "verifiedHits": 6293,
    "firstSeen": "2026-08-23",
    "lastSeen": "2026-09-06",
    "topPaths": [
@@ -170,39 +203,6 @@
     {
      "path": "/posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html",
      "hits": 49
-    }
-   ],
-   "verifiable": true
-  },
-  {
-   "name": "PerplexityBot",
-   "label": "Perplexity",
-   "category": "ai",
-   "home": "https://www.perplexity.ai/bot",
-   "hits": 5670,
-   "verifiedHits": 5579,
-   "firstSeen": "2026-08-23",
-   "lastSeen": "2026-09-06",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 101
-    },
-    {
-     "path": "/",
-     "hits": 25
-    },
-    {
-     "path": "/posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html",
-     "hits": 8
-    },
-    {
-     "path": "/posts/how-to-deploy-an-llm-in-production-vllm-gpu-serving-playbook.html",
-     "hits": 8
-    },
-    {
-     "path": "/authors",
-     "hits": 7
     }
    ],
    "verifiable": true
