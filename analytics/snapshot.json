@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-06T17:21:18.135Z",
+ "generated": "2026-09-06T17:31:32.939Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 0,
   "todayReads": 9,
   "avgTimeSec": 9,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3331,
-  "reads": 256,
+  "views": 3329,
+  "reads": 255,
   "completes": 34,
   "plays": 5,
-  "sessions": 3246
+  "sessions": 3244
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3092,
+   "views": 3091,
    "reads": 163,
-   "sessions": 3085
+   "sessions": 3084
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 63,
-   "reads": 16,
-   "sessions": 61
+   "views": 62,
+   "reads": 15,
+   "sessions": 60
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3092,
+   "views": 3091,
    "reads": 163,
    "completes": 30,
-   "sessions": 3085,
+   "sessions": 3084,
    "read_rate": 0.053,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 63,
-   "reads": 16,
+   "views": 62,
+   "reads": 15,
    "completes": 2,
-   "sessions": 61,
-   "read_rate": 0.254,
+   "sessions": 60,
+   "read_rate": 0.242,
    "complete_rate": 0.032,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 68,
-   "reads": 17,
-   "sessions": 62
+   "views": 67,
+   "reads": 16,
+   "sessions": 61
   },
   {
    "assistant": "Doubao",
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2569,
-   "reads": 250,
-   "sessions": 2493
+   "views": 2568,
+   "reads": 249,
+   "sessions": 2492
   },
   {
    "device": "mobile",
-   "views": 761,
+   "views": 760,
    "reads": 5,
-   "sessions": 752
+   "sessions": 751
   },
   {
    "device": "tablet",
@@ -806,8 +806,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 38,
-   "sessions": 20
+   "hits": 36,
+   "sessions": 19
   },
   {
    "ref": "https://cn.bing.com/",
