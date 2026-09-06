@@ -20,9 +20,7 @@ art:
   motif: "a single hard vertical line splitting the frame; on one side a warm human-shaped silhouette still lit, on the other the same silhouette gone dark and flattened into a plain gray tool icon"
 ---
 
-**China became the first country to regulate what an AI is allowed to *pretend to be* — not what it can do — and rather than comply, ByteDance's Doubao and Alibaba's Qwen switched their AI companion features off on July 15, 2026.** You cannot retrofit "please don't get attached to me" onto a product whose entire value is attachment, so two of the most-used apps in the world's largest AI market decided a fully compliant companion was worse than no companion at all.
-
-The law — the **Interim Measures for Anthropomorphic AI Interaction Services** — governs the *relationship*, not the model: any service that simulates a person must flash "you're talking to a machine" alerts, pop over-dependency warnings, prompt a break after two continuous hours, and ban virtual companions for minors outright. That's the whole story; here's why it's about to reach your market.
+**China became the first country to regulate what an AI is allowed to *pretend to be* — not what it can do — and rather than comply, ByteDance's Doubao and Alibaba's Qwen switched their AI companion features off on July 15, 2026.** The reason is the whole story: you cannot retrofit "please don't get attached to me" onto a product whose entire value is attachment, so two of the most-used apps in the world's largest AI market judged a fully compliant companion worse than no companion at all.
 
 **The whole story, in three facts:**
 
