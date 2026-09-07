@@ -20,7 +20,9 @@ art:
   motif: "a single hard vertical line splitting the frame; on one side a warm human-shaped silhouette still lit, on the other the same silhouette gone dark and flattened into a plain gray tool icon"
 ---
 
-**China became the first country to regulate what an AI is allowed to *pretend to be* — not what it can do — and rather than comply, ByteDance's Doubao and Alibaba's Qwen switched their AI companion features off on July 15, 2026.** The reason is the whole story: you cannot retrofit "please don't get attached to me" onto a product whose entire value is attachment, so two of the most-used apps in the world's largest AI market judged a fully compliant companion worse than no companion at all.
+**China wrote the first law governing what an AI may *pretend to be* — not what it can do. Rather than comply, ByteDance's Doubao and Alibaba's Qwen switched their AI companion features off on July 15, 2026.**
+
+Why kill a working product instead of adapting it? Because the rules target the *bond*, not the code — and you cannot retrofit "please don't get attached to me" onto a product whose entire value is attachment. Two of the most-used apps in the world's largest AI market judged a fully compliant companion worse than no companion at all. That single decision is the whole story, and it draws a line — *tool* vs. *companion* — that is about to reach your market too.
 
 **The whole story, in three facts:**
 
