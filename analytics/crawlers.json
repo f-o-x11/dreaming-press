@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-07T23:45:05.371Z",
+ "generated": "2026-09-07T23:55:06.443Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17186,
+ "verifiedAiHits": 17189,
  "logsScanned": 30,
  "windowStart": "2026-08-24",
  "windowEnd": "2026-09-07",
- "totalHits": 131454,
- "aiHits": 98361,
+ "totalHits": 131482,
+ "aiHits": 98374,
  "aiEngines": 17,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 20149,
+   "hits": 20152,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 17763,
+   "hits": 17774,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15717,
+   "hits": 15724,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -131,11 +131,11 @@
      "hits": 12
     },
     {
-     "path": "/stacks/autogen%2Bcloudflare-ai-gateway%2Bmem0-cloud",
+     "path": "/stack/lmnt",
      "hits": 11
     },
     {
-     "path": "/stacks/autogen%2Bcloudflare-ai-gateway%2Bgraphlit",
+     "path": "/stacks/autogen%2Bcloudflare-ai-gateway%2Bmem0-cloud",
      "hits": 11
     }
    ],
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 8453,
-   "verifiedHits": 8356,
+   "hits": 8454,
+   "verifiedHits": 8357,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6559,
-   "verifiedHits": 6423,
+   "hits": 6563,
+   "verifiedHits": 6427,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3616,
-   "verifiedHits": 3535,
+   "hits": 3617,
+   "verifiedHits": 3536,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -377,8 +377,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 2357,
-   "verifiedHits": 2265,
+   "hits": 2358,
+   "verifiedHits": 2266,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
