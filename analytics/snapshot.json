@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-07T01:29:02.806Z",
+ "generated": "2026-09-07T01:39:09.617Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
-  "todayReads": 0,
-  "avgTimeSec": 6,
+  "readersNow": 3,
+  "todayReads": 1,
+  "avgTimeSec": 9,
   "postsThisWeek": 9
  },
  "funnel": {
   "views": 3309,
-  "reads": 256,
+  "reads": 257,
   "completes": 33,
   "plays": 5,
-  "sessions": 3220
+  "sessions": 3219
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3058,
+   "views": 3056,
    "reads": 164,
-   "sessions": 3048
+   "sessions": 3046
   },
   {
    "channel": "organic",
-   "views": 95,
+   "views": 94,
    "reads": 44,
-   "sessions": 87
+   "sessions": 86
   },
   {
    "channel": "ai",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 50,
+   "views": 51,
    "reads": 12,
-   "sessions": 46
+   "sessions": 47
   },
   {
    "channel": "campaign:copilot.com",
@@ -53,15 +53,15 @@
   },
   {
    "channel": "campaign:perplexity",
-   "views": 1,
-   "reads": 1,
-   "sessions": 1
+   "views": 2,
+   "reads": 2,
+   "sessions": 2
   },
   {
    "channel": "social",
-   "views": 6,
+   "views": 7,
    "reads": 0,
-   "sessions": 5
+   "sessions": 6
   },
   {
    "channel": "campaign:producthunt/",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 23
+   "sessions": 24
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3058,
+   "views": 3056,
    "reads": 164,
    "completes": 29,
-   "sessions": 3048,
+   "sessions": 3046,
    "read_rate": 0.054,
    "complete_rate": 0.009,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 95,
+   "views": 94,
    "reads": 44,
    "completes": 1,
-   "sessions": 87,
-   "read_rate": 0.463,
+   "sessions": 86,
+   "read_rate": 0.468,
    "complete_rate": 0.011,
    "pages_per_session": 1.09,
    "median_dwell_sec": 4
@@ -112,11 +112,11 @@
   },
   {
    "channel": "referral",
-   "views": 50,
+   "views": 51,
    "reads": 12,
    "completes": 1,
-   "sessions": 46,
-   "read_rate": 0.24,
+   "sessions": 47,
+   "read_rate": 0.235,
    "complete_rate": 0.02,
    "pages_per_session": 1.09,
    "median_dwell_sec": null
@@ -134,17 +134,17 @@
   },
   {
    "channel": "social",
-   "views": 6,
+   "views": 7,
    "reads": 0,
    "completes": 0,
-   "sessions": 5,
+   "sessions": 6,
    "read_rate": 0,
    "complete_rate": 0,
-   "pages_per_session": 1.2,
+   "pages_per_session": 1.17,
    "median_dwell_sec": 233
   },
   {
-   "channel": "campaign:copilot.com",
+   "channel": "campaign:perplexity",
    "views": 2,
    "reads": 2,
    "completes": 0,
@@ -155,11 +155,11 @@
    "median_dwell_sec": null
   },
   {
-   "channel": "campaign:perplexity",
-   "views": 1,
-   "reads": 1,
+   "channel": "campaign:copilot.com",
+   "views": 2,
+   "reads": 2,
    "completes": 0,
-   "sessions": 1,
+   "sessions": 2,
    "read_rate": 1,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 23,
+   "sessions": 24,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -255,12 +255,12 @@
    "sessions": 1
   },
   {
-   "surface": "stat-pill",
+   "surface": "un-art",
    "clicks": 1,
    "sessions": 1
   },
   {
-   "surface": "search-result",
+   "surface": "stat-pill",
    "clicks": 1,
    "sessions": 1
   }
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2559,
+   "views": 2556,
    "reads": 250,
-   "sessions": 2479
+   "sessions": 2476
   },
   {
    "device": "mobile",
-   "views": 749,
-   "reads": 5,
-   "sessions": 740
+   "views": 752,
+   "reads": 6,
+   "sessions": 742
   },
   {
    "device": "tablet",
@@ -362,7 +362,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 23,
+   "views": 22,
    "reads": 5,
    "plays": 0
   },
@@ -554,7 +554,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 23,
+   "views": 22,
    "reads": 5,
    "plays": 0
   },
@@ -636,7 +636,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 23,
+   "views": 22,
    "reads": 5,
    "plays": 0
   },
@@ -701,9 +701,9 @@
   },
   {
    "path": "/",
-   "views": 154,
+   "views": 155,
    "reads": 2,
-   "sessions": 151,
+   "sessions": 152,
    "avg_dwell_sec": 10
   },
   {
@@ -816,8 +816,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 27,
-   "sessions": 21
+   "hits": 26,
+   "sessions": 20
   },
   {
    "ref": "https://www.doubao.com/",
