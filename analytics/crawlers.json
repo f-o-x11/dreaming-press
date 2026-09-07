@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-07T02:19:35.984Z",
+ "generated": "2026-09-07T02:29:39.291Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15966,
+ "verifiedAiHits": 15967,
  "logsScanned": 30,
  "windowStart": "2026-08-24",
  "windowEnd": "2026-09-07",
- "totalHits": 125152,
- "aiHits": 93975,
+ "totalHits": 125181,
+ "aiHits": 93989,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35902,
+   "hits": 35908,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -80,14 +80,14 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 16564,
+   "hits": 16576,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 17
+     "hits": 18
     },
     {
      "path": "/posts/best-llm-for-research-august-2026.html",
@@ -102,7 +102,7 @@
      "hits": 3
     },
     {
-     "path": "/posts/lancedb-vs-turbopuffer-agent-retrieval.md",
+     "path": "/posts/mastra-vs-vercel-ai-sdk-vs-langgraph-js.html",
      "hits": 2
     }
    ],
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14867,
+   "hits": 14874,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6166,
-   "verifiedHits": 6042,
+   "hits": 6167,
+   "verifiedHits": 6043,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2909,
-   "verifiedHits": 2817,
+   "hits": 2910,
+   "verifiedHits": 2818,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -410,8 +410,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2020,
-   "verifiedHits": 634,
+   "hits": 2022,
+   "verifiedHits": 636,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
