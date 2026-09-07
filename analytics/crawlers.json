@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-07T00:58:36.509Z",
+ "generated": "2026-09-07T01:08:48.449Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15945,
+ "verifiedAiHits": 15948,
  "logsScanned": 30,
  "windowStart": "2026-08-24",
  "windowEnd": "2026-09-07",
- "totalHits": 124729,
- "aiHits": 93691,
+ "totalHits": 124778,
+ "aiHits": 93729,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35776,
+   "hits": 35804,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 16470,
+   "hits": 16476,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14811,
+   "hits": 14817,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -146,10 +146,10 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 7632,
-   "verifiedHits": 7541,
+   "hits": 7634,
+   "verifiedHits": 7543,
    "firstSeen": "2026-08-24",
-   "lastSeen": "2026-09-06",
+   "lastSeen": "2026-09-07",
    "topPaths": [
     {
      "path": "/build",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6146,
-   "verifiedHits": 6022,
+   "hits": 6150,
+   "verifiedHits": 6026,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -278,14 +278,14 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3213,
+   "hits": 3214,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
-   "lastSeen": "2026-09-06",
+   "lastSeen": "2026-09-07",
    "topPaths": [
     {
      "path": "/",
-     "hits": 30
+     "hits": 31
     },
     {
      "path": "/stack.html",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2897,
-   "verifiedHits": 2805,
+   "hits": 2898,
+   "verifiedHits": 2806,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 436,
+   "hits": 437,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -520,7 +520,7 @@
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
-     "hits": 13
+     "hits": 14
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",

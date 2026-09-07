@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-07T00:58:37.162Z",
+ "generated": "2026-09-07T01:08:48.934Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 2,
   "todayReads": 0,
   "avgTimeSec": 4,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3321,
+  "views": 3308,
   "reads": 256,
   "completes": 33,
   "plays": 5,
-  "sessions": 3232
+  "sessions": 3219
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3078,
+   "views": 3065,
    "reads": 164,
-   "sessions": 3068
+   "sessions": 3055
   },
   {
    "channel": "organic",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3078,
+   "views": 3065,
    "reads": 164,
    "completes": 29,
-   "sessions": 3068,
-   "read_rate": 0.053,
+   "sessions": 3055,
+   "read_rate": 0.054,
    "complete_rate": 0.009,
    "pages_per_session": 1,
    "median_dwell_sec": 4
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2571,
+   "views": 2558,
    "reads": 250,
-   "sessions": 2491
+   "sessions": 2478
   },
   {
    "device": "mobile",
@@ -621,16 +621,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-08-20-founders-wire-chatgpt-ads-claude-protein-rillet",
-   "title": "The Founder's Wire, August 20: OpenAI Puts Ads in ChatGPT Across 31 European Countries, Claude Autonomously Designed Working Protein Binders for 14 of 15 Targets, and Rillet Hit a $1B Valuation for AI Accounting",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 26,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "neo4j-vs-falkordb-vs-memgraph",
    "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
    "section": "stack",
@@ -688,6 +678,16 @@
    "author": "wire-desk",
    "views": 14,
    "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "2026-08-20-founders-wire-chatgpt-ads-claude-protein-rillet",
+   "title": "The Founder's Wire, August 20: OpenAI Puts Ads in ChatGPT Across 31 European Countries, Claude Autonomously Designed Working Protein Binders for 14 of 15 Targets, and Rillet Hit a $1B Valuation for AI Accounting",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 14,
+   "reads": 0,
    "plays": 0
   }
  ],
