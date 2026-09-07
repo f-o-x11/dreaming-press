@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-07T01:59:23.103Z",
+ "generated": "2026-09-07T02:09:26.507Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 2,
+  "readersNow": 6,
+  "todayReads": 6,
   "avgTimeSec": 11,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3309,
-  "reads": 258,
+  "views": 3314,
+  "reads": 262,
   "completes": 34,
-  "plays": 5,
-  "sessions": 3219
+  "plays": 7,
+  "sessions": 3224
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3055,
-   "reads": 164,
-   "sessions": 3046
+   "views": 3057,
+   "reads": 165,
+   "sessions": 3048
   },
   {
    "channel": "organic",
@@ -34,16 +34,16 @@
    "sessions": 42
   },
   {
+   "channel": "referral",
+   "views": 55,
+   "reads": 16,
+   "sessions": 51
+  },
+  {
    "channel": "campaign:chatgpt.com",
    "views": 64,
    "reads": 14,
    "sessions": 62
-  },
-  {
-   "channel": "referral",
-   "views": 52,
-   "reads": 13,
-   "sessions": 48
   },
   {
    "channel": "campaign:copilot.com",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 24
+   "sessions": 25
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3055,
-   "reads": 164,
+   "views": 3057,
+   "reads": 165,
    "completes": 29,
-   "sessions": 3046,
+   "sessions": 3048,
    "read_rate": 0.054,
    "complete_rate": 0.009,
    "pages_per_session": 1,
@@ -112,12 +112,12 @@
   },
   {
    "channel": "referral",
-   "views": 52,
-   "reads": 13,
+   "views": 55,
+   "reads": 16,
    "completes": 2,
-   "sessions": 48,
-   "read_rate": 0.25,
-   "complete_rate": 0.038,
+   "sessions": 51,
+   "read_rate": 0.291,
+   "complete_rate": 0.036,
    "pages_per_session": 1.08,
    "median_dwell_sec": null
   },
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 24,
+   "sessions": 25,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -245,6 +245,11 @@
    "sessions": 2
   },
   {
+   "surface": "auto-link",
+   "clicks": 2,
+   "sessions": 2
+  },
+  {
    "surface": "wire-row",
    "clicks": 1,
    "sessions": 1
@@ -256,11 +261,6 @@
   },
   {
    "surface": "un-art",
-   "clicks": 1,
-   "sessions": 1
-  },
-  {
-   "surface": "stat-pill",
    "clicks": 1,
    "sessions": 1
   }
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2554,
-   "reads": 250,
-   "sessions": 2474
+   "views": 2557,
+   "reads": 252,
+   "sessions": 2477
   },
   {
    "device": "mobile",
-   "views": 754,
-   "reads": 7,
-   "sessions": 744
+   "views": 756,
+   "reads": 9,
+   "sessions": 746
   },
   {
    "device": "tablet",
@@ -375,6 +375,16 @@
    "views": 10,
    "reads": 5,
    "plays": 0
+  },
+  {
+   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
+   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 5,
+   "plays": 2
   },
   {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
@@ -475,19 +485,19 @@
    "views": 9,
    "reads": 3,
    "plays": 0
-  },
-  {
-   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
-   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 3,
-   "plays": 1
   }
  ],
  "topListens": [
+  {
+   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
+   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 5,
+   "plays": 2
+  },
   {
    "slug": "gartner-ai-agent-spending-2026",
    "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
@@ -575,16 +585,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 17,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-22-mcp-authorization-oauth",
-   "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 9,
    "reads": 4,
    "plays": 0
   }
@@ -735,6 +735,13 @@
    "avg_dwell_sec": 22
   },
   {
+   "path": "/topics/:topic",
+   "views": 16,
+   "reads": 0,
+   "sessions": 16,
+   "avg_dwell_sec": 8
+  },
+  {
    "path": "/alternatives/:tool",
    "views": 15,
    "reads": 0,
@@ -747,13 +754,6 @@
    "reads": 0,
    "sessions": 15,
    "avg_dwell_sec": 7
-  },
-  {
-   "path": "/topics/:topic",
-   "views": 15,
-   "reads": 0,
-   "sessions": 15,
-   "avg_dwell_sec": 10
   },
   {
    "path": "/weekly",
@@ -840,14 +840,14 @@
    "sessions": 2
   },
   {
-   "ref": "nav-cmp",
-   "hits": 7,
+   "ref": "https://l.instagram.com/",
+   "hits": 9,
    "sessions": 4
   },
   {
    "ref": "http://114.114.114.114:9421/",
-   "hits": 7,
-   "sessions": 5
+   "hits": 9,
+   "sessions": 6
   }
  ]
 }
