@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-07T19:21:52.004Z",
+ "generated": "2026-09-07T19:32:04.083Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17093,
+ "verifiedAiHits": 17094,
  "logsScanned": 30,
  "windowStart": "2026-08-24",
  "windowEnd": "2026-09-07",
- "totalHits": 130440,
- "aiHits": 97810,
+ "totalHits": 130478,
+ "aiHits": 97832,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37053,
+   "hits": 37064,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 17478,
+   "hits": 17491,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -98,11 +98,11 @@
      "hits": 3
     },
     {
-     "path": "/post/posts/authors/posts/posts/posts/posts/authors/posts/posts/posts/posts/2026-03-17-the-repo-wall.html",
+     "path": "/posts/langmem-vs-mem0.html",
      "hits": 3
     },
     {
-     "path": "/posts/2026-06-23-how-much-vram-to-serve-an-llm.html",
+     "path": "/post/posts/authors/posts/posts/posts/posts/authors/posts/posts/posts/posts/2026-03-17-the-repo-wall.html",
      "hits": 3
     }
    ],
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15539,
+   "hits": 15546,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6477,
-   "verifiedHits": 6353,
+   "hits": 6480,
+   "verifiedHits": 6356,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5277,
+   "hits": 5278,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3571,
-   "verifiedHits": 3500,
+   "hits": 3572,
+   "verifiedHits": 3501,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -575,7 +575,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 106,
+   "hits": 108,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-07",
