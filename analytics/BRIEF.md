@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-09-07T16:20Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-07T16:30Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3344 views → 265 engaged reads → 36 completes · 3246 sessions.
-- Channels: direct 163r/3062v · organic 44r/90v · referral 19r/70v · ai 19r/34v · campaign:chatgpt.com 16r/75v · campaign:copilot.com 2r/2v · campaign:perplexity 2r/2v · social 0r/8v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 17r/80v · Doubao 9r/10v · Perplexity 5r/5v · Yuanbao 2r/2v · Copilot 2r/2v · DeepSeek 1r/4v · Grok 1r/3v · Kimi 0r/3v · Claude 0r/2v.
+- Funnel: 3345 views → 265 engaged reads → 36 completes · 3247 sessions.
+- Channels: direct 163r/3062v · organic 44r/90v · referral 19r/70v · ai 19r/34v · campaign:chatgpt.com 16r/76v · campaign:copilot.com 2r/2v · campaign:perplexity 2r/2v · social 0r/8v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 17r/81v · Doubao 9r/10v · Perplexity 5r/5v · Yuanbao 2r/2v · Copilot 2r/2v · DeepSeek 1r/4v · Grok 1r/3v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, l.instagram.com, google.com, doubao.com, duckduckgo.com, 114.114.114.114:9421, perplexity.ai, dash-range.
 - Engaged-read winners by section: stack=6, wire=9.
 
@@ -25,7 +25,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - direct: 3062 views · read 5.3% · complete 1.0% · 1 pages/session · median 4s
 - organic: 90 views · read 48.9% · complete 1.1% · 1.08 pages/session · median 4s
-- campaign:chatgpt.com: 75 views · read 21.3% · complete 2.7% · 1.03 pages/session · median ?s
+- campaign:chatgpt.com: 76 views · read 21.1% · complete 2.6% · 1.03 pages/session · median ?s
 - referral: 70 views · read 27.1% · complete 2.9% · 1.06 pages/session · median ?s
 - ai: 34 views · read 55.9% · complete 2.9% · 0.81 pages/session · median 18s
 - social: 8 views · read 0.0% · complete 0.0% · 1.14 pages/session · median 233s
