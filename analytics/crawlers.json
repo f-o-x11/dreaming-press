@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-07T02:49:56.492Z",
+ "generated": "2026-09-07T03:00:04.261Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15975,
+ "verifiedAiHits": 15978,
  "logsScanned": 30,
  "windowStart": "2026-08-24",
  "windowEnd": "2026-09-07",
- "totalHits": 125284,
- "aiHits": 94055,
+ "totalHits": 125390,
+ "aiHits": 94150,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35957,
+   "hits": 35976,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19379,
+   "hits": 19444,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 16604,
+   "hits": 16612,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -94,16 +94,16 @@
      "hits": 4
     },
     {
+     "path": "/posts/best-llm-for-writing-2026.html",
+     "hits": 3
+    },
+    {
      "path": "/post/posts/authors/posts/posts/posts/posts/authors/posts/posts/posts/posts/2026-03-17-the-repo-wall.html",
      "hits": 3
     },
     {
      "path": "/posts/2026-06-23-how-much-vram-to-serve-an-llm.html",
      "hits": 3
-    },
-    {
-     "path": "/posts/mastra-vs-vercel-ai-sdk-vs-langgraph-js.html",
-     "hits": 2
     }
    ],
    "verifiable": false
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14880,
+   "hits": 14887,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6175,
-   "verifiedHits": 6051,
+   "hits": 6178,
+   "verifiedHits": 6054,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3419,
-   "verifiedHits": 3348,
+   "hits": 3420,
+   "verifiedHits": 3349,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2916,
-   "verifiedHits": 2823,
+   "hits": 2918,
+   "verifiedHits": 2825,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 439,
+   "hits": 440,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -520,7 +520,7 @@
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
-     "hits": 15
+     "hits": 16
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
