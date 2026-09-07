@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-07T17:10Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-07T17:20Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -41,8 +41,8 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference" — 5 reads, 10 views, 0 listens
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 4 reads, 17 views, 0 listens
 - [wire] "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy" — 4 reads, 9 views, 0 listens
+- [wire] "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things" — 4 reads, 9 views, 0 listens
 - [wire] "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest" — 4 reads, 8 views, 0 listens
-- [wire] "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things" — 4 reads, 8 views, 0 listens
 - [wire] "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents" — 4 reads, 7 views, 0 listens
 - [stack] "LM Studio Bionic: A Private, Local Agent for Open Models — What It Is, Who It's For, How to Start" — 4 reads, 6 views, 0 listens
 
@@ -100,11 +100,11 @@ sample size dwarfs the engaged-read counts below.
 - /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 18 retrieval fetches
 - /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html  — 17 retrieval fetches
 - /posts/2026-08-07-founders-wire-meta-coding-agent-openai-atlas-claude-code.html  — 17 retrieval fetches
-- /dashboard  — 13 retrieval fetches
+- /dashboard  — 14 retrieval fetches
 
 Per engine:
-- PerplexityBot (8278 verified): /build ×146 · / ×26 · /dashboard ×13
-- OAI-SearchBot (3453 verified): /build ×35 · / ×20 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×18
+- PerplexityBot (8306 verified): /build ×146 · / ×26 · /dashboard ×14
+- OAI-SearchBot (3454 verified): /build ×35 · / ×20 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×18
 - ChatGPT-User (2979 verified): / ×555 · /posts/agent-funding-august-2026-control-won-the-summer.html ×167 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×100
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -153,7 +153,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16973 confirmed AI-engine fetches (Perplexity 8278, ChatGPT Search (OpenAI) 3453, ChatGPT (user browsing) 2979, GPTBot (OpenAI) 2263).
+The real answer engines are crawling us — IP-verified: 17002 confirmed AI-engine fetches (Perplexity 8306, ChatGPT Search (OpenAI) 3454, ChatGPT (user browsing) 2979, GPTBot (OpenAI) 2263).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 731 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 167 crawler fetches
