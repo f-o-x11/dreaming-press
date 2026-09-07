@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-07T16:09:54.812Z",
+ "generated": "2026-09-07T16:20:02.010Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16963,
+ "verifiedAiHits": 16964,
  "logsScanned": 30,
  "windowStart": "2026-08-24",
  "windowEnd": "2026-09-07",
- "totalHits": 129699,
- "aiHits": 97345,
+ "totalHits": 129728,
+ "aiHits": 97362,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36908,
+   "hits": 36916,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 17291,
+   "hits": 17301,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15425,
+   "hits": 15432,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6412,
-   "verifiedHits": 6288,
+   "hits": 6414,
+   "verifiedHits": 6290,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5261,
+   "hits": 5262,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3519,
-   "verifiedHits": 3448,
+   "hits": 3520,
+   "verifiedHits": 3449,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -259,15 +259,15 @@
      "hits": 20
     },
     {
+     "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
+     "hits": 18
+    },
+    {
      "path": "/posts/cheapest-terminal-coding-agent-august-2026-free-floor.html",
      "hits": 17
     },
     {
      "path": "/posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html",
-     "hits": 17
-    },
-    {
-     "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
      "hits": 17
     }
    ],
