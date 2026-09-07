@@ -1,37 +1,37 @@
 {
- "generated": "2026-09-07T12:06:22.857Z",
+ "generated": "2026-09-07T12:16:23.238Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 23,
   "avgTimeSec": 25,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3343,
+  "views": 3339,
   "reads": 268,
   "completes": 36,
   "plays": 8,
-  "sessions": 3253
+  "sessions": 3249
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3066,
+   "views": 3064,
    "reads": 166,
-   "sessions": 3062
+   "sessions": 3060
   },
   {
    "channel": "organic",
-   "views": 93,
+   "views": 92,
    "reads": 44,
-   "sessions": 85
+   "sessions": 84
   },
   {
    "channel": "referral",
-   "views": 69,
+   "views": 68,
    "reads": 19,
-   "sessions": 65
+   "sessions": 64
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3066,
+   "views": 3064,
    "reads": 166,
    "completes": 30,
-   "sessions": 3062,
+   "sessions": 3060,
    "read_rate": 0.054,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -90,13 +90,13 @@
   },
   {
    "channel": "organic",
-   "views": 93,
+   "views": 92,
    "reads": 44,
    "completes": 1,
-   "sessions": 85,
-   "read_rate": 0.473,
+   "sessions": 84,
+   "read_rate": 0.478,
    "complete_rate": 0.011,
-   "pages_per_session": 1.09,
+   "pages_per_session": 1.1,
    "median_dwell_sec": 4
   },
   {
@@ -112,11 +112,11 @@
   },
   {
    "channel": "referral",
-   "views": 69,
+   "views": 68,
    "reads": 19,
    "completes": 2,
-   "sessions": 65,
-   "read_rate": 0.275,
+   "sessions": 64,
+   "read_rate": 0.279,
    "complete_rate": 0.029,
    "pages_per_session": 1.06,
    "median_dwell_sec": null
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2563,
+   "views": 2559,
    "reads": 255,
-   "sessions": 2485
+   "sessions": 2481
   },
   {
    "device": "mobile",
@@ -816,8 +816,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 26,
-   "sessions": 20
+   "hits": 25,
+   "sessions": 19
   },
   {
    "ref": "https://l.instagram.com/",
