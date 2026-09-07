@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-07T10:45:29.725Z",
+ "generated": "2026-09-07T10:55:36.320Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
-  "todayReads": 20,
-  "avgTimeSec": 18,
+  "readersNow": 8,
+  "todayReads": 21,
+  "avgTimeSec": 25,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3330,
-  "reads": 267,
+  "views": 3334,
+  "reads": 268,
   "completes": 35,
   "plays": 7,
-  "sessions": 3240
+  "sessions": 3244
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3054,
+   "views": 3057,
    "reads": 166,
-   "sessions": 3049
+   "sessions": 3052
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 30,
-   "reads": 18,
-   "sessions": 41
+   "views": 31,
+   "reads": 19,
+   "sessions": 43
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3054,
+   "views": 3057,
    "reads": 166,
    "completes": 30,
-   "sessions": 3049,
+   "sessions": 3052,
    "read_rate": 0.054,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -123,14 +123,14 @@
   },
   {
    "channel": "ai",
-   "views": 30,
-   "reads": 18,
+   "views": 31,
+   "reads": 19,
    "completes": 0,
-   "sessions": 41,
-   "read_rate": 0.6,
+   "sessions": 43,
+   "read_rate": 0.613,
    "complete_rate": 0,
-   "pages_per_session": 0.73,
-   "median_dwell_sec": 18
+   "pages_per_session": 0.72,
+   "median_dwell_sec": 20
   },
   {
    "channel": "social",
@@ -285,6 +285,12 @@
    "sessions": 5
   },
   {
+   "assistant": "Yuanbao",
+   "views": 2,
+   "reads": 2,
+   "sessions": 2
+  },
+  {
    "assistant": "Copilot",
    "views": 2,
    "reads": 2,
@@ -295,12 +301,6 @@
    "views": 3,
    "reads": 1,
    "sessions": 3
-  },
-  {
-   "assistant": "Yuanbao",
-   "views": 1,
-   "reads": 1,
-   "sessions": 1
   },
   {
    "assistant": "Kimi",
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2553,
-   "reads": 254,
-   "sessions": 2475
+   "views": 2554,
+   "reads": 255,
+   "sessions": 2476
   },
   {
    "device": "mobile",
-   "views": 776,
+   "views": 779,
    "reads": 12,
-   "sessions": 764
+   "sessions": 767
   },
   {
    "device": "tablet",
@@ -362,7 +362,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 26,
+   "views": 27,
    "reads": 10,
    "plays": 2
   },
@@ -494,7 +494,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 26,
+   "views": 27,
    "reads": 10,
    "plays": 2
   },
@@ -626,7 +626,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 26,
+   "views": 27,
    "reads": 10,
    "plays": 2
   },
