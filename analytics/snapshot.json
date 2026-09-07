@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-07T14:59:00.000Z",
+ "generated": "2026-09-07T15:09:08.955Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 28,
   "avgTimeSec": 26,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3346,
-  "reads": 267,
+  "views": 3345,
+  "reads": 266,
   "completes": 36,
   "plays": 7,
-  "sessions": 3249
+  "sessions": 3247
  },
  "channels": [
   {
    "channel": "direct",
    "views": 3065,
    "reads": 164,
-   "sessions": 3057
+   "sessions": 3056
   },
   {
    "channel": "organic",
@@ -37,13 +37,13 @@
    "channel": "ai",
    "views": 34,
    "reads": 19,
-   "sessions": 43
+   "sessions": 42
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 74,
-   "reads": 17,
-   "sessions": 72
+   "views": 73,
+   "reads": 16,
+   "sessions": 71
   },
   {
    "channel": "campaign:copilot.com",
@@ -82,7 +82,7 @@
    "views": 3065,
    "reads": 164,
    "completes": 30,
-   "sessions": 3057,
+   "sessions": 3056,
    "read_rate": 0.054,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 74,
-   "reads": 17,
+   "views": 73,
+   "reads": 16,
    "completes": 2,
-   "sessions": 72,
-   "read_rate": 0.23,
+   "sessions": 71,
+   "read_rate": 0.219,
    "complete_rate": 0.027,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -126,11 +126,11 @@
    "views": 34,
    "reads": 19,
    "completes": 1,
-   "sessions": 43,
+   "sessions": 42,
    "read_rate": 0.559,
    "complete_rate": 0.029,
-   "pages_per_session": 0.79,
-   "median_dwell_sec": 20
+   "pages_per_session": 0.81,
+   "median_dwell_sec": 18
   },
   {
    "channel": "social",
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 79,
-   "reads": 18,
-   "sessions": 73
+   "views": 78,
+   "reads": 17,
+   "sessions": 72
   },
   {
    "assistant": "Doubao",
@@ -325,14 +325,14 @@
   {
    "device": "desktop",
    "views": 2555,
-   "reads": 252,
-   "sessions": 2476
+   "reads": 251,
+   "sessions": 2475
   },
   {
    "device": "mobile",
-   "views": 790,
+   "views": 789,
    "reads": 14,
-   "sessions": 772
+   "sessions": 771
   },
   {
    "device": "tablet",
@@ -380,16 +380,6 @@
    "author": "dex",
    "views": 10,
    "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 4,
    "plays": 0
   },
   {
@@ -460,6 +450,16 @@
    "author": "dex",
    "views": 4,
    "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 18,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -575,22 +575,22 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 17,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-22-mcp-authorization-oauth",
+   "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 9,
    "reads": 4,
    "plays": 0
   }
@@ -652,8 +652,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 20,
-   "reads": 4,
+   "views": 18,
+   "reads": 3,
    "plays": 0
   },
   {
