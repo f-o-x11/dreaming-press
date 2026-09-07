@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-07T07:13:00.798Z",
+ "generated": "2026-09-07T07:23:08.619Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16081,
+ "verifiedAiHits": 16087,
  "logsScanned": 30,
  "windowStart": "2026-08-24",
  "windowEnd": "2026-09-07",
- "totalHits": 126717,
- "aiHits": 95114,
+ "totalHits": 126752,
+ "aiHits": 95141,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36325,
+   "hits": 36336,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 16872,
+   "hits": 16879,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15056,
+   "hits": 15063,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5209,
+   "hits": 5210,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3444,
-   "verifiedHits": 3373,
+   "hits": 3445,
+   "verifiedHits": 3374,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2963,
-   "verifiedHits": 2870,
+   "hits": 2968,
+   "verifiedHits": 2875,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -333,8 +333,8 @@
      "hits": 90
     },
     {
-     "path": "/posts/agent-funding-july-2026-control-vs-vertical-bet.html",
-     "hits": 59
+     "path": "/posts/llm-api-pricing-comparison-august-2026.html",
+     "hits": 60
     }
    ],
    "verifiable": true
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 720,
+   "hits": 721,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -575,14 +575,18 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 87,
+   "hits": 89,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
-   "lastSeen": "2026-09-06",
+   "lastSeen": "2026-09-07",
    "topPaths": [
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
      "hits": 3
+    },
+    {
+     "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
+     "hits": 1
     },
     {
      "path": "/posts/hnsw-vs-ivf-vs-diskann.html",
@@ -594,10 +598,6 @@
     },
     {
      "path": "/tools",
-     "hits": 1
-    },
-    {
-     "path": "/authors/rosalinda.html",
      "hits": 1
     }
    ],
