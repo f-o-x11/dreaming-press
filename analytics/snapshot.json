@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-07T15:09:08.955Z",
+ "generated": "2026-09-07T15:19:16.591Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 28,
-  "avgTimeSec": 26,
+  "avgTimeSec": 25,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3345,
+  "views": 3346,
   "reads": 266,
   "completes": 36,
   "plays": 7,
-  "sessions": 3247
+  "sessions": 3248
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3065,
+   "views": 3066,
    "reads": 164,
-   "sessions": 3056
+   "sessions": 3057
   },
   {
    "channel": "organic",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3065,
+   "views": 3066,
    "reads": 164,
    "completes": 30,
-   "sessions": 3056,
-   "read_rate": 0.054,
+   "sessions": 3057,
+   "read_rate": 0.053,
    "complete_rate": 0.01,
    "pages_per_session": 1,
    "median_dwell_sec": 4
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2555,
+   "views": 2556,
    "reads": 251,
-   "sessions": 2475
+   "sessions": 2476
   },
   {
    "device": "mobile",
@@ -473,16 +473,6 @@
    "plays": 2
   },
   {
-   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
-   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 3,
-   "plays": 1
-  },
-  {
    "slug": "google-adk-2-workflow-runtime",
    "title": "ADK 2.0 Turns Agents Into Graph Nodes: Inside Google's Workflow Runtime",
    "section": "wire",
@@ -491,6 +481,16 @@
    "views": 8,
    "reads": 3,
    "plays": 0
+  },
+  {
+   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
+   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
+   "reads": 3,
+   "plays": 1
   }
  ],
  "topListens": [
@@ -520,7 +520,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 8,
+   "views": 7,
    "reads": 3,
    "plays": 1
   },

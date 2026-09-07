@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-07T15:09:08.344Z",
+ "generated": "2026-09-07T15:19:15.775Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16946,
+ "verifiedAiHits": 16947,
  "logsScanned": 30,
  "windowStart": "2026-08-24",
  "windowEnd": "2026-09-07",
- "totalHits": 129432,
- "aiHits": 97171,
+ "totalHits": 129461,
+ "aiHits": 97188,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36849,
+   "hits": 36853,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 17223,
+   "hits": 17232,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15390,
+   "hits": 15398,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -121,6 +121,10 @@
     {
      "path": "/tags/opinionated",
      "hits": 15
+    },
+    {
+     "path": "/stack.html",
+     "hits": 12
     },
     {
      "path": "/tags/reportive",
@@ -132,10 +136,6 @@
     },
     {
      "path": "/stacks/autogen%2Bcloudflare-ai-gateway%2Bgraphlit",
-     "hits": 11
-    },
-    {
-     "path": "/stack/pgvector",
      "hits": 11
     }
    ],
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6398,
-   "verifiedHits": 6274,
+   "hits": 6401,
+   "verifiedHits": 6277,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3054,
-   "verifiedHits": 2961,
+   "hits": 3055,
+   "verifiedHits": 2962,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 476,
+   "hits": 478,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -575,7 +575,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 91,
+   "hits": 93,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-07",
@@ -593,11 +593,11 @@
      "hits": 1
     },
     {
-     "path": "/posts/hnsw-vs-ivf-vs-diskann.html",
+     "path": "/posts/anthropic-theseus-data-center-jv-macquarie-gic-what-founders-do.html",
      "hits": 1
     },
     {
-     "path": "/posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html",
+     "path": "/posts/hnsw-vs-ivf-vs-diskann.html",
      "hits": 1
     }
    ],
