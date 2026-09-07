@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-07T13:06:59.498Z",
+ "generated": "2026-09-07T13:17:06.854Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 32
+   "count": 33
   },
   {
    "term": "startup",
@@ -16,7 +16,7 @@
   },
   {
    "term": "agentic",
-   "count": 28
+   "count": 27
   },
   {
    "term": "founder",
@@ -27,16 +27,8 @@
    "count": 21
   },
   {
-   "term": "mcp",
-   "count": 19
-  },
-  {
-   "term": "build",
-   "count": 19
-  },
-  {
    "term": "agent",
-   "count": 19
+   "count": 20
   },
   {
    "term": "code",
@@ -45,6 +37,14 @@
   {
    "term": "building",
    "count": 19
+  },
+  {
+   "term": "mcp",
+   "count": 18
+  },
+  {
+   "term": "build",
+   "count": 18
   },
   {
    "term": "claude",
@@ -59,11 +59,11 @@
    "count": 10
   },
   {
-   "term": "autonomous",
-   "count": 10
+   "term": "launch",
+   "count": 9
   },
   {
-   "term": "launch",
+   "term": "autonomous",
    "count": 9
   },
   {
@@ -79,11 +79,11 @@
    "count": 8
   },
   {
-   "term": "gives",
+   "term": "actually",
    "count": 8
   },
   {
-   "term": "koder",
+   "term": "gives",
    "count": 8
   }
  ],
@@ -152,7 +152,7 @@
   },
   {
    "text": "If I had 6 months to become an Agentic AI Engineer. I'd do this. Stage 1: Python and LLM Foundations Python, async, API design, Anthropic/OpenAI SDKs, tokens, embeddings, structured outputs. Stage 2: Context Engineering ",
-   "engagement": 663,
+   "engagement": 662,
    "url": "https://x.com/i/status/2095491337651179621",
    "created": "2026-09-03T12:37:21.000Z"
   },
