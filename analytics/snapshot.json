@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-06T23:58:02.719Z",
+ "generated": "2026-09-07T00:08:06.681Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 12,
-  "avgTimeSec": 8,
-  "postsThisWeek": 11
+  "readersNow": 5,
+  "todayReads": 0,
+  "avgTimeSec": 4,
+  "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3353,
-  "reads": 257,
-  "completes": 34,
+  "views": 3332,
+  "reads": 256,
+  "completes": 33,
   "plays": 5,
-  "sessions": 3264
+  "sessions": 3243
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3109,
-   "reads": 165,
-   "sessions": 3099
+   "views": 3089,
+   "reads": 164,
+   "sessions": 3079
   },
   {
    "channel": "organic",
-   "views": 88,
+   "views": 87,
    "reads": 44,
-   "sessions": 80
+   "sessions": 79
   },
   {
    "channel": "ai",
@@ -79,22 +79,22 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3109,
-   "reads": 165,
-   "completes": 30,
-   "sessions": 3099,
+   "views": 3089,
+   "reads": 164,
+   "completes": 29,
+   "sessions": 3079,
    "read_rate": 0.053,
-   "complete_rate": 0.01,
+   "complete_rate": 0.009,
    "pages_per_session": 1,
    "median_dwell_sec": 4
   },
   {
    "channel": "organic",
-   "views": 88,
+   "views": 87,
    "reads": 44,
    "completes": 1,
-   "sessions": 80,
-   "read_rate": 0.5,
+   "sessions": 79,
+   "read_rate": 0.506,
    "complete_rate": 0.011,
    "pages_per_session": 1.1,
    "median_dwell_sec": 4
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2598,
-   "reads": 251,
-   "sessions": 2518
+   "views": 2578,
+   "reads": 250,
+   "sessions": 2498
   },
   {
    "device": "mobile",
-   "views": 754,
+   "views": 753,
    "reads": 5,
-   "sessions": 745
+   "sessions": 744
   },
   {
    "device": "tablet",
@@ -601,16 +601,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-08-20-founders-wire-chatgpt-ads-claude-protein-rillet",
-   "title": "The Founder's Wire, August 20: OpenAI Puts Ads in ChatGPT Across 31 European Countries, Claude Autonomously Designed Working Protein Binders for 14 of 15 Targets, and Rillet Hit a $1B Valuation for AI Accounting",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 48,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
    "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
    "section": "stack",
@@ -618,6 +608,16 @@
    "author": "dex",
    "views": 33,
    "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "2026-08-20-founders-wire-chatgpt-ads-claude-protein-rillet",
+   "title": "The Founder's Wire, August 20: OpenAI Puts Ads in ChatGPT Across 31 European Countries, Claude Autonomously Designed Working Protein Binders for 14 of 15 Targets, and Rillet Hit a $1B Valuation for AI Accounting",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 32,
+   "reads": 0,
    "plays": 0
   },
   {
