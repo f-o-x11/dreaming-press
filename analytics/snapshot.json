@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-07T14:48:46.606Z",
+ "generated": "2026-09-07T14:59:00.000Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -9,10 +9,10 @@
  },
  "funnel": {
   "views": 3346,
-  "reads": 268,
+  "reads": 267,
   "completes": 36,
-  "plays": 8,
-  "sessions": 3248
+  "plays": 7,
+  "sessions": 3249
  },
  "channels": [
   {
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 71,
-   "reads": 20,
-   "sessions": 67
+   "views": 70,
+   "reads": 19,
+   "sessions": 66
   },
   {
    "channel": "ai",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 73,
+   "views": 74,
    "reads": 17,
-   "sessions": 71
+   "sessions": 72
   },
   {
    "channel": "campaign:copilot.com",
@@ -101,23 +101,23 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 73,
+   "views": 74,
    "reads": 17,
    "completes": 2,
-   "sessions": 71,
-   "read_rate": 0.233,
+   "sessions": 72,
+   "read_rate": 0.23,
    "complete_rate": 0.027,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
   },
   {
    "channel": "referral",
-   "views": 71,
-   "reads": 20,
+   "views": 70,
+   "reads": 19,
    "completes": 2,
-   "sessions": 67,
-   "read_rate": 0.282,
-   "complete_rate": 0.028,
+   "sessions": 66,
+   "read_rate": 0.271,
+   "complete_rate": 0.029,
    "pages_per_session": 1.06,
    "median_dwell_sec": null
   },
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 78,
+   "views": 79,
    "reads": 18,
-   "sessions": 72
+   "sessions": 73
   },
   {
    "assistant": "Doubao",
@@ -325,8 +325,8 @@
   {
    "device": "desktop",
    "views": 2555,
-   "reads": 253,
-   "sessions": 2475
+   "reads": 252,
+   "sessions": 2476
   },
   {
    "device": "mobile",
@@ -535,16 +535,6 @@
    "plays": 1
   },
   {
-   "slug": "gross-vs-net-anthropic-revenue-what-your-arr-really-is",
-   "title": "Gross vs Net: Why Two Honest Numbers for Anthropic's Revenue Differ by Billions — and What That Says About Your ARR",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 3,
-   "reads": 1,
-   "plays": 1
-  },
-  {
    "slug": "2026-08-28-founders-wire-ai-cyber-defense-microduck-vertical-agents",
    "title": "The Founder's Wire, August 28: 116 Companies Warn AI Cyberattacks Are About to Surge, Hugging Face Ships a $399 Open-Source Robot, and the Vertical-Agent Money Keeps Pouring In",
    "section": "wire",
@@ -591,6 +581,16 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 20,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 17,
    "reads": 4,
    "plays": 0
   }
