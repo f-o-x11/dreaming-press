@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-07T05:52:06.378Z",
+ "generated": "2026-09-07T06:02:14.430Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 12,
+  "readersNow": 9,
   "todayReads": 8,
-  "avgTimeSec": 30,
+  "avgTimeSec": 27,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3316,
-  "reads": 259,
+  "views": 3312,
+  "reads": 258,
   "completes": 34,
   "plays": 7,
-  "sessions": 3226
+  "sessions": 3222
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3052,
-   "reads": 163,
-   "sessions": 3046
+   "views": 3048,
+   "reads": 162,
+   "sessions": 3042
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3052,
-   "reads": 163,
+   "views": 3048,
+   "reads": 162,
    "completes": 29,
-   "sessions": 3046,
+   "sessions": 3042,
    "read_rate": 0.053,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2557,
-   "reads": 251,
-   "sessions": 2478
+   "views": 2553,
+   "reads": 250,
+   "sessions": 2474
   },
   {
    "device": "mobile",
@@ -437,16 +437,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-23-agents-vs-workflows",
-   "title": "Agents vs Workflows: When Your LLM App Should Not Be an Agent",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 5,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "how-to-write-a-claude-skill-that-triggers",
    "title": "How to Write a Claude Skill That Actually Triggers: The SKILL.md Description Craft",
    "section": "stack",
@@ -485,6 +475,16 @@
    "views": 9,
    "reads": 3,
    "plays": 0
+  },
+  {
+   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
+   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 3,
+   "plays": 1
   }
  ],
  "topListens": [
@@ -694,9 +694,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 387,
+   "views": 386,
    "reads": 0,
-   "sessions": 384,
+   "sessions": 383,
    "avg_dwell_sec": 4
   },
   {
