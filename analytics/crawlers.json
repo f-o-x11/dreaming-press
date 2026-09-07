@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-07T23:35:00.127Z",
+ "generated": "2026-09-07T23:45:05.371Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17183,
+ "verifiedAiHits": 17186,
  "logsScanned": 30,
  "windowStart": "2026-08-24",
  "windowEnd": "2026-09-07",
- "totalHits": 131364,
- "aiHits": 98312,
+ "totalHits": 131454,
+ "aiHits": 98361,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37157,
+   "hits": 37165,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 17754,
+   "hits": 17763,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15710,
+   "hits": 15717,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -146,7 +146,7 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 8452,
+   "hits": 8453,
    "verifiedHits": 8356,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6546,
-   "verifiedHits": 6420,
+   "hits": 6559,
+   "verifiedHits": 6423,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5300,
+   "hits": 5309,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -245,7 +245,7 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3612,
+   "hits": 3616,
    "verifiedHits": 3535,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3124,
-   "verifiedHits": 3027,
+   "hits": 3130,
+   "verifiedHits": 3030,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -344,14 +344,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2602,
+   "hits": 2608,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 33
+     "hits": 34
     },
     {
      "path": "/dashboard",
@@ -377,7 +377,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 2351,
+   "hits": 2357,
    "verifiedHits": 2265,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -410,7 +410,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2060,
+   "hits": 2066,
    "verifiedHits": 669,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 765,
+   "hits": 772,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -484,6 +484,10 @@
     {
      "path": "/",
      "hits": 29
+    },
+    {
+     "path": "/dashboard",
+     "hits": 4
     },
     {
      "path": "/posts/tool-highlight-cloudflare-drop.html",
@@ -496,10 +500,6 @@
     {
      "path": "/posts/2026-08-22-founders-wire-nvidia-poolside-anthropic-ipo-gemma-billion.html",
      "hits": 3
-    },
-    {
-     "path": "/dashboard",
-     "hits": 3
     }
    ],
    "verifiable": false
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 495,
+   "hits": 496,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -542,7 +542,7 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 238,
+   "hits": 245,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-07",
