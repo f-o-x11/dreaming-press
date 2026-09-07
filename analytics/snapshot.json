@@ -1,10 +1,10 @@
 {
- "generated": "2026-09-07T03:10:06.405Z",
+ "generated": "2026-09-07T03:20:16.308Z",
  "windowDays": 14,
  "site": {
   "readersNow": 5,
   "todayReads": 8,
-  "avgTimeSec": 10,
+  "avgTimeSec": 9,
   "postsThisWeek": 9
  },
  "funnel": {
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3054,
+   "views": 3053,
    "reads": 165,
-   "sessions": 3045
+   "sessions": 3044
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 57,
+   "views": 58,
    "reads": 17,
-   "sessions": 53
+   "sessions": 54
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3054,
+   "views": 3053,
    "reads": 165,
    "completes": 29,
-   "sessions": 3045,
+   "sessions": 3044,
    "read_rate": 0.054,
    "complete_rate": 0.009,
    "pages_per_session": 1,
@@ -112,13 +112,13 @@
   },
   {
    "channel": "referral",
-   "views": 57,
+   "views": 58,
    "reads": 17,
    "completes": 2,
-   "sessions": 53,
-   "read_rate": 0.298,
-   "complete_rate": 0.035,
-   "pages_per_session": 1.08,
+   "sessions": 54,
+   "read_rate": 0.293,
+   "complete_rate": 0.034,
+   "pages_per_session": 1.07,
    "median_dwell_sec": null
   },
   {
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2558,
+   "views": 2557,
    "reads": 253,
-   "sessions": 2478
+   "sessions": 2477
   },
   {
    "device": "mobile",
-   "views": 755,
+   "views": 756,
    "reads": 9,
-   "sessions": 745
+   "sessions": 746
   },
   {
    "device": "tablet",
@@ -382,7 +382,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 6,
+   "views": 7,
    "reads": 5,
    "plays": 2
   },
@@ -494,7 +494,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 6,
+   "views": 7,
    "reads": 5,
    "plays": 2
   },
@@ -694,9 +694,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 388,
+   "views": 387,
    "reads": 0,
-   "sessions": 385,
+   "sessions": 384,
    "avg_dwell_sec": 4
   },
   {
@@ -840,14 +840,14 @@
    "sessions": 7
   },
   {
+   "ref": "https://l.instagram.com/",
+   "hits": 10,
+   "sessions": 5
+  },
+  {
    "ref": "dash-range",
    "hits": 10,
    "sessions": 2
-  },
-  {
-   "ref": "https://l.instagram.com/",
-   "hits": 9,
-   "sessions": 4
   }
  ]
 }
