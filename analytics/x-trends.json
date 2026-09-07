@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-07T18:11:16.596Z",
+ "generated": "2026-09-07T18:21:19.032Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -16,7 +16,7 @@
   },
   {
    "term": "startup",
-   "count": 27
+   "count": 28
   },
   {
    "term": "founder",
@@ -51,11 +51,11 @@
    "count": 17
   },
   {
-   "term": "co-founder",
-   "count": 11
+   "term": "model",
+   "count": 10
   },
   {
-   "term": "model",
+   "term": "co-founder",
    "count": 10
   },
   {
@@ -75,15 +75,15 @@
    "count": 9
   },
   {
+   "term": "was",
+   "count": 8
+  },
+  {
    "term": "developers",
    "count": 8
   },
   {
-   "term": "have",
-   "count": 8
-  },
-  {
-   "term": "gives",
+   "term": "company",
    "count": 8
   }
  ],
@@ -152,7 +152,7 @@
   },
   {
    "text": "If I had 6 months to become an Agentic AI Engineer. I'd do this. Stage 1: Python and LLM Foundations Python, async, API design, Anthropic/OpenAI SDKs, tokens, embeddings, structured outputs. Stage 2: Context Engineering ",
-   "engagement": 665,
+   "engagement": 666,
    "url": "https://x.com/i/status/2095491337651179621",
    "created": "2026-09-03T12:37:21.000Z"
   },
