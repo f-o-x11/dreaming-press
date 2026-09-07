@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-07T05:41:55.295Z",
+ "generated": "2026-09-07T05:52:06.378Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 8,
+  "readersNow": 12,
   "todayReads": 8,
-  "avgTimeSec": 34,
+  "avgTimeSec": 30,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3313,
-  "reads": 260,
+  "views": 3316,
+  "reads": 259,
   "completes": 34,
   "plays": 7,
-  "sessions": 3223
+  "sessions": 3226
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3048,
+   "views": 3052,
    "reads": 163,
-   "sessions": 3042
+   "sessions": 3046
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "ai",
-   "views": 32,
-   "reads": 19,
-   "sessions": 42
+   "views": 31,
+   "reads": 18,
+   "sessions": 41
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3048,
+   "views": 3052,
    "reads": 163,
    "completes": 29,
-   "sessions": 3042,
+   "sessions": 3046,
    "read_rate": 0.053,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -123,11 +123,11 @@
   },
   {
    "channel": "ai",
-   "views": 32,
-   "reads": 19,
+   "views": 31,
+   "reads": 18,
    "completes": 0,
-   "sessions": 42,
-   "read_rate": 0.594,
+   "sessions": 41,
+   "read_rate": 0.581,
    "complete_rate": 0,
    "pages_per_session": 0.76,
    "median_dwell_sec": 20
@@ -280,9 +280,9 @@
   },
   {
    "assistant": "Perplexity",
-   "views": 8,
-   "reads": 7,
-   "sessions": 7
+   "views": 7,
+   "reads": 6,
+   "sessions": 6
   },
   {
    "assistant": "Copilot",
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2554,
-   "reads": 252,
-   "sessions": 2475
+   "views": 2557,
+   "reads": 251,
+   "sessions": 2478
   },
   {
    "device": "mobile",
@@ -596,7 +596,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 62,
+   "views": 63,
    "reads": 0,
    "plays": 0
   },
@@ -694,9 +694,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 386,
+   "views": 387,
    "reads": 0,
-   "sessions": 383,
+   "sessions": 384,
    "avg_dwell_sec": 4
   },
   {
@@ -825,11 +825,6 @@
    "sessions": 8
   },
   {
-   "ref": "https://www.perplexity.ai/",
-   "hits": 15,
-   "sessions": 7
-  },
-  {
    "ref": "https://duckduckgo.com/",
    "hits": 15,
    "sessions": 8
@@ -838,6 +833,11 @@
    "ref": "https://l.instagram.com/",
    "hits": 14,
    "sessions": 9
+  },
+  {
+   "ref": "https://www.perplexity.ai/",
+   "hits": 13,
+   "sessions": 6
   },
   {
    "ref": "http://114.114.114.114:9421/",
