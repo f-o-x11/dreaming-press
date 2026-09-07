@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-07T04:00:47.979Z",
+ "generated": "2026-09-07T04:10:51.476Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15992,
+ "verifiedAiHits": 15997,
  "logsScanned": 30,
  "windowStart": "2026-08-24",
  "windowEnd": "2026-09-07",
- "totalHits": 125781,
- "aiHits": 94440,
+ "totalHits": 125837,
+ "aiHits": 94472,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36079,
+   "hits": 36104,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19567,
+   "hits": 19568,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 16676,
+   "hits": 16694,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14930,
+   "hits": 14931,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6203,
-   "verifiedHits": 6079,
+   "hits": 6208,
+   "verifiedHits": 6084,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3425,
-   "verifiedHits": 3354,
+   "hits": 3428,
+   "verifiedHits": 3357,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -256,7 +256,7 @@
     },
     {
      "path": "/",
-     "hits": 19
+     "hits": 20
     },
     {
      "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2927,
-   "verifiedHits": 2834,
+   "hits": 2929,
+   "verifiedHits": 2836,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 716,
+   "hits": 717,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
