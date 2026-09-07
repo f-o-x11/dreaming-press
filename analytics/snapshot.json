@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-07T03:40:22.147Z",
+ "generated": "2026-09-07T03:50:33.786Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 8,
+  "readersNow": 10,
   "todayReads": 8,
   "avgTimeSec": 58,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3319,
+  "views": 3322,
   "reads": 263,
   "completes": 34,
   "plays": 7,
-  "sessions": 3230
+  "sessions": 3233
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3057,
+   "views": 3058,
    "reads": 165,
-   "sessions": 3050
+   "sessions": 3051
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 59,
+   "views": 61,
    "reads": 17,
-   "sessions": 55
+   "sessions": 57
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3057,
+   "views": 3058,
    "reads": 165,
    "completes": 29,
-   "sessions": 3050,
+   "sessions": 3051,
    "read_rate": 0.054,
    "complete_rate": 0.009,
    "pages_per_session": 1,
@@ -112,12 +112,12 @@
   },
   {
    "channel": "referral",
-   "views": 59,
+   "views": 61,
    "reads": 17,
    "completes": 2,
-   "sessions": 55,
-   "read_rate": 0.288,
-   "complete_rate": 0.034,
+   "sessions": 57,
+   "read_rate": 0.279,
+   "complete_rate": 0.033,
    "pages_per_session": 1.07,
    "median_dwell_sec": null
   },
@@ -324,9 +324,9 @@
   },
   {
    "device": "mobile",
-   "views": 759,
+   "views": 762,
    "reads": 9,
-   "sessions": 749
+   "sessions": 752
   },
   {
    "device": "tablet",
@@ -367,6 +367,16 @@
    "plays": 0
   },
   {
+   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
+   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 5,
+   "plays": 2
+  },
+  {
    "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
    "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
    "section": "wire",
@@ -375,16 +385,6 @@
    "views": 10,
    "reads": 5,
    "plays": 0
-  },
-  {
-   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
-   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 5,
-   "plays": 2
   },
   {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
@@ -494,7 +494,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 8,
+   "views": 11,
    "reads": 5,
    "plays": 2
   },
@@ -836,8 +836,8 @@
   },
   {
    "ref": "https://l.instagram.com/",
-   "hits": 11,
-   "sessions": 6
+   "hits": 13,
+   "sessions": 8
   },
   {
    "ref": "http://114.114.114.114:9421/",

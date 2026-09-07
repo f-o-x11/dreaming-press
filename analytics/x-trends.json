@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-07T03:40:22.078Z",
+ "generated": "2026-09-07T03:50:33.714Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -19,15 +19,19 @@
    "count": 24
   },
   {
-   "term": "agent",
-   "count": 24
-  },
-  {
    "term": "founder",
    "count": 24
   },
   {
+   "term": "agent",
+   "count": 23
+  },
+  {
    "term": "mcp",
+   "count": 19
+  },
+  {
+   "term": "build",
    "count": 19
   },
   {
@@ -35,12 +39,8 @@
    "count": 19
   },
   {
-   "term": "build",
-   "count": 18
-  },
-  {
    "term": "building",
-   "count": 18
+   "count": 17
   },
   {
    "term": "claude",
@@ -63,15 +63,15 @@
    "count": 10
   },
   {
+   "term": "autonomous",
+   "count": 9
+  },
+  {
    "term": "context",
    "count": 9
   },
   {
    "term": "week",
-   "count": 8
-  },
-  {
-   "term": "autonomous",
    "count": 8
   },
   {
@@ -109,31 +109,31 @@
    "count": 1
   },
   {
+   "term": "#agenticai",
+   "count": 1
+  },
+  {
+   "term": "#rag",
+   "count": 1
+  },
+  {
+   "term": "#python",
+   "count": 1
+  },
+  {
+   "term": "#aiengineer",
+   "count": 1
+  },
+  {
+   "term": "#techcareers",
+   "count": 1
+  },
+  {
    "term": "#aiagents",
    "count": 1
   },
   {
    "term": "#mcp",
-   "count": 1
-  },
-  {
-   "term": "#aiautomation",
-   "count": 1
-  },
-  {
-   "term": "#techjuice",
-   "count": 1
-  },
-  {
-   "term": "#metal",
-   "count": 1
-  },
-  {
-   "term": "#usmangul",
-   "count": 1
-  },
-  {
-   "term": "#community",
    "count": 1
   }
  ],
