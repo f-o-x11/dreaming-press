@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-07T11:15:46.148Z",
+ "generated": "2026-09-07T11:25:57.660Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16222,
+ "verifiedAiHits": 16223,
  "logsScanned": 30,
  "windowStart": "2026-08-24",
  "windowEnd": "2026-09-07",
- "totalHits": 127859,
- "aiHits": 95904,
+ "totalHits": 127890,
+ "aiHits": 95924,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36632,
+   "hits": 36642,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 17069,
+   "hits": 17077,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15236,
+   "hits": 15243,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -135,7 +135,7 @@
      "hits": 11
     },
     {
-     "path": "/stack.html",
+     "path": "/stack/pgvector",
      "hits": 11
     }
    ],
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6314,
-   "verifiedHits": 6190,
+   "hits": 6315,
+   "verifiedHits": 6191,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3008,
-   "verifiedHits": 2915,
+   "hits": 3009,
+   "verifiedHits": 2916,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2523,
+   "hits": 2525,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -575,7 +575,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 89,
+   "hits": 91,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-07",
@@ -589,15 +589,15 @@
      "hits": 1
     },
     {
+     "path": "/posts/meta-muse-glimmer-open-weight-local-agent-model-founders.html",
+     "hits": 1
+    },
+    {
      "path": "/posts/hnsw-vs-ivf-vs-diskann.html",
      "hits": 1
     },
     {
      "path": "/posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html",
-     "hits": 1
-    },
-    {
-     "path": "/tools",
      "hits": 1
     }
    ],

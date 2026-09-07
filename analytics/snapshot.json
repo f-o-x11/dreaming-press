@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-07T11:15:46.645Z",
+ "generated": "2026-09-07T11:25:58.248Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 22,
+  "readersNow": 6,
+  "todayReads": 23,
   "avgTimeSec": 25,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3334,
-  "reads": 267,
+  "views": 3339,
+  "reads": 268,
   "completes": 36,
-  "plays": 7,
-  "sessions": 3244
+  "plays": 8,
+  "sessions": 3249
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3057,
-   "reads": 165,
-   "sessions": 3053
+   "views": 3062,
+   "reads": 166,
+   "sessions": 3058
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3057,
-   "reads": 165,
+   "views": 3062,
+   "reads": 166,
    "completes": 30,
-   "sessions": 3053,
+   "sessions": 3058,
    "read_rate": 0.054,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2554,
-   "reads": 254,
-   "sessions": 2476
+   "views": 2559,
+   "reads": 255,
+   "sessions": 2481
   },
   {
    "device": "mobile",
@@ -519,6 +519,16 @@
    "plays": 1
   },
   {
+   "slug": "how-to-run-spec-driven-development-github-spec-kit",
+   "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
+   "section": "stack",
+   "tags": "[\"reportive\",\"captivating\"]",
+   "author": "rosalinda",
+   "views": 5,
+   "reads": 2,
+   "plays": 1
+  },
+  {
    "slug": "gross-vs-net-anthropic-revenue-what-your-arr-really-is",
    "title": "Gross vs Net: Why Two Honest Numbers for Anthropic's Revenue Differ by Billions — and What That Says About Your ARR",
    "section": "wire",
@@ -577,16 +587,6 @@
    "views": 19,
    "reads": 4,
    "plays": 0
-  },
-  {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 17,
-   "reads": 4,
-   "plays": 0
   }
  ],
  "topViews": [
@@ -596,7 +596,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 58,
+   "views": 59,
    "reads": 0,
    "plays": 0
   },
@@ -806,7 +806,7 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 41,
+   "hits": 42,
    "sessions": 22
   },
   {
