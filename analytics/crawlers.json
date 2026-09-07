@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-07T12:16:22.679Z",
+ "generated": "2026-09-07T12:26:30.736Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16236,
+ "verifiedAiHits": 16238,
  "logsScanned": 30,
  "windowStart": "2026-08-24",
  "windowEnd": "2026-09-07",
- "totalHits": 128096,
- "aiHits": 96062,
+ "totalHits": 128143,
+ "aiHits": 96095,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36694,
+   "hits": 36718,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 17117,
+   "hits": 17122,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15276,
+   "hits": 15283,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6326,
-   "verifiedHits": 6202,
+   "hits": 6333,
+   "verifiedHits": 6209,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3015,
-   "verifiedHits": 2922,
+   "hits": 3017,
+   "verifiedHits": 2924,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
     {
      "path": "/",
-     "hits": 547
+     "hits": 548
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2530,
+   "hits": 2532,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
