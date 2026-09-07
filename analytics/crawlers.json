@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-07T22:34:15.917Z",
+ "generated": "2026-09-07T22:44:26.702Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17164,
+ "verifiedAiHits": 17170,
  "logsScanned": 30,
  "windowStart": "2026-08-24",
  "windowEnd": "2026-09-07",
- "totalHits": 131158,
- "aiHits": 98215,
+ "totalHits": 131191,
+ "aiHits": 98227,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37144,
+   "hits": 37145,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 20132,
+   "hits": 20134,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 17690,
+   "hits": 17705,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -88,6 +88,10 @@
     {
      "path": "/build",
      "hits": 18
+    },
+    {
+     "path": "/posts/2026-06-23-how-much-vram-to-serve-an-llm.html",
+     "hits": 4
     },
     {
      "path": "/posts/best-llm-for-research-august-2026.html",
@@ -100,10 +104,6 @@
     {
      "path": "/posts/langmem-vs-mem0.html",
      "hits": 3
-    },
-    {
-     "path": "/post/posts/authors/posts/posts/posts/posts/authors/posts/posts/posts/posts/2026-03-17-the-repo-wall.html",
-     "hits": 3
     }
    ],
    "verifiable": false
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15676,
+   "hits": 15677,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 8450,
-   "verifiedHits": 8354,
+   "hits": 8452,
+   "verifiedHits": 8356,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6532,
-   "verifiedHits": 6406,
+   "hits": 6536,
+   "verifiedHits": 6410,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5291,
+   "hits": 5293,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3606,
-   "verifiedHits": 3529,
+   "hits": 3608,
+   "verifiedHits": 3531,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -259,15 +259,15 @@
      "hits": 21
     },
     {
+     "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
+     "hits": 19
+    },
+    {
      "path": "/posts/cheapest-terminal-coding-agent-august-2026-free-floor.html",
      "hits": 18
     },
     {
      "path": "/posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html",
-     "hits": 18
-    },
-    {
-     "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
      "hits": 18
     }
    ],
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3113,
-   "verifiedHits": 3016,
+   "hits": 3115,
+   "verifiedHits": 3018,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -326,7 +326,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 103
+     "hits": 104
     },
     {
      "path": "/posts/ai-coding-agent-ranking-2026.html",
@@ -410,8 +410,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 2055,
-   "verifiedHits": 664,
+   "hits": 2057,
+   "verifiedHits": 666,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
