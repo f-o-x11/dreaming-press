@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-07T17:30Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-07T17:40Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -97,15 +97,15 @@ sample size dwarfs the engaged-read counts below.
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 100 retrieval fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 90 retrieval fetches
 - /posts/llm-api-pricing-comparison-august-2026.html  — 61 retrieval fetches
+- /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html  — 18 retrieval fetches
 - /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 18 retrieval fetches
-- /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html  — 17 retrieval fetches
 - /posts/2026-08-07-founders-wire-meta-coding-agent-openai-atlas-claude-code.html  — 17 retrieval fetches
 - /dashboard  — 14 retrieval fetches
 
 Per engine:
 - PerplexityBot (8322 verified): /build ×146 · / ×26 · /dashboard ×14
-- OAI-SearchBot (3463 verified): /build ×35 · / ×20 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×18
-- ChatGPT-User (2980 verified): / ×556 · /posts/agent-funding-august-2026-control-won-the-summer.html ×167 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×100
+- OAI-SearchBot (3464 verified): /build ×35 · / ×20 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×18
+- ChatGPT-User (2981 verified): / ×556 · /posts/agent-funding-august-2026-control-won-the-summer.html ×167 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×100
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -130,7 +130,7 @@ High-engagement posts to react to / cite:
 - "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2096075332579385542
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (270 of 457 phrases have NO post, 77h ago)
+## Uncovered search demand (270 of 457 phrases have NO post, 78h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -153,7 +153,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17028 confirmed AI-engine fetches (Perplexity 8322, ChatGPT Search (OpenAI) 3463, ChatGPT (user browsing) 2980, GPTBot (OpenAI) 2263).
+The real answer engines are crawling us — IP-verified: 17030 confirmed AI-engine fetches (Perplexity 8322, ChatGPT Search (OpenAI) 3464, ChatGPT (user browsing) 2981, GPTBot (OpenAI) 2263).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 731 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 167 crawler fetches
@@ -166,7 +166,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html  — 47 crawler fetches
 - /posts/2026-08-22-startup-wins-price-war-below-free.html  — 44 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 27 crawler fetches
-- /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 18 crawler fetches
+- /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html  — 18 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
