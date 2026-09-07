@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-07T08:54:12.460Z",
+ "generated": "2026-09-07T09:04:15.719Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
+  "readersNow": 5,
   "todayReads": 18,
   "avgTimeSec": 20,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3328,
+  "views": 3332,
   "reads": 267,
   "completes": 35,
   "plays": 7,
-  "sessions": 3239
+  "sessions": 3242
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3058,
+   "views": 3061,
    "reads": 167,
-   "sessions": 3052
+   "sessions": 3055
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 67,
+   "views": 68,
    "reads": 19,
-   "sessions": 63
+   "sessions": 64
   },
   {
    "channel": "ai",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 26
+   "sessions": 27
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3058,
+   "views": 3061,
    "reads": 167,
    "completes": 30,
-   "sessions": 3052,
+   "sessions": 3055,
    "read_rate": 0.055,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -101,12 +101,12 @@
   },
   {
    "channel": "referral",
-   "views": 67,
+   "views": 68,
    "reads": 19,
    "completes": 2,
-   "sessions": 63,
-   "read_rate": 0.284,
-   "complete_rate": 0.03,
+   "sessions": 64,
+   "read_rate": 0.279,
+   "complete_rate": 0.029,
    "pages_per_session": 1.06,
    "median_dwell_sec": null
   },
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 26,
+   "sessions": 27,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -216,8 +216,8 @@
   },
   {
    "surface": "brand",
-   "clicks": 3,
-   "sessions": 3
+   "clicks": 4,
+   "sessions": 4
   },
   {
    "surface": "article-byline",
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2551,
+   "views": 2553,
    "reads": 255,
-   "sessions": 2473
+   "sessions": 2475
   },
   {
    "device": "mobile",
-   "views": 776,
+   "views": 778,
    "reads": 11,
-   "sessions": 765
+   "sessions": 766
   },
   {
    "device": "tablet",
@@ -362,7 +362,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 24,
+   "views": 25,
    "reads": 9,
    "plays": 2
   },
@@ -494,7 +494,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 24,
+   "views": 25,
    "reads": 9,
    "plays": 2
   },
@@ -621,6 +621,16 @@
    "plays": 0
   },
   {
+   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
+   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 25,
+   "reads": 9,
+   "plays": 2
+  },
+  {
    "slug": "neo4j-vs-falkordb-vs-memgraph",
    "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
    "section": "stack",
@@ -629,16 +639,6 @@
    "views": 24,
    "reads": 12,
    "plays": 0
-  },
-  {
-   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
-   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 24,
-   "reads": 9,
-   "plays": 2
   },
   {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
@@ -694,16 +694,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 384,
+   "views": 386,
    "reads": 0,
-   "sessions": 382,
+   "sessions": 384,
    "avg_dwell_sec": 4
   },
   {
    "path": "/",
-   "views": 154,
+   "views": 155,
    "reads": 0,
-   "sessions": 151,
+   "sessions": 152,
    "avg_dwell_sec": 8
   },
   {
@@ -821,8 +821,8 @@
   },
   {
    "ref": "https://l.instagram.com/",
-   "hits": 21,
-   "sessions": 14
+   "hits": 22,
+   "sessions": 15
   },
   {
    "ref": "https://www.doubao.com/",
