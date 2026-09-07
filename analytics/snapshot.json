@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-07T03:20:16.308Z",
+ "generated": "2026-09-07T03:30:16.331Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 6,
   "todayReads": 8,
-  "avgTimeSec": 9,
+  "avgTimeSec": 67,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3314,
+  "views": 3315,
   "reads": 263,
   "completes": 34,
   "plays": 7,
-  "sessions": 3224
+  "sessions": 3226
  },
  "channels": [
   {
    "channel": "direct",
    "views": 3053,
    "reads": 165,
-   "sessions": 3044
+   "sessions": 3046
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 58,
+   "views": 59,
    "reads": 17,
-   "sessions": 54
+   "sessions": 55
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -82,7 +82,7 @@
    "views": 3053,
    "reads": 165,
    "completes": 29,
-   "sessions": 3044,
+   "sessions": 3046,
    "read_rate": 0.054,
    "complete_rate": 0.009,
    "pages_per_session": 1,
@@ -112,11 +112,11 @@
   },
   {
    "channel": "referral",
-   "views": 58,
+   "views": 59,
    "reads": 17,
    "completes": 2,
-   "sessions": 54,
-   "read_rate": 0.293,
+   "sessions": 55,
+   "read_rate": 0.288,
    "complete_rate": 0.034,
    "pages_per_session": 1.07,
    "median_dwell_sec": null
@@ -320,13 +320,13 @@
    "device": "desktop",
    "views": 2557,
    "reads": 253,
-   "sessions": 2477
+   "sessions": 2478
   },
   {
    "device": "mobile",
-   "views": 756,
+   "views": 757,
    "reads": 9,
-   "sessions": 746
+   "sessions": 747
   },
   {
    "device": "tablet",
@@ -382,7 +382,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 7,
+   "views": 8,
    "reads": 5,
    "plays": 2
   },
@@ -494,7 +494,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 7,
+   "views": 8,
    "reads": 5,
    "plays": 2
   },
@@ -694,9 +694,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 387,
+   "views": 386,
    "reads": 0,
-   "sessions": 384,
+   "sessions": 383,
    "avg_dwell_sec": 4
   },
   {
@@ -835,14 +835,14 @@
    "sessions": 8
   },
   {
+   "ref": "https://l.instagram.com/",
+   "hits": 11,
+   "sessions": 6
+  },
+  {
    "ref": "http://114.114.114.114:9421/",
    "hits": 11,
    "sessions": 7
-  },
-  {
-   "ref": "https://l.instagram.com/",
-   "hits": 10,
-   "sessions": 5
   },
   {
    "ref": "dash-range",
