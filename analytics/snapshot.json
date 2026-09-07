@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-07T05:31:54.392Z",
+ "generated": "2026-09-07T05:41:55.295Z",
  "windowDays": 14,
  "site": {
   "readersNow": 8,
   "todayReads": 8,
-  "avgTimeSec": 37,
+  "avgTimeSec": 34,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3312,
+  "views": 3313,
   "reads": 260,
   "completes": 34,
   "plays": 7,
-  "sessions": 3222
+  "sessions": 3223
  },
  "channels": [
   {
    "channel": "direct",
    "views": 3048,
    "reads": 163,
-   "sessions": 3041
+   "sessions": 3042
   },
   {
    "channel": "organic",
@@ -59,9 +59,9 @@
   },
   {
    "channel": "social",
-   "views": 7,
+   "views": 8,
    "reads": 0,
-   "sessions": 6
+   "sessions": 7
   },
   {
    "channel": "campaign:producthunt/",
@@ -82,7 +82,7 @@
    "views": 3048,
    "reads": 163,
    "completes": 29,
-   "sessions": 3041,
+   "sessions": 3042,
    "read_rate": 0.053,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -134,13 +134,13 @@
   },
   {
    "channel": "social",
-   "views": 7,
+   "views": 8,
    "reads": 0,
    "completes": 0,
-   "sessions": 6,
+   "sessions": 7,
    "read_rate": 0,
    "complete_rate": 0,
-   "pages_per_session": 1.17,
+   "pages_per_session": 1.14,
    "median_dwell_sec": 233
   },
   {
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2553,
+   "views": 2554,
    "reads": 252,
-   "sessions": 2474
+   "sessions": 2475
   },
   {
    "device": "mobile",
@@ -372,7 +372,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 13,
+   "views": 14,
    "reads": 5,
    "plays": 2
   },
@@ -494,7 +494,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 13,
+   "views": 14,
    "reads": 5,
    "plays": 2
   },
@@ -671,6 +671,16 @@
    "plays": 0
   },
   {
+   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
+   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 14,
+   "reads": 5,
+   "plays": 2
+  },
+  {
    "slug": "2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe",
    "title": "The Founder's Wire, September 4: A 'Firewall for Agents' Raises $50M, HiddenLayer Takes $100M a Day Later, and Crusoe Hits $30B for the Compute Underneath",
    "section": "wire",
@@ -679,24 +689,14 @@
    "views": 14,
    "reads": 2,
    "plays": 0
-  },
-  {
-   "slug": "china-persona-law-took-effect-what-founders-do",
-   "title": "China's AI Persona Law Landed July 15 — Doubao and Qwen Killed Their Companions. Here's What Founders on Chinese APIs Actually Do Now",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\",\"china\",\"regulation\",\"ai-agents\"]",
-   "author": "wire-desk",
-   "views": 14,
-   "reads": 0,
-   "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 387,
+   "views": 386,
    "reads": 0,
-   "sessions": 384,
+   "sessions": 383,
    "avg_dwell_sec": 4
   },
   {
