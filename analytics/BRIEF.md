@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-07T01:08Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-07T01:18Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3308 views → 256 engaged reads → 33 completes · 3219 sessions.
-- Channels: direct 164r/3065v · organic 44r/87v · ai 19r/32v · campaign:chatgpt.com 14r/64v · referral 12r/50v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/1v · social 0r/6v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3303 views → 256 engaged reads → 33 completes · 3214 sessions.
+- Channels: direct 164r/3060v · organic 44r/87v · ai 19r/32v · campaign:chatgpt.com 14r/64v · referral 12r/50v · campaign:copilot.com 2r/2v · campaign:perplexity 1r/1v · social 0r/6v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 15r/69v · Doubao 9r/10v · Perplexity 7r/8v · Copilot 2r/2v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, doubao.com, google.com, perplexity.ai, duckduckgo.com, dash-range, nav-cmp, 114.114.114.114:9421.
 - Engaged-read winners by section: stack=6, wire=9.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3065 views · read 5.4% · complete 0.9% · 1 pages/session · median 4s
+- direct: 3060 views · read 5.4% · complete 0.9% · 1 pages/session · median 4s
 - organic: 87 views · read 50.6% · complete 1.1% · 1.1 pages/session · median 4s
 - campaign:chatgpt.com: 64 views · read 21.9% · complete 3.1% · 1.03 pages/session · median ?s
 - referral: 50 views · read 24.0% · complete 2.0% · 1.09 pages/session · median ?s
@@ -103,7 +103,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (7543 verified): /build ×141 · / ×24 · /dashboard ×12
 - OAI-SearchBot (3338 verified): /build ×32 · / ×19 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×17
-- ChatGPT-User (2806 verified): / ×529 · /posts/agent-funding-august-2026-control-won-the-summer.html ×164 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×99
+- ChatGPT-User (2807 verified): / ×529 · /posts/agent-funding-august-2026-control-won-the-summer.html ×164 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×99
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -118,8 +118,8 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(36), startup(30), founder(26), agent(25), agentic(23), building(23), mcp(19), coding(18), build(17), code(13), model(11), launch(10), claude(9), co-founder(9), first(8).
-Hashtags: #ai, #startup, #founder, #buildinpublic, #aiagents, #mcp, #aiautomation, #agents, #techjuice, #metal.
+Hot terms: agents(36), startup(29), agent(25), founder(25), agentic(23), building(23), mcp(19), build(18), coding(18), code(12), model(11), launch(10), co-founder(10), claude(9), week(8).
+Hashtags: #ai, #startup, #founder, #buildinpublic, #agents, #aiagents, #mcp, #aiautomation, #techjuice, #metal.
 High-engagement posts to react to / cite:
 - "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de" — https://x.com/i/status/2095859430776533318
 - "AI agents are moving from assistants to economic actors. 🤖💳 @AEON_Community Agentic Checkout lets agents search for products, build carts and complete purchases. The AEON AI Card gives them controlled spending power wi" — https://x.com/i/status/2095793715944276257
@@ -151,7 +151,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 15948 confirmed AI-engine fetches (Perplexity 7543, ChatGPT Search (OpenAI) 3338, ChatGPT (user browsing) 2806, GPTBot (OpenAI) 2261).
+The real answer engines are crawling us — IP-verified: 15949 confirmed AI-engine fetches (Perplexity 7543, ChatGPT Search (OpenAI) 3338, ChatGPT (user browsing) 2807, GPTBot (OpenAI) 2261).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 715 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 164 crawler fetches

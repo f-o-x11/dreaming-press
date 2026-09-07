@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-07T01:08:48.883Z",
+ "generated": "2026-09-07T01:18:55.886Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,14 +12,14 @@
   },
   {
    "term": "startup",
-   "count": 30
-  },
-  {
-   "term": "founder",
-   "count": 26
+   "count": 29
   },
   {
    "term": "agent",
+   "count": 25
+  },
+  {
+   "term": "founder",
    "count": 25
   },
   {
@@ -35,16 +35,16 @@
    "count": 19
   },
   {
+   "term": "build",
+   "count": 18
+  },
+  {
    "term": "coding",
    "count": 18
   },
   {
-   "term": "build",
-   "count": 17
-  },
-  {
    "term": "code",
-   "count": 13
+   "count": 12
   },
   {
    "term": "model",
@@ -55,16 +55,12 @@
    "count": 10
   },
   {
+   "term": "co-founder",
+   "count": 10
+  },
+  {
    "term": "claude",
    "count": 9
-  },
-  {
-   "term": "co-founder",
-   "count": 9
-  },
-  {
-   "term": "first",
-   "count": 8
   },
   {
    "term": "week",
@@ -85,16 +81,20 @@
   {
    "term": "september",
    "count": 7
+  },
+  {
+   "term": "first",
+   "count": 7
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 6
+   "count": 7
   },
   {
    "term": "#startup",
-   "count": 6
+   "count": 7
   },
   {
    "term": "#founder",
@@ -103,6 +103,10 @@
   {
    "term": "#buildinpublic",
    "count": 2
+  },
+  {
+   "term": "#agents",
+   "count": 1
   },
   {
    "term": "#aiagents",
@@ -114,10 +118,6 @@
   },
   {
    "term": "#aiautomation",
-   "count": 1
-  },
-  {
-   "term": "#agents",
    "count": 1
   },
   {
@@ -152,7 +152,7 @@
   },
   {
    "text": "If I had 6 months to become an Agentic AI Engineer. I'd do this. Stage 1: Python and LLM Foundations Python, async, API design, Anthropic/OpenAI SDKs, tokens, embeddings, structured outputs. Stage 2: Context Engineering ",
-   "engagement": 664,
+   "engagement": 663,
    "url": "https://x.com/i/status/2095491337651179621",
    "created": "2026-09-03T12:37:21.000Z"
   },
