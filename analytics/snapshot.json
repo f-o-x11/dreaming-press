@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-07T06:02:14.430Z",
+ "generated": "2026-09-07T06:12:16.371Z",
  "windowDays": 14,
  "site": {
   "readersNow": 9,
-  "todayReads": 8,
-  "avgTimeSec": 27,
+  "todayReads": 9,
+  "avgTimeSec": 25,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3312,
-  "reads": 258,
+  "views": 3315,
+  "reads": 259,
   "completes": 34,
   "plays": 7,
-  "sessions": 3222
+  "sessions": 3225
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3048,
+   "views": 3049,
    "reads": 162,
-   "sessions": 3042
+   "sessions": 3043
   },
   {
    "channel": "organic",
@@ -28,16 +28,16 @@
    "sessions": 84
   },
   {
+   "channel": "referral",
+   "views": 64,
+   "reads": 18,
+   "sessions": 60
+  },
+  {
    "channel": "ai",
    "views": 31,
    "reads": 18,
    "sessions": 41
-  },
-  {
-   "channel": "referral",
-   "views": 62,
-   "reads": 17,
-   "sessions": 58
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3048,
+   "views": 3049,
    "reads": 162,
    "completes": 29,
-   "sessions": 3042,
+   "sessions": 3043,
    "read_rate": 0.053,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -112,12 +112,12 @@
   },
   {
    "channel": "referral",
-   "views": 62,
-   "reads": 17,
+   "views": 64,
+   "reads": 18,
    "completes": 2,
-   "sessions": 58,
-   "read_rate": 0.274,
-   "complete_rate": 0.032,
+   "sessions": 60,
+   "read_rate": 0.281,
+   "complete_rate": 0.031,
    "pages_per_session": 1.07,
    "median_dwell_sec": null
   },
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2553,
+   "views": 2554,
    "reads": 250,
-   "sessions": 2474
+   "sessions": 2475
   },
   {
    "device": "mobile",
-   "views": 758,
-   "reads": 7,
-   "sessions": 747
+   "views": 760,
+   "reads": 8,
+   "sessions": 749
   },
   {
    "device": "tablet",
@@ -357,6 +357,16 @@
    "plays": 0
   },
   {
+   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
+   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 16,
+   "reads": 6,
+   "plays": 2
+  },
+  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -365,16 +375,6 @@
    "views": 22,
    "reads": 5,
    "plays": 0
-  },
-  {
-   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
-   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 14,
-   "reads": 5,
-   "plays": 2
   },
   {
    "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
@@ -494,8 +494,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 14,
-   "reads": 5,
+   "views": 16,
+   "reads": 6,
    "plays": 2
   },
   {
@@ -651,6 +651,16 @@
    "plays": 0
   },
   {
+   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
+   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 16,
+   "reads": 6,
+   "plays": 2
+  },
+  {
    "slug": "how-to-manage-context-in-a-long-running-agent",
    "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
    "section": "wire",
@@ -671,16 +681,6 @@
    "plays": 0
   },
   {
-   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
-   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 14,
-   "reads": 5,
-   "plays": 2
-  },
-  {
    "slug": "2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe",
    "title": "The Founder's Wire, September 4: A 'Firewall for Agents' Raises $50M, HiddenLayer Takes $100M a Day Later, and Crusoe Hits $30B for the Compute Underneath",
    "section": "wire",
@@ -694,9 +694,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 386,
+   "views": 388,
    "reads": 0,
-   "sessions": 383,
+   "sessions": 385,
    "avg_dwell_sec": 4
   },
   {
@@ -825,14 +825,14 @@
    "sessions": 8
   },
   {
+   "ref": "https://l.instagram.com/",
+   "hits": 17,
+   "sessions": 11
+  },
+  {
    "ref": "https://duckduckgo.com/",
    "hits": 15,
    "sessions": 8
-  },
-  {
-   "ref": "https://l.instagram.com/",
-   "hits": 14,
-   "sessions": 9
   },
   {
    "ref": "https://www.perplexity.ai/",
