@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-09-07T10:15Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-07T10:25Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3329 views → 265 engaged reads → 35 completes · 3239 sessions.
-- Channels: direct 165r/3057v · organic 44r/93v · referral 19r/69v · ai 18r/30v · campaign:chatgpt.com 15r/67v · campaign:copilot.com 2r/2v · campaign:perplexity 2r/2v · social 0r/8v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 16r/72v · Doubao 9r/10v · Perplexity 6r/6v · Copilot 2r/2v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
+- Funnel: 3331 views → 266 engaged reads → 35 completes · 3241 sessions.
+- Channels: direct 166r/3057v · organic 44r/93v · referral 19r/69v · ai 18r/30v · campaign:chatgpt.com 15r/69v · campaign:copilot.com 2r/2v · campaign:perplexity 2r/2v · social 0r/8v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 16r/74v · Doubao 9r/10v · Perplexity 6r/6v · Copilot 2r/2v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, google.com, l.instagram.com, doubao.com, duckduckgo.com, perplexity.ai, 114.114.114.114:9421, dash-range.
 - Engaged-read winners by section: stack=7, wire=8.
 
@@ -26,7 +26,7 @@ Volume and quality point in opposite directions here. Read the second column, no
 - direct: 3057 views · read 5.4% · complete 1.0% · 1 pages/session · median 4s
 - organic: 93 views · read 47.3% · complete 1.1% · 1.09 pages/session · median 4s
 - referral: 69 views · read 27.5% · complete 2.9% · 1.06 pages/session · median ?s
-- campaign:chatgpt.com: 67 views · read 22.4% · complete 3.0% · 1.03 pages/session · median ?s
+- campaign:chatgpt.com: 69 views · read 21.7% · complete 2.9% · 1.03 pages/session · median ?s
 - ai: 30 views · read 60.0% · complete 0.0% · 0.73 pages/session · median 18s
 - social: 8 views · read 0.0% · complete 0.0% · 1.14 pages/session · median 233s
 INSIGHT: ai converts 11x better per view than direct, which is 92% of all views.
@@ -37,7 +37,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Top by engaged reads (eyes that stayed)
 - [stack] "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG" — 12 reads, 24 views, 0 listens
 - [wire] "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory" — 11 reads, 15 views, 0 listens
-- [stack] "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet" — 9 reads, 25 views, 2 listens
+- [stack] "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet" — 10 reads, 26 views, 2 listens
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 5 reads, 22 views, 0 listens
 - [wire] "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference" — 5 reads, 10 views, 0 listens
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 4 reads, 17 views, 0 listens
@@ -47,7 +47,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents" — 4 reads, 7 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
-- [stack] "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet" — 2 listens, 9 reads
+- [stack] "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet" — 2 listens, 10 reads
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 2 listens, 3 reads
 - [stack] "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026" — 1 listens, 3 reads
 - [wire] "Gross vs Net: Why Two Honest Numbers for Anthropic's Revenue Differ by Billions — and What That Says About Your ARR" — 1 listens, 1 reads
@@ -71,7 +71,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 59 views, 0 reads
 - [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 33 views, 2 reads
 - [wire] "OpenAI Cut Terra and Luna on July 30. On the Sticker, Luna Is Now the Cheapest Agent Backend Alive — On the Bill, the Ranking Barely Moved." — 29 views, 0 reads
-- [stack] "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet" — 25 views, 9 reads
+- [stack] "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet" — 26 views, 10 reads
 - [stack] "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG" — 24 views, 12 reads
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 22 views, 5 reads
 
@@ -104,13 +104,13 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (7621 verified): /build ×141 · / ×26 · /dashboard ×13
 - OAI-SearchBot (3419 verified): /build ×34 · / ×20 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×17
-- ChatGPT-User (2900 verified): / ×544 · /posts/agent-funding-august-2026-control-won-the-summer.html ×166 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×99
+- ChatGPT-User (2902 verified): / ×544 · /posts/agent-funding-august-2026-control-won-the-summer.html ×166 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×99
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
 
 ## WRITE MORE LIKE THESE — SUPPRESSED (not enough support yet)
-2 piece(s) clear 10 engaged reads; this block needs 5 before a "winning
+3 piece(s) clear 10 engaged reads; this block needs 5 before a "winning
 format" distribution means anything (best in-window: 12 reads). Inferring a pattern from
 single-digit samples is curve-fitting, and a confident wrong steer costs more than none.
 ACTION: commission from "WHAT ANSWER ENGINES ARE PULLING" above — its sample size is in the
@@ -152,7 +152,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16202 confirmed AI-engine fetches (Perplexity 7621, ChatGPT Search (OpenAI) 3419, ChatGPT (user browsing) 2900, GPTBot (OpenAI) 2262).
+The real answer engines are crawling us — IP-verified: 16204 confirmed AI-engine fetches (Perplexity 7621, ChatGPT Search (OpenAI) 3419, ChatGPT (user browsing) 2902, GPTBot (OpenAI) 2262).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 724 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 166 crawler fetches

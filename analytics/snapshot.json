@@ -1,24 +1,24 @@
 {
- "generated": "2026-09-07T10:15:06.489Z",
+ "generated": "2026-09-07T10:25:16.684Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 18,
+  "readersNow": 5,
+  "todayReads": 19,
   "avgTimeSec": 19,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3329,
-  "reads": 265,
+  "views": 3331,
+  "reads": 266,
   "completes": 35,
   "plays": 7,
-  "sessions": 3239
+  "sessions": 3241
  },
  "channels": [
   {
    "channel": "direct",
    "views": 3057,
-   "reads": 165,
+   "reads": 166,
    "sessions": 3052
   },
   {
@@ -41,9 +41,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 67,
+   "views": 69,
    "reads": 15,
-   "sessions": 65
+   "sessions": 67
   },
   {
    "channel": "campaign:copilot.com",
@@ -80,7 +80,7 @@
   {
    "channel": "direct",
    "views": 3057,
-   "reads": 165,
+   "reads": 166,
    "completes": 30,
    "sessions": 3052,
    "read_rate": 0.054,
@@ -112,12 +112,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 67,
+   "views": 69,
    "reads": 15,
    "completes": 2,
-   "sessions": 65,
-   "read_rate": 0.224,
-   "complete_rate": 0.03,
+   "sessions": 67,
+   "read_rate": 0.217,
+   "complete_rate": 0.029,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
   },
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 72,
+   "views": 74,
    "reads": 16,
-   "sessions": 66
+   "sessions": 68
   },
   {
    "assistant": "Doubao",
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2554,
+   "views": 2555,
    "reads": 253,
-   "sessions": 2476
+   "sessions": 2477
   },
   {
    "device": "mobile",
-   "views": 774,
-   "reads": 11,
-   "sessions": 762
+   "views": 775,
+   "reads": 12,
+   "sessions": 763
   },
   {
    "device": "tablet",
@@ -362,8 +362,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 25,
-   "reads": 9,
+   "views": 26,
+   "reads": 10,
    "plays": 2
   },
   {
@@ -472,7 +472,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 9,
+   "views": 10,
    "reads": 3,
    "plays": 0
   },
@@ -494,8 +494,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 25,
-   "reads": 9,
+   "views": 26,
+   "reads": 10,
    "plays": 2
   },
   {
@@ -626,8 +626,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 25,
-   "reads": 9,
+   "views": 26,
+   "reads": 10,
    "plays": 2
   },
   {
