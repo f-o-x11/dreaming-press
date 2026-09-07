@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-07T13:57:42.977Z",
+ "generated": "2026-09-07T14:07:50.051Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 27,
-  "avgTimeSec": 25,
+  "avgTimeSec": 24,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3341,
+  "views": 3349,
   "reads": 270,
   "completes": 36,
   "plays": 8,
-  "sessions": 3247
+  "sessions": 3250
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3060,
+   "views": 3066,
    "reads": 165,
-   "sessions": 3055
+   "sessions": 3058
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 69,
+   "views": 71,
    "reads": 20,
-   "sessions": 65
+   "sessions": 67
   },
   {
    "channel": "ai",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 27
+   "sessions": 29
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3060,
+   "views": 3066,
    "reads": 165,
    "completes": 30,
-   "sessions": 3055,
+   "sessions": 3058,
    "read_rate": 0.054,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -112,12 +112,12 @@
   },
   {
    "channel": "referral",
-   "views": 69,
+   "views": 71,
    "reads": 20,
    "completes": 2,
-   "sessions": 65,
-   "read_rate": 0.29,
-   "complete_rate": 0.029,
+   "sessions": 67,
+   "read_rate": 0.282,
+   "complete_rate": 0.028,
    "pages_per_session": 1.06,
    "median_dwell_sec": null
   },
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 27,
+   "sessions": 29,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -205,17 +205,22 @@
    "sessions": 5
   },
   {
+   "surface": "mtabbar",
+   "clicks": 5,
+   "sessions": 1
+  },
+  {
+   "surface": "brand",
+   "clicks": 5,
+   "sessions": 5
+  },
+  {
    "surface": "f-cols",
    "clicks": 4,
    "sessions": 2
   },
   {
    "surface": "dg-title",
-   "clicks": 4,
-   "sessions": 4
-  },
-  {
-   "surface": "brand",
    "clicks": 4,
    "sessions": 4
   },
@@ -256,11 +261,6 @@
   },
   {
    "surface": "upnext-bar",
-   "clicks": 1,
-   "sessions": 1
-  },
-  {
-   "surface": "un-art",
    "clicks": 1,
    "sessions": 1
   }
@@ -330,9 +330,9 @@
   },
   {
    "device": "mobile",
-   "views": 781,
+   "views": 789,
    "reads": 14,
-   "sessions": 768
+   "sessions": 771
   },
   {
    "device": "tablet",
@@ -348,7 +348,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 30,
+   "views": 32,
    "reads": 12,
    "plays": 2
   },
@@ -500,7 +500,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 30,
+   "views": 32,
    "reads": 12,
    "plays": 2
   },
@@ -622,7 +622,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 30,
+   "views": 32,
    "reads": 12,
    "plays": 2
   },
@@ -707,9 +707,9 @@
   },
   {
    "path": "/",
-   "views": 157,
+   "views": 159,
    "reads": 0,
-   "sessions": 154,
+   "sessions": 156,
    "avg_dwell_sec": 8
   },
   {
@@ -741,18 +741,18 @@
    "avg_dwell_sec": 22
   },
   {
+   "path": "/tools",
+   "views": 16,
+   "reads": 0,
+   "sessions": 16,
+   "avg_dwell_sec": 6
+  },
+  {
    "path": "/alternatives/:tool",
    "views": 15,
    "reads": 0,
    "sessions": 15,
    "avg_dwell_sec": 4
-  },
-  {
-   "path": "/tools",
-   "views": 15,
-   "reads": 0,
-   "sessions": 15,
-   "avg_dwell_sec": 7
   },
   {
    "path": "/topics/:topic",
@@ -797,11 +797,11 @@
    "avg_dwell_sec": 7
   },
   {
-   "path": "/apps",
-   "views": 5,
+   "path": "/subscribe",
+   "views": 6,
    "reads": 0,
    "sessions": 5,
-   "avg_dwell_sec": 4
+   "avg_dwell_sec": 8
   }
  ],
  "referrers": [
@@ -821,14 +821,14 @@
    "sessions": 17
   },
   {
+   "ref": "https://l.instagram.com/",
+   "hits": 26,
+   "sessions": 18
+  },
+  {
    "ref": "https://www.google.com/",
    "hits": 25,
    "sessions": 19
-  },
-  {
-   "ref": "https://l.instagram.com/",
-   "hits": 24,
-   "sessions": 16
   },
   {
    "ref": "https://www.doubao.com/",

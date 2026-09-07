@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-07T13:57:42.400Z",
+ "generated": "2026-09-07T14:07:49.521Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16865,
+ "verifiedAiHits": 16871,
  "logsScanned": 30,
  "windowStart": "2026-08-24",
  "windowEnd": "2026-09-07",
- "totalHits": 129152,
- "aiHits": 96983,
+ "totalHits": 129184,
+ "aiHits": 97001,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36807,
+   "hits": 36812,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 17173,
+   "hits": 17178,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15345,
+   "hits": 15352,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6371,
-   "verifiedHits": 6247,
+   "hits": 6374,
+   "verifiedHits": 6250,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3512,
-   "verifiedHits": 3441,
+   "hits": 3513,
+   "verifiedHits": 3442,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3034,
-   "verifiedHits": 2941,
+   "hits": 3039,
+   "verifiedHits": 2946,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
     {
      "path": "/",
-     "hits": 550
+     "hits": 551
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2549,
+   "hits": 2555,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -352,6 +352,10 @@
     {
      "path": "/build",
      "hits": 33
+    },
+    {
+     "path": "/authors/rosalinda",
+     "hits": 4
     },
     {
      "path": "/authors/dex",
@@ -363,10 +367,6 @@
     },
     {
      "path": "/posts/e2b-july-sdks-set-once-integrations-lighter-snapshots.md",
-     "hits": 3
-    },
-    {
-     "path": "/posts/how-to-chunk-code-for-rag.html",
      "hits": 3
     }
    ],

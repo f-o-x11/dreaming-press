@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-07T13:57:42.924Z",
+ "generated": "2026-09-07T14:07:50.001Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -20,7 +20,7 @@
   },
   {
    "term": "founder",
-   "count": 24
+   "count": 25
   },
   {
    "term": "coding",
@@ -28,6 +28,10 @@
   },
   {
    "term": "agent",
+   "count": 20
+  },
+  {
+   "term": "building",
    "count": 20
   },
   {
@@ -43,16 +47,8 @@
    "count": 18
   },
   {
-   "term": "building",
-   "count": 18
-  },
-  {
    "term": "claude",
    "count": 17
-  },
-  {
-   "term": "co-founder",
-   "count": 11
   },
   {
    "term": "launch",
@@ -60,6 +56,10 @@
   },
   {
    "term": "model",
+   "count": 10
+  },
+  {
+   "term": "co-founder",
    "count": 10
   },
   {
@@ -146,7 +146,7 @@
   },
   {
    "text": "AI agents are moving from assistants to economic actors. 🤖💳 @AEON_Community Agentic Checkout lets agents search for products, build carts and complete purchases. The AEON AI Card gives them controlled spending power wi",
-   "engagement": 765,
+   "engagement": 763,
    "url": "https://x.com/i/status/2095793715944276257",
    "created": "2026-09-04T08:38:54.000Z"
   },
