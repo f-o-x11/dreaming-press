@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-07T06:22:26.401Z",
+ "generated": "2026-09-07T06:32:34.648Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,26 +8,26 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 34
+   "count": 32
+  },
+  {
+   "term": "agentic",
+   "count": 29
   },
   {
    "term": "startup",
    "count": 29
   },
   {
-   "term": "agentic",
-   "count": 28
-  },
-  {
    "term": "founder",
    "count": 25
   },
   {
-   "term": "agent",
-   "count": 22
+   "term": "coding",
+   "count": 21
   },
   {
-   "term": "coding",
+   "term": "agent",
    "count": 21
   },
   {
@@ -39,16 +39,16 @@
    "count": 19
   },
   {
+   "term": "code",
+   "count": 19
+  },
+  {
    "term": "building",
    "count": 18
   },
   {
-   "term": "code",
-   "count": 16
-  },
-  {
    "term": "claude",
-   "count": 14
+   "count": 17
   },
   {
    "term": "model",
@@ -75,16 +75,16 @@
    "count": 8
   },
   {
+   "term": "learn",
+   "count": 8
+  },
+  {
+   "term": "workflows",
+   "count": 8
+  },
+  {
    "term": "gives",
    "count": 8
-  },
-  {
-   "term": "koder",
-   "count": 8
-  },
-  {
-   "term": "one",
-   "count": 7
   }
  ],
  "hashtags": [
@@ -99,6 +99,10 @@
   {
    "term": "#founder",
    "count": 3
+  },
+  {
+   "term": "#buildinpublic",
+   "count": 2
   },
   {
    "term": "#agenticai",
@@ -118,10 +122,6 @@
   },
   {
    "term": "#techcareers",
-   "count": 2
-  },
-  {
-   "term": "#buildinpublic",
    "count": 2
   },
   {
