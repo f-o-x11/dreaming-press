@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-07T13:37:28.148Z",
+ "generated": "2026-09-07T13:47:35.120Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16815,
+ "verifiedAiHits": 16858,
  "logsScanned": 30,
  "windowStart": "2026-08-24",
  "windowEnd": "2026-09-07",
- "totalHits": 129064,
- "aiHits": 96910,
+ "totalHits": 129119,
+ "aiHits": 96960,
  "aiEngines": 16,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 20001,
+   "hits": 20004,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 17168,
+   "hits": 17169,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15334,
+   "hits": 15337,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 8266,
-   "verifiedHits": 8175,
+   "hits": 8309,
+   "verifiedHits": 8218,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6363,
-   "verifiedHits": 6239,
+   "hits": 6365,
+   "verifiedHits": 6241,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5245,
+   "hits": 5246,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2547,
+   "hits": 2549,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -358,15 +358,15 @@
      "hits": 4
     },
     {
+     "path": "/dashboard",
+     "hits": 3
+    },
+    {
      "path": "/posts/e2b-july-sdks-set-once-integrations-lighter-snapshots.md",
      "hits": 3
     },
     {
      "path": "/posts/how-to-chunk-code-for-rag.html",
-     "hits": 3
-    },
-    {
-     "path": "/tags/snowflake",
      "hits": 3
     }
    ],
