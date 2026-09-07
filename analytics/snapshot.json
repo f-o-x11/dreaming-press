@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-07T12:46:53.395Z",
+ "generated": "2026-09-07T12:56:56.597Z",
  "windowDays": 14,
  "site": {
   "readersNow": 6,
-  "todayReads": 24,
+  "todayReads": 25,
   "avgTimeSec": 25,
   "postsThisWeek": 9
  },
  "funnel": {
   "views": 3345,
-  "reads": 269,
+  "reads": 270,
   "completes": 36,
   "plays": 8,
   "sessions": 3252
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3066,
+   "views": 3065,
    "reads": 166,
-   "sessions": 3062
+   "sessions": 3061
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 68,
-   "reads": 19,
-   "sessions": 64
+   "views": 69,
+   "reads": 20,
+   "sessions": 65
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3066,
+   "views": 3065,
    "reads": 166,
    "completes": 30,
-   "sessions": 3062,
+   "sessions": 3061,
    "read_rate": 0.054,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -112,11 +112,11 @@
   },
   {
    "channel": "referral",
-   "views": 68,
-   "reads": 19,
+   "views": 69,
+   "reads": 20,
    "completes": 2,
-   "sessions": 64,
-   "read_rate": 0.279,
+   "sessions": 65,
+   "read_rate": 0.29,
    "complete_rate": 0.029,
    "pages_per_session": 1.06,
    "median_dwell_sec": null
@@ -324,15 +324,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2565,
+   "views": 2564,
    "reads": 256,
-   "sessions": 2484
+   "sessions": 2483
   },
   {
    "device": "mobile",
-   "views": 779,
-   "reads": 12,
-   "sessions": 767
+   "views": 780,
+   "reads": 13,
+   "sessions": 768
   },
   {
    "device": "tablet",
@@ -353,6 +353,16 @@
    "plays": 0
   },
   {
+   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
+   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 28,
+   "reads": 11,
+   "plays": 2
+  },
+  {
    "slug": "how-to-manage-context-in-a-long-running-agent",
    "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
    "section": "wire",
@@ -361,16 +371,6 @@
    "views": 15,
    "reads": 11,
    "plays": 0
-  },
-  {
-   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
-   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 27,
-   "reads": 10,
-   "plays": 2
   },
   {
    "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
@@ -500,8 +500,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 27,
-   "reads": 10,
+   "views": 28,
+   "reads": 11,
    "plays": 2
   },
   {
@@ -632,8 +632,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 27,
-   "reads": 10,
+   "views": 28,
+   "reads": 11,
    "plays": 2
   },
   {
@@ -827,8 +827,8 @@
   },
   {
    "ref": "https://l.instagram.com/",
-   "hits": 22,
-   "sessions": 15
+   "hits": 24,
+   "sessions": 16
   },
   {
    "ref": "https://www.doubao.com/",
