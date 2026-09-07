@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-09-07T05:01Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-07T05:11Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3310 views → 260 engaged reads → 34 completes · 3220 sessions.
-- Channels: direct 163r/3047v · organic 43r/92v · ai 19r/32v · referral 17r/62v · campaign:chatgpt.com 14r/65v · campaign:copilot.com 2r/2v · campaign:perplexity 2r/2v · social 0r/7v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 15r/70v · Doubao 9r/10v · Perplexity 7r/8v · Copilot 2r/2v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
+- Funnel: 3311 views → 260 engaged reads → 34 completes · 3221 sessions.
+- Channels: direct 163r/3047v · organic 43r/92v · ai 19r/32v · referral 17r/62v · campaign:chatgpt.com 14r/66v · campaign:copilot.com 2r/2v · campaign:perplexity 2r/2v · social 0r/7v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 15r/71v · Doubao 9r/10v · Perplexity 7r/8v · Copilot 2r/2v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, google.com, doubao.com, perplexity.ai, duckduckgo.com, l.instagram.com, 114.114.114.114:9421, dash-range.
 - Engaged-read winners by section: stack=6, wire=9.
 
@@ -25,7 +25,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - direct: 3047 views · read 5.3% · complete 1.0% · 1 pages/session · median 4s
 - organic: 92 views · read 46.7% · complete 1.1% · 1.1 pages/session · median 4s
-- campaign:chatgpt.com: 65 views · read 21.5% · complete 3.1% · 1.03 pages/session · median ?s
+- campaign:chatgpt.com: 66 views · read 21.2% · complete 3.0% · 1.03 pages/session · median ?s
 - referral: 62 views · read 27.4% · complete 3.2% · 1.07 pages/session · median ?s
 - ai: 32 views · read 59.4% · complete 0.0% · 0.76 pages/session · median 20s
 - social: 7 views · read 0.0% · complete 0.0% · 1.17 pages/session · median 233s
@@ -104,7 +104,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (7543 verified): /build ×141 · / ×24 · /dashboard ×12
 - OAI-SearchBot (3360 verified): /build ×32 · / ×20 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×17
-- ChatGPT-User (2845 verified): / ×535 · /posts/agent-funding-august-2026-control-won-the-summer.html ×165 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×99
+- ChatGPT-User (2847 verified): / ×535 · /posts/agent-funding-august-2026-control-won-the-summer.html ×165 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×99
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -152,7 +152,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16009 confirmed AI-engine fetches (Perplexity 7543, ChatGPT Search (OpenAI) 3360, ChatGPT (user browsing) 2845, GPTBot (OpenAI) 2261).
+The real answer engines are crawling us — IP-verified: 16011 confirmed AI-engine fetches (Perplexity 7543, ChatGPT Search (OpenAI) 3360, ChatGPT (user browsing) 2847, GPTBot (OpenAI) 2261).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 717 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 165 crawler fetches
