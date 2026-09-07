@@ -1,13 +1,13 @@
 {
- "generated": "2026-09-07T19:01:50.958Z",
+ "generated": "2026-09-07T19:11:51.391Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17084,
+ "verifiedAiHits": 17093,
  "logsScanned": 30,
  "windowStart": "2026-08-24",
  "windowEnd": "2026-09-07",
- "totalHits": 130372,
- "aiHits": 97785,
- "aiEngines": 16,
+ "totalHits": 130410,
+ "aiHits": 97802,
+ "aiEngines": 17,
  "bots": [
   {
    "name": "Bytespider",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 17445,
+   "hits": 17462,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15525,
+   "hits": 15532,
    "verifiedHits": 0,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 8417,
-   "verifiedHits": 8326,
+   "hits": 8424,
+   "verifiedHits": 8333,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6469,
-   "verifiedHits": 6345,
+   "hits": 6473,
+   "verifiedHits": 6349,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3570,
-   "verifiedHits": 3499,
+   "hits": 3571,
+   "verifiedHits": 3500,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3088,
-   "verifiedHits": 2995,
+   "hits": 3089,
+   "verifiedHits": 2996,
    "firstSeen": "2026-08-24",
    "lastSeen": "2026-09-07",
    "topPaths": [
     {
      "path": "/",
-     "hits": 557
+     "hits": 558
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -717,6 +717,18 @@
      "hits": 3
     }
    ],
+   "verifiable": false
+  },
+  {
+   "name": "Diffbot",
+   "label": "Diffbot",
+   "category": "ai",
+   "home": "https://www.diffbot.com",
+   "hits": 1,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-07",
+   "lastSeen": "2026-09-07",
+   "topPaths": [],
    "verifiable": false
   }
  ]
