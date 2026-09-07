@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-07T08:33:58.753Z",
+ "generated": "2026-09-07T08:44:05.626Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 17,
-  "todayReads": 14,
-  "avgTimeSec": 21,
+  "readersNow": 12,
+  "todayReads": 17,
+  "avgTimeSec": 20,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3322,
-  "reads": 264,
+  "views": 3327,
+  "reads": 267,
   "completes": 35,
   "plays": 7,
-  "sessions": 3233
+  "sessions": 3238
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3055,
-   "reads": 166,
-   "sessions": 3049
+   "views": 3057,
+   "reads": 167,
+   "sessions": 3051
   },
   {
    "channel": "organic",
@@ -29,21 +29,21 @@
   },
   {
    "channel": "referral",
-   "views": 65,
-   "reads": 18,
-   "sessions": 61
+   "views": 67,
+   "reads": 19,
+   "sessions": 63
   },
   {
    "channel": "ai",
    "views": 30,
    "reads": 18,
-   "sessions": 40
+   "sessions": 41
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 66,
-   "reads": 14,
-   "sessions": 64
+   "views": 67,
+   "reads": 15,
+   "sessions": 65
   },
   {
    "channel": "campaign:copilot.com",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3055,
-   "reads": 166,
+   "views": 3057,
+   "reads": 167,
    "completes": 30,
-   "sessions": 3049,
-   "read_rate": 0.054,
+   "sessions": 3051,
+   "read_rate": 0.055,
    "complete_rate": 0.01,
    "pages_per_session": 1,
    "median_dwell_sec": 4
@@ -100,25 +100,25 @@
    "median_dwell_sec": 4
   },
   {
-   "channel": "campaign:chatgpt.com",
-   "views": 66,
-   "reads": 14,
+   "channel": "referral",
+   "views": 67,
+   "reads": 19,
    "completes": 2,
-   "sessions": 64,
-   "read_rate": 0.212,
+   "sessions": 63,
+   "read_rate": 0.284,
    "complete_rate": 0.03,
-   "pages_per_session": 1.03,
+   "pages_per_session": 1.06,
    "median_dwell_sec": null
   },
   {
-   "channel": "referral",
-   "views": 65,
-   "reads": 18,
+   "channel": "campaign:chatgpt.com",
+   "views": 67,
+   "reads": 15,
    "completes": 2,
-   "sessions": 61,
-   "read_rate": 0.277,
-   "complete_rate": 0.031,
-   "pages_per_session": 1.07,
+   "sessions": 65,
+   "read_rate": 0.224,
+   "complete_rate": 0.03,
+   "pages_per_session": 1.03,
    "median_dwell_sec": null
   },
   {
@@ -126,11 +126,11 @@
    "views": 30,
    "reads": 18,
    "completes": 0,
-   "sessions": 40,
+   "sessions": 41,
    "read_rate": 0.6,
    "complete_rate": 0,
-   "pages_per_session": 0.75,
-   "median_dwell_sec": 20
+   "pages_per_session": 0.73,
+   "median_dwell_sec": 18
   },
   {
    "channel": "social",
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 71,
-   "reads": 15,
-   "sessions": 65
+   "views": 72,
+   "reads": 16,
+   "sessions": 66
   },
   {
    "assistant": "Doubao",
@@ -319,14 +319,14 @@
   {
    "device": "desktop",
    "views": 2551,
-   "reads": 254,
+   "reads": 256,
    "sessions": 2473
   },
   {
    "device": "mobile",
-   "views": 770,
-   "reads": 9,
-   "sessions": 759
+   "views": 775,
+   "reads": 10,
+   "sessions": 764
   },
   {
    "device": "tablet",
@@ -362,8 +362,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 18,
-   "reads": 7,
+   "views": 23,
+   "reads": 8,
    "plays": 2
   },
   {
@@ -437,6 +437,16 @@
    "plays": 0
   },
   {
+   "slug": "lm-studio-bionic-local-agent-open-models",
+   "title": "LM Studio Bionic: A Private, Local Agent for Open Models — What It Is, Who It's For, How to Start",
+   "section": "stack",
+   "tags": "[\"reportive\",\"captivating\"]",
+   "author": "rosalinda",
+   "views": 6,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "how-to-write-a-claude-skill-that-triggers",
    "title": "How to Write a Claude Skill That Actually Triggers: The SKILL.md Description Craft",
    "section": "stack",
@@ -475,16 +485,6 @@
    "views": 9,
    "reads": 3,
    "plays": 0
-  },
-  {
-   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
-   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 3,
-   "plays": 1
   }
  ],
  "topListens": [
@@ -494,8 +494,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 18,
-   "reads": 7,
+   "views": 23,
+   "reads": 8,
    "plays": 2
   },
   {
@@ -631,6 +631,16 @@
    "plays": 0
   },
   {
+   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
+   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 23,
+   "reads": 8,
+   "plays": 2
+  },
+  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -639,16 +649,6 @@
    "views": 22,
    "reads": 5,
    "plays": 0
-  },
-  {
-   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
-   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 18,
-   "reads": 7,
-   "plays": 2
   },
   {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
@@ -694,9 +694,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 385,
+   "views": 384,
    "reads": 0,
-   "sessions": 383,
+   "sessions": 382,
    "avg_dwell_sec": 4
   },
   {
@@ -806,8 +806,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 34,
-   "sessions": 18
+   "hits": 36,
+   "sessions": 19
   },
   {
    "ref": "https://cn.bing.com/",
@@ -820,14 +820,14 @@
    "sessions": 20
   },
   {
+   "ref": "https://l.instagram.com/",
+   "hits": 21,
+   "sessions": 14
+  },
+  {
    "ref": "https://www.doubao.com/",
    "hits": 19,
    "sessions": 8
-  },
-  {
-   "ref": "https://l.instagram.com/",
-   "hits": 18,
-   "sessions": 12
   },
   {
    "ref": "https://duckduckgo.com/",
