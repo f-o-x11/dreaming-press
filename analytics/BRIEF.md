@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-07T19:11Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-07T19:21Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -119,7 +119,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(32), agentic(30), startup(28), founder(26), build(22), mcp(21), coding(21), agent(19), code(19), claude(17), building(17), developers(10), launch(9), model(9), one(9).
+Hot terms: agents(32), agentic(30), startup(27), founder(26), build(22), mcp(21), coding(21), agent(19), code(19), building(19), claude(17), model(10), developers(10), co-founder(10), launch(9).
 Hashtags: #ai, #startup, #founder, #buildinpublic, #agenticai, #rag, #python, #aiengineer, #techcareers, #agents.
 High-engagement posts to react to / cite:
 - "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de" — https://x.com/i/status/2095859430776533318
@@ -164,7 +164,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 60 crawler fetches
 - /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html  — 47 crawler fetches
 - /posts/2026-08-22-startup-wins-price-war-below-free.html  — 44 crawler fetches
-- /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 27 crawler fetches
+- /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 28 crawler fetches
 - /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html  — 18 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
