@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-07T12:56:56.597Z",
+ "generated": "2026-09-07T13:06:59.552Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
-  "todayReads": 25,
+  "readersNow": 4,
+  "todayReads": 26,
   "avgTimeSec": 25,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3345,
+  "views": 3343,
   "reads": 270,
   "completes": 36,
   "plays": 8,
-  "sessions": 3252
+  "sessions": 3249
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3065,
+   "views": 3063,
    "reads": 166,
-   "sessions": 3061
+   "sessions": 3058
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3065,
+   "views": 3063,
    "reads": 166,
    "completes": 30,
-   "sessions": 3061,
+   "sessions": 3058,
    "read_rate": 0.054,
    "complete_rate": 0.01,
    "pages_per_session": 1,
@@ -324,15 +324,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2564,
-   "reads": 256,
-   "sessions": 2483
+   "views": 2559,
+   "reads": 255,
+   "sessions": 2478
   },
   {
    "device": "mobile",
-   "views": 780,
-   "reads": 13,
-   "sessions": 768
+   "views": 783,
+   "reads": 14,
+   "sessions": 770
   },
   {
    "device": "tablet",
@@ -343,6 +343,16 @@
  ],
  "topContent": [
   {
+   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
+   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 30,
+   "reads": 12,
+   "plays": 2
+  },
+  {
    "slug": "neo4j-vs-falkordb-vs-memgraph",
    "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
    "section": "stack",
@@ -351,16 +361,6 @@
    "views": 24,
    "reads": 12,
    "plays": 0
-  },
-  {
-   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
-   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 28,
-   "reads": 11,
-   "plays": 2
   },
   {
    "slug": "how-to-manage-context-in-a-long-running-agent",
@@ -473,16 +473,6 @@
    "plays": 2
   },
   {
-   "slug": "openrouter-vs-litellm-vs-cloudflare-ai-gateway",
-   "title": "OpenRouter vs LiteLLM vs Cloudflare AI Gateway: Marketplace, Proxy, or Edge — How to Route Your LLM Traffic in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
    "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
    "section": "stack",
@@ -491,6 +481,16 @@
    "views": 8,
    "reads": 3,
    "plays": 1
+  },
+  {
+   "slug": "google-adk-2-workflow-runtime",
+   "title": "ADK 2.0 Turns Agents Into Graph Nodes: Inside Google's Workflow Runtime",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 3,
+   "plays": 0
   }
  ],
  "topListens": [
@@ -500,8 +500,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 28,
-   "reads": 11,
+   "views": 30,
+   "reads": 12,
    "plays": 2
   },
   {
@@ -617,6 +617,16 @@
    "plays": 0
   },
   {
+   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
+   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 30,
+   "reads": 12,
+   "plays": 2
+  },
+  {
    "slug": "gpt-5-6-july-30-price-cut-routing-sticker-vs-bill",
    "title": "OpenAI Cut Terra and Luna on July 30. On the Sticker, Luna Is Now the Cheapest Agent Backend Alive — On the Bill, the Ranking Barely Moved.",
    "section": "wire",
@@ -625,16 +635,6 @@
    "views": 29,
    "reads": 0,
    "plays": 0
-  },
-  {
-   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
-   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 28,
-   "reads": 11,
-   "plays": 2
   },
   {
    "slug": "neo4j-vs-falkordb-vs-memgraph",
@@ -707,9 +707,9 @@
   },
   {
    "path": "/",
-   "views": 156,
+   "views": 157,
    "reads": 0,
-   "sessions": 153,
+   "sessions": 154,
    "avg_dwell_sec": 8
   },
   {
