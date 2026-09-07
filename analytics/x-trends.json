@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-07T11:05:44.133Z",
+ "generated": "2026-09-07T11:15:46.595Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,7 +12,7 @@
   },
   {
    "term": "startup",
-   "count": 30
+   "count": 31
   },
   {
    "term": "agentic",
@@ -24,6 +24,10 @@
   },
   {
    "term": "coding",
+   "count": 21
+  },
+  {
+   "term": "building",
    "count": 21
   },
   {
@@ -43,20 +47,16 @@
    "count": 19
   },
   {
-   "term": "building",
-   "count": 19
-  },
-  {
    "term": "claude",
    "count": 17
   },
   {
-   "term": "model",
-   "count": 12
-  },
-  {
    "term": "co-founder",
    "count": 11
+  },
+  {
+   "term": "model",
+   "count": 10
   },
   {
    "term": "autonomous",
@@ -75,15 +75,15 @@
    "count": 8
   },
   {
-   "term": "has",
-   "count": 8
-  },
-  {
    "term": "was",
    "count": 8
   },
   {
    "term": "gives",
+   "count": 8
+  },
+  {
+   "term": "koder",
    "count": 8
   }
  ],
@@ -146,7 +146,7 @@
   },
   {
    "text": "AI agents are moving from assistants to economic actors. 🤖💳 @AEON_Community Agentic Checkout lets agents search for products, build carts and complete purchases. The AEON AI Card gives them controlled spending power wi",
-   "engagement": 769,
+   "engagement": 773,
    "url": "https://x.com/i/status/2095793715944276257",
    "created": "2026-09-04T08:38:54.000Z"
   },
@@ -169,12 +169,6 @@
    "created": "2026-09-05T03:17:57.000Z"
   },
   {
-   "text": "Most AI SaaS products don't fail at the model level They fail at the moment the response needs to be turned into actual action: the model returns malformed JSON, a call remains just an hour-long audio file, and the found",
-   "engagement": 60,
-   "url": "https://x.com/i/status/2094382562793640232",
-   "created": "2026-08-31T11:11:29.000Z"
-  },
-  {
    "text": "I’m starting a new series on X: What I’m learning while working with SAP AI (Business AI platform to be precise) Enterprise AI is a very different game from building a chatbot. Agents need context, access to business sys",
    "engagement": 57,
    "url": "https://x.com/i/status/2095478834292523487",
@@ -185,6 +179,12 @@
    "engagement": 57,
    "url": "https://x.com/i/status/2094885173368139976",
    "created": "2026-09-01T20:28:41.000Z"
+  },
+  {
+   "text": "“We approached Nvidia.” Hugging Face co-founder Thomas Wolf explains how the startup initiated talks with the chipmaker that ultimately led to the roughly $13 billion acquisition of the AI startup https://t.co/3nf7ye3ao3",
+   "engagement": 56,
+   "url": "https://x.com/i/status/2095563671552336219",
+   "created": "2026-09-03T17:24:47.000Z"
   }
  ]
 }

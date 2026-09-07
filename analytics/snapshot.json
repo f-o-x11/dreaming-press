@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-07T11:05:44.203Z",
+ "generated": "2026-09-07T11:15:46.645Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 21,
+  "readersNow": 2,
+  "todayReads": 22,
   "avgTimeSec": 25,
   "postsThisWeek": 9
  },
@@ -35,15 +35,15 @@
   },
   {
    "channel": "ai",
-   "views": 31,
-   "reads": 19,
-   "sessions": 43
+   "views": 30,
+   "reads": 18,
+   "sessions": 42
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 71,
-   "reads": 16,
-   "sessions": 69
+   "views": 72,
+   "reads": 17,
+   "sessions": 70
   },
   {
    "channel": "campaign:copilot.com",
@@ -101,11 +101,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 71,
-   "reads": 16,
+   "views": 72,
+   "reads": 17,
    "completes": 2,
-   "sessions": 69,
-   "read_rate": 0.225,
+   "sessions": 70,
+   "read_rate": 0.236,
    "complete_rate": 0.028,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 31,
-   "reads": 19,
+   "views": 30,
+   "reads": 18,
    "completes": 1,
-   "sessions": 43,
-   "read_rate": 0.613,
-   "complete_rate": 0.032,
-   "pages_per_session": 0.72,
+   "sessions": 42,
+   "read_rate": 0.6,
+   "complete_rate": 0.033,
+   "pages_per_session": 0.71,
    "median_dwell_sec": 20
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 76,
-   "reads": 17,
-   "sessions": 70
+   "views": 77,
+   "reads": 18,
+   "sessions": 71
   },
   {
    "assistant": "Doubao",
@@ -280,9 +280,9 @@
   },
   {
    "assistant": "Perplexity",
-   "views": 6,
-   "reads": 6,
-   "sessions": 5
+   "views": 5,
+   "reads": 5,
+   "sessions": 4
   },
   {
    "assistant": "Yuanbao",
@@ -806,8 +806,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 39,
-   "sessions": 21
+   "hits": 41,
+   "sessions": 22
   },
   {
    "ref": "https://cn.bing.com/",
@@ -835,14 +835,14 @@
    "sessions": 8
   },
   {
-   "ref": "https://www.perplexity.ai/",
-   "hits": 12,
-   "sessions": 5
-  },
-  {
    "ref": "http://114.114.114.114:9421/",
    "hits": 11,
    "sessions": 7
+  },
+  {
+   "ref": "https://www.perplexity.ai/",
+   "hits": 10,
+   "sessions": 4
   },
   {
    "ref": "dash-range",
