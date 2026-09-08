@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-08T15:18:03.570Z",
+ "generated": "2026-09-08T15:28:06.480Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17088,
+ "verifiedAiHits": 17090,
  "logsScanned": 30,
  "windowStart": "2026-08-25",
  "windowEnd": "2026-09-08",
- "totalHits": 129779,
- "aiHits": 96688,
+ "totalHits": 129818,
+ "aiHits": 96701,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36419,
+   "hits": 36424,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 18449,
+   "hits": 18460,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15259,
+   "hits": 15263,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3151,
-   "verifiedHits": 3025,
+   "hits": 3153,
+   "verifiedHits": 3027,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2562,
+   "hits": 2577,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -358,16 +358,16 @@
      "hits": 4
     },
     {
+     "path": "/tags/reportive",
+     "hits": 4
+    },
+    {
      "path": "/dashboard",
      "hits": 4
     },
     {
      "path": "/authors/rosalinda",
      "hits": 4
-    },
-    {
-     "path": "/tools",
-     "hits": 3
     }
    ],
    "verifiable": false
@@ -575,7 +575,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 163,
+   "hits": 165,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
