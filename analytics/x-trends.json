@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-08T13:16:28.012Z",
+ "generated": "2026-09-08T13:26:37.105Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,50 +8,54 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 34
+   "count": 33
   },
   {
    "term": "agentic",
    "count": 31
   },
   {
+   "term": "build",
+   "count": 28
+  },
+  {
    "term": "startup",
    "count": 28
   },
   {
-   "term": "build",
-   "count": 27
-  },
-  {
    "term": "founder",
-   "count": 26
+   "count": 25
   },
   {
    "term": "mcp",
-   "count": 20
+   "count": 21
   },
   {
    "term": "building",
    "count": 19
   },
   {
-   "term": "code",
-   "count": 17
-  },
-  {
    "term": "coding",
    "count": 16
   },
   {
-   "term": "claude",
-   "count": 15
+   "term": "code",
+   "count": 16
   },
   {
    "term": "agent",
-   "count": 13
+   "count": 14
   },
   {
    "term": "model",
+   "count": 10
+  },
+  {
+   "term": "claude",
+   "count": 10
+  },
+  {
+   "term": "developers",
    "count": 10
   },
   {
@@ -75,15 +79,11 @@
    "count": 8
   },
   {
-   "term": "developers",
+   "term": "one",
    "count": 8
   },
   {
-   "term": "learn",
-   "count": 8
-  },
-  {
-   "term": "gives",
+   "term": "company",
    "count": 8
   }
  ],
@@ -152,7 +152,7 @@
   },
   {
    "text": "If I had 6 months to become an Agentic AI Engineer. I'd do this. Stage 1: Python and LLM Foundations Python, async, API design, Anthropic/OpenAI SDKs, tokens, embeddings, structured outputs. Stage 2: Context Engineering ",
-   "engagement": 669,
+   "engagement": 668,
    "url": "https://x.com/i/status/2095491337651179621",
    "created": "2026-09-03T12:37:21.000Z"
   },
@@ -169,16 +169,16 @@
    "created": "2026-09-05T03:17:57.000Z"
   },
   {
+   "text": "From Building to Launching Coddle (@coddleai)! A few months ago, Coddle was just an idea. I had been thinking about how fragmented product development can be and how much time teams spend moving between different tools, ",
+   "engagement": 58,
+   "url": "https://x.com/i/status/2096891946761347550",
+   "created": "2026-09-07T09:22:53.000Z"
+  },
+  {
    "text": "TechBBQ 2026 🇩🇰 | Building OctOpus 48 hours in Copenhagen. Founders, investors, AI, great conversations — and a lot happening behind the scenes. Building from Sweden 🇸🇪Thinking global. 🚀 #TechBBQ #OctOpus #AI #Start",
    "engagement": 58,
    "url": "https://x.com/i/status/2094885173368139976",
    "created": "2026-09-01T20:28:41.000Z"
-  },
-  {
-   "text": "From Building to Launching Coddle (@coddleai)! A few months ago, Coddle was just an idea. I had been thinking about how fragmented product development can be and how much time teams spend moving between different tools, ",
-   "engagement": 57,
-   "url": "https://x.com/i/status/2096891946761347550",
-   "created": "2026-09-07T09:22:53.000Z"
   },
   {
    "text": "I’m starting a new series on X: What I’m learning while working with SAP AI (Business AI platform to be precise) Enterprise AI is a very different game from building a chatbot. Agents need context, access to business sys",
