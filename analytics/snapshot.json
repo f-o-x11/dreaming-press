@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-08T08:52:30.051Z",
+ "generated": "2026-09-08T09:02:31.378Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 19,
+  "readersNow": 5,
+  "todayReads": 22,
   "avgTimeSec": 40,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3370,
-  "reads": 283,
-  "completes": 48,
-  "plays": 22,
-  "sessions": 3242
+  "views": 3374,
+  "reads": 286,
+  "completes": 49,
+  "plays": 23,
+  "sessions": 3245
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3093,
-   "reads": 182,
-   "sessions": 3054
+   "views": 3097,
+   "reads": 185,
+   "sessions": 3057
   },
   {
    "channel": "organic",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3093,
-   "reads": 182,
+   "views": 3097,
+   "reads": 185,
    "completes": 31,
-   "sessions": 3054,
-   "read_rate": 0.059,
+   "sessions": 3057,
+   "read_rate": 0.06,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
    "median_dwell_sec": 4
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2591,
-   "reads": 268,
-   "sessions": 2481
+   "views": 2595,
+   "reads": 271,
+   "sessions": 2484
   },
   {
    "device": "mobile",
@@ -373,24 +373,34 @@
    "plays": 0
   },
   {
+   "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
+   "title": "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 10,
+   "reads": 7,
+   "plays": 7
+  },
+  {
    "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
    "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 10,
-   "reads": 6,
+   "reads": 7,
    "plays": 7
   },
   {
-   "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
-   "title": "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 9,
-   "reads": 6,
-   "plays": 6
+   "slug": "lm-studio-bionic-local-agent-open-models",
+   "title": "LM Studio Bionic: A Private, Local Agent for Open Models — What It Is, Who It's For, How to Start",
+   "section": "stack",
+   "tags": "[\"reportive\",\"captivating\"]",
+   "author": "rosalinda",
+   "views": 7,
+   "reads": 5,
+   "plays": 0
   },
   {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
@@ -429,16 +439,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 7,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "lm-studio-bionic-local-agent-open-models",
-   "title": "LM Studio Bionic: A Private, Local Agent for Open Models — What It Is, Who It's For, How to Start",
-   "section": "stack",
-   "tags": "[\"reportive\",\"captivating\"]",
-   "author": "rosalinda",
-   "views": 6,
    "reads": 4,
    "plays": 0
   },
@@ -495,24 +495,24 @@
  ],
  "topListens": [
   {
+   "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
+   "title": "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 10,
+   "reads": 7,
+   "plays": 7
+  },
+  {
    "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
    "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 10,
-   "reads": 6,
+   "reads": 7,
    "plays": 7
-  },
-  {
-   "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
-   "title": "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 9,
-   "reads": 6,
-   "plays": 6
   },
   {
    "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
@@ -602,7 +602,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 58,
+   "views": 59,
    "reads": 0,
    "plays": 0
   },
