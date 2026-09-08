@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-08T15:28Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-08T15:38Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -107,7 +107,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (8334 verified): /build ×148 · / ×25 · /dashboard ×13
 - OAI-SearchBot (3465 verified): /build ×33 · / ×21 · /posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html ×18
-- ChatGPT-User (3027 verified): / ×556 · /posts/agent-funding-august-2026-control-won-the-summer.html ×148 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×100
+- ChatGPT-User (3036 verified): / ×556 · /posts/agent-funding-august-2026-control-won-the-summer.html ×148 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×100
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -122,7 +122,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(34), agentic(31), build(27), startup(27), founder(25), mcp(20), building(20), coding(16), code(16), agent(14), model(10), claude(10), co-founder(10), own(9), launch(9).
+Hot terms: agents(34), agentic(31), build(28), founder(26), startup(26), mcp(20), building(19), coding(16), code(16), agent(14), model(10), claude(10), own(9), launch(9), autonomous(9).
 Hashtags: #ai, #startup, #buildinpublic, #founder, #agenticai, #rag, #python, #aiengineer, #techcareers, #agents.
 High-engagement posts to react to / cite:
 - "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de" — https://x.com/i/status/2095859430776533318
@@ -132,10 +132,10 @@ High-engagement posts to react to / cite:
 - "From Building to Launching Coddle (@coddleai)! A few months ago, Coddle was just an idea. I had been thinking about how fragmented product development can be and how much time teams spend moving between different tools, " — https://x.com/i/status/2096891946761347550
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-- Search-demand signal STALE (99h old, 270 uncovered phrases from the last good run). Treat as directional until it refreshes.
+- Search-demand signal STALE (100h old, 270 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17090 confirmed AI-engine fetches (Perplexity 8334, ChatGPT Search (OpenAI) 3465, ChatGPT (user browsing) 3027, GPTBot (OpenAI) 2264).
+The real answer engines are crawling us — IP-verified: 17099 confirmed AI-engine fetches (Perplexity 8334, ChatGPT Search (OpenAI) 3465, ChatGPT (user browsing) 3036, GPTBot (OpenAI) 2264).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 704 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 148 crawler fetches
@@ -147,7 +147,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 58 crawler fetches
 - /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html  — 47 crawler fetches
 - /posts/2026-08-22-startup-wins-price-war-below-free.html  — 44 crawler fetches
-- /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 40 crawler fetches
+- /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 41 crawler fetches
 - /posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html  — 18 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
