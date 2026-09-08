@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-08T18:50:16.571Z",
+ "generated": "2026-09-08T19:00:26.695Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 37,
-  "avgTimeSec": 48,
+  "readersNow": 3,
+  "todayReads": 38,
+  "avgTimeSec": 47,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3337,
+  "views": 3339,
   "reads": 283,
   "completes": 48,
   "plays": 23,
-  "sessions": 3201
+  "sessions": 3203
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3048,
+   "views": 3050,
    "reads": 176,
-   "sessions": 3010
+   "sessions": 3012
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3048,
+   "views": 3050,
    "reads": 176,
    "completes": 29,
-   "sessions": 3010,
+   "sessions": 3012,
    "read_rate": 0.058,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2571,
+   "views": 2573,
    "reads": 269,
-   "sessions": 2453
+   "sessions": 2455
   },
   {
    "device": "mobile",
@@ -403,16 +403,6 @@
    "plays": 0
   },
   {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 18,
-   "reads": 4,
-   "plays": 1
-  },
-  {
    "slug": "2026-06-22-mcp-authorization-oauth",
    "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
    "section": "wire",
@@ -471,6 +461,16 @@
    "views": 19,
    "reads": 3,
    "plays": 0
+  },
+  {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 17,
+   "reads": 3,
+   "plays": 1
   },
   {
    "slug": "gartner-ai-agent-spending-2026",
@@ -540,8 +540,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 18,
-   "reads": 4,
+   "views": 17,
+   "reads": 3,
    "plays": 1
   },
   {
@@ -652,8 +652,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 18,
-   "reads": 4,
+   "views": 17,
+   "reads": 3,
    "plays": 1
   },
   {

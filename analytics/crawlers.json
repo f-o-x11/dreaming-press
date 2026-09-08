@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-08T18:50:15.979Z",
+ "generated": "2026-09-08T19:00:26.156Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17244,
+ "verifiedAiHits": 17248,
  "logsScanned": 30,
  "windowStart": "2026-08-25",
  "windowEnd": "2026-09-08",
- "totalHits": 130717,
- "aiHits": 97316,
+ "totalHits": 130773,
+ "aiHits": 97354,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36595,
+   "hits": 36601,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19787,
+   "hits": 19788,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 18672,
+   "hits": 18686,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15402,
+   "hits": 15409,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6413,
-   "verifiedHits": 6277,
+   "hits": 6415,
+   "verifiedHits": 6279,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3601,
-   "verifiedHits": 3497,
+   "hits": 3604,
+   "verifiedHits": 3500,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3196,
-   "verifiedHits": 3069,
+   "hits": 3197,
+   "verifiedHits": 3070,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2599,
+   "hits": 2601,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -443,11 +443,15 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 1504,
+   "hits": 1506,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
+    {
+     "path": "/posts/2026-09-02-founders-wire-fable-51-openai-cursor-cutoff-anthropic-lambda-35b.md",
+     "hits": 2
+    },
     {
      "path": "/posts/embedding-quantization-binary-vs-scalar-vs-int8.html",
      "hits": 2
@@ -462,10 +466,6 @@
     },
     {
      "path": "/posts/2026-08-24-founders-wire-ox-alpha-ramp-router-nvidia-harness.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/agent-memory-survey-2026.html",
      "hits": 2
     }
    ],
@@ -542,7 +542,7 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 324,
+   "hits": 342,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-08",
