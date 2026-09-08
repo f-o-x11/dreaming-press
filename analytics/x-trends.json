@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-08T11:54:31.524Z",
+ "generated": "2026-09-08T12:04:56.785Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,11 +8,15 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 35
+   "count": 33
   },
   {
    "term": "agentic",
    "count": 31
+  },
+  {
+   "term": "build",
+   "count": 27
   },
   {
    "term": "founder",
@@ -23,10 +27,6 @@
    "count": 27
   },
   {
-   "term": "build",
-   "count": 26
-  },
-  {
    "term": "mcp",
    "count": 20
   },
@@ -35,12 +35,12 @@
    "count": 19
   },
   {
-   "term": "code",
+   "term": "building",
    "count": 18
   },
   {
-   "term": "building",
-   "count": 18
+   "term": "code",
+   "count": 17
   },
   {
    "term": "agent",
@@ -48,15 +48,11 @@
   },
   {
    "term": "claude",
-   "count": 16
+   "count": 15
   },
   {
    "term": "model",
    "count": 10
-  },
-  {
-   "term": "one",
-   "count": 9
   },
   {
    "term": "autonomous",
@@ -64,6 +60,10 @@
   },
   {
    "term": "context",
+   "count": 9
+  },
+  {
+   "term": "developers",
    "count": 9
   },
   {
@@ -79,7 +79,7 @@
    "count": 8
   },
   {
-   "term": "developers",
+   "term": "one",
    "count": 8
   },
   {
@@ -181,10 +181,10 @@
    "created": "2026-09-03T11:47:40.000Z"
   },
   {
-   "text": "“We approached Nvidia.” Hugging Face co-founder Thomas Wolf explains how the startup initiated talks with the chipmaker that ultimately led to the roughly $13 billion acquisition of the AI startup https://t.co/3nf7ye3ao3",
+   "text": "From Building to Launching Coddle (@coddleai)! A few months ago, Coddle was just an idea. I had been thinking about how fragmented product development can be and how much time teams spend moving between different tools, ",
    "engagement": 56,
-   "url": "https://x.com/i/status/2095563671552336219",
-   "created": "2026-09-03T17:24:47.000Z"
+   "url": "https://x.com/i/status/2096891946761347550",
+   "created": "2026-09-07T09:22:53.000Z"
   }
  ]
 }
