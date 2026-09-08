@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-08T13:06:16.497Z",
+ "generated": "2026-09-08T13:16:28.061Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3362,
-  "reads": 285,
+  "views": 3359,
+  "reads": 284,
   "completes": 49,
   "plays": 23,
-  "sessions": 3228
+  "sessions": 3225
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3075,
-   "reads": 181,
-   "sessions": 3036
+   "views": 3072,
+   "reads": 180,
+   "sessions": 3033
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3075,
-   "reads": 181,
+   "views": 3072,
+   "reads": 180,
    "completes": 30,
-   "sessions": 3036,
+   "sessions": 3033,
    "read_rate": 0.059,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2591,
-   "reads": 270,
-   "sessions": 2475
+   "views": 2588,
+   "reads": 269,
+   "sessions": 2472
   },
   {
    "device": "mobile",
@@ -373,16 +373,6 @@
    "plays": 7
   },
   {
-   "slug": "neo4j-vs-falkordb-vs-memgraph",
-   "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 11,
-   "reads": 7,
-   "plays": 0
-  },
-  {
    "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
    "title": "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model",
    "section": "wire",
@@ -391,6 +381,16 @@
    "views": 10,
    "reads": 7,
    "plays": 7
+  },
+  {
+   "slug": "neo4j-vs-falkordb-vs-memgraph",
+   "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 9,
+   "reads": 6,
+   "plays": 0
   },
   {
    "slug": "lm-studio-bionic-local-agent-open-models",
@@ -602,7 +602,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 58,
+   "views": 57,
    "reads": 0,
    "plays": 0
   },
