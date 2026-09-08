@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-08T10:03:15.928Z",
+ "generated": "2026-09-08T10:13:24.468Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16991,
+ "verifiedAiHits": 17002,
  "logsScanned": 30,
  "windowStart": "2026-08-25",
  "windowEnd": "2026-09-08",
- "totalHits": 128311,
- "aiHits": 95648,
+ "totalHits": 128343,
+ "aiHits": 95667,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36034,
+   "hits": 36039,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 18203,
+   "hits": 18211,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15050,
+   "hits": 15053,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6257,
-   "verifiedHits": 6121,
+   "hits": 6262,
+   "verifiedHits": 6126,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3507,
-   "verifiedHits": 3426,
+   "hits": 3514,
+   "verifiedHits": 3433,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3070,
-   "verifiedHits": 2969,
+   "hits": 3074,
+   "verifiedHits": 2973,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
     {
      "path": "/",
-     "hits": 547
+     "hits": 548
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -334,7 +334,7 @@
     },
     {
      "path": "/posts/llm-api-pricing-comparison-august-2026.html",
-     "hits": 61
+     "hits": 62
     }
    ],
    "verifiable": true
