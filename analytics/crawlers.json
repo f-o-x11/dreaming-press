@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-08T03:37:59.498Z",
+ "generated": "2026-09-08T03:48:15.925Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16866,
+ "verifiedAiHits": 16867,
  "logsScanned": 30,
  "windowStart": "2026-08-25",
  "windowEnd": "2026-09-08",
- "totalHits": 126409,
- "aiHits": 94351,
+ "totalHits": 126467,
+ "aiHits": 94387,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35538,
+   "hits": 35555,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19289,
+   "hits": 19291,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 17914,
+   "hits": 17927,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14781,
+   "hits": 14789,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6126,
-   "verifiedHits": 5990,
+   "hits": 6127,
+   "verifiedHits": 5991,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5098,
+   "hits": 5104,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3015,
-   "verifiedHits": 2915,
+   "hits": 3016,
+   "verifiedHits": 2916,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
     {
      "path": "/",
-     "hits": 538
+     "hits": 539
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -410,8 +410,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1674,
-   "verifiedHits": 630,
+   "hits": 1676,
+   "verifiedHits": 632,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 1488,
+   "hits": 1490,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 737,
+   "hits": 743,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -484,6 +484,10 @@
     {
      "path": "/",
      "hits": 29
+    },
+    {
+     "path": "/posts/strands-agents-vs-langgraph.html",
+     "hits": 4
     },
     {
      "path": "/dashboard",
@@ -495,10 +499,6 @@
     },
     {
      "path": "/posts/2026-08-22-founders-wire-nvidia-poolside-anthropic-ipo-gemma-billion.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/tool-highlight-reducto-agentic-document-parsing.html",
      "hits": 3
     }
    ],
