@@ -1,30 +1,30 @@
 {
- "generated": "2026-09-08T13:26:37.176Z",
+ "generated": "2026-09-08T13:36:44.245Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 29,
-  "avgTimeSec": 49,
+  "readersNow": 5,
+  "todayReads": 30,
+  "avgTimeSec": 51,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3359,
+  "views": 3360,
   "reads": 284,
   "completes": 49,
   "plays": 23,
-  "sessions": 3225
+  "sessions": 3226
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3071,
+   "views": 3073,
    "reads": 180,
-   "sessions": 3032
+   "sessions": 3035
   },
   {
    "channel": "organic",
    "views": 95,
-   "reads": 47,
+   "reads": 48,
    "sessions": 84
   },
   {
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 34,
-   "reads": 19,
-   "sessions": 42
+   "views": 33,
+   "reads": 18,
+   "sessions": 41
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3071,
+   "views": 3073,
    "reads": 180,
    "completes": 30,
-   "sessions": 3032,
+   "sessions": 3035,
    "read_rate": 0.059,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -91,10 +91,10 @@
   {
    "channel": "organic",
    "views": 95,
-   "reads": 47,
+   "reads": 48,
    "completes": 2,
    "sessions": 84,
-   "read_rate": 0.495,
+   "read_rate": 0.505,
    "complete_rate": 0.021,
    "pages_per_session": 1.13,
    "median_dwell_sec": 4
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 34,
-   "reads": 19,
+   "views": 33,
+   "reads": 18,
    "completes": 1,
-   "sessions": 42,
-   "read_rate": 0.559,
-   "complete_rate": 0.029,
-   "pages_per_session": 0.81,
+   "sessions": 41,
+   "read_rate": 0.545,
+   "complete_rate": 0.03,
+   "pages_per_session": 0.8,
    "median_dwell_sec": 16
   },
   {
@@ -285,12 +285,6 @@
    "sessions": 4
   },
   {
-   "assistant": "Yuanbao",
-   "views": 2,
-   "reads": 2,
-   "sessions": 2
-  },
-  {
    "assistant": "Copilot",
    "views": 2,
    "reads": 2,
@@ -309,6 +303,12 @@
    "sessions": 3
   },
   {
+   "assistant": "Yuanbao",
+   "views": 1,
+   "reads": 1,
+   "sessions": 1
+  },
+  {
    "assistant": "Kimi",
    "views": 3,
    "reads": 0,
@@ -324,15 +324,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2588,
+   "views": 2586,
    "reads": 269,
-   "sessions": 2472
+   "sessions": 2470
   },
   {
    "device": "mobile",
-   "views": 770,
+   "views": 773,
    "reads": 14,
-   "sessions": 752
+   "sessions": 755
   },
   {
    "device": "tablet",
@@ -393,6 +393,16 @@
    "plays": 0
   },
   {
+   "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
+   "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "lm-studio-bionic-local-agent-open-models",
    "title": "LM Studio Bionic: A Private, Local Agent for Open Models — What It Is, Who It's For, How to Start",
    "section": "stack",
@@ -429,16 +439,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 9,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
-   "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
    "reads": 4,
    "plays": 0
   },
@@ -700,9 +700,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 385,
+   "views": 384,
    "reads": 0,
-   "sessions": 381,
+   "sessions": 380,
    "avg_dwell_sec": 4
   },
   {
@@ -807,7 +807,7 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 57,
+   "hits": 58,
    "sessions": 25
   },
   {
