@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-08T06:00:16.392Z",
+ "generated": "2026-09-08T06:10:16.445Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,11 +8,11 @@
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3352,
-  "reads": 271,
-  "completes": 37,
+  "views": 3351,
+  "reads": 270,
+  "completes": 36,
   "plays": 8,
-  "sessions": 3240
+  "sessions": 3239
  },
  "channels": [
   {
@@ -37,13 +37,13 @@
    "channel": "ai",
    "views": 34,
    "reads": 19,
-   "sessions": 42
+   "sessions": 41
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 76,
-   "reads": 16,
-   "sessions": 74
+   "views": 75,
+   "reads": 15,
+   "sessions": 73
   },
   {
    "channel": "campaign:copilot.com",
@@ -101,12 +101,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 76,
-   "reads": 16,
-   "completes": 2,
-   "sessions": 74,
-   "read_rate": 0.211,
-   "complete_rate": 0.026,
+   "views": 75,
+   "reads": 15,
+   "completes": 1,
+   "sessions": 73,
+   "read_rate": 0.2,
+   "complete_rate": 0.013,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
   },
@@ -126,10 +126,10 @@
    "views": 34,
    "reads": 19,
    "completes": 1,
-   "sessions": 42,
+   "sessions": 41,
    "read_rate": 0.559,
    "complete_rate": 0.029,
-   "pages_per_session": 0.81,
+   "pages_per_session": 0.83,
    "median_dwell_sec": 18
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 81,
-   "reads": 17,
-   "sessions": 75
+   "views": 80,
+   "reads": 16,
+   "sessions": 74
   },
   {
    "assistant": "Doubao",
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2574,
-   "reads": 256,
-   "sessions": 2480
+   "views": 2573,
+   "reads": 255,
+   "sessions": 2479
   },
   {
    "device": "mobile",
@@ -380,16 +380,6 @@
    "author": "dex",
    "views": 10,
    "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 17,
-   "reads": 4,
    "plays": 0
   },
   {
@@ -459,6 +449,16 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 18,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 16,
    "reads": 3,
    "plays": 0
   },
@@ -585,12 +585,12 @@
    "plays": 0
   },
   {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "slug": "2026-06-22-mcp-authorization-oauth",
+   "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 17,
+   "views": 9,
    "reads": 4,
    "plays": 0
   }
@@ -662,8 +662,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 17,
-   "reads": 4,
+   "views": 16,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -812,8 +812,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 42,
-   "sessions": 22
+   "hits": 39,
+   "sessions": 21
   },
   {
    "ref": "https://cn.bing.com/",
