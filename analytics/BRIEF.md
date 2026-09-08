@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-08T22:25Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-08T22:35Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -93,21 +93,21 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 616 retrieval fetches
+- /  — 617 retrieval fetches
 - /build  — 183 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 148 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 100 retrieval fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 75 retrieval fetches
 - /posts/llm-api-pricing-comparison-august-2026.html  — 65 retrieval fetches
 - /posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html  — 19 retrieval fetches
+- /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 19 retrieval fetches
 - /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html  — 19 retrieval fetches
-- /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html  — 18 retrieval fetches
 - /dashboard  — 14 retrieval fetches
 
 Per engine:
 - PerplexityBot (8623 verified): /build ×150 · / ×26 · /dashboard ×14
-- OAI-SearchBot (3539 verified): /build ×33 · / ×22 · /posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html ×19
-- ChatGPT-User (3100 verified): / ×568 · /posts/agent-funding-august-2026-control-won-the-summer.html ×148 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×100
+- OAI-SearchBot (3541 verified): /build ×33 · / ×22 · /posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html ×19
+- ChatGPT-User (3101 verified): / ×569 · /posts/agent-funding-august-2026-control-won-the-summer.html ×148 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×100
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -135,7 +135,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (106h old, 270 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17528 confirmed AI-engine fetches (Perplexity 8623, ChatGPT Search (OpenAI) 3539, ChatGPT (user browsing) 3100, GPTBot (OpenAI) 2266).
+The real answer engines are crawling us — IP-verified: 17531 confirmed AI-engine fetches (Perplexity 8623, ChatGPT Search (OpenAI) 3541, ChatGPT (user browsing) 3101, GPTBot (OpenAI) 2266).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 709 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 148 crawler fetches
