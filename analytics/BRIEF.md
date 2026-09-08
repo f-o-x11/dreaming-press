@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-08T14:17Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-08T14:27Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -106,7 +106,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (8334 verified): /build ×148 · / ×25 · /dashboard ×13
-- OAI-SearchBot (3462 verified): /build ×33 · / ×21 · /posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html ×18
+- OAI-SearchBot (3463 verified): /build ×33 · / ×21 · /posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html ×18
 - ChatGPT-User (3012 verified): / ×554 · /posts/agent-funding-august-2026-control-won-the-summer.html ×147 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×100
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -135,9 +135,9 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (98h old, 270 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17072 confirmed AI-engine fetches (Perplexity 8334, ChatGPT Search (OpenAI) 3462, ChatGPT (user browsing) 3012, GPTBot (OpenAI) 2264).
+The real answer engines are crawling us — IP-verified: 17073 confirmed AI-engine fetches (Perplexity 8334, ChatGPT Search (OpenAI) 3463, ChatGPT (user browsing) 3012, GPTBot (OpenAI) 2264).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 702 crawler fetches
+- /build  — 703 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 147 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 127 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 100 crawler fetches
