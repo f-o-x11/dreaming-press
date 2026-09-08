@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-08T19:00:26.695Z",
+ "generated": "2026-09-08T19:10:49.163Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 38,
+  "readersNow": 1,
+  "todayReads": 39,
   "avgTimeSec": 47,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3339,
-  "reads": 283,
+  "views": 3338,
+  "reads": 284,
   "completes": 48,
   "plays": 23,
-  "sessions": 3203
+  "sessions": 3202
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3050,
-   "reads": 176,
-   "sessions": 3012
+   "views": 3051,
+   "reads": 177,
+   "sessions": 3013
   },
   {
    "channel": "organic",
@@ -37,13 +37,13 @@
    "channel": "ai",
    "views": 33,
    "reads": 18,
-   "sessions": 41
+   "sessions": 39
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 79,
+   "views": 77,
    "reads": 16,
-   "sessions": 77
+   "sessions": 75
   },
   {
    "channel": "campaign:copilot.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3050,
-   "reads": 176,
+   "views": 3051,
+   "reads": 177,
    "completes": 29,
-   "sessions": 3012,
+   "sessions": 3013,
    "read_rate": 0.058,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 79,
+   "views": 77,
    "reads": 16,
    "completes": 1,
-   "sessions": 77,
-   "read_rate": 0.203,
+   "sessions": 75,
+   "read_rate": 0.208,
    "complete_rate": 0.013,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -126,10 +126,10 @@
    "views": 33,
    "reads": 18,
    "completes": 1,
-   "sessions": 41,
+   "sessions": 39,
    "read_rate": 0.545,
    "complete_rate": 0.03,
-   "pages_per_session": 0.8,
+   "pages_per_session": 0.85,
    "median_dwell_sec": 16
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 84,
+   "views": 82,
    "reads": 17,
-   "sessions": 78
+   "sessions": 76
   },
   {
    "assistant": "Doubao",
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2573,
-   "reads": 269,
-   "sessions": 2455
+   "views": 2572,
+   "reads": 270,
+   "sessions": 2454
   },
   {
    "device": "mobile",
@@ -468,7 +468,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 17,
+   "views": 15,
    "reads": 3,
    "plays": 1
   },
@@ -540,7 +540,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 17,
+   "views": 15,
    "reads": 3,
    "plays": 1
   },
@@ -647,16 +647,6 @@
    "plays": 0
   },
   {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 17,
-   "reads": 3,
-   "plays": 1
-  },
-  {
    "slug": "how-to-manage-context-in-a-long-running-agent",
    "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
    "section": "wire",
@@ -675,6 +665,16 @@
    "views": 16,
    "reads": 2,
    "plays": 0
+  },
+  {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 15,
+   "reads": 3,
+   "plays": 1
   },
   {
    "slug": "china-persona-law-took-effect-what-founders-do",
