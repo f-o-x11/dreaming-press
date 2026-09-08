@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-08T04:59Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-08T05:09Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3357 views → 270 engaged reads → 37 completes · 3245 sessions.
-- Channels: direct 168r/3074v · organic 44r/91v · referral 19r/69v · ai 19r/34v · campaign:chatgpt.com 16r/76v · campaign:copilot.com 2r/2v · campaign:perplexity 2r/2v · social 0r/8v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3358 views → 270 engaged reads → 37 completes · 3246 sessions.
+- Channels: direct 168r/3074v · organic 44r/91v · referral 19r/70v · ai 19r/34v · campaign:chatgpt.com 16r/76v · campaign:copilot.com 2r/2v · campaign:perplexity 2r/2v · social 0r/8v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 17r/81v · Doubao 9r/10v · Perplexity 5r/5v · Yuanbao 2r/2v · Copilot 2r/2v · DeepSeek 1r/4v · Grok 1r/3v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, l.instagram.com, google.com, doubao.com, duckduckgo.com, nav-cmp, 114.114.114.114:9421, perplexity.ai.
 - Engaged-read winners by section: stack=6, wire=9.
@@ -26,7 +26,7 @@ Volume and quality point in opposite directions here. Read the second column, no
 - direct: 3074 views · read 5.5% · complete 1.0% · 1.01 pages/session · median 4s
 - organic: 91 views · read 48.4% · complete 1.1% · 1.08 pages/session · median 4s
 - campaign:chatgpt.com: 76 views · read 21.1% · complete 2.6% · 1.03 pages/session · median ?s
-- referral: 69 views · read 27.5% · complete 2.9% · 1.06 pages/session · median ?s
+- referral: 70 views · read 27.1% · complete 2.9% · 1.06 pages/session · median ?s
 - ai: 34 views · read 55.9% · complete 2.9% · 0.81 pages/session · median 18s
 - social: 8 views · read 0.0% · complete 0.0% · 1.14 pages/session · median 233s
 INSIGHT: ai converts 10x better per view than direct, which is 92% of all views.
@@ -58,7 +58,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 387 views, 0 reads, 383 sessions, avg 4s
-- / — 154 views, 0 reads, 151 sessions, avg 8s
+- / — 155 views, 0 reads, 152 sessions, avg 8s
 - /compare/:pair — 80 views, 0 reads, 80 sessions, avg 4s
 - /best/:cat — 35 views, 0 reads, 35 sessions, avg 4s
 - /build — 32 views, 0 reads, 32 sessions, avg 4s
