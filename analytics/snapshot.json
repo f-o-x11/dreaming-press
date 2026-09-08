@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-08T21:34:16.747Z",
+ "generated": "2026-09-08T21:44:30.870Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 42,
   "avgTimeSec": 44,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3333,
-  "reads": 287,
+  "views": 3331,
+  "reads": 286,
   "completes": 48,
   "plays": 23,
-  "sessions": 3197
+  "sessions": 3195
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3046,
+   "views": 3045,
    "reads": 180,
-   "sessions": 3008
+   "sessions": 3007
   },
   {
    "channel": "organic",
@@ -47,9 +47,9 @@
   },
   {
    "channel": "campaign:copilot.com",
-   "views": 2,
-   "reads": 2,
-   "sessions": 2
+   "views": 1,
+   "reads": 1,
+   "sessions": 1
   },
   {
    "channel": "campaign:perplexity",
@@ -61,7 +61,7 @@
    "channel": "social",
    "views": 8,
    "reads": 0,
-   "sessions": 7
+   "sessions": 6
   },
   {
    "channel": "campaign:producthunt/",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3046,
+   "views": 3045,
    "reads": 180,
    "completes": 29,
-   "sessions": 3008,
+   "sessions": 3007,
    "read_rate": 0.059,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -137,21 +137,10 @@
    "views": 8,
    "reads": 0,
    "completes": 0,
-   "sessions": 7,
+   "sessions": 6,
    "read_rate": 0,
    "complete_rate": 0,
-   "pages_per_session": 1.14,
-   "median_dwell_sec": 233
-  },
-  {
-   "channel": "campaign:copilot.com",
-   "views": 2,
-   "reads": 2,
-   "completes": 0,
-   "sessions": 2,
-   "read_rate": 1,
-   "complete_rate": 0,
-   "pages_per_session": 1,
+   "pages_per_session": 1.33,
    "median_dwell_sec": null
   },
   {
@@ -161,6 +150,17 @@
    "completes": 0,
    "sessions": 1,
    "read_rate": 0,
+   "complete_rate": 0,
+   "pages_per_session": 1,
+   "median_dwell_sec": null
+  },
+  {
+   "channel": "campaign:copilot.com",
+   "views": 1,
+   "reads": 1,
+   "completes": 0,
+   "sessions": 1,
+   "read_rate": 1,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -285,12 +285,6 @@
    "sessions": 4
   },
   {
-   "assistant": "Copilot",
-   "views": 2,
-   "reads": 2,
-   "sessions": 2
-  },
-  {
    "assistant": "DeepSeek",
    "views": 4,
    "reads": 1,
@@ -301,6 +295,12 @@
    "views": 3,
    "reads": 1,
    "sessions": 3
+  },
+  {
+   "assistant": "Copilot",
+   "views": 1,
+   "reads": 1,
+   "sessions": 1
   },
   {
    "assistant": "Yuanbao",
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2572,
-   "reads": 272,
-   "sessions": 2454
+   "views": 2570,
+   "reads": 271,
+   "sessions": 2452
   },
   {
    "device": "mobile",
@@ -700,9 +700,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 384,
+   "views": 383,
    "reads": 0,
-   "sessions": 380,
+   "sessions": 379,
    "avg_dwell_sec": 4
   },
   {
