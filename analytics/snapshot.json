@@ -1,10 +1,10 @@
 {
- "generated": "2026-09-08T17:59:58.601Z",
+ "generated": "2026-09-08T18:10:06.510Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 36,
-  "avgTimeSec": 46,
+  "avgTimeSec": 45,
   "postsThisWeek": 7
  },
  "funnel": {
@@ -12,14 +12,14 @@
   "reads": 282,
   "completes": 48,
   "plays": 23,
-  "sessions": 3204
+  "sessions": 3203
  },
  "channels": [
   {
    "channel": "direct",
    "views": 3051,
    "reads": 176,
-   "sessions": 3013
+   "sessions": 3012
   },
   {
    "channel": "organic",
@@ -82,7 +82,7 @@
    "views": 3051,
    "reads": 176,
    "completes": 29,
-   "sessions": 3013,
+   "sessions": 3012,
    "read_rate": 0.058,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -326,7 +326,7 @@
    "device": "desktop",
    "views": 2573,
    "reads": 268,
-   "sessions": 2456
+   "sessions": 2455
   },
   {
    "device": "mobile",
@@ -358,7 +358,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 15,
+   "views": 16,
    "reads": 11,
    "plays": 0
   },
@@ -590,7 +590,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 15,
+   "views": 16,
    "reads": 11,
    "plays": 0
   }
@@ -657,6 +657,16 @@
    "plays": 1
   },
   {
+   "slug": "how-to-manage-context-in-a-long-running-agent",
+   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 16,
+   "reads": 11,
+   "plays": 0
+  },
+  {
    "slug": "2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe",
    "title": "The Founder's Wire, September 4: A 'Firewall for Agents' Raises $50M, HiddenLayer Takes $100M a Day Later, and Crusoe Hits $30B for the Compute Underneath",
    "section": "wire",
@@ -664,16 +674,6 @@
    "author": "wire-desk",
    "views": 16,
    "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "how-to-manage-context-in-a-long-running-agent",
-   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 11,
    "plays": 0
   },
   {
