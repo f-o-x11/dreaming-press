@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-08T19:10:48.588Z",
+ "generated": "2026-09-08T19:20:55.152Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17249,
+ "verifiedAiHits": 17253,
  "logsScanned": 30,
  "windowStart": "2026-08-25",
  "windowEnd": "2026-09-08",
- "totalHits": 130819,
- "aiHits": 97389,
+ "totalHits": 130891,
+ "aiHits": 97447,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36601,
+   "hits": 36622,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 18696,
+   "hits": 18708,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15418,
+   "hits": 15427,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6416,
-   "verifiedHits": 6280,
+   "hits": 6417,
+   "verifiedHits": 6281,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3197,
-   "verifiedHits": 3070,
+   "hits": 3201,
+   "verifiedHits": 3074,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
     {
      "path": "/",
-     "hits": 562
+     "hits": 563
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -334,7 +334,7 @@
     },
     {
      "path": "/posts/llm-api-pricing-comparison-august-2026.html",
-     "hits": 63
+     "hits": 64
     }
    ],
    "verifiable": true
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2601,
+   "hits": 2602,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -542,7 +542,7 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 365,
+   "hits": 389,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-08",
