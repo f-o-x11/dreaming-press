@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-08T07:51:49.503Z",
+ "generated": "2026-09-08T08:01:56.212Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 9,
-  "avgTimeSec": 15,
+  "readersNow": 11,
+  "todayReads": 12,
+  "avgTimeSec": 14,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3349,
-  "reads": 273,
-  "completes": 40,
-  "plays": 13,
-  "sessions": 3234
+  "views": 3357,
+  "reads": 276,
+  "completes": 41,
+  "plays": 14,
+  "sessions": 3239
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3072,
-   "reads": 172,
-   "sessions": 3046
+   "views": 3080,
+   "reads": 175,
+   "sessions": 3051
   },
   {
    "channel": "organic",
@@ -29,21 +29,21 @@
   },
   {
    "channel": "referral",
-   "views": 68,
+   "views": 67,
    "reads": 19,
-   "sessions": 64
+   "sessions": 63
   },
   {
    "channel": "ai",
    "views": 34,
    "reads": 19,
-   "sessions": 41
+   "sessions": 42
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 73,
+   "views": 74,
    "reads": 15,
-   "sessions": 71
+   "sessions": 72
   },
   {
    "channel": "campaign:copilot.com",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3072,
-   "reads": 172,
+   "views": 3080,
+   "reads": 175,
    "completes": 31,
-   "sessions": 3046,
-   "read_rate": 0.056,
+   "sessions": 3051,
+   "read_rate": 0.057,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
    "median_dwell_sec": 4
@@ -101,23 +101,23 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 73,
+   "views": 74,
    "reads": 15,
    "completes": 1,
-   "sessions": 71,
-   "read_rate": 0.205,
+   "sessions": 72,
+   "read_rate": 0.203,
    "complete_rate": 0.014,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
   },
   {
    "channel": "referral",
-   "views": 68,
+   "views": 67,
    "reads": 19,
    "completes": 2,
-   "sessions": 64,
-   "read_rate": 0.279,
-   "complete_rate": 0.029,
+   "sessions": 63,
+   "read_rate": 0.284,
+   "complete_rate": 0.03,
    "pages_per_session": 1.06,
    "median_dwell_sec": null
   },
@@ -126,11 +126,11 @@
    "views": 34,
    "reads": 19,
    "completes": 1,
-   "sessions": 41,
+   "sessions": 42,
    "read_rate": 0.559,
    "complete_rate": 0.029,
-   "pages_per_session": 0.83,
-   "median_dwell_sec": 18
+   "pages_per_session": 0.81,
+   "median_dwell_sec": 16
   },
   {
    "channel": "social",
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 78,
+   "views": 79,
    "reads": 16,
-   "sessions": 72
+   "sessions": 73
   },
   {
    "assistant": "Doubao",
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2573,
-   "reads": 258,
-   "sessions": 2476
+   "views": 2581,
+   "reads": 261,
+   "sessions": 2481
   },
   {
    "device": "mobile",
@@ -495,6 +495,16 @@
  ],
  "topListens": [
   {
+   "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
+   "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 6,
+   "reads": 3,
+   "plays": 3
+  },
+  {
    "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
    "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
    "section": "stack",
@@ -515,22 +525,12 @@
    "plays": 2
   },
   {
-   "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
-   "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 5,
-   "reads": 2,
-   "plays": 2
-  },
-  {
    "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
    "title": "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 2,
+   "views": 4,
    "reads": 2,
    "plays": 2
   },
@@ -735,9 +735,9 @@
   },
   {
    "path": "/dashboard",
-   "views": 18,
+   "views": 19,
    "reads": 1,
-   "sessions": 6,
+   "sessions": 7,
    "avg_dwell_sec": 22
   },
   {
@@ -791,9 +791,9 @@
   },
   {
    "path": "/authors/dex",
-   "views": 6,
+   "views": 7,
    "reads": 0,
-   "sessions": 6,
+   "sessions": 7,
    "avg_dwell_sec": 8
   },
   {
@@ -812,8 +812,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 39,
-   "sessions": 21
+   "hits": 40,
+   "sessions": 22
   },
   {
    "ref": "https://cn.bing.com/",
