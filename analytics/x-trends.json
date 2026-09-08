@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-08T16:08:16.596Z",
+ "generated": "2026-09-08T16:18:25.241Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 34
+   "count": 33
   },
   {
    "term": "startup",
@@ -20,7 +20,7 @@
   },
   {
    "term": "agentic",
-   "count": 27
+   "count": 28
   },
   {
    "term": "founder",
@@ -35,10 +35,6 @@
    "count": 20
   },
   {
-   "term": "code",
-   "count": 12
-  },
-  {
    "term": "co-founder",
    "count": 12
   },
@@ -47,15 +43,19 @@
    "count": 11
   },
   {
+   "term": "code",
+   "count": 11
+  },
+  {
    "term": "agent",
    "count": 10
   },
   {
-   "term": "claude",
-   "count": 10
+   "term": "own",
+   "count": 9
   },
   {
-   "term": "own",
+   "term": "claude",
    "count": 9
   },
   {
@@ -79,11 +79,11 @@
    "count": 8
   },
   {
-   "term": "one",
+   "term": "company",
    "count": 8
   },
   {
-   "term": "company",
+   "term": "learn",
    "count": 8
   }
  ],
@@ -157,6 +157,12 @@
    "created": "2026-09-04T07:14:04.000Z"
   },
   {
+   "text": "Rooting for $PAYGENT’s launch today @usepaygent. With Vlad Tenev pushing the AI agent payments narrative through Robinhood’s agentic credit card, this is a category I’m watching. Paygent built for months before launching",
+   "engagement": 133,
+   "url": "https://x.com/i/status/2097357503818305566",
+   "created": "2026-09-08T16:12:50.000Z"
+  },
+  {
    "text": "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra",
    "engagement": 110,
    "url": "https://x.com/i/status/2096075332579385542",
@@ -179,12 +185,6 @@
    "engagement": 57,
    "url": "https://x.com/i/status/2095478834292523487",
    "created": "2026-09-03T11:47:40.000Z"
-  },
-  {
-   "text": "“We approached Nvidia.” Hugging Face co-founder Thomas Wolf explains how the startup initiated talks with the chipmaker that ultimately led to the roughly $13 billion acquisition of the AI startup https://t.co/3nf7ye3ao3",
-   "engagement": 56,
-   "url": "https://x.com/i/status/2095563671552336219",
-   "created": "2026-09-03T17:24:47.000Z"
   }
  ]
 }
