@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-08T06:20:43.839Z",
+ "generated": "2026-09-08T06:30:51.034Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 4,
   "avgTimeSec": 8,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3350,
-  "reads": 270,
+  "views": 3351,
+  "reads": 269,
   "completes": 36,
   "plays": 8,
-  "sessions": 3238
+  "sessions": 3239
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3071,
-   "reads": 168,
-   "sessions": 3048
+   "views": 3072,
+   "reads": 167,
+   "sessions": 3049
   },
   {
    "channel": "organic",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3071,
-   "reads": 168,
+   "views": 3072,
+   "reads": 167,
    "completes": 31,
-   "sessions": 3048,
-   "read_rate": 0.055,
+   "sessions": 3049,
+   "read_rate": 0.054,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
    "median_dwell_sec": 4
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2572,
-   "reads": 255,
-   "sessions": 2478
+   "views": 2573,
+   "reads": 254,
+   "sessions": 2479
   },
   {
    "device": "mobile",
@@ -399,16 +399,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 9,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
-   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
    "reads": 4,
    "plays": 0
   },
@@ -488,6 +478,16 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
+   "views": 8,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
+   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
    "views": 8,
    "reads": 3,
    "plays": 0
