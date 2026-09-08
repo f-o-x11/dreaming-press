@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-09-08T10:33Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-08T10:43Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
 - Funnel: 3376 views → 290 engaged reads → 50 completes · 3238 sessions.
-- Channels: direct 186r/3091v · organic 47r/95v · referral 19r/67v · ai 19r/34v · campaign:chatgpt.com 15r/76v · campaign:copilot.com 2r/2v · campaign:perplexity 2r/2v · social 0r/8v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 16r/81v · Doubao 9r/10v · Perplexity 5r/5v · Yuanbao 2r/2v · Copilot 2r/2v · DeepSeek 1r/4v · Grok 1r/3v · Kimi 0r/3v · Claude 0r/2v.
+- Channels: direct 186r/3090v · organic 47r/95v · referral 19r/67v · ai 19r/34v · campaign:chatgpt.com 15r/77v · campaign:copilot.com 2r/2v · campaign:perplexity 2r/2v · social 0r/8v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 16r/82v · Doubao 9r/10v · Perplexity 5r/5v · Yuanbao 2r/2v · Copilot 2r/2v · DeepSeek 1r/4v · Grok 1r/3v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, l.instagram.com, google.com, doubao.com, duckduckgo.com, nav-cmp, 114.114.114.114:9421, perplexity.ai.
 - Engaged-read winners by section: stack=6, wire=9.
 
@@ -23,9 +23,9 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3091 views · read 6.0% · complete 1.0% · 1.01 pages/session · median 4s
+- direct: 3090 views · read 6.0% · complete 1.0% · 1.01 pages/session · median 4s
 - organic: 95 views · read 49.5% · complete 2.1% · 1.13 pages/session · median 4s
-- campaign:chatgpt.com: 76 views · read 19.7% · complete 1.3% · 1.03 pages/session · median ?s
+- campaign:chatgpt.com: 77 views · read 19.5% · complete 1.3% · 1.03 pages/session · median ?s
 - referral: 67 views · read 28.4% · complete 3.0% · 1.06 pages/session · median ?s
 - ai: 34 views · read 55.9% · complete 2.9% · 0.81 pages/session · median 16s
 - social: 8 views · read 0.0% · complete 0.0% · 1.14 pages/session · median 233s
@@ -60,7 +60,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 385 views, 0 reads, 381 sessions, avg 4s
-- / — 156 views, 1 reads, 153 sessions, avg 9s
+- / — 155 views, 1 reads, 152 sessions, avg 9s
 - /compare/:pair — 80 views, 0 reads, 80 sessions, avg 4s
 - /best/:cat — 35 views, 0 reads, 35 sessions, avg 4s
 - /build — 32 views, 0 reads, 32 sessions, avg 4s
@@ -106,7 +106,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (8332 verified): /build ×148 · / ×25 · /dashboard ×13
-- OAI-SearchBot (3434 verified): /build ×33 · / ×21 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×17
+- OAI-SearchBot (3435 verified): /build ×33 · / ×21 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×17
 - ChatGPT-User (2974 verified): / ×548 · /posts/agent-funding-august-2026-control-won-the-summer.html ×146 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×99
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -132,7 +132,7 @@ High-engagement posts to react to / cite:
 - "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2096075332579385542
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (270 of 457 phrases have NO post, 94h ago)
+## Uncovered search demand (270 of 457 phrases have NO post, 95h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -155,7 +155,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17004 confirmed AI-engine fetches (Perplexity 8332, ChatGPT Search (OpenAI) 3434, ChatGPT (user browsing) 2974, GPTBot (OpenAI) 2264).
+The real answer engines are crawling us — IP-verified: 17005 confirmed AI-engine fetches (Perplexity 8332, ChatGPT Search (OpenAI) 3435, ChatGPT (user browsing) 2974, GPTBot (OpenAI) 2264).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 702 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 146 crawler fetches
@@ -164,7 +164,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/ai-coding-agent-ranking-2026.html  — 93 crawler fetches
 - /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 64 crawler fetches
 - /posts/llm-api-pricing-comparison-august-2026.html  — 62 crawler fetches
-- /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 57 crawler fetches
+- /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 58 crawler fetches
 - /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html  — 47 crawler fetches
 - /posts/2026-08-22-startup-wins-price-war-below-free.html  — 44 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 39 crawler fetches
