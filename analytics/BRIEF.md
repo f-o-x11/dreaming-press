@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-08T05:40Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-08T05:50Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -153,7 +153,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16897 confirmed AI-engine fetches (Perplexity 8308, ChatGPT Search (OpenAI) 3398, ChatGPT (user browsing) 2928, GPTBot (OpenAI) 2263).
+The real answer engines are crawling us — IP-verified: 16898 confirmed AI-engine fetches (Perplexity 8308, ChatGPT Search (OpenAI) 3398, ChatGPT (user browsing) 2928, GPTBot (OpenAI) 2264).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 699 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 146 crawler fetches
@@ -165,7 +165,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 57 crawler fetches
 - /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html  — 47 crawler fetches
 - /posts/2026-08-22-startup-wins-price-war-below-free.html  — 44 crawler fetches
-- /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 35 crawler fetches
+- /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 36 crawler fetches
 - /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html  — 17 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
