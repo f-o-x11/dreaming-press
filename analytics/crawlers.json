@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-08T02:47:16.065Z",
+ "generated": "2026-09-08T02:57:35.956Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16855,
+ "verifiedAiHits": 16857,
  "logsScanned": 30,
  "windowStart": "2026-08-25",
  "windowEnd": "2026-09-08",
- "totalHits": 125981,
- "aiHits": 94009,
+ "totalHits": 126149,
+ "aiHits": 94157,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35445,
+   "hits": 35456,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -32,11 +32,11 @@
      "hits": 14
     },
     {
-     "path": "/posts/china-persona-law-took-effect-what-founders-do.html",
+     "path": "/posts/2026-06-21-graphrag-vs-vector-rag.html",
      "hits": 14
     },
     {
-     "path": "/dashboard",
+     "path": "/posts/china-persona-law-took-effect-what-founders-do.html",
      "hits": 14
     }
    ],
@@ -47,14 +47,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19103,
+   "hits": 19229,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 29
+     "hits": 32
     },
     {
      "path": "/dashboard",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 17862,
+   "hits": 17877,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14738,
+   "hits": 14747,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6109,
-   "verifiedHits": 5973,
+   "hits": 6114,
+   "verifiedHits": 5978,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3466,
-   "verifiedHits": 3385,
+   "hits": 3468,
+   "verifiedHits": 3387,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
