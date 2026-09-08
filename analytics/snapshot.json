@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-08T01:26:16.103Z",
+ "generated": "2026-09-08T01:36:16.364Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 1,
-  "avgTimeSec": 5,
+  "readersNow": 3,
+  "todayReads": 2,
+  "avgTimeSec": 6,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3371,
-  "reads": 270,
+  "views": 3373,
+  "reads": 271,
   "completes": 37,
   "plays": 8,
-  "sessions": 3258
+  "sessions": 3259
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3088,
-   "reads": 168,
-   "sessions": 3065
+   "views": 3090,
+   "reads": 169,
+   "sessions": 3066
   },
   {
    "channel": "organic",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3088,
-   "reads": 168,
+   "views": 3090,
+   "reads": 169,
    "completes": 31,
-   "sessions": 3065,
-   "read_rate": 0.054,
+   "sessions": 3066,
+   "read_rate": 0.055,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
    "median_dwell_sec": 4
@@ -201,8 +201,8 @@
   },
   {
    "surface": "article-body",
-   "clicks": 7,
-   "sessions": 6
+   "clicks": 8,
+   "sessions": 7
   },
   {
    "surface": "mtabbar",
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2588,
-   "reads": 255,
-   "sessions": 2493
+   "views": 2590,
+   "reads": 256,
+   "sessions": 2494
   },
   {
    "device": "mobile",
@@ -343,6 +343,16 @@
  ],
  "topContent": [
   {
+   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
+   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 34,
+   "reads": 13,
+   "plays": 2
+  },
+  {
    "slug": "neo4j-vs-falkordb-vs-memgraph",
    "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
    "section": "stack",
@@ -351,16 +361,6 @@
    "views": 25,
    "reads": 13,
    "plays": 0
-  },
-  {
-   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
-   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 33,
-   "reads": 12,
-   "plays": 2
   },
   {
    "slug": "how-to-manage-context-in-a-long-running-agent",
@@ -500,8 +500,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 33,
-   "reads": 12,
+   "views": 34,
+   "reads": 13,
    "plays": 2
   },
   {
@@ -612,8 +612,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 33,
-   "reads": 12,
+   "views": 34,
+   "reads": 13,
    "plays": 2
   },
   {
