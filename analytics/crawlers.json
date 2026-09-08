@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-08T17:09:16.267Z",
+ "generated": "2026-09-08T17:19:27.141Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17173,
+ "verifiedAiHits": 17199,
  "logsScanned": 30,
  "windowStart": "2026-08-25",
  "windowEnd": "2026-09-08",
- "totalHits": 130234,
- "aiHits": 96966,
+ "totalHits": 130298,
+ "aiHits": 97007,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36512,
+   "hits": 36519,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 18569,
+   "hits": 18586,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15327,
+   "hits": 15335,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 8510,
-   "verifiedHits": 8382,
+   "hits": 8533,
+   "verifiedHits": 8405,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
@@ -161,14 +161,14 @@
     },
     {
      "path": "/dashboard",
-     "hits": 13
+     "hits": 14
     },
     {
-     "path": "/subscribe",
-     "hits": 10
+     "path": "/tags/reportive",
+     "hits": 11
     },
     {
-     "path": "/calculators/agent-cost",
+     "path": "/topics/agent-web",
      "hits": 10
     }
    ],
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6402,
-   "verifiedHits": 6266,
+   "hits": 6407,
+   "verifiedHits": 6271,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3181,
-   "verifiedHits": 3054,
+   "hits": 3184,
+   "verifiedHits": 3057,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2588,
+   "hits": 2589,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
