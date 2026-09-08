@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-08T23:05Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-08T23:15Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -106,7 +106,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (8623 verified): /build ×150 · / ×26 · /dashboard ×14
-- OAI-SearchBot (3543 verified): /build ×33 · / ×22 · /posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html ×19
+- OAI-SearchBot (3544 verified): /build ×33 · / ×22 · /posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html ×19
 - ChatGPT-User (3105 verified): / ×570 · /posts/agent-funding-august-2026-control-won-the-summer.html ×148 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×100
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -122,7 +122,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: startup(33), agents(31), agentic(28), founder(28), build(26), building(22), mcp(19), code(11), co-founder(11), agent(10), model(10), claude(9), autonomous(9), have(9), about(9).
+Hot terms: startup(33), agents(31), agentic(28), founder(28), build(26), building(22), mcp(19), code(11), co-founder(11), agent(10), model(10), claude(9), autonomous(9), about(9), have(9).
 Hashtags: #ai, #startup, #buildinpublic, #agenticai, #rag, #python, #aiengineer, #techcareers, #founder, #agents.
 High-engagement posts to react to / cite:
 - "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de" — https://x.com/i/status/2095859430776533318
@@ -135,7 +135,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (107h old, 270 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17537 confirmed AI-engine fetches (Perplexity 8623, ChatGPT Search (OpenAI) 3543, ChatGPT (user browsing) 3105, GPTBot (OpenAI) 2266).
+The real answer engines are crawling us — IP-verified: 17538 confirmed AI-engine fetches (Perplexity 8623, ChatGPT Search (OpenAI) 3544, ChatGPT (user browsing) 3105, GPTBot (OpenAI) 2266).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 709 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 148 crawler fetches
