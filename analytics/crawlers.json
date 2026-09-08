@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-08T00:45:47.193Z",
+ "generated": "2026-09-08T00:55:48.318Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16811,
+ "verifiedAiHits": 16814,
  "logsScanned": 30,
  "windowStart": "2026-08-25",
  "windowEnd": "2026-09-08",
- "totalHits": 125042,
- "aiHits": 93292,
+ "totalHits": 125091,
+ "aiHits": 93307,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35275,
+   "hits": 35281,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18675,
+   "hits": 18676,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 17734,
+   "hits": 17754,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14685,
+   "hits": 14687,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6073,
-   "verifiedHits": 5937,
+   "hits": 6074,
+   "verifiedHits": 5938,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3440,
-   "verifiedHits": 3359,
+   "hits": 3441,
+   "verifiedHits": 3360,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2991,
-   "verifiedHits": 2891,
+   "hits": 2993,
+   "verifiedHits": 2893,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2461,
+   "hits": 2474,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -352,6 +352,10 @@
     {
      "path": "/build",
      "hits": 33
+    },
+    {
+     "path": "/tags/howto",
+     "hits": 4
     },
     {
      "path": "/dashboard",
@@ -363,10 +367,6 @@
     },
     {
      "path": "/tools",
-     "hits": 3
-    },
-    {
-     "path": "/authors/dex",
      "hits": 3
     }
    ],
@@ -443,7 +443,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 1485,
+   "hits": 1486,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -575,7 +575,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 127,
+   "hits": 129,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -597,7 +597,7 @@
      "hits": 1
     },
     {
-     "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
+     "path": "/posts/2026-08-16-founders-wire-deepseek-price-hike-grok-4-6.html",
      "hits": 1
     }
    ],
