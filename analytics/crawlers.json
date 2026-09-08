@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-08T00:25:33.460Z",
+ "generated": "2026-09-08T00:35:40.199Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16802,
+ "verifiedAiHits": 16803,
  "logsScanned": 30,
  "windowStart": "2026-08-25",
  "windowEnd": "2026-09-08",
- "totalHits": 124962,
- "aiHits": 93257,
+ "totalHits": 125002,
+ "aiHits": 93272,
  "aiEngines": 17,
  "bots": [
   {
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 17719,
+   "hits": 17728,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14669,
+   "hits": 14678,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6064,
-   "verifiedHits": 5928,
+   "hits": 6067,
+   "verifiedHits": 5931,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
@@ -212,14 +212,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5083,
+   "hits": 5085,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
-   "lastSeen": "2026-09-07",
+   "lastSeen": "2026-09-08",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 41
+     "hits": 42
     },
     {
      "path": "/posts/tool-highlight-vercel-sandbox-run-agent-code.html",
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3060,
+   "hits": 3069,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2984,
-   "verifiedHits": 2884,
+   "hits": 2985,
+   "verifiedHits": 2885,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2457,
+   "hits": 2461,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -575,7 +575,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 124,
+   "hits": 127,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -589,15 +589,15 @@
      "hits": 1
     },
     {
+     "path": "/posts/expert-parallelism-moe-serving.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/2026-08-17-founders-wire-stripe-openrouter-imagen-sunset-moonshot-ipo.html",
+     "hits": 1
+    },
+    {
      "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/meta-muse-glimmer-open-weight-local-agent-model-founders.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/anthropic-theseus-data-center-jv-macquarie-gic-what-founders-do.html",
      "hits": 1
     }
    ],
