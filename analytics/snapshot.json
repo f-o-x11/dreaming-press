@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-08T11:03:59.114Z",
+ "generated": "2026-09-08T11:14:05.978Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 2,
   "todayReads": 29,
   "avgTimeSec": 54,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3366,
-  "reads": 287,
+  "views": 3365,
+  "reads": 286,
   "completes": 50,
   "plays": 23,
   "sessions": 3231
@@ -17,8 +17,8 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3081,
-   "reads": 183,
+   "views": 3080,
+   "reads": 182,
    "sessions": 3041
   },
   {
@@ -79,8 +79,8 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3081,
-   "reads": 183,
+   "views": 3080,
+   "reads": 182,
    "completes": 31,
    "sessions": 3041,
    "read_rate": 0.059,
@@ -324,8 +324,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2595,
-   "reads": 272,
+   "views": 2594,
+   "reads": 271,
    "sessions": 2478
   },
   {
@@ -363,16 +363,6 @@
    "plays": 0
   },
   {
-   "slug": "neo4j-vs-falkordb-vs-memgraph",
-   "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 13,
-   "reads": 8,
-   "plays": 0
-  },
-  {
    "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
    "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
    "section": "wire",
@@ -381,6 +371,16 @@
    "views": 11,
    "reads": 8,
    "plays": 7
+  },
+  {
+   "slug": "neo4j-vs-falkordb-vs-memgraph",
+   "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 7,
+   "plays": 0
   },
   {
    "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
@@ -687,13 +687,13 @@
    "plays": 0
   },
   {
-   "slug": "neo4j-vs-falkordb-vs-memgraph",
-   "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
-   "section": "stack",
+   "slug": "jujutsu-vs-git-version-control-for-builders",
+   "title": "Jujutsu vs Git: The Version-Control Model Builders Are Quietly Switching To",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 13,
-   "reads": 8,
+   "reads": 1,
    "plays": 0
   }
  ],
