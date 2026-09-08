@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-08T12:35:56.934Z",
+ "generated": "2026-09-08T12:45:59.796Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17031,
+ "verifiedAiHits": 17035,
  "logsScanned": 30,
  "windowStart": "2026-08-25",
  "windowEnd": "2026-09-08",
- "totalHits": 128838,
- "aiHits": 95996,
+ "totalHits": 128851,
+ "aiHits": 96003,
  "aiEngines": 17,
  "bots": [
   {
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 18275,
+   "hits": 18279,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15149,
+   "hits": 15152,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6332,
-   "verifiedHits": 6196,
+   "hits": 6334,
+   "verifiedHits": 6198,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3519,
-   "verifiedHits": 3438,
+   "hits": 3520,
+   "verifiedHits": 3439,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3098,
-   "verifiedHits": 2997,
+   "hits": 3101,
+   "verifiedHits": 3000,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
     {
      "path": "/",
-     "hits": 551
+     "hits": 552
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
