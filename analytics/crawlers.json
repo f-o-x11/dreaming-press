@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-08T16:49:06.835Z",
+ "generated": "2026-09-08T16:59:13.523Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17119,
+ "verifiedAiHits": 17167,
  "logsScanned": 30,
  "windowStart": "2026-08-25",
  "windowEnd": "2026-09-08",
- "totalHits": 130096,
- "aiHits": 96860,
+ "totalHits": 130186,
+ "aiHits": 96936,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36482,
+   "hits": 36501,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19762,
+   "hits": 19763,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 18542,
+   "hits": 18556,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15311,
+   "hits": 15319,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -146,29 +146,29 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 8462,
-   "verifiedHits": 8334,
+   "hits": 8510,
+   "verifiedHits": 8382,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 148
+     "hits": 149
     },
     {
      "path": "/",
-     "hits": 25
+     "hits": 26
     },
     {
      "path": "/dashboard",
      "hits": 13
     },
     {
-     "path": "/posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html",
+     "path": "/subscribe",
      "hits": 10
     },
     {
-     "path": "/posts/agent-memory-survey-2026.html",
+     "path": "/calculators/agent-cost",
      "hits": 10
     }
    ],
