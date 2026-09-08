@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-08T08:11Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-08T08:22Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3361 views → 278 engaged reads → 43 completes · 3241 sessions.
-- Channels: direct 177r/3084v · organic 44r/89v · referral 19r/67v · ai 19r/34v · campaign:chatgpt.com 15r/74v · campaign:copilot.com 2r/2v · campaign:perplexity 2r/2v · social 0r/8v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3363 views → 279 engaged reads → 45 completes · 3241 sessions.
+- Channels: direct 178r/3086v · organic 44r/89v · referral 19r/67v · ai 19r/34v · campaign:chatgpt.com 15r/74v · campaign:copilot.com 2r/2v · campaign:perplexity 2r/2v · social 0r/8v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 16r/79v · Doubao 9r/10v · Perplexity 5r/5v · Yuanbao 2r/2v · Copilot 2r/2v · DeepSeek 1r/4v · Grok 1r/3v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, l.instagram.com, google.com, doubao.com, duckduckgo.com, nav-cmp, 114.114.114.114:9421, perplexity.ai.
 - Engaged-read winners by section: stack=6, wire=9.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3084 views · read 5.7% · complete 1.0% · 1.01 pages/session · median 4s
+- direct: 3086 views · read 5.8% · complete 1.0% · 1.01 pages/session · median 4s
 - organic: 89 views · read 49.4% · complete 1.1% · 1.09 pages/session · median 4s
 - campaign:chatgpt.com: 74 views · read 20.3% · complete 1.4% · 1.03 pages/session · median ?s
 - referral: 67 views · read 28.4% · complete 3.0% · 1.06 pages/session · median ?s
@@ -41,14 +41,14 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 4 reads, 17 views, 1 listens
 - [wire] "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy" — 4 reads, 9 views, 0 listens
 - [wire] "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things" — 4 reads, 9 views, 0 listens
+- [wire] "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together" — 4 reads, 8 views, 5 listens
 - [wire] "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents" — 4 reads, 7 views, 0 listens
-- [wire] "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together" — 4 reads, 7 views, 4 listens
 - [stack] "LM Studio Bionic: A Private, Local Agent for Open Models — What It Is, Who It's For, How to Start" — 4 reads, 6 views, 0 listens
-- [wire] "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference" — 4 reads, 6 views, 0 listens
+- [wire] "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model" — 4 reads, 6 views, 4 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
-- [wire] "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together" — 4 listens, 4 reads
-- [wire] "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model" — 3 listens, 3 reads
+- [wire] "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together" — 5 listens, 4 reads
+- [wire] "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model" — 4 listens, 4 reads
 - [stack] "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet" — 2 listens, 13 reads
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 2 listens, 3 reads
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 1 listens, 4 reads
@@ -106,8 +106,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (8321 verified): /build ×148 · / ×24 · /dashboard ×13
-- OAI-SearchBot (3415 verified): /build ×33 · / ×21 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×17
-- ChatGPT-User (2957 verified): / ×545 · /posts/agent-funding-august-2026-control-won-the-summer.html ×146 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×97
+- OAI-SearchBot (3416 verified): /build ×33 · / ×21 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×17
+- ChatGPT-User (2958 verified): / ×545 · /posts/agent-funding-august-2026-control-won-the-summer.html ×146 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×97
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -155,7 +155,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16957 confirmed AI-engine fetches (Perplexity 8321, ChatGPT Search (OpenAI) 3415, ChatGPT (user browsing) 2957, GPTBot (OpenAI) 2264).
+The real answer engines are crawling us — IP-verified: 16959 confirmed AI-engine fetches (Perplexity 8321, ChatGPT Search (OpenAI) 3416, ChatGPT (user browsing) 2958, GPTBot (OpenAI) 2264).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 699 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 146 crawler fetches
