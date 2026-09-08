@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-08T10:53:52.468Z",
+ "generated": "2026-09-08T11:03:59.114Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
+  "readersNow": 5,
   "todayReads": 29,
   "avgTimeSec": 54,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3370,
-  "reads": 289,
+  "views": 3366,
+  "reads": 287,
   "completes": 50,
   "plays": 23,
-  "sessions": 3233
+  "sessions": 3231
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3085,
-   "reads": 185,
-   "sessions": 3043
+   "views": 3081,
+   "reads": 183,
+   "sessions": 3041
   },
   {
    "channel": "organic",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3085,
-   "reads": 185,
+   "views": 3081,
+   "reads": 183,
    "completes": 31,
-   "sessions": 3043,
-   "read_rate": 0.06,
+   "sessions": 3041,
+   "read_rate": 0.059,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
    "median_dwell_sec": 4
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2599,
-   "reads": 274,
-   "sessions": 2480
+   "views": 2595,
+   "reads": 272,
+   "sessions": 2478
   },
   {
    "device": "mobile",
@@ -368,8 +368,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 17,
-   "reads": 10,
+   "views": 13,
+   "reads": 8,
    "plays": 0
   },
   {
@@ -657,16 +657,6 @@
    "plays": 1
   },
   {
-   "slug": "neo4j-vs-falkordb-vs-memgraph",
-   "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 17,
-   "reads": 10,
-   "plays": 0
-  },
-  {
    "slug": "how-to-manage-context-in-a-long-running-agent",
    "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
    "section": "wire",
@@ -694,6 +684,16 @@
    "author": "wire-desk",
    "views": 14,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "neo4j-vs-falkordb-vs-memgraph",
+   "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 13,
+   "reads": 8,
    "plays": 0
   }
  ],
