@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-08T09:12:31.171Z",
+ "generated": "2026-09-08T09:22:34.331Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16964,
+ "verifiedAiHits": 16972,
  "logsScanned": 30,
  "windowStart": "2026-08-25",
  "windowEnd": "2026-09-08",
- "totalHits": 127997,
- "aiHits": 95403,
+ "totalHits": 128079,
+ "aiHits": 95455,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35968,
+   "hits": 35981,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19519,
+   "hits": 19548,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -65,11 +65,11 @@
      "hits": 14
     },
     {
-     "path": "/tags/opinionated",
+     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
      "hits": 8
     },
     {
-     "path": "/apps",
+     "path": "/tags/opinionated",
      "hits": 8
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 18169,
+   "hits": 18182,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15021,
+   "hits": 15023,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -131,11 +131,11 @@
      "hits": 13
     },
     {
-     "path": "/stack/lmnt",
+     "path": "/tags/howto",
      "hits": 11
     },
     {
-     "path": "/stack/pgvector",
+     "path": "/stack/lmnt",
      "hits": 11
     }
    ],
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6239,
-   "verifiedHits": 6103,
+   "hits": 6244,
+   "verifiedHits": 6108,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3499,
-   "verifiedHits": 3418,
+   "hits": 3503,
+   "verifiedHits": 3422,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3208,
+   "hits": 3216,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3062,
-   "verifiedHits": 2961,
+   "hits": 3066,
+   "verifiedHits": 2965,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
@@ -326,7 +326,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 97
+     "hits": 99
     },
     {
      "path": "/posts/ai-coding-agent-ranking-2026.html",
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2548,
+   "hits": 2551,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 750,
+   "hits": 751,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
