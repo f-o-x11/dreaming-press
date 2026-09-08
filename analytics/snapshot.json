@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-08T07:01:06.679Z",
+ "generated": "2026-09-08T07:11:16.716Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 4,
   "avgTimeSec": 8,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3350,
-  "reads": 269,
+  "views": 3345,
+  "reads": 268,
   "completes": 36,
   "plays": 8,
-  "sessions": 3239
+  "sessions": 3234
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3071,
+   "views": 3067,
    "reads": 167,
-   "sessions": 3049
+   "sessions": 3045
   },
   {
    "channel": "organic",
-   "views": 90,
-   "reads": 45,
-   "sessions": 83
+   "views": 89,
+   "reads": 44,
+   "sessions": 82
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3071,
+   "views": 3067,
    "reads": 167,
    "completes": 31,
-   "sessions": 3049,
+   "sessions": 3045,
    "read_rate": 0.054,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -90,13 +90,13 @@
   },
   {
    "channel": "organic",
-   "views": 90,
-   "reads": 45,
+   "views": 89,
+   "reads": 44,
    "completes": 1,
-   "sessions": 83,
-   "read_rate": 0.5,
+   "sessions": 82,
+   "read_rate": 0.494,
    "complete_rate": 0.011,
-   "pages_per_session": 1.08,
+   "pages_per_session": 1.09,
    "median_dwell_sec": 4
   },
   {
@@ -324,15 +324,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2572,
-   "reads": 254,
-   "sessions": 2479
+   "views": 2569,
+   "reads": 253,
+   "sessions": 2476
   },
   {
    "device": "mobile",
-   "views": 777,
+   "views": 775,
    "reads": 14,
-   "sessions": 759
+   "sessions": 757
   },
   {
    "device": "tablet",
@@ -373,16 +373,6 @@
    "plays": 0
   },
   {
-   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
-   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-22-mcp-authorization-oauth",
    "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
    "section": "wire",
@@ -399,6 +389,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 9,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
+   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
    "reads": 4,
    "plays": 0
   },
@@ -575,21 +575,21 @@
    "plays": 0
   },
   {
-   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
-   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-22-mcp-authorization-oauth",
    "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
+   "views": 9,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
+   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
    "views": 9,
    "reads": 4,
    "plays": 0
@@ -817,8 +817,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 34,
-   "sessions": 18
+   "hits": 32,
+   "sessions": 17
   },
   {
    "ref": "https://l.instagram.com/",
