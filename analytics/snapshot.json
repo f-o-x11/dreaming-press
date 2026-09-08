@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-08T08:01:56.212Z",
+ "generated": "2026-09-08T08:11:56.323Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 11,
-  "todayReads": 12,
-  "avgTimeSec": 14,
+  "readersNow": 12,
+  "todayReads": 14,
+  "avgTimeSec": 13,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3357,
-  "reads": 276,
-  "completes": 41,
-  "plays": 14,
-  "sessions": 3239
+  "views": 3361,
+  "reads": 278,
+  "completes": 43,
+  "plays": 16,
+  "sessions": 3241
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3080,
-   "reads": 175,
-   "sessions": 3051
+   "views": 3084,
+   "reads": 177,
+   "sessions": 3053
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3080,
-   "reads": 175,
+   "views": 3084,
+   "reads": 177,
    "completes": 31,
-   "sessions": 3051,
+   "sessions": 3053,
    "read_rate": 0.057,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -324,15 +324,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2581,
-   "reads": 261,
-   "sessions": 2481
+   "views": 2584,
+   "reads": 263,
+   "sessions": 2482
   },
   {
    "device": "mobile",
-   "views": 775,
+   "views": 776,
    "reads": 14,
-   "sessions": 757
+   "sessions": 758
   },
   {
    "device": "tablet",
@@ -413,6 +413,16 @@
    "plays": 0
   },
   {
+   "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
+   "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 7,
+   "reads": 4,
+   "plays": 4
+  },
+  {
    "slug": "lm-studio-bionic-local-agent-open-models",
    "title": "LM Studio Bionic: A Private, Local Agent for Open Models — What It Is, Who It's For, How to Start",
    "section": "stack",
@@ -448,7 +458,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 18,
+   "views": 19,
    "reads": 3,
    "plays": 0
   },
@@ -481,16 +491,6 @@
    "views": 8,
    "reads": 3,
    "plays": 0
-  },
-  {
-   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
-   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 8,
-   "reads": 3,
-   "plays": 0
   }
  ],
  "topListens": [
@@ -500,7 +500,17 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 6,
+   "views": 7,
+   "reads": 4,
+   "plays": 4
+  },
+  {
+   "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
+   "title": "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 5,
    "reads": 3,
    "plays": 3
   },
@@ -522,16 +532,6 @@
    "author": "priya",
    "views": 10,
    "reads": 3,
-   "plays": 2
-  },
-  {
-   "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
-   "title": "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 4,
-   "reads": 2,
    "plays": 2
   },
   {
@@ -652,7 +652,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 18,
+   "views": 19,
    "reads": 3,
    "plays": 0
   },
