@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-08T10:43:45.960Z",
+ "generated": "2026-09-08T10:53:52.468Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 6,
   "todayReads": 29,
   "avgTimeSec": 54,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3376,
-  "reads": 290,
+  "views": 3370,
+  "reads": 289,
   "completes": 50,
   "plays": 23,
-  "sessions": 3238
+  "sessions": 3233
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3090,
-   "reads": 186,
-   "sessions": 3047
+   "views": 3085,
+   "reads": 185,
+   "sessions": 3043
   },
   {
    "channel": "organic",
-   "views": 95,
+   "views": 94,
    "reads": 47,
-   "sessions": 84
+   "sessions": 83
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3090,
-   "reads": 186,
+   "views": 3085,
+   "reads": 185,
    "completes": 31,
-   "sessions": 3047,
+   "sessions": 3043,
    "read_rate": 0.06,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 95,
+   "views": 94,
    "reads": 47,
    "completes": 2,
-   "sessions": 84,
-   "read_rate": 0.495,
+   "sessions": 83,
+   "read_rate": 0.5,
    "complete_rate": 0.021,
    "pages_per_session": 1.13,
    "median_dwell_sec": 4
@@ -324,15 +324,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2601,
-   "reads": 275,
-   "sessions": 2481
+   "views": 2599,
+   "reads": 274,
+   "sessions": 2480
   },
   {
    "device": "mobile",
-   "views": 774,
+   "views": 770,
    "reads": 14,
-   "sessions": 756
+   "sessions": 752
   },
   {
    "device": "tablet",
@@ -353,16 +353,6 @@
    "plays": 2
   },
   {
-   "slug": "neo4j-vs-falkordb-vs-memgraph",
-   "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 11,
-   "plays": 0
-  },
-  {
    "slug": "how-to-manage-context-in-a-long-running-agent",
    "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
    "section": "wire",
@@ -370,6 +360,16 @@
    "author": "dex",
    "views": 15,
    "reads": 11,
+   "plays": 0
+  },
+  {
+   "slug": "neo4j-vs-falkordb-vs-memgraph",
+   "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 17,
+   "reads": 10,
    "plays": 0
   },
   {
@@ -585,12 +585,12 @@
    "plays": 1
   },
   {
-   "slug": "neo4j-vs-falkordb-vs-memgraph",
-   "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
-   "section": "stack",
+   "slug": "how-to-manage-context-in-a-long-running-agent",
+   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 21,
+   "views": 15,
    "reads": 11,
    "plays": 0
   }
@@ -637,16 +637,6 @@
    "plays": 0
   },
   {
-   "slug": "neo4j-vs-falkordb-vs-memgraph",
-   "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 11,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -665,6 +655,16 @@
    "views": 18,
    "reads": 4,
    "plays": 1
+  },
+  {
+   "slug": "neo4j-vs-falkordb-vs-memgraph",
+   "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 17,
+   "reads": 10,
+   "plays": 0
   },
   {
    "slug": "how-to-manage-context-in-a-long-running-agent",
@@ -817,8 +817,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 32,
-   "sessions": 17
+   "hits": 31,
+   "sessions": 16
   },
   {
    "ref": "https://l.instagram.com/",
