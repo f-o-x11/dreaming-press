@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-08T12:04:56.836Z",
+ "generated": "2026-09-08T12:15:16.545Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 2,
   "todayReads": 29,
-  "avgTimeSec": 54,
+  "avgTimeSec": 52,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3364,
+  "views": 3361,
   "reads": 285,
   "completes": 49,
   "plays": 23,
-  "sessions": 3230
+  "sessions": 3227
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3079,
+   "views": 3076,
    "reads": 181,
-   "sessions": 3040
+   "sessions": 3037
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3079,
+   "views": 3076,
    "reads": 181,
    "completes": 30,
-   "sessions": 3040,
+   "sessions": 3037,
    "read_rate": 0.059,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2592,
+   "views": 2589,
    "reads": 270,
-   "sessions": 2476
+   "sessions": 2473
   },
   {
    "device": "mobile",
@@ -657,6 +657,16 @@
    "plays": 1
   },
   {
+   "slug": "2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe",
+   "title": "The Founder's Wire, September 4: A 'Firewall for Agents' Raises $50M, HiddenLayer Takes $100M a Day Later, and Crusoe Hits $30B for the Compute Underneath",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 16,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "how-to-manage-context-in-a-long-running-agent",
    "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
    "section": "wire",
@@ -664,16 +674,6 @@
    "author": "dex",
    "views": 15,
    "reads": 11,
-   "plays": 0
-  },
-  {
-   "slug": "2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe",
-   "title": "The Founder's Wire, September 4: A 'Firewall for Agents' Raises $50M, HiddenLayer Takes $100M a Day Later, and Crusoe Hits $30B for the Compute Underneath",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 15,
-   "reads": 2,
    "plays": 0
   },
   {
