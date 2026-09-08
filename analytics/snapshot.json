@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-08T07:21:26.767Z",
+ "generated": "2026-09-08T07:31:33.218Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 4,
-  "avgTimeSec": 8,
+  "readersNow": 6,
+  "todayReads": 5,
+  "avgTimeSec": 15,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3345,
-  "reads": 268,
+  "views": 3349,
+  "reads": 269,
   "completes": 36,
-  "plays": 8,
-  "sessions": 3234
+  "plays": 9,
+  "sessions": 3238
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3067,
-   "reads": 167,
-   "sessions": 3045
+   "views": 3071,
+   "reads": 168,
+   "sessions": 3049
   },
   {
    "channel": "organic",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3067,
-   "reads": 167,
+   "views": 3071,
+   "reads": 168,
    "completes": 31,
-   "sessions": 3045,
-   "read_rate": 0.054,
+   "sessions": 3049,
+   "read_rate": 0.055,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
    "median_dwell_sec": 4
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2569,
-   "reads": 253,
-   "sessions": 2476
+   "views": 2573,
+   "reads": 254,
+   "sessions": 2480
   },
   {
    "device": "mobile",
@@ -371,6 +371,16 @@
    "views": 15,
    "reads": 11,
    "plays": 0
+  },
+  {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 17,
+   "reads": 4,
+   "plays": 1
   },
   {
    "slug": "2026-06-22-mcp-authorization-oauth",
@@ -443,16 +453,6 @@
    "plays": 0
   },
   {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 16,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "gartner-ai-agent-spending-2026",
    "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
    "section": "wire",
@@ -513,6 +513,16 @@
    "views": 10,
    "reads": 3,
    "plays": 2
+  },
+  {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 17,
+   "reads": 4,
+   "plays": 1
   },
   {
    "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
@@ -580,16 +590,6 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 9,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
-   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
    "views": 9,
    "reads": 4,
    "plays": 0
@@ -662,9 +662,9 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 16,
-   "reads": 3,
-   "plays": 0
+   "views": 17,
+   "reads": 4,
+   "plays": 1
   },
   {
    "slug": "how-to-manage-context-in-a-long-running-agent",
