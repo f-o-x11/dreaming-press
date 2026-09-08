@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-08T07:41:42.584Z",
+ "generated": "2026-09-08T07:51:49.503Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 7,
+  "readersNow": 1,
+  "todayReads": 9,
   "avgTimeSec": 15,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3352,
-  "reads": 271,
-  "completes": 38,
-  "plays": 11,
-  "sessions": 3239
+  "views": 3349,
+  "reads": 273,
+  "completes": 40,
+  "plays": 13,
+  "sessions": 3234
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3074,
-   "reads": 170,
-   "sessions": 3050
+   "views": 3072,
+   "reads": 172,
+   "sessions": 3046
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 74,
+   "views": 73,
    "reads": 15,
-   "sessions": 72
+   "sessions": 71
   },
   {
    "channel": "campaign:copilot.com",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3074,
-   "reads": 170,
+   "views": 3072,
+   "reads": 172,
    "completes": 31,
-   "sessions": 3050,
-   "read_rate": 0.055,
+   "sessions": 3046,
+   "read_rate": 0.056,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
    "median_dwell_sec": 4
@@ -101,11 +101,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 74,
+   "views": 73,
    "reads": 15,
    "completes": 1,
-   "sessions": 72,
-   "read_rate": 0.203,
+   "sessions": 71,
+   "read_rate": 0.205,
    "complete_rate": 0.014,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 79,
+   "views": 78,
    "reads": 16,
-   "sessions": 73
+   "sessions": 72
   },
   {
    "assistant": "Doubao",
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2576,
-   "reads": 256,
-   "sessions": 2481
+   "views": 2573,
+   "reads": 258,
+   "sessions": 2476
   },
   {
    "device": "mobile",
@@ -403,16 +403,6 @@
    "plays": 0
   },
   {
-   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
-   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
    "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
    "section": "wire",
@@ -428,6 +418,16 @@
    "section": "stack",
    "tags": "[\"reportive\",\"captivating\"]",
    "author": "rosalinda",
+   "views": 6,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
+   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
    "views": 6,
    "reads": 4,
    "plays": 0
@@ -515,6 +515,26 @@
    "plays": 2
   },
   {
+   "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
+   "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 5,
+   "reads": 2,
+   "plays": 2
+  },
+  {
+   "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
+   "title": "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 2,
+   "reads": 2,
+   "plays": 2
+  },
+  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
@@ -545,32 +565,12 @@
    "plays": 1
   },
   {
-   "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
-   "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 4,
-   "reads": 1,
-   "plays": 1
-  },
-  {
    "slug": "verl-vs-openrlhf-vs-trl",
    "title": "verl vs OpenRLHF vs TRL: Choosing an RL Post-Training Framework in 2026",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 2,
-   "reads": 1,
-   "plays": 1
-  },
-  {
-   "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
-   "title": "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 1,
    "reads": 1,
    "plays": 1
   },
@@ -602,7 +602,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 59,
+   "views": 58,
    "reads": 0,
    "plays": 0
   },

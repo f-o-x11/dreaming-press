@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-08T07:41:41.880Z",
+ "generated": "2026-09-08T07:51:48.972Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16938,
+ "verifiedAiHits": 16941,
  "logsScanned": 30,
  "windowStart": "2026-08-25",
  "windowEnd": "2026-09-08",
- "totalHits": 127466,
- "aiHits": 95035,
+ "totalHits": 127511,
+ "aiHits": 95071,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35801,
+   "hits": 35822,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 18112,
+   "hits": 18118,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14956,
+   "hits": 14963,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6208,
-   "verifiedHits": 6072,
+   "hits": 6211,
+   "verifiedHits": 6075,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3049,
-   "verifiedHits": 2948,
+   "hits": 3052,
+   "verifiedHits": 2951,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 483,
+   "hits": 488,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -531,7 +531,7 @@
      "hits": 7
     },
     {
-     "path": "/posts/open-models-in-claude-code-anthropic-compatible-endpoint.html",
+     "path": "/posts/2026-06-23-late-chunking-vs-contextual-retrieval.html",
      "hits": 7
     }
    ],
