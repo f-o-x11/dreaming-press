@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-08T18:30:06.383Z",
+ "generated": "2026-09-08T18:40:16.098Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17234,
+ "verifiedAiHits": 17243,
  "logsScanned": 30,
  "windowStart": "2026-08-25",
  "windowEnd": "2026-09-08",
- "totalHits": 130612,
- "aiHits": 97237,
+ "totalHits": 130672,
+ "aiHits": 97286,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36587,
+   "hits": 36593,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19781,
+   "hits": 19787,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 18649,
+   "hits": 18659,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15384,
+   "hits": 15395,
    "verifiedHits": 0,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6412,
-   "verifiedHits": 6276,
+   "hits": 6413,
+   "verifiedHits": 6277,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3593,
-   "verifiedHits": 3489,
+   "hits": 3600,
+   "verifiedHits": 3496,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
@@ -256,7 +256,7 @@
     },
     {
      "path": "/",
-     "hits": 21
+     "hits": 22
     },
     {
      "path": "/posts/cheapest-terminal-coding-agent-august-2026-free-floor.html",
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3194,
-   "verifiedHits": 3067,
+   "hits": 3196,
+   "verifiedHits": 3069,
    "firstSeen": "2026-08-25",
    "lastSeen": "2026-09-08",
    "topPaths": [
     {
      "path": "/",
-     "hits": 561
+     "hits": 562
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -542,7 +542,7 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 294,
+   "hits": 311,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-08",
@@ -556,16 +556,16 @@
      "hits": 2
     },
     {
+     "path": "/posts/2026-08-25-founders-wire-nvidia-price-hike-hugging-face-sale-groq-lpx.html",
+     "hits": 2
+    },
+    {
      "path": "/global-tech-news",
      "hits": 2
     },
     {
      "path": "/",
      "hits": 2
-    },
-    {
-     "path": "/posts/neo4j-vs-falkordb-vs-memgraph.html",
-     "hits": 1
     }
    ],
    "verifiable": false
