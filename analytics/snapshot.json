@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-08T07:31:33.218Z",
+ "generated": "2026-09-08T07:41:42.584Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
-  "todayReads": 5,
+  "readersNow": 2,
+  "todayReads": 7,
   "avgTimeSec": 15,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3349,
-  "reads": 269,
-  "completes": 36,
-  "plays": 9,
-  "sessions": 3238
+  "views": 3352,
+  "reads": 271,
+  "completes": 38,
+  "plays": 11,
+  "sessions": 3239
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3071,
-   "reads": 168,
-   "sessions": 3049
+   "views": 3074,
+   "reads": 170,
+   "sessions": 3050
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3071,
-   "reads": 168,
+   "views": 3074,
+   "reads": 170,
    "completes": 31,
-   "sessions": 3049,
+   "sessions": 3050,
    "read_rate": 0.055,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2573,
-   "reads": 254,
-   "sessions": 2480
+   "views": 2576,
+   "reads": 256,
+   "sessions": 2481
   },
   {
    "device": "mobile",
@@ -545,12 +545,32 @@
    "plays": 1
   },
   {
+   "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
+   "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 4,
+   "reads": 1,
+   "plays": 1
+  },
+  {
    "slug": "verl-vs-openrlhf-vs-trl",
    "title": "verl vs OpenRLHF vs TRL: Choosing an RL Post-Training Framework in 2026",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 2,
+   "reads": 1,
+   "plays": 1
+  },
+  {
+   "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
+   "title": "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 1,
    "reads": 1,
    "plays": 1
   },
@@ -572,26 +592,6 @@
    "author": "dex",
    "views": 25,
    "reads": 13,
-   "plays": 0
-  },
-  {
-   "slug": "how-to-manage-context-in-a-long-running-agent",
-   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 11,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-22-mcp-authorization-oauth",
-   "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 9,
-   "reads": 4,
    "plays": 0
   }
  ],
