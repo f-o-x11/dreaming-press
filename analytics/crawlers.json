@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-09T08:53:00.431Z",
+ "generated": "2026-09-09T09:03:05.960Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17412,
+ "verifiedAiHits": 17416,
  "logsScanned": 30,
  "windowStart": "2026-08-26",
  "windowEnd": "2026-09-09",
- "totalHits": 128669,
- "aiHits": 95556,
+ "totalHits": 128707,
+ "aiHits": 95590,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35908,
+   "hits": 35927,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 19408,
+   "hits": 19410,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14970,
+   "hits": 14977,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6019,
-   "verifiedHits": 5882,
+   "hits": 6020,
+   "verifiedHits": 5883,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5175,
+   "hits": 5178,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -226,15 +226,15 @@
      "hits": 3
     },
     {
+     "path": "/posts/build-cost-aware-model-router-for-your-agent.html",
+     "hits": 2
+    },
+    {
      "path": "/compare",
      "hits": 2
     },
     {
      "path": "/terraform.tfstate",
-     "hits": 2
-    },
-    {
-     "path": "/posts/how-to-add-hybrid-search-to-lancedb.html",
      "hits": 2
     }
    ],
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3548,
-   "verifiedHits": 3444,
+   "hits": 3550,
+   "verifiedHits": 3446,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
    "topPaths": [
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3085,
-   "verifiedHits": 2957,
+   "hits": 3087,
+   "verifiedHits": 2959,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
    "topPaths": [
     {
      "path": "/",
-     "hits": 548
+     "hits": 549
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2412,
+   "hits": 2413,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -575,7 +575,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 179,
+   "hits": 180,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-09",
@@ -597,7 +597,7 @@
      "hits": 1
     },
     {
-     "path": "/posts/why-llms-are-not-reproducible-at-temperature-0.html",
+     "path": "/posts/best-chunking-strategy-for-rag.html",
      "hits": 1
     }
    ],
