@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-09T03:08Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-09T03:18Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -107,7 +107,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (8668 verified): /build ×150 · / ×25 · /dashboard ×15
-- OAI-SearchBot (3411 verified): /build ×28 · / ×22 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×19
+- OAI-SearchBot (3412 verified): /build ×28 · / ×22 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×19
 - ChatGPT-User (2906 verified): / ×539 · /posts/agent-funding-august-2026-control-won-the-summer.html ×129 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×88
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -136,7 +136,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (111h old, 270 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17249 confirmed AI-engine fetches (Perplexity 8668, ChatGPT Search (OpenAI) 3411, ChatGPT (user browsing) 2906, GPTBot (OpenAI) 2264).
+The real answer engines are crawling us — IP-verified: 17250 confirmed AI-engine fetches (Perplexity 8668, ChatGPT Search (OpenAI) 3412, ChatGPT (user browsing) 2906, GPTBot (OpenAI) 2264).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 665 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 129 crawler fetches
