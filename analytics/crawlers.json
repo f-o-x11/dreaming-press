@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-09T15:28:29.029Z",
+ "generated": "2026-09-09T15:38:36.170Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17826,
+ "verifiedAiHits": 17830,
  "logsScanned": 30,
  "windowStart": "2026-08-26",
  "windowEnd": "2026-09-09",
- "totalHits": 130980,
- "aiHits": 97411,
+ "totalHits": 131035,
+ "aiHits": 97448,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36839,
+   "hits": 36851,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 19619,
+   "hits": 19632,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15276,
+   "hits": 15284,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6113,
-   "verifiedHits": 5976,
+   "hits": 6118,
+   "verifiedHits": 5981,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5252,
+   "hits": 5253,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3157,
-   "verifiedHits": 3029,
+   "hits": 3161,
+   "verifiedHits": 3033,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
    "topPaths": [
     {
      "path": "/",
-     "hits": 560
+     "hits": 561
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -443,11 +443,15 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 1291,
+   "hits": 1303,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
    "topPaths": [
+    {
+     "path": "/posts/2026-09-03-founders-wire-gemini-38-flash-build-vs-buy-agent-reliability-wonderful.html",
+     "hits": 2
+    },
     {
      "path": "/posts/2026-09-02-founders-wire-fable-51-openai-cursor-cutoff-anthropic-lambda-35b.md",
      "hits": 2
@@ -462,10 +466,6 @@
     },
     {
      "path": "/posts/2026-08-29-founders-wire-anthropic-pentagon-win-gemini-transcribe-nvidia-huggingface.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-08-28-founders-wire-ai-cyber-defense-microduck-vertical-agents.html",
      "hits": 2
     }
    ],

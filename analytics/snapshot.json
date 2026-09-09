@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-09T15:28:29.639Z",
+ "generated": "2026-09-09T15:38:36.786Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 15,
+  "readersNow": 1,
+  "todayReads": 16,
   "avgTimeSec": 13,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3279,
-  "reads": 288,
+  "views": 3275,
+  "reads": 289,
   "completes": 50,
-  "plays": 24,
-  "sessions": 3141
+  "plays": 25,
+  "sessions": 3137
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2994,
-   "reads": 179,
-   "sessions": 2952
+   "views": 2990,
+   "reads": 180,
+   "sessions": 2948
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2994,
-   "reads": 179,
+   "views": 2990,
+   "reads": 180,
    "completes": 29,
-   "sessions": 2952,
+   "sessions": 2948,
    "read_rate": 0.06,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2518,
-   "reads": 272,
-   "sessions": 2398
+   "views": 2514,
+   "reads": 273,
+   "sessions": 2394
   },
   {
    "device": "mobile",
@@ -358,9 +358,9 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 16,
-   "reads": 11,
-   "plays": 0
+   "views": 17,
+   "reads": 12,
+   "plays": 1
   },
   {
    "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
@@ -535,6 +535,16 @@
    "plays": 2
   },
   {
+   "slug": "how-to-manage-context-in-a-long-running-agent",
+   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 17,
+   "reads": 12,
+   "plays": 1
+  },
+  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
@@ -582,16 +592,6 @@
    "author": "dex",
    "views": 2,
    "reads": 1,
-   "plays": 1
-  },
-  {
-   "slug": "2026-08-28-founders-wire-ai-cyber-defense-microduck-vertical-agents",
-   "title": "The Founder's Wire, August 28: 116 Companies Warn AI Cyberattacks Are About to Surge, Hugging Face Ships a $399 Open-Source Robot, and the Vertical-Agent Money Keeps Pouring In",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 6,
-   "reads": 0,
    "plays": 1
   }
  ],
@@ -642,9 +642,9 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 16,
-   "reads": 11,
-   "plays": 0
+   "views": 17,
+   "reads": 12,
+   "plays": 1
   },
   {
    "slug": "2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe",
@@ -667,16 +667,6 @@
    "plays": 1
   },
   {
-   "slug": "china-persona-law-took-effect-what-founders-do",
-   "title": "China's AI Persona Law Landed July 15 — Doubao and Qwen Killed Their Companions. Here's What Founders on Chinese APIs Actually Do Now",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\",\"china\",\"regulation\",\"ai-agents\"]",
-   "author": "wire-desk",
-   "views": 15,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -684,6 +674,16 @@
    "author": "dex",
    "views": 14,
    "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "china-persona-law-took-effect-what-founders-do",
+   "title": "China's AI Persona Law Landed July 15 — Doubao and Qwen Killed Their Companions. Here's What Founders on Chinese APIs Actually Do Now",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\",\"china\",\"regulation\",\"ai-agents\"]",
+   "author": "wire-desk",
+   "views": 14,
+   "reads": 0,
    "plays": 0
   },
   {
@@ -700,9 +700,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 374,
+   "views": 373,
    "reads": 0,
-   "sessions": 370,
+   "sessions": 369,
    "avg_dwell_sec": 4
   },
   {
