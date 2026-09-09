@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-09T18:00:16.023Z",
+ "generated": "2026-09-09T18:10:16.025Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17969,
+ "verifiedAiHits": 17992,
  "logsScanned": 30,
  "windowStart": "2026-08-26",
  "windowEnd": "2026-09-09",
- "totalHits": 131819,
- "aiHits": 97981,
+ "totalHits": 131865,
+ "aiHits": 98014,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37043,
+   "hits": 37046,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -37,7 +37,7 @@
     },
     {
      "path": "/posts/china-persona-law-took-effect-what-founders-do.html",
-     "hits": 14
+     "hits": 15
     }
    ],
    "verifiable": false
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 19796,
+   "hits": 19809,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15387,
+   "hits": 15394,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 9252,
-   "verifiedHits": 9124,
+   "hits": 9274,
+   "verifiedHits": 9146,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
    "topPaths": [
@@ -161,14 +161,14 @@
     },
     {
      "path": "/dashboard",
-     "hits": 15
+     "hits": 16
     },
     {
-     "path": "/calculators/agent-cost",
+     "path": "/agents.html",
      "hits": 12
     },
     {
-     "path": "/tags/reportive",
+     "path": "/calculators/agent-cost",
      "hits": 12
     }
    ],
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3186,
-   "verifiedHits": 3058,
+   "hits": 3187,
+   "verifiedHits": 3059,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
    "topPaths": [
