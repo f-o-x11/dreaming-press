@@ -1,58 +1,58 @@
 {
- "generated": "2026-09-09T11:46:27.593Z",
+ "generated": "2026-09-09T23:36:43.140Z",
  "window_days": 14,
  "log_window": "2026-08-26 → 2026-09-09",
  "totals": {
-  "verified_fetches": 17506,
-  "retrieval_fetches": 15241,
-  "index_fetches": 2265,
-  "referred_sessions": 83,
-  "retrieval_fetches_per_session": 184,
-  "click_through_pct": 0.545
+  "verified_fetches": 18083,
+  "retrieval_fetches": 15816,
+  "index_fetches": 2267,
+  "referred_sessions": 85,
+  "retrieval_fetches_per_session": 186,
+  "click_through_pct": 0.537
  },
  "engines": [
   {
    "engine": "Perplexity",
-   "verified_fetches": 8763,
-   "retrieval_fetches": 8763,
+   "verified_fetches": 9170,
+   "retrieval_fetches": 9170,
    "index_fetches": 0,
    "referred_sessions": 3,
    "referred_views": 4,
    "referred_reads": 4,
-   "fetches_per_session": 2921,
-   "click_through_pct": 0.034,
+   "fetches_per_session": 3057,
+   "click_through_pct": 0.033,
    "bots": [
     {
      "name": "PerplexityBot",
-     "verified": 8763,
+     "verified": 9170,
      "retrieval": true
     }
    ]
   },
   {
    "engine": "ChatGPT",
-   "verified_fetches": 8743,
-   "retrieval_fetches": 6478,
-   "index_fetches": 2265,
-   "referred_sessions": 80,
-   "referred_views": 86,
-   "referred_reads": 20,
+   "verified_fetches": 8913,
+   "retrieval_fetches": 6646,
+   "index_fetches": 2267,
+   "referred_sessions": 82,
+   "referred_views": 87,
+   "referred_reads": 22,
    "fetches_per_session": 81,
-   "click_through_pct": 1.235,
+   "click_through_pct": 1.234,
    "bots": [
     {
      "name": "OAI-SearchBot",
-     "verified": 3483,
+     "verified": 3523,
      "retrieval": true
     },
     {
      "name": "ChatGPT-User",
-     "verified": 2995,
+     "verified": 3123,
      "retrieval": true
     },
     {
      "name": "GPTBot",
-     "verified": 2265,
+     "verified": 2267,
      "retrieval": false
     }
    ]
