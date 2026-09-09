@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-09T13:47:16.016Z",
+ "generated": "2026-09-09T13:57:18.458Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17765,
+ "verifiedAiHits": 17769,
  "logsScanned": 30,
  "windowStart": "2026-08-26",
  "windowEnd": "2026-09-09",
- "totalHits": 130264,
- "aiHits": 96837,
+ "totalHits": 130339,
+ "aiHits": 96905,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36455,
+   "hits": 36490,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 19510,
+   "hits": 19512,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15194,
+   "hits": 15203,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6091,
-   "verifiedHits": 5954,
+   "hits": 6094,
+   "verifiedHits": 5957,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5238,
+   "hits": 5242,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3142,
-   "verifiedHits": 3014,
+   "hits": 3146,
+   "verifiedHits": 3018,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
    "topPaths": [
     {
      "path": "/",
-     "hits": 557
+     "hits": 558
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -410,8 +410,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1376,
-   "verifiedHits": 624,
+   "hits": 1378,
+   "verifiedHits": 626,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 1277,
+   "hits": 1291,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 565,
+   "hits": 567,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -527,11 +527,11 @@
      "hits": 11
     },
     {
-     "path": "/posts/2026-06-23-late-chunking-vs-contextual-retrieval.html",
+     "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
      "hits": 8
     },
     {
-     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
+     "path": "/posts/2026-06-23-late-chunking-vs-contextual-retrieval.html",
      "hits": 8
     }
    ],

@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-09T13:47:16.710Z",
+ "generated": "2026-09-09T13:57:19.154Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,18 +8,18 @@
  "topTerms": [
   {
    "term": "startup",
-   "count": 35
+   "count": 34
   },
   {
    "term": "agents",
    "count": 29
   },
   {
-   "term": "founder",
-   "count": 29
+   "term": "agentic",
+   "count": 28
   },
   {
-   "term": "agentic",
+   "term": "founder",
    "count": 28
   },
   {
@@ -32,7 +32,7 @@
   },
   {
    "term": "building",
-   "count": 19
+   "count": 17
   },
   {
    "term": "claude",
@@ -43,12 +43,12 @@
    "count": 12
   },
   {
-   "term": "agent",
+   "term": "co-founder",
    "count": 11
   },
   {
-   "term": "co-founder",
-   "count": 11
+   "term": "agent",
+   "count": 10
   },
   {
    "term": "have",
@@ -90,11 +90,11 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 8
+   "count": 9
   },
   {
    "term": "#startup",
-   "count": 8
+   "count": 9
   },
   {
    "term": "#buildinpublic",
@@ -102,7 +102,11 @@
   },
   {
    "term": "#agenticai",
-   "count": 2
+   "count": 3
+  },
+  {
+   "term": "#founder",
+   "count": 3
   },
   {
    "term": "#rag",
@@ -121,10 +125,6 @@
    "count": 2
   },
   {
-   "term": "#founder",
-   "count": 2
-  },
-  {
    "term": "#agents",
    "count": 1
   },
@@ -138,6 +138,12 @@
   }
  ],
  "topPosts": [
+  {
+   "text": "AI Engineering — Ultimate Roadmap (SAVE THIS)! ├── 01. LLM Fundamentals │ ├── Transformers &amp; Attention │ ├── Inference &amp; Decoding │ ├── Tokenization │ └── Context Window &amp; Limits │ ├── 02. Prompting &amp; Con",
+   "engagement": 1008,
+   "url": "https://x.com/i/status/2097389489408594192",
+   "created": "2026-09-08T18:19:56.000Z"
+  },
   {
    "text": "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de",
    "engagement": 968,
@@ -167,12 +173,6 @@
    "engagement": 292,
    "url": "https://x.com/i/status/2095772366768869820",
    "created": "2026-09-04T07:14:04.000Z"
-  },
-  {
-   "text": "Robinhood Chain is getting close to $1B in TVL, and @virtuals_io had already reported 5.6K+ AI agent launches there in August. That got me looking a bit closer at the AI infrastructure being built on Robinhood. A few pro",
-   "engagement": 236,
-   "url": "https://x.com/i/status/2097048262238945552",
-   "created": "2026-09-07T19:44:01.000Z"
   },
   {
    "text": "Here's why I think DaVinci Resolve 21.1 is a HUGE update for agentic video editing. https://t.co/yXtwS4ICZB",

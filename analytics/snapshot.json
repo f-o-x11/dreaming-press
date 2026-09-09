@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-09T13:47:16.763Z",
+ "generated": "2026-09-09T13:57:19.202Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 14,
+  "readersNow": 5,
+  "todayReads": 15,
   "avgTimeSec": 14,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3297,
+  "views": 3299,
   "reads": 290,
-  "completes": 51,
+  "completes": 50,
   "plays": 24,
-  "sessions": 3159
+  "sessions": 3161
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3012,
-   "reads": 182,
-   "sessions": 2970
+   "views": 3013,
+   "reads": 181,
+   "sessions": 2971
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 81,
-   "reads": 20,
-   "sessions": 79
+   "views": 82,
+   "reads": 21,
+   "sessions": 80
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3012,
-   "reads": 182,
-   "completes": 30,
-   "sessions": 2970,
+   "views": 3013,
+   "reads": 181,
+   "completes": 29,
+   "sessions": 2971,
    "read_rate": 0.06,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -101,13 +101,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 81,
-   "reads": 20,
+   "views": 82,
+   "reads": 21,
    "completes": 3,
-   "sessions": 79,
-   "read_rate": 0.247,
+   "sessions": 80,
+   "read_rate": 0.256,
    "complete_rate": 0.037,
-   "pages_per_session": 1.03,
+   "pages_per_session": 1.02,
    "median_dwell_sec": null
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 85,
-   "reads": 20,
-   "sessions": 80
+   "views": 86,
+   "reads": 21,
+   "sessions": 81
   },
   {
    "assistant": "Doubao",
@@ -330,9 +330,9 @@
   },
   {
    "device": "mobile",
-   "views": 762,
+   "views": 764,
    "reads": 15,
-   "sessions": 745
+   "sessions": 747
   },
   {
    "device": "tablet",
@@ -687,13 +687,13 @@
    "plays": 0
   },
   {
-   "slug": "jujutsu-vs-git-version-control-for-builders",
-   "title": "Jujutsu vs Git: The Version-Control Model Builders Are Quietly Switching To",
-   "section": "wire",
+   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
+   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 13,
-   "reads": 1,
+   "reads": 2,
    "plays": 0
   }
  ],
