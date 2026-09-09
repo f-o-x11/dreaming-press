@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-09T17:39:56.957Z",
+ "generated": "2026-09-09T17:50:06.900Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 36
+   "count": 37
   },
   {
    "term": "startup",
@@ -24,7 +24,7 @@
   },
   {
    "term": "build",
-   "count": 27
+   "count": 25
   },
   {
    "term": "building",
@@ -44,15 +44,11 @@
   },
   {
    "term": "code",
-   "count": 11
+   "count": 12
   },
   {
    "term": "have",
    "count": 10
-  },
-  {
-   "term": "coding",
-   "count": 9
   },
   {
    "term": "autonomous",
@@ -64,6 +60,10 @@
   },
   {
    "term": "own",
+   "count": 8
+  },
+  {
+   "term": "coding",
    "count": 8
   },
   {
