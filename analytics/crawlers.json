@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-09T08:42:53.753Z",
+ "generated": "2026-09-09T08:53:00.431Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17411,
+ "verifiedAiHits": 17412,
  "logsScanned": 30,
  "windowStart": "2026-08-26",
  "windowEnd": "2026-09-09",
- "totalHits": 128609,
- "aiHits": 95505,
+ "totalHits": 128669,
+ "aiHits": 95556,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35892,
+   "hits": 35908,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 19402,
+   "hits": 19408,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19058,
+   "hits": 19082,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -113,25 +113,25 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14962,
+   "hits": 14970,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
    "topPaths": [
     {
+     "path": "/tags/reportive",
+     "hits": 14
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 13
+    },
+    {
      "path": "/stack.html",
      "hits": 13
     },
     {
-     "path": "/tags/reportive",
-     "hits": 13
-    },
-    {
      "path": "/tags/howto",
-     "hits": 12
-    },
-    {
-     "path": "/tags/opinionated",
      "hits": 12
     },
     {
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6017,
-   "verifiedHits": 5880,
+   "hits": 6019,
+   "verifiedHits": 5882,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3084,
-   "verifiedHits": 2956,
+   "hits": 3085,
+   "verifiedHits": 2957,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2411,
+   "hits": 2412,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 552,
+   "hits": 553,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -575,7 +575,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 178,
+   "hits": 179,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-09",
@@ -585,15 +585,15 @@
      "hits": 3
     },
     {
+     "path": "/posts/contextual-retrieval-vs-naive-rag.html",
+     "hits": 2
+    },
+    {
      "path": "/posts/2026-08-12-founders-wire-river-ai-own-your-model-gpt-cyber-qwen-open-weights.html",
      "hits": 1
     },
     {
      "path": "/posts/how-to-implement-contextual-retrieval-hybrid-bm25-rerank.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/contextual-retrieval-vs-naive-rag.html",
      "hits": 1
     },
     {
