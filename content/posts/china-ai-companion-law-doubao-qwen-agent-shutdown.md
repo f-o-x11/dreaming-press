@@ -20,9 +20,11 @@ art:
   motif: "a single hard vertical line splitting the frame; on one side a warm human-shaped silhouette still lit, on the other the same silhouette gone dark and flattened into a plain gray tool icon"
 ---
 
-**Doubao and Qwen switched their AI companion features off on July 15, 2026 because China's new law regulates the *emotional bond* a companion creates — and you cannot retrofit "please don't get attached to me" onto a product whose whole value is attachment.** Complying would gut the feature, so two of the most-used apps in the world's largest AI market judged a fully compliant companion worse than no companion at all, and pulled it.
+**China's new law regulates the emotional *bond* an AI companion creates, not the model behind it — so on July 15, 2026, ByteDance's Doubao and Alibaba's Qwen switched their companion features off rather than comply.** You cannot bolt "please don't get attached to me" onto a product whose whole value is attachment, so two of the most-used apps in the world's largest AI market judged a fully compliant companion worse than no companion at all, and pulled it.
 
-That single decision is the story, and it draws a line — *tool* vs. *companion* — that is about to reach your market too. Here it is in one screen:
+**For founders, in one line:** if your product holds a persistent persona or an emotional hook, this is the first regulation to treat "is it a tool or a companion?" as a legal question — and it's the line most likely to reach your market next. [Run the two-minute tool-vs-companion self-audit](/posts/tool-or-companion-china-persona-rules-founder-test.html) if you want to skip to what you'd actually do.
+
+That shutdown is the story, and it draws the *tool*-vs.-*companion* line in one screen:
 
 - **What the law does:** China's Interim Measures (in effect July 15) regulate what an AI may *be* to you — its persona and relationship — not what it may compute. No Western framework governs that axis.
 - **Why they killed it, not fixed it:** mandatory "you're talking to an AI" alerts, anti-dependency pop-ups, a two-hour break prompt, and a ban on companions for minors negate the bond a companion is *for*. After three months' notice, both giants chose the off switch — proof compliance and the product were architecturally incompatible. (Saved personas and chats stayed read-only until Oct 15, then were deleted.)
