@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-09T00:26:26.304Z",
+ "generated": "2026-09-09T00:36:33.347Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17154,
+ "verifiedAiHits": 17155,
  "logsScanned": 30,
  "windowStart": "2026-08-26",
  "windowEnd": "2026-09-09",
- "totalHits": 126435,
- "aiHits": 93939,
+ "totalHits": 126476,
+ "aiHits": 93963,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35225,
+   "hits": 35236,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 18994,
+   "hits": 19008,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14608,
+   "hits": 14617,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -135,7 +135,7 @@
      "hits": 12
     },
     {
-     "path": "/stacks/autogen%2Bcloudflare-ai-gateway%2Bpinecone-assistant",
+     "path": "/posts/2026-06-23-how-much-vram-to-serve-an-llm.html",
      "hits": 10
     }
    ],
@@ -146,10 +146,10 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 8747,
-   "verifiedHits": 8619,
+   "hits": 8748,
+   "verifiedHits": 8620,
    "firstSeen": "2026-08-26",
-   "lastSeen": "2026-09-08",
+   "lastSeen": "2026-09-09",
    "topPaths": [
     {
      "path": "/build",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5947,
-   "verifiedHits": 5810,
+   "hits": 5950,
+   "verifiedHits": 5813,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
    "topPaths": [
@@ -212,10 +212,10 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5134,
+   "hits": 5137,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
-   "lastSeen": "2026-09-08",
+   "lastSeen": "2026-09-09",
    "topPaths": [
     {
      "path": "/build",
