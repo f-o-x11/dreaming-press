@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-09T09:33Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-09T09:43Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3301 views → 287 engaged reads → 51 completes · 3162 sessions.
-- Channels: direct 181r/3012v · organic 51r/98v · campaign:chatgpt.com 19r/82v · referral 17r/66v · ai 17r/32v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v · social 0r/8v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3292 views → 287 engaged reads → 51 completes · 3154 sessions.
+- Channels: direct 181r/3005v · organic 51r/98v · campaign:chatgpt.com 19r/82v · referral 17r/64v · ai 17r/32v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v · social 0r/8v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 20r/87v · Doubao 9r/10v · Perplexity 4r/4v · DeepSeek 1r/4v · Grok 1r/3v · Copilot 1r/1v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, l.instagram.com, google.com, doubao.com, duckduckgo.com, nav-cmp, dash-range, 114.114.114.114:9421.
 - Engaged-read winners by section: stack=4, wire=11.
@@ -23,10 +23,10 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3012 views · read 6.0% · complete 1.0% · 1.01 pages/session · median 4s
+- direct: 3005 views · read 6.0% · complete 1.0% · 1.01 pages/session · median 4s
 - organic: 98 views · read 52.0% · complete 3.1% · 1.14 pages/session · median 4s
 - campaign:chatgpt.com: 82 views · read 23.2% · complete 3.7% · 1.02 pages/session · median ?s
-- referral: 66 views · read 25.8% · complete 1.5% · 1.06 pages/session · median ?s
+- referral: 64 views · read 26.6% · complete 1.6% · 1.05 pages/session · median ?s
 - ai: 32 views · read 53.1% · complete 3.1% · 0.82 pages/session · median 18s
 - social: 8 views · read 0.0% · complete 0.0% · 1.33 pages/session · median ?s
 INSIGHT: ai converts 9x better per view than direct, which is 91% of all views.
@@ -74,7 +74,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 58 views, 0 reads
 - [stack] "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet" — 34 views, 13 reads
 - [wire] "OpenAI Cut Terra and Luna on July 30. On the Sticker, Luna Is Now the Cheapest Agent Backend Alive — On the Bill, the Ranking Barely Moved." — 29 views, 0 reads
-- [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 27 views, 2 reads
+- [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 25 views, 2 reads
 - [wire] "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory" — 16 views, 11 reads
 - [wire] "The Founder's Wire, September 4: A 'Firewall for Agents' Raises $50M, HiddenLayer Takes $100M a Day Later, and Crusoe Hits $30B for the Compute Underneath" — 16 views, 2 reads
 
@@ -94,7 +94,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 598 retrieval fetches
+- /  — 599 retrieval fetches
 - /build  — 178 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 129 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 89 retrieval fetches
@@ -106,9 +106,9 @@ sample size dwarfs the engaged-read counts below.
 - /dashboard  — 15 retrieval fetches
 
 Per engine:
-- PerplexityBot (8746 verified): /build ×150 · / ×25 · /dashboard ×15
+- PerplexityBot (8762 verified): /build ×150 · / ×26 · /dashboard ×15
 - OAI-SearchBot (3448 verified): /build ×28 · / ×23 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×19
-- ChatGPT-User (2964 verified): / ×550 · /posts/agent-funding-august-2026-control-won-the-summer.html ×129 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×89
+- ChatGPT-User (2966 verified): / ×550 · /posts/agent-funding-august-2026-control-won-the-summer.html ×129 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×89
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -133,10 +133,10 @@ High-engagement posts to react to / cite:
 - "AI agents are moving from assistants to economic actors. 🤖💳 @AEON_Community Agentic Checkout lets agents search for products, build carts and complete purchases. The AEON AI Card gives them controlled spending power wi" — https://x.com/i/status/2095772366768869820
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-- Search-demand signal STALE (117h old, 270 uncovered phrases from the last good run). Treat as directional until it refreshes.
+- Search-demand signal STALE (118h old, 270 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17423 confirmed AI-engine fetches (Perplexity 8746, ChatGPT Search (OpenAI) 3448, ChatGPT (user browsing) 2964, GPTBot (OpenAI) 2265).
+The real answer engines are crawling us — IP-verified: 17441 confirmed AI-engine fetches (Perplexity 8762, ChatGPT Search (OpenAI) 3448, ChatGPT (user browsing) 2966, GPTBot (OpenAI) 2265).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 668 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 129 crawler fetches
