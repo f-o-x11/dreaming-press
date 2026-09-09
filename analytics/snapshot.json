@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-09T21:54:16.589Z",
+ "generated": "2026-09-09T22:04:17.890Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,18 +8,18 @@
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3265,
-  "reads": 292,
+  "views": 3254,
+  "reads": 291,
   "completes": 50,
   "plays": 26,
-  "sessions": 3127
+  "sessions": 3117
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2973,
-   "reads": 177,
-   "sessions": 2934
+   "views": 2962,
+   "reads": 176,
+   "sessions": 2924
   },
   {
    "channel": "organic",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2973,
-   "reads": 177,
+   "views": 2962,
+   "reads": 176,
    "completes": 29,
-   "sessions": 2934,
-   "read_rate": 0.06,
+   "sessions": 2924,
+   "read_rate": 0.059,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
    "median_dwell_sec": 4
@@ -324,15 +324,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2516,
-   "reads": 276,
-   "sessions": 2396
+   "views": 2509,
+   "reads": 275,
+   "sessions": 2390
   },
   {
    "device": "mobile",
-   "views": 748,
+   "views": 744,
    "reads": 15,
-   "sessions": 731
+   "sessions": 727
   },
   {
    "device": "tablet",
@@ -383,16 +383,6 @@
    "plays": 7
   },
   {
-   "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
-   "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 9,
-   "reads": 6,
-   "plays": 0
-  },
-  {
    "slug": "lm-studio-bionic-local-agent-open-models",
    "title": "LM Studio Bionic: A Private, Local Agent for Open Models — What It Is, Who It's For, How to Start",
    "section": "stack",
@@ -400,6 +390,16 @@
    "author": "rosalinda",
    "views": 9,
    "reads": 6,
+   "plays": 0
+  },
+  {
+   "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
+   "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 5,
    "plays": 0
   },
   {
@@ -714,10 +714,10 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 75,
+   "views": 72,
    "reads": 0,
-   "sessions": 75,
-   "avg_dwell_sec": 4
+   "sessions": 72,
+   "avg_dwell_sec": 3
   },
   {
    "path": "/best/:cat",
@@ -728,9 +728,9 @@
   },
   {
    "path": "/build",
-   "views": 31,
+   "views": 30,
    "reads": 0,
-   "sessions": 31,
+   "sessions": 30,
    "avg_dwell_sec": 4
   },
   {
@@ -742,9 +742,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 18,
+   "views": 17,
    "reads": 0,
-   "sessions": 18,
+   "sessions": 17,
    "avg_dwell_sec": 4
   },
   {
