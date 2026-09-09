@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-09T02:07:34.598Z",
+ "generated": "2026-09-09T02:17:41.682Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 2,
   "avgTimeSec": 4,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3343,
-  "reads": 286,
-  "completes": 48,
+  "views": 3340,
+  "reads": 285,
+  "completes": 49,
   "plays": 23,
-  "sessions": 3205
+  "sessions": 3202
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3057,
+   "views": 3055,
    "reads": 181,
-   "sessions": 3017
+   "sessions": 3014
   },
   {
    "channel": "organic",
-   "views": 98,
-   "reads": 51,
-   "sessions": 86
+   "views": 97,
+   "reads": 50,
+   "sessions": 85
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3057,
+   "views": 3055,
    "reads": 181,
    "completes": 29,
-   "sessions": 3017,
+   "sessions": 3014,
    "read_rate": 0.059,
    "complete_rate": 0.009,
    "pages_per_session": 1.01,
@@ -90,12 +90,12 @@
   },
   {
    "channel": "organic",
-   "views": 98,
-   "reads": 51,
-   "completes": 2,
-   "sessions": 86,
-   "read_rate": 0.52,
-   "complete_rate": 0.02,
+   "views": 97,
+   "reads": 50,
+   "completes": 3,
+   "sessions": 85,
+   "read_rate": 0.515,
+   "complete_rate": 0.031,
    "pages_per_session": 1.14,
    "median_dwell_sec": 4
   },
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2577,
-   "reads": 271,
-   "sessions": 2457
+   "views": 2574,
+   "reads": 270,
+   "sessions": 2454
   },
   {
    "device": "mobile",
@@ -463,16 +463,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 19,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
@@ -491,6 +481,16 @@
    "views": 10,
    "reads": 3,
    "plays": 2
+  },
+  {
+   "slug": "gpu-rental-price-map-h100-h200-b200-august-2026",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in August 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 9,
+   "reads": 3,
+   "plays": 0
   }
  ],
  "topListens": [
@@ -637,16 +637,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 19,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "how-to-manage-context-in-a-long-running-agent",
    "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
    "section": "wire",
@@ -662,6 +652,16 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
+   "views": 16,
+   "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
    "views": 16,
    "reads": 2,
    "plays": 0
@@ -807,7 +807,7 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 62,
+   "hits": 63,
    "sessions": 26
   },
   {
@@ -817,8 +817,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 31,
-   "sessions": 16
+   "hits": 29,
+   "sessions": 15
   },
   {
    "ref": "https://l.instagram.com/",
