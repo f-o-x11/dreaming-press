@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-09T10:34:09.001Z",
+ "generated": "2026-09-09T10:44:16.120Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 2,
   "todayReads": 10,
   "avgTimeSec": 11,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3290,
+  "views": 3287,
   "reads": 287,
   "completes": 51,
   "plays": 23,
-  "sessions": 3153
+  "sessions": 3150
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3005,
+   "views": 3003,
    "reads": 181,
-   "sessions": 2962
+   "sessions": 2960
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 82,
+   "views": 81,
    "reads": 19,
-   "sessions": 80
+   "sessions": 79
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3005,
+   "views": 3003,
    "reads": 181,
    "completes": 30,
-   "sessions": 2962,
+   "sessions": 2960,
    "read_rate": 0.06,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -101,13 +101,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 82,
+   "views": 81,
    "reads": 19,
    "completes": 3,
-   "sessions": 80,
-   "read_rate": 0.232,
+   "sessions": 79,
+   "read_rate": 0.235,
    "complete_rate": 0.037,
-   "pages_per_session": 1.02,
+   "pages_per_session": 1.03,
    "median_dwell_sec": null
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 87,
+   "views": 86,
    "reads": 20,
-   "sessions": 81
+   "sessions": 80
   },
   {
    "assistant": "Doubao",
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2540,
+   "views": 2537,
    "reads": 271,
-   "sessions": 2421
+   "sessions": 2418
   },
   {
    "device": "mobile",
@@ -468,7 +468,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 15,
+   "views": 14,
    "reads": 3,
    "plays": 1
   },
@@ -540,7 +540,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 15,
+   "views": 14,
    "reads": 3,
    "plays": 1
   },
@@ -602,7 +602,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 58,
+   "views": 57,
    "reads": 0,
    "plays": 0
   },
@@ -657,16 +657,6 @@
    "plays": 0
   },
   {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 15,
-   "reads": 3,
-   "plays": 1
-  },
-  {
    "slug": "china-persona-law-took-effect-what-founders-do",
    "title": "China's AI Persona Law Landed July 15 — Doubao and Qwen Killed Their Companions. Here's What Founders on Chinese APIs Actually Do Now",
    "section": "wire",
@@ -675,6 +665,16 @@
    "views": 15,
    "reads": 0,
    "plays": 0
+  },
+  {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 14,
+   "reads": 3,
+   "plays": 1
   },
   {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
