@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-09T12:21:05.558Z",
+ "generated": "2026-09-09T12:34:36.354Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 13,
   "todayReads": 11,
   "avgTimeSec": 10,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3288,
+  "views": 3295,
   "reads": 288,
   "completes": 51,
   "plays": 24,
-  "sessions": 3151
+  "sessions": 3158
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3004,
+   "views": 3012,
    "reads": 182,
-   "sessions": 2961
+   "sessions": 2969
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 81,
+   "views": 80,
    "reads": 19,
-   "sessions": 79
+   "sessions": 78
   },
   {
    "channel": "referral",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3004,
+   "views": 3012,
    "reads": 182,
    "completes": 30,
-   "sessions": 2961,
-   "read_rate": 0.061,
+   "sessions": 2969,
+   "read_rate": 0.06,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
    "median_dwell_sec": 4
@@ -101,11 +101,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 81,
+   "views": 80,
    "reads": 19,
    "completes": 3,
-   "sessions": 79,
-   "read_rate": 0.235,
+   "sessions": 78,
+   "read_rate": 0.237,
    "complete_rate": 0.037,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 86,
+   "views": 85,
    "reads": 20,
-   "sessions": 80
+   "sessions": 79
   },
   {
    "assistant": "Doubao",
@@ -324,15 +324,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2530,
+   "views": 2529,
    "reads": 272,
-   "sessions": 2411
+   "sessions": 2410
   },
   {
    "device": "mobile",
-   "views": 757,
+   "views": 765,
    "reads": 15,
-   "sessions": 740
+   "sessions": 748
   },
   {
    "device": "tablet",
@@ -602,7 +602,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 57,
+   "views": 58,
    "reads": 0,
    "plays": 0
   },
@@ -700,9 +700,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 376,
+   "views": 375,
    "reads": 0,
-   "sessions": 372,
+   "sessions": 371,
    "avg_dwell_sec": 4
   },
   {
