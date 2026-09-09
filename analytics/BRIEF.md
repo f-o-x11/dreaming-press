@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-09T14:37Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-09T14:48Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -108,7 +108,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (9011 verified): /build ×151 · / ×26 · /dashboard ×15
 - OAI-SearchBot (3521 verified): /build ×28 · / ×23 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×19
-- ChatGPT-User (3019 verified): / ×559 · /posts/agent-funding-august-2026-control-won-the-summer.html ×129 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×90
+- ChatGPT-User (3020 verified): / ×559 · /posts/agent-funding-august-2026-control-won-the-summer.html ×129 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×90
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -123,7 +123,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: startup(33), agents(32), founder(29), agentic(28), build(26), mcp(19), building(19), agent(12), claude(12), code(12), have(10), autonomous(9), co-founder(9), own(8), about(8).
+Hot terms: agents(34), startup(33), founder(29), agentic(28), build(26), building(21), mcp(19), agent(12), claude(12), code(12), have(10), autonomous(9), co-founder(9), own(8), about(8).
 Hashtags: #ai, #startup, #buildinpublic, #agenticai, #founder, #rag, #python, #aiengineer, #techcareers, #agents.
 High-engagement posts to react to / cite:
 - "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de" — https://x.com/i/status/2095859430776533318
@@ -156,7 +156,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17816 confirmed AI-engine fetches (Perplexity 9011, ChatGPT Search (OpenAI) 3521, ChatGPT (user browsing) 3019, GPTBot (OpenAI) 2265).
+The real answer engines are crawling us — IP-verified: 17817 confirmed AI-engine fetches (Perplexity 9011, ChatGPT Search (OpenAI) 3521, ChatGPT (user browsing) 3020, GPTBot (OpenAI) 2265).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 675 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 129 crawler fetches
