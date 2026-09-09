@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-09T22:14Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-09T22:24Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -93,7 +93,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 622 retrieval fetches
+- /  — 623 retrieval fetches
 - /build  — 179 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 130 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 90 retrieval fetches
@@ -107,7 +107,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (9166 verified): /build ×151 · / ×27 · /dashboard ×16
 - OAI-SearchBot (3523 verified): /build ×28 · / ×23 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×19
-- ChatGPT-User (3110 verified): / ×572 · /posts/agent-funding-august-2026-control-won-the-summer.html ×130 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×90
+- ChatGPT-User (3111 verified): / ×573 · /posts/agent-funding-august-2026-control-won-the-summer.html ×130 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×90
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -132,7 +132,7 @@ High-engagement posts to react to / cite:
 - "AI agents are moving from assistants to economic actors. 🤖💳 @AEON_Community Agentic Checkout lets agents search for products, build carts and complete purchases. The AEON AI Card gives them controlled spending power wi" — https://x.com/i/status/2095772366768869820
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (265 of 457 phrases have NO post, 10h ago)
+## Uncovered search demand (265 of 457 phrases have NO post, 11h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -155,7 +155,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 18066 confirmed AI-engine fetches (Perplexity 9166, ChatGPT Search (OpenAI) 3523, ChatGPT (user browsing) 3110, GPTBot (OpenAI) 2267).
+The real answer engines are crawling us — IP-verified: 18067 confirmed AI-engine fetches (Perplexity 9166, ChatGPT Search (OpenAI) 3523, ChatGPT (user browsing) 3111, GPTBot (OpenAI) 2267).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 686 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 130 crawler fetches
