@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-09T19:41:37.402Z",
+ "generated": "2026-09-09T19:52:16.684Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 14,
-  "todayReads": 21,
+  "readersNow": 4,
+  "todayReads": 22,
   "avgTimeSec": 22,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3278,
-  "reads": 290,
+  "views": 3277,
+  "reads": 291,
   "completes": 50,
   "plays": 25,
   "sessions": 3138
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2988,
+   "views": 2986,
    "reads": 177,
-   "sessions": 2947
+   "sessions": 2946
   },
   {
    "channel": "organic",
-   "views": 99,
-   "reads": 52,
-   "sessions": 86
+   "views": 100,
+   "reads": 53,
+   "sessions": 87
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2988,
+   "views": 2986,
    "reads": 177,
    "completes": 29,
-   "sessions": 2947,
+   "sessions": 2946,
    "read_rate": 0.059,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 99,
-   "reads": 52,
+   "views": 100,
+   "reads": 53,
    "completes": 3,
-   "sessions": 86,
-   "read_rate": 0.525,
+   "sessions": 87,
+   "read_rate": 0.53,
    "complete_rate": 0.03,
    "pages_per_session": 1.15,
    "median_dwell_sec": 4
@@ -324,8 +324,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2526,
-   "reads": 274,
+   "views": 2525,
+   "reads": 275,
    "sessions": 2404
   },
   {
@@ -398,8 +398,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"captivating\"]",
    "author": "rosalinda",
-   "views": 8,
-   "reads": 5,
+   "views": 9,
+   "reads": 6,
    "plays": 0
   },
   {
@@ -831,14 +831,14 @@
    "sessions": 19
   },
   {
+   "ref": "https://duckduckgo.com/",
+   "hits": 21,
+   "sessions": 11
+  },
+  {
    "ref": "https://www.doubao.com/",
    "hits": 19,
    "sessions": 8
-  },
-  {
-   "ref": "https://duckduckgo.com/",
-   "hits": 19,
-   "sessions": 10
   },
   {
    "ref": "nav-cmp",
