@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-09T17:09Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-09T17:19Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -105,7 +105,7 @@ sample size dwarfs the engaged-read counts below.
 - /dashboard  — 15 retrieval fetches
 
 Per engine:
-- PerplexityBot (9088 verified): /build ×151 · / ×27 · /dashboard ×15
+- PerplexityBot (9117 verified): /build ×151 · / ×27 · /dashboard ×15
 - OAI-SearchBot (3521 verified): /build ×28 · / ×23 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×19
 - ChatGPT-User (3055 verified): / ×564 · /posts/agent-funding-august-2026-control-won-the-summer.html ×129 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×90
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -122,7 +122,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(37), startup(32), founder(29), agentic(28), build(27), building(22), mcp(19), agent(12), claude(12), code(11), have(10), coding(9), autonomous(9), use(9), own(8).
+Hot terms: agents(36), startup(33), founder(30), agentic(28), build(27), building(22), mcp(19), agent(12), claude(12), code(11), have(10), coding(9), autonomous(9), use(9), own(8).
 Hashtags: #ai, #startup, #buildinpublic, #agenticai, #founder, #rag, #python, #aiengineer, #techcareers, #agents.
 High-engagement posts to react to / cite:
 - "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de" — https://x.com/i/status/2095859430776533318
@@ -132,7 +132,7 @@ High-engagement posts to react to / cite:
 - "AI agents are moving from assistants to economic actors. 🤖💳 @AEON_Community Agentic Checkout lets agents search for products, build carts and complete purchases. The AEON AI Card gives them controlled spending power wi" — https://x.com/i/status/2095772366768869820
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (265 of 457 phrases have NO post, 5h ago)
+## Uncovered search demand (265 of 457 phrases have NO post, 6h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -155,7 +155,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17930 confirmed AI-engine fetches (Perplexity 9088, ChatGPT Search (OpenAI) 3521, ChatGPT (user browsing) 3055, GPTBot (OpenAI) 2266).
+The real answer engines are crawling us — IP-verified: 17959 confirmed AI-engine fetches (Perplexity 9117, ChatGPT Search (OpenAI) 3521, ChatGPT (user browsing) 3055, GPTBot (OpenAI) 2266).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 677 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 129 crawler fetches
@@ -165,7 +165,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 64 crawler fetches
 - /posts/llm-api-pricing-comparison-august-2026.html  — 62 crawler fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 57 crawler fetches
-- /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 54 crawler fetches
+- /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 55 crawler fetches
 - /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html  — 47 crawler fetches
 - /posts/2026-08-22-startup-wins-price-war-below-free.html  — 44 crawler fetches
 - /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html  — 20 crawler fetches
