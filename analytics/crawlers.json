@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-09T21:33:55.881Z",
+ "generated": "2026-09-09T21:44:03.161Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18053,
+ "verifiedAiHits": 18058,
  "logsScanned": 30,
  "windowStart": "2026-08-26",
  "windowEnd": "2026-09-09",
- "totalHits": 132760,
- "aiHits": 98530,
+ "totalHits": 132792,
+ "aiHits": 98542,
  "aiEngines": 17,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 20089,
+   "hits": 20104,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15540,
+   "hits": 15547,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6214,
-   "verifiedHits": 6077,
+   "hits": 6218,
+   "verifiedHits": 6081,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
    "topPaths": [
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3228,
-   "verifiedHits": 3099,
+   "hits": 3233,
+   "verifiedHits": 3104,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
    "topPaths": [
     {
      "path": "/",
-     "hits": 571
+     "hits": 572
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 780,
+   "hits": 781,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
