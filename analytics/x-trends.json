@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-09T19:01:06.697Z",
+ "generated": "2026-09-09T19:11:15.754Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,15 +8,15 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 36
+   "count": 37
   },
   {
    "term": "startup",
-   "count": 33
+   "count": 32
   },
   {
    "term": "founder",
-   "count": 30
+   "count": 29
   },
   {
    "term": "agentic",
@@ -24,7 +24,7 @@
   },
   {
    "term": "build",
-   "count": 27
+   "count": 24
   },
   {
    "term": "building",
@@ -39,10 +39,6 @@
    "count": 12
   },
   {
-   "term": "claude",
-   "count": 12
-  },
-  {
    "term": "code",
    "count": 11
   },
@@ -51,7 +47,7 @@
    "count": 10
   },
   {
-   "term": "coding",
+   "term": "claude",
    "count": 9
   },
   {
@@ -67,6 +63,14 @@
    "count": 8
   },
   {
+   "term": "coding",
+   "count": 8
+  },
+  {
+   "term": "software",
+   "count": 8
+  },
+  {
    "term": "company",
    "count": 8
   },
@@ -76,10 +80,6 @@
   },
   {
    "term": "work",
-   "count": 7
-  },
-  {
-   "term": "software",
    "count": 7
   },
   {
@@ -139,6 +139,12 @@
  ],
  "topPosts": [
   {
+   "text": "AI Engineering — Ultimate Roadmap (SAVE THIS)! ├── 01. LLM Fundamentals │ ├── Transformers &amp; Attention │ ├── Inference &amp; Decoding │ ├── Tokenization │ └── Context Window &amp; Limits │ ├── 02. Prompting &amp; Con",
+   "engagement": 1236,
+   "url": "https://x.com/i/status/2097389489408594192",
+   "created": "2026-09-08T18:19:56.000Z"
+  },
+  {
    "text": "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de",
    "engagement": 973,
    "url": "https://x.com/i/status/2095859430776533318",
@@ -179,12 +185,6 @@
    "engagement": 114,
    "url": "https://x.com/i/status/2097215718861533372",
    "created": "2026-09-08T06:49:26.000Z"
-  },
-  {
-   "text": "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra",
-   "engagement": 107,
-   "url": "https://x.com/i/status/2096075332579385542",
-   "created": "2026-09-05T03:17:57.000Z"
   }
  ]
 }
