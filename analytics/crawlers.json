@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-09T00:06:12.623Z",
+ "generated": "2026-09-09T00:16:16.049Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17152,
+ "verifiedAiHits": 17153,
  "logsScanned": 30,
  "windowStart": "2026-08-26",
  "windowEnd": "2026-09-09",
- "totalHits": 126353,
- "aiHits": 93883,
+ "totalHits": 126388,
+ "aiHits": 93905,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35192,
+   "hits": 35204,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 18970,
+   "hits": 18981,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -61,15 +61,15 @@
      "hits": 4
     },
     {
+     "path": "/posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html",
+     "hits": 3
+    },
+    {
      "path": "/posts/2026-08-21-founders-wire-callosum-alexa-free-rundoo.html",
      "hits": 3
     },
     {
      "path": "/posts/langchain-vs-langgraph-vs-deepagents-harness.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-06-23-how-to-evaluate-a-rag-pipeline.html",
      "hits": 3
     }
    ],
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14590,
+   "hits": 14598,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -179,10 +179,10 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5945,
-   "verifiedHits": 5808,
+   "hits": 5947,
+   "verifiedHits": 5810,
    "firstSeen": "2026-08-26",
-   "lastSeen": "2026-09-08",
+   "lastSeen": "2026-09-09",
    "topPaths": [
     {
      "path": "/build",
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3006,
-   "verifiedHits": 2884,
+   "hits": 3007,
+   "verifiedHits": 2885,
    "firstSeen": "2026-08-26",
-   "lastSeen": "2026-09-08",
+   "lastSeen": "2026-09-09",
    "topPaths": [
     {
      "path": "/",
-     "hits": 533
+     "hits": 534
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 534,
+   "hits": 535,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
