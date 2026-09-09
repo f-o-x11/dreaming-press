@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-09T04:29Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-09T04:39Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3325 views → 283 engaged reads → 49 completes · 3188 sessions.
-- Channels: direct 180r/3042v · organic 50r/97v · referral 18r/67v · ai 17r/32v · campaign:chatgpt.com 16r/76v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v · social 0r/8v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3323 views → 283 engaged reads → 49 completes · 3186 sessions.
+- Channels: direct 180r/3040v · organic 50r/97v · referral 18r/67v · ai 17r/32v · campaign:chatgpt.com 16r/76v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v · social 0r/8v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 17r/81v · Doubao 9r/10v · Perplexity 4r/4v · DeepSeek 1r/4v · Grok 1r/3v · Copilot 1r/1v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, l.instagram.com, google.com, doubao.com, duckduckgo.com, nav-cmp, dash-range, 114.114.114.114:9421.
 - Engaged-read winners by section: stack=4, wire=11.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3042 views · read 5.9% · complete 1.0% · 1.01 pages/session · median 4s
+- direct: 3040 views · read 5.9% · complete 1.0% · 1.01 pages/session · median 4s
 - organic: 97 views · read 51.5% · complete 3.1% · 1.14 pages/session · median 4s
 - campaign:chatgpt.com: 76 views · read 21.1% · complete 1.3% · 1.03 pages/session · median ?s
 - referral: 67 views · read 26.9% · complete 3.0% · 1.06 pages/session · median ?s
@@ -133,7 +133,7 @@ High-engagement posts to react to / cite:
 - "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2096075332579385542
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-- Search-demand signal STALE (112h old, 270 uncovered phrases from the last good run). Treat as directional until it refreshes.
+- Search-demand signal STALE (113h old, 270 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 17307 confirmed AI-engine fetches (Perplexity 8697, ChatGPT Search (OpenAI) 3425, ChatGPT (user browsing) 2921, GPTBot (OpenAI) 2264).
