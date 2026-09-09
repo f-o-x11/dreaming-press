@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-09T14:07:35.062Z",
+ "generated": "2026-09-09T14:17:36.472Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 1,
   "todayReads": 15,
   "avgTimeSec": 13,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3299,
+  "views": 3297,
   "reads": 290,
   "completes": 50,
   "plays": 24,
-  "sessions": 3161
+  "sessions": 3159
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3013,
+   "views": 3011,
    "reads": 181,
-   "sessions": 2971
+   "sessions": 2969
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3013,
+   "views": 3011,
    "reads": 181,
    "completes": 29,
-   "sessions": 2971,
+   "sessions": 2969,
    "read_rate": 0.06,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2534,
+   "views": 2532,
    "reads": 274,
-   "sessions": 2414
+   "sessions": 2412
   },
   {
    "device": "mobile",
@@ -423,18 +423,18 @@
    "plays": 0
   },
   {
-   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
-   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
+   "slug": "gpt-5-6-prompt-caching-explicit-breakpoints",
+   "title": "GPT-5.6 Rewired Prompt Caching: A Hands-On Guide to prompt_cache_options",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 9,
+   "views": 8,
    "reads": 4,
    "plays": 0
   },
   {
-   "slug": "gpt-5-6-prompt-caching-explicit-breakpoints",
-   "title": "GPT-5.6 Rewired Prompt Caching: A Hands-On Guide to prompt_cache_options",
+   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
+   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
