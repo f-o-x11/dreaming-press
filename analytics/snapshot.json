@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-09T03:28:20.672Z",
+ "generated": "2026-09-09T03:38:34.152Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3335,
-  "reads": 285,
+  "views": 3331,
+  "reads": 284,
   "completes": 49,
   "plays": 23,
-  "sessions": 3198
+  "sessions": 3193
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3050,
+   "views": 3048,
    "reads": 181,
-   "sessions": 3009
+   "sessions": 3007
   },
   {
    "channel": "organic",
@@ -36,14 +36,14 @@
   {
    "channel": "ai",
    "views": 32,
-   "reads": 18,
-   "sessions": 39
+   "reads": 17,
+   "sessions": 38
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 78,
+   "views": 76,
    "reads": 16,
-   "sessions": 76
+   "sessions": 74
   },
   {
    "channel": "campaign:copilot.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3050,
+   "views": 3048,
    "reads": 181,
    "completes": 29,
-   "sessions": 3009,
+   "sessions": 3007,
    "read_rate": 0.059,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 78,
+   "views": 76,
    "reads": 16,
    "completes": 1,
-   "sessions": 76,
-   "read_rate": 0.205,
+   "sessions": 74,
+   "read_rate": 0.211,
    "complete_rate": 0.013,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -124,12 +124,12 @@
   {
    "channel": "ai",
    "views": 32,
-   "reads": 18,
+   "reads": 17,
    "completes": 1,
-   "sessions": 39,
-   "read_rate": 0.563,
+   "sessions": 38,
+   "read_rate": 0.531,
    "complete_rate": 0.031,
-   "pages_per_session": 0.82,
+   "pages_per_session": 0.84,
    "median_dwell_sec": 16
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 83,
+   "views": 81,
    "reads": 17,
-   "sessions": 77
+   "sessions": 75
   },
   {
    "assistant": "Doubao",
@@ -281,8 +281,8 @@
   {
    "assistant": "Perplexity",
    "views": 4,
-   "reads": 5,
-   "sessions": 4
+   "reads": 4,
+   "sessions": 3
   },
   {
    "assistant": "DeepSeek",
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2568,
-   "reads": 270,
-   "sessions": 2449
+   "views": 2564,
+   "reads": 269,
+   "sessions": 2444
   },
   {
    "device": "mobile",
@@ -551,7 +551,7 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 7,
-   "reads": 3,
+   "reads": 2,
    "plays": 1
   },
   {
@@ -617,16 +617,6 @@
    "plays": 2
   },
   {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 29,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "gpt-5-6-july-30-price-cut-routing-sticker-vs-bill",
    "title": "OpenAI Cut Terra and Luna on July 30. On the Sticker, Luna Is Now the Cheapest Agent Backend Alive — On the Bill, the Ranking Barely Moved.",
    "section": "wire",
@@ -634,6 +624,16 @@
    "author": "wire-desk",
    "views": 29,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 27,
+   "reads": 2,
    "plays": 0
   },
   {
@@ -851,9 +851,9 @@
    "sessions": 2
   },
   {
-   "ref": "https://www.perplexity.ai/",
+   "ref": "http://114.114.114.114:9421/",
    "hits": 9,
-   "sessions": 4
+   "sessions": 6
   }
  ]
 }
