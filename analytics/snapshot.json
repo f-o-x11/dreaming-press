@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-09T02:27:48.097Z",
+ "generated": "2026-09-09T02:37:54.675Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 2,
   "avgTimeSec": 4,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3340,
+  "views": 3337,
   "reads": 285,
   "completes": 49,
   "plays": 23,
-  "sessions": 3202
+  "sessions": 3199
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3055,
+   "views": 3052,
    "reads": 181,
-   "sessions": 3014
+   "sessions": 3011
   },
   {
    "channel": "organic",
@@ -79,12 +79,12 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3055,
+   "views": 3052,
    "reads": 181,
    "completes": 29,
-   "sessions": 3014,
+   "sessions": 3011,
    "read_rate": 0.059,
-   "complete_rate": 0.009,
+   "complete_rate": 0.01,
    "pages_per_session": 1.01,
    "median_dwell_sec": 4
   },
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2574,
+   "views": 2571,
    "reads": 270,
-   "sessions": 2454
+   "sessions": 2451
   },
   {
    "device": "mobile",
@@ -657,16 +657,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 16,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
@@ -684,6 +674,16 @@
    "author": "wire-desk",
    "views": 15,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 14,
+   "reads": 2,
    "plays": 0
   },
   {
@@ -721,9 +721,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 35,
+   "views": 36,
    "reads": 1,
-   "sessions": 35,
+   "sessions": 36,
    "avg_dwell_sec": 4
   },
   {
