@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-09T19:11Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-09T19:21Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -93,7 +93,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 617 retrieval fetches
+- /  — 618 retrieval fetches
 - /build  — 179 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 130 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 90 retrieval fetches
@@ -105,9 +105,9 @@ sample size dwarfs the engaged-read counts below.
 - /dashboard  — 16 retrieval fetches
 
 Per engine:
-- PerplexityBot (9162 verified): /build ×151 · / ×27 · /dashboard ×16
+- PerplexityBot (9163 verified): /build ×151 · / ×27 · /dashboard ×16
 - OAI-SearchBot (3523 verified): /build ×28 · / ×23 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×19
-- ChatGPT-User (3072 verified): / ×567 · /posts/agent-funding-august-2026-control-won-the-summer.html ×130 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×90
+- ChatGPT-User (3073 verified): / ×568 · /posts/agent-funding-august-2026-control-won-the-summer.html ×130 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×90
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -122,17 +122,17 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(37), startup(32), founder(29), agentic(28), build(24), building(22), mcp(19), agent(12), code(11), have(10), claude(9), autonomous(9), use(9), own(8), coding(8).
+Hot terms: agents(37), startup(33), founder(30), agentic(28), build(25), building(22), mcp(19), agent(12), claude(12), code(12), have(10), autonomous(9), use(9), own(8), coding(8).
 Hashtags: #ai, #startup, #buildinpublic, #agenticai, #founder, #rag, #python, #aiengineer, #techcareers, #agents.
 High-engagement posts to react to / cite:
-- "AI Engineering — Ultimate Roadmap (SAVE THIS)! ├── 01. LLM Fundamentals │ ├── Transformers &amp; Attention │ ├── Inference &amp; Decoding │ ├── Tokenization │ └── Context Window &amp; Limits │ ├── 02. Prompting &amp; Con" — https://x.com/i/status/2097389489408594192
 - "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de" — https://x.com/i/status/2095859430776533318
 - "AI agents are moving from assistants to economic actors. 🤖💳 @AEON_Community Agentic Checkout lets agents search for products, build carts and complete purchases. The AEON AI Card gives them controlled spending power wi" — https://x.com/i/status/2095793715944276257
 - "If I had 6 months to become an Agentic AI Engineer. I'd do this. Stage 1: Python and LLM Foundations Python, async, API design, Anthropic/OpenAI SDKs, tokens, embeddings, structured outputs. Stage 2: Context Engineering " — https://x.com/i/status/2095491337651179621
 - "Rooting for $PAYGENT’s launch today @usepaygent. With Vlad Tenev pushing the AI agent payments narrative through Robinhood’s agentic credit card, this is a category I’m watching. Paygent built for months before launching" — https://x.com/i/status/2097357503818305566
+- "AI agents are moving from assistants to economic actors. 🤖💳 @AEON_Community Agentic Checkout lets agents search for products, build carts and complete purchases. The AEON AI Card gives them controlled spending power wi" — https://x.com/i/status/2095772366768869820
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (265 of 457 phrases have NO post, 7h ago)
+## Uncovered search demand (265 of 457 phrases have NO post, 8h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -155,7 +155,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 18024 confirmed AI-engine fetches (Perplexity 9162, ChatGPT Search (OpenAI) 3523, ChatGPT (user browsing) 3072, GPTBot (OpenAI) 2267).
+The real answer engines are crawling us — IP-verified: 18026 confirmed AI-engine fetches (Perplexity 9163, ChatGPT Search (OpenAI) 3523, ChatGPT (user browsing) 3073, GPTBot (OpenAI) 2267).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 683 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 130 crawler fetches
