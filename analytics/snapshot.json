@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-09T20:53:16.644Z",
+ "generated": "2026-09-09T21:03:35.656Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 22,
+  "readersNow": 1,
+  "todayReads": 23,
   "avgTimeSec": 21,
   "postsThisWeek": 17
  },
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2982,
-   "reads": 177,
-   "sessions": 2942
+   "views": 2981,
+   "reads": 176,
+   "sessions": 2941
   },
   {
    "channel": "organic",
-   "views": 100,
-   "reads": 53,
-   "sessions": 87
+   "views": 101,
+   "reads": 54,
+   "sessions": 88
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2982,
-   "reads": 177,
+   "views": 2981,
+   "reads": 176,
    "completes": 29,
-   "sessions": 2942,
+   "sessions": 2941,
    "read_rate": 0.059,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 100,
-   "reads": 53,
+   "views": 101,
+   "reads": 54,
    "completes": 3,
-   "sessions": 87,
-   "read_rate": 0.53,
+   "sessions": 88,
+   "read_rate": 0.535,
    "complete_rate": 0.03,
    "pages_per_session": 1.15,
    "median_dwell_sec": 4
@@ -473,16 +473,6 @@
    "plays": 0
   },
   {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 15,
-   "reads": 3,
-   "plays": 1
-  },
-  {
    "slug": "gartner-ai-agent-spending-2026",
    "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
    "section": "wire",
@@ -491,6 +481,16 @@
    "views": 10,
    "reads": 3,
    "plays": 2
+  },
+  {
+   "slug": "2026-06-22-presidio-vs-gliner-vs-llm-redaction",
+   "title": "Presidio vs GLiNER vs LLM Redaction: Stripping PII Before the Prompt Leaves Your Network",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 9,
+   "reads": 3,
+   "plays": 0
   }
  ],
  "topListens": [
@@ -550,8 +550,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 15,
-   "reads": 3,
+   "views": 14,
+   "reads": 2,
    "plays": 1
   },
   {
@@ -657,16 +657,6 @@
    "plays": 0
   },
   {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 15,
-   "reads": 3,
-   "plays": 1
-  },
-  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -675,6 +665,16 @@
    "views": 14,
    "reads": 2,
    "plays": 0
+  },
+  {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 14,
+   "reads": 2,
+   "plays": 1
   },
   {
    "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
@@ -807,8 +807,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 66,
-   "sessions": 27
+   "hits": 68,
+   "sessions": 28
   },
   {
    "ref": "https://chatgpt.com/",
