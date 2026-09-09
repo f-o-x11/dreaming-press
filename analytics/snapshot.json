@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-09T15:38:36.786Z",
+ "generated": "2026-09-09T15:48:50.288Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3275,
-  "reads": 289,
+  "views": 3269,
+  "reads": 288,
   "completes": 50,
   "plays": 25,
-  "sessions": 3137
+  "sessions": 3131
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2990,
-   "reads": 180,
-   "sessions": 2948
+   "views": 2984,
+   "reads": 179,
+   "sessions": 2942
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2990,
-   "reads": 180,
+   "views": 2984,
+   "reads": 179,
    "completes": 29,
-   "sessions": 2948,
+   "sessions": 2942,
    "read_rate": 0.06,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2514,
-   "reads": 273,
-   "sessions": 2394
+   "views": 2508,
+   "reads": 272,
+   "sessions": 2388
   },
   {
    "device": "mobile",
@@ -677,16 +677,6 @@
    "plays": 0
   },
   {
-   "slug": "china-persona-law-took-effect-what-founders-do",
-   "title": "China's AI Persona Law Landed July 15 — Doubao and Qwen Killed Their Companions. Here's What Founders on Chinese APIs Actually Do Now",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\",\"china\",\"regulation\",\"ai-agents\"]",
-   "author": "wire-desk",
-   "views": 14,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
    "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
    "section": "stack",
@@ -694,6 +684,16 @@
    "author": "dex",
    "views": 13,
    "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "jujutsu-vs-git-version-control-for-builders",
+   "title": "Jujutsu vs Git: The Version-Control Model Builders Are Quietly Switching To",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 13,
+   "reads": 1,
    "plays": 0
   }
  ],
