@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-09T11:04Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-09T11:14Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -59,8 +59,8 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 383 views, 0 reads, 379 sessions, avg 4s
-- / — 156 views, 1 reads, 153 sessions, avg 9s
+- /stack/:tool — 381 views, 0 reads, 377 sessions, avg 4s
+- / — 157 views, 1 reads, 154 sessions, avg 9s
 - /compare/:pair — 80 views, 0 reads, 80 sessions, avg 4s
 - /best/:cat — 36 views, 1 reads, 36 sessions, avg 4s
 - /build — 32 views, 0 reads, 32 sessions, avg 4s
@@ -138,7 +138,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 17490 confirmed AI-engine fetches (Perplexity 8763, ChatGPT Search (OpenAI) 3474, ChatGPT (user browsing) 2988, GPTBot (OpenAI) 2265).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 670 crawler fetches
+- /build  — 671 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 129 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 114 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 89 crawler fetches
