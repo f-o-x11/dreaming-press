@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-09T22:04:17.890Z",
+ "generated": "2026-09-09T22:14:25.807Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 24,
   "avgTimeSec": 21,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3254,
-  "reads": 291,
+  "views": 3250,
+  "reads": 290,
   "completes": 50,
   "plays": 26,
-  "sessions": 3117
+  "sessions": 3113
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2962,
+   "views": 2959,
    "reads": 176,
-   "sessions": 2924
+   "sessions": 2921
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 85,
-   "reads": 24,
-   "sessions": 83
+   "views": 84,
+   "reads": 23,
+   "sessions": 82
   },
   {
    "channel": "referral",
@@ -43,7 +43,7 @@
    "channel": "ai",
    "views": 32,
    "reads": 17,
-   "sessions": 40
+   "sessions": 39
   },
   {
    "channel": "campaign:copilot.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2962,
+   "views": 2959,
    "reads": 176,
    "completes": 29,
-   "sessions": 2924,
+   "sessions": 2921,
    "read_rate": 0.059,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -101,12 +101,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 85,
-   "reads": 24,
+   "views": 84,
+   "reads": 23,
    "completes": 3,
-   "sessions": 83,
-   "read_rate": 0.282,
-   "complete_rate": 0.035,
+   "sessions": 82,
+   "read_rate": 0.274,
+   "complete_rate": 0.036,
    "pages_per_session": 1.02,
    "median_dwell_sec": null
   },
@@ -126,10 +126,10 @@
    "views": 32,
    "reads": 17,
    "completes": 1,
-   "sessions": 40,
+   "sessions": 39,
    "read_rate": 0.531,
    "complete_rate": 0.031,
-   "pages_per_session": 0.8,
+   "pages_per_session": 0.82,
    "median_dwell_sec": 18
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 89,
-   "reads": 24,
-   "sessions": 84
+   "views": 88,
+   "reads": 23,
+   "sessions": 83
   },
   {
    "assistant": "Doubao",
@@ -324,15 +324,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2509,
-   "reads": 275,
-   "sessions": 2390
+   "views": 2508,
+   "reads": 274,
+   "sessions": 2389
   },
   {
    "device": "mobile",
-   "views": 744,
+   "views": 741,
    "reads": 15,
-   "sessions": 727
+   "sessions": 724
   },
   {
    "device": "tablet",
@@ -398,7 +398,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 6,
+   "views": 5,
    "reads": 5,
    "plays": 0
   },
@@ -657,16 +657,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 14,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
@@ -694,6 +684,16 @@
    "author": "priya",
    "views": 13,
    "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 13,
+   "reads": 1,
    "plays": 0
   }
  ],
@@ -812,8 +812,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 47,
-   "sessions": 25
+   "hits": 45,
+   "sessions": 24
   },
   {
    "ref": "https://cn.bing.com/",
