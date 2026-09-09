@@ -1,22 +1,9 @@
 {
- "fetched_at": "2026-09-04T12:05:18.007Z",
+ "fetched_at": "2026-09-09T11:46:32.785Z",
  "seeds": 25,
  "phrases": 457,
- "gaps": 270,
+ "gaps": 265,
  "top_gaps": [
-  {
-   "phrase": "ai agent security best practices",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "ai agent security"
-   ],
-   "score": 7,
-   "covered": null
-  },
   {
    "phrase": "ai agent security jobs",
    "engines": [
@@ -39,19 +26,6 @@
    ],
    "seeds": [
     "best ai agent"
-   ],
-   "score": 7,
-   "covered": null
-  },
-  {
-   "phrase": "best llm for image generation",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "best llm for"
    ],
    "score": 7,
    "covered": null
@@ -130,19 +104,6 @@
    ],
    "seeds": [
     "local llm"
-   ],
-   "score": 7,
-   "covered": null
-  },
-  {
-   "phrase": "mcp server meaning",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "mcp server"
    ],
    "score": 7,
    "covered": null
@@ -446,18 +407,6 @@
    "covered": null
   },
   {
-   "phrase": "best ai agents today",
-   "engines": [
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "best ai agent"
-   ],
-   "score": 5,
-   "covered": null
-  },
-  {
    "phrase": "best ai coding apps",
    "engines": [
     "google",
@@ -495,6 +444,54 @@
   },
   {
    "phrase": "best cloud gpu service",
+   "engines": [
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "best gpu cloud"
+   ],
+   "score": 5,
+   "covered": null
+  },
+  {
+   "phrase": "best gpu clock speed",
+   "engines": [
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "best gpu cloud"
+   ],
+   "score": 5,
+   "covered": null
+  },
+  {
+   "phrase": "best gpu clock speed for gaming",
+   "engines": [
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "best gpu cloud"
+   ],
+   "score": 5,
+   "covered": null
+  },
+  {
+   "phrase": "best gpu club386",
+   "engines": [
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "best gpu cloud"
+   ],
+   "score": 5,
+   "covered": null
+  },
+  {
+   "phrase": "best gpu coding model 12gb",
    "engines": [
     "bing",
     "ddg"
@@ -620,6 +617,22 @@
    }
   },
   {
+   "phrase": "ai agent security best practices",
+   "engines": [
+    "google",
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "ai agent security"
+   ],
+   "score": 7,
+   "covered": {
+    "slug": "ai-agent-security-best-practices-2026",
+    "title": "AI Agent Security Best Practices: The 2026 Checklist for Founders Shipping Agents"
+   }
+  },
+  {
    "phrase": "ai agent security risks",
    "engines": [
     "google",
@@ -649,22 +662,6 @@
    "covered": {
     "slug": "mcp-security-gateway-build-vs-buy-self-host-vs-runlayer",
     "title": "MCP Security Gateway: Build vs Buy — When a Founder Self-Hosts and When to Pay for One"
-   }
-  },
-  {
-   "phrase": "ai agent vs agentic ai",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "ai agent vs"
-   ],
-   "score": 7,
-   "covered": {
-    "slug": "2026-09-03-founders-wire-gemini-38-flash-build-vs-buy-agent-reliability-wonderful",
-    "title": "The Founder's Wire, September 3: Google's Gemini 3.8 Flash Is Cheap Until January 1, a Third of Companies Are Building Instead of Buying, and Daily Agent Use Hit 81%"
    }
   }
  ]
