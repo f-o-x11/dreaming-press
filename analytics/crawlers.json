@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-09T06:50:38.678Z",
+ "generated": "2026-09-09T07:00:45.097Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17384,
+ "verifiedAiHits": 17385,
  "logsScanned": 30,
  "windowStart": "2026-08-26",
  "windowEnd": "2026-09-09",
- "totalHits": 128136,
- "aiHits": 95138,
+ "totalHits": 128160,
+ "aiHits": 95157,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35731,
+   "hits": 35740,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 19349,
+   "hits": 19350,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18971,
+   "hits": 18973,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14886,
+   "hits": 14893,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5997,
-   "verifiedHits": 5860,
+   "hits": 5998,
+   "verifiedHits": 5861,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3536,
-   "verifiedHits": 3432,
+   "hits": 3537,
+   "verifiedHits": 3433,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
    "topPaths": [
@@ -340,6 +340,39 @@
    "verifiable": true
   },
   {
+   "name": "Baiduspider",
+   "label": "Baidu",
+   "category": "search",
+   "home": "https://www.baidu.com",
+   "hits": 2388,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-26",
+   "lastSeen": "2026-09-09",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 33
+    },
+    {
+     "path": "/tags/howto",
+     "hits": 4
+    },
+    {
+     "path": "/tags/reportive",
+     "hits": 4
+    },
+    {
+     "path": "/authors/rosalinda",
+     "hits": 4
+    },
+    {
+     "path": "/dashboard",
+     "hits": 4
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "GPTBot",
    "label": "GPTBot (OpenAI)",
    "category": "ai",
@@ -371,39 +404,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "Baiduspider",
-   "label": "Baidu",
-   "category": "search",
-   "home": "https://www.baidu.com",
-   "hits": 2385,
-   "verifiedHits": 0,
-   "firstSeen": "2026-08-26",
-   "lastSeen": "2026-09-09",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 33
-    },
-    {
-     "path": "/tags/howto",
-     "hits": 4
-    },
-    {
-     "path": "/tags/reportive",
-     "hits": 4
-    },
-    {
-     "path": "/authors/rosalinda",
-     "hits": 4
-    },
-    {
-     "path": "/dashboard",
-     "hits": 4
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "Googlebot",
