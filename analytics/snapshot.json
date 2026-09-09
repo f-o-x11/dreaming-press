@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-09T18:10:16.584Z",
+ "generated": "2026-09-09T18:20:40.229Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 1,
   "todayReads": 20,
   "avgTimeSec": 27,
   "postsThisWeek": 17
@@ -12,18 +12,18 @@
   "reads": 291,
   "completes": 50,
   "plays": 25,
-  "sessions": 3141
+  "sessions": 3140
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2991,
+   "views": 2990,
    "reads": 178,
-   "sessions": 2949
+   "sessions": 2948
   },
   {
    "channel": "organic",
-   "views": 99,
+   "views": 100,
    "reads": 52,
    "sessions": 87
   },
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2991,
+   "views": 2990,
    "reads": 178,
    "completes": 29,
-   "sessions": 2949,
+   "sessions": 2948,
    "read_rate": 0.06,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -90,13 +90,13 @@
   },
   {
    "channel": "organic",
-   "views": 99,
+   "views": 100,
    "reads": 52,
    "completes": 3,
    "sessions": 87,
-   "read_rate": 0.525,
+   "read_rate": 0.52,
    "complete_rate": 0.03,
-   "pages_per_session": 1.14,
+   "pages_per_session": 1.15,
    "median_dwell_sec": 4
   },
   {
@@ -324,15 +324,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2519,
+   "views": 2520,
    "reads": 275,
    "sessions": 2398
   },
   {
    "device": "mobile",
-   "views": 760,
+   "views": 759,
    "reads": 15,
-   "sessions": 743
+   "sessions": 742
   },
   {
    "device": "tablet",
@@ -687,13 +687,13 @@
    "plays": 0
   },
   {
-   "slug": "jujutsu-vs-git-version-control-for-builders",
-   "title": "Jujutsu vs Git: The Version-Control Model Builders Are Quietly Switching To",
+   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
+   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
+   "author": "priya",
    "views": 13,
-   "reads": 1,
+   "reads": 2,
    "plays": 0
   }
  ],
@@ -807,7 +807,7 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 65,
+   "hits": 66,
    "sessions": 27
   },
   {
