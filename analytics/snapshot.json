@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-09T08:32:16.783Z",
+ "generated": "2026-09-09T08:42:54.355Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 6,
+  "readersNow": 1,
+  "todayReads": 7,
   "avgTimeSec": 9,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3313,
-  "reads": 284,
+  "views": 3310,
+  "reads": 285,
   "completes": 50,
   "plays": 23,
-  "sessions": 3175
+  "sessions": 3171
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3026,
-   "reads": 180,
-   "sessions": 2984
+   "views": 3023,
+   "reads": 181,
+   "sessions": 2980
   },
   {
    "channel": "organic",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3026,
-   "reads": 180,
+   "views": 3023,
+   "reads": 181,
    "completes": 30,
-   "sessions": 2984,
-   "read_rate": 0.059,
+   "sessions": 2980,
+   "read_rate": 0.06,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
    "median_dwell_sec": 4
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2554,
-   "reads": 268,
-   "sessions": 2434
+   "views": 2551,
+   "reads": 269,
+   "sessions": 2430
   },
   {
    "device": "mobile",
@@ -483,10 +483,10 @@
    "plays": 2
   },
   {
-   "slug": "gpu-rental-price-map-h100-h200-b200-august-2026",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in August 2026",
+   "slug": "2026-06-22-presidio-vs-gliner-vs-llm-redaction",
+   "title": "Presidio vs GLiNER vs LLM Redaction: Stripping PII Before the Prompt Leaves Your Network",
    "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
+   "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 9,
    "reads": 3,
