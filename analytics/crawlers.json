@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-09T09:03:05.960Z",
+ "generated": "2026-09-09T09:13:14.556Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 17416,
  "logsScanned": 30,
  "windowStart": "2026-08-26",
  "windowEnd": "2026-09-09",
- "totalHits": 128707,
- "aiHits": 95590,
+ "totalHits": 128755,
+ "aiHits": 95628,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35927,
+   "hits": 35946,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 19410,
+   "hits": 19412,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14977,
+   "hits": 14985,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -123,11 +123,11 @@
      "hits": 14
     },
     {
-     "path": "/tags/opinionated",
-     "hits": 13
+     "path": "/stack.html",
+     "hits": 14
     },
     {
-     "path": "/stack.html",
+     "path": "/tags/opinionated",
      "hits": 13
     },
     {
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6020,
-   "verifiedHits": 5883,
+   "hits": 6025,
+   "verifiedHits": 5888,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5178,
+   "hits": 5188,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -226,15 +226,15 @@
      "hits": 3
     },
     {
+     "path": "/posts/kimi-k3-self-host-vs-api-what-1-4tb-open-weights-cost-founders.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/2026-07-26-founder-shipping-log-model-wave-late-july.html",
+     "hits": 2
+    },
+    {
      "path": "/posts/build-cost-aware-model-router-for-your-agent.html",
-     "hits": 2
-    },
-    {
-     "path": "/compare",
-     "hits": 2
-    },
-    {
-     "path": "/terraform.tfstate",
      "hits": 2
     }
    ],
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2413,
+   "hits": 2415,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 756,
+   "hits": 757,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 553,
+   "hits": 554,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
