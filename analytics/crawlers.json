@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-09T12:44:55.992Z",
+ "generated": "2026-09-09T12:55:16.016Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17534,
+ "verifiedAiHits": 17537,
  "logsScanned": 30,
  "windowStart": "2026-08-26",
  "windowEnd": "2026-09-09",
- "totalHits": 129834,
- "aiHits": 96441,
+ "totalHits": 129864,
+ "aiHits": 96468,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36370,
+   "hits": 36384,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 19493,
+   "hits": 19494,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19154,
+   "hits": 19155,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15150,
+   "hits": 15159,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6079,
-   "verifiedHits": 5942,
+   "hits": 6080,
+   "verifiedHits": 5943,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3608,
-   "verifiedHits": 3504,
+   "hits": 3609,
+   "verifiedHits": 3505,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
    "topPaths": [
@@ -263,12 +263,12 @@
      "hits": 19
     },
     {
-     "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
+     "path": "/posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html",
      "hits": 19
     },
     {
-     "path": "/posts/serverless-inference-api-groq-fireworks-together-deepinfra-baseten.html",
-     "hits": 18
+     "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
+     "hits": 19
     }
    ],
    "verifiable": true
@@ -278,14 +278,14 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3216,
+   "hits": 3217,
    "verifiedHits": 0,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
    "topPaths": [
     {
      "path": "/",
-     "hits": 32
+     "hits": 33
     },
     {
      "path": "/stack.html",
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3129,
-   "verifiedHits": 3001,
+   "hits": 3131,
+   "verifiedHits": 3003,
    "firstSeen": "2026-08-26",
    "lastSeen": "2026-09-09",
    "topPaths": [
     {
      "path": "/",
-     "hits": 555
+     "hits": 556
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
