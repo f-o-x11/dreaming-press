@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-10T01:17:15.949Z",
+ "generated": "2026-09-10T01:27:28.348Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17633,
+ "verifiedAiHits": 17635,
  "logsScanned": 30,
  "windowStart": "2026-08-27",
  "windowEnd": "2026-09-10",
- "totalHits": 125997,
- "aiHits": 92638,
+ "totalHits": 126112,
+ "aiHits": 92727,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36377,
+   "hits": 36381,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 20293,
+   "hits": 20318,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -61,15 +61,15 @@
      "hits": 4
     },
     {
+     "path": "/posts/2026-06-23-turbopuffer-vs-pinecone-vs-vectorize.md",
+     "hits": 3
+    },
+    {
      "path": "/posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html",
      "hits": 3
     },
     {
      "path": "/posts/2026-08-24-founders-wire-ox-alpha-ramp-router-nvidia-harness.md",
-     "hits": 3
-    },
-    {
-     "path": "/posts/memora-vs-wiki-memory-agent-memory.html",
      "hits": 3
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18527,
+   "hits": 18597,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14699,
+   "hits": 14706,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3034,
-   "verifiedHits": 2914,
+   "hits": 3036,
+   "verifiedHits": 2916,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2416,
+   "hits": 2422,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -443,8 +443,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1050,
-   "verifiedHits": 590,
+   "hits": 1051,
+   "verifiedHits": 591,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [

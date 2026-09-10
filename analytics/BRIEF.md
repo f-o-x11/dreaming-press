@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-10T01:17Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-10T01:27Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3233 views → 285 engaged reads → 50 completes · 3099 sessions.
-- Channels: direct 174r/2942v · organic 54r/102v · campaign:chatgpt.com 22r/83v · referral 17r/64v · ai 16r/31v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v · social 0r/8v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3233 views → 286 engaged reads → 50 completes · 3099 sessions.
+- Channels: direct 175r/2942v · organic 54r/102v · campaign:chatgpt.com 22r/83v · referral 17r/64v · ai 16r/31v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v · social 0r/8v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 22r/87v · Doubao 8r/9v · Perplexity 4r/4v · DeepSeek 1r/4v · Grok 1r/3v · Copilot 1r/1v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, l.instagram.com, google.com, duckduckgo.com, doubao.com, nav-cmp, dash-range, 114.114.114.114:9421.
 - Engaged-read winners by section: stack=3, wire=12.
@@ -38,7 +38,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet" — 13 reads, 34 views, 2 listens
 - [wire] "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory" — 9 reads, 11 views, 1 listens
 - [wire] "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together" — 8 reads, 12 views, 7 listens
-- [wire] "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model" — 7 reads, 10 views, 7 listens
+- [wire] "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model" — 7 reads, 11 views, 7 listens
 - [stack] "LM Studio Bionic: A Private, Local Agent for Open Models — What It Is, Who It's For, How to Start" — 6 reads, 9 views, 0 listens
 - [wire] "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents" — 5 reads, 5 views, 0 listens
 - [wire] "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy" — 4 reads, 9 views, 0 listens
@@ -66,7 +66,7 @@ so what these earn from humans is the other half of the picture.
 - /build — 29 views, 0 reads, 29 sessions, avg 4s
 - /dashboard — 19 views, 1 reads, 7 sessions, avg 22s
 - /alternatives/:tool — 17 views, 0 reads, 17 sessions, avg 4s
-- /tools — 17 views, 0 reads, 17 sessions, avg 7s
+- /tools — 16 views, 0 reads, 16 sessions, avg 7s
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
 
@@ -107,7 +107,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (9161 verified): /build ×151 · / ×25 · /dashboard ×16
 - OAI-SearchBot (3294 verified): /build ×25 · / ×23 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×19
-- ChatGPT-User (2914 verified): / ×540 · /posts/agent-funding-august-2026-control-won-the-summer.html ×116 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×83
+- ChatGPT-User (2916 verified): / ×540 · /posts/agent-funding-august-2026-control-won-the-summer.html ×116 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×83
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -155,7 +155,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17633 confirmed AI-engine fetches (Perplexity 9161, ChatGPT Search (OpenAI) 3294, ChatGPT (user browsing) 2914, GPTBot (OpenAI) 2264).
+The real answer engines are crawling us — IP-verified: 17635 confirmed AI-engine fetches (Perplexity 9161, ChatGPT Search (OpenAI) 3294, ChatGPT (user browsing) 2916, GPTBot (OpenAI) 2264).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 669 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 116 crawler fetches
