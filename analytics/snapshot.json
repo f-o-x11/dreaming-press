@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-10T12:36:07.318Z",
+ "generated": "2026-09-10T12:46:16.479Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 25,
-  "avgTimeSec": 27,
+  "readersNow": 4,
+  "todayReads": 27,
+  "avgTimeSec": 28,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3225,
-  "reads": 299,
+  "views": 3229,
+  "reads": 301,
   "completes": 52,
-  "plays": 26,
-  "sessions": 3090
+  "plays": 27,
+  "sessions": 3094
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2935,
+   "views": 2937,
    "reads": 183,
-   "sessions": 2904
+   "sessions": 2907
   },
   {
    "channel": "organic",
-   "views": 105,
-   "reads": 57,
-   "sessions": 92
+   "views": 107,
+   "reads": 59,
+   "sessions": 94
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2935,
+   "views": 2937,
    "reads": 183,
    "completes": 30,
-   "sessions": 2904,
+   "sessions": 2907,
    "read_rate": 0.062,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -90,12 +90,12 @@
   },
   {
    "channel": "organic",
-   "views": 105,
-   "reads": 57,
+   "views": 107,
+   "reads": 59,
    "completes": 3,
-   "sessions": 92,
-   "read_rate": 0.543,
-   "complete_rate": 0.029,
+   "sessions": 94,
+   "read_rate": 0.551,
+   "complete_rate": 0.028,
    "pages_per_session": 1.14,
    "median_dwell_sec": 4
   },
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2502,
-   "reads": 282,
-   "sessions": 2385
+   "views": 2506,
+   "reads": 284,
+   "sessions": 2389
   },
   {
    "device": "mobile",
@@ -585,11 +585,11 @@
    "plays": 1
   },
   {
-   "slug": "tool-choice-auto-vs-required-vs-forced",
-   "title": "Tool Choice: auto vs required vs Forcing One Tool",
+   "slug": "self-rag-vs-corrective-rag-vs-adaptive-rag-retrieval-self-check",
+   "title": "Self-RAG vs Corrective RAG vs Adaptive-RAG: Three Ways to Make Retrieval Check Itself",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
+   "author": "priya",
    "views": 3,
    "reads": 1,
    "plays": 1
@@ -735,9 +735,9 @@
   },
   {
    "path": "/dashboard",
-   "views": 20,
+   "views": 21,
    "reads": 1,
-   "sessions": 8,
+   "sessions": 9,
    "avg_dwell_sec": 20
   },
   {
@@ -807,8 +807,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 69,
-   "sessions": 29
+   "hits": 74,
+   "sessions": 31
   },
   {
    "ref": "https://chatgpt.com/",
