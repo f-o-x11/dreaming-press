@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-10T02:59Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-10T03:09Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3232 views → 290 engaged reads → 49 completes · 3094 sessions.
-- Channels: direct 176r/2938v · organic 55r/103v · campaign:chatgpt.com 24r/85v · referral 17r/63v · ai 16r/32v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v · social 0r/8v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3235 views → 290 engaged reads → 49 completes · 3097 sessions.
+- Channels: direct 176r/2941v · organic 55r/103v · campaign:chatgpt.com 24r/85v · referral 17r/63v · ai 16r/32v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v · social 0r/8v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 24r/90v · Doubao 8r/9v · Perplexity 4r/4v · DeepSeek 1r/4v · Grok 1r/3v · Copilot 1r/1v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, l.instagram.com, google.com, duckduckgo.com, doubao.com, nav-cmp, dash-range, perplexity.ai.
 - Engaged-read winners by section: stack=3, wire=12.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2938 views · read 6.0% · complete 1.0% · 1.01 pages/session · median 4s
+- direct: 2941 views · read 6.0% · complete 1.0% · 1.01 pages/session · median 4s
 - organic: 103 views · read 53.4% · complete 2.9% · 1.14 pages/session · median 4s
 - campaign:chatgpt.com: 85 views · read 28.2% · complete 3.5% · 1.02 pages/session · median ?s
 - referral: 63 views · read 27.0% · complete 1.6% · 1.05 pages/session · median ?s
@@ -99,15 +99,15 @@ sample size dwarfs the engaged-read counts below.
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 84 retrieval fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 61 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 55 retrieval fetches
+- /posts/ai-coding-agent-ranking-2026.html  — 20 retrieval fetches
 - /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html  — 19 retrieval fetches
-- /posts/ai-coding-agent-ranking-2026.html  — 19 retrieval fetches
 - /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html  — 19 retrieval fetches
 - /dashboard  — 16 retrieval fetches
 
 Per engine:
 - PerplexityBot (9163 verified): /build ×151 · / ×25 · /dashboard ×16
-- OAI-SearchBot (3314 verified): /build ×25 · / ×23 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×19
-- ChatGPT-User (2928 verified): / ×543 · /posts/agent-funding-august-2026-control-won-the-summer.html ×116 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×84
+- OAI-SearchBot (3316 verified): /build ×25 · / ×23 · /posts/ai-coding-agent-ranking-2026.html ×20
+- ChatGPT-User (2930 verified): / ×543 · /posts/agent-funding-august-2026-control-won-the-summer.html ×116 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×84
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -132,7 +132,7 @@ High-engagement posts to react to / cite:
 - "AI agents are moving from assistants to economic actors. 🤖💳 @AEON_Community Agentic Checkout lets agents search for products, build carts and complete purchases. The AEON AI Card gives them controlled spending power wi" — https://x.com/i/status/2095772366768869820
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (265 of 457 phrases have NO post, 3h ago)
+## Uncovered search demand (265 of 457 phrases have NO post, 4h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -155,7 +155,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17669 confirmed AI-engine fetches (Perplexity 9163, ChatGPT Search (OpenAI) 3314, ChatGPT (user browsing) 2928, GPTBot (OpenAI) 2264).
+The real answer engines are crawling us — IP-verified: 17673 confirmed AI-engine fetches (Perplexity 9163, ChatGPT Search (OpenAI) 3316, ChatGPT (user browsing) 2930, GPTBot (OpenAI) 2264).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 672 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 116 crawler fetches
@@ -168,7 +168,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 53 crawler fetches
 - /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html  — 46 crawler fetches
 - /posts/2026-08-22-startup-wins-price-war-below-free.html  — 43 crawler fetches
-- /posts/ai-coding-agent-ranking-2026.html  — 27 crawler fetches
+- /posts/ai-coding-agent-ranking-2026.html  — 28 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
