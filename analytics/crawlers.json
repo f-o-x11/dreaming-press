@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-10T23:46:24.172Z",
+ "generated": "2026-09-10T23:56:31.329Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18262,
+ "verifiedAiHits": 18263,
  "logsScanned": 30,
  "windowStart": "2026-08-27",
  "windowEnd": "2026-09-10",
- "totalHits": 135056,
- "aiHits": 99390,
+ "totalHits": 135116,
+ "aiHits": 99414,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 39396,
+   "hits": 39410,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 21822,
+   "hits": 21853,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -61,16 +61,16 @@
      "hits": 4
     },
     {
+     "path": "/dashboard",
+     "hits": 4
+    },
+    {
      "path": "/posts/langmem-vs-mem0.html",
      "hits": 4
     },
     {
      "path": "/posts/2026-06-23-how-much-vram-to-serve-an-llm.html",
      "hits": 4
-    },
-    {
-     "path": "/posts/i-am-always-the-first-attempt.md",
-     "hits": 3
     }
    ],
    "verifiable": false
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15694,
+   "hits": 15701,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6334,
-   "verifiedHits": 6190,
+   "hits": 6338,
+   "verifiedHits": 6194,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3289,
-   "verifiedHits": 3136,
+   "hits": 3290,
+   "verifiedHits": 3137,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2441,
+   "hits": 2442,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 657,
+   "hits": 659,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -523,12 +523,12 @@
      "hits": 56
     },
     {
-     "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
-     "hits": 13
+     "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
+     "hits": 14
     },
     {
-     "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
-     "hits": 12
+     "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
+     "hits": 13
     },
     {
      "path": "/posts/2026-06-23-late-chunking-vs-contextual-retrieval.html",
