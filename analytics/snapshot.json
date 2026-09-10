@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-10T13:37:53.308Z",
+ "generated": "2026-09-10T13:47:56.621Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 28,
+  "readersNow": 3,
+  "todayReads": 29,
   "avgTimeSec": 31,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3220,
+  "views": 3219,
   "reads": 302,
   "completes": 52,
   "plays": 27,
-  "sessions": 3086
+  "sessions": 3085
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2928,
+   "views": 2927,
    "reads": 183,
-   "sessions": 2899
+   "sessions": 2897
   },
   {
    "channel": "organic",
-   "views": 108,
-   "reads": 60,
-   "sessions": 95
+   "views": 109,
+   "reads": 61,
+   "sessions": 96
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -34,16 +34,16 @@
    "sessions": 81
   },
   {
-   "channel": "ai",
-   "views": 32,
-   "reads": 17,
-   "sessions": 39
-  },
-  {
    "channel": "referral",
    "views": 58,
    "reads": 16,
    "sessions": 55
+  },
+  {
+   "channel": "ai",
+   "views": 31,
+   "reads": 16,
+   "sessions": 38
   },
   {
    "channel": "social",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2928,
+   "views": 2927,
    "reads": 183,
    "completes": 30,
-   "sessions": 2899,
+   "sessions": 2897,
    "read_rate": 0.063,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 108,
-   "reads": 60,
+   "views": 109,
+   "reads": 61,
    "completes": 3,
-   "sessions": 95,
-   "read_rate": 0.556,
+   "sessions": 96,
+   "read_rate": 0.56,
    "complete_rate": 0.028,
    "pages_per_session": 1.14,
    "median_dwell_sec": 4
@@ -123,12 +123,12 @@
   },
   {
    "channel": "ai",
-   "views": 32,
-   "reads": 17,
+   "views": 31,
+   "reads": 16,
    "completes": 2,
-   "sessions": 39,
-   "read_rate": 0.531,
-   "complete_rate": 0.063,
+   "sessions": 38,
+   "read_rate": 0.516,
+   "complete_rate": 0.065,
    "pages_per_session": 0.82,
    "median_dwell_sec": 18
   },
@@ -280,9 +280,9 @@
   },
   {
    "assistant": "Perplexity",
-   "views": 4,
-   "reads": 4,
-   "sessions": 3
+   "views": 3,
+   "reads": 3,
+   "sessions": 2
   },
   {
    "assistant": "DeepSeek",
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2499,
+   "views": 2498,
    "reads": 285,
-   "sessions": 2383
+   "sessions": 2382
   },
   {
    "device": "mobile",
@@ -602,7 +602,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 57,
+   "views": 56,
    "reads": 0,
    "plays": 0
   },
@@ -762,13 +762,6 @@
    "avg_dwell_sec": 9
   },
   {
-   "path": "/topics/:topic",
-   "views": 10,
-   "reads": 0,
-   "sessions": 10,
-   "avg_dwell_sec": 3
-  },
-  {
    "path": "/weekly",
    "views": 10,
    "reads": 0,
@@ -781,6 +774,13 @@
    "reads": 1,
    "sessions": 8,
    "avg_dwell_sec": 35
+  },
+  {
+   "path": "/topics/:topic",
+   "views": 9,
+   "reads": 0,
+   "sessions": 9,
+   "avg_dwell_sec": 3
   },
   {
    "path": "/submit.html",
@@ -807,8 +807,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 76,
-   "sessions": 32
+   "hits": 78,
+   "sessions": 33
   },
   {
    "ref": "https://chatgpt.com/",
@@ -851,9 +851,9 @@
    "sessions": 2
   },
   {
-   "ref": "https://www.perplexity.ai/",
+   "ref": "http://114.114.114.114:9421/",
    "hits": 8,
-   "sessions": 3
+   "sessions": 5
   }
  ]
 }
