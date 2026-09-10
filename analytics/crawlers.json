@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-10T01:48:15.934Z",
+ "generated": "2026-09-10T01:58:49.535Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 17638,
  "logsScanned": 30,
  "windowStart": "2026-08-27",
  "windowEnd": "2026-09-10",
- "totalHits": 126247,
- "aiHits": 92814,
+ "totalHits": 126288,
+ "aiHits": 92830,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36441,
+   "hits": 36449,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 20353,
+   "hits": 20371,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -65,11 +65,11 @@
      "hits": 3
     },
     {
-     "path": "/posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html",
+     "path": "/posts/llm-judge-reliability-vs-validity.md",
      "hits": 3
     },
     {
-     "path": "/posts/2026-08-24-founders-wire-ox-alpha-ramp-router-nvidia-harness.md",
+     "path": "/posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html",
      "hits": 3
     }
    ],
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14721,
+   "hits": 14729,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5914,
-   "verifiedHits": 5783,
+   "hits": 5920,
+   "verifiedHits": 5789,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2326,
+   "hits": 2327,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
