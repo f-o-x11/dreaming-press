@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-10T14:28:30.457Z",
+ "generated": "2026-09-10T14:38:37.966Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
-  "todayReads": 30,
-  "avgTimeSec": 30,
+  "todayReads": 31,
+  "avgTimeSec": 31,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3227,
+  "views": 3224,
   "reads": 303,
   "completes": 52,
   "plays": 27,
-  "sessions": 3093
+  "sessions": 3090
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2934,
-   "reads": 183,
-   "sessions": 2905
+   "views": 2930,
+   "reads": 182,
+   "sessions": 2902
   },
   {
    "channel": "organic",
-   "views": 110,
-   "reads": 62,
-   "sessions": 97
+   "views": 111,
+   "reads": 63,
+   "sessions": 98
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2934,
-   "reads": 183,
+   "views": 2930,
+   "reads": 182,
    "completes": 30,
-   "sessions": 2905,
+   "sessions": 2902,
    "read_rate": 0.062,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 110,
-   "reads": 62,
+   "views": 111,
+   "reads": 63,
    "completes": 3,
-   "sessions": 97,
-   "read_rate": 0.564,
+   "sessions": 98,
+   "read_rate": 0.568,
    "complete_rate": 0.027,
    "pages_per_session": 1.13,
    "median_dwell_sec": 4
@@ -324,15 +324,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2507,
-   "reads": 286,
-   "sessions": 2391
+   "views": 2505,
+   "reads": 285,
+   "sessions": 2389
   },
   {
    "device": "mobile",
-   "views": 719,
-   "reads": 16,
-   "sessions": 702
+   "views": 718,
+   "reads": 17,
+   "sessions": 701
   },
   {
    "device": "tablet",
@@ -483,12 +483,12 @@
    "plays": 0
   },
   {
-   "slug": "how-to-write-a-claude-skill-that-triggers",
-   "title": "How to Write a Claude Skill That Actually Triggers: The SKILL.md Description Craft",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
+   "slug": "2026-06-24-hybrid-search-bm25-vs-dense-vs-rrf",
+   "title": "BM25 vs Dense vs Hybrid Search: How to Actually Combine Them for RAG",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 4,
+   "views": 5,
    "reads": 4,
    "plays": 0
   }
@@ -807,8 +807,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 80,
-   "sessions": 34
+   "hits": 82,
+   "sessions": 35
   },
   {
    "ref": "https://chatgpt.com/",
