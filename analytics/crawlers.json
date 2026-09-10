@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-10T10:54:46.216Z",
+ "generated": "2026-09-10T11:04:47.662Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17875,
+ "verifiedAiHits": 17876,
  "logsScanned": 30,
  "windowStart": "2026-08-27",
  "windowEnd": "2026-09-10",
- "totalHits": 129640,
- "aiHits": 95457,
+ "totalHits": 129797,
+ "aiHits": 95609,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37521,
+   "hits": 37660,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 182
+     "hits": 183
     },
     {
      "path": "/wire.html",
@@ -36,7 +36,7 @@
      "hits": 15
     },
     {
-     "path": "/posts/china-persona-law-took-effect-what-founders-do.html",
+     "path": "/posts/2026-06-21-graphrag-vs-vector-rag.html",
      "hits": 14
     }
    ],
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 20797,
+   "hits": 20800,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19172,
+   "hits": 19173,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15132,
+   "hits": 15142,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6060,
-   "verifiedHits": 5922,
+   "hits": 6062,
+   "verifiedHits": 5924,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3155,
-   "verifiedHits": 3013,
+   "hits": 3156,
+   "verifiedHits": 3014,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 620,
+   "hits": 621,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -523,11 +523,11 @@
      "hits": 56
     },
     {
-     "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
-     "hits": 11
+     "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
+     "hits": 12
     },
     {
-     "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
+     "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
      "hits": 11
     },
     {
