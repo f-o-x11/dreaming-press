@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-10T00:16:36.570Z",
+ "generated": "2026-09-10T00:26:42.505Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
-  "todayReads": 0,
+  "readersNow": 3,
+  "todayReads": 1,
   "avgTimeSec": 6,
   "postsThisWeek": 16
  },
  "funnel": {
   "views": 3240,
-  "reads": 286,
+  "reads": 287,
   "completes": 50,
   "plays": 26,
   "sessions": 3106
@@ -18,7 +18,7 @@
   {
    "channel": "direct",
    "views": 2948,
-   "reads": 174,
+   "reads": 175,
    "sessions": 2912
   },
   {
@@ -80,7 +80,7 @@
   {
    "channel": "direct",
    "views": 2948,
-   "reads": 174,
+   "reads": 175,
    "completes": 29,
    "sessions": 2912,
    "read_rate": 0.059,
@@ -325,7 +325,7 @@
   {
    "device": "desktop",
    "views": 2498,
-   "reads": 270,
+   "reads": 271,
    "sessions": 2382
   },
   {
@@ -443,6 +443,16 @@
    "plays": 0
   },
   {
+   "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
+   "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 6,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
    "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
    "section": "wire",
@@ -481,16 +491,6 @@
    "views": 10,
    "reads": 3,
    "plays": 2
-  },
-  {
-   "slug": "2026-06-22-presidio-vs-gliner-vs-llm-redaction",
-   "title": "Presidio vs GLiNER vs LLM Redaction: Stripping PII Before the Prompt Leaves Your Network",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 9,
-   "reads": 3,
-   "plays": 0
   }
  ],
  "topListens": [
