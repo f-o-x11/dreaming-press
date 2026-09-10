@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-10T01:58:49.535Z",
+ "generated": "2026-09-10T02:08:55.576Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17638,
+ "verifiedAiHits": 17639,
  "logsScanned": 30,
  "windowStart": "2026-08-27",
  "windowEnd": "2026-09-10",
- "totalHits": 126288,
- "aiHits": 92830,
+ "totalHits": 126319,
+ "aiHits": 92841,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36449,
+   "hits": 36451,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 20371,
+   "hits": 20383,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -69,7 +69,7 @@
      "hits": 3
     },
     {
-     "path": "/posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html",
+     "path": "/posts/2026-06-22-presidio-vs-gliner-vs-llm-redaction.md",
      "hits": 3
     }
    ],
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14729,
+   "hits": 14736,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3039,
-   "verifiedHits": 2919,
+   "hits": 3040,
+   "verifiedHits": 2920,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [
@@ -311,14 +311,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2422,
+   "hits": 2423,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 41
+     "hits": 42
     },
     {
      "path": "/posts/tool-highlight-vercel-sandbox-run-agent-code.html",
@@ -377,7 +377,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2327,
+   "hits": 2331,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -443,8 +443,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1052,
-   "verifiedHits": 592,
+   "hits": 1054,
+   "verifiedHits": 594,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 745,
+   "hits": 747,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
