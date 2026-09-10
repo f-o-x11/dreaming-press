@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-10T00:47:00.542Z",
+ "generated": "2026-09-10T00:57:07.103Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17630,
+ "verifiedAiHits": 17632,
  "logsScanned": 30,
  "windowStart": "2026-08-27",
  "windowEnd": "2026-09-10",
- "totalHits": 125889,
- "aiHits": 92585,
+ "totalHits": 125920,
+ "aiHits": 92601,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36345,
+   "hits": 36358,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 20257,
+   "hits": 20268,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5900,
-   "verifiedHits": 5769,
+   "hits": 5902,
+   "verifiedHits": 5771,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3032,
-   "verifiedHits": 2912,
+   "hits": 3033,
+   "verifiedHits": 2913,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [
@@ -301,7 +301,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
-     "hits": 54
+     "hits": 55
     }
    ],
    "verifiable": true
@@ -344,10 +344,10 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 2378,
-   "verifiedHits": 2263,
+   "hits": 2379,
+   "verifiedHits": 2264,
    "firstSeen": "2026-08-27",
-   "lastSeen": "2026-09-09",
+   "lastSeen": "2026-09-10",
    "topPaths": [
     {
      "path": "/build",
@@ -443,10 +443,10 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1046,
-   "verifiedHits": 586,
+   "hits": 1048,
+   "verifiedHits": 588,
    "firstSeen": "2026-08-27",
-   "lastSeen": "2026-09-09",
+   "lastSeen": "2026-09-10",
    "topPaths": [
     {
      "path": "/",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 570,
+   "hits": 571,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -520,7 +520,7 @@
     },
     {
      "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
-     "hits": 55
+     "hits": 56
     },
     {
      "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",

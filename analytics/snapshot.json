@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-10T00:47:01.180Z",
+ "generated": "2026-09-10T00:57:07.695Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 1,
   "todayReads": 1,
-  "avgTimeSec": 6,
+  "avgTimeSec": 8,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3238,
-  "reads": 287,
+  "views": 3235,
+  "reads": 286,
   "completes": 50,
   "plays": 26,
-  "sessions": 3104
+  "sessions": 3101
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2946,
+   "views": 2944,
    "reads": 175,
-   "sessions": 2910
+   "sessions": 2908
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "ai",
-   "views": 32,
-   "reads": 17,
-   "sessions": 39
+   "views": 31,
+   "reads": 16,
+   "sessions": 38
   },
   {
    "channel": "campaign:copilot.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2946,
+   "views": 2944,
    "reads": 175,
    "completes": 29,
-   "sessions": 2910,
+   "sessions": 2908,
    "read_rate": 0.059,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -123,12 +123,12 @@
   },
   {
    "channel": "ai",
-   "views": 32,
-   "reads": 17,
+   "views": 31,
+   "reads": 16,
    "completes": 1,
-   "sessions": 39,
-   "read_rate": 0.531,
-   "complete_rate": 0.031,
+   "sessions": 38,
+   "read_rate": 0.516,
+   "complete_rate": 0.032,
    "pages_per_session": 0.82,
    "median_dwell_sec": 18
   },
@@ -274,9 +274,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 10,
-   "reads": 9,
-   "sessions": 8
+   "views": 9,
+   "reads": 8,
+   "sessions": 7
   },
   {
    "assistant": "Perplexity",
@@ -324,15 +324,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2496,
-   "reads": 271,
-   "sessions": 2380
+   "views": 2494,
+   "reads": 270,
+   "sessions": 2378
   },
   {
    "device": "mobile",
-   "views": 741,
+   "views": 740,
    "reads": 15,
-   "sessions": 724
+   "sessions": 723
   },
   {
    "device": "tablet",
@@ -837,8 +837,8 @@
   },
   {
    "ref": "https://www.doubao.com/",
-   "hits": 19,
-   "sessions": 8
+   "hits": 17,
+   "sessions": 7
   },
   {
    "ref": "nav-cmp",
