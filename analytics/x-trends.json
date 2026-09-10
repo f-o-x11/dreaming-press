@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-10T17:41:43.643Z",
+ "generated": "2026-09-10T17:51:47.971Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -24,7 +24,7 @@
   },
   {
    "term": "build",
-   "count": 27
+   "count": 28
   },
   {
    "term": "mcp",
@@ -139,12 +139,6 @@
  ],
  "topPosts": [
   {
-   "text": "AI Engineering — Ultimate Roadmap (SAVE THIS)! ├── 01. LLM Fundamentals │ ├── Transformers &amp; Attention │ ├── Inference &amp; Decoding │ ├── Tokenization │ └── Context Window &amp; Limits │ ├── 02. Prompting &amp; Con",
-   "engagement": 1659,
-   "url": "https://x.com/i/status/2097389489408594192",
-   "created": "2026-09-08T18:19:56.000Z"
-  },
-  {
    "text": "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de",
    "engagement": 977,
    "url": "https://x.com/i/status/2095859430776533318",
@@ -185,6 +179,12 @@
    "engagement": 108,
    "url": "https://x.com/i/status/2096075332579385542",
    "created": "2026-09-05T03:17:57.000Z"
+  },
+  {
+   "text": "From Building to Launching Coddle (@coddleai)! A few months ago, Coddle was just an idea. I had been thinking about how fragmented product development can be and how much time teams spend moving between different tools, ",
+   "engagement": 61,
+   "url": "https://x.com/i/status/2096891946761347550",
+   "created": "2026-09-07T09:22:53.000Z"
   }
  ]
 }
