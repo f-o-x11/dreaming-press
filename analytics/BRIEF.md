@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-10T13:47Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-10T13:58Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -94,7 +94,7 @@ human just asked a question. Not index crawlers, which enumerate everything and 
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
 - /  — 614 retrieval fetches
-- /build  — 177 retrieval fetches
+- /build  — 178 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 117 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 86 retrieval fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 62 retrieval fetches
@@ -105,9 +105,9 @@ sample size dwarfs the engaged-read counts below.
 - /dashboard  — 16 retrieval fetches
 
 Per engine:
-- PerplexityBot (9194 verified): /build ×151 · / ×26 · /dashboard ×16
+- PerplexityBot (9199 verified): /build ×152 · / ×26 · /dashboard ×16
 - OAI-SearchBot (3419 verified): /build ×26 · / ×25 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×21
-- ChatGPT-User (3041 verified): / ×563 · /posts/agent-funding-august-2026-control-won-the-summer.html ×117 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×86
+- ChatGPT-User (3042 verified): / ×563 · /posts/agent-funding-august-2026-control-won-the-summer.html ×117 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×86
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -122,7 +122,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: startup(37), agents(36), agentic(30), founder(30), build(28), mcp(23), building(17), agent(13), code(11), product(11), saas(11), about(10), own(9), claude(9), autonomous(9).
+Hot terms: startup(37), agents(35), agentic(30), founder(30), build(27), mcp(23), building(17), agent(12), product(11), saas(11), code(10), about(10), own(9), claude(9), coding(8).
 Hashtags: #ai, #startup, #agenticai, #buildinpublic, #rag, #python, #aiengineer, #techcareers, #founder, #agents.
 High-engagement posts to react to / cite:
 - "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de" — https://x.com/i/status/2095859430776533318
@@ -155,13 +155,13 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17919 confirmed AI-engine fetches (Perplexity 9194, ChatGPT Search (OpenAI) 3419, ChatGPT (user browsing) 3041, GPTBot (OpenAI) 2265).
+The real answer engines are crawling us — IP-verified: 17925 confirmed AI-engine fetches (Perplexity 9199, ChatGPT Search (OpenAI) 3419, ChatGPT (user browsing) 3042, GPTBot (OpenAI) 2265).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 684 crawler fetches
+- /build  — 686 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 117 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 114 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 86 crawler fetches
-- /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 70 crawler fetches
+- /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 71 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 62 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 60 crawler fetches
 - /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 56 crawler fetches
