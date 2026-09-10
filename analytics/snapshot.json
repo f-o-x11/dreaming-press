@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-10T02:29:11.864Z",
+ "generated": "2026-09-10T02:39:16.864Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 5,
-  "avgTimeSec": 7,
+  "readersNow": 2,
+  "todayReads": 7,
+  "avgTimeSec": 25,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3228,
-  "reads": 287,
+  "views": 3233,
+  "reads": 289,
   "completes": 49,
   "plays": 26,
-  "sessions": 3094
+  "sessions": 3095
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2936,
-   "reads": 174,
-   "sessions": 2900
+   "views": 2939,
+   "reads": 175,
+   "sessions": 2902
   },
   {
    "channel": "organic",
-   "views": 102,
-   "reads": 54,
-   "sessions": 89
+   "views": 103,
+   "reads": 55,
+   "sessions": 90
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "ai",
-   "views": 31,
+   "views": 32,
    "reads": 16,
-   "sessions": 38
+   "sessions": 39
   },
   {
    "channel": "campaign:copilot.com",
@@ -73,30 +73,30 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 31
+   "sessions": 32
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2936,
-   "reads": 174,
+   "views": 2939,
+   "reads": 175,
    "completes": 28,
-   "sessions": 2900,
-   "read_rate": 0.059,
+   "sessions": 2902,
+   "read_rate": 0.06,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
    "median_dwell_sec": 4
   },
   {
    "channel": "organic",
-   "views": 102,
-   "reads": 54,
+   "views": 103,
+   "reads": 55,
    "completes": 3,
-   "sessions": 89,
-   "read_rate": 0.529,
+   "sessions": 90,
+   "read_rate": 0.534,
    "complete_rate": 0.029,
-   "pages_per_session": 1.15,
+   "pages_per_session": 1.14,
    "median_dwell_sec": 4
   },
   {
@@ -123,12 +123,12 @@
   },
   {
    "channel": "ai",
-   "views": 31,
+   "views": 32,
    "reads": 16,
    "completes": 1,
-   "sessions": 38,
-   "read_rate": 0.516,
-   "complete_rate": 0.032,
+   "sessions": 39,
+   "read_rate": 0.5,
+   "complete_rate": 0.031,
    "pages_per_session": 0.82,
    "median_dwell_sec": 18
   },
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 31,
+   "sessions": 32,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -191,8 +191,8 @@
  "navSurfaces": [
   {
    "surface": "nav-cmp",
-   "clicks": 12,
-   "sessions": 6
+   "clicks": 14,
+   "sessions": 7
   },
   {
    "surface": "dash-range",
@@ -200,13 +200,13 @@
    "sessions": 2
   },
   {
-   "surface": "article-body",
+   "surface": "brand",
    "clicks": 7,
-   "sessions": 6
+   "sessions": 7
   },
   {
-   "surface": "brand",
-   "clicks": 6,
+   "surface": "article-body",
+   "clicks": 7,
    "sessions": 6
   },
   {
@@ -268,7 +268,7 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 89,
+   "views": 90,
    "reads": 24,
    "sessions": 84
   },
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2492,
-   "reads": 271,
-   "sessions": 2376
+   "views": 2497,
+   "reads": 273,
+   "sessions": 2377
   },
   {
    "device": "mobile",
@@ -707,10 +707,10 @@
   },
   {
    "path": "/",
-   "views": 182,
+   "views": 183,
    "reads": 1,
-   "sessions": 179,
-   "avg_dwell_sec": 9
+   "sessions": 180,
+   "avg_dwell_sec": 10
   },
   {
    "path": "/compare/:pair",
@@ -762,6 +762,13 @@
    "avg_dwell_sec": 53
   },
   {
+   "path": "/stack.html",
+   "views": 10,
+   "reads": 0,
+   "sessions": 8,
+   "avg_dwell_sec": 9
+  },
+  {
    "path": "/topics/:topic",
    "views": 10,
    "reads": 0,
@@ -776,11 +783,11 @@
    "avg_dwell_sec": 5
   },
   {
-   "path": "/stack.html",
-   "views": 9,
+   "path": "/global-tech-news",
+   "views": 8,
    "reads": 0,
    "sessions": 7,
-   "avg_dwell_sec": 10
+   "avg_dwell_sec": 9
   },
   {
    "path": "/submit.html",
@@ -788,13 +795,6 @@
    "reads": 0,
    "sessions": 8,
    "avg_dwell_sec": 24
-  },
-  {
-   "path": "/global-tech-news",
-   "views": 7,
-   "reads": 0,
-   "sessions": 6,
-   "avg_dwell_sec": 11
   },
   {
    "path": "/subscribe",
@@ -817,8 +817,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 32,
-   "sessions": 17
+   "hits": 34,
+   "sessions": 18
   },
   {
    "ref": "https://l.instagram.com/",
@@ -842,8 +842,8 @@
   },
   {
    "ref": "nav-cmp",
-   "hits": 12,
-   "sessions": 6
+   "hits": 14,
+   "sessions": 7
   },
   {
    "ref": "dash-range",
