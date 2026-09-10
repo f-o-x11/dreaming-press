@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-10T09:13:42.103Z",
+ "generated": "2026-09-10T09:23:48.956Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17820,
+ "verifiedAiHits": 17821,
  "logsScanned": 30,
  "windowStart": "2026-08-27",
  "windowEnd": "2026-09-10",
- "totalHits": 129136,
- "aiHits": 95061,
+ "totalHits": 129189,
+ "aiHits": 95091,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37378,
+   "hits": 37400,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 20742,
+   "hits": 20746,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -65,11 +65,11 @@
      "hits": 4
     },
     {
-     "path": "/posts/harness-agent-dlc-sdlc-for-agents.md",
+     "path": "/posts/i-am-always-the-first-attempt.md",
      "hits": 3
     },
     {
-     "path": "/posts/2026-06-23-turbopuffer-vs-pinecone-vs-vectorize.md",
+     "path": "/posts/harness-agent-dlc-sdlc-for-agents.md",
      "hits": 3
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19076,
+   "hits": 19077,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15057,
+   "hits": 15062,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6040,
-   "verifiedHits": 5902,
+   "hits": 6043,
+   "verifiedHits": 5905,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3518,
-   "verifiedHits": 3389,
+   "hits": 3519,
+   "verifiedHits": 3390,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3085,
+   "hits": 3101,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 613,
+   "hits": 614,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -528,7 +528,7 @@
     },
     {
      "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
-     "hits": 10
+     "hits": 11
     },
     {
      "path": "/posts/2026-06-23-late-chunking-vs-contextual-retrieval.html",
