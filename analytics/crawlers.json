@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-10T14:58:51.929Z",
+ "generated": "2026-09-10T15:08:55.771Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17961,
+ "verifiedAiHits": 17963,
  "logsScanned": 30,
  "windowStart": "2026-08-27",
  "windowEnd": "2026-09-10",
- "totalHits": 130797,
- "aiHits": 96314,
+ "totalHits": 130846,
+ "aiHits": 96339,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37985,
+   "hits": 38001,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 20989,
+   "hits": 21010,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -61,15 +61,15 @@
      "hits": 4
     },
     {
+     "path": "/posts/langmem-vs-mem0.html",
+     "hits": 4
+    },
+    {
      "path": "/posts/2026-06-23-how-much-vram-to-serve-an-llm.html",
      "hits": 4
     },
     {
      "path": "/posts/i-am-always-the-first-attempt.md",
-     "hits": 3
-    },
-    {
-     "path": "/posts/harness-agent-dlc-sdlc-for-agents.md",
      "hits": 3
     }
    ],
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15317,
+   "hits": 15324,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 9374,
-   "verifiedHits": 9216,
+   "hits": 9375,
+   "verifiedHits": 9217,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6115,
-   "verifiedHits": 5977,
+   "hits": 6118,
+   "verifiedHits": 5980,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3197,
-   "verifiedHits": 3055,
+   "hits": 3198,
+   "verifiedHits": 3056,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [
