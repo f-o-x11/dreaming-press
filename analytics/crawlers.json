@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-10T04:10:15.742Z",
+ "generated": "2026-09-10T04:20:16.193Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17719,
+ "verifiedAiHits": 17726,
  "logsScanned": 30,
  "windowStart": "2026-08-27",
  "windowEnd": "2026-09-10",
- "totalHits": 127158,
- "aiHits": 93395,
+ "totalHits": 127281,
+ "aiHits": 93505,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36687,
+   "hits": 36704,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 20571,
+   "hits": 20583,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18693,
+   "hits": 18759,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -95,14 +95,14 @@
     },
     {
      "path": "/stack.html",
-     "hits": 10
+     "hits": 11
     },
     {
-     "path": "/",
+     "path": "/posts/2026-06-23-prefill-vs-decode-llm-inference.html",
      "hits": 8
     },
     {
-     "path": "/apps",
+     "path": "/",
      "hits": 8
     }
    ],
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14820,
+   "hits": 14827,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -135,8 +135,8 @@
      "hits": 12
     },
     {
-     "path": "/stack/brave-search",
-     "hits": 9
+     "path": "/stacks/autogen%2Bcloudflare-ai-gateway%2Bmem0",
+     "hits": 10
     }
    ],
    "verifiable": false
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5969,
-   "verifiedHits": 5831,
+   "hits": 5970,
+   "verifiedHits": 5832,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3452,
-   "verifiedHits": 3343,
+   "hits": 3459,
+   "verifiedHits": 3350,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [
@@ -234,8 +234,8 @@
      "hits": 20
     },
     {
-     "path": "/posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html",
-     "hits": 19
+     "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
+     "hits": 20
     }
    ],
    "verifiable": true
@@ -410,13 +410,17 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 1272,
+   "hits": 1284,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [
     {
      "path": "/posts/mcp-server-github-connect-and-build.md",
+     "hits": 2
+    },
+    {
+     "path": "/posts/how-to-deploy-an-llm-locally-2026.html",
      "hits": 2
     },
     {
@@ -429,10 +433,6 @@
     },
     {
      "path": "/posts/2026-08-25-founders-wire-nvidia-price-hike-hugging-face-sale-groq-lpx.md",
-     "hits": 2
-    },
-    {
-     "path": "/posts/running-ai-agents-on-kubernetes-kagent-agentgateway.md",
      "hits": 2
     }
    ],
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 576,
+   "hits": 577,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
