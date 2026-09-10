@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-10T20:03:39.569Z",
+ "generated": "2026-09-10T20:13:47.387Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -7,12 +7,12 @@
  ],
  "topTerms": [
   {
-   "term": "startup",
+   "term": "agents",
    "count": 36
   },
   {
-   "term": "agents",
-   "count": 35
+   "term": "startup",
+   "count": 36
   },
   {
    "term": "founder",
@@ -20,15 +20,15 @@
   },
   {
    "term": "agentic",
-   "count": 29
+   "count": 30
   },
   {
    "term": "build",
-   "count": 24
+   "count": 25
   },
   {
    "term": "mcp",
-   "count": 20
+   "count": 21
   },
   {
    "term": "building",
@@ -36,7 +36,7 @@
   },
   {
    "term": "agent",
-   "count": 11
+   "count": 12
   },
   {
    "term": "product",
@@ -55,16 +55,16 @@
    "count": 10
   },
   {
-   "term": "claude",
-   "count": 9
-  },
-  {
    "term": "about",
-   "count": 9
+   "count": 10
   },
   {
    "term": "own",
-   "count": 8
+   "count": 9
+  },
+  {
+   "term": "claude",
+   "count": 9
   },
   {
    "term": "coding",
