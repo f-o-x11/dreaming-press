@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-10T11:35:16.882Z",
+ "generated": "2026-09-10T11:45:31.375Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 22,
+  "readersNow": 4,
+  "todayReads": 23,
   "avgTimeSec": 28,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3218,
-  "reads": 296,
+  "views": 3221,
+  "reads": 297,
   "completes": 52,
   "plays": 26,
-  "sessions": 3083
+  "sessions": 3086
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2931,
+   "views": 2933,
    "reads": 183,
-   "sessions": 2898
+   "sessions": 2901
   },
   {
    "channel": "organic",
@@ -46,6 +46,12 @@
    "sessions": 55
   },
   {
+   "channel": "social",
+   "views": 9,
+   "reads": 1,
+   "sessions": 7
+  },
+  {
    "channel": "campaign:copilot.com",
    "views": 1,
    "reads": 1,
@@ -56,12 +62,6 @@
    "views": 1,
    "reads": 1,
    "sessions": 1
-  },
-  {
-   "channel": "social",
-   "views": 8,
-   "reads": 0,
-   "sessions": 6
   },
   {
    "channel": "campaign:producthunt/",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2931,
+   "views": 2933,
    "reads": 183,
    "completes": 30,
-   "sessions": 2898,
+   "sessions": 2901,
    "read_rate": 0.062,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -134,13 +134,13 @@
   },
   {
    "channel": "social",
-   "views": 8,
-   "reads": 0,
+   "views": 9,
+   "reads": 1,
    "completes": 0,
-   "sessions": 6,
-   "read_rate": 0,
+   "sessions": 7,
+   "read_rate": 0.111,
    "complete_rate": 0,
-   "pages_per_session": 1.33,
+   "pages_per_session": 1.29,
    "median_dwell_sec": null
   },
   {
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2494,
-   "reads": 279,
-   "sessions": 2377
+   "views": 2497,
+   "reads": 280,
+   "sessions": 2380
   },
   {
    "device": "mobile",
@@ -667,6 +667,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
+   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 13,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
    "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
    "section": "wire",
@@ -685,16 +695,6 @@
    "views": 13,
    "reads": 1,
    "plays": 0
-  },
-  {
-   "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
-   "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 12,
-   "reads": 8,
-   "plays": 7
   }
  ],
  "topPages": [
@@ -707,9 +707,9 @@
   },
   {
    "path": "/",
-   "views": 181,
+   "views": 180,
    "reads": 1,
-   "sessions": 178,
+   "sessions": 177,
    "avg_dwell_sec": 10
   },
   {
