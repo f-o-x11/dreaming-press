@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-10T06:21Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-10T06:31Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
 - Funnel: 3215 views → 289 engaged reads → 50 completes · 3076 sessions.
-- Channels: direct 174r/2928v · organic 55r/100v · campaign:chatgpt.com 24r/85v · referral 17r/59v · ai 17r/32v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v · social 0r/8v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Channels: direct 174r/2927v · organic 55r/101v · campaign:chatgpt.com 24r/85v · referral 17r/59v · ai 17r/32v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v · social 0r/8v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 24r/90v · Doubao 9r/10v · Perplexity 4r/4v · DeepSeek 1r/4v · Grok 1r/3v · Copilot 1r/1v · Yuanbao 1r/1v · Kimi 0r/2v · Claude 0r/2v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, l.instagram.com, google.com, duckduckgo.com, doubao.com, nav-cmp, dash-range, perplexity.ai.
 - Engaged-read winners by section: stack=3, wire=12.
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2928 views · read 5.9% · complete 1.0% · 1.01 pages/session · median 4s
-- organic: 100 views · read 55.0% · complete 3.0% · 1.15 pages/session · median 4s
+- direct: 2927 views · read 5.9% · complete 1.0% · 1.01 pages/session · median 4s
+- organic: 101 views · read 54.5% · complete 3.0% · 1.15 pages/session · median 4s
 - campaign:chatgpt.com: 85 views · read 28.2% · complete 3.5% · 1.02 pages/session · median ?s
 - referral: 59 views · read 28.8% · complete 1.7% · 1.05 pages/session · median ?s
 - ai: 32 views · read 53.1% · complete 6.3% · 0.82 pages/session · median 18s
@@ -59,7 +59,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 373 views, 0 reads, 369 sessions, avg 4s
+- /stack/:tool — 372 views, 0 reads, 368 sessions, avg 4s
 - / — 182 views, 1 reads, 179 sessions, avg 10s
 - /compare/:pair — 69 views, 0 reads, 69 sessions, avg 3s
 - /best/:cat — 37 views, 1 reads, 37 sessions, avg 4s
@@ -93,7 +93,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 599 retrieval fetches
+- /  — 600 retrieval fetches
 - /build  — 176 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 116 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 85 retrieval fetches
@@ -107,7 +107,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (9166 verified): /build ×151 · / ×25 · /dashboard ×16
 - OAI-SearchBot (3380 verified): / ×25 · /build ×25 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×21
-- ChatGPT-User (2967 verified): / ×549 · /posts/agent-funding-august-2026-control-won-the-summer.html ×116 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×85
+- ChatGPT-User (2967 verified): / ×550 · /posts/agent-funding-august-2026-control-won-the-summer.html ×116 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×85
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
