@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-10T02:08:56.038Z",
+ "generated": "2026-09-10T02:19:04.545Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -7,24 +7,24 @@
  ],
  "topTerms": [
   {
-   "term": "agents",
+   "term": "startup",
    "count": 37
   },
   {
-   "term": "startup",
+   "term": "agents",
    "count": 36
   },
   {
    "term": "founder",
-   "count": 30
-  },
-  {
-   "term": "agentic",
-   "count": 28
+   "count": 31
   },
   {
    "term": "build",
-   "count": 25
+   "count": 28
+  },
+  {
+   "term": "agentic",
+   "count": 27
   },
   {
    "term": "mcp",
@@ -36,6 +36,10 @@
   },
   {
    "term": "agent",
+   "count": 12
+  },
+  {
+   "term": "claude",
    "count": 12
   },
   {
@@ -55,7 +59,7 @@
    "count": 10
   },
   {
-   "term": "claude",
+   "term": "coding",
    "count": 9
   },
   {
@@ -71,20 +75,16 @@
    "count": 8
   },
   {
-   "term": "coding",
-   "count": 8
-  },
-  {
-   "term": "software",
-   "count": 8
-  },
-  {
    "term": "company",
    "count": 8
   },
   {
    "term": "about",
    "count": 8
+  },
+  {
+   "term": "work",
+   "count": 7
   }
  ],
  "hashtags": [
@@ -151,12 +151,6 @@
    "created": "2026-09-04T08:38:54.000Z"
   },
   {
-   "text": "If I had 6 months to become an Agentic AI Engineer. I'd do this. Stage 1: Python and LLM Foundations Python, async, API design, Anthropic/OpenAI SDKs, tokens, embeddings, structured outputs. Stage 2: Context Engineering ",
-   "engagement": 674,
-   "url": "https://x.com/i/status/2095491337651179621",
-   "created": "2026-09-03T12:37:21.000Z"
-  },
-  {
    "text": "Rooting for $PAYGENT’s launch today @usepaygent. With Vlad Tenev pushing the AI agent payments narrative through Robinhood’s agentic credit card, this is a category I’m watching. Paygent built for months before launching",
    "engagement": 445,
    "url": "https://x.com/i/status/2097357503818305566",
@@ -185,6 +179,12 @@
    "engagement": 107,
    "url": "https://x.com/i/status/2096075332579385542",
    "created": "2026-09-05T03:17:57.000Z"
+  },
+  {
+   "text": "🚨 BUILD AN APP WITH CLAUDE IN 8 MINUTES. Watch the 8-minute demo 👇 You might build your first app this weekend. No coding marathon. No complicated setup. Just an idea + Claude. → Tell Claude what you want → Let it plan",
+   "engagement": 84,
+   "url": "https://x.com/i/status/2097699045154422990",
+   "created": "2026-09-09T14:50:00.000Z"
   }
  ]
 }
