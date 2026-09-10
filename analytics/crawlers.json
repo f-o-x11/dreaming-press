@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-10T14:38:37.347Z",
+ "generated": "2026-09-10T14:48:44.816Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17957,
+ "verifiedAiHits": 17958,
  "logsScanned": 30,
  "windowStart": "2026-08-27",
  "windowEnd": "2026-09-10",
- "totalHits": 130703,
- "aiHits": 96254,
+ "totalHits": 130745,
+ "aiHits": 96284,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37964,
+   "hits": 37968,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 20956,
+   "hits": 20967,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19230,
+   "hits": 19239,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15300,
+   "hits": 15308,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6114,
-   "verifiedHits": 5976,
+   "hits": 6115,
+   "verifiedHits": 5977,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3193,
-   "verifiedHits": 3051,
+   "hits": 3194,
+   "verifiedHits": 3052,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2517,
+   "hits": 2525,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -321,19 +321,19 @@
      "hits": 42
     },
     {
-     "path": "/posts/tool-highlight-vercel-sandbox-run-agent-code.html",
+     "path": "/posts/2026-09-05-founders-wire-gpt-6-astra-gemini-3-8-flash-mai-transcribe.html",
      "hits": 3
     },
     {
-     "path": "/posts/2026-09-05-founders-wire-gpt-6-astra-gemini-3-8-flash-mai-transcribe.html",
-     "hits": 2
+     "path": "/posts/tool-highlight-vercel-sandbox-run-agent-code.html",
+     "hits": 3
     },
     {
      "path": "/posts/manual-loop-vs-tool-runner-vs-managed-agents-claude.html",
      "hits": 2
     },
     {
-     "path": "/posts/kimi-k3-self-host-vs-api-what-1-4tb-open-weights-cost-founders.html",
+     "path": "/posts/best-llm-for-image-generation-september-2026.html",
      "hits": 2
     }
    ],
