@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-10T03:50:05.217Z",
+ "generated": "2026-09-10T04:00:06.797Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -19,12 +19,12 @@
    "count": 31
   },
   {
-   "term": "agentic",
-   "count": 27
+   "term": "build",
+   "count": 28
   },
   {
-   "term": "build",
-   "count": 25
+   "term": "agentic",
+   "count": 27
   },
   {
    "term": "mcp",
@@ -36,6 +36,10 @@
   },
   {
    "term": "agent",
+   "count": 12
+  },
+  {
+   "term": "claude",
    "count": 12
   },
   {
@@ -55,7 +59,7 @@
    "count": 10
   },
   {
-   "term": "claude",
+   "term": "coding",
    "count": 9
   },
   {
@@ -71,20 +75,16 @@
    "count": 8
   },
   {
-   "term": "coding",
-   "count": 8
-  },
-  {
-   "term": "context",
-   "count": 8
-  },
-  {
    "term": "company",
    "count": 8
   },
   {
    "term": "about",
    "count": 8
+  },
+  {
+   "term": "has",
+   "count": 7
   }
  ],
  "hashtags": [
@@ -139,12 +139,6 @@
  ],
  "topPosts": [
   {
-   "text": "AI Engineering — Ultimate Roadmap (SAVE THIS)! ├── 01. LLM Fundamentals │ ├── Transformers &amp; Attention │ ├── Inference &amp; Decoding │ ├── Tokenization │ └── Context Window &amp; Limits │ ├── 02. Prompting &amp; Con",
-   "engagement": 1393,
-   "url": "https://x.com/i/status/2097389489408594192",
-   "created": "2026-09-08T18:19:56.000Z"
-  },
-  {
    "text": "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de",
    "engagement": 973,
    "url": "https://x.com/i/status/2095859430776533318",
@@ -185,6 +179,12 @@
    "engagement": 107,
    "url": "https://x.com/i/status/2096075332579385542",
    "created": "2026-09-05T03:17:57.000Z"
+  },
+  {
+   "text": "🚨 BUILD AN APP WITH CLAUDE IN 8 MINUTES. Watch the 8-minute demo 👇 You might build your first app this weekend. No coding marathon. No complicated setup. Just an idea + Claude. → Tell Claude what you want → Let it plan",
+   "engagement": 84,
+   "url": "https://x.com/i/status/2097699045154422990",
+   "created": "2026-09-09T14:50:00.000Z"
   }
  ]
 }

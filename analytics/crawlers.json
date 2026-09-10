@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-10T03:50:04.626Z",
+ "generated": "2026-09-10T04:00:06.158Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17703,
+ "verifiedAiHits": 17707,
  "logsScanned": 30,
  "windowStart": "2026-08-27",
  "windowEnd": "2026-09-10",
- "totalHits": 126969,
- "aiHits": 93281,
+ "totalHits": 127103,
+ "aiHits": 93362,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36656,
+   "hits": 36677,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 20546,
+   "hits": 20561,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18691,
+   "hits": 18693,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14804,
+   "hits": 14811,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -146,7 +146,7 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 9283,
+   "hits": 9292,
    "verifiedHits": 9163,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5952,
-   "verifiedHits": 5821,
+   "hits": 5962,
+   "verifiedHits": 5824,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3433,
-   "verifiedHits": 3332,
+   "hits": 3445,
+   "verifiedHits": 3336,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3064,
+   "hits": 3069,
    "verifiedHits": 2944,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -311,7 +311,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2434,
+   "hits": 2439,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -325,15 +325,15 @@
      "hits": 3
     },
     {
+     "path": "/posts/2026-09-05-founders-wire-gpt-6-astra-gemini-3-8-flash-mai-transcribe.html",
+     "hits": 2
+    },
+    {
      "path": "/posts/kimi-k3-self-host-vs-api-what-1-4tb-open-weights-cost-founders.html",
      "hits": 2
     },
     {
      "path": "/posts/2026-07-26-founder-shipping-log-model-wave-late-july.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/build-cost-aware-model-router-for-your-agent.html",
      "hits": 2
     }
    ],
@@ -344,7 +344,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 2379,
+   "hits": 2392,
    "verifiedHits": 2264,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -377,7 +377,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2343,
+   "hits": 2352,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -443,7 +443,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1055,
+   "hits": 1065,
    "verifiedHits": 595,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 749,
+   "hits": 758,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -542,22 +542,22 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 429,
+   "hits": 436,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
-   "lastSeen": "2026-09-08",
+   "lastSeen": "2026-09-10",
    "topPaths": [
     {
      "path": "/dashboard",
      "hits": 7
     },
     {
-     "path": "/",
+     "path": "/subscribe",
      "hits": 3
     },
     {
-     "path": "/subscribe",
-     "hits": 2
+     "path": "/",
+     "hits": 3
     },
     {
      "path": "/posts/2026-08-20-founders-wire-chatgpt-ads-claude-protein-rillet.html",
