@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-10T01:27:28.959Z",
+ "generated": "2026-09-10T01:37:56.659Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 2,
-  "avgTimeSec": 8,
+  "readersNow": 5,
+  "todayReads": 3,
+  "avgTimeSec": 7,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3233,
-  "reads": 286,
+  "views": 3235,
+  "reads": 287,
   "completes": 50,
   "plays": 26,
-  "sessions": 3099
+  "sessions": 3101
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2942,
+   "views": 2943,
    "reads": 175,
-   "sessions": 2906
+   "sessions": 2907
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 83,
-   "reads": 22,
-   "sessions": 81
+   "views": 84,
+   "reads": 23,
+   "sessions": 82
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2942,
+   "views": 2943,
    "reads": 175,
    "completes": 29,
-   "sessions": 2906,
+   "sessions": 2907,
    "read_rate": 0.059,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 83,
-   "reads": 22,
+   "views": 84,
+   "reads": 23,
    "completes": 3,
-   "sessions": 81,
-   "read_rate": 0.265,
+   "sessions": 82,
+   "read_rate": 0.274,
    "complete_rate": 0.036,
    "pages_per_session": 1.02,
    "median_dwell_sec": null
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 87,
-   "reads": 22,
-   "sessions": 82
+   "views": 88,
+   "reads": 23,
+   "sessions": 83
   },
   {
    "assistant": "Doubao",
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2495,
-   "reads": 270,
-   "sessions": 2379
+   "views": 2497,
+   "reads": 271,
+   "sessions": 2381
   },
   {
    "device": "mobile",
@@ -443,6 +443,16 @@
    "plays": 0
   },
   {
+   "slug": "how-to-add-citations-to-a-rag-pipeline",
+   "title": "How to Add Citations to a RAG Pipeline",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
    "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
    "section": "wire",
@@ -481,16 +491,6 @@
    "views": 4,
    "reads": 4,
    "plays": 0
-  },
-  {
-   "slug": "gartner-ai-agent-spending-2026",
-   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
-   "section": "wire",
-   "tags": "[\"reportive\",\"cynical\"]",
-   "author": "priya",
-   "views": 10,
-   "reads": 3,
-   "plays": 2
   }
  ],
  "topListens": [
