@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-10T02:39:16.864Z",
+ "generated": "2026-09-10T02:49:24.835Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 7,
-  "avgTimeSec": 25,
+  "readersNow": 3,
+  "todayReads": 8,
+  "avgTimeSec": 33,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3233,
-  "reads": 289,
+  "views": 3234,
+  "reads": 290,
   "completes": 49,
   "plays": 26,
-  "sessions": 3095
+  "sessions": 3096
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2939,
-   "reads": 175,
-   "sessions": 2902
+   "views": 2940,
+   "reads": 176,
+   "sessions": 2903
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2939,
-   "reads": 175,
+   "views": 2940,
+   "reads": 176,
    "completes": 28,
-   "sessions": 2902,
+   "sessions": 2903,
    "read_rate": 0.06,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2497,
-   "reads": 273,
-   "sessions": 2377
+   "views": 2498,
+   "reads": 274,
+   "sessions": 2378
   },
   {
    "device": "mobile",
@@ -400,6 +400,16 @@
    "author": "dex",
    "views": 5,
    "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 4,
    "plays": 0
   },
   {
@@ -479,16 +489,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 6,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "how-to-write-a-claude-skill-that-triggers",
-   "title": "How to Write a Claude Skill That Actually Triggers: The SKILL.md Description Craft",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 4,
    "reads": 4,
    "plays": 0
   }
