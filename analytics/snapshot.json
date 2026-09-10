@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-10T14:08:14.939Z",
+ "generated": "2026-09-10T14:18:17.148Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 6,
   "todayReads": 29,
   "avgTimeSec": 30,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3223,
+  "views": 3226,
   "reads": 302,
   "completes": 52,
   "plays": 27,
-  "sessions": 3089
+  "sessions": 3092
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2931,
+   "views": 2934,
    "reads": 183,
-   "sessions": 2901
+   "sessions": 2904
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2931,
+   "views": 2934,
    "reads": 183,
    "completes": 30,
-   "sessions": 2901,
+   "sessions": 2904,
    "read_rate": 0.062,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -324,15 +324,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2502,
+   "views": 2506,
    "reads": 285,
-   "sessions": 2386
+   "sessions": 2390
   },
   {
    "device": "mobile",
-   "views": 720,
+   "views": 719,
    "reads": 16,
-   "sessions": 703
+   "sessions": 702
   },
   {
    "device": "tablet",
@@ -453,22 +453,22 @@
    "plays": 0
   },
   {
+   "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
+   "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 7,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "how-to-add-citations-to-a-rag-pipeline",
    "title": "How to Add Citations to a RAG Pipeline",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 7,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
-   "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 6,
    "reads": 4,
    "plays": 0
   },
