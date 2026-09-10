@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-10T05:10:50.127Z",
+ "generated": "2026-09-10T05:20:50.637Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 0,
   "todayReads": 10,
   "avgTimeSec": 28,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3239,
+  "views": 3231,
   "reads": 290,
   "completes": 50,
   "plays": 26,
-  "sessions": 3100
+  "sessions": 3092
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2945,
+   "views": 2943,
    "reads": 175,
-   "sessions": 2907
+   "sessions": 2902
   },
   {
    "channel": "organic",
-   "views": 102,
+   "views": 100,
    "reads": 55,
-   "sessions": 89
+   "sessions": 87
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 63,
+   "views": 59,
    "reads": 17,
-   "sessions": 60
+   "sessions": 56
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2945,
+   "views": 2943,
    "reads": 175,
    "completes": 28,
-   "sessions": 2907,
+   "sessions": 2902,
    "read_rate": 0.059,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -90,12 +90,12 @@
   },
   {
    "channel": "organic",
-   "views": 102,
+   "views": 100,
    "reads": 55,
    "completes": 3,
-   "sessions": 89,
-   "read_rate": 0.539,
-   "complete_rate": 0.029,
+   "sessions": 87,
+   "read_rate": 0.55,
+   "complete_rate": 0.03,
    "pages_per_session": 1.15,
    "median_dwell_sec": 4
   },
@@ -112,12 +112,12 @@
   },
   {
    "channel": "referral",
-   "views": 63,
+   "views": 59,
    "reads": 17,
    "completes": 1,
-   "sessions": 60,
-   "read_rate": 0.27,
-   "complete_rate": 0.016,
+   "sessions": 56,
+   "read_rate": 0.288,
+   "complete_rate": 0.017,
    "pages_per_session": 1.05,
    "median_dwell_sec": null
   },
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2502,
+   "views": 2494,
    "reads": 274,
-   "sessions": 2381
+   "sessions": 2373
   },
   {
    "device": "mobile",
@@ -632,7 +632,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 25,
+   "views": 19,
    "reads": 2,
    "plays": 0
   },
@@ -807,8 +807,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 68,
-   "sessions": 28
+   "hits": 67,
+   "sessions": 27
   },
   {
    "ref": "https://chatgpt.com/",
