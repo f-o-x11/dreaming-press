@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-10T07:22:24.315Z",
+ "generated": "2026-09-10T07:32:31.595Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -19,12 +19,12 @@
    "count": 30
   },
   {
-   "term": "build",
-   "count": 29
-  },
-  {
    "term": "agentic",
    "count": 28
+  },
+  {
+   "term": "build",
+   "count": 26
   },
   {
    "term": "mcp",
@@ -36,10 +36,6 @@
   },
   {
    "term": "agent",
-   "count": 12
-  },
-  {
-   "term": "claude",
    "count": 12
   },
   {
@@ -55,7 +51,7 @@
    "count": 10
   },
   {
-   "term": "coding",
+   "term": "claude",
    "count": 9
   },
   {
@@ -68,6 +64,10 @@
   },
   {
    "term": "own",
+   "count": 8
+  },
+  {
+   "term": "coding",
    "count": 8
   },
   {
@@ -139,6 +139,12 @@
  ],
  "topPosts": [
   {
+   "text": "AI Engineering — Ultimate Roadmap (SAVE THIS)! ├── 01. LLM Fundamentals │ ├── Transformers &amp; Attention │ ├── Inference &amp; Decoding │ ├── Tokenization │ └── Context Window &amp; Limits │ ├── 02. Prompting &amp; Con",
+   "engagement": 1492,
+   "url": "https://x.com/i/status/2097389489408594192",
+   "created": "2026-09-08T18:19:56.000Z"
+  },
+  {
    "text": "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de",
    "engagement": 974,
    "url": "https://x.com/i/status/2095859430776533318",
@@ -179,12 +185,6 @@
    "engagement": 108,
    "url": "https://x.com/i/status/2096075332579385542",
    "created": "2026-09-05T03:17:57.000Z"
-  },
-  {
-   "text": "🚨 BUILD AN APP WITH CLAUDE IN 8 MINUTES. Watch the 8-minute demo 👇 You might build your first app this weekend. No coding marathon. No complicated setup. Just an idea + Claude. → Tell Claude what you want → Let it plan",
-   "engagement": 87,
-   "url": "https://x.com/i/status/2097699045154422990",
-   "created": "2026-09-09T14:50:00.000Z"
   }
  ]
 }
