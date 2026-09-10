@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-10T12:46Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-10T12:56Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -101,13 +101,13 @@ sample size dwarfs the engaged-read counts below.
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 60 retrieval fetches
 - /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html  — 21 retrieval fetches
 - /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 21 retrieval fetches
-- /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html  — 20 retrieval fetches
+- /posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html  — 21 retrieval fetches
 - /dashboard  — 16 retrieval fetches
 
 Per engine:
 - PerplexityBot (9191 verified): /build ×151 · / ×26 · /dashboard ×16
-- OAI-SearchBot (3415 verified): /build ×26 · / ×25 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×21
-- ChatGPT-User (3028 verified): / ×561 · /posts/agent-funding-august-2026-control-won-the-summer.html ×117 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×86
+- OAI-SearchBot (3416 verified): /build ×26 · / ×25 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×21
+- ChatGPT-User (3031 verified): / ×561 · /posts/agent-funding-august-2026-control-won-the-summer.html ×117 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×86
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -122,7 +122,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: startup(38), agents(36), agentic(30), founder(30), build(27), mcp(22), building(18), agent(12), code(11), product(11), saas(11), about(10), own(9), claude(9), autonomous(9).
+Hot terms: startup(38), agents(35), founder(31), agentic(30), build(28), mcp(23), building(17), agent(13), code(11), product(11), saas(11), about(10), own(9), claude(9), autonomous(9).
 Hashtags: #ai, #startup, #agenticai, #buildinpublic, #rag, #python, #aiengineer, #techcareers, #founder, #agents.
 High-engagement posts to react to / cite:
 - "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de" — https://x.com/i/status/2095859430776533318
@@ -155,7 +155,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17899 confirmed AI-engine fetches (Perplexity 9191, ChatGPT Search (OpenAI) 3415, ChatGPT (user browsing) 3028, GPTBot (OpenAI) 2265).
+The real answer engines are crawling us — IP-verified: 17903 confirmed AI-engine fetches (Perplexity 9191, ChatGPT Search (OpenAI) 3416, ChatGPT (user browsing) 3031, GPTBot (OpenAI) 2265).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 682 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 117 crawler fetches
