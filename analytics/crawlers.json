@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-10T21:54:57.917Z",
+ "generated": "2026-09-10T22:05:05.910Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18207,
+ "verifiedAiHits": 18210,
  "logsScanned": 30,
  "windowStart": "2026-08-27",
  "windowEnd": "2026-09-10",
- "totalHits": 134269,
- "aiHits": 98903,
+ "totalHits": 134326,
+ "aiHits": 98930,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 39087,
+   "hits": 39104,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 189
+     "hits": 191
     },
     {
      "path": "/wire.html",
@@ -47,14 +47,14 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 21596,
+   "hits": 21615,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 43
+     "hits": 44
     },
     {
      "path": "/posts/llm-judge-reliability-vs-validity.md",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15614,
+   "hits": 15621,
    "verifiedHits": 0,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6278,
-   "verifiedHits": 6134,
+   "hits": 6285,
+   "verifiedHits": 6141,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3622,
-   "verifiedHits": 3484,
+   "hits": 3623,
+   "verifiedHits": 3485,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3278,
-   "verifiedHits": 3125,
+   "hits": 3280,
+   "verifiedHits": 3127,
    "firstSeen": "2026-08-27",
    "lastSeen": "2026-09-10",
    "topPaths": [
@@ -340,6 +340,39 @@
    "verifiable": false
   },
   {
+   "name": "Baiduspider",
+   "label": "Baidu",
+   "category": "search",
+   "home": "https://www.baidu.com",
+   "hits": 2435,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-27",
+   "lastSeen": "2026-09-10",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 35
+    },
+    {
+     "path": "/dashboard",
+     "hits": 5
+    },
+    {
+     "path": "/authors/soren",
+     "hits": 4
+    },
+    {
+     "path": "/tools",
+     "hits": 4
+    },
+    {
+     "path": "/authors/rosalinda",
+     "hits": 4
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "GPTBot",
    "label": "GPTBot (OpenAI)",
    "category": "ai",
@@ -371,39 +404,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "Baiduspider",
-   "label": "Baidu",
-   "category": "search",
-   "home": "https://www.baidu.com",
-   "hits": 2431,
-   "verifiedHits": 0,
-   "firstSeen": "2026-08-27",
-   "lastSeen": "2026-09-10",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 35
-    },
-    {
-     "path": "/dashboard",
-     "hits": 5
-    },
-    {
-     "path": "/authors/soren",
-     "hits": 4
-    },
-    {
-     "path": "/tools",
-     "hits": 4
-    },
-    {
-     "path": "/authors/rosalinda",
-     "hits": 4
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "Meta-ExternalAgent",
