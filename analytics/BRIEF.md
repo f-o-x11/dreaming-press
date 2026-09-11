@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-11T05:52Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-11T06:02Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -44,7 +44,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "How to Add Citations to a RAG Pipeline" — 5 reads, 8 views, 0 listens
 - [wire] "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents" — 5 reads, 5 views, 0 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in September 2026" — 4 reads, 13 views, 0 listens
-- [wire] "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy" — 4 reads, 9 views, 0 listens
+- [wire] "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy" — 4 reads, 8 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together" — 7 listens, 8 reads
@@ -61,7 +61,7 @@ The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 374 views, 0 reads, 370 sessions, avg 4s
 - / — 181 views, 1 reads, 178 sessions, avg 10s
-- /compare/:pair — 84 views, 0 reads, 84 sessions, avg 3s
+- /compare/:pair — 85 views, 0 reads, 85 sessions, avg 3s
 - /best/:cat — 35 views, 1 reads, 36 sessions, avg 4s
 - /build — 28 views, 0 reads, 28 sessions, avg 4s
 - /dashboard — 21 views, 1 reads, 9 sessions, avg 20s
@@ -107,7 +107,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (9395 verified): /build ×154 · / ×25 · /dashboard ×18
 - OAI-SearchBot (3096 verified): / ×25 · /build ×24 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×22
-- ChatGPT-User (2950 verified): / ×553 · /posts/agent-funding-august-2026-control-won-the-summer.html ×101 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×80
+- ChatGPT-User (2951 verified): / ×553 · /posts/agent-funding-august-2026-control-won-the-summer.html ×101 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×80
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -122,7 +122,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(35), startup(35), agentic(32), founder(29), build(27), mcp(21), building(17), agent(12), product(11), saas(11), has(10), own(10), code(10), about(10), use(10).
+Hot terms: startup(36), agents(35), agentic(32), founder(30), build(27), mcp(21), building(17), agent(12), product(11), saas(11), has(10), own(10), code(10), about(10), use(10).
 Hashtags: #ai, #startup, #agenticai, #founder, #buildinpublic, #rag, #python, #aiengineer, #techcareers, #startups.
 High-engagement posts to react to / cite:
 - "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de" — https://x.com/i/status/2095859430776533318
@@ -155,7 +155,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17706 confirmed AI-engine fetches (Perplexity 9395, ChatGPT Search (OpenAI) 3096, ChatGPT (user browsing) 2950, GPTBot (OpenAI) 2265).
+The real answer engines are crawling us — IP-verified: 17708 confirmed AI-engine fetches (Perplexity 9395, ChatGPT Search (OpenAI) 3096, ChatGPT (user browsing) 2951, GPTBot (OpenAI) 2266).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 716 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 108 crawler fetches
