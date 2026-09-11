@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-11T04:31:06.134Z",
+ "generated": "2026-09-11T04:41:06.786Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
-  "todayReads": 8,
-  "avgTimeSec": 63,
+  "readersNow": 5,
+  "todayReads": 9,
+  "avgTimeSec": 62,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3274,
-  "reads": 312,
+  "views": 3278,
+  "reads": 313,
   "completes": 53,
   "plays": 27,
-  "sessions": 3138
+  "sessions": 3142
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2975,
+   "views": 2978,
    "reads": 187,
-   "sessions": 2944
+   "sessions": 2947
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 85,
-   "reads": 25,
-   "sessions": 84
+   "views": 86,
+   "reads": 26,
+   "sessions": 85
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2975,
+   "views": 2978,
    "reads": 187,
    "completes": 31,
-   "sessions": 2944,
+   "sessions": 2947,
    "read_rate": 0.063,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 85,
-   "reads": 25,
+   "views": 86,
+   "reads": 26,
    "completes": 3,
-   "sessions": 84,
-   "read_rate": 0.294,
+   "sessions": 85,
+   "read_rate": 0.302,
    "complete_rate": 0.035,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 91,
-   "reads": 25,
-   "sessions": 86
+   "views": 92,
+   "reads": 26,
+   "sessions": 87
   },
   {
    "assistant": "Doubao",
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2563,
-   "reads": 293,
-   "sessions": 2445
+   "views": 2567,
+   "reads": 294,
+   "sessions": 2449
   },
   {
    "device": "mobile",
@@ -393,6 +393,16 @@
    "plays": 0
   },
   {
+   "slug": "how-to-add-citations-to-a-rag-pipeline",
+   "title": "How to Add Citations to a RAG Pipeline",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
    "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
    "section": "wire",
@@ -448,16 +458,6 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 7,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "how-to-add-citations-to-a-rag-pipeline",
-   "title": "How to Add Citations to a RAG Pipeline",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
    "views": 7,
    "reads": 4,
    "plays": 0
