@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-11T15:54Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-11T16:04Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3252 views → 310 engaged reads → 49 completes · 3127 sessions.
-- Channels: direct 181r/2947v · organic 65r/113v · campaign:chatgpt.com 27r/87v · ai 18r/37v · referral 16r/56v · social 1r/10v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
+- Funnel: 3251 views → 311 engaged reads → 49 completes · 3126 sessions.
+- Channels: direct 181r/2945v · organic 66r/114v · campaign:chatgpt.com 27r/87v · ai 18r/37v · referral 16r/56v · social 1r/10v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 27r/93v · Doubao 10r/12v · Perplexity 4r/5v · DeepSeek 1r/4v · Grok 1r/3v · Copilot 1r/1v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, l.instagram.com, google.com, duckduckgo.com, doubao.com, dash-range, nav-cmp, perplexity.ai.
 - Engaged-read winners by section: stack=5, wire=10.
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2947 views · read 6.1% · complete 0.9% · 1.01 pages/session · median 4s
-- organic: 113 views · read 57.5% · complete 2.7% · 1.13 pages/session · median 4s
+- direct: 2945 views · read 6.1% · complete 0.9% · 1.01 pages/session · median 4s
+- organic: 114 views · read 57.9% · complete 2.6% · 1.13 pages/session · median 4s
 - campaign:chatgpt.com: 87 views · read 31.0% · complete 4.6% · 1.01 pages/session · median ?s
 - referral: 56 views · read 28.6% · complete 1.8% · 1.06 pages/session · median ?s
 - ai: 37 views · read 48.6% · complete 5.4% · 0.79 pages/session · median 20s

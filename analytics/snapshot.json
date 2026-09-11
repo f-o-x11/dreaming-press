@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-11T15:54:16.752Z",
+ "generated": "2026-09-11T16:04:23.957Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 16,
-  "avgTimeSec": 43,
+  "readersNow": 1,
+  "todayReads": 17,
+  "avgTimeSec": 45,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3252,
-  "reads": 310,
+  "views": 3251,
+  "reads": 311,
   "completes": 49,
   "plays": 27,
-  "sessions": 3127
+  "sessions": 3126
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2947,
+   "views": 2945,
    "reads": 181,
-   "sessions": 2929
+   "sessions": 2928
   },
   {
    "channel": "organic",
-   "views": 113,
-   "reads": 65,
-   "sessions": 100
+   "views": 114,
+   "reads": 66,
+   "sessions": 101
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2947,
+   "views": 2945,
    "reads": 181,
    "completes": 26,
-   "sessions": 2929,
+   "sessions": 2928,
    "read_rate": 0.061,
    "complete_rate": 0.009,
    "pages_per_session": 1.01,
@@ -84,12 +84,12 @@
   },
   {
    "channel": "organic",
-   "views": 113,
-   "reads": 65,
+   "views": 114,
+   "reads": 66,
    "completes": 3,
-   "sessions": 100,
-   "read_rate": 0.575,
-   "complete_rate": 0.027,
+   "sessions": 101,
+   "read_rate": 0.579,
+   "complete_rate": 0.026,
    "pages_per_session": 1.13,
    "median_dwell_sec": 4
   },
@@ -307,9 +307,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2533,
-   "reads": 291,
-   "sessions": 2426
+   "views": 2532,
+   "reads": 292,
+   "sessions": 2425
   },
   {
    "device": "mobile",
@@ -426,6 +426,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-21-temporal-vs-inngest-vs-restate-durable-agents",
+   "title": "Temporal vs Inngest vs Restate: Durable Execution for AI Agents in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
    "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
    "section": "wire",
@@ -462,16 +472,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 5,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "how-to-write-a-claude-skill-that-triggers",
-   "title": "How to Write a Claude Skill That Actually Triggers: The SKILL.md Description Craft",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 4,
    "reads": 4,
    "plays": 0
   }
@@ -800,8 +800,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 32,
-   "sessions": 17
+   "hits": 34,
+   "sessions": 18
   },
   {
    "ref": "https://l.instagram.com/",
