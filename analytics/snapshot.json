@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-11T20:37:39.104Z",
+ "generated": "2026-09-11T20:47:56.189Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
-  "todayReads": 25,
+  "todayReads": 26,
   "avgTimeSec": 53,
   "postsThisWeek": 16
  },
  "funnel": {
   "views": 3257,
-  "reads": 316,
+  "reads": 317,
   "completes": 50,
   "plays": 27,
   "sessions": 3125
@@ -23,15 +23,15 @@
   },
   {
    "channel": "organic",
-   "views": 115,
-   "reads": 67,
-   "sessions": 102
+   "views": 116,
+   "reads": 68,
+   "sessions": 103
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 89,
+   "views": 88,
    "reads": 28,
-   "sessions": 88
+   "sessions": 87
   },
   {
    "channel": "ai",
@@ -84,22 +84,22 @@
   },
   {
    "channel": "organic",
-   "views": 115,
-   "reads": 67,
+   "views": 116,
+   "reads": 68,
    "completes": 3,
-   "sessions": 102,
-   "read_rate": 0.583,
+   "sessions": 103,
+   "read_rate": 0.586,
    "complete_rate": 0.026,
    "pages_per_session": 1.13,
    "median_dwell_sec": 4
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 89,
+   "views": 88,
    "reads": 28,
    "completes": 4,
-   "sessions": 88,
-   "read_rate": 0.315,
+   "sessions": 87,
+   "read_rate": 0.318,
    "complete_rate": 0.045,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 95,
+   "views": 94,
    "reads": 28,
-   "sessions": 90
+   "sessions": 89
   },
   {
    "assistant": "Doubao",
@@ -308,7 +308,7 @@
   {
    "device": "desktop",
    "views": 2543,
-   "reads": 297,
+   "reads": 298,
    "sessions": 2429
   },
   {
@@ -795,13 +795,18 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 47,
-   "sessions": 26
+   "hits": 46,
+   "sessions": 25
   },
   {
    "ref": "https://cn.bing.com/",
    "hits": 34,
    "sessions": 18
+  },
+  {
+   "ref": "https://duckduckgo.com/",
+   "hits": 27,
+   "sessions": 14
   },
   {
    "ref": "https://l.instagram.com/",
@@ -812,11 +817,6 @@
    "ref": "https://www.google.com/",
    "hits": 25,
    "sessions": 19
-  },
-  {
-   "ref": "https://duckduckgo.com/",
-   "hits": 25,
-   "sessions": 13
   },
   {
    "ref": "https://www.doubao.com/",
