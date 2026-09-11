@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-11T21:18Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-11T21:28Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -122,8 +122,8 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: startup(32), agentic(30), build(27), founder(27), agents(26), mcp(21), building(19), agent(14), about(11), product(11), claude(11), own(10), learn(10), use(10), saas(10).
-Hashtags: #ai, #startup, #founder, #buildinpublic, #agenticai, #rag, #python, #aiengineer, #techcareers, #startups.
+Hot terms: startup(32), agentic(30), agents(28), build(27), founder(27), mcp(20), building(20), agent(15), about(12), own(11), product(11), claude(11), use(10), saas(10), has(9).
+Hashtags: #ai, #startup, #founder, #startups, #buildinpublic, #agenticai, #rag, #python, #aiengineer, #techcareers.
 High-engagement posts to react to / cite:
 - "Rooting for $PAYGENT’s launch today @usepaygent. With Vlad Tenev pushing the AI agent payments narrative through Robinhood’s agentic credit card, this is a category I’m watching. Paygent built for months before launching" — https://x.com/i/status/2097357503818305566
 - "Here's why I think DaVinci Resolve 21.1 is a HUGE update for agentic video editing. https://t.co/yXtwS4ICZB" — https://x.com/i/status/2097396587920060733
@@ -155,9 +155,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 18370 confirmed AI-engine fetches (Perplexity 9814, ChatGPT Search (OpenAI) 3153, ChatGPT (user browsing) 3119, GPTBot (OpenAI) 2284).
+The real answer engines are crawling us — IP-verified: 19202 confirmed AI-engine fetches (Perplexity 9814, ChatGPT Search (OpenAI) 3153, GPTBot (OpenAI) 3116, ChatGPT (user browsing) 3119).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 740 crawler fetches
+- /build  — 754 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 108 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 104 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 90 crawler fetches

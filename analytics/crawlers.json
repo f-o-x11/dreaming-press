@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-11T21:18:16.532Z",
+ "generated": "2026-09-11T21:28:29.082Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18370,
+ "verifiedAiHits": 19202,
  "logsScanned": 30,
  "windowStart": "2026-08-28",
  "windowEnd": "2026-09-11",
- "totalHits": 135895,
- "aiHits": 98435,
+ "totalHits": 136767,
+ "aiHits": 99285,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 39689,
+   "hits": 39693,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -47,14 +47,14 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 23937,
+   "hits": 23957,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 65
+     "hits": 66
     },
     {
      "path": "/posts/agent-memory-retrieval-recency-vs-relevance-vs-importance.md",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19378,
+   "hits": 19380,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15602,
+   "hits": 15610,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6347,
-   "verifiedHits": 6209,
+   "hits": 6349,
+   "verifiedHits": 6211,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
@@ -236,6 +236,39 @@
     {
      "path": "/posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html",
      "hits": 21
+    }
+   ],
+   "verifiable": true
+  },
+  {
+   "name": "GPTBot",
+   "label": "GPTBot (OpenAI)",
+   "category": "ai",
+   "home": "https://openai.com/gptbot",
+   "hits": 3275,
+   "verifiedHits": 3116,
+   "firstSeen": "2026-08-28",
+   "lastSeen": "2026-09-11",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 68
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 50
+    },
+    {
+     "path": "/stack.html",
+     "hits": 47
+    },
+    {
+     "path": "/authors/dex",
+     "hits": 38
+    },
+    {
+     "path": "/wire.html",
+     "hits": 33
     }
    ],
    "verifiable": true
@@ -307,39 +340,6 @@
    "verifiable": false
   },
   {
-   "name": "GPTBot",
-   "label": "GPTBot (OpenAI)",
-   "category": "ai",
-   "home": "https://openai.com/gptbot",
-   "hits": 2443,
-   "verifiedHits": 2284,
-   "firstSeen": "2026-08-28",
-   "lastSeen": "2026-09-11",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 55
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 50
-    },
-    {
-     "path": "/stack.html",
-     "hits": 47
-    },
-    {
-     "path": "/authors/dex",
-     "hits": 38
-    },
-    {
-     "path": "/wire.html",
-     "hits": 33
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "Baiduspider",
    "label": "Baidu",
    "category": "search",
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1841,
+   "hits": 1844,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 695,
+   "hits": 696,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
