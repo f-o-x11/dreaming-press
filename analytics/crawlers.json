@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-11T21:08:15.550Z",
+ "generated": "2026-09-11T21:18:16.532Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18352,
+ "verifiedAiHits": 18370,
  "logsScanned": 30,
  "windowStart": "2026-08-28",
  "windowEnd": "2026-09-11",
- "totalHits": 135840,
- "aiHits": 98402,
+ "totalHits": 135895,
+ "aiHits": 98435,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 39687,
+   "hits": 39689,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 23923,
+   "hits": 23937,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19376,
+   "hits": 19378,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15595,
+   "hits": 15602,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 9975,
-   "verifiedHits": 9813,
+   "hits": 9976,
+   "verifiedHits": 9814,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6344,
-   "verifiedHits": 6206,
+   "hits": 6347,
+   "verifiedHits": 6209,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3265,
-   "verifiedHits": 3118,
+   "hits": 3266,
+   "verifiedHits": 3119,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
@@ -307,11 +307,44 @@
    "verifiable": false
   },
   {
+   "name": "GPTBot",
+   "label": "GPTBot (OpenAI)",
+   "category": "ai",
+   "home": "https://openai.com/gptbot",
+   "hits": 2443,
+   "verifiedHits": 2284,
+   "firstSeen": "2026-08-28",
+   "lastSeen": "2026-09-11",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 55
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 50
+    },
+    {
+     "path": "/stack.html",
+     "hits": 47
+    },
+    {
+     "path": "/authors/dex",
+     "hits": 38
+    },
+    {
+     "path": "/wire.html",
+     "hits": 33
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "Baiduspider",
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2435,
+   "hits": 2439,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -340,44 +373,11 @@
    "verifiable": false
   },
   {
-   "name": "GPTBot",
-   "label": "GPTBot (OpenAI)",
-   "category": "ai",
-   "home": "https://openai.com/gptbot",
-   "hits": 2427,
-   "verifiedHits": 2268,
-   "firstSeen": "2026-08-28",
-   "lastSeen": "2026-09-11",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 54
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 50
-    },
-    {
-     "path": "/stack.html",
-     "hits": 47
-    },
-    {
-     "path": "/authors/dex",
-     "hits": 38
-    },
-    {
-     "path": "/wire.html",
-     "hits": 33
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "ClaudeBot",
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1837,
+   "hits": 1841,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -476,8 +476,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 753,
-   "verifiedHits": 618,
+   "hits": 754,
+   "verifiedHits": 619,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
