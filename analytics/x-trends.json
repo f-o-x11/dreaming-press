@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-11T16:24:43.135Z",
+ "generated": "2026-09-11T16:34:50.314Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "startup",
-   "count": 32
+   "count": 33
   },
   {
    "term": "agents",
@@ -75,15 +75,15 @@
    "count": 9
   },
   {
-   "term": "have",
-   "count": 9
-  },
-  {
    "term": "software",
    "count": 8
   },
   {
    "term": "one",
+   "count": 8
+  },
+  {
+   "term": "developers",
    "count": 8
   }
  ],
