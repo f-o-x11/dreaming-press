@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-11T10:14:57.072Z",
+ "generated": "2026-09-11T10:25:05.185Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "startup",
-   "count": 35
+   "count": 36
   },
   {
    "term": "agents",
@@ -20,7 +20,7 @@
   },
   {
    "term": "founder",
-   "count": 29
+   "count": 30
   },
   {
    "term": "build",
@@ -47,10 +47,6 @@
    "count": 11
   },
   {
-   "term": "saas",
-   "count": 11
-  },
-  {
    "term": "has",
    "count": 10
   },
@@ -71,11 +67,11 @@
    "count": 10
   },
   {
-   "term": "learn",
-   "count": 9
+   "term": "saas",
+   "count": 10
   },
   {
-   "term": "have",
+   "term": "learn",
    "count": 9
   },
   {
@@ -84,6 +80,10 @@
   },
   {
    "term": "workflows",
+   "count": 8
+  },
+  {
+   "term": "every",
    "count": 8
   }
  ],
@@ -146,7 +146,7 @@
   },
   {
    "text": "Rooting for $PAYGENT’s launch today @usepaygent. With Vlad Tenev pushing the AI agent payments narrative through Robinhood’s agentic credit card, this is a category I’m watching. Paygent built for months before launching",
-   "engagement": 427,
+   "engagement": 426,
    "url": "https://x.com/i/status/2097357503818305566",
    "created": "2026-09-08T16:12:50.000Z"
   },
