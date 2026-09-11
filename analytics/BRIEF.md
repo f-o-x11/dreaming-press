@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-11T08:33Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-11T08:44Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3266 views → 310 engaged reads → 50 completes · 3130 sessions.
-- Channels: direct 184r/2965v · organic 63r/110v · campaign:chatgpt.com 26r/86v · ai 18r/35v · referral 16r/57v · social 1r/10v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3265 views → 310 engaged reads → 50 completes · 3129 sessions.
+- Channels: direct 184r/2964v · organic 63r/110v · campaign:chatgpt.com 26r/86v · ai 18r/35v · referral 16r/57v · social 1r/10v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 26r/92v · Doubao 10r/11v · Perplexity 4r/4v · DeepSeek 1r/4v · Grok 1r/3v · Copilot 1r/1v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, l.instagram.com, google.com, duckduckgo.com, doubao.com, nav-cmp, dash-range, perplexity.ai.
 - Engaged-read winners by section: stack=3, wire=12.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2965 views · read 6.2% · complete 0.9% · 1.01 pages/session · median 4s
+- direct: 2964 views · read 6.2% · complete 0.9% · 1.01 pages/session · median 4s
 - organic: 110 views · read 57.3% · complete 2.7% · 1.13 pages/session · median 4s
 - campaign:chatgpt.com: 86 views · read 30.2% · complete 3.5% · 1.01 pages/session · median ?s
 - referral: 57 views · read 28.1% · complete 1.8% · 1.06 pages/session · median ?s
@@ -74,7 +74,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 57 views, 0 reads
 - [stack] "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet" — 34 views, 13 reads
 - [wire] "OpenAI Cut Terra and Luna on July 30. On the Sticker, Luna Is Now the Cheapest Agent Backend Alive — On the Bill, the Ranking Barely Moved." — 29 views, 0 reads
-- [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 19 views, 2 reads
+- [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 18 views, 2 reads
 - [wire] "The Founder's Wire, September 4: A 'Firewall for Agents' Raises $50M, HiddenLayer Takes $100M a Day Later, and Crusoe Hits $30B for the Compute Underneath" — 17 views, 2 reads
 - [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 16 views, 3 reads
 
@@ -106,8 +106,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (9397 verified): /build ×154 · / ×25 · /dashboard ×18
-- OAI-SearchBot (3107 verified): / ×25 · /build ×24 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×22
-- ChatGPT-User (2990 verified): / ×558 · /posts/agent-funding-august-2026-control-won-the-summer.html ×102 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×80
+- OAI-SearchBot (3109 verified): / ×25 · /build ×24 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×22
+- ChatGPT-User (2992 verified): / ×558 · /posts/agent-funding-august-2026-control-won-the-summer.html ×102 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×80
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -122,14 +122,14 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: startup(36), agents(33), agentic(31), founder(30), build(29), mcp(21), building(17), agent(12), product(11), claude(11), saas(11), has(10), own(10), code(10), about(10).
+Hot terms: startup(36), agents(31), agentic(30), founder(30), build(28), mcp(21), building(17), agent(12), product(11), claude(11), saas(11), has(10), own(10), code(10), about(10).
 Hashtags: #ai, #startup, #agenticai, #founder, #buildinpublic, #rag, #python, #aiengineer, #techcareers, #startups.
 High-engagement posts to react to / cite:
 - "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de" — https://x.com/i/status/2095859430776533318
-- "AI agents are moving from assistants to economic actors. 🤖💳 @AEON_Community Agentic Checkout lets agents search for products, build carts and complete purchases. The AEON AI Card gives them controlled spending power wi" — https://x.com/i/status/2095793715944276257
 - "Rooting for $PAYGENT’s launch today @usepaygent. With Vlad Tenev pushing the AI agent payments narrative through Robinhood’s agentic credit card, this is a category I’m watching. Paygent built for months before launching" — https://x.com/i/status/2097357503818305566
 - "Here's why I think DaVinci Resolve 21.1 is a HUGE update for agentic video editing. https://t.co/yXtwS4ICZB" — https://x.com/i/status/2097396587920060733
 - "You got 2 offers at 24: Offer A - Microsoft ₹44 LPA - Strong brand - Hybrid work - Stable team - Slow promotions Offer B - AI Startup ₹32 LPA + ESOPs - Fully remote - Build from scratch - Direct founder access - High ris" — https://x.com/i/status/2097215718861533372
+- "AI agents are becoming a serious engineering discipline. But the biggest mistake is trying to learn everything at once. A better approach? Follow a roadmap. This AI Agent Engineering roadmap breaks the journey into 8 pra" — https://x.com/i/status/2096075332579385542
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (265 of 457 phrases have NO post, 33h ago)
@@ -155,7 +155,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17760 confirmed AI-engine fetches (Perplexity 9397, ChatGPT Search (OpenAI) 3107, ChatGPT (user browsing) 2990, GPTBot (OpenAI) 2266).
+The real answer engines are crawling us — IP-verified: 17764 confirmed AI-engine fetches (Perplexity 9397, ChatGPT Search (OpenAI) 3109, ChatGPT (user browsing) 2992, GPTBot (OpenAI) 2266).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 722 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 108 crawler fetches
