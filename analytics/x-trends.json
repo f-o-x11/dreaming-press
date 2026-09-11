@@ -1,6 +1,6 @@
 {
- "generated": "2026-09-11T17:35:17.209Z",
- "sampled": 80,
+ "generated": "2026-09-11T17:45:17.130Z",
+ "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
   "(LLM OR \"coding agent\" OR RAG OR \"AI startup\") founder -is:retweet -is:reply lang:en"
@@ -8,14 +8,14 @@
  "topTerms": [
   {
    "term": "startup",
-   "count": 33
+   "count": 34
   },
   {
    "term": "agentic",
    "count": 30
   },
   {
-   "term": "agents",
+   "term": "founder",
    "count": 28
   },
   {
@@ -23,7 +23,7 @@
    "count": 27
   },
   {
-   "term": "founder",
+   "term": "agents",
    "count": 27
   },
   {
@@ -32,7 +32,7 @@
   },
   {
    "term": "building",
-   "count": 18
+   "count": 19
   },
   {
    "term": "agent",
@@ -75,37 +75,33 @@
    "count": 9
   },
   {
-   "term": "software",
-   "count": 8
-  },
-  {
    "term": "one",
    "count": 8
   },
   {
    "term": "developers",
    "count": 8
+  },
+  {
+   "term": "systems",
+   "count": 8
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 9
-  },
-  {
-   "term": "#startup",
    "count": 8
   },
   {
-   "term": "#agenticai",
-   "count": 3
-  },
-  {
-   "term": "#founder",
-   "count": 3
+   "term": "#startup",
+   "count": 7
   },
   {
    "term": "#buildinpublic",
+   "count": 2
+  },
+  {
+   "term": "#agenticai",
    "count": 2
   },
   {
@@ -122,6 +118,10 @@
   },
   {
    "term": "#techcareers",
+   "count": 2
+  },
+  {
+   "term": "#founder",
    "count": 2
   },
   {
