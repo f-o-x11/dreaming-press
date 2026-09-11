@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-11T04:10:50.568Z",
+ "generated": "2026-09-11T04:20:56.879Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17688,
+ "verifiedAiHits": 17690,
  "logsScanned": 30,
  "windowStart": "2026-08-28",
  "windowEnd": "2026-09-11",
- "totalHits": 129460,
- "aiHits": 94317,
+ "totalHits": 129552,
+ "aiHits": 94380,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 38302,
+   "hits": 38353,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 193
+     "hits": 194
     },
     {
      "path": "/wire.html",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 22357,
+   "hits": 22379,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18284,
+   "hits": 18285,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14851,
+   "hits": 14859,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6017,
-   "verifiedHits": 5879,
+   "hits": 6021,
+   "verifiedHits": 5883,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3085,
-   "verifiedHits": 2939,
+   "hits": 3086,
+   "verifiedHits": 2940,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 2422,
-   "verifiedHits": 2264,
+   "hits": 2423,
+   "verifiedHits": 2265,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2267,
+   "hits": 2270,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -410,11 +410,15 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 1474,
+   "hits": 1475,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
-   "lastSeen": "2026-09-10",
+   "lastSeen": "2026-09-11",
    "topPaths": [
+    {
+     "path": "/posts/2026-09-03-founders-wire-gemini-38-flash-build-vs-buy-agent-reliability-wonderful.md",
+     "hits": 2
+    },
     {
      "path": "/posts/mcp-server-github-connect-and-build.md",
      "hits": 2
@@ -429,10 +433,6 @@
     },
     {
      "path": "/posts/2026-08-30-founders-wire-fable-plateau-openai-hugging-face-report-open-weight-wave.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/the-dependency-i-forgot-to-mirror.html",
      "hits": 2
     }
    ],
