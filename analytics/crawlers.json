@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-11T02:59:56.200Z",
+ "generated": "2026-09-11T03:10:06.143Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17644,
+ "verifiedAiHits": 17645,
  "logsScanned": 30,
  "windowStart": "2026-08-28",
  "windowEnd": "2026-09-11",
- "totalHits": 129025,
- "aiHits": 94069,
+ "totalHits": 129100,
+ "aiHits": 94114,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 38162,
+   "hits": 38198,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 22198,
+   "hits": 22225,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -113,18 +113,18 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14796,
+   "hits": 14804,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
     {
      "path": "/tags/reportive",
-     "hits": 15
+     "hits": 16
     },
     {
      "path": "/tags/opinionated",
-     "hits": 15
+     "hits": 16
     },
     {
      "path": "/stack.html",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5994,
-   "verifiedHits": 5856,
+   "hits": 5997,
+   "verifiedHits": 5859,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3079,
-   "verifiedHits": 2933,
+   "hits": 3080,
+   "verifiedHits": 2934,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [

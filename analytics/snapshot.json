@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-11T02:59:56.724Z",
+ "generated": "2026-09-11T03:10:06.687Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
-  "todayReads": 5,
-  "avgTimeSec": 160,
+  "readersNow": 7,
+  "todayReads": 6,
+  "avgTimeSec": 148,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3245,
-  "reads": 310,
+  "views": 3249,
+  "reads": 311,
   "completes": 53,
   "plays": 27,
-  "sessions": 3109
+  "sessions": 3113
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2946,
+   "views": 2950,
    "reads": 186,
-   "sessions": 2915
+   "sessions": 2919
   },
   {
    "channel": "organic",
-   "views": 110,
-   "reads": 63,
-   "sessions": 97
+   "views": 111,
+   "reads": 64,
+   "sessions": 98
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 58,
+   "views": 57,
    "reads": 16,
-   "sessions": 55
+   "sessions": 54
   },
   {
    "channel": "social",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2946,
+   "views": 2950,
    "reads": 186,
    "completes": 31,
-   "sessions": 2915,
+   "sessions": 2919,
    "read_rate": 0.063,
    "complete_rate": 0.011,
    "pages_per_session": 1.01,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 110,
-   "reads": 63,
+   "views": 111,
+   "reads": 64,
    "completes": 3,
-   "sessions": 97,
-   "read_rate": 0.573,
+   "sessions": 98,
+   "read_rate": 0.577,
    "complete_rate": 0.027,
    "pages_per_session": 1.13,
    "median_dwell_sec": 4
@@ -112,13 +112,13 @@
   },
   {
    "channel": "referral",
-   "views": 58,
+   "views": 57,
    "reads": 16,
    "completes": 1,
-   "sessions": 55,
-   "read_rate": 0.276,
-   "complete_rate": 0.017,
-   "pages_per_session": 1.05,
+   "sessions": 54,
+   "read_rate": 0.281,
+   "complete_rate": 0.018,
+   "pages_per_session": 1.06,
    "median_dwell_sec": null
   },
   {
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2538,
-   "reads": 291,
-   "sessions": 2420
+   "views": 2542,
+   "reads": 292,
+   "sessions": 2424
   },
   {
    "device": "mobile",
@@ -368,7 +368,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 12,
+   "views": 13,
    "reads": 8,
    "plays": 7
   },
@@ -500,7 +500,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 12,
+   "views": 13,
    "reads": 8,
    "plays": 7
   },
@@ -677,6 +677,16 @@
    "plays": 0
   },
   {
+   "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
+   "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 13,
+   "reads": 8,
+   "plays": 7
+  },
+  {
    "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
    "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
    "section": "stack",
@@ -684,16 +694,6 @@
    "author": "dex",
    "views": 13,
    "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 13,
-   "reads": 3,
    "plays": 0
   }
  ],
@@ -798,17 +798,17 @@
   },
   {
    "path": "/subscribe",
-   "views": 6,
+   "views": 7,
    "reads": 0,
-   "sessions": 5,
+   "sessions": 6,
    "avg_dwell_sec": 8
   }
  ],
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 81,
-   "sessions": 34
+   "hits": 83,
+   "sessions": 35
   },
   {
    "ref": "https://chatgpt.com/",
