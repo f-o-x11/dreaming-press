@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-11T03:40:31.383Z",
+ "generated": "2026-09-11T03:50:36.144Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17682,
+ "verifiedAiHits": 17683,
  "logsScanned": 30,
  "windowStart": "2026-08-28",
  "windowEnd": "2026-09-11",
- "totalHits": 129303,
- "aiHits": 94231,
+ "totalHits": 129357,
+ "aiHits": 94266,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 38246,
+   "hits": 38272,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 22297,
+   "hits": 22314,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14827,
+   "hits": 14835,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6006,
-   "verifiedHits": 5868,
+   "hits": 6008,
+   "verifiedHits": 5870,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
@@ -245,14 +245,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3083,
-   "verifiedHits": 2937,
+   "hits": 3084,
+   "verifiedHits": 2938,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
     {
      "path": "/",
-     "hits": 549
+     "hits": 550
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
