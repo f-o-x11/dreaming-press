@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-11T00:16:45.745Z",
+ "generated": "2026-09-11T00:26:52.402Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 0,
   "avgTimeSec": 0,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3231,
-  "reads": 309,
+  "views": 3228,
+  "reads": 308,
   "completes": 53,
   "plays": 27,
-  "sessions": 3095
+  "sessions": 3094
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2933,
-   "reads": 185,
-   "sessions": 2903
+   "views": 2930,
+   "reads": 184,
+   "sessions": 2902
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2933,
-   "reads": 185,
+   "views": 2930,
+   "reads": 184,
    "completes": 31,
-   "sessions": 2903,
+   "sessions": 2902,
    "read_rate": 0.063,
    "complete_rate": 0.011,
    "pages_per_session": 1.01,
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2520,
-   "reads": 291,
-   "sessions": 2402
+   "views": 2517,
+   "reads": 290,
+   "sessions": 2401
   },
   {
    "device": "mobile",
@@ -602,7 +602,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 58,
+   "views": 57,
    "reads": 0,
    "plays": 0
   },
@@ -762,25 +762,11 @@
    "avg_dwell_sec": 9
   },
   {
-   "path": "/agents.html",
-   "views": 9,
-   "reads": 1,
-   "sessions": 8,
-   "avg_dwell_sec": 35
-  },
-  {
    "path": "/topics/:topic",
    "views": 9,
    "reads": 0,
    "sessions": 9,
    "avg_dwell_sec": 3
-  },
-  {
-   "path": "/submit.html",
-   "views": 8,
-   "reads": 0,
-   "sessions": 8,
-   "avg_dwell_sec": 24
   },
   {
    "path": "/weekly",
@@ -790,11 +776,25 @@
    "avg_dwell_sec": 4
   },
   {
+   "path": "/agents.html",
+   "views": 7,
+   "reads": 0,
+   "sessions": 7,
+   "avg_dwell_sec": 10
+  },
+  {
    "path": "/global-tech-news",
    "views": 7,
    "reads": 0,
    "sessions": 6,
    "avg_dwell_sec": 6
+  },
+  {
+   "path": "/submit.html",
+   "views": 7,
+   "reads": 0,
+   "sessions": 7,
+   "avg_dwell_sec": 20
   },
   {
    "path": "/subscribe",
