@@ -20,6 +20,8 @@ art:
 
 **If you read one line:** OpenAI cut [Luna](/posts/openai-cut-gpt-5-6-luna-80-percent-fast-mode-what-founders-do.html) 80% and Terra 20% on July 30. On the sticker Luna is now the cheapest agent backend alive — but you pay per token and ship per completed task, and cheaper tiers spend more tokens per task. Route on **cost-per-completed-task**, and the ranking barely moves.
 
+*Still current as of September 2026:* Luna's **$0.20 / $1.20** and Terra's **$2 / $12** are unchanged since this cut. The one shift is above them — **GPT-6 Astra** arrived on Sept 3 as OpenAI's new flagship (launch pricing ~$10 / $50), and Sol moved to promotional pricing (~$4 / $20) — but neither changes the routing rule below, which is the durable part: the cheap tier's discount lives in token price, and your bill lives in tokens-per-task. The map holds.
+
 ## What actually changed
 
 On **July 30, 2026**, OpenAI repriced two of the three GPT-5.6 tiers ([OpenAI](https://openai.com/index/gpt-5-6/), [Finout](https://www.finout.io/blog/gpt-5.6-pricing-2026-sol-terra-and-luna-tiers-explained)):
