@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-11T07:12:57.319Z",
+ "generated": "2026-09-11T07:22:58.785Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 2,
   "todayReads": 10,
   "avgTimeSec": 49,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3274,
-  "reads": 313,
+  "views": 3270,
+  "reads": 312,
   "completes": 52,
   "plays": 27,
-  "sessions": 3137
+  "sessions": 3133
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2975,
+   "views": 2972,
    "reads": 186,
-   "sessions": 2942
+   "sessions": 2938
   },
   {
    "channel": "organic",
-   "views": 111,
-   "reads": 64,
-   "sessions": 98
+   "views": 110,
+   "reads": 63,
+   "sessions": 97
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2975,
+   "views": 2972,
    "reads": 186,
    "completes": 30,
-   "sessions": 2942,
+   "sessions": 2938,
    "read_rate": 0.063,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 111,
-   "reads": 64,
+   "views": 110,
+   "reads": 63,
    "completes": 3,
-   "sessions": 98,
-   "read_rate": 0.577,
+   "sessions": 97,
+   "read_rate": 0.573,
    "complete_rate": 0.027,
    "pages_per_session": 1.13,
    "median_dwell_sec": 4
@@ -324,15 +324,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2562,
-   "reads": 294,
-   "sessions": 2443
+   "views": 2559,
+   "reads": 293,
+   "sessions": 2440
   },
   {
    "device": "mobile",
-   "views": 711,
+   "views": 710,
    "reads": 18,
-   "sessions": 694
+   "sessions": 693
   },
   {
    "device": "tablet",
@@ -443,21 +443,21 @@
    "plays": 0
   },
   {
-   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
-   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
    "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
+   "views": 7,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
+   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
    "views": 7,
    "reads": 4,
    "plays": 0
@@ -817,8 +817,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 34,
-   "sessions": 18
+   "hits": 32,
+   "sessions": 17
   },
   {
    "ref": "https://l.instagram.com/",
