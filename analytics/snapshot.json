@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-11T13:41:16.866Z",
+ "generated": "2026-09-11T13:51:20.652Z",
  "windowDays": 14,
  "site": {
   "readersNow": 5,
-  "todayReads": 14,
+  "todayReads": 15,
   "avgTimeSec": 40,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3255,
-  "reads": 308,
+  "views": 3258,
+  "reads": 309,
   "completes": 48,
   "plays": 27,
-  "sessions": 3130
+  "sessions": 3133
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2951,
+   "views": 2953,
    "reads": 181,
-   "sessions": 2932
+   "sessions": 2934
   },
   {
    "channel": "organic",
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 87,
-   "reads": 26,
-   "sessions": 86
+   "views": 88,
+   "reads": 27,
+   "sessions": 87
   },
   {
    "channel": "ai",
    "views": 37,
    "reads": 18,
-   "sessions": 46
+   "sessions": 47
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2951,
+   "views": 2953,
    "reads": 181,
    "completes": 26,
-   "sessions": 2932,
+   "sessions": 2934,
    "read_rate": 0.061,
    "complete_rate": 0.009,
    "pages_per_session": 1.01,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 87,
-   "reads": 26,
+   "views": 88,
+   "reads": 27,
    "completes": 3,
-   "sessions": 86,
-   "read_rate": 0.299,
+   "sessions": 87,
+   "read_rate": 0.307,
    "complete_rate": 0.034,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -120,11 +120,11 @@
    "views": 37,
    "reads": 18,
    "completes": 2,
-   "sessions": 46,
+   "sessions": 47,
    "read_rate": 0.486,
    "complete_rate": 0.054,
-   "pages_per_session": 0.8,
-   "median_dwell_sec": 18
+   "pages_per_session": 0.79,
+   "median_dwell_sec": 20
   },
   {
    "channel": "social",
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 93,
-   "reads": 26,
-   "sessions": 88
+   "views": 94,
+   "reads": 27,
+   "sessions": 89
   },
   {
    "assistant": "Doubao",
@@ -307,15 +307,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2537,
-   "reads": 289,
-   "sessions": 2430
+   "views": 2538,
+   "reads": 290,
+   "sessions": 2431
   },
   {
    "device": "mobile",
-   "views": 717,
+   "views": 719,
    "reads": 18,
-   "sessions": 700
+   "sessions": 702
   },
   {
    "device": "tablet",
@@ -376,6 +376,16 @@
    "plays": 0
   },
   {
+   "slug": "open-source-llm-for-coding-september-2026",
+   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 18,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
    "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
    "section": "wire",
@@ -403,16 +413,6 @@
    "author": "dex",
    "views": 5,
    "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 17,
-   "reads": 4,
    "plays": 0
   },
   {
@@ -543,7 +543,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 12,
+   "views": 11,
    "reads": 2,
    "plays": 1
   },
@@ -585,7 +585,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 57,
+   "views": 58,
    "reads": 0,
    "plays": 0
   },
@@ -610,6 +610,16 @@
    "plays": 0
   },
   {
+   "slug": "open-source-llm-for-coding-september-2026",
+   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 18,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
    "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
    "section": "stack",
@@ -627,16 +637,6 @@
    "author": "wire-desk",
    "views": 18,
    "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 17,
-   "reads": 4,
    "plays": 0
   },
   {

@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-11T13:41:16.256Z",
+ "generated": "2026-09-11T13:51:20.060Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18031,
+ "verifiedAiHits": 18033,
  "logsScanned": 30,
  "windowStart": "2026-08-28",
  "windowEnd": "2026-09-11",
- "totalHits": 133411,
- "aiHits": 96855,
+ "totalHits": 133494,
+ "aiHits": 96922,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 39383,
+   "hits": 39386,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -47,14 +47,14 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 23277,
+   "hits": 23287,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 59
+     "hits": 60
     },
     {
      "path": "/posts/agent-memory-retrieval-recency-vs-relevance-vs-importance.md",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18889,
+   "hits": 18944,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15280,
+   "hits": 15287,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6205,
-   "verifiedHits": 6067,
+   "hits": 6211,
+   "verifiedHits": 6073,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3192,
-   "verifiedHits": 3046,
+   "hits": 3194,
+   "verifiedHits": 3048,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
