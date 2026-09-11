@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-11T01:48:55.989Z",
+ "generated": "2026-09-11T01:59:03.742Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17619,
+ "verifiedAiHits": 17620,
  "logsScanned": 30,
  "windowStart": "2026-08-28",
  "windowEnd": "2026-09-11",
- "totalHits": 128532,
- "aiHits": 93772,
+ "totalHits": 128693,
+ "aiHits": 93901,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 38035,
+   "hits": 38083,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 191
+     "hits": 192
     },
     {
      "path": "/wire.html",
@@ -47,14 +47,18 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 22035,
+   "hits": 22067,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 49
+     "hits": 50
+    },
+    {
+     "path": "/posts/agent-memory-retrieval-recency-vs-relevance-vs-importance.md",
+     "hits": 4
     },
     {
      "path": "/posts/llm-judge-reliability-vs-validity.md",
@@ -67,10 +71,6 @@
     {
      "path": "/posts/langmem-vs-mem0.html",
      "hits": 4
-    },
-    {
-     "path": "/posts/2026-06-23-how-much-vram-to-serve-an-llm.html",
-     "hits": 4
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18195,
+   "hits": 18266,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14744,
+   "hits": 14753,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3217,
-   "verifiedHits": 3083,
+   "hits": 3218,
+   "verifiedHits": 3084,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
