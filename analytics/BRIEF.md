@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-11T22:19Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-11T22:29Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3253 views → 317 engaged reads → 50 completes · 3121 sessions.
-- Channels: direct 184r/2944v · organic 68r/116v · campaign:chatgpt.com 28r/87v · ai 18r/37v · referral 16r/57v · social 1r/10v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
+- Funnel: 3252 views → 317 engaged reads → 50 completes · 3120 sessions.
+- Channels: direct 184r/2944v · organic 68r/116v · campaign:chatgpt.com 28r/87v · ai 18r/37v · referral 16r/57v · social 1r/9v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 28r/93v · Doubao 10r/12v · Perplexity 4r/5v · DeepSeek 1r/4v · Grok 1r/3v · Copilot 1r/1v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, duckduckgo.com, l.instagram.com, google.com, doubao.com, dash-range, brand, nav-cmp.
 - Engaged-read winners by section: stack=6, wire=9.
@@ -28,7 +28,7 @@ Volume and quality point in opposite directions here. Read the second column, no
 - campaign:chatgpt.com: 87 views · read 32.2% · complete 4.6% · 1.01 pages/session · median ?s
 - referral: 57 views · read 28.1% · complete 1.8% · 1.06 pages/session · median ?s
 - ai: 37 views · read 48.6% · complete 5.4% · 0.79 pages/session · median 20s
-- social: 10 views · read 10.0% · complete 0.0% · 1.25 pages/session · median ?s
+- social: 9 views · read 11.1% · complete 0.0% · 1.29 pages/session · median ?s
 INSIGHT: organic converts 9x better per view than direct, which is 91% of all views.
 One visitor from organic is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
@@ -59,8 +59,8 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 374 views, 0 reads, 370 sessions, avg 4s
-- / — 179 views, 1 reads, 176 sessions, avg 10s
+- /stack/:tool — 373 views, 0 reads, 369 sessions, avg 4s
+- / — 178 views, 1 reads, 175 sessions, avg 10s
 - /compare/:pair — 88 views, 0 reads, 88 sessions, avg 3s
 - /best/:cat — 34 views, 1 reads, 35 sessions, avg 4s
 - /build — 28 views, 0 reads, 28 sessions, avg 4s
@@ -122,7 +122,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: startup(32), agents(29), agentic(29), founder(27), build(26), building(20), mcp(19), agent(14), about(11), product(11), claude(11), own(10), use(10), saas(10), has(9).
+Hot terms: startup(32), agentic(30), build(27), agents(27), founder(27), mcp(21), building(20), agent(14), about(11), product(11), claude(11), own(10), learn(10), use(10), saas(10).
 Hashtags: #ai, #startup, #founder, #startups, #buildinpublic, #agenticai, #rag, #python, #aiengineer, #techcareers.
 High-engagement posts to react to / cite:
 - "Rooting for $PAYGENT’s launch today @usepaygent. With Vlad Tenev pushing the AI agent payments narrative through Robinhood’s agentic credit card, this is a category I’m watching. Paygent built for months before launching" — https://x.com/i/status/2097357503818305566
@@ -157,7 +157,7 @@ search intent, so put the answer in the first screen and use the phrasing in the
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 19246 confirmed AI-engine fetches (Perplexity 9853, ChatGPT Search (OpenAI) 3154, GPTBot (OpenAI) 3116, ChatGPT (user browsing) 3123).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 754 crawler fetches
+- /build  — 755 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 108 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 104 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 90 crawler fetches
