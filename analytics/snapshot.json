@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-11T05:11:37.025Z",
+ "generated": "2026-09-11T05:21:42.183Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
   "todayReads": 10,
-  "avgTimeSec": 58,
+  "avgTimeSec": 54,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3278,
+  "views": 3280,
   "reads": 314,
   "completes": 53,
   "plays": 27,
-  "sessions": 3142
+  "sessions": 3144
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2977,
+   "views": 2980,
    "reads": 187,
-   "sessions": 2946
+   "sessions": 2949
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 86,
+   "views": 85,
    "reads": 26,
-   "sessions": 85
+   "sessions": 84
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2977,
+   "views": 2980,
    "reads": 187,
    "completes": 31,
-   "sessions": 2946,
+   "sessions": 2949,
    "read_rate": 0.063,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 86,
+   "views": 85,
    "reads": 26,
    "completes": 3,
-   "sessions": 85,
-   "read_rate": 0.302,
+   "sessions": 84,
+   "read_rate": 0.306,
    "complete_rate": 0.035,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 92,
+   "views": 91,
    "reads": 26,
-   "sessions": 87
+   "sessions": 86
   },
   {
    "assistant": "Doubao",
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2567,
+   "views": 2569,
    "reads": 295,
-   "sessions": 2449
+   "sessions": 2451
   },
   {
    "device": "mobile",
@@ -647,6 +647,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
+   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 16,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
@@ -664,16 +674,6 @@
    "author": "priya",
    "views": 15,
    "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
-   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 2,
    "plays": 0
   },
   {
@@ -721,9 +721,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 36,
+   "views": 35,
    "reads": 1,
-   "sessions": 37,
+   "sessions": 36,
    "avg_dwell_sec": 4
   },
   {
