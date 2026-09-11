@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-11T07:43:16.949Z",
+ "generated": "2026-09-11T07:53:20.632Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 8,
   "todayReads": 10,
   "avgTimeSec": 47,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3272,
+  "views": 3278,
   "reads": 312,
   "completes": 52,
   "plays": 27,
-  "sessions": 3135
+  "sessions": 3141
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2973,
+   "views": 2977,
    "reads": 186,
-   "sessions": 2939
+   "sessions": 2943
   },
   {
    "channel": "organic",
@@ -41,15 +41,15 @@
   },
   {
    "channel": "referral",
-   "views": 56,
+   "views": 57,
    "reads": 16,
-   "sessions": 53
+   "sessions": 54
   },
   {
    "channel": "social",
-   "views": 9,
+   "views": 10,
    "reads": 1,
-   "sessions": 7
+   "sessions": 8
   },
   {
    "channel": "campaign:copilot.com",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2973,
+   "views": 2977,
    "reads": 186,
    "completes": 30,
-   "sessions": 2939,
-   "read_rate": 0.063,
+   "sessions": 2943,
+   "read_rate": 0.062,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
    "median_dwell_sec": 4
@@ -112,11 +112,11 @@
   },
   {
    "channel": "referral",
-   "views": 56,
+   "views": 57,
    "reads": 16,
    "completes": 1,
-   "sessions": 53,
-   "read_rate": 0.286,
+   "sessions": 54,
+   "read_rate": 0.281,
    "complete_rate": 0.018,
    "pages_per_session": 1.06,
    "median_dwell_sec": null
@@ -134,13 +134,13 @@
   },
   {
    "channel": "social",
-   "views": 9,
+   "views": 10,
    "reads": 1,
    "completes": 0,
-   "sessions": 7,
-   "read_rate": 0.111,
+   "sessions": 8,
+   "read_rate": 0.1,
    "complete_rate": 0,
-   "pages_per_session": 1.29,
+   "pages_per_session": 1.25,
    "median_dwell_sec": null
   },
   {
@@ -324,15 +324,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2560,
+   "views": 2565,
    "reads": 293,
-   "sessions": 2441
+   "sessions": 2446
   },
   {
    "device": "mobile",
-   "views": 711,
+   "views": 712,
    "reads": 18,
-   "sessions": 694
+   "sessions": 695
   },
   {
    "device": "tablet",
@@ -687,14 +687,14 @@
    "plays": 0
   },
   {
-   "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
-   "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 14,
-   "reads": 8,
-   "plays": 7
+   "slug": "open-source-llm-for-coding-september-2026",
+   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 15,
+   "reads": 3,
+   "plays": 0
   }
  ],
  "topPages": [
@@ -714,9 +714,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 87,
+   "views": 88,
    "reads": 0,
-   "sessions": 87,
+   "sessions": 88,
    "avg_dwell_sec": 3
   },
   {
