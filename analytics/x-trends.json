@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-11T16:04:23.905Z",
+ "generated": "2026-09-11T16:14:26.694Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,7 +12,7 @@
   },
   {
    "term": "agents",
-   "count": 31
+   "count": 30
   },
   {
    "term": "agentic",
@@ -28,7 +28,7 @@
   },
   {
    "term": "mcp",
-   "count": 21
+   "count": 22
   },
   {
    "term": "building",
@@ -36,14 +36,10 @@
   },
   {
    "term": "agent",
-   "count": 12
+   "count": 11
   },
   {
    "term": "about",
-   "count": 12
-  },
-  {
-   "term": "own",
    "count": 11
   },
   {
@@ -53,6 +49,14 @@
   {
    "term": "claude",
    "count": 11
+  },
+  {
+   "term": "own",
+   "count": 10
+  },
+  {
+   "term": "learn",
+   "count": 10
   },
   {
    "term": "use",
@@ -71,20 +75,16 @@
    "count": 9
   },
   {
-   "term": "learn",
+   "term": "systems",
+   "count": 9
+  },
+  {
+   "term": "python",
    "count": 9
   },
   {
    "term": "have",
    "count": 9
-  },
-  {
-   "term": "software",
-   "count": 8
-  },
-  {
-   "term": "one",
-   "count": 8
   }
  ],
  "hashtags": [
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Rooting for $PAYGENT’s launch today @usepaygent. With Vlad Tenev pushing the AI agent payments narrative through Robinhood’s agentic credit card, this is a category I’m watching. Paygent built for months before launching",
-   "engagement": 426,
+   "engagement": 425,
    "url": "https://x.com/i/status/2097357503818305566",
    "created": "2026-09-08T16:12:50.000Z"
   },
