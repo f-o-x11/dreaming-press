@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-11T01:59Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-11T02:09Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3239 views → 311 engaged reads → 53 completes · 3103 sessions.
-- Channels: direct 185r/2938v · organic 65r/112v · campaign:chatgpt.com 25r/85v · ai 17r/34v · referral 16r/58v · social 1r/9v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3238 views → 312 engaged reads → 53 completes · 3103 sessions.
+- Channels: direct 186r/2938v · organic 65r/111v · campaign:chatgpt.com 25r/85v · ai 17r/34v · referral 16r/58v · social 1r/9v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 25r/91v · Doubao 10r/11v · Perplexity 3r/3v · DeepSeek 1r/4v · Grok 1r/3v · Copilot 1r/1v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, l.instagram.com, google.com, duckduckgo.com, doubao.com, nav-cmp, dash-range, 114.114.114.114:9421.
 - Engaged-read winners by section: stack=3, wire=12.
@@ -24,7 +24,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - direct: 2938 views · read 6.3% · complete 1.1% · 1.01 pages/session · median 4s
-- organic: 112 views · read 58.0% · complete 2.7% · 1.13 pages/session · median 4s
+- organic: 111 views · read 58.6% · complete 2.7% · 1.12 pages/session · median 4s
 - campaign:chatgpt.com: 85 views · read 29.4% · complete 3.5% · 1.01 pages/session · median ?s
 - referral: 58 views · read 27.6% · complete 1.7% · 1.05 pages/session · median ?s
 - ai: 34 views · read 50.0% · complete 5.9% · 0.81 pages/session · median 20s
@@ -122,7 +122,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: startup(36), agents(34), agentic(30), founder(30), build(26), mcp(20), building(17), agent(11), product(11), saas(11), has(10), own(10), code(10), about(10), use(10).
+Hot terms: startup(35), agents(32), agentic(31), founder(29), build(27), mcp(21), building(17), product(11), saas(11), agent(10), has(10), own(10), code(10), about(10), claude(9).
 Hashtags: #ai, #startup, #agenticai, #founder, #buildinpublic, #rag, #python, #aiengineer, #techcareers, #startups.
 High-engagement posts to react to / cite:
 - "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de" — https://x.com/i/status/2095859430776533318
@@ -132,7 +132,7 @@ High-engagement posts to react to / cite:
 - "Here's why I think DaVinci Resolve 21.1 is a HUGE update for agentic video editing. https://t.co/yXtwS4ICZB" — https://x.com/i/status/2097396587920060733
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (265 of 457 phrases have NO post, 26h ago)
+## Uncovered search demand (265 of 457 phrases have NO post, 27h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
