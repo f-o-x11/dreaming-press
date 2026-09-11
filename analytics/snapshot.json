@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-11T04:00:46.592Z",
+ "generated": "2026-09-11T04:10:51.088Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
-  "todayReads": 7,
-  "avgTimeSec": 104,
+  "readersNow": 17,
+  "todayReads": 8,
+  "avgTimeSec": 65,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3256,
-  "reads": 312,
+  "views": 3271,
+  "reads": 313,
   "completes": 53,
   "plays": 27,
-  "sessions": 3120
+  "sessions": 3135
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2957,
+   "views": 2971,
    "reads": 187,
-   "sessions": 2926
+   "sessions": 2941
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 34,
-   "reads": 17,
-   "sessions": 42
+   "views": 35,
+   "reads": 18,
+   "sessions": 43
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2957,
+   "views": 2971,
    "reads": 187,
    "completes": 31,
-   "sessions": 2926,
+   "sessions": 2941,
    "read_rate": 0.063,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -123,12 +123,12 @@
   },
   {
    "channel": "ai",
-   "views": 34,
-   "reads": 17,
+   "views": 35,
+   "reads": 18,
    "completes": 2,
-   "sessions": 42,
-   "read_rate": 0.5,
-   "complete_rate": 0.059,
+   "sessions": 43,
+   "read_rate": 0.514,
+   "complete_rate": 0.057,
    "pages_per_session": 0.81,
    "median_dwell_sec": 20
   },
@@ -280,9 +280,9 @@
   },
   {
    "assistant": "Perplexity",
-   "views": 3,
-   "reads": 3,
-   "sessions": 2
+   "views": 4,
+   "reads": 4,
+   "sessions": 3
   },
   {
    "assistant": "DeepSeek",
@@ -324,15 +324,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2547,
-   "reads": 293,
-   "sessions": 2429
+   "views": 2563,
+   "reads": 294,
+   "sessions": 2445
   },
   {
    "device": "mobile",
-   "views": 708,
+   "views": 707,
    "reads": 18,
-   "sessions": 691
+   "sessions": 690
   },
   {
    "device": "tablet",
@@ -714,9 +714,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 70,
+   "views": 84,
    "reads": 0,
-   "sessions": 70,
+   "sessions": 84,
    "avg_dwell_sec": 3
   },
   {
@@ -742,9 +742,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 18,
+   "views": 19,
    "reads": 0,
-   "sessions": 18,
+   "sessions": 19,
    "avg_dwell_sec": 4
   },
   {
@@ -851,9 +851,9 @@
    "sessions": 2
   },
   {
-   "ref": "http://114.114.114.114:9421/",
+   "ref": "https://www.perplexity.ai/",
    "hits": 8,
-   "sessions": 5
+   "sessions": 3
   }
  ]
 }
