@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-11T19:16:41.844Z",
+ "generated": "2026-09-11T19:26:54.956Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18121,
+ "verifiedAiHits": 18123,
  "logsScanned": 30,
  "windowStart": "2026-08-28",
  "windowEnd": "2026-09-11",
- "totalHits": 135180,
- "aiHits": 97937,
+ "totalHits": 135219,
+ "aiHits": 97958,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 39628,
+   "hits": 39636,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 23780,
+   "hits": 23787,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15516,
+   "hits": 15523,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6310,
-   "verifiedHits": 6172,
+   "hits": 6315,
+   "verifiedHits": 6177,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
@@ -245,14 +245,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3252,
-   "verifiedHits": 3105,
+   "hits": 3254,
+   "verifiedHits": 3107,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
     {
      "path": "/",
-     "hits": 576
+     "hits": 577
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -307,6 +307,39 @@
    "verifiable": false
   },
   {
+   "name": "Baiduspider",
+   "label": "Baidu",
+   "category": "search",
+   "home": "https://www.baidu.com",
+   "hits": 2430,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-28",
+   "lastSeen": "2026-09-11",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 38
+    },
+    {
+     "path": "/dashboard",
+     "hits": 6
+    },
+    {
+     "path": "/authors/soren",
+     "hits": 4
+    },
+    {
+     "path": "/tools",
+     "hits": 4
+    },
+    {
+     "path": "/tags/howto",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "GPTBot",
    "label": "GPTBot (OpenAI)",
    "category": "ai",
@@ -338,39 +371,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "Baiduspider",
-   "label": "Baidu",
-   "category": "search",
-   "home": "https://www.baidu.com",
-   "hits": 2425,
-   "verifiedHits": 0,
-   "firstSeen": "2026-08-28",
-   "lastSeen": "2026-09-11",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 38
-    },
-    {
-     "path": "/dashboard",
-     "hits": 6
-    },
-    {
-     "path": "/authors/soren",
-     "hits": 4
-    },
-    {
-     "path": "/tools",
-     "hits": 4
-    },
-    {
-     "path": "/tags/howto",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "ClaudeBot",
@@ -476,8 +476,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 746,
-   "verifiedHits": 611,
+   "hits": 747,
+   "verifiedHits": 612,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 682,
+   "hits": 686,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
