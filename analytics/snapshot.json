@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-11T06:52:36.312Z",
+ "generated": "2026-09-11T07:02:37.043Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 3,
   "todayReads": 10,
   "avgTimeSec": 49,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3273,
+  "views": 3275,
   "reads": 313,
   "completes": 52,
   "plays": 27,
-  "sessions": 3136
+  "sessions": 3138
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2974,
+   "views": 2976,
    "reads": 186,
-   "sessions": 2941
+   "sessions": 2943
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2974,
+   "views": 2976,
    "reads": 186,
    "completes": 30,
-   "sessions": 2941,
+   "sessions": 2943,
    "read_rate": 0.063,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -324,15 +324,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2562,
+   "views": 2563,
    "reads": 294,
-   "sessions": 2443
+   "sessions": 2444
   },
   {
    "device": "mobile",
-   "views": 710,
+   "views": 711,
    "reads": 18,
-   "sessions": 693
+   "sessions": 694
   },
   {
    "device": "tablet",
@@ -428,7 +428,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 13,
+   "views": 15,
    "reads": 4,
    "plays": 0
   },
@@ -667,6 +667,16 @@
    "plays": 1
   },
   {
+   "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 15,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
    "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
    "section": "wire",
@@ -685,16 +695,6 @@
    "views": 13,
    "reads": 8,
    "plays": 7
-  },
-  {
-   "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 13,
-   "reads": 4,
-   "plays": 0
   }
  ],
  "topPages": [
