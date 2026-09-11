@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-11T12:39:56.130Z",
+ "generated": "2026-09-11T12:50:16.838Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
-  "todayReads": 12,
+  "readersNow": 4,
+  "todayReads": 14,
   "avgTimeSec": 41,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3255,
-  "reads": 306,
+  "views": 3257,
+  "reads": 308,
   "completes": 48,
   "plays": 27,
-  "sessions": 3130
+  "sessions": 3132
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2954,
-   "reads": 180,
-   "sessions": 2932
+   "views": 2955,
+   "reads": 181,
+   "sessions": 2934
   },
   {
    "channel": "organic",
-   "views": 110,
-   "reads": 63,
-   "sessions": 97
+   "views": 111,
+   "reads": 64,
+   "sessions": 98
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2954,
-   "reads": 180,
+   "views": 2955,
+   "reads": 181,
    "completes": 26,
-   "sessions": 2932,
+   "sessions": 2934,
    "read_rate": 0.061,
    "complete_rate": 0.009,
    "pages_per_session": 1.01,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 110,
-   "reads": 63,
+   "views": 111,
+   "reads": 64,
    "completes": 3,
-   "sessions": 97,
-   "read_rate": 0.573,
+   "sessions": 98,
+   "read_rate": 0.577,
    "complete_rate": 0.027,
    "pages_per_session": 1.13,
    "median_dwell_sec": 4
@@ -307,9 +307,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2539,
-   "reads": 287,
-   "sessions": 2432
+   "views": 2541,
+   "reads": 289,
+   "sessions": 2434
   },
   {
    "device": "mobile",
@@ -336,6 +336,16 @@
    "plays": 2
   },
   {
+   "slug": "how-to-manage-context-in-a-long-running-agent",
+   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 9,
+   "plays": 1
+  },
+  {
    "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
    "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
    "section": "wire",
@@ -344,16 +354,6 @@
    "views": 14,
    "reads": 8,
    "plays": 7
-  },
-  {
-   "slug": "how-to-manage-context-in-a-long-running-agent",
-   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
-   "reads": 8,
-   "plays": 1
   },
   {
    "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
@@ -403,6 +403,16 @@
    "author": "dex",
    "views": 5,
    "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "open-source-llm-for-coding-september-2026",
+   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 17,
+   "reads": 4,
    "plays": 0
   },
   {
@@ -464,16 +474,6 @@
    "views": 4,
    "reads": 4,
    "plays": 0
-  },
-  {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 16,
-   "reads": 3,
-   "plays": 0
   }
  ],
  "topListens": [
@@ -523,8 +523,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 10,
-   "reads": 8,
+   "views": 11,
+   "reads": 9,
    "plays": 1
   },
   {
@@ -635,8 +635,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 16,
-   "reads": 3,
+   "views": 17,
+   "reads": 4,
    "plays": 0
   },
   {
@@ -814,14 +814,14 @@
    "sessions": 19
   },
   {
+   "ref": "https://duckduckgo.com/",
+   "hits": 24,
+   "sessions": 12
+  },
+  {
    "ref": "https://www.doubao.com/",
    "hits": 23,
    "sessions": 10
-  },
-  {
-   "ref": "https://duckduckgo.com/",
-   "hits": 22,
-   "sessions": 11
   },
   {
    "ref": "dash-range",
