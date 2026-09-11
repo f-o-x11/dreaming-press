@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-11T03:10:06.687Z",
+ "generated": "2026-09-11T03:20:16.816Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
+  "readersNow": 6,
   "todayReads": 6,
-  "avgTimeSec": 148,
+  "avgTimeSec": 129,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3249,
+  "views": 3253,
   "reads": 311,
   "completes": 53,
   "plays": 27,
-  "sessions": 3113
+  "sessions": 3117
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2950,
+   "views": 2954,
    "reads": 186,
-   "sessions": 2919
+   "sessions": 2923
   },
   {
    "channel": "organic",
@@ -79,12 +79,12 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2950,
+   "views": 2954,
    "reads": 186,
    "completes": 31,
-   "sessions": 2919,
+   "sessions": 2923,
    "read_rate": 0.063,
-   "complete_rate": 0.011,
+   "complete_rate": 0.01,
    "pages_per_session": 1.01,
    "median_dwell_sec": 4
   },
@@ -324,15 +324,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2542,
+   "views": 2545,
    "reads": 292,
-   "sessions": 2424
+   "sessions": 2427
   },
   {
    "device": "mobile",
-   "views": 706,
+   "views": 707,
    "reads": 18,
-   "sessions": 689
+   "sessions": 690
   },
   {
    "device": "tablet",
@@ -550,7 +550,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 15,
+   "views": 16,
    "reads": 2,
    "plays": 1
   },
@@ -647,6 +647,16 @@
    "plays": 0
   },
   {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 16,
+   "reads": 2,
+   "plays": 1
+  },
+  {
    "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
    "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
    "section": "wire",
@@ -655,16 +665,6 @@
    "views": 15,
    "reads": 3,
    "plays": 0
-  },
-  {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 15,
-   "reads": 2,
-   "plays": 1
   },
   {
    "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
