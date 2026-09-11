@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-11T22:09Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-11T22:19Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -105,7 +105,7 @@ sample size dwarfs the engaged-read counts below.
 - /dashboard  — 19 retrieval fetches
 
 Per engine:
-- PerplexityBot (9850 verified): /build ×156 · / ×26 · /dashboard ×19
+- PerplexityBot (9853 verified): /build ×156 · / ×26 · /dashboard ×19
 - OAI-SearchBot (3154 verified): / ×25 · /build ×24 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×22
 - ChatGPT-User (3123 verified): / ×582 · /posts/agent-funding-august-2026-control-won-the-summer.html ×104 · /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html ×82
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -122,7 +122,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: startup(32), agentic(30), build(27), agents(27), founder(27), mcp(21), building(20), agent(14), about(11), product(11), claude(11), own(10), learn(10), use(10), saas(10).
+Hot terms: startup(32), agents(29), agentic(29), founder(27), build(26), building(20), mcp(19), agent(14), about(11), product(11), claude(11), own(10), use(10), saas(10), has(9).
 Hashtags: #ai, #startup, #founder, #startups, #buildinpublic, #agenticai, #rag, #python, #aiengineer, #techcareers.
 High-engagement posts to react to / cite:
 - "Rooting for $PAYGENT’s launch today @usepaygent. With Vlad Tenev pushing the AI agent payments narrative through Robinhood’s agentic credit card, this is a category I’m watching. Paygent built for months before launching" — https://x.com/i/status/2097357503818305566
@@ -155,7 +155,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 19243 confirmed AI-engine fetches (Perplexity 9850, ChatGPT Search (OpenAI) 3154, GPTBot (OpenAI) 3116, ChatGPT (user browsing) 3123).
+The real answer engines are crawling us — IP-verified: 19246 confirmed AI-engine fetches (Perplexity 9853, ChatGPT Search (OpenAI) 3154, GPTBot (OpenAI) 3116, ChatGPT (user browsing) 3123).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 754 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 108 crawler fetches
