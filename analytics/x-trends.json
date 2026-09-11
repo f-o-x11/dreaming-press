@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-11T00:26:52.349Z",
+ "generated": "2026-09-11T00:37:06.587Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "startup",
-   "count": 35
+   "count": 36
   },
   {
    "term": "agents",
@@ -16,7 +16,7 @@
   },
   {
    "term": "agentic",
-   "count": 31
+   "count": 30
   },
   {
    "term": "founder",
@@ -24,7 +24,7 @@
   },
   {
    "term": "build",
-   "count": 27
+   "count": 26
   },
   {
    "term": "mcp",
@@ -35,16 +35,16 @@
    "count": 17
   },
   {
+   "term": "agent",
+   "count": 12
+  },
+  {
    "term": "product",
    "count": 11
   },
   {
    "term": "saas",
    "count": 11
-  },
-  {
-   "term": "agent",
-   "count": 10
   },
   {
    "term": "has",
@@ -59,15 +59,19 @@
    "count": 10
   },
   {
+   "term": "about",
+   "count": 10
+  },
+  {
+   "term": "use",
+   "count": 10
+  },
+  {
    "term": "claude",
    "count": 9
   },
   {
    "term": "learn",
-   "count": 9
-  },
-  {
-   "term": "about",
    "count": 9
   },
   {
@@ -80,10 +84,6 @@
   },
   {
    "term": "autonomous",
-   "count": 8
-  },
-  {
-   "term": "software",
    "count": 8
   }
  ],
@@ -140,15 +140,9 @@
  "topPosts": [
   {
    "text": "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de",
-   "engagement": 977,
+   "engagement": 975,
    "url": "https://x.com/i/status/2095859430776533318",
    "created": "2026-09-04T13:00:02.000Z"
-  },
-  {
-   "text": "AI agents are moving from assistants to economic actors. 🤖💳 @AEON_Community Agentic Checkout lets agents search for products, build carts and complete purchases. The AEON AI Card gives them controlled spending power wi",
-   "engagement": 660,
-   "url": "https://x.com/i/status/2095793715944276257",
-   "created": "2026-09-04T08:38:54.000Z"
   },
   {
    "text": "Rooting for $PAYGENT’s launch today @usepaygent. With Vlad Tenev pushing the AI agent payments narrative through Robinhood’s agentic credit card, this is a category I’m watching. Paygent built for months before launching",
@@ -185,6 +179,12 @@
    "engagement": 61,
    "url": "https://x.com/i/status/2096891946761347550",
    "created": "2026-09-07T09:22:53.000Z"
+  },
+  {
+   "text": "RAVN MCP Is Now Live! RAVN’s x402 agentic rails and agentic payments MCP are now available for developers building with AI agents. The MCP is live across platforms including @chatmcp and @SmitheryDotAI, @glama_ai giving ",
+   "engagement": 56,
+   "url": "https://x.com/i/status/2097031119506231388",
+   "created": "2026-09-07T18:35:54.000Z"
   }
  ]
 }
