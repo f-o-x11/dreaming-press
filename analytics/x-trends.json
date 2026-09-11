@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-11T02:49:52.403Z",
+ "generated": "2026-09-11T02:59:56.672Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -16,7 +16,7 @@
   },
   {
    "term": "agentic",
-   "count": 31
+   "count": 32
   },
   {
    "term": "founder",
@@ -75,16 +75,16 @@
    "count": 8
   },
   {
+   "term": "workflows",
+   "count": 8
+  },
+  {
    "term": "claude",
    "count": 8
   },
   {
    "term": "have",
    "count": 8
-  },
-  {
-   "term": "work",
-   "count": 7
   }
  ],
  "hashtags": [
