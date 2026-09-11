@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-11T00:37:06.091Z",
+ "generated": "2026-09-11T00:47:16.181Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17604,
+ "verifiedAiHits": 17606,
  "logsScanned": 30,
  "windowStart": "2026-08-28",
  "windowEnd": "2026-09-11",
- "totalHits": 128113,
- "aiHits": 93568,
+ "totalHits": 128165,
+ "aiHits": 93583,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37911,
+   "hits": 37916,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -47,14 +47,14 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 21880,
+   "hits": 21899,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 47
+     "hits": 48
     },
     {
      "path": "/posts/llm-judge-reliability-vs-validity.md",
@@ -80,10 +80,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18190,
+   "hits": 18191,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
-   "lastSeen": "2026-09-10",
+   "lastSeen": "2026-09-11",
    "topPaths": [
     {
      "path": "/build",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14690,
+   "hits": 14697,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5933,
-   "verifiedHits": 5795,
+   "hits": 5942,
+   "verifiedHits": 5804,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3214,
-   "verifiedHits": 3080,
+   "hits": 3215,
+   "verifiedHits": 3081,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
@@ -245,14 +245,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3066,
-   "verifiedHits": 2920,
+   "hits": 3067,
+   "verifiedHits": 2921,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
     {
      "path": "/",
-     "hits": 543
+     "hits": 544
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -278,10 +278,10 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3046,
+   "hits": 3052,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
-   "lastSeen": "2026-09-10",
+   "lastSeen": "2026-09-11",
    "topPaths": [
     {
      "path": "/",
@@ -300,7 +300,7 @@
      "hits": 4
     },
     {
-     "path": "/posts/cline-vs-roo-code-vs-kilo-code.html",
+     "path": "/posts/chinese-ai-models-openrouter-token-share-vs-revenue.html",
      "hits": 3
     }
    ],
@@ -443,10 +443,10 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 718,
+   "hits": 719,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
-   "lastSeen": "2026-09-10",
+   "lastSeen": "2026-09-11",
    "topPaths": [
     {
      "path": "/",
@@ -476,10 +476,10 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 706,
-   "verifiedHits": 573,
+   "hits": 708,
+   "verifiedHits": 575,
    "firstSeen": "2026-08-28",
-   "lastSeen": "2026-09-10",
+   "lastSeen": "2026-09-11",
    "topPaths": [
     {
      "path": "/",

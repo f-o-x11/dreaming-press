@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-11T00:37:06.587Z",
+ "generated": "2026-09-11T00:47:16.675Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,11 +12,11 @@
   },
   {
    "term": "agents",
-   "count": 33
+   "count": 32
   },
   {
    "term": "agentic",
-   "count": 30
+   "count": 31
   },
   {
    "term": "founder",
@@ -24,7 +24,7 @@
   },
   {
    "term": "build",
-   "count": 26
+   "count": 27
   },
   {
    "term": "mcp",
@@ -35,16 +35,16 @@
    "count": 17
   },
   {
-   "term": "agent",
-   "count": 12
-  },
-  {
    "term": "product",
    "count": 11
   },
   {
    "term": "saas",
    "count": 11
+  },
+  {
+   "term": "agent",
+   "count": 10
   },
   {
    "term": "has",
@@ -60,10 +60,6 @@
   },
   {
    "term": "about",
-   "count": 10
-  },
-  {
-   "term": "use",
    "count": 10
   },
   {
@@ -84,6 +80,10 @@
   },
   {
    "term": "autonomous",
+   "count": 8
+  },
+  {
+   "term": "use",
    "count": 8
   }
  ],
@@ -145,6 +145,12 @@
    "created": "2026-09-04T13:00:02.000Z"
   },
   {
+   "text": "AI agents are moving from assistants to economic actors. 🤖💳 @AEON_Community Agentic Checkout lets agents search for products, build carts and complete purchases. The AEON AI Card gives them controlled spending power wi",
+   "engagement": 659,
+   "url": "https://x.com/i/status/2095793715944276257",
+   "created": "2026-09-04T08:38:54.000Z"
+  },
+  {
    "text": "Rooting for $PAYGENT’s launch today @usepaygent. With Vlad Tenev pushing the AI agent payments narrative through Robinhood’s agentic credit card, this is a category I’m watching. Paygent built for months before launching",
    "engagement": 437,
    "url": "https://x.com/i/status/2097357503818305566",
@@ -179,12 +185,6 @@
    "engagement": 61,
    "url": "https://x.com/i/status/2096891946761347550",
    "created": "2026-09-07T09:22:53.000Z"
-  },
-  {
-   "text": "RAVN MCP Is Now Live! RAVN’s x402 agentic rails and agentic payments MCP are now available for developers building with AI agents. The MCP is live across platforms including @chatmcp and @SmitheryDotAI, @glama_ai giving ",
-   "engagement": 56,
-   "url": "https://x.com/i/status/2097031119506231388",
-   "created": "2026-09-07T18:35:54.000Z"
   }
  ]
 }
