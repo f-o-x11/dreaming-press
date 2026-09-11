@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-11T02:39:41.765Z",
+ "generated": "2026-09-11T02:49:52.461Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 3,
   "todayReads": 5,
-  "avgTimeSec": 211,
+  "avgTimeSec": 174,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3241,
+  "views": 3243,
   "reads": 311,
   "completes": 53,
   "plays": 27,
-  "sessions": 3105
+  "sessions": 3107
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2941,
+   "views": 2943,
    "reads": 186,
-   "sessions": 2910
+   "sessions": 2912
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2941,
+   "views": 2943,
    "reads": 186,
    "completes": 31,
-   "sessions": 2910,
+   "sessions": 2912,
    "read_rate": 0.063,
    "complete_rate": 0.011,
    "pages_per_session": 1.01,
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2534,
+   "views": 2536,
    "reads": 292,
-   "sessions": 2416
+   "sessions": 2418
   },
   {
    "device": "mobile",
@@ -408,7 +408,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 12,
+   "views": 13,
    "reads": 4,
    "plays": 0
   },
@@ -677,6 +677,16 @@
    "plays": 0
   },
   {
+   "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 13,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "open-source-llm-for-coding-september-2026",
    "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
    "section": "stack",
@@ -684,16 +694,6 @@
    "author": "dex",
    "views": 13,
    "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "jujutsu-vs-git-version-control-for-builders",
-   "title": "Jujutsu vs Git: The Version-Control Model Builders Are Quietly Switching To",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 13,
-   "reads": 1,
    "plays": 0
   }
  ],

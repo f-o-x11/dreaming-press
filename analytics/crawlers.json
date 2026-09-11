@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-11T02:39:41.262Z",
+ "generated": "2026-09-11T02:49:51.560Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17621,
+ "verifiedAiHits": 17623,
  "logsScanned": 30,
  "windowStart": "2026-08-28",
  "windowEnd": "2026-09-11",
- "totalHits": 128863,
- "aiHits": 93972,
+ "totalHits": 128927,
+ "aiHits": 94012,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 38104,
+   "hits": 38134,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 192
+     "hits": 193
     },
     {
      "path": "/wire.html",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 22143,
+   "hits": 22165,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14781,
+   "hits": 14788,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -124,7 +124,7 @@
     },
     {
      "path": "/tags/opinionated",
-     "hits": 14
+     "hits": 15
     },
     {
      "path": "/stack.html",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5985,
-   "verifiedHits": 5847,
+   "hits": 5987,
+   "verifiedHits": 5849,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3218,
-   "verifiedHits": 3084,
+   "hits": 3219,
+   "verifiedHits": 3085,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
@@ -245,14 +245,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3077,
-   "verifiedHits": 2931,
+   "hits": 3078,
+   "verifiedHits": 2932,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
     {
      "path": "/",
-     "hits": 547
+     "hits": 548
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 629,
+   "hits": 630,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
