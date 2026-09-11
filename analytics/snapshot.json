@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-11T07:33:11.631Z",
+ "generated": "2026-09-11T07:43:16.949Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 5,
   "todayReads": 10,
-  "avgTimeSec": 48,
+  "avgTimeSec": 47,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3268,
+  "views": 3272,
   "reads": 312,
   "completes": 52,
   "plays": 27,
-  "sessions": 3131
+  "sessions": 3135
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2970,
+   "views": 2973,
    "reads": 186,
-   "sessions": 2936
+   "sessions": 2939
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 85,
+   "views": 86,
    "reads": 26,
-   "sessions": 84
+   "sessions": 85
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2970,
+   "views": 2973,
    "reads": 186,
    "completes": 30,
-   "sessions": 2936,
+   "sessions": 2939,
    "read_rate": 0.063,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 85,
+   "views": 86,
    "reads": 26,
    "completes": 3,
-   "sessions": 84,
-   "read_rate": 0.306,
+   "sessions": 85,
+   "read_rate": 0.302,
    "complete_rate": 0.035,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 91,
+   "views": 92,
    "reads": 26,
-   "sessions": 86
+   "sessions": 87
   },
   {
    "assistant": "Doubao",
@@ -324,9 +324,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2556,
+   "views": 2560,
    "reads": 293,
-   "sessions": 2437
+   "sessions": 2441
   },
   {
    "device": "mobile",
@@ -368,7 +368,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 13,
+   "views": 14,
    "reads": 8,
    "plays": 7
   },
@@ -500,7 +500,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 13,
+   "views": 14,
    "reads": 8,
    "plays": 7
   },
@@ -692,7 +692,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 13,
+   "views": 14,
    "reads": 8,
    "plays": 7
   }
@@ -714,9 +714,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 86,
+   "views": 87,
    "reads": 0,
-   "sessions": 86,
+   "sessions": 87,
    "avg_dwell_sec": 3
   },
   {
