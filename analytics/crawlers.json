@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-11T23:10:06.121Z",
+ "generated": "2026-09-11T23:20:06.935Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19252,
+ "verifiedAiHits": 19257,
  "logsScanned": 30,
  "windowStart": "2026-08-28",
  "windowEnd": "2026-09-11",
- "totalHits": 137427,
- "aiHits": 99761,
+ "totalHits": 137509,
+ "aiHits": 99826,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 39761,
+   "hits": 39785,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 24096,
+   "hits": 24110,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19565,
+   "hits": 19567,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15683,
+   "hits": 15690,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 10016,
-   "verifiedHits": 9854,
+   "hits": 10018,
+   "verifiedHits": 9856,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6374,
-   "verifiedHits": 6236,
+   "hits": 6377,
+   "verifiedHits": 6239,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
@@ -241,6 +241,39 @@
    "verifiable": true
   },
   {
+   "name": "ChatGPT-User",
+   "label": "ChatGPT (user browsing)",
+   "category": "ai",
+   "home": "https://openai.com/bot",
+   "hits": 3278,
+   "verifiedHits": 3131,
+   "firstSeen": "2026-08-28",
+   "lastSeen": "2026-09-11",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 584
+    },
+    {
+     "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
+     "hits": 104
+    },
+    {
+     "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
+     "hits": 82
+    },
+    {
+     "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
+     "hits": 77
+    },
+    {
+     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
+     "hits": 62
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "GPTBot",
    "label": "GPTBot (OpenAI)",
    "category": "ai",
@@ -269,39 +302,6 @@
     {
      "path": "/wire.html",
      "hits": 33
-    }
-   ],
-   "verifiable": true
-  },
-  {
-   "name": "ChatGPT-User",
-   "label": "ChatGPT (user browsing)",
-   "category": "ai",
-   "home": "https://openai.com/bot",
-   "hits": 3275,
-   "verifiedHits": 3128,
-   "firstSeen": "2026-08-28",
-   "lastSeen": "2026-09-11",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 584
-    },
-    {
-     "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 104
-    },
-    {
-     "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 82
-    },
-    {
-     "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
-     "hits": 77
-    },
-    {
-     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 62
     }
    ],
    "verifiable": true
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1844,
+   "hits": 1848,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
@@ -509,14 +509,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 704,
+   "hits": 707,
    "verifiedHits": 0,
    "firstSeen": "2026-08-28",
    "lastSeen": "2026-09-11",
    "topPaths": [
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
-     "hits": 87
+     "hits": 88
     },
     {
      "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
@@ -542,7 +542,7 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 538,
+   "hits": 558,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-11",
