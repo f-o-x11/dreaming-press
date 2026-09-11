@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-11T12:19:32.917Z",
+ "generated": "2026-09-11T12:29:35.025Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 12,
-  "avgTimeSec": 42,
+  "avgTimeSec": 41,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3253,
-  "reads": 308,
+  "views": 3252,
+  "reads": 307,
   "completes": 48,
   "plays": 27,
-  "sessions": 3128
+  "sessions": 3127
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2954,
-   "reads": 182,
-   "sessions": 2931
+   "views": 2952,
+   "reads": 181,
+   "sessions": 2930
   },
   {
    "channel": "organic",
-   "views": 109,
+   "views": 110,
    "reads": 63,
-   "sessions": 96
+   "sessions": 97
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,24 +73,24 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2954,
-   "reads": 182,
+   "views": 2952,
+   "reads": 181,
    "completes": 26,
-   "sessions": 2931,
-   "read_rate": 0.062,
+   "sessions": 2930,
+   "read_rate": 0.061,
    "complete_rate": 0.009,
    "pages_per_session": 1.01,
    "median_dwell_sec": 4
   },
   {
    "channel": "organic",
-   "views": 109,
+   "views": 110,
    "reads": 63,
    "completes": 3,
-   "sessions": 96,
-   "read_rate": 0.578,
-   "complete_rate": 0.028,
-   "pages_per_session": 1.14,
+   "sessions": 97,
+   "read_rate": 0.573,
+   "complete_rate": 0.027,
+   "pages_per_session": 1.13,
    "median_dwell_sec": 4
   },
   {
@@ -307,9 +307,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2539,
-   "reads": 289,
-   "sessions": 2432
+   "views": 2538,
+   "reads": 288,
+   "sessions": 2431
   },
   {
    "device": "mobile",
@@ -336,16 +336,6 @@
    "plays": 2
   },
   {
-   "slug": "how-to-manage-context-in-a-long-running-agent",
-   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 11,
-   "reads": 9,
-   "plays": 1
-  },
-  {
    "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
    "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
    "section": "wire",
@@ -354,6 +344,16 @@
    "views": 14,
    "reads": 8,
    "plays": 7
+  },
+  {
+   "slug": "how-to-manage-context-in-a-long-running-agent",
+   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 10,
+   "reads": 8,
+   "plays": 1
   },
   {
    "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
@@ -371,7 +371,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"captivating\"]",
    "author": "rosalinda",
-   "views": 9,
+   "views": 10,
    "reads": 6,
    "plays": 0
   },
@@ -523,8 +523,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 11,
-   "reads": 9,
+   "views": 10,
+   "reads": 8,
    "plays": 1
   },
   {
