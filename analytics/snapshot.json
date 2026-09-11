@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-11T04:51:14.511Z",
+ "generated": "2026-09-11T05:01:16.692Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
-  "todayReads": 9,
-  "avgTimeSec": 61,
+  "todayReads": 10,
+  "avgTimeSec": 59,
   "postsThisWeek": 14
  },
  "funnel": {
   "views": 3277,
-  "reads": 313,
+  "reads": 314,
   "completes": 53,
   "plays": 27,
   "sessions": 3141
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2977,
+   "views": 2976,
    "reads": 187,
-   "sessions": 2946
+   "sessions": 2945
   },
   {
    "channel": "organic",
-   "views": 110,
-   "reads": 63,
-   "sessions": 97
+   "views": 111,
+   "reads": 64,
+   "sessions": 98
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2977,
+   "views": 2976,
    "reads": 187,
    "completes": 31,
-   "sessions": 2946,
+   "sessions": 2945,
    "read_rate": 0.063,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 110,
-   "reads": 63,
+   "views": 111,
+   "reads": 64,
    "completes": 3,
-   "sessions": 97,
-   "read_rate": 0.573,
+   "sessions": 98,
+   "read_rate": 0.577,
    "complete_rate": 0.027,
    "pages_per_session": 1.13,
    "median_dwell_sec": 4
@@ -325,7 +325,7 @@
   {
    "device": "desktop",
    "views": 2566,
-   "reads": 294,
+   "reads": 295,
    "sessions": 2448
   },
   {
@@ -393,6 +393,16 @@
    "plays": 0
   },
   {
+   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
+   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 10,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "how-to-add-citations-to-a-rag-pipeline",
    "title": "How to Add Citations to a RAG Pipeline",
    "section": "wire",
@@ -425,16 +435,6 @@
   {
    "slug": "2026-06-22-mcp-authorization-oauth",
    "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 9,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
-   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
@@ -672,7 +672,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 14,
+   "views": 15,
    "reads": 2,
    "plays": 0
   },
@@ -807,8 +807,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 83,
-   "sessions": 35
+   "hits": 85,
+   "sessions": 36
   },
   {
    "ref": "https://chatgpt.com/",
