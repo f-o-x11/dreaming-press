@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-11T13:51:20.652Z",
+ "generated": "2026-09-11T14:01:36.935Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 4,
   "todayReads": 15,
   "avgTimeSec": 40,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3258,
+  "views": 3256,
   "reads": 309,
-  "completes": 48,
+  "completes": 49,
   "plays": 27,
-  "sessions": 3133
+  "sessions": 3131
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2953,
+   "views": 2952,
    "reads": 181,
-   "sessions": 2934
+   "sessions": 2933
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 88,
+   "views": 87,
    "reads": 27,
-   "sessions": 87
+   "sessions": 86
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2953,
+   "views": 2952,
    "reads": 181,
    "completes": 26,
-   "sessions": 2934,
+   "sessions": 2933,
    "read_rate": 0.061,
    "complete_rate": 0.009,
    "pages_per_session": 1.01,
@@ -95,12 +95,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 88,
+   "views": 87,
    "reads": 27,
-   "completes": 3,
-   "sessions": 87,
-   "read_rate": 0.307,
-   "complete_rate": 0.034,
+   "completes": 4,
+   "sessions": 86,
+   "read_rate": 0.31,
+   "complete_rate": 0.046,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
   },
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 94,
+   "views": 93,
    "reads": 27,
-   "sessions": 89
+   "sessions": 88
   },
   {
    "assistant": "Doubao",
@@ -307,9 +307,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2538,
+   "views": 2536,
    "reads": 290,
-   "sessions": 2431
+   "sessions": 2429
   },
   {
    "device": "mobile",
@@ -640,16 +640,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
-   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 16,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
    "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
    "section": "stack",
@@ -657,6 +647,16 @@
    "author": "dex",
    "views": 15,
    "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
+   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 15,
+   "reads": 2,
    "plays": 0
   },
   {
@@ -690,9 +690,9 @@
   },
   {
    "path": "/",
-   "views": 179,
+   "views": 178,
    "reads": 1,
-   "sessions": 176,
+   "sessions": 175,
    "avg_dwell_sec": 10
   },
   {
