@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-11T11:15:47.624Z",
+ "generated": "2026-09-11T11:38:38.463Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 3,
   "todayReads": 12,
   "avgTimeSec": 42,
-  "postsThisWeek": 14
+  "postsThisWeek": 16
  },
  "funnel": {
   "views": 3250,
-  "reads": 310,
+  "reads": 309,
   "completes": 49,
   "plays": 27,
   "sessions": 3125
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2950,
+   "views": 2951,
    "reads": 183,
    "sessions": 2928
   },
   {
    "channel": "organic",
-   "views": 110,
-   "reads": 64,
-   "sessions": 97
+   "views": 109,
+   "reads": 63,
+   "sessions": 96
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,7 +73,7 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2950,
+   "views": 2951,
    "reads": 183,
    "completes": 27,
    "sessions": 2928,
@@ -84,13 +84,13 @@
   },
   {
    "channel": "organic",
-   "views": 110,
-   "reads": 64,
+   "views": 109,
+   "reads": 63,
    "completes": 3,
-   "sessions": 97,
-   "read_rate": 0.582,
-   "complete_rate": 0.027,
-   "pages_per_session": 1.13,
+   "sessions": 96,
+   "read_rate": 0.578,
+   "complete_rate": 0.028,
+   "pages_per_session": 1.14,
    "median_dwell_sec": 4
   },
   {
@@ -307,15 +307,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2538,
-   "reads": 291,
-   "sessions": 2431
+   "views": 2539,
+   "reads": 290,
+   "sessions": 2432
   },
   {
    "device": "mobile",
-   "views": 711,
+   "views": 710,
    "reads": 18,
-   "sessions": 694
+   "sessions": 693
   },
   {
    "device": "tablet",
@@ -416,16 +416,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-22-mcp-authorization-oauth",
-   "title": "MCP Authorization Explained: OAuth 2.1, Resource Indicators, and the Confused Deputy",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 8,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
    "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
    "section": "wire",
@@ -473,6 +463,16 @@
    "author": "dex",
    "views": 4,
    "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "open-source-llm-for-coding-september-2026",
+   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 16,
+   "reads": 3,
    "plays": 0
   }
  ],
@@ -585,7 +585,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 56,
+   "views": 57,
    "reads": 0,
    "plays": 0
   },
@@ -800,8 +800,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 32,
-   "sessions": 17
+   "hits": 30,
+   "sessions": 16
   },
   {
    "ref": "https://l.instagram.com/",
