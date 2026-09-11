@@ -122,7 +122,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: startup(35), agents(30), agentic(29), founder(29), build(28), mcp(21), building(17), agent(13), product(11), claude(11), has(10), own(10), code(10), about(10), use(10).
+Hot terms: startup(35), agents(32), agentic(29), founder(29), build(27), mcp(20), building(17), agent(12), product(11), claude(11), has(10), own(10), code(10), about(10), use(10).
 Hashtags: #ai, #startup, #agenticai, #founder, #buildinpublic, #rag, #python, #aiengineer, #techcareers, #startups.
 High-engagement posts to react to / cite:
 - "If you can build these 12 Agentic AI Engineer projects. You're hired. Project 1: Autonomous Ticket Resolution Engine Agent that reads the ticket, queries the database, applies the fix, and asks a human before anything de" — https://x.com/i/status/2095859430776533318
