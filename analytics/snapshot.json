@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-12T09:34:04.875Z",
+ "generated": "2026-09-12T09:44:18.073Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 3,
   "todayReads": 2,
   "avgTimeSec": 11,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3250,
+  "views": 3245,
   "reads": 314,
   "completes": 48,
   "plays": 27,
-  "sessions": 3121
+  "sessions": 3117
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2941,
+   "views": 2937,
    "reads": 181,
-   "sessions": 2921
+   "sessions": 2917
   },
   {
    "channel": "organic",
@@ -41,7 +41,7 @@
   },
   {
    "channel": "referral",
-   "views": 58,
+   "views": 57,
    "reads": 16,
    "sessions": 55
   },
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2941,
+   "views": 2937,
    "reads": 181,
    "completes": 25,
-   "sessions": 2921,
+   "sessions": 2917,
    "read_rate": 0.062,
    "complete_rate": 0.009,
    "pages_per_session": 1.01,
@@ -106,13 +106,13 @@
   },
   {
    "channel": "referral",
-   "views": 58,
+   "views": 57,
    "reads": 16,
    "completes": 1,
    "sessions": 55,
-   "read_rate": 0.276,
-   "complete_rate": 0.017,
-   "pages_per_session": 1.05,
+   "read_rate": 0.281,
+   "complete_rate": 0.018,
+   "pages_per_session": 1.04,
    "median_dwell_sec": null
   },
   {
@@ -307,9 +307,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2547,
+   "views": 2542,
    "reads": 294,
-   "sessions": 2436
+   "sessions": 2432
   },
   {
    "device": "mobile",
@@ -466,12 +466,12 @@
    "plays": 0
   },
   {
-   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
-   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
+   "slug": "gpt-5-6-prompt-caching-explicit-breakpoints",
+   "title": "GPT-5.6 Rewired Prompt Caching: A Hands-On Guide to prompt_cache_options",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 6,
+   "views": 5,
    "reads": 4,
    "plays": 0
   }
@@ -650,16 +650,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
-   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
    "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
    "section": "wire",
@@ -668,6 +658,16 @@
    "views": 14,
    "reads": 8,
    "plays": 7
+  },
+  {
+   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
+   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 14,
+   "reads": 2,
+   "plays": 0
   },
   {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
