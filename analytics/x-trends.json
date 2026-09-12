@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-12T22:35:46.266Z",
+ "generated": "2026-09-12T22:45:52.860Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -24,7 +24,7 @@
   },
   {
    "term": "agents",
-   "count": 26
+   "count": 25
   },
   {
    "term": "mcp",
@@ -32,7 +32,7 @@
   },
   {
    "term": "building",
-   "count": 18
+   "count": 17
   },
   {
    "term": "agent",
@@ -67,6 +67,10 @@
    "count": 8
   },
   {
+   "term": "people",
+   "count": 8
+  },
+  {
    "term": "model",
    "count": 8
   },
@@ -81,10 +85,6 @@
   {
    "term": "co-founder",
    "count": 8
-  },
-  {
-   "term": "its",
-   "count": 7
   }
  ],
  "hashtags": [
@@ -102,10 +102,6 @@
   },
   {
    "term": "#buildinpublic",
-   "count": 3
-  },
-  {
-   "term": "#startups",
    "count": 3
   },
   {
@@ -133,6 +129,10 @@
    "count": 2
   },
   {
+   "term": "#startups",
+   "count": 2
+  },
+  {
    "term": "#aiagents",
    "count": 1
   }
@@ -146,7 +146,7 @@
   },
   {
    "text": "Israeli AI startup founder Ilit Razt pleaded guilty in New York to a $27 million investor fraud scheme.​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ I’m willing to bet Donald Trump will pardon him like he’s pardoned",
-   "engagement": 162,
+   "engagement": 181,
    "url": "https://x.com/i/status/2098886739087745493",
    "created": "2026-09-12T21:29:28.000Z"
   },
