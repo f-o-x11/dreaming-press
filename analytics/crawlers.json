@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-12T10:55:00.593Z",
+ "generated": "2026-09-12T11:05:06.517Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17948,
+ "verifiedAiHits": 17950,
  "logsScanned": 30,
  "windowStart": "2026-08-29",
  "windowEnd": "2026-09-12",
- "totalHits": 133443,
- "aiHits": 95833,
+ "totalHits": 133635,
+ "aiHits": 95980,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 38749,
+   "hits": 38750,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 24754,
+   "hits": 24761,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18670,
+   "hits": 18762,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15122,
+   "hits": 15130,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -146,7 +146,7 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 10522,
+   "hits": 10526,
    "verifiedHits": 10360,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -168,7 +168,7 @@
      "hits": 16
     },
     {
-     "path": "/calculators/agent-cost",
+     "path": "/subscribe",
      "hits": 16
     }
    ],
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6157,
-   "verifiedHits": 6019,
+   "hits": 6168,
+   "verifiedHits": 6023,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3429,
-   "verifiedHits": 3293,
+   "hits": 3437,
+   "verifiedHits": 3294,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
@@ -245,14 +245,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3125,
-   "verifiedHits": 2980,
+   "hits": 3140,
+   "verifiedHits": 2981,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
     {
      "path": "/",
-     "hits": 568
+     "hits": 569
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2380,
+   "hits": 2387,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -344,7 +344,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1667,
+   "hits": 1672,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -371,6 +371,39 @@
     }
    ],
    "verifiable": false
+  },
+  {
+   "name": "GPTBot",
+   "label": "GPTBot (OpenAI)",
+   "category": "ai",
+   "home": "https://openai.com/gptbot",
+   "hits": 1480,
+   "verifiedHits": 1315,
+   "firstSeen": "2026-08-29",
+   "lastSeen": "2026-09-12",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 18
+    },
+    {
+     "path": "/tags/howto",
+     "hits": 6
+    },
+    {
+     "path": "/authors/wire-desk",
+     "hits": 6
+    },
+    {
+     "path": "/authors/rosalinda",
+     "hits": 5
+    },
+    {
+     "path": "/graphql",
+     "hits": 4
+    }
+   ],
+   "verifiable": true
   },
   {
    "name": "Meta-ExternalAgent",
@@ -406,44 +439,11 @@
    "verifiable": false
   },
   {
-   "name": "GPTBot",
-   "label": "GPTBot (OpenAI)",
-   "category": "ai",
-   "home": "https://openai.com/gptbot",
-   "hits": 1474,
-   "verifiedHits": 1315,
-   "firstSeen": "2026-08-29",
-   "lastSeen": "2026-09-12",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 18
-    },
-    {
-     "path": "/tags/howto",
-     "hits": 6
-    },
-    {
-     "path": "/authors/wire-desk",
-     "hits": 6
-    },
-    {
-     "path": "/authors/rosalinda",
-     "hits": 5
-    },
-    {
-     "path": "/graphql",
-     "hits": 4
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "YandexBot",
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 799,
+   "hits": 805,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -476,7 +476,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 755,
+   "hits": 757,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -487,19 +487,19 @@
     },
     {
      "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
-     "hits": 45
+     "hits": 46
     },
     {
      "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
      "hits": 15
     },
     {
-     "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
+     "path": "/posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html",
      "hits": 14
     },
     {
-     "path": "/posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html",
-     "hits": 13
+     "path": "/posts/2026-06-21-docling-vs-unstructured-vs-llamaparse.html",
+     "hits": 14
     }
    ],
    "verifiable": false
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 662,
-   "verifiedHits": 598,
+   "hits": 676,
+   "verifiedHits": 603,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
@@ -523,11 +523,11 @@
      "hits": 4
     },
     {
-     "path": "/posts/best-llm-for-writing-2026.html",
-     "hits": 3
+     "path": "/newsroom",
+     "hits": 4
     },
     {
-     "path": "/newsroom",
+     "path": "/posts/best-llm-for-writing-2026.html",
      "hits": 3
     },
     {
@@ -542,10 +542,10 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 593,
+   "hits": 599,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
-   "lastSeen": "2026-09-11",
+   "lastSeen": "2026-09-12",
    "topPaths": [
     {
      "path": "/dashboard",
@@ -564,7 +564,7 @@
      "hits": 3
     },
     {
-     "path": "/tools",
+     "path": "/apps",
      "hits": 2
     }
    ],
