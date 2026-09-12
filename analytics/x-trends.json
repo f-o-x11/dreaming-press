@@ -1,11 +1,15 @@
 {
- "generated": "2026-09-12T20:33:58.956Z",
+ "generated": "2026-09-12T20:44:01.565Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
   "(LLM OR \"coding agent\" OR RAG OR \"AI startup\") founder -is:retweet -is:reply lang:en"
  ],
  "topTerms": [
+  {
+   "term": "agents",
+   "count": 28
+  },
   {
    "term": "agentic",
    "count": 28
@@ -19,10 +23,6 @@
    "count": 28
   },
   {
-   "term": "agents",
-   "count": 27
-  },
-  {
    "term": "build",
    "count": 27
   },
@@ -32,7 +32,7 @@
   },
   {
    "term": "building",
-   "count": 19
+   "count": 18
   },
   {
    "term": "agent",
@@ -158,7 +158,7 @@
   },
   {
    "text": "Finch V2 is live on @ponsdotfamily. Over the past few months, what started as NoelClaw evolved into something much bigger — a platform where AI agents can remember, research, build, automate, trade, and interact with rea",
-   "engagement": 83,
+   "engagement": 86,
    "url": "https://x.com/i/status/2098850575576428667",
    "created": "2026-09-12T19:05:46.000Z"
   },
@@ -176,7 +176,7 @@
   },
   {
    "text": "$GOOGL Brain founder and former DeepMind Chief Scientist Jeff Dean’s new AI startup, Discovery Loop, is reportedly seeking funding at around a $50B valuation, just weeks after talks valued it near $10B. https://t.co/a1Lr",
-   "engagement": 58,
+   "engagement": 59,
    "url": "https://x.com/i/status/2098561948115931397",
    "created": "2026-09-11T23:58:52.000Z"
   },
