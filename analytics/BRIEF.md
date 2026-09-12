@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-12T00:51Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-12T01:01Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3261 views → 317 engaged reads → 49 completes · 3129 sessions.
-- Channels: direct 183r/2948v · organic 69r/117v · campaign:chatgpt.com 28r/87v · ai 18r/38v · referral 16r/60v · social 1r/9v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
+- Funnel: 3261 views → 316 engaged reads → 49 completes · 3130 sessions.
+- Channels: direct 182r/2948v · organic 69r/117v · campaign:chatgpt.com 28r/87v · ai 18r/38v · referral 16r/60v · social 1r/9v · campaign:copilot.com 1r/1v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 28r/94v · Doubao 10r/12v · Perplexity 4r/5v · DeepSeek 1r/4v · Grok 1r/3v · Copilot 1r/1v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, duckduckgo.com, l.instagram.com, google.com, doubao.com, dash-range, brand, nav-cmp.
 - Engaged-read winners by section: stack=6, wire=9.
@@ -36,11 +36,11 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 
 ## Top by engaged reads (eyes that stayed)
 - [stack] "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet" — 13 reads, 34 views, 2 listens
-- [wire] "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory" — 9 reads, 11 views, 1 listens
 - [wire] "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together" — 8 reads, 14 views, 7 listens
+- [wire] "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory" — 8 reads, 10 views, 1 listens
 - [wire] "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model" — 7 reads, 11 views, 7 listens
 - [stack] "LM Studio Bionic: A Private, Local Agent for Open Models — What It Is, Who It's For, How to Start" — 6 reads, 10 views, 0 listens
-- [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 5 reads, 18 views, 0 listens
+- [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 5 reads, 19 views, 0 listens
 - [wire] "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo" — 5 reads, 9 views, 0 listens
 - [wire] "How to Add Citations to a RAG Pipeline" — 5 reads, 8 views, 0 listens
 - [wire] "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents" — 5 reads, 5 views, 0 listens
@@ -51,7 +51,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model" — 7 listens, 7 reads
 - [stack] "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet" — 2 listens, 13 reads
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 2 listens, 3 reads
-- [wire] "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory" — 1 listens, 9 reads
+- [wire] "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory" — 1 listens, 8 reads
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 1 listens, 2 reads
 - [stack] "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026" — 1 listens, 2 reads
 - [stack] "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement" — 1 listens, 2 reads
@@ -60,7 +60,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 374 views, 0 reads, 370 sessions, avg 4s
-- / — 177 views, 1 reads, 174 sessions, avg 10s
+- / — 178 views, 1 reads, 175 sessions, avg 10s
 - /compare/:pair — 88 views, 0 reads, 88 sessions, avg 3s
 - /best/:cat — 34 views, 1 reads, 35 sessions, avg 4s
 - /build — 28 views, 0 reads, 28 sessions, avg 4s
@@ -75,7 +75,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [stack] "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet" — 34 views, 13 reads
 - [wire] "OpenAI Cut Terra and Luna on July 30. On the Sticker, Luna Is Now the Cheapest Agent Backend Alive — On the Bill, the Ranking Barely Moved." — 29 views, 0 reads
 - [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 22 views, 2 reads
-- [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 18 views, 5 reads
+- [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 19 views, 5 reads
 - [wire] "The Founder's Wire, September 4: A 'Firewall for Agents' Raises $50M, HiddenLayer Takes $100M a Day Later, and Crusoe Hits $30B for the Compute Underneath" — 18 views, 2 reads
 
 ## Arrived but left (fix these openings first)
@@ -99,14 +99,14 @@ sample size dwarfs the engaged-read counts below.
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 78 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 67 retrieval fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 59 retrieval fetches
+- /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html  — 23 retrieval fetches
 - /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 22 retrieval fetches
-- /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html  — 22 retrieval fetches
 - /posts/serverless-inference-api-groq-fireworks-together-deepinfra-baseten.html  — 21 retrieval fetches
 - /dashboard  — 20 retrieval fetches
 
 Per engine:
-- PerplexityBot (10113 verified): /build ×161 · / ×25 · /dashboard ×20
-- OAI-SearchBot (3083 verified): / ×24 · /build ×24 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×22
+- PerplexityBot (10114 verified): /build ×161 · / ×25 · /dashboard ×20
+- OAI-SearchBot (3098 verified): / ×24 · /build ×24 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×23
 - ChatGPT-User (2925 verified): / ×550 · /posts/agent-funding-august-2026-control-won-the-summer.html ×88 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×78
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -122,7 +122,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: startup(32), agentic(31), founder(28), build(26), agents(25), mcp(21), building(19), agent(14), own(11), about(11), claude(11), has(10), its(10), learn(10), product(10).
+Hot terms: startup(32), agentic(30), founder(28), build(26), agents(25), mcp(20), building(19), agent(15), own(11), about(11), claude(11), product(10), saas(10), has(9), code(9).
 Hashtags: #ai, #startup, #founder, #startups, #buildinpublic, #agenticai, #rag, #python, #aiengineer, #techcareers.
 High-engagement posts to react to / cite:
 - "Rooting for $PAYGENT’s launch today @usepaygent. With Vlad Tenev pushing the AI agent payments narrative through Robinhood’s agentic credit card, this is a category I’m watching. Paygent built for months before launching" — https://x.com/i/status/2097357503818305566
@@ -155,9 +155,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17434 confirmed AI-engine fetches (Perplexity 10113, ChatGPT Search (OpenAI) 3083, ChatGPT (user browsing) 2925, GPTBot (OpenAI) 1313).
+The real answer engines are crawling us — IP-verified: 17451 confirmed AI-engine fetches (Perplexity 10114, ChatGPT Search (OpenAI) 3098, ChatGPT (user browsing) 2925, GPTBot (OpenAI) 1314).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 689 crawler fetches
+- /build  — 690 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 94 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 88 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 84 crawler fetches
@@ -168,7 +168,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html  — 45 crawler fetches
 - /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 44 crawler fetches
 - /posts/2026-08-22-startup-wins-price-war-below-free.html  — 43 crawler fetches
-- /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 22 crawler fetches
+- /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html  — 23 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)

@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-12T00:51:16.995Z",
+ "generated": "2026-09-12T01:01:29.019Z",
  "windowDays": 14,
  "site": {
   "readersNow": 6,
@@ -9,17 +9,17 @@
  },
  "funnel": {
   "views": 3261,
-  "reads": 317,
+  "reads": 316,
   "completes": 49,
   "plays": 27,
-  "sessions": 3129
+  "sessions": 3130
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2948,
-   "reads": 183,
-   "sessions": 2927
+   "reads": 182,
+   "sessions": 2928
   },
   {
    "channel": "organic",
@@ -74,9 +74,9 @@
   {
    "channel": "direct",
    "views": 2948,
-   "reads": 183,
+   "reads": 182,
    "completes": 26,
-   "sessions": 2927,
+   "sessions": 2928,
    "read_rate": 0.062,
    "complete_rate": 0.009,
    "pages_per_session": 1.01,
@@ -307,15 +307,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2551,
-   "reads": 298,
-   "sessions": 2437
+   "views": 2552,
+   "reads": 297,
+   "sessions": 2439
   },
   {
    "device": "mobile",
-   "views": 709,
+   "views": 708,
    "reads": 18,
-   "sessions": 692
+   "sessions": 691
   },
   {
    "device": "tablet",
@@ -336,16 +336,6 @@
    "plays": 2
   },
   {
-   "slug": "how-to-manage-context-in-a-long-running-agent",
-   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 11,
-   "reads": 9,
-   "plays": 1
-  },
-  {
    "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
    "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
    "section": "wire",
@@ -354,6 +344,16 @@
    "views": 14,
    "reads": 8,
    "plays": 7
+  },
+  {
+   "slug": "how-to-manage-context-in-a-long-running-agent",
+   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 10,
+   "reads": 8,
+   "plays": 1
   },
   {
    "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
@@ -381,7 +381,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 18,
+   "views": 19,
    "reads": 5,
    "plays": 0
   },
@@ -523,8 +523,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 11,
-   "reads": 9,
+   "views": 10,
+   "reads": 8,
    "plays": 1
   },
   {
@@ -625,7 +625,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 18,
+   "views": 19,
    "reads": 5,
    "plays": 0
   },
@@ -690,9 +690,9 @@
   },
   {
    "path": "/",
-   "views": 177,
+   "views": 178,
    "reads": 1,
-   "sessions": 174,
+   "sessions": 175,
    "avg_dwell_sec": 10
   },
   {
