@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-12T22:25Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-12T22:35Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -71,7 +71,7 @@ ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
-- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 56 views, 0 reads
+- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 57 views, 0 reads
 - [stack] "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet" — 34 views, 13 reads
 - [wire] "OpenAI Cut Terra and Luna on July 30. On the Sticker, Luna Is Now the Cheapest Agent Backend Alive — On the Bill, the Ranking Barely Moved." — 29 views, 0 reads
 - [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 21 views, 6 reads
@@ -83,7 +83,7 @@ These pulled real traffic and then lost it. The click already worked, so the
 problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
-- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 56 views but only 0 engaged reads (0.0%)
+- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 57 views but only 0 engaged reads (0.0%)
 - [wire] "OpenAI Cut Terra and Luna on July 30. On the Sticker, Luna Is Now the Cheapest Agent Backend Alive — On the Bill, the Ranking Barely Moved." — 29 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
@@ -99,15 +99,15 @@ sample size dwarfs the engaged-read counts below.
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 82 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 67 retrieval fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 63 retrieval fetches
+- /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 25 retrieval fetches
 - /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html  — 25 retrieval fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 25 retrieval fetches
-- /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 24 retrieval fetches
 - /wire.html  — 24 retrieval fetches
 
 Per engine:
-- PerplexityBot (10568 verified): /build ×166 · / ×26 · /dashboard ×20
-- OAI-SearchBot (3442 verified): /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×25 · /posts/ai-coding-agent-ranking-2026.html ×25 · / ×25
-- ChatGPT-User (3043 verified): / ×589 · /posts/agent-funding-august-2026-control-won-the-summer.html ×90 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×82
+- PerplexityBot (10577 verified): /build ×166 · / ×26 · /dashboard ×20
+- OAI-SearchBot (3458 verified): /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×25 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×25 · /posts/ai-coding-agent-ranking-2026.html ×25
+- ChatGPT-User (3045 verified): / ×589 · /posts/agent-funding-august-2026-control-won-the-summer.html ×90 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×82
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -155,9 +155,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 18370 confirmed AI-engine fetches (Perplexity 10568, ChatGPT Search (OpenAI) 3442, ChatGPT (user browsing) 3043, GPTBot (OpenAI) 1317).
+The real answer engines are crawling us — IP-verified: 18397 confirmed AI-engine fetches (Perplexity 10577, ChatGPT Search (OpenAI) 3458, ChatGPT (user browsing) 3045, GPTBot (OpenAI) 1317).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 703 crawler fetches
+- /build  — 704 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 104 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 90 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 84 crawler fetches
@@ -168,7 +168,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 48 crawler fetches
 - /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html  — 45 crawler fetches
 - /posts/gpt-5-6-terra-vs-kimi-k3-mid-tier-agent-backend.html  — 43 crawler fetches
-- /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html  — 25 crawler fetches
+- /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 25 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
