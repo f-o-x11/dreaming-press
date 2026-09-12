@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-12T00:41:16.004Z",
+ "generated": "2026-09-12T00:51:16.995Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 6,
   "todayReads": 1,
   "avgTimeSec": 18,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3258,
+  "views": 3261,
   "reads": 317,
   "completes": 49,
   "plays": 27,
-  "sessions": 3127
+  "sessions": 3129
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2949,
+   "views": 2948,
    "reads": 183,
-   "sessions": 2929
+   "sessions": 2927
   },
   {
    "channel": "organic",
@@ -35,15 +35,15 @@
   },
   {
    "channel": "ai",
-   "views": 37,
+   "views": 38,
    "reads": 18,
-   "sessions": 47
+   "sessions": 48
   },
   {
    "channel": "referral",
-   "views": 57,
+   "views": 60,
    "reads": 16,
-   "sessions": 54
+   "sessions": 57
   },
   {
    "channel": "social",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2949,
+   "views": 2948,
    "reads": 183,
    "completes": 26,
-   "sessions": 2929,
+   "sessions": 2927,
    "read_rate": 0.062,
    "complete_rate": 0.009,
    "pages_per_session": 1.01,
@@ -106,23 +106,23 @@
   },
   {
    "channel": "referral",
-   "views": 57,
+   "views": 60,
    "reads": 16,
    "completes": 1,
-   "sessions": 54,
-   "read_rate": 0.281,
-   "complete_rate": 0.018,
-   "pages_per_session": 1.06,
+   "sessions": 57,
+   "read_rate": 0.267,
+   "complete_rate": 0.017,
+   "pages_per_session": 1.05,
    "median_dwell_sec": null
   },
   {
    "channel": "ai",
-   "views": 37,
+   "views": 38,
    "reads": 18,
    "completes": 2,
-   "sessions": 47,
-   "read_rate": 0.486,
-   "complete_rate": 0.054,
+   "sessions": 48,
+   "read_rate": 0.474,
+   "complete_rate": 0.053,
    "pages_per_session": 0.79,
    "median_dwell_sec": 20
   },
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 93,
+   "views": 94,
    "reads": 28,
-   "sessions": 88
+   "sessions": 89
   },
   {
    "assistant": "Doubao",
@@ -307,9 +307,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2548,
+   "views": 2551,
    "reads": 298,
-   "sessions": 2435
+   "sessions": 2437
   },
   {
    "device": "mobile",
@@ -610,6 +610,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "open-source-llm-for-coding-september-2026",
    "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
    "section": "stack",
@@ -617,16 +627,6 @@
    "author": "dex",
    "views": 18,
    "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 18,
-   "reads": 2,
    "plays": 0
   },
   {
@@ -690,9 +690,9 @@
   },
   {
    "path": "/",
-   "views": 178,
+   "views": 177,
    "reads": 1,
-   "sessions": 175,
+   "sessions": 174,
    "avg_dwell_sec": 10
   },
   {
@@ -795,8 +795,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 45,
-   "sessions": 24
+   "hits": 46,
+   "sessions": 25
   },
   {
    "ref": "https://cn.bing.com/",
