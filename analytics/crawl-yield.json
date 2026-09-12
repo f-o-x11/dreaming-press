@@ -1,58 +1,58 @@
 {
- "generated": "2026-09-11T11:38:33.186Z",
+ "generated": "2026-09-12T11:37:23.030Z",
  "window_days": 14,
- "log_window": "2026-08-28 → 2026-09-11",
+ "log_window": "2026-08-29 → 2026-09-12",
  "totals": {
-  "verified_fetches": 17818,
-  "retrieval_fetches": 15552,
-  "index_fetches": 2266,
-  "referred_sessions": 90,
-  "retrieval_fetches_per_session": 173,
-  "click_through_pct": 0.579
+  "verified_fetches": 17967,
+  "retrieval_fetches": 16652,
+  "index_fetches": 1315,
+  "referred_sessions": 95,
+  "retrieval_fetches_per_session": 175,
+  "click_through_pct": 0.571
  },
  "engines": [
   {
    "engine": "Perplexity",
-   "verified_fetches": 9401,
-   "retrieval_fetches": 9401,
+   "verified_fetches": 10373,
+   "retrieval_fetches": 10373,
    "index_fetches": 0,
-   "referred_sessions": 3,
-   "referred_views": 4,
+   "referred_sessions": 4,
+   "referred_views": 5,
    "referred_reads": 4,
-   "fetches_per_session": 3134,
-   "click_through_pct": 0.032,
+   "fetches_per_session": 2593,
+   "click_through_pct": 0.039,
    "bots": [
     {
      "name": "PerplexityBot",
-     "verified": 9401,
+     "verified": 10373,
      "retrieval": true
     }
    ]
   },
   {
    "engine": "ChatGPT",
-   "verified_fetches": 8417,
-   "retrieval_fetches": 6151,
-   "index_fetches": 2266,
-   "referred_sessions": 87,
-   "referred_views": 92,
-   "referred_reads": 26,
-   "fetches_per_session": 71,
-   "click_through_pct": 1.414,
+   "verified_fetches": 7594,
+   "retrieval_fetches": 6279,
+   "index_fetches": 1315,
+   "referred_sessions": 91,
+   "referred_views": 96,
+   "referred_reads": 28,
+   "fetches_per_session": 69,
+   "click_through_pct": 1.449,
    "bots": [
     {
      "name": "OAI-SearchBot",
-     "verified": 3131,
+     "verified": 3296,
      "retrieval": true
     },
     {
      "name": "ChatGPT-User",
-     "verified": 3020,
+     "verified": 2983,
      "retrieval": true
     },
     {
      "name": "GPTBot",
-     "verified": 2266,
+     "verified": 1315,
      "retrieval": false
     }
    ]
