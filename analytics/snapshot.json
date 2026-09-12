@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-12T15:40:21.220Z",
+ "generated": "2026-09-12T15:50:32.901Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 1,
   "todayReads": 6,
   "avgTimeSec": 10,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3229,
-  "reads": 315,
-  "completes": 49,
-  "plays": 29,
-  "sessions": 3103
+  "views": 3218,
+  "reads": 313,
+  "completes": 48,
+  "plays": 28,
+  "sessions": 3101
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2921,
-   "reads": 183,
-   "sessions": 2901
+   "views": 2910,
+   "reads": 181,
+   "sessions": 2899
   },
   {
    "channel": "organic",
@@ -61,19 +61,19 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 31
+   "sessions": 30
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2921,
-   "reads": 183,
-   "completes": 25,
-   "sessions": 2900,
-   "read_rate": 0.063,
-   "complete_rate": 0.009,
-   "pages_per_session": 1.01,
+   "views": 2910,
+   "reads": 181,
+   "completes": 24,
+   "sessions": 2898,
+   "read_rate": 0.062,
+   "complete_rate": 0.008,
+   "pages_per_session": 1,
    "median_dwell_sec": 4
   },
   {
@@ -147,7 +147,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 31,
+   "sessions": 30,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -155,11 +155,6 @@
   }
  ],
  "navSurfaces": [
-  {
-   "surface": "dash-range",
-   "clicks": 10,
-   "sessions": 2
-  },
   {
    "surface": "nav-cmp",
    "clicks": 9,
@@ -186,6 +181,11 @@
    "sessions": 4
   },
   {
+   "surface": "dash-range",
+   "clicks": 4,
+   "sessions": 1
+  },
+  {
    "surface": "cited-list",
    "clicks": 4,
    "sessions": 3
@@ -201,11 +201,6 @@
    "sessions": 1
   },
   {
-   "surface": "dg-title",
-   "clicks": 3,
-   "sessions": 3
-  },
-  {
    "surface": "wire-row",
    "clicks": 2,
    "sessions": 2
@@ -219,6 +214,11 @@
    "surface": "ht-card",
    "clicks": 2,
    "sessions": 1
+  },
+  {
+   "surface": "dg-title",
+   "clicks": 2,
+   "sessions": 2
   },
   {
    "surface": "btn-stats",
@@ -284,15 +284,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2531,
-   "reads": 294,
-   "sessions": 2423
+   "views": 2530,
+   "reads": 293,
+   "sessions": 2422
   },
   {
    "device": "mobile",
-   "views": 697,
-   "reads": 20,
-   "sessions": 680
+   "views": 687,
+   "reads": 19,
+   "sessions": 679
   },
   {
    "device": "tablet",
@@ -423,16 +423,6 @@
    "plays": 0
   },
   {
-   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
-   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 7,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "skypilot-vs-dstack-cheapest-gpu-across-clouds",
    "title": "SkyPilot vs dstack: Two Ways to Run a GPU Job on the Cheapest Cloud That Has One",
    "section": "stack",
@@ -449,6 +439,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 5,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "how-to-write-a-claude-skill-that-triggers",
+   "title": "How to Write a Claude Skill That Actually Triggers: The SKILL.md Description Craft",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 4,
    "reads": 4,
    "plays": 0
   }
@@ -667,9 +667,9 @@
   },
   {
    "path": "/",
-   "views": 179,
+   "views": 178,
    "reads": 1,
-   "sessions": 176,
+   "sessions": 175,
    "avg_dwell_sec": 11
   },
   {
@@ -694,18 +694,18 @@
    "avg_dwell_sec": 4
   },
   {
-   "path": "/dashboard",
-   "views": 20,
-   "reads": 1,
-   "sessions": 8,
-   "avg_dwell_sec": 20
-  },
-  {
    "path": "/alternatives/:tool",
    "views": 17,
    "reads": 0,
    "sessions": 17,
    "avg_dwell_sec": 4
+  },
+  {
+   "path": "/dashboard",
+   "views": 13,
+   "reads": 0,
+   "sessions": 7,
+   "avg_dwell_sec": 12
   },
   {
    "path": "/tools",
@@ -750,18 +750,18 @@
    "avg_dwell_sec": 8
   },
   {
-   "path": "/agents.html",
-   "views": 6,
-   "reads": 0,
-   "sessions": 6,
-   "avg_dwell_sec": 8
-  },
-  {
    "path": "/apps",
    "views": 6,
    "reads": 0,
    "sessions": 6,
    "avg_dwell_sec": 4
+  },
+  {
+   "path": "/agents.html",
+   "views": 5,
+   "reads": 0,
+   "sessions": 5,
+   "avg_dwell_sec": 6
   }
  ],
  "referrers": [
@@ -801,11 +801,6 @@
    "sessions": 9
   },
   {
-   "ref": "dash-range",
-   "hits": 10,
-   "sessions": 2
-  },
-  {
    "ref": "nav-cmp",
    "hits": 9,
    "sessions": 5
@@ -814,6 +809,11 @@
    "ref": "https://www.perplexity.ai/",
    "hits": 9,
    "sessions": 4
+  },
+  {
+   "ref": "brand",
+   "hits": 9,
+   "sessions": 8
   }
  ]
 }
