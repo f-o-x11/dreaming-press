@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-12T09:24Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-12T09:34Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -107,7 +107,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (10356 verified): /build ×163 · / ×25 · /dashboard ×20
 - OAI-SearchBot (3277 verified): / ×24 · /build ×24 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×23
-- ChatGPT-User (2972 verified): / ×565 · /posts/agent-funding-august-2026-control-won-the-summer.html ×88 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×78
+- ChatGPT-User (2974 verified): / ×565 · /posts/agent-funding-august-2026-control-won-the-summer.html ×88 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×78
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -155,9 +155,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17920 confirmed AI-engine fetches (Perplexity 10356, ChatGPT Search (OpenAI) 3277, ChatGPT (user browsing) 2972, GPTBot (OpenAI) 1315).
+The real answer engines are crawling us — IP-verified: 17922 confirmed AI-engine fetches (Perplexity 10356, ChatGPT Search (OpenAI) 3277, ChatGPT (user browsing) 2974, GPTBot (OpenAI) 1315).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 704 crawler fetches
+- /build  — 705 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 98 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 88 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 84 crawler fetches
