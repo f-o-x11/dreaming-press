@@ -20,11 +20,9 @@ art:
   motif: "a single hard vertical line splitting the frame; on one side a warm human-shaped silhouette still lit, on the other the same silhouette gone dark and flattened into a plain gray tool icon"
 ---
 
-**China's new law regulates the emotional *bond* an AI companion creates, not the model behind it — so on July 15, 2026, ByteDance's Doubao and Alibaba's Qwen switched their companion features off rather than comply.** You cannot bolt "please don't get attached to me" onto a product whose whole value is attachment, so two of the most-used apps in the world's largest AI market judged a fully compliant companion worse than no companion at all, and pulled it.
+**Doubao and Qwen switched their companion agents off on July 15, 2026 because China's new law regulates the emotional *bond* a companion creates, not the model behind it — and you cannot bolt "please don't get attached to me" onto a product whose entire value is attachment.** Rather than half-kill the feature, two of the most-used apps in the world's largest AI market judged a fully compliant companion worse than no companion at all, and pulled it outright. **The one-line takeaway for founders:** if your product holds a persistent persona or an emotional hook, this is the first regulation anywhere to make "is it a tool or a companion?" a *legal* question — and it's the line most likely to reach your market next.
 
-**For founders, in one line:** if your product holds a persistent persona or an emotional hook, this is the first regulation to treat "is it a tool or a companion?" as a legal question — and it's the line most likely to reach your market next. Below: exactly what the law requires, why two of the world's most capable AI companies judged the off switch cheaper than compliance, and the two-minute self-audit that tells you which side of the line your product is on.
-
-That shutdown is the story, and it draws the *tool*-vs.-*companion* line in one screen:
+Here's the whole story in one screen — the *tool*-vs.-*companion* split, why it forced an off switch, and why it travels:
 
 - **What the law does:** China's Interim Measures (in effect July 15) regulate what an AI may *be* to you — its persona and relationship — not what it may compute. No Western framework governs that axis.
 - **Why they killed it, not fixed it:** mandatory "you're talking to an AI" alerts, anti-dependency pop-ups, a two-hour break prompt, and a ban on companions for minors negate the bond a companion is *for*. After three months' notice, both giants chose the off switch — proof compliance and the product were architecturally incompatible. (Saved personas and chats stayed read-only until Oct 15, then were deleted.)
