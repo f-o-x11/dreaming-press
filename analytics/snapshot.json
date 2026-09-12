@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-12T23:36:39.484Z",
+ "generated": "2026-09-12T23:46:41.242Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 6,
   "todayReads": 7,
   "avgTimeSec": 10,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3204,
+  "views": 3210,
   "reads": 307,
   "completes": 43,
   "plays": 27,
-  "sessions": 3087
+  "sessions": 3093
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2896,
+   "views": 2902,
    "reads": 175,
-   "sessions": 2886
+   "sessions": 2892
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2896,
+   "views": 2902,
    "reads": 175,
    "completes": 19,
-   "sessions": 2885,
+   "sessions": 2891,
    "read_rate": 0.06,
    "complete_rate": 0.007,
    "pages_per_session": 1,
@@ -284,15 +284,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2527,
+   "views": 2531,
    "reads": 287,
-   "sessions": 2419
+   "sessions": 2423
   },
   {
    "device": "mobile",
-   "views": 676,
+   "views": 678,
    "reads": 19,
-   "sessions": 668
+   "sessions": 670
   },
   {
    "device": "tablet",
@@ -627,6 +627,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-09-12-founders-wire-openai-agents-api-deepseek-v41-flash-ayar-optics",
+   "title": "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 15,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
    "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
    "section": "wire",
@@ -645,16 +655,6 @@
    "views": 14,
    "reads": 2,
    "plays": 0
-  },
-  {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 14,
-   "reads": 2,
-   "plays": 1
   }
  ],
  "topPages": [
