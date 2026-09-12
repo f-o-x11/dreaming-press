@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-12T13:18:42.747Z",
+ "generated": "2026-09-12T13:28:46.406Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 9,
   "todayReads": 3,
   "avgTimeSec": 10,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3238,
+  "views": 3226,
   "reads": 312,
   "completes": 48,
   "plays": 27,
-  "sessions": 3113
+  "sessions": 3101
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2932,
+   "views": 2919,
    "reads": 180,
-   "sessions": 2912
+   "sessions": 2900
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 37,
+   "views": 38,
    "reads": 17,
-   "sessions": 47
+   "sessions": 48
   },
   {
    "channel": "referral",
@@ -67,11 +67,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2932,
+   "views": 2919,
    "reads": 180,
    "completes": 25,
-   "sessions": 2911,
-   "read_rate": 0.061,
+   "sessions": 2899,
+   "read_rate": 0.062,
    "complete_rate": 0.009,
    "pages_per_session": 1.01,
    "median_dwell_sec": 4
@@ -111,12 +111,12 @@
   },
   {
    "channel": "ai",
-   "views": 37,
+   "views": 38,
    "reads": 17,
    "completes": 2,
-   "sessions": 47,
-   "read_rate": 0.459,
-   "complete_rate": 0.054,
+   "sessions": 48,
+   "read_rate": 0.447,
+   "complete_rate": 0.053,
    "pages_per_session": 0.79,
    "median_dwell_sec": 20
   },
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 98,
+   "views": 99,
    "reads": 29,
-   "sessions": 93
+   "sessions": 94
   },
   {
    "assistant": "Doubao",
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2538,
+   "views": 2526,
    "reads": 291,
-   "sessions": 2431
+   "sessions": 2419
   },
   {
    "device": "mobile",
@@ -674,9 +674,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 88,
+   "views": 72,
    "reads": 0,
-   "sessions": 88,
+   "sessions": 72,
    "avg_dwell_sec": 3
   },
   {
@@ -688,9 +688,9 @@
   },
   {
    "path": "/build",
-   "views": 30,
+   "views": 31,
    "reads": 0,
-   "sessions": 30,
+   "sessions": 31,
    "avg_dwell_sec": 4
   },
   {
@@ -702,9 +702,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 19,
+   "views": 17,
    "reads": 0,
-   "sessions": 19,
+   "sessions": 17,
    "avg_dwell_sec": 4
   },
   {
@@ -772,8 +772,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 46,
-   "sessions": 25
+   "hits": 47,
+   "sessions": 26
   },
   {
    "ref": "https://cn.bing.com/",
