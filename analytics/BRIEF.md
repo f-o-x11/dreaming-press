@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-12T19:12Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-12T19:23Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -122,7 +122,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(28), agentic(28), founder(28), startup(28), build(27), mcp(19), building(18), agent(14), own(11), systems(11), python(10), has(9), about(9), have(8), model(8).
+Hot terms: agentic(28), founder(28), startup(28), build(27), agents(26), mcp(19), building(19), agent(14), own(11), python(10), systems(10), has(9), about(9), have(8), model(8).
 Hashtags: #ai, #startup, #founder, #buildinpublic, #startups, #agenticai, #rag, #python, #aiengineer, #techcareers.
 High-engagement posts to react to / cite:
 - "Rooting for $PAYGENT’s launch today @usepaygent. With Vlad Tenev pushing the AI agent payments narrative through Robinhood’s agentic credit card, this is a category I’m watching. Paygent built for months before launching" — https://x.com/i/status/2097357503818305566
