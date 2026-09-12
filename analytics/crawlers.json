@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-12T21:55:06.902Z",
+ "generated": "2026-09-12T22:05:09.809Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18298,
+ "verifiedAiHits": 18365,
  "logsScanned": 30,
  "windowStart": "2026-08-29",
  "windowEnd": "2026-09-12",
- "totalHits": 138903,
- "aiHits": 100102,
+ "totalHits": 138997,
+ "aiHits": 100181,
  "aiEngines": 16,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 25458,
+   "hits": 25473,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15604,
+   "hits": 15611,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -146,14 +146,14 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 10773,
-   "verifiedHits": 10504,
+   "hits": 10837,
+   "verifiedHits": 10568,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 165
+     "hits": 166
     },
     {
      "path": "/",
@@ -164,11 +164,11 @@
      "hits": 20
     },
     {
-     "path": "/authors",
-     "hits": 16
+     "path": "/calculators/agent-cost",
+     "hits": 17
     },
     {
-     "path": "/subscribe",
+     "path": "/authors",
      "hits": 16
     }
    ],
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3674,
-   "verifiedHits": 3437,
+   "hits": 3676,
+   "verifiedHits": 3439,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3268,
-   "verifiedHits": 3040,
+   "hits": 3269,
+   "verifiedHits": 3041,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
@@ -268,7 +268,7 @@
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 62
+     "hits": 63
     }
    ],
    "verifiable": true
@@ -344,14 +344,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1771,
+   "hits": 1772,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 45
+     "hits": 46
     },
     {
      "path": "/posts/2026-09-05-founders-wire-gpt-6-astra-gemini-3-8-flash-mai-transcribe.html",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 938,
+   "hits": 940,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -461,12 +461,12 @@
      "hits": 18
     },
     {
-     "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
+     "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
      "hits": 16
     },
     {
-     "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
-     "hits": 15
+     "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
+     "hits": 16
     }
    ],
    "verifiable": false
@@ -575,7 +575,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 246,
+   "hits": 248,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
