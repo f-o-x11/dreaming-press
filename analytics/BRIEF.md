@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-12T17:21Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-12T17:31Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -106,7 +106,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (10404 verified): /build ×164 · / ×26 · /dashboard ×20
-- OAI-SearchBot (3355 verified): /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×24 · /wire.html ×24 · / ×24
+- OAI-SearchBot (3357 verified): /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×24 · /wire.html ×24 · / ×24
 - ChatGPT-User (3009 verified): / ×580 · /posts/agent-funding-august-2026-control-won-the-summer.html ×89 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×81
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -155,7 +155,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 18084 confirmed AI-engine fetches (Perplexity 10404, ChatGPT Search (OpenAI) 3355, ChatGPT (user browsing) 3009, GPTBot (OpenAI) 1316).
+The real answer engines are crawling us — IP-verified: 18086 confirmed AI-engine fetches (Perplexity 10404, ChatGPT Search (OpenAI) 3357, ChatGPT (user browsing) 3009, GPTBot (OpenAI) 1316).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 722 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 101 crawler fetches
