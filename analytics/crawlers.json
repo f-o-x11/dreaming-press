@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-12T11:05:06.517Z",
+ "generated": "2026-09-12T11:15:30.679Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17950,
+ "verifiedAiHits": 17952,
  "logsScanned": 30,
  "windowStart": "2026-08-29",
  "windowEnd": "2026-09-12",
- "totalHits": 133635,
- "aiHits": 95980,
+ "totalHits": 133726,
+ "aiHits": 96052,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 38750,
+   "hits": 38766,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 24761,
+   "hits": 24771,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18762,
+   "hits": 18804,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15130,
+   "hits": 15138,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 10526,
-   "verifiedHits": 10360,
+   "hits": 10527,
+   "verifiedHits": 10361,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6168,
-   "verifiedHits": 6023,
+   "hits": 6169,
+   "verifiedHits": 6024,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3140,
-   "verifiedHits": 2981,
+   "hits": 3141,
+   "verifiedHits": 2982,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2858,
+   "hits": 2866,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -476,7 +476,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 757,
+   "hits": 759,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -575,10 +575,10 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 127,
+   "hits": 129,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
-   "lastSeen": "2026-09-11",
+   "lastSeen": "2026-09-12",
    "topPaths": [
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
@@ -589,15 +589,15 @@
      "hits": 2
     },
     {
+     "path": "/stack/pgvector",
+     "hits": 1
+    },
+    {
      "path": "/posts/how-to-build-a-deep-agent-with-deepagents-subagents-planning.html",
      "hits": 1
     },
     {
      "path": "/posts/wasm-vs-microvm-vs-v8-isolate-sandbox-ai-code.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/china-banned-the-companion-america-fenced-it.html",
      "hits": 1
     }
    ],
