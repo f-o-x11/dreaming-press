@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-12T03:43:09.791Z",
+ "generated": "2026-09-12T03:53:16.820Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -51,16 +51,20 @@
    "count": 11
   },
   {
+   "term": "has",
+   "count": 10
+  },
+  {
+   "term": "its",
+   "count": 10
+  },
+  {
    "term": "systems",
    "count": 10
   },
   {
    "term": "saas",
    "count": 10
-  },
-  {
-   "term": "has",
-   "count": 9
   },
   {
    "term": "model",
@@ -81,10 +85,6 @@
   {
    "term": "co-founder",
    "count": 9
-  },
-  {
-   "term": "one",
-   "count": 8
   }
  ],
  "hashtags": [
