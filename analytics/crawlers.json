@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-12T02:02:06.936Z",
+ "generated": "2026-09-12T02:12:13.092Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17487,
+ "verifiedAiHits": 17493,
  "logsScanned": 30,
  "windowStart": "2026-08-29",
  "windowEnd": "2026-09-12",
- "totalHits": 130411,
- "aiHits": 93633,
+ "totalHits": 130469,
+ "aiHits": 93666,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37975,
+   "hits": 37994,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -47,14 +47,14 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 24162,
+   "hits": 24176,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 72
+     "hits": 73
     },
     {
      "path": "/posts/agent-memory-retrieval-recency-vs-relevance-vs-importance.md",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18133,
+   "hits": 18135,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14757,
+   "hits": 14763,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6020,
-   "verifiedHits": 5882,
+   "hits": 6024,
+   "verifiedHits": 5886,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3266,
-   "verifiedHits": 3130,
+   "hits": 3272,
+   "verifiedHits": 3136,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2321,
+   "hits": 2323,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 651,
-   "verifiedHits": 587,
+   "hits": 656,
+   "verifiedHits": 592,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
