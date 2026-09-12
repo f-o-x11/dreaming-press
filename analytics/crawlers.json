@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-12T03:33:03.989Z",
+ "generated": "2026-09-12T03:43:09.275Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17622,
+ "verifiedAiHits": 17624,
  "logsScanned": 30,
  "windowStart": "2026-08-29",
  "windowEnd": "2026-09-12",
- "totalHits": 131040,
- "aiHits": 94096,
+ "totalHits": 131134,
+ "aiHits": 94171,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 38094,
+   "hits": 38158,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -47,14 +47,14 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 24285,
+   "hits": 24299,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 74
+     "hits": 75
     },
     {
      "path": "/posts/pydantic-ai-codemode-tool-calls-one-turn.md",
@@ -69,7 +69,7 @@
      "hits": 4
     },
     {
-     "path": "/posts/agent-memory-retrieval-recency-vs-relevance-vs-importance.md",
+     "path": "/posts/coding-agent-stack-founders-run-three.html",
      "hits": 4
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18269,
+   "hits": 18270,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14814,
+   "hits": 14821,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6042,
-   "verifiedHits": 5904,
+   "hits": 6046,
+   "verifiedHits": 5908,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3314,
-   "verifiedHits": 3178,
+   "hits": 3315,
+   "verifiedHits": 3179,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
@@ -245,14 +245,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3083,
-   "verifiedHits": 2938,
+   "hits": 3084,
+   "verifiedHits": 2939,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
     {
      "path": "/",
-     "hits": 554
+     "hits": 555
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -443,7 +443,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 784,
+   "hits": 785,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -476,7 +476,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 721,
+   "hits": 722,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
