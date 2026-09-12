@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-12T09:54:24.617Z",
+ "generated": "2026-09-12T10:04:31.131Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -7,11 +7,15 @@
  ],
  "topTerms": [
   {
+   "term": "startup",
+   "count": 32
+  },
+  {
    "term": "agentic",
    "count": 31
   },
   {
-   "term": "startup",
+   "term": "founder",
    "count": 28
   },
   {
@@ -19,12 +23,8 @@
    "count": 26
   },
   {
-   "term": "founder",
-   "count": 26
-  },
-  {
    "term": "build",
-   "count": 25
+   "count": 23
   },
   {
    "term": "mcp",
@@ -47,19 +47,15 @@
    "count": 11
   },
   {
-   "term": "claude",
-   "count": 11
-  },
-  {
    "term": "has",
    "count": 10
   },
   {
-   "term": "its",
+   "term": "systems",
    "count": 10
   },
   {
-   "term": "systems",
+   "term": "saas",
    "count": 10
   },
   {
@@ -79,11 +75,15 @@
    "count": 9
   },
   {
-   "term": "co-founder",
-   "count": 9
+   "term": "one",
+   "count": 8
   },
   {
-   "term": "one",
+   "term": "workflows",
+   "count": 8
+  },
+  {
+   "term": "book",
    "count": 8
   }
  ],
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Rooting for $PAYGENT’s launch today @usepaygent. With Vlad Tenev pushing the AI agent payments narrative through Robinhood’s agentic credit card, this is a category I’m watching. Paygent built for months before launching",
-   "engagement": 421,
+   "engagement": 419,
    "url": "https://x.com/i/status/2097357503818305566",
    "created": "2026-09-08T16:12:50.000Z"
   },
@@ -155,12 +155,6 @@
    "engagement": 114,
    "url": "https://x.com/i/status/2097215718861533372",
    "created": "2026-09-08T06:49:26.000Z"
-  },
-  {
-   "text": "🚨 BUILD AN APP WITH CLAUDE IN 8 MINUTES. Watch the 8-minute demo 👇 You might build your first app this weekend. No coding marathon. No complicated setup. Just an idea + Claude. → Tell Claude what you want → Let it plan",
-   "engagement": 73,
-   "url": "https://x.com/i/status/2097699045154422990",
-   "created": "2026-09-09T14:50:00.000Z"
   },
   {
    "text": "From Building to Launching Coddle (@coddleai)! A few months ago, Coddle was just an idea. I had been thinking about how fragmented product development can be and how much time teams spend moving between different tools, ",
@@ -185,6 +179,12 @@
    "engagement": 47,
    "url": "https://x.com/i/status/2097689805983539533",
    "created": "2026-09-09T14:13:17.000Z"
+  },
+  {
+   "text": "$GOOGL Brain founder and former DeepMind Chief Scientist Jeff Dean’s new AI startup, Discovery Loop, is reportedly seeking funding at around a $50B valuation, just weeks after talks valued it near $10B. https://t.co/a1Lr",
+   "engagement": 47,
+   "url": "https://x.com/i/status/2098561948115931397",
+   "created": "2026-09-11T23:58:52.000Z"
   }
  ]
 }

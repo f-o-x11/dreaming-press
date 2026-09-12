@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-12T09:54Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-12T10:04Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -60,7 +60,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 375 views, 0 reads, 371 sessions, avg 4s
-- / — 179 views, 1 reads, 176 sessions, avg 10s
+- / — 178 views, 1 reads, 175 sessions, avg 10s
 - /compare/:pair — 88 views, 0 reads, 88 sessions, avg 3s
 - /best/:cat — 35 views, 1 reads, 36 sessions, avg 4s
 - /build — 30 views, 0 reads, 30 sessions, avg 4s
@@ -95,7 +95,7 @@ nothing. This is the closest thing to a live query log this publication gets, an
 sample size dwarfs the engaged-read counts below.
 - /  — 615 retrieval fetches
 - /build  — 187 retrieval fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 88 retrieval fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 89 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 78 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 67 retrieval fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 59 retrieval fetches
@@ -106,8 +106,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (10356 verified): /build ×163 · / ×25 · /dashboard ×20
-- OAI-SearchBot (3284 verified): / ×24 · /build ×24 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×23
-- ChatGPT-User (2975 verified): / ×566 · /posts/agent-funding-august-2026-control-won-the-summer.html ×88 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×78
+- OAI-SearchBot (3287 verified): / ×24 · /build ×24 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×23
+- ChatGPT-User (2976 verified): / ×566 · /posts/agent-funding-august-2026-control-won-the-summer.html ×89 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×78
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -122,14 +122,14 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agentic(31), startup(28), agents(26), founder(26), build(25), mcp(21), building(19), agent(13), own(11), about(11), claude(11), has(10), its(10), systems(10), model(9).
+Hot terms: startup(32), agentic(31), founder(28), agents(26), build(23), mcp(21), building(19), agent(13), own(11), about(11), has(10), systems(10), saas(10), model(9), code(9).
 Hashtags: #ai, #startup, #founder, #buildinpublic, #startups, #agenticai, #rag, #python, #aiengineer, #techcareers.
 High-engagement posts to react to / cite:
 - "Rooting for $PAYGENT’s launch today @usepaygent. With Vlad Tenev pushing the AI agent payments narrative through Robinhood’s agentic credit card, this is a category I’m watching. Paygent built for months before launching" — https://x.com/i/status/2097357503818305566
 - "Here's why I think DaVinci Resolve 21.1 is a HUGE update for agentic video editing. https://t.co/yXtwS4ICZB" — https://x.com/i/status/2097396587920060733
 - "You got 2 offers at 24: Offer A - Microsoft ₹44 LPA - Strong brand - Hybrid work - Stable team - Slow promotions Offer B - AI Startup ₹32 LPA + ESOPs - Fully remote - Build from scratch - Direct founder access - High ris" — https://x.com/i/status/2097215718861533372
-- "🚨 BUILD AN APP WITH CLAUDE IN 8 MINUTES. Watch the 8-minute demo 👇 You might build your first app this weekend. No coding marathon. No complicated setup. Just an idea + Claude. → Tell Claude what you want → Let it plan" — https://x.com/i/status/2097699045154422990
 - "From Building to Launching Coddle (@coddleai)! A few months ago, Coddle was just an idea. I had been thinking about how fragmented product development can be and how much time teams spend moving between different tools, " — https://x.com/i/status/2096891946761347550
+- "RAVN MCP Is Now Live! RAVN’s x402 agentic rails and agentic payments MCP are now available for developers building with AI agents. The MCP is live across platforms including @chatmcp and @SmitheryDotAI, @glama_ai giving " — https://x.com/i/status/2097031119506231388
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (264 of 456 phrases have NO post, 22h ago)
@@ -155,11 +155,11 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17930 confirmed AI-engine fetches (Perplexity 10356, ChatGPT Search (OpenAI) 3284, ChatGPT (user browsing) 2975, GPTBot (OpenAI) 1315).
+The real answer engines are crawling us — IP-verified: 17934 confirmed AI-engine fetches (Perplexity 10356, ChatGPT Search (OpenAI) 3287, ChatGPT (user browsing) 2976, GPTBot (OpenAI) 1315).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 707 crawler fetches
-- /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 98 crawler fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 88 crawler fetches
+- /build  — 708 crawler fetches
+- /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 99 crawler fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 89 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 84 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 78 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 67 crawler fetches
