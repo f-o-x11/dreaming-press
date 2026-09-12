@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-12T10:24:32.912Z",
+ "generated": "2026-09-12T10:34:48.515Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 2,
   "avgTimeSec": 11,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3246,
-  "reads": 314,
+  "views": 3244,
+  "reads": 313,
   "completes": 48,
   "plays": 27,
   "sessions": 3118
@@ -17,7 +17,7 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2938,
+   "views": 2937,
    "reads": 181,
    "sessions": 2918
   },
@@ -52,12 +52,6 @@
    "sessions": 7
   },
   {
-   "channel": "campaign:copilot.com",
-   "views": 1,
-   "reads": 1,
-   "sessions": 1
-  },
-  {
    "channel": "campaign:perplexity",
    "views": 1,
    "reads": 1,
@@ -73,7 +67,7 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2938,
+   "views": 2937,
    "reads": 181,
    "completes": 25,
    "sessions": 2917,
@@ -135,17 +129,6 @@
    "read_rate": 0.111,
    "complete_rate": 0,
    "pages_per_session": 1.29,
-   "median_dwell_sec": null
-  },
-  {
-   "channel": "campaign:copilot.com",
-   "views": 1,
-   "reads": 1,
-   "completes": 0,
-   "sessions": 1,
-   "read_rate": 1,
-   "complete_rate": 0,
-   "pages_per_session": 1,
    "median_dwell_sec": null
   },
   {
@@ -280,12 +263,6 @@
    "sessions": 3
   },
   {
-   "assistant": "Copilot",
-   "views": 1,
-   "reads": 1,
-   "sessions": 1
-  },
-  {
    "assistant": "Yuanbao",
    "views": 1,
    "reads": 1,
@@ -307,8 +284,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2543,
-   "reads": 294,
+   "views": 2541,
+   "reads": 293,
    "sessions": 2433
   },
   {
@@ -513,8 +490,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"cynical\"]",
    "author": "priya",
-   "views": 10,
-   "reads": 3,
+   "views": 8,
+   "reads": 2,
    "plays": 2
   },
   {
