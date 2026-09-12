@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-12T02:52:38.991Z",
+ "generated": "2026-09-12T03:02:44.714Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17542,
+ "verifiedAiHits": 17601,
  "logsScanned": 30,
  "windowStart": "2026-08-29",
  "windowEnd": "2026-09-12",
- "totalHits": 130669,
- "aiHits": 93801,
+ "totalHits": 130768,
+ "aiHits": 93876,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 38035,
+   "hits": 38040,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 24228,
+   "hits": 24247,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -61,15 +61,15 @@
      "hits": 4
     },
     {
+     "path": "/posts/prompt-management-langfuse-vs-promptlayer-vs-agenta.md",
+     "hits": 4
+    },
+    {
      "path": "/posts/agent-memory-retrieval-recency-vs-relevance-vs-importance.md",
      "hits": 4
     },
     {
      "path": "/posts/how-to-test-an-ai-agent-with-simulated-users.md",
-     "hits": 4
-    },
-    {
-     "path": "/posts/apache-burr-vs-langgraph-state-machine-vs-graph.md",
      "hits": 4
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18150,
+   "hits": 18152,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14786,
+   "hits": 14793,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 10285,
-   "verifiedHits": 10123,
+   "hits": 10343,
+   "verifiedHits": 10181,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
@@ -164,11 +164,11 @@
      "hits": 20
     },
     {
-     "path": "/authors",
-     "hits": 15
+     "path": "/calculators/agent-cost",
+     "hits": 16
     },
     {
-     "path": "/subscribe",
+     "path": "/authors",
      "hits": 15
     }
    ],
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6031,
-   "verifiedHits": 5893,
+   "hits": 6032,
+   "verifiedHits": 5894,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3306,
-   "verifiedHits": 3170,
+   "hits": 3307,
+   "verifiedHits": 3171,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2328,
+   "hits": 2332,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -377,7 +377,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 1477,
+   "hits": 1478,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -476,7 +476,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 717,
+   "hits": 718,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
