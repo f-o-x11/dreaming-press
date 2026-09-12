@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-12T08:53:44.385Z",
+ "generated": "2026-09-12T09:03:50.550Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17913,
+ "verifiedAiHits": 17915,
  "logsScanned": 30,
  "windowStart": "2026-08-29",
  "windowEnd": "2026-09-12",
- "totalHits": 132685,
- "aiHits": 95279,
+ "totalHits": 132751,
+ "aiHits": 95331,
  "aiEngines": 16,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 24614,
+   "hits": 24627,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18540,
+   "hits": 18582,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -99,7 +99,7 @@
     },
     {
      "path": "/apps",
-     "hits": 8
+     "hits": 9
     },
     {
      "path": "/",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15037,
+   "hits": 15044,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6130,
-   "verifiedHits": 5992,
+   "hits": 6131,
+   "verifiedHits": 5993,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3409,
-   "verifiedHits": 3273,
+   "hits": 3411,
+   "verifiedHits": 3275,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
@@ -476,14 +476,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 744,
+   "hits": 745,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
-     "hits": 94
+     "hits": 95
     },
     {
      "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
