@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-12T20:13:43.474Z",
+ "generated": "2026-09-12T20:23:50.629Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18265,
+ "verifiedAiHits": 18271,
  "logsScanned": 30,
  "windowStart": "2026-08-29",
  "windowEnd": "2026-09-12",
- "totalHits": 138302,
- "aiHits": 99675,
+ "totalHits": 138347,
+ "aiHits": 99706,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 39713,
+   "hits": 39726,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 25353,
+   "hits": 25361,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15524,
+   "hits": 15531,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6349,
-   "verifiedHits": 6198,
+   "hits": 6355,
+   "verifiedHits": 6204,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3659,
-   "verifiedHits": 3422,
+   "hits": 3664,
+   "verifiedHits": 3427,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3252,
-   "verifiedHits": 3024,
+   "hits": 3253,
+   "verifiedHits": 3025,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1762,
+   "hits": 1763,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -443,14 +443,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 927,
+   "hits": 928,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
-     "hits": 100
+     "hits": 101
     },
     {
      "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
@@ -575,7 +575,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 229,
+   "hits": 232,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -583,6 +583,10 @@
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
      "hits": 3
+    },
+    {
+     "path": "/posts/llm-inference-latency-ttft-vs-tpot.html",
+     "hits": 2
     },
     {
      "path": "/posts/contextual-retrieval-vs-naive-rag.html",
@@ -594,10 +598,6 @@
     },
     {
      "path": "/posts/build-an-ai-saas-on-free-official-building-blocks-2026.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/cursor-vs-windsurf-vs-github-copilot-vs-claude-code.html",
      "hits": 1
     }
    ],
