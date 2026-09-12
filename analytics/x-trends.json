@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-12T03:53:16.820Z",
+ "generated": "2026-09-12T04:03:23.719Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -7,19 +7,19 @@
  ],
  "topTerms": [
   {
-   "term": "startup",
-   "count": 33
-  },
-  {
    "term": "agentic",
    "count": 31
   },
   {
-   "term": "founder",
+   "term": "startup",
    "count": 28
   },
   {
    "term": "agents",
+   "count": 26
+  },
+  {
+   "term": "founder",
    "count": 26
   },
   {
@@ -51,20 +51,12 @@
    "count": 11
   },
   {
-   "term": "has",
-   "count": 10
-  },
-  {
-   "term": "its",
-   "count": 10
-  },
-  {
    "term": "systems",
    "count": 10
   },
   {
-   "term": "saas",
-   "count": 10
+   "term": "has",
+   "count": 9
   },
   {
    "term": "model",
@@ -85,28 +77,36 @@
   {
    "term": "co-founder",
    "count": 9
+  },
+  {
+   "term": "one",
+   "count": 8
+  },
+  {
+   "term": "workflows",
+   "count": 8
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 9
+   "count": 10
   },
   {
    "term": "#startup",
-   "count": 8
+   "count": 9
   },
   {
    "term": "#founder",
+   "count": 4
+  },
+  {
+   "term": "#buildinpublic",
    "count": 3
   },
   {
    "term": "#startups",
    "count": 3
-  },
-  {
-   "term": "#buildinpublic",
-   "count": 2
   },
   {
    "term": "#agenticai",
