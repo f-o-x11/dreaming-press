@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-12T13:28:46.339Z",
+ "generated": "2026-09-12T13:38:56.096Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -7,20 +7,20 @@
  ],
  "topTerms": [
   {
-   "term": "startup",
-   "count": 32
-  },
-  {
    "term": "agentic",
    "count": 31
   },
   {
-   "term": "founder",
+   "term": "startup",
    "count": 28
   },
   {
    "term": "agents",
    "count": 27
+  },
+  {
+   "term": "founder",
+   "count": 26
   },
   {
    "term": "build",
@@ -55,10 +55,6 @@
    "count": 10
   },
   {
-   "term": "saas",
-   "count": 10
-  },
-  {
    "term": "model",
    "count": 9
   },
@@ -72,6 +68,10 @@
   },
   {
    "term": "have",
+   "count": 9
+  },
+  {
+   "term": "co-founder",
    "count": 9
   },
   {
