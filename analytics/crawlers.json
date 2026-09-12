@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-12T12:07:48.585Z",
+ "generated": "2026-09-12T12:17:50.444Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17975,
+ "verifiedAiHits": 17987,
  "logsScanned": 30,
  "windowStart": "2026-08-29",
  "windowEnd": "2026-09-12",
- "totalHits": 134164,
- "aiHits": 96364,
+ "totalHits": 134233,
+ "aiHits": 96425,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 38851,
+   "hits": 38860,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 24835,
+   "hits": 24843,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18956,
+   "hits": 18982,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15174,
+   "hits": 15181,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 10540,
-   "verifiedHits": 10374,
+   "hits": 10545,
+   "verifiedHits": 10379,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3445,
-   "verifiedHits": 3302,
+   "hits": 3451,
+   "verifiedHits": 3308,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3143,
-   "verifiedHits": 2984,
+   "hits": 3144,
+   "verifiedHits": 2985,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1675,
+   "hits": 1676,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -367,6 +367,39 @@
     },
     {
      "path": "/posts/how-to-add-hybrid-search-to-lancedb.html",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "Meta-ExternalAgent",
+   "label": "Meta AI",
+   "category": "ai",
+   "home": "https://developers.facebook.com/docs/sharing/bot",
+   "hits": 1481,
+   "verifiedHits": 0,
+   "firstSeen": "2026-08-29",
+   "lastSeen": "2026-09-12",
+   "topPaths": [
+    {
+     "path": "/posts/embedding-quantization-binary-vs-scalar-vs-int8.html",
+     "hits": 4
+    },
+    {
+     "path": "/posts/2026-08-31-founders-wire-openai-cursor-cutoff-claudeforce-a16z-machine-age.md",
+     "hits": 2
+    },
+    {
+     "path": "/posts/2026-09-03-founders-wire-gemini-38-flash-build-vs-buy-agent-reliability-wonderful.md",
+     "hits": 2
+    },
+    {
+     "path": "/posts/mcp-server-github-connect-and-build.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.md",
      "hits": 2
     }
    ],
@@ -406,39 +439,6 @@
    "verifiable": true
   },
   {
-   "name": "Meta-ExternalAgent",
-   "label": "Meta AI",
-   "category": "ai",
-   "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 1480,
-   "verifiedHits": 0,
-   "firstSeen": "2026-08-29",
-   "lastSeen": "2026-09-12",
-   "topPaths": [
-    {
-     "path": "/posts/embedding-quantization-binary-vs-scalar-vs-int8.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-08-31-founders-wire-openai-cursor-cutoff-claudeforce-a16z-machine-age.md",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-09-03-founders-wire-gemini-38-flash-build-vs-buy-agent-reliability-wonderful.md",
-     "hits": 2
-    },
-    {
-     "path": "/posts/mcp-server-github-connect-and-build.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.md",
-     "hits": 2
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "YandexBot",
    "label": "Yandex",
    "category": "search",
@@ -476,7 +476,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 762,
+   "hits": 764,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -575,7 +575,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 139,
+   "hits": 142,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
