@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-12T02:12:13.092Z",
+ "generated": "2026-09-12T02:22:16.302Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17493,
+ "verifiedAiHits": 17504,
  "logsScanned": 30,
  "windowStart": "2026-08-29",
  "windowEnd": "2026-09-12",
- "totalHits": 130469,
- "aiHits": 93666,
+ "totalHits": 130513,
+ "aiHits": 93696,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37994,
+   "hits": 38002,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 24176,
+   "hits": 24186,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18135,
+   "hits": 18136,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14763,
+   "hits": 14770,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6024,
-   "verifiedHits": 5886,
+   "hits": 6028,
+   "verifiedHits": 5890,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3272,
-   "verifiedHits": 3136,
+   "hits": 3280,
+   "verifiedHits": 3144,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
@@ -234,8 +234,8 @@
      "hits": 22
     },
     {
-     "path": "/posts/serverless-inference-api-groq-fireworks-together-deepinfra-baseten.html",
-     "hits": 21
+     "path": "/posts/ai-coding-agent-ranking-2026.html",
+     "hits": 22
     }
    ],
    "verifiable": true
@@ -245,14 +245,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3074,
-   "verifiedHits": 2929,
+   "hits": 3077,
+   "verifiedHits": 2932,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
     {
      "path": "/",
-     "hits": 552
+     "hits": 553
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -344,7 +344,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1649,
+   "hits": 1652,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
