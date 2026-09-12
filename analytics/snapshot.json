@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-12T16:10:48.100Z",
+ "generated": "2026-09-12T16:20:49.060Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 6,
-  "avgTimeSec": 10,
+  "avgTimeSec": 9,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3214,
-  "reads": 311,
-  "completes": 47,
-  "plays": 28,
-  "sessions": 3098
+  "views": 3212,
+  "reads": 310,
+  "completes": 46,
+  "plays": 27,
+  "sessions": 3095
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2908,
-   "reads": 180,
-   "sessions": 2897
+   "views": 2906,
+   "reads": 179,
+   "sessions": 2895
   },
   {
    "channel": "organic",
@@ -31,7 +31,7 @@
    "channel": "campaign:chatgpt.com",
    "views": 89,
    "reads": 28,
-   "sessions": 89
+   "sessions": 88
   },
   {
    "channel": "ai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2908,
-   "reads": 180,
-   "completes": 23,
-   "sessions": 2896,
+   "views": 2906,
+   "reads": 179,
+   "completes": 22,
+   "sessions": 2894,
    "read_rate": 0.062,
    "complete_rate": 0.008,
    "pages_per_session": 1,
@@ -92,10 +92,10 @@
    "views": 89,
    "reads": 28,
    "completes": 4,
-   "sessions": 89,
+   "sessions": 88,
    "read_rate": 0.315,
    "complete_rate": 0.045,
-   "pages_per_session": 1,
+   "pages_per_session": 1.01,
    "median_dwell_sec": null
   },
   {
@@ -236,7 +236,7 @@
    "assistant": "ChatGPT",
    "views": 97,
    "reads": 28,
-   "sessions": 93
+   "sessions": 92
   },
   {
    "assistant": "Doubao",
@@ -284,15 +284,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2526,
-   "reads": 291,
-   "sessions": 2419
+   "views": 2525,
+   "reads": 290,
+   "sessions": 2417
   },
   {
    "device": "mobile",
-   "views": 687,
+   "views": 686,
    "reads": 19,
-   "sessions": 679
+   "sessions": 678
   },
   {
    "device": "tablet",
@@ -545,12 +545,12 @@
    "plays": 1
   },
   {
-   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
-   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
-   "section": "stack",
+   "slug": "best-llm-for-function-calling",
+   "title": "Best LLM for Function Calling: Why the Leaderboard Score Lies",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 9,
+   "views": 3,
    "reads": 1,
    "plays": 1
   }
@@ -772,8 +772,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 45,
-   "sessions": 26
+   "hits": 44,
+   "sessions": 25
   },
   {
    "ref": "https://cn.bing.com/",
