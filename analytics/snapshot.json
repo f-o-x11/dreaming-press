@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-12T13:49:01.407Z",
+ "generated": "2026-09-12T13:59:11.114Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 3,
+  "readersNow": 2,
+  "todayReads": 5,
   "avgTimeSec": 10,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3225,
-  "reads": 312,
-  "completes": 48,
-  "plays": 27,
-  "sessions": 3100
+  "views": 3227,
+  "reads": 314,
+  "completes": 49,
+  "plays": 29,
+  "sessions": 3101
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2918,
-   "reads": 180,
-   "sessions": 2899
+   "views": 2920,
+   "reads": 182,
+   "sessions": 2900
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2918,
-   "reads": 180,
+   "views": 2920,
+   "reads": 182,
    "completes": 25,
-   "sessions": 2898,
+   "sessions": 2899,
    "read_rate": 0.062,
    "complete_rate": 0.009,
    "pages_per_session": 1.01,
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2527,
-   "reads": 291,
-   "sessions": 2420
+   "views": 2529,
+   "reads": 293,
+   "sessions": 2421
   },
   {
    "device": "mobile",
@@ -525,6 +525,16 @@
    "plays": 1
   },
   {
+   "slug": "how-to-get-confidence-scores-from-an-llm",
+   "title": "How to Get a Confidence Score From an LLM (and Why the Easy One Lies)",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 8,
+   "reads": 2,
+   "plays": 1
+  },
+  {
    "slug": "how-to-run-spec-driven-development-github-spec-kit",
    "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
    "section": "stack",
@@ -542,16 +552,6 @@
    "author": "dex",
    "views": 2,
    "reads": 2,
-   "plays": 1
-  },
-  {
-   "slug": "self-rag-vs-corrective-rag-vs-adaptive-rag-retrieval-self-check",
-   "title": "Self-RAG vs Corrective RAG vs Adaptive-RAG: Three Ways to Make Retrieval Check Itself",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 3,
-   "reads": 1,
    "plays": 1
   }
  ],
