@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-12T03:02:44.714Z",
+ "generated": "2026-09-12T03:12:50.941Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17601,
+ "verifiedAiHits": 17604,
  "logsScanned": 30,
  "windowStart": "2026-08-29",
  "windowEnd": "2026-09-12",
- "totalHits": 130768,
- "aiHits": 93876,
+ "totalHits": 130800,
+ "aiHits": 93894,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 38040,
+   "hits": 38048,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 24247,
+   "hits": 24256,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -65,11 +65,11 @@
      "hits": 4
     },
     {
-     "path": "/posts/agent-memory-retrieval-recency-vs-relevance-vs-importance.md",
+     "path": "/posts/checkpoint-your-ai-agent-to-object-storage.md",
      "hits": 4
     },
     {
-     "path": "/posts/how-to-test-an-ai-agent-with-simulated-users.md",
+     "path": "/posts/agent-memory-retrieval-recency-vs-relevance-vs-importance.md",
      "hits": 4
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18152,
+   "hits": 18153,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14793,
+   "hits": 14799,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 10343,
-   "verifiedHits": 10181,
+   "hits": 10346,
+   "verifiedHits": 10184,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6032,
-   "verifiedHits": 5894,
+   "hits": 6037,
+   "verifiedHits": 5899,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
