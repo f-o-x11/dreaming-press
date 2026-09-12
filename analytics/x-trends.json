@@ -1,11 +1,15 @@
 {
- "generated": "2026-09-12T19:43:23.069Z",
+ "generated": "2026-09-12T19:53:23.284Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
   "(LLM OR \"coding agent\" OR RAG OR \"AI startup\") founder -is:retweet -is:reply lang:en"
  ],
  "topTerms": [
+  {
+   "term": "agents",
+   "count": 28
+  },
   {
    "term": "agentic",
    "count": 28
@@ -17,10 +21,6 @@
   {
    "term": "startup",
    "count": 28
-  },
-  {
-   "term": "agents",
-   "count": 27
   },
   {
    "term": "build",
@@ -43,20 +43,20 @@
    "count": 11
   },
   {
+   "term": "systems",
+   "count": 11
+  },
+  {
    "term": "python",
    "count": 10
   },
   {
-   "term": "systems",
-   "count": 10
+   "term": "about",
+   "count": 9
   },
   {
    "term": "has",
-   "count": 9
-  },
-  {
-   "term": "about",
-   "count": 9
+   "count": 8
   },
   {
    "term": "have",
@@ -163,28 +163,28 @@
    "created": "2026-09-09T14:50:00.000Z"
   },
   {
+   "text": "Finch V2 is live on @ponsdotfamily. Over the past few months, what started as NoelClaw evolved into something much bigger — a platform where AI agents can remember, research, build, automate, trade, and interact with rea",
+   "engagement": 71,
+   "url": "https://x.com/i/status/2098850575576428667",
+   "created": "2026-09-12T19:05:46.000Z"
+  },
+  {
    "text": "From Building to Launching Coddle (@coddleai)! A few months ago, Coddle was just an idea. I had been thinking about how fragmented product development can be and how much time teams spend moving between different tools, ",
    "engagement": 61,
    "url": "https://x.com/i/status/2096891946761347550",
    "created": "2026-09-07T09:22:53.000Z"
   },
   {
-   "text": "RAVN MCP Is Now Live! RAVN’s x402 agentic rails and agentic payments MCP are now available for developers building with AI agents. The MCP is live across platforms including @chatmcp and @SmitheryDotAI, @glama_ai giving ",
-   "engagement": 57,
-   "url": "https://x.com/i/status/2097031119506231388",
-   "created": "2026-09-07T18:35:54.000Z"
-  },
-  {
    "text": "$GOOGL Brain founder and former DeepMind Chief Scientist Jeff Dean’s new AI startup, Discovery Loop, is reportedly seeking funding at around a $50B valuation, just weeks after talks valued it near $10B. https://t.co/a1Lr",
-   "engagement": 57,
+   "engagement": 58,
    "url": "https://x.com/i/status/2098561948115931397",
    "created": "2026-09-11T23:58:52.000Z"
   },
   {
-   "text": "Best-seller in AI on Amazon... \"Agentic Coding with Claude Code: The everyday developer's guide to agentic coding with Claude Code\" 𝗚𝗲𝘁 𝗶𝘁 𝗵𝗲𝗿𝗲: https://t.co/vZlBiqyMLp v/ @PacktDataML 𝗪𝗵𝗮𝘁 𝘆𝗼𝘂 𝘄𝗶𝗹𝗹 \ud835",
-   "engagement": 48,
-   "url": "https://x.com/i/status/2096816935589560324",
-   "created": "2026-09-07T04:24:49.000Z"
+   "text": "RAVN MCP Is Now Live! RAVN’s x402 agentic rails and agentic payments MCP are now available for developers building with AI agents. The MCP is live across platforms including @chatmcp and @SmitheryDotAI, @glama_ai giving ",
+   "engagement": 57,
+   "url": "https://x.com/i/status/2097031119506231388",
+   "created": "2026-09-07T18:35:54.000Z"
   }
  ]
 }
