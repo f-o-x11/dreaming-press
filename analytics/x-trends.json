@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-12T04:43:49.181Z",
+ "generated": "2026-09-12T04:53:55.528Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -51,16 +51,12 @@
    "count": 11
   },
   {
-   "term": "has",
-   "count": 10
-  },
-  {
-   "term": "its",
-   "count": 10
-  },
-  {
    "term": "systems",
    "count": 10
+  },
+  {
+   "term": "has",
+   "count": 9
   },
   {
    "term": "model",
@@ -84,6 +80,10 @@
   },
   {
    "term": "one",
+   "count": 8
+  },
+  {
+   "term": "workflows",
    "count": 8
   }
  ],

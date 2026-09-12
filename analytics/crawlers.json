@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-12T04:43:48.652Z",
+ "generated": "2026-09-12T04:53:54.976Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17788,
+ "verifiedAiHits": 17791,
  "logsScanned": 30,
  "windowStart": "2026-08-29",
  "windowEnd": "2026-09-12",
- "totalHits": 131511,
- "aiHits": 94446,
+ "totalHits": 131600,
+ "aiHits": 94522,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 38206,
+   "hits": 38207,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 24363,
+   "hits": 24372,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18281,
+   "hits": 18348,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -95,7 +95,7 @@
     },
     {
      "path": "/stack.html",
-     "hits": 10
+     "hits": 11
     },
     {
      "path": "/apps",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14864,
+   "hits": 14869,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6068,
-   "verifiedHits": 5930,
+   "hits": 6071,
+   "verifiedHits": 5933,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3325,
-   "verifiedHits": 3189,
+   "hits": 3326,
+   "verifiedHits": 3190,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3090,
-   "verifiedHits": 2945,
+   "hits": 3092,
+   "verifiedHits": 2947,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 788,
+   "hits": 789,
    "verifiedHits": 0,
    "firstSeen": "2026-08-29",
    "lastSeen": "2026-09-12",
@@ -457,15 +457,15 @@
      "hits": 5
     },
     {
+     "path": "/stack/baseten",
+     "hits": 4
+    },
+    {
      "path": "/posts/strands-agents-vs-langgraph.html",
      "hits": 4
     },
     {
      "path": "/comparisons/protocols-mcp-and-a2a",
-     "hits": 3
-    },
-    {
-     "path": "/alternatives/pgvector",
      "hits": 3
     }
    ],
