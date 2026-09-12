@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-12T15:20Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-12T15:30Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3230 views → 315 engaged reads → 49 completes · 3104 sessions.
-- Channels: direct 183r/2922v · organic 69r/114v · campaign:chatgpt.com 29r/91v · ai 17r/38v · referral 15r/55v · social 1r/9v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
+- Funnel: 3229 views → 315 engaged reads → 49 completes · 3103 sessions.
+- Channels: direct 183r/2921v · organic 69r/114v · campaign:chatgpt.com 29r/91v · ai 17r/38v · referral 15r/55v · social 1r/9v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 29r/99v · Doubao 9r/11v · Perplexity 4r/5v · DeepSeek 1r/4v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, duckduckgo.com, l.instagram.com, google.com, doubao.com, dash-range, brand, nav-cmp.
 - Engaged-read winners by section: stack=6, wire=9.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2922 views · read 6.3% · complete 0.9% · 1.01 pages/session · median 4s
+- direct: 2921 views · read 6.3% · complete 0.9% · 1.01 pages/session · median 4s
 - organic: 114 views · read 60.5% · complete 2.6% · 1.13 pages/session · median 10s
 - campaign:chatgpt.com: 91 views · read 31.9% · complete 4.4% · 1.01 pages/session · median ?s
 - referral: 55 views · read 27.3% · complete 1.8% · 1.02 pages/session · median ?s
@@ -122,14 +122,14 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agentic(31), founder(29), startup(28), agents(27), build(23), mcp(19), building(19), agent(13), own(11), about(11), has(10), systems(10), model(9), code(9), python(9).
+Hot terms: founder(29), build(28), agentic(28), startup(28), agents(26), mcp(20), building(16), agent(14), own(11), about(11), has(10), systems(10), python(9), have(9), model(8).
 Hashtags: #ai, #startup, #founder, #startups, #agenticai, #rag, #python, #aiengineer, #techcareers, #buildinpublic.
 High-engagement posts to react to / cite:
 - "Rooting for $PAYGENT’s launch today @usepaygent. With Vlad Tenev pushing the AI agent payments narrative through Robinhood’s agentic credit card, this is a category I’m watching. Paygent built for months before launching" — https://x.com/i/status/2097357503818305566
 - "Here's why I think DaVinci Resolve 21.1 is a HUGE update for agentic video editing. https://t.co/yXtwS4ICZB" — https://x.com/i/status/2097396587920060733
 - "You got 2 offers at 24: Offer A - Microsoft ₹44 LPA - Strong brand - Hybrid work - Stable team - Slow promotions Offer B - AI Startup ₹32 LPA + ESOPs - Fully remote - Build from scratch - Direct founder access - High ris" — https://x.com/i/status/2097215718861533372
+- "🚨 BUILD AN APP WITH CLAUDE IN 8 MINUTES. Watch the 8-minute demo 👇 You might build your first app this weekend. No coding marathon. No complicated setup. Just an idea + Claude. → Tell Claude what you want → Let it plan" — https://x.com/i/status/2097699045154422990
 - "From Building to Launching Coddle (@coddleai)! A few months ago, Coddle was just an idea. I had been thinking about how fragmented product development can be and how much time teams spend moving between different tools, " — https://x.com/i/status/2096891946761347550
-- "RAVN MCP Is Now Live! RAVN’s x402 agentic rails and agentic payments MCP are now available for developers building with AI agents. The MCP is live across platforms including @chatmcp and @SmitheryDotAI, @glama_ai giving " — https://x.com/i/status/2097031119506231388
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (264 of 456 phrases have NO post, 4h ago)

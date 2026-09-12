@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-12T15:20:01.025Z",
+ "generated": "2026-09-12T15:30:06.981Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -7,12 +7,16 @@
  ],
  "topTerms": [
   {
-   "term": "agentic",
-   "count": 31
-  },
-  {
    "term": "founder",
    "count": 29
+  },
+  {
+   "term": "build",
+   "count": 28
+  },
+  {
+   "term": "agentic",
+   "count": 28
   },
   {
    "term": "startup",
@@ -20,23 +24,19 @@
   },
   {
    "term": "agents",
-   "count": 27
-  },
-  {
-   "term": "build",
-   "count": 23
+   "count": 26
   },
   {
    "term": "mcp",
-   "count": 19
+   "count": 20
   },
   {
    "term": "building",
-   "count": 19
+   "count": 16
   },
   {
    "term": "agent",
-   "count": 13
+   "count": 14
   },
   {
    "term": "own",
@@ -55,14 +55,6 @@
    "count": 10
   },
   {
-   "term": "model",
-   "count": 9
-  },
-  {
-   "term": "code",
-   "count": 9
-  },
-  {
    "term": "python",
    "count": 9
   },
@@ -71,11 +63,7 @@
    "count": 9
   },
   {
-   "term": "workflows",
-   "count": 8
-  },
-  {
-   "term": "book",
+   "term": "model",
    "count": 8
   },
   {
@@ -85,6 +73,18 @@
   {
    "term": "learn",
    "count": 8
+  },
+  {
+   "term": "claude",
+   "count": 8
+  },
+  {
+   "term": "its",
+   "count": 7
+  },
+  {
+   "term": "tools",
+   "count": 7
   }
  ],
  "hashtags": [
@@ -157,6 +157,12 @@
    "created": "2026-09-08T06:49:26.000Z"
   },
   {
+   "text": "🚨 BUILD AN APP WITH CLAUDE IN 8 MINUTES. Watch the 8-minute demo 👇 You might build your first app this weekend. No coding marathon. No complicated setup. Just an idea + Claude. → Tell Claude what you want → Let it plan",
+   "engagement": 73,
+   "url": "https://x.com/i/status/2097699045154422990",
+   "created": "2026-09-09T14:50:00.000Z"
+  },
+  {
    "text": "From Building to Launching Coddle (@coddleai)! A few months ago, Coddle was just an idea. I had been thinking about how fragmented product development can be and how much time teams spend moving between different tools, ",
    "engagement": 61,
    "url": "https://x.com/i/status/2096891946761347550",
@@ -179,12 +185,6 @@
    "engagement": 48,
    "url": "https://x.com/i/status/2096816935589560324",
    "created": "2026-09-07T04:24:49.000Z"
-  },
-  {
-   "text": "Bookmark this AI agents goldmine : 1. What are AI agents? ↳ https://t.co/Shy3Dr4kQc 2. Which AI agent framework to use ↳ https://t.co/5yn8A0vOU2 3. How to design good AI agents ↳ https://t.co/hSXHO6SwVn 4. What Is the Ag",
-   "engagement": 47,
-   "url": "https://x.com/i/status/2097689805983539533",
-   "created": "2026-09-09T14:13:17.000Z"
   }
  ]
 }
