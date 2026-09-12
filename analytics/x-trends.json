@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-12T15:09:51.740Z",
+ "generated": "2026-09-12T15:20:01.025Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -7,15 +7,15 @@
  ],
  "topTerms": [
   {
-   "term": "startup",
-   "count": 32
-  },
-  {
    "term": "agentic",
    "count": 31
   },
   {
    "term": "founder",
+   "count": 29
+  },
+  {
+   "term": "startup",
    "count": 28
   },
   {
@@ -55,10 +55,6 @@
    "count": 10
   },
   {
-   "term": "saas",
-   "count": 10
-  },
-  {
    "term": "model",
    "count": 9
   },
@@ -84,6 +80,10 @@
   },
   {
    "term": "all",
+   "count": 8
+  },
+  {
+   "term": "learn",
    "count": 8
   }
  ],
@@ -170,7 +170,7 @@
   },
   {
    "text": "$GOOGL Brain founder and former DeepMind Chief Scientist Jeff Dean’s new AI startup, Discovery Loop, is reportedly seeking funding at around a $50B valuation, just weeks after talks valued it near $10B. https://t.co/a1Lr",
-   "engagement": 54,
+   "engagement": 55,
    "url": "https://x.com/i/status/2098561948115931397",
    "created": "2026-09-11T23:58:52.000Z"
   },
