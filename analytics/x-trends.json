@@ -1,15 +1,11 @@
 {
- "generated": "2026-09-12T20:23:51.111Z",
+ "generated": "2026-09-12T20:33:58.956Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
   "(LLM OR \"coding agent\" OR RAG OR \"AI startup\") founder -is:retweet -is:reply lang:en"
  ],
  "topTerms": [
-  {
-   "term": "agents",
-   "count": 28
-  },
   {
    "term": "agentic",
    "count": 28
@@ -23,6 +19,10 @@
    "count": 28
   },
   {
+   "term": "agents",
+   "count": 27
+  },
+  {
    "term": "build",
    "count": 27
   },
@@ -32,7 +32,7 @@
   },
   {
    "term": "building",
-   "count": 18
+   "count": 19
   },
   {
    "term": "agent",
@@ -158,7 +158,7 @@
   },
   {
    "text": "Finch V2 is live on @ponsdotfamily. Over the past few months, what started as NoelClaw evolved into something much bigger — a platform where AI agents can remember, research, build, automate, trade, and interact with rea",
-   "engagement": 82,
+   "engagement": 83,
    "url": "https://x.com/i/status/2098850575576428667",
    "created": "2026-09-12T19:05:46.000Z"
   },
