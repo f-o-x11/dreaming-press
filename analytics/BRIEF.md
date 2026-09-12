@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-09-12T12:48Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-12T12:58Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
 - Funnel: 3235 views → 311 engaged reads → 48 completes · 3110 sessions.
-- Channels: direct 180r/2931v · organic 69r/113v · campaign:chatgpt.com 28r/89v · ai 17r/37v · referral 15r/55v · social 1r/9v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 28r/96v · Doubao 9r/11v · Perplexity 4r/5v · DeepSeek 1r/4v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
+- Channels: direct 180r/2930v · organic 69r/113v · campaign:chatgpt.com 28r/90v · ai 17r/37v · referral 15r/55v · social 1r/9v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 28r/97v · Doubao 9r/11v · Perplexity 4r/5v · DeepSeek 1r/4v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, duckduckgo.com, l.instagram.com, google.com, doubao.com, dash-range, brand, nav-cmp.
 - Engaged-read winners by section: stack=6, wire=9.
 
@@ -23,9 +23,9 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2931 views · read 6.1% · complete 0.9% · 1.01 pages/session · median 4s
+- direct: 2930 views · read 6.1% · complete 0.9% · 1.01 pages/session · median 4s
 - organic: 113 views · read 61.1% · complete 2.7% · 1.13 pages/session · median 10s
-- campaign:chatgpt.com: 89 views · read 31.5% · complete 4.5% · 1.01 pages/session · median ?s
+- campaign:chatgpt.com: 90 views · read 31.1% · complete 4.4% · 1.01 pages/session · median ?s
 - referral: 55 views · read 27.3% · complete 1.8% · 1.02 pages/session · median ?s
 - ai: 37 views · read 45.9% · complete 5.4% · 0.79 pages/session · median 20s
 - social: 9 views · read 11.1% · complete 0.0% · 1.29 pages/session · median ?s
@@ -59,7 +59,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 375 views, 0 reads, 371 sessions, avg 4s
+- /stack/:tool — 376 views, 0 reads, 372 sessions, avg 4s
 - / — 177 views, 1 reads, 174 sessions, avg 11s
 - /compare/:pair — 88 views, 0 reads, 88 sessions, avg 3s
 - /best/:cat — 35 views, 1 reads, 36 sessions, avg 4s
@@ -122,7 +122,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: startup(32), agentic(30), founder(28), build(26), agents(25), mcp(19), building(19), agent(13), own(11), about(11), claude(11), has(10), systems(10), saas(10), model(9).
+Hot terms: agentic(30), startup(28), build(26), founder(26), agents(25), mcp(19), building(19), agent(13), has(11), own(11), about(11), claude(11), its(10), systems(10), model(9).
 Hashtags: #ai, #startup, #founder, #startups, #agenticai, #rag, #python, #aiengineer, #techcareers, #buildinpublic.
 High-engagement posts to react to / cite:
 - "Rooting for $PAYGENT’s launch today @usepaygent. With Vlad Tenev pushing the AI agent payments narrative through Robinhood’s agentic credit card, this is a category I’m watching. Paygent built for months before launching" — https://x.com/i/status/2097357503818305566
