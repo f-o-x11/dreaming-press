@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-13T16:18:17.518Z",
+ "generated": "2026-09-13T16:28:17.989Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 3,
   "todayReads": 16,
   "avgTimeSec": 7,
   "postsThisWeek": 14
  },
  "funnel": {
   "views": 3330,
-  "reads": 321,
+  "reads": 320,
   "completes": 46,
   "plays": 29,
   "sessions": 3204
@@ -17,7 +17,7 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3004,
+   "views": 3005,
    "reads": 181,
    "sessions": 2993
   },
@@ -34,16 +34,16 @@
    "sessions": 93
   },
   {
-   "channel": "referral",
-   "views": 61,
-   "reads": 18,
-   "sessions": 58
-  },
-  {
    "channel": "ai",
    "views": 40,
    "reads": 18,
    "sessions": 49
+  },
+  {
+   "channel": "referral",
+   "views": 60,
+   "reads": 17,
+   "sessions": 57
   },
   {
    "channel": "social",
@@ -67,7 +67,7 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3004,
+   "views": 3005,
    "reads": 181,
    "completes": 22,
    "sessions": 2992,
@@ -100,12 +100,12 @@
   },
   {
    "channel": "referral",
-   "views": 61,
-   "reads": 18,
+   "views": 60,
+   "reads": 17,
    "completes": 1,
-   "sessions": 58,
-   "read_rate": 0.295,
-   "complete_rate": 0.016,
+   "sessions": 57,
+   "read_rate": 0.283,
+   "complete_rate": 0.017,
    "pages_per_session": 1.05,
    "median_dwell_sec": null
   },
@@ -284,15 +284,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2653,
-   "reads": 298,
-   "sessions": 2536
+   "views": 2652,
+   "reads": 297,
+   "sessions": 2535
   },
   {
    "device": "mobile",
-   "views": 676,
+   "views": 677,
    "reads": 22,
-   "sessions": 668
+   "sessions": 669
   },
   {
    "device": "tablet",
@@ -338,7 +338,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 23,
+   "views": 24,
    "reads": 7,
    "plays": 0
   },
@@ -592,7 +592,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 23,
+   "views": 24,
    "reads": 7,
    "plays": 0
   },
