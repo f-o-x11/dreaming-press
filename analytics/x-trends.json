@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-13T20:09:37.832Z",
+ "generated": "2026-09-13T20:19:38.624Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -19,12 +19,12 @@
    "count": 26
   },
   {
-   "term": "agentic",
+   "term": "agents",
    "count": 25
   },
   {
-   "term": "agents",
-   "count": 24
+   "term": "agentic",
+   "count": 25
   },
   {
    "term": "building",
@@ -39,16 +39,12 @@
    "count": 15
   },
   {
+   "term": "systems",
+   "count": 11
+  },
+  {
    "term": "own",
    "count": 10
-  },
-  {
-   "term": "systems",
-   "count": 10
-  },
-  {
-   "term": "has",
-   "count": 9
   },
   {
    "term": "claude",
@@ -57,6 +53,10 @@
   {
    "term": "about",
    "count": 9
+  },
+  {
+   "term": "has",
+   "count": 8
   },
   {
    "term": "have",
@@ -145,6 +145,12 @@
    "created": "2026-09-08T16:12:50.000Z"
   },
   {
+   "text": "Finch V2 is live on @ponsdotfamily. Over the past few months, what started as NoelClaw evolved into something much bigger — a platform where AI agents can remember, research, build, automate, trade, and interact with rea",
+   "engagement": 137,
+   "url": "https://x.com/i/status/2098850575576428667",
+   "created": "2026-09-12T19:05:46.000Z"
+  },
+  {
    "text": "Here's why I think DaVinci Resolve 21.1 is a HUGE update for agentic video editing. https://t.co/yXtwS4ICZB",
    "engagement": 136,
    "url": "https://x.com/i/status/2097396587920060733",
@@ -179,12 +185,6 @@
    "engagement": 65,
    "url": "https://x.com/i/status/2098916775232479564",
    "created": "2026-09-12T23:28:49.000Z"
-  },
-  {
-   "text": "$GOOGL Brain founder and former DeepMind Chief Scientist Jeff Dean’s new AI startup, Discovery Loop, is reportedly seeking funding at around a $50B valuation, just weeks after talks valued it near $10B. https://t.co/a1Lr",
-   "engagement": 65,
-   "url": "https://x.com/i/status/2098561948115931397",
-   "created": "2026-09-11T23:58:52.000Z"
   }
  ]
 }
