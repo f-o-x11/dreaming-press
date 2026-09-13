@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-13T01:38:10.048Z",
+ "generated": "2026-09-13T01:48:10.715Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
+  "readersNow": 2,
   "todayReads": 6,
   "avgTimeSec": 7,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3295,
+  "views": 3298,
   "reads": 316,
   "completes": 46,
   "plays": 27,
-  "sessions": 3176
+  "sessions": 3177
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2980,
+   "views": 2982,
    "reads": 179,
-   "sessions": 2970
+   "sessions": 2972
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "ai",
-   "views": 38,
+   "views": 39,
    "reads": 17,
-   "sessions": 46
+   "sessions": 47
   },
   {
    "channel": "social",
@@ -61,16 +61,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 30
+   "sessions": 31
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2980,
+   "views": 2982,
    "reads": 179,
    "completes": 22,
-   "sessions": 2969,
+   "sessions": 2971,
    "read_rate": 0.06,
    "complete_rate": 0.007,
    "pages_per_session": 1,
@@ -111,12 +111,12 @@
   },
   {
    "channel": "ai",
-   "views": 38,
+   "views": 39,
    "reads": 17,
    "completes": 2,
-   "sessions": 46,
-   "read_rate": 0.447,
-   "complete_rate": 0.053,
+   "sessions": 47,
+   "read_rate": 0.436,
+   "complete_rate": 0.051,
    "pages_per_session": 0.83,
    "median_dwell_sec": 24
   },
@@ -147,7 +147,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 30,
+   "sessions": 31,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -156,14 +156,14 @@
  ],
  "navSurfaces": [
   {
+   "surface": "brand",
+   "clicks": 10,
+   "sessions": 9
+  },
+  {
    "surface": "nav-cmp",
    "clicks": 9,
    "sessions": 5
-  },
-  {
-   "surface": "brand",
-   "clicks": 9,
-   "sessions": 8
   },
   {
    "surface": "article-body",
@@ -201,6 +201,11 @@
    "sessions": 1
   },
   {
+   "surface": "btn-agents",
+   "clicks": 3,
+   "sessions": 3
+  },
+  {
    "surface": "wire-row",
    "clicks": 2,
    "sessions": 2
@@ -224,17 +229,12 @@
    "surface": "btn-stats",
    "clicks": 2,
    "sessions": 2
-  },
-  {
-   "surface": "btn-agents",
-   "clicks": 2,
-   "sessions": 2
   }
  ],
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 99,
+   "views": 100,
    "reads": 30,
    "sessions": 94
   },
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2618,
+   "views": 2621,
    "reads": 293,
-   "sessions": 2508
+   "sessions": 2509
   },
   {
    "device": "mobile",
@@ -667,9 +667,9 @@
   },
   {
    "path": "/",
-   "views": 176,
+   "views": 177,
    "reads": 1,
-   "sessions": 173,
+   "sessions": 174,
    "avg_dwell_sec": 11
   },
   {
@@ -736,6 +736,13 @@
    "avg_dwell_sec": 4
   },
   {
+   "path": "/subscribe",
+   "views": 8,
+   "reads": 0,
+   "sessions": 7,
+   "avg_dwell_sec": 17
+  },
+  {
    "path": "/apps",
    "views": 7,
    "reads": 0,
@@ -748,13 +755,6 @@
    "reads": 0,
    "sessions": 6,
    "avg_dwell_sec": 7
-  },
-  {
-   "path": "/subscribe",
-   "views": 7,
-   "reads": 0,
-   "sessions": 6,
-   "avg_dwell_sec": 8
   },
   {
    "path": "/about.html",
@@ -801,6 +801,11 @@
    "sessions": 9
   },
   {
+   "ref": "brand",
+   "hits": 10,
+   "sessions": 9
+  },
+  {
    "ref": "nav-cmp",
    "hits": 9,
    "sessions": 5
@@ -809,11 +814,6 @@
    "ref": "https://www.perplexity.ai/",
    "hits": 9,
    "sessions": 4
-  },
-  {
-   "ref": "brand",
-   "hits": 9,
-   "sessions": 8
   }
  ]
 }
