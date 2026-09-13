@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-13T14:58:01.233Z",
+ "generated": "2026-09-13T15:08:08.764Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -7,19 +7,19 @@
  ],
  "topTerms": [
   {
-   "term": "founder",
-   "count": 29
-  },
-  {
    "term": "agentic",
    "count": 28
   },
   {
-   "term": "startup",
-   "count": 27
+   "term": "founder",
+   "count": 28
   },
   {
    "term": "build",
+   "count": 26
+  },
+  {
+   "term": "startup",
    "count": 26
   },
   {
@@ -51,15 +51,15 @@
    "count": 10
   },
   {
-   "term": "about",
-   "count": 10
-  },
-  {
    "term": "model",
    "count": 9
   },
   {
    "term": "claude",
+   "count": 9
+  },
+  {
+   "term": "about",
    "count": 9
   },
   {
@@ -90,18 +90,22 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 11
+   "count": 12
   },
   {
    "term": "#startup",
-   "count": 11
+   "count": 12
   },
   {
    "term": "#founder",
-   "count": 4
+   "count": 5
   },
   {
    "term": "#buildinpublic",
+   "count": 4
+  },
+  {
+   "term": "#tech",
    "count": 3
   },
   {
@@ -129,21 +133,11 @@
    "count": 2
   },
   {
-   "term": "#tech",
-   "count": 2
-  },
-  {
    "term": "#cofounder",
    "count": 2
   }
  ],
  "topPosts": [
-  {
-   "text": "Israeli AI startup founder Ilit Razt pleaded guilty in New York to a $27 million investor fraud scheme.​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ I’m willing to bet Donald Trump will pardon him like he’s pardoned",
-   "engagement": 1539,
-   "url": "https://x.com/i/status/2098886739087745493",
-   "created": "2026-09-12T21:29:28.000Z"
-  },
   {
    "text": "Rooting for $PAYGENT’s launch today @usepaygent. With Vlad Tenev pushing the AI agent payments narrative through Robinhood’s agentic credit card, this is a category I’m watching. Paygent built for months before launching",
    "engagement": 413,
@@ -182,9 +176,15 @@
   },
   {
    "text": "I’m 28. Founder from Russia 🇷🇺 Building an AI startup that helps restaurants understand what’s actually happening inside their operations. Learning AI &amp; tech from the ground up while building a real company. Lookin",
-   "engagement": 60,
+   "engagement": 61,
    "url": "https://x.com/i/status/2098839598084313117",
    "created": "2026-09-12T18:22:09.000Z"
+  },
+  {
+   "text": "RAVN MCP Is Now Live! RAVN’s x402 agentic rails and agentic payments MCP are now available for developers building with AI agents. The MCP is live across platforms including @chatmcp and @SmitheryDotAI, @glama_ai giving ",
+   "engagement": 57,
+   "url": "https://x.com/i/status/2097031119506231388",
+   "created": "2026-09-07T18:35:54.000Z"
   }
  ]
 }

@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-13T14:58:01.286Z",
+ "generated": "2026-09-13T15:08:08.816Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
-  "todayReads": 14,
+  "todayReads": 15,
   "avgTimeSec": 7,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3332,
-  "reads": 319,
+  "views": 3333,
+  "reads": 320,
   "completes": 46,
   "plays": 29,
-  "sessions": 3206
+  "sessions": 3207
  },
  "channels": [
   {
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 96,
-   "reads": 31,
-   "sessions": 93
+   "views": 97,
+   "reads": 32,
+   "sessions": 94
   },
   {
    "channel": "referral",
@@ -43,7 +43,7 @@
    "channel": "ai",
    "views": 40,
    "reads": 18,
-   "sessions": 48
+   "sessions": 49
   },
   {
    "channel": "social",
@@ -89,12 +89,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 96,
-   "reads": 31,
+   "views": 97,
+   "reads": 32,
    "completes": 4,
-   "sessions": 93,
-   "read_rate": 0.323,
-   "complete_rate": 0.042,
+   "sessions": 94,
+   "read_rate": 0.33,
+   "complete_rate": 0.041,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
   },
@@ -114,10 +114,10 @@
    "views": 40,
    "reads": 18,
    "completes": 2,
-   "sessions": 48,
+   "sessions": 49,
    "read_rate": 0.45,
    "complete_rate": 0.05,
-   "pages_per_session": 0.83,
+   "pages_per_session": 0.82,
    "median_dwell_sec": 24
   },
   {
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 106,
-   "reads": 32,
-   "sessions": 98
+   "views": 107,
+   "reads": 33,
+   "sessions": 99
   },
   {
    "assistant": "Doubao",
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2654,
-   "reads": 296,
-   "sessions": 2537
+   "views": 2655,
+   "reads": 297,
+   "sessions": 2538
   },
   {
    "device": "mobile",
@@ -333,6 +333,16 @@
    "plays": 1
   },
   {
+   "slug": "open-source-llm-for-coding-september-2026",
+   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 23,
+   "reads": 7,
+   "plays": 0
+  },
+  {
    "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
    "title": "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model",
    "section": "wire",
@@ -341,16 +351,6 @@
    "views": 11,
    "reads": 7,
    "plays": 7
-  },
-  {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 6,
-   "plays": 0
   },
   {
    "slug": "lm-studio-bionic-local-agent-open-models",
@@ -587,6 +587,16 @@
    "plays": 2
   },
   {
+   "slug": "open-source-llm-for-coding-september-2026",
+   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 23,
+   "reads": 7,
+   "plays": 0
+  },
+  {
    "slug": "gpt-5-6-july-30-price-cut-routing-sticker-vs-bill",
    "title": "OpenAI Cut Terra and Luna on July 30. On the Sticker, Luna Is Now the Cheapest Agent Backend Alive — On the Bill, the Ranking Barely Moved.",
    "section": "wire",
@@ -594,16 +604,6 @@
    "author": "wire-desk",
    "views": 23,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 6,
    "plays": 0
   },
   {
@@ -772,8 +772,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 52,
-   "sessions": 28
+   "hits": 54,
+   "sessions": 29
   },
   {
    "ref": "https://cn.bing.com/",
