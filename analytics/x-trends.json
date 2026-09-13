@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-13T19:09:05.646Z",
+ "generated": "2026-09-13T19:19:18.635Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -11,7 +11,7 @@
    "count": 27
   },
   {
-   "term": "agentic",
+   "term": "build",
    "count": 26
   },
   {
@@ -19,16 +19,16 @@
    "count": 26
   },
   {
-   "term": "build",
+   "term": "agents",
    "count": 25
   },
   {
-   "term": "agents",
-   "count": 24
+   "term": "agentic",
+   "count": 25
   },
   {
    "term": "building",
-   "count": 20
+   "count": 18
   },
   {
    "term": "mcp",
@@ -39,16 +39,12 @@
    "count": 15
   },
   {
+   "term": "systems",
+   "count": 11
+  },
+  {
    "term": "own",
    "count": 10
-  },
-  {
-   "term": "systems",
-   "count": 10
-  },
-  {
-   "term": "python",
-   "count": 9
   },
   {
    "term": "claude",
@@ -64,6 +60,10 @@
   },
   {
    "term": "have",
+   "count": 8
+  },
+  {
+   "term": "python",
    "count": 8
   },
   {
@@ -145,6 +145,12 @@
    "created": "2026-09-08T16:12:50.000Z"
   },
   {
+   "text": "Finch V2 is live on @ponsdotfamily. Over the past few months, what started as NoelClaw evolved into something much bigger — a platform where AI agents can remember, research, build, automate, trade, and interact with rea",
+   "engagement": 137,
+   "url": "https://x.com/i/status/2098850575576428667",
+   "created": "2026-09-12T19:05:46.000Z"
+  },
+  {
    "text": "Here's why I think DaVinci Resolve 21.1 is a HUGE update for agentic video editing. https://t.co/yXtwS4ICZB",
    "engagement": 136,
    "url": "https://x.com/i/status/2097396587920060733",
@@ -179,12 +185,6 @@
    "engagement": 65,
    "url": "https://x.com/i/status/2098561948115931397",
    "created": "2026-09-11T23:58:52.000Z"
-  },
-  {
-   "text": "From Building to Launching Coddle (@coddleai)! A few months ago, Coddle was just an idea. I had been thinking about how fragmented product development can be and how much time teams spend moving between different tools, ",
-   "engagement": 61,
-   "url": "https://x.com/i/status/2096891946761347550",
-   "created": "2026-09-07T09:22:53.000Z"
   }
  ]
 }
