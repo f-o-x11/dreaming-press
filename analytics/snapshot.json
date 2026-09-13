@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-13T16:38:17.822Z",
+ "generated": "2026-09-13T16:48:18.364Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 16,
+  "readersNow": 4,
+  "todayReads": 17,
   "avgTimeSec": 7,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3326,
-  "reads": 319,
+  "views": 3325,
+  "reads": 320,
   "completes": 46,
   "plays": 29,
-  "sessions": 3200
+  "sessions": 3199
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3001,
+   "views": 2999,
    "reads": 180,
-   "sessions": 2989
+   "sessions": 2987
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 96,
-   "reads": 32,
-   "sessions": 93
+   "views": 97,
+   "reads": 33,
+   "sessions": 94
   },
   {
    "channel": "ai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3001,
+   "views": 2999,
    "reads": 180,
    "completes": 22,
-   "sessions": 2988,
+   "sessions": 2986,
    "read_rate": 0.06,
    "complete_rate": 0.007,
    "pages_per_session": 1,
@@ -89,12 +89,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 96,
-   "reads": 32,
+   "views": 97,
+   "reads": 33,
    "completes": 4,
-   "sessions": 93,
-   "read_rate": 0.333,
-   "complete_rate": 0.042,
+   "sessions": 94,
+   "read_rate": 0.34,
+   "complete_rate": 0.041,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
   },
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 106,
-   "reads": 33,
-   "sessions": 98
+   "views": 107,
+   "reads": 34,
+   "sessions": 99
   },
   {
    "assistant": "Doubao",
@@ -284,15 +284,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2649,
+   "views": 2647,
    "reads": 296,
-   "sessions": 2532
+   "sessions": 2530
   },
   {
    "device": "mobile",
-   "views": 676,
-   "reads": 22,
-   "sessions": 668
+   "views": 677,
+   "reads": 23,
+   "sessions": 669
   },
   {
    "device": "tablet",
@@ -323,6 +323,16 @@
    "plays": 7
   },
   {
+   "slug": "open-source-llm-for-coding-september-2026",
+   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 25,
+   "reads": 8,
+   "plays": 0
+  },
+  {
    "slug": "how-to-manage-context-in-a-long-running-agent",
    "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
    "section": "wire",
@@ -331,16 +341,6 @@
    "views": 10,
    "reads": 8,
    "plays": 1
-  },
-  {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 24,
-   "reads": 7,
-   "plays": 0
   },
   {
    "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
@@ -592,8 +592,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 24,
-   "reads": 7,
+   "views": 25,
+   "reads": 8,
    "plays": 0
   },
   {
