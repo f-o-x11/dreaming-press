@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-13T19:19:18.690Z",
+ "generated": "2026-09-13T19:29:20.916Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 0,
   "todayReads": 18,
   "avgTimeSec": 8,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3321,
+  "views": 3320,
   "reads": 321,
   "completes": 46,
   "plays": 29,
-  "sessions": 3194
+  "sessions": 3193
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2995,
+   "views": 2994,
    "reads": 181,
-   "sessions": 2982
+   "sessions": 2981
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2995,
+   "views": 2994,
    "reads": 181,
    "completes": 22,
-   "sessions": 2981,
+   "sessions": 2980,
    "read_rate": 0.06,
    "complete_rate": 0.007,
    "pages_per_session": 1,
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2644,
+   "views": 2643,
    "reads": 297,
-   "sessions": 2526
+   "sessions": 2525
   },
   {
    "device": "mobile",
@@ -729,18 +729,18 @@
    "avg_dwell_sec": 8
   },
   {
-   "path": "/weekly",
-   "views": 9,
-   "reads": 0,
-   "sessions": 9,
-   "avg_dwell_sec": 4
-  },
-  {
    "path": "/subscribe",
    "views": 8,
    "reads": 0,
    "sessions": 7,
    "avg_dwell_sec": 17
+  },
+  {
+   "path": "/weekly",
+   "views": 8,
+   "reads": 0,
+   "sessions": 8,
+   "avg_dwell_sec": 4
   },
   {
    "path": "/apps",
