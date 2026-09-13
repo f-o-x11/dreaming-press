@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-13T13:57Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-13T14:07Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -107,8 +107,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (10589 verified): /build ×167 · / ×24 · /dashboard ×20
-- OAI-SearchBot (3460 verified): /wire.html ×27 · / ×24 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×24
-- ChatGPT-User (2983 verified): / ×574 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×88 · /posts/agent-funding-august-2026-control-won-the-summer.html ×73
+- OAI-SearchBot (3461 verified): /wire.html ×27 · / ×24 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×24
+- ChatGPT-User (2987 verified): / ×574 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×88 · /posts/agent-funding-august-2026-control-won-the-summer.html ×73
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -133,7 +133,7 @@ High-engagement posts to react to / cite:
 - "$GOOGL Brain founder and former DeepMind Chief Scientist Jeff Dean’s new AI startup, Discovery Loop, is reportedly seeking funding at around a $50B valuation, just weeks after talks valued it near $10B. https://t.co/a1Lr" — https://x.com/i/status/2098561948115931397
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (264 of 456 phrases have NO post, 26h ago)
+## Uncovered search demand (264 of 456 phrases have NO post, 27h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -156,9 +156,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 18346 confirmed AI-engine fetches (Perplexity 10589, ChatGPT Search (OpenAI) 3460, ChatGPT (user browsing) 2983, GPTBot (OpenAI) 1314).
+The real answer engines are crawling us — IP-verified: 18351 confirmed AI-engine fetches (Perplexity 10589, ChatGPT Search (OpenAI) 3461, ChatGPT (user browsing) 2987, GPTBot (OpenAI) 1314).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 657 crawler fetches
+- /build  — 658 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 108 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 90 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 88 crawler fetches
