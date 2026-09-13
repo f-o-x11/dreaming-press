@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-13T04:30Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-13T04:40Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3310 views → 317 engaged reads → 46 completes · 3187 sessions.
-- Channels: direct 179r/2990v · organic 70r/118v · campaign:chatgpt.com 31r/93v · referral 18r/60v · ai 17r/39v · social 1r/9v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
+- Funnel: 3309 views → 317 engaged reads → 46 completes · 3186 sessions.
+- Channels: direct 179r/2989v · organic 70r/118v · campaign:chatgpt.com 31r/93v · referral 18r/60v · ai 17r/39v · social 1r/9v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 31r/102v · Doubao 9r/11v · Perplexity 4r/5v · DeepSeek 1r/4v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, duckduckgo.com, l.instagram.com, google.com, doubao.com, brand, nav-cmp, perplexity.ai.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2990 views · read 6.0% · complete 0.7% · 1 pages/session · median 4s
+- direct: 2989 views · read 6.0% · complete 0.7% · 1 pages/session · median 4s
 - organic: 118 views · read 59.3% · complete 2.5% · 1.12 pages/session · median 10s
 - campaign:chatgpt.com: 93 views · read 33.3% · complete 4.3% · 1.02 pages/session · median ?s
 - referral: 60 views · read 30.0% · complete 1.7% · 1.05 pages/session · median ?s
@@ -60,7 +60,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 376 views, 0 reads, 372 sessions, avg 4s
-- / — 177 views, 1 reads, 174 sessions, avg 11s
+- / — 176 views, 1 reads, 173 sessions, avg 11s
 - /compare/:pair — 71 views, 0 reads, 71 sessions, avg 3s
 - /best/:cat — 37 views, 1 reads, 38 sessions, avg 4s
 - /build — 34 views, 0 reads, 34 sessions, avg 4s
@@ -107,7 +107,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (10583 verified): /build ×167 · / ×24 · /dashboard ×20
-- OAI-SearchBot (3306 verified): /wire.html ×25 · / ×24 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×24
+- OAI-SearchBot (3308 verified): /wire.html ×25 · / ×24 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×24
 - ChatGPT-User (2916 verified): / ×558 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×82 · /posts/agent-funding-august-2026-control-won-the-summer.html ×73
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -156,7 +156,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 18118 confirmed AI-engine fetches (Perplexity 10583, ChatGPT Search (OpenAI) 3306, ChatGPT (user browsing) 2916, GPTBot (OpenAI) 1313).
+The real answer engines are crawling us — IP-verified: 18120 confirmed AI-engine fetches (Perplexity 10583, ChatGPT Search (OpenAI) 3308, ChatGPT (user browsing) 2916, GPTBot (OpenAI) 1313).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 637 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 104 crawler fetches
