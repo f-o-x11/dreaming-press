@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-13T14:48:00.918Z",
+ "generated": "2026-09-13T14:58:00.699Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18356,
+ "verifiedAiHits": 18357,
  "logsScanned": 30,
  "windowStart": "2026-08-30",
  "windowEnd": "2026-09-13",
- "totalHits": 133219,
- "aiHits": 93893,
+ "totalHits": 133236,
+ "aiHits": 93901,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 26271,
+   "hits": 26276,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15220,
+   "hits": 15227,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -179,14 +179,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6328,
-   "verifiedHits": 6177,
+   "hits": 6332,
+   "verifiedHits": 6181,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 125
+     "hits": 126
     },
     {
      "path": "/posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html",
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3176,
-   "verifiedHits": 2989,
+   "hits": 3177,
+   "verifiedHits": 2990,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
    "topPaths": [
