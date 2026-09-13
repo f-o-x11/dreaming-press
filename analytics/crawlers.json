@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-13T12:36:18.480Z",
+ "generated": "2026-09-13T12:46:18.958Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18331,
+ "verifiedAiHits": 18336,
  "logsScanned": 30,
  "windowStart": "2026-08-30",
  "windowEnd": "2026-09-13",
- "totalHits": 130582,
- "aiHits": 91415,
+ "totalHits": 131059,
+ "aiHits": 91885,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 33333,
+   "hits": 33790,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -28,15 +28,15 @@
      "hits": 47
     },
     {
+     "path": "/authors/dex",
+     "hits": 25
+    },
+    {
      "path": "/dashboard",
      "hits": 19
     },
     {
      "path": "/",
-     "hits": 14
-    },
-    {
-     "path": "/posts/china-persona-law-took-effect-what-founders-do.html",
      "hits": 14
     }
    ],
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 26181,
+   "hits": 26185,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15128,
+   "hits": 15135,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6293,
-   "verifiedHits": 6142,
+   "hits": 6296,
+   "verifiedHits": 6145,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3647,
-   "verifiedHits": 3453,
+   "hits": 3649,
+   "verifiedHits": 3455,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
    "topPaths": [
@@ -245,18 +245,18 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3162,
-   "verifiedHits": 2975,
+   "hits": 3165,
+   "verifiedHits": 2978,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
    "topPaths": [
     {
      "path": "/",
-     "hits": 571
+     "hits": 572
     },
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
-     "hits": 87
+     "hits": 88
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -575,7 +575,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 413,
+   "hits": 414,
    "verifiedHits": 0,
    "firstSeen": "2026-09-06",
    "lastSeen": "2026-09-13",
