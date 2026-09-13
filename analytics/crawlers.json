@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-13T22:10:18.962Z",
+ "generated": "2026-09-13T22:20:23.988Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19782,
+ "verifiedAiHits": 19784,
  "logsScanned": 30,
  "windowStart": "2026-08-30",
  "windowEnd": "2026-09-13",
- "totalHits": 137509,
- "aiHits": 97690,
+ "totalHits": 137587,
+ "aiHits": 97761,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36993,
+   "hits": 36995,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 26558,
+   "hits": 26560,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -80,14 +80,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19090,
+   "hits": 19145,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 39
+     "hits": 42
     },
     {
      "path": "/dashboard",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15551,
+   "hits": 15558,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6446,
-   "verifiedHits": 6295,
+   "hits": 6449,
+   "verifiedHits": 6298,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
    "topPaths": [
@@ -202,7 +202,7 @@
     },
     {
      "path": "/posts/2026-08-22-startup-wins-price-war-below-free.html",
-     "hits": 43
+     "hits": 44
     }
    ],
    "verifiable": true
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3737,
-   "verifiedHits": 3543,
+   "hits": 3738,
+   "verifiedHits": 3544,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3232,
-   "verifiedHits": 3044,
+   "hits": 3233,
+   "verifiedHits": 3045,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2606,
+   "hits": 2608,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 982,
+   "hits": 984,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -458,7 +458,7 @@
     },
     {
      "path": "/posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html",
-     "hits": 37
+     "hits": 38
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
@@ -575,7 +575,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 520,
+   "hits": 523,
    "verifiedHits": 0,
    "firstSeen": "2026-09-06",
    "lastSeen": "2026-09-13",
