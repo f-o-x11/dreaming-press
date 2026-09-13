@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-13T22:00Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-13T22:10Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -98,7 +98,7 @@ sample size dwarfs the engaged-read counts below.
 - /build  — 180 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 89 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 74 retrieval fetches
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 65 retrieval fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 66 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 64 retrieval fetches
 - /wire.html  — 28 retrieval fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 26 retrieval fetches
@@ -107,8 +107,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (11879 verified): /build ×180 · / ×26 · /dashboard ×22
-- OAI-SearchBot (3541 verified): /wire.html ×28 · /posts/ai-coding-agent-ranking-2026.html ×26 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×26
-- ChatGPT-User (3042 verified): / ×588 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×89 · /posts/agent-funding-august-2026-control-won-the-summer.html ×74
+- OAI-SearchBot (3543 verified): /wire.html ×28 · /posts/ai-coding-agent-ranking-2026.html ×26 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×26
+- ChatGPT-User (3044 verified): / ×588 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×89 · /posts/agent-funding-august-2026-control-won-the-summer.html ×74
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -133,7 +133,7 @@ High-engagement posts to react to / cite:
 - "I’m 28. Founder from Russia 🇷🇺 Building an AI startup that helps restaurants understand what’s actually happening inside their operations. Learning AI &amp; tech from the ground up while building a real company. Lookin" — https://x.com/i/status/2098839598084313117
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (264 of 456 phrases have NO post, 34h ago)
+## Uncovered search demand (264 of 456 phrases have NO post, 35h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -156,20 +156,20 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 19778 confirmed AI-engine fetches (Perplexity 11879, ChatGPT Search (OpenAI) 3541, ChatGPT (user browsing) 3042, GPTBot (OpenAI) 1316).
+The real answer engines are crawling us — IP-verified: 19782 confirmed AI-engine fetches (Perplexity 11879, ChatGPT Search (OpenAI) 3543, ChatGPT (user browsing) 3044, GPTBot (OpenAI) 1316).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 690 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 109 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 95 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 89 crawler fetches
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 73 crawler fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 74 crawler fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 71 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 64 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 60 crawler fetches
 - /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 49 crawler fetches
 - /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html  — 46 crawler fetches
 - /posts/2026-08-22-startup-wins-price-war-below-free.html  — 43 crawler fetches
-- /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 38 crawler fetches
+- /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 39 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
