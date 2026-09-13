@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-13T02:28:43.890Z",
+ "generated": "2026-09-13T02:38:50.630Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18091,
+ "verifiedAiHits": 18092,
  "logsScanned": 30,
  "windowStart": "2026-08-30",
  "windowEnd": "2026-09-13",
- "totalHits": 127499,
- "aiHits": 89295,
+ "totalHits": 127532,
+ "aiHits": 89309,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32436,
+   "hits": 32438,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 25583,
+   "hits": 25598,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -61,15 +61,15 @@
      "hits": 4
     },
     {
+     "path": "/posts/how-to-run-longcat-2-as-your-coding-agent-backend.md",
+     "hits": 4
+    },
+    {
      "path": "/posts/pydantic-ai-codemode-tool-calls-one-turn.md",
      "hits": 4
     },
     {
      "path": "/posts/prompt-management-langfuse-vs-promptlayer-vs-agenta.md",
-     "hits": 4
-    },
-    {
-     "path": "/posts/checkpoint-your-ai-agent-to-object-storage.md",
      "hits": 4
     }
    ],
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14706,
+   "hits": 14710,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6094,
-   "verifiedHits": 5943,
+   "hits": 6098,
+   "verifiedHits": 5947,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3086,
-   "verifiedHits": 2907,
+   "hits": 3087,
+   "verifiedHits": 2908,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1606,
+   "hits": 1609,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 872,
+   "hits": 874,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -462,7 +462,7 @@
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
-     "hits": 16
+     "hits": 17
     },
     {
      "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
@@ -575,7 +575,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 282,
+   "hits": 284,
    "verifiedHits": 0,
    "firstSeen": "2026-09-06",
    "lastSeen": "2026-09-13",
