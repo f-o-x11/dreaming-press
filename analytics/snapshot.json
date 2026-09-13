@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-13T15:58:16.320Z",
+ "generated": "2026-09-13T16:08:16.072Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
-  "todayReads": 15,
+  "todayReads": 16,
   "avgTimeSec": 7,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3332,
-  "reads": 320,
+  "views": 3330,
+  "reads": 321,
   "completes": 46,
   "plays": 29,
-  "sessions": 3206
+  "sessions": 3204
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3007,
+   "views": 3004,
    "reads": 181,
-   "sessions": 2996
+   "sessions": 2993
   },
   {
    "channel": "organic",
-   "views": 118,
-   "reads": 69,
-   "sessions": 105
+   "views": 119,
+   "reads": 70,
+   "sessions": 106
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3007,
+   "views": 3004,
    "reads": 181,
    "completes": 22,
-   "sessions": 2995,
+   "sessions": 2992,
    "read_rate": 0.06,
    "complete_rate": 0.007,
    "pages_per_session": 1,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "organic",
-   "views": 118,
-   "reads": 69,
+   "views": 119,
+   "reads": 70,
    "completes": 3,
-   "sessions": 105,
-   "read_rate": 0.585,
+   "sessions": 106,
+   "read_rate": 0.588,
    "complete_rate": 0.025,
    "pages_per_session": 1.12,
    "median_dwell_sec": 10
@@ -284,15 +284,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2654,
-   "reads": 297,
-   "sessions": 2537
+   "views": 2653,
+   "reads": 298,
+   "sessions": 2536
   },
   {
    "device": "mobile",
-   "views": 677,
+   "views": 676,
    "reads": 22,
-   "sessions": 669
+   "sessions": 668
   },
   {
    "device": "tablet",
@@ -433,22 +433,22 @@
    "plays": 0
   },
   {
+   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
+   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "gpt-5-6-prompt-caching-explicit-breakpoints",
    "title": "GPT-5.6 Rewired Prompt Caching: A Hands-On Guide to prompt_cache_options",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 5,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "how-to-write-a-claude-skill-that-triggers",
-   "title": "How to Write a Claude Skill That Actually Triggers: The SKILL.md Description Craft",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 4,
    "reads": 4,
    "plays": 0
   }
@@ -602,7 +602,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 23,
+   "views": 22,
    "reads": 0,
    "plays": 0
   },
