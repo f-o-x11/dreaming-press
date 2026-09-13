@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-13T19:59:37.497Z",
+ "generated": "2026-09-13T20:09:37.346Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18780,
+ "verifiedAiHits": 18787,
  "logsScanned": 30,
  "windowStart": "2026-08-30",
  "windowEnd": "2026-09-13",
- "totalHits": 135041,
- "aiHits": 95327,
+ "totalHits": 135611,
+ "aiHits": 95892,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35849,
+   "hits": 36395,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -32,12 +32,12 @@
      "hits": 42
     },
     {
-     "path": "/authors/dex",
-     "hits": 25
+     "path": "/tags/opinionated",
+     "hits": 31
     },
     {
-     "path": "/dashboard",
-     "hits": 19
+     "path": "/authors/dex",
+     "hits": 25
     }
    ],
    "verifiable": false
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 26501,
+   "hits": 26503,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15450,
+   "hits": 15459,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6415,
-   "verifiedHits": 6264,
+   "hits": 6417,
+   "verifiedHits": 6266,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3707,
-   "verifiedHits": 3513,
+   "hits": 3713,
+   "verifiedHits": 3519,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3213,
-   "verifiedHits": 3025,
+   "hits": 3214,
+   "verifiedHits": 3026,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2590,
+   "hits": 2591,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -575,7 +575,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 499,
+   "hits": 502,
    "verifiedHits": 0,
    "firstSeen": "2026-09-06",
    "lastSeen": "2026-09-13",
@@ -593,11 +593,11 @@
      "hits": 2
     },
     {
-     "path": "/posts/llm-inference-latency-ttft-vs-tpot.html",
+     "path": "/build",
      "hits": 2
     },
     {
-     "path": "/posts/contextual-retrieval-vs-naive-rag.html",
+     "path": "/posts/llm-inference-latency-ttft-vs-tpot.html",
      "hits": 2
     }
    ],
