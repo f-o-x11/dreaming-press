@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-13T02:48:57.299Z",
+ "generated": "2026-09-13T02:59:00.533Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18094,
+ "verifiedAiHits": 18096,
  "logsScanned": 30,
  "windowStart": "2026-08-30",
  "windowEnd": "2026-09-13",
- "totalHits": 127563,
- "aiHits": 89327,
+ "totalHits": 127590,
+ "aiHits": 89341,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32439,
+   "hits": 32440,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 25604,
+   "hits": 25616,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -55,6 +55,10 @@
     {
      "path": "/build",
      "hits": 84
+    },
+    {
+     "path": "/dashboard",
+     "hits": 5
     },
     {
      "path": "/posts/how-to-track-llm-cost-per-customer.md",
@@ -66,10 +70,6 @@
     },
     {
      "path": "/posts/pydantic-ai-codemode-tool-calls-one-turn.md",
-     "hits": 4
-    },
-    {
-     "path": "/posts/prompt-management-langfuse-vs-promptlayer-vs-agenta.md",
      "hits": 4
     }
    ],
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14721,
+   "hits": 14730,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -132,7 +132,7 @@
     },
     {
      "path": "/wire.html",
-     "hits": 10
+     "hits": 11
     },
     {
      "path": "/stacks/autogen%2Bcloudflare-ai-gateway%2Bmem0",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6102,
-   "verifiedHits": 5951,
+   "hits": 6103,
+   "verifiedHits": 5952,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3487,
-   "verifiedHits": 3296,
+   "hits": 3489,
+   "verifiedHits": 3298,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
    "topPaths": [
@@ -410,14 +410,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 1471,
+   "hits": 1472,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
    "topPaths": [
     {
      "path": "/posts/embedding-quantization-binary-vs-scalar-vs-int8.html",
-     "hits": 3
+     "hits": 4
     },
     {
      "path": "/posts/langgraph-checkpointing-vs-temporal-durable-execution.html",
@@ -575,7 +575,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 286,
+   "hits": 287,
    "verifiedHits": 0,
    "firstSeen": "2026-09-06",
    "lastSeen": "2026-09-13",
