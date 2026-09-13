@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-13T10:55:01.026Z",
+ "generated": "2026-09-13T11:05:07.294Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
-  "todayReads": 10,
+  "todayReads": 11,
   "avgTimeSec": 7,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3326,
-  "reads": 317,
+  "views": 3329,
+  "reads": 318,
   "completes": 46,
   "plays": 28,
-  "sessions": 3203
+  "sessions": 3204
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3002,
-   "reads": 179,
-   "sessions": 2991
+   "views": 3004,
+   "reads": 180,
+   "sessions": 2993
   },
   {
    "channel": "organic",
@@ -29,7 +29,7 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 96,
+   "views": 97,
    "reads": 31,
    "sessions": 94
   },
@@ -43,7 +43,7 @@
    "channel": "ai",
    "views": 40,
    "reads": 18,
-   "sessions": 47
+   "sessions": 48
   },
   {
    "channel": "social",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3002,
-   "reads": 179,
+   "views": 3004,
+   "reads": 180,
    "completes": 22,
-   "sessions": 2990,
+   "sessions": 2992,
    "read_rate": 0.06,
    "complete_rate": 0.007,
    "pages_per_session": 1,
@@ -89,13 +89,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 96,
+   "views": 97,
    "reads": 31,
    "completes": 4,
    "sessions": 94,
-   "read_rate": 0.323,
-   "complete_rate": 0.042,
-   "pages_per_session": 1.02,
+   "read_rate": 0.32,
+   "complete_rate": 0.041,
+   "pages_per_session": 1.03,
    "median_dwell_sec": null
   },
   {
@@ -114,10 +114,10 @@
    "views": 40,
    "reads": 18,
    "completes": 2,
-   "sessions": 47,
+   "sessions": 48,
    "read_rate": 0.45,
    "complete_rate": 0.05,
-   "pages_per_session": 0.85,
+   "pages_per_session": 0.83,
    "median_dwell_sec": 24
   },
   {
@@ -234,7 +234,7 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 106,
+   "views": 107,
    "reads": 32,
    "sessions": 99
   },
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2647,
-   "reads": 294,
-   "sessions": 2533
+   "views": 2650,
+   "reads": 295,
+   "sessions": 2534
   },
   {
    "device": "mobile",
@@ -505,22 +505,22 @@
    "plays": 1
   },
   {
+   "slug": "bedrock-agentcore-observability-vs-langfuse-vs-phoenix",
+   "title": "Bedrock AgentCore's Free Observability vs Langfuse vs Phoenix: When the Built-In Tracing Is Actually Enough",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 10,
+   "reads": 3,
+   "plays": 1
+  },
+  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 15,
-   "reads": 2,
-   "plays": 1
-  },
-  {
-   "slug": "bedrock-agentcore-observability-vs-langfuse-vs-phoenix",
-   "title": "Bedrock AgentCore's Free Observability vs Langfuse vs Phoenix: When the Built-In Tracing Is Actually Enough",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
    "reads": 2,
    "plays": 1
   },
@@ -572,7 +572,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 49,
+   "views": 50,
    "reads": 0,
    "plays": 0
   },
@@ -772,7 +772,7 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 51,
+   "hits": 52,
    "sessions": 28
   },
   {
