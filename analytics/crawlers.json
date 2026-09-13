@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-13T18:59:02.812Z",
+ "generated": "2026-09-13T19:09:05.132Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18735,
+ "verifiedAiHits": 18737,
  "logsScanned": 30,
  "windowStart": "2026-08-30",
  "windowEnd": "2026-09-13",
- "totalHits": 134716,
- "aiHits": 95049,
+ "totalHits": 134740,
+ "aiHits": 95068,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35745,
+   "hits": 35750,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 26474,
+   "hits": 26477,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15402,
+   "hits": 15410,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 11119,
-   "verifiedHits": 10904,
+   "hits": 11120,
+   "verifiedHits": 10905,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3207,
-   "verifiedHits": 3019,
+   "hits": 3208,
+   "verifiedHits": 3020,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2586,
+   "hits": 2588,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 959,
+   "hits": 961,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -575,7 +575,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 488,
+   "hits": 490,
    "verifiedHits": 0,
    "firstSeen": "2026-09-06",
    "lastSeen": "2026-09-13",
@@ -589,16 +589,16 @@
      "hits": 2
     },
     {
+     "path": "/dashboard",
+     "hits": 2
+    },
+    {
      "path": "/posts/llm-inference-latency-ttft-vs-tpot.html",
      "hits": 2
     },
     {
      "path": "/posts/contextual-retrieval-vs-naive-rag.html",
      "hits": 2
-    },
-    {
-     "path": "/posts/the-cost-of-waiting.html",
-     "hits": 1
     }
    ],
    "verifiable": false
