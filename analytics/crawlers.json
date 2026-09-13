@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-13T18:28:49.689Z",
+ "generated": "2026-09-13T18:39:00.629Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18720,
+ "verifiedAiHits": 18723,
  "logsScanned": 30,
  "windowStart": "2026-08-30",
  "windowEnd": "2026-09-13",
- "totalHits": 134553,
- "aiHits": 94923,
+ "totalHits": 134645,
+ "aiHits": 94997,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35710,
+   "hits": 35723,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 26442,
+   "hits": 26459,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15379,
+   "hits": 15388,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6397,
-   "verifiedHits": 6246,
+   "hits": 6398,
+   "verifiedHits": 6247,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3682,
-   "verifiedHits": 3488,
+   "hits": 3683,
+   "verifiedHits": 3489,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3201,
-   "verifiedHits": 3013,
+   "hits": 3202,
+   "verifiedHits": 3014,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1642,
+   "hits": 1689,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -362,11 +362,11 @@
      "hits": 3
     },
     {
-     "path": "/terraform.tfstate",
+     "path": "/agents.html",
      "hits": 2
     },
     {
-     "path": "/posts/pilot-protocol-internet-for-agents-what-founders-do.html",
+     "path": "/stack.html",
      "hits": 2
     }
    ],
@@ -377,8 +377,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 1524,
-   "verifiedHits": 1315,
+   "hits": 1525,
+   "verifiedHits": 1316,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
    "topPaths": [
@@ -575,7 +575,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 482,
+   "hits": 484,
    "verifiedHits": 0,
    "firstSeen": "2026-09-06",
    "lastSeen": "2026-09-13",
