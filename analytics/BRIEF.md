@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-13T20:49Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-13T20:59Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -94,7 +94,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 611 retrieval fetches
+- /  — 612 retrieval fetches
 - /build  — 170 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 89 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 74 retrieval fetches
@@ -106,9 +106,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html  — 25 retrieval fetches
 
 Per engine:
-- PerplexityBot (10926 verified): /build ×170 · / ×25 · /dashboard ×21
-- OAI-SearchBot (3525 verified): /wire.html ×28 · /posts/ai-coding-agent-ranking-2026.html ×26 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×26
-- ChatGPT-User (3032 verified): / ×586 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×89 · /posts/agent-funding-august-2026-control-won-the-summer.html ×74
+- PerplexityBot (10972 verified): /build ×170 · / ×26 · /dashboard ×22
+- OAI-SearchBot (3526 verified): /wire.html ×28 · /posts/ai-coding-agent-ranking-2026.html ×26 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×26
+- ChatGPT-User (3033 verified): / ×586 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×89 · /posts/agent-funding-august-2026-control-won-the-summer.html ×74
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -123,7 +123,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: founder(27), agentic(26), startup(26), build(25), agents(24), building(20), mcp(17), agent(15), own(10), systems(10), python(9), claude(9), about(9), has(8), have(8).
+Hot terms: founder(27), build(26), startup(26), agentic(25), agents(24), building(18), mcp(17), agent(15), own(10), systems(10), has(9), claude(9), about(9), have(8), python(8).
 Hashtags: #ai, #startup, #founder, #buildinpublic, #tech, #startups, #agenticai, #rag, #python, #aiengineer.
 High-engagement posts to react to / cite:
 - "Rooting for $PAYGENT’s launch today @usepaygent. With Vlad Tenev pushing the AI agent payments narrative through Robinhood’s agentic credit card, this is a category I’m watching. Paygent built for months before launching" — https://x.com/i/status/2097357503818305566
@@ -156,7 +156,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 18799 confirmed AI-engine fetches (Perplexity 10926, ChatGPT Search (OpenAI) 3525, ChatGPT (user browsing) 3032, GPTBot (OpenAI) 1316).
+The real answer engines are crawling us — IP-verified: 18847 confirmed AI-engine fetches (Perplexity 10972, ChatGPT Search (OpenAI) 3526, ChatGPT (user browsing) 3033, GPTBot (OpenAI) 1316).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 677 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 109 crawler fetches
@@ -169,7 +169,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 46 crawler fetches
 - /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html  — 46 crawler fetches
 - /posts/2026-08-22-startup-wins-price-war-below-free.html  — 43 crawler fetches
-- /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 35 crawler fetches
+- /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 36 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
