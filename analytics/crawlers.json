@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-13T06:11:21.216Z",
+ "generated": "2026-09-13T06:21:39.663Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18152,
+ "verifiedAiHits": 18156,
  "logsScanned": 30,
  "windowStart": "2026-08-30",
  "windowEnd": "2026-09-13",
- "totalHits": 128570,
- "aiHits": 89985,
+ "totalHits": 128626,
+ "aiHits": 90024,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32662,
+   "hits": 32686,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 25823,
+   "hits": 25833,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -61,15 +61,15 @@
      "hits": 5
     },
     {
+     "path": "/posts/statewave-vs-mem0-vs-zep-auditable-agent-memory.md",
+     "hits": 4
+    },
+    {
      "path": "/posts/how-to-track-llm-cost-per-customer.md",
      "hits": 4
     },
     {
      "path": "/posts/how-to-run-longcat-2-as-your-coding-agent-backend.md",
-     "hits": 4
-    },
-    {
-     "path": "/posts/llm-cascade-vs-router.md",
      "hits": 4
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18422,
+   "hits": 18423,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14865,
+   "hits": 14873,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6156,
-   "verifiedHits": 6005,
+   "hits": 6161,
+   "verifiedHits": 6010,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3514,
-   "verifiedHits": 3322,
+   "hits": 3518,
+   "verifiedHits": 3326,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3113,
+   "hits": 3115,
    "verifiedHits": 2929,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
@@ -311,14 +311,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2460,
+   "hits": 2462,
    "verifiedHits": 0,
    "firstSeen": "2026-08-30",
    "lastSeen": "2026-09-13",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 31
+     "hits": 32
     },
     {
      "path": "/dashboard",
