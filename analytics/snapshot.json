@@ -1,37 +1,37 @@
 {
- "generated": "2026-09-13T00:47:12.535Z",
+ "generated": "2026-09-13T00:57:20.967Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 2,
+  "readersNow": 5,
+  "todayReads": 3,
   "avgTimeSec": 7,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3287,
-  "reads": 312,
+  "views": 3290,
+  "reads": 313,
   "completes": 43,
   "plays": 27,
-  "sessions": 3168
+  "sessions": 3171
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2974,
+   "views": 2975,
    "reads": 176,
-   "sessions": 2964
+   "sessions": 2965
   },
   {
    "channel": "organic",
-   "views": 116,
+   "views": 117,
    "reads": 70,
-   "sessions": 103
+   "sessions": 104
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 90,
-   "reads": 29,
-   "sessions": 89
+   "views": 91,
+   "reads": 30,
+   "sessions": 90
   },
   {
    "channel": "referral",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2974,
+   "views": 2975,
    "reads": 176,
    "completes": 19,
-   "sessions": 2963,
+   "sessions": 2964,
    "read_rate": 0.059,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -78,22 +78,22 @@
   },
   {
    "channel": "organic",
-   "views": 116,
+   "views": 117,
    "reads": 70,
    "completes": 3,
-   "sessions": 103,
-   "read_rate": 0.603,
+   "sessions": 104,
+   "read_rate": 0.598,
    "complete_rate": 0.026,
    "pages_per_session": 1.13,
    "median_dwell_sec": 10
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 90,
-   "reads": 29,
+   "views": 91,
+   "reads": 30,
    "completes": 4,
-   "sessions": 89,
-   "read_rate": 0.322,
+   "sessions": 90,
+   "read_rate": 0.33,
    "complete_rate": 0.044,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 98,
-   "reads": 29,
-   "sessions": 93
+   "views": 99,
+   "reads": 30,
+   "sessions": 94
   },
   {
    "assistant": "Doubao",
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2611,
-   "reads": 292,
-   "sessions": 2501
+   "views": 2614,
+   "reads": 293,
+   "sessions": 2504
   },
   {
    "device": "mobile",
@@ -607,6 +607,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-09-12-founders-wire-openai-agents-api-deepseek-v41-flash-ayar-optics",
+   "title": "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 21,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
    "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
    "section": "wire",
@@ -615,16 +625,6 @@
    "views": 20,
    "reads": 11,
    "plays": 7
-  },
-  {
-   "slug": "2026-09-12-founders-wire-openai-agents-api-deepseek-v41-flash-ayar-optics",
-   "title": "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 20,
-   "reads": 0,
-   "plays": 0
   },
   {
    "slug": "2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe",
@@ -757,11 +757,11 @@
    "avg_dwell_sec": 8
   },
   {
-   "path": "/agents.html",
+   "path": "/about.html",
    "views": 6,
    "reads": 0,
    "sessions": 6,
-   "avg_dwell_sec": 6
+   "avg_dwell_sec": 12
   }
  ],
  "referrers": [
@@ -772,8 +772,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 46,
-   "sessions": 26
+   "hits": 48,
+   "sessions": 27
   },
   {
    "ref": "https://cn.bing.com/",
@@ -792,8 +792,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 22,
-   "sessions": 17
+   "hits": 23,
+   "sessions": 18
   },
   {
    "ref": "https://www.doubao.com/",
