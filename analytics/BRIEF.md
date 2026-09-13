@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-13T04:50Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-13T05:00Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -160,9 +160,9 @@ The real answer engines are crawling us — IP-verified: 18123 confirmed AI-engi
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 637 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 104 crawler fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 89 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 82 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 73 crawler fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 73 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 64 crawler fetches
 - /posts/how-to-harden-your-repo-against-ai-agent-poisoned-prs.html  — 60 crawler fetches
 - /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 48 crawler fetches
