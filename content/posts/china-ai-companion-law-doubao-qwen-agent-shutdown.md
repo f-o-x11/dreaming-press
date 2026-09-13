@@ -20,7 +20,9 @@ art:
   motif: "a single hard vertical line splitting the frame; on one side a warm human-shaped silhouette still lit, on the other the same silhouette gone dark and flattened into a plain gray tool icon"
 ---
 
-**Doubao and Qwen switched their companion agents off on July 15, 2026 because China's new law regulates the emotional *bond* a companion creates, not the model behind it — and you cannot bolt "please don't get attached to me" onto a product whose entire value is attachment.** Rather than half-kill the feature, two of the most-used apps in the world's largest AI market judged a fully compliant companion worse than no companion at all, and pulled it outright. **The one-line takeaway for founders:** if your product holds a persistent persona or an emotional hook, this is the first regulation anywhere to make "is it a tool or a companion?" a *legal* question — and it's the line most likely to reach your market next.
+**Doubao and Qwen turned their companion agents off on July 15, 2026 rather than comply with China's new companion-AI law.** The law regulates the emotional *bond* a companion creates — not the model behind it — and you cannot bolt "please don't get attached to me" onto a product whose entire value is attachment. So two of the most-used apps in the world's largest AI market judged a fully compliant companion worse than no companion at all, and pulled the feature outright.
+
+**Why a founder outside China should care:** this is the first regulation anywhere to make "is it a tool or a companion?" a *legal* question — and it's the exact line most likely to reach your market next. If your product holds a persistent persona or an emotional hook, the classification below is coming for you.
 
 Here's the whole story in one screen — the *tool*-vs.-*companion* split, why it forced an off switch, and why it travels:
 

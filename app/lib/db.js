@@ -963,7 +963,13 @@ const COMPARISON_CLUSTERS = [
   // (was catch-all → rescued here) and claude-agent-sdk-vs-openai-agents-sdk (was Models & LLM APIs via
   // `claude`, now correctly homed with its framework siblings); the three openai-agents-sdk-vs-* pieces
   // already matched here via langgraph/pydantic/adk, so their cluster is unchanged. 2 moves, 0 wrong-cluster.
-  ["Agent Frameworks",       /(^|-)(framework|frameworks|langgraph|crewai|autogen|langchain|langchain4j|llamaindex|pydantic|adk|harness|agents-sdk|hermes|n8n|flowise|langflow|dify|coze|spring-ai|jvm|declarative|whats-new)(-|$)/],
+  // `build-an-ai-agent` (bounded) rails the "how to build an AI agent" tutorial family together:
+  // build-an-ai-agent-from-scratch-… already homed here via `framework`, and this token pulls in
+  // build-an-ai-agent-2026-loop-context-mcp-tool (was Protocols via `mcp`) and how-to-build-an-ai-agent-with-chatgpt
+  // (was catch-all — its `chatgpt` never matched `(^|-)gpt(-|$)`), so all three build-an-agent guides share one
+  // sibling rail. Corpus-scan (2026-09-13): `build-an-ai-agent` appears in exactly those three slugs and in NO
+  // cluster earlier than this one, so first-match-wins poaches nothing else. 2 moves, 0 wrong-cluster.
+  ["Agent Frameworks",       /(^|-)(framework|frameworks|langgraph|crewai|autogen|langchain|langchain4j|llamaindex|pydantic|adk|harness|agents-sdk|build-an-ai-agent|hermes|n8n|flowise|langflow|dify|coze|spring-ai|jvm|declarative|whats-new)(-|$)/],
   // AI coding tools — the IDE/assistant + autonomous-coding-agent layer (Cursor,
   // Windsurf, GitHub Copilot, Claude Code; the OSS aider/Cline/OpenHands too).
   // Placed BEFORE Agent UI & Frontend on purpose: the bare `copilot` token there
