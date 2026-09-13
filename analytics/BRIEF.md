@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-13T07:22Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-13T07:32Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -107,8 +107,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (10588 verified): /build ×167 · / ×24 · /dashboard ×20
-- OAI-SearchBot (3347 verified): /wire.html ×26 · / ×24 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×24
-- ChatGPT-User (2942 verified): / ×563 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×82 · /posts/agent-funding-august-2026-control-won-the-summer.html ×73
+- OAI-SearchBot (3362 verified): /wire.html ×26 · / ×24 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×24
+- ChatGPT-User (2943 verified): / ×563 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×82 · /posts/agent-funding-august-2026-control-won-the-summer.html ×73
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -156,7 +156,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 18191 confirmed AI-engine fetches (Perplexity 10588, ChatGPT Search (OpenAI) 3347, ChatGPT (user browsing) 2942, GPTBot (OpenAI) 1314).
+The real answer engines are crawling us — IP-verified: 18207 confirmed AI-engine fetches (Perplexity 10588, ChatGPT Search (OpenAI) 3362, ChatGPT (user browsing) 2943, GPTBot (OpenAI) 1314).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 644 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 105 crawler fetches
