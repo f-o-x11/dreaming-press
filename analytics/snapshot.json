@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-13T06:52:00.850Z",
+ "generated": "2026-09-13T07:02:12.841Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 8,
+  "readersNow": 3,
+  "todayReads": 9,
   "avgTimeSec": 7,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3308,
-  "reads": 317,
+  "views": 3311,
+  "reads": 318,
   "completes": 46,
   "plays": 27,
-  "sessions": 3186
+  "sessions": 3189
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2986,
-   "reads": 179,
-   "sessions": 2977
+   "views": 2988,
+   "reads": 180,
+   "sessions": 2979
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 93,
+   "views": 94,
    "reads": 30,
-   "sessions": 91
+   "sessions": 92
   },
   {
    "channel": "referral",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2986,
-   "reads": 179,
+   "views": 2988,
+   "reads": 180,
    "completes": 22,
-   "sessions": 2976,
+   "sessions": 2978,
    "read_rate": 0.06,
    "complete_rate": 0.007,
    "pages_per_session": 1,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 93,
+   "views": 94,
    "reads": 30,
    "completes": 4,
-   "sessions": 91,
-   "read_rate": 0.323,
+   "sessions": 92,
+   "read_rate": 0.319,
    "complete_rate": 0.043,
    "pages_per_session": 1.02,
    "median_dwell_sec": null
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 103,
+   "views": 104,
    "reads": 31,
-   "sessions": 96
+   "sessions": 97
   },
   {
    "assistant": "Doubao",
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2632,
-   "reads": 294,
-   "sessions": 2519
+   "views": 2635,
+   "reads": 295,
+   "sessions": 2522
   },
   {
    "device": "mobile",
@@ -383,6 +383,16 @@
    "plays": 0
   },
   {
+   "slug": "skypilot-vs-dstack-cheapest-gpu-across-clouds",
+   "title": "SkyPilot vs dstack: Two Ways to Run a GPU Job on the Cheapest Cloud That Has One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
    "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
    "section": "wire",
@@ -418,16 +428,6 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 7,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "skypilot-vs-dstack-cheapest-gpu-across-clouds",
-   "title": "SkyPilot vs dstack: Two Ways to Run a GPU Job on the Cheapest Cloud That Has One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
    "views": 7,
    "reads": 4,
    "plays": 0
@@ -510,7 +510,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 14,
+   "views": 15,
    "reads": 2,
    "plays": 1
   },
@@ -572,7 +572,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 43,
+   "views": 44,
    "reads": 0,
    "plays": 0
   },
