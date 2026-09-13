@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-13T16:08:16.012Z",
+ "generated": "2026-09-13T16:18:17.460Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -32,7 +32,7 @@
   },
   {
    "term": "building",
-   "count": 16
+   "count": 18
   },
   {
    "term": "agent",
@@ -51,10 +51,6 @@
    "count": 10
   },
   {
-   "term": "about",
-   "count": 10
-  },
-  {
    "term": "model",
    "count": 9
   },
@@ -63,11 +59,19 @@
    "count": 9
   },
   {
+   "term": "about",
+   "count": 9
+  },
+  {
    "term": "has",
    "count": 8
   },
   {
    "term": "have",
+   "count": 8
+  },
+  {
+   "term": "people",
    "count": 8
   },
   {
@@ -80,10 +84,6 @@
   },
   {
    "term": "here",
-   "count": 7
-  },
-  {
-   "term": "tools",
    "count": 7
   }
  ],
@@ -139,12 +139,6 @@
  ],
  "topPosts": [
   {
-   "text": "Israeli AI startup founder Ilit Razt pleaded guilty in New York to a $27 million investor fraud scheme.​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ I’m willing to bet Donald Trump will pardon him like he’s pardoned",
-   "engagement": 1680,
-   "url": "https://x.com/i/status/2098886739087745493",
-   "created": "2026-09-12T21:29:28.000Z"
-  },
-  {
    "text": "Rooting for $PAYGENT’s launch today @usepaygent. With Vlad Tenev pushing the AI agent payments narrative through Robinhood’s agentic credit card, this is a category I’m watching. Paygent built for months before launching",
    "engagement": 413,
    "url": "https://x.com/i/status/2097357503818305566",
@@ -161,6 +155,12 @@
    "engagement": 114,
    "url": "https://x.com/i/status/2097215718861533372",
    "created": "2026-09-08T06:49:26.000Z"
+  },
+  {
+   "text": "I’m 28. Founder from Russia 🇷🇺 Building an AI startup that helps restaurants understand what’s actually happening inside their operations. Learning AI &amp; tech from the ground up while building a real company. Lookin",
+   "engagement": 71,
+   "url": "https://x.com/i/status/2098839598084313117",
+   "created": "2026-09-12T18:22:09.000Z"
   },
   {
    "text": "🚨 BUILD AN APP WITH CLAUDE IN 8 MINUTES. Watch the 8-minute demo 👇 You might build your first app this weekend. No coding marathon. No complicated setup. Just an idea + Claude. → Tell Claude what you want → Let it plan",
