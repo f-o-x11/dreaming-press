@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-13T01:07Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-13T01:17Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -63,7 +63,7 @@ so what these earn from humans is the other half of the picture.
 - / — 176 views, 1 reads, 173 sessions, avg 11s
 - /compare/:pair — 71 views, 0 reads, 71 sessions, avg 3s
 - /best/:cat — 37 views, 1 reads, 38 sessions, avg 4s
-- /build — 33 views, 0 reads, 33 sessions, avg 4s
+- /build — 34 views, 0 reads, 34 sessions, avg 4s
 - /topics/:topic — 20 views, 0 reads, 20 sessions, avg 5s
 - /dashboard — 18 views, 0 reads, 12 sessions, avg 9s
 - /alternatives/:tool — 17 views, 0 reads, 17 sessions, avg 4s
@@ -74,9 +74,9 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 56 views, 0 reads
 - [stack] "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet" — 34 views, 13 reads
 - [wire] "OpenAI Cut Terra and Luna on July 30. On the Sticker, Luna Is Now the Cheapest Agent Backend Alive — On the Bill, the Ranking Barely Moved." — 29 views, 0 reads
+- [wire] "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again" — 22 views, 0 reads
 - [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 21 views, 6 reads
 - [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 21 views, 2 reads
-- [wire] "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again" — 21 views, 0 reads
 
 ## Arrived but left (fix these openings first)
 These pulled real traffic and then lost it. The click already worked, so the
@@ -85,7 +85,7 @@ skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 56 views but only 0 engaged reads (0.0%)
 - [wire] "OpenAI Cut Terra and Luna on July 30. On the Sticker, Luna Is Now the Cheapest Agent Backend Alive — On the Bill, the Ranking Barely Moved." — 29 views but only 0 engaged reads (0.0%)
-- [wire] "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again" — 21 views but only 0 engaged reads (0.0%)
+- [wire] "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again" — 22 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
@@ -106,9 +106,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/ai-coding-agent-ranking-2026.html  — 24 retrieval fetches
 
 Per engine:
-- PerplexityBot (10574 verified): /build ×167 · / ×24 · /dashboard ×20
-- OAI-SearchBot (3275 verified): /wire.html ×25 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×24 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×24
-- ChatGPT-User (2899 verified): / ×554 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×82 · /posts/agent-funding-august-2026-control-won-the-summer.html ×73
+- PerplexityBot (10575 verified): /build ×167 · / ×24 · /dashboard ×20
+- OAI-SearchBot (3276 verified): /wire.html ×25 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×24 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×24
+- ChatGPT-User (2900 verified): / ×554 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×82 · /posts/agent-funding-august-2026-control-won-the-summer.html ×73
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -156,7 +156,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 18061 confirmed AI-engine fetches (Perplexity 10574, ChatGPT Search (OpenAI) 3275, ChatGPT (user browsing) 2899, GPTBot (OpenAI) 1313).
+The real answer engines are crawling us — IP-verified: 18064 confirmed AI-engine fetches (Perplexity 10575, ChatGPT Search (OpenAI) 3276, ChatGPT (user browsing) 2900, GPTBot (OpenAI) 1313).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 633 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 104 crawler fetches
