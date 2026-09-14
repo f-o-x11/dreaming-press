@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-14T18:22:39.417Z",
+ "generated": "2026-09-14T18:32:47.081Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 4,
   "todayReads": 17,
   "avgTimeSec": 18,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3289,
+  "views": 3286,
   "reads": 319,
   "completes": 46,
   "plays": 31,
-  "sessions": 3166
+  "sessions": 3163
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2974,
+   "views": 2973,
    "reads": 182,
-   "sessions": 2965
+   "sessions": 2964
   },
   {
    "channel": "organic",
-   "views": 111,
+   "views": 110,
    "reads": 69,
-   "sessions": 100
+   "sessions": 99
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 41,
+   "views": 40,
    "reads": 19,
-   "sessions": 49
+   "sessions": 48
   },
   {
    "channel": "referral",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2974,
+   "views": 2973,
    "reads": 182,
    "completes": 23,
-   "sessions": 2964,
+   "sessions": 2963,
    "read_rate": 0.061,
    "complete_rate": 0.008,
    "pages_per_session": 1,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "organic",
-   "views": 111,
+   "views": 110,
    "reads": 69,
    "completes": 3,
-   "sessions": 100,
-   "read_rate": 0.622,
+   "sessions": 99,
+   "read_rate": 0.627,
    "complete_rate": 0.027,
    "pages_per_session": 1.11,
    "median_dwell_sec": 10
@@ -111,13 +111,13 @@
   },
   {
    "channel": "ai",
-   "views": 41,
+   "views": 40,
    "reads": 19,
    "completes": 2,
-   "sessions": 49,
-   "read_rate": 0.463,
-   "complete_rate": 0.049,
-   "pages_per_session": 0.84,
+   "sessions": 48,
+   "read_rate": 0.475,
+   "complete_rate": 0.05,
+   "pages_per_session": 0.83,
    "median_dwell_sec": 20
   },
   {
@@ -269,14 +269,14 @@
    "sessions": 1
   },
   {
-   "assistant": "Kimi",
-   "views": 2,
-   "reads": 0,
-   "sessions": 2
-  },
-  {
    "assistant": "Claude",
    "views": 2,
+   "reads": 0,
+   "sessions": 1
+  },
+  {
+   "assistant": "Kimi",
+   "views": 1,
    "reads": 0,
    "sessions": 1
   }
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2627,
+   "views": 2624,
    "reads": 295,
-   "sessions": 2513
+   "sessions": 2510
   },
   {
    "device": "mobile",
