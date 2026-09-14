@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-14T12:57:09.483Z",
+ "generated": "2026-09-14T13:07:11.891Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 13,
   "avgTimeSec": 15,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3265,
+  "views": 3268,
   "reads": 319,
   "completes": 45,
   "plays": 31,
-  "sessions": 3141
+  "sessions": 3144
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2951,
+   "views": 2953,
    "reads": 181,
-   "sessions": 2939
+   "sessions": 2941
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 40,
+   "views": 41,
    "reads": 19,
-   "sessions": 49
+   "sessions": 50
   },
   {
    "channel": "referral",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2951,
+   "views": 2953,
    "reads": 181,
    "completes": 22,
-   "sessions": 2938,
+   "sessions": 2940,
    "read_rate": 0.061,
    "complete_rate": 0.007,
    "pages_per_session": 1,
@@ -111,12 +111,12 @@
   },
   {
    "channel": "ai",
-   "views": 40,
+   "views": 41,
    "reads": 19,
    "completes": 2,
-   "sessions": 49,
-   "read_rate": 0.475,
-   "complete_rate": 0.05,
+   "sessions": 50,
+   "read_rate": 0.463,
+   "complete_rate": 0.049,
    "pages_per_session": 0.82,
    "median_dwell_sec": 24
   },
@@ -246,9 +246,9 @@
   },
   {
    "assistant": "Perplexity",
-   "views": 5,
+   "views": 6,
    "reads": 4,
-   "sessions": 4
+   "sessions": 5
   },
   {
    "assistant": "DeepSeek",
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2609,
+   "views": 2612,
    "reads": 295,
-   "sessions": 2494
+   "sessions": 2497
   },
   {
    "device": "mobile",
@@ -338,7 +338,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 27,
+   "views": 28,
    "reads": 8,
    "plays": 0
   },
@@ -592,7 +592,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 27,
+   "views": 28,
    "reads": 8,
    "plays": 0
   },
@@ -801,6 +801,11 @@
    "sessions": 15
   },
   {
+   "ref": "https://www.perplexity.ai/",
+   "hits": 10,
+   "sessions": 5
+  },
+  {
    "ref": "brand",
    "hits": 10,
    "sessions": 9
@@ -809,11 +814,6 @@
    "ref": "nav-cmp",
    "hits": 9,
    "sessions": 5
-  },
-  {
-   "ref": "https://www.perplexity.ai/",
-   "hits": 9,
-   "sessions": 4
   }
  ]
 }
