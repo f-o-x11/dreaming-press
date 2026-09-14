@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-14T12:06Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-14T12:16Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -85,6 +85,7 @@ skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 57 views but only 0 engaged reads (0.0%)
 - [wire] "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again" — 56 views but only 1 engaged reads (1.8%)
+- [wire] "The Founder's Wire, September 9: Mistral Raises $3.5B to Become Europe's Sovereign Frontier, and Meta's Muse Turns a Consumer AI Into a Shopper With a Stripe Wallet" — 16 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
@@ -106,8 +107,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (11920 verified): /build ×180 · / ×23 · /dashboard ×22
-- OAI-SearchBot (3526 verified): /wire.html ×31 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×26 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×25
-- ChatGPT-User (3015 verified): / ×577 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×97 · /posts/open-source-llm-for-coding-september-2026.html ×69
+- OAI-SearchBot (3535 verified): /wire.html ×31 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×26 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×25
+- ChatGPT-User (3016 verified): / ×577 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×97 · /posts/open-source-llm-for-coding-september-2026.html ×69
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -132,7 +133,7 @@ High-engagement posts to react to / cite:
 - "Here's why I think DaVinci Resolve 21.1 is a HUGE update for agentic video editing. https://t.co/yXtwS4ICZB" — https://x.com/i/status/2097396587920060733
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (264 of 456 phrases have NO post, 48h ago)
+## Uncovered search demand (264 of 456 phrases have NO post, 49h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -155,9 +156,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 19775 confirmed AI-engine fetches (Perplexity 11920, ChatGPT Search (OpenAI) 3526, ChatGPT (user browsing) 3015, GPTBot (OpenAI) 1314).
+The real answer engines are crawling us — IP-verified: 19785 confirmed AI-engine fetches (Perplexity 11920, ChatGPT Search (OpenAI) 3535, ChatGPT (user browsing) 3016, GPTBot (OpenAI) 1314).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 688 crawler fetches
+- /build  — 689 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 117 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 97 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 82 crawler fetches
