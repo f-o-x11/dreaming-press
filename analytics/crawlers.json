@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-14T08:55:05.670Z",
+ "generated": "2026-09-14T09:05:11.058Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19697,
+ "verifiedAiHits": 19701,
  "logsScanned": 30,
  "windowStart": "2026-08-31",
  "windowEnd": "2026-09-14",
- "totalHits": 134449,
- "aiHits": 94779,
+ "totalHits": 134484,
+ "aiHits": 94810,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36430,
+   "hits": 36445,
    "verifiedHits": 0,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
@@ -47,14 +47,14 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 26848,
+   "hits": 26850,
    "verifiedHits": 0,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 96
+     "hits": 97
     },
     {
      "path": "/posts/2026-06-23-how-much-vram-to-serve-an-llm.html",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14929,
+   "hits": 14936,
    "verifiedHits": 0,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 12107,
-   "verifiedHits": 11901,
+   "hits": 12108,
+   "verifiedHits": 11902,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3684,
-   "verifiedHits": 3497,
+   "hits": 3685,
+   "verifiedHits": 3498,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3166,
-   "verifiedHits": 2985,
+   "hits": 3168,
+   "verifiedHits": 2987,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
    "topPaths": [
@@ -256,7 +256,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
-     "hits": 94
+     "hits": 95
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2551,
+   "hits": 2553,
    "verifiedHits": 0,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
@@ -344,7 +344,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1554,
+   "hits": 1557,
    "verifiedHits": 0,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
@@ -472,6 +472,39 @@
    "verifiable": false
   },
   {
+   "name": "YouBot",
+   "label": "You.com",
+   "category": "ai",
+   "home": "https://about.you.com",
+   "hits": 654,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-06",
+   "lastSeen": "2026-09-14",
+   "topPaths": [
+    {
+     "path": "/dashboard",
+     "hits": 4
+    },
+    {
+     "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/how-to-reduce-ai-agent-latency.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/2026-06-22-reasoning-models-vs-standard-llms.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/2026-06-23-how-much-vram-to-serve-an-llm.html",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Googlebot",
    "label": "Googlebot",
    "category": "search",
@@ -503,39 +536,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "YouBot",
-   "label": "You.com",
-   "category": "ai",
-   "home": "https://about.you.com",
-   "hits": 652,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-06",
-   "lastSeen": "2026-09-14",
-   "topPaths": [
-    {
-     "path": "/dashboard",
-     "hits": 4
-    },
-    {
-     "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/how-to-reduce-ai-agent-latency.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-06-22-reasoning-models-vs-standard-llms.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-06-23-how-much-vram-to-serve-an-llm.html",
-     "hits": 2
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "CCBot",
