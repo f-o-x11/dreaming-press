@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-14T07:34:20.353Z",
+ "generated": "2026-09-14T07:44:21.926Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
+  "readersNow": 3,
   "todayReads": 4,
   "avgTimeSec": 5,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3276,
+  "views": 3274,
   "reads": 317,
   "completes": 46,
   "plays": 29,
-  "sessions": 3154
+  "sessions": 3150
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2956,
    "reads": 181,
-   "sessions": 2948
+   "sessions": 2946
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 100,
+   "views": 98,
    "reads": 33,
-   "sessions": 97
+   "sessions": 95
   },
   {
    "channel": "ai",
@@ -70,7 +70,7 @@
    "views": 2956,
    "reads": 181,
    "completes": 22,
-   "sessions": 2947,
+   "sessions": 2945,
    "read_rate": 0.061,
    "complete_rate": 0.007,
    "pages_per_session": 1,
@@ -89,12 +89,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 100,
+   "views": 98,
    "reads": 33,
    "completes": 4,
-   "sessions": 97,
-   "read_rate": 0.33,
-   "complete_rate": 0.04,
+   "sessions": 95,
+   "read_rate": 0.337,
+   "complete_rate": 0.041,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
   },
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 110,
+   "views": 108,
    "reads": 34,
-   "sessions": 102
+   "sessions": 100
   },
   {
    "assistant": "Doubao",
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2616,
+   "views": 2614,
    "reads": 293,
-   "sessions": 2503
+   "sessions": 2499
   },
   {
    "device": "mobile",
@@ -318,7 +318,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 20,
+   "views": 19,
    "reads": 11,
    "plays": 7
   },
@@ -460,7 +460,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 20,
+   "views": 19,
    "reads": 11,
    "plays": 7
   },
@@ -520,7 +520,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 15,
+   "views": 14,
    "reads": 2,
    "plays": 1
   },
@@ -597,16 +597,6 @@
    "plays": 0
   },
   {
-   "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
-   "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 20,
-   "reads": 11,
-   "plays": 7
-  },
-  {
    "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
    "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
    "section": "stack",
@@ -625,6 +615,16 @@
    "views": 20,
    "reads": 2,
    "plays": 0
+  },
+  {
+   "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
+   "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 19,
+   "reads": 11,
+   "plays": 7
   },
   {
    "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
@@ -647,14 +647,14 @@
    "plays": 0
   },
   {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "slug": "2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments",
+   "title": "The Founder's Wire, September 8: Nvidia Buys the Open-Model Commons, OpenAI Moves to Rent You an Agent Runtime, and Anthropic Wants to Own Its Money Rails",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
+   "author": "wire-desk",
    "views": 15,
-   "reads": 2,
-   "plays": 1
+   "reads": 0,
+   "plays": 0
   }
  ],
  "topPages": [
@@ -681,16 +681,16 @@
   },
   {
    "path": "/best/:cat",
-   "views": 38,
+   "views": 37,
    "reads": 1,
-   "sessions": 39,
+   "sessions": 38,
    "avg_dwell_sec": 4
   },
   {
    "path": "/build",
-   "views": 34,
+   "views": 35,
    "reads": 0,
-   "sessions": 34,
+   "sessions": 35,
    "avg_dwell_sec": 4
   },
   {
