@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-14T03:01Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-14T03:12Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3298 views → 317 engaged reads → 46 completes · 3177 sessions.
-- Channels: direct 180r/2979v · organic 67r/112v · campaign:chatgpt.com 33r/98v · ai 19r/41v · referral 16r/58v · social 1r/9v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
+- Funnel: 3296 views → 317 engaged reads → 46 completes · 3175 sessions.
+- Channels: direct 180r/2977v · organic 67r/112v · campaign:chatgpt.com 33r/98v · ai 19r/41v · referral 16r/58v · social 1r/9v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 34r/108v · Doubao 10r/12v · Perplexity 4r/5v · DeepSeek 1r/4v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/3v · Claude 0r/2v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, duckduckgo.com, l.instagram.com, doubao.com, google.com, brand, nav-cmp, perplexity.ai.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2979 views · read 6.0% · complete 0.7% · 1 pages/session · median 4s
+- direct: 2977 views · read 6.0% · complete 0.7% · 1 pages/session · median 4s
 - organic: 112 views · read 59.8% · complete 2.7% · 1.13 pages/session · median 10s
 - campaign:chatgpt.com: 98 views · read 33.7% · complete 4.1% · 1.03 pages/session · median ?s
 - referral: 58 views · read 27.6% · complete 1.7% · 1.04 pages/session · median ?s
@@ -132,7 +132,7 @@ High-engagement posts to react to / cite:
 - "You got 2 offers at 24: Offer A - Microsoft ₹44 LPA - Strong brand - Hybrid work - Stable team - Slow promotions Offer B - AI Startup ₹32 LPA + ESOPs - Fully remote - Build from scratch - Direct founder access - High ris" — https://x.com/i/status/2097215718861533372
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (264 of 456 phrases have NO post, 39h ago)
+## Uncovered search demand (264 of 456 phrases have NO post, 40h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -157,7 +157,7 @@ search intent, so put the answer in the first screen and use the phrasing in the
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 19575 confirmed AI-engine fetches (Perplexity 11874, ChatGPT Search (OpenAI) 3454, ChatGPT (user browsing) 2934, GPTBot (OpenAI) 1313).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 667 crawler fetches
+- /build  — 668 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 114 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 92 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 81 crawler fetches
