@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-14T22:57Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-14T23:07Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -97,7 +97,7 @@ sample size dwarfs the engaged-read counts below.
 - /  — 620 retrieval fetches
 - /build  — 209 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 103 retrieval fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 81 retrieval fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 82 retrieval fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 66 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 61 retrieval fetches
 - /wire.html  — 32 retrieval fetches
@@ -107,8 +107,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (13138 verified): /build ×209 · / ×25 · /dashboard ×23
-- OAI-SearchBot (3664 verified): /wire.html ×32 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×28 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×27
-- ChatGPT-User (3123 verified): / ×595 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×103 · /posts/open-source-llm-for-coding-september-2026.html ×81
+- OAI-SearchBot (3665 verified): /wire.html ×32 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×28 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×27
+- ChatGPT-User (3124 verified): / ×595 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×103 · /posts/open-source-llm-for-coding-september-2026.html ×82
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -156,20 +156,20 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 21244 confirmed AI-engine fetches (Perplexity 13138, ChatGPT Search (OpenAI) 3664, ChatGPT (user browsing) 3123, GPTBot (OpenAI) 1319).
+The real answer engines are crawling us — IP-verified: 21246 confirmed AI-engine fetches (Perplexity 13138, ChatGPT Search (OpenAI) 3665, ChatGPT (user browsing) 3124, GPTBot (OpenAI) 1319).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 739 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 119 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 103 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 87 crawler fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 81 crawler fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 82 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 66 crawler fetches
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 54 crawler fetches
 - /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 48 crawler fetches
 - /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html  — 46 crawler fetches
 - /posts/2026-08-22-startup-wins-price-war-below-free.html  — 44 crawler fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 43 crawler fetches
-- /posts/gpt-5-6-terra-vs-kimi-k3-mid-tier-agent-backend.html  — 42 crawler fetches
+- /posts/how-to-read-an-agent-memory-benchmark.html  — 43 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
