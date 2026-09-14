@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-14T12:27:01.640Z",
+ "generated": "2026-09-14T12:37:03.564Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
-  "todayReads": 12,
+  "readersNow": 4,
+  "todayReads": 13,
   "avgTimeSec": 15,
   "postsThisWeek": 11
  },
  "funnel": {
   "views": 3265,
-  "reads": 319,
+  "reads": 320,
   "completes": 45,
   "plays": 31,
   "sessions": 3142
@@ -18,7 +18,7 @@
   {
    "channel": "direct",
    "views": 2950,
-   "reads": 180,
+   "reads": 181,
    "sessions": 2939
   },
   {
@@ -68,7 +68,7 @@
   {
    "channel": "direct",
    "views": 2950,
-   "reads": 180,
+   "reads": 181,
    "completes": 22,
    "sessions": 2938,
    "read_rate": 0.061,
@@ -285,7 +285,7 @@
   {
    "device": "desktop",
    "views": 2609,
-   "reads": 295,
+   "reads": 296,
    "sessions": 2495
   },
   {
@@ -323,6 +323,16 @@
    "plays": 7
   },
   {
+   "slug": "how-to-manage-context-in-a-long-running-agent",
+   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 9,
+   "plays": 1
+  },
+  {
    "slug": "open-source-llm-for-coding-september-2026",
    "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
    "section": "stack",
@@ -331,16 +341,6 @@
    "views": 27,
    "reads": 8,
    "plays": 0
-  },
-  {
-   "slug": "how-to-manage-context-in-a-long-running-agent",
-   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
-   "reads": 8,
-   "plays": 1
   },
   {
    "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
@@ -500,8 +500,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 10,
-   "reads": 8,
+   "views": 11,
+   "reads": 9,
    "plays": 1
   },
   {
