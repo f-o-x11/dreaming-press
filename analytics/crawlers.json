@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-14T17:21:07.651Z",
+ "generated": "2026-09-14T17:31:15.614Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 20792,
+ "verifiedAiHits": 20946,
  "logsScanned": 30,
  "windowStart": "2026-08-31",
  "windowEnd": "2026-09-14",
- "totalHits": 137727,
- "aiHits": 97466,
+ "totalHits": 137907,
+ "aiHits": 97633,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37111,
+   "hits": 37115,
    "verifiedHits": 0,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 27122,
+   "hits": 27133,
    "verifiedHits": 0,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15285,
+   "hits": 15293,
    "verifiedHits": 0,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
@@ -146,14 +146,14 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 13007,
-   "verifiedHits": 12801,
+   "hits": 13160,
+   "verifiedHits": 12954,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 202
+     "hits": 206
     },
     {
      "path": "/",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6374,
-   "verifiedHits": 6227,
+   "hits": 6376,
+   "verifiedHits": 6229,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3777,
-   "verifiedHits": 3590,
+   "hits": 3778,
+   "verifiedHits": 3591,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
    "topPaths": [
@@ -234,7 +234,7 @@
      "hits": 25
     },
     {
-     "path": "/posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html",
+     "path": "/posts/2026-08-07-founders-wire-meta-coding-agent-openai-atlas-claude-code.html",
      "hits": 25
     }
    ],
@@ -443,7 +443,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 751,
+   "hits": 752,
    "verifiedHits": 0,
    "firstSeen": "2026-09-06",
    "lastSeen": "2026-09-14",
