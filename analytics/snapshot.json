@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-14T10:25:31.009Z",
+ "generated": "2026-09-14T10:35:31.118Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 9,
   "avgTimeSec": 6,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3268,
+  "views": 3266,
   "reads": 317,
   "completes": 45,
   "plays": 30,
-  "sessions": 3143
+  "sessions": 3142
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2949,
+   "views": 2950,
    "reads": 179,
-   "sessions": 2939
+   "sessions": 2940
   },
   {
    "channel": "organic",
-   "views": 113,
+   "views": 112,
    "reads": 69,
-   "sessions": 100
+   "sessions": 99
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -47,9 +47,9 @@
   },
   {
    "channel": "social",
-   "views": 9,
+   "views": 7,
    "reads": 1,
-   "sessions": 7
+   "sessions": 6
   },
   {
    "channel": "campaign:perplexity",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2949,
+   "views": 2950,
    "reads": 179,
    "completes": 22,
-   "sessions": 2938,
+   "sessions": 2939,
    "read_rate": 0.061,
    "complete_rate": 0.007,
    "pages_per_session": 1,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "organic",
-   "views": 113,
+   "views": 112,
    "reads": 69,
    "completes": 3,
-   "sessions": 100,
-   "read_rate": 0.611,
+   "sessions": 99,
+   "read_rate": 0.616,
    "complete_rate": 0.027,
    "pages_per_session": 1.13,
    "median_dwell_sec": 10
@@ -122,13 +122,13 @@
   },
   {
    "channel": "social",
-   "views": 9,
+   "views": 7,
    "reads": 1,
    "completes": 0,
-   "sessions": 7,
-   "read_rate": 0.111,
+   "sessions": 6,
+   "read_rate": 0.143,
    "complete_rate": 0,
-   "pages_per_session": 1.29,
+   "pages_per_session": 1.17,
    "median_dwell_sec": null
   },
   {
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2611,
+   "views": 2609,
    "reads": 293,
-   "sessions": 2495
+   "sessions": 2494
   },
   {
    "device": "mobile",
@@ -597,16 +597,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe",
    "title": "The Founder's Wire, September 4: A 'Firewall for Agents' Raises $50M, HiddenLayer Takes $100M a Day Later, and Crusoe Hits $30B for the Compute Underneath",
    "section": "wire",
@@ -634,6 +624,16 @@
    "author": "dex",
    "views": 19,
    "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 17,
+   "reads": 2,
    "plays": 0
   },
   {
