@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-14T07:14:11.426Z",
+ "generated": "2026-09-14T07:24:13.385Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 8,
-  "todayReads": 3,
+  "readersNow": 10,
+  "todayReads": 4,
   "avgTimeSec": 6,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3276,
-  "reads": 316,
+  "views": 3277,
+  "reads": 317,
   "completes": 46,
   "plays": 29,
   "sessions": 3155
@@ -35,8 +35,8 @@
   },
   {
    "channel": "ai",
-   "views": 39,
-   "reads": 18,
+   "views": 40,
+   "reads": 19,
    "sessions": 49
   },
   {
@@ -111,13 +111,13 @@
   },
   {
    "channel": "ai",
-   "views": 39,
-   "reads": 18,
+   "views": 40,
+   "reads": 19,
    "completes": 2,
    "sessions": 49,
-   "read_rate": 0.462,
-   "complete_rate": 0.051,
-   "pages_per_session": 0.8,
+   "read_rate": 0.475,
+   "complete_rate": 0.05,
+   "pages_per_session": 0.82,
    "median_dwell_sec": 24
   },
   {
@@ -240,8 +240,8 @@
   },
   {
    "assistant": "Doubao",
-   "views": 11,
-   "reads": 9,
+   "views": 12,
+   "reads": 10,
    "sessions": 9
   },
   {
@@ -284,8 +284,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2616,
-   "reads": 292,
+   "views": 2617,
+   "reads": 293,
    "sessions": 2504
   },
   {
@@ -423,6 +423,16 @@
    "plays": 0
   },
   {
+   "slug": "pdf-parsing-for-rag-docling-marker-llamaparse-mistral-ocr",
+   "title": "Parsing PDFs for RAG in 2026: PyMuPDF4LLM vs Docling vs Marker vs LlamaParse vs Mistral OCR",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 8,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
    "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
    "section": "wire",
@@ -439,16 +449,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 6,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "gpt-5-6-prompt-caching-explicit-breakpoints",
-   "title": "GPT-5.6 Rewired Prompt Caching: A Hands-On Guide to prompt_cache_options",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 5,
    "reads": 4,
    "plays": 0
   }
@@ -792,7 +792,7 @@
   },
   {
    "ref": "https://www.doubao.com/",
-   "hits": 21,
+   "hits": 23,
    "sessions": 9
   },
   {
