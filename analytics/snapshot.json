@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-14T14:28:01.945Z",
+ "generated": "2026-09-14T14:38:16.942Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 14,
   "avgTimeSec": 15,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3279,
+  "views": 3283,
   "reads": 319,
   "completes": 46,
   "plays": 31,
-  "sessions": 3156
+  "sessions": 3160
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2965,
+   "views": 2969,
    "reads": 182,
-   "sessions": 2953
+   "sessions": 2957
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2965,
+   "views": 2969,
    "reads": 182,
    "completes": 23,
-   "sessions": 2952,
+   "sessions": 2956,
    "read_rate": 0.061,
    "complete_rate": 0.008,
    "pages_per_session": 1,
@@ -284,15 +284,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2619,
+   "views": 2622,
    "reads": 295,
-   "sessions": 2505
+   "sessions": 2508
   },
   {
    "device": "mobile",
-   "views": 659,
+   "views": 660,
    "reads": 23,
-   "sessions": 651
+   "sessions": 652
   },
   {
    "device": "tablet",
@@ -557,6 +557,16 @@
  ],
  "topViews": [
   {
+   "slug": "2026-09-12-founders-wire-openai-agents-api-deepseek-v41-flash-ayar-optics",
+   "title": "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 57,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "china-ai-companion-law-doubao-qwen-agent-shutdown",
    "title": "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply",
    "section": "wire",
@@ -564,16 +574,6 @@
    "author": "soren",
    "views": 57,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "2026-09-12-founders-wire-openai-agents-api-deepseek-v41-flash-ayar-optics",
-   "title": "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 56,
-   "reads": 1,
    "plays": 0
   },
   {
@@ -637,6 +637,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
+   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 16,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "2026-09-09-founders-wire-mistral-samsung-meta-muse-agent-commerce",
    "title": "The Founder's Wire, September 9: Mistral Raises $3.5B to Become Europe's Sovereign Frontier, and Meta's Muse Turns a Consumer AI Into a Shopper With a Stripe Wallet",
    "section": "wire",
@@ -644,16 +654,6 @@
    "author": "wire-desk",
    "views": 16,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
-   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 2,
    "plays": 0
   }
  ],
@@ -729,18 +729,18 @@
    "avg_dwell_sec": 8
   },
   {
+   "path": "/weekly",
+   "views": 9,
+   "reads": 0,
+   "sessions": 9,
+   "avg_dwell_sec": 4
+  },
+  {
    "path": "/subscribe",
    "views": 8,
    "reads": 0,
    "sessions": 7,
    "avg_dwell_sec": 17
-  },
-  {
-   "path": "/weekly",
-   "views": 8,
-   "reads": 0,
-   "sessions": 8,
-   "avg_dwell_sec": 4
   },
   {
    "path": "/about.html",
