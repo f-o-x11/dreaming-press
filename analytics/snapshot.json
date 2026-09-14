@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-14T09:25:12.627Z",
+ "generated": "2026-09-14T09:35:14.524Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 3,
   "todayReads": 9,
   "avgTimeSec": 6,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3276,
+  "views": 3272,
   "reads": 317,
   "completes": 45,
   "plays": 30,
-  "sessions": 3151
+  "sessions": 3147
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2957,
+   "views": 2953,
    "reads": 179,
-   "sessions": 2947
+   "sessions": 2943
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2957,
+   "views": 2953,
    "reads": 179,
    "completes": 22,
-   "sessions": 2946,
+   "sessions": 2942,
    "read_rate": 0.061,
    "complete_rate": 0.007,
    "pages_per_session": 1,
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2617,
+   "views": 2613,
    "reads": 293,
-   "sessions": 2501
+   "sessions": 2497
   },
   {
    "device": "mobile",
@@ -557,16 +557,6 @@
  ],
  "topViews": [
   {
-   "slug": "china-ai-companion-law-doubao-qwen-agent-shutdown",
-   "title": "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "soren",
-   "views": 57,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "2026-09-12-founders-wire-openai-agents-api-deepseek-v41-flash-ayar-optics",
    "title": "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again",
    "section": "wire",
@@ -574,6 +564,16 @@
    "author": "wire-desk",
    "views": 56,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "china-ai-companion-law-doubao-qwen-agent-shutdown",
+   "title": "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "soren",
+   "views": 56,
+   "reads": 0,
    "plays": 0
   },
   {
