@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T06:13:29.989Z",
+ "generated": "2026-09-14T06:23:51.171Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -15,20 +15,20 @@
    "count": 27
   },
   {
-   "term": "agentic",
-   "count": 26
-  },
-  {
    "term": "startup",
    "count": 26
   },
   {
+   "term": "agentic",
+   "count": 25
+  },
+  {
    "term": "agents",
-   "count": 24
+   "count": 23
   },
   {
    "term": "mcp",
-   "count": 21
+   "count": 20
   },
   {
    "term": "building",
@@ -43,24 +43,16 @@
    "count": 12
   },
   {
+   "term": "has",
+   "count": 9
+  },
+  {
    "term": "have",
-   "count": 9
-  },
-  {
-   "term": "python",
-   "count": 9
-  },
-  {
-   "term": "learn",
    "count": 9
   },
   {
    "term": "about",
    "count": 9
-  },
-  {
-   "term": "has",
-   "count": 8
   },
   {
    "term": "own",
@@ -71,7 +63,15 @@
    "count": 8
   },
   {
+   "term": "python",
+   "count": 8
+  },
+  {
    "term": "people",
+   "count": 8
+  },
+  {
+   "term": "learn",
    "count": 8
   },
   {
@@ -125,15 +125,15 @@
    "count": 1
   },
   {
-   "term": "#agenticai",
+   "term": "#agentic",
    "count": 1
   },
   {
-   "term": "#rag",
+   "term": "#genai",
    "count": 1
   },
   {
-   "term": "#python",
+   "term": "#investment",
    "count": 1
   }
  ],

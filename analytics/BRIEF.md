@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-14T06:13Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-14T06:23Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -93,9 +93,9 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 589 retrieval fetches
+- /  — 590 retrieval fetches
 - /build  — 180 retrieval fetches
-- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 93 retrieval fetches
+- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 94 retrieval fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 64 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 63 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 59 retrieval fetches
@@ -106,8 +106,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (11878 verified): /build ×180 · / ×23 · /dashboard ×22
-- OAI-SearchBot (3472 verified): /wire.html ×30 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×26 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×25
-- ChatGPT-User (2957 verified): / ×566 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×93 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×64
+- OAI-SearchBot (3474 verified): /wire.html ×30 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×26 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×25
+- ChatGPT-User (2963 verified): / ×567 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×94 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×64
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -122,8 +122,8 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: build(27), founder(27), agentic(26), startup(26), agents(24), mcp(21), building(19), agent(17), systems(12), have(9), python(9), learn(9), about(9), has(8), own(8).
-Hashtags: #ai, #startup, #founder, #buildinpublic, #tech, #aijobs, #artificialintelligence, #startups, #aihiring, #agenticai.
+Hot terms: build(27), founder(27), startup(26), agentic(25), agents(23), mcp(20), building(19), agent(17), systems(12), has(9), have(9), about(9), own(8), here(8), python(8).
+Hashtags: #ai, #startup, #founder, #buildinpublic, #tech, #aijobs, #artificialintelligence, #startups, #aihiring, #agentic.
 High-engagement posts to react to / cite:
 - "Israeli AI startup founder Ilit Razt pleaded guilty in New York to a $27 million investor fraud scheme.​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ I’m willing to bet Donald Trump will pardon him like he’s pardoned" — https://x.com/i/status/2098886739087745493
 - "Rooting for $PAYGENT’s launch today @usepaygent. With Vlad Tenev pushing the AI agent payments narrative through Robinhood’s agentic credit card, this is a category I’m watching. Paygent built for months before launching" — https://x.com/i/status/2097357503818305566
@@ -155,11 +155,11 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 19621 confirmed AI-engine fetches (Perplexity 11878, ChatGPT Search (OpenAI) 3472, ChatGPT (user browsing) 2957, GPTBot (OpenAI) 1314).
+The real answer engines are crawling us — IP-verified: 19629 confirmed AI-engine fetches (Perplexity 11878, ChatGPT Search (OpenAI) 3474, ChatGPT (user browsing) 2963, GPTBot (OpenAI) 1314).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 675 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 115 crawler fetches
-- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 93 crawler fetches
+- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 94 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 81 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 64 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 63 crawler fetches
