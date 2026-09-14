@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T13:17:13.430Z",
+ "generated": "2026-09-14T13:27:15.868Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -43,7 +43,15 @@
    "count": 12
   },
   {
+   "term": "has",
+   "count": 9
+  },
+  {
    "term": "own",
+   "count": 9
+  },
+  {
+   "term": "have",
    "count": 9
   },
   {
@@ -55,15 +63,7 @@
    "count": 9
   },
   {
-   "term": "has",
-   "count": 8
-  },
-  {
    "term": "here",
-   "count": 8
-  },
-  {
-   "term": "have",
    "count": 8
   },
   {
@@ -79,18 +79,18 @@
    "count": 7
   },
   {
-   "term": "people",
+   "term": "work",
    "count": 7
   },
   {
-   "term": "all",
+   "term": "people",
    "count": 7
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 10
+   "count": 11
   },
   {
    "term": "#startup",
@@ -113,6 +113,10 @@
    "count": 2
   },
   {
+   "term": "#artificialintelligence",
+   "count": 2
+  },
+  {
    "term": "#startups",
    "count": 2
   },
@@ -130,10 +134,6 @@
   },
   {
    "term": "#investment",
-   "count": 1
-  },
-  {
-   "term": "#indiehackers",
    "count": 1
   }
  ],
