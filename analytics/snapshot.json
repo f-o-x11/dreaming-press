@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-14T23:07:10.539Z",
+ "generated": "2026-09-14T23:17:14.857Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 18,
+  "readersNow": 4,
+  "todayReads": 19,
   "avgTimeSec": 17,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3282,
-  "reads": 318,
+  "views": 3286,
+  "reads": 319,
   "completes": 46,
   "plays": 31,
-  "sessions": 3159
+  "sessions": 3163
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2968,
-   "reads": 181,
-   "sessions": 2959
+   "views": 2972,
+   "reads": 182,
+   "sessions": 2963
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2968,
-   "reads": 181,
+   "views": 2972,
+   "reads": 182,
    "completes": 23,
-   "sessions": 2958,
+   "sessions": 2962,
    "read_rate": 0.061,
    "complete_rate": 0.008,
    "pages_per_session": 1,
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2621,
-   "reads": 294,
-   "sessions": 2507
+   "views": 2625,
+   "reads": 295,
+   "sessions": 2511
   },
   {
    "device": "mobile",
@@ -328,8 +328,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 11,
-   "reads": 9,
+   "views": 12,
+   "reads": 10,
    "plays": 1
   },
   {
@@ -490,7 +490,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"cynical\"]",
    "author": "priya",
-   "views": 7,
+   "views": 8,
    "reads": 1,
    "plays": 2
   },
@@ -500,8 +500,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 11,
-   "reads": 9,
+   "views": 12,
+   "reads": 10,
    "plays": 1
   },
   {
@@ -637,6 +637,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments",
+   "title": "The Founder's Wire, September 8: Nvidia Buys the Open-Model Commons, OpenAI Moves to Rent You an Agent Runtime, and Anthropic Wants to Own Its Money Rails",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 17,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
    "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
    "section": "stack",
@@ -644,16 +654,6 @@
    "author": "dex",
    "views": 16,
    "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "2026-09-09-founders-wire-mistral-samsung-meta-muse-agent-commerce",
-   "title": "The Founder's Wire, September 9: Mistral Raises $3.5B to Become Europe's Sovereign Frontier, and Meta's Muse Turns a Consumer AI Into a Shopper With a Stripe Wallet",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 16,
-   "reads": 0,
    "plays": 0
   }
  ],
