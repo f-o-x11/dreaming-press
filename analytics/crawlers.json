@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-14T20:44:40.852Z",
+ "generated": "2026-09-14T20:55:00.950Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 21074,
+ "verifiedAiHits": 21078,
  "logsScanned": 30,
  "windowStart": "2026-08-31",
  "windowEnd": "2026-09-14",
- "totalHits": 138825,
- "aiHits": 98387,
+ "totalHits": 138847,
+ "aiHits": 98401,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,14 +47,14 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 27220,
+   "hits": 27224,
    "verifiedHits": 0,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 104
+     "hits": 105
     },
     {
      "path": "/posts/2026-06-23-how-much-vram-to-serve-an-llm.html",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18807,
+   "hits": 18809,
    "verifiedHits": 0,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15433,
+   "hits": 15441,
    "verifiedHits": 0,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6421,
-   "verifiedHits": 6274,
+   "hits": 6422,
+   "verifiedHits": 6275,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3827,
-   "verifiedHits": 3640,
+   "hits": 3830,
+   "verifiedHits": 3643,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3286,
-   "verifiedHits": 3105,
+   "hits": 3287,
+   "verifiedHits": 3106,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
    "topPaths": [
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 741,
+   "hits": 744,
    "verifiedHits": 0,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
