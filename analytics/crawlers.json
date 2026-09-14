@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-14T10:55:34.503Z",
+ "generated": "2026-09-14T11:05:34.572Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19742,
+ "verifiedAiHits": 19744,
  "logsScanned": 30,
  "windowStart": "2026-08-31",
  "windowEnd": "2026-09-14",
- "totalHits": 134977,
- "aiHits": 95124,
+ "totalHits": 135007,
+ "aiHits": 95142,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36595,
+   "hits": 36603,
    "verifiedHits": 0,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
@@ -47,14 +47,14 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 26921,
+   "hits": 26930,
    "verifiedHits": 0,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 97
+     "hits": 98
     },
     {
      "path": "/posts/2026-06-23-how-much-vram-to-serve-an-llm.html",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18432,
+   "hits": 18433,
    "verifiedHits": 0,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15013,
+   "hits": 15020,
    "verifiedHits": 0,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6271,
-   "verifiedHits": 6124,
+   "hits": 6274,
+   "verifiedHits": 6127,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3704,
-   "verifiedHits": 3517,
+   "hits": 3705,
+   "verifiedHits": 3518,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3186,
-   "verifiedHits": 3005,
+   "hits": 3187,
+   "verifiedHits": 3006,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
    "topPaths": [
