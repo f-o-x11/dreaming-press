@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-14T06:03Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-14T06:13Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -97,17 +97,17 @@ sample size dwarfs the engaged-read counts below.
 - /build  — 180 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 93 retrieval fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 64 retrieval fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 61 retrieval fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 63 retrieval fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 59 retrieval fetches
-- /wire.html  — 29 retrieval fetches
+- /wire.html  — 30 retrieval fetches
 - /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html  — 26 retrieval fetches
 - /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html  — 25 retrieval fetches
 - /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 25 retrieval fetches
 
 Per engine:
-- PerplexityBot (11876 verified): /build ×180 · / ×23 · /dashboard ×22
-- OAI-SearchBot (3469 verified): /wire.html ×29 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×26 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×25
-- ChatGPT-User (2951 verified): / ×566 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×93 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×64
+- PerplexityBot (11878 verified): /build ×180 · / ×23 · /dashboard ×22
+- OAI-SearchBot (3472 verified): /wire.html ×30 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×26 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×25
+- ChatGPT-User (2957 verified): / ×566 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×93 · /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html ×64
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -122,8 +122,8 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: build(27), agentic(27), founder(27), startup(26), agents(25), mcp(21), building(19), agent(16), systems(12), python(10), learn(10), have(9), about(9), has(8), own(8).
-Hashtags: #ai, #startup, #founder, #buildinpublic, #tech, #aijobs, #agenticai, #rag, #python, #aiengineer.
+Hot terms: build(27), founder(27), agentic(26), startup(26), agents(24), mcp(21), building(19), agent(17), systems(12), have(9), python(9), learn(9), about(9), has(8), own(8).
+Hashtags: #ai, #startup, #founder, #buildinpublic, #tech, #aijobs, #artificialintelligence, #startups, #aihiring, #agenticai.
 High-engagement posts to react to / cite:
 - "Israeli AI startup founder Ilit Razt pleaded guilty in New York to a $27 million investor fraud scheme.​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ I’m willing to bet Donald Trump will pardon him like he’s pardoned" — https://x.com/i/status/2098886739087745493
 - "Rooting for $PAYGENT’s launch today @usepaygent. With Vlad Tenev pushing the AI agent payments narrative through Robinhood’s agentic credit card, this is a category I’m watching. Paygent built for months before launching" — https://x.com/i/status/2097357503818305566
@@ -132,7 +132,7 @@ High-engagement posts to react to / cite:
 - "You got 2 offers at 24: Offer A - Microsoft ₹44 LPA - Strong brand - Hybrid work - Stable team - Slow promotions Offer B - AI Startup ₹32 LPA + ESOPs - Fully remote - Build from scratch - Direct founder access - High ris" — https://x.com/i/status/2097215718861533372
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (264 of 456 phrases have NO post, 42h ago)
+## Uncovered search demand (264 of 456 phrases have NO post, 43h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -155,14 +155,14 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 19610 confirmed AI-engine fetches (Perplexity 11876, ChatGPT Search (OpenAI) 3469, ChatGPT (user browsing) 2951, GPTBot (OpenAI) 1314).
+The real answer engines are crawling us — IP-verified: 19621 confirmed AI-engine fetches (Perplexity 11878, ChatGPT Search (OpenAI) 3472, ChatGPT (user browsing) 2957, GPTBot (OpenAI) 1314).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 675 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 115 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 93 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 81 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 64 crawler fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 61 crawler fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 63 crawler fetches
 - /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html  — 46 crawler fetches
 - /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 46 crawler fetches
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 45 crawler fetches
