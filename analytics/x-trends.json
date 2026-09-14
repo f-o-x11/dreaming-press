@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T08:14:46.995Z",
+ "generated": "2026-09-14T08:25:01.323Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -7,11 +7,11 @@
  ],
  "topTerms": [
   {
-   "term": "build",
-   "count": 27
+   "term": "founder",
+   "count": 28
   },
   {
-   "term": "founder",
+   "term": "build",
    "count": 27
   },
   {
@@ -43,16 +43,12 @@
    "count": 12
   },
   {
-   "term": "has",
-   "count": 9
-  },
-  {
-   "term": "have",
-   "count": 9
-  },
-  {
    "term": "python",
    "count": 9
+  },
+  {
+   "term": "has",
+   "count": 8
   },
   {
    "term": "own",
@@ -63,11 +59,15 @@
    "count": 8
   },
   {
+   "term": "have",
+   "count": 8
+  },
+  {
    "term": "about",
    "count": 8
   },
   {
-   "term": "co-founder",
+   "term": "day",
    "count": 8
   },
   {
@@ -75,26 +75,26 @@
    "count": 7
   },
   {
-   "term": "its",
-   "count": 7
-  },
-  {
-   "term": "work",
-   "count": 7
-  },
-  {
    "term": "people",
+   "count": 7
+  },
+  {
+   "term": "all",
+   "count": 7
+  },
+  {
+   "term": "learn",
    "count": 7
   }
  ],
  "hashtags": [
   {
-   "term": "#ai",
+   "term": "#startup",
    "count": 11
   },
   {
-   "term": "#startup",
-   "count": 11
+   "term": "#ai",
+   "count": 10
   },
   {
    "term": "#founder",
@@ -110,10 +110,6 @@
   },
   {
    "term": "#aijobs",
-   "count": 2
-  },
-  {
-   "term": "#artificialintelligence",
    "count": 2
   },
   {
@@ -134,6 +130,10 @@
   },
   {
    "term": "#investment",
+   "count": 1
+  },
+  {
+   "term": "#indiehackers",
    "count": 1
   }
  ],

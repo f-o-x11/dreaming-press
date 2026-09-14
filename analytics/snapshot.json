@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-14T08:14:47.075Z",
+ "generated": "2026-09-14T08:25:01.392Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 4,
   "todayReads": 4,
   "avgTimeSec": 5,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3268,
-  "reads": 315,
+  "views": 3269,
+  "reads": 314,
   "completes": 45,
   "plays": 29,
-  "sessions": 3144
+  "sessions": 3145
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2952,
-   "reads": 180,
-   "sessions": 2942
+   "views": 2953,
+   "reads": 179,
+   "sessions": 2943
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2952,
-   "reads": 180,
+   "views": 2953,
+   "reads": 179,
    "completes": 22,
-   "sessions": 2941,
+   "sessions": 2942,
    "read_rate": 0.061,
    "complete_rate": 0.007,
    "pages_per_session": 1,
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2609,
-   "reads": 291,
-   "sessions": 2494
+   "views": 2610,
+   "reads": 290,
+   "sessions": 2495
   },
   {
    "device": "mobile",
@@ -351,16 +351,6 @@
    "views": 11,
    "reads": 7,
    "plays": 7
-  },
-  {
-   "slug": "lm-studio-bionic-local-agent-open-models",
-   "title": "LM Studio Bionic: A Private, Local Agent for Open Models — What It Is, Who It's For, How to Start",
-   "section": "stack",
-   "tags": "[\"reportive\",\"captivating\"]",
-   "author": "rosalinda",
-   "views": 9,
-   "reads": 5,
-   "plays": 0
   },
   {
    "slug": "how-to-add-citations-to-a-rag-pipeline",
@@ -438,6 +428,16 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
+   "views": 7,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "lm-studio-bionic-local-agent-open-models",
+   "title": "LM Studio Bionic: A Private, Local Agent for Open Models — What It Is, Who It's For, How to Start",
+   "section": "stack",
+   "tags": "[\"reportive\",\"captivating\"]",
+   "author": "rosalinda",
    "views": 7,
    "reads": 4,
    "plays": 0
@@ -660,9 +660,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 378,
+   "views": 379,
    "reads": 0,
-   "sessions": 374,
+   "sessions": 375,
    "avg_dwell_sec": 4
   },
   {
@@ -681,9 +681,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 37,
+   "views": 38,
    "reads": 1,
-   "sessions": 38,
+   "sessions": 39,
    "avg_dwell_sec": 4
   },
   {
