@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-14T06:33:59.562Z",
+ "generated": "2026-09-14T06:44:00.687Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
+  "readersNow": 8,
   "todayReads": 3,
   "avgTimeSec": 6,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3279,
-  "reads": 317,
+  "views": 3280,
+  "reads": 316,
   "completes": 46,
   "plays": 29,
-  "sessions": 3158
+  "sessions": 3159
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2959,
+   "views": 2961,
    "reads": 181,
-   "sessions": 2951
+   "sessions": 2953
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 40,
-   "reads": 19,
-   "sessions": 50
+   "views": 39,
+   "reads": 18,
+   "sessions": 49
   },
   {
    "channel": "referral",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2959,
+   "views": 2961,
    "reads": 181,
    "completes": 22,
-   "sessions": 2950,
+   "sessions": 2952,
    "read_rate": 0.061,
    "complete_rate": 0.007,
    "pages_per_session": 1,
@@ -111,12 +111,12 @@
   },
   {
    "channel": "ai",
-   "views": 40,
-   "reads": 19,
+   "views": 39,
+   "reads": 18,
    "completes": 2,
-   "sessions": 50,
-   "read_rate": 0.475,
-   "complete_rate": 0.05,
+   "sessions": 49,
+   "read_rate": 0.462,
+   "complete_rate": 0.051,
    "pages_per_session": 0.8,
    "median_dwell_sec": 24
   },
@@ -240,9 +240,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 12,
-   "reads": 10,
-   "sessions": 10
+   "views": 11,
+   "reads": 9,
+   "sessions": 9
   },
   {
    "assistant": "Perplexity",
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2615,
-   "reads": 293,
-   "sessions": 2503
+   "views": 2616,
+   "reads": 292,
+   "sessions": 2504
   },
   {
    "device": "mobile",
@@ -562,7 +562,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 56,
+   "views": 57,
    "reads": 0,
    "plays": 0
   },
@@ -660,9 +660,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 377,
+   "views": 379,
    "reads": 0,
-   "sessions": 373,
+   "sessions": 375,
    "avg_dwell_sec": 4
   },
   {
@@ -792,8 +792,8 @@
   },
   {
    "ref": "https://www.doubao.com/",
-   "hits": 23,
-   "sessions": 10
+   "hits": 21,
+   "sessions": 9
   },
   {
    "ref": "https://www.google.com/",
