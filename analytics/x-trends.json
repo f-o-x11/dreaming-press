@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T03:12:00.963Z",
+ "generated": "2026-09-14T03:22:03.477Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -51,12 +51,12 @@
    "count": 10
   },
   {
-   "term": "own",
+   "term": "claude",
    "count": 9
   },
   {
-   "term": "claude",
-   "count": 9
+   "term": "own",
+   "count": 8
   },
   {
    "term": "have",
@@ -75,26 +75,26 @@
    "count": 8
   },
   {
+   "term": "day",
+   "count": 8
+  },
+  {
    "term": "has",
    "count": 7
   },
   {
    "term": "here",
    "count": 7
-  },
-  {
-   "term": "tools",
-   "count": 7
   }
  ],
  "hashtags": [
   {
-   "term": "#ai",
+   "term": "#startup",
    "count": 11
   },
   {
-   "term": "#startup",
-   "count": 11
+   "term": "#ai",
+   "count": 10
   },
   {
    "term": "#founder",
@@ -106,10 +106,6 @@
   },
   {
    "term": "#tech",
-   "count": 3
-  },
-  {
-   "term": "#startups",
    "count": 3
   },
   {
@@ -130,6 +126,10 @@
   },
   {
    "term": "#techcareers",
+   "count": 2
+  },
+  {
+   "term": "#startups",
    "count": 2
   },
   {
