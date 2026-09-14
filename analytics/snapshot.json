@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-14T16:40:25.649Z",
+ "generated": "2026-09-14T16:50:43.585Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 8,
   "todayReads": 16,
   "avgTimeSec": 20,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3287,
-  "reads": 320,
+  "views": 3293,
+  "reads": 319,
   "completes": 46,
   "plays": 31,
-  "sessions": 3164
+  "sessions": 3171
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2971,
+   "views": 2978,
    "reads": 181,
-   "sessions": 2961
+   "sessions": 2968
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 97,
-   "reads": 33,
-   "sessions": 94
+   "views": 96,
+   "reads": 32,
+   "sessions": 93
   },
   {
    "channel": "ai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2971,
+   "views": 2978,
    "reads": 181,
    "completes": 23,
-   "sessions": 2960,
+   "sessions": 2967,
    "read_rate": 0.061,
    "complete_rate": 0.008,
    "pages_per_session": 1,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 97,
-   "reads": 33,
+   "views": 96,
+   "reads": 32,
    "completes": 3,
-   "sessions": 94,
-   "read_rate": 0.34,
+   "sessions": 93,
+   "read_rate": 0.333,
    "complete_rate": 0.031,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -234,8 +234,8 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 107,
-   "reads": 34,
+   "views": 106,
+   "reads": 33,
    "sessions": 99
   },
   {
@@ -284,15 +284,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2624,
-   "reads": 296,
-   "sessions": 2510
+   "views": 2627,
+   "reads": 295,
+   "sessions": 2514
   },
   {
    "device": "mobile",
-   "views": 662,
+   "views": 665,
    "reads": 23,
-   "sessions": 654
+   "sessions": 657
   },
   {
    "device": "tablet",
@@ -393,16 +393,6 @@
    "plays": 0
   },
   {
-   "slug": "gpt-5-6-prompt-caching-explicit-breakpoints",
-   "title": "GPT-5.6 Rewired Prompt Caching: A Hands-On Guide to prompt_cache_options",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 6,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
    "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
    "section": "stack",
@@ -449,6 +439,16 @@
    "tags": "[\"reportive\",\"captivating\"]",
    "author": "rosalinda",
    "views": 7,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
+   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
    "reads": 4,
    "plays": 0
   }
@@ -772,8 +772,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 55,
-   "sessions": 30
+   "hits": 53,
+   "sessions": 29
   },
   {
    "ref": "https://cn.bing.com/",
