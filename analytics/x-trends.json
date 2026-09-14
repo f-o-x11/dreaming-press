@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T01:51:25.295Z",
+ "generated": "2026-09-14T02:01:27.665Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -19,16 +19,16 @@
    "count": 26
   },
   {
+   "term": "agents",
+   "count": 24
+  },
+  {
    "term": "build",
    "count": 24
   },
   {
-   "term": "agents",
-   "count": 23
-  },
-  {
    "term": "mcp",
-   "count": 20
+   "count": 19
   },
   {
    "term": "building",
@@ -36,14 +36,14 @@
   },
   {
    "term": "agent",
-   "count": 17
-  },
-  {
-   "term": "python",
-   "count": 10
+   "count": 16
   },
   {
    "term": "systems",
+   "count": 11
+  },
+  {
+   "term": "python",
    "count": 10
   },
   {
@@ -67,15 +67,7 @@
    "count": 8
   },
   {
-   "term": "tools",
-   "count": 8
-  },
-  {
    "term": "model",
-   "count": 8
-  },
-  {
-   "term": "coding",
    "count": 8
   },
   {
@@ -83,7 +75,15 @@
    "count": 8
   },
   {
+   "term": "coding",
+   "count": 8
+  },
+  {
    "term": "learn",
+   "count": 8
+  },
+  {
+   "term": "design",
    "count": 8
   }
  ],
@@ -145,6 +145,12 @@
    "created": "2026-09-08T16:12:50.000Z"
   },
   {
+   "text": "Finch V2 is live on @ponsdotfamily. Over the past few months, what started as NoelClaw evolved into something much bigger — a platform where AI agents can remember, research, build, automate, trade, and interact with rea",
+   "engagement": 137,
+   "url": "https://x.com/i/status/2098850575576428667",
+   "created": "2026-09-12T19:05:46.000Z"
+  },
+  {
    "text": "Here's why I think DaVinci Resolve 21.1 is a HUGE update for agentic video editing. https://t.co/yXtwS4ICZB",
    "engagement": 136,
    "url": "https://x.com/i/status/2097396587920060733",
@@ -179,12 +185,6 @@
    "engagement": 69,
    "url": "https://x.com/i/status/2097699045154422990",
    "created": "2026-09-09T14:50:00.000Z"
-  },
-  {
-   "text": "$GOOGL Brain founder and former DeepMind Chief Scientist Jeff Dean’s new AI startup, Discovery Loop, is reportedly seeking funding at around a $50B valuation, just weeks after talks valued it near $10B. https://t.co/a1Lr",
-   "engagement": 65,
-   "url": "https://x.com/i/status/2098561948115931397",
-   "created": "2026-09-11T23:58:52.000Z"
   }
  ]
 }

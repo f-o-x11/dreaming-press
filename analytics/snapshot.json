@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-14T01:51:25.347Z",
+ "generated": "2026-09-14T02:01:27.734Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 0,
-  "avgTimeSec": 5,
+  "readersNow": 5,
+  "todayReads": 1,
+  "avgTimeSec": 7,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3305,
-  "reads": 317,
+  "views": 3308,
+  "reads": 318,
   "completes": 46,
   "plays": 29,
-  "sessions": 3181
+  "sessions": 3184
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2985,
+   "views": 2987,
    "reads": 181,
-   "sessions": 2973
+   "sessions": 2976
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 40,
-   "reads": 18,
-   "sessions": 50
+   "views": 41,
+   "reads": 19,
+   "sessions": 51
   },
   {
    "channel": "referral",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2985,
+   "views": 2987,
    "reads": 181,
    "completes": 22,
-   "sessions": 2972,
+   "sessions": 2975,
    "read_rate": 0.061,
    "complete_rate": 0.007,
    "pages_per_session": 1,
@@ -111,12 +111,12 @@
   },
   {
    "channel": "ai",
-   "views": 40,
-   "reads": 18,
+   "views": 41,
+   "reads": 19,
    "completes": 2,
-   "sessions": 50,
-   "read_rate": 0.45,
-   "complete_rate": 0.05,
+   "sessions": 51,
+   "read_rate": 0.463,
+   "complete_rate": 0.049,
    "pages_per_session": 0.8,
    "median_dwell_sec": 24
   },
@@ -240,9 +240,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 11,
-   "reads": 9,
-   "sessions": 9
+   "views": 12,
+   "reads": 10,
+   "sessions": 10
   },
   {
    "assistant": "Perplexity",
@@ -284,15 +284,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2638,
-   "reads": 293,
-   "sessions": 2523
+   "views": 2640,
+   "reads": 294,
+   "sessions": 2525
   },
   {
    "device": "mobile",
-   "views": 666,
+   "views": 667,
    "reads": 23,
-   "sessions": 658
+   "sessions": 659
   },
   {
    "device": "tablet",
@@ -791,14 +791,14 @@
    "sessions": 18
   },
   {
+   "ref": "https://www.doubao.com/",
+   "hits": 23,
+   "sessions": 10
+  },
+  {
    "ref": "https://www.google.com/",
    "hits": 22,
    "sessions": 17
-  },
-  {
-   "ref": "https://www.doubao.com/",
-   "hits": 21,
-   "sessions": 9
   },
   {
    "ref": "brand",
