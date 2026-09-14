@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-14T04:02:23.845Z",
+ "generated": "2026-09-14T04:12:24.602Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 8,
   "todayReads": 2,
   "avgTimeSec": 10,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3284,
+  "views": 3287,
   "reads": 316,
   "completes": 46,
   "plays": 29,
-  "sessions": 3163
+  "sessions": 3166
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2967,
+   "views": 2968,
    "reads": 180,
-   "sessions": 2958
+   "sessions": 2960
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 57,
+   "views": 59,
    "reads": 15,
-   "sessions": 55
+   "sessions": 57
   },
   {
    "channel": "social",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2967,
+   "views": 2968,
    "reads": 180,
    "completes": 22,
-   "sessions": 2957,
+   "sessions": 2959,
    "read_rate": 0.061,
    "complete_rate": 0.007,
    "pages_per_session": 1,
@@ -100,12 +100,12 @@
   },
   {
    "channel": "referral",
-   "views": 57,
+   "views": 59,
    "reads": 15,
    "completes": 1,
-   "sessions": 55,
-   "read_rate": 0.263,
-   "complete_rate": 0.018,
+   "sessions": 57,
+   "read_rate": 0.254,
+   "complete_rate": 0.017,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
   },
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2619,
+   "views": 2622,
    "reads": 292,
-   "sessions": 2507
+   "sessions": 2510
   },
   {
    "device": "mobile",
@@ -408,7 +408,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 17,
+   "views": 19,
    "reads": 4,
    "plays": 0
   },
@@ -562,7 +562,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 57,
+   "views": 56,
    "reads": 0,
    "plays": 0
   },
@@ -632,7 +632,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 17,
+   "views": 19,
    "reads": 4,
    "plays": 0
   },
@@ -667,9 +667,9 @@
   },
   {
    "path": "/",
-   "views": 176,
+   "views": 178,
    "reads": 1,
-   "sessions": 173,
+   "sessions": 175,
    "avg_dwell_sec": 10
   },
   {
