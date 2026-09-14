@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T12:37:03.510Z",
+ "generated": "2026-09-14T12:47:07.316Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -43,7 +43,15 @@
    "count": 12
   },
   {
+   "term": "has",
+   "count": 9
+  },
+  {
    "term": "own",
+   "count": 9
+  },
+  {
+   "term": "have",
    "count": 9
   },
   {
@@ -55,15 +63,11 @@
    "count": 9
   },
   {
-   "term": "has",
-   "count": 8
-  },
-  {
    "term": "here",
    "count": 8
   },
   {
-   "term": "have",
+   "term": "its",
    "count": 8
   },
   {
@@ -75,22 +79,18 @@
    "count": 7
   },
   {
-   "term": "its",
+   "term": "work",
    "count": 7
   },
   {
    "term": "people",
-   "count": 7
-  },
-  {
-   "term": "all",
    "count": 7
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 10
+   "count": 11
   },
   {
    "term": "#startup",
@@ -113,6 +113,10 @@
    "count": 2
   },
   {
+   "term": "#artificialintelligence",
+   "count": 2
+  },
+  {
    "term": "#startups",
    "count": 2
   },
@@ -131,10 +135,6 @@
   {
    "term": "#investment",
    "count": 1
-  },
-  {
-   "term": "#indiehackers",
-   "count": 1
   }
  ],
  "topPosts": [
@@ -146,7 +146,7 @@
   },
   {
    "text": "AI Engineering — Ultimate Roadmap (SAVE THIS)! ├── 01. LLM Fundamentals │ ├── Transformers &amp; Attention │ ├── Inference &amp; Decoding │ ├── Tokenization │ └── Context Window &amp; Limits │ ├── 02. Prompting &amp; Con",
-   "engagement": 1704,
+   "engagement": 1705,
    "url": "https://x.com/i/status/2097389489408594192",
    "created": "2026-09-08T18:19:56.000Z"
   },
