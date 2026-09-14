@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T06:54:01.561Z",
+ "generated": "2026-09-14T07:04:11.272Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -7,11 +7,11 @@
  ],
  "topTerms": [
   {
-   "term": "build",
-   "count": 27
+   "term": "founder",
+   "count": 28
   },
   {
-   "term": "founder",
+   "term": "build",
    "count": 27
   },
   {
@@ -20,7 +20,7 @@
   },
   {
    "term": "agentic",
-   "count": 25
+   "count": 24
   },
   {
    "term": "agents",
@@ -32,7 +32,7 @@
   },
   {
    "term": "mcp",
-   "count": 20
+   "count": 18
   },
   {
    "term": "agent",
@@ -43,16 +43,12 @@
    "count": 12
   },
   {
-   "term": "has",
-   "count": 9
-  },
-  {
-   "term": "have",
-   "count": 9
-  },
-  {
    "term": "python",
    "count": 9
+  },
+  {
+   "term": "has",
+   "count": 8
   },
   {
    "term": "own",
@@ -63,11 +59,15 @@
    "count": 8
   },
   {
+   "term": "have",
+   "count": 8
+  },
+  {
    "term": "about",
    "count": 8
   },
   {
-   "term": "co-founder",
+   "term": "day",
    "count": 8
   },
   {
@@ -75,26 +75,26 @@
    "count": 7
   },
   {
-   "term": "its",
-   "count": 7
-  },
-  {
-   "term": "work",
-   "count": 7
-  },
-  {
    "term": "people",
+   "count": 7
+  },
+  {
+   "term": "all",
+   "count": 7
+  },
+  {
+   "term": "learn",
    "count": 7
   }
  ],
  "hashtags": [
   {
-   "term": "#ai",
+   "term": "#startup",
    "count": 11
   },
   {
-   "term": "#startup",
-   "count": 11
+   "term": "#ai",
+   "count": 10
   },
   {
    "term": "#founder",
@@ -110,10 +110,6 @@
   },
   {
    "term": "#aijobs",
-   "count": 2
-  },
-  {
-   "term": "#artificialintelligence",
    "count": 2
   },
   {
@@ -135,6 +131,10 @@
   {
    "term": "#investment",
    "count": 1
+  },
+  {
+   "term": "#indiehackers",
+   "count": 1
   }
  ],
  "topPosts": [
@@ -143,6 +143,12 @@
    "engagement": 1972,
    "url": "https://x.com/i/status/2098886739087745493",
    "created": "2026-09-12T21:29:28.000Z"
+  },
+  {
+   "text": "AI Engineering — Ultimate Roadmap (SAVE THIS)! ├── 01. LLM Fundamentals │ ├── Transformers &amp; Attention │ ├── Inference &amp; Decoding │ ├── Tokenization │ └── Context Window &amp; Limits │ ├── 02. Prompting &amp; Con",
+   "engagement": 1704,
+   "url": "https://x.com/i/status/2097389489408594192",
+   "created": "2026-09-08T18:19:56.000Z"
   },
   {
    "text": "Rooting for $PAYGENT’s launch today @usepaygent. With Vlad Tenev pushing the AI agent payments narrative through Robinhood’s agentic credit card, this is a category I’m watching. Paygent built for months before launching",
@@ -179,12 +185,6 @@
    "engagement": 78,
    "url": "https://x.com/i/status/2098839598084313117",
    "created": "2026-09-12T18:22:09.000Z"
-  },
-  {
-   "text": "⛔️ Israeli AI startup founder Ilit Razt pleaded guilty in New York to a $27 million investor fraud scheme.​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​‼️ https://t.co/nPgzUmxtrR",
-   "engagement": 71,
-   "url": "https://x.com/i/status/2098916775232479564",
-   "created": "2026-09-12T23:28:49.000Z"
   }
  ]
 }
