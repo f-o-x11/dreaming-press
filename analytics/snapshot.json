@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-14T03:42:06.751Z",
+ "generated": "2026-09-14T03:52:22.520Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 2,
   "avgTimeSec": 10,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3290,
+  "views": 3284,
   "reads": 316,
   "completes": 46,
   "plays": 29,
-  "sessions": 3169
+  "sessions": 3163
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2972,
+   "views": 2967,
    "reads": 180,
-   "sessions": 2963
+   "sessions": 2958
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 41,
+   "views": 40,
    "reads": 19,
-   "sessions": 51
+   "sessions": 50
   },
   {
    "channel": "referral",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2972,
+   "views": 2967,
    "reads": 180,
    "completes": 22,
-   "sessions": 2962,
+   "sessions": 2957,
    "read_rate": 0.061,
    "complete_rate": 0.007,
    "pages_per_session": 1,
@@ -111,12 +111,12 @@
   },
   {
    "channel": "ai",
-   "views": 41,
+   "views": 40,
    "reads": 19,
    "completes": 2,
-   "sessions": 51,
-   "read_rate": 0.463,
-   "complete_rate": 0.049,
+   "sessions": 50,
+   "read_rate": 0.475,
+   "complete_rate": 0.05,
    "pages_per_session": 0.8,
    "median_dwell_sec": 24
   },
@@ -270,9 +270,9 @@
   },
   {
    "assistant": "Kimi",
-   "views": 3,
+   "views": 2,
    "reads": 0,
-   "sessions": 3
+   "sessions": 2
   },
   {
    "assistant": "Claude",
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2625,
+   "views": 2619,
    "reads": 292,
-   "sessions": 2513
+   "sessions": 2507
   },
   {
    "device": "mobile",
