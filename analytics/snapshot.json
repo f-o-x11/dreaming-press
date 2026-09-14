@@ -1,24 +1,24 @@
 {
- "generated": "2026-09-14T07:44:21.926Z",
+ "generated": "2026-09-14T07:54:32.593Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 7,
   "todayReads": 4,
   "avgTimeSec": 5,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3274,
-  "reads": 317,
-  "completes": 46,
+  "views": 3273,
+  "reads": 315,
+  "completes": 45,
   "plays": 29,
-  "sessions": 3150
+  "sessions": 3149
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2956,
-   "reads": 181,
+   "reads": 180,
    "sessions": 2946
   },
   {
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 98,
-   "reads": 33,
-   "sessions": 95
+   "views": 97,
+   "reads": 32,
+   "sessions": 94
   },
   {
    "channel": "ai",
    "views": 40,
    "reads": 19,
-   "sessions": 49
+   "sessions": 48
   },
   {
    "channel": "referral",
@@ -68,7 +68,7 @@
   {
    "channel": "direct",
    "views": 2956,
-   "reads": 181,
+   "reads": 180,
    "completes": 22,
    "sessions": 2945,
    "read_rate": 0.061,
@@ -89,12 +89,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 98,
-   "reads": 33,
-   "completes": 4,
-   "sessions": 95,
-   "read_rate": 0.337,
-   "complete_rate": 0.041,
+   "views": 97,
+   "reads": 32,
+   "completes": 3,
+   "sessions": 94,
+   "read_rate": 0.33,
+   "complete_rate": 0.031,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
   },
@@ -114,11 +114,11 @@
    "views": 40,
    "reads": 19,
    "completes": 2,
-   "sessions": 49,
+   "sessions": 48,
    "read_rate": 0.475,
    "complete_rate": 0.05,
-   "pages_per_session": 0.82,
-   "median_dwell_sec": 24
+   "pages_per_session": 0.83,
+   "median_dwell_sec": 20
   },
   {
    "channel": "social",
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 108,
-   "reads": 34,
-   "sessions": 100
+   "views": 107,
+   "reads": 33,
+   "sessions": 99
   },
   {
    "assistant": "Doubao",
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2614,
-   "reads": 293,
-   "sessions": 2499
+   "views": 2613,
+   "reads": 291,
+   "sessions": 2498
   },
   {
    "device": "mobile",
@@ -647,22 +647,22 @@
    "plays": 0
   },
   {
-   "slug": "2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments",
-   "title": "The Founder's Wire, September 8: Nvidia Buys the Open-Model Commons, OpenAI Moves to Rent You an Agent Runtime, and Anthropic Wants to Own Its Money Rails",
+   "slug": "jujutsu-vs-git-version-control-for-builders",
+   "title": "Jujutsu vs Git: The Version-Control Model Builders Are Quietly Switching To",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
+   "author": "dex",
    "views": 15,
-   "reads": 0,
+   "reads": 1,
    "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 378,
+   "views": 380,
    "reads": 0,
-   "sessions": 374,
+   "sessions": 376,
    "avg_dwell_sec": 4
   },
   {
@@ -688,9 +688,9 @@
   },
   {
    "path": "/build",
-   "views": 35,
+   "views": 34,
    "reads": 0,
-   "sessions": 35,
+   "sessions": 34,
    "avg_dwell_sec": 4
   },
   {
@@ -772,8 +772,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 55,
-   "sessions": 30
+   "hits": 52,
+   "sessions": 29
   },
   {
    "ref": "https://cn.bing.com/",
