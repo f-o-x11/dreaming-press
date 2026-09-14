@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-14T19:43:28.125Z",
+ "generated": "2026-09-14T19:53:50.273Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 21055,
+ "verifiedAiHits": 21061,
  "logsScanned": 30,
  "windowStart": "2026-08-31",
  "windowEnd": "2026-09-14",
- "totalHits": 138662,
- "aiHits": 98279,
+ "totalHits": 138689,
+ "aiHits": 98294,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 27192,
+   "hits": 27198,
    "verifiedHits": 0,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18804,
+   "hits": 18805,
    "verifiedHits": 0,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15388,
+   "hits": 15395,
    "verifiedHits": 0,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6404,
-   "verifiedHits": 6257,
+   "hits": 6408,
+   "verifiedHits": 6261,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3813,
-   "verifiedHits": 3626,
+   "hits": 3817,
+   "verifiedHits": 3630,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3281,
-   "verifiedHits": 3100,
+   "hits": 3283,
+   "verifiedHits": 3102,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2632,
+   "hits": 2634,
    "verifiedHits": 0,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1087,
+   "hits": 1088,
    "verifiedHits": 0,
    "firstSeen": "2026-08-31",
    "lastSeen": "2026-09-14",
@@ -429,7 +429,7 @@
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
-     "hits": 37
+     "hits": 38
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
