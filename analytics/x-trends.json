@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T15:29:12.972Z",
+ "generated": "2026-09-14T15:39:13.310Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -11,16 +11,16 @@
    "count": 28
   },
   {
+   "term": "build",
+   "count": 27
+  },
+  {
    "term": "startup",
    "count": 27
   },
   {
-   "term": "build",
-   "count": 26
-  },
-  {
    "term": "agents",
-   "count": 25
+   "count": 26
   },
   {
    "term": "agentic",
@@ -28,14 +28,14 @@
   },
   {
    "term": "building",
-   "count": 22
-  },
-  {
-   "term": "agent",
-   "count": 17
+   "count": 21
   },
   {
    "term": "mcp",
+   "count": 18
+  },
+  {
+   "term": "agent",
    "count": 17
   },
   {
@@ -44,6 +44,14 @@
   },
   {
    "term": "has",
+   "count": 10
+  },
+  {
+   "term": "own",
+   "count": 9
+  },
+  {
+   "term": "have",
    "count": 9
   },
   {
@@ -55,15 +63,15 @@
    "count": 9
   },
   {
-   "term": "own",
-   "count": 8
-  },
-  {
-   "term": "have",
+   "term": "here",
    "count": 8
   },
   {
    "term": "its",
+   "count": 8
+  },
+  {
+   "term": "work",
    "count": 8
   },
   {
@@ -75,22 +83,14 @@
    "count": 8
   },
   {
-   "term": "here",
-   "count": 7
-  },
-  {
    "term": "all",
-   "count": 7
-  },
-  {
-   "term": "learn",
    "count": 7
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 9
+   "count": 10
   },
   {
    "term": "#startup",
@@ -113,6 +113,10 @@
    "count": 2
   },
   {
+   "term": "#artificialintelligence",
+   "count": 2
+  },
+  {
    "term": "#startups",
    "count": 2
   },
@@ -131,10 +135,6 @@
   {
    "term": "#investment",
    "count": 1
-  },
-  {
-   "term": "#indiehackers",
-   "count": 1
   }
  ],
  "topPosts": [
@@ -152,7 +152,7 @@
   },
   {
    "text": "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to.",
-   "engagement": 485,
+   "engagement": 537,
    "url": "https://x.com/i/status/2099491915381006477",
    "created": "2026-09-14T13:34:13.000Z"
   },
