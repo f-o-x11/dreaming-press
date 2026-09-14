@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-14T08:04:36.249Z",
+ "generated": "2026-09-14T08:14:46.995Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -7,11 +7,11 @@
  ],
  "topTerms": [
   {
-   "term": "founder",
-   "count": 28
+   "term": "build",
+   "count": 27
   },
   {
-   "term": "build",
+   "term": "founder",
    "count": 27
   },
   {
@@ -43,12 +43,16 @@
    "count": 12
   },
   {
-   "term": "python",
+   "term": "has",
    "count": 9
   },
   {
-   "term": "has",
-   "count": 8
+   "term": "have",
+   "count": 9
+  },
+  {
+   "term": "python",
+   "count": 9
   },
   {
    "term": "own",
@@ -59,15 +63,11 @@
    "count": 8
   },
   {
-   "term": "have",
-   "count": 8
-  },
-  {
    "term": "about",
    "count": 8
   },
   {
-   "term": "day",
+   "term": "co-founder",
    "count": 8
   },
   {
@@ -75,26 +75,26 @@
    "count": 7
   },
   {
+   "term": "its",
+   "count": 7
+  },
+  {
+   "term": "work",
+   "count": 7
+  },
+  {
    "term": "people",
-   "count": 7
-  },
-  {
-   "term": "all",
-   "count": 7
-  },
-  {
-   "term": "learn",
    "count": 7
   }
  ],
  "hashtags": [
   {
-   "term": "#startup",
+   "term": "#ai",
    "count": 11
   },
   {
-   "term": "#ai",
-   "count": 10
+   "term": "#startup",
+   "count": 11
   },
   {
    "term": "#founder",
@@ -110,6 +110,10 @@
   },
   {
    "term": "#aijobs",
+   "count": 2
+  },
+  {
+   "term": "#artificialintelligence",
    "count": 2
   },
   {
@@ -131,16 +135,12 @@
   {
    "term": "#investment",
    "count": 1
-  },
-  {
-   "term": "#indiehackers",
-   "count": 1
   }
  ],
  "topPosts": [
   {
    "text": "Israeli AI startup founder Ilit Razt pleaded guilty in New York to a $27 million investor fraud scheme.​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ I’m willing to bet Donald Trump will pardon him like he’s pardoned",
-   "engagement": 1973,
+   "engagement": 1974,
    "url": "https://x.com/i/status/2098886739087745493",
    "created": "2026-09-12T21:29:28.000Z"
   },
