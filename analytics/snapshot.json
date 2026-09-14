@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-14T00:51:08.108Z",
+ "generated": "2026-09-14T01:01:09.832Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 0,
   "avgTimeSec": 4,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3303,
-  "reads": 318,
+  "views": 3300,
+  "reads": 317,
   "completes": 46,
   "plays": 29,
-  "sessions": 3177
+  "sessions": 3175
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2982,
+   "views": 2980,
    "reads": 181,
-   "sessions": 2968
+   "sessions": 2967
   },
   {
    "channel": "organic",
-   "views": 115,
-   "reads": 68,
-   "sessions": 102
+   "views": 114,
+   "reads": 67,
+   "sessions": 101
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -67,22 +67,22 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2982,
+   "views": 2980,
    "reads": 181,
    "completes": 22,
-   "sessions": 2967,
+   "sessions": 2966,
    "read_rate": 0.061,
    "complete_rate": 0.007,
-   "pages_per_session": 1.01,
+   "pages_per_session": 1,
    "median_dwell_sec": 4
   },
   {
    "channel": "organic",
-   "views": 115,
-   "reads": 68,
+   "views": 114,
+   "reads": 67,
    "completes": 3,
-   "sessions": 102,
-   "read_rate": 0.591,
+   "sessions": 101,
+   "read_rate": 0.588,
    "complete_rate": 0.026,
    "pages_per_session": 1.13,
    "median_dwell_sec": 10
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2632,
-   "reads": 294,
-   "sessions": 2515
+   "views": 2629,
+   "reads": 293,
+   "sessions": 2513
   },
   {
    "device": "mobile",
@@ -743,6 +743,13 @@
    "avg_dwell_sec": 4
   },
   {
+   "path": "/about.html",
+   "views": 7,
+   "reads": 0,
+   "sessions": 7,
+   "avg_dwell_sec": 12
+  },
+  {
    "path": "/apps",
    "views": 7,
    "reads": 0,
@@ -755,20 +762,13 @@
    "reads": 0,
    "sessions": 6,
    "avg_dwell_sec": 7
-  },
-  {
-   "path": "/about.html",
-   "views": 6,
-   "reads": 0,
-   "sessions": 6,
-   "avg_dwell_sec": 12
   }
  ],
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 90,
-   "sessions": 39
+   "hits": 88,
+   "sessions": 38
   },
   {
    "ref": "https://chatgpt.com/",
