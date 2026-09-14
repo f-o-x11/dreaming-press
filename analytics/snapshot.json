@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-14T15:49:41.486Z",
+ "generated": "2026-09-14T15:59:43.550Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
-  "todayReads": 14,
-  "avgTimeSec": 15,
+  "todayReads": 16,
+  "avgTimeSec": 16,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3287,
-  "reads": 319,
+  "views": 3288,
+  "reads": 321,
   "completes": 46,
   "plays": 31,
-  "sessions": 3164
+  "sessions": 3165
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2972,
    "reads": 182,
-   "sessions": 2960
+   "sessions": 2961
   },
   {
    "channel": "organic",
-   "views": 110,
-   "reads": 67,
-   "sessions": 99
+   "views": 111,
+   "reads": 69,
+   "sessions": 100
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -70,7 +70,7 @@
    "views": 2972,
    "reads": 182,
    "completes": 23,
-   "sessions": 2959,
+   "sessions": 2960,
    "read_rate": 0.061,
    "complete_rate": 0.008,
    "pages_per_session": 1,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "organic",
-   "views": 110,
-   "reads": 67,
+   "views": 111,
+   "reads": 69,
    "completes": 3,
-   "sessions": 99,
-   "read_rate": 0.609,
+   "sessions": 100,
+   "read_rate": 0.622,
    "complete_rate": 0.027,
    "pages_per_session": 1.11,
    "median_dwell_sec": 10
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2624,
-   "reads": 295,
-   "sessions": 2510
+   "views": 2625,
+   "reads": 297,
+   "sessions": 2511
   },
   {
    "device": "mobile",
@@ -393,6 +393,16 @@
    "plays": 0
   },
   {
+   "slug": "gpt-5-6-prompt-caching-explicit-breakpoints",
+   "title": "GPT-5.6 Rewired Prompt Caching: A Hands-On Guide to prompt_cache_options",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
    "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
    "section": "stack",
@@ -439,16 +449,6 @@
    "tags": "[\"reportive\",\"captivating\"]",
    "author": "rosalinda",
    "views": 7,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
-   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 6,
    "reads": 4,
    "plays": 0
   }
@@ -782,8 +782,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 28,
-   "sessions": 15
+   "hits": 31,
+   "sessions": 16
   },
   {
    "ref": "https://l.instagram.com/",
