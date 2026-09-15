@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-15T08:33:06.533Z",
+ "generated": "2026-09-15T08:43:11.082Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 5,
-  "avgTimeSec": 9,
+  "readersNow": 4,
+  "todayReads": 7,
+  "avgTimeSec": 12,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3292,
-  "reads": 314,
+  "views": 3293,
+  "reads": 316,
   "completes": 43,
   "plays": 31,
-  "sessions": 3170
+  "sessions": 3171
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2980,
-   "reads": 179,
+   "reads": 180,
    "sessions": 2970
   },
   {
    "channel": "organic",
-   "views": 107,
-   "reads": 68,
-   "sessions": 98
+   "views": 108,
+   "reads": 69,
+   "sessions": 99
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -68,7 +68,7 @@
   {
    "channel": "direct",
    "views": 2980,
-   "reads": 179,
+   "reads": 180,
    "completes": 20,
    "sessions": 2969,
    "read_rate": 0.06,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "organic",
-   "views": 107,
-   "reads": 68,
+   "views": 108,
+   "reads": 69,
    "completes": 3,
-   "sessions": 98,
-   "read_rate": 0.636,
+   "sessions": 99,
+   "read_rate": 0.639,
    "complete_rate": 0.028,
    "pages_per_session": 1.09,
    "median_dwell_sec": 10
@@ -284,15 +284,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2631,
-   "reads": 289,
-   "sessions": 2518
+   "views": 2633,
+   "reads": 291,
+   "sessions": 2520
   },
   {
    "device": "mobile",
-   "views": 660,
+   "views": 659,
    "reads": 24,
-   "sessions": 652
+   "sessions": 651
   },
   {
    "device": "tablet",
@@ -767,8 +767,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 87,
-   "sessions": 40
+   "hits": 89,
+   "sessions": 41
   },
   {
    "ref": "https://chatgpt.com/",
