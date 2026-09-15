@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-15T18:29:19.322Z",
+ "generated": "2026-09-15T18:39:20.585Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "startup",
-   "count": 29
+   "count": 28
   },
   {
    "term": "agents",
@@ -16,19 +16,19 @@
   },
   {
    "term": "founder",
-   "count": 26
+   "count": 27
   },
   {
    "term": "build",
    "count": 22
   },
   {
-   "term": "agentic",
-   "count": 20
+   "term": "building",
+   "count": 21
   },
   {
-   "term": "building",
-   "count": 19
+   "term": "agentic",
+   "count": 20
   },
   {
    "term": "agent",
@@ -43,24 +43,16 @@
    "count": 13
   },
   {
-   "term": "python",
-   "count": 10
+   "term": "its",
+   "count": 11
   },
   {
-   "term": "its",
+   "term": "python",
    "count": 10
   },
   {
    "term": "has",
    "count": 10
-  },
-  {
-   "term": "co-founder",
-   "count": 10
-  },
-  {
-   "term": "about",
-   "count": 9
   },
   {
    "term": "context",
@@ -71,7 +63,15 @@
    "count": 9
   },
   {
+   "term": "co-founder",
+   "count": 9
+  },
+  {
    "term": "actually",
+   "count": 8
+  },
+  {
+   "term": "about",
    "count": 8
   },
   {
@@ -90,11 +90,11 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 10
+   "count": 11
   },
   {
    "term": "#startup",
-   "count": 8
+   "count": 9
   },
   {
    "term": "#founder",
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to.",
-   "engagement": 4504,
+   "engagement": 4512,
    "url": "https://x.com/i/status/2099491915381006477",
    "created": "2026-09-14T13:34:13.000Z"
   },
