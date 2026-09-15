@@ -1,29 +1,29 @@
 {
- "generated": "2026-09-15T06:52:11.532Z",
+ "generated": "2026-09-15T07:02:18.020Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 4,
   "avgTimeSec": 9,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3305,
+  "views": 3306,
   "reads": 316,
   "completes": 44,
   "plays": 31,
-  "sessions": 3181
+  "sessions": 3183
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2989,
+   "views": 2991,
    "reads": 179,
-   "sessions": 2980
+   "sessions": 2982
   },
   {
    "channel": "organic",
-   "views": 110,
+   "views": 109,
    "reads": 69,
    "sessions": 99
   },
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2989,
+   "views": 2991,
    "reads": 179,
    "completes": 21,
-   "sessions": 2979,
+   "sessions": 2981,
    "read_rate": 0.06,
    "complete_rate": 0.007,
    "pages_per_session": 1,
@@ -78,13 +78,13 @@
   },
   {
    "channel": "organic",
-   "views": 110,
+   "views": 109,
    "reads": 69,
    "completes": 3,
    "sessions": 99,
-   "read_rate": 0.627,
-   "complete_rate": 0.027,
-   "pages_per_session": 1.11,
+   "read_rate": 0.633,
+   "complete_rate": 0.028,
+   "pages_per_session": 1.1,
    "median_dwell_sec": 10
   },
   {
@@ -286,13 +286,13 @@
    "device": "desktop",
    "views": 2642,
    "reads": 291,
-   "sessions": 2527
+   "sessions": 2528
   },
   {
    "device": "mobile",
-   "views": 662,
+   "views": 663,
    "reads": 24,
-   "sessions": 654
+   "sessions": 655
   },
   {
    "device": "tablet",
@@ -413,22 +413,22 @@
    "plays": 0
   },
   {
+   "slug": "pdf-parsing-for-rag-docling-marker-llamaparse-mistral-ocr",
+   "title": "Parsing PDFs for RAG in 2026: PyMuPDF4LLM vs Docling vs Marker vs LlamaParse vs Mistral OCR",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 11,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "sqlite-vec-vs-lancedb-vs-chroma-embedded-vector-store-solo-builder",
    "title": "sqlite-vec vs LanceDB vs Chroma: The Embedded Vector Store for a Solo Builder",
    "section": "stack",
    "tags": "[\"how-to\",\"opinionated\"]",
    "author": "dex",
    "views": 11,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "pdf-parsing-for-rag-docling-marker-llamaparse-mistral-ocr",
-   "title": "Parsing PDFs for RAG in 2026: PyMuPDF4LLM vs Docling vs Marker vs LlamaParse vs Mistral OCR",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 10,
    "reads": 4,
    "plays": 0
   },
@@ -736,6 +736,13 @@
    "avg_dwell_sec": 4
   },
   {
+   "path": "/global-tech-news",
+   "views": 8,
+   "reads": 0,
+   "sessions": 7,
+   "avg_dwell_sec": 7
+  },
+  {
    "path": "/subscribe",
    "views": 8,
    "reads": 0,
@@ -755,19 +762,12 @@
    "reads": 0,
    "sessions": 7,
    "avg_dwell_sec": 4
-  },
-  {
-   "path": "/global-tech-news",
-   "views": 7,
-   "reads": 0,
-   "sessions": 6,
-   "avg_dwell_sec": 7
   }
  ],
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 89,
+   "hits": 88,
    "sessions": 40
   },
   {
