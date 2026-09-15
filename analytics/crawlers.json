@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-15T22:32:00.030Z",
+ "generated": "2026-09-15T22:42:01.299Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 22122,
+ "verifiedAiHits": 22127,
  "logsScanned": 30,
  "windowStart": "2026-09-01",
  "windowEnd": "2026-09-15",
- "totalHits": 141099,
- "aiHits": 101621,
+ "totalHits": 141130,
+ "aiHits": 101646,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 38882,
+   "hits": 38895,
    "verifiedHits": 0,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 26493,
+   "hits": 26497,
    "verifiedHits": 0,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15575,
+   "hits": 15582,
    "verifiedHits": 0,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
@@ -179,14 +179,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6481,
-   "verifiedHits": 6334,
+   "hits": 6483,
+   "verifiedHits": 6336,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 116
+     "hits": 117
     },
     {
      "path": "/posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html",
@@ -212,14 +212,18 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3800,
-   "verifiedHits": 3613,
+   "hits": 3805,
+   "verifiedHits": 3618,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
    "topPaths": [
     {
      "path": "/wire.html",
      "hits": 36
+    },
+    {
+     "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
+     "hits": 28
     },
     {
      "path": "/posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html",
@@ -231,10 +235,6 @@
     },
     {
      "path": "/posts/cheapest-terminal-coding-agent-august-2026-free-floor.html",
-     "hits": 27
-    },
-    {
-     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
      "hits": 27
     }
    ],
