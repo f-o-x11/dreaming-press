@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-15T21:41:03.203Z",
+ "generated": "2026-09-15T21:51:11.092Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 2,
   "todayReads": 21,
   "avgTimeSec": 11,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3286,
+  "views": 3288,
   "reads": 317,
   "completes": 42,
   "plays": 30,
-  "sessions": 3166
+  "sessions": 3168
  },
  "channels": [
   {
@@ -23,9 +23,9 @@
   },
   {
    "channel": "organic",
-   "views": 109,
+   "views": 110,
    "reads": 70,
-   "sessions": 100
+   "sessions": 101
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 61,
+   "views": 62,
    "reads": 16,
-   "sessions": 58
+   "sessions": 59
   },
   {
    "channel": "ai",
@@ -78,12 +78,12 @@
   },
   {
    "channel": "organic",
-   "views": 109,
+   "views": 110,
    "reads": 70,
    "completes": 3,
-   "sessions": 100,
-   "read_rate": 0.642,
-   "complete_rate": 0.028,
+   "sessions": 101,
+   "read_rate": 0.636,
+   "complete_rate": 0.027,
    "pages_per_session": 1.09,
    "median_dwell_sec": 10
   },
@@ -100,11 +100,11 @@
   },
   {
    "channel": "referral",
-   "views": 61,
+   "views": 62,
    "reads": 16,
    "completes": 1,
-   "sessions": 58,
-   "read_rate": 0.262,
+   "sessions": 59,
+   "read_rate": 0.258,
    "complete_rate": 0.016,
    "pages_per_session": 1.05,
    "median_dwell_sec": null
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2617,
+   "views": 2619,
    "reads": 290,
-   "sessions": 2506
+   "sessions": 2508
   },
   {
    "device": "mobile",
@@ -388,7 +388,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 20,
+   "views": 22,
    "reads": 4,
    "plays": 0
   },
@@ -597,6 +597,16 @@
    "plays": 0
   },
   {
+   "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe",
    "title": "The Founder's Wire, September 4: A 'Firewall for Agents' Raises $50M, HiddenLayer Takes $100M a Day Later, and Crusoe Hits $30B for the Compute Underneath",
    "section": "wire",
@@ -604,16 +614,6 @@
    "author": "wire-desk",
    "views": 21,
    "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 4,
    "plays": 0
   },
   {
