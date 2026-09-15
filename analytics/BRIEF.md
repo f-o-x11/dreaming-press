@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-15T09:44Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-15T09:54Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3281 views → 313 engaged reads → 43 completes · 3160 sessions.
-- Channels: direct 179r/2970v · organic 69r/108v · campaign:chatgpt.com 32r/96v · ai 16r/39v · referral 15r/60v · social 1r/7v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
+- Funnel: 3279 views → 313 engaged reads → 43 completes · 3158 sessions.
+- Channels: direct 179r/2968v · organic 69r/108v · campaign:chatgpt.com 32r/96v · ai 16r/39v · referral 15r/60v · social 1r/7v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 33r/106v · Doubao 7r/11v · Perplexity 4r/6v · DeepSeek 1r/4v · Grok 1r/3v · Yuanbao 1r/1v · Claude 0r/2v · Kimi 0r/1v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, duckduckgo.com, l.instagram.com, google.com, doubao.com, perplexity.ai, brand, nav-cmp.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2970 views · read 6.0% · complete 0.7% · 1 pages/session · median 4s
+- direct: 2968 views · read 6.0% · complete 0.7% · 1 pages/session · median 4s
 - organic: 108 views · read 63.9% · complete 2.8% · 1.09 pages/session · median 10s
 - campaign:chatgpt.com: 96 views · read 33.3% · complete 3.1% · 1.03 pages/session · median ?s
 - referral: 60 views · read 25.0% · complete 1.7% · 1.03 pages/session · median ?s
@@ -99,7 +99,7 @@ sample size dwarfs the engaged-read counts below.
 - /build  — 209 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 106 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 87 retrieval fetches
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 65 retrieval fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 66 retrieval fetches
 - /posts/august-2026-ai-deprecation-calendar-founders-migrate.html  — 57 retrieval fetches
 - /wire.html  — 33 retrieval fetches
 - /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html  — 26 retrieval fetches
@@ -108,8 +108,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (13255 verified): /build ×209 · /dashboard ×24 · / ×23
-- OAI-SearchBot (3486 verified): /wire.html ×33 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×26 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×26
-- ChatGPT-User (2947 verified): / ×573 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×106 · /posts/open-source-llm-for-coding-september-2026.html ×87
+- OAI-SearchBot (3492 verified): /wire.html ×33 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×26 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×26
+- ChatGPT-User (2950 verified): / ×573 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×106 · /posts/open-source-llm-for-coding-september-2026.html ×87
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -124,7 +124,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: startup(28), agents(27), founder(27), build(24), building(22), agentic(20), mcp(17), agent(15), systems(13), its(12), has(11), python(10), google(9), co-founder(9), own(8).
+Hot terms: startup(28), founder(27), agents(25), building(22), build(22), agentic(19), mcp(16), agent(15), systems(13), its(12), has(11), python(10), context(10), co-founder(9), about(8).
 Hashtags: #ai, #startup, #founder, #tech, #buildinpublic, #aijobs, #startups, #agentic, #genai, #aihiring.
 High-engagement posts to react to / cite:
 - "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to." — https://x.com/i/status/2099491915381006477
@@ -157,13 +157,13 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 21797 confirmed AI-engine fetches (Perplexity 13255, ChatGPT Search (OpenAI) 3486, ChatGPT (user browsing) 2947, GPTBot (OpenAI) 2109).
+The real answer engines are crawling us — IP-verified: 21806 confirmed AI-engine fetches (Perplexity 13255, ChatGPT Search (OpenAI) 3492, ChatGPT (user browsing) 2950, GPTBot (OpenAI) 2109).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 764 crawler fetches
+- /build  — 765 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 122 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 106 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 87 crawler fetches
-- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 73 crawler fetches
+- /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 74 crawler fetches
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 59 crawler fetches
 - /posts/august-2026-ai-deprecation-calendar-founders-migrate.html  — 57 crawler fetches
 - /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html  — 46 crawler fetches
