@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-15T03:40:02.529Z",
+ "generated": "2026-09-15T03:50:06.831Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
+  "readersNow": 4,
   "todayReads": 1,
   "avgTimeSec": 5,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3307,
-  "reads": 317,
+  "views": 3304,
+  "reads": 316,
   "completes": 46,
   "plays": 31,
-  "sessions": 3182
+  "sessions": 3179
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2993,
+   "views": 2991,
    "reads": 181,
-   "sessions": 2983
+   "sessions": 2981
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 42,
-   "reads": 19,
-   "sessions": 48
+   "views": 41,
+   "reads": 18,
+   "sessions": 47
   },
   {
    "channel": "referral",
@@ -67,11 +67,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2993,
+   "views": 2991,
    "reads": 181,
    "completes": 23,
-   "sessions": 2982,
-   "read_rate": 0.06,
+   "sessions": 2980,
+   "read_rate": 0.061,
    "complete_rate": 0.008,
    "pages_per_session": 1,
    "median_dwell_sec": 4
@@ -111,13 +111,13 @@
   },
   {
    "channel": "ai",
-   "views": 42,
-   "reads": 19,
+   "views": 41,
+   "reads": 18,
    "completes": 2,
-   "sessions": 48,
-   "read_rate": 0.452,
-   "complete_rate": 0.048,
-   "pages_per_session": 0.88,
+   "sessions": 47,
+   "read_rate": 0.439,
+   "complete_rate": 0.049,
+   "pages_per_session": 0.87,
    "median_dwell_sec": 20
   },
   {
@@ -240,9 +240,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 14,
-   "reads": 10,
-   "sessions": 9
+   "views": 13,
+   "reads": 9,
+   "sessions": 8
   },
   {
    "assistant": "Perplexity",
@@ -284,15 +284,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2643,
-   "reads": 293,
-   "sessions": 2527
+   "views": 2641,
+   "reads": 292,
+   "sessions": 2525
   },
   {
    "device": "mobile",
-   "views": 663,
+   "views": 662,
    "reads": 23,
-   "sessions": 655
+   "sessions": 654
   },
   {
    "device": "tablet",
@@ -792,8 +792,8 @@
   },
   {
    "ref": "https://www.doubao.com/",
-   "hits": 25,
-   "sessions": 9
+   "hits": 23,
+   "sessions": 8
   },
   {
    "ref": "https://www.google.com/",
