@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-15T13:46:31.057Z",
+ "generated": "2026-09-15T13:56:36.207Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 13,
   "avgTimeSec": 11,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3299,
-  "reads": 316,
+  "views": 3298,
+  "reads": 315,
   "completes": 43,
   "plays": 30,
-  "sessions": 3177
+  "sessions": 3176
  },
  "channels": [
   {
@@ -23,9 +23,9 @@
   },
   {
    "channel": "organic",
-   "views": 111,
-   "reads": 71,
-   "sessions": 101
+   "views": 110,
+   "reads": 70,
+   "sessions": 100
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -78,11 +78,11 @@
   },
   {
    "channel": "organic",
-   "views": 111,
-   "reads": 71,
+   "views": 110,
+   "reads": 70,
    "completes": 3,
-   "sessions": 101,
-   "read_rate": 0.64,
+   "sessions": 100,
+   "read_rate": 0.636,
    "complete_rate": 0.027,
    "pages_per_session": 1.1,
    "median_dwell_sec": 10
@@ -284,15 +284,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2638,
-   "reads": 291,
-   "sessions": 2525
+   "views": 2636,
+   "reads": 290,
+   "sessions": 2523
   },
   {
    "device": "mobile",
-   "views": 660,
+   "views": 661,
    "reads": 24,
-   "sessions": 652
+   "sessions": 653
   },
   {
    "device": "tablet",
@@ -383,16 +383,6 @@
    "plays": 0
   },
   {
-   "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
-   "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 6,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
    "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
    "section": "stack",
@@ -449,6 +439,16 @@
    "tags": "[\"reportive\",\"captivating\"]",
    "author": "rosalinda",
    "views": 7,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
+   "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 5,
    "reads": 4,
    "plays": 0
   }
@@ -767,8 +767,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 90,
-   "sessions": 41
+   "hits": 88,
+   "sessions": 40
   },
   {
    "ref": "https://chatgpt.com/",
