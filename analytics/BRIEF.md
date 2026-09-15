@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-15T12:15Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-15T12:25Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -95,9 +95,9 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 600 retrieval fetches
+- /  — 601 retrieval fetches
 - /build  — 209 retrieval fetches
-- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 109 retrieval fetches
+- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 110 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 88 retrieval fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 66 retrieval fetches
 - /posts/august-2026-ai-deprecation-calendar-founders-migrate.html  — 57 retrieval fetches
@@ -107,9 +107,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 26 retrieval fetches
 
 Per engine:
-- PerplexityBot (13256 verified): /build ×209 · /dashboard ×24 · / ×23
+- PerplexityBot (13257 verified): /build ×209 · /dashboard ×24 · / ×23
 - OAI-SearchBot (3510 verified): /wire.html ×33 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×26 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×26
-- ChatGPT-User (2977 verified): / ×577 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×109 · /posts/open-source-llm-for-coding-september-2026.html ×88
+- ChatGPT-User (2981 verified): / ×578 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×110 · /posts/open-source-llm-for-coding-september-2026.html ×88
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -157,15 +157,15 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 21852 confirmed AI-engine fetches (Perplexity 13256, ChatGPT Search (OpenAI) 3510, ChatGPT (user browsing) 2977, GPTBot (OpenAI) 2109).
+The real answer engines are crawling us — IP-verified: 21857 confirmed AI-engine fetches (Perplexity 13257, ChatGPT Search (OpenAI) 3510, ChatGPT (user browsing) 2981, GPTBot (OpenAI) 2109).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 768 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 122 crawler fetches
-- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 109 crawler fetches
+- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 110 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 88 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 74 crawler fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 64 crawler fetches
-- /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 61 crawler fetches
+- /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 62 crawler fetches
 - /posts/august-2026-ai-deprecation-calendar-founders-migrate.html  — 57 crawler fetches
 - /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html  — 46 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 46 crawler fetches
