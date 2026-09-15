@@ -1,9 +1,9 @@
 {
- "generated": "2026-09-15T21:21:01.260Z",
+ "generated": "2026-09-15T21:31:01.473Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
-  "todayReads": 20,
+  "todayReads": 21,
   "avgTimeSec": 11,
   "postsThisWeek": 9
  },
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2966,
-   "reads": 180,
-   "sessions": 2957
+   "views": 2965,
+   "reads": 179,
+   "sessions": 2956
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 100,
-   "reads": 33,
-   "sessions": 97
+   "views": 101,
+   "reads": 34,
+   "sessions": 98
   },
   {
    "channel": "referral",
@@ -67,11 +67,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2966,
-   "reads": 180,
+   "views": 2965,
+   "reads": 179,
    "completes": 19,
-   "sessions": 2956,
-   "read_rate": 0.061,
+   "sessions": 2955,
+   "read_rate": 0.06,
    "complete_rate": 0.006,
    "pages_per_session": 1,
    "median_dwell_sec": 4
@@ -89,11 +89,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 100,
-   "reads": 33,
+   "views": 101,
+   "reads": 34,
    "completes": 3,
-   "sessions": 97,
-   "read_rate": 0.33,
+   "sessions": 98,
+   "read_rate": 0.337,
    "complete_rate": 0.03,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 111,
-   "reads": 34,
-   "sessions": 103
+   "views": 112,
+   "reads": 35,
+   "sessions": 104
   },
   {
    "assistant": "Doubao",
@@ -323,24 +323,24 @@
    "plays": 7
   },
   {
-   "slug": "how-to-manage-context-in-a-long-running-agent",
-   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 13,
-   "reads": 11,
-   "plays": 1
-  },
-  {
    "slug": "open-source-llm-for-coding-september-2026",
    "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 32,
-   "reads": 9,
+   "views": 33,
+   "reads": 10,
    "plays": 0
+  },
+  {
+   "slug": "how-to-manage-context-in-a-long-running-agent",
+   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 12,
+   "reads": 10,
+   "plays": 1
   },
   {
    "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
@@ -490,8 +490,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 13,
-   "reads": 11,
+   "views": 12,
+   "reads": 10,
    "plays": 1
   },
   {
@@ -592,8 +592,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 32,
-   "reads": 9,
+   "views": 33,
+   "reads": 10,
    "plays": 0
   },
   {
@@ -772,8 +772,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 52,
-   "sessions": 29
+   "hits": 54,
+   "sessions": 30
   },
   {
    "ref": "https://duckduckgo.com/",

@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-15T21:21:00.680Z",
+ "generated": "2026-09-15T21:31:00.890Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 22097,
+ "verifiedAiHits": 22101,
  "logsScanned": 30,
  "windowStart": "2026-09-01",
  "windowEnd": "2026-09-15",
- "totalHits": 140846,
- "aiHits": 101417,
+ "totalHits": 140869,
+ "aiHits": 101434,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 26478,
+   "hits": 26480,
    "verifiedHits": 0,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
@@ -80,14 +80,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19246,
+   "hits": 19252,
    "verifiedHits": 0,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 88
+     "hits": 89
     },
     {
      "path": "/dashboard",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15522,
+   "hits": 15529,
    "verifiedHits": 0,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
@@ -127,12 +127,12 @@
      "hits": 17
     },
     {
-     "path": "/wire.html",
-     "hits": 14
+     "path": "/tags/reportive",
+     "hits": 15
     },
     {
-     "path": "/tags/reportive",
-     "hits": 13
+     "path": "/wire.html",
+     "hits": 14
     },
     {
      "path": "/stacks/autogen%2Blitellm%2Bmem0",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6456,
-   "verifiedHits": 6309,
+   "hits": 6460,
+   "verifiedHits": 6313,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3786,
-   "verifiedHits": 3599,
+   "hits": 3789,
+   "verifiedHits": 3602,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
    "topPaths": [
@@ -234,7 +234,7 @@
      "hits": 27
     },
     {
-     "path": "/posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html",
+     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
      "hits": 27
     }
    ],
@@ -245,14 +245,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3280,
-   "verifiedHits": 3094,
+   "hits": 3281,
+   "verifiedHits": 3095,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
    "topPaths": [
     {
      "path": "/",
-     "hits": 593
+     "hits": 594
     },
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
