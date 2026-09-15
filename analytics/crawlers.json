@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-15T09:03:34.430Z",
+ "generated": "2026-09-15T09:13:41.043Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 20996,
+ "verifiedAiHits": 21787,
  "logsScanned": 30,
  "windowStart": "2026-09-01",
  "windowEnd": "2026-09-15",
- "totalHits": 136937,
- "aiHits": 98126,
+ "totalHits": 137801,
+ "aiHits": 98977,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37956,
+   "hits": 37972,
    "verifiedHits": 0,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 26303,
+   "hits": 26306,
    "verifiedHits": 0,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
@@ -80,18 +80,22 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18616,
+   "hits": 18651,
    "verifiedHits": 0,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 66
+     "hits": 68
     },
     {
      "path": "/dashboard",
      "hits": 17
+    },
+    {
+     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
+     "hits": 8
     },
     {
      "path": "/apps",
@@ -100,10 +104,6 @@
     {
      "path": "/",
      "hits": 8
-    },
-    {
-     "path": "/posts/2026-07-26-founder-shipping-log-model-wave-late-july.html",
-     "hits": 7
     }
    ],
    "verifiable": false
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15004,
+   "hits": 15011,
    "verifiedHits": 0,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6220,
-   "verifiedHits": 6073,
+   "hits": 6221,
+   "verifiedHits": 6074,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3664,
-   "verifiedHits": 3477,
+   "hits": 3666,
+   "verifiedHits": 3479,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3126,
-   "verifiedHits": 2943,
+   "hits": 3127,
+   "verifiedHits": 2944,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2566,
+   "hits": 2575,
    "verifiedHits": 0,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
@@ -340,6 +340,39 @@
    "verifiable": false
   },
   {
+   "name": "GPTBot",
+   "label": "GPTBot (OpenAI)",
+   "category": "ai",
+   "home": "https://openai.com/gptbot",
+   "hits": 2309,
+   "verifiedHits": 2109,
+   "firstSeen": "2026-09-01",
+   "lastSeen": "2026-09-15",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 38
+    },
+    {
+     "path": "/authors/wire-desk",
+     "hits": 6
+    },
+    {
+     "path": "/tags/howto",
+     "hits": 6
+    },
+    {
+     "path": "/graphql",
+     "hits": 5
+    },
+    {
+     "path": "/authors/rosalinda",
+     "hits": 5
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "ClaudeBot",
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
@@ -373,44 +406,11 @@
    "verifiable": false
   },
   {
-   "name": "GPTBot",
-   "label": "GPTBot (OpenAI)",
-   "category": "ai",
-   "home": "https://openai.com/gptbot",
-   "hits": 1521,
-   "verifiedHits": 1321,
-   "firstSeen": "2026-09-01",
-   "lastSeen": "2026-09-15",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 18
-    },
-    {
-     "path": "/authors/wire-desk",
-     "hits": 6
-    },
-    {
-     "path": "/tags/howto",
-     "hits": 6
-    },
-    {
-     "path": "/graphql",
-     "hits": 5
-    },
-    {
-     "path": "/authors/rosalinda",
-     "hits": 5
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "Claude-User",
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1146,
+   "hits": 1148,
    "verifiedHits": 0,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",

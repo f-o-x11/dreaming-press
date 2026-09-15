@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-15T09:03:34.991Z",
+ "generated": "2026-09-15T09:13:41.591Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,18 +8,18 @@
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3287,
-  "reads": 315,
+  "views": 3283,
+  "reads": 314,
   "completes": 43,
-  "plays": 31,
-  "sessions": 3167
+  "plays": 30,
+  "sessions": 3162
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2975,
+   "views": 2972,
    "reads": 180,
-   "sessions": 2967
+   "sessions": 2962
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 40,
-   "reads": 17,
-   "sessions": 46
+   "views": 39,
+   "reads": 16,
+   "sessions": 45
   },
   {
    "channel": "referral",
@@ -61,16 +61,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 31
+   "sessions": 30
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2975,
+   "views": 2972,
    "reads": 180,
    "completes": 20,
-   "sessions": 2966,
+   "sessions": 2961,
    "read_rate": 0.061,
    "complete_rate": 0.007,
    "pages_per_session": 1,
@@ -111,12 +111,12 @@
   },
   {
    "channel": "ai",
-   "views": 40,
-   "reads": 17,
+   "views": 39,
+   "reads": 16,
    "completes": 2,
-   "sessions": 46,
-   "read_rate": 0.425,
-   "complete_rate": 0.05,
+   "sessions": 45,
+   "read_rate": 0.41,
+   "complete_rate": 0.051,
    "pages_per_session": 0.87,
    "median_dwell_sec": 20
   },
@@ -147,7 +147,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 31,
+   "sessions": 30,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -201,11 +201,6 @@
    "sessions": 1
   },
   {
-   "surface": "btn-agents",
-   "clicks": 3,
-   "sessions": 3
-  },
-  {
    "surface": "wire-row",
    "clicks": 2,
    "sessions": 2
@@ -229,6 +224,11 @@
    "surface": "btn-stats",
    "clicks": 2,
    "sessions": 2
+  },
+  {
+   "surface": "btn-agents",
+   "clicks": 2,
+   "sessions": 2
   }
  ],
  "assistants": [
@@ -240,9 +240,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 12,
-   "reads": 8,
-   "sessions": 7
+   "views": 11,
+   "reads": 7,
+   "sessions": 6
   },
   {
    "assistant": "Perplexity",
@@ -284,15 +284,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2628,
-   "reads": 290,
-   "sessions": 2517
+   "views": 2625,
+   "reads": 289,
+   "sessions": 2513
   },
   {
    "device": "mobile",
-   "views": 658,
+   "views": 657,
    "reads": 24,
-   "sessions": 650
+   "sessions": 649
   },
   {
    "device": "tablet",
@@ -485,16 +485,6 @@
    "plays": 2
   },
   {
-   "slug": "gartner-ai-agent-spending-2026",
-   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
-   "section": "wire",
-   "tags": "[\"reportive\",\"cynical\"]",
-   "author": "priya",
-   "views": 6,
-   "reads": 1,
-   "plays": 2
-  },
-  {
    "slug": "how-to-manage-context-in-a-long-running-agent",
    "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
    "section": "wire",
@@ -552,6 +542,16 @@
    "author": "dex",
    "views": 3,
    "reads": 2,
+   "plays": 1
+  },
+  {
+   "slug": "2026-06-22-gpu-for-llm-inference-h100-vs-h200-vs-a100-vs-l40s",
+   "title": "GPU for LLM Inference: H100 vs H200 vs A100 vs L40S",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 6,
+   "reads": 1,
    "plays": 1
   }
  ],
@@ -743,13 +743,6 @@
    "avg_dwell_sec": 7
   },
   {
-   "path": "/subscribe",
-   "views": 8,
-   "reads": 0,
-   "sessions": 7,
-   "avg_dwell_sec": 17
-  },
-  {
    "path": "/about.html",
    "views": 7,
    "reads": 0,
@@ -762,6 +755,13 @@
    "reads": 0,
    "sessions": 7,
    "avg_dwell_sec": 4
+  },
+  {
+   "path": "/subscribe",
+   "views": 7,
+   "reads": 0,
+   "sessions": 6,
+   "avg_dwell_sec": 24
   }
  ],
  "referrers": [
@@ -791,14 +791,14 @@
    "sessions": 18
   },
   {
-   "ref": "https://www.doubao.com/",
-   "hits": 21,
-   "sessions": 7
-  },
-  {
    "ref": "https://www.google.com/",
    "hits": 20,
    "sessions": 15
+  },
+  {
+   "ref": "https://www.doubao.com/",
+   "hits": 19,
+   "sessions": 6
   },
   {
    "ref": "https://www.perplexity.ai/",
