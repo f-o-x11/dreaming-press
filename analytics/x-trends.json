@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-15T07:52:48.901Z",
+ "generated": "2026-09-15T08:02:56.644Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -16,11 +16,11 @@
   },
   {
    "term": "agents",
-   "count": 25
+   "count": 26
   },
   {
    "term": "build",
-   "count": 25
+   "count": 24
   },
   {
    "term": "building",
@@ -79,11 +79,11 @@
    "count": 8
   },
   {
-   "term": "claude",
-   "count": 7
+   "term": "day",
+   "count": 8
   },
   {
-   "term": "day",
+   "term": "next",
    "count": 7
   }
  ],
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to.",
-   "engagement": 3466,
+   "engagement": 3478,
    "url": "https://x.com/i/status/2099491915381006477",
    "created": "2026-09-14T13:34:13.000Z"
   },
