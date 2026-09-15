@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-15T18:09Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-15T18:19Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -65,8 +65,8 @@ so what these earn from humans is the other half of the picture.
 - /best/:cat — 36 views, 1 reads, 37 sessions, avg 4s
 - /build — 34 views, 0 reads, 34 sessions, avg 4s
 - /dashboard — 18 views, 0 reads, 12 sessions, avg 9s
-- /alternatives/:tool — 17 views, 0 reads, 17 sessions, avg 4s
 - /topics/:topic — 17 views, 0 reads, 17 sessions, avg 6s
+- /alternatives/:tool — 16 views, 0 reads, 16 sessions, avg 4s
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
 
@@ -104,12 +104,12 @@ sample size dwarfs the engaged-read counts below.
 - /wire.html  — 34 retrieval fetches
 - /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 27 retrieval fetches
 - /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html  — 26 retrieval fetches
-- /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 26 retrieval fetches
+- /posts/serverless-inference-api-groq-fireworks-together-deepinfra-baseten.html  — 26 retrieval fetches
 
 Per engine:
 - PerplexityBot (13290 verified): /build ×210 · /dashboard ×24 · / ×23
-- OAI-SearchBot (3538 verified): /wire.html ×34 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×27 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×26
-- ChatGPT-User (3065 verified): / ×588 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×113 · /posts/open-source-llm-for-coding-september-2026.html ×91
+- OAI-SearchBot (3540 verified): /wire.html ×34 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×27 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×26
+- ChatGPT-User (3066 verified): / ×588 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×113 · /posts/open-source-llm-for-coding-september-2026.html ×91
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -157,20 +157,20 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 22003 confirmed AI-engine fetches (Perplexity 13290, ChatGPT Search (OpenAI) 3538, ChatGPT (user browsing) 3065, GPTBot (OpenAI) 2110).
+The real answer engines are crawling us — IP-verified: 22006 confirmed AI-engine fetches (Perplexity 13290, ChatGPT Search (OpenAI) 3540, ChatGPT (user browsing) 3066, GPTBot (OpenAI) 2110).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 781 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 123 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 113 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 91 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 74 crawler fetches
-- /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 64 crawler fetches
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 64 crawler fetches
 - /posts/august-2026-ai-deprecation-calendar-founders-migrate.html  — 57 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 50 crawler fetches
 - /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html  — 46 crawler fetches
 - /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 46 crawler fetches
 - /posts/2026-08-22-startup-wins-price-war-below-free.html  — 44 crawler fetches
+- /posts/gpt-5-6-terra-vs-kimi-k3-mid-tier-agent-backend.html  — 41 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
