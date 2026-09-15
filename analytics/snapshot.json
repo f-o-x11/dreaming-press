@@ -1,14 +1,14 @@
 {
- "generated": "2026-09-15T00:48:16.241Z",
+ "generated": "2026-09-15T00:58:22.844Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 1,
   "avgTimeSec": 4,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3288,
+  "views": 3289,
   "reads": 319,
   "completes": 46,
   "plays": 31,
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2975,
+   "views": 2974,
    "reads": 183,
-   "sessions": 2965
+   "sessions": 2964
   },
   {
    "channel": "organic",
@@ -35,15 +35,15 @@
   },
   {
    "channel": "ai",
-   "views": 40,
+   "views": 41,
    "reads": 19,
    "sessions": 48
   },
   {
    "channel": "referral",
-   "views": 60,
+   "views": 61,
    "reads": 16,
-   "sessions": 58
+   "sessions": 59
   },
   {
    "channel": "social",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2975,
+   "views": 2974,
    "reads": 183,
    "completes": 23,
-   "sessions": 2964,
+   "sessions": 2963,
    "read_rate": 0.062,
    "complete_rate": 0.008,
    "pages_per_session": 1,
@@ -100,24 +100,24 @@
   },
   {
    "channel": "referral",
-   "views": 60,
+   "views": 61,
    "reads": 16,
    "completes": 1,
-   "sessions": 58,
-   "read_rate": 0.267,
-   "complete_rate": 0.017,
+   "sessions": 59,
+   "read_rate": 0.262,
+   "complete_rate": 0.016,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
   },
   {
    "channel": "ai",
-   "views": 40,
+   "views": 41,
    "reads": 19,
    "completes": 2,
    "sessions": 48,
-   "read_rate": 0.475,
-   "complete_rate": 0.05,
-   "pages_per_session": 0.83,
+   "read_rate": 0.463,
+   "complete_rate": 0.049,
+   "pages_per_session": 0.85,
    "median_dwell_sec": 20
   },
   {
@@ -240,7 +240,7 @@
   },
   {
    "assistant": "Doubao",
-   "views": 12,
+   "views": 13,
    "reads": 10,
    "sessions": 9
   },
@@ -284,7 +284,7 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2628,
+   "views": 2629,
    "reads": 295,
    "sessions": 2514
   },
@@ -423,21 +423,21 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-temporal-vs-inngest-vs-restate-durable-agents",
-   "title": "Temporal vs Inngest vs Restate: Durable Execution for AI Agents in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "pdf-parsing-for-rag-docling-marker-llamaparse-mistral-ocr",
    "title": "Parsing PDFs for RAG in 2026: PyMuPDF4LLM vs Docling vs Marker vs LlamaParse vs Mistral OCR",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
+   "views": 9,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-21-temporal-vs-inngest-vs-restate-durable-agents",
+   "title": "Temporal vs Inngest vs Restate: Durable Execution for AI Agents in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
    "views": 8,
    "reads": 4,
    "plays": 0
@@ -792,7 +792,7 @@
   },
   {
    "ref": "https://www.doubao.com/",
-   "hits": 23,
+   "hits": 24,
    "sessions": 9
   },
   {
