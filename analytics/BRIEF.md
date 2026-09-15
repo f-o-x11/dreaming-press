@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-09-15T02:29Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-15T02:39Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3299 views → 317 engaged reads → 46 completes · 3174 sessions.
-- Channels: direct 181r/2985v · organic 68r/109v · campaign:chatgpt.com 31r/95v · ai 19r/41v · referral 16r/61v · social 1r/7v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 32r/105v · Doubao 10r/13v · Perplexity 4r/6v · DeepSeek 1r/4v · Grok 1r/3v · Yuanbao 1r/1v · Claude 0r/2v · Kimi 0r/1v.
+- Funnel: 3298 views → 317 engaged reads → 46 completes · 3173 sessions.
+- Channels: direct 181r/2983v · organic 68r/109v · campaign:chatgpt.com 31r/95v · ai 19r/42v · referral 16r/61v · social 1r/7v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 32r/105v · Doubao 10r/14v · Perplexity 4r/6v · DeepSeek 1r/4v · Grok 1r/3v · Yuanbao 1r/1v · Claude 0r/2v · Kimi 0r/1v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, duckduckgo.com, l.instagram.com, doubao.com, google.com, perplexity.ai, brand, nav-cmp.
 - Engaged-read winners by section: stack=8, wire=7.
 
@@ -23,11 +23,11 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2985 views · read 6.1% · complete 0.8% · 1 pages/session · median 4s
+- direct: 2983 views · read 6.1% · complete 0.8% · 1 pages/session · median 4s
 - organic: 109 views · read 62.4% · complete 2.8% · 1.11 pages/session · median 10s
 - campaign:chatgpt.com: 95 views · read 32.6% · complete 3.2% · 1.03 pages/session · median ?s
 - referral: 61 views · read 26.2% · complete 1.6% · 1.03 pages/session · median ?s
-- ai: 41 views · read 46.3% · complete 4.9% · 0.85 pages/session · median 20s
+- ai: 42 views · read 45.2% · complete 4.8% · 0.88 pages/session · median 20s
 - social: 7 views · read 14.3% · complete 0.0% · 1.17 pages/session · median ?s
 INSIGHT: organic converts 10x better per view than direct, which is 90% of all views.
 One visitor from organic is worth many from direct. Commission for the channels that read.
