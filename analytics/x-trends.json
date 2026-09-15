@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-15T12:56:08.341Z",
+ "generated": "2026-09-15T13:06:10.682Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "startup",
-   "count": 29
+   "count": 28
   },
   {
    "term": "founder",
@@ -16,7 +16,7 @@
   },
   {
    "term": "agents",
-   "count": 25
+   "count": 24
   },
   {
    "term": "build",
@@ -24,18 +24,18 @@
   },
   {
    "term": "building",
-   "count": 20
+   "count": 21
   },
   {
    "term": "agentic",
    "count": 19
   },
   {
-   "term": "mcp",
-   "count": 16
+   "term": "agent",
+   "count": 17
   },
   {
-   "term": "agent",
+   "term": "mcp",
    "count": 15
   },
   {
@@ -43,19 +43,19 @@
    "count": 13
   },
   {
+   "term": "its",
+   "count": 12
+  },
+  {
    "term": "has",
    "count": 11
   },
   {
-   "term": "its",
+   "term": "context",
    "count": 11
   },
   {
    "term": "python",
-   "count": 10
-  },
-  {
-   "term": "context",
    "count": 10
   },
   {
@@ -75,26 +75,26 @@
    "count": 7
   },
   {
-   "term": "here",
-   "count": 7
-  },
-  {
    "term": "claude",
    "count": 7
   },
   {
    "term": "day",
    "count": 7
+  },
+  {
+   "term": "here",
+   "count": 6
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 8
+   "count": 9
   },
   {
    "term": "#startup",
-   "count": 8
+   "count": 9
   },
   {
    "term": "#founder",
@@ -117,10 +117,6 @@
    "count": 2
   },
   {
-   "term": "#agentic",
-   "count": 1
-  },
-  {
    "term": "#genai",
    "count": 1
   },
@@ -135,12 +131,16 @@
   {
    "term": "#indiehackers",
    "count": 1
+  },
+  {
+   "term": "#entrepreneurship",
+   "count": 1
   }
  ],
  "topPosts": [
   {
    "text": "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to.",
-   "engagement": 4085,
+   "engagement": 4106,
    "url": "https://x.com/i/status/2099491915381006477",
    "created": "2026-09-14T13:34:13.000Z"
   },
