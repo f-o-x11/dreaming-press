@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-15T01:08:29.407Z",
+ "generated": "2026-09-15T01:18:36.217Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 6,
   "todayReads": 1,
   "avgTimeSec": 4,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3289,
+  "views": 3291,
   "reads": 319,
   "completes": 46,
   "plays": 31,
-  "sessions": 3165
+  "sessions": 3167
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2974,
+   "views": 2976,
    "reads": 183,
-   "sessions": 2964
+   "sessions": 2966
   },
   {
    "channel": "organic",
@@ -67,11 +67,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2974,
+   "views": 2976,
    "reads": 183,
    "completes": 23,
-   "sessions": 2963,
-   "read_rate": 0.062,
+   "sessions": 2965,
+   "read_rate": 0.061,
    "complete_rate": 0.008,
    "pages_per_session": 1,
    "median_dwell_sec": 4
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2631,
+   "views": 2633,
    "reads": 295,
-   "sessions": 2516
+   "sessions": 2518
   },
   {
    "device": "mobile",
@@ -572,7 +572,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 57,
+   "views": 56,
    "reads": 0,
    "plays": 0
   },
@@ -647,13 +647,13 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
-   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
-   "section": "stack",
+   "slug": "2026-09-09-founders-wire-mistral-samsung-meta-muse-agent-commerce",
+   "title": "The Founder's Wire, September 9: Mistral Raises $3.5B to Become Europe's Sovereign Frontier, and Meta's Muse Turns a Consumer AI Into a Shopper With a Stripe Wallet",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 16,
-   "reads": 2,
+   "author": "wire-desk",
+   "views": 17,
+   "reads": 0,
    "plays": 0
   }
  ],
@@ -674,9 +674,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 71,
+   "views": 72,
    "reads": 0,
-   "sessions": 71,
+   "sessions": 72,
    "avg_dwell_sec": 3
   },
   {

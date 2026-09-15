@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-15T01:08:28.742Z",
+ "generated": "2026-09-15T01:18:35.711Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 20787,
+ "verifiedAiHits": 20789,
  "logsScanned": 30,
  "windowStart": "2026-09-01",
  "windowEnd": "2026-09-15",
- "totalHits": 133708,
- "aiHits": 95434,
+ "totalHits": 133751,
+ "aiHits": 95459,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36301,
+   "hits": 36305,
    "verifiedHits": 0,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 26178,
+   "hits": 26179,
    "verifiedHits": 0,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
@@ -61,15 +61,15 @@
      "hits": 5
     },
     {
+     "path": "/posts/skypilot-20m-seed-unified-ai-compute-founders.md",
+     "hits": 4
+    },
+    {
      "path": "/posts/claude-managed-agents-vs-gemini-managed-agents-who-holds-the-session.md",
      "hits": 4
     },
     {
      "path": "/posts/kubernetes-agent-sandbox-warm-pool.md",
-     "hits": 4
-    },
-    {
-     "path": "/posts/2026-06-23-how-much-vram-to-serve-an-llm.html",
      "hits": 4
     }
    ],
@@ -80,14 +80,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18244,
+   "hits": 18256,
    "verifiedHits": 0,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 54
+     "hits": 56
     },
     {
      "path": "/dashboard",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14644,
+   "hits": 14651,
    "verifiedHits": 0,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
@@ -179,14 +179,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6039,
-   "verifiedHits": 5892,
+   "hits": 6040,
+   "verifiedHits": 5893,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 107
+     "hits": 108
     },
     {
      "path": "/posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html",
@@ -245,14 +245,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3062,
-   "verifiedHits": 2880,
+   "hits": 3064,
+   "verifiedHits": 2882,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
    "topPaths": [
     {
      "path": "/",
-     "hits": 558
+     "hits": 559
     },
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2409,
+   "hits": 2425,
    "verifiedHits": 0,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
