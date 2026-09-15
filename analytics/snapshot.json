@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-15T07:22:30.802Z",
+ "generated": "2026-09-15T07:32:37.220Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 0,
   "todayReads": 4,
   "avgTimeSec": 9,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3308,
-  "reads": 316,
-  "completes": 44,
+  "views": 3302,
+  "reads": 314,
+  "completes": 43,
   "plays": 31,
-  "sessions": 3186
+  "sessions": 3179
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2993,
-   "reads": 179,
-   "sessions": 2985
+   "views": 2988,
+   "reads": 178,
+   "sessions": 2979
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 41,
-   "reads": 18,
-   "sessions": 47
+   "views": 40,
+   "reads": 17,
+   "sessions": 46
   },
   {
    "channel": "referral",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2993,
-   "reads": 179,
-   "completes": 21,
-   "sessions": 2984,
+   "views": 2988,
+   "reads": 178,
+   "completes": 20,
+   "sessions": 2978,
    "read_rate": 0.06,
    "complete_rate": 0.007,
    "pages_per_session": 1,
@@ -111,12 +111,12 @@
   },
   {
    "channel": "ai",
-   "views": 41,
-   "reads": 18,
+   "views": 40,
+   "reads": 17,
    "completes": 2,
-   "sessions": 47,
-   "read_rate": 0.439,
-   "complete_rate": 0.049,
+   "sessions": 46,
+   "read_rate": 0.425,
+   "complete_rate": 0.05,
    "pages_per_session": 0.87,
    "median_dwell_sec": 20
   },
@@ -240,9 +240,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 13,
-   "reads": 9,
-   "sessions": 8
+   "views": 12,
+   "reads": 8,
+   "sessions": 7
   },
   {
    "assistant": "Perplexity",
@@ -284,15 +284,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2643,
-   "reads": 291,
-   "sessions": 2530
+   "views": 2638,
+   "reads": 289,
+   "sessions": 2524
   },
   {
    "device": "mobile",
-   "views": 664,
+   "views": 663,
    "reads": 24,
-   "sessions": 656
+   "sessions": 655
   },
   {
    "device": "tablet",
@@ -535,22 +535,22 @@
    "plays": 1
   },
   {
-   "slug": "how-to-get-confidence-scores-from-an-llm",
-   "title": "How to Get a Confidence Score From an LLM (and Why the Easy One Lies)",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 8,
-   "reads": 2,
-   "plays": 1
-  },
-  {
    "slug": "how-to-run-spec-driven-development-github-spec-kit",
    "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
    "section": "stack",
    "tags": "[\"reportive\",\"captivating\"]",
    "author": "rosalinda",
    "views": 4,
+   "reads": 2,
+   "plays": 1
+  },
+  {
+   "slug": "how-to-pick-parallel-coding-agent-runner-terminal-desktop-web-2026",
+   "title": "Parallel Coding-Agent Runners in 2026: Terminal vs Desktop vs Self-Hosted",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 3,
    "reads": 2,
    "plays": 1
   }
@@ -792,8 +792,8 @@
   },
   {
    "ref": "https://www.doubao.com/",
-   "hits": 23,
-   "sessions": 8
+   "hits": 21,
+   "sessions": 7
   },
   {
    "ref": "https://www.google.com/",
