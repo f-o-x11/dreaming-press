@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-15T13:06:10.682Z",
+ "generated": "2026-09-15T13:16:10.868Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -20,11 +20,11 @@
   },
   {
    "term": "build",
-   "count": 22
+   "count": 23
   },
   {
    "term": "building",
-   "count": 21
+   "count": 22
   },
   {
    "term": "agentic",
@@ -47,12 +47,12 @@
    "count": 12
   },
   {
-   "term": "has",
+   "term": "context",
    "count": 11
   },
   {
-   "term": "context",
-   "count": 11
+   "term": "has",
+   "count": 10
   },
   {
    "term": "python",
@@ -139,12 +139,6 @@
  ],
  "topPosts": [
   {
-   "text": "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to.",
-   "engagement": 4106,
-   "url": "https://x.com/i/status/2099491915381006477",
-   "created": "2026-09-14T13:34:13.000Z"
-  },
-  {
    "text": "Israeli AI startup founder Ilit Razt pleaded guilty in New York to a $27 million investor fraud scheme.​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ I’m willing to bet Donald Trump will pardon him like he’s pardoned",
    "engagement": 1988,
    "url": "https://x.com/i/status/2098886739087745493",
@@ -185,6 +179,12 @@
    "engagement": 91,
    "url": "https://x.com/i/status/2099497176376152431",
    "created": "2026-09-14T13:55:08.000Z"
+  },
+  {
+   "text": "I’m 28. Founder from Russia 🇷🇺 Building an AI startup that helps restaurants understand what’s actually happening inside their operations. Learning AI &amp; tech from the ground up while building a real company. Lookin",
+   "engagement": 79,
+   "url": "https://x.com/i/status/2098839598084313117",
+   "created": "2026-09-12T18:22:09.000Z"
   }
  ]
 }
