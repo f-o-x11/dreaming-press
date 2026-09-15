@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-15T09:13:41.591Z",
+ "generated": "2026-09-15T09:23:48.130Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 7,
   "avgTimeSec": 12,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3283,
-  "reads": 314,
+  "views": 3281,
+  "reads": 313,
   "completes": 43,
   "plays": 30,
-  "sessions": 3162
+  "sessions": 3160
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2972,
-   "reads": 180,
-   "sessions": 2962
+   "views": 2970,
+   "reads": 179,
+   "sessions": 2960
   },
   {
    "channel": "organic",
@@ -67,11 +67,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2972,
-   "reads": 180,
+   "views": 2970,
+   "reads": 179,
    "completes": 20,
-   "sessions": 2961,
-   "read_rate": 0.061,
+   "sessions": 2959,
+   "read_rate": 0.06,
    "complete_rate": 0.007,
    "pages_per_session": 1,
    "median_dwell_sec": 4
@@ -284,15 +284,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2625,
-   "reads": 289,
-   "sessions": 2513
+   "views": 2622,
+   "reads": 288,
+   "sessions": 2510
   },
   {
    "device": "mobile",
-   "views": 657,
+   "views": 658,
    "reads": 24,
-   "sessions": 649
+   "sessions": 650
   },
   {
    "device": "tablet",
@@ -647,13 +647,13 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
+   "slug": "jujutsu-vs-git-version-control-for-builders",
+   "title": "Jujutsu vs Git: The Version-Control Model Builders Are Quietly Switching To",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 16,
-   "reads": 2,
+   "views": 15,
+   "reads": 1,
    "plays": 0
   }
  ],
