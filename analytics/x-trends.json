@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-15T16:07:55.742Z",
+ "generated": "2026-09-15T16:18:01.019Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,39 +8,39 @@
  "topTerms": [
   {
    "term": "startup",
-   "count": 28
-  },
-  {
-   "term": "agents",
-   "count": 26
+   "count": 27
   },
   {
    "term": "founder",
    "count": 26
   },
   {
-   "term": "build",
+   "term": "agents",
+   "count": 25
+  },
+  {
+   "term": "building",
    "count": 22
   },
   {
-   "term": "agent",
-   "count": 19
+   "term": "build",
+   "count": 22
   },
   {
    "term": "agentic",
    "count": 19
   },
   {
-   "term": "building",
-   "count": 19
-  },
-  {
-   "term": "mcp",
-   "count": 16
+   "term": "agent",
+   "count": 18
   },
   {
    "term": "systems",
-   "count": 13
+   "count": 15
+  },
+  {
+   "term": "mcp",
+   "count": 15
   },
   {
    "term": "context",
@@ -63,20 +63,16 @@
    "count": 10
   },
   {
-   "term": "day",
-   "count": 9
+   "term": "about",
+   "count": 8
   },
   {
-   "term": "about",
+   "term": "day",
    "count": 8
   },
   {
    "term": "google",
    "count": 8
-  },
-  {
-   "term": "next",
-   "count": 7
   },
   {
    "term": "claude",
@@ -85,16 +81,20 @@
   {
    "term": "all",
    "count": 7
+  },
+  {
+   "term": "engineer",
+   "count": 7
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 8
+   "count": 9
   },
   {
    "term": "#startup",
-   "count": 8
+   "count": 9
   },
   {
    "term": "#founder",
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to.",
-   "engagement": 4410,
+   "engagement": 4413,
    "url": "https://x.com/i/status/2099491915381006477",
    "created": "2026-09-14T13:34:13.000Z"
   },
@@ -155,12 +155,6 @@
    "engagement": 1709,
    "url": "https://x.com/i/status/2097389489408594192",
    "created": "2026-09-08T18:19:56.000Z"
-  },
-  {
-   "text": "Rooting for $PAYGENT’s launch today @usepaygent. With Vlad Tenev pushing the AI agent payments narrative through Robinhood’s agentic credit card, this is a category I’m watching. Paygent built for months before launching",
-   "engagement": 410,
-   "url": "https://x.com/i/status/2097357503818305566",
-   "created": "2026-09-08T16:12:50.000Z"
   },
   {
    "text": "Finch V2 is live on @ponsdotfamily. Over the past few months, what started as NoelClaw evolved into something much bigger — a platform where AI agents can remember, research, build, automate, trade, and interact with rea",
@@ -185,6 +179,12 @@
    "engagement": 91,
    "url": "https://x.com/i/status/2099497176376152431",
    "created": "2026-09-14T13:55:08.000Z"
+  },
+  {
+   "text": "💥574 information-packed pages from @PacktDataML at https://t.co/nxWY6AOB50 🚀 \"Agentic Architectural Patterns for Building Multi-Agent Systems — Proven design patterns and practices for GenAI, agents, RAG, LLMOps, and e",
+   "engagement": 83,
+   "url": "https://x.com/i/status/2099599577514987841",
+   "created": "2026-09-14T20:42:02.000Z"
   }
  ]
 }
