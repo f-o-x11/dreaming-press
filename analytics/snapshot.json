@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-15T23:42:40.114Z",
+ "generated": "2026-09-15T23:52:50.998Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 21,
   "avgTimeSec": 11,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3289,
+  "views": 3290,
   "reads": 317,
   "completes": 42,
   "plays": 30,
-  "sessions": 3169
+  "sessions": 3171
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2966,
+   "views": 2969,
    "reads": 179,
-   "sessions": 2958
+   "sessions": 2961
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "ai",
-   "views": 40,
+   "views": 38,
    "reads": 16,
-   "sessions": 47
+   "sessions": 46
   },
   {
    "channel": "social",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2966,
+   "views": 2969,
    "reads": 179,
    "completes": 19,
-   "sessions": 2957,
+   "sessions": 2960,
    "read_rate": 0.06,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -111,13 +111,13 @@
   },
   {
    "channel": "ai",
-   "views": 40,
+   "views": 38,
    "reads": 16,
    "completes": 2,
-   "sessions": 47,
-   "read_rate": 0.4,
-   "complete_rate": 0.05,
-   "pages_per_session": 0.85,
+   "sessions": 46,
+   "read_rate": 0.421,
+   "complete_rate": 0.053,
+   "pages_per_session": 0.83,
    "median_dwell_sec": 20
   },
   {
@@ -269,12 +269,6 @@
    "sessions": 1
   },
   {
-   "assistant": "Claude",
-   "views": 2,
-   "reads": 0,
-   "sessions": 1
-  },
-  {
    "assistant": "Kimi",
    "views": 1,
    "reads": 0,
@@ -286,13 +280,13 @@
    "device": "desktop",
    "views": 2621,
    "reads": 290,
-   "sessions": 2510
+   "sessions": 2511
   },
   {
    "device": "mobile",
-   "views": 667,
+   "views": 668,
    "reads": 26,
-   "sessions": 659
+   "sessions": 660
   },
   {
    "device": "tablet",
@@ -667,9 +661,9 @@
   },
   {
    "path": "/",
-   "views": 182,
+   "views": 183,
    "reads": 1,
-   "sessions": 180,
+   "sessions": 181,
    "avg_dwell_sec": 10
   },
   {
