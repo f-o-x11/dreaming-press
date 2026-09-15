@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-15T00:58Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-15T01:08Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -60,7 +60,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 379 views, 0 reads, 375 sessions, avg 4s
-- / — 183 views, 1 reads, 180 sessions, avg 9s
+- / — 182 views, 1 reads, 179 sessions, avg 9s
 - /compare/:pair — 71 views, 0 reads, 71 sessions, avg 3s
 - /best/:cat — 37 views, 1 reads, 38 sessions, avg 4s
 - /build — 34 views, 0 reads, 34 sessions, avg 4s
@@ -85,7 +85,7 @@ skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [wire] "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again" — 58 views but only 1 engaged reads (1.7%)
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 57 views but only 0 engaged reads (0.0%)
-- [wire] "The Founder's Wire, September 8: Nvidia Buys the Open-Model Commons, OpenAI Moves to Rent You an Agent Runtime, and Anthropic Wants to Own Its Money Rails" — 17 views but only 0 engaged reads (0.0%)
+- [wire] "The Founder's Wire, September 8: Nvidia Buys the Open-Model Commons, OpenAI Moves to Rent You an Agent Runtime, and Anthropic Wants to Own Its Money Rails" — 18 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
@@ -99,7 +99,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 104 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 82 retrieval fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 65 retrieval fetches
-- /posts/august-2026-ai-deprecation-calendar-founders-migrate.html  — 56 retrieval fetches
+- /posts/august-2026-ai-deprecation-calendar-founders-migrate.html  — 57 retrieval fetches
 - /wire.html  — 32 retrieval fetches
 - /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 26 retrieval fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 26 retrieval fetches
@@ -107,8 +107,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (13182 verified): /build ×209 · /dashboard ×24 · / ×23
-- OAI-SearchBot (3408 verified): /wire.html ×32 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×26 · /posts/ai-coding-agent-ranking-2026.html ×26
-- ChatGPT-User (2876 verified): / ×558 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×104 · /posts/open-source-llm-for-coding-september-2026.html ×82
+- OAI-SearchBot (3410 verified): /wire.html ×32 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×26 · /posts/ai-coding-agent-ranking-2026.html ×26
+- ChatGPT-User (2880 verified): / ×558 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×104 · /posts/open-source-llm-for-coding-september-2026.html ×82
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -133,7 +133,7 @@ High-engagement posts to react to / cite:
 - "Finch V2 is live on @ponsdotfamily. Over the past few months, what started as NoelClaw evolved into something much bigger — a platform where AI agents can remember, research, build, automate, trade, and interact with rea" — https://x.com/i/status/2098850575576428667
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (264 of 456 phrases have NO post, 61h ago)
+## Uncovered search demand (264 of 456 phrases have NO post, 62h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -156,14 +156,14 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 20780 confirmed AI-engine fetches (Perplexity 13182, ChatGPT Search (OpenAI) 3408, ChatGPT (user browsing) 2876, GPTBot (OpenAI) 1314).
+The real answer engines are crawling us — IP-verified: 20787 confirmed AI-engine fetches (Perplexity 13182, ChatGPT Search (OpenAI) 3410, ChatGPT (user browsing) 2880, GPTBot (OpenAI) 1315).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 719 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 120 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 104 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 82 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 72 crawler fetches
-- /posts/august-2026-ai-deprecation-calendar-founders-migrate.html  — 56 crawler fetches
+- /posts/august-2026-ai-deprecation-calendar-founders-migrate.html  — 57 crawler fetches
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 54 crawler fetches
 - /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html  — 46 crawler fetches
 - /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 46 crawler fetches

@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-15T00:58:22.318Z",
+ "generated": "2026-09-15T01:08:28.742Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 20780,
+ "verifiedAiHits": 20787,
  "logsScanned": 30,
  "windowStart": "2026-09-01",
  "windowEnd": "2026-09-15",
- "totalHits": 133675,
- "aiHits": 95411,
+ "totalHits": 133708,
+ "aiHits": 95434,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36292,
+   "hits": 36301,
    "verifiedHits": 0,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 26172,
+   "hits": 26178,
    "verifiedHits": 0,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14637,
+   "hits": 14644,
    "verifiedHits": 0,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6037,
-   "verifiedHits": 5890,
+   "hits": 6039,
+   "verifiedHits": 5892,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3595,
-   "verifiedHits": 3408,
+   "hits": 3597,
+   "verifiedHits": 3410,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3058,
-   "verifiedHits": 2876,
+   "hits": 3062,
+   "verifiedHits": 2880,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
    "topPaths": [
@@ -268,7 +268,7 @@
     },
     {
      "path": "/posts/august-2026-ai-deprecation-calendar-founders-migrate.html",
-     "hits": 56
+     "hits": 57
     }
    ],
    "verifiable": true
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2334,
+   "hits": 2336,
    "verifiedHits": 0,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
@@ -377,10 +377,10 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 1514,
-   "verifiedHits": 1314,
+   "hits": 1515,
+   "verifiedHits": 1315,
    "firstSeen": "2026-09-01",
-   "lastSeen": "2026-09-14",
+   "lastSeen": "2026-09-15",
    "topPaths": [
     {
      "path": "/build",
