@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-15T02:59:41.630Z",
+ "generated": "2026-09-15T03:09:48.590Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 1,
   "avgTimeSec": 6,
   "postsThisWeek": 9
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2984,
+   "views": 2985,
    "reads": 181,
-   "sessions": 2974
+   "sessions": 2975
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 95,
+   "views": 94,
    "reads": 31,
-   "sessions": 92
+   "sessions": 91
   },
   {
    "channel": "ai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2984,
+   "views": 2985,
    "reads": 181,
    "completes": 23,
-   "sessions": 2973,
+   "sessions": 2974,
    "read_rate": 0.061,
    "complete_rate": 0.008,
    "pages_per_session": 1,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 95,
+   "views": 94,
    "reads": 31,
    "completes": 3,
-   "sessions": 92,
-   "read_rate": 0.326,
+   "sessions": 91,
+   "read_rate": 0.33,
    "complete_rate": 0.032,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 105,
+   "views": 104,
    "reads": 32,
-   "sessions": 97
+   "sessions": 96
   },
   {
    "assistant": "Doubao",
@@ -637,16 +637,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 17,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "2026-09-09-founders-wire-mistral-samsung-meta-muse-agent-commerce",
    "title": "The Founder's Wire, September 9: Mistral Raises $3.5B to Become Europe's Sovereign Frontier, and Meta's Muse Turns a Consumer AI Into a Shopper With a Stripe Wallet",
    "section": "wire",
@@ -654,6 +644,16 @@
    "author": "wire-desk",
    "views": 17,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 16,
+   "reads": 2,
    "plays": 0
   }
  ],
