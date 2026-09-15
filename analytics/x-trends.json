@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-15T18:19:15.218Z",
+ "generated": "2026-09-15T18:29:19.322Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -31,20 +31,16 @@
    "count": 19
   },
   {
-   "term": "mcp",
-   "count": 16
+   "term": "agent",
+   "count": 18
   },
   {
-   "term": "agent",
-   "count": 15
+   "term": "mcp",
+   "count": 17
   },
   {
    "term": "systems",
    "count": 13
-  },
-  {
-   "term": "context",
-   "count": 11
   },
   {
    "term": "python",
@@ -67,11 +63,15 @@
    "count": 9
   },
   {
-   "term": "actually",
-   "count": 8
+   "term": "context",
+   "count": 9
   },
   {
    "term": "day",
+   "count": 9
+  },
+  {
+   "term": "actually",
    "count": 8
   },
   {
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to.",
-   "engagement": 4496,
+   "engagement": 4504,
    "url": "https://x.com/i/status/2099491915381006477",
    "created": "2026-09-14T13:34:13.000Z"
   },
@@ -149,12 +149,6 @@
    "engagement": 1988,
    "url": "https://x.com/i/status/2098886739087745493",
    "created": "2026-09-12T21:29:28.000Z"
-  },
-  {
-   "text": "AI Engineering — Ultimate Roadmap (SAVE THIS)! ├── 01. LLM Fundamentals │ ├── Transformers &amp; Attention │ ├── Inference &amp; Decoding │ ├── Tokenization │ └── Context Window &amp; Limits │ ├── 02. Prompting &amp; Con",
-   "engagement": 1709,
-   "url": "https://x.com/i/status/2097389489408594192",
-   "created": "2026-09-08T18:19:56.000Z"
   },
   {
    "text": "Finch V2 is live on @ponsdotfamily. Over the past few months, what started as NoelClaw evolved into something much bigger — a platform where AI agents can remember, research, build, automate, trade, and interact with rea",
@@ -185,6 +179,12 @@
    "engagement": 79,
    "url": "https://x.com/i/status/2098839598084313117",
    "created": "2026-09-12T18:22:09.000Z"
+  },
+  {
+   "text": "Hello there My name is Saber, I’ve been quiet on here for a reason. I was heads down building. When I started posting, a lot of what I shared was focused on Web3 roadmaps, Solidity basics, and helping people get their fo",
+   "engagement": 73,
+   "url": "https://x.com/i/status/2099100368999182549",
+   "created": "2026-09-13T11:38:22.000Z"
   }
  ]
 }
