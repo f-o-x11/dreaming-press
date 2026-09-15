@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-15T14:26:47.678Z",
+ "generated": "2026-09-15T14:36:47.052Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 5,
   "todayReads": 14,
   "avgTimeSec": 11,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3298,
-  "reads": 316,
+  "views": 3295,
+  "reads": 313,
   "completes": 43,
   "plays": 30,
-  "sessions": 3176
+  "sessions": 3175
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2983,
    "reads": 180,
-   "sessions": 2975
+   "sessions": 2974
   },
   {
    "channel": "organic",
-   "views": 111,
-   "reads": 71,
-   "sessions": 101
+   "views": 108,
+   "reads": 68,
+   "sessions": 99
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -70,7 +70,7 @@
    "views": 2983,
    "reads": 180,
    "completes": 20,
-   "sessions": 2974,
+   "sessions": 2973,
    "read_rate": 0.06,
    "complete_rate": 0.007,
    "pages_per_session": 1,
@@ -78,13 +78,13 @@
   },
   {
    "channel": "organic",
-   "views": 111,
-   "reads": 71,
+   "views": 108,
+   "reads": 68,
    "completes": 3,
-   "sessions": 101,
-   "read_rate": 0.64,
-   "complete_rate": 0.027,
-   "pages_per_session": 1.1,
+   "sessions": 99,
+   "read_rate": 0.63,
+   "complete_rate": 0.028,
+   "pages_per_session": 1.09,
    "median_dwell_sec": 10
   },
   {
@@ -284,15 +284,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2636,
-   "reads": 291,
-   "sessions": 2523
+   "views": 2632,
+   "reads": 288,
+   "sessions": 2521
   },
   {
    "device": "mobile",
-   "views": 661,
+   "views": 662,
    "reads": 24,
-   "sessions": 653
+   "sessions": 654
   },
   {
    "device": "tablet",
@@ -443,8 +443,8 @@
    "plays": 0
   },
   {
-   "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
-   "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
+   "slug": "gpt-5-6-prompt-caching-explicit-breakpoints",
+   "title": "GPT-5.6 Rewired Prompt Caching: A Hands-On Guide to prompt_cache_options",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -767,8 +767,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 88,
-   "sessions": 40
+   "hits": 86,
+   "sessions": 39
   },
   {
    "ref": "https://chatgpt.com/",
@@ -782,8 +782,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 32,
-   "sessions": 17
+   "hits": 28,
+   "sessions": 16
   },
   {
    "ref": "https://l.instagram.com/",
