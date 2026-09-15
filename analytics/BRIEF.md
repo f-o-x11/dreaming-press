@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-15T12:05Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-15T12:15Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3298 views → 318 engaged reads → 43 completes · 3176 sessions.
-- Channels: direct 182r/2984v · organic 71r/110v · campaign:chatgpt.com 32r/96v · ai 16r/40v · referral 15r/60v · social 1r/7v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
+- Funnel: 3297 views → 317 engaged reads → 43 completes · 3175 sessions.
+- Channels: direct 181r/2983v · organic 71r/110v · campaign:chatgpt.com 32r/96v · ai 16r/40v · referral 15r/60v · social 1r/7v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 33r/107v · Doubao 7r/11v · Perplexity 4r/6v · DeepSeek 1r/4v · Grok 1r/3v · Yuanbao 1r/1v · Claude 0r/2v · Kimi 0r/1v.
 - Referrers: bing.com, chatgpt.com, cn.bing.com, duckduckgo.com, l.instagram.com, google.com, doubao.com, perplexity.ai, brand, nav-cmp.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2984 views · read 6.1% · complete 0.7% · 1 pages/session · median 4s
+- direct: 2983 views · read 6.1% · complete 0.7% · 1 pages/session · median 4s
 - organic: 110 views · read 64.5% · complete 2.7% · 1.09 pages/session · median 10s
 - campaign:chatgpt.com: 96 views · read 33.3% · complete 3.1% · 1.03 pages/session · median ?s
 - referral: 60 views · read 25.0% · complete 1.7% · 1.03 pages/session · median ?s
@@ -103,13 +103,13 @@ sample size dwarfs the engaged-read counts below.
 - /posts/august-2026-ai-deprecation-calendar-founders-migrate.html  — 57 retrieval fetches
 - /wire.html  — 33 retrieval fetches
 - /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html  — 26 retrieval fetches
+- /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 26 retrieval fetches
 - /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 26 retrieval fetches
-- /posts/ai-coding-agent-ranking-2026.html  — 26 retrieval fetches
 
 Per engine:
 - PerplexityBot (13256 verified): /build ×209 · /dashboard ×24 · / ×23
-- OAI-SearchBot (3507 verified): /wire.html ×33 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×26 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×26
-- ChatGPT-User (2976 verified): / ×577 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×109 · /posts/open-source-llm-for-coding-september-2026.html ×88
+- OAI-SearchBot (3510 verified): /wire.html ×33 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×26 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×26
+- ChatGPT-User (2977 verified): / ×577 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×109 · /posts/open-source-llm-for-coding-september-2026.html ×88
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -134,7 +134,7 @@ High-engagement posts to react to / cite:
 - "Finch V2 is live on @ponsdotfamily. Over the past few months, what started as NoelClaw evolved into something much bigger — a platform where AI agents can remember, research, build, automate, trade, and interact with rea" — https://x.com/i/status/2098850575576428667
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (264 of 456 phrases have NO post, 72h ago)
+## Uncovered search demand (264 of 456 phrases have NO post, 73h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -157,20 +157,20 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 21848 confirmed AI-engine fetches (Perplexity 13256, ChatGPT Search (OpenAI) 3507, ChatGPT (user browsing) 2976, GPTBot (OpenAI) 2109).
+The real answer engines are crawling us — IP-verified: 21852 confirmed AI-engine fetches (Perplexity 13256, ChatGPT Search (OpenAI) 3510, ChatGPT (user browsing) 2977, GPTBot (OpenAI) 2109).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 767 crawler fetches
+- /build  — 768 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 122 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 109 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 88 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 74 crawler fetches
+- /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 64 crawler fetches
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 61 crawler fetches
 - /posts/august-2026-ai-deprecation-calendar-founders-migrate.html  — 57 crawler fetches
 - /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html  — 46 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 46 crawler fetches
 - /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 46 crawler fetches
 - /posts/2026-08-22-startup-wins-price-war-below-free.html  — 44 crawler fetches
-- /posts/gpt-5-6-terra-vs-kimi-k3-mid-tier-agent-backend.html  — 41 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
