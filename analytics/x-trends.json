@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-15T15:57:50.982Z",
+ "generated": "2026-09-15T16:07:55.742Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,23 +8,19 @@
  "topTerms": [
   {
    "term": "startup",
-   "count": 27
+   "count": 28
+  },
+  {
+   "term": "agents",
+   "count": 26
   },
   {
    "term": "founder",
    "count": 26
   },
   {
-   "term": "agents",
-   "count": 25
-  },
-  {
    "term": "build",
    "count": 22
-  },
-  {
-   "term": "building",
-   "count": 21
   },
   {
    "term": "agent",
@@ -32,6 +28,10 @@
   },
   {
    "term": "agentic",
+   "count": 19
+  },
+  {
+   "term": "building",
    "count": 19
   },
   {
@@ -43,11 +43,11 @@
    "count": 13
   },
   {
-   "term": "its",
-   "count": 12
+   "term": "context",
+   "count": 11
   },
   {
-   "term": "context",
+   "term": "its",
    "count": 11
   },
   {
@@ -63,16 +63,20 @@
    "count": 10
   },
   {
-   "term": "about",
-   "count": 8
+   "term": "day",
+   "count": 9
   },
   {
-   "term": "day",
+   "term": "about",
    "count": 8
   },
   {
    "term": "google",
    "count": 8
+  },
+  {
+   "term": "next",
+   "count": 7
   },
   {
    "term": "claude",
@@ -81,20 +85,16 @@
   {
    "term": "all",
    "count": 7
-  },
-  {
-   "term": "engineer",
-   "count": 7
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 9
+   "count": 8
   },
   {
    "term": "#startup",
-   "count": 9
+   "count": 8
   },
   {
    "term": "#founder",
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to.",
-   "engagement": 4401,
+   "engagement": 4410,
    "url": "https://x.com/i/status/2099491915381006477",
    "created": "2026-09-14T13:34:13.000Z"
   },
