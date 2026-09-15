@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-15T06:11:45.745Z",
+ "generated": "2026-09-15T06:21:52.255Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 3,
-  "avgTimeSec": 10,
+  "readersNow": 5,
+  "todayReads": 4,
+  "avgTimeSec": 9,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3308,
-  "reads": 318,
-  "completes": 46,
+  "views": 3305,
+  "reads": 317,
+  "completes": 44,
   "plays": 31,
-  "sessions": 3184
+  "sessions": 3181
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2993,
-   "reads": 182,
-   "sessions": 2984
+   "views": 2989,
+   "reads": 180,
+   "sessions": 2980
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 95,
-   "reads": 31,
-   "sessions": 92
+   "views": 96,
+   "reads": 32,
+   "sessions": 93
   },
   {
    "channel": "ai",
@@ -67,12 +67,12 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2993,
-   "reads": 182,
-   "completes": 23,
-   "sessions": 2983,
-   "read_rate": 0.061,
-   "complete_rate": 0.008,
+   "views": 2989,
+   "reads": 180,
+   "completes": 21,
+   "sessions": 2979,
+   "read_rate": 0.06,
+   "complete_rate": 0.007,
    "pages_per_session": 1,
    "median_dwell_sec": 4
   },
@@ -89,12 +89,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 95,
-   "reads": 31,
+   "views": 96,
+   "reads": 32,
    "completes": 3,
-   "sessions": 92,
-   "read_rate": 0.326,
-   "complete_rate": 0.032,
+   "sessions": 93,
+   "read_rate": 0.333,
+   "complete_rate": 0.031,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
   },
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 105,
-   "reads": 32,
-   "sessions": 97
+   "views": 106,
+   "reads": 33,
+   "sessions": 98
   },
   {
    "assistant": "Doubao",
@@ -284,15 +284,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2645,
-   "reads": 294,
-   "sessions": 2530
+   "views": 2641,
+   "reads": 292,
+   "sessions": 2526
   },
   {
    "device": "mobile",
-   "views": 662,
-   "reads": 23,
-   "sessions": 654
+   "views": 663,
+   "reads": 24,
+   "sessions": 655
   },
   {
    "device": "tablet",
@@ -572,7 +572,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 57,
+   "views": 56,
    "reads": 0,
    "plays": 0
   },
