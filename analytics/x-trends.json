@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-15T03:19:49.939Z",
+ "generated": "2026-09-15T03:30:01.132Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -7,12 +7,12 @@
  ],
  "topTerms": [
   {
-   "term": "founder",
+   "term": "startup",
    "count": 28
   },
   {
-   "term": "startup",
-   "count": 28
+   "term": "founder",
+   "count": 27
   },
   {
    "term": "build",
@@ -47,7 +47,19 @@
    "count": 10
   },
   {
+   "term": "its",
+   "count": 10
+  },
+  {
    "term": "has",
+   "count": 9
+  },
+  {
+   "term": "google",
+   "count": 9
+  },
+  {
+   "term": "co-founder",
    "count": 9
   },
   {
@@ -63,15 +75,7 @@
    "count": 8
   },
   {
-   "term": "co-founder",
-   "count": 8
-  },
-  {
    "term": "here",
-   "count": 7
-  },
-  {
-   "term": "its",
    "count": 7
   },
   {
@@ -80,10 +84,6 @@
   },
   {
    "term": "have",
-   "count": 6
-  },
-  {
-   "term": "tools",
    "count": 6
   }
  ],
@@ -139,14 +139,8 @@
  ],
  "topPosts": [
   {
-   "text": "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to.",
-   "engagement": 2780,
-   "url": "https://x.com/i/status/2099491915381006477",
-   "created": "2026-09-14T13:34:13.000Z"
-  },
-  {
    "text": "Israeli AI startup founder Ilit Razt pleaded guilty in New York to a $27 million investor fraud scheme.​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ I’m willing to bet Donald Trump will pardon him like he’s pardoned",
-   "engagement": 1988,
+   "engagement": 1987,
    "url": "https://x.com/i/status/2098886739087745493",
    "created": "2026-09-12T21:29:28.000Z"
   },
@@ -185,6 +179,12 @@
    "engagement": 113,
    "url": "https://x.com/i/status/2098511093593260480",
    "created": "2026-09-11T20:36:47.000Z"
+  },
+  {
+   "text": "Circuits Protocol is live on @Arc Testnet. We’re building an economy where AI agents can autonomously run, work, pay, earn, trade, collaborate, launch assets, enter markets, and build reputation. Circuits is powered by t",
+   "engagement": 90,
+   "url": "https://x.com/i/status/2099497176376152431",
+   "created": "2026-09-14T13:55:08.000Z"
   }
  ]
 }

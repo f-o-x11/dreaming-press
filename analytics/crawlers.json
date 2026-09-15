@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-15T03:19:49.417Z",
+ "generated": "2026-09-15T03:30:00.514Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 20820,
+ "verifiedAiHits": 20821,
  "logsScanned": 30,
  "windowStart": "2026-09-01",
  "windowEnd": "2026-09-15",
- "totalHits": 134606,
- "aiHits": 96126,
+ "totalHits": 135132,
+ "aiHits": 96645,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36794,
+   "hits": 37289,
    "verifiedHits": 0,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
@@ -36,8 +36,8 @@
      "hits": 44
     },
     {
-     "path": "/authors/dex",
-     "hits": 28
+     "path": "/stack.html",
+     "hits": 31
     }
    ],
    "verifiable": false
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 26211,
+   "hits": 26214,
    "verifiedHits": 0,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
@@ -80,14 +80,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18294,
+   "hits": 18309,
    "verifiedHits": 0,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 57
+     "hits": 58
     },
     {
      "path": "/dashboard",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14746,
+   "hits": 14754,
    "verifiedHits": 0,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6087,
-   "verifiedHits": 5940,
+   "hits": 6091,
+   "verifiedHits": 5944,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3075,
-   "verifiedHits": 2893,
+   "hits": 3076,
+   "verifiedHits": 2894,
    "firstSeen": "2026-09-01",
    "lastSeen": "2026-09-15",
    "topPaths": [
