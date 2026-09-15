@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-15T16:58:22.052Z",
+ "generated": "2026-09-15T17:08:37.048Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,11 +12,11 @@
   },
   {
    "term": "agents",
-   "count": 26
+   "count": 27
   },
   {
    "term": "founder",
-   "count": 26
+   "count": 25
   },
   {
    "term": "build",
@@ -24,19 +24,19 @@
   },
   {
    "term": "agentic",
-   "count": 19
+   "count": 20
   },
   {
    "term": "building",
    "count": 19
   },
   {
-   "term": "agent",
-   "count": 18
-  },
-  {
    "term": "mcp",
    "count": 16
+  },
+  {
+   "term": "agent",
+   "count": 15
   },
   {
    "term": "systems",
@@ -44,6 +44,10 @@
   },
   {
    "term": "context",
+   "count": 11
+  },
+  {
+   "term": "co-founder",
    "count": 11
   },
   {
@@ -55,28 +59,24 @@
    "count": 10
   },
   {
-   "term": "has",
-   "count": 10
-  },
-  {
-   "term": "co-founder",
-   "count": 10
-  },
-  {
-   "term": "day",
+   "term": "about",
    "count": 9
   },
   {
-   "term": "about",
+   "term": "has",
+   "count": 9
+  },
+  {
+   "term": "actually",
+   "count": 8
+  },
+  {
+   "term": "day",
    "count": 8
   },
   {
    "term": "google",
    "count": 8
-  },
-  {
-   "term": "actually",
-   "count": 7
   },
   {
    "term": "next",
@@ -90,7 +90,7 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 9
+   "count": 10
   },
   {
    "term": "#startup",
@@ -109,20 +109,20 @@
    "count": 3
   },
   {
+   "term": "#videogenration",
+   "count": 2
+  },
+  {
+   "term": "#tools",
+   "count": 2
+  },
+  {
    "term": "#aijobs",
    "count": 2
   },
   {
    "term": "#startups",
    "count": 2
-  },
-  {
-   "term": "#videogenration",
-   "count": 1
-  },
-  {
-   "term": "#tools",
-   "count": 1
   },
   {
    "term": "#genai",
@@ -138,12 +138,6 @@
   }
  ],
  "topPosts": [
-  {
-   "text": "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to.",
-   "engagement": 4436,
-   "url": "https://x.com/i/status/2099491915381006477",
-   "created": "2026-09-14T13:34:13.000Z"
-  },
   {
    "text": "Israeli AI startup founder Ilit Razt pleaded guilty in New York to a $27 million investor fraud scheme.​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ I’m willing to bet Donald Trump will pardon him like he’s pardoned",
    "engagement": 1988,
@@ -185,6 +179,12 @@
    "engagement": 79,
    "url": "https://x.com/i/status/2098839598084313117",
    "created": "2026-09-12T18:22:09.000Z"
+  },
+  {
+   "text": "Hello there My name is Saber, I’ve been quiet on here for a reason. I was heads down building. When I started posting, a lot of what I shared was focused on Web3 roadmaps, Solidity basics, and helping people get their fo",
+   "engagement": 73,
+   "url": "https://x.com/i/status/2099100368999182549",
+   "created": "2026-09-13T11:38:22.000Z"
   }
  ]
 }
