@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-16T22:58:10.565Z",
+ "generated": "2026-09-16T23:08:12.418Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 22204,
+ "verifiedAiHits": 22206,
  "logsScanned": 30,
  "windowStart": "2026-09-02",
  "windowEnd": "2026-09-16",
- "totalHits": 141794,
- "aiHits": 103314,
+ "totalHits": 141867,
+ "aiHits": 103368,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 40139,
+   "hits": 40149,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -47,14 +47,14 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 25462,
+   "hits": 25466,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 105
+     "hits": 106
     },
     {
      "path": "/dashboard",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19407,
+   "hits": 19440,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -94,16 +94,16 @@
      "hits": 14
     },
     {
+     "path": "/posts/orchestrator-worker-vs-pipeline-multi-agent.html",
+     "hits": 8
+    },
+    {
      "path": "/",
      "hits": 8
     },
     {
      "path": "/apps",
      "hits": 8
-    },
-    {
-     "path": "/posts/2026-06-21-chroma-vs-weaviate-vs-milvus.html",
-     "hits": 7
     }
    ],
    "verifiable": false
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15633,
+   "hits": 15640,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6535,
-   "verifiedHits": 6383,
+   "hits": 6538,
+   "verifiedHits": 6386,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3810,
-   "verifiedHits": 3618,
+   "hits": 3811,
+   "verifiedHits": 3619,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3286,
-   "verifiedHits": 3090,
+   "hits": 3287,
+   "verifiedHits": 3091,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
    "topPaths": [
@@ -260,7 +260,7 @@
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 105
+     "hits": 106
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2614,
+   "hits": 2622,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2533,
+   "hits": 2535,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1339,
+   "hits": 1341,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -429,7 +429,7 @@
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 44
+     "hits": 45
     },
     {
      "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 724,
+   "hits": 726,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
