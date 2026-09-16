@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-16T14:33:05.328Z",
+ "generated": "2026-09-16T14:43:18.134Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -16,15 +16,11 @@
   },
   {
    "term": "agents",
-   "count": 26
+   "count": 25
   },
   {
    "term": "agentic",
    "count": 24
-  },
-  {
-   "term": "building",
-   "count": 20
   },
   {
    "term": "build",
@@ -35,12 +31,16 @@
    "count": 19
   },
   {
+   "term": "building",
+   "count": 18
+  },
+  {
    "term": "systems",
-   "count": 14
+   "count": 13
   },
   {
    "term": "agent",
-   "count": 12
+   "count": 11
   },
   {
    "term": "its",
@@ -52,7 +52,7 @@
   },
   {
    "term": "python",
-   "count": 9
+   "count": 10
   },
   {
    "term": "co-founder",
@@ -63,15 +63,15 @@
    "count": 8
   },
   {
-   "term": "every",
-   "count": 8
-  },
-  {
    "term": "about",
    "count": 8
   },
   {
    "term": "coding",
+   "count": 8
+  },
+  {
+   "term": "connect",
    "count": 8
   },
   {
@@ -109,15 +109,15 @@
    "count": 3
   },
   {
-   "term": "#aijobs",
-   "count": 2
-  },
-  {
    "term": "#videogenration",
    "count": 2
   },
   {
    "term": "#tools",
+   "count": 2
+  },
+  {
+   "term": "#aijobs",
    "count": 2
   },
   {
