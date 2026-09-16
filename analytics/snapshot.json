@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-16T02:44:46.005Z",
+ "generated": "2026-09-16T02:54:51.098Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 6,
   "todayReads": 5,
   "avgTimeSec": 22,
   "postsThisWeek": 6
  },
  "funnel": {
-  "views": 3306,
+  "views": 3310,
   "reads": 321,
   "completes": 42,
   "plays": 30,
-  "sessions": 3184
+  "sessions": 3188
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2971,
+   "views": 2974,
    "reads": 179,
-   "sessions": 2964
+   "sessions": 2967
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "ai",
-   "views": 39,
+   "views": 40,
    "reads": 16,
-   "sessions": 48
+   "sessions": 49
   },
   {
    "channel": "social",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2971,
+   "views": 2974,
    "reads": 179,
    "completes": 19,
-   "sessions": 2963,
+   "sessions": 2966,
    "read_rate": 0.06,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -111,13 +111,13 @@
   },
   {
    "channel": "ai",
-   "views": 39,
+   "views": 40,
    "reads": 16,
    "completes": 2,
-   "sessions": 48,
-   "read_rate": 0.41,
-   "complete_rate": 0.051,
-   "pages_per_session": 0.81,
+   "sessions": 49,
+   "read_rate": 0.4,
+   "complete_rate": 0.05,
+   "pages_per_session": 0.82,
    "median_dwell_sec": 20
   },
   {
@@ -240,9 +240,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 11,
+   "views": 12,
    "reads": 7,
-   "sessions": 6
+   "sessions": 7
   },
   {
    "assistant": "Perplexity",
@@ -278,15 +278,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2638,
+   "views": 2640,
    "reads": 293,
-   "sessions": 2525
+   "sessions": 2527
   },
   {
    "device": "mobile",
-   "views": 667,
+   "views": 669,
    "reads": 27,
-   "sessions": 659
+   "sessions": 661
   },
   {
    "device": "tablet",
@@ -661,9 +661,9 @@
   },
   {
    "path": "/",
-   "views": 181,
+   "views": 182,
    "reads": 1,
-   "sessions": 179,
+   "sessions": 180,
    "avg_dwell_sec": 10
   },
   {
@@ -791,8 +791,8 @@
   },
   {
    "ref": "https://www.doubao.com/",
-   "hits": 19,
-   "sessions": 6
+   "hits": 20,
+   "sessions": 7
   },
   {
    "ref": "https://www.perplexity.ai/",
