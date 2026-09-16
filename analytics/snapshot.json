@@ -1,37 +1,37 @@
 {
- "generated": "2026-09-16T05:56:41.685Z",
+ "generated": "2026-09-16T06:06:51.328Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 11,
-  "avgTimeSec": 27,
+  "avgTimeSec": 77,
   "postsThisWeek": 6
  },
  "funnel": {
-  "views": 3315,
-  "reads": 322,
-  "completes": 42,
+  "views": 3314,
+  "reads": 321,
+  "completes": 41,
   "plays": 31,
-  "sessions": 3189
+  "sessions": 3188
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2974,
+   "views": 2973,
    "reads": 177,
-   "sessions": 2963
+   "sessions": 2962
   },
   {
    "channel": "organic",
-   "views": 112,
-   "reads": 71,
-   "sessions": 103
+   "views": 111,
+   "reads": 70,
+   "sessions": 102
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 111,
+   "views": 112,
    "reads": 36,
-   "sessions": 107
+   "sessions": 108
   },
   {
    "channel": "referral",
@@ -67,36 +67,36 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2974,
+   "views": 2973,
    "reads": 177,
    "completes": 19,
-   "sessions": 2962,
+   "sessions": 2961,
    "read_rate": 0.06,
    "complete_rate": 0.006,
    "pages_per_session": 1,
    "median_dwell_sec": 4
   },
   {
-   "channel": "organic",
-   "views": 112,
-   "reads": 71,
-   "completes": 3,
-   "sessions": 103,
-   "read_rate": 0.634,
-   "complete_rate": 0.027,
-   "pages_per_session": 1.09,
-   "median_dwell_sec": 10
-  },
-  {
    "channel": "campaign:chatgpt.com",
-   "views": 111,
+   "views": 112,
    "reads": 36,
    "completes": 3,
-   "sessions": 107,
-   "read_rate": 0.324,
+   "sessions": 108,
+   "read_rate": 0.321,
    "complete_rate": 0.027,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
+  },
+  {
+   "channel": "organic",
+   "views": 111,
+   "reads": 70,
+   "completes": 2,
+   "sessions": 102,
+   "read_rate": 0.631,
+   "complete_rate": 0.018,
+   "pages_per_session": 1.09,
+   "median_dwell_sec": 10
   },
   {
    "channel": "referral",
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 123,
+   "views": 124,
    "reads": 37,
-   "sessions": 114
+   "sessions": 115
   },
   {
    "assistant": "Doubao",
@@ -278,9 +278,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2646,
-   "reads": 294,
-   "sessions": 2529
+   "views": 2645,
+   "reads": 293,
+   "sessions": 2528
   },
   {
    "device": "mobile",
@@ -780,14 +780,14 @@
    "sessions": 18
   },
   {
-   "ref": "https://cn.bing.com/",
-   "hits": 26,
-   "sessions": 15
-  },
-  {
    "ref": "https://www.doubao.com/",
    "hits": 23,
    "sessions": 7
+  },
+  {
+   "ref": "https://cn.bing.com/",
+   "hits": 23,
+   "sessions": 14
   },
   {
    "ref": "https://www.google.com/",
