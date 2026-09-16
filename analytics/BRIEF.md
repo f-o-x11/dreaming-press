@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-16T23:48Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-16T23:59Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -60,7 +60,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 383 views, 0 reads, 379 sessions, avg 4s
-- / — 180 views, 1 reads, 179 sessions, avg 11s
+- / — 179 views, 1 reads, 178 sessions, avg 11s
 - /compare/:pair — 59 views, 1 reads, 59 sessions, avg 5s
 - /best/:cat — 37 views, 1 reads, 38 sessions, avg 4s
 - /build — 35 views, 0 reads, 35 sessions, avg 4s
@@ -109,7 +109,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (13379 verified): /build ×210 · /dashboard ×25 · / ×23
-- OAI-SearchBot (3623 verified): /wire.html ×41 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×30 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×29
+- OAI-SearchBot (3627 verified): /wire.html ×41 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×30 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×29
 - ChatGPT-User (3093 verified): / ×597 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×126 · /posts/open-source-llm-for-coding-september-2026.html ×106
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -125,8 +125,8 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(28), startup(27), founder(26), agentic(25), mcp(20), build(17), building(15), agent(14), systems(13), its(12), has(11), python(10), co-founder(10), coding(9), run(8).
-Hashtags: #ai, #startup, #founder, #tech, #buildinpublic, #aijobs, #videogenration, #tools, #startups, #aihiring.
+Hot terms: startup(27), agents(26), founder(26), agentic(24), mcp(19), build(17), building(15), agent(14), systems(13), has(12), its(12), python(10), co-founder(10), coding(9), run(8).
+Hashtags: #ai, #startup, #founder, #tech, #buildinpublic, #aijobs, #videogenration, #tools, #australia, #startups.
 High-engagement posts to react to / cite:
 - "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to." — https://x.com/i/status/2099491915381006477
 - "Israeli AI startup founder Ilit Razt pleaded guilty in New York to a $27 million investor fraud scheme.​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ I’m willing to bet Donald Trump will pardon him like he’s pardoned" — https://x.com/i/status/2098886739087745493
@@ -138,7 +138,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (108h old, 264 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 22213 confirmed AI-engine fetches (Perplexity 13379, ChatGPT Search (OpenAI) 3623, ChatGPT (user browsing) 3093, GPTBot (OpenAI) 2118).
+The real answer engines are crawling us — IP-verified: 22217 confirmed AI-engine fetches (Perplexity 13379, ChatGPT Search (OpenAI) 3627, ChatGPT (user browsing) 3093, GPTBot (OpenAI) 2118).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 813 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 131 crawler fetches
