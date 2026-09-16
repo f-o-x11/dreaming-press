@@ -18,6 +18,17 @@ art:
   motif: "a policy circling a single reward point, each training lap a tighter concentric ring pulling the orbit inward"
 ---
 
+**Seven open-source frameworks matter for training AI agents with reinforcement learning in 2026, and which one you pick comes down to one question: do you already have a working agent, are you building the environment, or do you need max-scale trainer infrastructure?** The mistake most roundups make is listing these projects as interchangeable — they aren't, because they sit on two different sides of the same problem (the *trainer* versus the *environment and reward*), and that split, not benchmark speed, is what should decide your choice.
+
+Here's the whole decision in one screen:
+
+- **Have a working agent, want RL without a rewrite → ART.** GRPO wrapped around your existing loop, plus RULER — an LLM-as-judge reward that scores trajectories so you skip hand-writing a reward function. The fastest path to a first training run.
+- **Building environments and evals as the durable asset → verifiers.** Write the task and its reward verifier once, then reuse or share it; pair it with **prime-rl** to train those environments at scale.
+- **Need maximum-scale trainer infrastructure and will write your own reward → verl,** the heavy trainer most labs standardize on, with **OpenRLHF** and **SkyRL** as the alternatives when its abstractions don't fit yours.
+- **Just want to learn GRPO first → trl,** the cleanest on-ramp before you commit to a heavier stack.
+
+The one rule under all four: every framework here has commoditized the *algorithm*. The thing none of them can commoditize for you is the *environment and the reward* — so pick for that, not for whose GRPO is 8% faster. The rest of this guide is the why, and the detail behind each pick.
+
 Two years ago, "training an agent" mostly meant writing a better system prompt. Today it means reinforcement learning: you let the model act in an environment, score whether it completed the task, and push the weights toward the behavior that worked. RL is now the standard post-training step for tool-using, multi-turn agents — because on a real task there is no single correct trajectory to imitate, only outcomes to optimize, and the agent has to learn to recover from its own mistakes.
 
 The open-source tooling has finally caught up. But the map is confusing, because the projects sit on two different sides of the same problem, and most roundups list them as if they were interchangeable. They aren't.
