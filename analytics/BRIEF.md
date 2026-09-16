@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-16T03:04Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-16T03:15Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3307 views → 320 engaged reads → 42 completes · 3185 sessions.
-- Channels: direct 176r/2970v · organic 72r/113v · campaign:chatgpt.com 36r/107v · referral 17r/69v · ai 17r/40v · social 1r/7v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
+- Funnel: 3313 views → 320 engaged reads → 42 completes · 3186 sessions.
+- Channels: direct 176r/2976v · organic 72r/113v · campaign:chatgpt.com 36r/107v · referral 17r/69v · ai 17r/40v · social 1r/7v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 37r/119v · Doubao 8r/12v · Perplexity 4r/6v · DeepSeek 1r/4v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/1v.
 - Referrers: bing.com, chatgpt.com, duckduckgo.com, cn.bing.com, l.instagram.com, doubao.com, google.com, perplexity.ai, brand, nav-cmp.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -13,17 +13,17 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - brand: 10 clicks from 9 sessions
 - nav-cmp: 9 clicks from 5 sessions
 - article-body: 8 clicks from 7 sessions
+- dash-range: 7 clicks from 2 sessions
 - mtabbar: 5 clicks from 1 sessions
 - cited-list: 5 clicks from 4 sessions
 - card: 5 clicks from 4 sessions
 - un-body: 4 clicks from 2 sessions
-- dash-range: 4 clicks from 1 sessions
 ACTION: a surface earning clicks deserves more prominence and more entries; one on
 every page earning none is decoration — cut it or move it, do not duplicate it.
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2970 views · read 5.9% · complete 0.6% · 1 pages/session · median 4s
+- direct: 2976 views · read 5.9% · complete 0.6% · 1 pages/session · median 4s
 - organic: 113 views · read 63.7% · complete 2.7% · 1.09 pages/session · median 10s
 - campaign:chatgpt.com: 107 views · read 33.6% · complete 2.8% · 1.04 pages/session · median ?s
 - referral: 69 views · read 24.6% · complete 1.4% · 1.05 pages/session · median ?s
@@ -43,7 +43,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card" — 5 reads, 9 views, 0 listens
 - [wire] "How to Add Citations to a RAG Pipeline" — 5 reads, 8 views, 0 listens
 - [stack] "SkyPilot vs dstack: Two Ways to Run a GPU Job on the Cheapest Cloud That Has One" — 5 reads, 8 views, 0 listens
-- [stack] "What It Actually Costs to Rent an H100, H200, or B200 in September 2026" — 4 reads, 23 views, 0 listens
+- [stack] "What It Actually Costs to Rent an H100, H200, or B200 in September 2026" — 4 reads, 24 views, 0 listens
 - [stack] "Parsing PDFs for RAG in 2026: PyMuPDF4LLM vs Docling vs Marker vs LlamaParse vs Mistral OCR" — 4 reads, 11 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
@@ -60,11 +60,11 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 380 views, 0 reads, 376 sessions, avg 4s
-- / — 182 views, 1 reads, 180 sessions, avg 10s
+- / — 183 views, 1 reads, 181 sessions, avg 10s
 - /compare/:pair — 59 views, 1 reads, 59 sessions, avg 5s
 - /best/:cat — 36 views, 1 reads, 37 sessions, avg 4s
 - /build — 34 views, 0 reads, 34 sessions, avg 4s
-- /dashboard — 18 views, 0 reads, 12 sessions, avg 9s
+- /dashboard — 22 views, 0 reads, 13 sessions, avg 9s
 - /alternatives/:tool — 17 views, 0 reads, 17 sessions, avg 4s
 - /topics/:topic — 17 views, 0 reads, 17 sessions, avg 6s
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
@@ -75,7 +75,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 54 views, 0 reads
 - [stack] "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet" — 35 views, 14 reads
 - [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 35 views, 10 reads
-- [stack] "What It Actually Costs to Rent an H100, H200, or B200 in September 2026" — 23 views, 4 reads
+- [stack] "What It Actually Costs to Rent an H100, H200, or B200 in September 2026" — 24 views, 4 reads
 - [wire] "The Founder's Wire, September 4: A 'Firewall for Agents' Raises $50M, HiddenLayer Takes $100M a Day Later, and Crusoe Hits $30B for the Compute Underneath" — 21 views, 2 reads
 
 ## Arrived but left (fix these openings first)
@@ -109,7 +109,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (13282 verified): /build ×210 · /dashboard ×24 · / ×22
-- OAI-SearchBot (3436 verified): /wire.html ×37 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×28 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×27
+- OAI-SearchBot (3437 verified): /wire.html ×37 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×28 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×27
 - ChatGPT-User (2909 verified): / ×563 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×116 · /posts/open-source-llm-for-coding-september-2026.html ×94
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -135,7 +135,7 @@ High-engagement posts to react to / cite:
 - "Circuits Protocol is live on @Arc Testnet. We’re building an economy where AI agents can autonomously run, work, pay, earn, trade, collaborate, launch assets, enter markets, and build reputation. Circuits is powered by t" — https://x.com/i/status/2099497176376152431
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (264 of 456 phrases have NO post, 87h ago)
+## Uncovered search demand (264 of 456 phrases have NO post, 88h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 21740 confirmed AI-engine fetches (Perplexity 13282, ChatGPT Search (OpenAI) 3436, ChatGPT (user browsing) 2909, GPTBot (OpenAI) 2113).
+The real answer engines are crawling us — IP-verified: 21741 confirmed AI-engine fetches (Perplexity 13282, ChatGPT Search (OpenAI) 3437, ChatGPT (user browsing) 2909, GPTBot (OpenAI) 2113).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 798 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 124 crawler fetches
