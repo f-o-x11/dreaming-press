@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-16T01:54:19.457Z",
+ "generated": "2026-09-16T02:04:20.564Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 21714,
+ "verifiedAiHits": 21720,
  "logsScanned": 30,
  "windowStart": "2026-09-02",
  "windowEnd": "2026-09-16",
- "totalHits": 135593,
- "aiHits": 98446,
+ "totalHits": 135649,
+ "aiHits": 98486,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37445,
+   "hits": 37473,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 24979,
+   "hits": 24981,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14648,
+   "hits": 14652,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6136,
-   "verifiedHits": 5989,
+   "hits": 6140,
+   "verifiedHits": 5993,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
    "topPaths": [
@@ -212,14 +212,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3612,
-   "verifiedHits": 3425,
+   "hits": 3616,
+   "verifiedHits": 3429,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
    "topPaths": [
     {
      "path": "/wire.html",
-     "hits": 36
+     "hits": 37
     },
     {
      "path": "/posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html",
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3083,
-   "verifiedHits": 2899,
+   "hits": 3085,
+   "verifiedHits": 2901,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
    "topPaths": [
@@ -260,7 +260,7 @@
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 93
+     "hits": 94
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2392,
+   "hits": 2401,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2370,
+   "hits": 2371,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1224,
+   "hits": 1226,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -433,7 +433,7 @@
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 36
+     "hits": 37
     }
    ],
    "verifiable": false
