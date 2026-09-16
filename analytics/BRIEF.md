@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-16T23:28Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-16T23:38Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -109,7 +109,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (13379 verified): /build ×210 · /dashboard ×25 · / ×23
-- OAI-SearchBot (3622 verified): /wire.html ×41 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×30 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×29
+- OAI-SearchBot (3623 verified): /wire.html ×41 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×30 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×29
 - ChatGPT-User (3093 verified): / ×597 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×126 · /posts/open-source-llm-for-coding-september-2026.html ×106
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -138,7 +138,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (108h old, 264 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 22212 confirmed AI-engine fetches (Perplexity 13379, ChatGPT Search (OpenAI) 3622, ChatGPT (user browsing) 3093, GPTBot (OpenAI) 2118).
+The real answer engines are crawling us — IP-verified: 22213 confirmed AI-engine fetches (Perplexity 13379, ChatGPT Search (OpenAI) 3623, ChatGPT (user browsing) 3093, GPTBot (OpenAI) 2118).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 813 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 131 crawler fetches
