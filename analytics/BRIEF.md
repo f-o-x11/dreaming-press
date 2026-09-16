@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-16T14:53Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-16T15:03Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3348 views → 322 engaged reads → 39 completes · 3222 sessions.
-- Channels: direct 177r/2996v · organic 69r/112v · campaign:chatgpt.com 36r/120v · referral 19r/70v · ai 19r/42v · social 1r/7v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
+- Funnel: 3347 views → 322 engaged reads → 39 completes · 3221 sessions.
+- Channels: direct 177r/2996v · organic 69r/112v · campaign:chatgpt.com 36r/120v · referral 19r/69v · ai 19r/42v · social 1r/7v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 37r/132v · Doubao 10r/14v · Perplexity 4r/6v · DeepSeek 1r/4v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/1v.
 - Referrers: bing.com, chatgpt.com, duckduckgo.com, l.instagram.com, doubao.com, cn.bing.com, google.com, nav-cmp, perplexity.ai, brand.
 - Engaged-read winners by section: stack=9, wire=6.
@@ -26,10 +26,10 @@ Volume and quality point in opposite directions here. Read the second column, no
 - direct: 2996 views · read 5.9% · complete 0.6% · 1 pages/session · median 4s
 - campaign:chatgpt.com: 120 views · read 30.0% · complete 2.5% · 1.03 pages/session · median ?s
 - organic: 112 views · read 61.6% · complete 1.8% · 1.08 pages/session · median 10s
-- referral: 70 views · read 27.1% · complete 1.4% · 1.04 pages/session · median ?s
+- referral: 69 views · read 27.5% · complete 1.4% · 1.05 pages/session · median ?s
 - ai: 42 views · read 45.2% · complete 4.8% · 0.86 pages/session · median 24s
 - social: 7 views · read 14.3% · complete 0.0% · 1.17 pages/session · median ?s
-INSIGHT: organic converts 10x better per view than direct, which is 89% of all views.
+INSIGHT: organic converts 10x better per view than direct, which is 90% of all views.
 One visitor from organic is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
@@ -60,7 +60,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 381 views, 0 reads, 377 sessions, avg 4s
-- / — 183 views, 1 reads, 182 sessions, avg 10s
+- / — 182 views, 1 reads, 181 sessions, avg 10s
 - /compare/:pair — 59 views, 1 reads, 59 sessions, avg 5s
 - /best/:cat — 36 views, 1 reads, 37 sessions, avg 4s
 - /build — 34 views, 0 reads, 34 sessions, avg 4s
@@ -72,7 +72,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again" — 59 views, 2 reads
-- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 52 views, 0 reads
+- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 51 views, 0 reads
 - [stack] "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet" — 35 views, 14 reads
 - [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 35 views, 10 reads
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in September 2026" — 25 views, 4 reads
@@ -84,7 +84,7 @@ problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [wire] "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again" — 59 views but only 2 engaged reads (3.4%)
-- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 52 views but only 0 engaged reads (0.0%)
+- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 51 views but only 0 engaged reads (0.0%)
 - [wire] "The Founder's Wire, September 9: Mistral Raises $3.5B to Become Europe's Sovereign Frontier, and Meta's Muse Turns a Consumer AI Into a Shopper With a Stripe Wallet" — 21 views but only 0 engaged reads (0.0%)
 - [wire] "The Founder's Wire, September 8: Nvidia Buys the Open-Model Commons, OpenAI Moves to Rent You an Agent Runtime, and Anthropic Wants to Own Its Money Rails" — 19 views but only 0 engaged reads (0.0%)
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 19 views but only 0 engaged reads (0.0%)
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: startup(29), agentic(28), founder(28), agents(25), building(19), build(19), mcp(19), systems(13), agent(11), its(11), has(11), python(10), co-founder(9), actually(8), every(8).
+Hot terms: startup(29), agentic(28), founder(28), agents(25), building(19), build(19), mcp(19), systems(13), agent(11), its(11), has(11), python(10), co-founder(9), actually(8), about(8).
 Hashtags: #ai, #startup, #founder, #tech, #buildinpublic, #aijobs, #videogenration, #tools, #australia, #startups.
 High-engagement posts to react to / cite:
 - "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to." — https://x.com/i/status/2099491915381006477
