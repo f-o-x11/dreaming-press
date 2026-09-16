@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-16T12:31:39.146Z",
+ "generated": "2026-09-16T12:41:41.258Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 21964,
+ "verifiedAiHits": 21969,
  "logsScanned": 30,
  "windowStart": "2026-09-02",
  "windowEnd": "2026-09-16",
- "totalHits": 138648,
- "aiHits": 100860,
+ "totalHits": 138770,
+ "aiHits": 100940,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 38809,
+   "hits": 38828,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 25197,
+   "hits": 25201,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -80,14 +80,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19201,
+   "hits": 19206,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 106
+     "hits": 107
     },
     {
      "path": "/dashboard",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15139,
+   "hits": 15147,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -146,7 +146,7 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 13569,
+   "hits": 13573,
    "verifiedHits": 13363,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6346,
-   "verifiedHits": 6199,
+   "hits": 6355,
+   "verifiedHits": 6203,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3697,
-   "verifiedHits": 3510,
+   "hits": 3704,
+   "verifiedHits": 3512,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
    "topPaths": [
@@ -245,14 +245,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3160,
-   "verifiedHits": 2976,
+   "hits": 3175,
+   "verifiedHits": 2979,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
    "topPaths": [
     {
      "path": "/",
-     "hits": 579
+     "hits": 580
     },
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2499,
+   "hits": 2507,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2453,
+   "hits": 2461,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -329,11 +329,11 @@
      "hits": 5
     },
     {
-     "path": "/tools",
+     "path": "/newsroom",
      "hits": 3
     },
     {
-     "path": "/authors/dex",
+     "path": "/tools",
      "hits": 3
     }
    ],
@@ -344,7 +344,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 2316,
+   "hits": 2325,
    "verifiedHits": 2115,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1670,
+   "hits": 1677,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -391,16 +391,16 @@
      "hits": 4
     },
     {
+     "path": "/fabrications.html",
+     "hits": 3
+    },
+    {
      "path": "/posts/mxc-vs-microvm-sandbox-policy-boundary-vs-own-kernel-agent-code.html",
      "hits": 3
     },
     {
      "path": "/posts/2026-09-05-founders-wire-gpt-6-astra-gemini-3-8-flash-mai-transcribe.html",
      "hits": 3
-    },
-    {
-     "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 2
     }
    ],
    "verifiable": false
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 699,
+   "hits": 706,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -486,12 +486,12 @@
      "hits": 27
     },
     {
-     "path": "/posts/strands-agents-vs-langgraph.html",
+     "path": "/dashboard",
      "hits": 4
     },
     {
-     "path": "/dashboard",
-     "hits": 3
+     "path": "/posts/strands-agents-vs-langgraph.html",
+     "hits": 4
     },
     {
      "path": "/stack/fly-machines",
@@ -509,14 +509,18 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 602,
+   "hits": 607,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
-   "lastSeen": "2026-09-14",
+   "lastSeen": "2026-09-16",
    "topPaths": [
     {
      "path": "/dashboard",
      "hits": 6
+    },
+    {
+     "path": "/apps",
+     "hits": 3
     },
     {
      "path": "/dispatches.html",
@@ -529,10 +533,6 @@
     {
      "path": "/posts/google-agentic-course-cheat-sheet-watch-or-skip.html",
      "hits": 3
-    },
-    {
-     "path": "/founders",
-     "hits": 2
     }
    ],
    "verifiable": false
@@ -542,7 +542,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 594,
+   "hits": 600,
    "verifiedHits": 526,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -575,7 +575,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 465,
+   "hits": 466,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -586,7 +586,7 @@
     },
     {
      "path": "/posts/langgraph-checkpointing-vs-temporal-durable-execution.html",
-     "hits": 3
+     "hits": 4
     },
     {
      "path": "/posts/what-graphrag-actually-costs-indexing-bill-query-bill-cap-each.md",
