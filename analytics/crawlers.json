@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-16T00:02:58.351Z",
+ "generated": "2026-09-16T00:13:00.320Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 21673,
  "logsScanned": 30,
  "windowStart": "2026-09-02",
  "windowEnd": "2026-09-16",
- "totalHits": 135123,
- "aiHits": 98070,
+ "totalHits": 135166,
+ "aiHits": 98097,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37240,
+   "hits": 37256,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -47,10 +47,10 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 24959,
+   "hits": 24961,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
-   "lastSeen": "2026-09-15",
+   "lastSeen": "2026-09-16",
    "topPaths": [
     {
      "path": "/build",
@@ -61,15 +61,15 @@
      "hits": 5
     },
     {
+     "path": "/posts/ai-stack-one-person-company-2026.md",
+     "hits": 4
+    },
+    {
      "path": "/posts/skypilot-20m-seed-unified-ai-compute-founders.md",
      "hits": 4
     },
     {
      "path": "/posts/mcp-server-meaning-what-an-mcp-server-actually-is.md",
-     "hits": 4
-    },
-    {
-     "path": "/posts/best-llm-for-function-calling.md",
      "hits": 4
     }
    ],
@@ -80,10 +80,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18968,
+   "hits": 18970,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
-   "lastSeen": "2026-09-15",
+   "lastSeen": "2026-09-16",
    "topPaths": [
     {
      "path": "/build",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14564,
+   "hits": 14572,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6092,
-   "verifiedHits": 5945,
+   "hits": 6096,
+   "verifiedHits": 5949,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
    "topPaths": [
@@ -278,10 +278,10 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2376,
+   "hits": 2384,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
-   "lastSeen": "2026-09-15",
+   "lastSeen": "2026-09-16",
    "topPaths": [
     {
      "path": "/",
@@ -311,10 +311,10 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2362,
+   "hits": 2364,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
-   "lastSeen": "2026-09-15",
+   "lastSeen": "2026-09-16",
    "topPaths": [
     {
      "path": "/build",
@@ -410,10 +410,10 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1216,
+   "hits": 1217,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
-   "lastSeen": "2026-09-15",
+   "lastSeen": "2026-09-16",
    "topPaths": [
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
