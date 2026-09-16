@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-16T06:57Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-16T07:07Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -109,7 +109,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (13283 verified): /build ×210 · /dashboard ×24 · / ×22
-- OAI-SearchBot (3462 verified): /wire.html ×37 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×28 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×28
+- OAI-SearchBot (3463 verified): /wire.html ×37 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×28 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×28
 - ChatGPT-User (2929 verified): / ×569 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×117 · /posts/open-source-llm-for-coding-september-2026.html ×96
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -135,7 +135,7 @@ High-engagement posts to react to / cite:
 - "Circuits Protocol is live on @Arc Testnet. We’re building an economy where AI agents can autonomously run, work, pay, earn, trade, collaborate, launch assets, enter markets, and build reputation. Circuits is powered by t" — https://x.com/i/status/2099497176376152431
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (264 of 456 phrases have NO post, 91h ago)
+## Uncovered search demand (264 of 456 phrases have NO post, 92h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 21788 confirmed AI-engine fetches (Perplexity 13283, ChatGPT Search (OpenAI) 3462, ChatGPT (user browsing) 2929, GPTBot (OpenAI) 2114).
+The real answer engines are crawling us — IP-verified: 21789 confirmed AI-engine fetches (Perplexity 13283, ChatGPT Search (OpenAI) 3463, ChatGPT (user browsing) 2929, GPTBot (OpenAI) 2114).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 801 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 125 crawler fetches
