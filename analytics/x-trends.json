@@ -1,6 +1,6 @@
 {
- "generated": "2026-09-16T19:26:41.122Z",
- "sampled": 80,
+ "generated": "2026-09-16T19:36:43.315Z",
+ "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
   "(LLM OR \"coding agent\" OR RAG OR \"AI startup\") founder -is:retweet -is:reply lang:en"
@@ -12,10 +12,6 @@
   },
   {
    "term": "startup",
-   "count": 28
-  },
-  {
-   "term": "founder",
    "count": 27
   },
   {
@@ -23,8 +19,8 @@
    "count": 26
   },
   {
-   "term": "building",
-   "count": 19
+   "term": "founder",
+   "count": 26
   },
   {
    "term": "build",
@@ -35,8 +31,12 @@
    "count": 18
   },
   {
+   "term": "building",
+   "count": 16
+  },
+  {
    "term": "systems",
-   "count": 14
+   "count": 15
   },
   {
    "term": "agent",
@@ -47,20 +47,16 @@
    "count": 12
   },
   {
-   "term": "python",
-   "count": 10
+   "term": "has",
+   "count": 11
   },
   {
-   "term": "has",
+   "term": "python",
    "count": 10
   },
   {
    "term": "co-founder",
    "count": 10
-  },
-  {
-   "term": "every",
-   "count": 9
   },
   {
    "term": "context",
@@ -71,11 +67,11 @@
    "count": 9
   },
   {
-   "term": "actually",
+   "term": "about",
    "count": 8
   },
   {
-   "term": "about",
+   "term": "every",
    "count": 8
   },
   {
@@ -84,6 +80,10 @@
   },
   {
    "term": "run",
+   "count": 7
+  },
+  {
+   "term": "actually",
    "count": 7
   }
  ],
@@ -121,6 +121,10 @@
    "count": 2
   },
   {
+   "term": "#australia",
+   "count": 2
+  },
+  {
    "term": "#startups",
    "count": 2
   },
@@ -130,10 +134,6 @@
   },
   {
    "term": "#genai",
-   "count": 1
-  },
-  {
-   "term": "#investment",
    "count": 1
   }
  ],
@@ -181,10 +181,10 @@
    "created": "2026-09-14T05:22:53.000Z"
   },
   {
-   "text": "I’m 28. Founder from Russia 🇷🇺 Building an AI startup that helps restaurants understand what’s actually happening inside their operations. Learning AI &amp; tech from the ground up while building a real company. Lookin",
-   "engagement": 79,
-   "url": "https://x.com/i/status/2098839598084313117",
-   "created": "2026-09-12T18:22:09.000Z"
+   "text": "Hello there My name is Saber, I’ve been quiet on here for a reason. I was heads down building. When I started posting, a lot of what I shared was focused on Web3 roadmaps, Solidity basics, and helping people get their fo",
+   "engagement": 73,
+   "url": "https://x.com/i/status/2099100368999182549",
+   "created": "2026-09-13T11:38:22.000Z"
   }
  ]
 }

@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-16T19:26Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-16T19:36Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -109,8 +109,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (13377 verified): /build ×210 · /dashboard ×25 · / ×23
-- OAI-SearchBot (3575 verified): /wire.html ×40 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×30 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×29
-- ChatGPT-User (3060 verified): / ×591 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×124 · /posts/open-source-llm-for-coding-september-2026.html ×104
+- OAI-SearchBot (3577 verified): /wire.html ×40 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×30 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×29
+- ChatGPT-User (3064 verified): / ×591 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×124 · /posts/open-source-llm-for-coding-september-2026.html ×104
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -124,9 +124,9 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agentic(28), startup(28), founder(27), agents(26), building(19), build(18), mcp(18), systems(14), agent(13), its(12), python(10), has(10), co-founder(10), every(9), context(9).
-Hashtags: #ai, #startup, #founder, #tech, #buildinpublic, #aijobs, #videogenration, #tools, #startups, #aihiring.
+## Trending on X right now (79 recent posts sampled, 0h ago)
+Hot terms: agentic(28), startup(27), agents(26), founder(26), build(18), mcp(18), building(16), systems(15), agent(13), its(12), has(11), python(10), co-founder(10), context(9), coding(9).
+Hashtags: #ai, #startup, #founder, #tech, #buildinpublic, #aijobs, #videogenration, #tools, #australia, #startups.
 High-engagement posts to react to / cite:
 - "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to." — https://x.com/i/status/2099491915381006477
 - "Israeli AI startup founder Ilit Razt pleaded guilty in New York to a $27 million investor fraud scheme.​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ I’m willing to bet Donald Trump will pardon him like he’s pardoned" — https://x.com/i/status/2098886739087745493
@@ -138,7 +138,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (104h old, 264 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 22130 confirmed AI-engine fetches (Perplexity 13377, ChatGPT Search (OpenAI) 3575, ChatGPT (user browsing) 3060, GPTBot (OpenAI) 2118).
+The real answer engines are crawling us — IP-verified: 22136 confirmed AI-engine fetches (Perplexity 13377, ChatGPT Search (OpenAI) 3577, ChatGPT (user browsing) 3064, GPTBot (OpenAI) 2118).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 806 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 130 crawler fetches
