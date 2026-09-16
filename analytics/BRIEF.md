@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-16T16:54Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-16T17:04Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -101,16 +101,16 @@ sample size dwarfs the engaged-read counts below.
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 124 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 103 retrieval fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 61 retrieval fetches
-- /posts/august-2026-ai-deprecation-calendar-founders-migrate.html  — 52 retrieval fetches
+- /posts/2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe.html  — 52 retrieval fetches
 - /wire.html  — 39 retrieval fetches
 - /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html  — 28 retrieval fetches
+- /posts/2026-08-07-founders-wire-meta-coding-agent-openai-atlas-claude-code.html  — 28 retrieval fetches
 - /posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html  — 28 retrieval fetches
-- /posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html  — 28 retrieval fetches
 
 Per engine:
 - PerplexityBot (13376 verified): /build ×210 · /dashboard ×25 · / ×23
-- OAI-SearchBot (3535 verified): /wire.html ×39 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×28 · /posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html ×28
-- ChatGPT-User (3024 verified): / ×586 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×124 · /posts/open-source-llm-for-coding-september-2026.html ×103
+- OAI-SearchBot (3542 verified): /wire.html ×39 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×28 · /posts/2026-08-07-founders-wire-meta-coding-agent-openai-atlas-claude-code.html ×28
+- ChatGPT-User (3026 verified): / ×586 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×124 · /posts/open-source-llm-for-coding-september-2026.html ×103
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -138,7 +138,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (101h old, 264 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 22050 confirmed AI-engine fetches (Perplexity 13376, ChatGPT Search (OpenAI) 3535, ChatGPT (user browsing) 3024, GPTBot (OpenAI) 2115).
+The real answer engines are crawling us — IP-verified: 22059 confirmed AI-engine fetches (Perplexity 13376, ChatGPT Search (OpenAI) 3542, ChatGPT (user browsing) 3026, GPTBot (OpenAI) 2115).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 804 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 129 crawler fetches
@@ -147,7 +147,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 77 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 62 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 61 crawler fetches
-- /posts/august-2026-ai-deprecation-calendar-founders-migrate.html  — 52 crawler fetches
+- /posts/2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe.html  — 52 crawler fetches
 - /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 43 crawler fetches
 - /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html  — 40 crawler fetches
 - /posts/gpt-5-6-terra-vs-kimi-k3-mid-tier-agent-backend.html  — 40 crawler fetches
