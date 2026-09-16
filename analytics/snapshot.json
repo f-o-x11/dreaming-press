@@ -1,43 +1,43 @@
 {
- "generated": "2026-09-16T09:29:34.451Z",
+ "generated": "2026-09-16T09:39:41.272Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 0,
   "todayReads": 15,
   "avgTimeSec": 58,
   "postsThisWeek": 6
  },
  "funnel": {
-  "views": 3325,
-  "reads": 322,
+  "views": 3322,
+  "reads": 320,
   "completes": 40,
   "plays": 31,
-  "sessions": 3194
+  "sessions": 3192
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2981,
+   "views": 2980,
    "reads": 178,
-   "sessions": 2968
+   "sessions": 2967
   },
   {
    "channel": "organic",
-   "views": 110,
-   "reads": 69,
+   "views": 109,
+   "reads": 68,
    "sessions": 101
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 115,
-   "reads": 36,
-   "sessions": 111
+   "views": 114,
+   "reads": 35,
+   "sessions": 110
   },
   {
    "channel": "ai",
    "views": 42,
    "reads": 19,
-   "sessions": 49
+   "sessions": 48
   },
   {
    "channel": "referral",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2981,
+   "views": 2980,
    "reads": 178,
    "completes": 18,
-   "sessions": 2967,
+   "sessions": 2966,
    "read_rate": 0.06,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -78,24 +78,24 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 115,
-   "reads": 36,
+   "views": 114,
+   "reads": 35,
    "completes": 3,
-   "sessions": 111,
-   "read_rate": 0.313,
+   "sessions": 110,
+   "read_rate": 0.307,
    "complete_rate": 0.026,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
   },
   {
    "channel": "organic",
-   "views": 110,
-   "reads": 69,
+   "views": 109,
+   "reads": 68,
    "completes": 2,
    "sessions": 101,
-   "read_rate": 0.627,
+   "read_rate": 0.624,
    "complete_rate": 0.018,
-   "pages_per_session": 1.09,
+   "pages_per_session": 1.08,
    "median_dwell_sec": 10
   },
   {
@@ -114,11 +114,11 @@
    "views": 42,
    "reads": 19,
    "completes": 2,
-   "sessions": 49,
+   "sessions": 48,
    "read_rate": 0.452,
    "complete_rate": 0.048,
-   "pages_per_session": 0.86,
-   "median_dwell_sec": 20
+   "pages_per_session": 0.88,
+   "median_dwell_sec": 24
   },
   {
    "channel": "social",
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 127,
-   "reads": 37,
-   "sessions": 118
+   "views": 126,
+   "reads": 36,
+   "sessions": 117
   },
   {
    "assistant": "Doubao",
@@ -278,9 +278,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2658,
-   "reads": 294,
-   "sessions": 2536
+   "views": 2655,
+   "reads": 292,
+   "sessions": 2534
   },
   {
    "device": "mobile",
@@ -387,16 +387,6 @@
    "plays": 0
   },
   {
-   "slug": "pdf-parsing-for-rag-docling-marker-llamaparse-mistral-ocr",
-   "title": "Parsing PDFs for RAG in 2026: PyMuPDF4LLM vs Docling vs Marker vs LlamaParse vs Mistral OCR",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 11,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "sqlite-vec-vs-lancedb-vs-chroma-embedded-vector-store-solo-builder",
    "title": "sqlite-vec vs LanceDB vs Chroma: The Embedded Vector Store for a Solo Builder",
    "section": "stack",
@@ -443,6 +433,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 5,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "how-to-write-a-claude-skill-that-triggers",
+   "title": "How to Write a Claude Skill That Actually Triggers: The SKILL.md Description Craft",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 4,
    "reads": 4,
    "plays": 0
   }
@@ -566,7 +566,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 53,
+   "views": 52,
    "reads": 0,
    "plays": 0
   },
@@ -766,12 +766,12 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 59,
-   "sessions": 32
+   "hits": 57,
+   "sessions": 31
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 38,
+   "hits": 36,
    "sessions": 19
   },
   {
