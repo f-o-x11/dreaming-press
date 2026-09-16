@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-16T02:24:31.037Z",
+ "generated": "2026-09-16T02:34:37.740Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 5,
   "todayReads": 5,
-  "avgTimeSec": 26,
+  "avgTimeSec": 22,
   "postsThisWeek": 6
  },
  "funnel": {
-  "views": 3307,
+  "views": 3308,
   "reads": 321,
   "completes": 42,
   "plays": 30,
-  "sessions": 3185
+  "sessions": 3186
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2975,
+   "views": 2973,
    "reads": 179,
-   "sessions": 2967
+   "sessions": 2966
   },
   {
    "channel": "organic",
@@ -35,15 +35,15 @@
   },
   {
    "channel": "referral",
-   "views": 67,
+   "views": 69,
    "reads": 17,
-   "sessions": 64
+   "sessions": 66
   },
   {
    "channel": "ai",
-   "views": 38,
+   "views": 39,
    "reads": 16,
-   "sessions": 47
+   "sessions": 48
   },
   {
    "channel": "social",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2975,
+   "views": 2973,
    "reads": 179,
    "completes": 19,
-   "sessions": 2966,
+   "sessions": 2965,
    "read_rate": 0.06,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -100,23 +100,23 @@
   },
   {
    "channel": "referral",
-   "views": 67,
+   "views": 69,
    "reads": 17,
    "completes": 1,
-   "sessions": 64,
-   "read_rate": 0.254,
-   "complete_rate": 0.015,
+   "sessions": 66,
+   "read_rate": 0.246,
+   "complete_rate": 0.014,
    "pages_per_session": 1.05,
    "median_dwell_sec": null
   },
   {
    "channel": "ai",
-   "views": 38,
+   "views": 39,
    "reads": 16,
    "completes": 2,
-   "sessions": 47,
-   "read_rate": 0.421,
-   "complete_rate": 0.053,
+   "sessions": 48,
+   "read_rate": 0.41,
+   "complete_rate": 0.051,
    "pages_per_session": 0.81,
    "median_dwell_sec": 20
   },
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 118,
+   "views": 119,
    "reads": 37,
-   "sessions": 109
+   "sessions": 110
   },
   {
    "assistant": "Doubao",
@@ -278,15 +278,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2637,
+   "views": 2639,
    "reads": 293,
-   "sessions": 2524
+   "sessions": 2526
   },
   {
    "device": "mobile",
-   "views": 669,
+   "views": 668,
    "reads": 27,
-   "sessions": 661
+   "sessions": 660
   },
   {
    "device": "tablet",
@@ -766,8 +766,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 59,
-   "sessions": 32
+   "hits": 60,
+   "sessions": 33
   },
   {
    "ref": "https://duckduckgo.com/",
