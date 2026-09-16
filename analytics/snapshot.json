@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-16T03:35:30.146Z",
+ "generated": "2026-09-16T03:45:37.176Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 1,
   "todayReads": 7,
   "avgTimeSec": 29,
   "postsThisWeek": 6
  },
  "funnel": {
-  "views": 3315,
-  "reads": 320,
+  "views": 3310,
+  "reads": 319,
   "completes": 42,
   "plays": 30,
-  "sessions": 3188
+  "sessions": 3184
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2977,
-   "reads": 176,
-   "sessions": 2966
+   "views": 2971,
+   "reads": 175,
+   "sessions": 2961
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 108,
+   "views": 109,
    "reads": 36,
-   "sessions": 104
+   "sessions": 105
   },
   {
    "channel": "referral",
@@ -61,16 +61,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 33
+   "sessions": 32
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2977,
-   "reads": 176,
+   "views": 2971,
+   "reads": 175,
    "completes": 19,
-   "sessions": 2965,
+   "sessions": 2960,
    "read_rate": 0.059,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 108,
+   "views": 109,
    "reads": 36,
    "completes": 3,
-   "sessions": 104,
-   "read_rate": 0.333,
+   "sessions": 105,
+   "read_rate": 0.33,
    "complete_rate": 0.028,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
@@ -147,7 +147,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 33,
+   "sessions": 32,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 120,
+   "views": 121,
    "reads": 37,
-   "sessions": 111
+   "sessions": 112
   },
   {
    "assistant": "Doubao",
@@ -278,15 +278,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2646,
-   "reads": 292,
-   "sessions": 2528
+   "views": 2643,
+   "reads": 291,
+   "sessions": 2526
   },
   {
    "device": "mobile",
-   "views": 668,
+   "views": 666,
    "reads": 27,
-   "sessions": 660
+   "sessions": 658
   },
   {
    "device": "tablet",
@@ -417,16 +417,6 @@
    "plays": 0
   },
   {
-   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
-   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 7,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "lm-studio-bionic-local-agent-open-models",
    "title": "LM Studio Bionic: A Private, Local Agent for Open Models — What It Is, Who It's For, How to Start",
    "section": "stack",
@@ -443,6 +433,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 5,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "how-to-write-a-claude-skill-that-triggers",
+   "title": "How to Write a Claude Skill That Actually Triggers: The SKILL.md Description Craft",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 4,
    "reads": 4,
    "plays": 0
   }
