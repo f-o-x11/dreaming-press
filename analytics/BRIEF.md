@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-16T18:16Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-16T18:26Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -27,7 +27,7 @@ Volume and quality point in opposite directions here. Read the second column, no
 - campaign:chatgpt.com: 123 views · read 30.1% · complete 2.4% · 1.03 pages/session · median ?s
 - organic: 114 views · read 61.4% · complete 1.8% · 1.08 pages/session · median 10s
 - referral: 69 views · read 27.5% · complete 1.4% · 1.05 pages/session · median ?s
-- ai: 42 views · read 45.2% · complete 4.8% · 0.89 pages/session · median 26s
+- ai: 42 views · read 45.2% · complete 4.8% · 0.88 pages/session · median 38s
 - social: 7 views · read 14.3% · complete 0.0% · 1.17 pages/session · median ?s
 INSIGHT: organic converts 10x better per view than direct, which is 89% of all views.
 One visitor from organic is worth many from direct. Commission for the channels that read.
@@ -110,7 +110,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (13377 verified): /build ×210 · /dashboard ×25 · / ×23
 - OAI-SearchBot (3566 verified): /wire.html ×40 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×29 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×29
-- ChatGPT-User (3041 verified): / ×589 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×124 · /posts/open-source-llm-for-coding-september-2026.html ×103
+- ChatGPT-User (3045 verified): / ×589 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×124 · /posts/open-source-llm-for-coding-september-2026.html ×103
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -138,7 +138,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (103h old, 264 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 22100 confirmed AI-engine fetches (Perplexity 13377, ChatGPT Search (OpenAI) 3566, ChatGPT (user browsing) 3041, GPTBot (OpenAI) 2116).
+The real answer engines are crawling us — IP-verified: 22104 confirmed AI-engine fetches (Perplexity 13377, ChatGPT Search (OpenAI) 3566, ChatGPT (user browsing) 3045, GPTBot (OpenAI) 2116).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 804 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 129 crawler fetches
