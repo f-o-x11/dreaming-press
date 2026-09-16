@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-16T01:24:07.821Z",
+ "generated": "2026-09-16T01:34:08.870Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 21703,
+ "verifiedAiHits": 21705,
  "logsScanned": 30,
  "windowStart": "2026-09-02",
  "windowEnd": "2026-09-16",
- "totalHits": 135462,
- "aiHits": 98336,
+ "totalHits": 135499,
+ "aiHits": 98367,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37382,
+   "hits": 37400,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 24976,
+   "hits": 24977,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18989,
+   "hits": 18991,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14626,
+   "hits": 14633,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -128,11 +128,11 @@
     },
     {
      "path": "/tags/reportive",
-     "hits": 15
+     "hits": 16
     },
     {
      "path": "/wire.html",
-     "hits": 14
+     "hits": 15
     },
     {
      "path": "/stacks/autogen%2Bcloudflare-ai-gateway%2Bmem0",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 13479,
-   "verifiedHits": 13273,
+   "hits": 13481,
+   "verifiedHits": 13275,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6120,
-   "verifiedHits": 5973,
+   "hits": 6123,
+   "verifiedHits": 5976,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2368,
+   "hits": 2370,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1221,
+   "hits": 1223,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -425,7 +425,7 @@
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
-     "hits": 53
+     "hits": 54
     },
     {
      "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
@@ -433,7 +433,7 @@
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 35
+     "hits": 36
     }
    ],
    "verifiable": false
