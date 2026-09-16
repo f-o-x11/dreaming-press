@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-09-16T04:15Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-16T04:25Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3307 views → 318 engaged reads → 42 completes · 3182 sessions.
-- Channels: direct 175r/2968v · organic 71r/112v · campaign:chatgpt.com 36r/110v · referral 17r/69v · ai 17r/40v · social 1r/7v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 37r/122v · Doubao 8r/12v · Perplexity 4r/6v · DeepSeek 1r/4v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/1v.
+- Funnel: 3308 views → 318 engaged reads → 42 completes · 3183 sessions.
+- Channels: direct 175r/2968v · organic 71r/112v · campaign:chatgpt.com 36r/111v · referral 17r/69v · ai 17r/40v · social 1r/7v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 37r/123v · Doubao 8r/12v · Perplexity 4r/6v · DeepSeek 1r/4v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/1v.
 - Referrers: bing.com, chatgpt.com, duckduckgo.com, l.instagram.com, cn.bing.com, doubao.com, google.com, perplexity.ai, brand, nav-cmp.
 - Engaged-read winners by section: stack=9, wire=6.
 
@@ -25,7 +25,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - direct: 2968 views · read 5.9% · complete 0.6% · 1 pages/session · median 4s
 - organic: 112 views · read 63.4% · complete 2.7% · 1.09 pages/session · median 10s
-- campaign:chatgpt.com: 110 views · read 32.7% · complete 2.7% · 1.04 pages/session · median ?s
+- campaign:chatgpt.com: 111 views · read 32.4% · complete 2.7% · 1.04 pages/session · median ?s
 - referral: 69 views · read 24.6% · complete 1.4% · 1.05 pages/session · median ?s
 - ai: 40 views · read 42.5% · complete 5.0% · 0.82 pages/session · median 20s
 - social: 7 views · read 14.3% · complete 0.0% · 1.17 pages/session · median ?s
@@ -40,7 +40,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 10 reads, 35 views, 0 listens
 - [wire] "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory" — 10 reads, 12 views, 1 listens
 - [wire] "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model" — 7 reads, 11 views, 7 listens
-- [wire] "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card" — 5 reads, 9 views, 0 listens
+- [wire] "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card" — 5 reads, 10 views, 0 listens
 - [wire] "How to Add Citations to a RAG Pipeline" — 5 reads, 8 views, 0 listens
 - [stack] "SkyPilot vs dstack: Two Ways to Run a GPU Job on the Cheapest Cloud That Has One" — 5 reads, 8 views, 0 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in September 2026" — 4 reads, 24 views, 0 listens
@@ -126,7 +126,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
 Hot terms: agents(29), startup(29), founder(27), agentic(26), build(22), building(20), mcp(17), systems(16), agent(13), python(10), its(10), has(10), co-founder(9), actually(8), about(8).
-Hashtags: #ai, #startup, #founder, #tech, #buildinpublic, #aijobs, #videogenration, #tools, #startups, #aihiring.
+Hashtags: #ai, #startup, #founder, #tech, #buildinpublic, #videogenration, #tools, #aijobs, #startups, #aihiring.
 High-engagement posts to react to / cite:
 - "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to." — https://x.com/i/status/2099491915381006477
 - "Israeli AI startup founder Ilit Razt pleaded guilty in New York to a $27 million investor fraud scheme.​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ I’m willing to bet Donald Trump will pardon him like he’s pardoned" — https://x.com/i/status/2098886739087745493
@@ -164,7 +164,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 124 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 116 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 94 crawler fetches
-- /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 70 crawler fetches
+- /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 71 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 60 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 55 crawler fetches
 - /posts/august-2026-ai-deprecation-calendar-founders-migrate.html  — 52 crawler fetches
