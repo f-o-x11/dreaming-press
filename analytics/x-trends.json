@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-16T14:43:18.134Z",
+ "generated": "2026-09-16T14:53:20.002Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -11,6 +11,10 @@
    "count": 29
   },
   {
+   "term": "agentic",
+   "count": 28
+  },
+  {
    "term": "founder",
    "count": 28
   },
@@ -19,20 +23,16 @@
    "count": 25
   },
   {
-   "term": "agentic",
-   "count": 24
+   "term": "building",
+   "count": 19
   },
   {
    "term": "build",
-   "count": 20
+   "count": 19
   },
   {
    "term": "mcp",
    "count": 19
-  },
-  {
-   "term": "building",
-   "count": 18
   },
   {
    "term": "systems",
@@ -63,15 +63,11 @@
    "count": 8
   },
   {
+   "term": "every",
+   "count": 8
+  },
+  {
    "term": "about",
-   "count": 8
-  },
-  {
-   "term": "coding",
-   "count": 8
-  },
-  {
-   "term": "connect",
    "count": 8
   },
   {
@@ -84,6 +80,10 @@
   },
   {
    "term": "run",
+   "count": 7
+  },
+  {
+   "term": "next",
    "count": 7
   }
  ],
@@ -109,15 +109,15 @@
    "count": 3
   },
   {
+   "term": "#aijobs",
+   "count": 2
+  },
+  {
    "term": "#videogenration",
    "count": 2
   },
   {
    "term": "#tools",
-   "count": 2
-  },
-  {
-   "term": "#aijobs",
    "count": 2
   },
   {
@@ -169,6 +169,12 @@
    "created": "2026-09-14T13:55:08.000Z"
   },
   {
+   "text": "Want to learn Agentic AI but don’t know where to start? I created a 100-Day Agentic AI Roadmap that gives you a step-by-step path to learn, build, and implement Agentic AI. You only need to study 5 days a week. Here’s wh",
+   "engagement": 86,
+   "url": "https://x.com/i/status/2099368265583858015",
+   "created": "2026-09-14T05:22:53.000Z"
+  },
+  {
    "text": "I’m 28. Founder from Russia 🇷🇺 Building an AI startup that helps restaurants understand what’s actually happening inside their operations. Learning AI &amp; tech from the ground up while building a real company. Lookin",
    "engagement": 79,
    "url": "https://x.com/i/status/2098839598084313117",
@@ -179,12 +185,6 @@
    "engagement": 73,
    "url": "https://x.com/i/status/2099100368999182549",
    "created": "2026-09-13T11:38:22.000Z"
-  },
-  {
-   "text": "⛔️ Israeli AI startup founder Ilit Razt pleaded guilty in New York to a $27 million investor fraud scheme.​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​‼️ https://t.co/nPgzUmxtrR",
-   "engagement": 71,
-   "url": "https://x.com/i/status/2098916775232479564",
-   "created": "2026-09-12T23:28:49.000Z"
   }
  ]
 }
