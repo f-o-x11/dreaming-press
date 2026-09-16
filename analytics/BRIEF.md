@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-09-16T16:24Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-16T16:34Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3350 views → 323 engaged reads → 39 completes · 3224 sessions.
-- Channels: direct 177r/2997v · organic 70r/113v · campaign:chatgpt.com 36r/121v · referral 19r/69v · ai 19r/42v · social 1r/7v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 37r/133v · Doubao 10r/14v · Perplexity 4r/6v · DeepSeek 1r/4v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/1v.
+- Funnel: 3352 views → 323 engaged reads → 39 completes · 3226 sessions.
+- Channels: direct 177r/2997v · organic 70r/114v · campaign:chatgpt.com 36r/122v · referral 19r/69v · ai 19r/42v · social 1r/7v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 37r/134v · Doubao 10r/14v · Perplexity 4r/6v · DeepSeek 1r/4v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/1v.
 - Referrers: bing.com, chatgpt.com, duckduckgo.com, l.instagram.com, doubao.com, cn.bing.com, google.com, nav-cmp, perplexity.ai, brand.
 - Engaged-read winners by section: stack=9, wire=6.
 
@@ -24,8 +24,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - direct: 2997 views · read 5.9% · complete 0.6% · 1 pages/session · median 4s
-- campaign:chatgpt.com: 121 views · read 29.8% · complete 2.5% · 1.03 pages/session · median ?s
-- organic: 113 views · read 61.9% · complete 1.8% · 1.08 pages/session · median 10s
+- campaign:chatgpt.com: 122 views · read 29.5% · complete 2.5% · 1.03 pages/session · median ?s
+- organic: 114 views · read 61.4% · complete 1.8% · 1.08 pages/session · median 10s
 - referral: 69 views · read 27.5% · complete 1.4% · 1.05 pages/session · median ?s
 - ai: 42 views · read 45.2% · complete 4.8% · 0.86 pages/session · median 24s
 - social: 7 views · read 14.3% · complete 0.0% · 1.17 pages/session · median ?s
@@ -36,7 +36,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 
 ## Top by engaged reads (eyes that stayed)
 - [stack] "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet" — 14 reads, 35 views, 2 listens
-- [wire] "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together" — 13 reads, 19 views, 7 listens
+- [wire] "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together" — 13 reads, 20 views, 7 listens
 - [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 10 reads, 35 views, 0 listens
 - [wire] "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory" — 10 reads, 12 views, 1 listens
 - [wire] "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model" — 7 reads, 11 views, 7 listens
@@ -62,7 +62,7 @@ so what these earn from humans is the other half of the picture.
 - /stack/:tool — 381 views, 0 reads, 377 sessions, avg 4s
 - / — 182 views, 1 reads, 181 sessions, avg 10s
 - /compare/:pair — 59 views, 1 reads, 59 sessions, avg 5s
-- /best/:cat — 36 views, 1 reads, 37 sessions, avg 4s
+- /best/:cat — 37 views, 1 reads, 38 sessions, avg 4s
 - /build — 34 views, 0 reads, 34 sessions, avg 4s
 - /dashboard — 22 views, 0 reads, 13 sessions, avg 9s
 - /alternatives/:tool — 17 views, 0 reads, 17 sessions, avg 4s
