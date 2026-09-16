@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-16T23:18Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-16T23:28Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -96,7 +96,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 619 retrieval fetches
+- /  — 620 retrieval fetches
 - /build  — 210 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 126 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 106 retrieval fetches
@@ -109,8 +109,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (13379 verified): /build ×210 · /dashboard ×25 · / ×23
-- OAI-SearchBot (3620 verified): /wire.html ×41 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×30 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×29
-- ChatGPT-User (3091 verified): / ×596 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×126 · /posts/open-source-llm-for-coding-september-2026.html ×106
+- OAI-SearchBot (3622 verified): /wire.html ×41 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×30 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×29
+- ChatGPT-User (3093 verified): / ×597 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×126 · /posts/open-source-llm-for-coding-september-2026.html ×106
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: startup(27), agents(26), founder(26), agentic(24), mcp(19), build(16), building(15), agent(14), systems(12), has(12), its(12), python(10), co-founder(10), coding(9), run(8).
+Hot terms: agents(27), startup(27), founder(26), agentic(25), mcp(20), build(17), building(15), agent(14), systems(13), has(12), its(12), python(10), co-founder(10), coding(9), run(8).
 Hashtags: #ai, #startup, #founder, #tech, #buildinpublic, #aijobs, #videogenration, #tools, #australia, #startups.
 High-engagement posts to react to / cite:
 - "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to." — https://x.com/i/status/2099491915381006477
@@ -138,7 +138,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (108h old, 264 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 22208 confirmed AI-engine fetches (Perplexity 13379, ChatGPT Search (OpenAI) 3620, ChatGPT (user browsing) 3091, GPTBot (OpenAI) 2118).
+The real answer engines are crawling us — IP-verified: 22212 confirmed AI-engine fetches (Perplexity 13379, ChatGPT Search (OpenAI) 3622, ChatGPT (user browsing) 3093, GPTBot (OpenAI) 2118).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 813 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 131 crawler fetches
