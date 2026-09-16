@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-16T18:56Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-16T19:06Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3350 views → 324 engaged reads → 39 completes · 3224 sessions.
-- Channels: direct 176r/2993v · organic 71r/115v · campaign:chatgpt.com 37r/123v · referral 19r/69v · ai 19r/42v · social 1r/7v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
+- Funnel: 3349 views → 323 engaged reads → 39 completes · 3224 sessions.
+- Channels: direct 175r/2992v · organic 71r/115v · campaign:chatgpt.com 37r/123v · referral 19r/69v · ai 19r/42v · social 1r/7v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 38r/135v · Doubao 10r/14v · Perplexity 4r/6v · DeepSeek 1r/4v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/1v.
 - Referrers: bing.com, chatgpt.com, duckduckgo.com, l.instagram.com, doubao.com, cn.bing.com, google.com, nav-cmp, perplexity.ai, brand.
 - Engaged-read winners by section: stack=9, wire=6.
@@ -23,13 +23,13 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2993 views · read 5.9% · complete 0.6% · 1 pages/session · median 4s
+- direct: 2992 views · read 5.8% · complete 0.6% · 1 pages/session · median 4s
 - campaign:chatgpt.com: 123 views · read 30.1% · complete 2.4% · 1.03 pages/session · median ?s
 - organic: 115 views · read 61.7% · complete 1.7% · 1.07 pages/session · median 10s
 - referral: 69 views · read 27.5% · complete 1.4% · 1.05 pages/session · median ?s
 - ai: 42 views · read 45.2% · complete 4.8% · 0.88 pages/session · median 38s
 - social: 7 views · read 14.3% · complete 0.0% · 1.17 pages/session · median ?s
-INSIGHT: organic converts 10x better per view than direct, which is 89% of all views.
+INSIGHT: organic converts 11x better per view than direct, which is 89% of all views.
 One visitor from organic is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
@@ -38,7 +38,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet" — 14 reads, 35 views, 2 listens
 - [wire] "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together" — 13 reads, 20 views, 7 listens
 - [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 11 reads, 36 views, 1 listens
-- [wire] "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory" — 10 reads, 12 views, 1 listens
+- [wire] "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory" — 9 reads, 11 views, 1 listens
 - [wire] "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model" — 7 reads, 11 views, 7 listens
 - [wire] "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card" — 6 reads, 10 views, 0 listens
 - [wire] "How to Add Citations to a RAG Pipeline" — 5 reads, 8 views, 0 listens
@@ -52,7 +52,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet" — 2 listens, 14 reads
 - [wire] "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why" — 2 listens, 1 reads
 - [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 1 listens, 11 reads
-- [wire] "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory" — 1 listens, 10 reads
+- [wire] "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory" — 1 listens, 9 reads
 - [stack] "Bedrock AgentCore's Free Observability vs Langfuse vs Phoenix: When the Built-In Tracing Is Actually Enough" — 1 listens, 3 reads
 - [wire] "Arm Open-Sourced Its Internal Security Reviewer. Here's Whether You Should Run It." — 1 listens, 3 reads
 
@@ -110,13 +110,13 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (13377 verified): /build ×210 · /dashboard ×25 · / ×23
 - OAI-SearchBot (3571 verified): /wire.html ×40 · /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html ×30 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×29
-- ChatGPT-User (3051 verified): / ×590 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×124 · /posts/open-source-llm-for-coding-september-2026.html ×103
+- ChatGPT-User (3053 verified): / ×590 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×124 · /posts/open-source-llm-for-coding-september-2026.html ×103
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
 
 ## WRITE MORE LIKE THESE — SUPPRESSED (not enough support yet)
-4 piece(s) clear 10 engaged reads; this block needs 5 before a "winning
+3 piece(s) clear 10 engaged reads; this block needs 5 before a "winning
 format" distribution means anything (best in-window: 14 reads). Inferring a pattern from
 single-digit samples is curve-fitting, and a confident wrong steer costs more than none.
 ACTION: commission from "WHAT ANSWER ENGINES ARE PULLING" above — its sample size is in the
@@ -138,7 +138,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (103h old, 264 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 22116 confirmed AI-engine fetches (Perplexity 13377, ChatGPT Search (OpenAI) 3571, ChatGPT (user browsing) 3051, GPTBot (OpenAI) 2117).
+The real answer engines are crawling us — IP-verified: 22118 confirmed AI-engine fetches (Perplexity 13377, ChatGPT Search (OpenAI) 3571, ChatGPT (user browsing) 3053, GPTBot (OpenAI) 2117).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 806 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 130 crawler fetches
@@ -149,7 +149,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 61 crawler fetches
 - /posts/august-2026-ai-deprecation-calendar-founders-migrate.html  — 53 crawler fetches
 - /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 43 crawler fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 41 crawler fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 42 crawler fetches
 - /posts/2026-08-23-founders-wire-openai-zero-retention-guidelight-grades-google-marvell.html  — 40 crawler fetches
 - /posts/gpt-5-6-terra-vs-kimi-k3-mid-tier-agent-backend.html  — 40 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
