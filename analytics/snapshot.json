@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-16T19:46:48.833Z",
+ "generated": "2026-09-16T19:56:49.019Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 24,
   "avgTimeSec": 37,
   "postsThisWeek": 6
  },
  "funnel": {
-  "views": 3345,
+  "views": 3343,
   "reads": 322,
   "completes": 39,
   "plays": 32,
-  "sessions": 3221
+  "sessions": 3220
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2990,
+   "views": 2987,
    "reads": 175,
-   "sessions": 2982
+   "sessions": 2980
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 123,
+   "views": 124,
    "reads": 37,
-   "sessions": 119
+   "sessions": 120
   },
   {
    "channel": "referral",
@@ -61,16 +61,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 30
+   "sessions": 29
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2990,
+   "views": 2987,
    "reads": 175,
    "completes": 17,
-   "sessions": 2981,
+   "sessions": 2979,
    "read_rate": 0.059,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 123,
+   "views": 124,
    "reads": 37,
    "completes": 3,
-   "sessions": 119,
-   "read_rate": 0.301,
+   "sessions": 120,
+   "read_rate": 0.298,
    "complete_rate": 0.024,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -147,7 +147,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 30,
+   "sessions": 29,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -156,14 +156,14 @@
  ],
  "navSurfaces": [
   {
-   "surface": "nav-cmp",
-   "clicks": 10,
-   "sessions": 6
-  },
-  {
    "surface": "brand",
    "clicks": 10,
    "sessions": 9
+  },
+  {
+   "surface": "nav-cmp",
+   "clicks": 9,
+   "sessions": 5
   },
   {
    "surface": "article-body",
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 135,
+   "views": 136,
    "reads": 38,
-   "sessions": 126
+   "sessions": 127
   },
   {
    "assistant": "Doubao",
@@ -278,9 +278,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2669,
+   "views": 2667,
    "reads": 293,
-   "sessions": 2554
+   "sessions": 2553
   },
   {
    "device": "mobile",
@@ -661,9 +661,9 @@
   },
   {
    "path": "/",
-   "views": 182,
+   "views": 180,
    "reads": 1,
-   "sessions": 181,
+   "sessions": 179,
    "avg_dwell_sec": 10
   },
   {
@@ -795,11 +795,6 @@
    "sessions": 13
   },
   {
-   "ref": "nav-cmp",
-   "hits": 10,
-   "sessions": 6
-  },
-  {
    "ref": "https://www.perplexity.ai/",
    "hits": 10,
    "sessions": 5
@@ -808,6 +803,11 @@
    "ref": "brand",
    "hits": 10,
    "sessions": 9
+  },
+  {
+   "ref": "nav-cmp",
+   "hits": 9,
+   "sessions": 5
   }
  ]
 }
