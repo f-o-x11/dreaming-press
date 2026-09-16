@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-16T06:47:41.129Z",
+ "generated": "2026-09-16T06:57:41.235Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 11,
+  "readersNow": 2,
+  "todayReads": 12,
   "avgTimeSec": 74,
   "postsThisWeek": 6
  },
  "funnel": {
-  "views": 3316,
-  "reads": 320,
+  "views": 3318,
+  "reads": 321,
   "completes": 41,
   "plays": 31,
-  "sessions": 3190
+  "sessions": 3191
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2974,
+   "views": 2975,
    "reads": 177,
-   "sessions": 2963
+   "sessions": 2964
   },
   {
    "channel": "organic",
@@ -34,16 +34,16 @@
    "sessions": 108
   },
   {
+   "channel": "ai",
+   "views": 42,
+   "reads": 19,
+   "sessions": 49
+  },
+  {
    "channel": "referral",
    "views": 71,
    "reads": 18,
    "sessions": 68
-  },
-  {
-   "channel": "ai",
-   "views": 41,
-   "reads": 18,
-   "sessions": 49
   },
   {
    "channel": "social",
@@ -67,11 +67,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2974,
+   "views": 2975,
    "reads": 177,
    "completes": 19,
-   "sessions": 2962,
-   "read_rate": 0.06,
+   "sessions": 2963,
+   "read_rate": 0.059,
    "complete_rate": 0.006,
    "pages_per_session": 1,
    "median_dwell_sec": 4
@@ -111,13 +111,13 @@
   },
   {
    "channel": "ai",
-   "views": 41,
-   "reads": 18,
+   "views": 42,
+   "reads": 19,
    "completes": 2,
    "sessions": 49,
-   "read_rate": 0.439,
-   "complete_rate": 0.049,
-   "pages_per_session": 0.84,
+   "read_rate": 0.452,
+   "complete_rate": 0.048,
+   "pages_per_session": 0.86,
    "median_dwell_sec": 20
   },
   {
@@ -240,8 +240,8 @@
   },
   {
    "assistant": "Doubao",
-   "views": 13,
-   "reads": 9,
+   "views": 14,
+   "reads": 10,
    "sessions": 7
   },
   {
@@ -278,9 +278,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2649,
-   "reads": 292,
-   "sessions": 2532
+   "views": 2651,
+   "reads": 293,
+   "sessions": 2533
   },
   {
    "device": "mobile",
@@ -427,22 +427,22 @@
    "plays": 0
   },
   {
+   "slug": "how-to-instrument-an-agent-langfuse-v4-otel",
+   "title": "How to Instrument Your Agent with Langfuse v4 — the OpenTelemetry Rewrite That Broke Every Old Tutorial",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 6,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "gpt-5-6-prompt-caching-explicit-breakpoints",
    "title": "GPT-5.6 Rewired Prompt Caching: A Hands-On Guide to prompt_cache_options",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 5,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "how-to-write-a-claude-skill-that-triggers",
-   "title": "How to Write a Claude Skill That Actually Triggers: The SKILL.md Description Craft",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 4,
    "reads": 4,
    "plays": 0
   }
@@ -514,7 +514,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 4,
+   "views": 5,
    "reads": 3,
    "plays": 1
   },
@@ -781,7 +781,7 @@
   },
   {
    "ref": "https://www.doubao.com/",
-   "hits": 23,
+   "hits": 25,
    "sessions": 7
   },
   {
