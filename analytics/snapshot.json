@@ -1,10 +1,10 @@
 {
- "generated": "2026-09-16T07:38:04.499Z",
+ "generated": "2026-09-16T07:48:06.201Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 12,
-  "avgTimeSec": 74,
+  "avgTimeSec": 71,
   "postsThisWeek": 6
  },
  "funnel": {
@@ -12,14 +12,14 @@
   "reads": 321,
   "completes": 41,
   "plays": 31,
-  "sessions": 3189
+  "sessions": 3188
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2973,
+   "views": 2972,
    "reads": 177,
-   "sessions": 2962
+   "sessions": 2960
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 112,
+   "views": 113,
    "reads": 36,
-   "sessions": 108
+   "sessions": 109
   },
   {
    "channel": "ai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2973,
+   "views": 2972,
    "reads": 177,
    "completes": 19,
-   "sessions": 2961,
+   "sessions": 2959,
    "read_rate": 0.06,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 112,
+   "views": 113,
    "reads": 36,
    "completes": 3,
-   "sessions": 108,
-   "read_rate": 0.321,
+   "sessions": 109,
+   "read_rate": 0.319,
    "complete_rate": 0.027,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 124,
+   "views": 125,
    "reads": 37,
-   "sessions": 115
+   "sessions": 116
   },
   {
    "assistant": "Doubao",
@@ -280,7 +280,7 @@
    "device": "desktop",
    "views": 2649,
    "reads": 293,
-   "sessions": 2531
+   "sessions": 2530
   },
   {
    "device": "mobile",
@@ -484,7 +484,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"cynical\"]",
    "author": "priya",
-   "views": 8,
+   "views": 7,
    "reads": 1,
    "plays": 2
   },
