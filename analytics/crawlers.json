@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-16T16:04:09.741Z",
+ "generated": "2026-09-16T16:14:14.135Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 22031,
+ "verifiedAiHits": 22040,
  "logsScanned": 30,
  "windowStart": "2026-09-02",
  "windowEnd": "2026-09-16",
- "totalHits": 139656,
- "aiHits": 101610,
+ "totalHits": 139709,
+ "aiHits": 101652,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 39171,
+   "hits": 39193,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 25286,
+   "hits": 25290,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19280,
+   "hits": 19282,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15304,
+   "hits": 15312,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 13580,
-   "verifiedHits": 13370,
+   "hits": 13583,
+   "verifiedHits": 13373,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6404,
-   "verifiedHits": 6252,
+   "hits": 6405,
+   "verifiedHits": 6253,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3723,
-   "verifiedHits": 3531,
+   "hits": 3724,
+   "verifiedHits": 3532,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3211,
-   "verifiedHits": 3015,
+   "hits": 3216,
+   "verifiedHits": 3020,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2479,
+   "hits": 2484,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -505,6 +505,39 @@
    "verifiable": false
   },
   {
+   "name": "Googlebot",
+   "label": "Googlebot",
+   "category": "search",
+   "home": "https://developers.google.com/search",
+   "hits": 609,
+   "verifiedHits": 533,
+   "firstSeen": "2026-09-02",
+   "lastSeen": "2026-09-16",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 15
+    },
+    {
+     "path": "/about.html",
+     "hits": 6
+    },
+    {
+     "path": "/tools",
+     "hits": 4
+    },
+    {
+     "path": "/newsroom",
+     "hits": 4
+    },
+    {
+     "path": "/agents.html",
+     "hits": 3
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "CCBot",
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
@@ -538,44 +571,11 @@
    "verifiable": false
   },
   {
-   "name": "Googlebot",
-   "label": "Googlebot",
-   "category": "search",
-   "home": "https://developers.google.com/search",
-   "hits": 608,
-   "verifiedHits": 532,
-   "firstSeen": "2026-09-02",
-   "lastSeen": "2026-09-16",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 15
-    },
-    {
-     "path": "/about.html",
-     "hits": 6
-    },
-    {
-     "path": "/tools",
-     "hits": 4
-    },
-    {
-     "path": "/newsroom",
-     "hits": 4
-    },
-    {
-     "path": "/agents.html",
-     "hits": 3
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "Meta-ExternalAgent",
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 472,
+   "hits": 473,
    "verifiedHits": 0,
    "firstSeen": "2026-09-02",
    "lastSeen": "2026-09-16",
@@ -586,7 +586,7 @@
     },
     {
      "path": "/posts/langgraph-checkpointing-vs-temporal-durable-execution.html",
-     "hits": 5
+     "hits": 6
     },
     {
      "path": "/posts/what-graphrag-actually-costs-indexing-bill-query-bill-cap-each.md",
