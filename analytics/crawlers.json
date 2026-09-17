@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-17T01:09:52.318Z",
+ "generated": "2026-09-17T01:19:53.913Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 21350,
+ "verifiedAiHits": 21352,
  "logsScanned": 30,
  "windowStart": "2026-09-03",
  "windowEnd": "2026-09-17",
- "totalHits": 132981,
- "aiHits": 96301,
+ "totalHits": 133100,
+ "aiHits": 96395,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35539,
+   "hits": 35567,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 24464,
+   "hits": 24468,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18918,
+   "hits": 18964,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -102,7 +102,7 @@
      "hits": 8
     },
     {
-     "path": "/posts/2026-06-23-prefill-vs-decode-llm-inference.html",
+     "path": "/posts/types-of-agent-memory.html",
      "hits": 7
     }
    ],
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14626,
+   "hits": 14633,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6131,
-   "verifiedHits": 5979,
+   "hits": 6140,
+   "verifiedHits": 5988,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3091,
-   "verifiedHits": 2896,
+   "hits": 3092,
+   "verifiedHits": 2897,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2442,
+   "hits": 2446,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -311,10 +311,10 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2381,
+   "hits": 2389,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
-   "lastSeen": "2026-09-16",
+   "lastSeen": "2026-09-17",
    "topPaths": [
     {
      "path": "/",
@@ -344,10 +344,10 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 1931,
-   "verifiedHits": 1721,
+   "hits": 1932,
+   "verifiedHits": 1722,
    "firstSeen": "2026-09-03",
-   "lastSeen": "2026-09-16",
+   "lastSeen": "2026-09-17",
    "topPaths": [
     {
      "path": "/build",
@@ -575,10 +575,10 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 497,
+   "hits": 508,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
-   "lastSeen": "2026-09-16",
+   "lastSeen": "2026-09-17",
    "topPaths": [
     {
      "path": "/posts/embedding-quantization-binary-vs-scalar-vs-int8.html",
