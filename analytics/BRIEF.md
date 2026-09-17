@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-17T23:01Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-17T23:12Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3383 views → 329 engaged reads → 43 completes · 3260 sessions.
-- Channels: direct 181r/3014v · organic 70r/109v · campaign:chatgpt.com 39r/144v · referral 20r/71v · ai 17r/38v · social 1r/6v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
+- Funnel: 3385 views → 329 engaged reads → 43 completes · 3261 sessions.
+- Channels: direct 181r/3016v · organic 70r/109v · campaign:chatgpt.com 39r/144v · referral 20r/71v · ai 17r/38v · social 1r/6v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 39r/156v · Doubao 10r/13v · Perplexity 4r/6v · DeepSeek 1r/4v · Yuanbao 1r/1v · Kimi 0r/1v.
 - Referrers: bing.com, chatgpt.com, duckduckgo.com, l.instagram.com, doubao.com, cn.bing.com, google.com, brand, perplexity.ai, nav-cmp.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3014 views · read 6.0% · complete 0.7% · 1 pages/session · median 4s
+- direct: 3016 views · read 6.0% · complete 0.7% · 1 pages/session · median 4s
 - campaign:chatgpt.com: 144 views · read 27.1% · complete 2.8% · 1.01 pages/session · median ?s
 - organic: 109 views · read 64.2% · complete 1.8% · 1.07 pages/session · median 10s
 - referral: 71 views · read 28.2% · complete 1.4% · 1.04 pages/session · median ?s
@@ -109,7 +109,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (13666 verified): /build ×212 · /dashboard ×26 · / ×25
-- OAI-SearchBot (3657 verified): /wire.html ×46 · /tools ×31 · /posts/ai-coding-agent-ranking-2026.html ×30
+- OAI-SearchBot (3658 verified): /wire.html ×46 · /tools ×31 · /posts/ai-coding-agent-ranking-2026.html ×30
 - ChatGPT-User (3132 verified): / ×598 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×140 · /posts/open-source-llm-for-coding-september-2026.html ×122
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -125,17 +125,17 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(33), agentic(28), startup(28), founder(27), building(18), mcp(18), agent(15), build(15), systems(14), coding(11), actually(9), about(9), run(8), like(8), every(8).
+Hot terms: agents(32), agentic(28), startup(28), founder(27), building(18), mcp(18), agent(15), build(15), systems(13), coding(11), actually(9), about(9), run(8), like(8), every(8).
 Hashtags: #ai, #startup, #founder, #tech, #buildinpublic, #videogenration, #tools, #startups, #aijobs, #aihiring.
 High-engagement posts to react to / cite:
 - "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to." — https://x.com/i/status/2099491915381006477
 - "Israeli AI startup founder Ilit Razt pleaded guilty in New York to a $27 million investor fraud scheme.​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ I’m willing to bet Donald Trump will pardon him like he’s pardoned" — https://x.com/i/status/2098886739087745493
 - "Finch V2 is live on @ponsdotfamily. Over the past few months, what started as NoelClaw evolved into something much bigger — a platform where AI agents can remember, research, build, automate, trade, and interact with rea" — https://x.com/i/status/2098850575576428667
 - "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen" — https://x.com/i/status/2100517638611087443
-- ""Agentic Architectural Patterns for Building Multi-Agent Systems — Proven design patterns and practices for GenAI, agents, RAG, LLMOps, and enterprise-scale AI systems" 𝓟𝓻𝓪𝓬𝓽𝓲𝓬𝓪𝓵 𝓛𝓮𝓪𝓻𝓷𝓲𝓷𝓰: 🟢Apply design" — https://x.com/i/status/2098511093593260480
+- "Hedera just went live in Claude Code. Network MCP + Wallet Connector Let AI agents build and sign hedera-hashgraph:native transactions from your terminal. Humans still approve the final send. First mover on agentic block" — https://x.com/i/status/2100328490759250006
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (253 of 450 phrases have NO post, 11h ago)
+## Uncovered search demand (253 of 450 phrases have NO post, 12h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -158,13 +158,13 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 24713 confirmed AI-engine fetches (Perplexity 13666, GPTBot (OpenAI) 4258, ChatGPT Search (OpenAI) 3657, ChatGPT (user browsing) 3132).
+The real answer engines are crawling us — IP-verified: 24714 confirmed AI-engine fetches (Perplexity 13666, GPTBot (OpenAI) 4258, ChatGPT Search (OpenAI) 3658, ChatGPT (user browsing) 3132).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 836 crawler fetches
-- /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 144 crawler fetches
+- /build  — 838 crawler fetches
+- /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 145 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 140 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 122 crawler fetches
-- /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 90 crawler fetches
+- /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 91 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 83 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 61 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 53 crawler fetches
