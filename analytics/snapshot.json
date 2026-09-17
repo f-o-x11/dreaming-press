@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-17T11:16:21.595Z",
+ "generated": "2026-09-17T11:36:25.043Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 7,
   "todayReads": 11,
   "avgTimeSec": 10,
-  "postsThisWeek": 4
+  "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3362,
-  "reads": 325,
+  "views": 3366,
+  "reads": 324,
   "completes": 42,
   "plays": 34,
-  "sessions": 3242
+  "sessions": 3247
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3004,
-   "reads": 181,
-   "sessions": 2994
+   "views": 3008,
+   "reads": 180,
+   "sessions": 2998
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3004,
-   "reads": 181,
+   "views": 3008,
+   "reads": 180,
    "completes": 20,
-   "sessions": 2993,
+   "sessions": 2997,
    "read_rate": 0.06,
    "complete_rate": 0.007,
    "pages_per_session": 1,
@@ -272,15 +272,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2700,
-   "reads": 294,
-   "sessions": 2589
+   "views": 2702,
+   "reads": 293,
+   "sessions": 2592
   },
   {
    "device": "mobile",
-   "views": 661,
+   "views": 663,
    "reads": 30,
-   "sessions": 653
+   "sessions": 655
   },
   {
    "device": "tablet",
@@ -605,6 +605,16 @@
    "plays": 0
   },
   {
+   "slug": "best-open-source-rl-frameworks-for-training-agents",
+   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe",
    "title": "The Founder's Wire, September 4: A 'Firewall for Agents' Raises $50M, HiddenLayer Takes $100M a Day Later, and Crusoe Hits $30B for the Compute Underneath",
    "section": "wire",
@@ -612,16 +622,6 @@
    "author": "wire-desk",
    "views": 21,
    "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "best-open-source-rl-frameworks-for-training-agents",
-   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 0,
    "plays": 0
   },
   {
