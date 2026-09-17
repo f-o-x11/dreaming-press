@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-17T00:39:13.920Z",
+ "generated": "2026-09-17T00:49:21.855Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 1,
   "avgTimeSec": 4,
   "postsThisWeek": 4
  },
  "funnel": {
-  "views": 3343,
+  "views": 3338,
   "reads": 325,
   "completes": 40,
   "plays": 32,
-  "sessions": 3221
+  "sessions": 3216
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2985,
    "reads": 177,
-   "sessions": 2979
+   "sessions": 2978
   },
   {
    "channel": "organic",
-   "views": 114,
+   "views": 111,
    "reads": 71,
-   "sessions": 107
+   "sessions": 104
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 69,
+   "views": 67,
    "reads": 19,
-   "sessions": 66
+   "sessions": 64
   },
   {
    "channel": "ai",
@@ -70,7 +70,7 @@
    "views": 2985,
    "reads": 177,
    "completes": 18,
-   "sessions": 2978,
+   "sessions": 2977,
    "read_rate": 0.059,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -89,23 +89,23 @@
   },
   {
    "channel": "organic",
-   "views": 114,
+   "views": 111,
    "reads": 71,
    "completes": 2,
-   "sessions": 107,
-   "read_rate": 0.623,
+   "sessions": 104,
+   "read_rate": 0.64,
    "complete_rate": 0.018,
    "pages_per_session": 1.07,
    "median_dwell_sec": 10
   },
   {
    "channel": "referral",
-   "views": 69,
+   "views": 67,
    "reads": 19,
    "completes": 1,
-   "sessions": 66,
-   "read_rate": 0.275,
-   "complete_rate": 0.014,
+   "sessions": 64,
+   "read_rate": 0.284,
+   "complete_rate": 0.015,
    "pages_per_session": 1.05,
    "median_dwell_sec": null
   },
@@ -278,15 +278,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2669,
+   "views": 2663,
    "reads": 295,
-   "sessions": 2556
+   "sessions": 2550
   },
   {
    "device": "mobile",
-   "views": 673,
+   "views": 674,
    "reads": 29,
-   "sessions": 665
+   "sessions": 666
   },
   {
    "device": "tablet",
@@ -709,13 +709,6 @@
    "avg_dwell_sec": 6
   },
   {
-   "path": "/tools",
-   "views": 13,
-   "reads": 0,
-   "sessions": 13,
-   "avg_dwell_sec": 7
-  },
-  {
    "path": "/stack.html",
    "views": 11,
    "reads": 0,
@@ -728,6 +721,13 @@
    "reads": 0,
    "sessions": 7,
    "avg_dwell_sec": 7
+  },
+  {
+   "path": "/tools",
+   "views": 8,
+   "reads": 0,
+   "sessions": 8,
+   "avg_dwell_sec": 8
   },
   {
    "path": "/weekly",
@@ -791,8 +791,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 15,
-   "sessions": 13
+   "hits": 14,
+   "sessions": 12
   },
   {
    "ref": "https://www.perplexity.ai/",
