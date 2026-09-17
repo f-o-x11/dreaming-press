@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-17T22:11:14.204Z",
+ "generated": "2026-09-17T22:21:18.210Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 24690,
+ "verifiedAiHits": 24693,
  "logsScanned": 30,
  "windowStart": "2026-09-03",
  "windowEnd": "2026-09-17",
- "totalHits": 141866,
- "aiHits": 104105,
+ "totalHits": 141893,
+ "aiHits": 104118,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37709,
+   "hits": 37710,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15593,
+   "hits": 15601,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 13888,
-   "verifiedHits": 13661,
+   "hits": 13890,
+   "verifiedHits": 13663,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6580,
-   "verifiedHits": 6413,
+   "hits": 6584,
+   "verifiedHits": 6417,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3854,
-   "verifiedHits": 3646,
+   "hits": 3855,
+   "verifiedHits": 3647,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2564,
+   "hits": 2572,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1497,
+   "hits": 1498,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -434,6 +434,39 @@
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
      "hits": 45
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "YandexBot",
+   "label": "Yandex",
+   "category": "search",
+   "home": "https://yandex.com",
+   "hits": 780,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-03",
+   "lastSeen": "2026-09-17",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 39
+    },
+    {
+     "path": "/dashboard",
+     "hits": 6
+    },
+    {
+     "path": "/posts/strands-agents-vs-langgraph.html",
+     "hits": 4
+    },
+    {
+     "path": "/posts/siggraph-2026-agents-enter-art-pipeline-mcp-creative-tools.html",
+     "hits": 3
+    },
+    {
+     "path": "/alternatives/claude-agent-sdk",
+     "hits": 3
     }
    ],
    "verifiable": false
@@ -467,39 +500,6 @@
     {
      "path": "/posts/how-to-reduce-ai-agent-latency.html",
      "hits": 2
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "YandexBot",
-   "label": "Yandex",
-   "category": "search",
-   "home": "https://yandex.com",
-   "hits": 778,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-03",
-   "lastSeen": "2026-09-17",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 39
-    },
-    {
-     "path": "/dashboard",
-     "hits": 6
-    },
-    {
-     "path": "/posts/strands-agents-vs-langgraph.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/siggraph-2026-agents-enter-art-pipeline-mcp-creative-tools.html",
-     "hits": 3
-    },
-    {
-     "path": "/alternatives/claude-agent-sdk",
-     "hits": 3
     }
    ],
    "verifiable": false
