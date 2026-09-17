@@ -1,10 +1,10 @@
 {
- "generated": "2026-09-17T07:13:31.750Z",
+ "generated": "2026-09-17T07:23:42.191Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 2,
   "todayReads": 10,
-  "avgTimeSec": 10,
+  "avgTimeSec": 9,
   "postsThisWeek": 4
  },
  "funnel": {
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3003,
+   "views": 3002,
    "reads": 183,
-   "sessions": 2995
+   "sessions": 2994
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 131,
+   "views": 132,
    "reads": 38,
-   "sessions": 127
+   "sessions": 128
   },
   {
    "channel": "referral",
@@ -43,7 +43,7 @@
    "channel": "ai",
    "views": 43,
    "reads": 19,
-   "sessions": 49
+   "sessions": 50
   },
   {
    "channel": "social",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3003,
+   "views": 3002,
    "reads": 183,
    "completes": 20,
-   "sessions": 2994,
+   "sessions": 2993,
    "read_rate": 0.061,
    "complete_rate": 0.007,
    "pages_per_session": 1,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 131,
+   "views": 132,
    "reads": 38,
    "completes": 3,
-   "sessions": 127,
-   "read_rate": 0.29,
+   "sessions": 128,
+   "read_rate": 0.288,
    "complete_rate": 0.023,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -114,11 +114,11 @@
    "views": 43,
    "reads": 19,
    "completes": 2,
-   "sessions": 49,
+   "sessions": 50,
    "read_rate": 0.442,
    "complete_rate": 0.047,
-   "pages_per_session": 0.88,
-   "median_dwell_sec": 38
+   "pages_per_session": 0.86,
+   "median_dwell_sec": 26
   },
   {
    "channel": "social",
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 144,
+   "views": 145,
    "reads": 39,
-   "sessions": 135
+   "sessions": 136
   },
   {
    "assistant": "Doubao",
@@ -631,21 +631,21 @@
    "plays": 7
   },
   {
-   "slug": "2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments",
-   "title": "The Founder's Wire, September 8: Nvidia Buys the Open-Model Commons, OpenAI Moves to Rent You an Agent Runtime, and Anthropic Wants to Own Its Money Rails",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 19,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "best-open-source-rl-frameworks-for-training-agents",
    "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
+   "views": 20,
+   "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments",
+   "title": "The Founder's Wire, September 8: Nvidia Buys the Open-Model Commons, OpenAI Moves to Rent You an Agent Runtime, and Anthropic Wants to Own Its Money Rails",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
    "views": 19,
    "reads": 0,
    "plays": 0
