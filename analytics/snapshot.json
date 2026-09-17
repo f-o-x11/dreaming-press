@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-17T07:54:01.417Z",
+ "generated": "2026-09-17T08:04:21.691Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 9,
   "todayReads": 10,
   "avgTimeSec": 11,
   "postsThisWeek": 4
  },
  "funnel": {
-  "views": 3366,
+  "views": 3368,
   "reads": 330,
   "completes": 42,
   "plays": 34,
-  "sessions": 3244
+  "sessions": 3248
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3004,
+   "views": 3008,
    "reads": 183,
-   "sessions": 2997
+   "sessions": 3001
   },
   {
    "channel": "organic",
@@ -29,7 +29,7 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 134,
+   "views": 132,
    "reads": 38,
    "sessions": 130
   },
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3004,
+   "views": 3008,
    "reads": 183,
    "completes": 20,
-   "sessions": 2996,
+   "sessions": 3000,
    "read_rate": 0.061,
    "complete_rate": 0.007,
    "pages_per_session": 1,
@@ -78,13 +78,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 134,
+   "views": 132,
    "reads": 38,
    "completes": 3,
    "sessions": 130,
-   "read_rate": 0.284,
-   "complete_rate": 0.022,
-   "pages_per_session": 1.03,
+   "read_rate": 0.288,
+   "complete_rate": 0.023,
+   "pages_per_session": 1.02,
    "median_dwell_sec": null
   },
   {
@@ -118,7 +118,7 @@
    "read_rate": 0.442,
    "complete_rate": 0.047,
    "pages_per_session": 0.86,
-   "median_dwell_sec": 26
+   "median_dwell_sec": 38
   },
   {
    "channel": "social",
@@ -234,7 +234,7 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 147,
+   "views": 145,
    "reads": 39,
    "sessions": 138
   },
@@ -278,15 +278,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2695,
+   "views": 2698,
    "reads": 299,
-   "sessions": 2582
+   "sessions": 2587
   },
   {
    "device": "mobile",
-   "views": 670,
+   "views": 669,
    "reads": 30,
-   "sessions": 662
+   "sessions": 661
   },
   {
    "device": "tablet",
@@ -654,7 +654,7 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 388,
+   "views": 386,
    "reads": 0,
    "sessions": 384,
    "avg_dwell_sec": 4
@@ -766,7 +766,7 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 66,
+   "hits": 64,
    "sessions": 35
   },
   {
