@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-17T14:04:43.884Z",
+ "generated": "2026-09-17T14:14:46.225Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -16,7 +16,7 @@
   },
   {
    "term": "startup",
-   "count": 26
+   "count": 27
   },
   {
    "term": "agentic",
@@ -44,15 +44,11 @@
   },
   {
    "term": "has",
-   "count": 12
+   "count": 11
   },
   {
    "term": "coding",
    "count": 11
-  },
-  {
-   "term": "its",
-   "count": 10
   },
   {
    "term": "python",
@@ -60,10 +56,6 @@
   },
   {
    "term": "actually",
-   "count": 9
-  },
-  {
-   "term": "co-founder",
    "count": 9
   },
   {
@@ -75,7 +67,7 @@
    "count": 8
   },
   {
-   "term": "google",
+   "term": "co-founder",
    "count": 8
   },
   {
@@ -84,6 +76,14 @@
   },
   {
    "term": "tokens",
+   "count": 7
+  },
+  {
+   "term": "about",
+   "count": 7
+  },
+  {
+   "term": "every",
    "count": 7
   }
  ],
