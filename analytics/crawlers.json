@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-17T20:09:43.114Z",
+ "generated": "2026-09-17T20:19:47.862Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 24633,
+ "verifiedAiHits": 24635,
  "logsScanned": 30,
  "windowStart": "2026-09-03",
  "windowEnd": "2026-09-17",
- "totalHits": 141403,
- "aiHits": 103710,
+ "totalHits": 141455,
+ "aiHits": 103755,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37610,
+   "hits": 37628,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 24625,
+   "hits": 24626,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19728,
+   "hits": 19742,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15498,
+   "hits": 15506,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 13873,
-   "verifiedHits": 13647,
+   "hits": 13874,
+   "verifiedHits": 13648,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6545,
-   "verifiedHits": 6380,
+   "hits": 6549,
+   "verifiedHits": 6384,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -201,8 +201,8 @@
      "hits": 29
     },
     {
-     "path": "/authors/rosalinda",
-     "hits": 27
+     "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
+     "hits": 28
     }
    ],
    "verifiable": true
@@ -245,18 +245,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3829,
-   "verifiedHits": 3623,
+   "hits": 3830,
+   "verifiedHits": 3624,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
     {
      "path": "/wire.html",
      "hits": 45
-    },
-    {
-     "path": "/tools",
-     "hits": 30
     },
     {
      "path": "/posts/ai-coding-agent-ranking-2026.html",
@@ -268,6 +264,10 @@
     },
     {
      "path": "/posts/cheapest-terminal-coding-agent-august-2026-free-floor.html",
+     "hits": 29
+    },
+    {
+     "path": "/posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html",
      "hits": 29
     }
    ],
@@ -311,14 +311,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2580,
+   "hits": 2582,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 32
+     "hits": 33
     },
     {
      "path": "/dashboard",
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1799,
+   "hits": 1801,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1478,
+   "hits": 1479,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -432,8 +432,8 @@
      "hits": 51
     },
     {
-     "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
-     "hits": 39
+     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
+     "hits": 40
     }
    ],
    "verifiable": false
