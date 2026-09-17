@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-17T02:10:36.296Z",
+ "generated": "2026-09-17T02:20:43.000Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 21370,
+ "verifiedAiHits": 21375,
  "logsScanned": 30,
  "windowStart": "2026-09-03",
  "windowEnd": "2026-09-17",
- "totalHits": 133416,
- "aiHits": 96623,
+ "totalHits": 133507,
+ "aiHits": 96701,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35681,
+   "hits": 35736,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 24484,
+   "hits": 24491,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19016,
+   "hits": 19025,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14668,
+   "hits": 14675,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6161,
-   "verifiedHits": 6009,
+   "hits": 6165,
+   "verifiedHits": 6013,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3610,
-   "verifiedHits": 3418,
+   "hits": 3615,
+   "verifiedHits": 3423,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2454,
+   "hits": 2456,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -575,7 +575,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 508,
+   "hits": 510,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -589,15 +589,15 @@
      "hits": 7
     },
     {
+     "path": "/posts/model-deprecation-policies-openai-anthropic-google-compared-2026.html",
+     "hits": 2
+    },
+    {
      "path": "/posts/what-graphrag-actually-costs-indexing-bill-query-bill-cap-each.md",
      "hits": 2
     },
     {
      "path": "/posts/the-dependency-i-forgot-to-mirror.md",
-     "hits": 2
-    },
-    {
-     "path": "/posts/mcp-server-github-connect-and-build.html",
      "hits": 2
     }
    ],
