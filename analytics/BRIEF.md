@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-17T10:56Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-17T11:06Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -109,8 +109,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (13354 verified): /build ×209 · /dashboard ×25 · / ×23
-- OAI-SearchBot (3501 verified): /wire.html ×42 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×28 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×28
-- ChatGPT-User (2993 verified): / ×577 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×133 · /posts/open-source-llm-for-coding-september-2026.html ×115
+- OAI-SearchBot (3502 verified): /wire.html ×42 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×28 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×28
+- ChatGPT-User (2995 verified): / ×577 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×133 · /posts/open-source-llm-for-coding-september-2026.html ×115
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(30), founder(28), agentic(26), startup(26), mcp(18), build(17), building(16), agent(14), systems(12), has(12), coding(11), its(10), python(9), actually(9), learn(9).
+Hot terms: agents(29), founder(28), startup(26), agentic(25), build(17), mcp(17), building(16), agent(14), systems(12), has(12), coding(11), its(10), python(9), actually(9), learn(9).
 Hashtags: #ai, #startup, #founder, #tech, #buildinpublic, #videogenration, #tools, #aijobs, #startups, #aihiring.
 High-engagement posts to react to / cite:
 - "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to." — https://x.com/i/status/2099491915381006477
@@ -138,13 +138,13 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (119h old, 264 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 24104 confirmed AI-engine fetches (Perplexity 13354, GPTBot (OpenAI) 4256, ChatGPT Search (OpenAI) 3501, ChatGPT (user browsing) 2993).
+The real answer engines are crawling us — IP-verified: 24107 confirmed AI-engine fetches (Perplexity 13354, GPTBot (OpenAI) 4256, ChatGPT Search (OpenAI) 3502, ChatGPT (user browsing) 2995).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 819 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 136 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 133 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 115 crawler fetches
-- /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 85 crawler fetches
+- /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 86 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 74 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 57 crawler fetches
 - /posts/2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe.html  — 53 crawler fetches
