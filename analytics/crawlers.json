@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-17T05:22:24.752Z",
+ "generated": "2026-09-17T05:32:24.777Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 21451,
+ "verifiedAiHits": 21453,
  "logsScanned": 30,
  "windowStart": "2026-09-03",
  "windowEnd": "2026-09-17",
- "totalHits": 134469,
- "aiHits": 97481,
+ "totalHits": 134487,
+ "aiHits": 97496,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36175,
+   "hits": 36180,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14808,
+   "hits": 14815,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 13564,
-   "verifiedHits": 13345,
+   "hits": 13565,
+   "verifiedHits": 13346,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6234,
-   "verifiedHits": 6077,
+   "hits": 6235,
+   "verifiedHits": 6078,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3137,
-   "verifiedHits": 2934,
+   "hits": 3138,
+   "verifiedHits": 2935,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -410,14 +410,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1341,
+   "hits": 1342,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
-     "hits": 128
+     "hits": 129
     },
     {
      "path": "/posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 689,
+   "hits": 691,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",

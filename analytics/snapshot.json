@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-17T05:22:25.391Z",
+ "generated": "2026-09-17T05:32:25.306Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 7,
+  "readersNow": 2,
+  "todayReads": 8,
   "avgTimeSec": 10,
   "postsThisWeek": 4
  },
  "funnel": {
   "views": 3356,
-  "reads": 329,
+  "reads": 330,
   "completes": 42,
   "plays": 34,
-  "sessions": 3234
+  "sessions": 3233
  },
  "channels": [
   {
    "channel": "direct",
    "views": 3000,
-   "reads": 182,
-   "sessions": 2993
+   "reads": 183,
+   "sessions": 2992
   },
   {
    "channel": "organic",
@@ -68,9 +68,9 @@
   {
    "channel": "direct",
    "views": 3000,
-   "reads": 182,
+   "reads": 183,
    "completes": 20,
-   "sessions": 2992,
+   "sessions": 2991,
    "read_rate": 0.061,
    "complete_rate": 0.007,
    "pages_per_session": 1,
@@ -279,8 +279,8 @@
   {
    "device": "desktop",
    "views": 2685,
-   "reads": 298,
-   "sessions": 2572
+   "reads": 299,
+   "sessions": 2571
   },
   {
    "device": "mobile",
@@ -327,6 +327,16 @@
    "plays": 1
   },
   {
+   "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
+   "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 12,
+   "reads": 8,
+   "plays": 0
+  },
+  {
    "slug": "how-to-manage-context-in-a-long-running-agent",
    "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
    "section": "wire",
@@ -335,16 +345,6 @@
    "views": 10,
    "reads": 8,
    "plays": 1
-  },
-  {
-   "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
-   "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 12,
-   "reads": 7,
-   "plays": 0
   },
   {
    "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
@@ -654,16 +654,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 386,
+   "views": 387,
    "reads": 0,
-   "sessions": 382,
+   "sessions": 383,
    "avg_dwell_sec": 4
   },
   {
    "path": "/",
    "views": 178,
    "reads": 1,
-   "sessions": 177,
+   "sessions": 176,
    "avg_dwell_sec": 11
   },
   {
