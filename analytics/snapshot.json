@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-17T01:40:01.832Z",
+ "generated": "2026-09-17T01:50:23.175Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 1,
+  "readersNow": 6,
+  "todayReads": 2,
   "avgTimeSec": 4,
   "postsThisWeek": 4
  },
  "funnel": {
-  "views": 3338,
-  "reads": 325,
-  "completes": 40,
+  "views": 3341,
+  "reads": 326,
+  "completes": 41,
   "plays": 32,
-  "sessions": 3216
+  "sessions": 3219
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2985,
-   "reads": 177,
-   "sessions": 2977
+   "views": 2987,
+   "reads": 178,
+   "sessions": 2979
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 126,
+   "views": 127,
    "reads": 37,
-   "sessions": 122
+   "sessions": 123
   },
   {
    "channel": "referral",
@@ -67,22 +67,22 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2985,
-   "reads": 177,
-   "completes": 18,
-   "sessions": 2976,
-   "read_rate": 0.059,
+   "views": 2987,
+   "reads": 178,
+   "completes": 19,
+   "sessions": 2978,
+   "read_rate": 0.06,
    "complete_rate": 0.006,
    "pages_per_session": 1,
    "median_dwell_sec": 4
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 126,
+   "views": 127,
    "reads": 37,
    "completes": 3,
-   "sessions": 122,
-   "read_rate": 0.294,
+   "sessions": 123,
+   "read_rate": 0.291,
    "complete_rate": 0.024,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 138,
+   "views": 139,
    "reads": 38,
-   "sessions": 129
+   "sessions": 130
   },
   {
    "assistant": "Doubao",
@@ -278,15 +278,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2663,
+   "views": 2665,
    "reads": 295,
-   "sessions": 2550
+   "sessions": 2552
   },
   {
    "device": "mobile",
-   "views": 674,
-   "reads": 29,
-   "sessions": 666
+   "views": 675,
+   "reads": 30,
+   "sessions": 667
   },
   {
    "device": "tablet",
@@ -534,7 +534,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 11,
+   "views": 12,
    "reads": 2,
    "plays": 1
   },
@@ -566,7 +566,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 50,
+   "views": 49,
    "reads": 0,
    "plays": 0
   },
