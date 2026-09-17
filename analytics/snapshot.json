@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-17T17:17:31.544Z",
+ "generated": "2026-09-17T17:27:38.511Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 21,
+  "readersNow": 3,
+  "todayReads": 22,
   "avgTimeSec": 20,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3370,
-  "reads": 328,
+  "views": 3372,
+  "reads": 329,
   "completes": 43,
   "plays": 35,
-  "sessions": 3250
+  "sessions": 3252
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3013,
+   "views": 3014,
    "reads": 183,
-   "sessions": 3002
+   "sessions": 3003
   },
   {
    "channel": "organic",
-   "views": 107,
-   "reads": 69,
-   "sessions": 100
+   "views": 108,
+   "reads": 70,
+   "sessions": 101
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3013,
+   "views": 3014,
    "reads": 183,
    "completes": 20,
-   "sessions": 3001,
+   "sessions": 3002,
    "read_rate": 0.061,
    "complete_rate": 0.007,
    "pages_per_session": 1,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 107,
-   "reads": 69,
+   "views": 108,
+   "reads": 70,
    "completes": 2,
-   "sessions": 100,
-   "read_rate": 0.645,
+   "sessions": 101,
+   "read_rate": 0.648,
    "complete_rate": 0.019,
    "pages_per_session": 1.07,
    "median_dwell_sec": 10
@@ -272,15 +272,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2694,
-   "reads": 298,
-   "sessions": 2583
+   "views": 2695,
+   "reads": 299,
+   "sessions": 2584
   },
   {
    "device": "mobile",
-   "views": 676,
+   "views": 677,
    "reads": 30,
-   "sessions": 668
+   "sessions": 669
   }
  ],
  "topContent": [
@@ -649,9 +649,9 @@
   },
   {
    "path": "/",
-   "views": 181,
+   "views": 182,
    "reads": 1,
-   "sessions": 179,
+   "sessions": 180,
    "avg_dwell_sec": 11
   },
   {
@@ -749,8 +749,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 89,
-   "sessions": 41
+   "hits": 91,
+   "sessions": 42
   },
   {
    "ref": "https://chatgpt.com/",
