@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-17T10:46:01.614Z",
+ "generated": "2026-09-17T10:56:07.922Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 5,
   "todayReads": 11,
   "avgTimeSec": 10,
   "postsThisWeek": 4
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3005,
+   "views": 3004,
    "reads": 181,
-   "sessions": 2994
+   "sessions": 2993
   },
   {
    "channel": "organic",
-   "views": 108,
+   "views": 109,
    "reads": 69,
-   "sessions": 101
+   "sessions": 102
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3005,
+   "views": 3004,
    "reads": 181,
    "completes": 20,
-   "sessions": 2993,
+   "sessions": 2992,
    "read_rate": 0.06,
    "complete_rate": 0.007,
    "pages_per_session": 1,
@@ -89,12 +89,12 @@
   },
   {
    "channel": "organic",
-   "views": 108,
+   "views": 109,
    "reads": 69,
    "completes": 2,
-   "sessions": 101,
-   "read_rate": 0.639,
-   "complete_rate": 0.019,
+   "sessions": 102,
+   "read_rate": 0.633,
+   "complete_rate": 0.018,
    "pages_per_session": 1.07,
    "median_dwell_sec": 10
   },
@@ -272,15 +272,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2698,
+   "views": 2700,
    "reads": 294,
-   "sessions": 2586
+   "sessions": 2588
   },
   {
    "device": "mobile",
-   "views": 663,
+   "views": 661,
    "reads": 30,
-   "sessions": 655
+   "sessions": 653
   },
   {
    "device": "tablet",
@@ -615,6 +615,16 @@
    "plays": 0
   },
   {
+   "slug": "best-open-source-rl-frameworks-for-training-agents",
+   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 21,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
    "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
    "section": "wire",
@@ -623,16 +633,6 @@
    "views": 20,
    "reads": 13,
    "plays": 7
-  },
-  {
-   "slug": "best-open-source-rl-frameworks-for-training-agents",
-   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 0,
-   "plays": 0
   },
   {
    "slug": "2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments",
@@ -648,9 +648,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 384,
+   "views": 385,
    "reads": 0,
-   "sessions": 382,
+   "sessions": 383,
    "avg_dwell_sec": 4
   },
   {
