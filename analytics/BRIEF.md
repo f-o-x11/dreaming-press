@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-09-17T07:33Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-17T07:44Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3363 views → 330 engaged reads → 42 completes · 3241 sessions.
-- Channels: direct 183r/3004v · organic 69r/109v · campaign:chatgpt.com 38r/132v · referral 19r/67v · ai 19r/43v · social 1r/7v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 39r/145v · Doubao 10r/14v · Perplexity 4r/6v · DeepSeek 1r/4v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/1v.
+- Funnel: 3364 views → 330 engaged reads → 42 completes · 3242 sessions.
+- Channels: direct 183r/3003v · organic 69r/109v · campaign:chatgpt.com 38r/134v · referral 19r/67v · ai 19r/43v · social 1r/7v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 39r/147v · Doubao 10r/14v · Perplexity 4r/6v · DeepSeek 1r/4v · Grok 1r/3v · Yuanbao 1r/1v · Kimi 0r/1v.
 - Referrers: bing.com, chatgpt.com, duckduckgo.com, l.instagram.com, doubao.com, cn.bing.com, google.com, perplexity.ai, brand, nav-cmp.
 - Engaged-read winners by section: stack=8, wire=7.
 
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3004 views · read 6.1% · complete 0.7% · 1 pages/session · median 4s
-- campaign:chatgpt.com: 132 views · read 28.8% · complete 2.3% · 1.03 pages/session · median ?s
+- direct: 3003 views · read 6.1% · complete 0.7% · 1 pages/session · median 4s
+- campaign:chatgpt.com: 134 views · read 28.4% · complete 2.2% · 1.03 pages/session · median ?s
 - organic: 109 views · read 63.3% · complete 1.8% · 1.07 pages/session · median 10s
 - referral: 67 views · read 28.4% · complete 1.5% · 1.05 pages/session · median ?s
 - ai: 43 views · read 44.2% · complete 4.7% · 0.86 pages/session · median 26s
@@ -62,7 +62,7 @@ so what these earn from humans is the other half of the picture.
 - /stack/:tool — 388 views, 0 reads, 384 sessions, avg 4s
 - / — 177 views, 1 reads, 175 sessions, avg 11s
 - /compare/:pair — 59 views, 1 reads, 59 sessions, avg 5s
-- /best/:cat — 38 views, 1 reads, 39 sessions, avg 4s
+- /best/:cat — 39 views, 1 reads, 40 sessions, avg 4s
 - /build — 36 views, 0 reads, 36 sessions, avg 4s
 - /dashboard — 22 views, 0 reads, 13 sessions, avg 9s
 - /alternatives/:tool — 17 views, 0 reads, 17 sessions, avg 4s
@@ -110,7 +110,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (13350 verified): /build ×209 · /dashboard ×25 · / ×22
 - OAI-SearchBot (3465 verified): /wire.html ×41 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×28 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×28
-- ChatGPT-User (2957 verified): / ×571 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×132 · /posts/open-source-llm-for-coding-september-2026.html ×112
+- ChatGPT-User (2958 verified): / ×571 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×132 · /posts/open-source-llm-for-coding-september-2026.html ×112
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: founder(29), agents(28), agentic(27), startup(26), build(19), mcp(19), agent(15), building(15), systems(12), has(12), coding(10), actually(9), about(9), python(8), tools(8).
+Hot terms: agents(29), founder(29), startup(26), agentic(24), mcp(20), build(18), agent(15), building(15), systems(12), has(12), coding(10), actually(9), about(9), python(8), tools(8).
 Hashtags: #ai, #startup, #founder, #tech, #buildinpublic, #videogenration, #tools, #aijobs, #startups, #aihiring.
 High-engagement posts to react to / cite:
 - "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to." — https://x.com/i/status/2099491915381006477
@@ -138,7 +138,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (116h old, 264 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 24025 confirmed AI-engine fetches (Perplexity 13350, GPTBot (OpenAI) 4253, ChatGPT Search (OpenAI) 3465, ChatGPT (user browsing) 2957).
+The real answer engines are crawling us — IP-verified: 24029 confirmed AI-engine fetches (Perplexity 13350, GPTBot (OpenAI) 4256, ChatGPT Search (OpenAI) 3465, ChatGPT (user browsing) 2958).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 815 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 133 crawler fetches
