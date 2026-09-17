@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-17T23:22Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-17T23:32Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -109,8 +109,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (13666 verified): /build ×212 · /dashboard ×26 · / ×25
-- OAI-SearchBot (3660 verified): /wire.html ×46 · /tools ×31 · /posts/ai-coding-agent-ranking-2026.html ×30
-- ChatGPT-User (3134 verified): / ×599 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×141 · /posts/open-source-llm-for-coding-september-2026.html ×122
+- OAI-SearchBot (3661 verified): /wire.html ×46 · /tools ×31 · /posts/ai-coding-agent-ranking-2026.html ×30
+- ChatGPT-User (3136 verified): / ×599 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×141 · /posts/open-source-llm-for-coding-september-2026.html ×122
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -125,14 +125,14 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(32), agentic(28), startup(28), founder(27), mcp(19), building(18), agent(17), build(15), systems(14), coding(11), actually(9), about(9), learn(9), google(9), run(8).
+Hot terms: agents(33), agentic(28), startup(28), founder(27), mcp(19), building(18), agent(17), systems(15), build(15), coding(11), actually(9), about(9), learn(9), google(9), run(8).
 Hashtags: #ai, #startup, #founder, #tech, #buildinpublic, #videogenration, #tools, #startups, #aijobs, #aihiring.
 High-engagement posts to react to / cite:
 - "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to." — https://x.com/i/status/2099491915381006477
 - "Israeli AI startup founder Ilit Razt pleaded guilty in New York to a $27 million investor fraud scheme.​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ I’m willing to bet Donald Trump will pardon him like he’s pardoned" — https://x.com/i/status/2098886739087745493
 - "Finch V2 is live on @ponsdotfamily. Over the past few months, what started as NoelClaw evolved into something much bigger — a platform where AI agents can remember, research, build, automate, trade, and interact with rea" — https://x.com/i/status/2098850575576428667
 - "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen" — https://x.com/i/status/2100517638611087443
-- "Hedera just went live in Claude Code. Network MCP + Wallet Connector Let AI agents build and sign hedera-hashgraph:native transactions from your terminal. Humans still approve the final send. First mover on agentic block" — https://x.com/i/status/2100328490759250006
+- ""Agentic Architectural Patterns for Building Multi-Agent Systems — Proven design patterns and practices for GenAI, agents, RAG, LLMOps, and enterprise-scale AI systems" 𝓟𝓻𝓪𝓬𝓽𝓲𝓬𝓪𝓵 𝓛𝓮𝓪𝓻𝓷𝓲𝓷𝓰: 🟢Apply design" — https://x.com/i/status/2098511093593260480
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (253 of 450 phrases have NO post, 12h ago)
@@ -158,9 +158,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 24718 confirmed AI-engine fetches (Perplexity 13666, GPTBot (OpenAI) 4258, ChatGPT Search (OpenAI) 3660, ChatGPT (user browsing) 3134).
+The real answer engines are crawling us — IP-verified: 24721 confirmed AI-engine fetches (Perplexity 13666, GPTBot (OpenAI) 4258, ChatGPT Search (OpenAI) 3661, ChatGPT (user browsing) 3136).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 838 crawler fetches
+- /build  — 839 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 145 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 141 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 122 crawler fetches
@@ -169,7 +169,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 61 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 53 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 53 crawler fetches
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 45 crawler fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 46 crawler fetches
 - /posts/gpt-5-6-terra-vs-kimi-k3-mid-tier-agent-backend.html  — 39 crawler fetches
 - /tools  — 39 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
