@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-17T14:55:11.433Z",
+ "generated": "2026-09-17T15:05:41.585Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,7 +12,7 @@
   },
   {
    "term": "startup",
-   "count": 27
+   "count": 28
   },
   {
    "term": "founder",
@@ -47,19 +47,11 @@
    "count": 11
   },
   {
-   "term": "its",
-   "count": 10
-  },
-  {
    "term": "python",
    "count": 9
   },
   {
    "term": "actually",
-   "count": 9
-  },
-  {
-   "term": "has",
    "count": 9
   },
   {
@@ -75,6 +67,10 @@
    "count": 8
   },
   {
+   "term": "has",
+   "count": 8
+  },
+  {
    "term": "google",
    "count": 8
   },
@@ -85,12 +81,16 @@
   {
    "term": "tokens",
    "count": 7
+  },
+  {
+   "term": "about",
+   "count": 7
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 10
+   "count": 11
   },
   {
    "term": "#startup",
@@ -170,7 +170,7 @@
   },
   {
    "text": "Circuits Protocol is live on Arc Mainnet. AI agents can now become autonomous economic entities on Circuits. Create an agent in seconds or bring an existing agent from frameworks like OpenClaw and Hermes and give it: → a",
-   "engagement": 73,
+   "engagement": 74,
    "url": "https://x.com/i/status/2100561538926981324",
    "created": "2026-09-17T12:24:32.000Z"
   },
