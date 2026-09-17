@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-17T02:40:57.194Z",
+ "generated": "2026-09-17T02:51:01.350Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 3,
   "avgTimeSec": 7,
   "postsThisWeek": 4
  },
  "funnel": {
-  "views": 3343,
-  "reads": 326,
+  "views": 3344,
+  "reads": 325,
   "completes": 41,
   "plays": 32,
-  "sessions": 3221
+  "sessions": 3222
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2989,
+   "views": 2991,
    "reads": 178,
-   "sessions": 2981
+   "sessions": 2983
   },
   {
    "channel": "organic",
-   "views": 110,
-   "reads": 71,
-   "sessions": 103
+   "views": 109,
+   "reads": 70,
+   "sessions": 102
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2989,
+   "views": 2991,
    "reads": 178,
    "completes": 19,
-   "sessions": 2980,
+   "sessions": 2982,
    "read_rate": 0.06,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 110,
-   "reads": 71,
+   "views": 109,
+   "reads": 70,
    "completes": 2,
-   "sessions": 103,
-   "read_rate": 0.645,
+   "sessions": 102,
+   "read_rate": 0.642,
    "complete_rate": 0.018,
    "pages_per_session": 1.07,
    "median_dwell_sec": 10
@@ -278,9 +278,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2667,
-   "reads": 295,
-   "sessions": 2554
+   "views": 2668,
+   "reads": 294,
+   "sessions": 2555
   },
   {
    "device": "mobile",
@@ -397,16 +397,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-temporal-vs-inngest-vs-restate-durable-agents",
-   "title": "Temporal vs Inngest vs Restate: Durable Execution for AI Agents in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "lm-studio-bionic-local-agent-open-models",
    "title": "LM Studio Bionic: A Private, Local Agent for Open Models — What It Is, Who It's For, How to Start",
    "section": "stack",
@@ -444,6 +434,16 @@
    "author": "dex",
    "views": 4,
    "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 13,
+   "reads": 3,
    "plays": 0
   }
  ],
@@ -786,8 +786,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 24,
-   "sessions": 15
+   "hits": 22,
+   "sessions": 14
   },
   {
    "ref": "https://www.google.com/",
