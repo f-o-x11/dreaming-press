@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-17T09:25:09.409Z",
+ "generated": "2026-09-17T09:35:13.069Z",
  "windowDays": 14,
  "site": {
   "readersNow": 5,
@@ -8,8 +8,8 @@
   "postsThisWeek": 4
  },
  "funnel": {
-  "views": 3373,
-  "reads": 326,
+  "views": 3372,
+  "reads": 325,
   "completes": 42,
   "plays": 34,
   "sessions": 3252
@@ -41,8 +41,8 @@
   },
   {
    "channel": "ai",
-   "views": 41,
-   "reads": 18,
+   "views": 40,
+   "reads": 17,
    "sessions": 49
   },
   {
@@ -111,13 +111,13 @@
   },
   {
    "channel": "ai",
-   "views": 41,
-   "reads": 18,
+   "views": 40,
+   "reads": 17,
    "completes": 2,
    "sessions": 49,
-   "read_rate": 0.439,
-   "complete_rate": 0.049,
-   "pages_per_session": 0.84,
+   "read_rate": 0.425,
+   "complete_rate": 0.05,
+   "pages_per_session": 0.82,
    "median_dwell_sec": 38
   },
   {
@@ -257,16 +257,16 @@
    "sessions": 1
   },
   {
-   "assistant": "Grok",
-   "views": 3,
-   "reads": 1,
-   "sessions": 3
-  },
-  {
    "assistant": "Yuanbao",
    "views": 1,
    "reads": 1,
    "sessions": 1
+  },
+  {
+   "assistant": "Grok",
+   "views": 2,
+   "reads": 0,
+   "sessions": 3
   },
   {
    "assistant": "Kimi",
@@ -278,8 +278,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2701,
-   "reads": 295,
+   "views": 2700,
+   "reads": 294,
    "sessions": 2589
   },
   {
@@ -668,9 +668,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 59,
+   "views": 58,
    "reads": 1,
-   "sessions": 59,
+   "sessions": 58,
    "avg_dwell_sec": 5
   },
   {

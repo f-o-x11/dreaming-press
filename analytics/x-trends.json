@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-17T09:25:09.342Z",
+ "generated": "2026-09-17T09:35:13.017Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -23,12 +23,12 @@
    "count": 26
   },
   {
-   "term": "build",
+   "term": "mcp",
    "count": 18
   },
   {
-   "term": "mcp",
-   "count": 18
+   "term": "build",
+   "count": 17
   },
   {
    "term": "building",
@@ -48,6 +48,10 @@
   },
   {
    "term": "coding",
+   "count": 11
+  },
+  {
+   "term": "actually",
    "count": 10
   },
   {
@@ -55,16 +59,16 @@
    "count": 10
   },
   {
-   "term": "actually",
+   "term": "python",
+   "count": 9
+  },
+  {
+   "term": "learn",
    "count": 9
   },
   {
    "term": "co-founder",
    "count": 9
-  },
-  {
-   "term": "python",
-   "count": 8
   },
   {
    "term": "run",
@@ -75,16 +79,12 @@
    "count": 8
   },
   {
-   "term": "learn",
+   "term": "every",
    "count": 8
   },
   {
    "term": "google",
    "count": 8
-  },
-  {
-   "term": "tools",
-   "count": 7
   }
  ],
  "hashtags": [
