@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-17T20:50:06.823Z",
+ "generated": "2026-09-17T21:00:15.208Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 24651,
+ "verifiedAiHits": 24654,
  "logsScanned": 30,
  "windowStart": "2026-09-03",
  "windowEnd": "2026-09-17",
- "totalHits": 141610,
- "aiHits": 103895,
+ "totalHits": 141656,
+ "aiHits": 103924,
  "aiEngines": 18,
  "bots": [
   {
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19810,
+   "hits": 19811,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15533,
+   "hits": 15540,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -146,7 +146,7 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 13882,
+   "hits": 13883,
    "verifiedHits": 13656,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -169,7 +169,7 @@
     },
     {
      "path": "/agents.html",
-     "hits": 21
+     "hits": 22
     }
    ],
    "verifiable": true
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6561,
-   "verifiedHits": 6396,
+   "hits": 6566,
+   "verifiedHits": 6399,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4482,
+   "hits": 4485,
    "verifiedHits": 4258,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3834,
-   "verifiedHits": 3628,
+   "hits": 3839,
+   "verifiedHits": 3631,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3322,
+   "hits": 3325,
    "verifiedHits": 3109,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
     {
      "path": "/",
-     "hits": 594
+     "hits": 595
     },
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2583,
+   "hits": 2587,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -329,11 +329,11 @@
      "hits": 5
     },
     {
-     "path": "/newsroom",
-     "hits": 3
+     "path": "/tools",
+     "hits": 4
     },
     {
-     "path": "/posts/rag-vs-long-context.html",
+     "path": "/newsroom",
      "hits": 3
     }
    ],
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1801,
+   "hits": 1809,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -387,12 +387,12 @@
      "hits": 30
     },
     {
-     "path": "/dispatches.html",
+     "path": "/subscribe",
      "hits": 4
     },
     {
-     "path": "/subscribe",
-     "hits": 3
+     "path": "/dispatches.html",
+     "hits": 4
     },
     {
      "path": "/fabrications.html",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1482,
+   "hits": 1483,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 770,
+   "hits": 776,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -542,7 +542,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 611,
+   "hits": 613,
    "verifiedHits": 518,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
