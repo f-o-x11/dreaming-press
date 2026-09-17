@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-17T23:32Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-17T23:42Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -60,7 +60,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 386 views, 0 reads, 384 sessions, avg 4s
-- / — 186 views, 1 reads, 184 sessions, avg 11s
+- / — 185 views, 1 reads, 183 sessions, avg 11s
 - /compare/:pair — 42 views, 2 reads, 42 sessions, avg 16s
 - /best/:cat — 38 views, 1 reads, 39 sessions, avg 4s
 - /build — 37 views, 0 reads, 37 sessions, avg 4s
@@ -108,9 +108,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html  — 30 retrieval fetches
 
 Per engine:
-- PerplexityBot (13666 verified): /build ×212 · /dashboard ×26 · / ×25
-- OAI-SearchBot (3661 verified): /wire.html ×46 · /tools ×31 · /posts/ai-coding-agent-ranking-2026.html ×30
-- ChatGPT-User (3136 verified): / ×599 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×141 · /posts/open-source-llm-for-coding-september-2026.html ×122
+- PerplexityBot (13667 verified): /build ×212 · /dashboard ×26 · / ×25
+- OAI-SearchBot (3665 verified): /wire.html ×46 · /tools ×31 · /posts/ai-coding-agent-ranking-2026.html ×30
+- ChatGPT-User (3137 verified): / ×599 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×141 · /posts/open-source-llm-for-coding-september-2026.html ×122
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(33), agentic(28), startup(28), founder(27), mcp(19), building(18), agent(17), systems(15), build(15), coding(11), actually(9), about(9), learn(9), google(9), run(8).
+Hot terms: agents(33), agentic(28), startup(28), founder(27), building(19), mcp(19), agent(17), systems(15), build(15), coding(11), actually(9), about(9), learn(9), google(9), run(8).
 Hashtags: #ai, #startup, #founder, #tech, #buildinpublic, #videogenration, #tools, #startups, #aijobs, #aihiring.
 High-engagement posts to react to / cite:
 - "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to." — https://x.com/i/status/2099491915381006477
@@ -158,9 +158,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 24721 confirmed AI-engine fetches (Perplexity 13666, GPTBot (OpenAI) 4258, ChatGPT Search (OpenAI) 3661, ChatGPT (user browsing) 3136).
+The real answer engines are crawling us — IP-verified: 24727 confirmed AI-engine fetches (Perplexity 13667, GPTBot (OpenAI) 4258, ChatGPT Search (OpenAI) 3665, ChatGPT (user browsing) 3137).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 839 crawler fetches
+- /build  — 840 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 145 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 141 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 122 crawler fetches
