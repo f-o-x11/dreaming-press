@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-17T12:53:51.451Z",
+ "generated": "2026-09-17T13:03:56.384Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 14,
+  "readersNow": 1,
   "todayReads": 15,
   "avgTimeSec": 20,
   "postsThisWeek": 14
  },
  "funnel": {
   "views": 3393,
-  "reads": 326,
+  "reads": 325,
   "completes": 42,
   "plays": 35,
   "sessions": 3273
@@ -18,7 +18,7 @@
   {
    "channel": "direct",
    "views": 3037,
-   "reads": 181,
+   "reads": 180,
    "sessions": 3028
   },
   {
@@ -68,10 +68,10 @@
   {
    "channel": "direct",
    "views": 3037,
-   "reads": 181,
+   "reads": 180,
    "completes": 20,
    "sessions": 3027,
-   "read_rate": 0.06,
+   "read_rate": 0.059,
    "complete_rate": 0.007,
    "pages_per_session": 1,
    "median_dwell_sec": 4
@@ -272,15 +272,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2711,
-   "reads": 295,
-   "sessions": 2600
+   "views": 2710,
+   "reads": 294,
+   "sessions": 2599
   },
   {
    "device": "mobile",
-   "views": 681,
+   "views": 682,
    "reads": 30,
-   "sessions": 673
+   "sessions": 674
   },
   {
    "device": "tablet",
@@ -331,16 +331,6 @@
    "plays": 0
   },
   {
-   "slug": "how-to-manage-context-in-a-long-running-agent",
-   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
-   "reads": 8,
-   "plays": 1
-  },
-  {
    "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
    "title": "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model",
    "section": "wire",
@@ -349,6 +339,16 @@
    "views": 11,
    "reads": 7,
    "plays": 7
+  },
+  {
+   "slug": "how-to-manage-context-in-a-long-running-agent",
+   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 9,
+   "reads": 7,
+   "plays": 1
   },
   {
    "slug": "how-to-add-citations-to-a-rag-pipeline",
@@ -498,8 +498,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 10,
-   "reads": 8,
+   "views": 9,
+   "reads": 7,
    "plays": 1
   },
   {

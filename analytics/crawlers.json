@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-17T12:53:50.869Z",
+ "generated": "2026-09-17T13:03:55.763Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 24170,
+ "verifiedAiHits": 24184,
  "logsScanned": 30,
  "windowStart": "2026-09-03",
  "windowEnd": "2026-09-17",
- "totalHits": 139280,
- "aiHits": 101924,
+ "totalHits": 139337,
+ "aiHits": 101968,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37178,
+   "hits": 37195,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15151,
+   "hits": 15159,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 13574,
-   "verifiedHits": 13355,
+   "hits": 13587,
+   "verifiedHits": 13368,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6379,
-   "verifiedHits": 6222,
+   "hits": 6384,
+   "verifiedHits": 6227,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3226,
-   "verifiedHits": 3020,
+   "hits": 3227,
+   "verifiedHits": 3021,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -293,7 +293,7 @@
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 117
+     "hits": 118
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -344,7 +344,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2498,
+   "hits": 2506,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -410,18 +410,18 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1395,
+   "hits": 1400,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
-     "hits": 133
+     "hits": 134
     },
     {
      "path": "/posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html",
-     "hits": 84
+     "hits": 85
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
