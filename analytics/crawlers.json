@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-17T17:47:44.750Z",
+ "generated": "2026-09-17T17:57:57.651Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 24540,
+ "verifiedAiHits": 24542,
  "logsScanned": 30,
  "windowStart": "2026-09-03",
  "windowEnd": "2026-09-17",
- "totalHits": 140779,
- "aiHits": 103194,
+ "totalHits": 140867,
+ "aiHits": 103246,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37525,
+   "hits": 37526,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 24619,
+   "hits": 24620,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15386,
+   "hits": 15394,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -146,7 +146,7 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 13856,
+   "hits": 13863,
    "verifiedHits": 13637,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -156,19 +156,19 @@
      "hits": 212
     },
     {
-     "path": "/dashboard",
+     "path": "/",
      "hits": 25
     },
     {
-     "path": "/",
-     "hits": 24
+     "path": "/dashboard",
+     "hits": 25
     },
     {
      "path": "/newsroom",
      "hits": 23
     },
     {
-     "path": "/tags/reportive",
+     "path": "/agents.html",
      "hits": 21
     }
    ],
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6480,
-   "verifiedHits": 6323,
+   "hits": 6495,
+   "verifiedHits": 6330,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4475,
+   "hits": 4481,
    "verifiedHits": 4257,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3772,
-   "verifiedHits": 3574,
+   "hits": 3781,
+   "verifiedHits": 3575,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3278,
-   "verifiedHits": 3072,
+   "hits": 3286,
+   "verifiedHits": 3073,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
     {
      "path": "/",
-     "hits": 588
+     "hits": 589
     },
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2558,
+   "hits": 2563,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1783,
+   "hits": 1789,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -391,15 +391,15 @@
      "hits": 4
     },
     {
+     "path": "/subscribe",
+     "hits": 3
+    },
+    {
      "path": "/fabrications.html",
      "hits": 3
     },
     {
      "path": "/posts/mxc-vs-microvm-sandbox-policy-boundary-vs-own-kernel-agent-code.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-09-05-founders-wire-gpt-6-astra-gemini-3-8-flash-mai-transcribe.html",
      "hits": 3
     }
    ],
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1448,
+   "hits": 1449,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 763,
+   "hits": 768,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -487,7 +487,7 @@
     },
     {
      "path": "/dashboard",
-     "hits": 4
+     "hits": 6
     },
     {
      "path": "/posts/strands-agents-vs-langgraph.html",
@@ -509,7 +509,7 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 611,
+   "hits": 617,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -517,6 +517,10 @@
     {
      "path": "/dashboard",
      "hits": 6
+    },
+    {
+     "path": "/fabrications.html",
+     "hits": 5
     },
     {
      "path": "/graphql",
@@ -529,10 +533,6 @@
     {
      "path": "/posts/google-agentic-course-cheat-sheet-watch-or-skip.html",
      "hits": 3
-    },
-    {
-     "path": "/dispatches.html",
-     "hits": 3
     }
    ],
    "verifiable": false
@@ -542,14 +542,14 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 601,
-   "verifiedHits": 516,
+   "hits": 611,
+   "verifiedHits": 518,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
     {
      "path": "/",
-     "hits": 16
+     "hits": 17
     },
     {
      "path": "/about.html",
@@ -564,7 +564,7 @@
      "hits": 4
     },
     {
-     "path": "/stack.html",
+     "path": "/dp.js.map",
      "hits": 3
     }
    ],
