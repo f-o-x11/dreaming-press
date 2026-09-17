@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-17T09:15:07.331Z",
+ "generated": "2026-09-17T09:25:09.409Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 5,
   "todayReads": 11,
-  "avgTimeSec": 11,
+  "avgTimeSec": 10,
   "postsThisWeek": 4
  },
  "funnel": {
-  "views": 3369,
+  "views": 3373,
   "reads": 326,
   "completes": 42,
   "plays": 34,
-  "sessions": 3248
+  "sessions": 3252
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3011,
+   "views": 3012,
    "reads": 181,
-   "sessions": 3000
+   "sessions": 3001
   },
   {
    "channel": "organic",
-   "views": 108,
+   "views": 109,
    "reads": 69,
-   "sessions": 101
+   "sessions": 102
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 68,
+   "views": 70,
    "reads": 19,
-   "sessions": 65
+   "sessions": 67
   },
   {
    "channel": "ai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3011,
+   "views": 3012,
    "reads": 181,
    "completes": 20,
-   "sessions": 2999,
+   "sessions": 3000,
    "read_rate": 0.06,
    "complete_rate": 0.007,
    "pages_per_session": 1,
@@ -89,24 +89,24 @@
   },
   {
    "channel": "organic",
-   "views": 108,
+   "views": 109,
    "reads": 69,
    "completes": 2,
-   "sessions": 101,
-   "read_rate": 0.639,
-   "complete_rate": 0.019,
+   "sessions": 102,
+   "read_rate": 0.633,
+   "complete_rate": 0.018,
    "pages_per_session": 1.07,
    "median_dwell_sec": 10
   },
   {
    "channel": "referral",
-   "views": 68,
+   "views": 70,
    "reads": 19,
    "completes": 1,
-   "sessions": 65,
-   "read_rate": 0.279,
-   "complete_rate": 0.015,
-   "pages_per_session": 1.05,
+   "sessions": 67,
+   "read_rate": 0.271,
+   "complete_rate": 0.014,
+   "pages_per_session": 1.04,
    "median_dwell_sec": null
   },
   {
@@ -278,9 +278,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2697,
+   "views": 2701,
    "reads": 295,
-   "sessions": 2585
+   "sessions": 2589
   },
   {
    "device": "mobile",
