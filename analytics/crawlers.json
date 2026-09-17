@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-17T14:45:01.179Z",
+ "generated": "2026-09-17T14:55:10.921Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 24429,
+ "verifiedAiHits": 24443,
  "logsScanned": 30,
  "windowStart": "2026-09-03",
  "windowEnd": "2026-09-17",
- "totalHits": 139955,
- "aiHits": 102509,
+ "totalHits": 140009,
+ "aiHits": 102553,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37357,
+   "hits": 37375,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 24601,
+   "hits": 24602,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15244,
+   "hits": 15253,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 13804,
-   "verifiedHits": 13585,
+   "hits": 13816,
+   "verifiedHits": 13597,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -168,8 +168,8 @@
      "hits": 22
     },
     {
-     "path": "/agents.html",
-     "hits": 20
+     "path": "/tags/reportive",
+     "hits": 21
     }
    ],
    "verifiable": true
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6410,
-   "verifiedHits": 6253,
+   "hits": 6414,
+   "verifiedHits": 6257,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3240,
-   "verifiedHits": 3034,
+   "hits": 3242,
+   "verifiedHits": 3036,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
     {
      "path": "/",
-     "hits": 583
+     "hits": 584
     },
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
@@ -305,6 +305,39 @@
     }
    ],
    "verifiable": true
+  },
+  {
+   "name": "Baiduspider",
+   "label": "Baidu",
+   "category": "search",
+   "home": "https://www.baidu.com",
+   "hits": 2539,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-03",
+   "lastSeen": "2026-09-17",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 32
+    },
+    {
+     "path": "/dashboard",
+     "hits": 7
+    },
+    {
+     "path": "/apps",
+     "hits": 5
+    },
+    {
+     "path": "/newsroom",
+     "hits": 3
+    },
+    {
+     "path": "/posts/rag-vs-long-context.html",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
   },
   {
    "name": "Sogou",
@@ -340,44 +373,11 @@
    "verifiable": false
   },
   {
-   "name": "Baiduspider",
-   "label": "Baidu",
-   "category": "search",
-   "home": "https://www.baidu.com",
-   "hits": 2536,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-03",
-   "lastSeen": "2026-09-17",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 32
-    },
-    {
-     "path": "/dashboard",
-     "hits": 7
-    },
-    {
-     "path": "/apps",
-     "hits": 5
-    },
-    {
-     "path": "/newsroom",
-     "hits": 3
-    },
-    {
-     "path": "/posts/rag-vs-long-context.html",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "ClaudeBot",
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1742,
+   "hits": 1743,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1417,
+   "hits": 1419,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -429,7 +429,7 @@
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 50
+     "hits": 51
     },
     {
      "path": "/posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 759,
+   "hits": 761,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
