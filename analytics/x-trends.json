@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-17T17:37:41.568Z",
+ "generated": "2026-09-17T17:47:45.319Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -23,15 +23,15 @@
    "count": 24
   },
   {
-   "term": "build",
+   "term": "building",
    "count": 17
+  },
+  {
+   "term": "build",
+   "count": 16
   },
   {
    "term": "mcp",
-   "count": 17
-  },
-  {
-   "term": "building",
    "count": 16
   },
   {
@@ -40,7 +40,7 @@
   },
   {
    "term": "systems",
-   "count": 12
+   "count": 13
   },
   {
    "term": "coding",
@@ -79,11 +79,11 @@
    "count": 8
   },
   {
-   "term": "tools",
+   "term": "tokens",
    "count": 7
   },
   {
-   "term": "tokens",
+   "term": "about",
    "count": 7
   }
  ],
@@ -129,11 +129,11 @@
    "count": 1
   },
   {
-   "term": "#mcp",
+   "term": "#investment",
    "count": 1
   },
   {
-   "term": "#security",
+   "term": "#google",
    "count": 1
   }
  ],
@@ -163,6 +163,12 @@
    "created": "2026-09-11T20:36:47.000Z"
   },
   {
+   "text": "💥574 information-packed pages from @PacktDataML at https://t.co/nxWY6AOB50 🚀 \"Agentic Architectural Patterns for Building Multi-Agent Systems — Proven design patterns and practices for GenAI, agents, RAG, LLMOps, and e",
+   "engagement": 95,
+   "url": "https://x.com/i/status/2099599577514987841",
+   "created": "2026-09-14T20:42:02.000Z"
+  },
+  {
    "text": "Circuits Protocol is live on @Arc Testnet. We’re building an economy where AI agents can autonomously run, work, pay, earn, trade, collaborate, launch assets, enter markets, and build reputation. Circuits is powered by t",
    "engagement": 92,
    "url": "https://x.com/i/status/2099497176376152431",
@@ -179,12 +185,6 @@
    "engagement": 86,
    "url": "https://x.com/i/status/2099368265583858015",
    "created": "2026-09-14T05:22:53.000Z"
-  },
-  {
-   "text": "Circuits Protocol is live on Arc Mainnet. AI agents can now become autonomous economic entities on Circuits. Create an agent in seconds or bring an existing agent from frameworks like OpenClaw and Hermes and give it: → a",
-   "engagement": 83,
-   "url": "https://x.com/i/status/2100561538926981324",
-   "created": "2026-09-17T12:24:32.000Z"
   }
  ]
 }

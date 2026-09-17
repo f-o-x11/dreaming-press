@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-17T17:37Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-17T17:47Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -104,12 +104,12 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe.html  — 53 retrieval fetches
 - /wire.html  — 45 retrieval fetches
 - /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html  — 29 retrieval fetches
+- /posts/ai-coding-agent-ranking-2026.html  — 29 retrieval fetches
 - /posts/serverless-inference-api-groq-fireworks-together-deepinfra-baseten.html  — 28 retrieval fetches
-- /posts/2026-08-07-founders-wire-meta-coding-agent-openai-atlas-claude-code.html  — 28 retrieval fetches
 
 Per engine:
 - PerplexityBot (13637 verified): /build ×212 · /dashboard ×25 · / ×24
-- OAI-SearchBot (3571 verified): /wire.html ×45 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×29 · /posts/serverless-inference-api-groq-fireworks-together-deepinfra-baseten.html ×28
+- OAI-SearchBot (3574 verified): /wire.html ×45 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×29 · /posts/ai-coding-agent-ranking-2026.html ×29
 - ChatGPT-User (3072 verified): / ×588 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×137 · /posts/open-source-llm-for-coding-september-2026.html ×120
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -125,14 +125,14 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(29), startup(28), founder(26), agentic(24), build(17), mcp(17), building(16), agent(15), systems(12), coding(11), python(9), actually(9), learn(9), co-founder(9), run(8).
+Hot terms: agents(29), startup(28), founder(26), agentic(24), building(17), build(16), mcp(16), agent(15), systems(13), coding(11), python(9), actually(9), learn(9), co-founder(9), run(8).
 Hashtags: #ai, #startup, #founder, #tech, #buildinpublic, #videogenration, #tools, #startups, #aijobs, #aihiring.
 High-engagement posts to react to / cite:
 - "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to." — https://x.com/i/status/2099491915381006477
 - "Israeli AI startup founder Ilit Razt pleaded guilty in New York to a $27 million investor fraud scheme.​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ I’m willing to bet Donald Trump will pardon him like he’s pardoned" — https://x.com/i/status/2098886739087745493
 - "Finch V2 is live on @ponsdotfamily. Over the past few months, what started as NoelClaw evolved into something much bigger — a platform where AI agents can remember, research, build, automate, trade, and interact with rea" — https://x.com/i/status/2098850575576428667
 - ""Agentic Architectural Patterns for Building Multi-Agent Systems — Proven design patterns and practices for GenAI, agents, RAG, LLMOps, and enterprise-scale AI systems" 𝓟𝓻𝓪𝓬𝓽𝓲𝓬𝓪𝓵 𝓛𝓮𝓪𝓻𝓷𝓲𝓷𝓰: 🟢Apply design" — https://x.com/i/status/2098511093593260480
-- "Circuits Protocol is live on @Arc Testnet. We’re building an economy where AI agents can autonomously run, work, pay, earn, trade, collaborate, launch assets, enter markets, and build reputation. Circuits is powered by t" — https://x.com/i/status/2099497176376152431
+- "💥574 information-packed pages from @PacktDataML at https://t.co/nxWY6AOB50 🚀 "Agentic Architectural Patterns for Building Multi-Agent Systems — Proven design patterns and practices for GenAI, agents, RAG, LLMOps, and e" — https://x.com/i/status/2099599577514987841
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (253 of 450 phrases have NO post, 6h ago)
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 24537 confirmed AI-engine fetches (Perplexity 13637, GPTBot (OpenAI) 4257, ChatGPT Search (OpenAI) 3571, ChatGPT (user browsing) 3072).
+The real answer engines are crawling us — IP-verified: 24540 confirmed AI-engine fetches (Perplexity 13637, GPTBot (OpenAI) 4257, ChatGPT Search (OpenAI) 3574, ChatGPT (user browsing) 3072).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 832 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 141 crawler fetches
@@ -167,11 +167,11 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 88 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 78 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 59 crawler fetches
-- /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 58 crawler fetches
 - /posts/2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe.html  — 53 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 51 crawler fetches
 - /posts/gpt-5-6-terra-vs-kimi-k3-mid-tier-agent-backend.html  — 39 crawler fetches
 - /posts/2026-06-27-scale-to-zero-llm-inference-gpu-cold-starts.html  — 39 crawler fetches
+- /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 30 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)

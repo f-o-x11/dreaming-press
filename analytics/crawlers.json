@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-17T17:37:41.004Z",
+ "generated": "2026-09-17T17:47:44.750Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 24537,
+ "verifiedAiHits": 24540,
  "logsScanned": 30,
  "windowStart": "2026-09-03",
  "windowEnd": "2026-09-17",
- "totalHits": 140757,
- "aiHits": 103177,
+ "totalHits": 140779,
+ "aiHits": 103194,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37521,
+   "hits": 37525,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15378,
+   "hits": 15386,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6475,
-   "verifiedHits": 6318,
+   "hits": 6480,
+   "verifiedHits": 6323,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3769,
-   "verifiedHits": 3571,
+   "hits": 3772,
+   "verifiedHits": 3574,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -259,15 +259,15 @@
      "hits": 29
     },
     {
+     "path": "/posts/ai-coding-agent-ranking-2026.html",
+     "hits": 29
+    },
+    {
      "path": "/posts/serverless-inference-api-groq-fireworks-together-deepinfra-baseten.html",
      "hits": 28
     },
     {
      "path": "/posts/2026-08-07-founders-wire-meta-coding-agent-openai-atlas-claude-code.html",
-     "hits": 28
-    },
-    {
-     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
      "hits": 28
     }
    ],
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1446,
+   "hits": 1448,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
