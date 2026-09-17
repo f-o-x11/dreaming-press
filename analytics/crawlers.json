@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-17T14:34:55.143Z",
+ "generated": "2026-09-17T14:45:01.179Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 24405,
+ "verifiedAiHits": 24429,
  "logsScanned": 30,
  "windowStart": "2026-09-03",
  "windowEnd": "2026-09-17",
- "totalHits": 139885,
- "aiHits": 102452,
+ "totalHits": 139955,
+ "aiHits": 102509,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37340,
+   "hits": 37357,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 24599,
+   "hits": 24601,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15235,
+   "hits": 15244,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 13782,
-   "verifiedHits": 13563,
+   "hits": 13804,
+   "verifiedHits": 13585,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6407,
-   "verifiedHits": 6250,
+   "hits": 6410,
+   "verifiedHits": 6253,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3238,
-   "verifiedHits": 3032,
+   "hits": 3240,
+   "verifiedHits": 3034,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -305,6 +305,39 @@
     }
    ],
    "verifiable": true
+  },
+  {
+   "name": "Sogou",
+   "label": "Sogou",
+   "category": "search",
+   "home": "https://www.sogou.com",
+   "hits": 2539,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-03",
+   "lastSeen": "2026-09-17",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 30
+    },
+    {
+     "path": "/agents.html",
+     "hits": 8
+    },
+    {
+     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html",
+     "hits": 5
+    },
+    {
+     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2",
+     "hits": 3
+    },
+    {
+     "path": "/posts/how-to-run-local-memory-server-openmemory-mcp.html",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
   },
   {
    "name": "Baiduspider",
@@ -340,44 +373,11 @@
    "verifiable": false
   },
   {
-   "name": "Sogou",
-   "label": "Sogou",
-   "category": "search",
-   "home": "https://www.sogou.com",
-   "hits": 2531,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-03",
-   "lastSeen": "2026-09-17",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 30
-    },
-    {
-     "path": "/agents.html",
-     "hits": 8
-    },
-    {
-     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html",
-     "hits": 5
-    },
-    {
-     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2",
-     "hits": 3
-    },
-    {
-     "path": "/posts/how-to-run-local-memory-server-openmemory-mcp.html",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "ClaudeBot",
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1736,
+   "hits": 1742,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1416,
+   "hits": 1417,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
