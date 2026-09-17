@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-17T18:08:01.240Z",
+ "generated": "2026-09-17T18:18:03.367Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 24545,
+ "verifiedAiHits": 24556,
  "logsScanned": 30,
  "windowStart": "2026-09-03",
  "windowEnd": "2026-09-17",
- "totalHits": 140885,
- "aiHits": 103262,
+ "totalHits": 140962,
+ "aiHits": 103338,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37527,
+   "hits": 37540,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19583,
+   "hits": 19621,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15401,
+   "hits": 15410,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 13863,
-   "verifiedHits": 13637,
+   "hits": 13870,
+   "verifiedHits": 13644,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3783,
-   "verifiedHits": 3577,
+   "hits": 3786,
+   "verifiedHits": 3580,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -263,11 +263,11 @@
      "hits": 29
     },
     {
-     "path": "/posts/serverless-inference-api-groq-fireworks-together-deepinfra-baseten.html",
-     "hits": 28
+     "path": "/posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html",
+     "hits": 29
     },
     {
-     "path": "/posts/2026-08-07-founders-wire-meta-coding-agent-openai-atlas-claude-code.html",
+     "path": "/posts/serverless-inference-api-groq-fireworks-together-deepinfra-baseten.html",
      "hits": 28
     }
    ],
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3287,
-   "verifiedHits": 3074,
+   "hits": 3288,
+   "verifiedHits": 3075,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -305,6 +305,39 @@
     }
    ],
    "verifiable": true
+  },
+  {
+   "name": "Baiduspider",
+   "label": "Baidu",
+   "category": "search",
+   "home": "https://www.baidu.com",
+   "hits": 2564,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-03",
+   "lastSeen": "2026-09-17",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 32
+    },
+    {
+     "path": "/dashboard",
+     "hits": 7
+    },
+    {
+     "path": "/apps",
+     "hits": 5
+    },
+    {
+     "path": "/newsroom",
+     "hits": 3
+    },
+    {
+     "path": "/posts/rag-vs-long-context.html",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
   },
   {
    "name": "Sogou",
@@ -340,44 +373,11 @@
    "verifiable": false
   },
   {
-   "name": "Baiduspider",
-   "label": "Baidu",
-   "category": "search",
-   "home": "https://www.baidu.com",
-   "hits": 2563,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-03",
-   "lastSeen": "2026-09-17",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 32
-    },
-    {
-     "path": "/dashboard",
-     "hits": 7
-    },
-    {
-     "path": "/apps",
-     "hits": 5
-    },
-    {
-     "path": "/newsroom",
-     "hits": 3
-    },
-    {
-     "path": "/posts/rag-vs-long-context.html",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "ClaudeBot",
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1792,
+   "hits": 1794,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1451,
+   "hits": 1454,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
