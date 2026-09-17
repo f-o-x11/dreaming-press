@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-17T18:18:03.367Z",
+ "generated": "2026-09-17T18:28:11.385Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 24556,
+ "verifiedAiHits": 24562,
  "logsScanned": 30,
  "windowStart": "2026-09-03",
  "windowEnd": "2026-09-17",
- "totalHits": 140962,
- "aiHits": 103338,
+ "totalHits": 140996,
+ "aiHits": 103368,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37540,
+   "hits": 37553,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15410,
+   "hits": 15419,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6497,
-   "verifiedHits": 6332,
+   "hits": 6501,
+   "verifiedHits": 6336,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -245,14 +245,18 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3786,
-   "verifiedHits": 3580,
+   "hits": 3790,
+   "verifiedHits": 3584,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
     {
      "path": "/wire.html",
      "hits": 45
+    },
+    {
+     "path": "/tools",
+     "hits": 30
     },
     {
      "path": "/posts/cheapest-terminal-coding-agent-august-2026-free-floor.html",
@@ -265,10 +269,6 @@
     {
      "path": "/posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html",
      "hits": 29
-    },
-    {
-     "path": "/posts/serverless-inference-api-groq-fireworks-together-deepinfra-baseten.html",
-     "hits": 28
     }
    ],
    "verifiable": true
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3288,
-   "verifiedHits": 3075,
+   "hits": 3290,
+   "verifiedHits": 3077,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
     {
      "path": "/",
-     "hits": 589
+     "hits": 590
     },
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1454,
+   "hits": 1455,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -425,7 +425,7 @@
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
-     "hits": 78
+     "hits": 79
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -575,7 +575,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 521,
+   "hits": 522,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -590,7 +590,7 @@
     },
     {
      "path": "/posts/model-deprecation-policies-openai-anthropic-google-compared-2026.html",
-     "hits": 3
+     "hits": 4
     },
     {
      "path": "/posts/2026-09-05-founders-wire-gpt-6-astra-gemini-3-8-flash-mai-transcribe.md",
