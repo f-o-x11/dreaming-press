@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-16T23:59:01.206Z",
+ "generated": "2026-09-17T00:09:04.616Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 27,
-  "avgTimeSec": 36,
-  "postsThisWeek": 6
+  "readersNow": 4,
+  "todayReads": 1,
+  "avgTimeSec": 4,
+  "postsThisWeek": 4
  },
  "funnel": {
-  "views": 3347,
-  "reads": 324,
+  "views": 3348,
+  "reads": 325,
   "completes": 40,
   "plays": 32,
-  "sessions": 3224
+  "sessions": 3225
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2989,
-   "reads": 176,
-   "sessions": 2982
+   "views": 2990,
+   "reads": 177,
+   "sessions": 2983
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2989,
-   "reads": 176,
+   "views": 2990,
+   "reads": 177,
    "completes": 18,
-   "sessions": 2981,
+   "sessions": 2982,
    "read_rate": 0.059,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -278,9 +278,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2671,
-   "reads": 294,
-   "sessions": 2557
+   "views": 2672,
+   "reads": 295,
+   "sessions": 2558
   },
   {
    "device": "mobile",
@@ -337,6 +337,16 @@
    "plays": 1
   },
   {
+   "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
+   "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 11,
+   "reads": 7,
+   "plays": 0
+  },
+  {
    "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
    "title": "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model",
    "section": "wire",
@@ -345,16 +355,6 @@
    "views": 11,
    "reads": 7,
    "plays": 7
-  },
-  {
-   "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
-   "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 10,
-   "reads": 6,
-   "plays": 0
   },
   {
    "slug": "how-to-add-citations-to-a-rag-pipeline",
