@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-17T07:03:19.834Z",
+ "generated": "2026-09-17T07:13:31.750Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
-  "todayReads": 9,
+  "readersNow": 3,
+  "todayReads": 10,
   "avgTimeSec": 10,
   "postsThisWeek": 4
  },
  "funnel": {
-  "views": 3360,
-  "reads": 329,
+  "views": 3361,
+  "reads": 330,
   "completes": 42,
   "plays": 34,
-  "sessions": 3238
+  "sessions": 3239
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3002,
-   "reads": 182,
-   "sessions": 2994
+   "views": 3003,
+   "reads": 183,
+   "sessions": 2995
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3002,
-   "reads": 182,
+   "views": 3003,
+   "reads": 183,
    "completes": 20,
-   "sessions": 2993,
+   "sessions": 2994,
    "read_rate": 0.061,
    "complete_rate": 0.007,
    "pages_per_session": 1,
@@ -278,9 +278,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2688,
-   "reads": 298,
-   "sessions": 2575
+   "views": 2689,
+   "reads": 299,
+   "sessions": 2576
   },
   {
    "device": "mobile",
@@ -407,6 +407,16 @@
    "plays": 0
   },
   {
+   "slug": "code-retrieval-for-ai-coding-agents",
+   "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "lm-studio-bionic-local-agent-open-models",
    "title": "LM Studio Bionic: A Private, Local Agent for Open Models — What It Is, Who It's For, How to Start",
    "section": "stack",
@@ -433,16 +443,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 5,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "how-to-write-a-claude-skill-that-triggers",
-   "title": "How to Write a Claude Skill That Actually Triggers: The SKILL.md Description Craft",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 4,
    "reads": 4,
    "plays": 0
   }
