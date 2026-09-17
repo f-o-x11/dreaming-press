@@ -1,37 +1,37 @@
 {
- "generated": "2026-09-17T00:59:48.454Z",
+ "generated": "2026-09-17T01:09:52.901Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 1,
   "avgTimeSec": 4,
   "postsThisWeek": 4
  },
  "funnel": {
-  "views": 3338,
+  "views": 3337,
   "reads": 325,
   "completes": 40,
   "plays": 32,
-  "sessions": 3216
+  "sessions": 3215
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2985,
+   "views": 2984,
    "reads": 177,
-   "sessions": 2978
+   "sessions": 2976
   },
   {
    "channel": "organic",
-   "views": 111,
+   "views": 110,
    "reads": 71,
-   "sessions": 104
+   "sessions": 103
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 125,
+   "views": 126,
    "reads": 37,
-   "sessions": 121
+   "sessions": 122
   },
   {
    "channel": "referral",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2985,
+   "views": 2984,
    "reads": 177,
    "completes": 18,
-   "sessions": 2977,
+   "sessions": 2975,
    "read_rate": 0.059,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -78,22 +78,22 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 125,
+   "views": 126,
    "reads": 37,
    "completes": 3,
-   "sessions": 121,
-   "read_rate": 0.296,
+   "sessions": 122,
+   "read_rate": 0.294,
    "complete_rate": 0.024,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
   },
   {
    "channel": "organic",
-   "views": 111,
+   "views": 110,
    "reads": 71,
    "completes": 2,
-   "sessions": 104,
-   "read_rate": 0.64,
+   "sessions": 103,
+   "read_rate": 0.645,
    "complete_rate": 0.018,
    "pages_per_session": 1.07,
    "median_dwell_sec": 10
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 137,
+   "views": 138,
    "reads": 38,
-   "sessions": 128
+   "sessions": 129
   },
   {
    "assistant": "Doubao",
@@ -278,9 +278,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2663,
+   "views": 2662,
    "reads": 295,
-   "sessions": 2550
+   "sessions": 2549
   },
   {
    "device": "mobile",
@@ -791,8 +791,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 14,
-   "sessions": 12
+   "hits": 13,
+   "sessions": 11
   },
   {
    "ref": "https://www.perplexity.ai/",
