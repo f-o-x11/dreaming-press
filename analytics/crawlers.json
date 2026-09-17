@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-17T09:05:02.097Z",
+ "generated": "2026-09-17T09:15:06.779Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 24060,
+ "verifiedAiHits": 24062,
  "logsScanned": 30,
  "windowStart": "2026-09-03",
  "windowEnd": "2026-09-17",
- "totalHits": 138104,
- "aiHits": 100953,
+ "totalHits": 138142,
+ "aiHits": 100987,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36645,
+   "hits": 36667,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19258,
+   "hits": 19259,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14980,
+   "hits": 14987,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6309,
-   "verifiedHits": 6152,
+   "hits": 6311,
+   "verifiedHits": 6154,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3680,
-   "verifiedHits": 3482,
+   "hits": 3681,
+   "verifiedHits": 3483,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3171,
-   "verifiedHits": 2968,
+   "hits": 3174,
+   "verifiedHits": 2969,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
     {
      "path": "/",
-     "hits": 573
+     "hits": 574
     },
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
@@ -311,14 +311,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2509,
+   "hits": 2511,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 31
+     "hits": 32
     },
     {
      "path": "/dashboard",
