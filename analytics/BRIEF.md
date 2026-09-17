@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-17T06:03Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-17T06:13Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -109,7 +109,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (13347 verified): /build ×209 · /dashboard ×25 · / ×22
-- OAI-SearchBot (3451 verified): /wire.html ×41 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×28 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×28
+- OAI-SearchBot (3453 verified): /wire.html ×41 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×28 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×28
 - ChatGPT-User (2939 verified): / ×569 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×131 · /posts/open-source-llm-for-coding-september-2026.html ×110
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(27), founder(27), startup(26), agentic(24), mcp(18), build(16), agent(15), building(15), systems(12), coding(10), about(9), has(9), co-founder(9), python(8), run(8).
+Hot terms: agentic(27), founder(27), agents(26), startup(26), build(17), mcp(17), agent(15), building(15), systems(12), coding(10), about(9), has(9), co-founder(9), python(8), run(8).
 Hashtags: #ai, #startup, #founder, #tech, #buildinpublic, #videogenration, #tools, #aijobs, #startups, #aihiring.
 High-engagement posts to react to / cite:
 - "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to." — https://x.com/i/status/2099491915381006477
@@ -135,16 +135,16 @@ High-engagement posts to react to / cite:
 - "Circuits Protocol is live on @Arc Testnet. We’re building an economy where AI agents can autonomously run, work, pay, earn, trade, collaborate, launch assets, enter markets, and build reputation. Circuits is powered by t" — https://x.com/i/status/2099497176376152431
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-- Search-demand signal STALE (114h old, 264 uncovered phrases from the last good run). Treat as directional until it refreshes.
+- Search-demand signal STALE (115h old, 264 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 21459 confirmed AI-engine fetches (Perplexity 13347, ChatGPT Search (OpenAI) 3451, ChatGPT (user browsing) 2939, GPTBot (OpenAI) 1722).
+The real answer engines are crawling us — IP-verified: 21462 confirmed AI-engine fetches (Perplexity 13347, ChatGPT Search (OpenAI) 3453, ChatGPT (user browsing) 2939, GPTBot (OpenAI) 1723).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 762 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 133 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 131 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 110 crawler fetches
-- /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 81 crawler fetches
+- /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 82 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 72 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 57 crawler fetches
 - /posts/2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe.html  — 52 crawler fetches

@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-17T06:03:00.448Z",
+ "generated": "2026-09-17T06:13:00.747Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 21459,
+ "verifiedAiHits": 21462,
  "logsScanned": 30,
  "windowStart": "2026-09-03",
  "windowEnd": "2026-09-17",
- "totalHits": 134603,
- "aiHits": 97577,
+ "totalHits": 134680,
+ "aiHits": 97643,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36224,
+   "hits": 36240,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 24548,
+   "hits": 24556,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -61,15 +61,15 @@
      "hits": 5
     },
     {
+     "path": "/posts/jujutsu-vs-git-version-control-for-builders.md",
+     "hits": 4
+    },
+    {
      "path": "/posts/ai-stack-one-person-company-2026.md",
      "hits": 4
     },
     {
      "path": "/posts/microsoft-agent-framework-codeact-hyperlight.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/best-llm-for-function-calling.md",
      "hits": 4
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19082,
+   "hits": 19118,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14839,
+   "hits": 14846,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6250,
-   "verifiedHits": 6093,
+   "hits": 6251,
+   "verifiedHits": 6094,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3649,
-   "verifiedHits": 3451,
+   "hits": 3651,
+   "verifiedHits": 3453,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -344,8 +344,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 1940,
-   "verifiedHits": 1722,
+   "hits": 1941,
+   "verifiedHits": 1723,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1705,
+   "hits": 1708,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1347,
+   "hits": 1348,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -421,7 +421,7 @@
     },
     {
      "path": "/posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html",
-     "hits": 78
+     "hits": 79
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
@@ -542,14 +542,14 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 586,
-   "verifiedHits": 501,
+   "hits": 588,
+   "verifiedHits": 503,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
     {
      "path": "/",
-     "hits": 15
+     "hits": 16
     },
     {
      "path": "/about.html",
