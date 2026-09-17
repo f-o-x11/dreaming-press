@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-17T16:57:08.772Z",
+ "generated": "2026-09-17T17:07:27.933Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 24521,
+ "verifiedAiHits": 24525,
  "logsScanned": 30,
  "windowStart": "2026-09-03",
  "windowEnd": "2026-09-17",
- "totalHits": 140618,
- "aiHits": 103067,
+ "totalHits": 140676,
+ "aiHits": 103120,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37504,
+   "hits": 37505,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19545,
+   "hits": 19582,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15349,
+   "hits": 15357,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
@@ -179,14 +179,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6459,
-   "verifiedHits": 6302,
+   "hits": 6464,
+   "verifiedHits": 6307,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 107
+     "hits": 108
     },
     {
      "path": "/posts/gpt-5-6-terra-vs-kimi-k3-mid-tier-agent-backend.html",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3760,
-   "verifiedHits": 3562,
+   "hits": 3763,
+   "verifiedHits": 3565,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3272,
-   "verifiedHits": 3066,
+   "hits": 3273,
+   "verifiedHits": 3067,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1437,
+   "hits": 1440,
    "verifiedHits": 0,
    "firstSeen": "2026-09-03",
    "lastSeen": "2026-09-17",
