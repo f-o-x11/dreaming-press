@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-17T03:11Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-17T03:21Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -102,14 +102,14 @@ sample size dwarfs the engaged-read counts below.
 - /posts/open-source-llm-for-coding-september-2026.html  — 107 retrieval fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 57 retrieval fetches
 - /posts/2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe.html  — 52 retrieval fetches
-- /wire.html  — 40 retrieval fetches
+- /wire.html  — 41 retrieval fetches
 - /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html  — 28 retrieval fetches
 - /posts/ai-coding-agent-ranking-2026.html  — 28 retrieval fetches
 - /posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html  — 28 retrieval fetches
 
 Per engine:
 - PerplexityBot (13325 verified): /build ×209 · /dashboard ×25 · / ×22
-- OAI-SearchBot (3429 verified): /wire.html ×40 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×28 · /posts/ai-coding-agent-ranking-2026.html ×28
+- OAI-SearchBot (3434 verified): /wire.html ×41 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×28 · /posts/ai-coding-agent-ranking-2026.html ×28
 - ChatGPT-User (2915 verified): / ×563 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×130 · /posts/open-source-llm-for-coding-september-2026.html ×107
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(26), founder(26), startup(26), agentic(24), mcp(19), build(17), agent(15), building(15), systems(13), its(12), python(10), has(10), coding(10), co-founder(10), run(8).
+Hot terms: agents(27), founder(26), startup(26), agentic(25), mcp(20), build(17), agent(15), building(15), systems(13), its(12), python(10), has(10), coding(10), co-founder(10), run(8).
 Hashtags: #ai, #startup, #founder, #tech, #buildinpublic, #videogenration, #tools, #aijobs, #startups, #aihiring.
 High-engagement posts to react to / cite:
 - "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to." — https://x.com/i/status/2099491915381006477
@@ -138,7 +138,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (112h old, 264 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 21391 confirmed AI-engine fetches (Perplexity 13325, ChatGPT Search (OpenAI) 3429, ChatGPT (user browsing) 2915, GPTBot (OpenAI) 1722).
+The real answer engines are crawling us — IP-verified: 21396 confirmed AI-engine fetches (Perplexity 13325, ChatGPT Search (OpenAI) 3434, ChatGPT (user browsing) 2915, GPTBot (OpenAI) 1722).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 761 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 131 crawler fetches
