@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-17T03:21:26.281Z",
+ "generated": "2026-09-17T03:31:33.575Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 6,
   "todayReads": 3,
   "avgTimeSec": 8,
   "postsThisWeek": 4
  },
  "funnel": {
-  "views": 3348,
+  "views": 3353,
   "reads": 325,
   "completes": 41,
   "plays": 32,
-  "sessions": 3227
+  "sessions": 3232
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2995,
+   "views": 2999,
    "reads": 178,
-   "sessions": 2988
+   "sessions": 2992
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 127,
+   "views": 128,
    "reads": 37,
-   "sessions": 123
+   "sessions": 124
   },
   {
    "channel": "referral",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2995,
+   "views": 2999,
    "reads": 178,
    "completes": 19,
-   "sessions": 2987,
+   "sessions": 2991,
    "read_rate": 0.059,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -78,12 +78,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 127,
+   "views": 128,
    "reads": 37,
    "completes": 3,
-   "sessions": 123,
-   "read_rate": 0.291,
-   "complete_rate": 0.024,
+   "sessions": 124,
+   "read_rate": 0.289,
+   "complete_rate": 0.023,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
   },
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 139,
+   "views": 140,
    "reads": 38,
-   "sessions": 130
+   "sessions": 131
   },
   {
    "assistant": "Doubao",
@@ -278,9 +278,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2671,
+   "views": 2676,
    "reads": 294,
-   "sessions": 2559
+   "sessions": 2564
   },
   {
    "device": "mobile",
