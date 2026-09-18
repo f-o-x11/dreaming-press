@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-18T02:13:57.245Z",
+ "generated": "2026-09-18T02:24:00.342Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -11,55 +11,43 @@
    "count": 32
   },
   {
+   "term": "founder",
+   "count": 30
+  },
+  {
    "term": "startup",
    "count": 29
   },
   {
-   "term": "founder",
-   "count": 29
-  },
-  {
    "term": "agentic",
-   "count": 27
-  },
-  {
-   "term": "building",
-   "count": 19
+   "count": 28
   },
   {
    "term": "mcp",
+   "count": 19
+  },
+  {
+   "term": "building",
    "count": 18
   },
   {
-   "term": "agent",
-   "count": 17
+   "term": "build",
+   "count": 15
   },
   {
    "term": "systems",
    "count": 14
   },
   {
-   "term": "build",
-   "count": 14
+   "term": "agent",
+   "count": 13
   },
   {
    "term": "coding",
-   "count": 12
-  },
-  {
-   "term": "actually",
-   "count": 9
+   "count": 11
   },
   {
    "term": "every",
-   "count": 9
-  },
-  {
-   "term": "learn",
-   "count": 9
-  },
-  {
-   "term": "google",
    "count": 9
   },
   {
@@ -67,16 +55,20 @@
    "count": 8
   },
   {
+   "term": "actually",
+   "count": 8
+  },
+  {
    "term": "like",
    "count": 8
   },
   {
-   "term": "about",
+   "term": "learn",
    "count": 8
   },
   {
-   "term": "tools",
-   "count": 7
+   "term": "google",
+   "count": 8
   },
   {
    "term": "next",
@@ -84,6 +76,14 @@
   },
   {
    "term": "here",
+   "count": 7
+  },
+  {
+   "term": "patterns",
+   "count": 7
+  },
+  {
+   "term": "design",
    "count": 7
   }
  ],
@@ -163,6 +163,12 @@
    "created": "2026-09-12T19:05:46.000Z"
   },
   {
+   "text": "Hedera just went live in Claude Code. Network MCP + Wallet Connector Let AI agents build and sign hedera-hashgraph:native transactions from your terminal. Humans still approve the final send. First mover on agentic block",
+   "engagement": 119,
+   "url": "https://x.com/i/status/2100328490759250006",
+   "created": "2026-09-16T20:58:29.000Z"
+  },
+  {
    "text": "\"Agentic Architectural Patterns for Building Multi-Agent Systems — Proven design patterns and practices for GenAI, agents, RAG, LLMOps, and enterprise-scale AI systems\" 𝓟𝓻𝓪𝓬𝓽𝓲𝓬𝓪𝓵 𝓛𝓮𝓪𝓻𝓷𝓲𝓷𝓰: 🟢Apply design",
    "engagement": 114,
    "url": "https://x.com/i/status/2098511093593260480",
@@ -179,12 +185,6 @@
    "engagement": 92,
    "url": "https://x.com/i/status/2099497176376152431",
    "created": "2026-09-14T13:55:08.000Z"
-  },
-  {
-   "text": "Want to learn Agentic AI but don’t know where to start? I created a 100-Day Agentic AI Roadmap that gives you a step-by-step path to learn, build, and implement Agentic AI. You only need to study 5 days a week. Here’s wh",
-   "engagement": 86,
-   "url": "https://x.com/i/status/2099368265583858015",
-   "created": "2026-09-14T05:22:53.000Z"
   }
  ]
 }
