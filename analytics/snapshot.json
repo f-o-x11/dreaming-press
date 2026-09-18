@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-18T12:24:00.959Z",
+ "generated": "2026-09-18T12:34:39.203Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 11,
-  "avgTimeSec": 42,
+  "readersNow": 3,
+  "todayReads": 12,
+  "avgTimeSec": 41,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3386,
-  "reads": 320,
+  "views": 3365,
+  "reads": 321,
   "completes": 42,
   "plays": 36,
-  "sessions": 3275
+  "sessions": 3254
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3020,
-   "reads": 176,
-   "sessions": 3015
+   "views": 2999,
+   "reads": 177,
+   "sessions": 2994
   },
   {
    "channel": "organic",
@@ -43,7 +43,7 @@
    "channel": "ai",
    "views": 33,
    "reads": 12,
-   "sessions": 47
+   "sessions": 48
   },
   {
    "channel": "social",
@@ -67,11 +67,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3020,
-   "reads": 176,
+   "views": 2999,
+   "reads": 177,
    "completes": 19,
-   "sessions": 3014,
-   "read_rate": 0.058,
+   "sessions": 2993,
+   "read_rate": 0.059,
    "complete_rate": 0.006,
    "pages_per_session": 1,
    "median_dwell_sec": 4
@@ -114,11 +114,11 @@
    "views": 33,
    "reads": 12,
    "completes": 2,
-   "sessions": 47,
+   "sessions": 48,
    "read_rate": 0.364,
    "complete_rate": 0.061,
-   "pages_per_session": 0.7,
-   "median_dwell_sec": 26
+   "pages_per_session": 0.69,
+   "median_dwell_sec": 24
   },
   {
    "channel": "social",
@@ -272,15 +272,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2713,
-   "reads": 287,
-   "sessions": 2615
+   "views": 2703,
+   "reads": 288,
+   "sessions": 2605
   },
   {
    "device": "mobile",
-   "views": 673,
+   "views": 662,
    "reads": 33,
-   "sessions": 661
+   "sessions": 650
   }
  ],
  "topContent": [
@@ -370,7 +370,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 25,
+   "views": 24,
    "reads": 4,
    "plays": 0
   },
@@ -579,16 +579,6 @@
    "plays": 2
   },
   {
-   "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 25,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "best-open-source-rl-frameworks-for-training-agents",
    "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
    "section": "stack",
@@ -599,6 +589,16 @@
    "plays": 0
   },
   {
+   "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 24,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "2026-09-09-founders-wire-mistral-samsung-meta-muse-agent-commerce",
    "title": "The Founder's Wire, September 9: Mistral Raises $3.5B to Become Europe's Sovereign Frontier, and Meta's Muse Turns a Consumer AI Into a Shopper With a Stripe Wallet",
    "section": "wire",
@@ -606,16 +606,6 @@
    "author": "wire-desk",
    "views": 23,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe",
-   "title": "The Founder's Wire, September 4: A 'Firewall for Agents' Raises $50M, HiddenLayer Takes $100M a Day Later, and Crusoe Hits $30B for the Compute Underneath",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 21,
-   "reads": 2,
    "plays": 0
   },
   {
@@ -636,6 +626,16 @@
    "author": "wire-desk",
    "views": 19,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe",
+   "title": "The Founder's Wire, September 4: A 'Firewall for Agents' Raises $50M, HiddenLayer Takes $100M a Day Later, and Crusoe Hits $30B for the Compute Underneath",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 18,
+   "reads": 2,
    "plays": 0
   }
  ],
@@ -754,8 +754,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 65,
-   "sessions": 36
+   "hits": 66,
+   "sessions": 37
   },
   {
    "ref": "https://duckduckgo.com/",
