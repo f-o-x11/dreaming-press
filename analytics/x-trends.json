@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-18T05:27:01.044Z",
+ "generated": "2026-09-18T05:37:08.624Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -71,10 +71,6 @@
    "count": 8
   },
   {
-   "term": "million",
-   "count": 8
-  },
-  {
    "term": "next",
    "count": 7
   },
@@ -84,6 +80,10 @@
   },
   {
    "term": "co-founder",
+   "count": 7
+  },
+  {
+   "term": "million",
    "count": 7
   }
  ],
@@ -164,7 +164,7 @@
   },
   {
    "text": "Hedera just went live in Claude Code. Network MCP + Wallet Connector Let AI agents build and sign hedera-hashgraph:native transactions from your terminal. Humans still approve the final send. First mover on agentic block",
-   "engagement": 129,
+   "engagement": 130,
    "url": "https://x.com/i/status/2100328490759250006",
    "created": "2026-09-16T20:58:29.000Z"
   },
