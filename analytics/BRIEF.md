@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-18T17:18Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-18T17:29Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -59,7 +59,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 387 views, 0 reads, 385 sessions, avg 4s
+- /stack/:tool — 388 views, 0 reads, 386 sessions, avg 4s
 - / — 180 views, 1 reads, 179 sessions, avg 12s
 - /compare/:pair — 40 views, 2 reads, 40 sessions, avg 16s
 - /best/:cat — 38 views, 1 reads, 39 sessions, avg 4s
@@ -96,7 +96,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 619 retrieval fetches
+- /  — 620 retrieval fetches
 - /build  — 210 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 151 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 133 retrieval fetches
@@ -108,9 +108,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html  — 29 retrieval fetches
 
 Per engine:
-- PerplexityBot (13627 verified): /build ×210 · /dashboard ×27 · / ×25
+- PerplexityBot (13628 verified): /build ×210 · /dashboard ×27 · / ×25
 - OAI-SearchBot (3645 verified): /wire.html ×47 · /tools ×33 · /posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html ×30
-- ChatGPT-User (3134 verified): / ×594 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×151 · /posts/open-source-llm-for-coding-september-2026.html ×133
+- ChatGPT-User (3138 verified): / ×595 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×151 · /posts/open-source-llm-for-coding-september-2026.html ×133
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -158,14 +158,14 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 24682 confirmed AI-engine fetches (Perplexity 13627, GPTBot (OpenAI) 4276, ChatGPT Search (OpenAI) 3645, ChatGPT (user browsing) 3134).
+The real answer engines are crawling us — IP-verified: 24687 confirmed AI-engine fetches (Perplexity 13628, GPTBot (OpenAI) 4276, ChatGPT Search (OpenAI) 3645, ChatGPT (user browsing) 3138).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 807 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 155 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 151 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 133 crawler fetches
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 97 crawler fetches
-- /posts/how-to-read-an-agent-memory-benchmark.html  — 94 crawler fetches
+- /posts/how-to-read-an-agent-memory-benchmark.html  — 95 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 74 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 61 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 61 crawler fetches
