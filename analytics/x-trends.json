@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-18T01:23:24.408Z",
+ "generated": "2026-09-18T01:33:30.731Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -24,27 +24,27 @@
   },
   {
    "term": "building",
-   "count": 19
+   "count": 18
   },
   {
    "term": "mcp",
-   "count": 19
+   "count": 18
   },
   {
    "term": "agent",
-   "count": 17
-  },
-  {
-   "term": "build",
    "count": 15
   },
   {
-   "term": "systems",
+   "term": "build",
    "count": 14
   },
   {
+   "term": "systems",
+   "count": 13
+  },
+  {
    "term": "coding",
-   "count": 11
+   "count": 12
   },
   {
    "term": "actually",
@@ -52,14 +52,6 @@
   },
   {
    "term": "every",
-   "count": 9
-  },
-  {
-   "term": "learn",
-   "count": 9
-  },
-  {
-   "term": "google",
    "count": 9
   },
   {
@@ -75,15 +67,23 @@
    "count": 8
   },
   {
+   "term": "learn",
+   "count": 8
+  },
+  {
+   "term": "google",
+   "count": 8
+  },
+  {
    "term": "tools",
    "count": 7
   },
   {
-   "term": "next",
+   "term": "here",
    "count": 7
   },
   {
-   "term": "here",
+   "term": "patterns",
    "count": 7
   }
  ],
@@ -164,7 +164,7 @@
   },
   {
    "text": "Hedera just went live in Claude Code. Network MCP + Wallet Connector Let AI agents build and sign hedera-hashgraph:native transactions from your terminal. Humans still approve the final send. First mover on agentic block",
-   "engagement": 118,
+   "engagement": 119,
    "url": "https://x.com/i/status/2100328490759250006",
    "created": "2026-09-16T20:58:29.000Z"
   },
