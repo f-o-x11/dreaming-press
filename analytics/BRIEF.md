@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-18T00:32Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-18T00:42Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -96,7 +96,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 586 retrieval fetches
+- /  — 587 retrieval fetches
 - /build  — 208 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 141 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 123 retrieval fetches
@@ -109,8 +109,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (13451 verified): /build ×208 · /dashboard ×26 · / ×23
-- OAI-SearchBot (3475 verified): /wire.html ×44 · /tools ×30 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×28
-- ChatGPT-User (2940 verified): / ×563 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×141 · /posts/open-source-llm-for-coding-september-2026.html ×123
+- OAI-SearchBot (3476 verified): /wire.html ×44 · /tools ×30 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×28
+- ChatGPT-User (2942 verified): / ×564 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×141 · /posts/open-source-llm-for-coding-september-2026.html ×123
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -125,14 +125,14 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(33), startup(29), founder(29), agentic(28), building(19), mcp(19), agent(17), systems(15), build(15), coding(11), actually(9), every(9), learn(9), google(9), run(8).
+Hot terms: agents(32), startup(29), founder(29), agentic(28), building(19), mcp(19), agent(17), build(15), systems(14), coding(11), actually(9), every(9), learn(9), google(9), run(8).
 Hashtags: #ai, #startup, #tech, #founder, #buildinpublic, #videogenration, #tools, #aijobs, #aihiring, #mcp.
 High-engagement posts to react to / cite:
 - "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to." — https://x.com/i/status/2099491915381006477
 - "Israeli AI startup founder Ilit Razt pleaded guilty in New York to a $27 million investor fraud scheme.​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ I’m willing to bet Donald Trump will pardon him like he’s pardoned" — https://x.com/i/status/2098886739087745493
 - "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen" — https://x.com/i/status/2100517638611087443
 - "Finch V2 is live on @ponsdotfamily. Over the past few months, what started as NoelClaw evolved into something much bigger — a platform where AI agents can remember, research, build, automate, trade, and interact with rea" — https://x.com/i/status/2098850575576428667
-- ""Agentic Architectural Patterns for Building Multi-Agent Systems — Proven design patterns and practices for GenAI, agents, RAG, LLMOps, and enterprise-scale AI systems" 𝓟𝓻𝓪𝓬𝓽𝓲𝓬𝓪𝓵 𝓛𝓮𝓪𝓻𝓷𝓲𝓷𝓰: 🟢Apply design" — https://x.com/i/status/2098511093593260480
+- "Hedera just went live in Claude Code. Network MCP + Wallet Connector Let AI agents build and sign hedera-hashgraph:native transactions from your terminal. Humans still approve the final send. First mover on agentic block" — https://x.com/i/status/2100328490759250006
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (253 of 450 phrases have NO post, 13h ago)
@@ -158,14 +158,14 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 24119 confirmed AI-engine fetches (Perplexity 13451, GPTBot (OpenAI) 4253, ChatGPT Search (OpenAI) 3475, ChatGPT (user browsing) 2940).
+The real answer engines are crawling us — IP-verified: 24122 confirmed AI-engine fetches (Perplexity 13451, GPTBot (OpenAI) 4253, ChatGPT Search (OpenAI) 3476, ChatGPT (user browsing) 2942).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 777 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 145 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 141 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 123 crawler fetches
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 92 crawler fetches
-- /posts/how-to-read-an-agent-memory-benchmark.html  — 83 crawler fetches
+- /posts/how-to-read-an-agent-memory-benchmark.html  — 84 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 58 crawler fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 54 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 53 crawler fetches
