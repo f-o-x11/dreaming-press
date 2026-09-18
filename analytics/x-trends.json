@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-18T21:02:37.775Z",
+ "generated": "2026-09-18T21:12:41.420Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 34
+   "count": 35
   },
   {
    "term": "startup",
@@ -19,16 +19,16 @@
    "count": 30
   },
   {
+   "term": "mcp",
+   "count": 26
+  },
+  {
    "term": "agentic",
    "count": 25
   },
   {
-   "term": "mcp",
-   "count": 25
-  },
-  {
    "term": "build",
-   "count": 19
+   "count": 20
   },
   {
    "term": "agent",
@@ -36,7 +36,7 @@
   },
   {
    "term": "building",
-   "count": 14
+   "count": 13
   },
   {
    "term": "coding",
@@ -47,11 +47,7 @@
    "count": 11
   },
   {
-   "term": "like",
-   "count": 9
-  },
-  {
-   "term": "systems",
+   "term": "claude",
    "count": 9
   },
   {
@@ -67,7 +63,11 @@
    "count": 8
   },
   {
-   "term": "claude",
+   "term": "systems",
+   "count": 8
+  },
+  {
+   "term": "like",
    "count": 8
   },
   {
@@ -163,6 +163,12 @@
    "created": "2026-09-17T09:30:05.000Z"
   },
   {
+   "text": "Hedera just went live in Claude Code. Network MCP + Wallet Connector Let AI agents build and sign hedera-hashgraph:native transactions from your terminal. Humans still approve the final send. First mover on agentic block",
+   "engagement": 144,
+   "url": "https://x.com/i/status/2100328490759250006",
+   "created": "2026-09-16T20:58:29.000Z"
+  },
+  {
    "text": "Every Legal AI startup founder right now: https://t.co/5b9kBX8GxO https://t.co/yurJaDECwd",
    "engagement": 144,
    "url": "https://x.com/i/status/2100693975162335449",
@@ -179,12 +185,6 @@
    "engagement": 95,
    "url": "https://x.com/i/status/2099599577514987841",
    "created": "2026-09-14T20:42:02.000Z"
-  },
-  {
-   "text": "Circuits Protocol is live on @Arc Testnet. We’re building an economy where AI agents can autonomously run, work, pay, earn, trade, collaborate, launch assets, enter markets, and build reputation. Circuits is powered by t",
-   "engagement": 92,
-   "url": "https://x.com/i/status/2099497176376152431",
-   "created": "2026-09-14T13:55:08.000Z"
   }
  ]
 }
