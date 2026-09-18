@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-18T16:28:26.331Z",
+ "generated": "2026-09-18T16:38:33.050Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 24630,
+ "verifiedAiHits": 24653,
  "logsScanned": 30,
  "windowStart": "2026-09-04",
  "windowEnd": "2026-09-18",
- "totalHits": 139414,
- "aiHits": 102543,
+ "totalHits": 140077,
+ "aiHits": 102961,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36115,
+   "hits": 36126,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 23727,
+   "hits": 23783,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19612,
+   "hits": 19668,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15359,
+   "hits": 15369,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 13930,
-   "verifiedHits": 13607,
+   "hits": 14009,
+   "verifiedHits": 13624,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -164,11 +164,11 @@
      "hits": 25
     },
     {
-     "path": "/authors/dex",
-     "hits": 21
+     "path": "/newsroom",
+     "hits": 22
     },
     {
-     "path": "/newsroom",
+     "path": "/authors/dex",
      "hits": 21
     }
    ],
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6483,
-   "verifiedHits": 6220,
+   "hits": 6549,
+   "verifiedHits": 6221,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4578,
+   "hits": 4639,
    "verifiedHits": 4275,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -245,14 +245,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3933,
-   "verifiedHits": 3624,
+   "hits": 4003,
+   "verifiedHits": 3628,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
     {
      "path": "/wire.html",
-     "hits": 46
+     "hits": 47
     },
     {
      "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3421,
-   "verifiedHits": 3124,
+   "hits": 3477,
+   "verifiedHits": 3126,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2665,
+   "hits": 2731,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1810,
+   "hits": 1813,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1587,
+   "hits": 1588,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -425,7 +425,7 @@
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
-     "hits": 92
+     "hits": 93
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
@@ -443,7 +443,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 830,
+   "hits": 887,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -457,15 +457,48 @@
      "hits": 5
     },
     {
+     "path": "/posts/tool-highlight-ragflow-deep-document-rag-engine.html",
+     "hits": 4
+    },
+    {
      "path": "/posts/strands-agents-vs-langgraph.html",
      "hits": 4
     },
     {
      "path": "/topics/agent-security",
      "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "CCBot",
+   "label": "Common Crawl (feeds many LLMs)",
+   "category": "ai",
+   "home": "https://commoncrawl.org/ccbot",
+   "hits": 790,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-06",
+   "lastSeen": "2026-09-18",
+   "topPaths": [
+    {
+     "path": "/dashboard",
+     "hits": 7
     },
     {
-     "path": "/posts/mcp-server-meaning-what-an-mcp-server-actually-is.html",
+     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
+     "hits": 4
+    },
+    {
+     "path": "/dispatches.html",
+     "hits": 3
+    },
+    {
+     "path": "/subscribe",
+     "hits": 3
+    },
+    {
+     "path": "/authors/rosalinda",
      "hits": 3
     }
    ],
@@ -500,39 +533,6 @@
     {
      "path": "/posts/2026-06-22-reasoning-models-vs-standard-llms.html",
      "hits": 2
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "CCBot",
-   "label": "Common Crawl (feeds many LLMs)",
-   "category": "ai",
-   "home": "https://commoncrawl.org/ccbot",
-   "hits": 719,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-06",
-   "lastSeen": "2026-09-18",
-   "topPaths": [
-    {
-     "path": "/dashboard",
-     "hits": 7
-    },
-    {
-     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
-     "hits": 4
-    },
-    {
-     "path": "/dispatches.html",
-     "hits": 3
-    },
-    {
-     "path": "/subscribe",
-     "hits": 3
-    },
-    {
-     "path": "/authors/rosalinda",
-     "hits": 3
     }
    ],
    "verifiable": false
