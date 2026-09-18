@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-18T07:39:26.310Z",
+ "generated": "2026-09-18T07:49:28.133Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
   "todayReads": 7,
-  "avgTimeSec": 65,
+  "avgTimeSec": 59,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3396,
+  "views": 3399,
   "reads": 324,
   "completes": 42,
   "plays": 36,
-  "sessions": 3284
+  "sessions": 3286
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3032,
+   "views": 3034,
    "reads": 179,
-   "sessions": 3025
+   "sessions": 3027
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 144,
+   "views": 145,
    "reads": 40,
-   "sessions": 142
+   "sessions": 143
   },
   {
    "channel": "referral",
@@ -43,7 +43,7 @@
    "channel": "ai",
    "views": 35,
    "reads": 14,
-   "sessions": 47
+   "sessions": 48
   },
   {
    "channel": "social",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3032,
+   "views": 3034,
    "reads": 179,
    "completes": 19,
-   "sessions": 3024,
+   "sessions": 3026,
    "read_rate": 0.059,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 144,
+   "views": 145,
    "reads": 40,
    "completes": 4,
-   "sessions": 142,
-   "read_rate": 0.278,
+   "sessions": 143,
+   "read_rate": 0.276,
    "complete_rate": 0.028,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -114,11 +114,11 @@
    "views": 35,
    "reads": 14,
    "completes": 2,
-   "sessions": 47,
+   "sessions": 48,
    "read_rate": 0.4,
    "complete_rate": 0.057,
-   "pages_per_session": 0.74,
-   "median_dwell_sec": 38
+   "pages_per_session": 0.73,
+   "median_dwell_sec": 26
   },
   {
    "channel": "social",
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 156,
+   "views": 157,
    "reads": 40,
-   "sessions": 150
+   "sessions": 151
   },
   {
    "assistant": "Doubao",
@@ -272,9 +272,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2711,
+   "views": 2714,
    "reads": 291,
-   "sessions": 2612
+   "sessions": 2614
   },
   {
    "device": "mobile",
@@ -300,7 +300,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 44,
+   "views": 45,
    "reads": 13,
    "plays": 1
   },
@@ -370,7 +370,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 25,
+   "views": 27,
    "reads": 4,
    "plays": 0
   },
@@ -482,7 +482,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 44,
+   "views": 45,
    "reads": 13,
    "plays": 1
   },
@@ -564,7 +564,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 44,
+   "views": 45,
    "reads": 13,
    "plays": 1
   },
@@ -584,7 +584,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 25,
+   "views": 27,
    "reads": 4,
    "plays": 0
   },
@@ -711,13 +711,6 @@
    "avg_dwell_sec": 7
   },
   {
-   "path": "/tools",
-   "views": 8,
-   "reads": 0,
-   "sessions": 8,
-   "avg_dwell_sec": 8
-  },
-  {
    "path": "/weekly",
    "views": 8,
    "reads": 0,
@@ -744,6 +737,13 @@
    "reads": 0,
    "sessions": 7,
    "avg_dwell_sec": 5
+  },
+  {
+   "path": "/subscribe",
+   "views": 7,
+   "reads": 0,
+   "sessions": 6,
+   "avg_dwell_sec": 24
   }
  ],
  "referrers": [
@@ -754,8 +754,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 62,
-   "sessions": 34
+   "hits": 63,
+   "sessions": 35
   },
   {
    "ref": "https://duckduckgo.com/",
