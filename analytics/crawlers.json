@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-18T16:58:47.195Z",
+ "generated": "2026-09-18T17:08:49.433Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 24665,
+ "verifiedAiHits": 24676,
  "logsScanned": 30,
  "windowStart": "2026-09-04",
  "windowEnd": "2026-09-18",
- "totalHits": 140265,
- "aiHits": 103091,
+ "totalHits": 142189,
+ "aiHits": 104270,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36136,
+   "hits": 36143,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -47,14 +47,14 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 23802,
+   "hits": 23982,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 105
+     "hits": 106
     },
     {
      "path": "/dashboard",
@@ -65,11 +65,11 @@
      "hits": 4
     },
     {
-     "path": "/posts/text-generation-inference-tgi-archived-migrate-off.md",
+     "path": "/posts/2026-07-13-founder-shipping-log-agent-frameworks-q2.html",
      "hits": 4
     },
     {
-     "path": "/posts/microsoft-agent-framework-codeact-hyperlight.html",
+     "path": "/posts/text-generation-inference-tgi-archived-migrate-off.md",
      "hits": 4
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19684,
+   "hits": 19920,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -98,11 +98,11 @@
      "hits": 9
     },
     {
-     "path": "/posts/amd-mi300x-vs-nvidia-h100-llm-inference.html",
-     "hits": 8
+     "path": "/apps",
+     "hits": 9
     },
     {
-     "path": "/posts/which-ai-coding-subscription-solo-founder-2026.html",
+     "path": "/posts/amd-mi300x-vs-nvidia-h100-llm-inference.html",
      "hits": 8
     }
    ],
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15385,
+   "hits": 15392,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 14031,
-   "verifiedHits": 13624,
+   "hits": 14226,
+   "verifiedHits": 13627,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6557,
+   "hits": 6735,
    "verifiedHits": 6223,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -212,14 +212,14 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4652,
+   "hits": 4837,
    "verifiedHits": 4275,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 90
+     "hits": 91
     },
     {
      "path": "/authors/dex",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4023,
-   "verifiedHits": 3636,
+   "hits": 4209,
+   "verifiedHits": 3641,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -255,11 +255,11 @@
      "hits": 47
     },
     {
-     "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
-     "hits": 30
+     "path": "/tools",
+     "hits": 33
     },
     {
-     "path": "/tools",
+     "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
      "hits": 30
     },
     {
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3486,
-   "verifiedHits": 3130,
+   "hits": 3656,
+   "verifiedHits": 3133,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -293,7 +293,7 @@
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 132
+     "hits": 133
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2748,
+   "hits": 2956,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -322,7 +322,7 @@
     },
     {
      "path": "/dashboard",
-     "hits": 8
+     "hits": 9
     },
     {
      "path": "/tools",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1592,
+   "hits": 1593,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -429,7 +429,7 @@
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 72
+     "hits": 73
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -443,7 +443,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 900,
+   "hits": 1078,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -461,12 +461,12 @@
      "hits": 4
     },
     {
-     "path": "/posts/strands-agents-vs-langgraph.html",
+     "path": "/stack/reducto",
      "hits": 4
     },
     {
-     "path": "/topics/agent-security",
-     "hits": 3
+     "path": "/posts/strands-agents-vs-langgraph.html",
+     "hits": 4
     }
    ],
    "verifiable": false
@@ -476,7 +476,7 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 804,
+   "hits": 996,
    "verifiedHits": 0,
    "firstSeen": "2026-09-06",
    "lastSeen": "2026-09-18",
@@ -486,19 +486,19 @@
      "hits": 7
     },
     {
-     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
+     "path": "/dispatches.html",
      "hits": 4
     },
     {
-     "path": "/dispatches.html",
+     "path": "/apps",
+     "hits": 4
+    },
+    {
+     "path": "/fabrications.html",
      "hits": 3
     },
     {
      "path": "/subscribe",
-     "hits": 3
-    },
-    {
-     "path": "/authors/rosalinda",
      "hits": 3
     }
    ],
@@ -542,8 +542,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 589,
-   "verifiedHits": 490,
+   "hits": 590,
+   "verifiedHits": 491,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
