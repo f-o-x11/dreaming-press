@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-18T00:53:00.510Z",
+ "generated": "2026-09-18T01:03:10.096Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 24124,
+ "verifiedAiHits": 24127,
  "logsScanned": 30,
  "windowStart": "2026-09-04",
  "windowEnd": "2026-09-18",
- "totalHits": 133946,
- "aiHits": 98150,
+ "totalHits": 134119,
+ "aiHits": 98318,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 34656,
+   "hits": 34809,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 105
+     "hits": 106
     },
     {
      "path": "/tags/opinionated",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 23539,
+   "hits": 23540,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18553,
+   "hits": 18554,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14650,
+   "hits": 14658,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3685,
-   "verifiedHits": 3478,
+   "hits": 3687,
+   "verifiedHits": 3480,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3156,
-   "verifiedHits": 2942,
+   "hits": 3157,
+   "verifiedHits": 2943,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2409,
+   "hits": 2411,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -377,10 +377,10 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1749,
+   "hits": 1752,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
-   "lastSeen": "2026-09-17",
+   "lastSeen": "2026-09-18",
    "topPaths": [
     {
      "path": "/build",
@@ -476,10 +476,10 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 734,
+   "hits": 736,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
-   "lastSeen": "2026-09-17",
+   "lastSeen": "2026-09-18",
    "topPaths": [
     {
      "path": "/",
