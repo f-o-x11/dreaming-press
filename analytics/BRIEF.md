@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-18T00:12Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-18T00:22Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3387 views → 329 engaged reads → 43 completes · 3263 sessions.
-- Channels: direct 181r/3018v · organic 70r/109v · campaign:chatgpt.com 39r/144v · referral 20r/71v · ai 17r/38v · social 1r/6v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
+- Funnel: 3387 views → 330 engaged reads → 43 completes · 3262 sessions.
+- Channels: direct 182r/3018v · organic 70r/109v · campaign:chatgpt.com 39r/144v · referral 20r/71v · ai 17r/38v · social 1r/6v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 39r/156v · Doubao 10r/13v · Perplexity 4r/6v · DeepSeek 1r/4v · Yuanbao 1r/1v · Kimi 0r/1v.
 - Referrers: bing.com, chatgpt.com, duckduckgo.com, l.instagram.com, doubao.com, cn.bing.com, google.com, brand, perplexity.ai, nav-cmp.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3018 views · read 6.0% · complete 0.7% · 1 pages/session · median 4s
+- direct: 3018 views · read 6.0% · complete 0.7% · 1.01 pages/session · median 4s
 - campaign:chatgpt.com: 144 views · read 27.1% · complete 2.8% · 1.01 pages/session · median ?s
 - organic: 109 views · read 64.2% · complete 1.8% · 1.07 pages/session · median 10s
 - referral: 71 views · read 28.2% · complete 1.4% · 1.04 pages/session · median ?s
@@ -109,8 +109,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (13451 verified): /build ×208 · /dashboard ×26 · / ×23
-- OAI-SearchBot (3470 verified): /wire.html ×44 · /tools ×30 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×28
-- ChatGPT-User (2936 verified): / ×563 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×141 · /posts/open-source-llm-for-coding-september-2026.html ×123
+- OAI-SearchBot (3473 verified): /wire.html ×44 · /tools ×30 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×28
+- ChatGPT-User (2938 verified): / ×563 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×141 · /posts/open-source-llm-for-coding-september-2026.html ×123
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -125,13 +125,13 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(31), agentic(28), startup(28), founder(28), building(19), mcp(19), agent(16), build(15), systems(14), coding(10), actually(9), about(9), learn(9), google(9), run(8).
-Hashtags: #ai, #startup, #founder, #tech, #buildinpublic, #videogenration, #tools, #startups, #aijobs, #aihiring.
+Hot terms: agents(31), startup(29), founder(29), agentic(28), building(19), mcp(19), agent(16), build(15), systems(14), coding(10), actually(9), about(9), every(9), learn(9), google(9).
+Hashtags: #ai, #startup, #tech, #founder, #buildinpublic, #videogenration, #tools, #aijobs, #aihiring, #mcp.
 High-engagement posts to react to / cite:
 - "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to." — https://x.com/i/status/2099491915381006477
 - "Israeli AI startup founder Ilit Razt pleaded guilty in New York to a $27 million investor fraud scheme.​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ I’m willing to bet Donald Trump will pardon him like he’s pardoned" — https://x.com/i/status/2098886739087745493
-- "Finch V2 is live on @ponsdotfamily. Over the past few months, what started as NoelClaw evolved into something much bigger — a platform where AI agents can remember, research, build, automate, trade, and interact with rea" — https://x.com/i/status/2098850575576428667
 - "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen" — https://x.com/i/status/2100517638611087443
+- "Finch V2 is live on @ponsdotfamily. Over the past few months, what started as NoelClaw evolved into something much bigger — a platform where AI agents can remember, research, build, automate, trade, and interact with rea" — https://x.com/i/status/2098850575576428667
 - "Hedera just went live in Claude Code. Network MCP + Wallet Connector Let AI agents build and sign hedera-hashgraph:native transactions from your terminal. Humans still approve the final send. First mover on agentic block" — https://x.com/i/status/2100328490759250006
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 24110 confirmed AI-engine fetches (Perplexity 13451, GPTBot (OpenAI) 4253, ChatGPT Search (OpenAI) 3470, ChatGPT (user browsing) 2936).
+The real answer engines are crawling us — IP-verified: 24115 confirmed AI-engine fetches (Perplexity 13451, GPTBot (OpenAI) 4253, ChatGPT Search (OpenAI) 3473, ChatGPT (user browsing) 2938).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 777 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 145 crawler fetches
