@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-18T08:29:50.573Z",
+ "generated": "2026-09-18T08:40:00.530Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 24386,
+ "verifiedAiHits": 24391,
  "logsScanned": 30,
  "windowStart": "2026-09-04",
  "windowEnd": "2026-09-18",
- "totalHits": 136302,
- "aiHits": 100127,
+ "totalHits": 136326,
+ "aiHits": 100147,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35544,
+   "hits": 35548,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 23583,
+   "hits": 23584,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15002,
+   "hits": 15010,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6271,
-   "verifiedHits": 6105,
+   "hits": 6273,
+   "verifiedHits": 6107,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -194,7 +194,7 @@
     },
     {
      "path": "/authors/rosalinda",
-     "hits": 28
+     "hits": 29
     },
     {
      "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3767,
-   "verifiedHits": 3560,
+   "hits": 3771,
+   "verifiedHits": 3564,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -267,7 +267,7 @@
      "hits": 28
     },
     {
-     "path": "/posts/serverless-inference-api-groq-fireworks-together-deepinfra-baseten.html",
+     "path": "/posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html",
      "hits": 28
     }
    ],
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3242,
-   "verifiedHits": 3028,
+   "hits": 3243,
+   "verifiedHits": 3029,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2478,
+   "hits": 2479,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1527,
+   "hits": 1530,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -429,7 +429,7 @@
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 59
+     "hits": 60
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
