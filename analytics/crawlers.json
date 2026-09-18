@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-18T12:03:21.961Z",
+ "generated": "2026-09-18T12:13:39.786Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 24503,
+ "verifiedAiHits": 24509,
  "logsScanned": 30,
  "windowStart": "2026-09-04",
  "windowEnd": "2026-09-18",
- "totalHits": 137410,
- "aiHits": 101099,
+ "totalHits": 137448,
+ "aiHits": 101133,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35875,
+   "hits": 35891,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 23603,
+   "hits": 23604,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19265,
+   "hits": 19268,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15164,
+   "hits": 15171,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6310,
-   "verifiedHits": 6144,
+   "hits": 6312,
+   "verifiedHits": 6146,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -198,7 +198,7 @@
     },
     {
      "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
-     "hits": 27
+     "hits": 28
     },
     {
      "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3804,
-   "verifiedHits": 3597,
+   "hits": 3806,
+   "verifiedHits": 3599,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -263,11 +263,11 @@
      "hits": 29
     },
     {
-     "path": "/posts/2026-08-15-founders-wire-openai-ultrafast-gemini-flash-glm-5-3.html",
-     "hits": 28
+     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
+     "hits": 29
     },
     {
-     "path": "/posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html",
+     "path": "/posts/2026-08-15-founders-wire-openai-ultrafast-gemini-flash-glm-5-3.html",
      "hits": 28
     }
    ],
@@ -278,18 +278,18 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3286,
-   "verifiedHits": 3072,
+   "hits": 3290,
+   "verifiedHits": 3076,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
     {
      "path": "/",
-     "hits": 583
+     "hits": 584
     },
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
-     "hits": 149
+     "hits": 150
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -297,7 +297,7 @@
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 58
+     "hits": 59
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2515,
+   "hits": 2516,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1551,
+   "hits": 1552,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -575,7 +575,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 514,
+   "hits": 515,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -597,7 +597,7 @@
      "hits": 2
     },
     {
-     "path": "/posts/2026-09-05-founders-wire-gpt-6-astra-gemini-3-8-flash-mai-transcribe.md",
+     "path": "/posts/2026-09-01-founders-wire-vanguard-altruist-socure-fravity-keenable.md",
      "hits": 2
     }
    ],
