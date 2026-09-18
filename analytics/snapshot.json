@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-18T02:24:00.399Z",
+ "generated": "2026-09-18T02:34:00.942Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
-  "todayReads": 4,
+  "readersNow": 4,
+  "todayReads": 5,
   "avgTimeSec": 181,
   "postsThisWeek": 14
  },
  "funnel": {
   "views": 3393,
-  "reads": 329,
+  "reads": 330,
   "completes": 43,
   "plays": 36,
   "sessions": 3269
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3025,
+   "views": 3024,
    "reads": 182,
-   "sessions": 3009
+   "sessions": 3008
   },
   {
    "channel": "organic",
-   "views": 108,
-   "reads": 69,
-   "sessions": 101
+   "views": 109,
+   "reads": 70,
+   "sessions": 102
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3025,
+   "views": 3024,
    "reads": 182,
    "completes": 20,
-   "sessions": 3008,
+   "sessions": 3007,
    "read_rate": 0.06,
    "complete_rate": 0.007,
    "pages_per_session": 1.01,
@@ -89,12 +89,12 @@
   },
   {
    "channel": "organic",
-   "views": 108,
-   "reads": 69,
+   "views": 109,
+   "reads": 70,
    "completes": 2,
-   "sessions": 101,
-   "read_rate": 0.639,
-   "complete_rate": 0.019,
+   "sessions": 102,
+   "read_rate": 0.642,
+   "complete_rate": 0.018,
    "pages_per_session": 1.07,
    "median_dwell_sec": 10
   },
@@ -272,15 +272,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2710,
-   "reads": 297,
-   "sessions": 2599
+   "views": 2709,
+   "reads": 298,
+   "sessions": 2598
   },
   {
    "device": "mobile",
-   "views": 683,
+   "views": 684,
    "reads": 32,
-   "sessions": 671
+   "sessions": 672
   }
  ],
  "topContent": [
@@ -554,7 +554,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 49,
+   "views": 48,
    "reads": 0,
    "plays": 0
   },
@@ -656,9 +656,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 41,
+   "views": 40,
    "reads": 2,
-   "sessions": 41,
+   "sessions": 40,
    "avg_dwell_sec": 16
   },
   {
@@ -774,8 +774,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 20,
-   "sessions": 13
+   "hits": 22,
+   "sessions": 14
   },
   {
    "ref": "https://www.google.com/",
