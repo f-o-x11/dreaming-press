@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-18T18:20:01.400Z",
+ "generated": "2026-09-18T18:30:08.108Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 13,
+  "readersNow": 5,
+  "todayReads": 14,
   "avgTimeSec": 33,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3372,
-  "reads": 321,
+  "views": 3375,
+  "reads": 322,
   "completes": 42,
   "plays": 36,
-  "sessions": 3260
+  "sessions": 3263
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3008,
+   "views": 3010,
    "reads": 177,
-   "sessions": 3002
+   "sessions": 3004
   },
   {
    "channel": "organic",
-   "views": 106,
-   "reads": 69,
-   "sessions": 100
+   "views": 107,
+   "reads": 70,
+   "sessions": 101
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3008,
+   "views": 3010,
    "reads": 177,
    "completes": 19,
-   "sessions": 3001,
+   "sessions": 3003,
    "read_rate": 0.059,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 106,
-   "reads": 69,
+   "views": 107,
+   "reads": 70,
    "completes": 2,
-   "sessions": 100,
-   "read_rate": 0.651,
+   "sessions": 101,
+   "read_rate": 0.654,
    "complete_rate": 0.019,
    "pages_per_session": 1.06,
    "median_dwell_sec": 10
@@ -272,15 +272,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2709,
-   "reads": 288,
-   "sessions": 2610
+   "views": 2711,
+   "reads": 289,
+   "sessions": 2612
   },
   {
    "device": "mobile",
-   "views": 663,
+   "views": 664,
    "reads": 33,
-   "sessions": 651
+   "sessions": 652
   }
  ],
  "topContent": [
@@ -405,6 +405,16 @@
    "plays": 0
   },
   {
+   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
+   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "how-to-instrument-an-agent-langfuse-v4-otel",
    "title": "How to Instrument Your Agent with Langfuse v4 — the OpenTelemetry Rewrite That Broke Every Old Tutorial",
    "section": "stack",
@@ -419,16 +429,6 @@
    "title": "GPT-5.6 Rewired Prompt Caching: A Hands-On Guide to prompt_cache_options",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 4,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "how-to-write-a-claude-skill-that-triggers",
-   "title": "How to Write a Claude Skill That Actually Triggers: The SKILL.md Description Craft",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 4,
    "reads": 4,
@@ -783,6 +783,11 @@
    "sessions": 9
   },
   {
+   "ref": "https://search.brave.com/",
+   "hits": 11,
+   "sessions": 7
+  },
+  {
    "ref": "brand",
    "hits": 10,
    "sessions": 9
@@ -791,11 +796,6 @@
    "ref": "nav-cmp",
    "hits": 9,
    "sessions": 5
-  },
-  {
-   "ref": "https://search.brave.com/",
-   "hits": 9,
-   "sessions": 6
   }
  ]
 }
