@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-18T06:18:01.130Z",
+ "generated": "2026-09-18T06:28:17.263Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 6,
   "todayReads": 7,
-  "avgTimeSec": 80,
+  "avgTimeSec": 74,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3397,
+  "views": 3401,
   "reads": 327,
   "completes": 42,
   "plays": 36,
-  "sessions": 3283
+  "sessions": 3287
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3030,
+   "views": 3034,
    "reads": 180,
-   "sessions": 3023
+   "sessions": 3027
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3030,
+   "views": 3034,
    "reads": 180,
    "completes": 19,
-   "sessions": 3022,
+   "sessions": 3026,
    "read_rate": 0.059,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -272,9 +272,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2710,
+   "views": 2714,
    "reads": 294,
-   "sessions": 2609
+   "sessions": 2613
   },
   {
    "device": "mobile",
@@ -385,22 +385,22 @@
    "plays": 0
   },
   {
+   "slug": "code-retrieval-for-ai-coding-agents",
+   "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "lm-studio-bionic-local-agent-open-models",
    "title": "LM Studio Bionic: A Private, Local Agent for Open Models — What It Is, Who It's For, How to Start",
    "section": "stack",
    "tags": "[\"reportive\",\"captivating\"]",
    "author": "rosalinda",
    "views": 8,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "code-retrieval-for-ai-coding-agents",
-   "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 7,
    "reads": 4,
    "plays": 0
   },
@@ -649,9 +649,9 @@
   },
   {
    "path": "/",
-   "views": 186,
+   "views": 188,
    "reads": 1,
-   "sessions": 184,
+   "sessions": 186,
    "avg_dwell_sec": 12
   },
   {
