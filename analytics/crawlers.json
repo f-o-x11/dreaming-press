@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-18T17:39:14.054Z",
+ "generated": "2026-09-18T17:49:22.001Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 24693,
+ "verifiedAiHits": 24697,
  "logsScanned": 30,
  "windowStart": "2026-09-04",
  "windowEnd": "2026-09-18",
- "totalHits": 142272,
- "aiHits": 104334,
+ "totalHits": 142303,
+ "aiHits": 104359,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36148,
+   "hits": 36154,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 23984,
+   "hits": 23985,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15416,
+   "hits": 15424,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6741,
-   "verifiedHits": 6229,
+   "hits": 6744,
+   "verifiedHits": 6232,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4215,
-   "verifiedHits": 3647,
+   "hits": 4218,
+   "verifiedHits": 3650,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -256,7 +256,7 @@
     },
     {
      "path": "/tools",
-     "hits": 33
+     "hits": 34
     },
     {
      "path": "/posts/cheapest-terminal-coding-agent-august-2026-free-floor.html",
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3661,
-   "verifiedHits": 3138,
+   "hits": 3662,
+   "verifiedHits": 3139,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -293,7 +293,7 @@
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 133
+     "hits": 134
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2964,
+   "hits": 2966,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1820,
+   "hits": 1827,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -385,6 +385,10 @@
     {
      "path": "/build",
      "hits": 32
+    },
+    {
+     "path": "/authors/dex",
+     "hits": 4
     },
     {
      "path": "/subscribe",
@@ -395,11 +399,7 @@
      "hits": 4
     },
     {
-     "path": "/authors/dex",
-     "hits": 3
-    },
-    {
-     "path": "/fabrications.html",
+     "path": "/tags/reportive",
      "hits": 3
     }
    ],
