@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-18T11:12:48.196Z",
+ "generated": "2026-09-18T11:22:49.342Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 24480,
+ "verifiedAiHits": 24482,
  "logsScanned": 30,
  "windowStart": "2026-09-04",
  "windowEnd": "2026-09-18",
- "totalHits": 137145,
- "aiHits": 100866,
+ "totalHits": 137223,
+ "aiHits": 100936,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35823,
+   "hits": 35837,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 23599,
+   "hits": 23600,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19173,
+   "hits": 19216,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -94,15 +94,15 @@
      "hits": 14
     },
     {
+     "path": "/posts/amd-mi300x-vs-nvidia-h100-llm-inference.html",
+     "hits": 8
+    },
+    {
      "path": "/posts/which-ai-coding-subscription-solo-founder-2026.html",
      "hits": 8
     },
     {
      "path": "/",
-     "hits": 8
-    },
-    {
-     "path": "/apps",
      "hits": 8
     }
    ],
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15125,
+   "hits": 15135,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6296,
-   "verifiedHits": 6130,
+   "hits": 6298,
+   "verifiedHits": 6132,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3275,
-   "verifiedHits": 3061,
+   "hits": 3277,
+   "verifiedHits": 3063,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -293,7 +293,7 @@
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 129
+     "hits": 131
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2504,
+   "hits": 2507,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1546,
+   "hits": 1547,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -429,7 +429,7 @@
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 62
+     "hits": 63
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 754,
+   "hits": 756,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
