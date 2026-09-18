@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-18T07:49Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-18T07:59Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -44,7 +44,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "How to Add Citations to a RAG Pipeline" — 5 reads, 8 views, 0 listens
 - [stack] "SkyPilot vs dstack: Two Ways to Run a GPU Job on the Cheapest Cloud That Has One" — 5 reads, 8 views, 0 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in September 2026" — 4 reads, 27 views, 0 listens
-- [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 4 reads, 13 views, 0 listens
+- [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 4 reads, 14 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together" — 7 listens, 13 reads
@@ -110,7 +110,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (13543 verified): /build ×209 · /dashboard ×26 · / ×23
 - OAI-SearchBot (3551 verified): /wire.html ×45 · /tools ×30 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×29
-- ChatGPT-User (3018 verified): / ×576 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×146 · /posts/open-source-llm-for-coding-september-2026.html ×128
+- ChatGPT-User (3021 verified): / ×576 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×146 · /posts/open-source-llm-for-coding-september-2026.html ×128
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 24367 confirmed AI-engine fetches (Perplexity 13543, GPTBot (OpenAI) 4255, ChatGPT Search (OpenAI) 3551, ChatGPT (user browsing) 3018).
+The real answer engines are crawling us — IP-verified: 24370 confirmed AI-engine fetches (Perplexity 13543, GPTBot (OpenAI) 4255, ChatGPT Search (OpenAI) 3551, ChatGPT (user browsing) 3021).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 783 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 146 crawler fetches
