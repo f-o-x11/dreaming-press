@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-18T22:13:23.762Z",
+ "generated": "2026-09-18T22:23:30.692Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -11,12 +11,12 @@
    "count": 34
   },
   {
-   "term": "founder",
-   "count": 30
+   "term": "startup",
+   "count": 32
   },
   {
-   "term": "startup",
-   "count": 29
+   "term": "founder",
+   "count": 30
   },
   {
    "term": "mcp",
@@ -35,16 +35,20 @@
    "count": 15
   },
   {
-   "term": "coding",
+   "term": "building",
    "count": 12
   },
   {
-   "term": "building",
+   "term": "coding",
    "count": 11
   },
   {
    "term": "google",
    "count": 11
+  },
+  {
+   "term": "claude",
+   "count": 9
   },
   {
    "term": "run",
@@ -64,10 +68,6 @@
   },
   {
    "term": "like",
-   "count": 8
-  },
-  {
-   "term": "has",
    "count": 8
   },
   {
@@ -163,16 +163,16 @@
    "created": "2026-09-17T09:30:05.000Z"
   },
   {
+   "text": "Every Legal AI startup founder right now: https://t.co/5b9kBX8GxO https://t.co/yurJaDECwd",
+   "engagement": 145,
+   "url": "https://x.com/i/status/2100693975162335449",
+   "created": "2026-09-17T21:10:47.000Z"
+  },
+  {
    "text": "Hedera just went live in Claude Code. Network MCP + Wallet Connector Let AI agents build and sign hedera-hashgraph:native transactions from your terminal. Humans still approve the final send. First mover on agentic block",
    "engagement": 144,
    "url": "https://x.com/i/status/2100328490759250006",
    "created": "2026-09-16T20:58:29.000Z"
-  },
-  {
-   "text": "Every Legal AI startup founder right now: https://t.co/5b9kBX8GxO https://t.co/yurJaDECwd",
-   "engagement": 144,
-   "url": "https://x.com/i/status/2100693975162335449",
-   "created": "2026-09-17T21:10:47.000Z"
   },
   {
    "text": "Finch V2 is live on @ponsdotfamily. Over the past few months, what started as NoelClaw evolved into something much bigger — a platform where AI agents can remember, research, build, automate, trade, and interact with rea",

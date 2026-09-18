@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-18T22:13:23.223Z",
+ "generated": "2026-09-18T22:23:30.028Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 24881,
+ "verifiedAiHits": 24884,
  "logsScanned": 30,
  "windowStart": "2026-09-04",
  "windowEnd": "2026-09-18",
- "totalHits": 143488,
- "aiHits": 105299,
+ "totalHits": 143554,
+ "aiHits": 105359,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36310,
+   "hits": 36316,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -47,14 +47,14 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 24095,
+   "hits": 24099,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 106
+     "hits": 107
     },
     {
      "path": "/dashboard",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 20275,
+   "hits": 20318,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15617,
+   "hits": 15624,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6801,
-   "verifiedHits": 6289,
+   "hits": 6803,
+   "verifiedHits": 6291,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4296,
-   "verifiedHits": 3728,
+   "hits": 4297,
+   "verifiedHits": 3729,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3695,
-   "verifiedHits": 3172,
+   "hits": 3697,
+   "verifiedHits": 3174,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1611,
+   "hits": 1612,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -429,7 +429,7 @@
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 77
+     "hits": 78
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
