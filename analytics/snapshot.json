@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-18T10:42:28.560Z",
+ "generated": "2026-09-18T10:52:35.427Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 9,
-  "avgTimeSec": 44,
+  "readersNow": 3,
+  "todayReads": 10,
+  "avgTimeSec": 43,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3400,
-  "reads": 322,
+  "views": 3401,
+  "reads": 323,
   "completes": 42,
   "plays": 36,
-  "sessions": 3288
+  "sessions": 3289
  },
  "channels": [
   {
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 147,
-   "reads": 40,
-   "sessions": 145
+   "views": 148,
+   "reads": 41,
+   "sessions": 146
   },
   {
    "channel": "referral",
@@ -43,7 +43,7 @@
    "channel": "ai",
    "views": 33,
    "reads": 12,
-   "sessions": 46
+   "sessions": 47
   },
   {
    "channel": "social",
@@ -78,11 +78,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 147,
-   "reads": 40,
+   "views": 148,
+   "reads": 41,
    "completes": 4,
-   "sessions": 145,
-   "read_rate": 0.272,
+   "sessions": 146,
+   "read_rate": 0.277,
    "complete_rate": 0.027,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -114,10 +114,10 @@
    "views": 33,
    "reads": 12,
    "completes": 2,
-   "sessions": 46,
+   "sessions": 47,
    "read_rate": 0.364,
    "complete_rate": 0.061,
-   "pages_per_session": 0.72,
+   "pages_per_session": 0.7,
    "median_dwell_sec": 26
   },
   {
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 159,
-   "reads": 40,
-   "sessions": 153
+   "views": 160,
+   "reads": 41,
+   "sessions": 154
   },
   {
    "assistant": "Doubao",
@@ -272,9 +272,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2718,
-   "reads": 289,
-   "sessions": 2619
+   "views": 2719,
+   "reads": 290,
+   "sessions": 2620
   },
   {
    "device": "mobile",
@@ -497,6 +497,16 @@
    "plays": 1
   },
   {
+   "slug": "2026-06-21-n8n-vs-flowise-vs-langflow",
+   "title": "n8n vs Flowise vs Langflow: Choosing a Visual Agent Builder in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 3,
+   "plays": 1
+  },
+  {
    "slug": "arm-metis-open-source-ai-security-code-review",
    "title": "Arm Open-Sourced Its Internal Security Reviewer. Here's Whether You Should Run It.",
    "section": "wire",
@@ -523,16 +533,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 8,
-   "reads": 2,
-   "plays": 1
-  },
-  {
-   "slug": "how-to-run-spec-driven-development-github-spec-kit",
-   "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
-   "section": "stack",
-   "tags": "[\"reportive\",\"captivating\"]",
-   "author": "rosalinda",
-   "views": 6,
    "reads": 2,
    "plays": 1
   }
@@ -754,8 +754,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 63,
-   "sessions": 35
+   "hits": 65,
+   "sessions": 36
   },
   {
    "ref": "https://duckduckgo.com/",
