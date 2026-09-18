@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-18T10:12:00.788Z",
+ "generated": "2026-09-18T10:22:14.715Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 24432,
+ "verifiedAiHits": 24442,
  "logsScanned": 30,
  "windowStart": "2026-09-04",
  "windowEnd": "2026-09-18",
- "totalHits": 136763,
- "aiHits": 100518,
+ "totalHits": 136921,
+ "aiHits": 100672,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35684,
+   "hits": 35771,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 107
+     "hits": 108
     },
     {
      "path": "/tags/opinionated",
@@ -29,7 +29,7 @@
     },
     {
      "path": "/wire.html",
-     "hits": 47
+     "hits": 48
     },
     {
      "path": "/tags/reportive",
@@ -37,7 +37,7 @@
     },
     {
      "path": "/",
-     "hits": 31
+     "hits": 32
     }
    ],
    "verifiable": false
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 23593,
+   "hits": 23595,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19066,
+   "hits": 19115,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -94,16 +94,16 @@
      "hits": 14
     },
     {
+     "path": "/posts/which-ai-coding-subscription-solo-founder-2026.html",
+     "hits": 8
+    },
+    {
      "path": "/",
      "hits": 8
     },
     {
      "path": "/apps",
      "hits": 8
-    },
-    {
-     "path": "/posts/gemini-3-6-flash-vs-kimi-k3-cheapest-agent-backend-july-2026.html",
-     "hits": 7
     }
    ],
    "verifiable": false
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15079,
+   "hits": 15086,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -146,18 +146,18 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 13771,
-   "verifiedHits": 13546,
+   "hits": 13777,
+   "verifiedHits": 13552,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 209
+     "hits": 210
     },
     {
      "path": "/dashboard",
-     "hits": 26
+     "hits": 27
     },
     {
      "path": "/",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6286,
-   "verifiedHits": 6120,
+   "hits": 6287,
+   "verifiedHits": 6121,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3789,
-   "verifiedHits": 3582,
+   "hits": 3790,
+   "verifiedHits": 3583,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3263,
-   "verifiedHits": 3049,
+   "hits": 3266,
+   "verifiedHits": 3052,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2494,
+   "hits": 2495,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1539,
+   "hits": 1540,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
