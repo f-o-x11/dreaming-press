@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-18T00:02:28.308Z",
+ "generated": "2026-09-18T00:12:35.166Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 24110,
  "logsScanned": 30,
  "windowStart": "2026-09-04",
  "windowEnd": "2026-09-18",
- "totalHits": 133756,
- "aiHits": 98008,
+ "totalHits": 133785,
+ "aiHits": 98030,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 34605,
+   "hits": 34615,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -47,10 +47,10 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 23535,
+   "hits": 23536,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
-   "lastSeen": "2026-09-17",
+   "lastSeen": "2026-09-18",
    "topPaths": [
     {
      "path": "/build",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18523,
+   "hits": 18524,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14613,
+   "hits": 14620,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -179,10 +179,10 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6135,
-   "verifiedHits": 5969,
+   "hits": 6141,
+   "verifiedHits": 5975,
    "firstSeen": "2026-09-04",
-   "lastSeen": "2026-09-17",
+   "lastSeen": "2026-09-18",
    "topPaths": [
     {
      "path": "/build",
@@ -410,10 +410,10 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1466,
+   "hits": 1470,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
-   "lastSeen": "2026-09-17",
+   "lastSeen": "2026-09-18",
    "topPaths": [
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
@@ -433,7 +433,7 @@
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 46
+     "hits": 47
     }
    ],
    "verifiable": false

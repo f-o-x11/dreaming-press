@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-18T00:02Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-18T00:12Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3388 views → 329 engaged reads → 43 completes · 3264 sessions.
-- Channels: direct 181r/3019v · organic 70r/109v · campaign:chatgpt.com 39r/144v · referral 20r/71v · ai 17r/38v · social 1r/6v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
+- Funnel: 3387 views → 329 engaged reads → 43 completes · 3263 sessions.
+- Channels: direct 181r/3018v · organic 70r/109v · campaign:chatgpt.com 39r/144v · referral 20r/71v · ai 17r/38v · social 1r/6v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 39r/156v · Doubao 10r/13v · Perplexity 4r/6v · DeepSeek 1r/4v · Yuanbao 1r/1v · Kimi 0r/1v.
 - Referrers: bing.com, chatgpt.com, duckduckgo.com, l.instagram.com, doubao.com, cn.bing.com, google.com, brand, perplexity.ai, nav-cmp.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3019 views · read 6.0% · complete 0.7% · 1 pages/session · median 4s
+- direct: 3018 views · read 6.0% · complete 0.7% · 1 pages/session · median 4s
 - campaign:chatgpt.com: 144 views · read 27.1% · complete 2.8% · 1.01 pages/session · median ?s
 - organic: 109 views · read 64.2% · complete 1.8% · 1.07 pages/session · median 10s
 - referral: 71 views · read 28.2% · complete 1.4% · 1.04 pages/session · median ?s
@@ -125,17 +125,17 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(33), agentic(28), startup(28), founder(27), mcp(19), building(18), agent(17), systems(15), build(15), coding(11), actually(9), about(9), learn(9), google(9), run(8).
+Hot terms: agents(31), agentic(28), startup(28), founder(28), building(19), mcp(19), agent(16), build(15), systems(14), coding(10), actually(9), about(9), learn(9), google(9), run(8).
 Hashtags: #ai, #startup, #founder, #tech, #buildinpublic, #videogenration, #tools, #startups, #aijobs, #aihiring.
 High-engagement posts to react to / cite:
 - "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to." — https://x.com/i/status/2099491915381006477
 - "Israeli AI startup founder Ilit Razt pleaded guilty in New York to a $27 million investor fraud scheme.​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ I’m willing to bet Donald Trump will pardon him like he’s pardoned" — https://x.com/i/status/2098886739087745493
 - "Finch V2 is live on @ponsdotfamily. Over the past few months, what started as NoelClaw evolved into something much bigger — a platform where AI agents can remember, research, build, automate, trade, and interact with rea" — https://x.com/i/status/2098850575576428667
 - "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen" — https://x.com/i/status/2100517638611087443
-- ""Agentic Architectural Patterns for Building Multi-Agent Systems — Proven design patterns and practices for GenAI, agents, RAG, LLMOps, and enterprise-scale AI systems" 𝓟𝓻𝓪𝓬𝓽𝓲𝓬𝓪𝓵 𝓛𝓮𝓪𝓻𝓷𝓲𝓷𝓰: 🟢Apply design" — https://x.com/i/status/2098511093593260480
+- "Hedera just went live in Claude Code. Network MCP + Wallet Connector Let AI agents build and sign hedera-hashgraph:native transactions from your terminal. Humans still approve the final send. First mover on agentic block" — https://x.com/i/status/2100328490759250006
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (253 of 450 phrases have NO post, 12h ago)
+## Uncovered search demand (253 of 450 phrases have NO post, 13h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -170,7 +170,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 54 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 53 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 53 crawler fetches
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 46 crawler fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 47 crawler fetches
 - /posts/gpt-5-6-terra-vs-kimi-k3-mid-tier-agent-backend.html  — 38 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
