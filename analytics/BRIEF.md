@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-18T01:13Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-18T01:23Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -36,7 +36,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 
 ## Top by engaged reads (eyes that stayed)
 - [stack] "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet" — 14 reads, 35 views, 2 listens
-- [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 13 reads, 40 views, 1 listens
+- [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 13 reads, 41 views, 1 listens
 - [wire] "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together" — 13 reads, 20 views, 7 listens
 - [wire] "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card" — 9 reads, 13 views, 0 listens
 - [wire] "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model" — 7 reads, 11 views, 7 listens
@@ -73,7 +73,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again" — 60 views, 2 reads
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 49 views, 0 reads
-- [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 40 views, 13 reads
+- [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 41 views, 13 reads
 - [stack] "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet" — 35 views, 14 reads
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in September 2026" — 25 views, 4 reads
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 24 views, 0 reads
@@ -96,7 +96,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 587 retrieval fetches
+- /  — 588 retrieval fetches
 - /build  — 208 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 142 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 123 retrieval fetches
@@ -108,9 +108,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 28 retrieval fetches
 
 Per engine:
-- PerplexityBot (13451 verified): /build ×208 · /dashboard ×26 · / ×23
-- OAI-SearchBot (3481 verified): /wire.html ×44 · /tools ×30 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×28
-- ChatGPT-User (2944 verified): / ×564 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×142 · /posts/open-source-llm-for-coding-september-2026.html ×123
+- PerplexityBot (13452 verified): /build ×208 · /dashboard ×26 · / ×23
+- OAI-SearchBot (3482 verified): /wire.html ×44 · /tools ×30 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×28
+- ChatGPT-User (2945 verified): / ×565 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×142 · /posts/open-source-llm-for-coding-september-2026.html ×123
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 24129 confirmed AI-engine fetches (Perplexity 13451, GPTBot (OpenAI) 4253, ChatGPT Search (OpenAI) 3481, ChatGPT (user browsing) 2944).
+The real answer engines are crawling us — IP-verified: 24133 confirmed AI-engine fetches (Perplexity 13452, GPTBot (OpenAI) 4254, ChatGPT Search (OpenAI) 3482, ChatGPT (user browsing) 2945).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 780 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 145 crawler fetches
