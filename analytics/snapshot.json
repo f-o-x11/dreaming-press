@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-18T04:25:07.302Z",
+ "generated": "2026-09-18T04:35:41.145Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,18 +8,18 @@
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3407,
-  "reads": 331,
-  "completes": 43,
+  "views": 3397,
+  "reads": 329,
+  "completes": 42,
   "plays": 36,
-  "sessions": 3283
+  "sessions": 3281
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3037,
-   "reads": 182,
-   "sessions": 3022
+   "views": 3028,
+   "reads": 181,
+   "sessions": 3020
   },
   {
    "channel": "organic",
@@ -41,8 +41,8 @@
   },
   {
    "channel": "ai",
-   "views": 37,
-   "reads": 16,
+   "views": 36,
+   "reads": 15,
    "sessions": 47
   },
   {
@@ -61,19 +61,19 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 29
+   "sessions": 28
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3037,
-   "reads": 182,
-   "completes": 20,
-   "sessions": 3021,
+   "views": 3028,
+   "reads": 181,
+   "completes": 19,
+   "sessions": 3019,
    "read_rate": 0.06,
-   "complete_rate": 0.007,
-   "pages_per_session": 1.01,
+   "complete_rate": 0.006,
+   "pages_per_session": 1,
    "median_dwell_sec": 4
   },
   {
@@ -111,13 +111,13 @@
   },
   {
    "channel": "ai",
-   "views": 37,
-   "reads": 16,
+   "views": 36,
+   "reads": 15,
    "completes": 2,
    "sessions": 47,
-   "read_rate": 0.432,
-   "complete_rate": 0.054,
-   "pages_per_session": 0.79,
+   "read_rate": 0.417,
+   "complete_rate": 0.056,
+   "pages_per_session": 0.77,
    "median_dwell_sec": 38
   },
   {
@@ -147,7 +147,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 29,
+   "sessions": 28,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -164,11 +164,6 @@
    "surface": "nav-cmp",
    "clicks": 9,
    "sessions": 5
-  },
-  {
-   "surface": "dash-range",
-   "clicks": 7,
-   "sessions": 2
   },
   {
    "surface": "article-body",
@@ -206,14 +201,14 @@
    "sessions": 1
   },
   {
+   "surface": "dash-range",
+   "clicks": 3,
+   "sessions": 1
+  },
+  {
    "surface": "btn-stats",
    "clicks": 3,
    "sessions": 3
-  },
-  {
-   "surface": "sb-right",
-   "clicks": 2,
-   "sessions": 2
   },
   {
    "surface": "live",
@@ -227,6 +222,11 @@
   },
   {
    "surface": "btn-agents",
+   "clicks": 2,
+   "sessions": 2
+  },
+  {
+   "surface": "auto-link",
    "clicks": 2,
    "sessions": 2
   }
@@ -246,8 +246,8 @@
   },
   {
    "assistant": "Perplexity",
-   "views": 6,
-   "reads": 4,
+   "views": 5,
+   "reads": 3,
    "sessions": 5
   },
   {
@@ -272,15 +272,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2718,
-   "reads": 298,
-   "sessions": 2607
+   "views": 2709,
+   "reads": 296,
+   "sessions": 2606
   },
   {
    "device": "mobile",
-   "views": 689,
+   "views": 688,
    "reads": 33,
-   "sessions": 677
+   "sessions": 676
   }
  ],
  "topContent": [
@@ -385,16 +385,6 @@
    "plays": 0
   },
   {
-   "slug": "sqlite-vec-vs-lancedb-vs-chroma-embedded-vector-store-solo-builder",
-   "title": "sqlite-vec vs LanceDB vs Chroma: The Embedded Vector Store for a Solo Builder",
-   "section": "stack",
-   "tags": "[\"how-to\",\"opinionated\"]",
-   "author": "dex",
-   "views": 11,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "lm-studio-bionic-local-agent-open-models",
    "title": "LM Studio Bionic: A Private, Local Agent for Open Models — What It Is, Who It's For, How to Start",
    "section": "stack",
@@ -431,6 +421,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 5,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "how-to-write-a-claude-skill-that-triggers",
+   "title": "How to Write a Claude Skill That Actually Triggers: The SKILL.md Description Craft",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 4,
    "reads": 4,
    "plays": 0
   }
@@ -642,16 +642,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 386,
+   "views": 387,
    "reads": 0,
-   "sessions": 384,
+   "sessions": 385,
    "avg_dwell_sec": 4
   },
   {
    "path": "/",
-   "views": 190,
+   "views": 189,
    "reads": 1,
-   "sessions": 188,
+   "sessions": 187,
    "avg_dwell_sec": 11
   },
   {
@@ -676,13 +676,6 @@
    "avg_dwell_sec": 4
   },
   {
-   "path": "/dashboard",
-   "views": 22,
-   "reads": 0,
-   "sessions": 13,
-   "avg_dwell_sec": 9
-  },
-  {
    "path": "/topics/:topic",
    "views": 17,
    "reads": 0,
@@ -695,6 +688,13 @@
    "reads": 0,
    "sessions": 15,
    "avg_dwell_sec": 3
+  },
+  {
+   "path": "/dashboard",
+   "views": 15,
+   "reads": 0,
+   "sessions": 12,
+   "avg_dwell_sec": 7
   },
   {
    "path": "/stack.html",
@@ -788,14 +788,14 @@
    "sessions": 10
   },
   {
-   "ref": "https://www.perplexity.ai/",
-   "hits": 10,
-   "sessions": 5
-  },
-  {
    "ref": "nav-cmp",
    "hits": 9,
    "sessions": 5
+  },
+  {
+   "ref": "https://search.brave.com/",
+   "hits": 9,
+   "sessions": 6
   }
  ]
 }
