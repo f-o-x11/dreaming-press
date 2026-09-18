@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-18T15:37Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-18T15:47Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -105,12 +105,12 @@ sample size dwarfs the engaged-read counts below.
 - /wire.html  — 46 retrieval fetches
 - /posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html  — 30 retrieval fetches
 - /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html  — 29 retrieval fetches
-- /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 29 retrieval fetches
+- /posts/serverless-inference-api-groq-fireworks-together-deepinfra-baseten.html  — 29 retrieval fetches
 
 Per engine:
-- PerplexityBot (13600 verified): /build ×210 · /dashboard ×27 · / ×25
-- OAI-SearchBot (3623 verified): /wire.html ×46 · /posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html ×30 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×29
-- ChatGPT-User (3119 verified): / ×591 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×151 · /posts/open-source-llm-for-coding-september-2026.html ×132
+- PerplexityBot (13601 verified): /build ×210 · /dashboard ×27 · / ×25
+- OAI-SearchBot (3624 verified): /wire.html ×46 · /posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html ×30 · /posts/cheapest-terminal-coding-agent-august-2026-free-floor.html ×29
+- ChatGPT-User (3120 verified): / ×591 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×151 · /posts/open-source-llm-for-coding-september-2026.html ×132
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -125,13 +125,13 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(34), startup(28), founder(28), agentic(24), mcp(23), build(16), agent(15), building(14), coding(12), systems(11), google(9), run(8), actually(8), like(8), every(8).
+Hot terms: agents(34), startup(28), founder(28), agentic(24), mcp(23), build(16), agent(15), building(14), coding(12), systems(11), google(10), like(9), run(8), actually(8), every(8).
 Hashtags: #ai, #startup, #tech, #founder, #buildinpublic, #videogenration, #tools, #aijobs, #aihiring, #mcp.
 High-engagement posts to react to / cite:
 - "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to." — https://x.com/i/status/2099491915381006477
 - "Israeli AI startup founder Ilit Razt pleaded guilty in New York to a $27 million investor fraud scheme.​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ I’m willing to bet Donald Trump will pardon him like he’s pardoned" — https://x.com/i/status/2098886739087745493
-- "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen" — https://x.com/i/status/2100517638611087443
 - "Humans sleep, but trading agents don’t 🤖 Charting into the Agentic Trading era with tokenized US stocks operating 24/7! @Bitget_AI just launched the Builder Base Camp Hackathon S2 featuring a 50,000 USDT prize pool! Whe" — https://x.com/i/status/2100809997265301793
+- "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen" — https://x.com/i/status/2100517638611087443
 - "Finch V2 is live on @ponsdotfamily. Over the past few months, what started as NoelClaw evolved into something much bigger — a platform where AI agents can remember, research, build, automate, trade, and interact with rea" — https://x.com/i/status/2098850575576428667
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
@@ -158,9 +158,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 24617 confirmed AI-engine fetches (Perplexity 13600, GPTBot (OpenAI) 4275, ChatGPT Search (OpenAI) 3623, ChatGPT (user browsing) 3119).
+The real answer engines are crawling us — IP-verified: 24620 confirmed AI-engine fetches (Perplexity 13601, GPTBot (OpenAI) 4275, ChatGPT Search (OpenAI) 3624, ChatGPT (user browsing) 3120).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 800 crawler fetches
+- /build  — 802 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 154 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 151 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 132 crawler fetches
