@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-18T18:40:30.831Z",
+ "generated": "2026-09-18T18:50:31.862Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 24744,
+ "verifiedAiHits": 24750,
  "logsScanned": 30,
  "windowStart": "2026-09-04",
  "windowEnd": "2026-09-18",
- "totalHits": 142568,
- "aiHits": 104593,
+ "totalHits": 142594,
+ "aiHits": 104614,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 23992,
+   "hits": 23995,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15462,
+   "hits": 15469,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 14254,
-   "verifiedHits": 13655,
+   "hits": 14257,
+   "verifiedHits": 13658,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6751,
-   "verifiedHits": 6239,
+   "hits": 6753,
+   "verifiedHits": 6241,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4235,
-   "verifiedHits": 3667,
+   "hits": 4238,
+   "verifiedHits": 3670,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -267,8 +267,8 @@
      "hits": 30
     },
     {
-     "path": "/posts/serverless-inference-api-groq-fireworks-together-deepinfra-baseten.html",
-     "hits": 29
+     "path": "/posts/2026-08-04-founders-wire-anthropic-price-ladder-perception-preview-agent-funding.html",
+     "hits": 30
     }
    ],
    "verifiable": true
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1828,
+   "hits": 1836,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -388,6 +388,10 @@
     },
     {
      "path": "/authors/dex",
+     "hits": 5
+    },
+    {
+     "path": "/tags/reportive",
      "hits": 4
     },
     {
@@ -397,10 +401,6 @@
     {
      "path": "/dispatches.html",
      "hits": 4
-    },
-    {
-     "path": "/tags/reportive",
-     "hits": 3
     }
    ],
    "verifiable": false
