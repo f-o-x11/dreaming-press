@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-18T22:33:32.421Z",
+ "generated": "2026-09-18T22:43:41.038Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 24890,
+ "verifiedAiHits": 24899,
  "logsScanned": 30,
  "windowStart": "2026-09-04",
  "windowEnd": "2026-09-18",
- "totalHits": 143587,
- "aiHits": 105380,
+ "totalHits": 143644,
+ "aiHits": 105428,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36320,
+   "hits": 36349,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 110
+     "hits": 112
     },
     {
      "path": "/tags/opinionated",
@@ -29,7 +29,7 @@
     },
     {
      "path": "/wire.html",
-     "hits": 48
+     "hits": 49
     },
     {
      "path": "/tags/reportive",
@@ -37,7 +37,7 @@
     },
     {
      "path": "/",
-     "hits": 32
+     "hits": 33
     }
    ],
    "verifiable": false
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 24107,
+   "hits": 24114,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15631,
+   "hits": 15638,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 14306,
-   "verifiedHits": 13707,
+   "hits": 14309,
+   "verifiedHits": 13710,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6807,
-   "verifiedHits": 6295,
+   "hits": 6809,
+   "verifiedHits": 6297,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -194,7 +194,7 @@
     },
     {
      "path": "/authors/rosalinda",
-     "hits": 30
+     "hits": 31
     },
     {
      "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4299,
-   "verifiedHits": 3731,
+   "hits": 4302,
+   "verifiedHits": 3734,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3698,
-   "verifiedHits": 3175,
+   "hits": 3701,
+   "verifiedHits": 3178,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -293,11 +293,11 @@
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 137
+     "hits": 138
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 62
+     "hits": 63
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1876,
+   "hits": 1879,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
