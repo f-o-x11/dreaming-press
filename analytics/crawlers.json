@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-18T16:18:05.889Z",
+ "generated": "2026-09-18T16:28:26.331Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 24629,
+ "verifiedAiHits": 24630,
  "logsScanned": 30,
  "windowStart": "2026-09-04",
  "windowEnd": "2026-09-18",
- "totalHits": 138592,
- "aiHits": 102039,
+ "totalHits": 139414,
+ "aiHits": 102543,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 23644,
+   "hits": 23727,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19531,
+   "hits": 19612,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15352,
+   "hits": 15359,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -146,7 +146,7 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 13848,
+   "hits": 13930,
    "verifiedHits": 13607,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -164,12 +164,12 @@
      "hits": 25
     },
     {
-     "path": "/newsroom",
+     "path": "/authors/dex",
      "hits": 21
     },
     {
-     "path": "/posts/mcp-server-github-connect-and-build.html",
-     "hits": 20
+     "path": "/newsroom",
+     "hits": 21
     }
    ],
    "verifiable": true
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6394,
-   "verifiedHits": 6215,
+   "hits": 6483,
+   "verifiedHits": 6220,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4519,
+   "hits": 4578,
    "verifiedHits": 4275,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -245,7 +245,7 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3843,
+   "hits": 3933,
    "verifiedHits": 3624,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -259,15 +259,15 @@
      "hits": 30
     },
     {
+     "path": "/tools",
+     "hits": 30
+    },
+    {
      "path": "/posts/cheapest-terminal-coding-agent-august-2026-free-floor.html",
      "hits": 29
     },
     {
      "path": "/posts/serverless-inference-api-groq-fireworks-together-deepinfra-baseten.html",
-     "hits": 29
-    },
-    {
-     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
      "hits": 29
     }
    ],
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3342,
-   "verifiedHits": 3123,
+   "hits": 3421,
+   "verifiedHits": 3124,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
@@ -311,18 +311,18 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2582,
+   "hits": 2665,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 34
+     "hits": 35
     },
     {
      "path": "/dashboard",
-     "hits": 7
+     "hits": 8
     },
     {
      "path": "/tools",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1584,
+   "hits": 1587,
    "verifiedHits": 0,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
@@ -429,11 +429,44 @@
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 69
+     "hits": 70
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
      "hits": 61
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "YandexBot",
+   "label": "Yandex",
+   "category": "search",
+   "home": "https://yandex.com",
+   "hits": 830,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-04",
+   "lastSeen": "2026-09-18",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 40
+    },
+    {
+     "path": "/dashboard",
+     "hits": 5
+    },
+    {
+     "path": "/posts/strands-agents-vs-langgraph.html",
+     "hits": 4
+    },
+    {
+     "path": "/topics/agent-security",
+     "hits": 3
+    },
+    {
+     "path": "/posts/mcp-server-meaning-what-an-mcp-server-actually-is.html",
+     "hits": 3
     }
    ],
    "verifiable": false
@@ -472,66 +505,33 @@
    "verifiable": false
   },
   {
-   "name": "YandexBot",
-   "label": "Yandex",
-   "category": "search",
-   "home": "https://yandex.com",
-   "hits": 768,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-04",
-   "lastSeen": "2026-09-18",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 40
-    },
-    {
-     "path": "/dashboard",
-     "hits": 6
-    },
-    {
-     "path": "/posts/strands-agents-vs-langgraph.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/siggraph-2026-agents-enter-art-pipeline-mcp-creative-tools.html",
-     "hits": 3
-    },
-    {
-     "path": "/alternatives/claude-agent-sdk",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "CCBot",
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 616,
+   "hits": 719,
    "verifiedHits": 0,
    "firstSeen": "2026-09-06",
    "lastSeen": "2026-09-18",
    "topPaths": [
     {
      "path": "/dashboard",
-     "hits": 5
+     "hits": 7
     },
     {
-     "path": "/fabrications.html",
+     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
      "hits": 4
     },
     {
-     "path": "/graphql",
+     "path": "/dispatches.html",
      "hits": 3
     },
     {
-     "path": "/apps",
+     "path": "/subscribe",
      "hits": 3
     },
     {
-     "path": "/posts/google-agentic-course-cheat-sheet-watch-or-skip.html",
+     "path": "/authors/rosalinda",
      "hits": 3
     }
    ],
@@ -542,8 +542,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 587,
-   "verifiedHits": 488,
+   "hits": 588,
+   "verifiedHits": 489,
    "firstSeen": "2026-09-04",
    "lastSeen": "2026-09-18",
    "topPaths": [
