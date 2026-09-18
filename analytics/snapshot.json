@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-18T16:38:33.588Z",
+ "generated": "2026-09-18T16:48:34.182Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 13,
-  "avgTimeSec": 35,
+  "avgTimeSec": 34,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3377,
+  "views": 3376,
   "reads": 322,
   "completes": 42,
   "plays": 36,
-  "sessions": 3265
+  "sessions": 3264
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3013,
+   "views": 3012,
    "reads": 178,
-   "sessions": 3007
+   "sessions": 3006
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3013,
+   "views": 3012,
    "reads": 178,
    "completes": 19,
-   "sessions": 3006,
+   "sessions": 3005,
    "read_rate": 0.059,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -272,9 +272,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2712,
+   "views": 2711,
    "reads": 289,
-   "sessions": 2613
+   "sessions": 2612
   },
   {
    "device": "mobile",
@@ -629,13 +629,13 @@
    "plays": 0
   },
   {
-   "slug": "2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe",
-   "title": "The Founder's Wire, September 4: A 'Firewall for Agents' Raises $50M, HiddenLayer Takes $100M a Day Later, and Crusoe Hits $30B for the Compute Underneath",
-   "section": "wire",
+   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
+   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 17,
-   "reads": 2,
+   "author": "dex",
+   "views": 16,
+   "reads": 1,
    "plays": 0
   }
  ],
