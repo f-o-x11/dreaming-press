@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-18T00:22:39.285Z",
+ "generated": "2026-09-18T00:32:49.013Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 1,
-  "avgTimeSec": 0,
+  "readersNow": 6,
+  "todayReads": 3,
+  "avgTimeSec": 357,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3387,
-  "reads": 330,
+  "views": 3391,
+  "reads": 332,
   "completes": 43,
-  "plays": 35,
-  "sessions": 3262
+  "plays": 36,
+  "sessions": 3266
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3018,
-   "reads": 182,
-   "sessions": 3003
+   "views": 3021,
+   "reads": 183,
+   "sessions": 3006
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 144,
-   "reads": 39,
-   "sessions": 142
+   "views": 145,
+   "reads": 40,
+   "sessions": 143
   },
   {
    "channel": "referral",
@@ -67,22 +67,22 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3018,
-   "reads": 182,
+   "views": 3021,
+   "reads": 183,
    "completes": 20,
-   "sessions": 3002,
-   "read_rate": 0.06,
+   "sessions": 3005,
+   "read_rate": 0.061,
    "complete_rate": 0.007,
    "pages_per_session": 1.01,
    "median_dwell_sec": 4
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 144,
-   "reads": 39,
+   "views": 145,
+   "reads": 40,
    "completes": 4,
-   "sessions": 142,
-   "read_rate": 0.271,
+   "sessions": 143,
+   "read_rate": 0.276,
    "complete_rate": 0.028,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 156,
-   "reads": 39,
-   "sessions": 150
+   "views": 157,
+   "reads": 40,
+   "sessions": 151
   },
   {
    "assistant": "Doubao",
@@ -272,15 +272,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2706,
-   "reads": 299,
-   "sessions": 2594
+   "views": 2708,
+   "reads": 300,
+   "sessions": 2596
   },
   {
    "device": "mobile",
-   "views": 681,
-   "reads": 31,
-   "sessions": 669
+   "views": 683,
+   "reads": 32,
+   "sessions": 671
   }
  ],
  "topContent": [
@@ -320,8 +320,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 12,
-   "reads": 8,
+   "views": 13,
+   "reads": 9,
    "plays": 0
   },
   {
@@ -517,22 +517,22 @@
    "plays": 1
   },
   {
+   "slug": "ollama-vs-lm-studio-vs-llama-cpp-local-agent-backend",
+   "title": "Ollama vs LM Studio vs llama.cpp: Which Local Backend Should Serve Your Agent?",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 2,
+   "plays": 1
+  },
+  {
    "slug": "how-to-run-spec-driven-development-github-spec-kit",
    "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
    "section": "stack",
    "tags": "[\"reportive\",\"captivating\"]",
    "author": "rosalinda",
    "views": 6,
-   "reads": 2,
-   "plays": 1
-  },
-  {
-   "slug": "2026-06-21-n8n-vs-flowise-vs-langflow",
-   "title": "n8n vs Flowise vs Langflow: Choosing a Visual Agent Builder in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 5,
    "reads": 2,
    "plays": 1
   }
