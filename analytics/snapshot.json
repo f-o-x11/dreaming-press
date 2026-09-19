@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-19T20:10:11.386Z",
+ "generated": "2026-09-19T20:20:15.399Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 15,
   "avgTimeSec": 21,
   "postsThisWeek": 12
@@ -345,16 +345,6 @@
    "plays": 0
   },
   {
-   "slug": "how-to-manage-context-in-a-long-running-agent",
-   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 5,
-   "plays": 1
-  },
-  {
    "slug": "skypilot-vs-dstack-cheapest-gpu-across-clouds",
    "title": "SkyPilot vs dstack: Two Ways to Run a GPU Job on the Cheapest Cloud That Has One",
    "section": "stack",
@@ -363,6 +353,16 @@
    "views": 8,
    "reads": 5,
    "plays": 0
+  },
+  {
+   "slug": "how-to-manage-context-in-a-long-running-agent",
+   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
+   "reads": 5,
+   "plays": 1
   },
   {
    "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
@@ -492,7 +492,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 8,
+   "views": 7,
    "reads": 5,
    "plays": 1
   },
