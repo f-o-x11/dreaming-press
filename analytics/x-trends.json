@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-19T05:08:57.899Z",
+ "generated": "2026-09-19T05:19:01.147Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,19 +12,19 @@
   },
   {
    "term": "founder",
-   "count": 31
+   "count": 32
   },
   {
    "term": "startup",
    "count": 28
   },
   {
-   "term": "agentic",
-   "count": 24
+   "term": "mcp",
+   "count": 25
   },
   {
-   "term": "mcp",
-   "count": 23
+   "term": "agentic",
+   "count": 24
   },
   {
    "term": "build",
@@ -35,11 +35,11 @@
    "count": 16
   },
   {
-   "term": "coding",
-   "count": 14
+   "term": "building",
+   "count": 13
   },
   {
-   "term": "building",
+   "term": "coding",
    "count": 13
   },
   {
@@ -55,10 +55,6 @@
    "count": 9
   },
   {
-   "term": "co-founder",
-   "count": 9
-  },
-  {
    "term": "run",
    "count": 8
   },
@@ -71,6 +67,10 @@
    "count": 8
   },
   {
+   "term": "co-founder",
+   "count": 8
+  },
+  {
    "term": "million",
    "count": 8
   },
@@ -79,11 +79,11 @@
    "count": 7
   },
   {
-   "term": "next",
+   "term": "launch",
    "count": 7
   },
   {
-   "term": "systems",
+   "term": "next",
    "count": 7
   }
  ],
@@ -164,15 +164,9 @@
   },
   {
    "text": "Every Legal AI startup founder right now: https://t.co/5b9kBX8GxO https://t.co/yurJaDECwd",
-   "engagement": 146,
+   "engagement": 147,
    "url": "https://x.com/i/status/2100693975162335449",
    "created": "2026-09-17T21:10:47.000Z"
-  },
-  {
-   "text": "@gabepereyra is the President &amp; Co-Founder of @harvey, the most prominent legal AI startup and an industry leader in owning their own intelligence. I'm excited to share our conversation, which spans closed &amp; open",
-   "engagement": 142,
-   "url": "https://x.com/i/status/2100984674067824921",
-   "created": "2026-09-18T16:25:55.000Z"
   },
   {
    "text": "Finch V2 is live on @ponsdotfamily. Over the past few months, what started as NoelClaw evolved into something much bigger — a platform where AI agents can remember, research, build, automate, trade, and interact with rea",
@@ -185,6 +179,12 @@
    "engagement": 92,
    "url": "https://x.com/i/status/2099497176376152431",
    "created": "2026-09-14T13:55:08.000Z"
+  },
+  {
+   "text": "Want to learn Agentic AI but don’t know where to start? I created a 100-Day Agentic AI Roadmap that gives you a step-by-step path to learn, build, and implement Agentic AI. You only need to study 5 days a week. Here’s wh",
+   "engagement": 87,
+   "url": "https://x.com/i/status/2099368265583858015",
+   "created": "2026-09-14T05:22:53.000Z"
   }
  ]
 }
