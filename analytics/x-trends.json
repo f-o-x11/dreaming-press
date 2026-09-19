@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-19T16:58:00.009Z",
+ "generated": "2026-09-19T17:08:00.875Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,11 +12,11 @@
   },
   {
    "term": "founder",
-   "count": 30
+   "count": 31
   },
   {
    "term": "startup",
-   "count": 27
+   "count": 28
   },
   {
    "term": "agent",
@@ -36,11 +36,15 @@
   },
   {
    "term": "building",
-   "count": 13
+   "count": 14
   },
   {
    "term": "coding",
    "count": 13
+  },
+  {
+   "term": "run",
+   "count": 9
   },
   {
    "term": "like",
@@ -53,10 +57,6 @@
   {
    "term": "google",
    "count": 9
-  },
-  {
-   "term": "run",
-   "count": 8
   },
   {
    "term": "every",
@@ -90,11 +90,11 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 8
+   "count": 7
   },
   {
    "term": "#startup",
-   "count": 5
+   "count": 4
   },
   {
    "term": "#videogenration",
@@ -109,15 +109,7 @@
    "count": 2
   },
   {
-   "term": "#founder",
-   "count": 2
-  },
-  {
    "term": "#buildinpublic",
-   "count": 2
-  },
-  {
-   "term": "#education",
    "count": 2
   },
   {
@@ -135,12 +127,20 @@
   {
    "term": "#security",
    "count": 1
+  },
+  {
+   "term": "#google",
+   "count": 1
+  },
+  {
+   "term": "#mechanize",
+   "count": 1
   }
  ],
  "topPosts": [
   {
    "text": "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to.",
-   "engagement": 4853,
+   "engagement": 4854,
    "url": "https://x.com/i/status/2099491915381006477",
    "created": "2026-09-14T13:34:13.000Z"
   },
