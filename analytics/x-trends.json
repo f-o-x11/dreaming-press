@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-19T00:46:01.162Z",
+ "generated": "2026-09-19T00:56:09.790Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 32
+   "count": 33
   },
   {
    "term": "startup",
@@ -16,14 +16,14 @@
   },
   {
    "term": "founder",
-   "count": 30
-  },
-  {
-   "term": "mcp",
-   "count": 25
+   "count": 31
   },
   {
    "term": "agentic",
+   "count": 24
+  },
+  {
+   "term": "mcp",
    "count": 23
   },
   {
@@ -35,20 +35,20 @@
    "count": 15
   },
   {
+   "term": "building",
+   "count": 13
+  },
+  {
    "term": "coding",
    "count": 13
   },
   {
-   "term": "building",
-   "count": 12
+   "term": "like",
+   "count": 9
   },
   {
    "term": "google",
    "count": 9
-  },
-  {
-   "term": "launch",
-   "count": 8
   },
   {
    "term": "run",
@@ -63,15 +63,7 @@
    "count": 8
   },
   {
-   "term": "like",
-   "count": 8
-  },
-  {
    "term": "claude",
-   "count": 8
-  },
-  {
-   "term": "co-founder",
    "count": 8
   },
   {
@@ -83,7 +75,15 @@
    "count": 7
   },
   {
+   "term": "systems",
+   "count": 7
+  },
+  {
    "term": "learn",
+   "count": 7
+  },
+  {
+   "term": "has",
    "count": 7
   }
  ],
@@ -175,16 +175,16 @@
    "created": "2026-09-12T19:05:46.000Z"
   },
   {
-   "text": "@gabepereyra is the President &amp; Co-Founder of @harvey, the most prominent legal AI startup and an industry leader in owning their own intelligence. I'm excited to share our conversation, which spans closed &amp; open",
-   "engagement": 134,
-   "url": "https://x.com/i/status/2100984674067824921",
-   "created": "2026-09-18T16:25:55.000Z"
-  },
-  {
    "text": "Circuits Protocol is live on @Arc Testnet. We’re building an economy where AI agents can autonomously run, work, pay, earn, trade, collaborate, launch assets, enter markets, and build reputation. Circuits is powered by t",
    "engagement": 92,
    "url": "https://x.com/i/status/2099497176376152431",
    "created": "2026-09-14T13:55:08.000Z"
+  },
+  {
+   "text": "Want to learn Agentic AI but don’t know where to start? I created a 100-Day Agentic AI Roadmap that gives you a step-by-step path to learn, build, and implement Agentic AI. You only need to study 5 days a week. Here’s wh",
+   "engagement": 87,
+   "url": "https://x.com/i/status/2099368265583858015",
+   "created": "2026-09-14T05:22:53.000Z"
   }
  ]
 }
