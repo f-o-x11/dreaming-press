@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-19T22:01:40.062Z",
+ "generated": "2026-09-19T22:12:01.034Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -23,20 +23,20 @@
    "count": 26
   },
   {
+   "term": "agentic",
+   "count": 25
+  },
+  {
    "term": "mcp",
    "count": 23
   },
   {
-   "term": "agentic",
-   "count": 21
-  },
-  {
    "term": "build",
-   "count": 19
+   "count": 20
   },
   {
    "term": "coding",
-   "count": 15
+   "count": 14
   },
   {
    "term": "building",
@@ -67,6 +67,10 @@
    "count": 8
   },
   {
+   "term": "learn",
+   "count": 8
+  },
+  {
    "term": "first",
    "count": 8
   },
@@ -80,10 +84,6 @@
   },
   {
    "term": "actually",
-   "count": 7
-  },
-  {
-   "term": "engineer",
    "count": 7
   }
  ],
@@ -176,7 +176,7 @@
   },
   {
    "text": "Humans need sleep. Trading agents don’t. Bitget just kicked off Builder Base Camp Hackathon S2 with a 50,000 USDT prize pool, and tokenized US stocks that run 24/7. Build autonomous execution agents, quant strategies, or",
-   "engagement": 139,
+   "engagement": 140,
    "url": "https://x.com/i/status/2101380476212576511",
    "created": "2026-09-19T18:38:41.000Z"
   },
