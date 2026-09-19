@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-19T08:21:21.009Z",
+ "generated": "2026-09-19T08:31:31.396Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 7,
-  "avgTimeSec": 28,
+  "avgTimeSec": 27,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3381,
-  "reads": 330,
+  "views": 3378,
+  "reads": 329,
   "completes": 42,
   "plays": 36,
-  "sessions": 3270
+  "sessions": 3267
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3007,
+   "views": 3006,
    "reads": 184,
-   "sessions": 3005
+   "sessions": 3003
   },
   {
    "channel": "organic",
-   "views": 109,
-   "reads": 70,
-   "sessions": 103
+   "views": 107,
+   "reads": 69,
+   "sessions": 101
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3007,
+   "views": 3006,
    "reads": 184,
    "completes": 19,
-   "sessions": 3004,
+   "sessions": 3002,
    "read_rate": 0.061,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -89,12 +89,12 @@
   },
   {
    "channel": "organic",
-   "views": 109,
-   "reads": 70,
+   "views": 107,
+   "reads": 69,
    "completes": 2,
-   "sessions": 103,
-   "read_rate": 0.642,
-   "complete_rate": 0.018,
+   "sessions": 101,
+   "read_rate": 0.645,
+   "complete_rate": 0.019,
    "pages_per_session": 1.06,
    "median_dwell_sec": 10
   },
@@ -272,15 +272,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2733,
-   "reads": 296,
-   "sessions": 2635
+   "views": 2731,
+   "reads": 295,
+   "sessions": 2633
   },
   {
    "device": "mobile",
-   "views": 648,
+   "views": 647,
    "reads": 34,
-   "sessions": 636
+   "sessions": 635
   }
  ],
  "topContent": [
@@ -395,26 +395,6 @@
    "plays": 0
   },
   {
-   "slug": "lm-studio-bionic-local-agent-open-models",
-   "title": "LM Studio Bionic: A Private, Local Agent for Open Models — What It Is, Who It's For, How to Start",
-   "section": "stack",
-   "tags": "[\"reportive\",\"captivating\"]",
-   "author": "rosalinda",
-   "views": 8,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
-   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 6,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "how-to-instrument-an-agent-langfuse-v4-otel",
    "title": "How to Instrument Your Agent with Langfuse v4 — the OpenTelemetry Rewrite That Broke Every Old Tutorial",
    "section": "stack",
@@ -425,10 +405,30 @@
    "plays": 0
   },
   {
+   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
+   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 5,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "gpt-5-6-prompt-caching-explicit-breakpoints",
    "title": "GPT-5.6 Rewired Prompt Caching: A Hands-On Guide to prompt_cache_options",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 4,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "how-to-write-a-claude-skill-that-triggers",
+   "title": "How to Write a Claude Skill That Actually Triggers: The SKILL.md Description Craft",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 4,
    "reads": 4,
@@ -749,8 +749,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 90,
-   "sessions": 43
+   "hits": 88,
+   "sessions": 42
   },
   {
    "ref": "https://chatgpt.com/",
@@ -784,8 +784,8 @@
   },
   {
    "ref": "https://search.brave.com/",
-   "hits": 11,
-   "sessions": 7
+   "hits": 10,
+   "sessions": 6
   },
   {
    "ref": "brand",
