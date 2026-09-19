@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-19T10:43:27.639Z",
+ "generated": "2026-09-19T10:53:33.416Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 7,
-  "avgTimeSec": 26,
+  "readersNow": 2,
+  "todayReads": 8,
+  "avgTimeSec": 28,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3373,
-  "reads": 329,
+  "views": 3371,
+  "reads": 330,
   "completes": 42,
   "plays": 36,
-  "sessions": 3262
+  "sessions": 3260
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3000,
+   "views": 2997,
    "reads": 184,
-   "sessions": 2997
+   "sessions": 2995
   },
   {
    "channel": "organic",
-   "views": 108,
-   "reads": 69,
-   "sessions": 102
+   "views": 109,
+   "reads": 70,
+   "sessions": 103
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3000,
+   "views": 2997,
    "reads": 184,
    "completes": 19,
-   "sessions": 2996,
+   "sessions": 2994,
    "read_rate": 0.061,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -89,12 +89,12 @@
   },
   {
    "channel": "organic",
-   "views": 108,
-   "reads": 69,
+   "views": 109,
+   "reads": 70,
    "completes": 2,
-   "sessions": 102,
-   "read_rate": 0.639,
-   "complete_rate": 0.019,
+   "sessions": 103,
+   "read_rate": 0.642,
+   "complete_rate": 0.018,
    "pages_per_session": 1.06,
    "median_dwell_sec": 10
   },
@@ -272,15 +272,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2731,
-   "reads": 295,
-   "sessions": 2633
+   "views": 2733,
+   "reads": 296,
+   "sessions": 2635
   },
   {
    "device": "mobile",
-   "views": 642,
+   "views": 638,
    "reads": 34,
-   "sessions": 630
+   "sessions": 626
   }
  ],
  "topContent": [
@@ -584,7 +584,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 25,
+   "views": 26,
    "reads": 0,
    "plays": 0
   },
@@ -784,8 +784,8 @@
   },
   {
    "ref": "https://search.brave.com/",
-   "hits": 10,
-   "sessions": 6
+   "hits": 12,
+   "sessions": 7
   },
   {
    "ref": "brand",
