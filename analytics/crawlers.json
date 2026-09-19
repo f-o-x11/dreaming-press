@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-19T20:30:37.766Z",
+ "generated": "2026-09-19T20:40:41.351Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 23138,
+ "verifiedAiHits": 23143,
  "logsScanned": 30,
  "windowStart": "2026-09-05",
  "windowEnd": "2026-09-19",
- "totalHits": 136653,
- "aiHits": 104001,
+ "totalHits": 136688,
+ "aiHits": 104034,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36215,
+   "hits": 36219,
    "verifiedHits": 0,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15566,
+   "hits": 15573,
    "verifiedHits": 0,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 12827,
-   "verifiedHits": 12214,
+   "hits": 12828,
+   "verifiedHits": 12215,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6709,
-   "verifiedHits": 6188,
+   "hits": 6711,
+   "verifiedHits": 6190,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4109,
-   "verifiedHits": 3526,
+   "hits": 4111,
+   "verifiedHits": 3528,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
    "topPaths": [
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3657,
-   "verifiedHits": 3122,
+   "hits": 3659,
+   "verifiedHits": 3124,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
    "topPaths": [
     {
      "path": "/",
-     "hits": 601
+     "hits": 602
     },
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2021,
+   "hits": 2038,
    "verifiedHits": 0,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
@@ -392,7 +392,7 @@
     },
     {
      "path": "/tags/opinionated",
-     "hits": 27
+     "hits": 28
     },
     {
      "path": "/tags/reportive",
