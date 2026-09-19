@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-19T13:25:36.384Z",
+ "generated": "2026-09-19T13:35:41.071Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 8,
   "avgTimeSec": 26,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3363,
+  "views": 3361,
   "reads": 325,
   "completes": 42,
   "plays": 36,
-  "sessions": 3254
+  "sessions": 3251
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2989,
+   "views": 2988,
    "reads": 179,
-   "sessions": 2989
+   "sessions": 2987
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 152,
+   "views": 151,
    "reads": 43,
-   "sessions": 150
+   "sessions": 149
   },
   {
    "channel": "referral",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2989,
+   "views": 2988,
    "reads": 179,
    "completes": 19,
-   "sessions": 2988,
+   "sessions": 2986,
    "read_rate": 0.06,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 152,
+   "views": 151,
    "reads": 43,
    "completes": 4,
-   "sessions": 150,
-   "read_rate": 0.283,
+   "sessions": 149,
+   "read_rate": 0.285,
    "complete_rate": 0.026,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 164,
+   "views": 163,
    "reads": 43,
-   "sessions": 158
+   "sessions": 157
   },
   {
    "assistant": "Doubao",
@@ -272,9 +272,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2725,
+   "views": 2723,
    "reads": 291,
-   "sessions": 2629
+   "sessions": 2626
   },
   {
    "device": "mobile",
@@ -527,12 +527,12 @@
    "plays": 1
   },
   {
-   "slug": "ollama-vs-lm-studio-vs-llama-cpp-local-agent-backend",
-   "title": "Ollama vs LM Studio vs llama.cpp: Which Local Backend Should Serve Your Agent?",
+   "slug": "how-to-run-spec-driven-development-github-spec-kit",
+   "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
    "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
+   "tags": "[\"reportive\",\"captivating\"]",
+   "author": "rosalinda",
+   "views": 7,
    "reads": 2,
    "plays": 1
   }
@@ -642,9 +642,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 387,
+   "views": 386,
    "reads": 0,
-   "sessions": 385,
+   "sessions": 384,
    "avg_dwell_sec": 4
   },
   {
