@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-19T16:07Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-19T16:17Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3366 views → 329 engaged reads → 42 completes · 3255 sessions.
-- Channels: direct 179r/2990v · organic 72r/111v · campaign:chatgpt.com 45r/152v · referral 19r/71v · ai 12r/37v · social 1r/4v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
+- Funnel: 3367 views → 330 engaged reads → 42 completes · 3256 sessions.
+- Channels: direct 180r/2991v · organic 72r/111v · campaign:chatgpt.com 45r/152v · referral 19r/71v · ai 12r/37v · social 1r/4v · campaign:perplexity 1r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 45r/164v · Doubao 8r/12v · DeepSeek 1r/4v · Perplexity 1r/3v · Yuanbao 1r/1v · Kimi 0r/4v.
 - Referrers: bing.com, chatgpt.com, duckduckgo.com, l.instagram.com, doubao.com, cn.bing.com, google.com, search.brave.com, brand, nav-cmp.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2990 views · read 6.0% · complete 0.6% · 1 pages/session · median 4s
+- direct: 2991 views · read 6.0% · complete 0.6% · 1 pages/session · median 4s
 - campaign:chatgpt.com: 152 views · read 29.6% · complete 2.6% · 1.01 pages/session · median ?s
 - organic: 111 views · read 64.9% · complete 1.8% · 1.07 pages/session · median 10s
 - referral: 71 views · read 26.8% · complete 1.4% · 1.04 pages/session · median ?s
@@ -109,8 +109,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (12201 verified): /build ×179 · / ×25 · /dashboard ×24
-- OAI-SearchBot (3453 verified): /wire.html ×48 · /tools ×33 · /posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html ×30
-- ChatGPT-User (3090 verified): / ×595 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×160 · /posts/open-source-llm-for-coding-september-2026.html ×147
+- OAI-SearchBot (3457 verified): /wire.html ×48 · /tools ×33 · /posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html ×30
+- ChatGPT-User (3092 verified): / ×595 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×160 · /posts/open-source-llm-for-coding-september-2026.html ×147
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -125,8 +125,8 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(33), founder(32), startup(27), mcp(25), agentic(23), agent(21), build(21), coding(14), building(13), has(10), like(9), google(9), run(8), every(8), first(8).
-Hashtags: #ai, #startup, #videogenration, #tools, #tech, #buildinpublic, #aijobs, #aihiring, #mcp, #security.
+Hot terms: agents(33), founder(30), startup(27), agentic(23), mcp(23), build(21), agent(19), coding(14), building(13), like(9), has(9), google(9), run(8), every(8), learn(8).
+Hashtags: #ai, #startup, #videogenration, #tools, #tech, #founder, #buildinpublic, #education, #aijobs, #aihiring.
 High-engagement posts to react to / cite:
 - "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to." — https://x.com/i/status/2099491915381006477
 - "Israeli AI startup founder Ilit Razt pleaded guilty in New York to a $27 million investor fraud scheme.​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​ I’m willing to bet Donald Trump will pardon him like he’s pardoned" — https://x.com/i/status/2098886739087745493
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 23018 confirmed AI-engine fetches (Perplexity 12201, GPTBot (OpenAI) 4274, ChatGPT Search (OpenAI) 3453, ChatGPT (user browsing) 3090).
+The real answer engines are crawling us — IP-verified: 23024 confirmed AI-engine fetches (Perplexity 12201, GPTBot (OpenAI) 4274, ChatGPT Search (OpenAI) 3457, ChatGPT (user browsing) 3092).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 781 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 163 crawler fetches

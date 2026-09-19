@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-19T16:07:31.936Z",
+ "generated": "2026-09-19T16:17:38.616Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,27 +12,27 @@
   },
   {
    "term": "founder",
-   "count": 32
+   "count": 30
   },
   {
    "term": "startup",
    "count": 27
   },
   {
-   "term": "mcp",
-   "count": 25
-  },
-  {
    "term": "agentic",
    "count": 23
   },
   {
-   "term": "agent",
-   "count": 21
+   "term": "mcp",
+   "count": 23
   },
   {
    "term": "build",
    "count": 21
+  },
+  {
+   "term": "agent",
+   "count": 19
   },
   {
    "term": "coding",
@@ -43,11 +43,11 @@
    "count": 13
   },
   {
-   "term": "has",
-   "count": 10
+   "term": "like",
+   "count": 9
   },
   {
-   "term": "like",
+   "term": "has",
    "count": 9
   },
   {
@@ -63,16 +63,16 @@
    "count": 8
   },
   {
+   "term": "learn",
+   "count": 8
+  },
+  {
    "term": "first",
    "count": 8
   },
   {
    "term": "co-founder",
    "count": 8
-  },
-  {
-   "term": "launch",
-   "count": 7
   },
   {
    "term": "actually",
@@ -83,18 +83,18 @@
    "count": 7
   },
   {
-   "term": "learn",
+   "term": "its",
    "count": 7
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 7
+   "count": 8
   },
   {
    "term": "#startup",
-   "count": 4
+   "count": 5
   },
   {
    "term": "#videogenration",
@@ -109,7 +109,15 @@
    "count": 2
   },
   {
+   "term": "#founder",
+   "count": 2
+  },
+  {
    "term": "#buildinpublic",
+   "count": 2
+  },
+  {
+   "term": "#education",
    "count": 2
   },
   {
@@ -126,14 +134,6 @@
   },
   {
    "term": "#security",
-   "count": 1
-  },
-  {
-   "term": "#google",
-   "count": 1
-  },
-  {
-   "term": "#mechanize",
    "count": 1
   }
  ],
