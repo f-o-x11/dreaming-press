@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-19T11:23Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-19T11:33Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -96,7 +96,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 610 retrieval fetches
+- /  — 611 retrieval fetches
 - /build  — 179 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 157 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 144 retrieval fetches
@@ -109,8 +109,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (12178 verified): /build ×179 · / ×24 · /dashboard ×23
-- OAI-SearchBot (3412 verified): /wire.html ×48 · /tools ×33 · /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html ×29
-- ChatGPT-User (3044 verified): / ×586 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×157 · /posts/open-source-llm-for-coding-september-2026.html ×144
+- OAI-SearchBot (3415 verified): /wire.html ×48 · /tools ×33 · /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html ×29
+- ChatGPT-User (3045 verified): / ×587 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×157 · /posts/open-source-llm-for-coding-september-2026.html ×144
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(35), founder(32), startup(28), agentic(24), mcp(23), build(21), agent(19), building(13), coding(13), like(9), has(9), google(9), run(8), actually(8), every(8).
+Hot terms: agents(35), founder(32), startup(28), mcp(23), agentic(20), build(20), agent(19), coding(14), building(13), like(9), has(9), google(9), run(8), actually(8), every(8).
 Hashtags: #ai, #startup, #videogenration, #tools, #tech, #buildinpublic, #aijobs, #aihiring, #mcp, #security.
 High-engagement posts to react to / cite:
 - "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to." — https://x.com/i/status/2099491915381006477
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 22908 confirmed AI-engine fetches (Perplexity 12178, GPTBot (OpenAI) 4274, ChatGPT Search (OpenAI) 3412, ChatGPT (user browsing) 3044).
+The real answer engines are crawling us — IP-verified: 22912 confirmed AI-engine fetches (Perplexity 12178, GPTBot (OpenAI) 4274, ChatGPT Search (OpenAI) 3415, ChatGPT (user browsing) 3045).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 775 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 160 crawler fetches
