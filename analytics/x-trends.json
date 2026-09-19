@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-19T02:17:00.944Z",
+ "generated": "2026-09-19T02:27:10.165Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,11 +12,11 @@
   },
   {
    "term": "founder",
-   "count": 30
+   "count": 29
   },
   {
    "term": "startup",
-   "count": 27
+   "count": 28
   },
   {
    "term": "mcp",
@@ -40,7 +40,7 @@
   },
   {
    "term": "building",
-   "count": 13
+   "count": 11
   },
   {
    "term": "like",
@@ -48,6 +48,10 @@
   },
   {
    "term": "google",
+   "count": 9
+  },
+  {
+   "term": "co-founder",
    "count": 9
   },
   {
@@ -64,10 +68,6 @@
   },
   {
    "term": "every",
-   "count": 8
-  },
-  {
-   "term": "co-founder",
    "count": 8
   },
   {
@@ -90,11 +90,11 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 8
+   "count": 7
   },
   {
    "term": "#startup",
-   "count": 5
+   "count": 4
   },
   {
    "term": "#buildinpublic",
@@ -175,16 +175,16 @@
    "created": "2026-09-12T19:05:46.000Z"
   },
   {
+   "text": "@gabepereyra is the President &amp; Co-Founder of @harvey, the most prominent legal AI startup and an industry leader in owning their own intelligence. I'm excited to share our conversation, which spans closed &amp; open",
+   "engagement": 135,
+   "url": "https://x.com/i/status/2100984674067824921",
+   "created": "2026-09-18T16:25:55.000Z"
+  },
+  {
    "text": "Circuits Protocol is live on @Arc Testnet. We’re building an economy where AI agents can autonomously run, work, pay, earn, trade, collaborate, launch assets, enter markets, and build reputation. Circuits is powered by t",
    "engagement": 92,
    "url": "https://x.com/i/status/2099497176376152431",
    "created": "2026-09-14T13:55:08.000Z"
-  },
-  {
-   "text": "Circuits Protocol is live on Arc Mainnet. AI agents can now become autonomous economic entities on Circuits. Create an agent in seconds or bring an existing agent from frameworks like OpenClaw and Hermes and give it: → a",
-   "engagement": 85,
-   "url": "https://x.com/i/status/2100561538926981324",
-   "created": "2026-09-17T12:24:32.000Z"
   }
  ]
 }
