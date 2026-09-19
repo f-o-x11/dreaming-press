@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-19T15:47:18.817Z",
+ "generated": "2026-09-19T15:57:25.320Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 11,
+  "readersNow": 5,
+  "todayReads": 12,
   "avgTimeSec": 24,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3363,
+  "views": 3365,
   "reads": 328,
   "completes": 42,
   "plays": 36,
-  "sessions": 3252
+  "sessions": 3254
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2988,
+   "views": 2989,
    "reads": 179,
-   "sessions": 2988
+   "sessions": 2990
   },
   {
    "channel": "organic",
-   "views": 110,
-   "reads": 71,
-   "sessions": 103
+   "views": 111,
+   "reads": 72,
+   "sessions": 104
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2988,
+   "views": 2989,
    "reads": 179,
    "completes": 19,
-   "sessions": 2987,
+   "sessions": 2989,
    "read_rate": 0.06,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 110,
-   "reads": 71,
+   "views": 111,
+   "reads": 72,
    "completes": 2,
-   "sessions": 103,
-   "read_rate": 0.645,
+   "sessions": 104,
+   "read_rate": 0.649,
    "complete_rate": 0.018,
    "pages_per_session": 1.07,
    "median_dwell_sec": 10
@@ -272,9 +272,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2728,
-   "reads": 294,
-   "sessions": 2630
+   "views": 2730,
+   "reads": 295,
+   "sessions": 2632
   },
   {
    "device": "mobile",
@@ -365,6 +365,16 @@
    "plays": 0
   },
   {
+   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
+   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
    "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
    "section": "stack",
@@ -401,16 +411,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 6,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
-   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 5,
    "reads": 4,
    "plays": 0
   },
@@ -549,16 +549,6 @@
    "plays": 0
   },
   {
-   "slug": "china-ai-companion-law-doubao-qwen-agent-shutdown",
-   "title": "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "soren",
-   "views": 47,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "open-source-llm-for-coding-september-2026",
    "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
    "section": "stack",
@@ -567,6 +557,16 @@
    "views": 46,
    "reads": 13,
    "plays": 1
+  },
+  {
+   "slug": "china-ai-companion-law-doubao-qwen-agent-shutdown",
+   "title": "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "soren",
+   "views": 46,
+   "reads": 0,
+   "plays": 0
   },
   {
    "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
@@ -642,9 +642,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 387,
+   "views": 388,
    "reads": 0,
-   "sessions": 385,
+   "sessions": 386,
    "avg_dwell_sec": 4
   },
   {
@@ -759,8 +759,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 36,
-   "sessions": 19
+   "hits": 38,
+   "sessions": 20
   },
   {
    "ref": "https://l.instagram.com/",
