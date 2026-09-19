@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-19T01:26:29.219Z",
+ "generated": "2026-09-19T01:36:35.998Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 22617,
+ "verifiedAiHits": 22630,
  "logsScanned": 30,
  "windowStart": "2026-09-05",
  "windowEnd": "2026-09-19",
- "totalHits": 130888,
- "aiHits": 99312,
+ "totalHits": 131004,
+ "aiHits": 99416,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 34955,
+   "hits": 34971,
    "verifiedHits": 0,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18939,
+   "hits": 19004,
    "verifiedHits": 0,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
@@ -62,15 +62,15 @@
     },
     {
      "path": "/",
+     "hits": 9
+    },
+    {
+     "path": "/stack.html",
      "hits": 8
     },
     {
      "path": "/apps",
      "hits": 8
-    },
-    {
-     "path": "/posts/gpt-5-6-sol-vs-terra-vs-luna.html",
-     "hits": 7
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 18343,
+   "hits": 18348,
    "verifiedHits": 0,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14704,
+   "hits": 14712,
    "verifiedHits": 0,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 12670,
-   "verifiedHits": 12071,
+   "hits": 12683,
+   "verifiedHits": 12084,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
    "topPaths": [
@@ -164,12 +164,12 @@
      "hits": 23
     },
     {
-     "path": "/newsroom",
+     "path": "/authors/dex",
      "hits": 22
     },
     {
-     "path": "/authors/dex",
-     "hits": 21
+     "path": "/newsroom",
+     "hits": 22
     }
    ],
    "verifiable": true
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6396,
-   "verifiedHits": 5884,
+   "hits": 6403,
+   "verifiedHits": 5891,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1590,
+   "hits": 1592,
    "verifiedHits": 0,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
