@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-19T01:36:35.998Z",
+ "generated": "2026-09-19T01:46:39.904Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 22630,
+ "verifiedAiHits": 22635,
  "logsScanned": 30,
  "windowStart": "2026-09-05",
  "windowEnd": "2026-09-19",
- "totalHits": 131004,
- "aiHits": 99416,
+ "totalHits": 131034,
+ "aiHits": 99440,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 34971,
+   "hits": 34980,
    "verifiedHits": 0,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 18348,
+   "hits": 18353,
    "verifiedHits": 0,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14712,
+   "hits": 14719,
    "verifiedHits": 0,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 12683,
-   "verifiedHits": 12084,
+   "hits": 12684,
+   "verifiedHits": 12085,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3871,
-   "verifiedHits": 3303,
+   "hits": 3875,
+   "verifiedHits": 3307,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1778,
+   "hits": 1780,
    "verifiedHits": 0,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
@@ -391,12 +391,12 @@
      "hits": 11
     },
     {
-     "path": "/tags/reportive",
+     "path": "/tags/opinionated",
      "hits": 10
     },
     {
-     "path": "/tags/opinionated",
-     "hits": 9
+     "path": "/tags/reportive",
+     "hits": 10
     },
     {
      "path": "/authors/rosalinda",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1592,
+   "hits": 1593,
    "verifiedHits": 0,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
@@ -542,8 +542,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 585,
-   "verifiedHits": 486,
+   "hits": 586,
+   "verifiedHits": 487,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
    "topPaths": [
