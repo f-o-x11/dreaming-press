@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-19T02:47:23.951Z",
+ "generated": "2026-09-19T02:57:30.890Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 0,
-  "avgTimeSec": 7,
+  "readersNow": 4,
+  "todayReads": 1,
+  "avgTimeSec": 21,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3368,
-  "reads": 323,
+  "views": 3371,
+  "reads": 324,
   "completes": 42,
   "plays": 36,
-  "sessions": 3257
+  "sessions": 3260
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3001,
+   "views": 3003,
    "reads": 178,
-   "sessions": 2997
+   "sessions": 3000
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "ai",
-   "views": 32,
-   "reads": 11,
-   "sessions": 48
+   "views": 33,
+   "reads": 12,
+   "sessions": 49
   },
   {
    "channel": "social",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3001,
+   "views": 3003,
    "reads": 178,
    "completes": 19,
-   "sessions": 2996,
+   "sessions": 2999,
    "read_rate": 0.059,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -111,12 +111,12 @@
   },
   {
    "channel": "ai",
-   "views": 32,
-   "reads": 11,
+   "views": 33,
+   "reads": 12,
    "completes": 2,
-   "sessions": 48,
-   "read_rate": 0.344,
-   "complete_rate": 0.063,
+   "sessions": 49,
+   "read_rate": 0.364,
+   "complete_rate": 0.061,
    "pages_per_session": 0.67,
    "median_dwell_sec": 26
   },
@@ -240,9 +240,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 10,
-   "reads": 7,
-   "sessions": 5
+   "views": 11,
+   "reads": 8,
+   "sessions": 6
   },
   {
    "assistant": "DeepSeek",
@@ -272,9 +272,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2718,
-   "reads": 289,
-   "sessions": 2620
+   "views": 2721,
+   "reads": 290,
+   "sessions": 2623
   },
   {
    "device": "mobile",
@@ -768,14 +768,14 @@
    "sessions": 18
   },
   {
+   "ref": "https://www.doubao.com/",
+   "hits": 20,
+   "sessions": 6
+  },
+  {
    "ref": "https://cn.bing.com/",
    "hits": 20,
    "sessions": 13
-  },
-  {
-   "ref": "https://www.doubao.com/",
-   "hits": 18,
-   "sessions": 5
   },
   {
    "ref": "https://www.google.com/",
