@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-19T09:02:08.245Z",
+ "generated": "2026-09-19T09:12:21.773Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,19 +12,15 @@
   },
   {
    "term": "founder",
-   "count": 33
+   "count": 31
   },
   {
    "term": "startup",
-   "count": 27
+   "count": 28
   },
   {
    "term": "mcp",
    "count": 23
-  },
-  {
-   "term": "agent",
-   "count": 21
   },
   {
    "term": "build",
@@ -35,16 +31,20 @@
    "count": 20
   },
   {
-   "term": "coding",
-   "count": 14
+   "term": "agent",
+   "count": 19
   },
   {
    "term": "building",
    "count": 13
   },
   {
+   "term": "coding",
+   "count": 13
+  },
+  {
    "term": "has",
-   "count": 11
+   "count": 10
   },
   {
    "term": "like",
@@ -52,6 +52,10 @@
   },
   {
    "term": "google",
+   "count": 9
+  },
+  {
+   "term": "co-founder",
    "count": 9
   },
   {
@@ -68,10 +72,6 @@
   },
   {
    "term": "first",
-   "count": 8
-  },
-  {
-   "term": "co-founder",
    "count": 8
   },
   {
@@ -152,7 +152,7 @@
   },
   {
    "text": "Humans sleep, but trading agents don’t 🤖 Charting into the Agentic Trading era with tokenized US stocks operating 24/7! @Bitget_AI just launched the Builder Base Camp Hackathon S2 featuring a 50,000 USDT prize pool! Whe",
-   "engagement": 239,
+   "engagement": 241,
    "url": "https://x.com/i/status/2100809997265301793",
    "created": "2026-09-18T04:51:49.000Z"
   },
@@ -169,6 +169,12 @@
    "created": "2026-09-17T21:10:47.000Z"
   },
   {
+   "text": "@gabepereyra is the President &amp; Co-Founder of @harvey, the most prominent legal AI startup and an industry leader in owning their own intelligence. I'm excited to share our conversation, which spans closed &amp; open",
+   "engagement": 147,
+   "url": "https://x.com/i/status/2100984674067824921",
+   "created": "2026-09-18T16:25:55.000Z"
+  },
+  {
    "text": "Finch V2 is live on @ponsdotfamily. Over the past few months, what started as NoelClaw evolved into something much bigger — a platform where AI agents can remember, research, build, automate, trade, and interact with rea",
    "engagement": 139,
    "url": "https://x.com/i/status/2098850575576428667",
@@ -179,12 +185,6 @@
    "engagement": 120,
    "url": "https://x.com/i/status/2101183618529841558",
    "created": "2026-09-19T05:36:27.000Z"
-  },
-  {
-   "text": "Circuits Protocol is live on @Arc Testnet. We’re building an economy where AI agents can autonomously run, work, pay, earn, trade, collaborate, launch assets, enter markets, and build reputation. Circuits is powered by t",
-   "engagement": 92,
-   "url": "https://x.com/i/status/2099497176376152431",
-   "created": "2026-09-14T13:55:08.000Z"
   }
  ]
 }
