@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-19T17:38:30.604Z",
+ "generated": "2026-09-19T17:48:32.018Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 23055,
+ "verifiedAiHits": 23060,
  "logsScanned": 30,
  "windowStart": "2026-09-05",
  "windowEnd": "2026-09-19",
- "totalHits": 135985,
- "aiHits": 103460,
+ "totalHits": 136010,
+ "aiHits": 103478,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36128,
+   "hits": 36132,
    "verifiedHits": 0,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 20341,
+   "hits": 20342,
    "verifiedHits": 0,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 18727,
+   "hits": 18730,
    "verifiedHits": 0,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15440,
+   "hits": 15448,
    "verifiedHits": 0,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6648,
-   "verifiedHits": 6127,
+   "hits": 6649,
+   "verifiedHits": 6128,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
    "topPaths": [
@@ -245,18 +245,22 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4057,
-   "verifiedHits": 3474,
+   "hits": 4062,
+   "verifiedHits": 3479,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
    "topPaths": [
     {
      "path": "/wire.html",
-     "hits": 48
+     "hits": 49
     },
     {
      "path": "/tools",
-     "hits": 33
+     "hits": 34
+    },
+    {
+     "path": "/posts/cheapest-terminal-coding-agent-august-2026-free-floor.html",
+     "hits": 30
     },
     {
      "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
@@ -264,10 +268,6 @@
     },
     {
      "path": "/posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html",
-     "hits": 29
-    },
-    {
-     "path": "/posts/cheapest-terminal-coding-agent-august-2026-free-floor.html",
      "hits": 29
     }
    ],
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3053,
+   "hits": 3056,
    "verifiedHits": 0,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",

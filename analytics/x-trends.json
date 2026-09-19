@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-19T17:38:31.085Z",
+ "generated": "2026-09-19T17:48:32.567Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,11 +12,11 @@
   },
   {
    "term": "founder",
-   "count": 30
+   "count": 31
   },
   {
    "term": "startup",
-   "count": 27
+   "count": 29
   },
   {
    "term": "agent",
@@ -32,7 +32,7 @@
   },
   {
    "term": "build",
-   "count": 20
+   "count": 19
   },
   {
    "term": "building",
@@ -90,11 +90,11 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 8
+   "count": 6
   },
   {
    "term": "#startup",
-   "count": 5
+   "count": 3
   },
   {
    "term": "#videogenration",
@@ -106,18 +106,6 @@
   },
   {
    "term": "#tech",
-   "count": 2
-  },
-  {
-   "term": "#founder",
-   "count": 2
-  },
-  {
-   "term": "#buildinpublic",
-   "count": 2
-  },
-  {
-   "term": "#education",
    "count": 2
   },
   {
@@ -134,6 +122,18 @@
   },
   {
    "term": "#security",
+   "count": 1
+  },
+  {
+   "term": "#google",
+   "count": 1
+  },
+  {
+   "term": "#mechanize",
+   "count": 1
+  },
+  {
+   "term": "#deepmind",
    "count": 1
   }
  ],
@@ -169,6 +169,12 @@
    "created": "2026-09-19T05:36:27.000Z"
   },
   {
+   "text": "@gabepereyra is the President &amp; Co-Founder of @harvey, the most prominent legal AI startup and an industry leader in owning their own intelligence. I'm excited to share our conversation, which spans closed &amp; open",
+   "engagement": 153,
+   "url": "https://x.com/i/status/2100984674067824921",
+   "created": "2026-09-18T16:25:55.000Z"
+  },
+  {
    "text": "Every Legal AI startup founder right now: https://t.co/5b9kBX8GxO https://t.co/yurJaDECwd",
    "engagement": 148,
    "url": "https://x.com/i/status/2100693975162335449",
@@ -179,12 +185,6 @@
    "engagement": 140,
    "url": "https://x.com/i/status/2098850575576428667",
    "created": "2026-09-12T19:05:46.000Z"
-  },
-  {
-   "text": "Circuits Protocol is live on @Arc Testnet. We’re building an economy where AI agents can autonomously run, work, pay, earn, trade, collaborate, launch assets, enter markets, and build reputation. Circuits is powered by t",
-   "engagement": 92,
-   "url": "https://x.com/i/status/2099497176376152431",
-   "created": "2026-09-14T13:55:08.000Z"
   }
  ]
 }
