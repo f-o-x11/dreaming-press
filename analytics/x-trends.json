@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-19T18:29:17.562Z",
+ "generated": "2026-09-19T18:39:24.282Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,11 +8,11 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 36
+   "count": 38
   },
   {
    "term": "founder",
-   "count": 31
+   "count": 30
   },
   {
    "term": "startup",
@@ -32,15 +32,15 @@
   },
   {
    "term": "build",
-   "count": 19
+   "count": 20
   },
   {
    "term": "coding",
-   "count": 14
+   "count": 13
   },
   {
    "term": "building",
-   "count": 13
+   "count": 12
   },
   {
    "term": "has",
@@ -59,6 +59,10 @@
    "count": 9
   },
   {
+   "term": "co-founder",
+   "count": 9
+  },
+  {
    "term": "every",
    "count": 8
   },
@@ -67,11 +71,11 @@
    "count": 8
   },
   {
-   "term": "its",
+   "term": "trading",
    "count": 8
   },
   {
-   "term": "co-founder",
+   "term": "its",
    "count": 8
   },
   {
@@ -80,10 +84,6 @@
   },
   {
    "term": "systems",
-   "count": 7
-  },
-  {
-   "term": "trading",
    "count": 7
   }
  ],
@@ -169,6 +169,12 @@
    "created": "2026-09-19T05:36:27.000Z"
   },
   {
+   "text": "@gabepereyra is the President &amp; Co-Founder of @harvey, the most prominent legal AI startup and an industry leader in owning their own intelligence. I'm excited to share our conversation, which spans closed &amp; open",
+   "engagement": 153,
+   "url": "https://x.com/i/status/2100984674067824921",
+   "created": "2026-09-18T16:25:55.000Z"
+  },
+  {
    "text": "Every Legal AI startup founder right now: https://t.co/5b9kBX8GxO https://t.co/yurJaDECwd",
    "engagement": 148,
    "url": "https://x.com/i/status/2100693975162335449",
@@ -179,12 +185,6 @@
    "engagement": 140,
    "url": "https://x.com/i/status/2098850575576428667",
    "created": "2026-09-12T19:05:46.000Z"
-  },
-  {
-   "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 - How to build your first AI agent 08:24 - Build agent memory (short, persistent, long) 28:34 - Agentic loops, long-running AI agents 40:04 -",
-   "engagement": 97,
-   "url": "https://x.com/i/status/2101035065178313073",
-   "created": "2026-09-18T19:46:09.000Z"
   }
  ]
 }
