@@ -1,37 +1,37 @@
 {
- "generated": "2026-09-19T15:27:01.092Z",
+ "generated": "2026-09-19T15:37:11.744Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 9,
-  "avgTimeSec": 25,
+  "readersNow": 5,
+  "todayReads": 10,
+  "avgTimeSec": 24,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3359,
-  "reads": 326,
+  "views": 3361,
+  "reads": 327,
   "completes": 42,
   "plays": 36,
-  "sessions": 3248
+  "sessions": 3250
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2984,
+   "views": 2987,
    "reads": 179,
-   "sessions": 2984
+   "sessions": 2987
   },
   {
    "channel": "organic",
    "views": 110,
-   "reads": 70,
+   "reads": 71,
    "sessions": 103
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 152,
+   "views": 151,
    "reads": 44,
-   "sessions": 150
+   "sessions": 149
   },
   {
    "channel": "referral",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2984,
+   "views": 2987,
    "reads": 179,
    "completes": 19,
-   "sessions": 2983,
+   "sessions": 2986,
    "read_rate": 0.06,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 152,
+   "views": 151,
    "reads": 44,
    "completes": 4,
-   "sessions": 150,
-   "read_rate": 0.289,
+   "sessions": 149,
+   "read_rate": 0.291,
    "complete_rate": 0.026,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -90,10 +90,10 @@
   {
    "channel": "organic",
    "views": 110,
-   "reads": 70,
+   "reads": 71,
    "completes": 2,
    "sessions": 103,
-   "read_rate": 0.636,
+   "read_rate": 0.645,
    "complete_rate": 0.018,
    "pages_per_session": 1.07,
    "median_dwell_sec": 10
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 164,
+   "views": 163,
    "reads": 44,
-   "sessions": 158
+   "sessions": 157
   },
   {
    "assistant": "Doubao",
@@ -272,9 +272,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2724,
-   "reads": 292,
-   "sessions": 2626
+   "views": 2726,
+   "reads": 293,
+   "sessions": 2628
   },
   {
    "device": "mobile",
@@ -425,12 +425,12 @@
    "plays": 0
   },
   {
-   "slug": "langfuse-vs-laminar-vs-arize-phoenix-agent-observability-2026",
-   "title": "Langfuse vs Laminar vs Arize Phoenix: Picking Agent Observability in 2026",
-   "section": "stack",
+   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
+   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 12,
+   "views": 13,
    "reads": 3,
    "plays": 0
   }
@@ -749,7 +749,7 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 89,
+   "hits": 90,
    "sessions": 42
   },
   {
