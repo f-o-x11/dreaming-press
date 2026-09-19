@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-19T05:59:25.413Z",
+ "generated": "2026-09-19T06:09:30.482Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 22770,
+ "verifiedAiHits": 22774,
  "logsScanned": 30,
  "windowStart": "2026-09-05",
  "windowEnd": "2026-09-19",
- "totalHits": 132446,
- "aiHits": 100636,
+ "totalHits": 132532,
+ "aiHits": 100715,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35244,
+   "hits": 35272,
    "verifiedHits": 0,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19531,
+   "hits": 19568,
    "verifiedHits": 0,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 18484,
+   "hits": 18488,
    "verifiedHits": 0,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14901,
+   "hits": 14908,
    "verifiedHits": 0,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 12746,
-   "verifiedHits": 12147,
+   "hits": 12747,
+   "verifiedHits": 12148,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6438,
-   "verifiedHits": 5926,
+   "hits": 6441,
+   "verifiedHits": 5929,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
    "topPaths": [
@@ -194,7 +194,7 @@
     },
     {
      "path": "/authors/rosalinda",
-     "hits": 31
+     "hits": 32
     },
     {
      "path": "/posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3914,
-   "verifiedHits": 3346,
+   "hits": 3915,
+   "verifiedHits": 3347,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3527,
-   "verifiedHits": 3004,
+   "hits": 3529,
+   "verifiedHits": 3006,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
    "topPaths": [
@@ -293,7 +293,7 @@
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 140
+     "hits": 141
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1848,
+   "hits": 1849,
    "verifiedHits": 0,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
@@ -391,12 +391,12 @@
      "hits": 15
     },
     {
-     "path": "/tags/reportive",
+     "path": "/tags/opinionated",
      "hits": 14
     },
     {
-     "path": "/tags/opinionated",
-     "hits": 13
+     "path": "/tags/reportive",
+     "hits": 14
     },
     {
      "path": "/authors/rosalinda",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1613,
+   "hits": 1615,
    "verifiedHits": 0,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
@@ -421,7 +421,7 @@
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
-     "hits": 100
+     "hits": 101
     },
     {
      "path": "/posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html",
