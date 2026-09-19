@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-19T09:52:47.450Z",
+ "generated": "2026-09-19T10:02:54.906Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,7 +12,7 @@
   },
   {
    "term": "founder",
-   "count": 31
+   "count": 32
   },
   {
    "term": "startup",
@@ -20,14 +20,14 @@
   },
   {
    "term": "mcp",
-   "count": 23
-  },
-  {
-   "term": "build",
-   "count": 21
+   "count": 25
   },
   {
    "term": "agentic",
+   "count": 20
+  },
+  {
+   "term": "build",
    "count": 20
   },
   {
@@ -43,19 +43,15 @@
    "count": 13
   },
   {
-   "term": "has",
-   "count": 10
-  },
-  {
    "term": "like",
    "count": 9
   },
   {
-   "term": "google",
+   "term": "has",
    "count": 9
   },
   {
-   "term": "co-founder",
+   "term": "google",
    "count": 9
   },
   {
@@ -75,6 +71,10 @@
    "count": 8
   },
   {
+   "term": "co-founder",
+   "count": 8
+  },
+  {
    "term": "million",
    "count": 8
   },
@@ -83,7 +83,7 @@
    "count": 7
   },
   {
-   "term": "next",
+   "term": "launch",
    "count": 7
   }
  ],
@@ -169,12 +169,6 @@
    "created": "2026-09-17T21:10:47.000Z"
   },
   {
-   "text": "@gabepereyra is the President &amp; Co-Founder of @harvey, the most prominent legal AI startup and an industry leader in owning their own intelligence. I'm excited to share our conversation, which spans closed &amp; open",
-   "engagement": 147,
-   "url": "https://x.com/i/status/2100984674067824921",
-   "created": "2026-09-18T16:25:55.000Z"
-  },
-  {
    "text": "Finch V2 is live on @ponsdotfamily. Over the past few months, what started as NoelClaw evolved into something much bigger — a platform where AI agents can remember, research, build, automate, trade, and interact with rea",
    "engagement": 139,
    "url": "https://x.com/i/status/2098850575576428667",
@@ -182,9 +176,15 @@
   },
   {
    "text": "50,000 USDT on the line + free Qwen / Kimi K3 credits. AI × tokenized US stocks × 7days 24hours. When markets never close, humans sleep but agents don’t. Agent Hub 2.0 is live I believe this is first of it kind in the in",
-   "engagement": 133,
+   "engagement": 135,
    "url": "https://x.com/i/status/2101183618529841558",
    "created": "2026-09-19T05:36:27.000Z"
+  },
+  {
+   "text": "Circuits Protocol is live on @Arc Testnet. We’re building an economy where AI agents can autonomously run, work, pay, earn, trade, collaborate, launch assets, enter markets, and build reputation. Circuits is powered by t",
+   "engagement": 92,
+   "url": "https://x.com/i/status/2099497176376152431",
+   "created": "2026-09-14T13:55:08.000Z"
   }
  ]
 }
