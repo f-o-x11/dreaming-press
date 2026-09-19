@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-19T15:37:11.744Z",
+ "generated": "2026-09-19T15:47:18.817Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
-  "todayReads": 10,
+  "readersNow": 4,
+  "todayReads": 11,
   "avgTimeSec": 24,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3361,
-  "reads": 327,
+  "views": 3363,
+  "reads": 328,
   "completes": 42,
   "plays": 36,
-  "sessions": 3250
+  "sessions": 3252
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2987,
+   "views": 2988,
    "reads": 179,
-   "sessions": 2987
+   "sessions": 2988
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 151,
-   "reads": 44,
-   "sessions": 149
+   "views": 152,
+   "reads": 45,
+   "sessions": 150
   },
   {
    "channel": "referral",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2987,
+   "views": 2988,
    "reads": 179,
    "completes": 19,
-   "sessions": 2986,
+   "sessions": 2987,
    "read_rate": 0.06,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 151,
-   "reads": 44,
+   "views": 152,
+   "reads": 45,
    "completes": 4,
-   "sessions": 149,
-   "read_rate": 0.291,
+   "sessions": 150,
+   "read_rate": 0.296,
    "complete_rate": 0.026,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 163,
-   "reads": 44,
-   "sessions": 157
+   "views": 164,
+   "reads": 45,
+   "sessions": 158
   },
   {
    "assistant": "Doubao",
@@ -272,9 +272,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2726,
-   "reads": 293,
-   "sessions": 2628
+   "views": 2728,
+   "reads": 294,
+   "sessions": 2630
   },
   {
    "device": "mobile",
@@ -754,8 +754,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 67,
-   "sessions": 38
+   "hits": 69,
+   "sessions": 39
   },
   {
    "ref": "https://duckduckgo.com/",

@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-19T15:37:11.693Z",
+ "generated": "2026-09-19T15:47:18.738Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -16,7 +16,7 @@
   },
   {
    "term": "startup",
-   "count": 27
+   "count": 28
   },
   {
    "term": "agentic",
@@ -55,6 +55,10 @@
    "count": 9
   },
   {
+   "term": "co-founder",
+   "count": 9
+  },
+  {
    "term": "run",
    "count": 8
   },
@@ -63,15 +67,7 @@
    "count": 8
   },
   {
-   "term": "learn",
-   "count": 8
-  },
-  {
    "term": "first",
-   "count": 8
-  },
-  {
-   "term": "co-founder",
    "count": 8
   },
   {
@@ -83,6 +79,10 @@
    "count": 7
   },
   {
+   "term": "learn",
+   "count": 7
+  },
+  {
    "term": "its",
    "count": 7
   }
@@ -90,11 +90,11 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 8
+   "count": 7
   },
   {
    "term": "#startup",
-   "count": 5
+   "count": 4
   },
   {
    "term": "#videogenration",
@@ -109,15 +109,7 @@
    "count": 2
   },
   {
-   "term": "#founder",
-   "count": 2
-  },
-  {
    "term": "#buildinpublic",
-   "count": 2
-  },
-  {
-   "term": "#education",
    "count": 2
   },
   {
@@ -134,6 +126,14 @@
   },
   {
    "term": "#security",
+   "count": 1
+  },
+  {
+   "term": "#google",
+   "count": 1
+  },
+  {
+   "term": "#mechanize",
    "count": 1
   }
  ],
@@ -169,6 +169,12 @@
    "created": "2026-09-19T05:36:27.000Z"
   },
   {
+   "text": "@gabepereyra is the President &amp; Co-Founder of @harvey, the most prominent legal AI startup and an industry leader in owning their own intelligence. I'm excited to share our conversation, which spans closed &amp; open",
+   "engagement": 152,
+   "url": "https://x.com/i/status/2100984674067824921",
+   "created": "2026-09-18T16:25:55.000Z"
+  },
+  {
    "text": "Every Legal AI startup founder right now: https://t.co/5b9kBX8GxO https://t.co/yurJaDECwd",
    "engagement": 148,
    "url": "https://x.com/i/status/2100693975162335449",
@@ -179,12 +185,6 @@
    "engagement": 139,
    "url": "https://x.com/i/status/2098850575576428667",
    "created": "2026-09-12T19:05:46.000Z"
-  },
-  {
-   "text": "Circuits Protocol is live on @Arc Testnet. We’re building an economy where AI agents can autonomously run, work, pay, earn, trade, collaborate, launch assets, enter markets, and build reputation. Circuits is powered by t",
-   "engagement": 92,
-   "url": "https://x.com/i/status/2099497176376152431",
-   "created": "2026-09-14T13:55:08.000Z"
   }
  ]
 }
