@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-19T02:06:56.171Z",
+ "generated": "2026-09-19T02:17:01.015Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,24 +8,24 @@
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3368,
-  "reads": 324,
+  "views": 3367,
+  "reads": 323,
   "completes": 42,
   "plays": 36,
-  "sessions": 3257
+  "sessions": 3256
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3001,
+   "views": 3000,
    "reads": 178,
-   "sessions": 2997
+   "sessions": 2996
   },
   {
    "channel": "organic",
-   "views": 108,
+   "views": 109,
    "reads": 70,
-   "sessions": 102
+   "sessions": 103
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "ai",
-   "views": 33,
-   "reads": 12,
-   "sessions": 49
+   "views": 32,
+   "reads": 11,
+   "sessions": 48
   },
   {
    "channel": "social",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3001,
+   "views": 3000,
    "reads": 178,
    "completes": 19,
-   "sessions": 2996,
+   "sessions": 2995,
    "read_rate": 0.059,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -89,12 +89,12 @@
   },
   {
    "channel": "organic",
-   "views": 108,
+   "views": 109,
    "reads": 70,
    "completes": 2,
-   "sessions": 102,
-   "read_rate": 0.648,
-   "complete_rate": 0.019,
+   "sessions": 103,
+   "read_rate": 0.642,
+   "complete_rate": 0.018,
    "pages_per_session": 1.06,
    "median_dwell_sec": 10
   },
@@ -111,12 +111,12 @@
   },
   {
    "channel": "ai",
-   "views": 33,
-   "reads": 12,
+   "views": 32,
+   "reads": 11,
    "completes": 2,
-   "sessions": 49,
-   "read_rate": 0.364,
-   "complete_rate": 0.061,
+   "sessions": 48,
+   "read_rate": 0.344,
+   "complete_rate": 0.063,
    "pages_per_session": 0.67,
    "median_dwell_sec": 26
   },
@@ -245,16 +245,16 @@
    "sessions": 5
   },
   {
-   "assistant": "Perplexity",
-   "views": 4,
-   "reads": 2,
-   "sessions": 4
-  },
-  {
    "assistant": "DeepSeek",
    "views": 4,
    "reads": 1,
    "sessions": 1
+  },
+  {
+   "assistant": "Perplexity",
+   "views": 3,
+   "reads": 1,
+   "sessions": 3
   },
   {
    "assistant": "Yuanbao",
@@ -272,9 +272,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2718,
-   "reads": 290,
-   "sessions": 2620
+   "views": 2717,
+   "reads": 289,
+   "sessions": 2619
   },
   {
    "device": "mobile",
@@ -769,8 +769,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 19,
-   "sessions": 12
+   "hits": 20,
+   "sessions": 13
   },
   {
    "ref": "https://www.doubao.com/",
