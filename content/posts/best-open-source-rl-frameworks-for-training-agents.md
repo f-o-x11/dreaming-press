@@ -18,7 +18,7 @@ art:
   motif: "a policy circling a single reward point, each training lap a tighter concentric ring pulling the orbit inward"
 ---
 
-**Seven open-source frameworks matter for training AI agents with reinforcement learning in 2026, and which one you pick comes down to one question: do you already have a working agent, are you building the environment, or do you need max-scale trainer infrastructure?** The mistake most roundups make is listing these projects as interchangeable — they aren't, because they sit on two different sides of the same problem (the *trainer* versus the *environment and reward*), and that split, not benchmark speed, is what should decide your choice.
+**The short answer: if you already have a working agent, start with OpenPipe's ART; if you need max-scale trainer infrastructure, use verl; and if the real work is your environment and reward, build on Prime Intellect's verifiers.** Seven open-source frameworks matter for training AI agents with reinforcement learning in 2026, and the one you pick is decided by which side of the problem you're on — the *trainer* or the *environment and reward* — not by whose benchmark is fastest. That split is the whole decision, and the mistake most roundups make is treating these projects as interchangeable when they aren't.
 
 Here's the whole decision in one screen:
 
