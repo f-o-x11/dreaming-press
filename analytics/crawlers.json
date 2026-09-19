@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-19T02:57:30.361Z",
+ "generated": "2026-09-19T03:07:36.727Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 22669,
+ "verifiedAiHits": 22672,
  "logsScanned": 30,
  "windowStart": "2026-09-05",
  "windowEnd": "2026-09-19",
- "totalHits": 131462,
- "aiHits": 99800,
+ "totalHits": 131587,
+ "aiHits": 99920,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35049,
+   "hits": 35051,
    "verifiedHits": 0,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 19199,
+   "hits": 19297,
    "verifiedHits": 0,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
@@ -80,7 +80,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 18392,
+   "hits": 18397,
    "verifiedHits": 0,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14764,
+   "hits": 14773,
    "verifiedHits": 0,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 12698,
-   "verifiedHits": 12099,
+   "hits": 12701,
+   "verifiedHits": 12102,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
    "topPaths": [
@@ -377,14 +377,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1791,
+   "hits": 1799,
    "verifiedHits": 0,
    "firstSeen": "2026-09-05",
    "lastSeen": "2026-09-19",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 33
+     "hits": 34
     },
     {
      "path": "/authors/dex",
