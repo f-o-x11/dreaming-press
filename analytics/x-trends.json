@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-19T20:40:41.847Z",
+ "generated": "2026-09-19T20:50:51.201Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -23,20 +23,20 @@
    "count": 26
   },
   {
-   "term": "agentic",
-   "count": 25
-  },
-  {
    "term": "mcp",
    "count": 23
   },
   {
+   "term": "agentic",
+   "count": 21
+  },
+  {
    "term": "build",
-   "count": 20
+   "count": 19
   },
   {
    "term": "coding",
-   "count": 14
+   "count": 15
   },
   {
    "term": "building",
@@ -67,10 +67,6 @@
    "count": 8
   },
   {
-   "term": "learn",
-   "count": 8
-  },
-  {
    "term": "first",
    "count": 8
   },
@@ -84,6 +80,10 @@
   },
   {
    "term": "actually",
+   "count": 7
+  },
+  {
+   "term": "engineer",
    "count": 7
   }
  ],
@@ -170,7 +170,7 @@
   },
   {
    "text": "@gabepereyra is the President &amp; Co-Founder of @harvey, the most prominent legal AI startup and an industry leader in owning their own intelligence. I'm excited to share our conversation, which spans closed &amp; open",
-   "engagement": 153,
+   "engagement": 154,
    "url": "https://x.com/i/status/2100984674067824921",
    "created": "2026-09-18T16:25:55.000Z"
   },
