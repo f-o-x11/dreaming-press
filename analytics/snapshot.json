@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-20T07:19:40.327Z",
+ "generated": "2026-09-20T07:29:47.623Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
-  "todayReads": 5,
-  "avgTimeSec": 63,
+  "readersNow": 3,
+  "todayReads": 6,
+  "avgTimeSec": 71,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 3376,
+  "views": 3373,
   "reads": 329,
   "completes": 39,
   "plays": 37,
-  "sessions": 3264
+  "sessions": 3261
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2992,
-   "reads": 177,
-   "sessions": 2994
+   "views": 2988,
+   "reads": 176,
+   "sessions": 2991
   },
   {
    "channel": "organic",
-   "views": 115,
-   "reads": 74,
-   "sessions": 108
+   "views": 116,
+   "reads": 75,
+   "sessions": 109
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2992,
-   "reads": 177,
+   "views": 2988,
+   "reads": 176,
    "completes": 16,
-   "sessions": 2993,
+   "sessions": 2990,
    "read_rate": 0.059,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "organic",
-   "views": 115,
-   "reads": 74,
+   "views": 116,
+   "reads": 75,
    "completes": 2,
-   "sessions": 108,
-   "read_rate": 0.643,
+   "sessions": 109,
+   "read_rate": 0.647,
    "complete_rate": 0.017,
    "pages_per_session": 1.06,
    "median_dwell_sec": 10
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2749,
+   "views": 2748,
    "reads": 295,
-   "sessions": 2650
+   "sessions": 2649
   },
   {
    "device": "mobile",
-   "views": 627,
+   "views": 625,
    "reads": 34,
-   "sessions": 615
+   "sessions": 613
   }
  ],
  "topContent": [
@@ -402,22 +402,22 @@
    "plays": 0
   },
   {
+   "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
+   "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 10,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "vllm-v0-24-model-runner-v2-rust-frontend",
    "title": "vLLM v0.24 Makes Model Runner V2 the Default. The Win Isn't a Faster Kernel — It's Never Waiting on the CPU.",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 10,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "code-retrieval-for-ai-coding-agents",
-   "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 7,
    "reads": 4,
    "plays": 0
   },
@@ -749,18 +749,18 @@
    "avg_dwell_sec": 24
   },
   {
-   "path": "/weekly",
-   "views": 8,
-   "reads": 0,
-   "sessions": 8,
-   "avg_dwell_sec": 4
-  },
-  {
    "path": "/about.html",
    "views": 7,
    "reads": 0,
    "sessions": 7,
    "avg_dwell_sec": 12
+  },
+  {
+   "path": "/apps",
+   "views": 7,
+   "reads": 0,
+   "sessions": 7,
+   "avg_dwell_sec": 5
   }
  ],
  "referrers": [
@@ -786,8 +786,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 22,
-   "sessions": 15
+   "hits": 24,
+   "sessions": 16
   },
   {
    "ref": "https://www.doubao.com/",
