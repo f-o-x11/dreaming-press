@@ -29,6 +29,8 @@ Here's the whole edition in one screen — the three moves, and the one thing to
 
 The through-line: the agent control plane became a buy decision, the budget model got multimodal, and the strategic money is flowing to the interconnect that makes both cheaper. Three layers, one week, same direction — toward more capability for less.
 
+**This edition is dated — here's where the three threads went next.** The control-plane story continued in [the September 19 Wire, where ChatGPT grew a *paid* agent lane](/posts/2026-09-19-founders-wire-openai-sponsored-agents-glm-53-flash-temporal.html). If DeepSeek's cheap-tier move has you rethinking your model spend, we [ranked the open-source coders you can self-host this month](/posts/open-source-llm-for-coding-september-2026.html) and mapped [when serverless GPU actually beats a rented card](/posts/serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026.html). Read on for the full breakdown of each move below.
+
 ## 1. OpenAI put its Codex harness behind one API call
 
 The story most likely to change what you build this quarter is the quietest one. On **Sept 10, 2026, OpenAI opened its Agents API in public beta** — and what it exposes is the *harness*, not a new model. This is the control layer OpenAI has been running internally for Codex: the machinery that keeps an agent's [session alive across turns](https://www.analyticsinsight.net/openai/openai-agents-api-features-architecture-use-cases), compacts the context when the window fills, recovers after a step fails, and coordinates multiple subagents. OpenAI extracted it and turned it into a managed service it operates for you.
