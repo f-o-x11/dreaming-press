@@ -1,10 +1,10 @@
 {
- "generated": "2026-09-20T14:54:23.443Z",
+ "generated": "2026-09-20T15:04:36.433Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
   "todayReads": 13,
-  "avgTimeSec": 54,
+  "avgTimeSec": 53,
   "postsThisWeek": 10
  },
  "funnel": {
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2972,
+   "views": 2971,
    "reads": 180,
    "sessions": 2975
   },
   {
    "channel": "organic",
-   "views": 116,
+   "views": 117,
    "reads": 75,
-   "sessions": 109
+   "sessions": 110
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,7 +73,7 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2972,
+   "views": 2971,
    "reads": 180,
    "completes": 16,
    "sessions": 2974,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "organic",
-   "views": 116,
+   "views": 117,
    "reads": 75,
    "completes": 3,
-   "sessions": 109,
-   "read_rate": 0.647,
+   "sessions": 110,
+   "read_rate": 0.641,
    "complete_rate": 0.026,
    "pages_per_session": 1.06,
    "median_dwell_sec": 10
@@ -728,13 +728,6 @@
    "avg_dwell_sec": 5
   },
   {
-   "path": "/tools",
-   "views": 9,
-   "reads": 0,
-   "sessions": 9,
-   "avg_dwell_sec": 8
-  },
-  {
    "path": "/global-tech-news",
    "views": 8,
    "reads": 0,
@@ -747,6 +740,13 @@
    "reads": 0,
    "sessions": 7,
    "avg_dwell_sec": 24
+  },
+  {
+   "path": "/tools",
+   "views": 8,
+   "reads": 0,
+   "sessions": 8,
+   "avg_dwell_sec": 8
   },
   {
    "path": "/about.html",
@@ -776,8 +776,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 40,
-   "sessions": 21
+   "hits": 41,
+   "sessions": 22
   },
   {
    "ref": "https://cn.bing.com/",
