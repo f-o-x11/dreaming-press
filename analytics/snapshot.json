@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-20T08:30:09.603Z",
+ "generated": "2026-09-20T08:40:13.631Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 6,
-  "avgTimeSec": 71,
+  "readersNow": 8,
+  "todayReads": 8,
+  "avgTimeSec": 66,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 3370,
-  "reads": 329,
+  "views": 3375,
+  "reads": 331,
   "completes": 39,
   "plays": 36,
-  "sessions": 3258
+  "sessions": 3263
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2983,
-   "reads": 176,
-   "sessions": 2986
+   "views": 2987,
+   "reads": 177,
+   "sessions": 2990
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "ai",
-   "views": 37,
-   "reads": 12,
-   "sessions": 53
+   "views": 38,
+   "reads": 13,
+   "sessions": 54
   },
   {
    "channel": "social",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2983,
-   "reads": 176,
+   "views": 2987,
+   "reads": 177,
    "completes": 16,
-   "sessions": 2985,
+   "sessions": 2989,
    "read_rate": 0.059,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -117,12 +117,12 @@
   },
   {
    "channel": "ai",
-   "views": 37,
-   "reads": 12,
+   "views": 38,
+   "reads": 13,
    "completes": 2,
-   "sessions": 53,
-   "read_rate": 0.324,
-   "complete_rate": 0.054,
+   "sessions": 54,
+   "read_rate": 0.342,
+   "complete_rate": 0.053,
    "pages_per_session": 0.7,
    "median_dwell_sec": 26
   },
@@ -257,9 +257,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 12,
-   "reads": 8,
-   "sessions": 7
+   "views": 13,
+   "reads": 9,
+   "sessions": 8
   },
   {
    "assistant": "DeepSeek",
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2747,
-   "reads": 295,
-   "sessions": 2648
+   "views": 2751,
+   "reads": 297,
+   "sessions": 2652
   },
   {
    "device": "mobile",
-   "views": 623,
+   "views": 624,
    "reads": 34,
-   "sessions": 611
+   "sessions": 612
   }
  ],
  "topContent": [
@@ -402,6 +402,16 @@
    "plays": 0
   },
   {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 14,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
    "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
    "section": "wire",
@@ -439,16 +449,6 @@
    "author": "dex",
    "views": 5,
    "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 23,
-   "reads": 3,
    "plays": 0
   }
  ],
@@ -791,8 +791,8 @@
   },
   {
    "ref": "https://www.doubao.com/",
-   "hits": 21,
-   "sessions": 7
+   "hits": 23,
+   "sessions": 8
   },
   {
    "ref": "https://search.brave.com/",
