@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-20T20:39:46.240Z",
+ "generated": "2026-09-20T20:50:00.549Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 23492,
+ "verifiedAiHits": 23494,
  "logsScanned": 30,
  "windowStart": "2026-09-06",
  "windowEnd": "2026-09-20",
- "totalHits": 132897,
- "aiHits": 102897,
+ "totalHits": 132947,
+ "aiHits": 102937,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35812,
+   "hits": 35820,
    "verifiedHits": 0,
    "firstSeen": "2026-09-06",
    "lastSeen": "2026-09-20",
@@ -76,6 +76,39 @@
    "verifiable": false
   },
   {
+   "name": "PetalBot",
+   "label": "Petal / Huawei",
+   "category": "ai",
+   "home": "https://webmaster.petalsearch.com/site/petalbot",
+   "hits": 15575,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-06",
+   "lastSeen": "2026-09-20",
+   "topPaths": [
+    {
+     "path": "/tags/opinionated",
+     "hits": 21
+    },
+    {
+     "path": "/wire.html",
+     "hits": 19
+    },
+    {
+     "path": "/stack.html",
+     "hits": 17
+    },
+    {
+     "path": "/tags/reportive",
+     "hits": 16
+    },
+    {
+     "path": "/stacks/autogen%2Blitellm%2Bmem0",
+     "hits": 11
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Applebot",
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
@@ -104,39 +137,6 @@
     {
      "path": "/posts/apache-burr-vs-langgraph-state-machine-vs-graph.md",
      "hits": 4
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "PetalBot",
-   "label": "Petal / Huawei",
-   "category": "ai",
-   "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15566,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-06",
-   "lastSeen": "2026-09-20",
-   "topPaths": [
-    {
-     "path": "/tags/opinionated",
-     "hits": 21
-    },
-    {
-     "path": "/wire.html",
-     "hits": 19
-    },
-    {
-     "path": "/stack.html",
-     "hits": 17
-    },
-    {
-     "path": "/tags/reportive",
-     "hits": 16
-    },
-    {
-     "path": "/stacks/autogen%2Blitellm%2Bmem0",
-     "hits": 11
     }
    ],
    "verifiable": false
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6965,
-   "verifiedHits": 6444,
+   "hits": 6970,
+   "verifiedHits": 6449,
    "firstSeen": "2026-09-06",
    "lastSeen": "2026-09-20",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4209,
-   "verifiedHits": 3623,
+   "hits": 4211,
+   "verifiedHits": 3625,
    "firstSeen": "2026-09-06",
    "lastSeen": "2026-09-20",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3314,
+   "hits": 3316,
    "verifiedHits": 0,
    "firstSeen": "2026-09-06",
    "lastSeen": "2026-09-20",
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2113,
+   "hits": 2132,
    "verifiedHits": 0,
    "firstSeen": "2026-09-06",
    "lastSeen": "2026-09-20",
@@ -443,7 +443,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1053,
+   "hits": 1054,
    "verifiedHits": 0,
    "firstSeen": "2026-09-06",
    "lastSeen": "2026-09-20",
@@ -509,7 +509,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 801,
+   "hits": 803,
    "verifiedHits": 0,
    "firstSeen": "2026-09-06",
    "lastSeen": "2026-09-20",
@@ -542,8 +542,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 616,
-   "verifiedHits": 502,
+   "hits": 618,
+   "verifiedHits": 504,
    "firstSeen": "2026-09-06",
    "lastSeen": "2026-09-20",
    "topPaths": [
