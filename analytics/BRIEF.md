@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-20T12:02Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-20T12:12Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -96,10 +96,10 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 613 retrieval fetches
+- /  — 614 retrieval fetches
+- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 169 retrieval fetches
 - /build  — 168 retrieval fetches
-- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 168 retrieval fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 155 retrieval fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 157 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 63 retrieval fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 58 retrieval fetches
 - /tools  — 55 retrieval fetches
@@ -109,8 +109,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (11860 verified): /build ×168 · / ×25 · /dashboard ×24
-- OAI-SearchBot (3519 verified): /wire.html ×47 · /tools ×33 · /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html ×30
-- ChatGPT-User (3072 verified): / ×588 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×168 · /posts/open-source-llm-for-coding-september-2026.html ×155
+- OAI-SearchBot (3521 verified): /wire.html ×47 · /tools ×33 · /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html ×30
+- ChatGPT-User (3080 verified): / ×589 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×169 · /posts/open-source-llm-for-coding-september-2026.html ×157
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(40), startup(31), founder(29), agent(28), mcp(24), agentic(23), build(21), coding(14), building(13), google(13), has(12), its(10), co-founder(10), run(9), every(8).
+Hot terms: agents(40), startup(31), founder(29), agent(28), mcp(24), agentic(23), build(21), coding(14), google(13), building(12), has(12), its(10), co-founder(10), run(8), every(8).
 Hashtags: #ai, #startup, #videogenration, #tools, #google, #deepmind, #founder, #artificialintelligence, #education, #aijobs.
 High-engagement posts to react to / cite:
 - "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to." — https://x.com/i/status/2099491915381006477
@@ -135,7 +135,7 @@ High-engagement posts to react to / cite:
 - "@gabepereyra is the President &amp; Co-Founder of @harvey, the most prominent legal AI startup and an industry leader in owning their own intelligence. I'm excited to share our conversation, which spans closed &amp; open" — https://x.com/i/status/2100984674067824921
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (253 of 450 phrases have NO post, 72h ago)
+## Uncovered search demand (253 of 450 phrases have NO post, 73h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -158,20 +158,20 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 22721 confirmed AI-engine fetches (Perplexity 11860, GPTBot (OpenAI) 4270, ChatGPT Search (OpenAI) 3519, ChatGPT (user browsing) 3072).
+The real answer engines are crawling us — IP-verified: 22731 confirmed AI-engine fetches (Perplexity 11860, GPTBot (OpenAI) 4270, ChatGPT Search (OpenAI) 3521, ChatGPT (user browsing) 3080).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 764 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 176 crawler fetches
-- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 172 crawler fetches
+- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 173 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 171 crawler fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 158 crawler fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 160 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 118 crawler fetches
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 103 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 70 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 65 crawler fetches
 - /tools  — 59 crawler fetches
 - /posts/gpt-5-6-terra-vs-kimi-k3-mid-tier-agent-backend.html  — 36 crawler fetches
-- /posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html  — 30 crawler fetches
+- /posts/2026-08-10-founders-wire-claude-code-codex-permission-fixes-qwen-open-weights.html  — 31 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
