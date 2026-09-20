@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-20T15:14Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-20T15:25Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -108,7 +108,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html  — 30 retrieval fetches
 
 Per engine:
-- PerplexityBot (11865 verified): /build ×168 · / ×25 · /dashboard ×24
+- PerplexityBot (11867 verified): /build ×168 · / ×25 · /dashboard ×24
 - OAI-SearchBot (3548 verified): /wire.html ×47 · /tools ×33 · /posts/local-llm-for-coding-on-your-own-machine.html ×30
 - ChatGPT-User (3103 verified): / ×594 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×171 · /posts/open-source-llm-for-coding-september-2026.html ×158
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(39), startup(32), founder(31), agent(28), mcp(24), agentic(22), build(22), coding(13), building(12), has(12), google(11), co-founder(10), run(9), its(9), engineer(9).
+Hot terms: agents(39), startup(32), founder(31), agent(28), mcp(24), agentic(22), build(22), building(13), coding(13), has(12), google(11), run(10), co-founder(10), its(9), engineer(9).
 Hashtags: #ai, #videogenration, #tools, #google, #deepmind, #artificialintelligence, #startup, #education, #aijobs, #aihiring.
 High-engagement posts to react to / cite:
 - "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to." — https://x.com/i/status/2099491915381006477
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 22950 confirmed AI-engine fetches (Perplexity 11865, GPTBot (OpenAI) 4434, ChatGPT Search (OpenAI) 3548, ChatGPT (user browsing) 3103).
+The real answer engines are crawling us — IP-verified: 22952 confirmed AI-engine fetches (Perplexity 11867, GPTBot (OpenAI) 4434, ChatGPT Search (OpenAI) 3548, ChatGPT (user browsing) 3103).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 767 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 179 crawler fetches
