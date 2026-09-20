@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-20T00:14:00.328Z",
+ "generated": "2026-09-20T00:24:10.336Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 22126,
+ "verifiedAiHits": 22131,
  "logsScanned": 30,
  "windowStart": "2026-09-06",
  "windowEnd": "2026-09-20",
- "totalHits": 126433,
- "aiHits": 97553,
+ "totalHits": 126495,
+ "aiHits": 97613,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 33991,
+   "hits": 34001,
    "verifiedHits": 0,
    "firstSeen": "2026-09-06",
    "lastSeen": "2026-09-20",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18297,
+   "hits": 18332,
    "verifiedHits": 0,
    "firstSeen": "2026-09-06",
    "lastSeen": "2026-09-20",
@@ -65,11 +65,11 @@
      "hits": 8
     },
     {
-     "path": "/posts/2026-06-23-prefill-vs-decode-llm-inference.html",
+     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
      "hits": 7
     },
     {
-     "path": "/posts/text-generation-inference-tgi-archived-migrate-off.html",
+     "path": "/posts/how-to-manage-context-in-a-long-running-agent.html",
      "hits": 7
     }
    ],
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14692,
+   "hits": 14700,
    "verifiedHits": 0,
    "firstSeen": "2026-09-06",
    "lastSeen": "2026-09-20",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6421,
-   "verifiedHits": 5900,
+   "hits": 6423,
+   "verifiedHits": 5902,
    "firstSeen": "2026-09-06",
    "lastSeen": "2026-09-20",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3959,
-   "verifiedHits": 3376,
+   "hits": 3963,
+   "verifiedHits": 3380,
    "firstSeen": "2026-09-06",
    "lastSeen": "2026-09-20",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3533,
-   "verifiedHits": 2998,
+   "hits": 3534,
+   "verifiedHits": 2999,
    "firstSeen": "2026-09-06",
    "lastSeen": "2026-09-20",
    "topPaths": [
@@ -377,10 +377,10 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1943,
+   "hits": 1945,
    "verifiedHits": 0,
    "firstSeen": "2026-09-06",
-   "lastSeen": "2026-09-19",
+   "lastSeen": "2026-09-20",
    "topPaths": [
     {
      "path": "/build",
@@ -388,7 +388,7 @@
     },
     {
      "path": "/authors/dex",
-     "hits": 32
+     "hits": 33
     },
     {
      "path": "/tags/opinionated",
