@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-20T13:13Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-20T13:23Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3366 views → 334 engaged reads → 40 completes · 3252 sessions.
-- Channels: direct 179r/2976v · organic 76r/117v · campaign:chatgpt.com 45r/153v · referral 19r/76v · ai 13r/38v · social 1r/4v · campaign:perplexity 1r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3368 views → 335 engaged reads → 40 completes · 3254 sessions.
+- Channels: direct 180r/2978v · organic 76r/117v · campaign:chatgpt.com 45r/153v · referral 19r/76v · ai 13r/38v · social 1r/4v · campaign:perplexity 1r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 45r/165v · Doubao 9r/13v · DeepSeek 1r/4v · Perplexity 1r/3v · Yuanbao 1r/1v · Kimi 0r/4v.
 - Referrers: bing.com, chatgpt.com, duckduckgo.com, cn.bing.com, l.instagram.com, doubao.com, search.brave.com, google.com, brand, nav-cmp.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2976 views · read 6.0% · complete 0.5% · 1 pages/session · median 4s
+- direct: 2978 views · read 6.0% · complete 0.5% · 1 pages/session · median 4s
 - campaign:chatgpt.com: 153 views · read 29.4% · complete 2.6% · 1.01 pages/session · median ?s
 - organic: 117 views · read 65.0% · complete 2.6% · 1.06 pages/session · median 10s
 - referral: 76 views · read 25.0% · complete 1.3% · 1.04 pages/session · median ?s
@@ -165,7 +165,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 173 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 171 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 160 crawler fetches
-- /posts/how-to-read-an-agent-memory-benchmark.html  — 118 crawler fetches
+- /posts/how-to-read-an-agent-memory-benchmark.html  — 119 crawler fetches
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 103 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 70 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 65 crawler fetches
