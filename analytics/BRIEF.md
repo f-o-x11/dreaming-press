@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-20T23:33Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-20T23:43Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(38), startup(33), founder(32), agent(26), agentic(21), build(21), mcp(21), building(12), has(12), coding(12), google(11), engineer(9), co-founder(9), every(8), its(8).
+Hot terms: agents(38), startup(33), founder(32), agent(26), build(22), agentic(21), mcp(21), building(12), has(12), coding(12), google(11), engineer(9), co-founder(9), every(8), its(8).
 Hashtags: #ai, #videogenration, #tools, #google, #deepmind, #artificialintelligence, #startup, #education, #aijobs, #aihiring.
 High-engagement posts to react to / cite:
 - "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to." — https://x.com/i/status/2099491915381006477
