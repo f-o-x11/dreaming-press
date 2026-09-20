@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-20T22:22:08.923Z",
+ "generated": "2026-09-20T22:32:16.293Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
-  "todayReads": 15,
-  "avgTimeSec": 40,
+  "todayReads": 16,
+  "avgTimeSec": 39,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 3359,
-  "reads": 333,
+  "views": 3361,
+  "reads": 334,
   "completes": 40,
   "plays": 36,
-  "sessions": 3250
+  "sessions": 3252
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2974,
+   "views": 2975,
    "reads": 179,
-   "sessions": 2979
+   "sessions": 2980
   },
   {
    "channel": "organic",
-   "views": 118,
-   "reads": 75,
-   "sessions": 111
+   "views": 119,
+   "reads": 76,
+   "sessions": 112
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2974,
+   "views": 2975,
    "reads": 179,
    "completes": 16,
-   "sessions": 2978,
+   "sessions": 2979,
    "read_rate": 0.06,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "organic",
-   "views": 118,
-   "reads": 75,
+   "views": 119,
+   "reads": 76,
    "completes": 3,
-   "sessions": 111,
-   "read_rate": 0.636,
+   "sessions": 112,
+   "read_rate": 0.639,
    "complete_rate": 0.025,
    "pages_per_session": 1.06,
    "median_dwell_sec": 10
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2754,
-   "reads": 298,
-   "sessions": 2658
+   "views": 2756,
+   "reads": 299,
+   "sessions": 2660
   },
   {
    "device": "mobile",
@@ -442,14 +442,14 @@
    "plays": 0
   },
   {
-   "slug": "gpt-5-6-prompt-caching-explicit-breakpoints",
-   "title": "GPT-5.6 Rewired Prompt Caching: A Hands-On Guide to prompt_cache_options",
-   "section": "wire",
+   "slug": "2026-06-21-n8n-vs-flowise-vs-langflow",
+   "title": "n8n vs Flowise vs Langflow: Choosing a Visual Agent Builder in 2026",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 5,
    "reads": 4,
-   "plays": 0
+   "plays": 1
   }
  ],
  "topListens": [
@@ -504,6 +504,16 @@
    "plays": 1
   },
   {
+   "slug": "2026-06-21-n8n-vs-flowise-vs-langflow",
+   "title": "n8n vs Flowise vs Langflow: Choosing a Visual Agent Builder in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 5,
+   "reads": 4,
+   "plays": 1
+  },
+  {
    "slug": "arm-metis-open-source-ai-security-code-review",
    "title": "Arm Open-Sourced Its Internal Security Reviewer. Here's Whether You Should Run It.",
    "section": "wire",
@@ -520,16 +530,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 5,
-   "reads": 3,
-   "plays": 1
-  },
-  {
-   "slug": "2026-06-21-n8n-vs-flowise-vs-langflow",
-   "title": "n8n vs Flowise vs Langflow: Choosing a Visual Agent Builder in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 4,
    "reads": 3,
    "plays": 1
   },
@@ -781,8 +781,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 27,
-   "sessions": 17
+   "hits": 29,
+   "sessions": 18
   },
   {
    "ref": "https://l.instagram.com/",
