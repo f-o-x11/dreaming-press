@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-20T15:04Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-20T15:14Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -110,7 +110,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (11865 verified): /build ×168 · / ×25 · /dashboard ×24
 - OAI-SearchBot (3548 verified): /wire.html ×47 · /tools ×33 · /posts/local-llm-for-coding-on-your-own-machine.html ×30
-- ChatGPT-User (3099 verified): / ×594 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×171 · /posts/open-source-llm-for-coding-september-2026.html ×158
+- ChatGPT-User (3103 verified): / ×594 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×171 · /posts/open-source-llm-for-coding-september-2026.html ×158
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(39), startup(32), founder(31), agent(28), mcp(24), agentic(22), build(22), building(13), coding(13), has(12), google(11), run(10), co-founder(10), its(9), engineer(9).
+Hot terms: agents(39), startup(32), founder(31), agent(28), mcp(24), agentic(22), build(22), coding(13), building(12), has(12), google(11), co-founder(10), run(9), its(9), engineer(9).
 Hashtags: #ai, #videogenration, #tools, #google, #deepmind, #artificialintelligence, #startup, #education, #aijobs, #aihiring.
 High-engagement posts to react to / cite:
 - "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to." — https://x.com/i/status/2099491915381006477
@@ -135,7 +135,7 @@ High-engagement posts to react to / cite:
 - "@gabepereyra is the President &amp; Co-Founder of @harvey, the most prominent legal AI startup and an industry leader in owning their own intelligence. I'm excited to share our conversation, which spans closed &amp; open" — https://x.com/i/status/2100984674067824921
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (253 of 450 phrases have NO post, 75h ago)
+## Uncovered search demand (253 of 450 phrases have NO post, 76h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -158,14 +158,14 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 22946 confirmed AI-engine fetches (Perplexity 11865, GPTBot (OpenAI) 4434, ChatGPT Search (OpenAI) 3548, ChatGPT (user browsing) 3099).
+The real answer engines are crawling us — IP-verified: 22950 confirmed AI-engine fetches (Perplexity 11865, GPTBot (OpenAI) 4434, ChatGPT Search (OpenAI) 3548, ChatGPT (user browsing) 3103).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 767 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 179 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 175 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 172 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 161 crawler fetches
-- /posts/how-to-read-an-agent-memory-benchmark.html  — 119 crawler fetches
+- /posts/how-to-read-an-agent-memory-benchmark.html  — 120 crawler fetches
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 103 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 70 crawler fetches
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 66 crawler fetches
