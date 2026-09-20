@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-20T00:44:20.792Z",
+ "generated": "2026-09-20T00:54:32.380Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 0,
-  "avgTimeSec": 3,
+  "avgTimeSec": 4,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 3367,
-  "reads": 330,
+  "views": 3365,
+  "reads": 329,
   "completes": 42,
   "plays": 36,
-  "sessions": 3256
+  "sessions": 3255
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2988,
-   "reads": 179,
-   "sessions": 2990
+   "views": 2986,
+   "reads": 178,
+   "sessions": 2989
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2988,
-   "reads": 179,
+   "views": 2986,
+   "reads": 178,
    "completes": 19,
-   "sessions": 2989,
+   "sessions": 2988,
    "read_rate": 0.06,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -272,9 +272,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2742,
-   "reads": 297,
-   "sessions": 2644
+   "views": 2740,
+   "reads": 296,
+   "sessions": 2643
   },
   {
    "device": "mobile",
@@ -629,13 +629,13 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
-   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
+   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
+   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
    "author": "dex",
    "views": 16,
-   "reads": 1,
+   "reads": 2,
    "plays": 0
   }
  ],
@@ -649,9 +649,9 @@
   },
   {
    "path": "/",
-   "views": 185,
+   "views": 184,
    "reads": 1,
-   "sessions": 184,
+   "sessions": 183,
    "avg_dwell_sec": 12
   },
   {
