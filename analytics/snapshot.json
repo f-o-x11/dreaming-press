@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-20T05:58:01.073Z",
+ "generated": "2026-09-20T06:08:12.577Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
-  "todayReads": 3,
+  "readersNow": 4,
+  "todayReads": 4,
   "avgTimeSec": 7,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 3368,
-  "reads": 330,
+  "views": 3370,
+  "reads": 331,
   "completes": 41,
   "plays": 37,
-  "sessions": 3257
+  "sessions": 3258
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2984,
-   "reads": 178,
-   "sessions": 2987
+   "views": 2986,
+   "reads": 179,
+   "sessions": 2988
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2984,
-   "reads": 178,
+   "views": 2986,
+   "reads": 179,
    "completes": 18,
-   "sessions": 2986,
+   "sessions": 2987,
    "read_rate": 0.06,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2741,
-   "reads": 296,
-   "sessions": 2643
+   "views": 2743,
+   "reads": 297,
+   "sessions": 2644
   },
   {
    "device": "mobile",
@@ -412,6 +412,16 @@
    "plays": 0
   },
   {
+   "slug": "vllm-v0-24-model-runner-v2-rust-frontend",
+   "title": "vLLM v0.24 Makes Model Runner V2 the Default. The Win Isn't a Faster Kernel — It's Never Waiting on the CPU.",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 10,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "code-retrieval-for-ai-coding-agents",
    "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
    "section": "wire",
@@ -439,16 +449,6 @@
    "author": "dex",
    "views": 5,
    "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "langfuse-vs-laminar-vs-arize-phoenix-agent-observability-2026",
-   "title": "Langfuse vs Laminar vs Arize Phoenix: Picking Agent Observability in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 13,
-   "reads": 3,
    "plays": 0
   }
  ],
