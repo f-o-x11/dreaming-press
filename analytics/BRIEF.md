@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-20T04:57Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-20T05:07Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -109,8 +109,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (11496 verified): /build ×162 · / ×25 · /authors ×23
-- OAI-SearchBot (3425 verified): /wire.html ×47 · /tools ×33 · /posts/local-llm-for-coding-on-your-own-machine.html ×29
-- ChatGPT-User (3023 verified): / ×577 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×165 · /posts/open-source-llm-for-coding-september-2026.html ×152
+- OAI-SearchBot (3429 verified): /wire.html ×47 · /tools ×33 · /posts/local-llm-for-coding-on-your-own-machine.html ×29
+- ChatGPT-User (3024 verified): / ×577 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×165 · /posts/open-source-llm-for-coding-september-2026.html ×152
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(37), startup(31), founder(30), agent(28), build(22), mcp(22), agentic(21), coding(15), building(14), google(13), has(12), run(10), its(10), co-founder(10), every(8).
+Hot terms: agents(37), startup(31), founder(30), agent(28), build(22), mcp(22), agentic(21), coding(15), building(13), google(13), has(12), its(10), co-founder(10), run(9), every(8).
 Hashtags: #ai, #startup, #videogenration, #tools, #google, #deepmind, #founder, #artificialintelligence, #education, #aijobs.
 High-engagement posts to react to / cite:
 - "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to." — https://x.com/i/status/2099491915381006477
@@ -135,7 +135,7 @@ High-engagement posts to react to / cite:
 - "@gabepereyra is the President &amp; Co-Founder of @harvey, the most prominent legal AI startup and an industry leader in owning their own intelligence. I'm excited to share our conversation, which spans closed &amp; open" — https://x.com/i/status/2100984674067824921
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (253 of 450 phrases have NO post, 65h ago)
+## Uncovered search demand (253 of 450 phrases have NO post, 66h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -158,9 +158,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 22213 confirmed AI-engine fetches (Perplexity 11496, GPTBot (OpenAI) 4269, ChatGPT Search (OpenAI) 3425, ChatGPT (user browsing) 3023).
+The real answer engines are crawling us — IP-verified: 22218 confirmed AI-engine fetches (Perplexity 11496, GPTBot (OpenAI) 4269, ChatGPT Search (OpenAI) 3429, ChatGPT (user browsing) 3024).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 747 crawler fetches
+- /build  — 748 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 173 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 171 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 165 crawler fetches
