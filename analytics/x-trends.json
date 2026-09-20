@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-20T13:23:39.571Z",
+ "generated": "2026-09-20T13:33:45.880Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -16,7 +16,7 @@
   },
   {
    "term": "founder",
-   "count": 29
+   "count": 30
   },
   {
    "term": "agent",
@@ -36,10 +36,6 @@
   },
   {
    "term": "coding",
-   "count": 14
-  },
-  {
-   "term": "google",
    "count": 13
   },
   {
@@ -51,12 +47,16 @@
    "count": 12
   },
   {
-   "term": "co-founder",
+   "term": "google",
    "count": 11
   },
   {
-   "term": "its",
+   "term": "co-founder",
    "count": 10
+  },
+  {
+   "term": "its",
+   "count": 9
   },
   {
    "term": "engineer",
