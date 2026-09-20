@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-20T10:51:58.773Z",
+ "generated": "2026-09-20T11:02:00.562Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 22695,
+ "verifiedAiHits": 22698,
  "logsScanned": 30,
  "windowStart": "2026-09-06",
  "windowEnd": "2026-09-20",
- "totalHits": 129801,
- "aiHits": 100292,
+ "totalHits": 129829,
+ "aiHits": 100318,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35156,
+   "hits": 35172,
    "verifiedHits": 0,
    "firstSeen": "2026-09-06",
    "lastSeen": "2026-09-20",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 97
+     "hits": 98
     },
     {
      "path": "/tags/opinionated",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15138,
+   "hits": 15145,
    "verifiedHits": 0,
    "firstSeen": "2026-09-06",
    "lastSeen": "2026-09-20",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6710,
-   "verifiedHits": 6189,
+   "hits": 6712,
+   "verifiedHits": 6191,
    "firstSeen": "2026-09-06",
    "lastSeen": "2026-09-20",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4092,
-   "verifiedHits": 3506,
+   "hits": 4093,
+   "verifiedHits": 3507,
    "firstSeen": "2026-09-06",
    "lastSeen": "2026-09-20",
    "topPaths": [
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3598,
-   "verifiedHits": 3062,
+   "hits": 3600,
+   "verifiedHits": 3064,
    "firstSeen": "2026-09-06",
    "lastSeen": "2026-09-20",
    "topPaths": [
     {
      "path": "/",
-     "hits": 586
+     "hits": 587
     },
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
