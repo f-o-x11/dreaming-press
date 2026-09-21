@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-21T20:35:45.915Z",
+ "generated": "2026-09-21T20:45:50.927Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 31,
-  "avgTimeSec": 28,
+  "readersNow": 4,
+  "todayReads": 33,
+  "avgTimeSec": 33,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3291,
-  "reads": 331,
+  "views": 3288,
+  "reads": 333,
   "completes": 37,
   "plays": 33,
-  "sessions": 3200
+  "sessions": 3201
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2930,
-   "reads": 178,
-   "sessions": 2951
+   "views": 2927,
+   "reads": 180,
+   "sessions": 2952
   },
   {
    "channel": "organic",
@@ -61,16 +61,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 21
+   "sessions": 20
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2930,
-   "reads": 178,
+   "views": 2927,
+   "reads": 180,
    "completes": 15,
-   "sessions": 2950,
+   "sessions": 2951,
    "read_rate": 0.061,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -147,7 +147,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 21,
+   "sessions": 20,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -167,8 +167,8 @@
   },
   {
    "surface": "nav-cmp",
-   "clicks": 5,
-   "sessions": 4
+   "clicks": 4,
+   "sessions": 3
   },
   {
    "surface": "cited-list",
@@ -179,11 +179,6 @@
    "surface": "article-body",
    "clicks": 4,
    "sessions": 3
-  },
-  {
-   "surface": "feature",
-   "clicks": 3,
-   "sessions": 1
   },
   {
    "surface": "dg-title",
@@ -229,6 +224,11 @@
    "surface": "rr-card",
    "clicks": 1,
    "sessions": 1
+  },
+  {
+   "surface": "desk-mostread",
+   "clicks": 1,
+   "sessions": 1
   }
  ],
  "assistants": [
@@ -260,9 +260,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2711,
-   "reads": 303,
-   "sessions": 2624
+   "views": 2708,
+   "reads": 305,
+   "sessions": 2625
   },
   {
    "device": "mobile",
@@ -630,10 +630,10 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 393,
+   "views": 389,
    "reads": 0,
-   "sessions": 391,
-   "avg_dwell_sec": 4
+   "sessions": 389,
+   "avg_dwell_sec": 3
   },
   {
    "path": "/",
@@ -692,13 +692,6 @@
    "avg_dwell_sec": 5
   },
   {
-   "path": "/tools",
-   "views": 8,
-   "reads": 0,
-   "sessions": 8,
-   "avg_dwell_sec": 9
-  },
-  {
    "path": "/weekly",
    "views": 8,
    "reads": 0,
@@ -713,10 +706,17 @@
    "avg_dwell_sec": 6
   },
   {
-   "path": "/stack.html",
+   "path": "/tools",
    "views": 7,
    "reads": 0,
    "sessions": 7,
+   "avg_dwell_sec": 6
+  },
+  {
+   "path": "/stack.html",
+   "views": 6,
+   "reads": 0,
+   "sessions": 6,
    "avg_dwell_sec": 4
   },
   {
