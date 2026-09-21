@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-21T16:52:00.268Z",
+ "generated": "2026-09-21T17:02:00.356Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19508,
+ "verifiedAiHits": 19525,
  "logsScanned": 30,
  "windowStart": "2026-09-07",
  "windowEnd": "2026-09-21",
- "totalHits": 126174,
- "aiHits": 97705,
+ "totalHits": 126230,
+ "aiHits": 97752,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 34918,
+   "hits": 34939,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -28,12 +28,12 @@
      "hits": 62
     },
     {
-     "path": "/tags/reportive",
+     "path": "/",
      "hits": 43
     },
     {
-     "path": "/",
-     "hits": 42
+     "path": "/tags/reportive",
+     "hits": 43
     },
     {
      "path": "/authors/dex",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15467,
+   "hits": 15475,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 8907,
-   "verifiedHits": 8271,
+   "hits": 8920,
+   "verifiedHits": 8284,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4208,
-   "verifiedHits": 3615,
+   "hits": 4209,
+   "verifiedHits": 3616,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3735,
-   "verifiedHits": 3190,
+   "hits": 3738,
+   "verifiedHits": 3193,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3359,
+   "hits": 3368,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1885,
+   "hits": 1886,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
