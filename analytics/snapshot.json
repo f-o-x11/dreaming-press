@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-21T03:36:44.905Z",
+ "generated": "2026-09-21T03:46:54.560Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 5,
   "todayReads": 1,
   "avgTimeSec": 5,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3304,
+  "views": 3300,
   "reads": 327,
   "completes": 39,
   "plays": 34,
-  "sessions": 3198
+  "sessions": 3194
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2933,
+   "views": 2931,
    "reads": 177,
-   "sessions": 2943
+   "sessions": 2941
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 69,
+   "views": 67,
    "reads": 13,
-   "sessions": 66
+   "sessions": 64
   },
   {
    "channel": "ai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2933,
+   "views": 2931,
    "reads": 177,
    "completes": 16,
-   "sessions": 2942,
+   "sessions": 2940,
    "read_rate": 0.06,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -100,11 +100,11 @@
   },
   {
    "channel": "referral",
-   "views": 69,
+   "views": 67,
    "reads": 13,
    "completes": 0,
-   "sessions": 66,
-   "read_rate": 0.188,
+   "sessions": 64,
+   "read_rate": 0.194,
    "complete_rate": 0,
    "pages_per_session": 1.05,
    "median_dwell_sec": null
@@ -278,9 +278,9 @@
   },
   {
    "device": "mobile",
-   "views": 600,
+   "views": 596,
    "reads": 31,
-   "sessions": 589
+   "sessions": 585
   }
  ],
  "topContent": [
@@ -300,7 +300,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 31,
+   "views": 28,
    "reads": 13,
    "plays": 0
   },
@@ -574,7 +574,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 31,
+   "views": 28,
    "reads": 13,
    "plays": 0
   },
@@ -773,14 +773,14 @@
    "sessions": 8
   },
   {
-   "ref": "https://l.instagram.com/",
-   "hits": 15,
-   "sessions": 12
-  },
-  {
    "ref": "https://search.brave.com/",
    "hits": 14,
    "sessions": 8
+  },
+  {
+   "ref": "https://l.instagram.com/",
+   "hits": 13,
+   "sessions": 10
   },
   {
    "ref": "brand",
