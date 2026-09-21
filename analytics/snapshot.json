@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-21T01:55:23.099Z",
+ "generated": "2026-09-21T02:05:28.399Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 1,
   "avgTimeSec": 6,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3312,
-  "reads": 334,
-  "completes": 40,
-  "plays": 36,
-  "sessions": 3206
+  "views": 3306,
+  "reads": 329,
+  "completes": 39,
+  "plays": 34,
+  "sessions": 3202
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2932,
-   "reads": 179,
-   "sessions": 2943
+   "views": 2930,
+   "reads": 178,
+   "sessions": 2942
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 77,
-   "reads": 18,
-   "sessions": 74
+   "views": 73,
+   "reads": 14,
+   "sessions": 70
   },
   {
    "channel": "ai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2932,
-   "reads": 179,
+   "views": 2930,
+   "reads": 178,
    "completes": 16,
-   "sessions": 2942,
+   "sessions": 2941,
    "read_rate": 0.061,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -100,12 +100,12 @@
   },
   {
    "channel": "referral",
-   "views": 77,
-   "reads": 18,
-   "completes": 1,
-   "sessions": 74,
-   "read_rate": 0.234,
-   "complete_rate": 0.013,
+   "views": 73,
+   "reads": 14,
+   "completes": 0,
+   "sessions": 70,
+   "read_rate": 0.192,
+   "complete_rate": 0,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
   },
@@ -221,12 +221,12 @@
    "sessions": 2
   },
   {
-   "surface": "auto-link",
-   "clicks": 2,
-   "sessions": 2
+   "surface": "wire-row",
+   "clicks": 1,
+   "sessions": 1
   },
   {
-   "surface": "wire-row",
+   "surface": "tr-row",
    "clicks": 1,
    "sessions": 1
   }
@@ -272,28 +272,18 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2709,
-   "reads": 300,
-   "sessions": 2615
+   "views": 2706,
+   "reads": 298,
+   "sessions": 2614
   },
   {
    "device": "mobile",
-   "views": 603,
-   "reads": 34,
-   "sessions": 592
+   "views": 600,
+   "reads": 31,
+   "sessions": 589
   }
  ],
  "topContent": [
-  {
-   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
-   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 37,
-   "reads": 17,
-   "plays": 2
-  },
   {
    "slug": "open-source-llm-for-coding-september-2026",
    "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
@@ -303,6 +293,16 @@
    "views": 47,
    "reads": 13,
    "plays": 1
+  },
+  {
+   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
+   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 33,
+   "reads": 13,
+   "plays": 0
   },
   {
    "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
@@ -457,16 +457,6 @@
    "plays": 7
   },
   {
-   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
-   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 37,
-   "reads": 17,
-   "plays": 2
-  },
-  {
    "slug": "open-source-llm-for-coding-september-2026",
    "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
    "section": "stack",
@@ -535,6 +525,16 @@
    "views": 6,
    "reads": 2,
    "plays": 1
+  },
+  {
+   "slug": "self-rag-vs-corrective-rag-vs-adaptive-rag-retrieval-self-check",
+   "title": "Self-RAG vs Corrective RAG vs Adaptive-RAG: Three Ways to Make Retrieval Check Itself",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 3,
+   "reads": 2,
+   "plays": 1
   }
  ],
  "topViews": [
@@ -574,9 +574,9 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 37,
-   "reads": 17,
-   "plays": 2
+   "views": 33,
+   "reads": 13,
+   "plays": 0
   },
   {
    "slug": "best-open-source-rl-frameworks-for-training-agents",
@@ -677,10 +677,10 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 18,
+   "views": 17,
    "reads": 0,
-   "sessions": 18,
-   "avg_dwell_sec": 6
+   "sessions": 17,
+   "avg_dwell_sec": 7
   },
   {
    "path": "/dashboard",
@@ -768,14 +768,14 @@
    "sessions": 19
   },
   {
-   "ref": "https://l.instagram.com/",
-   "hits": 25,
-   "sessions": 17
-  },
-  {
    "ref": "https://www.doubao.com/",
    "hits": 23,
    "sessions": 8
+  },
+  {
+   "ref": "https://l.instagram.com/",
+   "hits": 17,
+   "sessions": 14
   },
   {
    "ref": "https://search.brave.com/",
@@ -793,9 +793,9 @@
    "sessions": 4
   },
   {
-   "ref": "http://114.114.114.114:9421/",
-   "hits": 7,
-   "sessions": 4
+   "ref": "https://playground.rialo.io/",
+   "hits": 6,
+   "sessions": 1
   }
  ]
 }
