@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-21T23:18Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-21T23:28Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -108,8 +108,8 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html  — 30 retrieval fetches
 
 Per engine:
-- PerplexityBot (8882 verified): /build ×94 · / ×29 · /newsroom ×25
-- OAI-SearchBot (3711 verified): /wire.html ×47 · /tools ×35 · /posts/local-llm-for-coding-on-your-own-machine.html ×30
+- PerplexityBot (8926 verified): /build ×94 · / ×29 · /newsroom ×25
+- OAI-SearchBot (3713 verified): /wire.html ×47 · /tools ×35 · /posts/local-llm-for-coding-on-your-own-machine.html ×30
 - ChatGPT-User (3252 verified): / ×611 · /posts/open-source-llm-for-coding-september-2026.html ×178 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×177
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(40), founder(35), startup(34), agent(24), build(23), agentic(21), mcp(21), coding(13), building(12), launch(10), has(10), google(9), every(8), engineer(8), trading(8).
+Hot terms: agents(40), founder(35), startup(34), agentic(24), agent(24), build(23), mcp(21), coding(16), building(12), launch(10), has(10), google(9), every(8), engineer(8), trading(8).
 Hashtags: #ai, #videogenration, #tools, #startup, #mcp, #security, #google, #mechanize, #deepmind, #newsrupt.
 High-engagement posts to react to / cite:
 - "Humans sleep, but trading agents don’t 🤖 Charting into the Agentic Trading era with tokenized US stocks operating 24/7! @Bitget_AI just launched the Builder Base Camp Hackathon S2 featuring a 50,000 USDT prize pool! Whe" — https://x.com/i/status/2100809997265301793
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 20279 confirmed AI-engine fetches (Perplexity 8882, GPTBot (OpenAI) 4434, ChatGPT Search (OpenAI) 3711, ChatGPT (user browsing) 3252).
+The real answer engines are crawling us — IP-verified: 20325 confirmed AI-engine fetches (Perplexity 8926, GPTBot (OpenAI) 4434, ChatGPT Search (OpenAI) 3713, ChatGPT (user browsing) 3252).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 702 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 215 crawler fetches
