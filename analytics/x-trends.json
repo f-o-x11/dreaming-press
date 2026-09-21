@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-21T01:25:04.897Z",
+ "generated": "2026-09-21T01:35:05.749Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -11,23 +11,23 @@
    "count": 38
   },
   {
-   "term": "startup",
-   "count": 33
-  },
-  {
    "term": "founder",
    "count": 32
+  },
+  {
+   "term": "startup",
+   "count": 31
   },
   {
    "term": "agent",
    "count": 26
   },
   {
-   "term": "build",
-   "count": 22
+   "term": "agentic",
+   "count": 21
   },
   {
-   "term": "agentic",
+   "term": "build",
    "count": 21
   },
   {
@@ -36,7 +36,7 @@
   },
   {
    "term": "building",
-   "count": 12
+   "count": 13
   },
   {
    "term": "has",
@@ -63,6 +63,10 @@
    "count": 8
   },
   {
+   "term": "run",
+   "count": 8
+  },
+  {
    "term": "every",
    "count": 8
   },
@@ -81,16 +85,12 @@
   {
    "term": "own",
    "count": 7
-  },
-  {
-   "term": "run",
-   "count": 7
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 7
+   "count": 6
   },
   {
    "term": "#videogenration",
