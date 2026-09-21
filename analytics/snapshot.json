@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-21T11:42:15.689Z",
+ "generated": "2026-09-21T12:01:31.636Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 8,
   "todayReads": 15,
   "avgTimeSec": 32,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3263,
+  "views": 3269,
   "reads": 326,
   "completes": 38,
   "plays": 34,
-  "sessions": 3153
+  "sessions": 3159
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2899,
+   "views": 2904,
    "reads": 175,
-   "sessions": 2904
+   "sessions": 2909
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 148,
+   "views": 149,
    "reads": 43,
-   "sessions": 146
+   "sessions": 147
   },
   {
    "channel": "ai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2899,
+   "views": 2904,
    "reads": 175,
    "completes": 16,
-   "sessions": 2903,
+   "sessions": 2908,
    "read_rate": 0.06,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 148,
+   "views": 149,
    "reads": 43,
    "completes": 4,
-   "sessions": 146,
-   "read_rate": 0.291,
+   "sessions": 147,
+   "read_rate": 0.289,
    "complete_rate": 0.027,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 159,
+   "views": 160,
    "reads": 44,
-   "sessions": 155
+   "sessions": 156
   },
   {
    "assistant": "Doubao",
@@ -266,15 +266,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2695,
+   "views": 2693,
    "reads": 300,
-   "sessions": 2595
+   "sessions": 2593
   },
   {
    "device": "mobile",
-   "views": 568,
+   "views": 576,
    "reads": 26,
-   "sessions": 559
+   "sessions": 567
   }
  ],
  "topContent": [
@@ -705,18 +705,18 @@
    "avg_dwell_sec": 8
   },
   {
+   "path": "/tools",
+   "views": 9,
+   "reads": 0,
+   "sessions": 9,
+   "avg_dwell_sec": 8
+  },
+  {
    "path": "/global-tech-news",
    "views": 8,
    "reads": 0,
    "sessions": 7,
    "avg_dwell_sec": 7
-  },
-  {
-   "path": "/tools",
-   "views": 8,
-   "reads": 0,
-   "sessions": 8,
-   "avg_dwell_sec": 8
   },
   {
    "path": "/weekly",
