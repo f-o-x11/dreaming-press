@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-21T02:45:42.492Z",
+ "generated": "2026-09-21T02:55:42.899Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18804,
+ "verifiedAiHits": 18817,
  "logsScanned": 30,
  "windowStart": "2026-09-07",
  "windowEnd": "2026-09-21",
- "totalHits": 122162,
- "aiHits": 94323,
+ "totalHits": 122207,
+ "aiHits": 94364,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 33677,
+   "hits": 33695,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18411,
+   "hits": 18413,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14827,
+   "hits": 14834,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 8538,
-   "verifiedHits": 7903,
+   "hits": 8546,
+   "verifiedHits": 7911,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
    "topPaths": [
@@ -164,8 +164,8 @@
      "hits": 23
     },
     {
-     "path": "/authors",
-     "hits": 22
+     "path": "/posts/2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe.html",
+     "hits": 21
     },
     {
      "path": "/authors/dex",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6648,
-   "verifiedHits": 6220,
+   "hits": 6651,
+   "verifiedHits": 6223,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4041,
-   "verifiedHits": 3451,
+   "hits": 4044,
+   "verifiedHits": 3454,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
    "topPaths": [
@@ -263,11 +263,11 @@
      "hits": 29
     },
     {
-     "path": "/posts/2026-08-19-founders-wire-etched-21b-chatgpt-teens-reach-capital.html",
-     "hits": 28
+     "path": "/posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html",
+     "hits": 29
     },
     {
-     "path": "/posts/2026-08-15-founders-wire-openai-ultrafast-gemini-flash-glm-5-3.html",
+     "path": "/posts/2026-08-19-founders-wire-etched-21b-chatgpt-teens-reach-capital.html",
      "hits": 28
     }
    ],
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3562,
-   "verifiedHits": 3019,
+   "hits": 3564,
+   "verifiedHits": 3021,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3231,
+   "hits": 3232,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1768,
+   "hits": 1769,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
