@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-21T13:18Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-21T13:28Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -105,12 +105,12 @@ sample size dwarfs the engaged-read counts below.
 - /tools  — 55 retrieval fetches
 - /wire.html  — 46 retrieval fetches
 - /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html  — 30 retrieval fetches
-- /posts/local-llm-for-coding-on-your-own-machine.html  — 29 retrieval fetches
+- /posts/2026-08-19-founders-wire-etched-21b-chatgpt-teens-reach-capital.html  — 29 retrieval fetches
 
 Per engine:
 - PerplexityBot (7958 verified): /build ×89 · / ×26 · /newsroom ×23
-- OAI-SearchBot (3591 verified): /wire.html ×46 · /tools ×33 · /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html ×30
-- ChatGPT-User (3143 verified): / ×594 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×174 · /posts/open-source-llm-for-coding-september-2026.html ×169
+- OAI-SearchBot (3593 verified): /wire.html ×46 · /tools ×33 · /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html ×30
+- ChatGPT-User (3144 verified): / ×594 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×174 · /posts/open-source-llm-for-coding-september-2026.html ×169
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -131,8 +131,8 @@ High-engagement posts to react to / cite:
 - "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to." — https://x.com/i/status/2099491915381006477
 - "Humans sleep, but trading agents don’t 🤖 Charting into the Agentic Trading era with tokenized US stocks operating 24/7! @Bitget_AI just launched the Builder Base Camp Hackathon S2 featuring a 50,000 USDT prize pool! Whe" — https://x.com/i/status/2100809997265301793
 - "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen" — https://x.com/i/status/2100517638611087443
-- "50,000 USDT on the line + free Qwen / Kimi K3 credits. AI × tokenized US stocks × 7days 24hours. When markets never close, humans sleep but agents don’t. Agent Hub 2.0 is live I believe this is first of it kind in the in" — https://x.com/i/status/2101183618529841558
 - "Build but build well on @RobinhoodCrypto make a difference. I have been thirsty to extend on my thesis; Before I dive into things just note @vladtenev quoted “The next era of consumer finance is agentic.” There’s nothing" — https://x.com/i/status/2102019638498402351
+- "50,000 USDT on the line + free Qwen / Kimi K3 credits. AI × tokenized US stocks × 7days 24hours. When markets never close, humans sleep but agents don’t. Agent Hub 2.0 is live I believe this is first of it kind in the in" — https://x.com/i/status/2101183618529841558
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (248 of 450 phrases have NO post, 2h ago)
@@ -158,10 +158,10 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 19124 confirmed AI-engine fetches (Perplexity 7958, GPTBot (OpenAI) 4432, ChatGPT Search (OpenAI) 3591, ChatGPT (user browsing) 3143).
+The real answer engines are crawling us — IP-verified: 19127 confirmed AI-engine fetches (Perplexity 7958, GPTBot (OpenAI) 4432, ChatGPT Search (OpenAI) 3593, ChatGPT (user browsing) 3144).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 690 crawler fetches
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 197 crawler fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 198 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 179 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 178 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 169 crawler fetches
