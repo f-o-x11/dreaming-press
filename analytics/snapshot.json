@@ -1,37 +1,37 @@
 {
- "generated": "2026-09-21T11:12:50.941Z",
+ "generated": "2026-09-21T11:22:50.960Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 13,
-  "avgTimeSec": 27,
+  "readersNow": 5,
+  "todayReads": 15,
+  "avgTimeSec": 34,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3264,
+  "views": 3263,
   "reads": 326,
   "completes": 38,
-  "plays": 35,
-  "sessions": 3154
+  "plays": 34,
+  "sessions": 3153
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2900,
+   "views": 2899,
    "reads": 175,
    "sessions": 2904
   },
   {
    "channel": "organic",
-   "views": 113,
-   "reads": 79,
-   "sessions": 107
+   "views": 114,
+   "reads": 80,
+   "sessions": 108
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 149,
-   "reads": 44,
-   "sessions": 147
+   "views": 148,
+   "reads": 43,
+   "sessions": 146
   },
   {
    "channel": "ai",
@@ -67,7 +67,7 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2900,
+   "views": 2899,
    "reads": 175,
    "completes": 16,
    "sessions": 2903,
@@ -78,23 +78,23 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 149,
-   "reads": 44,
+   "views": 148,
+   "reads": 43,
    "completes": 4,
-   "sessions": 147,
-   "read_rate": 0.295,
+   "sessions": 146,
+   "read_rate": 0.291,
    "complete_rate": 0.027,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
   },
   {
    "channel": "organic",
-   "views": 113,
-   "reads": 79,
+   "views": 114,
+   "reads": 80,
    "completes": 3,
-   "sessions": 107,
-   "read_rate": 0.699,
-   "complete_rate": 0.027,
+   "sessions": 108,
+   "read_rate": 0.702,
+   "complete_rate": 0.026,
    "pages_per_session": 1.06,
    "median_dwell_sec": null
   },
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 160,
-   "reads": 45,
-   "sessions": 156
+   "views": 159,
+   "reads": 44,
+   "sessions": 155
   },
   {
    "assistant": "Doubao",
@@ -266,15 +266,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2698,
+   "views": 2695,
    "reads": 300,
-   "sessions": 2598
+   "sessions": 2595
   },
   {
    "device": "mobile",
-   "views": 566,
+   "views": 568,
    "reads": 26,
-   "sessions": 557
+   "sessions": 559
   }
  ],
  "topContent": [
@@ -558,7 +558,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 38,
+   "views": 37,
    "reads": 0,
    "plays": 0
   },
@@ -748,8 +748,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 65,
-   "sessions": 36
+   "hits": 62,
+   "sessions": 35
   },
   {
    "ref": "https://duckduckgo.com/",
@@ -758,8 +758,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 33,
-   "sessions": 20
+   "hits": 35,
+   "sessions": 21
   },
   {
    "ref": "https://www.doubao.com/",
