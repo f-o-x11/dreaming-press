@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-21T02:15:30.971Z",
+ "generated": "2026-09-21T02:25:34.435Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -16,7 +16,7 @@
   },
   {
    "term": "startup",
-   "count": 31
+   "count": 30
   },
   {
    "term": "agent",
@@ -39,15 +39,15 @@
    "count": 12
   },
   {
-   "term": "has",
-   "count": 12
-  },
-  {
    "term": "coding",
    "count": 12
   },
   {
    "term": "google",
+   "count": 11
+  },
+  {
+   "term": "has",
    "count": 11
   },
   {
@@ -60,6 +60,10 @@
   },
   {
    "term": "launch",
+   "count": 8
+  },
+  {
+   "term": "run",
    "count": 8
   },
   {
@@ -80,10 +84,6 @@
   },
   {
    "term": "security",
-   "count": 7
-  },
-  {
-   "term": "own",
    "count": 7
   }
  ],
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to.",
-   "engagement": 4854,
+   "engagement": 4853,
    "url": "https://x.com/i/status/2099491915381006477",
    "created": "2026-09-14T13:34:13.000Z"
   },
