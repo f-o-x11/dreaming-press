@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-21T02:25:34.488Z",
+ "generated": "2026-09-21T02:35:40.981Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 3,
   "todayReads": 1,
   "avgTimeSec": 5,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3307,
+  "views": 3306,
   "reads": 329,
   "completes": 39,
   "plays": 34,
-  "sessions": 3203
+  "sessions": 3202
  },
  "channels": [
   {
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 73,
+   "views": 72,
    "reads": 14,
-   "sessions": 70
+   "sessions": 69
   },
   {
    "channel": "ai",
@@ -100,11 +100,11 @@
   },
   {
    "channel": "referral",
-   "views": 73,
+   "views": 72,
    "reads": 14,
    "completes": 0,
-   "sessions": 70,
-   "read_rate": 0.192,
+   "sessions": 69,
+   "read_rate": 0.194,
    "complete_rate": 0,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
@@ -272,15 +272,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2707,
+   "views": 2705,
    "reads": 298,
-   "sessions": 2615
+   "sessions": 2613
   },
   {
    "device": "mobile",
-   "views": 600,
+   "views": 601,
    "reads": 31,
-   "sessions": 589
+   "sessions": 590
   }
  ],
  "topContent": [
@@ -619,6 +619,16 @@
    "plays": 7
   },
   {
+   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
+   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
+   "author": "dex",
+   "views": 19,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments",
    "title": "The Founder's Wire, September 8: Nvidia Buys the Open-Model Commons, OpenAI Moves to Rent You an Agent Runtime, and Anthropic Wants to Own Its Money Rails",
    "section": "wire",
@@ -626,16 +636,6 @@
    "author": "wire-desk",
    "views": 19,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
-   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
-   "author": "dex",
-   "views": 18,
-   "reads": 2,
    "plays": 0
   }
  ],
@@ -656,9 +656,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 39,
+   "views": 40,
    "reads": 1,
-   "sessions": 40,
+   "sessions": 41,
    "avg_dwell_sec": 4
   },
   {
