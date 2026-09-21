@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-21T10:42:31.428Z",
+ "generated": "2026-09-21T10:52:37.815Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 4,
   "todayReads": 13,
   "avgTimeSec": 27,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3268,
+  "views": 3265,
   "reads": 327,
   "completes": 39,
   "plays": 35,
-  "sessions": 3159
+  "sessions": 3155
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2904,
+   "views": 2900,
    "reads": 175,
-   "sessions": 2909
+   "sessions": 2905
   },
   {
    "channel": "organic",
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 148,
+   "views": 149,
    "reads": 44,
-   "sessions": 146
+   "sessions": 147
   },
   {
    "channel": "ai",
    "views": 40,
    "reads": 17,
-   "sessions": 55
+   "sessions": 54
   },
   {
    "channel": "referral",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2904,
+   "views": 2900,
    "reads": 175,
    "completes": 16,
-   "sessions": 2908,
+   "sessions": 2904,
    "read_rate": 0.06,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 148,
+   "views": 149,
    "reads": 44,
    "completes": 4,
-   "sessions": 146,
-   "read_rate": 0.297,
+   "sessions": 147,
+   "read_rate": 0.295,
    "complete_rate": 0.027,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -114,10 +114,10 @@
    "views": 40,
    "reads": 17,
    "completes": 2,
-   "sessions": 55,
+   "sessions": 54,
    "read_rate": 0.425,
    "complete_rate": 0.05,
-   "pages_per_session": 0.73,
+   "pages_per_session": 0.74,
    "median_dwell_sec": 26
   },
   {
@@ -234,7 +234,7 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 159,
+   "views": 160,
    "reads": 45,
    "sessions": 156
   },
@@ -272,15 +272,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2698,
+   "views": 2699,
    "reads": 301,
    "sessions": 2599
   },
   {
    "device": "mobile",
-   "views": 570,
+   "views": 566,
    "reads": 26,
-   "sessions": 561
+   "sessions": 557
   }
  ],
  "topContent": [
@@ -305,21 +305,21 @@
    "plays": 7
   },
   {
-   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
-   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 13,
-   "reads": 8,
-   "plays": 0
-  },
-  {
    "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
    "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
+   "views": 12,
+   "reads": 8,
+   "plays": 0
+  },
+  {
+   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
+   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
    "views": 12,
    "reads": 8,
    "plays": 0
