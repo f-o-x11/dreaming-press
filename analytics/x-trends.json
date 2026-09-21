@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-21T10:52:37.764Z",
+ "generated": "2026-09-21T11:02:44.311Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -16,7 +16,7 @@
   },
   {
    "term": "startup",
-   "count": 33
+   "count": 32
   },
   {
    "term": "agent",
@@ -28,7 +28,7 @@
   },
   {
    "term": "build",
-   "count": 20
+   "count": 21
   },
   {
    "term": "mcp",
@@ -36,7 +36,7 @@
   },
   {
    "term": "building",
-   "count": 12
+   "count": 14
   },
   {
    "term": "coding",
@@ -63,6 +63,10 @@
    "count": 8
   },
   {
+   "term": "connect",
+   "count": 8
+  },
+  {
    "term": "trading",
    "count": 8
   },
@@ -81,16 +85,16 @@
   {
    "term": "like",
    "count": 7
-  },
-  {
-   "term": "its",
-   "count": 7
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 6
+   "count": 7
+  },
+  {
+   "term": "#startup",
+   "count": 3
   },
   {
    "term": "#videogenration",
@@ -101,7 +105,7 @@
    "count": 2
   },
   {
-   "term": "#startup",
+   "term": "#founder",
    "count": 2
   },
   {
@@ -130,10 +134,6 @@
   },
   {
    "term": "#newsrupt",
-   "count": 1
-  },
-  {
-   "term": "#australia",
    "count": 1
   }
  ],

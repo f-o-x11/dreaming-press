@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-21T10:52:37.815Z",
+ "generated": "2026-09-21T11:02:44.360Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 3,
   "todayReads": 13,
   "avgTimeSec": 27,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3265,
-  "reads": 327,
-  "completes": 39,
+  "views": 3263,
+  "reads": 326,
+  "completes": 38,
   "plays": 35,
-  "sessions": 3155
+  "sessions": 3153
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2900,
+   "views": 2899,
    "reads": 175,
-   "sessions": 2905
+   "sessions": 2903
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 40,
-   "reads": 17,
-   "sessions": 54
+   "views": 39,
+   "reads": 16,
+   "sessions": 53
   },
   {
    "channel": "referral",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2900,
+   "views": 2899,
    "reads": 175,
    "completes": 16,
-   "sessions": 2904,
+   "sessions": 2902,
    "read_rate": 0.06,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -111,12 +111,12 @@
   },
   {
    "channel": "ai",
-   "views": 40,
-   "reads": 17,
-   "completes": 2,
-   "sessions": 54,
-   "read_rate": 0.425,
-   "complete_rate": 0.05,
+   "views": 39,
+   "reads": 16,
+   "completes": 1,
+   "sessions": 53,
+   "read_rate": 0.41,
+   "complete_rate": 0.026,
    "pages_per_session": 0.74,
    "median_dwell_sec": 26
   },
@@ -257,12 +257,6 @@
    "sessions": 1
   },
   {
-   "assistant": "Yuanbao",
-   "views": 1,
-   "reads": 1,
-   "sessions": 1
-  },
-  {
    "assistant": "Kimi",
    "views": 4,
    "reads": 0,
@@ -272,9 +266,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2699,
-   "reads": 301,
-   "sessions": 2599
+   "views": 2697,
+   "reads": 300,
+   "sessions": 2597
   },
   {
    "device": "mobile",
@@ -569,21 +563,21 @@
    "plays": 0
   },
   {
-   "slug": "best-open-source-rl-frameworks-for-training-agents",
-   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 25,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "2026-09-09-founders-wire-mistral-samsung-meta-muse-agent-commerce",
    "title": "The Founder's Wire, September 9: Mistral Raises $3.5B to Become Europe's Sovereign Frontier, and Meta's Muse Turns a Consumer AI Into a Shopper With a Stripe Wallet",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
+   "views": 24,
+   "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "best-open-source-rl-frameworks-for-training-agents",
+   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
    "views": 24,
    "reads": 0,
    "plays": 0
