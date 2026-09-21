@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-21T17:43:00.555Z",
+ "generated": "2026-09-21T17:53:28.245Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19628,
+ "verifiedAiHits": 19676,
  "logsScanned": 30,
  "windowStart": "2026-09-07",
  "windowEnd": "2026-09-21",
- "totalHits": 126474,
- "aiHits": 97963,
+ "totalHits": 126546,
+ "aiHits": 98030,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35001,
+   "hits": 35010,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15506,
+   "hits": 15514,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 9005,
-   "verifiedHits": 8369,
+   "hits": 9045,
+   "verifiedHits": 8409,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
    "topPaths": [
@@ -179,14 +179,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6992,
-   "verifiedHits": 6564,
+   "hits": 6993,
+   "verifiedHits": 6565,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 107
+     "hits": 108
     },
     {
      "path": "/posts/gpt-5-6-terra-vs-kimi-k3-mid-tier-agent-backend.html",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4217,
-   "verifiedHits": 3624,
+   "hits": 4223,
+   "verifiedHits": 3630,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
    "topPaths": [
@@ -256,7 +256,7 @@
     },
     {
      "path": "/tools",
-     "hits": 33
+     "hits": 34
     },
     {
      "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3747,
-   "verifiedHits": 3202,
+   "hits": 3749,
+   "verifiedHits": 3204,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3373,
+   "hits": 3377,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -476,7 +476,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 858,
+   "hits": 860,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
