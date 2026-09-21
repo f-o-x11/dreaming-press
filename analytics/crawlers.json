@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-21T09:51:52.237Z",
+ "generated": "2026-09-21T10:02:00.371Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18981,
+ "verifiedAiHits": 18987,
  "logsScanned": 30,
  "windowStart": "2026-09-07",
  "windowEnd": "2026-09-21",
- "totalHits": 124089,
- "aiHits": 95873,
+ "totalHits": 124139,
+ "aiHits": 95917,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 34287,
+   "hits": 34304,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18721,
+   "hits": 18731,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15144,
+   "hits": 15153,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6827,
-   "verifiedHits": 6399,
+   "hits": 6831,
+   "verifiedHits": 6403,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4119,
-   "verifiedHits": 3529,
+   "hits": 4123,
+   "verifiedHits": 3533,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3640,
-   "verifiedHits": 3096,
+   "hits": 3642,
+   "verifiedHits": 3098,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1042,
+   "hits": 1044,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -467,6 +467,39 @@
     {
      "path": "/alternatives/pgvector",
      "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "YouBot",
+   "label": "You.com",
+   "category": "ai",
+   "home": "https://about.you.com",
+   "hits": 835,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-07",
+   "lastSeen": "2026-09-21",
+   "topPaths": [
+    {
+     "path": "/dashboard",
+     "hits": 4
+    },
+    {
+     "path": "/posts/contextual-retrieval-vs-naive-rag.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/llm-inference-latency-ttft-vs-tpot.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/2026-06-23-how-much-vram-to-serve-an-llm.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/2026-06-22-reasoning-models-vs-standard-llms.html",
+     "hits": 2
     }
    ],
    "verifiable": false
@@ -500,39 +533,6 @@
     {
      "path": "/graphql",
      "hits": 3
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "YouBot",
-   "label": "You.com",
-   "category": "ai",
-   "home": "https://about.you.com",
-   "hits": 833,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-07",
-   "lastSeen": "2026-09-21",
-   "topPaths": [
-    {
-     "path": "/dashboard",
-     "hits": 4
-    },
-    {
-     "path": "/posts/contextual-retrieval-vs-naive-rag.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/llm-inference-latency-ttft-vs-tpot.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-06-23-how-much-vram-to-serve-an-llm.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-06-22-reasoning-models-vs-standard-llms.html",
-     "hits": 2
     }
    ],
    "verifiable": false

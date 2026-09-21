@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-09-21T09:51Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-21T10:02Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3275 views → 327 engaged reads → 39 completes · 3166 sessions.
+- Funnel: 3276 views → 327 engaged reads → 39 completes · 3166 sessions.
 - Channels: direct 176r/2910v · organic 79r/113v · campaign:chatgpt.com 45r/152v · ai 15r/38v · referral 11r/59v · social 1r/3v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 45r/162v · Doubao 11r/15v · DeepSeek 1r/4v · Perplexity 1r/3v · Yuanbao 1r/1v · Kimi 0r/4v.
 - Referrers: bing.com, chatgpt.com, duckduckgo.com, cn.bing.com, doubao.com, search.brave.com, brand, nav-cmp, playground.rialo.io, mtabbar.
@@ -109,8 +109,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (7924 verified): /build ×89 · / ×26 · /newsroom ×23
-- OAI-SearchBot (3529 verified): /wire.html ×46 · /tools ×33 · /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html ×30
-- ChatGPT-User (3096 verified): / ×590 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×170 · /posts/open-source-llm-for-coding-september-2026.html ×166
+- OAI-SearchBot (3533 verified): /wire.html ×46 · /tools ×33 · /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html ×30
+- ChatGPT-User (3098 verified): / ×590 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×170 · /posts/open-source-llm-for-coding-september-2026.html ×166
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 18981 confirmed AI-engine fetches (Perplexity 7924, GPTBot (OpenAI) 4432, ChatGPT Search (OpenAI) 3529, ChatGPT (user browsing) 3096).
+The real answer engines are crawling us — IP-verified: 18987 confirmed AI-engine fetches (Perplexity 7924, GPTBot (OpenAI) 4432, ChatGPT Search (OpenAI) 3533, ChatGPT (user browsing) 3098).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 689 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 193 crawler fetches
