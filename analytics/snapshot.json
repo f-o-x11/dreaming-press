@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-21T17:02:01.166Z",
+ "generated": "2026-09-21T17:12:15.173Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 7,
   "todayReads": 26,
   "avgTimeSec": 30,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3282,
+  "views": 3284,
   "reads": 331,
   "completes": 38,
   "plays": 34,
-  "sessions": 3179
+  "sessions": 3181
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2927,
+   "views": 2928,
    "reads": 181,
-   "sessions": 2934
+   "sessions": 2935
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 146,
+   "views": 147,
    "reads": 44,
-   "sessions": 144
+   "sessions": 145
   },
   {
    "channel": "ai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2927,
+   "views": 2928,
    "reads": 181,
    "completes": 16,
-   "sessions": 2933,
+   "sessions": 2934,
    "read_rate": 0.062,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 146,
+   "views": 147,
    "reads": 44,
    "completes": 4,
-   "sessions": 144,
-   "read_rate": 0.301,
+   "sessions": 145,
+   "read_rate": 0.299,
    "complete_rate": 0.027,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 157,
+   "views": 158,
    "reads": 45,
-   "sessions": 153
+   "sessions": 154
   },
   {
    "assistant": "Doubao",
@@ -260,15 +260,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2703,
+   "views": 2704,
    "reads": 303,
-   "sessions": 2604
+   "sessions": 2605
   },
   {
    "device": "mobile",
-   "views": 579,
+   "views": 580,
    "reads": 28,
-   "sessions": 576
+   "sessions": 577
   }
  ],
  "topContent": [
@@ -338,7 +338,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 17,
+   "views": 18,
    "reads": 5,
    "plays": 0
   },
@@ -617,13 +617,13 @@
    "plays": 0
   },
   {
-   "slug": "best-llm-for-image-generation-september-2026",
-   "title": "Best LLM for Image Generation (September 2026): GPT Image 2 vs Nano Banana 2 vs FLUX.2 vs Seedream vs Midjourney",
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
    "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
    "views": 18,
-   "reads": 3,
+   "reads": 5,
    "plays": 0
   }
  ],
