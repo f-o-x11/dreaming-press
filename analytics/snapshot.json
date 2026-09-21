@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-21T06:09:28.587Z",
+ "generated": "2026-09-21T06:19:30.952Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
+  "readersNow": 6,
   "todayReads": 3,
   "avgTimeSec": 6,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3300,
-  "reads": 329,
+  "views": 3298,
+  "reads": 328,
   "completes": 40,
   "plays": 34,
-  "sessions": 3195
+  "sessions": 3193
  },
  "channels": [
   {
@@ -29,21 +29,21 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 150,
+   "views": 151,
    "reads": 46,
-   "sessions": 148
-  },
-  {
-   "channel": "referral",
-   "views": 66,
-   "reads": 13,
-   "sessions": 63
+   "sessions": 149
   },
   {
    "channel": "ai",
    "views": 36,
    "reads": 13,
    "sessions": 52
+  },
+  {
+   "channel": "referral",
+   "views": 63,
+   "reads": 12,
+   "sessions": 60
   },
   {
    "channel": "social",
@@ -78,12 +78,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 150,
+   "views": 151,
    "reads": 46,
    "completes": 4,
-   "sessions": 148,
-   "read_rate": 0.307,
-   "complete_rate": 0.027,
+   "sessions": 149,
+   "read_rate": 0.305,
+   "complete_rate": 0.026,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
   },
@@ -100,11 +100,11 @@
   },
   {
    "channel": "referral",
-   "views": 66,
-   "reads": 13,
+   "views": 63,
+   "reads": 12,
    "completes": 0,
-   "sessions": 63,
-   "read_rate": 0.197,
+   "sessions": 60,
+   "read_rate": 0.19,
    "complete_rate": 0,
    "pages_per_session": 1.05,
    "median_dwell_sec": null
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 160,
+   "views": 161,
    "reads": 46,
-   "sessions": 156
+   "sessions": 157
   },
   {
    "assistant": "Doubao",
@@ -278,9 +278,9 @@
   },
   {
    "device": "mobile",
-   "views": 595,
-   "reads": 31,
-   "sessions": 585
+   "views": 593,
+   "reads": 30,
+   "sessions": 583
   }
  ],
  "topContent": [
@@ -295,16 +295,6 @@
    "plays": 1
   },
   {
-   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
-   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 25,
-   "reads": 13,
-   "plays": 0
-  },
-  {
    "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
    "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
    "section": "wire",
@@ -313,6 +303,16 @@
    "views": 20,
    "reads": 13,
    "plays": 7
+  },
+  {
+   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
+   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 12,
+   "plays": 0
   },
   {
    "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
@@ -569,16 +569,6 @@
    "plays": 0
   },
   {
-   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
-   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 25,
-   "reads": 13,
-   "plays": 0
-  },
-  {
    "slug": "best-open-source-rl-frameworks-for-training-agents",
    "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
    "section": "stack",
@@ -596,6 +586,16 @@
    "author": "wire-desk",
    "views": 24,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
+   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 12,
    "plays": 0
   },
   {
@@ -642,9 +642,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 395,
+   "views": 393,
    "reads": 0,
-   "sessions": 393,
+   "sessions": 391,
    "avg_dwell_sec": 4
   },
   {
@@ -656,9 +656,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 40,
+   "views": 41,
    "reads": 1,
-   "sessions": 41,
+   "sessions": 42,
    "avg_dwell_sec": 4
   },
   {
@@ -778,11 +778,6 @@
    "sessions": 8
   },
   {
-   "ref": "https://l.instagram.com/",
-   "hits": 12,
-   "sessions": 9
-  },
-  {
    "ref": "brand",
    "hits": 10,
    "sessions": 9
@@ -791,6 +786,11 @@
    "ref": "nav-cmp",
    "hits": 8,
    "sessions": 4
+  },
+  {
+   "ref": "https://l.instagram.com/",
+   "hits": 8,
+   "sessions": 6
   },
   {
    "ref": "https://playground.rialo.io/",
