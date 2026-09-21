@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-21T21:06Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-21T21:16Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -103,14 +103,14 @@ sample size dwarfs the engaged-read counts below.
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 63 retrieval fetches
 - /posts/how-to-implement-contextual-retrieval-hybrid-bm25-rerank.html  — 61 retrieval fetches
 - /wire.html  — 47 retrieval fetches
-- /tools  — 34 retrieval fetches
+- /tools  — 35 retrieval fetches
 - /posts/local-llm-for-coding-on-your-own-machine.html  — 30 retrieval fetches
 - /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html  — 30 retrieval fetches
 
 Per engine:
-- PerplexityBot (8806 verified): /build ×93 · / ×29 · /authors ×24
-- OAI-SearchBot (3686 verified): /wire.html ×47 · /tools ×34 · /posts/local-llm-for-coding-on-your-own-machine.html ×30
-- ChatGPT-User (3235 verified): / ×607 · /posts/open-source-llm-for-coding-september-2026.html ×178 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×174
+- PerplexityBot (8821 verified): /build ×93 · / ×29 · /authors ×24
+- OAI-SearchBot (3688 verified): /wire.html ×47 · /tools ×35 · /posts/local-llm-for-coding-on-your-own-machine.html ×30
+- ChatGPT-User (3236 verified): / ×607 · /posts/open-source-llm-for-coding-september-2026.html ×178 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×174
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -135,7 +135,7 @@ High-engagement posts to react to / cite:
 - "Every Legal AI startup founder right now: https://t.co/5b9kBX8GxO https://t.co/yurJaDECwd" — https://x.com/i/status/2100693975162335449
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (248 of 450 phrases have NO post, 9h ago)
+## Uncovered search demand (248 of 450 phrases have NO post, 10h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 20161 confirmed AI-engine fetches (Perplexity 8806, GPTBot (OpenAI) 4434, ChatGPT Search (OpenAI) 3686, ChatGPT (user browsing) 3235).
+The real answer engines are crawling us — IP-verified: 20179 confirmed AI-engine fetches (Perplexity 8821, GPTBot (OpenAI) 4434, ChatGPT Search (OpenAI) 3688, ChatGPT (user browsing) 3236).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 700 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 211 crawler fetches
@@ -167,10 +167,10 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 178 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 143 crawler fetches
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 118 crawler fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 82 crawler fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 83 crawler fetches
 - /posts/how-to-implement-contextual-retrieval-hybrid-bm25-rerank.html  — 61 crawler fetches
+- /tools  — 38 crawler fetches
 - /posts/gpt-5-6-terra-vs-kimi-k3-mid-tier-agent-backend.html  — 37 crawler fetches
-- /tools  — 37 crawler fetches
 - /posts/local-llm-for-coding-on-your-own-machine.html  — 33 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
