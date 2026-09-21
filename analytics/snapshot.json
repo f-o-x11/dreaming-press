@@ -1,37 +1,37 @@
 {
- "generated": "2026-09-21T01:15:04.573Z",
+ "generated": "2026-09-21T01:25:04.959Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 9,
+  "readersNow": 6,
   "todayReads": 1,
   "avgTimeSec": 6,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3320,
+  "views": 3318,
   "reads": 335,
   "completes": 40,
   "plays": 36,
-  "sessions": 3213
+  "sessions": 3211
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2932,
+   "views": 2936,
    "reads": 179,
-   "sessions": 2944
+   "sessions": 2948
   },
   {
    "channel": "organic",
-   "views": 118,
+   "views": 111,
    "reads": 77,
-   "sessions": 112
+   "sessions": 105
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 149,
+   "views": 150,
    "reads": 46,
-   "sessions": 147
+   "sessions": 148
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2932,
+   "views": 2936,
    "reads": 179,
    "completes": 16,
-   "sessions": 2943,
+   "sessions": 2947,
    "read_rate": 0.061,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -84,25 +84,25 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 149,
+   "views": 150,
    "reads": 46,
    "completes": 4,
-   "sessions": 147,
-   "read_rate": 0.309,
+   "sessions": 148,
+   "read_rate": 0.307,
    "complete_rate": 0.027,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
   },
   {
    "channel": "organic",
-   "views": 118,
+   "views": 111,
    "reads": 77,
    "completes": 3,
-   "sessions": 112,
-   "read_rate": 0.653,
-   "complete_rate": 0.025,
-   "pages_per_session": 1.05,
-   "median_dwell_sec": 19
+   "sessions": 105,
+   "read_rate": 0.694,
+   "complete_rate": 0.027,
+   "pages_per_session": 1.06,
+   "median_dwell_sec": null
   },
   {
    "channel": "referral",
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 159,
+   "views": 160,
    "reads": 46,
-   "sessions": 155
+   "sessions": 156
   },
   {
    "assistant": "Doubao",
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2714,
+   "views": 2711,
    "reads": 300,
-   "sessions": 2620
+   "sessions": 2617
   },
   {
    "device": "mobile",
-   "views": 606,
+   "views": 607,
    "reads": 35,
-   "sessions": 594
+   "sessions": 595
   }
  ],
  "topContent": [
@@ -800,11 +800,6 @@
    "sessions": 8
   },
   {
-   "ref": "https://www.google.com/",
-   "hits": 11,
-   "sessions": 9
-  },
-  {
    "ref": "brand",
    "hits": 10,
    "sessions": 9
@@ -812,6 +807,11 @@
   {
    "ref": "nav-cmp",
    "hits": 8,
+   "sessions": 4
+  },
+  {
+   "ref": "http://114.114.114.114:9421/",
+   "hits": 7,
    "sessions": 4
   }
  ]
