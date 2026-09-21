@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-21T08:20:54.276Z",
+ "generated": "2026-09-21T08:30:57.655Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 7,
-  "avgTimeSec": 12,
+  "readersNow": 5,
+  "todayReads": 8,
+  "avgTimeSec": 22,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3301,
+  "views": 3293,
   "reads": 328,
   "completes": 39,
   "plays": 34,
-  "sessions": 3194
+  "sessions": 3185
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2934,
-   "reads": 177,
-   "sessions": 2943
+   "views": 2925,
+   "reads": 176,
+   "sessions": 2934
   },
   {
    "channel": "organic",
-   "views": 111,
-   "reads": 77,
-   "sessions": 105
+   "views": 112,
+   "reads": 78,
+   "sessions": 106
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2934,
-   "reads": 177,
+   "views": 2925,
+   "reads": 176,
    "completes": 16,
-   "sessions": 2942,
+   "sessions": 2933,
    "read_rate": 0.06,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 111,
-   "reads": 77,
+   "views": 112,
+   "reads": 78,
    "completes": 3,
-   "sessions": 105,
-   "read_rate": 0.694,
+   "sessions": 106,
+   "read_rate": 0.696,
    "complete_rate": 0.027,
    "pages_per_session": 1.06,
    "median_dwell_sec": null
@@ -272,15 +272,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2712,
+   "views": 2710,
    "reads": 299,
-   "sessions": 2616
+   "sessions": 2613
   },
   {
    "device": "mobile",
-   "views": 589,
+   "views": 583,
    "reads": 29,
-   "sessions": 579
+   "sessions": 573
   }
  ],
  "topContent": [
@@ -656,9 +656,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 41,
+   "views": 40,
    "reads": 1,
-   "sessions": 42,
+   "sessions": 41,
    "avg_dwell_sec": 4
   },
   {
@@ -764,8 +764,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 31,
-   "sessions": 19
+   "hits": 33,
+   "sessions": 20
   },
   {
    "ref": "https://www.doubao.com/",
