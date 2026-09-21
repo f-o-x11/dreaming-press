@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-21T00:14Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-21T00:24Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3320 views → 334 engaged reads → 40 completes · 3212 sessions.
-- Channels: direct 179r/2938v · organic 76r/117v · campaign:chatgpt.com 46r/149v · referral 18r/74v · ai 13r/36v · social 1r/4v · campaign:perplexity 1r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3318 views → 334 engaged reads → 40 completes · 3210 sessions.
+- Channels: direct 179r/2937v · organic 76r/116v · campaign:chatgpt.com 46r/149v · referral 18r/74v · ai 13r/36v · social 1r/4v · campaign:perplexity 1r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 46r/159v · Doubao 9r/13v · DeepSeek 1r/4v · Perplexity 1r/3v · Yuanbao 1r/1v · Kimi 0r/4v.
 - Referrers: bing.com, chatgpt.com, duckduckgo.com, cn.bing.com, l.instagram.com, doubao.com, search.brave.com, google.com, brand, nav-cmp.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,13 +23,13 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2938 views · read 6.1% · complete 0.5% · 1 pages/session · median 4s
+- direct: 2937 views · read 6.1% · complete 0.5% · 1 pages/session · median 4s
 - campaign:chatgpt.com: 149 views · read 30.9% · complete 2.7% · 1.01 pages/session · median ?s
-- organic: 117 views · read 65.0% · complete 2.6% · 1.05 pages/session · median 19s
+- organic: 116 views · read 65.5% · complete 2.6% · 1.05 pages/session · median 19s
 - referral: 74 views · read 24.3% · complete 1.4% · 1.04 pages/session · median ?s
 - ai: 36 views · read 36.1% · complete 5.6% · 0.69 pages/session · median 26s
 - social: 4 views · read 25.0% · complete 0.0% · 1 pages/session · median ?s
-INSIGHT: organic converts 11x better per view than direct, which is 88% of all views.
+INSIGHT: organic converts 11x better per view than direct, which is 89% of all views.
 One visitor from organic is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
@@ -73,8 +73,8 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again" — 61 views, 2 reads
 - [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 47 views, 13 reads
-- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 40 views, 0 reads
 - [stack] "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet" — 39 views, 18 reads
+- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 39 views, 0 reads
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 25 views, 0 reads
 - [wire] "The Founder's Wire, September 9: Mistral Raises $3.5B to Become Europe's Sovereign Frontier, and Meta's Muse Turns a Consumer AI Into a Shopper With a Stripe Wallet" — 24 views, 0 reads
 
@@ -84,7 +84,7 @@ problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [wire] "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again" — 61 views but only 2 engaged reads (3.3%)
-- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 40 views but only 0 engaged reads (0.0%)
+- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 39 views but only 0 engaged reads (0.0%)
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 25 views but only 0 engaged reads (0.0%)
 - [wire] "The Founder's Wire, September 9: Mistral Raises $3.5B to Become Europe's Sovereign Frontier, and Meta's Muse Turns a Consumer AI Into a Shopper With a Stripe Wallet" — 24 views but only 0 engaged reads (0.0%)
 - [wire] "The Founder's Wire, September 8: Nvidia Buys the Open-Model Commons, OpenAI Moves to Rent You an Agent Runtime, and Anthropic Wants to Own Its Money Rails" — 19 views but only 0 engaged reads (0.0%)
@@ -109,7 +109,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (7903 verified): /build ×89 · / ×26 · /authors ×22
-- OAI-SearchBot (3421 verified): /wire.html ×46 · /tools ×33 · /posts/local-llm-for-coding-on-your-own-machine.html ×28
+- OAI-SearchBot (3425 verified): /wire.html ×46 · /tools ×33 · /posts/local-llm-for-coding-on-your-own-machine.html ×28
 - ChatGPT-User (3002 verified): / ×575 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×166 · /posts/open-source-llm-for-coding-september-2026.html ×160
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(38), startup(33), founder(32), agent(26), build(22), agentic(21), mcp(21), building(12), has(12), coding(12), google(11), engineer(9), co-founder(9), every(8), its(8).
+Hot terms: agents(38), startup(33), founder(32), agent(26), build(22), agentic(21), mcp(21), building(13), has(12), coding(12), google(11), engineer(9), co-founder(9), run(8), every(8).
 Hashtags: #ai, #videogenration, #tools, #google, #deepmind, #artificialintelligence, #startup, #education, #aijobs, #aihiring.
 High-engagement posts to react to / cite:
 - "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to." — https://x.com/i/status/2099491915381006477
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 18756 confirmed AI-engine fetches (Perplexity 7903, GPTBot (OpenAI) 4430, ChatGPT Search (OpenAI) 3421, ChatGPT (user browsing) 3002).
+The real answer engines are crawling us — IP-verified: 18760 confirmed AI-engine fetches (Perplexity 7903, GPTBot (OpenAI) 4430, ChatGPT Search (OpenAI) 3425, ChatGPT (user browsing) 3002).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 682 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 185 crawler fetches
