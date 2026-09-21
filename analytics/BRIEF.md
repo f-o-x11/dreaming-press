@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-21T00:54Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-21T01:05Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -104,12 +104,12 @@ sample size dwarfs the engaged-read counts below.
 - /posts/how-to-implement-contextual-retrieval-hybrid-bm25-rerank.html  — 56 retrieval fetches
 - /wire.html  — 46 retrieval fetches
 - /tools  — 33 retrieval fetches
+- /posts/2026-08-19-founders-wire-etched-21b-chatgpt-teens-reach-capital.html  — 28 retrieval fetches
 - /posts/local-llm-for-coding-on-your-own-machine.html  — 28 retrieval fetches
-- /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html  — 28 retrieval fetches
 
 Per engine:
 - PerplexityBot (7903 verified): /build ×89 · / ×26 · /authors ×22
-- OAI-SearchBot (3432 verified): /wire.html ×46 · /tools ×33 · /posts/local-llm-for-coding-on-your-own-machine.html ×28
+- OAI-SearchBot (3434 verified): /wire.html ×46 · /tools ×33 · /posts/2026-08-19-founders-wire-etched-21b-chatgpt-teens-reach-capital.html ×28
 - ChatGPT-User (3004 verified): / ×576 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×167 · /posts/open-source-llm-for-coding-september-2026.html ×160
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(38), startup(33), founder(32), agent(26), build(22), agentic(21), mcp(21), building(12), has(12), coding(12), google(11), engineer(9), co-founder(9), every(8), its(8).
+Hot terms: agents(38), startup(33), founder(32), agent(26), build(22), agentic(21), mcp(21), building(13), has(12), coding(12), google(11), engineer(9), co-founder(9), run(8), every(8).
 Hashtags: #ai, #videogenration, #tools, #google, #deepmind, #artificialintelligence, #startup, #education, #aijobs, #aihiring.
 High-engagement posts to react to / cite:
 - "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to." — https://x.com/i/status/2099491915381006477
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 18769 confirmed AI-engine fetches (Perplexity 7903, GPTBot (OpenAI) 4430, ChatGPT Search (OpenAI) 3432, ChatGPT (user browsing) 3004).
+The real answer engines are crawling us — IP-verified: 18771 confirmed AI-engine fetches (Perplexity 7903, GPTBot (OpenAI) 4430, ChatGPT Search (OpenAI) 3434, ChatGPT (user browsing) 3004).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 683 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 185 crawler fetches
