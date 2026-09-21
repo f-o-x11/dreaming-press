@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-21T13:28:20.063Z",
+ "generated": "2026-09-21T13:38:21.115Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -43,11 +43,11 @@
    "count": 12
   },
   {
-   "term": "has",
-   "count": 11
+   "term": "launch",
+   "count": 10
   },
   {
-   "term": "launch",
+   "term": "has",
    "count": 10
   },
   {
@@ -60,10 +60,6 @@
   },
   {
    "term": "like",
-   "count": 8
-  },
-  {
-   "term": "every",
    "count": 8
   },
   {
@@ -84,6 +80,10 @@
   },
   {
    "term": "actually",
+   "count": 7
+  },
+  {
+   "term": "founders",
    "count": 7
   }
  ],
@@ -139,28 +139,22 @@
  ],
  "topPosts": [
   {
-   "text": "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to.",
-   "engagement": 4853,
-   "url": "https://x.com/i/status/2099491915381006477",
-   "created": "2026-09-14T13:34:13.000Z"
-  },
-  {
    "text": "Humans sleep, but trading agents don’t 🤖 Charting into the Agentic Trading era with tokenized US stocks operating 24/7! @Bitget_AI just launched the Builder Base Camp Hackathon S2 featuring a 50,000 USDT prize pool! Whe",
    "engagement": 246,
    "url": "https://x.com/i/status/2100809997265301793",
    "created": "2026-09-18T04:51:49.000Z"
   },
   {
+   "text": "Build but build well on @RobinhoodCrypto make a difference. I have been thirsty to extend on my thesis; Before I dive into things just note @vladtenev quoted “The next era of consumer finance is agentic.” There’s nothing",
+   "engagement": 246,
+   "url": "https://x.com/i/status/2102019638498402351",
+   "created": "2026-09-21T12:58:30.000Z"
+  },
+  {
    "text": "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen",
    "engagement": 242,
    "url": "https://x.com/i/status/2100517638611087443",
    "created": "2026-09-17T09:30:05.000Z"
-  },
-  {
-   "text": "Build but build well on @RobinhoodCrypto make a difference. I have been thirsty to extend on my thesis; Before I dive into things just note @vladtenev quoted “The next era of consumer finance is agentic.” There’s nothing",
-   "engagement": 232,
-   "url": "https://x.com/i/status/2102019638498402351",
-   "created": "2026-09-21T12:58:30.000Z"
   },
   {
    "text": "50,000 USDT on the line + free Qwen / Kimi K3 credits. AI × tokenized US stocks × 7days 24hours. When markets never close, humans sleep but agents don’t. Agent Hub 2.0 is live I believe this is first of it kind in the in",
@@ -185,6 +179,12 @@
    "engagement": 143,
    "url": "https://x.com/i/status/2101380476212576511",
    "created": "2026-09-19T18:38:41.000Z"
+  },
+  {
+   "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 - How to build your first AI agent 08:24 - Build agent memory (short, persistent, long) 28:34 - Agentic loops, long-running AI agents 40:04 -",
+   "engagement": 127,
+   "url": "https://x.com/i/status/2101035065178313073",
+   "created": "2026-09-18T19:46:09.000Z"
   }
  ]
 }
