@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-21T02:55:43.463Z",
+ "generated": "2026-09-21T03:06:00.840Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 1,
   "avgTimeSec": 5,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3305,
+  "views": 3307,
   "reads": 328,
   "completes": 39,
   "plays": 34,
-  "sessions": 3201
+  "sessions": 3202
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2931,
+   "views": 2933,
    "reads": 177,
-   "sessions": 2943
+   "sessions": 2945
   },
   {
    "channel": "organic",
@@ -61,16 +61,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 22
+   "sessions": 21
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2931,
+   "views": 2933,
    "reads": 177,
    "completes": 16,
-   "sessions": 2942,
+   "sessions": 2944,
    "read_rate": 0.06,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -147,7 +147,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 22,
+   "sessions": 21,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -171,11 +171,6 @@
    "sessions": 1
   },
   {
-   "surface": "cited-list",
-   "clicks": 5,
-   "sessions": 4
-  },
-  {
    "surface": "article-body",
    "clicks": 5,
    "sessions": 4
@@ -184,6 +179,11 @@
    "surface": "un-body",
    "clicks": 4,
    "sessions": 2
+  },
+  {
+   "surface": "cited-list",
+   "clicks": 4,
+   "sessions": 3
   },
   {
    "surface": "card",
@@ -272,9 +272,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2703,
+   "views": 2705,
    "reads": 297,
-   "sessions": 2611
+   "sessions": 2612
   },
   {
    "device": "mobile",
@@ -725,6 +725,13 @@
    "avg_dwell_sec": 8
   },
   {
+   "path": "/weekly",
+   "views": 8,
+   "reads": 0,
+   "sessions": 8,
+   "avg_dwell_sec": 4
+  },
+  {
    "path": "/apps",
    "views": 7,
    "reads": 0,
@@ -737,13 +744,6 @@
    "reads": 0,
    "sessions": 6,
    "avg_dwell_sec": 36
-  },
-  {
-   "path": "/weekly",
-   "views": 7,
-   "reads": 0,
-   "sessions": 7,
-   "avg_dwell_sec": 4
   }
  ],
  "referrers": [
