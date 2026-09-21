@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-21T23:08:30.178Z",
+ "generated": "2026-09-21T23:18:37.507Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 20275,
+ "verifiedAiHits": 20279,
  "logsScanned": 30,
  "windowStart": "2026-09-07",
  "windowEnd": "2026-09-21",
- "totalHits": 128224,
- "aiHits": 99511,
+ "totalHits": 128276,
+ "aiHits": 99554,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35463,
+   "hits": 35491,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15763,
+   "hits": 15770,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -102,7 +102,7 @@
      "hits": 16
     },
     {
-     "path": "/stacks/autogen%2Blitellm%2Bmem0",
+     "path": "/stacks/autogen%2Bcloudflare-ai-gateway%2Bgraphlit",
      "hits": 12
     }
    ],
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 9521,
-   "verifiedHits": 8879,
+   "hits": 9524,
+   "verifiedHits": 8882,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7110,
-   "verifiedHits": 6682,
+   "hits": 7119,
+   "verifiedHits": 6691,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4307,
-   "verifiedHits": 3710,
+   "hits": 4308,
+   "verifiedHits": 3711,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2271,
+   "hits": 2274,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -575,7 +575,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 554,
+   "hits": 555,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -590,7 +590,7 @@
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 4
+     "hits": 5
     },
     {
      "path": "/posts/model-deprecation-policies-openai-anthropic-google-compared-2026.html",

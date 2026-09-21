@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-21T23:08:30.702Z",
+ "generated": "2026-09-21T23:18:38.092Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 34,
   "avgTimeSec": 32,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3269,
+  "views": 3270,
   "reads": 334,
   "completes": 37,
   "plays": 33,
-  "sessions": 3183
+  "sessions": 3184
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2906,
+   "views": 2908,
    "reads": 181,
-   "sessions": 2933
+   "sessions": 2935
   },
   {
    "channel": "organic",
-   "views": 115,
+   "views": 114,
    "reads": 80,
-   "sessions": 109
+   "sessions": 108
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2906,
+   "views": 2908,
    "reads": 181,
    "completes": 15,
-   "sessions": 2932,
+   "sessions": 2934,
    "read_rate": 0.062,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 115,
+   "views": 114,
    "reads": 80,
    "completes": 3,
-   "sessions": 109,
-   "read_rate": 0.696,
+   "sessions": 108,
+   "read_rate": 0.702,
    "complete_rate": 0.026,
    "pages_per_session": 1.06,
    "median_dwell_sec": null
@@ -260,9 +260,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2690,
+   "views": 2691,
    "reads": 306,
-   "sessions": 2608
+   "sessions": 2609
   },
   {
    "device": "mobile",
@@ -572,7 +572,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 24,
+   "views": 25,
    "reads": 0,
    "plays": 0
   },
