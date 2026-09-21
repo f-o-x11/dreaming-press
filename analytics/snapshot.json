@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-21T01:35:05.816Z",
+ "generated": "2026-09-21T01:45:07.215Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 1,
   "todayReads": 1,
   "avgTimeSec": 6,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3317,
+  "views": 3312,
   "reads": 334,
   "completes": 40,
   "plays": 36,
-  "sessions": 3210
+  "sessions": 3206
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2936,
+   "views": 2932,
    "reads": 179,
-   "sessions": 2948
+   "sessions": 2943
   },
   {
    "channel": "organic",
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 150,
+   "views": 151,
    "reads": 46,
-   "sessions": 148
+   "sessions": 149
   },
   {
    "channel": "referral",
-   "views": 78,
+   "views": 77,
    "reads": 18,
-   "sessions": 75
+   "sessions": 74
   },
   {
    "channel": "ai",
@@ -47,9 +47,9 @@
   },
   {
    "channel": "social",
-   "views": 5,
+   "views": 4,
    "reads": 1,
-   "sessions": 5
+   "sessions": 4
   },
   {
    "channel": "campaign:producthunt/",
@@ -61,16 +61,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 23
+   "sessions": 22
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2936,
+   "views": 2932,
    "reads": 179,
    "completes": 16,
-   "sessions": 2947,
+   "sessions": 2942,
    "read_rate": 0.061,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -78,12 +78,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 150,
+   "views": 151,
    "reads": 46,
    "completes": 4,
-   "sessions": 148,
-   "read_rate": 0.307,
-   "complete_rate": 0.027,
+   "sessions": 149,
+   "read_rate": 0.305,
+   "complete_rate": 0.026,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
   },
@@ -100,11 +100,11 @@
   },
   {
    "channel": "referral",
-   "views": 78,
+   "views": 77,
    "reads": 18,
    "completes": 1,
-   "sessions": 75,
-   "read_rate": 0.231,
+   "sessions": 74,
+   "read_rate": 0.234,
    "complete_rate": 0.013,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
@@ -122,11 +122,11 @@
   },
   {
    "channel": "social",
-   "views": 5,
+   "views": 4,
    "reads": 1,
    "completes": 0,
-   "sessions": 5,
-   "read_rate": 0.2,
+   "sessions": 4,
+   "read_rate": 0.25,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -147,7 +147,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 23,
+   "sessions": 22,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 160,
+   "views": 161,
    "reads": 46,
-   "sessions": 156
+   "sessions": 157
   },
   {
    "assistant": "Doubao",
@@ -272,15 +272,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2711,
+   "views": 2709,
    "reads": 300,
-   "sessions": 2617
+   "sessions": 2615
   },
   {
    "device": "mobile",
-   "views": 606,
+   "views": 603,
    "reads": 34,
-   "sessions": 594
+   "sessions": 592
   }
  ],
  "topContent": [
@@ -290,7 +290,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 38,
+   "views": 37,
    "reads": 17,
    "plays": 2
   },
@@ -462,7 +462,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 38,
+   "views": 37,
    "reads": 17,
    "plays": 2
   },
@@ -517,22 +517,22 @@
    "plays": 1
   },
   {
-   "slug": "how-to-run-spec-driven-development-github-spec-kit",
-   "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
-   "section": "stack",
-   "tags": "[\"reportive\",\"captivating\"]",
-   "author": "rosalinda",
-   "views": 7,
-   "reads": 2,
-   "plays": 1
-  },
-  {
    "slug": "ollama-vs-lm-studio-vs-llama-cpp-local-agent-backend",
    "title": "Ollama vs LM Studio vs llama.cpp: Which Local Backend Should Serve Your Agent?",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 7,
+   "reads": 2,
+   "plays": 1
+  },
+  {
+   "slug": "how-to-run-spec-driven-development-github-spec-kit",
+   "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
+   "section": "stack",
+   "tags": "[\"reportive\",\"captivating\"]",
+   "author": "rosalinda",
+   "views": 6,
    "reads": 2,
    "plays": 1
   }
@@ -574,7 +574,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 38,
+   "views": 37,
    "reads": 17,
    "plays": 2
   },
@@ -649,10 +649,10 @@
   },
   {
    "path": "/",
-   "views": 136,
+   "views": 135,
    "reads": 1,
-   "sessions": 138,
-   "avg_dwell_sec": 12
+   "sessions": 137,
+   "avg_dwell_sec": 11
   },
   {
    "path": "/best/:cat",
@@ -769,8 +769,8 @@
   },
   {
    "ref": "https://l.instagram.com/",
-   "hits": 26,
-   "sessions": 18
+   "hits": 25,
+   "sessions": 17
   },
   {
    "ref": "https://www.doubao.com/",
