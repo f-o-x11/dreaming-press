@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-21T20:25:38.508Z",
+ "generated": "2026-09-21T20:35:45.915Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 2,
   "todayReads": 31,
   "avgTimeSec": 28,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3300,
-  "reads": 335,
+  "views": 3291,
+  "reads": 331,
   "completes": 37,
   "plays": 33,
-  "sessions": 3199
+  "sessions": 3200
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2939,
-   "reads": 182,
-   "sessions": 2950
+   "views": 2930,
+   "reads": 178,
+   "sessions": 2951
   },
   {
    "channel": "organic",
@@ -67,13 +67,13 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2939,
-   "reads": 182,
+   "views": 2930,
+   "reads": 178,
    "completes": 15,
-   "sessions": 2949,
-   "read_rate": 0.062,
+   "sessions": 2950,
+   "read_rate": 0.061,
    "complete_rate": 0.005,
-   "pages_per_session": 1,
+   "pages_per_session": 0.99,
    "median_dwell_sec": 4
   },
   {
@@ -161,17 +161,12 @@
    "sessions": 9
   },
   {
-   "surface": "nav-cmp",
-   "clicks": 8,
-   "sessions": 4
-  },
-  {
    "surface": "un-body",
    "clicks": 5,
    "sessions": 3
   },
   {
-   "surface": "article-body",
+   "surface": "nav-cmp",
    "clicks": 5,
    "sessions": 4
   },
@@ -181,7 +176,7 @@
    "sessions": 3
   },
   {
-   "surface": "card",
+   "surface": "article-body",
    "clicks": 4,
    "sessions": 3
   },
@@ -201,6 +196,11 @@
    "sessions": 1
   },
   {
+   "surface": "card",
+   "clicks": 3,
+   "sessions": 2
+  },
+  {
    "surface": "live",
    "clicks": 2,
    "sessions": 2
@@ -216,17 +216,17 @@
    "sessions": 2
   },
   {
-   "surface": "wire-row",
-   "clicks": 1,
-   "sessions": 1
-  },
-  {
    "surface": "tr-row",
    "clicks": 1,
    "sessions": 1
   },
   {
    "surface": "sb-right",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
+   "surface": "rr-card",
    "clicks": 1,
    "sessions": 1
   }
@@ -260,9 +260,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2720,
-   "reads": 307,
-   "sessions": 2623
+   "views": 2711,
+   "reads": 303,
+   "sessions": 2624
   },
   {
    "device": "mobile",
@@ -692,13 +692,6 @@
    "avg_dwell_sec": 5
   },
   {
-   "path": "/stack.html",
-   "views": 9,
-   "reads": 0,
-   "sessions": 7,
-   "avg_dwell_sec": 8
-  },
-  {
    "path": "/tools",
    "views": 8,
    "reads": 0,
@@ -720,11 +713,11 @@
    "avg_dwell_sec": 6
   },
   {
-   "path": "/global-tech-news",
+   "path": "/stack.html",
    "views": 7,
    "reads": 0,
-   "sessions": 6,
-   "avg_dwell_sec": 7
+   "sessions": 7,
+   "avg_dwell_sec": 4
   },
   {
    "path": "/about.html",
@@ -732,6 +725,13 @@
    "reads": 0,
    "sessions": 5,
    "avg_dwell_sec": 7
+  },
+  {
+   "path": "/authors/dex",
+   "views": 5,
+   "reads": 0,
+   "sessions": 5,
+   "avg_dwell_sec": 4
   }
  ],
  "referrers": [
@@ -771,11 +771,6 @@
    "sessions": 9
   },
   {
-   "ref": "nav-cmp",
-   "hits": 8,
-   "sessions": 4
-  },
-  {
    "ref": "https://www.perplexity.ai/",
    "hits": 6,
    "sessions": 4
@@ -784,6 +779,11 @@
    "ref": "https://playground.rialo.io/",
    "hits": 6,
    "sessions": 1
+  },
+  {
+   "ref": "un-body",
+   "hits": 5,
+   "sessions": 3
   }
  ]
 }
