@@ -1,16 +1,16 @@
 {
- "generated": "2026-09-21T06:19:30.952Z",
+ "generated": "2026-09-21T06:29:41.623Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
+  "readersNow": 11,
   "todayReads": 3,
-  "avgTimeSec": 6,
+  "avgTimeSec": 7,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3298,
-  "reads": 328,
-  "completes": 40,
+  "views": 3299,
+  "reads": 326,
+  "completes": 39,
   "plays": 34,
   "sessions": 3193
  },
@@ -18,8 +18,8 @@
   {
    "channel": "direct",
    "views": 2933,
-   "reads": 179,
-   "sessions": 2942
+   "reads": 177,
+   "sessions": 2941
   },
   {
    "channel": "organic",
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 151,
+   "views": 152,
    "reads": 46,
-   "sessions": 149
+   "sessions": 150
   },
   {
    "channel": "ai",
    "views": 36,
    "reads": 13,
-   "sessions": 52
+   "sessions": 53
   },
   {
    "channel": "referral",
@@ -68,21 +68,21 @@
   {
    "channel": "direct",
    "views": 2933,
-   "reads": 179,
-   "completes": 17,
-   "sessions": 2941,
-   "read_rate": 0.061,
-   "complete_rate": 0.006,
+   "reads": 177,
+   "completes": 16,
+   "sessions": 2940,
+   "read_rate": 0.06,
+   "complete_rate": 0.005,
    "pages_per_session": 1,
    "median_dwell_sec": 4
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 151,
+   "views": 152,
    "reads": 46,
    "completes": 4,
-   "sessions": 149,
-   "read_rate": 0.305,
+   "sessions": 150,
+   "read_rate": 0.303,
    "complete_rate": 0.026,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -114,10 +114,10 @@
    "views": 36,
    "reads": 13,
    "completes": 2,
-   "sessions": 52,
+   "sessions": 53,
    "read_rate": 0.361,
    "complete_rate": 0.056,
-   "pages_per_session": 0.69,
+   "pages_per_session": 0.68,
    "median_dwell_sec": 26
   },
   {
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 161,
+   "views": 162,
    "reads": 46,
-   "sessions": 157
+   "sessions": 158
   },
   {
    "assistant": "Doubao",
@@ -272,15 +272,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2705,
-   "reads": 298,
-   "sessions": 2611
+   "views": 2708,
+   "reads": 296,
+   "sessions": 2613
   },
   {
    "device": "mobile",
-   "views": 593,
+   "views": 591,
    "reads": 30,
-   "sessions": 583
+   "sessions": 581
   }
  ],
  "topContent": [
@@ -589,6 +589,16 @@
    "plays": 0
   },
   {
+   "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 23,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
    "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
    "section": "stack",
@@ -596,16 +606,6 @@
    "author": "dex",
    "views": 22,
    "reads": 12,
-   "plays": 0
-  },
-  {
-   "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 3,
    "plays": 0
   },
   {
@@ -754,8 +754,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 67,
-   "sessions": 37
+   "hits": 68,
+   "sessions": 38
   },
   {
    "ref": "https://duckduckgo.com/",
