@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-21T18:54:31.094Z",
+ "generated": "2026-09-21T19:04:31.056Z",
  "windowDays": 14,
  "site": {
   "readersNow": 4,
@@ -8,18 +8,18 @@
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3296,
+  "views": 3298,
   "reads": 334,
   "completes": 38,
   "plays": 34,
-  "sessions": 3192
+  "sessions": 3194
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2936,
+   "views": 2938,
    "reads": 182,
-   "sessions": 2944
+   "sessions": 2946
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2936,
+   "views": 2938,
    "reads": 182,
    "completes": 16,
-   "sessions": 2943,
+   "sessions": 2945,
    "read_rate": 0.062,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -260,9 +260,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2715,
+   "views": 2717,
    "reads": 306,
-   "sessions": 2615
+   "sessions": 2617
   },
   {
    "device": "mobile",
@@ -348,7 +348,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 18,
+   "views": 19,
    "reads": 5,
    "plays": 0
   },
@@ -597,6 +597,16 @@
    "plays": 7
   },
   {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 19,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
    "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
    "section": "wire",
@@ -614,16 +624,6 @@
    "author": "wire-desk",
    "views": 19,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 18,
-   "reads": 5,
    "plays": 0
   }
  ],
