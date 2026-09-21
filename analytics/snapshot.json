@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-21T03:16:31.277Z",
+ "generated": "2026-09-21T03:26:38.639Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 2,
   "todayReads": 1,
   "avgTimeSec": 5,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3307,
+  "views": 3305,
   "reads": 327,
   "completes": 39,
   "plays": 34,
-  "sessions": 3203
+  "sessions": 3199
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2934,
+   "views": 2933,
    "reads": 177,
-   "sessions": 2946
+   "sessions": 2943
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 71,
+   "views": 70,
    "reads": 13,
-   "sessions": 68
+   "sessions": 67
   },
   {
    "channel": "ai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2934,
+   "views": 2933,
    "reads": 177,
    "completes": 16,
-   "sessions": 2945,
+   "sessions": 2942,
    "read_rate": 0.06,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -100,11 +100,11 @@
   },
   {
    "channel": "referral",
-   "views": 71,
+   "views": 70,
    "reads": 13,
    "completes": 0,
-   "sessions": 68,
-   "read_rate": 0.183,
+   "sessions": 67,
+   "read_rate": 0.186,
    "complete_rate": 0,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
@@ -272,15 +272,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2705,
+   "views": 2704,
    "reads": 296,
-   "sessions": 2613
+   "sessions": 2610
   },
   {
    "device": "mobile",
-   "views": 602,
+   "views": 601,
    "reads": 31,
-   "sessions": 591
+   "sessions": 590
   }
  ],
  "topContent": [
@@ -300,7 +300,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 33,
+   "views": 32,
    "reads": 13,
    "plays": 0
   },
@@ -574,7 +574,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 33,
+   "views": 32,
    "reads": 13,
    "plays": 0
   },
@@ -642,9 +642,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 394,
+   "views": 393,
    "reads": 0,
-   "sessions": 392,
+   "sessions": 391,
    "avg_dwell_sec": 4
   },
   {
@@ -774,8 +774,8 @@
   },
   {
    "ref": "https://l.instagram.com/",
-   "hits": 17,
-   "sessions": 14
+   "hits": 16,
+   "sessions": 13
   },
   {
    "ref": "https://search.brave.com/",
