@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-21T15:30Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-21T15:40Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -101,16 +101,16 @@ sample size dwarfs the engaged-read counts below.
 - /posts/open-source-llm-for-coding-september-2026.html  — 172 retrieval fetches
 - /build  — 89 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 63 retrieval fetches
-- /posts/how-to-implement-contextual-retrieval-hybrid-bm25-rerank.html  — 58 retrieval fetches
+- /posts/how-to-implement-contextual-retrieval-hybrid-bm25-rerank.html  — 59 retrieval fetches
 - /tools  — 55 retrieval fetches
 - /wire.html  — 46 retrieval fetches
 - /posts/local-llm-for-coding-on-your-own-machine.html  — 30 retrieval fetches
 - /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html  — 30 retrieval fetches
 
 Per engine:
-- PerplexityBot (8105 verified): /build ×89 · / ×26 · /newsroom ×23
+- PerplexityBot (8156 verified): /build ×89 · / ×26 · /newsroom ×23
 - OAI-SearchBot (3610 verified): /wire.html ×46 · /tools ×33 · /posts/local-llm-for-coding-on-your-own-machine.html ×30
-- ChatGPT-User (3169 verified): / ×598 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×174 · /posts/open-source-llm-for-coding-september-2026.html ×172
+- ChatGPT-User (3174 verified): / ×598 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×174 · /posts/open-source-llm-for-coding-september-2026.html ×172
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -125,14 +125,14 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(36), founder(35), startup(33), agent(24), build(23), agentic(21), mcp(20), coding(12), building(12), launch(10), has(10), google(9), actually(8), every(8), connect(8).
+Hot terms: agents(36), founder(35), startup(33), agent(24), build(21), agentic(20), mcp(20), coding(12), building(12), launch(10), has(10), google(9), actually(8), every(8), connect(8).
 Hashtags: #ai, #videogenration, #tools, #startup, #mcp, #security, #google, #mechanize, #deepmind, #newsrupt.
 High-engagement posts to react to / cite:
-- "Build but build well on @RobinhoodCrypto make a difference. I have been thirsty to extend on my thesis; Before I dive into things just note @vladtenev quoted “The next era of consumer finance is agentic.” There’s nothing" — https://x.com/i/status/2102019638498402351
 - "Humans sleep, but trading agents don’t 🤖 Charting into the Agentic Trading era with tokenized US stocks operating 24/7! @Bitget_AI just launched the Builder Base Camp Hackathon S2 featuring a 50,000 USDT prize pool! Whe" — https://x.com/i/status/2100809997265301793
 - "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen" — https://x.com/i/status/2100517638611087443
 - "50,000 USDT on the line + free Qwen / Kimi K3 credits. AI × tokenized US stocks × 7days 24hours. When markets never close, humans sleep but agents don’t. Agent Hub 2.0 is live I believe this is first of it kind in the in" — https://x.com/i/status/2101183618529841558
 - "@gabepereyra is the President &amp; Co-Founder of @harvey, the most prominent legal AI startup and an industry leader in owning their own intelligence. I'm excited to share our conversation, which spans closed &amp; open" — https://x.com/i/status/2100984674067824921
+- "Every Legal AI startup founder right now: https://t.co/5b9kBX8GxO https://t.co/yurJaDECwd" — https://x.com/i/status/2100693975162335449
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (248 of 450 phrases have NO post, 4h ago)
@@ -158,18 +158,18 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 19316 confirmed AI-engine fetches (Perplexity 8105, GPTBot (OpenAI) 4432, ChatGPT Search (OpenAI) 3610, ChatGPT (user browsing) 3169).
+The real answer engines are crawling us — IP-verified: 19372 confirmed AI-engine fetches (Perplexity 8156, GPTBot (OpenAI) 4432, ChatGPT Search (OpenAI) 3610, ChatGPT (user browsing) 3174).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 692 crawler fetches
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 203 crawler fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 204 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 180 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 178 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 172 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 139 crawler fetches
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 117 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 79 crawler fetches
+- /posts/how-to-implement-contextual-retrieval-hybrid-bm25-rerank.html  — 59 crawler fetches
 - /tools  — 58 crawler fetches
-- /posts/how-to-implement-contextual-retrieval-hybrid-bm25-rerank.html  — 58 crawler fetches
 - /posts/gpt-5-6-terra-vs-kimi-k3-mid-tier-agent-backend.html  — 36 crawler fetches
 - /posts/local-llm-for-coding-on-your-own-machine.html  — 33 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
