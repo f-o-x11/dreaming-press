@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-21T12:16Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-21T12:24Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -108,7 +108,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/local-llm-for-coding-on-your-own-machine.html  — 29 retrieval fetches
 
 Per engine:
-- PerplexityBot (7941 verified): /build ×89 · / ×26 · /newsroom ×23
+- PerplexityBot (7942 verified): /build ×89 · / ×26 · /newsroom ×23
 - OAI-SearchBot (3582 verified): /wire.html ×46 · /tools ×33 · /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html ×30
 - ChatGPT-User (3126 verified): / ×593 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×173 · /posts/open-source-llm-for-coding-september-2026.html ×169
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -158,9 +158,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 19081 confirmed AI-engine fetches (Perplexity 7941, GPTBot (OpenAI) 4432, ChatGPT Search (OpenAI) 3582, ChatGPT (user browsing) 3126).
+The real answer engines are crawling us — IP-verified: 19082 confirmed AI-engine fetches (Perplexity 7942, GPTBot (OpenAI) 4432, ChatGPT Search (OpenAI) 3582, ChatGPT (user browsing) 3126).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 689 crawler fetches
+- /build  — 690 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 197 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 177 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 177 crawler fetches
