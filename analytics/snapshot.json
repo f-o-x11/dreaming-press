@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-21T12:37:15.247Z",
+ "generated": "2026-09-21T12:47:51.146Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 10,
+  "readersNow": 2,
   "todayReads": 15,
   "avgTimeSec": 32,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3281,
-  "reads": 326,
+  "views": 3274,
+  "reads": 325,
   "completes": 38,
   "plays": 34,
-  "sessions": 3171
+  "sessions": 3167
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2917,
+   "views": 2914,
    "reads": 175,
-   "sessions": 2922
+   "sessions": 2919
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 39,
-   "reads": 16,
-   "sessions": 53
+   "views": 35,
+   "reads": 15,
+   "sessions": 52
   },
   {
    "channel": "referral",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2917,
+   "views": 2914,
    "reads": 175,
    "completes": 16,
-   "sessions": 2921,
+   "sessions": 2918,
    "read_rate": 0.06,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -111,13 +111,13 @@
   },
   {
    "channel": "ai",
-   "views": 39,
-   "reads": 16,
+   "views": 35,
+   "reads": 15,
    "completes": 1,
-   "sessions": 53,
-   "read_rate": 0.41,
-   "complete_rate": 0.026,
-   "pages_per_session": 0.74,
+   "sessions": 52,
+   "read_rate": 0.429,
+   "complete_rate": 0.029,
+   "pages_per_session": 0.67,
    "median_dwell_sec": 26
   },
   {
@@ -251,12 +251,6 @@
    "sessions": 4
   },
   {
-   "assistant": "DeepSeek",
-   "views": 4,
-   "reads": 1,
-   "sessions": 1
-  },
-  {
    "assistant": "Kimi",
    "views": 4,
    "reads": 0,
@@ -266,9 +260,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2695,
-   "reads": 300,
-   "sessions": 2595
+   "views": 2688,
+   "reads": 299,
+   "sessions": 2591
   },
   {
    "device": "mobile",
@@ -354,17 +348,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 16,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "how-to-add-citations-to-a-rag-pipeline",
-   "title": "How to Add Citations to a RAG Pipeline",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
+   "views": 15,
    "reads": 5,
    "plays": 0
   },
@@ -427,6 +411,16 @@
    "views": 5,
    "reads": 4,
    "plays": 1
+  },
+  {
+   "slug": "gpt-5-6-prompt-caching-explicit-breakpoints",
+   "title": "GPT-5.6 Rewired Prompt Caching: A Hands-On Guide to prompt_cache_options",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 5,
+   "reads": 4,
+   "plays": 0
   }
  ],
  "topListens": [
