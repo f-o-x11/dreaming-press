@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-21T21:16:13.242Z",
+ "generated": "2026-09-21T21:26:44.375Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 33,
+  "readersNow": 2,
+  "todayReads": 34,
   "avgTimeSec": 33,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3284,
-  "reads": 333,
+  "views": 3286,
+  "reads": 334,
   "completes": 37,
   "plays": 33,
-  "sessions": 3197
+  "sessions": 3199
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2923,
-   "reads": 180,
-   "sessions": 2948
+   "views": 2924,
+   "reads": 181,
+   "sessions": 2950
   },
   {
    "channel": "organic",
-   "views": 114,
+   "views": 115,
    "reads": 80,
-   "sessions": 108
+   "sessions": 109
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2923,
-   "reads": 180,
+   "views": 2924,
+   "reads": 181,
    "completes": 15,
-   "sessions": 2947,
+   "sessions": 2949,
    "read_rate": 0.062,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 114,
+   "views": 115,
    "reads": 80,
    "completes": 3,
-   "sessions": 108,
-   "read_rate": 0.702,
+   "sessions": 109,
+   "read_rate": 0.696,
    "complete_rate": 0.026,
    "pages_per_session": 1.06,
    "median_dwell_sec": null
@@ -260,9 +260,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2706,
-   "reads": 305,
-   "sessions": 2623
+   "views": 2708,
+   "reads": 306,
+   "sessions": 2625
   },
   {
    "device": "mobile",
@@ -353,8 +353,8 @@
    "plays": 0
   },
   {
-   "slug": "skypilot-vs-dstack-cheapest-gpu-across-clouds",
-   "title": "SkyPilot vs dstack: Two Ways to Run a GPU Job on the Cheapest Cloud That Has One",
+   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
+   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -363,12 +363,12 @@
    "plays": 0
   },
   {
-   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
-   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
+   "slug": "skypilot-vs-dstack-cheapest-gpu-across-clouds",
+   "title": "SkyPilot vs dstack: Two Ways to Run a GPU Job on the Cheapest Cloud That Has One",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 7,
+   "views": 8,
    "reads": 5,
    "plays": 0
   },
@@ -381,6 +381,16 @@
    "views": 7,
    "reads": 5,
    "plays": 1
+  },
+  {
+   "slug": "2026-06-21-routellm-vs-notdiamond-vs-martian",
+   "title": "RouteLLM vs NotDiamond vs Martian: Do LLM Model Routers Actually Cut Costs?",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 4,
+   "plays": 0
   },
   {
    "slug": "playwright-mcp-vs-cli-token-cost-browser-agents",
@@ -411,16 +421,6 @@
    "views": 7,
    "reads": 4,
    "plays": 0
-  },
-  {
-   "slug": "2026-06-21-n8n-vs-flowise-vs-langflow",
-   "title": "n8n vs Flowise vs Langflow: Choosing a Visual Agent Builder in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 5,
-   "reads": 4,
-   "plays": 1
   }
  ],
  "topListens": [
@@ -762,8 +762,8 @@
   },
   {
    "ref": "https://search.brave.com/",
-   "hits": 18,
-   "sessions": 10
+   "hits": 19,
+   "sessions": 11
   },
   {
    "ref": "brand",
