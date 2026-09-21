@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-21T09:21:30.430Z",
+ "generated": "2026-09-21T09:31:37.648Z",
  "windowDays": 14,
  "site": {
   "readersNow": 4,
-  "todayReads": 9,
-  "avgTimeSec": 21,
+  "todayReads": 11,
+  "avgTimeSec": 29,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3279,
-  "reads": 325,
+  "views": 3280,
+  "reads": 327,
   "completes": 39,
-  "plays": 34,
-  "sessions": 3172
+  "plays": 35,
+  "sessions": 3171
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2912,
-   "reads": 174,
-   "sessions": 2921
+   "views": 2914,
+   "reads": 176,
+   "sessions": 2920
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 60,
+   "views": 59,
    "reads": 11,
-   "sessions": 57
+   "sessions": 56
   },
   {
    "channel": "social",
@@ -61,16 +61,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 20
+   "sessions": 21
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2912,
-   "reads": 174,
+   "views": 2914,
+   "reads": 176,
    "completes": 16,
-   "sessions": 2920,
+   "sessions": 2919,
    "read_rate": 0.06,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -100,11 +100,11 @@
   },
   {
    "channel": "referral",
-   "views": 60,
+   "views": 59,
    "reads": 11,
    "completes": 0,
-   "sessions": 57,
-   "read_rate": 0.183,
+   "sessions": 56,
+   "read_rate": 0.186,
    "complete_rate": 0,
    "pages_per_session": 1.05,
    "median_dwell_sec": null
@@ -147,7 +147,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 20,
+   "sessions": 21,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -157,8 +157,8 @@
  "navSurfaces": [
   {
    "surface": "brand",
-   "clicks": 9,
-   "sessions": 8
+   "clicks": 10,
+   "sessions": 9
   },
   {
    "surface": "nav-cmp",
@@ -272,9 +272,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2704,
-   "reads": 298,
-   "sessions": 2607
+   "views": 2705,
+   "reads": 300,
+   "sessions": 2606
   },
   {
    "device": "mobile",
@@ -335,22 +335,22 @@
    "plays": 7
   },
   {
+   "slug": "vllm-v0-24-model-runner-v2-rust-frontend",
+   "title": "vLLM v0.24 Makes Model Runner V2 the Default. The Win Isn't a Faster Kernel — It's Never Waiting on the CPU.",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 12,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 16,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "vllm-v0-24-model-runner-v2-rust-frontend",
-   "title": "vLLM v0.24 Makes Model Runner V2 the Default. The Win Isn't a Faster Kernel — It's Never Waiting on the CPU.",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 11,
    "reads": 5,
    "plays": 0
   },
@@ -779,8 +779,8 @@
   },
   {
    "ref": "brand",
-   "hits": 9,
-   "sessions": 8
+   "hits": 10,
+   "sessions": 9
   },
   {
    "ref": "nav-cmp",
