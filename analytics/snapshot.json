@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-21T10:22:17.069Z",
+ "generated": "2026-09-21T10:32:20.421Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 12,
+  "readersNow": 3,
+  "todayReads": 13,
   "avgTimeSec": 28,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3273,
+  "views": 3271,
   "reads": 328,
   "completes": 39,
   "plays": 35,
-  "sessions": 3163
+  "sessions": 3161
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2907,
-   "reads": 176,
-   "sessions": 2912
+   "views": 2905,
+   "reads": 175,
+   "sessions": 2910
   },
   {
    "channel": "organic",
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 151,
+   "views": 150,
    "reads": 45,
-   "sessions": 149
+   "sessions": 148
   },
   {
    "channel": "ai",
-   "views": 39,
-   "reads": 16,
-   "sessions": 54
+   "views": 40,
+   "reads": 17,
+   "sessions": 55
   },
   {
    "channel": "referral",
@@ -67,23 +67,23 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2907,
-   "reads": 176,
+   "views": 2905,
+   "reads": 175,
    "completes": 16,
-   "sessions": 2911,
-   "read_rate": 0.061,
+   "sessions": 2909,
+   "read_rate": 0.06,
    "complete_rate": 0.006,
    "pages_per_session": 1,
    "median_dwell_sec": 4
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 151,
+   "views": 150,
    "reads": 45,
    "completes": 4,
-   "sessions": 149,
-   "read_rate": 0.298,
-   "complete_rate": 0.026,
+   "sessions": 148,
+   "read_rate": 0.3,
+   "complete_rate": 0.027,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
   },
@@ -111,13 +111,13 @@
   },
   {
    "channel": "ai",
-   "views": 39,
-   "reads": 16,
+   "views": 40,
+   "reads": 17,
    "completes": 2,
-   "sessions": 54,
-   "read_rate": 0.41,
-   "complete_rate": 0.051,
-   "pages_per_session": 0.72,
+   "sessions": 55,
+   "read_rate": 0.425,
+   "complete_rate": 0.05,
+   "pages_per_session": 0.73,
    "median_dwell_sec": 26
   },
   {
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 162,
+   "views": 161,
    "reads": 46,
-   "sessions": 158
+   "sessions": 157
   },
   {
    "assistant": "Doubao",
@@ -245,16 +245,16 @@
    "sessions": 9
   },
   {
+   "assistant": "Perplexity",
+   "views": 4,
+   "reads": 2,
+   "sessions": 4
+  },
+  {
    "assistant": "DeepSeek",
    "views": 4,
    "reads": 1,
    "sessions": 1
-  },
-  {
-   "assistant": "Perplexity",
-   "views": 3,
-   "reads": 1,
-   "sessions": 3
   },
   {
    "assistant": "Yuanbao",
@@ -272,15 +272,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2702,
-   "reads": 301,
-   "sessions": 2602
+   "views": 2701,
+   "reads": 302,
+   "sessions": 2601
   },
   {
    "device": "mobile",
-   "views": 571,
-   "reads": 27,
-   "sessions": 562
+   "views": 570,
+   "reads": 26,
+   "sessions": 561
   }
  ],
  "topContent": [
@@ -310,8 +310,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 14,
-   "reads": 9,
+   "views": 13,
+   "reads": 8,
    "plays": 0
   },
   {
@@ -629,13 +629,13 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "slug": "best-llm-for-image-generation-september-2026",
+   "title": "Best LLM for Image Generation (September 2026): GPT Image 2 vs Nano Banana 2 vs FLUX.2 vs Seedream vs Midjourney",
    "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 17,
-   "reads": 5,
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 18,
+   "reads": 3,
    "plays": 0
   }
  ],
@@ -788,13 +788,13 @@
    "sessions": 4
   },
   {
-   "ref": "https://playground.rialo.io/",
+   "ref": "https://www.perplexity.ai/",
    "hits": 6,
-   "sessions": 1
+   "sessions": 4
   },
   {
-   "ref": "mtabbar",
-   "hits": 5,
+   "ref": "https://playground.rialo.io/",
+   "hits": 6,
    "sessions": 1
   }
  ]
