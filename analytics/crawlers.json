@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-21T05:59:20.180Z",
+ "generated": "2026-09-21T06:09:27.990Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18873,
+ "verifiedAiHits": 18880,
  "logsScanned": 30,
  "windowStart": "2026-09-07",
  "windowEnd": "2026-09-21",
- "totalHits": 123126,
- "aiHits": 95108,
+ "totalHits": 123171,
+ "aiHits": 95148,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 33938,
+   "hits": 33960,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14973,
+   "hits": 14982,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -113,7 +113,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 13952,
+   "hits": 13953,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -121,6 +121,10 @@
     {
      "path": "/build",
      "hits": 101
+    },
+    {
+     "path": "/posts/tool-highlight-mem0-persistent-memory-for-ai-agents.md",
+     "hits": 4
     },
     {
      "path": "/posts/tool-result-caching-for-ai-agents.md",
@@ -132,10 +136,6 @@
     },
     {
      "path": "/posts/apache-burr-vs-langgraph-state-machine-vs-graph.md",
-     "hits": 4
-    },
-    {
-     "path": "/posts/august-2026-ai-funding-wave-power-silicon-autonomous-security.md",
      "hits": 4
     }
    ],
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6737,
-   "verifiedHits": 6309,
+   "hits": 6739,
+   "verifiedHits": 6311,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4073,
-   "verifiedHits": 3483,
+   "hits": 4074,
+   "verifiedHits": 3484,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
    "topPaths": [
@@ -278,18 +278,18 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3586,
-   "verifiedHits": 3043,
+   "hits": 3593,
+   "verifiedHits": 3049,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
    "topPaths": [
     {
      "path": "/",
-     "hits": 583
+     "hits": 584
     },
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
-     "hits": 167
+     "hits": 168
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3288,
+   "hits": 3290,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1779,
+   "hits": 1780,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
