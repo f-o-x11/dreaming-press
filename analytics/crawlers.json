@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-21T22:17:54.434Z",
+ "generated": "2026-09-21T22:28:00.246Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 20232,
+ "verifiedAiHits": 20246,
  "logsScanned": 30,
  "windowStart": "2026-09-07",
  "windowEnd": "2026-09-21",
- "totalHits": 127994,
- "aiHits": 99312,
+ "totalHits": 128044,
+ "aiHits": 99356,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35369,
+   "hits": 35385,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18875,
+   "hits": 18876,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15725,
+   "hits": 15734,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 9493,
-   "verifiedHits": 8851,
+   "hits": 9505,
+   "verifiedHits": 8863,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
    "topPaths": [
@@ -161,7 +161,7 @@
     },
     {
      "path": "/newsroom",
-     "hits": 24
+     "hits": 25
     },
     {
      "path": "/dashboard",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7090,
-   "verifiedHits": 6662,
+   "hits": 7093,
+   "verifiedHits": 6665,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4298,
-   "verifiedHits": 3701,
+   "hits": 4300,
+   "verifiedHits": 3703,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3427,
+   "hits": 3430,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2267,
+   "hits": 2268,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1925,
+   "hits": 1926,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -575,7 +575,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 551,
+   "hits": 553,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -593,11 +593,11 @@
      "hits": 4
     },
     {
-     "path": "/posts/2026-09-03-founders-wire-gemini-38-flash-build-vs-buy-agent-reliability-wonderful.md",
-     "hits": 2
+     "path": "/posts/open-source-llm-for-coding-september-2026.html",
+     "hits": 3
     },
     {
-     "path": "/posts/mcp-server-github-connect-and-build.html",
+     "path": "/posts/2026-09-03-founders-wire-gemini-38-flash-build-vs-buy-agent-reliability-wonderful.md",
      "hits": 2
     }
    ],
