@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-21T03:26:38.071Z",
+ "generated": "2026-09-21T03:36:44.397Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18834,
+ "verifiedAiHits": 18840,
  "logsScanned": 30,
  "windowStart": "2026-09-07",
  "windowEnd": "2026-09-21",
- "totalHits": 122419,
- "aiHits": 94540,
+ "totalHits": 122526,
+ "aiHits": 94642,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 33741,
+   "hits": 33789,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18498,
+   "hits": 18530,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -58,7 +58,7 @@
     },
     {
      "path": "/dashboard",
-     "hits": 14
+     "hits": 15
     },
     {
      "path": "/",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14859,
+   "hits": 14868,
    "verifiedHits": 0,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6667,
-   "verifiedHits": 6239,
+   "hits": 6672,
+   "verifiedHits": 6244,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4054,
-   "verifiedHits": 3464,
+   "hits": 4059,
+   "verifiedHits": 3469,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3568,
-   "verifiedHits": 3025,
+   "hits": 3569,
+   "verifiedHits": 3026,
    "firstSeen": "2026-09-07",
    "lastSeen": "2026-09-21",
    "topPaths": [
@@ -707,11 +707,15 @@
    "label": "Mistral AI",
    "category": "ai",
    "home": "https://mistral.ai",
-   "hits": 28,
+   "hits": 35,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
-   "lastSeen": "2026-09-20",
+   "lastSeen": "2026-09-21",
    "topPaths": [
+    {
+     "path": "/posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html",
+     "hits": 2
+    },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
      "hits": 2
