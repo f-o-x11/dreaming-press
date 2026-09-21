@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-21T06:29:41.623Z",
+ "generated": "2026-09-21T06:39:47.903Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 11,
-  "todayReads": 3,
-  "avgTimeSec": 7,
+  "readersNow": 14,
+  "todayReads": 4,
+  "avgTimeSec": 13,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3299,
-  "reads": 326,
+  "views": 3301,
+  "reads": 327,
   "completes": 39,
   "plays": 34,
-  "sessions": 3193
+  "sessions": 3195
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2933,
+   "views": 2934,
    "reads": 177,
-   "sessions": 2941
+   "sessions": 2943
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 36,
-   "reads": 13,
-   "sessions": 53
+   "views": 37,
+   "reads": 14,
+   "sessions": 54
   },
   {
    "channel": "referral",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2933,
+   "views": 2934,
    "reads": 177,
    "completes": 16,
-   "sessions": 2940,
+   "sessions": 2942,
    "read_rate": 0.06,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -111,13 +111,13 @@
   },
   {
    "channel": "ai",
-   "views": 36,
-   "reads": 13,
+   "views": 37,
+   "reads": 14,
    "completes": 2,
-   "sessions": 53,
-   "read_rate": 0.361,
-   "complete_rate": 0.056,
-   "pages_per_session": 0.68,
+   "sessions": 54,
+   "read_rate": 0.378,
+   "complete_rate": 0.054,
+   "pages_per_session": 0.69,
    "median_dwell_sec": 26
   },
   {
@@ -240,9 +240,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 13,
-   "reads": 9,
-   "sessions": 8
+   "views": 14,
+   "reads": 10,
+   "sessions": 9
   },
   {
    "assistant": "DeepSeek",
@@ -272,9 +272,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2708,
-   "reads": 296,
-   "sessions": 2613
+   "views": 2710,
+   "reads": 297,
+   "sessions": 2615
   },
   {
    "device": "mobile",
@@ -642,9 +642,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 393,
+   "views": 394,
    "reads": 0,
-   "sessions": 391,
+   "sessions": 392,
    "avg_dwell_sec": 4
   },
   {
@@ -656,9 +656,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 41,
+   "views": 40,
    "reads": 1,
-   "sessions": 42,
+   "sessions": 41,
    "avg_dwell_sec": 4
   },
   {
@@ -769,8 +769,8 @@
   },
   {
    "ref": "https://www.doubao.com/",
-   "hits": 23,
-   "sessions": 8
+   "hits": 25,
+   "sessions": 9
   },
   {
    "ref": "https://search.brave.com/",
