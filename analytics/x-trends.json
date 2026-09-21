@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-21T05:29:00.946Z",
+ "generated": "2026-09-21T05:39:09.262Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 39
+   "count": 38
   },
   {
    "term": "founder",
@@ -20,19 +20,19 @@
   },
   {
    "term": "agent",
-   "count": 26
+   "count": 25
   },
   {
    "term": "agentic",
-   "count": 22
-  },
-  {
-   "term": "build",
-   "count": 20
+   "count": 21
   },
   {
    "term": "mcp",
    "count": 20
+  },
+  {
+   "term": "build",
+   "count": 19
   },
   {
    "term": "building",
@@ -43,12 +43,12 @@
    "count": 12
   },
   {
-   "term": "has",
+   "term": "launch",
    "count": 11
   },
   {
-   "term": "launch",
-   "count": 9
+   "term": "has",
+   "count": 11
   },
   {
    "term": "google",
@@ -60,10 +60,6 @@
   },
   {
    "term": "every",
-   "count": 8
-  },
-  {
-   "term": "engineer",
    "count": 8
   },
   {
@@ -84,6 +80,10 @@
   },
   {
    "term": "actually",
+   "count": 7
+  },
+  {
+   "term": "like",
    "count": 7
   }
  ],
@@ -109,14 +109,6 @@
    "count": 2
   },
   {
-   "term": "#aijobs",
-   "count": 1
-  },
-  {
-   "term": "#aihiring",
-   "count": 1
-  },
-  {
    "term": "#mcp",
    "count": 1
   },
@@ -134,6 +126,14 @@
   },
   {
    "term": "#deepmind",
+   "count": 1
+  },
+  {
+   "term": "#newsrupt",
+   "count": 1
+  },
+  {
+   "term": "#australia",
    "count": 1
   }
  ],
