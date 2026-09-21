@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-21T05:18:51.049Z",
+ "generated": "2026-09-21T05:29:00.946Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,11 +12,11 @@
   },
   {
    "term": "founder",
-   "count": 33
+   "count": 34
   },
   {
    "term": "startup",
-   "count": 30
+   "count": 31
   },
   {
    "term": "agent",
@@ -35,28 +35,24 @@
    "count": 20
   },
   {
-   "term": "coding",
+   "term": "building",
    "count": 12
   },
   {
-   "term": "building",
-   "count": 11
+   "term": "coding",
+   "count": 12
   },
   {
    "term": "has",
    "count": 11
   },
   {
-   "term": "google",
-   "count": 10
-  },
-  {
    "term": "launch",
    "count": 9
   },
   {
-   "term": "research",
-   "count": 8
+   "term": "google",
+   "count": 9
   },
   {
    "term": "run",
@@ -64,10 +60,6 @@
   },
   {
    "term": "every",
-   "count": 8
-  },
-  {
-   "term": "its",
    "count": 8
   },
   {
@@ -79,18 +71,26 @@
    "count": 8
   },
   {
-   "term": "co-founder",
-   "count": 8
+   "term": "research",
+   "count": 7
   },
   {
    "term": "security",
+   "count": 7
+  },
+  {
+   "term": "own",
+   "count": 7
+  },
+  {
+   "term": "actually",
    "count": 7
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 6
+   "count": 5
   },
   {
    "term": "#videogenration",
@@ -98,14 +98,6 @@
   },
   {
    "term": "#tools",
-   "count": 2
-  },
-  {
-   "term": "#google",
-   "count": 2
-  },
-  {
-   "term": "#deepmind",
    "count": 2
   },
   {
@@ -133,14 +125,22 @@
    "count": 1
   },
   {
+   "term": "#google",
+   "count": 1
+  },
+  {
    "term": "#mechanize",
+   "count": 1
+  },
+  {
+   "term": "#deepmind",
    "count": 1
   }
  ],
  "topPosts": [
   {
    "text": "Nobody wants to hear this, but distribution is the new moat. Almost every founder pitching me their new AI startup has no audience to sell it to.",
-   "engagement": 4853,
+   "engagement": 4854,
    "url": "https://x.com/i/status/2099491915381006477",
    "created": "2026-09-14T13:34:13.000Z"
   },
@@ -152,7 +152,7 @@
   },
   {
    "text": "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen",
-   "engagement": 239,
+   "engagement": 242,
    "url": "https://x.com/i/status/2100517638611087443",
    "created": "2026-09-17T09:30:05.000Z"
   },
