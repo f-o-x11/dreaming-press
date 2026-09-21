@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-21T08:30:57.655Z",
+ "generated": "2026-09-21T08:41:00.675Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 3,
   "todayReads": 8,
   "avgTimeSec": 22,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3293,
-  "reads": 328,
+  "views": 3288,
+  "reads": 325,
   "completes": 39,
   "plays": 34,
-  "sessions": 3185
+  "sessions": 3180
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2925,
-   "reads": 176,
-   "sessions": 2934
+   "views": 2922,
+   "reads": 175,
+   "sessions": 2931
   },
   {
    "channel": "organic",
@@ -30,20 +30,20 @@
   {
    "channel": "campaign:chatgpt.com",
    "views": 151,
-   "reads": 46,
+   "reads": 45,
    "sessions": 149
   },
   {
    "channel": "ai",
    "views": 38,
    "reads": 15,
-   "sessions": 54
+   "sessions": 53
   },
   {
    "channel": "referral",
-   "views": 63,
-   "reads": 12,
-   "sessions": 60
+   "views": 61,
+   "reads": 11,
+   "sessions": 58
   },
   {
    "channel": "social",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2925,
-   "reads": 176,
+   "views": 2922,
+   "reads": 175,
    "completes": 16,
-   "sessions": 2933,
+   "sessions": 2930,
    "read_rate": 0.06,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -79,10 +79,10 @@
   {
    "channel": "campaign:chatgpt.com",
    "views": 151,
-   "reads": 46,
+   "reads": 45,
    "completes": 4,
    "sessions": 149,
-   "read_rate": 0.305,
+   "read_rate": 0.298,
    "complete_rate": 0.026,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -100,11 +100,11 @@
   },
   {
    "channel": "referral",
-   "views": 63,
-   "reads": 12,
+   "views": 61,
+   "reads": 11,
    "completes": 0,
-   "sessions": 60,
-   "read_rate": 0.19,
+   "sessions": 58,
+   "read_rate": 0.18,
    "complete_rate": 0,
    "pages_per_session": 1.05,
    "median_dwell_sec": null
@@ -114,10 +114,10 @@
    "views": 38,
    "reads": 15,
    "completes": 2,
-   "sessions": 54,
+   "sessions": 53,
    "read_rate": 0.395,
    "complete_rate": 0.053,
-   "pages_per_session": 0.7,
+   "pages_per_session": 0.72,
    "median_dwell_sec": 26
   },
   {
@@ -235,7 +235,7 @@
   {
    "assistant": "ChatGPT",
    "views": 161,
-   "reads": 46,
+   "reads": 45,
    "sessions": 157
   },
   {
@@ -272,15 +272,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2710,
-   "reads": 299,
-   "sessions": 2613
+   "views": 2708,
+   "reads": 297,
+   "sessions": 2611
   },
   {
    "device": "mobile",
-   "views": 583,
-   "reads": 29,
-   "sessions": 573
+   "views": 580,
+   "reads": 28,
+   "sessions": 570
   }
  ],
  "topContent": [
@@ -310,8 +310,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 21,
-   "reads": 11,
+   "views": 18,
+   "reads": 10,
    "plays": 0
   },
   {
@@ -517,16 +517,6 @@
    "plays": 1
   },
   {
-   "slug": "how-to-run-spec-driven-development-github-spec-kit",
-   "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
-   "section": "stack",
-   "tags": "[\"reportive\",\"captivating\"]",
-   "author": "rosalinda",
-   "views": 6,
-   "reads": 2,
-   "plays": 1
-  },
-  {
    "slug": "self-rag-vs-corrective-rag-vs-adaptive-rag-retrieval-self-check",
    "title": "Self-RAG vs Corrective RAG vs Adaptive-RAG: Three Ways to Make Retrieval Check Itself",
    "section": "wire",
@@ -534,6 +524,16 @@
    "author": "priya",
    "views": 3,
    "reads": 2,
+   "plays": 1
+  },
+  {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 10,
+   "reads": 1,
    "plays": 1
   }
  ],
@@ -599,16 +599,6 @@
    "plays": 0
   },
   {
-   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
-   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 11,
-   "plays": 0
-  },
-  {
    "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
    "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
    "section": "wire",
@@ -637,14 +627,24 @@
    "views": 19,
    "reads": 0,
    "plays": 0
+  },
+  {
+   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
+   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 18,
+   "reads": 10,
+   "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 394,
+   "views": 393,
    "reads": 0,
-   "sessions": 392,
+   "sessions": 391,
    "avg_dwell_sec": 4
   },
   {
@@ -754,8 +754,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 68,
-   "sessions": 38
+   "hits": 66,
+   "sessions": 37
   },
   {
    "ref": "https://duckduckgo.com/",
@@ -788,13 +788,13 @@
    "sessions": 4
   },
   {
-   "ref": "https://l.instagram.com/",
-   "hits": 8,
-   "sessions": 6
-  },
-  {
    "ref": "https://playground.rialo.io/",
    "hits": 6,
+   "sessions": 1
+  },
+  {
+   "ref": "mtabbar",
+   "hits": 5,
    "sessions": 1
   }
  ]
