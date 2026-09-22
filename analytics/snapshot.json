@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-22T03:01:00.750Z",
+ "generated": "2026-09-22T03:11:07.043Z",
  "windowDays": 14,
  "site": {
   "readersNow": 4,
   "todayReads": 1,
-  "avgTimeSec": 7,
+  "avgTimeSec": 35,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3285,
+  "views": 3287,
   "reads": 334,
   "completes": 37,
   "plays": 33,
-  "sessions": 3199
+  "sessions": 3201
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2921,
+   "views": 2923,
    "reads": 180,
-   "sessions": 2947
+   "sessions": 2950
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2921,
+   "views": 2923,
    "reads": 180,
    "completes": 15,
-   "sessions": 2946,
+   "sessions": 2949,
    "read_rate": 0.062,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -260,15 +260,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2705,
+   "views": 2706,
    "reads": 306,
-   "sessions": 2623
+   "sessions": 2624
   },
   {
    "device": "mobile",
-   "views": 580,
+   "views": 581,
    "reads": 28,
-   "sessions": 577
+   "sessions": 578
   }
  ],
  "topContent": [
@@ -348,7 +348,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 20,
+   "views": 21,
    "reads": 5,
    "plays": 0
   },
@@ -587,6 +587,16 @@
    "plays": 0
   },
   {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 21,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
    "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
    "section": "wire",
@@ -595,16 +605,6 @@
    "views": 20,
    "reads": 13,
    "plays": 7
-  },
-  {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 20,
-   "reads": 5,
-   "plays": 0
   },
   {
    "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
