@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-22T11:37:14.567Z",
+ "generated": "2026-09-22T11:47:21.034Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 44,
+  "readersNow": 2,
+  "todayReads": 46,
   "avgTimeSec": 15,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3326,
-  "reads": 350,
+  "views": 3328,
+  "reads": 352,
   "completes": 23,
   "plays": 18,
-  "sessions": 3229
+  "sessions": 3231
  },
  "channels": [
   {
@@ -23,9 +23,9 @@
   },
   {
    "channel": "organic",
-   "views": 150,
-   "reads": 116,
-   "sessions": 113
+   "views": 151,
+   "reads": 117,
+   "sessions": 114
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -50,6 +50,12 @@
    "views": 3,
    "reads": 1,
    "sessions": 3
+  },
+  {
+   "channel": "campaign:qwant",
+   "views": 1,
+   "reads": 1,
+   "sessions": 1
   },
   {
    "channel": "campaign:producthunt/",
@@ -89,13 +95,13 @@
   },
   {
    "channel": "organic",
-   "views": 150,
-   "reads": 116,
+   "views": 151,
+   "reads": 117,
    "completes": 2,
-   "sessions": 113,
-   "read_rate": 0.773,
+   "sessions": 114,
+   "read_rate": 0.775,
    "complete_rate": 0.013,
-   "pages_per_session": 1.33,
+   "pages_per_session": 1.32,
    "median_dwell_sec": null
   },
   {
@@ -138,6 +144,17 @@
    "completes": 0,
    "sessions": 1,
    "read_rate": 0,
+   "complete_rate": 0,
+   "pages_per_session": 1,
+   "median_dwell_sec": null
+  },
+  {
+   "channel": "campaign:qwant",
+   "views": 1,
+   "reads": 1,
+   "completes": 0,
+   "sessions": 1,
+   "read_rate": 1,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -260,9 +277,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2746,
-   "reads": 322,
-   "sessions": 2653
+   "views": 2748,
+   "reads": 324,
+   "sessions": 2655
   },
   {
    "device": "mobile",
@@ -313,6 +330,16 @@
    "plays": 0
   },
   {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 23,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -340,16 +367,6 @@
    "author": "dex",
    "views": 10,
    "reads": 6,
-   "plays": 0
-  },
-  {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 22,
-   "reads": 5,
    "plays": 0
   },
   {
@@ -612,8 +629,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 22,
-   "reads": 5,
+   "views": 23,
+   "reads": 6,
    "plays": 0
   },
   {
@@ -737,8 +754,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 82,
-   "sessions": 41
+   "hits": 84,
+   "sessions": 42
   },
   {
    "ref": "https://mail.google.com/",
