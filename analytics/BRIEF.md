@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-22T03:11Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-22T03:21Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3287 views → 334 engaged reads → 37 completes · 3201 sessions.
-- Channels: direct 180r/2923v · organic 81r/115v · campaign:chatgpt.com 46r/152v · ai 15r/36v · referral 11r/57v · social 1r/3v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3286 views → 334 engaged reads → 37 completes · 3200 sessions.
+- Channels: direct 180r/2922v · organic 81r/115v · campaign:chatgpt.com 46r/152v · ai 15r/36v · referral 11r/57v · social 1r/3v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 47r/164v · Doubao 11r/15v · Perplexity 2r/4v · Kimi 0r/4v.
 - Referrers: bing.com, chatgpt.com, duckduckgo.com, cn.bing.com, doubao.com, search.brave.com, brand, perplexity.ai, playground.rialo.io, un-body.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2923 views · read 6.2% · complete 0.5% · 0.99 pages/session · median 4s
+- direct: 2922 views · read 6.2% · complete 0.5% · 0.99 pages/session · median 4s
 - campaign:chatgpt.com: 152 views · read 30.3% · complete 2.6% · 1.01 pages/session · median ?s
 - organic: 115 views · read 70.4% · complete 2.6% · 1.06 pages/session · median ?s
 - referral: 57 views · read 19.3% · complete 0.0% · 1.06 pages/session · median ?s
@@ -102,14 +102,14 @@ sample size dwarfs the engaged-read counts below.
 - /build  — 87 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 63 retrieval fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 57 retrieval fetches
-- /tools  — 54 retrieval fetches
 - /wire.html  — 46 retrieval fetches
+- /tools  — 33 retrieval fetches
 - /posts/local-llm-for-coding-on-your-own-machine.html  — 29 retrieval fetches
 - /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html  — 29 retrieval fetches
 
 Per engine:
-- PerplexityBot (8496 verified): /build ×87 · / ×27 · /newsroom ×23
-- OAI-SearchBot (3559 verified): /wire.html ×46 · /tools ×33 · /posts/local-llm-for-coding-on-your-own-machine.html ×29
+- PerplexityBot (8532 verified): /build ×87 · / ×27 · /newsroom ×23
+- OAI-SearchBot (3563 verified): /wire.html ×46 · /tools ×33 · /posts/local-llm-for-coding-on-your-own-machine.html ×29
 - ChatGPT-User (3053 verified): / ×580 · /posts/open-source-llm-for-coding-september-2026.html ×181 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×164
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(40), founder(35), startup(34), agent(24), build(23), agentic(21), mcp(21), coding(13), building(12), launch(10), has(10), google(9), every(8), engineer(8), trading(8).
+Hot terms: agents(40), founder(35), startup(34), agent(24), build(23), agentic(21), mcp(21), building(15), coding(13), launch(10), has(10), google(9), every(8), engineer(8), trading(8).
 Hashtags: #ai, #videogenration, #tools, #startup, #mcp, #security, #google, #mechanize, #deepmind, #newsrupt.
 High-engagement posts to react to / cite:
 - "Humans sleep, but trading agents don’t 🤖 Charting into the Agentic Trading era with tokenized US stocks operating 24/7! @Bitget_AI just launched the Builder Base Camp Hackathon S2 featuring a 50,000 USDT prize pool! Whe" — https://x.com/i/status/2100809997265301793
@@ -135,7 +135,7 @@ High-engagement posts to react to / cite:
 - "Every Legal AI startup founder right now: https://t.co/5b9kBX8GxO https://t.co/yurJaDECwd" — https://x.com/i/status/2100693975162335449
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (248 of 450 phrases have NO post, 15h ago)
+## Uncovered search demand (248 of 450 phrases have NO post, 16h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 19537 confirmed AI-engine fetches (Perplexity 8496, GPTBot (OpenAI) 4429, ChatGPT Search (OpenAI) 3559, ChatGPT (user browsing) 3053).
+The real answer engines are crawling us — IP-verified: 19577 confirmed AI-engine fetches (Perplexity 8532, GPTBot (OpenAI) 4429, ChatGPT Search (OpenAI) 3563, ChatGPT (user browsing) 3053).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 684 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 217 crawler fetches
@@ -168,8 +168,8 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 146 crawler fetches
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 120 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 84 crawler fetches
-- /tools  — 57 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 57 crawler fetches
+- /tools  — 36 crawler fetches
 - /posts/gpt-5-6-terra-vs-kimi-k3-mid-tier-agent-backend.html  — 35 crawler fetches
 - /posts/local-llm-for-coding-on-your-own-machine.html  — 32 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
