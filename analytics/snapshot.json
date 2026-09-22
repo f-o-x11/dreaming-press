@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-22T15:20:41.256Z",
+ "generated": "2026-09-22T15:30:45.839Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 3,
   "todayReads": 50,
   "avgTimeSec": 15,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3322,
-  "reads": 351,
-  "completes": 23,
+  "views": 3323,
+  "reads": 350,
+  "completes": 22,
   "plays": 20,
-  "sessions": 3224
+  "sessions": 3225
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2920,
-   "reads": 161,
-   "sessions": 2966
+   "views": 2921,
+   "reads": 160,
+   "sessions": 2967
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2920,
-   "reads": 161,
-   "completes": 15,
-   "sessions": 2965,
+   "views": 2921,
+   "reads": 160,
+   "completes": 14,
+   "sessions": 2966,
    "read_rate": 0.055,
    "complete_rate": 0.005,
    "pages_per_session": 0.98,
@@ -277,9 +277,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2751,
-   "reads": 323,
-   "sessions": 2657
+   "views": 2752,
+   "reads": 322,
+   "sessions": 2658
   },
   {
    "device": "mobile",
@@ -315,7 +315,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 25,
+   "views": 27,
    "reads": 7,
    "plays": 1
   },
@@ -457,7 +457,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 25,
+   "views": 27,
    "reads": 7,
    "plays": 1
   },
@@ -584,6 +584,16 @@
    "plays": 0
   },
   {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 27,
+   "reads": 7,
+   "plays": 1
+  },
+  {
    "slug": "2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo",
    "title": "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO",
    "section": "wire",
@@ -592,16 +602,6 @@
    "views": 26,
    "reads": 0,
    "plays": 0
-  },
-  {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 25,
-   "reads": 7,
-   "plays": 1
   },
   {
    "slug": "2026-09-09-founders-wire-mistral-samsung-meta-muse-agent-commerce",
