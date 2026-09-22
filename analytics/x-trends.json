@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-22T16:52:07.368Z",
+ "generated": "2026-09-22T17:02:18.880Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 40
+   "count": 38
   },
   {
    "term": "founder",
@@ -27,16 +27,16 @@
    "count": 24
   },
   {
-   "term": "mcp",
+   "term": "agentic",
    "count": 21
   },
   {
-   "term": "agentic",
-   "count": 19
+   "term": "mcp",
+   "count": 20
   },
   {
    "term": "coding",
-   "count": 16
+   "count": 17
   },
   {
    "term": "building",
@@ -90,15 +90,7 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 5
-  },
-  {
-   "term": "#videogenration",
-   "count": 2
-  },
-  {
-   "term": "#tools",
-   "count": 2
+   "count": 3
   },
   {
    "term": "#mcp",
@@ -134,6 +126,14 @@
   },
   {
    "term": "#india",
+   "count": 1
+  },
+  {
+   "term": "#buildinpublic",
+   "count": 1
+  },
+  {
+   "term": "#australia",
    "count": 1
   }
  ],
