@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-22T09:35Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-22T09:45Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -96,21 +96,21 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 618 retrieval fetches
+- /  — 620 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 187 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 164 retrieval fetches
 - /build  — 87 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 63 retrieval fetches
-- /posts/lm-studio-bionic-local-agent-open-models.html  — 57 retrieval fetches
+- /posts/how-to-implement-contextual-retrieval-hybrid-bm25-rerank.html  — 58 retrieval fetches
 - /tools  — 55 retrieval fetches
 - /wire.html  — 48 retrieval fetches
 - /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html  — 30 retrieval fetches
 - /posts/local-llm-for-coding-on-your-own-machine.html  — 29 retrieval fetches
 
 Per engine:
-- PerplexityBot (8656 verified): /build ×87 · / ×27 · /newsroom ×23
-- OAI-SearchBot (3642 verified): /wire.html ×48 · /tools ×33 · /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html ×30
-- ChatGPT-User (3105 verified): / ×591 · /posts/open-source-llm-for-coding-september-2026.html ×187 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×164
+- PerplexityBot (8656 verified): /build ×87 · / ×28 · /newsroom ×23
+- OAI-SearchBot (3647 verified): /wire.html ×48 · /tools ×33 · /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html ×30
+- ChatGPT-User (3109 verified): / ×592 · /posts/open-source-llm-for-coding-september-2026.html ×187 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×164
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 19833 confirmed AI-engine fetches (Perplexity 8656, GPTBot (OpenAI) 4430, ChatGPT Search (OpenAI) 3642, ChatGPT (user browsing) 3105).
+The real answer engines are crawling us — IP-verified: 19842 confirmed AI-engine fetches (Perplexity 8656, GPTBot (OpenAI) 4430, ChatGPT Search (OpenAI) 3647, ChatGPT (user browsing) 3109).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 691 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 219 crawler fetches
@@ -169,7 +169,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 122 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 86 crawler fetches
 - /tools  — 58 crawler fetches
-- /posts/lm-studio-bionic-local-agent-open-models.html  — 57 crawler fetches
+- /posts/how-to-implement-contextual-retrieval-hybrid-bm25-rerank.html  — 58 crawler fetches
 - /posts/gpt-5-6-terra-vs-kimi-k3-mid-tier-agent-backend.html  — 35 crawler fetches
 - /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html  — 30 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
