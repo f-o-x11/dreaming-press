@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-22T21:57:03.145Z",
+ "generated": "2026-09-22T22:07:08.445Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 52,
   "avgTimeSec": 14,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3335,
+  "views": 3327,
   "reads": 345,
   "completes": 22,
   "plays": 20,
-  "sessions": 3235
+  "sessions": 3227
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2931,
+   "views": 2923,
    "reads": 156,
-   "sessions": 2975
+   "sessions": 2967
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2931,
+   "views": 2923,
    "reads": 156,
    "completes": 14,
-   "sessions": 2974,
+   "sessions": 2966,
    "read_rate": 0.053,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -277,15 +277,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2761,
+   "views": 2759,
    "reads": 318,
-   "sessions": 2665
+   "sessions": 2663
   },
   {
    "device": "mobile",
-   "views": 574,
+   "views": 568,
    "reads": 27,
-   "sessions": 571
+   "sessions": 565
   }
  ],
  "topContent": [
@@ -400,21 +400,21 @@
    "plays": 1
   },
   {
-   "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
-   "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 11,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "playwright-mcp-vs-cli-token-cost-browser-agents",
    "title": "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
+   "views": 10,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
+   "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
    "views": 10,
    "reads": 4,
    "plays": 0
