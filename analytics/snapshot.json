@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-22T07:03:57.715Z",
+ "generated": "2026-09-22T07:14:00.821Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 10,
+  "readersNow": 6,
   "todayReads": 5,
-  "avgTimeSec": 23,
+  "avgTimeSec": 21,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3323,
+  "views": 3327,
   "reads": 336,
   "completes": 37,
   "plays": 33,
-  "sessions": 3235
+  "sessions": 3239
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2958,
+   "views": 2960,
    "reads": 181,
-   "sessions": 2981
+   "sessions": 2984
   },
   {
    "channel": "organic",
-   "views": 115,
+   "views": 116,
    "reads": 81,
-   "sessions": 109
+   "sessions": 110
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 36,
+   "views": 37,
    "reads": 15,
-   "sessions": 53
+   "sessions": 54
   },
   {
    "channel": "referral",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2958,
+   "views": 2960,
    "reads": 181,
    "completes": 15,
-   "sessions": 2980,
+   "sessions": 2983,
    "read_rate": 0.061,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -89,13 +89,13 @@
   },
   {
    "channel": "organic",
-   "views": 115,
+   "views": 116,
    "reads": 81,
    "completes": 3,
-   "sessions": 109,
-   "read_rate": 0.704,
+   "sessions": 110,
+   "read_rate": 0.698,
    "complete_rate": 0.026,
-   "pages_per_session": 1.06,
+   "pages_per_session": 1.05,
    "median_dwell_sec": null
   },
   {
@@ -111,13 +111,13 @@
   },
   {
    "channel": "ai",
-   "views": 36,
+   "views": 37,
    "reads": 15,
    "completes": 1,
-   "sessions": 53,
-   "read_rate": 0.417,
-   "complete_rate": 0.028,
-   "pages_per_session": 0.68,
+   "sessions": 54,
+   "read_rate": 0.405,
+   "complete_rate": 0.027,
+   "pages_per_session": 0.69,
    "median_dwell_sec": 26
   },
   {
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 166,
+   "views": 167,
    "reads": 48,
-   "sessions": 161
+   "sessions": 162
   },
   {
    "assistant": "Doubao",
@@ -260,15 +260,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2733,
+   "views": 2736,
    "reads": 308,
-   "sessions": 2649
+   "sessions": 2652
   },
   {
    "device": "mobile",
-   "views": 590,
+   "views": 591,
    "reads": 28,
-   "sessions": 587
+   "sessions": 588
   }
  ],
  "topContent": [
@@ -393,21 +393,21 @@
    "plays": 0
   },
   {
-   "slug": "playwright-mcp-vs-cli-token-cost-browser-agents",
-   "title": "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
    "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
+   "views": 11,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "playwright-mcp-vs-cli-token-cost-browser-agents",
+   "title": "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
    "views": 10,
    "reads": 4,
    "plays": 0
@@ -587,6 +587,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo",
+   "title": "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 22,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "open-source-llm-leaderboard-september-2026-run-locally",
    "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
    "section": "stack",
@@ -594,16 +604,6 @@
    "author": "priya",
    "views": 21,
    "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo",
-   "title": "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 21,
-   "reads": 0,
    "plays": 0
   },
   {
@@ -742,8 +742,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 64,
-   "sessions": 36
+   "hits": 65,
+   "sessions": 37
   },
   {
    "ref": "https://duckduckgo.com/",
