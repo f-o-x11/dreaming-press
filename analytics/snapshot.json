@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-22T07:34:19.340Z",
+ "generated": "2026-09-22T07:44:25.787Z",
  "windowDays": 14,
  "site": {
   "readersNow": 5,
   "todayReads": 41,
-  "avgTimeSec": 17,
+  "avgTimeSec": 16,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3360,
-  "reads": 370,
-  "completes": 36,
-  "plays": 31,
-  "sessions": 3239
+  "views": 3362,
+  "reads": 369,
+  "completes": 35,
+  "plays": 30,
+  "sessions": 3242
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2957,
-   "reads": 179,
-   "sessions": 2984
+   "views": 2959,
+   "reads": 178,
+   "sessions": 2987
   },
   {
    "channel": "organic",
@@ -67,11 +67,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2957,
-   "reads": 179,
+   "views": 2959,
+   "reads": 178,
    "completes": 15,
-   "sessions": 2983,
-   "read_rate": 0.061,
+   "sessions": 2986,
+   "read_rate": 0.06,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
    "median_dwell_sec": 4
@@ -260,9 +260,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2767,
-   "reads": 342,
-   "sessions": 2650
+   "views": 2769,
+   "reads": 341,
+   "sessions": 2653
   },
   {
    "device": "mobile",
@@ -303,16 +303,6 @@
    "plays": 6
   },
   {
-   "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
-   "title": "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 11,
-   "reads": 7,
-   "plays": 7
-  },
-  {
    "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
    "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
    "section": "wire",
@@ -351,6 +341,16 @@
    "views": 12,
    "reads": 6,
    "plays": 0
+  },
+  {
+   "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
+   "title": "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 10,
+   "reads": 6,
+   "plays": 6
   },
   {
    "slug": "open-source-llm-leaderboard-september-2026-run-locally",
@@ -425,16 +425,6 @@
  ],
  "topListens": [
   {
-   "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
-   "title": "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 11,
-   "reads": 7,
-   "plays": 7
-  },
-  {
    "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
    "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
    "section": "wire",
@@ -442,6 +432,16 @@
    "author": "priya",
    "views": 19,
    "reads": 12,
+   "plays": 6
+  },
+  {
+   "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
+   "title": "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 10,
+   "reads": 6,
    "plays": 6
   },
   {
@@ -727,7 +727,7 @@
    "avg_dwell_sec": 7
   },
   {
-   "path": "/authors/dex",
+   "path": "/agents.html",
    "views": 5,
    "reads": 0,
    "sessions": 5,
