@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-22T13:48:41.065Z",
+ "generated": "2026-09-22T13:58:56.683Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 46,
+  "readersNow": 4,
+  "todayReads": 47,
   "avgTimeSec": 15,
   "postsThisWeek": 15
  },
  "funnel": {
   "views": 3322,
-  "reads": 349,
+  "reads": 350,
   "completes": 23,
   "plays": 18,
   "sessions": 3223
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2921,
+   "views": 2920,
    "reads": 159,
    "sessions": 2966
   },
   {
    "channel": "organic",
-   "views": 150,
+   "views": 151,
    "reads": 116,
-   "sessions": 113
+   "sessions": 114
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -46,16 +46,16 @@
    "sessions": 53
   },
   {
+   "channel": "campaign:qwant",
+   "views": 2,
+   "reads": 2,
+   "sessions": 2
+  },
+  {
    "channel": "social",
    "views": 3,
    "reads": 1,
    "sessions": 3
-  },
-  {
-   "channel": "campaign:qwant",
-   "views": 2,
-   "reads": 1,
-   "sessions": 2
   },
   {
    "channel": "campaign:producthunt/",
@@ -73,14 +73,25 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2921,
+   "views": 2920,
    "reads": 159,
    "completes": 15,
    "sessions": 2965,
    "read_rate": 0.054,
    "complete_rate": 0.005,
-   "pages_per_session": 0.99,
+   "pages_per_session": 0.98,
    "median_dwell_sec": 4
+  },
+  {
+   "channel": "organic",
+   "views": 151,
+   "reads": 116,
+   "completes": 2,
+   "sessions": 114,
+   "read_rate": 0.768,
+   "complete_rate": 0.013,
+   "pages_per_session": 1.32,
+   "median_dwell_sec": null
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -91,17 +102,6 @@
    "read_rate": 0.305,
    "complete_rate": 0.026,
    "pages_per_session": 1.02,
-   "median_dwell_sec": null
-  },
-  {
-   "channel": "organic",
-   "views": 150,
-   "reads": 116,
-   "completes": 2,
-   "sessions": 113,
-   "read_rate": 0.773,
-   "complete_rate": 0.013,
-   "pages_per_session": 1.33,
    "median_dwell_sec": null
   },
   {
@@ -140,10 +140,10 @@
   {
    "channel": "campaign:qwant",
    "views": 2,
-   "reads": 1,
+   "reads": 2,
    "completes": 0,
    "sessions": 2,
-   "read_rate": 0.5,
+   "read_rate": 1,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -278,7 +278,7 @@
   {
    "device": "desktop",
    "views": 2751,
-   "reads": 321,
+   "reads": 322,
    "sessions": 2656
   },
   {
@@ -310,6 +310,16 @@
    "plays": 1
   },
   {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 24,
+   "reads": 7,
+   "plays": 0
+  },
+  {
    "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
    "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
    "section": "wire",
@@ -327,16 +337,6 @@
    "author": "dex",
    "views": 7,
    "reads": 7,
-   "plays": 0
-  },
-  {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 24,
-   "reads": 6,
    "plays": 0
   },
   {
@@ -620,7 +620,7 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
    "views": 24,
-   "reads": 6,
+   "reads": 7,
    "plays": 0
   },
   {
@@ -647,9 +647,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 389,
+   "views": 388,
    "reads": 0,
-   "sessions": 389,
+   "sessions": 388,
    "avg_dwell_sec": 3
   },
   {
@@ -754,8 +754,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 82,
-   "sessions": 41
+   "hits": 83,
+   "sessions": 42
   },
   {
    "ref": "https://mail.google.com/",
