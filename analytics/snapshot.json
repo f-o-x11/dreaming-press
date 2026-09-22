@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-22T13:28:31.146Z",
+ "generated": "2026-09-22T13:38:37.213Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 46,
   "avgTimeSec": 15,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3323,
-  "reads": 351,
+  "views": 3322,
+  "reads": 349,
   "completes": 23,
   "plays": 18,
-  "sessions": 3225
+  "sessions": 3223
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2923,
-   "reads": 160,
-   "sessions": 2968
+   "views": 2922,
+   "reads": 159,
+   "sessions": 2967
   },
   {
    "channel": "organic",
@@ -30,8 +30,8 @@
   {
    "channel": "campaign:chatgpt.com",
    "views": 151,
-   "reads": 47,
-   "sessions": 149
+   "reads": 46,
+   "sessions": 148
   },
   {
    "channel": "ai",
@@ -73,11 +73,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2923,
-   "reads": 160,
+   "views": 2922,
+   "reads": 159,
    "completes": 15,
-   "sessions": 2967,
-   "read_rate": 0.055,
+   "sessions": 2966,
+   "read_rate": 0.054,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
    "median_dwell_sec": 4
@@ -85,12 +85,12 @@
   {
    "channel": "campaign:chatgpt.com",
    "views": 151,
-   "reads": 47,
+   "reads": 46,
    "completes": 4,
-   "sessions": 149,
-   "read_rate": 0.311,
+   "sessions": 148,
+   "read_rate": 0.305,
    "complete_rate": 0.026,
-   "pages_per_session": 1.01,
+   "pages_per_session": 1.02,
    "median_dwell_sec": null
   },
   {
@@ -252,8 +252,8 @@
   {
    "assistant": "ChatGPT",
    "views": 164,
-   "reads": 48,
-   "sessions": 159
+   "reads": 47,
+   "sessions": 158
   },
   {
    "assistant": "Doubao",
@@ -277,15 +277,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2747,
-   "reads": 323,
+   "views": 2748,
+   "reads": 321,
    "sessions": 2653
   },
   {
    "device": "mobile",
-   "views": 576,
+   "views": 574,
    "reads": 28,
-   "sessions": 573
+   "sessions": 571
   }
  ],
  "topContent": [
@@ -662,8 +662,8 @@
   {
    "path": "/best/:cat",
    "views": 41,
-   "reads": 1,
-   "sessions": 42,
+   "reads": 0,
+   "sessions": 41,
    "avg_dwell_sec": 4
   },
   {
