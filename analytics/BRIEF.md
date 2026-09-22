@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-22T20:05Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-22T20:15Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -74,7 +74,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [wire] "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again" — 62 views, 2 reads
 - [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 49 views, 14 reads
 - [wire] "Microsoft Agent Framework vs LangGraph vs CrewAI: Which One Crossed the Three Thresholds" — 38 views, 36 reads
-- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 33 views, 0 reads
+- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 32 views, 0 reads
 - [stack] "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)" — 28 views, 7 reads
 - [wire] "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO" — 26 views, 0 reads
 
@@ -84,7 +84,7 @@ problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [wire] "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again" — 62 views but only 2 engaged reads (3.2%)
-- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 33 views but only 0 engaged reads (0.0%)
+- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 32 views but only 0 engaged reads (0.0%)
 - [wire] "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO" — 26 views but only 0 engaged reads (0.0%)
 - [wire] "The Founder's Wire, September 9: Mistral Raises $3.5B to Become Europe's Sovereign Frontier, and Meta's Muse Turns a Consumer AI Into a Shopper With a Stripe Wallet" — 25 views but only 0 engaged reads (0.0%)
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 25 views but only 0 engaged reads (0.0%)
@@ -109,7 +109,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (8682 verified): /build ×87 · / ×28 · /newsroom ×23
-- OAI-SearchBot (3790 verified): /wire.html ×51 · /tools ×34 · /posts/local-llm-for-coding-on-your-own-machine.html ×30
+- OAI-SearchBot (3792 verified): /wire.html ×51 · /tools ×34 · /posts/local-llm-for-coding-on-your-own-machine.html ×30
 - ChatGPT-User (3214 verified): / ×610 · /posts/open-source-llm-for-coding-september-2026.html ×196 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×169
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(40), startup(35), founder(35), agent(27), build(25), agentic(22), mcp(19), coding(18), building(16), its(10), google(9), first(9), has(9), launch(9), every(8).
+Hot terms: agents(40), founder(36), startup(34), agent(27), build(25), agentic(22), mcp(19), coding(18), building(15), its(10), google(9), first(9), has(9), launch(9), every(8).
 Hashtags: #ai, #mcp, #security, #google, #mechanize, #deepmind, #newsrupt, #startup, #founder, #india.
 High-engagement posts to react to / cite:
 - "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen" — https://x.com/i/status/2100517638611087443
@@ -135,7 +135,7 @@ High-engagement posts to react to / cite:
 - "Every Legal AI startup founder right now: https://t.co/5b9kBX8GxO https://t.co/yurJaDECwd" — https://x.com/i/status/2100693975162335449
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (248 of 450 phrases have NO post, 32h ago)
+## Uncovered search demand (248 of 450 phrases have NO post, 33h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 20119 confirmed AI-engine fetches (Perplexity 8682, GPTBot (OpenAI) 4433, ChatGPT Search (OpenAI) 3790, ChatGPT (user browsing) 3214).
+The real answer engines are crawling us — IP-verified: 20121 confirmed AI-engine fetches (Perplexity 8682, GPTBot (OpenAI) 4433, ChatGPT Search (OpenAI) 3792, ChatGPT (user browsing) 3214).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 695 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 233 crawler fetches
