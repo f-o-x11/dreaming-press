@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-22T15:51:00.639Z",
+ "generated": "2026-09-22T16:01:05.507Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19978,
+ "verifiedAiHits": 19982,
  "logsScanned": 30,
  "windowStart": "2026-09-08",
  "windowEnd": "2026-09-22",
- "totalHits": 127136,
- "aiHits": 99948,
+ "totalHits": 127186,
+ "aiHits": 99994,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36598,
+   "hits": 36633,
    "verifiedHits": 0,
    "firstSeen": "2026-09-08",
    "lastSeen": "2026-09-22",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18394,
+   "hits": 18397,
    "verifiedHits": 0,
    "firstSeen": "2026-09-08",
    "lastSeen": "2026-09-22",
@@ -62,7 +62,7 @@
     },
     {
      "path": "/",
-     "hits": 8
+     "hits": 9
     },
     {
      "path": "/posts/llm-reranker-vs-cross-encoder-vs-listwise.html",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15528,
+   "hits": 15532,
    "verifiedHits": 0,
    "firstSeen": "2026-09-08",
    "lastSeen": "2026-09-22",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6962,
-   "verifiedHits": 6538,
+   "hits": 6966,
+   "verifiedHits": 6542,
    "firstSeen": "2026-09-08",
    "lastSeen": "2026-09-22",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3722,
-   "verifiedHits": 3172,
+   "hits": 3726,
+   "verifiedHits": 3176,
    "firstSeen": "2026-09-08",
    "lastSeen": "2026-09-22",
    "topPaths": [
@@ -289,7 +289,7 @@
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 192
+     "hits": 193
     },
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
