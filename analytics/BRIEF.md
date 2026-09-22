@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-22T04:52Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-22T05:02Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3293 views → 334 engaged reads → 37 completes · 3206 sessions.
-- Channels: direct 180r/2928v · organic 81r/115v · campaign:chatgpt.com 46r/153v · ai 15r/36v · referral 11r/57v · social 1r/3v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3294 views → 334 engaged reads → 37 completes · 3207 sessions.
+- Channels: direct 180r/2929v · organic 81r/115v · campaign:chatgpt.com 46r/153v · ai 15r/36v · referral 11r/57v · social 1r/3v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 47r/165v · Doubao 11r/15v · Perplexity 2r/4v · Kimi 0r/4v.
 - Referrers: bing.com, chatgpt.com, duckduckgo.com, cn.bing.com, doubao.com, search.brave.com, brand, perplexity.ai, playground.rialo.io, un-body.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2928 views · read 6.1% · complete 0.5% · 0.99 pages/session · median 4s
+- direct: 2929 views · read 6.1% · complete 0.5% · 0.99 pages/session · median 4s
 - campaign:chatgpt.com: 153 views · read 30.1% · complete 2.6% · 1.01 pages/session · median ?s
 - organic: 115 views · read 70.4% · complete 2.6% · 1.06 pages/session · median ?s
 - referral: 57 views · read 19.3% · complete 0.0% · 1.06 pages/session · median ?s
@@ -108,9 +108,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html  — 29 retrieval fetches
 
 Per engine:
-- PerplexityBot (8581 verified): /build ×87 · / ×27 · /newsroom ×23
+- PerplexityBot (8592 verified): /build ×87 · / ×27 · /newsroom ×23
 - OAI-SearchBot (3576 verified): /wire.html ×46 · /tools ×33 · /posts/local-llm-for-coding-on-your-own-machine.html ×29
-- ChatGPT-User (3062 verified): / ×583 · /posts/open-source-llm-for-coding-september-2026.html ×181 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×164
+- ChatGPT-User (3063 verified): / ×583 · /posts/open-source-llm-for-coding-september-2026.html ×181 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×164
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(40), founder(35), startup(34), agent(24), build(23), agentic(21), mcp(21), building(15), coding(13), launch(10), has(10), google(9), every(8), engineer(8), trading(8).
+Hot terms: agents(40), founder(35), startup(34), agentic(24), agent(24), build(23), mcp(21), coding(16), building(15), launch(10), has(10), google(9), every(8), engineer(8), trading(8).
 Hashtags: #ai, #videogenration, #tools, #startup, #mcp, #security, #google, #mechanize, #deepmind, #newsrupt.
 High-engagement posts to react to / cite:
 - "Humans sleep, but trading agents don’t 🤖 Charting into the Agentic Trading era with tokenized US stocks operating 24/7! @Bitget_AI just launched the Builder Base Camp Hackathon S2 featuring a 50,000 USDT prize pool! Whe" — https://x.com/i/status/2100809997265301793
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 19648 confirmed AI-engine fetches (Perplexity 8581, GPTBot (OpenAI) 4429, ChatGPT Search (OpenAI) 3576, ChatGPT (user browsing) 3062).
+The real answer engines are crawling us — IP-verified: 19660 confirmed AI-engine fetches (Perplexity 8592, GPTBot (OpenAI) 4429, ChatGPT Search (OpenAI) 3576, ChatGPT (user browsing) 3063).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 687 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 218 crawler fetches
