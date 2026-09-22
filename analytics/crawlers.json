@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-22T06:53:50.359Z",
+ "generated": "2026-09-22T07:03:57.054Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19747,
+ "verifiedAiHits": 19750,
  "logsScanned": 30,
  "windowStart": "2026-09-08",
  "windowEnd": "2026-09-22",
- "totalHits": 123941,
- "aiHits": 97035,
+ "totalHits": 124034,
+ "aiHits": 97124,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35004,
+   "hits": 35051,
    "verifiedHits": 0,
    "firstSeen": "2026-09-08",
    "lastSeen": "2026-09-22",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 18108,
+   "hits": 18138,
    "verifiedHits": 0,
    "firstSeen": "2026-09-08",
    "lastSeen": "2026-09-22",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15131,
+   "hits": 15136,
    "verifiedHits": 0,
    "firstSeen": "2026-09-08",
    "lastSeen": "2026-09-22",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 9273,
-   "verifiedHits": 8637,
+   "hits": 9274,
+   "verifiedHits": 8638,
    "firstSeen": "2026-09-08",
    "lastSeen": "2026-09-22",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6838,
-   "verifiedHits": 6422,
+   "hits": 6840,
+   "verifiedHits": 6424,
    "firstSeen": "2026-09-08",
    "lastSeen": "2026-09-22",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4185,
-   "verifiedHits": 3598,
+   "hits": 4187,
+   "verifiedHits": 3600,
    "firstSeen": "2026-09-08",
    "lastSeen": "2026-09-22",
    "topPaths": [
@@ -311,14 +311,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3383,
+   "hits": 3385,
    "verifiedHits": 0,
    "firstSeen": "2026-09-08",
    "lastSeen": "2026-09-22",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 33
+     "hits": 34
     },
     {
      "path": "/dashboard",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1924,
+   "hits": 1925,
    "verifiedHits": 0,
    "firstSeen": "2026-09-08",
    "lastSeen": "2026-09-22",
@@ -433,7 +433,7 @@
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 85
+     "hits": 86
     }
    ],
    "verifiable": false
@@ -476,7 +476,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 885,
+   "hits": 888,
    "verifiedHits": 0,
    "firstSeen": "2026-09-08",
    "lastSeen": "2026-09-22",
