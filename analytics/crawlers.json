@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-22T00:19:09.832Z",
+ "generated": "2026-09-22T00:29:10.583Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19148,
+ "verifiedAiHits": 19267,
  "logsScanned": 30,
  "windowStart": "2026-09-08",
  "windowEnd": "2026-09-22",
- "totalHits": 121660,
- "aiHits": 95043,
+ "totalHits": 121852,
+ "aiHits": 95232,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 34211,
+   "hits": 34238,
    "verifiedHits": 0,
    "firstSeen": "2026-09-08",
    "lastSeen": "2026-09-22",
@@ -47,10 +47,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 17952,
+   "hits": 17988,
    "verifiedHits": 0,
    "firstSeen": "2026-09-08",
-   "lastSeen": "2026-09-21",
+   "lastSeen": "2026-09-22",
    "topPaths": [
     {
      "path": "/build",
@@ -65,11 +65,11 @@
      "hits": 8
     },
     {
-     "path": "/posts/text-generation-inference-tgi-archived-migrate-off.html",
+     "path": "/posts/llm-reranker-vs-cross-encoder-vs-listwise.html",
      "hits": 7
     },
     {
-     "path": "/posts/orchestrator-worker-vs-pipeline-multi-agent.html",
+     "path": "/posts/text-generation-inference-tgi-archived-migrate-off.html",
      "hits": 7
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14864,
+   "hits": 14871,
    "verifiedHits": 0,
    "firstSeen": "2026-09-08",
    "lastSeen": "2026-09-22",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 8797,
-   "verifiedHits": 8161,
+   "hits": 8913,
+   "verifiedHits": 8277,
    "firstSeen": "2026-09-08",
    "lastSeen": "2026-09-22",
    "topPaths": [
@@ -179,14 +179,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6707,
-   "verifiedHits": 6291,
+   "hits": 6708,
+   "verifiedHits": 6292,
    "firstSeen": "2026-09-08",
    "lastSeen": "2026-09-22",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 103
+     "hits": 104
     },
     {
      "path": "/authors/rosalinda",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4113,
-   "verifiedHits": 3526,
+   "hits": 4116,
+   "verifiedHits": 3529,
    "firstSeen": "2026-09-08",
    "lastSeen": "2026-09-22",
    "topPaths": [
@@ -311,10 +311,10 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3316,
+   "hits": 3318,
    "verifiedHits": 0,
    "firstSeen": "2026-09-08",
-   "lastSeen": "2026-09-21",
+   "lastSeen": "2026-09-22",
    "topPaths": [
     {
      "path": "/build",
