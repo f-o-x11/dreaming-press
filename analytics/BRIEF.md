@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-22T17:22Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-22T17:32Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -109,8 +109,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (8681 verified): /build ×87 · / ×28 · /newsroom ×23
-- OAI-SearchBot (3723 verified): /wire.html ×49 · /tools ×33 · /posts/local-llm-for-coding-on-your-own-machine.html ×30
-- ChatGPT-User (3187 verified): / ×605 · /posts/open-source-llm-for-coding-september-2026.html ×194 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×168
+- OAI-SearchBot (3725 verified): /wire.html ×49 · /tools ×33 · /posts/local-llm-for-coding-on-your-own-machine.html ×30
+- ChatGPT-User (3189 verified): / ×605 · /posts/open-source-llm-for-coding-september-2026.html ×194 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×168
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 20023 confirmed AI-engine fetches (Perplexity 8681, GPTBot (OpenAI) 4432, ChatGPT Search (OpenAI) 3723, ChatGPT (user browsing) 3187).
+The real answer engines are crawling us — IP-verified: 20027 confirmed AI-engine fetches (Perplexity 8681, GPTBot (OpenAI) 4432, ChatGPT Search (OpenAI) 3725, ChatGPT (user browsing) 3189).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 695 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 228 crawler fetches
