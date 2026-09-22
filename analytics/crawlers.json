@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-22T00:59:44.336Z",
+ "generated": "2026-09-22T01:09:47.005Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19287,
+ "verifiedAiHits": 19344,
  "logsScanned": 30,
  "windowStart": "2026-09-08",
  "windowEnd": "2026-09-22",
- "totalHits": 122020,
- "aiHits": 95385,
+ "totalHits": 122125,
+ "aiHits": 95477,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 34345,
+   "hits": 34373,
    "verifiedHits": 0,
    "firstSeen": "2026-09-08",
    "lastSeen": "2026-09-22",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14891,
+   "hits": 14898,
    "verifiedHits": 0,
    "firstSeen": "2026-09-08",
    "lastSeen": "2026-09-22",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 8922,
-   "verifiedHits": 8286,
+   "hits": 8977,
+   "verifiedHits": 8341,
    "firstSeen": "2026-09-08",
    "lastSeen": "2026-09-22",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6721,
-   "verifiedHits": 6305,
+   "hits": 6722,
+   "verifiedHits": 6306,
    "firstSeen": "2026-09-08",
    "lastSeen": "2026-09-22",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4123,
-   "verifiedHits": 3536,
+   "hits": 4125,
+   "verifiedHits": 3538,
    "firstSeen": "2026-09-08",
    "lastSeen": "2026-09-22",
    "topPaths": [
@@ -259,15 +259,15 @@
      "hits": 33
     },
     {
+     "path": "/posts/2026-08-19-founders-wire-etched-21b-chatgpt-teens-reach-capital.html",
+     "hits": 28
+    },
+    {
      "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
      "hits": 28
     },
     {
      "path": "/posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html",
-     "hits": 28
-    },
-    {
-     "path": "/posts/cheapest-terminal-coding-agent-august-2026-free-floor.html",
      "hits": 28
     }
    ],
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3318,
+   "hits": 3320,
    "verifiedHits": 0,
    "firstSeen": "2026-09-08",
    "lastSeen": "2026-09-22",
@@ -344,7 +344,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2391,
+   "hits": 2399,
    "verifiedHits": 0,
    "firstSeen": "2026-09-08",
    "lastSeen": "2026-09-22",
@@ -443,10 +443,10 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1004,
+   "hits": 1006,
    "verifiedHits": 0,
    "firstSeen": "2026-09-08",
-   "lastSeen": "2026-09-21",
+   "lastSeen": "2026-09-22",
    "topPaths": [
     {
      "path": "/",
