@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-22T07:54:27.197Z",
+ "generated": "2026-09-22T08:04:42.559Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 3,
   "todayReads": 41,
   "avgTimeSec": 16,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3362,
-  "reads": 367,
-  "completes": 33,
-  "plays": 28,
-  "sessions": 3244
+  "views": 3348,
+  "reads": 363,
+  "completes": 31,
+  "plays": 26,
+  "sessions": 3234
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2958,
-   "reads": 176,
-   "sessions": 2988
+   "views": 2945,
+   "reads": 172,
+   "sessions": 2979
   },
   {
    "channel": "organic",
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 155,
+   "views": 154,
    "reads": 47,
-   "sessions": 153
+   "sessions": 152
   },
   {
    "channel": "ai",
    "views": 37,
    "reads": 15,
-   "sessions": 54
+   "sessions": 53
   },
   {
    "channel": "referral",
@@ -67,22 +67,22 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2958,
-   "reads": 176,
+   "views": 2945,
+   "reads": 172,
    "completes": 15,
-   "sessions": 2987,
-   "read_rate": 0.059,
+   "sessions": 2978,
+   "read_rate": 0.058,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
    "median_dwell_sec": 4
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 155,
+   "views": 154,
    "reads": 47,
    "completes": 4,
-   "sessions": 153,
-   "read_rate": 0.303,
+   "sessions": 152,
+   "read_rate": 0.305,
    "complete_rate": 0.026,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -114,11 +114,11 @@
    "views": 37,
    "reads": 15,
    "completes": 1,
-   "sessions": 54,
+   "sessions": 53,
    "read_rate": 0.405,
    "complete_rate": 0.027,
-   "pages_per_session": 0.69,
-   "median_dwell_sec": 26
+   "pages_per_session": 0.7,
+   "median_dwell_sec": 27
   },
   {
    "channel": "social",
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 168,
+   "views": 167,
    "reads": 48,
-   "sessions": 163
+   "sessions": 162
   },
   {
    "assistant": "Doubao",
@@ -260,15 +260,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2769,
-   "reads": 339,
-   "sessions": 2655
+   "views": 2759,
+   "reads": 335,
+   "sessions": 2649
   },
   {
    "device": "mobile",
-   "views": 593,
+   "views": 589,
    "reads": 28,
-   "sessions": 590
+   "sessions": 586
   }
  ],
  "topContent": [
@@ -298,9 +298,9 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 18,
-   "reads": 11,
-   "plays": 5
+   "views": 17,
+   "reads": 10,
+   "plays": 4
   },
   {
    "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
@@ -353,28 +353,8 @@
    "plays": 0
   },
   {
-   "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
-   "title": "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 9,
-   "reads": 5,
-   "plays": 5
-  },
-  {
    "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
    "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "skypilot-vs-dstack-cheapest-gpu-across-clouds",
-   "title": "SkyPilot vs dstack: Two Ways to Run a GPU Job on the Cheapest Cloud That Has One",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -421,6 +401,26 @@
    "views": 10,
    "reads": 4,
    "plays": 0
+  },
+  {
+   "slug": "how-to-instrument-an-agent-langfuse-v4-otel",
+   "title": "How to Instrument Your Agent with Langfuse v4 — the OpenTelemetry Rewrite That Broke Every Old Tutorial",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 7,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
+   "title": "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 6,
+   "reads": 4,
+   "plays": 4
   }
  ],
  "topListens": [
@@ -430,9 +430,9 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 18,
-   "reads": 11,
-   "plays": 5
+   "views": 17,
+   "reads": 10,
+   "plays": 4
   },
   {
    "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
@@ -440,9 +440,9 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 9,
-   "reads": 5,
-   "plays": 5
+   "views": 6,
+   "reads": 4,
+   "plays": 4
   },
   {
    "slug": "open-source-llm-for-coding-september-2026",
@@ -592,7 +592,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 23,
+   "views": 24,
    "reads": 0,
    "plays": 0
   },
@@ -672,9 +672,9 @@
   },
   {
    "path": "/dashboard",
-   "views": 15,
+   "views": 14,
    "reads": 0,
-   "sessions": 12,
+   "sessions": 11,
    "avg_dwell_sec": 7
   },
   {
@@ -686,10 +686,10 @@
   },
   {
    "path": "/reports/:report",
-   "views": 9,
+   "views": 8,
    "reads": 0,
-   "sessions": 9,
-   "avg_dwell_sec": 5
+   "sessions": 8,
+   "avg_dwell_sec": 6
   },
   {
    "path": "/apps",
@@ -747,8 +747,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 65,
-   "sessions": 37
+   "hits": 64,
+   "sessions": 36
   },
   {
    "ref": "https://duckduckgo.com/",
