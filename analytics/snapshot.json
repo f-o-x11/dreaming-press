@@ -1,30 +1,30 @@
 {
- "generated": "2026-09-22T14:50:01.757Z",
+ "generated": "2026-09-22T15:00:07.937Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 47,
+  "readersNow": 3,
+  "todayReads": 49,
   "avgTimeSec": 15,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3321,
-  "reads": 349,
+  "views": 3320,
+  "reads": 350,
   "completes": 23,
-  "plays": 18,
+  "plays": 20,
   "sessions": 3222
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2919,
-   "reads": 159,
+   "reads": 161,
    "sessions": 2965
   },
   {
    "channel": "organic",
-   "views": 151,
-   "reads": 115,
+   "views": 150,
+   "reads": 114,
    "sessions": 114
   },
   {
@@ -74,24 +74,13 @@
   {
    "channel": "direct",
    "views": 2919,
-   "reads": 159,
+   "reads": 161,
    "completes": 15,
    "sessions": 2964,
-   "read_rate": 0.054,
+   "read_rate": 0.055,
    "complete_rate": 0.005,
    "pages_per_session": 0.98,
    "median_dwell_sec": 4
-  },
-  {
-   "channel": "organic",
-   "views": 151,
-   "reads": 115,
-   "completes": 2,
-   "sessions": 114,
-   "read_rate": 0.762,
-   "complete_rate": 0.013,
-   "pages_per_session": 1.32,
-   "median_dwell_sec": null
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -102,6 +91,17 @@
    "read_rate": 0.305,
    "complete_rate": 0.026,
    "pages_per_session": 1.02,
+   "median_dwell_sec": null
+  },
+  {
+   "channel": "organic",
+   "views": 150,
+   "reads": 114,
+   "completes": 2,
+   "sessions": 114,
+   "read_rate": 0.76,
+   "complete_rate": 0.013,
+   "pages_per_session": 1.32,
    "median_dwell_sec": null
   },
   {
@@ -277,15 +277,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2751,
-   "reads": 321,
-   "sessions": 2656
+   "views": 2749,
+   "reads": 322,
+   "sessions": 2655
   },
   {
    "device": "mobile",
-   "views": 570,
+   "views": 571,
    "reads": 28,
-   "sessions": 567
+   "sessions": 568
   }
  ],
  "topContent": [
@@ -315,9 +315,9 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 24,
+   "views": 25,
    "reads": 7,
-   "plays": 0
+   "plays": 1
   },
   {
    "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
@@ -452,6 +452,16 @@
    "plays": 1
   },
   {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 25,
+   "reads": 7,
+   "plays": 1
+  },
+  {
    "slug": "how-to-manage-context-in-a-long-running-agent",
    "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
    "section": "wire",
@@ -502,6 +512,16 @@
    "plays": 1
   },
   {
+   "slug": "best-llm-for-function-calling",
+   "title": "Best LLM for Function Calling: Why the Leaderboard Score Lies",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 4,
+   "reads": 2,
+   "plays": 1
+  },
+  {
    "slug": "self-rag-vs-corrective-rag-vs-adaptive-rag-retrieval-self-check",
    "title": "Self-RAG vs Corrective RAG vs Adaptive-RAG: Three Ways to Make Retrieval Check Itself",
    "section": "wire",
@@ -519,26 +539,6 @@
    "author": "priya",
    "views": 2,
    "reads": 2,
-   "plays": 1
-  },
-  {
-   "slug": "gartner-ai-agent-spending-2026",
-   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
-   "section": "wire",
-   "tags": "[\"reportive\",\"cynical\"]",
-   "author": "priya",
-   "views": 5,
-   "reads": 1,
-   "plays": 1
-  },
-  {
-   "slug": "gpt-5-6-sol-exploitgym-escape-egress-lesson",
-   "title": "The GPT-5.6 Sol Escape Wasn't a Model Problem — It Was the Egress Path You Also Left Open",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 5,
-   "reads": 1,
    "plays": 1
   }
  ],
@@ -594,6 +594,16 @@
    "plays": 0
   },
   {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 25,
+   "reads": 7,
+   "plays": 1
+  },
+  {
    "slug": "2026-09-09-founders-wire-mistral-samsung-meta-muse-agent-commerce",
    "title": "The Founder's Wire, September 9: Mistral Raises $3.5B to Become Europe's Sovereign Frontier, and Meta's Muse Turns a Consumer AI Into a Shopper With a Stripe Wallet",
    "section": "wire",
@@ -611,16 +621,6 @@
    "author": "dex",
    "views": 25,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 24,
-   "reads": 7,
    "plays": 0
   },
   {
@@ -660,18 +660,18 @@
    "avg_dwell_sec": 10
   },
   {
-   "path": "/best/:cat",
-   "views": 41,
-   "reads": 0,
-   "sessions": 41,
-   "avg_dwell_sec": 4
-  },
-  {
    "path": "/build",
    "views": 41,
    "reads": 0,
    "sessions": 41,
    "avg_dwell_sec": 5
+  },
+  {
+   "path": "/best/:cat",
+   "views": 40,
+   "reads": 0,
+   "sessions": 40,
+   "avg_dwell_sec": 4
   },
   {
    "path": "/compare/:pair",
@@ -754,7 +754,7 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 82,
+   "hits": 80,
    "sessions": 42
   },
   {
