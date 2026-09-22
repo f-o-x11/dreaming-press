@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-22T06:13:20.908Z",
+ "generated": "2026-09-22T06:23:31.903Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 2,
+  "readersNow": 16,
+  "todayReads": 3,
   "avgTimeSec": 23,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3302,
-  "reads": 333,
+  "views": 3316,
+  "reads": 334,
   "completes": 37,
   "plays": 33,
-  "sessions": 3215
+  "sessions": 3229
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2939,
+   "views": 2952,
    "reads": 180,
-   "sessions": 2963
+   "sessions": 2976
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 153,
-   "reads": 46,
-   "sessions": 151
+   "views": 154,
+   "reads": 47,
+   "sessions": 152
   },
   {
    "channel": "ai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2939,
+   "views": 2952,
    "reads": 180,
    "completes": 15,
-   "sessions": 2962,
+   "sessions": 2975,
    "read_rate": 0.061,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 153,
-   "reads": 46,
+   "views": 154,
+   "reads": 47,
    "completes": 4,
-   "sessions": 151,
-   "read_rate": 0.301,
+   "sessions": 152,
+   "read_rate": 0.305,
    "complete_rate": 0.026,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 165,
-   "reads": 47,
-   "sessions": 160
+   "views": 166,
+   "reads": 48,
+   "sessions": 161
   },
   {
    "assistant": "Doubao",
@@ -260,9 +260,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2714,
-   "reads": 305,
-   "sessions": 2631
+   "views": 2728,
+   "reads": 306,
+   "sessions": 2645
   },
   {
    "device": "mobile",
@@ -278,8 +278,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 47,
-   "reads": 13,
+   "views": 49,
+   "reads": 14,
    "plays": 1
   },
   {
@@ -450,8 +450,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 47,
-   "reads": 13,
+   "views": 49,
+   "reads": 14,
    "plays": 1
   },
   {
@@ -542,8 +542,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 47,
-   "reads": 13,
+   "views": 49,
+   "reads": 14,
    "plays": 1
   },
   {
@@ -630,9 +630,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 388,
+   "views": 389,
    "reads": 0,
-   "sessions": 388,
+   "sessions": 389,
    "avg_dwell_sec": 3
   },
   {
