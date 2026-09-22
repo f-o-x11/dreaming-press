@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-22T13:38:37.213Z",
+ "generated": "2026-09-22T13:48:41.065Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 46,
   "avgTimeSec": 15,
   "postsThisWeek": 15
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2922,
+   "views": 2921,
    "reads": 159,
-   "sessions": 2967
+   "sessions": 2966
   },
   {
    "channel": "organic",
@@ -53,9 +53,9 @@
   },
   {
    "channel": "campaign:qwant",
-   "views": 1,
+   "views": 2,
    "reads": 1,
-   "sessions": 1
+   "sessions": 2
   },
   {
    "channel": "campaign:producthunt/",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2922,
+   "views": 2921,
    "reads": 159,
    "completes": 15,
-   "sessions": 2966,
+   "sessions": 2965,
    "read_rate": 0.054,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -138,23 +138,23 @@
    "median_dwell_sec": null
   },
   {
+   "channel": "campaign:qwant",
+   "views": 2,
+   "reads": 1,
+   "completes": 0,
+   "sessions": 2,
+   "read_rate": 0.5,
+   "complete_rate": 0,
+   "pages_per_session": 1,
+   "median_dwell_sec": null
+  },
+  {
    "channel": "campaign:producthunt/",
    "views": 1,
    "reads": 0,
    "completes": 0,
    "sessions": 1,
    "read_rate": 0,
-   "complete_rate": 0,
-   "pages_per_session": 1,
-   "median_dwell_sec": null
-  },
-  {
-   "channel": "campaign:qwant",
-   "views": 1,
-   "reads": 1,
-   "completes": 0,
-   "sessions": 1,
-   "read_rate": 1,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -277,15 +277,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2748,
+   "views": 2751,
    "reads": 321,
-   "sessions": 2653
+   "sessions": 2656
   },
   {
    "device": "mobile",
-   "views": 574,
+   "views": 571,
    "reads": 28,
-   "sessions": 571
+   "sessions": 568
   }
  ],
  "topContent": [
@@ -335,7 +335,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 23,
+   "views": 24,
    "reads": 6,
    "plays": 0
   },
@@ -584,18 +584,18 @@
    "plays": 0
   },
   {
-   "slug": "2026-09-09-founders-wire-mistral-samsung-meta-muse-agent-commerce",
-   "title": "The Founder's Wire, September 9: Mistral Raises $3.5B to Become Europe's Sovereign Frontier, and Meta's Muse Turns a Consumer AI Into a Shopper With a Stripe Wallet",
+   "slug": "2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo",
+   "title": "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 25,
+   "views": 26,
    "reads": 0,
    "plays": 0
   },
   {
-   "slug": "2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo",
-   "title": "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO",
+   "slug": "2026-09-09-founders-wire-mistral-samsung-meta-muse-agent-commerce",
+   "title": "The Founder's Wire, September 9: Mistral Raises $3.5B to Become Europe's Sovereign Frontier, and Meta's Muse Turns a Consumer AI Into a Shopper With a Stripe Wallet",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
@@ -614,6 +614,16 @@
    "plays": 0
   },
   {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 24,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
    "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
    "section": "stack",
@@ -621,16 +631,6 @@
    "author": "dex",
    "views": 24,
    "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 23,
-   "reads": 6,
    "plays": 0
   },
   {
