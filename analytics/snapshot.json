@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-22T03:41:34.337Z",
+ "generated": "2026-09-22T03:51:40.843Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 8,
   "todayReads": 2,
-  "avgTimeSec": 35,
+  "avgTimeSec": 30,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3284,
+  "views": 3286,
   "reads": 335,
   "completes": 37,
   "plays": 33,
-  "sessions": 3197
+  "sessions": 3199
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2920,
+   "views": 2921,
    "reads": 181,
-   "sessions": 2946
+   "sessions": 2947
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 152,
+   "views": 153,
    "reads": 46,
-   "sessions": 150
+   "sessions": 151
   },
   {
    "channel": "ai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2920,
+   "views": 2921,
    "reads": 181,
    "completes": 15,
-   "sessions": 2945,
+   "sessions": 2946,
    "read_rate": 0.062,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 152,
+   "views": 153,
    "reads": 46,
    "completes": 4,
-   "sessions": 150,
-   "read_rate": 0.303,
+   "sessions": 151,
+   "read_rate": 0.301,
    "complete_rate": 0.026,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 164,
+   "views": 165,
    "reads": 47,
-   "sessions": 159
+   "sessions": 160
   },
   {
    "assistant": "Doubao",
@@ -260,15 +260,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2705,
+   "views": 2706,
    "reads": 307,
-   "sessions": 2622
+   "sessions": 2623
   },
   {
    "device": "mobile",
-   "views": 579,
+   "views": 580,
    "reads": 28,
-   "sessions": 576
+   "sessions": 577
   }
  ],
  "topContent": [
@@ -388,7 +388,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 13,
+   "views": 15,
    "reads": 4,
    "plays": 0
   },
