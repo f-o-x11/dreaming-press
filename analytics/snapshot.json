@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-22T07:14:00.821Z",
+ "generated": "2026-09-22T07:24:05.037Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
+  "readersNow": 2,
   "todayReads": 5,
   "avgTimeSec": 21,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3327,
-  "reads": 336,
+  "views": 3324,
+  "reads": 335,
   "completes": 37,
   "plays": 33,
-  "sessions": 3239
+  "sessions": 3237
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2960,
-   "reads": 181,
-   "sessions": 2984
+   "views": 2957,
+   "reads": 180,
+   "sessions": 2982
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2960,
-   "reads": 181,
+   "views": 2957,
+   "reads": 180,
    "completes": 15,
-   "sessions": 2983,
+   "sessions": 2981,
    "read_rate": 0.061,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -260,15 +260,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2736,
-   "reads": 308,
-   "sessions": 2652
+   "views": 2731,
+   "reads": 307,
+   "sessions": 2648
   },
   {
    "device": "mobile",
-   "views": 591,
+   "views": 593,
    "reads": 28,
-   "sessions": 588
+   "sessions": 590
   }
  ],
  "topContent": [
@@ -515,12 +515,12 @@
    "plays": 1
   },
   {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "slug": "gartner-ai-agent-spending-2026",
+   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
    "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
+   "tags": "[\"reportive\",\"cynical\"]",
    "author": "priya",
-   "views": 10,
+   "views": 5,
    "reads": 1,
    "plays": 1
   }
@@ -617,13 +617,13 @@
    "plays": 7
   },
   {
-   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
-   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
+   "slug": "2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments",
+   "title": "The Founder's Wire, September 8: Nvidia Buys the Open-Model Commons, OpenAI Moves to Rent You an Agent Runtime, and Anthropic Wants to Own Its Money Rails",
    "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
-   "author": "dex",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
    "views": 19,
-   "reads": 2,
+   "reads": 0,
    "plays": 0
   }
  ],
