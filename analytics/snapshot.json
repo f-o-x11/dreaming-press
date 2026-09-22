@@ -1,37 +1,37 @@
 {
- "generated": "2026-09-22T09:56:01.220Z",
+ "generated": "2026-09-22T10:06:00.915Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 1,
   "todayReads": 44,
   "avgTimeSec": 15,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3341,
-  "reads": 354,
-  "completes": 24,
+  "views": 3330,
+  "reads": 350,
+  "completes": 23,
   "plays": 18,
-  "sessions": 3239
+  "sessions": 3235
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2937,
-   "reads": 162,
-   "sessions": 2982
+   "views": 2932,
+   "reads": 160,
+   "sessions": 2979
   },
   {
    "channel": "organic",
-   "views": 153,
-   "reads": 118,
-   "sessions": 113
+   "views": 148,
+   "reads": 116,
+   "sessions": 111
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 154,
+   "views": 153,
    "reads": 47,
-   "sessions": 152
+   "sessions": 151
   },
   {
    "channel": "ai",
@@ -61,41 +61,41 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 19
+   "sessions": 16
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2937,
-   "reads": 162,
+   "views": 2932,
+   "reads": 160,
    "completes": 15,
-   "sessions": 2981,
+   "sessions": 2978,
    "read_rate": 0.055,
    "complete_rate": 0.005,
-   "pages_per_session": 0.99,
+   "pages_per_session": 0.98,
    "median_dwell_sec": 4
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 154,
+   "views": 153,
    "reads": 47,
    "completes": 4,
-   "sessions": 152,
-   "read_rate": 0.305,
+   "sessions": 151,
+   "read_rate": 0.307,
    "complete_rate": 0.026,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
   },
   {
    "channel": "organic",
-   "views": 153,
-   "reads": 118,
-   "completes": 3,
-   "sessions": 113,
-   "read_rate": 0.771,
-   "complete_rate": 0.02,
-   "pages_per_session": 1.35,
+   "views": 148,
+   "reads": 116,
+   "completes": 2,
+   "sessions": 111,
+   "read_rate": 0.784,
+   "complete_rate": 0.014,
+   "pages_per_session": 1.33,
    "median_dwell_sec": null
   },
   {
@@ -147,7 +147,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 19,
+   "sessions": 16,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -167,13 +167,8 @@
   },
   {
    "surface": "nav-cmp",
-   "clicks": 4,
-   "sessions": 3
-  },
-  {
-   "surface": "cited-list",
-   "clicks": 4,
-   "sessions": 3
+   "clicks": 3,
+   "sessions": 2
   },
   {
    "surface": "dg-title",
@@ -184,11 +179,6 @@
    "surface": "dash-range",
    "clicks": 3,
    "sessions": 1
-  },
-  {
-   "surface": "card",
-   "clicks": 3,
-   "sessions": 2
   },
   {
    "surface": "article-body",
@@ -202,6 +192,11 @@
   },
   {
    "surface": "ht-card",
+   "clicks": 2,
+   "sessions": 1
+  },
+  {
+   "surface": "card",
    "clicks": 2,
    "sessions": 1
   },
@@ -226,6 +221,11 @@
    "sessions": 1
   },
   {
+   "surface": "cited-list",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
    "surface": "btn-stats",
    "clicks": 1,
    "sessions": 1
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 167,
+   "views": 166,
    "reads": 48,
-   "sessions": 162
+   "sessions": 161
   },
   {
    "assistant": "Doubao",
@@ -260,9 +260,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2753,
-   "reads": 326,
-   "sessions": 2655
+   "views": 2742,
+   "reads": 322,
+   "sessions": 2651
   },
   {
    "device": "mobile",
@@ -403,16 +403,6 @@
    "plays": 0
   },
   {
-   "slug": "how-to-instrument-an-agent-langfuse-v4-otel",
-   "title": "How to Instrument Your Agent with Langfuse v4 — the OpenTelemetry Rewrite That Broke Every Old Tutorial",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 7,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-24-hybrid-search-bm25-vs-dense-vs-rrf",
    "title": "BM25 vs Dense vs Hybrid Search: How to Actually Combine Them for RAG",
    "section": "wire",
@@ -421,6 +411,16 @@
    "views": 6,
    "reads": 4,
    "plays": 0
+  },
+  {
+   "slug": "2026-06-21-n8n-vs-flowise-vs-langflow",
+   "title": "n8n vs Flowise vs Langflow: Choosing a Visual Agent Builder in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 5,
+   "reads": 4,
+   "plays": 1
   }
  ],
  "topListens": [
@@ -470,7 +470,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 5,
+   "views": 4,
    "reads": 3,
    "plays": 1
   },
@@ -674,7 +674,7 @@
    "path": "/dashboard",
    "views": 13,
    "reads": 0,
-   "sessions": 11,
+   "sessions": 10,
    "avg_dwell_sec": 7
   },
   {
@@ -727,18 +727,18 @@
    "avg_dwell_sec": 4
   },
   {
-   "path": "/global-tech-news",
+   "path": "/series/:series",
    "views": 5,
    "reads": 0,
    "sessions": 5,
-   "avg_dwell_sec": 6
+   "avg_dwell_sec": 5
   }
  ],
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 90,
-   "sessions": 43
+   "hits": 82,
+   "sessions": 41
   },
   {
    "ref": "https://mail.google.com/",
