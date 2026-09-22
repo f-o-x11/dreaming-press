@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-22T20:25:55.808Z",
+ "generated": "2026-09-22T20:36:01.022Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 51,
+  "readersNow": 3,
+  "todayReads": 52,
   "avgTimeSec": 15,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3331,
-  "reads": 345,
+  "views": 3333,
+  "reads": 346,
   "completes": 22,
   "plays": 20,
-  "sessions": 3231
+  "sessions": 3232
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2928,
-   "reads": 156,
-   "sessions": 2972
+   "views": 2930,
+   "reads": 157,
+   "sessions": 2973
   },
   {
    "channel": "organic",
@@ -73,11 +73,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2928,
-   "reads": 156,
+   "views": 2930,
+   "reads": 157,
    "completes": 14,
-   "sessions": 2971,
-   "read_rate": 0.053,
+   "sessions": 2972,
+   "read_rate": 0.054,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
    "median_dwell_sec": 4
@@ -277,9 +277,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2759,
-   "reads": 317,
-   "sessions": 2663
+   "views": 2761,
+   "reads": 318,
+   "sessions": 2664
   },
   {
    "device": "mobile",
@@ -420,6 +420,16 @@
    "plays": 0
   },
   {
+   "slug": "code-retrieval-for-ai-coding-agents",
+   "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-24-hybrid-search-bm25-vs-dense-vs-rrf",
    "title": "BM25 vs Dense vs Hybrid Search: How to Actually Combine Them for RAG",
    "section": "wire",
@@ -428,16 +438,6 @@
    "views": 6,
    "reads": 4,
    "plays": 0
-  },
-  {
-   "slug": "2026-06-21-n8n-vs-flowise-vs-langflow",
-   "title": "n8n vs Flowise vs Langflow: Choosing a Visual Agent Builder in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 5,
-   "reads": 4,
-   "plays": 1
   }
  ],
  "topListens": [
@@ -647,9 +647,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 389,
+   "views": 390,
    "reads": 0,
-   "sessions": 389,
+   "sessions": 390,
    "avg_dwell_sec": 3
   },
   {
