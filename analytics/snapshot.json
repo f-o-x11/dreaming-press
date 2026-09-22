@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-22T16:42:00.977Z",
+ "generated": "2026-09-22T16:52:07.426Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 50,
+  "readersNow": 3,
+  "todayReads": 51,
   "avgTimeSec": 15,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3324,
-  "reads": 350,
+  "views": 3322,
+  "reads": 351,
   "completes": 22,
   "plays": 20,
-  "sessions": 3227
+  "sessions": 3225
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2921,
+   "views": 2918,
    "reads": 160,
-   "sessions": 2969
+   "sessions": 2966
   },
   {
    "channel": "organic",
-   "views": 150,
-   "reads": 114,
-   "sessions": 114
+   "views": 151,
+   "reads": 115,
+   "sessions": 115
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2921,
+   "views": 2918,
    "reads": 160,
    "completes": 14,
-   "sessions": 2968,
+   "sessions": 2965,
    "read_rate": 0.055,
    "complete_rate": 0.005,
    "pages_per_session": 0.98,
@@ -95,13 +95,13 @@
   },
   {
    "channel": "organic",
-   "views": 150,
-   "reads": 114,
+   "views": 151,
+   "reads": 115,
    "completes": 2,
-   "sessions": 114,
-   "read_rate": 0.76,
+   "sessions": 115,
+   "read_rate": 0.762,
    "complete_rate": 0.013,
-   "pages_per_session": 1.32,
+   "pages_per_session": 1.31,
    "median_dwell_sec": null
   },
   {
@@ -277,9 +277,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2754,
-   "reads": 322,
-   "sessions": 2661
+   "views": 2752,
+   "reads": 323,
+   "sessions": 2659
   },
   {
    "device": "mobile",
@@ -320,6 +320,16 @@
    "plays": 1
   },
   {
+   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
+   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 7,
+   "plays": 0
+  },
+  {
    "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
    "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
    "section": "wire",
@@ -356,16 +366,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 12,
-   "reads": 6,
-   "plays": 0
-  },
-  {
-   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
-   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
    "reads": 6,
    "plays": 0
   },
@@ -654,9 +654,9 @@
   },
   {
    "path": "/",
-   "views": 143,
+   "views": 142,
    "reads": 0,
-   "sessions": 144,
+   "sessions": 143,
    "avg_dwell_sec": 10
   },
   {
@@ -784,8 +784,8 @@
   },
   {
    "ref": "https://search.brave.com/",
-   "hits": 19,
-   "sessions": 11
+   "hits": 21,
+   "sessions": 12
   },
   {
    "ref": "brand",
