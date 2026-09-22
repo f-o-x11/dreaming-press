@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-09-22T10:26Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-22T10:36Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3331 views → 350 engaged reads → 23 completes · 3235 sessions.
+- Funnel: 3331 views → 350 engaged reads → 23 completes · 3234 sessions.
 - Channels: direct 160r/2932v · organic 116r/148v · campaign:chatgpt.com 47r/154v · ai 15r/37v · referral 11r/56v · social 1r/3v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 48r/167v · Doubao 11r/15v · Perplexity 2r/4v · Kimi 0r/4v.
 - Referrers: bing.com, mail.google.com, chatgpt.com, duckduckgo.com, cn.bing.com, doubao.com, search.brave.com, brand, perplexity.ai, playground.rialo.io.
@@ -108,9 +108,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/local-llm-for-coding-on-your-own-machine.html  — 29 retrieval fetches
 
 Per engine:
-- PerplexityBot (8658 verified): /build ×87 · / ×28 · /newsroom ×23
+- PerplexityBot (8663 verified): /build ×87 · / ×28 · /newsroom ×23
 - OAI-SearchBot (3658 verified): /wire.html ×48 · /tools ×33 · /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html ×30
-- ChatGPT-User (3118 verified): / ×593 · /posts/open-source-llm-for-coding-september-2026.html ×187 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×164
+- ChatGPT-User (3119 verified): / ×593 · /posts/open-source-llm-for-coding-september-2026.html ×187 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×164
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agents(39), startup(35), founder(35), agent(24), build(23), agentic(23), mcp(20), coding(16), building(14), launch(10), google(9), has(9), every(8), engineer(8), trading(8).
+Hot terms: agents(39), startup(35), founder(35), agent(24), build(23), agentic(22), mcp(20), coding(16), building(13), launch(10), has(10), security(9), google(9), every(8), engineer(8).
 Hashtags: #ai, #videogenration, #tools, #mcp, #security, #google, #mechanize, #deepmind, #newsrupt, #startup.
 High-engagement posts to react to / cite:
 - "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen" — https://x.com/i/status/2100517638611087443
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 19864 confirmed AI-engine fetches (Perplexity 8658, GPTBot (OpenAI) 4430, ChatGPT Search (OpenAI) 3658, ChatGPT (user browsing) 3118).
+The real answer engines are crawling us — IP-verified: 19870 confirmed AI-engine fetches (Perplexity 8663, GPTBot (OpenAI) 4430, ChatGPT Search (OpenAI) 3658, ChatGPT (user browsing) 3119).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 691 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 220 crawler fetches
