@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-22T08:24:51.103Z",
+ "generated": "2026-09-22T08:34:58.262Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 41,
   "avgTimeSec": 16,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3349,
-  "reads": 360,
-  "completes": 28,
-  "plays": 23,
-  "sessions": 3238
+  "views": 3347,
+  "reads": 359,
+  "completes": 27,
+  "plays": 22,
+  "sessions": 3237
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2946,
-   "reads": 169,
-   "sessions": 2983
+   "views": 2944,
+   "reads": 168,
+   "sessions": 2982
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2946,
-   "reads": 169,
+   "views": 2944,
+   "reads": 168,
    "completes": 15,
-   "sessions": 2982,
+   "sessions": 2981,
    "read_rate": 0.057,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -260,9 +260,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2760,
-   "reads": 332,
-   "sessions": 2653
+   "views": 2758,
+   "reads": 331,
+   "sessions": 2652
   },
   {
    "device": "mobile",
@@ -413,27 +413,17 @@
    "plays": 0
   },
   {
-   "slug": "skypilot-vs-dstack-cheapest-gpu-across-clouds",
-   "title": "SkyPilot vs dstack: Two Ways to Run a GPU Job on the Cheapest Cloud That Has One",
+   "slug": "2026-06-21-n8n-vs-flowise-vs-langflow",
+   "title": "n8n vs Flowise vs Langflow: Choosing a Visual Agent Builder in 2026",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 6,
+   "views": 5,
    "reads": 4,
-   "plays": 0
+   "plays": 1
   }
  ],
  "topListens": [
-  {
-   "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
-   "title": "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 5,
-   "reads": 3,
-   "plays": 3
-  },
   {
    "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
    "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
@@ -442,6 +432,16 @@
    "author": "priya",
    "views": 15,
    "reads": 8,
+   "plays": 2
+  },
+  {
+   "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
+   "title": "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 4,
+   "reads": 2,
    "plays": 2
   },
   {
