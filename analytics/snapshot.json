@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-22T07:44:25.787Z",
+ "generated": "2026-09-22T07:54:27.197Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 4,
   "todayReads": 41,
   "avgTimeSec": 16,
   "postsThisWeek": 15
  },
  "funnel": {
   "views": 3362,
-  "reads": 369,
-  "completes": 35,
-  "plays": 30,
-  "sessions": 3242
+  "reads": 367,
+  "completes": 33,
+  "plays": 28,
+  "sessions": 3244
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2959,
-   "reads": 178,
-   "sessions": 2987
+   "views": 2958,
+   "reads": 176,
+   "sessions": 2988
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 154,
+   "views": 155,
    "reads": 47,
-   "sessions": 152
+   "sessions": 153
   },
   {
    "channel": "ai",
@@ -67,22 +67,22 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2959,
-   "reads": 178,
+   "views": 2958,
+   "reads": 176,
    "completes": 15,
-   "sessions": 2986,
-   "read_rate": 0.06,
+   "sessions": 2987,
+   "read_rate": 0.059,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
    "median_dwell_sec": 4
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 154,
+   "views": 155,
    "reads": 47,
    "completes": 4,
-   "sessions": 152,
-   "read_rate": 0.305,
+   "sessions": 153,
+   "read_rate": 0.303,
    "complete_rate": 0.026,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 167,
+   "views": 168,
    "reads": 48,
-   "sessions": 162
+   "sessions": 163
   },
   {
    "assistant": "Doubao",
@@ -261,8 +261,8 @@
   {
    "device": "desktop",
    "views": 2769,
-   "reads": 341,
-   "sessions": 2653
+   "reads": 339,
+   "sessions": 2655
   },
   {
    "device": "mobile",
@@ -298,9 +298,9 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 19,
-   "reads": 12,
-   "plays": 6
+   "views": 18,
+   "reads": 11,
+   "plays": 5
   },
   {
    "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
@@ -343,16 +343,6 @@
    "plays": 0
   },
   {
-   "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
-   "title": "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 10,
-   "reads": 6,
-   "plays": 6
-  },
-  {
    "slug": "open-source-llm-leaderboard-september-2026-run-locally",
    "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
    "section": "stack",
@@ -361,6 +351,16 @@
    "views": 21,
    "reads": 5,
    "plays": 0
+  },
+  {
+   "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
+   "title": "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 9,
+   "reads": 5,
+   "plays": 5
   },
   {
    "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
@@ -430,9 +430,9 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 19,
-   "reads": 12,
-   "plays": 6
+   "views": 18,
+   "reads": 11,
+   "plays": 5
   },
   {
    "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
@@ -440,9 +440,9 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 10,
-   "reads": 6,
-   "plays": 6
+   "views": 9,
+   "reads": 5,
+   "plays": 5
   },
   {
    "slug": "open-source-llm-for-coding-september-2026",
@@ -617,14 +617,14 @@
    "plays": 0
   },
   {
-   "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
-   "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
+   "slug": "2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments",
+   "title": "The Founder's Wire, September 8: Nvidia Buys the Open-Model Commons, OpenAI Moves to Rent You an Agent Runtime, and Anthropic Wants to Own Its Money Rails",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
+   "author": "wire-desk",
    "views": 19,
-   "reads": 12,
-   "plays": 6
+   "reads": 0,
+   "plays": 0
   }
  ],
  "topPages": [
