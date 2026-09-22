@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-22T09:25:34.592Z",
+ "generated": "2026-09-22T09:35:43.219Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 42,
+  "readersNow": 6,
+  "todayReads": 44,
   "avgTimeSec": 15,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3342,
-  "reads": 354,
+  "views": 3346,
+  "reads": 356,
   "completes": 24,
   "plays": 18,
-  "sessions": 3237
+  "sessions": 3241
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2938,
+   "views": 2940,
    "reads": 163,
-   "sessions": 2981
+   "sessions": 2983
   },
   {
    "channel": "organic",
-   "views": 152,
-   "reads": 117,
-   "sessions": 111
+   "views": 154,
+   "reads": 119,
+   "sessions": 113
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2938,
+   "views": 2940,
    "reads": 163,
    "completes": 15,
-   "sessions": 2980,
+   "sessions": 2982,
    "read_rate": 0.055,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -89,13 +89,13 @@
   },
   {
    "channel": "organic",
-   "views": 152,
-   "reads": 117,
+   "views": 154,
+   "reads": 119,
    "completes": 3,
-   "sessions": 111,
-   "read_rate": 0.77,
-   "complete_rate": 0.02,
-   "pages_per_session": 1.37,
+   "sessions": 113,
+   "read_rate": 0.773,
+   "complete_rate": 0.019,
+   "pages_per_session": 1.36,
    "median_dwell_sec": null
   },
   {
@@ -260,9 +260,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2754,
-   "reads": 326,
-   "sessions": 2653
+   "views": 2758,
+   "reads": 328,
+   "sessions": 2657
   },
   {
    "device": "mobile",
@@ -333,6 +333,16 @@
    "plays": 0
   },
   {
+   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
+   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 9,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "open-source-llm-leaderboard-september-2026-run-locally",
    "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
    "section": "stack",
@@ -349,16 +359,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 12,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
-   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
    "reads": 5,
    "plays": 0
   },
@@ -413,14 +413,14 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-n8n-vs-flowise-vs-langflow",
-   "title": "n8n vs Flowise vs Langflow: Choosing a Visual Agent Builder in 2026",
-   "section": "stack",
+   "slug": "2026-06-24-hybrid-search-bm25-vs-dense-vs-rrf",
+   "title": "BM25 vs Dense vs Hybrid Search: How to Actually Combine Them for RAG",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 5,
+   "views": 6,
    "reads": 4,
-   "plays": 1
+   "plays": 0
   }
  ],
  "topListens": [
@@ -630,9 +630,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 388,
+   "views": 389,
    "reads": 0,
-   "sessions": 388,
+   "sessions": 389,
    "avg_dwell_sec": 3
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 90,
-   "sessions": 42
+   "hits": 92,
+   "sessions": 43
   },
   {
    "ref": "https://mail.google.com/",
@@ -752,8 +752,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 39,
-   "sessions": 21
+   "hits": 41,
+   "sessions": 22
   },
   {
    "ref": "https://cn.bing.com/",
