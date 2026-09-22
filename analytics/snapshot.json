@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-22T10:06:00.915Z",
+ "generated": "2026-09-22T10:16:13.039Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3330,
+  "views": 3332,
   "reads": 350,
   "completes": 23,
   "plays": 18,
-  "sessions": 3235
+  "sessions": 3236
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2932,
+   "views": 2933,
    "reads": 160,
-   "sessions": 2979
+   "sessions": 2980
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 153,
+   "views": 154,
    "reads": 47,
-   "sessions": 151
+   "sessions": 152
   },
   {
    "channel": "ai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2932,
+   "views": 2933,
    "reads": 160,
    "completes": 15,
-   "sessions": 2978,
+   "sessions": 2979,
    "read_rate": 0.055,
    "complete_rate": 0.005,
    "pages_per_session": 0.98,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 153,
+   "views": 154,
    "reads": 47,
    "completes": 4,
-   "sessions": 151,
-   "read_rate": 0.307,
+   "sessions": 152,
+   "read_rate": 0.305,
    "complete_rate": 0.026,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -234,9 +234,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 166,
+   "views": 167,
    "reads": 48,
-   "sessions": 161
+   "sessions": 162
   },
   {
    "assistant": "Doubao",
@@ -260,9 +260,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2742,
+   "views": 2744,
    "reads": 322,
-   "sessions": 2651
+   "sessions": 2652
   },
   {
    "device": "mobile",
@@ -587,6 +587,16 @@
    "plays": 0
   },
   {
+   "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 24,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo",
    "title": "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO",
    "section": "wire",
@@ -594,16 +604,6 @@
    "author": "wire-desk",
    "views": 24,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 3,
    "plays": 0
   },
   {
@@ -747,8 +747,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 64,
-   "sessions": 36
+   "hits": 65,
+   "sessions": 37
   },
   {
    "ref": "https://duckduckgo.com/",
