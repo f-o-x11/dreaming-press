@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-22T05:53:08.923Z",
+ "generated": "2026-09-22T06:03:17.084Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 2,
   "todayReads": 2,
   "avgTimeSec": 25,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3299,
+  "views": 3300,
   "reads": 333,
   "completes": 37,
   "plays": 33,
-  "sessions": 3212
+  "sessions": 3213
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2936,
+   "views": 2937,
    "reads": 180,
-   "sessions": 2960
+   "sessions": 2961
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2936,
+   "views": 2937,
    "reads": 180,
    "completes": 15,
-   "sessions": 2959,
+   "sessions": 2960,
    "read_rate": 0.061,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -260,9 +260,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2712,
+   "views": 2713,
    "reads": 305,
-   "sessions": 2629
+   "sessions": 2630
   },
   {
    "device": "mobile",
@@ -597,6 +597,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo",
+   "title": "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 21,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
    "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
    "section": "wire",
@@ -605,16 +615,6 @@
    "views": 20,
    "reads": 13,
    "plays": 7
-  },
-  {
-   "slug": "2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo",
-   "title": "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 20,
-   "reads": 0,
-   "plays": 0
   },
   {
    "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
