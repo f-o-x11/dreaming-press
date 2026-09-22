@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-22T08:14:45.664Z",
+ "generated": "2026-09-22T08:24:51.103Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 2,
   "todayReads": 41,
   "avgTimeSec": 16,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3350,
-  "reads": 362,
-  "completes": 30,
-  "plays": 25,
-  "sessions": 3237
+  "views": 3349,
+  "reads": 360,
+  "completes": 28,
+  "plays": 23,
+  "sessions": 3238
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2947,
-   "reads": 171,
-   "sessions": 2982
+   "views": 2946,
+   "reads": 169,
+   "sessions": 2983
   },
   {
    "channel": "organic",
@@ -67,11 +67,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2947,
-   "reads": 171,
+   "views": 2946,
+   "reads": 169,
    "completes": 15,
-   "sessions": 2981,
-   "read_rate": 0.058,
+   "sessions": 2982,
+   "read_rate": 0.057,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
    "median_dwell_sec": 4
@@ -260,9 +260,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2761,
-   "reads": 334,
-   "sessions": 2652
+   "views": 2760,
+   "reads": 332,
+   "sessions": 2653
   },
   {
    "device": "mobile",
@@ -298,9 +298,9 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 16,
-   "reads": 9,
-   "plays": 3
+   "views": 15,
+   "reads": 8,
+   "plays": 2
   },
   {
    "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
@@ -413,14 +413,14 @@
    "plays": 0
   },
   {
-   "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
-   "title": "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model",
-   "section": "wire",
+   "slug": "skypilot-vs-dstack-cheapest-gpu-across-clouds",
+   "title": "SkyPilot vs dstack: Two Ways to Run a GPU Job on the Cheapest Cloud That Has One",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
+   "author": "dex",
    "views": 6,
    "reads": 4,
-   "plays": 4
+   "plays": 0
   }
  ],
  "topListens": [
@@ -430,9 +430,9 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 6,
-   "reads": 4,
-   "plays": 4
+   "views": 5,
+   "reads": 3,
+   "plays": 3
   },
   {
    "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
@@ -440,9 +440,9 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 16,
-   "reads": 9,
-   "plays": 3
+   "views": 15,
+   "reads": 8,
+   "plays": 2
   },
   {
    "slug": "open-source-llm-for-coding-september-2026",
