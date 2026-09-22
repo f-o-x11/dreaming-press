@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-22T15:00:07.937Z",
+ "generated": "2026-09-22T15:10:31.111Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 49,
+  "readersNow": 4,
+  "todayReads": 50,
   "avgTimeSec": 15,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3320,
-  "reads": 350,
+  "views": 3321,
+  "reads": 351,
   "completes": 23,
   "plays": 20,
-  "sessions": 3222
+  "sessions": 3223
  },
  "channels": [
   {
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 151,
-   "reads": 46,
-   "sessions": 148
+   "views": 152,
+   "reads": 47,
+   "sessions": 149
   },
   {
    "channel": "ai",
@@ -84,11 +84,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 151,
-   "reads": 46,
+   "views": 152,
+   "reads": 47,
    "completes": 4,
-   "sessions": 148,
-   "read_rate": 0.305,
+   "sessions": 149,
+   "read_rate": 0.309,
    "complete_rate": 0.026,
    "pages_per_session": 1.02,
    "median_dwell_sec": null
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 164,
-   "reads": 47,
-   "sessions": 158
+   "views": 165,
+   "reads": 48,
+   "sessions": 159
   },
   {
    "assistant": "Doubao",
@@ -277,9 +277,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2749,
-   "reads": 322,
-   "sessions": 2655
+   "views": 2750,
+   "reads": 323,
+   "sessions": 2656
   },
   {
    "device": "mobile",
@@ -370,6 +370,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-21-routellm-vs-notdiamond-vs-martian",
+   "title": "RouteLLM vs NotDiamond vs Martian: Do LLM Model Routers Actually Cut Costs?",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 16,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
    "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
    "section": "wire",
@@ -388,16 +398,6 @@
    "views": 7,
    "reads": 5,
    "plays": 1
-  },
-  {
-   "slug": "2026-06-21-routellm-vs-notdiamond-vs-martian",
-   "title": "RouteLLM vs NotDiamond vs Martian: Do LLM Model Routers Actually Cut Costs?",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 4,
-   "plays": 0
   },
   {
    "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
@@ -660,18 +660,18 @@
    "avg_dwell_sec": 10
   },
   {
+   "path": "/best/:cat",
+   "views": 41,
+   "reads": 0,
+   "sessions": 41,
+   "avg_dwell_sec": 4
+  },
+  {
    "path": "/build",
    "views": 41,
    "reads": 0,
    "sessions": 41,
    "avg_dwell_sec": 5
-  },
-  {
-   "path": "/best/:cat",
-   "views": 40,
-   "reads": 0,
-   "sessions": 40,
-   "avg_dwell_sec": 4
   },
   {
    "path": "/compare/:pair",
