@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-22T09:05:10.813Z",
+ "generated": "2026-09-22T09:15:25.634Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 41,
+  "readersNow": 3,
+  "todayReads": 42,
   "avgTimeSec": 15,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3341,
-  "reads": 353,
+  "views": 3342,
+  "reads": 354,
   "completes": 24,
   "plays": 18,
-  "sessions": 3236
+  "sessions": 3237
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2938,
-   "reads": 162,
-   "sessions": 2981
+   "views": 2939,
+   "reads": 163,
+   "sessions": 2982
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2938,
-   "reads": 162,
+   "views": 2939,
+   "reads": 163,
    "completes": 15,
-   "sessions": 2980,
+   "sessions": 2981,
    "read_rate": 0.055,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -260,15 +260,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2752,
-   "reads": 325,
-   "sessions": 2651
+   "views": 2754,
+   "reads": 326,
+   "sessions": 2653
   },
   {
    "device": "mobile",
-   "views": 589,
+   "views": 588,
    "reads": 28,
-   "sessions": 586
+   "sessions": 585
   }
  ],
  "topContent": [
@@ -495,6 +495,16 @@
    "plays": 1
   },
   {
+   "slug": "how-to-get-confidence-scores-from-an-llm",
+   "title": "How to Get a Confidence Score From an LLM (and Why the Easy One Lies)",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 2,
+   "reads": 2,
+   "plays": 1
+  },
+  {
    "slug": "gartner-ai-agent-spending-2026",
    "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
    "section": "wire",
@@ -511,16 +521,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 5,
-   "reads": 1,
-   "plays": 1
-  },
-  {
-   "slug": "2026-06-22-gpu-for-llm-inference-h100-vs-h200-vs-a100-vs-l40s",
-   "title": "GPU for LLM Inference: H100 vs H200 vs A100 vs L40S",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 3,
    "reads": 1,
    "plays": 1
   }
