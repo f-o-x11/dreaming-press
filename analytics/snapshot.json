@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-22T08:04:42.559Z",
+ "generated": "2026-09-22T08:14:45.664Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 4,
   "todayReads": 41,
   "avgTimeSec": 16,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3348,
-  "reads": 363,
-  "completes": 31,
-  "plays": 26,
-  "sessions": 3234
+  "views": 3350,
+  "reads": 362,
+  "completes": 30,
+  "plays": 25,
+  "sessions": 3237
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2945,
-   "reads": 172,
-   "sessions": 2979
+   "views": 2947,
+   "reads": 171,
+   "sessions": 2982
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2945,
-   "reads": 172,
+   "views": 2947,
+   "reads": 171,
    "completes": 15,
-   "sessions": 2978,
+   "sessions": 2981,
    "read_rate": 0.058,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -260,9 +260,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2759,
-   "reads": 335,
-   "sessions": 2649
+   "views": 2761,
+   "reads": 334,
+   "sessions": 2652
   },
   {
    "device": "mobile",
@@ -298,9 +298,9 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 17,
-   "reads": 10,
-   "plays": 4
+   "views": 16,
+   "reads": 9,
+   "plays": 3
   },
   {
    "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
@@ -328,7 +328,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 16,
+   "views": 15,
    "reads": 6,
    "plays": 0
   },
@@ -425,16 +425,6 @@
  ],
  "topListens": [
   {
-   "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
-   "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 17,
-   "reads": 10,
-   "plays": 4
-  },
-  {
    "slug": "managed-inference-together-vs-fireworks-vs-baseten-serve-open-model",
    "title": "Together vs Fireworks vs Baseten: Where to Actually Serve Your Open-Weight Model",
    "section": "wire",
@@ -443,6 +433,16 @@
    "views": 6,
    "reads": 4,
    "plays": 4
+  },
+  {
+   "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
+   "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 16,
+   "reads": 9,
+   "plays": 3
   },
   {
    "slug": "open-source-llm-for-coding-september-2026",
