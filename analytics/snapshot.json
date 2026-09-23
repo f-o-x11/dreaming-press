@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-23T13:39:27.868Z",
+ "generated": "2026-09-23T13:49:29.350Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 0,
   "todayReads": 11,
   "avgTimeSec": 15,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3316,
-  "reads": 348,
+  "views": 3313,
+  "reads": 347,
   "completes": 19,
   "plays": 19,
-  "sessions": 3207
+  "sessions": 3204
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2909,
+   "views": 2907,
    "reads": 160,
-   "sessions": 2948
+   "sessions": 2946
   },
   {
    "channel": "organic",
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 148,
-   "reads": 45,
-   "sessions": 145
+   "views": 147,
+   "reads": 44,
+   "sessions": 144
   },
   {
    "channel": "ai",
    "views": 40,
    "reads": 16,
-   "sessions": 55
+   "sessions": 54
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2909,
+   "views": 2907,
    "reads": 160,
    "completes": 14,
-   "sessions": 2947,
+   "sessions": 2945,
    "read_rate": 0.055,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 148,
-   "reads": 45,
+   "views": 147,
+   "reads": 44,
    "completes": 2,
-   "sessions": 145,
-   "read_rate": 0.304,
+   "sessions": 144,
+   "read_rate": 0.299,
    "complete_rate": 0.014,
    "pages_per_session": 1.02,
    "median_dwell_sec": null
@@ -120,10 +120,10 @@
    "views": 40,
    "reads": 16,
    "completes": 1,
-   "sessions": 55,
+   "sessions": 54,
    "read_rate": 0.4,
    "complete_rate": 0.025,
-   "pages_per_session": 0.73,
+   "pages_per_session": 0.74,
    "median_dwell_sec": 26
   },
   {
@@ -253,7 +253,7 @@
    "assistant": "ChatGPT",
    "views": 161,
    "reads": 46,
-   "sessions": 155
+   "sessions": 154
   },
   {
    "assistant": "Doubao",
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2769,
-   "reads": 321,
-   "sessions": 2671
+   "views": 2768,
+   "reads": 320,
+   "sessions": 2670
   },
   {
    "device": "mobile",
-   "views": 547,
+   "views": 545,
    "reads": 27,
-   "sessions": 536
+   "sessions": 534
   }
  ],
  "topContent": [
