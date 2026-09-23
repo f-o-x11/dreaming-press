@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-23T17:53:54.954Z",
+ "generated": "2026-09-23T18:04:01.126Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 17,
   "avgTimeSec": 26,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3321,
+  "views": 3317,
   "reads": 347,
   "completes": 19,
   "plays": 18,
-  "sessions": 3196
+  "sessions": 3191
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2917,
+   "views": 2912,
    "reads": 163,
-   "sessions": 2943
+   "sessions": 2938
   },
   {
    "channel": "organic",
-   "views": 153,
+   "views": 154,
    "reads": 112,
-   "sessions": 117
+   "sessions": 118
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2917,
+   "views": 2912,
    "reads": 163,
    "completes": 14,
-   "sessions": 2942,
+   "sessions": 2937,
    "read_rate": 0.056,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -84,12 +84,12 @@
   },
   {
    "channel": "organic",
-   "views": 153,
+   "views": 154,
    "reads": 112,
    "completes": 1,
-   "sessions": 117,
-   "read_rate": 0.732,
-   "complete_rate": 0.007,
+   "sessions": 118,
+   "read_rate": 0.727,
+   "complete_rate": 0.006,
    "pages_per_session": 1.31,
    "median_dwell_sec": null
   },
@@ -291,13 +291,13 @@
    "device": "desktop",
    "views": 2768,
    "reads": 320,
-   "sessions": 2654
+   "sessions": 2653
   },
   {
    "device": "mobile",
-   "views": 553,
+   "views": 549,
    "reads": 27,
-   "sessions": 542
+   "sessions": 538
   }
  ],
  "topContent": [
@@ -407,7 +407,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 15,
+   "views": 13,
    "reads": 4,
    "plays": 0
   },
@@ -596,21 +596,21 @@
    "plays": 1
   },
   {
-   "slug": "china-ai-companion-law-doubao-qwen-agent-shutdown",
-   "title": "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "soren",
-   "views": 30,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo",
    "title": "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
+   "views": 29,
+   "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "china-ai-companion-law-doubao-qwen-agent-shutdown",
+   "title": "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "soren",
    "views": 29,
    "reads": 0,
    "plays": 0
@@ -659,9 +659,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 389,
+   "views": 390,
    "reads": 0,
-   "sessions": 389,
+   "sessions": 390,
    "avg_dwell_sec": 3
   },
   {
@@ -766,8 +766,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 75,
-   "sessions": 40
+   "hits": 76,
+   "sessions": 41
   },
   {
    "ref": "https://mail.google.com/",
