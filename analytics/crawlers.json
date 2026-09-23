@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-23T02:51:00.348Z",
+ "generated": "2026-09-23T03:01:30.138Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19544,
+ "verifiedAiHits": 19553,
  "logsScanned": 30,
  "windowStart": "2026-09-09",
  "windowEnd": "2026-09-23",
- "totalHits": 122702,
- "aiHits": 97222,
+ "totalHits": 122752,
+ "aiHits": 97246,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35991,
+   "hits": 35999,
    "verifiedHits": 0,
    "firstSeen": "2026-09-09",
    "lastSeen": "2026-09-23",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15007,
+   "hits": 15014,
    "verifiedHits": 0,
    "firstSeen": "2026-09-09",
    "lastSeen": "2026-09-23",
@@ -102,7 +102,7 @@
      "hits": 15
     },
     {
-     "path": "/stack/brave-search",
+     "path": "/topics/agent-frameworks",
      "hits": 11
     }
    ],
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 8998,
-   "verifiedHits": 8372,
+   "hits": 9002,
+   "verifiedHits": 8376,
    "firstSeen": "2026-09-09",
    "lastSeen": "2026-09-23",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6738,
-   "verifiedHits": 6308,
+   "hits": 6740,
+   "verifiedHits": 6310,
    "firstSeen": "2026-09-09",
    "lastSeen": "2026-09-23",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4265,
-   "verifiedHits": 3684,
+   "hits": 4268,
+   "verifiedHits": 3687,
    "firstSeen": "2026-09-09",
    "lastSeen": "2026-09-23",
    "topPaths": [
@@ -263,11 +263,11 @@
      "hits": 29
     },
     {
-     "path": "/posts/2026-08-19-founders-wire-etched-21b-chatgpt-teens-reach-capital.html",
-     "hits": 28
+     "path": "/posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html",
+     "hits": 29
     },
     {
-     "path": "/posts/2026-08-15-founders-wire-openai-ultrafast-gemini-flash-glm-5-3.html",
+     "path": "/posts/2026-08-19-founders-wire-etched-21b-chatgpt-teens-reach-capital.html",
      "hits": 28
     }
    ],
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3576,
-   "verifiedHits": 3041,
+   "hits": 3578,
+   "verifiedHits": 3043,
    "firstSeen": "2026-09-09",
    "lastSeen": "2026-09-23",
    "topPaths": [
     {
      "path": "/",
-     "hits": 581
+     "hits": 582
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -377,7 +377,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2329,
+   "hits": 2353,
    "verifiedHits": 0,
    "firstSeen": "2026-09-09",
    "lastSeen": "2026-09-23",
@@ -395,12 +395,12 @@
      "hits": 5
     },
     {
-     "path": "/posts/agent-memory-backend-vertex-memory-bank-vs-mem0-vs-vector-db.html",
+     "path": "/posts/open-source-llm-for-coding-september-2026.html",
      "hits": 4
     },
     {
-     "path": "/posts/how-to-run-local-memory-server-openmemory-mcp.html",
-     "hits": 3
+     "path": "/posts/agent-memory-backend-vertex-memory-bank-vs-mem0-vs-vector-db.html",
+     "hits": 4
     }
    ],
    "verifiable": false

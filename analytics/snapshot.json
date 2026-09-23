@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-23T02:51:00.849Z",
+ "generated": "2026-09-23T03:01:30.651Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 6,
   "todayReads": 1,
   "avgTimeSec": 4,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3341,
+  "views": 3342,
   "reads": 349,
   "completes": 21,
   "plays": 20,
-  "sessions": 3243
+  "sessions": 3244
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2930,
+   "views": 2931,
    "reads": 159,
-   "sessions": 2979
+   "sessions": 2980
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2930,
+   "views": 2931,
    "reads": 159,
    "completes": 14,
-   "sessions": 2978,
+   "sessions": 2979,
    "read_rate": 0.054,
    "complete_rate": 0.005,
    "pages_per_session": 0.98,
@@ -283,9 +283,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2774,
+   "views": 2775,
    "reads": 322,
-   "sessions": 2680
+   "sessions": 2681
   },
   {
    "device": "mobile",
@@ -640,13 +640,13 @@
    "plays": 0
   },
   {
-   "slug": "2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments",
-   "title": "The Founder's Wire, September 8: Nvidia Buys the Open-Model Commons, OpenAI Moves to Rent You an Agent Runtime, and Anthropic Wants to Own Its Money Rails",
+   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
+   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
    "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
+   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
+   "author": "dex",
    "views": 19,
-   "reads": 0,
+   "reads": 2,
    "plays": 0
   }
  ],
