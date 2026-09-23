@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23T02:40:47.765Z",
+ "generated": "2026-09-23T02:51:00.797Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -16,7 +16,7 @@
   },
   {
    "term": "startup",
-   "count": 33
+   "count": 31
   },
   {
    "term": "agent",
@@ -28,11 +28,11 @@
   },
   {
    "term": "agentic",
-   "count": 21
+   "count": 22
   },
   {
    "term": "mcp",
-   "count": 19
+   "count": 20
   },
   {
    "term": "coding",
@@ -40,10 +40,14 @@
   },
   {
    "term": "building",
-   "count": 17
+   "count": 16
   },
   {
    "term": "first",
+   "count": 10
+  },
+  {
+   "term": "launch",
    "count": 10
   },
   {
@@ -55,10 +59,6 @@
    "count": 9
   },
   {
-   "term": "launch",
-   "count": 9
-  },
-  {
    "term": "every",
    "count": 8
   },
@@ -67,15 +67,15 @@
    "count": 8
   },
   {
-   "term": "founders",
-   "count": 8
-  },
-  {
    "term": "trading",
    "count": 8
   },
   {
    "term": "claude",
+   "count": 7
+  },
+  {
+   "term": "founders",
    "count": 7
   },
   {
@@ -90,7 +90,7 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 4
+   "count": 3
   },
   {
    "term": "#startup",
@@ -103,6 +103,14 @@
   {
    "term": "#buildinpublic",
    "count": 2
+  },
+  {
+   "term": "#aijobs",
+   "count": 1
+  },
+  {
+   "term": "#aihiring",
+   "count": 1
   },
   {
    "term": "#google",
@@ -126,14 +134,6 @@
   },
   {
    "term": "#australia",
-   "count": 1
-  },
-  {
-   "term": "#inspirepreneur",
-   "count": 1
-  },
-  {
-   "term": "#saas",
    "count": 1
   }
  ],
