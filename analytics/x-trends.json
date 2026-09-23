@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23T14:10:01.281Z",
+ "generated": "2026-09-23T14:20:06.209Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,31 +8,31 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 42
+   "count": 41
   },
   {
    "term": "founder",
    "count": 35
   },
   {
-   "term": "agent",
-   "count": 32
-  },
-  {
    "term": "startup",
    "count": 32
   },
   {
+   "term": "agent",
+   "count": 31
+  },
+  {
    "term": "build",
-   "count": 26
+   "count": 27
+  },
+  {
+   "term": "agentic",
+   "count": 22
   },
   {
    "term": "mcp",
    "count": 22
-  },
-  {
-   "term": "agentic",
-   "count": 21
   },
   {
    "term": "coding",
@@ -40,7 +40,7 @@
   },
   {
    "term": "building",
-   "count": 19
+   "count": 18
   },
   {
    "term": "first",
@@ -59,12 +59,12 @@
    "count": 9
   },
   {
-   "term": "has",
+   "term": "like",
    "count": 8
   },
   {
-   "term": "actually",
-   "count": 7
+   "term": "has",
+   "count": 8
   },
   {
    "term": "real",
@@ -75,7 +75,7 @@
    "count": 7
   },
   {
-   "term": "like",
+   "term": "there",
    "count": 7
   },
   {
@@ -139,6 +139,12 @@
  ],
  "topPosts": [
   {
+   "text": "Build but build well on @RobinhoodCrypto make a difference. I have been thirsty to extend on my thesis; Before I dive into things just note @vladtenev quoted “The next era of consumer finance is agentic.” There’s nothing",
+   "engagement": 344,
+   "url": "https://x.com/i/status/2102019638498402351",
+   "created": "2026-09-21T12:58:30.000Z"
+  },
+  {
    "text": "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen",
    "engagement": 262,
    "url": "https://x.com/i/status/2100517638611087443",
@@ -179,12 +185,6 @@
    "engagement": 144,
    "url": "https://x.com/i/status/2100328490759250006",
    "created": "2026-09-16T20:58:29.000Z"
-  },
-  {
-   "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 - How to build your first AI agent 08:24 - Build agent memory (short, persistent, long) 28:34 - Agentic loops, long-running AI agents 40:04 -",
-   "engagement": 128,
-   "url": "https://x.com/i/status/2101035065178313073",
-   "created": "2026-09-18T19:46:09.000Z"
   }
  ]
 }
