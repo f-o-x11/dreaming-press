@@ -1,29 +1,29 @@
 {
- "generated": "2026-09-23T18:14:14.185Z",
+ "generated": "2026-09-23T18:24:40.675Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 17,
-  "avgTimeSec": 26,
+  "readersNow": 4,
+  "todayReads": 18,
+  "avgTimeSec": 25,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3317,
-  "reads": 347,
+  "views": 3320,
+  "reads": 348,
   "completes": 19,
   "plays": 18,
-  "sessions": 3191
+  "sessions": 3195
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2912,
-   "reads": 163,
-   "sessions": 2938
+   "views": 2916,
+   "reads": 164,
+   "sessions": 2942
   },
   {
    "channel": "organic",
-   "views": 154,
+   "views": 153,
    "reads": 112,
    "sessions": 118
   },
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2912,
-   "reads": 163,
+   "views": 2916,
+   "reads": 164,
    "completes": 14,
-   "sessions": 2937,
+   "sessions": 2941,
    "read_rate": 0.056,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -84,13 +84,13 @@
   },
   {
    "channel": "organic",
-   "views": 154,
+   "views": 153,
    "reads": 112,
    "completes": 1,
    "sessions": 118,
-   "read_rate": 0.727,
-   "complete_rate": 0.006,
-   "pages_per_session": 1.31,
+   "read_rate": 0.732,
+   "complete_rate": 0.007,
+   "pages_per_session": 1.3,
    "median_dwell_sec": null
   },
   {
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2768,
-   "reads": 320,
-   "sessions": 2653
+   "views": 2770,
+   "reads": 321,
+   "sessions": 2656
   },
   {
    "device": "mobile",
-   "views": 549,
+   "views": 550,
    "reads": 27,
-   "sessions": 538
+   "sessions": 539
   }
  ],
  "topContent": [
@@ -417,7 +417,17 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 13,
+   "views": 12,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-security-jobs",
+   "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 10,
    "reads": 4,
    "plays": 0
   },
@@ -438,16 +448,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 9,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "code-retrieval-for-ai-coding-agents",
-   "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 7,
    "reads": 4,
    "plays": 0
   }
@@ -766,7 +766,7 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 76,
+   "hits": 75,
    "sessions": 41
   },
   {
