@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-23T04:32:40.618Z",
+ "generated": "2026-09-23T04:42:50.802Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 3,
-  "avgTimeSec": 8,
+  "readersNow": 5,
+  "todayReads": 4,
+  "avgTimeSec": 17,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3349,
-  "reads": 351,
+  "views": 3351,
+  "reads": 352,
   "completes": 21,
   "plays": 20,
-  "sessions": 3246
+  "sessions": 3248
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2938,
+   "views": 2939,
    "reads": 160,
-   "sessions": 2982
+   "sessions": 2984
   },
   {
    "channel": "organic",
-   "views": 152,
-   "reads": 113,
-   "sessions": 116
+   "views": 153,
+   "reads": 114,
+   "sessions": 117
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2938,
+   "views": 2939,
    "reads": 160,
    "completes": 14,
-   "sessions": 2981,
+   "sessions": 2983,
    "read_rate": 0.054,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "organic",
-   "views": 152,
-   "reads": 113,
+   "views": 153,
+   "reads": 114,
    "completes": 1,
-   "sessions": 116,
-   "read_rate": 0.743,
+   "sessions": 117,
+   "read_rate": 0.745,
    "complete_rate": 0.007,
    "pages_per_session": 1.31,
    "median_dwell_sec": null
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2787,
+   "views": 2786,
    "reads": 324,
-   "sessions": 2688
+   "sessions": 2687
   },
   {
    "device": "mobile",
-   "views": 562,
-   "reads": 27,
-   "sessions": 559
+   "views": 565,
+   "reads": 28,
+   "sessions": 562
   }
  ],
  "topContent": [
@@ -591,7 +591,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 31,
+   "views": 32,
    "reads": 0,
    "plays": 0
   },
@@ -781,8 +781,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 40,
-   "sessions": 22
+   "hits": 42,
+   "sessions": 23
   },
   {
    "ref": "https://cn.bing.com/",
