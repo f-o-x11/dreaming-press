@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-23T00:59Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-23T01:09Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -66,7 +66,7 @@ so what these earn from humans is the other half of the picture.
 - /compare/:pair — 22 views, 2 reads, 22 sessions, avg 27s
 - /topics/:topic — 17 views, 0 reads, 17 sessions, avg 7s
 - /dashboard — 13 views, 0 reads, 10 sessions, avg 7s
-- /alternatives/:tool — 10 views, 0 reads, 10 sessions, avg 3s
+- /alternatives/:tool — 9 views, 0 reads, 9 sessions, avg 3s
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
 
@@ -96,7 +96,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 606 retrieval fetches
+- /  — 607 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 200 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 155 retrieval fetches
 - /build  — 85 retrieval fetches
@@ -104,13 +104,13 @@ sample size dwarfs the engaged-read counts below.
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 58 retrieval fetches
 - /wire.html  — 50 retrieval fetches
 - /tools  — 33 retrieval fetches
+- /posts/2026-08-19-founders-wire-etched-21b-chatgpt-teens-reach-capital.html  — 28 retrieval fetches
 - /posts/local-llm-for-coding-on-your-own-machine.html  — 28 retrieval fetches
-- /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html  — 28 retrieval fetches
 
 Per engine:
-- PerplexityBot (8370 verified): /build ×85 · / ×28 · /posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html ×23
-- OAI-SearchBot (3660 verified): /wire.html ×50 · /tools ×33 · /posts/local-llm-for-coding-on-your-own-machine.html ×28
-- ChatGPT-User (3027 verified): / ×578 · /posts/open-source-llm-for-coding-september-2026.html ×200 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×155
+- PerplexityBot (8371 verified): /build ×85 · / ×28 · /posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html ×23
+- OAI-SearchBot (3665 verified): /wire.html ×50 · /tools ×33 · /posts/2026-08-19-founders-wire-etched-21b-chatgpt-teens-reach-capital.html ×28
+- ChatGPT-User (3031 verified): / ×579 · /posts/open-source-llm-for-coding-september-2026.html ×200 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×155
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 19503 confirmed AI-engine fetches (Perplexity 8370, GPTBot (OpenAI) 4446, ChatGPT Search (OpenAI) 3660, ChatGPT (user browsing) 3027).
+The real answer engines are crawling us — IP-verified: 19513 confirmed AI-engine fetches (Perplexity 8371, GPTBot (OpenAI) 4446, ChatGPT Search (OpenAI) 3665, ChatGPT (user browsing) 3031).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 671 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 238 crawler fetches
