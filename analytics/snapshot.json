@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-23T23:49:01.010Z",
+ "generated": "2026-09-23T23:59:12.854Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 3,
   "todayReads": 20,
   "avgTimeSec": 23,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3322,
+  "views": 3323,
   "reads": 346,
   "completes": 20,
   "plays": 17,
-  "sessions": 3194
+  "sessions": 3195
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2914,
+   "views": 2917,
    "reads": 164,
-   "sessions": 2936
+   "sessions": 2939
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 59,
+   "views": 57,
    "reads": 11,
-   "sessions": 57
+   "sessions": 55
   },
   {
    "channel": "campaign:qwant",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2914,
+   "views": 2917,
    "reads": 164,
    "completes": 15,
-   "sessions": 2935,
+   "sessions": 2938,
    "read_rate": 0.056,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -106,11 +106,11 @@
   },
   {
    "channel": "referral",
-   "views": 59,
+   "views": 57,
    "reads": 11,
    "completes": 0,
-   "sessions": 57,
-   "read_rate": 0.186,
+   "sessions": 55,
+   "read_rate": 0.193,
    "complete_rate": 0,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2771,
+   "views": 2772,
    "reads": 319,
-   "sessions": 2654
+   "sessions": 2655
   },
   {
    "device": "mobile",
@@ -327,7 +327,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 38,
+   "views": 39,
    "reads": 11,
    "plays": 1
   },
@@ -469,7 +469,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 38,
+   "views": 39,
    "reads": 11,
    "plays": 1
   },
@@ -576,6 +576,16 @@
    "plays": 1
   },
   {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 39,
+   "reads": 11,
+   "plays": 1
+  },
+  {
    "slug": "microsoft-agent-framework-vs-langgraph-vs-crewai-three-thresholds",
    "title": "Microsoft Agent Framework vs LangGraph vs CrewAI: Which One Crossed the Three Thresholds",
    "section": "wire",
@@ -584,16 +594,6 @@
    "views": 38,
    "reads": 36,
    "plays": 0
-  },
-  {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 38,
-   "reads": 11,
-   "plays": 1
   },
   {
    "slug": "2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo",
