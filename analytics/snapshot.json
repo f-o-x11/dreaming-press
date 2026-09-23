@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-23T06:54:20.992Z",
+ "generated": "2026-09-23T07:04:30.776Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 4,
-  "avgTimeSec": 16,
+  "readersNow": 5,
+  "todayReads": 5,
+  "avgTimeSec": 19,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3350,
+  "views": 3347,
   "reads": 351,
   "completes": 20,
   "plays": 20,
-  "sessions": 3248
+  "sessions": 3246
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2938,
+   "views": 2936,
    "reads": 159,
-   "sessions": 2985
+   "sessions": 2984
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 153,
+   "views": 152,
    "reads": 48,
-   "sessions": 150
+   "sessions": 149
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2938,
+   "views": 2936,
    "reads": 159,
    "completes": 13,
-   "sessions": 2984,
+   "sessions": 2983,
    "read_rate": 0.054,
    "complete_rate": 0.004,
    "pages_per_session": 0.98,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 153,
+   "views": 152,
    "reads": 48,
    "completes": 4,
-   "sessions": 150,
-   "read_rate": 0.314,
+   "sessions": 149,
+   "read_rate": 0.316,
    "complete_rate": 0.026,
    "pages_per_session": 1.02,
    "median_dwell_sec": null
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 166,
+   "views": 165,
    "reads": 49,
-   "sessions": 160
+   "sessions": 159
   },
   {
    "assistant": "Doubao",
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2784,
+   "views": 2783,
    "reads": 323,
    "sessions": 2686
   },
   {
    "device": "mobile",
-   "views": 566,
+   "views": 564,
    "reads": 28,
-   "sessions": 563
+   "sessions": 561
   }
  ],
  "topContent": [
@@ -591,7 +591,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 32,
+   "views": 31,
    "reads": 0,
    "plays": 0
   },
@@ -707,18 +707,18 @@
    "avg_dwell_sec": 7
   },
   {
+   "path": "/tools",
+   "views": 10,
+   "reads": 1,
+   "sessions": 10,
+   "avg_dwell_sec": 18
+  },
+  {
    "path": "/alternatives/:tool",
    "views": 9,
    "reads": 0,
    "sessions": 9,
    "avg_dwell_sec": 3
-  },
-  {
-   "path": "/tools",
-   "views": 9,
-   "reads": 0,
-   "sessions": 9,
-   "avg_dwell_sec": 9
   },
   {
    "path": "/apps",

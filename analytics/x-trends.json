@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23T06:54:20.939Z",
+ "generated": "2026-09-23T07:04:30.719Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -40,7 +40,7 @@
   },
   {
    "term": "building",
-   "count": 15
+   "count": 16
   },
   {
    "term": "first",
@@ -52,10 +52,6 @@
   },
   {
    "term": "google",
-   "count": 9
-  },
-  {
-   "term": "has",
    "count": 9
   },
   {
@@ -79,11 +75,15 @@
    "count": 8
   },
   {
+   "term": "has",
+   "count": 8
+  },
+  {
    "term": "trading",
    "count": 8
   },
   {
-   "term": "engineer",
+   "term": "real",
    "count": 7
   }
  ],
