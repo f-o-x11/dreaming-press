@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-23T15:32:01.626Z",
+ "generated": "2026-09-23T15:42:05.088Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 13,
-  "avgTimeSec": 25,
+  "avgTimeSec": 24,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3325,
-  "reads": 348,
+  "views": 3326,
+  "reads": 347,
   "completes": 19,
-  "plays": 19,
-  "sessions": 3216
+  "plays": 18,
+  "sessions": 3217
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2918,
-   "reads": 161,
-   "sessions": 2960
+   "views": 2919,
+   "reads": 160,
+   "sessions": 2961
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2918,
-   "reads": 161,
+   "views": 2919,
+   "reads": 160,
    "completes": 14,
-   "sessions": 2959,
+   "sessions": 2960,
    "read_rate": 0.055,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2775,
-   "reads": 321,
-   "sessions": 2677
+   "views": 2776,
+   "reads": 320,
+   "sessions": 2678
   },
   {
    "device": "mobile",
@@ -327,7 +327,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 33,
+   "views": 34,
    "reads": 10,
    "plays": 1
   },
@@ -412,16 +412,6 @@
    "plays": 0
   },
   {
-   "slug": "how-to-manage-context-in-a-long-running-agent",
-   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 6,
-   "reads": 5,
-   "plays": 1
-  },
-  {
    "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
    "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
    "section": "wire",
@@ -450,6 +440,16 @@
    "views": 9,
    "reads": 4,
    "plays": 0
+  },
+  {
+   "slug": "code-retrieval-for-ai-coding-agents",
+   "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
+   "reads": 4,
+   "plays": 0
   }
  ],
  "topListens": [
@@ -469,18 +469,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 33,
+   "views": 34,
    "reads": 10,
-   "plays": 1
-  },
-  {
-   "slug": "how-to-manage-context-in-a-long-running-agent",
-   "title": "How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 6,
-   "reads": 5,
    "plays": 1
   },
   {
@@ -552,6 +542,16 @@
    "views": 3,
    "reads": 2,
    "plays": 1
+  },
+  {
+   "slug": "how-to-get-confidence-scores-from-an-llm",
+   "title": "How to Get a Confidence Score From an LLM (and Why the Easy One Lies)",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 2,
+   "reads": 2,
+   "plays": 1
   }
  ],
  "topViews": [
@@ -591,7 +591,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 33,
+   "views": 34,
    "reads": 10,
    "plays": 1
   },
