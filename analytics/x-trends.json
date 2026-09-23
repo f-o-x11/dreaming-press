@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23T03:11:46.569Z",
+ "generated": "2026-09-23T03:21:52.556Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 38
+   "count": 39
   },
   {
    "term": "founder",
@@ -44,7 +44,7 @@
   },
   {
    "term": "first",
-   "count": 11
+   "count": 10
   },
   {
    "term": "launch",
@@ -63,10 +63,6 @@
    "count": 8
   },
   {
-   "term": "claude",
-   "count": 8
-  },
-  {
    "term": "today",
    "count": 8
   },
@@ -75,22 +71,26 @@
    "count": 8
   },
   {
+   "term": "connect",
+   "count": 8
+  },
+  {
    "term": "trading",
    "count": 8
   },
   {
-   "term": "day",
+   "term": "claude",
    "count": 7
   },
   {
-   "term": "connect",
+   "term": "day",
    "count": 7
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 4
+   "count": 5
   },
   {
    "term": "#startup",
@@ -103,6 +103,18 @@
   {
    "term": "#buildinpublic",
    "count": 2
+  },
+  {
+   "term": "#agenticai",
+   "count": 1
+  },
+  {
+   "term": "#web3",
+   "count": 1
+  },
+  {
+   "term": "#cookmymeme",
+   "count": 1
   },
   {
    "term": "#aijobs",
@@ -123,24 +135,12 @@
   {
    "term": "#deepmind",
    "count": 1
-  },
-  {
-   "term": "#newsrupt",
-   "count": 1
-  },
-  {
-   "term": "#india",
-   "count": 1
-  },
-  {
-   "term": "#australia",
-   "count": 1
   }
  ],
  "topPosts": [
   {
    "text": "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen",
-   "engagement": 248,
+   "engagement": 250,
    "url": "https://x.com/i/status/2100517638611087443",
    "created": "2026-09-17T09:30:05.000Z"
   },
@@ -175,16 +175,16 @@
    "created": "2026-09-19T18:38:41.000Z"
   },
   {
-   "text": "Hedera just went live in Claude Code. Network MCP + Wallet Connector Let AI agents build and sign hedera-hashgraph:native transactions from your terminal. Humans still approve the final send. First mover on agentic block",
-   "engagement": 144,
-   "url": "https://x.com/i/status/2100328490759250006",
-   "created": "2026-09-16T20:58:29.000Z"
-  },
-  {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 - How to build your first AI agent 08:24 - Build agent memory (short, persistent, long) 28:34 - Agentic loops, long-running AI agents 40:04 -",
    "engagement": 128,
    "url": "https://x.com/i/status/2101035065178313073",
    "created": "2026-09-18T19:46:09.000Z"
+  },
+  {
+   "text": "Circuits Protocol is live on Arc Mainnet. AI agents can now become autonomous economic entities on Circuits. Create an agent in seconds or bring an existing agent from frameworks like OpenClaw and Hermes and give it: → a",
+   "engagement": 86,
+   "url": "https://x.com/i/status/2100561538926981324",
+   "created": "2026-09-17T12:24:32.000Z"
   }
  ]
 }
