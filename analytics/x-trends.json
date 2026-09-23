@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23T23:08:36.602Z",
+ "generated": "2026-09-23T23:18:37.257Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -28,11 +28,11 @@
   },
   {
    "term": "agentic",
-   "count": 21
+   "count": 22
   },
   {
    "term": "building",
-   "count": 20
+   "count": 21
   },
   {
    "term": "coding",
@@ -45,10 +45,6 @@
   {
    "term": "google",
    "count": 9
-  },
-  {
-   "term": "security",
-   "count": 8
   },
   {
    "term": "claude",
@@ -75,15 +71,19 @@
    "count": 7
   },
   {
-   "term": "has",
-   "count": 7
-  },
-  {
    "term": "actually",
    "count": 6
   },
   {
+   "term": "security",
+   "count": 6
+  },
+  {
    "term": "apps",
+   "count": 6
+  },
+  {
+   "term": "real",
    "count": 6
   }
  ],
