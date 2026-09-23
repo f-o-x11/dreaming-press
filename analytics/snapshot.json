@@ -1,24 +1,24 @@
 {
- "generated": "2026-09-23T09:16:17.767Z",
+ "generated": "2026-09-23T09:26:24.534Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 6,
+  "readersNow": 2,
+  "todayReads": 8,
   "avgTimeSec": 15,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3350,
-  "reads": 348,
+  "views": 3351,
+  "reads": 349,
   "completes": 19,
   "plays": 20,
-  "sessions": 3243
+  "sessions": 3244
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2942,
-   "reads": 158,
+   "views": 2943,
+   "reads": 159,
    "sessions": 2984
   },
   {
@@ -29,8 +29,8 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 150,
-   "reads": 47,
+   "views": 149,
+   "reads": 46,
    "sessions": 147
   },
   {
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 59,
-   "reads": 11,
-   "sessions": 56
+   "views": 60,
+   "reads": 12,
+   "sessions": 57
   },
   {
    "channel": "campaign:qwant",
@@ -73,8 +73,8 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2942,
-   "reads": 158,
+   "views": 2943,
+   "reads": 159,
    "completes": 13,
    "sessions": 2983,
    "read_rate": 0.054,
@@ -95,22 +95,22 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 150,
-   "reads": 47,
+   "views": 149,
+   "reads": 46,
    "completes": 3,
    "sessions": 147,
-   "read_rate": 0.313,
+   "read_rate": 0.309,
    "complete_rate": 0.02,
-   "pages_per_session": 1.02,
+   "pages_per_session": 1.01,
    "median_dwell_sec": null
   },
   {
    "channel": "referral",
-   "views": 59,
-   "reads": 11,
+   "views": 60,
+   "reads": 12,
    "completes": 0,
-   "sessions": 56,
-   "read_rate": 0.186,
+   "sessions": 57,
+   "read_rate": 0.2,
    "complete_rate": 0,
    "pages_per_session": 1.05,
    "median_dwell_sec": null
@@ -251,8 +251,8 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 163,
-   "reads": 48,
+   "views": 162,
+   "reads": 47,
    "sessions": 157
   },
   {
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2777,
-   "reads": 321,
-   "sessions": 2681
+   "views": 2778,
+   "reads": 322,
+   "sessions": 2682
   },
   {
    "device": "mobile",
@@ -362,6 +362,16 @@
    "plays": 0
   },
   {
+   "slug": "playwright-mcp-vs-cli-token-cost-browser-agents",
+   "title": "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 15,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "vllm-v0-24-model-runner-v2-rust-frontend",
    "title": "vLLM v0.24 Makes Model Runner V2 the Default. The Win Isn't a Faster Kernel — It's Never Waiting on the CPU.",
    "section": "wire",
@@ -410,16 +420,6 @@
    "views": 6,
    "reads": 5,
    "plays": 1
-  },
-  {
-   "slug": "playwright-mcp-vs-cli-token-cost-browser-agents",
-   "title": "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 4,
-   "plays": 0
   },
   {
    "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
