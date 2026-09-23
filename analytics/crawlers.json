@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-23T18:55:20.286Z",
+ "generated": "2026-09-23T19:05:50.460Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 20356,
+ "verifiedAiHits": 20357,
  "logsScanned": 30,
  "windowStart": "2026-09-09",
  "windowEnd": "2026-09-23",
- "totalHits": 126864,
- "aiHits": 100665,
+ "totalHits": 126915,
+ "aiHits": 100716,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37220,
+   "hits": 37224,
    "verifiedHits": 0,
    "firstSeen": "2026-09-09",
    "lastSeen": "2026-09-23",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 17689,
+   "hits": 17724,
    "verifiedHits": 0,
    "firstSeen": "2026-09-09",
    "lastSeen": "2026-09-23",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15692,
+   "hits": 15700,
    "verifiedHits": 0,
    "firstSeen": "2026-09-09",
    "lastSeen": "2026-09-23",
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3770,
-   "verifiedHits": 3227,
+   "hits": 3771,
+   "verifiedHits": 3228,
    "firstSeen": "2026-09-09",
    "lastSeen": "2026-09-23",
    "topPaths": [
@@ -297,7 +297,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 67
+     "hits": 68
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
@@ -410,14 +410,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2152,
+   "hits": 2155,
    "verifiedHits": 0,
    "firstSeen": "2026-09-09",
    "lastSeen": "2026-09-23",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 214
+     "hits": 217
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
