@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-23T07:24:58.807Z",
+ "generated": "2026-09-23T07:35:00.764Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 5,
+  "readersNow": 2,
+  "todayReads": 6,
   "avgTimeSec": 16,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3354,
-  "reads": 351,
+  "views": 3356,
+  "reads": 352,
   "completes": 20,
   "plays": 20,
-  "sessions": 3246
+  "sessions": 3248
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2943,
-   "reads": 159,
-   "sessions": 2984
+   "views": 2945,
+   "reads": 160,
+   "sessions": 2986
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2943,
-   "reads": 159,
+   "views": 2945,
+   "reads": 160,
    "completes": 13,
-   "sessions": 2983,
+   "sessions": 2985,
    "read_rate": 0.054,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2783,
-   "reads": 323,
-   "sessions": 2686
+   "views": 2785,
+   "reads": 324,
+   "sessions": 2688
   },
   {
    "device": "mobile",
@@ -422,6 +422,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
+   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 10,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
    "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
    "section": "wire",
@@ -438,16 +448,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 7,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-24-hybrid-search-bm25-vs-dense-vs-rrf",
-   "title": "BM25 vs Dense vs Hybrid Search: How to Actually Combine Them for RAG",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 6,
    "reads": 4,
    "plays": 0
   }
