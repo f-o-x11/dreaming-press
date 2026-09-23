@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-23T14:50:51.088Z",
+ "generated": "2026-09-23T15:01:01.897Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 12,
-  "avgTimeSec": 15,
+  "readersNow": 5,
+  "todayReads": 13,
+  "avgTimeSec": 14,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3319,
-  "reads": 347,
+  "views": 3323,
+  "reads": 348,
   "completes": 19,
   "plays": 19,
-  "sessions": 3210
+  "sessions": 3214
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2914,
+   "views": 2916,
    "reads": 161,
-   "sessions": 2953
+   "sessions": 2957
   },
   {
    "channel": "organic",
@@ -47,8 +47,8 @@
   },
   {
    "channel": "campaign:qwant",
-   "views": 2,
-   "reads": 2,
+   "views": 4,
+   "reads": 3,
    "sessions": 2
   },
   {
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2914,
+   "views": 2916,
    "reads": 161,
    "completes": 14,
-   "sessions": 2952,
+   "sessions": 2956,
    "read_rate": 0.055,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -127,23 +127,23 @@
    "median_dwell_sec": 26
   },
   {
+   "channel": "campaign:qwant",
+   "views": 4,
+   "reads": 3,
+   "completes": 0,
+   "sessions": 2,
+   "read_rate": 0.75,
+   "complete_rate": 0,
+   "pages_per_session": 2,
+   "median_dwell_sec": null
+  },
+  {
    "channel": "social",
    "views": 3,
    "reads": 1,
    "completes": 0,
    "sessions": 3,
    "read_rate": 0.333,
-   "complete_rate": 0,
-   "pages_per_session": 1,
-   "median_dwell_sec": null
-  },
-  {
-   "channel": "campaign:qwant",
-   "views": 2,
-   "reads": 2,
-   "completes": 0,
-   "sessions": 2,
-   "read_rate": 1,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2770,
-   "reads": 320,
-   "sessions": 2672
+   "views": 2773,
+   "reads": 321,
+   "sessions": 2675
   },
   {
    "device": "mobile",
-   "views": 549,
+   "views": 550,
    "reads": 27,
-   "sessions": 538
+   "sessions": 539
   }
  ],
  "topContent": [
@@ -327,8 +327,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 31,
-   "reads": 9,
+   "views": 33,
+   "reads": 10,
    "plays": 1
   },
   {
@@ -469,8 +469,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 31,
-   "reads": 9,
+   "views": 33,
+   "reads": 10,
    "plays": 1
   },
   {
@@ -591,8 +591,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 31,
-   "reads": 9,
+   "views": 33,
+   "reads": 10,
    "plays": 1
   },
   {
@@ -666,9 +666,9 @@
   },
   {
    "path": "/",
-   "views": 140,
+   "views": 141,
    "reads": 0,
-   "sessions": 141,
+   "sessions": 144,
    "avg_dwell_sec": 10
   },
   {
