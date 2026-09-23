@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-23T19:16Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-23T19:26Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3319 views → 347 engaged reads → 19 completes · 3195 sessions.
-- Channels: direct 163r/2916v · organic 112r/153v · campaign:chatgpt.com 40r/143v · ai 16r/40v · referral 11r/58v · campaign:qwant 4r/5v · social 1r/3v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3320 views → 347 engaged reads → 19 completes · 3197 sessions.
+- Channels: direct 163r/2917v · organic 112r/153v · campaign:chatgpt.com 40r/143v · ai 16r/40v · referral 11r/58v · campaign:qwant 4r/5v · social 1r/3v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 42r/157v · Doubao 11r/15v · Perplexity 2r/5v · Claude 1r/1v · Kimi 0r/4v · DeepSeek 0r/1v.
 - Referrers: bing.com, mail.google.com, chatgpt.com, duckduckgo.com, cn.bing.com, doubao.com, search.brave.com, brand, dash-range, nav-cmp.
 - Engaged-read winners by section: wire=7, stack=8.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2916 views · read 5.6% · complete 0.5% · 0.99 pages/session · median 5s
+- direct: 2917 views · read 5.6% · complete 0.5% · 0.99 pages/session · median 5s
 - organic: 153 views · read 73.2% · complete 0.7% · 1.3 pages/session · median ?s
 - campaign:chatgpt.com: 143 views · read 28.0% · complete 1.4% · 1.02 pages/session · median ?s
 - referral: 58 views · read 19.0% · complete 0.0% · 1.04 pages/session · median ?s
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(40), startup(36), founder(35), build(28), agent(28), agentic(22), mcp(20), building(20), coding(17), first(10), claude(9), google(9), launch(9), like(8), has(8).
+Hot terms: agents(40), founder(36), startup(35), build(27), agent(27), agentic(23), mcp(20), building(19), coding(17), first(10), claude(9), google(9), launch(9), like(8), has(8).
 Hashtags: #ai, #startup, #founder, #buildinpublic, #agenticai, #web3, #cookmymeme, #aijobs, #aihiring, #google.
 High-engagement posts to react to / cite:
 - "Build but build well on @RobinhoodCrypto make a difference. I have been thirsty to extend on my thesis; Before I dive into things just note @vladtenev quoted “The next era of consumer finance is agentic.” There’s nothing" — https://x.com/i/status/2102019638498402351
