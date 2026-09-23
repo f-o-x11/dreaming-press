@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-23T06:33:50.264Z",
+ "generated": "2026-09-23T06:44:00.374Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19617,
+ "verifiedAiHits": 19623,
  "logsScanned": 30,
  "windowStart": "2026-09-09",
  "windowEnd": "2026-09-23",
- "totalHits": 123619,
- "aiHits": 97932,
+ "totalHits": 123644,
+ "aiHits": 97955,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36347,
+   "hits": 36348,
    "verifiedHits": 0,
    "firstSeen": "2026-09-09",
    "lastSeen": "2026-09-23",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 17446,
+   "hits": 17448,
    "verifiedHits": 0,
    "firstSeen": "2026-09-09",
    "lastSeen": "2026-09-23",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15163,
+   "hits": 15170,
    "verifiedHits": 0,
    "firstSeen": "2026-09-09",
    "lastSeen": "2026-09-23",
@@ -113,7 +113,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 11363,
+   "hits": 11364,
    "verifiedHits": 0,
    "firstSeen": "2026-09-09",
    "lastSeen": "2026-09-23",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6818,
-   "verifiedHits": 6388,
+   "hits": 6819,
+   "verifiedHits": 6389,
    "firstSeen": "2026-09-09",
    "lastSeen": "2026-09-23",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4300,
-   "verifiedHits": 3719,
+   "hits": 4304,
+   "verifiedHits": 3723,
    "firstSeen": "2026-09-09",
    "lastSeen": "2026-09-23",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3609,
-   "verifiedHits": 3074,
+   "hits": 3611,
+   "verifiedHits": 3076,
    "firstSeen": "2026-09-09",
    "lastSeen": "2026-09-23",
    "topPaths": [
@@ -289,7 +289,7 @@
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 205
+     "hits": 206
     },
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
@@ -410,14 +410,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2026,
+   "hits": 2029,
    "verifiedHits": 0,
    "firstSeen": "2026-09-09",
    "lastSeen": "2026-09-23",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 185
+     "hits": 187
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
@@ -433,7 +433,7 @@
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 90
+     "hits": 91
     }
    ],
    "verifiable": false
@@ -476,7 +476,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1000,
+   "hits": 1003,
    "verifiedHits": 0,
    "firstSeen": "2026-09-09",
    "lastSeen": "2026-09-23",
@@ -637,6 +637,39 @@
    "verifiable": false
   },
   {
+   "name": "DuckAssistBot",
+   "label": "DuckDuckGo AI",
+   "category": "ai",
+   "home": "https://duckduckgo.com/duckassistbot",
+   "hits": 63,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-09",
+   "lastSeen": "2026-09-23",
+   "topPaths": [
+    {
+     "path": "/posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/langchain-vs-langgraph-vs-deepagents-harness.html",
+     "hits": 1
+    },
+    {
+     "path": "/functionRouter",
+     "hits": 1
+    },
+    {
+     "path": "/serverless.yml",
+     "hits": 1
+    },
+    {
+     "path": "/serverless.yaml",
+     "hits": 1
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Google-Extended",
    "label": "Gemini / Vertex (Google-Extended)",
    "category": "ai",
@@ -664,39 +697,6 @@
     },
     {
      "path": "/@fs/root/.vultr-cli.yaml",
-     "hits": 1
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "DuckAssistBot",
-   "label": "DuckDuckGo AI",
-   "category": "ai",
-   "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 62,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-09",
-   "lastSeen": "2026-09-23",
-   "topPaths": [
-    {
-     "path": "/posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/langchain-vs-langgraph-vs-deepagents-harness.html",
-     "hits": 1
-    },
-    {
-     "path": "/functionRouter",
-     "hits": 1
-    },
-    {
-     "path": "/serverless.yml",
-     "hits": 1
-    },
-    {
-     "path": "/serverless.yaml",
      "hits": 1
     }
    ],
