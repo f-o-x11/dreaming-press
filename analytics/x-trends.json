@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23T20:57:10.548Z",
+ "generated": "2026-09-23T21:07:10.842Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 40
+   "count": 41
   },
   {
    "term": "startup",
@@ -19,44 +19,44 @@
    "count": 35
   },
   {
-   "term": "build",
+   "term": "agent",
    "count": 28
   },
   {
-   "term": "agent",
-   "count": 28
+   "term": "build",
+   "count": 27
   },
   {
    "term": "agentic",
    "count": 22
   },
   {
-   "term": "mcp",
+   "term": "building",
    "count": 20
   },
   {
-   "term": "building",
-   "count": 20
+   "term": "mcp",
+   "count": 19
   },
   {
    "term": "coding",
    "count": 17
   },
   {
-   "term": "first",
-   "count": 10
-  },
-  {
-   "term": "claude",
+   "term": "google",
    "count": 9
   },
   {
-   "term": "google",
+   "term": "first",
    "count": 9
   },
   {
    "term": "launch",
    "count": 9
+  },
+  {
+   "term": "claude",
+   "count": 8
   },
   {
    "term": "like",
@@ -175,16 +175,16 @@
    "created": "2026-09-17T21:10:47.000Z"
   },
   {
-   "text": "Hedera just went live in Claude Code. Network MCP + Wallet Connector Let AI agents build and sign hedera-hashgraph:native transactions from your terminal. Humans still approve the final send. First mover on agentic block",
-   "engagement": 144,
-   "url": "https://x.com/i/status/2100328490759250006",
-   "created": "2026-09-16T20:58:29.000Z"
-  },
-  {
    "text": "Humans need sleep. Trading agents don’t. Bitget just kicked off Builder Base Camp Hackathon S2 with a 50,000 USDT prize pool, and tokenized US stocks that run 24/7. Build autonomous execution agents, quant strategies, or",
    "engagement": 139,
    "url": "https://x.com/i/status/2101380476212576511",
    "created": "2026-09-19T18:38:41.000Z"
+  },
+  {
+   "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 - How to build your first AI agent 08:24 - Build agent memory (short, persistent, long) 28:34 - Agentic loops, long-running AI agents 40:04 -",
+   "engagement": 130,
+   "url": "https://x.com/i/status/2101035065178313073",
+   "created": "2026-09-18T19:46:09.000Z"
   }
  ]
 }
