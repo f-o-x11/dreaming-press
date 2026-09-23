@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-23T18:24Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-23T18:35Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -108,9 +108,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html  — 30 retrieval fetches
 
 Per engine:
-- PerplexityBot (8391 verified): /build ×85 · / ×28 · /posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html ×23
+- PerplexityBot (8395 verified): /build ×85 · / ×28 · /posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html ×23
 - OAI-SearchBot (3814 verified): /wire.html ×52 · /tools ×33 · /posts/local-llm-for-coding-on-your-own-machine.html ×30
-- ChatGPT-User (3217 verified): / ×608 · /posts/open-source-llm-for-coding-september-2026.html ×215 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×160
+- ChatGPT-User (3221 verified): / ×608 · /posts/open-source-llm-for-coding-september-2026.html ×215 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×160
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(40), founder(36), startup(35), agent(28), build(27), agentic(22), mcp(20), building(18), coding(17), first(10), claude(9), google(9), launch(9), like(8), has(8).
+Hot terms: agents(40), startup(36), founder(35), build(28), agent(28), agentic(22), mcp(20), building(20), coding(17), first(10), claude(9), google(9), launch(9), like(8), has(8).
 Hashtags: #ai, #startup, #founder, #buildinpublic, #agenticai, #web3, #cookmymeme, #aijobs, #aihiring, #google.
 High-engagement posts to react to / cite:
 - "Build but build well on @RobinhoodCrypto make a difference. I have been thirsty to extend on my thesis; Before I dive into things just note @vladtenev quoted “The next era of consumer finance is agentic.” There’s nothing" — https://x.com/i/status/2102019638498402351
@@ -158,10 +158,10 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 20341 confirmed AI-engine fetches (Perplexity 8391, GPTBot (OpenAI) 4919, ChatGPT Search (OpenAI) 3814, ChatGPT (user browsing) 3217).
+The real answer engines are crawling us — IP-verified: 20349 confirmed AI-engine fetches (Perplexity 8395, GPTBot (OpenAI) 4919, ChatGPT Search (OpenAI) 3814, ChatGPT (user browsing) 3221).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 693 crawler fetches
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 277 crawler fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 278 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 225 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 189 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 170 crawler fetches
