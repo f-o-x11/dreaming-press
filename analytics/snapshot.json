@@ -1,16 +1,16 @@
 {
- "generated": "2026-09-23T11:27:48.212Z",
+ "generated": "2026-09-23T11:37:48.823Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 9,
+  "readersNow": 4,
+  "todayReads": 10,
   "avgTimeSec": 15,
   "postsThisWeek": 13
  },
  "funnel": {
   "views": 3341,
   "reads": 349,
-  "completes": 18,
+  "completes": 19,
   "plays": 19,
   "sessions": 3231
  },
@@ -75,10 +75,10 @@
    "channel": "direct",
    "views": 2933,
    "reads": 160,
-   "completes": 13,
+   "completes": 14,
    "sessions": 2971,
    "read_rate": 0.055,
-   "complete_rate": 0.004,
+   "complete_rate": 0.005,
    "pages_per_session": 0.99,
    "median_dwell_sec": 4
   },
@@ -422,6 +422,16 @@
    "plays": 1
   },
   {
+   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
+   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 13,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
    "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
    "section": "stack",
@@ -438,16 +448,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 10,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "code-retrieval-for-ai-coding-agents",
-   "title": "Code Retrieval for AI Coding Agents: Embedding Index vs Agentic Grep",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 7,
    "reads": 4,
    "plays": 0
   }
@@ -666,9 +666,9 @@
   },
   {
    "path": "/",
-   "views": 142,
+   "views": 141,
    "reads": 0,
-   "sessions": 143,
+   "sessions": 142,
    "avg_dwell_sec": 10
   },
   {
