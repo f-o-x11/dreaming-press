@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-23T04:42:50.749Z",
+ "generated": "2026-09-23T04:52:53.486Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 40
+   "count": 41
   },
   {
    "term": "founder",
@@ -24,15 +24,15 @@
   },
   {
    "term": "build",
-   "count": 25
+   "count": 26
   },
   {
    "term": "agentic",
-   "count": 22
+   "count": 23
   },
   {
    "term": "mcp",
-   "count": 21
+   "count": 22
   },
   {
    "term": "coding",
@@ -44,7 +44,7 @@
   },
   {
    "term": "first",
-   "count": 10
+   "count": 11
   },
   {
    "term": "launch",
@@ -60,6 +60,10 @@
   },
   {
    "term": "every",
+   "count": 8
+  },
+  {
+   "term": "claude",
    "count": 8
   },
   {
@@ -79,11 +83,7 @@
    "count": 8
   },
   {
-   "term": "claude",
-   "count": 7
-  },
-  {
-   "term": "day",
+   "term": "engineer",
    "count": 7
   }
  ],
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen",
-   "engagement": 253,
+   "engagement": 257,
    "url": "https://x.com/i/status/2100517638611087443",
    "created": "2026-09-17T09:30:05.000Z"
   },
@@ -175,16 +175,16 @@
    "created": "2026-09-19T18:38:41.000Z"
   },
   {
+   "text": "Hedera just went live in Claude Code. Network MCP + Wallet Connector Let AI agents build and sign hedera-hashgraph:native transactions from your terminal. Humans still approve the final send. First mover on agentic block",
+   "engagement": 144,
+   "url": "https://x.com/i/status/2100328490759250006",
+   "created": "2026-09-16T20:58:29.000Z"
+  },
+  {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 - How to build your first AI agent 08:24 - Build agent memory (short, persistent, long) 28:34 - Agentic loops, long-running AI agents 40:04 -",
    "engagement": 128,
    "url": "https://x.com/i/status/2101035065178313073",
    "created": "2026-09-18T19:46:09.000Z"
-  },
-  {
-   "text": "Circuits Protocol is live on Arc Mainnet. AI agents can now become autonomous economic entities on Circuits. Create an agent in seconds or bring an existing agent from frameworks like OpenClaw and Hermes and give it: → a",
-   "engagement": 86,
-   "url": "https://x.com/i/status/2100561538926981324",
-   "created": "2026-09-17T12:24:32.000Z"
   }
  ]
 }
