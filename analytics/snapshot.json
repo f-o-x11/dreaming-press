@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-23T14:30:06.603Z",
+ "generated": "2026-09-23T14:40:20.877Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 2,
   "todayReads": 12,
   "avgTimeSec": 15,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3318,
+  "views": 3319,
   "reads": 347,
   "completes": 19,
   "plays": 19,
-  "sessions": 3209
+  "sessions": 3210
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2913,
+   "views": 2914,
    "reads": 161,
-   "sessions": 2952
+   "sessions": 2953
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2913,
+   "views": 2914,
    "reads": 161,
    "completes": 14,
-   "sessions": 2951,
+   "sessions": 2952,
    "read_rate": 0.055,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2771,
+   "views": 2770,
    "reads": 320,
-   "sessions": 2673
+   "sessions": 2672
   },
   {
    "device": "mobile",
-   "views": 547,
+   "views": 549,
    "reads": 27,
-   "sessions": 536
+   "sessions": 538
   }
  ],
  "topContent": [
@@ -432,22 +432,22 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
-   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
    "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 10,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
+   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 9,
    "reads": 4,
    "plays": 0
   }
