@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-23T00:39:01.221Z",
+ "generated": "2026-09-23T00:49:10.950Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 5,
   "todayReads": 0,
-  "avgTimeSec": 0,
+  "avgTimeSec": 4,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3332,
+  "views": 3336,
   "reads": 349,
   "completes": 22,
   "plays": 20,
-  "sessions": 3233
+  "sessions": 3237
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2927,
    "reads": 158,
-   "sessions": 2972
+   "sessions": 2975
   },
   {
    "channel": "organic",
-   "views": 152,
+   "views": 153,
    "reads": 114,
-   "sessions": 116
+   "sessions": 117
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -35,15 +35,15 @@
   },
   {
    "channel": "ai",
-   "views": 38,
+   "views": 39,
    "reads": 15,
-   "sessions": 54
+   "sessions": 55
   },
   {
    "channel": "referral",
-   "views": 56,
+   "views": 58,
    "reads": 11,
-   "sessions": 53
+   "sessions": 55
   },
   {
    "channel": "campaign:qwant",
@@ -76,11 +76,22 @@
    "views": 2927,
    "reads": 158,
    "completes": 14,
-   "sessions": 2971,
+   "sessions": 2974,
    "read_rate": 0.054,
    "complete_rate": 0.005,
-   "pages_per_session": 0.99,
+   "pages_per_session": 0.98,
    "median_dwell_sec": 4
+  },
+  {
+   "channel": "organic",
+   "views": 153,
+   "reads": 114,
+   "completes": 2,
+   "sessions": 117,
+   "read_rate": 0.745,
+   "complete_rate": 0.013,
+   "pages_per_session": 1.31,
+   "median_dwell_sec": null
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -94,36 +105,25 @@
    "median_dwell_sec": null
   },
   {
-   "channel": "organic",
-   "views": 152,
-   "reads": 114,
-   "completes": 2,
-   "sessions": 116,
-   "read_rate": 0.75,
-   "complete_rate": 0.013,
-   "pages_per_session": 1.31,
-   "median_dwell_sec": null
-  },
-  {
    "channel": "referral",
-   "views": 56,
+   "views": 58,
    "reads": 11,
    "completes": 0,
-   "sessions": 53,
-   "read_rate": 0.196,
+   "sessions": 55,
+   "read_rate": 0.19,
    "complete_rate": 0,
-   "pages_per_session": 1.06,
+   "pages_per_session": 1.05,
    "median_dwell_sec": null
   },
   {
    "channel": "ai",
-   "views": 38,
+   "views": 39,
    "reads": 15,
    "completes": 1,
-   "sessions": 54,
-   "read_rate": 0.395,
+   "sessions": 55,
+   "read_rate": 0.385,
    "complete_rate": 0.026,
-   "pages_per_session": 0.7,
+   "pages_per_session": 0.71,
    "median_dwell_sec": 27
   },
   {
@@ -272,14 +272,20 @@
    "views": 4,
    "reads": 0,
    "sessions": 4
+  },
+  {
+   "assistant": "DeepSeek",
+   "views": 1,
+   "reads": 0,
+   "sessions": 1
   }
  ],
  "devices": [
   {
    "device": "desktop",
-   "views": 2763,
+   "views": 2767,
    "reads": 322,
-   "sessions": 2668
+   "sessions": 2672
   },
   {
    "device": "mobile",
@@ -696,9 +702,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 11,
+   "views": 10,
    "reads": 0,
-   "sessions": 11,
+   "sessions": 10,
    "avg_dwell_sec": 3
   },
   {
