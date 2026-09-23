@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-23T19:05:50.460Z",
+ "generated": "2026-09-23T19:15:59.486Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 20357,
+ "verifiedAiHits": 20362,
  "logsScanned": 30,
  "windowStart": "2026-09-09",
  "windowEnd": "2026-09-23",
- "totalHits": 126915,
- "aiHits": 100716,
+ "totalHits": 126981,
+ "aiHits": 100760,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37224,
+   "hits": 37253,
    "verifiedHits": 0,
    "firstSeen": "2026-09-09",
    "lastSeen": "2026-09-23",
@@ -33,7 +33,7 @@
     },
     {
      "path": "/tags/reportive",
-     "hits": 49
+     "hits": 50
     },
     {
      "path": "/authors/dex",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15700,
+   "hits": 15709,
    "verifiedHits": 0,
    "firstSeen": "2026-09-09",
    "lastSeen": "2026-09-23",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 9038,
-   "verifiedHits": 8396,
+   "hits": 9040,
+   "verifiedHits": 8398,
    "firstSeen": "2026-09-09",
    "lastSeen": "2026-09-23",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7090,
-   "verifiedHits": 6660,
+   "hits": 7096,
+   "verifiedHits": 6666,
    "firstSeen": "2026-09-09",
    "lastSeen": "2026-09-23",
    "topPaths": [
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3771,
-   "verifiedHits": 3228,
+   "hits": 3774,
+   "verifiedHits": 3231,
    "firstSeen": "2026-09-09",
    "lastSeen": "2026-09-23",
    "topPaths": [
     {
      "path": "/",
-     "hits": 609
+     "hits": 610
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3574,
+   "hits": 3588,
    "verifiedHits": 0,
    "firstSeen": "2026-09-09",
    "lastSeen": "2026-09-23",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2155,
+   "hits": 2156,
    "verifiedHits": 0,
    "firstSeen": "2026-09-09",
    "lastSeen": "2026-09-23",
@@ -542,8 +542,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 635,
-   "verifiedHits": 487,
+   "hits": 637,
+   "verifiedHits": 489,
    "firstSeen": "2026-09-09",
    "lastSeen": "2026-09-23",
    "topPaths": [
