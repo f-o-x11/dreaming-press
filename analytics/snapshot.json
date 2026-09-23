@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-23T01:09:24.091Z",
+ "generated": "2026-09-23T01:19:30.798Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 0,
   "avgTimeSec": 4,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3334,
+  "views": 3335,
   "reads": 349,
   "completes": 22,
   "plays": 20,
-  "sessions": 3235
+  "sessions": 3236
  },
  "channels": [
   {
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 153,
+   "views": 154,
    "reads": 48,
-   "sessions": 150
+   "sessions": 151
   },
   {
    "channel": "ai",
@@ -83,6 +83,17 @@
    "median_dwell_sec": 4
   },
   {
+   "channel": "campaign:chatgpt.com",
+   "views": 154,
+   "reads": 48,
+   "completes": 4,
+   "sessions": 151,
+   "read_rate": 0.312,
+   "complete_rate": 0.026,
+   "pages_per_session": 1.02,
+   "median_dwell_sec": null
+  },
+  {
    "channel": "organic",
    "views": 153,
    "reads": 114,
@@ -91,17 +102,6 @@
    "read_rate": 0.745,
    "complete_rate": 0.013,
    "pages_per_session": 1.31,
-   "median_dwell_sec": null
-  },
-  {
-   "channel": "campaign:chatgpt.com",
-   "views": 153,
-   "reads": 48,
-   "completes": 4,
-   "sessions": 150,
-   "read_rate": 0.314,
-   "complete_rate": 0.026,
-   "pages_per_session": 1.02,
    "median_dwell_sec": null
   },
   {
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 166,
+   "views": 167,
    "reads": 49,
-   "sessions": 160
+   "sessions": 161
   },
   {
    "assistant": "Doubao",
@@ -283,15 +283,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2766,
+   "views": 2768,
    "reads": 322,
-   "sessions": 2671
+   "sessions": 2673
   },
   {
    "device": "mobile",
-   "views": 568,
+   "views": 567,
    "reads": 27,
-   "sessions": 565
+   "sessions": 564
   }
  ],
  "topContent": [
@@ -600,18 +600,18 @@
    "plays": 1
   },
   {
-   "slug": "2026-09-09-founders-wire-mistral-samsung-meta-muse-agent-commerce",
-   "title": "The Founder's Wire, September 9: Mistral Raises $3.5B to Become Europe's Sovereign Frontier, and Meta's Muse Turns a Consumer AI Into a Shopper With a Stripe Wallet",
+   "slug": "2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo",
+   "title": "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 26,
+   "views": 28,
    "reads": 0,
    "plays": 0
   },
   {
-   "slug": "2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo",
-   "title": "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO",
+   "slug": "2026-09-09-founders-wire-mistral-samsung-meta-muse-agent-commerce",
+   "title": "The Founder's Wire, September 9: Mistral Raises $3.5B to Become Europe's Sovereign Frontier, and Meta's Muse Turns a Consumer AI Into a Shopper With a Stripe Wallet",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
