@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-09-23T20:06Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-23T20:16Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3311 views → 346 engaged reads → 19 completes · 3186 sessions.
-- Channels: direct 163r/2909v · organic 111r/152v · campaign:chatgpt.com 40r/143v · ai 16r/40v · referral 11r/58v · campaign:qwant 4r/5v · social 1r/3v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 42r/157v · Doubao 11r/15v · Perplexity 2r/5v · Claude 1r/1v · Kimi 0r/4v · DeepSeek 0r/1v.
+- Funnel: 3312 views → 346 engaged reads → 19 completes · 3187 sessions.
+- Channels: direct 163r/2909v · organic 111r/152v · campaign:chatgpt.com 40r/144v · ai 16r/40v · referral 11r/58v · campaign:qwant 4r/5v · social 1r/3v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 42r/158v · Doubao 11r/15v · Perplexity 2r/5v · Claude 1r/1v · Kimi 0r/4v · DeepSeek 0r/1v.
 - Referrers: bing.com, mail.google.com, chatgpt.com, duckduckgo.com, cn.bing.com, doubao.com, search.brave.com, brand, dash-range, nav-cmp.
 - Engaged-read winners by section: wire=7, stack=8.
 
@@ -25,7 +25,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - direct: 2909 views · read 5.6% · complete 0.5% · 0.99 pages/session · median 5s
 - organic: 152 views · read 73.0% · complete 0.7% · 1.3 pages/session · median ?s
-- campaign:chatgpt.com: 143 views · read 28.0% · complete 1.4% · 1.02 pages/session · median ?s
+- campaign:chatgpt.com: 144 views · read 27.8% · complete 1.4% · 1.02 pages/session · median ?s
 - referral: 58 views · read 19.0% · complete 0.0% · 1.04 pages/session · median ?s
 - ai: 40 views · read 40.0% · complete 2.5% · 0.74 pages/session · median 26s
 - campaign:qwant: 5 views · read 80.0% · complete 0.0% · 2.5 pages/session · median ?s
@@ -86,7 +86,7 @@ new traffic — and these pages already have the traffic.
 - [wire] "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again" — 62 views but only 2 engaged reads (3.2%)
 - [wire] "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO" — 29 views but only 0 engaged reads (0.0%)
 - [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 29 views but only 0 engaged reads (0.0%)
-- [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 25 views but only 0 engaged reads (0.0%)
+- [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 26 views but only 0 engaged reads (0.0%)
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in September 2026" — 23 views but only 1 engaged reads (4.3%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
@@ -108,9 +108,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html  — 30 retrieval fetches
 
 Per engine:
-- PerplexityBot (8402 verified): /build ×85 · / ×28 · /posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html ×23
+- PerplexityBot (8403 verified): /build ×85 · / ×28 · /posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html ×23
 - OAI-SearchBot (3815 verified): /wire.html ×53 · /tools ×33 · /posts/local-llm-for-coding-on-your-own-machine.html ×30
-- ChatGPT-User (3234 verified): / ×611 · /posts/open-source-llm-for-coding-september-2026.html ×216 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×162
+- ChatGPT-User (3235 verified): / ×611 · /posts/open-source-llm-for-coding-september-2026.html ×216 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×162
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(40), startup(36), founder(35), build(28), agent(28), agentic(22), mcp(20), building(20), coding(17), first(10), claude(9), google(9), launch(9), like(8), has(8).
+Hot terms: agents(41), founder(36), startup(35), build(27), agent(27), agentic(23), mcp(20), building(18), coding(17), first(10), claude(9), google(9), launch(9), like(8), has(8).
 Hashtags: #ai, #startup, #founder, #buildinpublic, #agenticai, #web3, #cookmymeme, #aijobs, #aihiring, #google.
 High-engagement posts to react to / cite:
 - "Build but build well on @RobinhoodCrypto make a difference. I have been thirsty to extend on my thesis; Before I dive into things just note @vladtenev quoted “The next era of consumer finance is agentic.” There’s nothing" — https://x.com/i/status/2102019638498402351
@@ -135,7 +135,7 @@ High-engagement posts to react to / cite:
 - "@gabepereyra is the President &amp; Co-Founder of @harvey, the most prominent legal AI startup and an industry leader in owning their own intelligence. I'm excited to share our conversation, which spans closed &amp; open" — https://x.com/i/status/2100984674067824921
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (248 of 450 phrases have NO post, 56h ago)
+## Uncovered search demand (248 of 450 phrases have NO post, 57h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 20371 confirmed AI-engine fetches (Perplexity 8402, GPTBot (OpenAI) 4920, ChatGPT Search (OpenAI) 3815, ChatGPT (user browsing) 3234).
+The real answer engines are crawling us — IP-verified: 20373 confirmed AI-engine fetches (Perplexity 8403, GPTBot (OpenAI) 4920, ChatGPT Search (OpenAI) 3815, ChatGPT (user browsing) 3235).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 694 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 285 crawler fetches
@@ -167,7 +167,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 170 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 167 crawler fetches
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 130 crawler fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 93 crawler fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 94 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 68 crawler fetches
 - /tools  — 36 crawler fetches
 - /posts/gpt-5-6-terra-vs-kimi-k3-mid-tier-agent-backend.html  — 34 crawler fetches
