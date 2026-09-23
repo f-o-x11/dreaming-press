@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-23T17:43:50.854Z",
+ "generated": "2026-09-23T17:53:54.954Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 0,
   "todayReads": 17,
   "avgTimeSec": 26,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3322,
-  "reads": 348,
+  "views": 3321,
+  "reads": 347,
   "completes": 19,
   "plays": 18,
   "sessions": 3196
@@ -23,9 +23,9 @@
   },
   {
    "channel": "organic",
-   "views": 154,
-   "reads": 113,
-   "sessions": 118
+   "views": 153,
+   "reads": 112,
+   "sessions": 117
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -84,12 +84,12 @@
   },
   {
    "channel": "organic",
-   "views": 154,
-   "reads": 113,
+   "views": 153,
+   "reads": 112,
    "completes": 1,
-   "sessions": 118,
-   "read_rate": 0.734,
-   "complete_rate": 0.006,
+   "sessions": 117,
+   "read_rate": 0.732,
+   "complete_rate": 0.007,
    "pages_per_session": 1.31,
    "median_dwell_sec": null
   },
@@ -289,8 +289,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2769,
-   "reads": 321,
+   "views": 2768,
+   "reads": 320,
    "sessions": 2654
   },
   {
@@ -392,16 +392,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-routellm-vs-notdiamond-vs-martian",
-   "title": "RouteLLM vs NotDiamond vs Martian: Do LLM Model Routers Actually Cut Costs?",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 16,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
    "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
    "section": "wire",
@@ -409,6 +399,16 @@
    "author": "priya",
    "views": 11,
    "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-21-routellm-vs-notdiamond-vs-martian",
+   "title": "RouteLLM vs NotDiamond vs Martian: Do LLM Model Routers Actually Cut Costs?",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 15,
+   "reads": 4,
    "plays": 0
   },
   {
@@ -786,8 +786,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 41,
-   "sessions": 26
+   "hits": 39,
+   "sessions": 25
   },
   {
    "ref": "https://www.doubao.com/",
