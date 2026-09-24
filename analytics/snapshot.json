@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-24T14:22:42.265Z",
+ "generated": "2026-09-24T14:43:32.751Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 18,
+  "readersNow": 2,
+  "todayReads": 19,
   "avgTimeSec": 93,
   "postsThisWeek": 17
  },
  "funnel": {
   "views": 3318,
-  "reads": 335,
+  "reads": 334,
   "completes": 16,
   "plays": 16,
   "sessions": 3194
@@ -17,21 +17,21 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2873,
-   "reads": 157,
-   "sessions": 2894
+   "views": 2874,
+   "reads": 158,
+   "sessions": 2893
   },
   {
    "channel": "organic",
-   "views": 144,
-   "reads": 105,
-   "sessions": 109
+   "views": 142,
+   "reads": 103,
+   "sessions": 107
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 191,
+   "views": 192,
    "reads": 42,
-   "sessions": 188
+   "sessions": 189
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2873,
-   "reads": 157,
+   "views": 2874,
+   "reads": 158,
    "completes": 12,
-   "sessions": 2893,
+   "sessions": 2892,
    "read_rate": 0.055,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
@@ -84,24 +84,24 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 191,
+   "views": 192,
    "reads": 42,
    "completes": 2,
-   "sessions": 188,
-   "read_rate": 0.22,
+   "sessions": 189,
+   "read_rate": 0.219,
    "complete_rate": 0.01,
    "pages_per_session": 1.02,
    "median_dwell_sec": null
   },
   {
    "channel": "organic",
-   "views": 144,
-   "reads": 105,
+   "views": 142,
+   "reads": 103,
    "completes": 1,
-   "sessions": 109,
-   "read_rate": 0.729,
+   "sessions": 107,
+   "read_rate": 0.725,
    "complete_rate": 0.007,
-   "pages_per_session": 1.32,
+   "pages_per_session": 1.33,
    "median_dwell_sec": null
   },
   {
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 205,
+   "views": 206,
    "reads": 44,
-   "sessions": 199
+   "sessions": 200
   },
   {
    "assistant": "Doubao",
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2765,
+   "views": 2766,
    "reads": 309,
-   "sessions": 2652
+   "sessions": 2653
   },
   {
    "device": "mobile",
-   "views": 553,
-   "reads": 26,
-   "sessions": 542
+   "views": 552,
+   "reads": 25,
+   "sessions": 541
   }
  ],
  "topContent": [
@@ -776,8 +776,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 63,
-   "sessions": 35
+   "hits": 59,
+   "sessions": 33
   },
   {
    "ref": "https://duckduckgo.com/",
