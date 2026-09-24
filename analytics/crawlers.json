@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-24T06:45:38.442Z",
+ "generated": "2026-09-24T06:55:44.811Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19809,
+ "verifiedAiHits": 19815,
  "logsScanned": 30,
  "windowStart": "2026-09-10",
  "windowEnd": "2026-09-24",
- "totalHits": 122675,
- "aiHits": 97902,
+ "totalHits": 122787,
+ "aiHits": 98004,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35953,
+   "hits": 36038,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15152,
+   "hits": 15160,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -113,7 +113,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 10145,
+   "hits": 10146,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -131,11 +131,11 @@
      "hits": 4
     },
     {
-     "path": "/posts/mcp-server-meaning-what-an-mcp-server-actually-is.md",
+     "path": "/posts/how-to-use-claude-code-in-vs-code.md",
      "hits": 4
     },
     {
-     "path": "/posts/how-to-run-longcat-2-as-your-coding-agent-backend.md",
+     "path": "/posts/mcp-server-meaning-what-an-mcp-server-actually-is.md",
      "hits": 4
     }
    ],
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7129,
-   "verifiedHits": 6699,
+   "hits": 7138,
+   "verifiedHits": 6708,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4541,
-   "verifiedHits": 3955,
+   "hits": 4546,
+   "verifiedHits": 3960,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3604,
-   "verifiedHits": 3067,
+   "hits": 3605,
+   "verifiedHits": 3068,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2177,
+   "hits": 2180,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -421,7 +421,7 @@
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
-     "hits": 185
+     "hits": 186
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
