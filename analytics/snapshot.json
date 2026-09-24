@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-24T21:31:00.751Z",
+ "generated": "2026-09-24T21:41:10.746Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 6,
   "todayReads": 24,
-  "avgTimeSec": 64,
+  "avgTimeSec": 63,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3372,
+  "views": 3378,
   "reads": 333,
   "completes": 17,
   "plays": 16,
-  "sessions": 3248
+  "sessions": 3254
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2912,
+   "views": 2917,
    "reads": 159,
-   "sessions": 2933
+   "sessions": 2938
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 206,
+   "views": 207,
    "reads": 41,
-   "sessions": 203
+   "sessions": 204
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2912,
+   "views": 2917,
    "reads": 159,
    "completes": 12,
-   "sessions": 2932,
+   "sessions": 2937,
    "read_rate": 0.055,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 206,
+   "views": 207,
    "reads": 41,
    "completes": 2,
-   "sessions": 203,
-   "read_rate": 0.199,
+   "sessions": 204,
+   "read_rate": 0.198,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 220,
+   "views": 221,
    "reads": 43,
-   "sessions": 214
+   "sessions": 215
   },
   {
    "assistant": "Doubao",
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2813,
+   "views": 2817,
    "reads": 308,
-   "sessions": 2700
+   "sessions": 2704
   },
   {
    "device": "mobile",
-   "views": 559,
+   "views": 561,
    "reads": 25,
-   "sessions": 548
+   "sessions": 550
   }
  ],
  "topContent": [
@@ -317,7 +317,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 47,
+   "views": 48,
    "reads": 11,
    "plays": 1
   },
@@ -459,7 +459,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 47,
+   "views": 48,
    "reads": 11,
    "plays": 1
   },
@@ -571,7 +571,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 47,
+   "views": 48,
    "reads": 11,
    "plays": 1
   },
@@ -708,9 +708,9 @@
   },
   {
    "path": "/tools",
-   "views": 10,
+   "views": 11,
    "reads": 1,
-   "sessions": 10,
+   "sessions": 11,
    "avg_dwell_sec": 18
   },
   {
