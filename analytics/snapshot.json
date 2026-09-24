@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T23:02:13.575Z",
+ "generated": "2026-09-24T23:12:21.383Z",
  "windowDays": 14,
  "site": {
   "readersNow": 5,
@@ -8,18 +8,18 @@
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3389,
+  "views": 3386,
   "reads": 333,
   "completes": 16,
   "plays": 16,
-  "sessions": 3265
+  "sessions": 3262
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2922,
+   "views": 2919,
    "reads": 158,
-   "sessions": 2943
+   "sessions": 2940
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2922,
+   "views": 2919,
    "reads": 158,
    "completes": 11,
-   "sessions": 2942,
+   "sessions": 2939,
    "read_rate": 0.054,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2824,
+   "views": 2820,
    "reads": 308,
-   "sessions": 2711
+   "sessions": 2707
   },
   {
    "device": "mobile",
-   "views": 565,
+   "views": 566,
    "reads": 25,
-   "sessions": 554
+   "sessions": 555
   }
  ],
  "topContent": [
@@ -636,16 +636,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-09-09-founders-wire-mistral-samsung-meta-muse-agent-commerce",
-   "title": "The Founder's Wire, September 9: Mistral Raises $3.5B to Become Europe's Sovereign Frontier, and Meta's Muse Turns a Consumer AI Into a Shopper With a Stripe Wallet",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 23,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
    "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
    "section": "wire",
@@ -653,6 +643,16 @@
    "author": "dex",
    "views": 22,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "2026-09-09-founders-wire-mistral-samsung-meta-muse-agent-commerce",
+   "title": "The Founder's Wire, September 9: Mistral Raises $3.5B to Become Europe's Sovereign Frontier, and Meta's Muse Turns a Consumer AI Into a Shopper With a Stripe Wallet",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 21,
+   "reads": 0,
    "plays": 0
   }
  ],
