@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-09-24T12:08Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-24T12:20Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3312 views → 338 engaged reads → 16 completes · 3189 sessions.
-- Channels: direct 156r/2870v · organic 110r/149v · campaign:chatgpt.com 41r/184v · ai 15r/40v · referral 12r/61v · campaign:qwant 4r/5v · social 0r/2v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 43r/198v · Doubao 10r/14v · Perplexity 2r/5v · Claude 1r/2v · Kimi 0r/4v · DeepSeek 0r/1v.
+- Funnel: 3316 views → 338 engaged reads → 16 completes · 3193 sessions.
+- Channels: direct 156r/2873v · organic 110r/149v · campaign:chatgpt.com 41r/185v · ai 15r/40v · referral 12r/61v · campaign:qwant 4r/5v · social 0r/2v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 43r/199v · Doubao 10r/14v · Perplexity 2r/5v · Claude 1r/2v · Kimi 0r/4v · DeepSeek 0r/1v.
 - Referrers: mail.google.com, bing.com, chatgpt.com, duckduckgo.com, cn.bing.com, doubao.com, search.brave.com, brand, teams.public.onecdn.static.microsoft, dash-range.
 - Engaged-read winners by section: wire=7, stack=8.
 
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2870 views · read 5.4% · complete 0.4% · 0.99 pages/session · median 4s
-- campaign:chatgpt.com: 184 views · read 22.3% · complete 1.1% · 1.02 pages/session · median ?s
+- direct: 2873 views · read 5.4% · complete 0.4% · 0.99 pages/session · median 4s
+- campaign:chatgpt.com: 185 views · read 22.2% · complete 1.1% · 1.02 pages/session · median ?s
 - organic: 149 views · read 73.8% · complete 0.7% · 1.31 pages/session · median ?s
 - referral: 61 views · read 19.7% · complete 0.0% · 1.03 pages/session · median ?s
 - ai: 40 views · read 37.5% · complete 0.0% · 0.75 pages/session · median 26s
@@ -108,9 +108,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe.html  — 30 retrieval fetches
 
 Per engine:
-- PerplexityBot (7874 verified): /build ×84 · / ×27 · /posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html ×21
-- OAI-SearchBot (4042 verified): /wire.html ×54 · /tools ×35 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×30
-- ChatGPT-User (3117 verified): / ×597 · /posts/open-source-llm-for-coding-september-2026.html ×211 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×159
+- PerplexityBot (7879 verified): /build ×84 · / ×27 · /posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html ×21
+- OAI-SearchBot (4053 verified): /wire.html ×54 · /tools ×35 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×30
+- ChatGPT-User (3121 verified): / ×597 · /posts/open-source-llm-for-coding-september-2026.html ×211 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×159
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -135,7 +135,7 @@ High-engagement posts to react to / cite:
 - "Jev Founder, Diogo Amogo, just released 12-page PDF on building a Jev Harness for coding agents This is a 10-step blueprint on how to make your coding agents 220x faster and 444x cheaper: step 1 → stop treating a coding " — https://x.com/i/status/2102744804127842654
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (250 of 451 phrases have NO post, 0h ago)
+## Uncovered search demand (250 of 451 phrases have NO post, 1h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 19951 confirmed AI-engine fetches (Perplexity 7874, GPTBot (OpenAI) 4918, ChatGPT Search (OpenAI) 4042, ChatGPT (user browsing) 3117).
+The real answer engines are crawling us — IP-verified: 19971 confirmed AI-engine fetches (Perplexity 7879, GPTBot (OpenAI) 4918, ChatGPT Search (OpenAI) 4053, ChatGPT (user browsing) 3121).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 680 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 316 crawler fetches
@@ -166,7 +166,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 190 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 172 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 163 crawler fetches
-- /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 132 crawler fetches
+- /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 133 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 99 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 70 crawler fetches
 - /tools  — 35 crawler fetches
