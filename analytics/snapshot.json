@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-24T10:48:18.938Z",
+ "generated": "2026-09-24T10:58:20.785Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 6,
   "todayReads": 14,
   "avgTimeSec": 53,
   "postsThisWeek": 10
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2873,
+   "views": 2869,
    "reads": 156,
-   "sessions": 2896
+   "sessions": 2892
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 177,
+   "views": 181,
    "reads": 40,
-   "sessions": 174
+   "sessions": 178
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2873,
+   "views": 2869,
    "reads": 156,
    "completes": 12,
-   "sessions": 2895,
+   "sessions": 2891,
    "read_rate": 0.054,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 177,
+   "views": 181,
    "reads": 40,
    "completes": 2,
-   "sessions": 174,
-   "read_rate": 0.226,
+   "sessions": 178,
+   "read_rate": 0.221,
    "complete_rate": 0.011,
    "pages_per_session": 1.02,
    "median_dwell_sec": null
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 191,
+   "views": 195,
    "reads": 42,
-   "sessions": 185
+   "sessions": 189
   },
   {
    "assistant": "Doubao",
@@ -596,21 +596,21 @@
    "plays": 0
   },
   {
-   "slug": "2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo",
-   "title": "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 29,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "best-open-source-rl-frameworks-for-training-agents",
    "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
+   "views": 30,
+   "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo",
+   "title": "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
    "views": 29,
    "reads": 0,
    "plays": 0
