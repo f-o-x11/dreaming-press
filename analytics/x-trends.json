@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T06:25:32.455Z",
+ "generated": "2026-09-24T06:35:37.473Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 42
+   "count": 40
   },
   {
    "term": "founder",
@@ -28,19 +28,19 @@
   },
   {
    "term": "agentic",
-   "count": 23
+   "count": 24
   },
   {
    "term": "building",
    "count": 21
   },
   {
-   "term": "mcp",
-   "count": 19
-  },
-  {
    "term": "coding",
    "count": 18
+  },
+  {
+   "term": "mcp",
+   "count": 17
   },
   {
    "term": "security",
@@ -75,15 +75,15 @@
    "count": 7
   },
   {
+   "term": "like",
+   "count": 7
+  },
+  {
    "term": "engineer",
    "count": 7
   },
   {
    "term": "workflows",
-   "count": 7
-  },
-  {
-   "term": "systems",
    "count": 7
   }
  ],
@@ -139,6 +139,12 @@
  ],
  "topPosts": [
   {
+   "text": "Build but build well on @RobinhoodCrypto make a difference. I have been thirsty to extend on my thesis; Before I dive into things just note @vladtenev quoted “The next era of consumer finance is agentic.” There’s nothing",
+   "engagement": 334,
+   "url": "https://x.com/i/status/2102019638498402351",
+   "created": "2026-09-21T12:58:30.000Z"
+  },
+  {
    "text": "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen",
    "engagement": 268,
    "url": "https://x.com/i/status/2100517638611087443",
@@ -163,28 +169,22 @@
    "created": "2026-09-18T16:25:55.000Z"
   },
   {
+   "text": "Jev Founder, Diogo Amogo, just released 12-page PDF on building a Jev Harness for coding agents This is a 10-step blueprint on how to make your coding agents 220x faster and 444x cheaper: step 1 → stop treating a coding ",
+   "engagement": 149,
+   "url": "https://x.com/i/status/2102744804127842654",
+   "created": "2026-09-23T13:00:03.000Z"
+  },
+  {
    "text": "Every Legal AI startup founder right now: https://t.co/5b9kBX8GxO https://t.co/yurJaDECwd",
    "engagement": 148,
    "url": "https://x.com/i/status/2100693975162335449",
    "created": "2026-09-17T21:10:47.000Z"
   },
   {
-   "text": "Jev Founder, Diogo Amogo, just released 12-page PDF on building a Jev Harness for coding agents This is a 10-step blueprint on how to make your coding agents 220x faster and 444x cheaper: step 1 → stop treating a coding ",
-   "engagement": 146,
-   "url": "https://x.com/i/status/2102744804127842654",
-   "created": "2026-09-23T13:00:03.000Z"
-  },
-  {
    "text": "Humans need sleep. Trading agents don’t. Bitget just kicked off Builder Base Camp Hackathon S2 with a 50,000 USDT prize pool, and tokenized US stocks that run 24/7. Build autonomous execution agents, quant strategies, or",
    "engagement": 139,
    "url": "https://x.com/i/status/2101380476212576511",
    "created": "2026-09-19T18:38:41.000Z"
-  },
-  {
-   "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 - How to build your first AI agent 08:24 - Build agent memory (short, persistent, long) 28:34 - Agentic loops, long-running AI agents 40:04 -",
-   "engagement": 130,
-   "url": "https://x.com/i/status/2101035065178313073",
-   "created": "2026-09-18T19:46:09.000Z"
   }
  ]
 }
