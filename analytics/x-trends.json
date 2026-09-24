@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T04:54:23.622Z",
+ "generated": "2026-09-24T05:04:27.186Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 41
+   "count": 42
   },
   {
    "term": "founder",
@@ -24,11 +24,11 @@
   },
   {
    "term": "build",
-   "count": 26
+   "count": 25
   },
   {
    "term": "agentic",
-   "count": 22
+   "count": 23
   },
   {
    "term": "building",
@@ -55,10 +55,6 @@
    "count": 8
   },
   {
-   "term": "like",
-   "count": 8
-  },
-  {
    "term": "launch",
    "count": 8
   },
@@ -68,6 +64,10 @@
   },
   {
    "term": "own",
+   "count": 7
+  },
+  {
+   "term": "like",
    "count": 7
   },
   {
@@ -139,12 +139,6 @@
  ],
  "topPosts": [
   {
-   "text": "Build but build well on @RobinhoodCrypto make a difference. I have been thirsty to extend on my thesis; Before I dive into things just note @vladtenev quoted “The next era of consumer finance is agentic.” There’s nothing",
-   "engagement": 336,
-   "url": "https://x.com/i/status/2102019638498402351",
-   "created": "2026-09-21T12:58:30.000Z"
-  },
-  {
    "text": "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen",
    "engagement": 267,
    "url": "https://x.com/i/status/2100517638611087443",
@@ -176,7 +170,7 @@
   },
   {
    "text": "Jev Founder, Diogo Amogo, just released 12-page PDF on building a Jev Harness for coding agents This is a 10-step blueprint on how to make your coding agents 220x faster and 444x cheaper: step 1 → stop treating a coding ",
-   "engagement": 140,
+   "engagement": 141,
    "url": "https://x.com/i/status/2102744804127842654",
    "created": "2026-09-23T13:00:03.000Z"
   },
@@ -185,6 +179,12 @@
    "engagement": 139,
    "url": "https://x.com/i/status/2101380476212576511",
    "created": "2026-09-19T18:38:41.000Z"
+  },
+  {
+   "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 - How to build your first AI agent 08:24 - Build agent memory (short, persistent, long) 28:34 - Agentic loops, long-running AI agents 40:04 -",
+   "engagement": 130,
+   "url": "https://x.com/i/status/2101035065178313073",
+   "created": "2026-09-18T19:46:09.000Z"
   }
  ]
 }

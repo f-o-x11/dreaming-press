@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-24T04:54:23.002Z",
+ "generated": "2026-09-24T05:04:26.610Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19767,
+ "verifiedAiHits": 19771,
  "logsScanned": 30,
  "windowStart": "2026-09-10",
  "windowEnd": "2026-09-24",
- "totalHits": 122156,
- "aiHits": 97470,
+ "totalHits": 122195,
+ "aiHits": 97501,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35776,
+   "hits": 35790,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 17282,
+   "hits": 17286,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -58,7 +58,7 @@
     },
     {
      "path": "/dashboard",
-     "hits": 13
+     "hits": 14
     },
     {
      "path": "/posts/text-generation-inference-tgi-archived-migrate-off.html",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15073,
+   "hits": 15080,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -113,7 +113,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 10137,
+   "hits": 10138,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -127,15 +127,15 @@
      "hits": 4
     },
     {
+     "path": "/posts/how-to-build-an-ai-agent-with-chatgpt.md",
+     "hits": 4
+    },
+    {
      "path": "/posts/mcp-server-meaning-what-an-mcp-server-actually-is.md",
      "hits": 4
     },
     {
      "path": "/posts/how-to-run-longcat-2-as-your-coding-agent-backend.md",
-     "hits": 4
-    },
-    {
-     "path": "/posts/implicit-vs-explicit-prompt-caching.md",
      "hits": 4
     }
    ],
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 8507,
-   "verifiedHits": 7865,
+   "hits": 8509,
+   "verifiedHits": 7867,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7067,
-   "verifiedHits": 6637,
+   "hits": 7071,
+   "verifiedHits": 6641,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3588,
-   "verifiedHits": 3052,
+   "hits": 3590,
+   "verifiedHits": 3054,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
@@ -293,7 +293,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
-     "hits": 154
+     "hits": 155
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3492,
+   "hits": 3495,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2164,
+   "hits": 2166,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -421,7 +421,7 @@
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
-     "hits": 181
+     "hits": 182
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
