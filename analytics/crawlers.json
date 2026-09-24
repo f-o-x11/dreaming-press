@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-24T17:15:52.471Z",
+ "generated": "2026-09-24T17:25:59.569Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 20151,
+ "verifiedAiHits": 20156,
  "logsScanned": 30,
  "windowStart": "2026-09-10",
  "windowEnd": "2026-09-24",
- "totalHits": 125960,
- "aiHits": 100450,
+ "totalHits": 126026,
+ "aiHits": 100514,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37094,
+   "hits": 37106,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 17679,
+   "hits": 17714,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15594,
+   "hits": 15601,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7457,
-   "verifiedHits": 7021,
+   "hits": 7458,
+   "verifiedHits": 7022,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 5497,
-   "verifiedHits": 4918,
+   "hits": 5498,
+   "verifiedHits": 4919,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4722,
-   "verifiedHits": 4132,
+   "hits": 4723,
+   "verifiedHits": 4133,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
@@ -267,8 +267,8 @@
      "hits": 31
     },
     {
-     "path": "/posts/2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe.html",
-     "hits": 30
+     "path": "/posts/2026-09-02-founders-wire-fable-51-openai-cursor-cutoff-anthropic-lambda-35b.html",
+     "hits": 31
     }
    ],
    "verifiable": true
@@ -278,18 +278,18 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3720,
-   "verifiedHits": 3177,
+   "hits": 3723,
+   "verifiedHits": 3180,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
     {
      "path": "/",
-     "hits": 605
+     "hits": 606
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 214
+     "hits": 215
     },
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3697,
+   "hits": 3698,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -410,14 +410,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2287,
+   "hits": 2290,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 261
+     "hits": 262
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
@@ -425,7 +425,7 @@
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
-     "hits": 177
+     "hits": 178
     },
     {
      "path": "/posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html",
@@ -443,7 +443,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1105,
+   "hits": 1107,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-24",
