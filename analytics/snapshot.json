@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-24T11:28:45.667Z",
+ "generated": "2026-09-24T11:46:47.638Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 14,
+  "readersNow": 1,
+  "todayReads": 15,
   "avgTimeSec": 53,
-  "postsThisWeek": 10
+  "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3307,
+  "views": 3306,
   "reads": 338,
   "completes": 16,
   "plays": 17,
-  "sessions": 3184
+  "sessions": 3183
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2867,
+   "views": 2864,
    "reads": 156,
-   "sessions": 2890
+   "sessions": 2886
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 181,
-   "reads": 40,
-   "sessions": 178
+   "views": 184,
+   "reads": 41,
+   "sessions": 181
   },
   {
    "channel": "ai",
@@ -53,9 +53,9 @@
   },
   {
    "channel": "social",
-   "views": 3,
-   "reads": 1,
-   "sessions": 3
+   "views": 2,
+   "reads": 0,
+   "sessions": 2
   },
   {
    "channel": "campaign:producthunt/",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2867,
+   "views": 2864,
    "reads": 156,
    "completes": 12,
-   "sessions": 2889,
+   "sessions": 2885,
    "read_rate": 0.054,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 181,
-   "reads": 40,
+   "views": 184,
+   "reads": 41,
    "completes": 2,
-   "sessions": 178,
-   "read_rate": 0.221,
+   "sessions": 181,
+   "read_rate": 0.223,
    "complete_rate": 0.011,
    "pages_per_session": 1.02,
    "median_dwell_sec": null
@@ -139,11 +139,11 @@
   },
   {
    "channel": "social",
-   "views": 3,
-   "reads": 1,
+   "views": 2,
+   "reads": 0,
    "completes": 0,
-   "sessions": 3,
-   "read_rate": 0.333,
+   "sessions": 2,
+   "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 195,
-   "reads": 42,
-   "sessions": 189
+   "views": 198,
+   "reads": 43,
+   "sessions": 192
   },
   {
    "assistant": "Doubao",
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2767,
+   "views": 2766,
    "reads": 312,
-   "sessions": 2655
+   "sessions": 2654
   },
   {
    "device": "mobile",
@@ -601,7 +601,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 31,
+   "views": 32,
    "reads": 0,
    "plays": 0
   },

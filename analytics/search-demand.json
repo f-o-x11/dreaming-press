@@ -1,8 +1,8 @@
 {
- "fetched_at": "2026-09-21T11:42:15.622Z",
+ "fetched_at": "2026-09-24T11:46:47.559Z",
  "seeds": 25,
- "phrases": 450,
- "gaps": 248,
+ "phrases": 451,
+ "gaps": 250,
  "top_gaps": [
   {
    "phrase": "ai agent security summit",
@@ -13,19 +13,6 @@
    ],
    "seeds": [
     "ai agent security"
-   ],
-   "score": 7,
-   "covered": null
-  },
-  {
-   "phrase": "best ai agents for personal use",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "best ai agent"
    ],
    "score": 7,
    "covered": null
@@ -400,18 +387,6 @@
    "covered": null
   },
   {
-   "phrase": "best llm for home assistant",
-   "engines": [
-    "google",
-    "bing"
-   ],
-   "seeds": [
-    "best llm for"
-   ],
-   "score": 5,
-   "covered": null
-  },
-  {
    "phrase": "best llm for local agent",
    "engines": [
     "bing",
@@ -460,6 +435,18 @@
    "covered": null
   },
   {
+   "phrase": "best llm for translation",
+   "engines": [
+    "google",
+    "bing"
+   ],
+   "seeds": [
+    "best llm for"
+   ],
+   "score": 5,
+   "covered": null
+  },
+  {
    "phrase": "best self host llm",
    "engines": [
     "bing",
@@ -485,6 +472,18 @@
   },
   {
    "phrase": "best vector database comparison",
+   "engines": [
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "best vector database"
+   ],
+   "score": 5,
+   "covered": null
+  },
+  {
+   "phrase": "best vector database reddit",
    "engines": [
     "bing",
     "ddg"
@@ -530,7 +529,7 @@
    }
   },
   {
-   "phrase": "agent memory mcp",
+   "phrase": "agent memory leaderboard",
    "engines": [
     "google",
     "bing",
@@ -541,8 +540,8 @@
    ],
    "score": 7,
    "covered": {
-    "slug": "tool-highlight-atlaso-one-mcp-memory-across-coding-agents",
-    "title": "Tool Highlight: Atlaso — One MCP Memory That Follows You Across Claude Code, Cursor, and Codex"
+    "slug": "memoryarena-locomo-agentic-memory-benchmark-gap",
+    "title": "MemoryArena vs LoCoMo: Why Agent Memory Scores 95% on the Benchmark and ~50% When It Has to Act"
    }
   },
   {

@@ -1,58 +1,58 @@
 {
- "generated": "2026-09-21T11:42:10.301Z",
+ "generated": "2026-09-24T11:46:42.423Z",
  "window_days": 14,
- "log_window": "2026-09-07 → 2026-09-21",
+ "log_window": "2026-09-10 → 2026-09-24",
  "totals": {
-  "verified_fetches": 19046,
-  "retrieval_fetches": 14614,
-  "index_fetches": 4432,
-  "referred_sessions": 159,
-  "retrieval_fetches_per_session": 92,
-  "click_through_pct": 1.088
+  "verified_fetches": 19932,
+  "retrieval_fetches": 15014,
+  "index_fetches": 4918,
+  "referred_sessions": 197,
+  "retrieval_fetches_per_session": 76,
+  "click_through_pct": 1.312
  },
  "engines": [
   {
    "engine": "ChatGPT",
-   "verified_fetches": 11112,
-   "retrieval_fetches": 6680,
-   "index_fetches": 4432,
-   "referred_sessions": 155,
-   "referred_views": 159,
-   "referred_reads": 44,
-   "fetches_per_session": 43,
-   "click_through_pct": 2.32,
+   "verified_fetches": 12058,
+   "retrieval_fetches": 7140,
+   "index_fetches": 4918,
+   "referred_sessions": 192,
+   "referred_views": 198,
+   "referred_reads": 43,
+   "fetches_per_session": 37,
+   "click_through_pct": 2.689,
    "bots": [
     {
      "name": "GPTBot",
-     "verified": 4432,
+     "verified": 4918,
      "retrieval": false
     },
     {
      "name": "OAI-SearchBot",
-     "verified": 3564,
+     "verified": 4029,
      "retrieval": true
     },
     {
      "name": "ChatGPT-User",
-     "verified": 3116,
+     "verified": 3111,
      "retrieval": true
     }
    ]
   },
   {
    "engine": "Perplexity",
-   "verified_fetches": 7934,
-   "retrieval_fetches": 7934,
+   "verified_fetches": 7874,
+   "retrieval_fetches": 7874,
    "index_fetches": 0,
-   "referred_sessions": 4,
-   "referred_views": 4,
+   "referred_sessions": 5,
+   "referred_views": 5,
    "referred_reads": 2,
-   "fetches_per_session": 1984,
-   "click_through_pct": 0.05,
+   "fetches_per_session": 1575,
+   "click_through_pct": 0.064,
    "bots": [
     {
      "name": "PerplexityBot",
-     "verified": 7934,
+     "verified": 7874,
      "retrieval": true
     }
    ]
