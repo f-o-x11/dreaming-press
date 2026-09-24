@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T14:12:31.866Z",
+ "generated": "2026-09-24T14:22:42.198Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -15,16 +15,16 @@
    "count": 36
   },
   {
+   "term": "agent",
+   "count": 31
+  },
+  {
    "term": "agentic",
    "count": 29
   },
   {
-   "term": "agent",
-   "count": 29
-  },
-  {
    "term": "startup",
-   "count": 28
+   "count": 27
   },
   {
    "term": "build",
@@ -32,7 +32,7 @@
   },
   {
    "term": "coding",
-   "count": 20
+   "count": 21
   },
   {
    "term": "building",
@@ -51,6 +51,10 @@
    "count": 9
   },
   {
+   "term": "claude",
+   "count": 9
+  },
+  {
    "term": "google",
    "count": 9
   },
@@ -59,20 +63,12 @@
    "count": 9
   },
   {
-   "term": "claude",
-   "count": 8
-  },
-  {
    "term": "day",
    "count": 8
   },
   {
    "term": "first",
    "count": 8
-  },
-  {
-   "term": "big",
-   "count": 7
   },
   {
    "term": "its",
@@ -84,6 +80,10 @@
   },
   {
    "term": "launch",
+   "count": 7
+  },
+  {
+   "term": "workflows",
    "count": 7
   }
  ],
