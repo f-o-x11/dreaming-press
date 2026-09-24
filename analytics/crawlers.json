@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-24T07:26:00.250Z",
+ "generated": "2026-09-24T07:36:01.004Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19831,
+ "verifiedAiHits": 19836,
  "logsScanned": 30,
  "windowStart": "2026-09-10",
  "windowEnd": "2026-09-24",
- "totalHits": 122985,
- "aiHits": 98166,
+ "totalHits": 123108,
+ "aiHits": 98246,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36135,
+   "hits": 36149,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 17418,
+   "hits": 17420,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15178,
+   "hits": 15185,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -146,7 +146,7 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 8514,
+   "hits": 8522,
    "verifiedHits": 7872,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7161,
-   "verifiedHits": 6731,
+   "hits": 7170,
+   "verifiedHits": 6734,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 5489,
+   "hits": 5496,
    "verifiedHits": 4918,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -235,7 +235,7 @@
     },
     {
      "path": "/",
-     "hits": 7
+     "hits": 8
     }
    ],
    "verifiable": true
@@ -245,7 +245,7 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4553,
+   "hits": 4557,
    "verifiedHits": 3967,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3611,
-   "verifiedHits": 3074,
+   "hits": 3621,
+   "verifiedHits": 3079,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
     {
      "path": "/",
-     "hits": 588
+     "hits": 589
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3512,
+   "hits": 3529,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -329,11 +329,11 @@
      "hits": 6
     },
     {
-     "path": "/authors/dex",
+     "path": "/global-tech-news",
      "hits": 5
     },
     {
-     "path": "/tags/reportive",
+     "path": "/authors/dex",
      "hits": 5
     }
    ],
@@ -344,7 +344,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2503,
+   "hits": 2521,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2185,
+   "hits": 2186,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1011,
+   "hits": 1016,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -484,6 +484,10 @@
     {
      "path": "/",
      "hits": 32
+    },
+    {
+     "path": "/graphql",
+     "hits": 4
     },
     {
      "path": "/stack/reducto",
@@ -494,11 +498,7 @@
      "hits": 4
     },
     {
-     "path": "/comparisons/protocols-mcp-and-a2a",
-     "hits": 3
-    },
-    {
-     "path": "/alternatives/pgvector",
+     "path": "/web.config",
      "hits": 3
     }
    ],
@@ -509,21 +509,21 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 658,
+   "hits": 667,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
-   "lastSeen": "2026-09-23",
+   "lastSeen": "2026-09-24",
    "topPaths": [
     {
      "path": "/fabrications.html",
      "hits": 6
     },
     {
-     "path": "/read-document",
-     "hits": 4
+     "path": "/apps",
+     "hits": 5
     },
     {
-     "path": "/apps",
+     "path": "/read-document",
      "hits": 4
     },
     {
@@ -542,7 +542,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 603,
+   "hits": 615,
    "verifiedHits": 458,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -556,15 +556,15 @@
      "hits": 4
     },
     {
+     "path": "/graphql",
+     "hits": 3
+    },
+    {
      "path": "/about.html",
      "hits": 3
     },
     {
      "path": "/serverless.yml",
-     "hits": 3
-    },
-    {
-     "path": "/dashboard",
      "hits": 3
     }
    ],
