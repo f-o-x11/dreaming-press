@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T15:54:00.844Z",
+ "generated": "2026-09-24T16:04:31.357Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
@@ -9,7 +9,7 @@
  },
  "funnel": {
   "views": 3331,
-  "reads": 334,
+  "reads": 333,
   "completes": 16,
   "plays": 16,
   "sessions": 3209
@@ -24,7 +24,7 @@
   {
    "channel": "organic",
    "views": 142,
-   "reads": 103,
+   "reads": 102,
    "sessions": 107
   },
   {
@@ -96,10 +96,10 @@
   {
    "channel": "organic",
    "views": 142,
-   "reads": 103,
+   "reads": 102,
    "completes": 1,
    "sessions": 107,
-   "read_rate": 0.725,
+   "read_rate": 0.718,
    "complete_rate": 0.007,
    "pages_per_session": 1.33,
    "median_dwell_sec": null
@@ -290,7 +290,7 @@
   {
    "device": "desktop",
    "views": 2779,
-   "reads": 309,
+   "reads": 308,
    "sessions": 2668
   },
   {
@@ -412,16 +412,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
-   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 10,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-security-jobs",
    "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
    "section": "stack",
@@ -448,6 +438,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 8,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
+   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
    "reads": 4,
    "plays": 0
   }
@@ -601,7 +601,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 35,
+   "views": 36,
    "reads": 0,
    "plays": 0
   },
@@ -659,9 +659,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 395,
+   "views": 394,
    "reads": 0,
-   "sessions": 395,
+   "sessions": 394,
    "avg_dwell_sec": 3
   },
   {
@@ -776,7 +776,7 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 59,
+   "hits": 58,
    "sessions": 33
   },
   {
