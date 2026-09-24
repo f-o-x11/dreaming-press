@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-24T07:05:52.305Z",
+ "generated": "2026-09-24T07:15:53.164Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 8,
+  "readersNow": 7,
   "todayReads": 9,
   "avgTimeSec": 62,
   "postsThisWeek": 10
@@ -12,7 +12,7 @@
   "reads": 343,
   "completes": 18,
   "plays": 17,
-  "sessions": 3205
+  "sessions": 3206
  },
  "channels": [
   {
@@ -23,15 +23,15 @@
   },
   {
    "channel": "organic",
-   "views": 152,
+   "views": 151,
    "reads": 113,
    "sessions": 117
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 164,
+   "views": 165,
    "reads": 38,
-   "sessions": 161
+   "sessions": 162
   },
   {
    "channel": "ai",
@@ -84,24 +84,24 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 164,
+   "views": 165,
    "reads": 38,
    "completes": 2,
-   "sessions": 161,
-   "read_rate": 0.232,
+   "sessions": 162,
+   "read_rate": 0.23,
    "complete_rate": 0.012,
    "pages_per_session": 1.02,
    "median_dwell_sec": null
   },
   {
    "channel": "organic",
-   "views": 152,
+   "views": 151,
    "reads": 113,
    "completes": 1,
    "sessions": 117,
-   "read_rate": 0.743,
+   "read_rate": 0.748,
    "complete_rate": 0.007,
-   "pages_per_session": 1.3,
+   "pages_per_session": 1.29,
    "median_dwell_sec": null
   },
   {
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 177,
+   "views": 178,
    "reads": 40,
-   "sessions": 171
+   "sessions": 172
   },
   {
    "assistant": "Doubao",
@@ -291,7 +291,7 @@
    "device": "desktop",
    "views": 2786,
    "reads": 316,
-   "sessions": 2673
+   "sessions": 2674
   },
   {
    "device": "mobile",
@@ -479,7 +479,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 5,
+   "views": 4,
    "reads": 4,
    "plays": 1
   },
@@ -626,6 +626,16 @@
    "plays": 0
   },
   {
+   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
+   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "2026-09-09-founders-wire-mistral-samsung-meta-muse-agent-commerce",
    "title": "The Founder's Wire, September 9: Mistral Raises $3.5B to Become Europe's Sovereign Frontier, and Meta's Muse Turns a Consumer AI Into a Shopper With a Stripe Wallet",
    "section": "wire",
@@ -640,16 +650,6 @@
    "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
-   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
    "author": "dex",
    "views": 21,
    "reads": 1,
@@ -771,7 +771,7 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 74,
+   "hits": 73,
    "sessions": 40
   },
   {
