@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-24T16:55:20.849Z",
+ "generated": "2026-09-24T17:05:39.243Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
+  "readersNow": 5,
   "todayReads": 21,
   "avgTimeSec": 79,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3338,
-  "reads": 333,
+  "views": 3340,
+  "reads": 332,
   "completes": 16,
   "plays": 16,
-  "sessions": 3216
+  "sessions": 3218
  },
  "channels": [
   {
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 199,
-   "reads": 42,
-   "sessions": 196
+   "views": 201,
+   "reads": 41,
+   "sessions": 198
   },
   {
    "channel": "ai",
    "views": 40,
    "reads": 15,
-   "sessions": 54
+   "sessions": 53
   },
   {
    "channel": "referral",
@@ -84,11 +84,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 199,
-   "reads": 42,
+   "views": 201,
+   "reads": 41,
    "completes": 2,
-   "sessions": 196,
-   "read_rate": 0.211,
+   "sessions": 198,
+   "read_rate": 0.204,
    "complete_rate": 0.01,
    "pages_per_session": 1.02,
    "median_dwell_sec": null
@@ -120,10 +120,10 @@
    "views": 40,
    "reads": 15,
    "completes": 0,
-   "sessions": 54,
+   "sessions": 53,
    "read_rate": 0.375,
    "complete_rate": 0,
-   "pages_per_session": 0.74,
+   "pages_per_session": 0.75,
    "median_dwell_sec": 17
   },
   {
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 213,
-   "reads": 44,
-   "sessions": 207
+   "views": 215,
+   "reads": 43,
+   "sessions": 209
   },
   {
    "assistant": "Doubao",
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2784,
-   "reads": 308,
-   "sessions": 2673
+   "views": 2786,
+   "reads": 307,
+   "sessions": 2675
   },
   {
    "device": "mobile",
@@ -312,22 +312,22 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 39,
-   "reads": 12,
-   "plays": 1
-  },
-  {
    "slug": "open-source-llm-leaderboard-september-2026-run-locally",
    "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
    "views": 47,
+   "reads": 11,
+   "plays": 1
+  },
+  {
+   "slug": "open-source-llm-for-coding-september-2026",
+   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 38,
    "reads": 11,
    "plays": 1
   },
@@ -454,22 +454,22 @@
  ],
  "topListens": [
   {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 39,
-   "reads": 12,
-   "plays": 1
-  },
-  {
    "slug": "open-source-llm-leaderboard-september-2026-run-locally",
    "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
    "views": 47,
+   "reads": 11,
+   "plays": 1
+  },
+  {
+   "slug": "open-source-llm-for-coding-september-2026",
+   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 38,
    "reads": 11,
    "plays": 1
   },
@@ -576,16 +576,6 @@
    "plays": 1
   },
   {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 39,
-   "reads": 12,
-   "plays": 1
-  },
-  {
    "slug": "microsoft-agent-framework-vs-langgraph-vs-crewai-three-thresholds",
    "title": "Microsoft Agent Framework vs LangGraph vs CrewAI: Which One Crossed the Three Thresholds",
    "section": "wire",
@@ -594,6 +584,16 @@
    "views": 38,
    "reads": 36,
    "plays": 0
+  },
+  {
+   "slug": "open-source-llm-for-coding-september-2026",
+   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 38,
+   "reads": 11,
+   "plays": 1
   },
   {
    "slug": "best-open-source-rl-frameworks-for-training-agents",
@@ -659,9 +659,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 395,
+   "views": 394,
    "reads": 0,
-   "sessions": 395,
+   "sessions": 394,
    "avg_dwell_sec": 3
   },
   {
@@ -771,8 +771,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 65,
-   "sessions": 38
+   "hits": 63,
+   "sessions": 37
   },
   {
    "ref": "https://www.bing.com/",

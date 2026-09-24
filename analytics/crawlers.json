@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-24T16:55:20.280Z",
+ "generated": "2026-09-24T17:05:38.738Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 20144,
+ "verifiedAiHits": 20149,
  "logsScanned": 30,
  "windowStart": "2026-09-10",
  "windowEnd": "2026-09-24",
- "totalHits": 125890,
- "aiHits": 100397,
+ "totalHits": 125925,
+ "aiHits": 100421,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37073,
+   "hits": 37081,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15577,
+   "hits": 15587,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7450,
-   "verifiedHits": 7014,
+   "hits": 7454,
+   "verifiedHits": 7018,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
@@ -245,14 +245,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4716,
-   "verifiedHits": 4126,
+   "hits": 4720,
+   "verifiedHits": 4130,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
     {
      "path": "/wire.html",
-     "hits": 56
+     "hits": 57
     },
     {
      "path": "/tools",
@@ -263,11 +263,11 @@
      "hits": 31
     },
     {
-     "path": "/posts/2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe.html",
-     "hits": 30
+     "path": "/posts/2026-08-07-founders-wire-meta-coding-agent-openai-atlas-claude-code.html",
+     "hits": 31
     },
     {
-     "path": "/posts/2026-08-07-founders-wire-meta-coding-agent-openai-atlas-claude-code.html",
+     "path": "/posts/2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe.html",
      "hits": 30
     }
    ],
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3719,
-   "verifiedHits": 3176,
+   "hits": 3720,
+   "verifiedHits": 3177,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3690,
+   "hits": 3695,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2282,
+   "hits": 2283,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -433,7 +433,7 @@
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 101
+     "hits": 102
     }
    ],
    "verifiable": false
@@ -542,8 +542,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 631,
-   "verifiedHits": 473,
+   "hits": 633,
+   "verifiedHits": 475,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
