@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-24T19:08:18.768Z",
+ "generated": "2026-09-24T19:18:20.974Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 24,
   "avgTimeSec": 71,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3360,
+  "views": 3362,
   "reads": 334,
-  "completes": 16,
+  "completes": 17,
   "plays": 16,
-  "sessions": 3234
+  "sessions": 3236
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2902,
+   "views": 2904,
    "reads": 160,
-   "sessions": 2921
+   "sessions": 2923
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2902,
+   "views": 2904,
    "reads": 160,
    "completes": 12,
-   "sessions": 2920,
+   "sessions": 2922,
    "read_rate": 0.055,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
@@ -97,10 +97,10 @@
    "channel": "organic",
    "views": 143,
    "reads": 102,
-   "completes": 1,
+   "completes": 2,
    "sessions": 108,
    "read_rate": 0.713,
-   "complete_rate": 0.007,
+   "complete_rate": 0.014,
    "pages_per_session": 1.32,
    "median_dwell_sec": null
   },
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2806,
+   "views": 2808,
    "reads": 309,
-   "sessions": 2691
+   "sessions": 2693
   },
   {
    "device": "mobile",
@@ -626,6 +626,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-09-09-founders-wire-mistral-samsung-meta-muse-agent-commerce",
+   "title": "The Founder's Wire, September 9: Mistral Raises $3.5B to Become Europe's Sovereign Frontier, and Meta's Muse Turns a Consumer AI Into a Shopper With a Stripe Wallet",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 23,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "e2b-vs-modal-vs-daytona-agent-sandboxes",
    "title": "E2B vs Modal vs Daytona: Picking a Code Execution Sandbox for AI Agents",
    "section": "stack",
@@ -643,16 +653,6 @@
    "author": "dex",
    "views": 22,
    "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "2026-09-09-founders-wire-mistral-samsung-meta-muse-agent-commerce",
-   "title": "The Founder's Wire, September 9: Mistral Raises $3.5B to Become Europe's Sovereign Frontier, and Meta's Muse Turns a Consumer AI Into a Shopper With a Stripe Wallet",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 22,
-   "reads": 0,
    "plays": 0
   }
  ],
@@ -796,7 +796,7 @@
   },
   {
    "ref": "https://search.brave.com/",
-   "hits": 23,
+   "hits": 24,
    "sessions": 13
   },
   {
