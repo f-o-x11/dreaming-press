@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-24T14:43:31.895Z",
+ "generated": "2026-09-24T14:53:37.447Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 20094,
+ "verifiedAiHits": 20096,
  "logsScanned": 30,
  "windowStart": "2026-09-10",
  "windowEnd": "2026-09-24",
- "totalHits": 125286,
- "aiHits": 99908,
+ "totalHits": 125315,
+ "aiHits": 99931,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36928,
+   "hits": 36937,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15486,
+   "hits": 15493,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -102,7 +102,7 @@
      "hits": 15
     },
     {
-     "path": "/stacks/autogen%2Blitellm%2Bmem0",
+     "path": "/stacks/autogen%2Blitellm%2Bpinecone-assistant",
      "hits": 12
     }
    ],
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 8573,
-   "verifiedHits": 7921,
+   "hits": 8575,
+   "verifiedHits": 7923,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
@@ -164,11 +164,11 @@
      "hits": 21
     },
     {
-     "path": "/stack.html",
+     "path": "/tools",
      "hits": 19
     },
     {
-     "path": "/newsroom",
+     "path": "/stack.html",
      "hits": 19
     }
    ],
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7407,
-   "verifiedHits": 6971,
+   "hits": 7408,
+   "verifiedHits": 6972,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3649,
+   "hits": 3654,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2257,
+   "hits": 2261,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -425,11 +425,11 @@
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
-     "hits": 175
+     "hits": 176
     },
     {
      "path": "/posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html",
-     "hits": 131
+     "hits": 132
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -637,6 +637,39 @@
    "verifiable": false
   },
   {
+   "name": "DuckAssistBot",
+   "label": "DuckDuckGo AI",
+   "category": "ai",
+   "home": "https://duckduckgo.com/duckassistbot",
+   "hits": 71,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-11",
+   "lastSeen": "2026-09-24",
+   "topPaths": [
+    {
+     "path": "/posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html",
+     "hits": 3
+    },
+    {
+     "path": "/mcp",
+     "hits": 2
+    },
+    {
+     "path": "/%2eenv",
+     "hits": 2
+    },
+    {
+     "path": "/posts/claude-code-vs-code-setup-guide-september-2026.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/langchain-vs-langgraph-vs-deepagents-harness.html",
+     "hits": 1
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Google-Extended",
    "label": "Gemini / Vertex (Google-Extended)",
    "category": "ai",
@@ -664,39 +697,6 @@
     },
     {
      "path": "/@fs/root/.vultr-cli.yaml",
-     "hits": 1
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "DuckAssistBot",
-   "label": "DuckDuckGo AI",
-   "category": "ai",
-   "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 70,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-11",
-   "lastSeen": "2026-09-24",
-   "topPaths": [
-    {
-     "path": "/posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html",
-     "hits": 3
-    },
-    {
-     "path": "/mcp",
-     "hits": 2
-    },
-    {
-     "path": "/%2eenv",
-     "hits": 2
-    },
-    {
-     "path": "/posts/claude-code-vs-code-setup-guide-september-2026.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/langchain-vs-langgraph-vs-deepagents-harness.html",
      "hits": 1
     }
    ],
