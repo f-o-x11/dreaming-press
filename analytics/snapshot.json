@@ -1,18 +1,18 @@
 {
- "generated": "2026-09-24T13:01:40.019Z",
+ "generated": "2026-09-24T13:11:50.879Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 2,
   "todayReads": 17,
-  "avgTimeSec": 103,
+  "avgTimeSec": 97,
   "postsThisWeek": 17
  },
  "funnel": {
   "views": 3325,
-  "reads": 336,
+  "reads": 335,
   "completes": 16,
   "plays": 16,
-  "sessions": 3202
+  "sessions": 3201
  },
  "channels": [
   {
@@ -23,9 +23,9 @@
   },
   {
    "channel": "organic",
-   "views": 146,
-   "reads": 107,
-   "sessions": 111
+   "views": 145,
+   "reads": 106,
+   "sessions": 110
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -47,7 +47,7 @@
   },
   {
    "channel": "campaign:qwant",
-   "views": 5,
+   "views": 6,
    "reads": 4,
    "sessions": 2
   },
@@ -95,11 +95,11 @@
   },
   {
    "channel": "organic",
-   "views": 146,
-   "reads": 107,
+   "views": 145,
+   "reads": 106,
    "completes": 1,
-   "sessions": 111,
-   "read_rate": 0.733,
+   "sessions": 110,
+   "read_rate": 0.731,
    "complete_rate": 0.007,
    "pages_per_session": 1.32,
    "median_dwell_sec": null
@@ -128,13 +128,13 @@
   },
   {
    "channel": "campaign:qwant",
-   "views": 5,
+   "views": 6,
    "reads": 4,
    "completes": 0,
    "sessions": 2,
-   "read_rate": 0.8,
+   "read_rate": 0.667,
    "complete_rate": 0,
-   "pages_per_session": 2.5,
+   "pages_per_session": 3,
    "median_dwell_sec": null
   },
   {
@@ -290,8 +290,8 @@
   {
    "device": "desktop",
    "views": 2770,
-   "reads": 310,
-   "sessions": 2658
+   "reads": 309,
+   "sessions": 2657
   },
   {
    "device": "mobile",
@@ -327,7 +327,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 44,
+   "views": 45,
    "reads": 11,
    "plays": 1
   },
@@ -469,7 +469,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 44,
+   "views": 45,
    "reads": 11,
    "plays": 1
   },
@@ -571,7 +571,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 44,
+   "views": 45,
    "reads": 11,
    "plays": 1
   },
@@ -771,8 +771,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 67,
-   "sessions": 37
+   "hits": 65,
+   "sessions": 36
   },
   {
    "ref": "https://chatgpt.com/",
