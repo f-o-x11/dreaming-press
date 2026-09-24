@@ -1,37 +1,37 @@
 {
- "generated": "2026-09-24T15:43:51.484Z",
+ "generated": "2026-09-24T15:54:00.844Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
-  "todayReads": 19,
-  "avgTimeSec": 81,
+  "readersNow": 3,
+  "todayReads": 21,
+  "avgTimeSec": 79,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3332,
-  "reads": 333,
+  "views": 3331,
+  "reads": 334,
   "completes": 16,
   "plays": 16,
-  "sessions": 3208
+  "sessions": 3209
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2886,
+   "views": 2883,
    "reads": 158,
    "sessions": 2905
   },
   {
    "channel": "organic",
-   "views": 141,
-   "reads": 102,
-   "sessions": 106
+   "views": 142,
+   "reads": 103,
+   "sessions": 107
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 195,
+   "views": 196,
    "reads": 42,
-   "sessions": 192
+   "sessions": 193
   },
   {
    "channel": "ai",
@@ -67,13 +67,13 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 18
+   "sessions": 17
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2886,
+   "views": 2883,
    "reads": 158,
    "completes": 12,
    "sessions": 2904,
@@ -84,22 +84,22 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 195,
+   "views": 196,
    "reads": 42,
    "completes": 2,
-   "sessions": 192,
-   "read_rate": 0.215,
+   "sessions": 193,
+   "read_rate": 0.214,
    "complete_rate": 0.01,
    "pages_per_session": 1.02,
    "median_dwell_sec": null
   },
   {
    "channel": "organic",
-   "views": 141,
-   "reads": 102,
+   "views": 142,
+   "reads": 103,
    "completes": 1,
-   "sessions": 106,
-   "read_rate": 0.723,
+   "sessions": 107,
+   "read_rate": 0.725,
    "complete_rate": 0.007,
    "pages_per_session": 1.33,
    "median_dwell_sec": null
@@ -164,7 +164,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 18,
+   "sessions": 17,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -174,8 +174,8 @@
  "navSurfaces": [
   {
    "surface": "brand",
-   "clicks": 11,
-   "sessions": 8
+   "clicks": 10,
+   "sessions": 7
   },
   {
    "surface": "dash-range",
@@ -213,11 +213,6 @@
    "sessions": 1
   },
   {
-   "surface": "live",
-   "clicks": 2,
-   "sessions": 2
-  },
-  {
    "surface": "ht-card",
    "clicks": 2,
    "sessions": 1
@@ -246,14 +241,19 @@
    "surface": "rr-card",
    "clicks": 1,
    "sessions": 1
+  },
+  {
+   "surface": "live",
+   "clicks": 1,
+   "sessions": 1
   }
  ],
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 209,
+   "views": 210,
    "reads": 44,
-   "sessions": 203
+   "sessions": 204
   },
   {
    "assistant": "Doubao",
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2780,
-   "reads": 308,
-   "sessions": 2667
+   "views": 2779,
+   "reads": 309,
+   "sessions": 2668
   },
   {
    "device": "mobile",
@@ -621,8 +621,18 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 27,
+   "views": 26,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "e2b-vs-modal-vs-daytona-agent-sandboxes",
+   "title": "E2B vs Modal vs Daytona: Picking a Code Execution Sandbox for AI Agents",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 1,
    "plays": 0
   },
   {
@@ -644,16 +654,6 @@
    "views": 22,
    "reads": 0,
    "plays": 0
-  },
-  {
-   "slug": "e2b-vs-modal-vs-daytona-agent-sandboxes",
-   "title": "E2B vs Modal vs Daytona: Picking a Code Execution Sandbox for AI Agents",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 1,
-   "plays": 0
   }
  ],
  "topPages": [
@@ -666,9 +666,9 @@
   },
   {
    "path": "/",
-   "views": 115,
+   "views": 114,
    "reads": 1,
-   "sessions": 114,
+   "sessions": 113,
    "avg_dwell_sec": 11
   },
   {
@@ -776,8 +776,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 57,
-   "sessions": 32
+   "hits": 59,
+   "sessions": 33
   },
   {
    "ref": "https://duckduckgo.com/",
@@ -801,8 +801,8 @@
   },
   {
    "ref": "brand",
-   "hits": 11,
-   "sessions": 8
+   "hits": 10,
+   "sessions": 7
   },
   {
    "ref": "https://teams.public.onecdn.static.microsoft/",

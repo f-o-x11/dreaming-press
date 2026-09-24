@@ -1,16 +1,16 @@
-# Analytics brief — auto-exported 2026-09-24T15:43Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-24T15:54Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3332 views → 333 engaged reads → 16 completes · 3208 sessions.
-- Channels: direct 158r/2886v · organic 102r/141v · campaign:chatgpt.com 42r/195v · ai 15r/40v · referral 12r/61v · campaign:qwant 4r/6v · social 0r/2v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 44r/209v · Doubao 10r/14v · Perplexity 2r/5v · Claude 1r/2v · Kimi 0r/4v · DeepSeek 0r/1v.
+- Funnel: 3331 views → 334 engaged reads → 16 completes · 3209 sessions.
+- Channels: direct 158r/2883v · organic 103r/142v · campaign:chatgpt.com 42r/196v · ai 15r/40v · referral 12r/61v · campaign:qwant 4r/6v · social 0r/2v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 44r/210v · Doubao 10r/14v · Perplexity 2r/5v · Claude 1r/2v · Kimi 0r/4v · DeepSeek 0r/1v.
 - Referrers: mail.google.com, chatgpt.com, bing.com, duckduckgo.com, cn.bing.com, doubao.com, search.brave.com, brand, teams.public.onecdn.static.microsoft, dash-range.
 - Engaged-read winners by section: wire=7, stack=8.
 
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
-- brand: 11 clicks from 8 sessions
+- brand: 10 clicks from 7 sessions
 - dash-range: 9 clicks from 2 sessions
 - btn-stats: 6 clicks from 3 sessions
 - un-body: 5 clicks from 3 sessions
@@ -23,9 +23,9 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2886 views · read 5.5% · complete 0.4% · 0.99 pages/session · median 4s
-- campaign:chatgpt.com: 195 views · read 21.5% · complete 1.0% · 1.02 pages/session · median ?s
-- organic: 141 views · read 72.3% · complete 0.7% · 1.33 pages/session · median ?s
+- direct: 2883 views · read 5.5% · complete 0.4% · 0.99 pages/session · median 4s
+- campaign:chatgpt.com: 196 views · read 21.4% · complete 1.0% · 1.02 pages/session · median ?s
+- organic: 142 views · read 72.5% · complete 0.7% · 1.33 pages/session · median ?s
 - referral: 61 views · read 19.7% · complete 0.0% · 1.03 pages/session · median ?s
 - ai: 40 views · read 37.5% · complete 0.0% · 0.74 pages/session · median 17s
 - campaign:qwant: 6 views · read 66.7% · complete 0.0% · 3 pages/session · median ?s
@@ -60,7 +60,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 395 views, 0 reads, 395 sessions, avg 3s
-- / — 115 views, 1 reads, 114 sessions, avg 11s
+- / — 114 views, 1 reads, 113 sessions, avg 11s
 - /build — 41 views, 0 reads, 41 sessions, avg 5s
 - /best/:cat — 40 views, 0 reads, 40 sessions, avg 4s
 - /dashboard — 26 views, 0 reads, 13 sessions, avg 8s
@@ -86,8 +86,8 @@ new traffic — and these pages already have the traffic.
 - [wire] "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again" — 62 views but only 2 engaged reads (3.2%)
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 35 views but only 0 engaged reads (0.0%)
 - [wire] "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO" — 29 views but only 0 engaged reads (0.0%)
-- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 27 views but only 0 engaged reads (0.0%)
-- [wire] "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp" — 22 views but only 1 engaged reads (4.5%)
+- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 26 views but only 0 engaged reads (0.0%)
+- [stack] "E2B vs Modal vs Daytona: Picking a Code Execution Sandbox for AI Agents" — 22 views but only 1 engaged reads (4.5%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
@@ -109,8 +109,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (7924 verified): /build ×84 · / ×27 · /posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html ×21
-- OAI-SearchBot (4111 verified): /wire.html ×56 · /tools ×35 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×30
-- ChatGPT-User (3163 verified): / ×603 · /posts/open-source-llm-for-coding-september-2026.html ×213 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×160
+- OAI-SearchBot (4112 verified): /wire.html ×56 · /tools ×35 · /posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html ×30
+- ChatGPT-User (3165 verified): / ×603 · /posts/open-source-llm-for-coding-september-2026.html ×213 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×160
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -158,10 +158,10 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 20116 confirmed AI-engine fetches (Perplexity 7924, GPTBot (OpenAI) 4918, ChatGPT Search (OpenAI) 4111, ChatGPT (user browsing) 3163).
+The real answer engines are crawling us — IP-verified: 20119 confirmed AI-engine fetches (Perplexity 7924, GPTBot (OpenAI) 4918, ChatGPT Search (OpenAI) 4112, ChatGPT (user browsing) 3165).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 681 crawler fetches
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 320 crawler fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 321 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 223 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 191 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 176 crawler fetches
