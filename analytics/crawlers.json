@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-24T02:21:40.122Z",
+ "generated": "2026-09-24T02:31:43.526Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19646,
+ "verifiedAiHits": 19650,
  "logsScanned": 30,
  "windowStart": "2026-09-10",
  "windowEnd": "2026-09-24",
- "totalHits": 121469,
- "aiHits": 96917,
+ "totalHits": 121503,
+ "aiHits": 96943,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35525,
+   "hits": 35536,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 17230,
+   "hits": 17233,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14970,
+   "hits": 14977,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -113,7 +113,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 10128,
+   "hits": 10129,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -121,6 +121,10 @@
     {
      "path": "/build",
      "hits": 92
+    },
+    {
+     "path": "/posts/2026-09-16-founders-wire-euclyd-inference-silicon-apple-gemini-siri-ai-standards-body.md",
+     "hits": 4
     },
     {
      "path": "/posts/mcp-server-meaning-what-an-mcp-server-actually-is.md",
@@ -132,10 +136,6 @@
     },
     {
      "path": "/posts/implicit-vs-explicit-prompt-caching.md",
-     "hits": 4
-    },
-    {
-     "path": "/posts/how-to-deploy-an-llm-in-production-vllm-gpu-serving-playbook.md",
      "hits": 4
     }
    ],
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6991,
-   "verifiedHits": 6561,
+   "hits": 6995,
+   "verifiedHits": 6565,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4428,
-   "verifiedHits": 3842,
+   "hits": 4429,
+   "verifiedHits": 3843,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3566,
-   "verifiedHits": 3030,
+   "hits": 3569,
+   "verifiedHits": 3033,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
     {
      "path": "/",
-     "hits": 579
+     "hits": 580
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3483,
+   "hits": 3486,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -410,14 +410,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2149,
+   "hits": 2150,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 231
+     "hits": 232
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
