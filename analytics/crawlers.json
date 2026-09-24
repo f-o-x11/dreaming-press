@@ -1,20 +1,20 @@
 {
- "generated": "2026-09-24T19:48:45.452Z",
+ "generated": "2026-09-24T19:58:50.141Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 20232,
+ "verifiedAiHits": 20248,
  "logsScanned": 30,
  "windowStart": "2026-09-10",
  "windowEnd": "2026-09-24",
- "totalHits": 126616,
- "aiHits": 100966,
- "aiEngines": 17,
+ "totalHits": 126753,
+ "aiHits": 101096,
+ "aiEngines": 18,
  "bots": [
   {
    "name": "Bytespider",
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 37225,
+   "hits": 37292,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 17796,
+   "hits": 17832,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -62,7 +62,7 @@
     },
     {
      "path": "/posts/text-generation-inference-tgi-archived-migrate-off.html",
-     "hits": 8
+     "hits": 9
     },
     {
      "path": "/",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15711,
+   "hits": 15719,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 8578,
-   "verifiedHits": 7926,
+   "hits": 8589,
+   "verifiedHits": 7937,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7520,
-   "verifiedHits": 7084,
+   "hits": 7525,
+   "verifiedHits": 7089,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4769,
-   "verifiedHits": 4179,
+   "hits": 4774,
+   "verifiedHits": 4184,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3733,
+   "hits": 3735,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -764,6 +764,23 @@
     {
      "path": "/@fs/var/run/secrets/kubernetes.io/serviceaccount/token",
      "hits": 1
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "Diffbot",
+   "label": "Diffbot",
+   "category": "ai",
+   "home": "https://www.diffbot.com",
+   "hits": 3,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-24",
+   "lastSeen": "2026-09-24",
+   "topPaths": [
+    {
+     "path": "/posts/the-difference-between-a-commitment-and-a-dump.html",
+     "hits": 2
     }
    ],
    "verifiable": false
