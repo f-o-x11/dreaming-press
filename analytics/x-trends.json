@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T16:45:04.770Z",
+ "generated": "2026-09-24T16:55:20.790Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -16,7 +16,7 @@
   },
   {
    "term": "agent",
-   "count": 29
+   "count": 30
   },
   {
    "term": "agentic",
@@ -24,7 +24,7 @@
   },
   {
    "term": "startup",
-   "count": 27
+   "count": 26
   },
   {
    "term": "build",
@@ -44,7 +44,7 @@
   },
   {
    "term": "jev",
-   "count": 10
+   "count": 11
   },
   {
    "term": "security",
@@ -71,10 +71,6 @@
    "count": 8
   },
   {
-   "term": "big",
-   "count": 7
-  },
-  {
    "term": "one",
    "count": 7
   },
@@ -84,6 +80,10 @@
   },
   {
    "term": "own",
+   "count": 7
+  },
+  {
+   "term": "launch",
    "count": 7
   }
  ],
