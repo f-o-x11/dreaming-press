@@ -1,49 +1,49 @@
 {
- "generated": "2026-09-24T08:26:40.580Z",
+ "generated": "2026-09-24T08:36:51.116Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 6,
   "todayReads": 10,
   "avgTimeSec": 62,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 3322,
+  "views": 3323,
   "reads": 341,
   "completes": 18,
   "plays": 17,
-  "sessions": 3199
+  "sessions": 3200
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2891,
+   "views": 2890,
    "reads": 160,
-   "sessions": 2917
+   "sessions": 2916
   },
   {
    "channel": "organic",
-   "views": 149,
+   "views": 150,
    "reads": 111,
-   "sessions": 114
+   "sessions": 115
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 174,
+   "views": 173,
    "reads": 39,
-   "sessions": 171
+   "sessions": 170
   },
   {
    "channel": "ai",
-   "views": 39,
+   "views": 40,
    "reads": 15,
-   "sessions": 52
+   "sessions": 53
   },
   {
    "channel": "referral",
-   "views": 60,
+   "views": 61,
    "reads": 11,
-   "sessions": 58
+   "sessions": 59
   },
   {
    "channel": "campaign:qwant",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2891,
+   "views": 2890,
    "reads": 160,
    "completes": 14,
-   "sessions": 2916,
+   "sessions": 2915,
    "read_rate": 0.055,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -84,44 +84,44 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 174,
+   "views": 173,
    "reads": 39,
    "completes": 2,
-   "sessions": 171,
-   "read_rate": 0.224,
-   "complete_rate": 0.011,
+   "sessions": 170,
+   "read_rate": 0.225,
+   "complete_rate": 0.012,
    "pages_per_session": 1.02,
    "median_dwell_sec": null
   },
   {
    "channel": "organic",
-   "views": 149,
+   "views": 150,
    "reads": 111,
    "completes": 1,
-   "sessions": 114,
-   "read_rate": 0.745,
+   "sessions": 115,
+   "read_rate": 0.74,
    "complete_rate": 0.007,
-   "pages_per_session": 1.31,
+   "pages_per_session": 1.3,
    "median_dwell_sec": null
   },
   {
    "channel": "referral",
-   "views": 60,
+   "views": 61,
    "reads": 11,
    "completes": 0,
-   "sessions": 58,
-   "read_rate": 0.183,
+   "sessions": 59,
+   "read_rate": 0.18,
    "complete_rate": 0,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
   },
   {
    "channel": "ai",
-   "views": 39,
+   "views": 40,
    "reads": 15,
    "completes": 0,
-   "sessions": 52,
-   "read_rate": 0.385,
+   "sessions": 53,
+   "read_rate": 0.375,
    "complete_rate": 0,
    "pages_per_session": 0.75,
    "median_dwell_sec": 26
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2778,
+   "views": 2779,
    "reads": 314,
-   "sessions": 2666
+   "sessions": 2667
   },
   {
    "device": "mobile",
@@ -442,8 +442,8 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
-   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
+   "slug": "agent-sdk-decision-2026-loop-graph-or-handoffs",
+   "title": "LangGraph vs OpenAI Agents SDK vs Claude Agent SDK: The Decision After OpenAI Closed the Gap",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -776,8 +776,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 60,
-   "sessions": 35
+   "hits": 61,
+   "sessions": 36
   },
   {
    "ref": "https://duckduckgo.com/",
@@ -810,9 +810,9 @@
    "sessions": 2
   },
   {
-   "ref": "https://www.perplexity.ai/",
+   "ref": "https://www.youtube.com/",
    "hits": 7,
-   "sessions": 5
+   "sessions": 7
   }
  ]
 }
