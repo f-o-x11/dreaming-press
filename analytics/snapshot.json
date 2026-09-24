@@ -1,10 +1,10 @@
 {
- "generated": "2026-09-24T06:55:45.539Z",
+ "generated": "2026-09-24T07:05:52.305Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 8,
-  "avgTimeSec": 28,
+  "readersNow": 8,
+  "todayReads": 9,
+  "avgTimeSec": 62,
   "postsThisWeek": 10
  },
  "funnel": {
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2906,
+   "views": 2905,
    "reads": 161,
-   "sessions": 2932
+   "sessions": 2931
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 59,
+   "views": 60,
    "reads": 11,
-   "sessions": 57
+   "sessions": 58
   },
   {
    "channel": "campaign:qwant",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2906,
+   "views": 2905,
    "reads": 161,
    "completes": 14,
-   "sessions": 2931,
+   "sessions": 2930,
    "read_rate": 0.055,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -106,13 +106,13 @@
   },
   {
    "channel": "referral",
-   "views": 59,
+   "views": 60,
    "reads": 11,
    "completes": 0,
-   "sessions": 57,
-   "read_rate": 0.186,
+   "sessions": 58,
+   "read_rate": 0.183,
    "complete_rate": 0,
-   "pages_per_session": 1.04,
+   "pages_per_session": 1.03,
    "median_dwell_sec": null
   },
   {
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2785,
+   "views": 2786,
    "reads": 316,
-   "sessions": 2672
+   "sessions": 2673
   },
   {
    "device": "mobile",
-   "views": 544,
+   "views": 543,
    "reads": 27,
-   "sessions": 533
+   "sessions": 532
   }
  ],
  "topContent": [
@@ -412,22 +412,22 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
-   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 11,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
    "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 11,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
+   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 10,
    "reads": 4,
    "plays": 0
   },
@@ -621,7 +621,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "soren",
-   "views": 27,
+   "views": 28,
    "reads": 0,
    "plays": 0
   },
