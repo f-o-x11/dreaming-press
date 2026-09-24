@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T09:27:14.126Z",
+ "generated": "2026-09-24T09:37:20.666Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -24,23 +24,23 @@
   },
   {
    "term": "agentic",
-   "count": 26
+   "count": 27
   },
   {
    "term": "build",
-   "count": 25
-  },
-  {
-   "term": "coding",
-   "count": 21
+   "count": 26
   },
   {
    "term": "building",
    "count": 21
   },
   {
+   "term": "coding",
+   "count": 20
+  },
+  {
    "term": "mcp",
-   "count": 17
+   "count": 18
   },
   {
    "term": "jev",
@@ -140,15 +140,9 @@
  "topPosts": [
   {
    "text": "Build but build well on @RobinhoodCrypto make a difference. I have been thirsty to extend on my thesis; Before I dive into things just note @vladtenev quoted “The next era of consumer finance is agentic.” There’s nothing",
-   "engagement": 332,
+   "engagement": 333,
    "url": "https://x.com/i/status/2102019638498402351",
    "created": "2026-09-21T12:58:30.000Z"
-  },
-  {
-   "text": "The ultimate Full-stack AI Engineering roadmap to go from 0 to 100. Bookmark this. This is the exact mapped-out path on what it actually takes to go from Beginner → full-stack AI engineer. &gt; Start with coding fundamen",
-   "engagement": 271,
-   "url": "https://x.com/i/status/2100517638611087443",
-   "created": "2026-09-17T09:30:05.000Z"
   },
   {
    "text": "Humans sleep, but trading agents don’t 🤖 Charting into the Agentic Trading era with tokenized US stocks operating 24/7! @Bitget_AI just launched the Builder Base Camp Hackathon S2 featuring a 50,000 USDT prize pool! Whe",
@@ -185,6 +179,12 @@
    "engagement": 139,
    "url": "https://x.com/i/status/2101380476212576511",
    "created": "2026-09-19T18:38:41.000Z"
+  },
+  {
+   "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 - How to build your first AI agent 08:24 - Build agent memory (short, persistent, long) 28:34 - Agentic loops, long-running AI agents 40:04 -",
+   "engagement": 130,
+   "url": "https://x.com/i/status/2101035065178313073",
+   "created": "2026-09-18T19:46:09.000Z"
   }
  ]
 }
