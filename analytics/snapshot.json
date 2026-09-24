@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-24T11:46:47.638Z",
+ "generated": "2026-09-24T12:08:07.455Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 7,
   "todayReads": 15,
-  "avgTimeSec": 53,
+  "avgTimeSec": 49,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3306,
+  "views": 3312,
   "reads": 338,
   "completes": 16,
   "plays": 17,
-  "sessions": 3183
+  "sessions": 3189
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2864,
+   "views": 2870,
    "reads": 156,
-   "sessions": 2886
+   "sessions": 2892
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2864,
+   "views": 2870,
    "reads": 156,
    "completes": 12,
-   "sessions": 2885,
+   "sessions": 2891,
    "read_rate": 0.054,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
@@ -295,9 +295,9 @@
   },
   {
    "device": "mobile",
-   "views": 540,
+   "views": 546,
    "reads": 26,
-   "sessions": 529
+   "sessions": 535
   }
  ],
  "topContent": [
@@ -317,7 +317,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 45,
+   "views": 44,
    "reads": 12,
    "plays": 1
   },
@@ -459,7 +459,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 45,
+   "views": 44,
    "reads": 12,
    "plays": 1
   },
@@ -571,7 +571,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 45,
+   "views": 44,
    "reads": 12,
    "plays": 1
   },
@@ -697,7 +697,7 @@
    "views": 24,
    "reads": 2,
    "sessions": 24,
-   "avg_dwell_sec": 27
+   "avg_dwell_sec": 26
   },
   {
    "path": "/topics/:topic",
