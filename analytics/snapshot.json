@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T20:49:59.740Z",
+ "generated": "2026-09-24T21:00:00.819Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,11 +8,11 @@
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 3368,
+  "views": 3369,
   "reads": 333,
   "completes": 17,
   "plays": 16,
-  "sessions": 3244
+  "sessions": 3245
  },
  "channels": [
   {
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 205,
+   "views": 206,
    "reads": 41,
-   "sessions": 202
+   "sessions": 203
   },
   {
    "channel": "ai",
@@ -84,11 +84,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 205,
+   "views": 206,
    "reads": 41,
    "completes": 2,
-   "sessions": 202,
-   "read_rate": 0.2,
+   "sessions": 203,
+   "read_rate": 0.199,
    "complete_rate": 0.01,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 219,
+   "views": 220,
    "reads": 43,
-   "sessions": 213
+   "sessions": 214
   },
   {
    "assistant": "Doubao",
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2809,
+   "views": 2810,
    "reads": 308,
-   "sessions": 2696
+   "sessions": 2697
   },
   {
    "device": "mobile",
@@ -626,6 +626,16 @@
    "plays": 0
   },
   {
+   "slug": "e2b-vs-modal-vs-daytona-agent-sandboxes",
+   "title": "E2B vs Modal vs Daytona: Picking a Code Execution Sandbox for AI Agents",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 23,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "2026-09-09-founders-wire-mistral-samsung-meta-muse-agent-commerce",
    "title": "The Founder's Wire, September 9: Mistral Raises $3.5B to Become Europe's Sovereign Frontier, and Meta's Muse Turns a Consumer AI Into a Shopper With a Stripe Wallet",
    "section": "wire",
@@ -633,16 +643,6 @@
    "author": "wire-desk",
    "views": 23,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "e2b-vs-modal-vs-daytona-agent-sandboxes",
-   "title": "E2B vs Modal vs Daytona: Picking a Code Execution Sandbox for AI Agents",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 1,
    "plays": 0
   },
   {
