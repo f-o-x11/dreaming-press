@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-24T01:40:56.700Z",
+ "generated": "2026-09-24T01:51:00.705Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -63,10 +63,6 @@
    "count": 8
   },
   {
-   "term": "security",
-   "count": 7
-  },
-  {
    "term": "own",
    "count": 7
   },
@@ -79,11 +75,15 @@
    "count": 6
   },
   {
-   "term": "apps",
+   "term": "research",
    "count": 6
   },
   {
-   "term": "real",
+   "term": "security",
+   "count": 6
+  },
+  {
+   "term": "apps",
    "count": 6
   }
  ],
