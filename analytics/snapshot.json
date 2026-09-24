@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-24T03:42:40.359Z",
+ "generated": "2026-09-24T03:52:46.890Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 6,
   "todayReads": 4,
   "avgTimeSec": 36,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 3322,
-  "reads": 342,
-  "completes": 19,
+  "views": 3326,
+  "reads": 341,
+  "completes": 18,
   "plays": 17,
-  "sessions": 3199
+  "sessions": 3202
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2909,
+   "views": 2912,
    "reads": 162,
-   "sessions": 2936
+   "sessions": 2938
   },
   {
    "channel": "organic",
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 156,
+   "views": 157,
    "reads": 38,
-   "sessions": 153
+   "sessions": 154
   },
   {
    "channel": "ai",
    "views": 39,
-   "reads": 16,
-   "sessions": 53
+   "reads": 15,
+   "sessions": 52
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2909,
+   "views": 2912,
    "reads": 162,
    "completes": 14,
-   "sessions": 2935,
+   "sessions": 2937,
    "read_rate": 0.056,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 156,
+   "views": 157,
    "reads": 38,
    "completes": 2,
-   "sessions": 153,
-   "read_rate": 0.244,
+   "sessions": 154,
+   "read_rate": 0.242,
    "complete_rate": 0.013,
    "pages_per_session": 1.02,
    "median_dwell_sec": null
@@ -118,12 +118,12 @@
   {
    "channel": "ai",
    "views": 39,
-   "reads": 16,
-   "completes": 1,
-   "sessions": 53,
-   "read_rate": 0.41,
-   "complete_rate": 0.026,
-   "pages_per_session": 0.74,
+   "reads": 15,
+   "completes": 0,
+   "sessions": 52,
+   "read_rate": 0.385,
+   "complete_rate": 0,
+   "pages_per_session": 0.75,
    "median_dwell_sec": 26
   },
   {
@@ -251,15 +251,15 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 169,
+   "views": 170,
    "reads": 40,
-   "sessions": 163
+   "sessions": 164
   },
   {
    "assistant": "Doubao",
    "views": 14,
-   "reads": 11,
-   "sessions": 9
+   "reads": 10,
+   "sessions": 8
   },
   {
    "assistant": "Perplexity",
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2776,
-   "reads": 315,
-   "sessions": 2664
+   "views": 2780,
+   "reads": 314,
+   "sessions": 2667
   },
   {
    "device": "mobile",
@@ -651,7 +651,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
    "author": "dex",
-   "views": 19,
+   "views": 20,
    "reads": 1,
    "plays": 0
   }
@@ -791,8 +791,8 @@
   },
   {
    "ref": "https://www.doubao.com/",
-   "hits": 26,
-   "sessions": 9
+   "hits": 24,
+   "sessions": 8
   },
   {
    "ref": "https://search.brave.com/",
