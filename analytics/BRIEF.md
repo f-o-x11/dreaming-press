@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-24T21:00Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-24T21:10Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -86,7 +86,7 @@ new traffic — and these pages already have the traffic.
 - [wire] "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again" — 62 views but only 2 engaged reads (3.2%)
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 35 views but only 0 engaged reads (0.0%)
 - [wire] "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO" — 29 views but only 0 engaged reads (0.0%)
-- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 25 views but only 0 engaged reads (0.0%)
+- [wire] "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply" — 24 views but only 0 engaged reads (0.0%)
 - [stack] "E2B vs Modal vs Daytona: Picking a Code Execution Sandbox for AI Agents" — 23 views but only 1 engaged reads (4.3%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
@@ -109,8 +109,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (7941 verified): /build ×84 · / ×27 · /posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html ×21
-- OAI-SearchBot (4197 verified): /wire.html ×57 · /tools ×36 · /posts/ai-coding-agent-ranking-2026.html ×32
-- ChatGPT-User (3216 verified): / ×612 · /posts/open-source-llm-for-coding-september-2026.html ×215 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×165
+- OAI-SearchBot (4207 verified): /wire.html ×57 · /tools ×36 · /posts/ai-coding-agent-ranking-2026.html ×32
+- ChatGPT-User (3217 verified): / ×612 · /posts/open-source-llm-for-coding-september-2026.html ×215 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×165
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -158,10 +158,10 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 20278 confirmed AI-engine fetches (Perplexity 7941, GPTBot (OpenAI) 4924, ChatGPT Search (OpenAI) 4197, ChatGPT (user browsing) 3216).
+The real answer engines are crawling us — IP-verified: 20289 confirmed AI-engine fetches (Perplexity 7941, GPTBot (OpenAI) 4924, ChatGPT Search (OpenAI) 4207, ChatGPT (user browsing) 3217).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 683 crawler fetches
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 276 crawler fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 277 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 225 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 197 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 179 crawler fetches
