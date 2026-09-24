@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-24T01:30:40.040Z",
+ "generated": "2026-09-24T01:40:56.751Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 7,
   "todayReads": 1,
   "avgTimeSec": 3,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 3319,
-  "reads": 345,
+  "views": 3322,
+  "reads": 344,
   "completes": 20,
   "plays": 17,
-  "sessions": 3190
+  "sessions": 3193
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2907,
+   "views": 2909,
    "reads": 163,
-   "sessions": 2931
+   "sessions": 2933
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 153,
-   "reads": 40,
-   "sessions": 150
+   "views": 154,
+   "reads": 39,
+   "sessions": 151
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2907,
+   "views": 2909,
    "reads": 163,
    "completes": 15,
-   "sessions": 2930,
+   "sessions": 2932,
    "read_rate": 0.056,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 153,
-   "reads": 40,
+   "views": 154,
+   "reads": 39,
    "completes": 2,
-   "sessions": 150,
-   "read_rate": 0.261,
+   "sessions": 151,
+   "read_rate": 0.253,
    "complete_rate": 0.013,
    "pages_per_session": 1.02,
    "median_dwell_sec": null
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 167,
-   "reads": 42,
-   "sessions": 160
+   "views": 168,
+   "reads": 41,
+   "sessions": 161
   },
   {
    "assistant": "Doubao",
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2772,
-   "reads": 318,
-   "sessions": 2654
+   "views": 2775,
+   "reads": 317,
+   "sessions": 2657
   },
   {
    "device": "mobile",
@@ -659,9 +659,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 393,
+   "views": 394,
    "reads": 0,
-   "sessions": 393,
+   "sessions": 394,
    "avg_dwell_sec": 3
   },
   {
