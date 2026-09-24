@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-24T03:32:33.445Z",
+ "generated": "2026-09-24T03:42:40.359Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 4,
   "todayReads": 4,
   "avgTimeSec": 36,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 3329,
+  "views": 3322,
   "reads": 342,
   "completes": 19,
   "plays": 17,
-  "sessions": 3205
+  "sessions": 3199
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2915,
+   "views": 2909,
    "reads": 162,
-   "sessions": 2942
+   "sessions": 2936
   },
   {
    "channel": "organic",
@@ -35,7 +35,7 @@
   },
   {
    "channel": "ai",
-   "views": 40,
+   "views": 39,
    "reads": 16,
    "sessions": 53
   },
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2915,
+   "views": 2909,
    "reads": 162,
    "completes": 14,
-   "sessions": 2941,
+   "sessions": 2935,
    "read_rate": 0.056,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -117,13 +117,13 @@
   },
   {
    "channel": "ai",
-   "views": 40,
+   "views": 39,
    "reads": 16,
    "completes": 1,
    "sessions": 53,
-   "read_rate": 0.4,
-   "complete_rate": 0.025,
-   "pages_per_session": 0.75,
+   "read_rate": 0.41,
+   "complete_rate": 0.026,
+   "pages_per_session": 0.74,
    "median_dwell_sec": 26
   },
   {
@@ -257,7 +257,7 @@
   },
   {
    "assistant": "Doubao",
-   "views": 15,
+   "views": 14,
    "reads": 11,
    "sessions": 9
   },
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2780,
+   "views": 2776,
    "reads": 315,
-   "sessions": 2667
+   "sessions": 2664
   },
   {
    "device": "mobile",
-   "views": 549,
+   "views": 546,
    "reads": 27,
-   "sessions": 538
+   "sessions": 535
   }
  ],
  "topContent": [
@@ -791,7 +791,7 @@
   },
   {
    "ref": "https://www.doubao.com/",
-   "hits": 27,
+   "hits": 26,
    "sessions": 9
   },
   {
