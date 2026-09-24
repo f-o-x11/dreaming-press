@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-24T00:19:25.638Z",
+ "generated": "2026-09-24T00:29:32.155Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19599,
+ "verifiedAiHits": 19604,
  "logsScanned": 30,
  "windowStart": "2026-09-10",
  "windowEnd": "2026-09-24",
- "totalHits": 120940,
- "aiHits": 96515,
+ "totalHits": 120964,
+ "aiHits": 96533,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35326,
+   "hits": 35327,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14885,
+   "hits": 14893,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6913,
-   "verifiedHits": 6483,
+   "hits": 6919,
+   "verifiedHits": 6489,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
@@ -245,14 +245,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4394,
-   "verifiedHits": 3808,
+   "hits": 4399,
+   "verifiedHits": 3813,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
     {
      "path": "/wire.html",
-     "hits": 52
+     "hits": 53
     },
     {
      "path": "/tools",
@@ -410,14 +410,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2139,
+   "hits": 2140,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 229
+     "hits": 230
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
@@ -443,10 +443,10 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1028,
+   "hits": 1031,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
-   "lastSeen": "2026-09-23",
+   "lastSeen": "2026-09-24",
    "topPaths": [
     {
      "path": "/dashboard",
