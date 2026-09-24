@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-24T02:01:19.556Z",
+ "generated": "2026-09-24T02:11:34.716Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 1,
+  "readersNow": 5,
+  "todayReads": 2,
   "avgTimeSec": 3,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 3324,
+  "views": 3327,
   "reads": 343,
   "completes": 19,
   "plays": 17,
-  "sessions": 3195
+  "sessions": 3199
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2911,
-   "reads": 162,
-   "sessions": 2935
+   "views": 2914,
+   "reads": 163,
+   "sessions": 2938
   },
   {
    "channel": "organic",
@@ -30,7 +30,7 @@
   {
    "channel": "campaign:chatgpt.com",
    "views": 154,
-   "reads": 39,
+   "reads": 38,
    "sessions": 151
   },
   {
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2911,
-   "reads": 162,
+   "views": 2914,
+   "reads": 163,
    "completes": 14,
-   "sessions": 2934,
+   "sessions": 2937,
    "read_rate": 0.056,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -85,10 +85,10 @@
   {
    "channel": "campaign:chatgpt.com",
    "views": 154,
-   "reads": 39,
+   "reads": 38,
    "completes": 2,
    "sessions": 151,
-   "read_rate": 0.253,
+   "read_rate": 0.247,
    "complete_rate": 0.013,
    "pages_per_session": 1.02,
    "median_dwell_sec": null
@@ -252,8 +252,8 @@
   {
    "assistant": "ChatGPT",
    "views": 168,
-   "reads": 41,
-   "sessions": 161
+   "reads": 40,
+   "sessions": 162
   },
   {
    "assistant": "Doubao",
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2777,
+   "views": 2780,
    "reads": 316,
-   "sessions": 2659
+   "sessions": 2663
   },
   {
    "device": "mobile",
@@ -422,6 +422,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
+   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 10,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "ai-agent-security-jobs",
    "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
    "section": "stack",
@@ -438,16 +448,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 10,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
-   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 9,
    "reads": 4,
    "plays": 0
   }
