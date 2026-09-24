@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-24T13:42:32.960Z",
+ "generated": "2026-09-24T13:52:23.716Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 20063,
+ "verifiedAiHits": 20069,
  "logsScanned": 30,
  "windowStart": "2026-09-10",
  "windowEnd": "2026-09-24",
- "totalHits": 125040,
- "aiHits": 99703,
+ "totalHits": 125089,
+ "aiHits": 99746,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36833,
+   "hits": 36856,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 17521,
+   "hits": 17523,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15442,
+   "hits": 15449,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7384,
-   "verifiedHits": 6948,
+   "hits": 7390,
+   "verifiedHits": 6954,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4683,
-   "verifiedHits": 4093,
+   "hits": 4685,
+   "verifiedHits": 4095,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3677,
-   "verifiedHits": 3134,
+   "hits": 3681,
+   "verifiedHits": 3138,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
    "topPaths": [
     {
      "path": "/",
-     "hits": 599
+     "hits": 600
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2242,
+   "hits": 2247,
    "verifiedHits": 0,
    "firstSeen": "2026-09-10",
    "lastSeen": "2026-09-24",
@@ -429,7 +429,7 @@
     },
     {
      "path": "/posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html",
-     "hits": 130
+     "hits": 131
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
