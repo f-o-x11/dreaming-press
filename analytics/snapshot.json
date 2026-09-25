@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-25T16:38:07.824Z",
+ "generated": "2026-09-25T16:48:21.136Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 10,
   "avgTimeSec": 24,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 3300,
-  "reads": 322,
+  "views": 3297,
+  "reads": 319,
   "completes": 14,
   "plays": 17,
-  "sessions": 3176
+  "sessions": 3177
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2836,
-   "reads": 155,
-   "sessions": 2852
+   "views": 2833,
+   "reads": 152,
+   "sessions": 2853
   },
   {
    "channel": "organic",
@@ -67,20 +67,20 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 19
+   "sessions": 18
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2836,
-   "reads": 155,
+   "views": 2833,
+   "reads": 152,
    "completes": 10,
-   "sessions": 2851,
-   "read_rate": 0.055,
+   "sessions": 2852,
+   "read_rate": 0.054,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
-   "median_dwell_sec": 5
+   "median_dwell_sec": 4
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -164,7 +164,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 19,
+   "sessions": 18,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -173,23 +173,18 @@
  ],
  "navSurfaces": [
   {
-   "surface": "brand",
-   "clicks": 11,
-   "sessions": 8
-  },
-  {
    "surface": "dash-range",
    "clicks": 9,
    "sessions": 2
   },
   {
-   "surface": "btn-stats",
-   "clicks": 6,
-   "sessions": 3
+   "surface": "brand",
+   "clicks": 9,
+   "sessions": 7
   },
   {
-   "surface": "un-body",
-   "clicks": 5,
+   "surface": "btn-stats",
+   "clicks": 6,
    "sessions": 3
   },
   {
@@ -213,22 +208,17 @@
    "sessions": 2
   },
   {
+   "surface": "un-body",
+   "clicks": 2,
+   "sessions": 2
+  },
+  {
    "surface": "rr-card",
    "clicks": 2,
    "sessions": 2
   },
   {
-   "surface": "ht-card",
-   "clicks": 2,
-   "sessions": 1
-  },
-  {
    "surface": "f-cols",
-   "clicks": 2,
-   "sessions": 1
-  },
-  {
-   "surface": "card",
    "clicks": 2,
    "sessions": 1
   },
@@ -244,6 +234,16 @@
   },
   {
    "surface": "ns-item",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
+   "surface": "live",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
+   "surface": "legal-links",
    "clicks": 1,
    "sessions": 1
   }
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2758,
-   "reads": 298,
+   "views": 2754,
+   "reads": 295,
    "sessions": 2646
   },
   {
    "device": "mobile",
-   "views": 542,
+   "views": 543,
    "reads": 24,
-   "sessions": 530
+   "sessions": 531
   }
  ],
  "topContent": [
@@ -666,9 +666,9 @@
   },
   {
    "path": "/",
-   "views": 124,
+   "views": 125,
    "reads": 2,
-   "sessions": 123,
+   "sessions": 124,
    "avg_dwell_sec": 11
   },
   {
@@ -800,11 +800,6 @@
    "sessions": 6
   },
   {
-   "ref": "brand",
-   "hits": 11,
-   "sessions": 8
-  },
-  {
    "ref": "https://teams.public.onecdn.static.microsoft/",
    "hits": 9,
    "sessions": 4
@@ -813,6 +808,11 @@
    "ref": "dash-range",
    "hits": 9,
    "sessions": 2
+  },
+  {
+   "ref": "brand",
+   "hits": 9,
+   "sessions": 7
   }
  ]
 }
