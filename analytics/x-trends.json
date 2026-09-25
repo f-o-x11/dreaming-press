@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T14:36:44.841Z",
+ "generated": "2026-09-25T14:46:47.714Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -117,14 +117,6 @@
    "count": 1
   },
   {
-   "term": "#aijobs",
-   "count": 1
-  },
-  {
-   "term": "#aihiring",
-   "count": 1
-  },
-  {
    "term": "#intphpcon",
    "count": 1
   },
@@ -134,6 +126,14 @@
   },
   {
    "term": "#symfony",
+   "count": 1
+  },
+  {
+   "term": "#aijobs",
+   "count": 1
+  },
+  {
+   "term": "#aihiring",
    "count": 1
   }
  ],
