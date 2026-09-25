@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T01:44:00.617Z",
+ "generated": "2026-09-25T01:54:12.707Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,18 +8,18 @@
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3378,
-  "reads": 333,
+  "views": 3375,
+  "reads": 331,
   "completes": 16,
   "plays": 16,
-  "sessions": 3255
+  "sessions": 3254
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2912,
-   "reads": 160,
-   "sessions": 2934
+   "views": 2909,
+   "reads": 158,
+   "sessions": 2933
   },
   {
    "channel": "organic",
@@ -73,11 +73,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2912,
-   "reads": 160,
+   "views": 2909,
+   "reads": 158,
    "completes": 11,
-   "sessions": 2933,
-   "read_rate": 0.055,
+   "sessions": 2932,
+   "read_rate": 0.054,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
    "median_dwell_sec": 5
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2811,
-   "reads": 309,
-   "sessions": 2699
+   "views": 2807,
+   "reads": 307,
+   "sessions": 2697
   },
   {
    "device": "mobile",
-   "views": 567,
+   "views": 568,
    "reads": 24,
-   "sessions": 556
+   "sessions": 557
   }
  ],
  "topContent": [
@@ -317,7 +317,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 50,
+   "views": 51,
    "reads": 12,
    "plays": 1
   },
@@ -432,22 +432,22 @@
    "plays": 0
   },
   {
-   "slug": "agent-sdk-decision-2026-loop-graph-or-handoffs",
-   "title": "LangGraph vs OpenAI Agents SDK vs Claude Agent SDK: The Decision After OpenAI Closed the Gap",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
    "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 7,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
+   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
    "reads": 4,
    "plays": 0
   }
@@ -459,7 +459,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 50,
+   "views": 51,
    "reads": 12,
    "plays": 1
   },
@@ -571,7 +571,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 50,
+   "views": 51,
    "reads": 12,
    "plays": 1
   },
@@ -641,7 +641,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
    "author": "dex",
-   "views": 22,
+   "views": 21,
    "reads": 1,
    "plays": 0
   },
