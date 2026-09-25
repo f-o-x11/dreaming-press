@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T16:48:21.075Z",
+ "generated": "2026-09-25T16:58:47.046Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -28,7 +28,7 @@
   },
   {
    "term": "agentic",
-   "count": 25
+   "count": 26
   },
   {
    "term": "coding",
@@ -55,6 +55,10 @@
    "count": 8
   },
   {
+   "term": "first",
+   "count": 8
+  },
+  {
    "term": "make",
    "count": 8
   },
@@ -75,15 +79,11 @@
    "count": 7
   },
   {
+   "term": "workflows",
+   "count": 7
+  },
+  {
    "term": "its",
-   "count": 7
-  },
-  {
-   "term": "own",
-   "count": 7
-  },
-  {
-   "term": "first",
    "count": 7
   }
  ],
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Being able to demonstrate that you can build production-ready AI agents is super useful these days. In this 8-hour course, Andrew helps you prepare for the Claude Certified Developer Foundations cert. You'll learn about ",
-   "engagement": 824,
+   "engagement": 825,
    "url": "https://x.com/i/status/2103213282618167787",
    "created": "2026-09-24T20:01:37.000Z"
   },
@@ -182,7 +182,7 @@
   },
   {
    "text": "Agents are central to the future of the agentic economy. But the question is not whether an agent can make a mistake. It is what happens when a mistaken agent can sign. A trading agent reads token metadata, tool output, ",
-   "engagement": 84,
+   "engagement": 85,
    "url": "https://x.com/i/status/2101350411424743669",
    "created": "2026-09-19T16:39:13.000Z"
   }
