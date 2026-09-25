@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-25T22:00:33.323Z",
+ "generated": "2026-09-25T22:10:37.715Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 20547,
+ "verifiedAiHits": 20551,
  "logsScanned": 30,
  "windowStart": "2026-09-11",
  "windowEnd": "2026-09-25",
- "totalHits": 124418,
- "aiHits": 100114,
+ "totalHits": 124447,
+ "aiHits": 100139,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 36023,
+   "hits": 36034,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15881,
+   "hits": 15888,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7618,
-   "verifiedHits": 7195,
+   "hits": 7621,
+   "verifiedHits": 7198,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5063,
-   "verifiedHits": 4502,
+   "hits": 5067,
+   "verifiedHits": 4506,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
    "topPaths": [
@@ -259,15 +259,15 @@
      "hits": 35
     },
     {
+     "path": "/posts/2026-08-31-founders-wire-openai-cursor-cutoff-claudeforce-a16z-machine-age.html",
+     "hits": 30
+    },
+    {
      "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
      "hits": 30
     },
     {
      "path": "/posts/best-open-source-vector-database-2026.html",
-     "hits": 30
-    },
-    {
-     "path": "/posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html",
      "hits": 30
     }
    ],
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3880,
+   "hits": 3881,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
@@ -443,7 +443,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1481,
+   "hits": 1484,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
