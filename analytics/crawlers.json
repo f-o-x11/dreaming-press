@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-25T16:27:59.907Z",
+ "generated": "2026-09-25T16:38:07.249Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 20312,
+ "verifiedAiHits": 20329,
  "logsScanned": 30,
  "windowStart": "2026-09-11",
  "windowEnd": "2026-09-25",
- "totalHits": 122983,
- "aiHits": 98875,
+ "totalHits": 123016,
+ "aiHits": 98905,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35768,
+   "hits": 35769,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15625,
+   "hits": 15633,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7513,
-   "verifiedHits": 7090,
+   "hits": 7514,
+   "verifiedHits": 7091,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
    "topPaths": [
@@ -245,14 +245,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4916,
-   "verifiedHits": 4355,
+   "hits": 4932,
+   "verifiedHits": 4371,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
    "topPaths": [
     {
      "path": "/wire.html",
-     "hits": 58
+     "hits": 59
     },
     {
      "path": "/tools",
@@ -263,11 +263,11 @@
      "hits": 30
     },
     {
-     "path": "/posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html",
+     "path": "/posts/best-open-source-vector-database-2026.html",
      "hits": 30
     },
     {
-     "path": "/posts/2026-09-02-founders-wire-fable-51-openai-cursor-cutoff-anthropic-lambda-35b.html",
+     "path": "/posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html",
      "hits": 30
     }
    ],
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3820,
+   "hits": 3822,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3693,
-   "verifiedHits": 3178,
+   "hits": 3694,
+   "verifiedHits": 3179,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2437,
+   "hits": 2439,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
@@ -421,7 +421,7 @@
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
-     "hits": 195
+     "hits": 196
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
@@ -429,7 +429,7 @@
     },
     {
      "path": "/posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html",
-     "hits": 141
+     "hits": 142
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -443,7 +443,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1370,
+   "hits": 1372,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
