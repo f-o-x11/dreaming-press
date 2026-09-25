@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-25T02:04:26.221Z",
+ "generated": "2026-09-25T02:14:26.561Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 6,
   "todayReads": 2,
-  "avgTimeSec": 13,
+  "avgTimeSec": 11,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3373,
+  "views": 3375,
   "reads": 330,
   "completes": 16,
   "plays": 16,
-  "sessions": 3252
+  "sessions": 3254
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2907,
+   "views": 2908,
    "reads": 157,
-   "sessions": 2931
+   "sessions": 2932
   },
   {
    "channel": "organic",
-   "views": 143,
+   "views": 144,
    "reads": 102,
-   "sessions": 108
+   "sessions": 109
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2907,
+   "views": 2908,
    "reads": 157,
    "completes": 11,
-   "sessions": 2930,
+   "sessions": 2931,
    "read_rate": 0.054,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "organic",
-   "views": 143,
+   "views": 144,
    "reads": 102,
    "completes": 2,
-   "sessions": 108,
-   "read_rate": 0.713,
+   "sessions": 109,
+   "read_rate": 0.708,
    "complete_rate": 0.014,
    "pages_per_session": 1.32,
    "median_dwell_sec": null
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2805,
+   "views": 2807,
    "reads": 306,
-   "sessions": 2695
+   "sessions": 2697
   },
   {
    "device": "mobile",
@@ -317,7 +317,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 51,
+   "views": 52,
    "reads": 12,
    "plays": 1
   },
@@ -459,7 +459,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 51,
+   "views": 52,
    "reads": 12,
    "plays": 1
   },
@@ -514,9 +514,9 @@
    "plays": 1
   },
   {
-   "slug": "best-llm-for-function-calling",
-   "title": "Best LLM for Function Calling: Why the Leaderboard Score Lies",
-   "section": "wire",
+   "slug": "2026-06-21-n8n-vs-flowise-vs-langflow",
+   "title": "n8n vs Flowise vs Langflow: Choosing a Visual Agent Builder in 2026",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 4,
@@ -524,12 +524,12 @@
    "plays": 1
   },
   {
-   "slug": "2026-06-21-n8n-vs-flowise-vs-langflow",
-   "title": "n8n vs Flowise vs Langflow: Choosing a Visual Agent Builder in 2026",
-   "section": "stack",
+   "slug": "best-llm-for-function-calling",
+   "title": "Best LLM for Function Calling: Why the Leaderboard Score Lies",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 3,
+   "views": 4,
    "reads": 2,
    "plays": 1
   },
@@ -571,7 +571,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 51,
+   "views": 52,
    "reads": 12,
    "plays": 1
   },
@@ -659,9 +659,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 392,
+   "views": 391,
    "reads": 0,
-   "sessions": 392,
+   "sessions": 391,
    "avg_dwell_sec": 3
   },
   {
@@ -786,8 +786,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 36,
-   "sessions": 23
+   "hits": 37,
+   "sessions": 24
   },
   {
    "ref": "https://search.brave.com/",
