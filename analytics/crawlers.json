@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-25T01:13:39.609Z",
+ "generated": "2026-09-25T01:23:49.723Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19782,
+ "verifiedAiHits": 19784,
  "logsScanned": 30,
  "windowStart": "2026-09-11",
  "windowEnd": "2026-09-25",
- "totalHits": 118407,
- "aiHits": 95039,
+ "totalHits": 118437,
+ "aiHits": 95064,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 34418,
+   "hits": 34428,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14917,
+   "hits": 14925,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7190,
-   "verifiedHits": 6767,
+   "hits": 7194,
+   "verifiedHits": 6771,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4642,
-   "verifiedHits": 4089,
+   "hits": 4643,
+   "verifiedHits": 4090,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
    "topPaths": [
@@ -263,11 +263,11 @@
      "hits": 29
     },
     {
-     "path": "/posts/2026-08-19-founders-wire-etched-21b-chatgpt-teens-reach-capital.html",
-     "hits": 28
+     "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
+     "hits": 29
     },
     {
-     "path": "/posts/kimi-k3-vs-opus-vs-gpt-56-coding-agent-cost.html",
+     "path": "/posts/2026-08-19-founders-wire-etched-21b-chatgpt-teens-reach-capital.html",
      "hits": 28
     }
    ],
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3535,
-   "verifiedHits": 3025,
+   "hits": 3536,
+   "verifiedHits": 3026,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2489,
+   "hits": 2490,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
@@ -443,7 +443,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1148,
+   "hits": 1152,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
@@ -542,8 +542,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 608,
-   "verifiedHits": 471,
+   "hits": 609,
+   "verifiedHits": 472,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
    "topPaths": [
