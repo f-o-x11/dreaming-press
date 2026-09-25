@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-25T02:54:50.864Z",
+ "generated": "2026-09-25T03:05:00.409Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
   "todayReads": 2,
-  "avgTimeSec": 12,
+  "avgTimeSec": 11,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3368,
+  "views": 3364,
   "reads": 330,
   "completes": 16,
   "plays": 16,
-  "sessions": 3246
+  "sessions": 3242
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2901,
+   "views": 2897,
    "reads": 157,
-   "sessions": 2924
+   "sessions": 2920
   },
   {
    "channel": "organic",
@@ -73,14 +73,14 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2901,
+   "views": 2897,
    "reads": 157,
    "completes": 11,
-   "sessions": 2923,
+   "sessions": 2919,
    "read_rate": 0.054,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
-   "median_dwell_sec": 5
+   "median_dwell_sec": 4
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2800,
+   "views": 2796,
    "reads": 306,
-   "sessions": 2689
+   "sessions": 2685
   },
   {
    "device": "mobile",
@@ -397,7 +397,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 11,
+   "views": 10,
    "reads": 5,
    "plays": 0
   },
@@ -651,7 +651,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 19,
+   "views": 20,
    "reads": 2,
    "plays": 0
   }
@@ -728,13 +728,6 @@
    "avg_dwell_sec": 45
   },
   {
-   "path": "/apps",
-   "views": 8,
-   "reads": 0,
-   "sessions": 8,
-   "avg_dwell_sec": 6
-  },
-  {
    "path": "/reports/:report",
    "views": 8,
    "reads": 0,
@@ -742,10 +735,17 @@
    "avg_dwell_sec": 6
   },
   {
+   "path": "/apps",
+   "views": 7,
+   "reads": 0,
+   "sessions": 7,
+   "avg_dwell_sec": 6
+  },
+  {
    "path": "/subscribe",
-   "views": 8,
+   "views": 7,
    "reads": 1,
-   "sessions": 6,
+   "sessions": 5,
    "avg_dwell_sec": 34
   },
   {
