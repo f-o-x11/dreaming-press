@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T07:39:00.422Z",
+ "generated": "2026-09-25T07:49:09.335Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,18 +8,18 @@
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3321,
+  "views": 3316,
   "reads": 329,
   "completes": 16,
   "plays": 16,
-  "sessions": 3198
+  "sessions": 3193
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2854,
+   "views": 2850,
    "reads": 157,
-   "sessions": 2878
+   "sessions": 2874
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 214,
+   "views": 215,
    "reads": 40,
-   "sessions": 211
+   "sessions": 212
   },
   {
    "channel": "ai",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 63,
+   "views": 62,
    "reads": 12,
-   "sessions": 61
+   "sessions": 60
   },
   {
    "channel": "campaign:qwant",
@@ -52,13 +52,13 @@
    "sessions": 2
   },
   {
-   "channel": "social",
-   "views": 2,
+   "channel": "campaign:producthunt/",
+   "views": 1,
    "reads": 0,
-   "sessions": 2
+   "sessions": 1
   },
   {
-   "channel": "campaign:producthunt/",
+   "channel": "social",
    "views": 1,
    "reads": 0,
    "sessions": 1
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2854,
+   "views": 2850,
    "reads": 157,
    "completes": 11,
-   "sessions": 2877,
+   "sessions": 2873,
    "read_rate": 0.055,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 214,
+   "views": 215,
    "reads": 40,
    "completes": 2,
-   "sessions": 211,
-   "read_rate": 0.187,
+   "sessions": 212,
+   "read_rate": 0.186,
    "complete_rate": 0.009,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -106,11 +106,11 @@
   },
   {
    "channel": "referral",
-   "views": 63,
+   "views": 62,
    "reads": 12,
    "completes": 0,
-   "sessions": 61,
-   "read_rate": 0.19,
+   "sessions": 60,
+   "read_rate": 0.194,
    "complete_rate": 0,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -138,18 +138,18 @@
    "median_dwell_sec": null
   },
   {
-   "channel": "social",
-   "views": 2,
+   "channel": "campaign:producthunt/",
+   "views": 1,
    "reads": 0,
    "completes": 0,
-   "sessions": 2,
+   "sessions": 1,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
   {
-   "channel": "campaign:producthunt/",
+   "channel": "social",
    "views": 1,
    "reads": 0,
    "completes": 0,
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 227,
+   "views": 228,
    "reads": 42,
-   "sessions": 221
+   "sessions": 222
   },
   {
    "assistant": "Doubao",
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2767,
+   "views": 2763,
    "reads": 305,
-   "sessions": 2655
+   "sessions": 2651
   },
   {
    "device": "mobile",
-   "views": 554,
+   "views": 553,
    "reads": 24,
-   "sessions": 543
+   "sessions": 542
   }
  ],
  "topContent": [
@@ -327,7 +327,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 37,
+   "views": 35,
    "reads": 11,
    "plays": 1
   },
@@ -469,7 +469,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 37,
+   "views": 35,
    "reads": 11,
    "plays": 1
   },
@@ -601,7 +601,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 37,
+   "views": 35,
    "reads": 11,
    "plays": 1
   },
@@ -721,13 +721,6 @@
    "avg_dwell_sec": 45
   },
   {
-   "path": "/compare/:pair",
-   "views": 8,
-   "reads": 2,
-   "sessions": 8,
-   "avg_dwell_sec": 78
-  },
-  {
    "path": "/alternatives/:tool",
    "views": 7,
    "reads": 0,
@@ -740,6 +733,13 @@
    "reads": 0,
    "sessions": 7,
    "avg_dwell_sec": 6
+  },
+  {
+   "path": "/compare/:pair",
+   "views": 7,
+   "reads": 2,
+   "sessions": 7,
+   "avg_dwell_sec": 91
   },
   {
    "path": "/subscribe",
