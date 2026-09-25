@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-25T16:17:52.553Z",
+ "generated": "2026-09-25T16:28:00.481Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 1,
   "todayReads": 10,
   "avgTimeSec": 24,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 3306,
-  "reads": 325,
+  "views": 3304,
+  "reads": 324,
   "completes": 14,
   "plays": 17,
-  "sessions": 3179
+  "sessions": 3178
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2842,
+   "views": 2841,
    "reads": 157,
-   "sessions": 2856
+   "sessions": 2855
   },
   {
    "channel": "organic",
-   "views": 140,
-   "reads": 98,
-   "sessions": 105
+   "views": 139,
+   "reads": 97,
+   "sessions": 104
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2842,
+   "views": 2841,
    "reads": 157,
    "completes": 10,
-   "sessions": 2855,
+   "sessions": 2854,
    "read_rate": 0.055,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -95,13 +95,13 @@
   },
   {
    "channel": "organic",
-   "views": 140,
-   "reads": 98,
+   "views": 139,
+   "reads": 97,
    "completes": 2,
-   "sessions": 105,
-   "read_rate": 0.7,
+   "sessions": 104,
+   "read_rate": 0.698,
    "complete_rate": 0.014,
-   "pages_per_session": 1.33,
+   "pages_per_session": 1.34,
    "median_dwell_sec": null
   },
   {
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2761,
-   "reads": 301,
-   "sessions": 2646
+   "views": 2759,
+   "reads": 300,
+   "sessions": 2645
   },
   {
    "device": "mobile",
@@ -412,21 +412,21 @@
    "plays": 0
   },
   {
-   "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
-   "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 12,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-security-jobs",
    "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
+   "views": 11,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
+   "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
    "views": 11,
    "reads": 4,
    "plays": 0
@@ -776,8 +776,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 55,
-   "sessions": 33
+   "hits": 53,
+   "sessions": 32
   },
   {
    "ref": "https://cn.bing.com/",
