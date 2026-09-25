@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T13:24:55.526Z",
+ "generated": "2026-09-25T13:35:00.546Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 43
+   "count": 42
   },
   {
    "term": "founder",
@@ -43,16 +43,20 @@
    "count": 17
   },
   {
-   "term": "claude",
-   "count": 11
-  },
-  {
    "term": "jev",
    "count": 11
   },
   {
    "term": "today",
    "count": 10
+  },
+  {
+   "term": "claude",
+   "count": 9
+  },
+  {
+   "term": "big",
+   "count": 8
   },
   {
    "term": "own",
@@ -80,10 +84,6 @@
   },
   {
    "term": "code",
-   "count": 7
-  },
-  {
-   "term": "one",
    "count": 7
   }
  ],
@@ -117,14 +117,6 @@
    "count": 1
   },
   {
-   "term": "#aijobs",
-   "count": 1
-  },
-  {
-   "term": "#aihiring",
-   "count": 1
-  },
-  {
    "term": "#intphpcon",
    "count": 1
   },
@@ -135,15 +127,17 @@
   {
    "term": "#symfony",
    "count": 1
+  },
+  {
+   "term": "#aijobs",
+   "count": 1
+  },
+  {
+   "term": "#aihiring",
+   "count": 1
   }
  ],
  "topPosts": [
-  {
-   "text": "Being able to demonstrate that you can build production-ready AI agents is super useful these days. In this 8-hour course, Andrew helps you prepare for the Claude Certified Developer Foundations cert. You'll learn about ",
-   "engagement": 770,
-   "url": "https://x.com/i/status/2103213282618167787",
-   "created": "2026-09-24T20:01:37.000Z"
-  },
   {
    "text": "Build but build well on @RobinhoodCrypto make a difference. I have been thirsty to extend on my thesis; Before I dive into things just note @vladtenev quoted “The next era of consumer finance is agentic.” There’s nothing",
    "engagement": 336,
@@ -185,6 +179,12 @@
    "engagement": 94,
    "url": "https://x.com/i/status/2102358751290236980",
    "created": "2026-09-22T11:26:00.000Z"
+  },
+  {
+   "text": "Agents are central to the future of the agentic economy. But the question is not whether an agent can make a mistake. It is what happens when a mistaken agent can sign. A trading agent reads token metadata, tool output, ",
+   "engagement": 84,
+   "url": "https://x.com/i/status/2101350411424743669",
+   "created": "2026-09-19T16:39:13.000Z"
   }
  ]
 }
