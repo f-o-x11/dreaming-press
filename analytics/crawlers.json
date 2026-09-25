@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-25T17:39:04.778Z",
+ "generated": "2026-09-25T17:49:07.155Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 20361,
+ "verifiedAiHits": 20367,
  "logsScanned": 30,
  "windowStart": "2026-09-11",
  "windowEnd": "2026-09-25",
- "totalHits": 123293,
- "aiHits": 99145,
+ "totalHits": 123366,
+ "aiHits": 99207,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35846,
+   "hits": 35850,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 17214,
+   "hits": 17253,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
@@ -69,7 +69,7 @@
      "hits": 8
     },
     {
-     "path": "/posts/text-generation-inference-tgi-archived-migrate-off.html",
+     "path": "/posts/langchain-vs-langgraph-vs-deepagents-harness.html",
      "hits": 8
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15683,
+   "hits": 15690,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 8473,
-   "verifiedHits": 7857,
+   "hits": 8474,
+   "verifiedHits": 7858,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7532,
-   "verifiedHits": 7109,
+   "hits": 7540,
+   "verifiedHits": 7117,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4952,
-   "verifiedHits": 4391,
+   "hits": 4955,
+   "verifiedHits": 4394,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3838,
+   "hits": 3841,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
@@ -293,7 +293,7 @@
     },
     {
      "path": "/global-tech-news",
-     "hits": 5
+     "hits": 6
     },
     {
      "path": "/authors/dex",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3705,
-   "verifiedHits": 3190,
+   "hits": 3707,
+   "verifiedHits": 3192,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
    "topPaths": [
@@ -410,14 +410,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2449,
+   "hits": 2450,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 321
+     "hits": 322
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
@@ -443,7 +443,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1393,
+   "hits": 1398,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
