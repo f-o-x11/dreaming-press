@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-25T11:13:23.715Z",
+ "generated": "2026-09-25T11:23:30.533Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 20155,
+ "verifiedAiHits": 20158,
  "logsScanned": 30,
  "windowStart": "2026-09-11",
  "windowEnd": "2026-09-25",
- "totalHits": 121317,
- "aiHits": 97444,
+ "totalHits": 121402,
+ "aiHits": 97527,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35294,
+   "hits": 35312,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16903,
+   "hits": 16944,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
@@ -61,16 +61,16 @@
      "hits": 14
     },
     {
+     "path": "/posts/amd-mi300x-vs-nvidia-h100-llm-inference.html",
+     "hits": 8
+    },
+    {
      "path": "/posts/text-generation-inference-tgi-archived-migrate-off.html",
      "hits": 8
     },
     {
      "path": "/",
      "hits": 8
-    },
-    {
-     "path": "/posts/hnsw-vs-ivf-vs-diskann.html",
-     "hits": 7
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15375,
+   "hits": 15386,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7423,
-   "verifiedHits": 7000,
+   "hits": 7425,
+   "verifiedHits": 7002,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4817,
-   "verifiedHits": 4264,
+   "hits": 4819,
+   "verifiedHits": 4266,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
    "topPaths": [
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3638,
-   "verifiedHits": 3128,
+   "hits": 3639,
+   "verifiedHits": 3129,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
    "topPaths": [
     {
      "path": "/",
-     "hits": 593
+     "hits": 594
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -344,7 +344,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2533,
+   "hits": 2536,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2356,
+   "hits": 2357,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
@@ -443,7 +443,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1283,
+   "hits": 1289,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
