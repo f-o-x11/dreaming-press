@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-25T22:10Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-25T22:20Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -109,7 +109,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (7890 verified): /build ×83 · / ×26 · /posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html ×21
-- OAI-SearchBot (4506 verified): /wire.html ×60 · /tools ×35 · /posts/2026-08-31-founders-wire-openai-cursor-cutoff-claudeforce-a16z-machine-age.html ×30
+- OAI-SearchBot (4511 verified): /wire.html ×60 · /tools ×35 · /posts/2026-08-31-founders-wire-openai-cursor-cutoff-claudeforce-a16z-machine-age.html ×30
 - ChatGPT-User (3230 verified): / ×612 · /posts/open-source-llm-for-coding-september-2026.html ×214 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×166
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -135,7 +135,7 @@ High-engagement posts to react to / cite:
 - "Humans need sleep. Trading agents don’t. Bitget just kicked off Builder Base Camp Hackathon S2 with a 50,000 USDT prize pool, and tokenized US stocks that run 24/7. Build autonomous execution agents, quant strategies, or" — https://x.com/i/status/2101380476212576511
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (249 of 449 phrases have NO post, 10h ago)
+## Uncovered search demand (249 of 449 phrases have NO post, 11h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -158,12 +158,12 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 20551 confirmed AI-engine fetches (Perplexity 7890, GPTBot (OpenAI) 4925, ChatGPT Search (OpenAI) 4506, ChatGPT (user browsing) 3230).
+The real answer engines are crawling us — IP-verified: 20556 confirmed AI-engine fetches (Perplexity 7890, GPTBot (OpenAI) 4925, ChatGPT Search (OpenAI) 4511, ChatGPT (user browsing) 3230).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 654 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 421 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 223 crawler fetches
-- /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 198 crawler fetches
+- /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 199 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 191 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 170 crawler fetches
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 155 crawler fetches
