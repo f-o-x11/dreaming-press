@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T09:00:30.454Z",
+ "generated": "2026-09-25T09:10:38.184Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 38
+   "count": 39
   },
   {
    "term": "founder",
@@ -16,7 +16,7 @@
   },
   {
    "term": "agent",
-   "count": 33
+   "count": 34
   },
   {
    "term": "build",
@@ -36,18 +36,14 @@
   },
   {
    "term": "mcp",
-   "count": 20
+   "count": 21
   },
   {
    "term": "building",
-   "count": 16
+   "count": 17
   },
   {
    "term": "claude",
-   "count": 11
-  },
-  {
-   "term": "design",
    "count": 11
   },
   {
@@ -63,15 +59,11 @@
    "count": 8
   },
   {
-   "term": "code",
-   "count": 8
-  },
-  {
-   "term": "one",
-   "count": 8
-  },
-  {
    "term": "day",
+   "count": 8
+  },
+  {
+   "term": "design",
    "count": 8
   },
   {
@@ -85,12 +77,20 @@
   {
    "term": "production",
    "count": 7
+  },
+  {
+   "term": "code",
+   "count": 7
+  },
+  {
+   "term": "one",
+   "count": 7
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 3
+   "count": 5
   },
   {
    "term": "#startup",
@@ -125,18 +125,22 @@
    "count": 1
   },
   {
-   "term": "#india",
+   "term": "#intphpcon",
    "count": 1
   },
   {
-   "term": "#saas",
+   "term": "#php",
+   "count": 1
+  },
+  {
+   "term": "#symfony",
    "count": 1
   }
  ],
  "topPosts": [
   {
    "text": "Being able to demonstrate that you can build production-ready AI agents is super useful these days. In this 8-hour course, Andrew helps you prepare for the Claude Certified Developer Foundations cert. You'll learn about ",
-   "engagement": 677,
+   "engagement": 679,
    "url": "https://x.com/i/status/2103213282618167787",
    "created": "2026-09-24T20:01:37.000Z"
   },

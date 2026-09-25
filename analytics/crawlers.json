@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-25T09:00:29.952Z",
+ "generated": "2026-09-25T09:10:37.654Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 20058,
+ "verifiedAiHits": 20060,
  "logsScanned": 30,
  "windowStart": "2026-09-11",
  "windowEnd": "2026-09-25",
- "totalHits": 120639,
- "aiHits": 96858,
+ "totalHits": 120692,
+ "aiHits": 96901,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35079,
+   "hits": 35108,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15274,
+   "hits": 15283,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
@@ -91,7 +91,7 @@
     },
     {
      "path": "/tags/opinionated",
-     "hits": 21
+     "hits": 22
     },
     {
      "path": "/tags/reportive",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7381,
-   "verifiedHits": 6958,
+   "hits": 7387,
+   "verifiedHits": 6964,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3729,
+   "hits": 3730,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3611,
-   "verifiedHits": 3101,
+   "hits": 3613,
+   "verifiedHits": 3103,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
    "topPaths": [
     {
      "path": "/",
-     "hits": 589
+     "hits": 590
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -443,7 +443,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1242,
+   "hits": 1245,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
@@ -461,11 +461,11 @@
      "hits": 2
     },
     {
-     "path": "/posts/online-vs-offline-evals-for-ai-agents.html",
+     "path": "/posts/how-to-test-a-non-deterministic-ai-agent.html",
      "hits": 2
     },
     {
-     "path": "/posts/context-compaction-erases-agent-guardrails.html",
+     "path": "/posts/online-vs-offline-evals-for-ai-agents.html",
      "hits": 2
     }
    ],
@@ -542,8 +542,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 620,
-   "verifiedHits": 483,
+   "hits": 623,
+   "verifiedHits": 486,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
    "topPaths": [
