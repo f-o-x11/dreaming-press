@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-25T14:05:50.550Z",
+ "generated": "2026-09-25T14:16:01.001Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 10,
-  "avgTimeSec": 27,
+  "avgTimeSec": 25,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 3295,
+  "views": 3298,
   "reads": 328,
   "completes": 15,
   "plays": 17,
-  "sessions": 3169
+  "sessions": 3172
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2833,
+   "views": 2834,
    "reads": 158,
-   "sessions": 2849
+   "sessions": 2850
   },
   {
    "channel": "organic",
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 216,
+   "views": 218,
    "reads": 39,
-   "sessions": 213
+   "sessions": 215
   },
   {
    "channel": "ai",
    "views": 35,
    "reads": 14,
-   "sessions": 46
+   "sessions": 47
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2833,
+   "views": 2834,
    "reads": 158,
    "completes": 11,
-   "sessions": 2848,
+   "sessions": 2849,
    "read_rate": 0.056,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 216,
+   "views": 218,
    "reads": 39,
    "completes": 1,
-   "sessions": 213,
-   "read_rate": 0.181,
+   "sessions": 215,
+   "read_rate": 0.179,
    "complete_rate": 0.005,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -120,11 +120,11 @@
    "views": 35,
    "reads": 14,
    "completes": 0,
-   "sessions": 46,
+   "sessions": 47,
    "read_rate": 0.4,
    "complete_rate": 0,
-   "pages_per_session": 0.76,
-   "median_dwell_sec": 17
+   "pages_per_session": 0.74,
+   "median_dwell_sec": 13
   },
   {
    "channel": "campaign:qwant",
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 229,
+   "views": 231,
    "reads": 41,
-   "sessions": 223
+   "sessions": 225
   },
   {
    "assistant": "Doubao",
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2754,
+   "views": 2757,
    "reads": 304,
-   "sessions": 2639
+   "sessions": 2642
   },
   {
    "device": "mobile",
