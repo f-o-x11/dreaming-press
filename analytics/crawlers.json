@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-25T07:49:08.710Z",
+ "generated": "2026-09-25T07:59:09.866Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 20016,
+ "verifiedAiHits": 20019,
  "logsScanned": 30,
  "windowStart": "2026-09-11",
  "windowEnd": "2026-09-25",
- "totalHits": 120233,
- "aiHits": 96516,
+ "totalHits": 120283,
+ "aiHits": 96559,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 34923,
+   "hits": 34942,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15217,
+   "hits": 15225,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
@@ -113,7 +113,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 8551,
+   "hits": 8554,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7356,
-   "verifiedHits": 6933,
+   "hits": 7359,
+   "verifiedHits": 6936,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4733,
-   "verifiedHits": 4180,
+   "hits": 4734,
+   "verifiedHits": 4181,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3712,
+   "hits": 3713,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3593,
-   "verifiedHits": 3083,
+   "hits": 3595,
+   "verifiedHits": 3085,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
    "topPaths": [
     {
      "path": "/",
-     "hits": 587
+     "hits": 588
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -410,14 +410,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2325,
+   "hits": 2326,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 293
+     "hits": 294
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
@@ -443,7 +443,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1217,
+   "hits": 1222,
    "verifiedHits": 0,
    "firstSeen": "2026-09-11",
    "lastSeen": "2026-09-25",
@@ -637,6 +637,39 @@
    "verifiable": false
   },
   {
+   "name": "MistralAI",
+   "label": "Mistral AI",
+   "category": "ai",
+   "home": "https://mistral.ai",
+   "hits": 65,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-13",
+   "lastSeen": "2026-09-25",
+   "topPaths": [
+    {
+     "path": "/posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html",
+     "hits": 4
+    },
+    {
+     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
+     "hits": 4
+    },
+    {
+     "path": "/mcp",
+     "hits": 2
+    },
+    {
+     "path": "/posts/2026-09-12-founders-wire-openai-agents-api-deepseek-v41-flash-ayar-optics.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/2026-09-17-founders-wire-lawzero-300m-agent-security-435m-typesafe.html",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Google-Extended",
    "label": "Gemini / Vertex (Google-Extended)",
    "category": "ai",
@@ -698,39 +731,6 @@
     {
      "path": "/ssl/server.key",
      "hits": 1
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "MistralAI",
-   "label": "Mistral AI",
-   "category": "ai",
-   "home": "https://mistral.ai",
-   "hits": 58,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-13",
-   "lastSeen": "2026-09-24",
-   "topPaths": [
-    {
-     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 4
-    },
-    {
-     "path": "/mcp",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-09-12-founders-wire-openai-agents-api-deepseek-v41-flash-ayar-optics.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-09-17-founders-wire-lawzero-300m-agent-security-435m-typesafe.html",
-     "hits": 2
     }
    ],
    "verifiable": false

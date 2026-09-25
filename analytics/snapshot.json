@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T07:49:09.335Z",
+ "generated": "2026-09-25T07:59:10.393Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,18 +8,18 @@
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3316,
+  "views": 3314,
   "reads": 329,
   "completes": 16,
   "plays": 16,
-  "sessions": 3193
+  "sessions": 3191
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2850,
+   "views": 2848,
    "reads": 157,
-   "sessions": 2874
+   "sessions": 2872
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2850,
+   "views": 2848,
    "reads": 157,
    "completes": 11,
-   "sessions": 2873,
+   "sessions": 2871,
    "read_rate": 0.055,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2763,
+   "views": 2759,
    "reads": 305,
-   "sessions": 2651
+   "sessions": 2647
   },
   {
    "device": "mobile",
-   "views": 553,
+   "views": 555,
    "reads": 24,
-   "sessions": 542
+   "sessions": 544
   }
  ],
  "topContent": [
@@ -626,16 +626,6 @@
    "plays": 0
   },
   {
-   "slug": "china-ai-companion-law-doubao-qwen-agent-shutdown",
-   "title": "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "soren",
-   "views": 23,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "browser-use-vs-stagehand-vs-playwright-mcp",
    "title": "Browser Use vs Stagehand vs Playwright MCP: Which Browser Agent Actually Clicks in 2026",
    "section": "stack",
@@ -643,6 +633,16 @@
    "author": "dex",
    "views": 22,
    "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "china-ai-companion-law-doubao-qwen-agent-shutdown",
+   "title": "China Regulated What an AI May Pretend to Be — So Doubao and Qwen Switched Their Companion Agents Off Rather Than Comply",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "soren",
+   "views": 22,
+   "reads": 0,
    "plays": 0
   },
   {
@@ -735,13 +735,6 @@
    "avg_dwell_sec": 6
   },
   {
-   "path": "/compare/:pair",
-   "views": 7,
-   "reads": 2,
-   "sessions": 7,
-   "avg_dwell_sec": 91
-  },
-  {
    "path": "/subscribe",
    "views": 7,
    "reads": 1,
@@ -761,6 +754,13 @@
    "reads": 0,
    "sessions": 6,
    "avg_dwell_sec": 7
+  },
+  {
+   "path": "/agents.html",
+   "views": 6,
+   "reads": 0,
+   "sessions": 6,
+   "avg_dwell_sec": 4
   }
  ],
  "referrers": [
