@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-25T12:04Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-25T12:14Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -97,8 +97,8 @@ human just asked a question. Not index crawlers, which enumerate everything and 
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
 - /  — 621 retrieval fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 211 retrieval fetches
-- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 162 retrieval fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 212 retrieval fetches
+- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 163 retrieval fetches
 - /build  — 82 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 77 retrieval fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 72 retrieval fetches
@@ -109,8 +109,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (7841 verified): /build ×82 · / ×26 · /posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html ×21
-- OAI-SearchBot (4280 verified): /wire.html ×56 · /tools ×33 · /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html ×30
-- ChatGPT-User (3136 verified): / ×595 · /posts/open-source-llm-for-coding-september-2026.html ×211 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×162
+- OAI-SearchBot (4287 verified): /wire.html ×56 · /tools ×33 · /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html ×30
+- ChatGPT-User (3139 verified): / ×595 · /posts/open-source-llm-for-coding-september-2026.html ×212 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×163
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -135,7 +135,7 @@ High-engagement posts to react to / cite:
 - "Jev Founder, Diogo Amogo, just released 12-page PDF on building a Jev Harness for coding agents This is a 10-step blueprint on how to make your coding agents 220x faster and 444x cheaper: step 1 → stop treating a coding " — https://x.com/i/status/2102744804127842654
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (249 of 449 phrases have NO post, 0h ago)
+## Uncovered search demand (249 of 449 phrases have NO post, 1h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -158,16 +158,16 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 20179 confirmed AI-engine fetches (Perplexity 7841, GPTBot (OpenAI) 4922, ChatGPT Search (OpenAI) 4280, ChatGPT (user browsing) 3136).
+The real answer engines are crawling us — IP-verified: 20189 confirmed AI-engine fetches (Perplexity 7841, GPTBot (OpenAI) 4922, ChatGPT Search (OpenAI) 4287, ChatGPT (user browsing) 3139).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 647 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 384 crawler fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 220 crawler fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 221 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 190 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 184 crawler fetches
-- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 166 crawler fetches
+- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 167 crawler fetches
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 148 crawler fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 108 crawler fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 109 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 72 crawler fetches
 - /tools  — 33 crawler fetches
 - /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html  — 30 crawler fetches
