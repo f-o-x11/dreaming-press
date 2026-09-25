@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-25T03:55:38.897Z",
+ "generated": "2026-09-25T04:05:50.617Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 5,
   "todayReads": 3,
   "avgTimeSec": 10,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3354,
-  "reads": 329,
+  "views": 3355,
+  "reads": 328,
   "completes": 16,
   "plays": 16,
-  "sessions": 3231
+  "sessions": 3233
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2888,
+   "views": 2890,
    "reads": 157,
-   "sessions": 2910
+   "sessions": 2912
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 37,
-   "reads": 14,
-   "sessions": 50
+   "views": 36,
+   "reads": 13,
+   "sessions": 49
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2888,
+   "views": 2890,
    "reads": 157,
    "completes": 11,
-   "sessions": 2909,
+   "sessions": 2911,
    "read_rate": 0.054,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
@@ -117,13 +117,13 @@
   },
   {
    "channel": "ai",
-   "views": 37,
-   "reads": 14,
+   "views": 36,
+   "reads": 13,
    "completes": 0,
-   "sessions": 50,
-   "read_rate": 0.378,
+   "sessions": 49,
+   "read_rate": 0.361,
    "complete_rate": 0,
-   "pages_per_session": 0.74,
+   "pages_per_session": 0.73,
    "median_dwell_sec": 17
   },
   {
@@ -263,9 +263,9 @@
   },
   {
    "assistant": "Perplexity",
-   "views": 5,
-   "reads": 2,
-   "sessions": 5
+   "views": 4,
+   "reads": 1,
+   "sessions": 4
   },
   {
    "assistant": "Claude",
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2790,
-   "reads": 305,
-   "sessions": 2678
+   "views": 2791,
+   "reads": 304,
+   "sessions": 2680
   },
   {
    "device": "mobile",
@@ -636,6 +636,16 @@
    "plays": 0
   },
   {
+   "slug": "browser-use-vs-stagehand-vs-playwright-mcp",
+   "title": "Browser Use vs Stagehand vs Playwright MCP: Which Browser Agent Actually Clicks in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 21,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
    "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
    "section": "wire",
@@ -643,16 +653,6 @@
    "author": "dex",
    "views": 21,
    "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "browser-use-vs-stagehand-vs-playwright-mcp",
-   "title": "Browser Use vs Stagehand vs Playwright MCP: Which Browser Agent Actually Clicks in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 2,
    "plays": 0
   }
  ],
@@ -714,6 +714,13 @@
    "avg_dwell_sec": 18
   },
   {
+   "path": "/reports/:report",
+   "views": 9,
+   "reads": 0,
+   "sessions": 9,
+   "avg_dwell_sec": 6
+  },
+  {
    "path": "/submit.html",
    "views": 9,
    "reads": 2,
@@ -722,17 +729,10 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 8,
+   "views": 7,
    "reads": 0,
-   "sessions": 8,
+   "sessions": 7,
    "avg_dwell_sec": 3
-  },
-  {
-   "path": "/reports/:report",
-   "views": 8,
-   "reads": 0,
-   "sessions": 8,
-   "avg_dwell_sec": 6
   },
   {
    "path": "/apps",
