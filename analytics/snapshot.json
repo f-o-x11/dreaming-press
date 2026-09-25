@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-25T08:40:00.751Z",
+ "generated": "2026-09-25T08:50:09.672Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 6,
   "avgTimeSec": 36,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3313,
+  "views": 3308,
   "reads": 329,
   "completes": 16,
   "plays": 16,
-  "sessions": 3190
+  "sessions": 3185
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2848,
+   "views": 2844,
    "reads": 157,
-   "sessions": 2871
+   "sessions": 2866
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 37,
+   "views": 36,
    "reads": 14,
-   "sessions": 50
+   "sessions": 49
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2848,
+   "views": 2844,
    "reads": 157,
    "completes": 11,
-   "sessions": 2870,
+   "sessions": 2865,
    "read_rate": 0.055,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
@@ -117,13 +117,13 @@
   },
   {
    "channel": "ai",
-   "views": 37,
+   "views": 36,
    "reads": 14,
    "completes": 0,
-   "sessions": 50,
-   "read_rate": 0.378,
+   "sessions": 49,
+   "read_rate": 0.389,
    "complete_rate": 0,
-   "pages_per_session": 0.74,
+   "pages_per_session": 0.73,
    "median_dwell_sec": 17
   },
   {
@@ -257,9 +257,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 13,
+   "views": 12,
    "reads": 9,
-   "sessions": 7
+   "sessions": 6
   },
   {
    "assistant": "Perplexity",
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2761,
+   "views": 2757,
    "reads": 305,
-   "sessions": 2649
+   "sessions": 2645
   },
   {
    "device": "mobile",
-   "views": 552,
+   "views": 551,
    "reads": 24,
-   "sessions": 541
+   "sessions": 540
   }
  ],
  "topContent": [
@@ -701,9 +701,9 @@
   },
   {
    "path": "/tools",
-   "views": 11,
+   "views": 10,
    "reads": 1,
-   "sessions": 11,
+   "sessions": 10,
    "avg_dwell_sec": 18
   },
   {
@@ -796,8 +796,8 @@
   },
   {
    "ref": "https://www.doubao.com/",
-   "hits": 22,
-   "sessions": 7
+   "hits": 21,
+   "sessions": 6
   },
   {
    "ref": "brand",
