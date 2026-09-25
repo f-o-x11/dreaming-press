@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-25T14:46Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-25T14:56Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -108,9 +108,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-08-26-founders-wire-stability-labels-slack-code-general-intuition.html  — 30 retrieval fetches
 
 Per engine:
-- PerplexityBot (7856 verified): /build ×82 · / ×26 · /posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html ×21
-- OAI-SearchBot (4337 verified): /wire.html ×56 · /tools ×33 · /posts/local-llm-for-coding-on-your-own-machine.html ×30
-- ChatGPT-User (3159 verified): / ×600 · /posts/open-source-llm-for-coding-september-2026.html ×212 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×163
+- PerplexityBot (7857 verified): /build ×82 · / ×26 · /posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html ×21
+- OAI-SearchBot (4338 verified): /wire.html ×56 · /tools ×33 · /posts/local-llm-for-coding-on-your-own-machine.html ×30
+- ChatGPT-User (3160 verified): / ×600 · /posts/open-source-llm-for-coding-september-2026.html ×212 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×163
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -126,7 +126,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
 Hot terms: agents(43), founder(36), agent(35), build(29), agentic(27), startup(26), mcp(22), coding(21), building(17), claude(11), jev(11), own(8), day(8), today(8), design(8).
-Hashtags: #ai, #startup, #founder, #buildinpublic, #agenticai, #web3, #cookmymeme, #intphpcon, #php, #symfony.
+Hashtags: #ai, #startup, #founder, #buildinpublic, #agenticai, #web3, #cookmymeme, #aijobs, #aihiring, #intphpcon.
 High-engagement posts to react to / cite:
 - "Being able to demonstrate that you can build production-ready AI agents is super useful these days. In this 8-hour course, Andrew helps you prepare for the Claude Certified Developer Foundations cert. You'll learn about " — https://x.com/i/status/2103213282618167787
 - "Build but build well on @RobinhoodCrypto make a difference. I have been thirsty to extend on my thesis; Before I dive into things just note @vladtenev quoted “The next era of consumer finance is agentic.” There’s nothing" — https://x.com/i/status/2102019638498402351
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 20274 confirmed AI-engine fetches (Perplexity 7856, GPTBot (OpenAI) 4922, ChatGPT Search (OpenAI) 4337, ChatGPT (user browsing) 3159).
+The real answer engines are crawling us — IP-verified: 20277 confirmed AI-engine fetches (Perplexity 7857, GPTBot (OpenAI) 4922, ChatGPT Search (OpenAI) 4338, ChatGPT (user browsing) 3160).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 648 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 394 crawler fetches
