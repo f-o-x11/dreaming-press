@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-25T20:50Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-25T21:00Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -63,7 +63,7 @@ so what these earn from humans is the other half of the picture.
 - / — 122 views, 2 reads, 121 sessions, avg 11s
 - /best/:cat — 43 views, 0 reads, 43 sessions, avg 4s
 - /build — 41 views, 0 reads, 41 sessions, avg 5s
-- /dashboard — 26 views, 0 reads, 13 sessions, avg 8s
+- /dashboard — 27 views, 0 reads, 14 sessions, avg 8s
 - /topics/:topic — 17 views, 0 reads, 17 sessions, avg 7s
 - /tools — 10 views, 1 reads, 10 sessions, avg 18s
 - /reports/:report — 9 views, 0 reads, 9 sessions, avg 6s
@@ -99,8 +99,8 @@ sample size dwarfs the engaged-read counts below.
 - /  — 637 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 214 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 165 retrieval fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 84 retrieval fetches
 - /build  — 83 retrieval fetches
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 83 retrieval fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 72 retrieval fetches
 - /wire.html  — 59 retrieval fetches
 - /tools  — 34 retrieval fetches
@@ -108,9 +108,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/best-open-source-vector-database-2026.html  — 30 retrieval fetches
 
 Per engine:
-- PerplexityBot (7883 verified): /build ×83 · / ×26 · /posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html ×21
-- OAI-SearchBot (4479 verified): /wire.html ×59 · /tools ×34 · /posts/local-llm-for-coding-on-your-own-machine.html ×30
-- ChatGPT-User (3222 verified): / ×611 · /posts/open-source-llm-for-coding-september-2026.html ×214 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×165
+- PerplexityBot (7885 verified): /build ×83 · / ×26 · /posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html ×21
+- OAI-SearchBot (4481 verified): /wire.html ×59 · /tools ×34 · /posts/local-llm-for-coding-on-your-own-machine.html ×30
+- ChatGPT-User (3224 verified): / ×611 · /posts/open-source-llm-for-coding-september-2026.html ×214 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×165
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -158,13 +158,13 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 20509 confirmed AI-engine fetches (Perplexity 7883, GPTBot (OpenAI) 4925, ChatGPT Search (OpenAI) 4479, ChatGPT (user browsing) 3222).
+The real answer engines are crawling us — IP-verified: 20515 confirmed AI-engine fetches (Perplexity 7885, GPTBot (OpenAI) 4925, ChatGPT Search (OpenAI) 4481, ChatGPT (user browsing) 3224).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 654 crawler fetches
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 418 crawler fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 420 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 223 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 197 crawler fetches
-- /posts/how-to-read-an-agent-memory-benchmark.html  — 190 crawler fetches
+- /posts/how-to-read-an-agent-memory-benchmark.html  — 191 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 169 crawler fetches
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 154 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 113 crawler fetches
