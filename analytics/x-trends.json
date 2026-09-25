@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T20:40:23.600Z",
+ "generated": "2026-09-25T20:50:23.863Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -11,11 +11,11 @@
    "count": 39
   },
   {
-   "term": "founder",
-   "count": 37
+   "term": "agent",
+   "count": 36
   },
   {
-   "term": "agent",
+   "term": "founder",
    "count": 36
   },
   {
@@ -43,12 +43,16 @@
    "count": 16
   },
   {
+   "term": "claude",
+   "count": 11
+  },
+  {
    "term": "jev",
    "count": 11
   },
   {
-   "term": "claude",
-   "count": 10
+   "term": "one",
+   "count": 9
   },
   {
    "term": "big",
@@ -67,7 +71,7 @@
    "count": 7
   },
   {
-   "term": "one",
+   "term": "code",
    "count": 7
   },
   {
@@ -80,10 +84,6 @@
   },
   {
    "term": "first",
-   "count": 7
-  },
-  {
-   "term": "design",
    "count": 7
   }
  ],
@@ -103,6 +103,10 @@
   {
    "term": "#buildinpublic",
    "count": 2
+  },
+  {
+   "term": "#luxembourg",
+   "count": 1
   },
   {
    "term": "#agenticai",
@@ -131,16 +135,12 @@
   {
    "term": "#php",
    "count": 1
-  },
-  {
-   "term": "#symfony",
-   "count": 1
   }
  ],
  "topPosts": [
   {
    "text": "Being able to demonstrate that you can build production-ready AI agents is super useful these days. In this 8-hour course, Andrew helps you prepare for the Claude Certified Developer Foundations cert. You'll learn about ",
-   "engagement": 883,
+   "engagement": 886,
    "url": "https://x.com/i/status/2103213282618167787",
    "created": "2026-09-24T20:01:37.000Z"
   },
@@ -181,10 +181,10 @@
    "created": "2026-09-19T16:39:13.000Z"
   },
   {
-   "text": "𝐈𝐧𝐣𝐞𝐜𝐭𝐢𝐯𝐞 𝐈𝐬 𝐁𝐮𝐢𝐥𝐝𝐢𝐧𝐠 𝐅𝐢𝐧𝐚𝐧𝐜𝐞 𝐅𝐨𝐫 𝐀𝐈 𝐀𝐠𝐞𝐧𝐭𝐬 ━━━━━━━━━━━━━━━━━━ AI agents are moving beyond simple code generation. $INJ They can read data, understand context, make decisions and exec",
+   "text": "🚀 Zero → AI Engineer Roadmap (2026) Assumes basic ML/DL. Goal: Learn to build and ship production LLM + agent systems. 1. LLM Internals Resources: • Karpathy — Neural Networks: Zero to Hero • Jay Alammar — The Illustrat",
    "engagement": 83,
-   "url": "https://x.com/i/status/2102628296089575480",
-   "created": "2026-09-23T05:17:05.000Z"
+   "url": "https://x.com/i/status/2103383326543495485",
+   "created": "2026-09-25T07:17:18.000Z"
   }
  ]
 }
