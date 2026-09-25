@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-25T23:00:55.782Z",
+ "generated": "2026-09-25T23:10:58.867Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 5,
   "todayReads": 13,
   "avgTimeSec": 31,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 3310,
+  "views": 3309,
   "reads": 320,
   "completes": 14,
   "plays": 18,
-  "sessions": 3192
+  "sessions": 3191
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2846,
+   "views": 2843,
    "reads": 154,
-   "sessions": 2867
+   "sessions": 2864
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 222,
+   "views": 224,
    "reads": 39,
-   "sessions": 219
+   "sessions": 221
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2846,
+   "views": 2843,
    "reads": 154,
    "completes": 10,
-   "sessions": 2866,
+   "sessions": 2863,
    "read_rate": 0.054,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
@@ -84,12 +84,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 222,
+   "views": 224,
    "reads": 39,
    "completes": 1,
-   "sessions": 219,
-   "read_rate": 0.176,
-   "complete_rate": 0.005,
+   "sessions": 221,
+   "read_rate": 0.174,
+   "complete_rate": 0.004,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
   },
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 235,
+   "views": 237,
    "reads": 41,
-   "sessions": 229
+   "sessions": 231
   },
   {
    "assistant": "Doubao",
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2756,
+   "views": 2754,
    "reads": 295,
-   "sessions": 2650
+   "sessions": 2648
   },
   {
    "device": "mobile",
-   "views": 554,
+   "views": 555,
    "reads": 25,
-   "sessions": 542
+   "sessions": 543
   }
  ],
  "topContent": [
@@ -673,9 +673,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 43,
+   "views": 44,
    "reads": 0,
-   "sessions": 43,
+   "sessions": 44,
    "avg_dwell_sec": 4
   },
   {
