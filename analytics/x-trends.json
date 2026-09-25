@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-25T15:07:00.787Z",
+ "generated": "2026-09-25T15:17:05.222Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -28,7 +28,7 @@
   },
   {
    "term": "startup",
-   "count": 26
+   "count": 27
   },
   {
    "term": "mcp",
@@ -43,12 +43,16 @@
    "count": 17
   },
   {
-   "term": "claude",
+   "term": "jev",
    "count": 11
   },
   {
-   "term": "jev",
-   "count": 11
+   "term": "claude",
+   "count": 10
+  },
+  {
+   "term": "big",
+   "count": 8
   },
   {
    "term": "own",
@@ -67,10 +71,6 @@
    "count": 8
   },
   {
-   "term": "big",
-   "count": 7
-  },
-  {
    "term": "security",
    "count": 7
   },
@@ -83,7 +83,7 @@
    "count": 7
   },
   {
-   "term": "code",
+   "term": "one",
    "count": 7
   }
  ],
@@ -117,14 +117,6 @@
    "count": 1
   },
   {
-   "term": "#aijobs",
-   "count": 1
-  },
-  {
-   "term": "#aihiring",
-   "count": 1
-  },
-  {
    "term": "#intphpcon",
    "count": 1
   },
@@ -135,12 +127,20 @@
   {
    "term": "#symfony",
    "count": 1
+  },
+  {
+   "term": "#aijobs",
+   "count": 1
+  },
+  {
+   "term": "#aihiring",
+   "count": 1
   }
  ],
  "topPosts": [
   {
    "text": "Being able to demonstrate that you can build production-ready AI agents is super useful these days. In this 8-hour course, Andrew helps you prepare for the Claude Certified Developer Foundations cert. You'll learn about ",
-   "engagement": 791,
+   "engagement": 793,
    "url": "https://x.com/i/status/2103213282618167787",
    "created": "2026-09-24T20:01:37.000Z"
   },
