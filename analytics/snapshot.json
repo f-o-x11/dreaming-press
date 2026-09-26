@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-26T06:53:47.302Z",
+ "generated": "2026-09-26T07:03:52.394Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,18 +8,18 @@
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3324,
+  "views": 3326,
   "reads": 325,
   "completes": 14,
   "plays": 18,
-  "sessions": 3206
+  "sessions": 3208
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2856,
+   "views": 2857,
    "reads": 158,
-   "sessions": 2876
+   "sessions": 2877
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 229,
+   "views": 230,
    "reads": 39,
-   "sessions": 226
+   "sessions": 227
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2856,
+   "views": 2857,
    "reads": 158,
    "completes": 10,
-   "sessions": 2875,
+   "sessions": 2876,
    "read_rate": 0.055,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 229,
+   "views": 230,
    "reads": 39,
    "completes": 1,
-   "sessions": 226,
+   "sessions": 227,
    "read_rate": 0.17,
    "complete_rate": 0.004,
    "pages_per_session": 1.01,
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 241,
+   "views": 242,
    "reads": 41,
-   "sessions": 235
+   "sessions": 236
   },
   {
    "assistant": "Doubao",
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2767,
+   "views": 2769,
    "reads": 300,
-   "sessions": 2661
+   "sessions": 2663
   },
   {
    "device": "mobile",
@@ -317,7 +317,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 61,
+   "views": 62,
    "reads": 12,
    "plays": 1
   },
@@ -459,7 +459,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 61,
+   "views": 62,
    "reads": 12,
    "plays": 1
   },
@@ -556,6 +556,16 @@
  ],
  "topViews": [
   {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 62,
+   "reads": 12,
+   "plays": 1
+  },
+  {
    "slug": "2026-09-12-founders-wire-openai-agents-api-deepseek-v41-flash-ayar-optics",
    "title": "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again",
    "section": "wire",
@@ -564,16 +574,6 @@
    "views": 62,
    "reads": 2,
    "plays": 0
-  },
-  {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 61,
-   "reads": 12,
-   "plays": 1
   },
   {
    "slug": "microsoft-agent-framework-vs-langgraph-vs-crewai-three-thresholds",
@@ -673,9 +673,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 45,
+   "views": 46,
    "reads": 0,
-   "sessions": 45,
+   "sessions": 46,
    "avg_dwell_sec": 4
   },
   {
