@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-26T04:22:59.844Z",
+ "generated": "2026-09-26T04:33:06.168Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19044,
+ "verifiedAiHits": 19050,
  "logsScanned": 30,
  "windowStart": "2026-09-12",
  "windowEnd": "2026-09-26",
- "totalHits": 116240,
- "aiHits": 95033,
+ "totalHits": 116302,
+ "aiHits": 95090,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 34558,
+   "hits": 34568,
    "verifiedHits": 0,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16323,
+   "hits": 16353,
    "verifiedHits": 0,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15105,
+   "hits": 15112,
    "verifiedHits": 0,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
@@ -113,8 +113,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 8004,
-   "verifiedHits": 7386,
+   "hits": 8005,
+   "verifiedHits": 7387,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7257,
-   "verifiedHits": 6834,
+   "hits": 7260,
+   "verifiedHits": 6837,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5097,
-   "verifiedHits": 4536,
+   "hits": 5098,
+   "verifiedHits": 4537,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3719,
+   "hits": 3721,
    "verifiedHits": 0,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3564,
-   "verifiedHits": 3049,
+   "hits": 3568,
+   "verifiedHits": 3053,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
    "topPaths": [
     {
      "path": "/",
-     "hits": 579
+     "hits": 580
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -443,7 +443,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1606,
+   "hits": 1610,
    "verifiedHits": 0,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
@@ -457,15 +457,15 @@
      "hits": 4
     },
     {
+     "path": "/posts/gguf-vs-gptq-vs-awq.html",
+     "hits": 2
+    },
+    {
      "path": "/posts/prompt-injection-to-rce-agent-allowlist-bypass.html",
      "hits": 2
     },
     {
      "path": "/posts/how-to-test-a-non-deterministic-ai-agent.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-06-21-prompt-caching-for-ai-agents.html",
      "hits": 2
     }
    ],
