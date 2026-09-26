@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-26T20:22:21.488Z",
+ "generated": "2026-09-26T20:32:25.281Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19416,
+ "verifiedAiHits": 19418,
  "logsScanned": 30,
  "windowStart": "2026-09-12",
  "windowEnd": "2026-09-26",
- "totalHits": 121279,
- "aiHits": 99118,
+ "totalHits": 121315,
+ "aiHits": 99149,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 35790,
+   "hits": 35805,
    "verifiedHits": 0,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15811,
+   "hits": 15818,
    "verifiedHits": 0,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
@@ -113,8 +113,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 8087,
-   "verifiedHits": 7469,
+   "hits": 8088,
+   "verifiedHits": 7470,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7585,
-   "verifiedHits": 7162,
+   "hits": 7588,
+   "verifiedHits": 7165,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 6340,
+   "hits": 6342,
    "verifiedHits": 0,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3668,
-   "verifiedHits": 3153,
+   "hits": 3669,
+   "verifiedHits": 3154,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
    "topPaths": [
@@ -373,6 +373,39 @@
    "verifiable": false
   },
   {
+   "name": "Claude-User",
+   "label": "Claude (user browsing)",
+   "category": "ai",
+   "home": "https://www.anthropic.com",
+   "hits": 2590,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-12",
+   "lastSeen": "2026-09-26",
+   "topPaths": [
+    {
+     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
+     "hits": 375
+    },
+    {
+     "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
+     "hits": 203
+    },
+    {
+     "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
+     "hits": 195
+    },
+    {
+     "path": "/posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html",
+     "hits": 144
+    },
+    {
+     "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
+     "hits": 122
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "ClaudeBot",
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
@@ -406,44 +439,11 @@
    "verifiable": false
   },
   {
-   "name": "Claude-User",
-   "label": "Claude (user browsing)",
-   "category": "ai",
-   "home": "https://www.anthropic.com",
-   "hits": 2588,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-12",
-   "lastSeen": "2026-09-26",
-   "topPaths": [
-    {
-     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 375
-    },
-    {
-     "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
-     "hits": 202
-    },
-    {
-     "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
-     "hits": 195
-    },
-    {
-     "path": "/posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html",
-     "hits": 144
-    },
-    {
-     "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 122
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "YouBot",
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2041,
+   "hits": 2046,
    "verifiedHits": 0,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
