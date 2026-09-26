@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-26T11:36:09.544Z",
+ "generated": "2026-09-26T11:46:14.439Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,15 +8,15 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 39
+   "count": 38
   },
   {
    "term": "founder",
-   "count": 37
+   "count": 36
   },
   {
    "term": "agent",
-   "count": 34
+   "count": 33
   },
   {
    "term": "startup",
@@ -28,7 +28,7 @@
   },
   {
    "term": "build",
-   "count": 23
+   "count": 24
   },
   {
    "term": "coding",
@@ -36,15 +36,15 @@
   },
   {
    "term": "building",
-   "count": 17
+   "count": 18
   },
   {
    "term": "mcp",
-   "count": 16
+   "count": 14
   },
   {
    "term": "claude",
-   "count": 14
+   "count": 13
   },
   {
    "term": "jev",
@@ -63,15 +63,19 @@
    "count": 9
   },
   {
+   "term": "big",
+   "count": 8
+  },
+  {
+   "term": "here",
+   "count": 8
+  },
+  {
    "term": "research",
    "count": 7
   },
   {
    "term": "apps",
-   "count": 7
-  },
-  {
-   "term": "here",
    "count": 7
   },
   {
@@ -81,23 +85,23 @@
   {
    "term": "production",
    "count": 7
-  },
-  {
-   "term": "systems",
-   "count": 7
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 5
-  },
-  {
-   "term": "#startup",
-   "count": 2
+   "count": 6
   },
   {
    "term": "#founder",
+   "count": 3
+  },
+  {
+   "term": "#startup",
+   "count": 3
+  },
+  {
+   "term": "#saas",
    "count": 2
   },
   {
@@ -131,10 +135,6 @@
   {
    "term": "#intphpcon",
    "count": 1
-  },
-  {
-   "term": "#php",
-   "count": 1
   }
  ],
  "topPosts": [
@@ -152,7 +152,7 @@
   },
   {
    "text": "🚀 Zero → AI Engineer Roadmap (2026) Assumes basic ML/DL. Goal: Learn to build and ship production LLM + agent systems. 1. LLM Internals Resources: • Karpathy — Neural Networks: Zero to Hero • Jay Alammar — The Illustrat",
-   "engagement": 279,
+   "engagement": 280,
    "url": "https://x.com/i/status/2103383326543495485",
    "created": "2026-09-25T07:17:18.000Z"
   },
