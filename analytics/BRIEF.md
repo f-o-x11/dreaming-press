@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-26T19:01Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-26T19:11Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -37,7 +37,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Top by engaged reads (eyes that stayed)
 - [wire] "Microsoft Agent Framework vs LangGraph vs CrewAI: Which One Crossed the Three Thresholds" — 36 reads, 39 views, 0 listens
 - [stack] "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)" — 13 reads, 64 views, 1 listens
-- [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 9 reads, 31 views, 1 listens
+- [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 9 reads, 30 views, 1 listens
 - [wire] "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K" — 9 reads, 18 views, 0 listens
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 7 reads, 18 views, 0 listens
 - [stack] "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One" — 7 reads, 11 views, 0 listens
@@ -75,7 +75,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [wire] "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again" — 53 views, 2 reads
 - [wire] "Microsoft Agent Framework vs LangGraph vs CrewAI: Which One Crossed the Three Thresholds" — 39 views, 36 reads
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 38 views, 0 reads
-- [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 31 views, 9 reads
+- [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 30 views, 9 reads
 - [wire] "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO" — 29 views, 0 reads
 
 ## Arrived but left (fix these openings first)
@@ -96,9 +96,9 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 632 retrieval fetches
+- /  — 633 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 208 retrieval fetches
-- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 160 retrieval fetches
+- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 161 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 94 retrieval fetches
 - /build  — 81 retrieval fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 70 retrieval fetches
@@ -110,7 +110,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (7465 verified): /build ×81 · / ×27 · /posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html ×19
 - OAI-SearchBot (4711 verified): /wire.html ×59 · /tools ×35 · /posts/2026-08-31-founders-wire-openai-cursor-cutoff-claudeforce-a16z-machine-age.html ×31
-- ChatGPT-User (3149 verified): / ×605 · /posts/open-source-llm-for-coding-september-2026.html ×208 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×160
+- ChatGPT-User (3151 verified): / ×606 · /posts/open-source-llm-for-coding-september-2026.html ×208 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×161
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -158,14 +158,14 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 19406 confirmed AI-engine fetches (Perplexity 7465, ChatGPT Search (OpenAI) 4711, GPTBot (OpenAI) 4081, ChatGPT (user browsing) 3149).
+The real answer engines are crawling us — IP-verified: 19408 confirmed AI-engine fetches (Perplexity 7465, ChatGPT Search (OpenAI) 4711, GPTBot (OpenAI) 4081, ChatGPT (user browsing) 3151).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 612 crawler fetches
+- /build  — 613 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 472 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 217 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 200 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 195 crawler fetches
-- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 164 crawler fetches
+- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 165 crawler fetches
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 155 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 120 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 70 crawler fetches
