@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-26T01:52:01.333Z",
+ "generated": "2026-09-26T02:02:03.080Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 0,
   "avgTimeSec": 6,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3310,
+  "views": 3308,
   "reads": 320,
   "completes": 14,
   "plays": 18,
-  "sessions": 3192
+  "sessions": 3190
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2847,
+   "views": 2845,
    "reads": 154,
-   "sessions": 2867
+   "sessions": 2865
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2847,
+   "views": 2845,
    "reads": 154,
    "completes": 10,
-   "sessions": 2866,
+   "sessions": 2864,
    "read_rate": 0.054,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2754,
+   "views": 2753,
    "reads": 295,
-   "sessions": 2648
+   "sessions": 2647
   },
   {
    "device": "mobile",
-   "views": 556,
+   "views": 555,
    "reads": 25,
-   "sessions": 544
+   "sessions": 543
   }
  ],
  "topContent": [
@@ -499,7 +499,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"cynical\"]",
    "author": "priya",
-   "views": 6,
+   "views": 7,
    "reads": 2,
    "plays": 1
   },
@@ -680,9 +680,9 @@
   },
   {
    "path": "/build",
-   "views": 41,
+   "views": 40,
    "reads": 0,
-   "sessions": 41,
+   "sessions": 40,
    "avg_dwell_sec": 5
   },
   {
@@ -728,13 +728,6 @@
    "avg_dwell_sec": 3
   },
   {
-   "path": "/apps",
-   "views": 7,
-   "reads": 0,
-   "sessions": 7,
-   "avg_dwell_sec": 6
-  },
-  {
    "path": "/subscribe",
    "views": 7,
    "reads": 1,
@@ -761,6 +754,13 @@
    "reads": 0,
    "sessions": 6,
    "avg_dwell_sec": 5
+  },
+  {
+   "path": "/apps",
+   "views": 6,
+   "reads": 0,
+   "sessions": 6,
+   "avg_dwell_sec": 6
   }
  ],
  "referrers": [
