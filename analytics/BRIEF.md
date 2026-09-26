@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-26T09:25Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-26T09:35Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(40), founder(37), agent(33), agentic(29), startup(28), build(24), coding(18), mcp(18), building(17), claude(11), jev(11), workflows(9), big(8), code(8), one(8).
+Hot terms: agents(39), founder(37), agent(34), agentic(29), startup(28), build(23), coding(18), mcp(17), building(17), claude(13), jev(11), one(9), workflows(9), big(8), code(8).
 Hashtags: #ai, #startup, #founder, #buildinpublic, #luxembourg, #agenticai, #web3, #cookmymeme, #aijobs, #aihiring.
 High-engagement posts to react to / cite:
 - "Being able to demonstrate that you can build production-ready AI agents is super useful these days. In this 8-hour course, Andrew helps you prepare for the Claude Certified Developer Foundations cert. You'll learn about " — https://x.com/i/status/2103213282618167787
@@ -161,10 +161,10 @@ search intent, so put the answer in the first screen and use the phrasing in the
 The real answer engines are crawling us — IP-verified: 19202 confirmed AI-engine fetches (Perplexity 7436, ChatGPT Search (OpenAI) 4610, GPTBot (OpenAI) 4074, ChatGPT (user browsing) 3082).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 605 crawler fetches
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 454 crawler fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 457 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 215 crawler fetches
+- /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 189 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 188 crawler fetches
-- /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 188 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 162 crawler fetches
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 152 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 114 crawler fetches
