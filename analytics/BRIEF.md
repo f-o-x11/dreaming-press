@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-26T03:02Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-26T03:12Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -59,7 +59,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 390 views, 0 reads, 390 sessions, avg 3s
+- /stack/:tool — 391 views, 0 reads, 391 sessions, avg 3s
 - / — 121 views, 2 reads, 120 sessions, avg 12s
 - /best/:cat — 43 views, 0 reads, 43 sessions, avg 4s
 - /build — 40 views, 0 reads, 40 sessions, avg 5s
@@ -109,8 +109,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (7378 verified): /build ×80 · / ×25 · /posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html ×19
-- OAI-SearchBot (4511 verified): /wire.html ×59 · /tools ×35 · /posts/2026-08-31-founders-wire-openai-cursor-cutoff-claudeforce-a16z-machine-age.html ×31
-- ChatGPT-User (3039 verified): / ×577 · /posts/open-source-llm-for-coding-september-2026.html ×201 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×157
+- OAI-SearchBot (4512 verified): /wire.html ×59 · /tools ×35 · /posts/2026-08-31-founders-wire-openai-cursor-cutoff-claudeforce-a16z-machine-age.html ×31
+- ChatGPT-User (3041 verified): / ×577 · /posts/open-source-llm-for-coding-september-2026.html ×201 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×157
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -158,9 +158,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 19001 confirmed AI-engine fetches (Perplexity 7378, ChatGPT Search (OpenAI) 4511, GPTBot (OpenAI) 4073, ChatGPT (user browsing) 3039).
+The real answer engines are crawling us — IP-verified: 19004 confirmed AI-engine fetches (Perplexity 7378, ChatGPT Search (OpenAI) 4512, GPTBot (OpenAI) 4073, ChatGPT (user browsing) 3041).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 599 crawler fetches
+- /build  — 600 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 436 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 210 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 187 crawler fetches
@@ -170,8 +170,8 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 111 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 66 crawler fetches
 - /tools  — 35 crawler fetches
+- /posts/gartner-ai-agent-spending-2026.html  — 31 crawler fetches
 - /posts/2026-08-31-founders-wire-openai-cursor-cutoff-claudeforce-a16z-machine-age.html  — 31 crawler fetches
-- /posts/best-open-source-vector-database-2026.html  — 31 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
