@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-26T23:14:25.189Z",
+ "generated": "2026-09-26T23:25:00.063Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
+  "readersNow": 1,
   "todayReads": 18,
   "avgTimeSec": 7,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3346,
+  "views": 3344,
   "reads": 332,
   "completes": 13,
   "plays": 16,
-  "sessions": 3228
+  "sessions": 3226
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2865,
+   "views": 2862,
    "reads": 161,
-   "sessions": 2884
+   "sessions": 2882
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 57,
+   "views": 58,
    "reads": 13,
-   "sessions": 55
+   "sessions": 56
   },
   {
    "channel": "campaign:qwant",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2865,
+   "views": 2862,
    "reads": 161,
    "completes": 10,
-   "sessions": 2884,
+   "sessions": 2882,
    "read_rate": 0.056,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -112,11 +112,11 @@
   },
   {
    "channel": "referral",
-   "views": 57,
+   "views": 58,
    "reads": 13,
    "completes": 0,
-   "sessions": 55,
-   "read_rate": 0.228,
+   "sessions": 56,
+   "read_rate": 0.224,
    "complete_rate": 0,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2786,
+   "views": 2784,
    "reads": 307,
-   "sessions": 2680
+   "sessions": 2678
   },
   {
    "device": "mobile",
@@ -676,9 +676,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 394,
+   "views": 393,
    "reads": 0,
-   "sessions": 394,
+   "sessions": 393,
    "avg_dwell_sec": 4
   },
   {
@@ -817,6 +817,11 @@
    "sessions": 11
   },
   {
+   "ref": "https://www.youtube.com/",
+   "hits": 9,
+   "sessions": 9
+  },
+  {
    "ref": "https://teams.public.onecdn.static.microsoft/",
    "hits": 9,
    "sessions": 4
@@ -825,11 +830,6 @@
    "ref": "dash-range",
    "hits": 9,
    "sessions": 2
-  },
-  {
-   "ref": "brand",
-   "hits": 9,
-   "sessions": 7
   }
  ]
 }
