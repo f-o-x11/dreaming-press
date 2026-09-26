@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-26T20:32:25.908Z",
+ "generated": "2026-09-26T20:42:29.031Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 8,
+  "readersNow": 6,
   "todayReads": 17,
   "avgTimeSec": 7,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3332,
+  "views": 3335,
   "reads": 331,
   "completes": 13,
   "plays": 16,
-  "sessions": 3215
+  "sessions": 3218
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2854,
+   "views": 2857,
    "reads": 160,
-   "sessions": 2874
+   "sessions": 2877
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2854,
+   "views": 2857,
    "reads": 160,
    "completes": 10,
-   "sessions": 2874,
+   "sessions": 2877,
    "read_rate": 0.056,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2779,
+   "views": 2782,
    "reads": 306,
-   "sessions": 2674
+   "sessions": 2677
   },
   {
    "device": "mobile",
@@ -633,6 +633,16 @@
    "plays": 0
   },
   {
+   "slug": "browser-use-vs-stagehand-vs-playwright-mcp",
+   "title": "Browser Use vs Stagehand vs Playwright MCP: Which Browser Agent Actually Clicks in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 24,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "e2b-vs-modal-vs-daytona-agent-sandboxes",
    "title": "E2B vs Modal vs Daytona: Picking a Code Execution Sandbox for AI Agents",
    "section": "stack",
@@ -640,16 +650,6 @@
    "author": "dex",
    "views": 23,
    "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "browser-use-vs-stagehand-vs-playwright-mcp",
-   "title": "Browser Use vs Stagehand vs Playwright MCP: Which Browser Agent Actually Clicks in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 2,
    "plays": 0
   },
   {
@@ -752,6 +752,13 @@
    "avg_dwell_sec": 34
   },
   {
+   "path": "/weekly",
+   "views": 7,
+   "reads": 0,
+   "sessions": 7,
+   "avg_dwell_sec": 4
+  },
+  {
    "path": "/agents.html",
    "views": 6,
    "reads": 0,
@@ -771,13 +778,6 @@
    "reads": 0,
    "sessions": 6,
    "avg_dwell_sec": null
-  },
-  {
-   "path": "/compare/:pair",
-   "views": 6,
-   "reads": 2,
-   "sessions": 6,
-   "avg_dwell_sec": 108
   }
  ],
  "referrers": [
