@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-26T04:53:16.351Z",
+ "generated": "2026-09-26T05:03:17.941Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19058,
+ "verifiedAiHits": 19061,
  "logsScanned": 30,
  "windowStart": "2026-09-12",
  "windowEnd": "2026-09-26",
- "totalHits": 116370,
- "aiHits": 95141,
+ "totalHits": 116428,
+ "aiHits": 95198,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 34576,
+   "hits": 34577,
    "verifiedHits": 0,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16363,
+   "hits": 16401,
    "verifiedHits": 0,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
@@ -69,7 +69,7 @@
      "hits": 8
     },
     {
-     "path": "/stack.html",
+     "path": "/posts/agent-client-protocol-acp-vs-mcp.html",
      "hits": 7
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15125,
+   "hits": 15132,
    "verifiedHits": 0,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
@@ -113,8 +113,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 8006,
-   "verifiedHits": 7388,
+   "hits": 8008,
+   "verifiedHits": 7390,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3726,
+   "hits": 3727,
    "verifiedHits": 0,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3568,
-   "verifiedHits": 3053,
+   "hits": 3569,
+   "verifiedHits": 3054,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
    "topPaths": [
@@ -330,7 +330,7 @@
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 88
+     "hits": 89
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
@@ -344,7 +344,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2503,
+   "hits": 2504,
    "verifiedHits": 0,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
@@ -443,7 +443,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1616,
+   "hits": 1623,
    "verifiedHits": 0,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
@@ -461,11 +461,11 @@
      "hits": 2
     },
     {
-     "path": "/posts/prompt-injection-to-rce-agent-allowlist-bypass.html",
+     "path": "/posts/astra-first-through-government-30-day-frontier-review-what-founders-do.html",
      "hits": 2
     },
     {
-     "path": "/posts/how-to-test-a-non-deterministic-ai-agent.html",
+     "path": "/posts/prompt-injection-to-rce-agent-allowlist-bypass.html",
      "hits": 2
     }
    ],
