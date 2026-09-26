@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-26T17:19:18.209Z",
+ "generated": "2026-09-26T17:29:35.628Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 15,
+  "readersNow": 4,
+  "todayReads": 16,
   "avgTimeSec": 7,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3316,
-  "reads": 330,
+  "views": 3318,
+  "reads": 331,
   "completes": 13,
   "plays": 16,
-  "sessions": 3199
+  "sessions": 3201
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2841,
+   "views": 2842,
    "reads": 160,
-   "sessions": 2862
+   "sessions": 2863
   },
   {
    "channel": "organic",
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 235,
-   "reads": 40,
-   "sessions": 232
+   "views": 236,
+   "reads": 41,
+   "sessions": 233
   },
   {
    "channel": "ai",
    "views": 33,
    "reads": 14,
-   "sessions": 46
+   "sessions": 47
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2841,
+   "views": 2842,
    "reads": 160,
    "completes": 10,
-   "sessions": 2862,
+   "sessions": 2863,
    "read_rate": 0.056,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 235,
-   "reads": 40,
+   "views": 236,
+   "reads": 41,
    "completes": 1,
-   "sessions": 232,
-   "read_rate": 0.17,
+   "sessions": 233,
+   "read_rate": 0.174,
    "complete_rate": 0.004,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -126,10 +126,10 @@
    "views": 33,
    "reads": 14,
    "completes": 0,
-   "sessions": 46,
+   "sessions": 47,
    "read_rate": 0.424,
    "complete_rate": 0,
-   "pages_per_session": 0.72,
+   "pages_per_session": 0.7,
    "median_dwell_sec": 13
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 246,
-   "reads": 42,
-   "sessions": 240
+   "views": 247,
+   "reads": 43,
+   "sessions": 241
   },
   {
    "assistant": "Doubao",
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2765,
-   "reads": 305,
-   "sessions": 2660
+   "views": 2767,
+   "reads": 306,
+   "sessions": 2662
   },
   {
    "device": "mobile",
@@ -324,7 +324,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 38,
+   "views": 39,
    "reads": 36,
    "plays": 0
   },
@@ -339,6 +339,16 @@
    "plays": 1
   },
   {
+   "slug": "open-source-llm-for-coding-september-2026",
+   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 31,
+   "reads": 9,
+   "plays": 1
+  },
+  {
    "slug": "playwright-mcp-vs-cli-token-cost-browser-agents",
    "title": "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K",
    "section": "wire",
@@ -347,16 +357,6 @@
    "views": 18,
    "reads": 9,
    "plays": 0
-  },
-  {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 31,
-   "reads": 8,
-   "plays": 1
   },
   {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
@@ -487,7 +487,7 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 31,
-   "reads": 8,
+   "reads": 9,
    "plays": 1
   },
   {
@@ -598,7 +598,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 38,
+   "views": 39,
    "reads": 36,
    "plays": 0
   },
@@ -619,7 +619,7 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 31,
-   "reads": 8,
+   "reads": 9,
    "plays": 1
   },
   {
@@ -788,7 +788,7 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 60,
+   "hits": 61,
    "sessions": 34
   },
   {
