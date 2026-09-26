@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-26T10:56:00.010Z",
+ "generated": "2026-09-26T11:06:00.610Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -24,23 +24,23 @@
   },
   {
    "term": "agentic",
-   "count": 27
+   "count": 26
   },
   {
    "term": "build",
-   "count": 24
+   "count": 23
   },
   {
    "term": "coding",
    "count": 20
   },
   {
-   "term": "mcp",
+   "term": "building",
    "count": 17
   },
   {
-   "term": "building",
-   "count": 17
+   "term": "mcp",
+   "count": 16
   },
   {
    "term": "claude",
@@ -63,10 +63,6 @@
    "count": 9
   },
   {
-   "term": "big",
-   "count": 8
-  },
-  {
    "term": "research",
    "count": 7
   },
@@ -84,6 +80,10 @@
   },
   {
    "term": "production",
+   "count": 7
+  },
+  {
+   "term": "systems",
    "count": 7
   }
  ],
@@ -152,7 +152,7 @@
   },
   {
    "text": "🚀 Zero → AI Engineer Roadmap (2026) Assumes basic ML/DL. Goal: Learn to build and ship production LLM + agent systems. 1. LLM Internals Resources: • Karpathy — Neural Networks: Zero to Hero • Jay Alammar — The Illustrat",
-   "engagement": 272,
+   "engagement": 273,
    "url": "https://x.com/i/status/2103383326543495485",
    "created": "2026-09-25T07:17:18.000Z"
   },
