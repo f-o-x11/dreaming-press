@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-09-26T03:32Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-26T03:42Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3308 views → 322 engaged reads → 14 completes · 3190 sessions.
-- Channels: direct 156r/2845v · organic 96r/139v · campaign:chatgpt.com 39r/224v · ai 14r/34v · referral 13r/58v · campaign:qwant 4r/6v · campaign:producthunt/ 0r/1v · social 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 41r/236v · Doubao 9r/12v · Perplexity 2r/4v · Claude 1r/2v · Kimi 0r/3v · DeepSeek 0r/1v.
+- Funnel: 3307 views → 322 engaged reads → 14 completes · 3189 sessions.
+- Channels: direct 156r/2843v · organic 96r/139v · campaign:chatgpt.com 39r/225v · ai 14r/34v · referral 13r/58v · campaign:qwant 4r/6v · campaign:producthunt/ 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 41r/237v · Doubao 9r/12v · Perplexity 2r/4v · Claude 1r/2v · Kimi 0r/3v · DeepSeek 0r/1v.
 - Referrers: mail.google.com, chatgpt.com, bing.com, cn.bing.com, duckduckgo.com, doubao.com, search.brave.com, teams.public.onecdn.static.microsoft, dash-range, brand.
 - Engaged-read winners by section: wire=7, stack=8.
 
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2845 views · read 5.5% · complete 0.4% · 0.99 pages/session · median 5s
-- campaign:chatgpt.com: 224 views · read 17.4% · complete 0.4% · 1.01 pages/session · median ?s
+- direct: 2843 views · read 5.5% · complete 0.4% · 0.99 pages/session · median 5s
+- campaign:chatgpt.com: 225 views · read 17.3% · complete 0.4% · 1.01 pages/session · median ?s
 - organic: 139 views · read 69.1% · complete 1.4% · 1.34 pages/session · median ?s
 - referral: 58 views · read 22.4% · complete 0.0% · 1.04 pages/session · median ?s
 - ai: 34 views · read 41.2% · complete 0.0% · 0.74 pages/session · median 13s
@@ -109,7 +109,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (7380 verified): /build ×80 · / ×25 · /posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html ×19
-- OAI-SearchBot (4520 verified): /wire.html ×59 · /tools ×35 · /posts/2026-08-31-founders-wire-openai-cursor-cutoff-claudeforce-a16z-machine-age.html ×31
+- OAI-SearchBot (4522 verified): /wire.html ×59 · /tools ×35 · /posts/2026-08-31-founders-wire-openai-cursor-cutoff-claudeforce-a16z-machine-age.html ×31
 - ChatGPT-User (3043 verified): / ×578 · /posts/open-source-llm-for-coding-september-2026.html ×202 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×157
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -131,8 +131,8 @@ High-engagement posts to react to / cite:
 - "Being able to demonstrate that you can build production-ready AI agents is super useful these days. In this 8-hour course, Andrew helps you prepare for the Claude Certified Developer Foundations cert. You'll learn about " — https://x.com/i/status/2103213282618167787
 - "Build but build well on @RobinhoodCrypto make a difference. I have been thirsty to extend on my thesis; Before I dive into things just note @vladtenev quoted “The next era of consumer finance is agentic.” There’s nothing" — https://x.com/i/status/2102019638498402351
 - "50,000 USDT on the line + free Qwen / Kimi K3 credits. AI × tokenized US stocks × 7days 24hours. When markets never close, humans sleep but agents don’t. Agent Hub 2.0 is live I believe this is first of it kind in the in" — https://x.com/i/status/2101183618529841558
-- "Jev Founder, Diogo Amogo, just released 12-page PDF on building a Jev Harness for coding agents This is a 10-step blueprint on how to make your coding agents 220x faster and 444x cheaper: step 1 → stop treating a coding " — https://x.com/i/status/2102744804127842654
 - "🚀 Zero → AI Engineer Roadmap (2026) Assumes basic ML/DL. Goal: Learn to build and ship production LLM + agent systems. 1. LLM Internals Resources: • Karpathy — Neural Networks: Zero to Hero • Jay Alammar — The Illustrat" — https://x.com/i/status/2103383326543495485
+- "Jev Founder, Diogo Amogo, just released 12-page PDF on building a Jev Harness for coding agents This is a 10-step blueprint on how to make your coding agents 220x faster and 444x cheaper: step 1 → stop treating a coding " — https://x.com/i/status/2102744804127842654
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (249 of 449 phrases have NO post, 16h ago)
@@ -158,10 +158,10 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 19016 confirmed AI-engine fetches (Perplexity 7380, ChatGPT Search (OpenAI) 4520, GPTBot (OpenAI) 4073, ChatGPT (user browsing) 3043).
+The real answer engines are crawling us — IP-verified: 19018 confirmed AI-engine fetches (Perplexity 7380, ChatGPT Search (OpenAI) 4522, GPTBot (OpenAI) 4073, ChatGPT (user browsing) 3043).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 602 crawler fetches
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 436 crawler fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 439 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 211 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 187 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 182 crawler fetches
