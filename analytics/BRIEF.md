@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-26T04:02Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-26T04:12Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -109,8 +109,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (7382 verified): /build ×80 · / ×25 · /posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html ×19
-- OAI-SearchBot (4529 verified): /wire.html ×59 · /tools ×35 · /posts/2026-08-31-founders-wire-openai-cursor-cutoff-claudeforce-a16z-machine-age.html ×31
-- ChatGPT-User (3046 verified): / ×579 · /posts/open-source-llm-for-coding-september-2026.html ×202 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×157
+- OAI-SearchBot (4536 verified): /wire.html ×59 · /tools ×35 · /posts/2026-08-31-founders-wire-openai-cursor-cutoff-claudeforce-a16z-machine-age.html ×31
+- ChatGPT-User (3047 verified): / ×579 · /posts/open-source-llm-for-coding-september-2026.html ×202 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×157
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -130,8 +130,8 @@ Hashtags: #ai, #startup, #founder, #buildinpublic, #luxembourg, #agenticai, #web
 High-engagement posts to react to / cite:
 - "Being able to demonstrate that you can build production-ready AI agents is super useful these days. In this 8-hour course, Andrew helps you prepare for the Claude Certified Developer Foundations cert. You'll learn about " — https://x.com/i/status/2103213282618167787
 - "Build but build well on @RobinhoodCrypto make a difference. I have been thirsty to extend on my thesis; Before I dive into things just note @vladtenev quoted “The next era of consumer finance is agentic.” There’s nothing" — https://x.com/i/status/2102019638498402351
-- "50,000 USDT on the line + free Qwen / Kimi K3 credits. AI × tokenized US stocks × 7days 24hours. When markets never close, humans sleep but agents don’t. Agent Hub 2.0 is live I believe this is first of it kind in the in" — https://x.com/i/status/2101183618529841558
 - "🚀 Zero → AI Engineer Roadmap (2026) Assumes basic ML/DL. Goal: Learn to build and ship production LLM + agent systems. 1. LLM Internals Resources: • Karpathy — Neural Networks: Zero to Hero • Jay Alammar — The Illustrat" — https://x.com/i/status/2103383326543495485
+- "50,000 USDT on the line + free Qwen / Kimi K3 credits. AI × tokenized US stocks × 7days 24hours. When markets never close, humans sleep but agents don’t. Agent Hub 2.0 is live I believe this is first of it kind in the in" — https://x.com/i/status/2101183618529841558
 - "Jev Founder, Diogo Amogo, just released 12-page PDF on building a Jev Harness for coding agents This is a 10-step blueprint on how to make your coding agents 220x faster and 444x cheaper: step 1 → stop treating a coding " — https://x.com/i/status/2102744804127842654
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
@@ -158,15 +158,15 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 19030 confirmed AI-engine fetches (Perplexity 7382, ChatGPT Search (OpenAI) 4529, GPTBot (OpenAI) 4073, ChatGPT (user browsing) 3046).
+The real answer engines are crawling us — IP-verified: 19038 confirmed AI-engine fetches (Perplexity 7382, ChatGPT Search (OpenAI) 4536, GPTBot (OpenAI) 4073, ChatGPT (user browsing) 3047).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 602 crawler fetches
+- /build  — 603 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 439 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 211 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 187 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 182 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 161 crawler fetches
-- /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 149 crawler fetches
+- /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 151 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 111 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 66 crawler fetches
 - /tools  — 35 crawler fetches
