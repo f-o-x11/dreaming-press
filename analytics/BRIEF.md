@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-26T21:43Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-26T21:53Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3341 views → 331 engaged reads → 13 completes · 3224 sessions.
-- Channels: direct 160r/2863v · organic 98r/139v · campaign:chatgpt.com 42r/240v · ai 14r/33v · referral 13r/57v · campaign:qwant 4r/6v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 3340 views → 331 engaged reads → 13 completes · 3223 sessions.
+- Channels: direct 160r/2862v · organic 98r/139v · campaign:chatgpt.com 42r/240v · ai 14r/33v · referral 13r/57v · campaign:qwant 4r/6v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 44r/251v · Doubao 9r/12v · Perplexity 2r/4v · Claude 1r/2v · Kimi 0r/3v · DeepSeek 0r/1v.
 - Referrers: mail.google.com, chatgpt.com, bing.com, cn.bing.com, duckduckgo.com, doubao.com, search.brave.com, teams.public.onecdn.static.microsoft, dash-range, brand.
 - Engaged-read winners by section: wire=7, stack=8.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2863 views · read 5.6% · complete 0.3% · 0.99 pages/session · median 5s
+- direct: 2862 views · read 5.6% · complete 0.3% · 0.99 pages/session · median 5s
 - campaign:chatgpt.com: 240 views · read 17.5% · complete 0.4% · 1.01 pages/session · median ?s
 - organic: 139 views · read 70.5% · complete 1.4% · 1.35 pages/session · median ?s
 - referral: 57 views · read 22.8% · complete 0.0% · 1.04 pages/session · median ?s
@@ -72,7 +72,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
 - [stack] "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)" — 64 views, 13 reads
-- [wire] "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again" — 53 views, 2 reads
+- [wire] "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again" — 52 views, 2 reads
 - [wire] "Microsoft Agent Framework vs LangGraph vs CrewAI: Which One Crossed the Three Thresholds" — 39 views, 36 reads
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 38 views, 0 reads
 - [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 30 views, 9 reads
@@ -83,7 +83,7 @@ These pulled real traffic and then lost it. The click already worked, so the
 problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
-- [wire] "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again" — 53 views but only 2 engaged reads (3.8%)
+- [wire] "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again" — 52 views but only 2 engaged reads (3.8%)
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 38 views but only 0 engaged reads (0.0%)
 - [wire] "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO" — 30 views but only 0 engaged reads (0.0%)
 - [stack] "E2B vs Modal vs Daytona: Picking a Code Execution Sandbox for AI Agents" — 23 views but only 1 engaged reads (4.3%)
@@ -169,8 +169,8 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 156 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 122 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 70 crawler fetches
+- /posts/gartner-ai-agent-spending-2026.html  — 35 crawler fetches
 - /tools  — 35 crawler fetches
-- /posts/gartner-ai-agent-spending-2026.html  — 34 crawler fetches
 - /posts/2026-08-31-founders-wire-openai-cursor-cutoff-claudeforce-a16z-machine-age.html  — 31 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
