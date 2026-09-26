@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-09-26T23:45Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-26T23:55Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
 - Funnel: 3341 views → 332 engaged reads → 13 completes · 3223 sessions.
-- Channels: direct 161r/2859v · organic 98r/139v · campaign:chatgpt.com 42r/243v · ai 14r/33v · referral 13r/58v · campaign:qwant 4r/6v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · social 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 44r/254v · Doubao 9r/12v · Perplexity 2r/4v · Claude 1r/2v · Kimi 0r/3v · DeepSeek 0r/1v.
+- Channels: direct 161r/2856v · organic 98r/139v · campaign:chatgpt.com 42r/245v · ai 14r/33v · referral 13r/58v · campaign:qwant 4r/6v · social 0r/2v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 44r/256v · Doubao 9r/12v · Perplexity 2r/4v · Claude 1r/2v · Kimi 0r/3v · DeepSeek 0r/1v.
 - Referrers: mail.google.com, chatgpt.com, bing.com, cn.bing.com, duckduckgo.com, doubao.com, search.brave.com, youtube.com, teams.public.onecdn.static.microsoft, dash-range.
 - Engaged-read winners by section: wire=7, stack=8.
 
@@ -23,13 +23,13 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2859 views · read 5.6% · complete 0.3% · 0.99 pages/session · median 5s
-- campaign:chatgpt.com: 243 views · read 17.3% · complete 0.4% · 1.01 pages/session · median ?s
+- direct: 2856 views · read 5.6% · complete 0.4% · 0.99 pages/session · median 5s
+- campaign:chatgpt.com: 245 views · read 17.1% · complete 0.4% · 1.01 pages/session · median ?s
 - organic: 139 views · read 70.5% · complete 1.4% · 1.35 pages/session · median ?s
 - referral: 58 views · read 22.4% · complete 0.0% · 1.04 pages/session · median ?s
 - ai: 33 views · read 42.4% · complete 0.0% · 0.7 pages/session · median 13s
 - campaign:qwant: 6 views · read 66.7% · complete 0.0% · 3 pages/session · median ?s
-INSIGHT: organic converts 13x better per view than direct, which is 86% of all views.
+INSIGHT: organic converts 13x better per view than direct, which is 85% of all views.
 One visitor from organic is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
@@ -60,9 +60,9 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 393 views, 0 reads, 393 sessions, avg 4s
-- / — 122 views, 2 reads, 121 sessions, avg 12s
+- / — 123 views, 2 reads, 122 sessions, avg 12s
 - /best/:cat — 48 views, 0 reads, 48 sessions, avg 4s
-- /build — 38 views, 0 reads, 38 sessions, avg 4s
+- /build — 37 views, 0 reads, 37 sessions, avg 4s
 - /dashboard — 27 views, 0 reads, 14 sessions, avg 8s
 - /topics/:topic — 16 views, 0 reads, 16 sessions, avg 7s
 - /tools — 12 views, 1 reads, 12 sessions, avg 18s
@@ -72,7 +72,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
 - [stack] "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)" — 64 views, 13 reads
-- [wire] "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again" — 47 views, 2 reads
+- [wire] "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again" — 45 views, 2 reads
 - [wire] "Microsoft Agent Framework vs LangGraph vs CrewAI: Which One Crossed the Three Thresholds" — 39 views, 36 reads
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 38 views, 0 reads
 - [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 30 views, 9 reads
@@ -83,7 +83,7 @@ These pulled real traffic and then lost it. The click already worked, so the
 problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
-- [wire] "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again" — 47 views but only 2 engaged reads (4.3%)
+- [wire] "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again" — 45 views but only 2 engaged reads (4.4%)
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 38 views but only 0 engaged reads (0.0%)
 - [wire] "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO" — 30 views but only 0 engaged reads (0.0%)
 - [stack] "E2B vs Modal vs Daytona: Picking a Code Execution Sandbox for AI Agents" — 23 views but only 1 engaged reads (4.3%)
