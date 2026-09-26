@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-26T19:41Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-26T19:52Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -108,7 +108,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/best-open-source-vector-database-2026.html  — 31 retrieval fetches
 
 Per engine:
-- PerplexityBot (7466 verified): /build ×81 · / ×27 · /posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html ×19
+- PerplexityBot (7467 verified): /build ×81 · / ×27 · /posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html ×19
 - OAI-SearchBot (4712 verified): /wire.html ×59 · /tools ×35 · /posts/2026-08-31-founders-wire-openai-cursor-cutoff-claudeforce-a16z-machine-age.html ×31
 - ChatGPT-User (3152 verified): / ×607 · /posts/open-source-llm-for-coding-september-2026.html ×208 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×161
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 19411 confirmed AI-engine fetches (Perplexity 7466, ChatGPT Search (OpenAI) 4712, GPTBot (OpenAI) 4081, ChatGPT (user browsing) 3152).
+The real answer engines are crawling us — IP-verified: 19413 confirmed AI-engine fetches (Perplexity 7467, ChatGPT Search (OpenAI) 4712, GPTBot (OpenAI) 4082, ChatGPT (user browsing) 3152).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 613 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 473 crawler fetches
