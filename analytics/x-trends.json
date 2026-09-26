@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-26T21:02:50.449Z",
+ "generated": "2026-09-26T21:12:53.312Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -16,7 +16,7 @@
   },
   {
    "term": "agent",
-   "count": 34
+   "count": 35
   },
   {
    "term": "build",
@@ -28,11 +28,11 @@
   },
   {
    "term": "startup",
-   "count": 27
+   "count": 26
   },
   {
    "term": "coding",
-   "count": 22
+   "count": 23
   },
   {
    "term": "mcp",
@@ -40,7 +40,7 @@
   },
   {
    "term": "building",
-   "count": 17
+   "count": 18
   },
   {
    "term": "claude",
@@ -67,10 +67,6 @@
    "count": 8
   },
   {
-   "term": "research",
-   "count": 7
-  },
-  {
    "term": "learn",
    "count": 7
   },
@@ -84,6 +80,10 @@
   },
   {
    "term": "first",
+   "count": 7
+  },
+  {
+   "term": "day",
    "count": 7
   }
  ],
@@ -146,7 +146,7 @@
   },
   {
    "text": "🚀 Zero → AI Engineer Roadmap (2026) Assumes basic ML/DL. Goal: Learn to build and ship production LLM + agent systems. 1. LLM Internals Resources: • Karpathy — Neural Networks: Zero to Hero • Jay Alammar — The Illustrat",
-   "engagement": 415,
+   "engagement": 419,
    "url": "https://x.com/i/status/2103383326543495485",
    "created": "2026-09-25T07:17:18.000Z"
   },
@@ -158,7 +158,7 @@
   },
   {
    "text": "🚨You don’t need better prompts. You need to give Claude tools. A real Claude agent needs more than a good prompt: 🎯 1. Define ONE job Start with a focused outcome — research, sales, content, support, etc. 🧠 2. Give it",
-   "engagement": 204,
+   "engagement": 206,
    "url": "https://x.com/i/status/2103779372473647530",
    "created": "2026-09-26T09:31:03.000Z"
   },
