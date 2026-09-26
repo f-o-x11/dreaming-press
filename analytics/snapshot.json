@@ -1,15 +1,15 @@
 {
- "generated": "2026-09-26T00:31:12.510Z",
+ "generated": "2026-09-26T00:41:19.948Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 5,
   "todayReads": 0,
-  "avgTimeSec": 10,
+  "avgTimeSec": 6,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3309,
-  "reads": 321,
+  "views": 3310,
+  "reads": 320,
   "completes": 14,
   "plays": 18,
   "sessions": 3192
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2843,
+   "views": 2844,
    "reads": 154,
    "sessions": 2864
   },
   {
    "channel": "organic",
    "views": 138,
-   "reads": 97,
-   "sessions": 104
+   "reads": 96,
+   "sessions": 103
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,7 +73,7 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2843,
+   "views": 2844,
    "reads": 154,
    "completes": 10,
    "sessions": 2863,
@@ -96,12 +96,12 @@
   {
    "channel": "organic",
    "views": 138,
-   "reads": 97,
+   "reads": 96,
    "completes": 2,
-   "sessions": 104,
-   "read_rate": 0.703,
+   "sessions": 103,
+   "read_rate": 0.696,
    "complete_rate": 0.014,
-   "pages_per_session": 1.33,
+   "pages_per_session": 1.34,
    "median_dwell_sec": null
   },
   {
@@ -290,14 +290,14 @@
   {
    "device": "desktop",
    "views": 2754,
-   "reads": 296,
-   "sessions": 2649
+   "reads": 295,
+   "sessions": 2648
   },
   {
    "device": "mobile",
-   "views": 555,
+   "views": 556,
    "reads": 25,
-   "sessions": 543
+   "sessions": 544
   }
  ],
  "topContent": [
@@ -317,7 +317,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 60,
+   "views": 61,
    "reads": 12,
    "plays": 1
   },
@@ -352,16 +352,6 @@
    "plays": 0
   },
   {
-   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
-   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
-   "reads": 7,
-   "plays": 0
-  },
-  {
    "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
    "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
    "section": "wire",
@@ -388,6 +378,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 12,
+   "reads": 6,
+   "plays": 0
+  },
+  {
+   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
+   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 10,
    "reads": 6,
    "plays": 0
   },
@@ -459,7 +459,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 60,
+   "views": 61,
    "reads": 12,
    "plays": 1
   },
@@ -571,7 +571,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 60,
+   "views": 61,
    "reads": 12,
    "plays": 1
   },
@@ -790,14 +790,14 @@
    "sessions": 19
   },
   {
-   "ref": "https://search.brave.com/",
-   "hits": 22,
-   "sessions": 12
-  },
-  {
    "ref": "https://www.doubao.com/",
    "hits": 21,
    "sessions": 6
+  },
+  {
+   "ref": "https://search.brave.com/",
+   "hits": 21,
+   "sessions": 11
   },
   {
    "ref": "https://teams.public.onecdn.static.microsoft/",
