@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-26T13:57:16.027Z",
+ "generated": "2026-09-26T14:07:18.202Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 12,
+  "readersNow": 2,
+  "todayReads": 13,
   "avgTimeSec": 7,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3310,
+  "views": 3311,
   "reads": 329,
-  "completes": 14,
-  "plays": 17,
-  "sessions": 3192
+  "completes": 13,
+  "plays": 16,
+  "sessions": 3194
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2840,
+   "views": 2841,
    "reads": 160,
-   "sessions": 2860
+   "sessions": 2862
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2840,
+   "views": 2841,
    "reads": 160,
    "completes": 10,
-   "sessions": 2860,
+   "sessions": 2862,
    "read_rate": 0.056,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2761,
+   "views": 2762,
    "reads": 304,
-   "sessions": 2655
+   "sessions": 2657
   },
   {
    "device": "mobile",
@@ -317,8 +317,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 62,
-   "reads": 12,
+   "views": 63,
+   "reads": 13,
    "plays": 1
   },
   {
@@ -459,8 +459,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 62,
-   "reads": 12,
+   "views": 63,
+   "reads": 13,
    "plays": 1
   },
   {
@@ -524,16 +524,6 @@
    "plays": 1
   },
   {
-   "slug": "best-llm-for-function-calling",
-   "title": "Best LLM for Function Calling: Why the Leaderboard Score Lies",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 4,
-   "reads": 2,
-   "plays": 1
-  },
-  {
    "slug": "bedrock-agentcore-observability-vs-langfuse-vs-phoenix",
    "title": "Bedrock AgentCore's Free Observability vs Langfuse vs Phoenix: When the Built-In Tracing Is Actually Enough",
    "section": "stack",
@@ -552,6 +542,16 @@
    "views": 5,
    "reads": 1,
    "plays": 1
+  },
+  {
+   "slug": "reducto-vs-llamaparse-vs-unstructured-vs-docling-document-parsing-rag",
+   "title": "Reducto vs LlamaParse vs Unstructured vs Docling: Which Document Parser Your RAG Pipeline Actually Needs",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 4,
+   "reads": 1,
+   "plays": 1
   }
  ],
  "topViews": [
@@ -561,8 +561,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 62,
-   "reads": 12,
+   "views": 63,
+   "reads": 13,
    "plays": 1
   },
   {
