@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-26T22:03:09.452Z",
+ "generated": "2026-09-26T22:13:20.613Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 8,
   "todayReads": 18,
   "avgTimeSec": 7,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3342,
+  "views": 3347,
   "reads": 332,
   "completes": 13,
   "plays": 16,
-  "sessions": 3224
+  "sessions": 3229
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2864,
+   "views": 2869,
    "reads": 161,
-   "sessions": 2883
+   "sessions": 2888
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2864,
+   "views": 2869,
    "reads": 161,
    "completes": 10,
-   "sessions": 2883,
+   "sessions": 2888,
    "read_rate": 0.056,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2785,
+   "views": 2788,
    "reads": 307,
-   "sessions": 2679
+   "sessions": 2682
   },
   {
    "device": "mobile",
-   "views": 557,
+   "views": 559,
    "reads": 25,
-   "sessions": 545
+   "sessions": 547
   }
  ],
  "topContent": [
@@ -419,21 +419,21 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-routellm-vs-notdiamond-vs-martian",
-   "title": "RouteLLM vs NotDiamond vs Martian: Do LLM Model Routers Actually Cut Costs?",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 13,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
    "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
+   "views": 14,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-21-routellm-vs-notdiamond-vs-martian",
+   "title": "RouteLLM vs NotDiamond vs Martian: Do LLM Model Routers Actually Cut Costs?",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
    "views": 13,
    "reads": 4,
    "plays": 0
