@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-26T22:54:00.648Z",
+ "generated": "2026-09-26T23:04:10.516Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 6,
   "todayReads": 18,
   "avgTimeSec": 7,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 3346,
+  "views": 3351,
   "reads": 332,
   "completes": 13,
   "plays": 16,
-  "sessions": 3228
+  "sessions": 3233
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2868,
+   "views": 2871,
    "reads": 161,
-   "sessions": 2887
+   "sessions": 2890
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 240,
+   "views": 242,
    "reads": 42,
-   "sessions": 237
+   "sessions": 239
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2868,
+   "views": 2871,
    "reads": 161,
    "completes": 10,
-   "sessions": 2887,
+   "sessions": 2890,
    "read_rate": 0.056,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 240,
+   "views": 242,
    "reads": 42,
    "completes": 1,
-   "sessions": 237,
-   "read_rate": 0.175,
+   "sessions": 239,
+   "read_rate": 0.174,
    "complete_rate": 0.004,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 251,
+   "views": 253,
    "reads": 44,
-   "sessions": 245
+   "sessions": 247
   },
   {
    "assistant": "Doubao",
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2786,
+   "views": 2791,
    "reads": 307,
-   "sessions": 2680
+   "sessions": 2685
   },
   {
    "device": "mobile",
@@ -663,13 +663,13 @@
    "plays": 0
   },
   {
-   "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
+   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
+   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
    "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
+   "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 21,
-   "reads": 1,
+   "views": 22,
+   "reads": 0,
    "plays": 0
   }
  ],
