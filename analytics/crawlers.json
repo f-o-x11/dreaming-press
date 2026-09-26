@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-26T00:21:08.495Z",
+ "generated": "2026-09-26T00:31:11.983Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18922,
+ "verifiedAiHits": 18925,
  "logsScanned": 30,
  "windowStart": "2026-09-12",
  "windowEnd": "2026-09-26",
- "totalHits": 115104,
- "aiHits": 94066,
+ "totalHits": 115154,
+ "aiHits": 94087,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 34239,
+   "hits": 34245,
    "verifiedHits": 0,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14934,
+   "hits": 14941,
    "verifiedHits": 0,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7186,
-   "verifiedHits": 6763,
+   "hits": 7189,
+   "verifiedHits": 6766,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
    "topPaths": [
@@ -179,10 +179,10 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 6209,
+   "hits": 6210,
    "verifiedHits": 0,
    "firstSeen": "2026-09-12",
-   "lastSeen": "2026-09-25",
+   "lastSeen": "2026-09-26",
    "topPaths": [
     {
      "path": "/build",
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5019,
-   "verifiedHits": 4460,
+   "hits": 5021,
+   "verifiedHits": 4462,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3535,
-   "verifiedHits": 3021,
+   "hits": 3536,
+   "verifiedHits": 3022,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
    "topPaths": [
@@ -373,47 +373,14 @@
    "verifiable": false
   },
   {
-   "name": "Claude-User",
-   "label": "Claude (user browsing)",
-   "category": "ai",
-   "home": "https://www.anthropic.com",
-   "hits": 2420,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-12",
-   "lastSeen": "2026-09-26",
-   "topPaths": [
-    {
-     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 338
-    },
-    {
-     "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
-     "hits": 186
-    },
-    {
-     "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
-     "hits": 182
-    },
-    {
-     "path": "/posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html",
-     "hits": 138
-    },
-    {
-     "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 111
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Sogou",
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2412,
+   "hits": 2437,
    "verifiedHits": 0,
    "firstSeen": "2026-09-12",
-   "lastSeen": "2026-09-25",
+   "lastSeen": "2026-09-26",
    "topPaths": [
     {
      "path": "/",
@@ -439,11 +406,44 @@
    "verifiable": false
   },
   {
+   "name": "Claude-User",
+   "label": "Claude (user browsing)",
+   "category": "ai",
+   "home": "https://www.anthropic.com",
+   "hits": 2422,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-12",
+   "lastSeen": "2026-09-26",
+   "topPaths": [
+    {
+     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
+     "hits": 339
+    },
+    {
+     "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
+     "hits": 186
+    },
+    {
+     "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
+     "hits": 182
+    },
+    {
+     "path": "/posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html",
+     "hits": 138
+    },
+    {
+     "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
+     "hits": 111
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "YouBot",
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1531,
+   "hits": 1534,
    "verifiedHits": 0,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
