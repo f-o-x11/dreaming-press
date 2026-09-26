@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-26T22:43Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-26T22:54Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3345 views → 332 engaged reads → 13 completes · 3227 sessions.
-- Channels: direct 161r/2867v · organic 98r/139v · campaign:chatgpt.com 42r/240v · ai 14r/33v · referral 13r/57v · campaign:qwant 4r/6v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 3346 views → 332 engaged reads → 13 completes · 3228 sessions.
+- Channels: direct 161r/2868v · organic 98r/139v · campaign:chatgpt.com 42r/240v · ai 14r/33v · referral 13r/57v · campaign:qwant 4r/6v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 44r/251v · Doubao 9r/12v · Perplexity 2r/4v · Claude 1r/2v · Kimi 0r/3v · DeepSeek 0r/1v.
 - Referrers: mail.google.com, chatgpt.com, bing.com, cn.bing.com, duckduckgo.com, doubao.com, search.brave.com, teams.public.onecdn.static.microsoft, dash-range, brand.
 - Engaged-read winners by section: wire=7, stack=8.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2867 views · read 5.6% · complete 0.3% · 0.99 pages/session · median 5s
+- direct: 2868 views · read 5.6% · complete 0.3% · 0.99 pages/session · median 5s
 - campaign:chatgpt.com: 240 views · read 17.5% · complete 0.4% · 1.01 pages/session · median ?s
 - organic: 139 views · read 70.5% · complete 1.4% · 1.35 pages/session · median ?s
 - referral: 57 views · read 22.8% · complete 0.0% · 1.04 pages/session · median ?s
@@ -167,7 +167,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 197 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 165 crawler fetches
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 156 crawler fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 122 crawler fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 123 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 71 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 35 crawler fetches
 - /tools  — 35 crawler fetches
