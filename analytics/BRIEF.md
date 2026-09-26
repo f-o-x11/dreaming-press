@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-26T00:51Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-26T01:01Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -37,7 +37,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Top by engaged reads (eyes that stayed)
 - [wire] "Microsoft Agent Framework vs LangGraph vs CrewAI: Which One Crossed the Three Thresholds" — 36 reads, 38 views, 0 listens
 - [stack] "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)" — 12 reads, 61 views, 1 listens
-- [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 9 reads, 32 views, 1 listens
+- [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 9 reads, 31 views, 1 listens
 - [wire] "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K" — 9 reads, 18 views, 0 listens
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 7 reads, 18 views, 0 listens
 - [wire] "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card" — 7 reads, 9 views, 0 listens
@@ -60,7 +60,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 390 views, 0 reads, 390 sessions, avg 3s
-- / — 122 views, 2 reads, 121 sessions, avg 12s
+- / — 121 views, 2 reads, 120 sessions, avg 12s
 - /best/:cat — 44 views, 0 reads, 44 sessions, avg 4s
 - /build — 41 views, 0 reads, 41 sessions, avg 5s
 - /dashboard — 27 views, 0 reads, 14 sessions, avg 8s
@@ -75,7 +75,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [stack] "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)" — 61 views, 12 reads
 - [wire] "Microsoft Agent Framework vs LangGraph vs CrewAI: Which One Crossed the Three Thresholds" — 38 views, 36 reads
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 37 views, 0 reads
-- [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 32 views, 9 reads
+- [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 31 views, 9 reads
 - [wire] "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO" — 29 views, 0 reads
 
 ## Arrived but left (fix these openings first)
@@ -104,12 +104,12 @@ sample size dwarfs the engaged-read counts below.
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 66 retrieval fetches
 - /wire.html  — 59 retrieval fetches
 - /tools  — 35 retrieval fetches
-- /posts/2026-08-31-founders-wire-openai-cursor-cutoff-claudeforce-a16z-machine-age.html  — 30 retrieval fetches
+- /posts/2026-08-31-founders-wire-openai-cursor-cutoff-claudeforce-a16z-machine-age.html  — 31 retrieval fetches
 - /posts/best-open-source-vector-database-2026.html  — 30 retrieval fetches
 
 Per engine:
 - PerplexityBot (7369 verified): /build ×80 · / ×25 · /posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html ×19
-- OAI-SearchBot (4466 verified): /wire.html ×59 · /tools ×35 · /posts/2026-08-31-founders-wire-openai-cursor-cutoff-claudeforce-a16z-machine-age.html ×30
+- OAI-SearchBot (4468 verified): /wire.html ×59 · /tools ×35 · /posts/2026-08-31-founders-wire-openai-cursor-cutoff-claudeforce-a16z-machine-age.html ×31
 - ChatGPT-User (3024 verified): / ×574 · /posts/open-source-llm-for-coding-september-2026.html ×201 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×154
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 18931 confirmed AI-engine fetches (Perplexity 7369, ChatGPT Search (OpenAI) 4466, GPTBot (OpenAI) 4072, ChatGPT (user browsing) 3024).
+The real answer engines are crawling us — IP-verified: 18933 confirmed AI-engine fetches (Perplexity 7369, ChatGPT Search (OpenAI) 4468, GPTBot (OpenAI) 4072, ChatGPT (user browsing) 3024).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 599 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 431 crawler fetches
@@ -170,8 +170,8 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 111 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 66 crawler fetches
 - /tools  — 35 crawler fetches
+- /posts/2026-08-31-founders-wire-openai-cursor-cutoff-claudeforce-a16z-machine-age.html  — 31 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 30 crawler fetches
-- /posts/2026-08-31-founders-wire-openai-cursor-cutoff-claudeforce-a16z-machine-age.html  — 30 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
