@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-26T16:08Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-26T16:18Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -135,7 +135,7 @@ High-engagement posts to react to / cite:
 - "Humans need sleep. Trading agents don’t. Bitget just kicked off Builder Base Camp Hackathon S2 with a 50,000 USDT prize pool, and tokenized US stocks that run 24/7. Build autonomous execution agents, quant strategies, or" — https://x.com/i/status/2101380476212576511
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (249 of 449 phrases have NO post, 28h ago)
+## Uncovered search demand (249 of 449 phrases have NO post, 29h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -163,7 +163,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /build  — 609 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 467 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 216 crawler fetches
-- /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 197 crawler fetches
+- /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 198 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 191 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 164 crawler fetches
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 154 crawler fetches
