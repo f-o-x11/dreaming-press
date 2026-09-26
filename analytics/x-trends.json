@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-26T06:23:38.081Z",
+ "generated": "2026-09-26T06:33:39.929Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 38
+   "count": 39
   },
   {
    "term": "founder",
@@ -19,28 +19,28 @@
    "count": 35
   },
   {
-   "term": "agentic",
-   "count": 28
-  },
-  {
    "term": "startup",
    "count": 28
   },
   {
+   "term": "agentic",
+   "count": 27
+  },
+  {
    "term": "build",
-   "count": 23
+   "count": 24
   },
   {
    "term": "coding",
    "count": 18
   },
   {
-   "term": "building",
+   "term": "mcp",
    "count": 17
   },
   {
-   "term": "mcp",
-   "count": 16
+   "term": "building",
+   "count": 17
   },
   {
    "term": "claude",
@@ -55,12 +55,20 @@
    "count": 9
   },
   {
+   "term": "workflows",
+   "count": 9
+  },
+  {
    "term": "big",
    "count": 8
   },
   {
    "term": "code",
    "count": 8
+  },
+  {
+   "term": "research",
+   "count": 7
   },
   {
    "term": "security",
@@ -71,19 +79,11 @@
    "count": 7
   },
   {
+   "term": "here",
+   "count": 7
+  },
+  {
    "term": "production",
-   "count": 7
-  },
-  {
-   "term": "workflows",
-   "count": 7
-  },
-  {
-   "term": "day",
-   "count": 7
-  },
-  {
-   "term": "make",
    "count": 7
   }
  ],
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Being able to demonstrate that you can build production-ready AI agents is super useful these days. In this 8-hour course, Andrew helps you prepare for the Claude Certified Developer Foundations cert. You'll learn about ",
-   "engagement": 943,
+   "engagement": 944,
    "url": "https://x.com/i/status/2103213282618167787",
    "created": "2026-09-24T20:01:37.000Z"
   },
