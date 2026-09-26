@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-26T23:34:59.786Z",
+ "generated": "2026-09-26T23:45:06.037Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19449,
+ "verifiedAiHits": 19451,
  "logsScanned": 30,
  "windowStart": "2026-09-12",
  "windowEnd": "2026-09-26",
- "totalHits": 122134,
- "aiHits": 99830,
+ "totalHits": 122166,
+ "aiHits": 99850,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 17583,
+   "hits": 17588,
    "verifiedHits": 0,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
@@ -80,14 +80,14 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15962,
+   "hits": 15969,
    "verifiedHits": 0,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
    "topPaths": [
     {
      "path": "/wire.html",
-     "hits": 25
+     "hits": 26
     },
     {
      "path": "/tags/opinionated",
@@ -102,8 +102,8 @@
      "hits": 17
     },
     {
-     "path": "/stacks/autogen%2Bcloudflare-ai-gateway%2Bgraphlit",
-     "hits": 13
+     "path": "/topics/rag-retrieval",
+     "hits": 14
     }
    ],
    "verifiable": false
@@ -113,8 +113,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 8100,
-   "verifiedHits": 7482,
+   "hits": 8101,
+   "verifiedHits": 7483,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7659,
-   "verifiedHits": 7236,
+   "hits": 7663,
+   "verifiedHits": 7240,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4045,
+   "hits": 4051,
    "verifiedHits": 0,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3687,
-   "verifiedHits": 3172,
+   "hits": 3688,
+   "verifiedHits": 3173,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2615,
+   "hits": 2617,
    "verifiedHits": 0,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
@@ -443,7 +443,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2115,
+   "hits": 2119,
    "verifiedHits": 0,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 623,
-   "verifiedHits": 481,
+   "hits": 625,
+   "verifiedHits": 483,
    "firstSeen": "2026-09-12",
    "lastSeen": "2026-09-26",
    "topPaths": [
