@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-27T17:51Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-27T18:02Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3260 views → 322 engaged reads → 10 completes · 3148 sessions.
-- Channels: direct 159r/2765v · organic 100r/141v · campaign:chatgpt.com 36r/259v · ai 13r/32v · referral 10r/53v · campaign:qwant 4r/6v · social 0r/2v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3259 views → 322 engaged reads → 10 completes · 3147 sessions.
+- Channels: direct 159r/2764v · organic 100r/141v · campaign:chatgpt.com 36r/259v · ai 13r/32v · referral 10r/53v · campaign:qwant 4r/6v · social 0r/2v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 37r/269v · Doubao 9r/12v · Perplexity 2r/4v · Claude 1r/2v · Kimi 0r/3v · DeepSeek 0r/1v.
 - Referrers: mail.google.com, bing.com, chatgpt.com, duckduckgo.com, cn.bing.com, doubao.com, search.brave.com, youtube.com, teams.public.onecdn.static.microsoft, dash-range.
 - Engaged-read winners by section: wire=6, stack=9.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2765 views · read 5.8% · complete 0.3% · 0.99 pages/session · median 4s
+- direct: 2764 views · read 5.8% · complete 0.3% · 0.99 pages/session · median 4s
 - campaign:chatgpt.com: 259 views · read 13.9% · complete 0.4% · 1 pages/session · median ?s
 - organic: 141 views · read 70.9% · complete 1.4% · 1.34 pages/session · median ?s
 - referral: 53 views · read 18.9% · complete 0.0% · 1 pages/session · median ?s
@@ -60,7 +60,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 398 views, 0 reads, 398 sessions, avg 4s
-- / — 125 views, 2 reads, 125 sessions, avg 13s
+- / — 126 views, 2 reads, 126 sessions, avg 14s
 - /best/:cat — 49 views, 0 reads, 49 sessions, avg 4s
 - /build — 35 views, 0 reads, 35 sessions, avg 5s
 - /dashboard — 23 views, 1 reads, 10 sessions, avg 28s
@@ -109,7 +109,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (6803 verified): /build ×70 · / ×25 · /dashboard ×19
-- OAI-SearchBot (4321 verified): /wire.html ×53 · /tools ×31 · /posts/best-open-source-vector-database-2026.html ×29
+- OAI-SearchBot (4322 verified): /wire.html ×53 · /tools ×31 · /posts/best-open-source-vector-database-2026.html ×29
 - ChatGPT-User (3161 verified): / ×601 · /posts/open-source-llm-for-coding-september-2026.html ×210 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×159
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agent(45), agents(36), founder(35), agentic(32), build(29), coding(25), startup(24), building(21), mcp(20), claude(18), code(11), jev(11), one(10), memory(10), loops(10).
+Hot terms: agent(48), agents(37), founder(35), agentic(32), build(30), coding(25), startup(24), mcp(21), building(21), claude(18), memory(12), loops(12), code(11), jev(11), one(10).
 Hashtags: #ai, #founder, #startup, #saas, #buildinpublic, #luxembourg, #agenticai, #web3, #cookmymeme, #mcp.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2103900910292472051
@@ -158,10 +158,10 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 18371 confirmed AI-engine fetches (Perplexity 6803, ChatGPT Search (OpenAI) 4321, GPTBot (OpenAI) 4086, ChatGPT (user browsing) 3161).
+The real answer engines are crawling us — IP-verified: 18372 confirmed AI-engine fetches (Perplexity 6803, ChatGPT Search (OpenAI) 4322, GPTBot (OpenAI) 4086, ChatGPT (user browsing) 3161).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 587 crawler fetches
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 512 crawler fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 513 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 221 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 201 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 201 crawler fetches
