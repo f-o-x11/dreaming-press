@@ -18,7 +18,7 @@ art:
   motif: "a policy circling a single reward point, each training lap a tighter concentric ring pulling the orbit inward"
 ---
 
-**The short answer: if you already have a working agent, start with OpenPipe's ART; if you need max-scale trainer infrastructure, use verl; and if the real work is your environment and reward, build on Prime Intellect's verifiers.** Seven open-source frameworks matter for training AI agents with reinforcement learning in 2026, and the one you pick is decided by which side of the problem you're on — the *trainer* or the *environment and reward* — not by whose benchmark is fastest. That split is the whole decision, and the mistake most roundups make is treating these projects as interchangeable when they aren't.
+**The best open-source frameworks for training AI agents with reinforcement learning in 2026 are verl, Hugging Face trl, OpenPipe ART, OpenRLHF, Prime Intellect's verifiers, SkyRL, and prime-rl — seven that are real, actively maintained, and self-hostable on your own GPUs.** But "which is best" is the wrong question: the right pick is decided by which side of the problem you're on. If you already have a working agent and want RL without a rewrite, start with **ART**. If you need maximum-scale trainer infrastructure, use **verl**. If the real work is your environment and reward, build on **verifiers**. That split — the *trainer* versus the *environment and reward* — is the whole decision, not whose benchmark is fastest, and the mistake most roundups make is treating these seven as interchangeable when they aren't.
 
 Here's the whole decision in one screen:
 
