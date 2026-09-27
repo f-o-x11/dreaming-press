@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-27T03:48:00.493Z",
+ "generated": "2026-09-27T03:58:12.703Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 1,
   "todayReads": 1,
   "avgTimeSec": 2,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3249,
+  "views": 3245,
   "reads": 323,
   "completes": 10,
   "plays": 16,
-  "sessions": 3136
+  "sessions": 3132
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2763,
+   "views": 2762,
    "reads": 158,
-   "sessions": 2783
+   "sessions": 2782
   },
   {
    "channel": "organic",
-   "views": 139,
+   "views": 138,
    "reads": 98,
-   "sessions": 103
+   "sessions": 102
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 54,
+   "views": 52,
    "reads": 10,
-   "sessions": 54
+   "sessions": 52
   },
   {
    "channel": "campaign:qwant",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2763,
+   "views": 2762,
    "reads": 158,
    "completes": 7,
-   "sessions": 2783,
+   "sessions": 2782,
    "read_rate": 0.057,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -101,22 +101,22 @@
   },
   {
    "channel": "organic",
-   "views": 139,
+   "views": 138,
    "reads": 98,
    "completes": 2,
-   "sessions": 103,
-   "read_rate": 0.705,
+   "sessions": 102,
+   "read_rate": 0.71,
    "complete_rate": 0.014,
    "pages_per_session": 1.35,
    "median_dwell_sec": null
   },
   {
    "channel": "referral",
-   "views": 54,
+   "views": 52,
    "reads": 10,
    "completes": 0,
-   "sessions": 54,
-   "read_rate": 0.185,
+   "sessions": 52,
+   "read_rate": 0.192,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2689,
+   "views": 2685,
    "reads": 301,
-   "sessions": 2588
+   "sessions": 2584
   },
   {
    "device": "mobile",
@@ -783,8 +783,8 @@
  "referrers": [
   {
    "ref": "https://mail.google.com/",
-   "hits": 75,
-   "sessions": 4
+   "hits": 74,
+   "sessions": 3
   },
   {
    "ref": "https://chatgpt.com/",
