@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-27T20:03:49.699Z",
+ "generated": "2026-09-27T20:13:57.605Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 45
+   "count": 48
   },
   {
    "term": "agents",
@@ -20,11 +20,11 @@
   },
   {
    "term": "agentic",
-   "count": 31
+   "count": 32
   },
   {
    "term": "build",
-   "count": 29
+   "count": 31
   },
   {
    "term": "coding",
@@ -35,16 +35,24 @@
    "count": 24
   },
   {
-   "term": "mcp",
-   "count": 23
-  },
-  {
    "term": "building",
    "count": 22
   },
   {
+   "term": "mcp",
+   "count": 21
+  },
+  {
    "term": "claude",
-   "count": 19
+   "count": 18
+  },
+  {
+   "term": "memory",
+   "count": 12
+  },
+  {
+   "term": "loops",
+   "count": 12
   },
   {
    "term": "code",
@@ -55,23 +63,19 @@
    "count": 11
   },
   {
-   "term": "memory",
+   "term": "one",
    "count": 10
   },
   {
-   "term": "one",
-   "count": 9
+   "term": "first",
+   "count": 10
   },
   {
    "term": "workflows",
    "count": 9
   },
   {
-   "term": "first",
-   "count": 9
-  },
-  {
-   "term": "loops",
+   "term": "google",
    "count": 9
   },
   {
@@ -79,12 +83,8 @@
    "count": 8
   },
   {
-   "term": "google",
+   "term": "engineering",
    "count": 8
-  },
-  {
-   "term": "here",
-   "count": 7
   }
  ],
  "hashtags": [
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 1436,
+   "engagement": 1440,
    "url": "https://x.com/i/status/2103900910292472051",
    "created": "2026-09-26T17:34:00.000Z"
   },
@@ -164,7 +164,7 @@
   },
   {
    "text": "🚨 You’re probably using Claude at 10% of its actual potential. Most people stop at: “Claude, write this.” But Claude mastery looks like this: 🧠 Foundation → Prompting + Context + Examples ⚙️ Workflow → Projects + Promp",
-   "engagement": 304,
+   "engagement": 305,
    "url": "https://x.com/i/status/2104060782069862722",
    "created": "2026-09-27T04:09:16.000Z"
   },
