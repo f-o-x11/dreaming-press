@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-27T10:03:41.141Z",
+ "generated": "2026-09-27T10:13:49.473Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agents",
-   "count": 36
+   "count": 37
   },
   {
    "term": "founder",
@@ -19,12 +19,12 @@
    "count": 34
   },
   {
-   "term": "build",
+   "term": "agentic",
    "count": 27
   },
   {
-   "term": "agentic",
-   "count": 27
+   "term": "build",
+   "count": 26
   },
   {
    "term": "startup",
@@ -32,7 +32,7 @@
   },
   {
    "term": "coding",
-   "count": 23
+   "count": 21
   },
   {
    "term": "building",
@@ -44,7 +44,7 @@
   },
   {
    "term": "claude",
-   "count": 17
+   "count": 16
   },
   {
    "term": "jev",
@@ -75,15 +75,15 @@
    "count": 7
   },
   {
-   "term": "learn",
-   "count": 7
-  },
-  {
    "term": "production",
    "count": 7
   },
   {
    "term": "few",
+   "count": 7
+  },
+  {
+   "term": "tools",
    "count": 7
   }
  ],
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Being able to demonstrate that you can build production-ready AI agents is super useful these days. In this 8-hour course, Andrew helps you prepare for the Claude Certified Developer Foundations cert. You'll learn about ",
-   "engagement": 973,
+   "engagement": 974,
    "url": "https://x.com/i/status/2103213282618167787",
    "created": "2026-09-24T20:01:37.000Z"
   },
@@ -164,7 +164,7 @@
   },
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 306,
+   "engagement": 312,
    "url": "https://x.com/i/status/2103900910292472051",
    "created": "2026-09-26T17:34:00.000Z"
   },
@@ -176,7 +176,7 @@
   },
   {
    "text": "🚨 You’re probably using Claude at 10% of its actual potential. Most people stop at: “Claude, write this.” But Claude mastery looks like this: 🧠 Foundation → Prompting + Context + Examples ⚙️ Workflow → Projects + Promp",
-   "engagement": 171,
+   "engagement": 175,
    "url": "https://x.com/i/status/2104060782069862722",
    "created": "2026-09-27T04:09:16.000Z"
   },
