@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-27T19:23:13.651Z",
+ "generated": "2026-09-27T19:33:22.966Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 12,
-  "avgTimeSec": 34,
+  "avgTimeSec": 33,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3261,
+  "views": 3263,
   "reads": 323,
   "completes": 10,
   "plays": 15,
-  "sessions": 3149
+  "sessions": 3150
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2764,
+   "views": 2766,
    "reads": 159,
-   "sessions": 2788
+   "sessions": 2789
   },
   {
    "channel": "organic",
@@ -73,17 +73,17 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 19
+   "sessions": 20
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2764,
+   "views": 2766,
    "reads": 159,
    "completes": 7,
-   "sessions": 2788,
-   "read_rate": 0.058,
+   "sessions": 2789,
+   "read_rate": 0.057,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
    "median_dwell_sec": 4
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 19,
+   "sessions": 20,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -210,17 +210,17 @@
    "sessions": 3
   },
   {
+   "surface": "f-cols",
+   "clicks": 4,
+   "sessions": 3
+  },
+  {
    "surface": "btn-agents",
    "clicks": 4,
    "sessions": 2
   },
   {
    "surface": "legal-links",
-   "clicks": 3,
-   "sessions": 2
-  },
-  {
-   "surface": "f-cols",
    "clicks": 3,
    "sessions": 2
   },
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2711,
+   "views": 2713,
    "reads": 300,
-   "sessions": 2612
+   "sessions": 2613
   },
   {
    "device": "mobile",
@@ -717,18 +717,18 @@
    "avg_dwell_sec": 108
   },
   {
+   "path": "/submit.html",
+   "views": 12,
+   "reads": 2,
+   "sessions": 7,
+   "avg_dwell_sec": 40
+  },
+  {
    "path": "/tools",
    "views": 12,
    "reads": 1,
    "sessions": 12,
    "avg_dwell_sec": 19
-  },
-  {
-   "path": "/submit.html",
-   "views": 10,
-   "reads": 2,
-   "sessions": 6,
-   "avg_dwell_sec": 45
   },
   {
    "path": "/alternatives/:tool",
