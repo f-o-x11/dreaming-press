@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-27T15:50Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-27T16:00Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -109,8 +109,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (6803 verified): /build ×70 · / ×25 · /dashboard ×19
-- OAI-SearchBot (4306 verified): /wire.html ×53 · /tools ×31 · /posts/how-to-deploy-an-llm-locally-2026.html ×29
-- ChatGPT-User (3148 verified): / ×598 · /posts/open-source-llm-for-coding-september-2026.html ×209 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×159
+- OAI-SearchBot (4309 verified): /wire.html ×53 · /tools ×31 · /posts/how-to-deploy-an-llm-locally-2026.html ×29
+- ChatGPT-User (3149 verified): / ×598 · /posts/open-source-llm-for-coding-september-2026.html ×209 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×159
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agent(42), agents(36), founder(35), agentic(32), build(28), coding(25), startup(24), mcp(22), building(21), claude(19), code(11), one(11), jev(11), workflows(9), first(9).
+Hot terms: agent(45), agents(36), founder(35), agentic(32), build(29), coding(25), startup(24), building(21), mcp(20), claude(18), code(11), one(11), jev(11), first(10), memory(10).
 Hashtags: #ai, #founder, #startup, #saas, #buildinpublic, #luxembourg, #agenticai, #web3, #cookmymeme, #mcp.
 High-engagement posts to react to / cite:
 - "Being able to demonstrate that you can build production-ready AI agents is super useful these days. In this 8-hour course, Andrew helps you prepare for the Claude Certified Developer Foundations cert. You'll learn about " — https://x.com/i/status/2103213282618167787
@@ -158,16 +158,16 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 18342 confirmed AI-engine fetches (Perplexity 6803, ChatGPT Search (OpenAI) 4306, GPTBot (OpenAI) 4085, ChatGPT (user browsing) 3148).
+The real answer engines are crawling us — IP-verified: 18346 confirmed AI-engine fetches (Perplexity 6803, ChatGPT Search (OpenAI) 4309, GPTBot (OpenAI) 4085, ChatGPT (user browsing) 3149).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 585 crawler fetches
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 506 crawler fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 507 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 220 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 201 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 199 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 163 crawler fetches
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 138 crawler fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 116 crawler fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 117 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 69 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 39 crawler fetches
 - /tools  — 31 crawler fetches
