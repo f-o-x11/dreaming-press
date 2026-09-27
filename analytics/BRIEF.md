@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-27T21:05Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-27T21:15Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -97,20 +97,20 @@ human just asked a question. Not index crawlers, which enumerate everything and 
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
 - /  — 632 retrieval fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 211 retrieval fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 212 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 160 retrieval fetches
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 102 retrieval fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 103 retrieval fetches
 - /build  — 70 retrieval fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 69 retrieval fetches
 - /wire.html  — 53 retrieval fetches
-- /tools  — 32 retrieval fetches
+- /tools  — 33 retrieval fetches
 - /posts/best-open-source-vector-database-2026.html  — 29 retrieval fetches
 - /posts/how-to-deploy-an-llm-locally-2026.html  — 29 retrieval fetches
 
 Per engine:
 - PerplexityBot (6827 verified): /build ×70 · / ×25 · /dashboard ×19
-- OAI-SearchBot (4397 verified): /wire.html ×53 · /tools ×32 · /posts/best-open-source-vector-database-2026.html ×29
-- ChatGPT-User (3184 verified): / ×607 · /posts/open-source-llm-for-coding-september-2026.html ×211 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×160
+- OAI-SearchBot (4405 verified): /wire.html ×53 · /tools ×33 · /posts/best-open-source-vector-database-2026.html ×29
+- ChatGPT-User (3187 verified): / ×607 · /posts/open-source-llm-for-coding-september-2026.html ×212 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×160
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agent(48), agents(37), founder(34), agentic(32), build(31), coding(25), startup(24), building(22), mcp(21), claude(18), memory(12), loops(12), code(11), jev(11), one(10).
+Hot terms: agent(45), agents(37), founder(34), agentic(31), build(29), coding(25), startup(24), mcp(23), building(22), claude(19), code(11), jev(11), memory(10), one(9), workflows(9).
 Hashtags: #ai, #founder, #startup, #saas, #buildinpublic, #luxembourg, #agenticai, #web3, #cookmymeme, #mcp.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2103900910292472051
@@ -135,7 +135,7 @@ High-engagement posts to react to / cite:
 - "🚨 You’re probably using Claude at 10% of its actual potential. Most people stop at: “Claude, write this.” But Claude mastery looks like this: 🧠 Foundation → Prompting + Context + Examples ⚙️ Workflow → Projects + Promp" — https://x.com/i/status/2104060782069862722
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (249 of 449 phrases have NO post, 57h ago)
+## Uncovered search demand (249 of 449 phrases have NO post, 58h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -158,11 +158,11 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 18495 confirmed AI-engine fetches (Perplexity 6827, ChatGPT Search (OpenAI) 4397, GPTBot (OpenAI) 4087, ChatGPT (user browsing) 3184).
+The real answer engines are crawling us — IP-verified: 18506 confirmed AI-engine fetches (Perplexity 6827, ChatGPT Search (OpenAI) 4405, GPTBot (OpenAI) 4087, ChatGPT (user browsing) 3187).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 591 crawler fetches
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 521 crawler fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 222 crawler fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 522 crawler fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 223 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 204 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 203 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 164 crawler fetches
@@ -170,7 +170,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 121 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 69 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 42 crawler fetches
-- /tools  — 32 crawler fetches
+- /tools  — 33 crawler fetches
 - /posts/best-open-source-vector-database-2026.html  — 29 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
