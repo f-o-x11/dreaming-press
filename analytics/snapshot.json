@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-26T23:55:06.746Z",
+ "generated": "2026-09-27T00:05:13.118Z",
  "windowDays": 14,
  "site": {
   "readersNow": 4,
-  "todayReads": 18,
-  "avgTimeSec": 7,
-  "postsThisWeek": 16
+  "todayReads": 0,
+  "avgTimeSec": 0,
+  "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3341,
-  "reads": 332,
+  "views": 3268,
+  "reads": 329,
   "completes": 13,
   "plays": 16,
-  "sessions": 3223
+  "sessions": 3153
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2856,
+   "views": 2788,
    "reads": 161,
-   "sessions": 2876
+   "sessions": 2809
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 58,
-   "reads": 13,
-   "sessions": 56
+   "views": 53,
+   "reads": 10,
+   "sessions": 53
   },
   {
    "channel": "campaign:qwant",
@@ -79,14 +79,14 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2856,
+   "views": 2788,
    "reads": 161,
    "completes": 10,
-   "sessions": 2876,
-   "read_rate": 0.056,
+   "sessions": 2809,
+   "read_rate": 0.058,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
-   "median_dwell_sec": 5
+   "median_dwell_sec": 4
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -112,13 +112,13 @@
   },
   {
    "channel": "referral",
-   "views": 58,
-   "reads": 13,
+   "views": 53,
+   "reads": 10,
    "completes": 0,
-   "sessions": 56,
-   "read_rate": 0.224,
+   "sessions": 53,
+   "read_rate": 0.189,
    "complete_rate": 0,
-   "pages_per_session": 1.04,
+   "pages_per_session": 1,
    "median_dwell_sec": null
   },
   {
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2781,
-   "reads": 307,
-   "sessions": 2675
+   "views": 2708,
+   "reads": 304,
+   "sessions": 2605
   },
   {
    "device": "mobile",
@@ -409,16 +409,6 @@
    "plays": 0
   },
   {
-   "slug": "where-to-rent-a-gpu-serve-open-model-coreweave-lambda-nebius-runpod-together",
-   "title": "Where to Actually Rent a GPU to Serve an Open Model in 2026: CoreWeave vs Lambda vs Nebius vs RunPod vs Together",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 10,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
    "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
    "section": "wire",
@@ -466,6 +456,16 @@
    "author": "dex",
    "views": 6,
    "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "golang-ai-agent-framework-eino-vs-langchaingo",
+   "title": "Go AI Agent Frameworks: Eino vs LangChainGo vs Genkit (and When to Skip the Framework)",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 13,
+   "reads": 3,
    "plays": 0
   }
  ],
@@ -588,7 +588,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 45,
+   "views": 43,
    "reads": 2,
    "plays": 0
   },
@@ -683,52 +683,38 @@
   },
   {
    "path": "/",
-   "views": 123,
+   "views": 124,
    "reads": 2,
-   "sessions": 122,
+   "sessions": 123,
    "avg_dwell_sec": 12
   },
   {
    "path": "/best/:cat",
-   "views": 48,
+   "views": 46,
    "reads": 0,
-   "sessions": 48,
+   "sessions": 46,
    "avg_dwell_sec": 4
   },
   {
    "path": "/build",
-   "views": 37,
+   "views": 36,
    "reads": 0,
-   "sessions": 37,
+   "sessions": 36,
    "avg_dwell_sec": 4
   },
   {
    "path": "/dashboard",
-   "views": 27,
+   "views": 22,
    "reads": 0,
-   "sessions": 14,
-   "avg_dwell_sec": 8
-  },
-  {
-   "path": "/topics/:topic",
-   "views": 16,
-   "reads": 0,
-   "sessions": 16,
-   "avg_dwell_sec": 7
+   "sessions": 9,
+   "avg_dwell_sec": 9
   },
   {
    "path": "/tools",
-   "views": 12,
+   "views": 11,
    "reads": 1,
-   "sessions": 12,
-   "avg_dwell_sec": 18
-  },
-  {
-   "path": "/reports/:report",
-   "views": 9,
-   "reads": 0,
-   "sessions": 9,
-   "avg_dwell_sec": 6
+   "sessions": 11,
+   "avg_dwell_sec": 20
   },
   {
    "path": "/submit.html",
@@ -745,6 +731,13 @@
    "avg_dwell_sec": 3
   },
   {
+   "path": "/reports/:report",
+   "views": 8,
+   "reads": 0,
+   "sessions": 8,
+   "avg_dwell_sec": null
+  },
+  {
    "path": "/subscribe",
    "views": 8,
    "reads": 1,
@@ -752,32 +745,39 @@
    "avg_dwell_sec": 34
   },
   {
-   "path": "/weekly",
-   "views": 7,
-   "reads": 0,
-   "sessions": 7,
-   "avg_dwell_sec": 4
-  },
-  {
-   "path": "/agents.html",
-   "views": 6,
-   "reads": 0,
-   "sessions": 6,
-   "avg_dwell_sec": 5
-  },
-  {
-   "path": "/apps",
-   "views": 6,
-   "reads": 0,
-   "sessions": 6,
-   "avg_dwell_sec": 6
-  },
-  {
    "path": "/authors/dex",
    "views": 6,
    "reads": 0,
    "sessions": 6,
    "avg_dwell_sec": null
+  },
+  {
+   "path": "/compare/:pair",
+   "views": 6,
+   "reads": 2,
+   "sessions": 6,
+   "avg_dwell_sec": 108
+  },
+  {
+   "path": "/topics/:topic",
+   "views": 6,
+   "reads": 0,
+   "sessions": 6,
+   "avg_dwell_sec": 10
+  },
+  {
+   "path": "/weekly",
+   "views": 6,
+   "reads": 0,
+   "sessions": 6,
+   "avg_dwell_sec": 4
+  },
+  {
+   "path": "/agents.html",
+   "views": 5,
+   "reads": 0,
+   "sessions": 5,
+   "avg_dwell_sec": 5
   }
  ],
  "referrers": [
@@ -817,11 +817,6 @@
    "sessions": 11
   },
   {
-   "ref": "https://www.youtube.com/",
-   "hits": 9,
-   "sessions": 9
-  },
-  {
    "ref": "https://teams.public.onecdn.static.microsoft/",
    "hits": 9,
    "sessions": 4
@@ -830,6 +825,11 @@
    "ref": "dash-range",
    "hits": 9,
    "sessions": 2
+  },
+  {
+   "ref": "brand",
+   "hits": 9,
+   "sessions": 7
   }
  ]
 }
