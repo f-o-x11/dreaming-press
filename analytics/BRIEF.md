@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-27T15:40Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-27T15:50Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3235 views → 324 engaged reads → 10 completes · 3123 sessions.
-- Channels: direct 159r/2743v · organic 101r/140v · campaign:chatgpt.com 37r/257v · ai 13r/32v · referral 10r/53v · campaign:qwant 4r/6v · social 0r/2v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3251 views → 324 engaged reads → 10 completes · 3139 sessions.
+- Channels: direct 159r/2759v · organic 101r/140v · campaign:chatgpt.com 37r/257v · ai 13r/32v · referral 10r/53v · campaign:qwant 4r/6v · social 0r/2v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 38r/267v · Doubao 9r/12v · Perplexity 2r/4v · Claude 1r/2v · Kimi 0r/3v · DeepSeek 0r/1v.
 - Referrers: mail.google.com, bing.com, chatgpt.com, duckduckgo.com, cn.bing.com, doubao.com, search.brave.com, youtube.com, teams.public.onecdn.static.microsoft, dash-range.
 - Engaged-read winners by section: wire=6, stack=9.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2743 views · read 5.8% · complete 0.3% · 0.99 pages/session · median 4s
+- direct: 2759 views · read 5.8% · complete 0.3% · 0.99 pages/session · median 4s
 - campaign:chatgpt.com: 257 views · read 14.4% · complete 0.4% · 1 pages/session · median ?s
 - organic: 140 views · read 72.1% · complete 1.4% · 1.35 pages/session · median ?s
 - referral: 53 views · read 18.9% · complete 0.0% · 1 pages/session · median ?s
@@ -64,9 +64,9 @@ so what these earn from humans is the other half of the picture.
 - /best/:cat — 49 views, 0 reads, 49 sessions, avg 4s
 - /build — 35 views, 0 reads, 35 sessions, avg 4s
 - /dashboard — 23 views, 1 reads, 10 sessions, avg 28s
+- /compare/:pair — 21 views, 2 reads, 21 sessions, avg 108s
 - /tools — 12 views, 1 reads, 12 sessions, avg 19s
 - /submit.html — 10 views, 2 reads, 6 sessions, avg 45s
-- /alternatives/:tool — 9 views, 0 reads, 9 sessions, avg 3s
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
 
@@ -96,7 +96,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 622 retrieval fetches
+- /  — 623 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 209 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 159 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 99 retrieval fetches
@@ -109,8 +109,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (6803 verified): /build ×70 · / ×25 · /dashboard ×19
-- OAI-SearchBot (4303 verified): /wire.html ×53 · /tools ×31 · /posts/how-to-deploy-an-llm-locally-2026.html ×29
-- ChatGPT-User (3147 verified): / ×597 · /posts/open-source-llm-for-coding-september-2026.html ×209 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×159
+- OAI-SearchBot (4306 verified): /wire.html ×53 · /tools ×31 · /posts/how-to-deploy-an-llm-locally-2026.html ×29
+- ChatGPT-User (3148 verified): / ×598 · /posts/open-source-llm-for-coding-september-2026.html ×209 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×159
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -125,14 +125,14 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agent(39), agents(35), founder(35), build(29), agentic(29), coding(24), startup(24), mcp(21), building(21), claude(18), jev(11), code(10), one(10), systems(8), workflows(8).
+Hot terms: agent(42), agents(36), founder(35), agentic(32), build(28), coding(25), startup(24), mcp(22), building(21), claude(19), code(11), one(11), jev(11), workflows(9), first(9).
 Hashtags: #ai, #founder, #startup, #saas, #buildinpublic, #luxembourg, #agenticai, #web3, #cookmymeme, #mcp.
 High-engagement posts to react to / cite:
 - "Being able to demonstrate that you can build production-ready AI agents is super useful these days. In this 8-hour course, Andrew helps you prepare for the Claude Certified Developer Foundations cert. You'll learn about " — https://x.com/i/status/2103213282618167787
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2103900910292472051
 - "🚀 Zero → AI Engineer Roadmap (2026) Assumes basic ML/DL. Goal: Learn to build and ship production LLM + agent systems. 1. LLM Internals Resources: • Karpathy — Neural Networks: Zero to Hero • Jay Alammar — The Illustrat" — https://x.com/i/status/2103383326543495485
-- "Build but build well on @RobinhoodCrypto make a difference. I have been thirsty to extend on my thesis; Before I dive into things just note @vladtenev quoted “The next era of consumer finance is agentic.” There’s nothing" — https://x.com/i/status/2102019638498402351
 - "🚨You don’t need better prompts. You need to give Claude tools. A real Claude agent needs more than a good prompt: 🎯 1. Define ONE job Start with a focused outcome — research, sales, content, support, etc. 🧠 2. Give it" — https://x.com/i/status/2103779372473647530
+- "🚨 You’re probably using Claude at 10% of its actual potential. Most people stop at: “Claude, write this.” But Claude mastery looks like this: 🧠 Foundation → Prompting + Context + Examples ⚙️ Workflow → Projects + Promp" — https://x.com/i/status/2104060782069862722
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (249 of 449 phrases have NO post, 52h ago)
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 18338 confirmed AI-engine fetches (Perplexity 6803, ChatGPT Search (OpenAI) 4303, GPTBot (OpenAI) 4085, ChatGPT (user browsing) 3147).
+The real answer engines are crawling us — IP-verified: 18342 confirmed AI-engine fetches (Perplexity 6803, ChatGPT Search (OpenAI) 4306, GPTBot (OpenAI) 4085, ChatGPT (user browsing) 3148).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 585 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 506 crawler fetches
