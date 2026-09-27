@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-27T11:55Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-27T12:05Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -59,7 +59,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 396 views, 0 reads, 396 sessions, avg 4s
+- /stack/:tool — 397 views, 0 reads, 397 sessions, avg 4s
 - / — 124 views, 2 reads, 124 sessions, avg 13s
 - /best/:cat — 48 views, 0 reads, 48 sessions, avg 4s
 - /build — 35 views, 0 reads, 35 sessions, avg 4s
@@ -97,7 +97,7 @@ human just asked a question. Not index crawlers, which enumerate everything and 
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
 - /  — 616 retrieval fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 206 retrieval fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 207 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 158 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 98 retrieval fetches
 - /build  — 70 retrieval fetches
@@ -110,7 +110,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (6793 verified): /build ×70 · / ×25 · /posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html ×19
 - OAI-SearchBot (4300 verified): /wire.html ×53 · /tools ×31 · /posts/how-to-deploy-an-llm-locally-2026.html ×29
-- ChatGPT-User (3116 verified): / ×591 · /posts/open-source-llm-for-coding-september-2026.html ×206 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×158
+- ChatGPT-User (3117 verified): / ×591 · /posts/open-source-llm-for-coding-september-2026.html ×207 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×158
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agents(36), founder(35), agent(34), agentic(27), build(26), startup(25), coding(23), building(20), mcp(18), claude(17), jev(11), code(10), one(9), systems(8), workflows(8).
+Hot terms: agents(37), founder(35), agent(34), agentic(27), build(26), startup(25), coding(21), building(20), mcp(19), claude(16), jev(11), code(9), one(9), systems(8), workflows(8).
 Hashtags: #ai, #founder, #startup, #saas, #buildinpublic, #luxembourg, #agenticai, #web3, #cookmymeme, #aijobs.
 High-engagement posts to react to / cite:
 - "Being able to demonstrate that you can build production-ready AI agents is super useful these days. In this 8-hour course, Andrew helps you prepare for the Claude Certified Developer Foundations cert. You'll learn about " — https://x.com/i/status/2103213282618167787
@@ -158,11 +158,11 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 18294 confirmed AI-engine fetches (Perplexity 6793, ChatGPT Search (OpenAI) 4300, GPTBot (OpenAI) 4085, ChatGPT (user browsing) 3116).
+The real answer engines are crawling us — IP-verified: 18295 confirmed AI-engine fetches (Perplexity 6793, ChatGPT Search (OpenAI) 4300, GPTBot (OpenAI) 4085, ChatGPT (user browsing) 3117).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 581 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 497 crawler fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 217 crawler fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 218 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 199 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 197 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 162 crawler fetches
