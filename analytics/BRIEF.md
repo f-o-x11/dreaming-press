@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-09-27T06:50Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-27T07:00Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3256 views → 325 engaged reads → 10 completes · 3142 sessions.
-- Channels: direct 160r/2773v · organic 99r/138v · campaign:chatgpt.com 39r/252v · ai 13r/31v · referral 10r/52v · campaign:qwant 4r/6v · social 0r/2v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 40r/261v · Doubao 9r/12v · Perplexity 2r/4v · Claude 1r/2v · Kimi 0r/3v · DeepSeek 0r/1v.
+- Funnel: 3254 views → 324 engaged reads → 10 completes · 3140 sessions.
+- Channels: direct 159r/2772v · organic 99r/138v · campaign:chatgpt.com 39r/251v · ai 13r/31v · referral 10r/52v · campaign:qwant 4r/6v · social 0r/2v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 40r/260v · Doubao 9r/12v · Perplexity 2r/4v · Claude 1r/2v · Kimi 0r/3v · DeepSeek 0r/1v.
 - Referrers: mail.google.com, chatgpt.com, bing.com, cn.bing.com, duckduckgo.com, doubao.com, search.brave.com, teams.public.onecdn.static.microsoft, dash-range, brand.
 - Engaged-read winners by section: wire=7, stack=8.
 
@@ -23,13 +23,13 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2773 views · read 5.8% · complete 0.3% · 0.99 pages/session · median 4s
-- campaign:chatgpt.com: 252 views · read 15.5% · complete 0.4% · 1.01 pages/session · median ?s
+- direct: 2772 views · read 5.7% · complete 0.3% · 0.99 pages/session · median 4s
+- campaign:chatgpt.com: 251 views · read 15.5% · complete 0.4% · 1.01 pages/session · median ?s
 - organic: 138 views · read 71.7% · complete 1.4% · 1.35 pages/session · median ?s
 - referral: 52 views · read 19.2% · complete 0.0% · 1 pages/session · median ?s
 - ai: 31 views · read 41.9% · complete 0.0% · 0.69 pages/session · median 13s
 - campaign:qwant: 6 views · read 66.7% · complete 0.0% · 3 pages/session · median ?s
-INSIGHT: organic converts 12x better per view than direct, which is 85% of all views.
+INSIGHT: organic converts 13x better per view than direct, which is 85% of all views.
 One visitor from organic is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
