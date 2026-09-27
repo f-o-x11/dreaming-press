@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-27T00:15:21.532Z",
+ "generated": "2026-09-27T00:25:28.438Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18164,
+ "verifiedAiHits": 18168,
  "logsScanned": 30,
  "windowStart": "2026-09-13",
  "windowEnd": "2026-09-27",
- "totalHits": 111664,
- "aiHits": 91735,
+ "totalHits": 111700,
+ "aiHits": 91763,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 33613,
+   "hits": 33623,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14960,
+   "hits": 14967,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -102,7 +102,7 @@
      "hits": 16
     },
     {
-     "path": "/topics/agent-evals",
+     "path": "/stacks/autogen%2Bcloudflare-ai-gateway%2Bgraphlit",
      "hits": 13
     }
    ],
@@ -113,10 +113,10 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 7265,
-   "verifiedHits": 6754,
+   "hits": 7267,
+   "verifiedHits": 6756,
    "firstSeen": "2026-09-13",
-   "lastSeen": "2026-09-26",
+   "lastSeen": "2026-09-27",
    "topPaths": [
     {
      "path": "/build",
@@ -146,14 +146,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7249,
-   "verifiedHits": 6839,
+   "hits": 7253,
+   "verifiedHits": 6843,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 97
+     "hits": 98
     },
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
@@ -179,7 +179,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4818,
+   "hits": 4820,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3790,
+   "hits": 3791,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3472,
-   "verifiedHits": 3041,
+   "hits": 3474,
+   "verifiedHits": 3043,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
    "topPaths": [
@@ -377,10 +377,10 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2472,
+   "hits": 2475,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
-   "lastSeen": "2026-09-26",
+   "lastSeen": "2026-09-27",
    "topPaths": [
     {
      "path": "/tags/opinionated",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2367,
+   "hits": 2369,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -443,7 +443,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1982,
+   "hits": 1984,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -509,7 +509,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 587,
+   "hits": 588,
    "verifiedHits": 460,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
