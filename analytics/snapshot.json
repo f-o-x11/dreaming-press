@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-27T00:05:13.118Z",
+ "generated": "2026-09-27T00:15:22.116Z",
  "windowDays": 14,
  "site": {
   "readersNow": 4,
@@ -9,17 +9,17 @@
  },
  "funnel": {
   "views": 3268,
-  "reads": 329,
+  "reads": 328,
   "completes": 13,
   "plays": 16,
-  "sessions": 3153
+  "sessions": 3152
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2788,
-   "reads": 161,
-   "sessions": 2809
+   "views": 2787,
+   "reads": 160,
+   "sessions": 2807
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 245,
+   "views": 246,
    "reads": 42,
-   "sessions": 242
+   "sessions": 243
   },
   {
    "channel": "ai",
@@ -79,21 +79,21 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2788,
-   "reads": 161,
+   "views": 2787,
+   "reads": 160,
    "completes": 10,
-   "sessions": 2809,
-   "read_rate": 0.058,
+   "sessions": 2807,
+   "read_rate": 0.057,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
    "median_dwell_sec": 4
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 245,
+   "views": 246,
    "reads": 42,
    "completes": 1,
-   "sessions": 242,
+   "sessions": 243,
    "read_rate": 0.171,
    "complete_rate": 0.004,
    "pages_per_session": 1.01,
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 256,
+   "views": 257,
    "reads": 44,
-   "sessions": 250
+   "sessions": 251
   },
   {
    "assistant": "Doubao",
@@ -307,8 +307,8 @@
   {
    "device": "desktop",
    "views": 2708,
-   "reads": 304,
-   "sessions": 2605
+   "reads": 303,
+   "sessions": 2604
   },
   {
    "device": "mobile",
@@ -643,6 +643,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
+   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 24,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "e2b-vs-modal-vs-daytona-agent-sandboxes",
    "title": "E2B vs Modal vs Daytona: Picking a Code Execution Sandbox for AI Agents",
    "section": "stack",
@@ -650,16 +660,6 @@
    "author": "dex",
    "views": 23,
    "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
-   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 23,
-   "reads": 0,
    "plays": 0
   },
   {
