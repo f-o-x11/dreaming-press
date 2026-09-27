@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-27T01:46Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-27T01:56Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3251 views → 323 engaged reads → 10 completes · 3138 sessions.
-- Channels: direct 157r/2772v · organic 98r/138v · campaign:chatgpt.com 40r/246v · ai 14r/32v · referral 10r/53v · campaign:qwant 4r/6v · social 0r/2v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3252 views → 323 engaged reads → 10 completes · 3139 sessions.
+- Channels: direct 157r/2773v · organic 98r/138v · campaign:chatgpt.com 40r/246v · ai 14r/32v · referral 10r/53v · campaign:qwant 4r/6v · social 0r/2v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 42r/256v · Doubao 9r/12v · Perplexity 2r/4v · Claude 1r/2v · Kimi 0r/3v · DeepSeek 0r/1v.
 - Referrers: mail.google.com, chatgpt.com, bing.com, cn.bing.com, duckduckgo.com, doubao.com, search.brave.com, teams.public.onecdn.static.microsoft, dash-range, youtube.com.
 - Engaged-read winners by section: wire=6, stack=9.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2772 views · read 5.7% · complete 0.3% · 0.99 pages/session · median 4s
+- direct: 2773 views · read 5.7% · complete 0.3% · 0.99 pages/session · median 4s
 - campaign:chatgpt.com: 246 views · read 16.3% · complete 0.4% · 1.01 pages/session · median ?s
 - organic: 138 views · read 71.0% · complete 1.4% · 1.35 pages/session · median ?s
 - referral: 53 views · read 18.9% · complete 0.0% · 1 pages/session · median ?s
@@ -37,7 +37,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Top by engaged reads (eyes that stayed)
 - [wire] "Microsoft Agent Framework vs LangGraph vs CrewAI: Which One Crossed the Three Thresholds" — 36 reads, 39 views, 0 listens
 - [stack] "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)" — 13 reads, 64 views, 1 listens
-- [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 9 reads, 30 views, 1 listens
+- [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 9 reads, 31 views, 1 listens
 - [wire] "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K" — 9 reads, 18 views, 0 listens
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 7 reads, 18 views, 0 listens
 - [stack] "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One" — 7 reads, 11 views, 0 listens
@@ -75,7 +75,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [wire] "Microsoft Agent Framework vs LangGraph vs CrewAI: Which One Crossed the Three Thresholds" — 39 views, 36 reads
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 38 views, 0 reads
 - [wire] "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again" — 33 views, 2 reads
-- [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 30 views, 9 reads
+- [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 31 views, 9 reads
 - [wire] "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO" — 30 views, 0 reads
 
 ## Arrived but left (fix these openings first)
@@ -162,7 +162,7 @@ The real answer engines are crawling us — IP-verified: 18181 confirmed AI-engi
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 565 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 481 crawler fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 210 crawler fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 211 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 195 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 189 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 161 crawler fetches
