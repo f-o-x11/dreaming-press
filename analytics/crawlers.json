@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-27T15:29:59.844Z",
+ "generated": "2026-09-27T15:40:05.864Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18326,
+ "verifiedAiHits": 18338,
  "logsScanned": 30,
  "windowStart": "2026-09-13",
  "windowEnd": "2026-09-27",
- "totalHits": 115800,
- "aiHits": 94833,
+ "totalHits": 115864,
+ "aiHits": 94877,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 34916,
+   "hits": 34924,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -43,44 +43,11 @@
    "verifiable": false
   },
   {
-   "name": "Amazonbot",
-   "label": "Amazon (Alexa / Rufus)",
-   "category": "ai",
-   "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15610,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-13",
-   "lastSeen": "2026-09-27",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 111
-    },
-    {
-     "path": "/dashboard",
-     "hits": 14
-    },
-    {
-     "path": "/",
-     "hits": 9
-    },
-    {
-     "path": "/posts/how-to-manage-context-in-a-long-running-agent.html",
-     "hits": 8
-    },
-    {
-     "path": "/posts/text-generation-inference-tgi-archived-migrate-off.html",
-     "hits": 8
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "PetalBot",
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15609,
+   "hits": 15617,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -109,12 +76,45 @@
    "verifiable": false
   },
   {
+   "name": "Amazonbot",
+   "label": "Amazon (Alexa / Rufus)",
+   "category": "ai",
+   "home": "https://developer.amazon.com/amazonbot",
+   "hits": 15615,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-13",
+   "lastSeen": "2026-09-27",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 111
+    },
+    {
+     "path": "/dashboard",
+     "hits": 14
+    },
+    {
+     "path": "/",
+     "hits": 9
+    },
+    {
+     "path": "/posts/how-to-manage-context-in-a-long-running-agent.html",
+     "hits": 8
+    },
+    {
+     "path": "/posts/text-generation-inference-tgi-archived-migrate-off.html",
+     "hits": 8
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Bingbot",
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7609,
-   "verifiedHits": 7182,
+   "hits": 7616,
+   "verifiedHits": 7189,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
    "topPaths": [
@@ -124,7 +124,7 @@
     },
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 38
+     "hits": 39
     },
     {
      "path": "/authors/rosalinda",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 7336,
-   "verifiedHits": 6797,
+   "hits": 7342,
+   "verifiedHits": 6803,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 5025,
+   "hits": 5030,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4777,
-   "verifiedHits": 4301,
+   "hits": 4779,
+   "verifiedHits": 4303,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3588,
-   "verifiedHits": 3143,
+   "hits": 3592,
+   "verifiedHits": 3147,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
    "topPaths": [
@@ -322,7 +322,7 @@
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 208
+     "hits": 209
     },
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
@@ -344,7 +344,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2645,
+   "hits": 2653,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2582,
+   "hits": 2592,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -388,7 +388,7 @@
     },
     {
      "path": "/build",
-     "hits": 43
+     "hits": 44
     },
     {
      "path": "/authors/dex",
@@ -443,7 +443,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2268,
+   "hits": 2269,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
