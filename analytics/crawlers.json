@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-27T01:26:25.873Z",
+ "generated": "2026-09-27T01:36:28.084Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18176,
+ "verifiedAiHits": 18178,
  "logsScanned": 30,
  "windowStart": "2026-09-13",
  "windowEnd": "2026-09-27",
- "totalHits": 111932,
- "aiHits": 91931,
+ "totalHits": 111986,
+ "aiHits": 91961,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 33676,
+   "hits": 33685,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15278,
+   "hits": 15279,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15010,
+   "hits": 15017,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7280,
-   "verifiedHits": 6870,
+   "hits": 7285,
+   "verifiedHits": 6875,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4839,
+   "hits": 4842,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3798,
+   "hits": 3806,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3482,
-   "verifiedHits": 3051,
+   "hits": 3484,
+   "verifiedHits": 3053,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
    "topPaths": [
     {
      "path": "/",
-     "hits": 573
+     "hits": 574
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -344,7 +344,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2538,
+   "hits": 2546,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -352,6 +352,10 @@
     {
      "path": "/",
      "hits": 28
+    },
+    {
+     "path": "/posts/best-ai-agents-for-personal-use-september-2026.html",
+     "hits": 4
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -364,10 +368,6 @@
     {
      "path": "/posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html",
      "hits": 4
-    },
-    {
-     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 3
     }
    ],
    "verifiable": false
@@ -410,14 +410,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2373,
+   "hits": 2374,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 381
+     "hits": 382
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
@@ -443,7 +443,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2001,
+   "hits": 2011,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -461,11 +461,11 @@
      "hits": 2
     },
     {
-     "path": "/posts/gguf-vs-gptq-vs-awq.html",
+     "path": "/posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html",
      "hits": 2
     },
     {
-     "path": "/posts/astra-first-through-government-30-day-frontier-review-what-founders-do.html",
+     "path": "/posts/gguf-vs-gptq-vs-awq.html",
      "hits": 2
     }
    ],
