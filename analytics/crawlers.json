@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-27T12:56:59.753Z",
+ "generated": "2026-09-27T13:07:09.856Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18306,
+ "verifiedAiHits": 18308,
  "logsScanned": 30,
  "windowStart": "2026-09-13",
  "windowEnd": "2026-09-27",
- "totalHits": 114839,
- "aiHits": 94104,
+ "totalHits": 114908,
+ "aiHits": 94159,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 34613,
+   "hits": 34656,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -38,6 +38,39 @@
     {
      "path": "/authors/dex",
      "hits": 31
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "PetalBot",
+   "label": "Petal / Huawei",
+   "category": "ai",
+   "home": "https://webmaster.petalsearch.com/site/petalbot",
+   "hits": 15502,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-13",
+   "lastSeen": "2026-09-27",
+   "topPaths": [
+    {
+     "path": "/wire.html",
+     "hits": 25
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 21
+    },
+    {
+     "path": "/tags/reportive",
+     "hits": 18
+    },
+    {
+     "path": "/stack.html",
+     "hits": 17
+    },
+    {
+     "path": "/stacks/autogen%2Bcloudflare-ai-gateway%2Bgraphlit",
+     "hits": 13
     }
    ],
    "verifiable": false
@@ -76,45 +109,12 @@
    "verifiable": false
   },
   {
-   "name": "PetalBot",
-   "label": "Petal / Huawei",
-   "category": "ai",
-   "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15495,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-13",
-   "lastSeen": "2026-09-27",
-   "topPaths": [
-    {
-     "path": "/wire.html",
-     "hits": 25
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 21
-    },
-    {
-     "path": "/tags/reportive",
-     "hits": 18
-    },
-    {
-     "path": "/stack.html",
-     "hits": 17
-    },
-    {
-     "path": "/stacks/autogen%2Bcloudflare-ai-gateway%2Bgraphlit",
-     "hits": 13
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Bingbot",
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7546,
-   "verifiedHits": 7129,
+   "hits": 7549,
+   "verifiedHits": 7132,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 7318,
-   "verifiedHits": 6795,
+   "hits": 7319,
+   "verifiedHits": 6796,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4983,
+   "hits": 4984,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3563,
-   "verifiedHits": 3125,
+   "hits": 3564,
+   "verifiedHits": 3126,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2595,
+   "hits": 2603,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2450,
+   "hits": 2451,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -433,7 +433,7 @@
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 114
+     "hits": 115
     }
    ],
    "verifiable": false
@@ -443,7 +443,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2205,
+   "hits": 2207,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 976,
+   "hits": 978,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
