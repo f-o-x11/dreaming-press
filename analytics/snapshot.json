@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-27T02:57:26.353Z",
+ "generated": "2026-09-27T03:07:36.190Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 1,
   "avgTimeSec": 2,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3255,
+  "views": 3252,
   "reads": 323,
   "completes": 10,
   "plays": 16,
-  "sessions": 3142
+  "sessions": 3139
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2771,
+   "views": 2768,
    "reads": 158,
-   "sessions": 2791
+   "sessions": 2788
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2771,
+   "views": 2768,
    "reads": 158,
    "completes": 7,
-   "sessions": 2791,
+   "sessions": 2788,
    "read_rate": 0.057,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2697,
+   "views": 2694,
    "reads": 301,
-   "sessions": 2596
+   "sessions": 2593
   },
   {
    "device": "mobile",
@@ -613,16 +613,6 @@
    "plays": 1
   },
   {
-   "slug": "2026-09-12-founders-wire-openai-agents-api-deepseek-v41-flash-ayar-optics",
-   "title": "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 30,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo",
    "title": "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO",
    "section": "wire",
@@ -630,6 +620,16 @@
    "author": "wire-desk",
    "views": 30,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "2026-09-12-founders-wire-openai-agents-api-deepseek-v41-flash-ayar-optics",
+   "title": "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 29,
+   "reads": 2,
    "plays": 0
   },
   {
