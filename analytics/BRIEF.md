@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-27T08:32Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-27T08:42Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -59,7 +59,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 394 views, 0 reads, 394 sessions, avg 4s
+- /stack/:tool — 395 views, 0 reads, 395 sessions, avg 4s
 - / — 125 views, 2 reads, 125 sessions, avg 12s
 - /best/:cat — 46 views, 0 reads, 46 sessions, avg 5s
 - /build — 35 views, 0 reads, 35 sessions, avg 4s
@@ -160,7 +160,7 @@ search intent, so put the answer in the first screen and use the phrasing in the
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 18263 confirmed AI-engine fetches (Perplexity 6785, ChatGPT Search (OpenAI) 4295, GPTBot (OpenAI) 4085, ChatGPT (user browsing) 3098).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 574 crawler fetches
+- /build  — 575 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 494 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 217 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 197 crawler fetches
