@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-27T10:44:01.472Z",
+ "generated": "2026-09-27T10:54:17.662Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 18287,
  "logsScanned": 30,
  "windowStart": "2026-09-13",
  "windowEnd": "2026-09-27",
- "totalHits": 114162,
- "aiHits": 93567,
+ "totalHits": 114261,
+ "aiHits": 93632,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 34334,
+   "hits": 34340,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15478,
+   "hits": 15481,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15400,
+   "hits": 15407,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7497,
-   "verifiedHits": 7087,
+   "hits": 7506,
+   "verifiedHits": 7089,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 7304,
+   "hits": 7316,
    "verifiedHits": 6793,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -179,7 +179,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4953,
+   "hits": 4955,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -212,7 +212,7 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4760,
+   "hits": 4767,
    "verifiedHits": 4300,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -245,7 +245,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4533,
+   "hits": 4540,
    "verifiedHits": 4085,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3984,
+   "hits": 3993,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -300,7 +300,7 @@
      "hits": 5
     },
     {
-     "path": "/authors/dex",
+     "path": "/stack.html",
      "hits": 5
     }
    ],
@@ -311,7 +311,7 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3540,
+   "hits": 3547,
    "verifiedHits": 3109,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2527,
+   "hits": 2535,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2431,
+   "hits": 2433,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 964,
+   "hits": 974,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -486,19 +486,19 @@
      "hits": 34
     },
     {
+     "path": "/graphql",
+     "hits": 5
+    },
+    {
      "path": "/dispatches.html",
      "hits": 4
     },
     {
-     "path": "/graphql",
-     "hits": 4
-    },
-    {
-     "path": "/comparisons",
+     "path": "/web.config",
      "hits": 3
     },
     {
-     "path": "/posts/siggraph-2026-agents-enter-art-pipeline-mcp-creative-tools.html",
+     "path": "/comparisons",
      "hits": 3
     }
    ],
@@ -509,7 +509,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 610,
+   "hits": 614,
    "verifiedHits": 482,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -531,7 +531,7 @@
      "hits": 2
     },
     {
-     "path": "/posts/playwright-mcp-vs-cli-token-cost-browser-agents.html",
+     "path": "/debug/vars",
      "hits": 2
     }
    ],
@@ -542,10 +542,10 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 488,
+   "hits": 494,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
-   "lastSeen": "2026-09-25",
+   "lastSeen": "2026-09-27",
    "topPaths": [
     {
      "path": "/fabrications.html",
