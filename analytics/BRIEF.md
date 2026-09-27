@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-27T22:06Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-27T22:16Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -105,11 +105,11 @@ sample size dwarfs the engaged-read counts below.
 - /wire.html  — 53 retrieval fetches
 - /tools  — 33 retrieval fetches
 - /posts/best-open-source-vector-database-2026.html  — 29 retrieval fetches
-- /posts/how-to-deploy-an-llm-locally-2026.html  — 29 retrieval fetches
+- /posts/best-llm-for-image-generation-september-2026.html  — 29 retrieval fetches
 
 Per engine:
 - PerplexityBot (6829 verified): /build ×70 · / ×25 · /dashboard ×19
-- OAI-SearchBot (4419 verified): /wire.html ×53 · /tools ×33 · /posts/best-open-source-vector-database-2026.html ×29
+- OAI-SearchBot (4423 verified): /wire.html ×53 · /tools ×33 · /posts/best-open-source-vector-database-2026.html ×29
 - ChatGPT-User (3192 verified): / ×608 · /posts/open-source-llm-for-coding-september-2026.html ×212 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×160
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -135,7 +135,7 @@ High-engagement posts to react to / cite:
 - "🚨You don’t need better prompts. You need to give Claude tools. A real Claude agent needs more than a good prompt: 🎯 1. Define ONE job Start with a focused outcome — research, sales, content, support, etc. 🧠 2. Give it" — https://x.com/i/status/2103779372473647530
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (249 of 449 phrases have NO post, 58h ago)
+## Uncovered search demand (249 of 449 phrases have NO post, 59h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 18527 confirmed AI-engine fetches (Perplexity 6829, ChatGPT Search (OpenAI) 4419, GPTBot (OpenAI) 4087, ChatGPT (user browsing) 3192).
+The real answer engines are crawling us — IP-verified: 18531 confirmed AI-engine fetches (Perplexity 6829, ChatGPT Search (OpenAI) 4423, GPTBot (OpenAI) 4087, ChatGPT (user browsing) 3192).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 592 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 524 crawler fetches
