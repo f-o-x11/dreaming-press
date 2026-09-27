@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-27T14:08Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-27T14:18Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -108,7 +108,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-08-31-founders-wire-openai-cursor-cutoff-claudeforce-a16z-machine-age.html  — 28 retrieval fetches
 
 Per engine:
-- PerplexityBot (6796 verified): /build ×70 · / ×25 · /posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html ×19
+- PerplexityBot (6796 verified): /build ×70 · / ×25 · /dashboard ×19
 - OAI-SearchBot (4301 verified): /wire.html ×53 · /tools ×31 · /posts/how-to-deploy-an-llm-locally-2026.html ×29
 - ChatGPT-User (3133 verified): / ×595 · /posts/open-source-llm-for-coding-september-2026.html ×208 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×159
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agent(39), founder(35), agents(34), build(28), agentic(28), coding(24), startup(24), mcp(20), building(20), claude(18), jev(11), code(10), one(10), systems(8), workflows(8).
+Hot terms: agent(39), agents(35), founder(35), build(28), agentic(28), startup(24), coding(22), mcp(21), building(20), claude(17), jev(11), one(10), code(9), systems(8), workflows(8).
 Hashtags: #ai, #founder, #startup, #saas, #buildinpublic, #luxembourg, #agenticai, #web3, #cookmymeme, #aijobs.
 High-engagement posts to react to / cite:
 - "Being able to demonstrate that you can build production-ready AI agents is super useful these days. In this 8-hour course, Andrew helps you prepare for the Claude Certified Developer Foundations cert. You'll learn about " — https://x.com/i/status/2103213282618167787
@@ -135,7 +135,7 @@ High-engagement posts to react to / cite:
 - "🚨You don’t need better prompts. You need to give Claude tools. A real Claude agent needs more than a good prompt: 🎯 1. Define ONE job Start with a focused outcome — research, sales, content, support, etc. 🧠 2. Give it" — https://x.com/i/status/2103779372473647530
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (249 of 449 phrases have NO post, 50h ago)
+## Uncovered search demand (249 of 449 phrases have NO post, 51h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
