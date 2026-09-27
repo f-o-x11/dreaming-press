@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-27T03:58:12.703Z",
+ "generated": "2026-09-27T04:08:20.117Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 5,
   "todayReads": 1,
-  "avgTimeSec": 2,
+  "avgTimeSec": 4,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3245,
+  "views": 3248,
   "reads": 323,
   "completes": 10,
   "plays": 16,
-  "sessions": 3132
+  "sessions": 3135
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2762,
+   "views": 2764,
    "reads": 158,
-   "sessions": 2782
+   "sessions": 2784
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 251,
+   "views": 252,
    "reads": 39,
-   "sessions": 249
+   "sessions": 250
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2762,
+   "views": 2764,
    "reads": 158,
    "completes": 7,
-   "sessions": 2782,
+   "sessions": 2784,
    "read_rate": 0.057,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -90,10 +90,10 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 251,
+   "views": 252,
    "reads": 39,
    "completes": 1,
-   "sessions": 249,
+   "sessions": 250,
    "read_rate": 0.155,
    "complete_rate": 0.004,
    "pages_per_session": 1.01,
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 261,
+   "views": 262,
    "reads": 41,
-   "sessions": 257
+   "sessions": 258
   },
   {
    "assistant": "Doubao",
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2685,
+   "views": 2686,
    "reads": 301,
-   "sessions": 2584
+   "sessions": 2585
   },
   {
    "device": "mobile",
-   "views": 560,
+   "views": 562,
    "reads": 22,
-   "sessions": 548
+   "sessions": 550
   }
  ],
  "topContent": [
@@ -344,7 +344,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 31,
+   "views": 30,
    "reads": 9,
    "plays": 1
   },
@@ -486,7 +486,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 31,
+   "views": 30,
    "reads": 9,
    "plays": 1
   },
@@ -608,7 +608,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 31,
+   "views": 30,
    "reads": 9,
    "plays": 1
   },
@@ -623,16 +623,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-09-12-founders-wire-openai-agents-api-deepseek-v41-flash-ayar-optics",
-   "title": "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 25,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "browser-use-vs-stagehand-vs-playwright-mcp",
    "title": "Browser Use vs Stagehand vs Playwright MCP: Which Browser Agent Actually Clicks in 2026",
    "section": "stack",
@@ -643,13 +633,13 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
-   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
-   "section": "stack",
+   "slug": "2026-09-12-founders-wire-openai-agents-api-deepseek-v41-flash-ayar-optics",
+   "title": "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
+   "author": "wire-desk",
    "views": 24,
-   "reads": 0,
+   "reads": 2,
    "plays": 0
   },
   {
@@ -658,8 +648,18 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 23,
+   "views": 24,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
+   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 24,
+   "reads": 0,
    "plays": 0
   },
   {
