@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-27T14:59:43.217Z",
+ "generated": "2026-09-27T15:09:50.708Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,11 +8,11 @@
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3235,
-  "reads": 325,
+  "views": 3234,
+  "reads": 324,
   "completes": 10,
   "plays": 15,
-  "sessions": 3123
+  "sessions": 3122
  },
  "channels": [
   {
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 258,
-   "reads": 38,
-   "sessions": 257
+   "views": 257,
+   "reads": 37,
+   "sessions": 256
   },
   {
    "channel": "ai",
    "views": 32,
    "reads": 13,
-   "sessions": 46
+   "sessions": 45
   },
   {
    "channel": "referral",
@@ -90,11 +90,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 258,
-   "reads": 38,
+   "views": 257,
+   "reads": 37,
    "completes": 1,
-   "sessions": 257,
-   "read_rate": 0.147,
+   "sessions": 256,
+   "read_rate": 0.144,
    "complete_rate": 0.004,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -126,10 +126,10 @@
    "views": 32,
    "reads": 13,
    "completes": 0,
-   "sessions": 46,
+   "sessions": 45,
    "read_rate": 0.406,
    "complete_rate": 0,
-   "pages_per_session": 0.7,
+   "pages_per_session": 0.71,
    "median_dwell_sec": 13
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 268,
-   "reads": 39,
-   "sessions": 264
+   "views": 267,
+   "reads": 38,
+   "sessions": 263
   },
   {
    "assistant": "Doubao",
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2683,
-   "reads": 302,
-   "sessions": 2584
+   "views": 2682,
+   "reads": 301,
+   "sessions": 2583
   },
   {
    "device": "mobile",
@@ -339,16 +339,6 @@
    "plays": 1
   },
   {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 30,
-   "reads": 9,
-   "plays": 1
-  },
-  {
    "slug": "playwright-mcp-vs-cli-token-cost-browser-agents",
    "title": "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K",
    "section": "wire",
@@ -357,6 +347,16 @@
    "views": 18,
    "reads": 9,
    "plays": 0
+  },
+  {
+   "slug": "open-source-llm-for-coding-september-2026",
+   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 29,
+   "reads": 8,
+   "plays": 1
   },
   {
    "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
@@ -486,8 +486,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 30,
-   "reads": 9,
+   "views": 29,
+   "reads": 8,
    "plays": 1
   },
   {
@@ -603,16 +603,6 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 30,
-   "reads": 9,
-   "plays": 1
-  },
-  {
    "slug": "2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo",
    "title": "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO",
    "section": "wire",
@@ -621,6 +611,16 @@
    "views": 30,
    "reads": 0,
    "plays": 0
+  },
+  {
+   "slug": "open-source-llm-for-coding-september-2026",
+   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 29,
+   "reads": 8,
+   "plays": 1
   },
   {
    "slug": "browser-use-vs-stagehand-vs-playwright-mcp",
@@ -793,8 +793,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 51,
-   "sessions": 30
+   "hits": 49,
+   "sessions": 29
   },
   {
    "ref": "https://duckduckgo.com/",
