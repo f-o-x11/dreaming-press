@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-27T05:59Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-27T06:09Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3257 views → 325 engaged reads → 10 completes · 3142 sessions.
-- Channels: direct 160r/2773v · organic 99r/139v · campaign:chatgpt.com 39r/252v · ai 13r/31v · referral 10r/52v · campaign:qwant 4r/6v · social 0r/2v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3258 views → 325 engaged reads → 10 completes · 3143 sessions.
+- Channels: direct 160r/2774v · organic 99r/139v · campaign:chatgpt.com 39r/252v · ai 13r/31v · referral 10r/52v · campaign:qwant 4r/6v · social 0r/2v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 40r/261v · Doubao 9r/12v · Perplexity 2r/4v · Claude 1r/2v · Kimi 0r/3v · DeepSeek 0r/1v.
 - Referrers: mail.google.com, chatgpt.com, bing.com, cn.bing.com, duckduckgo.com, doubao.com, search.brave.com, teams.public.onecdn.static.microsoft, dash-range, brand.
 - Engaged-read winners by section: wire=7, stack=8.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2773 views · read 5.8% · complete 0.3% · 0.99 pages/session · median 4s
+- direct: 2774 views · read 5.8% · complete 0.3% · 0.99 pages/session · median 4s
 - campaign:chatgpt.com: 252 views · read 15.5% · complete 0.4% · 1.01 pages/session · median ?s
 - organic: 139 views · read 71.2% · complete 1.4% · 1.35 pages/session · median ?s
 - referral: 52 views · read 19.2% · complete 0.0% · 1 pages/session · median ?s
@@ -44,7 +44,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card" — 7 reads, 9 views, 0 listens
 - [stack] "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet" — 7 reads, 7 views, 0 listens
 - [wire] "vLLM v0.24 Makes Model Runner V2 the Default. The Win Isn't a Faster Kernel — It's Never Waiting on the CPU." — 6 reads, 12 views, 0 listens
-- [stack] "RouteLLM vs NotDiamond vs Martian: Do LLM Model Routers Actually Cut Costs?" — 4 reads, 13 views, 0 listens
+- [stack] "RouteLLM vs NotDiamond vs Martian: Do LLM Model Routers Actually Cut Costs?" — 4 reads, 14 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [stack] "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)" — 1 listens, 13 reads
@@ -167,7 +167,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 193 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 161 crawler fetches
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 137 crawler fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 111 crawler fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 112 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 67 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 36 crawler fetches
 - /tools  — 31 crawler fetches
