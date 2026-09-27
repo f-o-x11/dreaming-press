@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-27T09:02:51.321Z",
+ "generated": "2026-09-27T09:12:59.632Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 6,
+  "readersNow": 3,
+  "todayReads": 7,
   "avgTimeSec": 53,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3255,
-  "reads": 326,
+  "views": 3253,
+  "reads": 327,
   "completes": 10,
-  "plays": 16,
-  "sessions": 3141
+  "plays": 17,
+  "sessions": 3139
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2773,
-   "reads": 161,
-   "sessions": 2792
+   "views": 2771,
+   "reads": 162,
+   "sessions": 2790
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2773,
-   "reads": 161,
+   "views": 2771,
+   "reads": 162,
    "completes": 7,
-   "sessions": 2792,
+   "sessions": 2790,
    "read_rate": 0.058,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2701,
+   "views": 2697,
    "reads": 304,
-   "sessions": 2599
+   "sessions": 2595
   },
   {
    "device": "mobile",
-   "views": 554,
-   "reads": 22,
-   "sessions": 542
+   "views": 556,
+   "reads": 23,
+   "sessions": 544
   }
  ],
  "topContent": [
@@ -551,22 +551,22 @@
    "plays": 1
   },
   {
+   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
+   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 8,
+   "reads": 1,
+   "plays": 1
+  },
+  {
    "slug": "gpt-5-6-sol-exploitgym-escape-egress-lesson",
    "title": "The GPT-5.6 Sol Escape Wasn't a Model Problem — It Was the Egress Path You Also Left Open",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 5,
-   "reads": 1,
-   "plays": 1
-  },
-  {
-   "slug": "reducto-vs-llamaparse-vs-unstructured-vs-docling-document-parsing-rag",
-   "title": "Reducto vs LlamaParse vs Unstructured vs Docling: Which Document Parser Your RAG Pipeline Actually Needs",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 4,
    "reads": 1,
    "plays": 1
   }
