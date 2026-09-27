@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-27T00:55:59.657Z",
+ "generated": "2026-09-27T01:06:04.689Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18174,
+ "verifiedAiHits": 18175,
  "logsScanned": 30,
  "windowStart": "2026-09-13",
  "windowEnd": "2026-09-27",
- "totalHits": 111795,
- "aiHits": 91828,
+ "totalHits": 111859,
+ "aiHits": 91886,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 33648,
+   "hits": 33658,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15241,
+   "hits": 15277,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14988,
+   "hits": 14995,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -107,6 +107,39 @@
     }
    ],
    "verifiable": false
+  },
+  {
+   "name": "Bingbot",
+   "label": "Bingbot",
+   "category": "search",
+   "home": "https://www.bing.com/webmasters",
+   "hits": 7269,
+   "verifiedHits": 6859,
+   "firstSeen": "2026-09-13",
+   "lastSeen": "2026-09-27",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 98
+    },
+    {
+     "path": "/posts/gartner-ai-agent-spending-2026.html",
+     "hits": 35
+    },
+    {
+     "path": "/authors/rosalinda",
+     "hits": 34
+    },
+    {
+     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
+     "hits": 25
+    },
+    {
+     "path": "/posts/august-2026-ai-deprecation-calendar-founders-migrate.html",
+     "hits": 24
+    }
+   ],
+   "verifiable": true
   },
   {
    "name": "PerplexityBot",
@@ -142,44 +175,11 @@
    "verifiable": true
   },
   {
-   "name": "Bingbot",
-   "label": "Bingbot",
-   "category": "search",
-   "home": "https://www.bing.com/webmasters",
-   "hits": 7266,
-   "verifiedHits": 6856,
-   "firstSeen": "2026-09-13",
-   "lastSeen": "2026-09-27",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 98
-    },
-    {
-     "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 35
-    },
-    {
-     "path": "/authors/rosalinda",
-     "hits": 34
-    },
-    {
-     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
-     "hits": 25
-    },
-    {
-     "path": "/posts/august-2026-ai-deprecation-calendar-founders-migrate.html",
-     "hits": 24
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "Applebot",
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4830,
+   "hits": 4832,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3797,
+   "hits": 3798,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3480,
-   "verifiedHits": 3049,
+   "hits": 3481,
+   "verifiedHits": 3050,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1991,
+   "hits": 1995,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
