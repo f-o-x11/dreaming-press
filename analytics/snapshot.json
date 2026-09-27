@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-27T06:09:43.338Z",
+ "generated": "2026-09-27T06:19:46.044Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3258,
+  "views": 3257,
   "reads": 325,
   "completes": 10,
   "plays": 16,
-  "sessions": 3143
+  "sessions": 3142
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2774,
+   "views": 2773,
    "reads": 160,
-   "sessions": 2793
+   "sessions": 2792
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2774,
+   "views": 2773,
    "reads": 160,
    "completes": 7,
-   "sessions": 2793,
+   "sessions": 2792,
    "read_rate": 0.058,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -312,9 +312,9 @@
   },
   {
    "device": "mobile",
-   "views": 559,
+   "views": 558,
    "reads": 22,
-   "sessions": 547
+   "sessions": 546
   }
  ],
  "topContent": [
@@ -653,16 +653,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-09-12-founders-wire-openai-agents-api-deepseek-v41-flash-ayar-optics",
-   "title": "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 22,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
    "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
    "section": "wire",
@@ -670,6 +660,16 @@
    "author": "dex",
    "views": 22,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "2026-09-12-founders-wire-openai-agents-api-deepseek-v41-flash-ayar-optics",
+   "title": "The Founder's Wire, September 12: OpenAI Turns Its Codex Harness Into an API, and DeepSeek's V4.1 Flash Drops the Cheap-Agent Floor Again",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 21,
+   "reads": 2,
    "plays": 0
   }
  ],
@@ -693,7 +693,7 @@
    "views": 46,
    "reads": 0,
    "sessions": 46,
-   "avg_dwell_sec": 4
+   "avg_dwell_sec": 5
   },
   {
    "path": "/build",
