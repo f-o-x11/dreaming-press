@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-27T13:37:29.763Z",
+ "generated": "2026-09-27T13:47:47.733Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18311,
+ "verifiedAiHits": 18312,
  "logsScanned": 30,
  "windowStart": "2026-09-13",
  "windowEnd": "2026-09-27",
- "totalHits": 115074,
- "aiHits": 94298,
+ "totalHits": 115176,
+ "aiHits": 94383,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 34716,
+   "hits": 34729,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15537,
+   "hits": 15577,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -61,15 +61,15 @@
      "hits": 14
     },
     {
+     "path": "/",
+     "hits": 9
+    },
+    {
      "path": "/posts/how-to-manage-context-in-a-long-running-agent.html",
      "hits": 8
     },
     {
      "path": "/posts/text-generation-inference-tgi-archived-migrate-off.html",
-     "hits": 8
-    },
-    {
-     "path": "/",
      "hits": 8
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15524,
+   "hits": 15532,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7565,
-   "verifiedHits": 7148,
+   "hits": 7568,
+   "verifiedHits": 7151,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4991,
+   "hits": 4995,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3567,
-   "verifiedHits": 3129,
+   "hits": 3568,
+   "verifiedHits": 3130,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
    "topPaths": [
@@ -326,7 +326,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
-     "hits": 158
+     "hits": 159
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
@@ -344,7 +344,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2603,
+   "hits": 2611,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2553,
+   "hits": 2567,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -410,14 +410,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2456,
+   "hits": 2459,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 393
+     "hits": 394
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
@@ -443,7 +443,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2219,
+   "hits": 2225,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 978,
+   "hits": 980,
    "verifiedHits": 0,
    "firstSeen": "2026-09-13",
    "lastSeen": "2026-09-27",
