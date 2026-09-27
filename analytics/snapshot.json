@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-27T23:47:48.077Z",
+ "generated": "2026-09-27T23:57:53.930Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 12,
+  "readersNow": 3,
+  "todayReads": 13,
   "avgTimeSec": 27,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3271,
-  "reads": 323,
+  "views": 3273,
+  "reads": 324,
   "completes": 10,
   "plays": 15,
-  "sessions": 3158
+  "sessions": 3160
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2772,
-   "reads": 159,
-   "sessions": 2795
+   "views": 2774,
+   "reads": 160,
+   "sessions": 2797
   },
   {
    "channel": "organic",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2772,
-   "reads": 159,
+   "views": 2774,
+   "reads": 160,
    "completes": 7,
-   "sessions": 2795,
-   "read_rate": 0.057,
+   "sessions": 2797,
+   "read_rate": 0.058,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
    "median_dwell_sec": 4
@@ -307,14 +307,14 @@
   {
    "device": "desktop",
    "views": 2717,
-   "reads": 300,
+   "reads": 301,
    "sessions": 2617
   },
   {
    "device": "mobile",
-   "views": 554,
+   "views": 556,
    "reads": 23,
-   "sessions": 541
+   "sessions": 543
   }
  ],
  "topContent": [
@@ -349,6 +349,16 @@
    "plays": 0
   },
   {
+   "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
+   "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 10,
+   "reads": 8,
+   "plays": 0
+  },
+  {
    "slug": "open-source-llm-for-coding-september-2026",
    "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
    "section": "stack",
@@ -375,16 +385,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 11,
-   "reads": 7,
-   "plays": 0
-  },
-  {
-   "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
-   "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 10,
    "reads": 7,
    "plays": 0
   },
