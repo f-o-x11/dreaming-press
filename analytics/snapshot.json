@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-27T09:23:00.201Z",
+ "generated": "2026-09-27T09:33:07.137Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
   "todayReads": 7,
-  "avgTimeSec": 53,
+  "avgTimeSec": 45,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3252,
+  "views": 3254,
   "reads": 326,
   "completes": 10,
   "plays": 16,
-  "sessions": 3139
+  "sessions": 3141
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2771,
    "reads": 162,
-   "sessions": 2790
+   "sessions": 2792
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 52,
+   "views": 54,
    "reads": 10,
-   "sessions": 52
+   "sessions": 54
   },
   {
    "channel": "campaign:qwant",
@@ -82,7 +82,7 @@
    "views": 2771,
    "reads": 162,
    "completes": 7,
-   "sessions": 2790,
+   "sessions": 2792,
    "read_rate": 0.058,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -112,11 +112,11 @@
   },
   {
    "channel": "referral",
-   "views": 52,
+   "views": 54,
    "reads": 10,
    "completes": 0,
-   "sessions": 52,
-   "read_rate": 0.192,
+   "sessions": 54,
+   "read_rate": 0.185,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2695,
+   "views": 2697,
    "reads": 303,
-   "sessions": 2594
+   "sessions": 2596
   },
   {
    "device": "mobile",
@@ -817,6 +817,11 @@
    "sessions": 11
   },
   {
+   "ref": "https://www.youtube.com/",
+   "hits": 10,
+   "sessions": 10
+  },
+  {
    "ref": "https://teams.public.onecdn.static.microsoft/",
    "hits": 9,
    "sessions": 4
@@ -825,11 +830,6 @@
    "ref": "dash-range",
    "hits": 9,
    "sessions": 2
-  },
-  {
-   "ref": "brand",
-   "hits": 9,
-   "sessions": 7
   }
  ]
 }
