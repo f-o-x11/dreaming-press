@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-27T07:11:00.357Z",
+ "generated": "2026-09-27T07:21:16.707Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -19,12 +19,12 @@
    "count": 33
   },
   {
-   "term": "build",
+   "term": "agentic",
    "count": 27
   },
   {
-   "term": "agentic",
-   "count": 27
+   "term": "build",
+   "count": 26
   },
   {
    "term": "startup",
@@ -35,12 +35,12 @@
    "count": 23
   },
   {
-   "term": "mcp",
+   "term": "building",
    "count": 20
   },
   {
-   "term": "building",
-   "count": 20
+   "term": "mcp",
+   "count": 19
   },
   {
    "term": "claude",
@@ -51,15 +51,15 @@
    "count": 11
   },
   {
+   "term": "code",
+   "count": 9
+  },
+  {
    "term": "one",
    "count": 9
   },
   {
    "term": "systems",
-   "count": 8
-  },
-  {
-   "term": "code",
    "count": 8
   },
   {
@@ -146,7 +146,7 @@
   },
   {
    "text": "🚀 Zero → AI Engineer Roadmap (2026) Assumes basic ML/DL. Goal: Learn to build and ship production LLM + agent systems. 1. LLM Internals Resources: • Karpathy — Neural Networks: Zero to Hero • Jay Alammar — The Illustrat",
-   "engagement": 523,
+   "engagement": 524,
    "url": "https://x.com/i/status/2103383326543495485",
    "created": "2026-09-25T07:17:18.000Z"
   },
@@ -158,13 +158,13 @@
   },
   {
    "text": "🚨You don’t need better prompts. You need to give Claude tools. A real Claude agent needs more than a good prompt: 🎯 1. Define ONE job Start with a focused outcome — research, sales, content, support, etc. 🧠 2. Give it",
-   "engagement": 301,
+   "engagement": 299,
    "url": "https://x.com/i/status/2103779372473647530",
    "created": "2026-09-26T09:31:03.000Z"
   },
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 184,
+   "engagement": 192,
    "url": "https://x.com/i/status/2103900910292472051",
    "created": "2026-09-26T17:34:00.000Z"
   },
@@ -176,7 +176,7 @@
   },
   {
    "text": "🚨 You’re probably using Claude at 10% of its actual potential. Most people stop at: “Claude, write this.” But Claude mastery looks like this: 🧠 Foundation → Prompting + Context + Examples ⚙️ Workflow → Projects + Promp",
-   "engagement": 111,
+   "engagement": 114,
    "url": "https://x.com/i/status/2104060782069862722",
    "created": "2026-09-27T04:09:16.000Z"
   },
