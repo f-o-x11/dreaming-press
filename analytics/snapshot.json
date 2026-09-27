@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-27T09:12:59.632Z",
+ "generated": "2026-09-27T09:23:00.201Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
@@ -8,10 +8,10 @@
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3253,
-  "reads": 327,
+  "views": 3252,
+  "reads": 326,
   "completes": 10,
-  "plays": 17,
+  "plays": 16,
   "sessions": 3139
  },
  "channels": [
@@ -29,8 +29,8 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 251,
-   "reads": 39,
+   "views": 250,
+   "reads": 38,
    "sessions": 249
   },
   {
@@ -90,13 +90,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 251,
-   "reads": 39,
+   "views": 250,
+   "reads": 38,
    "completes": 1,
    "sessions": 249,
-   "read_rate": 0.155,
+   "read_rate": 0.152,
    "complete_rate": 0.004,
-   "pages_per_session": 1.01,
+   "pages_per_session": 1,
    "median_dwell_sec": null
   },
   {
@@ -268,8 +268,8 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 260,
-   "reads": 40,
+   "views": 259,
+   "reads": 39,
    "sessions": 256
   },
   {
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2697,
-   "reads": 304,
-   "sessions": 2595
+   "views": 2695,
+   "reads": 303,
+   "sessions": 2594
   },
   {
    "device": "mobile",
-   "views": 556,
+   "views": 557,
    "reads": 23,
-   "sessions": 544
+   "sessions": 545
   }
  ],
  "topContent": [
@@ -541,16 +541,6 @@
    "plays": 1
   },
   {
-   "slug": "bedrock-agentcore-observability-vs-langfuse-vs-phoenix",
-   "title": "Bedrock AgentCore's Free Observability vs Langfuse vs Phoenix: When the Built-In Tracing Is Actually Enough",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 3,
-   "reads": 2,
-   "plays": 1
-  },
-  {
    "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
    "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
    "section": "wire",
@@ -567,6 +557,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 5,
+   "reads": 1,
+   "plays": 1
+  },
+  {
+   "slug": "reducto-vs-llamaparse-vs-unstructured-vs-docling-document-parsing-rag",
+   "title": "Reducto vs LlamaParse vs Unstructured vs Docling: Which Document Parser Your RAG Pipeline Actually Needs",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 4,
    "reads": 1,
    "plays": 1
   }
@@ -788,7 +788,7 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 55,
+   "hits": 52,
    "sessions": 31
   },
   {
