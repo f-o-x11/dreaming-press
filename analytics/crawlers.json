@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-28T11:07:21.955Z",
+ "generated": "2026-09-28T11:17:29.639Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17105,
+ "verifiedAiHits": 17111,
  "logsScanned": 30,
  "windowStart": "2026-09-14",
  "windowEnd": "2026-09-28",
- "totalHits": 109796,
- "aiHits": 89528,
+ "totalHits": 109862,
+ "aiHits": 89574,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31675,
+   "hits": 31681,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15063,
+   "hits": 15095,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7616,
-   "verifiedHits": 7189,
+   "hits": 7626,
+   "verifiedHits": 7199,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 6088,
-   "verifiedHits": 5549,
+   "hits": 6089,
+   "verifiedHits": 5550,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4804,
-   "verifiedHits": 4329,
+   "hits": 4808,
+   "verifiedHits": 4333,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4164,
+   "hits": 4172,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -263,11 +263,11 @@
      "hits": 6
     },
     {
-     "path": "/posts/swe-bench-vs-tau-bench-vs-gaia.html",
+     "path": "/authors/priya",
      "hits": 5
     },
     {
-     "path": "/stack.html",
+     "path": "/posts/swe-bench-vs-tau-bench-vs-gaia.html",
      "hits": 5
     }
    ],
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3586,
-   "verifiedHits": 3142,
+   "hits": 3587,
+   "verifiedHits": 3143,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2520,
+   "hits": 2522,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 602,
-   "verifiedHits": 459,
+   "hits": 604,
+   "verifiedHits": 461,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -527,11 +527,11 @@
      "hits": 2
     },
     {
-     "path": "/debug/vars",
+     "path": "/posts/how-to-roll-back-an-ai-agents-actions.html",
      "hits": 2
     },
     {
-     "path": "/_api/v1/access-tokens",
+     "path": "/debug/vars",
      "hits": 2
     }
    ],
