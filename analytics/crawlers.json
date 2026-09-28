@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-28T04:00:59.725Z",
+ "generated": "2026-09-28T04:11:13.697Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16924,
+ "verifiedAiHits": 16928,
  "logsScanned": 30,
  "windowStart": "2026-09-14",
  "windowEnd": "2026-09-28",
- "totalHits": 107951,
- "aiHits": 88171,
+ "totalHits": 107989,
+ "aiHits": 88195,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30993,
+   "hits": 31002,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15118,
+   "hits": 15125,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7433,
-   "verifiedHits": 7006,
+   "hits": 7439,
+   "verifiedHits": 7012,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4699,
-   "verifiedHits": 4225,
+   "hits": 4702,
+   "verifiedHits": 4228,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -193,15 +193,15 @@
      "hits": 31
     },
     {
+     "path": "/posts/open-source-llm-for-coding-september-2026.html",
+     "hits": 29
+    },
+    {
      "path": "/posts/2026-08-31-founders-wire-openai-cursor-cutoff-claudeforce-a16z-machine-age.html",
      "hits": 28
     },
     {
      "path": "/posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html",
-     "hits": 28
-    },
-    {
-     "path": "/posts/best-open-source-vector-database-2026.html",
      "hits": 28
     }
    ],
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4036,
+   "hits": 4039,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3523,
-   "verifiedHits": 3081,
+   "hits": 3524,
+   "verifiedHits": 3082,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -344,14 +344,14 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2714,
+   "hits": 2715,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
     {
      "path": "/",
-     "hits": 27
+     "hits": 28
     },
     {
      "path": "/posts/best-ai-agents-for-personal-use-september-2026.html",
@@ -443,7 +443,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2168,
+   "hits": 2172,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 992,
+   "hits": 996,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",

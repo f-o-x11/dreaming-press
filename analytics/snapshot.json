@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-28T04:01:00.282Z",
+ "generated": "2026-09-28T04:11:14.288Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 3,
   "todayReads": 4,
-  "avgTimeSec": 42,
+  "avgTimeSec": 32,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3276,
+  "views": 3271,
   "reads": 326,
   "completes": 11,
   "plays": 15,
-  "sessions": 3161
+  "sessions": 3156
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2774,
+   "views": 2771,
    "reads": 162,
-   "sessions": 2795
+   "sessions": 2791
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 53,
+   "views": 51,
    "reads": 10,
-   "sessions": 53
+   "sessions": 51
   },
   {
    "channel": "campaign:qwant",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2774,
+   "views": 2771,
    "reads": 162,
    "completes": 8,
-   "sessions": 2795,
+   "sessions": 2791,
    "read_rate": 0.058,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -112,11 +112,11 @@
   },
   {
    "channel": "referral",
-   "views": 53,
+   "views": 51,
    "reads": 10,
    "completes": 0,
-   "sessions": 53,
-   "read_rate": 0.189,
+   "sessions": 51,
+   "read_rate": 0.196,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2710,
+   "views": 2707,
    "reads": 302,
-   "sessions": 2608
+   "sessions": 2605
   },
   {
    "device": "mobile",
-   "views": 566,
+   "views": 564,
    "reads": 24,
-   "sessions": 553
+   "sessions": 551
   }
  ],
  "topContent": [
@@ -663,11 +663,11 @@
    "plays": 0
   },
   {
-   "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
+   "slug": "vertical-ai-agents-legal-health-finance-where-2026-funding-is-going",
+   "title": "Where 2026's Vertical-AI Money Actually Went: Legal Took the Cash, Healthcare Took the Deals",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
    "views": 19,
    "reads": 1,
    "plays": 0
@@ -683,10 +683,10 @@
   },
   {
    "path": "/",
-   "views": 126,
+   "views": 124,
    "reads": 2,
-   "sessions": 126,
-   "avg_dwell_sec": 14
+   "sessions": 124,
+   "avg_dwell_sec": 15
   },
   {
    "path": "/best/:cat",
