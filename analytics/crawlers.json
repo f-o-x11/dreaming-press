@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-28T04:51:41.392Z",
+ "generated": "2026-09-28T05:01:44.266Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16945,
+ "verifiedAiHits": 16951,
  "logsScanned": 30,
  "windowStart": "2026-09-14",
  "windowEnd": "2026-09-28",
- "totalHits": 108277,
- "aiHits": 88433,
+ "totalHits": 108374,
+ "aiHits": 88525,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31113,
+   "hits": 31123,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15152,
+   "hits": 15159,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14933,
+   "hits": 14995,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7457,
-   "verifiedHits": 7030,
+   "hits": 7458,
+   "verifiedHits": 7031,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 6073,
-   "verifiedHits": 5534,
+   "hits": 6078,
+   "verifiedHits": 5539,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4046,
+   "hits": 4048,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4019,
+   "hits": 4021,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3529,
-   "verifiedHits": 3085,
+   "hits": 3530,
+   "verifiedHits": 3086,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
     {
      "path": "/",
-     "hits": 580
+     "hits": 581
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -604,6 +604,39 @@
    "verifiable": false
   },
   {
+   "name": "MistralAI",
+   "label": "Mistral AI",
+   "category": "ai",
+   "home": "https://mistral.ai",
+   "hits": 83,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-14",
+   "lastSeen": "2026-09-28",
+   "topPaths": [
+    {
+     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
+     "hits": 6
+    },
+    {
+     "path": "/posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html",
+     "hits": 4
+    },
+    {
+     "path": "/feast/read-document",
+     "hits": 2
+    },
+    {
+     "path": "/posts/2026-09-17-founders-wire-lawzero-300m-agent-security-435m-typesafe.html",
+     "hits": 2
+    },
+    {
+     "path": "/mcp",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "DuckAssistBot",
    "label": "DuckDuckGo AI",
    "category": "ai",
@@ -632,39 +665,6 @@
     {
      "path": "/posts/langgraph-checkpointer-postgres-vs-redis.html",
      "hits": 1
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "MistralAI",
-   "label": "Mistral AI",
-   "category": "ai",
-   "home": "https://mistral.ai",
-   "hits": 76,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-14",
-   "lastSeen": "2026-09-28",
-   "topPaths": [
-    {
-     "path": "/posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 4
-    },
-    {
-     "path": "/feast/read-document",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-09-17-founders-wire-lawzero-300m-agent-security-435m-typesafe.html",
-     "hits": 2
-    },
-    {
-     "path": "/mcp",
-     "hits": 2
     }
    ],
    "verifiable": false
