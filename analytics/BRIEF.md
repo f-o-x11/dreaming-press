@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-28T05:11Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-28T05:22Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2773 views · read 5.8% · complete 0.3% · 0.99 pages/session · median 4s
+- direct: 2773 views · read 5.8% · complete 0.3% · 0.99 pages/session · median 5s
 - campaign:chatgpt.com: 261 views · read 13.8% · complete 0.4% · 1 pages/session · median ?s
 - organic: 146 views · read 69.9% · complete 1.4% · 1.33 pages/session · median ?s
 - referral: 51 views · read 19.6% · complete 0.0% · 1 pages/session · median ?s
@@ -108,8 +108,8 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html  — 28 retrieval fetches
 
 Per engine:
-- PerplexityBot (5539 verified): /build ×57 · / ×24 · /dashboard ×18
-- OAI-SearchBot (4243 verified): /wire.html ×50 · /tools ×31 · /posts/open-source-llm-for-coding-september-2026.html ×29
+- PerplexityBot (5541 verified): /build ×57 · / ×24 · /dashboard ×18
+- OAI-SearchBot (4250 verified): /wire.html ×50 · /tools ×31 · /posts/open-source-llm-for-coding-september-2026.html ×29
 - ChatGPT-User (3086 verified): / ×581 · /posts/open-source-llm-for-coding-september-2026.html ×198 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×153
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -135,7 +135,7 @@ High-engagement posts to react to / cite:
 - "🚨You don’t need better prompts. You need to give Claude tools. A real Claude agent needs more than a good prompt: 🎯 1. Define ONE job Start with a focused outcome — research, sales, content, support, etc. 🧠 2. Give it" — https://x.com/i/status/2103779372473647530
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (249 of 449 phrases have NO post, 65h ago)
+## Uncovered search demand (249 of 449 phrases have NO post, 66h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -158,18 +158,18 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16952 confirmed AI-engine fetches (Perplexity 5539, ChatGPT Search (OpenAI) 4243, GPTBot (OpenAI) 4084, ChatGPT (user browsing) 3086).
+The real answer engines are crawling us — IP-verified: 16961 confirmed AI-engine fetches (Perplexity 5541, ChatGPT Search (OpenAI) 4250, GPTBot (OpenAI) 4084, ChatGPT (user browsing) 3086).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 537 crawler fetches
 - /build  — 534 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 234 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 200 crawler fetches
-- /posts/how-to-read-an-agent-memory-benchmark.html  — 198 crawler fetches
+- /posts/how-to-read-an-agent-memory-benchmark.html  — 199 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 153 crawler fetches
-- /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 129 crawler fetches
+- /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 130 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 120 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 69 crawler fetches
-- /posts/gartner-ai-agent-spending-2026.html  — 42 crawler fetches
+- /posts/gartner-ai-agent-spending-2026.html  — 43 crawler fetches
 - /tools  — 31 crawler fetches
 - /posts/llm-api-pricing-comparison-august-2026.html  — 29 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
