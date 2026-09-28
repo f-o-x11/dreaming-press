@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T09:36:03.020Z",
+ "generated": "2026-09-28T09:46:19.060Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -24,7 +24,7 @@
   },
   {
    "term": "build",
-   "count": 32
+   "count": 31
   },
   {
    "term": "coding",
@@ -75,15 +75,15 @@
    "count": 9
   },
   {
+   "term": "workflows",
+   "count": 9
+  },
+  {
    "term": "google",
    "count": 9
   },
   {
    "term": "production",
-   "count": 8
-  },
-  {
-   "term": "llm",
    "count": 8
   }
  ],
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 1820,
+   "engagement": 1822,
    "url": "https://x.com/i/status/2103900910292472051",
    "created": "2026-09-26T17:34:00.000Z"
   },
@@ -176,7 +176,7 @@
   },
   {
    "text": "AI Engineering — Ultimate Roadmap (SAVE THIS)! ├── 01. LLM Fundamentals │ ├── Transformers &amp; Attention │ ├── Inference &amp; Decoding │ ├── Tokenization │ └── Context Window &amp; Limits │ ├── 02. Prompting &amp; Con",
-   "engagement": 157,
+   "engagement": 158,
    "url": "https://x.com/i/status/2104368041341411591",
    "created": "2026-09-28T00:30:12.000Z"
   },
