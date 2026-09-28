@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T17:11:23.474Z",
+ "generated": "2026-09-28T17:21:24.125Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,47 +8,51 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 46
+   "count": 47
   },
   {
    "term": "agentic",
-   "count": 38
+   "count": 40
   },
   {
    "term": "founder",
    "count": 32
   },
   {
-   "term": "agents",
+   "term": "build",
    "count": 31
   },
   {
-   "term": "build",
-   "count": 29
+   "term": "agents",
+   "count": 31
   },
   {
    "term": "coding",
    "count": 27
   },
   {
-   "term": "building",
-   "count": 23
-  },
-  {
    "term": "startup",
    "count": 23
   },
   {
+   "term": "building",
+   "count": 22
+  },
+  {
    "term": "mcp",
-   "count": 19
+   "count": 21
+  },
+  {
+   "term": "engineering",
+   "count": 14
   },
   {
    "term": "claude",
    "count": 14
   },
   {
-   "term": "engineering",
-   "count": 13
+   "term": "memory",
+   "count": 11
   },
   {
    "term": "jev",
@@ -59,7 +63,7 @@
    "count": 10
   },
   {
-   "term": "memory",
+   "term": "first",
    "count": 10
   },
   {
@@ -67,7 +71,11 @@
    "count": 9
   },
   {
-   "term": "first",
+   "term": "google",
+   "count": 9
+  },
+  {
+   "term": "loops",
    "count": 9
   },
   {
@@ -76,14 +84,6 @@
   },
   {
    "term": "production",
-   "count": 8
-  },
-  {
-   "term": "one",
-   "count": 8
-  },
-  {
-   "term": "google",
    "count": 8
   }
  ],
@@ -140,13 +140,13 @@
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 1851,
+   "engagement": 1850,
    "url": "https://x.com/i/status/2103900910292472051",
    "created": "2026-09-26T17:34:00.000Z"
   },
   {
    "text": "AI Engineering — Ultimate Roadmap (SAVE THIS)! ├── 01. LLM Fundamentals │ ├── Transformers &amp; Attention │ ├── Inference &amp; Decoding │ ├── Tokenization │ └── Context Window &amp; Limits │ ├── 02. Prompting &amp; Con",
-   "engagement": 573,
+   "engagement": 597,
    "url": "https://x.com/i/status/2104368041341411591",
    "created": "2026-09-28T00:30:12.000Z"
   },
