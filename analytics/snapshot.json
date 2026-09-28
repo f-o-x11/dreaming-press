@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-28T01:08:40.136Z",
+ "generated": "2026-09-28T01:18:55.848Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 5,
   "todayReads": 1,
-  "avgTimeSec": 0,
+  "avgTimeSec": 3,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3272,
+  "views": 3273,
   "reads": 325,
   "completes": 10,
   "plays": 15,
-  "sessions": 3159
+  "sessions": 3160
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2771,
    "reads": 161,
-   "sessions": 2794
+   "sessions": 2795
   },
   {
    "channel": "organic",
-   "views": 144,
+   "views": 145,
    "reads": 101,
-   "sessions": 108
+   "sessions": 109
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -82,7 +82,7 @@
    "views": 2771,
    "reads": 161,
    "completes": 7,
-   "sessions": 2794,
+   "sessions": 2795,
    "read_rate": 0.058,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "organic",
-   "views": 144,
+   "views": 145,
    "reads": 101,
    "completes": 2,
-   "sessions": 108,
-   "read_rate": 0.701,
+   "sessions": 109,
+   "read_rate": 0.697,
    "complete_rate": 0.014,
    "pages_per_session": 1.33,
    "median_dwell_sec": null
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2712,
+   "views": 2713,
    "reads": 301,
-   "sessions": 2612
+   "sessions": 2613
   },
   {
    "device": "mobile",
@@ -334,7 +334,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 69,
+   "views": 70,
    "reads": 14,
    "plays": 1
   },
@@ -476,7 +476,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 69,
+   "views": 70,
    "reads": 14,
    "plays": 1
   },
@@ -578,7 +578,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 69,
+   "views": 70,
    "reads": 14,
    "plays": 1
   },
@@ -683,16 +683,16 @@
   },
   {
    "path": "/",
-   "views": 127,
+   "views": 126,
    "reads": 2,
-   "sessions": 127,
+   "sessions": 126,
    "avg_dwell_sec": 14
   },
   {
    "path": "/best/:cat",
-   "views": 50,
+   "views": 51,
    "reads": 0,
-   "sessions": 50,
+   "sessions": 51,
    "avg_dwell_sec": 5
   },
   {
@@ -803,8 +803,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 39,
-   "sessions": 24
+   "hits": 40,
+   "sessions": 25
   },
   {
    "ref": "https://www.doubao.com/",
