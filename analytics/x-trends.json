@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T01:18:55.796Z",
+ "generated": "2026-09-28T01:29:00.274Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 44
+   "count": 47
   },
   {
    "term": "agents",
@@ -20,11 +20,11 @@
   },
   {
    "term": "agentic",
-   "count": 32
+   "count": 33
   },
   {
    "term": "build",
-   "count": 29
+   "count": 31
   },
   {
    "term": "coding",
@@ -35,16 +35,24 @@
    "count": 24
   },
   {
+   "term": "mcp",
+   "count": 22
+  },
+  {
    "term": "building",
    "count": 22
   },
   {
-   "term": "mcp",
-   "count": 21
-  },
-  {
    "term": "claude",
    "count": 18
+  },
+  {
+   "term": "memory",
+   "count": 12
+  },
+  {
+   "term": "loops",
+   "count": 12
   },
   {
    "term": "jev",
@@ -55,35 +63,27 @@
    "count": 10
   },
   {
-   "term": "memory",
+   "term": "one",
    "count": 10
   },
   {
-   "term": "one",
-   "count": 9
+   "term": "first",
+   "count": 10
   },
   {
    "term": "workflows",
    "count": 9
   },
   {
-   "term": "first",
+   "term": "google",
    "count": 9
   },
   {
-   "term": "loops",
+   "term": "engineering",
    "count": 9
   },
   {
    "term": "research",
-   "count": 8
-  },
-  {
-   "term": "systems",
-   "count": 8
-  },
-  {
-   "term": "google",
    "count": 8
   }
  ],
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 1652,
+   "engagement": 1654,
    "url": "https://x.com/i/status/2103900910292472051",
    "created": "2026-09-26T17:34:00.000Z"
   },
@@ -158,7 +158,7 @@
   },
   {
    "text": "🚨 You’re probably using Claude at 10% of its actual potential. Most people stop at: “Claude, write this.” But Claude mastery looks like this: 🧠 Foundation → Prompting + Context + Examples ⚙️ Workflow → Projects + Promp",
-   "engagement": 357,
+   "engagement": 356,
    "url": "https://x.com/i/status/2104060782069862722",
    "created": "2026-09-27T04:09:16.000Z"
   },
