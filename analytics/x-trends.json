@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T22:36:25.917Z",
+ "generated": "2026-09-28T22:46:33.649Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,18 +8,18 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 46
+   "count": 48
   },
   {
    "term": "agentic",
    "count": 39
   },
   {
-   "term": "agents",
+   "term": "founder",
    "count": 34
   },
   {
-   "term": "founder",
+   "term": "agents",
    "count": 33
   },
   {
@@ -27,24 +27,28 @@
    "count": 32
   },
   {
+   "term": "coding",
+   "count": 24
+  },
+  {
    "term": "startup",
    "count": 24
   },
   {
-   "term": "coding",
-   "count": 23
+   "term": "building",
+   "count": 22
   },
   {
    "term": "mcp",
    "count": 22
   },
   {
-   "term": "building",
-   "count": 21
+   "term": "claude",
+   "count": 14
   },
   {
-   "term": "claude",
-   "count": 13
+   "term": "engineering",
+   "count": 11
   },
   {
    "term": "memory",
@@ -55,16 +59,8 @@
    "count": 11
   },
   {
-   "term": "engineering",
-   "count": 10
-  },
-  {
    "term": "first",
    "count": 10
-  },
-  {
-   "term": "years",
-   "count": 9
   },
   {
    "term": "google",
@@ -75,22 +71,26 @@
    "count": 9
   },
   {
+   "term": "need",
+   "count": 9
+  },
+  {
+   "term": "years",
+   "count": 8
+  },
+  {
+   "term": "code",
+   "count": 8
+  },
+  {
    "term": "production",
    "count": 8
-  },
-  {
-   "term": "tools",
-   "count": 8
-  },
-  {
-   "term": "work",
-   "count": 7
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 7
+   "count": 6
   },
   {
    "term": "#saas",
@@ -176,7 +176,7 @@
   },
   {
    "text": "AI is getting smarter. But smarter agents alone won’t build the agentic economy. They need somewhere to verify identity, prove permissions, move money and settle transactions without turning every interaction into a manu",
-   "engagement": 159,
+   "engagement": 161,
    "url": "https://x.com/i/status/2104645989801791697",
    "created": "2026-09-28T18:54:41.000Z"
   },
