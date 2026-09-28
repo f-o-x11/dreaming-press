@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T18:32:22.290Z",
+ "generated": "2026-09-28T18:42:22.764Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -15,16 +15,16 @@
    "count": 41
   },
   {
+   "term": "build",
+   "count": 33
+  },
+  {
    "term": "agents",
    "count": 33
   },
   {
    "term": "founder",
    "count": 33
-  },
-  {
-   "term": "build",
-   "count": 32
   },
   {
    "term": "coding",
@@ -40,11 +40,11 @@
   },
   {
    "term": "mcp",
-   "count": 21
+   "count": 22
   },
   {
    "term": "claude",
-   "count": 14
+   "count": 16
   },
   {
    "term": "engineering",
@@ -90,7 +90,7 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 7
+   "count": 6
   },
   {
    "term": "#saas",
@@ -145,6 +145,12 @@
    "created": "2026-09-26T17:34:00.000Z"
   },
   {
+   "text": "Being able to demonstrate that you can build production-ready AI agents is super useful these days. In this 8-hour course, Andrew helps you prepare for the Claude Certified Developer Foundations cert. You'll learn about ",
+   "engagement": 978,
+   "url": "https://x.com/i/status/2103213282618167787",
+   "created": "2026-09-24T20:01:37.000Z"
+  },
+  {
    "text": "🚀 Zero → AI Engineer Roadmap (2026) Assumes basic ML/DL. Goal: Learn to build and ship production LLM + agent systems. 1. LLM Internals Resources: • Karpathy — Neural Networks: Zero to Hero • Jay Alammar — The Illustrat",
    "engagement": 558,
    "url": "https://x.com/i/status/2103383326543495485",
@@ -179,12 +185,6 @@
    "engagement": 71,
    "url": "https://x.com/i/status/2102588261105586553",
    "created": "2026-09-23T02:38:00.000Z"
-  },
-  {
-   "text": "Build your personal AI video editor, but not from scratch! I'm seeing more people vibe coding NLEs for their agents. I love this direction. But do yourself a favour: fork Diffusion Studio. We've spent years building it a",
-   "engagement": 64,
-   "url": "https://x.com/i/status/2104597254585643425",
-   "created": "2026-09-28T15:41:01.000Z"
   }
  ]
 }
