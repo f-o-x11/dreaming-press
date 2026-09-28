@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-28T22:46:33.173Z",
+ "generated": "2026-09-28T22:56:39.890Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17567,
+ "verifiedAiHits": 17581,
  "logsScanned": 30,
  "windowStart": "2026-09-14",
  "windowEnd": "2026-09-28",
- "totalHits": 111912,
- "aiHits": 90992,
+ "totalHits": 111939,
+ "aiHits": 91008,
  "aiEngines": 18,
  "bots": [
   {
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15258,
+   "hits": 15259,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7918,
-   "verifiedHits": 7485,
+   "hits": 7925,
+   "verifiedHits": 7492,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 6126,
-   "verifiedHits": 5583,
+   "hits": 6127,
+   "verifiedHits": 5584,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5126,
-   "verifiedHits": 4646,
+   "hits": 5135,
+   "verifiedHits": 4655,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4329,
+   "hits": 4333,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3703,
-   "verifiedHits": 3251,
+   "hits": 3707,
+   "verifiedHits": 3255,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
     {
      "path": "/",
-     "hits": 611
+     "hits": 612
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -334,7 +334,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 69
+     "hits": 70
     }
    ],
    "verifiable": true
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2613,
+   "hits": 2614,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
