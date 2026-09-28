@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-28T13:58Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-28T14:08Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -96,21 +96,21 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 620 retrieval fetches
+- /  — 621 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 233 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 157 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 127 retrieval fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 69 retrieval fetches
 - /build  — 57 retrieval fetches
 - /wire.html  — 52 retrieval fetches
-- /tools  — 31 retrieval fetches
+- /tools  — 32 retrieval fetches
 - /posts/how-to-deploy-an-llm-locally-2026.html  — 29 retrieval fetches
-- /posts/2026-08-31-founders-wire-openai-cursor-cutoff-claudeforce-a16z-machine-age.html  — 28 retrieval fetches
+- /posts/2026-09-09-founders-wire-mistral-samsung-meta-muse-agent-commerce.html  — 29 retrieval fetches
 
 Per engine:
 - PerplexityBot (5555 verified): /build ×57 · / ×24 · /dashboard ×18
-- OAI-SearchBot (4370 verified): /wire.html ×52 · /tools ×31 · /posts/open-source-llm-for-coding-september-2026.html ×30
-- ChatGPT-User (3174 verified): / ×596 · /posts/open-source-llm-for-coding-september-2026.html ×203 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×157
+- OAI-SearchBot (4375 verified): /wire.html ×52 · /tools ×32 · /posts/open-source-llm-for-coding-september-2026.html ×30
+- ChatGPT-User (3178 verified): / ×597 · /posts/open-source-llm-for-coding-september-2026.html ×203 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×157
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -125,14 +125,14 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agent(46), agentic(37), agents(32), founder(32), build(31), coding(28), startup(23), mcp(22), building(21), claude(16), engineering(13), memory(12), code(11), loops(11), jev(11).
+Hot terms: agent(43), agentic(37), agents(32), founder(32), build(30), coding(28), startup(23), mcp(22), building(21), claude(18), engineering(12), code(11), jev(11), memory(10), one(9).
 Hashtags: #ai, #saas, #founder, #startup, #luxembourg, #agenticai, #web3, #cookmymeme, #mcp, #prembly.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2103900910292472051
+- "Being able to demonstrate that you can build production-ready AI agents is super useful these days. In this 8-hour course, Andrew helps you prepare for the Claude Certified Developer Foundations cert. You'll learn about " — https://x.com/i/status/2103213282618167787
 - "🚀 Zero → AI Engineer Roadmap (2026) Assumes basic ML/DL. Goal: Learn to build and ship production LLM + agent systems. 1. LLM Internals Resources: • Karpathy — Neural Networks: Zero to Hero • Jay Alammar — The Illustrat" — https://x.com/i/status/2103383326543495485
 - "🚨 You’re probably using Claude at 10% of its actual potential. Most people stop at: “Claude, write this.” But Claude mastery looks like this: 🧠 Foundation → Prompting + Context + Examples ⚙️ Workflow → Projects + Promp" — https://x.com/i/status/2104060782069862722
 - "🚨You don’t need better prompts. You need to give Claude tools. A real Claude agent needs more than a good prompt: 🎯 1. Define ONE job Start with a focused outcome — research, sales, content, support, etc. 🧠 2. Give it" — https://x.com/i/status/2103779372473647530
-- "AI Engineering — Ultimate Roadmap (SAVE THIS)! ├── 01. LLM Fundamentals │ ├── Transformers &amp; Attention │ ├── Inference &amp; Decoding │ ├── Tokenization │ └── Context Window &amp; Limits │ ├── 02. Prompting &amp; Con" — https://x.com/i/status/2104368041341411591
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (249 of 449 phrases have NO post, 74h ago)
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17184 confirmed AI-engine fetches (Perplexity 5555, ChatGPT Search (OpenAI) 4370, GPTBot (OpenAI) 4085, ChatGPT (user browsing) 3174).
+The real answer engines are crawling us — IP-verified: 17193 confirmed AI-engine fetches (Perplexity 5555, ChatGPT Search (OpenAI) 4375, GPTBot (OpenAI) 4085, ChatGPT (user browsing) 3178).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 570 crawler fetches
 - /build  — 540 crawler fetches
@@ -169,9 +169,9 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 132 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 126 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 69 crawler fetches
+- /posts/2026-09-09-founders-wire-mistral-samsung-meta-muse-agent-commerce.html  — 48 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 45 crawler fetches
-- /tools  — 31 crawler fetches
-- /posts/llm-api-pricing-comparison-august-2026.html  — 29 crawler fetches
+- /tools  — 32 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)

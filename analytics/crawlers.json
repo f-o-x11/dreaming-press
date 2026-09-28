@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-28T13:58:47.585Z",
+ "generated": "2026-09-28T14:08:55.036Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17184,
+ "verifiedAiHits": 17193,
  "logsScanned": 30,
  "windowStart": "2026-09-14",
  "windowEnd": "2026-09-28",
- "totalHits": 110379,
- "aiHits": 89950,
+ "totalHits": 110474,
+ "aiHits": 90006,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31885,
+   "hits": 31895,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -37,7 +37,7 @@
     },
     {
      "path": "/posts/2026-09-09-founders-wire-mistral-samsung-meta-muse-agent-commerce.html",
-     "hits": 18
+     "hits": 19
     }
    ],
    "verifiable": false
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7682,
-   "verifiedHits": 7255,
+   "hits": 7689,
+   "verifiedHits": 7258,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 6094,
+   "hits": 6098,
    "verifiedHits": 5555,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -179,8 +179,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4845,
-   "verifiedHits": 4370,
+   "hits": 4855,
+   "verifiedHits": 4375,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -190,7 +190,7 @@
     },
     {
      "path": "/tools",
-     "hits": 31
+     "hits": 32
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -201,8 +201,8 @@
      "hits": 29
     },
     {
-     "path": "/posts/2026-08-31-founders-wire-openai-cursor-cutoff-claudeforce-a16z-machine-age.html",
-     "hits": 28
+     "path": "/posts/2026-09-09-founders-wire-mistral-samsung-meta-muse-agent-commerce.html",
+     "hits": 29
     }
    ],
    "verifiable": true
@@ -212,7 +212,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4547,
+   "hits": 4555,
    "verifiedHits": 4085,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -245,7 +245,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4216,
+   "hits": 4220,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3618,
-   "verifiedHits": 3174,
+   "hits": 3628,
+   "verifiedHits": 3178,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
     {
      "path": "/",
-     "hits": 596
+     "hits": 597
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -344,7 +344,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2833,
+   "hits": 2841,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2611,
+   "hits": 2620,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2542,
+   "hits": 2543,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1016,
+   "hits": 1021,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -509,7 +509,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 604,
+   "hits": 619,
    "verifiedHits": 461,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -517,6 +517,10 @@
     {
      "path": "/",
      "hits": 15
+    },
+    {
+     "path": "/dashboard",
+     "hits": 4
     },
     {
      "path": "/graphql",
@@ -529,10 +533,6 @@
     {
      "path": "/posts/how-to-roll-back-an-ai-agents-actions.html",
      "hits": 2
-    },
-    {
-     "path": "/debug/vars",
-     "hits": 2
     }
    ],
    "verifiable": true
@@ -542,7 +542,7 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 510,
+   "hits": 514,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -560,12 +560,12 @@
      "hits": 4
     },
     {
-     "path": "/dispatches.html",
+     "path": "/web.config",
      "hits": 3
     },
     {
-     "path": "/posts/2026-09-17-founders-wire-lawzero-300m-agent-security-435m-typesafe.md",
-     "hits": 2
+     "path": "/dispatches.html",
+     "hits": 3
     }
    ],
    "verifiable": false
