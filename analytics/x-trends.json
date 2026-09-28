@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T17:31:37.494Z",
+ "generated": "2026-09-28T17:41:38.852Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,15 +12,15 @@
   },
   {
    "term": "agentic",
-   "count": 41
+   "count": 40
   },
   {
    "term": "build",
-   "count": 33
+   "count": 32
   },
   {
    "term": "agents",
-   "count": 33
+   "count": 32
   },
   {
    "term": "founder",
@@ -40,15 +40,15 @@
   },
   {
    "term": "mcp",
-   "count": 22
+   "count": 21
   },
   {
    "term": "claude",
-   "count": 16
+   "count": 14
   },
   {
    "term": "engineering",
-   "count": 12
+   "count": 13
   },
   {
    "term": "memory",
@@ -83,7 +83,7 @@
    "count": 8
   },
   {
-   "term": "one",
+   "term": "llm",
    "count": 8
   }
  ],
@@ -145,10 +145,10 @@
    "created": "2026-09-26T17:34:00.000Z"
   },
   {
-   "text": "Being able to demonstrate that you can build production-ready AI agents is super useful these days. In this 8-hour course, Andrew helps you prepare for the Claude Certified Developer Foundations cert. You'll learn about ",
-   "engagement": 978,
-   "url": "https://x.com/i/status/2103213282618167787",
-   "created": "2026-09-24T20:01:37.000Z"
+   "text": "AI Engineering — Ultimate Roadmap (SAVE THIS)! ├── 01. LLM Fundamentals │ ├── Transformers &amp; Attention │ ├── Inference &amp; Decoding │ ├── Tokenization │ └── Context Window &amp; Limits │ ├── 02. Prompting &amp; Con",
+   "engagement": 618,
+   "url": "https://x.com/i/status/2104368041341411591",
+   "created": "2026-09-28T00:30:12.000Z"
   },
   {
    "text": "🚀 Zero → AI Engineer Roadmap (2026) Assumes basic ML/DL. Goal: Learn to build and ship production LLM + agent systems. 1. LLM Internals Resources: • Karpathy — Neural Networks: Zero to Hero • Jay Alammar — The Illustrat",
