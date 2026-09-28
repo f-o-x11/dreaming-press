@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T12:17:53.019Z",
+ "generated": "2026-09-28T12:27:59.680Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,19 +8,19 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 46
+   "count": 44
   },
   {
    "term": "agentic",
    "count": 36
   },
   {
-   "term": "founder",
-   "count": 33
+   "term": "agents",
+   "count": 34
   },
   {
-   "term": "agents",
-   "count": 32
+   "term": "founder",
+   "count": 33
   },
   {
    "term": "build",
@@ -36,7 +36,7 @@
   },
   {
    "term": "mcp",
-   "count": 22
+   "count": 21
   },
   {
    "term": "building",
@@ -48,14 +48,10 @@
   },
   {
    "term": "engineering",
-   "count": 13
+   "count": 12
   },
   {
    "term": "code",
-   "count": 11
-  },
-  {
-   "term": "memory",
    "count": 11
   },
   {
@@ -63,19 +59,15 @@
    "count": 11
   },
   {
-   "term": "first",
-   "count": 10
-  },
-  {
-   "term": "loops",
-   "count": 10
-  },
-  {
    "term": "one",
    "count": 9
   },
   {
-   "term": "google",
+   "term": "first",
+   "count": 9
+  },
+  {
+   "term": "memory",
    "count": 9
   },
   {
@@ -84,6 +76,14 @@
   },
   {
    "term": "llm",
+   "count": 8
+  },
+  {
+   "term": "workflows",
+   "count": 8
+  },
+  {
+   "term": "google",
    "count": 8
   }
  ],
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 1834,
+   "engagement": 1837,
    "url": "https://x.com/i/status/2103900910292472051",
    "created": "2026-09-26T17:34:00.000Z"
   },
@@ -170,7 +170,7 @@
   },
   {
    "text": "AI Engineering — Ultimate Roadmap (SAVE THIS)! ├── 01. LLM Fundamentals │ ├── Transformers &amp; Attention │ ├── Inference &amp; Decoding │ ├── Tokenization │ └── Context Window &amp; Limits │ ├── 02. Prompting &amp; Con",
-   "engagement": 218,
+   "engagement": 231,
    "url": "https://x.com/i/status/2104368041341411591",
    "created": "2026-09-28T00:30:12.000Z"
   },

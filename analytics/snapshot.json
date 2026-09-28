@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-28T12:17:53.075Z",
+ "generated": "2026-09-28T12:27:59.731Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 0,
   "todayReads": 15,
   "avgTimeSec": 38,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3299,
-  "reads": 329,
+  "views": 3296,
+  "reads": 327,
   "completes": 11,
-  "plays": 14,
-  "sessions": 3186
+  "plays": 13,
+  "sessions": 3182
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2791,
-   "reads": 164,
-   "sessions": 2816
+   "views": 2789,
+   "reads": 163,
+   "sessions": 2813
   },
   {
    "channel": "organic",
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 266,
-   "reads": 36,
-   "sessions": 265
+   "views": 265,
+   "reads": 35,
+   "sessions": 264
   },
   {
    "channel": "ai",
    "views": 30,
    "reads": 11,
-   "sessions": 46
+   "sessions": 45
   },
   {
    "channel": "referral",
@@ -79,22 +79,22 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2791,
-   "reads": 164,
+   "views": 2789,
+   "reads": 163,
    "completes": 8,
-   "sessions": 2816,
-   "read_rate": 0.059,
+   "sessions": 2813,
+   "read_rate": 0.058,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
    "median_dwell_sec": 5
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 266,
-   "reads": 36,
+   "views": 265,
+   "reads": 35,
    "completes": 1,
-   "sessions": 265,
-   "read_rate": 0.135,
+   "sessions": 264,
+   "read_rate": 0.132,
    "complete_rate": 0.004,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -126,11 +126,11 @@
    "views": 30,
    "reads": 11,
    "completes": 0,
-   "sessions": 46,
+   "sessions": 45,
    "read_rate": 0.367,
    "complete_rate": 0,
-   "pages_per_session": 0.65,
-   "median_dwell_sec": 13
+   "pages_per_session": 0.67,
+   "median_dwell_sec": 10
   },
   {
    "channel": "campaign:qwant",
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 276,
-   "reads": 37,
-   "sessions": 272
+   "views": 275,
+   "reads": 36,
+   "sessions": 271
   },
   {
    "assistant": "Doubao",
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2724,
-   "reads": 303,
-   "sessions": 2624
+   "views": 2721,
+   "reads": 301,
+   "sessions": 2620
   },
   {
    "device": "mobile",
@@ -561,12 +561,12 @@
    "plays": 1
   },
   {
-   "slug": "2026-06-22-gpu-for-llm-inference-h100-vs-h200-vs-a100-vs-l40s",
-   "title": "GPU for LLM Inference: H100 vs H200 vs A100 vs L40S",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 2,
+   "slug": "how-to-prove-your-agent-sandbox-actually-blocks-the-internet",
+   "title": "How to Prove Your Agent's Sandbox Actually Blocks the Internet",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 1,
    "reads": 1,
    "plays": 1
   }
@@ -793,8 +793,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 48,
-   "sessions": 28
+   "hits": 45,
+   "sessions": 27
   },
   {
    "ref": "https://cn.bing.com/",
