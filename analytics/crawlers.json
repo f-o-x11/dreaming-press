@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-28T00:07:59.675Z",
+ "generated": "2026-09-28T00:18:08.333Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16814,
+ "verifiedAiHits": 16818,
  "logsScanned": 30,
  "windowStart": "2026-09-14",
  "windowEnd": "2026-09-28",
- "totalHits": 106689,
- "aiHits": 87176,
+ "totalHits": 106730,
+ "aiHits": 87209,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30586,
+   "hits": 30602,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14957,
+   "hits": 14964,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -80,10 +80,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14729,
+   "hits": 14730,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
-   "lastSeen": "2026-09-27",
+   "lastSeen": "2026-09-28",
    "topPaths": [
     {
      "path": "/build",
@@ -113,10 +113,10 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7352,
-   "verifiedHits": 6925,
+   "hits": 7356,
+   "verifiedHits": 6929,
    "firstSeen": "2026-09-14",
-   "lastSeen": "2026-09-27",
+   "lastSeen": "2026-09-28",
    "topPaths": [
     {
      "path": "/build",
@@ -179,8 +179,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4635,
-   "verifiedHits": 4162,
+   "hits": 4638,
+   "verifiedHits": 4165,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -241,44 +241,11 @@
    "verifiable": true
   },
   {
-   "name": "Baiduspider",
-   "label": "Baidu",
-   "category": "search",
-   "home": "https://www.baidu.com",
-   "hits": 3982,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-14",
-   "lastSeen": "2026-09-28",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 31
-    },
-    {
-     "path": "/dashboard",
-     "hits": 8
-    },
-    {
-     "path": "/global-tech-news",
-     "hits": 6
-    },
-    {
-     "path": "/posts/swe-bench-vs-tau-bench-vs-gaia.html",
-     "hits": 5
-    },
-    {
-     "path": "/stack.html",
-     "hits": 5
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Applebot",
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3982,
+   "hits": 3985,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -307,12 +274,45 @@
    "verifiable": false
   },
   {
+   "name": "Baiduspider",
+   "label": "Baidu",
+   "category": "search",
+   "home": "https://www.baidu.com",
+   "hits": 3983,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-14",
+   "lastSeen": "2026-09-28",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 31
+    },
+    {
+     "path": "/dashboard",
+     "hits": 8
+    },
+    {
+     "path": "/global-tech-news",
+     "hits": 6
+    },
+    {
+     "path": "/posts/swe-bench-vs-tau-bench-vs-gaia.html",
+     "hits": 5
+    },
+    {
+     "path": "/stack.html",
+     "hits": 5
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "ChatGPT-User",
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3476,
-   "verifiedHits": 3038,
+   "hits": 3477,
+   "verifiedHits": 3039,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2431,
+   "hits": 2433,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -443,7 +443,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2102,
+   "hits": 2103,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -575,7 +575,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 339,
+   "hits": 341,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
