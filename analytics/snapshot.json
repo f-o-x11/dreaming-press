@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-28T12:58:03.060Z",
+ "generated": "2026-09-28T13:08:03.915Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 16,
-  "avgTimeSec": 36,
+  "readersNow": 3,
+  "todayReads": 17,
+  "avgTimeSec": 46,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3300,
-  "reads": 327,
+  "views": 3298,
+  "reads": 328,
   "completes": 12,
   "plays": 13,
-  "sessions": 3185
+  "sessions": 3183
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2790,
+   "views": 2788,
    "reads": 162,
    "sessions": 2813
   },
   {
    "channel": "organic",
-   "views": 153,
-   "reads": 106,
-   "sessions": 115
+   "views": 154,
+   "reads": 107,
+   "sessions": 116
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 30,
+   "views": 29,
    "reads": 11,
-   "sessions": 45
+   "sessions": 44
   },
   {
    "channel": "referral",
@@ -79,7 +79,7 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2790,
+   "views": 2788,
    "reads": 162,
    "completes": 8,
    "sessions": 2813,
@@ -101,12 +101,12 @@
   },
   {
    "channel": "organic",
-   "views": 153,
-   "reads": 106,
+   "views": 154,
+   "reads": 107,
    "completes": 3,
-   "sessions": 115,
-   "read_rate": 0.693,
-   "complete_rate": 0.02,
+   "sessions": 116,
+   "read_rate": 0.695,
+   "complete_rate": 0.019,
    "pages_per_session": 1.33,
    "median_dwell_sec": null
   },
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 30,
+   "views": 29,
    "reads": 11,
    "completes": 0,
-   "sessions": 45,
-   "read_rate": 0.367,
+   "sessions": 44,
+   "read_rate": 0.379,
    "complete_rate": 0,
-   "pages_per_session": 0.67,
+   "pages_per_session": 0.66,
    "median_dwell_sec": 10
   },
   {
@@ -280,9 +280,9 @@
   },
   {
    "assistant": "Perplexity",
-   "views": 4,
+   "views": 3,
    "reads": 2,
-   "sessions": 4
+   "sessions": 3
   },
   {
    "assistant": "Claude",
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2725,
-   "reads": 301,
-   "sessions": 2623
+   "views": 2723,
+   "reads": 302,
+   "sessions": 2621
   },
   {
    "device": "mobile",
@@ -364,7 +364,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 25,
+   "views": 24,
    "reads": 7,
    "plays": 1
   },
@@ -486,8 +486,18 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 25,
+   "views": 24,
    "reads": 7,
+   "plays": 1
+  },
+  {
+   "slug": "gartner-ai-agent-spending-2026",
+   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
+   "section": "wire",
+   "tags": "[\"reportive\",\"cynical\"]",
+   "author": "priya",
+   "views": 7,
+   "reads": 3,
    "plays": 1
   },
   {
@@ -497,16 +507,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 7,
-   "reads": 2,
-   "plays": 1
-  },
-  {
-   "slug": "gartner-ai-agent-spending-2026",
-   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
-   "section": "wire",
-   "tags": "[\"reportive\",\"cynical\"]",
-   "author": "priya",
-   "views": 6,
    "reads": 2,
    "plays": 1
   },
@@ -598,7 +598,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 38,
+   "views": 37,
    "reads": 0,
    "plays": 0
   },
@@ -618,7 +618,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 25,
+   "views": 24,
    "reads": 7,
    "plays": 1
   },
@@ -738,13 +738,6 @@
    "avg_dwell_sec": 3
   },
   {
-   "path": "/reports/:report",
-   "views": 7,
-   "reads": 0,
-   "sessions": 7,
-   "avg_dwell_sec": null
-  },
-  {
    "path": "/subscribe",
    "views": 7,
    "reads": 1,
@@ -757,6 +750,13 @@
    "reads": 1,
    "sessions": 6,
    "avg_dwell_sec": 40
+  },
+  {
+   "path": "/reports/:report",
+   "views": 6,
+   "reads": 0,
+   "sessions": 6,
+   "avg_dwell_sec": null
   },
   {
    "path": "/topics/:topic",
@@ -792,13 +792,13 @@
    "sessions": 36
   },
   {
-   "ref": "https://chatgpt.com/",
+   "ref": "https://cn.bing.com/",
    "hits": 45,
-   "sessions": 27
+   "sessions": 28
   },
   {
-   "ref": "https://cn.bing.com/",
-   "hits": 43,
+   "ref": "https://chatgpt.com/",
+   "hits": 45,
    "sessions": 27
   },
   {
