@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-28T18:22Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-28T18:32Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -109,7 +109,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (5574 verified): /build ×57 · / ×25 · /dashboard ×18
-- OAI-SearchBot (4463 verified): /wire.html ×52 · /tools ×33 · /posts/open-source-llm-for-coding-september-2026.html ×30
+- OAI-SearchBot (4465 verified): /wire.html ×52 · /tools ×33 · /posts/open-source-llm-for-coding-september-2026.html ×30
 - ChatGPT-User (3214 verified): / ×604 · /posts/open-source-llm-for-coding-september-2026.html ×204 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×158
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -158,10 +158,10 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17337 confirmed AI-engine fetches (Perplexity 5574, ChatGPT Search (OpenAI) 4463, GPTBot (OpenAI) 4086, ChatGPT (user browsing) 3214).
+The real answer engines are crawling us — IP-verified: 17339 confirmed AI-engine fetches (Perplexity 5574, ChatGPT Search (OpenAI) 4465, GPTBot (OpenAI) 4086, ChatGPT (user browsing) 3214).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 577 crawler fetches
-- /build  — 542 crawler fetches
+- /build  — 543 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 241 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 213 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 210 crawler fetches
