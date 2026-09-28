@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-28T22:15:59.925Z",
+ "generated": "2026-09-28T22:26:17.586Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17537,
+ "verifiedAiHits": 17546,
  "logsScanned": 30,
  "windowStart": "2026-09-14",
  "windowEnd": "2026-09-28",
- "totalHits": 111841,
- "aiHits": 90948,
+ "totalHits": 111864,
+ "aiHits": 90959,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32278,
+   "hits": 32279,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15257,
+   "hits": 15258,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7902,
-   "verifiedHits": 7469,
+   "hits": 7911,
+   "verifiedHits": 7478,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -124,7 +124,7 @@
     },
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 48
+     "hits": 49
     },
     {
      "path": "/posts/llm-api-pricing-comparison-august-2026.html",
@@ -179,8 +179,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5101,
-   "verifiedHits": 4621,
+   "hits": 5109,
+   "verifiedHits": 4629,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -201,8 +201,8 @@
      "hits": 30
     },
     {
-     "path": "/posts/2026-08-31-founders-wire-openai-cursor-cutoff-claudeforce-a16z-machine-age.html",
-     "hits": 29
+     "path": "/posts/best-llm-for-image-generation-september-2026.html",
+     "hits": 30
     }
    ],
    "verifiable": true
@@ -245,7 +245,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4320,
+   "hits": 4323,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3700,
-   "verifiedHits": 3248,
+   "hits": 3701,
+   "verifiedHits": 3249,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -322,7 +322,7 @@
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 204
+     "hits": 205
     },
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
