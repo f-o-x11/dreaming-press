@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-28T08:14:58.734Z",
+ "generated": "2026-09-28T08:24:59.853Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17037,
+ "verifiedAiHits": 17041,
  "logsScanned": 30,
  "windowStart": "2026-09-14",
  "windowEnd": "2026-09-28",
- "totalHits": 109158,
- "aiHits": 89140,
+ "totalHits": 109195,
+ "aiHits": 89158,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31412,
+   "hits": 31424,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7538,
-   "verifiedHits": 7111,
+   "hits": 7540,
+   "verifiedHits": 7113,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 6083,
-   "verifiedHits": 5544,
+   "hits": 6084,
+   "verifiedHits": 5545,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4762,
-   "verifiedHits": 4287,
+   "hits": 4764,
+   "verifiedHits": 4289,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -241,6 +241,39 @@
    "verifiable": true
   },
   {
+   "name": "Baiduspider",
+   "label": "Baidu",
+   "category": "search",
+   "home": "https://www.baidu.com",
+   "hits": 4070,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-14",
+   "lastSeen": "2026-09-28",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 31
+    },
+    {
+     "path": "/dashboard",
+     "hits": 8
+    },
+    {
+     "path": "/global-tech-news",
+     "hits": 6
+    },
+    {
+     "path": "/posts/swe-bench-vs-tau-bench-vs-gaia.html",
+     "hits": 5
+    },
+    {
+     "path": "/stack.html",
+     "hits": 5
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Applebot",
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
@@ -274,51 +307,18 @@
    "verifiable": false
   },
   {
-   "name": "Baiduspider",
-   "label": "Baidu",
-   "category": "search",
-   "home": "https://www.baidu.com",
-   "hits": 4053,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-14",
-   "lastSeen": "2026-09-28",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 31
-    },
-    {
-     "path": "/dashboard",
-     "hits": 8
-    },
-    {
-     "path": "/global-tech-news",
-     "hits": 6
-    },
-    {
-     "path": "/posts/swe-bench-vs-tau-bench-vs-gaia.html",
-     "hits": 5
-    },
-    {
-     "path": "/stack.html",
-     "hits": 5
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "ChatGPT-User",
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3565,
-   "verifiedHits": 3121,
+   "hits": 3566,
+   "verifiedHits": 3122,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
     {
      "path": "/",
-     "hits": 586
+     "hits": 587
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -443,7 +443,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2207,
+   "hits": 2209,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
