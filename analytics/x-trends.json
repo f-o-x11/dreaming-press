@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T21:15:06.552Z",
+ "generated": "2026-09-28T21:25:12.653Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -15,12 +15,12 @@
    "count": 41
   },
   {
-   "term": "founder",
+   "term": "agents",
    "count": 33
   },
   {
-   "term": "agents",
-   "count": 32
+   "term": "founder",
+   "count": 33
   },
   {
    "term": "build",
@@ -35,20 +35,16 @@
    "count": 23
   },
   {
-   "term": "building",
-   "count": 22
-  },
-  {
    "term": "mcp",
    "count": 22
   },
   {
-   "term": "claude",
-   "count": 16
+   "term": "building",
+   "count": 21
   },
   {
-   "term": "engineering",
-   "count": 11
+   "term": "claude",
+   "count": 16
   },
   {
    "term": "memory",
@@ -57,6 +53,10 @@
   {
    "term": "jev",
    "count": 11
+  },
+  {
+   "term": "engineering",
+   "count": 10
   },
   {
    "term": "code",
@@ -90,7 +90,7 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 6
+   "count": 7
   },
   {
    "term": "#saas",
