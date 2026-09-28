@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T15:30:00.400Z",
+ "generated": "2026-09-28T15:40:31.887Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 46
+   "count": 45
   },
   {
    "term": "agentic",
@@ -16,7 +16,7 @@
   },
   {
    "term": "agents",
-   "count": 33
+   "count": 32
   },
   {
    "term": "founder",
@@ -24,7 +24,7 @@
   },
   {
    "term": "build",
-   "count": 29
+   "count": 28
   },
   {
    "term": "coding",
@@ -35,11 +35,11 @@
    "count": 23
   },
   {
-   "term": "building",
-   "count": 22
+   "term": "mcp",
+   "count": 21
   },
   {
-   "term": "mcp",
+   "term": "building",
    "count": 21
   },
   {
@@ -48,7 +48,7 @@
   },
   {
    "term": "engineering",
-   "count": 12
+   "count": 13
   },
   {
    "term": "code",
@@ -63,6 +63,10 @@
    "count": 10
   },
   {
+   "term": "llm",
+   "count": 9
+  },
+  {
    "term": "one",
    "count": 9
   },
@@ -71,19 +75,15 @@
    "count": 9
   },
   {
-   "term": "need",
-   "count": 9
-  },
-  {
    "term": "production",
    "count": 8
   },
   {
-   "term": "llm",
+   "term": "google",
    "count": 8
   },
   {
-   "term": "google",
+   "term": "loops",
    "count": 8
   }
  ],
@@ -152,7 +152,7 @@
   },
   {
    "text": "AI Engineering — Ultimate Roadmap (SAVE THIS)! ├── 01. LLM Fundamentals │ ├── Transformers &amp; Attention │ ├── Inference &amp; Decoding │ ├── Tokenization │ └── Context Window &amp; Limits │ ├── 02. Prompting &amp; Con",
-   "engagement": 426,
+   "engagement": 438,
    "url": "https://x.com/i/status/2104368041341411591",
    "created": "2026-09-28T00:30:12.000Z"
   },
