@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-28T01:49:19.191Z",
+ "generated": "2026-09-28T01:59:27.798Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 1,
   "avgTimeSec": 3,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3271,
-  "reads": 325,
+  "views": 3269,
+  "reads": 324,
   "completes": 10,
   "plays": 15,
-  "sessions": 3157
+  "sessions": 3156
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2769,
+   "views": 2768,
    "reads": 161,
-   "sessions": 2792
+   "sessions": 2791
   },
   {
    "channel": "organic",
@@ -35,8 +35,8 @@
   },
   {
    "channel": "ai",
-   "views": 32,
-   "reads": 13,
+   "views": 31,
+   "reads": 12,
    "sessions": 46
   },
   {
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2769,
+   "views": 2768,
    "reads": 161,
    "completes": 7,
-   "sessions": 2792,
+   "sessions": 2791,
    "read_rate": 0.058,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 32,
-   "reads": 13,
+   "views": 31,
+   "reads": 12,
    "completes": 0,
    "sessions": 46,
-   "read_rate": 0.406,
+   "read_rate": 0.387,
    "complete_rate": 0,
-   "pages_per_session": 0.7,
+   "pages_per_session": 0.67,
    "median_dwell_sec": 13
   },
   {
@@ -274,8 +274,8 @@
   },
   {
    "assistant": "Doubao",
-   "views": 12,
-   "reads": 9,
+   "views": 11,
+   "reads": 8,
    "sessions": 6
   },
   {
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2711,
-   "reads": 301,
+   "views": 2710,
+   "reads": 300,
    "sessions": 2610
   },
   {
    "device": "mobile",
-   "views": 560,
+   "views": 559,
    "reads": 24,
-   "sessions": 547
+   "sessions": 546
   }
  ],
  "topContent": [
@@ -703,18 +703,18 @@
    "avg_dwell_sec": 5
   },
   {
+   "path": "/compare/:pair",
+   "views": 23,
+   "reads": 2,
+   "sessions": 23,
+   "avg_dwell_sec": 108
+  },
+  {
    "path": "/dashboard",
    "views": 23,
    "reads": 1,
    "sessions": 10,
    "avg_dwell_sec": 28
-  },
-  {
-   "path": "/compare/:pair",
-   "views": 21,
-   "reads": 2,
-   "sessions": 21,
-   "avg_dwell_sec": 108
   },
   {
    "path": "/submit.html",
@@ -808,7 +808,7 @@
   },
   {
    "ref": "https://www.doubao.com/",
-   "hits": 21,
+   "hits": 19,
    "sessions": 6
   },
   {
