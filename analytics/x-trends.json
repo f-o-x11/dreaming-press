@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T10:57:10.432Z",
+ "generated": "2026-09-28T11:07:22.444Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,19 +8,19 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 44
-  },
-  {
-   "term": "agentic",
-   "count": 36
+   "count": 47
   },
   {
    "term": "agents",
-   "count": 34
+   "count": 35
+  },
+  {
+   "term": "agentic",
+   "count": 35
   },
   {
    "term": "founder",
-   "count": 34
+   "count": 33
   },
   {
    "term": "build",
@@ -32,7 +32,7 @@
   },
   {
    "term": "startup",
-   "count": 23
+   "count": 24
   },
   {
    "term": "mcp",
@@ -40,7 +40,7 @@
   },
   {
    "term": "building",
-   "count": 22
+   "count": 20
   },
   {
    "term": "claude",
@@ -48,10 +48,14 @@
   },
   {
    "term": "engineering",
-   "count": 11
+   "count": 12
   },
   {
    "term": "code",
+   "count": 11
+  },
+  {
+   "term": "memory",
    "count": 11
   },
   {
@@ -59,19 +63,19 @@
    "count": 11
   },
   {
+   "term": "first",
+   "count": 10
+  },
+  {
+   "term": "loops",
+   "count": 10
+  },
+  {
    "term": "one",
    "count": 9
   },
   {
-   "term": "workflows",
-   "count": 9
-  },
-  {
-   "term": "first",
-   "count": 9
-  },
-  {
-   "term": "memory",
+   "term": "google",
    "count": 9
   },
   {
@@ -81,31 +85,23 @@
   {
    "term": "llm",
    "count": 8
-  },
-  {
-   "term": "google",
-   "count": 8
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 7
-  },
-  {
-   "term": "#founder",
-   "count": 3
-  },
-  {
-   "term": "#startup",
-   "count": 3
+   "count": 6
   },
   {
    "term": "#saas",
    "count": 2
   },
   {
-   "term": "#buildinpublic",
+   "term": "#founder",
+   "count": 2
+  },
+  {
+   "term": "#startup",
    "count": 2
   },
   {
@@ -134,6 +130,10 @@
   },
   {
    "term": "#aijobs",
+   "count": 1
+  },
+  {
+   "term": "#aihiring",
    "count": 1
   }
  ],
@@ -169,16 +169,16 @@
    "created": "2026-09-26T09:31:03.000Z"
   },
   {
+   "text": "AI Engineering — Ultimate Roadmap (SAVE THIS)! ├── 01. LLM Fundamentals │ ├── Transformers &amp; Attention │ ├── Inference &amp; Decoding │ ├── Tokenization │ └── Context Window &amp; Limits │ ├── 02. Prompting &amp; Con",
+   "engagement": 178,
+   "url": "https://x.com/i/status/2104368041341411591",
+   "created": "2026-09-28T00:30:12.000Z"
+  },
+  {
    "text": "Jev Founder, Diogo Amogo, just released 12-page PDF on building a Jev Harness for coding agents This is a 10-step blueprint on how to make your coding agents 220x faster and 444x cheaper: step 1 → stop treating a coding ",
    "engagement": 178,
    "url": "https://x.com/i/status/2102744804127842654",
    "created": "2026-09-23T13:00:03.000Z"
-  },
-  {
-   "text": "AI Engineering — Ultimate Roadmap (SAVE THIS)! ├── 01. LLM Fundamentals │ ├── Transformers &amp; Attention │ ├── Inference &amp; Decoding │ ├── Tokenization │ └── Context Window &amp; Limits │ ├── 02. Prompting &amp; Con",
-   "engagement": 176,
-   "url": "https://x.com/i/status/2104368041341411591",
-   "created": "2026-09-28T00:30:12.000Z"
   },
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",

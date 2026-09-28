@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-28T10:57:10.487Z",
+ "generated": "2026-09-28T11:07:22.501Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 12,
+  "readersNow": 3,
+  "todayReads": 13,
   "avgTimeSec": 41,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3295,
-  "reads": 327,
+  "views": 3297,
+  "reads": 328,
   "completes": 11,
   "plays": 14,
-  "sessions": 3181
+  "sessions": 3183
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2789,
-   "reads": 163,
-   "sessions": 2813
+   "views": 2791,
+   "reads": 164,
+   "sessions": 2815
   },
   {
    "channel": "organic",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2789,
-   "reads": 163,
+   "views": 2791,
+   "reads": 164,
    "completes": 8,
-   "sessions": 2813,
-   "read_rate": 0.058,
+   "sessions": 2815,
+   "read_rate": 0.059,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
    "median_dwell_sec": 5
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2722,
-   "reads": 302,
-   "sessions": 2621
+   "views": 2723,
+   "reads": 303,
+   "sessions": 2622
   },
   {
    "device": "mobile",
-   "views": 573,
+   "views": 574,
    "reads": 25,
-   "sessions": 560
+   "sessions": 561
   }
  ],
  "topContent": [
@@ -419,6 +419,16 @@
    "plays": 0
   },
   {
+   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
+   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 13,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-21-routellm-vs-notdiamond-vs-martian",
    "title": "RouteLLM vs NotDiamond vs Martian: Do LLM Model Routers Actually Cut Costs?",
    "section": "stack",
@@ -435,16 +445,6 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 13,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
-   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
    "reads": 4,
    "plays": 0
   },
