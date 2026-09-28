@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-28T23:47:10.394Z",
+ "generated": "2026-09-28T23:57:27.996Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 5,
   "todayReads": 24,
-  "avgTimeSec": 33,
+  "avgTimeSec": 32,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3295,
+  "views": 3299,
   "reads": 329,
   "completes": 11,
   "plays": 13,
-  "sessions": 3177
+  "sessions": 3181
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2778,
+   "views": 2781,
    "reads": 161,
-   "sessions": 2797
+   "sessions": 2800
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 270,
+   "views": 271,
    "reads": 35,
-   "sessions": 269
+   "sessions": 270
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2778,
+   "views": 2781,
    "reads": 161,
    "completes": 7,
-   "sessions": 2797,
+   "sessions": 2800,
    "read_rate": 0.058,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 270,
+   "views": 271,
    "reads": 35,
    "completes": 1,
-   "sessions": 269,
-   "read_rate": 0.13,
+   "sessions": 270,
+   "read_rate": 0.129,
    "complete_rate": 0.004,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 280,
+   "views": 281,
    "reads": 36,
-   "sessions": 276
+   "sessions": 277
   },
   {
    "assistant": "Doubao",
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2727,
+   "views": 2731,
    "reads": 303,
-   "sessions": 2622
+   "sessions": 2626
   },
   {
    "device": "mobile",
@@ -683,9 +683,9 @@
   },
   {
    "path": "/",
-   "views": 124,
+   "views": 125,
    "reads": 2,
-   "sessions": 124,
+   "sessions": 125,
    "avg_dwell_sec": 15
   },
   {
@@ -735,7 +735,7 @@
    "views": 9,
    "reads": 0,
    "sessions": 9,
-   "avg_dwell_sec": 3
+   "avg_dwell_sec": null
   },
   {
    "path": "/subscribe",

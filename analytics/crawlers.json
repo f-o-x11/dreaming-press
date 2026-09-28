@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-28T23:47:09.801Z",
+ "generated": "2026-09-28T23:57:27.508Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17635,
+ "verifiedAiHits": 17647,
  "logsScanned": 30,
  "windowStart": "2026-09-14",
  "windowEnd": "2026-09-28",
- "totalHits": 112120,
- "aiHits": 91156,
+ "totalHits": 112176,
+ "aiHits": 91197,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32347,
+   "hits": 32353,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -38,6 +38,39 @@
     {
      "path": "/posts/2026-09-09-founders-wire-mistral-samsung-meta-muse-agent-commerce.html",
      "hits": 19
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "Amazonbot",
+   "label": "Amazon (Alexa / Rufus)",
+   "category": "ai",
+   "home": "https://developer.amazon.com/amazonbot",
+   "hits": 15283,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-14",
+   "lastSeen": "2026-09-28",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 98
+    },
+    {
+     "path": "/dashboard",
+     "hits": 16
+    },
+    {
+     "path": "/posts/text-generation-inference-tgi-archived-migrate-off.html",
+     "hits": 9
+    },
+    {
+     "path": "/posts/how-to-read-self-reported-llm-launch-benchmarks.html",
+     "hits": 8
+    },
+    {
+     "path": "/",
+     "hits": 8
     }
    ],
    "verifiable": false
@@ -76,45 +109,12 @@
    "verifiable": false
   },
   {
-   "name": "Amazonbot",
-   "label": "Amazon (Alexa / Rufus)",
-   "category": "ai",
-   "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15261,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-14",
-   "lastSeen": "2026-09-28",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 98
-    },
-    {
-     "path": "/dashboard",
-     "hits": 16
-    },
-    {
-     "path": "/posts/text-generation-inference-tgi-archived-migrate-off.html",
-     "hits": 9
-    },
-    {
-     "path": "/posts/how-to-read-self-reported-llm-launch-benchmarks.html",
-     "hits": 8
-    },
-    {
-     "path": "/",
-     "hits": 8
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Bingbot",
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7945,
-   "verifiedHits": 7512,
+   "hits": 7950,
+   "verifiedHits": 7517,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5178,
-   "verifiedHits": 4698,
+   "hits": 5190,
+   "verifiedHits": 4710,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2899,
+   "hits": 2907,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2621,
+   "hits": 2622,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1046,
+   "hits": 1048,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
