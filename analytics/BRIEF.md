@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-28T23:37Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-28T23:47Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -104,12 +104,12 @@ sample size dwarfs the engaged-read counts below.
 - /build  — 57 retrieval fetches
 - /wire.html  — 54 retrieval fetches
 - /tools  — 35 retrieval fetches
+- /posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html  — 30 retrieval fetches
 - /posts/best-open-source-vector-database-2026.html  — 30 retrieval fetches
-- /posts/coding-model-leaderboard-september-2026-qwen-38-max-tops-webdev.html  — 30 retrieval fetches
 
 Per engine:
 - PerplexityBot (5585 verified): /build ×57 · / ×25 · /dashboard ×18
-- OAI-SearchBot (4693 verified): /wire.html ×54 · /tools ×35 · /posts/open-source-llm-for-coding-september-2026.html ×31
+- OAI-SearchBot (4698 verified): /wire.html ×54 · /tools ×35 · /posts/open-source-llm-for-coding-september-2026.html ×31
 - ChatGPT-User (3265 verified): / ×613 · /posts/open-source-llm-for-coding-september-2026.html ×206 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×161
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -125,14 +125,14 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agent(48), agentic(39), founder(34), agents(33), build(31), coding(24), startup(24), building(22), mcp(21), claude(12), engineering(11), memory(11), jev(11), first(10), google(9).
+Hot terms: agent(46), agentic(39), agents(33), founder(33), build(32), startup(24), coding(23), building(22), mcp(22), claude(13), engineering(11), memory(11), jev(11), first(10), years(9).
 Hashtags: #ai, #saas, #founder, #startup, #luxembourg, #agenticai, #web3, #cookmymeme, #mcp, #prembly.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2103900910292472051
+- "Being able to demonstrate that you can build production-ready AI agents is super useful these days. In this 8-hour course, Andrew helps you prepare for the Claude Certified Developer Foundations cert. You'll learn about " — https://x.com/i/status/2103213282618167787
 - "🚀 Zero → AI Engineer Roadmap (2026) Assumes basic ML/DL. Goal: Learn to build and ship production LLM + agent systems. 1. LLM Internals Resources: • Karpathy — Neural Networks: Zero to Hero • Jay Alammar — The Illustrat" — https://x.com/i/status/2103383326543495485
 - "🚨 You’re probably using Claude at 10% of its actual potential. Most people stop at: “Claude, write this.” But Claude mastery looks like this: 🧠 Foundation → Prompting + Context + Examples ⚙️ Workflow → Projects + Promp" — https://x.com/i/status/2104060782069862722
 - "🚨You don’t need better prompts. You need to give Claude tools. A real Claude agent needs more than a good prompt: 🎯 1. Define ONE job Start with a focused outcome — research, sales, content, support, etc. 🧠 2. Give it" — https://x.com/i/status/2103779372473647530
-- "Jev Founder, Diogo Amogo, just released 12-page PDF on building a Jev Harness for coding agents This is a 10-step blueprint on how to make your coding agents 220x faster and 444x cheaper: step 1 → stop treating a coding " — https://x.com/i/status/2102744804127842654
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (249 of 449 phrases have NO post, 84h ago)
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17630 confirmed AI-engine fetches (Perplexity 5585, ChatGPT Search (OpenAI) 4693, GPTBot (OpenAI) 4087, ChatGPT (user browsing) 3265).
+The real answer engines are crawling us — IP-verified: 17635 confirmed AI-engine fetches (Perplexity 5585, ChatGPT Search (OpenAI) 4698, GPTBot (OpenAI) 4087, ChatGPT (user browsing) 3265).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 586 crawler fetches
 - /build  — 547 crawler fetches
