@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T14:19:00.823Z",
+ "generated": "2026-09-28T14:29:01.116Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 44
+   "count": 47
   },
   {
    "term": "agentic",
@@ -24,7 +24,7 @@
   },
   {
    "term": "build",
-   "count": 29
+   "count": 30
   },
   {
    "term": "coding",
@@ -44,10 +44,14 @@
   },
   {
    "term": "claude",
-   "count": 18
+   "count": 16
   },
   {
    "term": "engineering",
+   "count": 13
+  },
+  {
+   "term": "memory",
    "count": 12
   },
   {
@@ -55,19 +59,23 @@
    "count": 11
   },
   {
+   "term": "loops",
+   "count": 11
+  },
+  {
    "term": "jev",
    "count": 11
   },
   {
-   "term": "memory",
+   "term": "one",
    "count": 10
   },
   {
-   "term": "one",
-   "count": 9
+   "term": "first",
+   "count": 10
   },
   {
-   "term": "first",
+   "term": "google",
    "count": 9
   },
   {
@@ -76,14 +84,6 @@
   },
   {
    "term": "production",
-   "count": 8
-  },
-  {
-   "term": "llm",
-   "count": 8
-  },
-  {
-   "term": "workflows",
    "count": 8
   }
  ],
@@ -145,12 +145,6 @@
    "created": "2026-09-26T17:34:00.000Z"
   },
   {
-   "text": "Being able to demonstrate that you can build production-ready AI agents is super useful these days. In this 8-hour course, Andrew helps you prepare for the Claude Certified Developer Foundations cert. You'll learn about ",
-   "engagement": 978,
-   "url": "https://x.com/i/status/2103213282618167787",
-   "created": "2026-09-24T20:01:37.000Z"
-  },
-  {
    "text": "🚀 Zero → AI Engineer Roadmap (2026) Assumes basic ML/DL. Goal: Learn to build and ship production LLM + agent systems. 1. LLM Internals Resources: • Karpathy — Neural Networks: Zero to Hero • Jay Alammar — The Illustrat",
    "engagement": 556,
    "url": "https://x.com/i/status/2103383326543495485",
@@ -163,16 +157,16 @@
    "created": "2026-09-27T04:09:16.000Z"
   },
   {
+   "text": "AI Engineering — Ultimate Roadmap (SAVE THIS)! ├── 01. LLM Fundamentals │ ├── Transformers &amp; Attention │ ├── Inference &amp; Decoding │ ├── Tokenization │ └── Context Window &amp; Limits │ ├── 02. Prompting &amp; Con",
+   "engagement": 334,
+   "url": "https://x.com/i/status/2104368041341411591",
+   "created": "2026-09-28T00:30:12.000Z"
+  },
+  {
    "text": "🚨You don’t need better prompts. You need to give Claude tools. A real Claude agent needs more than a good prompt: 🎯 1. Define ONE job Start with a focused outcome — research, sales, content, support, etc. 🧠 2. Give it",
    "engagement": 318,
    "url": "https://x.com/i/status/2103779372473647530",
    "created": "2026-09-26T09:31:03.000Z"
-  },
-  {
-   "text": "AI Engineering — Ultimate Roadmap (SAVE THIS)! ├── 01. LLM Fundamentals │ ├── Transformers &amp; Attention │ ├── Inference &amp; Decoding │ ├── Tokenization │ └── Context Window &amp; Limits │ ├── 02. Prompting &amp; Con",
-   "engagement": 318,
-   "url": "https://x.com/i/status/2104368041341411591",
-   "created": "2026-09-28T00:30:12.000Z"
   },
   {
    "text": "Jev Founder, Diogo Amogo, just released 12-page PDF on building a Jev Harness for coding agents This is a 10-step blueprint on how to make your coding agents 220x faster and 444x cheaper: step 1 → stop treating a coding ",
@@ -185,6 +179,12 @@
    "engagement": 113,
    "url": "https://x.com/i/status/2104425082189975625",
    "created": "2026-09-28T04:16:52.000Z"
+  },
+  {
+   "text": "Gm ArcKit community Big updates coming today for ArcKit. We're releasing our sixth and biggest product yet: Arc MCP and Arc Agentic Payments. Using the MCP, you can connect your AI like ChatGPT or Claude to Arc Chain and",
+   "engagement": 71,
+   "url": "https://x.com/i/status/2102588261105586553",
+   "created": "2026-09-23T02:38:00.000Z"
   }
  ]
 }

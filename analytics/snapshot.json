@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-28T14:19:00.888Z",
+ "generated": "2026-09-28T14:29:01.174Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 18,
   "avgTimeSec": 46,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3292,
+  "views": 3289,
   "reads": 328,
   "completes": 11,
   "plays": 13,
-  "sessions": 3177
+  "sessions": 3174
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2782,
+   "views": 2779,
    "reads": 162,
-   "sessions": 2807
+   "sessions": 2804
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2782,
+   "views": 2779,
    "reads": 162,
    "completes": 7,
-   "sessions": 2807,
+   "sessions": 2804,
    "read_rate": 0.058,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2721,
+   "views": 2719,
    "reads": 302,
-   "sessions": 2619
+   "sessions": 2617
   },
   {
    "device": "mobile",
-   "views": 571,
+   "views": 570,
    "reads": 26,
-   "sessions": 558
+   "sessions": 557
   }
  ],
  "topContent": [
@@ -643,16 +643,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
-   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 23,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
    "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
    "section": "wire",
@@ -660,6 +650,16 @@
    "author": "dex",
    "views": 22,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
+   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 0,
    "plays": 0
   },
   {
@@ -759,13 +759,6 @@
    "avg_dwell_sec": 2
   },
   {
-   "path": "/weekly",
-   "views": 6,
-   "reads": 0,
-   "sessions": 6,
-   "avg_dwell_sec": 4
-  },
-  {
    "path": "/agents.html",
    "views": 5,
    "reads": 1,
@@ -778,6 +771,13 @@
    "reads": 0,
    "sessions": 5,
    "avg_dwell_sec": 8
+  },
+  {
+   "path": "/authors/dex",
+   "views": 5,
+   "reads": 0,
+   "sessions": 5,
+   "avg_dwell_sec": null
   }
  ],
  "referrers": [
