@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-28T05:32:10.317Z",
+ "generated": "2026-09-28T05:42:50.270Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 8,
+  "readersNow": 9,
   "todayReads": 4,
   "avgTimeSec": 32,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3272,
-  "reads": 326,
+  "views": 3274,
+  "reads": 325,
   "completes": 11,
   "plays": 15,
-  "sessions": 3158
+  "sessions": 3159
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2773,
-   "reads": 162,
-   "sessions": 2794
+   "views": 2775,
+   "reads": 161,
+   "sessions": 2795
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2773,
-   "reads": 162,
+   "views": 2775,
+   "reads": 161,
    "completes": 8,
-   "sessions": 2794,
+   "sessions": 2795,
    "read_rate": 0.058,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2708,
-   "reads": 302,
-   "sessions": 2607
+   "views": 2710,
+   "reads": 301,
+   "sessions": 2608
   },
   {
    "device": "mobile",
@@ -334,7 +334,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 70,
+   "views": 71,
    "reads": 14,
    "plays": 1
   },
@@ -389,22 +389,22 @@
    "plays": 0
   },
   {
-   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
-   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 7,
-   "reads": 7,
-   "plays": 0
-  },
-  {
    "slug": "vllm-v0-24-model-runner-v2-rust-frontend",
    "title": "vLLM v0.24 Makes Model Runner V2 the Default. The Win Isn't a Faster Kernel — It's Never Waiting on the CPU.",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 12,
+   "reads": 6,
+   "plays": 0
+  },
+  {
+   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
+   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
    "reads": 6,
    "plays": 0
   },
@@ -476,7 +476,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 70,
+   "views": 71,
    "reads": 14,
    "plays": 1
   },
@@ -578,7 +578,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 70,
+   "views": 71,
    "reads": 14,
    "plays": 1
   },
@@ -676,9 +676,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 398,
+   "views": 399,
    "reads": 0,
-   "sessions": 398,
+   "sessions": 399,
    "avg_dwell_sec": 4
   },
   {
@@ -699,8 +699,8 @@
    "path": "/build",
    "views": 36,
    "reads": 0,
-   "sessions": 37,
-   "avg_dwell_sec": 5
+   "sessions": 36,
+   "avg_dwell_sec": 3
   },
   {
    "path": "/compare/:pair",
