@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-28T00:18Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-28T00:28Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -99,7 +99,7 @@ sample size dwarfs the engaged-read counts below.
 - /  — 597 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 223 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 151 retrieval fetches
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 103 retrieval fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 104 retrieval fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 68 retrieval fetches
 - /build  — 57 retrieval fetches
 - /wire.html  — 50 retrieval fetches
@@ -108,9 +108,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/coding-model-leaderboard-september-2026-qwen-38-max-tops-webdev.html  — 27 retrieval fetches
 
 Per engine:
-- PerplexityBot (5531 verified): /build ×57 · / ×24 · /global-tech-news ×17
-- OAI-SearchBot (4165 verified): /wire.html ×50 · /tools ×31 · /posts/open-source-llm-for-coding-september-2026.html ×28
-- ChatGPT-User (3039 verified): / ×573 · /posts/open-source-llm-for-coding-september-2026.html ×195 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×151
+- PerplexityBot (5533 verified): /build ×57 · / ×24 · /global-tech-news ×17
+- OAI-SearchBot (4169 verified): /wire.html ×50 · /tools ×31 · /posts/open-source-llm-for-coding-september-2026.html ×28
+- ChatGPT-User (3040 verified): / ×573 · /posts/open-source-llm-for-coding-september-2026.html ×195 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×151
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -158,10 +158,10 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16818 confirmed AI-engine fetches (Perplexity 5531, ChatGPT Search (OpenAI) 4165, GPTBot (OpenAI) 4083, ChatGPT (user browsing) 3039).
+The real answer engines are crawling us — IP-verified: 16825 confirmed AI-engine fetches (Perplexity 5533, ChatGPT Search (OpenAI) 4169, GPTBot (OpenAI) 4083, ChatGPT (user browsing) 3040).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 533 crawler fetches
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 525 crawler fetches
+- /build  — 534 crawler fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 527 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 230 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 199 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 196 crawler fetches
