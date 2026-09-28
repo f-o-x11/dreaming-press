@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-28T05:21:59.651Z",
+ "generated": "2026-09-28T05:32:09.744Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16961,
+ "verifiedAiHits": 16964,
  "logsScanned": 30,
  "windowStart": "2026-09-14",
  "windowEnd": "2026-09-28",
- "totalHits": 108447,
- "aiHits": 88583,
+ "totalHits": 108488,
+ "aiHits": 88612,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31142,
+   "hits": 31152,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15174,
+   "hits": 15181,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7470,
-   "verifiedHits": 7043,
+   "hits": 7472,
+   "verifiedHits": 7045,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -179,14 +179,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4725,
-   "verifiedHits": 4250,
+   "hits": 4727,
+   "verifiedHits": 4252,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
     {
      "path": "/wire.html",
-     "hits": 50
+     "hits": 51
     },
     {
      "path": "/tools",
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4050,
+   "hits": 4051,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4021,
+   "hits": 4022,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3530,
-   "verifiedHits": 3086,
+   "hits": 3531,
+   "verifiedHits": 3087,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2731,
+   "hits": 2739,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2562,
+   "hits": 2566,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2475,
+   "hits": 2478,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -443,14 +443,14 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2190,
+   "hits": 2192,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 24
+     "hits": 25
     },
     {
      "path": "/posts/glm-5-2-vs-minimax-m3-vs-kimi-k2-open-weight-coder-routing.html",
