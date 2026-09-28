@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T21:35:20.268Z",
+ "generated": "2026-09-28T21:45:42.221Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,23 +8,23 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 49
+   "count": 48
   },
   {
    "term": "agentic",
-   "count": 40
-  },
-  {
-   "term": "agents",
-   "count": 35
+   "count": 41
   },
   {
    "term": "founder",
    "count": 33
   },
   {
-   "term": "build",
+   "term": "agents",
    "count": 32
+  },
+  {
+   "term": "build",
+   "count": 31
   },
   {
    "term": "coding",
@@ -36,7 +36,7 @@
   },
   {
    "term": "building",
-   "count": 21
+   "count": 22
   },
   {
    "term": "mcp",
@@ -47,12 +47,12 @@
    "count": 16
   },
   {
-   "term": "jev",
+   "term": "engineering",
    "count": 11
   },
   {
-   "term": "engineering",
-   "count": 10
+   "term": "jev",
+   "count": 11
   },
   {
    "term": "code",
@@ -176,7 +176,7 @@
   },
   {
    "text": "AI is getting smarter. But smarter agents alone won’t build the agentic economy. They need somewhere to verify identity, prove permissions, move money and settle transactions without turning every interaction into a manu",
-   "engagement": 141,
+   "engagement": 145,
    "url": "https://x.com/i/status/2104645989801791697",
    "created": "2026-09-28T18:54:41.000Z"
   },
