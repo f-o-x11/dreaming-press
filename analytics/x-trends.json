@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T17:41:38.852Z",
+ "generated": "2026-09-28T17:51:57.604Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 48
+   "count": 51
   },
   {
    "term": "agentic",
@@ -16,11 +16,11 @@
   },
   {
    "term": "build",
-   "count": 32
+   "count": 33
   },
   {
    "term": "agents",
-   "count": 32
+   "count": 33
   },
   {
    "term": "founder",
@@ -40,7 +40,7 @@
   },
   {
    "term": "mcp",
-   "count": 21
+   "count": 22
   },
   {
    "term": "claude",
@@ -52,6 +52,14 @@
   },
   {
    "term": "memory",
+   "count": 13
+  },
+  {
+   "term": "first",
+   "count": 11
+  },
+  {
+   "term": "loops",
    "count": 11
   },
   {
@@ -63,16 +71,8 @@
    "count": 10
   },
   {
-   "term": "first",
-   "count": 10
-  },
-  {
    "term": "google",
-   "count": 9
-  },
-  {
-   "term": "loops",
-   "count": 9
+   "count": 10
   },
   {
    "term": "years",
@@ -83,7 +83,7 @@
    "count": 8
   },
   {
-   "term": "llm",
+   "term": "one",
    "count": 8
   }
  ],
@@ -145,12 +145,6 @@
    "created": "2026-09-26T17:34:00.000Z"
   },
   {
-   "text": "AI Engineering — Ultimate Roadmap (SAVE THIS)! ├── 01. LLM Fundamentals │ ├── Transformers &amp; Attention │ ├── Inference &amp; Decoding │ ├── Tokenization │ └── Context Window &amp; Limits │ ├── 02. Prompting &amp; Con",
-   "engagement": 618,
-   "url": "https://x.com/i/status/2104368041341411591",
-   "created": "2026-09-28T00:30:12.000Z"
-  },
-  {
    "text": "🚀 Zero → AI Engineer Roadmap (2026) Assumes basic ML/DL. Goal: Learn to build and ship production LLM + agent systems. 1. LLM Internals Resources: • Karpathy — Neural Networks: Zero to Hero • Jay Alammar — The Illustrat",
    "engagement": 558,
    "url": "https://x.com/i/status/2103383326543495485",
@@ -185,6 +179,12 @@
    "engagement": 71,
    "url": "https://x.com/i/status/2102588261105586553",
    "created": "2026-09-23T02:38:00.000Z"
+  },
+  {
+   "text": "30 reasons your AI startup looks vibe-coded - AI-generated landing page copy - Generic “revolutionize” messaging - 3 feature cards in a row - Fake testimonials - No real product demo - “Built for the future” - Purple + b",
+   "engagement": 62,
+   "url": "https://x.com/i/status/2103341222530273774",
+   "created": "2026-09-25T04:30:00.000Z"
   }
  ]
 }
