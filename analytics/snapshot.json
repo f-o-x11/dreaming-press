@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-28T08:25:00.420Z",
+ "generated": "2026-09-28T08:35:26.717Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 6,
   "todayReads": 7,
-  "avgTimeSec": 19,
+  "avgTimeSec": 17,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3283,
-  "reads": 327,
+  "views": 3282,
+  "reads": 324,
   "completes": 11,
   "plays": 15,
-  "sessions": 3168
+  "sessions": 3169
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2780,
-   "reads": 162,
-   "sessions": 2800
+   "views": 2781,
+   "reads": 161,
+   "sessions": 2801
   },
   {
    "channel": "organic",
-   "views": 149,
-   "reads": 104,
-   "sessions": 112
+   "views": 148,
+   "reads": 103,
+   "sessions": 111
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -41,8 +41,8 @@
   },
   {
    "channel": "referral",
-   "views": 51,
-   "reads": 10,
+   "views": 50,
+   "reads": 9,
    "sessions": 51
   },
   {
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2780,
-   "reads": 162,
+   "views": 2781,
+   "reads": 161,
    "completes": 8,
-   "sessions": 2800,
+   "sessions": 2801,
    "read_rate": 0.058,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -101,24 +101,24 @@
   },
   {
    "channel": "organic",
-   "views": 149,
-   "reads": 104,
+   "views": 148,
+   "reads": 103,
    "completes": 2,
-   "sessions": 112,
-   "read_rate": 0.698,
-   "complete_rate": 0.013,
+   "sessions": 111,
+   "read_rate": 0.696,
+   "complete_rate": 0.014,
    "pages_per_session": 1.33,
    "median_dwell_sec": null
   },
   {
    "channel": "referral",
-   "views": 51,
-   "reads": 10,
+   "views": 50,
+   "reads": 9,
    "completes": 0,
    "sessions": 51,
-   "read_rate": 0.196,
+   "read_rate": 0.18,
    "complete_rate": 0,
-   "pages_per_session": 1,
+   "pages_per_session": 0.98,
    "median_dwell_sec": null
   },
   {
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2714,
-   "reads": 303,
-   "sessions": 2612
+   "views": 2711,
+   "reads": 300,
+   "sessions": 2611
   },
   {
    "device": "mobile",
-   "views": 569,
+   "views": 571,
    "reads": 24,
-   "sessions": 556
+   "sessions": 558
   }
  ],
  "topContent": [
@@ -491,16 +491,6 @@
    "plays": 1
   },
   {
-   "slug": "arm-metis-open-source-ai-security-code-review",
-   "title": "Arm Open-Sourced Its Internal Security Reviewer. Here's Whether You Should Run It.",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 7,
-   "reads": 3,
-   "plays": 1
-  },
-  {
    "slug": "pi-minimal-coding-agent-harness",
    "title": "Pi's System Prompt Is Under 1,000 Tokens: The Case Against Heavy Coding-Agent Harnesses",
    "section": "wire",
@@ -567,6 +557,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 5,
+   "reads": 1,
+   "plays": 1
+  },
+  {
+   "slug": "2026-06-22-gpu-for-llm-inference-h100-vs-h200-vs-a100-vs-l40s",
+   "title": "GPU for LLM Inference: H100 vs H200 vs A100 vs L40S",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 2,
    "reads": 1,
    "plays": 1
   }
@@ -676,9 +676,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 399,
+   "views": 398,
    "reads": 0,
-   "sessions": 399,
+   "sessions": 398,
    "avg_dwell_sec": 4
   },
   {
@@ -759,13 +759,6 @@
    "avg_dwell_sec": 40
   },
   {
-   "path": "/authors/dex",
-   "views": 6,
-   "reads": 0,
-   "sessions": 6,
-   "avg_dwell_sec": null
-  },
-  {
    "path": "/topics/:topic",
    "views": 6,
    "reads": 0,
@@ -778,6 +771,13 @@
    "reads": 0,
    "sessions": 6,
    "avg_dwell_sec": 4
+  },
+  {
+   "path": "/apps",
+   "views": 5,
+   "reads": 0,
+   "sessions": 5,
+   "avg_dwell_sec": 8
   }
  ],
  "referrers": [
@@ -788,8 +788,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 61,
-   "sessions": 36
+   "hits": 59,
+   "sessions": 35
   },
   {
    "ref": "https://chatgpt.com/",
@@ -822,14 +822,14 @@
    "sessions": 10
   },
   {
-   "ref": "https://teams.public.onecdn.static.microsoft/",
-   "hits": 9,
-   "sessions": 4
-  },
-  {
    "ref": "dash-range",
    "hits": 9,
    "sessions": 2
+  },
+  {
+   "ref": "brand",
+   "hits": 9,
+   "sessions": 7
   }
  ]
 }
