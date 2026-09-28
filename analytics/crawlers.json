@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-28T09:25:59.734Z",
+ "generated": "2026-09-28T09:36:02.542Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17060,
+ "verifiedAiHits": 17063,
  "logsScanned": 30,
  "windowStart": "2026-09-14",
  "windowEnd": "2026-09-28",
- "totalHits": 109424,
- "aiHits": 89289,
+ "totalHits": 109462,
+ "aiHits": 89316,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31517,
+   "hits": 31540,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15045,
+   "hits": 15046,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7573,
-   "verifiedHits": 7146,
+   "hits": 7574,
+   "verifiedHits": 7147,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4091,
+   "hits": 4093,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3572,
-   "verifiedHits": 3128,
+   "hits": 3575,
+   "verifiedHits": 3131,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
     {
      "path": "/",
-     "hits": 588
+     "hits": 589
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -344,7 +344,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2796,
+   "hits": 2804,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
