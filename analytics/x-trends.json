@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T13:38:25.530Z",
+ "generated": "2026-09-28T13:48:30.969Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,15 +8,15 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 46
+   "count": 43
   },
   {
    "term": "agentic",
-   "count": 36
+   "count": 37
   },
   {
    "term": "agents",
-   "count": 33
+   "count": 32
   },
   {
    "term": "founder",
@@ -48,11 +48,7 @@
   },
   {
    "term": "engineering",
-   "count": 14
-  },
-  {
-   "term": "memory",
-   "count": 12
+   "count": 13
   },
   {
    "term": "code",
@@ -63,11 +59,7 @@
    "count": 11
   },
   {
-   "term": "first",
-   "count": 10
-  },
-  {
-   "term": "loops",
+   "term": "memory",
    "count": 10
   },
   {
@@ -75,7 +67,11 @@
    "count": 9
   },
   {
-   "term": "google",
+   "term": "first",
+   "count": 9
+  },
+  {
+   "term": "need",
    "count": 9
   },
   {
@@ -84,6 +80,10 @@
   },
   {
    "term": "llm",
+   "count": 8
+  },
+  {
+   "term": "workflows",
    "count": 8
   }
  ],
@@ -176,7 +176,7 @@
   },
   {
    "text": "AI Engineering — Ultimate Roadmap (SAVE THIS)! ├── 01. LLM Fundamentals │ ├── Transformers &amp; Attention │ ├── Inference &amp; Decoding │ ├── Tokenization │ └── Context Window &amp; Limits │ ├── 02. Prompting &amp; Con",
-   "engagement": 284,
+   "engagement": 294,
    "url": "https://x.com/i/status/2104368041341411591",
    "created": "2026-09-28T00:30:12.000Z"
   },
