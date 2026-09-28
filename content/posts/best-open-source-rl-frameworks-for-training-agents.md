@@ -18,7 +18,9 @@ art:
   motif: "a policy circling a single reward point, each training lap a tighter concentric ring pulling the orbit inward"
 ---
 
-**The best open-source frameworks for training AI agents with reinforcement learning in 2026 are verl, Hugging Face trl, OpenPipe ART, OpenRLHF, Prime Intellect's verifiers, SkyRL, and prime-rl — seven that are real, actively maintained, and self-hostable on your own GPUs.** But "which is best" is the wrong question: the right pick is decided by which side of the problem you're on. If you already have a working agent and want RL without a rewrite, start with **ART**. If you need maximum-scale trainer infrastructure, use **verl**. If the real work is your environment and reward, build on **verifiers**. That split — the *trainer* versus the *environment and reward* — is the whole decision, not whose benchmark is fastest, and the mistake most roundups make is treating these seven as interchangeable when they aren't.
+**Pick your open-source RL framework by which half of the problem you're on — not by whose benchmark is fastest.** Have a working agent and want reinforcement learning without a rewrite → **OpenPipe ART**. Need maximum-scale trainer infrastructure → **verl**. Building the environment and reward that actually decide whether training works → **Prime Intellect's verifiers**. That's the answer; the rest of this guide is why.
+
+The seven frameworks worth your time in 2026 are all real, actively maintained, and self-hostable on your own GPUs: **verl, Hugging Face trl, OpenPipe ART, OpenRLHF, verifiers, SkyRL, and prime-rl**. But "which is best" is the wrong question, because the RL *algorithm* is commoditized — every one of these ships GRPO, and the deltas between PPO variants are small. The pick is decided by one split most roundups miss: does the framework help you build the *environment and reward* (where the real work now lives), or does it just run the *trainer*?
 
 Here's the whole decision in one screen:
 
