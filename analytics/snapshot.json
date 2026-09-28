@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-28T17:51:57.657Z",
+ "generated": "2026-09-28T18:02:00.372Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 20,
+  "readersNow": 4,
+  "todayReads": 21,
   "avgTimeSec": 38,
   "postsThisWeek": 12
  },
  "funnel": {
   "views": 3293,
-  "reads": 328,
+  "reads": 329,
   "completes": 11,
   "plays": 13,
-  "sessions": 3177
+  "sessions": 3176
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2779,
-   "reads": 162,
-   "sessions": 2801
+   "views": 2780,
+   "reads": 163,
+   "sessions": 2800
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 52,
+   "views": 51,
    "reads": 9,
-   "sessions": 52
+   "sessions": 51
   },
   {
    "channel": "campaign:qwant",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2779,
-   "reads": 162,
+   "views": 2780,
+   "reads": 163,
    "completes": 7,
-   "sessions": 2801,
-   "read_rate": 0.058,
+   "sessions": 2800,
+   "read_rate": 0.059,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
    "median_dwell_sec": 5
@@ -112,11 +112,11 @@
   },
   {
    "channel": "referral",
-   "views": 52,
+   "views": 51,
    "reads": 9,
    "completes": 0,
-   "sessions": 52,
-   "read_rate": 0.173,
+   "sessions": 51,
+   "read_rate": 0.176,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2727,
-   "reads": 302,
+   "views": 2728,
+   "reads": 303,
    "sessions": 2624
   },
   {
    "device": "mobile",
-   "views": 566,
+   "views": 565,
    "reads": 26,
-   "sessions": 553
+   "sessions": 552
   }
  ],
  "topContent": [
@@ -506,7 +506,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 7,
+   "views": 6,
    "reads": 2,
    "plays": 1
   },
@@ -679,7 +679,7 @@
    "views": 399,
    "reads": 0,
    "sessions": 399,
-   "avg_dwell_sec": 4
+   "avg_dwell_sec": 5
   },
   {
    "path": "/",
