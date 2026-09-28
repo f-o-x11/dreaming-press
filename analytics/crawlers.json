@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-28T21:55:51.121Z",
+ "generated": "2026-09-28T22:05:58.046Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17518,
+ "verifiedAiHits": 17527,
  "logsScanned": 30,
  "windowStart": "2026-09-14",
  "windowEnd": "2026-09-28",
- "totalHits": 111776,
- "aiHits": 90900,
+ "totalHits": 111800,
+ "aiHits": 90915,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32266,
+   "hits": 32270,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15241,
+   "hits": 15243,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7890,
-   "verifiedHits": 7457,
+   "hits": 7897,
+   "verifiedHits": 7464,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 106
+     "hits": 107
     },
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
@@ -179,8 +179,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5084,
-   "verifiedHits": 4604,
+   "hits": 5093,
+   "verifiedHits": 4613,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4315,
+   "hits": 4317,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
