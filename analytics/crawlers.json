@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-28T13:08:03.266Z",
+ "generated": "2026-09-28T13:18:03.784Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17159,
+ "verifiedAiHits": 17161,
  "logsScanned": 30,
  "windowStart": "2026-09-14",
  "windowEnd": "2026-09-28",
- "totalHits": 110191,
- "aiHits": 89807,
+ "totalHits": 110217,
+ "aiHits": 89829,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31789,
+   "hits": 31806,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15140,
+   "hits": 15143,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -98,12 +98,12 @@
      "hits": 9
     },
     {
-     "path": "/",
+     "path": "/posts/how-to-read-self-reported-llm-launch-benchmarks.html",
      "hits": 8
     },
     {
-     "path": "/posts/how-to-read-self-reported-llm-launch-benchmarks.html",
-     "hits": 7
+     "path": "/",
+     "hits": 8
     }
    ],
    "verifiable": false
@@ -179,8 +179,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4832,
-   "verifiedHits": 4357,
+   "hits": 4834,
+   "verifiedHits": 4359,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4204,
+   "hits": 4205,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -278,7 +278,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4074,
+   "hits": 4077,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
