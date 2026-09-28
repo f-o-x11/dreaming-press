@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-28T04:11:14.241Z",
+ "generated": "2026-09-28T04:21:20.900Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,15 +8,15 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 44
+   "count": 46
   },
   {
    "term": "agents",
-   "count": 34
+   "count": 35
   },
   {
    "term": "agentic",
-   "count": 34
+   "count": 35
   },
   {
    "term": "founder",
@@ -24,7 +24,7 @@
   },
   {
    "term": "build",
-   "count": 29
+   "count": 32
   },
   {
    "term": "coding",
@@ -35,12 +35,12 @@
    "count": 24
   },
   {
-   "term": "building",
+   "term": "mcp",
    "count": 22
   },
   {
-   "term": "mcp",
-   "count": 21
+   "term": "building",
+   "count": 22
   },
   {
    "term": "claude",
@@ -48,10 +48,14 @@
   },
   {
    "term": "engineering",
-   "count": 11
+   "count": 12
   },
   {
    "term": "code",
+   "count": 11
+  },
+  {
+   "term": "memory",
    "count": 11
   },
   {
@@ -59,7 +63,11 @@
    "count": 11
   },
   {
-   "term": "memory",
+   "term": "first",
+   "count": 10
+  },
+  {
+   "term": "loops",
    "count": 10
   },
   {
@@ -67,15 +75,7 @@
    "count": 9
   },
   {
-   "term": "workflows",
-   "count": 9
-  },
-  {
-   "term": "first",
-   "count": 9
-  },
-  {
-   "term": "loops",
+   "term": "google",
    "count": 9
   },
   {
@@ -83,7 +83,7 @@
    "count": 8
   },
   {
-   "term": "google",
+   "term": "workflows",
    "count": 8
   }
  ],
@@ -140,13 +140,13 @@
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 1741,
+   "engagement": 1742,
    "url": "https://x.com/i/status/2103900910292472051",
    "created": "2026-09-26T17:34:00.000Z"
   },
   {
    "text": "Being able to demonstrate that you can build production-ready AI agents is super useful these days. In this 8-hour course, Andrew helps you prepare for the Claude Certified Developer Foundations cert. You'll learn about ",
-   "engagement": 976,
+   "engagement": 977,
    "url": "https://x.com/i/status/2103213282618167787",
    "created": "2026-09-24T20:01:37.000Z"
   },
@@ -158,7 +158,7 @@
   },
   {
    "text": "🚨 You’re probably using Claude at 10% of its actual potential. Most people stop at: “Claude, write this.” But Claude mastery looks like this: 🧠 Foundation → Prompting + Context + Examples ⚙️ Workflow → Projects + Promp",
-   "engagement": 375,
+   "engagement": 376,
    "url": "https://x.com/i/status/2104060782069862722",
    "created": "2026-09-27T04:09:16.000Z"
   },
@@ -175,16 +175,16 @@
    "created": "2026-09-23T13:00:03.000Z"
   },
   {
-   "text": "Put these 8 agentic SEO workflows into practice with Semrush MCP: • Identify content decay • Turn a Site Audit into a technical SEO sprint • Investigate competitor traffic spikes • Turn search opportunities into content ",
-   "engagement": 94,
-   "url": "https://x.com/i/status/2102358751290236980",
-   "created": "2026-09-22T11:26:00.000Z"
-  },
-  {
    "text": "Gm ArcKit community Big updates coming today for ArcKit. We're releasing our sixth and biggest product yet: Arc MCP and Arc Agentic Payments. Using the MCP, you can connect your AI like ChatGPT or Claude to Arc Chain and",
    "engagement": 71,
    "url": "https://x.com/i/status/2102588261105586553",
    "created": "2026-09-23T02:38:00.000Z"
+  },
+  {
+   "text": "30 reasons your AI startup looks vibe-coded - AI-generated landing page copy - Generic “revolutionize” messaging - 3 feature cards in a row - Fake testimonials - No real product demo - “Built for the future” - Purple + b",
+   "engagement": 62,
+   "url": "https://x.com/i/status/2103341222530273774",
+   "created": "2026-09-25T04:30:00.000Z"
   }
  ]
 }
