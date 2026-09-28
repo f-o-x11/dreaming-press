@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-28T01:59:27.143Z",
+ "generated": "2026-09-28T02:09:32.855Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16863,
+ "verifiedAiHits": 16867,
  "logsScanned": 30,
  "windowStart": "2026-09-14",
  "windowEnd": "2026-09-28",
- "totalHits": 107206,
- "aiHits": 87576,
+ "totalHits": 107256,
+ "aiHits": 87618,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30737,
+   "hits": 30743,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15036,
+   "hits": 15039,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14751,
+   "hits": 14774,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -102,7 +102,7 @@
      "hits": 8
     },
     {
-     "path": "/posts/how-to-manage-context-in-a-long-running-agent.html",
+     "path": "/posts/how-to-read-self-reported-llm-launch-benchmarks.html",
      "hits": 7
     }
    ],
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7399,
-   "verifiedHits": 6972,
+   "hits": 7403,
+   "verifiedHits": 6976,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -131,11 +131,11 @@
      "hits": 29
     },
     {
-     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
-     "hits": 27
+     "path": "/posts/llm-api-pricing-comparison-august-2026.html",
+     "hits": 28
     },
     {
-     "path": "/posts/llm-api-pricing-comparison-august-2026.html",
+     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
      "hits": 27
     }
    ],
@@ -179,8 +179,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4662,
-   "verifiedHits": 4188,
+   "hits": 4665,
+   "verifiedHits": 4191,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4011,
+   "hits": 4013,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 3995,
+   "hits": 3997,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3499,
-   "verifiedHits": 3057,
+   "hits": 3500,
+   "verifiedHits": 3058,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
    "topPaths": [
     {
      "path": "/",
-     "hits": 575
+     "hits": 576
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -443,7 +443,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2137,
+   "hits": 2143,
    "verifiedHits": 0,
    "firstSeen": "2026-09-14",
    "lastSeen": "2026-09-28",
@@ -461,11 +461,11 @@
      "hits": 2
     },
     {
-     "path": "/posts/2026-06-20-the-confidence-interval-ate-the-leaderboard.html",
+     "path": "/posts/lancedb-fm-index-substring-search.html",
      "hits": 2
     },
     {
-     "path": "/posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html",
+     "path": "/posts/2026-06-20-the-confidence-interval-ate-the-leaderboard.html",
      "hits": 2
     }
    ],
