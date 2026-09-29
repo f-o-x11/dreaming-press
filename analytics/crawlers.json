@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-29T04:11:34.034Z",
+ "generated": "2026-09-29T04:21:41.248Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16017,
+ "verifiedAiHits": 16020,
  "logsScanned": 30,
  "windowStart": "2026-09-15",
  "windowEnd": "2026-09-29",
- "totalHits": 104399,
- "aiHits": 84796,
+ "totalHits": 104417,
+ "aiHits": 84812,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30161,
+   "hits": 30171,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7639,
-   "verifiedHits": 7206,
+   "hits": 7641,
+   "verifiedHits": 7208,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3527,
-   "verifiedHits": 3078,
+   "hits": 3530,
+   "verifiedHits": 3081,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
     {
      "path": "/",
-     "hits": 579
+     "hits": 580
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -301,7 +301,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 67
+     "hits": 68
     }
    ],
    "verifiable": true
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2511,
+   "hits": 2512,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -608,10 +608,10 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 75,
+   "hits": 77,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
-   "lastSeen": "2026-09-28",
+   "lastSeen": "2026-09-29",
    "topPaths": [
     {
      "path": "/feast/read-document",
@@ -622,15 +622,15 @@
      "hits": 1
     },
     {
+     "path": "/posts/e2b-vs-modal-vs-daytona-agent-sandboxes.html",
+     "hits": 1
+    },
+    {
      "path": "/php-cgi/php-cgi.exe",
      "hits": 1
     },
     {
      "path": "/secrets.env",
-     "hits": 1
-    },
-    {
-     "path": "/server.key",
      "hits": 1
     }
    ],
