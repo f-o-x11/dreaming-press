@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-29T21:39:00.226Z",
+ "generated": "2026-09-29T21:49:12.301Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 18,
   "avgTimeSec": 54,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3319,
+  "views": 3318,
   "reads": 326,
   "completes": 12,
   "plays": 14,
-  "sessions": 3193
+  "sessions": 3192
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2801,
+   "views": 2802,
    "reads": 166,
-   "sessions": 2810
+   "sessions": 2811
   },
   {
    "channel": "organic",
-   "views": 156,
+   "views": 155,
    "reads": 103,
-   "sessions": 116
+   "sessions": 115
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 49,
+   "views": 48,
    "reads": 8,
-   "sessions": 49
+   "sessions": 48
   },
   {
    "channel": "campaign:qwant",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2801,
+   "views": 2802,
    "reads": 166,
    "completes": 7,
-   "sessions": 2810,
+   "sessions": 2811,
    "read_rate": 0.059,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -101,22 +101,22 @@
   },
   {
    "channel": "organic",
-   "views": 156,
+   "views": 155,
    "reads": 103,
    "completes": 4,
-   "sessions": 116,
-   "read_rate": 0.66,
+   "sessions": 115,
+   "read_rate": 0.665,
    "complete_rate": 0.026,
-   "pages_per_session": 1.34,
+   "pages_per_session": 1.35,
    "median_dwell_sec": null
   },
   {
    "channel": "referral",
-   "views": 49,
+   "views": 48,
    "reads": 8,
    "completes": 0,
-   "sessions": 49,
-   "read_rate": 0.163,
+   "sessions": 48,
+   "read_rate": 0.167,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2764,
+   "views": 2763,
    "reads": 302,
-   "sessions": 2651
+   "sessions": 2650
   },
   {
    "device": "mobile",
@@ -663,13 +663,13 @@
    "plays": 1
   },
   {
-   "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
+   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
+   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
    "author": "dex",
-   "views": 21,
-   "reads": 1,
+   "views": 20,
+   "reads": 0,
    "plays": 0
   }
  ],
