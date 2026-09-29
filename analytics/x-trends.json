@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T02:30:05.682Z",
+ "generated": "2026-09-29T02:40:10.096Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,23 +8,23 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 47
+   "count": 53
   },
   {
    "term": "agentic",
-   "count": 38
+   "count": 37
   },
   {
    "term": "agents",
    "count": 34
   },
   {
-   "term": "founder",
+   "term": "build",
    "count": 33
   },
   {
-   "term": "build",
-   "count": 32
+   "term": "founder",
+   "count": 33
   },
   {
    "term": "startup",
@@ -43,32 +43,32 @@
    "count": 21
   },
   {
-   "term": "claude",
-   "count": 13
+   "term": "memory",
+   "count": 14
   },
   {
-   "term": "memory",
+   "term": "loops",
+   "count": 14
+  },
+  {
+   "term": "engineering",
+   "count": 12
+  },
+  {
+   "term": "first",
+   "count": 12
+  },
+  {
+   "term": "claude",
+   "count": 11
+  },
+  {
+   "term": "google",
    "count": 11
   },
   {
    "term": "jev",
    "count": 11
-  },
-  {
-   "term": "engineering",
-   "count": 10
-  },
-  {
-   "term": "first",
-   "count": 10
-  },
-  {
-   "term": "google",
-   "count": 9
-  },
-  {
-   "term": "loops",
-   "count": 9
   },
   {
    "term": "who",
@@ -83,7 +83,7 @@
    "count": 8
   },
   {
-   "term": "infrastructure",
+   "term": "one",
    "count": 8
   }
  ],
@@ -145,12 +145,6 @@
    "created": "2026-09-26T17:34:00.000Z"
   },
   {
-   "text": "Being able to demonstrate that you can build production-ready AI agents is super useful these days. In this 8-hour course, Andrew helps you prepare for the Claude Certified Developer Foundations cert. You'll learn about ",
-   "engagement": 978,
-   "url": "https://x.com/i/status/2103213282618167787",
-   "created": "2026-09-24T20:01:37.000Z"
-  },
-  {
    "text": "🚀 Zero → AI Engineer Roadmap (2026) Assumes basic ML/DL. Goal: Learn to build and ship production LLM + agent systems. 1. LLM Internals Resources: • Karpathy — Neural Networks: Zero to Hero • Jay Alammar — The Illustrat",
    "engagement": 558,
    "url": "https://x.com/i/status/2103383326543495485",
@@ -185,6 +179,12 @@
    "engagement": 84,
    "url": "https://x.com/i/status/2104597254585643425",
    "created": "2026-09-28T15:41:01.000Z"
+  },
+  {
+   "text": "Meet Alon Rozi: The 16-Year-Old Israeli Founder Behind a Multimillion-Dollar AI Startup https://t.co/TB7lqqd1zn",
+   "engagement": 78,
+   "url": "https://x.com/i/status/2104570884195328339",
+   "created": "2026-09-28T13:56:14.000Z"
   }
  ]
 }

@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-29T02:30:05.157Z",
+ "generated": "2026-09-29T02:40:09.614Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15972,
+ "verifiedAiHits": 15978,
  "logsScanned": 30,
  "windowStart": "2026-09-15",
  "windowEnd": "2026-09-29",
- "totalHits": 104036,
- "aiHits": 84535,
+ "totalHits": 104057,
+ "aiHits": 84543,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30025,
+   "hits": 30026,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14125,
+   "hits": 14126,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7610,
-   "verifiedHits": 7177,
+   "hits": 7614,
+   "verifiedHits": 7181,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4980,
-   "verifiedHits": 4502,
+   "hits": 4983,
+   "verifiedHits": 4505,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3515,
-   "verifiedHits": 3066,
+   "hits": 3518,
+   "verifiedHits": 3069,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
     {
      "path": "/",
-     "hits": 576
+     "hits": 577
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -293,7 +293,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
-     "hits": 149
+     "hits": 150
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
@@ -301,7 +301,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 65
+     "hits": 66
     }
    ],
    "verifiable": true
@@ -344,7 +344,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2675,
+   "hits": 2683,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 614,
-   "verifiedHits": 454,
+   "hits": 615,
+   "verifiedHits": 455,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [

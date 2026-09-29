@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-29T02:30:05.734Z",
+ "generated": "2026-09-29T02:40:10.149Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
+  "readersNow": 4,
   "todayReads": 3,
   "avgTimeSec": 735,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3307,
+  "views": 3310,
   "reads": 331,
   "completes": 11,
   "plays": 13,
-  "sessions": 3190
+  "sessions": 3192
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2788,
+   "views": 2792,
    "reads": 163,
-   "sessions": 2807
+   "sessions": 2809
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 28,
+   "views": 27,
    "reads": 11,
-   "sessions": 46
+   "sessions": 45
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2788,
+   "views": 2792,
    "reads": 163,
    "completes": 7,
-   "sessions": 2807,
+   "sessions": 2809,
    "read_rate": 0.058,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 28,
+   "views": 27,
    "reads": 11,
    "completes": 0,
-   "sessions": 46,
-   "read_rate": 0.393,
+   "sessions": 45,
+   "read_rate": 0.407,
    "complete_rate": 0,
-   "pages_per_session": 0.61,
+   "pages_per_session": 0.6,
    "median_dwell_sec": 13
   },
   {
@@ -274,9 +274,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 9,
+   "views": 8,
    "reads": 7,
-   "sessions": 6
+   "sessions": 5
   },
   {
    "assistant": "Perplexity",
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2738,
+   "views": 2740,
    "reads": 305,
-   "sessions": 2634
+   "sessions": 2635
   },
   {
    "device": "mobile",
-   "views": 569,
+   "views": 570,
    "reads": 26,
-   "sessions": 556
+   "sessions": 557
   }
  ],
  "topContent": [
@@ -690,9 +690,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 51,
+   "views": 52,
    "reads": 0,
-   "sessions": 51,
+   "sessions": 52,
    "avg_dwell_sec": 7
   },
   {
@@ -813,8 +813,8 @@
   },
   {
    "ref": "https://www.doubao.com/",
-   "hits": 16,
-   "sessions": 6
+   "hits": 15,
+   "sessions": 5
   },
   {
    "ref": "https://www.youtube.com/",
