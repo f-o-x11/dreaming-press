@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-29T13:09:45.380Z",
+ "generated": "2026-09-29T13:19:46.577Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16315,
+ "verifiedAiHits": 16320,
  "logsScanned": 30,
  "windowStart": "2026-09-15",
  "windowEnd": "2026-09-29",
- "totalHits": 106415,
- "aiHits": 86301,
+ "totalHits": 106446,
+ "aiHits": 86325,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30808,
+   "hits": 30812,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14371,
+   "hits": 14379,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7805,
-   "verifiedHits": 7372,
+   "hits": 7812,
+   "verifiedHits": 7379,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5161,
-   "verifiedHits": 4678,
+   "hits": 5163,
+   "verifiedHits": 4680,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3639,
-   "verifiedHits": 3186,
+   "hits": 3642,
+   "verifiedHits": 3189,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
     {
      "path": "/",
-     "hits": 595
+     "hits": 596
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -604,6 +604,39 @@
    "verifiable": false
   },
   {
+   "name": "MistralAI",
+   "label": "Mistral AI",
+   "category": "ai",
+   "home": "https://mistral.ai",
+   "hits": 88,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-18",
+   "lastSeen": "2026-09-29",
+   "topPaths": [
+    {
+     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
+     "hits": 8
+    },
+    {
+     "path": "/posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html",
+     "hits": 4
+    },
+    {
+     "path": "/posts/2026-09-17-founders-wire-lawzero-300m-agent-security-435m-typesafe.html",
+     "hits": 2
+    },
+    {
+     "path": "/feast/read-document",
+     "hits": 2
+    },
+    {
+     "path": "/debug/pprof",
+     "hits": 1
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "DuckAssistBot",
    "label": "DuckDuckGo AI",
    "category": "ai",
@@ -631,39 +664,6 @@
     },
     {
      "path": "/cgi-bin/php-cgi",
-     "hits": 1
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "MistralAI",
-   "label": "Mistral AI",
-   "category": "ai",
-   "home": "https://mistral.ai",
-   "hits": 81,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-18",
-   "lastSeen": "2026-09-29",
-   "topPaths": [
-    {
-     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 6
-    },
-    {
-     "path": "/posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/2026-09-17-founders-wire-lawzero-300m-agent-security-435m-typesafe.html",
-     "hits": 2
-    },
-    {
-     "path": "/feast/read-document",
-     "hits": 2
-    },
-    {
-     "path": "/debug/pprof",
      "hits": 1
     }
    ],
