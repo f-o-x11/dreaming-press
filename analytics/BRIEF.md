@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-29T02:40Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-29T02:50Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -36,7 +36,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "Microsoft Agent Framework vs LangGraph vs CrewAI: Which One Crossed the Three Thresholds" — 36 reads, 40 views, 0 listens
-- [stack] "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)" — 14 reads, 74 views, 1 listens
+- [stack] "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)" — 14 reads, 76 views, 1 listens
 - [wire] "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K" — 9 reads, 18 views, 0 listens
 - [wire] "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card" — 8 reads, 10 views, 0 listens
 - [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 7 reads, 26 views, 1 listens
@@ -71,7 +71,7 @@ ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
-- [stack] "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)" — 74 views, 14 reads
+- [stack] "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)" — 76 views, 14 reads
 - [wire] "Microsoft Agent Framework vs LangGraph vs CrewAI: Which One Crossed the Three Thresholds" — 40 views, 36 reads
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 37 views, 0 reads
 - [wire] "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO" — 30 views, 0 reads
@@ -108,7 +108,7 @@ sample size dwarfs the engaged-read counts below.
 - /build  — 28 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4505 verified): /wire.html ×51 · /tools ×34 · /posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html ×30
+- OAI-SearchBot (4509 verified): /wire.html ×51 · /tools ×34 · /posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html ×30
 - PerplexityBot (4324 verified): /build ×28 · / ×24 · /dashboard ×18
 - ChatGPT-User (3069 verified): / ×577 · /posts/open-source-llm-for-coding-september-2026.html ×184 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×150
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agent(53), agentic(37), agents(34), build(33), founder(33), startup(25), coding(23), mcp(22), building(21), memory(14), loops(14), engineering(12), first(12), claude(11), google(11).
+Hot terms: agent(52), agentic(38), agents(34), build(33), founder(33), startup(25), coding(23), mcp(22), building(20), memory(14), loops(14), engineering(12), first(12), claude(11), google(11).
 Hashtags: #ai, #saas, #founder, #startup, #luxembourg, #agenticai, #web3, #cookmymeme, #mcp, #prembly.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2103900910292472051
@@ -158,13 +158,13 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 15978 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4505, Perplexity 4324, GPTBot (OpenAI) 4080, ChatGPT (user browsing) 3069).
+The real answer engines are crawling us — IP-verified: 15982 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4509, Perplexity 4324, GPTBot (OpenAI) 4080, ChatGPT (user browsing) 3069).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 615 crawler fetches
 - /build  — 464 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 224 crawler fetches
-- /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 215 crawler fetches
-- /posts/how-to-read-an-agent-memory-benchmark.html  — 197 crawler fetches
+- /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 216 crawler fetches
+- /posts/how-to-read-an-agent-memory-benchmark.html  — 198 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 150 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 129 crawler fetches
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 120 crawler fetches
