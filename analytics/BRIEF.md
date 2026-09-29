@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-29T17:23Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-29T17:34Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3322 views → 328 engaged reads → 12 completes · 3196 sessions.
-- Channels: direct 165r/2800v · organic 105r/156v · campaign:chatgpt.com 34r/279v · ai 12r/28v · referral 8r/49v · campaign:qwant 4r/6v · social 0r/2v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3325 views → 328 engaged reads → 12 completes · 3198 sessions.
+- Channels: direct 165r/2803v · organic 105r/156v · campaign:chatgpt.com 34r/279v · ai 12r/28v · referral 8r/49v · campaign:qwant 4r/6v · social 0r/2v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 35r/288v · Doubao 8r/9v · Perplexity 2r/4v · Claude 1r/2v · Kimi 0r/3v · DeepSeek 0r/1v.
 - Referrers: mail.google.com, bing.com, chatgpt.com, cn.bing.com, duckduckgo.com, search.brave.com, doubao.com, youtube.com, brand, dash-range.
 - Engaged-read winners by section: wire=6, stack=9.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2800 views · read 5.9% · complete 0.3% · 1 pages/session · median 5s
+- direct: 2803 views · read 5.9% · complete 0.2% · 1 pages/session · median 5s
 - campaign:chatgpt.com: 279 views · read 12.2% · complete 0.4% · 1 pages/session · median ?s
 - organic: 156 views · read 67.3% · complete 2.6% · 1.34 pages/session · median ?s
 - referral: 49 views · read 16.3% · complete 0.0% · 1 pages/session · median ?s
@@ -60,7 +60,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 401 views, 0 reads, 401 sessions, avg 5s
-- / — 129 views, 3 reads, 128 sessions, avg 15s
+- / — 130 views, 3 reads, 129 sessions, avg 14s
 - /best/:cat — 53 views, 0 reads, 53 sessions, avg 8s
 - /build — 36 views, 0 reads, 36 sessions, avg 3s
 - /dashboard — 23 views, 1 reads, 10 sessions, avg 28s
@@ -73,7 +73,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 ## Top by raw views (eyes that arrived)
 - [stack] "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)" — 79 views, 14 reads
 - [wire] "Microsoft Agent Framework vs LangGraph vs CrewAI: Which One Crossed the Three Thresholds" — 40 views, 36 reads
-- [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 38 views, 0 reads
+- [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 39 views, 0 reads
 - [wire] "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO" — 30 views, 0 reads
 - [wire] "Where 2026's Vertical-AI Money Actually Went: Legal Took the Cash, Healthcare Took the Deals" — 24 views, 3 reads
 - [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 23 views, 7 reads
@@ -83,7 +83,7 @@ These pulled real traffic and then lost it. The click already worked, so the
 problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
-- [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 38 views but only 0 engaged reads (0.0%)
+- [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 39 views but only 0 engaged reads (0.0%)
 - [wire] "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO" — 30 views but only 0 engaged reads (0.0%)
 - [stack] "E2B vs Modal vs Daytona: Picking a Code Execution Sandbox for AI Agents" — 23 views but only 1 engaged reads (4.3%)
 - [stack] "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent" — 23 views but only 0 engaged reads (0.0%)
