@@ -1,6 +1,6 @@
 {
- "generated": "2026-09-29T13:30:00.234Z",
- "sampled": 80,
+ "generated": "2026-09-29T13:40:30.425Z",
+ "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
   "(LLM OR \"coding agent\" OR RAG OR \"AI startup\") founder -is:retweet -is:reply lang:en"
@@ -31,11 +31,11 @@
    "count": 25
   },
   {
-   "term": "mcp",
-   "count": 23
+   "term": "coding",
+   "count": 22
   },
   {
-   "term": "coding",
+   "term": "mcp",
    "count": 22
   },
   {
@@ -176,7 +176,7 @@
   },
   {
    "text": "Build your personal AI video editor, but not from scratch! I'm seeing more people vibe coding NLEs for their agents. I love this direction. But do yourself a favour: fork Diffusion Studio. We've spent years building it a",
-   "engagement": 103,
+   "engagement": 104,
    "url": "https://x.com/i/status/2104597254585643425",
    "created": "2026-09-28T15:41:01.000Z"
   },

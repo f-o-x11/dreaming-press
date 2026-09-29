@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-29T13:30:00.280Z",
+ "generated": "2026-09-29T13:40:30.476Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 12,
-  "avgTimeSec": 59,
+  "readersNow": 3,
+  "todayReads": 13,
+  "avgTimeSec": 63,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3312,
-  "reads": 328,
+  "views": 3315,
+  "reads": 329,
   "completes": 12,
   "plays": 14,
-  "sessions": 3187
+  "sessions": 3190
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2790,
+   "views": 2792,
    "reads": 163,
-   "sessions": 2801
+   "sessions": 2804
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 27,
-   "reads": 11,
-   "sessions": 47
+   "views": 28,
+   "reads": 12,
+   "sessions": 48
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2790,
+   "views": 2792,
    "reads": 163,
    "completes": 7,
-   "sessions": 2801,
+   "sessions": 2804,
    "read_rate": 0.058,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 27,
-   "reads": 11,
+   "views": 28,
+   "reads": 12,
    "completes": 0,
-   "sessions": 47,
-   "read_rate": 0.407,
+   "sessions": 48,
+   "read_rate": 0.429,
    "complete_rate": 0,
-   "pages_per_session": 0.57,
+   "pages_per_session": 0.58,
    "median_dwell_sec": 10
   },
   {
@@ -274,9 +274,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 8,
-   "reads": 7,
-   "sessions": 5
+   "views": 9,
+   "reads": 8,
+   "sessions": 6
   },
   {
    "assistant": "Perplexity",
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2749,
-   "reads": 303,
-   "sessions": 2637
+   "views": 2751,
+   "reads": 304,
+   "sessions": 2639
   },
   {
    "device": "mobile",
-   "views": 563,
+   "views": 564,
    "reads": 25,
-   "sessions": 550
+   "sessions": 551
   }
  ],
  "topContent": [
@@ -613,6 +613,16 @@
    "plays": 0
   },
   {
+   "slug": "vertical-ai-agents-legal-health-finance-where-2026-funding-is-going",
+   "title": "Where 2026's Vertical-AI Money Actually Went: Legal Took the Cash, Healthcare Took the Deals",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 24,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "open-source-llm-for-coding-september-2026",
    "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
    "section": "stack",
@@ -650,16 +660,6 @@
    "author": "dex",
    "views": 23,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "vertical-ai-agents-legal-health-finance-where-2026-funding-is-going",
-   "title": "Where 2026's Vertical-AI Money Actually Went: Legal Took the Cash, Healthcare Took the Deals",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 22,
-   "reads": 2,
    "plays": 0
   },
   {
@@ -813,8 +813,8 @@
   },
   {
    "ref": "https://www.doubao.com/",
-   "hits": 15,
-   "sessions": 5
+   "hits": 17,
+   "sessions": 6
   },
   {
    "ref": "https://www.youtube.com/",
