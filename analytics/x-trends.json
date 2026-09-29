@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T14:21:19.228Z",
+ "generated": "2026-09-29T14:31:39.179Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,19 +8,19 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 54
+   "count": 51
   },
   {
    "term": "agentic",
-   "count": 38
+   "count": 39
   },
   {
    "term": "agents",
-   "count": 33
+   "count": 32
   },
   {
    "term": "build",
-   "count": 33
+   "count": 31
   },
   {
    "term": "founder",
@@ -43,27 +43,23 @@
    "count": 17
   },
   {
-   "term": "memory",
-   "count": 15
-  },
-  {
-   "term": "loops",
-   "count": 14
-  },
-  {
    "term": "claude",
    "count": 13
   },
   {
+   "term": "memory",
+   "count": 13
+  },
+  {
    "term": "engineering",
-   "count": 12
+   "count": 11
   },
   {
    "term": "first",
-   "count": 12
+   "count": 11
   },
   {
-   "term": "google",
+   "term": "loops",
    "count": 11
   },
   {
@@ -71,11 +67,15 @@
    "count": 11
   },
   {
-   "term": "one",
+   "term": "google",
    "count": 10
   },
   {
    "term": "than",
+   "count": 9
+  },
+  {
+   "term": "one",
    "count": 9
   },
   {
