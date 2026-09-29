@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-29T19:57:00.359Z",
+ "generated": "2026-09-29T20:07:21.704Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 17,
   "avgTimeSec": 54,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3327,
+  "views": 3328,
   "reads": 328,
   "completes": 12,
   "plays": 14,
-  "sessions": 3200
+  "sessions": 3201
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2804,
+   "views": 2807,
    "reads": 165,
-   "sessions": 2814
+   "sessions": 2817
   },
   {
    "channel": "organic",
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 279,
+   "views": 277,
    "reads": 34,
-   "sessions": 278
+   "sessions": 276
   },
   {
    "channel": "ai",
    "views": 28,
    "reads": 12,
-   "sessions": 49
+   "sessions": 48
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2804,
+   "views": 2807,
    "reads": 165,
    "completes": 7,
-   "sessions": 2814,
+   "sessions": 2817,
    "read_rate": 0.059,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 279,
+   "views": 277,
    "reads": 34,
    "completes": 1,
-   "sessions": 278,
-   "read_rate": 0.122,
+   "sessions": 276,
+   "read_rate": 0.123,
    "complete_rate": 0.004,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -126,10 +126,10 @@
    "views": 28,
    "reads": 12,
    "completes": 0,
-   "sessions": 49,
+   "sessions": 48,
    "read_rate": 0.429,
    "complete_rate": 0,
-   "pages_per_session": 0.57,
+   "pages_per_session": 0.58,
    "median_dwell_sec": 13
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 288,
+   "views": 286,
    "reads": 35,
-   "sessions": 284
+   "sessions": 282
   },
   {
    "assistant": "Doubao",
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2766,
+   "views": 2767,
    "reads": 303,
-   "sessions": 2652
+   "sessions": 2653
   },
   {
    "device": "mobile",
@@ -521,18 +521,18 @@
    "plays": 1
   },
   {
-   "slug": "ollama-vs-lm-studio-vs-llama-cpp-local-agent-backend",
-   "title": "Ollama vs LM Studio vs llama.cpp: Which Local Backend Should Serve Your Agent?",
+   "slug": "2026-06-21-n8n-vs-flowise-vs-langflow",
+   "title": "n8n vs Flowise vs Langflow: Choosing a Visual Agent Builder in 2026",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 5,
+   "views": 4,
    "reads": 2,
    "plays": 1
   },
   {
-   "slug": "2026-06-21-n8n-vs-flowise-vs-langflow",
-   "title": "n8n vs Flowise vs Langflow: Choosing a Visual Agent Builder in 2026",
+   "slug": "ollama-vs-lm-studio-vs-llama-cpp-local-agent-backend",
+   "title": "Ollama vs LM Studio vs llama.cpp: Which Local Backend Should Serve Your Agent?",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
