@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-29T18:04:45.714Z",
+ "generated": "2026-09-29T18:14:50.797Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 0,
   "todayReads": 16,
   "avgTimeSec": 56,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3326,
-  "reads": 328,
+  "views": 3324,
+  "reads": 327,
   "completes": 12,
   "plays": 14,
-  "sessions": 3199
+  "sessions": 3197
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2804,
+   "views": 2803,
    "reads": 165,
-   "sessions": 2814
+   "sessions": 2813
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 279,
-   "reads": 34,
-   "sessions": 278
+   "views": 278,
+   "reads": 33,
+   "sessions": 277
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2804,
+   "views": 2803,
    "reads": 165,
    "completes": 7,
-   "sessions": 2814,
+   "sessions": 2813,
    "read_rate": 0.059,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 279,
-   "reads": 34,
+   "views": 278,
+   "reads": 33,
    "completes": 1,
-   "sessions": 278,
-   "read_rate": 0.122,
+   "sessions": 277,
+   "read_rate": 0.119,
    "complete_rate": 0.004,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 288,
-   "reads": 35,
-   "sessions": 284
+   "views": 287,
+   "reads": 34,
+   "sessions": 283
   },
   {
    "assistant": "Doubao",
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2762,
+   "views": 2761,
    "reads": 302,
-   "sessions": 2648
+   "sessions": 2647
   },
   {
    "device": "mobile",
-   "views": 564,
-   "reads": 26,
-   "sessions": 551
+   "views": 563,
+   "reads": 25,
+   "sessions": 550
   }
  ],
  "topContent": [
@@ -359,16 +359,6 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 23,
-   "reads": 7,
-   "plays": 1
-  },
-  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -397,6 +387,16 @@
    "views": 8,
    "reads": 7,
    "plays": 0
+  },
+  {
+   "slug": "open-source-llm-for-coding-september-2026",
+   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 6,
+   "plays": 1
   },
   {
    "slug": "vllm-v0-24-model-runner-v2-rust-frontend",
@@ -486,8 +486,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 23,
-   "reads": 7,
+   "views": 22,
+   "reads": 6,
    "plays": 1
   },
   {
@@ -623,16 +623,6 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 23,
-   "reads": 7,
-   "plays": 1
-  },
-  {
    "slug": "browser-use-vs-stagehand-vs-playwright-mcp",
    "title": "Browser Use vs Stagehand vs Playwright MCP: Which Browser Agent Actually Clicks in 2026",
    "section": "stack",
@@ -661,6 +651,16 @@
    "views": 23,
    "reads": 0,
    "plays": 0
+  },
+  {
+   "slug": "open-source-llm-for-coding-september-2026",
+   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 6,
+   "plays": 1
   },
   {
    "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
