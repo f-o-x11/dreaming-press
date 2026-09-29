@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-29T05:52:50.255Z",
+ "generated": "2026-09-29T06:02:58.088Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
-  "todayReads": 6,
+  "readersNow": 4,
+  "todayReads": 7,
   "avgTimeSec": 166,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3327,
-  "reads": 332,
+  "views": 3329,
+  "reads": 333,
   "completes": 11,
-  "plays": 13,
-  "sessions": 3208
+  "plays": 14,
+  "sessions": 3207
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2809,
-   "reads": 165,
-   "sessions": 2825
+   "views": 2811,
+   "reads": 166,
+   "sessions": 2824
   },
   {
    "channel": "organic",
@@ -79,13 +79,13 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2809,
-   "reads": 165,
+   "views": 2811,
+   "reads": 166,
    "completes": 7,
-   "sessions": 2825,
+   "sessions": 2824,
    "read_rate": 0.059,
    "complete_rate": 0.002,
-   "pages_per_session": 0.99,
+   "pages_per_session": 1,
    "median_dwell_sec": 5
   },
   {
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2759,
-   "reads": 306,
-   "sessions": 2653
+   "views": 2761,
+   "reads": 307,
+   "sessions": 2652
   },
   {
    "device": "mobile",
@@ -491,6 +491,16 @@
    "plays": 1
   },
   {
+   "slug": "2026-06-24-where-to-run-a-long-running-ai-agent",
+   "title": "Cloudflare Agents vs Bedrock AgentCore vs Vercel: Where to Run a Long-Running AI Agent",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
+   "reads": 3,
+   "plays": 1
+  },
+  {
    "slug": "pi-minimal-coding-agent-harness",
    "title": "Pi's System Prompt Is Under 1,000 Tokens: The Case Against Heavy Coding-Agent Harnesses",
    "section": "wire",
@@ -557,16 +567,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 5,
-   "reads": 1,
-   "plays": 1
-  },
-  {
-   "slug": "how-to-prove-your-agent-sandbox-actually-blocks-the-internet",
-   "title": "How to Prove Your Agent's Sandbox Actually Blocks the Internet",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 1,
    "reads": 1,
    "plays": 1
   }
