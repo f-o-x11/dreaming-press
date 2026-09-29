@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-29T22:40:00.399Z",
+ "generated": "2026-09-29T22:50:06.161Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 3,
   "todayReads": 18,
-  "avgTimeSec": 51,
+  "avgTimeSec": 49,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3324,
+  "views": 3326,
   "reads": 326,
   "completes": 12,
   "plays": 14,
-  "sessions": 3198
+  "sessions": 3200
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2809,
+   "views": 2812,
    "reads": 166,
-   "sessions": 2818
+   "sessions": 2821
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 274,
+   "views": 273,
    "reads": 33,
-   "sessions": 274
+   "sessions": 273
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2809,
+   "views": 2812,
    "reads": 166,
    "completes": 7,
-   "sessions": 2818,
+   "sessions": 2821,
    "read_rate": 0.059,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 274,
+   "views": 273,
    "reads": 33,
    "completes": 1,
-   "sessions": 274,
-   "read_rate": 0.12,
+   "sessions": 273,
+   "read_rate": 0.121,
    "complete_rate": 0.004,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 283,
+   "views": 282,
    "reads": 34,
-   "sessions": 280
+   "sessions": 279
   },
   {
    "assistant": "Doubao",
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2766,
+   "views": 2767,
    "reads": 302,
-   "sessions": 2653
+   "sessions": 2654
   },
   {
    "device": "mobile",
-   "views": 558,
+   "views": 559,
    "reads": 24,
-   "sessions": 545
+   "sessions": 546
   }
  ],
  "topContent": [
@@ -536,7 +536,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 4,
+   "views": 3,
    "reads": 2,
    "plays": 1
   },
