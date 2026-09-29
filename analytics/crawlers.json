@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-29T08:54:59.811Z",
+ "generated": "2026-09-29T09:05:05.388Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16178,
+ "verifiedAiHits": 16185,
  "logsScanned": 30,
  "windowStart": "2026-09-15",
  "windowEnd": "2026-09-29",
- "totalHits": 105521,
- "aiHits": 85601,
+ "totalHits": 105561,
+ "aiHits": 85629,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30534,
+   "hits": 30549,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14319,
+   "hits": 14323,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -146,8 +146,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5090,
-   "verifiedHits": 4607,
+   "hits": 5092,
+   "verifiedHits": 4609,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4909,
-   "verifiedHits": 4353,
+   "hits": 4910,
+   "verifiedHits": 4354,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3590,
-   "verifiedHits": 3137,
+   "hits": 3594,
+   "verifiedHits": 3141,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
@@ -301,7 +301,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 69
+     "hits": 71
     }
    ],
    "verifiable": true
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3354,
+   "hits": 3358,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -344,7 +344,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2811,
+   "hits": 2819,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -410,14 +410,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2550,
+   "hits": 2552,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 446
+     "hits": 447
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
