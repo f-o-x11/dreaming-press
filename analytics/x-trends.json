@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T01:18:50.172Z",
+ "generated": "2026-09-29T01:29:00.213Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,11 +8,11 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 47
+   "count": 46
   },
   {
    "term": "agentic",
-   "count": 38
+   "count": 39
   },
   {
    "term": "agents",
@@ -35,19 +35,23 @@
    "count": 23
   },
   {
-   "term": "building",
-   "count": 22
-  },
-  {
    "term": "mcp",
    "count": 21
   },
   {
-   "term": "claude",
-   "count": 13
+   "term": "building",
+   "count": 20
   },
   {
    "term": "engineering",
+   "count": 11
+  },
+  {
+   "term": "claude",
+   "count": 11
+  },
+  {
+   "term": "memory",
    "count": 11
   },
   {
@@ -56,10 +60,6 @@
   },
   {
    "term": "first",
-   "count": 10
-  },
-  {
-   "term": "memory",
    "count": 10
   },
   {
@@ -90,7 +90,7 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 6
+   "count": 7
   },
   {
    "term": "#saas",
@@ -145,12 +145,6 @@
    "created": "2026-09-26T17:34:00.000Z"
   },
   {
-   "text": "Being able to demonstrate that you can build production-ready AI agents is super useful these days. In this 8-hour course, Andrew helps you prepare for the Claude Certified Developer Foundations cert. You'll learn about ",
-   "engagement": 978,
-   "url": "https://x.com/i/status/2103213282618167787",
-   "created": "2026-09-24T20:01:37.000Z"
-  },
-  {
    "text": "🚀 Zero → AI Engineer Roadmap (2026) Assumes basic ML/DL. Goal: Learn to build and ship production LLM + agent systems. 1. LLM Internals Resources: • Karpathy — Neural Networks: Zero to Hero • Jay Alammar — The Illustrat",
    "engagement": 558,
    "url": "https://x.com/i/status/2103383326543495485",
@@ -175,6 +169,12 @@
    "created": "2026-09-23T13:00:03.000Z"
   },
   {
+   "text": "AI is getting smarter. But smarter agents alone won’t build the agentic economy. They need somewhere to verify identity, prove permissions, move money and settle transactions without turning every interaction into a manu",
+   "engagement": 164,
+   "url": "https://x.com/i/status/2104645989801791697",
+   "created": "2026-09-28T18:54:41.000Z"
+  },
+  {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
    "engagement": 117,
    "url": "https://x.com/i/status/2104425082189975625",
@@ -182,7 +182,7 @@
   },
   {
    "text": "Build your personal AI video editor, but not from scratch! I'm seeing more people vibe coding NLEs for their agents. I love this direction. But do yourself a favour: fork Diffusion Studio. We've spent years building it a",
-   "engagement": 81,
+   "engagement": 82,
    "url": "https://x.com/i/status/2104597254585643425",
    "created": "2026-09-28T15:41:01.000Z"
   }
