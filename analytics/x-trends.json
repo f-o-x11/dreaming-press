@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T21:28:39.543Z",
+ "generated": "2026-09-29T21:39:00.171Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -24,7 +24,7 @@
   },
   {
    "term": "founder",
-   "count": 31
+   "count": 32
   },
   {
    "term": "mcp",
@@ -32,7 +32,7 @@
   },
   {
    "term": "startup",
-   "count": 24
+   "count": 25
   },
   {
    "term": "coding",
@@ -40,7 +40,7 @@
   },
   {
    "term": "building",
-   "count": 17
+   "count": 16
   },
   {
    "term": "memory",
@@ -51,6 +51,10 @@
    "count": 14
   },
   {
+   "term": "google",
+   "count": 13
+  },
+  {
    "term": "engineering",
    "count": 12
   },
@@ -59,20 +63,16 @@
    "count": 12
   },
   {
-   "term": "google",
-   "count": 12
-  },
-  {
-   "term": "first",
-   "count": 11
+   "term": "one",
+   "count": 10
   },
   {
    "term": "jev",
-   "count": 11
+   "count": 10
   },
   {
-   "term": "one",
-   "count": 10
+   "term": "first",
+   "count": 9
   },
   {
    "term": "than",
@@ -90,22 +90,14 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 7
+   "count": 6
   },
   {
    "term": "#founder",
-   "count": 3
-  },
-  {
-   "term": "#startup",
-   "count": 3
-  },
-  {
-   "term": "#saas",
    "count": 2
   },
   {
-   "term": "#buildinpublic",
+   "term": "#startup",
    "count": 2
   },
   {
@@ -134,6 +126,14 @@
   },
   {
    "term": "#aijobs",
+   "count": 1
+  },
+  {
+   "term": "#aihiring",
+   "count": 1
+  },
+  {
+   "term": "#intphpcon",
    "count": 1
   }
  ],

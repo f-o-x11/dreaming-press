@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-29T21:28:39.594Z",
+ "generated": "2026-09-29T21:39:00.226Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 17,
+  "readersNow": 1,
+  "todayReads": 18,
   "avgTimeSec": 54,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3321,
+  "views": 3319,
   "reads": 326,
   "completes": 12,
   "plays": 14,
-  "sessions": 3194
+  "sessions": 3193
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2802,
-   "reads": 165,
-   "sessions": 2811
+   "views": 2801,
+   "reads": 166,
+   "sessions": 2810
   },
   {
    "channel": "organic",
@@ -29,8 +29,8 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 276,
-   "reads": 34,
+   "views": 275,
+   "reads": 33,
    "sessions": 275
   },
   {
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2802,
-   "reads": 165,
+   "views": 2801,
+   "reads": 166,
    "completes": 7,
-   "sessions": 2811,
+   "sessions": 2810,
    "read_rate": 0.059,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 276,
-   "reads": 34,
+   "views": 275,
+   "reads": 33,
    "completes": 1,
    "sessions": 275,
-   "read_rate": 0.123,
+   "read_rate": 0.12,
    "complete_rate": 0.004,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -268,8 +268,8 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 285,
-   "reads": 35,
+   "views": 284,
+   "reads": 34,
    "sessions": 281
   },
   {
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2765,
+   "views": 2764,
    "reads": 302,
    "sessions": 2651
   },
   {
    "device": "mobile",
-   "views": 556,
+   "views": 555,
    "reads": 24,
-   "sessions": 543
+   "sessions": 542
   }
  ],
  "topContent": [
@@ -334,8 +334,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 79,
-   "reads": 14,
+   "views": 80,
+   "reads": 15,
    "plays": 1
   },
   {
@@ -357,16 +357,6 @@
    "views": 10,
    "reads": 8,
    "plays": 0
-  },
-  {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 23,
-   "reads": 7,
-   "plays": 1
   },
   {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
@@ -397,6 +387,16 @@
    "views": 8,
    "reads": 7,
    "plays": 0
+  },
+  {
+   "slug": "open-source-llm-for-coding-september-2026",
+   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 6,
+   "plays": 1
   },
   {
    "slug": "vllm-v0-24-model-runner-v2-rust-frontend",
@@ -476,8 +476,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 79,
-   "reads": 14,
+   "views": 80,
+   "reads": 15,
    "plays": 1
   },
   {
@@ -486,8 +486,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 23,
-   "reads": 7,
+   "views": 22,
+   "reads": 6,
    "plays": 1
   },
   {
@@ -578,8 +578,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 79,
-   "reads": 14,
+   "views": 80,
+   "reads": 15,
    "plays": 1
   },
   {
@@ -623,16 +623,6 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 23,
-   "reads": 7,
-   "plays": 1
-  },
-  {
    "slug": "browser-use-vs-stagehand-vs-playwright-mcp",
    "title": "Browser Use vs Stagehand vs Playwright MCP: Which Browser Agent Actually Clicks in 2026",
    "section": "stack",
@@ -661,6 +651,16 @@
    "views": 23,
    "reads": 0,
    "plays": 0
+  },
+  {
+   "slug": "open-source-llm-for-coding-september-2026",
+   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 6,
+   "plays": 1
   },
   {
    "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
@@ -792,13 +792,13 @@
    "sessions": 34
   },
   {
-   "ref": "https://chatgpt.com/",
-   "hits": 47,
+   "ref": "https://cn.bing.com/",
+   "hits": 46,
    "sessions": 29
   },
   {
-   "ref": "https://cn.bing.com/",
-   "hits": 46,
+   "ref": "https://chatgpt.com/",
+   "hits": 45,
    "sessions": 29
   },
   {
