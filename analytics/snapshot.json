@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-29T10:56:50.575Z",
+ "generated": "2026-09-29T11:06:57.854Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
   "todayReads": 11,
-  "avgTimeSec": 67,
+  "avgTimeSec": 63,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3323,
-  "reads": 332,
+  "views": 3321,
+  "reads": 330,
   "completes": 12,
   "plays": 14,
-  "sessions": 3198
+  "sessions": 3197
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2798,
-   "reads": 164,
-   "sessions": 2811
+   "views": 2797,
+   "reads": 163,
+   "sessions": 2810
   },
   {
    "channel": "organic",
-   "views": 160,
-   "reads": 110,
-   "sessions": 121
+   "views": 159,
+   "reads": 109,
+   "sessions": 120
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2798,
-   "reads": 164,
+   "views": 2797,
+   "reads": 163,
    "completes": 7,
-   "sessions": 2811,
-   "read_rate": 0.059,
+   "sessions": 2810,
+   "read_rate": 0.058,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": 5
@@ -101,11 +101,11 @@
   },
   {
    "channel": "organic",
-   "views": 160,
-   "reads": 110,
+   "views": 159,
+   "reads": 109,
    "completes": 4,
-   "sessions": 121,
-   "read_rate": 0.688,
+   "sessions": 120,
+   "read_rate": 0.686,
    "complete_rate": 0.025,
    "pages_per_session": 1.32,
    "median_dwell_sec": null
@@ -230,14 +230,14 @@
    "sessions": 1
   },
   {
-   "surface": "un-body",
+   "surface": "rr-card",
    "clicks": 2,
    "sessions": 2
   },
   {
-   "surface": "rr-card",
-   "clicks": 2,
-   "sessions": 2
+   "surface": "un-body",
+   "clicks": 1,
+   "sessions": 1
   },
   {
    "surface": "tr-row",
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2756,
-   "reads": 307,
-   "sessions": 2644
+   "views": 2753,
+   "reads": 305,
+   "sessions": 2642
   },
   {
    "device": "mobile",
-   "views": 567,
+   "views": 568,
    "reads": 25,
-   "sessions": 554
+   "sessions": 555
   }
  ],
  "topContent": [
@@ -788,8 +788,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 63,
-   "sessions": 36
+   "hits": 61,
+   "sessions": 35
   },
   {
    "ref": "https://chatgpt.com/",
