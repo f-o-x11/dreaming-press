@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-29T03:31Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-29T03:41Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3318 views → 331 engaged reads → 11 completes · 3200 sessions.
-- Channels: direct 163r/2800v · organic 109r/157v · campaign:chatgpt.com 35r/274v · ai 11r/27v · referral 9r/50v · campaign:qwant 4r/6v · social 0r/2v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3314 views → 331 engaged reads → 11 completes · 3196 sessions.
+- Channels: direct 163r/2796v · organic 109r/157v · campaign:chatgpt.com 35r/274v · ai 11r/27v · referral 9r/50v · campaign:qwant 4r/6v · social 0r/2v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 36r/284v · Doubao 7r/8v · Perplexity 2r/3v · Claude 1r/2v · Kimi 0r/3v · DeepSeek 0r/1v.
 - Referrers: mail.google.com, bing.com, chatgpt.com, cn.bing.com, duckduckgo.com, search.brave.com, doubao.com, youtube.com, dash-range, brand.
 - Engaged-read winners by section: wire=6, stack=9.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2800 views · read 5.8% · complete 0.3% · 0.99 pages/session · median 5s
+- direct: 2796 views · read 5.8% · complete 0.3% · 0.99 pages/session · median 5s
 - campaign:chatgpt.com: 274 views · read 12.8% · complete 0.4% · 1 pages/session · median ?s
 - organic: 157 views · read 69.4% · complete 1.9% · 1.32 pages/session · median ?s
 - referral: 50 views · read 18.0% · complete 0.0% · 1 pages/session · median ?s
@@ -76,7 +76,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 37 views, 0 reads
 - [wire] "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO" — 30 views, 0 reads
 - [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 26 views, 7 reads
-- [stack] "Browser Use vs Stagehand vs Playwright MCP: Which Browser Agent Actually Clicks in 2026" — 24 views, 2 reads
+- [stack] "Browser Use vs Stagehand vs Playwright MCP: Which Browser Agent Actually Clicks in 2026" — 23 views, 2 reads
 
 ## Arrived but left (fix these openings first)
 These pulled real traffic and then lost it. The click already worked, so the
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agent(54), agentic(38), agents(33), founder(33), build(32), coding(24), startup(24), mcp(22), building(18), memory(14), loops(14), engineering(13), first(12), claude(12), google(11).
+Hot terms: agent(50), agentic(37), founder(33), agents(32), build(31), startup(25), coding(23), mcp(21), building(17), claude(13), engineering(12), memory(12), first(11), loops(11), jev(11).
 Hashtags: #ai, #saas, #founder, #startup, #luxembourg, #agenticai, #web3, #cookmymeme, #mcp, #prembly.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2103900910292472051

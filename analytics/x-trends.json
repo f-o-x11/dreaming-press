@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T03:31:00.316Z",
+ "generated": "2026-09-29T03:41:13.069Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,62 +8,58 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 54
+   "count": 50
   },
   {
    "term": "agentic",
-   "count": 38
-  },
-  {
-   "term": "agents",
-   "count": 33
+   "count": 37
   },
   {
    "term": "founder",
    "count": 33
   },
   {
-   "term": "build",
+   "term": "agents",
    "count": 32
   },
   {
-   "term": "coding",
-   "count": 24
+   "term": "build",
+   "count": 31
   },
   {
    "term": "startup",
-   "count": 24
+   "count": 25
+  },
+  {
+   "term": "coding",
+   "count": 23
   },
   {
    "term": "mcp",
-   "count": 22
+   "count": 21
   },
   {
    "term": "building",
-   "count": 18
-  },
-  {
-   "term": "memory",
-   "count": 14
-  },
-  {
-   "term": "loops",
-   "count": 14
-  },
-  {
-   "term": "engineering",
-   "count": 13
-  },
-  {
-   "term": "first",
-   "count": 12
+   "count": 17
   },
   {
    "term": "claude",
+   "count": 13
+  },
+  {
+   "term": "engineering",
    "count": 12
   },
   {
-   "term": "google",
+   "term": "memory",
+   "count": 12
+  },
+  {
+   "term": "first",
+   "count": 11
+  },
+  {
+   "term": "loops",
    "count": 11
   },
   {
@@ -71,8 +67,12 @@
    "count": 11
   },
   {
-   "term": "one",
-   "count": 9
+   "term": "google",
+   "count": 10
+  },
+  {
+   "term": "need",
+   "count": 10
   },
   {
    "term": "who",
@@ -83,7 +83,7 @@
    "count": 8
   },
   {
-   "term": "code",
+   "term": "than",
    "count": 8
   }
  ],
@@ -169,6 +169,12 @@
    "created": "2026-09-23T13:00:03.000Z"
   },
   {
+   "text": "AI is getting smarter. But smarter agents alone won’t build the agentic economy. They need somewhere to verify identity, prove permissions, move money and settle transactions without turning every interaction into a manu",
+   "engagement": 176,
+   "url": "https://x.com/i/status/2104645989801791697",
+   "created": "2026-09-28T18:54:41.000Z"
+  },
+  {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
    "engagement": 115,
    "url": "https://x.com/i/status/2104425082189975625",
@@ -179,12 +185,6 @@
    "engagement": 86,
    "url": "https://x.com/i/status/2104597254585643425",
    "created": "2026-09-28T15:41:01.000Z"
-  },
-  {
-   "text": "Meet Alon Rozi: The 16-Year-Old Israeli Founder Behind a Multimillion-Dollar AI Startup https://t.co/TB7lqqd1zn",
-   "engagement": 79,
-   "url": "https://x.com/i/status/2104570884195328339",
-   "created": "2026-09-28T13:56:14.000Z"
   }
  ]
 }
