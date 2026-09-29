@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-29T11:06Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-29T11:17Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3321 views → 330 engaged reads → 12 completes · 3197 sessions.
-- Channels: direct 163r/2797v · organic 109r/159v · campaign:chatgpt.com 34r/277v · ai 11r/28v · referral 9r/50v · campaign:qwant 4r/6v · social 0r/2v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3321 views → 329 engaged reads → 12 completes · 3197 sessions.
+- Channels: direct 162r/2797v · organic 109r/159v · campaign:chatgpt.com 34r/277v · ai 11r/28v · referral 9r/50v · campaign:qwant 4r/6v · social 0r/2v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 35r/287v · Doubao 7r/8v · Perplexity 2r/4v · Claude 1r/2v · Kimi 0r/3v · DeepSeek 0r/1v.
 - Referrers: mail.google.com, bing.com, chatgpt.com, duckduckgo.com, cn.bing.com, search.brave.com, doubao.com, youtube.com, dash-range, brand.
 - Engaged-read winners by section: wire=6, stack=9.
@@ -60,7 +60,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 399 views, 0 reads, 399 sessions, avg 5s
-- / — 128 views, 2 reads, 127 sessions, avg 14s
+- / — 129 views, 2 reads, 128 sessions, avg 13s
 - /best/:cat — 52 views, 0 reads, 52 sessions, avg 7s
 - /build — 36 views, 0 reads, 36 sessions, avg 3s
 - /dashboard — 23 views, 1 reads, 10 sessions, avg 28s
@@ -99,7 +99,7 @@ sample size dwarfs the engaged-read counts below.
 - /  — 616 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 219 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 181 retrieval fetches
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 138 retrieval fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 139 retrieval fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 72 retrieval fetches
 - /wire.html  — 53 retrieval fetches
 - /tools  — 34 retrieval fetches
@@ -108,9 +108,9 @@ sample size dwarfs the engaged-read counts below.
 - /dashboard  — 19 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4649 verified): /wire.html ×53 · /tools ×34 · /posts/open-source-llm-for-coding-september-2026.html ×31
-- PerplexityBot (4364 verified): /build ×28 · / ×24 · /dashboard ×19
-- ChatGPT-User (3160 verified): / ×592 · /posts/open-source-llm-for-coding-september-2026.html ×188 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×151
+- OAI-SearchBot (4652 verified): /wire.html ×53 · /tools ×34 · /posts/open-source-llm-for-coding-september-2026.html ×31
+- PerplexityBot (4365 verified): /build ×28 · / ×24 · /dashboard ×19
+- ChatGPT-User (3162 verified): / ×592 · /posts/open-source-llm-for-coding-september-2026.html ×188 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×151
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -135,7 +135,7 @@ High-engagement posts to react to / cite:
 - "Jev Founder, Diogo Amogo, just released 12-page PDF on building a Jev Harness for coding agents This is a 10-step blueprint on how to make your coding agents 220x faster and 444x cheaper: step 1 → stop treating a coding " — https://x.com/i/status/2102744804127842654
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (249 of 449 phrases have NO post, 95h ago)
+## Uncovered search demand (249 of 449 phrases have NO post, 96h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -158,9 +158,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16254 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4649, Perplexity 4364, GPTBot (OpenAI) 4081, ChatGPT (user browsing) 3160).
+The real answer engines are crawling us — IP-verified: 16260 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4652, Perplexity 4365, GPTBot (OpenAI) 4081, ChatGPT (user browsing) 3162).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 628 crawler fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 630 crawler fetches
 - /build  — 464 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 230 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 223 crawler fetches
@@ -169,7 +169,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 133 crawler fetches
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 120 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 72 crawler fetches
-- /posts/gartner-ai-agent-spending-2026.html  — 54 crawler fetches
+- /posts/gartner-ai-agent-spending-2026.html  — 55 crawler fetches
 - /tools  — 34 crawler fetches
 - /posts/llm-api-pricing-comparison-august-2026.html  — 32 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
