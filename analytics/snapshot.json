@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-29T12:28:00.346Z",
+ "generated": "2026-09-29T12:38:46.709Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
-  "todayReads": 11,
-  "avgTimeSec": 60,
+  "todayReads": 12,
+  "avgTimeSec": 59,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3318,
-  "reads": 328,
+  "views": 3320,
+  "reads": 329,
   "completes": 12,
   "plays": 14,
-  "sessions": 3194
+  "sessions": 3195
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2796,
-   "reads": 162,
-   "sessions": 2808
+   "views": 2798,
+   "reads": 163,
+   "sessions": 2809
   },
   {
    "channel": "organic",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 19
+   "sessions": 20
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2796,
-   "reads": 162,
+   "views": 2798,
+   "reads": 163,
    "completes": 7,
-   "sessions": 2808,
+   "sessions": 2809,
    "read_rate": 0.058,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 19,
+   "sessions": 20,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -190,14 +190,14 @@
  ],
  "navSurfaces": [
   {
+   "surface": "brand",
+   "clicks": 10,
+   "sessions": 8
+  },
+  {
    "surface": "dash-range",
    "clicks": 9,
    "sessions": 2
-  },
-  {
-   "surface": "brand",
-   "clicks": 9,
-   "sessions": 7
   },
   {
    "surface": "nav-cmp",
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2751,
-   "reads": 303,
-   "sessions": 2640
+   "views": 2753,
+   "reads": 304,
+   "sessions": 2641
   },
   {
    "device": "mobile",
@@ -683,10 +683,10 @@
   },
   {
    "path": "/",
-   "views": 129,
-   "reads": 2,
-   "sessions": 128,
-   "avg_dwell_sec": 13
+   "views": 130,
+   "reads": 3,
+   "sessions": 129,
+   "avg_dwell_sec": 14
   },
   {
    "path": "/best/:cat",
@@ -822,14 +822,14 @@
    "sessions": 10
   },
   {
+   "ref": "brand",
+   "hits": 10,
+   "sessions": 8
+  },
+  {
    "ref": "dash-range",
    "hits": 9,
    "sessions": 2
-  },
-  {
-   "ref": "brand",
-   "hits": 9,
-   "sessions": 7
   }
  ]
 }
