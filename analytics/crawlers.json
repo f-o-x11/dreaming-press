@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-29T05:12:14.569Z",
+ "generated": "2026-09-29T05:22:19.835Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16041,
+ "verifiedAiHits": 16044,
  "logsScanned": 30,
  "windowStart": "2026-09-15",
  "windowEnd": "2026-09-29",
- "totalHits": 104569,
- "aiHits": 84906,
+ "totalHits": 104645,
+ "aiHits": 84957,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30223,
+   "hits": 30230,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14192,
+   "hits": 14195,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7661,
-   "verifiedHits": 7228,
+   "hits": 7662,
+   "verifiedHits": 7229,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5016,
-   "verifiedHits": 4538,
+   "hits": 5021,
+   "verifiedHits": 4540,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4874,
+   "hits": 4878,
    "verifiedHits": 4332,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -194,7 +194,7 @@
     },
     {
      "path": "/dashboard",
-     "hits": 18
+     "hits": 19
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
@@ -212,7 +212,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4553,
+   "hits": 4557,
    "verifiedHits": 4080,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -245,7 +245,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4292,
+   "hits": 4298,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3540,
-   "verifiedHits": 3091,
+   "hits": 3544,
+   "verifiedHits": 3092,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3331,
+   "hits": 3339,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -344,7 +344,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2718,
+   "hits": 2726,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -354,11 +354,11 @@
      "hits": 27
     },
     {
-     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 5
+     "path": "/posts/best-ai-agents-for-personal-use-september-2026.html",
+     "hits": 6
     },
     {
-     "path": "/posts/best-ai-agents-for-personal-use-september-2026.html",
+     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
      "hits": 5
     },
     {
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2625,
+   "hits": 2628,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2516,
+   "hits": 2517,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -443,10 +443,10 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1976,
+   "hits": 1980,
    "verifiedHits": 0,
    "firstSeen": "2026-09-18",
-   "lastSeen": "2026-09-28",
+   "lastSeen": "2026-09-29",
    "topPaths": [
     {
      "path": "/build",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 622,
-   "verifiedHits": 462,
+   "hits": 624,
+   "verifiedHits": 464,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
@@ -542,10 +542,10 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 515,
+   "hits": 516,
    "verifiedHits": 0,
    "firstSeen": "2026-09-16",
-   "lastSeen": "2026-09-28",
+   "lastSeen": "2026-09-29",
    "topPaths": [
     {
      "path": "/fabrications.html",
@@ -575,10 +575,10 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 349,
+   "hits": 352,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
-   "lastSeen": "2026-09-28",
+   "lastSeen": "2026-09-29",
    "topPaths": [
     {
      "path": "/posts/embedding-quantization-binary-vs-scalar-vs-int8.html",
@@ -608,7 +608,7 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 77,
+   "hits": 78,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -626,11 +626,11 @@
      "hits": 1
     },
     {
-     "path": "/php-cgi/php-cgi.exe",
+     "path": "/",
      "hits": 1
     },
     {
-     "path": "/secrets.env",
+     "path": "/php-cgi/php-cgi.exe",
      "hits": 1
     }
    ],
@@ -641,10 +641,10 @@
    "label": "Mistral AI",
    "category": "ai",
    "home": "https://mistral.ai",
-   "hits": 73,
+   "hits": 76,
    "verifiedHits": 0,
    "firstSeen": "2026-09-18",
-   "lastSeen": "2026-09-28",
+   "lastSeen": "2026-09-29",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
@@ -663,7 +663,7 @@
      "hits": 2
     },
     {
-     "path": "/telescope/requests",
+     "path": "/debug/pprof",
      "hits": 1
     }
    ],
@@ -674,29 +674,29 @@
    "label": "Cohere",
    "category": "ai",
    "home": "https://cohere.com",
-   "hits": 53,
+   "hits": 56,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
-   "lastSeen": "2026-09-28",
+   "lastSeen": "2026-09-29",
    "topPaths": [
     {
      "path": "/read-document",
-     "hits": 3
+     "hits": 4
     },
     {
      "path": "/mcp",
      "hits": 2
     },
     {
+     "path": "/admin",
+     "hits": 2
+    },
+    {
+     "path": "/langflow/api/v1/validate/code",
+     "hits": 1
+    },
+    {
      "path": "/exec-py",
-     "hits": 1
-    },
-    {
-     "path": "/php-cgi/php-cgi.exe",
-     "hits": 1
-    },
-    {
-     "path": "/ses.env",
      "hits": 1
     }
    ],
@@ -707,10 +707,10 @@
    "label": "Gemini / Vertex (Google-Extended)",
    "category": "ai",
    "home": "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers",
-   "hits": 44,
+   "hits": 47,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
-   "lastSeen": "2026-09-28",
+   "lastSeen": "2026-09-29",
    "topPaths": [
     {
      "path": "/langflow/api/v1/validate/code",
@@ -740,10 +740,10 @@
    "label": "Claude Search (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 39,
+   "hits": 41,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
-   "lastSeen": "2026-09-28",
+   "lastSeen": "2026-09-29",
    "topPaths": [
     {
      "path": "/dashboard%2F.env",
@@ -754,15 +754,15 @@
      "hits": 2
     },
     {
+     "path": "/cgi-bin/php-cgi",
+     "hits": 1
+    },
+    {
      "path": "/pages/api/index.astro.mjs.map",
      "hits": 1
     },
     {
      "path": "/cgi-bin/php-cgi.exe",
-     "hits": 1
-    },
-    {
-     "path": "/console",
      "hits": 1
     }
    ],

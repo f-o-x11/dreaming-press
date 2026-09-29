@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-29T05:12:15.146Z",
+ "generated": "2026-09-29T05:22:20.330Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 3,
-  "avgTimeSec": 186,
+  "readersNow": 5,
+  "todayReads": 4,
+  "avgTimeSec": 166,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3321,
-  "reads": 329,
+  "views": 3322,
+  "reads": 330,
   "completes": 11,
   "plays": 13,
-  "sessions": 3202
+  "sessions": 3203
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2803,
-   "reads": 162,
-   "sessions": 2819
+   "views": 2804,
+   "reads": 163,
+   "sessions": 2820
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2803,
-   "reads": 162,
+   "views": 2804,
+   "reads": 163,
    "completes": 7,
-   "sessions": 2819,
+   "sessions": 2820,
    "read_rate": 0.058,
    "complete_rate": 0.002,
    "pages_per_session": 0.99,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2754,
-   "reads": 303,
-   "sessions": 2648
+   "views": 2755,
+   "reads": 304,
+   "sessions": 2649
   },
   {
    "device": "mobile",
@@ -429,6 +429,16 @@
    "plays": 0
   },
   {
+   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
+   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-21-routellm-vs-notdiamond-vs-martian",
    "title": "RouteLLM vs NotDiamond vs Martian: Do LLM Model Routers Actually Cut Costs?",
    "section": "stack",
@@ -455,16 +465,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 11,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
-   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 6,
    "reads": 4,
    "plays": 0
   }
