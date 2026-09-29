@@ -1,37 +1,37 @@
 {
- "generated": "2026-09-29T08:34:53.849Z",
+ "generated": "2026-09-29T08:44:59.705Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 2,
   "todayReads": 9,
   "avgTimeSec": 89,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3327,
-  "reads": 333,
+  "views": 3324,
+  "reads": 331,
   "completes": 12,
   "plays": 14,
-  "sessions": 3204
+  "sessions": 3202
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2809,
-   "reads": 166,
-   "sessions": 2822
+   "views": 2806,
+   "reads": 165,
+   "sessions": 2819
   },
   {
    "channel": "organic",
-   "views": 157,
-   "reads": 109,
-   "sessions": 119
+   "views": 156,
+   "reads": 108,
+   "sessions": 118
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 274,
+   "views": 275,
    "reads": 34,
-   "sessions": 273
+   "sessions": 274
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2809,
-   "reads": 166,
+   "views": 2806,
+   "reads": 165,
    "completes": 7,
-   "sessions": 2822,
+   "sessions": 2819,
    "read_rate": 0.059,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -90,10 +90,10 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 274,
+   "views": 275,
    "reads": 34,
    "completes": 1,
-   "sessions": 273,
+   "sessions": 274,
    "read_rate": 0.124,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -101,12 +101,12 @@
   },
   {
    "channel": "organic",
-   "views": 157,
-   "reads": 109,
+   "views": 156,
+   "reads": 108,
    "completes": 4,
-   "sessions": 119,
-   "read_rate": 0.694,
-   "complete_rate": 0.025,
+   "sessions": 118,
+   "read_rate": 0.692,
+   "complete_rate": 0.026,
    "pages_per_session": 1.32,
    "median_dwell_sec": null
   },
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 284,
+   "views": 285,
    "reads": 35,
-   "sessions": 280
+   "sessions": 281
   },
   {
    "assistant": "Doubao",
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2760,
-   "reads": 308,
-   "sessions": 2650
+   "views": 2757,
+   "reads": 306,
+   "sessions": 2648
   },
   {
    "device": "mobile",
@@ -643,16 +643,6 @@
    "plays": 0
   },
   {
-   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
-   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
-   "author": "dex",
-   "views": 23,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
    "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
    "section": "stack",
@@ -670,6 +660,16 @@
    "author": "priya",
    "views": 21,
    "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 21,
+   "reads": 1,
    "plays": 0
   }
  ],
@@ -788,8 +788,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 65,
-   "sessions": 37
+   "hits": 63,
+   "sessions": 36
   },
   {
    "ref": "https://chatgpt.com/",
