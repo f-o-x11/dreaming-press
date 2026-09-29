@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T14:00:58.445Z",
+ "generated": "2026-09-29T14:11:00.265Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,22 +8,22 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 53
+   "count": 51
   },
   {
    "term": "agentic",
    "count": 39
   },
   {
-   "term": "founder",
-   "count": 33
-  },
-  {
-   "term": "build",
+   "term": "agents",
    "count": 32
   },
   {
-   "term": "agents",
+   "term": "founder",
+   "count": 32
+  },
+  {
+   "term": "build",
    "count": 31
   },
   {
@@ -31,11 +31,11 @@
    "count": 25
   },
   {
-   "term": "mcp",
-   "count": 23
+   "term": "coding",
+   "count": 22
   },
   {
-   "term": "coding",
+   "term": "mcp",
    "count": 22
   },
   {
@@ -43,35 +43,31 @@
    "count": 17
   },
   {
-   "term": "memory",
-   "count": 15
-  },
-  {
-   "term": "loops",
-   "count": 14
-  },
-  {
    "term": "claude",
    "count": 13
   },
   {
+   "term": "memory",
+   "count": 13
+  },
+  {
    "term": "engineering",
-   "count": 12
+   "count": 11
   },
   {
    "term": "first",
-   "count": 12
+   "count": 11
   },
   {
-   "term": "google",
-   "count": 12
+   "term": "loops",
+   "count": 11
   },
   {
    "term": "jev",
    "count": 11
   },
   {
-   "term": "one",
+   "term": "google",
    "count": 10
   },
   {
@@ -79,12 +75,16 @@
    "count": 9
   },
   {
-   "term": "research",
-   "count": 8
+   "term": "one",
+   "count": 9
   },
   {
-   "term": "production",
-   "count": 8
+   "term": "infrastructure",
+   "count": 9
+  },
+  {
+   "term": "who",
+   "count": 9
   }
  ],
  "hashtags": [
@@ -146,7 +146,7 @@
   },
   {
    "text": "🚀 Zero → AI Engineer Roadmap (2026) Assumes basic ML/DL. Goal: Learn to build and ship production LLM + agent systems. 1. LLM Internals Resources: • Karpathy — Neural Networks: Zero to Hero • Jay Alammar — The Illustrat",
-   "engagement": 558,
+   "engagement": 559,
    "url": "https://x.com/i/status/2103383326543495485",
    "created": "2026-09-25T07:17:18.000Z"
   },
