@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-29T15:22:09.590Z",
+ "generated": "2026-09-29T15:32:09.683Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16378,
+ "verifiedAiHits": 16383,
  "logsScanned": 30,
  "windowStart": "2026-09-15",
  "windowEnd": "2026-09-29",
- "totalHits": 106886,
- "aiHits": 86664,
+ "totalHits": 106942,
+ "aiHits": 86700,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30891,
+   "hits": 30896,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -43,44 +43,11 @@
    "verifiable": false
   },
   {
-   "name": "Amazonbot",
-   "label": "Amazon (Alexa / Rufus)",
-   "category": "ai",
-   "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14477,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-15",
-   "lastSeen": "2026-09-29",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 82
-    },
-    {
-     "path": "/dashboard",
-     "hits": 15
-    },
-    {
-     "path": "/",
-     "hits": 8
-    },
-    {
-     "path": "/stack/claude-agent-sdk",
-     "hits": 7
-    },
-    {
-     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 7
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "PetalBot",
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14474,
+   "hits": 14482,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -109,12 +76,45 @@
    "verifiable": false
   },
   {
+   "name": "Amazonbot",
+   "label": "Amazon (Alexa / Rufus)",
+   "category": "ai",
+   "home": "https://developer.amazon.com/amazonbot",
+   "hits": 14478,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-15",
+   "lastSeen": "2026-09-29",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 82
+    },
+    {
+     "path": "/dashboard",
+     "hits": 15
+    },
+    {
+     "path": "/",
+     "hits": 8
+    },
+    {
+     "path": "/stack/claude-agent-sdk",
+     "hits": 7
+    },
+    {
+     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
+     "hits": 7
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Bingbot",
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7843,
-   "verifiedHits": 7410,
+   "hits": 7851,
+   "verifiedHits": 7418,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4379,
+   "hits": 4382,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3667,
-   "verifiedHits": 3214,
+   "hits": 3672,
+   "verifiedHits": 3219,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
     {
      "path": "/",
-     "hits": 599
+     "hits": 600
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3383,
+   "hits": 3384,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -344,7 +344,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2920,
+   "hits": 2928,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2674,
+   "hits": 2676,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -410,14 +410,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2601,
+   "hits": 2604,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 459
+     "hits": 461
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
@@ -575,7 +575,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 373,
+   "hits": 385,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",

@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T15:22:10.092Z",
+ "generated": "2026-09-29T15:32:10.314Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,23 +8,27 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 49
+   "count": 48
   },
   {
    "term": "agentic",
-   "count": 39
-  },
-  {
-   "term": "agents",
-   "count": 32
-  },
-  {
-   "term": "founder",
-   "count": 32
+   "count": 38
   },
   {
    "term": "build",
    "count": 31
+  },
+  {
+   "term": "agents",
+   "count": 31
+  },
+  {
+   "term": "founder",
+   "count": 31
+  },
+  {
+   "term": "mcp",
+   "count": 24
   },
   {
    "term": "startup",
@@ -32,11 +36,7 @@
   },
   {
    "term": "coding",
-   "count": 23
-  },
-  {
-   "term": "mcp",
-   "count": 23
+   "count": 22
   },
   {
    "term": "building",
@@ -48,6 +48,22 @@
   },
   {
    "term": "memory",
+   "count": 13
+  },
+  {
+   "term": "engineering",
+   "count": 11
+  },
+  {
+   "term": "first",
+   "count": 11
+  },
+  {
+   "term": "google",
+   "count": 11
+  },
+  {
+   "term": "loops",
    "count": 11
   },
   {
@@ -55,23 +71,7 @@
    "count": 11
   },
   {
-   "term": "engineering",
-   "count": 10
-  },
-  {
-   "term": "first",
-   "count": 10
-  },
-  {
-   "term": "google",
-   "count": 10
-  },
-  {
    "term": "than",
-   "count": 9
-  },
-  {
-   "term": "production",
    "count": 9
   },
   {
@@ -79,12 +79,12 @@
    "count": 9
   },
   {
-   "term": "infrastructure",
-   "count": 9
+   "term": "production",
+   "count": 8
   },
   {
-   "term": "loops",
-   "count": 9
+   "term": "workflows",
+   "count": 8
   }
  ],
  "hashtags": [
@@ -176,7 +176,7 @@
   },
   {
    "text": "Build your personal AI video editor, but not from scratch! I'm seeing more people vibe coding NLEs for their agents. I love this direction. But do yourself a favour: fork Diffusion Studio. We've spent years building it a",
-   "engagement": 105,
+   "engagement": 106,
    "url": "https://x.com/i/status/2104597254585643425",
    "created": "2026-09-28T15:41:01.000Z"
   },

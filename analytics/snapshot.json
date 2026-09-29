@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-29T15:22:10.146Z",
+ "generated": "2026-09-29T15:32:10.362Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 14,
+  "readersNow": 5,
+  "todayReads": 15,
   "avgTimeSec": 60,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3322,
-  "reads": 328,
+  "views": 3323,
+  "reads": 329,
   "completes": 12,
   "plays": 14,
-  "sessions": 3197
+  "sessions": 3198
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2800,
-   "reads": 164,
-   "sessions": 2811
+   "views": 2801,
+   "reads": 165,
+   "sessions": 2812
   },
   {
    "channel": "organic",
@@ -79,12 +79,12 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2800,
-   "reads": 164,
+   "views": 2801,
+   "reads": 165,
    "completes": 7,
-   "sessions": 2811,
+   "sessions": 2812,
    "read_rate": 0.059,
-   "complete_rate": 0.003,
+   "complete_rate": 0.002,
    "pages_per_session": 1,
    "median_dwell_sec": 5
   },
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2759,
+   "views": 2758,
    "reads": 303,
-   "sessions": 2647
+   "sessions": 2646
   },
   {
    "device": "mobile",
-   "views": 563,
-   "reads": 25,
-   "sessions": 550
+   "views": 565,
+   "reads": 26,
+   "sessions": 552
   }
  ],
  "topContent": [
@@ -334,7 +334,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 77,
+   "views": 78,
    "reads": 14,
    "plays": 1
   },
@@ -476,7 +476,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 77,
+   "views": 78,
    "reads": 14,
    "plays": 1
   },
@@ -578,7 +578,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 77,
+   "views": 78,
    "reads": 14,
    "plays": 1
   },
@@ -676,9 +676,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 400,
+   "views": 401,
    "reads": 0,
-   "sessions": 400,
+   "sessions": 401,
    "avg_dwell_sec": 5
   },
   {
