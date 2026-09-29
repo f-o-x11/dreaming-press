@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-29T07:14Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-29T07:24Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -108,9 +108,9 @@ sample size dwarfs the engaged-read counts below.
 - /build  — 28 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4586 verified): /wire.html ×52 · /tools ×34 · /posts/open-source-llm-for-coding-september-2026.html ×31
-- PerplexityBot (4348 verified): /build ×28 · / ×24 · /dashboard ×19
-- ChatGPT-User (3114 verified): / ×585 · /posts/open-source-llm-for-coding-september-2026.html ×187 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×151
+- OAI-SearchBot (4587 verified): /wire.html ×52 · /tools ×34 · /posts/open-source-llm-for-coding-september-2026.html ×31
+- PerplexityBot (4349 verified): /build ×28 · / ×24 · /dashboard ×19
+- ChatGPT-User (3117 verified): / ×585 · /posts/open-source-llm-for-coding-september-2026.html ×187 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×151
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -158,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16129 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4586, Perplexity 4348, GPTBot (OpenAI) 4081, ChatGPT (user browsing) 3114).
+The real answer engines are crawling us — IP-verified: 16134 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4587, Perplexity 4349, GPTBot (OpenAI) 4081, ChatGPT (user browsing) 3117).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 617 crawler fetches
 - /build  — 464 crawler fetches

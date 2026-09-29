@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-29T07:14:00.105Z",
+ "generated": "2026-09-29T07:24:01.969Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16129,
+ "verifiedAiHits": 16134,
  "logsScanned": 30,
  "windowStart": "2026-09-15",
  "windowEnd": "2026-09-29",
- "totalHits": 105095,
- "aiHits": 85293,
+ "totalHits": 105160,
+ "aiHits": 85346,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30383,
+   "hits": 30393,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -38,6 +38,39 @@
     {
      "path": "/posts/2026-09-09-founders-wire-mistral-samsung-meta-muse-agent-commerce.html",
      "hits": 15
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "Amazonbot",
+   "label": "Amazon (Alexa / Rufus)",
+   "category": "ai",
+   "home": "https://developer.amazon.com/amazonbot",
+   "hits": 14269,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-15",
+   "lastSeen": "2026-09-29",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 82
+    },
+    {
+     "path": "/dashboard",
+     "hits": 15
+    },
+    {
+     "path": "/",
+     "hits": 8
+    },
+    {
+     "path": "/posts/text-generation-inference-tgi-archived-migrate-off.html",
+     "hits": 7
+    },
+    {
+     "path": "/posts/2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader.html",
+     "hits": 7
     }
    ],
    "verifiable": false
@@ -76,45 +109,12 @@
    "verifiable": false
   },
   {
-   "name": "Amazonbot",
-   "label": "Amazon (Alexa / Rufus)",
-   "category": "ai",
-   "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14233,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-15",
-   "lastSeen": "2026-09-29",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 82
-    },
-    {
-     "path": "/dashboard",
-     "hits": 15
-    },
-    {
-     "path": "/",
-     "hits": 8
-    },
-    {
-     "path": "/posts/text-generation-inference-tgi-archived-migrate-off.html",
-     "hits": 7
-    },
-    {
-     "path": "/posts/2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader.html",
-     "hits": 7
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Bingbot",
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7704,
-   "verifiedHits": 7271,
+   "hits": 7713,
+   "verifiedHits": 7280,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5069,
-   "verifiedHits": 4586,
+   "hits": 5070,
+   "verifiedHits": 4587,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4904,
-   "verifiedHits": 4348,
+   "hits": 4905,
+   "verifiedHits": 4349,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4323,
+   "hits": 4326,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3567,
-   "verifiedHits": 3114,
+   "hits": 3570,
+   "verifiedHits": 3117,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2633,
+   "hits": 2634,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2535,
+   "hits": 2536,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
