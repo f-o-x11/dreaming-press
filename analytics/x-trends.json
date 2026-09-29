@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T00:37:59.562Z",
+ "generated": "2026-09-29T00:48:00.094Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,18 +8,18 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 49
+   "count": 46
   },
   {
    "term": "agentic",
-   "count": 38
-  },
-  {
-   "term": "founder",
-   "count": 34
+   "count": 39
   },
   {
    "term": "agents",
+   "count": 33
+  },
+  {
+   "term": "founder",
    "count": 33
   },
   {
@@ -27,27 +27,31 @@
    "count": 31
   },
   {
-   "term": "coding",
-   "count": 24
-  },
-  {
    "term": "startup",
    "count": 24
   },
   {
+   "term": "coding",
+   "count": 23
+  },
+  {
    "term": "building",
-   "count": 22
+   "count": 21
   },
   {
    "term": "mcp",
    "count": 21
   },
   {
-   "term": "claude",
-   "count": 14
+   "term": "engineering",
+   "count": 11
   },
   {
-   "term": "engineering",
+   "term": "claude",
+   "count": 11
+  },
+  {
+   "term": "memory",
    "count": 11
   },
   {
@@ -59,8 +63,8 @@
    "count": 10
   },
   {
-   "term": "memory",
-   "count": 10
+   "term": "years",
+   "count": 9
   },
   {
    "term": "google",
@@ -75,15 +79,11 @@
    "count": 9
   },
   {
-   "term": "years",
-   "count": 8
-  },
-  {
-   "term": "code",
-   "count": 8
-  },
-  {
    "term": "production",
+   "count": 8
+  },
+  {
+   "term": "infrastructure",
    "count": 8
   }
  ],
@@ -145,12 +145,6 @@
    "created": "2026-09-26T17:34:00.000Z"
   },
   {
-   "text": "Being able to demonstrate that you can build production-ready AI agents is super useful these days. In this 8-hour course, Andrew helps you prepare for the Claude Certified Developer Foundations cert. You'll learn about ",
-   "engagement": 978,
-   "url": "https://x.com/i/status/2103213282618167787",
-   "created": "2026-09-24T20:01:37.000Z"
-  },
-  {
    "text": "🚀 Zero → AI Engineer Roadmap (2026) Assumes basic ML/DL. Goal: Learn to build and ship production LLM + agent systems. 1. LLM Internals Resources: • Karpathy — Neural Networks: Zero to Hero • Jay Alammar — The Illustrat",
    "engagement": 558,
    "url": "https://x.com/i/status/2103383326543495485",
@@ -173,6 +167,12 @@
    "engagement": 178,
    "url": "https://x.com/i/status/2102744804127842654",
    "created": "2026-09-23T13:00:03.000Z"
+  },
+  {
+   "text": "AI is getting smarter. But smarter agents alone won’t build the agentic economy. They need somewhere to verify identity, prove permissions, move money and settle transactions without turning every interaction into a manu",
+   "engagement": 163,
+   "url": "https://x.com/i/status/2104645989801791697",
+   "created": "2026-09-28T18:54:41.000Z"
   },
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
