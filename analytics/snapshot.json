@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-29T01:08:20.688Z",
+ "generated": "2026-09-29T01:18:50.228Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 6,
   "todayReads": 2,
   "avgTimeSec": 735,
   "postsThisWeek": 9
@@ -703,18 +703,18 @@
    "avg_dwell_sec": 3
   },
   {
-   "path": "/compare/:pair",
-   "views": 23,
-   "reads": 2,
-   "sessions": 23,
-   "avg_dwell_sec": 108
-  },
-  {
    "path": "/dashboard",
    "views": 23,
    "reads": 1,
    "sessions": 10,
    "avg_dwell_sec": 28
+  },
+  {
+   "path": "/compare/:pair",
+   "views": 22,
+   "reads": 2,
+   "sessions": 22,
+   "avg_dwell_sec": 134
   },
   {
    "path": "/submit.html",

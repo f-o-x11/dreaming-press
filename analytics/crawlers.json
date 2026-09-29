@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-29T01:08:19.985Z",
+ "generated": "2026-09-29T01:18:49.618Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15931,
+ "verifiedAiHits": 15934,
  "logsScanned": 30,
  "windowStart": "2026-09-15",
  "windowEnd": "2026-09-29",
- "totalHits": 103627,
- "aiHits": 84302,
+ "totalHits": 103649,
+ "aiHits": 84308,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29878,
+   "hits": 29880,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7579,
-   "verifiedHits": 7146,
+   "hits": 7584,
+   "verifiedHits": 7151,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 100
+     "hits": 101
     },
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
@@ -146,14 +146,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4962,
-   "verifiedHits": 4484,
+   "hits": 4964,
+   "verifiedHits": 4486,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
     {
      "path": "/wire.html",
-     "hits": 50
+     "hits": 51
     },
     {
      "path": "/tools",
@@ -245,7 +245,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4161,
+   "hits": 4163,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3502,
-   "verifiedHits": 3053,
+   "hits": 3503,
+   "verifiedHits": 3054,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 2625,
+   "hits": 2634,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2494,
+   "hits": 2495,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
