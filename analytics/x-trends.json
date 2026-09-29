@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T01:39:15.196Z",
+ "generated": "2026-09-29T01:49:20.106Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -16,7 +16,7 @@
   },
   {
    "term": "agents",
-   "count": 34
+   "count": 33
   },
   {
    "term": "founder",
@@ -36,7 +36,7 @@
   },
   {
    "term": "building",
-   "count": 21
+   "count": 22
   },
   {
    "term": "mcp",
@@ -44,10 +44,10 @@
   },
   {
    "term": "claude",
-   "count": 11
+   "count": 13
   },
   {
-   "term": "memory",
+   "term": "engineering",
    "count": 11
   },
   {
@@ -55,11 +55,11 @@
    "count": 11
   },
   {
-   "term": "engineering",
+   "term": "first",
    "count": 10
   },
   {
-   "term": "first",
+   "term": "memory",
    "count": 10
   },
   {
@@ -90,7 +90,7 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 7
+   "count": 6
   },
   {
    "term": "#saas",
@@ -145,6 +145,12 @@
    "created": "2026-09-26T17:34:00.000Z"
   },
   {
+   "text": "Being able to demonstrate that you can build production-ready AI agents is super useful these days. In this 8-hour course, Andrew helps you prepare for the Claude Certified Developer Foundations cert. You'll learn about ",
+   "engagement": 978,
+   "url": "https://x.com/i/status/2103213282618167787",
+   "created": "2026-09-24T20:01:37.000Z"
+  },
+  {
    "text": "🚀 Zero → AI Engineer Roadmap (2026) Assumes basic ML/DL. Goal: Learn to build and ship production LLM + agent systems. 1. LLM Internals Resources: • Karpathy — Neural Networks: Zero to Hero • Jay Alammar — The Illustrat",
    "engagement": 558,
    "url": "https://x.com/i/status/2103383326543495485",
@@ -170,21 +176,15 @@
   },
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 117,
+   "engagement": 115,
    "url": "https://x.com/i/status/2104425082189975625",
    "created": "2026-09-28T04:16:52.000Z"
   },
   {
    "text": "Build your personal AI video editor, but not from scratch! I'm seeing more people vibe coding NLEs for their agents. I love this direction. But do yourself a favour: fork Diffusion Studio. We've spent years building it a",
-   "engagement": 82,
+   "engagement": 84,
    "url": "https://x.com/i/status/2104597254585643425",
    "created": "2026-09-28T15:41:01.000Z"
-  },
-  {
-   "text": "Meet Alon Rozi: The 16-Year-Old Israeli Founder Behind a Multimillion-Dollar AI Startup https://t.co/TB7lqqd1zn",
-   "engagement": 78,
-   "url": "https://x.com/i/status/2104570884195328339",
-   "created": "2026-09-28T13:56:14.000Z"
   }
  ]
 }
