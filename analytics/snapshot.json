@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-29T23:30:51.017Z",
+ "generated": "2026-09-29T23:40:51.952Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 18,
-  "avgTimeSec": 49,
+  "readersNow": 5,
+  "todayReads": 20,
+  "avgTimeSec": 65,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3326,
-  "reads": 326,
+  "views": 3328,
+  "reads": 328,
   "completes": 12,
   "plays": 14,
-  "sessions": 3200
+  "sessions": 3202
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2811,
-   "reads": 166,
-   "sessions": 2820
+   "views": 2812,
+   "reads": 167,
+   "sessions": 2822
   },
   {
    "channel": "organic",
-   "views": 156,
-   "reads": 103,
-   "sessions": 116
+   "views": 157,
+   "reads": 104,
+   "sessions": 117
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2811,
-   "reads": 166,
+   "views": 2812,
+   "reads": 167,
    "completes": 7,
-   "sessions": 2820,
+   "sessions": 2822,
    "read_rate": 0.059,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -101,12 +101,12 @@
   },
   {
    "channel": "organic",
-   "views": 156,
-   "reads": 103,
+   "views": 157,
+   "reads": 104,
    "completes": 4,
-   "sessions": 116,
-   "read_rate": 0.66,
-   "complete_rate": 0.026,
+   "sessions": 117,
+   "read_rate": 0.662,
+   "complete_rate": 0.025,
    "pages_per_session": 1.34,
    "median_dwell_sec": null
   },
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2767,
-   "reads": 302,
-   "sessions": 2654
+   "views": 2768,
+   "reads": 304,
+   "sessions": 2655
   },
   {
    "device": "mobile",
-   "views": 559,
+   "views": 560,
    "reads": 24,
-   "sessions": 546
+   "sessions": 547
   }
  ],
  "topContent": [
@@ -355,7 +355,7 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 11,
-   "reads": 8,
+   "reads": 9,
    "plays": 0
   },
   {
@@ -683,9 +683,9 @@
   },
   {
    "path": "/",
-   "views": 131,
+   "views": 132,
    "reads": 3,
-   "sessions": 130,
+   "sessions": 131,
    "avg_dwell_sec": 14
   },
   {
@@ -803,8 +803,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 41,
-   "sessions": 22
+   "hits": 43,
+   "sessions": 23
   },
   {
    "ref": "https://search.brave.com/",
