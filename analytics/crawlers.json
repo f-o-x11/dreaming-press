@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-29T03:51:23.146Z",
+ "generated": "2026-09-29T04:01:27.062Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16009,
+ "verifiedAiHits": 16013,
  "logsScanned": 30,
  "windowStart": "2026-09-15",
  "windowEnd": "2026-09-29",
- "totalHits": 104309,
- "aiHits": 84719,
+ "totalHits": 104339,
+ "aiHits": 84744,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30121,
+   "hits": 30141,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7632,
-   "verifiedHits": 7199,
+   "hits": 7635,
+   "verifiedHits": 7202,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5003,
-   "verifiedHits": 4525,
+   "hits": 5005,
+   "verifiedHits": 4527,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
@@ -164,11 +164,11 @@
      "hits": 30
     },
     {
-     "path": "/posts/best-open-source-vector-database-2026.html",
-     "hits": 29
+     "path": "/posts/open-source-llm-for-coding-september-2026.html",
+     "hits": 30
     },
     {
-     "path": "/posts/open-source-llm-for-coding-september-2026.html",
+     "path": "/posts/best-open-source-vector-database-2026.html",
      "hits": 29
     }
    ],
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3525,
-   "verifiedHits": 3076,
+   "hits": 3527,
+   "verifiedHits": 3078,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2510,
+   "hits": 2511,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -421,7 +421,7 @@
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
-     "hits": 216
+     "hits": 217
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 615,
-   "verifiedHits": 455,
+   "hits": 617,
+   "verifiedHits": 457,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
