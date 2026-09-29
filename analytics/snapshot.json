@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-29T08:44:59.705Z",
+ "generated": "2026-09-29T08:55:00.446Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
   "todayReads": 9,
-  "avgTimeSec": 89,
+  "avgTimeSec": 86,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3324,
+  "views": 3326,
   "reads": 331,
   "completes": 12,
   "plays": 14,
-  "sessions": 3202
+  "sessions": 3203
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2806,
+   "views": 2807,
    "reads": 165,
-   "sessions": 2819
+   "sessions": 2820
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 27,
+   "views": 28,
    "reads": 11,
-   "sessions": 46
+   "sessions": 47
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2806,
+   "views": 2807,
    "reads": 165,
    "completes": 7,
-   "sessions": 2819,
+   "sessions": 2820,
    "read_rate": 0.059,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 27,
+   "views": 28,
    "reads": 11,
    "completes": 0,
-   "sessions": 46,
-   "read_rate": 0.407,
+   "sessions": 47,
+   "read_rate": 0.393,
    "complete_rate": 0,
-   "pages_per_session": 0.59,
+   "pages_per_session": 0.6,
    "median_dwell_sec": 13
   },
   {
@@ -280,9 +280,9 @@
   },
   {
    "assistant": "Perplexity",
-   "views": 3,
+   "views": 4,
    "reads": 2,
-   "sessions": 3
+   "sessions": 4
   },
   {
    "assistant": "Claude",
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2757,
+   "views": 2758,
    "reads": 306,
    "sessions": 2648
   },
   {
    "device": "mobile",
-   "views": 567,
+   "views": 568,
    "reads": 25,
-   "sessions": 554
+   "sessions": 555
   }
  ],
  "topContent": [
