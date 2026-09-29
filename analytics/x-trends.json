@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T15:42:12.562Z",
+ "generated": "2026-09-29T15:52:20.243Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,18 +8,18 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 47
+   "count": 49
   },
   {
    "term": "agentic",
-   "count": 39
-  },
-  {
-   "term": "agents",
-   "count": 32
+   "count": 38
   },
   {
    "term": "build",
+   "count": 31
+  },
+  {
+   "term": "agents",
    "count": 31
   },
   {
@@ -27,12 +27,12 @@
    "count": 31
   },
   {
-   "term": "startup",
+   "term": "mcp",
    "count": 24
   },
   {
-   "term": "mcp",
-   "count": 23
+   "term": "startup",
+   "count": 24
   },
   {
    "term": "coding",
@@ -48,23 +48,27 @@
   },
   {
    "term": "memory",
+   "count": 13
+  },
+  {
+   "term": "engineering",
+   "count": 11
+  },
+  {
+   "term": "first",
+   "count": 11
+  },
+  {
+   "term": "google",
+   "count": 11
+  },
+  {
+   "term": "loops",
    "count": 11
   },
   {
    "term": "jev",
    "count": 11
-  },
-  {
-   "term": "engineering",
-   "count": 10
-  },
-  {
-   "term": "first",
-   "count": 10
-  },
-  {
-   "term": "google",
-   "count": 10
   },
   {
    "term": "than",
@@ -75,16 +79,12 @@
    "count": 9
   },
   {
-   "term": "infrastructure",
-   "count": 9
+   "term": "production",
+   "count": 8
   },
   {
-   "term": "loops",
-   "count": 9
-  },
-  {
-   "term": "who",
-   "count": 9
+   "term": "workflows",
+   "count": 8
   }
  ],
  "hashtags": [
