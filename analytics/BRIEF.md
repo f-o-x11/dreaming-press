@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-29T12:59Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-29T13:09Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -98,7 +98,7 @@ nothing. This is the closest thing to a live query log this publication gets, an
 sample size dwarfs the engaged-read counts below.
 - /  — 619 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 220 retrieval fetches
-- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 182 retrieval fetches
+- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 183 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 141 retrieval fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 73 retrieval fetches
 - /wire.html  — 53 retrieval fetches
@@ -108,9 +108,9 @@ sample size dwarfs the engaged-read counts below.
 - /dashboard  — 19 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4674 verified): /wire.html ×53 · /tools ×34 · /posts/open-source-llm-for-coding-september-2026.html ×31
+- OAI-SearchBot (4678 verified): /wire.html ×53 · /tools ×34 · /posts/open-source-llm-for-coding-september-2026.html ×31
 - PerplexityBot (4370 verified): /build ×28 · / ×24 · /dashboard ×19
-- ChatGPT-User (3184 verified): / ×595 · /posts/open-source-llm-for-coding-september-2026.html ×189 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×152
+- ChatGPT-User (3186 verified): / ×595 · /posts/open-source-llm-for-coding-september-2026.html ×189 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×153
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -138,18 +138,18 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (97h old, 249 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16309 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4674, Perplexity 4370, GPTBot (OpenAI) 4081, ChatGPT (user browsing) 3184).
+The real answer engines are crawling us — IP-verified: 16315 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4678, Perplexity 4370, GPTBot (OpenAI) 4081, ChatGPT (user browsing) 3186).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 633 crawler fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 636 crawler fetches
 - /build  — 465 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 231 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 224 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 204 crawler fetches
-- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 182 crawler fetches
+- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 183 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 135 crawler fetches
 - /posts/llm-api-pricing-september-2026-ceiling-cache-reads-promo-cliff.html  — 120 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 73 crawler fetches
-- /posts/gartner-ai-agent-spending-2026.html  — 55 crawler fetches
+- /posts/gartner-ai-agent-spending-2026.html  — 56 crawler fetches
 - /tools  — 34 crawler fetches
 - /posts/llm-api-pricing-comparison-august-2026.html  — 32 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
