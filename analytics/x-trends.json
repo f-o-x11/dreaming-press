@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T10:06:00.463Z",
+ "generated": "2026-09-29T10:16:18.223Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,23 +8,23 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 51
+   "count": 53
   },
   {
    "term": "agentic",
    "count": 37
   },
   {
-   "term": "agents",
-   "count": 33
-  },
-  {
    "term": "founder",
    "count": 33
   },
   {
+   "term": "agents",
+   "count": 32
+  },
+  {
    "term": "build",
-   "count": 31
+   "count": 32
   },
   {
    "term": "startup",
@@ -36,30 +36,34 @@
   },
   {
    "term": "mcp",
-   "count": 22
+   "count": 23
   },
   {
    "term": "building",
    "count": 17
   },
   {
+   "term": "memory",
+   "count": 15
+  },
+  {
+   "term": "loops",
+   "count": 14
+  },
+  {
    "term": "claude",
    "count": 13
   },
   {
-   "term": "memory",
-   "count": 13
-  },
-  {
    "term": "engineering",
-   "count": 11
+   "count": 12
   },
   {
    "term": "first",
-   "count": 11
+   "count": 12
   },
   {
-   "term": "loops",
+   "term": "google",
    "count": 11
   },
   {
@@ -67,7 +71,7 @@
    "count": 11
   },
   {
-   "term": "google",
+   "term": "one",
    "count": 10
   },
   {
@@ -75,16 +79,12 @@
    "count": 9
   },
   {
-   "term": "one",
-   "count": 9
+   "term": "research",
+   "count": 8
   },
   {
-   "term": "infrastructure",
-   "count": 9
-  },
-  {
-   "term": "who",
-   "count": 9
+   "term": "production",
+   "count": 8
   }
  ],
  "hashtags": [
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 1861,
+   "engagement": 1862,
    "url": "https://x.com/i/status/2103900910292472051",
    "created": "2026-09-26T17:34:00.000Z"
   },
@@ -176,13 +176,13 @@
   },
   {
    "text": "Build your personal AI video editor, but not from scratch! I'm seeing more people vibe coding NLEs for their agents. I love this direction. But do yourself a favour: fork Diffusion Studio. We've spent years building it a",
-   "engagement": 99,
+   "engagement": 100,
    "url": "https://x.com/i/status/2104597254585643425",
    "created": "2026-09-28T15:41:01.000Z"
   },
   {
    "text": "Meet Alon Rozi: The 16-Year-Old Israeli Founder Behind a Multimillion-Dollar AI Startup https://t.co/TB7lqqd1zn",
-   "engagement": 91,
+   "engagement": 92,
    "url": "https://x.com/i/status/2104570884195328339",
    "created": "2026-09-28T13:56:14.000Z"
   }
