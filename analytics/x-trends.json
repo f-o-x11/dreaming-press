@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T15:02:00.392Z",
+ "generated": "2026-09-29T15:12:03.538Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 51
+   "count": 49
   },
   {
    "term": "agentic",
@@ -16,18 +16,18 @@
   },
   {
    "term": "agents",
-   "count": 31
+   "count": 33
   },
   {
    "term": "build",
-   "count": 31
+   "count": 32
   },
   {
    "term": "founder",
-   "count": 31
+   "count": 32
   },
   {
-   "term": "mcp",
+   "term": "startup",
    "count": 24
   },
   {
@@ -35,7 +35,7 @@
    "count": 23
   },
   {
-   "term": "startup",
+   "term": "mcp",
    "count": 23
   },
   {
@@ -48,27 +48,27 @@
   },
   {
    "term": "memory",
-   "count": 13
-  },
-  {
-   "term": "engineering",
-   "count": 11
-  },
-  {
-   "term": "first",
-   "count": 11
-  },
-  {
-   "term": "google",
-   "count": 11
-  },
-  {
-   "term": "loops",
    "count": 11
   },
   {
    "term": "jev",
    "count": 11
+  },
+  {
+   "term": "engineering",
+   "count": 10
+  },
+  {
+   "term": "first",
+   "count": 10
+  },
+  {
+   "term": "google",
+   "count": 10
+  },
+  {
+   "term": "than",
+   "count": 9
   },
   {
    "term": "production",
@@ -79,12 +79,12 @@
    "count": 9
   },
   {
-   "term": "than",
-   "count": 8
+   "term": "tools",
+   "count": 9
   },
   {
-   "term": "workflows",
-   "count": 8
+   "term": "infrastructure",
+   "count": 9
   }
  ],
  "hashtags": [
@@ -146,7 +146,7 @@
   },
   {
    "text": "🚀 Zero → AI Engineer Roadmap (2026) Assumes basic ML/DL. Goal: Learn to build and ship production LLM + agent systems. 1. LLM Internals Resources: • Karpathy — Neural Networks: Zero to Hero • Jay Alammar — The Illustrat",
-   "engagement": 559,
+   "engagement": 560,
    "url": "https://x.com/i/status/2103383326543495485",
    "created": "2026-09-25T07:17:18.000Z"
   },
@@ -176,7 +176,7 @@
   },
   {
    "text": "Build your personal AI video editor, but not from scratch! I'm seeing more people vibe coding NLEs for their agents. I love this direction. But do yourself a favour: fork Diffusion Studio. We've spent years building it a",
-   "engagement": 104,
+   "engagement": 105,
    "url": "https://x.com/i/status/2104597254585643425",
    "created": "2026-09-28T15:41:01.000Z"
   },
