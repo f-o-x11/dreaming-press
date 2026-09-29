@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-29T03:20:57.716Z",
+ "generated": "2026-09-29T03:30:59.775Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15997,
+ "verifiedAiHits": 16004,
  "logsScanned": 30,
  "windowStart": "2026-09-15",
  "windowEnd": "2026-09-29",
- "totalHits": 104205,
- "aiHits": 84636,
+ "totalHits": 104225,
+ "aiHits": 84653,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30079,
+   "hits": 30087,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7626,
-   "verifiedHits": 7193,
+   "hits": 7629,
+   "verifiedHits": 7196,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4995,
-   "verifiedHits": 4517,
+   "hits": 4999,
+   "verifiedHits": 4521,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4868,
-   "verifiedHits": 4326,
+   "hits": 4870,
+   "verifiedHits": 4328,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3523,
-   "verifiedHits": 3074,
+   "hits": 3524,
+   "verifiedHits": 3075,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
    "topPaths": [
@@ -301,7 +301,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 66
+     "hits": 67
     }
    ],
    "verifiable": true
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2606,
+   "hits": 2607,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2505,
+   "hits": 2506,
    "verifiedHits": 0,
    "firstSeen": "2026-09-15",
    "lastSeen": "2026-09-29",
