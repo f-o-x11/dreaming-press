@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-29T16:12:24.500Z",
+ "generated": "2026-09-29T16:22:36.954Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,11 +8,11 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 48
+   "count": 49
   },
   {
    "term": "agentic",
-   "count": 39
+   "count": 37
   },
   {
    "term": "agents",
@@ -24,15 +24,15 @@
   },
   {
    "term": "founder",
-   "count": 30
+   "count": 31
   },
   {
    "term": "mcp",
-   "count": 25
+   "count": 24
   },
   {
    "term": "startup",
-   "count": 23
+   "count": 24
   },
   {
    "term": "coding",
@@ -43,12 +43,12 @@
    "count": 17
   },
   {
-   "term": "memory",
-   "count": 13
+   "term": "claude",
+   "count": 14
   },
   {
-   "term": "claude",
-   "count": 12
+   "term": "memory",
+   "count": 13
   },
   {
    "term": "engineering",
@@ -71,19 +71,19 @@
    "count": 11
   },
   {
+   "term": "than",
+   "count": 9
+  },
+  {
+   "term": "one",
+   "count": 9
+  },
+  {
    "term": "production",
    "count": 8
   },
   {
-   "term": "one",
-   "count": 8
-  },
-  {
    "term": "workflows",
-   "count": 8
-  },
-  {
-   "term": "infrastructure",
    "count": 8
   }
  ],
