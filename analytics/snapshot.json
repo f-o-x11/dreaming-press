@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-30T01:03:00.098Z",
+ "generated": "2026-09-30T01:13:33.971Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
   "todayReads": 0,
-  "avgTimeSec": 12,
+  "avgTimeSec": 7,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3330,
+  "views": 3332,
   "reads": 325,
   "completes": 12,
   "plays": 14,
-  "sessions": 3205
+  "sessions": 3207
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2815,
+   "views": 2817,
    "reads": 166,
-   "sessions": 2825
+   "sessions": 2827
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2815,
+   "views": 2817,
    "reads": 166,
    "completes": 7,
-   "sessions": 2825,
+   "sessions": 2827,
    "read_rate": 0.059,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -312,9 +312,9 @@
   },
   {
    "device": "mobile",
-   "views": 559,
+   "views": 561,
    "reads": 24,
-   "sessions": 546
+   "sessions": 548
   }
  ],
  "topContent": [
@@ -511,21 +511,21 @@
    "plays": 1
   },
   {
-   "slug": "gartner-ai-agent-spending-2026",
-   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
-   "section": "wire",
-   "tags": "[\"reportive\",\"cynical\"]",
-   "author": "priya",
-   "views": 5,
-   "reads": 2,
-   "plays": 1
-  },
-  {
    "slug": "2026-06-21-n8n-vs-flowise-vs-langflow",
    "title": "n8n vs Flowise vs Langflow: Choosing a Visual Agent Builder in 2026",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
+   "views": 4,
+   "reads": 2,
+   "plays": 1
+  },
+  {
+   "slug": "gartner-ai-agent-spending-2026",
+   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
+   "section": "wire",
+   "tags": "[\"reportive\",\"cynical\"]",
+   "author": "priya",
    "views": 4,
    "reads": 2,
    "plays": 1
