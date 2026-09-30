@@ -1,37 +1,37 @@
 {
- "generated": "2026-09-30T14:15:44.516Z",
+ "generated": "2026-09-30T14:25:50.352Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 6,
   "todayReads": 15,
   "avgTimeSec": 33,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3351,
-  "reads": 324,
+  "views": 3354,
+  "reads": 323,
   "completes": 12,
   "plays": 13,
-  "sessions": 3230
+  "sessions": 3233
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2864,
-   "reads": 166,
+   "reads": 165,
    "sessions": 2873
   },
   {
    "channel": "organic",
-   "views": 159,
+   "views": 163,
    "reads": 109,
-   "sessions": 119
+   "sessions": 123
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 255,
+   "views": 254,
    "reads": 31,
-   "sessions": 255
+   "sessions": 254
   },
   {
    "channel": "ai",
@@ -80,7 +80,7 @@
   {
    "channel": "direct",
    "views": 2864,
-   "reads": 166,
+   "reads": 165,
    "completes": 7,
    "sessions": 2873,
    "read_rate": 0.058,
@@ -90,10 +90,10 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 255,
+   "views": 254,
    "reads": 31,
    "completes": 1,
-   "sessions": 255,
+   "sessions": 254,
    "read_rate": 0.122,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -101,13 +101,13 @@
   },
   {
    "channel": "organic",
-   "views": 159,
+   "views": 163,
    "reads": 109,
    "completes": 4,
-   "sessions": 119,
-   "read_rate": 0.686,
+   "sessions": 123,
+   "read_rate": 0.669,
    "complete_rate": 0.025,
-   "pages_per_session": 1.34,
+   "pages_per_session": 1.33,
    "median_dwell_sec": null
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 262,
+   "views": 261,
    "reads": 32,
-   "sessions": 259
+   "sessions": 258
   },
   {
    "assistant": "Doubao",
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2767,
-   "reads": 299,
-   "sessions": 2659
+   "views": 2768,
+   "reads": 298,
+   "sessions": 2660
   },
   {
    "device": "mobile",
-   "views": 584,
+   "views": 586,
    "reads": 25,
-   "sessions": 571
+   "sessions": 573
   }
  ],
  "topContent": [
@@ -429,16 +429,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-routellm-vs-notdiamond-vs-martian",
-   "title": "RouteLLM vs NotDiamond vs Martian: Do LLM Model Routers Actually Cut Costs?",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-security-jobs",
    "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
    "section": "stack",
@@ -465,6 +455,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 11,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
+   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
    "reads": 4,
    "plays": 0
   }
@@ -638,7 +638,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 22,
+   "views": 21,
    "reads": 0,
    "plays": 0
   },
