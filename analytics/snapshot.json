@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-30T03:05:58.987Z",
+ "generated": "2026-09-30T03:16:00.280Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 3,
   "todayReads": 1,
   "avgTimeSec": 53,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3324,
+  "views": 3317,
   "reads": 322,
   "completes": 12,
   "plays": 14,
-  "sessions": 3201
+  "sessions": 3199
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2821,
+   "views": 2814,
    "reads": 166,
-   "sessions": 2830
+   "sessions": 2828
   },
   {
    "channel": "organic",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 19
+   "sessions": 18
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2821,
+   "views": 2814,
    "reads": 166,
    "completes": 7,
-   "sessions": 2830,
+   "sessions": 2828,
    "read_rate": 0.059,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 19,
+   "sessions": 18,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -195,19 +195,19 @@
    "sessions": 8
   },
   {
-   "surface": "dash-range",
-   "clicks": 9,
-   "sessions": 2
-  },
-  {
    "surface": "nav-cmp",
    "clicks": 6,
    "sessions": 4
   },
   {
-   "surface": "btn-stats",
+   "surface": "dash-range",
    "clicks": 6,
-   "sessions": 3
+   "sessions": 1
+  },
+  {
+   "surface": "btn-stats",
+   "clicks": 5,
+   "sessions": 2
   },
   {
    "surface": "f-cols",
@@ -240,11 +240,6 @@
    "sessions": 1
   },
   {
-   "surface": "tr-row",
-   "clicks": 1,
-   "sessions": 1
-  },
-  {
    "surface": "sb-right",
    "clicks": 1,
    "sessions": 1
@@ -261,6 +256,11 @@
   },
   {
    "surface": "auto-link",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
+   "surface": "article-body",
    "clicks": 1,
    "sessions": 1
   }
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2767,
+   "views": 2759,
    "reads": 299,
-   "sessions": 2657
+   "sessions": 2654
   },
   {
    "device": "mobile",
-   "views": 557,
+   "views": 558,
    "reads": 23,
-   "sessions": 544
+   "sessions": 545
   }
  ],
  "topContent": [
@@ -683,9 +683,9 @@
   },
   {
    "path": "/",
-   "views": 133,
+   "views": 132,
    "reads": 3,
-   "sessions": 132,
+   "sessions": 131,
    "avg_dwell_sec": 14
   },
   {
@@ -703,18 +703,18 @@
    "avg_dwell_sec": 3
   },
   {
-   "path": "/dashboard",
-   "views": 23,
-   "reads": 1,
-   "sessions": 10,
-   "avg_dwell_sec": 28
-  },
-  {
    "path": "/compare/:pair",
    "views": 21,
    "reads": 1,
    "sessions": 21,
    "avg_dwell_sec": 148
+  },
+  {
+   "path": "/dashboard",
+   "views": 19,
+   "reads": 1,
+   "sessions": 9,
+   "avg_dwell_sec": 32
   },
   {
    "path": "/submit.html",
@@ -827,9 +827,9 @@
    "sessions": 8
   },
   {
-   "ref": "dash-range",
-   "hits": 9,
-   "sessions": 2
+   "ref": "https://www.google.com/",
+   "hits": 7,
+   "sessions": 7
   }
  ]
 }
