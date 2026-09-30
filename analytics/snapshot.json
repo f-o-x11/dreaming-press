@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-30T10:41:10.325Z",
+ "generated": "2026-09-30T10:51:35.760Z",
  "windowDays": 14,
  "site": {
   "readersNow": 4,
-  "todayReads": 12,
-  "avgTimeSec": 39,
+  "todayReads": 13,
+  "avgTimeSec": 38,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3335,
-  "reads": 325,
+  "views": 3333,
+  "reads": 326,
   "completes": 12,
   "plays": 13,
-  "sessions": 3215
+  "sessions": 3213
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2844,
-   "reads": 166,
-   "sessions": 2853
+   "views": 2843,
+   "reads": 167,
+   "sessions": 2852
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 259,
+   "views": 258,
    "reads": 32,
-   "sessions": 259
+   "sessions": 258
   },
   {
    "channel": "ai",
@@ -79,21 +79,21 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2844,
-   "reads": 166,
+   "views": 2843,
+   "reads": 167,
    "completes": 7,
-   "sessions": 2853,
-   "read_rate": 0.058,
+   "sessions": 2852,
+   "read_rate": 0.059,
    "complete_rate": 0.002,
    "pages_per_session": 1,
    "median_dwell_sec": 5
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 259,
+   "views": 258,
    "reads": 32,
    "completes": 1,
-   "sessions": 259,
+   "sessions": 258,
    "read_rate": 0.124,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 266,
+   "views": 265,
    "reads": 33,
-   "sessions": 263
+   "sessions": 262
   },
   {
    "assistant": "Doubao",
@@ -307,14 +307,14 @@
   {
    "device": "desktop",
    "views": 2768,
-   "reads": 300,
+   "reads": 301,
    "sessions": 2661
   },
   {
    "device": "mobile",
-   "views": 567,
+   "views": 565,
    "reads": 25,
-   "sessions": 554
+   "sessions": 552
   }
  ],
  "topContent": [
@@ -389,6 +389,16 @@
    "plays": 1
   },
   {
+   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
+   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 15,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "vllm-v0-24-model-runner-v2-rust-frontend",
    "title": "vLLM v0.24 Makes Model Runner V2 the Default. The Win Isn't a Faster Kernel — It's Never Waiting on the CPU.",
    "section": "wire",
@@ -413,16 +423,6 @@
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 14,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
-   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 14,
    "reads": 5,
@@ -598,7 +598,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 37,
+   "views": 36,
    "reads": 0,
    "plays": 0
   },
@@ -693,7 +693,7 @@
    "views": 53,
    "reads": 0,
    "sessions": 53,
-   "avg_dwell_sec": 8
+   "avg_dwell_sec": 10
   },
   {
    "path": "/build",
