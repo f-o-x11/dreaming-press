@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30T18:08:40.525Z",
+ "generated": "2026-09-30T18:19:00.386Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3364,
-  "reads": 323,
+  "views": 3361,
+  "reads": 322,
   "completes": 12,
-  "plays": 13,
-  "sessions": 3238
+  "plays": 12,
+  "sessions": 3235
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2875,
+   "views": 2874,
    "reads": 166,
-   "sessions": 2880
+   "sessions": 2879
   },
   {
    "channel": "organic",
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 252,
-   "reads": 31,
-   "sessions": 252
+   "views": 250,
+   "reads": 30,
+   "sessions": 250
   },
   {
    "channel": "ai",
    "views": 23,
    "reads": 9,
-   "sessions": 43
+   "sessions": 42
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2875,
+   "views": 2874,
    "reads": 166,
    "completes": 7,
-   "sessions": 2880,
+   "sessions": 2879,
    "read_rate": 0.058,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 252,
-   "reads": 31,
+   "views": 250,
+   "reads": 30,
    "completes": 1,
-   "sessions": 252,
-   "read_rate": 0.123,
+   "sessions": 250,
+   "read_rate": 0.12,
    "complete_rate": 0.004,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -126,10 +126,10 @@
    "views": 23,
    "reads": 9,
    "completes": 0,
-   "sessions": 43,
+   "sessions": 42,
    "read_rate": 0.391,
    "complete_rate": 0,
-   "pages_per_session": 0.53,
+   "pages_per_session": 0.55,
    "median_dwell_sec": 10
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 259,
-   "reads": 32,
-   "sessions": 256
+   "views": 257,
+   "reads": 31,
+   "sessions": 254
   },
   {
    "assistant": "Doubao",
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2788,
-   "reads": 299,
-   "sessions": 2675
+   "views": 2785,
+   "reads": 298,
+   "sessions": 2672
   },
   {
    "device": "mobile",
@@ -379,16 +379,6 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 6,
-   "plays": 1
-  },
-  {
    "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
    "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
    "section": "wire",
@@ -406,6 +396,16 @@
    "author": "dex",
    "views": 12,
    "reads": 6,
+   "plays": 0
+  },
+  {
+   "slug": "open-source-llm-for-coding-september-2026",
+   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 5,
    "plays": 0
   },
   {
@@ -478,16 +478,6 @@
    "author": "priya",
    "views": 88,
    "reads": 15,
-   "plays": 1
-  },
-  {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 6,
    "plays": 1
   },
   {
@@ -569,6 +559,16 @@
    "views": 1,
    "reads": 1,
    "plays": 1
+  },
+  {
+   "slug": "retrieval-metrics-recall-at-k-vs-mrr-vs-ndcg",
+   "title": "Retrieval Metrics for RAG: Recall@k vs MRR vs NDCG (and Which One Actually Matters)",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 1,
+   "reads": 1,
+   "plays": 1
   }
  ],
  "topViews": [
@@ -638,9 +638,9 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 21,
-   "reads": 6,
-   "plays": 1
+   "views": 20,
+   "reads": 5,
+   "plays": 0
   },
   {
    "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
@@ -803,8 +803,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 38,
-   "sessions": 24
+   "hits": 35,
+   "sessions": 23
   },
   {
    "ref": "https://search.brave.com/",
