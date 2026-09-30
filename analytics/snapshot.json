@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-30T16:17:00.269Z",
+ "generated": "2026-09-30T16:27:05.987Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 16,
   "avgTimeSec": 31,
   "postsThisWeek": 15
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2860,
+   "views": 2862,
    "reads": 165,
-   "sessions": 2870
+   "sessions": 2872
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 254,
+   "views": 252,
    "reads": 31,
-   "sessions": 254
+   "sessions": 252
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2860,
+   "views": 2862,
    "reads": 165,
    "completes": 7,
-   "sessions": 2870,
+   "sessions": 2872,
    "read_rate": 0.058,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 254,
+   "views": 252,
    "reads": 31,
    "completes": 1,
-   "sessions": 254,
-   "read_rate": 0.122,
+   "sessions": 252,
+   "read_rate": 0.123,
    "complete_rate": 0.004,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 261,
+   "views": 259,
    "reads": 32,
-   "sessions": 258
+   "sessions": 256
   },
   {
    "assistant": "Doubao",
@@ -633,16 +633,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
-   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "open-source-llm-for-coding-september-2026",
    "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
    "section": "stack",
@@ -660,6 +650,16 @@
    "author": "dex",
    "views": 20,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
+   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 0,
    "plays": 0
   },
   {
@@ -690,9 +690,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 54,
+   "views": 53,
    "reads": 0,
-   "sessions": 54,
+   "sessions": 53,
    "avg_dwell_sec": 10
   },
   {
