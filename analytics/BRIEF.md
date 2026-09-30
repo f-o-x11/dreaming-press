@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-09-30T22:23Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-30T22:33Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -106,7 +106,7 @@ sample size dwarfs the engaged-read counts below.
 - /dashboard  — 20 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4978 verified): /wire.html ×52 · /posts/open-source-llm-for-coding-september-2026.html ×34 · /tools ×33
+- OAI-SearchBot (4982 verified): /wire.html ×52 · /posts/open-source-llm-for-coding-september-2026.html ×34 · /tools ×33
 - PerplexityBot (4421 verified): /build ×27 · / ×25 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×23
 - ChatGPT-User (3192 verified): / ×600 · /posts/open-source-llm-for-coding-september-2026.html ×195 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×148
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -123,7 +123,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agent(57), agentic(37), build(36), agents(33), founder(29), coding(23), mcp(23), startup(19), memory(17), loops(15), engineering(14), building(13), google(13), first(12), one(11).
+Hot terms: agent(52), agentic(39), build(34), agents(31), founder(28), coding(23), mcp(21), startup(19), building(14), memory(13), engineering(12), google(11), one(10), first(10), claude(10).
 Hashtags: #ai, #founder, #startup, #luxembourg, #mcp, #prembly, #intphpcon, #php, #symfony, #saas.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2103900910292472051
@@ -156,7 +156,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17042 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4978, Perplexity 4421, GPTBot (OpenAI) 4451, ChatGPT (user browsing) 3192).
+The real answer engines are crawling us — IP-verified: 17046 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4982, Perplexity 4421, GPTBot (OpenAI) 4451, ChatGPT (user browsing) 3192).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 715 crawler fetches
 - /build  — 388 crawler fetches
