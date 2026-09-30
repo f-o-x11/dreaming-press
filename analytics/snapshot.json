@@ -1,8 +1,8 @@
 {
- "generated": "2026-09-30T17:07:31.995Z",
+ "generated": "2026-09-30T17:17:31.984Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
+  "readersNow": 2,
   "todayReads": 17,
   "avgTimeSec": 29,
   "postsThisWeek": 15
@@ -12,12 +12,12 @@
   "reads": 323,
   "completes": 12,
   "plays": 13,
-  "sessions": 3235
+  "sessions": 3234
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2871,
+   "views": 2872,
    "reads": 166,
    "sessions": 2877
   },
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 252,
+   "views": 251,
    "reads": 31,
-   "sessions": 252
+   "sessions": 251
   },
   {
    "channel": "ai",
@@ -79,7 +79,7 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2871,
+   "views": 2872,
    "reads": 166,
    "completes": 7,
    "sessions": 2877,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 252,
+   "views": 251,
    "reads": 31,
    "completes": 1,
-   "sessions": 252,
-   "read_rate": 0.123,
+   "sessions": 251,
+   "read_rate": 0.124,
    "complete_rate": 0.004,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 259,
+   "views": 258,
    "reads": 32,
-   "sessions": 256
+   "sessions": 255
   },
   {
    "assistant": "Doubao",
@@ -308,7 +308,7 @@
    "device": "desktop",
    "views": 2785,
    "reads": 299,
-   "sessions": 2673
+   "sessions": 2672
   },
   {
    "device": "mobile",
@@ -643,16 +643,6 @@
    "plays": 1
   },
   {
-   "slug": "e2b-vs-modal-vs-daytona-agent-sandboxes",
-   "title": "E2B vs Modal vs Daytona: Picking a Code Execution Sandbox for AI Agents",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
    "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
    "section": "stack",
@@ -660,6 +650,16 @@
    "author": "dex",
    "views": 20,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "e2b-vs-modal-vs-daytona-agent-sandboxes",
+   "title": "E2B vs Modal vs Daytona: Picking a Code Execution Sandbox for AI Agents",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 19,
+   "reads": 1,
    "plays": 0
   },
   {
