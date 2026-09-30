@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-30T07:10:14.720Z",
+ "generated": "2026-09-30T07:20:18.655Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 1,
+  "readersNow": 3,
+  "todayReads": 2,
   "avgTimeSec": 29,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3319,
-  "reads": 317,
+  "views": 3322,
+  "reads": 318,
   "completes": 12,
   "plays": 13,
-  "sessions": 3201
+  "sessions": 3204
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2827,
+   "views": 2829,
    "reads": 164,
-   "sessions": 2839
+   "sessions": 2841
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 263,
-   "reads": 31,
-   "sessions": 263
+   "views": 264,
+   "reads": 32,
+   "sessions": 264
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2827,
+   "views": 2829,
    "reads": 164,
    "completes": 7,
-   "sessions": 2839,
+   "sessions": 2841,
    "read_rate": 0.058,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 263,
-   "reads": 31,
+   "views": 264,
+   "reads": 32,
    "completes": 1,
-   "sessions": 263,
-   "read_rate": 0.118,
+   "sessions": 264,
+   "read_rate": 0.121,
    "complete_rate": 0.004,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 271,
-   "reads": 32,
-   "sessions": 268
+   "views": 272,
+   "reads": 33,
+   "sessions": 269
   },
   {
    "assistant": "Doubao",
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2756,
-   "reads": 294,
-   "sessions": 2651
+   "views": 2759,
+   "reads": 295,
+   "sessions": 2654
   },
   {
    "device": "mobile",
@@ -409,6 +409,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 14,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
    "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
    "section": "wire",
@@ -435,16 +445,6 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 14,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 13,
    "reads": 4,
    "plays": 0
   },
@@ -803,8 +803,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 39,
-   "sessions": 25
+   "hits": 41,
+   "sessions": 26
   },
   {
    "ref": "https://search.brave.com/",
