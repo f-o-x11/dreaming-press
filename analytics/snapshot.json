@@ -1,37 +1,37 @@
 {
- "generated": "2026-09-30T07:40:22.637Z",
+ "generated": "2026-09-30T07:50:24.828Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 3,
+  "readersNow": 6,
+  "todayReads": 4,
   "avgTimeSec": 29,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3325,
-  "reads": 319,
+  "views": 3326,
+  "reads": 320,
   "completes": 12,
   "plays": 13,
-  "sessions": 3207
+  "sessions": 3208
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2832,
+   "views": 2833,
    "reads": 164,
-   "sessions": 2844
+   "sessions": 2845
   },
   {
    "channel": "organic",
-   "views": 157,
-   "reads": 104,
-   "sessions": 117
+   "views": 158,
+   "reads": 105,
+   "sessions": 118
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 263,
+   "views": 262,
    "reads": 32,
-   "sessions": 263
+   "sessions": 262
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2832,
+   "views": 2833,
    "reads": 164,
    "completes": 7,
-   "sessions": 2844,
+   "sessions": 2845,
    "read_rate": 0.058,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -90,10 +90,10 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 263,
+   "views": 262,
    "reads": 32,
    "completes": 1,
-   "sessions": 263,
+   "sessions": 262,
    "read_rate": 0.122,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "organic",
-   "views": 157,
-   "reads": 104,
+   "views": 158,
+   "reads": 105,
    "completes": 4,
-   "sessions": 117,
-   "read_rate": 0.662,
+   "sessions": 118,
+   "read_rate": 0.665,
    "complete_rate": 0.025,
    "pages_per_session": 1.34,
    "median_dwell_sec": null
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 271,
+   "views": 270,
    "reads": 33,
-   "sessions": 268
+   "sessions": 267
   },
   {
    "assistant": "Doubao",
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2762,
-   "reads": 296,
-   "sessions": 2657
+   "views": 2763,
+   "reads": 297,
+   "sessions": 2658
   },
   {
    "device": "mobile",
@@ -638,7 +638,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 23,
+   "views": 22,
    "reads": 1,
    "plays": 0
   },
@@ -798,8 +798,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 41,
-   "sessions": 22
+   "hits": 43,
+   "sessions": 23
   },
   {
    "ref": "https://chatgpt.com/",
