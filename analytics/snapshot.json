@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-30T08:00:31.522Z",
+ "generated": "2026-09-30T08:10:39.021Z",
  "windowDays": 14,
  "site": {
   "readersNow": 7,
-  "todayReads": 4,
+  "todayReads": 8,
   "avgTimeSec": 27,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3328,
-  "reads": 320,
+  "views": 3335,
+  "reads": 324,
   "completes": 12,
   "plays": 13,
-  "sessions": 3210
+  "sessions": 3213
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2836,
-   "reads": 164,
-   "sessions": 2847
+   "views": 2843,
+   "reads": 168,
+   "sessions": 2850
   },
   {
    "channel": "organic",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2836,
-   "reads": 164,
+   "views": 2843,
+   "reads": 168,
    "completes": 7,
-   "sessions": 2847,
-   "read_rate": 0.058,
+   "sessions": 2850,
+   "read_rate": 0.059,
    "complete_rate": 0.002,
    "pages_per_session": 1,
    "median_dwell_sec": 5
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2763,
-   "reads": 297,
-   "sessions": 2658
+   "views": 2771,
+   "reads": 301,
+   "sessions": 2662
   },
   {
    "device": "mobile",
-   "views": 565,
+   "views": 564,
    "reads": 23,
-   "sessions": 552
+   "sessions": 551
   }
  ],
  "topContent": [
@@ -449,22 +449,22 @@
    "plays": 0
   },
   {
+   "slug": "how-to-run-spec-driven-development-github-spec-kit",
+   "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
+   "section": "stack",
+   "tags": "[\"reportive\",\"captivating\"]",
+   "author": "rosalinda",
+   "views": 14,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
    "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 11,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
-   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 6,
    "reads": 4,
    "plays": 0
   }
