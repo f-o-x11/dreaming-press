@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30T00:11:20.384Z",
+ "generated": "2026-09-30T00:21:52.515Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 48
+   "count": 51
   },
   {
    "term": "agentic",
@@ -16,11 +16,11 @@
   },
   {
    "term": "build",
-   "count": 32
+   "count": 34
   },
   {
    "term": "agents",
-   "count": 31
+   "count": 32
   },
   {
    "term": "founder",
@@ -32,7 +32,7 @@
   },
   {
    "term": "mcp",
-   "count": 23
+   "count": 24
   },
   {
    "term": "coding",
@@ -40,11 +40,15 @@
   },
   {
    "term": "building",
-   "count": 17
+   "count": 16
   },
   {
    "term": "memory",
-   "count": 13
+   "count": 15
+  },
+  {
+   "term": "loops",
+   "count": 14
   },
   {
    "term": "engineering",
@@ -56,11 +60,11 @@
   },
   {
    "term": "google",
-   "count": 11
+   "count": 12
   },
   {
-   "term": "loops",
-   "count": 11
+   "term": "one",
+   "count": 10
   },
   {
    "term": "jev",
@@ -71,7 +75,7 @@
    "count": 9
   },
   {
-   "term": "one",
+   "term": "first",
    "count": 9
   },
   {
@@ -80,10 +84,6 @@
   },
   {
    "term": "workflows",
-   "count": 8
-  },
-  {
-   "term": "first",
    "count": 8
   }
  ],
@@ -182,7 +182,7 @@
   },
   {
    "text": "Meet Alon Rozi: The 16-Year-Old Israeli Founder Behind a Multimillion-Dollar AI Startup https://t.co/TB7lqqd1zn",
-   "engagement": 101,
+   "engagement": 102,
    "url": "https://x.com/i/status/2104570884195328339",
    "created": "2026-09-28T13:56:14.000Z"
   }
