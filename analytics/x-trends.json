@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30T17:28:00.317Z",
+ "generated": "2026-09-30T17:38:14.203Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,11 +8,11 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 54
+   "count": 52
   },
   {
    "term": "agentic",
-   "count": 39
+   "count": 40
   },
   {
    "term": "build",
@@ -39,36 +39,36 @@
    "count": 20
   },
   {
-   "term": "memory",
-   "count": 15
-  },
-  {
    "term": "building",
    "count": 14
   },
   {
-   "term": "engineering",
+   "term": "memory",
    "count": 13
   },
   {
-   "term": "google",
+   "term": "engineering",
    "count": 12
   },
   {
-   "term": "loops",
-   "count": 12
+   "term": "google",
+   "count": 11
   },
   {
    "term": "one",
    "count": 10
   },
   {
-   "term": "first",
+   "term": "claude",
    "count": 10
   },
   {
-   "term": "claude",
+   "term": "loops",
    "count": 10
+  },
+  {
+   "term": "first",
+   "count": 9
   },
   {
    "term": "need",
@@ -83,7 +83,7 @@
    "count": 8
   },
   {
-   "term": "dropped",
+   "term": "tools",
    "count": 8
   }
  ],
@@ -133,7 +133,7 @@
    "count": 1
   },
   {
-   "term": "#vc",
+   "term": "#mika",
    "count": 1
   }
  ],
@@ -152,7 +152,7 @@
   },
   {
    "text": "🚨 You’re probably using Claude at 10% of its actual potential. Most people stop at: “Claude, write this.” But Claude mastery looks like this: 🧠 Foundation → Prompting + Context + Examples ⚙️ Workflow → Projects + Promp",
-   "engagement": 387,
+   "engagement": 385,
    "url": "https://x.com/i/status/2104060782069862722",
    "created": "2026-09-27T04:09:16.000Z"
   },
@@ -170,7 +170,7 @@
   },
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 121,
+   "engagement": 119,
    "url": "https://x.com/i/status/2104425082189975625",
    "created": "2026-09-28T04:16:52.000Z"
   },
