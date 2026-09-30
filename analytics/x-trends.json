@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30T22:33:17.892Z",
+ "generated": "2026-09-30T22:43:27.331Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,11 +8,11 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 52
+   "count": 54
   },
   {
    "term": "agentic",
-   "count": 39
+   "count": 38
   },
   {
    "term": "build",
@@ -20,11 +20,11 @@
   },
   {
    "term": "agents",
-   "count": 31
+   "count": 32
   },
   {
    "term": "founder",
-   "count": 28
+   "count": 29
   },
   {
    "term": "coding",
@@ -32,26 +32,34 @@
   },
   {
    "term": "mcp",
-   "count": 21
+   "count": 22
   },
   {
    "term": "startup",
    "count": 19
   },
   {
+   "term": "memory",
+   "count": 15
+  },
+  {
    "term": "building",
    "count": 14
   },
   {
-   "term": "memory",
+   "term": "engineering",
    "count": 13
   },
   {
-   "term": "engineering",
+   "term": "google",
    "count": 12
   },
   {
-   "term": "google",
+   "term": "loops",
+   "count": 12
+  },
+  {
+   "term": "first",
    "count": 11
   },
   {
@@ -59,15 +67,7 @@
    "count": 10
   },
   {
-   "term": "first",
-   "count": 10
-  },
-  {
    "term": "claude",
-   "count": 10
-  },
-  {
-   "term": "loops",
    "count": 10
   },
   {
@@ -83,8 +83,8 @@
    "count": 8
   },
   {
-   "term": "code",
-   "count": 7
+   "term": "1-hour",
+   "count": 8
   }
  ],
  "hashtags": [
@@ -164,7 +164,7 @@
   },
   {
    "text": "AI is getting smarter. But smarter agents alone won’t build the agentic economy. They need somewhere to verify identity, prove permissions, move money and settle transactions without turning every interaction into a manu",
-   "engagement": 194,
+   "engagement": 195,
    "url": "https://x.com/i/status/2104645989801791697",
    "created": "2026-09-28T18:54:41.000Z"
   },
