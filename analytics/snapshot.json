@@ -1,14 +1,14 @@
 {
- "generated": "2026-09-30T08:20:45.955Z",
+ "generated": "2026-09-30T08:30:53.078Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
-  "todayReads": 8,
+  "readersNow": 4,
+  "todayReads": 9,
   "avgTimeSec": 27,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3334,
+  "views": 3332,
   "reads": 324,
   "completes": 12,
   "plays": 13,
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2842,
-   "reads": 168,
-   "sessions": 2849
+   "views": 2840,
+   "reads": 167,
+   "sessions": 2848
   },
   {
    "channel": "organic",
-   "views": 157,
-   "reads": 105,
-   "sessions": 117
+   "views": 158,
+   "reads": 106,
+   "sessions": 118
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 24,
+   "views": 23,
    "reads": 9,
-   "sessions": 45
+   "sessions": 44
   },
   {
    "channel": "referral",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 18
+   "sessions": 17
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2842,
-   "reads": 168,
+   "views": 2840,
+   "reads": 167,
    "completes": 7,
-   "sessions": 2849,
+   "sessions": 2848,
    "read_rate": 0.059,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "organic",
-   "views": 157,
-   "reads": 105,
+   "views": 158,
+   "reads": 106,
    "completes": 4,
-   "sessions": 117,
-   "read_rate": 0.669,
+   "sessions": 118,
+   "read_rate": 0.671,
    "complete_rate": 0.025,
    "pages_per_session": 1.34,
    "median_dwell_sec": null
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 24,
+   "views": 23,
    "reads": 9,
    "completes": 0,
-   "sessions": 45,
-   "read_rate": 0.375,
+   "sessions": 44,
+   "read_rate": 0.391,
    "complete_rate": 0,
-   "pages_per_session": 0.53,
+   "pages_per_session": 0.52,
    "median_dwell_sec": 13
   },
   {
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 18,
+   "sessions": 17,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -191,18 +191,18 @@
  "navSurfaces": [
   {
    "surface": "brand",
-   "clicks": 10,
-   "sessions": 8
-  },
-  {
-   "surface": "nav-cmp",
-   "clicks": 6,
-   "sessions": 4
+   "clicks": 9,
+   "sessions": 7
   },
   {
    "surface": "dash-range",
    "clicks": 6,
    "sessions": 1
+  },
+  {
+   "surface": "nav-cmp",
+   "clicks": 5,
+   "sessions": 3
   },
   {
    "surface": "btn-stats",
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 270,
+   "views": 269,
    "reads": 33,
-   "sessions": 267
+   "sessions": 266
   },
   {
    "assistant": "Doubao",
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2770,
+   "views": 2766,
    "reads": 301,
-   "sessions": 2661
+   "sessions": 2659
   },
   {
    "device": "mobile",
-   "views": 564,
+   "views": 566,
    "reads": 23,
-   "sessions": 551
+   "sessions": 553
   }
  ],
  "topContent": [
@@ -633,16 +633,6 @@
    "plays": 0
   },
   {
-   "slug": "e2b-vs-modal-vs-daytona-agent-sandboxes",
-   "title": "E2B vs Modal vs Daytona: Picking a Code Execution Sandbox for AI Agents",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
    "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
    "section": "stack",
@@ -650,6 +640,16 @@
    "author": "dex",
    "views": 22,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "e2b-vs-modal-vs-daytona-agent-sandboxes",
+   "title": "E2B vs Modal vs Daytona: Picking a Code Execution Sandbox for AI Agents",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 21,
+   "reads": 1,
    "plays": 0
   },
   {
@@ -683,9 +683,9 @@
   },
   {
    "path": "/",
-   "views": 129,
+   "views": 128,
    "reads": 3,
-   "sessions": 127,
+   "sessions": 126,
    "avg_dwell_sec": 14
   },
   {
@@ -725,10 +725,10 @@
   },
   {
    "path": "/tools",
-   "views": 12,
+   "views": 11,
    "reads": 1,
-   "sessions": 12,
-   "avg_dwell_sec": 19
+   "sessions": 11,
+   "avg_dwell_sec": 21
   },
   {
    "path": "/alternatives/:tool",
@@ -788,8 +788,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 63,
-   "sessions": 36
+   "hits": 65,
+   "sessions": 37
   },
   {
    "ref": "https://cn.bing.com/",
@@ -803,8 +803,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 41,
-   "sessions": 26
+   "hits": 40,
+   "sessions": 25
   },
   {
    "ref": "https://search.brave.com/",
@@ -823,8 +823,8 @@
   },
   {
    "ref": "brand",
-   "hits": 10,
-   "sessions": 8
+   "hits": 9,
+   "sessions": 7
   },
   {
    "ref": "https://www.google.com/",
