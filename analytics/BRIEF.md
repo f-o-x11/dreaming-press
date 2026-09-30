@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-30T09:21Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-30T09:31Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3334 views → 322 engaged reads → 12 completes · 3215 sessions.
-- Channels: direct 165r/2841v · organic 106r/158v · campaign:chatgpt.com 32r/262v · ai 9r/23v · referral 6r/39v · campaign:qwant 4r/6v · social 0r/3v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3334 views → 323 engaged reads → 12 completes · 3214 sessions.
+- Channels: direct 166r/2841v · organic 106r/158v · campaign:chatgpt.com 32r/262v · ai 9r/23v · referral 6r/39v · campaign:qwant 4r/6v · social 0r/3v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 33r/269v · Doubao 5r/6v · Perplexity 2r/4v · Claude 1r/2v · Kimi 0r/3v · DeepSeek 0r/1v.
 - Referrers: mail.google.com, bing.com, cn.bing.com, duckduckgo.com, chatgpt.com, search.brave.com, doubao.com, youtube.com, brand, google.com.
 - Engaged-read winners by section: wire=5, stack=10.
