@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30T02:35:10.170Z",
+ "generated": "2026-09-30T02:45:40.143Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,11 +8,11 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 48
+   "count": 45
   },
   {
    "term": "agentic",
-   "count": 38
+   "count": 39
   },
   {
    "term": "build",
@@ -20,7 +20,7 @@
   },
   {
    "term": "agents",
-   "count": 31
+   "count": 32
   },
   {
    "term": "founder",
@@ -31,11 +31,11 @@
    "count": 25
   },
   {
-   "term": "mcp",
-   "count": 23
+   "term": "coding",
+   "count": 21
   },
   {
-   "term": "coding",
+   "term": "mcp",
    "count": 21
   },
   {
@@ -44,22 +44,18 @@
   },
   {
    "term": "memory",
-   "count": 13
+   "count": 12
   },
   {
    "term": "engineering",
-   "count": 12
+   "count": 11
   },
   {
    "term": "claude",
-   "count": 12
+   "count": 11
   },
   {
    "term": "google",
-   "count": 12
-  },
-  {
-   "term": "loops",
    "count": 11
   },
   {
@@ -75,22 +71,26 @@
    "count": 9
   },
   {
+   "term": "loops",
+   "count": 9
+  },
+  {
+   "term": "world",
+   "count": 9
+  },
+  {
    "term": "production",
    "count": 8
   },
   {
    "term": "workflows",
    "count": 8
-  },
-  {
-   "term": "first",
-   "count": 8
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 6
+   "count": 7
   },
   {
    "term": "#founder",
