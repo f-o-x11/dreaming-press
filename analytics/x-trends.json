@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30T02:25:00.363Z",
+ "generated": "2026-09-30T02:35:10.170Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 51
+   "count": 48
   },
   {
    "term": "agentic",
@@ -16,11 +16,11 @@
   },
   {
    "term": "build",
-   "count": 34
+   "count": 32
   },
   {
    "term": "agents",
-   "count": 32
+   "count": 31
   },
   {
    "term": "founder",
@@ -32,7 +32,7 @@
   },
   {
    "term": "mcp",
-   "count": 24
+   "count": 23
   },
   {
    "term": "coding",
@@ -40,18 +40,10 @@
   },
   {
    "term": "building",
-   "count": 16
+   "count": 17
   },
   {
    "term": "memory",
-   "count": 15
-  },
-  {
-   "term": "loops",
-   "count": 14
-  },
-  {
-   "term": "google",
    "count": 13
   },
   {
@@ -63,8 +55,12 @@
    "count": 12
   },
   {
-   "term": "one",
-   "count": 10
+   "term": "google",
+   "count": 12
+  },
+  {
+   "term": "loops",
+   "count": 11
   },
   {
    "term": "jev",
@@ -75,7 +71,7 @@
    "count": 9
   },
   {
-   "term": "first",
+   "term": "one",
    "count": 9
   },
   {
@@ -84,6 +80,10 @@
   },
   {
    "term": "workflows",
+   "count": 8
+  },
+  {
+   "term": "first",
    "count": 8
   }
  ],
@@ -152,7 +152,7 @@
   },
   {
    "text": "🚨 You’re probably using Claude at 10% of its actual potential. Most people stop at: “Claude, write this.” But Claude mastery looks like this: 🧠 Foundation → Prompting + Context + Examples ⚙️ Workflow → Projects + Promp",
-   "engagement": 385,
+   "engagement": 386,
    "url": "https://x.com/i/status/2104060782069862722",
    "created": "2026-09-27T04:09:16.000Z"
   },
@@ -176,15 +176,15 @@
   },
   {
    "text": "Build your personal AI video editor, but not from scratch! I'm seeing more people vibe coding NLEs for their agents. I love this direction. But do yourself a favour: fork Diffusion Studio. We've spent years building it a",
-   "engagement": 113,
+   "engagement": 114,
    "url": "https://x.com/i/status/2104597254585643425",
    "created": "2026-09-28T15:41:01.000Z"
   },
   {
-   "text": "Meet Alon Rozi: The 16-Year-Old Israeli Founder Behind a Multimillion-Dollar AI Startup https://t.co/TB7lqqd1zn",
-   "engagement": 102,
-   "url": "https://x.com/i/status/2104570884195328339",
-   "created": "2026-09-28T13:56:14.000Z"
+   "text": "AI Agents are becoming one of the most valuable skills to learn in 2026. But the learning path can get confusing fast. LangGraph, MCP, A2A, memory, agent SDKs, ADK, security, orchestration. There is a lot to understand b",
+   "engagement": 103,
+   "url": "https://x.com/i/status/2104866276480831719",
+   "created": "2026-09-29T09:30:01.000Z"
   }
  ]
 }
