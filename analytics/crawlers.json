@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-30T06:29:24.973Z",
+ "generated": "2026-09-30T06:39:39.647Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15282,
+ "verifiedAiHits": 15287,
  "logsScanned": 30,
  "windowStart": "2026-09-16",
  "windowEnd": "2026-09-30",
- "totalHits": 102091,
- "aiHits": 82316,
+ "totalHits": 102129,
+ "aiHits": 82347,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29254,
+   "hits": 29272,
    "verifiedHits": 0,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14087,
+   "hits": 14094,
    "verifiedHits": 0,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7622,
-   "verifiedHits": 7189,
+   "hits": 7629,
+   "verifiedHits": 7196,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
    "topPaths": [
@@ -146,14 +146,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5186,
-   "verifiedHits": 4703,
+   "hits": 5189,
+   "verifiedHits": 4706,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
    "topPaths": [
     {
      "path": "/wire.html",
-     "hits": 49
+     "hits": 50
     },
     {
      "path": "/tools",
@@ -164,11 +164,11 @@
      "hits": 31
     },
     {
-     "path": "/posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html",
-     "hits": 29
+     "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
+     "hits": 30
     },
     {
-     "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
+     "path": "/posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html",
      "hits": 29
     }
    ],
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3494,
-   "verifiedHits": 3045,
+   "hits": 3496,
+   "verifiedHits": 3047,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
    "topPaths": [
@@ -289,7 +289,7 @@
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 184
+     "hits": 185
     },
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
@@ -410,14 +410,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2541,
+   "hits": 2542,
    "verifiedHits": 0,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 479
+     "hits": 480
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
