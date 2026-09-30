@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-30T16:57:27.547Z",
+ "generated": "2026-09-30T17:07:31.995Z",
  "windowDays": 14,
  "site": {
   "readersNow": 6,
-  "todayReads": 16,
-  "avgTimeSec": 28,
+  "todayReads": 17,
+  "avgTimeSec": 29,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3354,
-  "reads": 322,
+  "views": 3360,
+  "reads": 323,
   "completes": 12,
   "plays": 13,
-  "sessions": 3232
+  "sessions": 3235
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2866,
-   "reads": 165,
-   "sessions": 2875
+   "views": 2871,
+   "reads": 166,
+   "sessions": 2877
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 39,
+   "views": 40,
    "reads": 5,
-   "sessions": 39
+   "sessions": 40
   },
   {
    "channel": "campaign:qwant",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2866,
-   "reads": 165,
+   "views": 2871,
+   "reads": 166,
    "completes": 7,
-   "sessions": 2875,
+   "sessions": 2877,
    "read_rate": 0.058,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -112,11 +112,11 @@
   },
   {
    "channel": "referral",
-   "views": 39,
+   "views": 40,
    "reads": 5,
    "completes": 0,
-   "sessions": 39,
-   "read_rate": 0.128,
+   "sessions": 40,
+   "read_rate": 0.125,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -191,8 +191,8 @@
  "navSurfaces": [
   {
    "surface": "brand",
-   "clicks": 10,
-   "sessions": 8
+   "clicks": 11,
+   "sessions": 9
   },
   {
    "surface": "dash-range",
@@ -210,6 +210,11 @@
    "sessions": 3
   },
   {
+   "surface": "legal-links",
+   "clicks": 4,
+   "sessions": 3
+  },
+  {
    "surface": "f-cols",
    "clicks": 4,
    "sessions": 3
@@ -220,19 +225,14 @@
    "sessions": 2
   },
   {
-   "surface": "legal-links",
+   "surface": "sb-right",
    "clicks": 3,
-   "sessions": 2
+   "sessions": 3
   },
   {
    "surface": "dg-title",
    "clicks": 3,
    "sessions": 1
-  },
-  {
-   "surface": "sb-right",
-   "clicks": 2,
-   "sessions": 2
   },
   {
    "surface": "rr-card",
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2779,
-   "reads": 298,
-   "sessions": 2670
+   "views": 2785,
+   "reads": 299,
+   "sessions": 2673
   },
   {
    "device": "mobile",
@@ -683,9 +683,9 @@
   },
   {
    "path": "/",
-   "views": 131,
+   "views": 132,
    "reads": 3,
-   "sessions": 129,
+   "sessions": 130,
    "avg_dwell_sec": 14
   },
   {
@@ -703,18 +703,18 @@
    "avg_dwell_sec": 3
   },
   {
+   "path": "/dashboard",
+   "views": 22,
+   "reads": 2,
+   "sessions": 11,
+   "avg_dwell_sec": 33
+  },
+  {
    "path": "/compare/:pair",
    "views": 21,
    "reads": 1,
    "sessions": 21,
    "avg_dwell_sec": 148
-  },
-  {
-   "path": "/dashboard",
-   "views": 21,
-   "reads": 1,
-   "sessions": 11,
-   "avg_dwell_sec": 32
   },
   {
    "path": "/submit.html",
@@ -738,6 +738,20 @@
    "avg_dwell_sec": null
   },
   {
+   "path": "/agents.html",
+   "views": 7,
+   "reads": 1,
+   "sessions": 7,
+   "avg_dwell_sec": 40
+  },
+  {
+   "path": "/reports/:report",
+   "views": 7,
+   "reads": 0,
+   "sessions": 7,
+   "avg_dwell_sec": null
+  },
+  {
    "path": "/subscribe",
    "views": 7,
    "reads": 1,
@@ -745,24 +759,10 @@
    "avg_dwell_sec": 33
   },
   {
-   "path": "/agents.html",
-   "views": 6,
-   "reads": 1,
-   "sessions": 6,
-   "avg_dwell_sec": 40
-  },
-  {
-   "path": "/reports/:report",
-   "views": 6,
-   "reads": 0,
-   "sessions": 6,
-   "avg_dwell_sec": null
-  },
-  {
    "path": "/topics/:topic",
-   "views": 6,
+   "views": 7,
    "reads": 0,
-   "sessions": 6,
+   "sessions": 7,
    "avg_dwell_sec": 2
   },
   {
@@ -817,14 +817,14 @@
    "sessions": 5
   },
   {
+   "ref": "brand",
+   "hits": 11,
+   "sessions": 9
+  },
+  {
    "ref": "https://www.youtube.com/",
    "hits": 10,
    "sessions": 10
-  },
-  {
-   "ref": "brand",
-   "hits": 10,
-   "sessions": 8
   },
   {
    "ref": "https://www.google.com/",
