@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30T19:50:57.381Z",
+ "generated": "2026-09-30T20:01:00.416Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,11 +8,11 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 56
+   "count": 53
   },
   {
    "term": "agentic",
-   "count": 39
+   "count": 40
   },
   {
    "term": "build",
@@ -44,22 +44,14 @@
   },
   {
    "term": "memory",
-   "count": 15
-  },
-  {
-   "term": "engineering",
    "count": 13
   },
   {
+   "term": "engineering",
+   "count": 12
+  },
+  {
    "term": "google",
-   "count": 12
-  },
-  {
-   "term": "loops",
-   "count": 12
-  },
-  {
-   "term": "first",
    "count": 11
   },
   {
@@ -67,7 +59,15 @@
    "count": 10
   },
   {
+   "term": "first",
+   "count": 10
+  },
+  {
    "term": "claude",
+   "count": 10
+  },
+  {
+   "term": "loops",
    "count": 10
   },
   {
@@ -83,8 +83,8 @@
    "count": 8
   },
   {
-   "term": "1-hour",
-   "count": 8
+   "term": "different",
+   "count": 7
   }
  ],
  "hashtags": [
@@ -125,15 +125,15 @@
    "count": 1
   },
   {
-   "term": "#saas",
+   "term": "#datascience",
    "count": 1
   },
   {
-   "term": "#business",
+   "term": "#aiagents",
    "count": 1
   },
   {
-   "term": "#vc",
+   "term": "#pymc",
    "count": 1
   }
  ],
