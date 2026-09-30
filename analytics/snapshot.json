@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-30T05:38:40.219Z",
+ "generated": "2026-09-30T05:48:59.385Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 1,
   "avgTimeSec": 37,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3319,
-  "reads": 319,
+  "views": 3317,
+  "reads": 318,
   "completes": 12,
-  "plays": 14,
-  "sessions": 3201
+  "plays": 13,
+  "sessions": 3199
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2822,
+   "views": 2820,
    "reads": 164,
-   "sessions": 2835
+   "sessions": 2833
   },
   {
    "channel": "organic",
@@ -36,7 +36,7 @@
   {
    "channel": "ai",
    "views": 25,
-   "reads": 11,
+   "reads": 10,
    "sessions": 46
   },
   {
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2822,
+   "views": 2820,
    "reads": 164,
    "completes": 7,
-   "sessions": 2835,
+   "sessions": 2833,
    "read_rate": 0.058,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -124,10 +124,10 @@
   {
    "channel": "ai",
    "views": 25,
-   "reads": 11,
+   "reads": 10,
    "completes": 0,
    "sessions": 46,
-   "read_rate": 0.44,
+   "read_rate": 0.4,
    "complete_rate": 0,
    "pages_per_session": 0.54,
    "median_dwell_sec": 13
@@ -275,7 +275,7 @@
   {
    "assistant": "Doubao",
    "views": 7,
-   "reads": 7,
+   "reads": 6,
    "sessions": 6
   },
   {
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2758,
-   "reads": 296,
-   "sessions": 2653
+   "views": 2756,
+   "reads": 295,
+   "sessions": 2651
   },
   {
    "device": "mobile",
@@ -521,16 +521,6 @@
    "plays": 1
   },
   {
-   "slug": "gartner-ai-agent-spending-2026",
-   "title": "AI Agent Software Spending Hits $206B in 2026 — and the Cancellation Forecast Explains Why",
-   "section": "wire",
-   "tags": "[\"reportive\",\"cynical\"]",
-   "author": "priya",
-   "views": 4,
-   "reads": 2,
-   "plays": 1
-  },
-  {
    "slug": "ollama-vs-lm-studio-vs-llama-cpp-local-agent-backend",
    "title": "Ollama vs LM Studio vs llama.cpp: Which Local Backend Should Serve Your Agent?",
    "section": "stack",
@@ -567,6 +557,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 5,
+   "reads": 1,
+   "plays": 1
+  },
+  {
+   "slug": "how-to-prove-your-agent-sandbox-actually-blocks-the-internet",
+   "title": "How to Prove Your Agent's Sandbox Actually Blocks the Internet",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 1,
    "reads": 1,
    "plays": 1
   }
@@ -813,7 +813,7 @@
   },
   {
    "ref": "https://www.doubao.com/",
-   "hits": 14,
+   "hits": 13,
    "sessions": 6
   },
   {
