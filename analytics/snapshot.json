@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-30T06:39:40.209Z",
+ "generated": "2026-09-30T06:50:00.149Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 3,
   "todayReads": 1,
-  "avgTimeSec": 37,
+  "avgTimeSec": 29,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3316,
-  "reads": 318,
+  "views": 3318,
+  "reads": 317,
   "completes": 12,
   "plays": 13,
-  "sessions": 3198
+  "sessions": 3200
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2823,
+   "views": 2826,
    "reads": 164,
-   "sessions": 2835
+   "sessions": 2838
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 25,
-   "reads": 10,
-   "sessions": 46
+   "views": 24,
+   "reads": 9,
+   "sessions": 45
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2823,
+   "views": 2826,
    "reads": 164,
    "completes": 7,
-   "sessions": 2835,
+   "sessions": 2838,
    "read_rate": 0.058,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 25,
-   "reads": 10,
+   "views": 24,
+   "reads": 9,
    "completes": 0,
-   "sessions": 46,
-   "read_rate": 0.4,
+   "sessions": 45,
+   "read_rate": 0.375,
    "complete_rate": 0,
-   "pages_per_session": 0.54,
+   "pages_per_session": 0.53,
    "median_dwell_sec": 13
   },
   {
@@ -274,9 +274,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 7,
-   "reads": 6,
-   "sessions": 6
+   "views": 6,
+   "reads": 5,
+   "sessions": 5
   },
   {
    "assistant": "Perplexity",
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2753,
-   "reads": 295,
-   "sessions": 2648
+   "views": 2755,
+   "reads": 294,
+   "sessions": 2650
   },
   {
    "device": "mobile",
@@ -429,18 +429,18 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "slug": "ai-agent-security-jobs",
+   "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 13,
+   "views": 14,
    "reads": 4,
    "plays": 0
   },
   {
-   "slug": "ai-agent-security-jobs",
-   "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
@@ -813,8 +813,8 @@
   },
   {
    "ref": "https://www.doubao.com/",
-   "hits": 13,
-   "sessions": 6
+   "hits": 11,
+   "sessions": 5
   },
   {
    "ref": "https://www.youtube.com/",
