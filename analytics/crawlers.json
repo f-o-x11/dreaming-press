@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-30T03:15:59.702Z",
+ "generated": "2026-09-30T03:26:08.471Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15202,
+ "verifiedAiHits": 15203,
  "logsScanned": 30,
  "windowStart": "2026-09-16",
  "windowEnd": "2026-09-30",
- "totalHits": 101226,
- "aiHits": 81625,
+ "totalHits": 101260,
+ "aiHits": 81654,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28856,
+   "hits": 28875,
    "verifiedHits": 0,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13945,
+   "hits": 13953,
    "verifiedHits": 0,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7573,
-   "verifiedHits": 7140,
+   "hits": 7577,
+   "verifiedHits": 7144,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5130,
-   "verifiedHits": 4647,
+   "hits": 5131,
+   "verifiedHits": 4648,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3081,
+   "hits": 3082,
    "verifiedHits": 0,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
@@ -410,14 +410,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2524,
+   "hits": 2525,
    "verifiedHits": 0,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 475
+     "hits": 476
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",

@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30T03:16:00.212Z",
+ "generated": "2026-09-30T03:26:09.001Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,19 +8,19 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 45
+   "count": 47
   },
   {
    "term": "agentic",
-   "count": 38
+   "count": 39
   },
   {
    "term": "build",
-   "count": 32
+   "count": 34
   },
   {
    "term": "agents",
-   "count": 32
+   "count": 31
   },
   {
    "term": "founder",
@@ -36,7 +36,7 @@
   },
   {
    "term": "mcp",
-   "count": 20
+   "count": 21
   },
   {
    "term": "building",
@@ -44,19 +44,23 @@
   },
   {
    "term": "memory",
-   "count": 12
+   "count": 13
   },
   {
    "term": "engineering",
-   "count": 11
+   "count": 12
+  },
+  {
+   "term": "google",
+   "count": 12
   },
   {
    "term": "claude",
    "count": 11
   },
   {
-   "term": "google",
-   "count": 11
+   "term": "loops",
+   "count": 10
   },
   {
    "term": "jev",
@@ -71,10 +75,6 @@
    "count": 9
   },
   {
-   "term": "loops",
-   "count": 9
-  },
-  {
    "term": "world",
    "count": 9
   },
@@ -83,14 +83,14 @@
    "count": 9
   },
   {
-   "term": "built",
+   "term": "first",
    "count": 8
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 7
+   "count": 6
   },
   {
    "term": "#founder",
@@ -102,18 +102,6 @@
   },
   {
    "term": "#luxembourg",
-   "count": 1
-  },
-  {
-   "term": "#agenticai",
-   "count": 1
-  },
-  {
-   "term": "#web3",
-   "count": 1
-  },
-  {
-   "term": "#cookmymeme",
    "count": 1
   },
   {
@@ -134,6 +122,18 @@
   },
   {
    "term": "#symfony",
+   "count": 1
+  },
+  {
+   "term": "#saas",
+   "count": 1
+  },
+  {
+   "term": "#vc",
+   "count": 1
+  },
+  {
+   "term": "#mika",
    "count": 1
   }
  ],
