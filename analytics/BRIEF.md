@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-09-30T06:50Z (last 14 days)
+# Analytics brief — auto-exported 2026-09-30T07:00Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3318 views → 317 engaged reads → 12 completes · 3200 sessions.
-- Channels: direct 164r/2826v · organic 103r/156v · campaign:chatgpt.com 31r/263v · ai 9r/24v · referral 6r/39v · campaign:qwant 4r/6v · social 0r/2v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3319 views → 317 engaged reads → 12 completes · 3201 sessions.
+- Channels: direct 164r/2827v · organic 103r/156v · campaign:chatgpt.com 31r/263v · ai 9r/24v · referral 6r/39v · campaign:qwant 4r/6v · social 0r/2v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 32r/271v · Doubao 5r/6v · Perplexity 2r/4v · Claude 1r/2v · Kimi 0r/3v · DeepSeek 0r/1v.
 - Referrers: mail.google.com, bing.com, cn.bing.com, duckduckgo.com, chatgpt.com, search.brave.com, doubao.com, youtube.com, brand, google.com.
 - Engaged-read winners by section: wire=6, stack=9.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2826 views · read 5.8% · complete 0.2% · 1 pages/session · median 5s
+- direct: 2827 views · read 5.8% · complete 0.2% · 1 pages/session · median 5s
 - campaign:chatgpt.com: 263 views · read 11.8% · complete 0.4% · 1 pages/session · median ?s
 - organic: 156 views · read 66.0% · complete 2.6% · 1.34 pages/session · median ?s
 - referral: 39 views · read 15.4% · complete 0.0% · 1 pages/session · median ?s
@@ -124,7 +124,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agent(50), agentic(39), build(35), agents(32), founder(31), startup(24), coding(22), mcp(22), building(17), memory(15), engineering(13), google(12), loops(12), claude(10), jev(10).
+Hot terms: agent(50), agentic(39), build(35), agents(32), founder(31), startup(24), coding(22), mcp(22), building(16), memory(15), engineering(13), google(13), loops(12), claude(10), jev(10).
 Hashtags: #ai, #founder, #startup, #luxembourg, #mcp, #prembly, #intphpcon, #php, #symfony, #saas.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2103900910292472051
