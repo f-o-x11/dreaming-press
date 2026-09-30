@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30T15:06:04.225Z",
+ "generated": "2026-09-30T15:16:09.383Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -36,15 +36,15 @@
   },
   {
    "term": "startup",
-   "count": 22
-  },
-  {
-   "term": "building",
-   "count": 15
+   "count": 21
   },
   {
    "term": "memory",
    "count": 15
+  },
+  {
+   "term": "building",
+   "count": 14
   },
   {
    "term": "engineering",
@@ -71,16 +71,16 @@
    "count": 10
   },
   {
+   "term": "than",
+   "count": 9
+  },
+  {
    "term": "need",
    "count": 9
   },
   {
    "term": "jev",
    "count": 9
-  },
-  {
-   "term": "than",
-   "count": 8
   },
   {
    "term": "tools",
@@ -133,7 +133,7 @@
    "count": 1
   },
   {
-   "term": "#vc",
+   "term": "#mika",
    "count": 1
   }
  ],
