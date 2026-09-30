@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-30T21:02:09.766Z",
+ "generated": "2026-09-30T21:12:19.205Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16999,
+ "verifiedAiHits": 17005,
  "logsScanned": 30,
  "windowStart": "2026-09-16",
  "windowEnd": "2026-09-30",
- "totalHits": 107233,
- "aiHits": 86622,
+ "totalHits": 107265,
+ "aiHits": 86645,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30446,
+   "hits": 30454,
    "verifiedHits": 0,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14762,
+   "hits": 14769,
    "verifiedHits": 0,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13591,
+   "hits": 13592,
    "verifiedHits": 0,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7888,
-   "verifiedHits": 7455,
+   "hits": 7894,
+   "verifiedHits": 7461,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
    "topPaths": [
@@ -124,7 +124,7 @@
     },
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 63
+     "hits": 64
     },
     {
      "path": "/posts/llm-api-pricing-comparison-august-2026.html",
@@ -146,8 +146,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5431,
-   "verifiedHits": 4948,
+   "hits": 5433,
+   "verifiedHits": 4950,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4973,
-   "verifiedHits": 4417,
+   "hits": 4976,
+   "verifiedHits": 4420,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3635,
-   "verifiedHits": 3183,
+   "hits": 3636,
+   "verifiedHits": 3184,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
    "topPaths": [
@@ -301,7 +301,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 75
+     "hits": 76
     }
    ],
    "verifiable": true
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3143,
+   "hits": 3144,
    "verifiedHits": 0,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
@@ -410,14 +410,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2651,
+   "hits": 2652,
    "verifiedHits": 0,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 498
+     "hits": 499
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 670,
-   "verifiedHits": 510,
+   "hits": 672,
+   "verifiedHits": 512,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
    "topPaths": [
