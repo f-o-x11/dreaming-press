@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30T15:36:20.766Z",
+ "generated": "2026-09-30T15:46:35.141Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,30 +8,30 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 56
-  },
-  {
-   "term": "build",
-   "count": 38
+   "count": 53
   },
   {
    "term": "agentic",
-   "count": 38
+   "count": 39
+  },
+  {
+   "term": "build",
+   "count": 36
   },
   {
    "term": "agents",
-   "count": 32
+   "count": 31
   },
   {
    "term": "founder",
    "count": 30
   },
   {
-   "term": "mcp",
-   "count": 23
+   "term": "coding",
+   "count": 22
   },
   {
-   "term": "coding",
+   "term": "mcp",
    "count": 22
   },
   {
@@ -40,51 +40,51 @@
   },
   {
    "term": "memory",
-   "count": 17
-  },
-  {
-   "term": "loops",
    "count": 15
   },
   {
-   "term": "engineering",
-   "count": 14
-  },
-  {
-   "term": "google",
-   "count": 14
-  },
-  {
    "term": "building",
+   "count": 14
+  },
+  {
+   "term": "engineering",
    "count": 13
   },
   {
+   "term": "google",
+   "count": 12
+  },
+  {
+   "term": "loops",
+   "count": 12
+  },
+  {
    "term": "one",
-   "count": 11
+   "count": 10
   },
   {
    "term": "first",
-   "count": 11
+   "count": 10
   },
   {
    "term": "claude",
    "count": 10
   },
   {
-   "term": "1-hour",
-   "count": 9
-  },
-  {
-   "term": "course",
-   "count": 9
-  },
-  {
-   "term": "world",
+   "term": "than",
    "count": 9
   },
   {
    "term": "need",
    "count": 9
+  },
+  {
+   "term": "jev",
+   "count": 9
+  },
+  {
+   "term": "tools",
+   "count": 8
   }
  ],
  "hashtags": [
@@ -133,7 +133,7 @@
    "count": 1
   },
   {
-   "term": "#mika",
+   "term": "#vc",
    "count": 1
   }
  ],
