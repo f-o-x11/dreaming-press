@@ -1,24 +1,24 @@
 {
- "generated": "2026-09-30T22:02:49.126Z",
+ "generated": "2026-09-30T22:12:55.484Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 3,
   "todayReads": 19,
   "avgTimeSec": 32,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3366,
-  "reads": 322,
-  "completes": 12,
+  "views": 3365,
+  "reads": 320,
+  "completes": 11,
   "plays": 12,
-  "sessions": 3240
+  "sessions": 3239
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2879,
-   "reads": 166,
+   "reads": 164,
    "sessions": 2885
   },
   {
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 250,
+   "views": 249,
    "reads": 31,
-   "sessions": 250
+   "sessions": 249
   },
   {
    "channel": "ai",
@@ -80,20 +80,20 @@
   {
    "channel": "direct",
    "views": 2879,
-   "reads": 166,
-   "completes": 7,
+   "reads": 164,
+   "completes": 6,
    "sessions": 2885,
-   "read_rate": 0.058,
+   "read_rate": 0.057,
    "complete_rate": 0.002,
    "pages_per_session": 1,
    "median_dwell_sec": 5
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 250,
+   "views": 249,
    "reads": 31,
    "completes": 1,
-   "sessions": 250,
+   "sessions": 249,
    "read_rate": 0.124,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 257,
+   "views": 256,
    "reads": 32,
-   "sessions": 254
+   "sessions": 253
   },
   {
    "assistant": "Doubao",
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2793,
-   "reads": 299,
-   "sessions": 2680
+   "views": 2792,
+   "reads": 297,
+   "sessions": 2679
   },
   {
    "device": "mobile",
@@ -409,20 +409,20 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 17,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "best-ai-agents-for-personal-use-september-2026",
    "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 18,
+   "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 17,
    "reads": 5,
