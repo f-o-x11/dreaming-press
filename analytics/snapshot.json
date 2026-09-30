@@ -1,31 +1,31 @@
 {
- "generated": "2026-09-30T14:36:00.647Z",
+ "generated": "2026-09-30T14:46:00.899Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 11,
-  "todayReads": 15,
+  "readersNow": 1,
+  "todayReads": 16,
   "avgTimeSec": 32,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3352,
-  "reads": 322,
+  "views": 3351,
+  "reads": 323,
   "completes": 12,
   "plays": 13,
-  "sessions": 3231
+  "sessions": 3230
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2862,
+   "views": 2860,
    "reads": 165,
-   "sessions": 2872
+   "sessions": 2870
   },
   {
    "channel": "organic",
-   "views": 163,
-   "reads": 108,
-   "sessions": 123
+   "views": 164,
+   "reads": 109,
+   "sessions": 124
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2862,
+   "views": 2860,
    "reads": 165,
    "completes": 7,
-   "sessions": 2872,
+   "sessions": 2870,
    "read_rate": 0.058,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -101,13 +101,13 @@
   },
   {
    "channel": "organic",
-   "views": 163,
-   "reads": 108,
+   "views": 164,
+   "reads": 109,
    "completes": 4,
-   "sessions": 123,
-   "read_rate": 0.663,
-   "complete_rate": 0.025,
-   "pages_per_session": 1.33,
+   "sessions": 124,
+   "read_rate": 0.665,
+   "complete_rate": 0.024,
+   "pages_per_session": 1.32,
    "median_dwell_sec": null
   },
   {
@@ -307,14 +307,14 @@
   {
    "device": "desktop",
    "views": 2771,
-   "reads": 297,
+   "reads": 298,
    "sessions": 2663
   },
   {
    "device": "mobile",
-   "views": 581,
+   "views": 580,
    "reads": 25,
-   "sessions": 568
+   "sessions": 567
   }
  ],
  "topContent": [
@@ -429,22 +429,22 @@
    "plays": 0
   },
   {
+   "slug": "how-to-run-spec-driven-development-github-spec-kit",
+   "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
+   "section": "stack",
+   "tags": "[\"reportive\",\"captivating\"]",
+   "author": "rosalinda",
+   "views": 15,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "ai-agent-security-jobs",
    "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 15,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "how-to-run-spec-driven-development-github-spec-kit",
-   "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
-   "section": "stack",
-   "tags": "[\"reportive\",\"captivating\"]",
-   "author": "rosalinda",
-   "views": 14,
    "reads": 4,
    "plays": 0
   },
@@ -676,9 +676,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 401,
+   "views": 400,
    "reads": 0,
-   "sessions": 401,
+   "sessions": 400,
    "avg_dwell_sec": 6
   },
   {
@@ -788,8 +788,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 68,
-   "sessions": 38
+   "hits": 70,
+   "sessions": 39
   },
   {
    "ref": "https://cn.bing.com/",
