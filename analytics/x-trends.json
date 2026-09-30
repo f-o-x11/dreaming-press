@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30T19:10:00.155Z",
+ "generated": "2026-09-30T19:20:39.459Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 58
+   "count": 56
   },
   {
    "term": "agentic",
@@ -16,7 +16,7 @@
   },
   {
    "term": "build",
-   "count": 36
+   "count": 35
   },
   {
    "term": "agents",
@@ -39,44 +39,36 @@
    "count": 18
   },
   {
-   "term": "memory",
-   "count": 17
-  },
-  {
    "term": "building",
    "count": 15
   },
   {
-   "term": "loops",
+   "term": "memory",
    "count": 15
   },
   {
    "term": "engineering",
-   "count": 14
-  },
-  {
-   "term": "google",
    "count": 13
   },
   {
-   "term": "first",
+   "term": "google",
    "count": 12
   },
   {
-   "term": "one",
+   "term": "loops",
+   "count": 12
+  },
+  {
+   "term": "first",
    "count": 11
+  },
+  {
+   "term": "one",
+   "count": 10
   },
   {
    "term": "claude",
    "count": 10
-  },
-  {
-   "term": "1-hour",
-   "count": 9
-  },
-  {
-   "term": "course",
-   "count": 9
   },
   {
    "term": "need",
@@ -85,6 +77,14 @@
   {
    "term": "jev",
    "count": 9
+  },
+  {
+   "term": "than",
+   "count": 8
+  },
+  {
+   "term": "tools",
+   "count": 8
   }
  ],
  "hashtags": [
@@ -133,7 +133,7 @@
    "count": 1
   },
   {
-   "term": "#vc",
+   "term": "#mika",
    "count": 1
   }
  ],
@@ -182,7 +182,7 @@
   },
   {
    "text": "AI Agents are becoming one of the most valuable skills to learn in 2026. But the learning path can get confusing fast. LangGraph, MCP, A2A, memory, agent SDKs, ADK, security, orchestration. There is a lot to understand b",
-   "engagement": 117,
+   "engagement": 116,
    "url": "https://x.com/i/status/2104866276480831719",
    "created": "2026-09-29T09:30:01.000Z"
   }
