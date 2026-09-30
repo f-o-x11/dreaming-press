@@ -1,12 +1,12 @@
 {
- "generated": "2026-09-30T19:20:38.836Z",
+ "generated": "2026-09-30T19:30:46.402Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16434,
+ "verifiedAiHits": 16952,
  "logsScanned": 30,
  "windowStart": "2026-09-16",
  "windowEnd": "2026-09-30",
- "totalHits": 106392,
- "aiHits": 85872,
+ "totalHits": 106931,
+ "aiHits": 86410,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30394,
+   "hits": 30400,
    "verifiedHits": 0,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14686,
+   "hits": 14693,
    "verifiedHits": 0,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
@@ -146,8 +146,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5399,
-   "verifiedHits": 4916,
+   "hits": 5402,
+   "verifiedHits": 4919,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4970,
-   "verifiedHits": 4414,
+   "hits": 4971,
+   "verifiedHits": 4415,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
    "topPaths": [
@@ -194,7 +194,7 @@
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 22
+     "hits": 23
     },
     {
      "path": "/dashboard",
@@ -203,6 +203,39 @@
     {
      "path": "/stack.html",
      "hits": 17
+    }
+   ],
+   "verifiable": true
+  },
+  {
+   "name": "GPTBot",
+   "label": "GPTBot (OpenAI)",
+   "category": "ai",
+   "home": "https://openai.com/gptbot",
+   "hits": 4929,
+   "verifiedHits": 4450,
+   "firstSeen": "2026-09-16",
+   "lastSeen": "2026-09-30",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 82
+    },
+    {
+     "path": "/authors/dex",
+     "hits": 64
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 52
+    },
+    {
+     "path": "/authors/priya",
+     "hits": 22
+    },
+    {
+     "path": "/",
+     "hits": 9
     }
    ],
    "verifiable": true
@@ -241,45 +274,12 @@
    "verifiable": false
   },
   {
-   "name": "GPTBot",
-   "label": "GPTBot (OpenAI)",
-   "category": "ai",
-   "home": "https://openai.com/gptbot",
-   "hits": 4416,
-   "verifiedHits": 3937,
-   "firstSeen": "2026-09-16",
-   "lastSeen": "2026-09-30",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 70
-    },
-    {
-     "path": "/authors/dex",
-     "hits": 40
-    },
-    {
-     "path": "/authors/priya",
-     "hits": 13
-    },
-    {
-     "path": "/",
-     "hits": 9
-    },
-    {
-     "path": "/authors/rosalinda",
-     "hits": 7
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "ChatGPT-User",
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3619,
-   "verifiedHits": 3167,
+   "hits": 3620,
+   "verifiedHits": 3168,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2767,
+   "hits": 2772,
    "verifiedHits": 0,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
@@ -410,14 +410,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2635,
+   "hits": 2637,
    "verifiedHits": 0,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 494
+     "hits": 495
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1078,
+   "hits": 1079,
    "verifiedHits": 0,
    "firstSeen": "2026-09-16",
    "lastSeen": "2026-09-30",
