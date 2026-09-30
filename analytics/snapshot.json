@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-30T05:07:40.374Z",
+ "generated": "2026-09-30T05:18:00.303Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 4,
   "todayReads": 1,
   "avgTimeSec": 43,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3318,
-  "reads": 320,
+  "views": 3320,
+  "reads": 319,
   "completes": 12,
   "plays": 14,
-  "sessions": 3199
+  "sessions": 3201
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2819,
+   "views": 2822,
    "reads": 164,
-   "sessions": 2832
+   "sessions": 2835
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 42,
-   "reads": 7,
-   "sessions": 42
+   "views": 41,
+   "reads": 6,
+   "sessions": 41
   },
   {
    "channel": "campaign:qwant",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2819,
+   "views": 2822,
    "reads": 164,
    "completes": 7,
-   "sessions": 2832,
+   "sessions": 2835,
    "read_rate": 0.058,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -112,11 +112,11 @@
   },
   {
    "channel": "referral",
-   "views": 42,
-   "reads": 7,
+   "views": 41,
+   "reads": 6,
    "completes": 0,
-   "sessions": 42,
-   "read_rate": 0.167,
+   "sessions": 41,
+   "read_rate": 0.146,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2757,
-   "reads": 297,
-   "sessions": 2651
+   "views": 2759,
+   "reads": 296,
+   "sessions": 2653
   },
   {
    "device": "mobile",
@@ -419,16 +419,6 @@
    "plays": 0
   },
   {
-   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
-   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 7,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-21-routellm-vs-notdiamond-vs-martian",
    "title": "RouteLLM vs NotDiamond vs Martian: Do LLM Model Routers Actually Cut Costs?",
    "section": "stack",
@@ -465,6 +455,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 11,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
+   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
    "reads": 4,
    "plays": 0
   }
