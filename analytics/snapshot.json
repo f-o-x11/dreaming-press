@@ -1,25 +1,25 @@
 {
- "generated": "2026-09-30T11:21:48.126Z",
+ "generated": "2026-09-30T11:42:47.839Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 0,
   "todayReads": 13,
   "avgTimeSec": 38,
-  "postsThisWeek": 7
+  "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3333,
-  "reads": 326,
+  "views": 3327,
+  "reads": 325,
   "completes": 12,
   "plays": 13,
-  "sessions": 3213
+  "sessions": 3206
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2843,
+   "views": 2838,
    "reads": 167,
-   "sessions": 2852
+   "sessions": 2846
   },
   {
    "channel": "organic",
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 258,
-   "reads": 32,
-   "sessions": 258
+   "views": 257,
+   "reads": 31,
+   "sessions": 257
   },
   {
    "channel": "ai",
    "views": 23,
    "reads": 9,
-   "sessions": 44
+   "sessions": 43
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2843,
+   "views": 2838,
    "reads": 167,
    "completes": 7,
-   "sessions": 2852,
+   "sessions": 2846,
    "read_rate": 0.059,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 258,
-   "reads": 32,
+   "views": 257,
+   "reads": 31,
    "completes": 1,
-   "sessions": 258,
-   "read_rate": 0.124,
+   "sessions": 257,
+   "read_rate": 0.121,
    "complete_rate": 0.004,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -126,11 +126,11 @@
    "views": 23,
    "reads": 9,
    "completes": 0,
-   "sessions": 44,
+   "sessions": 43,
    "read_rate": 0.391,
    "complete_rate": 0,
-   "pages_per_session": 0.52,
-   "median_dwell_sec": 13
+   "pages_per_session": 0.53,
+   "median_dwell_sec": 10
   },
   {
    "channel": "campaign:qwant",
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 265,
-   "reads": 33,
-   "sessions": 262
+   "views": 264,
+   "reads": 32,
+   "sessions": 261
   },
   {
    "assistant": "Doubao",
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2767,
-   "reads": 301,
-   "sessions": 2660
+   "views": 2761,
+   "reads": 300,
+   "sessions": 2653
   },
   {
    "device": "mobile",
@@ -643,16 +643,6 @@
    "plays": 0
   },
   {
-   "slug": "e2b-vs-modal-vs-daytona-agent-sandboxes",
-   "title": "E2B vs Modal vs Daytona: Picking a Code Execution Sandbox for AI Agents",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "open-source-llm-for-coding-september-2026",
    "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
    "section": "stack",
@@ -661,6 +651,16 @@
    "views": 20,
    "reads": 6,
    "plays": 1
+  },
+  {
+   "slug": "e2b-vs-modal-vs-daytona-agent-sandboxes",
+   "title": "E2B vs Modal vs Daytona: Picking a Code Execution Sandbox for AI Agents",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 1,
+   "plays": 0
   },
   {
    "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
@@ -803,8 +803,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 40,
-   "sessions": 25
+   "hits": 38,
+   "sessions": 24
   },
   {
    "ref": "https://search.brave.com/",

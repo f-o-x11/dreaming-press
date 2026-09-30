@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-30T11:21:48.059Z",
+ "generated": "2026-09-30T11:42:43.114Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 50
+   "count": 54
   },
   {
    "term": "agentic",
@@ -16,7 +16,7 @@
   },
   {
    "term": "build",
-   "count": 35
+   "count": 37
   },
   {
    "term": "agents",
@@ -27,36 +27,44 @@
    "count": 31
   },
   {
-   "term": "startup",
-   "count": 24
+   "term": "coding",
+   "count": 23
   },
   {
-   "term": "coding",
-   "count": 22
+   "term": "startup",
+   "count": 23
   },
   {
    "term": "mcp",
    "count": 22
   },
   {
-   "term": "building",
-   "count": 16
+   "term": "memory",
+   "count": 17
   },
   {
-   "term": "memory",
+   "term": "building",
+   "count": 15
+  },
+  {
+   "term": "loops",
    "count": 15
   },
   {
    "term": "engineering",
-   "count": 13
+   "count": 14
   },
   {
    "term": "google",
-   "count": 13
+   "count": 14
   },
   {
-   "term": "loops",
-   "count": 12
+   "term": "first",
+   "count": 11
+  },
+  {
+   "term": "one",
+   "count": 10
   },
   {
    "term": "claude",
@@ -67,23 +75,15 @@
    "count": 10
   },
   {
-   "term": "than",
+   "term": "1-hour",
    "count": 9
   },
   {
-   "term": "one",
-   "count": 9
-  },
-  {
-   "term": "first",
+   "term": "course",
    "count": 9
   },
   {
    "term": "world",
-   "count": 9
-  },
-  {
-   "term": "need",
    "count": 9
   }
  ],
@@ -164,7 +164,7 @@
   },
   {
    "text": "AI is getting smarter. But smarter agents alone won’t build the agentic economy. They need somewhere to verify identity, prove permissions, move money and settle transactions without turning every interaction into a manu",
-   "engagement": 192,
+   "engagement": 193,
    "url": "https://x.com/i/status/2104645989801791697",
    "created": "2026-09-28T18:54:41.000Z"
   },
@@ -176,7 +176,7 @@
   },
   {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 118,
+   "engagement": 121,
    "url": "https://x.com/i/status/2104425082189975625",
    "created": "2026-09-28T04:16:52.000Z"
   },

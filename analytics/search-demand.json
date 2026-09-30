@@ -1,8 +1,8 @@
 {
- "fetched_at": "2026-09-25T11:43:27.263Z",
+ "fetched_at": "2026-09-30T11:42:47.767Z",
  "seeds": 25,
- "phrases": 449,
- "gaps": 249,
+ "phrases": 460,
+ "gaps": 259,
  "top_gaps": [
   {
    "phrase": "ai agent security summit",
@@ -70,19 +70,6 @@
    "covered": null
   },
   {
-   "phrase": "llm api pricing calculator",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "llm api pricing"
-   ],
-   "score": 7,
-   "covered": null
-  },
-  {
    "phrase": "local llm reddit",
    "engines": [
     "google",
@@ -123,6 +110,19 @@
   },
   {
    "phrase": "vibe coding meme",
+   "engines": [
+    "google",
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "vibe coding"
+   ],
+   "score": 7,
+   "covered": null
+  },
+  {
+   "phrase": "vibe coding reddit",
    "engines": [
     "google",
     "bing",
@@ -195,7 +195,7 @@
    "covered": null
   },
   {
-   "phrase": "ai agent security incident breach 2026",
+   "phrase": "ai agent security governance challenges 2026",
    "engines": [
     "bing",
     "ddg"
@@ -207,7 +207,7 @@
    "covered": null
   },
   {
-   "phrase": "ai agent security testing",
+   "phrase": "ai agent security incident breach 2026",
    "engines": [
     "bing",
     "ddg"
@@ -232,6 +232,18 @@
   },
   {
    "phrase": "ai coding agent latest news september 2026",
+   "engines": [
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "ai coding agent"
+   ],
+   "score": 5,
+   "covered": null
+  },
+  {
+   "phrase": "ai coding agent new release september 2026",
    "engines": [
     "bing",
     "ddg"
@@ -399,7 +411,7 @@
    "covered": null
   },
   {
-   "phrase": "best llm for open claw",
+   "phrase": "best llm for rag",
    "engines": [
     "bing",
     "ddg"
@@ -481,37 +493,9 @@
    ],
    "score": 5,
    "covered": null
-  },
-  {
-   "phrase": "best vector database reddit",
-   "engines": [
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "best vector database"
-   ],
-   "score": 5,
-   "covered": null
   }
  ],
  "covered_sample": [
-  {
-   "phrase": "agent memory benchmark",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "agent memory"
-   ],
-   "score": 7,
-   "covered": {
-    "slug": "agent-memory-survey-2026",
-    "title": "Agent Memory in 2026: A Field Survey of the Frameworks, the Tradeoffs, and How to Choose"
-   }
-  },
   {
    "phrase": "agent memory github",
    "engines": [
@@ -542,6 +526,22 @@
    "covered": {
     "slug": "memoryarena-locomo-agentic-memory-benchmark-gap",
     "title": "MemoryArena vs LoCoMo: Why Agent Memory Scores 95% on the Benchmark and ~50% When It Has to Act"
+   }
+  },
+  {
+   "phrase": "agent memory management",
+   "engines": [
+    "google",
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "agent memory"
+   ],
+   "score": 7,
+   "covered": {
+    "slug": "how-to-combine-context-editing-compaction-memory-subagents-agent-sdk",
+    "title": "How to Combine Context Editing, Compaction, Memory, and Subagents in One Claude Agent SDK Loop"
    }
   },
   {
