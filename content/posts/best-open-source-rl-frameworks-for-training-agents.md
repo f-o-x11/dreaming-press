@@ -18,9 +18,9 @@ art:
   motif: "a policy circling a single reward point, each training lap a tighter concentric ring pulling the orbit inward"
 ---
 
-**Pick your open-source RL framework by which half of the problem you're on — not by whose benchmark is fastest.** Have a working agent and want reinforcement learning without a rewrite → **OpenPipe ART**. Need maximum-scale trainer infrastructure → **verl**. Building the environment and reward that actually decide whether training works → **Prime Intellect's verifiers**. That's the answer; the rest of this guide is why.
+**The best open-source RL frameworks for training agents in 2026 are verl, Hugging Face trl, OpenPipe ART, OpenRLHF, Prime Intellect's verifiers, SkyRL, and prime-rl — all real, actively maintained, and self-hostable on your own GPUs.** Which one you should pick isn't decided by a benchmark; it's decided by which half of the problem you're on, so here's the whole answer in one line: have a working agent and want RL without a rewrite → **OpenPipe ART**; need maximum-scale trainer infrastructure → **verl**; building the environment and reward that actually decide whether training works → **Prime Intellect's verifiers**; just learning GRPO first → **trl**. That's the pick; the rest of this guide is why.
 
-The seven frameworks worth your time in 2026 are all real, actively maintained, and self-hostable on your own GPUs: **verl, Hugging Face trl, OpenPipe ART, OpenRLHF, verifiers, SkyRL, and prime-rl**. But "which is best" is the wrong question, because the RL *algorithm* is commoditized — every one of these ships GRPO, and the deltas between PPO variants are small. The pick is decided by one split most roundups miss: does the framework help you build the *environment and reward* (where the real work now lives), or does it just run the *trainer*?
+"Which is best" is the wrong question to lead with, because the RL *algorithm* is commoditized — every one of these ships GRPO, and the deltas between PPO variants are small. The pick is decided by one split most roundups miss: does the framework help you build the *environment and reward* (where the real work now lives), or does it just run the *trainer*?
 
 Here's the whole decision in one screen:
 
