@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01T11:13:28.808Z",
+ "generated": "2026-10-01T11:23:37.471Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 47
+   "count": 49
   },
   {
    "term": "agentic",
@@ -16,15 +16,15 @@
   },
   {
    "term": "build",
-   "count": 31
+   "count": 32
+  },
+  {
+   "term": "agents",
+   "count": 28
   },
   {
    "term": "founder",
    "count": 28
-  },
-  {
-   "term": "agents",
-   "count": 27
   },
   {
    "term": "mcp",
@@ -40,11 +40,7 @@
   },
   {
    "term": "building",
-   "count": 14
-  },
-  {
-   "term": "engineering",
-   "count": 12
+   "count": 13
   },
   {
    "term": "claude",
@@ -53,6 +49,10 @@
   {
    "term": "memory",
    "count": 12
+  },
+  {
+   "term": "engineering",
+   "count": 11
   },
   {
    "term": "google",
@@ -169,20 +169,20 @@
    "created": "2026-09-28T15:41:01.000Z"
   },
   {
-   "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 117,
-   "url": "https://x.com/i/status/2104425082189975625",
-   "created": "2026-09-28T04:16:52.000Z"
-  },
-  {
    "text": "AI Agents are becoming one of the most valuable skills to learn in 2026. But the learning path can get confusing fast. LangGraph, MCP, A2A, memory, agent SDKs, ADK, security, orchestration. There is a lot to understand b",
    "engagement": 116,
    "url": "https://x.com/i/status/2104866276480831719",
    "created": "2026-09-29T09:30:01.000Z"
   },
   {
+   "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
+   "engagement": 115,
+   "url": "https://x.com/i/status/2104425082189975625",
+   "created": "2026-09-28T04:16:52.000Z"
+  },
+  {
    "text": "$ORBIO Update It’s been a little over a week since my last post on $ORBIO, so I went back through everything again to see what has actually changed When I wrote about it, ORBIO was sitting around $69–70M MC after running",
-   "engagement": 102,
+   "engagement": 106,
    "url": "https://x.com/i/status/2105583131206303892",
    "created": "2026-10-01T08:58:32.000Z"
   }
