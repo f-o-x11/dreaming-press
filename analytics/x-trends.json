@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01T02:27:28.175Z",
+ "generated": "2026-10-01T02:37:35.283Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,19 +12,19 @@
   },
   {
    "term": "agentic",
-   "count": 38
+   "count": 39
   },
   {
    "term": "build",
-   "count": 35
+   "count": 34
   },
   {
    "term": "agents",
-   "count": 33
+   "count": 32
   },
   {
    "term": "founder",
-   "count": 28
+   "count": 29
   },
   {
    "term": "coding",
@@ -40,7 +40,7 @@
   },
   {
    "term": "building",
-   "count": 13
+   "count": 14
   },
   {
    "term": "memory",
@@ -75,16 +75,16 @@
    "count": 9
   },
   {
-   "term": "need",
-   "count": 9
-  },
-  {
    "term": "different",
    "count": 8
   },
   {
-   "term": "research",
-   "count": 7
+   "term": "dropped",
+   "count": 8
+  },
+  {
+   "term": "need",
+   "count": 8
   }
  ],
  "hashtags": [
@@ -125,15 +125,15 @@
    "count": 1
   },
   {
-   "term": "#datascience",
+   "term": "#saas",
    "count": 1
   },
   {
-   "term": "#aiagents",
+   "term": "#business",
    "count": 1
   },
   {
-   "term": "#pymc",
+   "term": "#vc",
    "count": 1
   }
  ],
@@ -163,12 +163,6 @@
    "created": "2026-09-26T09:31:03.000Z"
   },
   {
-   "text": "AI is getting smarter. But smarter agents alone won’t build the agentic economy. They need somewhere to verify identity, prove permissions, move money and settle transactions without turning every interaction into a manu",
-   "engagement": 195,
-   "url": "https://x.com/i/status/2104645989801791697",
-   "created": "2026-09-28T18:54:41.000Z"
-  },
-  {
    "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
    "engagement": 118,
    "url": "https://x.com/i/status/2104425082189975625",
@@ -185,6 +179,12 @@
    "engagement": 116,
    "url": "https://x.com/i/status/2104866276480831719",
    "created": "2026-09-29T09:30:01.000Z"
+  },
+  {
+   "text": "Meet Alon Rozi: The 16-Year-Old Israeli Founder Behind a Multimillion-Dollar AI Startup https://t.co/TB7lqqd1zn",
+   "engagement": 102,
+   "url": "https://x.com/i/status/2104570884195328339",
+   "created": "2026-09-28T13:56:14.000Z"
   }
  ]
 }
