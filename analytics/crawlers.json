@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-01T00:05:14.229Z",
+ "generated": "2026-10-01T00:15:19.636Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16545,
+ "verifiedAiHits": 16549,
  "logsScanned": 30,
  "windowStart": "2026-09-17",
  "windowEnd": "2026-10-01",
- "totalHits": 101122,
- "aiHits": 81811,
+ "totalHits": 101197,
+ "aiHits": 81881,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,10 +14,10 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27642,
+   "hits": 27659,
    "verifiedHits": 0,
    "firstSeen": "2026-09-17",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "topPaths": [
     {
      "path": "/",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13779,
+   "hits": 13787,
    "verifiedHits": 0,
    "firstSeen": "2026-09-17",
    "lastSeen": "2026-10-01",
@@ -80,10 +80,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13177,
+   "hits": 13215,
    "verifiedHits": 0,
    "firstSeen": "2026-09-17",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "topPaths": [
     {
      "path": "/build",
@@ -98,12 +98,12 @@
      "hits": 8
     },
     {
-     "path": "/posts/mcp-multi-round-trip-requests-sampling-elicitation-without-a-session.html",
-     "hits": 6
+     "path": "/posts/goose-vs-claude-code-agent-runtime-solo-founder.html",
+     "hits": 7
     },
     {
-     "path": "/posts/text-generation-inference-tgi-archived-migrate-off.html",
-     "hits": 6
+     "path": "/posts/2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader.html",
+     "hits": 7
     }
    ],
    "verifiable": false
@@ -113,10 +113,10 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7464,
-   "verifiedHits": 7036,
+   "hits": 7466,
+   "verifiedHits": 7038,
    "firstSeen": "2026-09-17",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "topPaths": [
     {
      "path": "/build",
@@ -179,10 +179,10 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 4919,
-   "verifiedHits": 4442,
+   "hits": 4920,
+   "verifiedHits": 4443,
    "firstSeen": "2026-09-17",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "topPaths": [
     {
      "path": "/build",
@@ -212,10 +212,10 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4879,
-   "verifiedHits": 4314,
+   "hits": 4882,
+   "verifiedHits": 4317,
    "firstSeen": "2026-09-17",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "topPaths": [
     {
      "path": "/build",
@@ -245,10 +245,10 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4568,
+   "hits": 4571,
    "verifiedHits": 0,
    "firstSeen": "2026-09-17",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "topPaths": [
     {
      "path": "/build",
@@ -344,10 +344,10 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2679,
+   "hits": 2681,
    "verifiedHits": 0,
    "firstSeen": "2026-09-17",
-   "lastSeen": "2026-09-30",
+   "lastSeen": "2026-10-01",
    "topPaths": [
     {
      "path": "/build",
@@ -604,6 +604,39 @@
    "verifiable": false
   },
   {
+   "name": "DuckAssistBot",
+   "label": "DuckDuckGo AI",
+   "category": "ai",
+   "home": "https://duckduckgo.com/duckassistbot",
+   "hits": 94,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-18",
+   "lastSeen": "2026-10-01",
+   "topPaths": [
+    {
+     "path": "/feast/read-document",
+     "hits": 3
+    },
+    {
+     "path": "/cgi-bin/php",
+     "hits": 2
+    },
+    {
+     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
+     "hits": 2
+    },
+    {
+     "path": "/dashboard",
+     "hits": 1
+    },
+    {
+     "path": "/_profiler/open",
+     "hits": 1
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "MistralAI",
    "label": "Mistral AI",
    "category": "ai",
@@ -631,39 +664,6 @@
     },
     {
      "path": "/0p1nxrd0779h7ro7c4kw",
-     "hits": 1
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "DuckAssistBot",
-   "label": "DuckDuckGo AI",
-   "category": "ai",
-   "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 93,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-18",
-   "lastSeen": "2026-09-30",
-   "topPaths": [
-    {
-     "path": "/feast/read-document",
-     "hits": 3
-    },
-    {
-     "path": "/cgi-bin/php",
-     "hits": 2
-    },
-    {
-     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 2
-    },
-    {
-     "path": "/dashboard",
-     "hits": 1
-    },
-    {
-     "path": "/_profiler/open",
      "hits": 1
     }
    ],
