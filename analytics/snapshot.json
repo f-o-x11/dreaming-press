@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-01T14:16:00.544Z",
+ "generated": "2026-10-01T14:26:01.076Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 13,
+  "readersNow": 5,
+  "todayReads": 15,
   "avgTimeSec": 7,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3322,
-  "reads": 318,
+  "views": 3323,
+  "reads": 320,
   "completes": 11,
   "plays": 9,
   "sessions": 3195
@@ -23,21 +23,21 @@
   },
   {
    "channel": "organic",
-   "views": 168,
-   "reads": 112,
-   "sessions": 128
+   "views": 170,
+   "reads": 114,
+   "sessions": 129
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 237,
+   "views": 236,
    "reads": 31,
-   "sessions": 237
+   "sessions": 236
   },
   {
    "channel": "ai",
    "views": 22,
    "reads": 9,
-   "sessions": 42
+   "sessions": 41
   },
   {
    "channel": "referral",
@@ -90,10 +90,10 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 237,
+   "views": 236,
    "reads": 31,
    "completes": 1,
-   "sessions": 237,
+   "sessions": 236,
    "read_rate": 0.131,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -101,13 +101,13 @@
   },
   {
    "channel": "organic",
-   "views": 168,
-   "reads": 112,
+   "views": 170,
+   "reads": 114,
    "completes": 4,
-   "sessions": 128,
-   "read_rate": 0.667,
+   "sessions": 129,
+   "read_rate": 0.671,
    "complete_rate": 0.024,
-   "pages_per_session": 1.31,
+   "pages_per_session": 1.32,
    "median_dwell_sec": null
   },
   {
@@ -126,11 +126,11 @@
    "views": 22,
    "reads": 9,
    "completes": 0,
-   "sessions": 42,
+   "sessions": 41,
    "read_rate": 0.409,
    "complete_rate": 0,
-   "pages_per_session": 0.52,
-   "median_dwell_sec": 10
+   "pages_per_session": 0.54,
+   "median_dwell_sec": 13
   },
   {
    "channel": "campaign:qwant",
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 242,
+   "views": 241,
    "reads": 31,
-   "sessions": 239
+   "sessions": 238
   },
   {
    "assistant": "Doubao",
@@ -306,8 +306,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2763,
-   "reads": 295,
+   "views": 2764,
+   "reads": 297,
    "sessions": 2649
   },
   {
@@ -414,7 +414,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 20,
+   "views": 19,
    "reads": 5,
    "plays": 0
   },
@@ -643,16 +643,6 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
    "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
    "section": "stack",
@@ -660,6 +650,16 @@
    "author": "dex",
    "views": 20,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "open-source-llm-for-coding-september-2026",
+   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 19,
+   "reads": 5,
    "plays": 0
   },
   {
@@ -783,8 +783,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 75,
-   "sessions": 42
+   "hits": 77,
+   "sessions": 43
   },
   {
    "ref": "https://mail.google.com/",
@@ -792,19 +792,19 @@
    "sessions": 2
   },
   {
+   "ref": "https://duckduckgo.com/",
+   "hits": 47,
+   "sessions": 24
+  },
+  {
    "ref": "https://cn.bing.com/",
    "hits": 46,
    "sessions": 28
   },
   {
-   "ref": "https://duckduckgo.com/",
-   "hits": 45,
-   "sessions": 24
-  },
-  {
    "ref": "https://chatgpt.com/",
-   "hits": 32,
-   "sessions": 22
+   "hits": 31,
+   "sessions": 21
   },
   {
    "ref": "https://search.brave.com/",
