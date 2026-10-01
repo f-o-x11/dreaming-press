@@ -1,24 +1,24 @@
 {
- "generated": "2026-10-01T15:06:13.382Z",
+ "generated": "2026-10-01T15:16:28.813Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 1,
   "todayReads": 15,
   "avgTimeSec": 21,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3327,
-  "reads": 320,
-  "completes": 11,
+  "views": 3326,
+  "reads": 318,
+  "completes": 10,
   "plays": 9,
-  "sessions": 3200
+  "sessions": 3199
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2850,
-   "reads": 157,
+   "reads": 156,
    "sessions": 2857
   },
   {
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 236,
-   "reads": 31,
-   "sessions": 236
+   "views": 235,
+   "reads": 30,
+   "sessions": 235
   },
   {
    "channel": "ai",
    "views": 22,
    "reads": 9,
-   "sessions": 41
+   "sessions": 40
   },
   {
    "channel": "referral",
@@ -80,7 +80,7 @@
   {
    "channel": "direct",
    "views": 2850,
-   "reads": 157,
+   "reads": 156,
    "completes": 6,
    "sessions": 2857,
    "read_rate": 0.055,
@@ -90,12 +90,12 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 236,
-   "reads": 31,
-   "completes": 1,
-   "sessions": 236,
-   "read_rate": 0.131,
-   "complete_rate": 0.004,
+   "views": 235,
+   "reads": 30,
+   "completes": 0,
+   "sessions": 235,
+   "read_rate": 0.128,
+   "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
@@ -126,11 +126,11 @@
    "views": 22,
    "reads": 9,
    "completes": 0,
-   "sessions": 41,
+   "sessions": 40,
    "read_rate": 0.409,
    "complete_rate": 0,
-   "pages_per_session": 0.54,
-   "median_dwell_sec": 13
+   "pages_per_session": 0.55,
+   "median_dwell_sec": 10
   },
   {
    "channel": "campaign:qwant",
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 241,
-   "reads": 31,
-   "sessions": 238
+   "views": 240,
+   "reads": 30,
+   "sessions": 237
   },
   {
    "assistant": "Doubao",
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2766,
-   "reads": 297,
-   "sessions": 2652
+   "views": 2765,
+   "reads": 295,
+   "sessions": 2651
   },
   {
    "device": "mobile",
@@ -409,16 +409,6 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 19,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "best-ai-agents-for-personal-use-september-2026",
    "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
    "section": "stack",
@@ -435,6 +425,16 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 19,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "open-source-llm-for-coding-september-2026",
+   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 18,
    "reads": 4,
    "plays": 0
   },
@@ -653,16 +653,6 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 19,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -670,6 +660,16 @@
    "author": "dex",
    "views": 19,
    "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
+   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 19,
+   "reads": 0,
    "plays": 0
   }
  ],
