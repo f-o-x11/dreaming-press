@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-01T10:43:11.272Z",
+ "generated": "2026-10-01T10:53:20.564Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 3,
   "todayReads": 10,
   "avgTimeSec": 8,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3356,
+  "views": 3354,
   "reads": 321,
   "completes": 10,
   "plays": 10,
-  "sessions": 3229
+  "sessions": 3227
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2881,
+   "views": 2880,
    "reads": 161,
-   "sessions": 2887
+   "sessions": 2886
   },
   {
    "channel": "organic",
-   "views": 166,
+   "views": 165,
    "reads": 110,
-   "sessions": 126
+   "sessions": 125
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2881,
+   "views": 2880,
    "reads": 161,
    "completes": 5,
-   "sessions": 2887,
+   "sessions": 2886,
    "read_rate": 0.056,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "organic",
-   "views": 166,
+   "views": 165,
    "reads": 110,
    "completes": 4,
-   "sessions": 126,
-   "read_rate": 0.663,
+   "sessions": 125,
+   "read_rate": 0.667,
    "complete_rate": 0.024,
    "pages_per_session": 1.32,
    "median_dwell_sec": null
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2779,
+   "views": 2777,
    "reads": 298,
-   "sessions": 2665
+   "sessions": 2663
   },
   {
    "device": "mobile",
@@ -404,7 +404,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 7,
+   "views": 8,
    "reads": 6,
    "plays": 0
   },
@@ -598,7 +598,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 35,
+   "views": 34,
    "reads": 0,
    "plays": 0
   },
@@ -676,16 +676,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 397,
+   "views": 396,
    "reads": 0,
-   "sessions": 397,
+   "sessions": 396,
    "avg_dwell_sec": 7
   },
   {
    "path": "/",
-   "views": 141,
+   "views": 140,
    "reads": 3,
-   "sessions": 140,
+   "sessions": 139,
    "avg_dwell_sec": 13
   },
   {
@@ -808,8 +808,8 @@
   },
   {
    "ref": "https://search.brave.com/",
-   "hits": 22,
-   "sessions": 12
+   "hits": 21,
+   "sessions": 11
   },
   {
    "ref": "brand",
