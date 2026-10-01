@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-01T11:54:00.522Z",
+ "generated": "2026-10-01T12:04:10.158Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
-  "todayReads": 11,
+  "todayReads": 12,
   "avgTimeSec": 8,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3344,
-  "reads": 321,
+  "views": 3337,
+  "reads": 322,
   "completes": 11,
   "plays": 10,
-  "sessions": 3217
+  "sessions": 3210
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2870,
+   "views": 2862,
    "reads": 161,
-   "sessions": 2876
+   "sessions": 2868
   },
   {
    "channel": "organic",
-   "views": 165,
-   "reads": 110,
-   "sessions": 125
+   "views": 166,
+   "reads": 111,
+   "sessions": 126
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2870,
+   "views": 2862,
    "reads": 161,
    "completes": 6,
-   "sessions": 2876,
+   "sessions": 2868,
    "read_rate": 0.056,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "organic",
-   "views": 165,
-   "reads": 110,
+   "views": 166,
+   "reads": 111,
    "completes": 4,
-   "sessions": 125,
-   "read_rate": 0.667,
+   "sessions": 126,
+   "read_rate": 0.669,
    "complete_rate": 0.024,
    "pages_per_session": 1.32,
    "median_dwell_sec": null
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2771,
-   "reads": 298,
-   "sessions": 2657
+   "views": 2772,
+   "reads": 299,
+   "sessions": 2658
   },
   {
    "device": "mobile",
-   "views": 573,
+   "views": 565,
    "reads": 23,
-   "sessions": 560
+   "sessions": 552
   }
  ],
  "topContent": [
@@ -334,7 +334,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 94,
+   "views": 92,
    "reads": 16,
    "plays": 1
   },
@@ -369,6 +369,16 @@
    "plays": 0
   },
   {
+   "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
+   "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 9,
+   "reads": 7,
+   "plays": 0
+  },
+  {
    "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
    "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
    "section": "stack",
@@ -395,16 +405,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 12,
-   "reads": 6,
-   "plays": 0
-  },
-  {
-   "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
-   "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 8,
    "reads": 6,
    "plays": 0
   },
@@ -444,7 +444,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 15,
+   "views": 13,
    "reads": 4,
    "plays": 0
   },
@@ -476,7 +476,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 94,
+   "views": 92,
    "reads": 16,
    "plays": 1
   },
@@ -578,7 +578,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 94,
+   "views": 92,
    "reads": 16,
    "plays": 1
   },
@@ -783,8 +783,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 73,
-   "sessions": 41
+   "hits": 75,
+   "sessions": 42
   },
   {
    "ref": "https://mail.google.com/",

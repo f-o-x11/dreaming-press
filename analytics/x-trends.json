@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01T11:54:00.460Z",
+ "generated": "2026-10-01T12:04:10.097Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 49
+   "count": 47
   },
   {
    "term": "agentic",
@@ -16,15 +16,15 @@
   },
   {
    "term": "build",
-   "count": 32
-  },
-  {
-   "term": "agents",
-   "count": 28
+   "count": 31
   },
   {
    "term": "founder",
    "count": 28
+  },
+  {
+   "term": "agents",
+   "count": 27
   },
   {
    "term": "mcp",
@@ -40,7 +40,11 @@
   },
   {
    "term": "building",
-   "count": 13
+   "count": 14
+  },
+  {
+   "term": "engineering",
+   "count": 12
   },
   {
    "term": "claude",
@@ -49,10 +53,6 @@
   {
    "term": "memory",
    "count": 12
-  },
-  {
-   "term": "engineering",
-   "count": 11
   },
   {
    "term": "google",
@@ -71,12 +71,12 @@
    "count": 10
   },
   {
-   "term": "different",
+   "term": "than",
    "count": 9
   },
   {
-   "term": "than",
-   "count": 8
+   "term": "different",
+   "count": 9
   },
   {
    "term": "code",
@@ -182,7 +182,7 @@
   },
   {
    "text": "$ORBIO Update It’s been a little over a week since my last post on $ORBIO, so I went back through everything again to see what has actually changed When I wrote about it, ORBIO was sitting around $69–70M MC after running",
-   "engagement": 108,
+   "engagement": 112,
    "url": "https://x.com/i/status/2105583131206303892",
    "created": "2026-10-01T08:58:32.000Z"
   }
