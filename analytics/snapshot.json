@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-01T03:58:37.396Z",
+ "generated": "2026-10-01T04:08:44.872Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
-  "todayReads": 7,
+  "todayReads": 8,
   "avgTimeSec": 9,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3368,
+  "views": 3367,
   "reads": 325,
   "completes": 10,
   "plays": 12,
-  "sessions": 3238
+  "sessions": 3237
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2881,
+   "views": 2880,
    "reads": 166,
-   "sessions": 2884
+   "sessions": 2883
   },
   {
    "channel": "organic",
-   "views": 165,
-   "reads": 109,
-   "sessions": 125
+   "views": 166,
+   "reads": 110,
+   "sessions": 126
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2881,
+   "views": 2880,
    "reads": 166,
    "completes": 5,
-   "sessions": 2884,
+   "sessions": 2883,
    "read_rate": 0.058,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "organic",
-   "views": 165,
-   "reads": 109,
+   "views": 166,
+   "reads": 110,
    "completes": 4,
-   "sessions": 125,
-   "read_rate": 0.661,
+   "sessions": 126,
+   "read_rate": 0.663,
    "complete_rate": 0.024,
    "pages_per_session": 1.32,
    "median_dwell_sec": null
@@ -307,7 +307,7 @@
   {
    "device": "desktop",
    "views": 2795,
-   "reads": 302,
+   "reads": 303,
    "sessions": 2678
   },
   {
@@ -459,12 +459,12 @@
    "plays": 0
   },
   {
-   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
-   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
-   "section": "wire",
+   "slug": "how-to-cap-runaway-claude-code-subagents-web-searches",
+   "title": "How to Cap a Runaway Claude Code Agent: The New Per-Session Subagent and Web-Search Budgets",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 6,
+   "views": 7,
    "reads": 4,
    "plays": 0
   }
@@ -788,8 +788,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 70,
-   "sessions": 39
+   "hits": 72,
+   "sessions": 40
   },
   {
    "ref": "https://cn.bing.com/",
