@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-01T18:47:32.807Z",
+ "generated": "2026-10-01T18:57:35.297Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 2,
   "todayReads": 16,
   "avgTimeSec": 21,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3311,
-  "reads": 315,
+  "views": 3309,
+  "reads": 314,
   "completes": 10,
   "plays": 9,
-  "sessions": 3187
+  "sessions": 3185
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2845,
+   "views": 2844,
    "reads": 156,
-   "sessions": 2855
+   "sessions": 2854
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 227,
-   "reads": 29,
-   "sessions": 227
+   "views": 226,
+   "reads": 28,
+   "sessions": 226
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2845,
+   "views": 2844,
    "reads": 156,
    "completes": 6,
-   "sessions": 2855,
+   "sessions": 2854,
    "read_rate": 0.055,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 227,
-   "reads": 29,
+   "views": 226,
+   "reads": 28,
    "completes": 0,
-   "sessions": 227,
-   "read_rate": 0.128,
+   "sessions": 226,
+   "read_rate": 0.124,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -263,9 +263,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 231,
-   "reads": 29,
-   "sessions": 229
+   "views": 230,
+   "reads": 28,
+   "sessions": 228
   },
   {
    "assistant": "Doubao",
@@ -301,9 +301,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2754,
-   "reads": 293,
-   "sessions": 2639
+   "views": 2752,
+   "reads": 292,
+   "sessions": 2637
   },
   {
    "device": "mobile",
@@ -496,16 +496,6 @@
    "plays": 1
   },
   {
-   "slug": "ollama-vs-lm-studio-vs-llama-cpp-local-agent-backend",
-   "title": "Ollama vs LM Studio vs llama.cpp: Which Local Backend Should Serve Your Agent?",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 3,
-   "reads": 2,
-   "plays": 1
-  },
-  {
    "slug": "gpt-5-6-sol-exploitgym-escape-egress-lesson",
    "title": "The GPT-5.6 Sol Escape Wasn't a Model Problem — It Was the Egress Path You Also Left Open",
    "section": "wire",
@@ -532,6 +522,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 3,
+   "reads": 1,
+   "plays": 1
+  },
+  {
+   "slug": "ollama-vs-lm-studio-vs-llama-cpp-local-agent-backend",
+   "title": "Ollama vs LM Studio vs llama.cpp: Which Local Backend Should Serve Your Agent?",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 2,
    "reads": 1,
    "plays": 1
   },
@@ -674,7 +674,7 @@
    "views": 396,
    "reads": 0,
    "sessions": 396,
-   "avg_dwell_sec": 9
+   "avg_dwell_sec": 10
   },
   {
    "path": "/",
