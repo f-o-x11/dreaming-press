@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-01T06:30:35.101Z",
+ "generated": "2026-10-01T06:40:48.952Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16744,
+ "verifiedAiHits": 16751,
  "logsScanned": 30,
  "windowStart": "2026-09-17",
  "windowEnd": "2026-10-01",
- "totalHits": 102784,
- "aiHits": 83109,
+ "totalHits": 102869,
+ "aiHits": 83189,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28132,
+   "hits": 28158,
    "verifiedHits": 0,
    "firstSeen": "2026-09-17",
    "lastSeen": "2026-10-01",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14047,
+   "hits": 14055,
    "verifiedHits": 0,
    "firstSeen": "2026-09-17",
    "lastSeen": "2026-10-01",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13391,
+   "hits": 13427,
    "verifiedHits": 0,
    "firstSeen": "2026-09-17",
    "lastSeen": "2026-10-01",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7592,
-   "verifiedHits": 7164,
+   "hits": 7594,
+   "verifiedHits": 7166,
    "firstSeen": "2026-09-17",
    "lastSeen": "2026-10-01",
    "topPaths": [
@@ -124,7 +124,7 @@
     },
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 66
+     "hits": 67
     },
     {
      "path": "/posts/llm-api-pricing-comparison-august-2026.html",
@@ -146,8 +146,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5415,
-   "verifiedHits": 4931,
+   "hits": 5417,
+   "verifiedHits": 4933,
    "firstSeen": "2026-09-17",
    "lastSeen": "2026-10-01",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3494,
-   "verifiedHits": 3041,
+   "hits": 3499,
+   "verifiedHits": 3046,
    "firstSeen": "2026-09-17",
    "lastSeen": "2026-10-01",
    "topPaths": [
@@ -410,14 +410,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2612,
+   "hits": 2615,
    "verifiedHits": 0,
    "firstSeen": "2026-09-17",
    "lastSeen": "2026-10-01",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 515
+     "hits": 516
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1051,
+   "hits": 1052,
    "verifiedHits": 0,
    "firstSeen": "2026-09-17",
    "lastSeen": "2026-10-01",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 662,
-   "verifiedHits": 503,
+   "hits": 664,
+   "verifiedHits": 505,
    "firstSeen": "2026-09-17",
    "lastSeen": "2026-10-01",
    "topPaths": [
