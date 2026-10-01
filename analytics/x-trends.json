@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01T16:37:00.265Z",
+ "generated": "2026-10-01T16:47:04.369Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -40,7 +40,11 @@
   },
   {
    "term": "building",
-   "count": 13
+   "count": 15
+  },
+  {
+   "term": "first",
+   "count": 12
   },
   {
    "term": "claude",
@@ -49,10 +53,6 @@
   {
    "term": "memory",
    "count": 12
-  },
-  {
-   "term": "first",
-   "count": 11
   },
   {
    "term": "engineering",
@@ -152,7 +152,7 @@
   },
   {
    "text": "🚨 You’re probably using Claude at 10% of its actual potential. Most people stop at: “Claude, write this.” But Claude mastery looks like this: 🧠 Foundation → Prompting + Context + Examples ⚙️ Workflow → Projects + Promp",
-   "engagement": 383,
+   "engagement": 382,
    "url": "https://x.com/i/status/2104060782069862722",
    "created": "2026-09-27T04:09:16.000Z"
   },
