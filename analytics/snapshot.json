@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-01T17:57:20.775Z",
+ "generated": "2026-10-01T18:07:21.643Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 3,
   "todayReads": 16,
   "avgTimeSec": 21,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3316,
-  "reads": 316,
+  "views": 3315,
+  "reads": 315,
   "completes": 10,
   "plays": 9,
   "sessions": 3191
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2844,
+   "views": 2846,
    "reads": 156,
-   "sessions": 2855
+   "sessions": 2856
   },
   {
    "channel": "organic",
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 232,
-   "reads": 30,
-   "sessions": 232
+   "views": 230,
+   "reads": 29,
+   "sessions": 230
   },
   {
    "channel": "ai",
-   "views": 22,
+   "views": 21,
    "reads": 9,
-   "sessions": 40
+   "sessions": 39
   },
   {
    "channel": "referral",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 18
+   "sessions": 17
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2844,
+   "views": 2846,
    "reads": 156,
    "completes": 6,
-   "sessions": 2855,
+   "sessions": 2856,
    "read_rate": 0.055,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 232,
-   "reads": 30,
+   "views": 230,
+   "reads": 29,
    "completes": 0,
-   "sessions": 232,
-   "read_rate": 0.129,
+   "sessions": 230,
+   "read_rate": 0.126,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 22,
+   "views": 21,
    "reads": 9,
    "completes": 0,
-   "sessions": 40,
-   "read_rate": 0.409,
+   "sessions": 39,
+   "read_rate": 0.429,
    "complete_rate": 0,
-   "pages_per_session": 0.55,
+   "pages_per_session": 0.54,
    "median_dwell_sec": 10
   },
   {
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 18,
+   "sessions": 17,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -250,11 +250,6 @@
    "sessions": 1
   },
   {
-   "surface": "auto-link",
-   "clicks": 1,
-   "sessions": 1
-  },
-  {
    "surface": "article-body",
    "clicks": 1,
    "sessions": 1
@@ -268,9 +263,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 237,
-   "reads": 30,
-   "sessions": 234
+   "views": 234,
+   "reads": 29,
+   "sessions": 232
   },
   {
    "assistant": "Doubao",
@@ -306,15 +301,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2760,
+   "views": 2759,
    "reads": 293,
-   "sessions": 2645
+   "sessions": 2644
   },
   {
    "device": "mobile",
    "views": 556,
-   "reads": 23,
-   "sessions": 546
+   "reads": 22,
+   "sessions": 547
   }
  ],
  "topContent": [
@@ -429,16 +424,6 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 18,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-security-jobs",
    "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
    "section": "stack",
@@ -466,6 +451,16 @@
    "author": "dex",
    "views": 6,
    "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "vertical-ai-agents-legal-health-finance-where-2026-funding-is-going",
+   "title": "Where 2026's Vertical-AI Money Actually Went: Legal Took the Cash, Healthcare Took the Deals",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 22,
+   "reads": 3,
    "plays": 0
   }
  ],
@@ -506,7 +501,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 4,
+   "views": 3,
    "reads": 2,
    "plays": 1
   },
@@ -760,10 +755,10 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 7,
+   "views": 6,
    "reads": 0,
-   "sessions": 7,
-   "avg_dwell_sec": 2
+   "sessions": 6,
+   "avg_dwell_sec": null
   },
   {
    "path": "/apps",
