@@ -1,37 +1,37 @@
 {
- "generated": "2026-10-01T06:40:49.519Z",
+ "generated": "2026-10-01T06:50:50.168Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
-  "todayReads": 9,
+  "todayReads": 10,
   "avgTimeSec": 7,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3374,
-  "reads": 322,
+  "views": 3371,
+  "reads": 323,
   "completes": 10,
   "plays": 10,
-  "sessions": 3244
+  "sessions": 3241
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2889,
-   "reads": 162,
-   "sessions": 2892
+   "views": 2888,
+   "reads": 163,
+   "sessions": 2891
   },
   {
    "channel": "organic",
-   "views": 166,
+   "views": 165,
    "reads": 110,
-   "sessions": 126
+   "sessions": 125
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 244,
+   "views": 243,
    "reads": 31,
-   "sessions": 244
+   "sessions": 243
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2889,
-   "reads": 162,
+   "views": 2888,
+   "reads": 163,
    "completes": 5,
-   "sessions": 2892,
+   "sessions": 2891,
    "read_rate": 0.056,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -90,22 +90,22 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 244,
+   "views": 243,
    "reads": 31,
    "completes": 1,
-   "sessions": 244,
-   "read_rate": 0.127,
+   "sessions": 243,
+   "read_rate": 0.128,
    "complete_rate": 0.004,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
   {
    "channel": "organic",
-   "views": 166,
+   "views": 165,
    "reads": 110,
    "completes": 4,
-   "sessions": 126,
-   "read_rate": 0.663,
+   "sessions": 125,
+   "read_rate": 0.667,
    "complete_rate": 0.024,
    "pages_per_session": 1.32,
    "median_dwell_sec": null
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 249,
+   "views": 248,
    "reads": 31,
-   "sessions": 246
+   "sessions": 245
   },
   {
    "assistant": "Doubao",
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2797,
-   "reads": 299,
-   "sessions": 2680
+   "views": 2795,
+   "reads": 300,
+   "sessions": 2678
   },
   {
    "device": "mobile",
-   "views": 577,
+   "views": 576,
    "reads": 23,
-   "sessions": 564
+   "sessions": 563
   }
  ],
  "topContent": [
@@ -344,8 +344,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 15,
-   "reads": 8,
+   "views": 16,
+   "reads": 9,
    "plays": 0
   },
   {
@@ -414,7 +414,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 21,
+   "views": 20,
    "reads": 5,
    "plays": 0
   },
@@ -633,16 +633,6 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "how-to-run-spec-driven-development-github-spec-kit",
    "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
    "section": "stack",
@@ -650,6 +640,16 @@
    "author": "rosalinda",
    "views": 20,
    "reads": 7,
+   "plays": 0
+  },
+  {
+   "slug": "open-source-llm-for-coding-september-2026",
+   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 5,
    "plays": 0
   },
   {
@@ -663,13 +663,13 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
-   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
+   "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 20,
-   "reads": 0,
+   "views": 19,
+   "reads": 4,
    "plays": 0
   }
  ],
@@ -793,8 +793,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 47,
-   "sessions": 29
+   "hits": 46,
+   "sessions": 28
   },
   {
    "ref": "https://duckduckgo.com/",
