@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-01T06:20:17.242Z",
+ "generated": "2026-10-01T06:30:35.101Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16741,
+ "verifiedAiHits": 16744,
  "logsScanned": 30,
  "windowStart": "2026-09-17",
  "windowEnd": "2026-10-01",
- "totalHits": 102730,
- "aiHits": 83078,
+ "totalHits": 102784,
+ "aiHits": 83109,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28118,
+   "hits": 28132,
    "verifiedHits": 0,
    "firstSeen": "2026-09-17",
    "lastSeen": "2026-10-01",
@@ -32,12 +32,12 @@
      "hits": 15
     },
     {
-     "path": "/posts/2026-09-09-founders-wire-mistral-samsung-meta-muse-agent-commerce.html",
+     "path": "/posts/2026-09-15-founders-wire-pace-the-frontier-slowdown-market-reprices-ai-trade.html",
      "hits": 14
     },
     {
-     "path": "/posts/agentscope-vs-langgraph.html",
-     "hits": 13
+     "path": "/posts/2026-09-09-founders-wire-mistral-samsung-meta-muse-agent-commerce.html",
+     "hits": 14
     }
    ],
    "verifiable": false
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14040,
+   "hits": 14047,
    "verifiedHits": 0,
    "firstSeen": "2026-09-17",
    "lastSeen": "2026-10-01",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7583,
-   "verifiedHits": 7155,
+   "hits": 7592,
+   "verifiedHits": 7164,
    "firstSeen": "2026-09-17",
    "lastSeen": "2026-10-01",
    "topPaths": [
@@ -124,7 +124,7 @@
     },
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 65
+     "hits": 66
     },
     {
      "path": "/posts/llm-api-pricing-comparison-august-2026.html",
@@ -146,8 +146,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5413,
-   "verifiedHits": 4929,
+   "hits": 5415,
+   "verifiedHits": 4931,
    "firstSeen": "2026-09-17",
    "lastSeen": "2026-10-01",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4899,
-   "verifiedHits": 4327,
+   "hits": 4900,
+   "verifiedHits": 4328,
    "firstSeen": "2026-09-17",
    "lastSeen": "2026-10-01",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4668,
+   "hits": 4677,
    "verifiedHits": 0,
    "firstSeen": "2026-09-17",
    "lastSeen": "2026-10-01",
@@ -344,7 +344,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2709,
+   "hits": 2713,
    "verifiedHits": 0,
    "firstSeen": "2026-09-17",
    "lastSeen": "2026-10-01",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2653,
+   "hits": 2654,
    "verifiedHits": 0,
    "firstSeen": "2026-09-17",
    "lastSeen": "2026-10-01",
@@ -410,14 +410,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2609,
+   "hits": 2612,
    "verifiedHits": 0,
    "firstSeen": "2026-09-17",
    "lastSeen": "2026-10-01",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 514
+     "hits": 515
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
@@ -476,7 +476,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1049,
+   "hits": 1051,
    "verifiedHits": 0,
    "firstSeen": "2026-09-17",
    "lastSeen": "2026-10-01",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 660,
-   "verifiedHits": 501,
+   "hits": 662,
+   "verifiedHits": 503,
    "firstSeen": "2026-09-17",
    "lastSeen": "2026-10-01",
    "topPaths": [
