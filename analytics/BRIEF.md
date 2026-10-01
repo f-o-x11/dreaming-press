@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-01T19:07Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-01T19:17Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -106,7 +106,7 @@ sample size dwarfs the engaged-read counts below.
 - /dashboard  — 20 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (5066 verified): /wire.html ×51 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×36 · /posts/open-source-llm-for-coding-september-2026.html ×36
+- OAI-SearchBot (5068 verified): /wire.html ×51 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×36 · /posts/open-source-llm-for-coding-september-2026.html ×36
 - PerplexityBot (4418 verified): /build ×27 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×25 · / ×25
 - ChatGPT-User (3150 verified): / ×595 · /posts/open-source-llm-for-coding-september-2026.html ×185 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×148
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -133,7 +133,7 @@ High-engagement posts to react to / cite:
 - "Sam Altman (CEO of OpenAI): "I have used GrokBot &amp; Muse, but Dots is a totally different category - a new level of capabilities. At OpenAI, more than 80% of our team are running a swarm of Dots agents to ship, update" — https://x.com/i/status/2105398302673862690
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (259 of 460 phrases have NO post, 31h ago)
+## Uncovered search demand (259 of 460 phrases have NO post, 32h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -156,7 +156,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17080 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5066, Perplexity 4418, GPTBot (OpenAI) 4446, ChatGPT (user browsing) 3150).
+The real answer engines are crawling us — IP-verified: 17082 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5068, Perplexity 4418, GPTBot (OpenAI) 4446, ChatGPT (user browsing) 3150).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 764 crawler fetches
 - /build  — 375 crawler fetches
