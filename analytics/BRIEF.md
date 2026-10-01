@@ -1,12 +1,12 @@
-# Analytics brief — auto-exported 2026-10-01T09:22Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-01T09:32Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3356 views → 321 engaged reads → 10 completes · 3229 sessions.
-- Channels: direct 161r/2878v · organic 110r/167v · campaign:chatgpt.com 31r/237v · ai 9r/22v · referral 6r/41v · campaign:qwant 4r/6v · social 0r/3v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3351 views → 321 engaged reads → 10 completes · 3224 sessions.
+- Channels: direct 161r/2876v · organic 110r/166v · campaign:chatgpt.com 31r/237v · ai 9r/22v · referral 6r/39v · campaign:qwant 4r/6v · social 0r/3v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 31r/242v · Doubao 5r/6v · Perplexity 2r/4v · Claude 1r/2v · Kimi 0r/3v · DeepSeek 0r/1v.
-- Referrers: mail.google.com, bing.com, cn.bing.com, duckduckgo.com, chatgpt.com, search.brave.com, brand, doubao.com, youtube.com, google.com.
+- Referrers: bing.com, mail.google.com, cn.bing.com, duckduckgo.com, chatgpt.com, search.brave.com, brand, doubao.com, youtube.com, google.com.
 - Engaged-read winners by section: wire=5, stack=10.
 
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
@@ -23,10 +23,10 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2878 views · read 5.6% · complete 0.2% · 1 pages/session · median 5s
+- direct: 2876 views · read 5.6% · complete 0.2% · 1 pages/session · median 5s
 - campaign:chatgpt.com: 237 views · read 13.1% · complete 0.4% · 1 pages/session · median ?s
-- organic: 167 views · read 65.9% · complete 2.4% · 1.31 pages/session · median ?s
-- referral: 41 views · read 14.6% · complete 0.0% · 1 pages/session · median ?s
+- organic: 166 views · read 66.3% · complete 2.4% · 1.32 pages/session · median ?s
+- referral: 39 views · read 15.4% · complete 0.0% · 1 pages/session · median ?s
 - ai: 22 views · read 40.9% · complete 0.0% · 0.54 pages/session · median 13s
 - campaign:qwant: 6 views · read 66.7% · complete 0.0% · 3 pages/session · median ?s
 INSIGHT: campaign:qwant converts 12x better per view than direct, which is 86% of all views.
