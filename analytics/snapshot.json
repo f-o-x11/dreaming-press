@@ -1,24 +1,24 @@
 {
- "generated": "2026-10-01T13:15:44.727Z",
+ "generated": "2026-10-01T13:25:50.246Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 4,
   "todayReads": 12,
   "avgTimeSec": 7,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3311,
-  "reads": 319,
+  "views": 3313,
+  "reads": 318,
   "completes": 11,
   "plays": 9,
-  "sessions": 3185
+  "sessions": 3186
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2837,
-   "reads": 159,
+   "views": 2838,
+   "reads": 158,
    "sessions": 2843
   },
   {
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 236,
+   "views": 237,
    "reads": 31,
-   "sessions": 236
+   "sessions": 237
   },
   {
    "channel": "ai",
    "views": 22,
    "reads": 9,
-   "sessions": 41
+   "sessions": 42
   },
   {
    "channel": "referral",
@@ -79,8 +79,8 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2837,
-   "reads": 159,
+   "views": 2838,
+   "reads": 158,
    "completes": 6,
    "sessions": 2843,
    "read_rate": 0.056,
@@ -90,10 +90,10 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 236,
+   "views": 237,
    "reads": 31,
    "completes": 1,
-   "sessions": 236,
+   "sessions": 237,
    "read_rate": 0.131,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -126,11 +126,11 @@
    "views": 22,
    "reads": 9,
    "completes": 0,
-   "sessions": 41,
+   "sessions": 42,
    "read_rate": 0.409,
    "complete_rate": 0,
-   "pages_per_session": 0.54,
-   "median_dwell_sec": 13
+   "pages_per_session": 0.52,
+   "median_dwell_sec": 10
   },
   {
    "channel": "campaign:qwant",
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 241,
+   "views": 242,
    "reads": 31,
-   "sessions": 238
+   "sessions": 239
   },
   {
    "assistant": "Doubao",
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2758,
-   "reads": 296,
-   "sessions": 2645
+   "views": 2760,
+   "reads": 295,
+   "sessions": 2646
   },
   {
    "device": "mobile",
@@ -449,22 +449,22 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
-   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "how-to-cap-runaway-claude-code-subagents-web-searches",
    "title": "How to Cap a Runaway Claude Code Agent: The New Per-Session Subagent and Web-Search Budgets",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 7,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
+   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
    "reads": 4,
    "plays": 0
   }
@@ -803,8 +803,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 31,
-   "sessions": 21
+   "hits": 32,
+   "sessions": 22
   },
   {
    "ref": "https://search.brave.com/",
