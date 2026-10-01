@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01T12:04:10.158Z",
+ "generated": "2026-10-01T12:14:30.275Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3337,
-  "reads": 322,
+  "views": 3332,
+  "reads": 321,
   "completes": 11,
-  "plays": 10,
-  "sessions": 3210
+  "plays": 9,
+  "sessions": 3205
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2862,
-   "reads": 161,
-   "sessions": 2868
+   "views": 2857,
+   "reads": 160,
+   "sessions": 2863
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2862,
-   "reads": 161,
+   "views": 2857,
+   "reads": 160,
    "completes": 6,
-   "sessions": 2868,
+   "sessions": 2863,
    "read_rate": 0.056,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2772,
-   "reads": 299,
-   "sessions": 2658
+   "views": 2769,
+   "reads": 298,
+   "sessions": 2655
   },
   {
    "device": "mobile",
-   "views": 565,
+   "views": 563,
    "reads": 23,
-   "sessions": 552
+   "sessions": 550
   }
  ],
  "topContent": [
@@ -541,16 +541,6 @@
    "plays": 1
   },
   {
-   "slug": "how-to-prove-your-agent-sandbox-actually-blocks-the-internet",
-   "title": "How to Prove Your Agent's Sandbox Actually Blocks the Internet",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 1,
-   "reads": 1,
-   "plays": 1
-  },
-  {
    "slug": "retrieval-metrics-recall-at-k-vs-mrr-vs-ndcg",
    "title": "Retrieval Metrics for RAG: Recall@k vs MRR vs NDCG (and Which One Actually Matters)",
    "section": "wire",
@@ -569,6 +559,16 @@
    "views": 3,
    "reads": 0,
    "plays": 1
+  },
+  {
+   "slug": "microsoft-agent-framework-vs-langgraph-vs-crewai-three-thresholds",
+   "title": "Microsoft Agent Framework vs LangGraph vs CrewAI: Which One Crossed the Three Thresholds",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 40,
+   "reads": 36,
+   "plays": 0
   }
  ],
  "topViews": [
