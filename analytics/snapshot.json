@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-01T20:58:31.652Z",
+ "generated": "2026-10-01T21:08:40.497Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 16,
+  "readersNow": 2,
+  "todayReads": 17,
   "avgTimeSec": 20,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3314,
-  "reads": 314,
+  "views": 3316,
+  "reads": 315,
   "completes": 10,
   "plays": 9,
-  "sessions": 3190
+  "sessions": 3192
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2852,
+   "views": 2853,
    "reads": 156,
-   "sessions": 2861
+   "sessions": 2862
   },
   {
    "channel": "organic",
-   "views": 168,
-   "reads": 112,
-   "sessions": 126
+   "views": 169,
+   "reads": 113,
+   "sessions": 127
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2852,
+   "views": 2853,
    "reads": 156,
    "completes": 6,
-   "sessions": 2861,
+   "sessions": 2862,
    "read_rate": 0.055,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "organic",
-   "views": 168,
-   "reads": 112,
+   "views": 169,
+   "reads": 113,
    "completes": 4,
-   "sessions": 126,
-   "read_rate": 0.667,
+   "sessions": 127,
+   "read_rate": 0.669,
    "complete_rate": 0.024,
    "pages_per_session": 1.33,
    "median_dwell_sec": null
@@ -301,15 +301,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2756,
+   "views": 2757,
    "reads": 292,
-   "sessions": 2641
+   "sessions": 2642
   },
   {
    "device": "mobile",
-   "views": 558,
-   "reads": 22,
-   "sessions": 549
+   "views": 559,
+   "reads": 23,
+   "sessions": 550
   }
  ],
  "topContent": [
@@ -491,8 +491,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 6,
-   "reads": 2,
+   "views": 7,
+   "reads": 3,
    "plays": 1
   },
   {
@@ -777,14 +777,14 @@
  ],
  "referrers": [
   {
+   "ref": "https://www.bing.com/",
+   "hits": 74,
+   "sessions": 41
+  },
+  {
    "ref": "https://mail.google.com/",
    "hits": 73,
    "sessions": 2
-  },
-  {
-   "ref": "https://www.bing.com/",
-   "hits": 72,
-   "sessions": 40
   },
   {
    "ref": "https://duckduckgo.com/",
