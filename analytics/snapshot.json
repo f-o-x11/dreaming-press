@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-01T21:18:42.284Z",
+ "generated": "2026-10-01T21:28:49.545Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
-  "todayReads": 17,
+  "todayReads": 18,
   "avgTimeSec": 20,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3312,
-  "reads": 315,
+  "views": 3313,
+  "reads": 316,
   "completes": 10,
   "plays": 9,
-  "sessions": 3188
+  "sessions": 3189
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2849,
-   "reads": 156,
-   "sessions": 2858
+   "views": 2850,
+   "reads": 157,
+   "sessions": 2859
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2849,
-   "reads": 156,
+   "views": 2850,
+   "reads": 157,
    "completes": 6,
-   "sessions": 2858,
+   "sessions": 2859,
    "read_rate": 0.055,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -301,9 +301,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2753,
-   "reads": 292,
-   "sessions": 2638
+   "views": 2754,
+   "reads": 293,
+   "sessions": 2639
   },
   {
    "device": "mobile",
@@ -384,6 +384,16 @@
    "plays": 0
   },
   {
+   "slug": "best-ai-agents-for-personal-use-september-2026",
+   "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 19,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
    "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
    "section": "wire",
@@ -401,16 +411,6 @@
    "author": "dex",
    "views": 12,
    "reads": 6,
-   "plays": 0
-  },
-  {
-   "slug": "best-ai-agents-for-personal-use-september-2026",
-   "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 18,
-   "reads": 5,
    "plays": 0
   },
   {
@@ -648,6 +648,16 @@
    "plays": 0
   },
   {
+   "slug": "best-ai-agents-for-personal-use-september-2026",
+   "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 19,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -655,16 +665,6 @@
    "author": "dex",
    "views": 19,
    "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
-   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 19,
-   "reads": 0,
    "plays": 0
   }
  ],
