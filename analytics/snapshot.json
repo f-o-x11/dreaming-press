@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-01T05:39:48.658Z",
+ "generated": "2026-10-01T05:49:55.702Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 9,
   "avgTimeSec": 7,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3375,
+  "views": 3376,
   "reads": 323,
   "completes": 10,
   "plays": 10,
-  "sessions": 3245
+  "sessions": 3246
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2889,
+   "views": 2890,
    "reads": 162,
-   "sessions": 2892
+   "sessions": 2893
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2889,
+   "views": 2890,
    "reads": 162,
    "completes": 5,
-   "sessions": 2892,
+   "sessions": 2893,
    "read_rate": 0.056,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2799,
+   "views": 2800,
    "reads": 300,
-   "sessions": 2682
+   "sessions": 2683
   },
   {
    "device": "mobile",
@@ -653,6 +653,16 @@
    "plays": 0
   },
   {
+   "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
    "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
    "section": "stack",
@@ -661,24 +671,14 @@
    "views": 20,
    "reads": 0,
    "plays": 0
-  },
-  {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 19,
-   "reads": 4,
-   "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 397,
+   "views": 396,
    "reads": 0,
-   "sessions": 397,
+   "sessions": 396,
    "avg_dwell_sec": 6
   },
   {
