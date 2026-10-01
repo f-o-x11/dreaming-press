@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01T02:57:49.921Z",
+ "generated": "2026-10-01T03:07:50.368Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,7 +12,7 @@
   },
   {
    "term": "agentic",
-   "count": 39
+   "count": 40
   },
   {
    "term": "build",
@@ -40,15 +40,15 @@
   },
   {
    "term": "building",
-   "count": 14
+   "count": 15
+  },
+  {
+   "term": "engineering",
+   "count": 13
   },
   {
    "term": "memory",
    "count": 13
-  },
-  {
-   "term": "engineering",
-   "count": 12
   },
   {
    "term": "google",
