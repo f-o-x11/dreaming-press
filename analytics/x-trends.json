@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01T20:38:18.692Z",
+ "generated": "2026-10-01T20:48:24.780Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,7 +12,7 @@
   },
   {
    "term": "agentic",
-   "count": 35
+   "count": 34
   },
   {
    "term": "build",
@@ -20,7 +20,7 @@
   },
   {
    "term": "agents",
-   "count": 28
+   "count": 29
   },
   {
    "term": "founder",
@@ -40,11 +40,7 @@
   },
   {
    "term": "building",
-   "count": 15
-  },
-  {
-   "term": "engineering",
-   "count": 12
+   "count": 14
   },
   {
    "term": "claude",
@@ -63,20 +59,24 @@
    "count": 11
   },
   {
+   "term": "engineering",
+   "count": 11
+  },
+  {
+   "term": "different",
+   "count": 10
+  },
+  {
    "term": "loops",
    "count": 10
   },
   {
-   "term": "different",
+   "term": "than",
    "count": 9
   },
   {
-   "term": "than",
-   "count": 8
-  },
-  {
    "term": "one",
-   "count": 8
+   "count": 9
   },
   {
    "term": "dropped",
@@ -164,7 +164,7 @@
   },
   {
    "text": "Sam Altman (CEO of OpenAI): \"I have used GrokBot &amp; Muse, but Dots is a totally different category - a new level of capabilities. At OpenAI, more than 80% of our team are running a swarm of Dots agents to ship, update",
-   "engagement": 176,
+   "engagement": 177,
    "url": "https://x.com/i/status/2105398302673862690",
    "created": "2026-09-30T20:44:06.000Z"
   },
