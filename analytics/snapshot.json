@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-01T05:19:31.458Z",
+ "generated": "2026-10-01T05:29:42.074Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 3,
   "todayReads": 9,
-  "avgTimeSec": 8,
+  "avgTimeSec": 7,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3374,
-  "reads": 324,
+  "views": 3376,
+  "reads": 323,
   "completes": 10,
   "plays": 10,
-  "sessions": 3245
+  "sessions": 3246
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2887,
-   "reads": 163,
-   "sessions": 2891
+   "views": 2889,
+   "reads": 162,
+   "sessions": 2892
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2887,
-   "reads": 163,
+   "views": 2889,
+   "reads": 162,
    "completes": 5,
-   "sessions": 2891,
+   "sessions": 2892,
    "read_rate": 0.056,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2798,
-   "reads": 301,
-   "sessions": 2682
+   "views": 2800,
+   "reads": 300,
+   "sessions": 2683
   },
   {
    "device": "mobile",
@@ -334,7 +334,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 92,
+   "views": 94,
    "reads": 16,
    "plays": 1
   },
@@ -379,16 +379,6 @@
    "plays": 0
   },
   {
-   "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
-   "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 7,
-   "reads": 7,
-   "plays": 0
-  },
-  {
    "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
    "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
    "section": "wire",
@@ -405,6 +395,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 12,
+   "reads": 6,
+   "plays": 0
+  },
+  {
+   "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
+   "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 7,
    "reads": 6,
    "plays": 0
   },
@@ -476,7 +476,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 92,
+   "views": 94,
    "reads": 16,
    "plays": 1
   },
@@ -578,7 +578,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 92,
+   "views": 94,
    "reads": 16,
    "plays": 1
   },
@@ -676,9 +676,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 398,
+   "views": 397,
    "reads": 0,
-   "sessions": 398,
+   "sessions": 397,
    "avg_dwell_sec": 6
   },
   {
