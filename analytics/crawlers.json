@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-01T21:08:39.901Z",
+ "generated": "2026-10-01T21:18:41.681Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17128,
+ "verifiedAiHits": 17137,
  "logsScanned": 30,
  "windowStart": "2026-09-17",
  "windowEnd": "2026-10-01",
- "totalHits": 106886,
- "aiHits": 86500,
+ "totalHits": 106924,
+ "aiHits": 86534,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29358,
+   "hits": 29373,
    "verifiedHits": 0,
    "firstSeen": "2026-09-17",
    "lastSeen": "2026-10-01",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14685,
+   "hits": 14693,
    "verifiedHits": 0,
    "firstSeen": "2026-09-17",
    "lastSeen": "2026-10-01",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14164,
+   "hits": 14166,
    "verifiedHits": 0,
    "firstSeen": "2026-09-17",
    "lastSeen": "2026-10-01",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7840,
-   "verifiedHits": 7412,
+   "hits": 7843,
+   "verifiedHits": 7415,
    "firstSeen": "2026-09-17",
    "lastSeen": "2026-10-01",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5585,
-   "verifiedHits": 5096,
+   "hits": 5593,
+   "verifiedHits": 5104,
    "firstSeen": "2026-09-17",
    "lastSeen": "2026-10-01",
    "topPaths": [
@@ -156,20 +156,20 @@
      "hits": 51
     },
     {
+     "path": "/posts/open-source-llm-for-coding-september-2026.html",
+     "hits": 38
+    },
+    {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
      "hits": 37
     },
     {
-     "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 37
-    },
-    {
      "path": "/tools",
-     "hits": 32
+     "hits": 33
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 29
+     "hits": 30
     }
    ],
    "verifiable": true
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 5014,
-   "verifiedHits": 4421,
+   "hits": 5015,
+   "verifiedHits": 4422,
    "firstSeen": "2026-09-17",
    "lastSeen": "2026-10-01",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2698,
+   "hits": 2699,
    "verifiedHits": 0,
    "firstSeen": "2026-09-17",
    "lastSeen": "2026-10-01",
