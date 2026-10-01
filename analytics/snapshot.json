@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-01T07:11:20.267Z",
+ "generated": "2026-10-01T07:21:21.440Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 0,
   "todayReads": 10,
   "avgTimeSec": 7,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3373,
-  "reads": 323,
+  "views": 3372,
+  "reads": 322,
   "completes": 10,
   "plays": 10,
-  "sessions": 3244
+  "sessions": 3242
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2890,
-   "reads": 163,
-   "sessions": 2894
+   "reads": 162,
+   "sessions": 2893
   },
   {
    "channel": "organic",
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 243,
+   "views": 242,
    "reads": 31,
-   "sessions": 243
+   "sessions": 242
   },
   {
    "channel": "ai",
    "views": 22,
    "reads": 9,
-   "sessions": 42
+   "sessions": 41
   },
   {
    "channel": "referral",
@@ -80,9 +80,9 @@
   {
    "channel": "direct",
    "views": 2890,
-   "reads": 163,
+   "reads": 162,
    "completes": 5,
-   "sessions": 2894,
+   "sessions": 2893,
    "read_rate": 0.056,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -90,10 +90,10 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 243,
+   "views": 242,
    "reads": 31,
    "completes": 1,
-   "sessions": 243,
+   "sessions": 242,
    "read_rate": 0.128,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -126,11 +126,11 @@
    "views": 22,
    "reads": 9,
    "completes": 0,
-   "sessions": 42,
+   "sessions": 41,
    "read_rate": 0.409,
    "complete_rate": 0,
-   "pages_per_session": 0.52,
-   "median_dwell_sec": 10
+   "pages_per_session": 0.54,
+   "median_dwell_sec": 13
   },
   {
    "channel": "campaign:qwant",
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 248,
+   "views": 247,
    "reads": 31,
-   "sessions": 245
+   "sessions": 244
   },
   {
    "assistant": "Doubao",
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2795,
-   "reads": 300,
-   "sessions": 2679
+   "views": 2794,
+   "reads": 299,
+   "sessions": 2677
   },
   {
    "device": "mobile",
@@ -598,7 +598,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 36,
+   "views": 35,
    "reads": 0,
    "plays": 0
   },
