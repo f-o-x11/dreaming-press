@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01T13:05:44.959Z",
+ "generated": "2026-10-01T13:15:44.727Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
@@ -8,24 +8,24 @@
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3310,
+  "views": 3311,
   "reads": 319,
   "completes": 11,
   "plays": 9,
-  "sessions": 3183
+  "sessions": 3185
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2837,
    "reads": 159,
-   "sessions": 2842
+   "sessions": 2843
   },
   {
    "channel": "organic",
-   "views": 166,
+   "views": 167,
    "reads": 111,
-   "sessions": 126
+   "sessions": 127
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -82,7 +82,7 @@
    "views": 2837,
    "reads": 159,
    "completes": 6,
-   "sessions": 2842,
+   "sessions": 2843,
    "read_rate": 0.056,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -101,13 +101,13 @@
   },
   {
    "channel": "organic",
-   "views": 166,
+   "views": 167,
    "reads": 111,
    "completes": 4,
-   "sessions": 126,
-   "read_rate": 0.669,
+   "sessions": 127,
+   "read_rate": 0.665,
    "complete_rate": 0.024,
-   "pages_per_session": 1.32,
+   "pages_per_session": 1.31,
    "median_dwell_sec": null
   },
   {
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2757,
+   "views": 2758,
    "reads": 296,
-   "sessions": 2643
+   "sessions": 2645
   },
   {
    "device": "mobile",
@@ -454,7 +454,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 11,
+   "views": 10,
    "reads": 4,
    "plays": 0
   },
@@ -676,16 +676,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 396,
+   "views": 397,
    "reads": 0,
-   "sessions": 396,
+   "sessions": 397,
    "avg_dwell_sec": 7
   },
   {
    "path": "/",
-   "views": 138,
+   "views": 139,
    "reads": 3,
-   "sessions": 137,
+   "sessions": 138,
    "avg_dwell_sec": 13
   },
   {
@@ -828,8 +828,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 9,
-   "sessions": 9
+   "hits": 10,
+   "sessions": 10
   }
  ]
 }
