@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-01T21:59Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-01T22:09Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -39,7 +39,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)" — 16 reads, 89 views, 1 listens
 - [wire] "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K" — 9 reads, 16 views, 0 listens
 - [stack] "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One" — 8 reads, 12 views, 0 listens
-- [stack] "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement" — 7 reads, 19 views, 0 listens
+- [stack] "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement" — 7 reads, 18 views, 0 listens
 - [wire] "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card" — 7 reads, 10 views, 0 listens
 - [stack] "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet" — 7 reads, 8 views, 0 listens
 - [stack] "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem" — 6 reads, 19 views, 0 listens
@@ -85,6 +85,7 @@ skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 33 views but only 0 engaged reads (0.0%)
 - [wire] "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO" — 31 views but only 0 engaged reads (0.0%)
+- [stack] "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent" — 19 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
@@ -105,9 +106,9 @@ sample size dwarfs the engaged-read counts below.
 - /stack.html  — 19 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (5114 verified): /wire.html ×52 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×38 · /posts/open-source-llm-for-coding-september-2026.html ×38
+- OAI-SearchBot (5119 verified): /wire.html ×52 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×38 · /posts/open-source-llm-for-coding-september-2026.html ×38
 - PerplexityBot (4422 verified): /build ×27 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×25 · / ×25
-- ChatGPT-User (3167 verified): / ×599 · /posts/open-source-llm-for-coding-september-2026.html ×185 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×149
+- ChatGPT-User (3168 verified): / ×599 · /posts/open-source-llm-for-coding-september-2026.html ×185 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×149
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -155,9 +156,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17150 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5114, Perplexity 4422, GPTBot (OpenAI) 4447, ChatGPT (user browsing) 3167).
+The real answer engines are crawling us — IP-verified: 17156 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5119, Perplexity 4422, GPTBot (OpenAI) 4447, ChatGPT (user browsing) 3168).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 801 crawler fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 802 crawler fetches
 - /build  — 376 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 235 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 234 crawler fetches
