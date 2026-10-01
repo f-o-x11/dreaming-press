@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-01T02:37:35.333Z",
+ "generated": "2026-10-01T02:47:45.488Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 4,
   "todayReads": 5,
   "avgTimeSec": 9,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3377,
+  "views": 3380,
   "reads": 324,
   "completes": 11,
   "plays": 12,
-  "sessions": 3248
+  "sessions": 3251
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2890,
+   "views": 2893,
    "reads": 166,
-   "sessions": 2894
+   "sessions": 2897
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2890,
+   "views": 2893,
    "reads": 166,
    "completes": 6,
-   "sessions": 2894,
+   "sessions": 2897,
    "read_rate": 0.057,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2800,
+   "views": 2803,
    "reads": 301,
-   "sessions": 2684
+   "sessions": 2687
   },
   {
    "device": "mobile",
@@ -334,7 +334,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 90,
+   "views": 92,
    "reads": 16,
    "plays": 1
   },
@@ -424,7 +424,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 18,
+   "views": 20,
    "reads": 5,
    "plays": 0
   },
@@ -476,7 +476,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 90,
+   "views": 92,
    "reads": 16,
    "plays": 1
   },
@@ -578,7 +578,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 90,
+   "views": 92,
    "reads": 16,
    "plays": 1
   },
@@ -653,6 +653,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
    "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
    "section": "stack",
@@ -660,16 +670,6 @@
    "author": "dex",
    "views": 20,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "e2b-vs-modal-vs-daytona-agent-sandboxes",
-   "title": "E2B vs Modal vs Daytona: Picking a Code Execution Sandbox for AI Agents",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 19,
-   "reads": 1,
    "plays": 0
   }
  ],
