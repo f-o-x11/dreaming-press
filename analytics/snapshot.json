@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-01T15:46:35.125Z",
+ "generated": "2026-10-01T15:56:37.197Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3323,
+  "views": 3322,
   "reads": 318,
   "completes": 10,
   "plays": 9,
-  "sessions": 3196
+  "sessions": 3195
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2848,
+   "views": 2847,
    "reads": 156,
-   "sessions": 2855
+   "sessions": 2854
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2848,
+   "views": 2847,
    "reads": 156,
    "completes": 6,
-   "sessions": 2855,
+   "sessions": 2854,
    "read_rate": 0.055,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -312,9 +312,9 @@
   },
   {
    "device": "mobile",
-   "views": 561,
+   "views": 560,
    "reads": 23,
-   "sessions": 548
+   "sessions": 547
   }
  ],
  "topContent": [
@@ -521,22 +521,22 @@
    "plays": 1
   },
   {
-   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
-   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 4,
-   "reads": 1,
-   "plays": 1
-  },
-  {
    "slug": "reducto-vs-llamaparse-vs-unstructured-vs-docling-document-parsing-rag",
    "title": "Reducto vs LlamaParse vs Unstructured vs Docling: Which Document Parser Your RAG Pipeline Actually Needs",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 4,
+   "reads": 1,
+   "plays": 1
+  },
+  {
+   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
+   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 3,
    "reads": 1,
    "plays": 1
   },
