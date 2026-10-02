@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02T00:30:48.635Z",
+ "generated": "2026-10-02T00:40:50.409Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,18 +8,18 @@
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 3306,
-  "reads": 315,
+  "views": 3305,
+  "reads": 314,
   "completes": 10,
   "plays": 8,
-  "sessions": 3181
+  "sessions": 3180
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2843,
-   "reads": 156,
-   "sessions": 2852
+   "views": 2842,
+   "reads": 155,
+   "sessions": 2851
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2843,
-   "reads": 156,
+   "views": 2842,
+   "reads": 155,
    "completes": 6,
-   "sessions": 2852,
+   "sessions": 2851,
    "read_rate": 0.055,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -301,9 +301,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2748,
-   "reads": 293,
-   "sessions": 2632
+   "views": 2747,
+   "reads": 292,
+   "sessions": 2631
   },
   {
    "device": "mobile",
@@ -364,16 +364,6 @@
    "plays": 0
   },
   {
-   "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
-   "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 10,
-   "reads": 7,
-   "plays": 0
-  },
-  {
    "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
    "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
    "section": "stack",
@@ -410,6 +400,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 12,
+   "reads": 6,
+   "plays": 0
+  },
+  {
+   "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
+   "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 9,
    "reads": 6,
    "plays": 0
   },
