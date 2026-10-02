@@ -1,30 +1,30 @@
 {
- "generated": "2026-10-02T05:15:00.330Z",
+ "generated": "2026-10-02T05:25:13.162Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 8,
+  "readersNow": 3,
+  "todayReads": 9,
   "avgTimeSec": 118,
   "postsThisWeek": 10
  },
  "funnel": {
   "views": 3288,
-  "reads": 318,
+  "reads": 319,
   "completes": 10,
   "plays": 8,
-  "sessions": 3161
+  "sessions": 3160
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2821,
+   "views": 2820,
    "reads": 157,
-   "sessions": 2830
+   "sessions": 2829
   },
   {
    "channel": "organic",
-   "views": 174,
-   "reads": 116,
+   "views": 175,
+   "reads": 117,
    "sessions": 132
   },
   {
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2821,
+   "views": 2820,
    "reads": 157,
    "completes": 6,
-   "sessions": 2830,
+   "sessions": 2829,
    "read_rate": 0.056,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -101,13 +101,13 @@
   },
   {
    "channel": "organic",
-   "views": 174,
-   "reads": 116,
+   "views": 175,
+   "reads": 117,
    "completes": 4,
    "sessions": 132,
-   "read_rate": 0.667,
+   "read_rate": 0.669,
    "complete_rate": 0.023,
-   "pages_per_session": 1.32,
+   "pages_per_session": 1.33,
    "median_dwell_sec": null
   },
   {
@@ -302,8 +302,8 @@
   {
    "device": "desktop",
    "views": 2735,
-   "reads": 297,
-   "sessions": 2617
+   "reads": 298,
+   "sessions": 2616
   },
   {
    "device": "mobile",
@@ -329,8 +329,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 89,
-   "reads": 15,
+   "views": 88,
+   "reads": 16,
    "plays": 1
   },
   {
@@ -471,8 +471,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 89,
-   "reads": 15,
+   "views": 88,
+   "reads": 16,
    "plays": 1
   },
   {
@@ -573,8 +573,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 89,
-   "reads": 15,
+   "views": 88,
+   "reads": 16,
    "plays": 1
   },
   {
@@ -787,14 +787,14 @@
    "sessions": 2
   },
   {
+   "ref": "https://duckduckgo.com/",
+   "hits": 50,
+   "sessions": 24
+  },
+  {
    "ref": "https://cn.bing.com/",
    "hits": 50,
    "sessions": 30
-  },
-  {
-   "ref": "https://duckduckgo.com/",
-   "hits": 48,
-   "sessions": 24
   },
   {
    "ref": "https://chatgpt.com/",
