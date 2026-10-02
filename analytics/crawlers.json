@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-02T04:34:07.087Z",
+ "generated": "2026-10-02T04:44:27.328Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13914,
+ "verifiedAiHits": 13928,
  "logsScanned": 30,
  "windowStart": "2026-09-18",
  "windowEnd": "2026-10-02",
- "totalHits": 98879,
- "aiHits": 79431,
+ "totalHits": 98966,
+ "aiHits": 79513,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27435,
+   "hits": 27476,
    "verifiedHits": 0,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13924,
+   "hits": 13931,
    "verifiedHits": 0,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13337,
+   "hits": 13357,
    "verifiedHits": 0,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
@@ -102,7 +102,7 @@
      "hits": 7
     },
     {
-     "path": "/comparisons/research-agents",
+     "path": "/posts/2026-08-20-founders-wire-chatgpt-ads-claude-protein-rillet.html",
      "hits": 6
     }
    ],
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7510,
-   "verifiedHits": 7097,
+   "hits": 7513,
+   "verifiedHits": 7100,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5442,
-   "verifiedHits": 4969,
+   "hits": 5447,
+   "verifiedHits": 4974,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4743,
+   "hits": 4745,
    "verifiedHits": 0,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
@@ -212,8 +212,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4666,
-   "verifiedHits": 4090,
+   "hits": 4673,
+   "verifiedHits": 4097,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
    "topPaths": [
@@ -245,14 +245,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3383,
-   "verifiedHits": 2944,
+   "hits": 3385,
+   "verifiedHits": 2946,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
    "topPaths": [
     {
      "path": "/",
-     "hits": 566
+     "hits": 567
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
