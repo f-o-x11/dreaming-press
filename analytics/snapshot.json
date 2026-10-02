@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-02T00:20:40.639Z",
+ "generated": "2026-10-02T00:30:48.635Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 2,
   "todayReads": 1,
   "avgTimeSec": 74,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 3309,
-  "reads": 316,
+  "views": 3306,
+  "reads": 315,
   "completes": 10,
-  "plays": 9,
-  "sessions": 3185
+  "plays": 8,
+  "sessions": 3181
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2845,
+   "views": 2843,
    "reads": 156,
-   "sessions": 2855
+   "sessions": 2852
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 223,
-   "reads": 28,
-   "sessions": 223
+   "views": 222,
+   "reads": 27,
+   "sessions": 222
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2845,
+   "views": 2843,
    "reads": 156,
    "completes": 6,
-   "sessions": 2855,
+   "sessions": 2852,
    "read_rate": 0.055,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 223,
-   "reads": 28,
+   "views": 222,
+   "reads": 27,
    "completes": 0,
-   "sessions": 223,
-   "read_rate": 0.126,
+   "sessions": 222,
+   "read_rate": 0.122,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -263,9 +263,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 227,
-   "reads": 28,
-   "sessions": 225
+   "views": 226,
+   "reads": 27,
+   "sessions": 224
   },
   {
    "assistant": "Doubao",
@@ -301,15 +301,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2749,
+   "views": 2748,
    "reads": 293,
-   "sessions": 2634
+   "sessions": 2632
   },
   {
    "device": "mobile",
-   "views": 560,
-   "reads": 23,
-   "sessions": 551
+   "views": 558,
+   "reads": 22,
+   "sessions": 549
   }
  ],
  "topContent": [
@@ -526,16 +526,6 @@
    "plays": 1
   },
   {
-   "slug": "ollama-vs-lm-studio-vs-llama-cpp-local-agent-backend",
-   "title": "Ollama vs LM Studio vs llama.cpp: Which Local Backend Should Serve Your Agent?",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 2,
-   "reads": 1,
-   "plays": 1
-  },
-  {
    "slug": "retrieval-metrics-recall-at-k-vs-mrr-vs-ndcg",
    "title": "Retrieval Metrics for RAG: Recall@k vs MRR vs NDCG (and Which One Actually Matters)",
    "section": "wire",
@@ -563,6 +553,16 @@
    "author": "wire-desk",
    "views": 40,
    "reads": 36,
+   "plays": 0
+  },
+  {
+   "slug": "playwright-mcp-vs-cli-token-cost-browser-agents",
+   "title": "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 16,
+   "reads": 9,
    "plays": 0
   }
  ],
@@ -674,7 +674,7 @@
    "views": 396,
    "reads": 0,
    "sessions": 396,
-   "avg_dwell_sec": 11
+   "avg_dwell_sec": 12
   },
   {
    "path": "/",
