@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-02T03:23:35.537Z",
+ "generated": "2026-10-02T03:33:37.365Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13880,
+ "verifiedAiHits": 13889,
  "logsScanned": 30,
  "windowStart": "2026-09-18",
  "windowEnd": "2026-10-02",
- "totalHits": 98611,
- "aiHits": 79212,
+ "totalHits": 98648,
+ "aiHits": 79244,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27335,
+   "hits": 27351,
    "verifiedHits": 0,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13873,
+   "hits": 13880,
    "verifiedHits": 0,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7471,
-   "verifiedHits": 7058,
+   "hits": 7475,
+   "verifiedHits": 7062,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
    "topPaths": [
@@ -146,22 +146,22 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5413,
-   "verifiedHits": 4940,
+   "hits": 5420,
+   "verifiedHits": 4947,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
    "topPaths": [
     {
      "path": "/wire.html",
-     "hits": 46
+     "hits": 47
+    },
+    {
+     "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
+     "hits": 38
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
      "hits": 37
-    },
-    {
-     "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
-     "hits": 36
     },
     {
      "path": "/posts/2026-09-08-founders-wire-nvidia-hugging-face-openai-managed-agents-anthropic-payments.html",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4734,
+   "hits": 4735,
    "verifiedHits": 0,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
@@ -212,8 +212,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4663,
-   "verifiedHits": 4087,
+   "hits": 4665,
+   "verifiedHits": 4089,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
    "topPaths": [
