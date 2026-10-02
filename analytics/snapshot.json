@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-02T07:36:58.875Z",
+ "generated": "2026-10-02T07:47:00.243Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
+  "readersNow": 3,
   "todayReads": 13,
   "avgTimeSec": 141,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 3287,
+  "views": 3284,
   "reads": 322,
   "completes": 10,
   "plays": 8,
-  "sessions": 3158
+  "sessions": 3156
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2817,
+   "views": 2815,
    "reads": 159,
-   "sessions": 2826
+   "sessions": 2824
   },
   {
    "channel": "organic",
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 224,
+   "views": 223,
    "reads": 27,
-   "sessions": 224
+   "sessions": 223
   },
   {
    "channel": "ai",
    "views": 21,
    "reads": 9,
-   "sessions": 40
+   "sessions": 39
   },
   {
    "channel": "referral",
@@ -79,21 +79,21 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2817,
+   "views": 2815,
    "reads": 159,
    "completes": 6,
-   "sessions": 2826,
+   "sessions": 2824,
    "read_rate": 0.056,
    "complete_rate": 0.002,
    "pages_per_session": 1,
-   "median_dwell_sec": 6
+   "median_dwell_sec": 5
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 224,
+   "views": 223,
    "reads": 27,
    "completes": 0,
-   "sessions": 224,
+   "sessions": 223,
    "read_rate": 0.121,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -126,11 +126,11 @@
    "views": 21,
    "reads": 9,
    "completes": 0,
-   "sessions": 40,
+   "sessions": 39,
    "read_rate": 0.429,
    "complete_rate": 0,
-   "pages_per_session": 0.53,
-   "median_dwell_sec": 9
+   "pages_per_session": 0.54,
+   "median_dwell_sec": 10
   },
   {
    "channel": "campaign:qwant",
@@ -263,9 +263,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 228,
+   "views": 227,
    "reads": 27,
-   "sessions": 226
+   "sessions": 225
   },
   {
    "assistant": "Doubao",
@@ -301,9 +301,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2727,
+   "views": 2724,
    "reads": 300,
-   "sessions": 2607
+   "sessions": 2605
   },
   {
    "device": "mobile",
@@ -638,16 +638,6 @@
    "plays": 0
   },
   {
-   "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "best-ai-agents-for-personal-use-september-2026",
    "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
    "section": "stack",
@@ -665,6 +655,16 @@
    "author": "dex",
    "views": 19,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "how-to-run-spec-driven-development-github-spec-kit",
+   "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
+   "section": "stack",
+   "tags": "[\"reportive\",\"captivating\"]",
+   "author": "rosalinda",
+   "views": 18,
+   "reads": 7,
    "plays": 0
   }
  ],
@@ -798,8 +798,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 32,
-   "sessions": 22
+   "hits": 31,
+   "sessions": 21
   },
   {
    "ref": "https://search.brave.com/",
