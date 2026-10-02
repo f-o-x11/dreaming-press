@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02T08:58:12.454Z",
+ "generated": "2026-10-02T09:08:15.599Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 52
+   "count": 51
   },
   {
    "term": "agentic",
@@ -39,20 +39,20 @@
    "count": 20
   },
   {
+   "term": "building",
+   "count": 14
+  },
+  {
+   "term": "first",
+   "count": 14
+  },
+  {
    "term": "google",
    "count": 14
   },
   {
    "term": "memory",
    "count": 14
-  },
-  {
-   "term": "building",
-   "count": 13
-  },
-  {
-   "term": "first",
-   "count": 13
   },
   {
    "term": "claude",
@@ -90,7 +90,7 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 7
+   "count": 5
   },
   {
    "term": "#founder",
@@ -113,18 +113,6 @@
    "count": 1
   },
   {
-   "term": "#intphpcon",
-   "count": 1
-  },
-  {
-   "term": "#php",
-   "count": 1
-  },
-  {
-   "term": "#symfony",
-   "count": 1
-  },
-  {
    "term": "#datascience",
    "count": 1
   },
@@ -134,6 +122,18 @@
   },
   {
    "term": "#pymc",
+   "count": 1
+  },
+  {
+   "term": "#latam",
+   "count": 1
+  },
+  {
+   "term": "#saas",
+   "count": 1
+  },
+  {
+   "term": "#business",
    "count": 1
   }
  ],
