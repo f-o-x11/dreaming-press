@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-02T01:21:07.358Z",
+ "generated": "2026-10-02T01:31:20.498Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 2,
-  "avgTimeSec": 84,
+  "readersNow": 4,
+  "todayReads": 3,
+  "avgTimeSec": 123,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 3301,
-  "reads": 315,
+  "views": 3302,
+  "reads": 316,
   "completes": 10,
   "plays": 8,
-  "sessions": 3176
+  "sessions": 3177
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2837,
+   "views": 2836,
    "reads": 155,
    "sessions": 2847
   },
   {
    "channel": "organic",
-   "views": 172,
-   "reads": 115,
-   "sessions": 130
+   "views": 174,
+   "reads": 116,
+   "sessions": 132
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,7 +79,7 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2837,
+   "views": 2836,
    "reads": 155,
    "completes": 6,
    "sessions": 2847,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "organic",
-   "views": 172,
-   "reads": 115,
+   "views": 174,
+   "reads": 116,
    "completes": 4,
-   "sessions": 130,
-   "read_rate": 0.669,
+   "sessions": 132,
+   "read_rate": 0.667,
    "complete_rate": 0.023,
    "pages_per_session": 1.32,
    "median_dwell_sec": null
@@ -301,9 +301,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2743,
-   "reads": 293,
-   "sessions": 2627
+   "views": 2744,
+   "reads": 294,
+   "sessions": 2628
   },
   {
    "device": "mobile",
@@ -349,8 +349,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 12,
-   "reads": 8,
+   "views": 13,
+   "reads": 9,
    "plays": 0
   },
   {
@@ -733,18 +733,18 @@
    "avg_dwell_sec": null
   },
   {
-   "path": "/reports/:report",
-   "views": 8,
-   "reads": 0,
-   "sessions": 8,
-   "avg_dwell_sec": null
-  },
-  {
    "path": "/agents.html",
    "views": 7,
    "reads": 1,
    "sessions": 7,
    "avg_dwell_sec": 40
+  },
+  {
+   "path": "/reports/:report",
+   "views": 7,
+   "reads": 0,
+   "sessions": 7,
+   "avg_dwell_sec": null
   },
   {
    "path": "/subscribe",
@@ -803,13 +803,13 @@
   },
   {
    "ref": "https://search.brave.com/",
-   "hits": 21,
-   "sessions": 11
+   "hits": 23,
+   "sessions": 12
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 11,
-   "sessions": 11
+   "hits": 12,
+   "sessions": 12
   },
   {
    "ref": "https://www.doubao.com/",
