@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-02T14:52:23.598Z",
- "sampled": 80,
+ "generated": "2026-10-02T15:02:30.393Z",
+ "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
   "(LLM OR \"coding agent\" OR RAG OR \"AI startup\") founder -is:retweet -is:reply lang:en"
@@ -16,23 +16,23 @@
   },
   {
    "term": "build",
-   "count": 33
-  },
-  {
-   "term": "agents",
-   "count": 29
+   "count": 32
   },
   {
    "term": "founder",
    "count": 28
   },
   {
+   "term": "agents",
+   "count": 27
+  },
+  {
    "term": "mcp",
-   "count": 24
+   "count": 23
   },
   {
    "term": "coding",
-   "count": 23
+   "count": 22
   },
   {
    "term": "startup",
@@ -40,6 +40,10 @@
   },
   {
    "term": "building",
+   "count": 14
+  },
+  {
+   "term": "engineering",
    "count": 13
   },
   {
@@ -51,10 +55,6 @@
    "count": 13
   },
   {
-   "term": "engineering",
-   "count": 12
-  },
-  {
    "term": "google",
    "count": 12
   },
@@ -63,15 +63,7 @@
    "count": 12
   },
   {
-   "term": "than",
-   "count": 10
-  },
-  {
    "term": "people",
-   "count": 10
-  },
-  {
-   "term": "different",
    "count": 10
   },
   {
@@ -79,12 +71,20 @@
    "count": 10
   },
   {
-   "term": "api",
+   "term": "than",
    "count": 9
   },
   {
    "term": "dropped",
    "count": 9
+  },
+  {
+   "term": "loops",
+   "count": 9
+  },
+  {
+   "term": "launch",
+   "count": 8
   }
  ],
  "hashtags": [
@@ -113,18 +113,6 @@
    "count": 1
   },
   {
-   "term": "#datascience",
-   "count": 1
-  },
-  {
-   "term": "#aiagents",
-   "count": 1
-  },
-  {
-   "term": "#pymc",
-   "count": 1
-  },
-  {
    "term": "#latam",
    "count": 1
   },
@@ -134,6 +122,18 @@
   },
   {
    "term": "#business",
+   "count": 1
+  },
+  {
+   "term": "#entrepreneurship",
+   "count": 1
+  },
+  {
+   "term": "#vc",
+   "count": 1
+  },
+  {
+   "term": "#startups",
    "count": 1
   }
  ],
@@ -182,7 +182,7 @@
   },
   {
    "text": "AI Agents are becoming one of the most valuable skills to learn in 2026. But the learning path can get confusing fast. LangGraph, MCP, A2A, memory, agent SDKs, ADK, security, orchestration. There is a lot to understand b",
-   "engagement": 116,
+   "engagement": 114,
    "url": "https://x.com/i/status/2104866276480831719",
    "created": "2026-09-29T09:30:01.000Z"
   }
