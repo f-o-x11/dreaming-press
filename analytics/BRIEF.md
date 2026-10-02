@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-02T20:36Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-02T20:46Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -123,8 +123,8 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agent(52), agentic(36), build(35), agents(30), founder(27), mcp(25), coding(23), startup(18), building(14), memory(14), engineering(13), first(13), google(13), claude(13), loops(12).
-Hashtags: #ai, #startup, #founder, #startups, #luxembourg, #mcp, #prembly, #datascience, #aiagents, #pymc.
+Hot terms: agent(52), agentic(37), build(35), agents(30), founder(27), mcp(25), coding(23), startup(18), building(15), engineering(14), memory(14), first(13), google(13), claude(13), loops(12).
+Hashtags: #ai, #startup, #founder, #startups, #mcp, #prembly, #datascience, #aiagents, #pymc, #latam.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2103900910292472051
 - "🚨 You’re probably using Claude at 10% of its actual potential. Most people stop at: “Claude, write this.” But Claude mastery looks like this: 🧠 Foundation → Prompting + Context + Examples ⚙️ Workflow → Projects + Promp" — https://x.com/i/status/2104060782069862722

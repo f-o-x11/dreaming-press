@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02T20:36:40.549Z",
+ "generated": "2026-10-02T20:46:46.447Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,7 +12,7 @@
   },
   {
    "term": "agentic",
-   "count": 36
+   "count": 37
   },
   {
    "term": "build",
@@ -40,15 +40,15 @@
   },
   {
    "term": "building",
+   "count": 15
+  },
+  {
+   "term": "engineering",
    "count": 14
   },
   {
    "term": "memory",
    "count": 14
-  },
-  {
-   "term": "engineering",
-   "count": 13
   },
   {
    "term": "first",
@@ -71,10 +71,6 @@
    "count": 9
   },
   {
-   "term": "one",
-   "count": 9
-  },
-  {
    "term": "dropped",
    "count": 9
   },
@@ -85,6 +81,10 @@
   {
    "term": "course",
    "count": 9
+  },
+  {
+   "term": "scratch",
+   "count": 8
   }
  ],
  "hashtags": [
@@ -103,10 +103,6 @@
   {
    "term": "#startups",
    "count": 2
-  },
-  {
-   "term": "#luxembourg",
-   "count": 1
   },
   {
    "term": "#mcp",
@@ -134,6 +130,10 @@
   },
   {
    "term": "#saas",
+   "count": 1
+  },
+  {
+   "term": "#business",
    "count": 1
   }
  ],
