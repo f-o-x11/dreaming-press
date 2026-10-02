@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-02T04:44:27.990Z",
+ "generated": "2026-10-02T04:54:40.710Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 6,
   "avgTimeSec": 118,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 3289,
+  "views": 3288,
   "reads": 316,
   "completes": 10,
   "plays": 8,
-  "sessions": 3163
+  "sessions": 3162
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2823,
+   "views": 2822,
    "reads": 156,
-   "sessions": 2833
+   "sessions": 2832
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2823,
+   "views": 2822,
    "reads": 156,
    "completes": 6,
-   "sessions": 2833,
+   "sessions": 2832,
    "read_rate": 0.055,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -301,9 +301,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2735,
+   "views": 2734,
    "reads": 295,
-   "sessions": 2618
+   "sessions": 2617
   },
   {
    "device": "mobile",
@@ -754,13 +754,6 @@
    "avg_dwell_sec": 33
   },
   {
-   "path": "/topics/:topic",
-   "views": 6,
-   "reads": 0,
-   "sessions": 6,
-   "avg_dwell_sec": null
-  },
-  {
    "path": "/apps",
    "views": 5,
    "reads": 0,
@@ -773,6 +766,13 @@
    "reads": 0,
    "sessions": 5,
    "avg_dwell_sec": null
+  },
+  {
+   "path": "/global-tech-news",
+   "views": 5,
+   "reads": 0,
+   "sessions": 5,
+   "avg_dwell_sec": 13
   }
  ],
  "referrers": [
