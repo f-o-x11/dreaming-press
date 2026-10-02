@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-02T02:01:50.361Z",
+ "generated": "2026-10-02T02:11:55.796Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 3,
-  "avgTimeSec": 106,
+  "readersNow": 3,
+  "todayReads": 4,
+  "avgTimeSec": 118,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 3300,
-  "reads": 316,
+  "views": 3299,
+  "reads": 317,
   "completes": 10,
   "plays": 8,
-  "sessions": 3175
+  "sessions": 3174
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2832,
+   "views": 2830,
    "reads": 155,
-   "sessions": 2843
+   "sessions": 2842
   },
   {
    "channel": "organic",
-   "views": 174,
-   "reads": 116,
-   "sessions": 132
+   "views": 175,
+   "reads": 117,
+   "sessions": 133
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2832,
+   "views": 2830,
    "reads": 155,
    "completes": 6,
-   "sessions": 2843,
+   "sessions": 2842,
    "read_rate": 0.055,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "organic",
-   "views": 174,
-   "reads": 116,
+   "views": 175,
+   "reads": 117,
    "completes": 4,
-   "sessions": 132,
-   "read_rate": 0.667,
+   "sessions": 133,
+   "read_rate": 0.669,
    "complete_rate": 0.023,
    "pages_per_session": 1.32,
    "median_dwell_sec": null
@@ -301,9 +301,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2743,
-   "reads": 294,
-   "sessions": 2627
+   "views": 2742,
+   "reads": 295,
+   "sessions": 2626
   },
   {
    "device": "mobile",
@@ -419,8 +419,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 19,
-   "reads": 4,
+   "views": 20,
+   "reads": 5,
    "plays": 0
   },
   {
@@ -628,6 +628,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
    "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
    "section": "stack",
@@ -645,16 +655,6 @@
    "author": "dex",
    "views": 19,
    "reads": 6,
-   "plays": 0
-  },
-  {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 19,
-   "reads": 4,
    "plays": 0
   },
   {
@@ -788,8 +788,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 50,
-   "sessions": 30
+   "hits": 52,
+   "sessions": 31
   },
   {
    "ref": "https://duckduckgo.com/",
