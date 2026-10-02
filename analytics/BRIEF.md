@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-10-02T08:27Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-02T08:37Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3278 views → 321 engaged reads → 10 completes · 3150 sessions.
-- Channels: direct 159r/2811v · organic 117r/175v · campaign:chatgpt.com 27r/222v · ai 9r/21v · referral 5r/38v · campaign:qwant 4r/6v · social 0r/3v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 27r/226v · Doubao 5r/6v · Perplexity 2r/4v · Claude 1r/2v · Kimi 0r/3v · DeepSeek 0r/1v.
+- Funnel: 3276 views → 321 engaged reads → 10 completes · 3149 sessions.
+- Channels: direct 159r/2810v · organic 117r/175v · campaign:chatgpt.com 27r/221v · ai 9r/21v · referral 5r/38v · campaign:qwant 4r/6v · social 0r/3v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 27r/225v · Doubao 5r/6v · Perplexity 2r/4v · Claude 1r/2v · Kimi 0r/3v · DeepSeek 0r/1v.
 - Referrers: bing.com, mail.google.com, cn.bing.com, duckduckgo.com, chatgpt.com, search.brave.com, google.com, doubao.com, brand, youtube.com.
 - Engaged-read winners by section: wire=6, stack=9.
 
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2811 views · read 5.7% · complete 0.2% · 1 pages/session · median 6s
-- campaign:chatgpt.com: 222 views · read 12.2% · complete 0.0% · 1 pages/session · median ?s
+- direct: 2810 views · read 5.7% · complete 0.2% · 1 pages/session · median 6s
+- campaign:chatgpt.com: 221 views · read 12.2% · complete 0.0% · 1 pages/session · median ?s
 - organic: 175 views · read 66.9% · complete 2.3% · 1.33 pages/session · median ?s
 - referral: 38 views · read 13.2% · complete 0.0% · 1 pages/session · median ?s
 - ai: 21 views · read 42.9% · complete 0.0% · 0.54 pages/session · median 10s
@@ -106,7 +106,7 @@ sample size dwarfs the engaged-read counts below.
 - /stack.html  — 18 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (5041 verified): /wire.html ×48 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×38 · /posts/open-source-llm-for-coding-september-2026.html ×37
+- OAI-SearchBot (5043 verified): /wire.html ×48 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×38 · /posts/open-source-llm-for-coding-september-2026.html ×37
 - PerplexityBot (4113 verified): /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×24 · /build ×24 · / ×23
 - ChatGPT-User (2974 verified): / ×572 · /posts/open-source-llm-for-coding-september-2026.html ×170 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×139
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -123,7 +123,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agent(51), agentic(37), build(35), agents(31), founder(30), mcp(26), coding(22), startup(21), building(15), first(14), google(14), memory(14), claude(13), engineering(12), loops(12).
+Hot terms: agent(52), agentic(37), build(35), agents(31), founder(30), mcp(26), coding(23), startup(20), google(14), memory(14), building(13), first(13), claude(13), engineering(12), loops(12).
 Hashtags: #ai, #founder, #startup, #luxembourg, #mcp, #prembly, #intphpcon, #php, #symfony, #datascience.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2103900910292472051
@@ -156,7 +156,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 14040 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5041, Perplexity 4113, ChatGPT (user browsing) 2974, GPTBot (OpenAI) 1912).
+The real answer engines are crawling us — IP-verified: 14042 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5043, Perplexity 4113, ChatGPT (user browsing) 2974, GPTBot (OpenAI) 1912).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 760 crawler fetches
 - /build  — 292 crawler fetches
