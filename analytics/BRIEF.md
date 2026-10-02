@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-02T17:04Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-02T17:14Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -106,8 +106,8 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo.html  — 18 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (5167 verified): /wire.html ×51 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×42 · /posts/open-source-llm-for-coding-september-2026.html ×41
-- PerplexityBot (4207 verified): /build ×25 · / ×24 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×24
+- OAI-SearchBot (5168 verified): /wire.html ×51 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×42 · /posts/open-source-llm-for-coding-september-2026.html ×41
+- PerplexityBot (4209 verified): /build ×25 · / ×24 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×24
 - ChatGPT-User (3040 verified): / ×587 · /posts/open-source-llm-for-coding-september-2026.html ×172 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×140
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -133,7 +133,7 @@ High-engagement posts to react to / cite:
 - "$ORBIO Update It’s been a little over a week since my last post on $ORBIO, so I went back through everything again to see what has actually changed When I wrote about it, ORBIO was sitting around $69–70M MC after running" — https://x.com/i/status/2105583131206303892
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (259 of 460 phrases have NO post, 53h ago)
+## Uncovered search demand (259 of 460 phrases have NO post, 54h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -156,12 +156,12 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 14327 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5167, Perplexity 4207, ChatGPT (user browsing) 3040, GPTBot (OpenAI) 1913).
+The real answer engines are crawling us — IP-verified: 14330 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5168, Perplexity 4209, ChatGPT (user browsing) 3040, GPTBot (OpenAI) 1913).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 777 crawler fetches
 - /build  — 295 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 224 crawler fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 222 crawler fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 223 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 196 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 174 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 137 crawler fetches
