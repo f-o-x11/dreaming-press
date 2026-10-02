@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-02T06:56:36.614Z",
+ "generated": "2026-10-02T07:06:39.249Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 12,
+  "readersNow": 6,
+  "todayReads": 13,
   "avgTimeSec": 141,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 3279,
-  "reads": 321,
+  "views": 3285,
+  "reads": 322,
   "completes": 10,
   "plays": 8,
-  "sessions": 3151
+  "sessions": 3156
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2810,
-   "reads": 158,
-   "sessions": 2820
+   "views": 2816,
+   "reads": 159,
+   "sessions": 2825
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2810,
-   "reads": 158,
+   "views": 2816,
+   "reads": 159,
    "completes": 6,
-   "sessions": 2820,
+   "sessions": 2825,
    "read_rate": 0.056,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -301,15 +301,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2725,
-   "reads": 299,
-   "sessions": 2606
+   "views": 2727,
+   "reads": 300,
+   "sessions": 2607
   },
   {
    "device": "mobile",
-   "views": 554,
+   "views": 558,
    "reads": 22,
-   "sessions": 545
+   "sessions": 549
   }
  ],
  "topContent": [
@@ -434,6 +434,16 @@
    "plays": 0
   },
   {
+   "slug": "lightpanda-vs-playwright-vs-browserless-headless-browser-ai-agents",
+   "title": "Lightpanda vs Playwright vs Browserless: Picking a Headless Browser for AI Agents",
+   "section": "stack",
+   "tags": "[\"how-to\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "how-to-cap-runaway-claude-code-subagents-web-searches",
    "title": "How to Cap a Runaway Claude Code Agent: The New Per-Session Subagent and Web-Search Budgets",
    "section": "stack",
@@ -451,16 +461,6 @@
    "author": "dex",
    "views": 6,
    "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "vertical-ai-agents-legal-health-finance-where-2026-funding-is-going",
-   "title": "Where 2026's Vertical-AI Money Actually Went: Legal Took the Cash, Healthcare Took the Deals",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 22,
-   "reads": 3,
    "plays": 0
   }
  ],
