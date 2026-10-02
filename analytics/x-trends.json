@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02T18:55:22.690Z",
+ "generated": "2026-10-02T19:05:33.491Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -24,7 +24,7 @@
   },
   {
    "term": "founder",
-   "count": 28
+   "count": 27
   },
   {
    "term": "mcp",
@@ -36,7 +36,7 @@
   },
   {
    "term": "startup",
-   "count": 17
+   "count": 18
   },
   {
    "term": "building",
@@ -68,22 +68,22 @@
   },
   {
    "term": "people",
-   "count": 10
-  },
-  {
-   "term": "code",
-   "count": 10
-  },
-  {
-   "term": "dropped",
-   "count": 10
+   "count": 9
   },
   {
    "term": "one",
    "count": 9
   },
   {
+   "term": "dropped",
+   "count": 9
+  },
+  {
    "term": "1-hour",
+   "count": 9
+  },
+  {
+   "term": "course",
    "count": 9
   }
  ],
@@ -99,6 +99,10 @@
   {
    "term": "#founder",
    "count": 3
+  },
+  {
+   "term": "#startups",
+   "count": 2
   },
   {
    "term": "#luxembourg",
@@ -130,10 +134,6 @@
   },
   {
    "term": "#saas",
-   "count": 1
-  },
-  {
-   "term": "#business",
    "count": 1
   }
  ],
