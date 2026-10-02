@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-02T12:10Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-02T12:20Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -94,7 +94,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 601 retrieval fetches
+- /  — 602 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 210 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 195 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 172 retrieval fetches
@@ -106,9 +106,9 @@ sample size dwarfs the engaged-read counts below.
 - /stack.html  — 18 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (5093 verified): /wire.html ×49 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×40 · /posts/open-source-llm-for-coding-september-2026.html ×39
-- PerplexityBot (4123 verified): /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×24 · /build ×24 · / ×23
-- ChatGPT-User (2997 verified): / ×578 · /posts/open-source-llm-for-coding-september-2026.html ×171 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×139
+- OAI-SearchBot (5098 verified): /wire.html ×49 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×40 · /posts/open-source-llm-for-coding-september-2026.html ×39
+- PerplexityBot (4124 verified): /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×24 · /build ×24 · / ×23
+- ChatGPT-User (2999 verified): / ×579 · /posts/open-source-llm-for-coding-september-2026.html ×171 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×139
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -133,7 +133,7 @@ High-engagement posts to react to / cite:
 - "$ORBIO Update It’s been a little over a week since my last post on $ORBIO, so I went back through everything again to see what has actually changed When I wrote about it, ORBIO was sitting around $69–70M MC after running" — https://x.com/i/status/2105583131206303892
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (259 of 460 phrases have NO post, 48h ago)
+## Uncovered search demand (259 of 460 phrases have NO post, 49h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -156,9 +156,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 14125 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5093, Perplexity 4123, ChatGPT (user browsing) 2997, GPTBot (OpenAI) 1912).
+The real answer engines are crawling us — IP-verified: 14133 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5098, Perplexity 4124, ChatGPT (user browsing) 2999, GPTBot (OpenAI) 1912).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 764 crawler fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 765 crawler fetches
 - /build  — 293 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 224 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 217 crawler fetches
