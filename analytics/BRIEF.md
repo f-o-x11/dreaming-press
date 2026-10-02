@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-02T18:04Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-02T18:14Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -98,7 +98,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/open-source-llm-for-coding-september-2026.html  — 213 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 198 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 174 retrieval fetches
-- /posts/lm-studio-bionic-local-agent-open-models.html  — 67 retrieval fetches
+- /posts/lm-studio-bionic-local-agent-open-models.html  — 68 retrieval fetches
 - /wire.html  — 51 retrieval fetches
 - /posts/2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe.html  — 31 retrieval fetches
 - /build  — 25 retrieval fetches
@@ -108,7 +108,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - OAI-SearchBot (5172 verified): /wire.html ×51 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×42 · /posts/open-source-llm-for-coding-september-2026.html ×41
 - PerplexityBot (4209 verified): /build ×25 · / ×24 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×24
-- ChatGPT-User (3043 verified): / ×589 · /posts/open-source-llm-for-coding-september-2026.html ×172 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×140
+- ChatGPT-User (3045 verified): / ×589 · /posts/open-source-llm-for-coding-september-2026.html ×172 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×140
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -123,7 +123,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agent(52), agentic(36), build(34), agents(29), founder(28), mcp(24), coding(23), startup(17), building(15), engineering(14), memory(14), first(13), google(13), claude(13), loops(12).
+Hot terms: agent(52), agentic(36), build(35), agents(30), founder(28), mcp(25), coding(23), startup(17), building(14), memory(14), engineering(13), first(13), google(13), claude(13), loops(12).
 Hashtags: #ai, #startup, #founder, #luxembourg, #mcp, #prembly, #datascience, #aiagents, #pymc, #latam.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2103900910292472051
@@ -133,7 +133,7 @@ High-engagement posts to react to / cite:
 - "$ORBIO Update It’s been a little over a week since my last post on $ORBIO, so I went back through everything again to see what has actually changed When I wrote about it, ORBIO was sitting around $69–70M MC after running" — https://x.com/i/status/2105583131206303892
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (259 of 460 phrases have NO post, 54h ago)
+## Uncovered search demand (259 of 460 phrases have NO post, 55h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -156,18 +156,18 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 14338 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5172, Perplexity 4209, ChatGPT (user browsing) 3043, GPTBot (OpenAI) 1914).
+The real answer engines are crawling us — IP-verified: 14340 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5172, Perplexity 4209, ChatGPT (user browsing) 3045, GPTBot (OpenAI) 1914).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 778 crawler fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 780 crawler fetches
 - /build  — 295 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 225 crawler fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 223 crawler fetches
-- /posts/how-to-read-an-agent-memory-benchmark.html  — 196 crawler fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 224 crawler fetches
+- /posts/how-to-read-an-agent-memory-benchmark.html  — 197 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 174 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 137 crawler fetches
 - /posts/serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026.html  — 109 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 72 crawler fetches
-- /posts/lm-studio-bionic-local-agent-open-models.html  — 67 crawler fetches
+- /posts/lm-studio-bionic-local-agent-open-models.html  — 68 crawler fetches
 - /posts/llm-api-pricing-comparison-august-2026.html  — 36 crawler fetches
 - /posts/2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe.html  — 31 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
