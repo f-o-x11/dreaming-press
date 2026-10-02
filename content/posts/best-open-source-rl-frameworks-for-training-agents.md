@@ -18,18 +18,14 @@ art:
   motif: "a policy circling a single reward point, each training lap a tighter concentric ring pulling the orbit inward"
 ---
 
-**The best open-source RL frameworks for training agents in 2026 are verl, Hugging Face trl, OpenPipe ART, OpenRLHF, Prime Intellect's verifiers, SkyRL, and prime-rl — all real, actively maintained, and self-hostable on your own GPUs.** Which one you should pick isn't decided by a benchmark; it's decided by which half of the problem you're on, so here's the whole answer in one line: have a working agent and want RL without a rewrite → **OpenPipe ART**; need maximum-scale trainer infrastructure → **verl**; building the environment and reward that actually decide whether training works → **Prime Intellect's verifiers**; just learning GRPO first → **trl**. That's the pick; the rest of this guide is why.
-
-"Which is best" is the wrong question to lead with, because the RL *algorithm* is commoditized — every one of these ships GRPO, and the deltas between PPO variants are small. The pick is decided by one split most roundups miss: does the framework help you build the *environment and reward* (where the real work now lives), or does it just run the *trainer*?
-
-Here's the whole decision in one screen:
+**The best open-source RL frameworks for training agents in 2026 are verl, Hugging Face trl, OpenPipe ART, OpenRLHF, Prime Intellect's verifiers, SkyRL, and prime-rl — all real, actively maintained, and self-hostable on your own GPUs.** Which one you pick isn't decided by a benchmark. It's decided by *which half of the problem you're on* — building the environment and reward, or running the trainer — because the RL algorithm itself is commoditized: every one of these ships GRPO, and the deltas between PPO variants are small. So here is the whole decision, in one screen:
 
 - **Have a working agent, want RL without a rewrite → ART.** GRPO wrapped around your existing loop, plus RULER — an LLM-as-judge reward that scores trajectories so you skip hand-writing a reward function. The fastest path to a first training run.
 - **Building environments and evals as the durable asset → verifiers.** Write the task and its reward verifier once, then reuse or share it; pair it with **prime-rl** to train those environments at scale.
 - **Need maximum-scale trainer infrastructure and will write your own reward → verl,** the heavy trainer most labs standardize on, with **OpenRLHF** and **SkyRL** as the alternatives when its abstractions don't fit yours.
 - **Just want to learn GRPO first → trl,** the cleanest on-ramp before you commit to a heavier stack.
 
-The one rule under all four: every framework here has commoditized the *algorithm*. The thing none of them can commoditize for you is the *environment and the reward* — so pick for that, not for whose GRPO is 8% faster. The rest of this guide is the why, and the detail behind each pick.
+That's the pick. The one rule under all four: the trainer is table stakes, the *environment and the reward* are the moat — so choose for that, not for whose GRPO is 8% faster. The rest of this guide is the detail behind each call.
 
 Two years ago, "training an agent" mostly meant writing a better system prompt. Today it means reinforcement learning: you let the model act in an environment, score whether it completed the task, and push the weights toward the behavior that worked. RL is now the standard post-training step for tool-using, multi-turn agents — because on a real task there is no single correct trajectory to imitate, only outcomes to optimize, and the agent has to learn to recover from its own mistakes.
 
