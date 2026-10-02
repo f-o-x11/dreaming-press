@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-02T16:33:53.799Z",
+ "generated": "2026-10-02T16:43:55.701Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 52
+   "count": 49
   },
   {
    "term": "agentic",
@@ -16,22 +16,22 @@
   },
   {
    "term": "build",
-   "count": 34
+   "count": 33
   },
   {
    "term": "agents",
-   "count": 29
+   "count": 28
   },
   {
    "term": "founder",
    "count": 28
   },
   {
-   "term": "mcp",
-   "count": 24
+   "term": "coding",
+   "count": 23
   },
   {
-   "term": "coding",
+   "term": "mcp",
    "count": 23
   },
   {
@@ -40,22 +40,14 @@
   },
   {
    "term": "building",
-   "count": 14
-  },
-  {
-   "term": "first",
-   "count": 14
-  },
-  {
-   "term": "memory",
-   "count": 14
+   "count": 15
   },
   {
    "term": "engineering",
    "count": 13
   },
   {
-   "term": "google",
+   "term": "first",
    "count": 13
   },
   {
@@ -63,7 +55,11 @@
    "count": 13
   },
   {
-   "term": "loops",
+   "term": "google",
+   "count": 12
+  },
+  {
+   "term": "memory",
    "count": 12
   },
   {
@@ -76,15 +72,19 @@
   },
   {
    "term": "dropped",
-   "count": 10
-  },
-  {
-   "term": "one",
    "count": 9
   },
   {
-   "term": "1-hour",
+   "term": "loops",
    "count": 9
+  },
+  {
+   "term": "than",
+   "count": 8
+  },
+  {
+   "term": "scratch",
+   "count": 8
   }
  ],
  "hashtags": [
@@ -133,7 +133,7 @@
    "count": 1
   },
   {
-   "term": "#business",
+   "term": "#entrepreneurship",
    "count": 1
   }
  ],
