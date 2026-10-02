@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-02T12:31:00.527Z",
- "sampled": 79,
+ "generated": "2026-10-02T12:41:05.242Z",
+ "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
   "(LLM OR \"coding agent\" OR RAG OR \"AI startup\") founder -is:retweet -is:reply lang:en"
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 51
+   "count": 53
   },
   {
    "term": "agentic",
@@ -39,6 +39,14 @@
    "count": 20
   },
   {
+   "term": "building",
+   "count": 14
+  },
+  {
+   "term": "first",
+   "count": 14
+  },
+  {
    "term": "google",
    "count": 14
   },
@@ -51,16 +59,8 @@
    "count": 13
   },
   {
-   "term": "first",
-   "count": 13
-  },
-  {
    "term": "claude",
    "count": 13
-  },
-  {
-   "term": "building",
-   "count": 12
   },
   {
    "term": "loops",
