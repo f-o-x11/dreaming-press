@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-02T06:46:32.793Z",
+ "generated": "2026-10-02T06:56:36.098Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13987,
+ "verifiedAiHits": 13995,
  "logsScanned": 30,
  "windowStart": "2026-09-18",
  "windowEnd": "2026-10-02",
- "totalHits": 99620,
- "aiHits": 80059,
+ "totalHits": 99666,
+ "aiHits": 80089,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27686,
+   "hits": 27694,
    "verifiedHits": 0,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14017,
+   "hits": 14024,
    "verifiedHits": 0,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7555,
-   "verifiedHits": 7142,
+   "hits": 7559,
+   "verifiedHits": 7146,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
    "topPaths": [
@@ -124,7 +124,7 @@
     },
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 69
+     "hits": 70
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
@@ -146,8 +146,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5483,
-   "verifiedHits": 5010,
+   "hits": 5489,
+   "verifiedHits": 5016,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4790,
+   "hits": 4793,
    "verifiedHits": 0,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
@@ -245,8 +245,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3399,
-   "verifiedHits": 2960,
+   "hits": 3400,
+   "verifiedHits": 2961,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3100,
+   "hits": 3108,
    "verifiedHits": 0,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
@@ -311,7 +311,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2759,
+   "hits": 2763,
    "verifiedHits": 0,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
@@ -322,7 +322,7 @@
     },
     {
      "path": "/build",
-     "hits": 45
+     "hits": 46
     },
     {
      "path": "/authors/dex",
@@ -344,7 +344,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2625,
+   "hits": 2626,
    "verifiedHits": 0,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
@@ -359,7 +359,7 @@
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
-     "hits": 190
+     "hits": 191
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -410,8 +410,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 2391,
-   "verifiedHits": 1911,
+   "hits": 2392,
+   "verifiedHits": 1912,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
    "topPaths": [
@@ -509,10 +509,10 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 643,
+   "hits": 644,
    "verifiedHits": 498,
    "firstSeen": "2026-09-18",
-   "lastSeen": "2026-10-01",
+   "lastSeen": "2026-10-02",
    "topPaths": [
     {
      "path": "/",
@@ -523,12 +523,12 @@
      "hits": 5
     },
     {
-     "path": "/posts/how-to-roll-back-an-ai-agents-actions.html",
+     "path": "/dashboard%2F.env",
      "hits": 3
     },
     {
-     "path": "/dashboard%2F.env",
-     "hits": 2
+     "path": "/posts/how-to-roll-back-an-ai-agents-actions.html",
+     "hits": 3
     },
     {
      "path": "/posts/",
@@ -707,29 +707,29 @@
    "label": "Gemini / Vertex (Google-Extended)",
    "category": "ai",
    "home": "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers",
-   "hits": 67,
+   "hits": 69,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
-   "lastSeen": "2026-10-01",
+   "lastSeen": "2026-10-02",
    "topPaths": [
     {
      "path": "/langflow/api/v1/validate/code",
      "hits": 3
     },
     {
+     "path": "/dashboard",
+     "hits": 2
+    },
+    {
      "path": "/flowise/api/v1/node-load-method/customMCP",
      "hits": 2
     },
     {
-     "path": "/dashboard",
+     "path": "/dashboard/",
      "hits": 1
     },
     {
      "path": "/m6hq3q1et2rb6te01tg2",
-     "hits": 1
-    },
-    {
-     "path": "/key.pem",
      "hits": 1
     }
    ],
