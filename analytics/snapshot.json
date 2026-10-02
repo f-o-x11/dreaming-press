@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-02T19:25:50.743Z",
+ "generated": "2026-10-02T19:36:00.498Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 19,
-  "avgTimeSec": 133,
+  "avgTimeSec": 115,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 3263,
+  "views": 3267,
   "reads": 321,
   "completes": 10,
   "plays": 8,
-  "sessions": 3135
+  "sessions": 3136
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2790,
+   "views": 2793,
    "reads": 155,
-   "sessions": 2804
+   "sessions": 2805
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 39,
+   "views": 40,
    "reads": 5,
-   "sessions": 39
+   "sessions": 40
   },
   {
    "channel": "campaign:qwant",
@@ -73,17 +73,17 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 17
+   "sessions": 18
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2790,
+   "views": 2793,
    "reads": 155,
    "completes": 6,
-   "sessions": 2804,
-   "read_rate": 0.056,
+   "sessions": 2805,
+   "read_rate": 0.055,
    "complete_rate": 0.002,
    "pages_per_session": 1,
    "median_dwell_sec": 6
@@ -112,11 +112,11 @@
   },
   {
    "channel": "referral",
-   "views": 39,
+   "views": 40,
    "reads": 5,
    "completes": 0,
-   "sessions": 39,
-   "read_rate": 0.128,
+   "sessions": 40,
+   "read_rate": 0.125,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 17,
+   "sessions": 18,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -195,19 +195,19 @@
    "sessions": 9
   },
   {
-   "surface": "dash-range",
-   "clicks": 6,
-   "sessions": 1
-  },
-  {
    "surface": "btn-stats",
-   "clicks": 6,
-   "sessions": 3
+   "clicks": 7,
+   "sessions": 4
   },
   {
    "surface": "nav-cmp",
-   "clicks": 5,
-   "sessions": 3
+   "clicks": 6,
+   "sessions": 4
+  },
+  {
+   "surface": "dash-range",
+   "clicks": 6,
+   "sessions": 1
   },
   {
    "surface": "legal-links",
@@ -246,6 +246,11 @@
   },
   {
    "surface": "edited-by",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
+   "surface": "dg-title",
    "clicks": 1,
    "sessions": 1
   },
@@ -301,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2702,
+   "views": 2706,
    "reads": 298,
-   "sessions": 2583
+   "sessions": 2584
   },
   {
    "device": "mobile",
@@ -699,9 +704,9 @@
   },
   {
    "path": "/dashboard",
-   "views": 21,
+   "views": 22,
    "reads": 2,
-   "sessions": 10,
+   "sessions": 11,
    "avg_dwell_sec": 35
   },
   {
@@ -734,10 +739,10 @@
   },
   {
    "path": "/agents.html",
-   "views": 7,
+   "views": 8,
    "reads": 1,
-   "sessions": 7,
-   "avg_dwell_sec": 40
+   "sessions": 8,
+   "avg_dwell_sec": 31
   },
   {
    "path": "/reports/:report",
@@ -754,6 +759,13 @@
    "avg_dwell_sec": 33
   },
   {
+   "path": "/global-tech-news",
+   "views": 6,
+   "reads": 0,
+   "sessions": 6,
+   "avg_dwell_sec": 12
+  },
+  {
    "path": "/apps",
    "views": 5,
    "reads": 0,
@@ -766,13 +778,6 @@
    "reads": 0,
    "sessions": 5,
    "avg_dwell_sec": null
-  },
-  {
-   "path": "/global-tech-news",
-   "views": 5,
-   "reads": 0,
-   "sessions": 5,
-   "avg_dwell_sec": 13
   }
  ],
  "referrers": [
