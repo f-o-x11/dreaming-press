@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-02T17:54:37.612Z",
+ "generated": "2026-10-02T18:04:41.348Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14334,
+ "verifiedAiHits": 14338,
  "logsScanned": 30,
  "windowStart": "2026-09-18",
  "windowEnd": "2026-10-02",
- "totalHits": 102897,
- "aiHits": 82690,
+ "totalHits": 102921,
+ "aiHits": 82711,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28543,
+   "hits": 28551,
    "verifiedHits": 0,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14498,
+   "hits": 14507,
    "verifiedHits": 0,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7819,
-   "verifiedHits": 7406,
+   "hits": 7821,
+   "verifiedHits": 7408,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5645,
-   "verifiedHits": 5169,
+   "hits": 5648,
+   "verifiedHits": 5172,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4910,
+   "hits": 4911,
    "verifiedHits": 0,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
@@ -245,14 +245,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3487,
-   "verifiedHits": 3042,
+   "hits": 3488,
+   "verifiedHits": 3043,
    "firstSeen": "2026-09-18",
    "lastSeen": "2026-10-02",
    "topPaths": [
     {
      "path": "/",
-     "hits": 588
+     "hits": 589
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
