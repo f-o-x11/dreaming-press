@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-10-02T15:02Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-02T15:12Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3266 views → 320 engaged reads → 10 completes · 3138 sessions.
+- Funnel: 3266 views → 320 engaged reads → 10 completes · 3139 sessions.
 - Channels: direct 156r/2795v · organic 120r/178v · campaign:chatgpt.com 26r/221v · ai 9r/21v · referral 5r/39v · campaign:qwant 4r/6v · social 0r/4v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 26r/225v · Doubao 5r/6v · Perplexity 2r/4v · Claude 1r/2v · Kimi 0r/3v · DeepSeek 0r/1v.
 - Referrers: bing.com, mail.google.com, cn.bing.com, duckduckgo.com, chatgpt.com, search.brave.com, google.com, doubao.com, brand, youtube.com.
@@ -36,7 +36,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "Microsoft Agent Framework vs LangGraph vs CrewAI: Which One Crossed the Three Thresholds" — 36 reads, 40 views, 0 listens
-- [stack] "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)" — 16 reads, 88 views, 1 listens
+- [stack] "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)" — 16 reads, 87 views, 1 listens
 - [stack] "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One" — 10 reads, 14 views, 0 listens
 - [wire] "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K" — 9 reads, 16 views, 0 listens
 - [stack] "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement" — 7 reads, 18 views, 0 listens
@@ -59,7 +59,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 397 views, 0 reads, 397 sessions, avg 13s
+- /stack/:tool — 396 views, 0 reads, 396 sessions, avg 13s
 - / — 126 views, 3 reads, 126 sessions, avg 13s
 - /best/:cat — 53 views, 0 reads, 53 sessions, avg 17s
 - /build — 32 views, 0 reads, 32 sessions
@@ -71,7 +71,7 @@ ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
-- [stack] "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)" — 88 views, 16 reads
+- [stack] "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)" — 87 views, 16 reads
 - [wire] "Microsoft Agent Framework vs LangGraph vs CrewAI: Which One Crossed the Three Thresholds" — 40 views, 36 reads
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 34 views, 0 reads
 - [wire] "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO" — 31 views, 0 reads
@@ -123,8 +123,8 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agent(50), agentic(35), build(32), founder(28), agents(27), mcp(23), coding(22), startup(18), building(14), engineering(13), first(13), claude(13), google(12), memory(12), people(10).
-Hashtags: #ai, #startup, #founder, #luxembourg, #mcp, #prembly, #latam, #saas, #business, #entrepreneurship.
+Hot terms: agent(50), agentic(35), build(33), agents(28), founder(28), mcp(24), coding(22), startup(18), building(13), first(13), claude(13), engineering(12), google(12), memory(12), people(10).
+Hashtags: #ai, #startup, #founder, #luxembourg, #mcp, #prembly, #datascience, #aiagents, #pymc, #latam.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2103900910292472051
 - "🚨 You’re probably using Claude at 10% of its actual potential. Most people stop at: “Claude, write this.” But Claude mastery looks like this: 🧠 Foundation → Prompting + Context + Examples ⚙️ Workflow → Projects + Promp" — https://x.com/i/status/2104060782069862722
@@ -133,7 +133,7 @@ High-engagement posts to react to / cite:
 - "$ORBIO Update It’s been a little over a week since my last post on $ORBIO, so I went back through everything again to see what has actually changed When I wrote about it, ORBIO was sitting around $69–70M MC after running" — https://x.com/i/status/2105583131206303892
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (259 of 460 phrases have NO post, 51h ago)
+## Uncovered search demand (259 of 460 phrases have NO post, 52h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -165,7 +165,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 195 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 172 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 137 crawler fetches
-- /posts/serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026.html  — 106 crawler fetches
+- /posts/serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026.html  — 107 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 71 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 67 crawler fetches
 - /posts/llm-api-pricing-comparison-august-2026.html  — 36 crawler fetches

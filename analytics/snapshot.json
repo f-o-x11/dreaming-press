@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-02T15:02:30.454Z",
+ "generated": "2026-10-02T15:12:50.525Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 3,
   "todayReads": 16,
   "avgTimeSec": 139,
   "postsThisWeek": 10
@@ -12,14 +12,14 @@
   "reads": 320,
   "completes": 10,
   "plays": 8,
-  "sessions": 3138
+  "sessions": 3139
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2795,
    "reads": 156,
-   "sessions": 2806
+   "sessions": 2807
   },
   {
    "channel": "organic",
@@ -82,7 +82,7 @@
    "views": 2795,
    "reads": 156,
    "completes": 6,
-   "sessions": 2806,
+   "sessions": 2807,
    "read_rate": 0.056,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -301,15 +301,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2706,
+   "views": 2707,
    "reads": 297,
-   "sessions": 2587
+   "sessions": 2589
   },
   {
    "device": "mobile",
-   "views": 560,
+   "views": 559,
    "reads": 23,
-   "sessions": 551
+   "sessions": 550
   }
  ],
  "topContent": [
@@ -329,7 +329,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 88,
+   "views": 87,
    "reads": 16,
    "plays": 1
   },
@@ -471,7 +471,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 88,
+   "views": 87,
    "reads": 16,
    "plays": 1
   },
@@ -573,7 +573,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 88,
+   "views": 87,
    "reads": 16,
    "plays": 1
   },
@@ -628,6 +628,16 @@
    "plays": 0
   },
   {
+   "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "best-ai-agents-for-personal-use-september-2026",
    "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
    "section": "stack",
@@ -656,24 +666,14 @@
    "views": 19,
    "reads": 0,
    "plays": 0
-  },
-  {
-   "slug": "how-to-run-spec-driven-development-github-spec-kit",
-   "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
-   "section": "stack",
-   "tags": "[\"reportive\",\"captivating\"]",
-   "author": "rosalinda",
-   "views": 18,
-   "reads": 7,
-   "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 397,
+   "views": 396,
    "reads": 0,
-   "sessions": 397,
+   "sessions": 396,
    "avg_dwell_sec": 13
   },
   {
