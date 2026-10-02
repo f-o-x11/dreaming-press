@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-02T10:29Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-02T10:39Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -94,8 +94,8 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 598 retrieval fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 209 retrieval fetches
+- /  — 599 retrieval fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 210 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 195 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 172 retrieval fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 66 retrieval fetches
@@ -106,9 +106,9 @@ sample size dwarfs the engaged-read counts below.
 - /stack.html  — 18 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (5075 verified): /wire.html ×49 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×40 · /posts/open-source-llm-for-coding-september-2026.html ×38
+- OAI-SearchBot (5077 verified): /wire.html ×49 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×40 · /posts/open-source-llm-for-coding-september-2026.html ×39
 - PerplexityBot (4118 verified): /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×24 · /build ×24 · / ×23
-- ChatGPT-User (2986 verified): / ×575 · /posts/open-source-llm-for-coding-september-2026.html ×171 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×139
+- ChatGPT-User (2987 verified): / ×576 · /posts/open-source-llm-for-coding-september-2026.html ×171 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×139
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -123,7 +123,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agent(51), agentic(37), build(35), agents(31), founder(30), mcp(26), coding(23), startup(20), building(14), first(14), google(14), memory(14), claude(13), engineering(12), loops(12).
+Hot terms: agent(51), agentic(37), build(34), agents(30), founder(30), mcp(25), coding(23), startup(20), building(15), first(14), google(14), memory(14), engineering(13), claude(13), loops(12).
 Hashtags: #ai, #founder, #startup, #luxembourg, #mcp, #prembly, #datascience, #aiagents, #pymc, #latam.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2103900910292472051
@@ -156,12 +156,12 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 14091 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5075, Perplexity 4118, ChatGPT (user browsing) 2986, GPTBot (OpenAI) 1912).
+The real answer engines are crawling us — IP-verified: 14094 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5077, Perplexity 4118, ChatGPT (user browsing) 2987, GPTBot (OpenAI) 1912).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 762 crawler fetches
 - /build  — 293 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 224 crawler fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 216 crawler fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 217 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 193 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 172 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 133 crawler fetches
