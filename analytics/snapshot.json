@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-03T02:01:00.237Z",
+ "generated": "2026-10-03T02:11:09.221Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,30 +8,30 @@
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3272,
+  "views": 3271,
   "reads": 320,
   "completes": 11,
   "plays": 8,
-  "sessions": 3139
+  "sessions": 3138
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2792,
+   "views": 2791,
    "reads": 153,
-   "sessions": 2804
+   "sessions": 2803
   },
   {
    "channel": "organic",
-   "views": 189,
+   "views": 188,
    "reads": 125,
-   "sessions": 146
+   "sessions": 145
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 218,
+   "views": 219,
    "reads": 24,
-   "sessions": 218
+   "sessions": 219
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2792,
+   "views": 2791,
    "reads": 153,
    "completes": 7,
-   "sessions": 2804,
+   "sessions": 2803,
    "read_rate": 0.055,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -90,10 +90,10 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 218,
+   "views": 219,
    "reads": 24,
    "completes": 0,
-   "sessions": 218,
+   "sessions": 219,
    "read_rate": 0.11,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -101,13 +101,13 @@
   },
   {
    "channel": "organic",
-   "views": 189,
+   "views": 188,
    "reads": 125,
    "completes": 4,
-   "sessions": 146,
-   "read_rate": 0.661,
+   "sessions": 145,
+   "read_rate": 0.665,
    "complete_rate": 0.021,
-   "pages_per_session": 1.29,
+   "pages_per_session": 1.3,
    "median_dwell_sec": 6
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 222,
+   "views": 223,
    "reads": 24,
-   "sessions": 220
+   "sessions": 221
   },
   {
    "assistant": "Doubao",
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2702,
+   "views": 2701,
    "reads": 298,
-   "sessions": 2578
+   "sessions": 2577
   },
   {
    "device": "mobile",
@@ -399,8 +399,8 @@
    "plays": 0
   },
   {
-   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
-   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
+   "slug": "vllm-v0-24-model-runner-v2-rust-frontend",
+   "title": "vLLM v0.24 Makes Model Runner V2 the Default. The Win Isn't a Faster Kernel — It's Never Waiting on the CPU.",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -409,12 +409,12 @@
    "plays": 0
   },
   {
-   "slug": "vllm-v0-24-model-runner-v2-rust-frontend",
-   "title": "vLLM v0.24 Makes Model Runner V2 the Default. The Win Isn't a Faster Kernel — It's Never Waiting on the CPU.",
+   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
+   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 12,
+   "views": 11,
    "reads": 6,
    "plays": 0
   },
@@ -653,6 +653,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
+   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "best-ai-agents-for-personal-use-september-2026",
    "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
    "section": "stack",
@@ -660,16 +670,6 @@
    "author": "dex",
    "views": 19,
    "reads": 6,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
-   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 19,
-   "reads": 0,
    "plays": 0
   }
  ],
@@ -793,8 +793,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 56,
-   "sessions": 33
+   "hits": 55,
+   "sessions": 32
   },
   {
    "ref": "https://duckduckgo.com/",
