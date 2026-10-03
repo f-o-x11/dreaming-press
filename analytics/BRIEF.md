@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-10-03T04:32Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-03T04:43Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3250 views → 318 engaged reads → 12 completes · 3119 sessions.
-- Channels: direct 152r/2773v · organic 125r/188v · campaign:chatgpt.com 24r/218v · ai 8r/19v · referral 5r/40v · campaign:qwant 4r/6v · social 0r/4v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 24r/222v · Doubao 4r/4v · Perplexity 2r/4v · Claude 1r/2v · Kimi 0r/3v · DeepSeek 0r/1v.
+- Funnel: 3249 views → 317 engaged reads → 12 completes · 3119 sessions.
+- Channels: direct 151r/2772v · organic 125r/189v · campaign:chatgpt.com 24r/217v · ai 8r/19v · referral 5r/40v · campaign:qwant 4r/6v · social 0r/4v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 24r/221v · Doubao 4r/4v · Perplexity 2r/4v · Claude 1r/2v · Kimi 0r/3v · DeepSeek 0r/1v.
 - Referrers: bing.com, mail.google.com, cn.bing.com, duckduckgo.com, chatgpt.com, search.brave.com, google.com, brand, youtube.com, doubao.com.
 - Engaged-read winners by section: wire=6, stack=9.
 
@@ -23,9 +23,9 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2773 views · read 5.5% · complete 0.3% · 1 pages/session · median 6s
-- campaign:chatgpt.com: 218 views · read 11.0% · complete 0.0% · 1 pages/session · median ?s
-- organic: 188 views · read 66.5% · complete 2.1% · 1.3 pages/session · median 6s
+- direct: 2772 views · read 5.4% · complete 0.3% · 1 pages/session · median 6s
+- campaign:chatgpt.com: 217 views · read 11.1% · complete 0.0% · 1 pages/session · median ?s
+- organic: 189 views · read 66.1% · complete 2.1% · 1.29 pages/session · median 6s
 - referral: 40 views · read 12.5% · complete 0.0% · 1 pages/session · median ?s
 - ai: 19 views · read 42.1% · complete 0.0% · 0.56 pages/session · median 8s
 - campaign:qwant: 6 views · read 66.7% · complete 0.0% · 3 pages/session · median ?s
@@ -40,11 +40,11 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K" — 9 reads, 16 views, 0 listens
 - [stack] "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One" — 9 reads, 13 views, 0 listens
 - [stack] "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement" — 7 reads, 18 views, 0 listens
-- [stack] "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet" — 7 reads, 8 views, 0 listens
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 6 reads, 20 views, 0 listens
 - [stack] "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem" — 6 reads, 19 views, 0 listens
 - [wire] "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest" — 6 reads, 11 views, 0 listens
 - [wire] "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card" — 6 reads, 9 views, 0 listens
+- [stack] "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet" — 6 reads, 7 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [stack] "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)" — 1 listens, 15 reads
@@ -64,7 +64,7 @@ so what these earn from humans is the other half of the picture.
 - /best/:cat — 54 views, 0 reads, 54 sessions, avg 17s
 - /build — 32 views, 0 reads, 32 sessions
 - /dashboard — 22 views, 2 reads, 11 sessions, avg 35s
-- /compare/:pair — 20 views, 0 reads, 20 sessions, avg 21s
+- /compare/:pair — 21 views, 0 reads, 21 sessions, avg 21s
 - /tools — 18 views, 1 reads, 18 sessions, avg 18s
 - /submit.html — 13 views, 2 reads, 8 sessions, avg 37s
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
@@ -85,7 +85,7 @@ skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 35 views but only 0 engaged reads (0.0%)
 - [wire] "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO" — 31 views but only 0 engaged reads (0.0%)
-- [stack] "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent" — 20 views but only 0 engaged reads (0.0%)
+- [stack] "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent" — 19 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
@@ -162,7 +162,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /build  — 259 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 216 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 216 crawler fetches
-- /posts/how-to-read-an-agent-memory-benchmark.html  — 187 crawler fetches
+- /posts/how-to-read-an-agent-memory-benchmark.html  — 188 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 163 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 131 crawler fetches
 - /posts/serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026.html  — 110 crawler fetches

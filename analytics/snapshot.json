@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-03T04:32:53.946Z",
+ "generated": "2026-10-03T04:43:00.078Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 2,
   "avgTimeSec": 33,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3250,
-  "reads": 318,
+  "views": 3249,
+  "reads": 317,
   "completes": 12,
   "plays": 8,
   "sessions": 3119
@@ -17,21 +17,21 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2773,
-   "reads": 152,
+   "views": 2772,
+   "reads": 151,
    "sessions": 2785
   },
   {
    "channel": "organic",
-   "views": 188,
+   "views": 189,
    "reads": 125,
-   "sessions": 145
+   "sessions": 146
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 218,
+   "views": 217,
    "reads": 24,
-   "sessions": 218
+   "sessions": 217
   },
   {
    "channel": "ai",
@@ -79,35 +79,35 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2773,
-   "reads": 152,
+   "views": 2772,
+   "reads": 151,
    "completes": 8,
    "sessions": 2785,
-   "read_rate": 0.055,
+   "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": 6
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 218,
+   "views": 217,
    "reads": 24,
    "completes": 0,
-   "sessions": 218,
-   "read_rate": 0.11,
+   "sessions": 217,
+   "read_rate": 0.111,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
   {
    "channel": "organic",
-   "views": 188,
+   "views": 189,
    "reads": 125,
    "completes": 4,
-   "sessions": 145,
-   "read_rate": 0.665,
+   "sessions": 146,
+   "read_rate": 0.661,
    "complete_rate": 0.021,
-   "pages_per_session": 1.3,
+   "pages_per_session": 1.29,
    "median_dwell_sec": 6
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 222,
+   "views": 221,
    "reads": 24,
-   "sessions": 220
+   "sessions": 219
   },
   {
    "assistant": "Doubao",
@@ -306,8 +306,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2686,
-   "reads": 296,
+   "views": 2685,
+   "reads": 295,
    "sessions": 2564
   },
   {
@@ -369,16 +369,6 @@
    "plays": 0
   },
   {
-   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
-   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 7,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -415,6 +405,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 9,
+   "reads": 6,
+   "plays": 0
+  },
+  {
+   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
+   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
    "reads": 6,
    "plays": 0
   },
@@ -653,16 +653,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
-   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "best-ai-agents-for-personal-use-september-2026",
    "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
    "section": "stack",
@@ -670,6 +660,16 @@
    "author": "dex",
    "views": 19,
    "reads": 6,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
+   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 19,
+   "reads": 0,
    "plays": 0
   }
  ],
@@ -711,9 +711,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 20,
+   "views": 21,
    "reads": 0,
-   "sessions": 20,
+   "sessions": 21,
    "avg_dwell_sec": 21
   },
   {
@@ -783,8 +783,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 82,
-   "sessions": 45
+   "hits": 83,
+   "sessions": 46
   },
   {
    "ref": "https://mail.google.com/",
