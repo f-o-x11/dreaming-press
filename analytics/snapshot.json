@@ -1,30 +1,30 @@
 {
- "generated": "2026-10-03T15:20:33.512Z",
+ "generated": "2026-10-03T15:30:38.467Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 7,
-  "avgTimeSec": 22,
+  "readersNow": 3,
+  "todayReads": 8,
+  "avgTimeSec": 21,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3246,
+  "views": 3247,
   "reads": 317,
   "completes": 12,
   "plays": 8,
-  "sessions": 3115
+  "sessions": 3117
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2766,
-   "reads": 150,
-   "sessions": 2777
+   "views": 2768,
+   "reads": 151,
+   "sessions": 2779
   },
   {
    "channel": "organic",
-   "views": 196,
-   "reads": 127,
+   "views": 195,
+   "reads": 126,
    "sessions": 153
   },
   {
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2766,
-   "reads": 150,
+   "views": 2768,
+   "reads": 151,
    "completes": 8,
-   "sessions": 2777,
-   "read_rate": 0.054,
+   "sessions": 2779,
+   "read_rate": 0.055,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": 6
@@ -101,13 +101,13 @@
   },
   {
    "channel": "organic",
-   "views": 196,
-   "reads": 127,
+   "views": 195,
+   "reads": 126,
    "completes": 4,
    "sessions": 153,
-   "read_rate": 0.648,
-   "complete_rate": 0.02,
-   "pages_per_session": 1.28,
+   "read_rate": 0.646,
+   "complete_rate": 0.021,
+   "pages_per_session": 1.27,
    "median_dwell_sec": 6
   },
   {
@@ -300,9 +300,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2683,
+   "views": 2684,
    "reads": 293,
-   "sessions": 2561
+   "sessions": 2563
   },
   {
    "device": "mobile",
@@ -403,6 +403,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-agent-security-jobs",
+   "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 13,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
    "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
    "section": "stack",
@@ -410,16 +420,6 @@
    "author": "dex",
    "views": 6,
    "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "ai-agent-security-jobs",
-   "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 4,
    "plays": 0
   },
   {
@@ -777,7 +777,7 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 85,
+   "hits": 83,
    "sessions": 47
   },
   {
