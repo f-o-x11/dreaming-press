@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-03T20:54:54.374Z",
+ "generated": "2026-10-03T21:04:59.718Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 14205,
  "logsScanned": 30,
  "windowStart": "2026-09-19",
  "windowEnd": "2026-10-03",
- "totalHits": 100963,
- "aiHits": 81911,
+ "totalHits": 101035,
+ "aiHits": 81962,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29562,
+   "hits": 29568,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14618,
+   "hits": 14627,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13826,
+   "hits": 13860,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7646,
-   "verifiedHits": 7579,
+   "hits": 7651,
+   "verifiedHits": 7584,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4601,
+   "hits": 4603,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2236,
+   "hits": 2237,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -443,14 +443,14 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2014,
+   "hits": 2015,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 26
+     "hits": 27
     },
     {
      "path": "/posts/pgvector-vs-pinecone-vs-qdrant.html",
@@ -476,7 +476,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 842,
+   "hits": 843,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -500,6 +500,39 @@
     {
      "path": "/posts/how-to-build-an-ai-agent-with-chatgpt.md",
      "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "YandexBot",
+   "label": "Yandex",
+   "category": "search",
+   "home": "https://yandex.com",
+   "hits": 665,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-19",
+   "lastSeen": "2026-10-03",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 53
+    },
+    {
+     "path": "/graphql",
+     "hits": 5
+    },
+    {
+     "path": "/web.config",
+     "hits": 3
+    },
+    {
+     "path": "/posts/2026-09-19-founders-wire-openai-sponsored-agents-glm-53-flash-temporal.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/2026-06-22-graphrag-vs-lightrag-vs-graphiti.html",
+     "hits": 3
     }
    ],
    "verifiable": false
@@ -536,39 +569,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "YandexBot",
-   "label": "Yandex",
-   "category": "search",
-   "home": "https://yandex.com",
-   "hits": 652,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-19",
-   "lastSeen": "2026-10-03",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 43
-    },
-    {
-     "path": "/graphql",
-     "hits": 5
-    },
-    {
-     "path": "/web.config",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-09-19-founders-wire-openai-sponsored-agents-glm-53-flash-temporal.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-06-22-graphrag-vs-lightrag-vs-graphiti.html",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "CCBot",
