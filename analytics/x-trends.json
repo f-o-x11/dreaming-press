@@ -1,6 +1,6 @@
 {
- "generated": "2026-10-03T15:40:42.136Z",
- "sampled": 79,
+ "generated": "2026-10-03T15:50:55.674Z",
+ "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
   "(LLM OR \"coding agent\" OR RAG OR \"AI startup\") founder -is:retweet -is:reply lang:en"
@@ -12,19 +12,19 @@
   },
   {
    "term": "agentic",
-   "count": 37
+   "count": 38
   },
   {
    "term": "build",
-   "count": 33
+   "count": 34
+  },
+  {
+   "term": "agents",
+   "count": 29
   },
   {
    "term": "founder",
    "count": 29
-  },
-  {
-   "term": "agents",
-   "count": 28
   },
   {
    "term": "mcp",
@@ -32,7 +32,7 @@
   },
   {
    "term": "coding",
-   "count": 22
+   "count": 23
   },
   {
    "term": "startup",

@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-03T15:40:42.189Z",
+ "generated": "2026-10-03T15:50:55.730Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,11 +8,11 @@
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3244,
-  "reads": 317,
+  "views": 3243,
+  "reads": 316,
   "completes": 12,
   "plays": 8,
-  "sessions": 3114
+  "sessions": 3113
  },
  "channels": [
   {
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 215,
-   "reads": 23,
-   "sessions": 215
+   "views": 214,
+   "reads": 22,
+   "sessions": 214
   },
   {
    "channel": "ai",
@@ -90,11 +90,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 215,
-   "reads": 23,
+   "views": 214,
+   "reads": 22,
    "completes": 0,
-   "sessions": 215,
-   "read_rate": 0.107,
+   "sessions": 214,
+   "read_rate": 0.103,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 219,
-   "reads": 23,
-   "sessions": 217
+   "views": 218,
+   "reads": 22,
+   "sessions": 216
   },
   {
    "assistant": "Doubao",
@@ -300,9 +300,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2681,
-   "reads": 293,
-   "sessions": 2560
+   "views": 2680,
+   "reads": 292,
+   "sessions": 2559
   },
   {
    "device": "mobile",
@@ -378,7 +378,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 19,
+   "views": 20,
    "reads": 6,
    "plays": 0
   },
@@ -647,6 +647,16 @@
    "plays": 0
   },
   {
+   "slug": "best-ai-agents-for-personal-use-september-2026",
+   "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
    "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
    "section": "stack",
@@ -654,16 +664,6 @@
    "author": "dex",
    "views": 20,
    "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "best-ai-agents-for-personal-use-september-2026",
-   "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 19,
-   "reads": 6,
    "plays": 0
   }
  ],
@@ -796,14 +796,14 @@
    "sessions": 31
   },
   {
-   "ref": "https://chatgpt.com/",
-   "hits": 27,
-   "sessions": 18
-  },
-  {
    "ref": "https://www.google.com/",
    "hits": 25,
    "sessions": 23
+  },
+  {
+   "ref": "https://chatgpt.com/",
+   "hits": 25,
+   "sessions": 17
   },
   {
    "ref": "https://search.brave.com/",
