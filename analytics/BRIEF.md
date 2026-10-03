@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-03T17:31Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-03T17:42Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3249 views → 314 engaged reads → 12 completes · 3120 sessions.
-- Channels: direct 150r/2772v · organic 126r/195v · campaign:chatgpt.com 21r/213v · ai 8r/16v · referral 5r/41v · campaign:qwant 4r/6v · social 0r/4v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3250 views → 314 engaged reads → 12 completes · 3121 sessions.
+- Channels: direct 150r/2773v · organic 126r/195v · campaign:chatgpt.com 21r/213v · ai 8r/16v · referral 5r/41v · campaign:qwant 4r/6v · social 0r/4v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 21r/217v · Doubao 4r/4v · Perplexity 2r/4v · Claude 1r/2v · DeepSeek 0r/1v.
 - Referrers: bing.com, mail.google.com, cn.bing.com, duckduckgo.com, google.com, chatgpt.com, search.brave.com, brand, youtube.com, doubao.com.
 - Engaged-read winners by section: wire=6, stack=9.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2772 views · read 5.4% · complete 0.3% · 1 pages/session · median 6s
+- direct: 2773 views · read 5.4% · complete 0.3% · 1 pages/session · median 6s
 - campaign:chatgpt.com: 213 views · read 9.9% · complete 0.0% · 1 pages/session · median ?s
 - organic: 195 views · read 64.6% · complete 2.1% · 1.27 pages/session · median 6s
 - referral: 41 views · read 12.2% · complete 0.0% · 1 pages/session · median ?s
@@ -51,8 +51,8 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "Cloudflare Agents vs Bedrock AgentCore vs Vercel: Where to Run a Long-Running AI Agent" — 1 listens, 3 reads
 - [wire] "Pi's System Prompt Is Under 1,000 Tokens: The Case Against Heavy Coding-Agent Harnesses" — 1 listens, 3 reads
 - [wire] "The GPT-5.6 Sol Escape Wasn't a Model Problem — It Was the Egress Path You Also Left Open" — 1 listens, 1 reads
-- [stack] "Reducto vs LlamaParse vs Unstructured vs Docling: Which Document Parser Your RAG Pipeline Actually Needs" — 1 listens, 1 reads
 - [wire] "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo" — 1 listens, 1 reads
+- [stack] "Reducto vs LlamaParse vs Unstructured vs Docling: Which Document Parser Your RAG Pipeline Actually Needs" — 1 listens, 1 reads
 - [wire] "Retrieval Metrics for RAG: Recall@k vs MRR vs NDCG (and Which One Actually Matters)" — 1 listens, 1 reads
 - [wire] "Kimi K2.7 vs GLM-5.2 vs DeepSeek V4 vs Qwen3-Coder: The Open-Weight Coding Bracket, Refreshed" — 1 listens, 0 reads
 
@@ -107,7 +107,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - OAI-SearchBot (5266 verified): /wire.html ×53 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×46 · /posts/open-source-llm-for-coding-september-2026.html ×45
-- PerplexityBot (4073 verified): / ×23 · /build ×22 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×21
+- PerplexityBot (4074 verified): / ×23 · /build ×22 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×21
 - ChatGPT-User (2933 verified): / ×593 · /posts/open-source-llm-for-coding-september-2026.html ×163 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×121
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -123,14 +123,14 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agent(46), agentic(38), build(34), agents(29), founder(29), mcp(24), coding(23), startup(19), building(17), engineering(14), memory(13), first(12), claude(12), google(11), people(10).
+Hot terms: agent(45), agentic(37), build(32), agents(29), founder(29), mcp(23), coding(23), startup(19), building(17), engineering(13), memory(12), claude(12), first(11), people(10), google(10).
 Hashtags: #ai, #startup, #founder, #startups, #mcp, #prembly, #datascience, #aiagents, #pymc, #3285.
 High-engagement posts to react to / cite:
-- "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2103900910292472051
 - "🚨 You’re probably using Claude at 10% of its actual potential. Most people stop at: “Claude, write this.” But Claude mastery looks like this: 🧠 Foundation → Prompting + Context + Examples ⚙️ Workflow → Projects + Promp" — https://x.com/i/status/2104060782069862722
 - "Sam Altman (CEO of OpenAI): "I have used GrokBot &amp; Muse, but Dots is a totally different category - a new level of capabilities. At OpenAI, more than 80% of our team are running a swarm of Dots agents to ship, update" — https://x.com/i/status/2105398302673862690
 - "$ORBIO Update It’s been a little over a week since my last post on $ORBIO, so I went back through everything again to see what has actually changed When I wrote about it, ORBIO was sitting around $69–70M MC after running" — https://x.com/i/status/2105583131206303892
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2105928282441240868
+- "Build your personal AI video editor, but not from scratch! I'm seeing more people vibe coding NLEs for their agents. I love this direction. But do yourself a favour: fork Diffusion Studio. We've spent years building it a" — https://x.com/i/status/2104597254585643425
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (259 of 460 phrases have NO post, 78h ago)
@@ -156,13 +156,13 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 14168 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5266, Perplexity 4073, ChatGPT (user browsing) 2933, GPTBot (OpenAI) 1896).
+The real answer engines are crawling us — IP-verified: 14169 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5266, Perplexity 4074, ChatGPT (user browsing) 2933, GPTBot (OpenAI) 1896).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 749 crawler fetches
 - /build  — 265 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 229 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 217 crawler fetches
-- /posts/how-to-read-an-agent-memory-benchmark.html  — 191 crawler fetches
+- /posts/how-to-read-an-agent-memory-benchmark.html  — 192 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 171 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 133 crawler fetches
 - /posts/serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026.html  — 114 crawler fetches

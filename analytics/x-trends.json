@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-03T17:31:57.536Z",
+ "generated": "2026-10-03T17:42:00.413Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,15 +8,15 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 46
+   "count": 45
   },
   {
    "term": "agentic",
-   "count": 38
+   "count": 37
   },
   {
    "term": "build",
-   "count": 34
+   "count": 32
   },
   {
    "term": "agents",
@@ -28,7 +28,7 @@
   },
   {
    "term": "mcp",
-   "count": 24
+   "count": 23
   },
   {
    "term": "coding",
@@ -44,14 +44,10 @@
   },
   {
    "term": "engineering",
-   "count": 14
-  },
-  {
-   "term": "memory",
    "count": 13
   },
   {
-   "term": "first",
+   "term": "memory",
    "count": 12
   },
   {
@@ -59,7 +55,7 @@
    "count": 12
   },
   {
-   "term": "google",
+   "term": "first",
    "count": 11
   },
   {
@@ -67,24 +63,28 @@
    "count": 10
   },
   {
-   "term": "loops",
-   "count": 9
-  },
-  {
-   "term": "api",
-   "count": 9
-  },
-  {
-   "term": "scratch",
-   "count": 8
+   "term": "google",
+   "count": 10
   },
   {
    "term": "code",
    "count": 8
   },
   {
-   "term": "dropped",
+   "term": "loops",
    "count": 8
+  },
+  {
+   "term": "api",
+   "count": 8
+  },
+  {
+   "term": "its",
+   "count": 8
+  },
+  {
+   "term": "scratch",
+   "count": 7
   }
  ],
  "hashtags": [
@@ -139,12 +139,6 @@
  ],
  "topPosts": [
   {
-   "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 1875,
-   "url": "https://x.com/i/status/2103900910292472051",
-   "created": "2026-09-26T17:34:00.000Z"
-  },
-  {
    "text": "🚨 You’re probably using Claude at 10% of its actual potential. Most people stop at: “Claude, write this.” But Claude mastery looks like this: 🧠 Foundation → Prompting + Context + Examples ⚙️ Workflow → Projects + Promp",
    "engagement": 382,
    "url": "https://x.com/i/status/2104060782069862722",
@@ -185,6 +179,12 @@
    "engagement": 116,
    "url": "https://x.com/i/status/2104866276480831719",
    "created": "2026-09-29T09:30:01.000Z"
+  },
+  {
+   "text": "Meet Alon Rozi: The 16-Year-Old Israeli Founder Behind a Multimillion-Dollar AI Startup https://t.co/TB7lqqd1zn",
+   "engagement": 102,
+   "url": "https://x.com/i/status/2104570884195328339",
+   "created": "2026-09-28T13:56:14.000Z"
   }
  ]
 }
