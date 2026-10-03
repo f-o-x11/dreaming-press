@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-03T06:34:14.528Z",
+ "generated": "2026-10-03T06:44:19.580Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13764,
+ "verifiedAiHits": 13770,
  "logsScanned": 30,
  "windowStart": "2026-09-19",
  "windowEnd": "2026-10-03",
- "totalHits": 96068,
- "aiHits": 77662,
+ "totalHits": 96107,
+ "aiHits": 77699,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27667,
+   "hits": 27686,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13992,
+   "hits": 13999,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 12912,
+   "hits": 12913,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7410,
-   "verifiedHits": 7343,
+   "hits": 7412,
+   "verifiedHits": 7345,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
    "topPaths": [
@@ -124,7 +124,7 @@
     },
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 74
+     "hits": 75
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
@@ -146,8 +146,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5158,
-   "verifiedHits": 5043,
+   "hits": 5162,
+   "verifiedHits": 5047,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
    "topPaths": [
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2999,
-   "verifiedHits": 2863,
+   "hits": 3001,
+   "verifiedHits": 2865,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
    "topPaths": [
     {
      "path": "/",
-     "hits": 570
+     "hits": 571
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -311,7 +311,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2796,
+   "hits": 2799,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -344,7 +344,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2634,
+   "hits": 2635,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -363,7 +363,7 @@
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 131
+     "hits": 132
     },
     {
      "path": "/posts/serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026.html",
