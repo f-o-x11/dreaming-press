@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-03T03:32:01.275Z",
+ "generated": "2026-10-03T03:42:06.499Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13705,
+ "verifiedAiHits": 13706,
  "logsScanned": 30,
  "windowStart": "2026-09-19",
  "windowEnd": "2026-10-03",
- "totalHits": 95308,
- "aiHits": 77008,
+ "totalHits": 95369,
+ "aiHits": 77063,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27422,
+   "hits": 27436,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13863,
+   "hits": 13870,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 12734,
+   "hits": 12764,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7363,
-   "verifiedHits": 7296,
+   "hits": 7368,
+   "verifiedHits": 7301,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
    "topPaths": [
@@ -146,14 +146,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5117,
-   "verifiedHits": 5002,
+   "hits": 5118,
+   "verifiedHits": 5003,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
    "topPaths": [
     {
      "path": "/wire.html",
-     "hits": 48
+     "hits": 49
     },
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
@@ -344,7 +344,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2624,
+   "hits": 2625,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2060,
+   "hits": 2061,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -443,10 +443,10 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1996,
+   "hits": 1998,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
-   "lastSeen": "2026-10-02",
+   "lastSeen": "2026-10-03",
    "topPaths": [
     {
      "path": "/build",
