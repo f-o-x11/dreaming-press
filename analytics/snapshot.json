@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-03T15:50:55.730Z",
+ "generated": "2026-10-03T16:01:00.638Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 8,
   "avgTimeSec": 21,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3243,
-  "reads": 316,
+  "views": 3240,
+  "reads": 315,
   "completes": 12,
   "plays": 8,
-  "sessions": 3113
+  "sessions": 3110
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2765,
+   "views": 2763,
    "reads": 151,
-   "sessions": 2776
+   "sessions": 2773
   },
   {
    "channel": "organic",
-   "views": 195,
-   "reads": 126,
-   "sessions": 153
+   "views": 194,
+   "reads": 125,
+   "sessions": 152
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2765,
+   "views": 2763,
    "reads": 151,
    "completes": 8,
-   "sessions": 2776,
+   "sessions": 2773,
    "read_rate": 0.055,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -101,13 +101,13 @@
   },
   {
    "channel": "organic",
-   "views": 195,
-   "reads": 126,
+   "views": 194,
+   "reads": 125,
    "completes": 4,
-   "sessions": 153,
-   "read_rate": 0.646,
+   "sessions": 152,
+   "read_rate": 0.644,
    "complete_rate": 0.021,
-   "pages_per_session": 1.27,
+   "pages_per_session": 1.28,
    "median_dwell_sec": 6
   },
   {
@@ -300,9 +300,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2680,
-   "reads": 292,
-   "sessions": 2559
+   "views": 2677,
+   "reads": 291,
+   "sessions": 2556
   },
   {
    "device": "mobile",
@@ -333,22 +333,22 @@
    "plays": 1
   },
   {
-   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
-   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 10,
-   "plays": 0
-  },
-  {
    "slug": "playwright-mcp-vs-cli-token-cost-browser-agents",
    "title": "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 16,
+   "reads": 9,
+   "plays": 0
+  },
+  {
+   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
+   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 14,
    "reads": 9,
    "plays": 0
   },
@@ -555,13 +555,13 @@
    "plays": 0
   },
   {
-   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
-   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
-   "section": "stack",
+   "slug": "playwright-mcp-vs-cli-token-cost-browser-agents",
+   "title": "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 15,
-   "reads": 10,
+   "views": 16,
+   "reads": 9,
    "plays": 0
   }
  ],
@@ -670,9 +670,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 393,
+   "views": 392,
    "reads": 0,
-   "sessions": 393,
+   "sessions": 392,
    "avg_dwell_sec": 24
   },
   {
@@ -786,14 +786,14 @@
    "sessions": 2
   },
   {
-   "ref": "https://duckduckgo.com/",
-   "hits": 55,
-   "sessions": 27
-  },
-  {
    "ref": "https://cn.bing.com/",
    "hits": 54,
    "sessions": 31
+  },
+  {
+   "ref": "https://duckduckgo.com/",
+   "hits": 53,
+   "sessions": 26
   },
   {
    "ref": "https://www.google.com/",
