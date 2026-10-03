@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-03T20:04Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-03T20:14Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -123,7 +123,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (80 recent posts sampled, 0h ago)
-Hot terms: agent(47), agentic(37), build(32), agents(30), founder(29), coding(24), mcp(23), startup(18), building(17), engineering(13), memory(12), claude(12), first(11), people(10), google(10).
+Hot terms: agent(46), agentic(36), build(31), agents(30), founder(29), coding(24), mcp(22), building(18), startup(18), engineering(13), memory(12), claude(12), first(11), people(10), google(10).
 Hashtags: #ai, #startup, #founder, #startups, #mcp, #prembly, #datascience, #aiagents, #pymc, #3285.
 High-engagement posts to react to / cite:
 - "🚨 You’re probably using Claude at 10% of its actual potential. Most people stop at: “Claude, write this.” But Claude mastery looks like this: 🧠 Foundation → Prompting + Context + Examples ⚙️ Workflow → Projects + Promp" — https://x.com/i/status/2104060782069862722
@@ -133,7 +133,7 @@ High-engagement posts to react to / cite:
 - "Build your personal AI video editor, but not from scratch! I'm seeing more people vibe coding NLEs for their agents. I love this direction. But do yourself a favour: fork Diffusion Studio. We've spent years building it a" — https://x.com/i/status/2104597254585643425
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (259 of 460 phrases have NO post, 80h ago)
+## Uncovered search demand (259 of 460 phrases have NO post, 81h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -160,7 +160,7 @@ The real answer engines are crawling us — IP-verified: 14202 confirmed AI-engi
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 754 crawler fetches
 - /build  — 270 crawler fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 230 crawler fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 231 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 217 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 194 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 171 crawler fetches
