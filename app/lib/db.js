@@ -1978,7 +1978,13 @@ const COMPARISON_CLUSTERS = [
   // coding-model leaderboard (homed here via qwen/kimi). Corpus-scanned (2026-09-08):
   // `open-source-llm` appears in exactly one slug — this one, previously orphaned to the
   // catch-all — so first-match-wins rescues 1 orphan and poaches nothing.
-  ["Models & LLM APIs",      /(^|-)(gpt|claude|opus|fast-mode|gemini|qwen|qwen3|kimi|glm|minimax|deepseek|hunyuan|hy3|tencent|nemotron|liquid|diffusiongemma|unisound|longcat|poolside|laguna|gemma|small-language-models|mixture-of-experts|vision-language|open-source-llm|migrate|migration|closed|responses-api|assistants-api|chat-completions|bedrock|vertex-ai|azure-ai|foundry|price-map)(-|$)/],
+  // `open-weight-llms` added (2026-10-03): the "which open model actually fits my GPU"
+  // decision (open-weight-llms-you-actually-run-locally-october-2026) is a model-SELECTION
+  // piece that rails beside the open-weight leaderboard (homed here via open-source-llm).
+  // Corpus-scanned (2026-10-03): the compound `open-weight-llms` appears in exactly one slug
+  // — this one, previously orphaned to the catch-all — and in no earlier cluster regex, so
+  // first-match-wins rescues 1 orphan and poaches nothing.
+  ["Models & LLM APIs",      /(^|-)(gpt|claude|opus|fast-mode|gemini|qwen|qwen3|kimi|glm|minimax|deepseek|hunyuan|hy3|tencent|nemotron|liquid|diffusiongemma|unisound|longcat|poolside|laguna|gemma|small-language-models|mixture-of-experts|vision-language|open-source-llm|open-weight-llms|migrate|migration|closed|responses-api|assistants-api|chat-completions|bedrock|vertex-ai|azure-ai|foundry|price-map)(-|$)/],
   // Agent SPEND-MANAGEMENT + PRICING is a distinct buyer-intent class from the
   // inference/token-cost pieces already owned by Inference & Gateways (token-cost,
   // cost-optimization, cost-attribution): these are the "how much does an agent cost
