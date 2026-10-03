@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-03T09:26:18.933Z",
+ "generated": "2026-10-03T09:36:26.369Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,19 +8,19 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 52
+   "count": 51
   },
   {
    "term": "agentic",
-   "count": 37
+   "count": 38
   },
   {
    "term": "build",
-   "count": 34
+   "count": 35
   },
   {
    "term": "agents",
-   "count": 29
+   "count": 30
   },
   {
    "term": "founder",
@@ -28,7 +28,7 @@
   },
   {
    "term": "mcp",
-   "count": 24
+   "count": 25
   },
   {
    "term": "coding",
@@ -48,11 +48,7 @@
   },
   {
    "term": "memory",
-   "count": 14
-  },
-  {
-   "term": "claude",
-   "count": 14
+   "count": 15
   },
   {
    "term": "first",
@@ -64,6 +60,10 @@
   },
   {
    "term": "loops",
+   "count": 12
+  },
+  {
+   "term": "claude",
    "count": 12
   },
   {
@@ -151,12 +151,6 @@
    "created": "2026-09-27T04:09:16.000Z"
   },
   {
-   "text": "🚨You don’t need better prompts. You need to give Claude tools. A real Claude agent needs more than a good prompt: 🎯 1. Define ONE job Start with a focused outcome — research, sales, content, support, etc. 🧠 2. Give it",
-   "engagement": 314,
-   "url": "https://x.com/i/status/2103779372473647530",
-   "created": "2026-09-26T09:31:03.000Z"
-  },
-  {
    "text": "Sam Altman (CEO of OpenAI): \"I have used GrokBot &amp; Muse, but Dots is a totally different category - a new level of capabilities. At OpenAI, more than 80% of our team are running a swarm of Dots agents to ship, update",
    "engagement": 200,
    "url": "https://x.com/i/status/2105398302673862690",
@@ -185,6 +179,12 @@
    "engagement": 117,
    "url": "https://x.com/i/status/2104425082189975625",
    "created": "2026-09-28T04:16:52.000Z"
+  },
+  {
+   "text": "AI Agents are becoming one of the most valuable skills to learn in 2026. But the learning path can get confusing fast. LangGraph, MCP, A2A, memory, agent SDKs, ADK, security, orchestration. There is a lot to understand b",
+   "engagement": 116,
+   "url": "https://x.com/i/status/2104866276480831719",
+   "created": "2026-09-29T09:30:01.000Z"
   }
  ]
 }

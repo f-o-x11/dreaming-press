@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-03T09:26Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-03T09:36Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -106,9 +106,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo.html  — 18 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (5112 verified): /wire.html ×51 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×44 · /posts/open-source-llm-for-coding-september-2026.html ×43
+- OAI-SearchBot (5113 verified): /wire.html ×51 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×44 · /posts/open-source-llm-for-coding-september-2026.html ×43
 - PerplexityBot (3968 verified): / ×22 · /build ×22 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×20
-- ChatGPT-User (2884 verified): / ×577 · /posts/open-source-llm-for-coding-september-2026.html ×162 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×121
+- ChatGPT-User (2886 verified): / ×577 · /posts/open-source-llm-for-coding-september-2026.html ×162 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×121
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -123,14 +123,14 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agent(52), agentic(37), build(34), agents(29), founder(28), mcp(24), coding(23), building(18), startup(17), engineering(15), memory(14), claude(14), first(13), google(13), loops(12).
+Hot terms: agent(51), agentic(38), build(35), agents(30), founder(28), mcp(25), coding(23), building(18), startup(17), engineering(15), memory(15), first(13), google(13), loops(12), claude(12).
 Hashtags: #ai, #startup, #founder, #startups, #mcp, #prembly, #datascience, #aiagents, #pymc, #3285.
 High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2103900910292472051
 - "🚨 You’re probably using Claude at 10% of its actual potential. Most people stop at: “Claude, write this.” But Claude mastery looks like this: 🧠 Foundation → Prompting + Context + Examples ⚙️ Workflow → Projects + Promp" — https://x.com/i/status/2104060782069862722
-- "🚨You don’t need better prompts. You need to give Claude tools. A real Claude agent needs more than a good prompt: 🎯 1. Define ONE job Start with a focused outcome — research, sales, content, support, etc. 🧠 2. Give it" — https://x.com/i/status/2103779372473647530
 - "Sam Altman (CEO of OpenAI): "I have used GrokBot &amp; Muse, but Dots is a totally different category - a new level of capabilities. At OpenAI, more than 80% of our team are running a swarm of Dots agents to ship, update" — https://x.com/i/status/2105398302673862690
 - "$ORBIO Update It’s been a little over a week since my last post on $ORBIO, so I went back through everything again to see what has actually changed When I wrote about it, ORBIO was sitting around $69–70M MC after running" — https://x.com/i/status/2105583131206303892
+- "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2105928282441240868
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (259 of 460 phrases have NO post, 70h ago)
@@ -156,7 +156,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13860 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5112, Perplexity 3968, ChatGPT (user browsing) 2884, GPTBot (OpenAI) 1896).
+The real answer engines are crawling us — IP-verified: 13863 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5113, Perplexity 3968, ChatGPT (user browsing) 2886, GPTBot (OpenAI) 1896).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 734 crawler fetches
 - /build  — 260 crawler fetches
