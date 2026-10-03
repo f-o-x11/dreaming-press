@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-03T15:30:38.417Z",
+ "generated": "2026-10-03T15:40:42.136Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,27 +8,27 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 49
+   "count": 46
   },
   {
    "term": "agentic",
-   "count": 38
+   "count": 37
   },
   {
    "term": "build",
-   "count": 34
-  },
-  {
-   "term": "agents",
-   "count": 29
+   "count": 33
   },
   {
    "term": "founder",
    "count": 29
   },
   {
+   "term": "agents",
+   "count": 28
+  },
+  {
    "term": "mcp",
-   "count": 25
+   "count": 24
   },
   {
    "term": "coding",
@@ -44,22 +44,14 @@
   },
   {
    "term": "engineering",
-   "count": 15
+   "count": 14
   },
   {
    "term": "memory",
-   "count": 15
-  },
-  {
-   "term": "first",
    "count": 13
   },
   {
-   "term": "google",
-   "count": 12
-  },
-  {
-   "term": "loops",
+   "term": "first",
    "count": 12
   },
   {
@@ -67,24 +59,32 @@
    "count": 12
   },
   {
+   "term": "google",
+   "count": 11
+  },
+  {
    "term": "people",
    "count": 10
   },
   {
-   "term": "dropped",
-   "count": 9
-  },
-  {
-   "term": "1-hour",
-   "count": 9
-  },
-  {
-   "term": "course",
+   "term": "loops",
    "count": 9
   },
   {
    "term": "api",
    "count": 9
+  },
+  {
+   "term": "scratch",
+   "count": 8
+  },
+  {
+   "term": "code",
+   "count": 8
+  },
+  {
+   "term": "dropped",
+   "count": 8
   }
  ],
  "hashtags": [
