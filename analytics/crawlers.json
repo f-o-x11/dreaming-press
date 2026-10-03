@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-03T11:37:48.072Z",
+ "generated": "2026-10-03T11:47:54.969Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13950,
+ "verifiedAiHits": 13959,
  "logsScanned": 30,
  "windowStart": "2026-09-19",
  "windowEnd": "2026-10-03",
- "totalHits": 97401,
- "aiHits": 78806,
+ "totalHits": 97497,
+ "aiHits": 78890,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28171,
+   "hits": 28184,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14202,
+   "hits": 14209,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13088,
+   "hits": 13121,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7493,
-   "verifiedHits": 7426,
+   "hits": 7494,
+   "verifiedHits": 7427,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5285,
-   "verifiedHits": 5170,
+   "hits": 5293,
+   "verifiedHits": 5178,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
    "topPaths": [
@@ -169,7 +169,7 @@
     },
     {
      "path": "/posts/2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe.html",
-     "hits": 32
+     "hits": 33
     }
    ],
    "verifiable": true
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4495,
+   "hits": 4497,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3203,
+   "hits": 3211,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3033,
-   "verifiedHits": 2896,
+   "hits": 3034,
+   "verifiedHits": 2897,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2834,
+   "hits": 2854,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -344,14 +344,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2659,
+   "hits": 2661,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 505
+     "hits": 506
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
@@ -505,6 +505,39 @@
    "verifiable": false
   },
   {
+   "name": "Googlebot",
+   "label": "Googlebot",
+   "category": "search",
+   "home": "https://developers.google.com/search",
+   "hits": 644,
+   "verifiedHits": 498,
+   "firstSeen": "2026-09-19",
+   "lastSeen": "2026-10-03",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 15
+    },
+    {
+     "path": "/dashboard",
+     "hits": 5
+    },
+    {
+     "path": "/dashboard%2F.env",
+     "hits": 3
+    },
+    {
+     "path": "/serverless.yml",
+     "hits": 3
+    },
+    {
+     "path": "/posts/how-to-roll-back-an-ai-agents-actions.html",
+     "hits": 3
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "YandexBot",
    "label": "Yandex",
    "category": "search",
@@ -536,39 +569,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "Googlebot",
-   "label": "Googlebot",
-   "category": "search",
-   "home": "https://developers.google.com/search",
-   "hits": 643,
-   "verifiedHits": 497,
-   "firstSeen": "2026-09-19",
-   "lastSeen": "2026-10-03",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 15
-    },
-    {
-     "path": "/dashboard",
-     "hits": 5
-    },
-    {
-     "path": "/dashboard%2F.env",
-     "hits": 3
-    },
-    {
-     "path": "/serverless.yml",
-     "hits": 3
-    },
-    {
-     "path": "/posts/how-to-roll-back-an-ai-agents-actions.html",
-     "hits": 3
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "CCBot",
