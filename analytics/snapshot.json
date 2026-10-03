@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-03T18:43:06.085Z",
+ "generated": "2026-10-03T18:53:06.246Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 9,
+  "readersNow": 3,
+  "todayReads": 11,
   "avgTimeSec": 27,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3247,
-  "reads": 313,
+  "views": 3249,
+  "reads": 315,
   "completes": 12,
   "plays": 8,
-  "sessions": 3118
+  "sessions": 3120
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2771,
-   "reads": 150,
-   "sessions": 2783
+   "views": 2772,
+   "reads": 151,
+   "sessions": 2784
   },
   {
    "channel": "organic",
-   "views": 194,
-   "reads": 125,
-   "sessions": 152
+   "views": 195,
+   "reads": 126,
+   "sessions": 153
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2771,
-   "reads": 150,
+   "views": 2772,
+   "reads": 151,
    "completes": 8,
-   "sessions": 2783,
+   "sessions": 2784,
    "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -101,13 +101,13 @@
   },
   {
    "channel": "organic",
-   "views": 194,
-   "reads": 125,
+   "views": 195,
+   "reads": 126,
    "completes": 4,
-   "sessions": 152,
-   "read_rate": 0.644,
+   "sessions": 153,
+   "read_rate": 0.646,
    "complete_rate": 0.021,
-   "pages_per_session": 1.28,
+   "pages_per_session": 1.27,
    "median_dwell_sec": 6
   },
   {
@@ -300,9 +300,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2686,
-   "reads": 289,
-   "sessions": 2566
+   "views": 2688,
+   "reads": 291,
+   "sessions": 2568
   },
   {
    "device": "mobile",
@@ -423,6 +423,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
+   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 12,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "2026-07-11-typescript-7-go-native-compiler-ships",
    "title": "TypeScript 7.0 Ships the Go Rewrite: 10x Builds Land, but Your Framework Waits for 7.1",
    "section": "wire",
@@ -449,16 +459,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 6,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
-   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 4,
    "reads": 4,
    "plays": 0
   }
@@ -807,8 +807,8 @@
   },
   {
    "ref": "https://search.brave.com/",
-   "hits": 21,
-   "sessions": 11
+   "hits": 23,
+   "sessions": 12
   },
   {
    "ref": "brand",
