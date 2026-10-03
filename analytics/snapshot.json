@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-03T08:55:49.801Z",
+ "generated": "2026-10-03T09:06:00.203Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 6,
   "todayReads": 2,
-  "avgTimeSec": 30,
+  "avgTimeSec": 27,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3237,
+  "views": 3244,
   "reads": 314,
   "completes": 12,
   "plays": 8,
-  "sessions": 3107
+  "sessions": 3114
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2764,
+   "views": 2765,
    "reads": 148,
-   "sessions": 2777
+   "sessions": 2778
   },
   {
    "channel": "organic",
-   "views": 189,
+   "views": 194,
    "reads": 125,
-   "sessions": 146
+   "sessions": 151
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 40,
+   "views": 41,
    "reads": 5,
-   "sessions": 40
+   "sessions": 41
   },
   {
    "channel": "campaign:qwant",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2764,
+   "views": 2765,
    "reads": 148,
    "completes": 8,
-   "sessions": 2777,
+   "sessions": 2778,
    "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -101,22 +101,22 @@
   },
   {
    "channel": "organic",
-   "views": 189,
+   "views": 194,
    "reads": 125,
    "completes": 4,
-   "sessions": 146,
-   "read_rate": 0.661,
+   "sessions": 151,
+   "read_rate": 0.644,
    "complete_rate": 0.021,
-   "pages_per_session": 1.29,
+   "pages_per_session": 1.28,
    "median_dwell_sec": 6
   },
   {
    "channel": "referral",
-   "views": 40,
+   "views": 41,
    "reads": 5,
    "completes": 0,
-   "sessions": 40,
-   "read_rate": 0.125,
+   "sessions": 41,
+   "read_rate": 0.122,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -300,9 +300,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2673,
+   "views": 2680,
    "reads": 292,
-   "sessions": 2552
+   "sessions": 2559
   },
   {
    "device": "mobile",
@@ -607,6 +607,16 @@
    "plays": 0
   },
   {
+   "slug": "firecracker-vs-gvisor-vs-kata-agent-sandbox-isolation",
+   "title": "Firecracker vs gVisor vs Kata: Isolating AI Agent Code Execution",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 24,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "vertical-ai-agents-legal-health-finance-where-2026-funding-is-going",
    "title": "Where 2026's Vertical-AI Money Actually Went: Legal Took the Cash, Healthcare Took the Deals",
    "section": "wire",
@@ -654,16 +664,6 @@
    "author": "dex",
    "views": 19,
    "reads": 6,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
-   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 19,
-   "reads": 0,
    "plays": 0
   }
  ],
@@ -801,14 +801,14 @@
    "sessions": 18
   },
   {
+   "ref": "https://www.google.com/",
+   "hits": 25,
+   "sessions": 23
+  },
+  {
    "ref": "https://search.brave.com/",
    "hits": 23,
    "sessions": 12
-  },
-  {
-   "ref": "https://www.google.com/",
-   "hits": 20,
-   "sessions": 18
   },
   {
    "ref": "brand",
