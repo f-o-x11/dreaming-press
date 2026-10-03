@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-03T13:18:59.670Z",
+ "generated": "2026-10-03T13:29:00.355Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14013,
+ "verifiedAiHits": 14021,
  "logsScanned": 30,
  "windowStart": "2026-09-19",
  "windowEnd": "2026-10-03",
- "totalHits": 98643,
- "aiHits": 79985,
+ "totalHits": 98726,
+ "aiHits": 80043,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28952,
+   "hits": 28959,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14275,
+   "hits": 14282,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13300,
+   "hits": 13332,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7514,
-   "verifiedHits": 7447,
+   "hits": 7519,
+   "verifiedHits": 7452,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5336,
-   "verifiedHits": 5221,
+   "hits": 5342,
+   "verifiedHits": 5227,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3211,
+   "hits": 3229,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3043,
-   "verifiedHits": 2906,
+   "hits": 3045,
+   "verifiedHits": 2908,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
    "topPaths": [
     {
      "path": "/",
-     "hits": 584
+     "hits": 585
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -311,7 +311,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2864,
+   "hits": 2867,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -344,7 +344,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2668,
+   "hits": 2669,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -505,6 +505,39 @@
    "verifiable": false
   },
   {
+   "name": "YandexBot",
+   "label": "Yandex",
+   "category": "search",
+   "home": "https://yandex.com",
+   "hits": 648,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-19",
+   "lastSeen": "2026-10-03",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 43
+    },
+    {
+     "path": "/graphql",
+     "hits": 5
+    },
+    {
+     "path": "/web.config",
+     "hits": 3
+    },
+    {
+     "path": "/posts/2026-09-19-founders-wire-openai-sponsored-agents-glm-53-flash-temporal.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/2026-06-22-graphrag-vs-lightrag-vs-graphiti.html",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Googlebot",
    "label": "Googlebot",
    "category": "search",
@@ -536,39 +569,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "YandexBot",
-   "label": "Yandex",
-   "category": "search",
-   "home": "https://yandex.com",
-   "hits": 646,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-19",
-   "lastSeen": "2026-10-03",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 43
-    },
-    {
-     "path": "/graphql",
-     "hits": 5
-    },
-    {
-     "path": "/web.config",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-09-19-founders-wire-openai-sponsored-agents-glm-53-flash-temporal.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-06-22-graphrag-vs-lightrag-vs-graphiti.html",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "CCBot",
