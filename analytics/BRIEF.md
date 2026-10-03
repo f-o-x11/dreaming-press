@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-03T22:05Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-03T22:15Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -133,7 +133,7 @@ High-engagement posts to react to / cite:
 - "Build your personal AI video editor, but not from scratch! I'm seeing more people vibe coding NLEs for their agents. I love this direction. But do yourself a favour: fork Diffusion Studio. We've spent years building it a" — https://x.com/i/status/2104597254585643425
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (259 of 460 phrases have NO post, 82h ago)
+## Uncovered search demand (259 of 460 phrases have NO post, 83h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
