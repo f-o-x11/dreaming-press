@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-03T21:15:05.418Z",
+ "generated": "2026-10-03T21:25:22.128Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14206,
+ "verifiedAiHits": 14208,
  "logsScanned": 30,
  "windowStart": "2026-09-19",
  "windowEnd": "2026-10-03",
- "totalHits": 101055,
- "aiHits": 81974,
+ "totalHits": 101086,
+ "aiHits": 81996,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29570,
+   "hits": 29575,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14634,
+   "hits": 14643,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7656,
-   "verifiedHits": 7589,
+   "hits": 7660,
+   "verifiedHits": 7593,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5390,
-   "verifiedHits": 5275,
+   "hits": 5391,
+   "verifiedHits": 5276,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3089,
-   "verifiedHits": 2952,
+   "hits": 3090,
+   "verifiedHits": 2953,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2709,
+   "hits": 2710,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2239,
+   "hits": 2244,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -443,7 +443,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2016,
+   "hits": 2021,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -451,6 +451,10 @@
     {
      "path": "/build",
      "hits": 27
+    },
+    {
+     "path": "/posts/microsoft-mai-cyber-1-flash-agentic-security-what-founders-do.html",
+     "hits": 2
     },
     {
      "path": "/posts/pgvector-vs-pinecone-vs-qdrant.html",
@@ -462,10 +466,6 @@
     },
     {
      "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/gemini-3-5-flash-cyber-restricted-security-model-founders.html",
      "hits": 2
     }
    ],
