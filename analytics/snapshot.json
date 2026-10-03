@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-03T03:11:57.001Z",
+ "generated": "2026-10-03T03:22:00.243Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 2,
   "todayReads": 2,
   "avgTimeSec": 36,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3266,
+  "views": 3264,
   "reads": 319,
   "completes": 12,
   "plays": 8,
-  "sessions": 3134
+  "sessions": 3132
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2787,
+   "views": 2786,
    "reads": 153,
-   "sessions": 2799
+   "sessions": 2797
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 20,
+   "views": 19,
    "reads": 8,
-   "sessions": 35
+   "sessions": 34
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2787,
+   "views": 2786,
    "reads": 153,
    "completes": 8,
-   "sessions": 2799,
+   "sessions": 2797,
    "read_rate": 0.055,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 20,
+   "views": 19,
    "reads": 8,
    "completes": 0,
-   "sessions": 35,
-   "read_rate": 0.4,
+   "sessions": 34,
+   "read_rate": 0.421,
    "complete_rate": 0,
-   "pages_per_session": 0.57,
+   "pages_per_session": 0.56,
    "median_dwell_sec": 8
   },
   {
@@ -274,9 +274,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 5,
+   "views": 4,
    "reads": 4,
-   "sessions": 4
+   "sessions": 3
   },
   {
    "assistant": "Perplexity",
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2697,
+   "views": 2695,
    "reads": 297,
-   "sessions": 2574
+   "sessions": 2572
   },
   {
    "device": "mobile",
@@ -454,7 +454,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 8,
+   "views": 7,
    "reads": 4,
    "plays": 0
   },
@@ -828,8 +828,8 @@
   },
   {
    "ref": "https://www.doubao.com/",
-   "hits": 9,
-   "sessions": 4
+   "hits": 8,
+   "sessions": 3
   }
  ]
 }

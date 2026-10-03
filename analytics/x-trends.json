@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-03T03:11:56.940Z",
+ "generated": "2026-10-03T03:22:00.187Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -36,7 +36,7 @@
   },
   {
    "term": "startup",
-   "count": 18
+   "count": 17
   },
   {
    "term": "building",
@@ -51,6 +51,10 @@
    "count": 14
   },
   {
+   "term": "claude",
+   "count": 14
+  },
+  {
    "term": "first",
    "count": 13
   },
@@ -59,15 +63,15 @@
    "count": 13
   },
   {
-   "term": "claude",
-   "count": 13
-  },
-  {
    "term": "loops",
    "count": 12
   },
   {
    "term": "people",
+   "count": 10
+  },
+  {
+   "term": "code",
    "count": 9
   },
   {
@@ -81,10 +85,6 @@
   {
    "term": "course",
    "count": 9
-  },
-  {
-   "term": "scratch",
-   "count": 8
   }
  ],
  "hashtags": [
@@ -129,11 +129,11 @@
    "count": 1
   },
   {
-   "term": "#saas",
+   "term": "#3285",
    "count": 1
   },
   {
-   "term": "#business",
+   "term": "#saas",
    "count": 1
   }
  ],
