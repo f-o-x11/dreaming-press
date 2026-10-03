@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-03T17:01Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-03T17:11Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3238 views → 314 engaged reads → 12 completes · 3109 sessions.
-- Channels: direct 150r/2761v · organic 125r/194v · campaign:chatgpt.com 22r/214v · ai 8r/16v · referral 5r/41v · campaign:qwant 4r/6v · social 0r/4v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
+- Funnel: 3253 views → 315 engaged reads → 12 completes · 3124 sessions.
+- Channels: direct 150r/2775v · organic 126r/195v · campaign:chatgpt.com 22r/214v · ai 8r/16v · referral 5r/41v · campaign:qwant 4r/6v · social 0r/4v · campaign:perplexity 0r/1v · campaign:producthunt/ 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 22r/218v · Doubao 4r/4v · Perplexity 2r/4v · Claude 1r/2v · DeepSeek 0r/1v.
 - Referrers: bing.com, mail.google.com, cn.bing.com, duckduckgo.com, google.com, chatgpt.com, search.brave.com, brand, youtube.com, doubao.com.
 - Engaged-read winners by section: wire=6, stack=9.
@@ -23,9 +23,9 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2761 views · read 5.4% · complete 0.3% · 1 pages/session · median 6s
+- direct: 2775 views · read 5.4% · complete 0.3% · 1 pages/session · median 6s
 - campaign:chatgpt.com: 214 views · read 10.3% · complete 0.0% · 1 pages/session · median ?s
-- organic: 194 views · read 64.4% · complete 2.1% · 1.28 pages/session · median 6s
+- organic: 195 views · read 64.6% · complete 2.1% · 1.27 pages/session · median 6s
 - referral: 41 views · read 12.2% · complete 0.0% · 1 pages/session · median ?s
 - ai: 16 views · read 50.0% · complete 0.0% · 0.52 pages/session · median 8s
 - campaign:qwant: 6 views · read 66.7% · complete 0.0% · 3 pages/session · median ?s
@@ -62,9 +62,9 @@ so what these earn from humans is the other half of the picture.
 - /stack/:tool — 392 views, 0 reads, 392 sessions, avg 24s
 - / — 124 views, 3 reads, 124 sessions, avg 12s
 - /best/:cat — 54 views, 0 reads, 54 sessions, avg 17s
+- /compare/:pair — 35 views, 0 reads, 35 sessions, avg 21s
 - /build — 32 views, 0 reads, 32 sessions
 - /dashboard — 22 views, 2 reads, 11 sessions, avg 35s
-- /compare/:pair — 21 views, 0 reads, 21 sessions, avg 21s
 - /tools — 17 views, 1 reads, 17 sessions, avg 18s
 - /submit.html — 13 views, 2 reads, 8 sessions, avg 37s
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
