@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-03T10:06Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-03T10:16Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -106,7 +106,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo.html  — 18 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (5133 verified): /wire.html ×52 · /posts/open-source-llm-for-coding-september-2026.html ×44 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×44
+- OAI-SearchBot (5134 verified): /wire.html ×52 · /posts/open-source-llm-for-coding-september-2026.html ×44 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×44
 - PerplexityBot (3968 verified): / ×22 · /build ×22 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×20
 - ChatGPT-User (2888 verified): / ×578 · /posts/open-source-llm-for-coding-september-2026.html ×162 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×121
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -133,7 +133,7 @@ High-engagement posts to react to / cite:
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2105928282441240868
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (259 of 460 phrases have NO post, 70h ago)
+## Uncovered search demand (259 of 460 phrases have NO post, 71h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -156,10 +156,10 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13885 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5133, Perplexity 3968, ChatGPT (user browsing) 2888, GPTBot (OpenAI) 1896).
+The real answer engines are crawling us — IP-verified: 13886 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5134, Perplexity 3968, ChatGPT (user browsing) 2888, GPTBot (OpenAI) 1896).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 735 crawler fetches
-- /build  — 260 crawler fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 736 crawler fetches
+- /build  — 261 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 223 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 217 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 189 crawler fetches
