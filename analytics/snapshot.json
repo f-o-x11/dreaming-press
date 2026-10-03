@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-03T02:51:36.434Z",
+ "generated": "2026-10-03T03:01:37.929Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,18 +8,18 @@
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3267,
-  "reads": 320,
+  "views": 3263,
+  "reads": 318,
   "completes": 11,
   "plays": 8,
-  "sessions": 3134
+  "sessions": 3131
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2787,
-   "reads": 153,
-   "sessions": 2799
+   "views": 2784,
+   "reads": 152,
+   "sessions": 2796
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 21,
-   "reads": 9,
-   "sessions": 36
+   "views": 20,
+   "reads": 8,
+   "sessions": 35
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2787,
-   "reads": 153,
+   "views": 2784,
+   "reads": 152,
    "completes": 7,
-   "sessions": 2799,
+   "sessions": 2796,
    "read_rate": 0.055,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 21,
-   "reads": 9,
+   "views": 20,
+   "reads": 8,
    "completes": 0,
-   "sessions": 36,
-   "read_rate": 0.429,
+   "sessions": 35,
+   "read_rate": 0.4,
    "complete_rate": 0,
-   "pages_per_session": 0.58,
+   "pages_per_session": 0.57,
    "median_dwell_sec": 8
   },
   {
@@ -274,9 +274,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 6,
-   "reads": 5,
-   "sessions": 5
+   "views": 5,
+   "reads": 4,
+   "sessions": 4
   },
   {
    "assistant": "Perplexity",
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2697,
-   "reads": 298,
-   "sessions": 2573
+   "views": 2694,
+   "reads": 296,
+   "sessions": 2571
   },
   {
    "device": "mobile",
-   "views": 570,
+   "views": 569,
    "reads": 22,
-   "sessions": 561
+   "sessions": 560
   }
  ],
  "topContent": [
@@ -399,16 +399,6 @@
    "plays": 0
   },
   {
-   "slug": "vllm-v0-24-model-runner-v2-rust-frontend",
-   "title": "vLLM v0.24 Makes Model Runner V2 the Default. The Win Isn't a Faster Kernel — It's Never Waiting on the CPU.",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 6,
-   "plays": 0
-  },
-  {
    "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
    "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
    "section": "wire",
@@ -443,6 +433,16 @@
    "title": "Lightpanda vs Playwright vs Browserless: Picking a Headless Browser for AI Agents",
    "section": "stack",
    "tags": "[\"how-to\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "vllm-v0-24-model-runner-v2-rust-frontend",
+   "title": "vLLM v0.24 Makes Model Runner V2 the Default. The Win Isn't a Faster Kernel — It's Never Waiting on the CPU.",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 8,
    "reads": 4,
@@ -817,11 +817,6 @@
    "sessions": 18
   },
   {
-   "ref": "https://www.doubao.com/",
-   "hits": 11,
-   "sessions": 5
-  },
-  {
    "ref": "brand",
    "hits": 11,
    "sessions": 9
@@ -830,6 +825,11 @@
    "ref": "https://www.youtube.com/",
    "hits": 10,
    "sessions": 10
+  },
+  {
+   "ref": "https://www.doubao.com/",
+   "hits": 9,
+   "sessions": 4
   }
  ]
 }
