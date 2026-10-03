@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-03T19:43:40.331Z",
+ "generated": "2026-10-03T19:54:00.571Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 11,
+  "readersNow": 3,
+  "todayReads": 12,
   "avgTimeSec": 27,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3246,
-  "reads": 315,
+  "views": 3249,
+  "reads": 316,
   "completes": 12,
   "plays": 8,
-  "sessions": 3117
+  "sessions": 3119
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2769,
-   "reads": 151,
-   "sessions": 2781
+   "views": 2772,
+   "reads": 152,
+   "sessions": 2783
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2769,
-   "reads": 151,
+   "views": 2772,
+   "reads": 152,
    "completes": 8,
-   "sessions": 2781,
+   "sessions": 2783,
    "read_rate": 0.055,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -300,9 +300,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2685,
-   "reads": 291,
-   "sessions": 2565
+   "views": 2688,
+   "reads": 292,
+   "sessions": 2567
   },
   {
    "device": "mobile",
@@ -413,6 +413,16 @@
    "plays": 0
   },
   {
+   "slug": "lightpanda-vs-playwright-vs-browserless-headless-browser-ai-agents",
+   "title": "Lightpanda vs Playwright vs Browserless: Picking a Headless Browser for AI Agents",
+   "section": "stack",
+   "tags": "[\"how-to\",\"opinionated\"]",
+   "author": "dex",
+   "views": 9,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
    "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
    "section": "stack",
@@ -437,16 +447,6 @@
    "title": "TypeScript 7.0 Ships the Go Rewrite: 10x Builds Land, but Your Framework Waits for 7.1",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "lightpanda-vs-playwright-vs-browserless-headless-browser-ai-agents",
-   "title": "Lightpanda vs Playwright vs Browserless: Picking a Headless Browser for AI Agents",
-   "section": "stack",
-   "tags": "[\"how-to\",\"opinionated\"]",
    "author": "dex",
    "views": 8,
    "reads": 4,
