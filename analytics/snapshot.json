@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-03T03:22:00.243Z",
+ "generated": "2026-10-03T03:32:01.859Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 0,
   "todayReads": 2,
   "avgTimeSec": 36,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3264,
-  "reads": 319,
+  "views": 3262,
+  "reads": 318,
   "completes": 12,
   "plays": 8,
-  "sessions": 3132
+  "sessions": 3131
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2786,
-   "reads": 153,
-   "sessions": 2797
+   "views": 2784,
+   "reads": 152,
+   "sessions": 2796
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2786,
-   "reads": 153,
+   "views": 2784,
+   "reads": 152,
    "completes": 8,
-   "sessions": 2797,
+   "sessions": 2796,
    "read_rate": 0.055,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2695,
-   "reads": 297,
-   "sessions": 2572
+   "views": 2693,
+   "reads": 296,
+   "sessions": 2571
   },
   {
    "device": "mobile",
@@ -449,22 +449,22 @@
    "plays": 0
   },
   {
-   "slug": "vllm-v0-24-model-runner-v2-rust-frontend",
-   "title": "vLLM v0.24 Makes Model Runner V2 the Default. The Win Isn't a Faster Kernel — It's Never Waiting on the CPU.",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 7,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "how-to-cap-runaway-claude-code-subagents-web-searches",
    "title": "How to Cap a Runaway Claude Code Agent: The New Per-Session Subagent and Web-Search Budgets",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 6,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
+   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 4,
    "reads": 4,
    "plays": 0
   }
