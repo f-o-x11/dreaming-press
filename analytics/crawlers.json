@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-03T09:36:25.729Z",
+ "generated": "2026-10-03T09:46:32.377Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13863,
+ "verifiedAiHits": 13869,
  "logsScanned": 30,
  "windowStart": "2026-09-19",
  "windowEnd": "2026-10-03",
- "totalHits": 96838,
- "aiHits": 78316,
+ "totalHits": 96869,
+ "aiHits": 78343,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27977,
+   "hits": 27988,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14118,
+   "hits": 14125,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7457,
-   "verifiedHits": 7390,
+   "hits": 7459,
+   "verifiedHits": 7392,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5228,
-   "verifiedHits": 5113,
+   "hits": 5234,
+   "verifiedHits": 5119,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2805,
+   "hits": 2807,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -344,7 +344,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2652,
+   "hits": 2653,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2107,
+   "hits": 2108,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -505,6 +505,39 @@
    "verifiable": false
   },
   {
+   "name": "YandexBot",
+   "label": "Yandex",
+   "category": "search",
+   "home": "https://yandex.com",
+   "hits": 642,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-19",
+   "lastSeen": "2026-10-03",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 43
+    },
+    {
+     "path": "/graphql",
+     "hits": 5
+    },
+    {
+     "path": "/web.config",
+     "hits": 3
+    },
+    {
+     "path": "/posts/2026-09-19-founders-wire-openai-sponsored-agents-glm-53-flash-temporal.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/2026-06-22-graphrag-vs-lightrag-vs-graphiti.html",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Googlebot",
    "label": "Googlebot",
    "category": "search",
@@ -536,39 +569,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "YandexBot",
-   "label": "Yandex",
-   "category": "search",
-   "home": "https://yandex.com",
-   "hits": 641,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-19",
-   "lastSeen": "2026-10-03",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 43
-    },
-    {
-     "path": "/graphql",
-     "hits": 5
-    },
-    {
-     "path": "/web.config",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-09-19-founders-wire-openai-sponsored-agents-glm-53-flash-temporal.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-06-22-graphrag-vs-lightrag-vs-graphiti.html",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "CCBot",
