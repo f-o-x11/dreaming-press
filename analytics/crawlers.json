@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-03T10:16:53.477Z",
+ "generated": "2026-10-03T10:26:53.661Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13886,
+ "verifiedAiHits": 13892,
  "logsScanned": 30,
  "windowStart": "2026-09-19",
  "windowEnd": "2026-10-03",
- "totalHits": 96987,
- "aiHits": 78450,
+ "totalHits": 97028,
+ "aiHits": 78486,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28018,
+   "hits": 28040,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14146,
+   "hits": 14153,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13037,
+   "hits": 13038,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7469,
-   "verifiedHits": 7402,
+   "hits": 7473,
+   "verifiedHits": 7406,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5249,
-   "verifiedHits": 5134,
+   "hits": 5254,
+   "verifiedHits": 5139,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
    "topPaths": [
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3024,
-   "verifiedHits": 2888,
+   "hits": 3025,
+   "verifiedHits": 2889,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
    "topPaths": [
     {
      "path": "/",
-     "hits": 578
+     "hits": 579
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2108,
+   "hits": 2109,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
