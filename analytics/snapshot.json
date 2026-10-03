@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-03T01:00:06.860Z",
+ "generated": "2026-10-03T01:10:30.570Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 12,
   "todayReads": 0,
   "avgTimeSec": 4,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3255,
+  "views": 3266,
   "reads": 319,
   "completes": 11,
   "plays": 8,
-  "sessions": 3123
+  "sessions": 3133
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2783,
+   "views": 2787,
    "reads": 153,
-   "sessions": 2795
+   "sessions": 2798
   },
   {
    "channel": "organic",
-   "views": 181,
+   "views": 188,
    "reads": 124,
-   "sessions": 138
+   "sessions": 145
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2783,
+   "views": 2787,
    "reads": 153,
    "completes": 7,
-   "sessions": 2795,
+   "sessions": 2798,
    "read_rate": 0.055,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -101,14 +101,14 @@
   },
   {
    "channel": "organic",
-   "views": 181,
+   "views": 188,
    "reads": 124,
    "completes": 4,
-   "sessions": 138,
-   "read_rate": 0.685,
-   "complete_rate": 0.022,
-   "pages_per_session": 1.31,
-   "median_dwell_sec": null
+   "sessions": 145,
+   "read_rate": 0.66,
+   "complete_rate": 0.021,
+   "pages_per_session": 1.3,
+   "median_dwell_sec": 6
   },
   {
    "channel": "referral",
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2687,
+   "views": 2696,
    "reads": 297,
-   "sessions": 2564
+   "sessions": 2572
   },
   {
    "device": "mobile",
-   "views": 568,
+   "views": 570,
    "reads": 22,
-   "sessions": 559
+   "sessions": 561
   }
  ],
  "topContent": [
@@ -676,17 +676,17 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 395,
+   "views": 394,
    "reads": 0,
-   "sessions": 395,
+   "sessions": 394,
    "avg_dwell_sec": 15
   },
   {
    "path": "/",
-   "views": 124,
+   "views": 125,
    "reads": 3,
-   "sessions": 124,
-   "avg_dwell_sec": 13
+   "sessions": 125,
+   "avg_dwell_sec": 12
   },
   {
    "path": "/best/:cat",
@@ -717,18 +717,18 @@
    "avg_dwell_sec": 21
   },
   {
+   "path": "/tools",
+   "views": 18,
+   "reads": 1,
+   "sessions": 18,
+   "avg_dwell_sec": 18
+  },
+  {
    "path": "/submit.html",
    "views": 13,
    "reads": 2,
    "sessions": 8,
    "avg_dwell_sec": 37
-  },
-  {
-   "path": "/tools",
-   "views": 11,
-   "reads": 1,
-   "sessions": 11,
-   "avg_dwell_sec": 24
   },
   {
    "path": "/alternatives/:tool",
@@ -813,8 +813,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 11,
-   "sessions": 11
+   "hits": 20,
+   "sessions": 18
   },
   {
    "ref": "https://www.doubao.com/",
