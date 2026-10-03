@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-03T23:36:56.158Z",
+ "generated": "2026-10-03T23:46:59.676Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14233,
+ "verifiedAiHits": 14235,
  "logsScanned": 30,
  "windowStart": "2026-09-19",
  "windowEnd": "2026-10-03",
- "totalHits": 101669,
- "aiHits": 82450,
+ "totalHits": 101707,
+ "aiHits": 82480,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29693,
+   "hits": 29702,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14743,
+   "hits": 14751,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7705,
-   "verifiedHits": 7638,
+   "hits": 7708,
+   "verifiedHits": 7641,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4625,
+   "hits": 4626,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3105,
-   "verifiedHits": 2968,
+   "hits": 3107,
+   "verifiedHits": 2970,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2933,
+   "hits": 2936,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -344,7 +344,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2716,
+   "hits": 2717,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2298,
+   "hits": 2302,
    "verifiedHits": 0,
    "firstSeen": "2026-09-19",
    "lastSeen": "2026-10-03",
@@ -401,6 +401,39 @@
     {
      "path": "/posts/how-to-use-claude-code-in-vs-code.md",
      "hits": 4
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "YouBot",
+   "label": "You.com",
+   "category": "ai",
+   "home": "https://about.you.com",
+   "hits": 2052,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-19",
+   "lastSeen": "2026-10-03",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 28
+    },
+    {
+     "path": "/posts/microsoft-mai-cyber-1-flash-agentic-security-what-founders-do.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/pgvector-vs-pinecone-vs-qdrant.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
+     "hits": 2
     }
    ],
    "verifiable": false
@@ -437,39 +470,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "YouBot",
-   "label": "You.com",
-   "category": "ai",
-   "home": "https://about.you.com",
-   "hits": 2045,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-19",
-   "lastSeen": "2026-10-03",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 28
-    },
-    {
-     "path": "/posts/microsoft-mai-cyber-1-flash-agentic-security-what-founders-do.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/pgvector-vs-pinecone-vs-qdrant.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/mcp-goes-stateless-2026-07-28-spec.html",
-     "hits": 2
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "Meta-ExternalAgent",

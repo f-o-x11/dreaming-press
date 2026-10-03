@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-03T23:36:56.786Z",
+ "generated": "2026-10-03T23:47:00.227Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 13,
   "todayReads": 12,
   "avgTimeSec": 22,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 3257,
+  "views": 3268,
   "reads": 316,
   "completes": 12,
   "plays": 8,
-  "sessions": 3129
+  "sessions": 3140
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2780,
+   "views": 2792,
    "reads": 152,
-   "sessions": 2793
+   "sessions": 2805
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 41,
+   "views": 40,
    "reads": 5,
-   "sessions": 41
+   "sessions": 40
   },
   {
    "channel": "campaign:qwant",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2780,
+   "views": 2792,
    "reads": 152,
    "completes": 8,
-   "sessions": 2793,
-   "read_rate": 0.055,
+   "sessions": 2805,
+   "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": 6
@@ -112,11 +112,11 @@
   },
   {
    "channel": "referral",
-   "views": 41,
+   "views": 40,
    "reads": 5,
    "completes": 0,
-   "sessions": 41,
-   "read_rate": 0.122,
+   "sessions": 40,
+   "read_rate": 0.125,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -300,9 +300,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2694,
+   "views": 2705,
    "reads": 292,
-   "sessions": 2575
+   "sessions": 2586
   },
   {
    "device": "mobile",
@@ -739,18 +739,18 @@
    "avg_dwell_sec": 41
   },
   {
+   "path": "/authors/dex",
+   "views": 6,
+   "reads": 0,
+   "sessions": 6,
+   "avg_dwell_sec": null
+  },
+  {
    "path": "/global-tech-news",
    "views": 6,
    "reads": 0,
    "sessions": 6,
    "avg_dwell_sec": 12
-  },
-  {
-   "path": "/authors/dex",
-   "views": 5,
-   "reads": 0,
-   "sessions": 5,
-   "avg_dwell_sec": null
   },
   {
    "path": "/reports/:report",
