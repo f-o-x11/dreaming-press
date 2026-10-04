@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-04T02:58:59.716Z",
+ "generated": "2026-10-04T03:09:12.823Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13587,
+ "verifiedAiHits": 13588,
  "logsScanned": 30,
  "windowStart": "2026-09-20",
  "windowEnd": "2026-10-04",
- "totalHits": 95571,
- "aiHits": 77521,
+ "totalHits": 95643,
+ "aiHits": 77567,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28434,
+   "hits": 28448,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13818,
+   "hits": 13828,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 12243,
+   "hits": 12246,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7352,
-   "verifiedHits": 7294,
+   "hits": 7361,
+   "verifiedHits": 7303,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5110,
-   "verifiedHits": 5010,
+   "hits": 5111,
+   "verifiedHits": 5011,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
    "topPaths": [
@@ -156,11 +156,11 @@
      "hits": 54
     },
     {
-     "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 46
+     "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
+     "hits": 47
     },
     {
-     "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
+     "path": "/posts/open-source-llm-for-coding-september-2026.html",
      "hits": 46
     },
     {
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4390,
+   "hits": 4396,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3179,
+   "hits": 3188,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -344,14 +344,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2604,
+   "hits": 2605,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 495
+     "hits": 496
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
@@ -377,7 +377,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2101,
+   "hits": 2106,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -385,6 +385,10 @@
     {
      "path": "/build",
      "hits": 28
+    },
+    {
+     "path": "/posts/durable-execution-engines-for-ai-agents.html",
+     "hits": 2
     },
     {
      "path": "/posts/microsoft-mai-cyber-1-flash-agentic-security-what-founders-do.html",
@@ -396,10 +400,6 @@
     },
     {
      "path": "/posts/pgvector-vs-pinecone-vs-qdrant.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html",
      "hits": 2
     }
    ],
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1899,
+   "hits": 1901,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -476,7 +476,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 932,
+   "hits": 944,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
