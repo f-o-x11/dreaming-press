@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-04T13:47Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-04T13:57Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -109,7 +109,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - OAI-SearchBot (5037 verified): /wire.html ×57 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×50 · /posts/open-source-llm-for-coding-september-2026.html ×49
 - PerplexityBot (3931 verified): / ×22 · /build ×21 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×20
-- ChatGPT-User (2846 verified): / ×595 · /posts/open-source-llm-for-coding-september-2026.html ×151 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×109
+- ChatGPT-User (2848 verified): / ×595 · /posts/open-source-llm-for-coding-september-2026.html ×151 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×109
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -124,7 +124,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agent(46), agentic(40), build(35), agents(33), founder(29), mcp(25), coding(22), startup(20), engineering(16), building(15), first(14), memory(12), google(10), loops(10), scratch(9).
+Hot terms: agent(44), agentic(38), agents(32), build(32), founder(29), mcp(23), coding(22), startup(20), engineering(15), building(15), first(13), memory(11), google(9), loops(9), people(8).
 Hashtags: #ai, #startup, #founder, #startups, #mcp, #prembly, #datascience, #aiagents, #pymc, #3285.
 High-engagement posts to react to / cite:
 - "Here's how frontier teams went fully AI-native in how they build. With Amazon as the example AWS's VP of Agentic AI just shared what happened when Amazon teams rebuilt how they work around coding agents: &gt; 6 engineers" — https://x.com/i/status/2106409333030367242
@@ -137,7 +137,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (98h old, 259 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13711 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5037, Perplexity 3931, ChatGPT (user browsing) 2846, GPTBot (OpenAI) 1897).
+The real answer engines are crawling us — IP-verified: 13713 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5037, Perplexity 3931, ChatGPT (user browsing) 2848, GPTBot (OpenAI) 1897).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 726 crawler fetches
 - /build  — 252 crawler fetches
