@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-04T11:15:22.165Z",
+ "generated": "2026-10-04T11:25:34.055Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 9,
-  "avgTimeSec": 56,
+  "readersNow": 5,
+  "todayReads": 10,
+  "avgTimeSec": 52,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3267,
-  "reads": 313,
+  "views": 3271,
+  "reads": 314,
   "completes": 12,
   "plays": 10,
-  "sessions": 3137
+  "sessions": 3141
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2792,
+   "views": 2795,
    "reads": 149,
-   "sessions": 2801
+   "sessions": 2804
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 217,
-   "reads": 23,
-   "sessions": 217
+   "views": 218,
+   "reads": 24,
+   "sessions": 218
   },
   {
    "channel": "ai",
@@ -73,22 +73,22 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2792,
+   "views": 2795,
    "reads": 149,
    "completes": 9,
-   "sessions": 2801,
+   "sessions": 2804,
    "read_rate": 0.053,
    "complete_rate": 0.003,
    "pages_per_session": 1,
-   "median_dwell_sec": 6
+   "median_dwell_sec": 5
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 217,
-   "reads": 23,
+   "views": 218,
+   "reads": 24,
    "completes": 0,
-   "sessions": 217,
-   "read_rate": 0.106,
+   "sessions": 218,
+   "read_rate": 0.11,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 222,
-   "reads": 23,
-   "sessions": 220
+   "views": 223,
+   "reads": 24,
+   "sessions": 221
   },
   {
    "assistant": "Claude",
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2707,
+   "views": 2709,
    "reads": 288,
-   "sessions": 2586
+   "sessions": 2588
   },
   {
    "device": "mobile",
-   "views": 560,
-   "reads": 25,
-   "sessions": 551
+   "views": 562,
+   "reads": 26,
+   "sessions": 553
   }
  ],
  "topContent": [
@@ -362,6 +362,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-agent-security-jobs",
+   "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 13,
+   "reads": 7,
+   "plays": 1
+  },
+  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -370,16 +380,6 @@
    "views": 20,
    "reads": 6,
    "plays": 0
-  },
-  {
-   "slug": "ai-agent-security-jobs",
-   "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 6,
-   "plays": 1
   },
   {
    "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
@@ -479,8 +479,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 12,
-   "reads": 6,
+   "views": 13,
+   "reads": 7,
    "plays": 1
   },
   {
