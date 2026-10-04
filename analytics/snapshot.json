@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-04T14:58:10.815Z",
+ "generated": "2026-10-04T15:08:20.831Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 10,
   "avgTimeSec": 52,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3266,
+  "views": 3267,
   "reads": 313,
   "completes": 12,
   "plays": 10,
-  "sessions": 3136
+  "sessions": 3137
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2790,
+   "views": 2792,
    "reads": 148,
-   "sessions": 2798
+   "sessions": 2799
   },
   {
    "channel": "organic",
-   "views": 190,
+   "views": 189,
    "reads": 123,
-   "sessions": 148
+   "sessions": 147
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,14 +73,14 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2790,
+   "views": 2792,
    "reads": 148,
    "completes": 9,
-   "sessions": 2798,
+   "sessions": 2799,
    "read_rate": 0.053,
    "complete_rate": 0.003,
    "pages_per_session": 1,
-   "median_dwell_sec": 6
+   "median_dwell_sec": 5
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -95,13 +95,13 @@
   },
   {
    "channel": "organic",
-   "views": 190,
+   "views": 189,
    "reads": 123,
    "completes": 3,
-   "sessions": 148,
-   "read_rate": 0.647,
+   "sessions": 147,
+   "read_rate": 0.651,
    "complete_rate": 0.016,
-   "pages_per_session": 1.28,
+   "pages_per_session": 1.29,
    "median_dwell_sec": 6
   },
   {
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2703,
+   "views": 2704,
    "reads": 287,
-   "sessions": 2582
+   "sessions": 2583
   },
   {
    "device": "mobile",
@@ -377,7 +377,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 21,
+   "views": 23,
    "reads": 6,
    "plays": 0
   },
@@ -499,7 +499,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 6,
+   "views": 5,
    "reads": 3,
    "plays": 1
   },
@@ -616,6 +616,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 23,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "best-ai-agents-for-personal-use-september-2026",
    "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
    "section": "stack",
@@ -623,16 +633,6 @@
    "author": "dex",
    "views": 21,
    "reads": 7,
-   "plays": 0
-  },
-  {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 6,
    "plays": 0
   },
   {
@@ -781,8 +781,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 49,
-   "sessions": 24
+   "hits": 48,
+   "sessions": 23
   },
   {
    "ref": "https://www.google.com/",
