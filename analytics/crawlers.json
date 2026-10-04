@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-04T00:07:18.716Z",
+ "generated": "2026-10-04T00:17:25.844Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13564,
+ "verifiedAiHits": 13565,
  "logsScanned": 30,
  "windowStart": "2026-09-20",
  "windowEnd": "2026-10-04",
- "totalHits": 94828,
- "aiHits": 76924,
+ "totalHits": 94869,
+ "aiHits": 76955,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28230,
+   "hits": 28248,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13693,
+   "hits": 13700,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7308,
-   "verifiedHits": 7250,
+   "hits": 7312,
+   "verifiedHits": 7254,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
    "topPaths": [
@@ -179,10 +179,10 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4375,
+   "hits": 4376,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
-   "lastSeen": "2026-10-03",
+   "lastSeen": "2026-10-04",
    "topPaths": [
     {
      "path": "/build",
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2904,
-   "verifiedHits": 2779,
+   "hits": 2905,
+   "verifiedHits": 2780,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
    "topPaths": [
     {
      "path": "/",
-     "hits": 565
+     "hits": 566
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -377,7 +377,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2056,
+   "hits": 2057,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1830,
+   "hits": 1835,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -476,7 +476,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 854,
+   "hits": 858,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -498,7 +498,7 @@
      "hits": 3
     },
     {
-     "path": "/posts/2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo.html",
+     "path": "/posts/2026-09-14-founders-wire-salesforce-job-ready-agents-anthropic-2-trillion-ipo-qualcomm-amazon.html",
      "hits": 2
     }
    ],
