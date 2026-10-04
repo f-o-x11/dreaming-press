@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-04T04:50:43.668Z",
+ "generated": "2026-10-04T05:00:51.190Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 3,
   "avgTimeSec": 25,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3274,
-  "reads": 317,
+  "views": 3272,
+  "reads": 316,
   "completes": 13,
   "plays": 8,
-  "sessions": 3143
+  "sessions": 3141
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2800,
-   "reads": 153,
-   "sessions": 2809
+   "views": 2797,
+   "reads": 152,
+   "sessions": 2806
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 214,
+   "views": 215,
    "reads": 21,
-   "sessions": 214
+   "sessions": 215
   },
   {
    "channel": "ai",
@@ -73,21 +73,21 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2800,
-   "reads": 153,
+   "views": 2797,
+   "reads": 152,
    "completes": 9,
-   "sessions": 2809,
-   "read_rate": 0.055,
+   "sessions": 2806,
+   "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": 6
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 214,
+   "views": 215,
    "reads": 21,
    "completes": 0,
-   "sessions": 214,
+   "sessions": 215,
    "read_rate": 0.098,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 219,
+   "views": 220,
    "reads": 21,
-   "sessions": 217
+   "sessions": 218
   },
   {
    "assistant": "Doubao",
@@ -283,9 +283,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2714,
-   "reads": 294,
-   "sessions": 2592
+   "views": 2712,
+   "reads": 293,
+   "sessions": 2590
   },
   {
    "device": "mobile",
@@ -376,16 +376,6 @@
    "plays": 0
   },
   {
-   "slug": "lightpanda-vs-playwright-vs-browserless-headless-browser-ai-agents",
-   "title": "Lightpanda vs Playwright vs Browserless: Picking a Headless Browser for AI Agents",
-   "section": "stack",
-   "tags": "[\"how-to\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
-   "reads": 6,
-   "plays": 0
-  },
-  {
    "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
    "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
    "section": "wire",
@@ -402,6 +392,16 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 11,
+   "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "lightpanda-vs-playwright-vs-browserless-headless-browser-ai-agents",
+   "title": "Lightpanda vs Playwright vs Browserless: Picking a Headless Browser for AI Agents",
+   "section": "stack",
+   "tags": "[\"how-to\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
    "reads": 5,
    "plays": 0
   },
@@ -660,9 +660,9 @@
   },
   {
    "path": "/",
-   "views": 130,
+   "views": 129,
    "reads": 3,
-   "sessions": 128,
+   "sessions": 127,
    "avg_dwell_sec": 12
   },
   {
