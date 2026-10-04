@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-04T06:42:00.422Z",
+ "generated": "2026-10-04T06:52:05.298Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 4,
   "todayReads": 6,
   "avgTimeSec": 83,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3268,
+  "views": 3269,
   "reads": 317,
   "completes": 13,
   "plays": 9,
-  "sessions": 3137
+  "sessions": 3138
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2791,
+   "views": 2792,
    "reads": 152,
-   "sessions": 2800
+   "sessions": 2801
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2791,
+   "views": 2792,
    "reads": 152,
    "completes": 9,
-   "sessions": 2800,
+   "sessions": 2801,
    "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -289,9 +289,9 @@
   },
   {
    "device": "mobile",
-   "views": 561,
+   "views": 562,
    "reads": 24,
-   "sessions": 552
+   "sessions": 553
   }
  ],
  "topContent": [
@@ -620,16 +620,6 @@
    "plays": 0
   },
   {
-   "slug": "browser-use-vs-stagehand-vs-playwright-mcp",
-   "title": "Browser Use vs Stagehand vs Playwright MCP: Which Browser Agent Actually Clicks in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -637,6 +627,16 @@
    "author": "dex",
    "views": 20,
    "reads": 6,
+   "plays": 0
+  },
+  {
+   "slug": "browser-use-vs-stagehand-vs-playwright-mcp",
+   "title": "Browser Use vs Stagehand vs Playwright MCP: Which Browser Agent Actually Clicks in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 2,
    "plays": 0
   },
   {
