@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-04T12:16Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-04T12:26Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3266 views → 314 engaged reads → 12 completes · 3136 sessions.
-- Channels: direct 149r/2789v · organic 123r/190v · campaign:chatgpt.com 24r/219v · ai 9r/20v · referral 5r/37v · campaign:qwant 4r/6v · social 0r/4v · campaign:perplexity 0r/1v · internal-nav 0r/0v.
+- Funnel: 3267 views → 314 engaged reads → 12 completes · 3137 sessions.
+- Channels: direct 149r/2790v · organic 123r/190v · campaign:chatgpt.com 24r/219v · ai 9r/20v · referral 5r/37v · campaign:qwant 4r/6v · social 0r/4v · campaign:perplexity 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 24r/224v · Claude 3r/4v · Doubao 3r/3v · Perplexity 2r/4v · Kimi 0r/2v · DeepSeek 0r/1v.
 - Referrers: bing.com, mail.google.com, cn.bing.com, duckduckgo.com, google.com, search.brave.com, chatgpt.com, brand, youtube.com, claude.ai.
 - Engaged-read winners by section: wire=6, stack=9.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2789 views · read 5.3% · complete 0.3% · 1 pages/session · median 6s
+- direct: 2790 views · read 5.3% · complete 0.3% · 1 pages/session · median 6s
 - campaign:chatgpt.com: 219 views · read 11.0% · complete 0.0% · 1 pages/session · median ?s
 - organic: 190 views · read 64.7% · complete 1.6% · 1.28 pages/session · median 6s
 - referral: 37 views · read 13.5% · complete 0.0% · 1 pages/session · median ?s
@@ -60,7 +60,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 395 views, 0 reads, 395 sessions, avg 24s
-- / — 129 views, 3 reads, 127 sessions, avg 12s
+- / — 130 views, 3 reads, 128 sessions, avg 12s
 - /best/:cat — 55 views, 0 reads, 55 sessions
 - /compare/:pair — 37 views, 0 reads, 37 sessions, avg 21s
 - /build — 30 views, 0 reads, 30 sessions
@@ -73,7 +73,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 ## Top by raw views (eyes that arrived)
 - [stack] "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)" — 85 views, 13 reads
 - [wire] "Microsoft Agent Framework vs LangGraph vs CrewAI: Which One Crossed the Three Thresholds" — 41 views, 36 reads
-- [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 35 views, 0 reads
+- [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 34 views, 0 reads
 - [wire] "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO" — 31 views, 0 reads
 - [stack] "GPT-6.1 Sol vs Claude Sonnet 5.5 for Coding: When Two Models Cost the Same, the Price Is the Least Useful Number" — 25 views, 0 reads
 - [wire] "Firecracker vs gVisor vs Kata: Isolating AI Agent Code Execution" — 24 views, 1 reads
@@ -83,7 +83,7 @@ These pulled real traffic and then lost it. The click already worked, so the
 problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
-- [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 35 views but only 0 engaged reads (0.0%)
+- [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 34 views but only 0 engaged reads (0.0%)
 - [wire] "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO" — 31 views but only 0 engaged reads (0.0%)
 - [stack] "GPT-6.1 Sol vs Claude Sonnet 5.5 for Coding: When Two Models Cost the Same, the Price Is the Least Useful Number" — 25 views but only 0 engaged reads (0.0%)
 - [wire] "Firecracker vs gVisor vs Kata: Isolating AI Agent Code Execution" — 24 views but only 1 engaged reads (4.2%)
@@ -131,7 +131,7 @@ High-engagement posts to react to / cite:
 - "Sam Altman (CEO of OpenAI): "I have used GrokBot &amp; Muse, but Dots is a totally different category - a new level of capabilities. At OpenAI, more than 80% of our team are running a swarm of Dots agents to ship, update" — https://x.com/i/status/2105398302673862690
 - "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2105928282441240868
 - "$ORBIO Update It’s been a little over a week since my last post on $ORBIO, so I went back through everything again to see what has actually changed When I wrote about it, ORBIO was sitting around $69–70M MC after running" — https://x.com/i/status/2105583131206303892
-- "Build your personal AI video editor, but not from scratch! I'm seeing more people vibe coding NLEs for their agents. I love this direction. But do yourself a favour: fork Diffusion Studio. We've spent years building it a" — https://x.com/i/status/2104597254585643425
+- "robinhood:0xedbf91223639800bcd5756815caf908df3b890be: THE CREDIT LAYER FOR AI AGENTS Most AI agent projects focus on intelligence Priors is focusing on something every autonomous economy eventually needs: Credit The idea" — https://x.com/i/status/2106713271776764190
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 - Search-demand signal STALE (97h old, 259 uncovered phrases from the last good run). Treat as directional until it refreshes.
