@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-04T10:34:31.506Z",
+ "generated": "2026-10-04T10:44:52.701Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 5,
   "todayReads": 9,
   "avgTimeSec": 56,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3268,
+  "views": 3270,
   "reads": 314,
   "completes": 12,
   "plays": 10,
-  "sessions": 3137
+  "sessions": 3139
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2793,
+   "views": 2795,
    "reads": 150,
-   "sessions": 2801
+   "sessions": 2803
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2793,
+   "views": 2795,
    "reads": 150,
    "completes": 9,
-   "sessions": 2801,
+   "sessions": 2803,
    "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2706,
+   "views": 2708,
    "reads": 289,
-   "sessions": 2584
+   "sessions": 2586
   },
   {
    "device": "mobile",
@@ -596,6 +596,16 @@
    "plays": 0
   },
   {
+   "slug": "gpt-6-1-sol-vs-claude-sonnet-5-5-coding",
+   "title": "GPT-6.1 Sol vs Claude Sonnet 5.5 for Coding: When Two Models Cost the Same, the Price Is the Least Useful Number",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 25,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "firecracker-vs-gvisor-vs-kata-agent-sandbox-isolation",
    "title": "Firecracker vs gVisor vs Kata: Isolating AI Agent Code Execution",
    "section": "wire",
@@ -603,16 +613,6 @@
    "author": "dex",
    "views": 24,
    "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "gpt-6-1-sol-vs-claude-sonnet-5-5-coding",
-   "title": "GPT-6.1 Sol vs Claude Sonnet 5.5 for Coding: When Two Models Cost the Same, the Price Is the Least Useful Number",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 24,
-   "reads": 0,
    "plays": 0
   },
   {
@@ -666,9 +666,9 @@
   },
   {
    "path": "/",
-   "views": 128,
+   "views": 129,
    "reads": 3,
-   "sessions": 126,
+   "sessions": 127,
    "avg_dwell_sec": 12
   },
   {
