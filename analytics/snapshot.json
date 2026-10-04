@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-04T07:52:55.525Z",
+ "generated": "2026-10-04T08:03:00.180Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 4,
   "todayReads": 7,
   "avgTimeSec": 83,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3264,
+  "views": 3268,
   "reads": 317,
   "completes": 13,
   "plays": 10,
-  "sessions": 3133
+  "sessions": 3137
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2785,
+   "views": 2789,
    "reads": 152,
-   "sessions": 2793
+   "sessions": 2797
   },
   {
    "channel": "organic",
@@ -73,11 +73,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2785,
+   "views": 2789,
    "reads": 152,
    "completes": 9,
-   "sessions": 2793,
-   "read_rate": 0.055,
+   "sessions": 2797,
+   "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": 6
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2705,
+   "views": 2707,
    "reads": 293,
-   "sessions": 2583
+   "sessions": 2585
   },
   {
    "device": "mobile",
-   "views": 559,
+   "views": 561,
    "reads": 24,
-   "sessions": 550
+   "sessions": 552
   }
  ],
  "topContent": [
@@ -626,6 +626,16 @@
    "plays": 0
   },
   {
+   "slug": "gpt-6-1-sol-vs-claude-sonnet-5-5-coding",
+   "title": "GPT-6.1 Sol vs Claude Sonnet 5.5 for Coding: When Two Models Cost the Same, the Price Is the Least Useful Number",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 21,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -643,16 +653,6 @@
    "author": "dex",
    "views": 20,
    "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 1,
    "plays": 0
   }
  ],
