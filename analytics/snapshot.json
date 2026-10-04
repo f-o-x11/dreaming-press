@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-04T19:31:45.358Z",
+ "generated": "2026-10-04T19:41:58.850Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 13,
-  "avgTimeSec": 48,
+  "readersNow": 2,
+  "todayReads": 15,
+  "avgTimeSec": 54,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3258,
-  "reads": 316,
+  "views": 3259,
+  "reads": 318,
   "completes": 12,
   "plays": 10,
   "sessions": 3128
@@ -17,8 +17,8 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2781,
-   "reads": 148,
+   "views": 2782,
+   "reads": 150,
    "sessions": 2788
   },
   {
@@ -67,17 +67,17 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 19
+   "sessions": 20
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2781,
-   "reads": 148,
+   "views": 2782,
+   "reads": 150,
    "completes": 9,
    "sessions": 2788,
-   "read_rate": 0.053,
+   "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": 6
@@ -164,7 +164,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 19,
+   "sessions": 20,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -213,6 +213,11 @@
    "sessions": 3
   },
   {
+   "surface": "article-body",
+   "clicks": 2,
+   "sessions": 2
+  },
+  {
    "surface": "un-body",
    "clicks": 1,
    "sessions": 1
@@ -239,11 +244,6 @@
   },
   {
    "surface": "dg-title",
-   "clicks": 1,
-   "sessions": 1
-  },
-  {
-   "surface": "article-body",
    "clicks": 1,
    "sessions": 1
   }
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2690,
+   "views": 2689,
    "reads": 288,
-   "sessions": 2569
+   "sessions": 2568
   },
   {
    "device": "mobile",
-   "views": 568,
-   "reads": 28,
-   "sessions": 559
+   "views": 570,
+   "reads": 30,
+   "sessions": 560
   }
  ],
  "topContent": [
@@ -342,6 +342,16 @@
    "plays": 0
   },
   {
+   "slug": "best-ai-agents-for-personal-use-september-2026",
+   "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 23,
+   "reads": 8,
+   "plays": 0
+  },
+  {
    "slug": "how-to-run-spec-driven-development-github-spec-kit",
    "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
    "section": "stack",
@@ -350,16 +360,6 @@
    "views": 17,
    "reads": 8,
    "plays": 1
-  },
-  {
-   "slug": "best-ai-agents-for-personal-use-september-2026",
-   "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 7,
-   "plays": 0
   },
   {
    "slug": "ai-agent-security-jobs",
@@ -616,6 +616,16 @@
    "plays": 0
   },
   {
+   "slug": "best-ai-agents-for-personal-use-september-2026",
+   "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 23,
+   "reads": 8,
+   "plays": 0
+  },
+  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -623,16 +633,6 @@
    "author": "dex",
    "views": 23,
    "reads": 6,
-   "plays": 0
-  },
-  {
-   "slug": "best-ai-agents-for-personal-use-september-2026",
-   "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 7,
    "plays": 0
   },
   {
