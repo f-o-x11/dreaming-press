@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-04T07:32:41.145Z",
+ "generated": "2026-10-04T07:42:48.504Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 6,
+  "readersNow": 2,
+  "todayReads": 7,
   "avgTimeSec": 83,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3264,
-  "reads": 316,
+  "views": 3263,
+  "reads": 317,
   "completes": 13,
-  "plays": 9,
-  "sessions": 3133
+  "plays": 10,
+  "sessions": 3132
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2786,
+   "views": 2784,
    "reads": 152,
-   "sessions": 2794
+   "sessions": 2792
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 216,
-   "reads": 21,
-   "sessions": 216
+   "views": 217,
+   "reads": 22,
+   "sessions": 217
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2786,
+   "views": 2784,
    "reads": 152,
    "completes": 9,
-   "sessions": 2794,
+   "sessions": 2792,
    "read_rate": 0.055,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 216,
-   "reads": 21,
+   "views": 217,
+   "reads": 22,
    "completes": 0,
-   "sessions": 216,
-   "read_rate": 0.097,
+   "sessions": 217,
+   "read_rate": 0.101,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 221,
-   "reads": 21,
-   "sessions": 219
+   "views": 222,
+   "reads": 22,
+   "sessions": 220
   },
   {
    "assistant": "Doubao",
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2706,
-   "reads": 292,
-   "sessions": 2584
+   "views": 2705,
+   "reads": 293,
+   "sessions": 2583
   },
   {
    "device": "mobile",
@@ -342,22 +342,22 @@
    "plays": 0
   },
   {
+   "slug": "how-to-run-spec-driven-development-github-spec-kit",
+   "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
+   "section": "stack",
+   "tags": "[\"reportive\",\"captivating\"]",
+   "author": "rosalinda",
+   "views": 17,
+   "reads": 8,
+   "plays": 1
+  },
+  {
    "slug": "best-ai-agents-for-personal-use-september-2026",
    "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 21,
-   "reads": 7,
-   "plays": 0
-  },
-  {
-   "slug": "how-to-run-spec-driven-development-github-spec-kit",
-   "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
-   "section": "stack",
-   "tags": "[\"reportive\",\"captivating\"]",
-   "author": "rosalinda",
-   "views": 16,
    "reads": 7,
    "plays": 0
   },
@@ -464,6 +464,16 @@
    "plays": 1
   },
   {
+   "slug": "how-to-run-spec-driven-development-github-spec-kit",
+   "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
+   "section": "stack",
+   "tags": "[\"reportive\",\"captivating\"]",
+   "author": "rosalinda",
+   "views": 17,
+   "reads": 8,
+   "plays": 1
+  },
+  {
    "slug": "ai-agent-security-jobs",
    "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
    "section": "stack",
@@ -542,16 +552,6 @@
    "views": 3,
    "reads": 0,
    "plays": 1
-  },
-  {
-   "slug": "microsoft-agent-framework-vs-langgraph-vs-crewai-three-thresholds",
-   "title": "Microsoft Agent Framework vs LangGraph vs CrewAI: Which One Crossed the Three Thresholds",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 41,
-   "reads": 36,
-   "plays": 0
   }
  ],
  "topViews": [
