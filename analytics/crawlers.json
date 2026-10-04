@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-04T00:17:25.844Z",
+ "generated": "2026-10-04T00:27:34.103Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13565,
+ "verifiedAiHits": 13567,
  "logsScanned": 30,
  "windowStart": "2026-09-20",
  "windowEnd": "2026-10-04",
- "totalHits": 94869,
- "aiHits": 76955,
+ "totalHits": 94907,
+ "aiHits": 76988,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28248,
+   "hits": 28254,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13700,
+   "hits": 13707,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -80,10 +80,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 12155,
+   "hits": 12156,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
-   "lastSeen": "2026-10-03",
+   "lastSeen": "2026-10-04",
    "topPaths": [
     {
      "path": "/dashboard",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7312,
-   "verifiedHits": 7254,
+   "hits": 7315,
+   "verifiedHits": 7257,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
    "topPaths": [
@@ -146,10 +146,10 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5104,
-   "verifiedHits": 5004,
+   "hits": 5105,
+   "verifiedHits": 5005,
    "firstSeen": "2026-09-20",
-   "lastSeen": "2026-10-03",
+   "lastSeen": "2026-10-04",
    "topPaths": [
     {
      "path": "/wire.html",
@@ -165,7 +165,7 @@
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 39
+     "hits": 40
     },
     {
      "path": "/posts/2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe.html",
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2905,
-   "verifiedHits": 2780,
+   "hits": 2906,
+   "verifiedHits": 2781,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
    "topPaths": [
     {
      "path": "/",
-     "hits": 566
+     "hits": 567
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -311,10 +311,10 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2638,
+   "hits": 2639,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
-   "lastSeen": "2026-10-03",
+   "lastSeen": "2026-10-04",
    "topPaths": [
     {
      "path": "/build",
@@ -344,10 +344,10 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2585,
+   "hits": 2587,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
-   "lastSeen": "2026-10-03",
+   "lastSeen": "2026-10-04",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
@@ -377,7 +377,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2057,
+   "hits": 2060,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1835,
+   "hits": 1837,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -476,14 +476,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 858,
+   "hits": 869,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 22
+     "hits": 23
     },
     {
      "path": "/build",
