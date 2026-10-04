@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-04T03:09:13.330Z",
+ "generated": "2026-10-04T03:19:38.853Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 2,
-  "avgTimeSec": 13,
+  "readersNow": 6,
+  "todayReads": 3,
+  "avgTimeSec": 24,
   "postsThisWeek": 7
  },
  "funnel": {
   "views": 3278,
-  "reads": 317,
+  "reads": 318,
   "completes": 13,
   "plays": 7,
   "sessions": 3146
@@ -19,12 +19,12 @@
    "channel": "direct",
    "views": 2803,
    "reads": 154,
-   "sessions": 2811
+   "sessions": 2812
   },
   {
    "channel": "organic",
    "views": 195,
-   "reads": 125,
+   "reads": 126,
    "sessions": 153
   },
   {
@@ -82,7 +82,7 @@
    "views": 2803,
    "reads": 154,
    "completes": 9,
-   "sessions": 2811,
+   "sessions": 2812,
    "read_rate": 0.055,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -102,10 +102,10 @@
   {
    "channel": "organic",
    "views": 195,
-   "reads": 125,
+   "reads": 126,
    "completes": 4,
    "sessions": 153,
-   "read_rate": 0.641,
+   "read_rate": 0.646,
    "complete_rate": 0.021,
    "pages_per_session": 1.27,
    "median_dwell_sec": 6
@@ -300,15 +300,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2713,
-   "reads": 294,
-   "sessions": 2590
+   "views": 2715,
+   "reads": 295,
+   "sessions": 2592
   },
   {
    "device": "mobile",
-   "views": 565,
+   "views": 563,
    "reads": 23,
-   "sessions": 556
+   "sessions": 554
   }
  ],
  "topContent": [
@@ -353,6 +353,16 @@
    "plays": 0
   },
   {
+   "slug": "best-ai-agents-for-personal-use-september-2026",
+   "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 21,
+   "reads": 7,
+   "plays": 0
+  },
+  {
    "slug": "how-to-run-spec-driven-development-github-spec-kit",
    "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
    "section": "stack",
@@ -360,16 +370,6 @@
    "author": "rosalinda",
    "views": 16,
    "reads": 7,
-   "plays": 0
-  },
-  {
-   "slug": "best-ai-agents-for-personal-use-september-2026",
-   "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 6,
    "plays": 0
   },
   {
@@ -633,7 +633,7 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 21,
-   "reads": 6,
+   "reads": 7,
    "plays": 0
   },
   {
@@ -801,14 +801,14 @@
    "sessions": 23
   },
   {
+   "ref": "https://search.brave.com/",
+   "hits": 25,
+   "sessions": 13
+  },
+  {
    "ref": "https://chatgpt.com/",
    "hits": 25,
    "sessions": 17
-  },
-  {
-   "ref": "https://search.brave.com/",
-   "hits": 24,
-   "sessions": 13
   },
   {
    "ref": "brand",

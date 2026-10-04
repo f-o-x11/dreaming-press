@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-04T03:09:13.268Z",
+ "generated": "2026-10-04T03:19:38.800Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,26 +12,26 @@
   },
   {
    "term": "agentic",
-   "count": 38
+   "count": 36
+  },
+  {
+   "term": "agents",
+   "count": 31
   },
   {
    "term": "build",
    "count": 31
   },
   {
-   "term": "agents",
-   "count": 30
-  },
-  {
    "term": "founder",
    "count": 28
   },
   {
-   "term": "coding",
-   "count": 25
+   "term": "mcp",
+   "count": 22
   },
   {
-   "term": "mcp",
+   "term": "coding",
    "count": 22
   },
   {
@@ -47,11 +47,11 @@
    "count": 15
   },
   {
-   "term": "claude",
-   "count": 14
+   "term": "memory",
+   "count": 12
   },
   {
-   "term": "memory",
+   "term": "claude",
    "count": 12
   },
   {
@@ -63,16 +63,16 @@
    "count": 10
   },
   {
-   "term": "code",
-   "count": 10
-  },
-  {
    "term": "google",
    "count": 10
   },
   {
    "term": "its",
    "count": 9
+  },
+  {
+   "term": "code",
+   "count": 8
   },
   {
    "term": "loops",
@@ -90,7 +90,7 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 5
+   "count": 6
   },
   {
    "term": "#startup",
@@ -152,7 +152,7 @@
   },
   {
    "text": "Here's how frontier teams went fully AI-native in how they build. With Amazon as the example AWS's VP of Agentic AI just shared what happened when Amazon teams rebuilt how they work around coding agents: &gt; 6 engineers",
-   "engagement": 164,
+   "engagement": 167,
    "url": "https://x.com/i/status/2106409333030367242",
    "created": "2026-10-03T15:41:34.000Z"
   },
