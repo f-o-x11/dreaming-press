@@ -1,43 +1,43 @@
 {
- "generated": "2026-10-04T03:19:38.853Z",
+ "generated": "2026-10-04T03:29:45.699Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
+  "readersNow": 4,
   "todayReads": 3,
-  "avgTimeSec": 24,
+  "avgTimeSec": 25,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3278,
+  "views": 3279,
   "reads": 318,
   "completes": 13,
-  "plays": 7,
-  "sessions": 3146
+  "plays": 8,
+  "sessions": 3147
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2803,
    "reads": 154,
-   "sessions": 2812
+   "sessions": 2811
   },
   {
    "channel": "organic",
-   "views": 195,
+   "views": 194,
    "reads": 126,
-   "sessions": 153
+   "sessions": 152
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 213,
+   "views": 214,
    "reads": 21,
-   "sessions": 213
+   "sessions": 214
   },
   {
    "channel": "ai",
-   "views": 16,
+   "views": 17,
    "reads": 8,
-   "sessions": 31
+   "sessions": 33
   },
   {
    "channel": "referral",
@@ -73,7 +73,7 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 18
+   "sessions": 19
   }
  ],
  "channelQuality": [
@@ -82,7 +82,7 @@
    "views": 2803,
    "reads": 154,
    "completes": 9,
-   "sessions": 2812,
+   "sessions": 2811,
    "read_rate": 0.055,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -90,24 +90,24 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 213,
+   "views": 214,
    "reads": 21,
    "completes": 0,
-   "sessions": 213,
-   "read_rate": 0.099,
+   "sessions": 214,
+   "read_rate": 0.098,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
   {
    "channel": "organic",
-   "views": 195,
+   "views": 194,
    "reads": 126,
    "completes": 4,
-   "sessions": 153,
-   "read_rate": 0.646,
+   "sessions": 152,
+   "read_rate": 0.649,
    "complete_rate": 0.021,
-   "pages_per_session": 1.27,
+   "pages_per_session": 1.28,
    "median_dwell_sec": 6
   },
   {
@@ -123,14 +123,14 @@
   },
   {
    "channel": "ai",
-   "views": 16,
+   "views": 17,
    "reads": 8,
    "completes": 0,
-   "sessions": 31,
-   "read_rate": 0.5,
+   "sessions": 33,
+   "read_rate": 0.471,
    "complete_rate": 0,
    "pages_per_session": 0.52,
-   "median_dwell_sec": 8
+   "median_dwell_sec": 9
   },
   {
    "channel": "campaign:qwant",
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 18,
+   "sessions": 19,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -245,6 +245,11 @@
    "sessions": 1
   },
   {
+   "surface": "mtabbar",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
    "surface": "edited-by",
    "clicks": 1,
    "sessions": 1
@@ -258,19 +263,14 @@
    "surface": "article-body",
    "clicks": 1,
    "sessions": 1
-  },
-  {
-   "surface": "ag-foot",
-   "clicks": 1,
-   "sessions": 1
   }
  ],
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 217,
+   "views": 219,
    "reads": 21,
-   "sessions": 215
+   "sessions": 217
   },
   {
    "assistant": "Doubao",
@@ -300,15 +300,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2715,
+   "views": 2714,
    "reads": 295,
-   "sessions": 2592
+   "sessions": 2591
   },
   {
    "device": "mobile",
-   "views": 563,
+   "views": 565,
    "reads": 23,
-   "sessions": 554
+   "sessions": 556
   }
  ],
  "topContent": [
@@ -525,6 +525,16 @@
    "plays": 1
   },
   {
+   "slug": "2026-09-15-founders-wire-pace-the-frontier-slowdown-market-reprices-ai-trade",
+   "title": "The Founder's Wire, September 15: The Labs Asked for a Brake, and the Market Repriced the Whole AI Trade in a Day",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 4,
+   "reads": 0,
+   "plays": 1
+  },
+  {
    "slug": "kimi-k2-7-vs-glm-5-2-vs-deepseek-v4-open-weight-coding",
    "title": "Kimi K2.7 vs GLM-5.2 vs DeepSeek V4 vs Qwen3-Coder: The Open-Weight Coding Bracket, Refreshed",
    "section": "wire",
@@ -551,16 +561,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 16,
-   "reads": 9,
-   "plays": 0
-  },
-  {
-   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
-   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 14,
    "reads": 9,
    "plays": 0
   }
@@ -670,16 +670,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 395,
+   "views": 394,
    "reads": 0,
-   "sessions": 395,
+   "sessions": 394,
    "avg_dwell_sec": 24
   },
   {
    "path": "/",
-   "views": 129,
+   "views": 131,
    "reads": 3,
-   "sessions": 127,
+   "sessions": 129,
    "avg_dwell_sec": 12
   },
   {
@@ -792,8 +792,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 50,
-   "sessions": 25
+   "hits": 49,
+   "sessions": 24
   },
   {
    "ref": "https://www.google.com/",
