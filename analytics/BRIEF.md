@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-04T16:09Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-04T16:19Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3265 views → 314 engaged reads → 12 completes · 3135 sessions.
-- Channels: direct 148r/2789v · organic 123r/189v · campaign:chatgpt.com 25r/220v · ai 9r/20v · referral 5r/36v · campaign:qwant 4r/6v · social 0r/4v · campaign:perplexity 0r/1v · internal-nav 0r/0v.
+- Funnel: 3264 views → 314 engaged reads → 12 completes · 3134 sessions.
+- Channels: direct 148r/2788v · organic 123r/189v · campaign:chatgpt.com 25r/220v · ai 9r/20v · referral 5r/36v · campaign:qwant 4r/6v · social 0r/4v · campaign:perplexity 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 25r/225v · Claude 3r/4v · Doubao 3r/3v · Perplexity 2r/4v · Kimi 0r/2v · DeepSeek 0r/1v.
 - Referrers: bing.com, mail.google.com, cn.bing.com, duckduckgo.com, google.com, search.brave.com, chatgpt.com, brand, youtube.com, claude.ai.
 - Engaged-read winners by section: wire=6, stack=9.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2789 views · read 5.3% · complete 0.3% · 1 pages/session · median 6s
+- direct: 2788 views · read 5.3% · complete 0.3% · 1 pages/session · median 6s
 - campaign:chatgpt.com: 220 views · read 11.4% · complete 0.0% · 1 pages/session · median ?s
 - organic: 189 views · read 65.1% · complete 1.6% · 1.29 pages/session · median 6s
 - referral: 36 views · read 13.9% · complete 0.0% · 1 pages/session · median ?s
@@ -40,7 +40,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K" — 9 reads, 16 views, 0 listens
 - [stack] "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One" — 9 reads, 14 views, 0 listens
 - [stack] "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement" — 8 reads, 17 views, 1 listens
-- [stack] "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem" — 7 reads, 21 views, 0 listens
+- [stack] "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem" — 7 reads, 22 views, 0 listens
 - [stack] "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In" — 7 reads, 13 views, 1 listens
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 6 reads, 23 views, 0 listens
 - [wire] "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest" — 6 reads, 11 views, 0 listens
@@ -107,7 +107,7 @@ sample size dwarfs the engaged-read counts below.
 - /stack.html  — 17 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (5042 verified): /wire.html ×58 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×51 · /posts/open-source-llm-for-coding-september-2026.html ×50
+- OAI-SearchBot (5043 verified): /wire.html ×58 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×51 · /posts/open-source-llm-for-coding-september-2026.html ×50
 - PerplexityBot (3934 verified): / ×22 · /build ×21 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×20
 - ChatGPT-User (2864 verified): / ×601 · /posts/open-source-llm-for-coding-september-2026.html ×151 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×109
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -134,16 +134,16 @@ High-engagement posts to react to / cite:
 - "$ORBIO Update It’s been a little over a week since my last post on $ORBIO, so I went back through everything again to see what has actually changed When I wrote about it, ORBIO was sitting around $69–70M MC after running" — https://x.com/i/status/2105583131206303892
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-- Search-demand signal STALE (100h old, 259 uncovered phrases from the last good run). Treat as directional until it refreshes.
+- Search-demand signal STALE (101h old, 259 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13737 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5042, Perplexity 3934, ChatGPT (user browsing) 2864, GPTBot (OpenAI) 1897).
+The real answer engines are crawling us — IP-verified: 13738 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5043, Perplexity 3934, ChatGPT (user browsing) 2864, GPTBot (OpenAI) 1897).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 730 crawler fetches
 - /build  — 253 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 230 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 210 crawler fetches
-- /posts/how-to-read-an-agent-memory-benchmark.html  — 185 crawler fetches
+- /posts/how-to-read-an-agent-memory-benchmark.html  — 186 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 160 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 129 crawler fetches
 - /posts/serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026.html  — 118 crawler fetches
