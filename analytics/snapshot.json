@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-04T08:23:17.594Z",
+ "generated": "2026-10-04T08:33:20.073Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 7,
+  "readersNow": 4,
+  "todayReads": 8,
   "avgTimeSec": 67,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3267,
+  "views": 3265,
   "reads": 317,
   "completes": 13,
   "plays": 10,
-  "sessions": 3135
+  "sessions": 3132
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2791,
+   "views": 2789,
    "reads": 152,
-   "sessions": 2798
+   "sessions": 2796
   },
   {
    "channel": "organic",
@@ -37,7 +37,7 @@
    "channel": "ai",
    "views": 20,
    "reads": 9,
-   "sessions": 36
+   "sessions": 35
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2791,
+   "views": 2789,
    "reads": 152,
    "completes": 9,
-   "sessions": 2798,
+   "sessions": 2796,
    "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -120,10 +120,10 @@
    "views": 20,
    "reads": 9,
    "completes": 0,
-   "sessions": 36,
+   "sessions": 35,
    "read_rate": 0.45,
    "complete_rate": 0,
-   "pages_per_session": 0.56,
+   "pages_per_session": 0.57,
    "median_dwell_sec": 9
   },
   {
@@ -256,22 +256,22 @@
    "sessions": 219
   },
   {
-   "assistant": "Doubao",
+   "assistant": "Claude",
    "views": 4,
-   "reads": 4,
-   "sessions": 3
+   "reads": 3,
+   "sessions": 2
+  },
+  {
+   "assistant": "Doubao",
+   "views": 3,
+   "reads": 3,
+   "sessions": 2
   },
   {
    "assistant": "Perplexity",
    "views": 4,
    "reads": 2,
    "sessions": 4
-  },
-  {
-   "assistant": "Claude",
-   "views": 3,
-   "reads": 2,
-   "sessions": 2
   },
   {
    "assistant": "Kimi",
@@ -291,13 +291,13 @@
    "device": "desktop",
    "views": 2707,
    "reads": 293,
-   "sessions": 2584
+   "sessions": 2583
   },
   {
    "device": "mobile",
-   "views": 560,
+   "views": 558,
    "reads": 24,
-   "sessions": 551
+   "sessions": 549
   }
  ],
  "topContent": [
@@ -412,6 +412,16 @@
    "plays": 0
   },
   {
+   "slug": "agent-funding-august-2026-control-won-the-summer",
+   "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 6,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "2026-07-11-typescript-7-go-native-compiler-ships",
    "title": "TypeScript 7.0 Ships the Go Rewrite: 10x Builds Land, but Your Framework Waits for 7.1",
    "section": "wire",
@@ -428,16 +438,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 6,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "agent-funding-august-2026-control-won-the-summer",
-   "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 5,
    "reads": 4,
    "plays": 0
   },
@@ -659,9 +659,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 394,
+   "views": 395,
    "reads": 0,
-   "sessions": 394,
+   "sessions": 395,
    "avg_dwell_sec": 24
   },
   {
@@ -810,9 +810,9 @@
    "sessions": 10
   },
   {
-   "ref": "https://www.doubao.com/",
-   "hits": 8,
-   "sessions": 3
+   "ref": "https://claude.ai/",
+   "hits": 7,
+   "sessions": 2
   }
  ]
 }

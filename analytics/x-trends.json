@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-04T08:23:17.534Z",
+ "generated": "2026-10-04T08:33:20.012Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,18 +8,18 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 45
+   "count": 44
   },
   {
    "term": "agentic",
    "count": 36
   },
   {
-   "term": "agents",
-   "count": 31
+   "term": "build",
+   "count": 32
   },
   {
-   "term": "build",
+   "term": "agents",
    "count": 31
   },
   {
@@ -52,10 +52,6 @@
   },
   {
    "term": "memory",
-   "count": 11
-  },
-  {
-   "term": "google",
    "count": 10
   },
   {
@@ -63,7 +59,11 @@
    "count": 8
   },
   {
-   "term": "code",
+   "term": "about",
+   "count": 8
+  },
+  {
+   "term": "google",
    "count": 8
   },
   {
@@ -145,8 +145,14 @@
    "created": "2026-09-30T20:44:06.000Z"
   },
   {
+   "text": "AI is getting smarter. But smarter agents alone won’t build the agentic economy. They need somewhere to verify identity, prove permissions, move money and settle transactions without turning every interaction into a manu",
+   "engagement": 196,
+   "url": "https://x.com/i/status/2104645989801791697",
+   "created": "2026-09-28T18:54:41.000Z"
+  },
+  {
    "text": "Here's how frontier teams went fully AI-native in how they build. With Amazon as the example AWS's VP of Agentic AI just shared what happened when Amazon teams rebuilt how they work around coding agents: &gt; 6 engineers",
-   "engagement": 191,
+   "engagement": 193,
    "url": "https://x.com/i/status/2106409333030367242",
    "created": "2026-10-03T15:41:34.000Z"
   },
@@ -179,12 +185,6 @@
    "engagement": 116,
    "url": "https://x.com/i/status/2104866276480831719",
    "created": "2026-09-29T09:30:01.000Z"
-  },
-  {
-   "text": "Meet Alon Rozi: The 16-Year-Old Israeli Founder Behind a Multimillion-Dollar AI Startup https://t.co/TB7lqqd1zn",
-   "engagement": 103,
-   "url": "https://x.com/i/status/2104570884195328339",
-   "created": "2026-09-28T13:56:14.000Z"
   }
  ]
 }
