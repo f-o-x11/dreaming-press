@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-04T06:21:45.565Z",
+ "generated": "2026-10-04T06:31:57.681Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 4,
+  "readersNow": 2,
+  "todayReads": 6,
   "avgTimeSec": 83,
   "postsThisWeek": 7
  },
  "funnel": {
   "views": 3269,
-  "reads": 316,
+  "reads": 318,
   "completes": 13,
-  "plays": 8,
+  "plays": 9,
   "sessions": 3138
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2793,
-   "reads": 152,
-   "sessions": 2802
+   "views": 2792,
+   "reads": 153,
+   "sessions": 2801
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 17,
-   "reads": 8,
-   "sessions": 33
+   "views": 18,
+   "reads": 9,
+   "sessions": 34
   },
   {
    "channel": "referral",
@@ -73,11 +73,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2793,
-   "reads": 152,
+   "views": 2792,
+   "reads": 153,
    "completes": 9,
-   "sessions": 2802,
-   "read_rate": 0.054,
+   "sessions": 2801,
+   "read_rate": 0.055,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": 6
@@ -117,13 +117,13 @@
   },
   {
    "channel": "ai",
-   "views": 17,
-   "reads": 8,
+   "views": 18,
+   "reads": 9,
    "completes": 0,
-   "sessions": 33,
-   "read_rate": 0.471,
+   "sessions": 34,
+   "read_rate": 0.5,
    "complete_rate": 0,
-   "pages_per_session": 0.52,
+   "pages_per_session": 0.53,
    "median_dwell_sec": 9
   },
   {
@@ -269,9 +269,9 @@
   },
   {
    "assistant": "Claude",
-   "views": 2,
-   "reads": 1,
-   "sessions": 1
+   "views": 3,
+   "reads": 2,
+   "sessions": 2
   },
   {
    "assistant": "DeepSeek",
@@ -283,15 +283,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2709,
-   "reads": 293,
-   "sessions": 2587
+   "views": 2708,
+   "reads": 294,
+   "sessions": 2586
   },
   {
    "device": "mobile",
-   "views": 560,
-   "reads": 23,
-   "sessions": 551
+   "views": 561,
+   "reads": 24,
+   "sessions": 552
   }
  ],
  "topContent": [
@@ -366,6 +366,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-agent-security-jobs",
+   "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 12,
+   "reads": 6,
+   "plays": 1
+  },
+  {
    "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
    "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
    "section": "wire",
@@ -383,16 +393,6 @@
    "author": "priya",
    "views": 9,
    "reads": 6,
-   "plays": 0
-  },
-  {
-   "slug": "ai-agent-security-jobs",
-   "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 11,
-   "reads": 5,
    "plays": 0
   },
   {
@@ -436,11 +436,11 @@
    "plays": 0
   },
   {
-   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
-   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
-   "section": "stack",
+   "slug": "agent-funding-august-2026-control-won-the-summer",
+   "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
+   "author": "priya",
    "views": 5,
    "reads": 4,
    "plays": 0
@@ -455,6 +455,16 @@
    "author": "priya",
    "views": 88,
    "reads": 14,
+   "plays": 1
+  },
+  {
+   "slug": "ai-agent-security-jobs",
+   "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 12,
+   "reads": 6,
    "plays": 1
   },
   {
@@ -535,16 +545,6 @@
    "author": "wire-desk",
    "views": 41,
    "reads": 36,
-   "plays": 0
-  },
-  {
-   "slug": "playwright-mcp-vs-cli-token-cost-browser-agents",
-   "title": "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 16,
-   "reads": 9,
    "plays": 0
   }
  ],
