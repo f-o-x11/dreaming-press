@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-04T14:07:40.263Z",
+ "generated": "2026-10-04T14:17:41.219Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 4,
   "todayReads": 10,
   "avgTimeSec": 52,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3265,
+  "views": 3267,
   "reads": 313,
   "completes": 12,
   "plays": 10,
-  "sessions": 3135
+  "sessions": 3137
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2789,
+   "views": 2791,
    "reads": 148,
-   "sessions": 2797
+   "sessions": 2799
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2789,
+   "views": 2791,
    "reads": 148,
    "completes": 9,
-   "sessions": 2797,
+   "sessions": 2799,
    "read_rate": 0.053,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2702,
+   "views": 2704,
    "reads": 287,
-   "sessions": 2581
+   "sessions": 2583
   },
   {
    "device": "mobile",
@@ -377,7 +377,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 19,
+   "views": 21,
    "reads": 6,
    "plays": 0
   },
@@ -626,6 +626,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 21,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "vertical-ai-agents-legal-health-finance-where-2026-funding-is-going",
    "title": "Where 2026's Vertical-AI Money Actually Went: Legal Took the Cash, Healthcare Took the Deals",
    "section": "wire",
@@ -643,16 +653,6 @@
    "author": "dex",
    "views": 20,
    "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 1,
    "plays": 0
   }
  ],
