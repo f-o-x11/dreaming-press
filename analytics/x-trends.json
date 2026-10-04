@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-04T15:28:38.480Z",
+ "generated": "2026-10-04T15:38:45.875Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 44
+   "count": 45
   },
   {
    "term": "agentic",
@@ -20,11 +20,11 @@
   },
   {
    "term": "build",
-   "count": 32
+   "count": 31
   },
   {
    "term": "founder",
-   "count": 29
+   "count": 28
   },
   {
    "term": "mcp",
@@ -36,14 +36,14 @@
   },
   {
    "term": "startup",
-   "count": 20
-  },
-  {
-   "term": "engineering",
-   "count": 15
+   "count": 19
   },
   {
    "term": "building",
+   "count": 16
+  },
+  {
+   "term": "engineering",
    "count": 15
   },
   {
@@ -52,7 +52,7 @@
   },
   {
    "term": "memory",
-   "count": 11
+   "count": 12
   },
   {
    "term": "google",
@@ -94,23 +94,15 @@
   },
   {
    "term": "#startup",
-   "count": 3
+   "count": 4
   },
   {
    "term": "#founder",
-   "count": 2
+   "count": 3
   },
   {
    "term": "#startups",
    "count": 2
-  },
-  {
-   "term": "#mcp",
-   "count": 1
-  },
-  {
-   "term": "#prembly",
-   "count": 1
   },
   {
    "term": "#datascience",
@@ -135,18 +127,26 @@
   {
    "term": "#business",
    "count": 1
+  },
+  {
+   "term": "#entrepreneurship",
+   "count": 1
+  },
+  {
+   "term": "#vc",
+   "count": 1
   }
  ],
  "topPosts": [
   {
    "text": "🚨 GOOGLE JUST DROPPED A 1-HOUR COURSE THAT TEACHES YOU AGENTIC AI FROM SCRATCH. No fluff. No expensive bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Cre",
-   "engagement": 242,
+   "engagement": 259,
    "url": "https://x.com/i/status/2106731541221306757",
    "created": "2026-10-04T13:01:55.000Z"
   },
   {
    "text": "Here's how frontier teams went fully AI-native in how they build. With Amazon as the example AWS's VP of Agentic AI just shared what happened when Amazon teams rebuilt how they work around coding agents: &gt; 6 engineers",
-   "engagement": 230,
+   "engagement": 231,
    "url": "https://x.com/i/status/2106409333030367242",
    "created": "2026-10-03T15:41:34.000Z"
   },

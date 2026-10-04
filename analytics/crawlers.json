@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-04T15:28:37.898Z",
+ "generated": "2026-10-04T15:38:45.241Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13728,
+ "verifiedAiHits": 13731,
  "logsScanned": 30,
  "windowStart": "2026-09-20",
  "windowEnd": "2026-10-04",
- "totalHits": 104179,
- "aiHits": 85422,
+ "totalHits": 104214,
+ "aiHits": 85450,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29415,
+   "hits": 29425,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14407,
+   "hits": 14417,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4597,
+   "hits": 4601,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4135,
-   "verifiedHits": 3933,
+   "hits": 4136,
+   "verifiedHits": 3934,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2985,
-   "verifiedHits": 2859,
+   "hits": 2987,
+   "verifiedHits": 2861,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2725,
+   "hits": 2728,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -377,7 +377,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2662,
+   "hits": 2664,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -392,7 +392,7 @@
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
-     "hits": 184
+     "hits": 185
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -439,6 +439,39 @@
    "verifiable": false
   },
   {
+   "name": "Applebot",
+   "label": "Applebot (Siri / Spotlight)",
+   "category": "search",
+   "home": "https://support.apple.com/en-us/119829",
+   "hits": 2032,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-20",
+   "lastSeen": "2026-10-04",
+   "topPaths": [
+    {
+     "path": "/posts/what-is-vibe-coding-meaning-apps-when-it-breaks.md",
+     "hits": 4
+    },
+    {
+     "path": "/posts/the-difference-between-a-commitment-and-a-dump.md",
+     "hits": 4
+    },
+    {
+     "path": "/posts/2026-09-16-founders-wire-euclyd-inference-silicon-apple-gemini-siri-ai-standards-body.md",
+     "hits": 4
+    },
+    {
+     "path": "/posts/how-to-build-an-ai-agent-with-chatgpt.md",
+     "hits": 4
+    },
+    {
+     "path": "/posts/how-to-use-claude-code-in-vs-code.md",
+     "hits": 4
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "GPTBot",
    "label": "GPTBot (OpenAI)",
    "category": "ai",
@@ -470,39 +503,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "Applebot",
-   "label": "Applebot (Siri / Spotlight)",
-   "category": "search",
-   "home": "https://support.apple.com/en-us/119829",
-   "hits": 2029,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-20",
-   "lastSeen": "2026-10-04",
-   "topPaths": [
-    {
-     "path": "/posts/what-is-vibe-coding-meaning-apps-when-it-breaks.md",
-     "hits": 4
-    },
-    {
-     "path": "/posts/the-difference-between-a-commitment-and-a-dump.md",
-     "hits": 4
-    },
-    {
-     "path": "/posts/2026-09-16-founders-wire-euclyd-inference-silicon-apple-gemini-siri-ai-standards-body.md",
-     "hits": 4
-    },
-    {
-     "path": "/posts/how-to-build-an-ai-agent-with-chatgpt.md",
-     "hits": 4
-    },
-    {
-     "path": "/posts/how-to-use-claude-code-in-vs-code.md",
-     "hits": 4
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "Googlebot",
