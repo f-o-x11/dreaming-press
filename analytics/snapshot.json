@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-04T20:32:30.634Z",
+ "generated": "2026-10-04T20:42:41.993Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 15,
-  "avgTimeSec": 54,
+  "readersNow": 6,
+  "todayReads": 16,
+  "avgTimeSec": 52,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3255,
-  "reads": 317,
+  "views": 3259,
+  "reads": 318,
   "completes": 12,
   "plays": 10,
-  "sessions": 3126
+  "sessions": 3131
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2778,
+   "views": 2781,
    "reads": 149,
-   "sessions": 2786
+   "sessions": 2791
   },
   {
    "channel": "organic",
-   "views": 189,
-   "reads": 124,
-   "sessions": 147
+   "views": 190,
+   "reads": 125,
+   "sessions": 148
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2778,
+   "views": 2781,
    "reads": 149,
    "completes": 9,
-   "sessions": 2786,
+   "sessions": 2791,
    "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -95,13 +95,13 @@
   },
   {
    "channel": "organic",
-   "views": 189,
-   "reads": 124,
+   "views": 190,
+   "reads": 125,
    "completes": 3,
-   "sessions": 147,
-   "read_rate": 0.656,
+   "sessions": 148,
+   "read_rate": 0.658,
    "complete_rate": 0.016,
-   "pages_per_session": 1.29,
+   "pages_per_session": 1.28,
    "median_dwell_sec": 6
   },
   {
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2683,
-   "reads": 287,
-   "sessions": 2564
+   "views": 2687,
+   "reads": 288,
+   "sessions": 2569
   },
   {
    "device": "mobile",
@@ -659,16 +659,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 396,
+   "views": 397,
    "reads": 0,
-   "sessions": 396,
+   "sessions": 397,
    "avg_dwell_sec": 24
   },
   {
    "path": "/",
-   "views": 131,
+   "views": 132,
    "reads": 3,
-   "sessions": 129,
+   "sessions": 130,
    "avg_dwell_sec": 12
   },
   {
@@ -715,9 +715,9 @@
   },
   {
    "path": "/submit.html",
-   "views": 11,
+   "views": 9,
    "reads": 1,
-   "sessions": 8,
+   "sessions": 7,
    "avg_dwell_sec": 39
   },
   {
@@ -785,14 +785,14 @@
    "sessions": 23
   },
   {
+   "ref": "https://search.brave.com/",
+   "hits": 27,
+   "sessions": 14
+  },
+  {
    "ref": "https://www.google.com/",
    "hits": 25,
    "sessions": 23
-  },
-  {
-   "ref": "https://search.brave.com/",
-   "hits": 25,
-   "sessions": 13
   },
   {
    "ref": "https://chatgpt.com/",
