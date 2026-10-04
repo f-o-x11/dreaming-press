@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-04T16:39:06.887Z",
+ "generated": "2026-10-04T16:49:06.835Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 13743,
  "logsScanned": 30,
  "windowStart": "2026-09-20",
  "windowEnd": "2026-10-04",
- "totalHits": 104492,
- "aiHits": 85661,
+ "totalHits": 104524,
+ "aiHits": 85677,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29538,
+   "hits": 29540,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14466,
+   "hits": 14475,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7591,
-   "verifiedHits": 7533,
+   "hits": 7592,
+   "verifiedHits": 7534,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4610,
+   "hits": 4614,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3299,
+   "hits": 3307,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -296,12 +296,12 @@
      "hits": 6
     },
     {
-     "path": "/posts/open-models-in-claude-code-anthropic-compatible-endpoint.html",
+     "path": "/posts/how-to-deploy-an-llm-locally-2026.html",
      "hits": 5
     },
     {
-     "path": "/posts/run-671b-moe-single-gpu-ktransformers-vs-llama-cpp.html",
-     "hits": 4
+     "path": "/posts/open-models-in-claude-code-anthropic-compatible-endpoint.html",
+     "hits": 5
     }
    ],
    "verifiable": false
@@ -344,7 +344,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2730,
+   "hits": 2732,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -377,14 +377,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2668,
+   "hits": 2669,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 508
+     "hits": 509
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
@@ -410,7 +410,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2340,
+   "hits": 2342,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2054,
+   "hits": 2057,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
