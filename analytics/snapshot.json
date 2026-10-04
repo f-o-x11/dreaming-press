@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-04T09:13:55.517Z",
+ "generated": "2026-10-04T09:24:00.492Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 8,
+  "readersNow": 4,
+  "todayReads": 9,
   "avgTimeSec": 67,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3260,
-  "reads": 316,
+  "views": 3263,
+  "reads": 317,
   "completes": 13,
   "plays": 10,
-  "sessions": 3127
+  "sessions": 3130
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2784,
+   "views": 2786,
    "reads": 151,
-   "sessions": 2791
+   "sessions": 2793
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 216,
-   "reads": 22,
-   "sessions": 216
+   "views": 217,
+   "reads": 23,
+   "sessions": 217
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2784,
+   "views": 2786,
    "reads": 151,
    "completes": 9,
-   "sessions": 2791,
+   "sessions": 2793,
    "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 216,
-   "reads": 22,
+   "views": 217,
+   "reads": 23,
    "completes": 0,
-   "sessions": 216,
-   "read_rate": 0.102,
+   "sessions": 217,
+   "read_rate": 0.106,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 221,
-   "reads": 22,
-   "sessions": 219
+   "views": 222,
+   "reads": 23,
+   "sessions": 220
   },
   {
    "assistant": "Claude",
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2702,
+   "views": 2703,
    "reads": 292,
-   "sessions": 2578
+   "sessions": 2579
   },
   {
    "device": "mobile",
-   "views": 558,
-   "reads": 24,
-   "sessions": 549
+   "views": 560,
+   "reads": 25,
+   "sessions": 551
   }
  ],
  "topContent": [
@@ -422,6 +422,16 @@
    "plays": 0
   },
   {
+   "slug": "open-source-llm-for-coding-september-2026",
+   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "2026-07-11-typescript-7-go-native-compiler-ships",
    "title": "TypeScript 7.0 Ships the Go Rewrite: 10x Builds Land, but Your Framework Waits for 7.1",
    "section": "wire",
@@ -438,16 +448,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 6,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
-   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 5,
    "reads": 4,
    "plays": 0
   }
