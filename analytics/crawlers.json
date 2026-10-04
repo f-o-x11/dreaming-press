@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-04T07:42:47.956Z",
+ "generated": "2026-10-04T07:52:54.999Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13656,
+ "verifiedAiHits": 13657,
  "logsScanned": 30,
  "windowStart": "2026-09-20",
  "windowEnd": "2026-10-04",
- "totalHits": 98443,
- "aiHits": 80133,
+ "totalHits": 98545,
+ "aiHits": 80207,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28812,
+   "hits": 28829,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14047,
+   "hits": 14054,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7440,
-   "verifiedHits": 7382,
+   "hits": 7443,
+   "verifiedHits": 7385,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4459,
+   "hits": 4482,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2946,
-   "verifiedHits": 2821,
+   "hits": 2947,
+   "verifiedHits": 2822,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
    "topPaths": [
@@ -340,6 +340,39 @@
    "verifiable": false
   },
   {
+   "name": "Meta-ExternalAgent",
+   "label": "Meta AI",
+   "category": "ai",
+   "home": "https://developers.facebook.com/docs/sharing/bot",
+   "hits": 2664,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-20",
+   "lastSeen": "2026-10-04",
+   "topPaths": [
+    {
+     "path": "/posts/open-source-llm-for-coding-september-2026.html",
+     "hits": 26
+    },
+    {
+     "path": "/build",
+     "hits": 7
+    },
+    {
+     "path": "/posts/2026-09-20-founders-wire-raindrop-agent-monitoring-frontier-safety-standards-astra-for-law.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/2026-09-12-founders-wire-openai-agents-api-deepseek-v41-flash-ayar-optics.html",
+     "hits": 3
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Claude-User",
    "label": "Claude (user browsing)",
    "category": "ai",
@@ -373,44 +406,11 @@
    "verifiable": false
   },
   {
-   "name": "Meta-ExternalAgent",
-   "label": "Meta AI",
-   "category": "ai",
-   "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2616,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-20",
-   "lastSeen": "2026-10-04",
-   "topPaths": [
-    {
-     "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 26
-    },
-    {
-     "path": "/build",
-     "hits": 7
-    },
-    {
-     "path": "/posts/2026-09-20-founders-wire-raindrop-agent-monitoring-frontier-safety-standards-astra-for-law.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-09-12-founders-wire-openai-agents-api-deepseek-v41-flash-ayar-optics.html",
-     "hits": 3
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "YouBot",
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2183,
+   "hits": 2184,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -476,7 +476,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1939,
+   "hits": 1941,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
