@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-04T23:44:56.723Z",
+ "generated": "2026-10-04T23:55:00.301Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 5,
   "todayReads": 16,
   "avgTimeSec": 45,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3246,
+  "views": 3249,
   "reads": 316,
   "completes": 12,
   "plays": 10,
-  "sessions": 3118
+  "sessions": 3121
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2770,
+   "views": 2773,
    "reads": 149,
-   "sessions": 2779
+   "sessions": 2782
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2770,
+   "views": 2773,
    "reads": 149,
    "completes": 9,
-   "sessions": 2779,
+   "sessions": 2782,
    "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2676,
+   "views": 2675,
    "reads": 287,
-   "sessions": 2558
+   "sessions": 2557
   },
   {
    "device": "mobile",
-   "views": 570,
+   "views": 574,
    "reads": 29,
-   "sessions": 560
+   "sessions": 564
   }
  ],
  "topContent": [
@@ -377,7 +377,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 23,
+   "views": 24,
    "reads": 6,
    "plays": 0
   },
@@ -606,6 +606,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 24,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "firecracker-vs-gvisor-vs-kata-agent-sandbox-isolation",
    "title": "Firecracker vs gVisor vs Kata: Isolating AI Agent Code Execution",
    "section": "wire",
@@ -623,16 +633,6 @@
    "author": "dex",
    "views": 23,
    "reads": 8,
-   "plays": 0
-  },
-  {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 23,
-   "reads": 6,
    "plays": 0
   },
   {
@@ -666,9 +666,9 @@
   },
   {
    "path": "/",
-   "views": 135,
+   "views": 136,
    "reads": 3,
-   "sessions": 133,
+   "sessions": 134,
    "avg_dwell_sec": 12
   },
   {
