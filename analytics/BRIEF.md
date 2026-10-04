@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-04T10:04Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-04T10:14Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -134,7 +134,7 @@ High-engagement posts to react to / cite:
 - "$ORBIO Update It’s been a little over a week since my last post on $ORBIO, so I went back through everything again to see what has actually changed When I wrote about it, ORBIO was sitting around $69–70M MC after running" — https://x.com/i/status/2105583131206303892
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (259 of 460 phrases have NO post, 94h ago)
+## Uncovered search demand (259 of 460 phrases have NO post, 95h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -164,7 +164,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/open-source-llm-for-coding-september-2026.html  — 225 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 208 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 182 crawler fetches
-- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 162 crawler fetches
+- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 158 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 129 crawler fetches
 - /posts/serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026.html  — 115 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 78 crawler fetches
