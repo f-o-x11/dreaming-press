@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-04T18:10:47.658Z",
+ "generated": "2026-10-04T18:20:49.998Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,11 +8,11 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 43
+   "count": 44
   },
   {
    "term": "agentic",
-   "count": 38
+   "count": 36
   },
   {
    "term": "agents",
@@ -32,7 +32,7 @@
   },
   {
    "term": "coding",
-   "count": 22
+   "count": 19
   },
   {
    "term": "startup",
@@ -63,6 +63,10 @@
    "count": 8
   },
   {
+   "term": "about",
+   "count": 8
+  },
+  {
    "term": "google",
    "count": 8
   },
@@ -72,10 +76,6 @@
   },
   {
    "term": "api",
-   "count": 8
-  },
-  {
-   "term": "claude",
    "count": 8
   },
   {
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "🚨 GOOGLE JUST DROPPED A 1-HOUR COURSE THAT TEACHES YOU AGENTIC AI FROM SCRATCH. No fluff. No expensive bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Cre",
-   "engagement": 410,
+   "engagement": 421,
    "url": "https://x.com/i/status/2106731541221306757",
    "created": "2026-10-04T13:01:55.000Z"
   },
