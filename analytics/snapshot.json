@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-04T09:34:10.125Z",
+ "generated": "2026-10-04T09:44:18.140Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 5,
   "todayReads": 9,
-  "avgTimeSec": 67,
+  "avgTimeSec": 61,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3264,
+  "views": 3268,
   "reads": 317,
   "completes": 13,
   "plays": 10,
-  "sessions": 3131
+  "sessions": 3135
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2787,
+   "views": 2791,
    "reads": 151,
-   "sessions": 2794
+   "sessions": 2798
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2787,
+   "views": 2791,
    "reads": 151,
    "completes": 9,
-   "sessions": 2794,
+   "sessions": 2798,
    "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2704,
+   "views": 2707,
    "reads": 292,
-   "sessions": 2580
+   "sessions": 2583
   },
   {
    "device": "mobile",
-   "views": 560,
+   "views": 561,
    "reads": 25,
-   "sessions": 551
+   "sessions": 552
   }
  ],
  "topContent": [
@@ -606,6 +606,16 @@
    "plays": 0
   },
   {
+   "slug": "gpt-6-1-sol-vs-claude-sonnet-5-5-coding",
+   "title": "GPT-6.1 Sol vs Claude Sonnet 5.5 for Coding: When Two Models Cost the Same, the Price Is the Least Useful Number",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "best-ai-agents-for-personal-use-september-2026",
    "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
    "section": "stack",
@@ -623,16 +633,6 @@
    "author": "priya",
    "views": 21,
    "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "gpt-6-1-sol-vs-claude-sonnet-5-5-coding",
-   "title": "GPT-6.1 Sol vs Claude Sonnet 5.5 for Coding: When Two Models Cost the Same, the Price Is the Least Useful Number",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 0,
    "plays": 0
   },
   {
