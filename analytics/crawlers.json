@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-04T11:45:38.990Z",
+ "generated": "2026-10-04T11:55:40.320Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13691,
+ "verifiedAiHits": 13694,
  "logsScanned": 30,
  "windowStart": "2026-09-20",
  "windowEnd": "2026-10-04",
- "totalHits": 101605,
- "aiHits": 83034,
+ "totalHits": 102185,
+ "aiHits": 83607,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29126,
+   "hits": 29135,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14231,
+   "hits": 14241,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 12439,
+   "hits": 12443,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7510,
-   "verifiedHits": 7452,
+   "hits": 7515,
+   "verifiedHits": 7457,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
    "topPaths": [
@@ -140,6 +140,39 @@
     }
    ],
    "verifiable": true
+  },
+  {
+   "name": "Meta-ExternalAgent",
+   "label": "Meta AI",
+   "category": "ai",
+   "home": "https://developers.facebook.com/docs/sharing/bot",
+   "hits": 5334,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-20",
+   "lastSeen": "2026-10-04",
+   "topPaths": [
+    {
+     "path": "/posts/open-source-llm-for-coding-september-2026.html",
+     "hits": 26
+    },
+    {
+     "path": "/build",
+     "hits": 9
+    },
+    {
+     "path": "/dashboard",
+     "hits": 4
+    },
+    {
+     "path": "/posts/2026-09-13-founders-wire-sakana-fugu-china-chip-prices-altman-ipo.html",
+     "hits": 4
+    },
+    {
+     "path": "/posts/2026-09-20-founders-wire-raindrop-agent-monitoring-frontier-safety-standards-astra-for-law.html",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
   },
   {
    "name": "OAI-SearchBot",
@@ -175,44 +208,11 @@
    "verifiable": true
   },
   {
-   "name": "Meta-ExternalAgent",
-   "label": "Meta AI",
-   "category": "ai",
-   "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 4795,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-20",
-   "lastSeen": "2026-10-04",
-   "topPaths": [
-    {
-     "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 26
-    },
-    {
-     "path": "/build",
-     "hits": 8
-    },
-    {
-     "path": "/dashboard",
-     "hits": 4
-    },
-    {
-     "path": "/posts/2026-09-13-founders-wire-sakana-fugu-china-chip-prices-altman-ipo.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/2026-09-20-founders-wire-raindrop-agent-monitoring-frontier-safety-standards-astra-for-law.html",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Baiduspider",
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4557,
+   "hits": 4558,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4126,
-   "verifiedHits": 3924,
+   "hits": 4129,
+   "verifiedHits": 3927,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
    "topPaths": [
@@ -377,14 +377,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2635,
+   "hits": 2638,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 501
+     "hits": 502
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
@@ -410,7 +410,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2251,
+   "hits": 2256,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -476,7 +476,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1977,
+   "hits": 1978,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
