@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-04T11:55:40.320Z",
+ "generated": "2026-10-04T12:05:55.364Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13694,
+ "verifiedAiHits": 13695,
  "logsScanned": 30,
  "windowStart": "2026-09-20",
  "windowEnd": "2026-10-04",
- "totalHits": 102185,
- "aiHits": 83607,
+ "totalHits": 102680,
+ "aiHits": 84097,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29135,
+   "hits": 29151,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14241,
+   "hits": 14250,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7515,
-   "verifiedHits": 7457,
+   "hits": 7518,
+   "verifiedHits": 7460,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 5334,
+   "hits": 5794,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -168,8 +168,8 @@
      "hits": 4
     },
     {
-     "path": "/posts/2026-09-20-founders-wire-raindrop-agent-monitoring-frontier-safety-standards-astra-for-law.html",
-     "hits": 3
+     "path": "/posts/2026-09-17-founders-wire-lawzero-300m-agent-security-435m-typesafe.html",
+     "hits": 4
     }
    ],
    "verifiable": false
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2961,
-   "verifiedHits": 2836,
+   "hits": 2962,
+   "verifiedHits": 2837,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
    "topPaths": [
     {
      "path": "/",
-     "hits": 591
+     "hits": 592
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -410,7 +410,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2256,
+   "hits": 2260,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -476,7 +476,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1978,
+   "hits": 1979,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 634,
-   "verifiedHits": 500,
+   "hits": 635,
+   "verifiedHits": 501,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
    "topPaths": [
