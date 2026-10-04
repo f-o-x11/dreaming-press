@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-04T22:03:34.563Z",
+ "generated": "2026-10-04T22:13:39.784Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 16,
   "avgTimeSec": 50,
   "postsThisWeek": 7
  },
  "funnel": {
   "views": 3249,
-  "reads": 318,
+  "reads": 317,
   "completes": 12,
   "plays": 10,
   "sessions": 3121
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2771,
+   "views": 2772,
    "reads": 149,
-   "sessions": 2781
+   "sessions": 2782
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 221,
-   "reads": 26,
-   "sessions": 221
+   "views": 220,
+   "reads": 25,
+   "sessions": 220
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2771,
+   "views": 2772,
    "reads": 149,
    "completes": 9,
-   "sessions": 2781,
+   "sessions": 2782,
    "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 221,
-   "reads": 26,
+   "views": 220,
+   "reads": 25,
    "completes": 0,
-   "sessions": 221,
-   "read_rate": 0.118,
+   "sessions": 220,
+   "read_rate": 0.114,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 226,
-   "reads": 26,
-   "sessions": 224
+   "views": 225,
+   "reads": 25,
+   "sessions": 223
   },
   {
    "assistant": "Claude",
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2677,
+   "views": 2678,
    "reads": 288,
-   "sessions": 2559
+   "sessions": 2560
   },
   {
    "device": "mobile",
-   "views": 572,
-   "reads": 30,
-   "sessions": 562
+   "views": 571,
+   "reads": 29,
+   "sessions": 561
   }
  ],
  "topContent": [
@@ -322,9 +322,9 @@
    "plays": 1
   },
   {
-   "slug": "playwright-mcp-vs-cli-token-cost-browser-agents",
-   "title": "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K",
-   "section": "wire",
+   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
+   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 15,
@@ -332,12 +332,12 @@
    "plays": 0
   },
   {
-   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
-   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
-   "section": "stack",
+   "slug": "playwright-mcp-vs-cli-token-cost-browser-agents",
+   "title": "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 14,
+   "views": 15,
    "reads": 9,
    "plays": 0
   },
