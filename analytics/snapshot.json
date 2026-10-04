@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-04T04:20:17.579Z",
+ "generated": "2026-10-04T04:30:29.517Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,18 +8,18 @@
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3280,
-  "reads": 318,
+  "views": 3276,
+  "reads": 317,
   "completes": 13,
   "plays": 8,
-  "sessions": 3148
+  "sessions": 3145
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2804,
-   "reads": 154,
-   "sessions": 2812
+   "views": 2800,
+   "reads": 153,
+   "sessions": 2809
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2804,
-   "reads": 154,
+   "views": 2800,
+   "reads": 153,
    "completes": 9,
-   "sessions": 2812,
+   "sessions": 2809,
    "read_rate": 0.055,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -300,15 +300,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2718,
-   "reads": 295,
-   "sessions": 2595
+   "views": 2716,
+   "reads": 294,
+   "sessions": 2594
   },
   {
    "device": "mobile",
-   "views": 562,
+   "views": 560,
    "reads": 23,
-   "sessions": 553
+   "sessions": 551
   }
  ],
  "topContent": [
@@ -423,16 +423,6 @@
    "plays": 0
   },
   {
-   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
-   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 6,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
    "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
    "section": "stack",
@@ -459,6 +449,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 6,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
+   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 5,
    "reads": 4,
    "plays": 0
   }
