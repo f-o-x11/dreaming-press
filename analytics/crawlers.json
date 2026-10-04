@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-04T09:54:18.427Z",
+ "generated": "2026-10-04T10:04:25.127Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13672,
+ "verifiedAiHits": 13674,
  "logsScanned": 30,
  "windowStart": "2026-09-20",
  "windowEnd": "2026-10-04",
- "totalHits": 99964,
- "aiHits": 81507,
+ "totalHits": 100039,
+ "aiHits": 81576,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29007,
+   "hits": 29014,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14143,
+   "hits": 14151,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -61,11 +61,11 @@
      "hits": 20
     },
     {
-     "path": "/tags/reportive",
-     "hits": 18
+     "path": "/stack.html",
+     "hits": 19
     },
     {
-     "path": "/stack.html",
+     "path": "/tags/reportive",
      "hits": 18
     },
     {
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 12378,
+   "hits": 12381,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -113,14 +113,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7478,
-   "verifiedHits": 7420,
+   "hits": 7481,
+   "verifiedHits": 7423,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 77
+     "hits": 78
     },
     {
      "path": "/build",
@@ -146,8 +146,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5128,
-   "verifiedHits": 5028,
+   "hits": 5130,
+   "verifiedHits": 5030,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
    "topPaths": [
@@ -169,7 +169,7 @@
     },
     {
      "path": "/posts/2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe.html",
-     "hits": 34
+     "hits": 35
     }
    ],
    "verifiable": true
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4519,
+   "hits": 4520,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -245,7 +245,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 3612,
+   "hits": 3657,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -259,15 +259,15 @@
      "hits": 8
     },
     {
+     "path": "/dashboard",
+     "hits": 4
+    },
+    {
      "path": "/posts/2026-09-20-founders-wire-raindrop-agent-monitoring-frontier-safety-standards-astra-for-law.html",
      "hits": 3
     },
     {
      "path": "/posts/2026-09-12-founders-wire-openai-agents-api-deepseek-v41-flash-ayar-optics.html",
-     "hits": 3
-    },
-    {
-     "path": "/tags/opinionated",
      "hits": 3
     }
    ],
@@ -377,18 +377,18 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2627,
+   "hits": 2629,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 498
+     "hits": 499
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
-     "hits": 207
+     "hits": 208
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
@@ -410,7 +410,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2216,
+   "hits": 2218,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -476,7 +476,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1963,
+   "hits": 1965,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
