@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-04T06:31:57.681Z",
+ "generated": "2026-10-04T06:42:00.422Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 6,
   "avgTimeSec": 83,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3269,
-  "reads": 318,
+  "views": 3268,
+  "reads": 317,
   "completes": 13,
   "plays": 9,
-  "sessions": 3138
+  "sessions": 3137
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2792,
-   "reads": 153,
-   "sessions": 2801
+   "views": 2791,
+   "reads": 152,
+   "sessions": 2800
   },
   {
    "channel": "organic",
@@ -73,11 +73,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2792,
-   "reads": 153,
+   "views": 2791,
+   "reads": 152,
    "completes": 9,
-   "sessions": 2801,
-   "read_rate": 0.055,
+   "sessions": 2800,
+   "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": 6
@@ -283,9 +283,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2708,
-   "reads": 294,
-   "sessions": 2586
+   "views": 2707,
+   "reads": 293,
+   "sessions": 2585
   },
   {
    "device": "mobile",
@@ -406,16 +406,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-docling-vs-unstructured-vs-llamaparse",
-   "title": "Docling vs Unstructured vs LlamaParse: Parsing Documents for RAG in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "2026-07-11-typescript-7-go-native-compiler-ships",
    "title": "TypeScript 7.0 Ships the Go Rewrite: 10x Builds Land, but Your Framework Waits for 7.1",
    "section": "wire",
@@ -441,6 +431,16 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
+   "views": 5,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "google-agentic-course-cheat-sheet-watch-or-skip",
+   "title": "Google's Viral 1-Hour Agentic Course: The Founder's Watch-or-Skip Cheat Sheet",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
    "views": 5,
    "reads": 4,
    "plays": 0
@@ -600,16 +600,6 @@
    "plays": 0
   },
   {
-   "slug": "vertical-ai-agents-legal-health-finance-where-2026-funding-is-going",
-   "title": "Where 2026's Vertical-AI Money Actually Went: Legal Took the Cash, Healthcare Took the Deals",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 22,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "best-ai-agents-for-personal-use-september-2026",
    "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
    "section": "stack",
@@ -617,6 +607,16 @@
    "author": "dex",
    "views": 21,
    "reads": 7,
+   "plays": 0
+  },
+  {
+   "slug": "vertical-ai-agents-legal-health-finance-where-2026-funding-is-going",
+   "title": "Where 2026's Vertical-AI Money Actually Went: Legal Took the Cash, Healthcare Took the Deals",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 21,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -667,9 +667,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 54,
+   "views": 55,
    "reads": 0,
-   "sessions": 54,
+   "sessions": 55,
    "avg_dwell_sec": null
   },
   {

@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-04T06:31:57.093Z",
+ "generated": "2026-10-04T06:41:59.787Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13638,
+ "verifiedAiHits": 13641,
  "logsScanned": 30,
  "windowStart": "2026-09-20",
  "windowEnd": "2026-10-04",
- "totalHits": 97910,
- "aiHits": 79645,
+ "totalHits": 97982,
+ "aiHits": 79704,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28702,
+   "hits": 28716,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13989,
+   "hits": 13997,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 12338,
+   "hits": 12344,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7417,
-   "verifiedHits": 7359,
+   "hits": 7422,
+   "verifiedHits": 7364,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
    "topPaths": [
@@ -146,8 +146,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5121,
-   "verifiedHits": 5021,
+   "hits": 5122,
+   "verifiedHits": 5022,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4449,
+   "hits": 4455,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2936,
-   "verifiedHits": 2811,
+   "hits": 2938,
+   "verifiedHits": 2813,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
    "topPaths": [
     {
      "path": "/",
-     "hits": 580
+     "hits": 581
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -311,7 +311,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2681,
+   "hits": 2682,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -344,7 +344,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2613,
+   "hits": 2615,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -377,7 +377,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2380,
+   "hits": 2400,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -410,7 +410,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2155,
+   "hits": 2160,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
@@ -424,15 +424,15 @@
      "hits": 2
     },
     {
+     "path": "/posts/self-consistency-vs-best-of-n-sampling.html",
+     "hits": 2
+    },
+    {
      "path": "/posts/microsoft-mai-cyber-1-flash-agentic-security-what-founders-do.html",
      "hits": 2
     },
     {
      "path": "/posts/how-to-test-a-non-deterministic-ai-agent.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/pgvector-vs-pinecone-vs-qdrant.html",
      "hits": 2
     }
    ],
@@ -476,7 +476,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1929,
+   "hits": 1931,
    "verifiedHits": 0,
    "firstSeen": "2026-09-20",
    "lastSeen": "2026-10-04",
