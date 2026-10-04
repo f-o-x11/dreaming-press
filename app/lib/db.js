@@ -1984,7 +1984,15 @@ const COMPARISON_CLUSTERS = [
   // Corpus-scanned (2026-10-03): the compound `open-weight-llms` appears in exactly one slug
   // — this one, previously orphaned to the catch-all — and in no earlier cluster regex, so
   // first-match-wins rescues 1 orphan and poaches nothing.
-  ["Models & LLM APIs",      /(^|-)(gpt|claude|opus|fast-mode|gemini|qwen|qwen3|kimi|glm|minimax|deepseek|hunyuan|hy3|tencent|nemotron|liquid|diffusiongemma|unisound|longcat|poolside|laguna|gemma|small-language-models|mixture-of-experts|vision-language|open-source-llm|open-weight-llms|migrate|migration|closed|responses-api|assistants-api|chat-completions|bedrock|vertex-ai|azure-ai|foundry|price-map)(-|$)/],
+  // `writing` added (2026-10-04): the "best LLM for writing / creative writing" guides
+  // (best-llm-for-writing-2026, best-llm-for-creative-writing-october-2026) are
+  // model-SELECTION decisions — which model writes best — so they rail beside the other
+  // model guides here. Corpus-scanned (2026-10-04): a bounded `-writing-` appears in
+  // exactly those two slugs (query-REwriting carries no bounded `writing` token, and the
+  // how-to-WRITE-* slugs carry `write`, not `writing`), both previously orphaned to the
+  // catch-all and matching no earlier cluster regex, so first-match-wins rescues 2
+  // orphans and poaches nothing.
+  ["Models & LLM APIs",      /(^|-)(gpt|claude|opus|fast-mode|gemini|qwen|qwen3|kimi|glm|minimax|deepseek|hunyuan|hy3|tencent|nemotron|liquid|diffusiongemma|unisound|longcat|poolside|laguna|gemma|small-language-models|mixture-of-experts|vision-language|writing|open-source-llm|open-weight-llms|migrate|migration|closed|responses-api|assistants-api|chat-completions|bedrock|vertex-ai|azure-ai|foundry|price-map)(-|$)/],
   // Agent SPEND-MANAGEMENT + PRICING is a distinct buyer-intent class from the
   // inference/token-cost pieces already owned by Inference & Gateways (token-cost,
   // cost-optimization, cost-attribution): these are the "how much does an agent cost
