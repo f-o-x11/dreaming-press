@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-05T06:50:06.053Z",
+ "generated": "2026-10-05T07:00:10.374Z",
  "windowDays": 14,
  "site": {
   "readersNow": 5,
-  "todayReads": 7,
-  "avgTimeSec": 54,
+  "todayReads": 8,
+  "avgTimeSec": 56,
   "postsThisWeek": 5
  },
  "funnel": {
   "views": 3235,
-  "reads": 319,
+  "reads": 320,
   "completes": 11,
   "plays": 10,
   "sessions": 3106
@@ -19,12 +19,12 @@
    "channel": "direct",
    "views": 2765,
    "reads": 149,
-   "sessions": 2767
+   "sessions": 2768
   },
   {
    "channel": "organic",
    "views": 191,
-   "reads": 125,
+   "reads": 126,
    "sessions": 149
   },
   {
@@ -76,7 +76,7 @@
    "views": 2765,
    "reads": 149,
    "completes": 8,
-   "sessions": 2767,
+   "sessions": 2768,
    "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -96,10 +96,10 @@
   {
    "channel": "organic",
    "views": 191,
-   "reads": 125,
+   "reads": 126,
    "completes": 3,
    "sessions": 149,
-   "read_rate": 0.654,
+   "read_rate": 0.66,
    "complete_rate": 0.016,
    "pages_per_session": 1.28,
    "median_dwell_sec": 6
@@ -290,7 +290,7 @@
   {
    "device": "desktop",
    "views": 2665,
-   "reads": 290,
+   "reads": 291,
    "sessions": 2546
   },
   {
@@ -432,22 +432,22 @@
    "plays": 0
   },
   {
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "2026-07-11-typescript-7-go-native-compiler-ships",
    "title": "TypeScript 7.0 Ships the Go Rewrite: 10x Builds Land, but Your Framework Waits for 7.1",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 8,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "how-to-cap-runaway-claude-code-subagents-web-searches",
-   "title": "How to Cap a Runaway Claude Code Agent: The New Per-Session Subagent and Web-Search Budgets",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 6,
    "reads": 4,
    "plays": 0
   }
@@ -776,7 +776,7 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 49,
+   "hits": 50,
    "sessions": 24
   },
   {
