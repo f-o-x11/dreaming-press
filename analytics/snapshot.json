@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-05T17:16:52.275Z",
+ "generated": "2026-10-05T17:27:00.557Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 7,
   "todayReads": 24,
-  "avgTimeSec": 42,
+  "avgTimeSec": 41,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3208,
+  "views": 3212,
   "reads": 314,
   "completes": 11,
   "plays": 9,
-  "sessions": 3081
+  "sessions": 3085
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2733,
+   "views": 2737,
    "reads": 143,
-   "sessions": 2742
+   "sessions": 2746
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2733,
+   "views": 2737,
    "reads": 143,
    "completes": 8,
-   "sessions": 2742,
+   "sessions": 2746,
    "read_rate": 0.052,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2661,
+   "views": 2665,
    "reads": 288,
-   "sessions": 2544
+   "sessions": 2548
   },
   {
    "device": "mobile",
@@ -636,16 +636,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
-   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "mcp-tool-annotations-explained",
    "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
    "section": "wire",
@@ -654,14 +644,24 @@
    "views": 19,
    "reads": 6,
    "plays": 0
+  },
+  {
+   "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 19,
+   "reads": 1,
+   "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 392,
+   "views": 393,
    "reads": 0,
-   "sessions": 392,
+   "sessions": 393,
    "avg_dwell_sec": 22
   },
   {
