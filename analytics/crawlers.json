@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-05T10:11:59.738Z",
+ "generated": "2026-10-05T10:22:39.727Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12222,
+ "verifiedAiHits": 12225,
  "logsScanned": 30,
  "windowStart": "2026-09-21",
  "windowEnd": "2026-10-05",
- "totalHits": 101057,
- "aiHits": 82559,
+ "totalHits": 101096,
+ "aiHits": 82582,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28620,
+   "hits": 28632,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14228,
+   "hits": 14235,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7245,
-   "verifiedHits": 7195,
+   "hits": 7254,
+   "verifiedHits": 7204,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4675,
+   "hits": 4680,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3094,
-   "verifiedHits": 2899,
+   "hits": 3095,
+   "verifiedHits": 2900,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
    "topPaths": [
@@ -300,8 +300,8 @@
      "hits": 17
     },
     {
-     "path": "/posts/2026-09-24-founders-wire-un-security-council-intrinsic-core-mirendil.html",
-     "hits": 15
+     "path": "/dashboard",
+     "hits": 16
     }
    ],
    "verifiable": true
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2919,
-   "verifiedHits": 2792,
+   "hits": 2921,
+   "verifiedHits": 2794,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
    "topPaths": [
     {
      "path": "/",
-     "hits": 595
+     "hits": 596
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -344,14 +344,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2662,
+   "hits": 2663,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 511
+     "hits": 512
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2031,
+   "hits": 2033,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
