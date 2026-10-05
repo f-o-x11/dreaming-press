@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-05T13:14:07.828Z",
+ "generated": "2026-10-05T13:24:09.973Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 19,
   "avgTimeSec": 32,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3233,
-  "reads": 320,
+  "views": 3232,
+  "reads": 319,
   "completes": 11,
   "plays": 9,
-  "sessions": 3103
+  "sessions": 3102
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2757,
-   "reads": 150,
-   "sessions": 2761
+   "views": 2756,
+   "reads": 149,
+   "sessions": 2760
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2757,
-   "reads": 150,
+   "views": 2756,
+   "reads": 149,
    "completes": 8,
-   "sessions": 2761,
+   "sessions": 2760,
    "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2678,
-   "reads": 291,
-   "sessions": 2558
+   "views": 2677,
+   "reads": 290,
+   "sessions": 2557
   },
   {
    "device": "mobile",
@@ -606,16 +606,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo",
-   "title": "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 24,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "best-ai-agents-for-personal-use-september-2026",
    "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
    "section": "stack",
@@ -633,6 +623,16 @@
    "author": "dex",
    "views": 23,
    "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo",
+   "title": "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 23,
+   "reads": 0,
    "plays": 0
   },
   {

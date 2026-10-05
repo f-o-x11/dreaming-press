@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-05T13:14:07.238Z",
+ "generated": "2026-10-05T13:24:09.326Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12271,
+ "verifiedAiHits": 12276,
  "logsScanned": 30,
  "windowStart": "2026-09-21",
  "windowEnd": "2026-10-05",
- "totalHits": 101997,
- "aiHits": 83327,
+ "totalHits": 103300,
+ "aiHits": 84620,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28808,
+   "hits": 28821,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14367,
+   "hits": 14376,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 12030,
+   "hits": 12066,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -102,8 +102,41 @@
      "hits": 6
     },
     {
-     "path": "/posts/claude-code-auto-mode-default-august-14-what-founders-check.html",
+     "path": "/compare/pydantic-ai-vs-claude-agent-sdk",
      "hits": 6
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "Meta-ExternalAgent",
+   "label": "Meta AI",
+   "category": "ai",
+   "home": "https://developers.facebook.com/docs/sharing/bot",
+   "hits": 8158,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-21",
+   "lastSeen": "2026-10-05",
+   "topPaths": [
+    {
+     "path": "/posts/open-source-llm-for-coding-september-2026.html",
+     "hits": 39
+    },
+    {
+     "path": "/build",
+     "hits": 11
+    },
+    {
+     "path": "/dashboard",
+     "hits": 8
+    },
+    {
+     "path": "/authors/dex",
+     "hits": 5
+    },
+    {
+     "path": "/posts/best-reranker-for-rag.html",
+     "hits": 5
     }
    ],
    "verifiable": false
@@ -113,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7305,
-   "verifiedHits": 7255,
+   "hits": 7311,
+   "verifiedHits": 7261,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
    "topPaths": [
@@ -140,39 +173,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "Meta-ExternalAgent",
-   "label": "Meta AI",
-   "category": "ai",
-   "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 6929,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-21",
-   "lastSeen": "2026-10-05",
-   "topPaths": [
-    {
-     "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 38
-    },
-    {
-     "path": "/build",
-     "hits": 11
-    },
-    {
-     "path": "/dashboard",
-     "hits": 8
-    },
-    {
-     "path": "/authors/dex",
-     "hits": 5
-    },
-    {
-     "path": "/posts/best-reranker-for-rag.html",
-     "hits": 5
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "OAI-SearchBot",
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4734,
+   "hits": 4738,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3103,
-   "verifiedHits": 2908,
+   "hits": 3108,
+   "verifiedHits": 2913,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2595,
+   "hits": 2596,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
