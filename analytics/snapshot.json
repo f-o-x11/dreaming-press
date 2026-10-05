@@ -1,43 +1,43 @@
 {
- "generated": "2026-10-05T02:47:12.241Z",
+ "generated": "2026-10-05T02:57:17.300Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 1,
-  "avgTimeSec": 12,
+  "readersNow": 6,
+  "todayReads": 5,
+  "avgTimeSec": 88,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3249,
-  "reads": 316,
+  "views": 3254,
+  "reads": 320,
   "completes": 12,
   "plays": 10,
-  "sessions": 3118
+  "sessions": 3123
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2780,
-   "reads": 149,
-   "sessions": 2781
+   "views": 2782,
+   "reads": 150,
+   "sessions": 2784
   },
   {
    "channel": "organic",
-   "views": 188,
-   "reads": 123,
-   "sessions": 146
+   "views": 189,
+   "reads": 124,
+   "sessions": 147
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 219,
-   "reads": 26,
-   "sessions": 219
+   "views": 220,
+   "reads": 27,
+   "sessions": 220
   },
   {
    "channel": "ai",
-   "views": 20,
-   "reads": 9,
-   "sessions": 36
+   "views": 21,
+   "reads": 10,
+   "sessions": 37
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2780,
-   "reads": 149,
+   "views": 2782,
+   "reads": 150,
    "completes": 9,
-   "sessions": 2781,
+   "sessions": 2784,
    "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -84,22 +84,22 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 219,
-   "reads": 26,
+   "views": 220,
+   "reads": 27,
    "completes": 0,
-   "sessions": 219,
-   "read_rate": 0.119,
+   "sessions": 220,
+   "read_rate": 0.123,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
   {
    "channel": "organic",
-   "views": 188,
-   "reads": 123,
+   "views": 189,
+   "reads": 124,
    "completes": 3,
-   "sessions": 146,
-   "read_rate": 0.654,
+   "sessions": 147,
+   "read_rate": 0.656,
    "complete_rate": 0.016,
    "pages_per_session": 1.29,
    "median_dwell_sec": 6
@@ -117,13 +117,13 @@
   },
   {
    "channel": "ai",
-   "views": 20,
-   "reads": 9,
+   "views": 21,
+   "reads": 10,
    "completes": 0,
-   "sessions": 36,
-   "read_rate": 0.45,
+   "sessions": 37,
+   "read_rate": 0.476,
    "complete_rate": 0,
-   "pages_per_session": 0.56,
+   "pages_per_session": 0.57,
    "median_dwell_sec": 9
   },
   {
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 224,
-   "reads": 26,
-   "sessions": 222
+   "views": 226,
+   "reads": 28,
+   "sessions": 224
   },
   {
    "assistant": "Claude",
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2672,
-   "reads": 287,
-   "sessions": 2551
+   "views": 2677,
+   "reads": 291,
+   "sessions": 2556
   },
   {
    "device": "mobile",
@@ -362,6 +362,16 @@
    "plays": 1
   },
   {
+   "slug": "open-source-llm-for-coding-september-2026",
+   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 14,
+   "reads": 7,
+   "plays": 0
+  },
+  {
    "slug": "ai-agent-security-jobs",
    "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
    "section": "stack",
@@ -370,16 +380,6 @@
    "views": 13,
    "reads": 7,
    "plays": 1
-  },
-  {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 13,
-   "reads": 6,
-   "plays": 0
   },
   {
    "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
@@ -766,8 +766,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 81,
-   "sessions": 46
+   "hits": 83,
+   "sessions": 47
   },
   {
    "ref": "https://mail.google.com/",
