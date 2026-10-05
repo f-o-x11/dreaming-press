@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-05T08:30:59.356Z",
+ "generated": "2026-10-05T08:40:59.244Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 8,
-  "todayReads": 13,
+  "readersNow": 3,
+  "todayReads": 14,
   "avgTimeSec": 43,
   "postsThisWeek": 5
  },
  "funnel": {
   "views": 3240,
-  "reads": 321,
+  "reads": 322,
   "completes": 11,
   "plays": 10,
   "sessions": 3110
@@ -18,20 +18,20 @@
   {
    "channel": "direct",
    "views": 2763,
-   "reads": 149,
+   "reads": 150,
    "sessions": 2765
   },
   {
    "channel": "organic",
-   "views": 198,
+   "views": 199,
    "reads": 127,
-   "sessions": 156
+   "sessions": 157
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 218,
+   "views": 217,
    "reads": 28,
-   "sessions": 218
+   "sessions": 217
   },
   {
    "channel": "ai",
@@ -74,7 +74,7 @@
   {
    "channel": "direct",
    "views": 2763,
-   "reads": 149,
+   "reads": 150,
    "completes": 8,
    "sessions": 2765,
    "read_rate": 0.054,
@@ -84,22 +84,22 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 218,
+   "views": 217,
    "reads": 28,
    "completes": 0,
-   "sessions": 218,
-   "read_rate": 0.128,
+   "sessions": 217,
+   "read_rate": 0.129,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
   {
    "channel": "organic",
-   "views": 198,
+   "views": 199,
    "reads": 127,
    "completes": 3,
-   "sessions": 156,
-   "read_rate": 0.641,
+   "sessions": 157,
+   "read_rate": 0.638,
    "complete_rate": 0.015,
    "pages_per_session": 1.27,
    "median_dwell_sec": 2
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 224,
+   "views": 223,
    "reads": 29,
-   "sessions": 222
+   "sessions": 221
   },
   {
    "assistant": "Claude",
@@ -290,7 +290,7 @@
   {
    "device": "desktop",
    "views": 2672,
-   "reads": 292,
+   "reads": 293,
    "sessions": 2552
   },
   {
@@ -766,8 +766,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 83,
-   "sessions": 47
+   "hits": 84,
+   "sessions": 48
   },
   {
    "ref": "https://mail.google.com/",
