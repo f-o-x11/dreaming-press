@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-05T04:08:00.122Z",
+ "generated": "2026-10-05T04:18:11.091Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,7 +12,7 @@
   },
   {
    "term": "agentic",
-   "count": 37
+   "count": 36
   },
   {
    "term": "agents",
@@ -20,7 +20,7 @@
   },
   {
    "term": "build",
-   "count": 31
+   "count": 29
   },
   {
    "term": "founder",
@@ -28,7 +28,7 @@
   },
   {
    "term": "mcp",
-   "count": 23
+   "count": 21
   },
   {
    "term": "coding",
@@ -44,38 +44,22 @@
   },
   {
    "term": "first",
-   "count": 12
-  },
-  {
-   "term": "engineering",
    "count": 11
   },
   {
-   "term": "memory",
+   "term": "engineering",
    "count": 10
+  },
+  {
+   "term": "memory",
+   "count": 9
   },
   {
    "term": "people",
    "count": 8
   },
   {
-   "term": "scratch",
-   "count": 8
-  },
-  {
    "term": "about",
-   "count": 8
-  },
-  {
-   "term": "google",
-   "count": 8
-  },
-  {
-   "term": "dropped",
-   "count": 8
-  },
-  {
-   "term": "api",
    "count": 8
   },
   {
@@ -85,6 +69,22 @@
   {
    "term": "its",
    "count": 8
+  },
+  {
+   "term": "work",
+   "count": 7
+  },
+  {
+   "term": "scratch",
+   "count": 7
+  },
+  {
+   "term": "every",
+   "count": 7
+  },
+  {
+   "term": "google",
+   "count": 7
   }
  ],
  "hashtags": [
@@ -140,7 +140,7 @@
  "topPosts": [
   {
    "text": "🚨 GOOGLE JUST DROPPED A 1-HOUR COURSE THAT TEACHES YOU AGENTIC AI FROM SCRATCH. No fluff. No expensive bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Cre",
-   "engagement": 1678,
+   "engagement": 1731,
    "url": "https://x.com/i/status/2106731541221306757",
    "created": "2026-10-04T13:01:55.000Z"
   },
