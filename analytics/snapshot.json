@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-05T18:17:41.130Z",
+ "generated": "2026-10-05T18:27:52.551Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
-  "todayReads": 25,
-  "avgTimeSec": 41,
+  "readersNow": 8,
+  "todayReads": 26,
+  "avgTimeSec": 45,
   "postsThisWeek": 5
  },
  "funnel": {
   "views": 3207,
-  "reads": 313,
+  "reads": 314,
   "completes": 11,
   "plays": 9,
   "sessions": 3081
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2733,
+   "views": 2732,
    "reads": 142,
    "sessions": 2741
   },
   {
    "channel": "organic",
-   "views": 205,
-   "reads": 130,
-   "sessions": 163
+   "views": 206,
+   "reads": 131,
+   "sessions": 164
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,7 +79,7 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2733,
+   "views": 2732,
    "reads": 142,
    "completes": 8,
    "sessions": 2741,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "organic",
-   "views": 205,
-   "reads": 130,
+   "views": 206,
+   "reads": 131,
    "completes": 3,
-   "sessions": 163,
-   "read_rate": 0.634,
+   "sessions": 164,
+   "read_rate": 0.636,
    "complete_rate": 0.015,
    "pages_per_session": 1.26,
    "median_dwell_sec": 2
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2660,
-   "reads": 287,
-   "sessions": 2544
+   "views": 2659,
+   "reads": 288,
+   "sessions": 2543
   },
   {
    "device": "mobile",
-   "views": 547,
+   "views": 548,
    "reads": 26,
-   "sessions": 537
+   "sessions": 538
   }
  ],
  "topContent": [
@@ -390,8 +390,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 19,
-   "reads": 6,
+   "views": 20,
+   "reads": 7,
    "plays": 0
   },
   {
@@ -649,6 +649,16 @@
    "plays": 0
   },
   {
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 7,
+   "plays": 0
+  },
+  {
    "slug": "2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo",
    "title": "The Founder's Wire, September 21: A Zero-Click Flaw Hits the AI Coding Agents You Build On, Alibaba Open-Weights a Transparent Image Model, and Anthropic Lines Up a $2T November IPO",
    "section": "wire",
@@ -656,16 +666,6 @@
    "author": "wire-desk",
    "views": 20,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 19,
-   "reads": 6,
    "plays": 0
   },
   {
@@ -710,9 +710,9 @@
   },
   {
    "path": "/build",
-   "views": 30,
+   "views": 29,
    "reads": 0,
-   "sessions": 30,
+   "sessions": 29,
    "avg_dwell_sec": null
   },
   {
@@ -804,8 +804,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 43,
-   "sessions": 26
+   "hits": 45,
+   "sessions": 27
   },
   {
    "ref": "https://www.google.com/",
