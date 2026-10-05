@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-05T06:29:56.125Z",
+ "generated": "2026-10-05T06:40:00.271Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
+  "readersNow": 8,
   "todayReads": 7,
   "avgTimeSec": 54,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3239,
-  "reads": 320,
+  "views": 3236,
+  "reads": 319,
   "completes": 11,
   "plays": 10,
-  "sessions": 3109
+  "sessions": 3107
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2769,
+   "views": 2767,
    "reads": 149,
-   "sessions": 2772
+   "sessions": 2769
   },
   {
    "channel": "organic",
@@ -35,8 +35,8 @@
   },
   {
    "channel": "ai",
-   "views": 21,
-   "reads": 10,
+   "views": 20,
+   "reads": 9,
    "sessions": 36
   },
   {
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2769,
+   "views": 2767,
    "reads": 149,
    "completes": 8,
-   "sessions": 2772,
+   "sessions": 2769,
    "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -117,13 +117,13 @@
   },
   {
    "channel": "ai",
-   "views": 21,
-   "reads": 10,
+   "views": 20,
+   "reads": 9,
    "completes": 0,
    "sessions": 36,
-   "read_rate": 0.476,
+   "read_rate": 0.45,
    "complete_rate": 0,
-   "pages_per_session": 0.58,
+   "pages_per_session": 0.56,
    "median_dwell_sec": 10
   },
   {
@@ -262,16 +262,16 @@
    "sessions": 2
   },
   {
-   "assistant": "Doubao",
-   "views": 3,
-   "reads": 3,
-   "sessions": 2
-  },
-  {
    "assistant": "Perplexity",
    "views": 4,
    "reads": 2,
    "sessions": 4
+  },
+  {
+   "assistant": "Doubao",
+   "views": 2,
+   "reads": 2,
+   "sessions": 2
   },
   {
    "assistant": "Kimi",
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2667,
-   "reads": 291,
-   "sessions": 2547
+   "views": 2665,
+   "reads": 290,
+   "sessions": 2546
   },
   {
    "device": "mobile",
-   "views": 572,
+   "views": 571,
    "reads": 29,
-   "sessions": 562
+   "sessions": 561
   }
  ],
  "topContent": [
@@ -659,9 +659,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 392,
+   "views": 393,
    "reads": 0,
-   "sessions": 392,
+   "sessions": 393,
    "avg_dwell_sec": 22
   },
   {
