@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-05T11:23Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-05T11:33Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3242 views → 320 engaged reads → 11 completes · 3113 sessions.
-- Channels: direct 150r/2769v · organic 127r/198v · campaign:chatgpt.com 28r/215v · ai 6r/17v · referral 5r/33v · campaign:qwant 4r/6v · social 0r/3v · campaign:perplexity 0r/1v · internal-nav 0r/0v.
+- Funnel: 3241 views → 320 engaged reads → 11 completes · 3112 sessions.
+- Channels: direct 150r/2768v · organic 127r/198v · campaign:chatgpt.com 28r/215v · ai 6r/17v · referral 5r/33v · campaign:qwant 4r/6v · social 0r/3v · campaign:perplexity 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 28r/220v · Claude 3r/4v · Perplexity 1r/3v · Doubao 1r/1v · Kimi 0r/2v · DeepSeek 0r/1v.
 - Referrers: bing.com, mail.google.com, duckduckgo.com, cn.bing.com, google.com, search.brave.com, chatgpt.com, brand, youtube.com, claude.ai.
 - Engaged-read winners by section: wire=7, stack=8.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2769 views · read 5.4% · complete 0.3% · 1 pages/session · median 6s
+- direct: 2768 views · read 5.4% · complete 0.3% · 1 pages/session · median 6s
 - campaign:chatgpt.com: 215 views · read 13.0% · complete 0.0% · 1 pages/session · median ?s
 - organic: 198 views · read 64.1% · complete 1.5% · 1.27 pages/session · median 2s
 - referral: 33 views · read 15.2% · complete 0.0% · 1 pages/session · median ?s
@@ -125,14 +125,14 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agent(42), agentic(37), agents(34), build(29), founder(29), mcp(23), coding(20), startup(20), building(16), first(12), people(10), engineering(10), memory(10), scratch(8), google(8).
+Hot terms: agent(42), agentic(37), agents(35), build(30), founder(29), mcp(23), coding(20), startup(20), building(15), first(12), people(10), memory(10), engineering(9), scratch(8), google(8).
 Hashtags: #ai, #startup, #founder, #startups, #datascience, #aiagents, #pymc, #3285, #latam, #business.
 High-engagement posts to react to / cite:
 - "🚨 GOOGLE JUST DROPPED A 1-HOUR COURSE THAT TEACHES YOU AGENTIC AI FROM SCRATCH. No fluff. No expensive bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Cre" — https://x.com/i/status/2106731541221306757
 - "Here's how frontier teams went fully AI-native in how they build. With Amazon as the example AWS's VP of Agentic AI just shared what happened when Amazon teams rebuilt how they work around coding agents: &gt; 6 engineers" — https://x.com/i/status/2106409333030367242
 - "Sam Altman (CEO of OpenAI): "I have used GrokBot &amp; Muse, but Dots is a totally different category - a new level of capabilities. At OpenAI, more than 80% of our team are running a swarm of Dots agents to ship, update" — https://x.com/i/status/2105398302673862690
+- "AI is getting smarter. But smarter agents alone won’t build the agentic economy. They need somewhere to verify identity, prove permissions, move money and settle transactions without turning every interaction into a manu" — https://x.com/i/status/2104645989801791697
 - "$ORBIO Update It’s been a little over a week since my last post on $ORBIO, so I went back through everything again to see what has actually changed When I wrote about it, ORBIO was sitting around $69–70M MC after running" — https://x.com/i/status/2105583131206303892
-- "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –" — https://x.com/i/status/2105928282441240868
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 - Search-demand signal STALE (120h old, 259 uncovered phrases from the last good run). Treat as directional until it refreshes.
