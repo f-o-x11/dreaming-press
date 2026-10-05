@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-05T15:05Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-05T15:15Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3223 views → 318 engaged reads → 11 completes · 3093 sessions.
-- Channels: direct 146r/2746v · organic 129r/204v · campaign:chatgpt.com 28r/213v · ai 6r/17v · referral 5r/33v · campaign:qwant 4r/6v · social 0r/3v · campaign:perplexity 0r/1v · internal-nav 0r/0v.
+- Funnel: 3225 views → 319 engaged reads → 11 completes · 3095 sessions.
+- Channels: direct 146r/2747v · organic 130r/205v · campaign:chatgpt.com 28r/213v · ai 6r/17v · referral 5r/33v · campaign:qwant 4r/6v · social 0r/3v · campaign:perplexity 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 28r/218v · Claude 3r/4v · Perplexity 1r/3v · Doubao 1r/1v · Kimi 0r/2v · DeepSeek 0r/1v.
 - Referrers: bing.com, mail.google.com, duckduckgo.com, cn.bing.com, google.com, search.brave.com, chatgpt.com, brand, youtube.com, bing.com.
 - Engaged-read winners by section: wire=6, stack=9.
@@ -23,9 +23,9 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2746 views · read 5.3% · complete 0.3% · 1 pages/session · median 6s
+- direct: 2747 views · read 5.3% · complete 0.3% · 1 pages/session · median 6s
 - campaign:chatgpt.com: 213 views · read 13.1% · complete 0.0% · 1 pages/session · median ?s
-- organic: 204 views · read 63.2% · complete 1.5% · 1.26 pages/session · median 2s
+- organic: 205 views · read 63.4% · complete 1.5% · 1.26 pages/session · median 2s
 - referral: 33 views · read 15.2% · complete 0.0% · 1 pages/session · median ?s
 - ai: 17 views · read 35.3% · complete 0.0% · 0.5 pages/session · median 10s
 - campaign:qwant: 6 views · read 66.7% · complete 0.0% · 3 pages/session · median ?s
@@ -59,7 +59,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 392 views, 0 reads, 392 sessions, avg 22s
+- /stack/:tool — 393 views, 0 reads, 393 sessions, avg 22s
 - / — 140 views, 4 reads, 138 sessions, avg 12s
 - /best/:cat — 55 views, 0 reads, 55 sessions
 - /compare/:pair — 37 views, 0 reads, 37 sessions, avg 21s
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agent(42), agentic(38), agents(35), build(32), founder(29), mcp(24), coding(20), startup(19), first(14), building(14), memory(11), people(10), google(10), loops(10), engineering(9).
+Hot terms: agent(43), agentic(38), agents(36), build(33), founder(29), mcp(24), coding(20), startup(19), first(14), building(14), memory(11), people(10), google(10), loops(10), engineering(9).
 Hashtags: #ai, #startup, #founder, #startups, #datascience, #aiagents, #pymc, #3285, #latam, #business.
 High-engagement posts to react to / cite:
 - "🚨 GOOGLE JUST DROPPED A 1-HOUR COURSE THAT TEACHES YOU AGENTIC AI FROM SCRATCH. No fluff. No expensive bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Cre" — https://x.com/i/status/2106731541221306757
@@ -135,7 +135,7 @@ High-engagement posts to react to / cite:
 - "$ORBIO Update It’s been a little over a week since my last post on $ORBIO, so I went back through everything again to see what has actually changed When I wrote about it, ORBIO was sitting around $69–70M MC after running" — https://x.com/i/status/2105583131206303892
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-- Search-demand signal STALE (123h old, 259 uncovered phrases from the last good run). Treat as directional until it refreshes.
+- Search-demand signal STALE (124h old, 259 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 12310 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4810, Perplexity 2921, ChatGPT (user browsing) 2846, GPTBot (OpenAI) 1733).
