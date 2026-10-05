@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-05T08:40:59.244Z",
+ "generated": "2026-10-05T08:51:00.379Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 14,
+  "readersNow": 4,
+  "todayReads": 16,
   "avgTimeSec": 43,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3240,
-  "reads": 322,
+  "views": 3242,
+  "reads": 323,
   "completes": 11,
   "plays": 10,
-  "sessions": 3110
+  "sessions": 3111
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2763,
-   "reads": 150,
-   "sessions": 2765
+   "views": 2766,
+   "reads": 151,
+   "sessions": 2768
   },
   {
    "channel": "organic",
-   "views": 199,
+   "views": 198,
    "reads": 127,
-   "sessions": 157
+   "sessions": 156
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -67,17 +67,17 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 21
+   "sessions": 22
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2763,
-   "reads": 150,
+   "views": 2766,
+   "reads": 151,
    "completes": 8,
-   "sessions": 2765,
-   "read_rate": 0.054,
+   "sessions": 2768,
+   "read_rate": 0.055,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": 6
@@ -95,11 +95,11 @@
   },
   {
    "channel": "organic",
-   "views": 199,
+   "views": 198,
    "reads": 127,
    "completes": 3,
-   "sessions": 157,
-   "read_rate": 0.638,
+   "sessions": 156,
+   "read_rate": 0.641,
    "complete_rate": 0.015,
    "pages_per_session": 1.27,
    "median_dwell_sec": 2
@@ -164,7 +164,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 21,
+   "sessions": 22,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -214,8 +214,8 @@
   },
   {
    "surface": "article-body",
-   "clicks": 2,
-   "sessions": 2
+   "clicks": 3,
+   "sessions": 3
   },
   {
    "surface": "un-body",
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2672,
-   "reads": 293,
-   "sessions": 2552
+   "views": 2674,
+   "reads": 294,
+   "sessions": 2553
   },
   {
    "device": "mobile",
@@ -372,16 +372,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-security-jobs",
-   "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 6,
-   "plays": 1
-  },
-  {
    "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
    "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
    "section": "wire",
@@ -420,6 +410,16 @@
    "views": 12,
    "reads": 5,
    "plays": 0
+  },
+  {
+   "slug": "ai-agent-security-jobs",
+   "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 5,
+   "plays": 1
   },
   {
    "slug": "lightpanda-vs-playwright-vs-browserless-headless-browser-ai-agents",
@@ -479,8 +479,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 12,
-   "reads": 6,
+   "views": 11,
+   "reads": 5,
    "plays": 1
   },
   {
@@ -659,9 +659,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 392,
+   "views": 393,
    "reads": 0,
-   "sessions": 392,
+   "sessions": 393,
    "avg_dwell_sec": 22
   },
   {
@@ -766,7 +766,7 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 84,
+   "hits": 85,
    "sessions": 48
   },
   {
@@ -791,8 +791,8 @@
   },
   {
    "ref": "https://search.brave.com/",
-   "hits": 27,
-   "sessions": 14
+   "hits": 25,
+   "sessions": 13
   },
   {
    "ref": "https://chatgpt.com/",
