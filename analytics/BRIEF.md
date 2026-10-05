@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-05T13:04Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-05T13:14Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -96,7 +96,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 623 retrieval fetches
+- /  — 624 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 200 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 169 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 155 retrieval fetches
@@ -110,7 +110,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - OAI-SearchBot (4805 verified): /wire.html ×64 · /posts/open-source-llm-for-coding-september-2026.html ×55 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×55
 - PerplexityBot (2908 verified): / ×21 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×20 · /posts/2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo.html ×19
-- ChatGPT-User (2824 verified): / ×602 · /posts/open-source-llm-for-coding-september-2026.html ×145 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×100
+- ChatGPT-User (2825 verified): / ×603 · /posts/open-source-llm-for-coding-september-2026.html ×145 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×100
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -135,10 +135,10 @@ High-engagement posts to react to / cite:
 - "$ORBIO Update It’s been a little over a week since my last post on $ORBIO, so I went back through everything again to see what has actually changed When I wrote about it, ORBIO was sitting around $69–70M MC after running" — https://x.com/i/status/2105583131206303892
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-- Search-demand signal STALE (121h old, 259 uncovered phrases from the last good run). Treat as directional until it refreshes.
+- Search-demand signal STALE (122h old, 259 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12270 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4805, Perplexity 2908, ChatGPT (user browsing) 2824, GPTBot (OpenAI) 1733).
+The real answer engines are crawling us — IP-verified: 12271 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4805, Perplexity 2908, ChatGPT (user browsing) 2825, GPTBot (OpenAI) 1733).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 741 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 238 crawler fetches
@@ -150,7 +150,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026.html  — 119 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 78 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 64 crawler fetches
-- /posts/llm-api-pricing-comparison-august-2026.html  — 37 crawler fetches
+- /posts/llm-api-pricing-comparison-august-2026.html  — 38 crawler fetches
 - /posts/2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe.html  — 37 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
