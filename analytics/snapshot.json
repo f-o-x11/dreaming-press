@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-05T04:58:40.409Z",
+ "generated": "2026-10-05T05:08:58.101Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 5,
+  "readersNow": 4,
+  "todayReads": 7,
   "avgTimeSec": 88,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3246,
-  "reads": 319,
+  "views": 3245,
+  "reads": 321,
   "completes": 11,
   "plays": 10,
-  "sessions": 3115
+  "sessions": 3114
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2775,
-   "reads": 149,
-   "sessions": 2777
+   "views": 2773,
+   "reads": 150,
+   "sessions": 2775
   },
   {
    "channel": "organic",
-   "views": 189,
-   "reads": 124,
-   "sessions": 147
+   "views": 190,
+   "reads": 125,
+   "sessions": 148
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2775,
-   "reads": 149,
+   "views": 2773,
+   "reads": 150,
    "completes": 8,
-   "sessions": 2777,
+   "sessions": 2775,
    "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -95,13 +95,13 @@
   },
   {
    "channel": "organic",
-   "views": 189,
-   "reads": 124,
+   "views": 190,
+   "reads": 125,
    "completes": 3,
-   "sessions": 147,
-   "read_rate": 0.656,
+   "sessions": 148,
+   "read_rate": 0.658,
    "complete_rate": 0.016,
-   "pages_per_session": 1.29,
+   "pages_per_session": 1.28,
    "median_dwell_sec": 6
   },
   {
@@ -290,14 +290,14 @@
   {
    "device": "desktop",
    "views": 2672,
-   "reads": 290,
+   "reads": 292,
    "sessions": 2551
   },
   {
    "device": "mobile",
-   "views": 574,
+   "views": 573,
    "reads": 29,
-   "sessions": 564
+   "sessions": 563
   }
  ],
  "topContent": [
@@ -667,7 +667,7 @@
   {
    "path": "/",
    "views": 138,
-   "reads": 3,
+   "reads": 4,
    "sessions": 135,
    "avg_dwell_sec": 12
   },
@@ -766,8 +766,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 83,
-   "sessions": 47
+   "hits": 85,
+   "sessions": 48
   },
   {
    "ref": "https://mail.google.com/",
