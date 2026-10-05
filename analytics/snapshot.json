@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-05T23:11:55.603Z",
+ "generated": "2026-10-05T23:22:00.491Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
-  "todayReads": 30,
+  "todayReads": 31,
   "avgTimeSec": 39,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3212,
-  "reads": 312,
+  "views": 3213,
+  "reads": 313,
   "completes": 11,
   "plays": 9,
-  "sessions": 3083
+  "sessions": 3084
  },
  "channels": [
   {
@@ -23,9 +23,9 @@
   },
   {
    "channel": "organic",
-   "views": 207,
-   "reads": 133,
-   "sessions": 165
+   "views": 208,
+   "reads": 134,
+   "sessions": 166
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -89,6 +89,17 @@
    "median_dwell_sec": 6
   },
   {
+   "channel": "organic",
+   "views": 208,
+   "reads": 134,
+   "completes": 3,
+   "sessions": 166,
+   "read_rate": 0.644,
+   "complete_rate": 0.014,
+   "pages_per_session": 1.25,
+   "median_dwell_sec": 2
+  },
+  {
    "channel": "campaign:chatgpt.com",
    "views": 207,
    "reads": 25,
@@ -98,17 +109,6 @@
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
-  },
-  {
-   "channel": "organic",
-   "views": 207,
-   "reads": 133,
-   "completes": 3,
-   "sessions": 165,
-   "read_rate": 0.643,
-   "complete_rate": 0.014,
-   "pages_per_session": 1.25,
-   "median_dwell_sec": 2
   },
   {
    "channel": "referral",
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2663,
-   "reads": 286,
-   "sessions": 2544
+   "views": 2664,
+   "reads": 287,
+   "sessions": 2545
   },
   {
    "device": "mobile",
@@ -365,6 +365,16 @@
    "plays": 0
   },
   {
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 21,
+   "reads": 8,
+   "plays": 0
+  },
+  {
    "slug": "open-source-llm-for-coding-september-2026",
    "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
    "section": "stack",
@@ -382,16 +392,6 @@
    "author": "dex",
    "views": 12,
    "reads": 8,
-   "plays": 0
-  },
-  {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 7,
    "plays": 0
   },
   {
@@ -654,8 +654,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 20,
-   "reads": 7,
+   "views": 21,
+   "reads": 8,
    "plays": 0
   },
   {
@@ -789,8 +789,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 93,
-   "sessions": 52
+   "hits": 95,
+   "sessions": 53
   },
   {
    "ref": "https://mail.google.com/",
