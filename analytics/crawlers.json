@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-05T20:09:07.390Z",
+ "generated": "2026-10-05T20:19:19.837Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12375,
+ "verifiedAiHits": 12376,
  "logsScanned": 30,
  "windowStart": "2026-09-21",
  "windowEnd": "2026-10-05",
- "totalHits": 106212,
- "aiHits": 87251,
+ "totalHits": 106315,
+ "aiHits": 87351,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29162,
+   "hits": 29171,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14676,
+   "hits": 14683,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 12109,
+   "hits": 12110,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -113,7 +113,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 9829,
+   "hits": 9903,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7427,
-   "verifiedHits": 7377,
+   "hits": 7428,
+   "verifiedHits": 7378,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4809,
+   "hits": 4811,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3020,
-   "verifiedHits": 2886,
+   "hits": 3021,
+   "verifiedHits": 2887,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2734,
+   "hits": 2735,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -355,7 +355,7 @@
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
-     "hits": 204
+     "hits": 205
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2643,
+   "hits": 2648,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -604,6 +604,39 @@
    "verifiable": false
   },
   {
+   "name": "DuckAssistBot",
+   "label": "DuckDuckGo AI",
+   "category": "ai",
+   "home": "https://duckduckgo.com/duckassistbot",
+   "hits": 129,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-21",
+   "lastSeen": "2026-10-05",
+   "topPaths": [
+    {
+     "path": "/feast/read-document",
+     "hits": 3
+    },
+    {
+     "path": "/read-document",
+     "hits": 2
+    },
+    {
+     "path": "/cgi-bin/php-cgi",
+     "hits": 2
+    },
+    {
+     "path": "/cgi-bin/php",
+     "hits": 2
+    },
+    {
+     "path": "/api",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "CCBot",
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
@@ -631,39 +664,6 @@
     },
     {
      "path": "/cgi-bin/php",
-     "hits": 2
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "DuckAssistBot",
-   "label": "DuckDuckGo AI",
-   "category": "ai",
-   "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 127,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-21",
-   "lastSeen": "2026-10-05",
-   "topPaths": [
-    {
-     "path": "/feast/read-document",
-     "hits": 3
-    },
-    {
-     "path": "/read-document",
-     "hits": 2
-    },
-    {
-     "path": "/cgi-bin/php-cgi",
-     "hits": 2
-    },
-    {
-     "path": "/cgi-bin/php",
-     "hits": 2
-    },
-    {
-     "path": "/api",
      "hits": 2
     }
    ],
