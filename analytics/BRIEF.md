@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-05T15:55Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-05T16:05Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
 - Funnel: 3217 views → 315 engaged reads → 11 completes · 3089 sessions.
-- Channels: direct 144r/2741v · organic 130r/205v · campaign:chatgpt.com 27r/212v · ai 6r/17v · referral 4r/32v · campaign:qwant 4r/6v · social 0r/3v · campaign:perplexity 0r/1v · internal-nav 0r/0v.
+- Channels: direct 143r/2740v · organic 131r/206v · campaign:chatgpt.com 27r/212v · ai 6r/17v · referral 4r/32v · campaign:qwant 4r/6v · social 0r/3v · campaign:perplexity 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 27r/217v · Claude 3r/4v · Perplexity 1r/3v · Doubao 1r/1v · Kimi 0r/2v · DeepSeek 0r/1v.
 - Referrers: bing.com, mail.google.com, duckduckgo.com, cn.bing.com, google.com, search.brave.com, chatgpt.com, brand, youtube.com, bing.com.
 - Engaged-read winners by section: wire=6, stack=9.
@@ -23,9 +23,9 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2741 views · read 5.3% · complete 0.3% · 1 pages/session · median 6s
+- direct: 2740 views · read 5.2% · complete 0.3% · 1 pages/session · median 6s
 - campaign:chatgpt.com: 212 views · read 12.7% · complete 0.0% · 1 pages/session · median ?s
-- organic: 205 views · read 63.4% · complete 1.5% · 1.26 pages/session · median 2s
+- organic: 206 views · read 63.6% · complete 1.5% · 1.26 pages/session · median 2s
 - referral: 32 views · read 12.5% · complete 0.0% · 1 pages/session · median ?s
 - ai: 17 views · read 35.3% · complete 0.0% · 0.5 pages/session · median 10s
 - campaign:qwant: 6 views · read 66.7% · complete 0.0% · 3 pages/session · median ?s
@@ -96,21 +96,21 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 629 retrieval fetches
+- /  — 630 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 202 retrieval fetches
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 170 retrieval fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 171 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 155 retrieval fetches
 - /wire.html  — 64 retrieval fetches
-- /posts/lm-studio-bionic-local-agent-open-models.html  — 63 retrieval fetches
+- /posts/lm-studio-bionic-local-agent-open-models.html  — 64 retrieval fetches
 - /posts/2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe.html  — 37 retrieval fetches
 - /posts/2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo.html  — 19 retrieval fetches
 - /posts/2026-09-18-founders-wire-gemini-live-voice-factory-5b-openai-misalignment.html  — 17 retrieval fetches
 - /dashboard  — 16 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4810 verified): /wire.html ×64 · /posts/open-source-llm-for-coding-september-2026.html ×56 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×55
-- PerplexityBot (2921 verified): / ×21 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×20 · /posts/2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo.html ×19
-- ChatGPT-User (2851 verified): / ×608 · /posts/open-source-llm-for-coding-september-2026.html ×146 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×100
+- OAI-SearchBot (4811 verified): /wire.html ×64 · /posts/open-source-llm-for-coding-september-2026.html ×56 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×55
+- PerplexityBot (2923 verified): / ×21 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×20 · /posts/2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo.html ×19
+- ChatGPT-User (2854 verified): / ×609 · /posts/open-source-llm-for-coding-september-2026.html ×146 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×100
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -132,15 +132,15 @@ High-engagement posts to react to / cite:
 - "Here's how frontier teams went fully AI-native in how they build. With Amazon as the example AWS's VP of Agentic AI just shared what happened when Amazon teams rebuilt how they work around coding agents: &gt; 6 engineers" — https://x.com/i/status/2106409333030367242
 - "Sam Altman (CEO of OpenAI): "I have used GrokBot &amp; Muse, but Dots is a totally different category - a new level of capabilities. At OpenAI, more than 80% of our team are running a swarm of Dots agents to ship, update" — https://x.com/i/status/2105398302673862690
 - "AI is getting smarter. But smarter agents alone won’t build the agentic economy. They need somewhere to verify identity, prove permissions, move money and settle transactions without turning every interaction into a manu" — https://x.com/i/status/2104645989801791697
-- "$ORBIO Update It’s been a little over a week since my last post on $ORBIO, so I went back through everything again to see what has actually changed When I wrote about it, ORBIO was sitting around $69–70M MC after running" — https://x.com/i/status/2105583131206303892
+- "🚨 GOOGLE JUST RELEASED A 1-HOUR COURSE TO LEARN AGENTIC AI FROM THE GROUND UP. No fluff. No overpriced bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Des" — https://x.com/i/status/2107108645121208429
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 - Search-demand signal STALE (124h old, 259 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12315 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4810, Perplexity 2921, ChatGPT (user browsing) 2851, GPTBot (OpenAI) 1733).
+The real answer engines are crawling us — IP-verified: 12321 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4811, Perplexity 2923, ChatGPT (user browsing) 2854, GPTBot (OpenAI) 1733).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 748 crawler fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 750 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 243 crawler fetches
 - /build  — 220 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 203 crawler fetches
@@ -149,7 +149,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 129 crawler fetches
 - /posts/serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026.html  — 119 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 79 crawler fetches
-- /posts/lm-studio-bionic-local-agent-open-models.html  — 65 crawler fetches
+- /posts/lm-studio-bionic-local-agent-open-models.html  — 66 crawler fetches
 - /posts/llm-api-pricing-comparison-august-2026.html  — 38 crawler fetches
 - /posts/2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe.html  — 37 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
