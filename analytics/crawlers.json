@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-05T12:33:40.162Z",
+ "generated": "2026-10-05T12:43:49.845Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12261,
+ "verifiedAiHits": 12266,
  "logsScanned": 30,
  "windowStart": "2026-09-21",
  "windowEnd": "2026-10-05",
- "totalHits": 101656,
- "aiHits": 83032,
+ "totalHits": 101745,
+ "aiHits": 83101,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28766,
+   "hits": 28774,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14335,
+   "hits": 14343,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7288,
-   "verifiedHits": 7238,
+   "hits": 7297,
+   "verifiedHits": 7247,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 6725,
+   "hits": 6773,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4718,
+   "hits": 4721,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3335,
+   "hits": 3343,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2943,
-   "verifiedHits": 2816,
+   "hits": 2948,
+   "verifiedHits": 2821,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
    "topPaths": [
@@ -325,16 +325,16 @@
      "hits": 145
     },
     {
+     "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
+     "hits": 100
+    },
+    {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
      "hits": 100
     },
     {
-     "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
-     "hits": 98
-    },
-    {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 61
+     "hits": 62
     }
    ],
    "verifiable": true
