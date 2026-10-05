@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-10-05T07:10Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-05T07:20Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
 - Funnel: 3235 views → 320 engaged reads → 11 completes · 3106 sessions.
-- Channels: direct 149r/2765v · organic 126r/191v · campaign:chatgpt.com 27r/217v · ai 9r/20v · referral 5r/32v · campaign:qwant 4r/6v · social 0r/3v · campaign:perplexity 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 28r/223v · Claude 3r/4v · Perplexity 2r/4v · Doubao 2r/2v · Kimi 0r/2v · DeepSeek 0r/1v.
+- Channels: direct 149r/2765v · organic 127r/192v · campaign:chatgpt.com 27r/217v · ai 8r/19v · referral 5r/32v · campaign:qwant 4r/6v · social 0r/3v · campaign:perplexity 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 28r/223v · Claude 3r/4v · Perplexity 2r/4v · Doubao 1r/1v · Kimi 0r/2v · DeepSeek 0r/1v.
 - Referrers: bing.com, mail.google.com, duckduckgo.com, cn.bing.com, search.brave.com, google.com, chatgpt.com, brand, youtube.com, claude.ai.
 - Engaged-read winners by section: wire=7, stack=8.
 
@@ -25,9 +25,9 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - direct: 2765 views · read 5.4% · complete 0.3% · 1 pages/session · median 6s
 - campaign:chatgpt.com: 217 views · read 12.4% · complete 0.0% · 1 pages/session · median ?s
-- organic: 191 views · read 66.0% · complete 1.6% · 1.28 pages/session · median 6s
+- organic: 192 views · read 66.1% · complete 1.6% · 1.28 pages/session · median 6s
 - referral: 32 views · read 15.6% · complete 0.0% · 1 pages/session · median ?s
-- ai: 20 views · read 45.0% · complete 0.0% · 0.56 pages/session · median 10s
+- ai: 19 views · read 42.1% · complete 0.0% · 0.54 pages/session · median 10s
 - campaign:qwant: 6 views · read 66.7% · complete 0.0% · 3 pages/session · median ?s
 INSIGHT: campaign:qwant converts 12x better per view than direct, which is 85% of all views.
 One visitor from campaign:qwant is worth many from direct. Commission for the channels that read.
@@ -108,9 +108,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-09-24-founders-wire-un-security-council-intrinsic-core-mirendil.html  — 15 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4783 verified): /wire.html ×62 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×54 · /posts/open-source-llm-for-coding-september-2026.html ×53
+- OAI-SearchBot (4785 verified): /wire.html ×62 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×54 · /posts/open-source-llm-for-coding-september-2026.html ×53
 - PerplexityBot (2891 verified): / ×21 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×20 · /posts/2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo.html ×19
-- ChatGPT-User (2772 verified): / ×590 · /posts/open-source-llm-for-coding-september-2026.html ×144 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×99
+- ChatGPT-User (2774 verified): / ×590 · /posts/open-source-llm-for-coding-september-2026.html ×144 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×99
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -135,14 +135,14 @@ High-engagement posts to react to / cite:
 - "$ORBIO Update It’s been a little over a week since my last post on $ORBIO, so I went back through everything again to see what has actually changed When I wrote about it, ORBIO was sitting around $69–70M MC after running" — https://x.com/i/status/2105583131206303892
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-- Search-demand signal STALE (115h old, 259 uncovered phrases from the last good run). Treat as directional until it refreshes.
+- Search-demand signal STALE (116h old, 259 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12179 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4783, Perplexity 2891, ChatGPT (user browsing) 2772, GPTBot (OpenAI) 1733).
+The real answer engines are crawling us — IP-verified: 12183 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4785, Perplexity 2891, ChatGPT (user browsing) 2774, GPTBot (OpenAI) 1733).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 735 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 233 crawler fetches
-- /build  — 213 crawler fetches
+- /build  — 214 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 200 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 177 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 152 crawler fetches
@@ -150,7 +150,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026.html  — 119 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 78 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 63 crawler fetches
-- /posts/llm-api-pricing-comparison-august-2026.html  — 36 crawler fetches
+- /posts/llm-api-pricing-comparison-august-2026.html  — 37 crawler fetches
 - /posts/2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe.html  — 36 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
