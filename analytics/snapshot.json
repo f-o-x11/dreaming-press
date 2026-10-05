@@ -1,24 +1,24 @@
 {
- "generated": "2026-10-05T09:21:26.513Z",
+ "generated": "2026-10-05T09:31:29.325Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 17,
   "avgTimeSec": 42,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3239,
-  "reads": 324,
+  "views": 3238,
+  "reads": 322,
   "completes": 11,
-  "plays": 10,
+  "plays": 9,
   "sessions": 3109
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2764,
-   "reads": 152,
+   "views": 2763,
+   "reads": 150,
    "sessions": 2767
   },
   {
@@ -67,17 +67,17 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 22
+   "sessions": 21
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2764,
-   "reads": 152,
+   "views": 2763,
+   "reads": 150,
    "completes": 8,
    "sessions": 2767,
-   "read_rate": 0.055,
+   "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": 6
@@ -164,7 +164,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 22,
+   "sessions": 21,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -174,8 +174,8 @@
  "navSurfaces": [
   {
    "surface": "brand",
-   "clicks": 12,
-   "sessions": 10
+   "clicks": 11,
+   "sessions": 9
   },
   {
    "surface": "btn-stats",
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2671,
-   "reads": 295,
-   "sessions": 2551
+   "views": 2669,
+   "reads": 293,
+   "sessions": 2550
   },
   {
    "device": "mobile",
-   "views": 568,
+   "views": 569,
    "reads": 29,
-   "sessions": 558
+   "sessions": 559
   }
  ],
  "topContent": [
@@ -524,16 +524,6 @@
    "plays": 1
   },
   {
-   "slug": "retrieval-metrics-recall-at-k-vs-mrr-vs-ndcg",
-   "title": "Retrieval Metrics for RAG: Recall@k vs MRR vs NDCG (and Which One Actually Matters)",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 0,
-   "reads": 1,
-   "plays": 1
-  },
-  {
    "slug": "2026-09-15-founders-wire-pace-the-frontier-slowdown-market-reprices-ai-trade",
    "title": "The Founder's Wire, September 15: The Labs Asked for a Brake, and the Market Repriced the Whole AI Trade in a Day",
    "section": "wire",
@@ -552,6 +542,16 @@
    "views": 2,
    "reads": 0,
    "plays": 1
+  },
+  {
+   "slug": "microsoft-agent-framework-vs-langgraph-vs-crewai-three-thresholds",
+   "title": "Microsoft Agent Framework vs LangGraph vs CrewAI: Which One Crossed the Three Thresholds",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 41,
+   "reads": 36,
+   "plays": 0
   }
  ],
  "topViews": [
@@ -666,7 +666,7 @@
   },
   {
    "path": "/",
-   "views": 140,
+   "views": 139,
    "reads": 4,
    "sessions": 137,
    "avg_dwell_sec": 12
@@ -756,7 +756,7 @@
    "avg_dwell_sec": null
   },
   {
-   "path": "/topics/:topic",
+   "path": "/reports/:report",
    "views": 5,
    "reads": 0,
    "sessions": 5,
@@ -801,8 +801,8 @@
   },
   {
    "ref": "brand",
-   "hits": 12,
-   "sessions": 10
+   "hits": 11,
+   "sessions": 9
   },
   {
    "ref": "https://www.youtube.com/",
