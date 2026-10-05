@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-05T15:35Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-05T15:45Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agent(43), agentic(38), agents(36), build(33), founder(29), mcp(24), coding(20), startup(19), first(14), building(14), memory(11), people(10), google(10), loops(10), engineering(9).
+Hot terms: agent(43), agentic(38), agents(35), build(33), founder(29), mcp(24), coding(19), startup(19), first(14), building(13), memory(11), google(10), loops(10), people(9), engineering(9).
 Hashtags: #ai, #startup, #founder, #startups, #datascience, #aiagents, #pymc, #3285, #latam, #business.
 High-engagement posts to react to / cite:
 - "🚨 GOOGLE JUST DROPPED A 1-HOUR COURSE THAT TEACHES YOU AGENTIC AI FROM SCRATCH. No fluff. No expensive bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Cre" — https://x.com/i/status/2106731541221306757
@@ -144,7 +144,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/open-source-llm-for-coding-september-2026.html  — 243 crawler fetches
 - /build  — 220 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 203 crawler fetches
-- /posts/how-to-read-an-agent-memory-benchmark.html  — 183 crawler fetches
+- /posts/how-to-read-an-agent-memory-benchmark.html  — 184 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 155 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 129 crawler fetches
 - /posts/serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026.html  — 119 crawler fetches
