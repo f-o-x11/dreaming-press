@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-05T05:29:08.611Z",
+ "generated": "2026-10-05T05:39:19.808Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12162,
+ "verifiedAiHits": 12163,
  "logsScanned": 30,
  "windowStart": "2026-09-21",
  "windowEnd": "2026-10-05",
- "totalHits": 100004,
- "aiHits": 81786,
+ "totalHits": 100031,
+ "aiHits": 81805,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28286,
+   "hits": 28294,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14010,
+   "hits": 14018,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4592,
+   "hits": 4598,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2887,
-   "verifiedHits": 2760,
+   "hits": 2888,
+   "verifiedHits": 2761,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2566,
+   "hits": 2568,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -505,6 +505,39 @@
    "verifiable": true
   },
   {
+   "name": "Googlebot",
+   "label": "Googlebot",
+   "category": "search",
+   "home": "https://developers.google.com/search",
+   "hits": 612,
+   "verifiedHits": 488,
+   "firstSeen": "2026-09-21",
+   "lastSeen": "2026-10-05",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 15
+    },
+    {
+     "path": "/dashboard%2F.env",
+     "hits": 3
+    },
+    {
+     "path": "/posts/how-to-roll-back-an-ai-agents-actions.html",
+     "hits": 3
+    },
+    {
+     "path": "/serverless.yml",
+     "hits": 3
+    },
+    {
+     "path": "/dashboard",
+     "hits": 2
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "YandexBot",
    "label": "Yandex",
    "category": "search",
@@ -536,39 +569,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "Googlebot",
-   "label": "Googlebot",
-   "category": "search",
-   "home": "https://developers.google.com/search",
-   "hits": 610,
-   "verifiedHits": 486,
-   "firstSeen": "2026-09-21",
-   "lastSeen": "2026-10-05",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 15
-    },
-    {
-     "path": "/dashboard%2F.env",
-     "hits": 3
-    },
-    {
-     "path": "/posts/how-to-roll-back-an-ai-agents-actions.html",
-     "hits": 3
-    },
-    {
-     "path": "/serverless.yml",
-     "hits": 3
-    },
-    {
-     "path": "/dashboard",
-     "hits": 2
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "MistralAI",
