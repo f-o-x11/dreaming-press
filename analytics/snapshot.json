@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-05T15:15:07.518Z",
+ "generated": "2026-10-05T15:25:07.798Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 2,
   "todayReads": 22,
   "avgTimeSec": 40,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3225,
-  "reads": 319,
+  "views": 3217,
+  "reads": 315,
   "completes": 11,
   "plays": 9,
-  "sessions": 3095
+  "sessions": 3089
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2747,
-   "reads": 146,
-   "sessions": 2754
+   "views": 2741,
+   "reads": 144,
+   "sessions": 2750
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 213,
-   "reads": 28,
-   "sessions": 213
+   "views": 212,
+   "reads": 27,
+   "sessions": 212
   },
   {
    "channel": "ai",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 33,
-   "reads": 5,
-   "sessions": 33
+   "views": 32,
+   "reads": 4,
+   "sessions": 32
   },
   {
    "channel": "campaign:qwant",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2747,
-   "reads": 146,
+   "views": 2741,
+   "reads": 144,
    "completes": 8,
-   "sessions": 2754,
+   "sessions": 2750,
    "read_rate": 0.053,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 213,
-   "reads": 28,
+   "views": 212,
+   "reads": 27,
    "completes": 0,
-   "sessions": 213,
-   "read_rate": 0.131,
+   "sessions": 212,
+   "read_rate": 0.127,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -106,11 +106,11 @@
   },
   {
    "channel": "referral",
-   "views": 33,
-   "reads": 5,
+   "views": 32,
+   "reads": 4,
    "completes": 0,
-   "sessions": 33,
-   "read_rate": 0.152,
+   "sessions": 32,
+   "read_rate": 0.125,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 218,
-   "reads": 28,
-   "sessions": 216
+   "views": 217,
+   "reads": 27,
+   "sessions": 215
   },
   {
    "assistant": "Claude",
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2674,
-   "reads": 292,
-   "sessions": 2554
+   "views": 2667,
+   "reads": 289,
+   "sessions": 2549
   },
   {
    "device": "mobile",
-   "views": 551,
-   "reads": 27,
-   "sessions": 541
+   "views": 550,
+   "reads": 26,
+   "sessions": 540
   }
  ],
  "topContent": [
@@ -325,16 +325,6 @@
    "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
    "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
    "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 9,
-   "plays": 0
-  },
-  {
-   "slug": "playwright-mcp-vs-cli-token-cost-browser-agents",
-   "title": "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K",
-   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 15,
@@ -384,6 +374,16 @@
   {
    "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
    "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 6,
+   "plays": 0
+  },
+  {
+   "slug": "playwright-mcp-vs-cli-token-cost-browser-agents",
+   "title": "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -636,16 +636,6 @@
    "plays": 0
   },
   {
-   "slug": "browser-use-vs-stagehand-vs-playwright-mcp",
-   "title": "Browser Use vs Stagehand vs Playwright MCP: Which Browser Agent Actually Clicks in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
    "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
    "section": "stack",
@@ -653,6 +643,16 @@
    "author": "dex",
    "views": 20,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 19,
+   "reads": 6,
    "plays": 0
   }
  ],
@@ -694,9 +694,9 @@
   },
   {
    "path": "/dashboard",
-   "views": 23,
+   "views": 22,
    "reads": 2,
-   "sessions": 12,
+   "sessions": 11,
    "avg_dwell_sec": 35
   },
   {
@@ -735,13 +735,6 @@
    "avg_dwell_sec": 12
   },
   {
-   "path": "/authors/dex",
-   "views": 6,
-   "reads": 0,
-   "sessions": 6,
-   "avg_dwell_sec": null
-  },
-  {
    "path": "/subscribe",
    "views": 6,
    "reads": 1,
@@ -750,6 +743,13 @@
   },
   {
    "path": "/apps",
+   "views": 5,
+   "reads": 0,
+   "sessions": 5,
+   "avg_dwell_sec": null
+  },
+  {
+   "path": "/authors/dex",
    "views": 5,
    "reads": 0,
    "sessions": 5,
