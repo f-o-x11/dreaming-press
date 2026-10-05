@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-05T01:05:57.821Z",
+ "generated": "2026-10-05T01:16:00.485Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 1,
   "avgTimeSec": 0,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3251,
+  "views": 3245,
   "reads": 316,
   "completes": 12,
   "plays": 10,
-  "sessions": 3123
+  "sessions": 3116
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2776,
+   "views": 2775,
    "reads": 149,
-   "sessions": 2784
+   "sessions": 2778
   },
   {
    "channel": "organic",
-   "views": 188,
+   "views": 187,
    "reads": 123,
-   "sessions": 146
+   "sessions": 145
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 35,
+   "views": 32,
    "reads": 5,
-   "sessions": 35
+   "sessions": 32
   },
   {
    "channel": "campaign:qwant",
@@ -53,9 +53,9 @@
   },
   {
    "channel": "social",
-   "views": 4,
+   "views": 3,
    "reads": 0,
-   "sessions": 4
+   "sessions": 3
   },
   {
    "channel": "campaign:perplexity",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2776,
+   "views": 2775,
    "reads": 149,
    "completes": 9,
-   "sessions": 2784,
+   "sessions": 2778,
    "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -95,22 +95,22 @@
   },
   {
    "channel": "organic",
-   "views": 188,
+   "views": 187,
    "reads": 123,
    "completes": 3,
-   "sessions": 146,
-   "read_rate": 0.654,
+   "sessions": 145,
+   "read_rate": 0.658,
    "complete_rate": 0.016,
    "pages_per_session": 1.29,
    "median_dwell_sec": 6
   },
   {
    "channel": "referral",
-   "views": 35,
+   "views": 32,
    "reads": 5,
    "completes": 0,
-   "sessions": 35,
-   "read_rate": 0.143,
+   "sessions": 32,
+   "read_rate": 0.156,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -139,10 +139,10 @@
   },
   {
    "channel": "social",
-   "views": 4,
+   "views": 3,
    "reads": 0,
    "completes": 0,
-   "sessions": 4,
+   "sessions": 3,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2673,
+   "views": 2668,
    "reads": 287,
-   "sessions": 2555
+   "sessions": 2549
   },
   {
    "device": "mobile",
-   "views": 578,
+   "views": 577,
    "reads": 29,
-   "sessions": 568
+   "sessions": 567
   }
  ],
  "topContent": [
