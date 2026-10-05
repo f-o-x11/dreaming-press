@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-05T08:10:57.363Z",
+ "generated": "2026-10-05T08:20:58.250Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 7,
   "todayReads": 13,
-  "avgTimeSec": 63,
+  "avgTimeSec": 53,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3236,
+  "views": 3240,
   "reads": 322,
   "completes": 11,
   "plays": 10,
-  "sessions": 3107
+  "sessions": 3111
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2764,
+   "views": 2763,
    "reads": 149,
-   "sessions": 2768
+   "sessions": 2767
   },
   {
    "channel": "organic",
-   "views": 193,
+   "views": 198,
    "reads": 128,
-   "sessions": 151
+   "sessions": 156
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2764,
+   "views": 2763,
    "reads": 149,
    "completes": 8,
-   "sessions": 2768,
+   "sessions": 2767,
    "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -95,14 +95,14 @@
   },
   {
    "channel": "organic",
-   "views": 193,
+   "views": 198,
    "reads": 128,
    "completes": 3,
-   "sessions": 151,
-   "read_rate": 0.663,
-   "complete_rate": 0.016,
-   "pages_per_session": 1.28,
-   "median_dwell_sec": 6
+   "sessions": 156,
+   "read_rate": 0.646,
+   "complete_rate": 0.015,
+   "pages_per_session": 1.27,
+   "median_dwell_sec": 2
   },
   {
    "channel": "referral",
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2667,
+   "views": 2672,
    "reads": 293,
-   "sessions": 2548
+   "sessions": 2553
   },
   {
    "device": "mobile",
-   "views": 569,
+   "views": 568,
    "reads": 29,
-   "sessions": 559
+   "sessions": 558
   }
  ],
  "topContent": [
@@ -785,14 +785,14 @@
    "sessions": 28
   },
   {
+   "ref": "https://www.google.com/",
+   "hits": 32,
+   "sessions": 28
+  },
+  {
    "ref": "https://search.brave.com/",
    "hits": 27,
    "sessions": 14
-  },
-  {
-   "ref": "https://www.google.com/",
-   "hits": 25,
-   "sessions": 23
   },
   {
    "ref": "https://chatgpt.com/",
