@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-05T00:05:00.726Z",
+ "generated": "2026-10-05T00:15:09.649Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12104,
+ "verifiedAiHits": 12105,
  "logsScanned": 30,
  "windowStart": "2026-09-21",
  "windowEnd": "2026-10-05",
- "totalHits": 98532,
- "aiHits": 80610,
+ "totalHits": 98590,
+ "aiHits": 80653,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27911,
+   "hits": 27933,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13774,
+   "hits": 13781,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -80,10 +80,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 11625,
+   "hits": 11626,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
-   "lastSeen": "2026-10-04",
+   "lastSeen": "2026-10-05",
    "topPaths": [
     {
      "path": "/dashboard",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7068,
-   "verifiedHits": 7018,
+   "hits": 7077,
+   "verifiedHits": 7027,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
    "topPaths": [
@@ -128,7 +128,7 @@
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 37
+     "hits": 38
     },
     {
      "path": "/posts/llm-api-pricing-comparison-august-2026.html",
@@ -136,7 +136,7 @@
     },
     {
      "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
-     "hits": 32
+     "hits": 33
     }
    ],
    "verifiable": true
@@ -146,10 +146,10 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 6482,
+   "hits": 6488,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
-   "lastSeen": "2026-10-04",
+   "lastSeen": "2026-10-05",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -164,11 +164,11 @@
      "hits": 7
     },
     {
-     "path": "/posts/best-reranker-for-rag.html",
+     "path": "/authors/dex",
      "hits": 4
     },
     {
-     "path": "/agents.html",
+     "path": "/apps",
      "hits": 4
     }
    ],
@@ -212,10 +212,10 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4474,
+   "hits": 4480,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
-   "lastSeen": "2026-10-04",
+   "lastSeen": "2026-10-05",
    "topPaths": [
     {
      "path": "/build",
@@ -311,10 +311,10 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2862,
-   "verifiedHits": 2735,
+   "hits": 2863,
+   "verifiedHits": 2736,
    "firstSeen": "2026-09-21",
-   "lastSeen": "2026-10-04",
+   "lastSeen": "2026-10-05",
    "topPaths": [
     {
      "path": "/",
@@ -344,10 +344,10 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2612,
+   "hits": 2613,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
-   "lastSeen": "2026-10-04",
+   "lastSeen": "2026-10-05",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
@@ -363,7 +363,7 @@
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 125
+     "hits": 126
     },
     {
      "path": "/posts/serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026.html",
@@ -410,7 +410,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2431,
+   "hits": 2436,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",

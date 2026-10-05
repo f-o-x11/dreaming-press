@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-05T00:05Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-05T00:15Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -109,7 +109,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - OAI-SearchBot (4768 verified): /wire.html ×60 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×52 · /posts/open-source-llm-for-coding-september-2026.html ×51
 - PerplexityBot (2870 verified): / ×20 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×20 · /posts/2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo.html ×18
-- ChatGPT-User (2735 verified): / ×577 · /posts/open-source-llm-for-coding-september-2026.html ×142 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×99
+- ChatGPT-User (2736 verified): / ×577 · /posts/open-source-llm-for-coding-september-2026.html ×142 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×99
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -134,18 +134,18 @@ High-engagement posts to react to / cite:
 - "$ORBIO Update It’s been a little over a week since my last post on $ORBIO, so I went back through everything again to see what has actually changed When I wrote about it, ORBIO was sitting around $69–70M MC after running" — https://x.com/i/status/2105583131206303892
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-- Search-demand signal STALE (108h old, 259 uncovered phrases from the last good run). Treat as directional until it refreshes.
+- Search-demand signal STALE (109h old, 259 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12104 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4768, Perplexity 2870, ChatGPT (user browsing) 2735, GPTBot (OpenAI) 1731).
+The real answer engines are crawling us — IP-verified: 12105 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4768, Perplexity 2870, ChatGPT (user browsing) 2736, GPTBot (OpenAI) 1731).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 725 crawler fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 726 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 225 crawler fetches
 - /build  — 212 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 199 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 175 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 148 crawler fetches
-- /posts/agent-funding-august-2026-control-won-the-summer.html  — 125 crawler fetches
+- /posts/agent-funding-august-2026-control-won-the-summer.html  — 126 crawler fetches
 - /posts/serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026.html  — 119 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 74 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 63 crawler fetches
