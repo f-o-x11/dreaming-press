@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-05T10:01:57.936Z",
+ "generated": "2026-10-05T10:11:59.738Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 12222,
  "logsScanned": 30,
  "windowStart": "2026-09-21",
  "windowEnd": "2026-10-05",
- "totalHits": 101034,
- "aiHits": 82538,
+ "totalHits": 101057,
+ "aiHits": 82559,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28613,
+   "hits": 28620,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14220,
+   "hits": 14228,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 11974,
+   "hits": 11977,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7243,
-   "verifiedHits": 7193,
+   "hits": 7245,
+   "verifiedHits": 7195,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
    "topPaths": [
@@ -344,18 +344,18 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2659,
+   "hits": 2662,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 510
+     "hits": 511
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
-     "hits": 200
+     "hits": 201
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
