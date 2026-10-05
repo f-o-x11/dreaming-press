@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-10-05T09:11Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-05T09:21Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3241 views → 324 engaged reads → 11 completes · 3110 sessions.
-- Channels: direct 152r/2765v · organic 127r/198v · campaign:chatgpt.com 28r/217v · ai 8r/19v · referral 5r/32v · campaign:qwant 4r/6v · social 0r/3v · campaign:perplexity 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 29r/223v · Claude 3r/4v · Perplexity 2r/4v · Doubao 1r/1v · Kimi 0r/2v · DeepSeek 0r/1v.
+- Funnel: 3239 views → 324 engaged reads → 11 completes · 3109 sessions.
+- Channels: direct 152r/2764v · organic 127r/198v · campaign:chatgpt.com 28r/216v · ai 8r/19v · referral 5r/32v · campaign:qwant 4r/6v · social 0r/3v · campaign:perplexity 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 29r/222v · Claude 3r/4v · Perplexity 2r/4v · Doubao 1r/1v · Kimi 0r/2v · DeepSeek 0r/1v.
 - Referrers: bing.com, mail.google.com, duckduckgo.com, cn.bing.com, google.com, search.brave.com, chatgpt.com, brand, youtube.com, claude.ai.
 - Engaged-read winners by section: wire=7, stack=8.
 
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2765 views · read 5.5% · complete 0.3% · 1 pages/session · median 6s
-- campaign:chatgpt.com: 217 views · read 12.9% · complete 0.0% · 1 pages/session · median ?s
+- direct: 2764 views · read 5.5% · complete 0.3% · 1 pages/session · median 6s
+- campaign:chatgpt.com: 216 views · read 13.0% · complete 0.0% · 1 pages/session · median ?s
 - organic: 198 views · read 64.1% · complete 1.5% · 1.27 pages/session · median 2s
 - referral: 32 views · read 15.6% · complete 0.0% · 1 pages/session · median ?s
 - ai: 19 views · read 42.1% · complete 0.0% · 0.53 pages/session · median 10s
@@ -135,7 +135,7 @@ High-engagement posts to react to / cite:
 - "$ORBIO Update It’s been a little over a week since my last post on $ORBIO, so I went back through everything again to see what has actually changed When I wrote about it, ORBIO was sitting around $69–70M MC after running" — https://x.com/i/status/2105583131206303892
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-- Search-demand signal STALE (117h old, 259 uncovered phrases from the last good run). Treat as directional until it refreshes.
+- Search-demand signal STALE (118h old, 259 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 12213 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4796, Perplexity 2897, ChatGPT (user browsing) 2787, GPTBot (OpenAI) 1733).
