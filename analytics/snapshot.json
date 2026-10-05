@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-05T20:29:33.801Z",
+ "generated": "2026-10-05T20:39:36.601Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 3,
   "todayReads": 28,
   "avgTimeSec": 44,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3202,
-  "reads": 313,
+  "views": 3201,
+  "reads": 312,
   "completes": 11,
   "plays": 9,
-  "sessions": 3074
+  "sessions": 3075
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2729,
-   "reads": 142,
-   "sessions": 2736
+   "views": 2728,
+   "reads": 141,
+   "sessions": 2737
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2729,
-   "reads": 142,
+   "views": 2728,
+   "reads": 141,
    "completes": 8,
-   "sessions": 2736,
+   "sessions": 2737,
    "read_rate": 0.052,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2655,
-   "reads": 287,
-   "sessions": 2537
+   "views": 2652,
+   "reads": 286,
+   "sessions": 2536
   },
   {
    "device": "mobile",
-   "views": 547,
+   "views": 549,
    "reads": 26,
-   "sessions": 537
+   "sessions": 539
   }
  ],
  "topContent": [
@@ -619,16 +619,6 @@
    "plays": 0
   },
   {
-   "slug": "firecracker-vs-gvisor-vs-kata-agent-sandbox-isolation",
-   "title": "Firecracker vs gVisor vs Kata: Isolating AI Agent Code Execution",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 24,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "best-ai-agents-for-personal-use-september-2026",
    "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
    "section": "stack",
@@ -636,6 +626,16 @@
    "author": "dex",
    "views": 23,
    "reads": 8,
+   "plays": 0
+  },
+  {
+   "slug": "firecracker-vs-gvisor-vs-kata-agent-sandbox-isolation",
+   "title": "Firecracker vs gVisor vs Kata: Isolating AI Agent Code Execution",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 23,
+   "reads": 0,
    "plays": 0
   },
   {
