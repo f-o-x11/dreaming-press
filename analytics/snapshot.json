@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-05T13:34:10.561Z",
+ "generated": "2026-10-05T13:44:11.497Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
-  "todayReads": 19,
-  "avgTimeSec": 32,
+  "readersNow": 3,
+  "todayReads": 20,
+  "avgTimeSec": 35,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3235,
-  "reads": 319,
+  "views": 3233,
+  "reads": 320,
   "completes": 11,
   "plays": 9,
-  "sessions": 3105
+  "sessions": 3103
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2759,
+   "views": 2756,
    "reads": 149,
-   "sessions": 2763
+   "sessions": 2761
   },
   {
    "channel": "organic",
-   "views": 202,
-   "reads": 127,
-   "sessions": 160
+   "views": 203,
+   "reads": 128,
+   "sessions": 161
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2759,
+   "views": 2756,
    "reads": 149,
    "completes": 8,
-   "sessions": 2763,
+   "sessions": 2761,
    "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "organic",
-   "views": 202,
-   "reads": 127,
+   "views": 203,
+   "reads": 128,
    "completes": 3,
-   "sessions": 160,
-   "read_rate": 0.629,
+   "sessions": 161,
+   "read_rate": 0.631,
    "complete_rate": 0.015,
    "pages_per_session": 1.26,
    "median_dwell_sec": 2
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2678,
-   "reads": 290,
-   "sessions": 2558
+   "views": 2676,
+   "reads": 291,
+   "sessions": 2556
   },
   {
    "device": "mobile",
@@ -422,6 +422,16 @@
    "plays": 1
   },
   {
+   "slug": "how-to-cap-runaway-claude-code-subagents-web-searches",
+   "title": "How to Cap a Runaway Claude Code Agent: The New Per-Session Subagent and Web-Search Budgets",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "lightpanda-vs-playwright-vs-browserless-headless-browser-ai-agents",
    "title": "Lightpanda vs Playwright vs Browserless: Picking a Headless Browser for AI Agents",
    "section": "stack",
@@ -439,16 +449,6 @@
    "author": "priya",
    "views": 6,
    "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "2026-07-11-typescript-7-go-native-compiler-ships",
-   "title": "TypeScript 7.0 Ships the Go Rewrite: 10x Builds Land, but Your Framework Waits for 7.1",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 4,
    "plays": 0
   }
  ],
@@ -581,7 +581,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 35,
+   "views": 34,
    "reads": 0,
    "plays": 0
   },
