@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-05T14:34Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-05T14:44Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3224 views → 320 engaged reads → 11 completes · 3095 sessions.
-- Channels: direct 148r/2747v · organic 129r/204v · campaign:chatgpt.com 28r/213v · ai 6r/17v · referral 5r/33v · campaign:qwant 4r/6v · social 0r/3v · campaign:perplexity 0r/1v · internal-nav 0r/0v.
+- Funnel: 3224 views → 319 engaged reads → 11 completes · 3094 sessions.
+- Channels: direct 147r/2747v · organic 129r/204v · campaign:chatgpt.com 28r/213v · ai 6r/17v · referral 5r/33v · campaign:qwant 4r/6v · social 0r/3v · campaign:perplexity 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 28r/218v · Claude 3r/4v · Perplexity 1r/3v · Doubao 1r/1v · Kimi 0r/2v · DeepSeek 0r/1v.
 - Referrers: bing.com, mail.google.com, duckduckgo.com, cn.bing.com, google.com, search.brave.com, chatgpt.com, brand, youtube.com, bing.com.
 - Engaged-read winners by section: wire=6, stack=9.
@@ -96,7 +96,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 626 retrieval fetches
+- /  — 627 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 202 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 170 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 155 retrieval fetches
@@ -108,9 +108,9 @@ sample size dwarfs the engaged-read counts below.
 - /dashboard  — 16 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4807 verified): /wire.html ×64 · /posts/open-source-llm-for-coding-september-2026.html ×56 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×55
+- OAI-SearchBot (4808 verified): /wire.html ×64 · /posts/open-source-llm-for-coding-september-2026.html ×56 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×55
 - PerplexityBot (2921 verified): / ×21 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×20 · /posts/2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo.html ×19
-- ChatGPT-User (2839 verified): / ×605 · /posts/open-source-llm-for-coding-september-2026.html ×146 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×100
+- ChatGPT-User (2843 verified): / ×606 · /posts/open-source-llm-for-coding-september-2026.html ×146 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×100
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -138,7 +138,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (123h old, 259 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12300 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4807, Perplexity 2921, ChatGPT (user browsing) 2839, GPTBot (OpenAI) 1733).
+The real answer engines are crawling us — IP-verified: 12305 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4808, Perplexity 2921, ChatGPT (user browsing) 2843, GPTBot (OpenAI) 1733).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 743 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 242 crawler fetches
@@ -148,7 +148,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 155 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 129 crawler fetches
 - /posts/serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026.html  — 119 crawler fetches
-- /posts/gartner-ai-agent-spending-2026.html  — 78 crawler fetches
+- /posts/gartner-ai-agent-spending-2026.html  — 79 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 65 crawler fetches
 - /posts/llm-api-pricing-comparison-august-2026.html  — 38 crawler fetches
 - /posts/2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe.html  — 37 crawler fetches
