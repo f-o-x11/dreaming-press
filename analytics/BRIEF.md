@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-05T06:40Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-05T06:50Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3236 views → 319 engaged reads → 11 completes · 3107 sessions.
-- Channels: direct 149r/2767v · organic 125r/190v · campaign:chatgpt.com 27r/217v · ai 9r/20v · referral 5r/32v · campaign:qwant 4r/6v · social 0r/3v · campaign:perplexity 0r/1v · internal-nav 0r/0v.
+- Funnel: 3235 views → 319 engaged reads → 11 completes · 3106 sessions.
+- Channels: direct 149r/2765v · organic 125r/191v · campaign:chatgpt.com 27r/217v · ai 9r/20v · referral 5r/32v · campaign:qwant 4r/6v · social 0r/3v · campaign:perplexity 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 28r/223v · Claude 3r/4v · Perplexity 2r/4v · Doubao 2r/2v · Kimi 0r/2v · DeepSeek 0r/1v.
 - Referrers: bing.com, mail.google.com, duckduckgo.com, cn.bing.com, search.brave.com, google.com, chatgpt.com, brand, youtube.com, claude.ai.
 - Engaged-read winners by section: wire=6, stack=9.
@@ -23,13 +23,13 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2767 views · read 5.4% · complete 0.3% · 1 pages/session · median 6s
+- direct: 2765 views · read 5.4% · complete 0.3% · 1 pages/session · median 6s
 - campaign:chatgpt.com: 217 views · read 12.4% · complete 0.0% · 1 pages/session · median ?s
-- organic: 190 views · read 65.8% · complete 1.6% · 1.28 pages/session · median 6s
+- organic: 191 views · read 65.4% · complete 1.6% · 1.28 pages/session · median 6s
 - referral: 32 views · read 15.6% · complete 0.0% · 1 pages/session · median ?s
 - ai: 20 views · read 45.0% · complete 0.0% · 0.56 pages/session · median 10s
 - campaign:qwant: 6 views · read 66.7% · complete 0.0% · 3 pages/session · median ?s
-INSIGHT: campaign:qwant converts 12x better per view than direct, which is 86% of all views.
+INSIGHT: campaign:qwant converts 12x better per view than direct, which is 85% of all views.
 One visitor from campaign:qwant is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
@@ -59,7 +59,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 393 views, 0 reads, 393 sessions, avg 22s
+- /stack/:tool — 392 views, 0 reads, 392 sessions, avg 22s
 - / — 137 views, 4 reads, 134 sessions, avg 12s
 - /best/:cat — 55 views, 0 reads, 55 sessions
 - /compare/:pair — 37 views, 0 reads, 37 sessions, avg 21s
@@ -125,7 +125,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agent(43), agentic(37), agents(33), build(29), founder(29), mcp(21), coding(21), startup(19), building(15), first(11), engineering(10), memory(9), people(8), claude(8), its(8).
+Hot terms: agent(44), agentic(36), agents(33), build(29), founder(29), mcp(21), coding(21), startup(19), building(15), first(11), engineering(10), memory(9), people(8), about(8), claude(8).
 Hashtags: #ai, #startup, #founder, #startups, #datascience, #aiagents, #pymc, #3285, #latam, #business.
 High-engagement posts to react to / cite:
 - "🚨 GOOGLE JUST DROPPED A 1-HOUR COURSE THAT TEACHES YOU AGENTIC AI FROM SCRATCH. No fluff. No expensive bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Cre" — https://x.com/i/status/2106731541221306757
