@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-05T14:14:17.519Z",
+ "generated": "2026-10-05T14:24:22.853Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12297,
+ "verifiedAiHits": 12298,
  "logsScanned": 30,
  "windowStart": "2026-09-21",
  "windowEnd": "2026-10-05",
- "totalHits": 103722,
- "aiHits": 84984,
+ "totalHits": 103789,
+ "aiHits": 85045,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28880,
+   "hits": 28886,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14410,
+   "hits": 14418,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -80,14 +80,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 12076,
+   "hits": 12079,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
    "topPaths": [
     {
      "path": "/dashboard",
-     "hits": 15
+     "hits": 16
     },
     {
      "path": "/",
@@ -113,7 +113,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 8346,
+   "hits": 8382,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4751,
+   "hits": 4756,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3120,
-   "verifiedHits": 2919,
+   "hits": 3121,
+   "verifiedHits": 2920,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2688,
+   "hits": 2693,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -359,11 +359,11 @@
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
-     "hits": 180
+     "hits": 183
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 128
+     "hits": 129
     },
     {
      "path": "/posts/serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026.html",
@@ -410,14 +410,14 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2505,
+   "hits": 2507,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 40
+     "hits": 41
     },
     {
      "path": "/posts/gpt-5-6-went-public-the-three-tier-menu-for-founders.html",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 639,
-   "verifiedHits": 511,
+   "hits": 640,
+   "verifiedHits": 512,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
    "topPaths": [
