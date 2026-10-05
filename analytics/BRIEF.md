@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-10-05T05:19Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-05T05:29Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3246 views → 321 engaged reads → 11 completes · 3115 sessions.
+- Funnel: 3246 views → 321 engaged reads → 11 completes · 3116 sessions.
 - Channels: direct 150r/2774v · organic 125r/190v · campaign:chatgpt.com 27r/219v · ai 10r/21v · referral 5r/32v · campaign:qwant 4r/6v · social 0r/3v · campaign:perplexity 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 28r/225v · Claude 3r/4v · Doubao 3r/3v · Perplexity 2r/4v · Kimi 0r/2v · DeepSeek 0r/1v.
 - Referrers: bing.com, mail.google.com, duckduckgo.com, cn.bing.com, search.brave.com, google.com, chatgpt.com, brand, youtube.com, claude.ai.
@@ -60,7 +60,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 392 views, 0 reads, 392 sessions, avg 22s
-- / — 138 views, 4 reads, 135 sessions, avg 12s
+- / — 137 views, 4 reads, 134 sessions, avg 12s
 - /best/:cat — 55 views, 0 reads, 55 sessions
 - /compare/:pair — 37 views, 0 reads, 37 sessions, avg 21s
 - /build — 30 views, 0 reads, 30 sessions
@@ -95,7 +95,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 607 retrieval fetches
+- /  — 608 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 196 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 166 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 152 retrieval fetches
@@ -109,7 +109,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - OAI-SearchBot (4779 verified): /wire.html ×62 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×54 · /posts/open-source-llm-for-coding-september-2026.html ×53
 - PerplexityBot (2891 verified): / ×21 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×20 · /posts/2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo.html ×19
-- ChatGPT-User (2759 verified): / ×586 · /posts/open-source-llm-for-coding-september-2026.html ×143 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×99
+- ChatGPT-User (2760 verified): / ×587 · /posts/open-source-llm-for-coding-september-2026.html ×143 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×99
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -124,7 +124,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agent(44), agentic(36), agents(33), build(29), founder(29), mcp(21), coding(21), startup(19), building(15), first(11), engineering(10), memory(9), people(8), about(8), claude(8).
+Hot terms: agent(43), agentic(37), agents(33), build(29), founder(29), mcp(21), coding(21), startup(19), building(15), first(11), engineering(10), memory(9), people(8), claude(8), its(8).
 Hashtags: #ai, #startup, #founder, #startups, #datascience, #aiagents, #pymc, #3285, #latam, #business.
 High-engagement posts to react to / cite:
 - "🚨 GOOGLE JUST DROPPED A 1-HOUR COURSE THAT TEACHES YOU AGENTIC AI FROM SCRATCH. No fluff. No expensive bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Cre" — https://x.com/i/status/2106731541221306757
@@ -137,9 +137,9 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (114h old, 259 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12161 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4779, Perplexity 2891, ChatGPT (user browsing) 2759, GPTBot (OpenAI) 1732).
+The real answer engines are crawling us — IP-verified: 12162 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4779, Perplexity 2891, ChatGPT (user browsing) 2760, GPTBot (OpenAI) 1732).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 732 crawler fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 733 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 232 crawler fetches
 - /build  — 212 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 200 crawler fetches
