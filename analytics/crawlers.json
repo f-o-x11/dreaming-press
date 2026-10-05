@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-05T01:15:59.900Z",
+ "generated": "2026-10-05T01:26:02.710Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 12110,
  "logsScanned": 30,
  "windowStart": "2026-09-21",
  "windowEnd": "2026-10-05",
- "totalHits": 98854,
- "aiHits": 80862,
+ "totalHits": 98957,
+ "aiHits": 80945,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28017,
+   "hits": 28021,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13825,
+   "hits": 13832,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 11667,
+   "hits": 11677,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7092,
-   "verifiedHits": 7042,
+   "hits": 7095,
+   "verifiedHits": 7045,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 6503,
+   "hits": 6564,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -161,14 +161,14 @@
     },
     {
      "path": "/dashboard",
-     "hits": 7
+     "hits": 8
+    },
+    {
+     "path": "/posts/best-reranker-for-rag.html",
+     "hits": 5
     },
     {
      "path": "/authors/dex",
-     "hits": 4
-    },
-    {
-     "path": "/apps",
      "hits": 4
     }
    ],
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4511,
+   "hits": 4526,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -222,16 +222,16 @@
      "hits": 29
     },
     {
-     "path": "/dashboard",
-     "hits": 7
-    },
-    {
      "path": "/stack.html",
      "hits": 6
     },
     {
      "path": "/authors/priya",
      "hits": 6
+    },
+    {
+     "path": "/tags/reportive",
+     "hits": 5
     },
     {
      "path": "/authors/rosalinda",
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2551,
+   "hits": 2552,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1991,
+   "hits": 1993,
    "verifiedHits": 0,
    "firstSeen": "2026-09-21",
    "lastSeen": "2026-10-05",

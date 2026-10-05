@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-10-05T01:16Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-05T01:26Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3245 views → 316 engaged reads → 12 completes · 3116 sessions.
-- Channels: direct 149r/2775v · organic 123r/187v · campaign:chatgpt.com 26r/221v · ai 9r/20v · referral 5r/32v · campaign:qwant 4r/6v · social 0r/3v · campaign:perplexity 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 26r/226v · Claude 3r/4v · Doubao 3r/3v · Perplexity 2r/4v · Kimi 0r/2v · DeepSeek 0r/1v.
+- Funnel: 3242 views → 316 engaged reads → 12 completes · 3113 sessions.
+- Channels: direct 149r/2773v · organic 123r/187v · campaign:chatgpt.com 26r/220v · ai 9r/20v · referral 5r/32v · campaign:qwant 4r/6v · social 0r/3v · campaign:perplexity 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 26r/225v · Claude 3r/4v · Doubao 3r/3v · Perplexity 2r/4v · Kimi 0r/2v · DeepSeek 0r/1v.
 - Referrers: bing.com, mail.google.com, duckduckgo.com, cn.bing.com, search.brave.com, google.com, chatgpt.com, brand, youtube.com, claude.ai.
 - Engaged-read winners by section: wire=6, stack=9.
 
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2775 views · read 5.4% · complete 0.3% · 1 pages/session · median 6s
-- campaign:chatgpt.com: 221 views · read 11.8% · complete 0.0% · 1 pages/session · median ?s
+- direct: 2773 views · read 5.4% · complete 0.3% · 1 pages/session · median 6s
+- campaign:chatgpt.com: 220 views · read 11.8% · complete 0.0% · 1 pages/session · median ?s
 - organic: 187 views · read 65.8% · complete 1.6% · 1.29 pages/session · median 6s
 - referral: 32 views · read 15.6% · complete 0.0% · 1 pages/session · median ?s
 - ai: 20 views · read 45.0% · complete 0.0% · 0.56 pages/session · median 9s
