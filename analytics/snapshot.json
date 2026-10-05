@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-05T18:07:34.569Z",
+ "generated": "2026-10-05T18:17:41.130Z",
  "windowDays": 14,
  "site": {
   "readersNow": 5,
@@ -8,18 +8,18 @@
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3208,
-  "reads": 314,
+  "views": 3207,
+  "reads": 313,
   "completes": 11,
   "plays": 9,
-  "sessions": 3082
+  "sessions": 3081
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2734,
-   "reads": 143,
-   "sessions": 2742
+   "views": 2733,
+   "reads": 142,
+   "sessions": 2741
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2734,
-   "reads": 143,
+   "views": 2733,
+   "reads": 142,
    "completes": 8,
-   "sessions": 2742,
+   "sessions": 2741,
    "read_rate": 0.052,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2662,
-   "reads": 288,
-   "sessions": 2546
+   "views": 2660,
+   "reads": 287,
+   "sessions": 2544
   },
   {
    "device": "mobile",
-   "views": 546,
+   "views": 547,
    "reads": 26,
-   "sessions": 536
+   "sessions": 537
   }
  ],
  "topContent": [
@@ -425,16 +425,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-security-jobs",
-   "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 11,
-   "reads": 5,
-   "plays": 1
-  },
-  {
    "slug": "how-to-cap-runaway-claude-code-subagents-web-searches",
    "title": "How to Cap a Runaway Claude Code Agent: The New Per-Session Subagent and Web-Search Budgets",
    "section": "stack",
@@ -473,6 +463,16 @@
    "views": 22,
    "reads": 4,
    "plays": 0
+  },
+  {
+   "slug": "ai-agent-security-jobs",
+   "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 10,
+   "reads": 4,
+   "plays": 1
   }
  ],
  "topListens": [
@@ -502,8 +502,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 11,
-   "reads": 5,
+   "views": 10,
+   "reads": 4,
    "plays": 1
   },
   {
@@ -654,7 +654,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 21,
+   "views": 20,
    "reads": 0,
    "plays": 0
   },
