@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-05T00:55:44.815Z",
+ "generated": "2026-10-05T01:05:57.821Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 1,
   "avgTimeSec": 0,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3252,
-  "reads": 317,
+  "views": 3251,
+  "reads": 316,
   "completes": 12,
   "plays": 10,
   "sessions": 3123
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2775,
+   "views": 2776,
    "reads": 149,
-   "sessions": 2783
+   "sessions": 2784
   },
   {
    "channel": "organic",
-   "views": 189,
-   "reads": 124,
-   "sessions": 147
+   "views": 188,
+   "reads": 123,
+   "sessions": 146
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 36,
+   "views": 35,
    "reads": 5,
-   "sessions": 36
+   "sessions": 35
   },
   {
    "channel": "campaign:qwant",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2775,
+   "views": 2776,
    "reads": 149,
    "completes": 9,
-   "sessions": 2783,
+   "sessions": 2784,
    "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -95,22 +95,22 @@
   },
   {
    "channel": "organic",
-   "views": 189,
-   "reads": 124,
+   "views": 188,
+   "reads": 123,
    "completes": 3,
-   "sessions": 147,
-   "read_rate": 0.656,
+   "sessions": 146,
+   "read_rate": 0.654,
    "complete_rate": 0.016,
    "pages_per_session": 1.29,
    "median_dwell_sec": 6
   },
   {
    "channel": "referral",
-   "views": 36,
+   "views": 35,
    "reads": 5,
    "completes": 0,
-   "sessions": 36,
-   "read_rate": 0.139,
+   "sessions": 35,
+   "read_rate": 0.143,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -289,8 +289,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2674,
-   "reads": 288,
+   "views": 2673,
+   "reads": 287,
    "sessions": 2555
   },
   {
@@ -372,16 +372,6 @@
    "plays": 1
   },
   {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 24,
-   "reads": 6,
-   "plays": 0
-  },
-  {
    "slug": "open-source-llm-for-coding-september-2026",
    "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
    "section": "stack",
@@ -409,6 +399,16 @@
    "author": "priya",
    "views": 9,
    "reads": 6,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 23,
+   "reads": 5,
    "plays": 0
   },
   {
@@ -606,16 +606,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 24,
-   "reads": 6,
-   "plays": 0
-  },
-  {
    "slug": "firecracker-vs-gvisor-vs-kata-agent-sandbox-isolation",
    "title": "Firecracker vs gVisor vs Kata: Isolating AI Agent Code Execution",
    "section": "wire",
@@ -633,6 +623,16 @@
    "author": "dex",
    "views": 23,
    "reads": 8,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 23,
+   "reads": 5,
    "plays": 0
   },
   {
@@ -781,8 +781,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 48,
-   "sessions": 28
+   "hits": 46,
+   "sessions": 27
   },
   {
    "ref": "https://search.brave.com/",
@@ -806,8 +806,8 @@
   },
   {
    "ref": "https://www.youtube.com/",
-   "hits": 10,
-   "sessions": 10
+   "hits": 9,
+   "sessions": 9
   },
   {
    "ref": "https://claude.ai/",
