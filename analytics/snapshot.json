@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-05T08:00:56.914Z",
+ "generated": "2026-10-05T08:10:57.363Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 11,
-  "todayReads": 12,
-  "avgTimeSec": 51,
+  "readersNow": 5,
+  "todayReads": 13,
+  "avgTimeSec": 63,
   "postsThisWeek": 5
  },
  "funnel": {
   "views": 3236,
-  "reads": 321,
+  "reads": 322,
   "completes": 11,
   "plays": 10,
   "sessions": 3107
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2765,
+   "views": 2764,
    "reads": 149,
-   "sessions": 2769
+   "sessions": 2768
   },
   {
    "channel": "organic",
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 217,
-   "reads": 27,
-   "sessions": 217
+   "views": 218,
+   "reads": 28,
+   "sessions": 218
   },
   {
    "channel": "ai",
    "views": 19,
    "reads": 8,
-   "sessions": 35
+   "sessions": 36
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2765,
+   "views": 2764,
    "reads": 149,
    "completes": 8,
-   "sessions": 2769,
+   "sessions": 2768,
    "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 217,
-   "reads": 27,
+   "views": 218,
+   "reads": 28,
    "completes": 0,
-   "sessions": 217,
-   "read_rate": 0.124,
+   "sessions": 218,
+   "read_rate": 0.128,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -120,10 +120,10 @@
    "views": 19,
    "reads": 8,
    "completes": 0,
-   "sessions": 35,
+   "sessions": 36,
    "read_rate": 0.421,
    "complete_rate": 0,
-   "pages_per_session": 0.54,
+   "pages_per_session": 0.53,
    "median_dwell_sec": 10
   },
   {
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 223,
-   "reads": 28,
-   "sessions": 221
+   "views": 224,
+   "reads": 29,
+   "sessions": 222
   },
   {
    "assistant": "Claude",
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2666,
-   "reads": 292,
-   "sessions": 2547
+   "views": 2667,
+   "reads": 293,
+   "sessions": 2548
   },
   {
    "device": "mobile",
-   "views": 570,
+   "views": 569,
    "reads": 29,
-   "sessions": 560
+   "sessions": 559
   }
  ],
  "topContent": [
