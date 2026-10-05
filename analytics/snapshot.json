@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-05T12:13:38.990Z",
+ "generated": "2026-10-05T12:23:40.461Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 7,
   "todayReads": 19,
-  "avgTimeSec": 42,
+  "avgTimeSec": 40,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3234,
+  "views": 3236,
   "reads": 320,
   "completes": 11,
   "plays": 9,
-  "sessions": 3105
+  "sessions": 3107
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2762,
+   "views": 2760,
    "reads": 150,
-   "sessions": 2767
+   "sessions": 2765
   },
   {
    "channel": "organic",
-   "views": 198,
+   "views": 202,
    "reads": 127,
-   "sessions": 156
+   "sessions": 160
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2762,
+   "views": 2760,
    "reads": 150,
    "completes": 8,
-   "sessions": 2767,
+   "sessions": 2765,
    "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -95,13 +95,13 @@
   },
   {
    "channel": "organic",
-   "views": 198,
+   "views": 202,
    "reads": 127,
    "completes": 3,
-   "sessions": 156,
-   "read_rate": 0.641,
+   "sessions": 160,
+   "read_rate": 0.629,
    "complete_rate": 0.015,
-   "pages_per_session": 1.27,
+   "pages_per_session": 1.26,
    "median_dwell_sec": 2
   },
   {
@@ -295,9 +295,9 @@
   },
   {
    "device": "mobile",
-   "views": 563,
+   "views": 565,
    "reads": 29,
-   "sessions": 553
+   "sessions": 555
   }
  ],
  "topContent": [
@@ -377,7 +377,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 15,
+   "views": 19,
    "reads": 6,
    "plays": 0
   },
@@ -591,7 +591,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 29,
+   "views": 27,
    "reads": 0,
    "plays": 0
   },
@@ -666,9 +666,9 @@
   },
   {
    "path": "/",
-   "views": 140,
+   "views": 139,
    "reads": 4,
-   "sessions": 138,
+   "sessions": 137,
    "avg_dwell_sec": 12
   },
   {
@@ -810,9 +810,9 @@
    "sessions": 9
   },
   {
-   "ref": "https://claude.ai/",
-   "hits": 7,
-   "sessions": 2
+   "ref": "https://bing.com/",
+   "hits": 8,
+   "sessions": 8
   }
  ]
 }
