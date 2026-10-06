@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-06T21:58:29.278Z",
+ "generated": "2026-10-06T22:08:36.729Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11667,
+ "verifiedAiHits": 11673,
  "logsScanned": 30,
  "windowStart": "2026-09-22",
  "windowEnd": "2026-10-06",
- "totalHits": 111643,
- "aiHits": 92201,
+ "totalHits": 111685,
+ "aiHits": 92236,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28862,
+   "hits": 28871,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14749,
+   "hits": 14756,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -80,7 +80,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 11928,
+   "hits": 11936,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7454,
-   "verifiedHits": 7410,
+   "hits": 7460,
+   "verifiedHits": 7416,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6703,
+   "hits": 6708,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -190,19 +190,19 @@
     },
     {
      "path": "/stack.html",
-     "hits": 11
+     "hits": 12
     },
     {
      "path": "/wire.html",
      "hits": 9
     },
     {
-     "path": "/posts/2026-06-23-prefill-vs-decode-llm-inference.html",
+     "path": "/tags/howto",
      "hits": 7
     },
     {
-     "path": "/tags/howto",
-     "hits": 6
+     "path": "/posts/2026-06-23-prefill-vs-decode-llm-inference.html",
+     "hits": 7
     }
    ],
    "verifiable": false
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5134,
-   "verifiedHits": 5031,
+   "hits": 5140,
+   "verifiedHits": 5037,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
@@ -222,12 +222,12 @@
      "hits": 70
     },
     {
-     "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
+     "path": "/posts/open-source-llm-for-coding-september-2026.html",
      "hits": 63
     },
     {
-     "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 62
+     "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
+     "hits": 63
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
@@ -542,7 +542,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 639,
+   "hits": 640,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
