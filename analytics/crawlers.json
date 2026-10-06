@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-06T02:54:46.097Z",
+ "generated": "2026-10-06T03:04:52.346Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10841,
+ "verifiedAiHits": 10847,
  "logsScanned": 30,
  "windowStart": "2026-09-22",
  "windowEnd": "2026-10-06",
- "totalHits": 101593,
- "aiHits": 83404,
+ "totalHits": 101627,
+ "aiHits": 83428,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27443,
+   "hits": 27447,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13874,
+   "hits": 13882,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -113,7 +113,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 11058,
+   "hits": 11062,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7008,
-   "verifiedHits": 6964,
+   "hits": 7015,
+   "verifiedHits": 6971,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4677,
+   "hits": 4680,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4651,
-   "verifiedHits": 4558,
+   "hits": 4657,
+   "verifiedHits": 4564,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2496,
+   "hits": 2498,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -358,15 +358,15 @@
      "hits": 2
     },
     {
+     "path": "/posts/how-to-debug-an-ai-agent.html",
+     "hits": 2
+    },
+    {
      "path": "/posts/gpt-5-6-went-public-the-three-tier-menu-for-founders.html",
      "hits": 2
     },
     {
      "path": "/posts/manual-loop-vs-tool-runner-vs-managed-agents-claude.html",
-     "hits": 2
-    },
-    {
-     "path": "/",
      "hits": 2
     }
    ],
