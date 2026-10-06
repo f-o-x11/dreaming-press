@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-06T22:48:59.893Z",
+ "generated": "2026-10-06T22:59:17.154Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11689,
+ "verifiedAiHits": 11691,
  "logsScanned": 30,
  "windowStart": "2026-09-22",
  "windowEnd": "2026-10-06",
- "totalHits": 111930,
- "aiHits": 92443,
+ "totalHits": 111981,
+ "aiHits": 92492,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28909,
+   "hits": 28918,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14788,
+   "hits": 14795,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -80,7 +80,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 12027,
+   "hits": 12045,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -98,12 +98,12 @@
      "hits": 14
     },
     {
-     "path": "/dashboard",
+     "path": "/tags/opinionated",
      "hits": 11
     },
     {
-     "path": "/tags/opinionated",
-     "hits": 10
+     "path": "/dashboard",
+     "hits": 11
     }
    ],
    "verifiable": false
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 11882,
+   "hits": 11890,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7481,
-   "verifiedHits": 7437,
+   "hits": 7482,
+   "verifiedHits": 7438,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6729,
+   "hits": 6733,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -198,10 +198,10 @@
     },
     {
      "path": "/tags/howto",
-     "hits": 9
+     "hits": 10
     },
     {
-     "path": "/posts/2026-06-23-prefill-vs-decode-llm-inference.html",
+     "path": "/tags/opinionated",
      "hits": 7
     }
    ],
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5150,
-   "verifiedHits": 5047,
+   "hits": 5152,
+   "verifiedHits": 5049,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2667,
+   "hits": 2668,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -363,7 +363,7 @@
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 120
+     "hits": 121
     },
     {
      "path": "/posts/serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026.html",
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2131,
+   "hits": 2132,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
