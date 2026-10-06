@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-06T14:53:47.354Z",
+ "generated": "2026-10-06T15:03:55.668Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 19,
   "avgTimeSec": 55,
   "postsThisWeek": 3
  },
  "funnel": {
-  "views": 3138,
-  "reads": 283,
+  "views": 3139,
+  "reads": 282,
   "completes": 12,
-  "plays": 8,
-  "sessions": 3047
+  "plays": 7,
+  "sessions": 3048
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2698,
-   "reads": 139,
-   "sessions": 2710
+   "views": 2699,
+   "reads": 138,
+   "sessions": 2711
   },
   {
    "channel": "organic",
@@ -85,11 +85,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2698,
-   "reads": 139,
+   "views": 2699,
+   "reads": 138,
    "completes": 8,
-   "sessions": 2710,
-   "read_rate": 0.052,
+   "sessions": 2711,
+   "read_rate": 0.051,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": 6
@@ -329,15 +329,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2596,
-   "reads": 255,
-   "sessions": 2515
+   "views": 2598,
+   "reads": 254,
+   "sessions": 2517
   },
   {
    "device": "mobile",
-   "views": 542,
+   "views": 541,
    "reads": 28,
-   "sessions": 532
+   "sessions": 531
   }
  ],
  "topContent": [
@@ -357,9 +357,9 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 79,
+   "views": 80,
    "reads": 10,
-   "plays": 1
+   "plays": 0
   },
   {
    "slug": "how-to-run-spec-driven-development-github-spec-kit",
@@ -494,16 +494,6 @@
  ],
  "topListens": [
   {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 79,
-   "reads": 10,
-   "plays": 1
-  },
-  {
    "slug": "how-to-run-spec-driven-development-github-spec-kit",
    "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
    "section": "stack",
@@ -584,6 +574,16 @@
    "plays": 0
   },
   {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 80,
+   "reads": 10,
+   "plays": 0
+  },
+  {
    "slug": "best-ai-agents-for-personal-use-september-2026",
    "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
    "section": "stack",
@@ -601,9 +601,9 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 79,
+   "views": 80,
    "reads": 10,
-   "plays": 1
+   "plays": 0
   },
   {
    "slug": "mcp-tool-annotations-explained",
@@ -713,9 +713,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 55,
+   "views": 56,
    "reads": 0,
-   "sessions": 55,
+   "sessions": 56,
    "avg_dwell_sec": null
   },
   {
