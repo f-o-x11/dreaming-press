@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-06T05:16:25.782Z",
+ "generated": "2026-10-06T05:26:33.539Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 4,
   "todayReads": 6,
   "avgTimeSec": 16,
   "postsThisWeek": 3
  },
  "funnel": {
-  "views": 3191,
+  "views": 3194,
   "reads": 316,
   "completes": 11,
   "plays": 9,
-  "sessions": 3062
+  "sessions": 3065
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2715,
+   "views": 2718,
    "reads": 139,
-   "sessions": 2720
+   "sessions": 2723
   },
   {
    "channel": "organic",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2715,
+   "views": 2718,
    "reads": 139,
    "completes": 8,
-   "sessions": 2720,
+   "sessions": 2723,
    "read_rate": 0.051,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -329,9 +329,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2651,
+   "views": 2654,
    "reads": 289,
-   "sessions": 2532
+   "sessions": 2535
   },
   {
    "device": "mobile",
@@ -387,7 +387,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 21,
+   "views": 23,
    "reads": 8,
    "plays": 0
   },
@@ -646,6 +646,16 @@
    "plays": 0
   },
   {
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 23,
+   "reads": 8,
+   "plays": 0
+  },
+  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -663,16 +673,6 @@
    "author": "dex",
    "views": 23,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 8,
    "plays": 0
   },
   {
