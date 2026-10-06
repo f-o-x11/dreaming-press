@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-06T05:26:33.483Z",
+ "generated": "2026-10-06T05:36:38.640Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,15 +8,15 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 43
+   "count": 44
   },
   {
    "term": "agentic",
-   "count": 39
+   "count": 40
   },
   {
    "term": "agents",
-   "count": 35
+   "count": 34
   },
   {
    "term": "build",
@@ -28,7 +28,7 @@
   },
   {
    "term": "mcp",
-   "count": 24
+   "count": 25
   },
   {
    "term": "coding",
@@ -40,50 +40,50 @@
   },
   {
    "term": "first",
-   "count": 15
+   "count": 16
+  },
+  {
+   "term": "memory",
+   "count": 12
   },
   {
    "term": "building",
    "count": 12
   },
   {
-   "term": "memory",
+   "term": "google",
    "count": 11
   },
   {
-   "term": "google",
+   "term": "loops",
+   "count": 11
+  },
+  {
+   "term": "dropped",
    "count": 10
   },
   {
-   "term": "loops",
+   "term": "1-hour",
+   "count": 10
+  },
+  {
+   "term": "course",
+   "count": 10
+  },
+  {
+   "term": "learn",
+   "count": 10
+  },
+  {
+   "term": "persistent",
+   "count": 10
+  },
+  {
+   "term": "long-running",
    "count": 10
   },
   {
    "term": "people",
-   "count": 9
-  },
-  {
-   "term": "dropped",
-   "count": 9
-  },
-  {
-   "term": "1-hour",
-   "count": 9
-  },
-  {
-   "term": "course",
-   "count": 9
-  },
-  {
-   "term": "learn",
-   "count": 9
-  },
-  {
-   "term": "persistent",
-   "count": 9
-  },
-  {
-   "term": "long-running",
    "count": 9
   }
  ],
