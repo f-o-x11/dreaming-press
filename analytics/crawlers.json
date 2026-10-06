@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-06T18:46:29.840Z",
+ "generated": "2026-10-06T18:56:38.539Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11526,
+ "verifiedAiHits": 11533,
  "logsScanned": 30,
  "windowStart": "2026-09-22",
  "windowEnd": "2026-10-06",
- "totalHits": 107205,
- "aiHits": 87966,
+ "totalHits": 107604,
+ "aiHits": 88355,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28746,
+   "hits": 28759,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14601,
+   "hits": 14608,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7376,
-   "verifiedHits": 7332,
+   "hits": 7379,
+   "verifiedHits": 7335,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5025,
-   "verifiedHits": 4925,
+   "hits": 5029,
+   "verifiedHits": 4929,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4973,
+   "hits": 4978,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -236,6 +236,39 @@
     {
      "path": "/tags/reportive",
      "hits": 4
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "ClaudeBot",
+   "label": "ClaudeBot (Anthropic)",
+   "category": "ai",
+   "home": "https://www.anthropic.com",
+   "hits": 3519,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-22",
+   "lastSeen": "2026-10-06",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 27
+    },
+    {
+     "path": "/dashboard",
+     "hits": 6
+    },
+    {
+     "path": "/posts/2026-06-23-how-much-vram-to-serve-an-llm.html",
+     "hits": 4
+    },
+    {
+     "path": "/posts/mcp-apps-explained.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/mcp-tool-annotations-explained.html",
+     "hits": 3
     }
    ],
    "verifiable": false
@@ -274,51 +307,18 @@
    "verifiable": false
   },
   {
-   "name": "ClaudeBot",
-   "label": "ClaudeBot (Anthropic)",
-   "category": "ai",
-   "home": "https://www.anthropic.com",
-   "hits": 3158,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-22",
-   "lastSeen": "2026-10-06",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 25
-    },
-    {
-     "path": "/dashboard",
-     "hits": 6
-    },
-    {
-     "path": "/posts/2026-06-23-how-much-vram-to-serve-an-llm.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/mcp-apps-explained.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/mcp-tool-annotations-explained.html",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "ChatGPT-User",
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2959,
-   "verifiedHits": 2828,
+   "hits": 2961,
+   "verifiedHits": 2830,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
     {
      "path": "/",
-     "hits": 635
+     "hits": 636
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -410,8 +410,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2237,
-   "verifiedHits": 2039,
+   "hits": 2238,
+   "verifiedHits": 2040,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2105,
+   "hits": 2107,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -575,7 +575,7 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 169,
+   "hits": 170,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
