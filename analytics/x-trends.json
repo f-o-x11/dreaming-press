@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-06T10:20:00.238Z",
+ "generated": "2026-10-06T10:30:06.244Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,19 +8,19 @@
  "topTerms": [
   {
    "term": "agent",
-   "count": 43
+   "count": 44
   },
   {
    "term": "agentic",
-   "count": 41
+   "count": 42
+  },
+  {
+   "term": "build",
+   "count": 35
   },
   {
    "term": "agents",
    "count": 34
-  },
-  {
-   "term": "build",
-   "count": 33
   },
   {
    "term": "founder",
@@ -40,22 +40,42 @@
   },
   {
    "term": "first",
-   "count": 16
-  },
-  {
-   "term": "building",
-   "count": 12
+   "count": 17
   },
   {
    "term": "google",
-   "count": 11
+   "count": 12
   },
   {
    "term": "memory",
-   "count": 11
+   "count": 12
   },
   {
    "term": "loops",
+   "count": 12
+  },
+  {
+   "term": "1-hour",
+   "count": 11
+  },
+  {
+   "term": "course",
+   "count": 11
+  },
+  {
+   "term": "learn",
+   "count": 11
+  },
+  {
+   "term": "persistent",
+   "count": 11
+  },
+  {
+   "term": "long-running",
+   "count": 11
+  },
+  {
+   "term": "building",
    "count": 11
   },
   {
@@ -63,27 +83,7 @@
    "count": 10
   },
   {
-   "term": "1-hour",
-   "count": 10
-  },
-  {
-   "term": "course",
-   "count": 10
-  },
-  {
-   "term": "persistent",
-   "count": 10
-  },
-  {
-   "term": "long-running",
-   "count": 10
-  },
-  {
    "term": "people",
-   "count": 9
-  },
-  {
-   "term": "scratch",
    "count": 9
   }
  ],
@@ -146,7 +146,7 @@
   },
   {
    "text": "🚨 GOOGLE JUST RELEASED A 1-HOUR COURSE TO LEARN AGENTIC AI FROM THE GROUND UP. No fluff. No overpriced bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Des",
-   "engagement": 349,
+   "engagement": 347,
    "url": "https://x.com/i/status/2107108645121208429",
    "created": "2026-10-05T14:00:23.000Z"
   },
