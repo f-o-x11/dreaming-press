@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-06T00:32:59.710Z",
+ "generated": "2026-10-06T00:43:11.492Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10794,
+ "verifiedAiHits": 10797,
  "logsScanned": 30,
  "windowStart": "2026-09-22",
  "windowEnd": "2026-10-06",
- "totalHits": 100659,
- "aiHits": 82601,
+ "totalHits": 100777,
+ "aiHits": 82700,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27311,
+   "hits": 27315,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13772,
+   "hits": 13780,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -69,7 +69,7 @@
      "hits": 17
     },
     {
-     "path": "/stack/prefect-cloud",
+     "path": "/stack/coresignal",
      "hits": 12
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 11504,
+   "hits": 11505,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -113,7 +113,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 10631,
+   "hits": 10708,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6944,
-   "verifiedHits": 6900,
+   "hits": 6956,
+   "verifiedHits": 6912,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4645,
+   "hits": 4651,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2790,
-   "verifiedHits": 2664,
+   "hits": 2791,
+   "verifiedHits": 2665,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
@@ -344,14 +344,18 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2482,
+   "hits": 2487,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
-   "lastSeen": "2026-10-05",
+   "lastSeen": "2026-10-06",
    "topPaths": [
     {
      "path": "/build",
      "hits": 41
+    },
+    {
+     "path": "/posts/vercel-ai-sdk-7-whats-new.html",
+     "hits": 2
     },
     {
      "path": "/posts/gpt-5-6-went-public-the-three-tier-menu-for-founders.html",
@@ -364,10 +368,6 @@
     {
      "path": "/",
      "hits": 2
-    },
-    {
-     "path": "/feast/read-document",
-     "hits": 2
     }
    ],
    "verifiable": false
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2432,
+   "hits": 2433,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -410,8 +410,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2053,
-   "verifiedHits": 1863,
+   "hits": 2055,
+   "verifiedHits": 1865,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1994,
+   "hits": 1995,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
