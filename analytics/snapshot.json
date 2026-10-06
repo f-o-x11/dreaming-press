@@ -1,35 +1,35 @@
 {
- "generated": "2026-10-06T06:07:00.542Z",
+ "generated": "2026-10-06T06:17:10.407Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 8,
-  "avgTimeSec": 67,
+  "readersNow": 7,
+  "todayReads": 14,
+  "avgTimeSec": 144,
   "postsThisWeek": 3
  },
  "funnel": {
-  "views": 3195,
-  "reads": 318,
+  "views": 3198,
+  "reads": 324,
   "completes": 11,
   "plays": 9,
-  "sessions": 3066
+  "sessions": 3070
  },
  "channels": [
   {
-   "channel": "direct",
-   "views": 2715,
-   "reads": 139,
-   "sessions": 2721
+   "channel": "organic",
+   "views": 221,
+   "reads": 144,
+   "sessions": 179
   },
   {
-   "channel": "organic",
-   "views": 215,
-   "reads": 138,
-   "sessions": 173
+   "channel": "direct",
+   "views": 2713,
+   "reads": 139,
+   "sessions": 2724
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 205,
+   "views": 204,
    "reads": 25,
    "sessions": 205
   },
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2715,
+   "views": 2713,
    "reads": 139,
    "completes": 8,
-   "sessions": 2721,
+   "sessions": 2724,
    "read_rate": 0.051,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -96,22 +96,22 @@
   },
   {
    "channel": "organic",
-   "views": 215,
-   "reads": 138,
+   "views": 221,
+   "reads": 144,
    "completes": 3,
-   "sessions": 173,
-   "read_rate": 0.642,
+   "sessions": 179,
+   "read_rate": 0.652,
    "complete_rate": 0.014,
-   "pages_per_session": 1.24,
+   "pages_per_session": 1.23,
    "median_dwell_sec": 2
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 205,
+   "views": 204,
    "reads": 25,
    "completes": 0,
    "sessions": 205,
-   "read_rate": 0.122,
+   "read_rate": 0.123,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -285,7 +285,7 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 209,
+   "views": 208,
    "reads": 25,
    "sessions": 208
   },
@@ -329,15 +329,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2655,
-   "reads": 291,
-   "sessions": 2536
+   "views": 2659,
+   "reads": 297,
+   "sessions": 2541
   },
   {
    "device": "mobile",
-   "views": 540,
+   "views": 539,
    "reads": 27,
-   "sessions": 530
+   "sessions": 529
   }
  ],
  "topContent": [
@@ -352,6 +352,16 @@
    "plays": 0
   },
   {
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 35,
+   "reads": 16,
+   "plays": 0
+  },
+  {
    "slug": "open-source-llm-leaderboard-september-2026-run-locally",
    "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
    "section": "stack",
@@ -360,16 +370,6 @@
    "views": 81,
    "reads": 12,
    "plays": 1
-  },
-  {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 29,
-   "reads": 10,
-   "plays": 0
   },
   {
    "slug": "how-to-run-spec-driven-development-github-spec-kit",
@@ -392,22 +392,22 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 8,
-   "plays": 0
-  },
-  {
    "slug": "vllm-rust-frontend",
    "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 15,
+   "reads": 8,
+   "plays": 0
+  },
+  {
+   "slug": "open-source-llm-for-coding-september-2026",
+   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 14,
    "reads": 8,
    "plays": 0
   },
@@ -616,6 +616,16 @@
    "plays": 0
   },
   {
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 35,
+   "reads": 16,
+   "plays": 0
+  },
+  {
    "slug": "best-open-source-rl-frameworks-for-training-agents",
    "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
    "section": "stack",
@@ -623,16 +633,6 @@
    "author": "dex",
    "views": 34,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 29,
-   "reads": 10,
    "plays": 0
   },
   {
@@ -821,8 +821,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 49,
-   "sessions": 30
+   "hits": 61,
+   "sessions": 36
   },
   {
    "ref": "https://www.google.com/",
