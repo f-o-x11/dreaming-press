@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-06T17:05:12.784Z",
+ "generated": "2026-10-06T17:15:20.497Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11451,
+ "verifiedAiHits": 11463,
  "logsScanned": 30,
  "windowStart": "2026-09-22",
  "windowEnd": "2026-10-06",
- "totalHits": 106169,
- "aiHits": 87036,
+ "totalHits": 106260,
+ "aiHits": 87112,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28625,
+   "hits": 28633,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14522,
+   "hits": 14529,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -61,12 +61,12 @@
      "hits": 21
     },
     {
-     "path": "/tags/reportive",
+     "path": "/stack.html",
      "hits": 20
     },
     {
-     "path": "/stack.html",
-     "hits": 18
+     "path": "/tags/reportive",
+     "hits": 20
     },
     {
      "path": "/stack/coresignal",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 11865,
+   "hits": 11867,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7336,
-   "verifiedHits": 7292,
+   "hits": 7339,
+   "verifiedHits": 7295,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
@@ -179,14 +179,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4980,
-   "verifiedHits": 4880,
+   "hits": 4990,
+   "verifiedHits": 4890,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
     {
      "path": "/wire.html",
-     "hits": 67
+     "hits": 68
     },
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
@@ -198,7 +198,7 @@
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 55
+     "hits": 56
     },
     {
      "path": "/posts/2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe.html",
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4943,
+   "hits": 4945,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3489,
+   "hits": 3497,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2941,
-   "verifiedHits": 2810,
+   "hits": 2943,
+   "verifiedHits": 2812,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2640,
+   "hits": 2642,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -322,7 +322,7 @@
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
-     "hits": 193
+     "hits": 194
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
@@ -330,7 +330,7 @@
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 118
+     "hits": 119
     },
     {
      "path": "/posts/serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026.html",
@@ -344,7 +344,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2565,
+   "hits": 2610,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -354,19 +354,19 @@
      "hits": 25
     },
     {
-     "path": "/posts/how-to-stop-an-ai-agent-from-looping-forever.html",
+     "path": "/topics/agent-memory",
      "hits": 3
     },
     {
-     "path": "/posts/2026-06-23-prefill-vs-decode-llm-inference.html",
+     "path": "/topics/rag-retrieval",
      "hits": 3
     },
     {
-     "path": "/posts/garak-vs-pyrit-vs-promptfoo.html",
+     "path": "/posts/why-ai-agent-costs-scale-quadratically.html",
      "hits": 3
     },
     {
-     "path": "/posts/2026-06-23-how-much-vram-to-serve-an-llm.html",
+     "path": "/global-tech-news",
      "hits": 3
     }
    ],
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2090,
+   "hits": 2092,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
