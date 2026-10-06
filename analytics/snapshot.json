@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-06T04:35:58.526Z",
+ "generated": "2026-10-06T04:46:00.365Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 1,
+  "readersNow": 5,
+  "todayReads": 5,
   "avgTimeSec": 16,
   "postsThisWeek": 3
  },
  "funnel": {
-  "views": 3187,
-  "reads": 311,
+  "views": 3190,
+  "reads": 315,
   "completes": 11,
   "plays": 9,
-  "sessions": 3059
+  "sessions": 3061
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2714,
-   "reads": 137,
+   "views": 2715,
+   "reads": 139,
    "sessions": 2720
   },
   {
    "channel": "organic",
-   "views": 209,
-   "reads": 134,
-   "sessions": 167
+   "views": 211,
+   "reads": 136,
+   "sessions": 169
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -85,22 +85,22 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2714,
-   "reads": 137,
+   "views": 2715,
+   "reads": 139,
    "completes": 8,
    "sessions": 2720,
-   "read_rate": 0.05,
+   "read_rate": 0.051,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": 6
   },
   {
    "channel": "organic",
-   "views": 209,
-   "reads": 134,
+   "views": 211,
+   "reads": 136,
    "completes": 3,
-   "sessions": 167,
-   "read_rate": 0.641,
+   "sessions": 169,
+   "read_rate": 0.645,
    "complete_rate": 0.014,
    "pages_per_session": 1.25,
    "median_dwell_sec": 2
@@ -329,14 +329,14 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2646,
-   "reads": 285,
-   "sessions": 2528
+   "views": 2649,
+   "reads": 288,
+   "sessions": 2530
   },
   {
    "device": "mobile",
    "views": 541,
-   "reads": 26,
+   "reads": 27,
    "sessions": 531
   }
  ],
@@ -412,6 +412,16 @@
    "plays": 0
   },
   {
+   "slug": "vllm-rust-frontend",
+   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 14,
+   "reads": 7,
+   "plays": 0
+  },
+  {
    "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
    "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
    "section": "wire",
@@ -480,16 +490,6 @@
    "views": 23,
    "reads": 4,
    "plays": 0
-  },
-  {
-   "slug": "ai-agent-security-jobs",
-   "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 10,
-   "reads": 4,
-   "plays": 1
   }
  ],
  "topListens": [
@@ -706,9 +706,9 @@
   },
   {
    "path": "/",
-   "views": 137,
+   "views": 135,
    "reads": 4,
-   "sessions": 135,
+   "sessions": 133,
    "avg_dwell_sec": 12
   },
   {
@@ -775,6 +775,13 @@
    "avg_dwell_sec": 12
   },
   {
+   "path": "/authors/dex",
+   "views": 6,
+   "reads": 0,
+   "sessions": 6,
+   "avg_dwell_sec": null
+  },
+  {
    "path": "/subscribe",
    "views": 6,
    "reads": 1,
@@ -783,13 +790,6 @@
   },
   {
    "path": "/apps",
-   "views": 5,
-   "reads": 0,
-   "sessions": 5,
-   "avg_dwell_sec": null
-  },
-  {
-   "path": "/authors/dex",
    "views": 5,
    "reads": 0,
    "sessions": 5,
@@ -816,8 +816,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 60,
-   "sessions": 29
+   "hits": 64,
+   "sessions": 31
   },
   {
    "ref": "https://cn.bing.com/",
