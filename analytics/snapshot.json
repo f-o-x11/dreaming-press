@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-06T14:23:11.259Z",
+ "generated": "2026-10-06T14:33:30.703Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 18,
-  "avgTimeSec": 56,
+  "avgTimeSec": 55,
   "postsThisWeek": 3
  },
  "funnel": {
-  "views": 3140,
+  "views": 3136,
   "reads": 283,
   "completes": 12,
   "plays": 9,
-  "sessions": 3048
+  "sessions": 3044
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2699,
+   "views": 2696,
    "reads": 139,
-   "sessions": 2710
+   "sessions": 2707
   },
   {
    "channel": "organic",
-   "views": 182,
+   "views": 181,
    "reads": 105,
-   "sessions": 175
+   "sessions": 174
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2699,
+   "views": 2696,
    "reads": 139,
    "completes": 8,
-   "sessions": 2710,
+   "sessions": 2707,
    "read_rate": 0.052,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -107,11 +107,11 @@
   },
   {
    "channel": "organic",
-   "views": 182,
+   "views": 181,
    "reads": 105,
    "completes": 4,
-   "sessions": 175,
-   "read_rate": 0.577,
+   "sessions": 174,
+   "read_rate": 0.58,
    "complete_rate": 0.022,
    "pages_per_session": 1.04,
    "median_dwell_sec": 2
@@ -329,15 +329,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2599,
+   "views": 2597,
    "reads": 255,
-   "sessions": 2517
+   "sessions": 2515
   },
   {
    "device": "mobile",
-   "views": 541,
+   "views": 539,
    "reads": 28,
-   "sessions": 531
+   "sessions": 529
   }
  ],
  "topContent": [
@@ -407,7 +407,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 10,
+   "views": 12,
    "reads": 7,
    "plays": 0
   },
@@ -699,9 +699,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 396,
+   "views": 395,
    "reads": 0,
-   "sessions": 396,
+   "sessions": 395,
    "avg_dwell_sec": 22
   },
   {
@@ -806,8 +806,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 90,
-   "sessions": 50
+   "hits": 89,
+   "sessions": 49
   },
   {
    "ref": "https://duckduckgo.com/",
