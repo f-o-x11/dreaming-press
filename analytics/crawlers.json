@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-06T20:27:16.986Z",
+ "generated": "2026-10-06T20:37:24.936Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11608,
+ "verifiedAiHits": 11623,
  "logsScanned": 30,
  "windowStart": "2026-09-22",
  "windowEnd": "2026-10-06",
- "totalHits": 110190,
- "aiHits": 90842,
+ "totalHits": 110396,
+ "aiHits": 91043,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14676,
+   "hits": 14684,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -61,11 +61,11 @@
      "hits": 22
     },
     {
-     "path": "/stack.html",
-     "hits": 20
+     "path": "/tags/reportive",
+     "hits": 21
     },
     {
-     "path": "/tags/reportive",
+     "path": "/stack.html",
      "hits": 20
     },
     {
@@ -113,7 +113,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 11807,
+   "hits": 11822,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7415,
-   "verifiedHits": 7371,
+   "hits": 7420,
+   "verifiedHits": 7376,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
@@ -179,22 +179,22 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5686,
+   "hits": 5849,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 93
+     "hits": 96
+    },
+    {
+     "path": "/stack.html",
+     "hits": 8
     },
     {
      "path": "/posts/2026-06-23-prefill-vs-decode-llm-inference.html",
      "hits": 7
-    },
-    {
-     "path": "/stack.html",
-     "hits": 6
     },
     {
      "path": "/posts/best-open-source-rl-frameworks-for-training-agents.html",
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5088,
-   "verifiedHits": 4986,
+   "hits": 5103,
+   "verifiedHits": 5001,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
