@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-06T19:26Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-06T19:36Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -44,7 +44,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One" — 7 reads, 11 views, 0 listens
 - [wire] "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest" — 6 reads, 11 views, 0 listens
 - [wire] "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K" — 6 reads, 11 views, 0 listens
-- [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 6 reads, 8 views, 0 listens
+- [wire] "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card" — 6 reads, 9 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [stack] "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement" — 1 listens, 9 reads
@@ -106,9 +106,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-09-21-founders-wire-plugin4shell-qwen-image-anthropic-ipo.html  — 13 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4941 verified): /wire.html ×70 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×63 · /posts/open-source-llm-for-coding-september-2026.html ×61
-- ChatGPT-User (2839 verified): / ×637 · /posts/open-source-llm-for-coding-september-2026.html ×135 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×103
-- PerplexityBot (2041 verified): / ×20 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×18 · /posts/2026-09-24-founders-wire-un-security-council-intrinsic-core-mirendil.html ×16
+- OAI-SearchBot (4951 verified): /wire.html ×70 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×63 · /posts/open-source-llm-for-coding-september-2026.html ×61
+- ChatGPT-User (2840 verified): / ×637 · /posts/open-source-llm-for-coding-september-2026.html ×135 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×103
+- PerplexityBot (2042 verified): / ×20 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×18 · /posts/2026-09-24-founders-wire-un-security-council-intrinsic-core-mirendil.html ×16
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -136,7 +136,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (152h old, 259 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 11555 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4941, ChatGPT (user browsing) 2839, Perplexity 2041, GPTBot (OpenAI) 1734).
+The real answer engines are crawling us — IP-verified: 11567 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4951, ChatGPT (user browsing) 2840, Perplexity 2042, GPTBot (OpenAI) 1734).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 700 crawler fetches
 - /build  — 237 crawler fetches
