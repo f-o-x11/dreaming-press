@@ -1,14 +1,14 @@
 {
- "generated": "2026-10-06T07:38:08.170Z",
+ "generated": "2026-10-06T07:48:15.088Z",
  "windowDays": 14,
  "site": {
   "readersNow": 5,
   "todayReads": 15,
-  "avgTimeSec": 92,
+  "avgTimeSec": 76,
   "postsThisWeek": 3
  },
  "funnel": {
-  "views": 3143,
+  "views": 3144,
   "reads": 286,
   "completes": 12,
   "plays": 9,
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2693,
+   "views": 2695,
    "reads": 138,
-   "sessions": 2704
+   "sessions": 2705
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 205,
+   "views": 204,
    "reads": 24,
-   "sessions": 205
+   "sessions": 204
   },
   {
    "channel": "ai",
@@ -79,16 +79,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 19
+   "sessions": 20
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2693,
+   "views": 2695,
    "reads": 138,
    "completes": 8,
-   "sessions": 2704,
+   "sessions": 2705,
    "read_rate": 0.051,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -96,11 +96,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 205,
+   "views": 204,
    "reads": 24,
    "completes": 0,
-   "sessions": 205,
-   "read_rate": 0.117,
+   "sessions": 204,
+   "read_rate": 0.118,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -198,7 +198,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 19,
+   "sessions": 20,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -213,8 +213,8 @@
   },
   {
    "surface": "btn-stats",
-   "clicks": 7,
-   "sessions": 4
+   "clicks": 8,
+   "sessions": 5
   },
   {
    "surface": "nav-cmp",
@@ -285,9 +285,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 208,
+   "views": 207,
    "reads": 24,
-   "sessions": 207
+   "sessions": 206
   },
   {
    "assistant": "Claude",
@@ -329,7 +329,7 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2611,
+   "views": 2612,
    "reads": 259,
    "sessions": 2526
   },
@@ -357,7 +357,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 81,
+   "views": 82,
    "reads": 12,
    "plays": 1
   },
@@ -499,7 +499,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 81,
+   "views": 82,
    "reads": 12,
    "plays": 1
   },
@@ -601,7 +601,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 81,
+   "views": 82,
    "reads": 12,
    "plays": 1
   },
@@ -706,9 +706,9 @@
   },
   {
    "path": "/",
-   "views": 136,
+   "views": 139,
    "reads": 4,
-   "sessions": 134,
+   "sessions": 137,
    "avg_dwell_sec": 12
   },
   {
@@ -734,9 +734,9 @@
   },
   {
    "path": "/dashboard",
-   "views": 22,
+   "views": 23,
    "reads": 2,
-   "sessions": 11,
+   "sessions": 12,
    "avg_dwell_sec": 35
   },
   {
@@ -754,18 +754,18 @@
    "avg_dwell_sec": null
   },
   {
-   "path": "/agents.html",
-   "views": 9,
-   "reads": 1,
-   "sessions": 9,
-   "avg_dwell_sec": 41
-  },
-  {
    "path": "/submit.html",
    "views": 9,
    "reads": 1,
    "sessions": 7,
    "avg_dwell_sec": 39
+  },
+  {
+   "path": "/agents.html",
+   "views": 8,
+   "reads": 1,
+   "sessions": 8,
+   "avg_dwell_sec": 41
   },
   {
    "path": "/global-tech-news",
@@ -850,9 +850,9 @@
    "sessions": 8
   },
   {
-   "ref": "https://claude.ai/",
-   "hits": 7,
-   "sessions": 2
+   "ref": "btn-stats",
+   "hits": 8,
+   "sessions": 5
   }
  ]
 }
