@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-06T11:41:00.219Z",
+ "generated": "2026-10-06T11:51:18.463Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 6,
   "todayReads": 17,
-  "avgTimeSec": 61,
+  "avgTimeSec": 59,
   "postsThisWeek": 3
  },
  "funnel": {
   "views": 3134,
-  "reads": 285,
+  "reads": 283,
   "completes": 12,
   "plays": 9,
-  "sessions": 3039
+  "sessions": 3040
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2690,
+   "views": 2692,
    "reads": 138,
-   "sessions": 2700
+   "sessions": 2702
   },
   {
    "channel": "organic",
-   "views": 183,
-   "reads": 106,
-   "sessions": 176
+   "views": 182,
+   "reads": 105,
+   "sessions": 175
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -47,8 +47,8 @@
   },
   {
    "channel": "campaign:qwant",
-   "views": 6,
-   "reads": 4,
+   "views": 5,
+   "reads": 3,
    "sessions": 2
   },
   {
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2690,
+   "views": 2692,
    "reads": 138,
    "completes": 8,
-   "sessions": 2700,
+   "sessions": 2702,
    "read_rate": 0.051,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -107,11 +107,11 @@
   },
   {
    "channel": "organic",
-   "views": 183,
-   "reads": 106,
+   "views": 182,
+   "reads": 105,
    "completes": 4,
-   "sessions": 176,
-   "read_rate": 0.579,
+   "sessions": 175,
+   "read_rate": 0.577,
    "complete_rate": 0.022,
    "pages_per_session": 1.04,
    "median_dwell_sec": 2
@@ -140,13 +140,13 @@
   },
   {
    "channel": "campaign:qwant",
-   "views": 6,
-   "reads": 4,
+   "views": 5,
+   "reads": 3,
    "completes": 0,
    "sessions": 2,
-   "read_rate": 0.667,
+   "read_rate": 0.6,
    "complete_rate": 0,
-   "pages_per_session": 3,
+   "pages_per_session": 2.5,
    "median_dwell_sec": null
   },
   {
@@ -330,8 +330,8 @@
   {
    "device": "desktop",
    "views": 2598,
-   "reads": 258,
-   "sessions": 2513
+   "reads": 256,
+   "sessions": 2514
   },
   {
    "device": "mobile",
@@ -357,8 +357,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 81,
-   "reads": 12,
+   "views": 80,
+   "reads": 11,
    "plays": 1
   },
   {
@@ -442,16 +442,6 @@
    "plays": 0
   },
   {
-   "slug": "how-to-cap-runaway-claude-code-subagents-web-searches",
-   "title": "How to Cap a Runaway Claude Code Agent: The New Per-Session Subagent and Web-Search Budgets",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "lightpanda-vs-playwright-vs-browserless-headless-browser-ai-agents",
    "title": "Lightpanda vs Playwright vs Browserless: Picking a Headless Browser for AI Agents",
    "section": "stack",
@@ -482,6 +472,16 @@
    "plays": 0
   },
   {
+   "slug": "how-to-cap-runaway-claude-code-subagents-web-searches",
+   "title": "How to Cap a Runaway Claude Code Agent: The New Per-Session Subagent and Web-Search Budgets",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "ai-agent-security-jobs",
    "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
    "section": "stack",
@@ -499,8 +499,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 81,
-   "reads": 12,
+   "views": 80,
+   "reads": 11,
    "plays": 1
   },
   {
@@ -601,8 +601,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 81,
-   "reads": 12,
+   "views": 80,
+   "reads": 11,
    "plays": 1
   },
   {
@@ -806,8 +806,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 93,
-   "sessions": 52
+   "hits": 91,
+   "sessions": 51
   },
   {
    "ref": "https://duckduckgo.com/",
