@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-06T21:07:45.739Z",
+ "generated": "2026-10-06T21:17:49.702Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11638,
+ "verifiedAiHits": 11653,
  "logsScanned": 30,
  "windowStart": "2026-09-22",
  "windowEnd": "2026-10-06",
- "totalHits": 111201,
- "aiHits": 91799,
+ "totalHits": 111285,
+ "aiHits": 91879,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28821,
+   "hits": 28826,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14708,
+   "hits": 14716,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -113,7 +113,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 11857,
+   "hits": 11866,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7433,
-   "verifiedHits": 7389,
+   "hits": 7436,
+   "verifiedHits": 7392,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6514,
+   "hits": 6556,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -190,18 +190,18 @@
     },
     {
      "path": "/stack.html",
-     "hits": 8
+     "hits": 10
     },
     {
      "path": "/posts/2026-06-23-prefill-vs-decode-llm-inference.html",
      "hits": 7
     },
     {
-     "path": "/posts/best-open-source-rl-frameworks-for-training-agents.html",
+     "path": "/wire.html",
      "hits": 6
     },
     {
-     "path": "/posts/opentelemetry-genai-agent-observability.html",
+     "path": "/posts/best-open-source-rl-frameworks-for-training-agents.html",
      "hits": 6
     }
    ],
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5114,
-   "verifiedHits": 5012,
+   "hits": 5124,
+   "verifiedHits": 5022,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3518,
+   "hits": 3519,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2978,
-   "verifiedHits": 2844,
+   "hits": 2982,
+   "verifiedHits": 2848,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
     {
      "path": "/",
-     "hits": 640
+     "hits": 642
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -344,7 +344,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2655,
+   "hits": 2656,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -355,7 +355,7 @@
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
-     "hits": 196
+     "hits": 197
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
@@ -410,8 +410,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2248,
-   "verifiedHits": 2047,
+   "hits": 2249,
+   "verifiedHits": 2048,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
