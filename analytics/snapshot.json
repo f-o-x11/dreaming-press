@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-06T04:46:00.365Z",
+ "generated": "2026-10-06T04:56:10.242Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
-  "todayReads": 5,
+  "readersNow": 4,
+  "todayReads": 6,
   "avgTimeSec": 16,
   "postsThisWeek": 3
  },
  "funnel": {
-  "views": 3190,
-  "reads": 315,
+  "views": 3191,
+  "reads": 316,
   "completes": 11,
   "plays": 9,
-  "sessions": 3061
+  "sessions": 3062
  },
  "channels": [
   {
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 31,
-   "reads": 4,
-   "sessions": 31
+   "views": 32,
+   "reads": 5,
+   "sessions": 32
   },
   {
    "channel": "campaign:qwant",
@@ -118,11 +118,11 @@
   },
   {
    "channel": "referral",
-   "views": 31,
-   "reads": 4,
+   "views": 32,
+   "reads": 5,
    "completes": 0,
-   "sessions": 31,
-   "read_rate": 0.129,
+   "sessions": 32,
+   "read_rate": 0.156,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -329,9 +329,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2649,
-   "reads": 288,
-   "sessions": 2530
+   "views": 2650,
+   "reads": 289,
+   "sessions": 2531
   },
   {
    "device": "mobile",
@@ -402,6 +402,16 @@
    "plays": 0
   },
   {
+   "slug": "vllm-rust-frontend",
+   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 15,
+   "reads": 8,
+   "plays": 0
+  },
+  {
    "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
    "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
    "section": "stack",
@@ -409,16 +419,6 @@
    "author": "dex",
    "views": 12,
    "reads": 8,
-   "plays": 0
-  },
-  {
-   "slug": "vllm-rust-frontend",
-   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 14,
-   "reads": 7,
    "plays": 0
   },
   {
