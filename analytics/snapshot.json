@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-06T07:28:00.476Z",
+ "generated": "2026-10-06T07:38:08.170Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 5,
   "todayReads": 15,
-  "avgTimeSec": 109,
+  "avgTimeSec": 92,
   "postsThisWeek": 3
  },
  "funnel": {
-  "views": 3175,
-  "reads": 322,
+  "views": 3143,
+  "reads": 286,
   "completes": 12,
   "plays": 9,
-  "sessions": 3046
+  "sessions": 3048
  },
  "channels": [
   {
-   "channel": "organic",
-   "views": 221,
-   "reads": 144,
-   "sessions": 179
+   "channel": "direct",
+   "views": 2693,
+   "reads": 138,
+   "sessions": 2704
   },
   {
-   "channel": "direct",
-   "views": 2690,
-   "reads": 138,
-   "sessions": 2702
+   "channel": "organic",
+   "views": 186,
+   "reads": 108,
+   "sessions": 179
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -85,25 +85,14 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2690,
+   "views": 2693,
    "reads": 138,
    "completes": 8,
-   "sessions": 2702,
+   "sessions": 2704,
    "read_rate": 0.051,
    "complete_rate": 0.003,
    "pages_per_session": 1,
-   "median_dwell_sec": 7
-  },
-  {
-   "channel": "organic",
-   "views": 221,
-   "reads": 144,
-   "completes": 4,
-   "sessions": 179,
-   "read_rate": 0.652,
-   "complete_rate": 0.018,
-   "pages_per_session": 1.23,
-   "median_dwell_sec": 2
+   "median_dwell_sec": 6
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -115,6 +104,17 @@
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
+  },
+  {
+   "channel": "organic",
+   "views": 186,
+   "reads": 108,
+   "completes": 4,
+   "sessions": 179,
+   "read_rate": 0.581,
+   "complete_rate": 0.022,
+   "pages_per_session": 1.04,
+   "median_dwell_sec": 2
   },
   {
    "channel": "referral",
@@ -329,9 +329,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2643,
-   "reads": 295,
-   "sessions": 2524
+   "views": 2611,
+   "reads": 259,
+   "sessions": 2526
   },
   {
    "device": "mobile",
@@ -342,22 +342,12 @@
  ],
  "topContent": [
   {
-   "slug": "microsoft-agent-framework-vs-langgraph-vs-crewai-three-thresholds",
-   "title": "Microsoft Agent Framework vs LangGraph vs CrewAI: Which One Crossed the Three Thresholds",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 39,
-   "reads": 36,
-   "plays": 0
-  },
-  {
    "slug": "mcp-tool-annotations-explained",
    "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 36,
+   "views": 37,
    "reads": 16,
    "plays": 0
   },
@@ -490,6 +480,16 @@
    "views": 23,
    "reads": 4,
    "plays": 0
+  },
+  {
+   "slug": "ai-agent-security-jobs",
+   "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 9,
+   "reads": 4,
+   "plays": 1
   }
  ],
  "topListens": [
@@ -584,13 +584,13 @@
    "plays": 1
   },
   {
-   "slug": "microsoft-agent-framework-vs-langgraph-vs-crewai-three-thresholds",
-   "title": "Microsoft Agent Framework vs LangGraph vs CrewAI: Which One Crossed the Three Thresholds",
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 39,
-   "reads": 36,
+   "author": "dex",
+   "views": 37,
+   "reads": 16,
    "plays": 0
   }
  ],
@@ -606,22 +606,12 @@
    "plays": 1
   },
   {
-   "slug": "microsoft-agent-framework-vs-langgraph-vs-crewai-three-thresholds",
-   "title": "Microsoft Agent Framework vs LangGraph vs CrewAI: Which One Crossed the Three Thresholds",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 39,
-   "reads": 36,
-   "plays": 0
-  },
-  {
    "slug": "mcp-tool-annotations-explained",
    "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 36,
+   "views": 37,
    "reads": 16,
    "plays": 0
   },
@@ -694,6 +684,16 @@
    "views": 18,
    "reads": 9,
    "plays": 1
+  },
+  {
+   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
+   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 18,
+   "reads": 0,
+   "plays": 0
   }
  ],
  "topPages": [
@@ -706,9 +706,9 @@
   },
   {
    "path": "/",
-   "views": 135,
+   "views": 136,
    "reads": 4,
-   "sessions": 133,
+   "sessions": 134,
    "avg_dwell_sec": 12
   },
   {
@@ -810,14 +810,9 @@
    "sessions": 53
   },
   {
-   "ref": "https://mail.google.com/",
-   "hits": 72,
-   "sessions": 1
-  },
-  {
    "ref": "https://duckduckgo.com/",
-   "hits": 64,
-   "sessions": 31
+   "hits": 65,
+   "sessions": 32
   },
   {
    "ref": "https://cn.bing.com/",
@@ -853,6 +848,11 @@
    "ref": "https://bing.com/",
    "hits": 8,
    "sessions": 8
+  },
+  {
+   "ref": "https://claude.ai/",
+   "hits": 7,
+   "sessions": 2
   }
  ]
 }
