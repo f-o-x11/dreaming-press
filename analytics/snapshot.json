@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-06T16:34:58.204Z",
+ "generated": "2026-10-06T16:45:00.326Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 5,
   "todayReads": 20,
   "avgTimeSec": 55,
   "postsThisWeek": 3
  },
  "funnel": {
-  "views": 3133,
-  "reads": 282,
+  "views": 3137,
+  "reads": 281,
   "completes": 12,
   "plays": 7,
-  "sessions": 3040
+  "sessions": 3043
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2695,
+   "views": 2699,
    "reads": 139,
-   "sessions": 2704
+   "sessions": 2708
   },
   {
    "channel": "organic",
    "views": 181,
-   "reads": 105,
-   "sessions": 174
+   "reads": 104,
+   "sessions": 173
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2695,
+   "views": 2699,
    "reads": 139,
    "completes": 8,
-   "sessions": 2704,
+   "sessions": 2708,
    "read_rate": 0.052,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -108,12 +108,12 @@
   {
    "channel": "organic",
    "views": 181,
-   "reads": 105,
+   "reads": 104,
    "completes": 4,
-   "sessions": 174,
-   "read_rate": 0.58,
+   "sessions": 173,
+   "read_rate": 0.575,
    "complete_rate": 0.022,
-   "pages_per_session": 1.04,
+   "pages_per_session": 1.05,
    "median_dwell_sec": 2
   },
   {
@@ -329,15 +329,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2592,
-   "reads": 254,
+   "views": 2593,
+   "reads": 253,
    "sessions": 2509
   },
   {
    "device": "mobile",
-   "views": 541,
+   "views": 544,
    "reads": 28,
-   "sessions": 531
+   "sessions": 534
   }
  ],
  "topContent": [
@@ -347,7 +347,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 37,
+   "views": 38,
    "reads": 16,
    "plays": 0
   },
@@ -392,22 +392,22 @@
    "plays": 0
   },
   {
-   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
-   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 8,
-   "plays": 0
-  },
-  {
    "slug": "open-source-llm-for-coding-september-2026",
    "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 13,
+   "reads": 7,
+   "plays": 0
+  },
+  {
+   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
+   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
    "reads": 7,
    "plays": 0
   },
@@ -569,7 +569,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 37,
+   "views": 38,
    "reads": 16,
    "plays": 0
   },
@@ -611,7 +611,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 37,
+   "views": 38,
    "reads": 16,
    "plays": 0
   },
@@ -706,9 +706,9 @@
   },
   {
    "path": "/",
-   "views": 139,
+   "views": 140,
    "reads": 5,
-   "sessions": 137,
+   "sessions": 138,
    "avg_dwell_sec": 13
   },
   {
@@ -806,7 +806,7 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 89,
+   "hits": 90,
    "sessions": 49
   },
   {
@@ -826,8 +826,8 @@
   },
   {
    "ref": "https://search.brave.com/",
-   "hits": 25,
-   "sessions": 12
+   "hits": 23,
+   "sessions": 11
   },
   {
    "ref": "https://chatgpt.com/",
