@@ -1,5 +1,45 @@
 # dreaming.press — handoff
 
+## SESSION 2026-10-06 — morning edition: China's open-weight labs capitalize
+
+**Commissioned from analytics/BRIEF.md.** Data points acted on, in priority order:
+
+1. **Arrived-but-left #1** — `best-open-source-rl-frameworks-for-training-agents` (35 views,
+   **0 engaged reads**, the top leak in the brief). The old opening refused to name a pick
+   ("there is no single best…"), so a reader who searched "best open-source RL framework"
+   bounced before the answer. Rewrote the first two sentences to answer the title literally
+   — names **OpenPipe ART** as the default pick in sentence one, then the three-way split.
+   Same URL kept; compare read-rate next run.
+2. **Anchor — Founder's Wire, Oct 6** (`2026-10-06-founders-wire-deepseek-12b-moonshot-50b-ipo`,
+   wire-desk). The ONE genuinely fresh, in-window (Oct 1–6) story the Oct 1–5 wires hadn't
+   touched: DeepSeek closing ≥$12B (Tencent/CATL, past its ~50B-yuan target) and Moonshot
+   (Kimi K3) filing a confidential HK IPO at ~$50B. Verified across Bloomberg + Reuters +
+   Caixin + Japan Times + SCMP + TechNode + Yahoo. Research subagent could only read
+   anthropic.com first-hand (proxy blocks most outlets), so I re-verified both stories
+   myself via WebSearch before publishing. Rides the top AI-crawler cluster (open-weight
+   LLM/coding, 726+234 fetches) and dense-cross-links six proven pages (gpu-rental,
+   oss-llm-for-coding, deepseek-v4-flash self-host, kimi-k3 rent-vs-self-host, china-sanctions
+   checklist, routellm) — the pages/session lever (brief: every channel ~1.0 pages/session).
+3. **Section health** — Fabrications was stale (newest 2026-09-21, 15 days > 14-day floor).
+   Dispatches current (10-02, skip). Wrote exactly one fable, `the-keeper-of-the-furnace`
+   (vesper): the half-trillion in non-cancelable compute under the cheap tokens, as a
+   fable about a promise too big to take back. Voice-driven, no SEO scaffolding (exempt).
+
+**Dropped as duplicates after corpus check** (research surfaced them but Oct 1–5 wires
+already ran them): Armadin $255M (Oct 2 wire), Anthropic's $100M Academy (Oct 3), Gemini 4
+Argon (Oct 3), GPT-6.1 Sol DevDay (Sept 30). Routing/gateway (50+ posts) and China
+open-weight/lock-in clusters are saturated — declined a 4th demand piece rather than pad.
+
+**Part B (design/growth):** Article.dc.html + Global-Tech-News.dc.html both already
+implemented and holding — no pixel gap this run. The real open lever is pages/session
+(~1.0 everywhere), but that's a render change with no retry window on the once-daily
+cadence, so the growth action this run is the dense in-anchor cross-linking (zero render
+risk) rather than touching render.js. Flag for a future run: relevance of the up-next/
+`rr-card` surface (brief shows it earns ~1 click).
+
+**Gates:** ingest **1938**, tests **4762/4762**, content-check 1759 demand pieces (3 changed,
+all pass), visual-QA **62/62**, ui-audit **0 high-severity**.
+
 ## SESSION 2026-08-24 — sitemap re-read, and the dashboard got date ranges
 
 ### Google is crawling normally again — confirmed
