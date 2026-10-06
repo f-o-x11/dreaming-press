@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-06T05:36:38.715Z",
+ "generated": "2026-10-06T05:46:47.670Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 6,
-  "avgTimeSec": 16,
+  "readersNow": 5,
+  "todayReads": 7,
+  "avgTimeSec": 67,
   "postsThisWeek": 3
  },
  "funnel": {
-  "views": 3193,
-  "reads": 316,
+  "views": 3196,
+  "reads": 317,
   "completes": 11,
   "plays": 9,
-  "sessions": 3064
+  "sessions": 3067
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2717,
    "reads": 139,
-   "sessions": 2722
+   "sessions": 2723
   },
   {
    "channel": "organic",
-   "views": 211,
-   "reads": 136,
-   "sessions": 169
+   "views": 214,
+   "reads": 137,
+   "sessions": 172
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -88,21 +88,21 @@
    "views": 2717,
    "reads": 139,
    "completes": 8,
-   "sessions": 2722,
+   "sessions": 2723,
    "read_rate": 0.051,
    "complete_rate": 0.003,
    "pages_per_session": 1,
-   "median_dwell_sec": 6
+   "median_dwell_sec": 7
   },
   {
    "channel": "organic",
-   "views": 211,
-   "reads": 136,
+   "views": 214,
+   "reads": 137,
    "completes": 3,
-   "sessions": 169,
-   "read_rate": 0.645,
+   "sessions": 172,
+   "read_rate": 0.64,
    "complete_rate": 0.014,
-   "pages_per_session": 1.25,
+   "pages_per_session": 1.24,
    "median_dwell_sec": 2
   },
   {
@@ -329,15 +329,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2653,
-   "reads": 289,
-   "sessions": 2534
+   "views": 2657,
+   "reads": 290,
+   "sessions": 2538
   },
   {
    "device": "mobile",
-   "views": 540,
+   "views": 539,
    "reads": 27,
-   "sessions": 530
+   "sessions": 529
   }
  ],
  "topContent": [
@@ -362,6 +362,16 @@
    "plays": 1
   },
   {
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 28,
+   "reads": 9,
+   "plays": 0
+  },
+  {
    "slug": "how-to-run-spec-driven-development-github-spec-kit",
    "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
    "section": "stack",
@@ -375,16 +385,6 @@
    "slug": "best-ai-agents-for-personal-use-september-2026",
    "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
    "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 23,
-   "reads": 8,
-   "plays": 0
-  },
-  {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
-   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 23,
@@ -549,7 +549,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 5,
+   "views": 4,
    "reads": 1,
    "plays": 1
   },
@@ -626,6 +626,16 @@
    "plays": 0
   },
   {
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 28,
+   "reads": 9,
+   "plays": 0
+  },
+  {
    "slug": "gpt-6-1-sol-vs-claude-sonnet-5-5-coding",
    "title": "GPT-6.1 Sol vs Claude Sonnet 5.5 for Coding: When Two Models Cost the Same, the Price Is the Least Useful Number",
    "section": "stack",
@@ -639,16 +649,6 @@
    "slug": "best-ai-agents-for-personal-use-september-2026",
    "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
    "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 23,
-   "reads": 8,
-   "plays": 0
-  },
-  {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
-   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 23,
@@ -821,8 +821,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 43,
-   "sessions": 26
+   "hits": 47,
+   "sessions": 29
   },
   {
    "ref": "https://www.google.com/",
