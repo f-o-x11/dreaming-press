@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-06T10:09:58.485Z",
+ "generated": "2026-10-06T10:20:00.297Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 0,
   "todayReads": 15,
   "avgTimeSec": 73,
   "postsThisWeek": 3
  },
  "funnel": {
-  "views": 3130,
+  "views": 3128,
   "reads": 283,
   "completes": 12,
   "plays": 9,
-  "sessions": 3034
+  "sessions": 3033
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2684,
+   "views": 2683,
    "reads": 137,
-   "sessions": 2694
+   "sessions": 2693
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 203,
+   "views": 202,
    "reads": 24,
-   "sessions": 203
+   "sessions": 202
   },
   {
    "channel": "ai",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2684,
+   "views": 2683,
    "reads": 137,
    "completes": 8,
-   "sessions": 2694,
+   "sessions": 2693,
    "read_rate": 0.051,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -96,11 +96,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 203,
+   "views": 202,
    "reads": 24,
    "completes": 0,
-   "sessions": 203,
-   "read_rate": 0.118,
+   "sessions": 202,
+   "read_rate": 0.119,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -285,9 +285,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 206,
+   "views": 205,
    "reads": 24,
-   "sessions": 205
+   "sessions": 204
   },
   {
    "assistant": "Claude",
@@ -329,9 +329,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2600,
+   "views": 2598,
    "reads": 256,
-   "sessions": 2514
+   "sessions": 2513
   },
   {
    "device": "mobile",
@@ -666,16 +666,6 @@
    "plays": 0
   },
   {
-   "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 19,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "how-to-run-spec-driven-development-github-spec-kit",
    "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
    "section": "stack",
@@ -693,6 +683,16 @@
    "author": "dex",
    "views": 18,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 17,
+   "reads": 1,
    "plays": 0
   }
  ],
@@ -831,8 +831,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 19,
-   "sessions": 13
+   "hits": 18,
+   "sessions": 12
   },
   {
    "ref": "brand",
