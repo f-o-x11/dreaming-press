@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-06T06:27:18.311Z",
+ "generated": "2026-10-06T06:37:20.274Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 4,
   "todayReads": 14,
-  "avgTimeSec": 150,
+  "avgTimeSec": 137,
   "postsThisWeek": 3
  },
  "funnel": {
-  "views": 3185,
+  "views": 3188,
   "reads": 323,
   "completes": 11,
   "plays": 9,
-  "sessions": 3056
+  "sessions": 3059
  },
  "channels": [
   {
    "channel": "organic",
-   "views": 221,
+   "views": 222,
    "reads": 144,
-   "sessions": 179
+   "sessions": 180
   },
   {
    "channel": "direct",
-   "views": 2699,
+   "views": 2701,
    "reads": 139,
-   "sessions": 2711
+   "sessions": 2713
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -85,22 +85,22 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2699,
+   "views": 2701,
    "reads": 139,
    "completes": 8,
-   "sessions": 2711,
-   "read_rate": 0.052,
+   "sessions": 2713,
+   "read_rate": 0.051,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": 7
   },
   {
    "channel": "organic",
-   "views": 221,
+   "views": 222,
    "reads": 144,
    "completes": 3,
-   "sessions": 179,
-   "read_rate": 0.652,
+   "sessions": 180,
+   "read_rate": 0.649,
    "complete_rate": 0.014,
    "pages_per_session": 1.23,
    "median_dwell_sec": 2
@@ -329,9 +329,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2646,
+   "views": 2649,
    "reads": 296,
-   "sessions": 2527
+   "sessions": 2530
   },
   {
    "device": "mobile",
@@ -789,18 +789,18 @@
    "avg_dwell_sec": 33
   },
   {
+   "path": "/topics/:topic",
+   "views": 6,
+   "reads": 0,
+   "sessions": 6,
+   "avg_dwell_sec": null
+  },
+  {
    "path": "/apps",
    "views": 5,
    "reads": 0,
    "sessions": 5,
    "avg_dwell_sec": null
-  },
-  {
-   "path": "/dispatches.html",
-   "views": 5,
-   "reads": 0,
-   "sessions": 5,
-   "avg_dwell_sec": 9
   }
  ],
  "referrers": [
@@ -826,8 +826,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 35,
-   "sessions": 30
+   "hits": 36,
+   "sessions": 31
   },
   {
    "ref": "https://search.brave.com/",
