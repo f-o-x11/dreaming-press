@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-06T23:19:31.999Z",
+ "generated": "2026-10-06T23:29:37.714Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11702,
+ "verifiedAiHits": 11706,
  "logsScanned": 30,
  "windowStart": "2026-09-22",
  "windowEnd": "2026-10-06",
- "totalHits": 112109,
- "aiHits": 92602,
+ "totalHits": 112156,
+ "aiHits": 92641,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28951,
+   "hits": 28955,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14810,
+   "hits": 14817,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -80,7 +80,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 12090,
+   "hits": 12102,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7492,
-   "verifiedHits": 7448,
+   "hits": 7495,
+   "verifiedHits": 7451,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
@@ -179,26 +179,26 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6738,
+   "hits": 6750,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 136
+     "hits": 137
     },
     {
      "path": "/stack.html",
-     "hits": 14
+     "hits": 16
     },
     {
      "path": "/wire.html",
-     "hits": 11
+     "hits": 13
     },
     {
      "path": "/tags/howto",
-     "hits": 10
+     "hits": 11
     },
     {
      "path": "/tags/opinionated",
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5159,
-   "verifiedHits": 5056,
+   "hits": 5163,
+   "verifiedHits": 5060,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2132,
+   "hits": 2133,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -542,7 +542,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 640,
+   "hits": 644,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -556,15 +556,15 @@
      "hits": 4
     },
     {
+     "path": "/posts/mcp-vs-rest-api-for-agents.html",
+     "hits": 3
+    },
+    {
      "path": "/graphql",
      "hits": 3
     },
     {
      "path": "/web.config",
-     "hits": 3
-    },
-    {
-     "path": "/posts/kimi-k2-7-code-token-efficiency-agentic-coding.html",
      "hits": 3
     }
    ],
