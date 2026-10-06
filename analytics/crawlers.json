@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-06T00:22:49.775Z",
+ "generated": "2026-10-06T00:32:59.710Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10792,
+ "verifiedAiHits": 10794,
  "logsScanned": 30,
  "windowStart": "2026-09-22",
  "windowEnd": "2026-10-06",
- "totalHits": 100566,
- "aiHits": 82513,
+ "totalHits": 100659,
+ "aiHits": 82601,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27293,
+   "hits": 27311,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13763,
+   "hits": 13772,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 11503,
+   "hits": 11504,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -94,15 +94,15 @@
      "hits": 8
     },
     {
+     "path": "/posts/claude-code-vs-code-setup-guide-september-2026.html",
+     "hits": 6
+    },
+    {
      "path": "/posts/llm-reranker-vs-cross-encoder-vs-listwise.html",
      "hits": 6
     },
     {
      "path": "/posts/serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026.html",
-     "hits": 6
-    },
-    {
-     "path": "/posts/openai-sponsored-agents-chatgpt-ads-founder-distribution-playbook.html",
      "hits": 6
     }
    ],
@@ -113,7 +113,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 10581,
+   "hits": 10631,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6941,
-   "verifiedHits": 6897,
+   "hits": 6944,
+   "verifiedHits": 6900,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4643,
+   "hits": 4645,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -212,10 +212,10 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4628,
-   "verifiedHits": 4535,
+   "hits": 4629,
+   "verifiedHits": 4536,
    "firstSeen": "2026-09-22",
-   "lastSeen": "2026-10-05",
+   "lastSeen": "2026-10-06",
    "topPaths": [
     {
      "path": "/wire.html",
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2789,
-   "verifiedHits": 2663,
+   "hits": 2790,
+   "verifiedHits": 2664,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
     {
      "path": "/",
-     "hits": 591
+     "hits": 592
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2424,
+   "hits": 2432,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
