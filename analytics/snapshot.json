@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-06T10:50:30.488Z",
+ "generated": "2026-10-06T11:00:39.003Z",
  "windowDays": 14,
  "site": {
   "readersNow": 4,
-  "todayReads": 16,
+  "todayReads": 17,
   "avgTimeSec": 65,
   "postsThisWeek": 3
  },
  "funnel": {
   "views": 3135,
-  "reads": 284,
+  "reads": 285,
   "completes": 12,
   "plays": 9,
   "sessions": 3040
@@ -17,27 +17,27 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2691,
+   "views": 2692,
    "reads": 138,
    "sessions": 2701
   },
   {
    "channel": "organic",
-   "views": 183,
+   "views": 182,
    "reads": 106,
-   "sessions": 176
+   "sessions": 175
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 202,
-   "reads": 24,
-   "sessions": 202
+   "views": 203,
+   "reads": 25,
+   "sessions": 203
   },
   {
    "channel": "ai",
-   "views": 15,
+   "views": 14,
    "reads": 6,
-   "sessions": 32
+   "sessions": 31
   },
   {
    "channel": "referral",
@@ -85,7 +85,7 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2691,
+   "views": 2692,
    "reads": 138,
    "completes": 8,
    "sessions": 2701,
@@ -96,22 +96,22 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 202,
-   "reads": 24,
+   "views": 203,
+   "reads": 25,
    "completes": 0,
-   "sessions": 202,
-   "read_rate": 0.119,
+   "sessions": 203,
+   "read_rate": 0.123,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
   {
    "channel": "organic",
-   "views": 183,
+   "views": 182,
    "reads": 106,
    "completes": 4,
-   "sessions": 176,
-   "read_rate": 0.579,
+   "sessions": 175,
+   "read_rate": 0.582,
    "complete_rate": 0.022,
    "pages_per_session": 1.04,
    "median_dwell_sec": 2
@@ -129,13 +129,13 @@
   },
   {
    "channel": "ai",
-   "views": 15,
+   "views": 14,
    "reads": 6,
    "completes": 0,
-   "sessions": 32,
-   "read_rate": 0.4,
+   "sessions": 31,
+   "read_rate": 0.429,
    "complete_rate": 0,
-   "pages_per_session": 0.47,
+   "pages_per_session": 0.45,
    "median_dwell_sec": 10
   },
   {
@@ -285,9 +285,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 205,
-   "reads": 24,
-   "sessions": 204
+   "views": 206,
+   "reads": 25,
+   "sessions": 205
   },
   {
    "assistant": "Claude",
@@ -297,9 +297,9 @@
   },
   {
    "assistant": "Perplexity",
-   "views": 3,
+   "views": 2,
    "reads": 1,
-   "sessions": 3
+   "sessions": 2
   },
   {
    "assistant": "Doubao",
@@ -329,15 +329,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2600,
-   "reads": 257,
-   "sessions": 2515
+   "views": 2599,
+   "reads": 258,
+   "sessions": 2514
   },
   {
    "device": "mobile",
-   "views": 535,
+   "views": 536,
    "reads": 27,
-   "sessions": 525
+   "sessions": 526
   }
  ],
  "topContent": [
@@ -357,7 +357,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 82,
+   "views": 81,
    "reads": 12,
    "plays": 1
   },
@@ -407,7 +407,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 11,
+   "views": 10,
    "reads": 7,
    "plays": 0
   },
@@ -499,7 +499,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 82,
+   "views": 81,
    "reads": 12,
    "plays": 1
   },
@@ -601,7 +601,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 82,
+   "views": 81,
    "reads": 12,
    "plays": 1
   },
@@ -816,8 +816,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 58,
-   "sessions": 34
+   "hits": 57,
+   "sessions": 33
   },
   {
    "ref": "https://www.google.com/",
@@ -831,8 +831,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 18,
-   "sessions": 12
+   "hits": 20,
+   "sessions": 13
   },
   {
    "ref": "brand",
