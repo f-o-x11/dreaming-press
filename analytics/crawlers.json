@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-06T00:12:41.057Z",
+ "generated": "2026-10-06T00:22:49.775Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10788,
+ "verifiedAiHits": 10792,
  "logsScanned": 30,
  "windowStart": "2026-09-22",
  "windowEnd": "2026-10-06",
- "totalHits": 100466,
- "aiHits": 82418,
+ "totalHits": 100566,
+ "aiHits": 82513,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27276,
+   "hits": 27293,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13755,
+   "hits": 13763,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -113,7 +113,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 10518,
+   "hits": 10581,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6938,
-   "verifiedHits": 6894,
+   "hits": 6941,
+   "verifiedHits": 6897,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4642,
+   "hits": 4643,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -278,18 +278,18 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2785,
-   "verifiedHits": 2659,
+   "hits": 2789,
+   "verifiedHits": 2663,
    "firstSeen": "2026-09-22",
-   "lastSeen": "2026-10-05",
+   "lastSeen": "2026-10-06",
    "topPaths": [
     {
      "path": "/",
-     "hits": 590
+     "hits": 591
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 132
+     "hits": 133
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
@@ -377,10 +377,10 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2421,
+   "hits": 2424,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
-   "lastSeen": "2026-10-05",
+   "lastSeen": "2026-10-06",
    "topPaths": [
     {
      "path": "/build",
@@ -443,10 +443,10 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1993,
+   "hits": 1994,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
-   "lastSeen": "2026-10-05",
+   "lastSeen": "2026-10-06",
    "topPaths": [
     {
      "path": "/posts/2026-09-16-founders-wire-euclyd-inference-silicon-apple-gemini-siri-ai-standards-body.md",
