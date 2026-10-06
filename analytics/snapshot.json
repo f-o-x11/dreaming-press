@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-06T20:47:34.920Z",
+ "generated": "2026-10-06T20:57:40.436Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 22,
-  "avgTimeSec": 49,
+  "avgTimeSec": 48,
   "postsThisWeek": 3
  },
  "funnel": {
-  "views": 3123,
+  "views": 3124,
   "reads": 282,
   "completes": 12,
   "plays": 7,
-  "sessions": 3032
+  "sessions": 3033
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2682,
+   "views": 2683,
    "reads": 139,
-   "sessions": 2694
+   "sessions": 2695
   },
   {
    "channel": "organic",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2682,
+   "views": 2683,
    "reads": 139,
    "completes": 8,
-   "sessions": 2694,
+   "sessions": 2695,
    "read_rate": 0.052,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -329,9 +329,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2579,
+   "views": 2580,
    "reads": 253,
-   "sessions": 2498
+   "sessions": 2499
   },
   {
    "device": "mobile",
@@ -477,7 +477,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 24,
+   "views": 26,
    "reads": 4,
    "plays": 0
   },
@@ -641,7 +641,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 24,
+   "views": 26,
    "reads": 4,
    "plays": 0
   },
@@ -768,18 +768,18 @@
    "avg_dwell_sec": 57
   },
   {
-   "path": "/global-tech-news",
-   "views": 7,
-   "reads": 0,
-   "sessions": 7,
-   "avg_dwell_sec": 12
-  },
-  {
    "path": "/authors/dex",
    "views": 6,
    "reads": 0,
    "sessions": 6,
    "avg_dwell_sec": null
+  },
+  {
+   "path": "/global-tech-news",
+   "views": 6,
+   "reads": 0,
+   "sessions": 6,
+   "avg_dwell_sec": 12
   },
   {
    "path": "/subscribe",
