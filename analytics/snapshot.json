@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-06T09:19:21.224Z",
+ "generated": "2026-10-06T09:29:28.676Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 2,
   "todayReads": 15,
   "avgTimeSec": 73,
   "postsThisWeek": 3
  },
  "funnel": {
-  "views": 3133,
-  "reads": 285,
+  "views": 3130,
+  "reads": 284,
   "completes": 12,
   "plays": 9,
-  "sessions": 3037
+  "sessions": 3035
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2685,
+   "views": 2684,
    "reads": 137,
-   "sessions": 2695
+   "sessions": 2694
   },
   {
    "channel": "organic",
-   "views": 186,
-   "reads": 108,
-   "sessions": 179
+   "views": 184,
+   "reads": 107,
+   "sessions": 178
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2685,
+   "views": 2684,
    "reads": 137,
    "completes": 8,
-   "sessions": 2695,
+   "sessions": 2694,
    "read_rate": 0.051,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -107,13 +107,13 @@
   },
   {
    "channel": "organic",
-   "views": 186,
-   "reads": 108,
+   "views": 184,
+   "reads": 107,
    "completes": 4,
-   "sessions": 179,
-   "read_rate": 0.581,
+   "sessions": 178,
+   "read_rate": 0.582,
    "complete_rate": 0.022,
-   "pages_per_session": 1.04,
+   "pages_per_session": 1.03,
    "median_dwell_sec": 2
   },
   {
@@ -329,9 +329,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2602,
-   "reads": 258,
-   "sessions": 2516
+   "views": 2599,
+   "reads": 257,
+   "sessions": 2514
   },
   {
    "device": "mobile",
@@ -392,22 +392,22 @@
    "plays": 0
   },
   {
-   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
-   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 8,
-   "plays": 0
-  },
-  {
    "slug": "open-source-llm-for-coding-september-2026",
    "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 13,
+   "reads": 7,
+   "plays": 0
+  },
+  {
+   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
+   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
    "reads": 7,
    "plays": 0
   },
@@ -699,9 +699,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 393,
+   "views": 394,
    "reads": 0,
-   "sessions": 393,
+   "sessions": 394,
    "avg_dwell_sec": 22
   },
   {
@@ -806,12 +806,12 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 95,
-   "sessions": 53
+   "hits": 93,
+   "sessions": 52
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 65,
+   "hits": 64,
    "sessions": 32
   },
   {
