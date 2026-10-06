@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-06T06:17:10.407Z",
+ "generated": "2026-10-06T06:27:18.311Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
+  "readersNow": 5,
   "todayReads": 14,
-  "avgTimeSec": 144,
+  "avgTimeSec": 150,
   "postsThisWeek": 3
  },
  "funnel": {
-  "views": 3198,
-  "reads": 324,
+  "views": 3185,
+  "reads": 323,
   "completes": 11,
   "plays": 9,
-  "sessions": 3070
+  "sessions": 3056
  },
  "channels": [
   {
@@ -23,14 +23,14 @@
   },
   {
    "channel": "direct",
-   "views": 2713,
+   "views": 2699,
    "reads": 139,
-   "sessions": 2724
+   "sessions": 2711
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 204,
-   "reads": 25,
+   "views": 205,
+   "reads": 24,
    "sessions": 205
   },
   {
@@ -85,11 +85,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2713,
+   "views": 2699,
    "reads": 139,
    "completes": 8,
-   "sessions": 2724,
-   "read_rate": 0.051,
+   "sessions": 2711,
+   "read_rate": 0.052,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": 7
@@ -107,11 +107,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 204,
-   "reads": 25,
+   "views": 205,
+   "reads": 24,
    "completes": 0,
    "sessions": 205,
-   "read_rate": 0.123,
+   "read_rate": 0.117,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -285,8 +285,8 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 208,
-   "reads": 25,
+   "views": 209,
+   "reads": 24,
    "sessions": 208
   },
   {
@@ -329,9 +329,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2659,
-   "reads": 297,
-   "sessions": 2541
+   "views": 2646,
+   "reads": 296,
+   "sessions": 2527
   },
   {
    "device": "mobile",
@@ -402,16 +402,6 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 14,
-   "reads": 8,
-   "plays": 0
-  },
-  {
    "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
    "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
    "section": "stack",
@@ -419,6 +409,16 @@
    "author": "dex",
    "views": 12,
    "reads": 8,
+   "plays": 0
+  },
+  {
+   "slug": "open-source-llm-for-coding-september-2026",
+   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 13,
+   "reads": 7,
    "plays": 0
   },
   {
@@ -699,9 +699,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 394,
+   "views": 393,
    "reads": 0,
-   "sessions": 394,
+   "sessions": 393,
    "avg_dwell_sec": 22
   },
   {
