@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-06T23:39:41.707Z",
+ "generated": "2026-10-06T23:49:46.337Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11709,
+ "verifiedAiHits": 11711,
  "logsScanned": 30,
  "windowStart": "2026-09-22",
  "windowEnd": "2026-10-06",
- "totalHits": 112223,
- "aiHits": 92704,
+ "totalHits": 112339,
+ "aiHits": 92810,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28960,
+   "hits": 28977,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14824,
+   "hits": 14832,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -80,7 +80,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 12149,
+   "hits": 12195,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -98,11 +98,11 @@
      "hits": 14
     },
     {
-     "path": "/tags/opinionated",
-     "hits": 11
+     "path": "/dashboard",
+     "hits": 12
     },
     {
-     "path": "/dashboard",
+     "path": "/tags/opinionated",
      "hits": 11
     }
    ],
@@ -146,14 +146,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7498,
-   "verifiedHits": 7454,
+   "hits": 7504,
+   "verifiedHits": 7460,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 80
+     "hits": 81
     },
     {
      "path": "/build",
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6751,
+   "hits": 6783,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -202,7 +202,7 @@
     },
     {
      "path": "/tags/opinionated",
-     "hits": 7
+     "hits": 8
     }
    ],
    "verifiable": false
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5165,
-   "verifiedHits": 5062,
+   "hits": 5166,
+   "verifiedHits": 5063,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 5053,
+   "hits": 5055,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2997,
-   "verifiedHits": 2862,
+   "hits": 2998,
+   "verifiedHits": 2863,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
     {
      "path": "/",
-     "hits": 647
+     "hits": 648
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2134,
+   "hits": 2136,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -575,7 +575,7 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 180,
+   "hits": 181,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -593,11 +593,11 @@
      "hits": 2
     },
     {
-     "path": "/posts/temporal-vs-inngest-vs-restate-durable-agents.html",
+     "path": "/posts/north-mini-code-vs-devstral-small-2-vs-qwen3-coder-30b-one-gpu.html",
      "hits": 2
     },
     {
-     "path": "/posts/sqlite-vec-vs-lancedb-vs-qdrant-agent-memory.html",
+     "path": "/posts/temporal-vs-inngest-vs-restate-durable-agents.html",
      "hits": 2
     }
    ],
