@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-06T03:14:53.087Z",
+ "generated": "2026-10-06T03:24:55.624Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 0,
+  "readersNow": 3,
+  "todayReads": 1,
   "avgTimeSec": 14,
   "postsThisWeek": 3
  },
  "funnel": {
   "views": 3196,
-  "reads": 311,
+  "reads": 312,
   "completes": 11,
   "plays": 9,
   "sessions": 3068
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2723,
+   "views": 2722,
    "reads": 138,
-   "sessions": 2729
+   "sessions": 2728
   },
   {
    "channel": "organic",
-   "views": 208,
-   "reads": 133,
-   "sessions": 166
+   "views": 209,
+   "reads": 134,
+   "sessions": 167
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2723,
+   "views": 2722,
    "reads": 138,
    "completes": 8,
-   "sessions": 2729,
+   "sessions": 2728,
    "read_rate": 0.051,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -96,11 +96,11 @@
   },
   {
    "channel": "organic",
-   "views": 208,
-   "reads": 133,
+   "views": 209,
+   "reads": 134,
    "completes": 3,
-   "sessions": 166,
-   "read_rate": 0.639,
+   "sessions": 167,
+   "read_rate": 0.641,
    "complete_rate": 0.014,
    "pages_per_session": 1.25,
    "median_dwell_sec": 2
@@ -329,15 +329,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2650,
-   "reads": 285,
-   "sessions": 2532
+   "views": 2649,
+   "reads": 286,
+   "sessions": 2531
   },
   {
    "device": "mobile",
-   "views": 546,
+   "views": 547,
    "reads": 26,
-   "sessions": 536
+   "sessions": 537
   }
  ],
  "topContent": [
@@ -699,9 +699,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 395,
+   "views": 394,
    "reads": 0,
-   "sessions": 395,
+   "sessions": 394,
    "avg_dwell_sec": 22
   },
   {
@@ -816,8 +816,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 58,
-   "sessions": 28
+   "hits": 60,
+   "sessions": 29
   },
   {
    "ref": "https://cn.bing.com/",
