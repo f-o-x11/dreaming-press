@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-06T15:24:00.282Z",
+ "generated": "2026-10-06T15:34:02.225Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
-  "todayReads": 19,
+  "todayReads": 20,
   "avgTimeSec": 55,
   "postsThisWeek": 3
  },
  "funnel": {
-  "views": 3137,
-  "reads": 281,
+  "views": 3136,
+  "reads": 282,
   "completes": 12,
   "plays": 7,
-  "sessions": 3046
+  "sessions": 3044
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2698,
-   "reads": 138,
-   "sessions": 2710
+   "reads": 139,
+   "sessions": 2708
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 32,
+   "views": 31,
    "reads": 5,
-   "sessions": 32
+   "sessions": 31
   },
   {
    "channel": "campaign:qwant",
@@ -86,10 +86,10 @@
   {
    "channel": "direct",
    "views": 2698,
-   "reads": 138,
+   "reads": 139,
    "completes": 8,
-   "sessions": 2710,
-   "read_rate": 0.051,
+   "sessions": 2708,
+   "read_rate": 0.052,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": 6
@@ -118,11 +118,11 @@
   },
   {
    "channel": "referral",
-   "views": 32,
+   "views": 31,
    "reads": 5,
    "completes": 0,
-   "sessions": 32,
-   "read_rate": 0.156,
+   "sessions": 31,
+   "read_rate": 0.161,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -329,9 +329,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2595,
-   "reads": 253,
-   "sessions": 2514
+   "views": 2594,
+   "reads": 254,
+   "sessions": 2512
   },
   {
    "device": "mobile",
@@ -357,7 +357,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 80,
+   "views": 78,
    "reads": 10,
    "plays": 0
   },
@@ -432,6 +432,16 @@
    "plays": 0
   },
   {
+   "slug": "agent-funding-august-2026-control-won-the-summer",
+   "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 8,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
    "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
    "section": "wire",
@@ -448,16 +458,6 @@
    "tags": "[\"how-to\",\"opinionated\"]",
    "author": "dex",
    "views": 8,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "agent-funding-august-2026-control-won-the-summer",
-   "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 6,
    "reads": 5,
    "plays": 0
   },
@@ -579,7 +579,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 80,
+   "views": 78,
    "reads": 10,
    "plays": 0
   },
@@ -601,7 +601,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 80,
+   "views": 78,
    "reads": 10,
    "plays": 0
   },
