@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-06T17:55:44.371Z",
+ "generated": "2026-10-06T18:05:50.245Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11495,
+ "verifiedAiHits": 11504,
  "logsScanned": 30,
  "windowStart": "2026-09-22",
  "windowEnd": "2026-10-06",
- "totalHits": 106459,
- "aiHits": 87266,
+ "totalHits": 106993,
+ "aiHits": 87796,
  "aiEngines": 18,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14560,
+   "hits": 14568,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7354,
-   "verifiedHits": 7310,
+   "hits": 7358,
+   "verifiedHits": 7314,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5014,
-   "verifiedHits": 4914,
+   "hits": 5016,
+   "verifiedHits": 4916,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
@@ -274,12 +274,45 @@
    "verifiable": false
   },
   {
+   "name": "ClaudeBot",
+   "label": "ClaudeBot (Anthropic)",
+   "category": "ai",
+   "home": "https://www.anthropic.com",
+   "hits": 3126,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-22",
+   "lastSeen": "2026-10-06",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 25
+    },
+    {
+     "path": "/dashboard",
+     "hits": 6
+    },
+    {
+     "path": "/posts/2026-06-23-how-much-vram-to-serve-an-llm.html",
+     "hits": 4
+    },
+    {
+     "path": "/posts/mcp-apps-explained.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/mcp-tool-annotations-explained.html",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "ChatGPT-User",
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2945,
-   "verifiedHits": 2814,
+   "hits": 2949,
+   "verifiedHits": 2818,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
@@ -311,7 +344,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2644,
+   "hits": 2645,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -335,39 +368,6 @@
     {
      "path": "/posts/serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026.html",
      "hits": 116
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "ClaudeBot",
-   "label": "ClaudeBot (Anthropic)",
-   "category": "ai",
-   "home": "https://www.anthropic.com",
-   "hits": 2614,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-22",
-   "lastSeen": "2026-10-06",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 25
-    },
-    {
-     "path": "/topics/agent-memory",
-     "hits": 3
-    },
-    {
-     "path": "/topics/rag-retrieval",
-     "hits": 3
-    },
-    {
-     "path": "/posts/why-ai-agent-costs-scale-quadratically.html",
-     "hits": 3
-    },
-    {
-     "path": "/global-tech-news",
-     "hits": 3
     }
    ],
    "verifiable": false
@@ -410,8 +410,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2231,
-   "verifiedHits": 2033,
+   "hits": 2234,
+   "verifiedHits": 2036,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
