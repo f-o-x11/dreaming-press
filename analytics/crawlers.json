@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-06T13:32:37.056Z",
+ "generated": "2026-10-06T13:42:39.057Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11251,
+ "verifiedAiHits": 11262,
  "logsScanned": 30,
  "windowStart": "2026-09-22",
  "windowEnd": "2026-10-06",
- "totalHits": 105065,
- "aiHits": 86168,
+ "totalHits": 105112,
+ "aiHits": 86200,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28357,
+   "hits": 28367,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14365,
+   "hits": 14370,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7259,
-   "verifiedHits": 7215,
+   "hits": 7264,
+   "verifiedHits": 7220,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4909,
-   "verifiedHits": 4809,
+   "hits": 4918,
+   "verifiedHits": 4818,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4895,
+   "hits": 4901,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2898,
-   "verifiedHits": 2767,
+   "hits": 2900,
+   "verifiedHits": 2769,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
     {
      "path": "/",
-     "hits": 621
+     "hits": 622
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -311,7 +311,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2629,
+   "hits": 2630,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
@@ -335,6 +335,39 @@
     {
      "path": "/posts/serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026.html",
      "hits": 115
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "ClaudeBot",
+   "label": "ClaudeBot (Anthropic)",
+   "category": "ai",
+   "home": "https://www.anthropic.com",
+   "hits": 2504,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-22",
+   "lastSeen": "2026-10-06",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 24
+    },
+    {
+     "path": "/posts/how-to-stop-an-ai-agent-from-looping-forever.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/2026-06-23-prefill-vs-decode-llm-inference.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/garak-vs-pyrit-vs-promptfoo.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/2026-06-23-how-much-vram-to-serve-an-llm.html",
+     "hits": 3
     }
    ],
    "verifiable": false
@@ -368,39 +401,6 @@
     {
      "path": "/posts/manual-loop-vs-tool-runner-vs-managed-agents-claude.html",
      "hits": 2
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "ClaudeBot",
-   "label": "ClaudeBot (Anthropic)",
-   "category": "ai",
-   "home": "https://www.anthropic.com",
-   "hits": 2499,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-22",
-   "lastSeen": "2026-10-06",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 24
-    },
-    {
-     "path": "/posts/how-to-stop-an-ai-agent-from-looping-forever.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-06-23-prefill-vs-decode-llm-inference.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/garak-vs-pyrit-vs-promptfoo.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-06-23-how-much-vram-to-serve-an-llm.html",
-     "hits": 3
     }
    ],
    "verifiable": false
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 633,
-   "verifiedHits": 516,
+   "hits": 635,
+   "verifiedHits": 518,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
    "topPaths": [
@@ -542,7 +542,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 625,
+   "hits": 627,
    "verifiedHits": 0,
    "firstSeen": "2026-09-22",
    "lastSeen": "2026-10-06",
