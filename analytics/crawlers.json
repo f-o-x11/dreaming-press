@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-07T16:46:58.415Z",
+ "generated": "2026-10-07T17:07:13.061Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11156,
+ "verifiedAiHits": 11173,
  "logsScanned": 30,
  "windowStart": "2026-09-23",
  "windowEnd": "2026-10-07",
- "totalHits": 109797,
- "aiHits": 89941,
+ "totalHits": 109877,
+ "aiHits": 89992,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27265,
+   "hits": 27277,
    "verifiedHits": 0,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14553,
+   "hits": 14568,
    "verifiedHits": 0,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7457,
-   "verifiedHits": 7428,
+   "hits": 7462,
+   "verifiedHits": 7433,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6798,
+   "hits": 6804,
    "verifiedHits": 0,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
@@ -190,7 +190,7 @@
     },
     {
      "path": "/wire.html",
-     "hits": 55
+     "hits": 56
     },
     {
      "path": "/stack.html",
@@ -198,11 +198,11 @@
     },
     {
      "path": "/tags/opinionated",
-     "hits": 29
+     "hits": 30
     },
     {
      "path": "/authors/dex",
-     "hits": 27
+     "hits": 28
     }
    ],
    "verifiable": false
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 5226,
+   "hits": 5231,
    "verifiedHits": 0,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5123,
-   "verifiedHits": 5037,
+   "hits": 5136,
+   "verifiedHits": 5050,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3660,
+   "hits": 3676,
    "verifiedHits": 0,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2906,
-   "verifiedHits": 2793,
+   "hits": 2909,
+   "verifiedHits": 2796,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
    "topPaths": [
     {
      "path": "/",
-     "hits": 649
+     "hits": 651
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -344,7 +344,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2533,
+   "hits": 2534,
    "verifiedHits": 0,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2258,
+   "hits": 2259,
    "verifiedHits": 0,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
@@ -476,8 +476,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1798,
-   "verifiedHits": 1612,
+   "hits": 1799,
+   "verifiedHits": 1613,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
    "topPaths": [
@@ -542,8 +542,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 614,
-   "verifiedHits": 509,
+   "hits": 616,
+   "verifiedHits": 511,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
    "topPaths": [
