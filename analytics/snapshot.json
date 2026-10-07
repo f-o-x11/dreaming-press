@@ -1,30 +1,30 @@
 {
- "generated": "2026-10-07T09:19:48.475Z",
+ "generated": "2026-10-07T09:29:51.106Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 13,
+  "readersNow": 2,
+  "todayReads": 14,
   "avgTimeSec": 16,
   "postsThisWeek": 2
  },
  "funnel": {
-  "views": 3104,
-  "reads": 283,
+  "views": 3097,
+  "reads": 281,
   "completes": 13,
   "plays": 7,
-  "sessions": 3013
+  "sessions": 3008
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2647,
-   "reads": 137,
-   "sessions": 2664
+   "views": 2641,
+   "reads": 135,
+   "sessions": 2660
   },
   {
    "channel": "organic",
    "views": 201,
-   "reads": 109,
+   "reads": 110,
    "sessions": 191
   },
   {
@@ -34,16 +34,16 @@
    "sessions": 201
   },
   {
-   "channel": "referral",
-   "views": 32,
-   "reads": 5,
-   "sessions": 30
-  },
-  {
    "channel": "ai",
    "views": 12,
    "reads": 5,
    "sessions": 30
+  },
+  {
+   "channel": "referral",
+   "views": 31,
+   "reads": 4,
+   "sessions": 29
   },
   {
    "channel": "campaign:qwant",
@@ -85,11 +85,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2647,
-   "reads": 137,
+   "views": 2641,
+   "reads": 135,
    "completes": 9,
-   "sessions": 2664,
-   "read_rate": 0.052,
+   "sessions": 2660,
+   "read_rate": 0.051,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
    "median_dwell_sec": 6
@@ -108,21 +108,21 @@
   {
    "channel": "organic",
    "views": 201,
-   "reads": 109,
+   "reads": 110,
    "completes": 4,
    "sessions": 191,
-   "read_rate": 0.542,
+   "read_rate": 0.547,
    "complete_rate": 0.02,
    "pages_per_session": 1.05,
    "median_dwell_sec": 3
   },
   {
    "channel": "referral",
-   "views": 32,
-   "reads": 5,
+   "views": 31,
+   "reads": 4,
    "completes": 0,
-   "sessions": 30,
-   "read_rate": 0.156,
+   "sessions": 29,
+   "read_rate": 0.129,
    "complete_rate": 0,
    "pages_per_session": 1.07,
    "median_dwell_sec": null
@@ -323,9 +323,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2566,
-   "reads": 254,
-   "sessions": 2481
+   "views": 2559,
+   "reads": 252,
+   "sessions": 2476
   },
   {
    "device": "mobile",
@@ -351,7 +351,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 76,
+   "views": 75,
    "reads": 9,
    "plays": 0
   },
@@ -426,16 +426,6 @@
    "plays": 0
   },
   {
-   "slug": "playwright-mcp-vs-cli-token-cost-browser-agents",
-   "title": "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 9,
-   "reads": 6,
-   "plays": 0
-  },
-  {
    "slug": "agent-funding-august-2026-control-won-the-summer",
    "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
    "section": "wire",
@@ -482,6 +472,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 14,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "playwright-mcp-vs-cli-token-cost-browser-agents",
+   "title": "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
    "reads": 4,
    "plays": 0
   }
@@ -573,7 +573,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 76,
+   "views": 75,
    "reads": 9,
    "plays": 0
   },
@@ -595,7 +595,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 76,
+   "views": 75,
    "reads": 9,
    "plays": 0
   },
@@ -728,9 +728,9 @@
   },
   {
    "path": "/dashboard",
-   "views": 16,
+   "views": 15,
    "reads": 2,
-   "sessions": 11,
+   "sessions": 10,
    "avg_dwell_sec": 62
   },
   {
@@ -769,17 +769,17 @@
    "avg_dwell_sec": 12
   },
   {
-   "path": "/authors/dex",
+   "path": "/topics/:topic",
    "views": 6,
    "reads": 0,
    "sessions": 6,
    "avg_dwell_sec": null
   },
   {
-   "path": "/topics/:topic",
-   "views": 6,
+   "path": "/authors/dex",
+   "views": 5,
    "reads": 0,
-   "sessions": 6,
+   "sessions": 5,
    "avg_dwell_sec": null
   },
   {
@@ -810,8 +810,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 56,
-   "sessions": 32
+   "hits": 55,
+   "sessions": 31
   },
   {
    "ref": "https://www.google.com/",
