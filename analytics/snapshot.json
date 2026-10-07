@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-07T23:12:27.986Z",
+ "generated": "2026-10-07T23:22:35.089Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 24,
+  "readersNow": 5,
+  "todayReads": 25,
   "avgTimeSec": 26,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3081,
-  "reads": 280,
+  "views": 3086,
+  "reads": 281,
   "completes": 11,
   "plays": 7,
-  "sessions": 3007
+  "sessions": 3011
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2624,
-   "reads": 131,
-   "sessions": 2659
+   "views": 2629,
+   "reads": 132,
+   "sessions": 2663
   },
   {
    "channel": "organic",
@@ -35,15 +35,15 @@
   },
   {
    "channel": "ai",
-   "views": 16,
+   "views": 17,
    "reads": 5,
-   "sessions": 34
+   "sessions": 35
   },
   {
    "channel": "referral",
-   "views": 31,
+   "views": 30,
    "reads": 4,
-   "sessions": 29
+   "sessions": 28
   },
   {
    "channel": "campaign:copilot.com",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2624,
-   "reads": 131,
+   "views": 2629,
+   "reads": 132,
    "completes": 7,
-   "sessions": 2659,
+   "sessions": 2663,
    "read_rate": 0.05,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -118,24 +118,24 @@
   },
   {
    "channel": "referral",
-   "views": 31,
+   "views": 30,
    "reads": 4,
    "completes": 0,
-   "sessions": 29,
-   "read_rate": 0.129,
+   "sessions": 28,
+   "read_rate": 0.133,
    "complete_rate": 0,
    "pages_per_session": 1.07,
    "median_dwell_sec": null
   },
   {
    "channel": "ai",
-   "views": 16,
+   "views": 17,
    "reads": 5,
    "completes": 0,
-   "sessions": 34,
-   "read_rate": 0.313,
+   "sessions": 35,
+   "read_rate": 0.294,
    "complete_rate": 0,
-   "pages_per_session": 0.47,
+   "pages_per_session": 0.49,
    "median_dwell_sec": 10
   },
   {
@@ -305,23 +305,23 @@
   },
   {
    "assistant": "Kimi",
-   "views": 6,
+   "views": 7,
    "reads": 0,
-   "sessions": 6
+   "sessions": 7
   }
  ],
  "devices": [
   {
    "device": "desktop",
-   "views": 2524,
-   "reads": 251,
-   "sessions": 2456
+   "views": 2528,
+   "reads": 252,
+   "sessions": 2459
   },
   {
    "device": "mobile",
-   "views": 557,
+   "views": 558,
    "reads": 29,
-   "sessions": 551
+   "sessions": 552
   }
  ],
  "topContent": [
@@ -336,6 +336,16 @@
    "plays": 0
   },
   {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 71,
+   "reads": 9,
+   "plays": 0
+  },
+  {
    "slug": "how-to-run-spec-driven-development-github-spec-kit",
    "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
    "section": "stack",
@@ -344,16 +354,6 @@
    "views": 18,
    "reads": 9,
    "plays": 1
-  },
-  {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 69,
-   "reads": 8,
-   "plays": 0
   },
   {
    "slug": "best-ai-agents-for-personal-use-september-2026",
@@ -563,8 +563,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 69,
-   "reads": 8,
+   "views": 71,
+   "reads": 9,
    "plays": 0
   },
   {
@@ -585,8 +585,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 69,
-   "reads": 8,
+   "views": 71,
+   "reads": 9,
    "plays": 0
   },
   {
