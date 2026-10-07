@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-07T21:00:22.569Z",
+ "generated": "2026-10-07T21:10:30.456Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 5,
   "todayReads": 22,
-  "avgTimeSec": 29,
+  "avgTimeSec": 28,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3089,
-  "reads": 280,
-  "completes": 12,
+  "views": 3091,
+  "reads": 279,
+  "completes": 11,
   "plays": 7,
-  "sessions": 3013
+  "sessions": 3017
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2628,
-   "reads": 131,
-   "sessions": 2661
+   "views": 2630,
+   "reads": 130,
+   "sessions": 2665
   },
   {
    "channel": "organic",
@@ -85,11 +85,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2628,
-   "reads": 131,
-   "completes": 8,
-   "sessions": 2661,
-   "read_rate": 0.05,
+   "views": 2630,
+   "reads": 130,
+   "completes": 7,
+   "sessions": 2665,
+   "read_rate": 0.049,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
    "median_dwell_sec": 6
@@ -313,15 +313,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2533,
-   "reads": 251,
-   "sessions": 2463
+   "views": 2534,
+   "reads": 250,
+   "sessions": 2466
   },
   {
    "device": "mobile",
-   "views": 556,
+   "views": 557,
    "reads": 29,
-   "sessions": 550
+   "sessions": 551
   }
  ],
  "topContent": [
@@ -690,9 +690,9 @@
   },
   {
    "path": "/",
-   "views": 141,
+   "views": 143,
    "reads": 4,
-   "sessions": 140,
+   "sessions": 142,
    "avg_dwell_sec": 11
   },
   {
@@ -731,6 +731,13 @@
    "avg_dwell_sec": null
   },
   {
+   "path": "/agents.html",
+   "views": 10,
+   "reads": 1,
+   "sessions": 10,
+   "avg_dwell_sec": 57
+  },
+  {
    "path": "/dashboard",
    "views": 10,
    "reads": 2,
@@ -738,11 +745,11 @@
    "avg_dwell_sec": 139
   },
   {
-   "path": "/agents.html",
-   "views": 9,
-   "reads": 1,
-   "sessions": 9,
-   "avg_dwell_sec": 57
+   "path": "/dispatches.html",
+   "views": 6,
+   "reads": 0,
+   "sessions": 6,
+   "avg_dwell_sec": 7
   },
   {
    "path": "/global-tech-news",
@@ -771,13 +778,6 @@
    "reads": 0,
    "sessions": 5,
    "avg_dwell_sec": null
-  },
-  {
-   "path": "/dispatches.html",
-   "views": 5,
-   "reads": 0,
-   "sessions": 5,
-   "avg_dwell_sec": 9
   },
   {
    "path": "/reports/:report",
