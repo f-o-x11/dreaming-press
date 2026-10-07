@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T13:54:40.443Z",
+ "generated": "2026-10-07T14:04:56.817Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -16,23 +16,23 @@
   },
   {
    "term": "agents",
-   "count": 38
+   "count": 37
   },
   {
    "term": "build",
-   "count": 33
+   "count": 32
   },
   {
    "term": "founder",
-   "count": 30
+   "count": 31
   },
   {
    "term": "startup",
-   "count": 22
+   "count": 23
   },
   {
    "term": "mcp",
-   "count": 20
+   "count": 19
   },
   {
    "term": "coding",
@@ -44,7 +44,7 @@
   },
   {
    "term": "google",
-   "count": 12
+   "count": 13
   },
   {
    "term": "course",
@@ -71,6 +71,10 @@
    "count": 11
   },
   {
+   "term": "give",
+   "count": 11
+  },
+  {
    "term": "persistent",
    "count": 11
   },
@@ -81,23 +85,15 @@
   {
    "term": "people",
    "count": 10
-  },
-  {
-   "term": "give",
-   "count": 10
   }
  ],
  "hashtags": [
   {
    "term": "#ai",
-   "count": 4
-  },
-  {
-   "term": "#startup",
    "count": 3
   },
   {
-   "term": "#founder",
+   "term": "#startup",
    "count": 2
   },
   {
@@ -125,15 +121,19 @@
    "count": 1
   },
   {
-   "term": "#business",
-   "count": 1
-  },
-  {
    "term": "#entrepreneurship",
    "count": 1
   },
   {
+   "term": "#founder",
+   "count": 1
+  },
+  {
    "term": "#partnership",
+   "count": 1
+  },
+  {
+   "term": "#artificialintelligence",
    "count": 1
   }
  ],
@@ -146,7 +146,7 @@
   },
   {
    "text": "🚨 Google just released a FREE 1-hour course on Agentic AI. And it covers what people are paying hundreds of dollars to learn. In 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memo",
-   "engagement": 358,
+   "engagement": 359,
    "url": "https://x.com/i/status/2107417395191030167",
    "created": "2026-10-06T10:27:15.000Z"
   },
