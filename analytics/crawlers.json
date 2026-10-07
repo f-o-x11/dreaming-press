@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-07T09:39:59.719Z",
+ "generated": "2026-10-07T09:50:05.360Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10859,
+ "verifiedAiHits": 10866,
  "logsScanned": 30,
  "windowStart": "2026-09-23",
  "windowEnd": "2026-10-07",
- "totalHits": 107535,
- "aiHits": 88263,
+ "totalHits": 107567,
+ "aiHits": 88289,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 26587,
+   "hits": 26595,
    "verifiedHits": 0,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14229,
+   "hits": 14236,
    "verifiedHits": 0,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
@@ -80,7 +80,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 12372,
+   "hits": 12373,
    "verifiedHits": 0,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7305,
-   "verifiedHits": 7276,
+   "hits": 7307,
+   "verifiedHits": 7278,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6653,
+   "hits": 6655,
    "verifiedHits": 0,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
@@ -202,7 +202,7 @@
     },
     {
      "path": "/authors/dex",
-     "hits": 18
+     "hits": 19
     }
    ],
    "verifiable": false
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 5031,
+   "hits": 5033,
    "verifiedHits": 0,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4967,
-   "verifiedHits": 4881,
+   "hits": 4971,
+   "verifiedHits": 4885,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
    "topPaths": [
@@ -256,7 +256,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
-     "hits": 65
+     "hits": 66
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -268,7 +268,7 @@
     },
     {
      "path": "/posts/2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe.html",
-     "hits": 41
+     "hits": 42
     }
    ],
    "verifiable": true
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2843,
-   "verifiedHits": 2730,
+   "hits": 2846,
+   "verifiedHits": 2733,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
    "topPaths": [
     {
      "path": "/",
-     "hits": 632
+     "hits": 633
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -330,7 +330,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
-     "hits": 84
+     "hits": 85
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
@@ -344,14 +344,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2502,
+   "hits": 2503,
    "verifiedHits": 0,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 487
+     "hits": 488
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2165,
+   "hits": 2166,
    "verifiedHits": 0,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
@@ -542,8 +542,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 599,
-   "verifiedHits": 494,
+   "hits": 600,
+   "verifiedHits": 495,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
    "topPaths": [
