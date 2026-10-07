@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-07T05:26:29.416Z",
+ "generated": "2026-10-07T05:36:52.160Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 5,
   "todayReads": 6,
-  "avgTimeSec": 25,
+  "avgTimeSec": 22,
   "postsThisWeek": 2
  },
  "funnel": {
-  "views": 3091,
+  "views": 3095,
   "reads": 278,
   "completes": 12,
   "plays": 7,
-  "sessions": 3000
+  "sessions": 3003
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2650,
+   "views": 2652,
    "reads": 136,
-   "sessions": 2662
+   "sessions": 2663
   },
   {
    "channel": "organic",
-   "views": 189,
+   "views": 191,
    "reads": 106,
-   "sessions": 179
+   "sessions": 181
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2650,
+   "views": 2652,
    "reads": 136,
    "completes": 8,
-   "sessions": 2662,
+   "sessions": 2663,
    "read_rate": 0.051,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -107,11 +107,11 @@
   },
   {
    "channel": "organic",
-   "views": 189,
+   "views": 191,
    "reads": 106,
    "completes": 4,
-   "sessions": 179,
-   "read_rate": 0.561,
+   "sessions": 181,
+   "read_rate": 0.555,
    "complete_rate": 0.021,
    "pages_per_session": 1.06,
    "median_dwell_sec": 2
@@ -323,9 +323,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2548,
+   "views": 2552,
    "reads": 249,
-   "sessions": 2467
+   "sessions": 2470
   },
   {
    "device": "mobile",
@@ -693,9 +693,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 392,
+   "views": 393,
    "reads": 0,
-   "sessions": 392,
+   "sessions": 393,
    "avg_dwell_sec": 26
   },
   {
@@ -735,9 +735,9 @@
   },
   {
    "path": "/tools",
-   "views": 15,
+   "views": 16,
    "reads": 1,
-   "sessions": 15,
+   "sessions": 16,
    "avg_dwell_sec": 20
   },
   {
@@ -748,18 +748,18 @@
    "avg_dwell_sec": null
   },
   {
+   "path": "/agents.html",
+   "views": 8,
+   "reads": 1,
+   "sessions": 8,
+   "avg_dwell_sec": 57
+  },
+  {
    "path": "/submit.html",
    "views": 8,
    "reads": 1,
    "sessions": 6,
    "avg_dwell_sec": 42
-  },
-  {
-   "path": "/agents.html",
-   "views": 7,
-   "reads": 1,
-   "sessions": 7,
-   "avg_dwell_sec": 57
   },
   {
    "path": "/global-tech-news",
@@ -815,8 +815,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 42,
-   "sessions": 37
+   "hits": 44,
+   "sessions": 39
   },
   {
    "ref": "https://search.brave.com/",
