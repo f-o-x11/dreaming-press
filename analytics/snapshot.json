@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-07T03:24:00.237Z",
+ "generated": "2026-10-07T03:34:16.173Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 4,
   "avgTimeSec": 23,
   "postsThisWeek": 2
  },
  "funnel": {
-  "views": 3099,
+  "views": 3092,
   "reads": 278,
   "completes": 12,
   "plays": 7,
-  "sessions": 3004
+  "sessions": 3002
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2663,
+   "views": 2656,
    "reads": 136,
-   "sessions": 2669
+   "sessions": 2667
   },
   {
    "channel": "organic",
@@ -79,16 +79,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 19
+   "sessions": 18
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2663,
+   "views": 2656,
    "reads": 136,
    "completes": 8,
-   "sessions": 2669,
+   "sessions": 2667,
    "read_rate": 0.051,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -198,7 +198,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 19,
+   "sessions": 18,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -213,18 +213,18 @@
   },
   {
    "surface": "btn-stats",
-   "clicks": 8,
-   "sessions": 5
-  },
-  {
-   "surface": "nav-cmp",
-   "clicks": 6,
+   "clicks": 7,
    "sessions": 4
   },
   {
    "surface": "dash-range",
    "clicks": 6,
    "sessions": 1
+  },
+  {
+   "surface": "nav-cmp",
+   "clicks": 4,
+   "sessions": 3
   },
   {
    "surface": "legal-links",
@@ -237,14 +237,14 @@
    "sessions": 3
   },
   {
-   "surface": "btn-agents",
-   "clicks": 4,
-   "sessions": 2
-  },
-  {
    "surface": "sb-right",
    "clicks": 3,
    "sessions": 3
+  },
+  {
+   "surface": "btn-agents",
+   "clicks": 2,
+   "sessions": 1
   },
   {
    "surface": "article-body",
@@ -323,9 +323,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2552,
+   "views": 2545,
    "reads": 248,
-   "sessions": 2467
+   "sessions": 2465
   },
   {
    "device": "mobile",
@@ -693,10 +693,10 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 393,
+   "views": 392,
    "reads": 0,
-   "sessions": 393,
-   "avg_dwell_sec": 22
+   "sessions": 392,
+   "avg_dwell_sec": 26
   },
   {
    "path": "/",
@@ -728,17 +728,17 @@
   },
   {
    "path": "/dashboard",
-   "views": 23,
+   "views": 22,
    "reads": 2,
-   "sessions": 12,
-   "avg_dwell_sec": 35
+   "sessions": 11,
+   "avg_dwell_sec": 37
   },
   {
    "path": "/tools",
-   "views": 16,
+   "views": 15,
    "reads": 1,
-   "sessions": 16,
-   "avg_dwell_sec": 19
+   "sessions": 15,
+   "avg_dwell_sec": 20
   },
   {
    "path": "/alternatives/:tool",
@@ -776,13 +776,6 @@
    "avg_dwell_sec": 12
   },
   {
-   "path": "/subscribe",
-   "views": 6,
-   "reads": 1,
-   "sessions": 4,
-   "avg_dwell_sec": 33
-  },
-  {
    "path": "/topics/:topic",
    "views": 6,
    "reads": 0,
@@ -790,7 +783,14 @@
    "avg_dwell_sec": null
   },
   {
-   "path": "/apps",
+   "path": "/dispatches.html",
+   "views": 5,
+   "reads": 0,
+   "sessions": 5,
+   "avg_dwell_sec": 9
+  },
+  {
+   "path": "/reports/:report",
    "views": 5,
    "reads": 0,
    "sessions": 5,
@@ -839,14 +839,14 @@
    "sessions": 8
   },
   {
-   "ref": "btn-stats",
-   "hits": 8,
-   "sessions": 5
-  },
-  {
    "ref": "https://www.youtube.com/",
    "hits": 7,
    "sessions": 7
+  },
+  {
+   "ref": "btn-stats",
+   "hits": 7,
+   "sessions": 4
   }
  ]
 }
