@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-07T18:07:55.613Z",
+ "generated": "2026-10-07T18:18:00.485Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
+  "readersNow": 2,
   "todayReads": 20,
   "avgTimeSec": 29,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3091,
-  "reads": 279,
+  "views": 3090,
+  "reads": 278,
   "completes": 12,
   "plays": 7,
-  "sessions": 3017
+  "sessions": 3016
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2631,
-   "reads": 131,
-   "sessions": 2665
+   "views": 2630,
+   "reads": 130,
+   "sessions": 2664
   },
   {
    "channel": "organic",
@@ -85,11 +85,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2631,
-   "reads": 131,
+   "views": 2630,
+   "reads": 130,
    "completes": 8,
-   "sessions": 2665,
-   "read_rate": 0.05,
+   "sessions": 2664,
+   "read_rate": 0.049,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
    "median_dwell_sec": 6
@@ -313,9 +313,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2535,
-   "reads": 250,
-   "sessions": 2467
+   "views": 2534,
+   "reads": 249,
+   "sessions": 2466
   },
   {
    "device": "mobile",
@@ -426,16 +426,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-security-jobs",
-   "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 10,
-   "reads": 5,
-   "plays": 1
-  },
-  {
    "slug": "lightpanda-vs-playwright-vs-browserless-headless-browser-ai-agents",
    "title": "Lightpanda vs Playwright vs Browserless: Picking a Headless Browser for AI Agents",
    "section": "stack",
@@ -466,6 +456,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-agent-security-jobs",
+   "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 9,
+   "reads": 4,
+   "plays": 1
+  },
+  {
    "slug": "playwright-mcp-vs-cli-token-cost-browser-agents",
    "title": "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K",
    "section": "wire",
@@ -493,8 +493,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 10,
-   "reads": 5,
+   "views": 9,
+   "reads": 4,
    "plays": 1
   },
   {
