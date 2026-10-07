@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T18:38:01.049Z",
+ "generated": "2026-10-07T18:48:35.596Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,15 +8,15 @@
  "topTerms": [
   {
    "term": "agentic",
-   "count": 40
-  },
-  {
-   "term": "agent",
-   "count": 36
+   "count": 41
   },
   {
    "term": "agents",
-   "count": 35
+   "count": 37
+  },
+  {
+   "term": "agent",
+   "count": 37
   },
   {
    "term": "build",
@@ -28,11 +28,11 @@
   },
   {
    "term": "startup",
-   "count": 25
+   "count": 26
   },
   {
    "term": "mcp",
-   "count": 18
+   "count": 19
   },
   {
    "term": "first",
@@ -43,15 +43,19 @@
    "count": 14
   },
   {
-   "term": "learn",
-   "count": 13
+   "term": "building",
+   "count": 14
   },
   {
    "term": "google",
-   "count": 12
+   "count": 13
   },
   {
    "term": "course",
+   "count": 12
+  },
+  {
+   "term": "learn",
    "count": 12
   },
   {
@@ -60,10 +64,6 @@
   },
   {
    "term": "loops",
-   "count": 12
-  },
-  {
-   "term": "building",
    "count": 12
   },
   {
@@ -105,18 +105,6 @@
    "count": 2
   },
   {
-   "term": "#datascience",
-   "count": 1
-  },
-  {
-   "term": "#aiagents",
-   "count": 1
-  },
-  {
-   "term": "#pymc",
-   "count": 1
-  },
-  {
    "term": "#3285",
    "count": 1
   },
@@ -134,6 +122,14 @@
   },
   {
    "term": "#artificialintelligence",
+   "count": 1
+  },
+  {
+   "term": "#deeptech",
+   "count": 1
+  },
+  {
+   "term": "#buildinpublic",
    "count": 1
   }
  ],
