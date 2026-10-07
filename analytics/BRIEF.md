@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-07T20:40Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-07T20:50Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -106,8 +106,8 @@ sample size dwarfs the engaged-read counts below.
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 14 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (5113 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×71 · /wire.html ×69 · /posts/open-source-llm-for-coding-september-2026.html ×69
-- ChatGPT-User (2830 verified): / ×660 · /posts/open-source-llm-for-coding-september-2026.html ×119 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×105
+- OAI-SearchBot (5116 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×71 · /wire.html ×69 · /posts/open-source-llm-for-coding-september-2026.html ×69
+- ChatGPT-User (2831 verified): / ×660 · /posts/open-source-llm-for-coding-september-2026.html ×119 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×105
 - PerplexityBot (1918 verified): / ×20 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×19 · /posts/2026-09-24-founders-wire-un-security-council-intrinsic-core-mirendil.html ×16
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -123,14 +123,14 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agentic(41), agents(37), agent(37), build(34), founder(30), startup(26), mcp(19), first(15), coding(14), building(14), google(13), course(12), learn(12), memory(12), loops(12).
+Hot terms: agentic(42), agent(39), agents(37), build(35), founder(30), startup(26), mcp(22), first(15), coding(14), building(14), google(13), course(12), learn(12), memory(12), loops(12).
 Hashtags: #ai, #startup, #founder, #startups, #3285, #latam, #entrepreneurship, #partnership, #artificialintelligence, #deeptech.
 High-engagement posts to react to / cite:
 - "🚨 GOOGLE JUST DROPPED A 1-HOUR COURSE THAT TEACHES YOU AGENTIC AI FROM SCRATCH. No fluff. No expensive bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Cre" — https://x.com/i/status/2106731541221306757
 - "🚨 Google just released a FREE 1-hour course on Agentic AI. And it covers what people are paying hundreds of dollars to learn. In 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memo" — https://x.com/i/status/2107417395191030167
 - "🚨 GOOGLE JUST RELEASED A 1-HOUR COURSE TO LEARN AGENTIC AI FROM THE GROUND UP. No fluff. No overpriced bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Des" — https://x.com/i/status/2107108645121208429
 - "Here's how frontier teams went fully AI-native in how they build. With Amazon as the example AWS's VP of Agentic AI just shared what happened when Amazon teams rebuilt how they work around coding agents: &gt; 6 engineers" — https://x.com/i/status/2106409333030367242
-- "Sam Altman (CEO of OpenAI): "I have used GrokBot &amp; Muse, but Dots is a totally different category - a new level of capabilities. At OpenAI, more than 80% of our team are running a swarm of Dots agents to ship, update" — https://x.com/i/status/2105398302673862690
+- "At TOKEN2049 Singapore, three sessions on Oct 7 are about agentic trading, and the question we keep asking is what an agent does when it needs to borrow. https://t.co/GMMNUGM84J" — https://x.com/i/status/2106792118606053639
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (256 of 460 phrases have NO post, 5h ago)
@@ -156,10 +156,10 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 11577 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5113, ChatGPT (user browsing) 2830, Perplexity 1918, GPTBot (OpenAI) 1716).
+The real answer engines are crawling us — IP-verified: 11581 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5116, ChatGPT (user browsing) 2831, Perplexity 1918, GPTBot (OpenAI) 1716).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 736 crawler fetches
-- /build  — 327 crawler fetches
+- /build  — 328 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 231 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 173 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 169 crawler fetches
