@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T05:06:23.848Z",
+ "generated": "2026-10-07T05:16:23.931Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,11 +8,11 @@
   "postsThisWeek": 2
  },
  "funnel": {
-  "views": 3088,
+  "views": 3089,
   "reads": 277,
   "completes": 12,
   "plays": 7,
-  "sessions": 2998
+  "sessions": 2999
  },
  "channels": [
   {
@@ -23,9 +23,9 @@
   },
   {
    "channel": "organic",
-   "views": 186,
+   "views": 187,
    "reads": 105,
-   "sessions": 177
+   "sessions": 178
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -107,12 +107,12 @@
   },
   {
    "channel": "organic",
-   "views": 186,
+   "views": 187,
    "reads": 105,
    "completes": 4,
-   "sessions": 177,
-   "read_rate": 0.565,
-   "complete_rate": 0.022,
+   "sessions": 178,
+   "read_rate": 0.561,
+   "complete_rate": 0.021,
    "pages_per_session": 1.05,
    "median_dwell_sec": 2
   },
@@ -323,9 +323,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2545,
+   "views": 2546,
    "reads": 248,
-   "sessions": 2465
+   "sessions": 2466
   },
   {
    "device": "mobile",
@@ -762,18 +762,18 @@
    "avg_dwell_sec": 57
   },
   {
+   "path": "/global-tech-news",
+   "views": 7,
+   "reads": 0,
+   "sessions": 7,
+   "avg_dwell_sec": 12
+  },
+  {
    "path": "/authors/dex",
    "views": 6,
    "reads": 0,
    "sessions": 6,
    "avg_dwell_sec": null
-  },
-  {
-   "path": "/global-tech-news",
-   "views": 6,
-   "reads": 0,
-   "sessions": 6,
-   "avg_dwell_sec": 12
   },
   {
    "path": "/topics/:topic",
@@ -815,8 +815,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 41,
-   "sessions": 36
+   "hits": 42,
+   "sessions": 37
   },
   {
    "ref": "https://search.brave.com/",
