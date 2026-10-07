@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-07T23:02:21.139Z",
+ "generated": "2026-10-07T23:12:27.986Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 23,
-  "avgTimeSec": 27,
+  "readersNow": 2,
+  "todayReads": 24,
+  "avgTimeSec": 26,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3080,
-  "reads": 279,
+  "views": 3081,
+  "reads": 280,
   "completes": 11,
   "plays": 7,
-  "sessions": 3006
+  "sessions": 3007
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2623,
-   "reads": 130,
-   "sessions": 2658
+   "views": 2624,
+   "reads": 131,
+   "sessions": 2659
   },
   {
    "channel": "organic",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2623,
-   "reads": 130,
+   "views": 2624,
+   "reads": 131,
    "completes": 7,
-   "sessions": 2658,
+   "sessions": 2659,
    "read_rate": 0.05,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -313,9 +313,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2523,
-   "reads": 250,
-   "sessions": 2455
+   "views": 2524,
+   "reads": 251,
+   "sessions": 2456
   },
   {
    "device": "mobile",
@@ -426,6 +426,16 @@
    "plays": 0
   },
   {
+   "slug": "agent-sdk-decision-2026-loop-graph-or-handoffs",
+   "title": "LangGraph vs OpenAI Agents SDK vs Claude Agent SDK: The Decision After OpenAI Closed the Gap",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "lightpanda-vs-playwright-vs-browserless-headless-browser-ai-agents",
    "title": "Lightpanda vs Playwright vs Browserless: Picking a Headless Browser for AI Agents",
    "section": "stack",
@@ -464,16 +474,6 @@
    "views": 10,
    "reads": 4,
    "plays": 1
-  },
-  {
-   "slug": "playwright-mcp-vs-cli-token-cost-browser-agents",
-   "title": "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 6,
-   "reads": 4,
-   "plays": 0
   }
  ],
  "topListens": [
