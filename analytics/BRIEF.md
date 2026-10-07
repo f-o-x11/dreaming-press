@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-07T12:01Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-07T12:11Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3094 views → 281 engaged reads → 12 completes · 3005 sessions.
-- Channels: direct 133r/2636v · organic 112r/203v · campaign:chatgpt.com 24r/202v · ai 5r/12v · referral 4r/31v · campaign:qwant 2r/4v · campaign:copilot.com 1r/1v · social 0r/3v · campaign:perplexity 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 3095 views → 282 engaged reads → 12 completes · 3006 sessions.
+- Channels: direct 134r/2637v · organic 112r/203v · campaign:chatgpt.com 24r/202v · ai 5r/12v · referral 4r/31v · campaign:qwant 2r/4v · campaign:copilot.com 1r/1v · social 0r/3v · campaign:perplexity 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 24r/205v · Claude 2r/3v · Perplexity 1r/2v · Doubao 1r/1v · Copilot 1r/1v · Kimi 0r/2v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, search.brave.com, chatgpt.com, brand, bing.com, youtube.com, btn-stats.
 - Engaged-read winners by section: wire=6, stack=9.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2636 views · read 5.0% · complete 0.3% · 0.99 pages/session · median 6s
+- direct: 2637 views · read 5.1% · complete 0.3% · 0.99 pages/session · median 6s
 - organic: 203 views · read 55.2% · complete 2.0% · 1.05 pages/session · median 3s
 - campaign:chatgpt.com: 202 views · read 11.9% · complete 0.0% · 1 pages/session · median ?s
 - referral: 31 views · read 12.9% · complete 0.0% · 1.07 pages/session · median ?s
@@ -94,7 +94,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 656 retrieval fetches
+- /  — 658 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 183 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 182 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 151 retrieval fetches
@@ -106,9 +106,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 13 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4917 verified): /wire.html ×68 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×66 · /posts/open-source-llm-for-coding-september-2026.html ×65
-- ChatGPT-User (2752 verified): / ×638 · /posts/open-source-llm-for-coding-september-2026.html ×118 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×105
-- PerplexityBot (1539 verified): / ×18 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×18 · /posts/2026-09-24-founders-wire-un-security-council-intrinsic-core-mirendil.html ×16
+- OAI-SearchBot (4918 verified): /wire.html ×68 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×66 · /posts/open-source-llm-for-coding-september-2026.html ×65
+- ChatGPT-User (2756 verified): / ×640 · /posts/open-source-llm-for-coding-september-2026.html ×118 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×105
+- PerplexityBot (1540 verified): / ×18 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×18 · /posts/2026-09-24-founders-wire-un-security-council-intrinsic-core-mirendil.html ×16
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -123,7 +123,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agent(41), agentic(41), agents(37), build(31), founder(30), startup(22), mcp(19), coding(17), first(15), google(12), building(12), course(11), learn(11), memory(11), loops(11).
+Hot terms: agent(42), agentic(41), agents(38), build(32), founder(30), mcp(22), startup(22), coding(17), first(15), building(12), google(11), course(11), learn(11), memory(11), loops(11).
 Hashtags: #ai, #startup, #founder, #startups, #datascience, #aiagents, #pymc, #3285, #latam, #business.
 High-engagement posts to react to / cite:
 - "🚨 GOOGLE JUST DROPPED A 1-HOUR COURSE THAT TEACHES YOU AGENTIC AI FROM SCRATCH. No fluff. No expensive bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Cre" — https://x.com/i/status/2106731541221306757
@@ -136,7 +136,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (168h old, 259 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10922 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4917, ChatGPT (user browsing) 2752, GPTBot (OpenAI) 1714, Perplexity 1539).
+The real answer engines are crawling us — IP-verified: 10928 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4918, ChatGPT (user browsing) 2756, GPTBot (OpenAI) 1714, Perplexity 1540).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 725 crawler fetches
 - /build  — 335 crawler fetches
