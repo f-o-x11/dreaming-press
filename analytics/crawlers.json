@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-07T04:04:47.424Z",
+ "generated": "2026-10-07T04:14:59.869Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10717,
+ "verifiedAiHits": 10720,
  "logsScanned": 30,
  "windowStart": "2026-09-23",
  "windowEnd": "2026-10-07",
- "totalHits": 106010,
- "aiHits": 87191,
+ "totalHits": 106092,
+ "aiHits": 87251,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 26127,
+   "hits": 26135,
    "verifiedHits": 0,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13976,
+   "hits": 13984,
    "verifiedHits": 0,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 11511,
+   "hits": 11531,
    "verifiedHits": 0,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
@@ -127,15 +127,15 @@
      "hits": 8
     },
     {
+     "path": "/posts/astra-first-through-government-30-day-frontier-review-what-founders-do.html",
+     "hits": 6
+    },
+    {
+     "path": "/posts/how-to-constrain-tool-schemas-to-cut-bad-tool-calls.html",
+     "hits": 6
+    },
+    {
      "path": "/posts/llm-reranker-vs-cross-encoder-vs-listwise.html",
-     "hits": 6
-    },
-    {
-     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 6
-    },
-    {
-     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
      "hits": 6
     }
    ],
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7194,
-   "verifiedHits": 7165,
+   "hits": 7199,
+   "verifiedHits": 7170,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6555,
+   "hits": 6575,
    "verifiedHits": 0,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
@@ -190,15 +190,15 @@
     },
     {
      "path": "/stack.html",
-     "hits": 26
+     "hits": 28
     },
     {
      "path": "/wire.html",
-     "hits": 23
+     "hits": 25
     },
     {
      "path": "/tags/opinionated",
-     "hits": 13
+     "hits": 14
     },
     {
      "path": "/authors/dex",
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4891,
-   "verifiedHits": 4805,
+   "hits": 4892,
+   "verifiedHits": 4806,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 4845,
+   "hits": 4846,
    "verifiedHits": 0,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3497,
+   "hits": 3513,
    "verifiedHits": 0,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2788,
-   "verifiedHits": 2675,
+   "hits": 2790,
+   "verifiedHits": 2677,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
    "topPaths": [
@@ -344,14 +344,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2481,
+   "hits": 2482,
    "verifiedHits": 0,
    "firstSeen": "2026-09-23",
    "lastSeen": "2026-10-07",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 486
+     "hits": 487
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
