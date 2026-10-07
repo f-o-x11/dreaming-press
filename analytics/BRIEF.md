@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-07T20:20Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-07T20:30Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -106,8 +106,8 @@ sample size dwarfs the engaged-read counts below.
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 14 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (5109 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×71 · /wire.html ×69 · /posts/open-source-llm-for-coding-september-2026.html ×69
-- ChatGPT-User (2828 verified): / ×660 · /posts/open-source-llm-for-coding-september-2026.html ×119 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×105
+- OAI-SearchBot (5110 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×71 · /wire.html ×69 · /posts/open-source-llm-for-coding-september-2026.html ×69
+- ChatGPT-User (2830 verified): / ×660 · /posts/open-source-llm-for-coding-september-2026.html ×119 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×105
 - PerplexityBot (1918 verified): / ×20 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×19 · /posts/2026-09-24-founders-wire-un-security-council-intrinsic-core-mirendil.html ×16
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -156,7 +156,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 11571 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5109, ChatGPT (user browsing) 2828, Perplexity 1918, GPTBot (OpenAI) 1716).
+The real answer engines are crawling us — IP-verified: 11574 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5110, ChatGPT (user browsing) 2830, Perplexity 1918, GPTBot (OpenAI) 1716).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 736 crawler fetches
 - /build  — 327 crawler fetches
