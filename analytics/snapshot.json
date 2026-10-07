@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-07T22:52:12.016Z",
+ "generated": "2026-10-07T23:02:21.139Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 22,
+  "readersNow": 1,
+  "todayReads": 23,
   "avgTimeSec": 27,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3079,
-  "reads": 278,
+  "views": 3080,
+  "reads": 279,
   "completes": 11,
   "plays": 7,
-  "sessions": 3005
+  "sessions": 3006
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2622,
-   "reads": 129,
-   "sessions": 2657
+   "views": 2623,
+   "reads": 130,
+   "sessions": 2658
   },
   {
    "channel": "organic",
@@ -85,11 +85,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2622,
-   "reads": 129,
+   "views": 2623,
+   "reads": 130,
    "completes": 7,
-   "sessions": 2657,
-   "read_rate": 0.049,
+   "sessions": 2658,
+   "read_rate": 0.05,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
    "median_dwell_sec": 6
@@ -313,9 +313,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2522,
-   "reads": 249,
-   "sessions": 2454
+   "views": 2523,
+   "reads": 250,
+   "sessions": 2455
   },
   {
    "device": "mobile",
@@ -346,6 +346,16 @@
    "plays": 1
   },
   {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 69,
+   "reads": 8,
+   "plays": 0
+  },
+  {
    "slug": "best-ai-agents-for-personal-use-september-2026",
    "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
    "section": "stack",
@@ -363,16 +373,6 @@
    "author": "dex",
    "views": 12,
    "reads": 8,
-   "plays": 0
-  },
-  {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 68,
-   "reads": 7,
    "plays": 0
   },
   {
@@ -558,22 +558,22 @@
    "plays": 0
   },
   {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 69,
+   "reads": 8,
+   "plays": 0
+  },
+  {
    "slug": "best-ai-agents-for-personal-use-september-2026",
    "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 24,
-   "reads": 8,
-   "plays": 0
-  },
-  {
-   "slug": "vllm-rust-frontend",
-   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
    "reads": 8,
    "plays": 0
   }
@@ -585,8 +585,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 68,
-   "reads": 7,
+   "views": 69,
+   "reads": 8,
    "plays": 0
   },
   {
