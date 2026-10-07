@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-07T06:47:58.475Z",
+ "generated": "2026-10-07T06:58:00.249Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 7,
-  "avgTimeSec": 21,
+  "readersNow": 2,
+  "todayReads": 8,
+  "avgTimeSec": 19,
   "postsThisWeek": 2
  },
  "funnel": {
-  "views": 3095,
-  "reads": 279,
+  "views": 3097,
+  "reads": 280,
   "completes": 13,
   "plays": 7,
-  "sessions": 3003
+  "sessions": 3004
  },
  "channels": [
   {
@@ -23,14 +23,14 @@
   },
   {
    "channel": "organic",
-   "views": 195,
+   "views": 196,
    "reads": 106,
-   "sessions": 185
+   "sessions": 186
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 201,
-   "reads": 23,
+   "views": 202,
+   "reads": 24,
    "sessions": 201
   },
   {
@@ -96,25 +96,25 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 201,
-   "reads": 23,
+   "views": 202,
+   "reads": 24,
    "completes": 0,
    "sessions": 201,
-   "read_rate": 0.114,
+   "read_rate": 0.119,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
   {
    "channel": "organic",
-   "views": 195,
+   "views": 196,
    "reads": 106,
    "completes": 4,
-   "sessions": 185,
-   "read_rate": 0.544,
-   "complete_rate": 0.021,
+   "sessions": 186,
+   "read_rate": 0.541,
+   "complete_rate": 0.02,
    "pages_per_session": 1.05,
-   "median_dwell_sec": 2
+   "median_dwell_sec": 3
   },
   {
    "channel": "referral",
@@ -285,8 +285,8 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 204,
-   "reads": 23,
+   "views": 205,
+   "reads": 24,
    "sessions": 203
   },
   {
@@ -323,9 +323,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2552,
-   "reads": 250,
-   "sessions": 2470
+   "views": 2554,
+   "reads": 251,
+   "sessions": 2471
   },
   {
    "device": "mobile",
@@ -815,8 +815,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 48,
-   "sessions": 43
+   "hits": 50,
+   "sessions": 44
   },
   {
    "ref": "https://search.brave.com/",
@@ -825,7 +825,7 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 20,
+   "hits": 22,
    "sessions": 13
   },
   {
