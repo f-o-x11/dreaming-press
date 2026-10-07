@@ -1,29 +1,29 @@
 {
- "generated": "2026-10-07T18:48:35.652Z",
+ "generated": "2026-10-07T18:58:57.259Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 20,
   "avgTimeSec": 29,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3087,
+  "views": 3089,
   "reads": 278,
   "completes": 12,
   "plays": 7,
-  "sessions": 3013
+  "sessions": 3014
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2627,
+   "views": 2628,
    "reads": 130,
-   "sessions": 2661
+   "sessions": 2662
   },
   {
    "channel": "organic",
-   "views": 205,
+   "views": 206,
    "reads": 114,
    "sessions": 194
   },
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2627,
+   "views": 2628,
    "reads": 130,
    "completes": 8,
-   "sessions": 2661,
+   "sessions": 2662,
    "read_rate": 0.049,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -96,12 +96,12 @@
   },
   {
    "channel": "organic",
-   "views": 205,
+   "views": 206,
    "reads": 114,
    "completes": 4,
    "sessions": 194,
-   "read_rate": 0.556,
-   "complete_rate": 0.02,
+   "read_rate": 0.553,
+   "complete_rate": 0.019,
    "pages_per_session": 1.06,
    "median_dwell_sec": 3
   },
@@ -313,9 +313,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2531,
+   "views": 2533,
    "reads": 249,
-   "sessions": 2463
+   "sessions": 2464
   },
   {
    "device": "mobile",
@@ -391,7 +391,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 68,
+   "views": 69,
    "reads": 6,
    "plays": 0
   },
@@ -585,7 +585,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 68,
+   "views": 69,
    "reads": 6,
    "plays": 0
   },
@@ -683,9 +683,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 394,
+   "views": 395,
    "reads": 0,
-   "sessions": 394,
+   "sessions": 395,
    "avg_dwell_sec": 26
   },
   {
@@ -795,7 +795,7 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 75,
+   "hits": 76,
    "sessions": 37
   },
   {
