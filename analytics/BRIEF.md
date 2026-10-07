@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-07T23:32Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-07T23:42Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -94,7 +94,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 688 retrieval fetches
+- /  — 689 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 190 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 189 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 157 retrieval fetches
@@ -107,7 +107,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - OAI-SearchBot (5158 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×71 · /posts/open-source-llm-for-coding-september-2026.html ×71 · /wire.html ×69
-- ChatGPT-User (2850 verified): / ×668 · /posts/open-source-llm-for-coding-september-2026.html ×119 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×105
+- ChatGPT-User (2854 verified): / ×669 · /posts/open-source-llm-for-coding-september-2026.html ×119 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×105
 - PerplexityBot (1943 verified): / ×20 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×19 · /posts/2026-09-24-founders-wire-un-security-council-intrinsic-core-mirendil.html ×16
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -156,7 +156,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 11667 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5158, ChatGPT (user browsing) 2850, Perplexity 1943, GPTBot (OpenAI) 1716).
+The real answer engines are crawling us — IP-verified: 11671 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5158, ChatGPT (user browsing) 2854, Perplexity 1943, GPTBot (OpenAI) 1716).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 738 crawler fetches
 - /build  — 330 crawler fetches
