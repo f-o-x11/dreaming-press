@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-07T15:35:00.537Z",
+ "generated": "2026-10-07T15:51:27.890Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 18,
-  "avgTimeSec": 25,
+  "readersNow": 3,
+  "todayReads": 19,
+  "avgTimeSec": 24,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3087,
-  "reads": 281,
+  "views": 3080,
+  "reads": 282,
   "completes": 12,
   "plays": 7,
-  "sessions": 2997
+  "sessions": 2996
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2629,
-   "reads": 133,
-   "sessions": 2648
+   "views": 2622,
+   "reads": 134,
+   "sessions": 2647
   },
   {
    "channel": "organic",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2629,
-   "reads": 133,
+   "views": 2622,
+   "reads": 134,
    "completes": 8,
-   "sessions": 2648,
+   "sessions": 2647,
    "read_rate": 0.051,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -208,13 +208,8 @@
  "navSurfaces": [
   {
    "surface": "brand",
-   "clicks": 10,
+   "clicks": 9,
    "sessions": 8
-  },
-  {
-   "surface": "btn-stats",
-   "clicks": 7,
-   "sessions": 4
   },
   {
    "surface": "nav-cmp",
@@ -225,6 +220,11 @@
    "surface": "f-cols",
    "clicks": 4,
    "sessions": 3
+  },
+  {
+   "surface": "btn-stats",
+   "clicks": 4,
+   "sessions": 4
   },
   {
    "surface": "sb-right",
@@ -245,11 +245,6 @@
    "surface": "dg-title",
    "clicks": 2,
    "sessions": 2
-  },
-  {
-   "surface": "btn-agents",
-   "clicks": 2,
-   "sessions": 1
   },
   {
    "surface": "article-body",
@@ -273,6 +268,11 @@
   },
   {
    "surface": "dg-more",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
+   "surface": "btn-agents",
    "clicks": 1,
    "sessions": 1
   },
@@ -323,15 +323,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2553,
-   "reads": 252,
+   "views": 2547,
+   "reads": 253,
    "sessions": 2469
   },
   {
    "device": "mobile",
-   "views": 534,
+   "views": 533,
    "reads": 29,
-   "sessions": 528
+   "sessions": 527
   }
  ],
  "topContent": [
@@ -381,7 +381,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 72,
+   "views": 70,
    "reads": 7,
    "plays": 0
   },
@@ -595,7 +595,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 72,
+   "views": 70,
    "reads": 7,
    "plays": 0
   },
@@ -700,7 +700,7 @@
   },
   {
    "path": "/",
-   "views": 146,
+   "views": 143,
    "reads": 5,
    "sessions": 141,
    "avg_dwell_sec": 12
@@ -714,10 +714,10 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 37,
+   "views": 36,
    "reads": 0,
-   "sessions": 37,
-   "avg_dwell_sec": 28
+   "sessions": 36,
+   "avg_dwell_sec": 23
   },
   {
    "path": "/build",
@@ -725,13 +725,6 @@
    "reads": 0,
    "sessions": 27,
    "avg_dwell_sec": null
-  },
-  {
-   "path": "/dashboard",
-   "views": 15,
-   "reads": 2,
-   "sessions": 10,
-   "avg_dwell_sec": 62
   },
   {
    "path": "/tools",
@@ -746,6 +739,13 @@
    "reads": 0,
    "sessions": 13,
    "avg_dwell_sec": null
+  },
+  {
+   "path": "/dashboard",
+   "views": 12,
+   "reads": 2,
+   "sessions": 10,
+   "avg_dwell_sec": 92
   },
   {
    "path": "/agents.html",
@@ -830,7 +830,7 @@
   },
   {
    "ref": "brand",
-   "hits": 10,
+   "hits": 9,
    "sessions": 8
   },
   {
@@ -844,9 +844,9 @@
    "sessions": 7
   },
   {
-   "ref": "btn-stats",
-   "hits": 7,
-   "sessions": 4
+   "ref": "https://www.ecosia.org/",
+   "hits": 5,
+   "sessions": 2
   }
  ]
 }
