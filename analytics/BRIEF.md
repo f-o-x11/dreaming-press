@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-07T14:25Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-07T14:35Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -59,7 +59,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 395 views, 0 reads, 395 sessions, avg 26s
-- / — 145 views, 5 reads, 142 sessions, avg 12s
+- / — 146 views, 5 reads, 143 sessions, avg 12s
 - /best/:cat — 54 views, 0 reads, 54 sessions
 - /compare/:pair — 37 views, 0 reads, 37 sessions, avg 28s
 - /build — 27 views, 0 reads, 27 sessions
@@ -106,8 +106,8 @@ sample size dwarfs the engaged-read counts below.
 - /posts/cut-llm-api-costs-model-routing-by-task-2026.html  — 14 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4950 verified): /wire.html ×68 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×67 · /posts/open-source-llm-for-coding-september-2026.html ×65
-- ChatGPT-User (2776 verified): / ×644 · /posts/open-source-llm-for-coding-september-2026.html ×119 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×105
+- OAI-SearchBot (4952 verified): /wire.html ×68 · /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×67 · /posts/open-source-llm-for-coding-september-2026.html ×65
+- ChatGPT-User (2778 verified): / ×644 · /posts/open-source-llm-for-coding-september-2026.html ×119 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×105
 - PerplexityBot (1555 verified): / ×19 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×18 · /posts/2026-09-24-founders-wire-un-security-council-intrinsic-core-mirendil.html ×16
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -123,7 +123,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agentic(42), agent(40), agents(38), build(33), founder(31), startup(23), mcp(20), coding(17), first(16), learn(13), google(12), course(12), memory(12), loops(12), building(12).
+Hot terms: agentic(42), agent(41), agents(37), build(32), founder(31), startup(23), mcp(20), coding(17), first(16), google(12), course(12), learn(12), memory(12), loops(12), building(12).
 Hashtags: #ai, #startup, #startups, #datascience, #aiagents, #pymc, #3285, #latam, #entrepreneurship, #founder.
 High-engagement posts to react to / cite:
 - "🚨 GOOGLE JUST DROPPED A 1-HOUR COURSE THAT TEACHES YOU AGENTIC AI FROM SCRATCH. No fluff. No expensive bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Cre" — https://x.com/i/status/2106731541221306757
@@ -136,7 +136,7 @@ ACTION: where an X-hot term overlaps a proven winner above, that's the highest-v
 - Search-demand signal STALE (171h old, 259 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10995 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4950, ChatGPT (user browsing) 2776, GPTBot (OpenAI) 1714, Perplexity 1555).
+The real answer engines are crawling us — IP-verified: 10999 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4952, ChatGPT (user browsing) 2778, GPTBot (OpenAI) 1714, Perplexity 1555).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 728 crawler fetches
 - /build  — 341 crawler fetches
