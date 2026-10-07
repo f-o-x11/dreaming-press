@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-07T08:39:16.523Z",
+ "generated": "2026-10-07T08:49:19.844Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -32,7 +32,7 @@
   },
   {
    "term": "mcp",
-   "count": 20
+   "count": 19
   },
   {
    "term": "coding",
@@ -48,7 +48,7 @@
   },
   {
    "term": "google",
-   "count": 11
+   "count": 12
   },
   {
    "term": "course",
@@ -75,16 +75,16 @@
    "count": 10
   },
   {
+   "term": "give",
+   "count": 10
+  },
+  {
    "term": "persistent",
    "count": 10
   },
   {
    "term": "long-running",
    "count": 10
-  },
-  {
-   "term": "dropped",
-   "count": 9
   }
  ],
  "hashtags": [
