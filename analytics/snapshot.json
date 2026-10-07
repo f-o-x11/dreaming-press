@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-07T14:55:57.417Z",
+ "generated": "2026-10-07T15:06:00.458Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
   "todayReads": 18,
-  "avgTimeSec": 26,
+  "avgTimeSec": 25,
   "postsThisWeek": 2
  },
  "funnel": {
-  "views": 3091,
-  "reads": 282,
+  "views": 3089,
+  "reads": 281,
   "completes": 12,
   "plays": 7,
-  "sessions": 3002
+  "sessions": 2999
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2631,
    "reads": 133,
-   "sessions": 2653
+   "sessions": 2650
   },
   {
    "channel": "organic",
@@ -47,9 +47,9 @@
   },
   {
    "channel": "campaign:qwant",
-   "views": 4,
-   "reads": 2,
-   "sessions": 2
+   "views": 2,
+   "reads": 1,
+   "sessions": 1
   },
   {
    "channel": "campaign:copilot.com",
@@ -88,7 +88,7 @@
    "views": 2631,
    "reads": 133,
    "completes": 8,
-   "sessions": 2653,
+   "sessions": 2650,
    "read_rate": 0.051,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -139,17 +139,6 @@
    "median_dwell_sec": 10
   },
   {
-   "channel": "campaign:qwant",
-   "views": 4,
-   "reads": 2,
-   "completes": 0,
-   "sessions": 2,
-   "read_rate": 0.5,
-   "complete_rate": 0,
-   "pages_per_session": 2,
-   "median_dwell_sec": null
-  },
-  {
    "channel": "social",
    "views": 3,
    "reads": 0,
@@ -158,6 +147,17 @@
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 1,
+   "median_dwell_sec": null
+  },
+  {
+   "channel": "campaign:qwant",
+   "views": 2,
+   "reads": 1,
+   "completes": 0,
+   "sessions": 1,
+   "read_rate": 0.5,
+   "complete_rate": 0,
+   "pages_per_session": 2,
    "median_dwell_sec": null
   },
   {
@@ -323,9 +323,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2556,
-   "reads": 253,
-   "sessions": 2473
+   "views": 2554,
+   "reads": 252,
+   "sessions": 2470
   },
   {
    "device": "mobile",
@@ -356,16 +356,6 @@
    "plays": 1
   },
   {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 74,
-   "reads": 8,
-   "plays": 0
-  },
-  {
    "slug": "best-ai-agents-for-personal-use-september-2026",
    "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
    "section": "stack",
@@ -383,6 +373,16 @@
    "author": "dex",
    "views": 14,
    "reads": 8,
+   "plays": 0
+  },
+  {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 72,
+   "reads": 7,
    "plays": 0
   },
   {
@@ -568,22 +568,22 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 74,
-   "reads": 8,
-   "plays": 0
-  },
-  {
    "slug": "best-ai-agents-for-personal-use-september-2026",
    "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 24,
+   "reads": 8,
+   "plays": 0
+  },
+  {
+   "slug": "vllm-rust-frontend",
+   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 14,
    "reads": 8,
    "plays": 0
   }
@@ -595,8 +595,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 74,
-   "reads": 8,
+   "views": 72,
+   "reads": 7,
    "plays": 0
   },
   {
@@ -700,9 +700,9 @@
   },
   {
    "path": "/",
-   "views": 146,
+   "views": 145,
    "reads": 5,
-   "sessions": 143,
+   "sessions": 140,
    "avg_dwell_sec": 12
   },
   {
