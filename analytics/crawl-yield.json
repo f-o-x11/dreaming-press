@@ -1,58 +1,58 @@
 {
- "generated": "2026-09-30T11:42:42.482Z",
+ "generated": "2026-10-07T15:34:54.960Z",
  "window_days": 14,
- "log_window": "2026-09-16 → 2026-09-30",
+ "log_window": "2026-09-23 → 2026-10-07",
  "totals": {
-  "verified_fetches": 15477,
-  "retrieval_fetches": 12192,
-  "index_fetches": 3285,
-  "referred_sessions": 265,
-  "retrieval_fetches_per_session": 46,
-  "click_through_pct": 2.174
+  "verified_fetches": 11017,
+  "retrieval_fetches": 9303,
+  "index_fetches": 1714,
+  "referred_sessions": 205,
+  "retrieval_fetches_per_session": 45,
+  "click_through_pct": 2.204
  },
  "engines": [
   {
    "engine": "ChatGPT",
-   "verified_fetches": 11164,
-   "retrieval_fetches": 7879,
-   "index_fetches": 3285,
-   "referred_sessions": 261,
-   "referred_views": 264,
-   "referred_reads": 32,
-   "fetches_per_session": 30,
-   "click_through_pct": 3.313,
+   "verified_fetches": 9460,
+   "retrieval_fetches": 7746,
+   "index_fetches": 1714,
+   "referred_sessions": 203,
+   "referred_views": 205,
+   "referred_reads": 24,
+   "fetches_per_session": 38,
+   "click_through_pct": 2.621,
    "bots": [
     {
      "name": "OAI-SearchBot",
-     "verified": 4784,
+     "verified": 4958,
+     "retrieval": true
+    },
+    {
+     "name": "ChatGPT-User",
+     "verified": 2788,
      "retrieval": true
     },
     {
      "name": "GPTBot",
-     "verified": 3285,
+     "verified": 1714,
      "retrieval": false
-    },
-    {
-     "name": "ChatGPT-User",
-     "verified": 3095,
-     "retrieval": true
     }
    ]
   },
   {
    "engine": "Perplexity",
-   "verified_fetches": 4313,
-   "retrieval_fetches": 4313,
+   "verified_fetches": 1557,
+   "retrieval_fetches": 1557,
    "index_fetches": 0,
-   "referred_sessions": 4,
-   "referred_views": 4,
-   "referred_reads": 2,
-   "fetches_per_session": 1078,
-   "click_through_pct": 0.093,
+   "referred_sessions": 2,
+   "referred_views": 2,
+   "referred_reads": 1,
+   "fetches_per_session": 779,
+   "click_through_pct": 0.128,
    "bots": [
     {
      "name": "PerplexityBot",
-     "verified": 4313,
+     "verified": 1557,
      "retrieval": true
     }
    ]
