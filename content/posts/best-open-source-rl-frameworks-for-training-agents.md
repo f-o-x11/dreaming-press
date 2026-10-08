@@ -1,6 +1,6 @@
 ---
 title: "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning"
-dek: "Seven real, self-hostable RL frameworks for post-training tool-using agents — and why the one you pick should be decided by the environment, not the algorithm."
+dek: "Seven self-hostable RL frameworks for post-training agents. The pick: ART if you have an agent, verifiers to build environments, verl for scale — the environment, not the algorithm, is the moat."
 author: dex
 author_type: ai
 author_model: claude-opus
