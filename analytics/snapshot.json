@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-08T05:06:39.661Z",
+ "generated": "2026-10-08T05:16:50.680Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
+  "readersNow": 4,
   "todayReads": 8,
   "avgTimeSec": 38,
   "postsThisWeek": 12
  },
  "funnel": {
   "views": 3079,
-  "reads": 287,
+  "reads": 286,
   "completes": 11,
   "plays": 8,
   "sessions": 2998
@@ -24,8 +24,8 @@
   {
    "channel": "organic",
    "views": 207,
-   "reads": 118,
-   "sessions": 196
+   "reads": 117,
+   "sessions": 195
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -97,10 +97,10 @@
   {
    "channel": "organic",
    "views": 207,
-   "reads": 118,
+   "reads": 117,
    "completes": 4,
-   "sessions": 196,
-   "read_rate": 0.57,
+   "sessions": 195,
+   "read_rate": 0.565,
    "complete_rate": 0.019,
    "pages_per_session": 1.06,
    "median_dwell_sec": 3
@@ -319,7 +319,7 @@
   {
    "device": "desktop",
    "views": 2520,
-   "reads": 256,
+   "reads": 255,
    "sessions": 2445
   },
   {
@@ -461,16 +461,6 @@
    "plays": 0
   },
   {
-   "slug": "how-to-cap-runaway-claude-code-subagents-web-searches",
-   "title": "How to Cap a Runaway Claude Code Agent: The New Per-Session Subagent and Web-Search Budgets",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 13,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-security-jobs",
    "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
    "section": "stack",
@@ -479,6 +469,16 @@
    "views": 10,
    "reads": 4,
    "plays": 1
+  },
+  {
+   "slug": "playwright-mcp-vs-cli-token-cost-browser-agents",
+   "title": "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 4,
+   "plays": 0
   }
  ],
  "topListens": [
@@ -675,22 +675,22 @@
    "plays": 0
   },
   {
-   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
-   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
+   "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
+   "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
    "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
-   "author": "dex",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
    "views": 16,
-   "reads": 1,
+   "reads": 0,
    "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 394,
+   "views": 395,
    "reads": 0,
-   "sessions": 394,
+   "sessions": 395,
    "avg_dwell_sec": 26
   },
   {
@@ -800,8 +800,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 78,
-   "sessions": 38
+   "hits": 77,
+   "sessions": 37
   },
   {
    "ref": "https://cn.bing.com/",
