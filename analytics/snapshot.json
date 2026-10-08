@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-08T00:23:18.787Z",
+ "generated": "2026-10-08T00:33:25.956Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 5,
   "todayReads": 0,
-  "avgTimeSec": 0,
+  "avgTimeSec": 12,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3084,
-  "reads": 283,
+  "views": 3082,
+  "reads": 282,
   "completes": 11,
   "plays": 7,
-  "sessions": 3009
+  "sessions": 3007
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2630,
-   "reads": 132,
-   "sessions": 2663
+   "views": 2629,
+   "reads": 131,
+   "sessions": 2662
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 18,
+   "views": 17,
    "reads": 5,
-   "sessions": 36
+   "sessions": 35
   },
   {
    "channel": "referral",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2630,
-   "reads": 132,
+   "views": 2629,
+   "reads": 131,
    "completes": 7,
-   "sessions": 2663,
+   "sessions": 2662,
    "read_rate": 0.05,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -129,13 +129,13 @@
   },
   {
    "channel": "ai",
-   "views": 18,
+   "views": 17,
    "reads": 5,
    "completes": 0,
-   "sessions": 36,
-   "read_rate": 0.278,
+   "sessions": 35,
+   "read_rate": 0.294,
    "complete_rate": 0,
-   "pages_per_session": 0.5,
+   "pages_per_session": 0.49,
    "median_dwell_sec": 10
   },
   {
@@ -281,9 +281,9 @@
   },
   {
    "assistant": "Claude",
-   "views": 3,
+   "views": 2,
    "reads": 2,
-   "sessions": 2
+   "sessions": 1
   },
   {
    "assistant": "Perplexity",
@@ -313,9 +313,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2525,
-   "reads": 254,
-   "sessions": 2456
+   "views": 2523,
+   "reads": 253,
+   "sessions": 2454
   },
   {
    "device": "mobile",
@@ -341,7 +341,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 68,
+   "views": 67,
    "reads": 9,
    "plays": 0
   },
@@ -406,16 +406,6 @@
    "plays": 0
   },
   {
-   "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
-   "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 9,
-   "reads": 6,
-   "plays": 0
-  },
-  {
    "slug": "agent-funding-august-2026-control-won-the-summer",
    "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
    "section": "wire",
@@ -423,6 +413,16 @@
    "author": "priya",
    "views": 8,
    "reads": 6,
+   "plays": 0
+  },
+  {
+   "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
+   "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 8,
+   "reads": 5,
    "plays": 0
   },
   {
@@ -563,7 +563,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 68,
+   "views": 67,
    "reads": 9,
    "plays": 0
   },
@@ -585,7 +585,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 68,
+   "views": 67,
    "reads": 9,
    "plays": 0
   },
@@ -690,9 +690,9 @@
   },
   {
    "path": "/",
-   "views": 143,
+   "views": 142,
    "reads": 4,
-   "sessions": 142,
+   "sessions": 141,
    "avg_dwell_sec": 11
   },
   {
