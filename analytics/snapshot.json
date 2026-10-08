@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-08T01:54:17.849Z",
+ "generated": "2026-10-08T02:04:30.224Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
-  "todayReads": 1,
+  "readersNow": 4,
+  "todayReads": 2,
   "avgTimeSec": 6,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3088,
+  "views": 3086,
   "reads": 283,
   "completes": 11,
   "plays": 7,
-  "sessions": 3005
+  "sessions": 3003
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2638,
+   "views": 2636,
    "reads": 132,
-   "sessions": 2664
+   "sessions": 2662
   },
   {
    "channel": "organic",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2638,
+   "views": 2636,
    "reads": 132,
    "completes": 7,
-   "sessions": 2664,
+   "sessions": 2662,
    "read_rate": 0.05,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2527,
+   "views": 2525,
    "reads": 254,
-   "sessions": 2450
+   "sessions": 2448
   },
   {
    "device": "mobile",
@@ -431,16 +431,6 @@
    "plays": 0
   },
   {
-   "slug": "agent-sdk-decision-2026-loop-graph-or-handoffs",
-   "title": "LangGraph vs OpenAI Agents SDK vs Claude Agent SDK: The Decision After OpenAI Closed the Gap",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 6,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "lightpanda-vs-playwright-vs-browserless-headless-browser-ai-agents",
    "title": "Lightpanda vs Playwright vs Browserless: Picking a Headless Browser for AI Agents",
    "section": "stack",
@@ -479,6 +469,16 @@
    "views": 10,
    "reads": 4,
    "plays": 1
+  },
+  {
+   "slug": "playwright-mcp-vs-cli-token-cost-browser-agents",
+   "title": "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 4,
+   "plays": 0
   }
  ],
  "topListens": [
@@ -695,9 +695,9 @@
   },
   {
    "path": "/",
-   "views": 143,
+   "views": 142,
    "reads": 4,
-   "sessions": 142,
+   "sessions": 141,
    "avg_dwell_sec": 11
   },
   {
