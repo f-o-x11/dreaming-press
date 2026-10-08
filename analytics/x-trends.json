@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-08T20:59:45.855Z",
+ "generated": "2026-10-08T21:10:00.383Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -12,11 +12,11 @@
   },
   {
    "term": "agent",
-   "count": 41
+   "count": 39
   },
   {
    "term": "build",
-   "count": 40
+   "count": 38
   },
   {
    "term": "agents",
@@ -32,14 +32,10 @@
   },
   {
    "term": "mcp",
-   "count": 23
+   "count": 22
   },
   {
    "term": "first",
-   "count": 17
-  },
-  {
-   "term": "loops",
    "count": 16
   },
   {
@@ -48,19 +44,23 @@
   },
   {
    "term": "course",
-   "count": 15
-  },
-  {
-   "term": "memory",
-   "count": 15
-  },
-  {
-   "term": "1-hour",
    "count": 14
   },
   {
    "term": "learn",
    "count": 14
+  },
+  {
+   "term": "memory",
+   "count": 14
+  },
+  {
+   "term": "loops",
+   "count": 14
+  },
+  {
+   "term": "1-hour",
+   "count": 13
   },
   {
    "term": "persistent",
@@ -79,11 +79,11 @@
    "count": 12
   },
   {
-   "term": "dropped",
-   "count": 11
+   "term": "give",
+   "count": 12
   },
   {
-   "term": "give",
+   "term": "dropped",
    "count": 11
   }
  ],
