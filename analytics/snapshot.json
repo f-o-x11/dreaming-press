@@ -1,37 +1,37 @@
 {
- "generated": "2026-10-08T04:56:32.290Z",
+ "generated": "2026-10-08T05:06:39.661Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 5,
+  "readersNow": 6,
+  "todayReads": 8,
   "avgTimeSec": 38,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3077,
-  "reads": 284,
+  "views": 3079,
+  "reads": 287,
   "completes": 11,
-  "plays": 7,
-  "sessions": 2995
+  "plays": 8,
+  "sessions": 2998
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2633,
-   "reads": 132,
-   "sessions": 2661
+   "views": 2638,
+   "reads": 135,
+   "sessions": 2666
   },
   {
    "channel": "organic",
-   "views": 208,
+   "views": 207,
    "reads": 118,
    "sessions": 196
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 183,
+   "views": 181,
    "reads": 24,
-   "sessions": 182
+   "sessions": 180
   },
   {
    "channel": "ai",
@@ -85,33 +85,33 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2633,
-   "reads": 132,
+   "views": 2638,
+   "reads": 135,
    "completes": 7,
-   "sessions": 2661,
-   "read_rate": 0.05,
+   "sessions": 2666,
+   "read_rate": 0.051,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
    "median_dwell_sec": 6
   },
   {
    "channel": "organic",
-   "views": 208,
+   "views": 207,
    "reads": 118,
    "completes": 4,
    "sessions": 196,
-   "read_rate": 0.567,
+   "read_rate": 0.57,
    "complete_rate": 0.019,
    "pages_per_session": 1.06,
    "median_dwell_sec": 3
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 183,
+   "views": 181,
    "reads": 24,
    "completes": 0,
-   "sessions": 182,
-   "read_rate": 0.131,
+   "sessions": 180,
+   "read_rate": 0.133,
    "complete_rate": 0,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -280,9 +280,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 186,
+   "views": 184,
    "reads": 24,
-   "sessions": 184
+   "sessions": 182
   },
   {
    "assistant": "Claude",
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2521,
-   "reads": 255,
+   "views": 2520,
+   "reads": 256,
    "sessions": 2445
   },
   {
    "device": "mobile",
-   "views": 556,
-   "reads": 29,
-   "sessions": 550
+   "views": 559,
+   "reads": 31,
+   "sessions": 553
   }
  ],
  "topContent": [
@@ -421,6 +421,16 @@
    "plays": 0
   },
   {
+   "slug": "clear-compact-remember-cross-vendor-agent-context-framework",
+   "title": "Clear, Compact, or Remember? The Cross-Vendor Decision Framework for Long-Running Agent Context",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 10,
+   "reads": 5,
+   "plays": 1
+  },
+  {
    "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
    "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
    "section": "wire",
@@ -456,7 +466,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 14,
+   "views": 13,
    "reads": 4,
    "plays": 0
   },
@@ -469,16 +479,6 @@
    "views": 10,
    "reads": 4,
    "plays": 1
-  },
-  {
-   "slug": "playwright-mcp-vs-cli-token-cost-browser-agents",
-   "title": "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 6,
-   "reads": 4,
-   "plays": 0
   }
  ],
  "topListens": [
@@ -490,6 +490,16 @@
    "author": "rosalinda",
    "views": 18,
    "reads": 9,
+   "plays": 1
+  },
+  {
+   "slug": "clear-compact-remember-cross-vendor-agent-context-framework",
+   "title": "Clear, Compact, or Remember? The Cross-Vendor Decision Framework for Long-Running Agent Context",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 10,
+   "reads": 5,
    "plays": 1
   },
   {
@@ -508,7 +518,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 12,
+   "views": 11,
    "reads": 3,
    "plays": 1
   },
@@ -570,16 +580,6 @@
    "author": "priya",
    "views": 69,
    "reads": 10,
-   "plays": 0
-  },
-  {
-   "slug": "best-ai-agents-for-personal-use-september-2026",
-   "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 24,
-   "reads": 8,
    "plays": 0
   }
  ],
@@ -695,9 +695,9 @@
   },
   {
    "path": "/",
-   "views": 142,
+   "views": 143,
    "reads": 4,
-   "sessions": 141,
+   "sessions": 142,
    "avg_dwell_sec": 11
   },
   {
@@ -800,7 +800,7 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 79,
+   "hits": 78,
    "sessions": 38
   },
   {
