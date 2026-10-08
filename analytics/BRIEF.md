@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-10-08T06:37Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-08T06:47Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3082 views → 285 engaged reads → 11 completes · 3000 sessions.
+- Funnel: 3082 views → 285 engaged reads → 11 completes · 3001 sessions.
 - Channels: direct 134r/2642v · organic 117r/207v · campaign:chatgpt.com 24r/180v · ai 5r/17v · referral 4r/29v · campaign:copilot.com 1r/1v · social 0r/3v · campaign:perplexity 0r/1v · campaign:producthunt 0r/1v · campaign:qwant 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 24r/183v · Claude 2r/2v · Perplexity 1r/2v · Doubao 1r/1v · Copilot 1r/1v · Kimi 0r/8v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, chatgpt.com, search.brave.com, bing.com, brand, dash-range, youtube.com.
@@ -42,7 +42,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck" — 8 reads, 12 views, 0 listens
 - [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 7 reads, 12 views, 0 listens
 - [stack] "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One" — 7 reads, 11 views, 0 listens
-- [wire] "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest" — 6 reads, 11 views, 0 listens
+- [wire] "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest" — 6 reads, 10 views, 0 listens
 - [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 6 reads, 8 views, 0 listens
 - [stack] "Clear, Compact, or Remember? The Cross-Vendor Decision Framework for Long-Running Agent Context" — 5 reads, 10 views, 1 listens
 
@@ -60,7 +60,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 394 views, 0 reads, 394 sessions, avg 26s
-- / — 144 views, 4 reads, 143 sessions, avg 11s
+- / — 145 views, 4 reads, 144 sessions, avg 11s
 - /best/:cat — 55 views, 0 reads, 55 sessions
 - /compare/:pair — 36 views, 0 reads, 36 sessions, avg 23s
 - /build — 27 views, 0 reads, 27 sessions
@@ -95,7 +95,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 665 retrieval fetches
+- /  — 666 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 189 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 173 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 148 retrieval fetches
@@ -107,9 +107,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-09-23-founders-wire-gpt-6-sol-luna-opus-5-5-price-war-un-agent-control.html  — 14 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4983 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×71 · /posts/open-source-llm-for-coding-september-2026.html ×71 · /wire.html ×66
-- ChatGPT-User (2670 verified): / ×646 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×105 · /posts/open-source-llm-for-coding-september-2026.html ×102
-- PerplexityBot (1985 verified): /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×19 · / ×19 · /posts/cut-llm-api-costs-model-routing-by-task-2026.html ×16
+- OAI-SearchBot (4986 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×71 · /posts/open-source-llm-for-coding-september-2026.html ×71 · /wire.html ×66
+- ChatGPT-User (2675 verified): / ×647 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×105 · /posts/open-source-llm-for-coding-september-2026.html ×102
+- PerplexityBot (1987 verified): /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×19 · / ×19 · /posts/cut-llm-api-costs-model-routing-by-task-2026.html ×16
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -157,13 +157,13 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10881 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4983, ChatGPT (user browsing) 2670, Perplexity 1985, GPTBot (OpenAI) 1243).
+The real answer engines are crawling us — IP-verified: 10891 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4986, ChatGPT (user browsing) 2675, Perplexity 1987, GPTBot (OpenAI) 1243).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 684 crawler fetches
 - /build  — 314 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 216 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 159 crawler fetches
-- /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 155 crawler fetches
+- /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 156 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 148 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 111 crawler fetches
 - /posts/open-weight-coding-model-you-can-actually-self-host-september-2026.html  — 100 crawler fetches
