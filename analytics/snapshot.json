@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-08T22:51:07.893Z",
+ "generated": "2026-10-08T23:01:12.015Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 25,
   "avgTimeSec": 33,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 2989,
+  "views": 2986,
   "reads": 282,
   "completes": 10,
   "plays": 8,
-  "sessions": 2908
+  "sessions": 2905
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2603,
+   "views": 2601,
    "reads": 133,
-   "sessions": 2632
+   "sessions": 2630
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 128,
+   "views": 127,
    "reads": 19,
-   "sessions": 127
+   "sessions": 126
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2603,
+   "views": 2601,
    "reads": 133,
    "completes": 7,
-   "sessions": 2632,
+   "sessions": 2630,
    "read_rate": 0.051,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 128,
+   "views": 127,
    "reads": 19,
    "completes": 0,
-   "sessions": 127,
-   "read_rate": 0.148,
+   "sessions": 126,
+   "read_rate": 0.15,
    "complete_rate": 0,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -263,9 +263,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 130,
+   "views": 129,
    "reads": 19,
-   "sessions": 128
+   "sessions": 127
   },
   {
    "assistant": "Claude",
@@ -301,15 +301,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2447,
+   "views": 2445,
    "reads": 249,
-   "sessions": 2372
+   "sessions": 2370
   },
   {
    "device": "mobile",
-   "views": 542,
+   "views": 541,
    "reads": 33,
-   "sessions": 536
+   "sessions": 535
   }
  ],
  "topContent": [
@@ -658,10 +658,10 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
-   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
+   "slug": "gpu-rental-price-september-2026-b200-floor-under-4",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in September 2026",
    "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
+   "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 15,
    "reads": 0,
