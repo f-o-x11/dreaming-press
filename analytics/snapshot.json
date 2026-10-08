@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-08T21:20:00.910Z",
+ "generated": "2026-10-08T21:30:06.672Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 24,
-  "avgTimeSec": 32,
+  "readersNow": 6,
+  "todayReads": 25,
+  "avgTimeSec": 33,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3000,
-  "reads": 283,
+  "views": 3003,
+  "reads": 284,
   "completes": 10,
   "plays": 8,
-  "sessions": 2919
+  "sessions": 2922
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2609,
+   "views": 2611,
    "reads": 134,
-   "sessions": 2637
+   "sessions": 2640
   },
   {
    "channel": "organic",
-   "views": 210,
-   "reads": 120,
-   "sessions": 198
+   "views": 211,
+   "reads": 121,
+   "sessions": 199
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2609,
+   "views": 2611,
    "reads": 134,
    "completes": 7,
-   "sessions": 2637,
+   "sessions": 2640,
    "read_rate": 0.051,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 210,
-   "reads": 120,
+   "views": 211,
+   "reads": 121,
    "completes": 3,
-   "sessions": 198,
-   "read_rate": 0.571,
+   "sessions": 199,
+   "read_rate": 0.573,
    "complete_rate": 0.014,
    "pages_per_session": 1.06,
    "median_dwell_sec": 3
@@ -301,15 +301,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2456,
-   "reads": 250,
-   "sessions": 2381
+   "views": 2457,
+   "reads": 251,
+   "sessions": 2382
   },
   {
    "device": "mobile",
-   "views": 544,
+   "views": 546,
    "reads": 33,
-   "sessions": 538
+   "sessions": 540
   }
  ],
  "topContent": [
@@ -344,22 +344,22 @@
    "plays": 1
   },
   {
+   "slug": "vllm-rust-frontend",
+   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 9,
+   "plays": 0
+  },
+  {
    "slug": "best-ai-agents-for-personal-use-september-2026",
    "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 21,
-   "reads": 8,
-   "plays": 0
-  },
-  {
-   "slug": "vllm-rust-frontend",
-   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
    "reads": 8,
    "plays": 0
   },
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 98,
-   "sessions": 51
+   "hits": 100,
+   "sessions": 52
   },
   {
    "ref": "https://duckduckgo.com/",
