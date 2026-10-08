@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-08T16:04Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-08T16:14Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -96,7 +96,7 @@ human just asked a question. Not index crawlers, which enumerate everything and 
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
 - /  — 693 retrieval fetches
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 191 retrieval fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 192 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 179 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 151 retrieval fetches
 - /wire.html  — 66 retrieval fetches
@@ -107,8 +107,8 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-09-24-founders-wire-un-security-council-intrinsic-core-mirendil.html  — 16 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (5135 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×74 · /posts/open-source-llm-for-coding-september-2026.html ×73 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×67
-- ChatGPT-User (2795 verified): / ×674 · /posts/open-source-llm-for-coding-september-2026.html ×106 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×105
+- OAI-SearchBot (5138 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×74 · /posts/open-source-llm-for-coding-september-2026.html ×73 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×67
+- ChatGPT-User (2798 verified): / ×674 · /posts/open-source-llm-for-coding-september-2026.html ×106 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×106
 - PerplexityBot (2029 verified): /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×19 · / ×19 · /posts/cut-llm-api-costs-model-routing-by-task-2026.html ×16
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -124,7 +124,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agentic(46), agent(39), build(38), agents(36), founder(31), startup(24), mcp(21), first(16), google(14), course(14), learn(14), memory(14), loops(14), coding(13), 1-hour(13).
+Hot terms: agentic(47), agent(40), build(38), agents(35), founder(31), startup(24), mcp(21), first(16), google(15), course(14), learn(14), memory(14), loops(14), coding(13), 1-hour(13).
 Hashtags: #ai, #startup, #founder, #buildinginpublic, #preseed, #dev, #fintech, #startups, #bug, #claude.
 High-engagement posts to react to / cite:
 - "🚨 GOOGLE JUST DROPPED A 1-HOUR COURSE THAT TEACHES YOU AGENTIC AI FROM SCRATCH. No fluff. No expensive bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Cre" — https://x.com/i/status/2106731541221306757
@@ -134,7 +134,7 @@ High-engagement posts to react to / cite:
 - "Here's how frontier teams went fully AI-native in how they build. With Amazon as the example AWS's VP of Agentic AI just shared what happened when Amazon teams rebuilt how they work around coding agents: &gt; 6 engineers" — https://x.com/i/status/2106409333030367242
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (256 of 460 phrases have NO post, 24h ago)
+## Uncovered search demand (256 of 460 phrases have NO post, 25h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -157,9 +157,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 11203 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5135, ChatGPT (user browsing) 2795, Perplexity 2029, GPTBot (OpenAI) 1244).
+The real answer engines are crawling us — IP-verified: 11209 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5138, ChatGPT (user browsing) 2798, Perplexity 2029, GPTBot (OpenAI) 1244).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 656 crawler fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 657 crawler fetches
 - /build  — 319 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 222 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 161 crawler fetches
