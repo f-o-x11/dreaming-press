@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-08T09:19:46.205Z",
+ "generated": "2026-10-08T09:29:50.444Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 13,
-  "avgTimeSec": 36,
+  "readersNow": 4,
+  "todayReads": 14,
+  "avgTimeSec": 34,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3061,
-  "reads": 285,
+  "views": 3063,
+  "reads": 286,
   "completes": 11,
   "plays": 8,
-  "sessions": 2979
+  "sessions": 2980
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2634,
-   "reads": 134,
-   "sessions": 2662
+   "views": 2638,
+   "reads": 135,
+   "sessions": 2665
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 169,
+   "views": 167,
    "reads": 23,
-   "sessions": 168
+   "sessions": 166
   },
   {
    "channel": "ai",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2634,
-   "reads": 134,
+   "views": 2638,
+   "reads": 135,
    "completes": 7,
-   "sessions": 2662,
+   "sessions": 2665,
    "read_rate": 0.051,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -107,11 +107,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 169,
+   "views": 167,
    "reads": 23,
    "completes": 0,
-   "sessions": 168,
-   "read_rate": 0.136,
+   "sessions": 166,
+   "read_rate": 0.138,
    "complete_rate": 0,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -280,9 +280,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 171,
+   "views": 169,
    "reads": 23,
-   "sessions": 169
+   "sessions": 167
   },
   {
    "assistant": "Claude",
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2506,
-   "reads": 253,
-   "sessions": 2430
+   "views": 2508,
+   "reads": 254,
+   "sessions": 2431
   },
   {
    "device": "mobile",
@@ -476,7 +476,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 6,
+   "views": 7,
    "reads": 4,
    "plays": 0
   }
@@ -665,16 +665,6 @@
    "plays": 0
   },
   {
-   "slug": "firecracker-vs-gvisor-vs-kata-agent-sandbox-isolation",
-   "title": "Firecracker vs gVisor vs Kata: Isolating AI Agent Code Execution",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 16,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
    "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
    "section": "wire",
@@ -682,6 +672,16 @@
    "author": "priya",
    "views": 16,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
+   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
+   "author": "dex",
+   "views": 15,
+   "reads": 1,
    "plays": 0
   }
  ],
