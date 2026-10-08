@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-08T08:59Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-08T09:09Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3061 views → 285 engaged reads → 11 completes · 2979 sessions.
-- Channels: direct 135r/2635v · organic 117r/206v · campaign:chatgpt.com 23r/169v · ai 5r/16v · referral 4r/28v · campaign:copilot.com 1r/1v · social 0r/3v · campaign:perplexity 0r/1v · campaign:producthunt 0r/1v · campaign:qwant 0r/1v · internal-nav 0r/0v.
+- Funnel: 3061 views → 284 engaged reads → 11 completes · 2979 sessions.
+- Channels: direct 134r/2635v · organic 117r/206v · campaign:chatgpt.com 23r/169v · ai 5r/16v · referral 4r/28v · campaign:copilot.com 1r/1v · social 0r/3v · campaign:perplexity 0r/1v · campaign:producthunt 0r/1v · campaign:qwant 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 23r/171v · Claude 2r/2v · Perplexity 1r/2v · Doubao 1r/1v · Copilot 1r/1v · Kimi 0r/8v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, search.brave.com, chatgpt.com, bing.com, brand, dash-range, ecosia.org.
 - Engaged-read winners by section: wire=6, stack=9.
@@ -44,12 +44,12 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One" — 7 reads, 11 views, 0 listens
 - [wire] "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest" — 6 reads, 10 views, 0 listens
 - [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 6 reads, 8 views, 0 listens
-- [stack] "Clear, Compact, or Remember? The Cross-Vendor Decision Framework for Long-Running Agent Context" — 5 reads, 10 views, 1 listens
+- [wire] "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card" — 5 reads, 8 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [stack] "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement" — 1 listens, 9 reads
-- [stack] "Clear, Compact, or Remember? The Cross-Vendor Decision Framework for Long-Running Agent Context" — 1 listens, 5 reads
 - [stack] "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In" — 1 listens, 4 reads
+- [stack] "Clear, Compact, or Remember? The Cross-Vendor Decision Framework for Long-Running Agent Context" — 1 listens, 4 reads
 - [wire] "Cloudflare Agents vs Bedrock AgentCore vs Vercel: Where to Run a Long-Running AI Agent" — 1 listens, 3 reads
 - [wire] "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo" — 1 listens, 1 reads
 - [stack] "Reducto vs LlamaParse vs Unstructured vs Docling: Which Document Parser Your RAG Pipeline Actually Needs" — 1 listens, 1 reads
@@ -96,9 +96,9 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 672 retrieval fetches
+- /  — 673 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 189 retrieval fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 174 retrieval fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 175 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 149 retrieval fetches
 - /wire.html  — 66 retrieval fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 60 retrieval fetches
@@ -109,8 +109,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - OAI-SearchBot (5028 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×72 · /posts/open-source-llm-for-coding-september-2026.html ×71 · /wire.html ×66
-- ChatGPT-User (2706 verified): / ×653 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×105 · /posts/open-source-llm-for-coding-september-2026.html ×103
-- PerplexityBot (1994 verified): /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×19 · / ×19 · /posts/cut-llm-api-costs-model-routing-by-task-2026.html ×16
+- ChatGPT-User (2713 verified): / ×654 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×105 · /posts/open-source-llm-for-coding-september-2026.html ×104
+- PerplexityBot (1996 verified): /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×19 · / ×19 · /posts/cut-llm-api-costs-model-routing-by-task-2026.html ×16
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -135,7 +135,7 @@ High-engagement posts to react to / cite:
 - "🚨 GOOGLE JUST DROPPED A 1-HOUR COURSE THAT TEACHES YOU AGENTIC AI FROM SCRATCH. No fluff. No expensive bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Cre" — https://x.com/i/status/2107810215680987529
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (256 of 460 phrases have NO post, 17h ago)
+## Uncovered search demand (256 of 460 phrases have NO post, 18h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -158,11 +158,11 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10972 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5028, ChatGPT (user browsing) 2706, Perplexity 1994, GPTBot (OpenAI) 1244).
+The real answer engines are crawling us — IP-verified: 10981 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5028, ChatGPT (user browsing) 2713, Perplexity 1996, GPTBot (OpenAI) 1244).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 686 crawler fetches
 - /build  — 315 crawler fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 217 crawler fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 218 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 160 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 158 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 149 crawler fetches
