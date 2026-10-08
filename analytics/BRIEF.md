@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-10-08T20:49Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-08T20:59Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2997 views → 283 engaged reads → 10 completes · 2916 sessions.
-- Channels: direct 134r/2605v · organic 120r/210v · campaign:chatgpt.com 20r/135v · ai 5r/16v · referral 3r/25v · campaign:copilot.com 1r/1v · social 0r/3v · campaign:perplexity 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 20r/137v · Claude 2r/2v · Perplexity 1r/2v · Doubao 1r/1v · Copilot 1r/1v · Kimi 0r/8v.
+- Funnel: 2998 views → 283 engaged reads → 10 completes · 2917 sessions.
+- Channels: direct 134r/2607v · organic 120r/210v · campaign:chatgpt.com 20r/134v · ai 5r/16v · referral 3r/25v · campaign:copilot.com 1r/1v · social 0r/3v · campaign:perplexity 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 20r/136v · Claude 2r/2v · Perplexity 1r/2v · Doubao 1r/1v · Copilot 1r/1v · Kimi 0r/8v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, search.brave.com, chatgpt.com, bing.com, brand, dash-range, ecosia.org.
 - Engaged-read winners by section: wire=5, stack=10.
 
@@ -23,9 +23,9 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2605 views · read 5.1% · complete 0.3% · 0.99 pages/session · median 6s
+- direct: 2607 views · read 5.1% · complete 0.3% · 0.99 pages/session · median 6s
 - organic: 210 views · read 57.1% · complete 1.4% · 1.06 pages/session · median 3s
-- campaign:chatgpt.com: 135 views · read 14.8% · complete 0.0% · 1.01 pages/session · median ?s
+- campaign:chatgpt.com: 134 views · read 14.9% · complete 0.0% · 1.01 pages/session · median ?s
 - referral: 25 views · read 12.0% · complete 0.0% · 1.09 pages/session · median ?s
 - ai: 16 views · read 31.3% · complete 0.0% · 0.48 pages/session · median 10s
 - social: 3 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
@@ -124,7 +124,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agentic(47), agent(39), build(38), agents(34), founder(31), startup(24), mcp(22), first(16), google(15), course(14), learn(14), memory(14), loops(14), 1-hour(13), persistent(13).
+Hot terms: agentic(47), agent(41), build(40), agents(34), founder(31), startup(24), mcp(23), first(17), loops(16), google(15), course(15), memory(15), 1-hour(14), learn(14), persistent(13).
 Hashtags: #ai, #startup, #founder, #buildinginpublic, #preseed, #dev, #fintech, #startups, #bug, #claude.
 High-engagement posts to react to / cite:
 - "🚨 GOOGLE JUST DROPPED A 1-HOUR COURSE THAT TEACHES YOU AGENTIC AI FROM SCRATCH. No fluff. No expensive bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Cre" — https://x.com/i/status/2106731541221306757
