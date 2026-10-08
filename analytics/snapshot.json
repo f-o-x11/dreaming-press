@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-08T17:47:18.899Z",
+ "generated": "2026-10-08T17:57:26.132Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 22,
-  "avgTimeSec": 30,
+  "readersNow": 3,
+  "todayReads": 24,
+  "avgTimeSec": 36,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3016,
-  "reads": 284,
+  "views": 3013,
+  "reads": 285,
   "completes": 11,
   "plays": 8,
-  "sessions": 2935
+  "sessions": 2933
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2620,
-   "reads": 135,
-   "sessions": 2647
+   "views": 2618,
+   "reads": 136,
+   "sessions": 2646
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 139,
+   "views": 138,
    "reads": 20,
-   "sessions": 138
+   "sessions": 137
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2620,
-   "reads": 135,
+   "views": 2618,
+   "reads": 136,
    "completes": 7,
-   "sessions": 2647,
+   "sessions": 2646,
    "read_rate": 0.052,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 139,
+   "views": 138,
    "reads": 20,
    "completes": 0,
-   "sessions": 138,
-   "read_rate": 0.144,
+   "sessions": 137,
+   "read_rate": 0.145,
    "complete_rate": 0,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -210,12 +210,12 @@
    "sessions": 2
   },
   {
-   "surface": "sb-right",
-   "clicks": 2,
-   "sessions": 2
+   "surface": "article-body",
+   "clicks": 3,
+   "sessions": 3
   },
   {
-   "surface": "rr-card",
+   "surface": "sb-right",
    "clicks": 2,
    "sessions": 2
   },
@@ -235,9 +235,9 @@
    "sessions": 2
   },
   {
-   "surface": "article-body",
-   "clicks": 2,
-   "sessions": 2
+   "surface": "rr-card",
+   "clicks": 1,
+   "sessions": 1
   },
   {
    "surface": "ns-item",
@@ -263,9 +263,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 141,
+   "views": 140,
    "reads": 20,
-   "sessions": 139
+   "sessions": 138
   },
   {
    "assistant": "Claude",
@@ -301,9 +301,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2467,
-   "reads": 251,
-   "sessions": 2392
+   "views": 2464,
+   "reads": 252,
+   "sessions": 2390
   },
   {
    "device": "mobile",
@@ -359,7 +359,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 11,
+   "views": 10,
    "reads": 8,
    "plays": 0
   },
@@ -434,22 +434,22 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-security-jobs",
-   "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 10,
-   "reads": 4,
-   "plays": 1
-  },
-  {
    "slug": "clear-compact-remember-cross-vendor-agent-context-framework",
    "title": "Clear, Compact, or Remember? The Cross-Vendor Decision Framework for Long-Running Agent Context",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 10,
+   "reads": 4,
+   "plays": 1
+  },
+  {
+   "slug": "ai-agent-security-jobs",
+   "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 9,
    "reads": 4,
    "plays": 1
   },
@@ -476,22 +476,22 @@
    "plays": 1
   },
   {
-   "slug": "ai-agent-security-jobs",
-   "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 10,
-   "reads": 4,
-   "plays": 1
-  },
-  {
    "slug": "clear-compact-remember-cross-vendor-agent-context-framework",
    "title": "Clear, Compact, or Remember? The Cross-Vendor Decision Framework for Long-Running Agent Context",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 10,
+   "reads": 4,
+   "plays": 1
+  },
+  {
+   "slug": "ai-agent-security-jobs",
+   "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 9,
    "reads": 4,
    "plays": 1
   },
