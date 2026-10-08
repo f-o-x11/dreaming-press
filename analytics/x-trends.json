@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-08T13:12:24.864Z",
+ "generated": "2026-10-08T13:22:40.437Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -15,11 +15,11 @@
    "count": 42
   },
   {
-   "term": "agents",
-   "count": 37
+   "term": "build",
+   "count": 38
   },
   {
-   "term": "build",
+   "term": "agents",
    "count": 37
   },
   {
@@ -75,16 +75,16 @@
    "count": 13
   },
   {
+   "term": "building",
+   "count": 12
+  },
+  {
    "term": "scratch",
    "count": 12
   },
   {
    "term": "give",
    "count": 12
-  },
-  {
-   "term": "building",
-   "count": 11
   }
  ],
  "hashtags": [
@@ -98,7 +98,7 @@
   },
   {
    "term": "#founder",
-   "count": 3
+   "count": 4
   },
   {
    "term": "#buildinginpublic",
