@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-08T07:18:11.784Z",
+ "generated": "2026-10-08T07:28:20.305Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 9,
+  "readersNow": 2,
+  "todayReads": 10,
   "avgTimeSec": 29,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3075,
-  "reads": 283,
+  "views": 3074,
+  "reads": 284,
   "completes": 11,
   "plays": 8,
-  "sessions": 2994
+  "sessions": 2993
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2637,
-   "reads": 133,
-   "sessions": 2665
+   "views": 2635,
+   "reads": 134,
+   "sessions": 2663
   },
   {
    "channel": "organic",
-   "views": 206,
+   "views": 207,
    "reads": 116,
-   "sessions": 195
+   "sessions": 196
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -85,22 +85,22 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2637,
-   "reads": 133,
+   "views": 2635,
+   "reads": 134,
    "completes": 7,
-   "sessions": 2665,
-   "read_rate": 0.05,
+   "sessions": 2663,
+   "read_rate": 0.051,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
    "median_dwell_sec": 6
   },
   {
    "channel": "organic",
-   "views": 206,
+   "views": 207,
    "reads": 116,
    "completes": 4,
-   "sessions": 195,
-   "read_rate": 0.563,
+   "sessions": 196,
+   "read_rate": 0.56,
    "complete_rate": 0.019,
    "pages_per_session": 1.06,
    "median_dwell_sec": 3
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2517,
+   "views": 2515,
    "reads": 252,
-   "sessions": 2442
+   "sessions": 2440
   },
   {
    "device": "mobile",
-   "views": 558,
-   "reads": 31,
-   "sessions": 552
+   "views": 559,
+   "reads": 32,
+   "sessions": 553
   }
  ],
  "topContent": [
@@ -456,7 +456,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 24,
+   "views": 23,
    "reads": 4,
    "plays": 0
   },
@@ -640,7 +640,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 24,
+   "views": 23,
    "reads": 4,
    "plays": 0
   },
@@ -805,8 +805,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 57,
-   "sessions": 32
+   "hits": 58,
+   "sessions": 33
   },
   {
    "ref": "https://www.google.com/",
