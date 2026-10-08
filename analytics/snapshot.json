@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-08T15:44:39.562Z",
+ "generated": "2026-10-08T15:54:40.359Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,30 +8,30 @@
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3024,
-  "reads": 283,
+  "views": 3022,
+  "reads": 281,
   "completes": 11,
   "plays": 8,
-  "sessions": 2942
+  "sessions": 2940
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2617,
-   "reads": 133,
-   "sessions": 2645
+   "reads": 132,
+   "sessions": 2644
   },
   {
    "channel": "organic",
-   "views": 211,
-   "reads": 121,
-   "sessions": 200
+   "views": 210,
+   "reads": 120,
+   "sessions": 199
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 147,
+   "views": 146,
    "reads": 20,
-   "sessions": 146
+   "sessions": 145
   },
   {
    "channel": "ai",
@@ -80,32 +80,32 @@
   {
    "channel": "direct",
    "views": 2617,
-   "reads": 133,
+   "reads": 132,
    "completes": 7,
-   "sessions": 2645,
-   "read_rate": 0.051,
+   "sessions": 2644,
+   "read_rate": 0.05,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
    "median_dwell_sec": 6
   },
   {
    "channel": "organic",
-   "views": 211,
-   "reads": 121,
+   "views": 210,
+   "reads": 120,
    "completes": 4,
-   "sessions": 200,
-   "read_rate": 0.573,
+   "sessions": 199,
+   "read_rate": 0.571,
    "complete_rate": 0.019,
-   "pages_per_session": 1.05,
+   "pages_per_session": 1.06,
    "median_dwell_sec": 3
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 147,
+   "views": 146,
    "reads": 20,
    "completes": 0,
-   "sessions": 146,
-   "read_rate": 0.136,
+   "sessions": 145,
+   "read_rate": 0.137,
    "complete_rate": 0,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -263,9 +263,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 149,
+   "views": 148,
    "reads": 20,
-   "sessions": 147
+   "sessions": 146
   },
   {
    "assistant": "Claude",
@@ -301,9 +301,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2477,
-   "reads": 250,
-   "sessions": 2401
+   "views": 2475,
+   "reads": 248,
+   "sessions": 2399
   },
   {
    "device": "mobile",
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 100,
-   "sessions": 52
+   "hits": 98,
+   "sessions": 51
   },
   {
    "ref": "https://duckduckgo.com/",
