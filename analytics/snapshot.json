@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-08T09:09:39.837Z",
+ "generated": "2026-10-08T09:19:46.205Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 12,
-  "avgTimeSec": 26,
+  "readersNow": 2,
+  "todayReads": 13,
+  "avgTimeSec": 36,
   "postsThisWeek": 12
  },
  "funnel": {
   "views": 3061,
-  "reads": 284,
+  "reads": 285,
   "completes": 11,
   "plays": 8,
   "sessions": 2979
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2635,
+   "views": 2634,
    "reads": 134,
    "sessions": 2662
   },
   {
    "channel": "organic",
-   "views": 206,
-   "reads": 117,
-   "sessions": 195
+   "views": 207,
+   "reads": 118,
+   "sessions": 196
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -85,7 +85,7 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2635,
+   "views": 2634,
    "reads": 134,
    "completes": 7,
    "sessions": 2662,
@@ -96,11 +96,11 @@
   },
   {
    "channel": "organic",
-   "views": 206,
-   "reads": 117,
+   "views": 207,
+   "reads": 118,
    "completes": 4,
-   "sessions": 195,
-   "read_rate": 0.568,
+   "sessions": 196,
+   "read_rate": 0.57,
    "complete_rate": 0.019,
    "pages_per_session": 1.06,
    "median_dwell_sec": 3
@@ -319,7 +319,7 @@
   {
    "device": "desktop",
    "views": 2506,
-   "reads": 252,
+   "reads": 253,
    "sessions": 2430
   },
   {
@@ -421,6 +421,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 24,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
    "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
    "section": "wire",
@@ -438,16 +448,6 @@
    "author": "dex",
    "views": 5,
    "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 23,
-   "reads": 4,
    "plays": 0
   },
   {
@@ -640,8 +640,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 23,
-   "reads": 4,
+   "views": 24,
+   "reads": 5,
    "plays": 0
   },
   {
@@ -805,8 +805,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 60,
-   "sessions": 34
+   "hits": 62,
+   "sessions": 35
   },
   {
    "ref": "https://www.google.com/",
