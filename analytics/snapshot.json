@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-08T07:48:38.853Z",
+ "generated": "2026-10-08T07:58:44.724Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 11,
-  "avgTimeSec": 29,
+  "avgTimeSec": 28,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3067,
+  "views": 3063,
   "reads": 285,
   "completes": 11,
   "plays": 8,
-  "sessions": 2986
+  "sessions": 2982
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2634,
+   "views": 2631,
    "reads": 134,
-   "sessions": 2662
+   "sessions": 2659
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 173,
+   "views": 172,
    "reads": 24,
-   "sessions": 172
+   "sessions": 171
   },
   {
    "channel": "ai",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2634,
+   "views": 2631,
    "reads": 134,
    "completes": 7,
-   "sessions": 2662,
+   "sessions": 2659,
    "read_rate": 0.051,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -107,11 +107,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 173,
+   "views": 172,
    "reads": 24,
    "completes": 0,
-   "sessions": 172,
-   "read_rate": 0.139,
+   "sessions": 171,
+   "read_rate": 0.14,
    "complete_rate": 0,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -280,9 +280,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 176,
+   "views": 175,
    "reads": 24,
-   "sessions": 174
+   "sessions": 173
   },
   {
    "assistant": "Claude",
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2508,
+   "views": 2506,
    "reads": 253,
-   "sessions": 2433
+   "sessions": 2431
   },
   {
    "device": "mobile",
-   "views": 559,
+   "views": 557,
    "reads": 32,
-   "sessions": 553
+   "sessions": 551
   }
  ],
  "topContent": [
@@ -645,16 +645,6 @@
    "plays": 0
   },
   {
-   "slug": "firecracker-vs-gvisor-vs-kata-agent-sandbox-isolation",
-   "title": "Firecracker vs gVisor vs Kata: Isolating AI Agent Code Execution",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 19,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "how-to-run-spec-driven-development-github-spec-kit",
    "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
    "section": "stack",
@@ -671,6 +661,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 18,
+   "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "firecracker-vs-gvisor-vs-kata-agent-sandbox-isolation",
+   "title": "Firecracker vs gVisor vs Kata: Isolating AI Agent Code Execution",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 16,
    "reads": 0,
    "plays": 0
   },
