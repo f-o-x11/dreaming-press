@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-08T00:33:25.458Z",
+ "generated": "2026-10-08T00:43:29.632Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10673,
+ "verifiedAiHits": 10697,
  "logsScanned": 30,
  "windowStart": "2026-09-24",
  "windowEnd": "2026-10-08",
- "totalHits": 106173,
- "aiHits": 86952,
+ "totalHits": 106289,
+ "aiHits": 87062,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 25878,
+   "hits": 25899,
    "verifiedHits": 0,
    "firstSeen": "2026-09-24",
    "lastSeen": "2026-10-08",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13853,
+   "hits": 13861,
    "verifiedHits": 0,
    "firstSeen": "2026-09-24",
    "lastSeen": "2026-10-08",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 11618,
+   "hits": 11669,
    "verifiedHits": 0,
    "firstSeen": "2026-09-24",
    "lastSeen": "2026-10-08",
@@ -127,15 +127,15 @@
      "hits": 8
     },
     {
+     "path": "/posts/2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader.html",
+     "hits": 7
+    },
+    {
      "path": "/posts/llm-reranker-vs-cross-encoder-vs-listwise.html",
      "hits": 6
     },
     {
      "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
-     "hits": 6
-    },
-    {
-     "path": "/posts/2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader.html",
      "hits": 6
     }
    ],
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6823,
+   "hits": 6828,
    "verifiedHits": 0,
    "firstSeen": "2026-09-24",
    "lastSeen": "2026-10-08",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4978,
-   "verifiedHits": 4900,
+   "hits": 4981,
+   "verifiedHits": 4903,
    "firstSeen": "2026-09-24",
    "lastSeen": "2026-10-08",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2731,
-   "verifiedHits": 2626,
+   "hits": 2732,
+   "verifiedHits": 2627,
    "firstSeen": "2026-09-24",
    "lastSeen": "2026-10-08",
    "topPaths": [
@@ -344,14 +344,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2342,
+   "hits": 2343,
    "verifiedHits": 0,
    "firstSeen": "2026-09-24",
    "lastSeen": "2026-10-08",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 436
+     "hits": 437
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
@@ -368,6 +368,39 @@
     {
      "path": "/posts/open-weight-coding-model-you-can-actually-self-host-september-2026.html",
      "hits": 99
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "Applebot",
+   "label": "Applebot (Siri / Spotlight)",
+   "category": "search",
+   "home": "https://support.apple.com/en-us/119829",
+   "hits": 2268,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-24",
+   "lastSeen": "2026-10-08",
+   "topPaths": [
+    {
+     "path": "/posts/what-is-vibe-coding-meaning-apps-when-it-breaks.md",
+     "hits": 4
+    },
+    {
+     "path": "/posts/openai-sponsored-agents-chatgpt-ads-founder-distribution-playbook.md",
+     "hits": 4
+    },
+    {
+     "path": "/posts/the-difference-between-a-commitment-and-a-dump.md",
+     "hits": 4
+    },
+    {
+     "path": "/posts/2026-09-24-founders-wire-un-security-council-intrinsic-core-mirendil.md",
+     "hits": 4
+    },
+    {
+     "path": "/posts/claude-code-in-vscode-setup-and-workflow-2026.md",
+     "hits": 3
     }
    ],
    "verifiable": false
@@ -406,47 +439,14 @@
    "verifiable": false
   },
   {
-   "name": "Applebot",
-   "label": "Applebot (Siri / Spotlight)",
-   "category": "search",
-   "home": "https://support.apple.com/en-us/119829",
-   "hits": 2264,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-24",
-   "lastSeen": "2026-10-08",
-   "topPaths": [
-    {
-     "path": "/posts/what-is-vibe-coding-meaning-apps-when-it-breaks.md",
-     "hits": 4
-    },
-    {
-     "path": "/posts/openai-sponsored-agents-chatgpt-ads-founder-distribution-playbook.md",
-     "hits": 4
-    },
-    {
-     "path": "/posts/the-difference-between-a-commitment-and-a-dump.md",
-     "hits": 4
-    },
-    {
-     "path": "/posts/2026-09-24-founders-wire-un-security-council-intrinsic-core-mirendil.md",
-     "hits": 4
-    },
-    {
-     "path": "/posts/claude-code-in-vscode-setup-and-workflow-2026.md",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "PerplexityBot",
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2075,
-   "verifiedHits": 1905,
+   "hits": 2095,
+   "verifiedHits": 1925,
    "firstSeen": "2026-09-24",
-   "lastSeen": "2026-10-07",
+   "lastSeen": "2026-10-08",
    "topPaths": [
     {
      "path": "/",
@@ -465,7 +465,7 @@
      "hits": 15
     },
     {
-     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
+     "path": "/posts/2026-09-23-founders-wire-gpt-6-sol-luna-opus-5-5-price-war-un-agent-control.html",
      "hits": 14
     }
    ],
@@ -542,10 +542,10 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 586,
-   "verifiedHits": 487,
+   "hits": 588,
+   "verifiedHits": 489,
    "firstSeen": "2026-09-24",
-   "lastSeen": "2026-10-07",
+   "lastSeen": "2026-10-08",
    "topPaths": [
     {
      "path": "/",
