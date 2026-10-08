@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-08T00:03:00.387Z",
+ "generated": "2026-10-08T00:13:10.969Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 3,
   "todayReads": 0,
   "avgTimeSec": 0,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3085,
+  "views": 3083,
   "reads": 283,
   "completes": 11,
   "plays": 7,
-  "sessions": 3010
+  "sessions": 3008
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2628,
    "reads": 132,
-   "sessions": 2663
+   "sessions": 2661
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 30,
+   "views": 28,
    "reads": 4,
-   "sessions": 28
+   "sessions": 26
   },
   {
    "channel": "campaign:copilot.com",
@@ -88,7 +88,7 @@
    "views": 2628,
    "reads": 132,
    "completes": 7,
-   "sessions": 2663,
+   "sessions": 2661,
    "read_rate": 0.05,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -118,13 +118,13 @@
   },
   {
    "channel": "referral",
-   "views": 30,
+   "views": 28,
    "reads": 4,
    "completes": 0,
-   "sessions": 28,
-   "read_rate": 0.133,
+   "sessions": 26,
+   "read_rate": 0.143,
    "complete_rate": 0,
-   "pages_per_session": 1.07,
+   "pages_per_session": 1.08,
    "median_dwell_sec": null
   },
   {
@@ -313,9 +313,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2525,
+   "views": 2523,
    "reads": 254,
-   "sessions": 2456
+   "sessions": 2454
   },
   {
    "device": "mobile",
@@ -824,14 +824,14 @@
    "sessions": 8
   },
   {
-   "ref": "https://www.youtube.com/",
+   "ref": "brand",
    "hits": 7,
    "sessions": 7
   },
   {
-   "ref": "brand",
-   "hits": 7,
-   "sessions": 7
+   "ref": "https://www.youtube.com/",
+   "hits": 5,
+   "sessions": 5
   },
   {
    "ref": "https://www.ecosia.org/",

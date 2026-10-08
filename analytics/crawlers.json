@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-08T00:02:59.796Z",
+ "generated": "2026-10-08T00:13:10.480Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10655,
+ "verifiedAiHits": 10656,
  "logsScanned": 30,
  "windowStart": "2026-09-24",
  "windowEnd": "2026-10-08",
- "totalHits": 106009,
- "aiHits": 86824,
+ "totalHits": 106068,
+ "aiHits": 86871,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 25854,
+   "hits": 25858,
    "verifiedHits": 0,
    "firstSeen": "2026-09-24",
    "lastSeen": "2026-10-08",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13829,
+   "hits": 13836,
    "verifiedHits": 0,
    "firstSeen": "2026-09-24",
    "lastSeen": "2026-10-08",
@@ -113,10 +113,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 11576,
+   "hits": 11597,
    "verifiedHits": 0,
    "firstSeen": "2026-09-24",
-   "lastSeen": "2026-10-07",
+   "lastSeen": "2026-10-08",
    "topPaths": [
     {
      "path": "/dashboard",
@@ -179,10 +179,10 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6804,
+   "hits": 6817,
    "verifiedHits": 0,
    "firstSeen": "2026-09-24",
-   "lastSeen": "2026-10-07",
+   "lastSeen": "2026-10-08",
    "topPaths": [
     {
      "path": "/build",
@@ -190,7 +190,7 @@
     },
     {
      "path": "/wire.html",
-     "hits": 73
+     "hits": 74
     },
     {
      "path": "/stack.html",
@@ -212,14 +212,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 5166,
+   "hits": 5169,
    "verifiedHits": 0,
    "firstSeen": "2026-09-24",
-   "lastSeen": "2026-10-07",
+   "lastSeen": "2026-10-08",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 26
+     "hits": 27
     },
     {
      "path": "/dashboard",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4968,
-   "verifiedHits": 4890,
+   "hits": 4969,
+   "verifiedHits": 4891,
    "firstSeen": "2026-09-24",
    "lastSeen": "2026-10-08",
    "topPaths": [
@@ -278,10 +278,10 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3517,
+   "hits": 3525,
    "verifiedHits": 0,
    "firstSeen": "2026-09-24",
-   "lastSeen": "2026-10-07",
+   "lastSeen": "2026-10-08",
    "topPaths": [
     {
      "path": "/",
@@ -344,10 +344,10 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2341,
+   "hits": 2342,
    "verifiedHits": 0,
    "firstSeen": "2026-09-24",
-   "lastSeen": "2026-10-07",
+   "lastSeen": "2026-10-08",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
@@ -410,10 +410,10 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2254,
+   "hits": 2255,
    "verifiedHits": 0,
    "firstSeen": "2026-09-24",
-   "lastSeen": "2026-10-07",
+   "lastSeen": "2026-10-08",
    "topPaths": [
     {
      "path": "/posts/what-is-vibe-coding-meaning-apps-when-it-breaks.md",
