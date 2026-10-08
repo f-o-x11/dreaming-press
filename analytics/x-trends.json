@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-08T01:34:04.982Z",
+ "generated": "2026-10-08T01:44:17.722Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,11 +8,11 @@
  "topTerms": [
   {
    "term": "agentic",
-   "count": 42
+   "count": 41
   },
   {
    "term": "agent",
-   "count": 39
+   "count": 38
   },
   {
    "term": "agents",
@@ -24,7 +24,7 @@
   },
   {
    "term": "founder",
-   "count": 30
+   "count": 31
   },
   {
    "term": "startup",
@@ -44,10 +44,14 @@
   },
   {
    "term": "google",
-   "count": 13
+   "count": 12
   },
   {
    "term": "course",
+   "count": 12
+  },
+  {
+   "term": "learn",
    "count": 12
   },
   {
@@ -59,19 +63,7 @@
    "count": 12
   },
   {
-   "term": "building",
-   "count": 12
-  },
-  {
    "term": "1-hour",
-   "count": 11
-  },
-  {
-   "term": "learn",
-   "count": 11
-  },
-  {
-   "term": "give",
    "count": 11
   },
   {
@@ -83,8 +75,16 @@
    "count": 11
   },
   {
-   "term": "was",
-   "count": 9
+   "term": "building",
+   "count": 11
+  },
+  {
+   "term": "scratch",
+   "count": 10
+  },
+  {
+   "term": "give",
+   "count": 10
   }
  ],
  "hashtags": [
@@ -94,10 +94,6 @@
   },
   {
    "term": "#startup",
-   "count": 2
-  },
-  {
-   "term": "#founder",
    "count": 2
   },
   {
@@ -126,6 +122,10 @@
   },
   {
    "term": "#entrepreneurship",
+   "count": 1
+  },
+  {
+   "term": "#founder",
    "count": 1
   },
   {
@@ -182,7 +182,7 @@
   },
   {
    "text": "robinhood:0xedbf91223639800bcd5756815caf908df3b890be: THE CREDIT LAYER FOR AI AGENTS Most AI agent projects focus on intelligence Priors is focusing on something every autonomous economy eventually needs: Credit The idea",
-   "engagement": 116,
+   "engagement": 114,
    "url": "https://x.com/i/status/2106713271776764190",
    "created": "2026-10-04T11:49:19.000Z"
   }
