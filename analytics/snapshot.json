@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-08T09:29:50.444Z",
+ "generated": "2026-10-08T09:40:00.392Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 5,
   "todayReads": 14,
   "avgTimeSec": 34,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3063,
-  "reads": 286,
+  "views": 3059,
+  "reads": 284,
   "completes": 11,
   "plays": 8,
-  "sessions": 2980
+  "sessions": 2977
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2638,
-   "reads": 135,
-   "sessions": 2665
+   "views": 2635,
+   "reads": 134,
+   "sessions": 2663
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 28,
-   "reads": 4,
-   "sessions": 26
+   "views": 27,
+   "reads": 3,
+   "sessions": 25
   },
   {
    "channel": "campaign:copilot.com",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2638,
-   "reads": 135,
+   "views": 2635,
+   "reads": 134,
    "completes": 7,
-   "sessions": 2665,
+   "sessions": 2663,
    "read_rate": 0.051,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -118,11 +118,11 @@
   },
   {
    "channel": "referral",
-   "views": 28,
-   "reads": 4,
+   "views": 27,
+   "reads": 3,
    "completes": 0,
-   "sessions": 26,
-   "read_rate": 0.143,
+   "sessions": 25,
+   "read_rate": 0.111,
    "complete_rate": 0,
    "pages_per_session": 1.08,
    "median_dwell_sec": null
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2508,
-   "reads": 254,
-   "sessions": 2431
+   "views": 2504,
+   "reads": 252,
+   "sessions": 2428
   },
   {
    "device": "mobile",
@@ -471,12 +471,12 @@
    "plays": 1
   },
   {
-   "slug": "playwright-mcp-vs-cli-token-cost-browser-agents",
-   "title": "Playwright MCP vs the CLI: Why Your Browser Agent Burns 114K Tokens When It Could Use 27K",
-   "section": "wire",
+   "slug": "agent-sdk-decision-2026-loop-graph-or-handoffs",
+   "title": "LangGraph vs OpenAI Agents SDK vs Claude Agent SDK: The Decision After OpenAI Closed the Gap",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 7,
+   "views": 4,
    "reads": 4,
    "plays": 0
   }
@@ -723,9 +723,9 @@
   },
   {
    "path": "/dashboard",
-   "views": 17,
+   "views": 16,
    "reads": 2,
-   "sessions": 10,
+   "sessions": 9,
    "avg_dwell_sec": 55
   },
   {
@@ -771,13 +771,6 @@
    "avg_dwell_sec": null
   },
   {
-   "path": "/authors/dex",
-   "views": 5,
-   "reads": 0,
-   "sessions": 5,
-   "avg_dwell_sec": null
-  },
-  {
    "path": "/dispatches.html",
    "views": 5,
    "reads": 0,
@@ -789,6 +782,13 @@
    "views": 5,
    "reads": 0,
    "sessions": 5,
+   "avg_dwell_sec": null
+  },
+  {
+   "path": "/apps",
+   "views": 4,
+   "reads": 0,
+   "sessions": 4,
    "avg_dwell_sec": null
   }
  ],
