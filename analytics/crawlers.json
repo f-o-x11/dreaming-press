@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-08T19:38:38.522Z",
+ "generated": "2026-10-08T19:48:46.770Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11379,
+ "verifiedAiHits": 11397,
  "logsScanned": 30,
  "windowStart": "2026-09-24",
  "windowEnd": "2026-10-08",
- "totalHits": 112610,
- "aiHits": 91990,
+ "totalHits": 112646,
+ "aiHits": 92016,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27944,
+   "hits": 27945,
    "verifiedHits": 0,
    "firstSeen": "2026-09-24",
    "lastSeen": "2026-10-08",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14720,
+   "hits": 14727,
    "verifiedHits": 0,
    "firstSeen": "2026-09-24",
    "lastSeen": "2026-10-08",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7379,
-   "verifiedHits": 7350,
+   "hits": 7384,
+   "verifiedHits": 7355,
    "firstSeen": "2026-09-24",
    "lastSeen": "2026-10-08",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 5516,
+   "hits": 5518,
    "verifiedHits": 0,
    "firstSeen": "2026-09-24",
    "lastSeen": "2026-10-08",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5299,
-   "verifiedHits": 5218,
+   "hits": 5304,
+   "verifiedHits": 5223,
    "firstSeen": "2026-09-24",
    "lastSeen": "2026-10-08",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2529,
+   "hits": 2532,
    "verifiedHits": 0,
    "firstSeen": "2026-09-24",
    "lastSeen": "2026-10-08",
@@ -406,6 +406,39 @@
    "verifiable": false
   },
   {
+   "name": "PerplexityBot",
+   "label": "Perplexity",
+   "category": "ai",
+   "home": "https://www.perplexity.ai/bot",
+   "hits": 2272,
+   "verifiedHits": 2092,
+   "firstSeen": "2026-09-24",
+   "lastSeen": "2026-10-08",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 21
+    },
+    {
+     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
+     "hits": 20
+    },
+    {
+     "path": "/posts/2026-09-24-founders-wire-un-security-council-intrinsic-core-mirendil.html",
+     "hits": 17
+    },
+    {
+     "path": "/posts/cut-llm-api-costs-model-routing-by-task-2026.html",
+     "hits": 16
+    },
+    {
+     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
+     "hits": 16
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "YouBot",
    "label": "You.com",
    "category": "ai",
@@ -437,39 +470,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "PerplexityBot",
-   "label": "Perplexity",
-   "category": "ai",
-   "home": "https://www.perplexity.ai/bot",
-   "hits": 2259,
-   "verifiedHits": 2079,
-   "firstSeen": "2026-09-24",
-   "lastSeen": "2026-10-08",
-   "topPaths": [
-    {
-     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 20
-    },
-    {
-     "path": "/",
-     "hits": 20
-    },
-    {
-     "path": "/posts/2026-09-24-founders-wire-un-security-council-intrinsic-core-mirendil.html",
-     "hits": 17
-    },
-    {
-     "path": "/posts/cut-llm-api-costs-model-routing-by-task-2026.html",
-     "hits": 16
-    },
-    {
-     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
-     "hits": 16
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "GPTBot",
