@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-08T13:02:16.758Z",
+ "generated": "2026-10-08T13:12:24.920Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 0,
   "todayReads": 16,
   "avgTimeSec": 32,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3042,
+  "views": 3041,
   "reads": 282,
   "completes": 11,
   "plays": 8,
-  "sessions": 2960
+  "sessions": 2959
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2628,
    "reads": 133,
-   "sessions": 2657
+   "sessions": 2656
   },
   {
    "channel": "organic",
@@ -70,12 +70,6 @@
    "sessions": 1
   },
   {
-   "channel": "campaign:qwant",
-   "views": 1,
-   "reads": 0,
-   "sessions": 1
-  },
-  {
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
@@ -88,7 +82,7 @@
    "views": 2628,
    "reads": 133,
    "completes": 7,
-   "sessions": 2657,
+   "sessions": 2656,
    "read_rate": 0.051,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -144,17 +138,6 @@
    "reads": 0,
    "completes": 0,
    "sessions": 3,
-   "read_rate": 0,
-   "complete_rate": 0,
-   "pages_per_session": 1,
-   "median_dwell_sec": null
-  },
-  {
-   "channel": "campaign:qwant",
-   "views": 1,
-   "reads": 0,
-   "completes": 0,
-   "sessions": 1,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -318,9 +301,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2501,
+   "views": 2500,
    "reads": 250,
-   "sessions": 2425
+   "sessions": 2424
   },
   {
    "device": "mobile",
@@ -346,7 +329,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 68,
+   "views": 67,
    "reads": 10,
    "plays": 0
   },
@@ -578,7 +561,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 68,
+   "views": 67,
    "reads": 10,
    "plays": 0
   }
@@ -590,7 +573,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 68,
+   "views": 67,
    "reads": 10,
    "plays": 0
   },
