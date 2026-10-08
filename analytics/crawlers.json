@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-08T15:03:49.911Z",
+ "generated": "2026-10-08T15:13:50.399Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11173,
+ "verifiedAiHits": 11176,
  "logsScanned": 30,
  "windowStart": "2026-09-24",
  "windowEnd": "2026-10-08",
- "totalHits": 111077,
- "aiHits": 90765,
+ "totalHits": 111137,
+ "aiHits": 90810,
  "aiEngines": 18,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27590,
+   "hits": 27623,
    "verifiedHits": 0,
    "firstSeen": "2026-09-24",
    "lastSeen": "2026-10-08",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14513,
+   "hits": 14521,
    "verifiedHits": 0,
    "firstSeen": "2026-09-24",
    "lastSeen": "2026-10-08",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7284,
-   "verifiedHits": 7255,
+   "hits": 7287,
+   "verifiedHits": 7258,
    "firstSeen": "2026-09-24",
    "lastSeen": "2026-10-08",
    "topPaths": [
@@ -164,12 +164,12 @@
      "hits": 40
     },
     {
-     "path": "/posts/llm-api-pricing-comparison-august-2026.html",
+     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
      "hits": 34
     },
     {
-     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 33
+     "path": "/posts/llm-api-pricing-comparison-august-2026.html",
+     "hits": 34
     }
    ],
    "verifiable": true
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 5462,
+   "hits": 5464,
    "verifiedHits": 0,
    "firstSeen": "2026-09-24",
    "lastSeen": "2026-10-08",
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2885,
-   "verifiedHits": 2780,
+   "hits": 2888,
+   "verifiedHits": 2783,
    "firstSeen": "2026-09-24",
    "lastSeen": "2026-10-08",
    "topPaths": [
     {
      "path": "/",
-     "hits": 671
+     "hits": 672
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2432,
+   "hits": 2439,
    "verifiedHits": 0,
    "firstSeen": "2026-09-24",
    "lastSeen": "2026-10-08",
@@ -377,7 +377,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2419,
+   "hits": 2420,
    "verifiedHits": 0,
    "firstSeen": "2026-09-24",
    "lastSeen": "2026-10-08",
@@ -542,14 +542,14 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 598,
-   "verifiedHits": 499,
+   "hits": 601,
+   "verifiedHits": 502,
    "firstSeen": "2026-09-24",
    "lastSeen": "2026-10-08",
    "topPaths": [
     {
      "path": "/",
-     "hits": 13
+     "hits": 14
     },
     {
      "path": "/posts/how-to-roll-back-an-ai-agents-actions.html",

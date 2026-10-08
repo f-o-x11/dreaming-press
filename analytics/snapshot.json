@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-08T15:03:50.618Z",
+ "generated": "2026-10-08T15:13:50.982Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 17,
+  "readersNow": 1,
+  "todayReads": 18,
   "avgTimeSec": 30,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3039,
-  "reads": 281,
+  "views": 3038,
+  "reads": 282,
   "completes": 11,
   "plays": 8,
-  "sessions": 2957
+  "sessions": 2956
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2631,
+   "views": 2629,
    "reads": 133,
-   "sessions": 2659
+   "sessions": 2657
   },
   {
    "channel": "organic",
-   "views": 209,
-   "reads": 119,
-   "sessions": 198
+   "views": 210,
+   "reads": 120,
+   "sessions": 199
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2631,
+   "views": 2629,
    "reads": 133,
    "completes": 7,
-   "sessions": 2659,
+   "sessions": 2657,
    "read_rate": 0.051,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 209,
-   "reads": 119,
+   "views": 210,
+   "reads": 120,
    "completes": 4,
-   "sessions": 198,
-   "read_rate": 0.569,
+   "sessions": 199,
+   "read_rate": 0.571,
    "complete_rate": 0.019,
    "pages_per_session": 1.06,
    "median_dwell_sec": 3
@@ -301,15 +301,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2494,
+   "views": 2492,
    "reads": 249,
-   "sessions": 2418
+   "sessions": 2416
   },
   {
    "device": "mobile",
-   "views": 545,
-   "reads": 32,
-   "sessions": 539
+   "views": 546,
+   "reads": 33,
+   "sessions": 540
   }
  ],
  "topContent": [
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 395,
+   "views": 394,
    "reads": 0,
-   "sessions": 395,
+   "sessions": 394,
    "avg_dwell_sec": 26
   },
   {
@@ -783,8 +783,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 80,
-   "sessions": 39
+   "hits": 82,
+   "sessions": 40
   },
   {
    "ref": "https://cn.bing.com/",
