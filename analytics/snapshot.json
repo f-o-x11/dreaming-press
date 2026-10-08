@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-08T08:19:00.359Z",
+ "generated": "2026-10-08T08:29:08.981Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 11,
   "avgTimeSec": 28,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3061,
+  "views": 3057,
   "reads": 284,
   "completes": 11,
   "plays": 8,
-  "sessions": 2980
+  "sessions": 2976
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2632,
+   "views": 2630,
    "reads": 134,
-   "sessions": 2660
+   "sessions": 2658
   },
   {
    "channel": "organic",
@@ -35,15 +35,15 @@
   },
   {
    "channel": "ai",
-   "views": 17,
+   "views": 16,
    "reads": 5,
-   "sessions": 35
+   "sessions": 34
   },
   {
    "channel": "referral",
-   "views": 29,
+   "views": 28,
    "reads": 4,
-   "sessions": 27
+   "sessions": 26
   },
   {
    "channel": "campaign:copilot.com",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2632,
+   "views": 2630,
    "reads": 134,
    "completes": 7,
-   "sessions": 2660,
+   "sessions": 2658,
    "read_rate": 0.051,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -118,24 +118,24 @@
   },
   {
    "channel": "referral",
-   "views": 29,
+   "views": 28,
    "reads": 4,
    "completes": 0,
-   "sessions": 27,
-   "read_rate": 0.138,
+   "sessions": 26,
+   "read_rate": 0.143,
    "complete_rate": 0,
-   "pages_per_session": 1.07,
+   "pages_per_session": 1.08,
    "median_dwell_sec": null
   },
   {
    "channel": "ai",
-   "views": 17,
+   "views": 16,
    "reads": 5,
    "completes": 0,
-   "sessions": 35,
-   "read_rate": 0.294,
+   "sessions": 34,
+   "read_rate": 0.313,
    "complete_rate": 0,
-   "pages_per_session": 0.49,
+   "pages_per_session": 0.47,
    "median_dwell_sec": 10
   },
   {
@@ -280,9 +280,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 172,
+   "views": 171,
    "reads": 23,
-   "sessions": 170
+   "sessions": 169
   },
   {
    "assistant": "Claude",
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2504,
+   "views": 2502,
    "reads": 252,
-   "sessions": 2429
+   "sessions": 2427
   },
   {
    "device": "mobile",
-   "views": 557,
+   "views": 555,
    "reads": 32,
-   "sessions": 551
+   "sessions": 549
   }
  ],
  "topContent": [
@@ -805,13 +805,13 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 59,
-   "sessions": 33
+   "hits": 60,
+   "sessions": 34
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 50,
-   "sessions": 44
+   "hits": 49,
+   "sessions": 43
   },
   {
    "ref": "https://search.brave.com/",
@@ -820,8 +820,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 20,
-   "sessions": 12
+   "hits": 19,
+   "sessions": 11
   },
   {
    "ref": "https://bing.com/",
@@ -839,9 +839,9 @@
    "sessions": 1
   },
   {
-   "ref": "https://www.youtube.com/",
+   "ref": "https://www.ecosia.org/",
    "hits": 5,
-   "sessions": 5
+   "sessions": 2
   }
  ]
 }
