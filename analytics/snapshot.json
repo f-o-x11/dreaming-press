@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-08T02:04:30.224Z",
+ "generated": "2026-10-08T02:14:32.247Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 3,
   "todayReads": 2,
   "avgTimeSec": 6,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3086,
+  "views": 3085,
   "reads": 283,
   "completes": 11,
   "plays": 7,
-  "sessions": 3003
+  "sessions": 3002
  },
  "channels": [
   {
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 190,
+   "views": 189,
    "reads": 24,
-   "sessions": 189
+   "sessions": 188
   },
   {
    "channel": "ai",
@@ -107,11 +107,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 190,
+   "views": 189,
    "reads": 24,
    "completes": 0,
-   "sessions": 189,
-   "read_rate": 0.126,
+   "sessions": 188,
+   "read_rate": 0.127,
    "complete_rate": 0,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -280,9 +280,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 193,
+   "views": 192,
    "reads": 24,
-   "sessions": 191
+   "sessions": 190
   },
   {
    "assistant": "Claude",
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2525,
+   "views": 2524,
    "reads": 254,
-   "sessions": 2448
+   "sessions": 2447
   },
   {
    "device": "mobile",
@@ -650,7 +650,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 22,
+   "views": 21,
    "reads": 0,
    "plays": 0
   },
@@ -750,18 +750,18 @@
    "avg_dwell_sec": 57
   },
   {
+   "path": "/submit.html",
+   "views": 8,
+   "reads": 0,
+   "sessions": 7,
+   "avg_dwell_sec": 9
+  },
+  {
    "path": "/global-tech-news",
    "views": 6,
    "reads": 0,
    "sessions": 6,
    "avg_dwell_sec": 11
-  },
-  {
-   "path": "/submit.html",
-   "views": 6,
-   "reads": 0,
-   "sessions": 5,
-   "avg_dwell_sec": 9
   },
   {
    "path": "/topics/:topic",
