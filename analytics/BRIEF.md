@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-10-08T04:15Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-08T04:25Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3077 views → 283 engaged reads → 11 completes · 2995 sessions.
-- Channels: direct 132r/2632v · organic 117r/207v · campaign:chatgpt.com 24r/185v · ai 5r/17v · referral 4r/29v · campaign:copilot.com 1r/1v · social 0r/3v · campaign:perplexity 0r/1v · campaign:producthunt 0r/1v · campaign:qwant 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 24r/188v · Claude 2r/2v · Perplexity 1r/2v · Doubao 1r/1v · Copilot 1r/1v · Kimi 0r/8v.
+- Funnel: 3077 views → 284 engaged reads → 11 completes · 2995 sessions.
+- Channels: direct 132r/2632v · organic 118r/208v · campaign:chatgpt.com 24r/184v · ai 5r/17v · referral 4r/29v · campaign:copilot.com 1r/1v · social 0r/3v · campaign:perplexity 0r/1v · campaign:producthunt 0r/1v · campaign:qwant 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 24r/187v · Claude 2r/2v · Perplexity 1r/2v · Doubao 1r/1v · Copilot 1r/1v · Kimi 0r/8v.
 - Referrers: bing.com, duckduckgo.com, cn.bing.com, google.com, search.brave.com, chatgpt.com, bing.com, brand, dash-range, youtube.com.
 - Engaged-read winners by section: wire=6, stack=9.
 
@@ -24,8 +24,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - direct: 2632 views · read 5.0% · complete 0.3% · 0.99 pages/session · median 6s
-- organic: 207 views · read 56.5% · complete 1.9% · 1.06 pages/session · median 3s
-- campaign:chatgpt.com: 185 views · read 13.0% · complete 0.0% · 1.01 pages/session · median ?s
+- organic: 208 views · read 56.7% · complete 1.9% · 1.06 pages/session · median 3s
+- campaign:chatgpt.com: 184 views · read 13.0% · complete 0.0% · 1.01 pages/session · median ?s
 - referral: 29 views · read 13.8% · complete 0.0% · 1.07 pages/session · median ?s
 - ai: 17 views · read 29.4% · complete 0.0% · 0.49 pages/session · median 10s
 - social: 3 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
@@ -123,7 +123,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agentic(45), agent(40), agents(35), build(35), founder(30), startup(23), mcp(22), first(16), coding(15), google(14), course(13), learn(13), memory(13), loops(13), 1-hour(12).
+Hot terms: agentic(44), agent(40), agents(36), build(35), founder(30), startup(23), mcp(22), first(16), coding(15), google(13), course(13), learn(13), memory(13), loops(13), 1-hour(12).
 Hashtags: #ai, #startup, #founder, #buildinginpublic, #preseed, #dev, #fintech, #startups, #bug, #claude.
 High-engagement posts to react to / cite:
 - "🚨 GOOGLE JUST DROPPED A 1-HOUR COURSE THAT TEACHES YOU AGENTIC AI FROM SCRATCH. No fluff. No expensive bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Cre" — https://x.com/i/status/2106731541221306757
@@ -161,7 +161,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 683 crawler fetches
 - /build  — 312 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 215 crawler fetches
-- /posts/how-to-read-an-agent-memory-benchmark.html  — 158 crawler fetches
+- /posts/how-to-read-an-agent-memory-benchmark.html  — 159 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 155 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 148 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 111 crawler fetches
