@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-08T04:05:47.826Z",
+ "generated": "2026-10-08T04:15:48.346Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 4,
   "avgTimeSec": 30,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3079,
+  "views": 3077,
   "reads": 283,
   "completes": 11,
   "plays": 7,
-  "sessions": 2997
+  "sessions": 2995
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2633,
+   "views": 2632,
    "reads": 132,
-   "sessions": 2660
+   "sessions": 2659
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 186,
+   "views": 185,
    "reads": 24,
-   "sessions": 185
+   "sessions": 184
   },
   {
    "channel": "ai",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2633,
+   "views": 2632,
    "reads": 132,
    "completes": 7,
-   "sessions": 2660,
+   "sessions": 2659,
    "read_rate": 0.05,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -107,11 +107,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 186,
+   "views": 185,
    "reads": 24,
    "completes": 0,
-   "sessions": 185,
-   "read_rate": 0.129,
+   "sessions": 184,
+   "read_rate": 0.13,
    "complete_rate": 0,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -280,9 +280,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 189,
+   "views": 188,
    "reads": 24,
-   "sessions": 187
+   "sessions": 186
   },
   {
    "assistant": "Claude",
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2522,
+   "views": 2521,
    "reads": 254,
-   "sessions": 2446
+   "sessions": 2445
   },
   {
    "device": "mobile",
-   "views": 557,
+   "views": 556,
    "reads": 29,
-   "sessions": 551
+   "sessions": 550
   }
  ],
  "topContent": [
@@ -655,16 +655,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
-   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 19,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "how-to-run-spec-driven-development-github-spec-kit",
    "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
    "section": "stack",
@@ -673,6 +663,16 @@
    "views": 18,
    "reads": 9,
    "plays": 1
+  },
+  {
+   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
+   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 18,
+   "reads": 0,
+   "plays": 0
   },
   {
    "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
