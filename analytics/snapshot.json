@@ -1,37 +1,37 @@
 {
- "generated": "2026-10-08T06:27:34.343Z",
+ "generated": "2026-10-08T06:37:40.145Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 4,
   "todayReads": 9,
   "avgTimeSec": 29,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3081,
-  "reads": 286,
+  "views": 3082,
+  "reads": 285,
   "completes": 11,
   "plays": 8,
-  "sessions": 2998
+  "sessions": 3000
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2639,
+   "views": 2642,
    "reads": 134,
-   "sessions": 2666
+   "sessions": 2669
   },
   {
    "channel": "organic",
-   "views": 208,
-   "reads": 118,
+   "views": 207,
+   "reads": 117,
    "sessions": 196
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 181,
+   "views": 180,
    "reads": 24,
-   "sessions": 180
+   "sessions": 179
   },
   {
    "channel": "ai",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2639,
+   "views": 2642,
    "reads": 134,
    "completes": 7,
-   "sessions": 2666,
+   "sessions": 2669,
    "read_rate": 0.051,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -96,21 +96,21 @@
   },
   {
    "channel": "organic",
-   "views": 208,
-   "reads": 118,
+   "views": 207,
+   "reads": 117,
    "completes": 4,
    "sessions": 196,
-   "read_rate": 0.567,
+   "read_rate": 0.565,
    "complete_rate": 0.019,
    "pages_per_session": 1.06,
    "median_dwell_sec": 3
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 181,
+   "views": 180,
    "reads": 24,
    "completes": 0,
-   "sessions": 180,
+   "sessions": 179,
    "read_rate": 0.133,
    "complete_rate": 0,
    "pages_per_session": 1.01,
@@ -280,9 +280,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 184,
+   "views": 183,
    "reads": 24,
-   "sessions": 182
+   "sessions": 181
   },
   {
    "assistant": "Claude",
@@ -319,14 +319,14 @@
   {
    "device": "desktop",
    "views": 2521,
-   "reads": 255,
-   "sessions": 2444
+   "reads": 254,
+   "sessions": 2445
   },
   {
    "device": "mobile",
-   "views": 560,
+   "views": 561,
    "reads": 31,
-   "sessions": 554
+   "sessions": 555
   }
  ],
  "topContent": [
@@ -675,13 +675,13 @@
    "plays": 0
   },
   {
-   "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
-   "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
+   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
+   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
    "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
+   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
+   "author": "dex",
    "views": 16,
-   "reads": 0,
+   "reads": 1,
    "plays": 0
   }
  ],
@@ -814,14 +814,14 @@
    "sessions": 44
   },
   {
-   "ref": "https://search.brave.com/",
-   "hits": 23,
-   "sessions": 11
-  },
-  {
    "ref": "https://chatgpt.com/",
    "hits": 22,
    "sessions": 13
+  },
+  {
+   "ref": "https://search.brave.com/",
+   "hits": 21,
+   "sessions": 11
   },
   {
    "ref": "https://bing.com/",
