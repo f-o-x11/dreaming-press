@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-09T09:38:59.814Z",
+ "generated": "2026-10-09T09:49:09.689Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10996,
+ "verifiedAiHits": 11003,
  "logsScanned": 30,
  "windowStart": "2026-09-25",
  "windowEnd": "2026-10-09",
- "totalHits": 110181,
- "aiHits": 89846,
+ "totalHits": 110303,
+ "aiHits": 89937,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27120,
+   "hits": 27149,
    "verifiedHits": 0,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14290,
+   "hits": 14297,
    "verifiedHits": 0,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 12319,
+   "hits": 12356,
    "verifiedHits": 0,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6884,
-   "verifiedHits": 6861,
+   "hits": 6888,
+   "verifiedHits": 6865,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 5471,
+   "hits": 5485,
    "verifiedHits": 0,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
@@ -223,7 +223,11 @@
     },
     {
      "path": "/dashboard",
-     "hits": 8
+     "hits": 9
+    },
+    {
+     "path": "/apps",
+     "hits": 6
     },
     {
      "path": "/authors/priya",
@@ -231,10 +235,6 @@
     },
     {
      "path": "/authors/rosalinda",
-     "hits": 5
-    },
-    {
-     "path": "/tags/reportive",
      "hits": 5
     }
    ],
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5000,
-   "verifiedHits": 4923,
+   "hits": 5007,
+   "verifiedHits": 4929,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2874,
+   "hits": 2876,
    "verifiedHits": 2761,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2739,
+   "hits": 2741,
    "verifiedHits": 0,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
@@ -410,8 +410,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2260,
-   "verifiedHits": 2072,
+   "hits": 2264,
+   "verifiedHits": 2073,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
    "topPaths": [
@@ -428,12 +428,12 @@
      "hits": 16
     },
     {
-     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
+     "path": "/stack.html",
      "hits": 16
     },
     {
-     "path": "/stack.html",
-     "hits": 15
+     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
+     "hits": 16
     }
    ],
    "verifiable": true
@@ -476,7 +476,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 1347,
+   "hits": 1351,
    "verifiedHits": 1240,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
@@ -509,7 +509,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 582,
+   "hits": 586,
    "verifiedHits": 487,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
@@ -531,7 +531,7 @@
      "hits": 2
     },
     {
-     "path": "/php-cgi/php-cgi.exe",
+     "path": "/global-tech-news",
      "hits": 2
     }
    ],
@@ -542,14 +542,14 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 572,
+   "hits": 579,
    "verifiedHits": 0,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
    "topPaths": [
     {
      "path": "/",
-     "hits": 50
+     "hits": 51
     },
     {
      "path": "/build",
@@ -641,7 +641,7 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 99,
+   "hits": 100,
    "verifiedHits": 0,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
@@ -655,15 +655,15 @@
      "hits": 3
     },
     {
+     "path": "/dispatches.html",
+     "hits": 2
+    },
+    {
      "path": "/feast/read-document",
      "hits": 2
     },
     {
      "path": "/web.config",
-     "hits": 2
-    },
-    {
-     "path": "/",
      "hits": 2
     }
    ],
