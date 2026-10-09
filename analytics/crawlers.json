@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-09T19:07:40.274Z",
+ "generated": "2026-10-09T19:17:48.131Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13058,
+ "verifiedAiHits": 13720,
  "logsScanned": 30,
  "windowStart": "2026-09-25",
  "windowEnd": "2026-10-09",
- "totalHits": 114679,
- "aiHits": 93704,
+ "totalHits": 115414,
+ "aiHits": 94420,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27835,
+   "hits": 27882,
    "verifiedHits": 0,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
    "topPaths": [
     {
      "path": "/",
-     "hits": 44
+     "hits": 46
     },
     {
      "path": "/dashboard",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14732,
+   "hits": 14739,
    "verifiedHits": 0,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7061,
-   "verifiedHits": 7038,
+   "hits": 7062,
+   "verifiedHits": 7039,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 5674,
+   "hits": 5682,
    "verifiedHits": 0,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5152,
-   "verifiedHits": 5070,
+   "hits": 5155,
+   "verifiedHits": 5073,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4170,
+   "hits": 4178,
    "verifiedHits": 0,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
@@ -307,12 +307,45 @@
    "verifiable": false
   },
   {
+   "name": "GPTBot",
+   "label": "GPTBot (OpenAI)",
+   "category": "ai",
+   "home": "https://openai.com/gptbot",
+   "hits": 3618,
+   "verifiedHits": 3506,
+   "firstSeen": "2026-09-25",
+   "lastSeen": "2026-10-09",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 54
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 52
+    },
+    {
+     "path": "/authors/dex",
+     "hits": 26
+    },
+    {
+     "path": "/authors/priya",
+     "hits": 11
+    },
+    {
+     "path": "/",
+     "hits": 8
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "ChatGPT-User",
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2998,
-   "verifiedHits": 2877,
+   "hits": 2999,
+   "verifiedHits": 2878,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
    "topPaths": [
@@ -340,44 +373,11 @@
    "verifiable": true
   },
   {
-   "name": "GPTBot",
-   "label": "GPTBot (OpenAI)",
-   "category": "ai",
-   "home": "https://openai.com/gptbot",
-   "hits": 2965,
-   "verifiedHits": 2853,
-   "firstSeen": "2026-09-25",
-   "lastSeen": "2026-10-09",
-   "topPaths": [
-    {
-     "path": "/tags/opinionated",
-     "hits": 52
-    },
-    {
-     "path": "/build",
-     "hits": 28
-    },
-    {
-     "path": "/authors/dex",
-     "hits": 26
-    },
-    {
-     "path": "/authors/priya",
-     "hits": 11
-    },
-    {
-     "path": "/",
-     "hits": 8
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "Applebot",
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2876,
+   "hits": 2878,
    "verifiedHits": 0,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
@@ -410,8 +410,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2456,
-   "verifiedHits": 2258,
+   "hits": 2461,
+   "verifiedHits": 2263,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
    "topPaths": [
@@ -428,11 +428,11 @@
      "hits": 18
     },
     {
-     "path": "/stack.html",
-     "hits": 16
+     "path": "/posts/2026-09-24-founders-wire-un-security-council-intrinsic-core-mirendil.html",
+     "hits": 17
     },
     {
-     "path": "/posts/2026-09-24-founders-wire-un-security-council-intrinsic-core-mirendil.html",
+     "path": "/stack.html",
      "hits": 16
     }
    ],
