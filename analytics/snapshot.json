@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-09T16:55:58.039Z",
+ "generated": "2026-10-09T17:06:00.968Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
-  "todayReads": 22,
-  "avgTimeSec": 74,
+  "todayReads": 23,
+  "avgTimeSec": 73,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3001,
-  "reads": 294,
+  "views": 3002,
+  "reads": 295,
   "completes": 11,
   "plays": 7,
-  "sessions": 2921
+  "sessions": 2922
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2624,
-   "reads": 146,
-   "sessions": 2650
+   "views": 2625,
+   "reads": 147,
+   "sessions": 2651
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2624,
-   "reads": 146,
+   "views": 2625,
+   "reads": 147,
    "completes": 8,
-   "sessions": 2650,
+   "sessions": 2651,
    "read_rate": 0.056,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -291,9 +291,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2465,
-   "reads": 259,
-   "sessions": 2390
+   "views": 2466,
+   "reads": 260,
+   "sessions": 2391
   },
   {
    "device": "mobile",
@@ -394,6 +394,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 26,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
    "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
    "section": "wire",
@@ -411,16 +421,6 @@
    "author": "dex",
    "views": 7,
    "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 25,
-   "reads": 4,
    "plays": 0
   },
   {
@@ -593,8 +593,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 25,
-   "reads": 4,
+   "views": 26,
+   "reads": 5,
    "plays": 0
   },
   {
