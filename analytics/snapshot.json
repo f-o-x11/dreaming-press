@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-09T20:08:20.617Z",
+ "generated": "2026-10-09T20:18:29.351Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 27,
+  "readersNow": 2,
+  "todayReads": 28,
   "avgTimeSec": 69,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3004,
-  "reads": 297,
+  "views": 3005,
+  "reads": 298,
   "completes": 11,
   "plays": 6,
-  "sessions": 2921
+  "sessions": 2922
  },
  "channels": [
   {
@@ -23,9 +23,9 @@
   },
   {
    "channel": "organic",
-   "views": 217,
-   "reads": 121,
-   "sessions": 205
+   "views": 218,
+   "reads": 122,
+   "sessions": 206
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 217,
-   "reads": 121,
+   "views": 218,
+   "reads": 122,
    "completes": 3,
-   "sessions": 205,
-   "read_rate": 0.558,
+   "sessions": 206,
+   "read_rate": 0.56,
    "complete_rate": 0.014,
    "pages_per_session": 1.06,
    "median_dwell_sec": 3
@@ -291,9 +291,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2471,
-   "reads": 262,
-   "sessions": 2393
+   "views": 2472,
+   "reads": 263,
+   "sessions": 2394
   },
   {
    "device": "mobile",
@@ -434,8 +434,8 @@
    "plays": 1
   },
   {
-   "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
-   "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
+   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
+   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
@@ -444,12 +444,12 @@
    "plays": 0
   },
   {
-   "slug": "agent-sdk-decision-2026-loop-graph-or-handoffs",
-   "title": "LangGraph vs OpenAI Agents SDK vs Claude Agent SDK: The Decision After OpenAI Closed the Gap",
-   "section": "stack",
+   "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
+   "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 5,
+   "author": "priya",
+   "views": 7,
    "reads": 4,
    "plays": 0
   }
