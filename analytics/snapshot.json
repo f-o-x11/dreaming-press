@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-09T16:25:33.341Z",
+ "generated": "2026-10-09T16:35:41.532Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 4,
   "todayReads": 21,
-  "avgTimeSec": 77,
+  "avgTimeSec": 74,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3003,
+  "views": 3005,
   "reads": 293,
   "completes": 11,
   "plays": 7,
-  "sessions": 2923
+  "sessions": 2925
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2625,
+   "views": 2628,
    "reads": 145,
-   "sessions": 2651
+   "sessions": 2654
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 116,
+   "views": 115,
    "reads": 19,
-   "sessions": 115
+   "sessions": 114
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2625,
+   "views": 2628,
    "reads": 145,
    "completes": 8,
-   "sessions": 2651,
+   "sessions": 2654,
    "read_rate": 0.055,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 116,
+   "views": 115,
    "reads": 19,
    "completes": 0,
-   "sessions": 115,
-   "read_rate": 0.164,
+   "sessions": 114,
+   "read_rate": 0.165,
    "complete_rate": 0,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -253,9 +253,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 118,
+   "views": 117,
    "reads": 19,
-   "sessions": 116
+   "sessions": 115
   },
   {
    "assistant": "Claude",
@@ -291,15 +291,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2465,
+   "views": 2468,
    "reads": 258,
-   "sessions": 2390
+   "sessions": 2393
   },
   {
    "device": "mobile",
-   "views": 538,
+   "views": 537,
    "reads": 35,
-   "sessions": 533
+   "sessions": 532
   }
  ],
  "topContent": [
@@ -689,10 +689,10 @@
   },
   {
    "path": "/build",
-   "views": 27,
+   "views": 29,
    "reads": 0,
-   "sessions": 27,
-   "avg_dwell_sec": null
+   "sessions": 29,
+   "avg_dwell_sec": 4
   },
   {
    "path": "/dashboard",
