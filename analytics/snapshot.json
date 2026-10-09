@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-09T04:25:06.305Z",
+ "generated": "2026-10-09T04:35:25.349Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 8,
-  "todayReads": 1,
+  "readersNow": 10,
+  "todayReads": 2,
   "avgTimeSec": 3,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 2993,
-  "reads": 280,
+  "views": 2994,
+  "reads": 281,
   "completes": 10,
   "plays": 8,
-  "sessions": 2911
+  "sessions": 2912
  },
  "channels": [
   {
@@ -23,15 +23,15 @@
   },
   {
    "channel": "organic",
-   "views": 217,
+   "views": 218,
    "reads": 121,
-   "sessions": 205
+   "sessions": 206
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 125,
+   "views": 124,
    "reads": 19,
-   "sessions": 124
+   "sessions": 123
   },
   {
    "channel": "ai",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 25,
-   "reads": 3,
-   "sessions": 23
+   "views": 26,
+   "reads": 4,
+   "sessions": 24
   },
   {
    "channel": "campaign:copilot.com",
@@ -90,35 +90,35 @@
   },
   {
    "channel": "organic",
-   "views": 217,
+   "views": 218,
    "reads": 121,
    "completes": 3,
-   "sessions": 205,
-   "read_rate": 0.558,
+   "sessions": 206,
+   "read_rate": 0.555,
    "complete_rate": 0.014,
    "pages_per_session": 1.06,
    "median_dwell_sec": 3
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 125,
+   "views": 124,
    "reads": 19,
    "completes": 0,
-   "sessions": 124,
-   "read_rate": 0.152,
+   "sessions": 123,
+   "read_rate": 0.153,
    "complete_rate": 0,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
   },
   {
    "channel": "referral",
-   "views": 25,
-   "reads": 3,
+   "views": 26,
+   "reads": 4,
    "completes": 0,
-   "sessions": 23,
-   "read_rate": 0.12,
+   "sessions": 24,
+   "read_rate": 0.154,
    "complete_rate": 0,
-   "pages_per_session": 1.09,
+   "pages_per_session": 1.08,
    "median_dwell_sec": null
   },
   {
@@ -263,9 +263,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 127,
+   "views": 126,
    "reads": 19,
-   "sessions": 125
+   "sessions": 124
   },
   {
    "assistant": "Claude",
@@ -301,9 +301,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2453,
-   "reads": 247,
-   "sessions": 2377
+   "views": 2454,
+   "reads": 248,
+   "sessions": 2378
   },
   {
    "device": "mobile",
@@ -628,6 +628,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 19,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "how-to-run-spec-driven-development-github-spec-kit",
    "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
    "section": "stack",
@@ -636,16 +646,6 @@
    "views": 18,
    "reads": 9,
    "plays": 1
-  },
-  {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 17,
-   "reads": 1,
-   "plays": 0
   },
   {
    "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
@@ -793,8 +793,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 57,
-   "sessions": 49
+   "hits": 58,
+   "sessions": 50
   },
   {
    "ref": "https://search.brave.com/",
