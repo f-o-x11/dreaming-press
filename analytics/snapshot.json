@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-09T18:27:08.280Z",
+ "generated": "2026-10-09T18:37:21.310Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3001,
+  "views": 2999,
   "reads": 295,
   "completes": 11,
-  "plays": 7,
-  "sessions": 2921
+  "plays": 6,
+  "sessions": 2919
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2624,
+   "views": 2623,
    "reads": 147,
-   "sessions": 2650
+   "sessions": 2649
   },
   {
    "channel": "organic",
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 114,
+   "views": 113,
    "reads": 19,
-   "sessions": 113
+   "sessions": 112
   },
   {
    "channel": "ai",
    "views": 15,
    "reads": 4,
-   "sessions": 31
+   "sessions": 30
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2624,
+   "views": 2623,
    "reads": 147,
    "completes": 8,
-   "sessions": 2650,
+   "sessions": 2649,
    "read_rate": 0.056,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 114,
+   "views": 113,
    "reads": 19,
    "completes": 0,
-   "sessions": 113,
-   "read_rate": 0.167,
+   "sessions": 112,
+   "read_rate": 0.168,
    "complete_rate": 0,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -126,11 +126,11 @@
    "views": 15,
    "reads": 4,
    "completes": 0,
-   "sessions": 31,
+   "sessions": 30,
    "read_rate": 0.267,
    "complete_rate": 0,
-   "pages_per_session": 0.48,
-   "median_dwell_sec": 13
+   "pages_per_session": 0.5,
+   "median_dwell_sec": 7
   },
   {
    "channel": "social",
@@ -253,9 +253,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 116,
+   "views": 115,
    "reads": 19,
-   "sessions": 114
+   "sessions": 113
   },
   {
    "assistant": "Claude",
@@ -291,9 +291,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2466,
+   "views": 2464,
    "reads": 260,
-   "sessions": 2391
+   "sessions": 2389
   },
   {
    "device": "mobile",
@@ -516,16 +516,6 @@
    "plays": 1
   },
   {
-   "slug": "kimi-k2-7-vs-glm-5-2-vs-deepseek-v4-open-weight-coding",
-   "title": "Kimi K2.7 vs GLM-5.2 vs DeepSeek V4 vs Qwen3-Coder: The Open-Weight Coding Bracket, Refreshed",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
-   "author": "dex",
-   "views": 3,
-   "reads": 0,
-   "plays": 1
-  },
-  {
    "slug": "mcp-tool-annotations-explained",
    "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
    "section": "wire",
@@ -553,6 +543,16 @@
    "author": "dex",
    "views": 11,
    "reads": 9,
+   "plays": 0
+  },
+  {
+   "slug": "best-ai-agents-for-personal-use-september-2026",
+   "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 17,
+   "reads": 7,
    "plays": 0
   }
  ],
