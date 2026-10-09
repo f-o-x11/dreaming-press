@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-09T05:15:55.598Z",
+ "generated": "2026-10-09T05:25:57.527Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 2,
   "avgTimeSec": 3,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 2994,
-  "reads": 281,
+  "views": 2992,
+  "reads": 280,
   "completes": 10,
   "plays": 8,
-  "sessions": 2912
+  "sessions": 2910
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2604,
+   "views": 2603,
    "reads": 131,
-   "sessions": 2632
+   "sessions": 2630
   },
   {
    "channel": "organic",
@@ -34,16 +34,16 @@
    "sessions": 123
   },
   {
-   "channel": "ai",
-   "views": 16,
-   "reads": 5,
-   "sessions": 33
-  },
-  {
    "channel": "referral",
    "views": 26,
    "reads": 4,
    "sessions": 24
+  },
+  {
+   "channel": "ai",
+   "views": 15,
+   "reads": 4,
+   "sessions": 32
   },
   {
    "channel": "campaign:copilot.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2604,
+   "views": 2603,
    "reads": 131,
    "completes": 7,
-   "sessions": 2632,
+   "sessions": 2630,
    "read_rate": 0.05,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 16,
-   "reads": 5,
+   "views": 15,
+   "reads": 4,
    "completes": 0,
-   "sessions": 33,
-   "read_rate": 0.313,
+   "sessions": 32,
+   "read_rate": 0.267,
    "complete_rate": 0,
-   "pages_per_session": 0.48,
+   "pages_per_session": 0.47,
    "median_dwell_sec": 10
   },
   {
@@ -274,12 +274,6 @@
    "sessions": 1
   },
   {
-   "assistant": "Perplexity",
-   "views": 2,
-   "reads": 1,
-   "sessions": 2
-  },
-  {
    "assistant": "Doubao",
    "views": 1,
    "reads": 1,
@@ -296,14 +290,20 @@
    "views": 8,
    "reads": 0,
    "sessions": 8
+  },
+  {
+   "assistant": "Perplexity",
+   "views": 1,
+   "reads": 0,
+   "sessions": 1
   }
  ],
  "devices": [
   {
    "device": "desktop",
-   "views": 2453,
-   "reads": 248,
-   "sessions": 2377
+   "views": 2451,
+   "reads": 247,
+   "sessions": 2375
   },
   {
    "device": "mobile",
@@ -329,7 +329,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 59,
+   "views": 58,
    "reads": 9,
    "plays": 0
   },
@@ -394,16 +394,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 24,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
    "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
    "section": "wire",
@@ -421,6 +411,16 @@
    "author": "dex",
    "views": 7,
    "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 23,
+   "reads": 4,
    "plays": 0
   },
   {
@@ -561,7 +561,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 59,
+   "views": 58,
    "reads": 9,
    "plays": 0
   }
@@ -573,7 +573,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 59,
+   "views": 58,
    "reads": 9,
    "plays": 0
   },
@@ -603,8 +603,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 24,
-   "reads": 5,
+   "views": 23,
+   "reads": 4,
    "plays": 0
   },
   {
