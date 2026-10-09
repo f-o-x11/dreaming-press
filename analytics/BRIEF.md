@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-09T00:22Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-09T00:32Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -60,7 +60,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 396 views, 0 reads, 396 sessions, avg 26s
-- / — 145 views, 4 reads, 144 sessions, avg 11s
+- / — 144 views, 4 reads, 143 sessions, avg 11s
 - /best/:cat — 53 views, 0 reads, 53 sessions
 - /compare/:pair — 35 views, 0 reads, 35 sessions, avg 41s
 - /build — 27 views, 0 reads, 27 sessions
@@ -95,20 +95,20 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 676 retrieval fetches
+- /  — 677 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 191 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 171 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 138 retrieval fetches
 - /wire.html  — 61 retrieval fetches
-- /posts/lm-studio-bionic-local-agent-open-models.html  — 58 retrieval fetches
+- /posts/lm-studio-bionic-local-agent-open-models.html  — 59 retrieval fetches
 - /posts/2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe.html  — 42 retrieval fetches
 - /dashboard  — 16 retrieval fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 16 retrieval fetches
 - /posts/2026-09-24-founders-wire-un-security-council-intrinsic-core-mirendil.html  — 15 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4816 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×75 · /posts/open-source-llm-for-coding-september-2026.html ×73 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×67
-- ChatGPT-User (2654 verified): / ×656 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×105 · /posts/open-source-llm-for-coding-september-2026.html ×98
+- OAI-SearchBot (4820 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×75 · /posts/open-source-llm-for-coding-september-2026.html ×73 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×67
+- ChatGPT-User (2657 verified): / ×657 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×105 · /posts/open-source-llm-for-coding-september-2026.html ×98
 - PerplexityBot (2044 verified): / ×20 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×19 · /dashboard ×16
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -157,7 +157,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10752 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4816, ChatGPT (user browsing) 2654, Perplexity 2044, GPTBot (OpenAI) 1238).
+The real answer engines are crawling us — IP-verified: 10759 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4820, ChatGPT (user browsing) 2657, Perplexity 2044, GPTBot (OpenAI) 1238).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 634 crawler fetches
 - /build  — 315 crawler fetches
@@ -168,7 +168,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 101 crawler fetches
 - /posts/open-weight-coding-model-you-can-actually-self-host-september-2026.html  — 98 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 80 crawler fetches
-- /posts/lm-studio-bionic-local-agent-open-models.html  — 58 crawler fetches
+- /posts/lm-studio-bionic-local-agent-open-models.html  — 59 crawler fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 49 crawler fetches
 - /posts/2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe.html  — 42 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
