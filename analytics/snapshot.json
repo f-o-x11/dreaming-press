@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-09T13:01:52.625Z",
+ "generated": "2026-10-09T13:12:00.460Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 3,
   "todayReads": 16,
   "avgTimeSec": 67,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3009,
+  "views": 3010,
   "reads": 288,
   "completes": 11,
   "plays": 7,
-  "sessions": 2928
+  "sessions": 2929
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2627,
+   "views": 2628,
    "reads": 141,
-   "sessions": 2653
+   "sessions": 2654
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2627,
+   "views": 2628,
    "reads": 141,
    "completes": 8,
-   "sessions": 2653,
+   "sessions": 2654,
    "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -297,9 +297,9 @@
   },
   {
    "device": "mobile",
-   "views": 540,
+   "views": 541,
    "reads": 34,
-   "sessions": 534
+   "sessions": 535
   }
  ],
  "topContent": [
@@ -638,6 +638,16 @@
    "plays": 1
   },
   {
+   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
+   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
+   "author": "dex",
+   "views": 15,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
    "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
    "section": "wire",
@@ -645,16 +655,6 @@
    "author": "priya",
    "views": 15,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
-   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 14,
-   "reads": 7,
    "plays": 0
   }
  ],
