@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-09T16:35:41.532Z",
+ "generated": "2026-10-09T16:45:45.527Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 21,
+  "readersNow": 5,
+  "todayReads": 22,
   "avgTimeSec": 74,
   "postsThisWeek": 11
  },
  "funnel": {
   "views": 3005,
-  "reads": 293,
+  "reads": 294,
   "completes": 11,
   "plays": 7,
   "sessions": 2925
@@ -18,7 +18,7 @@
   {
    "channel": "direct",
    "views": 2628,
-   "reads": 145,
+   "reads": 146,
    "sessions": 2654
   },
   {
@@ -80,10 +80,10 @@
   {
    "channel": "direct",
    "views": 2628,
-   "reads": 145,
+   "reads": 146,
    "completes": 8,
    "sessions": 2654,
-   "read_rate": 0.055,
+   "read_rate": 0.056,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
    "median_dwell_sec": 6
@@ -291,15 +291,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2468,
-   "reads": 258,
-   "sessions": 2393
+   "views": 2469,
+   "reads": 259,
+   "sessions": 2394
   },
   {
    "device": "mobile",
-   "views": 537,
+   "views": 536,
    "reads": 35,
-   "sessions": 532
+   "sessions": 531
   }
  ],
  "topContent": [
@@ -374,6 +374,16 @@
    "plays": 0
   },
   {
+   "slug": "clear-compact-remember-cross-vendor-agent-context-framework",
+   "title": "Clear, Compact, or Remember? The Cross-Vendor Decision Framework for Long-Running Agent Context",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 12,
+   "reads": 6,
+   "plays": 1
+  },
+  {
    "slug": "agent-funding-august-2026-control-won-the-summer",
    "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
    "section": "wire",
@@ -382,16 +392,6 @@
    "views": 8,
    "reads": 6,
    "plays": 0
-  },
-  {
-   "slug": "clear-compact-remember-cross-vendor-agent-context-framework",
-   "title": "Clear, Compact, or Remember? The Cross-Vendor Decision Framework for Long-Running Agent Context",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 11,
-   "reads": 5,
-   "plays": 1
   },
   {
    "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
@@ -471,8 +471,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 11,
-   "reads": 5,
+   "views": 12,
+   "reads": 6,
    "plays": 1
   },
   {
@@ -668,9 +668,9 @@
   },
   {
    "path": "/",
-   "views": 147,
+   "views": 145,
    "reads": 4,
-   "sessions": 146,
+   "sessions": 144,
    "avg_dwell_sec": 12
   },
   {
