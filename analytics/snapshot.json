@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-09T21:59:41.914Z",
+ "generated": "2026-10-09T22:09:50.487Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 29,
   "avgTimeSec": 67,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3005,
+  "views": 3006,
   "reads": 298,
   "completes": 11,
   "plays": 6,
-  "sessions": 2920
+  "sessions": 2921
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2627,
+   "views": 2628,
    "reads": 149,
-   "sessions": 2650
+   "sessions": 2651
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2627,
+   "views": 2628,
    "reads": 149,
    "completes": 8,
-   "sessions": 2650,
+   "sessions": 2651,
    "read_rate": 0.057,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -291,9 +291,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2475,
+   "views": 2476,
    "reads": 264,
-   "sessions": 2395
+   "sessions": 2396
   },
   {
    "device": "mobile",
@@ -638,6 +638,16 @@
    "plays": 0
   },
   {
+   "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
+   "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 16,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
    "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
    "section": "wire",
@@ -645,16 +655,6 @@
    "author": "dex",
    "views": 15,
    "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
-   "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 15,
-   "reads": 0,
    "plays": 0
   }
  ],
