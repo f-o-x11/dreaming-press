@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-09T07:17:25.551Z",
+ "generated": "2026-10-09T07:27:32.412Z",
  "sampled": 78,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -117,10 +117,6 @@
    "count": 2
   },
   {
-   "term": "#startups",
-   "count": 2
-  },
-  {
    "term": "#aijobs",
    "count": 1
   },
@@ -134,6 +130,10 @@
   },
   {
    "term": "#claude",
+   "count": 1
+  },
+  {
+   "term": "#astra",
    "count": 1
   }
  ],
