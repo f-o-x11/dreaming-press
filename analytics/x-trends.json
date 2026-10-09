@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-09T07:47:42.360Z",
+ "generated": "2026-10-09T07:57:42.852Z",
  "sampled": 78,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,31 +8,31 @@
  "topTerms": [
   {
    "term": "agentic",
-   "count": 49
-  },
-  {
-   "term": "build",
-   "count": 40
+   "count": 48
   },
   {
    "term": "agents",
-   "count": 39
+   "count": 38
+  },
+  {
+   "term": "build",
+   "count": 38
   },
   {
    "term": "agent",
-   "count": 36
+   "count": 34
   },
   {
    "term": "founder",
    "count": 29
   },
   {
-   "term": "mcp",
+   "term": "startup",
    "count": 23
   },
   {
-   "term": "startup",
-   "count": 23
+   "term": "mcp",
+   "count": 21
   },
   {
    "term": "learn",
@@ -40,30 +40,14 @@
   },
   {
    "term": "google",
-   "count": 16
-  },
-  {
-   "term": "first",
    "count": 15
   },
   {
+   "term": "first",
+   "count": 14
+  },
+  {
    "term": "course",
-   "count": 14
-  },
-  {
-   "term": "memory",
-   "count": 14
-  },
-  {
-   "term": "loops",
-   "count": 14
-  },
-  {
-   "term": "1-hour",
-   "count": 13
-  },
-  {
-   "term": "scratch",
    "count": 13
   },
   {
@@ -71,19 +55,35 @@
    "count": 13
   },
   {
-   "term": "persistent",
+   "term": "memory",
    "count": 13
   },
   {
-   "term": "long-running",
+   "term": "loops",
    "count": 13
+  },
+  {
+   "term": "1-hour",
+   "count": 12
+  },
+  {
+   "term": "scratch",
+   "count": 12
+  },
+  {
+   "term": "persistent",
+   "count": 12
+  },
+  {
+   "term": "long-running",
+   "count": 12
   },
   {
    "term": "coding",
    "count": 11
   },
   {
-   "term": "dropped",
+   "term": "minutes",
    "count": 11
   }
  ],
@@ -175,16 +175,16 @@
    "created": "2026-10-04T17:02:38.000Z"
   },
   {
-   "text": "Google just dropped a 1-hour course on agentic engineering from scratch: 00:00 – How to build your first AI agent 08:24 – Build agent memory (short, persistent, long) 28:34 – Agentic loops, long-running AI agents 40:04 –",
-   "engagement": 166,
-   "url": "https://x.com/i/status/2105928282441240868",
-   "created": "2026-10-02T07:50:03.000Z"
-  },
-  {
    "text": "robinhood:0xedbf91223639800bcd5756815caf908df3b890be: THE CREDIT LAYER FOR AI AGENTS Most AI agent projects focus on intelligence Priors is focusing on something every autonomous economy eventually needs: Credit The idea",
    "engagement": 110,
    "url": "https://x.com/i/status/2106713271776764190",
    "created": "2026-10-04T11:49:19.000Z"
+  },
+  {
+   "text": "Mastering NLP From Foundations to Agents — Build AI Agents through Agentic Automation and RAG Workflows with Python: https://t.co/MdztNpNu0x via @PacktPublishing @PacktDataML 𝓦𝓱𝓪𝓽 𝓨𝓸𝓾 𝓦𝓲𝓵𝓵 𝓛𝓮𝓪𝓻𝓷: 🟠Build ",
+   "engagement": 89,
+   "url": "https://x.com/i/status/2107153368376398160",
+   "created": "2026-10-05T16:58:06.000Z"
   }
  ]
 }
