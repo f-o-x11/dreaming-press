@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-09T01:02:42.422Z",
+ "generated": "2026-10-09T01:12:53.995Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 3,
   "todayReads": 0,
   "avgTimeSec": 5,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 2988,
+  "views": 2985,
   "reads": 281,
   "completes": 10,
   "plays": 8,
-  "sessions": 2906
+  "sessions": 2903
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2604,
+   "views": 2601,
    "reads": 132,
-   "sessions": 2632
+   "sessions": 2629
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2604,
+   "views": 2601,
    "reads": 132,
    "completes": 7,
-   "sessions": 2632,
+   "sessions": 2629,
    "read_rate": 0.051,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -307,9 +307,9 @@
   },
   {
    "device": "mobile",
-   "views": 541,
+   "views": 538,
    "reads": 33,
-   "sessions": 535
+   "sessions": 532
   }
  ],
  "topContent": [
@@ -638,16 +638,6 @@
    "plays": 1
   },
   {
-   "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
-   "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 16,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
    "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
    "section": "wire",
@@ -663,6 +653,16 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
+   "views": 15,
+   "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
+   "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
    "views": 15,
    "reads": 0,
    "plays": 0
