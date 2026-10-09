@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-09T00:01:58.204Z",
+ "generated": "2026-10-09T00:11:59.687Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10741,
+ "verifiedAiHits": 10745,
  "logsScanned": 30,
  "windowStart": "2026-09-25",
  "windowEnd": "2026-10-09",
- "totalHits": 107083,
- "aiHits": 87556,
+ "totalHits": 107110,
+ "aiHits": 87575,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 26049,
+   "hits": 26054,
    "verifiedHits": 0,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13873,
+   "hits": 13880,
    "verifiedHits": 0,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
@@ -113,10 +113,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 11994,
+   "hits": 11995,
    "verifiedHits": 0,
    "firstSeen": "2026-09-25",
-   "lastSeen": "2026-10-08",
+   "lastSeen": "2026-10-09",
    "topPaths": [
     {
      "path": "/dashboard",
@@ -127,15 +127,15 @@
      "hits": 8
     },
     {
+     "path": "/posts/cut-llm-api-costs-model-routing-by-task-2026.html",
+     "hits": 6
+    },
+    {
      "path": "/posts/2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader.html",
      "hits": 6
     },
     {
      "path": "/posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html",
-     "hits": 6
-    },
-    {
-     "path": "/posts/llm-reranker-vs-cross-encoder-vs-listwise.html",
      "hits": 6
     }
    ],
@@ -146,10 +146,10 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6964,
+   "hits": 6965,
    "verifiedHits": 0,
    "firstSeen": "2026-09-25",
-   "lastSeen": "2026-10-08",
+   "lastSeen": "2026-10-09",
    "topPaths": [
     {
      "path": "/build",
@@ -179,14 +179,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6739,
-   "verifiedHits": 6716,
+   "hits": 6744,
+   "verifiedHits": 6721,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 79
+     "hits": 80
     },
     {
      "path": "/build",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4888,
-   "verifiedHits": 4811,
+   "hits": 4889,
+   "verifiedHits": 4812,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
    "topPaths": [
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2760,
-   "verifiedHits": 2652,
+   "hits": 2761,
+   "verifiedHits": 2653,
    "firstSeen": "2026-09-25",
-   "lastSeen": "2026-10-08",
+   "lastSeen": "2026-10-09",
    "topPaths": [
     {
      "path": "/",
-     "hits": 655
+     "hits": 656
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2563,
+   "hits": 2566,
    "verifiedHits": 0,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
@@ -410,10 +410,10 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2221,
-   "verifiedHits": 2040,
+   "hits": 2223,
+   "verifiedHits": 2042,
    "firstSeen": "2026-09-25",
-   "lastSeen": "2026-10-08",
+   "lastSeen": "2026-10-09",
    "topPaths": [
     {
      "path": "/",
@@ -575,10 +575,10 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 176,
+   "hits": 177,
    "verifiedHits": 0,
    "firstSeen": "2026-09-25",
-   "lastSeen": "2026-10-08",
+   "lastSeen": "2026-10-09",
    "topPaths": [
     {
      "path": "/cgi-bin/php-cgi",
@@ -589,15 +589,15 @@
      "hits": 3
     },
     {
+     "path": "/dashboard%2F.env",
+     "hits": 2
+    },
+    {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
      "hits": 2
     },
     {
      "path": "/cgi-bin/php",
-     "hits": 2
-    },
-    {
-     "path": "/posts/claude-code-nested-subagents-depth-3-multi-agent-workflow.html",
      "hits": 2
     }
    ],
