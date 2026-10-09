@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-09T12:31:20.936Z",
+ "generated": "2026-10-09T12:41:28.889Z",
  "sampled": 78,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -20,7 +20,7 @@
   },
   {
    "term": "agent",
-   "count": 33
+   "count": 31
   },
   {
    "term": "founder",
@@ -32,19 +32,19 @@
   },
   {
    "term": "mcp",
-   "count": 22
+   "count": 23
   },
   {
    "term": "learn",
    "count": 18
   },
   {
-   "term": "first",
+   "term": "google",
    "count": 15
   },
   {
-   "term": "google",
-   "count": 15
+   "term": "first",
+   "count": 14
   },
   {
    "term": "course",
@@ -63,6 +63,10 @@
    "count": 13
   },
   {
+   "term": "his",
+   "count": 13
+  },
+  {
    "term": "1-hour",
    "count": 12
   },
@@ -76,10 +80,6 @@
   },
   {
    "term": "long-running",
-   "count": 12
-  },
-  {
-   "term": "his",
    "count": 12
   },
   {
