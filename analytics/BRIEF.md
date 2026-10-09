@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-09T17:36Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-09T17:46Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -105,9 +105,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-09-24-founders-wire-un-security-council-intrinsic-core-mirendil.html  — 16 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (5041 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×81 · /posts/open-source-llm-for-coding-september-2026.html ×76 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×71
-- ChatGPT-User (2856 verified): / ×704 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×106 · /posts/open-source-llm-for-coding-september-2026.html ×103
-- PerplexityBot (2213 verified): /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×20 · / ×20 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×18
+- OAI-SearchBot (5045 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×81 · /posts/open-source-llm-for-coding-september-2026.html ×76 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×71
+- ChatGPT-User (2857 verified): / ×704 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×106 · /posts/open-source-llm-for-coding-september-2026.html ×103
+- PerplexityBot (2217 verified): /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×20 · / ×20 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×18
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -122,8 +122,8 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agentic(49), build(41), agents(40), agent(34), founder(30), startup(27), mcp(24), learn(17), google(16), first(15), loops(15), course(14), memory(14), 1-hour(13), give(13).
-Hashtags: #ai, #founder, #startup, #buildinginpublic, #preseed, #dev, #fintech, #aijobs, #aihiring, #bug.
+Hot terms: agentic(49), agents(40), build(40), agent(34), founder(31), startup(27), mcp(24), learn(17), google(16), first(15), loops(15), course(14), memory(14), 1-hour(13), give(13).
+Hashtags: #ai, #startup, #founder, #buildinginpublic, #preseed, #dev, #fintech, #aijobs, #aihiring, #bug.
 High-engagement posts to react to / cite:
 - "🚨 GOOGLE JUST DROPPED A 1-HOUR COURSE THAT TEACHES YOU AGENTIC AI FROM SCRATCH. No fluff. No expensive bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Cre" — https://x.com/i/status/2106731541221306757
 - "🚨 GOOGLE JUST DROPPED A 1-HOUR COURSE THAT TEACHES YOU AGENTIC AI FROM SCRATCH. No fluff. No expensive bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Cre" — https://x.com/i/status/2107810215680987529
@@ -155,7 +155,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 11350 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5041, ChatGPT (user browsing) 2856, Perplexity 2213, GPTBot (OpenAI) 1240).
+The real answer engines are crawling us — IP-verified: 11359 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5045, ChatGPT (user browsing) 2857, Perplexity 2217, GPTBot (OpenAI) 1240).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 642 crawler fetches
 - /build  — 317 crawler fetches
