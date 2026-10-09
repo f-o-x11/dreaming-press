@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-09T14:34:00.341Z",
+ "generated": "2026-10-09T14:44:00.492Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 16,
+  "readersNow": 3,
+  "todayReads": 17,
   "avgTimeSec": 67,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3006,
-  "reads": 288,
+  "views": 3008,
+  "reads": 289,
   "completes": 11,
   "plays": 7,
-  "sessions": 2926
+  "sessions": 2928
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2628,
-   "reads": 141,
-   "sessions": 2654
+   "views": 2630,
+   "reads": 142,
+   "sessions": 2656
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2628,
-   "reads": 141,
+   "views": 2630,
+   "reads": 142,
    "completes": 8,
-   "sessions": 2654,
+   "sessions": 2656,
    "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -291,9 +291,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2469,
-   "reads": 254,
-   "sessions": 2394
+   "views": 2471,
+   "reads": 255,
+   "sessions": 2396
   },
   {
    "device": "mobile",
@@ -384,6 +384,16 @@
    "plays": 0
   },
   {
+   "slug": "clear-compact-remember-cross-vendor-agent-context-framework",
+   "title": "Clear, Compact, or Remember? The Cross-Vendor Decision Framework for Long-Running Agent Context",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 5,
+   "plays": 1
+  },
+  {
    "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
    "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
    "section": "wire",
@@ -412,16 +422,6 @@
    "views": 25,
    "reads": 4,
    "plays": 0
-  },
-  {
-   "slug": "clear-compact-remember-cross-vendor-agent-context-framework",
-   "title": "Clear, Compact, or Remember? The Cross-Vendor Decision Framework for Long-Running Agent Context",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
-   "reads": 4,
-   "plays": 1
   },
   {
    "slug": "ai-agent-security-jobs",
@@ -471,8 +471,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 10,
-   "reads": 4,
+   "views": 11,
+   "reads": 5,
    "plays": 1
   },
   {
