@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-09T18:57:32.351Z",
+ "generated": "2026-10-09T19:07:40.274Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11514,
+ "verifiedAiHits": 13058,
  "logsScanned": 30,
  "windowStart": "2026-09-25",
  "windowEnd": "2026-10-09",
- "totalHits": 113112,
- "aiHits": 92143,
+ "totalHits": 114679,
+ "aiHits": 93704,
  "aiEngines": 17,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14724,
+   "hits": 14732,
    "verifiedHits": 0,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 12797,
+   "hits": 12805,
    "verifiedHits": 0,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7060,
-   "verifiedHits": 7037,
+   "hits": 7061,
+   "verifiedHits": 7038,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 5672,
+   "hits": 5674,
    "verifiedHits": 0,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5150,
-   "verifiedHits": 5068,
+   "hits": 5152,
+   "verifiedHits": 5070,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
    "topPaths": [
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2997,
-   "verifiedHits": 2876,
+   "hits": 2998,
+   "verifiedHits": 2877,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
    "topPaths": [
     {
      "path": "/",
-     "hits": 708
+     "hits": 709
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
@@ -340,11 +340,44 @@
    "verifiable": true
   },
   {
+   "name": "GPTBot",
+   "label": "GPTBot (OpenAI)",
+   "category": "ai",
+   "home": "https://openai.com/gptbot",
+   "hits": 2965,
+   "verifiedHits": 2853,
+   "firstSeen": "2026-09-25",
+   "lastSeen": "2026-10-09",
+   "topPaths": [
+    {
+     "path": "/tags/opinionated",
+     "hits": 52
+    },
+    {
+     "path": "/build",
+     "hits": 28
+    },
+    {
+     "path": "/authors/dex",
+     "hits": 26
+    },
+    {
+     "path": "/authors/priya",
+     "hits": 11
+    },
+    {
+     "path": "/",
+     "hits": 8
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "Applebot",
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2874,
+   "hits": 2876,
    "verifiedHits": 0,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
@@ -472,45 +505,12 @@
    "verifiable": false
   },
   {
-   "name": "GPTBot",
-   "label": "GPTBot (OpenAI)",
-   "category": "ai",
-   "home": "https://openai.com/gptbot",
-   "hits": 1424,
-   "verifiedHits": 1312,
-   "firstSeen": "2026-09-25",
-   "lastSeen": "2026-10-09",
-   "topPaths": [
-    {
-     "path": "/tags/opinionated",
-     "hits": 52
-    },
-    {
-     "path": "/authors/dex",
-     "hits": 26
-    },
-    {
-     "path": "/build",
-     "hits": 13
-    },
-    {
-     "path": "/authors/priya",
-     "hits": 11
-    },
-    {
-     "path": "/",
-     "hits": 8
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "Googlebot",
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 612,
-   "verifiedHits": 510,
+   "hits": 613,
+   "verifiedHits": 511,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
    "topPaths": [
@@ -575,7 +575,7 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 184,
+   "hits": 185,
    "verifiedHits": 0,
    "firstSeen": "2026-09-25",
    "lastSeen": "2026-10-09",
