@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-09T03:34:34.358Z",
+ "generated": "2026-10-09T03:44:44.078Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 6,
   "todayReads": 1,
   "avgTimeSec": 5,
   "postsThisWeek": 11
  },
  "funnel": {
   "views": 2987,
-  "reads": 281,
+  "reads": 280,
   "completes": 10,
   "plays": 8,
   "sessions": 2905
@@ -18,7 +18,7 @@
   {
    "channel": "direct",
    "views": 2604,
-   "reads": 132,
+   "reads": 131,
    "sessions": 2632
   },
   {
@@ -80,10 +80,10 @@
   {
    "channel": "direct",
    "views": 2604,
-   "reads": 132,
+   "reads": 131,
    "completes": 7,
    "sessions": 2632,
-   "read_rate": 0.051,
+   "read_rate": 0.05,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
    "median_dwell_sec": 6
@@ -302,7 +302,7 @@
   {
    "device": "desktop",
    "views": 2447,
-   "reads": 248,
+   "reads": 247,
    "sessions": 2371
   },
   {
@@ -359,7 +359,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 20,
+   "views": 19,
    "reads": 7,
    "plays": 0
   },
@@ -384,16 +384,6 @@
    "plays": 0
   },
   {
-   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
-   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
-   "reads": 6,
-   "plays": 0
-  },
-  {
    "slug": "agent-funding-august-2026-control-won-the-summer",
    "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
    "section": "wire",
@@ -410,6 +400,16 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 24,
+   "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
+   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 9,
    "reads": 5,
    "plays": 0
   },
@@ -623,7 +623,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 20,
+   "views": 19,
    "reads": 7,
    "plays": 0
   },
