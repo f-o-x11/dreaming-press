@@ -1,10 +1,10 @@
 {
- "generated": "2026-10-09T23:00:40.054Z",
+ "generated": "2026-10-09T23:10:44.240Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 5,
   "todayReads": 29,
-  "avgTimeSec": 65,
+  "avgTimeSec": 62,
   "postsThisWeek": 11
  },
  "funnel": {
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2629,
+   "views": 2631,
    "reads": 149,
-   "sessions": 2652
+   "sessions": 2654
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 111,
+   "views": 109,
    "reads": 18,
-   "sessions": 110
+   "sessions": 108
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2629,
+   "views": 2631,
    "reads": 149,
    "completes": 8,
-   "sessions": 2652,
+   "sessions": 2654,
    "read_rate": 0.057,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 111,
+   "views": 109,
    "reads": 18,
    "completes": 0,
-   "sessions": 110,
-   "read_rate": 0.162,
+   "sessions": 108,
+   "read_rate": 0.165,
    "complete_rate": 0,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -253,9 +253,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 113,
+   "views": 111,
    "reads": 18,
-   "sessions": 111
+   "sessions": 109
   },
   {
    "assistant": "Claude",
@@ -291,15 +291,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2476,
+   "views": 2477,
    "reads": 264,
-   "sessions": 2396
+   "sessions": 2397
   },
   {
    "device": "mobile",
-   "views": 530,
+   "views": 529,
    "reads": 34,
-   "sessions": 525
+   "sessions": 524
   }
  ],
  "topContent": [
@@ -668,16 +668,16 @@
   },
   {
    "path": "/",
-   "views": 146,
+   "views": 148,
    "reads": 4,
-   "sessions": 145,
+   "sessions": 147,
    "avg_dwell_sec": 12
   },
   {
    "path": "/best/:cat",
-   "views": 51,
+   "views": 50,
    "reads": 0,
-   "sessions": 51,
+   "sessions": 50,
    "avg_dwell_sec": null
   },
   {
