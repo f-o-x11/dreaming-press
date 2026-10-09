@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-09T09:18:56.150Z",
+ "generated": "2026-10-09T09:28:58.598Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 7,
   "todayReads": 15,
   "avgTimeSec": 70,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3011,
-  "reads": 290,
+  "views": 3014,
+  "reads": 289,
   "completes": 11,
   "plays": 8,
-  "sessions": 2927
+  "sessions": 2930
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2627,
+   "views": 2631,
    "reads": 143,
-   "sessions": 2649
+   "sessions": 2653
   },
   {
    "channel": "organic",
@@ -34,16 +34,16 @@
    "sessions": 121
   },
   {
-   "channel": "referral",
-   "views": 26,
-   "reads": 4,
-   "sessions": 24
-  },
-  {
    "channel": "ai",
    "views": 15,
    "reads": 4,
    "sessions": 32
+  },
+  {
+   "channel": "referral",
+   "views": 25,
+   "reads": 3,
+   "sessions": 23
   },
   {
    "channel": "campaign:copilot.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2627,
+   "views": 2631,
    "reads": 143,
    "completes": 8,
-   "sessions": 2649,
+   "sessions": 2653,
    "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -112,13 +112,13 @@
   },
   {
    "channel": "referral",
-   "views": 26,
-   "reads": 4,
+   "views": 25,
+   "reads": 3,
    "completes": 0,
-   "sessions": 24,
-   "read_rate": 0.154,
+   "sessions": 23,
+   "read_rate": 0.12,
    "complete_rate": 0,
-   "pages_per_session": 1.08,
+   "pages_per_session": 1.09,
    "median_dwell_sec": null
   },
   {
@@ -301,9 +301,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2467,
-   "reads": 256,
-   "sessions": 2389
+   "views": 2470,
+   "reads": 255,
+   "sessions": 2392
   },
   {
    "device": "mobile",
@@ -648,16 +648,6 @@
    "plays": 1
   },
   {
-   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
-   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
    "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
    "section": "wire",
@@ -665,6 +655,16 @@
    "author": "priya",
    "views": 15,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
+   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 14,
+   "reads": 7,
    "plays": 0
   }
  ],
