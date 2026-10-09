@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-10-09T08:07Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-09T08:18Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2997 views → 279 engaged reads → 10 completes · 2915 sessions.
+- Funnel: 2997 views → 279 engaged reads → 10 completes · 2914 sessions.
 - Channels: direct 132r/2612v · organic 119r/216v · campaign:chatgpt.com 19r/122v · referral 4r/26v · ai 4r/15v · campaign:copilot.com 1r/1v · social 0r/3v · campaign:perplexity 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 19r/124v · Claude 2r/2v · Doubao 1r/1v · Copilot 1r/1v · Kimi 0r/8v · Perplexity 0r/1v.
 - Referrers: bing.com, duckduckgo.com, google.com, cn.bing.com, search.brave.com, chatgpt.com, bing.com, brand, dash-range, ecosia.org.
@@ -60,7 +60,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 396 views, 0 reads, 396 sessions, avg 26s
-- / — 146 views, 4 reads, 145 sessions, avg 11s
+- / — 147 views, 4 reads, 146 sessions, avg 11s
 - /best/:cat — 53 views, 0 reads, 53 sessions
 - /compare/:pair — 35 views, 0 reads, 35 sessions, avg 41s
 - /build — 27 views, 0 reads, 27 sessions
@@ -85,7 +85,7 @@ skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [stack] "GPT-6.1 Sol vs Claude Sonnet 5.5 for Coding: When Two Models Cost the Same, the Price Is the Least Useful Number" — 28 views but only 0 engaged reads (0.0%)
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 22 views but only 0 engaged reads (0.0%)
-- [stack] "What It Actually Costs to Rent an H100, H200, or B200 in September 2026" — 15 views but only 0 engaged reads (0.0%)
+- [wire] "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock" — 15 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
@@ -94,7 +94,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 697 retrieval fetches
+- /  — 698 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 194 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 175 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 140 retrieval fetches
@@ -106,8 +106,8 @@ sample size dwarfs the engaged-read counts below.
 - /stack.html  — 15 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4902 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×77 · /posts/open-source-llm-for-coding-september-2026.html ×75 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×69
-- ChatGPT-User (2744 verified): / ×677 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×106 · /posts/open-source-llm-for-coding-september-2026.html ×100
+- OAI-SearchBot (4908 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×77 · /posts/open-source-llm-for-coding-september-2026.html ×75 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×69
+- ChatGPT-User (2745 verified): / ×678 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×106 · /posts/open-source-llm-for-coding-september-2026.html ×100
 - PerplexityBot (2069 verified): / ×20 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×19 · /dashboard ×16
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -156,7 +156,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10955 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4902, ChatGPT (user browsing) 2744, Perplexity 2069, GPTBot (OpenAI) 1240).
+The real answer engines are crawling us — IP-verified: 10962 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4908, ChatGPT (user browsing) 2745, Perplexity 2069, GPTBot (OpenAI) 1240).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 640 crawler fetches
 - /build  — 316 crawler fetches
@@ -166,7 +166,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 140 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 102 crawler fetches
 - /posts/open-weight-coding-model-you-can-actually-self-host-september-2026.html  — 99 crawler fetches
-- /posts/gartner-ai-agent-spending-2026.html  — 83 crawler fetches
+- /posts/gartner-ai-agent-spending-2026.html  — 84 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 62 crawler fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 49 crawler fetches
 - /posts/2026-09-04-founders-wire-air-hiddenlayer-agent-security-crusoe.html  — 42 crawler fetches
