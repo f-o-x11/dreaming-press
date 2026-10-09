@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-09T10:19:25.703Z",
+ "generated": "2026-10-09T10:29:49.464Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 16,
   "avgTimeSec": 69,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3016,
+  "views": 3018,
   "reads": 290,
   "completes": 11,
   "plays": 8,
-  "sessions": 2935
+  "sessions": 2937
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2632,
+   "views": 2635,
    "reads": 143,
-   "sessions": 2658
+   "sessions": 2661
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 122,
+   "views": 121,
    "reads": 19,
-   "sessions": 121
+   "sessions": 120
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2632,
+   "views": 2635,
    "reads": 143,
    "completes": 8,
-   "sessions": 2658,
+   "sessions": 2661,
    "read_rate": 0.054,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 122,
+   "views": 121,
    "reads": 19,
    "completes": 0,
-   "sessions": 121,
-   "read_rate": 0.156,
+   "sessions": 120,
+   "read_rate": 0.157,
    "complete_rate": 0,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -253,9 +253,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 124,
+   "views": 123,
    "reads": 19,
-   "sessions": 122
+   "sessions": 121
   },
   {
    "assistant": "Claude",
@@ -291,9 +291,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2471,
+   "views": 2473,
    "reads": 256,
-   "sessions": 2396
+   "sessions": 2398
   },
   {
    "device": "mobile",
@@ -409,7 +409,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 23,
+   "views": 25,
    "reads": 4,
    "plays": 0
   },
@@ -593,7 +593,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 23,
+   "views": 25,
    "reads": 4,
    "plays": 0
   },
