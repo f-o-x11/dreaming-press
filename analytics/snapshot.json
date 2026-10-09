@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-09T04:15:00.229Z",
+ "generated": "2026-10-09T04:25:06.305Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 8,
   "todayReads": 1,
-  "avgTimeSec": 5,
+  "avgTimeSec": 3,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 2986,
+  "views": 2993,
   "reads": 280,
   "completes": 10,
   "plays": 8,
-  "sessions": 2904
+  "sessions": 2911
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2603,
+   "views": 2604,
    "reads": 131,
-   "sessions": 2631
+   "sessions": 2632
   },
   {
    "channel": "organic",
-   "views": 211,
+   "views": 217,
    "reads": 121,
-   "sessions": 199
+   "sessions": 205
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2603,
+   "views": 2604,
    "reads": 131,
    "completes": 7,
-   "sessions": 2631,
+   "sessions": 2632,
    "read_rate": 0.05,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 211,
+   "views": 217,
    "reads": 121,
    "completes": 3,
-   "sessions": 199,
-   "read_rate": 0.573,
+   "sessions": 205,
+   "read_rate": 0.558,
    "complete_rate": 0.014,
    "pages_per_session": 1.06,
    "median_dwell_sec": 3
@@ -301,9 +301,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2446,
+   "views": 2453,
    "reads": 247,
-   "sessions": 2370
+   "sessions": 2377
   },
   {
    "device": "mobile",
@@ -638,6 +638,16 @@
    "plays": 1
   },
   {
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 17,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
    "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
    "section": "wire",
@@ -653,16 +663,6 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 15,
-   "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
-   "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
    "views": 15,
    "reads": 0,
    "plays": 0
@@ -793,8 +793,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 49,
-   "sessions": 43
+   "hits": 57,
+   "sessions": 49
   },
   {
    "ref": "https://search.brave.com/",
