@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-09T00:42:14.620Z",
+ "generated": "2026-10-09T00:52:39.993Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 6,
   "todayReads": 0,
-  "avgTimeSec": 0,
+  "avgTimeSec": 5,
   "postsThisWeek": 11
  },
  "funnel": {
   "views": 2988,
-  "reads": 282,
+  "reads": 281,
   "completes": 10,
   "plays": 8,
   "sessions": 2906
@@ -18,7 +18,7 @@
   {
    "channel": "direct",
    "views": 2604,
-   "reads": 133,
+   "reads": 132,
    "sessions": 2632
   },
   {
@@ -80,7 +80,7 @@
   {
    "channel": "direct",
    "views": 2604,
-   "reads": 133,
+   "reads": 132,
    "completes": 7,
    "sessions": 2632,
    "read_rate": 0.051,
@@ -302,7 +302,7 @@
   {
    "device": "desktop",
    "views": 2447,
-   "reads": 249,
+   "reads": 248,
    "sessions": 2371
   },
   {
@@ -379,7 +379,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 11,
+   "views": 12,
    "reads": 7,
    "plays": 0
   },
@@ -414,16 +414,6 @@
    "plays": 0
   },
   {
-   "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
-   "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 8,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "lightpanda-vs-playwright-vs-browserless-headless-browser-ai-agents",
    "title": "Lightpanda vs Playwright vs Browserless: Picking a Headless Browser for AI Agents",
    "section": "stack",
@@ -452,6 +442,16 @@
    "views": 9,
    "reads": 4,
    "plays": 1
+  },
+  {
+   "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
+   "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 7,
+   "reads": 4,
+   "plays": 0
   },
   {
    "slug": "agent-sdk-decision-2026-loop-graph-or-handoffs",
@@ -678,9 +678,9 @@
   },
   {
    "path": "/",
-   "views": 144,
+   "views": 145,
    "reads": 4,
-   "sessions": 143,
+   "sessions": 144,
    "avg_dwell_sec": 11
   },
   {
