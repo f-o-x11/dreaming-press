@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-10T06:25:53.110Z",
+ "generated": "2026-10-10T06:35:59.945Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 3,
-  "avgTimeSec": 10,
+  "readersNow": 4,
+  "todayReads": 5,
+  "avgTimeSec": 9,
   "postsThisWeek": 9
  },
  "funnel": {
   "views": 3022,
-  "reads": 295,
-  "completes": 12,
+  "reads": 297,
+  "completes": 13,
   "plays": 7,
   "sessions": 2936
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2645,
-   "reads": 147,
-   "sessions": 2667
+   "views": 2644,
+   "reads": 148,
+   "sessions": 2666
   },
   {
    "channel": "organic",
-   "views": 221,
-   "reads": 120,
-   "sessions": 210
+   "views": 222,
+   "reads": 121,
+   "sessions": 211
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,22 +79,22 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2645,
-   "reads": 147,
-   "completes": 9,
-   "sessions": 2667,
+   "views": 2644,
+   "reads": 148,
+   "completes": 10,
+   "sessions": 2666,
    "read_rate": 0.056,
-   "complete_rate": 0.003,
+   "complete_rate": 0.004,
    "pages_per_session": 0.99,
    "median_dwell_sec": 6
   },
   {
    "channel": "organic",
-   "views": 221,
-   "reads": 120,
+   "views": 222,
+   "reads": 121,
    "completes": 3,
-   "sessions": 210,
-   "read_rate": 0.543,
+   "sessions": 211,
+   "read_rate": 0.545,
    "complete_rate": 0.014,
    "pages_per_session": 1.05,
    "median_dwell_sec": 3
@@ -291,15 +291,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2492,
-   "reads": 261,
-   "sessions": 2411
+   "views": 2493,
+   "reads": 263,
+   "sessions": 2412
   },
   {
    "device": "mobile",
-   "views": 530,
+   "views": 529,
    "reads": 34,
-   "sessions": 525
+   "sessions": 524
   }
  ],
  "topContent": [
@@ -424,6 +424,16 @@
    "plays": 1
   },
   {
+   "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
+   "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 8,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
    "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
    "section": "wire",
@@ -436,16 +446,6 @@
   {
    "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
    "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 7,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
-   "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
@@ -751,18 +751,18 @@
    "avg_dwell_sec": null
   },
   {
-   "path": "/apps",
+   "path": "/authors/dex",
    "views": 4,
    "reads": 0,
    "sessions": 4,
    "avg_dwell_sec": null
   },
   {
-   "path": "/authors/dex",
+   "path": "/dispatches.html",
    "views": 4,
    "reads": 0,
    "sessions": 4,
-   "avg_dwell_sec": null
+   "avg_dwell_sec": 3
   }
  ],
  "referrers": [
@@ -783,8 +783,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 56,
-   "sessions": 32
+   "hits": 58,
+   "sessions": 33
   },
   {
    "ref": "https://search.brave.com/",
