@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-10T07:46:48.079Z",
+ "generated": "2026-10-10T07:56:54.627Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 4,
   "todayReads": 9,
-  "avgTimeSec": 14,
+  "avgTimeSec": 29,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3051,
+  "views": 3055,
   "reads": 301,
   "completes": 16,
   "plays": 7,
-  "sessions": 2959
+  "sessions": 2963
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2676,
+   "views": 2679,
    "reads": 152,
-   "sessions": 2692
+   "sessions": 2696
   },
   {
    "channel": "organic",
-   "views": 222,
+   "views": 223,
    "reads": 121,
-   "sessions": 211
+   "sessions": 212
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2676,
+   "views": 2679,
    "reads": 152,
    "completes": 13,
-   "sessions": 2692,
+   "sessions": 2696,
    "read_rate": 0.057,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -90,12 +90,12 @@
   },
   {
    "channel": "organic",
-   "views": 222,
+   "views": 223,
    "reads": 121,
    "completes": 3,
-   "sessions": 211,
-   "read_rate": 0.545,
-   "complete_rate": 0.014,
+   "sessions": 212,
+   "read_rate": 0.543,
+   "complete_rate": 0.013,
    "pages_per_session": 1.05,
    "median_dwell_sec": 3
   },
@@ -296,9 +296,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2521,
+   "views": 2525,
    "reads": 267,
-   "sessions": 2434
+   "sessions": 2438
   },
   {
    "device": "mobile",
@@ -404,7 +404,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 27,
+   "views": 30,
    "reads": 5,
    "plays": 0
   },
@@ -583,6 +583,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 30,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "gpt-6-1-sol-vs-claude-sonnet-5-5-coding",
    "title": "GPT-6.1 Sol vs Claude Sonnet 5.5 for Coding: When Two Models Cost the Same, the Price Is the Least Useful Number",
    "section": "stack",
@@ -593,13 +603,13 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
    "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
+   "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 27,
-   "reads": 5,
+   "views": 21,
+   "reads": 2,
    "plays": 0
   },
   {
@@ -610,16 +620,6 @@
    "author": "dex",
    "views": 21,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 2,
    "plays": 0
   },
   {
@@ -788,8 +788,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 58,
-   "sessions": 33
+   "hits": 59,
+   "sessions": 34
   },
   {
    "ref": "https://search.brave.com/",
