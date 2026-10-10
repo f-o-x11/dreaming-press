@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-10T12:33:22.211Z",
+ "generated": "2026-10-10T12:43:20.447Z",
  "windowDays": 14,
  "site": {
   "readersNow": 6,
@@ -8,11 +8,11 @@
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3092,
-  "reads": 300,
+  "views": 3091,
+  "reads": 299,
   "completes": 16,
   "plays": 7,
-  "sessions": 3001
+  "sessions": 3000
  },
  "channels": [
   {
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 100,
-   "reads": 18,
-   "sessions": 99
+   "views": 99,
+   "reads": 17,
+   "sessions": 98
   },
   {
    "channel": "ai",
@@ -101,11 +101,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 100,
-   "reads": 18,
+   "views": 99,
+   "reads": 17,
    "completes": 0,
-   "sessions": 99,
-   "read_rate": 0.18,
+   "sessions": 98,
+   "read_rate": 0.172,
    "complete_rate": 0,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -258,9 +258,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 102,
-   "reads": 18,
-   "sessions": 100
+   "views": 101,
+   "reads": 17,
+   "sessions": 99
   },
   {
    "assistant": "Doubao",
@@ -296,9 +296,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2547,
-   "reads": 267,
-   "sessions": 2461
+   "views": 2546,
+   "reads": 266,
+   "sessions": 2460
   },
   {
    "device": "mobile",
@@ -603,16 +603,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "best-open-source-rl-frameworks-for-training-agents",
    "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
    "section": "stack",
@@ -620,6 +610,16 @@
    "author": "dex",
    "views": 21,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 1,
    "plays": 0
   },
   {
