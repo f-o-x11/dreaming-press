@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-10T12:02:55.484Z",
+ "generated": "2026-10-10T12:13:04.232Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 11,
+  "readersNow": 7,
   "todayReads": 12,
   "avgTimeSec": 22,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3084,
-  "reads": 301,
+  "views": 3085,
+  "reads": 300,
   "completes": 16,
   "plays": 7,
-  "sessions": 2993
+  "sessions": 2994
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2708,
-   "reads": 152,
-   "sessions": 2727
+   "views": 2709,
+   "reads": 151,
+   "sessions": 2728
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2708,
-   "reads": 152,
+   "views": 2709,
+   "reads": 151,
    "completes": 13,
-   "sessions": 2727,
+   "sessions": 2728,
    "read_rate": 0.056,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -302,9 +302,9 @@
   },
   {
    "device": "mobile",
-   "views": 538,
-   "reads": 34,
-   "sessions": 533
+   "views": 539,
+   "reads": 33,
+   "sessions": 534
   }
  ],
  "topContent": [
@@ -369,16 +369,6 @@
    "plays": 0
   },
   {
-   "slug": "best-ai-agents-for-personal-use-september-2026",
-   "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 6,
-   "plays": 0
-  },
-  {
    "slug": "clear-compact-remember-cross-vendor-agent-context-framework",
    "title": "Clear, Compact, or Remember? The Cross-Vendor Decision Framework for Long-Running Agent Context",
    "section": "stack",
@@ -405,6 +395,16 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 30,
+   "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "best-ai-agents-for-personal-use-september-2026",
+   "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 14,
    "reads": 5,
    "plays": 0
   },
@@ -643,16 +643,6 @@
    "plays": 0
   },
   {
-   "slug": "best-ai-agents-for-personal-use-september-2026",
-   "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 6,
-   "plays": 0
-  },
-  {
    "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
    "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
    "section": "wire",
@@ -660,6 +650,16 @@
    "author": "dex",
    "views": 15,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
+   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 14,
+   "reads": 7,
    "plays": 0
   }
  ],
