@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-10T13:03Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-10T13:13Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -104,8 +104,8 @@ sample size dwarfs the engaged-read counts below.
 - /posts/gpt-6-1-sol-vs-claude-sonnet-5-5-coding.html  — 17 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4865 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×85 · /posts/open-source-llm-for-coding-september-2026.html ×78 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×73
-- ChatGPT-User (2783 verified): / ×713 · /posts/open-source-llm-for-coding-september-2026.html ×96 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×85
+- OAI-SearchBot (4867 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×85 · /posts/open-source-llm-for-coding-september-2026.html ×78 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×73
+- ChatGPT-User (2784 verified): / ×713 · /posts/open-source-llm-for-coding-september-2026.html ×96 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×85
 - PerplexityBot (2495 verified): /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×21 · / ×21 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×18
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -131,7 +131,7 @@ High-engagement posts to react to / cite:
 - "Here's how frontier teams went fully AI-native in how they build. With Amazon as the example AWS's VP of Agentic AI just shared what happened when Amazon teams rebuilt how they work around coding agents: &gt; 6 engineers" — https://x.com/i/status/2106409333030367242
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (255 of 461 phrases have NO post, 1h ago)
+## Uncovered search demand (255 of 461 phrases have NO post, 2h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -154,7 +154,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13670 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4865, GPTBot (OpenAI) 3527, ChatGPT (user browsing) 2783, Perplexity 2495).
+The real answer engines are crawling us — IP-verified: 13673 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4867, GPTBot (OpenAI) 3527, ChatGPT (user browsing) 2784, Perplexity 2495).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 568 crawler fetches
 - /build  — 360 crawler fetches
