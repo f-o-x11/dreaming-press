@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-10T14:45Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-10T14:55Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -57,7 +57,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 401 views, 9 reads, 401 sessions, avg 58s
+- /stack/:tool — 400 views, 9 reads, 400 sessions, avg 58s
 - / — 145 views, 4 reads, 144 sessions, avg 12s
 - /compare/:pair — 55 views, 0 reads, 55 sessions, avg 41s
 - /best/:cat — 47 views, 0 reads, 47 sessions
@@ -95,18 +95,18 @@ sample size dwarfs the engaged-read counts below.
 - /  — 739 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 179 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 174 retrieval fetches
-- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 85 retrieval fetches
+- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 87 retrieval fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 65 retrieval fetches
 - /wire.html  — 59 retrieval fetches
-- /posts/agent-memory-survey-2026.html  — 57 retrieval fetches
+- /posts/agent-memory-survey-2026.html  — 58 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 44 retrieval fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 18 retrieval fetches
 - /posts/gpt-6-1-sol-vs-claude-sonnet-5-5-coding.html  — 17 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4892 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×85 · /posts/open-source-llm-for-coding-september-2026.html ×78 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×73
-- ChatGPT-User (2806 verified): / ×718 · /posts/open-source-llm-for-coding-september-2026.html ×96 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×85
-- PerplexityBot (2540 verified): /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×21 · / ×21 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×18
+- OAI-SearchBot (4894 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×87 · /posts/open-source-llm-for-coding-september-2026.html ×78 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×73
+- ChatGPT-User (2808 verified): / ×718 · /posts/open-source-llm-for-coding-september-2026.html ×96 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×85
+- PerplexityBot (2550 verified): /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×21 · / ×21 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×18
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -121,7 +121,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agentic(51), build(41), agents(40), agent(34), founder(31), startup(28), mcp(23), learn(17), google(16), first(15), course(14), scratch(14), give(14), memory(14), loops(14).
+Hot terms: agentic(51), build(41), agents(40), agent(34), founder(31), startup(27), mcp(23), learn(17), google(16), first(15), course(14), scratch(14), give(14), memory(14), loops(14).
 Hashtags: #ai, #founder, #startup, #tech, #buildinginpublic, #preseed, #dev, #fintech, #aijobs, #aihiring.
 High-engagement posts to react to / cite:
 - "🚨 GOOGLE JUST DROPPED A 1-HOUR COURSE THAT TEACHES YOU AGENTIC AI FROM SCRATCH. No fluff. No expensive bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Cre" — https://x.com/i/status/2106731541221306757
@@ -154,7 +154,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13765 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4892, GPTBot (OpenAI) 3527, ChatGPT (user browsing) 2806, Perplexity 2540).
+The real answer engines are crawling us — IP-verified: 13779 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4894, GPTBot (OpenAI) 3527, ChatGPT (user browsing) 2808, Perplexity 2550).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 568 crawler fetches
 - /build  — 360 crawler fetches
@@ -163,11 +163,11 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 127 crawler fetches
 - /posts/open-weight-coding-model-you-can-actually-self-host-september-2026.html  — 96 crawler fetches
 - /posts/agent-funding-august-2026-control-won-the-summer.html  — 95 crawler fetches
+- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 87 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 86 crawler fetches
-- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 85 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 65 crawler fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 64 crawler fetches
-- /posts/agent-memory-survey-2026.html  — 57 crawler fetches
+- /posts/agent-memory-survey-2026.html  — 58 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
