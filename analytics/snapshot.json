@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-10T02:33:14.173Z",
+ "generated": "2026-10-10T02:43:15.199Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,18 +8,18 @@
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3006,
-  "reads": 297,
+  "views": 3007,
+  "reads": 296,
   "completes": 12,
   "plays": 6,
-  "sessions": 2921
+  "sessions": 2922
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2632,
-   "reads": 149,
-   "sessions": 2654
+   "views": 2633,
+   "reads": 148,
+   "sessions": 2655
   },
   {
    "channel": "organic",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2632,
-   "reads": 149,
+   "views": 2633,
+   "reads": 148,
    "completes": 9,
-   "sessions": 2654,
-   "read_rate": 0.057,
+   "sessions": 2655,
+   "read_rate": 0.056,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
    "median_dwell_sec": 6
@@ -291,9 +291,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2479,
-   "reads": 263,
-   "sessions": 2399
+   "views": 2480,
+   "reads": 262,
+   "sessions": 2400
   },
   {
    "device": "mobile",
@@ -404,16 +404,6 @@
    "plays": 0
   },
   {
-   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
-   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 9,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "lightpanda-vs-playwright-vs-browserless-headless-browser-ai-agents",
    "title": "Lightpanda vs Playwright vs Browserless: Picking a Headless Browser for AI Agents",
    "section": "stack",
@@ -432,6 +422,16 @@
    "views": 9,
    "reads": 4,
    "plays": 1
+  },
+  {
+   "slug": "kv-cache-eviction-streamingllm-vs-h2o-vs-snapkv-vs-quest",
+   "title": "KV Cache Eviction: StreamingLLM vs H2O vs SnapKV vs Quest",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 4,
+   "plays": 0
   },
   {
    "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
