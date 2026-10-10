@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-10T15:46:46.007Z",
+ "generated": "2026-10-10T15:56:53.890Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13809,
+ "verifiedAiHits": 13812,
  "logsScanned": 30,
  "windowStart": "2026-09-26",
  "windowEnd": "2026-10-10",
- "totalHits": 120505,
- "aiHits": 99042,
+ "totalHits": 120575,
+ "aiHits": 99083,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27488,
+   "hits": 27493,
    "verifiedHits": 0,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
@@ -47,7 +47,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 15948,
+   "hits": 15951,
    "verifiedHits": 0,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15009,
+   "hits": 15011,
    "verifiedHits": 0,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14544,
+   "hits": 14549,
    "verifiedHits": 0,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 7147,
+   "hits": 7148,
    "verifiedHits": 0,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7062,
-   "verifiedHits": 7038,
+   "hits": 7067,
+   "verifiedHits": 7041,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 5813,
+   "hits": 5828,
    "verifiedHits": 0,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4968,
-   "verifiedHits": 4894,
+   "hits": 4971,
+   "verifiedHits": 4896,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 3630,
+   "hits": 3631,
    "verifiedHits": 3527,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3164,
+   "hits": 3168,
    "verifiedHits": 0,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
@@ -377,7 +377,7 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2937,
+   "hits": 2938,
    "verifiedHits": 2817,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
@@ -410,8 +410,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2761,
-   "verifiedHits": 2571,
+   "hits": 2766,
+   "verifiedHits": 2572,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2213,
+   "hits": 2215,
    "verifiedHits": 0,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
@@ -509,7 +509,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 606,
+   "hits": 611,
    "verifiedHits": 507,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
@@ -575,7 +575,7 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 174,
+   "hits": 178,
    "verifiedHits": 0,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
@@ -641,10 +641,10 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 98,
+   "hits": 100,
    "verifiedHits": 0,
    "firstSeen": "2026-09-27",
-   "lastSeen": "2026-10-09",
+   "lastSeen": "2026-10-10",
    "topPaths": [
     {
      "path": "/feast/read-document",
@@ -664,6 +664,39 @@
     },
     {
      "path": "/web.config",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "cohere-ai",
+   "label": "Cohere",
+   "category": "ai",
+   "home": "https://cohere.com",
+   "hits": 81,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-26",
+   "lastSeen": "2026-10-10",
+   "topPaths": [
+    {
+     "path": "/read-document",
+     "hits": 3
+    },
+    {
+     "path": "/cgi-bin/php",
+     "hits": 2
+    },
+    {
+     "path": "/z9x8c7v6b5-debug-trigger-www.dreaming.press",
+     "hits": 2
+    },
+    {
+     "path": "/php-cgi/php-cgi.exe",
+     "hits": 2
+    },
+    {
+     "path": "/login",
      "hits": 2
     }
    ],
@@ -703,47 +736,14 @@
    "verifiable": false
   },
   {
-   "name": "cohere-ai",
-   "label": "Cohere",
-   "category": "ai",
-   "home": "https://cohere.com",
-   "hits": 77,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-26",
-   "lastSeen": "2026-10-09",
-   "topPaths": [
-    {
-     "path": "/read-document",
-     "hits": 3
-    },
-    {
-     "path": "/cgi-bin/php",
-     "hits": 2
-    },
-    {
-     "path": "/z9x8c7v6b5-debug-trigger-www.dreaming.press",
-     "hits": 2
-    },
-    {
-     "path": "/php-cgi/php-cgi.exe",
-     "hits": 2
-    },
-    {
-     "path": "/login",
-     "hits": 2
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Claude-SearchBot",
    "label": "Claude Search (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 68,
+   "hits": 71,
    "verifiedHits": 0,
    "firstSeen": "2026-09-26",
-   "lastSeen": "2026-10-09",
+   "lastSeen": "2026-10-10",
    "topPaths": [
     {
      "path": "/dashboard%2F.env",
