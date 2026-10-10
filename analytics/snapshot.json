@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-10T06:46:00.268Z",
+ "generated": "2026-10-10T06:56:13.402Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
-  "todayReads": 5,
-  "avgTimeSec": 9,
+  "readersNow": 3,
+  "todayReads": 6,
+  "avgTimeSec": 13,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3022,
-  "reads": 297,
-  "completes": 13,
+  "views": 3028,
+  "reads": 298,
+  "completes": 14,
   "plays": 7,
-  "sessions": 2936
+  "sessions": 2937
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2645,
-   "reads": 148,
-   "sessions": 2667
+   "views": 2651,
+   "reads": 149,
+   "sessions": 2668
   },
   {
    "channel": "organic",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 20
+   "sessions": 21
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2645,
-   "reads": 148,
-   "completes": 10,
-   "sessions": 2667,
+   "views": 2651,
+   "reads": 149,
+   "completes": 11,
+   "sessions": 2668,
    "read_rate": 0.056,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 20,
+   "sessions": 21,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -191,8 +191,13 @@
  "navSurfaces": [
   {
    "surface": "brand",
-   "clicks": 8,
-   "sessions": 8
+   "clicks": 9,
+   "sessions": 9
+  },
+  {
+   "surface": "nav-cmp",
+   "clicks": 6,
+   "sessions": 5
   },
   {
    "surface": "dash-range",
@@ -200,14 +205,14 @@
    "sessions": 1
   },
   {
-   "surface": "nav-cmp",
+   "surface": "btn-stats",
    "clicks": 4,
    "sessions": 4
   },
   {
-   "surface": "btn-stats",
-   "clicks": 4,
-   "sessions": 4
+   "surface": "sb-right",
+   "clicks": 3,
+   "sessions": 3
   },
   {
    "surface": "legal-links",
@@ -218,11 +223,6 @@
    "surface": "article-body",
    "clicks": 3,
    "sessions": 3
-  },
-  {
-   "surface": "sb-right",
-   "clicks": 2,
-   "sessions": 2
   },
   {
    "surface": "f-cols",
@@ -246,6 +246,11 @@
   },
   {
    "surface": "dg-more",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
+   "surface": "article-byline",
    "clicks": 1,
    "sessions": 1
   }
@@ -291,9 +296,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2493,
-   "reads": 263,
-   "sessions": 2412
+   "views": 2499,
+   "reads": 264,
+   "sessions": 2413
   },
   {
    "device": "mobile",
@@ -668,9 +673,9 @@
   },
   {
    "path": "/",
-   "views": 144,
+   "views": 145,
    "reads": 4,
-   "sessions": 143,
+   "sessions": 144,
    "avg_dwell_sec": 12
   },
   {
@@ -696,9 +701,9 @@
   },
   {
    "path": "/dashboard",
-   "views": 17,
+   "views": 18,
    "reads": 2,
-   "sessions": 10,
+   "sessions": 11,
    "avg_dwell_sec": 55
   },
   {
@@ -738,10 +743,10 @@
   },
   {
    "path": "/stack.html",
-   "views": 6,
+   "views": 7,
    "reads": 0,
-   "sessions": 6,
-   "avg_dwell_sec": 4
+   "sessions": 7,
+   "avg_dwell_sec": 5
   },
   {
    "path": "/topics/:topic",
@@ -751,18 +756,18 @@
    "avg_dwell_sec": null
   },
   {
+   "path": "/dispatches.html",
+   "views": 5,
+   "reads": 0,
+   "sessions": 5,
+   "avg_dwell_sec": 5
+  },
+  {
    "path": "/authors/dex",
    "views": 4,
    "reads": 0,
    "sessions": 4,
    "avg_dwell_sec": null
-  },
-  {
-   "path": "/dispatches.html",
-   "views": 4,
-   "reads": 0,
-   "sessions": 4,
-   "avg_dwell_sec": 3
   }
  ],
  "referrers": [
@@ -797,24 +802,24 @@
    "sessions": 8
   },
   {
+   "ref": "brand",
+   "hits": 9,
+   "sessions": 9
+  },
+  {
    "ref": "https://bing.com/",
    "hits": 8,
    "sessions": 8
   },
   {
-   "ref": "brand",
-   "hits": 8,
-   "sessions": 8
+   "ref": "nav-cmp",
+   "hits": 6,
+   "sessions": 5
   },
   {
    "ref": "dash-range",
    "hits": 6,
    "sessions": 1
-  },
-  {
-   "ref": "https://www.ecosia.org/",
-   "hits": 5,
-   "sessions": 2
   }
  ]
 }
