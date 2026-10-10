@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-10T17:17:54.716Z",
+ "generated": "2026-10-10T17:28:00.663Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 3,
   "todayReads": 14,
   "avgTimeSec": 30,
   "postsThisWeek": 15
  },
  "funnel": {
   "views": 3110,
-  "reads": 296,
+  "reads": 295,
   "completes": 16,
   "plays": 7,
   "sessions": 3019
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2739,
+   "views": 2740,
    "reads": 148,
-   "sessions": 2759
+   "sessions": 2760
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 95,
-   "reads": 16,
-   "sessions": 94
+   "views": 94,
+   "reads": 15,
+   "sessions": 93
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2739,
+   "views": 2740,
    "reads": 148,
    "completes": 13,
-   "sessions": 2759,
+   "sessions": 2760,
    "read_rate": 0.054,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 95,
-   "reads": 16,
+   "views": 94,
+   "reads": 15,
    "completes": 0,
-   "sessions": 94,
-   "read_rate": 0.168,
+   "sessions": 93,
+   "read_rate": 0.16,
    "complete_rate": 0,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -241,9 +241,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 97,
-   "reads": 16,
-   "sessions": 95
+   "views": 96,
+   "reads": 15,
+   "sessions": 94
   },
   {
    "assistant": "Doubao",
@@ -280,7 +280,7 @@
   {
    "device": "desktop",
    "views": 2561,
-   "reads": 264,
+   "reads": 263,
    "sessions": 2475
   },
   {
@@ -332,16 +332,6 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 13,
-   "reads": 7,
-   "plays": 0
-  },
-  {
    "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
    "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
    "section": "stack",
@@ -360,6 +350,16 @@
    "views": 12,
    "reads": 6,
    "plays": 1
+  },
+  {
+   "slug": "open-source-llm-for-coding-september-2026",
+   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 12,
+   "reads": 6,
+   "plays": 0
   },
   {
    "slug": "agent-funding-august-2026-control-won-the-summer",
@@ -534,13 +534,13 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
+   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
    "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
+   "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 13,
-   "reads": 7,
+   "reads": 6,
    "plays": 0
   }
  ],
@@ -656,9 +656,9 @@
   },
   {
    "path": "/",
-   "views": 146,
+   "views": 145,
    "reads": 4,
-   "sessions": 145,
+   "sessions": 144,
    "avg_dwell_sec": 12
   },
   {
@@ -718,6 +718,13 @@
    "avg_dwell_sec": 9
   },
   {
+   "path": "/dispatches.html",
+   "views": 7,
+   "reads": 0,
+   "sessions": 6,
+   "avg_dwell_sec": 5
+  },
+  {
    "path": "/global-tech-news",
    "views": 7,
    "reads": 0,
@@ -729,13 +736,6 @@
    "views": 7,
    "reads": 0,
    "sessions": 7,
-   "avg_dwell_sec": 5
-  },
-  {
-   "path": "/dispatches.html",
-   "views": 6,
-   "reads": 0,
-   "sessions": 5,
    "avg_dwell_sec": 5
   },
   {
@@ -781,8 +781,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 13,
-   "sessions": 8
+   "hits": 11,
+   "sessions": 7
   },
   {
    "ref": "brand",
