@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-10T05:55:32.220Z",
+ "generated": "2026-10-10T06:05:38.861Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13182,
+ "verifiedAiHits": 13186,
  "logsScanned": 30,
  "windowStart": "2026-09-26",
  "windowEnd": "2026-10-10",
- "totalHits": 114082,
- "aiHits": 93312,
+ "totalHits": 114399,
+ "aiHits": 93605,
  "aiEngines": 17,
  "bots": [
   {
@@ -43,11 +43,44 @@
    "verifiable": false
   },
   {
+   "name": "Meta-ExternalAgent",
+   "label": "Meta AI",
+   "category": "ai",
+   "home": "https://developers.facebook.com/docs/sharing/bot",
+   "hits": 14265,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-26",
+   "lastSeen": "2026-10-10",
+   "topPaths": [
+    {
+     "path": "/posts/open-source-llm-for-coding-september-2026.html",
+     "hits": 43
+    },
+    {
+     "path": "/build",
+     "hits": 33
+    },
+    {
+     "path": "/stacks/undefined",
+     "hits": 14
+    },
+    {
+     "path": "/dashboard",
+     "hits": 13
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 12
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "PetalBot",
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14083,
+   "hits": 14091,
    "verifiedHits": 0,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
@@ -76,44 +109,11 @@
    "verifiable": false
   },
   {
-   "name": "Meta-ExternalAgent",
-   "label": "Meta AI",
-   "category": "ai",
-   "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 14008,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-26",
-   "lastSeen": "2026-10-10",
-   "topPaths": [
-    {
-     "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 43
-    },
-    {
-     "path": "/build",
-     "hits": 31
-    },
-    {
-     "path": "/stacks/undefined",
-     "hits": 14
-    },
-    {
-     "path": "/dashboard",
-     "hits": 13
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 12
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Amazonbot",
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13242,
+   "hits": 13265,
    "verifiedHits": 0,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6791,
-   "verifiedHits": 6767,
+   "hits": 6792,
+   "verifiedHits": 6768,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 5659,
+   "hits": 5668,
    "verifiedHits": 0,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4814,
-   "verifiedHits": 4740,
+   "hits": 4817,
+   "verifiedHits": 4743,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4124,
+   "hits": 4132,
    "verifiedHits": 0,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3036,
+   "hits": 3040,
    "verifiedHits": 0,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2840,
-   "verifiedHits": 2723,
+   "hits": 2841,
+   "verifiedHits": 2724,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
    "topPaths": [
     {
      "path": "/",
-     "hits": 692
+     "hits": 693
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2169,
+   "hits": 2170,
    "verifiedHits": 0,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
@@ -542,7 +542,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 556,
+   "hits": 558,
    "verifiedHits": 0,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
