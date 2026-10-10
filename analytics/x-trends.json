@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-10T00:31:46.713Z",
+ "generated": "2026-10-10T00:41:54.333Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -11,16 +11,16 @@
    "count": 49
   },
   {
-   "term": "build",
-   "count": 41
-  },
-  {
    "term": "agents",
    "count": 40
   },
   {
+   "term": "build",
+   "count": 40
+  },
+  {
    "term": "agent",
-   "count": 34
+   "count": 33
   },
   {
    "term": "founder",
@@ -40,26 +40,18 @@
   },
   {
    "term": "google",
-   "count": 16
+   "count": 15
   },
   {
    "term": "first",
-   "count": 15
-  },
-  {
-   "term": "loops",
-   "count": 15
+   "count": 14
   },
   {
    "term": "course",
-   "count": 14
+   "count": 13
   },
   {
-   "term": "memory",
-   "count": 14
-  },
-  {
-   "term": "1-hour",
+   "term": "scratch",
    "count": 13
   },
   {
@@ -67,11 +59,19 @@
    "count": 13
   },
   {
+   "term": "memory",
+   "count": 13
+  },
+  {
+   "term": "loops",
+   "count": 13
+  },
+  {
    "term": "his",
    "count": 13
   },
   {
-   "term": "scratch",
+   "term": "1-hour",
    "count": 12
   },
   {
@@ -90,7 +90,7 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 6
+   "count": 7
   },
   {
    "term": "#founder",
@@ -99,6 +99,10 @@
   {
    "term": "#startup",
    "count": 4
+  },
+  {
+   "term": "#tech",
+   "count": 2
   },
   {
    "term": "#buildinginpublic",
@@ -125,15 +129,11 @@
    "count": 1
   },
   {
-   "term": "#bug",
+   "term": "#agents",
    "count": 1
   },
   {
-   "term": "#claude",
-   "count": 1
-  },
-  {
-   "term": "#astra",
+   "term": "#aiengineering",
    "count": 1
   }
  ],
