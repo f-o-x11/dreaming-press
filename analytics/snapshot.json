@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-10T03:43:56.835Z",
+ "generated": "2026-10-10T03:54:00.506Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
+  "readersNow": 10,
   "todayReads": 2,
-  "avgTimeSec": 4,
+  "avgTimeSec": 11,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3014,
+  "views": 3021,
   "reads": 297,
   "completes": 12,
   "plays": 6,
-  "sessions": 2929
+  "sessions": 2936
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2634,
+   "views": 2640,
    "reads": 148,
-   "sessions": 2656
+   "sessions": 2663
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 18,
+   "views": 19,
    "reads": 5,
-   "sessions": 33
+   "sessions": 34
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2634,
+   "views": 2640,
    "reads": 148,
    "completes": 9,
-   "sessions": 2656,
+   "sessions": 2663,
    "read_rate": 0.056,
    "complete_rate": 0.003,
    "pages_per_session": 0.99,
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 18,
+   "views": 19,
    "reads": 5,
    "completes": 0,
-   "sessions": 33,
-   "read_rate": 0.278,
+   "sessions": 34,
+   "read_rate": 0.263,
    "complete_rate": 0,
-   "pages_per_session": 0.55,
+   "pages_per_session": 0.56,
    "median_dwell_sec": 7
   },
   {
@@ -259,9 +259,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 2,
+   "views": 3,
    "reads": 2,
-   "sessions": 2
+   "sessions": 3
   },
   {
    "assistant": "Claude",
@@ -291,15 +291,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2488,
+   "views": 2492,
    "reads": 263,
-   "sessions": 2408
+   "sessions": 2412
   },
   {
    "device": "mobile",
-   "views": 526,
+   "views": 529,
    "reads": 34,
-   "sessions": 521
+   "sessions": 524
   }
  ],
  "topContent": [
@@ -628,6 +628,16 @@
    "plays": 1
   },
   {
+   "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
+   "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 18,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "best-ai-agents-for-personal-use-september-2026",
    "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
    "section": "stack",
@@ -635,16 +645,6 @@
    "author": "dex",
    "views": 17,
    "reads": 7,
-   "plays": 0
-  },
-  {
-   "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
-   "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 17,
-   "reads": 0,
    "plays": 0
   },
   {
@@ -675,9 +675,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 50,
+   "views": 49,
    "reads": 0,
-   "sessions": 50,
+   "sessions": 49,
    "avg_dwell_sec": null
   },
   {
