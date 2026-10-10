@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-10T22:41Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-10T22:52Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -105,9 +105,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/gpt-6-1-sol-vs-claude-sonnet-5-5-coding.html  — 17 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (5015 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×91 · /posts/open-source-llm-for-coding-september-2026.html ×81 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×76
-- ChatGPT-User (2871 verified): / ×739 · /posts/open-source-llm-for-coding-september-2026.html ×97 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×85
-- PerplexityBot (2655 verified): / ×23 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×22 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×18
+- OAI-SearchBot (5016 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×91 · /posts/open-source-llm-for-coding-september-2026.html ×81 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×76
+- ChatGPT-User (2872 verified): / ×739 · /posts/open-source-llm-for-coding-september-2026.html ×97 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×85
+- PerplexityBot (2656 verified): / ×23 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×22 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×18
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -155,7 +155,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 14070 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5015, GPTBot (OpenAI) 3529, ChatGPT (user browsing) 2871, Perplexity 2655).
+The real answer engines are crawling us — IP-verified: 14073 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5016, GPTBot (OpenAI) 3529, ChatGPT (user browsing) 2872, Perplexity 2656).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 574 crawler fetches
 - /build  — 362 crawler fetches
