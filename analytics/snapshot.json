@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-10T08:57:36.649Z",
+ "generated": "2026-10-10T09:07:40.336Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 4,
   "todayReads": 9,
   "avgTimeSec": 27,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3056,
+  "views": 3059,
   "reads": 300,
   "completes": 16,
   "plays": 7,
-  "sessions": 2965
+  "sessions": 2968
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2681,
+   "views": 2683,
    "reads": 151,
-   "sessions": 2699
+   "sessions": 2702
   },
   {
    "channel": "organic",
-   "views": 223,
+   "views": 224,
    "reads": 121,
-   "sessions": 212
+   "sessions": 213
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2681,
+   "views": 2683,
    "reads": 151,
    "completes": 13,
-   "sessions": 2699,
+   "sessions": 2702,
    "read_rate": 0.056,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 223,
+   "views": 224,
    "reads": 121,
    "completes": 3,
-   "sessions": 212,
-   "read_rate": 0.543,
+   "sessions": 213,
+   "read_rate": 0.54,
    "complete_rate": 0.013,
    "pages_per_session": 1.05,
    "median_dwell_sec": 3
@@ -296,9 +296,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2526,
+   "views": 2529,
    "reads": 266,
-   "sessions": 2440
+   "sessions": 2443
   },
   {
    "device": "mobile",
@@ -506,7 +506,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 4,
+   "views": 5,
    "reads": 1,
    "plays": 1
   },
@@ -666,10 +666,10 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 401,
+   "views": 403,
    "reads": 9,
-   "sessions": 401,
-   "avg_dwell_sec": 60
+   "sessions": 403,
+   "avg_dwell_sec": 57
   },
   {
    "path": "/",
@@ -793,8 +793,8 @@
   },
   {
    "ref": "https://search.brave.com/",
-   "hits": 20,
-   "sessions": 10
+   "hits": 21,
+   "sessions": 11
   },
   {
    "ref": "https://chatgpt.com/",
