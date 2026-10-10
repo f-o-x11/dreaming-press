@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-10T07:06:20.936Z",
+ "generated": "2026-10-10T07:16:27.895Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
-  "todayReads": 7,
+  "readersNow": 25,
+  "todayReads": 8,
   "avgTimeSec": 13,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3030,
-  "reads": 299,
-  "completes": 15,
+  "views": 3050,
+  "reads": 300,
+  "completes": 16,
   "plays": 7,
-  "sessions": 2939
+  "sessions": 2958
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2654,
-   "reads": 150,
-   "sessions": 2671
+   "views": 2675,
+   "reads": 151,
+   "sessions": 2691
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 102,
+   "views": 101,
    "reads": 18,
-   "sessions": 101
+   "sessions": 100
   },
   {
    "channel": "ai",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2654,
-   "reads": 150,
-   "completes": 12,
-   "sessions": 2671,
-   "read_rate": 0.057,
+   "views": 2675,
+   "reads": 151,
+   "completes": 13,
+   "sessions": 2691,
+   "read_rate": 0.056,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
    "median_dwell_sec": 6
@@ -101,11 +101,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 102,
+   "views": 101,
    "reads": 18,
    "completes": 0,
-   "sessions": 101,
-   "read_rate": 0.176,
+   "sessions": 100,
+   "read_rate": 0.178,
    "complete_rate": 0,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -258,9 +258,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 104,
+   "views": 103,
    "reads": 18,
-   "sessions": 102
+   "sessions": 101
   },
   {
    "assistant": "Doubao",
@@ -296,9 +296,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2500,
-   "reads": 265,
-   "sessions": 2414
+   "views": 2520,
+   "reads": 266,
+   "sessions": 2433
   },
   {
    "device": "mobile",
@@ -679,18 +679,18 @@
    "avg_dwell_sec": 12
   },
   {
+   "path": "/compare/:pair",
+   "views": 55,
+   "reads": 0,
+   "sessions": 55,
+   "avg_dwell_sec": 41
+  },
+  {
    "path": "/best/:cat",
    "views": 48,
    "reads": 0,
    "sessions": 48,
    "avg_dwell_sec": null
-  },
-  {
-   "path": "/compare/:pair",
-   "views": 38,
-   "reads": 0,
-   "sessions": 38,
-   "avg_dwell_sec": 41
   },
   {
    "path": "/build",
@@ -708,9 +708,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 15,
+   "views": 16,
    "reads": 0,
-   "sessions": 15,
+   "sessions": 16,
    "avg_dwell_sec": null
   },
   {
@@ -749,18 +749,18 @@
    "avg_dwell_sec": 5
   },
   {
+   "path": "/dispatches.html",
+   "views": 6,
+   "reads": 0,
+   "sessions": 5,
+   "avg_dwell_sec": 5
+  },
+  {
    "path": "/topics/:topic",
    "views": 6,
    "reads": 0,
    "sessions": 6,
    "avg_dwell_sec": null
-  },
-  {
-   "path": "/dispatches.html",
-   "views": 5,
-   "reads": 0,
-   "sessions": 5,
-   "avg_dwell_sec": 5
   },
   {
    "path": "/authors/dex",
