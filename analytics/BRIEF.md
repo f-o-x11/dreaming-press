@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-10T11:19Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-10T11:37Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2697 views · read 5.6% · complete 0.5% · 0.99 pages/session · median 6s
+- direct: 2697 views · read 5.6% · complete 0.5% · 0.99 pages/session · median 7s
 - organic: 224 views · read 54.0% · complete 1.3% · 1.05 pages/session · median 3s
 - campaign:chatgpt.com: 100 views · read 18.0% · complete 0.0% · 1.01 pages/session · median ?s
 - referral: 26 views · read 11.5% · complete 0.0% · 1.08 pages/session · median ?s
@@ -41,7 +41,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck" — 9 reads, 11 views, 0 listens
 - [stack] "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One" — 7 reads, 14 views, 0 listens
 - [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 7 reads, 13 views, 0 listens
-- [stack] "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem" — 6 reads, 16 views, 0 listens
+- [stack] "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem" — 6 reads, 15 views, 0 listens
 - [stack] "Clear, Compact, or Remember? The Cross-Vendor Decision Framework for Long-Running Agent Context" — 6 reads, 12 views, 1 listens
 - [wire] "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer" — 6 reads, 8 views, 0 listens
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 5 reads, 30 views, 0 listens
@@ -58,7 +58,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 402 views, 9 reads, 402 sessions, avg 58s
-- / — 144 views, 4 reads, 143 sessions, avg 12s
+- / — 145 views, 4 reads, 144 sessions, avg 12s
 - /compare/:pair — 55 views, 0 reads, 55 sessions, avg 41s
 - /best/:cat — 47 views, 0 reads, 47 sessions
 - /build — 29 views, 0 reads, 29 sessions, avg 4s
@@ -104,9 +104,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-09-27-founders-wire-openai-rogue-agents-safa-databricks-row-zero.html  — 16 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4811 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×85 · /posts/open-source-llm-for-coding-september-2026.html ×78 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×73
-- ChatGPT-User (2770 verified): / ×708 · /posts/open-source-llm-for-coding-september-2026.html ×96 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×85
-- PerplexityBot (2328 verified): / ×21 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×20 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×18
+- OAI-SearchBot (4816 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×85 · /posts/open-source-llm-for-coding-september-2026.html ×78 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×73
+- ChatGPT-User (2771 verified): / ×708 · /posts/open-source-llm-for-coding-september-2026.html ×96 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×85
+- PerplexityBot (2349 verified): / ×21 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×20 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×18
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -131,12 +131,11 @@ High-engagement posts to react to / cite:
 - "Here's how frontier teams went fully AI-native in how they build. With Amazon as the example AWS's VP of Agentic AI just shared what happened when Amazon teams rebuilt how they work around coding agents: &gt; 6 engineers" — https://x.com/i/status/2106409333030367242
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (256 of 460 phrases have NO post, 68h ago)
+## Uncovered search demand (255 of 461 phrases have NO post, 0h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
 - "ai agent security summit"  [google+bing+ddg]
-- "best vector database for windows"  [google+bing+ddg]
 - "cheapest gpu for gaming"  [google+bing+ddg]
 - "claude code vscode"  [google+bing+ddg]
 - "context engineering skill claude"  [google+bing+ddg]
@@ -149,15 +148,16 @@ closest thing to a volume signal we get without a paid keyword tool.
 - "ai agent framework latest news"  [bing+ddg]
 - "ai agent framework release update"  [bing+ddg]
 - "ai agent framework trending 2026"  [bing+ddg]
+- "ai agent security features"  [bing+ddg]
 ACTION: these are titles waiting to be written. Pick one that also matches a winning
 format above (comparison / how-to / news) and answer it literally — the phrase IS the
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13436 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4811, GPTBot (OpenAI) 3527, ChatGPT (user browsing) 2770, Perplexity 2328).
+The real answer engines are crawling us — IP-verified: 13463 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4816, GPTBot (OpenAI) 3527, ChatGPT (user browsing) 2771, Perplexity 2349).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 566 crawler fetches
-- /build  — 359 crawler fetches
+- /build  — 360 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 217 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 145 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 127 crawler fetches
