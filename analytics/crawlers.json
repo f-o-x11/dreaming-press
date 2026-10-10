@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-10T14:25:21.053Z",
+ "generated": "2026-10-10T14:35:47.536Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13751,
+ "verifiedAiHits": 13762,
  "logsScanned": 30,
  "windowStart": "2026-09-26",
  "windowEnd": "2026-10-10",
- "totalHits": 119886,
- "aiHits": 98517,
+ "totalHits": 119981,
+ "aiHits": 98595,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27409,
+   "hits": 27430,
    "verifiedHits": 0,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14704,
+   "hits": 14742,
    "verifiedHits": 0,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
@@ -98,11 +98,11 @@
      "hits": 7
     },
     {
-     "path": "/posts/agent-client-protocol-acp-vs-mcp.html",
+     "path": "/apps",
      "hits": 6
     },
     {
-     "path": "/posts/how-to-instrument-an-agent-langfuse-v4-otel.html",
+     "path": "/posts/agent-client-protocol-acp-vs-mcp.html",
      "hits": 6
     }
    ],
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14482,
+   "hits": 14490,
    "verifiedHits": 0,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
@@ -179,14 +179,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7015,
-   "verifiedHits": 6991,
+   "hits": 7029,
+   "verifiedHits": 7005,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 85
+     "hits": 86
     },
     {
      "path": "/build",
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 5805,
+   "hits": 5806,
    "verifiedHits": 0,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4962,
-   "verifiedHits": 4888,
+   "hits": 4966,
+   "verifiedHits": 4892,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3142,
+   "hits": 3144,
    "verifiedHits": 0,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2918,
-   "verifiedHits": 2799,
+   "hits": 2924,
+   "verifiedHits": 2805,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
    "topPaths": [
     {
      "path": "/",
-     "hits": 717
+     "hits": 718
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -396,7 +396,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 64
+     "hits": 65
     },
     {
      "path": "/posts/agent-memory-survey-2026.html",
@@ -410,8 +410,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2727,
-   "verifiedHits": 2537,
+   "hits": 2728,
+   "verifiedHits": 2538,
    "firstSeen": "2026-09-26",
    "lastSeen": "2026-10-10",
    "topPaths": [
