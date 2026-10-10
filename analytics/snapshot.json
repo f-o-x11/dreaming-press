@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-10T07:26:30.277Z",
+ "generated": "2026-10-10T07:36:44.063Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 18,
-  "todayReads": 8,
-  "avgTimeSec": 13,
+  "readersNow": 1,
+  "todayReads": 9,
+  "avgTimeSec": 14,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3050,
-  "reads": 300,
+  "views": 3051,
+  "reads": 301,
   "completes": 16,
   "plays": 7,
-  "sessions": 2958
+  "sessions": 2959
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2675,
-   "reads": 151,
-   "sessions": 2691
+   "views": 2676,
+   "reads": 152,
+   "sessions": 2692
   },
   {
    "channel": "organic",
@@ -79,14 +79,14 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2675,
-   "reads": 151,
+   "views": 2676,
+   "reads": 152,
    "completes": 13,
-   "sessions": 2691,
-   "read_rate": 0.056,
+   "sessions": 2692,
+   "read_rate": 0.057,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
-   "median_dwell_sec": 6
+   "median_dwell_sec": 7
   },
   {
    "channel": "organic",
@@ -296,9 +296,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2520,
-   "reads": 266,
-   "sessions": 2433
+   "views": 2521,
+   "reads": 267,
+   "sessions": 2434
   },
   {
    "device": "mobile",
@@ -419,6 +419,16 @@
    "plays": 0
   },
   {
+   "slug": "vllm-0-26-serving-tuning-head-dtype-attention-backends-kv-offload",
+   "title": "vLLM 0.26 Shipped: The Three Serving Knobs Worth Turning, and One Model List Worth Reading",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 6,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "ai-agent-security-jobs",
    "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
    "section": "stack",
@@ -445,16 +455,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 8,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
-   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 7,
    "reads": 4,
    "plays": 0
   }
