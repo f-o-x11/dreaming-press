@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-10T14:04:26.812Z",
+ "generated": "2026-10-10T14:15:00.433Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 13,
   "avgTimeSec": 31,
   "postsThisWeek": 15
  },
  "funnel": {
   "views": 3098,
-  "reads": 298,
+  "reads": 297,
   "completes": 16,
   "plays": 7,
   "sessions": 3008
@@ -18,7 +18,7 @@
   {
    "channel": "direct",
    "views": 2723,
-   "reads": 150,
+   "reads": 149,
    "sessions": 2744
   },
   {
@@ -80,7 +80,7 @@
   {
    "channel": "direct",
    "views": 2723,
-   "reads": 150,
+   "reads": 149,
    "completes": 13,
    "sessions": 2744,
    "read_rate": 0.055,
@@ -296,15 +296,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2549,
-   "reads": 266,
-   "sessions": 2464
+   "views": 2550,
+   "reads": 265,
+   "sessions": 2465
   },
   {
    "device": "mobile",
-   "views": 549,
+   "views": 548,
    "reads": 32,
-   "sessions": 544
+   "sessions": 543
   }
  ],
  "topContent": [
@@ -319,16 +319,6 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 53,
-   "reads": 10,
-   "plays": 0
-  },
-  {
    "slug": "how-to-run-spec-driven-development-github-spec-kit",
    "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
    "section": "stack",
@@ -337,6 +327,16 @@
    "views": 19,
    "reads": 10,
    "plays": 2
+  },
+  {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 53,
+   "reads": 9,
+   "plays": 0
   },
   {
    "slug": "vllm-rust-frontend",
@@ -394,7 +394,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 30,
+   "views": 32,
    "reads": 5,
    "plays": 0
   },
@@ -537,7 +537,7 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
    "views": 53,
-   "reads": 10,
+   "reads": 9,
    "plays": 0
   },
   {
@@ -569,7 +569,7 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
    "views": 53,
-   "reads": 10,
+   "reads": 9,
    "plays": 0
   },
   {
@@ -588,7 +588,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 30,
+   "views": 32,
    "reads": 5,
    "plays": 0
   },
