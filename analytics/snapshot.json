@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-10T06:56:13.402Z",
+ "generated": "2026-10-10T07:06:20.936Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 6,
+  "readersNow": 6,
+  "todayReads": 7,
   "avgTimeSec": 13,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 3028,
-  "reads": 298,
-  "completes": 14,
+  "views": 3030,
+  "reads": 299,
+  "completes": 15,
   "plays": 7,
-  "sessions": 2937
+  "sessions": 2939
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2651,
-   "reads": 149,
-   "sessions": 2668
+   "views": 2654,
+   "reads": 150,
+   "sessions": 2671
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 103,
+   "views": 102,
    "reads": 18,
-   "sessions": 102
+   "sessions": 101
   },
   {
    "channel": "ai",
@@ -79,12 +79,12 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2651,
-   "reads": 149,
-   "completes": 11,
-   "sessions": 2668,
-   "read_rate": 0.056,
-   "complete_rate": 0.004,
+   "views": 2654,
+   "reads": 150,
+   "completes": 12,
+   "sessions": 2671,
+   "read_rate": 0.057,
+   "complete_rate": 0.005,
    "pages_per_session": 0.99,
    "median_dwell_sec": 6
   },
@@ -101,11 +101,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 103,
+   "views": 102,
    "reads": 18,
    "completes": 0,
-   "sessions": 102,
-   "read_rate": 0.175,
+   "sessions": 101,
+   "read_rate": 0.176,
    "complete_rate": 0,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -258,9 +258,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 105,
+   "views": 104,
    "reads": 18,
-   "sessions": 103
+   "sessions": 102
   },
   {
    "assistant": "Doubao",
@@ -296,15 +296,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2499,
-   "reads": 264,
-   "sessions": 2413
+   "views": 2500,
+   "reads": 265,
+   "sessions": 2414
   },
   {
    "device": "mobile",
-   "views": 529,
+   "views": 530,
    "reads": 34,
-   "sessions": 524
+   "sessions": 525
   }
  ],
  "topContent": [
@@ -324,7 +324,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 53,
+   "views": 52,
    "reads": 10,
    "plays": 0
   },
@@ -434,7 +434,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 8,
+   "views": 9,
    "reads": 4,
    "plays": 0
   },
@@ -536,7 +536,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 53,
+   "views": 52,
    "reads": 10,
    "plays": 0
   },
@@ -568,7 +568,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 53,
+   "views": 52,
    "reads": 10,
    "plays": 0
   },
@@ -680,9 +680,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 49,
+   "views": 48,
    "reads": 0,
-   "sessions": 49,
+   "sessions": 48,
    "avg_dwell_sec": null
   },
   {
@@ -707,18 +707,18 @@
    "avg_dwell_sec": 55
   },
   {
+   "path": "/alternatives/:tool",
+   "views": 15,
+   "reads": 0,
+   "sessions": 15,
+   "avg_dwell_sec": null
+  },
+  {
    "path": "/tools",
    "views": 15,
    "reads": 1,
    "sessions": 15,
    "avg_dwell_sec": 125
-  },
-  {
-   "path": "/alternatives/:tool",
-   "views": 14,
-   "reads": 0,
-   "sessions": 14,
-   "avg_dwell_sec": null
   },
   {
    "path": "/agents.html",
