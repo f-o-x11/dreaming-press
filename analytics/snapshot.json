@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-11T12:52:33.696Z",
+ "generated": "2026-10-11T13:02:34.844Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 3,
   "todayReads": 12,
-  "avgTimeSec": 28,
+  "avgTimeSec": 25,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3124,
+  "views": 3125,
   "reads": 297,
   "completes": 16,
   "plays": 6,
-  "sessions": 3022
+  "sessions": 3023
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2774,
+   "views": 2776,
    "reads": 149,
-   "sessions": 2780
+   "sessions": 2781
   },
   {
    "channel": "organic",
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 68,
+   "views": 67,
    "reads": 16,
-   "sessions": 66
+   "sessions": 65
   },
   {
    "channel": "ai",
    "views": 22,
    "reads": 8,
-   "sessions": 35
+   "sessions": 34
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2774,
+   "views": 2776,
    "reads": 149,
    "completes": 13,
-   "sessions": 2780,
+   "sessions": 2781,
    "read_rate": 0.054,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 68,
+   "views": 67,
    "reads": 16,
    "completes": 0,
-   "sessions": 66,
-   "read_rate": 0.235,
+   "sessions": 65,
+   "read_rate": 0.239,
    "complete_rate": 0,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -120,11 +120,11 @@
    "views": 22,
    "reads": 8,
    "completes": 0,
-   "sessions": 35,
+   "sessions": 34,
    "read_rate": 0.364,
    "complete_rate": 0,
-   "pages_per_session": 0.63,
-   "median_dwell_sec": 29
+   "pages_per_session": 0.65,
+   "median_dwell_sec": 30
   },
   {
    "channel": "social",
@@ -246,9 +246,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 70,
+   "views": 69,
    "reads": 17,
-   "sessions": 67
+   "sessions": 66
   },
   {
    "assistant": "Claude",
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2576,
+   "views": 2577,
    "reads": 266,
-   "sessions": 2478
+   "sessions": 2479
   },
   {
    "device": "mobile",
@@ -427,18 +427,18 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
-   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
+   "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
+   "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 9,
+   "views": 10,
    "reads": 4,
    "plays": 0
   },
   {
-   "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
-   "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
+   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
+   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
@@ -661,9 +661,9 @@
   },
   {
    "path": "/",
-   "views": 144,
+   "views": 143,
    "reads": 4,
-   "sessions": 142,
+   "sessions": 141,
    "avg_dwell_sec": 12
   },
   {

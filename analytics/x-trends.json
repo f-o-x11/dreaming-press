@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-11T12:52:33.630Z",
+ "generated": "2026-10-11T13:02:34.793Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,19 +8,19 @@
  "topTerms": [
   {
    "term": "agentic",
-   "count": 47
+   "count": 45
   },
   {
    "term": "build",
-   "count": 43
+   "count": 42
   },
   {
    "term": "agents",
-   "count": 39
+   "count": 38
   },
   {
    "term": "agent",
-   "count": 35
+   "count": 34
   },
   {
    "term": "founder",
@@ -32,34 +32,22 @@
   },
   {
    "term": "mcp",
-   "count": 25
+   "count": 24
   },
   {
    "term": "learn",
-   "count": 20
+   "count": 19
   },
   {
    "term": "google",
-   "count": 17
-  },
-  {
-   "term": "first",
-   "count": 17
-  },
-  {
-   "term": "loops",
    "count": 16
   },
   {
-   "term": "course",
-   "count": 15
+   "term": "first",
+   "count": 16
   },
   {
-   "term": "give",
-   "count": 15
-  },
-  {
-   "term": "memory",
+   "term": "loops",
    "count": 15
   },
   {
@@ -67,24 +55,36 @@
    "count": 15
   },
   {
-   "term": "1-hour",
+   "term": "course",
    "count": 14
+  },
+  {
+   "term": "give",
+   "count": 14
+  },
+  {
+   "term": "memory",
+   "count": 14
+  },
+  {
+   "term": "1-hour",
+   "count": 13
   },
   {
    "term": "scratch",
-   "count": 14
+   "count": 13
+  },
+  {
+   "term": "one",
+   "count": 12
   },
   {
    "term": "minutes",
-   "count": 13
+   "count": 12
   },
   {
    "term": "persistent",
-   "count": 13
-  },
-  {
-   "term": "long-running",
-   "count": 13
+   "count": 12
   }
  ],
  "hashtags": [
@@ -140,12 +140,6 @@
  "topPosts": [
   {
    "text": "🚨 GOOGLE JUST DROPPED A 1-HOUR COURSE THAT TEACHES YOU AGENTIC AI FROM SCRATCH. No fluff. No expensive bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Cre",
-   "engagement": 3198,
-   "url": "https://x.com/i/status/2106731541221306757",
-   "created": "2026-10-04T13:01:55.000Z"
-  },
-  {
-   "text": "🚨 GOOGLE JUST DROPPED A 1-HOUR COURSE THAT TEACHES YOU AGENTIC AI FROM SCRATCH. No fluff. No expensive bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Cre",
    "engagement": 415,
    "url": "https://x.com/i/status/2107810215680987529",
    "created": "2026-10-07T12:28:11.000Z"
@@ -163,16 +157,16 @@
    "created": "2026-10-05T14:00:23.000Z"
   },
   {
+   "text": "9,993 new tokens were first seen on Robinhood Chain on 7 Oct. Only a fraction keep building. Here's a simple guide to @HeyResearch, its Discovery and Terminal tools, and $HEY: https://t.co/DrQhWFGBEv https://t.co/nZfcBec",
+   "engagement": 170,
+   "url": "https://x.com/i/status/2109177274566049934",
+   "created": "2026-10-11T07:00:23.000Z"
+  },
+  {
    "text": "At TOKEN2049 Singapore, three sessions on Oct 7 are about agentic trading, and the question we keep asking is what an agent does when it needs to borrow. https://t.co/GMMNUGM84J",
    "engagement": 169,
    "url": "https://x.com/i/status/2106792118606053639",
    "created": "2026-10-04T17:02:38.000Z"
-  },
-  {
-   "text": "9,993 new tokens were first seen on Robinhood Chain on 7 Oct. Only a fraction keep building. Here's a simple guide to @HeyResearch, its Discovery and Terminal tools, and $HEY: https://t.co/DrQhWFGBEv https://t.co/nZfcBec",
-   "engagement": 168,
-   "url": "https://x.com/i/status/2109177274566049934",
-   "created": "2026-10-11T07:00:23.000Z"
   },
   {
    "text": "AI agents can now trade and launch on https://t.co/FxXxWrKsBz Connect our MCP to Claude Code or any MCP client. It signs with its own wallet. We never hold a key. Set the agent as referrer and it earns 5% of every swap f",
@@ -185,6 +179,12 @@
    "engagement": 88,
    "url": "https://x.com/i/status/2107153368376398160",
    "created": "2026-10-05T16:58:06.000Z"
+  },
+  {
+   "text": "6 GitHub repos that take you from zero to production AI agents: 1. awesome-llm-apps (140k+ stars) 100+ open-source agents, agent skills and RAG apps. Clone one, ship it, sell it. Apache-2.0. https://t.co/dtiF4vXGtJ 2. aw",
+   "engagement": 80,
+   "url": "https://x.com/i/status/2108579750650458417",
+   "created": "2026-10-09T15:26:02.000Z"
   }
  ]
 }
