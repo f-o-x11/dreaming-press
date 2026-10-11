@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-11T18:17Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-11T18:27Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3112 views → 305 engaged reads → 16 completes · 3010 sessions.
-- Channels: direct 150r/2761v · organic 124r/237v · campaign:chatgpt.com 17r/62v · ai 9r/23v · referral 3r/24v · social 1r/3v · campaign:copilot.com 1r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 3111 views → 304 engaged reads → 16 completes · 3009 sessions.
+- Channels: direct 150r/2761v · organic 123r/236v · campaign:chatgpt.com 17r/62v · ai 9r/23v · referral 3r/24v · social 1r/3v · campaign:copilot.com 1r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 19r/65v · Claude 4r/4v · Doubao 2r/3v · Copilot 1r/1v · Kimi 0r/11v · Perplexity 0r/1v.
 - Referrers: bing.com, duckduckgo.com, google.com, cn.bing.com, search.brave.com, chatgpt.com, claude.ai, bing.com, brand, nav-cmp.
 - Engaged-read winners by section: wire=5, stack=10.
@@ -24,7 +24,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - direct: 2761 views · read 5.4% · complete 0.5% · 1 pages/session · median 7s
-- organic: 237 views · read 52.3% · complete 1.3% · 1.04 pages/session · median 2s
+- organic: 236 views · read 52.1% · complete 1.3% · 1.04 pages/session · median 2s
 - campaign:chatgpt.com: 62 views · read 27.4% · complete 0.0% · 1.03 pages/session · median ?s
 - referral: 24 views · read 12.5% · complete 0.0% · 1.09 pages/session · median ?s
 - ai: 23 views · read 39.1% · complete 0.0% · 0.68 pages/session · median 38s
@@ -56,7 +56,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 397 views, 9 reads, 397 sessions, avg 64s
+- /stack/:tool — 396 views, 9 reads, 396 sessions, avg 64s
 - / — 141 views, 4 reads, 139 sessions, avg 11s
 - /best/:cat — 43 views, 0 reads, 43 sessions
 - /compare/:pair — 42 views, 0 reads, 42 sessions, avg 21s
@@ -122,7 +122,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agentic(46), build(45), agents(40), agent(34), founder(32), mcp(25), startup(25), learn(21), google(18), first(16), loops(16), course(15), his(15), 1-hour(14), scratch(14).
+Hot terms: agentic(46), build(46), agents(39), agent(34), founder(32), mcp(25), startup(25), learn(22), google(18), first(16), loops(16), course(15), his(15), 1-hour(14), scratch(14).
 Hashtags: #ai, #startup, #founder, #tech, #buildinginpublic, #preseed, #dev, #fintech, #aijobs, #aihiring.
 High-engagement posts to react to / cite:
 - "Preparing for interviews in the AI world? Bookmark 🔖 &amp; Share 👍 Here’s a practical roadmap I’d follow. Build skills you can demonstrate. 1. Learn the fundamentals Start with Generative AI for Everyone to understand " — https://x.com/i/status/2108942569682190654
@@ -165,7 +165,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 106 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 96 crawler fetches
 - /posts/open-weight-coding-model-you-can-actually-self-host-september-2026.html  — 94 crawler fetches
-- /posts/gartner-ai-agent-spending-2026.html  — 91 crawler fetches
+- /posts/gartner-ai-agent-spending-2026.html  — 92 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 71 crawler fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 55 crawler fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 48 crawler fetches
