@@ -1,37 +1,37 @@
 {
- "generated": "2026-10-11T13:43:17.213Z",
+ "generated": "2026-10-11T13:53:30.370Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 3,
   "todayReads": 14,
   "avgTimeSec": 27,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3131,
+  "views": 3130,
   "reads": 299,
   "completes": 16,
   "plays": 6,
-  "sessions": 3029
+  "sessions": 3028
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2780,
+   "views": 2779,
    "reads": 149,
-   "sessions": 2786
+   "sessions": 2785
   },
   {
    "channel": "organic",
-   "views": 233,
+   "views": 234,
    "reads": 121,
-   "sessions": 223
+   "sessions": 224
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 67,
+   "views": 66,
    "reads": 16,
-   "sessions": 65
+   "sessions": 64
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2780,
+   "views": 2779,
    "reads": 149,
    "completes": 13,
-   "sessions": 2786,
+   "sessions": 2785,
    "read_rate": 0.054,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -84,22 +84,22 @@
   },
   {
    "channel": "organic",
-   "views": 233,
+   "views": 234,
    "reads": 121,
    "completes": 3,
-   "sessions": 223,
-   "read_rate": 0.519,
+   "sessions": 224,
+   "read_rate": 0.517,
    "complete_rate": 0.013,
    "pages_per_session": 1.04,
    "median_dwell_sec": 2
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 67,
+   "views": 66,
    "reads": 16,
    "completes": 0,
-   "sessions": 65,
-   "read_rate": 0.239,
+   "sessions": 64,
+   "read_rate": 0.242,
    "complete_rate": 0,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -246,9 +246,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 69,
+   "views": 68,
    "reads": 17,
-   "sessions": 66
+   "sessions": 65
   },
   {
    "assistant": "Claude",
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2583,
+   "views": 2582,
    "reads": 268,
-   "sessions": 2485
+   "sessions": 2484
   },
   {
    "device": "mobile",
@@ -776,8 +776,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 65,
-   "sessions": 37
+   "hits": 66,
+   "sessions": 38
   },
   {
    "ref": "https://search.brave.com/",
