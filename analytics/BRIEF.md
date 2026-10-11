@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-11T04:56Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-11T05:06Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -62,7 +62,7 @@ so what these earn from humans is the other half of the picture.
 - /compare/:pair — 56 views, 0 reads, 56 sessions, avg 21s
 - /best/:cat — 45 views, 0 reads, 45 sessions
 - /build — 29 views, 0 reads, 29 sessions, avg 4s
-- /alternatives/:tool — 19 views, 0 reads, 19 sessions
+- /alternatives/:tool — 20 views, 0 reads, 20 sessions
 - /dashboard — 18 views, 2 reads, 11 sessions, avg 55s
 - /tools — 15 views, 1 reads, 15 sessions, avg 125s
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
@@ -105,8 +105,8 @@ sample size dwarfs the engaged-read counts below.
 - /posts/gpt-6-1-sol-vs-claude-sonnet-5-5-coding.html  — 17 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4836 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×92 · /posts/open-source-llm-for-coding-september-2026.html ×81 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×77
-- ChatGPT-User (2756 verified): / ×713 · /posts/open-source-llm-for-coding-september-2026.html ×91 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×76
+- OAI-SearchBot (4837 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×92 · /posts/open-source-llm-for-coding-september-2026.html ×81 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×77
+- ChatGPT-User (2758 verified): / ×713 · /posts/open-source-llm-for-coding-september-2026.html ×91 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×76
 - PerplexityBot (2598 verified): / ×22 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×21 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×17
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -126,10 +126,10 @@ Hot terms: agentic(49), build(43), agents(40), agent(36), founder(32), startup(2
 Hashtags: #ai, #startup, #founder, #tech, #buildinginpublic, #preseed, #dev, #fintech, #aijobs, #aihiring.
 High-engagement posts to react to / cite:
 - "🚨 GOOGLE JUST DROPPED A 1-HOUR COURSE THAT TEACHES YOU AGENTIC AI FROM SCRATCH. No fluff. No expensive bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Cre" — https://x.com/i/status/2106731541221306757
-- "Preparing for interviews in the AI world? Bookmark 🔖 &amp; Share 👍 Here’s a practical roadmap I’d follow. Build skills you can demonstrate. 1. Learn the fundamentals Start with Generative AI for Everyone to understand " — https://x.com/i/status/2108942569682190654
 - "🚨 GOOGLE JUST DROPPED A 1-HOUR COURSE THAT TEACHES YOU AGENTIC AI FROM SCRATCH. No fluff. No expensive bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Cre" — https://x.com/i/status/2107810215680987529
 - "🚨 Google just released a FREE 1-hour course on Agentic AI. And it covers what people are paying hundreds of dollars to learn. In 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memo" — https://x.com/i/status/2107417395191030167
 - "🚨 GOOGLE JUST RELEASED A 1-HOUR COURSE TO LEARN AGENTIC AI FROM THE GROUND UP. No fluff. No overpriced bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Des" — https://x.com/i/status/2107108645121208429
+- "Got a mail from a co-founder of a San Francisco based AI startup with a pretty good offer....🫠 Didn't expect this lol 😭 Let's see how it goes.... 😋" — https://x.com/i/status/2108065280396283995
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (255 of 461 phrases have NO post, 17h ago)
@@ -155,7 +155,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13710 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4836, GPTBot (OpenAI) 3520, ChatGPT (user browsing) 2756, Perplexity 2598).
+The real answer engines are crawling us — IP-verified: 13713 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4837, GPTBot (OpenAI) 3520, ChatGPT (user browsing) 2758, Perplexity 2598).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 486 crawler fetches
 - /build  — 350 crawler fetches
