@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-11T19:18:00.740Z",
+ "generated": "2026-10-11T19:28:14.448Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 23,
   "avgTimeSec": 37,
   "postsThisWeek": 13
@@ -12,14 +12,14 @@
   "reads": 306,
   "completes": 16,
   "plays": 6,
-  "sessions": 3015
+  "sessions": 3016
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2773,
    "reads": 152,
-   "sessions": 2777
+   "sessions": 2778
   },
   {
    "channel": "organic",
@@ -67,7 +67,7 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 21
+   "sessions": 20
   }
  ],
  "channelQuality": [
@@ -76,7 +76,7 @@
    "views": 2773,
    "reads": 152,
    "completes": 13,
-   "sessions": 2777,
+   "sessions": 2778,
    "read_rate": 0.055,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -164,7 +164,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 21,
+   "sessions": 20,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -233,17 +233,17 @@
    "sessions": 1
   },
   {
-   "surface": "f-cols",
-   "clicks": 1,
-   "sessions": 1
-  },
-  {
    "surface": "dg-more",
    "clicks": 1,
    "sessions": 1
   },
   {
    "surface": "cited-list",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
+   "surface": "article-byline",
    "clicks": 1,
    "sessions": 1
   }
@@ -291,7 +291,7 @@
    "device": "desktop",
    "views": 2570,
    "reads": 272,
-   "sessions": 2473
+   "sessions": 2474
   },
   {
    "device": "mobile",
@@ -626,6 +626,16 @@
    "plays": 2
   },
   {
+   "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
+   "title": "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 17,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
    "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
    "section": "wire",
@@ -633,16 +643,6 @@
    "author": "dex",
    "views": 16,
    "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
-   "title": "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 16,
-   "reads": 0,
    "plays": 0
   },
   {
@@ -721,13 +721,6 @@
    "avg_dwell_sec": 64
   },
   {
-   "path": "/submit.html",
-   "views": 8,
-   "reads": 0,
-   "sessions": 7,
-   "avg_dwell_sec": 13
-  },
-  {
    "path": "/dispatches.html",
    "views": 7,
    "reads": 0,
@@ -747,6 +740,13 @@
    "reads": 0,
    "sessions": 7,
    "avg_dwell_sec": 5
+  },
+  {
+   "path": "/submit.html",
+   "views": 6,
+   "reads": 0,
+   "sessions": 6,
+   "avg_dwell_sec": 14
   },
   {
    "path": "/topics/:topic",
