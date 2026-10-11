@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-11T04:06:00.318Z",
+ "generated": "2026-10-11T04:16:06.957Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 5,
   "todayReads": 2,
-  "avgTimeSec": 55,
+  "avgTimeSec": 34,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3112,
+  "views": 3113,
   "reads": 296,
   "completes": 16,
   "plays": 7,
-  "sessions": 3016
+  "sessions": 3017
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2763,
+   "views": 2760,
    "reads": 150,
-   "sessions": 2778
+   "sessions": 2776
   },
   {
    "channel": "organic",
-   "views": 226,
+   "views": 229,
    "reads": 122,
-   "sessions": 214
+   "sessions": 217
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 25,
+   "views": 26,
    "reads": 3,
-   "sessions": 23
+   "sessions": 24
   },
   {
    "channel": "social",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2763,
+   "views": 2760,
    "reads": 150,
    "completes": 13,
-   "sessions": 2778,
+   "sessions": 2776,
    "read_rate": 0.054,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -84,14 +84,14 @@
   },
   {
    "channel": "organic",
-   "views": 226,
+   "views": 229,
    "reads": 122,
    "completes": 3,
-   "sessions": 214,
-   "read_rate": 0.54,
+   "sessions": 217,
+   "read_rate": 0.533,
    "complete_rate": 0.013,
    "pages_per_session": 1.06,
-   "median_dwell_sec": 3
+   "median_dwell_sec": 2
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -106,13 +106,13 @@
   },
   {
    "channel": "referral",
-   "views": 25,
+   "views": 26,
    "reads": 3,
    "completes": 0,
-   "sessions": 23,
-   "read_rate": 0.12,
+   "sessions": 24,
+   "read_rate": 0.115,
    "complete_rate": 0,
-   "pages_per_session": 1.09,
+   "pages_per_session": 1.08,
    "median_dwell_sec": null
   },
   {
@@ -279,15 +279,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2560,
+   "views": 2563,
    "reads": 264,
-   "sessions": 2469
+   "sessions": 2472
   },
   {
    "device": "mobile",
-   "views": 552,
+   "views": 550,
    "reads": 32,
-   "sessions": 547
+   "sessions": 545
   }
  ],
  "topContent": [
@@ -765,14 +765,14 @@
    "sessions": 41
   },
   {
+   "ref": "https://www.google.com/",
+   "hits": 67,
+   "sessions": 58
+  },
+  {
    "ref": "https://cn.bing.com/",
    "hits": 65,
    "sessions": 37
-  },
-  {
-   "ref": "https://www.google.com/",
-   "hits": 63,
-   "sessions": 55
   },
   {
    "ref": "https://search.brave.com/",
