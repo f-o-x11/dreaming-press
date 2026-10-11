@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-11T09:19:41.186Z",
+ "generated": "2026-10-11T09:29:50.250Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 6,
+  "readersNow": 3,
+  "todayReads": 8,
   "avgTimeSec": 32,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3110,
-  "reads": 294,
+  "views": 3108,
+  "reads": 296,
   "completes": 16,
   "plays": 6,
-  "sessions": 3010
+  "sessions": 3008
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2750,
    "reads": 146,
-   "sessions": 2764
+   "sessions": 2762
   },
   {
    "channel": "organic",
@@ -36,14 +36,14 @@
   {
    "channel": "ai",
    "views": 22,
-   "reads": 6,
+   "reads": 8,
    "sessions": 35
   },
   {
    "channel": "referral",
-   "views": 26,
+   "views": 24,
    "reads": 3,
-   "sessions": 24
+   "sessions": 22
   },
   {
    "channel": "social",
@@ -76,10 +76,10 @@
    "views": 2750,
    "reads": 146,
    "completes": 13,
-   "sessions": 2764,
+   "sessions": 2762,
    "read_rate": 0.053,
    "complete_rate": 0.005,
-   "pages_per_session": 0.99,
+   "pages_per_session": 1,
    "median_dwell_sec": 7
   },
   {
@@ -106,22 +106,22 @@
   },
   {
    "channel": "referral",
-   "views": 26,
+   "views": 24,
    "reads": 3,
    "completes": 0,
-   "sessions": 24,
-   "read_rate": 0.115,
+   "sessions": 22,
+   "read_rate": 0.125,
    "complete_rate": 0,
-   "pages_per_session": 1.08,
+   "pages_per_session": 1.09,
    "median_dwell_sec": null
   },
   {
    "channel": "ai",
    "views": 22,
-   "reads": 6,
+   "reads": 8,
    "completes": 0,
    "sessions": 35,
-   "read_rate": 0.273,
+   "read_rate": 0.364,
    "complete_rate": 0,
    "pages_per_session": 0.63,
    "median_dwell_sec": 30
@@ -253,7 +253,7 @@
   {
    "assistant": "Claude",
    "views": 4,
-   "reads": 2,
+   "reads": 4,
    "sessions": 3
   },
   {
@@ -284,15 +284,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2562,
-   "reads": 263,
-   "sessions": 2467
+   "views": 2561,
+   "reads": 265,
+   "sessions": 2466
   },
   {
    "device": "mobile",
-   "views": 548,
+   "views": 547,
    "reads": 31,
-   "sessions": 543
+   "sessions": 542
   }
  ],
  "topContent": [
@@ -407,6 +407,16 @@
    "plays": 0
   },
   {
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 13,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "best-ai-agents-for-personal-use-september-2026",
    "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
    "section": "stack",
@@ -435,16 +445,6 @@
    "views": 9,
    "reads": 4,
    "plays": 0
-  },
-  {
-   "slug": "ai-agent-security-jobs",
-   "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 4,
-   "plays": 1
   }
  ],
  "topListens": [
@@ -591,16 +591,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "best-open-source-rl-frameworks-for-training-agents",
    "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
    "section": "stack",
@@ -619,6 +609,16 @@
    "views": 19,
    "reads": 10,
    "plays": 2
+  },
+  {
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 19,
+   "reads": 1,
+   "plays": 0
   },
   {
    "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
@@ -790,6 +790,11 @@
    "sessions": 8
   },
   {
+   "ref": "https://claude.ai/",
+   "hits": 8,
+   "sessions": 3
+  },
+  {
    "ref": "https://bing.com/",
    "hits": 8,
    "sessions": 8
@@ -803,11 +808,6 @@
    "ref": "nav-cmp",
    "hits": 7,
    "sessions": 6
-  },
-  {
-   "ref": "https://claude.ai/",
-   "hits": 6,
-   "sessions": 3
   }
  ]
 }
