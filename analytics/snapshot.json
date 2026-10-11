@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-11T00:02:49.923Z",
+ "generated": "2026-10-11T00:12:50.120Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 6,
   "todayReads": 0,
   "avgTimeSec": 0,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3115,
+  "views": 3114,
   "reads": 295,
   "completes": 16,
   "plays": 7,
-  "sessions": 3020
+  "sessions": 3019
  },
  "channels": [
   {
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 84,
+   "views": 83,
    "reads": 14,
-   "sessions": 83
+   "sessions": 82
   },
   {
    "channel": "ai",
@@ -95,11 +95,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 84,
+   "views": 83,
    "reads": 14,
    "completes": 0,
-   "sessions": 83,
-   "read_rate": 0.167,
+   "sessions": 82,
+   "read_rate": 0.169,
    "complete_rate": 0,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -241,9 +241,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 86,
+   "views": 85,
    "reads": 14,
-   "sessions": 84
+   "sessions": 83
   },
   {
    "assistant": "Doubao",
@@ -279,9 +279,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2564,
+   "views": 2563,
    "reads": 263,
-   "sessions": 2474
+   "sessions": 2473
   },
   {
    "device": "mobile",
@@ -412,8 +412,8 @@
    "plays": 0
   },
   {
-   "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
-   "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
+   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
+   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
@@ -422,12 +422,12 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
-   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
+   "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
+   "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 8,
+   "views": 9,
    "reads": 4,
    "plays": 0
   },
@@ -656,9 +656,9 @@
   },
   {
    "path": "/",
-   "views": 146,
+   "views": 145,
    "reads": 4,
-   "sessions": 145,
+   "sessions": 144,
    "avg_dwell_sec": 12
   },
   {
