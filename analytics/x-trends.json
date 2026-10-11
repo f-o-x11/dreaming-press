@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-11T20:29:00.389Z",
+ "generated": "2026-10-11T20:39:16.685Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -16,7 +16,7 @@
   },
   {
    "term": "agents",
-   "count": 40
+   "count": 39
   },
   {
    "term": "agent",
@@ -24,19 +24,19 @@
   },
   {
    "term": "founder",
-   "count": 32
+   "count": 33
+  },
+  {
+   "term": "startup",
+   "count": 26
   },
   {
    "term": "mcp",
    "count": 25
   },
   {
-   "term": "startup",
-   "count": 25
-  },
-  {
    "term": "learn",
-   "count": 21
+   "count": 22
   },
   {
    "term": "google",
@@ -90,11 +90,11 @@
  "hashtags": [
   {
    "term": "#ai",
-   "count": 7
+   "count": 6
   },
   {
    "term": "#startup",
-   "count": 4
+   "count": 3
   },
   {
    "term": "#founder",
@@ -175,16 +175,16 @@
    "created": "2026-10-10T16:58:11.000Z"
   },
   {
+   "text": "🚨 GOOGLE JUST DROPPED A 1-HOUR COURSE THAT TEACHES YOU AGENTIC AI FROM SCRATCH. No fluff. No expensive bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Cre",
+   "engagement": 89,
+   "url": "https://x.com/i/status/2109212132269289679",
+   "created": "2026-10-11T09:18:54.000Z"
+  },
+  {
    "text": "Mastering NLP From Foundations to Agents — Build AI Agents through Agentic Automation and RAG Workflows with Python: https://t.co/MdztNpNu0x via @PacktPublishing @PacktDataML 𝓦𝓱𝓪𝓽 𝓨𝓸𝓾 𝓦𝓲𝓵𝓵 𝓛𝓮𝓪𝓻𝓷: 🟠Build ",
    "engagement": 89,
    "url": "https://x.com/i/status/2107153368376398160",
    "created": "2026-10-05T16:58:06.000Z"
-  },
-  {
-   "text": "🚨 GOOGLE JUST DROPPED A 1-HOUR COURSE THAT TEACHES YOU AGENTIC AI FROM SCRATCH. No fluff. No expensive bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Cre",
-   "engagement": 88,
-   "url": "https://x.com/i/status/2109212132269289679",
-   "created": "2026-10-11T09:18:54.000Z"
   }
  ]
 }
