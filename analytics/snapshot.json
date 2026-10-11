@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-11T17:16:00.439Z",
+ "generated": "2026-10-11T17:26:19.835Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 19,
   "avgTimeSec": 44,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3116,
-  "reads": 304,
+  "views": 3114,
+  "reads": 303,
   "completes": 16,
   "plays": 6,
-  "sessions": 3014
+  "sessions": 3012
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2764,
-   "reads": 149,
-   "sessions": 2773
+   "views": 2763,
+   "reads": 148,
+   "sessions": 2772
   },
   {
    "channel": "organic",
-   "views": 237,
+   "views": 236,
    "reads": 124,
-   "sessions": 227
+   "sessions": 226
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2764,
-   "reads": 149,
+   "views": 2763,
+   "reads": 148,
    "completes": 13,
-   "sessions": 2773,
+   "sessions": 2772,
    "read_rate": 0.054,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 237,
+   "views": 236,
    "reads": 124,
    "completes": 3,
-   "sessions": 227,
-   "read_rate": 0.523,
+   "sessions": 226,
+   "read_rate": 0.525,
    "complete_rate": 0.013,
    "pages_per_session": 1.04,
    "median_dwell_sec": 2
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2566,
-   "reads": 271,
-   "sessions": 2469
+   "views": 2565,
+   "reads": 270,
+   "sessions": 2468
   },
   {
    "device": "mobile",
-   "views": 550,
+   "views": 549,
    "reads": 33,
-   "sessions": 545
+   "sessions": 544
   }
  ],
  "topContent": [
@@ -659,9 +659,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 395,
+   "views": 396,
    "reads": 9,
-   "sessions": 395,
+   "sessions": 396,
    "avg_dwell_sec": 64
   },
   {
@@ -766,8 +766,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 102,
-   "sessions": 54
+   "hits": 101,
+   "sessions": 53
   },
   {
    "ref": "https://duckduckgo.com/",
