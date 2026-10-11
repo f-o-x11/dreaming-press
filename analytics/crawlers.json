@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-11T19:58:40.605Z",
+ "generated": "2026-10-11T20:08:46.466Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14312,
+ "verifiedAiHits": 14338,
  "logsScanned": 30,
  "windowStart": "2026-09-27",
  "windowEnd": "2026-10-11",
- "totalHits": 124979,
- "aiHits": 103121,
+ "totalHits": 125039,
+ "aiHits": 103165,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27539,
+   "hits": 27547,
    "verifiedHits": 0,
    "firstSeen": "2026-09-27",
    "lastSeen": "2026-10-11",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14745,
+   "hits": 14753,
    "verifiedHits": 0,
    "firstSeen": "2026-09-27",
    "lastSeen": "2026-10-11",
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 10803,
+   "hits": 10804,
    "verifiedHits": 0,
    "firstSeen": "2026-09-27",
    "lastSeen": "2026-10-11",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7125,
-   "verifiedHits": 7090,
+   "hits": 7131,
+   "verifiedHits": 7096,
    "firstSeen": "2026-09-27",
    "lastSeen": "2026-10-11",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5136,
-   "verifiedHits": 5054,
+   "hits": 5144,
+   "verifiedHits": 5062,
    "firstSeen": "2026-09-27",
    "lastSeen": "2026-10-11",
    "topPaths": [
@@ -264,7 +264,7 @@
     },
     {
      "path": "/wire.html",
-     "hits": 61
+     "hits": 62
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4220,
+   "hits": 4229,
    "verifiedHits": 0,
    "firstSeen": "2026-09-27",
    "lastSeen": "2026-10-11",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3448,
+   "hits": 3449,
    "verifiedHits": 0,
    "firstSeen": "2026-09-27",
    "lastSeen": "2026-10-11",
@@ -377,8 +377,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3058,
-   "verifiedHits": 2854,
+   "hits": 3070,
+   "verifiedHits": 2866,
    "firstSeen": "2026-09-27",
    "lastSeen": "2026-10-11",
    "topPaths": [
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3013,
-   "verifiedHits": 2882,
+   "hits": 3020,
+   "verifiedHits": 2888,
    "firstSeen": "2026-09-27",
    "lastSeen": "2026-10-11",
    "topPaths": [
     {
      "path": "/",
-     "hits": 751
+     "hits": 752
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -433,7 +433,7 @@
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 61
+     "hits": 62
     }
    ],
    "verifiable": true
