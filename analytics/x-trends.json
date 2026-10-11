@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-11T16:55:50.321Z",
+ "generated": "2026-10-11T17:05:58.576Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,7 +8,7 @@
  "topTerms": [
   {
    "term": "agentic",
-   "count": 47
+   "count": 46
   },
   {
    "term": "build",
@@ -16,7 +16,7 @@
   },
   {
    "term": "agents",
-   "count": 39
+   "count": 40
   },
   {
    "term": "agent",
@@ -27,11 +27,11 @@
    "count": 32
   },
   {
-   "term": "startup",
-   "count": 26
+   "term": "mcp",
+   "count": 25
   },
   {
-   "term": "mcp",
+   "term": "startup",
    "count": 25
   },
   {
@@ -40,7 +40,7 @@
   },
   {
    "term": "google",
-   "count": 17
+   "count": 18
   },
   {
    "term": "first",
@@ -169,14 +169,8 @@
    "created": "2026-10-11T07:00:23.000Z"
   },
   {
-   "text": "At TOKEN2049 Singapore, three sessions on Oct 7 are about agentic trading, and the question we keep asking is what an agent does when it needs to borrow. https://t.co/GMMNUGM84J",
-   "engagement": 169,
-   "url": "https://x.com/i/status/2106792118606053639",
-   "created": "2026-10-04T17:02:38.000Z"
-  },
-  {
    "text": "AI agents can now trade and launch on https://t.co/FxXxWrKsBz Connect our MCP to Claude Code or any MCP client. It signs with its own wallet. We never hold a key. Set the agent as referrer and it earns 5% of every swap f",
-   "engagement": 115,
+   "engagement": 116,
    "url": "https://x.com/i/status/2108965326318895154",
    "created": "2026-10-10T16:58:11.000Z"
   },
@@ -185,6 +179,12 @@
    "engagement": 89,
    "url": "https://x.com/i/status/2107153368376398160",
    "created": "2026-10-05T16:58:06.000Z"
+  },
+  {
+   "text": "6 GitHub repos that take you from zero to production AI agents: 1. awesome-llm-apps (140k+ stars) 100+ open-source agents, agent skills and RAG apps. Clone one, ship it, sell it. Apache-2.0. https://t.co/dtiF4vXGtJ 2. aw",
+   "engagement": 80,
+   "url": "https://x.com/i/status/2108579750650458417",
+   "created": "2026-10-09T15:26:02.000Z"
   }
  ]
 }
