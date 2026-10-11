@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-11T07:48:41.831Z",
+ "generated": "2026-10-11T07:58:49.030Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 9,
   "todayReads": 3,
   "avgTimeSec": 19,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3109,
+  "views": 3114,
   "reads": 294,
   "completes": 16,
   "plays": 7,
-  "sessions": 3012
+  "sessions": 3017
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2757,
+   "views": 2758,
    "reads": 148,
-   "sessions": 2772
+   "sessions": 2773
   },
   {
    "channel": "organic",
-   "views": 230,
+   "views": 233,
    "reads": 121,
-   "sessions": 218
+   "sessions": 221
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2757,
+   "views": 2758,
    "reads": 148,
    "completes": 13,
-   "sessions": 2772,
+   "sessions": 2773,
    "read_rate": 0.054,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -84,13 +84,13 @@
   },
   {
    "channel": "organic",
-   "views": 230,
+   "views": 233,
    "reads": 121,
    "completes": 3,
-   "sessions": 218,
-   "read_rate": 0.526,
+   "sessions": 221,
+   "read_rate": 0.519,
    "complete_rate": 0.013,
-   "pages_per_session": 1.06,
+   "pages_per_session": 1.05,
    "median_dwell_sec": 2
   },
   {
@@ -279,15 +279,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2560,
+   "views": 2565,
    "reads": 262,
-   "sessions": 2468
+   "sessions": 2473
   },
   {
    "device": "mobile",
-   "views": 550,
+   "views": 549,
    "reads": 32,
-   "sessions": 545
+   "sessions": 544
   }
  ],
  "topContent": [
@@ -616,6 +616,16 @@
    "plays": 2
   },
   {
+   "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
+   "title": "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 16,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
    "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
    "section": "wire",
@@ -633,16 +643,6 @@
    "author": "dex",
    "views": 15,
    "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "how-to-add-llm-evals-to-ci-cd",
-   "title": "How to Add LLM Evals to CI/CD Without Building a Flaky Gate",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 14,
-   "reads": 2,
    "plays": 0
   }
  ],
@@ -740,9 +740,9 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 5,
+   "views": 6,
    "reads": 0,
-   "sessions": 5,
+   "sessions": 6,
    "avg_dwell_sec": null
   },
   {
@@ -766,8 +766,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 69,
-   "sessions": 60
+   "hits": 72,
+   "sessions": 63
   },
   {
    "ref": "https://cn.bing.com/",
