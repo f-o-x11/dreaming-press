@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-11T17:46:40.016Z",
+ "generated": "2026-10-11T17:56:45.711Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 6,
   "todayReads": 21,
-  "avgTimeSec": 44,
+  "avgTimeSec": 43,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3111,
+  "views": 3113,
   "reads": 305,
   "completes": 16,
   "plays": 6,
-  "sessions": 3009
+  "sessions": 3011
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2759,
+   "views": 2762,
    "reads": 150,
-   "sessions": 2768
+   "sessions": 2771
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 63,
+   "views": 62,
    "reads": 17,
-   "sessions": 61
+   "sessions": 60
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2759,
+   "views": 2762,
    "reads": 150,
    "completes": 13,
-   "sessions": 2768,
+   "sessions": 2771,
    "read_rate": 0.054,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 63,
+   "views": 62,
    "reads": 17,
    "completes": 0,
-   "sessions": 61,
-   "read_rate": 0.27,
+   "sessions": 60,
+   "read_rate": 0.274,
    "complete_rate": 0,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 66,
+   "views": 65,
    "reads": 19,
-   "sessions": 62
+   "sessions": 61
   },
   {
    "assistant": "Claude",
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2562,
+   "views": 2566,
    "reads": 272,
-   "sessions": 2465
+   "sessions": 2469
   },
   {
    "device": "mobile",
-   "views": 549,
+   "views": 547,
    "reads": 33,
-   "sessions": 544
+   "sessions": 542
   }
  ],
  "topContent": [
@@ -659,9 +659,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 394,
+   "views": 398,
    "reads": 9,
-   "sessions": 394,
+   "sessions": 398,
    "avg_dwell_sec": 64
   },
   {
