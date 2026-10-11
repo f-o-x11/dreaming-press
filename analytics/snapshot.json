@@ -1,43 +1,43 @@
 {
- "generated": "2026-10-11T14:44:01.037Z",
+ "generated": "2026-10-11T14:54:03.861Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
-  "todayReads": 16,
-  "avgTimeSec": 43,
+  "readersNow": 3,
+  "todayReads": 18,
+  "avgTimeSec": 47,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3132,
-  "reads": 301,
+  "views": 3136,
+  "reads": 303,
   "completes": 16,
   "plays": 6,
-  "sessions": 3030
+  "sessions": 3033
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2781,
+   "views": 2782,
    "reads": 149,
-   "sessions": 2788
+   "sessions": 2790
   },
   {
    "channel": "organic",
-   "views": 236,
-   "reads": 123,
-   "sessions": 226
+   "views": 237,
+   "reads": 124,
+   "sessions": 227
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 64,
-   "reads": 16,
-   "sessions": 62
+   "views": 65,
+   "reads": 17,
+   "sessions": 63
   },
   {
    "channel": "ai",
-   "views": 22,
+   "views": 23,
    "reads": 8,
-   "sessions": 34
+   "sessions": 35
   },
   {
    "channel": "referral",
@@ -67,16 +67,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 19
+   "sessions": 20
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2781,
+   "views": 2782,
    "reads": 149,
    "completes": 13,
-   "sessions": 2788,
+   "sessions": 2790,
    "read_rate": 0.054,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -84,22 +84,22 @@
   },
   {
    "channel": "organic",
-   "views": 236,
-   "reads": 123,
+   "views": 237,
+   "reads": 124,
    "completes": 3,
-   "sessions": 226,
-   "read_rate": 0.521,
+   "sessions": 227,
+   "read_rate": 0.523,
    "complete_rate": 0.013,
    "pages_per_session": 1.04,
    "median_dwell_sec": 2
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 64,
-   "reads": 16,
+   "views": 65,
+   "reads": 17,
    "completes": 0,
-   "sessions": 62,
-   "read_rate": 0.25,
+   "sessions": 63,
+   "read_rate": 0.262,
    "complete_rate": 0,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -117,13 +117,13 @@
   },
   {
    "channel": "ai",
-   "views": 22,
+   "views": 23,
    "reads": 8,
    "completes": 0,
-   "sessions": 34,
-   "read_rate": 0.364,
+   "sessions": 35,
+   "read_rate": 0.348,
    "complete_rate": 0,
-   "pages_per_session": 0.65,
+   "pages_per_session": 0.66,
    "median_dwell_sec": 30
   },
   {
@@ -164,7 +164,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 19,
+   "sessions": 20,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -238,6 +238,11 @@
    "sessions": 1
   },
   {
+   "surface": "cited-list",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
    "surface": "article-byline",
    "clicks": 1,
    "sessions": 1
@@ -246,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 66,
-   "reads": 17,
-   "sessions": 63
+   "views": 68,
+   "reads": 18,
+   "sessions": 64
   },
   {
    "assistant": "Claude",
@@ -284,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2585,
-   "reads": 270,
-   "sessions": 2487
+   "views": 2587,
+   "reads": 271,
+   "sessions": 2489
   },
   {
    "device": "mobile",
-   "views": 547,
-   "reads": 31,
-   "sessions": 543
+   "views": 549,
+   "reads": 32,
+   "sessions": 544
   }
  ],
  "topContent": [
@@ -417,6 +422,16 @@
    "plays": 0
   },
   {
+   "slug": "how-to-cap-runaway-claude-code-subagents-web-searches",
+   "title": "How to Cap a Runaway Claude Code Agent: The New Per-Session Subagent and Web-Search Budgets",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 14,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "open-weight-llms-you-actually-run-locally-october-2026",
    "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
    "section": "stack",
@@ -433,16 +448,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 11,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
-   "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 10,
    "reads": 4,
    "plays": 0
   }
@@ -766,8 +771,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 85,
-   "sessions": 43
+   "hits": 87,
+   "sessions": 44
   },
   {
    "ref": "https://www.google.com/",
