@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-11T21:19Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-11T21:30Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -105,9 +105,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/gpt-6-1-sol-vs-claude-sonnet-5-5-coding.html  — 18 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (5164 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×96 · /posts/open-source-llm-for-coding-september-2026.html ×83 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×79
+- OAI-SearchBot (5168 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×96 · /posts/open-source-llm-for-coding-september-2026.html ×83 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×79
 - PerplexityBot (2880 verified): / ×23 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×21 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×19
-- ChatGPT-User (2897 verified): / ×755 · /posts/open-source-llm-for-coding-september-2026.html ×93 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×76
+- ChatGPT-User (2898 verified): / ×755 · /posts/open-source-llm-for-coding-september-2026.html ×93 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×76
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -122,14 +122,14 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agentic(46), build(46), agents(39), agent(34), founder(32), mcp(25), startup(25), learn(22), google(18), first(16), loops(16), course(15), his(15), 1-hour(14), scratch(14).
+Hot terms: agentic(46), build(45), agents(40), agent(34), founder(32), mcp(25), startup(25), learn(21), google(18), first(16), loops(16), course(15), his(15), 1-hour(14), scratch(14).
 Hashtags: #ai, #startup, #founder, #tech, #buildinginpublic, #preseed, #dev, #fintech, #aijobs, #aihiring.
 High-engagement posts to react to / cite:
-- "Preparing for interviews in the AI world? Bookmark 🔖 &amp; Share 👍 Here’s a practical roadmap I’d follow. Build skills you can demonstrate. 1. Learn the fundamentals Start with Generative AI for Everyone to understand " — https://x.com/i/status/2108942569682190654
 - "🚨 GOOGLE JUST DROPPED A 1-HOUR COURSE THAT TEACHES YOU AGENTIC AI FROM SCRATCH. No fluff. No expensive bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Cre" — https://x.com/i/status/2107810215680987529
 - "🚨 Google just released a FREE 1-hour course on Agentic AI. And it covers what people are paying hundreds of dollars to learn. In 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memo" — https://x.com/i/status/2107417395191030167
 - "🚨 GOOGLE JUST RELEASED A 1-HOUR COURSE TO LEARN AGENTIC AI FROM THE GROUND UP. No fluff. No overpriced bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Des" — https://x.com/i/status/2107108645121208429
 - "9,993 new tokens were first seen on Robinhood Chain on 7 Oct. Only a fraction keep building. Here's a simple guide to @HeyResearch, its Discovery and Terminal tools, and $HEY: https://t.co/DrQhWFGBEv https://t.co/nZfcBec" — https://x.com/i/status/2109177274566049934
+- "AI agents can now trade and launch on https://t.co/FxXxWrKsBz Connect our MCP to Claude Code or any MCP client. It signs with its own wallet. We never hold a key. Set the agent as referrer and it earns 5% of every swap f" — https://x.com/i/status/2108965326318895154
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (255 of 461 phrases have NO post, 34h ago)
@@ -155,7 +155,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 14464 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5164, GPTBot (OpenAI) 3523, Perplexity 2880, ChatGPT (user browsing) 2897).
+The real answer engines are crawling us — IP-verified: 14469 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5168, GPTBot (OpenAI) 3523, Perplexity 2880, ChatGPT (user browsing) 2898).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 488 crawler fetches
 - /build  — 352 crawler fetches
