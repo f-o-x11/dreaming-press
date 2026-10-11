@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-11T11:51:34.985Z",
+ "generated": "2026-10-11T12:01:50.407Z",
  "sampled": 79,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,11 +8,11 @@
  "topTerms": [
   {
    "term": "agentic",
-   "count": 49
+   "count": 48
   },
   {
    "term": "build",
-   "count": 45
+   "count": 43
   },
   {
    "term": "agents",
@@ -20,7 +20,7 @@
   },
   {
    "term": "agent",
-   "count": 36
+   "count": 34
   },
   {
    "term": "founder",
@@ -32,38 +32,26 @@
   },
   {
    "term": "mcp",
-   "count": 27
+   "count": 26
   },
   {
    "term": "learn",
-   "count": 19
+   "count": 20
   },
   {
    "term": "google",
-   "count": 18
-  },
-  {
-   "term": "first",
-   "count": 18
-  },
-  {
-   "term": "loops",
    "count": 17
   },
   {
+   "term": "first",
+   "count": 17
+  },
+  {
+   "term": "loops",
+   "count": 16
+  },
+  {
    "term": "course",
-   "count": 16
-  },
-  {
-   "term": "memory",
-   "count": 16
-  },
-  {
-   "term": "1-hour",
-   "count": 15
-  },
-  {
-   "term": "scratch",
    "count": 15
   },
   {
@@ -71,19 +59,31 @@
    "count": 15
   },
   {
+   "term": "memory",
+   "count": 15
+  },
+  {
    "term": "his",
    "count": 15
   },
   {
-   "term": "persistent",
+   "term": "1-hour",
    "count": 14
+  },
+  {
+   "term": "scratch",
+   "count": 14
+  },
+  {
+   "term": "minutes",
+   "count": 13
+  },
+  {
+   "term": "persistent",
+   "count": 13
   },
   {
    "term": "long-running",
-   "count": 14
-  },
-  {
-   "term": "dropped",
    "count": 13
   }
  ],
