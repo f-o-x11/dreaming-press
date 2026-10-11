@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-11T09:29:50.250Z",
+ "generated": "2026-10-11T09:40:00.330Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 1,
   "todayReads": 8,
-  "avgTimeSec": 32,
+  "avgTimeSec": 30,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3108,
+  "views": 3109,
   "reads": 296,
   "completes": 16,
   "plays": 6,
-  "sessions": 3008
+  "sessions": 3009
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2750,
+   "views": 2751,
    "reads": 146,
-   "sessions": 2762
+   "sessions": 2763
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2750,
+   "views": 2751,
    "reads": 146,
    "completes": 13,
-   "sessions": 2762,
+   "sessions": 2763,
    "read_rate": 0.053,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2561,
+   "views": 2562,
    "reads": 265,
-   "sessions": 2466
+   "sessions": 2467
   },
   {
    "device": "mobile",
@@ -601,6 +601,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "how-to-run-spec-driven-development-github-spec-kit",
    "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
    "section": "stack",
@@ -609,16 +619,6 @@
    "views": 19,
    "reads": 10,
    "plays": 2
-  },
-  {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 19,
-   "reads": 1,
-   "plays": 0
   },
   {
    "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
