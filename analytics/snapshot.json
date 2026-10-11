@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-11T08:39:18.362Z",
+ "generated": "2026-10-11T08:49:26.360Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 3,
-  "avgTimeSec": 19,
+  "readersNow": 2,
+  "todayReads": 5,
+  "avgTimeSec": 32,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3109,
-  "reads": 293,
+  "views": 3110,
+  "reads": 294,
   "completes": 16,
   "plays": 7,
-  "sessions": 3012
+  "sessions": 3010
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2753,
-   "reads": 147,
-   "sessions": 2768
+   "views": 2752,
+   "reads": 146,
+   "sessions": 2766
   },
   {
    "channel": "organic",
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 73,
-   "reads": 15,
-   "sessions": 71
+   "views": 74,
+   "reads": 16,
+   "sessions": 72
   },
   {
    "channel": "ai",
-   "views": 19,
-   "reads": 5,
-   "sessions": 32
+   "views": 20,
+   "reads": 6,
+   "sessions": 33
   },
   {
    "channel": "referral",
@@ -67,16 +67,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 19
+   "sessions": 20
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2753,
-   "reads": 147,
+   "views": 2752,
+   "reads": 146,
    "completes": 13,
-   "sessions": 2768,
+   "sessions": 2766,
    "read_rate": 0.053,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 73,
-   "reads": 15,
+   "views": 74,
+   "reads": 16,
    "completes": 0,
-   "sessions": 71,
-   "read_rate": 0.205,
+   "sessions": 72,
+   "read_rate": 0.216,
    "complete_rate": 0,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -117,14 +117,14 @@
   },
   {
    "channel": "ai",
-   "views": 19,
-   "reads": 5,
+   "views": 20,
+   "reads": 6,
    "completes": 0,
-   "sessions": 32,
-   "read_rate": 0.263,
+   "sessions": 33,
+   "read_rate": 0.3,
    "complete_rate": 0,
-   "pages_per_session": 0.59,
-   "median_dwell_sec": 29
+   "pages_per_session": 0.61,
+   "median_dwell_sec": 30
   },
   {
    "channel": "social",
@@ -164,7 +164,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 19,
+   "sessions": 20,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -179,8 +179,8 @@
   },
   {
    "surface": "nav-cmp",
-   "clicks": 6,
-   "sessions": 5
+   "clicks": 7,
+   "sessions": 6
   },
   {
    "surface": "dash-range",
@@ -189,8 +189,8 @@
   },
   {
    "surface": "btn-stats",
-   "clicks": 4,
-   "sessions": 4
+   "clicks": 5,
+   "sessions": 5
   },
   {
    "surface": "sb-right",
@@ -218,6 +218,11 @@
    "sessions": 1
   },
   {
+   "surface": "live",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
    "surface": "legal-links",
    "clicks": 1,
    "sessions": 1
@@ -241,9 +246,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 75,
-   "reads": 15,
-   "sessions": 72
+   "views": 77,
+   "reads": 17,
+   "sessions": 73
   },
   {
    "assistant": "Doubao",
@@ -279,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2559,
-   "reads": 261,
-   "sessions": 2467
+   "views": 2560,
+   "reads": 262,
+   "sessions": 2465
   },
   {
    "device": "mobile",
@@ -332,6 +337,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 35,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "clear-compact-remember-cross-vendor-agent-context-framework",
    "title": "Clear, Compact, or Remember? The Cross-Vendor Decision Framework for Long-Running Agent Context",
    "section": "stack",
@@ -362,26 +377,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 34,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "best-ai-agents-for-personal-use-september-2026",
-   "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
    "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
    "section": "stack",
@@ -409,6 +404,16 @@
    "author": "priya",
    "views": 6,
    "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "best-ai-agents-for-personal-use-september-2026",
+   "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 4,
    "plays": 0
   },
   {
@@ -534,12 +539,12 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 11,
+   "views": 35,
    "reads": 6,
    "plays": 0
   }
@@ -571,8 +576,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 34,
-   "reads": 5,
+   "views": 35,
+   "reads": 6,
    "plays": 0
   },
   {
@@ -649,9 +654,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 397,
+   "views": 398,
    "reads": 9,
-   "sessions": 397,
+   "sessions": 398,
    "avg_dwell_sec": 58
   },
   {
@@ -691,10 +696,10 @@
   },
   {
    "path": "/dashboard",
-   "views": 17,
-   "reads": 1,
-   "sessions": 10,
-   "avg_dwell_sec": 14
+   "views": 18,
+   "reads": 2,
+   "sessions": 11,
+   "avg_dwell_sec": 25
   },
   {
    "path": "/tools",
@@ -747,9 +752,9 @@
   },
   {
    "path": "/apps",
-   "views": 4,
+   "views": 5,
    "reads": 0,
-   "sessions": 4,
+   "sessions": 5,
    "avg_dwell_sec": null
   }
  ],
@@ -781,8 +786,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 13,
-   "sessions": 7
+   "hits": 15,
+   "sessions": 8
   },
   {
    "ref": "https://bing.com/",
@@ -796,8 +801,8 @@
   },
   {
    "ref": "nav-cmp",
-   "hits": 6,
-   "sessions": 5
+   "hits": 7,
+   "sessions": 6
   },
   {
    "ref": "dash-range",
