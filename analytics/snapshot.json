@@ -1,37 +1,37 @@
 {
- "generated": "2026-10-11T14:23:48.149Z",
+ "generated": "2026-10-11T14:33:55.782Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 15,
-  "avgTimeSec": 26,
+  "readersNow": 3,
+  "todayReads": 16,
+  "avgTimeSec": 47,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3131,
-  "reads": 300,
+  "views": 3128,
+  "reads": 301,
   "completes": 16,
   "plays": 6,
-  "sessions": 3029
+  "sessions": 3026
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2779,
+   "views": 2777,
    "reads": 149,
-   "sessions": 2785
+   "sessions": 2784
   },
   {
    "channel": "organic",
-   "views": 235,
-   "reads": 122,
-   "sessions": 225
+   "views": 236,
+   "reads": 123,
+   "sessions": 226
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 66,
+   "views": 64,
    "reads": 16,
-   "sessions": 64
+   "sessions": 62
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2779,
+   "views": 2777,
    "reads": 149,
    "completes": 13,
-   "sessions": 2785,
+   "sessions": 2784,
    "read_rate": 0.054,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -84,22 +84,22 @@
   },
   {
    "channel": "organic",
-   "views": 235,
-   "reads": 122,
+   "views": 236,
+   "reads": 123,
    "completes": 3,
-   "sessions": 225,
-   "read_rate": 0.519,
+   "sessions": 226,
+   "read_rate": 0.521,
    "complete_rate": 0.013,
    "pages_per_session": 1.04,
    "median_dwell_sec": 2
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 66,
+   "views": 64,
    "reads": 16,
    "completes": 0,
-   "sessions": 64,
-   "read_rate": 0.242,
+   "sessions": 62,
+   "read_rate": 0.25,
    "complete_rate": 0,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -246,9 +246,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 68,
+   "views": 66,
    "reads": 17,
-   "sessions": 65
+   "sessions": 63
   },
   {
    "assistant": "Claude",
@@ -284,15 +284,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2583,
-   "reads": 269,
-   "sessions": 2485
+   "views": 2581,
+   "reads": 270,
+   "sessions": 2483
   },
   {
    "device": "mobile",
-   "views": 548,
+   "views": 547,
    "reads": 31,
-   "sessions": 544
+   "sessions": 543
   }
  ],
  "topContent": [
@@ -302,8 +302,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 40,
-   "reads": 21,
+   "views": 41,
+   "reads": 22,
    "plays": 0
   },
   {
@@ -332,7 +332,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 54,
+   "views": 53,
    "reads": 8,
    "plays": 0
   },
@@ -504,8 +504,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 40,
-   "reads": 21,
+   "views": 41,
+   "reads": 22,
    "plays": 0
   },
   {
@@ -524,7 +524,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 54,
+   "views": 53,
    "reads": 8,
    "plays": 0
   },
@@ -556,7 +556,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 54,
+   "views": 53,
    "reads": 8,
    "plays": 0
   },
@@ -566,8 +566,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 40,
-   "reads": 21,
+   "views": 41,
+   "reads": 22,
    "plays": 0
   },
   {
@@ -621,6 +621,16 @@
    "plays": 2
   },
   {
+   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
+   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
+   "author": "dex",
+   "views": 16,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
    "title": "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix",
    "section": "stack",
@@ -638,16 +648,6 @@
    "author": "priya",
    "views": 16,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
-   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 1,
    "plays": 0
   }
  ],
@@ -675,9 +675,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 44,
+   "views": 43,
    "reads": 0,
-   "sessions": 44,
+   "sessions": 43,
    "avg_dwell_sec": null
   },
   {
@@ -766,8 +766,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 83,
-   "sessions": 42
+   "hits": 85,
+   "sessions": 43
   },
   {
    "ref": "https://www.google.com/",
