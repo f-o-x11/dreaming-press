@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-11T17:26:19.215Z",
+ "generated": "2026-10-11T17:36:24.443Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14194,
+ "verifiedAiHits": 14198,
  "logsScanned": 30,
  "windowStart": "2026-09-27",
  "windowEnd": "2026-10-11",
- "totalHits": 124154,
- "aiHits": 102429,
+ "totalHits": 124208,
+ "aiHits": 102477,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27410,
+   "hits": 27426,
    "verifiedHits": 0,
    "firstSeen": "2026-09-27",
    "lastSeen": "2026-10-11",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14948,
+   "hits": 14950,
    "verifiedHits": 0,
    "firstSeen": "2026-09-27",
    "lastSeen": "2026-10-11",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14625,
+   "hits": 14633,
    "verifiedHits": 0,
    "firstSeen": "2026-09-27",
    "lastSeen": "2026-10-11",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7080,
-   "verifiedHits": 7045,
+   "hits": 7083,
+   "verifiedHits": 7048,
    "firstSeen": "2026-09-27",
    "lastSeen": "2026-10-11",
    "topPaths": [
@@ -202,7 +202,7 @@
     },
     {
      "path": "/search",
-     "hits": 30
+     "hits": 31
     }
    ],
    "verifiable": true
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3402,
+   "hits": 3405,
    "verifiedHits": 0,
    "firstSeen": "2026-09-27",
    "lastSeen": "2026-10-11",
@@ -377,8 +377,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3000,
-   "verifiedHits": 2796,
+   "hits": 3001,
+   "verifiedHits": 2797,
    "firstSeen": "2026-09-27",
    "lastSeen": "2026-10-11",
    "topPaths": [
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2995,
-   "verifiedHits": 2864,
+   "hits": 2998,
+   "verifiedHits": 2867,
    "firstSeen": "2026-09-27",
    "lastSeen": "2026-10-11",
    "topPaths": [
     {
      "path": "/",
-     "hits": 745
+     "hits": 746
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -604,6 +604,39 @@
    "verifiable": false
   },
   {
+   "name": "CCBot",
+   "label": "Common Crawl (feeds many LLMs)",
+   "category": "ai",
+   "home": "https://commoncrawl.org/ccbot",
+   "hits": 148,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-27",
+   "lastSeen": "2026-10-11",
+   "topPaths": [
+    {
+     "path": "/read-document",
+     "hits": 3
+    },
+    {
+     "path": "/feast/read-document",
+     "hits": 3
+    },
+    {
+     "path": "/langflow/api/v1/validate/code",
+     "hits": 3
+    },
+    {
+     "path": "/%2eenv",
+     "hits": 2
+    },
+    {
+     "path": "/v1/graphql",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "MistralAI",
    "label": "Mistral AI",
    "category": "ai",
@@ -631,39 +664,6 @@
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 2
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "CCBot",
-   "label": "Common Crawl (feeds many LLMs)",
-   "category": "ai",
-   "home": "https://commoncrawl.org/ccbot",
-   "hits": 130,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-27",
-   "lastSeen": "2026-10-11",
-   "topPaths": [
-    {
-     "path": "/read-document",
-     "hits": 3
-    },
-    {
-     "path": "/feast/read-document",
-     "hits": 3
-    },
-    {
-     "path": "/langflow/api/v1/validate/code",
-     "hits": 3
-    },
-    {
-     "path": "/%2eenv",
-     "hits": 2
-    },
-    {
-     "path": "/v1/graphql",
      "hits": 2
     }
    ],
