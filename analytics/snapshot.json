@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-11T10:50:58.428Z",
+ "generated": "2026-10-11T11:01:00.325Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
+  "readersNow": 1,
   "todayReads": 9,
   "avgTimeSec": 30,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3115,
+  "views": 3114,
   "reads": 297,
   "completes": 16,
   "plays": 6,
-  "sessions": 3013
+  "sessions": 3012
  },
  "channels": [
   {
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 72,
+   "views": 71,
    "reads": 16,
-   "sessions": 70
+   "sessions": 69
   },
   {
    "channel": "ai",
@@ -95,11 +95,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 72,
+   "views": 71,
    "reads": 16,
    "completes": 0,
-   "sessions": 70,
-   "read_rate": 0.222,
+   "sessions": 69,
+   "read_rate": 0.225,
    "complete_rate": 0,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -246,9 +246,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 75,
+   "views": 74,
    "reads": 17,
-   "sessions": 71
+   "sessions": 70
   },
   {
    "assistant": "Claude",
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2567,
+   "views": 2566,
    "reads": 266,
-   "sessions": 2470
+   "sessions": 2469
   },
   {
    "device": "mobile",
@@ -591,16 +591,6 @@
    "plays": 0
   },
   {
-   "slug": "best-open-source-rl-frameworks-for-training-agents",
-   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
    "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
    "section": "stack",
@@ -608,6 +598,16 @@
    "author": "dex",
    "views": 20,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "best-open-source-rl-frameworks-for-training-agents",
+   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 0,
    "plays": 0
   },
   {
@@ -654,9 +654,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 397,
+   "views": 398,
    "reads": 9,
-   "sessions": 397,
+   "sessions": 398,
    "avg_dwell_sec": 58
   },
   {
@@ -675,9 +675,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 45,
+   "views": 44,
    "reads": 0,
-   "sessions": 45,
+   "sessions": 44,
    "avg_dwell_sec": null
   },
   {
