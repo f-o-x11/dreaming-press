@@ -1,43 +1,43 @@
 {
- "generated": "2026-10-11T12:22:00.665Z",
+ "generated": "2026-10-11T12:32:10.464Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 9,
+  "readersNow": 8,
+  "todayReads": 12,
   "avgTimeSec": 28,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3119,
-  "reads": 297,
+  "views": 3125,
+  "reads": 298,
   "completes": 16,
   "plays": 6,
-  "sessions": 3017
+  "sessions": 3022
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2765,
-   "reads": 147,
-   "sessions": 2775
+   "views": 2774,
+   "reads": 149,
+   "sessions": 2780
   },
   {
    "channel": "organic",
-   "views": 233,
-   "reads": 121,
+   "views": 232,
+   "reads": 120,
    "sessions": 221
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 69,
+   "views": 68,
    "reads": 16,
-   "sessions": 67
+   "sessions": 66
   },
   {
    "channel": "ai",
-   "views": 23,
+   "views": 22,
    "reads": 8,
-   "sessions": 36
+   "sessions": 35
   },
   {
    "channel": "referral",
@@ -67,39 +67,39 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 20
+   "sessions": 19
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2765,
-   "reads": 147,
+   "views": 2774,
+   "reads": 149,
    "completes": 13,
-   "sessions": 2775,
-   "read_rate": 0.053,
+   "sessions": 2780,
+   "read_rate": 0.054,
    "complete_rate": 0.005,
    "pages_per_session": 1,
    "median_dwell_sec": 7
   },
   {
    "channel": "organic",
-   "views": 233,
-   "reads": 121,
+   "views": 232,
+   "reads": 120,
    "completes": 3,
    "sessions": 221,
-   "read_rate": 0.519,
+   "read_rate": 0.517,
    "complete_rate": 0.013,
    "pages_per_session": 1.05,
    "median_dwell_sec": 2
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 69,
+   "views": 68,
    "reads": 16,
    "completes": 0,
-   "sessions": 67,
-   "read_rate": 0.232,
+   "sessions": 66,
+   "read_rate": 0.235,
    "complete_rate": 0,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -117,14 +117,14 @@
   },
   {
    "channel": "ai",
-   "views": 23,
+   "views": 22,
    "reads": 8,
    "completes": 0,
-   "sessions": 36,
-   "read_rate": 0.348,
+   "sessions": 35,
+   "read_rate": 0.364,
    "complete_rate": 0,
-   "pages_per_session": 0.64,
-   "median_dwell_sec": 30
+   "pages_per_session": 0.63,
+   "median_dwell_sec": 29
   },
   {
    "channel": "social",
@@ -164,7 +164,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 20,
+   "sessions": 19,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -179,8 +179,8 @@
   },
   {
    "surface": "nav-cmp",
-   "clicks": 7,
-   "sessions": 6
+   "clicks": 6,
+   "sessions": 5
   },
   {
    "surface": "dash-range",
@@ -246,9 +246,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 72,
+   "views": 70,
    "reads": 17,
-   "sessions": 68
+   "sessions": 67
   },
   {
    "assistant": "Claude",
@@ -284,15 +284,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2569,
-   "reads": 266,
-   "sessions": 2472
+   "views": 2577,
+   "reads": 267,
+   "sessions": 2478
   },
   {
    "device": "mobile",
-   "views": 550,
+   "views": 548,
    "reads": 31,
-   "sessions": 545
+   "sessions": 544
   }
  ],
  "topContent": [
@@ -317,16 +317,6 @@
    "plays": 2
   },
   {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 55,
-   "reads": 9,
-   "plays": 0
-  },
-  {
    "slug": "vllm-rust-frontend",
    "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
    "section": "wire",
@@ -334,6 +324,16 @@
    "author": "dex",
    "views": 11,
    "reads": 9,
+   "plays": 0
+  },
+  {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 54,
+   "reads": 8,
    "plays": 0
   },
   {
@@ -509,16 +509,6 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 55,
-   "reads": 9,
-   "plays": 0
-  },
-  {
    "slug": "vllm-rust-frontend",
    "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
    "section": "wire",
@@ -526,6 +516,16 @@
    "author": "dex",
    "views": 11,
    "reads": 9,
+   "plays": 0
+  },
+  {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 54,
+   "reads": 8,
    "plays": 0
   },
   {
@@ -556,8 +556,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 55,
-   "reads": 9,
+   "views": 54,
+   "reads": 8,
    "plays": 0
   },
   {
@@ -654,10 +654,10 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 396,
+   "views": 395,
    "reads": 9,
-   "sessions": 396,
-   "avg_dwell_sec": 62
+   "sessions": 395,
+   "avg_dwell_sec": 64
   },
   {
    "path": "/",
@@ -696,17 +696,17 @@
   },
   {
    "path": "/dashboard",
-   "views": 18,
+   "views": 19,
    "reads": 2,
-   "sessions": 11,
+   "sessions": 12,
    "avg_dwell_sec": 25
   },
   {
    "path": "/tools",
-   "views": 15,
+   "views": 14,
    "reads": 1,
-   "sessions": 15,
-   "avg_dwell_sec": 125
+   "sessions": 14,
+   "avg_dwell_sec": 154
   },
   {
    "path": "/agents.html",
@@ -766,7 +766,7 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 83,
+   "hits": 81,
    "sessions": 41
   },
   {
@@ -806,8 +806,8 @@
   },
   {
    "ref": "nav-cmp",
-   "hits": 7,
-   "sessions": 6
+   "hits": 6,
+   "sessions": 5
   }
  ]
 }
