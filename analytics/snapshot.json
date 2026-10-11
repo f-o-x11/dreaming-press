@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-11T05:47:13.961Z",
+ "generated": "2026-10-11T05:57:21.352Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 2,
-  "avgTimeSec": 34,
+  "readersNow": 4,
+  "todayReads": 3,
+  "avgTimeSec": 29,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3097,
-  "reads": 293,
+  "views": 3100,
+  "reads": 294,
   "completes": 16,
   "plays": 7,
-  "sessions": 3003
+  "sessions": 3005
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2747,
+   "views": 2749,
    "reads": 148,
-   "sessions": 2764
+   "sessions": 2766
   },
   {
    "channel": "organic",
@@ -29,8 +29,8 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 72,
-   "reads": 14,
+   "views": 73,
+   "reads": 15,
    "sessions": 71
   },
   {
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2747,
+   "views": 2749,
    "reads": 148,
    "completes": 13,
-   "sessions": 2764,
+   "sessions": 2766,
    "read_rate": 0.054,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -95,13 +95,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 72,
-   "reads": 14,
+   "views": 73,
+   "reads": 15,
    "completes": 0,
    "sessions": 71,
-   "read_rate": 0.194,
+   "read_rate": 0.205,
    "complete_rate": 0,
-   "pages_per_session": 1.01,
+   "pages_per_session": 1.03,
    "median_dwell_sec": null
   },
   {
@@ -241,8 +241,8 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 74,
-   "reads": 14,
+   "views": 75,
+   "reads": 15,
    "sessions": 72
   },
   {
@@ -279,9 +279,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2547,
-   "reads": 261,
-   "sessions": 2458
+   "views": 2550,
+   "reads": 262,
+   "sessions": 2460
   },
   {
    "device": "mobile",
@@ -377,7 +377,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 33,
+   "views": 34,
    "reads": 5,
    "plays": 0
   },
@@ -571,7 +571,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 33,
+   "views": 34,
    "reads": 5,
    "plays": 0
   },
@@ -781,7 +781,7 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 11,
+   "hits": 13,
    "sessions": 7
   },
   {
