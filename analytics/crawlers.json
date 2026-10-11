@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-11T17:56:45.113Z",
+ "generated": "2026-10-11T18:06:59.810Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14221,
+ "verifiedAiHits": 14224,
  "logsScanned": 30,
  "windowStart": "2026-09-27",
  "windowEnd": "2026-10-11",
- "totalHits": 124324,
- "aiHits": 102574,
+ "totalHits": 124396,
+ "aiHits": 102642,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27437,
+   "hits": 27443,
    "verifiedHits": 0,
    "firstSeen": "2026-09-27",
    "lastSeen": "2026-10-11",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14952,
+   "hits": 14989,
    "verifiedHits": 0,
    "firstSeen": "2026-09-27",
    "lastSeen": "2026-10-11",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14651,
+   "hits": 14658,
    "verifiedHits": 0,
    "firstSeen": "2026-09-27",
    "lastSeen": "2026-10-11",
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 10769,
+   "hits": 10770,
    "verifiedHits": 0,
    "firstSeen": "2026-09-27",
    "lastSeen": "2026-10-11",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7094,
-   "verifiedHits": 7059,
+   "hits": 7095,
+   "verifiedHits": 7060,
    "firstSeen": "2026-09-27",
    "lastSeen": "2026-10-11",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 5863,
+   "hits": 5865,
    "verifiedHits": 0,
    "firstSeen": "2026-09-27",
    "lastSeen": "2026-10-11",
@@ -311,8 +311,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 3629,
-   "verifiedHits": 3521,
+   "hits": 3630,
+   "verifiedHits": 3522,
    "firstSeen": "2026-09-27",
    "lastSeen": "2026-10-11",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3411,
+   "hits": 3412,
    "verifiedHits": 0,
    "firstSeen": "2026-09-27",
    "lastSeen": "2026-10-11",
@@ -377,8 +377,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3021,
-   "verifiedHits": 2817,
+   "hits": 3023,
+   "verifiedHits": 2819,
    "firstSeen": "2026-09-27",
    "lastSeen": "2026-10-11",
    "topPaths": [
@@ -571,6 +571,39 @@
    "verifiable": false
   },
   {
+   "name": "CCBot",
+   "label": "Common Crawl (feeds many LLMs)",
+   "category": "ai",
+   "home": "https://commoncrawl.org/ccbot",
+   "hits": 199,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-27",
+   "lastSeen": "2026-10-11",
+   "topPaths": [
+    {
+     "path": "/read-document",
+     "hits": 3
+    },
+    {
+     "path": "/feast/read-document",
+     "hits": 3
+    },
+    {
+     "path": "/langflow/api/v1/validate/code",
+     "hits": 3
+    },
+    {
+     "path": "/%2eenv",
+     "hits": 2
+    },
+    {
+     "path": "/v1/graphql",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "DuckAssistBot",
    "label": "DuckDuckGo AI",
    "category": "ai",
@@ -598,39 +631,6 @@
     },
     {
      "path": "/",
-     "hits": 2
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "CCBot",
-   "label": "Common Crawl (feeds many LLMs)",
-   "category": "ai",
-   "home": "https://commoncrawl.org/ccbot",
-   "hits": 185,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-27",
-   "lastSeen": "2026-10-11",
-   "topPaths": [
-    {
-     "path": "/read-document",
-     "hits": 3
-    },
-    {
-     "path": "/feast/read-document",
-     "hits": 3
-    },
-    {
-     "path": "/langflow/api/v1/validate/code",
-     "hits": 3
-    },
-    {
-     "path": "/%2eenv",
-     "hits": 2
-    },
-    {
-     "path": "/v1/graphql",
      "hits": 2
     }
    ],
