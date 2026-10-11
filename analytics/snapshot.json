@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-11T01:54:00.424Z",
+ "generated": "2026-10-11T02:04:13.647Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 5,
   "todayReads": 1,
-  "avgTimeSec": 0,
+  "avgTimeSec": 2,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3117,
+  "views": 3118,
   "reads": 296,
   "completes": 16,
   "plays": 7,
-  "sessions": 3022
+  "sessions": 3023
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2760,
+   "views": 2763,
    "reads": 150,
-   "sessions": 2776
+   "sessions": 2779
   },
   {
    "channel": "organic",
-   "views": 226,
+   "views": 225,
    "reads": 122,
-   "sessions": 214
+   "sessions": 213
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 26,
+   "views": 25,
    "reads": 3,
-   "sessions": 24
+   "sessions": 23
   },
   {
    "channel": "social",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2760,
+   "views": 2763,
    "reads": 150,
    "completes": 13,
-   "sessions": 2776,
+   "sessions": 2779,
    "read_rate": 0.054,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 226,
+   "views": 225,
    "reads": 122,
    "completes": 3,
-   "sessions": 214,
-   "read_rate": 0.54,
+   "sessions": 213,
+   "read_rate": 0.542,
    "complete_rate": 0.013,
    "pages_per_session": 1.06,
    "median_dwell_sec": 3
@@ -106,13 +106,13 @@
   },
   {
    "channel": "referral",
-   "views": 26,
+   "views": 25,
    "reads": 3,
    "completes": 0,
-   "sessions": 24,
-   "read_rate": 0.115,
+   "sessions": 23,
+   "read_rate": 0.12,
    "complete_rate": 0,
-   "pages_per_session": 1.08,
+   "pages_per_session": 1.09,
    "median_dwell_sec": null
   },
   {
@@ -279,9 +279,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2564,
+   "views": 2565,
    "reads": 264,
-   "sessions": 2474
+   "sessions": 2475
   },
   {
    "device": "mobile",
@@ -663,10 +663,10 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 55,
+   "views": 56,
    "reads": 0,
-   "sessions": 55,
-   "avg_dwell_sec": 41
+   "sessions": 56,
+   "avg_dwell_sec": 21
   },
   {
    "path": "/best/:cat",
