@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-11T15:54:56.573Z",
+ "generated": "2026-10-11T16:05:00.586Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 19,
   "avgTimeSec": 46,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3122,
+  "views": 3119,
   "reads": 304,
   "completes": 16,
   "plays": 6,
-  "sessions": 3019
+  "sessions": 3016
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2767,
+   "views": 2765,
    "reads": 149,
-   "sessions": 2775
+   "sessions": 2773
   },
   {
    "channel": "organic",
-   "views": 238,
+   "views": 237,
    "reads": 124,
-   "sessions": 228
+   "sessions": 227
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2767,
+   "views": 2765,
    "reads": 149,
    "completes": 13,
-   "sessions": 2775,
+   "sessions": 2773,
    "read_rate": 0.054,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 238,
+   "views": 237,
    "reads": 124,
    "completes": 3,
-   "sessions": 228,
-   "read_rate": 0.521,
+   "sessions": 227,
+   "read_rate": 0.523,
    "complete_rate": 0.013,
    "pages_per_session": 1.04,
    "median_dwell_sec": 2
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2572,
+   "views": 2569,
    "reads": 271,
-   "sessions": 2474
+   "sessions": 2471
   },
   {
    "device": "mobile",
@@ -422,22 +422,22 @@
    "plays": 0
   },
   {
-   "slug": "how-to-cap-runaway-claude-code-subagents-web-searches",
-   "title": "How to Cap a Runaway Claude Code Agent: The New Per-Session Subagent and Web-Search Budgets",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 14,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "open-weight-llms-you-actually-run-locally-october-2026",
    "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 14,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "how-to-cap-runaway-claude-code-subagents-web-searches",
+   "title": "How to Cap a Runaway Claude Code Agent: The New Per-Session Subagent and Web-Search Budgets",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 13,
    "reads": 4,
    "plays": 0
   },
@@ -756,11 +756,11 @@
    "avg_dwell_sec": null
   },
   {
-   "path": "/about.html",
-   "views": 4,
+   "path": "/apps",
+   "views": 5,
    "reads": 0,
-   "sessions": 3,
-   "avg_dwell_sec": 20
+   "sessions": 5,
+   "avg_dwell_sec": null
   }
  ],
  "referrers": [
@@ -771,8 +771,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 87,
-   "sessions": 44
+   "hits": 86,
+   "sessions": 43
   },
   {
    "ref": "https://www.google.com/",
