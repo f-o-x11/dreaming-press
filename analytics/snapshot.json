@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-11T09:09:40.452Z",
+ "generated": "2026-10-11T09:19:41.186Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 6,
   "avgTimeSec": 32,
   "postsThisWeek": 13
  },
  "funnel": {
   "views": 3110,
-  "reads": 295,
+  "reads": 294,
   "completes": 16,
-  "plays": 7,
+  "plays": 6,
   "sessions": 3010
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2752,
-   "reads": 147,
-   "sessions": 2766
+   "views": 2750,
+   "reads": 146,
+   "sessions": 2764
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 20,
+   "views": 22,
    "reads": 6,
-   "sessions": 33
+   "sessions": 35
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2752,
-   "reads": 147,
+   "views": 2750,
+   "reads": 146,
    "completes": 13,
-   "sessions": 2766,
+   "sessions": 2764,
    "read_rate": 0.053,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -117,13 +117,13 @@
   },
   {
    "channel": "ai",
-   "views": 20,
+   "views": 22,
    "reads": 6,
    "completes": 0,
-   "sessions": 33,
-   "read_rate": 0.3,
+   "sessions": 35,
+   "read_rate": 0.273,
    "complete_rate": 0,
-   "pages_per_session": 0.61,
+   "pages_per_session": 0.63,
    "median_dwell_sec": 30
   },
   {
@@ -251,16 +251,16 @@
    "sessions": 73
   },
   {
-   "assistant": "Doubao",
-   "views": 3,
+   "assistant": "Claude",
+   "views": 4,
    "reads": 2,
    "sessions": 3
   },
   {
-   "assistant": "Claude",
-   "views": 2,
+   "assistant": "Doubao",
+   "views": 3,
    "reads": 2,
-   "sessions": 1
+   "sessions": 3
   },
   {
    "assistant": "Copilot",
@@ -284,15 +284,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2560,
+   "views": 2562,
    "reads": 263,
-   "sessions": 2465
+   "sessions": 2467
   },
   {
    "device": "mobile",
-   "views": 550,
-   "reads": 32,
-   "sessions": 545
+   "views": 548,
+   "reads": 31,
+   "sessions": 543
   }
  ],
  "topContent": [
@@ -489,16 +489,6 @@
    "plays": 1
   },
   {
-   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
-   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 5,
-   "reads": 1,
-   "plays": 1
-  },
-  {
    "slug": "2026-09-15-founders-wire-pace-the-frontier-slowdown-market-reprices-ai-trade",
    "title": "The Founder's Wire, September 15: The Labs Asked for a Brake, and the Market Repriced the Whole AI Trade in a Day",
    "section": "wire",
@@ -545,6 +535,16 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 35,
+   "reads": 6,
+   "plays": 0
+  },
+  {
+   "slug": "open-source-llm-for-coding-september-2026",
+   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 11,
    "reads": 6,
    "plays": 0
   }
@@ -805,9 +805,9 @@
    "sessions": 6
   },
   {
-   "ref": "dash-range",
+   "ref": "https://claude.ai/",
    "hits": 6,
-   "sessions": 1
+   "sessions": 3
   }
  ]
 }
