@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-11T13:02:34.844Z",
+ "generated": "2026-10-11T13:12:51.408Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 12,
-  "avgTimeSec": 25,
+  "readersNow": 7,
+  "todayReads": 13,
+  "avgTimeSec": 27,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3125,
-  "reads": 297,
+  "views": 3129,
+  "reads": 298,
   "completes": 16,
   "plays": 6,
-  "sessions": 3023
+  "sessions": 3027
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2776,
+   "views": 2779,
    "reads": 149,
-   "sessions": 2781
+   "sessions": 2785
   },
   {
    "channel": "organic",
-   "views": 231,
-   "reads": 119,
-   "sessions": 221
+   "views": 232,
+   "reads": 120,
+   "sessions": 222
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2776,
+   "views": 2779,
    "reads": 149,
    "completes": 13,
-   "sessions": 2781,
+   "sessions": 2785,
    "read_rate": 0.054,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 231,
-   "reads": 119,
+   "views": 232,
+   "reads": 120,
    "completes": 3,
-   "sessions": 221,
-   "read_rate": 0.515,
+   "sessions": 222,
+   "read_rate": 0.517,
    "complete_rate": 0.013,
    "pages_per_session": 1.05,
    "median_dwell_sec": 2
@@ -284,9 +284,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2577,
-   "reads": 266,
-   "sessions": 2479
+   "views": 2581,
+   "reads": 267,
+   "sessions": 2483
   },
   {
    "device": "mobile",
@@ -387,6 +387,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
+   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 10,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "lightpanda-vs-playwright-vs-browserless-headless-browser-ai-agents",
    "title": "Lightpanda vs Playwright vs Browserless: Picking a Headless Browser for AI Agents",
    "section": "stack",
@@ -433,16 +443,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 10,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
-   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 9,
    "reads": 4,
    "plays": 0
   }
@@ -761,8 +761,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 100,
-   "sessions": 53
+   "hits": 102,
+   "sessions": 54
   },
   {
    "ref": "https://duckduckgo.com/",
