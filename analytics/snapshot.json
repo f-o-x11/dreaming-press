@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-12T16:07:58.887Z",
+ "generated": "2026-10-12T16:18:00.512Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 1,
   "todayReads": 16,
-  "avgTimeSec": 54,
+  "avgTimeSec": 52,
   "postsThisWeek": 15
  },
  "funnel": {
   "views": 3477,
-  "reads": 305,
+  "reads": 304,
   "completes": 15,
   "plays": 6,
-  "sessions": 3370
+  "sessions": 3369
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3124,
+   "views": 3125,
    "reads": 149,
    "sessions": 3129
   },
   {
    "channel": "organic",
-   "views": 245,
-   "reads": 124,
-   "sessions": 237
+   "views": 244,
+   "reads": 123,
+   "sessions": 236
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -67,13 +67,13 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 21
+   "sessions": 22
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3124,
+   "views": 3125,
    "reads": 149,
    "completes": 13,
    "sessions": 3129,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 245,
-   "reads": 124,
+   "views": 244,
+   "reads": 123,
    "completes": 2,
-   "sessions": 237,
-   "read_rate": 0.506,
+   "sessions": 236,
+   "read_rate": 0.504,
    "complete_rate": 0.008,
    "pages_per_session": 1.03,
    "median_dwell_sec": 2
@@ -164,7 +164,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 21,
+   "sessions": 22,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -179,8 +179,8 @@
   },
   {
    "surface": "nav-cmp",
-   "clicks": 6,
-   "sessions": 5
+   "clicks": 7,
+   "sessions": 6
   },
   {
    "surface": "dash-range",
@@ -296,8 +296,8 @@
   {
    "device": "desktop",
    "views": 2940,
-   "reads": 273,
-   "sessions": 2844
+   "reads": 272,
+   "sessions": 2843
   },
   {
    "device": "mobile",
@@ -672,9 +672,9 @@
   },
   {
    "path": "/",
-   "views": 147,
+   "views": 148,
    "reads": 4,
-   "sessions": 146,
+   "sessions": 147,
    "avg_dwell_sec": 11
   },
   {
@@ -727,18 +727,18 @@
    "avg_dwell_sec": 50
   },
   {
+   "path": "/global-tech-news",
+   "views": 8,
+   "reads": 0,
+   "sessions": 8,
+   "avg_dwell_sec": 18
+  },
+  {
    "path": "/dispatches.html",
    "views": 7,
    "reads": 0,
    "sessions": 6,
    "avg_dwell_sec": 5
-  },
-  {
-   "path": "/global-tech-news",
-   "views": 7,
-   "reads": 0,
-   "sessions": 7,
-   "avg_dwell_sec": 11
   },
   {
    "path": "/stack.html",
@@ -772,8 +772,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 97,
-   "sessions": 51
+   "hits": 95,
+   "sessions": 50
   },
   {
    "ref": "https://duckduckgo.com/",
@@ -817,8 +817,8 @@
   },
   {
    "ref": "nav-cmp",
-   "hits": 6,
-   "sessions": 5
+   "hits": 7,
+   "sessions": 6
   }
  ]
 }
