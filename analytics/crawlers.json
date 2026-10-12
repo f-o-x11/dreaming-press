@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-12T03:15:33.298Z",
+ "generated": "2026-10-12T03:25:45.615Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14415,
+ "verifiedAiHits": 14420,
  "logsScanned": 30,
  "windowStart": "2026-09-28",
  "windowEnd": "2026-10-12",
- "totalHits": 120888,
- "aiHits": 100112,
+ "totalHits": 120966,
+ "aiHits": 100184,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 26408,
+   "hits": 26433,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14646,
+   "hits": 14678,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -94,15 +94,15 @@
      "hits": 8
     },
     {
+     "path": "/posts/openai-sponsored-agents-chatgpt-ads-founder-distribution-playbook.html",
+     "hits": 6
+    },
+    {
      "path": "/posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html",
      "hits": 6
     },
     {
      "path": "/posts/2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader.html",
-     "hits": 6
-    },
-    {
-     "path": "/posts/llm-reranker-vs-cross-encoder-vs-listwise.html",
      "hits": 6
     }
    ],
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14010,
+   "hits": 14018,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6770,
-   "verifiedHits": 6752,
+   "hits": 6772,
+   "verifiedHits": 6754,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
    "topPaths": [
@@ -190,7 +190,7 @@
     },
     {
      "path": "/build",
-     "hits": 41
+     "hits": 42
     },
     {
      "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 5506,
+   "hits": 5509,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5176,
-   "verifiedHits": 5110,
+   "hits": 5180,
+   "verifiedHits": 5114,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3233,
+   "hits": 3234,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2895,
-   "verifiedHits": 2779,
+   "hits": 2896,
+   "verifiedHits": 2780,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1965,
+   "hits": 1967,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -458,7 +458,7 @@
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 112
+     "hits": 113
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",

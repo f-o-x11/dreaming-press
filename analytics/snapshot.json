@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-12T03:15:33.970Z",
+ "generated": "2026-10-12T03:25:46.138Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 13,
   "todayReads": 1,
-  "avgTimeSec": 46,
+  "avgTimeSec": 35,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3131,
+  "views": 3139,
   "reads": 306,
   "completes": 15,
   "plays": 6,
-  "sessions": 3028
+  "sessions": 3035
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2785,
+   "views": 2788,
    "reads": 151,
-   "sessions": 2794
+   "sessions": 2796
   },
   {
    "channel": "organic",
-   "views": 235,
+   "views": 239,
    "reads": 124,
-   "sessions": 226
+   "sessions": 230
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 24,
+   "views": 25,
    "reads": 3,
-   "sessions": 22
+   "sessions": 23
   },
   {
    "channel": "social",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2785,
+   "views": 2788,
    "reads": 151,
    "completes": 12,
-   "sessions": 2794,
+   "sessions": 2796,
    "read_rate": 0.054,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 235,
+   "views": 239,
    "reads": 124,
    "completes": 3,
-   "sessions": 226,
-   "read_rate": 0.528,
+   "sessions": 230,
+   "read_rate": 0.519,
    "complete_rate": 0.013,
    "pages_per_session": 1.04,
    "median_dwell_sec": 2
@@ -106,11 +106,11 @@
   },
   {
    "channel": "referral",
-   "views": 24,
+   "views": 25,
    "reads": 3,
    "completes": 0,
-   "sessions": 22,
-   "read_rate": 0.125,
+   "sessions": 23,
+   "read_rate": 0.12,
    "complete_rate": 0,
    "pages_per_session": 1.09,
    "median_dwell_sec": null
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2588,
+   "views": 2596,
    "reads": 272,
-   "sessions": 2495
+   "sessions": 2502
   },
   {
    "device": "mobile",
@@ -317,7 +317,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"captivating\"]",
    "author": "rosalinda",
-   "views": 19,
+   "views": 20,
    "reads": 10,
    "plays": 2
   },
@@ -459,7 +459,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"captivating\"]",
    "author": "rosalinda",
-   "views": 19,
+   "views": 20,
    "reads": 10,
    "plays": 2
   },
@@ -621,7 +621,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"captivating\"]",
    "author": "rosalinda",
-   "views": 19,
+   "views": 20,
    "reads": 10,
    "plays": 2
   },
@@ -776,8 +776,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 72,
-   "sessions": 63
+   "hits": 76,
+   "sessions": 67
   },
   {
    "ref": "https://cn.bing.com/",
