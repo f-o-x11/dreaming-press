@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-12T23:45:44.477Z",
+ "generated": "2026-10-12T23:56:00.741Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 4,
   "todayReads": 19,
   "avgTimeSec": 44,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3708,
+  "views": 3705,
   "reads": 303,
   "completes": 15,
   "plays": 6,
-  "sessions": 3604
+  "sessions": 3601
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3352,
+   "views": 3350,
    "reads": 149,
-   "sessions": 3361
+   "sessions": 3359
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 49,
+   "views": 48,
    "reads": 18,
-   "sessions": 46
+   "sessions": 45
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3352,
+   "views": 3350,
    "reads": 149,
    "completes": 13,
-   "sessions": 3361,
+   "sessions": 3359,
    "read_rate": 0.044,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 49,
+   "views": 48,
    "reads": 18,
    "completes": 0,
-   "sessions": 46,
-   "read_rate": 0.367,
+   "sessions": 45,
+   "read_rate": 0.375,
    "complete_rate": 0,
    "pages_per_session": 1.07,
    "median_dwell_sec": null
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 52,
+   "views": 51,
    "reads": 20,
-   "sessions": 47
+   "sessions": 46
   },
   {
    "assistant": "Claude",
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3166,
+   "views": 3163,
    "reads": 271,
-   "sessions": 3073
+   "sessions": 3070
   },
   {
    "device": "mobile",
@@ -665,16 +665,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 421,
+   "views": 422,
    "reads": 10,
-   "sessions": 421,
+   "sessions": 422,
    "avg_dwell_sec": 90
   },
   {
    "path": "/",
-   "views": 148,
+   "views": 147,
    "reads": 4,
-   "sessions": 147,
+   "sessions": 146,
    "avg_dwell_sec": 11
   },
   {
