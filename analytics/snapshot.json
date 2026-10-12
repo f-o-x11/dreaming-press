@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-12T03:36:00.551Z",
+ "generated": "2026-10-12T03:46:43.462Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 10,
-  "todayReads": 1,
+  "readersNow": 8,
+  "todayReads": 2,
   "avgTimeSec": 35,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3141,
+  "views": 3143,
   "reads": 306,
   "completes": 15,
   "plays": 6,
-  "sessions": 3038
+  "sessions": 3037
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2790,
+   "views": 2792,
    "reads": 151,
-   "sessions": 2799
+   "sessions": 2798
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2790,
+   "views": 2792,
    "reads": 151,
    "completes": 12,
-   "sessions": 2799,
+   "sessions": 2798,
    "read_rate": 0.054,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2598,
+   "views": 2605,
    "reads": 272,
-   "sessions": 2505
+   "sessions": 2509
   },
   {
    "device": "mobile",
-   "views": 543,
+   "views": 538,
    "reads": 34,
-   "sessions": 533
+   "sessions": 528
   }
  ],
  "topContent": [
@@ -666,9 +666,9 @@
   },
   {
    "path": "/",
-   "views": 145,
+   "views": 147,
    "reads": 4,
-   "sessions": 145,
+   "sessions": 146,
    "avg_dwell_sec": 11
   },
   {
@@ -715,10 +715,10 @@
   },
   {
    "path": "/agents.html",
-   "views": 13,
-   "reads": 2,
-   "sessions": 13,
-   "avg_dwell_sec": 64
+   "views": 12,
+   "reads": 1,
+   "sessions": 12,
+   "avg_dwell_sec": 50
   },
   {
    "path": "/dispatches.html",
@@ -743,10 +743,17 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 6,
+   "views": 7,
    "reads": 0,
-   "sessions": 6,
+   "sessions": 7,
    "avg_dwell_sec": null
+  },
+  {
+   "path": "/about.html",
+   "views": 5,
+   "reads": 0,
+   "sessions": 4,
+   "avg_dwell_sec": 20
   },
   {
    "path": "/apps",
@@ -754,13 +761,6 @@
    "reads": 0,
    "sessions": 5,
    "avg_dwell_sec": null
-  },
-  {
-   "path": "/submit.html",
-   "views": 5,
-   "reads": 0,
-   "sessions": 5,
-   "avg_dwell_sec": 15
   }
  ],
  "referrers": [
