@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-12T11:42:44.394Z",
+ "generated": "2026-10-12T11:50:17.514Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 8,
+  "readersNow": 10,
+  "todayReads": 9,
   "avgTimeSec": 55,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3175,
-  "reads": 301,
+  "views": 3183,
+  "reads": 302,
   "completes": 15,
   "plays": 6,
-  "sessions": 3067
+  "sessions": 3075
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2824,
+   "views": 2831,
    "reads": 147,
-   "sessions": 2828
+   "sessions": 2835
   },
   {
    "channel": "organic",
-   "views": 243,
-   "reads": 122,
-   "sessions": 234
+   "views": 244,
+   "reads": 123,
+   "sessions": 235
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2824,
+   "views": 2831,
    "reads": 147,
    "completes": 12,
-   "sessions": 2828,
+   "sessions": 2835,
    "read_rate": 0.052,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 243,
-   "reads": 122,
+   "views": 244,
+   "reads": 123,
    "completes": 3,
-   "sessions": 234,
-   "read_rate": 0.502,
+   "sessions": 235,
+   "read_rate": 0.504,
    "complete_rate": 0.012,
    "pages_per_session": 1.04,
    "median_dwell_sec": 2
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2640,
-   "reads": 269,
-   "sessions": 2543
+   "views": 2649,
+   "reads": 270,
+   "sessions": 2552
   },
   {
    "device": "mobile",
-   "views": 535,
+   "views": 534,
    "reads": 32,
-   "sessions": 524
+   "sessions": 523
   }
  ],
  "topContent": [
@@ -313,8 +313,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 43,
-   "reads": 22,
+   "views": 44,
+   "reads": 23,
    "plays": 0
   },
   {
@@ -515,8 +515,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 43,
-   "reads": 22,
+   "views": 44,
+   "reads": 23,
    "plays": 0
   },
   {
@@ -577,8 +577,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 43,
-   "reads": 22,
+   "views": 44,
+   "reads": 23,
    "plays": 0
   },
   {
@@ -772,8 +772,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 94,
-   "sessions": 49
+   "hits": 96,
+   "sessions": 50
   },
   {
    "ref": "https://duckduckgo.com/",
