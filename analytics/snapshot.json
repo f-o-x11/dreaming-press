@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-12T01:13:52.613Z",
+ "generated": "2026-10-12T01:23:59.098Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 0,
-  "avgTimeSec": 0,
+  "readersNow": 1,
+  "todayReads": 1,
+  "avgTimeSec": 216,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3127,
-  "reads": 307,
+  "views": 3126,
+  "reads": 308,
   "completes": 16,
   "plays": 6,
-  "sessions": 3023
+  "sessions": 3022
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2782,
+   "views": 2780,
    "reads": 152,
-   "sessions": 2790
+   "sessions": 2789
   },
   {
    "channel": "organic",
-   "views": 235,
-   "reads": 124,
-   "sessions": 225
+   "views": 236,
+   "reads": 125,
+   "sessions": 226
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2782,
+   "views": 2780,
    "reads": 152,
    "completes": 13,
-   "sessions": 2790,
+   "sessions": 2789,
    "read_rate": 0.055,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 235,
-   "reads": 124,
+   "views": 236,
+   "reads": 125,
    "completes": 3,
-   "sessions": 225,
-   "read_rate": 0.528,
+   "sessions": 226,
+   "read_rate": 0.53,
    "complete_rate": 0.013,
    "pages_per_session": 1.04,
    "median_dwell_sec": 2
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2585,
+   "views": 2583,
    "reads": 274,
-   "sessions": 2491
+   "sessions": 2489
   },
   {
    "device": "mobile",
-   "views": 542,
-   "reads": 33,
-   "sessions": 532
+   "views": 543,
+   "reads": 34,
+   "sessions": 533
   }
  ],
  "topContent": [
@@ -680,9 +680,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 42,
+   "views": 41,
    "reads": 0,
-   "sessions": 42,
+   "sessions": 41,
    "avg_dwell_sec": null
   },
   {
@@ -771,8 +771,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 85,
-   "sessions": 43
+   "hits": 87,
+   "sessions": 44
   },
   {
    "ref": "https://www.google.com/",
