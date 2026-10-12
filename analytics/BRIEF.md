@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-12T11:02Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-12T11:12Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3173 views → 304 engaged reads → 15 completes · 3065 sessions.
-- Channels: direct 149r/2821v · organic 123r/244v · campaign:chatgpt.com 18r/54v · ai 9r/24v · referral 3r/25v · social 1r/3v · campaign:copilot.com 1r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 3173 views → 303 engaged reads → 15 completes · 3065 sessions.
+- Channels: direct 148r/2821v · organic 123r/244v · campaign:chatgpt.com 18r/54v · ai 9r/24v · referral 3r/25v · social 1r/3v · campaign:copilot.com 1r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 20r/57v · Claude 4r/4v · Doubao 2r/3v · Copilot 1r/1v · Kimi 0r/11v · Perplexity 0r/1v · Poe 0r/1v.
 - Referrers: bing.com, duckduckgo.com, google.com, cn.bing.com, search.brave.com, chatgpt.com, claude.ai, bing.com, brand, nav-cmp.
 - Engaged-read winners by section: wire=5, stack=10.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2821 views · read 5.3% · complete 0.4% · 1 pages/session · median 7s
+- direct: 2821 views · read 5.2% · complete 0.4% · 1 pages/session · median 7s
 - organic: 244 views · read 50.4% · complete 1.2% · 1.04 pages/session · median 2s
 - campaign:chatgpt.com: 54 views · read 33.3% · complete 0.0% · 1.06 pages/session · median ?s
 - referral: 25 views · read 12.0% · complete 0.0% · 1.09 pages/session · median ?s
@@ -39,7 +39,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement" — 10 reads, 20 views, 2 listens
 - [wire] "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck" — 10 reads, 12 views, 0 listens
 - [stack] "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)" — 8 reads, 50 views, 0 listens
-- [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 7 reads, 37 views, 0 listens
+- [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 7 reads, 38 views, 0 listens
 - [stack] "Clear, Compact, or Remember? The Cross-Vendor Decision Framework for Long-Running Agent Context" — 6 reads, 12 views, 1 listens
 - [stack] "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes" — 6 reads, 11 views, 0 listens
 - [wire] "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference" — 6 reads, 10 views, 0 listens
@@ -70,7 +70,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 ## Top by raw views (eyes that arrived)
 - [stack] "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)" — 50 views, 8 reads
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 43 views, 22 reads
-- [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 37 views, 7 reads
+- [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 38 views, 7 reads
 - [stack] "GPT-6.1 Sol vs Claude Sonnet 5.5 for Coding: When Two Models Cost the Same, the Price Is the Least Useful Number" — 28 views, 0 reads
 - [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 21 views, 1 reads
 - [stack] "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement" — 20 views, 10 reads
@@ -82,7 +82,7 @@ skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [stack] "GPT-6.1 Sol vs Claude Sonnet 5.5 for Coding: When Two Models Cost the Same, the Price Is the Least Useful Number" — 28 views but only 0 engaged reads (0.0%)
 - [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 21 views but only 1 engaged reads (4.8%)
-- [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 20 views but only 0 engaged reads (0.0%)
+- [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 19 views but only 0 engaged reads (0.0%)
 - [stack] "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix" — 18 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
@@ -104,9 +104,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-09-27-founders-wire-openai-rogue-agents-safa-databricks-row-zero.html  — 18 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (5243 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×101 · /posts/open-source-llm-for-coding-september-2026.html ×87 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×82
-- PerplexityBot (3096 verified): / ×23 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×20 · /posts/gpt-6-1-sol-vs-claude-sonnet-5-5-coding.html ×19
-- ChatGPT-User (2871 verified): / ×752 · /posts/open-source-llm-for-coding-september-2026.html ×82 · /posts/lm-studio-bionic-local-agent-open-models.html ×74
+- OAI-SearchBot (5245 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×101 · /posts/open-source-llm-for-coding-september-2026.html ×87 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×82
+- PerplexityBot (3099 verified): / ×23 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×20 · /posts/gpt-6-1-sol-vs-claude-sonnet-5-5-coding.html ×19
+- ChatGPT-User (2872 verified): / ×752 · /posts/open-source-llm-for-coding-september-2026.html ×82 · /posts/lm-studio-bionic-local-agent-open-models.html ×74
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -121,7 +121,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: build(44), agentic(43), agents(42), agent(31), founder(31), startup(25), learn(24), mcp(22), google(17), course(17), first(15), scratch(14), one(13), 1-hour(13), minutes(13).
+Hot terms: build(45), agentic(43), agents(41), agent(31), founder(31), startup(25), learn(24), mcp(22), google(17), course(17), first(15), scratch(14), one(13), 1-hour(13), minutes(13).
 Hashtags: #ai, #startup, #founder, #tech, #buildinginpublic, #preseed, #dev, #fintech, #aijobs, #aihiring.
 High-engagement posts to react to / cite:
 - "Preparing for interviews in the AI world? Bookmark 🔖 &amp; Share 👍 Here’s a practical roadmap I’d follow. Build skills you can demonstrate. 1. Learn the fundamentals Start with Generative AI for Everyone to understand " — https://x.com/i/status/2108942569682190654
@@ -131,7 +131,7 @@ High-engagement posts to react to / cite:
 - "Got a mail from a co-founder of a San Francisco based AI startup with a pretty good offer....🫠 Didn't expect this lol 😭 Let's see how it goes.... 😋" — https://x.com/i/status/2108065280396283995
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (255 of 461 phrases have NO post, 47h ago)
+## Uncovered search demand (255 of 461 phrases have NO post, 48h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -154,7 +154,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 14729 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5243, GPTBot (OpenAI) 3519, Perplexity 3096, ChatGPT (user browsing) 2871).
+The real answer engines are crawling us — IP-verified: 14735 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5245, GPTBot (OpenAI) 3519, Perplexity 3099, ChatGPT (user browsing) 2872).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 452 crawler fetches
 - /build  — 339 crawler fetches
