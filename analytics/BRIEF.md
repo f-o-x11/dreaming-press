@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-10-12T01:23Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-12T01:34Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3126 views → 308 engaged reads → 16 completes · 3022 sessions.
-- Channels: direct 152r/2780v · organic 125r/236v · campaign:chatgpt.com 17r/58v · ai 9r/23v · referral 3r/24v · social 1r/3v · campaign:copilot.com 1r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 19r/61v · Claude 4r/4v · Doubao 2r/3v · Copilot 1r/1v · Kimi 0r/11v · Perplexity 0r/1v.
+- Funnel: 3127 views → 308 engaged reads → 16 completes · 3023 sessions.
+- Channels: direct 152r/2780v · organic 125r/236v · campaign:chatgpt.com 17r/59v · ai 9r/23v · referral 3r/24v · social 1r/3v · campaign:copilot.com 1r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 19r/62v · Claude 4r/4v · Doubao 2r/3v · Copilot 1r/1v · Kimi 0r/11v · Perplexity 0r/1v.
 - Referrers: bing.com, duckduckgo.com, google.com, cn.bing.com, search.brave.com, chatgpt.com, claude.ai, bing.com, brand, nav-cmp.
 - Engaged-read winners by section: wire=5, stack=10.
 
@@ -25,7 +25,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - direct: 2780 views · read 5.5% · complete 0.5% · 1 pages/session · median 7s
 - organic: 236 views · read 53.0% · complete 1.3% · 1.04 pages/session · median 2s
-- campaign:chatgpt.com: 58 views · read 29.3% · complete 0.0% · 1.04 pages/session · median ?s
+- campaign:chatgpt.com: 59 views · read 28.8% · complete 0.0% · 1.04 pages/session · median ?s
 - referral: 24 views · read 12.5% · complete 0.0% · 1.09 pages/session · median ?s
 - ai: 23 views · read 39.1% · complete 0.0% · 0.7 pages/session · median 38s
 - social: 3 views · read 33.3% · complete 0.0% · 1 pages/session · median ?s
@@ -35,7 +35,7 @@ NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
 
 ## Top by engaged reads (eyes that stayed)
-- [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 22 reads, 42 views, 0 listens
+- [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 22 reads, 43 views, 0 listens
 - [stack] "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement" — 10 reads, 19 views, 2 listens
 - [wire] "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck" — 10 reads, 12 views, 0 listens
 - [stack] "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)" — 8 reads, 50 views, 0 listens
@@ -69,7 +69,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
 - [stack] "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)" — 50 views, 8 reads
-- [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 42 views, 22 reads
+- [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 43 views, 22 reads
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 36 views, 6 reads
 - [stack] "GPT-6.1 Sol vs Claude Sonnet 5.5 for Coding: When Two Models Cost the Same, the Price Is the Least Useful Number" — 28 views, 0 reads
 - [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 21 views, 1 reads
@@ -83,7 +83,7 @@ new traffic — and these pages already have the traffic.
 - [stack] "GPT-6.1 Sol vs Claude Sonnet 5.5 for Coding: When Two Models Cost the Same, the Price Is the Least Useful Number" — 28 views but only 0 engaged reads (0.0%)
 - [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 21 views but only 1 engaged reads (4.8%)
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 21 views but only 0 engaged reads (0.0%)
-- [stack] "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix" — 17 views but only 0 engaged reads (0.0%)
+- [stack] "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix" — 18 views but only 0 engaged reads (0.0%)
 - [wire] "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock" — 16 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
@@ -100,13 +100,13 @@ sample size dwarfs the engaged-read counts below.
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 71 retrieval fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 68 retrieval fetches
 - /wire.html  — 62 retrieval fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 48 retrieval fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 49 retrieval fetches
 - /posts/gpt-6-1-sol-vs-claude-sonnet-5-5-coding.html  — 19 retrieval fetches
 - /newsroom  — 17 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (5086 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×98 · /posts/open-source-llm-for-coding-september-2026.html ×84 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×79
-- PerplexityBot (2860 verified): / ×23 · /posts/gpt-6-1-sol-vs-claude-sonnet-5-5-coding.html ×19 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×19
+- OAI-SearchBot (5087 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×98 · /posts/open-source-llm-for-coding-september-2026.html ×84 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×79
+- PerplexityBot (2863 verified): / ×23 · /posts/gpt-6-1-sol-vs-claude-sonnet-5-5-coding.html ×19 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×19
 - ChatGPT-User (2767 verified): / ×724 · /posts/open-source-llm-for-coding-september-2026.html ×81 · /posts/lm-studio-bionic-local-agent-open-models.html ×71
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -125,11 +125,11 @@ hundreds — and from uncovered search demand below. This block returns on its o
 Hot terms: agentic(47), build(46), agents(40), agent(34), founder(32), mcp(26), startup(25), learn(21), google(18), first(16), loops(16), course(15), his(15), 1-hour(14), scratch(14).
 Hashtags: #ai, #startup, #founder, #tech, #buildinginpublic, #preseed, #dev, #fintech, #aijobs, #aihiring.
 High-engagement posts to react to / cite:
+- "Preparing for interviews in the AI world? Bookmark 🔖 &amp; Share 👍 Here’s a practical roadmap I’d follow. Build skills you can demonstrate. 1. Learn the fundamentals Start with Generative AI for Everyone to understand " — https://x.com/i/status/2108942569682190654
 - "🚨 GOOGLE JUST DROPPED A 1-HOUR COURSE THAT TEACHES YOU AGENTIC AI FROM SCRATCH. No fluff. No expensive bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Cre" — https://x.com/i/status/2107810215680987529
 - "🚨 Google just released a FREE 1-hour course on Agentic AI. And it covers what people are paying hundreds of dollars to learn. In 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memo" — https://x.com/i/status/2107417395191030167
 - "🚨 GOOGLE JUST RELEASED A 1-HOUR COURSE TO LEARN AGENTIC AI FROM THE GROUND UP. No fluff. No overpriced bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Des" — https://x.com/i/status/2107108645121208429
 - "9,993 new tokens were first seen on Robinhood Chain on 7 Oct. Only a fraction keep building. Here's a simple guide to @HeyResearch, its Discovery and Terminal tools, and $HEY: https://t.co/DrQhWFGBEv https://t.co/nZfcBec" — https://x.com/i/status/2109177274566049934
-- "AI agents can now trade and launch on https://t.co/FxXxWrKsBz Connect our MCP to Claude Code or any MCP client. It signs with its own wallet. We never hold a key. Set the agent as referrer and it earns 5% of every swap f" — https://x.com/i/status/2108965326318895154
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (255 of 461 phrases have NO post, 38h ago)
@@ -155,7 +155,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 14227 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5086, GPTBot (OpenAI) 3514, Perplexity 2860, ChatGPT (user browsing) 2767).
+The real answer engines are crawling us — IP-verified: 14231 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5087, GPTBot (OpenAI) 3514, Perplexity 2863, ChatGPT (user browsing) 2767).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 445 crawler fetches
 - /build  — 329 crawler fetches
@@ -168,7 +168,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/open-weight-coding-model-you-can-actually-self-host-september-2026.html  — 81 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 71 crawler fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 50 crawler fetches
-- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 48 crawler fetches
+- /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 49 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
