@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-12T20:32:42.647Z",
+ "generated": "2026-10-12T20:42:49.899Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15319,
+ "verifiedAiHits": 15324,
  "logsScanned": 30,
  "windowStart": "2026-09-28",
  "windowEnd": "2026-10-12",
- "totalHits": 128557,
- "aiHits": 106633,
+ "totalHits": 128596,
+ "aiHits": 106661,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28184,
+   "hits": 28197,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14786,
+   "hits": 14795,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7159,
-   "verifiedHits": 7141,
+   "hits": 7164,
+   "verifiedHits": 7146,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
    "topPaths": [
@@ -212,14 +212,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 5785,
+   "hits": 5788,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 41
+     "hits": 42
     },
     {
      "path": "/dashboard",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5535,
-   "verifiedHits": 5469,
+   "hits": 5538,
+   "verifiedHits": 5472,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
    "topPaths": [
@@ -344,8 +344,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3518,
-   "verifiedHits": 3341,
+   "hits": 3520,
+   "verifiedHits": 3343,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3433,
+   "hits": 3436,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2057,
+   "hits": 2058,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -466,7 +466,7 @@
     },
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
-     "hits": 93
+     "hits": 94
     }
    ],
    "verifiable": false
