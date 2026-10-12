@@ -1,10 +1,10 @@
 {
- "generated": "2026-10-12T21:03:00.465Z",
+ "generated": "2026-10-12T21:13:10.617Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
   "todayReads": 19,
-  "avgTimeSec": 46,
+  "avgTimeSec": 45,
   "postsThisWeek": 15
  },
  "funnel": {
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3295,
+   "views": 3296,
    "reads": 150,
-   "sessions": 3304
+   "sessions": 3305
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 51,
+   "views": 50,
    "reads": 18,
-   "sessions": 48
+   "sessions": 47
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3295,
+   "views": 3296,
    "reads": 150,
    "completes": 13,
-   "sessions": 3304,
+   "sessions": 3305,
    "read_rate": 0.046,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 51,
+   "views": 50,
    "reads": 18,
    "completes": 0,
-   "sessions": 48,
-   "read_rate": 0.353,
+   "sessions": 47,
+   "read_rate": 0.36,
    "complete_rate": 0,
    "pages_per_session": 1.06,
    "median_dwell_sec": null
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 54,
+   "views": 53,
    "reads": 20,
-   "sessions": 49
+   "sessions": 48
   },
   {
    "assistant": "Claude",
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3113,
+   "views": 3114,
    "reads": 272,
-   "sessions": 3020
+   "sessions": 3021
   },
   {
    "device": "mobile",
-   "views": 539,
+   "views": 538,
    "reads": 32,
-   "sessions": 528
+   "sessions": 527
   }
  ],
  "topContent": [
@@ -612,6 +612,16 @@
    "plays": 0
   },
   {
+   "slug": "best-open-source-rl-frameworks-for-training-agents",
+   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 21,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
    "title": "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix",
    "section": "stack",
@@ -630,16 +640,6 @@
    "views": 20,
    "reads": 10,
    "plays": 2
-  },
-  {
-   "slug": "best-open-source-rl-frameworks-for-training-agents",
-   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 0,
-   "plays": 0
   },
   {
    "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
