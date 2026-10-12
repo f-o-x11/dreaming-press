@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-12T19:42:00.549Z",
+ "generated": "2026-10-12T19:52:09.670Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 25,
   "todayReads": 19,
   "avgTimeSec": 47,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3622,
+  "views": 3646,
   "reads": 305,
   "completes": 15,
   "plays": 6,
-  "sessions": 3516
+  "sessions": 3540
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3263,
+   "views": 3287,
    "reads": 150,
-   "sessions": 3271
+   "sessions": 3295
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3263,
+   "views": 3287,
    "reads": 150,
    "completes": 13,
-   "sessions": 3271,
+   "sessions": 3295,
    "read_rate": 0.046,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3085,
+   "views": 3109,
    "reads": 273,
-   "sessions": 2990
+   "sessions": 3014
   },
   {
    "device": "mobile",
@@ -353,7 +353,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 39,
+   "views": 40,
    "reads": 7,
    "plays": 0
   },
@@ -545,7 +545,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 39,
+   "views": 40,
    "reads": 7,
    "plays": 0
   },
@@ -587,7 +587,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 39,
+   "views": 40,
    "reads": 7,
    "plays": 0
   },
@@ -612,6 +612,16 @@
    "plays": 0
   },
   {
+   "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
+   "title": "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 21,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "how-to-run-spec-driven-development-github-spec-kit",
    "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
    "section": "stack",
@@ -620,16 +630,6 @@
    "views": 20,
    "reads": 10,
    "plays": 2
-  },
-  {
-   "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
-   "title": "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 0,
-   "plays": 0
   },
   {
    "slug": "best-open-source-rl-frameworks-for-training-agents",
@@ -665,9 +665,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 420,
+   "views": 421,
    "reads": 10,
-   "sessions": 420,
+   "sessions": 421,
    "avg_dwell_sec": 90
   },
   {
