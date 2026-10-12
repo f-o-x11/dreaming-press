@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-12T05:57:59.843Z",
+ "generated": "2026-10-12T06:08:17.131Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14502,
+ "verifiedAiHits": 14505,
  "logsScanned": 30,
  "windowStart": "2026-09-28",
  "windowEnd": "2026-10-12",
- "totalHits": 121795,
- "aiHits": 100797,
+ "totalHits": 121884,
+ "aiHits": 100873,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 26647,
+   "hits": 26702,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14816,
+   "hits": 14817,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -98,11 +98,11 @@
      "hits": 6
     },
     {
-     "path": "/posts/2026-06-22-presidio-vs-gliner-vs-llm-redaction.html",
+     "path": "/posts/browser-use-vs-stagehand-vs-playwright-mcp.html",
      "hits": 6
     },
     {
-     "path": "/posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html",
+     "path": "/posts/2026-06-22-presidio-vs-gliner-vs-llm-redaction.html",
      "hits": 6
     }
    ],
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14126,
+   "hits": 14134,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 10732,
+   "hits": 10740,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6844,
-   "verifiedHits": 6826,
+   "hits": 6845,
+   "verifiedHits": 6827,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 5564,
+   "hits": 5565,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5222,
-   "verifiedHits": 5156,
+   "hits": 5223,
+   "verifiedHits": 5157,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4200,
+   "hits": 4208,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3288,
+   "hits": 3291,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -377,8 +377,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3201,
-   "verifiedHits": 3025,
+   "hits": 3202,
+   "verifiedHits": 3026,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
    "topPaths": [
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2923,
-   "verifiedHits": 2806,
+   "hits": 2924,
+   "verifiedHits": 2807,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
    "topPaths": [
@@ -421,7 +421,7 @@
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 81
+     "hits": 82
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
@@ -707,10 +707,10 @@
    "label": "Claude Search (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 73,
+   "hits": 74,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
-   "lastSeen": "2026-10-11",
+   "lastSeen": "2026-10-12",
    "topPaths": [
     {
      "path": "/z9x8c7v6b5-debug-trigger-www.dreaming.press",
