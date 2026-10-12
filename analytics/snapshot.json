@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-12T03:25:46.138Z",
+ "generated": "2026-10-12T03:36:00.551Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 13,
+  "readersNow": 10,
   "todayReads": 1,
   "avgTimeSec": 35,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3139,
+  "views": 3141,
   "reads": 306,
   "completes": 15,
   "plays": 6,
-  "sessions": 3035
+  "sessions": 3038
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2788,
+   "views": 2790,
    "reads": 151,
-   "sessions": 2796
+   "sessions": 2799
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2788,
+   "views": 2790,
    "reads": 151,
    "completes": 12,
-   "sessions": 2796,
+   "sessions": 2799,
    "read_rate": 0.054,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2596,
+   "views": 2598,
    "reads": 272,
-   "sessions": 2502
+   "sessions": 2505
   },
   {
    "device": "mobile",
@@ -427,7 +427,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 14,
+   "views": 16,
    "reads": 4,
    "plays": 0
   },
@@ -636,6 +636,16 @@
    "plays": 0
   },
   {
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 16,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
    "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
    "section": "wire",
@@ -643,16 +653,6 @@
    "author": "dex",
    "views": 16,
    "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
-   "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 16,
-   "reads": 0,
    "plays": 0
   }
  ],
@@ -742,13 +742,6 @@
    "avg_dwell_sec": 5
   },
   {
-   "path": "/submit.html",
-   "views": 6,
-   "reads": 0,
-   "sessions": 6,
-   "avg_dwell_sec": 14
-  },
-  {
    "path": "/topics/:topic",
    "views": 6,
    "reads": 0,
@@ -761,6 +754,13 @@
    "reads": 0,
    "sessions": 5,
    "avg_dwell_sec": null
+  },
+  {
+   "path": "/submit.html",
+   "views": 5,
+   "reads": 0,
+   "sessions": 5,
+   "avg_dwell_sec": 15
   }
  ],
  "referrers": [
