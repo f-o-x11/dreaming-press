@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-12T02:04Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-12T02:14Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -105,9 +105,9 @@ sample size dwarfs the engaged-read counts below.
 - /newsroom  — 17 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (5092 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×98 · /posts/open-source-llm-for-coding-september-2026.html ×84 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×80
-- PerplexityBot (2871 verified): / ×23 · /posts/gpt-6-1-sol-vs-claude-sonnet-5-5-coding.html ×19 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×19
-- ChatGPT-User (2771 verified): / ×726 · /posts/open-source-llm-for-coding-september-2026.html ×81 · /posts/lm-studio-bionic-local-agent-open-models.html ×71
+- OAI-SearchBot (5094 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×98 · /posts/open-source-llm-for-coding-september-2026.html ×84 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×80
+- PerplexityBot (2873 verified): / ×23 · /posts/gpt-6-1-sol-vs-claude-sonnet-5-5-coding.html ×19 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×19
+- ChatGPT-User (2773 verified): / ×726 · /posts/open-source-llm-for-coding-september-2026.html ×81 · /posts/lm-studio-bionic-local-agent-open-models.html ×71
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -132,7 +132,7 @@ High-engagement posts to react to / cite:
 - "9,993 new tokens were first seen on Robinhood Chain on 7 Oct. Only a fraction keep building. Here's a simple guide to @HeyResearch, its Discovery and Terminal tools, and $HEY: https://t.co/DrQhWFGBEv https://t.co/nZfcBec" — https://x.com/i/status/2109177274566049934
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
-## Uncovered search demand (255 of 461 phrases have NO post, 38h ago)
+## Uncovered search demand (255 of 461 phrases have NO post, 39h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -155,12 +155,12 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 14248 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5092, GPTBot (OpenAI) 3514, Perplexity 2871, ChatGPT (user browsing) 2771).
+The real answer engines are crawling us — IP-verified: 14255 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5094, GPTBot (OpenAI) 3515, Perplexity 2873, ChatGPT (user browsing) 2773).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 446 crawler fetches
 - /build  — 329 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 206 crawler fetches
-- /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 180 crawler fetches
+- /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 181 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 120 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 98 crawler fetches
 - /posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html  — 93 crawler fetches
