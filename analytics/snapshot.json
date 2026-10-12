@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-12T08:19:54.067Z",
+ "generated": "2026-10-12T08:30:00.550Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
-  "todayReads": 5,
+  "readersNow": 4,
+  "todayReads": 6,
   "avgTimeSec": 32,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3151,
-  "reads": 306,
+  "views": 3148,
+  "reads": 307,
   "completes": 15,
   "plays": 6,
-  "sessions": 3044
+  "sessions": 3040
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2795,
+   "views": 2791,
    "reads": 151,
-   "sessions": 2801
+   "sessions": 2797
   },
   {
    "channel": "organic",
@@ -29,8 +29,8 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 56,
-   "reads": 17,
+   "views": 57,
+   "reads": 18,
    "sessions": 54
   },
   {
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2795,
+   "views": 2791,
    "reads": 151,
    "completes": 12,
-   "sessions": 2801,
+   "sessions": 2797,
    "read_rate": 0.054,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -95,13 +95,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 56,
-   "reads": 17,
+   "views": 57,
+   "reads": 18,
    "completes": 0,
    "sessions": 54,
-   "read_rate": 0.304,
+   "read_rate": 0.316,
    "complete_rate": 0,
-   "pages_per_session": 1.04,
+   "pages_per_session": 1.06,
    "median_dwell_sec": null
   },
   {
@@ -251,8 +251,8 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 59,
-   "reads": 19,
+   "views": 60,
+   "reads": 20,
    "sessions": 55
   },
   {
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2617,
-   "reads": 272,
-   "sessions": 2520
+   "views": 2616,
+   "reads": 273,
+   "sessions": 2518
   },
   {
    "device": "mobile",
-   "views": 534,
+   "views": 532,
    "reads": 34,
-   "sessions": 524
+   "sessions": 522
   }
  ],
  "topContent": [
@@ -448,14 +448,14 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-security-jobs",
-   "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
+   "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
+   "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
    "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
+   "tags": "[\"compare\",\"opinionated\"]",
    "author": "dex",
-   "views": 8,
+   "views": 11,
    "reads": 4,
-   "plays": 1
+   "plays": 0
   }
  ],
  "topListens": [
@@ -665,9 +665,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 400,
+   "views": 399,
    "reads": 9,
-   "sessions": 400,
+   "sessions": 399,
    "avg_dwell_sec": 64
   },
   {
@@ -797,7 +797,7 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 15,
+   "hits": 17,
    "sessions": 8
   },
   {
