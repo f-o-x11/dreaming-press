@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T13:55:23.799Z",
+ "generated": "2026-10-12T14:05:06.847Z",
  "sampled": 80,
  "queries": [
   "(AI agents OR agentic OR MCP) (build OR launch OR ship) -is:retweet -is:reply lang:en",
@@ -8,11 +8,11 @@
  "topTerms": [
   {
    "term": "build",
-   "count": 46
+   "count": 45
   },
   {
    "term": "agentic",
-   "count": 42
+   "count": 41
   },
   {
    "term": "agents",
@@ -20,7 +20,7 @@
   },
   {
    "term": "agent",
-   "count": 33
+   "count": 32
   },
   {
    "term": "founder",
@@ -31,43 +31,31 @@
    "count": 28
   },
   {
-   "term": "learn",
-   "count": 23
-  },
-  {
    "term": "mcp",
    "count": 22
   },
   {
+   "term": "learn",
+   "count": 22
+  },
+  {
    "term": "google",
-   "count": 17
+   "count": 16
   },
   {
    "term": "course",
-   "count": 17
-  },
-  {
-   "term": "first",
-   "count": 15
+   "count": 16
   },
   {
    "term": "one",
    "count": 14
   },
   {
-   "term": "1-hour",
-   "count": 13
+   "term": "first",
+   "count": 14
   },
   {
    "term": "scratch",
-   "count": 13
-  },
-  {
-   "term": "memory",
-   "count": 13
-  },
-  {
-   "term": "loops",
    "count": 13
   },
   {
@@ -75,15 +63,27 @@
    "count": 13
   },
   {
-   "term": "minutes",
+   "term": "1-hour",
    "count": 12
   },
   {
-   "term": "give",
+   "term": "memory",
+   "count": 12
+  },
+  {
+   "term": "loops",
    "count": 12
   },
   {
    "term": "dropped",
+   "count": 11
+  },
+  {
+   "term": "minutes",
+   "count": 11
+  },
+  {
+   "term": "give",
    "count": 11
   }
  ],
@@ -157,12 +157,6 @@
    "created": "2026-10-06T10:27:15.000Z"
   },
   {
-   "text": "🚨 GOOGLE JUST RELEASED A 1-HOUR COURSE TO LEARN AGENTIC AI FROM THE GROUND UP. No fluff. No overpriced bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Des",
-   "engagement": 334,
-   "url": "https://x.com/i/status/2107108645121208429",
-   "created": "2026-10-05T14:00:23.000Z"
-  },
-  {
    "text": "Got a mail from a co-founder of a San Francisco based AI startup with a pretty good offer....🫠 Didn't expect this lol 😭 Let's see how it goes.... 😋",
    "engagement": 191,
    "url": "https://x.com/i/status/2108065280396283995",
@@ -176,7 +170,7 @@
   },
   {
    "text": "Stop wasting hours figuring out what to learn in AI. Here’s one practical roadmap covering videos, GitHub repos, guides, books, papers and courses. *VIDEOS* 1.⁠ ⁠LLM Introduction ⁠ https://t.co/FoY23iSbfm… ⁠ 2.⁠ ⁠LLMs fr",
-   "engagement": 169,
+   "engagement": 170,
    "url": "https://x.com/i/status/2109553401562292674",
    "created": "2026-10-12T07:54:59.000Z"
   },
@@ -185,6 +179,12 @@
    "engagement": 142,
    "url": "https://x.com/i/status/2109212132269289679",
    "created": "2026-10-11T09:18:54.000Z"
+  },
+  {
+   "text": "AI agents can now trade and launch on https://t.co/FxXxWrKsBz Connect our MCP to Claude Code or any MCP client. It signs with its own wallet. We never hold a key. Set the agent as referrer and it earns 5% of every swap f",
+   "engagement": 116,
+   "url": "https://x.com/i/status/2108965326318895154",
+   "created": "2026-10-10T16:58:11.000Z"
   }
  ]
 }
