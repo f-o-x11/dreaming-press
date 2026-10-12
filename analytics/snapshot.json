@@ -1,30 +1,30 @@
 {
- "generated": "2026-10-12T15:17:00.602Z",
+ "generated": "2026-10-12T15:27:20.368Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 13,
+  "readersNow": 21,
   "todayReads": 15,
   "avgTimeSec": 57,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3451,
-  "reads": 305,
+  "views": 3461,
+  "reads": 304,
   "completes": 15,
   "plays": 6,
-  "sessions": 3342
+  "sessions": 3353
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3094,
+   "views": 3105,
    "reads": 148,
-   "sessions": 3098
+   "sessions": 3109
   },
   {
    "channel": "organic",
-   "views": 246,
-   "reads": 125,
+   "views": 245,
+   "reads": 124,
    "sessions": 237
   },
   {
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3094,
+   "views": 3105,
    "reads": 148,
    "completes": 13,
-   "sessions": 3098,
+   "sessions": 3109,
    "read_rate": 0.048,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -84,13 +84,13 @@
   },
   {
    "channel": "organic",
-   "views": 246,
-   "reads": 125,
+   "views": 245,
+   "reads": 124,
    "completes": 2,
    "sessions": 237,
-   "read_rate": 0.508,
+   "read_rate": 0.506,
    "complete_rate": 0.008,
-   "pages_per_session": 1.04,
+   "pages_per_session": 1.03,
    "median_dwell_sec": 2
   },
   {
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2913,
-   "reads": 273,
-   "sessions": 2815
+   "views": 2924,
+   "reads": 272,
+   "sessions": 2827
   },
   {
    "device": "mobile",
-   "views": 538,
+   "views": 537,
    "reads": 32,
-   "sessions": 527
+   "sessions": 526
   }
  ],
  "topContent": [
@@ -393,7 +393,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 12,
+   "views": 13,
    "reads": 5,
    "plays": 0
   },
@@ -505,7 +505,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 3,
+   "views": 2,
    "reads": 0,
    "plays": 1
   },
@@ -665,9 +665,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 414,
+   "views": 416,
    "reads": 10,
-   "sessions": 414,
+   "sessions": 416,
    "avg_dwell_sec": 90
   },
   {
@@ -693,9 +693,9 @@
   },
   {
    "path": "/build",
-   "views": 31,
+   "views": 32,
    "reads": 0,
-   "sessions": 31,
+   "sessions": 32,
    "avg_dwell_sec": 4
   },
   {
@@ -777,7 +777,7 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 89,
+   "hits": 87,
    "sessions": 45
   },
   {
