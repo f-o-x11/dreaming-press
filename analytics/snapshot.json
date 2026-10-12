@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-12T12:24:00.781Z",
+ "generated": "2026-10-12T12:34:09.980Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 19,
+  "readersNow": 44,
   "todayReads": 10,
-  "avgTimeSec": 50,
+  "avgTimeSec": 48,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3214,
+  "views": 3251,
   "reads": 303,
   "completes": 15,
   "plays": 6,
-  "sessions": 3105
+  "sessions": 3142
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2863,
+   "views": 2900,
    "reads": 148,
-   "sessions": 2866
+   "sessions": 2903
   },
   {
    "channel": "organic",
@@ -67,17 +67,17 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 20
+   "sessions": 21
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2863,
+   "views": 2900,
    "reads": 148,
    "completes": 12,
-   "sessions": 2866,
-   "read_rate": 0.052,
+   "sessions": 2903,
+   "read_rate": 0.051,
    "complete_rate": 0.004,
    "pages_per_session": 1,
    "median_dwell_sec": 7
@@ -164,7 +164,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 20,
+   "sessions": 21,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -174,8 +174,8 @@
  "navSurfaces": [
   {
    "surface": "brand",
-   "clicks": 8,
-   "sessions": 8
+   "clicks": 9,
+   "sessions": 9
   },
   {
    "surface": "nav-cmp",
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2678,
+   "views": 2711,
    "reads": 271,
-   "sessions": 2580
+   "sessions": 2613
   },
   {
    "device": "mobile",
-   "views": 536,
+   "views": 540,
    "reads": 32,
-   "sessions": 525
+   "sessions": 529
   }
  ],
  "topContent": [
@@ -665,9 +665,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 402,
+   "views": 404,
    "reads": 9,
-   "sessions": 402,
+   "sessions": 404,
    "avg_dwell_sec": 64
   },
   {
@@ -675,7 +675,7 @@
    "views": 149,
    "reads": 4,
    "sessions": 148,
-   "avg_dwell_sec": 11
+   "avg_dwell_sec": 10
   },
   {
    "path": "/compare/:pair",
@@ -801,17 +801,17 @@
    "sessions": 8
   },
   {
+   "ref": "brand",
+   "hits": 9,
+   "sessions": 9
+  },
+  {
    "ref": "https://claude.ai/",
    "hits": 8,
    "sessions": 3
   },
   {
    "ref": "https://bing.com/",
-   "hits": 8,
-   "sessions": 8
-  },
-  {
-   "ref": "brand",
    "hits": 8,
    "sessions": 8
   },
