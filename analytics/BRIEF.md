@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-12T01:54Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-12T02:04Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -93,8 +93,8 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 748 retrieval fetches
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 166 retrieval fetches
+- /  — 749 retrieval fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 167 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 165 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 98 retrieval fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 71 retrieval fetches
@@ -105,9 +105,9 @@ sample size dwarfs the engaged-read counts below.
 - /newsroom  — 17 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (5089 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×98 · /posts/open-source-llm-for-coding-september-2026.html ×84 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×79
-- PerplexityBot (2869 verified): / ×23 · /posts/gpt-6-1-sol-vs-claude-sonnet-5-5-coding.html ×19 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×19
-- ChatGPT-User (2769 verified): / ×725 · /posts/open-source-llm-for-coding-september-2026.html ×81 · /posts/lm-studio-bionic-local-agent-open-models.html ×71
+- OAI-SearchBot (5092 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×98 · /posts/open-source-llm-for-coding-september-2026.html ×84 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×80
+- PerplexityBot (2871 verified): / ×23 · /posts/gpt-6-1-sol-vs-claude-sonnet-5-5-coding.html ×19 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×19
+- ChatGPT-User (2771 verified): / ×726 · /posts/open-source-llm-for-coding-september-2026.html ×81 · /posts/lm-studio-bionic-local-agent-open-models.html ×71
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -122,14 +122,14 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
 ## Trending on X right now (79 recent posts sampled, 0h ago)
-Hot terms: agentic(47), build(45), agents(41), agent(34), founder(32), mcp(26), startup(25), learn(20), google(18), first(16), loops(16), course(15), his(15), 1-hour(14), scratch(14).
+Hot terms: agentic(46), build(46), agents(39), agent(34), founder(32), mcp(25), startup(25), learn(21), google(18), first(16), loops(16), course(15), his(15), 1-hour(14), scratch(14).
 Hashtags: #ai, #startup, #founder, #tech, #buildinginpublic, #preseed, #dev, #fintech, #aijobs, #aihiring.
 High-engagement posts to react to / cite:
+- "Preparing for interviews in the AI world? Bookmark 🔖 &amp; Share 👍 Here’s a practical roadmap I’d follow. Build skills you can demonstrate. 1. Learn the fundamentals Start with Generative AI for Everyone to understand " — https://x.com/i/status/2108942569682190654
 - "🚨 GOOGLE JUST DROPPED A 1-HOUR COURSE THAT TEACHES YOU AGENTIC AI FROM SCRATCH. No fluff. No expensive bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Cre" — https://x.com/i/status/2107810215680987529
 - "🚨 Google just released a FREE 1-hour course on Agentic AI. And it covers what people are paying hundreds of dollars to learn. In 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memo" — https://x.com/i/status/2107417395191030167
 - "🚨 GOOGLE JUST RELEASED A 1-HOUR COURSE TO LEARN AGENTIC AI FROM THE GROUND UP. No fluff. No overpriced bootcamp. In just 60 minutes, you’ll learn how to: → Build your first AI agent → Give agents persistent memory → Des" — https://x.com/i/status/2107108645121208429
 - "9,993 new tokens were first seen on Robinhood Chain on 7 Oct. Only a fraction keep building. Here's a simple guide to @HeyResearch, its Discovery and Terminal tools, and $HEY: https://t.co/DrQhWFGBEv https://t.co/nZfcBec" — https://x.com/i/status/2109177274566049934
-- "AI agents can now trade and launch on https://t.co/FxXxWrKsBz Connect our MCP to Claude Code or any MCP client. It signs with its own wallet. We never hold a key. Set the agent as referrer and it earns 5% of every swap f" — https://x.com/i/status/2108965326318895154
 ACTION: where an X-hot term overlaps a proven winner above, that's the highest-value piece to write next — timely AND format-validated. We can also post the piece to X.
 
 ## Uncovered search demand (255 of 461 phrases have NO post, 38h ago)
@@ -155,9 +155,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 14241 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5089, GPTBot (OpenAI) 3514, Perplexity 2869, ChatGPT (user browsing) 2769).
+The real answer engines are crawling us — IP-verified: 14248 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5092, GPTBot (OpenAI) 3514, Perplexity 2871, ChatGPT (user browsing) 2771).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 445 crawler fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 446 crawler fetches
 - /build  — 329 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 206 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 180 crawler fetches
