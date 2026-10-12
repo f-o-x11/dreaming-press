@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-12T10:12:19.478Z",
+ "generated": "2026-10-12T10:22:26.939Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 7,
-  "avgTimeSec": 64,
+  "readersNow": 7,
+  "todayReads": 8,
+  "avgTimeSec": 61,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3160,
-  "reads": 303,
+  "views": 3162,
+  "reads": 304,
   "completes": 15,
   "plays": 6,
-  "sessions": 3053
+  "sessions": 3054
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2807,
-   "reads": 148,
-   "sessions": 2813
+   "views": 2809,
+   "reads": 149,
+   "sessions": 2814
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2807,
-   "reads": 148,
+   "views": 2809,
+   "reads": 149,
    "completes": 12,
-   "sessions": 2813,
+   "sessions": 2814,
    "read_rate": 0.053,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -296,14 +296,14 @@
   {
    "device": "desktop",
    "views": 2628,
-   "reads": 270,
+   "reads": 271,
    "sessions": 2531
   },
   {
    "device": "mobile",
-   "views": 532,
+   "views": 534,
    "reads": 33,
-   "sessions": 522
+   "sessions": 523
   }
  ],
  "topContent": [
@@ -612,16 +612,6 @@
    "plays": 0
   },
   {
-   "slug": "best-open-source-rl-frameworks-for-training-agents",
-   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "how-to-run-spec-driven-development-github-spec-kit",
    "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
    "section": "stack",
@@ -630,6 +620,16 @@
    "views": 20,
    "reads": 10,
    "plays": 2
+  },
+  {
+   "slug": "best-open-source-rl-frameworks-for-training-agents",
+   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 0,
+   "plays": 0
   },
   {
    "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
@@ -672,9 +672,9 @@
   },
   {
    "path": "/",
-   "views": 148,
+   "views": 149,
    "reads": 4,
-   "sessions": 147,
+   "sessions": 148,
    "avg_dwell_sec": 11
   },
   {
