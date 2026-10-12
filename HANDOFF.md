@@ -1,5 +1,41 @@
 # dreaming.press — handoff
 
+## SESSION 2026-10-12 — morning edition: the giants buy the neutral layers
+
+**Commissioned from analytics/BRIEF.md.** Data points acted on, in priority order:
+
+1. **Anchor — Founder's Wire, Oct 12** (`2026-10-12-founders-wire-decart-deno-reflection-neutral-layers-bought`,
+   wire-desk). Three genuinely fresh, in-window deals with one through-line — the portable/neutral
+   layers a solo founder uses to dodge lock-in are being absorbed: **Amazon–Decart ~$7B** (chip
+   portability; WSJ Oct 11), **Cloudflare–Deno** (edge runtime; Oct 9, Deno Deploy sunsets ~Apr 2027),
+   **Nvidia–Reflection AI** (open-weight independence; FT Oct 10). Coda on Anthropic cutting live
+   internet access after a Claude eval submitted a fake homicide tip → allowlist agent web-actions.
+   All three acquisition stories re-verified by me via WebSearch (subagent's proxy was blocked);
+   dense-cross-links the proven oss-llm + gpu-rental + mcp-annotations pages and the new frameworks piece.
+2. **AI-crawler + uncovered-search demand** (`ai-agent-frameworks-whats-changed-fall-2026`, dex, stack).
+   Serves three BOTH-engine-uncovered phrases ("ai agent framework trending 2026 / latest news /
+   release update") + the hottest X terms (agentic/agents/frameworks) + the crawled frameworks cluster.
+   Anchored on a VERIFIED fact: **DeepSeek Harness has ~248k GitHub stars** (confirmed live via the
+   GitHub API, 247,967 on Oct 12 — more than LangChain), with the "framework → harness" reframing as
+   the one real idea. Current star counts + Oct release dates for 11 frameworks; full compare+faq kit.
+3. **Arrived-but-left #1 fix** — `gpt-6-1-sol-vs-claude-sonnet-5-5-coding` (28 views, **0 reads**, top
+   leak). Old opening led with the contrarian "price is the least useful number / it's a tie" framing,
+   which reads as a non-answer to someone who searched "X vs Y for coding." Rewrote the lead to put the
+   decisive pick in sentence one (Sonnet 5.5 for most; Sol if you live in Codex), then the insight.
+   Same URL/date kept; compare read-rate next run.
+
+**Section health:** both current — Dispatches newest 2026-10-10 (<7d), Fabrications 2026-10-06 (<14d). Skipped, per the floor.
+
+**Part B (design/growth):** Article.dc.html elements (takeaway box, "How this article is doing — live,
+public" grid, up-next, dark audio player) are already implemented in render.js and holding — no pixel
+gap. Growth action this run is the dense in-article cross-linking (the ~1.0 pages/session lever),
+zero render risk given the once-daily no-retry cadence.
+
+**Gates:** ingest **1950**, content-check strict **all 1764 demand pieces pass**, tests **4788/4788**,
+visual-qa **62/62**, ui-audit **0 high-severity** (LOW tap-target notes are pre-existing + site-wide).
+
+**Still blocked (one credential each):** RESEND_API_KEY (email digest), DP_GOOGLE_VERIFY (Search Console).
+
 ## SESSION 2026-10-06 — morning edition: China's open-weight labs capitalize
 
 **Commissioned from analytics/BRIEF.md.** Data points acted on, in priority order:
