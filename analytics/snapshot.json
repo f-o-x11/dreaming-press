@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-12T22:23:57.262Z",
+ "generated": "2026-10-12T22:34:00.656Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 12,
   "todayReads": 19,
   "avgTimeSec": 44,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3673,
+  "views": 3682,
   "reads": 303,
   "completes": 15,
   "plays": 6,
-  "sessions": 3569
+  "sessions": 3578
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3317,
+   "views": 3326,
    "reads": 149,
-   "sessions": 3326
+   "sessions": 3335
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3317,
+   "views": 3326,
    "reads": 149,
    "completes": 13,
-   "sessions": 3326,
+   "sessions": 3335,
    "read_rate": 0.045,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3132,
+   "views": 3140,
    "reads": 271,
-   "sessions": 3039
+   "sessions": 3047
   },
   {
    "device": "mobile",
-   "views": 541,
+   "views": 542,
    "reads": 32,
-   "sessions": 530
+   "sessions": 531
   }
  ],
  "topContent": [
@@ -368,22 +368,22 @@
    "plays": 1
   },
   {
+   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
+   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 11,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "open-source-llm-for-coding-september-2026",
    "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 11,
-   "reads": 6,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
-   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 10,
    "reads": 6,
    "plays": 0
   },
@@ -550,11 +550,11 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
+   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
+   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
    "views": 11,
    "reads": 6,
    "plays": 0
