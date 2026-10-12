@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-12T15:37:34.261Z",
+ "generated": "2026-10-12T15:47:42.714Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 10,
-  "todayReads": 15,
+  "readersNow": 16,
+  "todayReads": 16,
   "avgTimeSec": 54,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3465,
-  "reads": 304,
+  "views": 3475,
+  "reads": 305,
   "completes": 15,
   "plays": 6,
-  "sessions": 3358
+  "sessions": 3368
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3109,
-   "reads": 148,
-   "sessions": 3114
+   "views": 3122,
+   "reads": 149,
+   "sessions": 3127
   },
   {
    "channel": "organic",
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 54,
+   "views": 51,
    "reads": 18,
-   "sessions": 51
+   "sessions": 48
   },
   {
    "channel": "ai",
    "views": 27,
    "reads": 9,
-   "sessions": 37
+   "sessions": 36
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3109,
-   "reads": 148,
+   "views": 3122,
+   "reads": 149,
    "completes": 13,
-   "sessions": 3114,
+   "sessions": 3127,
    "read_rate": 0.048,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 54,
+   "views": 51,
    "reads": 18,
    "completes": 0,
-   "sessions": 51,
-   "read_rate": 0.333,
+   "sessions": 48,
+   "read_rate": 0.353,
    "complete_rate": 0,
    "pages_per_session": 1.06,
    "median_dwell_sec": null
@@ -109,11 +109,11 @@
    "views": 27,
    "reads": 9,
    "completes": 0,
-   "sessions": 37,
+   "sessions": 36,
    "read_rate": 0.333,
    "complete_rate": 0,
-   "pages_per_session": 0.73,
-   "median_dwell_sec": 38
+   "pages_per_session": 0.75,
+   "median_dwell_sec": 82
   },
   {
    "channel": "referral",
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 57,
+   "views": 54,
    "reads": 20,
-   "sessions": 52
+   "sessions": 49
   },
   {
    "assistant": "Claude",
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2929,
-   "reads": 272,
-   "sessions": 2833
+   "views": 2939,
+   "reads": 273,
+   "sessions": 2843
   },
   {
    "device": "mobile",
@@ -343,7 +343,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 50,
+   "views": 49,
    "reads": 8,
    "plays": 0
   },
@@ -535,7 +535,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 50,
+   "views": 49,
    "reads": 8,
    "plays": 0
   },
@@ -567,7 +567,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 50,
+   "views": 49,
    "reads": 8,
    "plays": 0
   },
@@ -665,9 +665,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 416,
+   "views": 417,
    "reads": 10,
-   "sessions": 416,
+   "sessions": 417,
    "avg_dwell_sec": 90
   },
   {
@@ -797,8 +797,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 17,
-   "sessions": 8
+   "hits": 15,
+   "sessions": 6
   },
   {
    "ref": "brand",
