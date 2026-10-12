@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-11T23:52:48.482Z",
+ "generated": "2026-10-12T00:02:56.533Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14572,
+ "verifiedAiHits": 14159,
  "logsScanned": 30,
- "windowStart": "2026-09-27",
- "windowEnd": "2026-10-11",
- "totalHits": 125990,
- "aiHits": 103904,
+ "windowStart": "2026-09-28",
+ "windowEnd": "2026-10-12",
+ "totalHits": 119648,
+ "aiHits": 99145,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27748,
+   "hits": 26017,
    "verifiedHits": 0,
-   "firstSeen": "2026-09-27",
-   "lastSeen": "2026-10-11",
+   "firstSeen": "2026-09-28",
+   "lastSeen": "2026-10-12",
    "topPaths": [
     {
      "path": "/",
-     "hits": 42
+     "hits": 39
     },
     {
      "path": "/dashboard",
@@ -47,18 +47,18 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 15969,
+   "hits": 15943,
    "verifiedHits": 0,
-   "firstSeen": "2026-09-27",
+   "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-11",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 43
+     "hits": 41
     },
     {
      "path": "/build",
-     "hits": 35
+     "hits": 34
     },
     {
      "path": "/stacks/undefined",
@@ -80,9 +80,9 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15137,
+   "hits": 14484,
    "verifiedHits": 0,
-   "firstSeen": "2026-09-27",
+   "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-11",
    "topPaths": [
     {
@@ -91,18 +91,18 @@
     },
     {
      "path": "/",
-     "hits": 9
+     "hits": 8
     },
     {
      "path": "/posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html",
-     "hits": 7
+     "hits": 6
     },
     {
-     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 7
+     "path": "/posts/2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader.html",
+     "hits": 6
     },
     {
-     "path": "/posts/2026-08-28-founders-wire-ai-cyber-defense-microduck-vertical-agents.html",
+     "path": "/posts/llm-reranker-vs-cross-encoder-vs-listwise.html",
      "hits": 6
     }
    ],
@@ -113,17 +113,17 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14922,
+   "hits": 13880,
    "verifiedHits": 0,
-   "firstSeen": "2026-09-27",
-   "lastSeen": "2026-10-11",
+   "firstSeen": "2026-09-28",
+   "lastSeen": "2026-10-12",
    "topPaths": [
     {
-     "path": "/wire.html",
-     "hits": 28
+     "path": "/tags/reportive",
+     "hits": 27
     },
     {
-     "path": "/tags/reportive",
+     "path": "/wire.html",
      "hits": 27
     },
     {
@@ -132,10 +132,10 @@
     },
     {
      "path": "/stack.html",
-     "hits": 18
+     "hits": 16
     },
     {
-     "path": "/stacks/autogen%2Bcloudflare-ai-gateway%2Bmem0",
+     "path": "/posts/2026-06-23-mcp-code-execution-vs-direct-tool-calls.html",
      "hits": 9
     }
    ],
@@ -146,14 +146,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 10843,
+   "hits": 10654,
    "verifiedHits": 0,
-   "firstSeen": "2026-09-27",
+   "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-11",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 141
+     "hits": 137
     },
     {
      "path": "/tags/reportive",
@@ -179,26 +179,26 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7223,
-   "verifiedHits": 7188,
-   "firstSeen": "2026-09-27",
-   "lastSeen": "2026-10-11",
+   "hits": 6681,
+   "verifiedHits": 6663,
+   "firstSeen": "2026-09-28",
+   "lastSeen": "2026-10-12",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 95
+     "hits": 88
     },
     {
      "path": "/build",
-     "hits": 48
+     "hits": 39
     },
     {
      "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
-     "hits": 40
+     "hits": 37
     },
     {
      "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
-     "hits": 37
+     "hits": 33
     },
     {
      "path": "/search",
@@ -212,18 +212,18 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 5908,
+   "hits": 5481,
    "verifiedHits": 0,
-   "firstSeen": "2026-09-27",
+   "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-11",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 39
+     "hits": 36
     },
     {
      "path": "/dashboard",
-     "hits": 9
+     "hits": 8
     },
     {
      "path": "/authors/priya",
@@ -231,11 +231,11 @@
     },
     {
      "path": "/apps",
-     "hits": 6
+     "hits": 5
     },
     {
      "path": "/tags/reportive",
-     "hits": 6
+     "hits": 5
     }
    ],
    "verifiable": false
@@ -245,14 +245,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5306,
-   "verifiedHits": 5224,
-   "firstSeen": "2026-09-27",
-   "lastSeen": "2026-10-11",
+   "hits": 5127,
+   "verifiedHits": 5061,
+   "firstSeen": "2026-09-28",
+   "lastSeen": "2026-10-12",
    "topPaths": [
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
-     "hits": 97
+     "hits": 98
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -260,7 +260,7 @@
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 80
+     "hits": 79
     },
     {
      "path": "/wire.html",
@@ -268,7 +268,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 49
+     "hits": 48
     }
    ],
    "verifiable": true
@@ -278,18 +278,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4249,
+   "hits": 4088,
    "verifiedHits": 0,
-   "firstSeen": "2026-09-27",
+   "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-11",
    "topPaths": [
     {
      "path": "/",
-     "hits": 28
+     "hits": 27
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 11
+     "hits": 10
     },
     {
      "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
@@ -311,9 +311,9 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 3631,
-   "verifiedHits": 3523,
-   "firstSeen": "2026-09-27",
+   "hits": 3612,
+   "verifiedHits": 3514,
+   "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-11",
    "topPaths": [
     {
@@ -334,7 +334,7 @@
     },
     {
      "path": "/",
-     "hits": 7
+     "hits": 6
     }
    ],
    "verifiable": true
@@ -344,10 +344,10 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3523,
+   "hits": 3160,
    "verifiedHits": 0,
-   "firstSeen": "2026-09-27",
-   "lastSeen": "2026-10-11",
+   "firstSeen": "2026-09-28",
+   "lastSeen": "2026-10-12",
    "topPaths": [
     {
      "path": "/posts/the-difference-between-a-commitment-and-a-dump.md",
@@ -358,15 +358,15 @@
      "hits": 4
     },
     {
-     "path": "/posts/openai-sponsored-agents-chatgpt-ads-founder-distribution-playbook.md",
-     "hits": 4
-    },
-    {
-     "path": "/posts/what-is-vibe-coding-meaning-apps-when-it-breaks.md",
-     "hits": 4
+     "path": "/posts/best-ai-agents-for-personal-use-september-2026.md",
+     "hits": 3
     },
     {
      "path": "/posts/claude-code-in-vscode-setup-and-workflow-2026.md",
+     "hits": 3
+    },
+    {
+     "path": "/posts/what-is-vibe-coding-meaning-apps-when-it-breaks.md",
      "hits": 3
     }
    ],
@@ -377,21 +377,17 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3112,
-   "verifiedHits": 2908,
-   "firstSeen": "2026-09-27",
+   "hits": 3005,
+   "verifiedHits": 2829,
+   "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-11",
    "topPaths": [
     {
      "path": "/",
-     "hits": 23
+     "hits": 22
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 21
-    },
-    {
-     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
      "hits": 19
     },
     {
@@ -399,8 +395,12 @@
      "hits": 18
     },
     {
-     "path": "/stack.html",
-     "hits": 18
+     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
+     "hits": 17
+    },
+    {
+     "path": "/posts/2026-09-27-founders-wire-openai-rogue-agents-safa-databricks-row-zero.html",
+     "hits": 17
     }
    ],
    "verifiable": true
@@ -410,30 +410,30 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3049,
-   "verifiedHits": 2917,
-   "firstSeen": "2026-09-27",
+   "hits": 2871,
+   "verifiedHits": 2755,
+   "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-11",
    "topPaths": [
     {
      "path": "/",
-     "hits": 762
+     "hits": 721
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 93
-    },
-    {
-     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 76
+     "hits": 81
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 73
+     "hits": 70
+    },
+    {
+     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
+     "hits": 68
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 65
+     "hits": 66
     }
    ],
    "verifiable": true
@@ -443,18 +443,18 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2143,
+   "hits": 1952,
    "verifiedHits": 0,
-   "firstSeen": "2026-09-27",
+   "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-11",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 293
+     "hits": 261
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
-     "hits": 136
+     "hits": 120
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
@@ -462,11 +462,11 @@
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
-     "hits": 107
+     "hits": 93
     },
     {
      "path": "/posts/open-weight-coding-model-you-can-actually-self-host-september-2026.html",
-     "hits": 94
+     "hits": 81
     }
    ],
    "verifiable": false
@@ -476,21 +476,21 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1187,
+   "hits": 782,
    "verifiedHits": 0,
-   "firstSeen": "2026-09-27",
+   "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-11",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 34
+     "hits": 23
     },
     {
      "path": "/langflow/api/v1/validate/code",
      "hits": 3
     },
     {
-     "path": "/cgi-bin/php",
+     "path": "/feast/read-document",
      "hits": 2
     },
     {
@@ -498,7 +498,7 @@
      "hits": 2
     },
     {
-     "path": "/posts/glm-5-2-vs-minimax-m3-vs-kimi-k2-open-weight-coder-routing.html",
+     "path": "/posts/agno-vs-langgraph-vs-crewai.html",
      "hits": 2
     }
    ],
@@ -509,18 +509,14 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 644,
-   "verifiedHits": 530,
-   "firstSeen": "2026-09-27",
+   "hits": 599,
+   "verifiedHits": 500,
+   "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-11",
    "topPaths": [
     {
      "path": "/",
-     "hits": 16
-    },
-    {
-     "path": "/dashboard",
-     "hits": 2
+     "hits": 15
     },
     {
      "path": "/posts/garak-vs-pyrit-vs-promptfoo.html",
@@ -533,6 +529,10 @@
     {
      "path": "/langflow/api/v1/validate/code",
      "hits": 2
+    },
+    {
+     "path": "/posts/what-is-vibe-coding-meaning-apps-when-it-breaks.html",
+     "hits": 2
     }
    ],
    "verifiable": true
@@ -542,18 +542,18 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 539,
+   "hits": 494,
    "verifiedHits": 0,
-   "firstSeen": "2026-09-27",
+   "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-10",
    "topPaths": [
     {
      "path": "/",
-     "hits": 53
+     "hits": 50
     },
     {
      "path": "/build",
-     "hits": 5
+     "hits": 4
     },
     {
      "path": "/posts/how-to-handle-a-truncated-llm-response.html",
@@ -575,9 +575,9 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 299,
+   "hits": 280,
    "verifiedHits": 0,
-   "firstSeen": "2026-09-27",
+   "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-11",
    "topPaths": [
     {
@@ -597,7 +597,7 @@
      "hits": 3
     },
     {
-     "path": "/%2eenv",
+     "path": "/model/info",
      "hits": 2
     }
    ],
@@ -608,9 +608,9 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 188,
+   "hits": 182,
    "verifiedHits": 0,
-   "firstSeen": "2026-09-27",
+   "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-11",
    "topPaths": [
     {
@@ -641,9 +641,9 @@
    "label": "Mistral AI",
    "category": "ai",
    "home": "https://mistral.ai",
-   "hits": 137,
+   "hits": 135,
    "verifiedHits": 0,
-   "firstSeen": "2026-09-27",
+   "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-11",
    "topPaths": [
     {
@@ -674,9 +674,9 @@
    "label": "Cohere",
    "category": "ai",
    "home": "https://cohere.com",
-   "hits": 80,
+   "hits": 76,
    "verifiedHits": 0,
-   "firstSeen": "2026-09-27",
+   "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-11",
    "topPaths": [
     {
@@ -688,7 +688,7 @@
      "hits": 2
     },
     {
-     "path": "/php-cgi/php-cgi.exe",
+     "path": "/z9x8c7v6b5-debug-trigger-www.dreaming.press",
      "hits": 2
     },
     {
@@ -707,9 +707,9 @@
    "label": "Claude Search (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 78,
+   "hits": 73,
    "verifiedHits": 0,
-   "firstSeen": "2026-09-27",
+   "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-11",
    "topPaths": [
     {
@@ -717,15 +717,15 @@
      "hits": 3
     },
     {
-     "path": "/dashboard%2F.env",
-     "hits": 2
-    },
-    {
-     "path": "/server.key",
+     "path": "/functionRouter",
      "hits": 2
     },
     {
      "path": "/dashboard",
+     "hits": 2
+    },
+    {
+     "path": "/server.key",
      "hits": 2
     },
     {
@@ -740,14 +740,14 @@
    "label": "Gemini / Vertex (Google-Extended)",
    "category": "ai",
    "home": "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers",
-   "hits": 75,
+   "hits": 72,
    "verifiedHits": 0,
-   "firstSeen": "2026-09-27",
+   "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-09",
    "topPaths": [
     {
-     "path": "/dashboard",
-     "hits": 4
+     "path": "/v1/graphql",
+     "hits": 2
     },
     {
      "path": "/cgi-bin/php-cgi.exe",
