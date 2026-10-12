@@ -1,30 +1,30 @@
 {
- "generated": "2026-10-12T16:28:08.556Z",
+ "generated": "2026-10-12T16:38:20.823Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 16,
+  "readersNow": 26,
+  "todayReads": 17,
   "avgTimeSec": 52,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3479,
-  "reads": 304,
+  "views": 3503,
+  "reads": 305,
   "completes": 15,
   "plays": 6,
-  "sessions": 3371
+  "sessions": 3395
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3127,
+   "views": 3151,
    "reads": 149,
-   "sessions": 3131
+   "sessions": 3156
   },
   {
    "channel": "organic",
    "views": 244,
-   "reads": 123,
+   "reads": 124,
    "sessions": 236
   },
   {
@@ -73,11 +73,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3127,
+   "views": 3151,
    "reads": 149,
    "completes": 13,
-   "sessions": 3131,
-   "read_rate": 0.048,
+   "sessions": 3156,
+   "read_rate": 0.047,
    "complete_rate": 0.004,
    "pages_per_session": 1,
    "median_dwell_sec": 7
@@ -85,10 +85,10 @@
   {
    "channel": "organic",
    "views": 244,
-   "reads": 123,
+   "reads": 124,
    "completes": 2,
    "sessions": 236,
-   "read_rate": 0.504,
+   "read_rate": 0.508,
    "complete_rate": 0.008,
    "pages_per_session": 1.03,
    "median_dwell_sec": 2
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2942,
-   "reads": 272,
-   "sessions": 2845
+   "views": 2966,
+   "reads": 273,
+   "sessions": 2869
   },
   {
    "device": "mobile",
@@ -652,13 +652,13 @@
    "plays": 0
   },
   {
-   "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
-   "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 17,
-   "reads": 0,
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 16,
+   "reads": 4,
    "plays": 0
   }
  ],
@@ -772,8 +772,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 95,
-   "sessions": 50
+   "hits": 97,
+   "sessions": 51
   },
   {
    "ref": "https://duckduckgo.com/",
@@ -787,8 +787,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 66,
-   "sessions": 38
+   "hits": 65,
+   "sessions": 37
   },
   {
    "ref": "https://search.brave.com/",
