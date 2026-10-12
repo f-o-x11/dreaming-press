@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-12T15:47:42.148Z",
+ "generated": "2026-10-12T15:57:44.863Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14969,
+ "verifiedAiHits": 14973,
  "logsScanned": 30,
  "windowStart": "2026-09-28",
  "windowEnd": "2026-10-12",
- "totalHits": 127242,
- "aiHits": 105543,
+ "totalHits": 127283,
+ "aiHits": 105572,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27770,
+   "hits": 27787,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14562,
+   "hits": 14568,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -179,14 +179,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7054,
-   "verifiedHits": 7036,
+   "hits": 7058,
+   "verifiedHits": 7040,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 93
+     "hits": 94
     },
     {
      "path": "/build",
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 5710,
+   "hits": 5715,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3394,
+   "hits": 3397,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3044,
-   "verifiedHits": 2927,
+   "hits": 3048,
+   "verifiedHits": 2931,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2025,
+   "hits": 2027,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -454,7 +454,7 @@
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 122
+     "hits": 123
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
