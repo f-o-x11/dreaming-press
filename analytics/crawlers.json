@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-12T10:52:49.870Z",
+ "generated": "2026-10-12T11:02:55.774Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14725,
+ "verifiedAiHits": 14729,
  "logsScanned": 30,
  "windowStart": "2026-09-28",
  "windowEnd": "2026-10-12",
- "totalHits": 124761,
- "aiHits": 103359,
+ "totalHits": 124955,
+ "aiHits": 103546,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27134,
+   "hits": 27160,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -47,7 +47,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 17446,
+   "hits": 17560,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14349,
+   "hits": 14356,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 10760,
+   "hits": 10795,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6951,
-   "verifiedHits": 6933,
+   "hits": 6952,
+   "verifiedHits": 6934,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 5644,
+   "hits": 5646,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5307,
-   "verifiedHits": 5241,
+   "hits": 5309,
+   "verifiedHits": 5243,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
    "topPaths": [
@@ -260,7 +260,7 @@
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 81
+     "hits": 82
     },
     {
      "path": "/wire.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3349,
+   "hits": 3351,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -358,15 +358,15 @@
      "hits": 4
     },
     {
+     "path": "/posts/gpt-6-1-sol-vs-claude-sonnet-5-5-coding.md",
+     "hits": 3
+    },
+    {
      "path": "/posts/best-ai-agents-for-personal-use-september-2026.md",
      "hits": 3
     },
     {
      "path": "/posts/claude-code-in-vscode-setup-and-workflow-2026.md",
-     "hits": 3
-    },
-    {
-     "path": "/posts/what-is-vibe-coding-meaning-apps-when-it-breaks.md",
      "hits": 3
     }
    ],
@@ -377,8 +377,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3272,
-   "verifiedHits": 3095,
+   "hits": 3273,
+   "verifiedHits": 3096,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
    "topPaths": [
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2987,
-   "verifiedHits": 2870,
+   "hits": 2988,
+   "verifiedHits": 2871,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
    "topPaths": [
@@ -425,7 +425,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 73
+     "hits": 74
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1993,
+   "hits": 1994,
    "verifiedHits": 0,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -509,7 +509,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 610,
+   "hits": 612,
    "verifiedHits": 511,
    "firstSeen": "2026-09-28",
    "lastSeen": "2026-10-12",
@@ -517,6 +517,10 @@
     {
      "path": "/",
      "hits": 17
+    },
+    {
+     "path": "/dashboard",
+     "hits": 2
     },
     {
      "path": "/posts/garak-vs-pyrit-vs-promptfoo.html",
@@ -528,10 +532,6 @@
     },
     {
      "path": "/langflow/api/v1/validate/code",
-     "hits": 2
-    },
-    {
-     "path": "/posts/what-is-vibe-coding-meaning-apps-when-it-breaks.html",
      "hits": 2
     }
    ],
