@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-12T13:34:52.207Z",
+ "generated": "2026-10-12T13:55:23.883Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 12,
+  "readersNow": 68,
   "todayReads": 12,
   "avgTimeSec": 62,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3325,
-  "reads": 303,
+  "views": 3399,
+  "reads": 302,
   "completes": 14,
   "plays": 6,
-  "sessions": 3216
+  "sessions": 3290
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2974,
-   "reads": 148,
-   "sessions": 2976
+   "views": 3047,
+   "reads": 147,
+   "sessions": 3049
   },
   {
    "channel": "organic",
-   "views": 243,
+   "views": 244,
    "reads": 123,
-   "sessions": 234
+   "sessions": 235
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,22 +73,22 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2974,
-   "reads": 148,
+   "views": 3047,
+   "reads": 147,
    "completes": 12,
-   "sessions": 2976,
-   "read_rate": 0.05,
+   "sessions": 3049,
+   "read_rate": 0.048,
    "complete_rate": 0.004,
    "pages_per_session": 1,
    "median_dwell_sec": 7
   },
   {
    "channel": "organic",
-   "views": 243,
+   "views": 244,
    "reads": 123,
    "completes": 2,
-   "sessions": 234,
-   "read_rate": 0.506,
+   "sessions": 235,
+   "read_rate": 0.504,
    "complete_rate": 0.008,
    "pages_per_session": 1.04,
    "median_dwell_sec": 2
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2786,
-   "reads": 271,
-   "sessions": 2688
+   "views": 2858,
+   "reads": 270,
+   "sessions": 2760
   },
   {
    "device": "mobile",
-   "views": 539,
+   "views": 541,
    "reads": 32,
-   "sessions": 528
+   "sessions": 530
   }
  ],
  "topContent": [
@@ -398,6 +398,16 @@
    "plays": 0
   },
   {
+   "slug": "vllm-0-26-serving-tuning-head-dtype-attention-backends-kv-offload",
+   "title": "vLLM 0.26 Shipped: The Three Serving Knobs Worth Turning, and One Model List Worth Reading",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 8,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "agent-funding-august-2026-control-won-the-summer",
    "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
    "section": "wire",
@@ -413,16 +423,6 @@
    "section": "stack",
    "tags": "[\"how-to\",\"opinionated\"]",
    "author": "dex",
-   "views": 7,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "vllm-0-26-serving-tuning-head-dtype-attention-backends-kv-offload",
-   "title": "vLLM 0.26 Shipped: The Three Serving Knobs Worth Turning, and One Model List Worth Reading",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
    "views": 7,
    "reads": 5,
    "plays": 0
@@ -652,22 +652,22 @@
    "plays": 0
   },
   {
-   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
-   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 16,
-   "reads": 4,
+   "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
+   "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 17,
+   "reads": 0,
    "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 409,
+   "views": 411,
    "reads": 10,
-   "sessions": 409,
+   "sessions": 411,
    "avg_dwell_sec": 90
   },
   {
@@ -782,8 +782,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 84,
-   "sessions": 74
+   "hits": 85,
+   "sessions": 75
   },
   {
    "ref": "https://cn.bing.com/",
