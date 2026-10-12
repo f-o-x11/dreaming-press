@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-12T07:39:22.355Z",
+ "generated": "2026-10-12T07:49:32.035Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 3,
-  "avgTimeSec": 34,
+  "readersNow": 10,
+  "todayReads": 4,
+  "avgTimeSec": 32,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 3151,
-  "reads": 305,
+  "views": 3156,
+  "reads": 306,
   "completes": 15,
   "plays": 6,
-  "sessions": 3045
+  "sessions": 3049
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2795,
-   "reads": 150,
-   "sessions": 2802
+   "views": 2799,
+   "reads": 151,
+   "sessions": 2805
   },
   {
    "channel": "organic",
-   "views": 246,
+   "views": 247,
    "reads": 124,
-   "sessions": 237
+   "sessions": 238
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2795,
-   "reads": 150,
+   "views": 2799,
+   "reads": 151,
    "completes": 12,
-   "sessions": 2802,
+   "sessions": 2805,
    "read_rate": 0.054,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 246,
+   "views": 247,
    "reads": 124,
    "completes": 3,
-   "sessions": 237,
-   "read_rate": 0.504,
+   "sessions": 238,
+   "read_rate": 0.502,
    "complete_rate": 0.012,
    "pages_per_session": 1.04,
    "median_dwell_sec": 2
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2614,
-   "reads": 271,
-   "sessions": 2518
+   "views": 2618,
+   "reads": 272,
+   "sessions": 2521
   },
   {
    "device": "mobile",
-   "views": 537,
+   "views": 538,
    "reads": 34,
-   "sessions": 527
+   "sessions": 528
   }
  ],
  "topContent": [
@@ -672,9 +672,9 @@
   },
   {
    "path": "/",
-   "views": 147,
+   "views": 148,
    "reads": 4,
-   "sessions": 146,
+   "sessions": 147,
    "avg_dwell_sec": 11
   },
   {
@@ -787,8 +787,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 68,
-   "sessions": 39
+   "hits": 69,
+   "sessions": 40
   },
   {
    "ref": "https://search.brave.com/",
