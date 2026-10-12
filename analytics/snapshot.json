@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-12T17:29:10.227Z",
+ "generated": "2026-10-12T17:39:20.676Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 23,
-  "todayReads": 17,
+  "readersNow": 30,
+  "todayReads": 18,
   "avgTimeSec": 52,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3547,
-  "reads": 305,
+  "views": 3571,
+  "reads": 306,
   "completes": 15,
   "plays": 6,
-  "sessions": 3439
+  "sessions": 3463
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3194,
-   "reads": 149,
-   "sessions": 3199
+   "views": 3218,
+   "reads": 150,
+   "sessions": 3223
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3194,
-   "reads": 149,
+   "views": 3218,
+   "reads": 150,
    "completes": 13,
-   "sessions": 3199,
+   "sessions": 3223,
    "read_rate": 0.047,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3007,
-   "reads": 273,
-   "sessions": 2910
+   "views": 3031,
+   "reads": 274,
+   "sessions": 2934
   },
   {
    "device": "mobile",
@@ -418,6 +418,16 @@
    "plays": 0
   },
   {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 7,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "lightpanda-vs-playwright-vs-browserless-headless-browser-ai-agents",
    "title": "Lightpanda vs Playwright vs Browserless: Picking a Headless Browser for AI Agents",
    "section": "stack",
@@ -444,16 +454,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 13,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
-   "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
-   "section": "stack",
-   "tags": "[\"compare\",\"opinionated\"]",
-   "author": "dex",
-   "views": 11,
    "reads": 4,
    "plays": 0
   }
