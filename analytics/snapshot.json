@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-12T15:06:51.476Z",
+ "generated": "2026-10-12T15:17:00.602Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 16,
-  "todayReads": 14,
+  "readersNow": 13,
+  "todayReads": 15,
   "avgTimeSec": 57,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3444,
-  "reads": 304,
+  "views": 3451,
+  "reads": 305,
   "completes": 15,
   "plays": 6,
-  "sessions": 3335
+  "sessions": 3342
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3088,
+   "views": 3094,
    "reads": 148,
-   "sessions": 3092
+   "sessions": 3098
   },
   {
    "channel": "organic",
-   "views": 245,
-   "reads": 124,
-   "sessions": 236
+   "views": 246,
+   "reads": 125,
+   "sessions": 237
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3088,
+   "views": 3094,
    "reads": 148,
    "completes": 13,
-   "sessions": 3092,
+   "sessions": 3098,
    "read_rate": 0.048,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 245,
-   "reads": 124,
+   "views": 246,
+   "reads": 125,
    "completes": 2,
-   "sessions": 236,
-   "read_rate": 0.506,
+   "sessions": 237,
+   "read_rate": 0.508,
    "complete_rate": 0.008,
    "pages_per_session": 1.04,
    "median_dwell_sec": 2
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2904,
-   "reads": 272,
-   "sessions": 2806
+   "views": 2913,
+   "reads": 273,
+   "sessions": 2815
   },
   {
    "device": "mobile",
-   "views": 540,
+   "views": 538,
    "reads": 32,
-   "sessions": 529
+   "sessions": 527
   }
  ],
  "topContent": [
@@ -665,9 +665,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 413,
+   "views": 414,
    "reads": 10,
-   "sessions": 413,
+   "sessions": 414,
    "avg_dwell_sec": 90
   },
   {
@@ -772,8 +772,8 @@
  "referrers": [
   {
    "ref": "https://www.bing.com/",
-   "hits": 95,
-   "sessions": 50
+   "hits": 97,
+   "sessions": 51
   },
   {
    "ref": "https://duckduckgo.com/",
