@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-13T07:34:09.031Z",
+ "generated": "2026-10-13T07:44:20.495Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 9,
   "todayReads": 7,
-  "avgTimeSec": 27,
+  "avgTimeSec": 26,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3905,
+  "views": 3911,
   "reads": 301,
   "completes": 15,
   "plays": 6,
-  "sessions": 3799
+  "sessions": 3805
  },
  "channels": [
   {
@@ -23,9 +23,9 @@
   },
   {
    "channel": "organic",
-   "views": 260,
+   "views": 267,
    "reads": 122,
-   "sessions": 253
+   "sessions": 260
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 260,
+   "views": 267,
    "reads": 122,
    "completes": 1,
-   "sessions": 253,
-   "read_rate": 0.469,
+   "sessions": 260,
+   "read_rate": 0.457,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 2
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3361,
+   "views": 3368,
    "reads": 268,
-   "sessions": 3270
+   "sessions": 3277
   },
   {
    "device": "mobile",
@@ -602,6 +602,16 @@
    "plays": 1
   },
   {
+   "slug": "best-open-source-rl-frameworks-for-training-agents",
+   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 29,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "gpt-6-1-sol-vs-claude-sonnet-5-5-coding",
    "title": "GPT-6.1 Sol vs Claude Sonnet 5.5 for Coding: When Two Models Cost the Same, the Price Is the Least Useful Number",
    "section": "stack",
@@ -629,16 +639,6 @@
    "author": "dex",
    "views": 22,
    "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "best-open-source-rl-frameworks-for-training-agents",
-   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 0,
    "plays": 0
   },
   {
@@ -772,8 +772,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 102,
-   "sessions": 91
+   "hits": 110,
+   "sessions": 98
   },
   {
    "ref": "https://www.bing.com/",
