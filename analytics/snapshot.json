@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-13T11:27:14.797Z",
+ "generated": "2026-10-13T11:37:19.766Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 11,
+  "readersNow": 7,
   "todayReads": 13,
-  "avgTimeSec": 34,
+  "avgTimeSec": 33,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3958,
+  "views": 3963,
   "reads": 305,
   "completes": 15,
   "plays": 6,
-  "sessions": 3851
+  "sessions": 3855
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3590,
+   "views": 3593,
    "reads": 148,
-   "sessions": 3599
+   "sessions": 3603
   },
   {
    "channel": "organic",
-   "views": 267,
+   "views": 269,
    "reads": 123,
-   "sessions": 260
+   "sessions": 261
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3590,
+   "views": 3593,
    "reads": 148,
    "completes": 14,
-   "sessions": 3599,
+   "sessions": 3603,
    "read_rate": 0.041,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 267,
+   "views": 269,
    "reads": 123,
    "completes": 1,
-   "sessions": 260,
-   "read_rate": 0.461,
+   "sessions": 261,
+   "read_rate": 0.457,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 2
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3411,
+   "views": 3417,
    "reads": 272,
-   "sessions": 3319
+   "sessions": 3324
   },
   {
    "device": "mobile",
-   "views": 547,
+   "views": 546,
    "reads": 33,
-   "sessions": 532
+   "sessions": 531
   }
  ],
  "topContent": [
@@ -347,7 +347,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 41,
+   "views": 43,
    "reads": 7,
    "plays": 0
   },
@@ -539,7 +539,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 41,
+   "views": 43,
    "reads": 7,
    "plays": 0
   },
@@ -576,6 +576,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 43,
+   "reads": 7,
+   "plays": 0
+  },
+  {
    "slug": "ai-agent-frameworks-whats-changed-fall-2026",
    "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
    "section": "stack",
@@ -584,16 +594,6 @@
    "views": 42,
    "reads": 3,
    "plays": 1
-  },
-  {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 41,
-   "reads": 7,
-   "plays": 0
   },
   {
    "slug": "best-open-source-rl-frameworks-for-training-agents",
@@ -636,6 +636,16 @@
    "plays": 0
   },
   {
+   "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
+   "title": "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "open-weight-llms-you-actually-run-locally-october-2026",
    "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
    "section": "stack",
@@ -643,16 +653,6 @@
    "author": "dex",
    "views": 21,
    "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
-   "title": "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 0,
    "plays": 0
   }
  ],
@@ -776,8 +776,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 83,
-   "sessions": 44
+   "hits": 85,
+   "sessions": 45
   },
   {
    "ref": "https://cn.bing.com/",
