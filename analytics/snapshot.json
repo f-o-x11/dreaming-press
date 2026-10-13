@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-13T04:50:49.945Z",
+ "generated": "2026-10-13T05:00:50.443Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 23,
+  "readersNow": 28,
   "todayReads": 2,
   "avgTimeSec": 28,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3817,
+  "views": 3835,
   "reads": 302,
   "completes": 15,
   "plays": 7,
-  "sessions": 3712
+  "sessions": 3730
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3465,
+   "views": 3473,
    "reads": 148,
-   "sessions": 3473
+   "sessions": 3481
   },
   {
    "channel": "organic",
-   "views": 249,
+   "views": 260,
    "reads": 122,
-   "sessions": 242
+   "sessions": 253
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3465,
+   "views": 3473,
    "reads": 148,
    "completes": 13,
-   "sessions": 3473,
+   "sessions": 3481,
    "read_rate": 0.043,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 249,
+   "views": 260,
    "reads": 122,
    "completes": 2,
-   "sessions": 242,
-   "read_rate": 0.49,
+   "sessions": 253,
+   "read_rate": 0.469,
    "complete_rate": 0.008,
    "pages_per_session": 1.03,
    "median_dwell_sec": 2
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3281,
+   "views": 3300,
    "reads": 270,
-   "sessions": 3187
+   "sessions": 3206
   },
   {
    "device": "mobile",
@@ -612,6 +612,16 @@
    "plays": 0
   },
   {
+   "slug": "tuning-chunked-prefill-max-num-batched-tokens",
+   "title": "Tuning Chunked Prefill in vLLM: The One Knob That Trades First-Token Latency for Smooth Streaming",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 23,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
    "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
    "section": "stack",
@@ -650,16 +660,6 @@
    "views": 20,
    "reads": 10,
    "plays": 2
-  },
-  {
-   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
-   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 19,
-   "reads": 4,
-   "plays": 0
   }
  ],
  "topPages": [
@@ -771,14 +771,14 @@
  ],
  "referrers": [
   {
+   "ref": "https://www.google.com/",
+   "hits": 102,
+   "sessions": 91
+  },
+  {
    "ref": "https://www.bing.com/",
    "hits": 95,
    "sessions": 50
-  },
-  {
-   "ref": "https://www.google.com/",
-   "hits": 91,
-   "sessions": 80
   },
   {
    "ref": "https://duckduckgo.com/",
