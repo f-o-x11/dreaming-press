@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-13T05:51:30.879Z",
+ "generated": "2026-10-13T06:01:46.098Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 4,
-  "avgTimeSec": 28,
+  "readersNow": 16,
+  "todayReads": 5,
+  "avgTimeSec": 26,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3845,
-  "reads": 303,
+  "views": 3858,
+  "reads": 301,
   "completes": 15,
-  "plays": 7,
-  "sessions": 3739
+  "plays": 6,
+  "sessions": 3751
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3480,
-   "reads": 147,
-   "sessions": 3488
+   "views": 3493,
+   "reads": 145,
+   "sessions": 3500
   },
   {
    "channel": "organic",
@@ -67,16 +67,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 22
+   "sessions": 23
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3480,
-   "reads": 147,
+   "views": 3493,
+   "reads": 145,
    "completes": 13,
-   "sessions": 3488,
+   "sessions": 3500,
    "read_rate": 0.042,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -164,7 +164,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 22,
+   "sessions": 23,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -173,14 +173,14 @@
  ],
  "navSurfaces": [
   {
+   "surface": "nav-cmp",
+   "clicks": 9,
+   "sessions": 7
+  },
+  {
    "surface": "brand",
    "clicks": 9,
    "sessions": 9
-  },
-  {
-   "surface": "nav-cmp",
-   "clicks": 7,
-   "sessions": 6
   },
   {
    "surface": "dash-range",
@@ -198,14 +198,14 @@
    "sessions": 3
   },
   {
-   "surface": "article-body",
+   "surface": "dg-title",
    "clicks": 3,
    "sessions": 3
   },
   {
-   "surface": "dg-title",
-   "clicks": 2,
-   "sessions": 2
+   "surface": "article-body",
+   "clicks": 3,
+   "sessions": 3
   },
   {
    "surface": "search-result",
@@ -219,6 +219,11 @@
   },
   {
    "surface": "mtabbar",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
+   "surface": "more",
    "clicks": 1,
    "sessions": 1
   },
@@ -239,11 +244,6 @@
   },
   {
    "surface": "cited-list",
-   "clicks": 1,
-   "sessions": 1
-  },
-  {
-   "surface": "article-byline",
    "clicks": 1,
    "sessions": 1
   }
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3309,
-   "reads": 271,
-   "sessions": 3214
+   "views": 3315,
+   "reads": 268,
+   "sessions": 3223
   },
   {
    "device": "mobile",
-   "views": 536,
-   "reads": 32,
-   "sessions": 525
+   "views": 543,
+   "reads": 33,
+   "sessions": 528
   }
  ],
  "topContent": [
@@ -490,16 +490,6 @@
    "plays": 1
   },
   {
-   "slug": "2026-06-24-where-to-run-a-long-running-ai-agent",
-   "title": "Cloudflare Agents vs Bedrock AgentCore vs Vercel: Where to Run a Long-Running AI Agent",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 11,
-   "reads": 3,
-   "plays": 1
-  },
-  {
    "slug": "ai-agent-frameworks-whats-changed-fall-2026",
    "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
    "section": "stack",
@@ -557,6 +547,16 @@
    "author": "dex",
    "views": 41,
    "reads": 7,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
+   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 13,
+   "reads": 6,
    "plays": 0
   }
  ],
@@ -728,10 +728,24 @@
   },
   {
    "path": "/global-tech-news",
+   "views": 9,
+   "reads": 0,
+   "sessions": 9,
+   "avg_dwell_sec": 15
+  },
+  {
+   "path": "/about.html",
+   "views": 8,
+   "reads": 0,
+   "sessions": 7,
+   "avg_dwell_sec": 20
+  },
+  {
+   "path": "/stack.html",
    "views": 8,
    "reads": 0,
    "sessions": 8,
-   "avg_dwell_sec": 18
+   "avg_dwell_sec": 5
   },
   {
    "path": "/topics/:topic",
@@ -748,25 +762,11 @@
    "avg_dwell_sec": 5
   },
   {
-   "path": "/stack.html",
-   "views": 7,
-   "reads": 0,
-   "sessions": 7,
-   "avg_dwell_sec": 5
-  },
-  {
    "path": "/apps",
    "views": 6,
    "reads": 0,
    "sessions": 6,
    "avg_dwell_sec": null
-  },
-  {
-   "path": "/about.html",
-   "views": 5,
-   "reads": 0,
-   "sessions": 4,
-   "avg_dwell_sec": 20
   }
  ],
  "referrers": [
@@ -801,6 +801,11 @@
    "sessions": 5
   },
   {
+   "ref": "nav-cmp",
+   "hits": 9,
+   "sessions": 7
+  },
+  {
    "ref": "brand",
    "hits": 9,
    "sessions": 9
@@ -814,11 +819,6 @@
    "ref": "https://bing.com/",
    "hits": 8,
    "sessions": 8
-  },
-  {
-   "ref": "nav-cmp",
-   "hits": 7,
-   "sessions": 6
   }
  ]
 }
