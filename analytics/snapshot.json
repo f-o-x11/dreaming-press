@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-13T00:16:27.942Z",
+ "generated": "2026-10-13T00:26:40.376Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 3,
   "todayReads": 0,
   "avgTimeSec": 0,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3709,
-  "reads": 303,
+  "views": 3708,
+  "reads": 302,
   "completes": 15,
   "plays": 6,
   "sessions": 3605
@@ -17,8 +17,8 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3355,
-   "reads": 149,
+   "views": 3354,
+   "reads": 148,
    "sessions": 3364
   },
   {
@@ -73,8 +73,8 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3355,
-   "reads": 149,
+   "views": 3354,
+   "reads": 148,
    "completes": 13,
    "sessions": 3364,
    "read_rate": 0.044,
@@ -296,14 +296,14 @@
   {
    "device": "desktop",
    "views": 3167,
-   "reads": 271,
-   "sessions": 3074
+   "reads": 270,
+   "sessions": 3075
   },
   {
    "device": "mobile",
-   "views": 542,
+   "views": 541,
    "reads": 32,
-   "sessions": 531
+   "sessions": 530
   }
  ],
  "topContent": [
@@ -443,7 +443,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 16,
+   "views": 17,
    "reads": 4,
    "plays": 0
   },
@@ -652,22 +652,22 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-whats-changed-fall-2026",
-   "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 17,
-   "reads": 0,
+   "reads": 4,
    "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 423,
+   "views": 422,
    "reads": 10,
-   "sessions": 423,
+   "sessions": 422,
    "avg_dwell_sec": 90
   },
   {
