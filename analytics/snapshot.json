@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-13T20:05:37.971Z",
+ "generated": "2026-10-13T20:16:00.408Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 10,
+  "readersNow": 4,
   "todayReads": 22,
   "avgTimeSec": 36,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 4022,
+  "views": 4024,
   "reads": 308,
   "completes": 15,
   "plays": 7,
-  "sessions": 3917
+  "sessions": 3919
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3655,
+   "views": 3657,
    "reads": 150,
-   "sessions": 3667
+   "sessions": 3669
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3655,
+   "views": 3657,
    "reads": 150,
    "completes": 14,
-   "sessions": 3667,
+   "sessions": 3669,
    "read_rate": 0.041,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3472,
+   "views": 3474,
    "reads": 273,
-   "sessions": 3382
+   "sessions": 3384
   },
   {
    "device": "mobile",
@@ -352,6 +352,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
+   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 13,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "clear-compact-remember-cross-vendor-agent-context-framework",
    "title": "Clear, Compact, or Remember? The Cross-Vendor Decision Framework for Long-Running Agent Context",
    "section": "stack",
@@ -360,16 +370,6 @@
    "views": 13,
    "reads": 6,
    "plays": 1
-  },
-  {
-   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
-   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 12,
-   "reads": 6,
-   "plays": 0
   },
   {
    "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
@@ -626,6 +626,16 @@
    "plays": 0
   },
   {
+   "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
+   "title": "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 23,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
    "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
    "section": "stack",
@@ -633,16 +643,6 @@
    "author": "dex",
    "views": 22,
    "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
-   "title": "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 0,
    "plays": 0
   },
   {
