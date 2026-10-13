@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-13T21:27:23.114Z",
+ "generated": "2026-10-13T21:37:36.107Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 24,
   "avgTimeSec": 37,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 4037,
+  "views": 4038,
   "reads": 310,
   "completes": 15,
   "plays": 7,
-  "sessions": 3932
+  "sessions": 3934
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3669,
+   "views": 3670,
    "reads": 150,
-   "sessions": 3682
+   "sessions": 3684
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3669,
+   "views": 3670,
    "reads": 150,
    "completes": 14,
-   "sessions": 3682,
+   "sessions": 3684,
    "read_rate": 0.041,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -291,13 +291,13 @@
    "device": "desktop",
    "views": 3484,
    "reads": 274,
-   "sessions": 3394
+   "sessions": 3395
   },
   {
    "device": "mobile",
-   "views": 552,
+   "views": 553,
    "reads": 35,
-   "sessions": 537
+   "sessions": 538
   },
   {
    "device": "tablet",
@@ -353,7 +353,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 45,
+   "views": 44,
    "reads": 8,
    "plays": 0
   },
@@ -555,7 +555,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 45,
+   "views": 44,
    "reads": 8,
    "plays": 0
   }
@@ -582,16 +582,6 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 45,
-   "reads": 8,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-frameworks-whats-changed-fall-2026",
    "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
    "section": "stack",
@@ -600,6 +590,16 @@
    "views": 45,
    "reads": 4,
    "plays": 1
+  },
+  {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 44,
+   "reads": 8,
+   "plays": 0
   },
   {
    "slug": "gpt-6-1-sol-vs-claude-sonnet-5-5-coding",
@@ -617,7 +617,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 26,
+   "views": 27,
    "reads": 0,
    "plays": 0
   },
@@ -642,6 +642,16 @@
    "plays": 0
   },
   {
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
    "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
    "section": "stack",
@@ -649,16 +659,6 @@
    "author": "dex",
    "views": 22,
    "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
-   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 4,
    "plays": 0
   }
  ],
