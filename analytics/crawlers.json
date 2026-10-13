@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-13T10:57:00.135Z",
+ "generated": "2026-10-13T11:07:07.420Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15075,
+ "verifiedAiHits": 15077,
  "logsScanned": 30,
  "windowStart": "2026-09-29",
  "windowEnd": "2026-10-13",
- "totalHits": 127573,
- "aiHits": 106031,
+ "totalHits": 127626,
+ "aiHits": 106076,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28117,
+   "hits": 28150,
    "verifiedHits": 0,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15108,
+   "hits": 15116,
    "verifiedHits": 0,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6841,
-   "verifiedHits": 6828,
+   "hits": 6848,
+   "verifiedHits": 6835,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5213,
-   "verifiedHits": 5154,
+   "hits": 5214,
+   "verifiedHits": 5155,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3501,
+   "hits": 3502,
    "verifiedHits": 0,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3018,
-   "verifiedHits": 2914,
+   "hits": 3019,
+   "verifiedHits": 2915,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
    "topPaths": [
@@ -476,7 +476,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 667,
+   "hits": 669,
    "verifiedHits": 0,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
@@ -490,15 +490,15 @@
      "hits": 3
     },
     {
+     "path": "/posts/terra-vs-muse-spark-vs-grok-cheap-agent-model-routing.html",
+     "hits": 2
+    },
+    {
      "path": "/posts/how-to-stop-an-ai-agent-from-looping-forever.html",
      "hits": 2
     },
     {
      "path": "/feast/read-document",
-     "hits": 2
-    },
-    {
-     "path": "/exec-py",
      "hits": 2
     }
    ],
