@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-13T20:26:10.354Z",
+ "generated": "2026-10-13T20:36:12.777Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 23,
-  "avgTimeSec": 36,
+  "readersNow": 9,
+  "todayReads": 24,
+  "avgTimeSec": 37,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 4026,
-  "reads": 309,
+  "views": 4033,
+  "reads": 310,
   "completes": 15,
   "plays": 7,
-  "sessions": 3921
+  "sessions": 3928
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3658,
+   "views": 3664,
    "reads": 150,
-   "sessions": 3670
+   "sessions": 3677
   },
   {
    "channel": "organic",
-   "views": 270,
-   "reads": 126,
-   "sessions": 262
+   "views": 271,
+   "reads": 127,
+   "sessions": 263
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3658,
+   "views": 3664,
    "reads": 150,
    "completes": 14,
-   "sessions": 3670,
+   "sessions": 3677,
    "read_rate": 0.041,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 270,
-   "reads": 126,
+   "views": 271,
+   "reads": 127,
    "completes": 1,
-   "sessions": 262,
-   "read_rate": 0.467,
+   "sessions": 263,
+   "read_rate": 0.469,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 2
@@ -289,15 +289,21 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3476,
+   "views": 3482,
    "reads": 274,
-   "sessions": 3386
+   "sessions": 3392
   },
   {
    "device": "mobile",
    "views": 550,
    "reads": 35,
    "sessions": 535
+  },
+  {
+   "device": "tablet",
+   "views": 1,
+   "reads": 1,
+   "sessions": 1
   }
  ],
  "topContent": [
@@ -332,6 +338,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 47,
+   "reads": 8,
+   "plays": 0
+  },
+  {
    "slug": "open-source-llm-leaderboard-september-2026-run-locally",
    "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
    "section": "stack",
@@ -339,16 +355,6 @@
    "author": "priya",
    "views": 45,
    "reads": 8,
-   "plays": 0
-  },
-  {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 46,
-   "reads": 7,
    "plays": 0
   },
   {
@@ -534,6 +540,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 47,
+   "reads": 8,
+   "plays": 0
+  },
+  {
    "slug": "open-source-llm-leaderboard-september-2026-run-locally",
    "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
    "section": "stack",
@@ -541,16 +557,6 @@
    "author": "priya",
    "views": 45,
    "reads": 8,
-   "plays": 0
-  },
-  {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 46,
-   "reads": 7,
    "plays": 0
   }
  ],
@@ -571,8 +577,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 46,
-   "reads": 7,
+   "views": 47,
+   "reads": 8,
    "plays": 0
   },
   {
@@ -786,8 +792,8 @@
   },
   {
    "ref": "https://search.brave.com/",
-   "hits": 25,
-   "sessions": 13
+   "hits": 27,
+   "sessions": 14
   },
   {
    "ref": "https://chatgpt.com/",
