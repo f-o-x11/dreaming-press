@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-13T12:28:10.563Z",
+ "generated": "2026-10-13T12:38:30.474Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 16,
+  "readersNow": 2,
+  "todayReads": 17,
   "avgTimeSec": 33,
   "postsThisWeek": 14
  },
@@ -12,14 +12,14 @@
   "reads": 308,
   "completes": 15,
   "plays": 6,
-  "sessions": 3858
+  "sessions": 3859
  },
  "channels": [
   {
    "channel": "direct",
    "views": 3597,
    "reads": 151,
-   "sessions": 3606
+   "sessions": 3607
   },
   {
    "channel": "organic",
@@ -67,7 +67,7 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 24
+   "sessions": 23
   }
  ],
  "channelQuality": [
@@ -76,7 +76,7 @@
    "views": 3597,
    "reads": 151,
    "completes": 14,
-   "sessions": 3606,
+   "sessions": 3607,
    "read_rate": 0.042,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -164,7 +164,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 24,
+   "sessions": 23,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -173,14 +173,14 @@
  ],
  "navSurfaces": [
   {
-   "surface": "brand",
-   "clicks": 10,
-   "sessions": 10
-  },
-  {
    "surface": "nav-cmp",
    "clicks": 9,
    "sessions": 7
+  },
+  {
+   "surface": "brand",
+   "clicks": 9,
+   "sessions": 9
   },
   {
    "surface": "dash-range",
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3417,
-   "reads": 273,
+   "views": 3416,
+   "reads": 272,
    "sessions": 3324
   },
   {
    "device": "mobile",
-   "views": 550,
-   "reads": 35,
-   "sessions": 534
+   "views": 551,
+   "reads": 36,
+   "sessions": 535
   }
  ],
  "topContent": [
@@ -666,9 +666,9 @@
   },
   {
    "path": "/",
-   "views": 150,
-   "reads": 4,
-   "sessions": 149,
+   "views": 149,
+   "reads": 3,
+   "sessions": 148,
    "avg_dwell_sec": 11
   },
   {
@@ -728,13 +728,6 @@
    "avg_dwell_sec": 15
   },
   {
-   "path": "/about.html",
-   "views": 8,
-   "reads": 0,
-   "sessions": 7,
-   "avg_dwell_sec": 20
-  },
-  {
    "path": "/stack.html",
    "views": 8,
    "reads": 0,
@@ -747,6 +740,13 @@
    "reads": 0,
    "sessions": 8,
    "avg_dwell_sec": null
+  },
+  {
+   "path": "/about.html",
+   "views": 7,
+   "reads": 0,
+   "sessions": 6,
+   "avg_dwell_sec": 3
   },
   {
    "path": "/apps",
@@ -795,14 +795,14 @@
    "sessions": 5
   },
   {
-   "ref": "brand",
-   "hits": 10,
-   "sessions": 10
-  },
-  {
    "ref": "nav-cmp",
    "hits": 9,
    "sessions": 7
+  },
+  {
+   "ref": "brand",
+   "hits": 9,
+   "sessions": 9
   },
   {
    "ref": "https://claude.ai/",
