@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-13T01:07:18.460Z",
+ "generated": "2026-10-13T01:17:26.741Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14713,
+ "verifiedAiHits": 14720,
  "logsScanned": 30,
  "windowStart": "2026-09-29",
  "windowEnd": "2026-10-13",
- "totalHits": 124159,
- "aiHits": 103377,
+ "totalHits": 124240,
+ "aiHits": 103449,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 26705,
+   "hits": 26723,
    "verifiedHits": 0,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14675,
+   "hits": 14682,
    "verifiedHits": 0,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14502,
+   "hits": 14539,
    "verifiedHits": 0,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
@@ -127,15 +127,15 @@
      "hits": 8
     },
     {
+     "path": "/posts/llm-reranker-vs-cross-encoder-vs-listwise.html",
+     "hits": 7
+    },
+    {
      "path": "/posts/openai-sponsored-agents-chatgpt-ads-founder-distribution-playbook.html",
      "hits": 6
     },
     {
      "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
-     "hits": 6
-    },
-    {
-     "path": "/posts/2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader.html",
      "hits": 6
     }
    ],
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 10757,
+   "hits": 10758,
    "verifiedHits": 0,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6662,
-   "verifiedHits": 6650,
+   "hits": 6664,
+   "verifiedHits": 6652,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 5530,
+   "hits": 5536,
    "verifiedHits": 0,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5060,
-   "verifiedHits": 5001,
+   "hits": 5063,
+   "verifiedHits": 5004,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
    "topPaths": [
@@ -344,8 +344,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3555,
-   "verifiedHits": 3392,
+   "hits": 3558,
+   "verifiedHits": 3395,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3387,
+   "hits": 3388,
    "verifiedHits": 0,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2906,
-   "verifiedHits": 2803,
+   "hits": 2907,
+   "verifiedHits": 2804,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
    "topPaths": [
@@ -425,7 +425,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 75
+     "hits": 76
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1877,
+   "hits": 1879,
    "verifiedHits": 0,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
