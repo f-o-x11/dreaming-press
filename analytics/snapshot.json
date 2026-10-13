@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-13T13:29:00.435Z",
+ "generated": "2026-10-13T13:39:18.894Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
+  "readersNow": 3,
   "todayReads": 18,
-  "avgTimeSec": 32,
+  "avgTimeSec": 30,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3979,
-  "reads": 309,
+  "views": 3978,
+  "reads": 308,
   "completes": 15,
   "plays": 6,
-  "sessions": 3871
+  "sessions": 3870
  },
  "channels": [
   {
    "channel": "direct",
    "views": 3609,
    "reads": 151,
-   "sessions": 3619
+   "sessions": 3618
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 30,
-   "reads": 10,
-   "sessions": 35
+   "views": 29,
+   "reads": 9,
+   "sessions": 34
   },
   {
    "channel": "referral",
@@ -76,7 +76,7 @@
    "views": 3609,
    "reads": 151,
    "completes": 14,
-   "sessions": 3619,
+   "sessions": 3618,
    "read_rate": 0.042,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -106,13 +106,13 @@
   },
   {
    "channel": "ai",
-   "views": 30,
-   "reads": 10,
+   "views": 29,
+   "reads": 9,
    "completes": 0,
-   "sessions": 35,
-   "read_rate": 0.333,
+   "sessions": 34,
+   "read_rate": 0.31,
    "complete_rate": 0,
-   "pages_per_session": 0.86,
+   "pages_per_session": 0.85,
    "median_dwell_sec": 87
   },
   {
@@ -263,9 +263,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 4,
-   "reads": 3,
-   "sessions": 3
+   "views": 3,
+   "reads": 2,
+   "sessions": 2
   },
   {
    "assistant": "Copilot",
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3428,
-   "reads": 273,
-   "sessions": 3336
+   "views": 3427,
+   "reads": 272,
+   "sessions": 3335
   },
   {
    "device": "mobile",
@@ -347,7 +347,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 43,
+   "views": 44,
    "reads": 7,
    "plays": 0
   },
@@ -412,22 +412,22 @@
    "plays": 0
   },
   {
-   "slug": "agent-funding-august-2026-control-won-the-summer",
-   "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 7,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "lightpanda-vs-playwright-vs-browserless-headless-browser-ai-agents",
    "title": "Lightpanda vs Playwright vs Browserless: Picking a Headless Browser for AI Agents",
    "section": "stack",
    "tags": "[\"how-to\",\"opinionated\"]",
    "author": "dex",
    "views": 7,
+   "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "agent-funding-august-2026-control-won-the-summer",
+   "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 6,
    "reads": 5,
    "plays": 0
   },
@@ -539,7 +539,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 43,
+   "views": 44,
    "reads": 7,
    "plays": 0
   },
@@ -576,6 +576,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 44,
+   "reads": 7,
+   "plays": 0
+  },
+  {
    "slug": "ai-agent-frameworks-whats-changed-fall-2026",
    "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
    "section": "stack",
@@ -584,16 +594,6 @@
    "views": 44,
    "reads": 4,
    "plays": 1
-  },
-  {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 43,
-   "reads": 7,
-   "plays": 0
   },
   {
    "slug": "best-open-source-rl-frameworks-for-training-agents",
