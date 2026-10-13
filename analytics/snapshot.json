@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-13T09:35:59.146Z",
+ "generated": "2026-10-13T09:46:00.683Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 7,
   "todayReads": 8,
   "avgTimeSec": 22,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3914,
-  "reads": 301,
+  "views": 3917,
+  "reads": 300,
   "completes": 15,
   "plays": 6,
-  "sessions": 3809
+  "sessions": 3812
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3549,
+   "views": 3554,
    "reads": 146,
-   "sessions": 3556
+   "sessions": 3560
   },
   {
    "channel": "organic",
-   "views": 266,
-   "reads": 122,
-   "sessions": 259
+   "views": 264,
+   "reads": 121,
+   "sessions": 257
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3549,
+   "views": 3554,
    "reads": 146,
    "completes": 14,
-   "sessions": 3556,
+   "sessions": 3560,
    "read_rate": 0.041,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 266,
-   "reads": 122,
+   "views": 264,
+   "reads": 121,
    "completes": 1,
-   "sessions": 259,
-   "read_rate": 0.459,
+   "sessions": 257,
+   "read_rate": 0.458,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 2
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3370,
-   "reads": 268,
-   "sessions": 3280
+   "views": 3369,
+   "reads": 267,
+   "sessions": 3279
   },
   {
    "device": "mobile",
-   "views": 544,
+   "views": 548,
    "reads": 33,
-   "sessions": 529
+   "sessions": 533
   }
  ],
  "topContent": [
@@ -766,8 +766,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 110,
-   "sessions": 98
+   "hits": 109,
+   "sessions": 97
   },
   {
    "ref": "https://www.bing.com/",
@@ -776,8 +776,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 85,
-   "sessions": 45
+   "hits": 83,
+   "sessions": 44
   },
   {
    "ref": "https://cn.bing.com/",
