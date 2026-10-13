@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-13T14:09:40.046Z",
+ "generated": "2026-10-13T14:19:47.230Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
-  "todayReads": 19,
-  "avgTimeSec": 30,
+  "readersNow": 4,
+  "todayReads": 21,
+  "avgTimeSec": 40,
   "postsThisWeek": 14
  },
  "funnel": {
   "views": 3979,
-  "reads": 309,
+  "reads": 311,
   "completes": 15,
-  "plays": 6,
+  "plays": 7,
   "sessions": 3871
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3610,
-   "reads": 151,
+   "views": 3609,
+   "reads": 152,
    "sessions": 3619
   },
   {
    "channel": "organic",
-   "views": 271,
-   "reads": 125,
-   "sessions": 263
+   "views": 272,
+   "reads": 126,
+   "sessions": 264
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,8 +73,8 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3610,
-   "reads": 151,
+   "views": 3609,
+   "reads": 152,
    "completes": 14,
    "sessions": 3619,
    "read_rate": 0.042,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 271,
-   "reads": 125,
+   "views": 272,
+   "reads": 126,
    "completes": 1,
-   "sessions": 263,
-   "read_rate": 0.461,
+   "sessions": 264,
+   "read_rate": 0.463,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 2
@@ -290,7 +290,7 @@
   {
    "device": "desktop",
    "views": 3430,
-   "reads": 273,
+   "reads": 275,
    "sessions": 3338
   },
   {
@@ -494,6 +494,16 @@
    "plays": 1
   },
   {
+   "slug": "text-to-sql-vanna-vs-wrenai-vs-dataherald",
+   "title": "Text-to-SQL for Agents: Vanna vs WrenAI vs Dataherald",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 2,
+   "plays": 1
+  },
+  {
    "slug": "2026-09-15-founders-wire-pace-the-frontier-slowdown-market-reprices-ai-trade",
    "title": "The Founder's Wire, September 15: The Labs Asked for a Brake, and the Market Repriced the Whole AI Trade in a Day",
    "section": "wire",
@@ -541,16 +551,6 @@
    "author": "dex",
    "views": 46,
    "reads": 7,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
-   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 13,
-   "reads": 6,
    "plays": 0
   }
  ],
@@ -771,8 +771,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 95,
-   "sessions": 50
+   "hits": 97,
+   "sessions": 51
   },
   {
    "ref": "https://duckduckgo.com/",
