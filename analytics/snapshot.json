@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-13T03:19:00.331Z",
+ "generated": "2026-10-13T03:29:08.871Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
+  "readersNow": 6,
   "todayReads": 1,
   "avgTimeSec": 26,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3771,
+  "views": 3770,
   "reads": 301,
   "completes": 15,
   "plays": 6,
-  "sessions": 3667
+  "sessions": 3666
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3418,
+   "views": 3417,
    "reads": 147,
-   "sessions": 3427
+   "sessions": 3426
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3418,
+   "views": 3417,
    "reads": 147,
    "completes": 13,
-   "sessions": 3427,
+   "sessions": 3426,
    "read_rate": 0.043,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3237,
+   "views": 3236,
    "reads": 269,
-   "sessions": 3144
+   "sessions": 3143
   },
   {
    "device": "mobile",
@@ -443,7 +443,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 17,
+   "views": 19,
    "reads": 4,
    "plays": 0
   },
@@ -652,13 +652,13 @@
    "plays": 2
   },
   {
-   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
-   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 18,
-   "reads": 1,
+   "views": 19,
+   "reads": 4,
    "plays": 0
   }
  ],
