@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-13T22:58:36.718Z",
+ "generated": "2026-10-13T23:08:44.521Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15647,
+ "verifiedAiHits": 15653,
  "logsScanned": 30,
  "windowStart": "2026-09-29",
  "windowEnd": "2026-10-13",
- "totalHits": 131067,
- "aiHits": 108710,
+ "totalHits": 131115,
+ "aiHits": 108734,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29373,
+   "hits": 29383,
    "verifiedHits": 0,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15655,
+   "hits": 15663,
    "verifiedHits": 0,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7100,
-   "verifiedHits": 7087,
+   "hits": 7107,
+   "verifiedHits": 7094,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
    "topPaths": [
@@ -202,7 +202,7 @@
     },
     {
      "path": "/search",
-     "hits": 34
+     "hits": 35
     }
    ],
    "verifiable": true
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 6039,
+   "hits": 6048,
    "verifiedHits": 0,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5431,
-   "verifiedHits": 5372,
+   "hits": 5434,
+   "verifiedHits": 5375,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
    "topPaths": [
@@ -311,14 +311,14 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3861,
-   "verifiedHits": 3697,
+   "hits": 3863,
+   "verifiedHits": 3699,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
    "topPaths": [
     {
      "path": "/",
-     "hits": 24
+     "hits": 25
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3637,
+   "hits": 3645,
    "verifiedHits": 0,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3162,
-   "verifiedHits": 3057,
+   "hits": 3163,
+   "verifiedHits": 3058,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
    "topPaths": [
