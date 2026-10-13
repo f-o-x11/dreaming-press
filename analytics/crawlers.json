@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-13T20:16:00.103Z",
+ "generated": "2026-10-13T20:26:10.075Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15541,
+ "verifiedAiHits": 15545,
  "logsScanned": 30,
  "windowStart": "2026-09-29",
  "windowEnd": "2026-10-13",
- "totalHits": 130352,
- "aiHits": 108254,
+ "totalHits": 130392,
+ "aiHits": 108275,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29198,
+   "hits": 29206,
    "verifiedHits": 0,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15537,
+   "hits": 15544,
    "verifiedHits": 0,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7038,
-   "verifiedHits": 7025,
+   "hits": 7040,
+   "verifiedHits": 7027,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 5946,
+   "hits": 5952,
    "verifiedHits": 0,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5385,
-   "verifiedHits": 5326,
+   "hits": 5387,
+   "verifiedHits": 5328,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3834,
-   "verifiedHits": 3670,
+   "hits": 3835,
+   "verifiedHits": 3671,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3565,
+   "hits": 3572,
    "verifiedHits": 0,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3130,
-   "verifiedHits": 3025,
+   "hits": 3131,
+   "verifiedHits": 3026,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
    "topPaths": [
     {
      "path": "/",
-     "hits": 812
+     "hits": 813
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1955,
+   "hits": 1957,
    "verifiedHits": 0,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
@@ -454,15 +454,15 @@
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 145
+     "hits": 146
+    },
+    {
+     "path": "/posts/best-llm-for-creative-writing-october-2026.html",
+     "hits": 105
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
      "hits": 105
-    },
-    {
-     "path": "/posts/best-llm-for-creative-writing-october-2026.html",
-     "hits": 104
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 616,
-   "verifiedHits": 534,
+   "hits": 620,
+   "verifiedHits": 538,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
    "topPaths": [
@@ -523,15 +523,15 @@
      "hits": 3
     },
     {
+     "path": "/posts/mcp-tool-annotations-explained.html",
+     "hits": 2
+    },
+    {
      "path": "/posts/bedrock-agentcore-vs-vertex-agent-engine-vs-foundry-hosted-agents.html",
      "hits": 2
     },
     {
      "path": "/langflow/api/v1/validate/code",
-     "hits": 2
-    },
-    {
-     "path": "/posts/what-is-vibe-coding-meaning-apps-when-it-breaks.html",
      "hits": 2
     }
    ],
