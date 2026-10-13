@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T00:57:07.750Z",
+ "generated": "2026-10-13T01:07:18.734Z",
  "windowDays": 14,
  "site": {
   "readersNow": 12,
@@ -8,18 +8,18 @@
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3717,
+  "views": 3720,
   "reads": 301,
   "completes": 15,
   "plays": 6,
-  "sessions": 3613
+  "sessions": 3616
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3366,
+   "views": 3369,
    "reads": 147,
-   "sessions": 3375
+   "sessions": 3378
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3366,
+   "views": 3369,
    "reads": 147,
    "completes": 13,
-   "sessions": 3375,
+   "sessions": 3378,
    "read_rate": 0.044,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3178,
+   "views": 3182,
    "reads": 269,
-   "sessions": 3085
+   "sessions": 3089
   },
   {
    "device": "mobile",
-   "views": 539,
+   "views": 538,
    "reads": 32,
-   "sessions": 528
+   "sessions": 527
   }
  ],
  "topContent": [
@@ -612,6 +612,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-agent-frameworks-whats-changed-fall-2026",
+   "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "best-open-source-rl-frameworks-for-training-agents",
    "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
    "section": "stack",
@@ -642,16 +652,6 @@
    "plays": 2
   },
   {
-   "slug": "ai-agent-frameworks-whats-changed-fall-2026",
-   "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 19,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
    "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
    "section": "wire",
@@ -672,9 +672,9 @@
   },
   {
    "path": "/",
-   "views": 149,
+   "views": 150,
    "reads": 4,
-   "sessions": 148,
+   "sessions": 149,
    "avg_dwell_sec": 11
   },
   {
