@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-13T21:47:43.709Z",
+ "generated": "2026-10-13T21:57:51.631Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 11,
+  "readersNow": 23,
   "todayReads": 24,
   "avgTimeSec": 37,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 4047,
+  "views": 4060,
   "reads": 309,
   "completes": 15,
   "plays": 7,
-  "sessions": 3942
+  "sessions": 3955
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3679,
+   "views": 3692,
    "reads": 149,
-   "sessions": 3692
+   "sessions": 3705
   },
   {
    "channel": "organic",
@@ -73,11 +73,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3679,
+   "views": 3692,
    "reads": 149,
    "completes": 14,
-   "sessions": 3692,
-   "read_rate": 0.041,
+   "sessions": 3705,
+   "read_rate": 0.04,
    "complete_rate": 0.004,
    "pages_per_session": 1,
    "median_dwell_sec": 8
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3493,
+   "views": 3506,
    "reads": 273,
-   "sessions": 3403
+   "sessions": 3416
   },
   {
    "device": "mobile",
@@ -418,22 +418,22 @@
    "plays": 0
   },
   {
+   "slug": "agent-funding-august-2026-control-won-the-summer",
+   "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 7,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "lightpanda-vs-playwright-vs-browserless-headless-browser-ai-agents",
    "title": "Lightpanda vs Playwright vs Browserless: Picking a Headless Browser for AI Agents",
    "section": "stack",
    "tags": "[\"how-to\",\"opinionated\"]",
    "author": "dex",
    "views": 7,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "agent-funding-august-2026-control-won-the-summer",
-   "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 6,
    "reads": 5,
    "plays": 0
   },
@@ -632,6 +632,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 23,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
    "title": "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix",
    "section": "stack",
@@ -650,31 +660,21 @@
    "views": 22,
    "reads": 4,
    "plays": 0
-  },
-  {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 1,
-   "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 441,
+   "views": 442,
    "reads": 10,
-   "sessions": 441,
+   "sessions": 442,
    "avg_dwell_sec": 90
   },
   {
    "path": "/",
-   "views": 149,
+   "views": 150,
    "reads": 3,
-   "sessions": 149,
+   "sessions": 150,
    "avg_dwell_sec": 11
   },
   {
