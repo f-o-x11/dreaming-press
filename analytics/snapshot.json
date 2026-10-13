@@ -1,37 +1,37 @@
 {
- "generated": "2026-10-13T13:59:28.153Z",
+ "generated": "2026-10-13T14:09:40.046Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 18,
+  "readersNow": 5,
+  "todayReads": 19,
   "avgTimeSec": 30,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3976,
-  "reads": 308,
+  "views": 3979,
+  "reads": 309,
   "completes": 15,
   "plays": 6,
-  "sessions": 3868
+  "sessions": 3871
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3607,
+   "views": 3610,
    "reads": 151,
-   "sessions": 3616
+   "sessions": 3619
   },
   {
    "channel": "organic",
-   "views": 270,
-   "reads": 124,
-   "sessions": 262
+   "views": 271,
+   "reads": 125,
+   "sessions": 263
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 39,
+   "views": 38,
    "reads": 19,
-   "sessions": 35
+   "sessions": 34
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3607,
+   "views": 3610,
    "reads": 151,
    "completes": 14,
-   "sessions": 3616,
+   "sessions": 3619,
    "read_rate": 0.042,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -84,24 +84,24 @@
   },
   {
    "channel": "organic",
-   "views": 270,
-   "reads": 124,
+   "views": 271,
+   "reads": 125,
    "completes": 1,
-   "sessions": 262,
-   "read_rate": 0.459,
+   "sessions": 263,
+   "read_rate": 0.461,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 2
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 39,
+   "views": 38,
    "reads": 19,
    "completes": 0,
-   "sessions": 35,
-   "read_rate": 0.487,
+   "sessions": 34,
+   "read_rate": 0.5,
    "complete_rate": 0,
-   "pages_per_session": 1.11,
+   "pages_per_session": 1.12,
    "median_dwell_sec": null
   },
   {
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 43,
+   "views": 42,
    "reads": 21,
-   "sessions": 36
+   "sessions": 35
   },
   {
    "assistant": "Claude",
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3427,
-   "reads": 272,
-   "sessions": 3335
+   "views": 3430,
+   "reads": 273,
+   "sessions": 3338
   },
   {
    "device": "mobile",
@@ -347,7 +347,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 44,
+   "views": 46,
    "reads": 7,
    "plays": 0
   },
@@ -447,7 +447,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 44,
+   "views": 45,
    "reads": 4,
    "plays": 1
   }
@@ -479,7 +479,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 44,
+   "views": 45,
    "reads": 4,
    "plays": 1
   },
@@ -539,7 +539,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 44,
+   "views": 46,
    "reads": 7,
    "plays": 0
   },
@@ -581,7 +581,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 44,
+   "views": 46,
    "reads": 7,
    "plays": 0
   },
@@ -591,19 +591,9 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 44,
+   "views": 45,
    "reads": 4,
    "plays": 1
-  },
-  {
-   "slug": "best-open-source-rl-frameworks-for-training-agents",
-   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 28,
-   "reads": 0,
-   "plays": 0
   },
   {
    "slug": "gpt-6-1-sol-vs-claude-sonnet-5-5-coding",
@@ -612,6 +602,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 28,
+   "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "best-open-source-rl-frameworks-for-training-agents",
+   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 27,
    "reads": 0,
    "plays": 0
   },
@@ -776,8 +776,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 85,
-   "sessions": 45
+   "hits": 87,
+   "sessions": 46
   },
   {
    "ref": "https://cn.bing.com/",
