@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-13T06:43:00.867Z",
+ "generated": "2026-10-13T06:53:43.729Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
+  "readersNow": 4,
   "todayReads": 6,
   "avgTimeSec": 27,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3865,
+  "views": 3869,
   "reads": 302,
   "completes": 16,
   "plays": 6,
-  "sessions": 3758
+  "sessions": 3762
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3500,
+   "views": 3504,
    "reads": 146,
-   "sessions": 3507
+   "sessions": 3511
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3500,
+   "views": 3504,
    "reads": 146,
    "completes": 14,
-   "sessions": 3507,
+   "sessions": 3511,
    "read_rate": 0.042,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3322,
+   "views": 3326,
    "reads": 269,
-   "sessions": 3230
+   "sessions": 3234
   },
   {
    "device": "mobile",
@@ -343,7 +343,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 46,
+   "views": 47,
    "reads": 8,
    "plays": 0
   },
@@ -535,7 +535,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 46,
+   "views": 47,
    "reads": 8,
    "plays": 0
   },
@@ -567,7 +567,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 46,
+   "views": 47,
    "reads": 8,
    "plays": 0
   },
@@ -665,9 +665,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 424,
+   "views": 425,
    "reads": 10,
-   "sessions": 424,
+   "sessions": 425,
    "avg_dwell_sec": 90
   },
   {
@@ -700,9 +700,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 21,
+   "views": 22,
    "reads": 0,
-   "sessions": 21,
+   "sessions": 22,
    "avg_dwell_sec": null
   },
   {
@@ -755,18 +755,18 @@
    "avg_dwell_sec": null
   },
   {
+   "path": "/apps",
+   "views": 7,
+   "reads": 0,
+   "sessions": 7,
+   "avg_dwell_sec": null
+  },
+  {
    "path": "/dispatches.html",
    "views": 7,
    "reads": 0,
    "sessions": 6,
    "avg_dwell_sec": 5
-  },
-  {
-   "path": "/apps",
-   "views": 6,
-   "reads": 0,
-   "sessions": 6,
-   "avg_dwell_sec": null
   }
  ],
  "referrers": [

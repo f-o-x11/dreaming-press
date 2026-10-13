@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-13T06:43:00.503Z",
+ "generated": "2026-10-13T06:53:43.449Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14892,
+ "verifiedAiHits": 14903,
  "logsScanned": 30,
  "windowStart": "2026-09-29",
  "windowEnd": "2026-10-13",
- "totalHits": 125936,
- "aiHits": 104690,
+ "totalHits": 126089,
+ "aiHits": 104838,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27401,
+   "hits": 27530,
    "verifiedHits": 0,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14916,
+   "hits": 14924,
    "verifiedHits": 0,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 5675,
+   "hits": 5679,
    "verifiedHits": 0,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5139,
-   "verifiedHits": 5080,
+   "hits": 5143,
+   "verifiedHits": 5084,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
    "topPaths": [
@@ -307,6 +307,39 @@
    "verifiable": false
   },
   {
+   "name": "PerplexityBot",
+   "label": "Perplexity",
+   "category": "ai",
+   "home": "https://www.perplexity.ai/bot",
+   "hits": 3602,
+   "verifiedHits": 3439,
+   "firstSeen": "2026-09-29",
+   "lastSeen": "2026-10-13",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 24
+    },
+    {
+     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
+     "hits": 20
+    },
+    {
+     "path": "/posts/gpt-6-1-sol-vs-claude-sonnet-5-5-coding.html",
+     "hits": 20
+    },
+    {
+     "path": "/posts/2026-09-27-founders-wire-openai-rogue-agents-safa-databricks-row-zero.html",
+     "hits": 19
+    },
+    {
+     "path": "/subscribe",
+     "hits": 18
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "GPTBot",
    "label": "GPTBot (OpenAI)",
    "category": "ai",
@@ -340,44 +373,11 @@
    "verifiable": true
   },
   {
-   "name": "PerplexityBot",
-   "label": "Perplexity",
-   "category": "ai",
-   "home": "https://www.perplexity.ai/bot",
-   "hits": 3599,
-   "verifiedHits": 3436,
-   "firstSeen": "2026-09-29",
-   "lastSeen": "2026-10-13",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 24
-    },
-    {
-     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 20
-    },
-    {
-     "path": "/posts/gpt-6-1-sol-vs-claude-sonnet-5-5-coding.html",
-     "hits": 20
-    },
-    {
-     "path": "/posts/2026-09-27-founders-wire-openai-rogue-agents-safa-databricks-row-zero.html",
-     "hits": 19
-    },
-    {
-     "path": "/subscribe",
-     "hits": 18
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "Applebot",
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3469,
+   "hits": 3470,
    "verifiedHits": 0,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2961,
-   "verifiedHits": 2858,
+   "hits": 2965,
+   "verifiedHits": 2862,
    "firstSeen": "2026-09-29",
    "lastSeen": "2026-10-13",
    "topPaths": [
     {
      "path": "/",
-     "hits": 770
+     "hits": 771
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
@@ -425,11 +425,11 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 76
+     "hits": 77
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 74
+     "hits": 75
     },
     {
      "path": "/posts/agent-memory-survey-2026.html",
