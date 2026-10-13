@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-13T22:18:00.600Z",
+ "generated": "2026-10-13T22:28:14.806Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
-  "todayReads": 27,
-  "avgTimeSec": 46,
+  "readersNow": 9,
+  "todayReads": 28,
+  "avgTimeSec": 57,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 4066,
-  "reads": 312,
-  "completes": 15,
-  "plays": 7,
-  "sessions": 3959
+  "views": 4063,
+  "reads": 313,
+  "completes": 16,
+  "plays": 8,
+  "sessions": 3956
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3697,
-   "reads": 151,
-   "sessions": 3709
+   "views": 3694,
+   "reads": 152,
+   "sessions": 3706
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3697,
-   "reads": 151,
-   "completes": 14,
-   "sessions": 3709,
+   "views": 3694,
+   "reads": 152,
+   "completes": 15,
+   "sessions": 3706,
    "read_rate": 0.041,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -193,17 +193,17 @@
    "sessions": 5
   },
   {
+   "surface": "article-body",
+   "clicks": 4,
+   "sessions": 4
+  },
+  {
    "surface": "sb-right",
    "clicks": 3,
    "sessions": 3
   },
   {
    "surface": "dg-title",
-   "clicks": 3,
-   "sessions": 3
-  },
-  {
-   "surface": "article-body",
    "clicks": 3,
    "sessions": 3
   },
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3514,
-   "reads": 276,
-   "sessions": 3422
+   "views": 3512,
+   "reads": 277,
+   "sessions": 3420
   },
   {
    "device": "mobile",
-   "views": 551,
+   "views": 550,
    "reads": 35,
-   "sessions": 536
+   "sessions": 535
   },
   {
    "device": "tablet",
@@ -510,6 +510,16 @@
    "plays": 1
   },
   {
+   "slug": "vibe-coding-vs-spec-driven-development-founder-decision",
+   "title": "Vibe Coding vs Spec-Driven Development: The Solo Founder's 2026 Decision",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 1,
+   "reads": 1,
+   "plays": 1
+  },
+  {
    "slug": "2026-09-15-founders-wire-pace-the-frontier-slowdown-market-reprices-ai-trade",
    "title": "The Founder's Wire, September 15: The Labs Asked for a Brake, and the Market Repriced the Whole AI Trade in a Day",
    "section": "wire",
@@ -547,16 +557,6 @@
    "author": "dex",
    "views": 47,
    "reads": 8,
-   "plays": 0
-  },
-  {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 44,
-   "reads": 7,
    "plays": 0
   }
  ],
@@ -672,9 +672,9 @@
   },
   {
    "path": "/",
-   "views": 150,
+   "views": 149,
    "reads": 3,
-   "sessions": 150,
+   "sessions": 149,
    "avg_dwell_sec": 11
   },
   {
@@ -748,13 +748,6 @@
    "avg_dwell_sec": 4
   },
   {
-   "path": "/about.html",
-   "views": 7,
-   "reads": 0,
-   "sessions": 6,
-   "avg_dwell_sec": 3
-  },
-  {
    "path": "/apps",
    "views": 7,
    "reads": 0,
@@ -767,6 +760,13 @@
    "reads": 0,
    "sessions": 7,
    "avg_dwell_sec": 5
+  },
+  {
+   "path": "/about.html",
+   "views": 6,
+   "reads": 0,
+   "sessions": 5,
+   "avg_dwell_sec": null
   }
  ],
  "referrers": [
