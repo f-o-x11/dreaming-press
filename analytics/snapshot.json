@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-13T23:08:44.833Z",
+ "generated": "2026-10-13T23:18:52.501Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 5,
   "todayReads": 28,
   "avgTimeSec": 53,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 4059,
+  "views": 4063,
   "reads": 313,
   "completes": 16,
   "plays": 8,
-  "sessions": 3954
+  "sessions": 3958
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3691,
+   "views": 3695,
    "reads": 152,
-   "sessions": 3705
+   "sessions": 3709
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3691,
+   "views": 3695,
    "reads": 152,
    "completes": 15,
-   "sessions": 3705,
+   "sessions": 3709,
    "read_rate": 0.041,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3509,
+   "views": 3510,
    "reads": 277,
-   "sessions": 3417
+   "sessions": 3418
   },
   {
    "device": "mobile",
-   "views": 549,
+   "views": 552,
    "reads": 35,
-   "sessions": 536
+   "sessions": 539
   },
   {
    "device": "tablet",
@@ -398,6 +398,16 @@
    "plays": 0
   },
   {
+   "slug": "lightpanda-vs-playwright-vs-browserless-headless-browser-ai-agents",
+   "title": "Lightpanda vs Playwright vs Browserless: Picking a Headless Browser for AI Agents",
+   "section": "stack",
+   "tags": "[\"how-to\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "open-source-llm-for-coding-september-2026",
    "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
    "section": "stack",
@@ -423,16 +433,6 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 7,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "lightpanda-vs-playwright-vs-browserless-headless-browser-ai-agents",
-   "title": "Lightpanda vs Playwright vs Browserless: Picking a Headless Browser for AI Agents",
-   "section": "stack",
-   "tags": "[\"how-to\",\"opinionated\"]",
-   "author": "dex",
    "views": 7,
    "reads": 5,
    "plays": 0
