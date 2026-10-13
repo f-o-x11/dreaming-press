@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-13T15:31:47.654Z",
+ "generated": "2026-10-13T15:42:00.390Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 5,
   "todayReads": 21,
   "avgTimeSec": 40,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3972,
+  "views": 3975,
   "reads": 309,
   "completes": 15,
   "plays": 7,
-  "sessions": 3864
+  "sessions": 3867
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3602,
+   "views": 3606,
    "reads": 150,
-   "sessions": 3612
+   "sessions": 3615
   },
   {
    "channel": "organic",
-   "views": 272,
+   "views": 271,
    "reads": 126,
-   "sessions": 264
+   "sessions": 263
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3602,
+   "views": 3606,
    "reads": 150,
    "completes": 14,
-   "sessions": 3612,
+   "sessions": 3615,
    "read_rate": 0.042,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 272,
+   "views": 271,
    "reads": 126,
    "completes": 1,
-   "sessions": 264,
-   "read_rate": 0.463,
+   "sessions": 263,
+   "read_rate": 0.465,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 2
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3424,
+   "views": 3427,
    "reads": 274,
-   "sessions": 3332
+   "sessions": 3335
   },
   {
    "device": "mobile",
@@ -352,16 +352,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
-   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 13,
-   "reads": 6,
-   "plays": 0
-  },
-  {
    "slug": "clear-compact-remember-cross-vendor-agent-context-framework",
    "title": "Clear, Compact, or Remember? The Cross-Vendor Decision Framework for Long-Running Agent Context",
    "section": "stack",
@@ -370,6 +360,16 @@
    "views": 13,
    "reads": 6,
    "plays": 1
+  },
+  {
+   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
+   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 12,
+   "reads": 6,
+   "plays": 0
   },
   {
    "slug": "open-source-llm-for-coding-september-2026",
@@ -687,9 +687,9 @@
   },
   {
    "path": "/build",
-   "views": 37,
+   "views": 38,
    "reads": 0,
-   "sessions": 37,
+   "sessions": 38,
    "avg_dwell_sec": 4
   },
   {
@@ -771,8 +771,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 97,
-   "sessions": 51
+   "hits": 96,
+   "sessions": 50
   },
   {
    "ref": "https://duckduckgo.com/",
