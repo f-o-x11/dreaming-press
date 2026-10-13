@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-13T07:44:20.495Z",
+ "generated": "2026-10-13T07:54:32.509Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 9,
+  "readersNow": 7,
   "todayReads": 7,
   "avgTimeSec": 26,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3911,
+  "views": 3908,
   "reads": 301,
   "completes": 15,
   "plays": 6,
-  "sessions": 3805
+  "sessions": 3802
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3542,
+   "views": 3538,
    "reads": 146,
-   "sessions": 3549
+   "sessions": 3545
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3542,
+   "views": 3538,
    "reads": 146,
    "completes": 14,
-   "sessions": 3549,
+   "sessions": 3545,
    "read_rate": 0.041,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3368,
+   "views": 3365,
    "reads": 268,
-   "sessions": 3277
+   "sessions": 3274
   },
   {
    "device": "mobile",
-   "views": 544,
+   "views": 543,
    "reads": 33,
-   "sessions": 529
+   "sessions": 528
   }
  ],
  "topContent": [
@@ -428,22 +428,22 @@
    "plays": 0
   },
   {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 7,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "lightpanda-vs-playwright-vs-browserless-headless-browser-ai-agents",
    "title": "Lightpanda vs Playwright vs Browserless: Picking a Headless Browser for AI Agents",
    "section": "stack",
    "tags": "[\"how-to\",\"opinionated\"]",
    "author": "dex",
    "views": 7,
+   "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 6,
    "reads": 5,
    "plays": 0
   },
