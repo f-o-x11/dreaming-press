@@ -1,36 +1,36 @@
 {
- "generated": "2026-10-13T05:21:00.304Z",
+ "generated": "2026-10-13T05:31:10.421Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 10,
-  "todayReads": 2,
+  "readersNow": 8,
+  "todayReads": 4,
   "avgTimeSec": 28,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3843,
-  "reads": 302,
+  "views": 3845,
+  "reads": 303,
   "completes": 15,
   "plays": 7,
-  "sessions": 3738
+  "sessions": 3739
  },
  "channels": [
   {
    "channel": "direct",
    "views": 3480,
-   "reads": 148,
+   "reads": 147,
    "sessions": 3488
   },
   {
    "channel": "organic",
-   "views": 260,
-   "reads": 122,
-   "sessions": 253
+   "views": 261,
+   "reads": 123,
+   "sessions": 254
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 43,
-   "reads": 18,
+   "views": 44,
+   "reads": 19,
    "sessions": 40
   },
   {
@@ -74,34 +74,34 @@
   {
    "channel": "direct",
    "views": 3480,
-   "reads": 148,
+   "reads": 147,
    "completes": 13,
    "sessions": 3488,
-   "read_rate": 0.043,
+   "read_rate": 0.042,
    "complete_rate": 0.004,
    "pages_per_session": 1,
    "median_dwell_sec": 8
   },
   {
    "channel": "organic",
-   "views": 260,
-   "reads": 122,
+   "views": 261,
+   "reads": 123,
    "completes": 2,
-   "sessions": 253,
-   "read_rate": 0.469,
+   "sessions": 254,
+   "read_rate": 0.471,
    "complete_rate": 0.008,
    "pages_per_session": 1.03,
    "median_dwell_sec": 2
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 43,
-   "reads": 18,
+   "views": 44,
+   "reads": 19,
    "completes": 0,
    "sessions": 40,
-   "read_rate": 0.419,
+   "read_rate": 0.432,
    "complete_rate": 0,
-   "pages_per_session": 1.07,
+   "pages_per_session": 1.1,
    "median_dwell_sec": null
   },
   {
@@ -251,8 +251,8 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 46,
-   "reads": 20,
+   "views": 47,
+   "reads": 21,
    "sessions": 41
   },
   {
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3307,
-   "reads": 270,
-   "sessions": 3213
+   "views": 3309,
+   "reads": 271,
+   "sessions": 3214
   },
   {
    "device": "mobile",
@@ -398,6 +398,16 @@
    "plays": 0
   },
   {
+   "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
+   "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
+   "section": "stack",
+   "tags": "[\"compare\",\"opinionated\"]",
+   "author": "dex",
+   "views": 12,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "vllm-0-26-serving-tuning-head-dtype-attention-backends-kv-offload",
    "title": "vLLM 0.26 Shipped: The Three Serving Knobs Worth Turning, and One Model List Worth Reading",
    "section": "wire",
@@ -444,16 +454,6 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 19,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "how-to-cap-runaway-claude-code-subagents-web-searches",
-   "title": "How to Cap a Runaway Claude Code Agent: The New Per-Session Subagent and Web-Search Budgets",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 13,
    "reads": 4,
    "plays": 0
   }
@@ -797,7 +797,7 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 14,
+   "hits": 16,
    "sessions": 5
   },
   {
