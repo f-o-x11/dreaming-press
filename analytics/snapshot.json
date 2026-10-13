@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-13T12:48:39.982Z",
+ "generated": "2026-10-13T12:58:42.493Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
   "todayReads": 17,
-  "avgTimeSec": 33,
+  "avgTimeSec": 32,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3967,
+  "views": 3966,
   "reads": 308,
   "completes": 15,
   "plays": 6,
-  "sessions": 3859
+  "sessions": 3858
  },
  "channels": [
   {
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 40,
+   "views": 39,
    "reads": 19,
-   "sessions": 36
+   "sessions": 35
   },
   {
    "channel": "ai",
@@ -95,11 +95,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 40,
+   "views": 39,
    "reads": 19,
    "completes": 0,
-   "sessions": 36,
-   "read_rate": 0.475,
+   "sessions": 35,
+   "read_rate": 0.487,
    "complete_rate": 0,
    "pages_per_session": 1.11,
    "median_dwell_sec": null
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 44,
+   "views": 43,
    "reads": 21,
-   "sessions": 37
+   "sessions": 36
   },
   {
    "assistant": "Claude",
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3416,
+   "views": 3415,
    "reads": 272,
-   "sessions": 3324
+   "sessions": 3323
   },
   {
    "device": "mobile",
@@ -447,7 +447,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 43,
+   "views": 44,
    "reads": 4,
    "plays": 1
   }
@@ -479,7 +479,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 43,
+   "views": 44,
    "reads": 4,
    "plays": 1
   },
@@ -576,6 +576,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-agent-frameworks-whats-changed-fall-2026",
+   "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 44,
+   "reads": 4,
+   "plays": 1
+  },
+  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -584,16 +594,6 @@
    "views": 43,
    "reads": 7,
    "plays": 0
-  },
-  {
-   "slug": "ai-agent-frameworks-whats-changed-fall-2026",
-   "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 43,
-   "reads": 4,
-   "plays": 1
   },
   {
    "slug": "best-open-source-rl-frameworks-for-training-agents",
@@ -680,9 +680,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 42,
+   "views": 41,
    "reads": 0,
-   "sessions": 42,
+   "sessions": 41,
    "avg_dwell_sec": null
   },
   {
