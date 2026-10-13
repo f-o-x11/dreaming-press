@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-13T01:37:36.199Z",
+ "generated": "2026-10-13T01:47:40.325Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 17,
+  "readersNow": 15,
   "todayReads": 0,
-  "avgTimeSec": 23,
+  "avgTimeSec": 20,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3733,
+  "views": 3739,
   "reads": 301,
   "completes": 15,
   "plays": 6,
-  "sessions": 3629
+  "sessions": 3635
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3381,
+   "views": 3387,
    "reads": 147,
-   "sessions": 3390
+   "sessions": 3396
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3381,
+   "views": 3387,
    "reads": 147,
    "completes": 13,
-   "sessions": 3390,
+   "sessions": 3396,
    "read_rate": 0.043,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3195,
+   "views": 3202,
    "reads": 269,
-   "sessions": 3102
+   "sessions": 3109
   },
   {
    "device": "mobile",
-   "views": 538,
+   "views": 537,
    "reads": 32,
-   "sessions": 527
+   "sessions": 526
   }
  ],
  "topContent": [
@@ -358,6 +358,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
+   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 12,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "clear-compact-remember-cross-vendor-agent-context-framework",
    "title": "Clear, Compact, or Remember? The Cross-Vendor Decision Framework for Long-Running Agent Context",
    "section": "stack",
@@ -366,16 +376,6 @@
    "views": 12,
    "reads": 6,
    "plays": 1
-  },
-  {
-   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
-   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 11,
-   "reads": 6,
-   "plays": 0
   },
   {
    "slug": "open-source-llm-for-coding-september-2026",
@@ -555,7 +555,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 11,
+   "views": 12,
    "reads": 6,
    "plays": 0
   }
@@ -607,7 +607,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 25,
+   "views": 27,
    "reads": 0,
    "plays": 0
   },
@@ -665,9 +665,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 423,
+   "views": 424,
    "reads": 10,
-   "sessions": 423,
+   "sessions": 424,
    "avg_dwell_sec": 90
   },
   {
