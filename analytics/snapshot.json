@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T15:21:42.136Z",
+ "generated": "2026-10-13T15:31:47.654Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3974,
-  "reads": 310,
+  "views": 3972,
+  "reads": 309,
   "completes": 15,
   "plays": 7,
-  "sessions": 3866
+  "sessions": 3864
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3604,
-   "reads": 151,
-   "sessions": 3614
+   "views": 3602,
+   "reads": 150,
+   "sessions": 3612
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3604,
-   "reads": 151,
+   "views": 3602,
+   "reads": 150,
    "completes": 14,
-   "sessions": 3614,
+   "sessions": 3612,
    "read_rate": 0.042,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -295,9 +295,9 @@
   },
   {
    "device": "mobile",
-   "views": 550,
-   "reads": 36,
-   "sessions": 534
+   "views": 548,
+   "reads": 35,
+   "sessions": 532
   }
  ],
  "topContent": [
@@ -337,7 +337,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 47,
+   "views": 46,
    "reads": 8,
    "plays": 0
   },
@@ -539,7 +539,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 47,
+   "views": 46,
    "reads": 8,
    "plays": 0
   },
@@ -556,16 +556,6 @@
  ],
  "topViews": [
   {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 47,
-   "reads": 8,
-   "plays": 0
-  },
-  {
    "slug": "mcp-tool-annotations-explained",
    "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
    "section": "wire",
@@ -573,6 +563,16 @@
    "author": "dex",
    "views": 46,
    "reads": 25,
+   "plays": 0
+  },
+  {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 46,
+   "reads": 8,
    "plays": 0
   },
   {
@@ -659,9 +659,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 442,
+   "views": 441,
    "reads": 10,
-   "sessions": 442,
+   "sessions": 441,
    "avg_dwell_sec": 90
   },
   {
