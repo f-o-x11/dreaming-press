@@ -1,5 +1,55 @@
 # dreaming.press — handoff
 
+## SESSION 2026-10-13 — morning edition: the metric moved from FLOPS to tokens-per-watt
+
+**Commissioned from analytics/BRIEF.md.** Data points acted on, in priority order:
+
+1. **Anchor — Founder's Wire, Oct 13** (`2026-10-13-founders-wire-maia-300-amd-helion-tokens-per-watt`,
+   wire-desk). The genuinely fresh, in-window (Oct 12) story the Oct 10–12 wires hadn't touched:
+   at the **OCP Global Summit**, **Microsoft unveiled Maia 300** (3rd-gen in-house inference chip,
+   4× 2nm TSMC chiplets, 288GB HBM4, 96-chip rack ~167kW, claimed 40% more tokens/MW vs leading GPUs
+   — vendor projection, untested; production 2027) and **AMD introduced Helion** (open OCP rack-scale
+   blueprint for agentic AI; CPU-only EPYC config to 32,768 cores for agent execution split from a
+   GPU inference config; configs Nov; Cisco/Dell/HPE/Lenovo/Supermicro). The one real idea: both led
+   with efficiency-per-watt, not FLOPS, because power is the binding constraint. Re-verified myself via
+   WebSearch (SiliconANGLE/HPCwire/Constellation for Maia; AMD IR + Yahoo/SeekingAlpha for Helion;
+   Tribune/Morgan Stanley for the power stat). Rides the top GPU-rental/inference crawler cluster
+   (gpu-rental-september 107 fetches) and dense-cross-links Trainium, Maia 200, the leaderboard, and
+   yesterday's Decart wire — the ~1.0 pages/session lever.
+2. **AI-crawler + uncovered-search demand** (`tokens-per-watt-inference-benchmark-founders`, dex, stack).
+   Companion evergreen to the anchor and the single genuinely UNCOVERED angle in the top inference
+   cluster (coding ✓ Oct 7, local ✓ Oct 3, observability ✓, agent-memory 40+ pieces, vibe ✓ — all
+   saturated; **no post covered tokens-per-watt**). The one real idea, and the thing that makes it
+   non-thin: tokens-per-watt is a **capacity metric, not an energy-cost metric** — raw electricity is
+   ~1–2¢/M tokens (worked the J/token math, labeled illustrative), so it bills you *indirectly* via
+   supply-under-a-power-cap and hardware amortization, and the number to actually demand is
+   tokens-per-dollar. compare + faq kit; cross-links anchor + gpu-rental + trainium + photonic + leaderboard.
+3. **Arrived-but-left fix** — `langfuse-vs-langsmith-vs-phoenix-observability` ("LLM Observability in
+   2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix", 21 views, **0 reads**). Picked the top
+   UNTOUCHED leak (the brief's #1 RL-frameworks was rewritten Oct 6, #2 GPT-Sol-vs-Sonnet Oct 12, both
+   still settling). Old lede was an essay hook ("it's not a logging problem") that delayed the pick;
+   a searcher for "X vs Y vs Z" bounced before the answer. Prepended a 4-line **short version** naming
+   the pick for each of the four tools in the first screen, kept the insight as beat two. Same URL;
+   stamped `updated: 2026-10-13`. Compare read-rate next run.
+
+**Section health:** both current — Dispatches newest 2026-10-10 (<7d), Fabrications 2026-10-06 (<14d, exactly 7d).
+Skipped, per the floor.
+
+**Dropped as saturated** (checked the corpus first, declined rather than pad): an October open-source-coding-LLM
+cut (`open-source-coding-llm-license-hardware-map-october-2026` already ships Oct 7; `open-weight-llms-you-actually-run-locally-october-2026`
+Oct 3), "claude code vscode" (4 posts), "context engineering skill" (6 posts), "vibe coding meaning" (8 posts),
+agent-memory anything (40+ posts). One strong anchor + one genuinely-new companion beat a third thin piece.
+
+**Part B (design/growth):** the ~1.0-pages/session lever, executed as zero-render-risk dense cross-linking —
+the two new pieces interlink (anchor↔companion) and each reaches 4+ proven cluster pages. Article/Global-Tech-News
+design re-confirmed holding by the gates below (visual-qa 62/62, ui-audit 0 high-severity). No render.js change this
+run — once-daily no-retry cadence makes a speculative layout edit the wrong bet when design has no open pixel gap.
+
+**Gates:** ingest **1952**, content-check strict **all 1765 demand pieces pass**, tests **4792/4792**, visual-qa
+**62/62**, ui-audit **0 high-severity**. (Freshness lists 5 pre-existing timely pieces past revisit — not this run's.)
+
+**Still blocked (one credential each):** RESEND_API_KEY (email digest), DP_GOOGLE_VERIFY (Search Console).
+
 ## SESSION 2026-10-12 — morning edition: the giants buy the neutral layers
 
 **Commissioned from analytics/BRIEF.md.** Data points acted on, in priority order:
