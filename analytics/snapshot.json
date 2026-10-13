@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-13T22:07:59.512Z",
+ "generated": "2026-10-13T22:18:00.600Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
-  "todayReads": 25,
-  "avgTimeSec": 37,
+  "readersNow": 7,
+  "todayReads": 27,
+  "avgTimeSec": 46,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 4058,
-  "reads": 310,
+  "views": 4066,
+  "reads": 312,
   "completes": 15,
   "plays": 7,
-  "sessions": 3953
+  "sessions": 3959
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3689,
-   "reads": 149,
-   "sessions": 3702
+   "views": 3697,
+   "reads": 151,
+   "sessions": 3709
   },
   {
    "channel": "organic",
@@ -67,17 +67,17 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 24
+   "sessions": 25
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3689,
-   "reads": 149,
+   "views": 3697,
+   "reads": 151,
    "completes": 14,
-   "sessions": 3702,
-   "read_rate": 0.04,
+   "sessions": 3709,
+   "read_rate": 0.041,
    "complete_rate": 0.004,
    "pages_per_session": 1,
    "median_dwell_sec": 8
@@ -164,7 +164,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 24,
+   "sessions": 25,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -208,12 +208,22 @@
    "sessions": 3
   },
   {
+   "surface": "cited-list",
+   "clicks": 2,
+   "sessions": 2
+  },
+  {
    "surface": "search-result",
    "clicks": 1,
    "sessions": 1
   },
   {
    "surface": "rr-card",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
+   "surface": "pager-link",
    "clicks": 1,
    "sessions": 1
   },
@@ -234,16 +244,6 @@
   },
   {
    "surface": "legal-links",
-   "clicks": 1,
-   "sessions": 1
-  },
-  {
-   "surface": "dg-more",
-   "clicks": 1,
-   "sessions": 1
-  },
-  {
-   "surface": "cited-list",
    "clicks": 1,
    "sessions": 1
   }
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3506,
-   "reads": 274,
-   "sessions": 3416
+   "views": 3514,
+   "reads": 276,
+   "sessions": 3422
   },
   {
    "device": "mobile",
