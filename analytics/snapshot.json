@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-14T08:16:30.653Z",
+ "generated": "2026-10-14T08:26:35.576Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 14,
-  "avgTimeSec": 30,
+  "readersNow": 4,
+  "todayReads": 15,
+  "avgTimeSec": 75,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 4091,
+  "views": 4089,
   "reads": 317,
   "completes": 19,
   "plays": 9,
-  "sessions": 3990
+  "sessions": 3988
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3714,
+   "views": 3712,
    "reads": 156,
-   "sessions": 3731
+   "sessions": 3730
   },
   {
    "channel": "organic",
-   "views": 280,
-   "reads": 128,
-   "sessions": 272
+   "views": 279,
+   "reads": 127,
+   "sessions": 271
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 31,
-   "reads": 10,
-   "sessions": 35
+   "views": 32,
+   "reads": 11,
+   "sessions": 36
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3714,
+   "views": 3712,
    "reads": 156,
    "completes": 18,
-   "sessions": 3731,
+   "sessions": 3730,
    "read_rate": 0.042,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 280,
-   "reads": 128,
+   "views": 279,
+   "reads": 127,
    "completes": 1,
-   "sessions": 272,
-   "read_rate": 0.457,
+   "sessions": 271,
+   "read_rate": 0.455,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -106,11 +106,11 @@
   },
   {
    "channel": "ai",
-   "views": 31,
-   "reads": 10,
+   "views": 32,
+   "reads": 11,
    "completes": 0,
-   "sessions": 35,
-   "read_rate": 0.323,
+   "sessions": 36,
+   "read_rate": 0.344,
    "complete_rate": 0,
    "pages_per_session": 0.89,
    "median_dwell_sec": 87
@@ -256,15 +256,15 @@
    "sessions": 32
   },
   {
+   "assistant": "Doubao",
+   "views": 5,
+   "reads": 4,
+   "sessions": 4
+  },
+  {
    "assistant": "Claude",
    "views": 4,
    "reads": 4,
-   "sessions": 3
-  },
-  {
-   "assistant": "Doubao",
-   "views": 4,
-   "reads": 3,
    "sessions": 3
   },
   {
@@ -295,9 +295,9 @@
   },
   {
    "device": "mobile",
-   "views": 556,
+   "views": 554,
    "reads": 35,
-   "sessions": 545
+   "sessions": 543
   },
   {
    "device": "tablet",
@@ -602,18 +602,18 @@
    "plays": 0
   },
   {
-   "slug": "gpt-6-1-sol-vs-claude-sonnet-5-5-coding",
-   "title": "GPT-6.1 Sol vs Claude Sonnet 5.5 for Coding: When Two Models Cost the Same, the Price Is the Least Useful Number",
+   "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
+   "title": "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 28,
-   "reads": 0,
+   "views": 29,
+   "reads": 1,
    "plays": 0
   },
   {
-   "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
-   "title": "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix",
+   "slug": "gpt-6-1-sol-vs-claude-sonnet-5-5-coding",
+   "title": "GPT-6.1 Sol vs Claude Sonnet 5.5 for Coding: When Two Models Cost the Same, the Price Is the Least Useful Number",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -777,8 +777,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 97,
-   "sessions": 50
+   "hits": 95,
+   "sessions": 49
   },
   {
    "ref": "https://duckduckgo.com/",
