@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-14T07:05:40.300Z",
+ "generated": "2026-10-14T07:15:45.502Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15421,
+ "verifiedAiHits": 15425,
  "logsScanned": 30,
  "windowStart": "2026-09-30",
  "windowEnd": "2026-10-14",
- "totalHits": 128908,
- "aiHits": 107237,
+ "totalHits": 128948,
+ "aiHits": 107263,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29065,
+   "hits": 29075,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15380,
+   "hits": 15389,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14600,
+   "hits": 14602,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 10823,
+   "hits": 10824,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6845,
-   "verifiedHits": 6832,
+   "hits": 6852,
+   "verifiedHits": 6839,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5178,
-   "verifiedHits": 5124,
+   "hits": 5179,
+   "verifiedHits": 5125,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4021,
-   "verifiedHits": 3871,
+   "hits": 4022,
+   "verifiedHits": 3872,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
@@ -321,16 +321,16 @@
      "hits": 25
     },
     {
+     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
+     "hits": 20
+    },
+    {
      "path": "/posts/2026-09-27-founders-wire-openai-rogue-agents-safa-databricks-row-zero.html",
      "hits": 20
     },
     {
      "path": "/posts/gpt-6-1-sol-vs-claude-sonnet-5-5-coding.html",
      "hits": 20
-    },
-    {
-     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 19
     },
     {
      "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3729,
+   "hits": 3730,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -377,8 +377,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 3593,
-   "verifiedHits": 3518,
+   "hits": 3594,
+   "verifiedHits": 3519,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3009,
-   "verifiedHits": 2908,
+   "hits": 3010,
+   "verifiedHits": 2909,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
     {
      "path": "/",
-     "hits": 801
+     "hits": 802
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
@@ -773,7 +773,7 @@
    "label": "Yisou",
    "category": "search",
    "home": "https://www.yisou.com",
-   "hits": 17,
+   "hits": 23,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-14",

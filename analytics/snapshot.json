@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-14T07:05:40.626Z",
+ "generated": "2026-10-14T07:15:45.792Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 3,
   "todayReads": 13,
   "avgTimeSec": 32,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 4098,
-  "reads": 323,
+  "views": 4096,
+  "reads": 322,
   "completes": 19,
   "plays": 9,
-  "sessions": 3993
+  "sessions": 3991
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3723,
+   "views": 3722,
    "reads": 160,
-   "sessions": 3736
+   "sessions": 3735
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 37,
-   "reads": 18,
-   "sessions": 33
+   "views": 36,
+   "reads": 17,
+   "sessions": 32
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3723,
+   "views": 3722,
    "reads": 160,
    "completes": 18,
-   "sessions": 3736,
+   "sessions": 3735,
    "read_rate": 0.043,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -95,13 +95,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 37,
-   "reads": 18,
+   "views": 36,
+   "reads": 17,
    "completes": 0,
-   "sessions": 33,
-   "read_rate": 0.486,
+   "sessions": 32,
+   "read_rate": 0.472,
    "complete_rate": 0,
-   "pages_per_session": 1.12,
+   "pages_per_session": 1.13,
    "median_dwell_sec": null
   },
   {
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 41,
-   "reads": 20,
-   "sessions": 34
+   "views": 40,
+   "reads": 19,
+   "sessions": 33
   },
   {
    "assistant": "Claude",
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3542,
-   "reads": 287,
-   "sessions": 3448
+   "views": 3540,
+   "reads": 286,
+   "sessions": 3446
   },
   {
    "device": "mobile",
@@ -338,16 +338,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 48,
-   "reads": 9,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-frameworks-whats-changed-fall-2026",
    "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
    "section": "stack",
@@ -356,6 +346,16 @@
    "views": 55,
    "reads": 8,
    "plays": 1
+  },
+  {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 47,
+   "reads": 8,
+   "plays": 0
   },
   {
    "slug": "open-source-llm-leaderboard-september-2026-run-locally",
@@ -572,16 +572,6 @@
    "plays": 1
   },
   {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 48,
-   "reads": 9,
-   "plays": 0
-  },
-  {
    "slug": "mcp-tool-annotations-explained",
    "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
    "section": "wire",
@@ -589,6 +579,16 @@
    "author": "dex",
    "views": 47,
    "reads": 26,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 47,
+   "reads": 8,
    "plays": 0
   },
   {
@@ -797,8 +797,8 @@
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 16,
-   "sessions": 5
+   "hits": 14,
+   "sessions": 4
   },
   {
    "ref": "nav-cmp",
