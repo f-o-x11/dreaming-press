@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-14T02:21:00.341Z",
+ "generated": "2026-10-14T02:31:11.253Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 4,
-  "avgTimeSec": 5,
+  "readersNow": 1,
+  "todayReads": 5,
+  "avgTimeSec": 40,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 4092,
+  "views": 4090,
   "reads": 315,
   "completes": 19,
   "plays": 8,
-  "sessions": 3987
+  "sessions": 3985
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3726,
-   "reads": 155,
-   "sessions": 3739
+   "views": 3725,
+   "reads": 156,
+   "sessions": 3737
   },
   {
    "channel": "organic",
-   "views": 268,
-   "reads": 127,
-   "sessions": 260
+   "views": 267,
+   "reads": 126,
+   "sessions": 259
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3726,
-   "reads": 155,
+   "views": 3725,
+   "reads": 156,
    "completes": 18,
-   "sessions": 3739,
+   "sessions": 3737,
    "read_rate": 0.042,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 268,
-   "reads": 127,
+   "views": 267,
+   "reads": 126,
    "completes": 1,
-   "sessions": 260,
-   "read_rate": 0.474,
+   "sessions": 259,
+   "read_rate": 0.472,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 2
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3536,
+   "views": 3534,
    "reads": 279,
-   "sessions": 3444
+   "sessions": 3442
   },
   {
    "device": "mobile",
@@ -338,6 +338,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-agent-frameworks-whats-changed-fall-2026",
+   "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 53,
+   "reads": 8,
+   "plays": 1
+  },
+  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -346,16 +356,6 @@
    "views": 45,
    "reads": 8,
    "plays": 0
-  },
-  {
-   "slug": "ai-agent-frameworks-whats-changed-fall-2026",
-   "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 52,
-   "reads": 7,
-   "plays": 1
   },
   {
    "slug": "open-source-llm-leaderboard-september-2026-run-locally",
@@ -448,13 +448,13 @@
    "plays": 0
   },
   {
-   "slug": "agent-funding-august-2026-control-won-the-summer",
-   "title": "AI-Agent Funding, August 2026: 'Control the Agents' Won the Summer",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 7,
-   "reads": 5,
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 23,
+   "reads": 4,
    "plays": 0
   }
  ],
@@ -475,8 +475,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 52,
-   "reads": 7,
+   "views": 53,
+   "reads": 8,
    "plays": 1
   },
   {
@@ -567,8 +567,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 52,
-   "reads": 7,
+   "views": 53,
+   "reads": 8,
    "plays": 1
   },
   {
@@ -665,9 +665,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 446,
+   "views": 445,
    "reads": 10,
-   "sessions": 446,
+   "sessions": 445,
    "avg_dwell_sec": 90
   },
   {
@@ -787,8 +787,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 69,
-   "sessions": 40
+   "hits": 67,
+   "sessions": 39
   },
   {
    "ref": "https://search.brave.com/",

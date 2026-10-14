@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-14T02:21:00.016Z",
+ "generated": "2026-10-14T02:31:10.961Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15223,
+ "verifiedAiHits": 15229,
  "logsScanned": 30,
  "windowStart": "2026-09-30",
  "windowEnd": "2026-10-14",
- "totalHits": 127150,
- "aiHits": 105868,
+ "totalHits": 127191,
+ "aiHits": 105890,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28306,
+   "hits": 28313,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15176,
+   "hits": 15183,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6737,
-   "verifiedHits": 6724,
+   "hits": 6742,
+   "verifiedHits": 6729,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 5798,
+   "hits": 5801,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5114,
-   "verifiedHits": 5060,
+   "hits": 5117,
+   "verifiedHits": 5063,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4137,
+   "hits": 4145,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -311,8 +311,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3941,
-   "verifiedHits": 3791,
+   "hits": 3942,
+   "verifiedHits": 3792,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3643,
+   "hits": 3646,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2955,
-   "verifiedHits": 2854,
+   "hits": 2957,
+   "verifiedHits": 2856,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
@@ -608,13 +608,17 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 169,
+   "hits": 171,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-10-13",
+   "lastSeen": "2026-10-14",
    "topPaths": [
     {
      "path": "/dashboard%2F.env",
+     "hits": 2
+    },
+    {
+     "path": "/posts/2026-06-23-mcp-code-execution-vs-direct-tool-calls.html",
      "hits": 2
     },
     {
@@ -627,10 +631,6 @@
     },
     {
      "path": "/flowise/api/v1/node-load-method/customMCP",
-     "hits": 2
-    },
-    {
-     "path": "/posts/claude-code-nested-subagents-depth-3-multi-agent-workflow.html",
      "hits": 2
     }
    ],
