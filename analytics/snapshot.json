@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-14T13:51:00.036Z",
+ "generated": "2026-10-14T14:01:00.530Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
   "todayReads": 21,
-  "avgTimeSec": 77,
+  "avgTimeSec": 75,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 4076,
+  "views": 4068,
   "reads": 318,
   "completes": 19,
   "plays": 9,
-  "sessions": 3973
+  "sessions": 3966
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3699,
+   "views": 3691,
    "reads": 157,
-   "sessions": 3718
+   "sessions": 3711
   },
   {
    "channel": "organic",
    "views": 280,
    "reads": 126,
-   "sessions": 271
+   "sessions": 272
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,11 +73,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3699,
+   "views": 3691,
    "reads": 157,
    "completes": 18,
-   "sessions": 3718,
-   "read_rate": 0.042,
+   "sessions": 3711,
+   "read_rate": 0.043,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
    "median_dwell_sec": 8
@@ -87,7 +87,7 @@
    "views": 280,
    "reads": 126,
    "completes": 1,
-   "sessions": 271,
+   "sessions": 272,
    "read_rate": 0.45,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3539,
+   "views": 3531,
    "reads": 284,
-   "sessions": 3446
+   "sessions": 3439
   },
   {
    "device": "mobile",
@@ -319,7 +319,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 46,
+   "views": 47,
    "reads": 25,
    "plays": 0
   },
@@ -521,7 +521,7 @@
    "section": "stack",
    "tags": "[\"howto\",\"reportive\"]",
    "author": "dex",
-   "views": 5,
+   "views": 4,
    "reads": 1,
    "plays": 1
   },
@@ -551,7 +551,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 46,
+   "views": 47,
    "reads": 25,
    "plays": 0
   },
@@ -583,7 +583,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 46,
+   "views": 47,
    "reads": 25,
    "plays": 0
   },
@@ -653,7 +653,7 @@
    "section": "stack",
    "tags": "[\"compare\",\"opinionated\"]",
    "author": "dex",
-   "views": 26,
+   "views": 25,
    "reads": 0,
    "plays": 0
   },
@@ -783,13 +783,13 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 94,
+   "hits": 93,
    "sessions": 49
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 83,
-   "sessions": 43
+   "hits": 84,
+   "sessions": 44
   },
   {
    "ref": "https://cn.bing.com/",
