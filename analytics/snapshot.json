@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-13T23:59:22.422Z",
+ "generated": "2026-10-14T00:09:30.152Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 28,
-  "avgTimeSec": 53,
-  "postsThisWeek": 14
+  "readersNow": 7,
+  "todayReads": 2,
+  "avgTimeSec": 6,
+  "postsThisWeek": 12
  },
  "funnel": {
-  "views": 4064,
-  "reads": 311,
-  "completes": 16,
+  "views": 4070,
+  "reads": 313,
+  "completes": 17,
   "plays": 8,
-  "sessions": 3959
+  "sessions": 3965
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3698,
-   "reads": 151,
-   "sessions": 3711
+   "views": 3704,
+   "reads": 153,
+   "sessions": 3717
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3698,
-   "reads": 151,
-   "completes": 15,
-   "sessions": 3711,
+   "views": 3704,
+   "reads": 153,
+   "completes": 16,
+   "sessions": 3717,
    "read_rate": 0.041,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3511,
-   "reads": 275,
-   "sessions": 3419
+   "views": 3517,
+   "reads": 277,
+   "sessions": 3425
   },
   {
    "device": "mobile",
@@ -378,6 +378,26 @@
    "plays": 1
   },
   {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 7,
+   "reads": 6,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-whats-changed-fall-2026",
+   "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 47,
+   "reads": 5,
+   "plays": 1
+  },
+  {
    "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
    "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
    "section": "stack",
@@ -436,26 +456,6 @@
    "views": 7,
    "reads": 5,
    "plays": 0
-  },
-  {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 6,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "ai-agent-frameworks-whats-changed-fall-2026",
-   "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 45,
-   "reads": 4,
-   "plays": 1
   }
  ],
  "topListens": [
@@ -485,8 +485,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 45,
-   "reads": 4,
+   "views": 47,
+   "reads": 5,
    "plays": 1
   },
   {
@@ -587,8 +587,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 45,
-   "reads": 4,
+   "views": 47,
+   "reads": 5,
    "plays": 1
   },
   {
@@ -679,9 +679,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 63,
+   "views": 64,
    "reads": 0,
-   "sessions": 63,
+   "sessions": 64,
    "avg_dwell_sec": 11
   },
   {
