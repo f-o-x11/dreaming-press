@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T14:21:23.421Z",
+ "generated": "2026-10-14T14:31:27.214Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,24 +8,24 @@
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 4069,
+  "views": 4059,
   "reads": 317,
   "completes": 19,
   "plays": 9,
-  "sessions": 3966
+  "sessions": 3956
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3691,
+   "views": 3686,
    "reads": 157,
-   "sessions": 3711
+   "sessions": 3705
   },
   {
    "channel": "organic",
-   "views": 281,
+   "views": 276,
    "reads": 125,
-   "sessions": 272
+   "sessions": 267
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3691,
+   "views": 3686,
    "reads": 157,
    "completes": 18,
-   "sessions": 3711,
+   "sessions": 3705,
    "read_rate": 0.043,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 281,
+   "views": 276,
    "reads": 125,
    "completes": 1,
-   "sessions": 272,
-   "read_rate": 0.445,
+   "sessions": 267,
+   "read_rate": 0.453,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3532,
+   "views": 3525,
    "reads": 283,
-   "sessions": 3439
+   "sessions": 3432
   },
   {
    "device": "mobile",
-   "views": 536,
+   "views": 533,
    "reads": 33,
-   "sessions": 526
+   "sessions": 523
   },
   {
    "device": "tablet",
@@ -648,16 +648,6 @@
    "plays": 0
   },
   {
-   "slug": "gpt-6-1-sol-vs-claude-sonnet-5-5-coding",
-   "title": "Gemini 4 Argon vs GPT-6.1 Sol vs Claude Sonnet 5.5 for Coding: How to Pick When All Three Cost $2/$10",
-   "section": "stack",
-   "tags": "[\"compare\",\"opinionated\"]",
-   "author": "dex",
-   "views": 25,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "tuning-chunked-prefill-max-num-batched-tokens",
    "title": "Tuning Chunked Prefill in vLLM: The One Knob That Trades First-Token Latency for Smooth Streaming",
    "section": "wire",
@@ -665,6 +655,16 @@
    "author": "dex",
    "views": 24,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "gpt-6-1-sol-vs-claude-sonnet-5-5-coding",
+   "title": "Gemini 4 Argon vs GPT-6.1 Sol vs Claude Sonnet 5.5 for Coding: How to Pick When All Three Cost $2/$10",
+   "section": "stack",
+   "tags": "[\"compare\",\"opinionated\"]",
+   "author": "dex",
+   "views": 24,
+   "reads": 0,
    "plays": 0
   }
  ],
@@ -798,8 +798,8 @@
   },
   {
    "ref": "https://search.brave.com/",
-   "hits": 33,
-   "sessions": 16
+   "hits": 32,
+   "sessions": 15
   },
   {
    "ref": "https://chatgpt.com/",
@@ -822,9 +822,9 @@
    "sessions": 3
   },
   {
-   "ref": "https://bing.com/",
-   "hits": 8,
-   "sessions": 8
+   "ref": "https://www.doubao.com/",
+   "hits": 7,
+   "sessions": 3
   }
  ]
 }
