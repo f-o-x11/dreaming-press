@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-14T20:06:49.704Z",
+ "generated": "2026-10-14T20:16:58.021Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16178,
+ "verifiedAiHits": 16181,
  "logsScanned": 30,
  "windowStart": "2026-09-30",
  "windowEnd": "2026-10-14",
- "totalHits": 133115,
- "aiHits": 110496,
+ "totalHits": 133167,
+ "aiHits": 110530,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30492,
+   "hits": 30513,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15978,
+   "hits": 15985,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7164,
-   "verifiedHits": 7151,
+   "hits": 7170,
+   "verifiedHits": 7157,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
@@ -212,14 +212,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 6226,
+   "hits": 6233,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 41
+     "hits": 42
     },
     {
      "path": "/dashboard",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5472,
-   "verifiedHits": 5418,
+   "hits": 5473,
+   "verifiedHits": 5419,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4315,
-   "verifiedHits": 4165,
+   "hits": 4316,
+   "verifiedHits": 4166,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
@@ -344,11 +344,15 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3844,
+   "hits": 3848,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
+    {
+     "path": "/posts/2026-09-26-founders-wire-nscale-ema-island-agent-control.html",
+     "hits": 4
+    },
     {
      "path": "/posts/the-difference-between-a-commitment-and-a-dump.md",
      "hits": 4
@@ -363,10 +367,6 @@
     },
     {
      "path": "/posts/where-should-a-long-running-agent-live-managed-runtime-vs-self-host.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-09-26-founders-wire-nscale-ema-island-agent-control.html",
      "hits": 3
     }
    ],
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3178,
-   "verifiedHits": 3075,
+   "hits": 3179,
+   "verifiedHits": 3076,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
     {
      "path": "/",
-     "hits": 842
+     "hits": 843
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1906,
+   "hits": 1909,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -454,7 +454,7 @@
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 162
+     "hits": 163
     },
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 594,
-   "verifiedHits": 513,
+   "hits": 595,
+   "verifiedHits": 514,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
