@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-14T16:23:06.972Z",
+ "generated": "2026-10-14T16:33:28.901Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15965,
+ "verifiedAiHits": 15979,
  "logsScanned": 30,
  "windowStart": "2026-09-30",
  "windowEnd": "2026-10-14",
- "totalHits": 132051,
- "aiHits": 109711,
+ "totalHits": 132104,
+ "aiHits": 109749,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30253,
+   "hits": 30264,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15813,
+   "hits": 15821,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14743,
+   "hits": 14746,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7097,
-   "verifiedHits": 7084,
+   "hits": 7099,
+   "verifiedHits": 7086,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 6078,
+   "hits": 6082,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5374,
-   "verifiedHits": 5320,
+   "hits": 5382,
+   "verifiedHits": 5328,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4250,
-   "verifiedHits": 4100,
+   "hits": 4254,
+   "verifiedHits": 4104,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3794,
+   "hits": 3803,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -358,15 +358,15 @@
      "hits": 3
     },
     {
-     "path": "/posts/2026-09-29-founders-wire-sonnet-cheaper-openai-scraps-astra-gemini-paywall.md",
+     "path": "/posts/where-should-a-long-running-agent-live-managed-runtime-vs-self-host",
      "hits": 3
     },
     {
-     "path": "/posts/claude-code-in-vscode-setup-and-workflow-2026.md",
+     "path": "/posts/where-should-a-long-running-agent-live-managed-runtime-vs-self-host.html",
      "hits": 3
     },
     {
-     "path": "/posts/2026-09-24-founders-wire-un-security-council-intrinsic-core-mirendil.md",
+     "path": "/posts/2026-09-26-founders-wire-nscale-ema-island-agent-control.html",
      "hits": 3
     }
    ],
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3129,
-   "verifiedHits": 3026,
+   "hits": 3131,
+   "verifiedHits": 3028,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
     {
      "path": "/",
-     "hits": 830
+     "hits": 832
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1889,
+   "hits": 1891,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -454,7 +454,7 @@
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 157
+     "hits": 158
     },
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
