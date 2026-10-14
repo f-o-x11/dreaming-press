@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-14T00:19:38.379Z",
+ "generated": "2026-10-14T00:29:46.089Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 13,
+  "readersNow": 33,
   "todayReads": 2,
   "avgTimeSec": 4,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 4069,
+  "views": 4091,
   "reads": 313,
   "completes": 17,
   "plays": 8,
-  "sessions": 3964
+  "sessions": 3986
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3703,
+   "views": 3726,
    "reads": 153,
-   "sessions": 3716
+   "sessions": 3739
   },
   {
    "channel": "organic",
-   "views": 269,
+   "views": 268,
    "reads": 127,
-   "sessions": 261
+   "sessions": 260
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3703,
+   "views": 3726,
    "reads": 153,
    "completes": 16,
-   "sessions": 3716,
+   "sessions": 3739,
    "read_rate": 0.041,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 269,
+   "views": 268,
    "reads": 127,
    "completes": 1,
-   "sessions": 261,
-   "read_rate": 0.472,
+   "sessions": 260,
+   "read_rate": 0.474,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 2
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3516,
+   "views": 3537,
    "reads": 277,
-   "sessions": 3424
+   "sessions": 3445
   },
   {
    "device": "mobile",
-   "views": 552,
+   "views": 553,
    "reads": 35,
-   "sessions": 539
+   "sessions": 540
   },
   {
    "device": "tablet",
@@ -665,9 +665,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 442,
+   "views": 445,
    "reads": 10,
-   "sessions": 442,
+   "sessions": 445,
    "avg_dwell_sec": 90
   },
   {
@@ -693,9 +693,9 @@
   },
   {
    "path": "/build",
-   "views": 38,
+   "views": 39,
    "reads": 0,
-   "sessions": 38,
+   "sessions": 39,
    "avg_dwell_sec": 4
   },
   {
@@ -777,8 +777,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 96,
-   "sessions": 50
+   "hits": 95,
+   "sessions": 49
   },
   {
    "ref": "https://duckduckgo.com/",
