@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-14T08:36:36.154Z",
+ "generated": "2026-10-14T08:46:58.649Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15473,
+ "verifiedAiHits": 15485,
  "logsScanned": 30,
  "windowStart": "2026-09-30",
  "windowEnd": "2026-10-14",
- "totalHits": 129432,
- "aiHits": 107627,
+ "totalHits": 129498,
+ "aiHits": 107682,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29265,
+   "hits": 29278,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15450,
+   "hits": 15460,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14636,
+   "hits": 14655,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 10839,
+   "hits": 10840,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6897,
-   "verifiedHits": 6884,
+   "hits": 6904,
+   "verifiedHits": 6891,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
@@ -198,7 +198,7 @@
     },
     {
      "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
-     "hits": 36
+     "hits": 37
     },
     {
      "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5196,
-   "verifiedHits": 5142,
+   "hits": 5206,
+   "verifiedHits": 5152,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3742,
+   "hits": 3746,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3032,
-   "verifiedHits": 2931,
+   "hits": 3034,
+   "verifiedHits": 2933,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
     {
      "path": "/",
-     "hits": 806
+     "hits": 807
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
