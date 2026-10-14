@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T01:20:10.929Z",
+ "generated": "2026-10-14T01:30:19.593Z",
  "windowDays": 14,
  "site": {
   "readersNow": 4,
@@ -8,18 +8,18 @@
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 4087,
+  "views": 4089,
   "reads": 315,
   "completes": 19,
   "plays": 8,
-  "sessions": 3982
+  "sessions": 3984
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3722,
+   "views": 3724,
    "reads": 155,
-   "sessions": 3735
+   "sessions": 3737
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3722,
+   "views": 3724,
    "reads": 155,
    "completes": 18,
-   "sessions": 3735,
+   "sessions": 3737,
    "read_rate": 0.042,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3532,
+   "views": 3534,
    "reads": 279,
-   "sessions": 3440
+   "sessions": 3442
   },
   {
    "device": "mobile",
@@ -353,7 +353,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 49,
+   "views": 50,
    "reads": 7,
    "plays": 1
   },
@@ -475,7 +475,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 49,
+   "views": 50,
    "reads": 7,
    "plays": 1
   },
@@ -567,7 +567,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 49,
+   "views": 50,
    "reads": 7,
    "plays": 1
   },
@@ -632,6 +632,16 @@
    "plays": 0
   },
   {
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 23,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
    "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
    "section": "stack",
@@ -649,16 +659,6 @@
    "author": "dex",
    "views": 23,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
-   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 4,
    "plays": 0
   }
  ],
