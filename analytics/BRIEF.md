@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-10-14T03:01Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-14T03:11Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 4091 views → 315 engaged reads → 19 completes · 3986 sessions.
-- Channels: direct 156r/3726v · organic 126r/267v · campaign:chatgpt.com 18r/37v · ai 9r/30v · referral 4r/25v · social 1r/4v · campaign:copilot.com 1r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 20r/41v · Claude 4r/4v · Doubao 2r/3v · Copilot 1r/1v · Kimi 0r/17v · Poe 0r/1v.
+- Funnel: 4093 views → 317 engaged reads → 19 completes · 3990 sessions.
+- Channels: direct 156r/3726v · organic 127r/268v · campaign:chatgpt.com 18r/37v · ai 10r/31v · referral 4r/25v · social 1r/4v · campaign:copilot.com 1r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 20r/41v · Claude 4r/4v · Doubao 3r/4v · Copilot 1r/1v · Kimi 0r/17v · Poe 0r/1v.
 - Referrers: google.com, bing.com, duckduckgo.com, cn.bing.com, search.brave.com, chatgpt.com, nav-cmp, brand, claude.ai, bing.com.
 - Engaged-read winners by section: wire=5, stack=10.
 
@@ -24,9 +24,9 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - direct: 3726 views · read 4.2% · complete 0.5% · 1 pages/session · median 8s
-- organic: 267 views · read 47.2% · complete 0.4% · 1.03 pages/session · median 2s
+- organic: 268 views · read 47.4% · complete 0.4% · 1.03 pages/session · median 2s
 - campaign:chatgpt.com: 37 views · read 48.6% · complete 0.0% · 1.12 pages/session · median ?s
-- ai: 30 views · read 30.0% · complete 0.0% · 0.88 pages/session · median 87s
+- ai: 31 views · read 32.3% · complete 0.0% · 0.89 pages/session · median 87s
 - referral: 25 views · read 16.0% · complete 0.0% · 1.09 pages/session · median ?s
 - social: 4 views · read 25.0% · complete 0.0% · 1 pages/session · median ?s
 INSIGHT: campaign:chatgpt.com converts 12x better per view than direct, which is 91% of all views.
@@ -52,6 +52,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "Clear, Compact, or Remember? The Cross-Vendor Decision Framework for Long-Running Agent Context" — 1 listens, 6 reads
 - [stack] "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In" — 1 listens, 4 reads
 - [stack] "Text-to-SQL for Agents: Vanna vs WrenAI vs Dataherald" — 1 listens, 2 reads
+- [stack] "Context Engineering for Claude: How Agent Skills Give Expertise Without Blowing Your Context Window" — 1 listens, 1 reads
 - [wire] "Vibe Coding vs Spec-Driven Development: The Solo Founder's 2026 Decision" — 1 listens, 1 reads
 - [wire] "The Founder's Wire, September 15: The Labs Asked for a Brake, and the Market Repriced the Whole AI Trade in a Day" — 1 listens, 0 reads
 
@@ -59,7 +60,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 446 views, 10 reads, 446 sessions, avg 90s
-- / — 147 views, 3 reads, 149 sessions, avg 11s
+- / — 147 views, 3 reads, 151 sessions, avg 11s
 - /compare/:pair — 64 views, 0 reads, 64 sessions, avg 11s
 - /best/:cat — 41 views, 0 reads, 41 sessions
 - /build — 39 views, 0 reads, 39 sessions, avg 4s
@@ -95,7 +96,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 815 retrieval fetches
+- /  — 816 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 157 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 108 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 106 retrieval fetches
@@ -107,9 +108,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/gpt-6-1-sol-vs-claude-sonnet-5-5-coding.html  — 20 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (5071 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×108 · /posts/open-source-llm-for-coding-september-2026.html ×89 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×87
-- PerplexityBot (3801 verified): / ×25 · /posts/gpt-6-1-sol-vs-claude-sonnet-5-5-coding.html ×20 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×19
-- ChatGPT-User (2862 verified): / ×790 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×98 · /posts/open-source-llm-for-coding-september-2026.html ×68
+- OAI-SearchBot (5072 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×108 · /posts/open-source-llm-for-coding-september-2026.html ×89 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×87
+- PerplexityBot (3817 verified): / ×25 · /posts/gpt-6-1-sol-vs-claude-sonnet-5-5-coding.html ×20 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×19
+- ChatGPT-User (2865 verified): / ×791 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×98 · /posts/open-source-llm-for-coding-september-2026.html ×68
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -123,7 +124,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Trending on X right now (80 recent posts sampled, 26h ago)
+## Trending on X right now (80 recent posts sampled, 27h ago)
 Hot terms: agentic(41), build(39), agents(36), founder(31), agent(30), startup(26), mcp(22), learn(19), google(14), his(13), one(11), course(11), scratch(11), first(11), 19-year-old(11).
 Hashtags: #ai, #startup, #founder, #tech, #buildinginpublic, #preseed, #dev, #fintech, #aijobs, #aihiring.
 High-engagement posts to react to / cite:
@@ -157,7 +158,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 15252 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5071, Perplexity 3801, GPTBot (OpenAI) 3518, ChatGPT (user browsing) 2862).
+The real answer engines are crawling us — IP-verified: 15272 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5072, Perplexity 3817, GPTBot (OpenAI) 3518, ChatGPT (user browsing) 2865).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 373 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 327 crawler fetches
@@ -170,7 +171,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 69 crawler fetches
 - /posts/open-weight-coding-model-you-can-actually-self-host-september-2026.html  — 62 crawler fetches
 - /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 61 crawler fetches
-- /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 54 crawler fetches
+- /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 55 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)

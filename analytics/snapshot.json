@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-14T03:01:36.153Z",
+ "generated": "2026-10-14T03:11:48.892Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 5,
-  "avgTimeSec": 35,
+  "readersNow": 8,
+  "todayReads": 7,
+  "avgTimeSec": 33,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 4091,
-  "reads": 315,
+  "views": 4093,
+  "reads": 317,
   "completes": 19,
-  "plays": 8,
-  "sessions": 3986
+  "plays": 9,
+  "sessions": 3990
  },
  "channels": [
   {
    "channel": "direct",
    "views": 3726,
    "reads": 156,
-   "sessions": 3738
+   "sessions": 3741
   },
   {
    "channel": "organic",
-   "views": 267,
-   "reads": 126,
-   "sessions": 259
+   "views": 268,
+   "reads": 127,
+   "sessions": 260
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 30,
-   "reads": 9,
-   "sessions": 34
+   "views": 31,
+   "reads": 10,
+   "sessions": 35
   },
   {
    "channel": "referral",
@@ -76,7 +76,7 @@
    "views": 3726,
    "reads": 156,
    "completes": 18,
-   "sessions": 3738,
+   "sessions": 3741,
    "read_rate": 0.042,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 267,
-   "reads": 126,
+   "views": 268,
+   "reads": 127,
    "completes": 1,
-   "sessions": 259,
-   "read_rate": 0.472,
+   "sessions": 260,
+   "read_rate": 0.474,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 2
@@ -106,13 +106,13 @@
   },
   {
    "channel": "ai",
-   "views": 30,
-   "reads": 9,
+   "views": 31,
+   "reads": 10,
    "completes": 0,
-   "sessions": 34,
-   "read_rate": 0.3,
+   "sessions": 35,
+   "read_rate": 0.323,
    "complete_rate": 0,
-   "pages_per_session": 0.88,
+   "pages_per_session": 0.89,
    "median_dwell_sec": 87
   },
   {
@@ -263,9 +263,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 3,
-   "reads": 2,
-   "sessions": 2
+   "views": 4,
+   "reads": 3,
+   "sessions": 3
   },
   {
    "assistant": "Copilot",
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3535,
-   "reads": 279,
-   "sessions": 3443
+   "views": 3537,
+   "reads": 281,
+   "sessions": 3445
   },
   {
    "device": "mobile",
    "views": 555,
    "reads": 35,
-   "sessions": 542
+   "sessions": 544
   },
   {
    "device": "tablet",
@@ -510,6 +510,16 @@
    "plays": 1
   },
   {
+   "slug": "context-engineering-claude-skills-lean-context-2026",
+   "title": "Context Engineering for Claude: How Agent Skills Give Expertise Without Blowing Your Context Window",
+   "section": "stack",
+   "tags": "[\"howto\",\"reportive\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 1,
+   "plays": 1
+  },
+  {
    "slug": "vibe-coding-vs-spec-driven-development-founder-decision",
    "title": "Vibe Coding vs Spec-Driven Development: The Solo Founder's 2026 Decision",
    "section": "wire",
@@ -547,16 +557,6 @@
    "author": "dex",
    "views": 14,
    "reads": 10,
-   "plays": 0
-  },
-  {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 45,
-   "reads": 8,
    "plays": 0
   }
  ],
@@ -674,7 +674,7 @@
    "path": "/",
    "views": 147,
    "reads": 3,
-   "sessions": 149,
+   "sessions": 151,
    "avg_dwell_sec": 11
   },
   {
@@ -792,8 +792,8 @@
   },
   {
    "ref": "https://search.brave.com/",
-   "hits": 27,
-   "sessions": 14
+   "hits": 30,
+   "sessions": 15
   },
   {
    "ref": "https://chatgpt.com/",
