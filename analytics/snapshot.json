@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-14T15:01:59.841Z",
+ "generated": "2026-10-14T15:12:00.426Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 21,
+  "readersNow": 4,
+  "todayReads": 22,
   "avgTimeSec": 75,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 4058,
-  "reads": 316,
+  "views": 4061,
+  "reads": 317,
   "completes": 19,
   "plays": 9,
-  "sessions": 3955
+  "sessions": 3958
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3686,
-   "reads": 157,
-   "sessions": 3705
+   "views": 3689,
+   "reads": 158,
+   "sessions": 3708
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3686,
-   "reads": 157,
+   "views": 3689,
+   "reads": 158,
    "completes": 18,
-   "sessions": 3705,
+   "sessions": 3708,
    "read_rate": 0.043,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3523,
+   "views": 3525,
    "reads": 282,
-   "sessions": 3430
+   "sessions": 3432
   },
   {
    "device": "mobile",
-   "views": 534,
-   "reads": 33,
-   "sessions": 524
+   "views": 535,
+   "reads": 34,
+   "sessions": 525
   },
   {
    "device": "tablet",
@@ -324,6 +324,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-agent-frameworks-whats-changed-fall-2026",
+   "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 67,
+   "reads": 10,
+   "plays": 1
+  },
+  {
    "slug": "vllm-rust-frontend",
    "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
    "section": "wire",
@@ -332,16 +342,6 @@
    "views": 14,
    "reads": 10,
    "plays": 0
-  },
-  {
-   "slug": "ai-agent-frameworks-whats-changed-fall-2026",
-   "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 67,
-   "reads": 9,
-   "plays": 1
   },
   {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
@@ -482,7 +482,7 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 67,
-   "reads": 9,
+   "reads": 10,
    "plays": 1
   },
   {
@@ -574,7 +574,7 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 67,
-   "reads": 9,
+   "reads": 10,
    "plays": 1
   },
   {
@@ -618,6 +618,16 @@
    "plays": 0
   },
   {
+   "slug": "best-open-source-rl-frameworks-for-training-agents",
+   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 28,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "open-weight-llms-you-actually-run-locally-october-2026",
    "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
    "section": "stack",
@@ -625,16 +635,6 @@
    "author": "dex",
    "views": 27,
    "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "best-open-source-rl-frameworks-for-training-agents",
-   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 27,
-   "reads": 0,
    "plays": 0
   },
   {
