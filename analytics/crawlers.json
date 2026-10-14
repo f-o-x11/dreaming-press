@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-14T04:02:27.483Z",
+ "generated": "2026-10-14T04:12:34.840Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15305,
+ "verifiedAiHits": 15310,
  "logsScanned": 30,
  "windowStart": "2026-09-30",
  "windowEnd": "2026-10-14",
- "totalHits": 127782,
- "aiHits": 106358,
+ "totalHits": 127818,
+ "aiHits": 106384,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28551,
+   "hits": 28564,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15246,
+   "hits": 15253,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6775,
-   "verifiedHits": 6762,
+   "hits": 6783,
+   "verifiedHits": 6770,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
@@ -190,7 +190,7 @@
     },
     {
      "path": "/build",
-     "hits": 58
+     "hits": 59
     },
     {
      "path": "/search",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5142,
-   "verifiedHits": 5088,
+   "hits": 5144,
+   "verifiedHits": 5090,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3676,
+   "hits": 3678,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2974,
-   "verifiedHits": 2873,
+   "hits": 2977,
+   "verifiedHits": 2876,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1820,
+   "hits": 1821,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
