@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-14T08:06:20.070Z",
+ "generated": "2026-10-14T08:16:30.370Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15457,
+ "verifiedAiHits": 15466,
  "logsScanned": 30,
  "windowStart": "2026-09-30",
  "windowEnd": "2026-10-14",
- "totalHits": 129237,
- "aiHits": 107479,
+ "totalHits": 129289,
+ "aiHits": 107521,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29199,
+   "hits": 29220,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15427,
+   "hits": 15435,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6876,
-   "verifiedHits": 6863,
+   "hits": 6883,
+   "verifiedHits": 6870,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 5901,
+   "hits": 5904,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5187,
-   "verifiedHits": 5133,
+   "hits": 5192,
+   "verifiedHits": 5138,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3027,
-   "verifiedHits": 2926,
+   "hits": 3031,
+   "verifiedHits": 2930,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
@@ -433,7 +433,7 @@
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 65
+     "hits": 66
     }
    ],
    "verifiable": true
@@ -476,7 +476,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 707,
+   "hits": 711,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -494,11 +494,11 @@
      "hits": 2
     },
     {
-     "path": "/posts/terra-vs-muse-spark-vs-grok-cheap-agent-model-routing.html",
+     "path": "/posts/the-permission-problem.html",
      "hits": 2
     },
     {
-     "path": "/posts/manual-loop-vs-tool-runner-vs-managed-agents-claude.html",
+     "path": "/posts/terra-vs-muse-spark-vs-grok-cheap-agent-model-routing.html",
      "hits": 2
     }
    ],

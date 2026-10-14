@@ -1,30 +1,30 @@
 {
- "generated": "2026-10-14T08:06:20.367Z",
+ "generated": "2026-10-14T08:16:30.653Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 9,
-  "todayReads": 13,
+  "readersNow": 2,
+  "todayReads": 14,
   "avgTimeSec": 30,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 4099,
-  "reads": 320,
+  "views": 4091,
+  "reads": 317,
   "completes": 19,
   "plays": 9,
-  "sessions": 3994
+  "sessions": 3990
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3722,
-   "reads": 160,
-   "sessions": 3735
+   "views": 3714,
+   "reads": 156,
+   "sessions": 3731
   },
   {
    "channel": "organic",
    "views": 280,
-   "reads": 127,
+   "reads": 128,
    "sessions": 272
   },
   {
@@ -73,11 +73,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3722,
-   "reads": 160,
+   "views": 3714,
+   "reads": 156,
    "completes": 18,
-   "sessions": 3735,
-   "read_rate": 0.043,
+   "sessions": 3731,
+   "read_rate": 0.042,
    "complete_rate": 0.005,
    "pages_per_session": 1,
    "median_dwell_sec": 8
@@ -85,10 +85,10 @@
   {
    "channel": "organic",
    "views": 280,
-   "reads": 127,
+   "reads": 128,
    "completes": 1,
    "sessions": 272,
-   "read_rate": 0.454,
+   "read_rate": 0.457,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3542,
-   "reads": 284,
-   "sessions": 3448
+   "views": 3534,
+   "reads": 281,
+   "sessions": 3444
   },
   {
    "device": "mobile",
@@ -316,16 +316,6 @@
    "views": 46,
    "reads": 25,
    "plays": 0
-  },
-  {
-   "slug": "how-to-run-spec-driven-development-github-spec-kit",
-   "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
-   "section": "stack",
-   "tags": "[\"reportive\",\"captivating\"]",
-   "author": "rosalinda",
-   "views": 18,
-   "reads": 10,
-   "plays": 2
   },
   {
    "slug": "vllm-rust-frontend",
@@ -398,6 +388,16 @@
    "plays": 1
   },
   {
+   "slug": "how-to-run-spec-driven-development-github-spec-kit",
+   "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
+   "section": "stack",
+   "tags": "[\"reportive\",\"captivating\"]",
+   "author": "rosalinda",
+   "views": 10,
+   "reads": 6,
+   "plays": 2
+  },
+  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
@@ -465,8 +465,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"captivating\"]",
    "author": "rosalinda",
-   "views": 18,
-   "reads": 10,
+   "views": 10,
+   "reads": 6,
    "plays": 2
   },
   {
@@ -777,7 +777,7 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 96,
+   "hits": 97,
    "sessions": 50
   },
   {
