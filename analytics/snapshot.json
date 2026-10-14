@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T11:54:01.381Z",
+ "generated": "2026-10-14T11:59:36.791Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
@@ -8,18 +8,18 @@
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 4084,
+  "views": 4080,
   "reads": 318,
   "completes": 19,
   "plays": 9,
-  "sessions": 3983
+  "sessions": 3979
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3708,
+   "views": 3704,
    "reads": 157,
-   "sessions": 3728
+   "sessions": 3724
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3708,
+   "views": 3704,
    "reads": 157,
    "completes": 18,
-   "sessions": 3728,
+   "sessions": 3724,
    "read_rate": 0.042,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -301,9 +301,9 @@
   },
   {
    "device": "mobile",
-   "views": 549,
+   "views": 545,
    "reads": 33,
-   "sessions": 539
+   "sessions": 535
   },
   {
    "device": "tablet",
@@ -521,7 +521,7 @@
    "section": "stack",
    "tags": "[\"howto\",\"reportive\"]",
    "author": "dex",
-   "views": 7,
+   "views": 5,
    "reads": 1,
    "plays": 1
   },
@@ -618,16 +618,6 @@
    "plays": 0
   },
   {
-   "slug": "gpt-6-1-sol-vs-claude-sonnet-5-5-coding",
-   "title": "Gemini 4 Argon vs GPT-6.1 Sol vs Claude Sonnet 5.5 for Coding: How to Pick When All Three Cost $2/$10",
-   "section": "stack",
-   "tags": "[\"compare\",\"opinionated\"]",
-   "author": "dex",
-   "views": 28,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "best-open-source-rl-frameworks-for-training-agents",
    "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
    "section": "stack",
@@ -655,6 +645,16 @@
    "author": "dex",
    "views": 26,
    "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "gpt-6-1-sol-vs-claude-sonnet-5-5-coding",
+   "title": "Gemini 4 Argon vs GPT-6.1 Sol vs Claude Sonnet 5.5 for Coding: How to Pick When All Three Cost $2/$10",
+   "section": "stack",
+   "tags": "[\"compare\",\"opinionated\"]",
+   "author": "dex",
+   "views": 26,
+   "reads": 0,
    "plays": 0
   },
   {
