@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-14T02:41Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-14T02:51Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -108,7 +108,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - OAI-SearchBot (5067 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×108 · /posts/open-source-llm-for-coding-september-2026.html ×89 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×87
-- PerplexityBot (3793 verified): / ×25 · /posts/gpt-6-1-sol-vs-claude-sonnet-5-5-coding.html ×20 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×19
+- PerplexityBot (3796 verified): / ×25 · /posts/gpt-6-1-sol-vs-claude-sonnet-5-5-coding.html ×20 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×19
 - ChatGPT-User (2858 verified): / ×789 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×97 · /posts/open-source-llm-for-coding-september-2026.html ×68
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -157,11 +157,11 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 15236 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5067, Perplexity 3793, GPTBot (OpenAI) 3518, ChatGPT (user browsing) 2858).
+The real answer engines are crawling us — IP-verified: 15239 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5067, Perplexity 3796, GPTBot (OpenAI) 3518, ChatGPT (user browsing) 2858).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 373 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 326 crawler fetches
-- /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 247 crawler fetches
+- /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 248 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 198 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 118 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 108 crawler fetches
