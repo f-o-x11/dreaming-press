@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-14T20:37:11.342Z",
+ "generated": "2026-10-14T20:47:12.129Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 14,
   "todayReads": 24,
   "avgTimeSec": 66,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 4050,
+  "views": 4062,
   "reads": 316,
   "completes": 19,
   "plays": 9,
-  "sessions": 3952
+  "sessions": 3964
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3680,
+   "views": 3691,
    "reads": 157,
-   "sessions": 3704
+   "sessions": 3715
   },
   {
    "channel": "organic",
@@ -53,9 +53,9 @@
   },
   {
    "channel": "campaign:copilot.com",
-   "views": 1,
+   "views": 2,
    "reads": 1,
-   "sessions": 1
+   "sessions": 2
   },
   {
    "channel": "campaign:producthunt",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3680,
+   "views": 3691,
    "reads": 157,
    "completes": 18,
-   "sessions": 3704,
+   "sessions": 3715,
    "read_rate": 0.043,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -139,11 +139,11 @@
   },
   {
    "channel": "campaign:copilot.com",
-   "views": 1,
+   "views": 2,
    "reads": 1,
    "completes": 0,
-   "sessions": 1,
-   "read_rate": 1,
+   "sessions": 2,
+   "read_rate": 0.5,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -269,9 +269,9 @@
   },
   {
    "assistant": "Copilot",
-   "views": 1,
+   "views": 2,
    "reads": 1,
-   "sessions": 1
+   "sessions": 2
   },
   {
    "assistant": "Perplexity",
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3514,
+   "views": 3526,
    "reads": 280,
-   "sessions": 3426
+   "sessions": 3438
   },
   {
    "device": "mobile",
@@ -329,7 +329,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 70,
+   "views": 71,
    "reads": 10,
    "plays": 1
   },
@@ -481,7 +481,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 70,
+   "views": 71,
    "reads": 10,
    "plays": 1
   },
@@ -573,7 +573,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 70,
+   "views": 71,
    "reads": 10,
    "plays": 1
   },
