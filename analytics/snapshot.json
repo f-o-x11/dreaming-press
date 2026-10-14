@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-14T00:09:30.152Z",
+ "generated": "2026-10-14T00:19:38.379Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
+  "readersNow": 13,
   "todayReads": 2,
-  "avgTimeSec": 6,
+  "avgTimeSec": 4,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 4070,
+  "views": 4069,
   "reads": 313,
   "completes": 17,
   "plays": 8,
-  "sessions": 3965
+  "sessions": 3964
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3704,
+   "views": 3703,
    "reads": 153,
-   "sessions": 3717
+   "sessions": 3716
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3704,
+   "views": 3703,
    "reads": 153,
    "completes": 16,
-   "sessions": 3717,
+   "sessions": 3716,
    "read_rate": 0.041,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3517,
+   "views": 3516,
    "reads": 277,
-   "sessions": 3425
+   "sessions": 3424
   },
   {
    "device": "mobile",
@@ -353,7 +353,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 44,
+   "views": 42,
    "reads": 7,
    "plays": 0
   },
@@ -597,7 +597,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 44,
+   "views": 42,
    "reads": 7,
    "plays": 0
   },
@@ -672,9 +672,9 @@
   },
   {
    "path": "/",
-   "views": 150,
+   "views": 148,
    "reads": 3,
-   "sessions": 152,
+   "sessions": 150,
    "avg_dwell_sec": 11
   },
   {
@@ -727,13 +727,6 @@
    "avg_dwell_sec": 50
   },
   {
-   "path": "/global-tech-news",
-   "views": 9,
-   "reads": 0,
-   "sessions": 9,
-   "avg_dwell_sec": 15
-  },
-  {
    "path": "/topics/:topic",
    "views": 9,
    "reads": 0,
@@ -753,6 +746,13 @@
    "reads": 0,
    "sessions": 7,
    "avg_dwell_sec": null
+  },
+  {
+   "path": "/global-tech-news",
+   "views": 7,
+   "reads": 0,
+   "sessions": 7,
+   "avg_dwell_sec": 15
   },
   {
    "path": "/stack.html",
