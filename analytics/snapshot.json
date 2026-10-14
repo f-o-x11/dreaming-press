@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-14T14:41:49.610Z",
+ "generated": "2026-10-14T14:51:57.909Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 3,
   "todayReads": 21,
   "avgTimeSec": 75,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 4059,
-  "reads": 317,
+  "views": 4060,
+  "reads": 316,
   "completes": 19,
   "plays": 9,
-  "sessions": 3956
+  "sessions": 3957
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3686,
+   "views": 3688,
    "reads": 157,
-   "sessions": 3705
+   "sessions": 3707
   },
   {
    "channel": "organic",
-   "views": 276,
-   "reads": 125,
-   "sessions": 267
+   "views": 275,
+   "reads": 124,
+   "sessions": 266
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3686,
+   "views": 3688,
    "reads": 157,
    "completes": 18,
-   "sessions": 3705,
+   "sessions": 3707,
    "read_rate": 0.043,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 276,
-   "reads": 125,
+   "views": 275,
+   "reads": 124,
    "completes": 1,
-   "sessions": 267,
-   "read_rate": 0.453,
+   "sessions": 266,
+   "read_rate": 0.451,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3525,
-   "reads": 283,
-   "sessions": 3432
+   "views": 3526,
+   "reads": 282,
+   "sessions": 3433
   },
   {
    "device": "mobile",
@@ -394,16 +394,6 @@
    "plays": 1
   },
   {
-   "slug": "how-to-run-spec-driven-development-github-spec-kit",
-   "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
-   "section": "stack",
-   "tags": "[\"reportive\",\"captivating\"]",
-   "author": "rosalinda",
-   "views": 10,
-   "reads": 6,
-   "plays": 2
-  },
-  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
@@ -422,6 +412,16 @@
    "views": 11,
    "reads": 5,
    "plays": 0
+  },
+  {
+   "slug": "how-to-run-spec-driven-development-github-spec-kit",
+   "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
+   "section": "stack",
+   "tags": "[\"reportive\",\"captivating\"]",
+   "author": "rosalinda",
+   "views": 9,
+   "reads": 5,
+   "plays": 2
   },
   {
    "slug": "lightpanda-vs-playwright-vs-browserless-headless-browser-ai-agents",
@@ -471,8 +471,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"captivating\"]",
    "author": "rosalinda",
-   "views": 10,
-   "reads": 6,
+   "views": 9,
+   "reads": 5,
    "plays": 2
   },
   {
@@ -618,6 +618,16 @@
    "plays": 0
   },
   {
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 27,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "best-open-source-rl-frameworks-for-training-agents",
    "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
    "section": "stack",
@@ -625,16 +635,6 @@
    "author": "dex",
    "views": 27,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
-   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 26,
-   "reads": 4,
    "plays": 0
   },
   {
@@ -778,13 +778,13 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 122,
-   "sessions": 108
+   "hits": 121,
+   "sessions": 107
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 92,
-   "sessions": 48
+   "hits": 90,
+   "sessions": 47
   },
   {
    "ref": "https://duckduckgo.com/",
