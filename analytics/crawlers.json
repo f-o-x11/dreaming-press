@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-14T00:29:45.782Z",
+ "generated": "2026-10-14T00:39:50.024Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15098,
+ "verifiedAiHits": 15102,
  "logsScanned": 30,
  "windowStart": "2026-09-30",
  "windowEnd": "2026-10-14",
- "totalHits": 126481,
- "aiHits": 105389,
+ "totalHits": 126525,
+ "aiHits": 105418,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28085,
+   "hits": 28097,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15100,
+   "hits": 15107,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14482,
+   "hits": 14484,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -127,15 +127,15 @@
      "hits": 8
     },
     {
+     "path": "/posts/how-to-run-a-local-agent-backend-lm-studio-openai-compatible.html",
+     "hits": 6
+    },
+    {
      "path": "/posts/llm-reranker-vs-cross-encoder-vs-listwise.html",
      "hits": 6
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 6
-    },
-    {
-     "path": "/posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html",
      "hits": 6
     }
    ],
@@ -146,10 +146,10 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 10776,
+   "hits": 10777,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-10-13",
+   "lastSeen": "2026-10-14",
    "topPaths": [
     {
      "path": "/build",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6688,
-   "verifiedHits": 6675,
+   "hits": 6693,
+   "verifiedHits": 6680,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 5757,
+   "hits": 5761,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5082,
-   "verifiedHits": 5028,
+   "hits": 5085,
+   "verifiedHits": 5031,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
@@ -340,6 +340,39 @@
    "verifiable": true
   },
   {
+   "name": "Applebot",
+   "label": "Applebot (Siri / Spotlight)",
+   "category": "search",
+   "home": "https://support.apple.com/en-us/119829",
+   "hits": 3593,
+   "verifiedHits": 0,
+   "firstSeen": "2026-09-30",
+   "lastSeen": "2026-10-14",
+   "topPaths": [
+    {
+     "path": "/posts/the-difference-between-a-commitment-and-a-dump.md",
+     "hits": 4
+    },
+    {
+     "path": "/posts/2026-09-29-founders-wire-sonnet-cheaper-openai-scraps-astra-gemini-paywall.md",
+     "hits": 3
+    },
+    {
+     "path": "/posts/claude-code-in-vscode-setup-and-workflow-2026.md",
+     "hits": 3
+    },
+    {
+     "path": "/posts/2026-09-24-founders-wire-un-security-council-intrinsic-core-mirendil.md",
+     "hits": 3
+    },
+    {
+     "path": "/posts/gpt-6-1-sol-vs-claude-sonnet-5-5-coding.md",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "GPTBot",
    "label": "GPTBot (OpenAI)",
    "category": "ai",
@@ -373,51 +406,18 @@
    "verifiable": true
   },
   {
-   "name": "Applebot",
-   "label": "Applebot (Siri / Spotlight)",
-   "category": "search",
-   "home": "https://support.apple.com/en-us/119829",
-   "hits": 3589,
-   "verifiedHits": 0,
-   "firstSeen": "2026-09-30",
-   "lastSeen": "2026-10-14",
-   "topPaths": [
-    {
-     "path": "/posts/the-difference-between-a-commitment-and-a-dump.md",
-     "hits": 4
-    },
-    {
-     "path": "/posts/2026-09-29-founders-wire-sonnet-cheaper-openai-scraps-astra-gemini-paywall.md",
-     "hits": 3
-    },
-    {
-     "path": "/posts/claude-code-in-vscode-setup-and-workflow-2026.md",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-09-24-founders-wire-un-security-council-intrinsic-core-mirendil.md",
-     "hits": 3
-    },
-    {
-     "path": "/posts/gpt-6-1-sol-vs-claude-sonnet-5-5-coding.md",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "ChatGPT-User",
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2941,
-   "verifiedHits": 2840,
+   "hits": 2942,
+   "verifiedHits": 2841,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
    "topPaths": [
     {
      "path": "/",
-     "hits": 784
+     "hits": 785
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1805,
+   "hits": 1808,
    "verifiedHits": 0,
    "firstSeen": "2026-09-30",
    "lastSeen": "2026-10-14",
@@ -454,7 +454,7 @@
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 147
+     "hits": 148
     },
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
@@ -509,10 +509,10 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 572,
-   "verifiedHits": 491,
+   "hits": 574,
+   "verifiedHits": 493,
    "firstSeen": "2026-09-30",
-   "lastSeen": "2026-10-13",
+   "lastSeen": "2026-10-14",
    "topPaths": [
     {
      "path": "/",
