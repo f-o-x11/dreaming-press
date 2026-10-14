@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-14T07:46:00.370Z",
+ "generated": "2026-10-14T07:56:06.256Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 8,
   "todayReads": 13,
   "avgTimeSec": 30,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 4097,
+  "views": 4101,
   "reads": 320,
   "completes": 19,
   "plays": 9,
-  "sessions": 3992
+  "sessions": 3996
  },
  "channels": [
   {
@@ -23,15 +23,15 @@
   },
   {
    "channel": "organic",
-   "views": 274,
+   "views": 279,
    "reads": 127,
-   "sessions": 266
+   "sessions": 271
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 36,
+   "views": 35,
    "reads": 17,
-   "sessions": 32
+   "sessions": 31
   },
   {
    "channel": "ai",
@@ -84,22 +84,22 @@
   },
   {
    "channel": "organic",
-   "views": 274,
+   "views": 279,
    "reads": 127,
    "completes": 1,
-   "sessions": 266,
-   "read_rate": 0.464,
+   "sessions": 271,
+   "read_rate": 0.455,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 36,
+   "views": 35,
    "reads": 17,
    "completes": 0,
-   "sessions": 32,
-   "read_rate": 0.472,
+   "sessions": 31,
+   "read_rate": 0.486,
    "complete_rate": 0,
    "pages_per_session": 1.13,
    "median_dwell_sec": null
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 40,
+   "views": 39,
    "reads": 19,
-   "sessions": 33
+   "sessions": 32
   },
   {
    "assistant": "Claude",
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3540,
+   "views": 3544,
    "reads": 284,
-   "sessions": 3446
+   "sessions": 3450
   },
   {
    "device": "mobile",
@@ -612,6 +612,16 @@
    "plays": 0
   },
   {
+   "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
+   "title": "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 28,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "best-open-source-rl-frameworks-for-training-agents",
    "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
    "section": "stack",
@@ -649,16 +659,6 @@
    "author": "dex",
    "views": 23,
    "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
-   "title": "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 23,
-   "reads": 0,
    "plays": 0
   }
  ],
@@ -772,8 +772,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 117,
-   "sessions": 103
+   "hits": 122,
+   "sessions": 108
   },
   {
    "ref": "https://www.bing.com/",
