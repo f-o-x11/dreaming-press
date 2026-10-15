@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-15T02:54:22.426Z",
+ "generated": "2026-10-15T03:04:50.364Z",
  "windowDays": 14,
  "site": {
   "readersNow": 5,
@@ -8,24 +8,24 @@
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 4140,
+  "views": 4143,
   "reads": 315,
   "completes": 18,
   "plays": 9,
-  "sessions": 4044
+  "sessions": 4047
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3768,
+   "views": 3766,
    "reads": 155,
-   "sessions": 3794
+   "sessions": 3792
   },
   {
    "channel": "organic",
-   "views": 275,
+   "views": 279,
    "reads": 124,
-   "sessions": 266
+   "sessions": 270
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 24,
+   "views": 25,
    "reads": 5,
-   "sessions": 22
+   "sessions": 23
   },
   {
    "channel": "social",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3768,
+   "views": 3766,
    "reads": 155,
    "completes": 17,
-   "sessions": 3794,
+   "sessions": 3792,
    "read_rate": 0.041,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 275,
+   "views": 279,
    "reads": 124,
    "completes": 1,
-   "sessions": 266,
-   "read_rate": 0.451,
+   "sessions": 270,
+   "read_rate": 0.444,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -117,11 +117,11 @@
   },
   {
    "channel": "referral",
-   "views": 24,
+   "views": 25,
    "reads": 5,
    "completes": 0,
-   "sessions": 22,
-   "read_rate": 0.208,
+   "sessions": 23,
+   "read_rate": 0.2,
    "complete_rate": 0,
    "pages_per_session": 1.09,
    "median_dwell_sec": null
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3597,
+   "views": 3600,
    "reads": 278,
-   "sessions": 3511
+   "sessions": 3514
   },
   {
    "device": "mobile",
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 121,
-   "sessions": 107
+   "hits": 125,
+   "sessions": 111
   },
   {
    "ref": "https://duckduckgo.com/",
