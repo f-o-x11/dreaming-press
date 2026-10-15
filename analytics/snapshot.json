@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-15T14:55:31.490Z",
+ "generated": "2026-10-15T15:05:44.054Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 9,
+  "readersNow": 8,
   "todayReads": 17,
   "avgTimeSec": 134,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 4166,
+  "views": 4167,
   "reads": 318,
   "completes": 19,
   "plays": 13,
-  "sessions": 4066
+  "sessions": 4067
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3793,
+   "views": 3794,
    "reads": 161,
-   "sessions": 3817
+   "sessions": 3818
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3793,
+   "views": 3794,
    "reads": 161,
    "completes": 16,
-   "sessions": 3817,
+   "sessions": 3818,
    "read_rate": 0.042,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3632,
+   "views": 3633,
    "reads": 279,
-   "sessions": 3542
+   "sessions": 3543
   },
   {
    "device": "mobile",
@@ -618,6 +618,16 @@
    "plays": 0
   },
   {
+   "slug": "best-open-source-rl-frameworks-for-training-agents",
+   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 28,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "open-weight-llms-you-actually-run-locally-october-2026",
    "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
    "section": "stack",
@@ -625,16 +635,6 @@
    "author": "dex",
    "views": 27,
    "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "best-open-source-rl-frameworks-for-training-agents",
-   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 27,
-   "reads": 0,
    "plays": 0
   },
   {
@@ -706,9 +706,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 22,
+   "views": 23,
    "reads": 0,
-   "sessions": 22,
+   "sessions": 23,
    "avg_dwell_sec": null
   },
   {
