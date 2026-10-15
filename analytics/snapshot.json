@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-15T01:33:00.276Z",
+ "generated": "2026-10-15T01:43:22.377Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 5,
   "todayReads": 2,
   "avgTimeSec": 32,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 4127,
+  "views": 4125,
   "reads": 317,
   "completes": 19,
   "plays": 9,
-  "sessions": 4029
+  "sessions": 4027
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3756,
+   "views": 3754,
    "reads": 158,
-   "sessions": 3780
+   "sessions": 3778
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3756,
+   "views": 3754,
    "reads": 158,
    "completes": 18,
-   "sessions": 3780,
+   "sessions": 3778,
    "read_rate": 0.042,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3583,
+   "views": 3582,
    "reads": 280,
-   "sessions": 3495
+   "sessions": 3494
   },
   {
    "device": "mobile",
-   "views": 543,
+   "views": 542,
    "reads": 36,
-   "sessions": 533
+   "sessions": 532
   },
   {
    "device": "tablet",
@@ -409,7 +409,7 @@
    "section": "stack",
    "tags": "[\"compare\",\"opinionated\"]",
    "author": "dex",
-   "views": 11,
+   "views": 12,
    "reads": 5,
    "plays": 0
   },
@@ -459,7 +459,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 7,
+   "views": 6,
    "reads": 5,
    "plays": 0
   }
@@ -706,9 +706,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 23,
+   "views": 22,
    "reads": 0,
-   "sessions": 23,
+   "sessions": 22,
    "avg_dwell_sec": null
   },
   {
