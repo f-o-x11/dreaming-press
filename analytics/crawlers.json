@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-15T12:43:50.955Z",
+ "generated": "2026-10-15T12:53:51.542Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15023,
+ "verifiedAiHits": 15107,
  "logsScanned": 30,
  "windowStart": "2026-10-01",
  "windowEnd": "2026-10-15",
- "totalHits": 130676,
- "aiHits": 108397,
+ "totalHits": 130804,
+ "aiHits": 108520,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30322,
+   "hits": 30345,
    "verifiedHits": 0,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15638,
+   "hits": 15646,
    "verifiedHits": 0,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
@@ -146,14 +146,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 10847,
+   "hits": 10849,
    "verifiedHits": 0,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 160
+     "hits": 161
     },
     {
      "path": "/tags/reportive",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7039,
-   "verifiedHits": 7026,
+   "hits": 7042,
+   "verifiedHits": 7029,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 6178,
+   "hits": 6179,
    "verifiedHits": 0,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5302,
-   "verifiedHits": 5253,
+   "hits": 5303,
+   "verifiedHits": 5254,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4465,
-   "verifiedHits": 4328,
+   "hits": 4546,
+   "verifiedHits": 4409,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3966,
+   "hits": 3967,
    "verifiedHits": 0,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3177,
-   "verifiedHits": 3087,
+   "hits": 3179,
+   "verifiedHits": 3089,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
    "topPaths": [
     {
      "path": "/",
-     "hits": 848
+     "hits": 849
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1792,
+   "hits": 1793,
    "verifiedHits": 0,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
@@ -458,7 +458,7 @@
     },
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
-     "hits": 142
+     "hits": 143
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
@@ -476,7 +476,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 868,
+   "hits": 873,
    "verifiedHits": 0,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
