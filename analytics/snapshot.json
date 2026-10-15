@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-15T09:31:25.166Z",
+ "generated": "2026-10-15T09:41:25.370Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 7,
+  "readersNow": 3,
+  "todayReads": 8,
   "avgTimeSec": 106,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 4155,
-  "reads": 313,
+  "views": 4157,
+  "reads": 314,
   "completes": 18,
-  "plays": 9,
-  "sessions": 4059
+  "plays": 10,
+  "sessions": 4061
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3781,
+   "views": 3782,
    "reads": 156,
-   "sessions": 3807
+   "sessions": 3808
   },
   {
    "channel": "organic",
-   "views": 277,
-   "reads": 123,
-   "sessions": 268
+   "views": 278,
+   "reads": 124,
+   "sessions": 269
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3781,
+   "views": 3782,
    "reads": 156,
    "completes": 17,
-   "sessions": 3807,
+   "sessions": 3808,
    "read_rate": 0.041,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 277,
-   "reads": 123,
+   "views": 278,
+   "reads": 124,
    "completes": 1,
-   "sessions": 268,
-   "read_rate": 0.444,
+   "sessions": 269,
+   "read_rate": 0.446,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3614,
+   "views": 3615,
    "reads": 276,
-   "sessions": 3528
+   "sessions": 3529
   },
   {
    "device": "mobile",
-   "views": 540,
-   "reads": 36,
-   "sessions": 530
+   "views": 541,
+   "reads": 37,
+   "sessions": 531
   },
   {
    "device": "tablet",
@@ -506,6 +506,16 @@
    "plays": 1
   },
   {
+   "slug": "coding-agent-edit-formats-diff-vs-whole-file",
+   "title": "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 5,
+   "reads": 3,
+   "plays": 1
+  },
+  {
    "slug": "text-to-sql-vanna-vs-wrenai-vs-dataherald",
    "title": "Text-to-SQL for Agents: Vanna vs WrenAI vs Dataherald",
    "section": "stack",
@@ -553,16 +563,6 @@
    "author": "dex",
    "views": 47,
    "reads": 26,
-   "plays": 0
-  },
-  {
-   "slug": "vllm-rust-frontend",
-   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 14,
-   "reads": 10,
    "plays": 0
   }
  ],
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 463,
+   "views": 464,
    "reads": 10,
-   "sessions": 463,
+   "sessions": 464,
    "avg_dwell_sec": 90
   },
   {
@@ -783,8 +783,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 91,
-   "sessions": 48
+   "hits": 94,
+   "sessions": 49
   },
   {
    "ref": "https://www.bing.com/",
