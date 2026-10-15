@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-15T00:41Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-15T00:51Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -101,15 +101,15 @@ sample size dwarfs the engaged-read counts below.
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 90 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 90 retrieval fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 83 retrieval fetches
-- /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 70 retrieval fetches
+- /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 71 retrieval fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 65 retrieval fetches
 - /wire.html  — 59 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 54 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (5075 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×114 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×90 · /posts/open-source-llm-for-coding-september-2026.html ×90
-- PerplexityBot (4031 verified): / ×24 · /posts/2026-09-27-founders-wire-openai-rogue-agents-safa-databricks-row-zero.html ×19 · /posts/gpt-6-1-sol-vs-claude-sonnet-5-5-coding.html ×19
-- ChatGPT-User (2935 verified): / ×818 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×109 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×83
+- OAI-SearchBot (5078 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×114 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×90 · /posts/open-source-llm-for-coding-september-2026.html ×90
+- PerplexityBot (4032 verified): / ×24 · /posts/2026-09-27-founders-wire-openai-rogue-agents-safa-databricks-row-zero.html ×19 · /posts/gpt-6-1-sol-vs-claude-sonnet-5-5-coding.html ×19
+- ChatGPT-User (2936 verified): / ×818 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×109 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×83
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -157,18 +157,18 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 14394 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5075, Perplexity 4031, ChatGPT (user browsing) 2935, GPTBot (OpenAI) 2353).
+The real answer engines are crawling us — IP-verified: 14399 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5078, Perplexity 4032, ChatGPT (user browsing) 2936, GPTBot (OpenAI) 2353).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 382 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 276 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 274 crawler fetches
-- /posts/best-llm-for-creative-writing-october-2026.html  — 134 crawler fetches
+- /posts/best-llm-for-creative-writing-october-2026.html  — 135 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 131 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 114 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 90 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 89 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 83 crawler fetches
-- /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 70 crawler fetches
+- /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 71 crawler fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 65 crawler fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 60 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
