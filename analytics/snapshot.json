@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-15T14:25:05.964Z",
+ "generated": "2026-10-15T14:35:29.788Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 5,
   "todayReads": 17,
   "avgTimeSec": 134,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 4159,
-  "reads": 319,
+  "views": 4161,
+  "reads": 318,
   "completes": 19,
   "plays": 13,
-  "sessions": 4059
+  "sessions": 4061
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3785,
+   "views": 3788,
    "reads": 161,
-   "sessions": 3810
+   "sessions": 3812
   },
   {
    "channel": "organic",
-   "views": 278,
-   "reads": 124,
-   "sessions": 269
+   "views": 277,
+   "reads": 123,
+   "sessions": 268
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3785,
+   "views": 3788,
    "reads": 161,
    "completes": 16,
-   "sessions": 3810,
+   "sessions": 3812,
    "read_rate": 0.043,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 278,
-   "reads": 124,
+   "views": 277,
+   "reads": 123,
    "completes": 2,
-   "sessions": 269,
-   "read_rate": 0.446,
+   "sessions": 268,
+   "read_rate": 0.444,
    "complete_rate": 0.007,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3623,
-   "reads": 280,
-   "sessions": 3533
+   "views": 3626,
+   "reads": 279,
+   "sessions": 3536
   },
   {
    "device": "mobile",
-   "views": 535,
+   "views": 534,
    "reads": 38,
-   "sessions": 525
+   "sessions": 524
   },
   {
    "device": "tablet",
@@ -319,7 +319,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 49,
+   "views": 51,
    "reads": 27,
    "plays": 0
   },
@@ -334,22 +334,22 @@
    "plays": 1
   },
   {
-   "slug": "vllm-rust-frontend",
-   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 13,
-   "reads": 9,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 42,
+   "reads": 8,
+   "plays": 0
+  },
+  {
+   "slug": "vllm-rust-frontend",
+   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 12,
    "reads": 8,
    "plays": 0
   },
@@ -583,7 +583,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 49,
+   "views": 51,
    "reads": 27,
    "plays": 0
   },
@@ -783,8 +783,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 94,
-   "sessions": 50
+   "hits": 92,
+   "sessions": 49
   },
   {
    "ref": "https://www.bing.com/",
