@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-15T01:12:00.217Z",
+ "generated": "2026-10-15T01:22:11.761Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 4,
   "todayReads": 1,
   "avgTimeSec": 32,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 4124,
-  "reads": 317,
+  "views": 4125,
+  "reads": 316,
   "completes": 19,
   "plays": 9,
-  "sessions": 4026
+  "sessions": 4027
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3752,
+   "views": 3754,
    "reads": 157,
-   "sessions": 3776
+   "sessions": 3778
   },
   {
    "channel": "organic",
-   "views": 276,
-   "reads": 125,
-   "sessions": 267
+   "views": 275,
+   "reads": 124,
+   "sessions": 266
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3752,
+   "views": 3754,
    "reads": 157,
    "completes": 18,
-   "sessions": 3776,
+   "sessions": 3778,
    "read_rate": 0.042,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 276,
-   "reads": 125,
+   "views": 275,
+   "reads": 124,
    "completes": 1,
-   "sessions": 267,
-   "read_rate": 0.453,
+   "sessions": 266,
+   "read_rate": 0.451,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3580,
-   "reads": 280,
-   "sessions": 3492
+   "views": 3581,
+   "reads": 279,
+   "sessions": 3493
   },
   {
    "device": "mobile",
@@ -329,7 +329,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 76,
+   "views": 78,
    "reads": 11,
    "plays": 1
   },
@@ -374,16 +374,6 @@
    "plays": 0
   },
   {
-   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
-   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 13,
-   "reads": 6,
-   "plays": 0
-  },
-  {
    "slug": "clear-compact-remember-cross-vendor-agent-context-framework",
    "title": "Clear, Compact, or Remember? The Cross-Vendor Decision Framework for Long-Running Agent Context",
    "section": "stack",
@@ -401,6 +391,16 @@
    "author": "priya",
    "views": 9,
    "reads": 6,
+   "plays": 0
+  },
+  {
+   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
+   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 12,
+   "reads": 5,
    "plays": 0
   },
   {
@@ -481,7 +481,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 76,
+   "views": 78,
    "reads": 11,
    "plays": 1
   },
@@ -573,7 +573,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 76,
+   "views": 78,
    "reads": 11,
    "plays": 1
   },
@@ -788,8 +788,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 88,
-   "sessions": 46
+   "hits": 86,
+   "sessions": 45
   },
   {
    "ref": "https://cn.bing.com/",
