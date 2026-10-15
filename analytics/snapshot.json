@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-15T03:25:12.962Z",
+ "generated": "2026-10-15T03:35:37.398Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 4,
   "todayReads": 4,
   "avgTimeSec": 22,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 4145,
-  "reads": 315,
+  "views": 4148,
+  "reads": 314,
   "completes": 18,
   "plays": 9,
-  "sessions": 4050
+  "sessions": 4052
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3768,
+   "views": 3771,
    "reads": 155,
-   "sessions": 3795
+   "sessions": 3798
   },
   {
    "channel": "organic",
@@ -42,8 +42,8 @@
   {
    "channel": "referral",
    "views": 25,
-   "reads": 5,
-   "sessions": 24
+   "reads": 4,
+   "sessions": 23
   },
   {
    "channel": "social",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3768,
+   "views": 3771,
    "reads": 155,
    "completes": 17,
-   "sessions": 3795,
+   "sessions": 3798,
    "read_rate": 0.041,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -118,12 +118,12 @@
   {
    "channel": "referral",
    "views": 25,
-   "reads": 5,
+   "reads": 4,
    "completes": 0,
-   "sessions": 24,
-   "read_rate": 0.2,
+   "sessions": 23,
+   "read_rate": 0.16,
    "complete_rate": 0,
-   "pages_per_session": 1.04,
+   "pages_per_session": 1.09,
    "median_dwell_sec": null
   },
   {
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3602,
-   "reads": 278,
-   "sessions": 3517
+   "views": 3605,
+   "reads": 277,
+   "sessions": 3519
   },
   {
    "device": "mobile",
@@ -329,7 +329,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 80,
+   "views": 82,
    "reads": 11,
    "plays": 1
   },
@@ -481,7 +481,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 80,
+   "views": 82,
    "reads": 11,
    "plays": 1
   },
@@ -573,7 +573,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 80,
+   "views": 82,
    "reads": 11,
    "plays": 1
   },
