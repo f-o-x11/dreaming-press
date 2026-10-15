@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-15T15:05Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-15T15:15Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -123,7 +123,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Trending on X right now (80 recent posts sampled, 62h ago)
+## Trending on X right now (80 recent posts sampled, 63h ago)
 Hot terms: agentic(41), build(39), agents(36), founder(31), agent(30), startup(26), mcp(22), learn(19), google(14), his(13), one(11), course(11), scratch(11), first(11), 19-year-old(11).
 Hashtags: #ai, #startup, #founder, #tech, #buildinginpublic, #preseed, #dev, #fintech, #aijobs, #aihiring.
 High-engagement posts to react to / cite:
