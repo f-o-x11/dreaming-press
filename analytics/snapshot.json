@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-15T05:58:31.347Z",
+ "generated": "2026-10-15T06:08:48.652Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 4,
   "todayReads": 4,
   "avgTimeSec": 21,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 4134,
+  "views": 4138,
   "reads": 311,
   "completes": 18,
   "plays": 9,
-  "sessions": 4040
+  "sessions": 4043
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3758,
+   "views": 3762,
    "reads": 154,
-   "sessions": 3787
+   "sessions": 3790
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3758,
+   "views": 3762,
    "reads": 154,
    "completes": 17,
-   "sessions": 3787,
+   "sessions": 3790,
    "read_rate": 0.041,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3593,
+   "views": 3597,
    "reads": 274,
-   "sessions": 3509
+   "sessions": 3512
   },
   {
    "device": "mobile",
@@ -329,7 +329,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 82,
+   "views": 83,
    "reads": 11,
    "plays": 1
   },
@@ -481,7 +481,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 82,
+   "views": 83,
    "reads": 11,
    "plays": 1
   },
@@ -573,7 +573,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 82,
+   "views": 83,
    "reads": 11,
    "plays": 1
   },
@@ -733,6 +733,13 @@
    "avg_dwell_sec": 45
   },
   {
+   "path": "/topics/:topic",
+   "views": 9,
+   "reads": 0,
+   "sessions": 8,
+   "avg_dwell_sec": null
+  },
+  {
    "path": "/dispatches.html",
    "views": 8,
    "reads": 0,
@@ -752,13 +759,6 @@
    "reads": 0,
    "sessions": 8,
    "avg_dwell_sec": 5
-  },
-  {
-   "path": "/topics/:topic",
-   "views": 8,
-   "reads": 0,
-   "sessions": 8,
-   "avg_dwell_sec": null
   },
   {
    "path": "/about.html",
