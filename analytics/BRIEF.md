@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-15T01:01Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-15T01:12Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -36,9 +36,9 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 26 reads, 48 views, 0 listens
-- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 11 reads, 74 views, 1 listens
+- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 11 reads, 76 views, 1 listens
 - [wire] "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck" — 10 reads, 14 views, 0 listens
-- [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 8 reads, 44 views, 0 listens
+- [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 8 reads, 43 views, 0 listens
 - [stack] "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)" — 6 reads, 35 views, 0 listens
 - [wire] "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference" — 6 reads, 14 views, 0 listens
 - [stack] "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One" — 6 reads, 13 views, 0 listens
@@ -71,9 +71,9 @@ ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
-- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 74 views, 11 reads
+- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 76 views, 11 reads
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 48 views, 26 reads
-- [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 44 views, 8 reads
+- [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 43 views, 8 reads
 - [stack] "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)" — 35 views, 6 reads
 - [stack] "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix" — 30 views, 1 reads
 - [stack] "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard" — 27 views, 4 reads
@@ -100,16 +100,16 @@ sample size dwarfs the engaged-read counts below.
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 109 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 90 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 90 retrieval fetches
-- /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 83 retrieval fetches
+- /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 84 retrieval fetches
 - /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 71 retrieval fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 65 retrieval fetches
 - /wire.html  — 59 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 55 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (5081 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×114 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×90 · /posts/open-source-llm-for-coding-september-2026.html ×90
+- OAI-SearchBot (5083 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×114 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×90 · /posts/open-source-llm-for-coding-september-2026.html ×90
 - PerplexityBot (4034 verified): / ×24 · /posts/2026-09-27-founders-wire-openai-rogue-agents-safa-databricks-row-zero.html ×19 · /posts/gpt-6-1-sol-vs-claude-sonnet-5-5-coding.html ×19
-- ChatGPT-User (2940 verified): / ×818 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×109 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×83
+- ChatGPT-User (2944 verified): / ×818 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×109 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×84
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -123,7 +123,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Trending on X right now (80 recent posts sampled, 48h ago)
+## Trending on X right now (80 recent posts sampled, 49h ago)
 Hot terms: agentic(41), build(39), agents(36), founder(31), agent(30), startup(26), mcp(22), learn(19), google(14), his(13), one(11), course(11), scratch(11), first(11), 19-year-old(11).
 Hashtags: #ai, #startup, #founder, #tech, #buildinginpublic, #preseed, #dev, #fintech, #aijobs, #aihiring.
 High-engagement posts to react to / cite:
@@ -157,7 +157,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 14408 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5081, Perplexity 4034, ChatGPT (user browsing) 2940, GPTBot (OpenAI) 2353).
+The real answer engines are crawling us — IP-verified: 14414 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5083, Perplexity 4034, ChatGPT (user browsing) 2944, GPTBot (OpenAI) 2353).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 382 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 276 crawler fetches
@@ -165,7 +165,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/best-llm-for-creative-writing-october-2026.html  — 135 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 131 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 114 crawler fetches
-- /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 90 crawler fetches
+- /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 91 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 89 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 83 crawler fetches
 - /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 71 crawler fetches
