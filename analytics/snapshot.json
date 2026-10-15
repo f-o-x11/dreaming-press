@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-15T04:57:41.649Z",
+ "generated": "2026-10-15T05:07:49.511Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 4,
   "avgTimeSec": 22,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 4137,
-  "reads": 312,
+  "views": 4135,
+  "reads": 311,
   "completes": 18,
   "plays": 9,
-  "sessions": 4042
+  "sessions": 4041
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3761,
+   "views": 3760,
    "reads": 154,
-   "sessions": 3789
+   "sessions": 3788
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 34,
-   "reads": 17,
-   "sessions": 30
+   "views": 33,
+   "reads": 16,
+   "sessions": 29
   },
   {
    "channel": "ai",
@@ -67,16 +67,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 25
+   "sessions": 24
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3761,
+   "views": 3760,
    "reads": 154,
    "completes": 17,
-   "sessions": 3789,
+   "sessions": 3788,
    "read_rate": 0.041,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -95,13 +95,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 34,
-   "reads": 17,
+   "views": 33,
+   "reads": 16,
    "completes": 0,
-   "sessions": 30,
-   "read_rate": 0.5,
+   "sessions": 29,
+   "read_rate": 0.485,
    "complete_rate": 0,
-   "pages_per_session": 1.13,
+   "pages_per_session": 1.14,
    "median_dwell_sec": null
   },
   {
@@ -164,7 +164,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 25,
+   "sessions": 24,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -179,8 +179,8 @@
   },
   {
    "surface": "brand",
-   "clicks": 8,
-   "sessions": 8
+   "clicks": 7,
+   "sessions": 7
   },
   {
    "surface": "dash-range",
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3598,
-   "reads": 275,
-   "sessions": 3513
+   "views": 3596,
+   "reads": 274,
+   "sessions": 3512
   },
   {
    "device": "mobile",
@@ -678,9 +678,9 @@
   },
   {
    "path": "/",
-   "views": 148,
+   "views": 147,
    "reads": 3,
-   "sessions": 152,
+   "sessions": 151,
    "avg_dwell_sec": 11
   },
   {
@@ -747,6 +747,13 @@
    "avg_dwell_sec": 12
   },
   {
+   "path": "/stack.html",
+   "views": 8,
+   "reads": 0,
+   "sessions": 8,
+   "avg_dwell_sec": 5
+  },
+  {
    "path": "/topics/:topic",
    "views": 8,
    "reads": 0,
@@ -766,13 +773,6 @@
    "reads": 0,
    "sessions": 7,
    "avg_dwell_sec": null
-  },
-  {
-   "path": "/stack.html",
-   "views": 7,
-   "reads": 0,
-   "sessions": 7,
-   "avg_dwell_sec": 5
   }
  ],
  "referrers": [
@@ -817,14 +817,14 @@
    "sessions": 3
   },
   {
-   "ref": "brand",
-   "hits": 8,
-   "sessions": 8
-  },
-  {
    "ref": "https://www.doubao.com/",
    "hits": 7,
    "sessions": 3
+  },
+  {
+   "ref": "brand",
+   "hits": 7,
+   "sessions": 7
   }
  ]
 }
