@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-15T13:13:53.843Z",
+ "generated": "2026-10-15T13:24:00.375Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 15,
   "avgTimeSec": 131,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 4169,
+  "views": 4166,
   "reads": 319,
   "completes": 19,
   "plays": 13,
-  "sessions": 4069
+  "sessions": 4066
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3792,
+   "views": 3790,
    "reads": 160,
-   "sessions": 3817
+   "sessions": 3815
   },
   {
    "channel": "organic",
-   "views": 280,
+   "views": 279,
    "reads": 125,
-   "sessions": 270
+   "sessions": 269
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3792,
+   "views": 3790,
    "reads": 160,
    "completes": 16,
-   "sessions": 3817,
+   "sessions": 3815,
    "read_rate": 0.042,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 280,
+   "views": 279,
    "reads": 125,
    "completes": 2,
-   "sessions": 270,
-   "read_rate": 0.446,
+   "sessions": 269,
+   "read_rate": 0.448,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3627,
+   "views": 3624,
    "reads": 280,
-   "sessions": 3537
+   "sessions": 3534
   },
   {
    "device": "mobile",
@@ -671,16 +671,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 463,
+   "views": 462,
    "reads": 10,
-   "sessions": 463,
+   "sessions": 462,
    "avg_dwell_sec": 90
   },
   {
    "path": "/",
-   "views": 146,
+   "views": 145,
    "reads": 3,
-   "sessions": 150,
+   "sessions": 149,
    "avg_dwell_sec": 11
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 124,
-   "sessions": 110
+   "hits": 123,
+   "sessions": 109
   },
   {
    "ref": "https://duckduckgo.com/",
