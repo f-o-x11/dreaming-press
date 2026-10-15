@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-15T13:54:40.597Z",
+ "generated": "2026-10-15T14:04:54.172Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 15,
-  "avgTimeSec": 131,
+  "readersNow": 4,
+  "todayReads": 17,
+  "avgTimeSec": 134,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 4157,
-  "reads": 319,
+  "views": 4160,
+  "reads": 321,
   "completes": 19,
   "plays": 13,
-  "sessions": 4057
+  "sessions": 4059
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3782,
-   "reads": 160,
-   "sessions": 3807
+   "views": 3784,
+   "reads": 161,
+   "sessions": 3809
   },
   {
    "channel": "organic",
-   "views": 279,
-   "reads": 125,
-   "sessions": 269
+   "views": 280,
+   "reads": 126,
+   "sessions": 270
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,22 +73,22 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3782,
-   "reads": 160,
+   "views": 3784,
+   "reads": 161,
    "completes": 16,
-   "sessions": 3807,
-   "read_rate": 0.042,
+   "sessions": 3809,
+   "read_rate": 0.043,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
    "median_dwell_sec": 8
   },
   {
    "channel": "organic",
-   "views": 279,
-   "reads": 125,
+   "views": 280,
+   "reads": 126,
    "completes": 2,
-   "sessions": 269,
-   "read_rate": 0.448,
+   "sessions": 270,
+   "read_rate": 0.45,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3620,
-   "reads": 280,
-   "sessions": 3530
+   "views": 3623,
+   "reads": 282,
+   "sessions": 3532
   },
   {
    "device": "mobile",
@@ -466,6 +466,16 @@
  ],
  "topListens": [
   {
+   "slug": "tool-result-too-large-for-context-window",
+   "title": "How to Handle a Tool Result Too Large for the Context Window: Truncate, Paginate, or Hand Back a Handle",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 3,
+   "plays": 2
+  },
+  {
    "slug": "how-to-run-spec-driven-development-github-spec-kit",
    "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
    "section": "stack",
@@ -473,16 +483,6 @@
    "author": "rosalinda",
    "views": 4,
    "reads": 3,
-   "plays": 2
-  },
-  {
-   "slug": "tool-result-too-large-for-context-window",
-   "title": "How to Handle a Tool Result Too Large for the Context Window: Truncate, Paginate, or Hand Back a Handle",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 4,
-   "reads": 2,
    "plays": 2
   },
   {
@@ -783,8 +783,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 94,
-   "sessions": 49
+   "hits": 96,
+   "sessions": 50
   },
   {
    "ref": "https://www.bing.com/",
