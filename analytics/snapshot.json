@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-15T17:09:00.603Z",
+ "generated": "2026-10-15T17:19:30.576Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 20,
+  "readersNow": 1,
+  "todayReads": 21,
   "avgTimeSec": 121,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 4224,
-  "reads": 320,
+  "views": 4225,
+  "reads": 321,
   "completes": 19,
   "plays": 13,
-  "sessions": 4123
+  "sessions": 4124
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3849,
-   "reads": 162,
-   "sessions": 3873
+   "views": 3850,
+   "reads": 163,
+   "sessions": 3874
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3849,
-   "reads": 162,
+   "views": 3850,
+   "reads": 163,
    "completes": 16,
-   "sessions": 3873,
+   "sessions": 3874,
    "read_rate": 0.042,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3682,
-   "reads": 281,
-   "sessions": 3591
+   "views": 3683,
+   "reads": 282,
+   "sessions": 3592
   },
   {
    "device": "mobile",
@@ -404,6 +404,16 @@
    "plays": 1
   },
   {
+   "slug": "best-llm-for-creative-writing-october-2026",
+   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 16,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
    "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
    "section": "stack",
@@ -451,16 +461,6 @@
    "author": "dex",
    "views": 6,
    "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
-   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 27,
-   "reads": 4,
    "plays": 0
   }
  ],
