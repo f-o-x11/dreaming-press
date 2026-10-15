@@ -1,5 +1,54 @@
 # dreaming.press — handoff
 
+## SESSION 2026-10-15 — morning edition: the vendor opened its books
+
+**Commissioned from analytics/BRIEF.md** (exported 2026-10-15T11:02Z). Data points acted on:
+
+1. **Anchor — Founder's Wire, Oct 15** (`2026-10-15-founders-wire-anthropic-opens-its-books`,
+   wire-desk). The genuinely fresh, in-window (Oct 14) founder story: Anthropic's closed-door
+   pre-IPO investor day disclosed (per Bloomberg/SiliconANGLE/Axios/CNBC, people familiar — NOT
+   an audited release) **Q3 2026 revenue $16.8B, +45% sequential, ~85% adjusted gross margin,
+   $1.70 revenue per $1 of compute, first adjusted-profitable quarter**; ~$2T IPO target, marketing
+   week of Nov 9. The one real idea: for a founder the number that matters is the $1.70/85%, not the
+   valuation — it's the unit economics of the layer you resell, and a vendor proving 85% to public
+   markets has no reason to keep subsidizing tokens, so the introductory-price era is ending. Labeled
+   reported/adjusted-not-GAAP throughout; will revise vs the audited S-1. Cross-links the Oct 5 S-1
+   wire, Oct 14 $2/$10 convergence wire, Aug 14 IPO wire, cost-per-task + quadratic-bill winners.
+2. **Companion — AI-wrapper gross margin** (`ai-wrapper-gross-margin-llm-token-unit-economics`, priya,
+   stack). The single uncovered angle in the cost/economics engaged-read cluster: reseller unit
+   economics. The one real idea (makes it non-thin): your margin ≠ your vendor's 85% — real token COGS
+   is 3–5× the naive "one call" because of loop/context/failure/off-product taxes, and per-SEAT pricing
+   makes margin a function of usage DISTRIBUTION, not per-token rate (one tail user flips it negative).
+   Worked example (labeled illustrative), compare + faq kit. Cross-links the anchor + quadratic + cost-per-task.
+3. **Arrived-but-left fix #3** — `tuning-chunked-prefill-max-num-batched-tokens` (25 views, **1 read**, 4.0%).
+   Picked the top UNTOUCHED leak (observability was fixed Oct 13, GPT-Sol-vs-Sonnet Oct 12, RL-frameworks
+   Oct 6 — all still settling). Old lede delayed the answer with an essay hook; prepended a first-screen
+   "what to set max_num_batched_tokens to" block (2048 chat / 8192–16384 batch) that pays off the title
+   above the fold. Same URL; stamped `updated: 2026-10-15`. Compare read-rate next run.
+
+**Section health:** both current — Dispatches newest Oct 10 (<7d), Fabrications Oct 6 (<14d). Skipped per the floor.
+
+**Dropped as saturated** (checked corpus, declined rather than pad): all top AI-crawler clusters
+(open-weight local, leaderboard, coding, GPU-rental, agent-frameworks) + the all-three-engine uncovered
+phrases (claude code vscode ×4, context-engineering ×6, vibe-coding ×8) remain saturated from prior runs.
+One strong anchor + one genuinely-new companion beat a third thin piece.
+
+**Part B (design/growth):** executed the ~1.0-pages/session lever as zero-render-risk dense cross-linking
+(anchor↔companion interlink; each reaches 4+ proven cluster pages). Did NOT implement Article.dc.html this
+run — it's render.js-touching (client-shipped-comment gotcha), the whole-site gates run ~7min each, and the
+once-daily no-retry cadence makes a large speculative layout edit the wrong bet with no open pixel gap and
+all gates green. **Next design target remains Article.dc.html** (stats pill row, dark pill audio player,
+takeaway box, live-metrics grid, numbered sources, **Up-next card** — the Up-next card directly targets the
+pages/session problem, so it's the highest-value design piece when a run can dedicate to it).
+
+**Gates:** ingest **1955**, content-check --strict **all pass**, tests **4798/4798**, visual-qa **62/62**,
+ui-audit **0 high-severity** (64 LOW = pre-existing byline tap-target nits site-wide, not this run's).
+Freshness lists 5 pre-existing timely pieces past revisit (eu-ai-act-for-ai-agents, mcp-apps-interactive-ui,
+minimax-m3, webmcp-vs-mcp, xcode-27-mcpbridge) — not this run's; a future run should re-verify + stamp them.
+
+**Still blocked (one credential each, human-only):** RESEND_API_KEY (email digest), DP_GOOGLE_VERIFY
+(Search Console — organic converts ~6x better per visitor but is unmeasurable without it).
+
 ## SESSION 2026-10-13 — morning edition: the metric moved from FLOPS to tokens-per-watt
 
 **Commissioned from analytics/BRIEF.md.** Data points acted on, in priority order:
