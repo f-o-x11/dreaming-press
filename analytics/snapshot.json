@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-15T08:30:36.293Z",
+ "generated": "2026-10-15T08:40:44.490Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 12,
   "todayReads": 7,
-  "avgTimeSec": 113,
+  "avgTimeSec": 106,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 4149,
+  "views": 4157,
   "reads": 313,
   "completes": 18,
   "plays": 9,
-  "sessions": 4053
+  "sessions": 4061
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3775,
+   "views": 3783,
    "reads": 156,
-   "sessions": 3801
+   "sessions": 3809
   },
   {
    "channel": "organic",
@@ -73,12 +73,12 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3775,
+   "views": 3783,
    "reads": 156,
    "completes": 17,
-   "sessions": 3801,
+   "sessions": 3809,
    "read_rate": 0.041,
-   "complete_rate": 0.005,
+   "complete_rate": 0.004,
    "pages_per_session": 0.99,
    "median_dwell_sec": 8
   },
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3609,
+   "views": 3616,
    "reads": 276,
-   "sessions": 3523
+   "sessions": 3530
   },
   {
    "device": "mobile",
-   "views": 539,
+   "views": 540,
    "reads": 36,
-   "sessions": 529
+   "sessions": 530
   },
   {
    "device": "tablet",
@@ -389,7 +389,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 9,
+   "views": 10,
    "reads": 6,
    "plays": 0
   },
@@ -671,16 +671,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 462,
+   "views": 463,
    "reads": 10,
-   "sessions": 462,
+   "sessions": 463,
    "avg_dwell_sec": 90
   },
   {
    "path": "/",
-   "views": 146,
+   "views": 147,
    "reads": 3,
-   "sessions": 150,
+   "sessions": 151,
    "avg_dwell_sec": 11
   },
   {

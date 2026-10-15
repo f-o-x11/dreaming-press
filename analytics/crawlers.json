@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-15T08:30:35.991Z",
+ "generated": "2026-10-15T08:40:44.183Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14852,
+ "verifiedAiHits": 14859,
  "logsScanned": 30,
  "windowStart": "2026-10-01",
  "windowEnd": "2026-10-15",
- "totalHits": 129287,
- "aiHits": 107328,
+ "totalHits": 129324,
+ "aiHits": 107362,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29768,
+   "hits": 29786,
    "verifiedHits": 0,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15437,
+   "hits": 15446,
    "verifiedHits": 0,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
@@ -102,8 +102,8 @@
      "hits": 17
     },
     {
-     "path": "/posts/2026-06-23-mcp-code-execution-vs-direct-tool-calls.html",
-     "hits": 8
+     "path": "/posts/2026-06-21-graphrag-vs-vector-rag.html",
+     "hits": 9
     }
    ],
    "verifiable": false
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5230,
-   "verifiedHits": 5181,
+   "hits": 5234,
+   "verifiedHits": 5185,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4425,
-   "verifiedHits": 4288,
+   "hits": 4426,
+   "verifiedHits": 4289,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3928,
+   "hits": 3931,
    "verifiedHits": 0,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3118,
-   "verifiedHits": 3028,
+   "hits": 3120,
+   "verifiedHits": 3030,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
    "topPaths": [
     {
      "path": "/",
-     "hits": 837
+     "hits": 838
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
