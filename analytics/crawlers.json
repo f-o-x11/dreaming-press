@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-15T04:47:27.059Z",
+ "generated": "2026-10-15T04:57:41.361Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14546,
+ "verifiedAiHits": 14558,
  "logsScanned": 30,
  "windowStart": "2026-10-01",
  "windowEnd": "2026-10-15",
- "totalHits": 127792,
- "aiHits": 106131,
+ "totalHits": 127841,
+ "aiHits": 106170,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29299,
+   "hits": 29312,
    "verifiedHits": 0,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15262,
+   "hits": 15269,
    "verifiedHits": 0,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6890,
-   "verifiedHits": 6877,
+   "hits": 6891,
+   "verifiedHits": 6878,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 5912,
+   "hits": 5917,
    "verifiedHits": 0,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4225,
-   "verifiedHits": 4088,
+   "hits": 4237,
+   "verifiedHits": 4100,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3886,
+   "hits": 3890,
    "verifiedHits": 0,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1754,
+   "hits": 1756,
    "verifiedHits": 0,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
@@ -458,7 +458,7 @@
     },
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
-     "hits": 133
+     "hits": 134
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
@@ -476,7 +476,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 799,
+   "hits": 804,
    "verifiedHits": 0,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
@@ -484,6 +484,10 @@
     {
      "path": "/build",
      "hits": 17
+    },
+    {
+     "path": "/posts/mcp-2026-07-28-authorization-changes.html",
+     "hits": 2
     },
     {
      "path": "/posts/how-to-ab-test-an-ai-agent.html",
@@ -495,10 +499,6 @@
     },
     {
      "path": "/posts/agent-memory-vs-rag.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/should-an-ai-agent-compact-its-own-context.html",
      "hits": 2
     }
    ],
