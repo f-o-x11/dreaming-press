@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-15T15:36:00.751Z",
+ "generated": "2026-10-15T15:46:06.553Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15208,
+ "verifiedAiHits": 15214,
  "logsScanned": 30,
  "windowStart": "2026-10-01",
  "windowEnd": "2026-10-15",
- "totalHits": 131547,
- "aiHits": 109123,
+ "totalHits": 131607,
+ "aiHits": 109174,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30658,
+   "hits": 30684,
    "verifiedHits": 0,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15773,
+   "hits": 15780,
    "verifiedHits": 0,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14824,
+   "hits": 14836,
    "verifiedHits": 0,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7093,
-   "verifiedHits": 7080,
+   "hits": 7096,
+   "verifiedHits": 7083,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 6223,
+   "hits": 6224,
    "verifiedHits": 0,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4565,
-   "verifiedHits": 4428,
+   "hits": 4566,
+   "verifiedHits": 4429,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
    "topPaths": [
@@ -344,11 +344,15 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3989,
+   "hits": 3994,
    "verifiedHits": 0,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
    "topPaths": [
+    {
+     "path": "/build",
+     "hits": 4
+    },
     {
      "path": "/posts/2026-09-26-founders-wire-nscale-ema-island-agent-control.html",
      "hits": 4
@@ -356,10 +360,6 @@
     {
      "path": "/posts/the-difference-between-a-commitment-and-a-dump.md",
      "hits": 4
-    },
-    {
-     "path": "/build",
-     "hits": 3
     },
     {
      "path": "/posts/2026-09-27-founders-wire-openai-rogue-agents-safa-databricks-row-zero.md",
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3222,
-   "verifiedHits": 3132,
+   "hits": 3227,
+   "verifiedHits": 3137,
    "firstSeen": "2026-10-01",
    "lastSeen": "2026-10-15",
    "topPaths": [
     {
      "path": "/",
-     "hits": 856
+     "hits": 857
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
@@ -392,7 +392,7 @@
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 101
+     "hits": 102
     },
     {
      "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
