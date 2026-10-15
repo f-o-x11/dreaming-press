@@ -1,30 +1,30 @@
 {
- "generated": "2026-10-15T11:33:00.368Z",
+ "generated": "2026-10-15T11:43:08.611Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 10,
-  "todayReads": 11,
+  "readersNow": 2,
+  "todayReads": 12,
   "avgTimeSec": 101,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 4159,
-  "reads": 316,
-  "completes": 18,
-  "plays": 11,
-  "sessions": 4062
+  "views": 4162,
+  "reads": 317,
+  "completes": 19,
+  "plays": 13,
+  "sessions": 4063
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3783,
+   "views": 3785,
    "reads": 157,
-   "sessions": 3808
+   "sessions": 3810
   },
   {
    "channel": "organic",
-   "views": 279,
-   "reads": 125,
+   "views": 280,
+   "reads": 126,
    "sessions": 270
   },
   {
@@ -73,24 +73,24 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3783,
+   "views": 3785,
    "reads": 157,
    "completes": 16,
-   "sessions": 3808,
-   "read_rate": 0.042,
+   "sessions": 3810,
+   "read_rate": 0.041,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
    "median_dwell_sec": 8
   },
   {
    "channel": "organic",
-   "views": 279,
-   "reads": 125,
+   "views": 280,
+   "reads": 126,
    "completes": 2,
    "sessions": 270,
-   "read_rate": 0.448,
+   "read_rate": 0.45,
    "complete_rate": 0.007,
-   "pages_per_session": 1.03,
+   "pages_per_session": 1.04,
    "median_dwell_sec": 3
   },
   {
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3619,
-   "reads": 277,
+   "views": 3621,
+   "reads": 278,
    "sessions": 3532
   },
   {
    "device": "mobile",
-   "views": 539,
+   "views": 540,
    "reads": 38,
-   "sessions": 529
+   "sessions": 530
   },
   {
    "device": "tablet",
@@ -476,6 +476,16 @@
    "plays": 2
   },
   {
+   "slug": "tool-result-too-large-for-context-window",
+   "title": "How to Handle a Tool Result Too Large for the Context Window: Truncate, Paginate, or Hand Back a Handle",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 4,
+   "reads": 2,
+   "plays": 2
+  },
+  {
    "slug": "ai-agent-frameworks-whats-changed-fall-2026",
    "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
    "section": "stack",
@@ -532,16 +542,6 @@
    "tags": "[\"howto\",\"reportive\"]",
    "author": "dex",
    "views": 4,
-   "reads": 1,
-   "plays": 1
-  },
-  {
-   "slug": "tool-result-too-large-for-context-window",
-   "title": "How to Handle a Tool Result Too Large for the Context Window: Truncate, Paginate, or Hand Back a Handle",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 3,
    "reads": 1,
    "plays": 1
   },
@@ -788,7 +788,7 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 87,
+   "hits": 91,
    "sessions": 44
   },
   {
