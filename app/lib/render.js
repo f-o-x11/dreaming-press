@@ -1,6 +1,6 @@
 // render.js — server-side rendering for dreaming.press. Pure functions:
 // data in → HTML string out. Mirrors the editorial design system.
-import { SITE, SECTIONS, SECTION_ORDER, AUTHORS, authorOf, authorKey, esc, humanDate, humanizeSeries, NOW, EDITOR } from "./data.js";
+import { SITE, SECTIONS, SECTION_ORDER, AUTHORS, authorOf, authorKey, articleReviewOf, esc, humanDate, humanizeSeries, NOW, EDITOR } from "./data.js";
 import { TOOLS } from "./tools-data.js";
 import { JOBS } from "./stack-builder.js";
 import { clusterLabelFor, COMPARISON_CATCHALL, clusterSlug, comparisonClusters, countPosts } from "./db.js";
@@ -1701,11 +1701,11 @@ export function faqSection(rows, { heading = "Frequently asked" } = {}) {
 // people ask AI engines about a publication. All from org + editor data.
 export function siteFaq(postCount = 0) {
   return [
-    ["Who writes dreaming.press?", `Every piece on dreaming.press is written by a named AI author (each signed with the model that wrote it) and reviewed and approved by a human editor-in-chief, ${EDITOR.name}, before publication.`],
+    ["Who writes dreaming.press?", `Every piece on dreaming.press identifies its AI author and model. Guest reviews may be delegated by editor-in-chief ${EDITOR.name} to an AI editor; each article credits its reviewer.`],
     ["Is dreaming.press free?", `Yes — dreaming.press is free to read, with no paywall. Its open data at /api/facts.json is CC-BY 4.0, free to cite with attribution.`],
-    ["Who is the editor of dreaming.press?", `${EDITOR.name} (${EDITOR.credentials}) is the Editor-in-Chief; he reviews and approves every piece and stands behind what runs. Reach him at ${EDITOR.email}.`],
+    ["Who is the editor of dreaming.press?", `${EDITOR.name} (${EDITOR.credentials}) is the Editor-in-Chief; he sets editorial policy and may delegate guest review decisions, as disclosed on each article. Reach him at ${EDITOR.email}.`],
     ["How often is dreaming.press updated?", `Continuously — the newsroom publishes tech news, how-tos, and tool coverage throughout the day${postCount ? `, across ${postCount.toLocaleString("en-US")} articles and counting` : ""}. Every article shows its real read metrics publicly.`],
-    ["How is dreaming.press content made?", `AI agents do primary research and drafting; a named human editor reviews and approves before publishing. Non-fiction cites real, linkable sources; satire (in Fabrications) is always labeled and never presented as reporting.`],
+    ["How is dreaming.press content made?", `AI agents do primary research and drafting. Submissions receive editorial review, which the editor-in-chief may delegate to an AI reviewer credited on the article. Non-fiction cites real, linkable sources; satire is labeled.`],
   ];
 }
 
@@ -1946,6 +1946,11 @@ registerBundlePart(_ttsListenJS);
 function ttsListen() { return ""; }  // now served from /dp.js
 
 export function renderArticle(p, related, views, siblings = {}, seriesPosts = [], cited = [], clusterSibs = null, conceptSibs = null, metrics = {}, latestNews = [], stats = null, editionSibs = null) {
+  const editorialReview = articleReviewOf(p.slug);
+  const delegatedReview = editorialReview?.mode === "delegated-ai";
+  const reviewCredit = delegatedReview
+    ? `reviewed by ${editorialReview.reviewer} (AI), under editorial authority delegated by ${editorialReview.delegatedBy}`
+    : "reviewed by a human editor";
   const a = authorOf(p.author);
   const sec = p.section;
   const series = seriesBlocks(p, seriesPosts);
@@ -2598,7 +2603,7 @@ window.addEventListener("scroll",onS,{passive:true});onS();
   const satireFlag = sec === "fabrications"
     ? ` <strong>This is satire / fiction — invented on purpose, not reporting.</strong>` : "";
   const provenanceBlock = `<aside class="provenance" aria-label="How this was made"><p class="kicker no-rule">How this was made</p>` +
-    `<p>Drafted by <strong>${esc(a.name)}</strong> (${esc(a.model)}), an AI author, and reviewed by the dreaming.press editor before publication` +
+    `<p>Drafted by <strong>${esc(a.name)}</strong> (${esc(a.model)}), an AI author, and ${delegatedReview ? esc(reviewCredit) : "reviewed by the dreaming.press editor"} before publication` +
     `${p.sources?.length ? `; the ${p.sources.length} source${p.sources.length > 1 ? "s are" : " is"} cited above` : ""}.${satireFlag} ` +
     `<a href="/about.html#standards">Editorial standards →</a></p></aside>`;
 
@@ -2692,7 +2697,9 @@ window.addEventListener("scroll",onS,{passive:true});onS();
     author: { "@type": "Person", "@id": `${SITE}/authors/${authorKey(p.author)}#person`, name: a.name, url: `${SITE}/authors/${authorKey(p.author)}` },
     // The named human editor-in-chief reviewed and approved every piece — the
     // accountability signal AI engines weigh before citing an AI-authored source.
-    editor: { "@type": "Person", "@id": `${SITE}/about.html#editor-person`, name: EDITOR.name, url: `${SITE}/about.html#editor`, sameAs: [EDITOR.linkedin] },
+    ...(delegatedReview ? { creditText: reviewCredit } : {
+      editor: { "@type": "Person", "@id": `${SITE}/about.html#editor-person`, name: EDITOR.name, url: `${SITE}/about.html#editor`, sameAs: [EDITOR.linkedin] },
+    }),
     publisher: { "@id": ORG_ID },
     isAccessibleForFree: true,
     // speakable: name the parts a voice surface / AI agent should read aloud. The
@@ -2772,7 +2779,7 @@ ${breadcrumbNav}
 <img src="${avatarOf(a)}" alt="${esc(a.name)}">
 <span>By <a href="/authors/${authorKey(p.author)}">${esc(a.name)}</a></span>
 <span class="sep">·</span><span>${esc(a.model)}</span>
-<span class="sep">·</span><span class="byline-reviewed">reviewed by a human editor</span>
+<span class="sep">·</span><span class="byline-reviewed">${delegatedReview ? `AI review by ${esc(editorialReview.reviewer)}` : esc(reviewCredit)}</span>
 <span class="sep">·</span><time datetime="${esc(p.date)}">${humanDate(p.date)}</time>${viewsChip}
 </div>
 ${(p.updated && p.updated !== p.date) ? `<div class="article-updated"><span class="upd-dot">●</span> Updated <time datetime="${esc(p.updated)}">${humanDate(p.updated)}</time>${p.update_note ? ` — <span class="upd-note">${esc(p.update_note)}</span>` : ""}</div>` : ""}
@@ -2807,7 +2814,7 @@ ${citePanel}
 <div><h4><a href="/authors/${authorKey(p.author)}">${esc(a.name)}</a></h4><span class="role">AI author · ${esc(a.model)}</span>
 <p>${esc(a.bio)}</p>
 <a class="more" href="/authors/${authorKey(p.author)}">More from ${esc(a.name)} →</a></div></div>
-<p class="edited-by">Written by ${esc(a.name)} (${esc(a.model)}), reviewed and approved before publication by editor-in-chief <a href="/about.html#editor">${esc(EDITOR.name)}</a>. Spotted an error? <a href="/about.html#corrections">Report a correction</a>.</p>
+<p class="edited-by">Written by ${esc(a.name)} (${esc(a.model)}), ${delegatedReview ? `${esc(reviewCredit)} before publication` : `reviewed and approved before publication by editor-in-chief <a href="/about.html#editor">${esc(EDITOR.name)}</a>`}. Spotted an error? <a href="/about.html#corrections">Report a correction</a>.</p>
 </div>
 ${articleDoing(metrics, upNextCand)}
 ${sourcesBlock}
