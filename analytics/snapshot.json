@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-15T02:13:50.840Z",
+ "generated": "2026-10-15T02:24:00.442Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 2,
-  "avgTimeSec": 32,
+  "readersNow": 9,
+  "todayReads": 4,
+  "avgTimeSec": 21,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 4134,
+  "views": 4138,
   "reads": 315,
   "completes": 18,
   "plays": 9,
-  "sessions": 4037
+  "sessions": 4042
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3763,
-   "reads": 156,
-   "sessions": 3788
+   "views": 3766,
+   "reads": 155,
+   "sessions": 3792
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 23,
-   "reads": 4,
-   "sessions": 21
+   "views": 24,
+   "reads": 5,
+   "sessions": 22
   },
   {
    "channel": "social",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3763,
-   "reads": 156,
+   "views": 3766,
+   "reads": 155,
    "completes": 17,
-   "sessions": 3788,
+   "sessions": 3792,
    "read_rate": 0.041,
    "complete_rate": 0.005,
    "pages_per_session": 0.99,
@@ -117,13 +117,13 @@
   },
   {
    "channel": "referral",
-   "views": 23,
-   "reads": 4,
+   "views": 24,
+   "reads": 5,
    "completes": 0,
-   "sessions": 21,
-   "read_rate": 0.174,
+   "sessions": 22,
+   "read_rate": 0.208,
    "complete_rate": 0,
-   "pages_per_session": 1.1,
+   "pages_per_session": 1.09,
    "median_dwell_sec": null
   },
   {
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3592,
+   "views": 3596,
    "reads": 278,
-   "sessions": 3505
+   "sessions": 3510
   },
   {
    "device": "mobile",
@@ -329,7 +329,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 78,
+   "views": 79,
    "reads": 11,
    "plays": 1
   },
@@ -394,6 +394,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-agent-security-jobs",
+   "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 6,
+   "plays": 1
+  },
+  {
    "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
    "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
    "section": "stack",
@@ -412,16 +422,6 @@
    "views": 12,
    "reads": 5,
    "plays": 0
-  },
-  {
-   "slug": "how-to-run-spec-driven-development-github-spec-kit",
-   "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
-   "section": "stack",
-   "tags": "[\"reportive\",\"captivating\"]",
-   "author": "rosalinda",
-   "views": 8,
-   "reads": 5,
-   "plays": 2
   },
   {
    "slug": "lightpanda-vs-playwright-vs-browserless-headless-browser-ai-agents",
@@ -444,16 +444,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-security-jobs",
-   "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 7,
-   "reads": 5,
-   "plays": 1
-  },
-  {
    "slug": "open-source-llm-for-coding-september-2026",
    "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
    "section": "stack",
@@ -461,6 +451,16 @@
    "author": "dex",
    "views": 6,
    "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 27,
+   "reads": 4,
    "plays": 0
   }
  ],
@@ -471,8 +471,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"captivating\"]",
    "author": "rosalinda",
-   "views": 8,
-   "reads": 5,
+   "views": 4,
+   "reads": 3,
    "plays": 2
   },
   {
@@ -481,7 +481,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 78,
+   "views": 79,
    "reads": 11,
    "plays": 1
   },
@@ -501,8 +501,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 7,
-   "reads": 5,
+   "views": 8,
+   "reads": 6,
    "plays": 1
   },
   {
@@ -573,7 +573,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 78,
+   "views": 79,
    "reads": 11,
    "plays": 1
   },
@@ -678,9 +678,9 @@
   },
   {
    "path": "/",
-   "views": 148,
+   "views": 149,
    "reads": 3,
-   "sessions": 152,
+   "sessions": 153,
    "avg_dwell_sec": 11
   },
   {
