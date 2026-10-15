@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-15T11:12:54.366Z",
+ "generated": "2026-10-15T11:22:59.825Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 10,
+  "readersNow": 10,
+  "todayReads": 11,
   "avgTimeSec": 101,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 4153,
-  "reads": 316,
-  "completes": 18,
-  "plays": 10,
-  "sessions": 4056
+  "views": 4162,
+  "reads": 317,
+  "completes": 19,
+  "plays": 11,
+  "sessions": 4065
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3778,
+   "views": 3786,
    "reads": 158,
-   "sessions": 3803
+   "sessions": 3811
   },
   {
    "channel": "organic",
-   "views": 278,
-   "reads": 124,
-   "sessions": 269
+   "views": 279,
+   "reads": 125,
+   "sessions": 270
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3778,
+   "views": 3786,
    "reads": 158,
    "completes": 17,
-   "sessions": 3803,
+   "sessions": 3811,
    "read_rate": 0.042,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
@@ -84,12 +84,12 @@
   },
   {
    "channel": "organic",
-   "views": 278,
-   "reads": 124,
-   "completes": 1,
-   "sessions": 269,
-   "read_rate": 0.446,
-   "complete_rate": 0.004,
+   "views": 279,
+   "reads": 125,
+   "completes": 2,
+   "sessions": 270,
+   "read_rate": 0.448,
+   "complete_rate": 0.007,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
   },
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3615,
-   "reads": 277,
-   "sessions": 3528
+   "views": 3622,
+   "reads": 278,
+   "sessions": 3535
   },
   {
    "device": "mobile",
-   "views": 537,
+   "views": 539,
    "reads": 38,
-   "sessions": 527
+   "sessions": 529
   },
   {
    "device": "tablet",
@@ -536,6 +536,16 @@
    "plays": 1
   },
   {
+   "slug": "tool-result-too-large-for-context-window",
+   "title": "How to Handle a Tool Result Too Large for the Context Window: Truncate, Paginate, or Hand Back a Handle",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 3,
+   "reads": 1,
+   "plays": 1
+  },
+  {
    "slug": "vibe-coding-vs-spec-driven-development-founder-decision",
    "title": "Vibe Coding vs Spec-Driven Development: The Solo Founder's 2026 Decision",
    "section": "wire",
@@ -554,16 +564,6 @@
    "views": 1,
    "reads": 0,
    "plays": 1
-  },
-  {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 48,
-   "reads": 27,
-   "plays": 0
   }
  ],
  "topViews": [
@@ -788,8 +788,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 83,
-   "sessions": 43
+   "hits": 87,
+   "sessions": 44
   },
   {
    "ref": "https://cn.bing.com/",
