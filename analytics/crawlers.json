@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-16T01:56:53.704Z",
+ "generated": "2026-10-16T02:07:00.223Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15353,
+ "verifiedAiHits": 15364,
  "logsScanned": 30,
  "windowStart": "2026-10-02",
  "windowEnd": "2026-10-16",
- "totalHits": 129023,
- "aiHits": 107022,
+ "totalHits": 129113,
+ "aiHits": 107096,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29682,
+   "hits": 29733,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -47,10 +47,10 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 18034,
+   "hits": 18035,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
-   "lastSeen": "2026-10-15",
+   "lastSeen": "2026-10-16",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15180,
+   "hits": 15185,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14427,
+   "hits": 14431,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6848,
-   "verifiedHits": 6834,
+   "hits": 6849,
+   "verifiedHits": 6835,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5198,
-   "verifiedHits": 5152,
+   "hits": 5204,
+   "verifiedHits": 5158,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
    "topPaths": [
@@ -255,12 +255,12 @@
      "hits": 115
     },
     {
-     "path": "/posts/open-source-llm-for-coding-september-2026.html",
+     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
      "hits": 89
     },
     {
-     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 88
+     "path": "/posts/open-source-llm-for-coding-september-2026.html",
+     "hits": 89
     },
     {
      "path": "/wire.html",
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4868,
-   "verifiedHits": 4758,
+   "hits": 4871,
+   "verifiedHits": 4761,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4124,
+   "hits": 4128,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -344,7 +344,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3920,
+   "hits": 3928,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3175,
-   "verifiedHits": 3090,
+   "hits": 3177,
+   "verifiedHits": 3092,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1648,
+   "hits": 1650,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -509,14 +509,14 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 578,
-   "verifiedHits": 506,
+   "hits": 580,
+   "verifiedHits": 508,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
    "topPaths": [
     {
      "path": "/",
-     "hits": 24
+     "hits": 25
     },
     {
      "path": "/dashboard",
@@ -542,7 +542,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 392,
+   "hits": 393,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
