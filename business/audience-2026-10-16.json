@@ -6,7 +6,6 @@
   "pageViewEvents": 8095,
   "readEvents": 686,
   "sessionIds": 7848,
-  "confirmedSubscriptions": 14,
   "articles": 1957,
   "directPageViewEvents": 7164,
   "organicPageViewEvents": 466,
@@ -14,9 +13,11 @@
   "limitations": [
     "First-party client events are not independently audited human reach. Automated traffic, operator visits and repeat visitors may be included.",
     "Session IDs are not unique people. Read events are client engagement signals, not verified engaged readers or billable impressions.",
-    "Confirmed subscriptions are database records, not a guarantee of active readers, inbox delivery or buyer demographics.",
+    "The 14 subscription records are lifetime single-opt-in database rows and include a test-source record. The application automatically marks records confirmed; no double-opt-in or mailbox-owner verification is performed. They do not establish verified humans, active readers, delivery or buyer demographics.",
     "Most page-view events have direct or unknown acquisition. We do not attribute that volume to AI recommendations.",
     "Crawler fetches are machine activity and are excluded from these audience figures; they do not prove citations, distribution or sales.",
     "No independently verified demographic, sponsor conversion or return-on-investment study is available."
-  ]
+  ],
+  "subscriptionRecords": 14,
+  "subscriptionRecordDefinition": "Lifetime single-opt-in records, automatically marked confirmed by the application; includes a test-source record. Not double-opt-in or verified mailbox owners, people, active readers or new subscriptions in the 30-day event window."
 }

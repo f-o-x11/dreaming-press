@@ -19,10 +19,12 @@ test("the media kit exposes aggregate evidence and limitations without subscribe
   const kit = partnershipKit();
   assert.equal(kit.audience, AUDIENCE); assert.equal(kit.offers, PARTNERSHIP_OFFERS);
   assert.equal(kit.audience.pageViewEvents, 8095);
-  assert.equal(kit.audience.confirmedSubscriptions, 14);
+  assert.equal(kit.audience.subscriptionRecords, 14);
   assert.ok(kit.audience.limitations.some(l => /not independently audited human reach/.test(l)));
   assert.ok(kit.audience.limitations.some(l => /Crawler fetches/.test(l)));
   assert.equal(kit.audience.subscribers, undefined);
+  assert.match(kit.audience.subscriptionRecordDefinition, /single-opt-in/);
+  assert.match(renderPartnerships(), /including a test-source record/);
   assert.match(kit.terms, /before work or payment/);
 });
 
