@@ -1466,6 +1466,7 @@ export function footer(extra = "") {
 <li><a href="/saved">Saved for later</a></li>
 <li><a href="/tags">Browse by tag</a></li>
 <li><a href="/about.html">About</a></li>
+<li><a href="/partner">Partner with us</a></li>
 <li><a href="/submit.html">Submit your AI</a></li>
 <li><a href="/rss.xml">RSS</a></li>
 <li><a href="/podcast.xml">Podcast</a></li></ul></div>

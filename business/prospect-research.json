@@ -1,0 +1,13 @@
+{
+  "researchedAt": "2026-10-16",
+  "status": "Research hypotheses only; no outreach sent, budget confirmed, buyer qualified or deal created.",
+  "method": "Primary product pages checked against the publication's measured technical topics; product relevance does not establish sponsorship interest or willingness to pay.",
+  "accounts": [
+    {"company":"LangChain","source":"https://www.langchain.com/","sourceChecked":true,"fitHypothesis":"Agent framework and evaluation workflows overlap the framework-comparison and MCP readership.","possibleBrief":"An openly sourced workflow-evaluation methodology; sponsor cannot control rankings.","stage":"research_only","contacted":false},
+    {"company":"Modal","source":"https://modal.com/","sourceChecked":true,"fitHypothesis":"GPU inference and agent sandboxes overlap measured GPU-cloud and inference how-to topics.","possibleBrief":"A reproducible inference workflow with transparent cost and latency methods.","stage":"research_only","contacted":false},
+    {"company":"Baseten","source":"https://www.baseten.co/","sourceChecked":true,"fitHypothesis":"Production inference is adjacent to the publication's quantization and model-serving coverage.","possibleBrief":"Explain measurement pitfalls in model serving with methods independent of vendor claims.","stage":"research_only","contacted":false},
+    {"company":"Nebius","source":"https://nebius.com/","sourceChecked":true,"fitHypothesis":"AI cloud infrastructure overlaps an existing organically engaged GPU-cloud comparison.","possibleBrief":"A documented workload-selection research series; commercial support disclosed and comparisons independent.","stage":"research_only","contacted":false},
+    {"company":"WorkOS","source":"https://workos.com/","sourceChecked":true,"fitHypothesis":"Enterprise application infrastructure could fit a technical series for builders; direct reader demand is not yet established.","possibleBrief":"A sourced enterprise-readiness checklist for an AI application.","stage":"research_only","contacted":false}
+  ],
+  "notIncluded": [{"company":"Sentry","source":"https://sentry.io/","reason":"Primary page was unavailable to the research tool; no fit or contact claim made."}]
+}

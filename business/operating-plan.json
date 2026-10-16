@@ -1,0 +1,32 @@
+{
+  "authorizationTask": "tsk_424c7564481b148dc822e1c1",
+  "updatedAt": "2026-10-16",
+  "owner": "Gil Allouche",
+  "operator": "Cooper, AI assistant under delegated authority",
+  "mission": "Build a trusted, useful AI publication capable of selling $100,000 sponsorships and $200,000 sponsored guest features.",
+  "targetsAreNotSales": true,
+  "revenueStatus": "No booked sponsorship or guest-feature revenue verified in this audit. Do not represent this as an audit of all historical payments.",
+  "audienceBaseline": "business/audience-2026-10-16.json",
+  "constraint": "Audience evidence does not yet substantiate six-figure media value. Validate production value, buyer demand and reader quality before promising commercial outcomes.",
+  "stages": [
+    {"id":"commercial-foundation","status":"built_pending_live_verification","output":["/partner","/partner/media-kit.json","Site-wide partnership footer link","Transparent sponsorship and paid-feature policy"],"acceptance":"Public page and kit load; prices are proposed budgets; no invented reach; contact draft works; existing articles remain intact."},
+    {"id":"qualified-demand","status":"research_prepared","target":"Five substantive buyer conversations about useful research and evidence; this is a target, not a forecast.","measurement":"Count unique, relevant inbound inquiries with company, role, objective, timing and budget. Count replies separately from research targets. Do not invent pipeline dollars or assign a sale probability before qualification."},
+    {"id":"reader-quality","status":"next","experiment":"Inspect top organically engaged comparison/how-to pages. Choose one with verified current sources, improve its decision value and contextual newsletter capture, then compare organic read and return signals over seven days.","measurement":"Track channel-separated views, read events, next-page events and confirmed subscriptions. Exclude known operator QA where identifiable; retain bot/identity limitations. No traffic buying or fabricated engagement."},
+    {"id":"proposal","status":"awaiting_qualified_buyer","output":"A specific scope, timetable, production cost estimate, measurement method and transparent sponsor treatment for a real qualified buyer.","acceptance":"Evidence-backed delivery capacity, explicit counterparty, negotiated price and operator approval of binding terms; no guaranteed ROI or pay-to-rank offer."},
+    {"id":"delivery-and-renewal","status":"not_started","measurement":"Signed scope versus delivered work, collected cash versus invoiced amounts, aggregate campaign signals versus outcome claims, buyer renewal intent. Never report target price as booked revenue."}
+  ],
+  "continuation": {
+    "cadence":"Resume one useful bounded work item at each existing hourly directive-monitor run; reconcile live state first. No duplicate automation or repeated deploy.",
+    "reporting":"One consolidated email per reporting occasion, no more than 100 words, mostly bullet points. No separate acknowledgment, unchanged-status email or speculative revenue claim. First report only after verified launch.",
+    "nextRun":"Verify the partnership surface and check authorized mailboxes for relevant inbound replies; record commercial inquiry stage. Then execute the reader-quality experiment on one existing evidence-backed comparison or guide, preserving editorial independence.",
+    "sourceOfTruth":"cooper-monitor-state.json task work journal plus source-controlled business evidence; store private lead data outside public repository."
+  },
+  "boundaries": [
+    "No new paid generation, paid ads, subscriptions, outreach tools or infrastructure spending is authorized by a concrete budget in this directive.",
+    "The mailbox monitor requires specific recipient authority for additional recipients. Prospect research is not authorization to send unsolicited outreach.",
+    "Retain private credentials, source hashes, scoped backups and duplicate-send protection. No credential or permission changes for growth.",
+    "No sale of independent rankings, undisclosed sponsored links, bought citations, fabricated testimonials, bot traffic or guaranteed audience.",
+    "Ordinary guest contributions remain unpaid under existing policy; the proposed paid customer feature is a separate disclosed commercial product.",
+    "Separate written agreements and payments are not accepted or executed automatically."
+  ]
+}

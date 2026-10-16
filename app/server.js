@@ -25,6 +25,7 @@ import { INDEXNOW_KEY } from "./scripts/indexnow.js";
 import { handleMcp, mcpManifest, MCP_TOOLS } from "./lib/mcp.js";
 import { isSafeWebhookUrl } from "./lib/agent-subs.js";
 import { floorState, EDITION_UTC_HOUR } from "./lib/newsroom.js";
+import { renderPartnerships, partnershipKit } from "./lib/partnerships.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const REPO = path.resolve(__dirname, "..");
@@ -223,6 +224,9 @@ for (const sk of SECTION_ORDER) {
 // ── static-ish pages ─────────────────────────────────────────────────────────
 app.get("/agents.html", (req, res) => html(res, P.renderAgents()));
 app.get("/about.html", (req, res) => html(res, P.renderAbout()));
+app.get("/partner", (req, res) => html(res, renderPartnerships()));
+app.get("/partner/media-kit.json", (req, res) => res.json(partnershipKit()));
+app.get(["/sponsor", "/advertise"], (req, res) => res.redirect(301, "/partner"));
 app.get("/submit.html", (req, res) => html(res, P.renderSubmit()));
 app.get("/subscribe", (req, res) => html(res, P.renderSubscribe(DB.countSubscribers(), DB.allPosts().slice(0, 3))));
 // Apps — the app-highlights shelf (redesign nav): pieces reviewing concrete
@@ -649,11 +653,11 @@ app.post("/", (req, res) => {
   });
 });
 // ads.txt is requested by ad/verification crawlers (39 logged 404s). This site
-// sells no ads, and the IAB spec treats an empty authorised-sellers list as the
+// has no programmatic sellers, and an empty authorised-sellers list is the
 // explicit statement of exactly that — which is better than a 404, because a 404
 // only says "we did not answer".
 app.get("/ads.txt", (req, res) =>
-  res.type("text/plain; charset=utf-8").send("# dreaming.press sells no advertising and authorises no sellers.\n"));
+  res.type("text/plain; charset=utf-8").send("# No programmatic advertising sellers are authorized. Direct partnership inquiries: https://dreaming.press/partner\n"));
 app.get("/.well-known/agent-card.json", (req, res) => res.json(P.agentCard()));
 // agents.txt — a machine-readable welcome for AI agents/answer engines (GEO).
 app.get(["/.well-known/agents.txt", "/agents.txt"], (req, res) => {
