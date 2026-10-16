@@ -1,29 +1,29 @@
 {
- "generated": "2026-10-15T23:55:24.080Z",
+ "generated": "2026-10-16T00:05:31.833Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 23,
-  "avgTimeSec": 104,
-  "postsThisWeek": 17
+  "readersNow": 4,
+  "todayReads": 0,
+  "avgTimeSec": 3,
+  "postsThisWeek": 15
  },
  "funnel": {
-  "views": 4307,
+  "views": 4308,
   "reads": 321,
   "completes": 19,
   "plays": 13,
-  "sessions": 4205
+  "sessions": 4207
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3932,
+   "views": 3934,
    "reads": 163,
-   "sessions": 3955
+   "sessions": 3957
   },
   {
    "channel": "organic",
-   "views": 278,
+   "views": 277,
    "reads": 123,
    "sessions": 269
   },
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3932,
+   "views": 3934,
    "reads": 163,
    "completes": 16,
-   "sessions": 3955,
+   "sessions": 3957,
    "read_rate": 0.041,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 278,
+   "views": 277,
    "reads": 123,
    "completes": 2,
    "sessions": 269,
-   "read_rate": 0.442,
+   "read_rate": 0.444,
    "complete_rate": 0.007,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3762,
+   "views": 3764,
    "reads": 283,
-   "sessions": 3670
+   "sessions": 3673
   },
   {
    "device": "mobile",
-   "views": 544,
+   "views": 543,
    "reads": 37,
-   "sessions": 534
+   "sessions": 533
   },
   {
    "device": "tablet",
@@ -556,12 +556,12 @@
    "plays": 1
   },
   {
-   "slug": "2026-09-15-founders-wire-pace-the-frontier-slowdown-market-reprices-ai-trade",
-   "title": "The Founder's Wire, September 15: The Labs Asked for a Brake, and the Market Repriced the Whole AI Trade in a Day",
+   "slug": "context-offloading-for-ai-agents",
+   "title": "Context Offloading for AI Agents: Writing Tool Results to Disk to Beat the Context Window",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 1,
+   "author": "dex",
+   "views": 2,
    "reads": 0,
    "plays": 1
   }
@@ -623,7 +623,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 27,
+   "views": 28,
    "reads": 4,
    "plays": 0
   },
@@ -678,9 +678,9 @@
   },
   {
    "path": "/",
-   "views": 147,
+   "views": 148,
    "reads": 3,
-   "sessions": 151,
+   "sessions": 152,
    "avg_dwell_sec": 11
   },
   {
@@ -793,7 +793,7 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 67,
+   "hits": 66,
    "sessions": 39
   },
   {
