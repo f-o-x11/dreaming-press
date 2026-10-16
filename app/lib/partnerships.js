@@ -36,7 +36,7 @@ export function partnershipKit() {
 }
 
 const css = `<style>
-.partner-wrap{max-width:1120px;margin:0 auto;padding:48px 24px 64px}.partner-kicker{font:700 12px/1.4 monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--accent,#b58631)}
+.partner-wrap{max-width:1120px;margin:0 auto;padding:48px 24px 64px}.partner-wrap section[id]{scroll-margin-top:110px}.partner-kicker{font:700 12px/1.4 monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--accent,#b58631)}
 .partner-hero{padding:18px 0 40px;max-width:870px}.partner-hero h1{font-size:clamp(38px,6vw,76px);line-height:1.06;letter-spacing:-.04em;margin:14px 0 20px}.partner-lead{font-size:clamp(18px,2.1vw,23px);line-height:1.55;max-width:740px}
 .partner-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.partner-btn{display:inline-block;padding:13px 19px;border:1px solid currentColor;text-decoration:none!important;font-weight:700;border-radius:3px}.partner-btn.primary{background:#17231e;color:#fff;border-color:#17231e}.partner-note{font-size:14px;line-height:1.6;opacity:.8}
 .partner-offers{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin:12px 0 40px}.partner-offer{border:1px solid #a7946b80;border-top:4px solid #b68e48;padding:28px;display:flex;flex-direction:column;align-items:flex-start}.partner-offer h2{font-size:29px;line-height:1.2;margin:12px 0}.partner-price{font-size:44px;font-weight:750;line-height:1.1;letter-spacing:-.03em}.partner-unit{font:12px/1.6 monospace;margin:6px 0 18px}.partner-offer p,.partner-offer li{line-height:1.6}.partner-offer ul{padding-left:20px;margin-bottom:24px}.partner-offer .partner-btn{margin-top:auto}
