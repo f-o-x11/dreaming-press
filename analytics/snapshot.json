@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-16T02:07:00.533Z",
+ "generated": "2026-10-16T02:57:36.599Z",
  "windowDays": 14,
  "site": {
   "readersNow": 5,
-  "todayReads": 4,
+  "todayReads": 5,
   "avgTimeSec": 64,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 4325,
+  "views": 4330,
   "reads": 321,
   "completes": 19,
   "plays": 13,
-  "sessions": 4221
+  "sessions": 4225
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3957,
-   "reads": 167,
-   "sessions": 3974
+   "views": 3961,
+   "reads": 166,
+   "sessions": 3977
   },
   {
    "channel": "organic",
@@ -58,6 +58,12 @@
    "sessions": 2
   },
   {
+   "channel": "campaign:owner-qa",
+   "views": 1,
+   "reads": 1,
+   "sessions": 1
+  },
+  {
    "channel": "campaign:producthunt",
    "views": 1,
    "reads": 0,
@@ -73,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3957,
-   "reads": 167,
+   "views": 3961,
+   "reads": 166,
    "completes": 16,
-   "sessions": 3974,
+   "sessions": 3977,
    "read_rate": 0.042,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -155,6 +161,17 @@
    "completes": 0,
    "sessions": 1,
    "read_rate": 0,
+   "complete_rate": 0,
+   "pages_per_session": 1,
+   "median_dwell_sec": null
+  },
+  {
+   "channel": "campaign:owner-qa",
+   "views": 1,
+   "reads": 1,
+   "completes": 0,
+   "sessions": 1,
+   "read_rate": 1,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -295,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3775,
+   "views": 3781,
    "reads": 283,
-   "sessions": 3681
+   "sessions": 3686
   },
   {
    "device": "mobile",
-   "views": 549,
+   "views": 548,
    "reads": 37,
-   "sessions": 539
+   "sessions": 538
   },
   {
    "device": "tablet",
@@ -319,8 +336,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 54,
-   "reads": 28,
+   "views": 55,
+   "reads": 29,
    "plays": 0
   },
   {
@@ -583,8 +600,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 54,
-   "reads": 28,
+   "views": 55,
+   "reads": 29,
    "plays": 0
   },
   {
@@ -678,9 +695,9 @@
   },
   {
    "path": "/",
-   "views": 152,
+   "views": 153,
    "reads": 3,
-   "sessions": 156,
+   "sessions": 157,
    "avg_dwell_sec": 11
   },
   {
