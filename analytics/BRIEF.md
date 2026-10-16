@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-16T23:46Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-16T23:56Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -107,7 +107,7 @@ sample size dwarfs the engaged-read counts below.
 - /wire.html  — 59 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (5607 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×125 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×94 · /posts/open-source-llm-for-coding-september-2026.html ×93
+- OAI-SearchBot (5610 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×125 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×94 · /posts/open-source-llm-for-coding-september-2026.html ×93
 - PerplexityBot (5437 verified): / ×27 · /subscribe ×22 · /newsroom ×21
 - ChatGPT-User (3351 verified): / ×905 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×133 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×132
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -146,7 +146,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16752 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5607, Perplexity 5437, ChatGPT (user browsing) 3351, GPTBot (OpenAI) 2357).
+The real answer engines are crawling us — IP-verified: 16755 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5610, Perplexity 5437, ChatGPT (user browsing) 3351, GPTBot (OpenAI) 2357).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 432 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 332 crawler fetches
