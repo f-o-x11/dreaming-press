@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-16T00:15:38.683Z",
+ "generated": "2026-10-16T00:25:46.450Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15280,
+ "verifiedAiHits": 15288,
  "logsScanned": 30,
  "windowStart": "2026-10-02",
  "windowEnd": "2026-10-16",
- "totalHits": 128309,
- "aiHits": 106513,
+ "totalHits": 128351,
+ "aiHits": 106550,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29461,
+   "hits": 29469,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15106,
+   "hits": 15114,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14309,
+   "hits": 14317,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6812,
-   "verifiedHits": 6798,
+   "hits": 6813,
+   "verifiedHits": 6799,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
    "topPaths": [
@@ -212,14 +212,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 6062,
+   "hits": 6064,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 45
+     "hits": 46
     },
     {
      "path": "/tags/reportive",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5160,
-   "verifiedHits": 5114,
+   "hits": 5165,
+   "verifiedHits": 5119,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
    "topPaths": [
@@ -278,10 +278,10 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4848,
-   "verifiedHits": 4738,
+   "hits": 4850,
+   "verifiedHits": 4740,
    "firstSeen": "2026-10-02",
-   "lastSeen": "2026-10-15",
+   "lastSeen": "2026-10-16",
    "topPaths": [
     {
      "path": "/",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4094,
+   "hits": 4095,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3160,
-   "verifiedHits": 3075,
+   "hits": 3161,
+   "verifiedHits": 3076,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
    "topPaths": [
@@ -476,7 +476,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 973,
+   "hits": 978,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -484,6 +484,10 @@
     {
      "path": "/build",
      "hits": 17
+    },
+    {
+     "path": "/posts/portable-agent-memory-export-import-no-lock-in.html",
+     "hits": 2
     },
     {
      "path": "/posts/mcp-2026-07-28-authorization-changes.html",
@@ -496,10 +500,6 @@
     {
      "path": "/posts/how-to-evaluate-a-multi-agent-system.html",
      "hits": 2
-    },
-    {
-     "path": "/posts/mcp-2026-stateless-spec-changes.html",
-     "hits": 2
     }
    ],
    "verifiable": false
@@ -509,10 +509,10 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 577,
-   "verifiedHits": 505,
+   "hits": 578,
+   "verifiedHits": 506,
    "firstSeen": "2026-10-02",
-   "lastSeen": "2026-10-15",
+   "lastSeen": "2026-10-16",
    "topPaths": [
     {
      "path": "/",
