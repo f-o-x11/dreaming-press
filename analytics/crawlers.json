@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-16T19:52:55.930Z",
+ "generated": "2026-10-16T20:03:00.110Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16411,
+ "verifiedAiHits": 16424,
  "logsScanned": 30,
  "windowStart": "2026-10-02",
  "windowEnd": "2026-10-16",
- "totalHits": 135911,
- "aiHits": 112585,
+ "totalHits": 135942,
+ "aiHits": 112611,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31577,
+   "hits": 31583,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15987,
+   "hits": 15994,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -95,7 +95,7 @@
     },
     {
      "path": "/tags/opinionated",
-     "hits": 24
+     "hits": 25
     },
     {
      "path": "/stack.html",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7178,
-   "verifiedHits": 7152,
+   "hits": 7180,
+   "verifiedHits": 7154,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 6582,
+   "hits": 6585,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5580,
-   "verifiedHits": 5525,
+   "hits": 5587,
+   "verifiedHits": 5532,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 5332,
-   "verifiedHits": 5215,
+   "hits": 5335,
+   "verifiedHits": 5218,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
    "topPaths": [
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3407,
-   "verifiedHits": 3315,
+   "hits": 3410,
+   "verifiedHits": 3318,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
    "topPaths": [
     {
      "path": "/",
-     "hits": 894
+     "hits": 895
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
