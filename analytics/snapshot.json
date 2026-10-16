@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-16T21:14:00.764Z",
+ "generated": "2026-10-16T21:24:11.287Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 35,
-  "avgTimeSec": 67,
+  "readersNow": 3,
+  "todayReads": 36,
+  "avgTimeSec": 66,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 4431,
-  "reads": 335,
+  "views": 4433,
+  "reads": 336,
   "completes": 19,
   "plays": 13,
-  "sessions": 4316
+  "sessions": 4318
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4057,
+   "views": 4058,
    "reads": 182,
-   "sessions": 4060
+   "sessions": 4061
   },
   {
    "channel": "organic",
-   "views": 278,
-   "reads": 112,
-   "sessions": 268
+   "views": 279,
+   "reads": 113,
+   "sessions": 269
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4057,
+   "views": 4058,
    "reads": 182,
    "completes": 16,
-   "sessions": 4060,
+   "sessions": 4061,
    "read_rate": 0.045,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 278,
-   "reads": 112,
+   "views": 279,
+   "reads": 113,
    "completes": 2,
-   "sessions": 268,
-   "read_rate": 0.403,
+   "sessions": 269,
+   "read_rate": 0.405,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -312,14 +312,14 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3875,
+   "views": 3877,
    "reads": 297,
-   "sessions": 3775
+   "sessions": 3777
   },
   {
    "device": "mobile",
    "views": 555,
-   "reads": 37,
+   "reads": 38,
    "sessions": 540
   },
   {
@@ -376,8 +376,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 20,
-   "reads": 6,
+   "views": 21,
+   "reads": 7,
    "plays": 0
   },
   {
@@ -446,7 +446,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 29,
+   "views": 30,
    "reads": 5,
    "plays": 0
   },
@@ -625,6 +625,16 @@
    "plays": 0
   },
   {
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 30,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
    "title": "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix",
    "section": "stack",
@@ -632,16 +642,6 @@
    "author": "dex",
    "views": 30,
    "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
-   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 29,
-   "reads": 5,
    "plays": 0
   },
   {
@@ -716,16 +716,16 @@
   },
   {
    "path": "/best/:cat",
-   "views": 41,
+   "views": 40,
    "reads": 0,
-   "sessions": 41,
+   "sessions": 40,
    "avg_dwell_sec": null
   },
   {
    "path": "/alternatives/:tool",
-   "views": 24,
+   "views": 25,
    "reads": 0,
-   "sessions": 24,
+   "sessions": 25,
    "avg_dwell_sec": null
   },
   {
@@ -815,8 +815,8 @@
   },
   {
    "ref": "https://search.brave.com/",
-   "hits": 25,
-   "sessions": 12
+   "hits": 27,
+   "sessions": 13
   },
   {
    "ref": "https://chatgpt.com/",
