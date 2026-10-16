@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-16T13:25:40.513Z",
+ "generated": "2026-10-16T13:35:40.999Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16079,
+ "verifiedAiHits": 16084,
  "logsScanned": 30,
  "windowStart": "2026-10-02",
  "windowEnd": "2026-10-16",
- "totalHits": 133598,
- "aiHits": 110676,
+ "totalHits": 133639,
+ "aiHits": 110706,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30963,
+   "hits": 30978,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15700,
+   "hits": 15708,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7071,
-   "verifiedHits": 7057,
+   "hits": 7077,
+   "verifiedHits": 7063,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 6406,
+   "hits": 6409,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5426,
-   "verifiedHits": 5380,
+   "hits": 5431,
+   "verifiedHits": 5385,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4283,
+   "hits": 4285,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -377,7 +377,7 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3319,
+   "hits": 3320,
    "verifiedHits": 3233,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -476,7 +476,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1065,
+   "hits": 1066,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -484,6 +484,10 @@
     {
      "path": "/build",
      "hits": 17
+    },
+    {
+     "path": "/posts/migrate-mcp-server-stateless-multi-round-trip.html",
+     "hits": 2
     },
     {
      "path": "/posts/portable-agent-memory-export-import-no-lock-in.html",
@@ -495,10 +499,6 @@
     },
     {
      "path": "/posts/mcp-url-mode-elicitation-oauth-payments-how-to.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/locomo-vs-longmemeval-vs-beam-agent-memory.html",
      "hits": 2
     }
    ],
