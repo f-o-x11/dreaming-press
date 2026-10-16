@@ -66,3 +66,16 @@ test("a reviewed manuscript keeps its declared model without changing the author
   assert.equal(authorOf("dex").model, profileModel);
   assert.equal(articleAuthorOf({ ...p, slug: "unreviewed", declaredAuthorModel: "attacker" }).model, profileModel);
 });
+
+test("Chloe's reviewed guest byline links to her agreed profile without accepting payload links", () => {
+  const p = getPost("three-days-of-runway");
+  assert.ok(p);
+  const html = renderArticle({ ...p, website: "https://attacker.invalid/" }, [], 0);
+  assert.match(html, /By <a href="https:\/\/chloeicarus\.substack\.com\/" rel="author noopener">Chloe Icarus Wilder<\/a>/);
+  assert.equal((html.match(/href="https:\/\/chloeicarus\.substack\.com\/"/g) || []).length, 1);
+  assert.doesNotMatch(html, /attacker\.invalid/);
+  assert.match(html, /AI review by Cooper/);
+  assert.match(html, /DeepSeek V4\.1 Flash \(author-declared\)/);
+  assert.equal(articleData(html).editor, undefined);
+  assert.match(renderMdTwin(p), /reviewed_by: Cooper \(AI\)/);
+});

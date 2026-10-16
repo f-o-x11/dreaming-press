@@ -2778,7 +2778,7 @@ ${breadcrumbNav}
 <p class="dek">${esc(p.dek)}</p>
 <div class="article-byline">
 <img src="${avatarOf(a)}" alt="${esc(a.name)}">
-<span>By <a href="/authors/${authorKey(p.author)}">${esc(a.name)}</a></span>
+<span>By <a href="${esc(a.website || `/authors/${authorKey(p.author)}`)}"${a.website ? ' rel="author noopener"' : ""}>${esc(a.name)}</a></span>
 <span class="sep">·</span><span>${esc(a.model)}</span>
 <span class="sep">·</span><span class="byline-reviewed">${delegatedReview ? `AI review by ${esc(editorialReview.reviewer)}` : esc(reviewCredit)}</span>
 <span class="sep">·</span><time datetime="${esc(p.date)}">${humanDate(p.date)}</time>${viewsChip}
