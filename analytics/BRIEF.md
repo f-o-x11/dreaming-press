@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-16T08:01Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-16T08:11Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 4356 views → 325 engaged reads → 19 completes · 4249 sessions.
-- Channels: direct 171r/3980v · organic 117r/280v · campaign:chatgpt.com 16r/30v · ai 12r/33v · referral 5r/25v · social 2r/4v · campaign:copilot.com 1r/2v · campaign:owner-qa 1r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 4355 views → 325 engaged reads → 19 completes · 4248 sessions.
+- Channels: direct 171r/3979v · organic 117r/280v · campaign:chatgpt.com 16r/30v · ai 12r/33v · referral 5r/25v · social 2r/4v · campaign:copilot.com 1r/2v · campaign:owner-qa 1r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 19r/35v · Doubao 4r/5v · Claude 4r/4v · Copilot 1r/2v · Perplexity 1r/1v · Kimi 0r/17v · Poe 0r/1v.
 - Referrers: google.com, duckduckgo.com, bing.com, cn.bing.com, search.brave.com, chatgpt.com, nav-cmp, claude.ai, doubao.com, brand.
 - Engaged-read winners by section: wire=5, stack=10.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3980 views · read 4.3% · complete 0.4% · 1 pages/session · median 8s
+- direct: 3979 views · read 4.3% · complete 0.4% · 1 pages/session · median 8s
 - organic: 280 views · read 41.8% · complete 0.7% · 1.03 pages/session · median 3s
 - ai: 33 views · read 36.4% · complete 0.0% · 0.94 pages/session · median 87s
 - campaign:chatgpt.com: 30 views · read 53.3% · complete 0.0% · 1.15 pages/session · median ?s
@@ -59,7 +59,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 481 views, 10 reads, 481 sessions, avg 90s
+- /stack/:tool — 480 views, 10 reads, 480 sessions, avg 90s
 - / — 153 views, 3 reads, 157 sessions, avg 11s
 - /compare/:pair — 101 views, 0 reads, 101 sessions, avg 11s
 - /best/:cat — 42 views, 0 reads, 42 sessions
@@ -95,7 +95,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 887 retrieval fetches
+- /  — 888 retrieval fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 125 retrieval fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 120 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 117 retrieval fetches
@@ -107,9 +107,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 56 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (5261 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×117 · /posts/open-source-llm-for-coding-september-2026.html ×91 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×90
+- OAI-SearchBot (5266 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×117 · /posts/open-source-llm-for-coding-september-2026.html ×91 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×90
 - PerplexityBot (4870 verified): / ×26 · /subscribe ×22 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×21
-- ChatGPT-User (3165 verified): / ×861 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×125 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×120
+- ChatGPT-User (3166 verified): / ×862 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×125 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×120
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -146,14 +146,14 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 15651 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5261, Perplexity 4870, ChatGPT (user browsing) 3165, GPTBot (OpenAI) 2355).
+The real answer engines are crawling us — IP-verified: 15657 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5266, Perplexity 4870, ChatGPT (user browsing) 3166, GPTBot (OpenAI) 2355).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 416 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 313 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 232 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 169 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 132 crawler fetches
-- /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 132 crawler fetches
+- /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 126 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 117 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 93 crawler fetches
 - /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 80 crawler fetches
