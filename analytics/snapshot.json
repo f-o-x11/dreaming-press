@@ -1,30 +1,30 @@
 {
- "generated": "2026-10-16T20:33:31.645Z",
+ "generated": "2026-10-16T20:43:39.798Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 33,
-  "avgTimeSec": 68,
+  "readersNow": 4,
+  "todayReads": 35,
+  "avgTimeSec": 67,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 4429,
-  "reads": 334,
+  "views": 4433,
+  "reads": 335,
   "completes": 19,
   "plays": 13,
-  "sessions": 4316
+  "sessions": 4318
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4055,
-   "reads": 180,
-   "sessions": 4060
+   "views": 4059,
+   "reads": 182,
+   "sessions": 4062
   },
   {
    "channel": "organic",
    "views": 278,
-   "reads": 113,
+   "reads": 112,
    "sessions": 268
   },
   {
@@ -73,17 +73,17 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 24
+   "sessions": 25
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4055,
-   "reads": 180,
+   "views": 4059,
+   "reads": 182,
    "completes": 16,
-   "sessions": 4060,
-   "read_rate": 0.044,
+   "sessions": 4062,
+   "read_rate": 0.045,
    "complete_rate": 0.004,
    "pages_per_session": 1,
    "median_dwell_sec": 8
@@ -91,10 +91,10 @@
   {
    "channel": "organic",
    "views": 278,
-   "reads": 113,
+   "reads": 112,
    "completes": 2,
    "sessions": 268,
-   "read_rate": 0.406,
+   "read_rate": 0.403,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 24,
+   "sessions": 25,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -206,8 +206,8 @@
   },
   {
    "surface": "article-body",
-   "clicks": 4,
-   "sessions": 4
+   "clicks": 6,
+   "sessions": 5
   },
   {
    "surface": "btn-stats",
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3872,
-   "reads": 296,
-   "sessions": 3774
+   "views": 3876,
+   "reads": 297,
+   "sessions": 3776
   },
   {
    "device": "mobile",
@@ -800,13 +800,13 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 89,
-   "sessions": 49
+   "hits": 87,
+   "sessions": 48
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 85,
-   "sessions": 41
+   "hits": 86,
+   "sessions": 42
   },
   {
    "ref": "https://cn.bing.com/",
