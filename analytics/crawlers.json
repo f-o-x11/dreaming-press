@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-16T03:58:29.997Z",
+ "generated": "2026-10-16T08:11:40.012Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15481,
+ "verifiedAiHits": 15657,
  "logsScanned": 30,
  "windowStart": "2026-10-02",
  "windowEnd": "2026-10-16",
- "totalHits": 129820,
- "aiHits": 107653,
+ "totalHits": 131473,
+ "aiHits": 108925,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30001,
+   "hits": 30473,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/build",
-     "hits": 25
+     "hits": 26
     },
     {
      "path": "/tags/reportive",
@@ -47,7 +47,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 18036,
+   "hits": 18041,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15269,
+   "hits": 15463,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14491,
+   "hits": 14855,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -131,11 +131,11 @@
      "hits": 7
     },
     {
-     "path": "/compare/pgvector-vs-chroma",
+     "path": "/posts/2026-08-20-founders-wire-chatgpt-ads-claude-protein-rillet.html",
      "hits": 6
     },
     {
-     "path": "/posts/2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader.html",
+     "path": "/compare/pgvector-vs-chroma",
      "hits": 6
     }
    ],
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 10750,
+   "hits": 10760,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -179,18 +179,18 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6884,
-   "verifiedHits": 6870,
+   "hits": 6979,
+   "verifiedHits": 6965,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 91
+     "hits": 93
     },
     {
      "path": "/build",
-     "hits": 73
+     "hits": 75
     },
     {
      "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
@@ -212,18 +212,18 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 6162,
+   "hits": 6277,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 48
+     "hits": 50
     },
     {
      "path": "/authors/priya",
-     "hits": 6
+     "hits": 7
     },
     {
      "path": "/tags/reportive",
@@ -245,30 +245,30 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5234,
-   "verifiedHits": 5188,
+   "hits": 5312,
+   "verifiedHits": 5266,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
    "topPaths": [
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
-     "hits": 116
-    },
-    {
-     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 89
+     "hits": 117
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 89
+     "hits": 91
+    },
+    {
+     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
+     "hits": 90
     },
     {
      "path": "/wire.html",
-     "hits": 57
+     "hits": 58
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 54
+     "hits": 56
     }
    ],
    "verifiable": true
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4933,
-   "verifiedHits": 4823,
+   "hits": 4980,
+   "verifiedHits": 4870,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
    "topPaths": [
@@ -289,15 +289,15 @@
     },
     {
      "path": "/subscribe",
-     "hits": 20
+     "hits": 22
     },
     {
      "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
-     "hits": 20
+     "hits": 21
     },
     {
      "path": "/newsroom",
-     "hits": 19
+     "hits": 20
     },
     {
      "path": "/apps",
@@ -311,14 +311,14 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4149,
+   "hits": 4206,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 7
+     "hits": 9
     },
     {
      "path": "/posts/2026-09-26-founders-wire-nscale-ema-island-agent-control.html",
@@ -344,7 +344,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3966,
+   "hits": 4080,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -362,11 +362,11 @@
      "hits": 8
     },
     {
-     "path": "/posts/best-llm-for-creative-writing-october-2026.html",
-     "hits": 6
+     "path": "/posts/run-671b-moe-single-gpu-ktransformers-vs-llama-cpp.html",
+     "hits": 7
     },
     {
-     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
+     "path": "/posts/best-llm-for-creative-writing-october-2026.html",
      "hits": 6
     }
    ],
@@ -377,26 +377,26 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3201,
-   "verifiedHits": 3116,
+   "hits": 3251,
+   "verifiedHits": 3166,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
    "topPaths": [
     {
      "path": "/",
-     "hits": 851
+     "hits": 862
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 123
+     "hits": 125
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 114
+     "hits": 120
     },
     {
      "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
-     "hits": 77
+     "hits": 80
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
@@ -410,8 +410,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 2403,
-   "verifiedHits": 2354,
+   "hits": 2404,
+   "verifiedHits": 2355,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
    "topPaths": [
@@ -443,18 +443,18 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1654,
+   "hits": 1675,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
    "topPaths": [
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 182
+     "hits": 184
     },
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
-     "hits": 154
+     "hits": 157
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
@@ -466,7 +466,7 @@
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
-     "hits": 51
+     "hits": 52
     }
    ],
    "verifiable": false
@@ -476,7 +476,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1003,
+   "hits": 1033,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -490,15 +490,15 @@
      "hits": 2
     },
     {
+     "path": "/posts/where-the-leverage-actually-is-open-vs-closed-agents.html",
+     "hits": 2
+    },
+    {
      "path": "/posts/mcp-url-mode-elicitation-oauth-payments-how-to.html",
      "hits": 2
     },
     {
      "path": "/posts/mcp-2026-07-28-authorization-changes.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/qdrant-vs-milvus-vs-weaviate.html",
      "hits": 2
     }
    ],
