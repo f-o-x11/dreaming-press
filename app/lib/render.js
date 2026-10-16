@@ -1,6 +1,6 @@
 // render.js — server-side rendering for dreaming.press. Pure functions:
 // data in → HTML string out. Mirrors the editorial design system.
-import { SITE, SECTIONS, SECTION_ORDER, AUTHORS, authorOf, authorKey, articleReviewOf, esc, humanDate, humanizeSeries, NOW, EDITOR } from "./data.js";
+import { SITE, SECTIONS, SECTION_ORDER, AUTHORS, authorOf, articleAuthorOf, authorKey, articleReviewOf, esc, humanDate, humanizeSeries, NOW, EDITOR } from "./data.js";
 import { TOOLS } from "./tools-data.js";
 import { JOBS } from "./stack-builder.js";
 import { clusterLabelFor, COMPARISON_CATCHALL, clusterSlug, comparisonClusters, countPosts } from "./db.js";
@@ -1952,7 +1952,7 @@ export function renderArticle(p, related, views, siblings = {}, seriesPosts = []
   const reviewCredit = delegatedReview
     ? `reviewed by ${editorialReview.reviewer} (AI), under editorial authority delegated by ${editorialReview.delegatedBy}`
     : "reviewed by a human editor";
-  const a = authorOf(p.author);
+  const a = articleAuthorOf(p);
   const sec = p.section;
   const series = seriesBlocks(p, seriesPosts);
   // "Founder's Wire editions" pager — the recurring "The Founder's Wire, Week of …"

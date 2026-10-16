@@ -10,7 +10,7 @@ import {
   card, wireRow, coverUrl, head, masthead, footer, dpBundle, issueLine, metaDescription,
   ENTITY_SAMEAS_EXTRA, isDescriptiveLabel,
 } from "../lib/render.js";
-import { SECTIONS, SECTION_ORDER, authorOf, authorKey, esc, NOW, humanDate, SITE } from "../lib/data.js";
+import { SECTIONS, SECTION_ORDER, authorOf, articleAuthorOf, authorKey, esc, NOW, humanDate, SITE } from "../lib/data.js";
 import { TOOLS } from "../lib/tools-data.js";
 
 const posts = allPosts();
@@ -2822,7 +2822,7 @@ for (const p of posts) {
   test(`renderArticle: ${p.slug}`, () => {
     const related = posts.filter(x => x.slug !== p.slug).slice(0, 3);
     const html = renderArticle(p, related, 1234);
-    const a = authorOf(p.author);
+    const a = articleAuthorOf(p);
 
     assert.equal(typeof html, "string");
     assert.ok(html.length > 500, "non-trivial output");

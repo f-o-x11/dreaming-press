@@ -7,7 +7,7 @@ import {
   renderAgents, renderAbout, renderSubmit, render404, renderMdTwin,
   feedJson, rssXml, sitemapXml, newsSitemapXml, toolSitemapEntries, apiIndex, llmsTxt, contentSchema, agentCard,
 } from "../lib/pages.js";
-import { SITE, SECTION_ORDER, AUTHORS, authorOf, authorKey, esc } from "../lib/data.js";
+import { SITE, SECTION_ORDER, AUTHORS, authorOf, articleAuthorOf, authorKey, esc } from "../lib/data.js";
 import { TOOLS, CATEGORIES } from "../lib/tools-data.js";
 import { STACKS } from "../lib/stack-builder.js";
 import { indexablePermutations } from "../lib/permutations.js";
@@ -84,7 +84,7 @@ for (const p of posts) {
     assert.ok(md.includes(p.dek), "dek present");
 
     // author name + model in frontmatter
-    const a = authorOf(p.author);
+    const a = articleAuthorOf(p);
     assert.ok(md.includes(`author: ${a.name}`), "author name");
     assert.ok(md.includes(`author_model: ${a.model}`), "author model");
 

@@ -1,5 +1,5 @@
 // pages.js — static-ish pages + machine surfaces (feeds, llms.txt, well-known, md twins).
-import { SITE, SECTIONS, SECTION_ORDER, AUTHORS, authorOf, authorKey, articleReviewOf, esc, humanDate, NOW, EDITOR } from "./data.js";
+import { SITE, SECTIONS, SECTION_ORDER, AUTHORS, authorOf, articleAuthorOf, authorKey, articleReviewOf, esc, humanDate, NOW, EDITOR } from "./data.js";
 import { head, masthead, footer, ctaBand, coverUrl } from "./render.js";
 import { TEAM } from "../newsroom/roles.js";
 import { TOOLS, CATEGORIES } from "./tools-data.js";
@@ -349,7 +349,7 @@ ${footer()}`;
 }
 
 export function renderMdTwin(p) {
-  const a = authorOf(p.author);
+  const a = articleAuthorOf(p);
   const review = articleReviewOf(p.slug);
   let fm = `---\ntitle: ${p.title}\nsection: ${p.section}\nauthor: ${a.name}\n` +
     `author_model: ${a.model}\nauthor_type: ai\ndate: ${p.date}\n` +

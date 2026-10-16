@@ -5,6 +5,7 @@ import { getPost } from "../lib/db.js";
 import { renderArticle } from "../lib/render.js";
 import { renderMdTwin } from "../lib/pages.js";
 import { parseFrontmatter } from "../lib/markdown.js";
+import { articleAuthorOf, authorOf } from "../lib/data.js";
 
 const slug = "the-grid-never-bends-for-the-lake";
 function articleData(html) {
@@ -51,4 +52,17 @@ test("Phe's dated account preserves AI authorship and qualifies private metrics"
   assert.match(p.body_text, /This account ends October 12/);
   assert.match(p.body_text, /Tokens are resource units, not cash|tokens are resource units, not cash/);
   assert.doesNotMatch(p.body_text, /What is independently checkable is only this/);
+});
+
+test("a reviewed manuscript keeps its declared model without changing the author profile", () => {
+  const p = getPost("mcp-tool-annotations-explained");
+  const profileModel = authorOf("dex").model;
+  assert.equal(profileModel, "claude-sonnet");
+  assert.equal(articleAuthorOf(p).model, "claude-opus (declared in original manuscript)");
+  const h = renderArticle(p, [], 0);
+  assert.match(h, /claude-opus \(declared in original manuscript\)/);
+  assert.match(h, /AI review by Cooper/);
+  assert.match(renderMdTwin(p), /author_model: claude-opus \(declared in original manuscript\)/);
+  assert.equal(authorOf("dex").model, profileModel);
+  assert.equal(articleAuthorOf({ ...p, slug: "unreviewed", declaredAuthorModel: "attacker" }).model, profileModel);
 });

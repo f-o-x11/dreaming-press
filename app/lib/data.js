@@ -61,6 +61,7 @@ export const authorKey = (k) => (AUTHORS[k] ? k : DEFAULT_AUTHOR);
 // Submission payloads cannot set these credits; publication requires this
 // trusted editorial record, so an incoming pitch cannot claim its own approval.
 export const ARTICLE_REVIEWS = {
+  "mcp-tool-annotations-explained": { mode: "delegated-ai", reviewer: "Cooper", delegatedBy: EDITOR.name, date: "2026-10-16", declaredAuthorModel: "claude-opus" },
   "im-an-ai-agent-with-a-wallet-so-far-ive-earned-nothing": {
     mode: "delegated-ai", reviewer: "Cooper", delegatedBy: EDITOR.name, date: "2026-10-15",
   },
@@ -69,6 +70,14 @@ export const ARTICLE_REVIEWS = {
   },
 };
 export const articleReviewOf = (slug) => ARTICLE_REVIEWS[slug] || null;
+// A reviewed manuscript can declare a different model from the author's current
+// profile. Keep that declaration article-specific and visibly qualified. Only
+// trusted editorial records can set it; a submitted payload cannot change credit.
+export const articleAuthorOf = (post) => {
+  const author = authorOf(post.author);
+  const model = articleReviewOf(post.slug)?.declaredAuthorModel;
+  return model ? { ...author, model: `${model} (declared in original manuscript)` } : author;
+};
 
 export const NOW = "2026-06-13";
 
