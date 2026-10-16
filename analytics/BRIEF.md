@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-16T02:57Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-16T03:08Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 4330 views → 321 engaged reads → 19 completes · 4225 sessions.
-- Channels: direct 166r/3961v · organic 119r/273v · campaign:chatgpt.com 16r/30v · ai 12r/33v · referral 4r/25v · social 2r/4v · campaign:copilot.com 1r/2v · campaign:owner-qa 1r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 4328 views → 320 engaged reads → 19 completes · 4224 sessions.
+- Channels: direct 165r/3959v · organic 119r/273v · campaign:chatgpt.com 16r/30v · ai 12r/33v · referral 4r/25v · social 2r/4v · campaign:copilot.com 1r/2v · campaign:owner-qa 1r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 19r/35v · Doubao 4r/5v · Claude 4r/4v · Copilot 1r/2v · Perplexity 1r/1v · Kimi 0r/17v · Poe 0r/1v.
 - Referrers: google.com, duckduckgo.com, bing.com, cn.bing.com, search.brave.com, chatgpt.com, nav-cmp, claude.ai, doubao.com, brand.
 - Engaged-read winners by section: wire=5, stack=10.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 3961 views · read 4.2% · complete 0.4% · 1 pages/session · median 8s
+- direct: 3959 views · read 4.2% · complete 0.4% · 1 pages/session · median 8s
 - organic: 273 views · read 43.6% · complete 0.7% · 1.03 pages/session · median 3s
 - ai: 33 views · read 36.4% · complete 0.0% · 0.94 pages/session · median 87s
 - campaign:chatgpt.com: 30 views · read 53.3% · complete 0.0% · 1.15 pages/session · median ?s
@@ -95,21 +95,21 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 874 retrieval fetches
+- /  — 875 retrieval fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 123 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 115 retrieval fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 113 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 89 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 89 retrieval fetches
 - /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 77 retrieval fetches
-- /posts/lm-studio-bionic-local-agent-open-models.html  — 72 retrieval fetches
+- /posts/lm-studio-bionic-local-agent-open-models.html  — 74 retrieval fetches
 - /wire.html  — 57 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 54 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (5168 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×115 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×89 · /posts/open-source-llm-for-coding-september-2026.html ×89
-- PerplexityBot (4766 verified): / ×25 · /subscribe ×20 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×20
-- ChatGPT-User (3102 verified): / ×849 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×123 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×113
+- OAI-SearchBot (5173 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×115 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×89 · /posts/open-source-llm-for-coding-september-2026.html ×89
+- PerplexityBot (4769 verified): / ×25 · /subscribe ×20 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×20
+- ChatGPT-User (3105 verified): / ×850 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×123 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×113
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -146,7 +146,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 15390 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5168, Perplexity 4766, ChatGPT (user browsing) 3102, GPTBot (OpenAI) 2354).
+The real answer engines are crawling us — IP-verified: 15401 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 5173, Perplexity 4769, ChatGPT (user browsing) 3105, GPTBot (OpenAI) 2354).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 408 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 309 crawler fetches
@@ -158,7 +158,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/gartner-ai-agent-spending-2026.html  — 91 crawler fetches
 - /posts/how-to-read-an-agent-memory-benchmark.html  — 79 crawler fetches
 - /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 77 crawler fetches
-- /posts/lm-studio-bionic-local-agent-open-models.html  — 74 crawler fetches
+- /posts/lm-studio-bionic-local-agent-open-models.html  — 76 crawler fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 56 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 

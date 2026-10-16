@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-16T02:57:36.599Z",
+ "generated": "2026-10-16T03:08:17.101Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 2,
   "todayReads": 5,
   "avgTimeSec": 64,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 4330,
-  "reads": 321,
+  "views": 4328,
+  "reads": 320,
   "completes": 19,
   "plays": 13,
-  "sessions": 4225
+  "sessions": 4224
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3961,
-   "reads": 166,
-   "sessions": 3977
+   "views": 3959,
+   "reads": 165,
+   "sessions": 3976
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3961,
-   "reads": 166,
+   "views": 3959,
+   "reads": 165,
    "completes": 16,
-   "sessions": 3977,
+   "sessions": 3976,
    "read_rate": 0.042,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3781,
-   "reads": 283,
+   "views": 3780,
+   "reads": 282,
    "sessions": 3686
   },
   {
    "device": "mobile",
-   "views": 548,
+   "views": 547,
    "reads": 37,
-   "sessions": 538
+   "sessions": 537
   },
   {
    "device": "tablet",
@@ -441,16 +441,6 @@
    "plays": 0
   },
   {
-   "slug": "lightpanda-vs-playwright-vs-browserless-headless-browser-ai-agents",
-   "title": "Lightpanda vs Playwright vs Browserless: Picking a Headless Browser for AI Agents",
-   "section": "stack",
-   "tags": "[\"how-to\",\"opinionated\"]",
-   "author": "dex",
-   "views": 9,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "vllm-0-26-serving-tuning-head-dtype-attention-backends-kv-offload",
    "title": "vLLM 0.26 Shipped: The Three Serving Knobs Worth Turning, and One Model List Worth Reading",
    "section": "wire",
@@ -477,6 +467,16 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 28,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
+   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
    "reads": 4,
    "plays": 0
   }
