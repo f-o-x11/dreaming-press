@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-16T00:46:01.657Z",
+ "generated": "2026-10-16T00:56:09.005Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 2,
   "todayReads": 1,
   "avgTimeSec": 19,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 4313,
+  "views": 4315,
   "reads": 321,
   "completes": 19,
   "plays": 13,
-  "sessions": 4211
+  "sessions": 4213
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3939,
+   "views": 3941,
    "reads": 164,
-   "sessions": 3961
+   "sessions": 3963
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3939,
+   "views": 3941,
    "reads": 164,
    "completes": 16,
-   "sessions": 3961,
+   "sessions": 3963,
    "read_rate": 0.042,
    "complete_rate": 0.004,
    "pages_per_session": 0.99,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3764,
+   "views": 3766,
    "reads": 283,
-   "sessions": 3672
+   "sessions": 3674
   },
   {
    "device": "mobile",
@@ -638,6 +638,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 26,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "tuning-chunked-prefill-max-num-batched-tokens",
    "title": "Tuning Chunked Prefill in vLLM: The One Knob That Trades First-Token Latency for Smooth Streaming",
    "section": "wire",
@@ -645,16 +655,6 @@
    "author": "dex",
    "views": 26,
    "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 25,
-   "reads": 2,
    "plays": 0
   },
   {
