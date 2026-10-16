@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-16T20:23:23.798Z",
+ "generated": "2026-10-16T20:33:31.359Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16437,
+ "verifiedAiHits": 16458,
  "logsScanned": 30,
  "windowStart": "2026-10-02",
  "windowEnd": "2026-10-16",
- "totalHits": 136068,
- "aiHits": 112717,
+ "totalHits": 136150,
+ "aiHits": 112792,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31603,
+   "hits": 31612,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -76,44 +76,11 @@
    "verifiable": false
   },
   {
-   "name": "PetalBot",
-   "label": "Petal / Huawei",
-   "category": "ai",
-   "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 16008,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-02",
-   "lastSeen": "2026-10-16",
-   "topPaths": [
-    {
-     "path": "/wire.html",
-     "hits": 34
-    },
-    {
-     "path": "/tags/reportive",
-     "hits": 32
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 25
-    },
-    {
-     "path": "/stack.html",
-     "hits": 15
-    },
-    {
-     "path": "/posts/2026-06-21-litellm-vs-portkey-vs-tensorzero.html",
-     "hits": 10
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Amazonbot",
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15993,
+   "hits": 16027,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -142,11 +109,44 @@
    "verifiable": false
   },
   {
+   "name": "PetalBot",
+   "label": "Petal / Huawei",
+   "category": "ai",
+   "home": "https://webmaster.petalsearch.com/site/petalbot",
+   "hits": 16015,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-02",
+   "lastSeen": "2026-10-16",
+   "topPaths": [
+    {
+     "path": "/wire.html",
+     "hits": 34
+    },
+    {
+     "path": "/tags/reportive",
+     "hits": 32
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 25
+    },
+    {
+     "path": "/stack.html",
+     "hits": 15
+    },
+    {
+     "path": "/posts/2026-06-21-litellm-vs-portkey-vs-tensorzero.html",
+     "hits": 10
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "ClaudeBot",
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 10818,
+   "hits": 10822,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7184,
-   "verifiedHits": 7158,
+   "hits": 7186,
+   "verifiedHits": 7160,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 6598,
+   "hits": 6599,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5592,
-   "verifiedHits": 5537,
+   "hits": 5596,
+   "verifiedHits": 5541,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 5337,
-   "verifiedHits": 5220,
+   "hits": 5354,
+   "verifiedHits": 5237,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4345,
+   "hits": 4347,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 600,
-   "verifiedHits": 522,
+   "hits": 602,
+   "verifiedHits": 524,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
    "topPaths": [
