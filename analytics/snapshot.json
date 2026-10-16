@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-16T05:19:28.205Z",
+ "generated": "2026-10-16T05:29:35.779Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 12,
-  "avgTimeSec": 108,
+  "readersNow": 7,
+  "todayReads": 15,
+  "avgTimeSec": 95,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 4345,
-  "reads": 324,
+  "views": 4353,
+  "reads": 326,
   "completes": 19,
   "plays": 13,
-  "sessions": 4240
+  "sessions": 4245
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3968,
-   "reads": 169,
-   "sessions": 3984
+   "views": 3977,
+   "reads": 172,
+   "sessions": 3989
   },
   {
    "channel": "organic",
-   "views": 280,
-   "reads": 118,
-   "sessions": 272
+   "views": 279,
+   "reads": 117,
+   "sessions": 271
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3968,
-   "reads": 169,
+   "views": 3977,
+   "reads": 172,
    "completes": 16,
-   "sessions": 3984,
+   "sessions": 3989,
    "read_rate": 0.043,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 280,
-   "reads": 118,
+   "views": 279,
+   "reads": 117,
    "completes": 2,
-   "sessions": 272,
-   "read_rate": 0.421,
+   "sessions": 271,
+   "read_rate": 0.419,
    "complete_rate": 0.007,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3795,
-   "reads": 286,
-   "sessions": 3700
+   "views": 3803,
+   "reads": 289,
+   "sessions": 3704
   },
   {
    "device": "mobile",
    "views": 549,
-   "reads": 37,
-   "sessions": 539
+   "reads": 36,
+   "sessions": 540
   },
   {
    "device": "tablet",
@@ -346,8 +346,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 93,
-   "reads": 17,
+   "views": 95,
+   "reads": 18,
    "plays": 1
   },
   {
@@ -366,8 +366,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 42,
-   "reads": 7,
+   "views": 46,
+   "reads": 9,
    "plays": 0
   },
   {
@@ -508,8 +508,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 93,
-   "reads": 17,
+   "views": 95,
+   "reads": 18,
    "plays": 1
   },
   {
@@ -533,22 +533,22 @@
    "plays": 1
   },
   {
-   "slug": "coding-agent-edit-formats-diff-vs-whole-file",
-   "title": "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 5,
-   "reads": 3,
-   "plays": 1
-  },
-  {
    "slug": "text-to-sql-vanna-vs-wrenai-vs-dataherald",
    "title": "Text-to-SQL for Agents: Vanna vs WrenAI vs Dataherald",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 7,
+   "reads": 2,
+   "plays": 1
+  },
+  {
+   "slug": "coding-agent-edit-formats-diff-vs-whole-file",
+   "title": "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 4,
    "reads": 2,
    "plays": 1
   },
@@ -590,8 +590,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 93,
-   "reads": 17,
+   "views": 95,
+   "reads": 18,
    "plays": 1
   },
   {
@@ -610,8 +610,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 42,
-   "reads": 7,
+   "views": 46,
+   "reads": 9,
    "plays": 0
   },
   {
@@ -730,9 +730,9 @@
   },
   {
    "path": "/dashboard",
-   "views": 16,
+   "views": 17,
    "reads": 1,
-   "sessions": 10,
+   "sessions": 11,
    "avg_dwell_sec": 20
   },
   {
@@ -744,10 +744,10 @@
   },
   {
    "path": "/agents.html",
-   "views": 12,
+   "views": 13,
    "reads": 1,
-   "sessions": 12,
-   "avg_dwell_sec": 45
+   "sessions": 13,
+   "avg_dwell_sec": 36
   },
   {
    "path": "/topics/:topic",
@@ -805,8 +805,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 87,
-   "sessions": 42
+   "hits": 85,
+   "sessions": 41
   },
   {
    "ref": "https://cn.bing.com/",
