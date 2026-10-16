@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-16T00:05:31.520Z",
+ "generated": "2026-10-16T00:15:38.683Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15272,
+ "verifiedAiHits": 15280,
  "logsScanned": 30,
  "windowStart": "2026-10-02",
  "windowEnd": "2026-10-16",
- "totalHits": 128260,
- "aiHits": 106483,
+ "totalHits": 128309,
+ "aiHits": 106513,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29452,
+   "hits": 29461,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15099,
+   "hits": 15106,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -179,10 +179,10 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6811,
-   "verifiedHits": 6797,
+   "hits": 6812,
+   "verifiedHits": 6798,
    "firstSeen": "2026-10-02",
-   "lastSeen": "2026-10-15",
+   "lastSeen": "2026-10-16",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 6044,
+   "hits": 6062,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5157,
-   "verifiedHits": 5111,
+   "hits": 5160,
+   "verifiedHits": 5114,
    "firstSeen": "2026-10-02",
    "lastSeen": "2026-10-16",
    "topPaths": [
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3155,
-   "verifiedHits": 3070,
+   "hits": 3160,
+   "verifiedHits": 3075,
    "firstSeen": "2026-10-02",
-   "lastSeen": "2026-10-15",
+   "lastSeen": "2026-10-16",
    "topPaths": [
     {
      "path": "/",
-     "hits": 842
+     "hits": 843
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
@@ -443,10 +443,10 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1640,
+   "hits": 1641,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
-   "lastSeen": "2026-10-15",
+   "lastSeen": "2026-10-16",
    "topPaths": [
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
@@ -476,10 +476,10 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 968,
+   "hits": 973,
    "verifiedHits": 0,
    "firstSeen": "2026-10-02",
-   "lastSeen": "2026-10-15",
+   "lastSeen": "2026-10-16",
    "topPaths": [
     {
      "path": "/build",
