@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-16T23:15:40.375Z",
+ "generated": "2026-10-16T23:25:48.622Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 37,
+  "readersNow": 4,
+  "todayReads": 38,
   "avgTimeSec": 62,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 4479,
-  "reads": 337,
+  "views": 4483,
+  "reads": 338,
   "completes": 19,
   "plays": 13,
-  "sessions": 4363
+  "sessions": 4367
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4104,
+   "views": 4107,
    "reads": 183,
-   "sessions": 4106
+   "sessions": 4110
   },
   {
    "channel": "organic",
-   "views": 279,
-   "reads": 113,
-   "sessions": 269
+   "views": 280,
+   "reads": 114,
+   "sessions": 270
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4104,
+   "views": 4107,
    "reads": 183,
    "completes": 16,
-   "sessions": 4106,
+   "sessions": 4110,
    "read_rate": 0.045,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 279,
-   "reads": 113,
+   "views": 280,
+   "reads": 114,
    "completes": 2,
-   "sessions": 269,
-   "read_rate": 0.405,
+   "sessions": 270,
+   "read_rate": 0.407,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3924,
+   "views": 3925,
    "reads": 298,
-   "sessions": 3823
+   "sessions": 3824
   },
   {
    "device": "mobile",
-   "views": 554,
-   "reads": 38,
-   "sessions": 539
+   "views": 557,
+   "reads": 39,
+   "sessions": 542
   },
   {
    "device": "tablet",
@@ -695,9 +695,9 @@
   },
   {
    "path": "/",
-   "views": 159,
+   "views": 160,
    "reads": 3,
-   "sessions": 161,
+   "sessions": 162,
    "avg_dwell_sec": 10
   },
   {
@@ -834,13 +834,13 @@
    "sessions": 8
   },
   {
-   "ref": "https://claude.ai/",
+   "ref": "https://www.ecosia.org/",
    "hits": 8,
-   "sessions": 3
+   "sessions": 5
   },
   {
-   "ref": "https://www.doubao.com/",
-   "hits": 7,
+   "ref": "https://claude.ai/",
+   "hits": 8,
    "sessions": 3
   }
  ]
