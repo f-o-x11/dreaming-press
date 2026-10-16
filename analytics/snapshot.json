@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-16T09:22:20.354Z",
+ "generated": "2026-10-16T09:32:37.158Z",
  "windowDays": 14,
  "site": {
   "readersNow": 4,
-  "todayReads": 22,
-  "avgTimeSec": 104,
+  "todayReads": 23,
+  "avgTimeSec": 100,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 4387,
-  "reads": 330,
+  "views": 4389,
+  "reads": 331,
   "completes": 19,
   "plays": 13,
-  "sessions": 4275
+  "sessions": 4278
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4011,
-   "reads": 174,
-   "sessions": 4020
+   "views": 4012,
+   "reads": 175,
+   "sessions": 4022
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 33,
+   "views": 34,
    "reads": 12,
-   "sessions": 35
+   "sessions": 36
   },
   {
    "channel": "referral",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4011,
-   "reads": 174,
+   "views": 4012,
+   "reads": 175,
    "completes": 16,
-   "sessions": 4020,
-   "read_rate": 0.043,
+   "sessions": 4022,
+   "read_rate": 0.044,
    "complete_rate": 0.004,
    "pages_per_session": 1,
    "median_dwell_sec": 9
@@ -101,11 +101,11 @@
   },
   {
    "channel": "ai",
-   "views": 33,
+   "views": 34,
    "reads": 12,
    "completes": 0,
-   "sessions": 35,
-   "read_rate": 0.364,
+   "sessions": 36,
+   "read_rate": 0.353,
    "complete_rate": 0,
    "pages_per_session": 0.94,
    "median_dwell_sec": 87
@@ -298,9 +298,9 @@
   },
   {
    "assistant": "Kimi",
-   "views": 17,
+   "views": 18,
    "reads": 0,
-   "sessions": 17
+   "sessions": 18
   },
   {
    "assistant": "Poe",
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3833,
-   "reads": 291,
-   "sessions": 3736
+   "views": 3834,
+   "reads": 292,
+   "sessions": 3738
   },
   {
    "device": "mobile",
-   "views": 553,
+   "views": 554,
    "reads": 38,
-   "sessions": 538
+   "sessions": 539
   },
   {
    "device": "tablet",
@@ -411,6 +411,16 @@
    "plays": 0
   },
   {
+   "slug": "vllm-0-26-serving-tuning-head-dtype-attention-backends-kv-offload",
+   "title": "vLLM 0.26 Shipped: The Three Serving Knobs Worth Turning, and One Model List Worth Reading",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 9,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "ai-agent-security-jobs",
    "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
    "section": "stack",
@@ -437,16 +447,6 @@
    "tags": "[\"compare\",\"opinionated\"]",
    "author": "dex",
    "views": 11,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "vllm-0-26-serving-tuning-head-dtype-attention-backends-kv-offload",
-   "title": "vLLM 0.26 Shipped: The Three Serving Knobs Worth Turning, and One Model List Worth Reading",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 8,
    "reads": 5,
    "plays": 0
   },
