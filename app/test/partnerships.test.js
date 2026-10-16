@@ -4,9 +4,10 @@ import { AUDIENCE, PARTNERSHIP_OFFERS, inquiryUrl, partnershipKit, renderPartner
 
 test("commercial proposals distinguish budgets from results and preserve editorial access", () => {
   const h = renderPartnerships();
-  assert.match(h, /\$100,000/); assert.match(h, /\$200,000/);
-  assert.match(h, /not a claim of past sales or proven market demand/);
-  assert.match(h, /current audience alone does not substantiate a six-figure/);
+  assert.match(h, /\$250–\$1,000/); assert.match(h, /\$2,000–\$5,000/);
+  assert.doesNotMatch(h, /\$100,000|\$200,000/);
+  assert.match(h, /not established market rates or a claim of past sales or proven market demand/);
+  assert.match(h, /do not establish verified human reach or validated advertising value/);
   assert.match(h, /without a publication fee/);
   assert.match(h, /visible <strong>Sponsored<\/strong> label/);
   assert.match(h, /cannot buy independent rankings/);

@@ -11,7 +11,7 @@
   "stages": [
     {
       "id": "commercial-foundation",
-      "status": "built_pending_live_verification",
+      "status": "published_verified",
       "output": [
         "/partner",
         "/partner/media-kit.json",
@@ -28,9 +28,9 @@
     },
     {
       "id": "reader-quality",
-      "status": "next",
+      "status": "measurement_pending_until_2026-10-23",
       "experiment": "Inspect top organically engaged comparison/how-to pages. Choose one with verified current sources, improve its decision value and contextual newsletter capture, then compare organic read and return signals over seven days.",
-      "measurement": "Track channel-separated views, read events, next-page events and confirmed subscriptions. Exclude known operator QA where identifiable; retain bot/identity limitations. No traffic buying or fabricated engagement."
+      "measurement": "Channel-separated client events and single-opt-in subscription records; neither verifies humans or engagement. Known QA separate. No traffic buying or fabricated engagement."
     },
     {
       "id": "proposal",
@@ -47,7 +47,7 @@
   "continuation": {
     "cadence": "Resume one useful bounded work item at each existing hourly directive-monitor run; reconcile live state first. No duplicate automation or repeated deploy.",
     "reporting": "One consolidated email total for this directive, no more than 100 words, mostly bullet points, after verified initial progress. No separate acknowledgment. Continue work on later monitor runs without additional CEO emails unless Gil gives a new reporting instruction; notify in chat only for meaningful changes or required action.",
-    "nextRun": "Verify the partnership surface and check authorized mailboxes for relevant inbound replies; record commercial inquiry stage. Then execute the reader-quality experiment on one existing evidence-backed comparison or guide, preserving editorial independence.",
+    "nextRun": "Check genuine inbound buyer and guest replies; preserve the MCP cohort until2026-10-23. Continue one original evidence-based reference or inspect existing authorized webmaster access. Pricing pilots require qualification, cost/inventory checks and a separately approved agreement.",
     "sourceOfTruth": "cooper-monitor-state.json task work journal plus source-controlled business evidence; store private lead data outside public repository."
   },
   "boundaries": [
@@ -57,5 +57,29 @@
     "No sale of independent rankings, undisclosed sponsored links, bought citations, fabricated testimonials, bot traffic or guaranteed audience.",
     "Ordinary guest contributions remain unpaid under existing policy; the proposed paid customer feature is a separate disclosed commercial product.",
     "Separate written agreements and payments are not accepted or executed automatically."
-  ]
+  ],
+  "pricingRevision": {
+    "authorizationTask": "tsk_65ffb16068e6d2efe7dcb2fc",
+    "date": "2026-10-16",
+    "basis": "Council findings: six-figure distribution offers unsupported by current audience; validate scoped pilots and buyer demand.",
+    "publicOffers": [
+      {
+        "type": "30-day placement pilot",
+        "proposedBudgetUSD": [
+          250,
+          1000
+        ]
+      },
+      {
+        "type": "Original technical feature production",
+        "proposedBudgetUSD": [
+          2000,
+          5000
+        ],
+        "distribution": "Separately scoped and priced"
+      }
+    ],
+    "status": "Unvalidated negotiation ranges, not realized sales or market-supported valuations",
+    "conditions": "Verify inventory, production cost and capacity before quoting. Final scope/price and binding agreement separately approved. No guaranteed commercial outcomes."
+  }
 }
