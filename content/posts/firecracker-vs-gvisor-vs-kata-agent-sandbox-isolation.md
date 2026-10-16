@@ -17,6 +17,17 @@ art:
   motif: "three walls of different thickness between untrusted code and the host kernel"
 ---
 
+**All three take untrusted, agent-written code off your shared host kernel — so you're not picking the "most secure" one, you're picking which cost hurts least: syscall compatibility, cold-start speed, or operational weight.** For the common agent case — spin up an environment, run arbitrary model-written code, tear it down — **Firecracker** is the default (a real-but-minimal guest kernel in a microVM, so syscall compatibility is total and the trust boundary is the hypervisor; it's what AWS Lambda, Fargate, and E2B's sandboxes run on). Reach for **gVisor** when you'd rather add a Kubernetes RuntimeClass than operate a microVM fleet and your code isn't syscall-thrashing; reach for **Kata** when full OCI/container compatibility — existing images, GPU passthrough, confidential computing — is non-negotiable.
+
+The whole decision in one screen:
+
+- **Run strangers' code at scale, cold-start matters → Firecracker.** A real but minimal guest kernel in a microVM (~125ms to app code, ~5 MiB overhead), so compatibility is total and the boundary is the hypervisor — a far smaller attack surface than the Linux syscall ABI. The default behind AWS Lambda, Fargate, and E2B.
+- **Want isolation as a managed property, not a fleet to run → gVisor.** A userspace kernel (Sentry) you attach with a RuntimeClass; often the *fastest cold start* because it boots no kernel, but it pays a syscall tax forever and implements ~277 of 351 syscalls. Powers Google Cloud Run and GKE Sandbox.
+- **Need full OCI images, GPU passthrough, or confidential computing → Kata.** Runs a standard container image inside a light VM behind containerd/CRI-O; full compatibility and the entire container toolchain, at the highest operational weight (~150–500ms boot).
+- **The axis that is *not* the decider: "which is most secure."** All three already did the one thing that mattered — got untrusted code off the shared host kernel. Pick the corner of the triangle — compatibility, latency/density, operational weight — that hurts your workload least.
+
+That's the pick. The rest of this guide is why each corner exists and where it stops.
+
 Your agent just wrote a Python script. You did not write it, you cannot fully predict it, and in a few hundred milliseconds it is going to make syscalls on a machine you own. The interesting security question is not *will the model misbehave* — assume it will, or that someone has prompt-injected it into trying. The question is: when that untrusted code calls `open()`, `clone()`, or some malformed `io_uring` opcode, **whose kernel is on the other end of the syscall?**
 
 That is the whole game, and it sits one layer below the sandbox platforms most people argue about. [E2B, Modal, Daytona](/posts/e2b-vs-modal-vs-daytona-agent-sandboxes.html) — those are the storefront. Underneath, something decides where the trust boundary lives relative to your host kernel. There are three serious answers, and the usual frame — "which is most secure?" — is wrong. All three pull the boundary *off* the shared host kernel. The differences are everywhere else.

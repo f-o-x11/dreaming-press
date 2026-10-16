@@ -963,7 +963,13 @@ const COMPARISON_CLUSTERS = [
   // (was catch-all → rescued here) and claude-agent-sdk-vs-openai-agents-sdk (was Models & LLM APIs via
   // `claude`, now correctly homed with its framework siblings); the three openai-agents-sdk-vs-* pieces
   // already matched here via langgraph/pydantic/adk, so their cluster is unchanged. 2 moves, 0 wrong-cluster.
-  ["Agent Frameworks",       /(^|-)(framework|frameworks|langgraph|crewai|autogen|langchain|langchain4j|llamaindex|pydantic|adk|harness|agents-sdk|hermes|n8n|flowise|langflow|dify|coze|spring-ai|jvm|declarative|whats-new)(-|$)/],
+  // `build-an-ai-agent` (bounded) rails the "how to build an AI agent" tutorial family together:
+  // build-an-ai-agent-from-scratch-… already homed here via `framework`, and this token pulls in
+  // build-an-ai-agent-2026-loop-context-mcp-tool (was Protocols via `mcp`) and how-to-build-an-ai-agent-with-chatgpt
+  // (was catch-all — its `chatgpt` never matched `(^|-)gpt(-|$)`), so all three build-an-agent guides share one
+  // sibling rail. Corpus-scan (2026-09-13): `build-an-ai-agent` appears in exactly those three slugs and in NO
+  // cluster earlier than this one, so first-match-wins poaches nothing else. 2 moves, 0 wrong-cluster.
+  ["Agent Frameworks",       /(^|-)(framework|frameworks|langgraph|crewai|autogen|langchain|langchain4j|llamaindex|pydantic|adk|harness|agents-sdk|build-an-ai-agent|hermes|n8n|flowise|langflow|dify|coze|spring-ai|jvm|declarative|whats-new)(-|$)/],
   // AI coding tools — the IDE/assistant + autonomous-coding-agent layer (Cursor,
   // Windsurf, GitHub Copilot, Claude Code; the OSS aider/Cline/OpenHands too).
   // Placed BEFORE Agent UI & Frontend on purpose: the bare `copilot` token there
@@ -1966,7 +1972,27 @@ const COMPARISON_CLUSTERS = [
   // (2026-08-04): `price-map` appears in exactly two slugs — this one (orphaned) and
   // gpu-rental-price-map-…, which already homes to Inference & Gateways earlier via
   // `gpu`, so its destination is unchanged. Net effect: exactly 1 catch-all → Models, 0 others.
-  ["Models & LLM APIs",      /(^|-)(gpt|claude|opus|fast-mode|gemini|qwen|qwen3|kimi|glm|minimax|deepseek|hunyuan|hy3|tencent|nemotron|liquid|diffusiongemma|unisound|longcat|poolside|laguna|gemma|small-language-models|mixture-of-experts|vision-language|migrate|migration|closed|responses-api|assistants-api|chat-completions|bedrock|vertex-ai|azure-ai|foundry|price-map)(-|$)/],
+  // `open-source-llm` added (2026-09-08): the open-WEIGHT coding-model ranking
+  // (open-source-llm-for-coding-september-2026, "which open model do I download and own")
+  // is a model-SELECTION decision, so it rails with the model pages beside the
+  // coding-model leaderboard (homed here via qwen/kimi). Corpus-scanned (2026-09-08):
+  // `open-source-llm` appears in exactly one slug — this one, previously orphaned to the
+  // catch-all — so first-match-wins rescues 1 orphan and poaches nothing.
+  // `open-weight-llms` added (2026-10-03): the "which open model actually fits my GPU"
+  // decision (open-weight-llms-you-actually-run-locally-october-2026) is a model-SELECTION
+  // piece that rails beside the open-weight leaderboard (homed here via open-source-llm).
+  // Corpus-scanned (2026-10-03): the compound `open-weight-llms` appears in exactly one slug
+  // — this one, previously orphaned to the catch-all — and in no earlier cluster regex, so
+  // first-match-wins rescues 1 orphan and poaches nothing.
+  // `writing` added (2026-10-04): the "best LLM for writing / creative writing" guides
+  // (best-llm-for-writing-2026, best-llm-for-creative-writing-october-2026) are
+  // model-SELECTION decisions — which model writes best — so they rail beside the other
+  // model guides here. Corpus-scanned (2026-10-04): a bounded `-writing-` appears in
+  // exactly those two slugs (query-REwriting carries no bounded `writing` token, and the
+  // how-to-WRITE-* slugs carry `write`, not `writing`), both previously orphaned to the
+  // catch-all and matching no earlier cluster regex, so first-match-wins rescues 2
+  // orphans and poaches nothing.
+  ["Models & LLM APIs",      /(^|-)(gpt|claude|opus|fast-mode|gemini|qwen|qwen3|kimi|glm|minimax|deepseek|hunyuan|hy3|tencent|nemotron|liquid|diffusiongemma|unisound|longcat|poolside|laguna|gemma|small-language-models|mixture-of-experts|vision-language|writing|open-source-llm|open-weight-llms|migrate|migration|closed|responses-api|assistants-api|chat-completions|bedrock|vertex-ai|azure-ai|foundry|price-map)(-|$)/],
   // Agent SPEND-MANAGEMENT + PRICING is a distinct buyer-intent class from the
   // inference/token-cost pieces already owned by Inference & Gateways (token-cost,
   // cost-optimization, cost-attribution): these are the "how much does an agent cost

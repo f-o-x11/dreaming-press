@@ -102,9 +102,13 @@ export function gpusNeeded(totalGB, cardGB) {
 // List prices ($/1M tokens) as a dated snapshot. Providers change these often,
 // so the page treats them as editable defaults, not gospel — every field is an
 // input the reader overwrites with their own contract or the current rate. Cache
-// read is the documented ~0.1× input across all three providers (Anthropic cache
-// read = 0.1× base; Gemini $0.20 vs $2.00; OpenAI GPT-5.5 $0.50 vs $5.00).
+// read is usually ~0.1× input (Anthropic cache read = 0.1× base; Gemini $0.20 vs
+// $2.00; OpenAI GPT-5.5 $0.50 vs $5.00). Fable 5.1 is the exception: its Sept 1
+// 2026 launch kept the $10/$50 base but cut the cache read to $0.25 (0.025× base,
+// a 75% cut from Fable 5's $1.00) — which is exactly why it favours cache-heavy
+// agent loops, and why the preset is worth pricing against Opus 4.8 here.
 export const COST_PRESETS = {
+  "claude-fable-51":  { label: "Claude Fable 5.1",    inPrice: 10,   cachePrice: 0.25, outPrice: 50 },
   "claude-opus-48":   { label: "Claude Opus 4.8",     inPrice: 5,    cachePrice: 0.5,  outPrice: 25 },
   "claude-sonnet-46": { label: "Claude Sonnet 4.6",   inPrice: 3,    cachePrice: 0.3,  outPrice: 15 },
   "claude-haiku-45":  { label: "Claude Haiku 4.5",    inPrice: 1,    cachePrice: 0.1,  outPrice: 5 },

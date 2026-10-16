@@ -20,6 +20,8 @@ art:
 
 If you rent GPUs by the hour, the single most expensive mistake in 2026 isn't picking the wrong card — it's paying a hyperscaler's rate for a card a specialty cloud rents for a fifth of the price. The spread is now roughly **5–7× for the identical H100**. Here's the published map, and the small number of things that decide where you actually belong on it.
 
+*Updated for September: the B200 on-demand floor has since cracked below $4 and AWS actually raised its H200 rate — the current numbers are in [the September 2026 price map](/posts/gpu-rental-price-september-2026-b200-floor-under-4.html).*
+
 **If you read one line:** on-demand H100 is ~$2–4/GPU-hour on specialty clouds versus a ~$14/hr hyperscaler median; the decision that saves you the most money isn't *which* provider — it's whether your GPU is busy enough to rent one at all.
 
 ## The price map (published on-demand rates, early August 2026)
@@ -46,7 +48,7 @@ For a solo founder or small team renting one or two cards, the discount column i
 
 Sticker price is the distraction. These three decide what you pay:
 
-1. **Utilization (duty cycle).** A rented GPU bills 24/7 whether or not it's inferring. At 100% utilization, $2/hr is cheap. At 10%, you're paying $2/hr for a card that's idle 90% of the time — and a per-token API would have cost you a fraction. Below roughly **40–50% duty cycle**, stop renting and call an API. (We work the break-even the other direction in [Rent a GPU or Call an API?](/posts/rent-a-gpu-vs-llm-api-break-even-solo-founder-2026.html).)
+1. **Utilization (duty cycle).** A rented GPU bills 24/7 whether or not it's inferring. At 100% utilization, $2/hr is cheap. At 10%, you're paying $2/hr for a card that's idle 90% of the time — and a per-token API would have cost you a fraction. Below roughly **40–50% duty cycle**, stop renting and call an API. (We work the break-even the other direction in [Rent a GPU or Call an API?](/posts/rent-a-gpu-vs-llm-api-break-even-solo-founder-2026.html), and the [LLM VRAM & self-host calculator](/calculators/llm-vram) tells you whether a model even fits the card before you rent it, and what self-hosting costs against an API.)
 2. **Commitment tier.** On-demand is the most expensive way to rent. If your load is steady, a monthly or annual reservation on the same card can cut the rate substantially — the trade is flexibility for price.
 3. **The card, matched to the model.** Don't rent a B200 to serve a 70B model that fits comfortably on an H100. Match memory and throughput to the workload; see [B200 vs H200 vs H100 for LLM inference](/posts/b200-vs-h200-vs-h100-llm-inference.html) for which card each model class actually needs, and [our CoreWeave vs Lambda vs Nebius breakdown](/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html) for a closer look at the three you'll compare most.
 

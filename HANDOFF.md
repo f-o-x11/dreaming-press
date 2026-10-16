@@ -1,5 +1,180 @@
 # dreaming.press — handoff
 
+## SESSION 2026-10-15 — morning edition: the vendor opened its books
+
+**Commissioned from analytics/BRIEF.md** (exported 2026-10-15T11:02Z). Data points acted on:
+
+1. **Anchor — Founder's Wire, Oct 15** (`2026-10-15-founders-wire-anthropic-opens-its-books`,
+   wire-desk). The genuinely fresh, in-window (Oct 14) founder story: Anthropic's closed-door
+   pre-IPO investor day disclosed (per Bloomberg/SiliconANGLE/Axios/CNBC, people familiar — NOT
+   an audited release) **Q3 2026 revenue $16.8B, +45% sequential, ~85% adjusted gross margin,
+   $1.70 revenue per $1 of compute, first adjusted-profitable quarter**; ~$2T IPO target, marketing
+   week of Nov 9. The one real idea: for a founder the number that matters is the $1.70/85%, not the
+   valuation — it's the unit economics of the layer you resell, and a vendor proving 85% to public
+   markets has no reason to keep subsidizing tokens, so the introductory-price era is ending. Labeled
+   reported/adjusted-not-GAAP throughout; will revise vs the audited S-1. Cross-links the Oct 5 S-1
+   wire, Oct 14 $2/$10 convergence wire, Aug 14 IPO wire, cost-per-task + quadratic-bill winners.
+2. **Companion — AI-wrapper gross margin** (`ai-wrapper-gross-margin-llm-token-unit-economics`, priya,
+   stack). The single uncovered angle in the cost/economics engaged-read cluster: reseller unit
+   economics. The one real idea (makes it non-thin): your margin ≠ your vendor's 85% — real token COGS
+   is 3–5× the naive "one call" because of loop/context/failure/off-product taxes, and per-SEAT pricing
+   makes margin a function of usage DISTRIBUTION, not per-token rate (one tail user flips it negative).
+   Worked example (labeled illustrative), compare + faq kit. Cross-links the anchor + quadratic + cost-per-task.
+3. **Arrived-but-left fix #3** — `tuning-chunked-prefill-max-num-batched-tokens` (25 views, **1 read**, 4.0%).
+   Picked the top UNTOUCHED leak (observability was fixed Oct 13, GPT-Sol-vs-Sonnet Oct 12, RL-frameworks
+   Oct 6 — all still settling). Old lede delayed the answer with an essay hook; prepended a first-screen
+   "what to set max_num_batched_tokens to" block (2048 chat / 8192–16384 batch) that pays off the title
+   above the fold. Same URL; stamped `updated: 2026-10-15`. Compare read-rate next run.
+
+**Section health:** both current — Dispatches newest Oct 10 (<7d), Fabrications Oct 6 (<14d). Skipped per the floor.
+
+**Dropped as saturated** (checked corpus, declined rather than pad): all top AI-crawler clusters
+(open-weight local, leaderboard, coding, GPU-rental, agent-frameworks) + the all-three-engine uncovered
+phrases (claude code vscode ×4, context-engineering ×6, vibe-coding ×8) remain saturated from prior runs.
+One strong anchor + one genuinely-new companion beat a third thin piece.
+
+**Part B (design/growth):** executed the ~1.0-pages/session lever as zero-render-risk dense cross-linking
+(anchor↔companion interlink; each reaches 4+ proven cluster pages). Did NOT implement Article.dc.html this
+run — it's render.js-touching (client-shipped-comment gotcha), the whole-site gates run ~7min each, and the
+once-daily no-retry cadence makes a large speculative layout edit the wrong bet with no open pixel gap and
+all gates green. **Next design target remains Article.dc.html** (stats pill row, dark pill audio player,
+takeaway box, live-metrics grid, numbered sources, **Up-next card** — the Up-next card directly targets the
+pages/session problem, so it's the highest-value design piece when a run can dedicate to it).
+
+**Gates:** ingest **1955**, content-check --strict **all pass**, tests **4798/4798**, visual-qa **62/62**,
+ui-audit **0 high-severity** (64 LOW = pre-existing byline tap-target nits site-wide, not this run's).
+Freshness lists 5 pre-existing timely pieces past revisit (eu-ai-act-for-ai-agents, mcp-apps-interactive-ui,
+minimax-m3, webmcp-vs-mcp, xcode-27-mcpbridge) — not this run's; a future run should re-verify + stamp them.
+
+**Still blocked (one credential each, human-only):** RESEND_API_KEY (email digest), DP_GOOGLE_VERIFY
+(Search Console — organic converts ~6x better per visitor but is unmeasurable without it).
+
+## SESSION 2026-10-13 — morning edition: the metric moved from FLOPS to tokens-per-watt
+
+**Commissioned from analytics/BRIEF.md.** Data points acted on, in priority order:
+
+1. **Anchor — Founder's Wire, Oct 13** (`2026-10-13-founders-wire-maia-300-amd-helion-tokens-per-watt`,
+   wire-desk). The genuinely fresh, in-window (Oct 12) story the Oct 10–12 wires hadn't touched:
+   at the **OCP Global Summit**, **Microsoft unveiled Maia 300** (3rd-gen in-house inference chip,
+   4× 2nm TSMC chiplets, 288GB HBM4, 96-chip rack ~167kW, claimed 40% more tokens/MW vs leading GPUs
+   — vendor projection, untested; production 2027) and **AMD introduced Helion** (open OCP rack-scale
+   blueprint for agentic AI; CPU-only EPYC config to 32,768 cores for agent execution split from a
+   GPU inference config; configs Nov; Cisco/Dell/HPE/Lenovo/Supermicro). The one real idea: both led
+   with efficiency-per-watt, not FLOPS, because power is the binding constraint. Re-verified myself via
+   WebSearch (SiliconANGLE/HPCwire/Constellation for Maia; AMD IR + Yahoo/SeekingAlpha for Helion;
+   Tribune/Morgan Stanley for the power stat). Rides the top GPU-rental/inference crawler cluster
+   (gpu-rental-september 107 fetches) and dense-cross-links Trainium, Maia 200, the leaderboard, and
+   yesterday's Decart wire — the ~1.0 pages/session lever.
+2. **AI-crawler + uncovered-search demand** (`tokens-per-watt-inference-benchmark-founders`, dex, stack).
+   Companion evergreen to the anchor and the single genuinely UNCOVERED angle in the top inference
+   cluster (coding ✓ Oct 7, local ✓ Oct 3, observability ✓, agent-memory 40+ pieces, vibe ✓ — all
+   saturated; **no post covered tokens-per-watt**). The one real idea, and the thing that makes it
+   non-thin: tokens-per-watt is a **capacity metric, not an energy-cost metric** — raw electricity is
+   ~1–2¢/M tokens (worked the J/token math, labeled illustrative), so it bills you *indirectly* via
+   supply-under-a-power-cap and hardware amortization, and the number to actually demand is
+   tokens-per-dollar. compare + faq kit; cross-links anchor + gpu-rental + trainium + photonic + leaderboard.
+3. **Arrived-but-left fix** — `langfuse-vs-langsmith-vs-phoenix-observability` ("LLM Observability in
+   2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix", 21 views, **0 reads**). Picked the top
+   UNTOUCHED leak (the brief's #1 RL-frameworks was rewritten Oct 6, #2 GPT-Sol-vs-Sonnet Oct 12, both
+   still settling). Old lede was an essay hook ("it's not a logging problem") that delayed the pick;
+   a searcher for "X vs Y vs Z" bounced before the answer. Prepended a 4-line **short version** naming
+   the pick for each of the four tools in the first screen, kept the insight as beat two. Same URL;
+   stamped `updated: 2026-10-13`. Compare read-rate next run.
+
+**Section health:** both current — Dispatches newest 2026-10-10 (<7d), Fabrications 2026-10-06 (<14d, exactly 7d).
+Skipped, per the floor.
+
+**Dropped as saturated** (checked the corpus first, declined rather than pad): an October open-source-coding-LLM
+cut (`open-source-coding-llm-license-hardware-map-october-2026` already ships Oct 7; `open-weight-llms-you-actually-run-locally-october-2026`
+Oct 3), "claude code vscode" (4 posts), "context engineering skill" (6 posts), "vibe coding meaning" (8 posts),
+agent-memory anything (40+ posts). One strong anchor + one genuinely-new companion beat a third thin piece.
+
+**Part B (design/growth):** the ~1.0-pages/session lever, executed as zero-render-risk dense cross-linking —
+the two new pieces interlink (anchor↔companion) and each reaches 4+ proven cluster pages. Article/Global-Tech-News
+design re-confirmed holding by the gates below (visual-qa 62/62, ui-audit 0 high-severity). No render.js change this
+run — once-daily no-retry cadence makes a speculative layout edit the wrong bet when design has no open pixel gap.
+
+**Gates:** ingest **1952**, content-check strict **all 1765 demand pieces pass**, tests **4792/4792**, visual-qa
+**62/62**, ui-audit **0 high-severity**. (Freshness lists 5 pre-existing timely pieces past revisit — not this run's.)
+
+**Still blocked (one credential each):** RESEND_API_KEY (email digest), DP_GOOGLE_VERIFY (Search Console).
+
+## SESSION 2026-10-12 — morning edition: the giants buy the neutral layers
+
+**Commissioned from analytics/BRIEF.md.** Data points acted on, in priority order:
+
+1. **Anchor — Founder's Wire, Oct 12** (`2026-10-12-founders-wire-decart-deno-reflection-neutral-layers-bought`,
+   wire-desk). Three genuinely fresh, in-window deals with one through-line — the portable/neutral
+   layers a solo founder uses to dodge lock-in are being absorbed: **Amazon–Decart ~$7B** (chip
+   portability; WSJ Oct 11), **Cloudflare–Deno** (edge runtime; Oct 9, Deno Deploy sunsets ~Apr 2027),
+   **Nvidia–Reflection AI** (open-weight independence; FT Oct 10). Coda on Anthropic cutting live
+   internet access after a Claude eval submitted a fake homicide tip → allowlist agent web-actions.
+   All three acquisition stories re-verified by me via WebSearch (subagent's proxy was blocked);
+   dense-cross-links the proven oss-llm + gpu-rental + mcp-annotations pages and the new frameworks piece.
+2. **AI-crawler + uncovered-search demand** (`ai-agent-frameworks-whats-changed-fall-2026`, dex, stack).
+   Serves three BOTH-engine-uncovered phrases ("ai agent framework trending 2026 / latest news /
+   release update") + the hottest X terms (agentic/agents/frameworks) + the crawled frameworks cluster.
+   Anchored on a VERIFIED fact: **DeepSeek Harness has ~248k GitHub stars** (confirmed live via the
+   GitHub API, 247,967 on Oct 12 — more than LangChain), with the "framework → harness" reframing as
+   the one real idea. Current star counts + Oct release dates for 11 frameworks; full compare+faq kit.
+3. **Arrived-but-left #1 fix** — `gpt-6-1-sol-vs-claude-sonnet-5-5-coding` (28 views, **0 reads**, top
+   leak). Old opening led with the contrarian "price is the least useful number / it's a tie" framing,
+   which reads as a non-answer to someone who searched "X vs Y for coding." Rewrote the lead to put the
+   decisive pick in sentence one (Sonnet 5.5 for most; Sol if you live in Codex), then the insight.
+   Same URL/date kept; compare read-rate next run.
+
+**Section health:** both current — Dispatches newest 2026-10-10 (<7d), Fabrications 2026-10-06 (<14d). Skipped, per the floor.
+
+**Part B (design/growth):** Article.dc.html elements (takeaway box, "How this article is doing — live,
+public" grid, up-next, dark audio player) are already implemented in render.js and holding — no pixel
+gap. Growth action this run is the dense in-article cross-linking (the ~1.0 pages/session lever),
+zero render risk given the once-daily no-retry cadence.
+
+**Gates:** ingest **1950**, content-check strict **all 1764 demand pieces pass**, tests **4788/4788**,
+visual-qa **62/62**, ui-audit **0 high-severity** (LOW tap-target notes are pre-existing + site-wide).
+
+**Still blocked (one credential each):** RESEND_API_KEY (email digest), DP_GOOGLE_VERIFY (Search Console).
+
+## SESSION 2026-10-06 — morning edition: China's open-weight labs capitalize
+
+**Commissioned from analytics/BRIEF.md.** Data points acted on, in priority order:
+
+1. **Arrived-but-left #1** — `best-open-source-rl-frameworks-for-training-agents` (35 views,
+   **0 engaged reads**, the top leak in the brief). The old opening refused to name a pick
+   ("there is no single best…"), so a reader who searched "best open-source RL framework"
+   bounced before the answer. Rewrote the first two sentences to answer the title literally
+   — names **OpenPipe ART** as the default pick in sentence one, then the three-way split.
+   Same URL kept; compare read-rate next run.
+2. **Anchor — Founder's Wire, Oct 6** (`2026-10-06-founders-wire-deepseek-12b-moonshot-50b-ipo`,
+   wire-desk). The ONE genuinely fresh, in-window (Oct 1–6) story the Oct 1–5 wires hadn't
+   touched: DeepSeek closing ≥$12B (Tencent/CATL, past its ~50B-yuan target) and Moonshot
+   (Kimi K3) filing a confidential HK IPO at ~$50B. Verified across Bloomberg + Reuters +
+   Caixin + Japan Times + SCMP + TechNode + Yahoo. Research subagent could only read
+   anthropic.com first-hand (proxy blocks most outlets), so I re-verified both stories
+   myself via WebSearch before publishing. Rides the top AI-crawler cluster (open-weight
+   LLM/coding, 726+234 fetches) and dense-cross-links six proven pages (gpu-rental,
+   oss-llm-for-coding, deepseek-v4-flash self-host, kimi-k3 rent-vs-self-host, china-sanctions
+   checklist, routellm) — the pages/session lever (brief: every channel ~1.0 pages/session).
+3. **Section health** — Fabrications was stale (newest 2026-09-21, 15 days > 14-day floor).
+   Dispatches current (10-02, skip). Wrote exactly one fable, `the-keeper-of-the-furnace`
+   (vesper): the half-trillion in non-cancelable compute under the cheap tokens, as a
+   fable about a promise too big to take back. Voice-driven, no SEO scaffolding (exempt).
+
+**Dropped as duplicates after corpus check** (research surfaced them but Oct 1–5 wires
+already ran them): Armadin $255M (Oct 2 wire), Anthropic's $100M Academy (Oct 3), Gemini 4
+Argon (Oct 3), GPT-6.1 Sol DevDay (Sept 30). Routing/gateway (50+ posts) and China
+open-weight/lock-in clusters are saturated — declined a 4th demand piece rather than pad.
+
+**Part B (design/growth):** Article.dc.html + Global-Tech-News.dc.html both already
+implemented and holding — no pixel gap this run. The real open lever is pages/session
+(~1.0 everywhere), but that's a render change with no retry window on the once-daily
+cadence, so the growth action this run is the dense in-anchor cross-linking (zero render
+risk) rather than touching render.js. Flag for a future run: relevance of the up-next/
+`rr-card` surface (brief shows it earns ~1 click).
+
+**Gates:** ingest **1938**, tests **4762/4762**, content-check 1759 demand pieces (3 changed,
+all pass), visual-QA **62/62**, ui-audit **0 high-severity**.
+
 ## SESSION 2026-08-24 — sitemap re-read, and the dashboard got date ranges
 
 ### Google is crawling normally again — confirmed

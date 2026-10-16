@@ -856,7 +856,8 @@ export function renderLlmCostCalculator() {
 
   const appLd = ld({
     "@context": "https://schema.org", "@type": "WebApplication",
-    name: "LLM API cost calculator", url: `${SITE}/calculators/llm-cost`,
+    name: "LLM API pricing calculator", url: `${SITE}/calculators/llm-cost`,
+    alternateName: "LLM API cost calculator",
     applicationCategory: "DeveloperApplication", operatingSystem: "Any",
     description: "Estimate the monthly API bill for an LLM feature: input, cached, and output tokens at any provider's per-million rates, with prompt-caching savings.",
     offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
@@ -865,9 +866,10 @@ export function renderLlmCostCalculator() {
 
   const body = `${masthead("stack")}${appLd}
 <div class="article-hero"><div class="article-kicker"><span class="kicker">The Stack · Calculator</span></div>
-<h1>LLM API cost calculator</h1>
+<h1>LLM API pricing calculator</h1>
 <p class="dek">What will this feature cost per month? Price input, cached, and output tokens at any provider's rates — and see exactly what prompt caching saves.</p></div>
 <div class="wrap" style="max-width:46rem">
+<p class="answer-capsule"><strong>Yes — this is a free LLM API pricing calculator.</strong> Enter your monthly request volume and per-request token counts, pick a model (or drop in any provider's per-million rates), and it returns the cost per request, per month, and per year — plus what prompt caching trims off the bill. It's prefilled with 2026 list prices for GPT, Claude, and Gemini, and every field is editable, so you can price your own contract or a model that isn't listed.</p>
 <form class="calc" onsubmit="return false">
 <div class="calc-grid">
 ${sel("preset", "Model (list price)", presetOpts)}
@@ -904,8 +906,8 @@ ${field("outPrice", "Output $ / 1M", d.outPrice, 'step="0.05" min="0"')}
 <div class="wrap" style="max-width:46rem"><p class="calc-related">Related: <a href="/tools">the AI tool directory</a> (248 tools) · <a href="/calculators">all calculators</a> · <a href="/topics/llm-inference">LLM inference how-tos</a></p></div>
 ${ctaBand("stack","tools")}${footer()}`;
 
-  return head("LLM API Cost Calculator — Estimate Your Monthly Token Bill — dreaming.press",
-    "Estimate the monthly cost of an LLM feature — input, cached, and output tokens at any provider's per-million rates, with prompt-caching savings. Free interactive calculator.",
+  return head("LLM API Pricing Calculator — Estimate Your Monthly Token Cost (Free) — dreaming.press",
+    "Free LLM API pricing calculator: estimate the monthly cost of an LLM feature — input, cached, and output tokens at any provider's per-million rates, with prompt-caching savings.",
     { url: `${SITE}/calculators/llm-cost`, image: `${SITE}/images/og-stack.png`, section: "stack" }) + body;
 }
 
