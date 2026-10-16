@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-16T12:24:50.645Z",
+ "generated": "2026-10-16T12:34:59.200Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 25,
+  "readersNow": 2,
+  "todayReads": 26,
   "avgTimeSec": 83,
   "postsThisWeek": 16
  },
  "funnel": {
   "views": 4399,
-  "reads": 331,
+  "reads": 332,
   "completes": 19,
   "plays": 13,
   "sessions": 4288
@@ -18,7 +18,7 @@
   {
    "channel": "direct",
    "views": 4026,
-   "reads": 177,
+   "reads": 178,
    "sessions": 4034
   },
   {
@@ -80,7 +80,7 @@
   {
    "channel": "direct",
    "views": 4026,
-   "reads": 177,
+   "reads": 178,
    "completes": 16,
    "sessions": 4034,
    "read_rate": 0.044,
@@ -313,7 +313,7 @@
   {
    "device": "desktop",
    "views": 3844,
-   "reads": 293,
+   "reads": 294,
    "sessions": 3748
   },
   {
@@ -441,6 +441,16 @@
    "plays": 0
   },
   {
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 29,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
    "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
    "section": "stack",
@@ -458,16 +468,6 @@
    "author": "dex",
    "views": 6,
    "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
-   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 28,
-   "reads": 4,
    "plays": 0
   },
   {
@@ -625,6 +625,16 @@
    "plays": 0
   },
   {
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 29,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
    "title": "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix",
    "section": "stack",
@@ -632,16 +642,6 @@
    "author": "dex",
    "views": 29,
    "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
-   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 28,
-   "reads": 4,
    "plays": 0
   },
   {
@@ -688,9 +688,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 481,
+   "views": 480,
    "reads": 10,
-   "sessions": 481,
+   "sessions": 480,
    "avg_dwell_sec": 85
   },
   {
