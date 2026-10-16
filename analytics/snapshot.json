@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-16T16:48:24.017Z",
+ "generated": "2026-10-16T16:58:28.246Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
@@ -8,24 +8,24 @@
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 4414,
-  "reads": 333,
+  "views": 4416,
+  "reads": 332,
   "completes": 19,
   "plays": 13,
-  "sessions": 4299
+  "sessions": 4301
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4040,
+   "views": 4043,
    "reads": 180,
-   "sessions": 4044
+   "sessions": 4046
   },
   {
    "channel": "organic",
-   "views": 280,
-   "reads": 115,
-   "sessions": 271
+   "views": 279,
+   "reads": 114,
+   "sessions": 270
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4040,
+   "views": 4043,
    "reads": 180,
    "completes": 16,
-   "sessions": 4044,
+   "sessions": 4046,
    "read_rate": 0.045,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 280,
-   "reads": 115,
+   "views": 279,
+   "reads": 114,
    "completes": 2,
-   "sessions": 271,
-   "read_rate": 0.411,
+   "sessions": 270,
+   "read_rate": 0.409,
    "complete_rate": 0.007,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3859,
-   "reads": 295,
-   "sessions": 3759
+   "views": 3860,
+   "reads": 294,
+   "sessions": 3760
   },
   {
    "device": "mobile",
-   "views": 554,
+   "views": 555,
    "reads": 37,
-   "sessions": 539
+   "sessions": 540
   },
   {
    "device": "tablet",
@@ -625,6 +625,16 @@
    "plays": 0
   },
   {
+   "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
+   "title": "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 30,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "open-weight-llms-you-actually-run-locally-october-2026",
    "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
    "section": "stack",
@@ -632,16 +642,6 @@
    "author": "dex",
    "views": 29,
    "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
-   "title": "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 29,
-   "reads": 1,
    "plays": 0
   },
   {
@@ -670,7 +670,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 24,
+   "views": 25,
    "reads": 0,
    "plays": 0
   },
@@ -800,8 +800,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 91,
-   "sessions": 50
+   "hits": 89,
+   "sessions": 49
   },
   {
    "ref": "https://www.bing.com/",
