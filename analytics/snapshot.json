@@ -1,43 +1,43 @@
 {
- "generated": "2026-10-16T01:06:17.161Z",
+ "generated": "2026-10-16T01:56:54.008Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 1,
-  "avgTimeSec": 19,
+  "readersNow": 3,
+  "todayReads": 4,
+  "avgTimeSec": 64,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 4316,
-  "reads": 321,
+  "views": 4325,
+  "reads": 322,
   "completes": 19,
   "plays": 13,
-  "sessions": 4214
+  "sessions": 4220
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3942,
-   "reads": 164,
-   "sessions": 3964
+   "views": 3955,
+   "reads": 167,
+   "sessions": 3972
   },
   {
    "channel": "organic",
-   "views": 277,
-   "reads": 122,
-   "sessions": 268
+   "views": 274,
+   "reads": 120,
+   "sessions": 265
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 32,
+   "views": 31,
    "reads": 16,
-   "sessions": 28
+   "sessions": 27
   },
   {
    "channel": "ai",
    "views": 33,
    "reads": 12,
-   "sessions": 36
+   "sessions": 35
   },
   {
    "channel": "referral",
@@ -73,22 +73,22 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3942,
-   "reads": 164,
+   "views": 3955,
+   "reads": 167,
    "completes": 16,
-   "sessions": 3964,
+   "sessions": 3972,
    "read_rate": 0.042,
    "complete_rate": 0.004,
-   "pages_per_session": 0.99,
+   "pages_per_session": 1,
    "median_dwell_sec": 8
   },
   {
    "channel": "organic",
-   "views": 277,
-   "reads": 122,
+   "views": 274,
+   "reads": 120,
    "completes": 2,
-   "sessions": 268,
-   "read_rate": 0.44,
+   "sessions": 265,
+   "read_rate": 0.438,
    "complete_rate": 0.007,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -98,21 +98,21 @@
    "views": 33,
    "reads": 12,
    "completes": 0,
-   "sessions": 36,
+   "sessions": 35,
    "read_rate": 0.364,
    "complete_rate": 0,
-   "pages_per_session": 0.92,
-   "median_dwell_sec": 82
+   "pages_per_session": 0.94,
+   "median_dwell_sec": 87
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 32,
+   "views": 31,
    "reads": 16,
    "completes": 0,
-   "sessions": 28,
-   "read_rate": 0.5,
+   "sessions": 27,
+   "read_rate": 0.516,
    "complete_rate": 0,
-   "pages_per_session": 1.14,
+   "pages_per_session": 1.15,
    "median_dwell_sec": null
   },
   {
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 37,
+   "views": 36,
    "reads": 19,
-   "sessions": 30
+   "sessions": 29
   },
   {
    "assistant": "Doubao",
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3767,
-   "reads": 283,
-   "sessions": 3675
+   "views": 3776,
+   "reads": 284,
+   "sessions": 3681
   },
   {
    "device": "mobile",
@@ -329,8 +329,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 85,
-   "reads": 14,
+   "views": 88,
+   "reads": 15,
    "plays": 1
   },
   {
@@ -414,16 +414,6 @@
    "plays": 0
   },
   {
-   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
-   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
    "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
    "section": "stack",
@@ -462,6 +452,16 @@
    "views": 6,
    "reads": 5,
    "plays": 0
+  },
+  {
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 28,
+   "reads": 4,
+   "plays": 0
   }
  ],
  "topListens": [
@@ -491,8 +491,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 85,
-   "reads": 14,
+   "views": 88,
+   "reads": 15,
    "plays": 1
   },
   {
@@ -573,8 +573,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 85,
-   "reads": 14,
+   "views": 88,
+   "reads": 15,
    "plays": 1
   },
   {
@@ -678,9 +678,9 @@
   },
   {
    "path": "/",
-   "views": 150,
+   "views": 152,
    "reads": 3,
-   "sessions": 154,
+   "sessions": 156,
    "avg_dwell_sec": 11
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 123,
-   "sessions": 109
+   "hits": 122,
+   "sessions": 108
   },
   {
    "ref": "https://duckduckgo.com/",
@@ -793,18 +793,18 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 65,
-   "sessions": 38
+   "hits": 63,
+   "sessions": 37
   },
   {
    "ref": "https://search.brave.com/",
-   "hits": 31,
-   "sessions": 15
+   "hits": 29,
+   "sessions": 14
   },
   {
    "ref": "https://chatgpt.com/",
-   "hits": 13,
-   "sessions": 3
+   "hits": 12,
+   "sessions": 2
   },
   {
    "ref": "nav-cmp",
