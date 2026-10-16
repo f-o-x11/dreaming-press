@@ -1,30 +1,30 @@
 {
- "generated": "2026-10-16T05:09:21.386Z",
+ "generated": "2026-10-16T05:19:28.205Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 12,
-  "avgTimeSec": 66,
+  "avgTimeSec": 108,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 4347,
-  "reads": 325,
+  "views": 4345,
+  "reads": 324,
   "completes": 19,
   "plays": 13,
-  "sessions": 4241
+  "sessions": 4240
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3969,
+   "views": 3968,
    "reads": 169,
-   "sessions": 3985
+   "sessions": 3984
   },
   {
    "channel": "organic",
-   "views": 281,
-   "reads": 119,
+   "views": 280,
+   "reads": 118,
    "sessions": 272
   },
   {
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3969,
+   "views": 3968,
    "reads": 169,
    "completes": 16,
-   "sessions": 3985,
+   "sessions": 3984,
    "read_rate": 0.043,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 281,
-   "reads": 119,
+   "views": 280,
+   "reads": 118,
    "completes": 2,
    "sessions": 272,
-   "read_rate": 0.423,
+   "read_rate": 0.421,
    "complete_rate": 0.007,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3797,
-   "reads": 287,
-   "sessions": 3701
+   "views": 3795,
+   "reads": 286,
+   "sessions": 3700
   },
   {
    "device": "mobile",
@@ -371,16 +371,6 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 31,
-   "reads": 6,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
    "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
    "section": "wire",
@@ -419,6 +409,16 @@
    "views": 8,
    "reads": 6,
    "plays": 1
+  },
+  {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 30,
+   "reads": 5,
+   "plays": 0
   },
   {
    "slug": "best-llm-for-creative-writing-october-2026",
@@ -620,8 +620,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 31,
-   "reads": 6,
+   "views": 30,
+   "reads": 5,
    "plays": 0
   },
   {
@@ -800,7 +800,7 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 92,
+   "hits": 90,
    "sessions": 49
   },
   {
