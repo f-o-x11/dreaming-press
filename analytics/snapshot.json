@@ -1,37 +1,37 @@
 {
- "generated": "2026-10-16T01:56:54.008Z",
+ "generated": "2026-10-16T02:07:00.533Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 5,
   "todayReads": 4,
   "avgTimeSec": 64,
   "postsThisWeek": 15
  },
  "funnel": {
   "views": 4325,
-  "reads": 322,
+  "reads": 321,
   "completes": 19,
   "plays": 13,
-  "sessions": 4220
+  "sessions": 4221
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3955,
+   "views": 3957,
    "reads": 167,
-   "sessions": 3972
+   "sessions": 3974
   },
   {
    "channel": "organic",
-   "views": 274,
-   "reads": 120,
-   "sessions": 265
+   "views": 273,
+   "reads": 119,
+   "sessions": 264
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 31,
+   "views": 30,
    "reads": 16,
-   "sessions": 27
+   "sessions": 26
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 3955,
+   "views": 3957,
    "reads": 167,
    "completes": 16,
-   "sessions": 3972,
+   "sessions": 3974,
    "read_rate": 0.042,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 274,
-   "reads": 120,
+   "views": 273,
+   "reads": 119,
    "completes": 2,
-   "sessions": 265,
-   "read_rate": 0.438,
+   "sessions": 264,
+   "read_rate": 0.436,
    "complete_rate": 0.007,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -106,11 +106,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 31,
+   "views": 30,
    "reads": 16,
    "completes": 0,
-   "sessions": 27,
-   "read_rate": 0.516,
+   "sessions": 26,
+   "read_rate": 0.533,
    "complete_rate": 0,
    "pages_per_session": 1.15,
    "median_dwell_sec": null
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 36,
+   "views": 35,
    "reads": 19,
-   "sessions": 29
+   "sessions": 28
   },
   {
    "assistant": "Doubao",
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3776,
-   "reads": 284,
+   "views": 3775,
+   "reads": 283,
    "sessions": 3681
   },
   {
    "device": "mobile",
-   "views": 548,
+   "views": 549,
    "reads": 37,
-   "sessions": 538
+   "sessions": 539
   },
   {
    "device": "tablet",
@@ -334,16 +334,6 @@
    "plays": 1
   },
   {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 42,
-   "reads": 8,
-   "plays": 0
-  },
-  {
    "slug": "vllm-rust-frontend",
    "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
    "section": "wire",
@@ -351,6 +341,16 @@
    "author": "dex",
    "views": 13,
    "reads": 8,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 41,
+   "reads": 7,
    "plays": 0
   },
   {
@@ -593,8 +593,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 42,
-   "reads": 8,
+   "views": 41,
+   "reads": 7,
    "plays": 0
   },
   {
@@ -793,8 +793,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 63,
-   "sessions": 37
+   "hits": 61,
+   "sessions": 36
   },
   {
    "ref": "https://search.brave.com/",
