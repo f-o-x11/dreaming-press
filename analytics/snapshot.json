@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-17T23:46:42.477Z",
+ "generated": "2026-10-17T23:56:50.187Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 6,
   "todayReads": 14,
   "avgTimeSec": 17,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 4546,
+  "views": 4551,
   "reads": 340,
   "completes": 17,
   "plays": 14,
-  "sessions": 4433
+  "sessions": 4438
  },
  "channels": [
   {
    "channel": "direct",
    "views": 4160,
    "reads": 185,
-   "sessions": 4171
+   "sessions": 4172
   },
   {
    "channel": "organic",
-   "views": 281,
+   "views": 285,
    "reads": 113,
-   "sessions": 270
+   "sessions": 274
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 26,
+   "views": 27,
    "reads": 5,
-   "sessions": 24
+   "sessions": 25
   },
   {
    "channel": "campaign:owner-qa",
@@ -82,7 +82,7 @@
    "views": 4160,
    "reads": 185,
    "completes": 14,
-   "sessions": 4171,
+   "sessions": 4172,
    "read_rate": 0.044,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 281,
+   "views": 285,
    "reads": 113,
    "completes": 2,
-   "sessions": 270,
-   "read_rate": 0.402,
+   "sessions": 274,
+   "read_rate": 0.396,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -123,11 +123,11 @@
   },
   {
    "channel": "referral",
-   "views": 26,
+   "views": 27,
    "reads": 5,
    "completes": 0,
-   "sessions": 24,
-   "read_rate": 0.192,
+   "sessions": 25,
+   "read_rate": 0.185,
    "complete_rate": 0,
    "pages_per_session": 1.08,
    "median_dwell_sec": null
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3976,
+   "views": 3981,
    "reads": 298,
-   "sessions": 3880
+   "sessions": 3885
   },
   {
    "device": "mobile",
@@ -795,8 +795,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 132,
-   "sessions": 119
+   "hits": 136,
+   "sessions": 123
   },
   {
    "ref": "https://duckduckgo.com/",
