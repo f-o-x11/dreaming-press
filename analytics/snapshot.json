@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-17T09:34:22.151Z",
+ "generated": "2026-10-17T09:44:29.936Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 5,
   "todayReads": 6,
   "avgTimeSec": 24,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 4507,
-  "reads": 342,
+  "views": 4508,
+  "reads": 340,
   "completes": 17,
   "plays": 13,
-  "sessions": 4399
+  "sessions": 4400
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4123,
-   "reads": 184,
-   "sessions": 4136
+   "views": 4125,
+   "reads": 183,
+   "sessions": 4138
   },
   {
    "channel": "organic",
-   "views": 284,
-   "reads": 116,
-   "sessions": 274
+   "views": 283,
+   "reads": 115,
+   "sessions": 273
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,22 +79,22 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4123,
-   "reads": 184,
+   "views": 4125,
+   "reads": 183,
    "completes": 14,
-   "sessions": 4136,
-   "read_rate": 0.045,
+   "sessions": 4138,
+   "read_rate": 0.044,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": 8
   },
   {
    "channel": "organic",
-   "views": 284,
-   "reads": 116,
+   "views": 283,
+   "reads": 115,
    "completes": 2,
-   "sessions": 274,
-   "read_rate": 0.408,
+   "sessions": 273,
+   "read_rate": 0.406,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -313,14 +313,14 @@
   {
    "device": "desktop",
    "views": 3952,
-   "reads": 301,
+   "reads": 299,
    "sessions": 3859
   },
   {
    "device": "mobile",
-   "views": 554,
+   "views": 555,
    "reads": 40,
-   "sessions": 539
+   "sessions": 540
   },
   {
    "device": "tablet",
@@ -483,22 +483,22 @@
  ],
  "topListens": [
   {
+   "slug": "how-to-run-spec-driven-development-github-spec-kit",
+   "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
+   "section": "stack",
+   "tags": "[\"reportive\",\"captivating\"]",
+   "author": "rosalinda",
+   "views": 6,
+   "reads": 3,
+   "plays": 2
+  },
+  {
    "slug": "tool-result-too-large-for-context-window",
    "title": "How to Handle a Tool Result Too Large for the Context Window: Truncate, Paginate, or Hand Back a Handle",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 6,
-   "reads": 3,
-   "plays": 2
-  },
-  {
-   "slug": "how-to-run-spec-driven-development-github-spec-kit",
-   "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
-   "section": "stack",
-   "tags": "[\"reportive\",\"captivating\"]",
-   "author": "rosalinda",
-   "views": 5,
    "reads": 3,
    "plays": 2
   },
@@ -688,9 +688,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 481,
+   "views": 480,
    "reads": 10,
-   "sessions": 481,
+   "sessions": 480,
    "avg_dwell_sec": 85
   },
   {
@@ -743,6 +743,13 @@
    "avg_dwell_sec": 44
   },
   {
+   "path": "/partner",
+   "views": 9,
+   "reads": 1,
+   "sessions": 7,
+   "avg_dwell_sec": 271
+  },
+  {
    "path": "/submit.html",
    "views": 9,
    "reads": 3,
@@ -762,13 +769,6 @@
    "reads": 0,
    "sessions": 7,
    "avg_dwell_sec": 4
-  },
-  {
-   "path": "/partner",
-   "views": 8,
-   "reads": 1,
-   "sessions": 6,
-   "avg_dwell_sec": 271
   },
   {
    "path": "/stack.html",
@@ -799,14 +799,14 @@
    "sessions": 119
   },
   {
-   "ref": "https://duckduckgo.com/",
-   "hits": 89,
-   "sessions": 49
-  },
-  {
    "ref": "https://www.bing.com/",
    "hits": 87,
    "sessions": 42
+  },
+  {
+   "ref": "https://duckduckgo.com/",
+   "hits": 87,
+   "sessions": 48
   },
   {
    "ref": "https://cn.bing.com/",
