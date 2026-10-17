@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-17T18:01:00.291Z",
+ "generated": "2026-10-17T18:11:18.388Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17758,
+ "verifiedAiHits": 17764,
  "logsScanned": 30,
  "windowStart": "2026-10-03",
  "windowEnd": "2026-10-17",
- "totalHits": 137891,
- "aiHits": 114504,
+ "totalHits": 137994,
+ "aiHits": 114596,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31602,
+   "hits": 31624,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -47,7 +47,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 18008,
+   "hits": 18015,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -61,16 +61,16 @@
      "hits": 34
     },
     {
+     "path": "/dashboard",
+     "hits": 14
+    },
+    {
      "path": "/stacks/undefined",
      "hits": 14
     },
     {
      "path": "/tags/opinionated",
      "hits": 13
-    },
-    {
-     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 12
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16757,
+   "hits": 16773,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15904,
+   "hits": 15911,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 10618,
+   "hits": 10623,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6967,
-   "verifiedHits": 6936,
+   "hits": 6971,
+   "verifiedHits": 6939,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 6826,
+   "hits": 6829,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 5834,
-   "verifiedHits": 5726,
+   "hits": 5843,
+   "verifiedHits": 5730,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5599,
-   "verifiedHits": 5545,
+   "hits": 5603,
+   "verifiedHits": 5546,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4416,
+   "hits": 4417,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3443,
-   "verifiedHits": 3349,
+   "hits": 3449,
+   "verifiedHits": 3350,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
    "topPaths": [
     {
      "path": "/",
-     "hits": 920
+     "hits": 921
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -410,7 +410,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 3196,
+   "hits": 3197,
    "verifiedHits": 3138,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1630,
+   "hits": 1635,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -462,7 +462,7 @@
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
-     "hits": 67
+     "hits": 68
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
@@ -476,7 +476,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1072,
+   "hits": 1074,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -509,7 +509,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 625,
+   "hits": 628,
    "verifiedHits": 550,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -542,7 +542,7 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 435,
+   "hits": 438,
    "verifiedHits": 0,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-17",
@@ -608,7 +608,7 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 165,
+   "hits": 168,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -703,6 +703,39 @@
    "verifiable": false
   },
   {
+   "name": "cohere-ai",
+   "label": "Cohere",
+   "category": "ai",
+   "home": "https://cohere.com",
+   "hits": 40,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-04",
+   "lastSeen": "2026-10-17",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 2
+    },
+    {
+     "path": "/cgi-bin/php",
+     "hits": 2
+    },
+    {
+     "path": "/serverless.yml",
+     "hits": 2
+    },
+    {
+     "path": "/read-document",
+     "hits": 1
+    },
+    {
+     "path": "/c93wlmnristoos6t8skm",
+     "hits": 1
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Google-Extended",
    "label": "Gemini / Vertex (Google-Extended)",
    "category": "ai",
@@ -730,39 +763,6 @@
     },
     {
      "path": "/login",
-     "hits": 1
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "cohere-ai",
-   "label": "Cohere",
-   "category": "ai",
-   "home": "https://cohere.com",
-   "hits": 38,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-04",
-   "lastSeen": "2026-10-17",
-   "topPaths": [
-    {
-     "path": "/cgi-bin/php",
-     "hits": 2
-    },
-    {
-     "path": "/serverless.yml",
-     "hits": 2
-    },
-    {
-     "path": "/",
-     "hits": 1
-    },
-    {
-     "path": "/read-document",
-     "hits": 1
-    },
-    {
-     "path": "/c93wlmnristoos6t8skm",
      "hits": 1
     }
    ],
