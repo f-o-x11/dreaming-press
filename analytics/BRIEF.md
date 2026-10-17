@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-17T04:49Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-17T05:00Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -107,9 +107,9 @@ sample size dwarfs the engaged-read counts below.
 - /wire.html  — 52 retrieval fetches
 
 Per engine:
-- PerplexityBot (5444 verified): / ×27 · /tools ×22 · /newsroom ×21
-- OAI-SearchBot (5322 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×118 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×87 · /posts/open-source-llm-for-coding-september-2026.html ×87
-- ChatGPT-User (3224 verified): / ×881 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×138 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×134
+- PerplexityBot (5446 verified): / ×27 · /tools ×22 · /newsroom ×21
+- OAI-SearchBot (5323 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×118 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×87 · /posts/open-source-llm-for-coding-september-2026.html ×87
+- ChatGPT-User (3225 verified): / ×881 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×138 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×134
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -123,7 +123,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Uncovered search demand (254 of 461 phrases have NO post, 10h ago)
+## Uncovered search demand (254 of 461 phrases have NO post, 11h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -146,7 +146,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16340 confirmed AI-engine fetches (Perplexity 5444, ChatGPT Search (OpenAI) 5322, ChatGPT (user browsing) 3224, GPTBot (OpenAI) 2350).
+The real answer engines are crawling us — IP-verified: 16375 confirmed AI-engine fetches (Perplexity 5446, ChatGPT Search (OpenAI) 5323, ChatGPT (user browsing) 3225, GPTBot (OpenAI) 2381).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 428 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 334 crawler fetches
