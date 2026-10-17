@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-17T16:09:29.073Z",
+ "generated": "2026-10-17T16:19:30.024Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17608,
+ "verifiedAiHits": 17613,
  "logsScanned": 30,
  "windowStart": "2026-10-03",
  "windowEnd": "2026-10-17",
- "totalHits": 137131,
- "aiHits": 113881,
+ "totalHits": 137165,
+ "aiHits": 113902,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31437,
+   "hits": 31445,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16585,
+   "hits": 16586,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15820,
+   "hits": 15827,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6936,
-   "verifiedHits": 6910,
+   "hits": 6939,
+   "verifiedHits": 6913,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 6776,
+   "hits": 6780,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5543,
-   "verifiedHits": 5491,
+   "hits": 5546,
+   "verifiedHits": 5494,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
    "topPaths": [
@@ -311,14 +311,14 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4382,
+   "hits": 4388,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 16
+     "hits": 17
     },
     {
      "path": "/posts/2026-09-26-founders-wire-nscale-ema-island-agent-control.html",
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3423,
-   "verifiedHits": 3335,
+   "hits": 3425,
+   "verifiedHits": 3337,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
    "topPaths": [
     {
      "path": "/",
-     "hits": 915
+     "hits": 916
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
