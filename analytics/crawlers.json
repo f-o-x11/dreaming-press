@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-17T01:06:57.159Z",
+ "generated": "2026-10-17T01:17:00.037Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16170,
+ "verifiedAiHits": 16175,
  "logsScanned": 30,
  "windowStart": "2026-10-03",
  "windowEnd": "2026-10-17",
- "totalHits": 131231,
- "aiHits": 108951,
+ "totalHits": 131295,
+ "aiHits": 108996,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30050,
+   "hits": 30067,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15228,
+   "hits": 15242,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15158,
+   "hits": 15166,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6682,
-   "verifiedHits": 6656,
+   "hits": 6684,
+   "verifiedHits": 6658,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 6409,
+   "hits": 6412,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 5462,
-   "verifiedHits": 5358,
+   "hits": 5465,
+   "verifiedHits": 5361,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5317,
-   "verifiedHits": 5265,
+   "hits": 5318,
+   "verifiedHits": 5266,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4236,
+   "hits": 4237,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -344,7 +344,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3952,
+   "hits": 3960,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3284,
-   "verifiedHits": 3198,
+   "hits": 3285,
+   "verifiedHits": 3199,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
    "topPaths": [
@@ -400,7 +400,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 76
+     "hits": 77
     }
    ],
    "verifiable": true
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1573,
+   "hits": 1574,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -454,7 +454,7 @@
     },
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
-     "hits": 164
+     "hits": 165
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
@@ -509,10 +509,10 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 579,
-   "verifiedHits": 508,
+   "hits": 584,
+   "verifiedHits": 513,
    "firstSeen": "2026-10-03",
-   "lastSeen": "2026-10-16",
+   "lastSeen": "2026-10-17",
    "topPaths": [
     {
      "path": "/",
@@ -523,15 +523,15 @@
      "hits": 2
     },
     {
+     "path": "/posts/dead-letter-queues-for-ai-agent-tasks.html",
+     "hits": 2
+    },
+    {
      "path": "/alternatives/composio",
      "hits": 2
     },
     {
      "path": "/posts/best-ai-agent-platform-2026-founders-decision-guide.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/open-weight-coding-model-you-can-actually-self-host-september-2026.html",
      "hits": 2
     }
    ],
