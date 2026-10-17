@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-17T08:33:36.387Z",
+ "generated": "2026-10-17T08:43:39.496Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17266,
+ "verifiedAiHits": 17274,
  "logsScanned": 30,
  "windowStart": "2026-10-03",
  "windowEnd": "2026-10-17",
- "totalHits": 134394,
- "aiHits": 111653,
+ "totalHits": 134439,
+ "aiHits": 111692,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30755,
+   "hits": 30763,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15757,
+   "hits": 15772,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15485,
+   "hits": 15492,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6799,
-   "verifiedHits": 6773,
+   "hits": 6803,
+   "verifiedHits": 6777,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 6593,
+   "hits": 6594,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 5606,
-   "verifiedHits": 5502,
+   "hits": 5608,
+   "verifiedHits": 5504,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5431,
-   "verifiedHits": 5379,
+   "hits": 5434,
+   "verifiedHits": 5382,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4301,
+   "hits": 4302,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3348,
-   "verifiedHits": 3260,
+   "hits": 3351,
+   "verifiedHits": 3263,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
    "topPaths": [
     {
      "path": "/",
-     "hits": 892
+     "hits": 893
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1596,
+   "hits": 1597,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -454,7 +454,7 @@
     },
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
-     "hits": 169
+     "hits": 170
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
