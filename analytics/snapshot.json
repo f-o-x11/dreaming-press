@@ -1,29 +1,29 @@
 {
- "generated": "2026-10-17T17:00:06.496Z",
+ "generated": "2026-10-17T17:10:23.953Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 6,
   "avgTimeSec": 18,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 4553,
+  "views": 4537,
   "reads": 336,
   "completes": 17,
   "plays": 13,
-  "sessions": 4446
+  "sessions": 4431
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4169,
+   "views": 4154,
    "reads": 181,
-   "sessions": 4185
+   "sessions": 4170
   },
   {
    "channel": "organic",
-   "views": 280,
+   "views": 279,
    "reads": 113,
    "sessions": 270
   },
@@ -79,24 +79,24 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4169,
+   "views": 4154,
    "reads": 181,
    "completes": 14,
-   "sessions": 4185,
-   "read_rate": 0.043,
+   "sessions": 4170,
+   "read_rate": 0.044,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": 8
   },
   {
    "channel": "organic",
-   "views": 280,
+   "views": 279,
    "reads": 113,
    "completes": 2,
    "sessions": 270,
-   "read_rate": 0.404,
+   "read_rate": 0.405,
    "complete_rate": 0.007,
-   "pages_per_session": 1.04,
+   "pages_per_session": 1.03,
    "median_dwell_sec": 3
   },
   {
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3989,
+   "views": 3973,
    "reads": 297,
-   "sessions": 3897
+   "sessions": 3882
   },
   {
    "device": "mobile",
@@ -548,7 +548,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 4,
+   "views": 3,
    "reads": 2,
    "plays": 1
   },
@@ -702,9 +702,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 107,
+   "views": 93,
    "reads": 0,
-   "sessions": 107,
+   "sessions": 93,
    "avg_dwell_sec": 11
   },
   {
@@ -723,9 +723,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 24,
+   "views": 23,
    "reads": 0,
-   "sessions": 24,
+   "sessions": 23,
    "avg_dwell_sec": null
   },
   {
@@ -810,7 +810,7 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 57,
+   "hits": 56,
    "sessions": 34
   },
   {
