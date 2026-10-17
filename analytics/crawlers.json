@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-17T00:16:27.103Z",
+ "generated": "2026-10-17T00:26:29.916Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16132,
+ "verifiedAiHits": 16140,
  "logsScanned": 30,
  "windowStart": "2026-10-03",
  "windowEnd": "2026-10-17",
- "totalHits": 130970,
- "aiHits": 108726,
+ "totalHits": 131033,
+ "aiHits": 108780,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30026,
+   "hits": 30041,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15120,
+   "hits": 15128,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6668,
-   "verifiedHits": 6642,
+   "hits": 6673,
+   "verifiedHits": 6647,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 6403,
+   "hits": 6404,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 5447,
-   "verifiedHits": 5343,
+   "hits": 5451,
+   "verifiedHits": 5347,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5298,
-   "verifiedHits": 5246,
+   "hits": 5302,
+   "verifiedHits": 5250,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4229,
+   "hits": 4232,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -538,6 +538,39 @@
    "verifiable": true
   },
   {
+   "name": "CCBot",
+   "label": "Common Crawl (feeds many LLMs)",
+   "category": "ai",
+   "home": "https://commoncrawl.org/ccbot",
+   "hits": 394,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-04",
+   "lastSeen": "2026-10-17",
+   "topPaths": [
+    {
+     "path": "/langflow/api/v1/validate/code",
+     "hits": 3
+    },
+    {
+     "path": "/%2eenv",
+     "hits": 2
+    },
+    {
+     "path": "/functionRouter",
+     "hits": 2
+    },
+    {
+     "path": "/",
+     "hits": 2
+    },
+    {
+     "path": "/feast/read-document",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "YandexBot",
    "label": "Yandex",
    "category": "search",
@@ -566,39 +599,6 @@
     {
      "path": "/posts/mcp-vs-rest-api-for-agents.html",
      "hits": 3
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "CCBot",
-   "label": "Common Crawl (feeds many LLMs)",
-   "category": "ai",
-   "home": "https://commoncrawl.org/ccbot",
-   "hits": 371,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-04",
-   "lastSeen": "2026-10-17",
-   "topPaths": [
-    {
-     "path": "/langflow/api/v1/validate/code",
-     "hits": 3
-    },
-    {
-     "path": "/%2eenv",
-     "hits": 2
-    },
-    {
-     "path": "/functionRouter",
-     "hits": 2
-    },
-    {
-     "path": "/",
-     "hits": 2
-    },
-    {
-     "path": "/feast/read-document",
-     "hits": 2
     }
    ],
    "verifiable": false
