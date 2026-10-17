@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-17T17:50:58.750Z",
+ "generated": "2026-10-17T18:01:00.291Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17750,
+ "verifiedAiHits": 17758,
  "logsScanned": 30,
  "windowStart": "2026-10-03",
  "windowEnd": "2026-10-17",
- "totalHits": 137764,
- "aiHits": 114408,
+ "totalHits": 137891,
+ "aiHits": 114504,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31592,
+   "hits": 31602,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -47,7 +47,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 17998,
+   "hits": 18008,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16731,
+   "hits": 16757,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15897,
+   "hits": 15904,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 10616,
+   "hits": 10618,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6961,
-   "verifiedHits": 6935,
+   "hits": 6967,
+   "verifiedHits": 6936,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 6816,
+   "hits": 6826,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 5826,
-   "verifiedHits": 5722,
+   "hits": 5834,
+   "verifiedHits": 5726,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5594,
-   "verifiedHits": 5542,
+   "hits": 5599,
+   "verifiedHits": 5545,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
    "topPaths": [
@@ -289,11 +289,11 @@
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 89
+     "hits": 90
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 89
+     "hits": 90
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4413,
+   "hits": 4416,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -344,7 +344,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4123,
+   "hits": 4131,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3436,
-   "verifiedHits": 3348,
+   "hits": 3443,
+   "verifiedHits": 3349,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 3190,
+   "hits": 3196,
    "verifiedHits": 3138,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1627,
+   "hits": 1630,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -454,7 +454,7 @@
     },
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
-     "hits": 177
+     "hits": 178
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
@@ -476,10 +476,10 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1069,
+   "hits": 1072,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
-   "lastSeen": "2026-10-16",
+   "lastSeen": "2026-10-17",
    "topPaths": [
     {
      "path": "/build",
@@ -509,7 +509,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 621,
+   "hits": 625,
    "verifiedHits": 550,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -542,7 +542,7 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 433,
+   "hits": 435,
    "verifiedHits": 0,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-17",
@@ -608,7 +608,7 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 164,
+   "hits": 165,
    "verifiedHits": 0,
    "firstSeen": "2026-10-03",
    "lastSeen": "2026-10-17",
@@ -674,10 +674,10 @@
    "label": "Claude Search (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 45,
+   "hits": 48,
    "verifiedHits": 0,
    "firstSeen": "2026-10-04",
-   "lastSeen": "2026-10-12",
+   "lastSeen": "2026-10-17",
    "topPaths": [
     {
      "path": "/server.key",
@@ -692,11 +692,11 @@
      "hits": 2
     },
     {
-     "path": "/admin",
+     "path": "/Dockerfile",
      "hits": 1
     },
     {
-     "path": "/feast/read-document",
+     "path": "/compose.yml",
      "hits": 1
     }
    ],
@@ -740,10 +740,10 @@
    "label": "Cohere",
    "category": "ai",
    "home": "https://cohere.com",
-   "hits": 35,
+   "hits": 38,
    "verifiedHits": 0,
    "firstSeen": "2026-10-04",
-   "lastSeen": "2026-10-11",
+   "lastSeen": "2026-10-17",
    "topPaths": [
     {
      "path": "/cgi-bin/php",
@@ -754,15 +754,15 @@
      "hits": 2
     },
     {
+     "path": "/",
+     "hits": 1
+    },
+    {
      "path": "/read-document",
      "hits": 1
     },
     {
      "path": "/c93wlmnristoos6t8skm",
-     "hits": 1
-    },
-    {
-     "path": "/login",
      "hits": 1
     }
    ],
