@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-17T02:07:51.639Z",
+ "generated": "2026-10-17T02:17:59.461Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 5,
   "todayReads": 0,
-  "avgTimeSec": 8,
+  "avgTimeSec": 7,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 4478,
+  "views": 4479,
   "reads": 337,
   "completes": 18,
   "plays": 13,
-  "sessions": 4366
+  "sessions": 4368
  },
  "channels": [
   {
    "channel": "direct",
    "views": 4099,
    "reads": 183,
-   "sessions": 4105
+   "sessions": 4106
   },
   {
    "channel": "organic",
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 28,
+   "views": 29,
    "reads": 17,
-   "sessions": 24
+   "sessions": 25
   },
   {
    "channel": "ai",
    "views": 34,
    "reads": 12,
-   "sessions": 36
+   "sessions": 37
   },
   {
    "channel": "referral",
@@ -82,7 +82,7 @@
    "views": 4099,
    "reads": 183,
    "completes": 15,
-   "sessions": 4105,
+   "sessions": 4106,
    "read_rate": 0.045,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -104,21 +104,21 @@
    "views": 34,
    "reads": 12,
    "completes": 0,
-   "sessions": 36,
+   "sessions": 37,
    "read_rate": 0.353,
    "complete_rate": 0,
-   "pages_per_session": 0.94,
-   "median_dwell_sec": 87
+   "pages_per_session": 0.92,
+   "median_dwell_sec": 82
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 28,
+   "views": 29,
    "reads": 17,
    "completes": 0,
-   "sessions": 24,
-   "read_rate": 0.607,
+   "sessions": 25,
+   "read_rate": 0.586,
    "complete_rate": 0,
-   "pages_per_session": 1.17,
+   "pages_per_session": 1.16,
    "median_dwell_sec": null
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 33,
+   "views": 34,
    "reads": 20,
-   "sessions": 26
+   "sessions": 27
   },
   {
    "assistant": "Doubao",
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3925,
+   "views": 3926,
    "reads": 297,
-   "sessions": 3828
+   "sessions": 3830
   },
   {
    "device": "mobile",
