@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-18T01:38:00.220Z",
+ "generated": "2026-10-18T01:48:10.332Z",
  "windowDays": 14,
  "site": {
   "readersNow": 4,
-  "todayReads": 2,
-  "avgTimeSec": 5,
+  "todayReads": 3,
+  "avgTimeSec": 7,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 4569,
-  "reads": 340,
+  "views": 4565,
+  "reads": 341,
   "completes": 16,
   "plays": 14,
-  "sessions": 4454
+  "sessions": 4450
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4179,
+   "views": 4174,
    "reads": 185,
-   "sessions": 4189
+   "sessions": 4185
   },
   {
    "channel": "organic",
-   "views": 285,
-   "reads": 113,
-   "sessions": 274
+   "views": 286,
+   "reads": 114,
+   "sessions": 275
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4179,
+   "views": 4174,
    "reads": 185,
    "completes": 13,
-   "sessions": 4189,
+   "sessions": 4185,
    "read_rate": 0.044,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 285,
-   "reads": 113,
+   "views": 286,
+   "reads": 114,
    "completes": 2,
-   "sessions": 274,
-   "read_rate": 0.396,
+   "sessions": 275,
+   "read_rate": 0.399,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3998,
-   "reads": 298,
-   "sessions": 3900
+   "views": 3995,
+   "reads": 299,
+   "sessions": 3897
   },
   {
    "device": "mobile",
-   "views": 570,
+   "views": 569,
    "reads": 41,
-   "sessions": 553
+   "sessions": 552
   },
   {
    "device": "tablet",
@@ -702,9 +702,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 104,
+   "views": 103,
    "reads": 0,
-   "sessions": 104,
+   "sessions": 103,
    "avg_dwell_sec": 11
   },
   {
@@ -800,8 +800,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 86,
-   "sessions": 47
+   "hits": 88,
+   "sessions": 48
   },
   {
    "ref": "https://www.bing.com/",
