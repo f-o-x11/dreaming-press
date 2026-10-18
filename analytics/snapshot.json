@@ -1,37 +1,37 @@
 {
- "generated": "2026-10-18T09:03:28.124Z",
+ "generated": "2026-10-18T09:13:30.262Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 8,
+  "readersNow": 3,
+  "todayReads": 9,
   "avgTimeSec": 8,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 4556,
-  "reads": 340,
+  "views": 4557,
+  "reads": 341,
   "completes": 16,
   "plays": 12,
-  "sessions": 4444
+  "sessions": 4446
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4170,
+   "views": 4171,
    "reads": 186,
-   "sessions": 4183
+   "sessions": 4185
   },
   {
    "channel": "organic",
-   "views": 285,
-   "reads": 113,
-   "sessions": 274
+   "views": 286,
+   "reads": 114,
+   "sessions": 275
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 30,
+   "views": 29,
    "reads": 18,
-   "sessions": 26
+   "sessions": 25
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4170,
+   "views": 4171,
    "reads": 186,
    "completes": 13,
-   "sessions": 4183,
+   "sessions": 4185,
    "read_rate": 0.045,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 285,
-   "reads": 113,
+   "views": 286,
+   "reads": 114,
    "completes": 2,
-   "sessions": 274,
-   "read_rate": 0.396,
+   "sessions": 275,
+   "read_rate": 0.399,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -112,13 +112,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 30,
+   "views": 29,
    "reads": 18,
    "completes": 0,
-   "sessions": 26,
-   "read_rate": 0.6,
+   "sessions": 25,
+   "read_rate": 0.621,
    "complete_rate": 0,
-   "pages_per_session": 1.15,
+   "pages_per_session": 1.16,
    "median_dwell_sec": null
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 36,
+   "views": 35,
    "reads": 22,
-   "sessions": 28
+   "sessions": 27
   },
   {
    "assistant": "Doubao",
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3987,
-   "reads": 298,
-   "sessions": 3892
+   "views": 3988,
+   "reads": 299,
+   "sessions": 3894
   },
   {
    "device": "mobile",
@@ -815,8 +815,8 @@
   },
   {
    "ref": "https://search.brave.com/",
-   "hits": 21,
-   "sessions": 10
+   "hits": 23,
+   "sessions": 11
   },
   {
    "ref": "https://chatgpt.com/",
