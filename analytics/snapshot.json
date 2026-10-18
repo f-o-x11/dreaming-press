@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-18T06:51:52.306Z",
+ "generated": "2026-10-18T07:01:59.212Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 5,
+  "readersNow": 1,
+  "todayReads": 6,
   "avgTimeSec": 6,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 4562,
-  "reads": 339,
+  "views": 4561,
+  "reads": 340,
   "completes": 16,
   "plays": 13,
-  "sessions": 4450
+  "sessions": 4448
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4174,
+   "views": 4172,
    "reads": 184,
-   "sessions": 4186
+   "sessions": 4184
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 36,
-   "reads": 11,
-   "sessions": 42
+   "views": 37,
+   "reads": 12,
+   "sessions": 43
   },
   {
    "channel": "referral",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 25
+   "sessions": 26
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4174,
+   "views": 4172,
    "reads": 184,
    "completes": 13,
-   "sessions": 4186,
+   "sessions": 4184,
    "read_rate": 0.044,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "ai",
-   "views": 36,
-   "reads": 11,
+   "views": 37,
+   "reads": 12,
    "completes": 0,
-   "sessions": 42,
-   "read_rate": 0.306,
+   "sessions": 43,
+   "read_rate": 0.324,
    "complete_rate": 0,
    "pages_per_session": 0.86,
    "median_dwell_sec": 53
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 25,
+   "sessions": 26,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -225,6 +225,11 @@
    "sessions": 2
   },
   {
+   "surface": "pager-link",
+   "clicks": 2,
+   "sessions": 2
+  },
+  {
    "surface": "dg-lead-img",
    "clicks": 2,
    "sessions": 1
@@ -241,11 +246,6 @@
   },
   {
    "surface": "rr-card",
-   "clicks": 1,
-   "sessions": 1
-  },
-  {
-   "surface": "pager-link",
    "clicks": 1,
    "sessions": 1
   },
@@ -268,8 +268,8 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 35,
-   "reads": 22,
+   "views": 36,
+   "reads": 23,
    "sessions": 28
   },
   {
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3990,
-   "reads": 298,
-   "sessions": 3895
+   "views": 3989,
+   "reads": 299,
+   "sessions": 3893
   },
   {
    "device": "mobile",
