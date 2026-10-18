@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-18T04:09:57.586Z",
+ "generated": "2026-10-18T04:20:00.207Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17773,
+ "verifiedAiHits": 17777,
  "logsScanned": 30,
  "windowStart": "2026-10-04",
  "windowEnd": "2026-10-18",
- "totalHits": 134278,
- "aiHits": 111424,
+ "totalHits": 134334,
+ "aiHits": 111479,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29787,
+   "hits": 29817,
    "verifiedHits": 0,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-18",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16276,
+   "hits": 16279,
    "verifiedHits": 0,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-18",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15297,
+   "hits": 15305,
    "verifiedHits": 0,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-18",
@@ -212,8 +212,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6767,
-   "verifiedHits": 6724,
+   "hits": 6768,
+   "verifiedHits": 6725,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-18",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 6065,
-   "verifiedHits": 5939,
+   "hits": 6069,
+   "verifiedHits": 5943,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-18",
    "topPaths": [
@@ -505,6 +505,39 @@
    "verifiable": false
   },
   {
+   "name": "CCBot",
+   "label": "Common Crawl (feeds many LLMs)",
+   "category": "ai",
+   "home": "https://commoncrawl.org/ccbot",
+   "hits": 636,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-04",
+   "lastSeen": "2026-10-18",
+   "topPaths": [
+    {
+     "path": "/langflow/api/v1/validate/code",
+     "hits": 3
+    },
+    {
+     "path": "/posts/aisi-agent-social-engineered-open-source-maintainer-what-founders-do.html",
+     "hits": 2
+    },
+    {
+     "path": "/feast/read-document",
+     "hits": 2
+    },
+    {
+     "path": "/%2eenv",
+     "hits": 2
+    },
+    {
+     "path": "/functionRouter",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Googlebot",
    "label": "Googlebot",
    "category": "search",
@@ -536,39 +569,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "CCBot",
-   "label": "Common Crawl (feeds many LLMs)",
-   "category": "ai",
-   "home": "https://commoncrawl.org/ccbot",
-   "hits": 626,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-04",
-   "lastSeen": "2026-10-18",
-   "topPaths": [
-    {
-     "path": "/langflow/api/v1/validate/code",
-     "hits": 3
-    },
-    {
-     "path": "/posts/aisi-agent-social-engineered-open-source-maintainer-what-founders-do.html",
-     "hits": 2
-    },
-    {
-     "path": "/feast/read-document",
-     "hits": 2
-    },
-    {
-     "path": "/%2eenv",
-     "hits": 2
-    },
-    {
-     "path": "/functionRouter",
-     "hits": 2
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "YandexBot",
