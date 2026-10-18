@@ -1,10 +1,10 @@
 {
- "generated": "2026-10-18T08:12:50.281Z",
+ "generated": "2026-10-18T08:22:57.594Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 6,
-  "avgTimeSec": 6,
+  "avgTimeSec": 8,
   "postsThisWeek": 14
  },
  "funnel": {
@@ -12,12 +12,12 @@
   "reads": 339,
   "completes": 16,
   "plays": 12,
-  "sessions": 4444
+  "sessions": 4445
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4171,
+   "views": 4170,
    "reads": 184,
    "sessions": 4183
   },
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 29,
+   "views": 30,
    "reads": 18,
-   "sessions": 25
+   "sessions": 26
   },
   {
    "channel": "ai",
    "views": 35,
    "reads": 12,
-   "sessions": 41
+   "sessions": 42
   },
   {
    "channel": "referral",
@@ -79,7 +79,7 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4171,
+   "views": 4170,
    "reads": 184,
    "completes": 13,
    "sessions": 4183,
@@ -104,21 +104,21 @@
    "views": 35,
    "reads": 12,
    "completes": 0,
-   "sessions": 41,
+   "sessions": 42,
    "read_rate": 0.343,
    "complete_rate": 0,
-   "pages_per_session": 0.85,
-   "median_dwell_sec": 53
+   "pages_per_session": 0.83,
+   "median_dwell_sec": 29
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 29,
+   "views": 30,
    "reads": 18,
    "completes": 0,
-   "sessions": 25,
-   "read_rate": 0.621,
+   "sessions": 26,
+   "read_rate": 0.6,
    "complete_rate": 0,
-   "pages_per_session": 1.16,
+   "pages_per_session": 1.15,
    "median_dwell_sec": null
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 35,
+   "views": 36,
    "reads": 22,
-   "sessions": 27
+   "sessions": 28
   },
   {
    "assistant": "Doubao",
@@ -314,7 +314,7 @@
    "device": "desktop",
    "views": 3988,
    "reads": 298,
-   "sessions": 3892
+   "sessions": 3893
   },
   {
    "device": "mobile",
@@ -695,7 +695,7 @@
   },
   {
    "path": "/",
-   "views": 164,
+   "views": 163,
    "reads": 4,
    "sessions": 170,
    "avg_dwell_sec": 11
