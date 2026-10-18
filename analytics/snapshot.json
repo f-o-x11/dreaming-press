@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-18T18:02:43.190Z",
+ "generated": "2026-10-18T18:12:53.513Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 2,
   "todayReads": 13,
   "avgTimeSec": 13,
   "postsThisWeek": 14
  },
  "funnel": {
   "views": 4705,
-  "reads": 341,
+  "reads": 340,
   "completes": 16,
   "plays": 12,
   "sessions": 4593
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 4310,
+   "views": 4311,
    "reads": 189,
-   "sessions": 4324
+   "sessions": 4325
   },
   {
    "channel": "organic",
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 25,
-   "reads": 15,
-   "sessions": 21
+   "views": 24,
+   "reads": 14,
+   "sessions": 20
   },
   {
    "channel": "ai",
    "views": 34,
    "reads": 11,
-   "sessions": 41
+   "sessions": 40
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4310,
+   "views": 4311,
    "reads": 189,
    "completes": 13,
-   "sessions": 4324,
+   "sessions": 4325,
    "read_rate": 0.044,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -104,10 +104,10 @@
    "views": 34,
    "reads": 11,
    "completes": 0,
-   "sessions": 41,
+   "sessions": 40,
    "read_rate": 0.324,
    "complete_rate": 0,
-   "pages_per_session": 0.83,
+   "pages_per_session": 0.85,
    "median_dwell_sec": 29
   },
   {
@@ -123,13 +123,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 25,
-   "reads": 15,
+   "views": 24,
+   "reads": 14,
    "completes": 0,
-   "sessions": 21,
-   "read_rate": 0.6,
+   "sessions": 20,
+   "read_rate": 0.583,
    "complete_rate": 0,
-   "pages_per_session": 1.19,
+   "pages_per_session": 1.2,
    "median_dwell_sec": null
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 31,
-   "reads": 19,
-   "sessions": 23
+   "views": 30,
+   "reads": 18,
+   "sessions": 22
   },
   {
    "assistant": "Doubao",
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4132,
+   "views": 4133,
    "reads": 302,
-   "sessions": 4038
+   "sessions": 4039
   },
   {
    "device": "mobile",
-   "views": 572,
-   "reads": 38,
-   "sessions": 555
+   "views": 571,
+   "reads": 37,
+   "sessions": 554
   },
   {
    "device": "tablet",
@@ -451,16 +451,6 @@
    "plays": 1
   },
   {
-   "slug": "open-source-llm-for-coding-september-2026",
-   "title": "Open-Source LLMs for Coding, Ranked (September 2026): Which Open-Weight Model to Run and What It Takes",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 5,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "2026-10-15-founders-wire-anthropic-opens-its-books",
    "title": "The Founder's Wire, October 15: Anthropic Opened Its Books — $16.8B, an 85% Margin, and $1.70 of Revenue for Every $1 of Compute",
    "section": "wire",
@@ -477,6 +467,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 11,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "how-to-migrate-embedding-models-in-production",
+   "title": "How to Migrate Embedding Models in Production Without Wrecking Retrieval",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
    "reads": 3,
    "plays": 0
   }
