@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-18T14:28:33.486Z",
+ "generated": "2026-10-18T14:38:58.317Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18205,
+ "verifiedAiHits": 18208,
  "logsScanned": 30,
  "windowStart": "2026-10-04",
  "windowEnd": "2026-10-18",
- "totalHits": 137201,
- "aiHits": 113626,
+ "totalHits": 137262,
+ "aiHits": 113666,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30586,
+   "hits": 30591,
    "verifiedHits": 0,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-18",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16722,
+   "hits": 16747,
    "verifiedHits": 0,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-18",
@@ -98,11 +98,11 @@
      "hits": 8
     },
     {
-     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 7
+     "path": "/apps",
+     "hits": 8
     },
     {
-     "path": "/apps",
+     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
      "hits": 7
     }
    ],
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15769,
+   "hits": 15776,
    "verifiedHits": 0,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-18",
@@ -135,8 +135,8 @@
      "hits": 13
     },
     {
-     "path": "/tags/howto",
-     "hits": 10
+     "path": "/dashboard",
+     "hits": 11
     }
    ],
    "verifiable": false
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7055,
+   "hits": 7061,
    "verifiedHits": 0,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-18",
@@ -212,8 +212,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7004,
-   "verifiedHits": 6961,
+   "hits": 7011,
+   "verifiedHits": 6968,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-18",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5657,
-   "verifiedHits": 5591,
+   "hits": 5659,
+   "verifiedHits": 5593,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-18",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4173,
+   "hits": 4181,
    "verifiedHits": 0,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-18",
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3483,
-   "verifiedHits": 3374,
+   "hits": 3484,
+   "verifiedHits": 3375,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-18",
    "topPaths": [
     {
      "path": "/",
-     "hits": 928
+     "hits": 929
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
