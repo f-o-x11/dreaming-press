@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-18T20:45:00.509Z",
+ "generated": "2026-10-18T20:55:05.975Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 13,
   "avgTimeSec": 13,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 4706,
+  "views": 4705,
   "reads": 337,
   "completes": 16,
   "plays": 12,
-  "sessions": 4595
+  "sessions": 4594
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4312,
+   "views": 4311,
    "reads": 187,
-   "sessions": 4327
+   "sessions": 4326
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4312,
+   "views": 4311,
    "reads": 187,
    "completes": 13,
-   "sessions": 4327,
+   "sessions": 4326,
    "read_rate": 0.043,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4132,
+   "views": 4131,
    "reads": 301,
-   "sessions": 4038
+   "sessions": 4037
   },
   {
    "device": "mobile",
@@ -665,16 +665,6 @@
    "plays": 0
   },
   {
-   "slug": "best-open-source-rl-frameworks-for-training-agents",
-   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 25,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "best-llm-for-creative-writing-october-2026",
    "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
    "section": "stack",
@@ -682,6 +672,16 @@
    "author": "dex",
    "views": 24,
    "reads": 9,
+   "plays": 0
+  },
+  {
+   "slug": "2026-10-14-founders-wire-gemini-4-argon-opens-three-models-one-price",
+   "title": "The Founder's Wire, October 14: Gemini 4 Argon Opens Its Gate — and Now Three Frontier Models Cost Exactly the Same",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 24,
+   "reads": 0,
    "plays": 0
   }
  ],
