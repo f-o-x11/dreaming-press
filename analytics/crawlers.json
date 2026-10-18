@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-18T02:38:51.155Z",
+ "generated": "2026-10-18T02:48:58.446Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17722,
+ "verifiedAiHits": 17725,
  "logsScanned": 30,
  "windowStart": "2026-10-04",
  "windowEnd": "2026-10-18",
- "totalHits": 133584,
- "aiHits": 110804,
+ "totalHits": 133640,
+ "aiHits": 110853,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29620,
+   "hits": 29651,
    "verifiedHits": 0,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-18",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/build",
-     "hits": 24
+     "hits": 25
     },
     {
      "path": "/dashboard",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15231,
+   "hits": 15239,
    "verifiedHits": 0,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-18",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 6790,
+   "hits": 6792,
    "verifiedHits": 0,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-18",
@@ -212,8 +212,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6736,
-   "verifiedHits": 6694,
+   "hits": 6739,
+   "verifiedHits": 6697,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-18",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 6052,
-   "verifiedHits": 5926,
+   "hits": 6053,
+   "verifiedHits": 5927,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-18",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5451,
-   "verifiedHits": 5385,
+   "hits": 5453,
+   "verifiedHits": 5387,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-18",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4209,
+   "hits": 4211,
    "verifiedHits": 0,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-18",
@@ -542,10 +542,10 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 446,
+   "hits": 453,
    "verifiedHits": 0,
    "firstSeen": "2026-10-04",
-   "lastSeen": "2026-10-17",
+   "lastSeen": "2026-10-18",
    "topPaths": [
     {
      "path": "/langflow/api/v1/validate/code",
