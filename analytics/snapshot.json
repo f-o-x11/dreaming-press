@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-18T02:48:58.715Z",
+ "generated": "2026-10-18T02:59:00.585Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 6,
   "todayReads": 3,
   "avgTimeSec": 7,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 4562,
+  "views": 4567,
   "reads": 341,
   "completes": 16,
   "plays": 14,
-  "sessions": 4449
+  "sessions": 4454
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4171,
+   "views": 4176,
    "reads": 185,
-   "sessions": 4184
+   "sessions": 4189
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4171,
+   "views": 4176,
    "reads": 185,
    "completes": 13,
-   "sessions": 4184,
+   "sessions": 4189,
    "read_rate": 0.044,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3993,
+   "views": 3996,
    "reads": 299,
-   "sessions": 3897
+   "sessions": 3900
   },
   {
    "device": "mobile",
-   "views": 568,
+   "views": 570,
    "reads": 41,
-   "sessions": 551
+   "sessions": 553
   },
   {
    "device": "tablet",
@@ -665,6 +665,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-10-14-founders-wire-gemini-4-argon-opens-three-models-one-price",
+   "title": "The Founder's Wire, October 14: Gemini 4 Argon Opens Its Gate — and Now Three Frontier Models Cost Exactly the Same",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 24,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "best-open-source-rl-frameworks-for-training-agents",
    "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
    "section": "stack",
@@ -672,16 +682,6 @@
    "author": "dex",
    "views": 24,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "best-llm-for-creative-writing-october-2026",
-   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 23,
-   "reads": 9,
    "plays": 0
   }
  ],
