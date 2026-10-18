@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-18T06:41:40.406Z",
+ "generated": "2026-10-18T06:51:52.306Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 4,
+  "readersNow": 2,
+  "todayReads": 5,
   "avgTimeSec": 6,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 4564,
-  "reads": 338,
+  "views": 4562,
+  "reads": 339,
   "completes": 16,
-  "plays": 12,
-  "sessions": 4452
+  "plays": 13,
+  "sessions": 4450
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4177,
+   "views": 4174,
    "reads": 184,
-   "sessions": 4189
+   "sessions": 4186
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 29,
-   "reads": 18,
-   "sessions": 25
+   "views": 30,
+   "reads": 19,
+   "sessions": 26
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4177,
+   "views": 4174,
    "reads": 184,
    "completes": 13,
-   "sessions": 4189,
+   "sessions": 4186,
    "read_rate": 0.044,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -112,13 +112,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 29,
-   "reads": 18,
+   "views": 30,
+   "reads": 19,
    "completes": 0,
-   "sessions": 25,
-   "read_rate": 0.621,
+   "sessions": 26,
+   "read_rate": 0.633,
    "complete_rate": 0,
-   "pages_per_session": 1.16,
+   "pages_per_session": 1.15,
    "median_dwell_sec": null
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 34,
-   "reads": 21,
-   "sessions": 27
+   "views": 35,
+   "reads": 22,
+   "sessions": 28
   },
   {
    "assistant": "Doubao",
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3991,
-   "reads": 297,
-   "sessions": 3896
+   "views": 3990,
+   "reads": 298,
+   "sessions": 3895
   },
   {
    "device": "mobile",
-   "views": 572,
+   "views": 571,
    "reads": 40,
-   "sessions": 555
+   "sessions": 554
   },
   {
    "device": "tablet",
@@ -456,7 +456,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 11,
+   "views": 10,
    "reads": 5,
    "plays": 1
   },
@@ -518,7 +518,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 11,
+   "views": 10,
    "reads": 5,
    "plays": 1
   },
@@ -563,6 +563,16 @@
    "plays": 1
   },
   {
+   "slug": "how-to-show-users-what-your-ai-agent-is-doing",
+   "title": "How to Show Users What Your AI Agent Is Doing Right Now",
+   "section": "stack",
+   "tags": "[\"reportive\",\"captivating\"]",
+   "author": "rosalinda",
+   "views": 1,
+   "reads": 1,
+   "plays": 1
+  },
+  {
    "slug": "vibe-coding-vs-spec-driven-development-founder-decision",
    "title": "Vibe Coding vs Spec-Driven Development: The Solo Founder's 2026 Decision",
    "section": "wire",
@@ -570,16 +580,6 @@
    "author": "dex",
    "views": 1,
    "reads": 1,
-   "plays": 1
-  },
-  {
-   "slug": "context-offloading-for-ai-agents",
-   "title": "Context Offloading for AI Agents: Writing Tool Results to Disk to Beat the Context Window",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 4,
-   "reads": 0,
    "plays": 1
   }
  ],
