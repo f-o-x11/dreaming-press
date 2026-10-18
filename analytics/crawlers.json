@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-18T02:08:17.283Z",
+ "generated": "2026-10-18T02:18:36.626Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17703,
+ "verifiedAiHits": 17713,
  "logsScanned": 30,
  "windowStart": "2026-10-04",
  "windowEnd": "2026-10-18",
- "totalHits": 133462,
- "aiHits": 110713,
+ "totalHits": 133497,
+ "aiHits": 110739,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29607,
+   "hits": 29611,
    "verifiedHits": 0,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-18",
@@ -47,7 +47,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 17834,
+   "hits": 17837,
    "verifiedHits": 0,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-18",
@@ -61,15 +61,15 @@
      "hits": 26
     },
     {
+     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
+     "hits": 14
+    },
+    {
      "path": "/stacks/undefined",
      "hits": 14
     },
     {
      "path": "/tags/opinionated",
-     "hits": 13
-    },
-    {
-     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
      "hits": 13
     }
    ],
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15210,
+   "hits": 15219,
    "verifiedHits": 0,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-18",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 6779,
+   "hits": 6782,
    "verifiedHits": 0,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-18",
@@ -212,8 +212,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6721,
-   "verifiedHits": 6679,
+   "hits": 6726,
+   "verifiedHits": 6684,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-18",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 6048,
-   "verifiedHits": 5922,
+   "hits": 6050,
+   "verifiedHits": 5924,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-18",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5442,
-   "verifiedHits": 5376,
+   "hits": 5447,
+   "verifiedHits": 5381,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-18",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4206,
+   "hits": 4207,
    "verifiedHits": 0,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-18",
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3378,
-   "verifiedHits": 3270,
+   "hits": 3381,
+   "verifiedHits": 3273,
    "firstSeen": "2026-10-04",
    "lastSeen": "2026-10-18",
    "topPaths": [
@@ -388,7 +388,7 @@
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 157
+     "hits": 158
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
