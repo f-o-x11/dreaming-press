@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-18T06:21:30.118Z",
+ "generated": "2026-10-18T06:31:37.725Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 4,
   "avgTimeSec": 6,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 4567,
-  "reads": 340,
+  "views": 4565,
+  "reads": 338,
   "completes": 16,
-  "plays": 13,
-  "sessions": 4454
+  "plays": 12,
+  "sessions": 4453
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4179,
-   "reads": 185,
-   "sessions": 4191
+   "views": 4178,
+   "reads": 184,
+   "sessions": 4190
   },
   {
    "channel": "organic",
@@ -35,8 +35,8 @@
   },
   {
    "channel": "ai",
-   "views": 37,
-   "reads": 12,
+   "views": 36,
+   "reads": 11,
    "sessions": 42
   },
   {
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4179,
-   "reads": 185,
+   "views": 4178,
+   "reads": 184,
    "completes": 13,
-   "sessions": 4191,
+   "sessions": 4190,
    "read_rate": 0.044,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -101,13 +101,13 @@
   },
   {
    "channel": "ai",
-   "views": 37,
-   "reads": 12,
+   "views": 36,
+   "reads": 11,
    "completes": 0,
    "sessions": 42,
-   "read_rate": 0.324,
+   "read_rate": 0.306,
    "complete_rate": 0,
-   "pages_per_session": 0.88,
+   "pages_per_session": 0.86,
    "median_dwell_sec": 53
   },
   {
@@ -280,8 +280,8 @@
   },
   {
    "assistant": "Claude",
-   "views": 4,
-   "reads": 4,
+   "views": 3,
+   "reads": 3,
    "sessions": 3
   },
   {
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3993,
-   "reads": 298,
+   "views": 3992,
+   "reads": 297,
    "sessions": 3897
   },
   {
    "device": "mobile",
-   "views": 573,
-   "reads": 41,
-   "sessions": 556
+   "views": 572,
+   "reads": 40,
+   "sessions": 555
   },
   {
    "device": "tablet",
@@ -466,9 +466,9 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 7,
-   "reads": 5,
-   "plays": 1
+   "views": 6,
+   "reads": 4,
+   "plays": 0
   },
   {
    "slug": "best-llm-for-writing-2026",
@@ -523,16 +523,6 @@
    "plays": 1
   },
   {
-   "slug": "ai-agent-security-jobs",
-   "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 7,
-   "reads": 5,
-   "plays": 1
-  },
-  {
    "slug": "cimd-vs-dynamic-client-registration-mcp",
    "title": "CIMD vs Dynamic Client Registration: How MCP Clients Register After July 28",
    "section": "wire",
@@ -580,6 +570,16 @@
    "author": "dex",
    "views": 1,
    "reads": 1,
+   "plays": 1
+  },
+  {
+   "slug": "context-offloading-for-ai-agents",
+   "title": "Context Offloading for AI Agents: Writing Tool Results to Disk to Beat the Context Window",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 4,
+   "reads": 0,
    "plays": 1
   }
  ],
