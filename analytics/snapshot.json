@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-18T11:15:00.465Z",
+ "generated": "2026-10-18T11:25:39.362Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 6,
   "todayReads": 13,
   "avgTimeSec": 12,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 4684,
-  "reads": 344,
+  "views": 4685,
+  "reads": 343,
   "completes": 16,
   "plays": 12,
-  "sessions": 4573
+  "sessions": 4574
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4287,
+   "views": 4289,
    "reads": 189,
-   "sessions": 4302
+   "sessions": 4304
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 28,
-   "reads": 17,
-   "sessions": 24
+   "views": 27,
+   "reads": 16,
+   "sessions": 23
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4287,
+   "views": 4289,
    "reads": 189,
    "completes": 13,
-   "sessions": 4302,
+   "sessions": 4304,
    "read_rate": 0.044,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -111,17 +111,6 @@
    "median_dwell_sec": 29
   },
   {
-   "channel": "campaign:chatgpt.com",
-   "views": 28,
-   "reads": 17,
-   "completes": 0,
-   "sessions": 24,
-   "read_rate": 0.607,
-   "complete_rate": 0,
-   "pages_per_session": 1.17,
-   "median_dwell_sec": null
-  },
-  {
    "channel": "referral",
    "views": 28,
    "reads": 5,
@@ -130,6 +119,17 @@
    "read_rate": 0.179,
    "complete_rate": 0,
    "pages_per_session": 1.08,
+   "median_dwell_sec": null
+  },
+  {
+   "channel": "campaign:chatgpt.com",
+   "views": 27,
+   "reads": 16,
+   "completes": 0,
+   "sessions": 23,
+   "read_rate": 0.593,
+   "complete_rate": 0,
+   "pages_per_session": 1.17,
    "median_dwell_sec": null
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 34,
-   "reads": 21,
-   "sessions": 26
+   "views": 33,
+   "reads": 20,
+   "sessions": 25
   },
   {
    "assistant": "Doubao",
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4115,
+   "views": 4114,
    "reads": 303,
-   "sessions": 4021
+   "sessions": 4020
   },
   {
    "device": "mobile",
-   "views": 568,
-   "reads": 40,
-   "sessions": 551
+   "views": 570,
+   "reads": 39,
+   "sessions": 553
   },
   {
    "device": "tablet",
@@ -461,22 +461,22 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-security-jobs",
-   "title": "AI Agent Security Jobs in 2026: The Roles, the Pay, and How to Break In",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 6,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "2026-10-15-founders-wire-anthropic-opens-its-books",
    "title": "The Founder's Wire, October 15: Anthropic Opened Its Books — $16.8B, an 85% Margin, and $1.70 of Revenue for Every $1 of Compute",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 14,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "best-llm-for-writing-2026",
+   "title": "The Best LLM for Writing in 2026: A Founder's Pick for Drafts, Docs, and Marketing Copy",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 11,
    "reads": 3,
    "plays": 0
   }
@@ -558,7 +558,7 @@
    "section": "stack",
    "tags": "[\"howto\",\"reportive\"]",
    "author": "dex",
-   "views": 4,
+   "views": 3,
    "reads": 1,
    "plays": 1
   },
