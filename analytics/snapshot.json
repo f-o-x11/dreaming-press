@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-18T09:33:48.230Z",
+ "generated": "2026-10-18T09:43:49.070Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 30,
-  "todayReads": 9,
-  "avgTimeSec": 13,
+  "readersNow": 14,
+  "todayReads": 12,
+  "avgTimeSec": 12,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 4582,
-  "reads": 340,
+  "views": 4586,
+  "reads": 343,
   "completes": 16,
   "plays": 12,
-  "sessions": 4471
+  "sessions": 4475
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4191,
-   "reads": 186,
-   "sessions": 4206
+   "views": 4190,
+   "reads": 188,
+   "sessions": 4205
   },
   {
    "channel": "organic",
-   "views": 291,
-   "reads": 114,
-   "sessions": 280
+   "views": 296,
+   "reads": 115,
+   "sessions": 285
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,25 +79,25 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4191,
-   "reads": 186,
+   "views": 4190,
+   "reads": 188,
    "completes": 13,
-   "sessions": 4206,
-   "read_rate": 0.044,
+   "sessions": 4205,
+   "read_rate": 0.045,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": 8
   },
   {
    "channel": "organic",
-   "views": 291,
-   "reads": 114,
+   "views": 296,
+   "reads": 115,
    "completes": 2,
-   "sessions": 280,
-   "read_rate": 0.392,
+   "sessions": 285,
+   "read_rate": 0.389,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
-   "median_dwell_sec": 3
+   "median_dwell_sec": 2
   },
   {
    "channel": "ai",
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4015,
-   "reads": 299,
-   "sessions": 3921
+   "views": 4020,
+   "reads": 302,
+   "sessions": 3926
   },
   {
    "device": "mobile",
-   "views": 566,
+   "views": 565,
    "reads": 40,
-   "sessions": 549
+   "sessions": 548
   },
   {
    "device": "tablet",
@@ -336,8 +336,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 55,
-   "reads": 28,
+   "views": 58,
+   "reads": 31,
    "plays": 0
   },
   {
@@ -600,8 +600,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 55,
-   "reads": 28,
+   "views": 58,
+   "reads": 31,
    "plays": 0
   },
   {
@@ -757,6 +757,13 @@
    "avg_dwell_sec": 271
   },
   {
+   "path": "/dispatches.html",
+   "views": 9,
+   "reads": 0,
+   "sessions": 8,
+   "avg_dwell_sec": 4
+  },
+  {
    "path": "/topics/:topic",
    "views": 9,
    "reads": 0,
@@ -769,13 +776,6 @@
    "reads": 0,
    "sessions": 8,
    "avg_dwell_sec": null
-  },
-  {
-   "path": "/dispatches.html",
-   "views": 8,
-   "reads": 0,
-   "sessions": 7,
-   "avg_dwell_sec": 4
   },
   {
    "path": "/stack.html",
@@ -795,8 +795,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 141,
-   "sessions": 128
+   "hits": 148,
+   "sessions": 132
   },
   {
    "ref": "https://duckduckgo.com/",
@@ -805,8 +805,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 85,
-   "sessions": 41
+   "hits": 87,
+   "sessions": 42
   },
   {
    "ref": "https://cn.bing.com/",
