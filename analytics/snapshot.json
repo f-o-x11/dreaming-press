@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-18T09:23:43.512Z",
+ "generated": "2026-10-18T09:33:48.230Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 25,
+  "readersNow": 30,
   "todayReads": 9,
   "avgTimeSec": 13,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 4576,
+  "views": 4582,
   "reads": 340,
   "completes": 16,
   "plays": 12,
-  "sessions": 4465
+  "sessions": 4471
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4189,
+   "views": 4191,
    "reads": 186,
-   "sessions": 4204
+   "sessions": 4206
   },
   {
    "channel": "organic",
-   "views": 287,
+   "views": 291,
    "reads": 114,
-   "sessions": 276
+   "sessions": 280
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4189,
+   "views": 4191,
    "reads": 186,
    "completes": 13,
-   "sessions": 4204,
+   "sessions": 4206,
    "read_rate": 0.044,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 287,
+   "views": 291,
    "reads": 114,
    "completes": 2,
-   "sessions": 276,
-   "read_rate": 0.397,
+   "sessions": 280,
+   "read_rate": 0.392,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4009,
+   "views": 4015,
    "reads": 299,
-   "sessions": 3915
+   "sessions": 3921
   },
   {
    "device": "mobile",
@@ -376,7 +376,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 47,
+   "views": 48,
    "reads": 8,
    "plays": 0
   },
@@ -610,7 +610,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 47,
+   "views": 48,
    "reads": 8,
    "plays": 0
   },
@@ -620,7 +620,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 32,
+   "views": 33,
    "reads": 2,
    "plays": 0
   },
@@ -795,8 +795,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 137,
-   "sessions": 124
+   "hits": 141,
+   "sessions": 128
   },
   {
    "ref": "https://duckduckgo.com/",
