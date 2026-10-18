@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-18T09:54Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-18T10:04Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 4606 views → 343 engaged reads → 16 completes · 4495 sessions.
-- Channels: direct 188r/4210v · organic 115r/296v · campaign:chatgpt.com 17r/28v · ai 11r/34v · referral 5r/28v · campaign:owner-qa 4r/4v · social 2r/3v · campaign:copilot.com 1r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 4638 views → 343 engaged reads → 16 completes · 4527 sessions.
+- Channels: direct 188r/4241v · organic 115r/297v · campaign:chatgpt.com 17r/28v · ai 11r/34v · referral 5r/28v · campaign:owner-qa 4r/4v · social 2r/3v · campaign:copilot.com 1r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 21r/34v · Doubao 4r/5v · Claude 2r/2v · Copilot 1r/2v · Perplexity 1r/1v · Kimi 0r/19v · Poe 0r/1v.
 - Referrers: google.com, duckduckgo.com, bing.com, cn.bing.com, search.brave.com, chatgpt.com, nav-cmp, ecosia.org, search.yahoo.com, brand.
 - Engaged-read winners by section: wire=6, stack=9.
@@ -23,13 +23,13 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 4210 views · read 4.5% · complete 0.3% · 1 pages/session · median 8s
-- organic: 296 views · read 38.9% · complete 0.7% · 1.04 pages/session · median 2s
+- direct: 4241 views · read 4.4% · complete 0.3% · 1 pages/session · median 8s
+- organic: 297 views · read 38.7% · complete 0.7% · 1.04 pages/session · median 2s
 - ai: 34 views · read 32.4% · complete 0.0% · 0.83 pages/session · median 29s
 - campaign:chatgpt.com: 28 views · read 60.7% · complete 0.0% · 1.17 pages/session · median ?s
 - referral: 28 views · read 17.9% · complete 0.0% · 1.08 pages/session · median ?s
 - campaign:owner-qa: 4 views · read 100.0% · complete 0.0% · 1.33 pages/session · median ?s
-INSIGHT: campaign:chatgpt.com converts 13x better per view than direct, which is 91% of all views.
+INSIGHT: campaign:chatgpt.com converts 14x better per view than direct, which is 91% of all views.
 One visitor from campaign:chatgpt.com is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
@@ -59,9 +59,9 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 485 views, 10 reads, 485 sessions, avg 85s
+- /stack/:tool — 492 views, 10 reads, 492 sessions, avg 85s
 - / — 163 views, 4 reads, 169 sessions, avg 11s
-- /compare/:pair — 108 views, 0 reads, 108 sessions, avg 11s
+- /compare/:pair — 116 views, 0 reads, 116 sessions, avg 11s
 - /build — 45 views, 0 reads, 45 sessions, avg 4s
 - /best/:cat — 39 views, 0 reads, 39 sessions
 - /alternatives/:tool — 26 views, 0 reads, 26 sessions, avg 8s
@@ -107,8 +107,8 @@ sample size dwarfs the engaged-read counts below.
 - /wire.html  — 48 retrieval fetches
 
 Per engine:
-- PerplexityBot (6009 verified): / ×29 · /tools ×23 · /subscribe ×23
-- OAI-SearchBot (5499 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×121 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×88 · /posts/open-source-llm-for-coding-september-2026.html ×87
+- PerplexityBot (6012 verified): / ×29 · /tools ×23 · /subscribe ×23
+- OAI-SearchBot (5503 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×121 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×88 · /posts/open-source-llm-for-coding-september-2026.html ×87
 - ChatGPT-User (3332 verified): / ×914 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×164 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×147
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -123,7 +123,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Uncovered search demand (254 of 461 phrases have NO post, 39h ago)
+## Uncovered search demand (254 of 461 phrases have NO post, 40h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -146,7 +146,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17977 confirmed AI-engine fetches (Perplexity 6009, ChatGPT Search (OpenAI) 5499, ChatGPT (user browsing) 3332, GPTBot (OpenAI) 3137).
+The real answer engines are crawling us — IP-verified: 17984 confirmed AI-engine fetches (Perplexity 6012, ChatGPT Search (OpenAI) 5503, ChatGPT (user browsing) 3332, GPTBot (OpenAI) 3137).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 441 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 365 crawler fetches
