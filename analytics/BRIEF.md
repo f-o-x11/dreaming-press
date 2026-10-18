@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-18T16:51Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-18T17:01Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -38,7 +38,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 32 reads, 60 views, 0 listens
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 23 reads, 121 views, 1 listens
 - [wire] "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck" — 10 reads, 16 views, 0 listens
-- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 9 reads, 23 views, 0 listens
+- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 9 reads, 24 views, 0 listens
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 8 reads, 45 views, 0 listens
 - [wire] "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference" — 6 reads, 15 views, 0 listens
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 6 reads, 10 views, 0 listens
@@ -86,7 +86,6 @@ new traffic — and these pages already have the traffic.
 - [stack] "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix" — 31 views but only 1 engaged reads (3.2%)
 - [wire] "Tuning Chunked Prefill in vLLM: The One Knob That Trades First-Token Latency for Smooth Streaming" — 25 views but only 1 engaged reads (4.0%)
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 25 views but only 0 engaged reads (0.0%)
-- [wire] "The Founder's Wire, October 14: Gemini 4 Argon Opens Its Gate — and Now Three Frontier Models Cost Exactly the Same" — 24 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
@@ -95,7 +94,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 964 retrieval fetches
+- /  — 965 retrieval fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 171 retrieval fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 149 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 123 retrieval fetches
@@ -108,8 +107,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (6114 verified): / ×29 · /tools ×24 · /subscribe ×24
-- OAI-SearchBot (5611 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×123 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×90 · /posts/open-source-llm-for-coding-september-2026.html ×88
-- ChatGPT-User (3395 verified): / ×935 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×171 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×149
+- OAI-SearchBot (5616 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×123 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×90 · /posts/open-source-llm-for-coding-september-2026.html ×88
+- ChatGPT-User (3400 verified): / ×936 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×171 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×149
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -123,7 +122,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Uncovered search demand (254 of 461 phrases have NO post, 46h ago)
+## Uncovered search demand (254 of 461 phrases have NO post, 47h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -146,7 +145,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 18258 confirmed AI-engine fetches (Perplexity 6114, ChatGPT Search (OpenAI) 5611, ChatGPT (user browsing) 3395, GPTBot (OpenAI) 3138).
+The real answer engines are crawling us — IP-verified: 18268 confirmed AI-engine fetches (Perplexity 6114, ChatGPT Search (OpenAI) 5616, ChatGPT (user browsing) 3400, GPTBot (OpenAI) 3138).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 443 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 370 crawler fetches
