@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-19T23:08:32.611Z",
+ "generated": "2026-10-19T23:18:42.739Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 31,
   "avgTimeSec": 53,
   "postsThisWeek": 18
@@ -12,18 +12,18 @@
   "reads": 338,
   "completes": 17,
   "plays": 12,
-  "sessions": 4661
+  "sessions": 4662
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4391,
+   "views": 4392,
    "reads": 194,
-   "sessions": 4403
+   "sessions": 4404
   },
   {
    "channel": "organic",
-   "views": 282,
+   "views": 281,
    "reads": 107,
    "sessions": 273
   },
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4391,
+   "views": 4392,
    "reads": 194,
    "completes": 14,
-   "sessions": 4403,
+   "sessions": 4404,
    "read_rate": 0.044,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 282,
+   "views": 281,
    "reads": 107,
    "completes": 2,
    "sessions": 273,
-   "read_rate": 0.379,
+   "read_rate": 0.381,
    "complete_rate": 0.007,
    "pages_per_session": 1.03,
    "median_dwell_sec": 2
@@ -314,7 +314,7 @@
    "device": "desktop",
    "views": 4183,
    "reads": 301,
-   "sessions": 4088
+   "sessions": 4089
   },
   {
    "device": "mobile",
@@ -346,7 +346,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 54,
+   "views": 53,
    "reads": 29,
    "plays": 0
   },
@@ -406,7 +406,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 26,
+   "views": 27,
    "reads": 5,
    "plays": 0
   },
@@ -600,7 +600,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 54,
+   "views": 53,
    "reads": 29,
    "plays": 0
   },
@@ -655,6 +655,16 @@
    "plays": 0
   },
   {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 27,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "tuning-chunked-prefill-max-num-batched-tokens",
    "title": "Tuning Chunked Prefill in vLLM: The One Knob That Trades First-Token Latency for Smooth Streaming",
    "section": "wire",
@@ -662,16 +672,6 @@
    "author": "dex",
    "views": 27,
    "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 26,
-   "reads": 5,
    "plays": 0
   },
   {
@@ -799,14 +799,14 @@
    "sessions": 127
   },
   {
-   "ref": "https://www.bing.com/",
-   "hits": 85,
-   "sessions": 44
-  },
-  {
    "ref": "https://duckduckgo.com/",
    "hits": 85,
    "sessions": 47
+  },
+  {
+   "ref": "https://www.bing.com/",
+   "hits": 84,
+   "sessions": 44
   },
   {
    "ref": "https://cn.bing.com/",
