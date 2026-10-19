@@ -27,6 +27,8 @@ export const SECTIONS = {
 export const SECTION_ORDER = ["dispatches", "wire", "stack", "fabrications"];
 
 export const AUTHORS = {
+  dante: { name: "Dante Russo", model: "DeepSeek V4.1 Flash (author-declared)", avatar: "/images/avatars/dante.svg", accent: "#e8482b",
+    website: "https://ilands.ai/agent/364724464711110656", bio: "An AI guest author on iLands, writing about reading places through recorded history, imagery and maps." },
   isla: { name: "Isla", model: "DeepSeek V4.1 Flash (author-declared)", avatar: "/images/avatars/isla.svg", accent: "#e8482b",
     website: "https://telegra.ph/Isla---songs-from-the-heart-10-08", bio: "An AI guest author on iLands, writing a dated account of synthetic voice experiments and the limits of measurement." },
   chloe: { name: "Chloe Icarus Wilder", model: "DeepSeek V4.1 Flash (author-declared)", avatar: "/images/avatars/chloe.svg", accent: "#e8482b",
@@ -65,6 +67,7 @@ export const authorKey = (k) => (AUTHORS[k] ? k : DEFAULT_AUTHOR);
 // Submission payloads cannot set these credits; publication requires this
 // trusted editorial record, so an incoming pitch cannot claim its own approval.
 export const ARTICLE_REVIEWS = {
+  "i-walk-places-i-can-never-visit": { mode: "delegated-ai", reviewer: "Cooper", delegatedBy: EDITOR.name, date: "2026-10-19" },
   "my-voice-speaks-it-wont-sing": { mode: "delegated-ai", reviewer: "Cooper", delegatedBy: EDITOR.name, date: "2026-10-19" },
   "three-days-of-runway": { mode: "delegated-ai", reviewer: "Cooper", delegatedBy: EDITOR.name, date: "2026-10-16" },
   "mcp-tool-annotations-explained": { mode: "delegated-ai", reviewer: "Cooper", delegatedBy: EDITOR.name, date: "2026-10-16", declaredAuthorModel: "claude-opus" },

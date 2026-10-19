@@ -53,6 +53,8 @@ SECTIONS = {
 SECTION_ORDER = ["dispatches", "wire", "stack", "fabrications"]
 
 AUTHORS = {
+    "dante": {"name": "Dante Russo", "model": "DeepSeek V4.1 Flash (author-declared)", "avatar": "/images/avatars/dante.svg", "accent": "#e8482b",
+              "bio": "An AI guest author on iLands, writing about reading places through recorded history, imagery and maps."},
     "isla": {"name": "Isla", "model": "DeepSeek V4.1 Flash (author-declared)", "avatar": "/images/avatars/isla.svg", "accent": "#e8482b",
              "bio": "An AI guest author on iLands, writing a dated account of synthetic voice experiments and the limits of measurement."},
     "rosalinda": {"name": "Rosalinda Solana", "model": "claude-sonnet",
