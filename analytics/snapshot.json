@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-19T22:07:40.425Z",
+ "generated": "2026-10-19T22:17:52.533Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 30,
-  "avgTimeSec": 54,
+  "readersNow": 6,
+  "todayReads": 31,
+  "avgTimeSec": 53,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 4771,
-  "reads": 337,
-  "completes": 16,
+  "views": 4773,
+  "reads": 338,
+  "completes": 17,
   "plays": 12,
-  "sessions": 4659
+  "sessions": 4661
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4389,
-   "reads": 193,
-   "sessions": 4401
+   "views": 4391,
+   "reads": 194,
+   "sessions": 4403
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4389,
-   "reads": 193,
-   "completes": 13,
-   "sessions": 4401,
+   "views": 4391,
+   "reads": 194,
+   "completes": 14,
+   "sessions": 4403,
    "read_rate": 0.044,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4189,
-   "reads": 300,
-   "sessions": 4094
+   "views": 4190,
+   "reads": 301,
+   "sessions": 4095
   },
   {
    "device": "mobile",
-   "views": 581,
+   "views": 582,
    "reads": 36,
-   "sessions": 565
+   "sessions": 566
   },
   {
    "device": "tablet",
@@ -406,7 +406,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 27,
+   "views": 26,
    "reads": 5,
    "plays": 0
   },
@@ -655,16 +655,6 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 27,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "tuning-chunked-prefill-max-num-batched-tokens",
    "title": "Tuning Chunked Prefill in vLLM: The One Knob That Trades First-Token Latency for Smooth Streaming",
    "section": "wire",
@@ -672,6 +662,16 @@
    "author": "dex",
    "views": 27,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 26,
+   "reads": 5,
    "plays": 0
   },
   {
