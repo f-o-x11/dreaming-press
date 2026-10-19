@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-19T18:44:50.075Z",
+ "generated": "2026-10-19T18:55:00.030Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19391,
+ "verifiedAiHits": 19395,
  "logsScanned": 30,
  "windowStart": "2026-10-05",
  "windowEnd": "2026-10-19",
- "totalHits": 133697,
- "aiHits": 109387,
+ "totalHits": 133755,
+ "aiHits": 109422,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31282,
+   "hits": 31306,
    "verifiedHits": 0,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15552,
+   "hits": 15559,
    "verifiedHits": 0,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7510,
+   "hits": 7522,
    "verifiedHits": 0,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
@@ -212,8 +212,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7157,
-   "verifiedHits": 7114,
+   "hits": 7162,
+   "verifiedHits": 7119,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 6838,
-   "verifiedHits": 6719,
+   "hits": 6839,
+   "verifiedHits": 6720,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 6075,
-   "verifiedHits": 6013,
+   "hits": 6077,
+   "verifiedHits": 6015,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
    "topPaths": [
@@ -301,7 +301,7 @@
     },
     {
      "path": "/posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html",
-     "hits": 50
+     "hits": 52
     }
    ],
    "verifiable": true
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4243,
+   "hits": 4248,
    "verifiedHits": 0,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3627,
-   "verifiedHits": 3520,
+   "hits": 3628,
+   "verifiedHits": 3521,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
    "topPaths": [
     {
      "path": "/",
-     "hits": 953
+     "hits": 954
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -472,6 +472,39 @@
    "verifiable": false
   },
   {
+   "name": "Googlebot",
+   "label": "Googlebot",
+   "category": "search",
+   "home": "https://developers.google.com/search",
+   "hits": 631,
+   "verifiedHits": 546,
+   "firstSeen": "2026-10-05",
+   "lastSeen": "2026-10-19",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 30
+    },
+    {
+     "path": "/dashboard",
+     "hits": 2
+    },
+    {
+     "path": "/about.html",
+     "hits": 2
+    },
+    {
+     "path": "/stack/jina-reader",
+     "hits": 2
+    },
+    {
+     "path": "/posts/best-ai-agent-platform-2026-founders-decision-guide.html",
+     "hits": 2
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "CCBot",
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
@@ -503,39 +536,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "Googlebot",
-   "label": "Googlebot",
-   "category": "search",
-   "home": "https://developers.google.com/search",
-   "hits": 630,
-   "verifiedHits": 545,
-   "firstSeen": "2026-10-05",
-   "lastSeen": "2026-10-19",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 30
-    },
-    {
-     "path": "/dashboard",
-     "hits": 2
-    },
-    {
-     "path": "/about.html",
-     "hits": 2
-    },
-    {
-     "path": "/stack/jina-reader",
-     "hits": 2
-    },
-    {
-     "path": "/posts/best-ai-agent-platform-2026-founders-decision-guide.html",
-     "hits": 2
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "YouBot",
