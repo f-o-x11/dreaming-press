@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-19T18:14:30.534Z",
+ "generated": "2026-10-19T18:24:40.841Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 11,
+  "readersNow": 5,
   "todayReads": 26,
   "avgTimeSec": 50,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 4772,
-  "reads": 338,
+  "views": 4770,
+  "reads": 337,
   "completes": 16,
   "plays": 12,
-  "sessions": 4660
+  "sessions": 4658
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4389,
+   "views": 4388,
    "reads": 193,
-   "sessions": 4401
+   "sessions": 4399
   },
   {
    "channel": "organic",
-   "views": 283,
-   "reads": 108,
-   "sessions": 273
+   "views": 282,
+   "reads": 107,
+   "sessions": 272
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4389,
+   "views": 4388,
    "reads": 193,
    "completes": 13,
-   "sessions": 4401,
+   "sessions": 4399,
    "read_rate": 0.044,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 283,
-   "reads": 108,
+   "views": 282,
+   "reads": 107,
    "completes": 2,
-   "sessions": 273,
-   "read_rate": 0.382,
+   "sessions": 272,
+   "read_rate": 0.379,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
    "median_dwell_sec": 2
@@ -313,14 +313,14 @@
   {
    "device": "desktop",
    "views": 4188,
-   "reads": 301,
+   "reads": 300,
    "sessions": 4093
   },
   {
    "device": "mobile",
-   "views": 583,
+   "views": 581,
    "reads": 36,
-   "sessions": 567
+   "sessions": 565
   },
   {
    "device": "tablet",
@@ -331,16 +331,6 @@
  ],
  "topContent": [
   {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 55,
-   "reads": 30,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-frameworks-whats-changed-fall-2026",
    "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
    "section": "stack",
@@ -349,6 +339,16 @@
    "views": 135,
    "reads": 29,
    "plays": 1
+  },
+  {
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 54,
+   "reads": 29,
+   "plays": 0
   },
   {
    "slug": "best-llm-for-creative-writing-october-2026",
@@ -600,8 +600,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 55,
-   "reads": 30,
+   "views": 54,
+   "reads": 29,
    "plays": 0
   },
   {
@@ -737,9 +737,9 @@
   },
   {
    "path": "/partner",
-   "views": 13,
+   "views": 14,
    "reads": 2,
-   "sessions": 11,
+   "sessions": 12,
    "avg_dwell_sec": 148
   },
   {
@@ -810,8 +810,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 54,
-   "sessions": 32
+   "hits": 52,
+   "sessions": 31
   },
   {
    "ref": "https://search.brave.com/",
