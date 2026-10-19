@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-19T22:28:00.625Z",
+ "generated": "2026-10-19T22:38:10.939Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19499,
+ "verifiedAiHits": 19505,
  "logsScanned": 30,
  "windowStart": "2026-10-05",
  "windowEnd": "2026-10-19",
- "totalHits": 134465,
- "aiHits": 109929,
+ "totalHits": 134496,
+ "aiHits": 109955,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31476,
+   "hits": 31485,
    "verifiedHits": 0,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 17104,
+   "hits": 17108,
    "verifiedHits": 0,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15714,
+   "hits": 15721,
    "verifiedHits": 0,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7632,
+   "hits": 7636,
    "verifiedHits": 0,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
@@ -212,8 +212,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7223,
-   "verifiedHits": 7180,
+   "hits": 7224,
+   "verifiedHits": 7181,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 6885,
-   "verifiedHits": 6766,
+   "hits": 6890,
+   "verifiedHits": 6771,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
    "topPaths": [
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3668,
-   "verifiedHits": 3561,
+   "hits": 3669,
+   "verifiedHits": 3562,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
    "topPaths": [
@@ -400,7 +400,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 86
+     "hits": 87
     }
    ],
    "verifiable": true
