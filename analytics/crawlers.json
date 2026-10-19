@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-19T16:33:00.203Z",
+ "generated": "2026-10-19T16:43:18.622Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19334,
+ "verifiedAiHits": 19335,
  "logsScanned": 30,
  "windowStart": "2026-10-05",
  "windowEnd": "2026-10-19",
- "totalHits": 133223,
- "aiHits": 109098,
+ "totalHits": 133255,
+ "aiHits": 109117,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31174,
+   "hits": 31183,
    "verifiedHits": 0,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 17039,
+   "hits": 17040,
    "verifiedHits": 0,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15448,
+   "hits": 15456,
    "verifiedHits": 0,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7410,
+   "hits": 7415,
    "verifiedHits": 0,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
@@ -212,8 +212,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7102,
-   "verifiedHits": 7059,
+   "hits": 7106,
+   "verifiedHits": 7063,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 6064,
-   "verifiedHits": 6002,
+   "hits": 6065,
+   "verifiedHits": 6003,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4216,
+   "hits": 4220,
    "verifiedHits": 0,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
@@ -362,11 +362,11 @@
      "hits": 4
     },
     {
-     "path": "/posts/point-your-coding-agent-at-kimi-k3-openrouter-moonshot.md",
+     "path": "/posts/nixl-vs-mooncake-kv-cache-transfer-backend.md",
      "hits": 3
     },
     {
-     "path": "/posts/tuning-claude-context-editing-trigger-keep-clear-at-least.md",
+     "path": "/posts/point-your-coding-agent-at-kimi-k3-openrouter-moonshot.md",
      "hits": 3
     }
    ],
