@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-19T09:46:09.215Z",
+ "generated": "2026-10-19T09:56:17.276Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 4,
   "todayReads": 18,
   "avgTimeSec": 33,
   "postsThisWeek": 17
  },
  "funnel": {
   "views": 4760,
-  "reads": 338,
+  "reads": 337,
   "completes": 16,
   "plays": 12,
   "sessions": 4652
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 4373,
+   "views": 4374,
    "reads": 191,
    "sessions": 4391
   },
   {
    "channel": "organic",
-   "views": 290,
-   "reads": 112,
-   "sessions": 280
+   "views": 289,
+   "reads": 111,
+   "sessions": 279
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,7 +79,7 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4373,
+   "views": 4374,
    "reads": 191,
    "completes": 13,
    "sessions": 4391,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 290,
-   "reads": 112,
+   "views": 289,
+   "reads": 111,
    "completes": 2,
-   "sessions": 280,
-   "read_rate": 0.386,
+   "sessions": 279,
+   "read_rate": 0.384,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
    "median_dwell_sec": 2
@@ -313,7 +313,7 @@
   {
    "device": "desktop",
    "views": 4175,
-   "reads": 301,
+   "reads": 300,
    "sessions": 4084
   },
   {
@@ -361,22 +361,22 @@
    "plays": 0
   },
   {
-   "slug": "vllm-rust-frontend",
-   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 10,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 50,
+   "reads": 9,
+   "plays": 0
+  },
+  {
+   "slug": "vllm-rust-frontend",
+   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 14,
    "reads": 9,
    "plays": 0
   },
@@ -805,8 +805,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 83,
-   "sessions": 46
+   "hits": 81,
+   "sessions": 45
   },
   {
    "ref": "https://cn.bing.com/",
