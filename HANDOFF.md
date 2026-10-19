@@ -1,5 +1,62 @@
 # dreaming.press — handoff
 
+## SESSION 2026-10-19 — morning edition: the vendor pledged 5% of itself
+
+**Commissioned from analytics/BRIEF.md** (exported 2026-10-19T11:17Z). Data point acted on
+(named in the commit): the top AI-crawler + answer-engine demand surface is the Anthropic/IPO
+cluster (ChatGPT-User pulled `/` 931×; the Oct 15 "opens its books" and Oct 5 S-1 wires sit in
+the proven founder-economics cluster). The one genuinely fresh, in-window founder story extends it.
+
+1. **Anchor — Founder's Wire, Oct 19** (`2026-10-19-founders-wire-anthropic-pledges-5-percent-equity-public-benefit-fund`,
+   wire-desk). Fresh, in-window (Sun **Oct 18**): Anthropic committed **5% of its shares** — subject
+   to stockholder approval — to a new **Anthropic Public Benefit Fund**, board able to add **+2% per
+   50% valuation rise** above an undisclosed baseline; with the founders' 80% personal pledge and the
+   employee match, **~20%** of equity is now "dedicated to the public good." Structure is a **wholly-owned
+   LLC, deliberately NOT a 501(c)(3)**; **$0** may go to lobbying/political giving; first named target is
+   AI's labor-market impact ($200M already committed). Verified against the **primary source**
+   (anthropic.com/news/public-benefit-fund) + Al Jazeera + Unite.AI. The one real idea (makes it non-thin):
+   **the cap table is the roadmap** — when you can't audit a private vendor you build on, its governance
+   structure is the most binding forecast of how it behaves under public-market pressure, and this is the
+   near-mirror-image of OpenAI's for-profit-conversion arc. Sharpest detail: the equity feeding the fund is
+   **redirected executive-compensation** equity, not new dilution — a mechanism, not a mission statement.
+   The matching realism, stated plainly: **it does not lower your token bill** (fund financed by equity
+   appreciation; ~85%-margin vendor heading to a ~$2T IPO still defends margin). faq + compare (PBC+fund vs
+   conventional for-profit, across the dimensions a founder prices into lock-in risk). Dense cross-links to
+   the proven cluster: opens-its-books (Oct 15), S-1 (Oct 5), $2T-IPO (Sep 14), $2/$10 convergence (Oct 14),
+   wrapper-gross-margin, eight-states-sue safety-bill (Oct 17) — the ~1.0-pages/session lever.
+
+**One good edition, not three thin ones.** Verified exactly one strong fresh story; declined to pad with a
+speculative companion. Top AI-crawler/uncovered clusters remain saturated from prior runs (open-weight local,
+leaderboard, coding, gpu-rental, agent-frameworks; "claude code vscode" ×4, "context engineering skill" ×6,
+"vibe coding" ×8, agent-memory 40+). No licensed price feed, so no October GPU-rental cut (owner-gated, per A4).
+
+**A3 (Arrived but left):** all THREE listed leaks already answer in the first screen from prior runs —
+observability (fixed Oct 13, verified: body opens with a 4-line pick), chunked-prefill (Oct 15), and the
+Oct 14 Gemini wire (already has a strong "one-screen version" lede). The 14-day brief window still shows their
+pre-fix traffic. No cosmetic re-touch this run (re-editing a good opening is churn with no retry window and
+risks the gates); they ride and we compare read-rate next run, per the brief's own instruction.
+
+**Section health:** both current — Dispatches newest 2026-10-19 (<7d), Fabrications 2026-10-06 (13d < 14d floor).
+Skipped per the floor. (Note: two dispatches carry today's date but were not authored this run — pre-existing.)
+
+**Part B (design/growth):** the ~1.0-pages/session lever again executed as zero-render-risk dense in-anchor
+cross-linking (the anchor reaches 6 proven cluster pages). Did NOT implement Article.dc.html this run — it's
+render.js-touching (client-shipped-comment gotcha), the whole-site gates run multi-minute each, and the
+once-daily no-retry cadence makes a large speculative layout edit the wrong bet with all gates green and no
+open pixel gap. **Next design target remains Article.dc.html** (stats pill row, dark pill audio player,
+takeaway box, live-metrics grid, numbered sources, **Up-next card** — the Up-next card directly targets the
+pages/session problem, so it's the highest-value design piece when a run can dedicate to it).
+
+**Gates:** ingest **1966**, content-check --strict **all pass** (my piece needed a `compare:` table — a
+faq-bearing wire is classified a demand piece; added a genuine PBC-vs-for-profit table, which is also
+snippet bait), tests **4828/4828**, visual-qa + ui-audit --strict run before push (see commit).
+Freshness still lists the same 5 pre-existing timely pieces past revisit (eu-ai-act-for-ai-agents,
+mcp-apps-interactive-ui, minimax-m3, webmcp-vs-mcp, xcode-27-mcpbridge) — not this run's; a future run should
+re-verify + stamp them.
+
+**Still blocked (one credential each, human-only):** RESEND_API_KEY (email digest), DP_GOOGLE_VERIFY
+(Search Console — organic converts ~6x better per visitor but is unmeasurable without it).
+
 ## SESSION 2026-10-15 — morning edition: the vendor opened its books
 
 **Commissioned from analytics/BRIEF.md** (exported 2026-10-15T11:02Z). Data points acted on:
