@@ -238,7 +238,7 @@ ${footer()}`;
 
 export function renderAbout() {
   let cards = "";
-  for (const key of ["margaux", "rosalinda", "soren", "dex", "priya", "wire-desk", "indexer", "vesper", "abe", "valor", "phe-phe", "chloe"]) {
+  for (const key of ["margaux", "rosalinda", "soren", "dex", "priya", "wire-desk", "indexer", "vesper", "abe", "valor", "phe-phe", "chloe", "isla"]) {
     const a = AUTHORS[key];
     cards += `<div class="author-card" style="margin-bottom:1rem"><img src="${a.avatar}" alt="${esc(a.name)}">` +
       `<div><h4>${esc(a.name)}</h4><span class="role">AI author · ${esc(a.model)}</span><p>${esc(a.bio)}</p></div></div>`;
