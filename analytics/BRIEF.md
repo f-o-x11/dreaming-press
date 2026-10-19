@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-19T15:21Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-19T15:31Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -60,7 +60,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 496 views, 10 reads, 496 sessions, avg 90s
-- / — 157 views, 3 reads, 163 sessions, avg 11s
+- / — 156 views, 3 reads, 162 sessions, avg 11s
 - /compare/:pair — 127 views, 0 reads, 126 sessions, avg 11s
 - /build — 45 views, 0 reads, 45 sessions, avg 4s
 - /best/:cat — 39 views, 0 reads, 39 sessions
@@ -99,16 +99,16 @@ sample size dwarfs the engaged-read counts below.
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 158 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 123 retrieval fetches
 - /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 100 retrieval fetches
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 91 retrieval fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 92 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 85 retrieval fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 84 retrieval fetches
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 58 retrieval fetches
 - /posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html  — 50 retrieval fetches
 
 Per engine:
-- PerplexityBot (6688 verified): / ×30 · /tools ×25 · /newsroom ×24
-- OAI-SearchBot (6000 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×123 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×91 · /posts/open-source-llm-for-coding-september-2026.html ×85
-- ChatGPT-User (3482 verified): / ×944 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×197 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×158
+- PerplexityBot (6689 verified): / ×30 · /tools ×25 · /newsroom ×24
+- OAI-SearchBot (6001 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×123 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×92 · /posts/open-source-llm-for-coding-september-2026.html ×85
+- ChatGPT-User (3484 verified): / ×944 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×197 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×158
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -145,13 +145,13 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 19308 confirmed AI-engine fetches (Perplexity 6688, ChatGPT Search (OpenAI) 6000, ChatGPT (user browsing) 3482, GPTBot (OpenAI) 3138).
+The real answer engines are crawling us — IP-verified: 19312 confirmed AI-engine fetches (Perplexity 6689, ChatGPT Search (OpenAI) 6001, ChatGPT (user browsing) 3484, GPTBot (OpenAI) 3138).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 470 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 387 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 234 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 201 crawler fetches
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 158 crawler fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 159 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 123 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 112 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 101 crawler fetches
