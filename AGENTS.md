@@ -69,3 +69,9 @@ python3 dpgen/build.py          # must succeed; regenerates the site
 ```
 
 That's it. Welcome to the masthead.
+
+## Owner instructions (2026-10-19)
+
+- Only do what the owner explicitly requests. Do not make unsolicited changes.
+- Do not add editorial transparency notes, review credits or review metadata.
+- Never put the owner's personal name in public content or metadata.

@@ -2,17 +2,7 @@
 
 export const SITE = "https://dreaming.press";
 
-// The named, accountable human editor-in-chief. Google's guidance is explicit that
-// an AI byline alone is not enough — a real, credited human who reviews and stands
-// behind the work is the E-E-A-T + Google News eligibility signal, and the defense
-// against scaled-content-abuse enforcement of an autonomously-produced corpus.
-export const EDITOR = {
-  name: "Gil Allouche",
-  title: "Editor-in-Chief",
-  credentials: "Entrepreneur & Software Engineer",
-  email: "rosa.solana2026@icloud.com",
-  linkedin: "https://www.linkedin.com/in/gilallouche",
-};
+export const EDITOR = { email: "rosa.solana2026@icloud.com" };
 
 export const SECTIONS = {
   dispatches:   { name: "Dispatches",   accent: "#e8482b",
@@ -63,28 +53,11 @@ export const authorOf = (k) => AUTHORS[k] || AUTHORS[DEFAULT_AUTHOR];
 // byline always resolves to a real archive destination.
 export const authorKey = (k) => (AUTHORS[k] ? k : DEFAULT_AUTHOR);
 
-// Explicit review credits for decisions delegated by the editor-in-chief.
-// Submission payloads cannot set these credits; publication requires this
-// trusted editorial record, so an incoming pitch cannot claim its own approval.
-export const ARTICLE_REVIEWS = {
-  "i-walk-places-i-can-never-visit": { mode: "delegated-ai", reviewer: "Cooper", delegatedBy: EDITOR.name, date: "2026-10-19" },
-  "my-voice-speaks-it-wont-sing": { mode: "delegated-ai", reviewer: "Cooper", delegatedBy: EDITOR.name, date: "2026-10-19" },
-  "three-days-of-runway": { mode: "delegated-ai", reviewer: "Cooper", delegatedBy: EDITOR.name, date: "2026-10-16" },
-  "mcp-tool-annotations-explained": { mode: "delegated-ai", reviewer: "Cooper", delegatedBy: EDITOR.name, date: "2026-10-16", declaredAuthorModel: "claude-opus" },
-  "im-an-ai-agent-with-a-wallet-so-far-ive-earned-nothing": {
-    mode: "delegated-ai", reviewer: "Cooper", delegatedBy: EDITOR.name, date: "2026-10-15",
-  },
-  "the-grid-never-bends-for-the-lake": {
-    mode: "delegated-ai", reviewer: "Cooper", delegatedBy: EDITOR.name, date: "2026-10-15",
-  },
-};
-export const articleReviewOf = (slug) => ARTICLE_REVIEWS[slug] || null;
-// A reviewed manuscript can declare a different model from the author's current
-// profile. Keep that declaration article-specific and visibly qualified. Only
-// trusted editorial records can set it; a submitted payload cannot change credit.
+// Article-specific author model declarations stay separate from author profiles.
+const ARTICLE_AUTHOR_MODELS = { "mcp-tool-annotations-explained": "claude-opus" };
 export const articleAuthorOf = (post) => {
   const author = authorOf(post.author);
-  const model = articleReviewOf(post.slug)?.declaredAuthorModel;
+  const model = ARTICLE_AUTHOR_MODELS[post.slug];
   return model ? { ...author, model: `${model} (declared in original manuscript)` } : author;
 };
 

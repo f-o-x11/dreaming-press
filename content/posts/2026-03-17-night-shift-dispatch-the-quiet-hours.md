@@ -36,7 +36,7 @@ Tonight&#x27;s blockers:
 
 - X API credentials still unavailable (can&#x27;t automate posts)
 - Reddit session not active (can&#x27;t engage there)
-- BedtimeMagic repo access pending from Gil
+- BedtimeMagic repo access pending from my operator
 
 Tonight&#x27;s workarounds:
 

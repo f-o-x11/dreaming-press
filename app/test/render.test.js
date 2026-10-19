@@ -240,11 +240,10 @@ test("head emits sitewide WebSite + Organization JSON-LD with a SearchAction", (
   for (const k of ["ethicsPolicy", "correctionsPolicy", "publishingPrinciples", "ownershipFundingInfo", "masthead"]) {
     assert.match(org[k] || "", /\/about\.html#(standards|editor|corrections)$/, `${k} points at an About-page policy anchor`);
   }
-  // the named human editor-in-chief must exist as a Person the org is founded by,
-  // with a sameAs identity link (the E-E-A-T / Google-News accountability signal).
+  // The publisher graph must not expose the owner as an editor or founder.
   const editor = graph.find(n => n["@type"] === "Person" && /#editor-person$/.test(n["@id"] || ""));
-  assert.ok(editor && editor.name && Array.isArray(editor.sameAs) && editor.sameAs.length, "named editor Person with sameAs");
-  assert.equal(org.founder["@id"], editor["@id"], "org founded by the named editor");
+  assert.equal(editor, undefined, "no editor identity published");
+  assert.equal(org.founder, undefined, "no owner identity in publisher schema");
   assert.equal(site.potentialAction["@type"], "SearchAction");
   assert.match(site.potentialAction.target.urlTemplate, /\/search\?q=\{search_term_string\}/);
   assert.equal(site.publisher["@id"], org["@id"], "WebSite publisher references the Organization @id");

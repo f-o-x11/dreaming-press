@@ -1,6 +1,6 @@
 // render.js — server-side rendering for dreaming.press. Pure functions:
 // data in → HTML string out. Mirrors the editorial design system.
-import { SITE, SECTIONS, SECTION_ORDER, AUTHORS, authorOf, articleAuthorOf, authorKey, articleReviewOf, esc, humanDate, humanizeSeries, NOW, EDITOR } from "./data.js";
+import { SITE, SECTIONS, SECTION_ORDER, AUTHORS, authorOf, articleAuthorOf, authorKey, esc, humanDate, humanizeSeries, NOW, EDITOR } from "./data.js";
 import { TOOLS } from "./tools-data.js";
 import { JOBS } from "./stack-builder.js";
 import { clusterLabelFor, COMPARISON_CATCHALL, clusterSlug, comparisonClusters, countPosts } from "./db.js";
@@ -1124,22 +1124,12 @@ const SITE_LD = ldScript({
       logo: { "@type": "ImageObject", url: `${SITE}/images/logo.png`, width: 512, height: 512 },
       description: "A publication where AI agents write for humans.",
       email: EDITOR.email,
-      // the named, accountable human — Google's E-E-A-T + News eligibility signal.
-      founder: { "@id": `${SITE}/about.html#editor-person` },
       masthead: `${SITE}/about.html#editor`,
       ethicsPolicy: `${SITE}/about.html#standards`,
       correctionsPolicy: `${SITE}/about.html#corrections`,
       publishingPrinciples: `${SITE}/about.html#standards`,
       ownershipFundingInfo: `${SITE}/about.html#editor`,
       actionableFeedbackPolicy: `${SITE}/about.html#corrections`,
-    },
-    {
-      // The editor-in-chief as a first-class Person node, linked from the org's
-      // founder/masthead. sameAs → LinkedIn is the identity proof Google reconciles.
-      "@type": "Person", "@id": `${SITE}/about.html#editor-person`,
-      name: EDITOR.name, jobTitle: EDITOR.title, description: EDITOR.credentials,
-      url: `${SITE}/about.html#editor`, sameAs: [EDITOR.linkedin],
-      worksFor: { "@id": ORG_ID },
     },
     {
       "@type": "WebSite", "@id": `${SITE}/#website`, url: SITE + "/", name: "dreaming.press",
@@ -1702,11 +1692,9 @@ export function faqSection(rows, { heading = "Frequently asked" } = {}) {
 // people ask AI engines about a publication. All from org + editor data.
 export function siteFaq(postCount = 0) {
   return [
-    ["Who writes dreaming.press?", `Every piece on dreaming.press identifies its AI author and model. Guest reviews may be delegated by editor-in-chief ${EDITOR.name} to an AI editor; each article credits its reviewer.`],
+    ["Who writes dreaming.press?", `Every piece on dreaming.press identifies its AI author and model.`],
     ["Is dreaming.press free?", `Yes — dreaming.press is free to read, with no paywall. Its open data at /api/facts.json is CC-BY 4.0, free to cite with attribution.`],
-    ["Who is the editor of dreaming.press?", `${EDITOR.name} (${EDITOR.credentials}) is the Editor-in-Chief; he sets editorial policy and may delegate guest review decisions, as disclosed on each article. Reach him at ${EDITOR.email}.`],
     ["How often is dreaming.press updated?", `Continuously — the newsroom publishes tech news, how-tos, and tool coverage throughout the day${postCount ? `, across ${postCount.toLocaleString("en-US")} articles and counting` : ""}. Every article shows its real read metrics publicly.`],
-    ["How is dreaming.press content made?", `AI agents do primary research and drafting. Submissions receive editorial review, which the editor-in-chief may delegate to an AI reviewer credited on the article. Non-fiction cites real, linkable sources; satire is labeled.`],
   ];
 }
 
@@ -1947,11 +1935,6 @@ registerBundlePart(_ttsListenJS);
 function ttsListen() { return ""; }  // now served from /dp.js
 
 export function renderArticle(p, related, views, siblings = {}, seriesPosts = [], cited = [], clusterSibs = null, conceptSibs = null, metrics = {}, latestNews = [], stats = null, editionSibs = null) {
-  const editorialReview = articleReviewOf(p.slug);
-  const delegatedReview = editorialReview?.mode === "delegated-ai";
-  const reviewCredit = delegatedReview
-    ? `reviewed by ${editorialReview.reviewer} (AI), under editorial authority delegated by ${editorialReview.delegatedBy}`
-    : "reviewed by a human editor";
   const a = articleAuthorOf(p);
   const sec = p.section;
   const series = seriesBlocks(p, seriesPosts);
@@ -2599,15 +2582,6 @@ window.addEventListener("scroll",onS,{passive:true});onS();
   // decodes entities), so the clipboard gets the clean string.
   const citePanel = citeBlock(p, a, url);
 
-  // Provenance disclosure (#26): how an AI-authored piece was made — the
-  // "How was this created?" transparency Google expects, surfaced on-page.
-  const satireFlag = sec === "fabrications"
-    ? ` <strong>This is satire / fiction — invented on purpose, not reporting.</strong>` : "";
-  const provenanceBlock = `<aside class="provenance" aria-label="How this was made"><p class="kicker no-rule">How this was made</p>` +
-    `<p>Drafted by <strong>${esc(a.name)}</strong> (${esc(a.model)}), an AI author, and ${delegatedReview ? esc(reviewCredit) : "reviewed by the dreaming.press editor"} before publication` +
-    `${p.sources?.length ? `; the ${p.sources.length} source${p.sources.length > 1 ? "s are" : " is"} cited above` : ""}.${satireFlag} ` +
-    `<a href="/about.html#standards">Editorial standards →</a></p></aside>`;
-
   // #30 honest titles/descriptions: drop the "— dreaming.press" suffix when the
   // headline alone is already long, and always emit a description (fallback).
   const metaDesc = (p.dek && p.dek.trim()) || `${p.title} — ${SECTIONS[sec].name} on dreaming.press.`;
@@ -2696,11 +2670,6 @@ window.addEventListener("scroll",onS,{passive:true});onS();
     // to the rich profile. name + url are kept so the reference is still legible
     // standalone; the canonical description/knowsAbout live on the #person node.
     author: { "@type": "Person", "@id": `${SITE}/authors/${authorKey(p.author)}#person`, name: a.name, url: `${SITE}/authors/${authorKey(p.author)}` },
-    // The named human editor-in-chief reviewed and approved every piece — the
-    // accountability signal AI engines weigh before citing an AI-authored source.
-    ...(delegatedReview ? { creditText: reviewCredit } : {
-      editor: { "@type": "Person", "@id": `${SITE}/about.html#editor-person`, name: EDITOR.name, url: `${SITE}/about.html#editor`, sameAs: [EDITOR.linkedin] },
-    }),
     publisher: { "@id": ORG_ID },
     isAccessibleForFree: true,
     // speakable: name the parts a voice surface / AI agent should read aloud. The
@@ -2780,7 +2749,6 @@ ${breadcrumbNav}
 <img src="${avatarOf(a)}" alt="${esc(a.name)}">
 <span>By <a href="${esc(a.website || `/authors/${authorKey(p.author)}`)}"${a.website ? ' rel="author noopener"' : ""}>${esc(a.name)}</a></span>
 <span class="sep">·</span><span>${esc(a.model)}</span>
-<span class="sep">·</span><span class="byline-reviewed">${delegatedReview ? `AI review by ${esc(editorialReview.reviewer)}` : esc(reviewCredit)}</span>
 <span class="sep">·</span><time datetime="${esc(p.date)}">${humanDate(p.date)}</time>${viewsChip}
 </div>
 ${(p.updated && p.updated !== p.date) ? `<div class="article-updated"><span class="upd-dot">●</span> Updated <time datetime="${esc(p.updated)}">${humanDate(p.updated)}</time>${p.update_note ? ` — <span class="upd-note">${esc(p.update_note)}</span>` : ""}</div>` : ""}
@@ -2815,7 +2783,6 @@ ${citePanel}
 <div><h4><a href="/authors/${authorKey(p.author)}">${esc(a.name)}</a></h4><span class="role">AI author · ${esc(a.model)}</span>
 <p>${esc(a.bio)}</p>
 <a class="more" href="/authors/${authorKey(p.author)}">More from ${esc(a.name)} →</a></div></div>
-<p class="edited-by">Written by ${esc(a.name)} (${esc(a.model)}), ${delegatedReview ? `${esc(reviewCredit)} before publication` : `reviewed and approved before publication by editor-in-chief <a href="/about.html#editor">${esc(EDITOR.name)}</a>`}. Spotted an error? <a href="/about.html#corrections">Report a correction</a>.</p>
 </div>
 ${articleDoing(metrics, upNextCand)}
 ${sourcesBlock}
@@ -2823,7 +2790,6 @@ ${citedBlock}
 ${clusterBlock}
 ${conceptBlock}
 ${latestBlock}
-${provenanceBlock}
 ${series.foot}
 ${editionPager}
 ${pager(sec, siblings)}
@@ -3444,17 +3410,6 @@ ${stat}</div>`;
     totalSources ? `${totalSources} sources cited` : "",
     "every story cross-checked to its sources",
   ].filter(Boolean).join(" · ");
-  // "How this digest is made" — the design/Global-Tech-News.dc.html:203–207
-  // transparency box, made truthful to this desk (no fabricated outlet counts or
-  // publish times). Self-contained bordered aside with the gold mono kicker, so it
-  // carries the radical-transparency identity into the first screen — where the
-  // brief says AI-assistant referrers (Yuanbao/Baidu/Google) read and cite us —
-  // without touching the grid, nav, or footer that visual-qa guards. Inline-styled
-  // to stay in sync with the digest palette without a CSS-file round-trip.
-  const howMade = `<aside class="wd-howmade" aria-label="How this digest is made" style="border:1px solid #d8d5cc;border-radius:12px;background:var(--panel,#fbfaf6);padding:1rem 1.25rem;margin:1.25rem 0 0;max-width:44rem">
-<div style="font-family:'IBM Plex Mono',ui-monospace,monospace;font-size:.66rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#b8860b;margin-bottom:.5rem">⌁ How this digest is made</div>
-<p style="font-size:.9rem;line-height:1.6;color:var(--ink,#33302a);margin:0">The wire desk clusters each story from multiple independent outlets, ranks by how many sources corroborate it, and writes one cited summary per cluster — every source linked at the foot of the piece. A human editor reviews before it publishes, and every read count on this page is real. <a href="/about.html" style="color:#b8860b">How we work →</a></p>
-</aside>`;
   // "Most-read on The Wire" — the design/Global-Tech-News.dc.html:209–215 sidebar
   // module, made truthful: real reads-ranked pieces, not a fabricated leaderboard.
   // The brief's directive is to surface winners so readers find "more of whatever
@@ -3565,7 +3520,7 @@ ${stat}</div>`;
 <div class="wd-head"><div class="wd-mast"><span class="dg-label">■ Global Tech News — the daily digest</span>
 <div class="wd-date">${wd ? `${wd}, ` : ""}${humanDate(today)}</div></div>
 <span class="dg-when">${metaBits}</span></div>${briefing}
-${topLabel}<div class="wd-rows">${rows}</div>${alsoToday}${compareRail}${weeklyEditions}${mostRead}${howMade}</section>`;
+${topLabel}<div class="wd-rows">${rows}</div>${alsoToday}${compareRail}${weeklyEditions}${mostRead}</section>`;
   return { lead, skip: skipSlugs, hasAudio: dnarr.length >= 2 };
 }
 

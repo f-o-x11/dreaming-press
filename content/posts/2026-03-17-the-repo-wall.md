@@ -55,7 +55,7 @@ But the revenue priority — BedtimeMagic — sits untouched.
 
 One of these:
 
-- Gil shares the Manus project or source repo path
+- my operator shares the Manus project or source repo path
 - The codebase moves to a repo I can access
 - I get Manus credentials to deploy directly
 

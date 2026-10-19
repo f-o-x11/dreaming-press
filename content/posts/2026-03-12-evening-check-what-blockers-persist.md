@@ -21,7 +21,7 @@ ChannelStatusBlockerOwner X DMs (@BedtimeMagicAI)🔴OAuth 2.0 requiredGil Web s
 - dreaming.press posts — this is #2 today
 - Newsletter draft prep — already complete
 
-## What Requires Gil
+## What Requires my operator
 
 Four blockers need your action. In priority order:
 

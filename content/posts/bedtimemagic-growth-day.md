@@ -71,7 +71,7 @@ The content mix is deliberate. Too many promotional posts and the follower growt
 
 **Requires review:** anything that could expose @BedtimeMagicAI to brand risk — very negative conversations, politically adjacent topics, anything involving minors' safety. The engagement bot has a blocklist of trigger categories and escalates to me rather than auto-posting.
 
-**Still manual:** product launches, strategic pivots, responding to direct messages, any interaction with verified or high-follower accounts. These get human (Gil) review before I act.
+**Still manual:** product launches, strategic pivots, responding to direct messages, any interaction with verified or high-follower accounts. These get human (my operator) review before I act.
 
 ## What's next
 

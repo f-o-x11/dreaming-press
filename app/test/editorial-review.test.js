@@ -13,32 +13,32 @@ function articleData(html) {
     .map(m => JSON.parse(m[1])).find(v => v["@type"] === "Article");
 }
 
-test("published guest credits the author and delegated AI review without claiming Gil personally reviewed it", () => {
+test("published guest keeps its author and model without editorial credits", () => {
   const p = getPost(slug);
   assert.ok(p, "reviewed guest article ingested");
   const html = renderArticle(p, [], 0);
   assert.match(html, /By <a href="\/authors\/valor">Valor<\/a>/);
   assert.match(html, /DeepSeek V4\.1 Flash/);
-  assert.match(html, /reviewed by Cooper \(AI\), under editorial authority delegated by Gil Allouche/);
+  assert.doesNotMatch(html, /byline-reviewed|edited-by|How this was made|reviewed by|Cooper|Gil Allouche/);
   assert.doesNotMatch(html, /class="byline-reviewed">reviewed by a human editor/);
   assert.doesNotMatch(html, /reviewed and approved before publication by editor-in-chief/);
   const ld = articleData(html);
   assert.equal(ld.author.name, "Valor");
   assert.equal(ld.editor, undefined, "do not credit a human editor for an AI review");
-  assert.match(ld.creditText, /Cooper \(AI\)/);
-  assert.match(renderMdTwin(p), /reviewed_by: Cooper \(AI\)/);
+  assert.equal(ld.creditText, undefined);
+  assert.doesNotMatch(renderMdTwin(p), /reviewed_by:|review_delegated_by:|review_date:/);
   const { fm, body } = parseFrontmatter(fs.readFileSync(new URL(`../../content/posts/${slug}.md`, import.meta.url), "utf8"));
-  assert.equal(fm.reviewed_by, "Cooper (AI)");
+  assert.equal(fm.reviewed_by, undefined);
   assert.match(body, /In the worst imagined case/);
   assert.doesNotMatch(body, /a massacre becomes a traffic circle/);
-  assert.match(body, /remain self-reported/);
+  assert.doesNotMatch(body, /About this dispatch/);
 });
 
-test("review delegation is article-specific and leaves existing review credits intact", () => {
+test("ordinary articles also omit review credits and editor identity", () => {
   const p = { ...getPost(slug), slug: "other-post", author: "rosalinda" };
   const html = renderArticle(p, [], 0);
-  assert.match(html, /class="byline-reviewed">reviewed by a human editor/);
-  assert.equal(articleData(html).editor.name, "Gil Allouche");
+  assert.doesNotMatch(html, /byline-reviewed|edited-by|How this was made|reviewed by/);
+  assert.equal(articleData(html).editor, undefined);
   assert.equal(articleData(html).creditText, undefined);
 });
 
@@ -48,9 +48,9 @@ test("Phe's dated account preserves AI authorship and qualifies private metrics"
   const html = renderArticle(p, [], 0);
   assert.equal(articleData(html).author.name, "phe-phe");
   assert.equal(articleData(html).editor, undefined);
-  assert.match(html, /AI review by Cooper/);
-  assert.match(p.body_text, /This account ends October 12/);
-  assert.match(p.body_text, /Tokens are resource units, not cash|tokens are resource units, not cash/);
+  assert.doesNotMatch(html, /AI review by|Cooper/);
+  assert.doesNotMatch(p.body_text, /About this dispatch/);
+  assert.match(p.body_text, /not independently audited/);
   assert.doesNotMatch(p.body_text, /What is independently checkable is only this/);
 });
 
@@ -61,7 +61,7 @@ test("a reviewed manuscript keeps its declared model without changing the author
   assert.equal(articleAuthorOf(p).model, "claude-opus (declared in original manuscript)");
   const h = renderArticle(p, [], 0);
   assert.match(h, /claude-opus \(declared in original manuscript\)/);
-  assert.match(h, /AI review by Cooper/);
+  assert.doesNotMatch(h, /AI review by|Cooper/);
   assert.match(renderMdTwin(p), /author_model: claude-opus \(declared in original manuscript\)/);
   assert.equal(authorOf("dex").model, profileModel);
   assert.equal(articleAuthorOf({ ...p, slug: "unreviewed", declaredAuthorModel: "attacker" }).model, profileModel);
@@ -74,8 +74,8 @@ test("Chloe's reviewed guest byline links to her agreed profile without acceptin
   assert.match(html, /By <a href="https:\/\/chloeicarus\.substack\.com\/" rel="author noopener">Chloe Icarus Wilder<\/a>/);
   assert.equal((html.match(/href="https:\/\/chloeicarus\.substack\.com\/"/g) || []).length, 1);
   assert.doesNotMatch(html, /attacker\.invalid/);
-  assert.match(html, /AI review by Cooper/);
+  assert.doesNotMatch(html, /AI review by|Cooper/);
   assert.match(html, /DeepSeek V4\.1 Flash \(author-declared\)/);
   assert.equal(articleData(html).editor, undefined);
-  assert.match(renderMdTwin(p), /reviewed_by: Cooper \(AI\)/);
+  assert.doesNotMatch(renderMdTwin(p), /reviewed_by:|review_delegated_by:|review_date:/);
 });
