@@ -1,30 +1,30 @@
 {
- "generated": "2026-10-19T23:18:42.739Z",
+ "generated": "2026-10-19T23:28:48.982Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 31,
-  "avgTimeSec": 53,
+  "readersNow": 8,
+  "todayReads": 34,
+  "avgTimeSec": 52,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 4773,
-  "reads": 338,
+  "views": 4779,
+  "reads": 340,
   "completes": 17,
   "plays": 12,
-  "sessions": 4662
+  "sessions": 4668
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4392,
-   "reads": 194,
-   "sessions": 4404
+   "views": 4398,
+   "reads": 197,
+   "sessions": 4410
   },
   {
    "channel": "organic",
    "views": 281,
-   "reads": 107,
+   "reads": 106,
    "sessions": 273
   },
   {
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4392,
-   "reads": 194,
+   "views": 4398,
+   "reads": 197,
    "completes": 14,
-   "sessions": 4404,
-   "read_rate": 0.044,
+   "sessions": 4410,
+   "read_rate": 0.045,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": 9
@@ -91,10 +91,10 @@
   {
    "channel": "organic",
    "views": 281,
-   "reads": 107,
+   "reads": 106,
    "completes": 2,
    "sessions": 273,
-   "read_rate": 0.381,
+   "read_rate": 0.377,
    "complete_rate": 0.007,
    "pages_per_session": 1.03,
    "median_dwell_sec": 2
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4183,
-   "reads": 301,
-   "sessions": 4089
+   "views": 4188,
+   "reads": 303,
+   "sessions": 4094
   },
   {
    "device": "mobile",
-   "views": 589,
+   "views": 590,
    "reads": 36,
-   "sessions": 573
+   "sessions": 574
   },
   {
    "device": "tablet",
@@ -347,7 +347,7 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 53,
-   "reads": 29,
+   "reads": 28,
    "plays": 0
   },
   {
@@ -406,7 +406,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 27,
+   "views": 28,
    "reads": 5,
    "plays": 0
   },
@@ -601,7 +601,7 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 53,
-   "reads": 29,
+   "reads": 28,
    "plays": 0
   },
   {
@@ -645,6 +645,16 @@
    "plays": 0
   },
   {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 28,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "best-llm-for-creative-writing-october-2026",
    "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
    "section": "stack",
@@ -652,16 +662,6 @@
    "author": "dex",
    "views": 27,
    "reads": 10,
-   "plays": 0
-  },
-  {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 27,
-   "reads": 5,
    "plays": 0
   },
   {
@@ -805,7 +805,7 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 84,
+   "hits": 83,
    "sessions": 44
   },
   {
