@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-19T14:09:48.459Z",
+ "generated": "2026-10-19T14:19:58.951Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
+  "readersNow": 1,
   "todayReads": 23,
   "avgTimeSec": 56,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 4763,
-  "reads": 340,
+  "views": 4761,
+  "reads": 339,
   "completes": 16,
   "plays": 12,
-  "sessions": 4653
+  "sessions": 4651
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4379,
+   "views": 4378,
    "reads": 192,
-   "sessions": 4394
+   "sessions": 4392
   },
   {
    "channel": "organic",
-   "views": 285,
-   "reads": 111,
-   "sessions": 275
+   "views": 284,
+   "reads": 110,
+   "sessions": 274
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4379,
+   "views": 4378,
    "reads": 192,
    "completes": 13,
-   "sessions": 4394,
+   "sessions": 4392,
    "read_rate": 0.044,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 285,
-   "reads": 111,
+   "views": 284,
+   "reads": 110,
    "completes": 2,
-   "sessions": 275,
-   "read_rate": 0.389,
+   "sessions": 274,
+   "read_rate": 0.387,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
    "median_dwell_sec": 2
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4180,
+   "views": 4179,
    "reads": 302,
-   "sessions": 4087
+   "sessions": 4086
   },
   {
    "device": "mobile",
-   "views": 582,
-   "reads": 37,
-   "sessions": 566
+   "views": 581,
+   "reads": 36,
+   "sessions": 565
   },
   {
    "device": "tablet",
@@ -381,16 +381,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
-   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 14,
-   "reads": 6,
-   "plays": 0
-  },
-  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
@@ -431,12 +421,22 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
+   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 13,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
    "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
    "section": "stack",
    "tags": "[\"compare\",\"opinionated\"]",
    "author": "dex",
-   "views": 11,
+   "views": 10,
    "reads": 5,
    "plays": 0
   },
@@ -829,14 +829,14 @@
    "sessions": 7
   },
   {
-   "ref": "https://www.ecosia.org/",
-   "hits": 9,
-   "sessions": 6
-  },
-  {
    "ref": "brand",
    "hits": 9,
    "sessions": 8
+  },
+  {
+   "ref": "https://www.ecosia.org/",
+   "hits": 7,
+   "sessions": 5
   },
   {
    "ref": "https://www.doubao.com/",
