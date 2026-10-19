@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-19T05:12:48.761Z",
+ "generated": "2026-10-19T05:22:56.265Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18607,
+ "verifiedAiHits": 18616,
  "logsScanned": 30,
  "windowStart": "2026-10-05",
  "windowEnd": "2026-10-19",
- "totalHits": 129920,
- "aiHits": 106631,
+ "totalHits": 129993,
+ "aiHits": 106690,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30082,
+   "hits": 30107,
    "verifiedHits": 0,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16742,
+   "hits": 16767,
    "verifiedHits": 0,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7089,
+   "hits": 7091,
    "verifiedHits": 0,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
@@ -212,8 +212,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6890,
-   "verifiedHits": 6847,
+   "hits": 6893,
+   "verifiedHits": 6850,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
    "topPaths": [
@@ -245,14 +245,14 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 6429,
-   "verifiedHits": 6310,
+   "hits": 6432,
+   "verifiedHits": 6313,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
    "topPaths": [
     {
      "path": "/",
-     "hits": 29
+     "hits": 30
     },
     {
      "path": "/tools",
@@ -278,14 +278,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5864,
-   "verifiedHits": 5802,
+   "hits": 5869,
+   "verifiedHits": 5807,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
    "topPaths": [
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
-     "hits": 119
+     "hits": 121
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
@@ -311,7 +311,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4200,
+   "hits": 4208,
    "verifiedHits": 0,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
@@ -329,11 +329,11 @@
      "hits": 10
     },
     {
-     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 8
+     "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
+     "hits": 9
     },
     {
-     "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
+     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
      "hits": 8
     }
    ],
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4146,
+   "hits": 4147,
    "verifiedHits": 0,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3461,
-   "verifiedHits": 3358,
+   "hits": 3462,
+   "verifiedHits": 3359,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
    "topPaths": [
     {
      "path": "/",
-     "hits": 912
+     "hits": 913
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
