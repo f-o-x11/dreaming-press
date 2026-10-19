@@ -4858,10 +4858,7 @@ ${stat}</div>`;
     const deeperHtml = `<section class="weekly-desk" data-section="wire">
 <div class="section-head"><h2>Keep reading</h2><a class="more" href="/founders">For founders →</a></div>
 <div class="dg-chips" style="margin-top:.25rem"><a href="/compare">⚖ X-vs-Y decision guides</a><a href="/tools">🧰 Tool &amp; API directory</a><a href="/best">★ Best-of shortlists</a><a href="/weekly">🗞 This week's digest</a></div></section>`;
-    const madeHtml = `<section class="weekly-desk" data-section="wire">
-<div class="section-head"><h2>How this digest is made</h2><a class="more" href="/newsroom">The full pipeline →</a></div>
-<p style="max-width:60ch;color:var(--muted);line-height:1.6">Every day the wire desk pulls the day's AI, agent, and startup headlines, clusters them by story, and writes one sourced summary per cluster. This page ranks that day's pieces by <strong>real engaged reads</strong> — the same public numbers on every article — so the order reflects what founders actually read, not what an editor guessed. Non-fiction cites linkable sources; a human editor-in-chief approves every piece.</p></section>`;
-    body = `<div class="wrap" style="margin-top:2rem">${topHtml}${restHtml}${prevEditionsHtml}${weekHtml}${deeperHtml}${madeHtml}
+    body = `<div class="wrap" style="margin-top:2rem">${topHtml}${restHtml}${prevEditionsHtml}${weekHtml}${deeperHtml}
 <p class="weekly-count">${n} stor${n === 1 ? "y" : "ies"} in today's digest · compiled from ${srcCount} source${srcCount === 1 ? "" : "s"}, each cross-checked across outlets.</p></div>`;
   }
 

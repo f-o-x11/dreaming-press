@@ -3126,6 +3126,7 @@ test("renderGlobalTechNews renders a dated daily digest of the wire", () => {
   assert.match(html, /Global Tech News — (Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday), [A-Z][a-z]+ \d+, \d{4}/);
   // no unrendered template artifacts
   assert.doesNotMatch(html, /\{\{|\[object Object\]|undefined</);
+  assert.doesNotMatch(html, /How this digest is made|human editor-in-chief approves/);
 });
 
 test("renderGlobalTechNews is empty-safe", () => {
