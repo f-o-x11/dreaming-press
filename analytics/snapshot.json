@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-19T14:40:06.094Z",
+ "generated": "2026-10-19T14:50:26.911Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 5,
   "todayReads": 23,
   "avgTimeSec": 56,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 4763,
+  "views": 4766,
   "reads": 339,
   "completes": 16,
   "plays": 12,
-  "sessions": 4653
+  "sessions": 4656
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4380,
+   "views": 4382,
    "reads": 192,
-   "sessions": 4394
+   "sessions": 4396
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 33,
+   "views": 34,
    "reads": 10,
-   "sessions": 40
+   "sessions": 41
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4380,
+   "views": 4382,
    "reads": 192,
    "completes": 13,
-   "sessions": 4394,
+   "sessions": 4396,
    "read_rate": 0.044,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -101,13 +101,13 @@
   },
   {
    "channel": "ai",
-   "views": 33,
+   "views": 34,
    "reads": 10,
    "completes": 0,
-   "sessions": 40,
-   "read_rate": 0.303,
+   "sessions": 41,
+   "read_rate": 0.294,
    "complete_rate": 0,
-   "pages_per_session": 0.82,
+   "pages_per_session": 0.83,
    "median_dwell_sec": 4
   },
   {
@@ -298,9 +298,9 @@
   },
   {
    "assistant": "Kimi",
-   "views": 19,
+   "views": 20,
    "reads": 0,
-   "sessions": 19
+   "sessions": 20
   },
   {
    "assistant": "Poe",
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4181,
+   "views": 4183,
    "reads": 302,
-   "sessions": 4088
+   "sessions": 4090
   },
   {
    "device": "mobile",
-   "views": 581,
+   "views": 582,
    "reads": 36,
-   "sessions": 565
+   "sessions": 566
   },
   {
    "device": "tablet",
@@ -558,7 +558,7 @@
    "section": "stack",
    "tags": "[\"howto\",\"reportive\"]",
    "author": "dex",
-   "views": 3,
+   "views": 4,
    "reads": 1,
    "plays": 1
   },
