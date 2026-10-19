@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T01:39:59.442Z",
+ "generated": "2026-10-19T01:50:00.157Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 4735,
+  "views": 4732,
   "reads": 338,
   "completes": 16,
   "plays": 12,
-  "sessions": 4624
+  "sessions": 4623
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4341,
+   "views": 4338,
    "reads": 188,
-   "sessions": 4356
+   "sessions": 4355
   },
   {
    "channel": "organic",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 25
+   "sessions": 24
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4341,
+   "views": 4338,
    "reads": 188,
    "completes": 13,
-   "sessions": 4356,
+   "sessions": 4355,
    "read_rate": 0.043,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 25,
+   "sessions": 24,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -196,8 +196,8 @@
   },
   {
    "surface": "brand",
-   "clicks": 9,
-   "sessions": 8
+   "clicks": 8,
+   "sessions": 7
   },
   {
    "surface": "dash-range",
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4164,
+   "views": 4161,
    "reads": 302,
-   "sessions": 4070
+   "sessions": 4069
   },
   {
    "device": "mobile",
@@ -688,16 +688,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 496,
+   "views": 495,
    "reads": 10,
-   "sessions": 496,
-   "avg_dwell_sec": 85
+   "sessions": 495,
+   "avg_dwell_sec": 90
   },
   {
    "path": "/",
-   "views": 157,
+   "views": 156,
    "reads": 4,
-   "sessions": 163,
+   "sessions": 162,
    "avg_dwell_sec": 11
   },
   {
@@ -840,8 +840,8 @@
   },
   {
    "ref": "brand",
-   "hits": 9,
-   "sessions": 8
+   "hits": 8,
+   "sessions": 7
   }
  ]
 }
