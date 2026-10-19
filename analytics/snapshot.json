@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-19T02:40:51.466Z",
+ "generated": "2026-10-19T02:50:59.495Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 9,
   "todayReads": 2,
-  "avgTimeSec": 34,
+  "avgTimeSec": 33,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 4732,
-  "reads": 338,
+  "views": 4734,
+  "reads": 336,
   "completes": 16,
   "plays": 12,
-  "sessions": 4623
+  "sessions": 4626
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4339,
+   "views": 4343,
    "reads": 188,
-   "sessions": 4356
+   "sessions": 4360
   },
   {
    "channel": "organic",
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 23,
-   "reads": 13,
-   "sessions": 19
+   "views": 22,
+   "reads": 12,
+   "sessions": 18
   },
   {
    "channel": "ai",
-   "views": 34,
-   "reads": 11,
-   "sessions": 40
+   "views": 33,
+   "reads": 10,
+   "sessions": 39
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4339,
+   "views": 4343,
    "reads": 188,
    "completes": 13,
-   "sessions": 4356,
+   "sessions": 4360,
    "read_rate": 0.043,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "ai",
-   "views": 34,
-   "reads": 11,
+   "views": 33,
+   "reads": 10,
    "completes": 0,
-   "sessions": 40,
-   "read_rate": 0.324,
+   "sessions": 39,
+   "read_rate": 0.303,
    "complete_rate": 0,
    "pages_per_session": 0.85,
    "median_dwell_sec": 29
@@ -123,13 +123,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 23,
-   "reads": 13,
+   "views": 22,
+   "reads": 12,
    "completes": 0,
-   "sessions": 19,
-   "read_rate": 0.565,
+   "sessions": 18,
+   "read_rate": 0.545,
    "complete_rate": 0,
-   "pages_per_session": 1.21,
+   "pages_per_session": 1.22,
    "median_dwell_sec": null
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 29,
-   "reads": 17,
-   "sessions": 21
+   "views": 27,
+   "reads": 15,
+   "sessions": 19
   },
   {
    "assistant": "Doubao",
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4163,
-   "reads": 302,
-   "sessions": 4071
+   "views": 4165,
+   "reads": 300,
+   "sessions": 4074
   },
   {
    "device": "mobile",
@@ -688,9 +688,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 495,
+   "views": 496,
    "reads": 10,
-   "sessions": 495,
+   "sessions": 496,
    "avg_dwell_sec": 90
   },
   {
