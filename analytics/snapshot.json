@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-19T12:38:29.922Z",
+ "generated": "2026-10-19T12:48:37.947Z",
  "windowDays": 14,
  "site": {
   "readersNow": 4,
-  "todayReads": 21,
-  "avgTimeSec": 58,
+  "todayReads": 22,
+  "avgTimeSec": 56,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 4762,
-  "reads": 339,
+  "views": 4764,
+  "reads": 340,
   "completes": 16,
   "plays": 12,
-  "sessions": 4653
+  "sessions": 4655
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4379,
-   "reads": 191,
-   "sessions": 4395
+   "views": 4380,
+   "reads": 192,
+   "sessions": 4396
   },
   {
    "channel": "organic",
@@ -29,15 +29,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 23,
+   "views": 24,
    "reads": 12,
-   "sessions": 19
+   "sessions": 20
   },
   {
    "channel": "ai",
    "views": 33,
    "reads": 10,
-   "sessions": 39
+   "sessions": 40
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4379,
-   "reads": 191,
+   "views": 4380,
+   "reads": 192,
    "completes": 13,
-   "sessions": 4395,
+   "sessions": 4396,
    "read_rate": 0.044,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -104,10 +104,10 @@
    "views": 33,
    "reads": 10,
    "completes": 0,
-   "sessions": 39,
+   "sessions": 40,
    "read_rate": 0.303,
    "complete_rate": 0,
-   "pages_per_session": 0.85,
+   "pages_per_session": 0.82,
    "median_dwell_sec": 4
   },
   {
@@ -123,13 +123,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 23,
+   "views": 24,
    "reads": 12,
    "completes": 0,
-   "sessions": 19,
-   "read_rate": 0.522,
+   "sessions": 20,
+   "read_rate": 0.5,
    "complete_rate": 0,
-   "pages_per_session": 1.21,
+   "pages_per_session": 1.2,
    "median_dwell_sec": null
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 28,
+   "views": 29,
    "reads": 15,
-   "sessions": 20
+   "sessions": 21
   },
   {
    "assistant": "Doubao",
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4179,
+   "views": 4180,
    "reads": 302,
-   "sessions": 4087
+   "sessions": 4088
   },
   {
    "device": "mobile",
-   "views": 582,
-   "reads": 36,
-   "sessions": 566
+   "views": 583,
+   "reads": 37,
+   "sessions": 567
   },
   {
    "device": "tablet",
