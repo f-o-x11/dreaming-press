@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-19T04:11:59.957Z",
+ "generated": "2026-10-19T04:22:11.523Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18435,
+ "verifiedAiHits": 18587,
  "logsScanned": 30,
  "windowStart": "2026-10-05",
  "windowEnd": "2026-10-19",
- "totalHits": 129481,
- "aiHits": 106254,
+ "totalHits": 129662,
+ "aiHits": 106416,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29954,
+   "hits": 29964,
    "verifiedHits": 0,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7058,
+   "hits": 7069,
    "verifiedHits": 0,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
@@ -245,14 +245,14 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 6274,
-   "verifiedHits": 6155,
+   "hits": 6425,
+   "verifiedHits": 6306,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
    "topPaths": [
     {
      "path": "/",
-     "hits": 28
+     "hits": 29
     },
     {
      "path": "/tools",
@@ -263,12 +263,12 @@
      "hits": 24
     },
     {
-     "path": "/newsroom",
+     "path": "/dashboard",
      "hits": 22
     },
     {
-     "path": "/global-tech-news",
-     "hits": 21
+     "path": "/newsroom",
+     "hits": 22
     }
    ],
    "verifiable": true
@@ -311,7 +311,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4184,
+   "hits": 4192,
    "verifiedHits": 0,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3454,
-   "verifiedHits": 3351,
+   "hits": 3455,
+   "verifiedHits": 3352,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
    "topPaths": [
     {
      "path": "/",
-     "hits": 909
+     "hits": 910
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
