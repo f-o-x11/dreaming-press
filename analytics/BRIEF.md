@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-19T15:00Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-19T15:10Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -94,7 +94,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 972 retrieval fetches
+- /  — 973 retrieval fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 196 retrieval fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 158 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 123 retrieval fetches
@@ -106,9 +106,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html  — 50 retrieval fetches
 
 Per engine:
-- PerplexityBot (6685 verified): / ×30 · /tools ×25 · /newsroom ×24
-- OAI-SearchBot (5997 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×123 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×91 · /posts/open-source-llm-for-coding-september-2026.html ×85
-- ChatGPT-User (3478 verified): / ×942 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×196 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×158
+- PerplexityBot (6686 verified): / ×30 · /tools ×25 · /newsroom ×24
+- OAI-SearchBot (6000 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×123 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×91 · /posts/open-source-llm-for-coding-september-2026.html ×85
+- ChatGPT-User (3479 verified): / ×943 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×196 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×158
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -145,7 +145,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 19298 confirmed AI-engine fetches (Perplexity 6685, ChatGPT Search (OpenAI) 5997, ChatGPT (user browsing) 3478, GPTBot (OpenAI) 3138).
+The real answer engines are crawling us — IP-verified: 19303 confirmed AI-engine fetches (Perplexity 6686, ChatGPT Search (OpenAI) 6000, ChatGPT (user browsing) 3479, GPTBot (OpenAI) 3138).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 470 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 387 crawler fetches
