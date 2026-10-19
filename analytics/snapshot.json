@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-19T16:43:18.982Z",
+ "generated": "2026-10-19T16:53:26.599Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 25,
+  "readersNow": 3,
+  "todayReads": 26,
   "avgTimeSec": 53,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 4771,
-  "reads": 339,
+  "views": 4769,
+  "reads": 340,
   "completes": 16,
   "plays": 12,
-  "sessions": 4660
+  "sessions": 4657
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4389,
+   "views": 4386,
    "reads": 194,
-   "sessions": 4401
+   "sessions": 4398
   },
   {
    "channel": "organic",
@@ -29,8 +29,8 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 25,
-   "reads": 13,
+   "views": 26,
+   "reads": 14,
    "sessions": 20
   },
   {
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4389,
+   "views": 4386,
    "reads": 194,
    "completes": 13,
-   "sessions": 4401,
+   "sessions": 4398,
    "read_rate": 0.044,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -123,13 +123,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 25,
-   "reads": 13,
+   "views": 26,
+   "reads": 14,
    "completes": 0,
    "sessions": 20,
-   "read_rate": 0.52,
+   "read_rate": 0.538,
    "complete_rate": 0,
-   "pages_per_session": 1.25,
+   "pages_per_session": 1.3,
    "median_dwell_sec": null
   },
   {
@@ -268,8 +268,8 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 30,
-   "reads": 16,
+   "views": 31,
+   "reads": 17,
    "sessions": 21
   },
   {
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4186,
-   "reads": 302,
+   "views": 4187,
+   "reads": 303,
    "sessions": 4092
   },
   {
    "device": "mobile",
-   "views": 584,
+   "views": 581,
    "reads": 36,
-   "sessions": 568
+   "sessions": 565
   },
   {
    "device": "tablet",
@@ -716,9 +716,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 39,
+   "views": 38,
    "reads": 0,
-   "sessions": 39,
+   "sessions": 38,
    "avg_dwell_sec": null
   },
   {
