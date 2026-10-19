@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-19T07:04:00.445Z",
+ "generated": "2026-10-19T07:14:02.534Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 8,
+  "readersNow": 11,
   "todayReads": 6,
-  "avgTimeSec": 50,
+  "avgTimeSec": 47,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 4762,
+  "views": 4761,
   "reads": 335,
   "completes": 16,
   "plays": 12,
-  "sessions": 4653
+  "sessions": 4652
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4371,
+   "views": 4369,
    "reads": 188,
-   "sessions": 4385
+   "sessions": 4384
   },
   {
    "channel": "organic",
-   "views": 294,
+   "views": 295,
    "reads": 111,
-   "sessions": 284
+   "sessions": 285
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4371,
+   "views": 4369,
    "reads": 188,
    "completes": 13,
-   "sessions": 4385,
+   "sessions": 4384,
    "read_rate": 0.043,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 294,
+   "views": 295,
    "reads": 111,
    "completes": 2,
-   "sessions": 284,
-   "read_rate": 0.378,
+   "sessions": 285,
+   "read_rate": 0.376,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
    "median_dwell_sec": 2
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4184,
+   "views": 4183,
    "reads": 299,
-   "sessions": 4092
+   "sessions": 4091
   },
   {
    "device": "mobile",
@@ -660,7 +660,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 26,
+   "views": 27,
    "reads": 1,
    "plays": 0
   },
@@ -709,16 +709,16 @@
   },
   {
    "path": "/build",
-   "views": 45,
+   "views": 46,
    "reads": 0,
-   "sessions": 45,
+   "sessions": 46,
    "avg_dwell_sec": 4
   },
   {
    "path": "/best/:cat",
-   "views": 40,
+   "views": 39,
    "reads": 0,
-   "sessions": 40,
+   "sessions": 39,
    "avg_dwell_sec": null
   },
   {
@@ -757,18 +757,18 @@
    "avg_dwell_sec": 95
   },
   {
-   "path": "/dispatches.html",
-   "views": 9,
-   "reads": 0,
-   "sessions": 8,
-   "avg_dwell_sec": 4
-  },
-  {
    "path": "/topics/:topic",
    "views": 9,
    "reads": 0,
    "sessions": 8,
    "avg_dwell_sec": null
+  },
+  {
+   "path": "/dispatches.html",
+   "views": 8,
+   "reads": 0,
+   "sessions": 7,
+   "avg_dwell_sec": 4
   },
   {
    "path": "/stack.html",
@@ -805,8 +805,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 83,
-   "sessions": 41
+   "hits": 84,
+   "sessions": 42
   },
   {
    "ref": "https://cn.bing.com/",
