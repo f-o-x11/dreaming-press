@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T18:04:24.649Z",
+ "generated": "2026-10-19T18:14:30.534Z",
  "windowDays": 14,
  "site": {
   "readersNow": 11,
@@ -8,18 +8,18 @@
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 4770,
-  "reads": 339,
+  "views": 4772,
+  "reads": 338,
   "completes": 16,
   "plays": 12,
-  "sessions": 4658
+  "sessions": 4660
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4386,
+   "views": 4389,
    "reads": 193,
-   "sessions": 4398
+   "sessions": 4401
   },
   {
    "channel": "organic",
@@ -59,9 +59,9 @@
   },
   {
    "channel": "campaign:copilot.com",
-   "views": 2,
-   "reads": 1,
-   "sessions": 2
+   "views": 1,
+   "reads": 0,
+   "sessions": 1
   },
   {
    "channel": "campaign:producthunt",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4386,
+   "views": 4389,
    "reads": 193,
    "completes": 13,
-   "sessions": 4398,
+   "sessions": 4401,
    "read_rate": 0.044,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -155,18 +155,18 @@
    "median_dwell_sec": null
   },
   {
-   "channel": "campaign:copilot.com",
-   "views": 2,
-   "reads": 1,
+   "channel": "campaign:producthunt",
+   "views": 1,
+   "reads": 0,
    "completes": 0,
-   "sessions": 2,
-   "read_rate": 0.5,
+   "sessions": 1,
+   "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
   {
-   "channel": "campaign:producthunt",
+   "channel": "campaign:copilot.com",
    "views": 1,
    "reads": 0,
    "completes": 0,
@@ -285,12 +285,6 @@
    "sessions": 2
   },
   {
-   "assistant": "Copilot",
-   "views": 2,
-   "reads": 1,
-   "sessions": 2
-  },
-  {
    "assistant": "Perplexity",
    "views": 1,
    "reads": 1,
@@ -307,20 +301,26 @@
    "views": 1,
    "reads": 0,
    "sessions": 1
+  },
+  {
+   "assistant": "Copilot",
+   "views": 1,
+   "reads": 0,
+   "sessions": 1
   }
  ],
  "devices": [
   {
    "device": "desktop",
-   "views": 4187,
-   "reads": 302,
-   "sessions": 4092
+   "views": 4188,
+   "reads": 301,
+   "sessions": 4093
   },
   {
    "device": "mobile",
-   "views": 582,
+   "views": 583,
    "reads": 36,
-   "sessions": 566
+   "sessions": 567
   },
   {
    "device": "tablet",
@@ -378,16 +378,6 @@
    "author": "dex",
    "views": 14,
    "reads": 9,
-   "plays": 0
-  },
-  {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 10,
-   "reads": 6,
    "plays": 0
   },
   {
@@ -449,6 +439,16 @@
    "views": 9,
    "reads": 5,
    "plays": 1
+  },
+  {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 9,
+   "reads": 5,
+   "plays": 0
   },
   {
    "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
