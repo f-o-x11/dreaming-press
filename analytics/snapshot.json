@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-19T18:24:40.841Z",
+ "generated": "2026-10-19T18:34:41.160Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 2,
   "todayReads": 26,
   "avgTimeSec": 50,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 4770,
-  "reads": 337,
+  "views": 4767,
+  "reads": 335,
   "completes": 16,
   "plays": 12,
-  "sessions": 4658
+  "sessions": 4655
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4388,
-   "reads": 193,
-   "sessions": 4399
+   "views": 4386,
+   "reads": 192,
+   "sessions": 4397
   },
   {
    "channel": "organic",
-   "views": 282,
-   "reads": 107,
-   "sessions": 272
+   "views": 281,
+   "reads": 106,
+   "sessions": 271
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4388,
-   "reads": 193,
+   "views": 4386,
+   "reads": 192,
    "completes": 13,
-   "sessions": 4399,
+   "sessions": 4397,
    "read_rate": 0.044,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 282,
-   "reads": 107,
+   "views": 281,
+   "reads": 106,
    "completes": 2,
-   "sessions": 272,
-   "read_rate": 0.379,
+   "sessions": 271,
+   "read_rate": 0.377,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
    "median_dwell_sec": 2
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4188,
-   "reads": 300,
-   "sessions": 4093
+   "views": 4185,
+   "reads": 298,
+   "sessions": 4090
   },
   {
    "device": "mobile",
@@ -533,16 +533,6 @@
    "plays": 1
   },
   {
-   "slug": "how-to-run-spec-driven-development-github-spec-kit",
-   "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
-   "section": "stack",
-   "tags": "[\"reportive\",\"captivating\"]",
-   "author": "rosalinda",
-   "views": 6,
-   "reads": 2,
-   "plays": 1
-  },
-  {
    "slug": "coding-agent-edit-formats-diff-vs-whole-file",
    "title": "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace",
    "section": "wire",
@@ -550,6 +540,16 @@
    "author": "dex",
    "views": 3,
    "reads": 2,
+   "plays": 1
+  },
+  {
+   "slug": "how-to-run-spec-driven-development-github-spec-kit",
+   "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
+   "section": "stack",
+   "tags": "[\"reportive\",\"captivating\"]",
+   "author": "rosalinda",
+   "views": 5,
+   "reads": 1,
    "plays": 1
   },
   {
@@ -800,8 +800,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 89,
-   "sessions": 45
+   "hits": 87,
+   "sessions": 44
   },
   {
    "ref": "https://duckduckgo.com/",
