@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-19T05:22:56.265Z",
+ "generated": "2026-10-19T05:32:58.418Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18616,
+ "verifiedAiHits": 18692,
  "logsScanned": 30,
  "windowStart": "2026-10-05",
  "windowEnd": "2026-10-19",
- "totalHits": 129993,
- "aiHits": 106690,
+ "totalHits": 130079,
+ "aiHits": 106774,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30107,
+   "hits": 30115,
    "verifiedHits": 0,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7091,
+   "hits": 7092,
    "verifiedHits": 0,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
@@ -212,8 +212,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6893,
-   "verifiedHits": 6850,
+   "hits": 6894,
+   "verifiedHits": 6851,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 6432,
-   "verifiedHits": 6313,
+   "hits": 6503,
+   "verifiedHits": 6384,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
    "topPaths": [
@@ -267,7 +267,7 @@
      "hits": 22
     },
     {
-     "path": "/newsroom",
+     "path": "/global-tech-news",
      "hits": 22
     }
    ],
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5869,
-   "verifiedHits": 5807,
+   "hits": 5874,
+   "verifiedHits": 5812,
    "firstSeen": "2026-10-05",
    "lastSeen": "2026-10-19",
    "topPaths": [
@@ -293,7 +293,7 @@
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 83
+     "hits": 84
     },
     {
      "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
