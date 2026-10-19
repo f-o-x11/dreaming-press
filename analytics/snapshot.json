@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-19T09:15:32.851Z",
+ "generated": "2026-10-19T09:25:44.231Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
-  "todayReads": 12,
+  "todayReads": 14,
   "avgTimeSec": 34,
-  "postsThisWeek": 16
+  "postsThisWeek": 17
  },
  "funnel": {
-  "views": 4757,
-  "reads": 332,
+  "views": 4758,
+  "reads": 334,
   "completes": 16,
   "plays": 12,
   "sessions": 4651
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 4374,
-   "reads": 188,
-   "sessions": 4392
+   "views": 4373,
+   "reads": 189,
+   "sessions": 4391
   },
   {
    "channel": "organic",
-   "views": 287,
-   "reads": 109,
-   "sessions": 277
+   "views": 288,
+   "reads": 110,
+   "sessions": 278
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -41,7 +41,7 @@
   },
   {
    "channel": "referral",
-   "views": 30,
+   "views": 31,
    "reads": 7,
    "sessions": 28
   },
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4374,
-   "reads": 188,
+   "views": 4373,
+   "reads": 189,
    "completes": 13,
-   "sessions": 4392,
+   "sessions": 4391,
    "read_rate": 0.043,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 287,
-   "reads": 109,
+   "views": 288,
+   "reads": 110,
    "completes": 2,
-   "sessions": 277,
-   "read_rate": 0.38,
+   "sessions": 278,
+   "read_rate": 0.382,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
    "median_dwell_sec": 2
@@ -112,13 +112,13 @@
   },
   {
    "channel": "referral",
-   "views": 30,
+   "views": 31,
    "reads": 7,
    "completes": 0,
    "sessions": 28,
-   "read_rate": 0.233,
+   "read_rate": 0.226,
    "complete_rate": 0,
-   "pages_per_session": 1.07,
+   "pages_per_session": 1.11,
    "median_dwell_sec": null
   },
   {
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4171,
-   "reads": 296,
-   "sessions": 4082
+   "views": 4173,
+   "reads": 297,
+   "sessions": 4083
   },
   {
    "device": "mobile",
-   "views": 585,
-   "reads": 35,
-   "sessions": 569
+   "views": 584,
+   "reads": 36,
+   "sessions": 568
   },
   {
    "device": "tablet",
@@ -346,9 +346,19 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 130,
+   "views": 131,
    "reads": 27,
    "plays": 1
+  },
+  {
+   "slug": "best-llm-for-creative-writing-october-2026",
+   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 26,
+   "reads": 10,
+   "plays": 0
   },
   {
    "slug": "vllm-rust-frontend",
@@ -371,22 +381,12 @@
    "plays": 0
   },
   {
-   "slug": "best-llm-for-creative-writing-october-2026",
-   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 26,
-   "reads": 9,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
    "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 15,
+   "views": 14,
    "reads": 6,
    "plays": 0
   },
@@ -471,12 +471,12 @@
    "plays": 0
   },
   {
-   "slug": "how-to-migrate-embedding-models-in-production",
-   "title": "How to Migrate Embedding Models in Production Without Wrecking Retrieval",
+   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
+   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
+   "author": "priya",
+   "views": 10,
    "reads": 3,
    "plays": 0
   }
@@ -498,7 +498,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 130,
+   "views": 131,
    "reads": 27,
    "plays": 1
   },
@@ -590,7 +590,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 130,
+   "views": 131,
    "reads": 27,
    "plays": 1
   },
@@ -671,7 +671,7 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 26,
-   "reads": 9,
+   "reads": 10,
    "plays": 0
   },
   {
@@ -800,8 +800,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 86,
-   "sessions": 43
+   "hits": 88,
+   "sessions": 44
   },
   {
    "ref": "https://duckduckgo.com/",
