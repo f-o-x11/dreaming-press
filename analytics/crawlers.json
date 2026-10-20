@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-20T22:59:58.226Z",
+ "generated": "2026-10-20T23:10:00.125Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19927,
+ "verifiedAiHits": 19930,
  "logsScanned": 30,
  "windowStart": "2026-10-06",
  "windowEnd": "2026-10-20",
- "totalHits": 131564,
- "aiHits": 106762,
+ "totalHits": 131593,
+ "aiHits": 106776,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32145,
+   "hits": 32156,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7741,
+   "hits": 7755,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -212,8 +212,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 7271,
-   "verifiedHits": 7155,
+   "hits": 7273,
+   "verifiedHits": 7157,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
    "topPaths": [
@@ -226,11 +226,11 @@
      "hits": 27
     },
     {
-     "path": "/newsroom",
-     "hits": 25
+     "path": "/subscribe",
+     "hits": 26
     },
     {
-     "path": "/subscribe",
+     "path": "/newsroom",
      "hits": 25
     },
     {
@@ -245,8 +245,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7249,
-   "verifiedHits": 7204,
+   "hits": 7250,
+   "verifiedHits": 7205,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
    "topPaths": [
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3731,
-   "verifiedHits": 3625,
+   "hits": 3732,
+   "verifiedHits": 3626,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
    "topPaths": [
@@ -388,7 +388,7 @@
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 222
+     "hits": 223
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
