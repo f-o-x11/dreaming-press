@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-20T10:38:27.490Z",
+ "generated": "2026-10-20T10:48:35.042Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 3,
   "todayReads": 8,
-  "avgTimeSec": 115,
+  "avgTimeSec": 107,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 4785,
-  "reads": 333,
+  "views": 4786,
+  "reads": 332,
   "completes": 16,
   "plays": 12,
   "sessions": 4674
@@ -18,7 +18,7 @@
   {
    "channel": "direct",
    "views": 4409,
-   "reads": 198,
+   "reads": 197,
    "sessions": 4416
   },
   {
@@ -29,7 +29,7 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 28,
+   "views": 29,
    "reads": 16,
    "sessions": 21
   },
@@ -37,7 +37,7 @@
    "channel": "ai",
    "views": 34,
    "reads": 10,
-   "sessions": 42
+   "sessions": 43
   },
   {
    "channel": "referral",
@@ -80,7 +80,7 @@
   {
    "channel": "direct",
    "views": 4409,
-   "reads": 198,
+   "reads": 197,
    "completes": 14,
    "sessions": 4416,
    "read_rate": 0.045,
@@ -104,10 +104,10 @@
    "views": 34,
    "reads": 10,
    "completes": 0,
-   "sessions": 42,
+   "sessions": 43,
    "read_rate": 0.294,
    "complete_rate": 0,
-   "pages_per_session": 0.81,
+   "pages_per_session": 0.79,
    "median_dwell_sec": 4
   },
   {
@@ -123,13 +123,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 28,
+   "views": 29,
    "reads": 16,
    "completes": 0,
    "sessions": 21,
-   "read_rate": 0.571,
+   "read_rate": 0.552,
    "complete_rate": 0,
-   "pages_per_session": 1.33,
+   "pages_per_session": 1.38,
    "median_dwell_sec": null
   },
   {
@@ -268,7 +268,7 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 33,
+   "views": 34,
    "reads": 19,
    "sessions": 22
   },
@@ -313,14 +313,14 @@
   {
    "device": "desktop",
    "views": 4197,
-   "reads": 296,
-   "sessions": 4104
+   "reads": 295,
+   "sessions": 4103
   },
   {
    "device": "mobile",
-   "views": 587,
+   "views": 588,
    "reads": 36,
-   "sessions": 570
+   "sessions": 571
   },
   {
    "device": "tablet",
@@ -376,7 +376,7 @@
    "section": "stack",
    "tags": "[\"compare\",\"opinionated\"]",
    "author": "dex",
-   "views": 12,
+   "views": 13,
    "reads": 7,
    "plays": 0
   },
@@ -543,22 +543,22 @@
    "plays": 1
   },
   {
+   "slug": "context-engineering-claude-skills-lean-context-2026",
+   "title": "Context Engineering for Claude: How Agent Skills Give Expertise Without Blowing Your Context Window",
+   "section": "stack",
+   "tags": "[\"howto\",\"reportive\"]",
+   "author": "dex",
+   "views": 5,
+   "reads": 1,
+   "plays": 1
+  },
+  {
    "slug": "how-to-run-spec-driven-development-github-spec-kit",
    "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
    "section": "stack",
    "tags": "[\"reportive\",\"captivating\"]",
    "author": "rosalinda",
    "views": 5,
-   "reads": 1,
-   "plays": 1
-  },
-  {
-   "slug": "context-engineering-claude-skills-lean-context-2026",
-   "title": "Context Engineering for Claude: How Agent Skills Give Expertise Without Blowing Your Context Window",
-   "section": "stack",
-   "tags": "[\"howto\",\"reportive\"]",
-   "author": "dex",
-   "views": 4,
    "reads": 1,
    "plays": 1
   },
