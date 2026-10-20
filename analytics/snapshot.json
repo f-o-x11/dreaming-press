@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-20T05:34:39.933Z",
+ "generated": "2026-10-20T05:44:46.791Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 2,
+  "readersNow": 1,
+  "todayReads": 3,
   "avgTimeSec": 14,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 4800,
+  "views": 4796,
   "reads": 336,
   "completes": 17,
   "plays": 12,
-  "sessions": 4690
+  "sessions": 4686
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4416,
+   "views": 4414,
    "reads": 195,
-   "sessions": 4431
+   "sessions": 4428
   },
   {
    "channel": "organic",
-   "views": 283,
+   "views": 281,
    "reads": 103,
-   "sessions": 275
+   "sessions": 273
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4416,
+   "views": 4414,
    "reads": 195,
    "completes": 14,
-   "sessions": 4431,
+   "sessions": 4428,
    "read_rate": 0.044,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 283,
+   "views": 281,
    "reads": 103,
    "completes": 2,
-   "sessions": 275,
-   "read_rate": 0.364,
+   "sessions": 273,
+   "read_rate": 0.367,
    "complete_rate": 0.007,
    "pages_per_session": 1.03,
    "median_dwell_sec": 2
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4214,
+   "views": 4210,
    "reads": 299,
-   "sessions": 4121
+   "sessions": 4117
   },
   {
    "device": "mobile",
@@ -346,8 +346,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 53,
-   "reads": 28,
+   "views": 48,
+   "reads": 27,
    "plays": 0
   },
   {
@@ -461,22 +461,22 @@
    "plays": 0
   },
   {
+   "slug": "sqlite-vec-vs-lancedb-vs-qdrant-agent-memory",
+   "title": "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 21,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "2026-10-15-founders-wire-anthropic-opens-its-books",
    "title": "The Founder's Wire, October 15: Anthropic Opened Its Books — $16.8B, an 85% Margin, and $1.70 of Revenue for Every $1 of Compute",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 15,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "best-llm-for-writing-2026",
-   "title": "The Best LLM for Writing in 2026: A Founder's Pick for Drafts, Docs, and Marketing Copy",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 12,
    "reads": 3,
    "plays": 0
   }
@@ -595,16 +595,6 @@
    "plays": 1
   },
   {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 53,
-   "reads": 28,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -612,6 +602,16 @@
    "author": "dex",
    "views": 49,
    "reads": 9,
+   "plays": 0
+  },
+  {
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 48,
+   "reads": 27,
    "plays": 0
   },
   {
@@ -795,8 +795,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 144,
-   "sessions": 131
+   "hits": 146,
+   "sessions": 132
   },
   {
    "ref": "https://www.bing.com/",
@@ -810,8 +810,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 52,
-   "sessions": 31
+   "hits": 48,
+   "sessions": 28
   },
   {
    "ref": "https://search.brave.com/",
