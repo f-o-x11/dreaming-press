@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-20T09:27:26.203Z",
+ "generated": "2026-10-20T09:37:27.097Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
+  "readersNow": 7,
   "todayReads": 7,
-  "avgTimeSec": 123,
+  "avgTimeSec": 115,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 4786,
+  "views": 4788,
   "reads": 332,
   "completes": 16,
   "plays": 12,
-  "sessions": 4675
+  "sessions": 4677
  },
  "channels": [
   {
@@ -23,21 +23,21 @@
   },
   {
    "channel": "organic",
-   "views": 272,
+   "views": 273,
    "reads": 95,
-   "sessions": 264
+   "sessions": 265
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 27,
+   "views": 28,
    "reads": 16,
-   "sessions": 20
+   "sessions": 21
   },
   {
    "channel": "ai",
    "views": 34,
    "reads": 10,
-   "sessions": 41
+   "sessions": 42
   },
   {
    "channel": "referral",
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 272,
+   "views": 273,
    "reads": 95,
    "completes": 1,
-   "sessions": 264,
-   "read_rate": 0.349,
+   "sessions": 265,
+   "read_rate": 0.348,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 2
@@ -104,10 +104,10 @@
    "views": 34,
    "reads": 10,
    "completes": 0,
-   "sessions": 41,
+   "sessions": 42,
    "read_rate": 0.294,
    "complete_rate": 0,
-   "pages_per_session": 0.83,
+   "pages_per_session": 0.81,
    "median_dwell_sec": 4
   },
   {
@@ -123,13 +123,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 27,
+   "views": 28,
    "reads": 16,
    "completes": 0,
-   "sessions": 20,
-   "read_rate": 0.593,
+   "sessions": 21,
+   "read_rate": 0.571,
    "complete_rate": 0,
-   "pages_per_session": 1.35,
+   "pages_per_session": 1.33,
    "median_dwell_sec": null
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 32,
+   "views": 33,
    "reads": 19,
-   "sessions": 21
+   "sessions": 22
   },
   {
    "assistant": "Doubao",
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4197,
+   "views": 4198,
    "reads": 295,
-   "sessions": 4104
+   "sessions": 4105
   },
   {
    "device": "mobile",
-   "views": 588,
+   "views": 589,
    "reads": 36,
-   "sessions": 571
+   "sessions": 572
   },
   {
    "device": "tablet",
@@ -538,7 +538,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 3,
+   "views": 4,
    "reads": 2,
    "plays": 1
   },
@@ -805,8 +805,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 80,
-   "sessions": 45
+   "hits": 81,
+   "sessions": 46
   },
   {
    "ref": "https://cn.bing.com/",
