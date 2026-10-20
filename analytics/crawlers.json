@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-20T14:21:24.736Z",
+ "generated": "2026-10-20T14:31:34.196Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19771,
+ "verifiedAiHits": 19772,
  "logsScanned": 30,
  "windowStart": "2026-10-06",
  "windowEnd": "2026-10-20",
- "totalHits": 129755,
- "aiHits": 105386,
+ "totalHits": 129779,
+ "aiHits": 105403,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31532,
+   "hits": 31537,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16950,
+   "hits": 16953,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15328,
+   "hits": 15335,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7593,
+   "hits": 7599,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -212,8 +212,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 7222,
-   "verifiedHits": 7106,
+   "hits": 7223,
+   "verifiedHits": 7107,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
    "topPaths": [
@@ -226,15 +226,15 @@
      "hits": 27
     },
     {
+     "path": "/newsroom",
+     "hits": 25
+    },
+    {
      "path": "/subscribe",
      "hits": 25
     },
     {
      "path": "/global-tech-news",
-     "hits": 24
-    },
-    {
-     "path": "/newsroom",
      "hits": 24
     }
    ],
@@ -245,8 +245,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7088,
-   "verifiedHits": 7043,
+   "hits": 7089,
+   "verifiedHits": 7044,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1497,
+   "hits": 1498,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -454,7 +454,7 @@
     },
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
-     "hits": 213
+     "hits": 214
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
