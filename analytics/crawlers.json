@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-20T23:40:12.545Z",
+ "generated": "2026-10-20T23:50:40.893Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19942,
+ "verifiedAiHits": 19945,
  "logsScanned": 30,
  "windowStart": "2026-10-06",
  "windowEnd": "2026-10-20",
- "totalHits": 131666,
- "aiHits": 106817,
+ "totalHits": 131736,
+ "aiHits": 106872,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32179,
+   "hits": 32224,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 17035,
+   "hits": 17036,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 10401,
+   "hits": 10403,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7769,
+   "hits": 7777,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -212,8 +212,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 7279,
-   "verifiedHits": 7163,
+   "hits": 7281,
+   "verifiedHits": 7165,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7265,
-   "verifiedHits": 7220,
+   "hits": 7268,
+   "verifiedHits": 7223,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4354,
+   "hits": 4355,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3736,
-   "verifiedHits": 3630,
+   "hits": 3737,
+   "verifiedHits": 3631,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
    "topPaths": [
@@ -392,7 +392,7 @@
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 169
+     "hits": 170
     },
     {
      "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1528,
+   "hits": 1531,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -458,7 +458,7 @@
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
-     "hits": 42
+     "hits": 43
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
@@ -470,6 +470,39 @@
     }
    ],
    "verifiable": false
+  },
+  {
+   "name": "Googlebot",
+   "label": "Googlebot",
+   "category": "search",
+   "home": "https://developers.google.com/search",
+   "hits": 631,
+   "verifiedHits": 547,
+   "firstSeen": "2026-10-06",
+   "lastSeen": "2026-10-20",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 29
+    },
+    {
+     "path": "/dashboard",
+     "hits": 2
+    },
+    {
+     "path": "/about.html",
+     "hits": 2
+    },
+    {
+     "path": "/stack/jina-reader",
+     "hits": 2
+    },
+    {
+     "path": "/posts/best-ai-agent-platform-2026-founders-decision-guide.html",
+     "hits": 2
+    }
+   ],
+   "verifiable": true
   },
   {
    "name": "CCBot",
@@ -503,39 +536,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "Googlebot",
-   "label": "Googlebot",
-   "category": "search",
-   "home": "https://developers.google.com/search",
-   "hits": 628,
-   "verifiedHits": 544,
-   "firstSeen": "2026-10-06",
-   "lastSeen": "2026-10-20",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 29
-    },
-    {
-     "path": "/dashboard",
-     "hits": 2
-    },
-    {
-     "path": "/about.html",
-     "hits": 2
-    },
-    {
-     "path": "/stack/jina-reader",
-     "hits": 2
-    },
-    {
-     "path": "/posts/best-ai-agent-platform-2026-founders-decision-guide.html",
-     "hits": 2
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "YouBot",
@@ -641,7 +641,7 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 143,
+   "hits": 144,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
