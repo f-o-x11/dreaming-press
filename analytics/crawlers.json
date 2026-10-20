@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-20T18:05:34.656Z",
+ "generated": "2026-10-20T18:15:43.209Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19861,
+ "verifiedAiHits": 19866,
  "logsScanned": 30,
  "windowStart": "2026-10-06",
  "windowEnd": "2026-10-20",
- "totalHits": 130724,
- "aiHits": 106159,
+ "totalHits": 130751,
+ "aiHits": 106178,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31888,
+   "hits": 31894,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15487,
+   "hits": 15494,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 10379,
+   "hits": 10380,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -212,8 +212,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 7253,
-   "verifiedHits": 7137,
+   "hits": 7254,
+   "verifiedHits": 7138,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7155,
-   "verifiedHits": 7110,
+   "hits": 7158,
+   "verifiedHits": 7113,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
    "topPaths": [
@@ -263,11 +263,11 @@
      "hits": 39
     },
     {
-     "path": "/search",
-     "hits": 34
+     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
+     "hits": 35
     },
     {
-     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
+     "path": "/search",
      "hits": 34
     }
    ],
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4331,
+   "hits": 4332,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3693,
-   "verifiedHits": 3588,
+   "hits": 3697,
+   "verifiedHits": 3592,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
    "topPaths": [
     {
      "path": "/",
-     "hits": 966
+     "hits": 968
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -509,14 +509,14 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 618,
-   "verifiedHits": 534,
+   "hits": 622,
+   "verifiedHits": 538,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
    "topPaths": [
     {
      "path": "/",
-     "hits": 28
+     "hits": 29
     },
     {
      "path": "/dashboard",
