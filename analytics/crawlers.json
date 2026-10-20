@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-20T06:04:59.112Z",
+ "generated": "2026-10-20T06:14:59.943Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19493,
+ "verifiedAiHits": 19496,
  "logsScanned": 30,
  "windowStart": "2026-10-06",
  "windowEnd": "2026-10-20",
- "totalHits": 127294,
- "aiHits": 103492,
+ "totalHits": 127344,
+ "aiHits": 103520,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30596,
+   "hits": 30613,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14954,
+   "hits": 14961,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -95,7 +95,7 @@
     },
     {
      "path": "/wire.html",
-     "hits": 31
+     "hits": 32
     },
     {
      "path": "/tags/opinionated",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7396,
+   "hits": 7409,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -193,15 +193,15 @@
      "hits": 5
     },
     {
+     "path": "/authors/rosalinda",
+     "hits": 5
+    },
+    {
      "path": "/apps",
      "hits": 5
     },
     {
      "path": "/authors/priya",
-     "hits": 5
-    },
-    {
-     "path": "/wire.html",
      "hits": 5
     }
    ],
@@ -245,8 +245,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6928,
-   "verifiedHits": 6885,
+   "hits": 6935,
+   "verifiedHits": 6892,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4248,
+   "hits": 4250,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -377,18 +377,18 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3556,
-   "verifiedHits": 3455,
+   "hits": 3559,
+   "verifiedHits": 3458,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
    "topPaths": [
     {
      "path": "/",
-     "hits": 932
+     "hits": 933
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 209
+     "hits": 210
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1462,
+   "hits": 1463,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -454,7 +454,7 @@
     },
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
-     "hits": 208
+     "hits": 209
     },
     {
      "path": "/posts/how-to-read-an-agent-memory-benchmark.html",
