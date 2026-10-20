@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-20T22:39:40.198Z",
+ "generated": "2026-10-20T22:49:49.796Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19919,
+ "verifiedAiHits": 19924,
  "logsScanned": 30,
  "windowStart": "2026-10-06",
  "windowEnd": "2026-10-20",
- "totalHits": 131522,
- "aiHits": 106729,
+ "totalHits": 131543,
+ "aiHits": 106746,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32133,
+   "hits": 32137,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -113,7 +113,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 10393,
+   "hits": 10396,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -344,14 +344,14 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4349,
+   "hits": 4353,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 27
+     "hits": 28
     },
     {
      "path": "/posts/tuning-claude-context-editing-trigger-keep-clear-at-least.md",
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3723,
-   "verifiedHits": 3617,
+   "hits": 3728,
+   "verifiedHits": 3622,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
    "topPaths": [
     {
      "path": "/",
-     "hits": 978
+     "hits": 980
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -443,14 +443,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1524,
+   "hits": 1528,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
    "topPaths": [
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 222
+     "hits": 223
     },
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
@@ -641,7 +641,7 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 142,
+   "hits": 143,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",

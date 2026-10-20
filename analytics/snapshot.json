@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T22:39:40.513Z",
+ "generated": "2026-10-20T22:49:50.079Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,11 +8,11 @@
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 4805,
+  "views": 4806,
   "reads": 335,
   "completes": 16,
   "plays": 12,
-  "sessions": 4693
+  "sessions": 4694
  },
  "channels": [
   {
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 29,
+   "views": 30,
    "reads": 6,
-   "sessions": 26
+   "sessions": 27
   },
   {
    "channel": "campaign:owner-qa",
@@ -111,6 +111,17 @@
    "median_dwell_sec": 4
   },
   {
+   "channel": "referral",
+   "views": 30,
+   "reads": 6,
+   "completes": 0,
+   "sessions": 27,
+   "read_rate": 0.2,
+   "complete_rate": 0,
+   "pages_per_session": 1.11,
+   "median_dwell_sec": null
+  },
+  {
    "channel": "campaign:chatgpt.com",
    "views": 29,
    "reads": 15,
@@ -119,17 +130,6 @@
    "read_rate": 0.517,
    "complete_rate": 0,
    "pages_per_session": 1.32,
-   "median_dwell_sec": null
-  },
-  {
-   "channel": "referral",
-   "views": 29,
-   "reads": 6,
-   "completes": 0,
-   "sessions": 26,
-   "read_rate": 0.207,
-   "complete_rate": 0,
-   "pages_per_session": 1.12,
    "median_dwell_sec": null
   },
   {
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4221,
+   "views": 4222,
    "reads": 300,
-   "sessions": 4127
+   "sessions": 4128
   },
   {
    "device": "mobile",
@@ -476,7 +476,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 21,
+   "views": 22,
    "reads": 3,
    "plays": 0
   }
