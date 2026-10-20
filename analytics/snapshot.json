@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-20T17:24:21.882Z",
+ "generated": "2026-10-20T17:34:38.947Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 8,
   "todayReads": 13,
-  "avgTimeSec": 78,
+  "avgTimeSec": 74,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 4780,
+  "views": 4787,
   "reads": 333,
   "completes": 16,
   "plays": 12,
-  "sessions": 4670
+  "sessions": 4676
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4405,
+   "views": 4412,
    "reads": 199,
-   "sessions": 4411
+   "sessions": 4417
   },
   {
    "channel": "organic",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 25
+   "sessions": 26
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4405,
+   "views": 4412,
    "reads": 199,
    "completes": 14,
-   "sessions": 4410,
+   "sessions": 4416,
    "read_rate": 0.045,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 25,
+   "sessions": 26,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -245,6 +245,11 @@
    "sessions": 2
   },
   {
+   "surface": "article-byline",
+   "clicks": 2,
+   "sessions": 2
+  },
+  {
    "surface": "sb-right",
    "clicks": 1,
    "sessions": 1
@@ -256,11 +261,6 @@
   },
   {
    "surface": "mtabbar",
-   "clicks": 1,
-   "sessions": 1
-  },
-  {
-   "surface": "more",
    "clicks": 1,
    "sessions": 1
   }
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4200,
+   "views": 4207,
    "reads": 297,
-   "sessions": 4108
+   "sessions": 4114
   },
   {
    "device": "mobile",
@@ -675,12 +675,12 @@
    "plays": 0
   },
   {
-   "slug": "2026-10-14-founders-wire-gemini-4-argon-opens-three-models-one-price",
-   "title": "The Founder's Wire, October 14: Gemini 4 Argon Opens Its Gate — and Now Three Frontier Models Cost Exactly the Same",
-   "section": "wire",
+   "slug": "best-open-source-rl-frameworks-for-training-agents",
+   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 24,
+   "author": "dex",
+   "views": 25,
    "reads": 0,
    "plays": 0
   }
