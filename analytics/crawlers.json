@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-20T04:33:54.535Z",
+ "generated": "2026-10-20T04:44:00.055Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19296,
+ "verifiedAiHits": 19467,
  "logsScanned": 30,
  "windowStart": "2026-10-06",
  "windowEnd": "2026-10-20",
- "totalHits": 126753,
- "aiHits": 103019,
+ "totalHits": 126945,
+ "aiHits": 103204,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30427,
+   "hits": 30431,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16745,
+   "hits": 16747,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14886,
+   "hits": 14894,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7374,
+   "hits": 7375,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -208,12 +208,45 @@
    "verifiable": false
   },
   {
+   "name": "PerplexityBot",
+   "label": "Perplexity",
+   "category": "ai",
+   "home": "https://www.perplexity.ai/bot",
+   "hits": 7028,
+   "verifiedHits": 6919,
+   "firstSeen": "2026-10-06",
+   "lastSeen": "2026-10-20",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 30
+    },
+    {
+     "path": "/tools",
+     "hits": 25
+    },
+    {
+     "path": "/subscribe",
+     "hits": 25
+    },
+    {
+     "path": "/apps",
+     "hits": 23
+    },
+    {
+     "path": "/dashboard",
+     "hits": 23
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "Bingbot",
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6898,
-   "verifiedHits": 6855,
+   "hits": 6903,
+   "verifiedHits": 6860,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
    "topPaths": [
@@ -241,45 +274,12 @@
    "verifiable": true
   },
   {
-   "name": "PerplexityBot",
-   "label": "Perplexity",
-   "category": "ai",
-   "home": "https://www.perplexity.ai/bot",
-   "hits": 6859,
-   "verifiedHits": 6750,
-   "firstSeen": "2026-10-06",
-   "lastSeen": "2026-10-20",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 29
-    },
-    {
-     "path": "/tools",
-     "hits": 25
-    },
-    {
-     "path": "/subscribe",
-     "hits": 25
-    },
-    {
-     "path": "/apps",
-     "hits": 23
-    },
-    {
-     "path": "/dashboard",
-     "hits": 23
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "OAI-SearchBot",
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 6023,
-   "verifiedHits": 5969,
+   "hits": 6025,
+   "verifiedHits": 5971,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
    "topPaths": [
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 610,
-   "verifiedHits": 529,
+   "hits": 611,
+   "verifiedHits": 530,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
    "topPaths": [

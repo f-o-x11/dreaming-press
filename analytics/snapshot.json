@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-20T04:33:54.817Z",
+ "generated": "2026-10-20T04:44:00.355Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 1,
+  "readersNow": 4,
+  "todayReads": 2,
   "avgTimeSec": 15,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 4806,
-  "reads": 340,
+  "views": 4803,
+  "reads": 337,
   "completes": 17,
   "plays": 12,
-  "sessions": 4695
+  "sessions": 4693
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4420,
-   "reads": 197,
-   "sessions": 4434
+   "views": 4418,
+   "reads": 195,
+   "sessions": 4433
   },
   {
    "channel": "organic",
-   "views": 285,
-   "reads": 105,
-   "sessions": 277
+   "views": 283,
+   "reads": 103,
+   "sessions": 275
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -58,6 +58,12 @@
    "sessions": 4
   },
   {
+   "channel": "campaign:perplexity",
+   "views": 1,
+   "reads": 1,
+   "sessions": 1
+  },
+  {
    "channel": "campaign:copilot.com",
    "views": 1,
    "reads": 0,
@@ -73,22 +79,22 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4420,
-   "reads": 197,
+   "views": 4418,
+   "reads": 195,
    "completes": 14,
-   "sessions": 4434,
-   "read_rate": 0.045,
+   "sessions": 4433,
+   "read_rate": 0.044,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": 9
   },
   {
    "channel": "organic",
-   "views": 285,
-   "reads": 105,
+   "views": 283,
+   "reads": 103,
    "completes": 2,
-   "sessions": 277,
-   "read_rate": 0.368,
+   "sessions": 275,
+   "read_rate": 0.364,
    "complete_rate": 0.007,
    "pages_per_session": 1.03,
    "median_dwell_sec": 2
@@ -155,6 +161,17 @@
    "completes": 0,
    "sessions": 1,
    "read_rate": 0,
+   "complete_rate": 0,
+   "pages_per_session": 1,
+   "median_dwell_sec": null
+  },
+  {
+   "channel": "campaign:perplexity",
+   "views": 1,
+   "reads": 1,
+   "completes": 0,
+   "sessions": 1,
+   "read_rate": 1,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -295,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4220,
-   "reads": 303,
-   "sessions": 4126
+   "views": 4217,
+   "reads": 300,
+   "sessions": 4124
   },
   {
    "device": "mobile",
@@ -339,8 +356,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 28,
-   "reads": 10,
+   "views": 29,
+   "reads": 11,
    "plays": 0
   },
   {
@@ -350,16 +367,6 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 49,
-   "reads": 9,
-   "plays": 0
-  },
-  {
-   "slug": "vllm-rust-frontend",
-   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 14,
    "reads": 9,
    "plays": 0
   },
@@ -389,7 +396,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 34,
+   "views": 36,
    "reads": 5,
    "plays": 0
   },
@@ -429,6 +436,16 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
+   "views": 9,
+   "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "vllm-rust-frontend",
+   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
    "views": 9,
    "reads": 5,
    "plays": 0
@@ -598,6 +615,16 @@
    "plays": 0
   },
   {
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 36,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
    "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
    "section": "stack",
@@ -605,16 +632,6 @@
    "author": "dex",
    "views": 36,
    "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
-   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 34,
-   "reads": 5,
    "plays": 0
   },
   {
@@ -633,8 +650,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 28,
-   "reads": 10,
+   "views": 29,
+   "reads": 11,
    "plays": 0
   },
   {
@@ -782,14 +799,14 @@
    "sessions": 131
   },
   {
-   "ref": "https://duckduckgo.com/",
-   "hits": 84,
-   "sessions": 47
-  },
-  {
    "ref": "https://www.bing.com/",
    "hits": 83,
    "sessions": 44
+  },
+  {
+   "ref": "https://duckduckgo.com/",
+   "hits": 80,
+   "sessions": 45
   },
   {
    "ref": "https://cn.bing.com/",
