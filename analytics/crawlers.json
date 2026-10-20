@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-20T01:30:32.452Z",
+ "generated": "2026-10-20T01:40:39.764Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 19232,
  "logsScanned": 30,
  "windowStart": "2026-10-06",
  "windowEnd": "2026-10-20",
- "totalHits": 126004,
- "aiHits": 102483,
+ "totalHits": 126029,
+ "aiHits": 102494,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30143,
+   "hits": 30147,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14772,
+   "hits": 14779,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7311,
+   "hits": 7316,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -212,8 +212,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6847,
-   "verifiedHits": 6804,
+   "hits": 6854,
+   "verifiedHits": 6811,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4217,
+   "hits": 4219,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -352,6 +352,10 @@
     {
      "path": "/build",
      "hits": 25
+    },
+    {
+     "path": "/posts/tuning-claude-context-editing-trigger-keep-clear-at-least.md",
+     "hits": 4
     },
     {
      "path": "/posts/2026-09-27-founders-wire-openai-rogue-agents-safa-databricks-row-zero.md",
@@ -363,10 +367,6 @@
     },
     {
      "path": "/posts/2026-09-26-founders-wire-nscale-ema-island-agent-control.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/best-llm-for-creative-writing-october-2026.md",
      "hits": 4
     }
    ],
