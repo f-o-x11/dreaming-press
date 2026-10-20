@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-20T20:58Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-20T21:08Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -76,14 +76,14 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 37 views, 19 reads
 - [stack] "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard" — 36 views, 5 reads
 - [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 36 views, 2 reads
-- [stack] "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix" — 32 views, 1 reads
+- [stack] "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix" — 33 views, 1 reads
 
 ## Arrived but left (fix these openings first)
 These pulled real traffic and then lost it. The click already worked, so the
 problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
-- [stack] "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix" — 32 views but only 1 engaged reads (3.1%)
+- [stack] "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix" — 33 views but only 1 engaged reads (3.0%)
 - [wire] "Tuning Chunked Prefill in vLLM: The One Knob That Trades First-Token Latency for Smooth Streaming" — 25 views but only 1 engaged reads (4.0%)
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 25 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
@@ -94,7 +94,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 1005 retrieval fetches
+- /  — 1006 retrieval fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 221 retrieval fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 168 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 128 retrieval fetches
@@ -108,7 +108,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (7146 verified): / ×31 · /tools ×27 · /newsroom ×25
 - OAI-SearchBot (6004 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×128 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×96 · /posts/open-source-llm-for-coding-september-2026.html ×83
-- ChatGPT-User (3607 verified): / ×974 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×221 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×168
+- ChatGPT-User (3608 verified): / ×975 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×221 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×168
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -145,9 +145,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 19897 confirmed AI-engine fetches (Perplexity 7146, ChatGPT Search (OpenAI) 6004, ChatGPT (user browsing) 3607, GPTBot (OpenAI) 3140).
+The real answer engines are crawling us — IP-verified: 19898 confirmed AI-engine fetches (Perplexity 7146, ChatGPT Search (OpenAI) 6004, ChatGPT (user browsing) 3608, GPTBot (OpenAI) 3140).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 487 crawler fetches
+- /build  — 495 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 404 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 304 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 227 crawler fetches
