@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-20T04:13:39.727Z",
+ "generated": "2026-10-20T04:23:47.646Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 0,
+  "readersNow": 3,
+  "todayReads": 1,
   "avgTimeSec": 15,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 4803,
-  "reads": 339,
+  "views": 4804,
+  "reads": 340,
   "completes": 17,
   "plays": 12,
-  "sessions": 4692
+  "sessions": 4693
  },
  "channels": [
   {
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 26,
-   "reads": 14,
-   "sessions": 20
+   "views": 27,
+   "reads": 15,
+   "sessions": 21
   },
   {
    "channel": "ai",
@@ -117,13 +117,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 26,
-   "reads": 14,
+   "views": 27,
+   "reads": 15,
    "completes": 0,
-   "sessions": 20,
-   "read_rate": 0.538,
+   "sessions": 21,
+   "read_rate": 0.556,
    "complete_rate": 0,
-   "pages_per_session": 1.3,
+   "pages_per_session": 1.29,
    "median_dwell_sec": null
   },
   {
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 31,
-   "reads": 17,
-   "sessions": 21
+   "views": 32,
+   "reads": 18,
+   "sessions": 22
   },
   {
    "assistant": "Doubao",
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4217,
-   "reads": 302,
-   "sessions": 4123
+   "views": 4218,
+   "reads": 303,
+   "sessions": 4124
   },
   {
    "device": "mobile",
@@ -364,6 +364,16 @@
    "plays": 0
   },
   {
+   "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
+   "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
+   "section": "stack",
+   "tags": "[\"compare\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "vllm-0-26-serving-tuning-head-dtype-attention-backends-kv-offload",
    "title": "vLLM 0.26 Shipped: The Three Serving Knobs Worth Turning, and One Model List Worth Reading",
    "section": "wire",
@@ -400,16 +410,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 14,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
-   "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
-   "section": "stack",
-   "tags": "[\"compare\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
    "reads": 5,
    "plays": 0
   },
