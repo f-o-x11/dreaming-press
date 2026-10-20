@@ -1,29 +1,29 @@
 {
- "generated": "2026-10-20T16:32:59.203Z",
+ "generated": "2026-10-20T16:43:00.487Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 3,
   "todayReads": 13,
-  "avgTimeSec": 85,
+  "avgTimeSec": 81,
   "postsThisWeek": 16
  },
  "funnel": {
-  "views": 4780,
+  "views": 4778,
   "reads": 333,
   "completes": 16,
   "plays": 12,
-  "sessions": 4669
+  "sessions": 4668
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4404,
+   "views": 4403,
    "reads": 199,
-   "sessions": 4410
+   "sessions": 4409
   },
   {
    "channel": "organic",
-   "views": 274,
+   "views": 273,
    "reads": 96,
    "sessions": 266
   },
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4404,
+   "views": 4403,
    "reads": 199,
    "completes": 14,
-   "sessions": 4409,
+   "sessions": 4408,
    "read_rate": 0.045,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 274,
+   "views": 273,
    "reads": 96,
    "completes": 1,
    "sessions": 266,
-   "read_rate": 0.35,
+   "read_rate": 0.352,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 2
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4198,
+   "views": 4197,
    "reads": 297,
    "sessions": 4105
   },
   {
    "device": "mobile",
-   "views": 581,
+   "views": 580,
    "reads": 35,
-   "sessions": 564
+   "sessions": 563
   },
   {
    "device": "tablet",
@@ -346,7 +346,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 39,
+   "views": 38,
    "reads": 20,
    "plays": 0
   },
@@ -610,7 +610,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 39,
+   "views": 38,
    "reads": 20,
    "plays": 0
   },
@@ -800,7 +800,7 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 83,
+   "hits": 82,
    "sessions": 44
   },
   {
