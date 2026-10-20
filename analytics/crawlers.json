@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-20T08:06:32.061Z",
+ "generated": "2026-10-20T08:16:38.722Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 19526,
  "logsScanned": 30,
  "windowStart": "2026-10-06",
  "windowEnd": "2026-10-20",
- "totalHits": 127861,
- "aiHits": 103895,
+ "totalHits": 127936,
+ "aiHits": 103954,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30820,
+   "hits": 30871,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -28,11 +28,11 @@
      "hits": 25
     },
     {
-     "path": "/dashboard",
-     "hits": 22
+     "path": "/posts/2026-10-01-founders-wire-openai-1-4t-instinct-10b-salesforce-aiforce.html",
+     "hits": 23
     },
     {
-     "path": "/posts/2026-10-01-founders-wire-openai-1-4t-instinct-10b-salesforce-aiforce.html",
+     "path": "/dashboard",
      "hits": 22
     },
     {
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15048,
+   "hits": 15055,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7461,
+   "hits": 7467,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -311,7 +311,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4335,
+   "hits": 4343,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4268,
+   "hits": 4270,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -358,15 +358,15 @@
      "hits": 4
     },
     {
+     "path": "/posts/opus-5-vs-gemini-3-6-flash-agent-fleet-default-2026.md",
+     "hits": 4
+    },
+    {
      "path": "/posts/2026-09-27-founders-wire-openai-rogue-agents-safa-databricks-row-zero.md",
      "hits": 4
     },
     {
      "path": "/posts/gpt-5-6-prompt-caching-explicit-breakpoints.md",
-     "hits": 4
-    },
-    {
-     "path": "/posts/2026-09-26-founders-wire-nscale-ema-island-agent-control.html",
      "hits": 4
     }
    ],
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1474,
+   "hits": 1475,
    "verifiedHits": 0,
    "firstSeen": "2026-10-06",
    "lastSeen": "2026-10-20",
@@ -462,7 +462,7 @@
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
-     "hits": 39
+     "hits": 40
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
