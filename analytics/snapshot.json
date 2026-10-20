@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-20T04:44:00.355Z",
+ "generated": "2026-10-20T04:54:09.493Z",
  "windowDays": 14,
  "site": {
   "readersNow": 4,
@@ -9,7 +9,7 @@
  },
  "funnel": {
   "views": 4803,
-  "reads": 337,
+  "reads": 336,
   "completes": 17,
   "plays": 12,
   "sessions": 4693
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 4418,
+   "views": 4419,
    "reads": 195,
-   "sessions": 4433
+   "sessions": 4434
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 31,
-   "reads": 7,
-   "sessions": 28
+   "views": 30,
+   "reads": 6,
+   "sessions": 27
   },
   {
    "channel": "campaign:owner-qa",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4418,
+   "views": 4419,
    "reads": 195,
    "completes": 14,
-   "sessions": 4433,
+   "sessions": 4434,
    "read_rate": 0.044,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -112,11 +112,11 @@
   },
   {
    "channel": "referral",
-   "views": 31,
-   "reads": 7,
+   "views": 30,
+   "reads": 6,
    "completes": 0,
-   "sessions": 28,
-   "read_rate": 0.226,
+   "sessions": 27,
+   "read_rate": 0.2,
    "complete_rate": 0,
    "pages_per_session": 1.11,
    "median_dwell_sec": null
@@ -313,7 +313,7 @@
   {
    "device": "desktop",
    "views": 4217,
-   "reads": 300,
+   "reads": 299,
    "sessions": 4124
   },
   {
@@ -441,22 +441,22 @@
    "plays": 0
   },
   {
-   "slug": "vllm-rust-frontend",
-   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 9,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
    "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 11,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "vllm-rust-frontend",
+   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
    "reads": 4,
    "plays": 0
   },
