@@ -1,12 +1,12 @@
-# Analytics brief — auto-exported 2026-10-20T21:38Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-20T21:48Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 4802 views → 334 engaged reads → 16 completes · 4690 sessions.
-- Channels: direct 200r/4428v · organic 96r/272v · campaign:chatgpt.com 15r/29v · ai 10r/34v · referral 6r/29v · campaign:owner-qa 4r/4v · social 2r/4v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · internal-nav 0r/0v.
+- Funnel: 4803 views → 335 engaged reads → 16 completes · 4691 sessions.
+- Channels: direct 200r/4428v · organic 97r/273v · campaign:chatgpt.com 15r/29v · ai 10r/34v · referral 6r/29v · campaign:owner-qa 4r/4v · social 2r/4v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 18r/34v · Doubao 4r/5v · Claude 2r/2v · Perplexity 1r/1v · Kimi 0r/20v · Poe 0r/1v · Copilot 0r/1v.
-- Referrers: google.com, bing.com, duckduckgo.com, cn.bing.com, search.brave.com, chatgpt.com, brand, nav-cmp, ecosia.org, doubao.com.
+- Referrers: google.com, duckduckgo.com, bing.com, cn.bing.com, search.brave.com, chatgpt.com, brand, nav-cmp, ecosia.org, doubao.com.
 - Engaged-read winners by section: stack=8, wire=7.
 
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
@@ -24,7 +24,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - direct: 4428 views · read 4.5% · complete 0.3% · 1 pages/session · median 9s
-- organic: 272 views · read 35.3% · complete 0.4% · 1.03 pages/session · median 2s
+- organic: 273 views · read 35.5% · complete 0.4% · 1.03 pages/session · median 2s
 - ai: 34 views · read 29.4% · complete 0.0% · 0.77 pages/session · median 4s
 - campaign:chatgpt.com: 29 views · read 51.7% · complete 0.0% · 1.32 pages/session · median ?s
 - referral: 29 views · read 20.7% · complete 0.0% · 1.12 pages/session · median ?s
