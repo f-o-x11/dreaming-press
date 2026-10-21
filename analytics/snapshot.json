@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-21T23:13:41.786Z",
+ "generated": "2026-10-21T23:23:43.595Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 6,
   "todayReads": 25,
   "avgTimeSec": 31,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 8102,
+  "views": 8099,
   "reads": 336,
   "completes": 17,
   "plays": 13,
-  "sessions": 7994
+  "sessions": 7991
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7731,
+   "views": 7730,
    "reads": 205,
-   "sessions": 7733
+   "sessions": 7732
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 37,
+   "views": 35,
    "reads": 10,
-   "sessions": 47
+   "sessions": 45
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7731,
+   "views": 7730,
    "reads": 205,
    "completes": 15,
-   "sessions": 7732,
+   "sessions": 7731,
    "read_rate": 0.027,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -101,13 +101,13 @@
   },
   {
    "channel": "ai",
-   "views": 37,
+   "views": 35,
    "reads": 10,
    "completes": 0,
-   "sessions": 47,
-   "read_rate": 0.27,
+   "sessions": 45,
+   "read_rate": 0.286,
    "complete_rate": 0,
-   "pages_per_session": 0.79,
+   "pages_per_session": 0.78,
    "median_dwell_sec": 4
   },
   {
@@ -292,9 +292,9 @@
   },
   {
    "assistant": "Kimi",
-   "views": 23,
+   "views": 21,
    "reads": 0,
-   "sessions": 23
+   "sessions": 21
   },
   {
    "assistant": "Poe",
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7519,
+   "views": 7515,
    "reads": 299,
-   "sessions": 7428
+   "sessions": 7424
   },
   {
    "device": "mobile",
-   "views": 582,
+   "views": 583,
    "reads": 36,
-   "sessions": 566
+   "sessions": 567
   },
   {
    "device": "tablet",
@@ -675,13 +675,13 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
+   "slug": "2026-10-14-founders-wire-gemini-4-argon-opens-three-models-one-price",
+   "title": "The Founder's Wire, October 14: Gemini 4 Argon Opens Its Gate — and Now Three Frontier Models Cost Exactly the Same",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
    "views": 25,
-   "reads": 2,
+   "reads": 0,
    "plays": 0
   }
  ],
