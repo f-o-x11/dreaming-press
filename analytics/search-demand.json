@@ -1,8 +1,8 @@
 {
- "fetched_at": "2026-10-19T15:52:16.290Z",
+ "fetched_at": "2026-10-21T11:49:41.077Z",
  "seeds": 25,
- "phrases": 461,
- "gaps": 252,
+ "phrases": 453,
+ "gaps": 243,
  "top_gaps": [
   {
    "phrase": "ai agent security summit",
@@ -19,6 +19,19 @@
   },
   {
    "phrase": "cheapest gpu for gaming",
+   "engines": [
+    "google",
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "cheapest gpu"
+   ],
+   "score": 7,
+   "covered": null
+  },
+  {
+   "phrase": "cheapest gpu rental",
    "engines": [
     "google",
     "bing",
@@ -194,31 +207,19 @@
    "covered": null
   },
   {
+   "phrase": "ai agent security testing",
+   "engines": [
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "ai agent security"
+   ],
+   "score": 5,
+   "covered": null
+  },
+  {
    "phrase": "ai coding agent latest news 2026",
-   "engines": [
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "ai coding agent"
-   ],
-   "score": 5,
-   "covered": null
-  },
-  {
-   "phrase": "ai coding agent latest news september 2026",
-   "engines": [
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "ai coding agent"
-   ],
-   "score": 5,
-   "covered": null
-  },
-  {
-   "phrase": "ai coding agent new release september 2026",
    "engines": [
     "bing",
     "ddg"
@@ -242,7 +243,31 @@
    "covered": null
   },
   {
+   "phrase": "ai coding agent news october 2026",
+   "engines": [
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "ai coding agent"
+   ],
+   "score": 5,
+   "covered": null
+  },
+  {
    "phrase": "ai coding agent news september 2026",
+   "engines": [
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "ai coding agent"
+   ],
+   "score": 5,
+   "covered": null
+  },
+  {
+   "phrase": "ai coding agent september 2026 latest news",
    "engines": [
     "bing",
     "ddg"
@@ -290,7 +315,43 @@
    "covered": null
   },
   {
+   "phrase": "best ai agent for blender",
+   "engines": [
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "best ai agent"
+   ],
+   "score": 5,
+   "covered": null
+  },
+  {
+   "phrase": "best ai agent for image generation",
+   "engines": [
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "best ai agent"
+   ],
+   "score": 5,
+   "covered": null
+  },
+  {
    "phrase": "best ai agent for stock trading",
+   "engines": [
+    "google",
+    "bing"
+   ],
+   "seeds": [
+    "best ai agent"
+   ],
+   "score": 5,
+   "covered": null
+  },
+  {
+   "phrase": "best ai agents for business",
    "engines": [
     "google",
     "bing"
@@ -362,18 +423,6 @@
    "covered": null
   },
   {
-   "phrase": "best llm for home assistant",
-   "engines": [
-    "google",
-    "bing"
-   ],
-   "seeds": [
-    "best llm for"
-   ],
-   "score": 5,
-   "covered": null
-  },
-  {
    "phrase": "best llm for local agent",
    "engines": [
     "bing",
@@ -434,18 +483,6 @@
    "covered": null
   },
   {
-   "phrase": "best vector database 2025",
-   "engines": [
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "best vector database"
-   ],
-   "score": 5,
-   "covered": null
-  },
-  {
    "phrase": "best vector database comparison",
    "engines": [
     "bing",
@@ -453,42 +490,6 @@
    ],
    "seeds": [
     "best vector database"
-   ],
-   "score": 5,
-   "covered": null
-  },
-  {
-   "phrase": "best vector database reddit",
-   "engines": [
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "best vector database"
-   ],
-   "score": 5,
-   "covered": null
-  },
-  {
-   "phrase": "cheapest gpu in pakistan",
-   "engines": [
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "cheapest gpu"
-   ],
-   "score": 5,
-   "covered": null
-  },
-  {
-   "phrase": "cheapest gpu laptop",
-   "engines": [
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "cheapest gpu"
    ],
    "score": 5,
    "covered": null
@@ -624,22 +625,6 @@
    }
   },
   {
-   "phrase": "ai agent vs assistant",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "ai agent vs"
-   ],
-   "score": 7,
-   "covered": {
-    "slug": "best-ai-coding-tools-2026",
-    "title": "The Best AI Coding Tools in 2026: A Founder's Ranked Buyer's Guide, by Job"
-   }
-  },
-  {
    "phrase": "ai agent vs bot",
    "engines": [
     "google",
@@ -653,6 +638,22 @@
    "covered": {
     "slug": "web-bot-auth-sign-your-agent-skip-captcha",
     "title": "Sign Your Agent's Requests With Web Bot Auth So Its Form-Fills Skip the CAPTCHA"
+   }
+  },
+  {
+   "phrase": "ai agent vs chatbot",
+   "engines": [
+    "google",
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "ai agent vs"
+   ],
+   "score": 7,
+   "covered": {
+    "slug": "agents-stopped-waiting-for-a-prompt-scout-gemini-spark-bridgeapp-replit",
+    "title": "Four Agents That Stopped Waiting for a Prompt: Scout, Gemini Spark, BridgeApp, and Replit's SEO Agent"
    }
   }
  ]
