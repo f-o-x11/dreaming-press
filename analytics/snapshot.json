@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-21T14:45:16.989Z",
+ "generated": "2026-10-21T14:55:46.914Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 199,
-  "todayReads": 16,
-  "avgTimeSec": 38,
+  "readersNow": 57,
+  "todayReads": 17,
+  "avgTimeSec": 36,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 6161,
+  "views": 6176,
   "reads": 335,
   "completes": 17,
   "plays": 13,
-  "sessions": 6052
+  "sessions": 6068
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 5791,
+   "views": 5806,
    "reads": 206,
-   "sessions": 5792
+   "sessions": 5809
   },
   {
    "channel": "organic",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 5791,
+   "views": 5806,
    "reads": 206,
    "completes": 15,
-   "sessions": 5791,
-   "read_rate": 0.036,
+   "sessions": 5808,
+   "read_rate": 0.035,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": 9
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 5570,
+   "views": 5585,
    "reads": 300,
-   "sessions": 5476
+   "sessions": 5491
   },
   {
    "device": "mobile",
    "views": 590,
    "reads": 34,
-   "sessions": 576
+   "sessions": 577
   },
   {
    "device": "tablet",
@@ -411,16 +411,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
-   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 15,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
    "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
    "section": "stack",
@@ -457,6 +447,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 16,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
+   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 14,
    "reads": 4,
    "plays": 0
   },
@@ -704,7 +704,7 @@
    "path": "/",
    "views": 146,
    "reads": 2,
-   "sessions": 152,
+   "sessions": 153,
    "avg_dwell_sec": 10
   },
   {
@@ -730,9 +730,9 @@
   },
   {
    "path": "/stack.html",
-   "views": 25,
+   "views": 26,
    "reads": 0,
-   "sessions": 25,
+   "sessions": 26,
    "avg_dwell_sec": 5
   },
   {
@@ -765,9 +765,16 @@
   },
   {
    "path": "/authors/dex",
-   "views": 12,
+   "views": 13,
    "reads": 0,
-   "sessions": 12,
+   "sessions": 13,
+   "avg_dwell_sec": null
+  },
+  {
+   "path": "/tags/opinionated",
+   "views": 13,
+   "reads": 0,
+   "sessions": 13,
    "avg_dwell_sec": null
   },
   {
@@ -776,13 +783,6 @@
    "reads": 3,
    "sessions": 12,
    "avg_dwell_sec": 95
-  },
-  {
-   "path": "/tags/opinionated",
-   "views": 12,
-   "reads": 0,
-   "sessions": 12,
-   "avg_dwell_sec": null
   },
   {
    "path": "/apps",
@@ -799,14 +799,14 @@
    "sessions": 129
   },
   {
-   "ref": "https://duckduckgo.com/",
-   "hits": 78,
-   "sessions": 46
+   "ref": "https://www.bing.com/",
+   "hits": 77,
+   "sessions": 40
   },
   {
-   "ref": "https://www.bing.com/",
-   "hits": 75,
-   "sessions": 39
+   "ref": "https://duckduckgo.com/",
+   "hits": 76,
+   "sessions": 45
   },
   {
    "ref": "https://cn.bing.com/",
