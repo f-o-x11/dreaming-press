@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-21T14:14:50.278Z",
+ "generated": "2026-10-21T14:25:00.349Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 85,
+  "readersNow": 35,
   "todayReads": 16,
-  "avgTimeSec": 40,
+  "avgTimeSec": 39,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 5909,
+  "views": 5941,
   "reads": 335,
   "completes": 17,
   "plays": 13,
-  "sessions": 5799
+  "sessions": 5831
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 5540,
+   "views": 5572,
    "reads": 206,
-   "sessions": 5540
+   "sessions": 5572
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 5540,
+   "views": 5572,
    "reads": 206,
    "completes": 15,
-   "sessions": 5539,
+   "sessions": 5571,
    "read_rate": 0.037,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 5319,
+   "views": 5351,
    "reads": 300,
-   "sessions": 5224
+   "sessions": 5256
   },
   {
    "device": "mobile",
@@ -675,29 +675,29 @@
    "plays": 0
   },
   {
-   "slug": "tuning-chunked-prefill-max-num-batched-tokens",
-   "title": "Tuning Chunked Prefill in vLLM: The One Knob That Trades First-Token Latency for Smooth Streaming",
-   "section": "wire",
+   "slug": "best-open-source-rl-frameworks-for-training-agents",
+   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 24,
-   "reads": 1,
+   "views": 25,
+   "reads": 0,
    "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 693,
+   "views": 694,
    "reads": 10,
-   "sessions": 693,
+   "sessions": 694,
    "avg_dwell_sec": 84
   },
   {
    "path": "/compare/:pair",
-   "views": 176,
+   "views": 177,
    "reads": 0,
-   "sessions": 175,
+   "sessions": 176,
    "avg_dwell_sec": 8
   },
   {
@@ -709,9 +709,9 @@
   },
   {
    "path": "/build",
-   "views": 93,
+   "views": 95,
    "reads": 0,
-   "sessions": 93,
+   "sessions": 95,
    "avg_dwell_sec": 4
   },
   {
@@ -730,9 +730,9 @@
   },
   {
    "path": "/stack.html",
-   "views": 21,
+   "views": 23,
    "reads": 0,
-   "sessions": 21,
+   "sessions": 23,
    "avg_dwell_sec": 5
   },
   {
@@ -785,11 +785,11 @@
    "avg_dwell_sec": 32
   },
   {
-   "path": "/dispatches.html",
+   "path": "/authors/dex",
    "views": 10,
    "reads": 0,
-   "sessions": 9,
-   "avg_dwell_sec": 4
+   "sessions": 10,
+   "avg_dwell_sec": null
   }
  ],
  "referrers": [

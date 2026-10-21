@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-21T14:14Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-21T14:25Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 5909 views → 335 engaged reads → 17 completes · 5799 sessions.
-- Channels: direct 206r/5540v · organic 92r/267v · campaign:chatgpt.com 14r/27v · ai 10r/37v · referral 6r/28v · campaign:owner-qa 4r/4v · social 2r/4v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · internal-nav 0r/0v.
+- Funnel: 5941 views → 335 engaged reads → 17 completes · 5831 sessions.
+- Channels: direct 206r/5572v · organic 92r/267v · campaign:chatgpt.com 14r/27v · ai 10r/37v · referral 6r/28v · campaign:owner-qa 4r/4v · social 2r/4v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 17r/32v · Doubao 4r/5v · Claude 2r/2v · Perplexity 1r/1v · Kimi 0r/23v · Poe 0r/1v · Copilot 0r/1v.
 - Referrers: google.com, duckduckgo.com, bing.com, cn.bing.com, search.brave.com, brand, nav-cmp, chatgpt.com, ecosia.org, doubao.com.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 5540 views · read 3.7% · complete 0.3% · 1 pages/session · median 9s
+- direct: 5572 views · read 3.7% · complete 0.3% · 1 pages/session · median 9s
 - organic: 267 views · read 34.5% · complete 0.4% · 1.03 pages/session · median 3s
 - ai: 37 views · read 27.0% · complete 0.0% · 0.79 pages/session · median 4s
 - referral: 28 views · read 21.4% · complete 0.0% · 1.04 pages/session · median ?s
@@ -59,13 +59,13 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 693 views, 10 reads, 693 sessions, avg 84s
-- /compare/:pair — 176 views, 0 reads, 175 sessions, avg 8s
+- /stack/:tool — 694 views, 10 reads, 694 sessions, avg 84s
+- /compare/:pair — 177 views, 0 reads, 176 sessions, avg 8s
 - / — 147 views, 2 reads, 153 sessions, avg 10s
-- /build — 93 views, 0 reads, 93 sessions, avg 4s
+- /build — 95 views, 0 reads, 95 sessions, avg 4s
 - /best/:cat — 51 views, 0 reads, 51 sessions
 - /alternatives/:tool — 34 views, 0 reads, 34 sessions, avg 8s
-- /stack.html — 21 views, 0 reads, 21 sessions, avg 5s
+- /stack.html — 23 views, 0 reads, 23 sessions, avg 5s
 - /dashboard — 19 views, 1 reads, 13 sessions, avg 20s
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
@@ -85,7 +85,7 @@ skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [stack] "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix" — 36 views but only 1 engaged reads (2.8%)
 - [wire] "The Founder's Wire, October 14: Gemini 4 Argon Opens Its Gate — and Now Three Frontier Models Cost Exactly the Same" — 25 views but only 0 engaged reads (0.0%)
-- [wire] "Tuning Chunked Prefill in vLLM: The One Knob That Trades First-Token Latency for Smooth Streaming" — 24 views but only 1 engaged reads (4.2%)
+- [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 25 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
@@ -122,7 +122,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Uncovered search demand (243 of 453 phrases have NO post, 2h ago)
+## Uncovered search demand (243 of 453 phrases have NO post, 3h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
