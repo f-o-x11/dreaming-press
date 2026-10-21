@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-21T20:41:00.041Z",
+ "generated": "2026-10-21T20:51:10.065Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 20126,
+ "verifiedAiHits": 20143,
  "logsScanned": 30,
  "windowStart": "2026-10-07",
  "windowEnd": "2026-10-21",
- "totalHits": 124579,
- "aiHits": 100052,
+ "totalHits": 124641,
+ "aiHits": 100096,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32481,
+   "hits": 32495,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16815,
+   "hits": 16819,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14857,
+   "hits": 14864,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7690,
+   "hits": 7695,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 7378,
-   "verifiedHits": 7276,
+   "hits": 7390,
+   "verifiedHits": 7288,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
    "topPaths": [
@@ -164,11 +164,11 @@
      "hits": 26
     },
     {
-     "path": "/dashboard",
+     "path": "/posts/best-llm-for-creative-writing-october-2026.html",
      "hits": 25
     },
     {
-     "path": "/global-tech-news",
+     "path": "/dashboard",
      "hits": 25
     }
    ],
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7102,
-   "verifiedHits": 7052,
+   "hits": 7115,
+   "verifiedHits": 7065,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
    "topPaths": [
@@ -194,7 +194,7 @@
     },
     {
      "path": "/posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html",
-     "hits": 41
+     "hits": 42
     },
     {
      "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5677,
-   "verifiedHits": 5627,
+   "hits": 5681,
+   "verifiedHits": 5631,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
    "topPaths": [
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3760,
-   "verifiedHits": 3652,
+   "hits": 3761,
+   "verifiedHits": 3653,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
    "topPaths": [
@@ -641,7 +641,7 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 98,
+   "hits": 100,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -663,7 +663,7 @@
      "hits": 1
     },
     {
-     "path": "/key.pem",
+     "path": "/posts/agent-tool-call-timeouts-and-cancellation.html",
      "hits": 1
     }
    ],
