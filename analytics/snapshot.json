@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-21T19:39:51.151Z",
+ "generated": "2026-10-21T19:50:00.777Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 82,
+  "readersNow": 154,
   "todayReads": 21,
   "avgTimeSec": 34,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 7509,
+  "views": 7599,
   "reads": 335,
   "completes": 17,
   "plays": 13,
-  "sessions": 7404
+  "sessions": 7494
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7140,
+   "views": 7230,
    "reads": 205,
-   "sessions": 7145
+   "sessions": 7235
   },
   {
    "channel": "organic",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7140,
+   "views": 7230,
    "reads": 205,
    "completes": 15,
-   "sessions": 7144,
-   "read_rate": 0.029,
+   "sessions": 7234,
+   "read_rate": 0.028,
    "complete_rate": 0.002,
    "pages_per_session": 1,
    "median_dwell_sec": 9
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6941,
+   "views": 7031,
    "reads": 299,
-   "sessions": 6849
+   "sessions": 6939
   },
   {
    "device": "mobile",
@@ -471,14 +471,14 @@
    "plays": 0
   },
   {
-   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
-   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
+   "slug": "coding-agent-edit-formats-diff-vs-whole-file",
+   "title": "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 9,
    "reads": 4,
-   "plays": 0
+   "plays": 1
   }
  ],
  "topListens": [
@@ -518,7 +518,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 8,
+   "views": 9,
    "reads": 4,
    "plays": 1
   },
@@ -688,16 +688,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 738,
+   "views": 739,
    "reads": 10,
-   "sessions": 738,
+   "sessions": 739,
    "avg_dwell_sec": 84
   },
   {
    "path": "/compare/:pair",
-   "views": 281,
+   "views": 295,
    "reads": 1,
-   "sessions": 280,
+   "sessions": 294,
    "avg_dwell_sec": 13
   },
   {
@@ -709,9 +709,9 @@
   },
   {
    "path": "/build",
-   "views": 140,
+   "views": 142,
    "reads": 0,
-   "sessions": 140,
+   "sessions": 142,
    "avg_dwell_sec": 4
   },
   {
@@ -737,9 +737,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 49,
+   "views": 51,
    "reads": 0,
-   "sessions": 49,
+   "sessions": 51,
    "avg_dwell_sec": 8
   },
   {
