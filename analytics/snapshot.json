@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-21T22:53:07.351Z",
+ "generated": "2026-10-21T23:03:10.639Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 24,
+  "readersNow": 1,
+  "todayReads": 25,
   "avgTimeSec": 31,
   "postsThisWeek": 18
  },
@@ -431,16 +431,6 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 27,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "2026-10-15-founders-wire-anthropic-opens-its-books",
    "title": "The Founder's Wire, October 15: Anthropic Opened Its Books — $16.8B, an 85% Margin, and $1.70 of Revenue for Every $1 of Compute",
    "section": "wire",
@@ -479,6 +469,16 @@
    "views": 9,
    "reads": 4,
    "plays": 1
+  },
+  {
+   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
+   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 9,
+   "reads": 4,
+   "plays": 0
   }
  ],
  "topListens": [
@@ -660,8 +660,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 27,
-   "reads": 4,
+   "views": 26,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -709,10 +709,10 @@
   },
   {
    "path": "/",
-   "views": 145,
-   "reads": 2,
-   "sessions": 153,
-   "avg_dwell_sec": 10
+   "views": 146,
+   "reads": 3,
+   "sessions": 154,
+   "avg_dwell_sec": 11
   },
   {
    "path": "/best/:cat",
