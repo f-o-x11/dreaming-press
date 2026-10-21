@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-21T19:19:25.425Z",
+ "generated": "2026-10-21T19:29:43.655Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 15,
+  "readersNow": 58,
   "todayReads": 21,
   "avgTimeSec": 34,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 7380,
+  "views": 7436,
   "reads": 335,
   "completes": 17,
   "plays": 13,
-  "sessions": 7275
+  "sessions": 7331
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7011,
+   "views": 7067,
    "reads": 205,
-   "sessions": 7016
+   "sessions": 7072
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7011,
+   "views": 7067,
    "reads": 205,
    "completes": 15,
-   "sessions": 7015,
+   "sessions": 7071,
    "read_rate": 0.029,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6811,
+   "views": 6868,
    "reads": 299,
-   "sessions": 6719
+   "sessions": 6776
   },
   {
    "device": "mobile",
-   "views": 568,
+   "views": 567,
    "reads": 35,
-   "sessions": 556
+   "sessions": 555
   },
   {
    "device": "tablet",
@@ -396,7 +396,7 @@
    "section": "stack",
    "tags": "[\"compare\",\"opinionated\"]",
    "author": "dex",
-   "views": 12,
+   "views": 13,
    "reads": 5,
    "plays": 0
   },
@@ -688,16 +688,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 733,
+   "views": 734,
    "reads": 10,
-   "sessions": 733,
+   "sessions": 734,
    "avg_dwell_sec": 84
   },
   {
    "path": "/compare/:pair",
-   "views": 269,
+   "views": 275,
    "reads": 1,
-   "sessions": 268,
+   "sessions": 274,
    "avg_dwell_sec": 13
   },
   {
