@@ -1,29 +1,29 @@
 {
- "generated": "2026-10-21T18:48:57.090Z",
+ "generated": "2026-10-21T18:59:00.439Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 77,
   "todayReads": 20,
   "avgTimeSec": 35,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 7294,
+  "views": 7367,
   "reads": 336,
   "completes": 17,
   "plays": 13,
-  "sessions": 7187
+  "sessions": 7261
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6923,
+   "views": 6997,
    "reads": 205,
-   "sessions": 6927
+   "sessions": 7001
   },
   {
    "channel": "organic",
-   "views": 268,
+   "views": 267,
    "reads": 93,
    "sessions": 261
   },
@@ -79,24 +79,24 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6923,
+   "views": 6997,
    "reads": 205,
    "completes": 15,
-   "sessions": 6926,
-   "read_rate": 0.03,
+   "sessions": 7000,
+   "read_rate": 0.029,
    "complete_rate": 0.002,
    "pages_per_session": 1,
    "median_dwell_sec": 9
   },
   {
    "channel": "organic",
-   "views": 268,
+   "views": 267,
    "reads": 93,
    "completes": 1,
    "sessions": 261,
-   "read_rate": 0.347,
+   "read_rate": 0.348,
    "complete_rate": 0.004,
-   "pages_per_session": 1.03,
+   "pages_per_session": 1.02,
    "median_dwell_sec": 3
   },
   {
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6725,
+   "views": 6798,
    "reads": 300,
-   "sessions": 6632
+   "sessions": 6706
   },
   {
    "device": "mobile",
@@ -406,7 +406,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 27,
+   "views": 26,
    "reads": 5,
    "plays": 0
   },
@@ -660,7 +660,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 27,
+   "views": 26,
    "reads": 5,
    "plays": 0
   },
@@ -688,16 +688,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 735,
+   "views": 734,
    "reads": 10,
-   "sessions": 735,
+   "sessions": 734,
    "avg_dwell_sec": 84
   },
   {
    "path": "/compare/:pair",
-   "views": 262,
+   "views": 269,
    "reads": 1,
-   "sessions": 261,
+   "sessions": 268,
    "avg_dwell_sec": 13
   },
   {
@@ -709,9 +709,9 @@
   },
   {
    "path": "/build",
-   "views": 134,
+   "views": 136,
    "reads": 0,
-   "sessions": 134,
+   "sessions": 136,
    "avg_dwell_sec": 4
   },
   {
@@ -723,9 +723,9 @@
   },
   {
    "path": "/tags/reportive",
-   "views": 55,
+   "views": 57,
    "reads": 0,
-   "sessions": 55,
+   "sessions": 57,
    "avg_dwell_sec": null
   },
   {
@@ -805,7 +805,7 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 78,
+   "hits": 77,
    "sessions": 46
   },
   {
