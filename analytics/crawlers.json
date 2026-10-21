@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-21T00:10:55.804Z",
+ "generated": "2026-10-21T00:21:00.276Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19023,
+ "verifiedAiHits": 19026,
  "logsScanned": 30,
  "windowStart": "2026-10-07",
  "windowEnd": "2026-10-21",
- "totalHits": 119720,
- "aiHits": 96345,
+ "totalHits": 119730,
+ "aiHits": 96353,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30538,
+   "hits": 30543,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7368,
+   "hits": 7369,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -344,10 +344,10 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4212,
+   "hits": 4213,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
-   "lastSeen": "2026-10-20",
+   "lastSeen": "2026-10-21",
    "topPaths": [
     {
      "path": "/build",
@@ -377,18 +377,18 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3525,
-   "verifiedHits": 3428,
+   "hits": 3528,
+   "verifiedHits": 3431,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
    "topPaths": [
     {
      "path": "/",
-     "hits": 925
+     "hits": 926
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 223
+     "hits": 224
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
