@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-21T18:28:47.958Z",
+ "generated": "2026-10-21T18:38:48.067Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 92,
+  "readersNow": 139,
   "todayReads": 20,
   "avgTimeSec": 35,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 7234,
+  "views": 7290,
   "reads": 336,
   "completes": 17,
   "plays": 13,
-  "sessions": 7127
+  "sessions": 7183
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6863,
+   "views": 6919,
    "reads": 205,
-   "sessions": 6867
+   "sessions": 6923
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6863,
+   "views": 6919,
    "reads": 205,
    "completes": 15,
-   "sessions": 6866,
+   "sessions": 6922,
    "read_rate": 0.03,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6665,
+   "views": 6721,
    "reads": 300,
-   "sessions": 6572
+   "sessions": 6628
   },
   {
    "device": "mobile",
@@ -488,7 +488,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 7,
+   "views": 8,
    "reads": 3,
    "plays": 2
   },
@@ -688,16 +688,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 734,
+   "views": 735,
    "reads": 10,
-   "sessions": 734,
+   "sessions": 735,
    "avg_dwell_sec": 84
   },
   {
    "path": "/compare/:pair",
-   "views": 249,
+   "views": 262,
    "reads": 1,
-   "sessions": 248,
+   "sessions": 261,
    "avg_dwell_sec": 13
   },
   {
@@ -709,9 +709,9 @@
   },
   {
    "path": "/build",
-   "views": 129,
+   "views": 134,
    "reads": 0,
-   "sessions": 129,
+   "sessions": 134,
    "avg_dwell_sec": 4
   },
   {
@@ -730,16 +730,16 @@
   },
   {
    "path": "/tags/reportive",
-   "views": 51,
+   "views": 52,
    "reads": 0,
-   "sessions": 51,
+   "sessions": 52,
    "avg_dwell_sec": null
   },
   {
    "path": "/alternatives/:tool",
-   "views": 47,
+   "views": 49,
    "reads": 0,
-   "sessions": 47,
+   "sessions": 49,
    "avg_dwell_sec": 8
   },
   {
