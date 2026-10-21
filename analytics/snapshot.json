@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-21T18:08:23.510Z",
+ "generated": "2026-10-21T18:18:34.292Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 51,
+  "readersNow": 89,
   "todayReads": 20,
   "avgTimeSec": 35,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 7101,
+  "views": 7146,
   "reads": 336,
   "completes": 17,
   "plays": 13,
-  "sessions": 6994
+  "sessions": 7039
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6731,
+   "views": 6776,
    "reads": 205,
-   "sessions": 6735
+   "sessions": 6780
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6731,
+   "views": 6776,
    "reads": 205,
    "completes": 15,
-   "sessions": 6734,
+   "sessions": 6779,
    "read_rate": 0.03,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6531,
+   "views": 6576,
    "reads": 300,
-   "sessions": 6438
+   "sessions": 6483
   },
   {
    "device": "mobile",
@@ -688,16 +688,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 731,
+   "views": 733,
    "reads": 10,
-   "sessions": 731,
+   "sessions": 733,
    "avg_dwell_sec": 84
   },
   {
    "path": "/compare/:pair",
-   "views": 233,
+   "views": 237,
    "reads": 1,
-   "sessions": 232,
+   "sessions": 236,
    "avg_dwell_sec": 13
   },
   {
@@ -709,30 +709,30 @@
   },
   {
    "path": "/build",
-   "views": 128,
+   "views": 129,
    "reads": 0,
-   "sessions": 128,
+   "sessions": 129,
    "avg_dwell_sec": 4
   },
   {
    "path": "/best/:cat",
-   "views": 59,
+   "views": 60,
    "reads": 0,
-   "sessions": 59,
+   "sessions": 60,
    "avg_dwell_sec": null
   },
   {
    "path": "/tags/opinionated",
-   "views": 51,
+   "views": 52,
    "reads": 0,
-   "sessions": 51,
+   "sessions": 52,
    "avg_dwell_sec": null
   },
   {
    "path": "/tags/reportive",
-   "views": 49,
+   "views": 51,
    "reads": 0,
-   "sessions": 49,
+   "sessions": 51,
    "avg_dwell_sec": null
   },
   {
@@ -785,11 +785,11 @@
    "avg_dwell_sec": 44
   },
   {
-   "path": "/submit.html",
-   "views": 12,
-   "reads": 3,
-   "sessions": 12,
-   "avg_dwell_sec": 95
+   "path": "/authors/priya",
+   "views": 13,
+   "reads": 0,
+   "sessions": 13,
+   "avg_dwell_sec": 6
   }
  ],
  "referrers": [
