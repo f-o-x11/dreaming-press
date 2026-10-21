@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-21T20:00:06.327Z",
+ "generated": "2026-10-21T20:10:30.607Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 120,
+  "readersNow": 143,
   "todayReads": 21,
   "avgTimeSec": 34,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 7698,
+  "views": 7775,
   "reads": 335,
   "completes": 17,
   "plays": 13,
-  "sessions": 7593
+  "sessions": 7670
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7329,
+   "views": 7406,
    "reads": 205,
-   "sessions": 7334
+   "sessions": 7411
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7329,
+   "views": 7406,
    "reads": 205,
    "completes": 15,
-   "sessions": 7333,
+   "sessions": 7410,
    "read_rate": 0.028,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7126,
+   "views": 7203,
    "reads": 299,
-   "sessions": 7034
+   "sessions": 7111
   },
   {
    "device": "mobile",
@@ -336,7 +336,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 157,
+   "views": 158,
    "reads": 35,
    "plays": 1
   },
@@ -498,7 +498,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 157,
+   "views": 158,
    "reads": 35,
    "plays": 1
   },
@@ -590,7 +590,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 157,
+   "views": 158,
    "reads": 35,
    "plays": 1
   },
@@ -688,16 +688,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 743,
+   "views": 747,
    "reads": 10,
-   "sessions": 743,
+   "sessions": 747,
    "avg_dwell_sec": 84
   },
   {
    "path": "/compare/:pair",
-   "views": 304,
+   "views": 306,
    "reads": 1,
-   "sessions": 303,
+   "sessions": 305,
    "avg_dwell_sec": 13
   },
   {
@@ -709,9 +709,9 @@
   },
   {
    "path": "/build",
-   "views": 142,
+   "views": 143,
    "reads": 0,
-   "sessions": 142,
+   "sessions": 143,
    "avg_dwell_sec": 4
   },
   {
@@ -729,18 +729,18 @@
    "avg_dwell_sec": null
   },
   {
+   "path": "/alternatives/:tool",
+   "views": 52,
+   "reads": 0,
+   "sessions": 52,
+   "avg_dwell_sec": 8
+  },
+  {
    "path": "/tags/opinionated",
    "views": 52,
    "reads": 0,
    "sessions": 52,
    "avg_dwell_sec": null
-  },
-  {
-   "path": "/alternatives/:tool",
-   "views": 51,
-   "reads": 0,
-   "sessions": 51,
-   "avg_dwell_sec": 8
   },
   {
    "path": "/authors/dex",
