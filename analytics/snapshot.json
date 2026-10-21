@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-21T13:24:20.325Z",
+ "generated": "2026-10-21T13:34:36.896Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 235,
-  "todayReads": 13,
-  "avgTimeSec": 43,
+  "readersNow": 256,
+  "todayReads": 14,
+  "avgTimeSec": 41,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 5524,
-  "reads": 332,
+  "views": 5618,
+  "reads": 333,
   "completes": 17,
   "plays": 12,
-  "sessions": 5415
+  "sessions": 5508
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 5157,
-   "reads": 203,
-   "sessions": 5158
+   "views": 5250,
+   "reads": 204,
+   "sessions": 5250
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 35,
+   "views": 36,
    "reads": 10,
-   "sessions": 45
+   "sessions": 46
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 5157,
-   "reads": 203,
+   "views": 5250,
+   "reads": 204,
    "completes": 15,
-   "sessions": 5157,
+   "sessions": 5249,
    "read_rate": 0.039,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "ai",
-   "views": 35,
+   "views": 36,
    "reads": 10,
    "completes": 0,
-   "sessions": 45,
-   "read_rate": 0.286,
+   "sessions": 46,
+   "read_rate": 0.278,
    "complete_rate": 0,
    "pages_per_session": 0.78,
    "median_dwell_sec": 4
@@ -292,9 +292,9 @@
   },
   {
    "assistant": "Kimi",
-   "views": 21,
+   "views": 22,
    "reads": 0,
-   "sessions": 21
+   "sessions": 22
   },
   {
    "assistant": "Poe",
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4937,
-   "reads": 297,
-   "sessions": 4843
+   "views": 5029,
+   "reads": 298,
+   "sessions": 4934
   },
   {
    "device": "mobile",
-   "views": 586,
+   "views": 588,
    "reads": 34,
-   "sessions": 572
+   "sessions": 574
   },
   {
    "device": "tablet",
@@ -476,7 +476,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 8,
+   "views": 9,
    "reads": 4,
    "plays": 0
   }
@@ -523,22 +523,22 @@
    "plays": 1
   },
   {
+   "slug": "coding-agent-edit-formats-diff-vs-whole-file",
+   "title": "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 5,
+   "reads": 3,
+   "plays": 1
+  },
+  {
    "slug": "text-to-sql-vanna-vs-wrenai-vs-dataherald",
    "title": "Text-to-SQL for Agents: Vanna vs WrenAI vs Dataherald",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 6,
-   "reads": 2,
-   "plays": 1
-  },
-  {
-   "slug": "coding-agent-edit-formats-diff-vs-whole-file",
-   "title": "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 4,
    "reads": 2,
    "plays": 1
   },
@@ -688,16 +688,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 671,
+   "views": 675,
    "reads": 10,
-   "sessions": 671,
+   "sessions": 675,
    "avg_dwell_sec": 89
   },
   {
    "path": "/compare/:pair",
-   "views": 158,
+   "views": 162,
    "reads": 0,
-   "sessions": 157,
+   "sessions": 161,
    "avg_dwell_sec": 8
   },
   {
@@ -709,23 +709,23 @@
   },
   {
    "path": "/build",
-   "views": 78,
+   "views": 79,
    "reads": 0,
-   "sessions": 78,
+   "sessions": 79,
    "avg_dwell_sec": 4
   },
   {
    "path": "/best/:cat",
-   "views": 44,
+   "views": 50,
    "reads": 0,
-   "sessions": 44,
+   "sessions": 50,
    "avg_dwell_sec": null
   },
   {
    "path": "/alternatives/:tool",
-   "views": 29,
+   "views": 30,
    "reads": 0,
-   "sessions": 29,
+   "sessions": 30,
    "avg_dwell_sec": 8
   },
   {
@@ -779,10 +779,10 @@
   },
   {
    "path": "/apps",
-   "views": 8,
+   "views": 9,
    "reads": 0,
-   "sessions": 8,
-   "avg_dwell_sec": null
+   "sessions": 9,
+   "avg_dwell_sec": 20
   },
   {
    "path": "/stacks/:stack",
