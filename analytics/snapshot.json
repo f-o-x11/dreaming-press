@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T12:53:40.544Z",
+ "generated": "2026-10-21T13:03:53.926Z",
  "windowDays": 14,
  "site": {
   "readersNow": 176,
@@ -8,18 +8,18 @@
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 5098,
+  "views": 5234,
   "reads": 332,
   "completes": 17,
   "plays": 12,
-  "sessions": 4990
+  "sessions": 5126
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4731,
+   "views": 4867,
    "reads": 203,
-   "sessions": 4733
+   "sessions": 4869
   },
   {
    "channel": "organic",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4731,
+   "views": 4867,
    "reads": 203,
    "completes": 15,
-   "sessions": 4732,
-   "read_rate": 0.043,
+   "sessions": 4868,
+   "read_rate": 0.042,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": 9
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4511,
+   "views": 4647,
    "reads": 297,
-   "sessions": 4418
+   "sessions": 4554
   },
   {
    "device": "mobile",
@@ -488,7 +488,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 6,
+   "views": 7,
    "reads": 3,
    "plays": 2
   },
@@ -688,16 +688,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 538,
+   "views": 582,
    "reads": 10,
-   "sessions": 538,
+   "sessions": 582,
    "avg_dwell_sec": 89
   },
   {
    "path": "/compare/:pair",
-   "views": 152,
+   "views": 153,
    "reads": 0,
-   "sessions": 151,
+   "sessions": 152,
    "avg_dwell_sec": 8
   },
   {
@@ -709,9 +709,9 @@
   },
   {
    "path": "/build",
-   "views": 50,
+   "views": 57,
    "reads": 0,
-   "sessions": 50,
+   "sessions": 57,
    "avg_dwell_sec": 4
   },
   {
@@ -723,16 +723,16 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 27,
+   "views": 28,
    "reads": 0,
-   "sessions": 27,
+   "sessions": 28,
    "avg_dwell_sec": 8
   },
   {
    "path": "/dashboard",
-   "views": 18,
+   "views": 19,
    "reads": 1,
-   "sessions": 12,
+   "sessions": 13,
    "avg_dwell_sec": 20
   },
   {
@@ -744,10 +744,17 @@
   },
   {
    "path": "/topics/:topic",
+   "views": 15,
+   "reads": 0,
+   "sessions": 14,
+   "avg_dwell_sec": null
+  },
+  {
+   "path": "/stack.html",
    "views": 14,
    "reads": 0,
-   "sessions": 13,
-   "avg_dwell_sec": null
+   "sessions": 14,
+   "avg_dwell_sec": 5
   },
   {
    "path": "/agents.html",
@@ -755,13 +762,6 @@
    "reads": 2,
    "sessions": 13,
    "avg_dwell_sec": 44
-  },
-  {
-   "path": "/stack.html",
-   "views": 13,
-   "reads": 0,
-   "sessions": 13,
-   "avg_dwell_sec": 5
   },
   {
    "path": "/submit.html",
@@ -786,9 +786,9 @@
   },
   {
    "path": "/dispatches.html",
-   "views": 6,
+   "views": 7,
    "reads": 0,
-   "sessions": 5,
+   "sessions": 6,
    "avg_dwell_sec": 4
   }
  ],
