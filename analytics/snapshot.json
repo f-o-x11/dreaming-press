@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-21T14:35:06.839Z",
+ "generated": "2026-10-21T14:45:16.989Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 124,
+  "readersNow": 199,
   "todayReads": 16,
-  "avgTimeSec": 39,
+  "avgTimeSec": 38,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 6031,
+  "views": 6161,
   "reads": 335,
   "completes": 17,
   "plays": 13,
-  "sessions": 5921
+  "sessions": 6052
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 5661,
+   "views": 5791,
    "reads": 206,
-   "sessions": 5661
+   "sessions": 5792
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 5661,
+   "views": 5791,
    "reads": 206,
    "completes": 15,
-   "sessions": 5660,
+   "sessions": 5791,
    "read_rate": 0.036,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 5440,
+   "views": 5570,
    "reads": 300,
-   "sessions": 5345
+   "sessions": 5476
   },
   {
    "device": "mobile",
@@ -431,6 +431,16 @@
    "plays": 0
   },
   {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 10,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "clear-compact-remember-cross-vendor-agent-context-framework",
    "title": "Clear, Compact, or Remember? The Cross-Vendor Decision Framework for Long-Running Agent Context",
    "section": "stack",
@@ -439,16 +449,6 @@
    "views": 9,
    "reads": 5,
    "plays": 1
-  },
-  {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 9,
-   "reads": 5,
-   "plays": 0
   },
   {
    "slug": "2026-10-15-founders-wire-anthropic-opens-its-books",
@@ -665,6 +665,16 @@
    "plays": 0
   },
   {
+   "slug": "tuning-chunked-prefill-max-num-batched-tokens",
+   "title": "Tuning Chunked Prefill in vLLM: The One Knob That Trades First-Token Latency for Smooth Streaming",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 25,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "2026-10-14-founders-wire-gemini-4-argon-opens-three-models-one-price",
    "title": "The Founder's Wire, October 14: Gemini 4 Argon Opens Its Gate — and Now Three Frontier Models Cost Exactly the Same",
    "section": "wire",
@@ -673,31 +683,21 @@
    "views": 25,
    "reads": 0,
    "plays": 0
-  },
-  {
-   "slug": "best-open-source-rl-frameworks-for-training-agents",
-   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 25,
-   "reads": 0,
-   "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 700,
+   "views": 704,
    "reads": 10,
-   "sessions": 700,
+   "sessions": 704,
    "avg_dwell_sec": 84
   },
   {
    "path": "/compare/:pair",
-   "views": 177,
+   "views": 183,
    "reads": 0,
-   "sessions": 176,
+   "sessions": 182,
    "avg_dwell_sec": 8
   },
   {
@@ -709,9 +709,9 @@
   },
   {
    "path": "/build",
-   "views": 95,
+   "views": 101,
    "reads": 0,
-   "sessions": 95,
+   "sessions": 101,
    "avg_dwell_sec": 4
   },
   {
@@ -723,16 +723,16 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 34,
+   "views": 35,
    "reads": 0,
-   "sessions": 34,
+   "sessions": 35,
    "avg_dwell_sec": 8
   },
   {
    "path": "/stack.html",
-   "views": 24,
+   "views": 25,
    "reads": 0,
-   "sessions": 24,
+   "sessions": 25,
    "avg_dwell_sec": 5
   },
   {
@@ -764,6 +764,13 @@
    "avg_dwell_sec": 44
   },
   {
+   "path": "/authors/dex",
+   "views": 12,
+   "reads": 0,
+   "sessions": 12,
+   "avg_dwell_sec": null
+  },
+  {
    "path": "/submit.html",
    "views": 12,
    "reads": 3,
@@ -771,25 +778,18 @@
    "avg_dwell_sec": 95
   },
   {
+   "path": "/tags/opinionated",
+   "views": 12,
+   "reads": 0,
+   "sessions": 12,
+   "avg_dwell_sec": null
+  },
+  {
    "path": "/apps",
    "views": 11,
    "reads": 0,
    "sessions": 11,
    "avg_dwell_sec": 20
-  },
-  {
-   "path": "/authors/dex",
-   "views": 11,
-   "reads": 0,
-   "sessions": 11,
-   "avg_dwell_sec": null
-  },
-  {
-   "path": "/authors/wire-desk",
-   "views": 11,
-   "reads": 0,
-   "sessions": 11,
-   "avg_dwell_sec": 2
   }
  ],
  "referrers": [
