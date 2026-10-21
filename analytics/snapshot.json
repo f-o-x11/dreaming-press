@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-21T06:26:45.067Z",
+ "generated": "2026-10-21T06:36:52.797Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 7,
-  "avgTimeSec": 103,
+  "readersNow": 3,
+  "todayReads": 8,
+  "avgTimeSec": 93,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 4849,
-  "reads": 336,
+  "views": 4848,
+  "reads": 337,
   "completes": 16,
   "plays": 12,
-  "sessions": 4736
+  "sessions": 4733
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4476,
-   "reads": 203,
-   "sessions": 4475
+   "views": 4477,
+   "reads": 204,
+   "sessions": 4476
   },
   {
    "channel": "organic",
-   "views": 271,
+   "views": 269,
    "reads": 95,
-   "sessions": 265
+   "sessions": 262
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,24 +79,24 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4476,
-   "reads": 203,
+   "views": 4477,
+   "reads": 204,
    "completes": 14,
-   "sessions": 4474,
-   "read_rate": 0.045,
+   "sessions": 4475,
+   "read_rate": 0.046,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": 9
   },
   {
    "channel": "organic",
-   "views": 271,
+   "views": 269,
    "reads": 95,
    "completes": 1,
-   "sessions": 265,
-   "read_rate": 0.351,
+   "sessions": 262,
+   "read_rate": 0.353,
    "complete_rate": 0.004,
-   "pages_per_session": 1.02,
+   "pages_per_session": 1.03,
    "median_dwell_sec": 3
   },
   {
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4261,
-   "reads": 301,
-   "sessions": 4166
+   "views": 4260,
+   "reads": 302,
+   "sessions": 4163
   },
   {
    "device": "mobile",
@@ -346,7 +346,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 38,
+   "views": 39,
    "reads": 20,
    "plays": 0
   },
@@ -387,6 +387,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 9,
+   "reads": 6,
+   "plays": 0
+  },
+  {
+   "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
+   "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
    "reads": 6,
    "plays": 0
   },
@@ -437,16 +447,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 9,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
-   "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 5,
    "reads": 5,
    "plays": 0
   },
@@ -605,23 +605,23 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 41,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "mcp-tool-annotations-explained",
    "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 38,
+   "views": 39,
    "reads": 20,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 38,
+   "reads": 2,
    "plays": 0
   },
   {
@@ -795,18 +795,18 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 148,
-   "sessions": 132
+   "hits": 145,
+   "sessions": 129
+  },
+  {
+   "ref": "https://www.bing.com/",
+   "hits": 80,
+   "sessions": 42
   },
   {
    "ref": "https://duckduckgo.com/",
    "hits": 80,
    "sessions": 46
-  },
-  {
-   "ref": "https://www.bing.com/",
-   "hits": 79,
-   "sessions": 42
   },
   {
    "ref": "https://cn.bing.com/",
