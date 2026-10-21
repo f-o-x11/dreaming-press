@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-21T00:00:48.319Z",
+ "generated": "2026-10-21T00:10:55.804Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19017,
+ "verifiedAiHits": 19023,
  "logsScanned": 30,
  "windowStart": "2026-10-07",
  "windowEnd": "2026-10-21",
- "totalHits": 119683,
- "aiHits": 96314,
+ "totalHits": 119720,
+ "aiHits": 96345,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,10 +14,10 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30518,
+   "hits": 30538,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
-   "lastSeen": "2026-10-20",
+   "lastSeen": "2026-10-21",
    "topPaths": [
     {
      "path": "/",
@@ -47,10 +47,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16645,
+   "hits": 16650,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
-   "lastSeen": "2026-10-20",
+   "lastSeen": "2026-10-21",
    "topPaths": [
     {
      "path": "/dashboard",
@@ -65,11 +65,11 @@
      "hits": 8
     },
     {
-     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
+     "path": "/posts/how-to-run-a-local-agent-backend-lm-studio-openai-compatible.html",
      "hits": 6
     },
     {
-     "path": "/posts/2026-08-27-founders-wire-instinct-mechanical-turk-jalapeno.html",
+     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
      "hits": 6
     }
    ],
@@ -113,10 +113,10 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7365,
+   "hits": 7368,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
-   "lastSeen": "2026-10-20",
+   "lastSeen": "2026-10-21",
    "topPaths": [
     {
      "path": "/build",
@@ -146,10 +146,10 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 7075,
-   "verifiedHits": 6976,
+   "hits": 7077,
+   "verifiedHits": 6978,
    "firstSeen": "2026-10-07",
-   "lastSeen": "2026-10-20",
+   "lastSeen": "2026-10-21",
    "topPaths": [
     {
      "path": "/",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6692,
-   "verifiedHits": 6647,
+   "hits": 6695,
+   "verifiedHits": 6650,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
    "topPaths": [
@@ -278,14 +278,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5523,
-   "verifiedHits": 5478,
+   "hits": 5525,
+   "verifiedHits": 5480,
    "firstSeen": "2026-10-07",
-   "lastSeen": "2026-10-20",
+   "lastSeen": "2026-10-21",
    "topPaths": [
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
-     "hits": 121
+     "hits": 122
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3523,
-   "verifiedHits": 3426,
+   "hits": 3525,
+   "verifiedHits": 3428,
    "firstSeen": "2026-10-07",
-   "lastSeen": "2026-10-20",
+   "lastSeen": "2026-10-21",
    "topPaths": [
     {
      "path": "/",
-     "hits": 924
+     "hits": 925
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
