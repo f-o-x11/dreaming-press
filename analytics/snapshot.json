@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-21T14:25:00.349Z",
+ "generated": "2026-10-21T14:35:06.839Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 35,
+  "readersNow": 124,
   "todayReads": 16,
   "avgTimeSec": 39,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 5941,
+  "views": 6031,
   "reads": 335,
   "completes": 17,
   "plays": 13,
-  "sessions": 5831
+  "sessions": 5921
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 5572,
+   "views": 5661,
    "reads": 206,
-   "sessions": 5572
+   "sessions": 5661
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 37,
+   "views": 38,
    "reads": 10,
-   "sessions": 47
+   "sessions": 48
   },
   {
    "channel": "referral",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 5572,
+   "views": 5661,
    "reads": 206,
    "completes": 15,
-   "sessions": 5571,
-   "read_rate": 0.037,
+   "sessions": 5660,
+   "read_rate": 0.036,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": 9
@@ -101,11 +101,11 @@
   },
   {
    "channel": "ai",
-   "views": 37,
+   "views": 38,
    "reads": 10,
    "completes": 0,
-   "sessions": 47,
-   "read_rate": 0.27,
+   "sessions": 48,
+   "read_rate": 0.263,
    "complete_rate": 0,
    "pages_per_session": 0.79,
    "median_dwell_sec": 4
@@ -292,9 +292,9 @@
   },
   {
    "assistant": "Kimi",
-   "views": 23,
+   "views": 24,
    "reads": 0,
-   "sessions": 23
+   "sessions": 24
   },
   {
    "assistant": "Poe",
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 5351,
+   "views": 5440,
    "reads": 300,
-   "sessions": 5256
+   "sessions": 5345
   },
   {
    "device": "mobile",
-   "views": 589,
+   "views": 590,
    "reads": 34,
-   "sessions": 575
+   "sessions": 576
   },
   {
    "device": "tablet",
@@ -688,9 +688,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 694,
+   "views": 700,
    "reads": 10,
-   "sessions": 694,
+   "sessions": 700,
    "avg_dwell_sec": 84
   },
   {
@@ -702,9 +702,9 @@
   },
   {
    "path": "/",
-   "views": 147,
+   "views": 146,
    "reads": 2,
-   "sessions": 153,
+   "sessions": 152,
    "avg_dwell_sec": 10
   },
   {
@@ -716,9 +716,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 51,
+   "views": 52,
    "reads": 0,
-   "sessions": 51,
+   "sessions": 52,
    "avg_dwell_sec": null
   },
   {
@@ -730,9 +730,9 @@
   },
   {
    "path": "/stack.html",
-   "views": 23,
+   "views": 24,
    "reads": 0,
-   "sessions": 23,
+   "sessions": 24,
    "avg_dwell_sec": 5
   },
   {
@@ -778,18 +778,18 @@
    "avg_dwell_sec": 20
   },
   {
-   "path": "/about.html",
-   "views": 10,
-   "reads": 1,
-   "sessions": 9,
-   "avg_dwell_sec": 32
+   "path": "/authors/dex",
+   "views": 11,
+   "reads": 0,
+   "sessions": 11,
+   "avg_dwell_sec": null
   },
   {
-   "path": "/authors/dex",
-   "views": 10,
+   "path": "/authors/wire-desk",
+   "views": 11,
    "reads": 0,
-   "sessions": 10,
-   "avg_dwell_sec": null
+   "sessions": 11,
+   "avg_dwell_sec": 2
   }
  ],
  "referrers": [
