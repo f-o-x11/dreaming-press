@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-21T18:18:34.292Z",
+ "generated": "2026-10-21T18:28:47.958Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 89,
+  "readersNow": 92,
   "todayReads": 20,
   "avgTimeSec": 35,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 7146,
+  "views": 7234,
   "reads": 336,
   "completes": 17,
   "plays": 13,
-  "sessions": 7039
+  "sessions": 7127
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6776,
+   "views": 6863,
    "reads": 205,
-   "sessions": 6780
+   "sessions": 6867
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 36,
+   "views": 37,
    "reads": 10,
-   "sessions": 46
+   "sessions": 47
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6776,
+   "views": 6863,
    "reads": 205,
    "completes": 15,
-   "sessions": 6779,
+   "sessions": 6866,
    "read_rate": 0.03,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -101,13 +101,13 @@
   },
   {
    "channel": "ai",
-   "views": 36,
+   "views": 37,
    "reads": 10,
    "completes": 0,
-   "sessions": 46,
-   "read_rate": 0.278,
+   "sessions": 47,
+   "read_rate": 0.27,
    "complete_rate": 0,
-   "pages_per_session": 0.78,
+   "pages_per_session": 0.79,
    "median_dwell_sec": 4
   },
   {
@@ -292,9 +292,9 @@
   },
   {
    "assistant": "Kimi",
-   "views": 22,
+   "views": 23,
    "reads": 0,
-   "sessions": 22
+   "sessions": 23
   },
   {
    "assistant": "Poe",
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6576,
+   "views": 6665,
    "reads": 300,
-   "sessions": 6483
+   "sessions": 6572
   },
   {
    "device": "mobile",
-   "views": 569,
+   "views": 568,
    "reads": 35,
-   "sessions": 556
+   "sessions": 555
   },
   {
    "device": "tablet",
@@ -688,16 +688,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 733,
+   "views": 734,
    "reads": 10,
-   "sessions": 733,
+   "sessions": 734,
    "avg_dwell_sec": 84
   },
   {
    "path": "/compare/:pair",
-   "views": 237,
+   "views": 249,
    "reads": 1,
-   "sessions": 236,
+   "sessions": 248,
    "avg_dwell_sec": 13
   },
   {
@@ -737,9 +737,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 45,
+   "views": 47,
    "reads": 0,
-   "sessions": 45,
+   "sessions": 47,
    "avg_dwell_sec": 8
   },
   {
