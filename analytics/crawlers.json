@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-21T03:44:43.524Z",
+ "generated": "2026-10-21T03:54:50.397Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19074,
+ "verifiedAiHits": 19075,
  "logsScanned": 30,
  "windowStart": "2026-10-07",
  "windowEnd": "2026-10-21",
- "totalHits": 120495,
- "aiHits": 96848,
+ "totalHits": 120532,
+ "aiHits": 96876,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30919,
+   "hits": 30946,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7432,
+   "hits": 7434,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 7090,
-   "verifiedHits": 6991,
+   "hits": 7091,
+   "verifiedHits": 6992,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6759,
-   "verifiedHits": 6714,
+   "hits": 6760,
+   "verifiedHits": 6715,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
    "topPaths": [
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 601,
-   "verifiedHits": 525,
+   "hits": 607,
+   "verifiedHits": 531,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
    "topPaths": [
@@ -523,15 +523,15 @@
      "hits": 2
     },
     {
+     "path": "/posts/best-llm-for-creative-writing-october-2026.html",
+     "hits": 2
+    },
+    {
      "path": "/posts/garak-vs-pyrit-vs-promptfoo.html",
      "hits": 2
     },
     {
      "path": "/posts/cut-llm-api-costs-model-routing-by-task-2026.html",
-     "hits": 2
-    },
-    {
-     "path": "/stack/jina-reader",
      "hits": 2
     }
    ],
