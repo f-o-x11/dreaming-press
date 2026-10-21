@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-21T16:16:38.943Z",
+ "generated": "2026-10-21T16:26:40.279Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19381,
+ "verifiedAiHits": 19387,
  "logsScanned": 30,
  "windowStart": "2026-10-07",
  "windowEnd": "2026-10-21",
- "totalHits": 123073,
- "aiHits": 98747,
+ "totalHits": 123177,
+ "aiHits": 98831,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32257,
+   "hits": 32266,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16772,
+   "hits": 16777,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14650,
+   "hits": 14658,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -95,7 +95,7 @@
     },
     {
      "path": "/wire.html",
-     "hits": 30
+     "hits": 32
     },
     {
      "path": "/tags/opinionated",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7638,
+   "hits": 7639,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 7222,
-   "verifiedHits": 7123,
+   "hits": 7226,
+   "verifiedHits": 7124,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7015,
-   "verifiedHits": 6970,
+   "hits": 7021,
+   "verifiedHits": 6971,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
    "topPaths": [
@@ -190,7 +190,7 @@
     },
     {
      "path": "/build",
-     "hits": 89
+     "hits": 90
     },
     {
      "path": "/posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html",
@@ -212,10 +212,10 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 6462,
+   "hits": 6470,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
-   "lastSeen": "2026-10-20",
+   "lastSeen": "2026-10-21",
    "topPaths": [
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -234,7 +234,7 @@
      "hits": 5
     },
     {
-     "path": "/tags/opinionated",
+     "path": "/",
      "hits": 4
     }
    ],
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 6049,
+   "hits": 6055,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -278,7 +278,7 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5564,
+   "hits": 5569,
    "verifiedHits": 5519,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4316,
+   "hits": 4321,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -377,18 +377,18 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3699,
-   "verifiedHits": 3600,
+   "hits": 3712,
+   "verifiedHits": 3605,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
    "topPaths": [
     {
      "path": "/",
-     "hits": 972
+     "hits": 973
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 235
+     "hits": 236
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1482,
+   "hits": 1488,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -454,7 +454,7 @@
     },
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
-     "hits": 224
+     "hits": 225
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -476,11 +476,15 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 625,
+   "hits": 631,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-21",
    "topPaths": [
+    {
+     "path": "/app",
+     "hits": 2
+    },
     {
      "path": "/feast/read-document",
      "hits": 2
@@ -496,10 +500,6 @@
     {
      "path": "/dashboard",
      "hits": 1
-    },
-    {
-     "path": "/dashboard%2F.env",
-     "hits": 1
     }
    ],
    "verifiable": false
@@ -509,7 +509,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 619,
+   "hits": 627,
    "verifiedHits": 543,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -531,7 +531,7 @@
      "hits": 2
     },
     {
-     "path": "/posts/garak-vs-pyrit-vs-promptfoo.html",
+     "path": "/serverless.yml",
      "hits": 2
     }
    ],
@@ -542,10 +542,10 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 461,
+   "hits": 464,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
-   "lastSeen": "2026-10-20",
+   "lastSeen": "2026-10-21",
    "topPaths": [
     {
      "path": "/posts/migrate-mcp-server-stateless-multi-round-trip.html",
@@ -641,7 +641,7 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 92,
+   "hits": 98,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -659,11 +659,11 @@
      "hits": 1
     },
     {
-     "path": "/key.pem",
+     "path": "/login",
      "hits": 1
     },
     {
-     "path": "/admin",
+     "path": "/key.pem",
      "hits": 1
     }
    ],
@@ -674,10 +674,10 @@
    "label": "Claude Search (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 40,
+   "hits": 42,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
-   "lastSeen": "2026-10-20",
+   "lastSeen": "2026-10-21",
    "topPaths": [
     {
      "path": "/server.key",
@@ -692,11 +692,44 @@
      "hits": 2
     },
     {
-     "path": "/api%2F.env",
+     "path": "/app",
      "hits": 1
     },
     {
-     "path": "/admin%2F.env",
+     "path": "/api%2F.env",
+     "hits": 1
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "cohere-ai",
+   "label": "Cohere",
+   "category": "ai",
+   "home": "https://cohere.com",
+   "hits": 35,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-08",
+   "lastSeen": "2026-10-21",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 3
+    },
+    {
+     "path": "/serverless.yml",
+     "hits": 2
+    },
+    {
+     "path": "/railway.toml",
+     "hits": 1
+    },
+    {
+     "path": "/netlify.toml",
+     "hits": 1
+    },
+    {
+     "path": "/_astro/pages/index.astro.mjs.map",
      "hits": 1
     }
    ],
@@ -714,39 +747,6 @@
    "topPaths": [
     {
      "path": "/",
-     "hits": 1
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "cohere-ai",
-   "label": "Cohere",
-   "category": "ai",
-   "home": "https://cohere.com",
-   "hits": 32,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-08",
-   "lastSeen": "2026-10-20",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 3
-    },
-    {
-     "path": "/serverless.yml",
-     "hits": 2
-    },
-    {
-     "path": "/_astro/pages/index.astro.mjs.map",
-     "hits": 1
-    },
-    {
-     "path": "/server.key",
-     "hits": 1
-    },
-    {
-     "path": "/cgi-bin/php",
      "hits": 1
     }
    ],
