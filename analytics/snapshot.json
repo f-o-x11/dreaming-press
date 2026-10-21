@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-21T17:48:10.610Z",
+ "generated": "2026-10-21T17:58:15.907Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 138,
+  "readersNow": 116,
   "todayReads": 19,
   "avgTimeSec": 35,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 7009,
+  "views": 7060,
   "reads": 335,
   "completes": 17,
   "plays": 13,
-  "sessions": 6902
+  "sessions": 6953
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6639,
+   "views": 6690,
    "reads": 205,
-   "sessions": 6643
+   "sessions": 6694
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6639,
+   "views": 6690,
    "reads": 205,
    "completes": 15,
-   "sessions": 6642,
+   "sessions": 6693,
    "read_rate": 0.031,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6430,
+   "views": 6487,
    "reads": 300,
-   "sessions": 6337
+   "sessions": 6394
   },
   {
    "device": "mobile",
-   "views": 578,
+   "views": 572,
    "reads": 34,
-   "sessions": 565
+   "sessions": 559
   },
   {
    "device": "tablet",
@@ -396,7 +396,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 36,
+   "views": 34,
    "reads": 5,
    "plays": 0
   },
@@ -625,16 +625,6 @@
    "plays": 0
   },
   {
-   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
-   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 36,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
    "title": "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix",
    "section": "stack",
@@ -652,6 +642,16 @@
    "author": "dex",
    "views": 34,
    "reads": 12,
+   "plays": 0
+  },
+  {
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 34,
+   "reads": 5,
    "plays": 0
   },
   {
@@ -695,9 +695,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 220,
+   "views": 231,
    "reads": 1,
-   "sessions": 219,
+   "sessions": 230,
    "avg_dwell_sec": 13
   },
   {
@@ -709,9 +709,9 @@
   },
   {
    "path": "/build",
-   "views": 125,
+   "views": 128,
    "reads": 0,
-   "sessions": 125,
+   "sessions": 128,
    "avg_dwell_sec": 4
   },
   {
@@ -723,23 +723,23 @@
   },
   {
    "path": "/tags/opinionated",
+   "views": 50,
+   "reads": 0,
+   "sessions": 50,
+   "avg_dwell_sec": null
+  },
+  {
+   "path": "/tags/reportive",
    "views": 48,
    "reads": 0,
    "sessions": 48,
    "avg_dwell_sec": null
   },
   {
-   "path": "/tags/reportive",
-   "views": 46,
-   "reads": 0,
-   "sessions": 46,
-   "avg_dwell_sec": null
-  },
-  {
    "path": "/alternatives/:tool",
-   "views": 44,
+   "views": 45,
    "reads": 0,
-   "sessions": 44,
+   "sessions": 45,
    "avg_dwell_sec": 8
   },
   {
