@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-21T07:07:26.769Z",
+ "generated": "2026-10-21T07:18:00.361Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19147,
+ "verifiedAiHits": 19151,
  "logsScanned": 30,
  "windowStart": "2026-10-07",
  "windowEnd": "2026-10-21",
- "totalHits": 121041,
- "aiHits": 97279,
+ "totalHits": 121093,
+ "aiHits": 97303,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31237,
+   "hits": 31256,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7443,
+   "hits": 7448,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -127,15 +127,15 @@
      "hits": 6
     },
     {
+     "path": "/tags/reportive",
+     "hits": 5
+    },
+    {
      "path": "/dashboard",
      "hits": 5
     },
     {
      "path": "/tags/opinionated",
-     "hits": 5
-    },
-    {
-     "path": "/authors/priya",
      "hits": 5
     }
    ],
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 7110,
-   "verifiedHits": 7011,
+   "hits": 7112,
+   "verifiedHits": 7013,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6829,
-   "verifiedHits": 6784,
+   "hits": 6832,
+   "verifiedHits": 6787,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4337,
+   "hits": 4355,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -344,14 +344,14 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4279,
+   "hits": 4281,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 28
+     "hits": 29
     },
     {
      "path": "/posts/2026-09-27-founders-wire-openai-rogue-agents-safa-databricks-row-zero.md",
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3602,
-   "verifiedHits": 3504,
+   "hits": 3604,
+   "verifiedHits": 3506,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
    "topPaths": [
     {
      "path": "/",
-     "hits": 943
+     "hits": 944
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -400,7 +400,7 @@
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 84
+     "hits": 85
     }
    ],
    "verifiable": true
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1447,
+   "hits": 1448,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -461,12 +461,12 @@
      "hits": 40
     },
     {
-     "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
+     "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
      "hits": 39
     },
     {
-     "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
-     "hits": 38
+     "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
+     "hits": 39
     }
    ],
    "verifiable": false
