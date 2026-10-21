@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-21T01:02:01.264Z",
+ "generated": "2026-10-21T01:12:06.698Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19038,
+ "verifiedAiHits": 19040,
  "logsScanned": 30,
  "windowStart": "2026-10-07",
  "windowEnd": "2026-10-21",
- "totalHits": 119902,
- "aiHits": 96483,
+ "totalHits": 119952,
+ "aiHits": 96506,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30638,
+   "hits": 30657,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -36,8 +36,8 @@
      "hits": 24
     },
     {
-     "path": "/posts/china-persona-law-took-effect-what-founders-do.html",
-     "hits": 15
+     "path": "/posts/2026-10-06-founders-wire-deepseek-12b-moonshot-50b-ipo.html",
+     "hits": 16
     }
    ],
    "verifiable": false
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16666,
+   "hits": 16668,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7377,
+   "hits": 7379,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 7082,
-   "verifiedHits": 6983,
+   "hits": 7083,
+   "verifiedHits": 6984,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6712,
-   "verifiedHits": 6667,
+   "hits": 6713,
+   "verifiedHits": 6668,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
    "topPaths": [
@@ -311,10 +311,10 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4242,
+   "hits": 4258,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
-   "lastSeen": "2026-10-20",
+   "lastSeen": "2026-10-21",
    "topPaths": [
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4228,
+   "hits": 4236,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3534,
-   "verifiedHits": 3436,
+   "hits": 3535,
+   "verifiedHits": 3437,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
    "topPaths": [
