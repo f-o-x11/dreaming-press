@@ -1,30 +1,30 @@
 {
- "generated": "2026-10-21T18:59:00.439Z",
+ "generated": "2026-10-21T19:09:12.463Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 77,
-  "todayReads": 20,
-  "avgTimeSec": 35,
+  "readersNow": 48,
+  "todayReads": 21,
+  "avgTimeSec": 34,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 7367,
-  "reads": 336,
+  "views": 7379,
+  "reads": 335,
   "completes": 17,
   "plays": 13,
-  "sessions": 7261
+  "sessions": 7274
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6997,
+   "views": 7009,
    "reads": 205,
-   "sessions": 7001
+   "sessions": 7014
   },
   {
    "channel": "organic",
    "views": 267,
-   "reads": 93,
+   "reads": 92,
    "sessions": 261
   },
   {
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6997,
+   "views": 7009,
    "reads": 205,
    "completes": 15,
-   "sessions": 7000,
+   "sessions": 7013,
    "read_rate": 0.029,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -91,10 +91,10 @@
   {
    "channel": "organic",
    "views": 267,
-   "reads": 93,
+   "reads": 92,
    "completes": 1,
    "sessions": 261,
-   "read_rate": 0.348,
+   "read_rate": 0.345,
    "complete_rate": 0.004,
    "pages_per_session": 1.02,
    "median_dwell_sec": 3
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6798,
-   "reads": 300,
-   "sessions": 6706
+   "views": 6810,
+   "reads": 299,
+   "sessions": 6718
   },
   {
    "device": "mobile",
    "views": 568,
    "reads": 35,
-   "sessions": 555
+   "sessions": 556
   },
   {
    "device": "tablet",
@@ -356,8 +356,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 34,
-   "reads": 12,
+   "views": 35,
+   "reads": 13,
    "plays": 0
   },
   {
@@ -391,26 +391,6 @@
    "plays": 0
   },
   {
-   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
-   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 34,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 26,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
    "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
    "section": "stack",
@@ -439,6 +419,26 @@
    "views": 9,
    "reads": 5,
    "plays": 1
+  },
+  {
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 33,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 26,
+   "reads": 4,
+   "plays": 0
   },
   {
    "slug": "2026-10-15-founders-wire-anthropic-opens-its-books",
@@ -640,8 +640,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 34,
-   "reads": 12,
+   "views": 35,
+   "reads": 13,
    "plays": 0
   },
   {
@@ -650,8 +650,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 34,
-   "reads": 5,
+   "views": 33,
+   "reads": 4,
    "plays": 0
   },
   {
@@ -661,7 +661,7 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
    "views": 26,
-   "reads": 5,
+   "reads": 4,
    "plays": 0
   },
   {
@@ -688,9 +688,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 734,
+   "views": 733,
    "reads": 10,
-   "sessions": 734,
+   "sessions": 733,
    "avg_dwell_sec": 84
   },
   {
@@ -704,14 +704,14 @@
    "path": "/",
    "views": 146,
    "reads": 2,
-   "sessions": 153,
+   "sessions": 154,
    "avg_dwell_sec": 10
   },
   {
    "path": "/build",
-   "views": 136,
+   "views": 139,
    "reads": 0,
-   "sessions": 136,
+   "sessions": 139,
    "avg_dwell_sec": 4
   },
   {
@@ -723,9 +723,9 @@
   },
   {
    "path": "/tags/reportive",
-   "views": 57,
+   "views": 58,
    "reads": 0,
-   "sessions": 57,
+   "sessions": 58,
    "avg_dwell_sec": null
   },
   {
@@ -805,7 +805,7 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 77,
+   "hits": 76,
    "sessions": 46
   },
   {
