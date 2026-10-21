@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-21T04:55:29.997Z",
+ "generated": "2026-10-21T05:05:45.122Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19094,
+ "verifiedAiHits": 19098,
  "logsScanned": 30,
  "windowStart": "2026-10-07",
  "windowEnd": "2026-10-21",
- "totalHits": 120688,
- "aiHits": 97005,
+ "totalHits": 120719,
+ "aiHits": 97031,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31034,
+   "hits": 31056,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -146,14 +146,14 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 7095,
-   "verifiedHits": 6996,
+   "hits": 7098,
+   "verifiedHits": 6999,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
    "topPaths": [
     {
      "path": "/",
-     "hits": 29
+     "hits": 30
     },
     {
      "path": "/tools",
@@ -164,12 +164,12 @@
      "hits": 25
     },
     {
-     "path": "/newsroom",
+     "path": "/posts/best-llm-for-creative-writing-october-2026.html",
      "hits": 24
     },
     {
-     "path": "/posts/best-llm-for-creative-writing-october-2026.html",
-     "hits": 23
+     "path": "/newsroom",
+     "hits": 24
     }
    ],
    "verifiable": true
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6774,
-   "verifiedHits": 6729,
+   "hits": 6779,
+   "verifiedHits": 6734,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
    "topPaths": [
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3570,
-   "verifiedHits": 3472,
+   "hits": 3571,
+   "verifiedHits": 3473,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
    "topPaths": [
@@ -388,7 +388,7 @@
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 228
+     "hits": 229
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
