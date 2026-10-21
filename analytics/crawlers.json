@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-21T07:48:43.983Z",
+ "generated": "2026-10-21T07:58:44.116Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19162,
+ "verifiedAiHits": 19164,
  "logsScanned": 30,
  "windowStart": "2026-10-07",
  "windowEnd": "2026-10-21",
- "totalHits": 121204,
- "aiHits": 97380,
+ "totalHits": 121232,
+ "aiHits": 97404,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31313,
+   "hits": 31335,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -113,14 +113,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7456,
+   "hits": 7458,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 66
+     "hits": 67
     },
     {
      "path": "/authors/rosalinda",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6844,
-   "verifiedHits": 6799,
+   "hits": 6846,
+   "verifiedHits": 6801,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
    "topPaths": [
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3610,
-   "verifiedHits": 3512,
+   "hits": 3612,
+   "verifiedHits": 3514,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
    "topPaths": [
     {
      "path": "/",
-     "hits": 945
+     "hits": 946
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
