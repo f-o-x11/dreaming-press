@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-21T00:52:00.254Z",
+ "generated": "2026-10-21T01:02:01.686Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
-  "todayReads": 0,
+  "readersNow": 1,
+  "todayReads": 1,
   "avgTimeSec": 0,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 4845,
+  "views": 4843,
   "reads": 335,
   "completes": 16,
   "plays": 12,
-  "sessions": 4733
+  "sessions": 4731
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4470,
-   "reads": 199,
-   "sessions": 4475
+   "views": 4469,
+   "reads": 200,
+   "sessions": 4473
   },
   {
    "channel": "organic",
-   "views": 272,
-   "reads": 98,
-   "sessions": 265
+   "views": 271,
+   "reads": 97,
+   "sessions": 264
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4470,
-   "reads": 199,
+   "views": 4469,
+   "reads": 200,
    "completes": 14,
-   "sessions": 4474,
+   "sessions": 4472,
    "read_rate": 0.045,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 272,
-   "reads": 98,
+   "views": 271,
+   "reads": 97,
    "completes": 1,
-   "sessions": 265,
-   "read_rate": 0.36,
+   "sessions": 264,
+   "read_rate": 0.358,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 2
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4259,
+   "views": 4258,
    "reads": 300,
-   "sessions": 4165
+   "sessions": 4164
   },
   {
    "device": "mobile",
-   "views": 585,
+   "views": 584,
    "reads": 34,
-   "sessions": 568
+   "sessions": 567
   },
   {
    "device": "tablet",
@@ -441,6 +441,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-10-15-founders-wire-anthropic-opens-its-books",
+   "title": "The Founder's Wire, October 15: Anthropic Opened Its Books — $16.8B, an 85% Margin, and $1.70 of Revenue for Every $1 of Compute",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 16,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
    "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
    "section": "wire",
@@ -468,16 +478,6 @@
    "author": "dex",
    "views": 8,
    "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "sqlite-vec-vs-lancedb-vs-qdrant-agent-memory",
-   "title": "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 3,
    "plays": 0
   }
  ],
@@ -800,8 +800,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 85,
-   "sessions": 48
+   "hits": 83,
+   "sessions": 47
   },
   {
    "ref": "https://www.bing.com/",
