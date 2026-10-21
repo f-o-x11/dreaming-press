@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-21T17:07:26.968Z",
+ "generated": "2026-10-21T17:17:30.712Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 29,
+  "readersNow": 38,
   "todayReads": 19,
   "avgTimeSec": 35,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 6836,
+  "views": 6856,
   "reads": 335,
   "completes": 17,
   "plays": 13,
-  "sessions": 6729
+  "sessions": 6749
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6465,
+   "views": 6485,
    "reads": 205,
-   "sessions": 6469
+   "sessions": 6489
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6465,
+   "views": 6485,
    "reads": 205,
    "completes": 15,
-   "sessions": 6468,
+   "sessions": 6488,
    "read_rate": 0.032,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6241,
+   "views": 6263,
    "reads": 300,
-   "sessions": 6148
+   "sessions": 6170
   },
   {
    "device": "mobile",
-   "views": 594,
+   "views": 592,
    "reads": 34,
-   "sessions": 581
+   "sessions": 579
   },
   {
    "device": "tablet",
@@ -356,7 +356,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 33,
+   "views": 34,
    "reads": 12,
    "plays": 0
   },
@@ -650,7 +650,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 33,
+   "views": 34,
    "reads": 12,
    "plays": 0
   },
@@ -688,16 +688,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 721,
+   "views": 722,
    "reads": 10,
-   "sessions": 721,
+   "sessions": 722,
    "avg_dwell_sec": 84
   },
   {
    "path": "/compare/:pair",
-   "views": 206,
+   "views": 215,
    "reads": 1,
-   "sessions": 205,
+   "sessions": 214,
    "avg_dwell_sec": 13
   },
   {
@@ -730,23 +730,23 @@
   },
   {
    "path": "/authors/dex",
-   "views": 40,
+   "views": 41,
    "reads": 0,
-   "sessions": 40,
+   "sessions": 41,
    "avg_dwell_sec": null
   },
   {
    "path": "/tags/opinionated",
-   "views": 40,
+   "views": 41,
    "reads": 0,
-   "sessions": 40,
+   "sessions": 41,
    "avg_dwell_sec": null
   },
   {
    "path": "/tags/reportive",
-   "views": 38,
+   "views": 39,
    "reads": 0,
-   "sessions": 38,
+   "sessions": 39,
    "avg_dwell_sec": null
   },
   {
