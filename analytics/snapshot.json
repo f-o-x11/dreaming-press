@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-21T12:23:15.031Z",
+ "generated": "2026-10-21T12:33:13.580Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 55,
   "todayReads": 13,
-  "avgTimeSec": 47,
+  "avgTimeSec": 46,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 4841,
+  "views": 4896,
   "reads": 332,
   "completes": 17,
   "plays": 12,
-  "sessions": 4733
+  "sessions": 4788
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4475,
+   "views": 4530,
    "reads": 203,
-   "sessions": 4477
+   "sessions": 4532
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4475,
+   "views": 4530,
    "reads": 203,
    "completes": 15,
-   "sessions": 4476,
+   "sessions": 4531,
    "read_rate": 0.045,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4259,
+   "views": 4309,
    "reads": 297,
-   "sessions": 4166
+   "sessions": 4216
   },
   {
    "device": "mobile",
-   "views": 581,
+   "views": 586,
    "reads": 34,
-   "sessions": 567
+   "sessions": 572
   },
   {
    "device": "tablet",
@@ -688,9 +688,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 509,
+   "views": 516,
    "reads": 10,
-   "sessions": 509,
+   "sessions": 516,
    "avg_dwell_sec": 89
   },
   {
@@ -709,9 +709,9 @@
   },
   {
    "path": "/build",
-   "views": 46,
+   "views": 48,
    "reads": 0,
-   "sessions": 46,
+   "sessions": 48,
    "avg_dwell_sec": 4
   },
   {
@@ -729,6 +729,13 @@
    "avg_dwell_sec": 8
   },
   {
+   "path": "/partner",
+   "views": 15,
+   "reads": 2,
+   "sessions": 13,
+   "avg_dwell_sec": 148
+  },
+  {
    "path": "/dashboard",
    "views": 14,
    "reads": 1,
@@ -736,17 +743,17 @@
    "avg_dwell_sec": 20
   },
   {
-   "path": "/partner",
+   "path": "/topics/:topic",
    "views": 14,
-   "reads": 2,
-   "sessions": 12,
-   "avg_dwell_sec": 148
+   "reads": 0,
+   "sessions": 13,
+   "avg_dwell_sec": null
   },
   {
    "path": "/agents.html",
-   "views": 12,
+   "views": 13,
    "reads": 2,
-   "sessions": 12,
+   "sessions": 13,
    "avg_dwell_sec": 44
   },
   {
@@ -765,23 +772,16 @@
   },
   {
    "path": "/stack.html",
-   "views": 8,
+   "views": 9,
    "reads": 0,
-   "sessions": 8,
+   "sessions": 9,
    "avg_dwell_sec": 5
   },
   {
-   "path": "/topics/:topic",
+   "path": "/apps",
    "views": 8,
    "reads": 0,
-   "sessions": 7,
-   "avg_dwell_sec": null
-  },
-  {
-   "path": "/apps",
-   "views": 7,
-   "reads": 0,
-   "sessions": 7,
+   "sessions": 8,
    "avg_dwell_sec": null
   },
   {
