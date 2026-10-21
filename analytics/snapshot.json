@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-21T14:04:40.756Z",
+ "generated": "2026-10-21T14:14:50.278Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 79,
-  "todayReads": 14,
-  "avgTimeSec": 41,
+  "readersNow": 85,
+  "todayReads": 16,
+  "avgTimeSec": 40,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 5873,
-  "reads": 333,
+  "views": 5909,
+  "reads": 335,
   "completes": 17,
   "plays": 13,
-  "sessions": 5763
+  "sessions": 5799
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 5504,
-   "reads": 204,
-   "sessions": 5504
+   "views": 5540,
+   "reads": 206,
+   "sessions": 5540
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 5504,
-   "reads": 204,
+   "views": 5540,
+   "reads": 206,
    "completes": 15,
-   "sessions": 5503,
+   "sessions": 5539,
    "read_rate": 0.037,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 5282,
-   "reads": 298,
-   "sessions": 5187
+   "views": 5319,
+   "reads": 300,
+   "sessions": 5224
   },
   {
    "device": "mobile",
-   "views": 590,
+   "views": 589,
    "reads": 34,
-   "sessions": 576
+   "sessions": 575
   },
   {
    "device": "tablet",
@@ -513,18 +513,18 @@
    "plays": 1
   },
   {
-   "slug": "cimd-vs-dynamic-client-registration-mcp",
-   "title": "CIMD vs Dynamic Client Registration: How MCP Clients Register After July 28",
+   "slug": "coding-agent-edit-formats-diff-vs-whole-file",
+   "title": "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 8,
-   "reads": 3,
+   "reads": 4,
    "plays": 1
   },
   {
-   "slug": "coding-agent-edit-formats-diff-vs-whole-file",
-   "title": "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace",
+   "slug": "cimd-vs-dynamic-client-registration-mcp",
+   "title": "CIMD vs Dynamic Client Registration: How MCP Clients Register After July 28",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -688,51 +688,51 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 690,
+   "views": 693,
    "reads": 10,
-   "sessions": 690,
-   "avg_dwell_sec": 89
+   "sessions": 693,
+   "avg_dwell_sec": 84
   },
   {
    "path": "/compare/:pair",
-   "views": 174,
+   "views": 176,
    "reads": 0,
-   "sessions": 173,
+   "sessions": 175,
    "avg_dwell_sec": 8
   },
   {
    "path": "/",
-   "views": 148,
+   "views": 147,
    "reads": 2,
-   "sessions": 154,
+   "sessions": 153,
    "avg_dwell_sec": 10
   },
   {
    "path": "/build",
-   "views": 92,
+   "views": 93,
    "reads": 0,
-   "sessions": 92,
+   "sessions": 93,
    "avg_dwell_sec": 4
   },
   {
    "path": "/best/:cat",
-   "views": 50,
+   "views": 51,
    "reads": 0,
-   "sessions": 50,
+   "sessions": 51,
    "avg_dwell_sec": null
   },
   {
    "path": "/alternatives/:tool",
-   "views": 33,
+   "views": 34,
    "reads": 0,
-   "sessions": 33,
+   "sessions": 34,
    "avg_dwell_sec": 8
   },
   {
    "path": "/stack.html",
-   "views": 20,
+   "views": 21,
    "reads": 0,
-   "sessions": 20,
+   "sessions": 21,
    "avg_dwell_sec": 5
   },
   {
