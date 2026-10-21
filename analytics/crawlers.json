@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-21T01:32:37.513Z",
+ "generated": "2026-10-21T01:42:39.945Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 19049,
  "logsScanned": 30,
  "windowStart": "2026-10-07",
  "windowEnd": "2026-10-21",
- "totalHits": 120007,
- "aiHits": 96549,
+ "totalHits": 120036,
+ "aiHits": 96563,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30686,
+   "hits": 30700,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7381,
+   "hits": 7382,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6713,
-   "verifiedHits": 6668,
+   "hits": 6719,
+   "verifiedHits": 6674,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4246,
+   "hits": 4254,
    "verifiedHits": 0,
    "firstSeen": "2026-10-07",
    "lastSeen": "2026-10-21",
@@ -352,6 +352,10 @@
     {
      "path": "/build",
      "hits": 28
+    },
+    {
+     "path": "/posts/2026-09-27-founders-wire-openai-rogue-agents-safa-databricks-row-zero.md",
+     "hits": 5
     },
     {
      "path": "/posts/tuning-claude-context-editing-trigger-keep-clear-at-least.md",
@@ -363,10 +367,6 @@
     },
     {
      "path": "/posts/how-to-add-tool-annotations-to-your-mcp-server.md",
-     "hits": 4
-    },
-    {
-     "path": "/posts/2026-09-27-founders-wire-openai-rogue-agents-safa-databricks-row-zero.md",
      "hits": 4
     }
    ],
