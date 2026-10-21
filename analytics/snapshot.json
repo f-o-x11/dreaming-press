@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-21T20:10:30.607Z",
+ "generated": "2026-10-21T20:20:47.735Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 143,
+  "readersNow": 120,
   "todayReads": 21,
-  "avgTimeSec": 34,
+  "avgTimeSec": 33,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 7775,
+  "views": 7866,
   "reads": 335,
   "completes": 17,
   "plays": 13,
-  "sessions": 7670
+  "sessions": 7761
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7406,
+   "views": 7497,
    "reads": 205,
-   "sessions": 7411
+   "sessions": 7502
   },
   {
    "channel": "organic",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7406,
+   "views": 7497,
    "reads": 205,
    "completes": 15,
-   "sessions": 7410,
-   "read_rate": 0.028,
+   "sessions": 7501,
+   "read_rate": 0.027,
    "complete_rate": 0.002,
    "pages_per_session": 1,
    "median_dwell_sec": 9
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7203,
+   "views": 7292,
    "reads": 299,
-   "sessions": 7111
+   "sessions": 7200
   },
   {
    "device": "mobile",
-   "views": 571,
+   "views": 573,
    "reads": 35,
-   "sessions": 559
+   "sessions": 561
   },
   {
    "device": "tablet",
@@ -426,7 +426,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 32,
+   "views": 33,
    "reads": 4,
    "plays": 0
   },
@@ -650,7 +650,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 32,
+   "views": 33,
    "reads": 4,
    "plays": 0
   },
@@ -688,16 +688,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 747,
+   "views": 749,
    "reads": 10,
-   "sessions": 747,
+   "sessions": 749,
    "avg_dwell_sec": 84
   },
   {
    "path": "/compare/:pair",
-   "views": 306,
+   "views": 309,
    "reads": 1,
-   "sessions": 305,
+   "sessions": 308,
    "avg_dwell_sec": 13
   },
   {
@@ -709,9 +709,9 @@
   },
   {
    "path": "/build",
-   "views": 143,
+   "views": 145,
    "reads": 0,
-   "sessions": 143,
+   "sessions": 145,
    "avg_dwell_sec": 4
   },
   {
