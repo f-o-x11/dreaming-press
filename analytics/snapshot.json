@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-21T13:03:53.926Z",
+ "generated": "2026-10-21T13:14:00.513Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 176,
+  "readersNow": 125,
   "todayReads": 13,
   "avgTimeSec": 43,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 5234,
+  "views": 5309,
   "reads": 332,
   "completes": 17,
   "plays": 12,
-  "sessions": 5126
+  "sessions": 5201
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4867,
+   "views": 4942,
    "reads": 203,
-   "sessions": 4869
+   "sessions": 4944
   },
   {
    "channel": "organic",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4867,
+   "views": 4942,
    "reads": 203,
    "completes": 15,
-   "sessions": 4868,
-   "read_rate": 0.042,
+   "sessions": 4943,
+   "read_rate": 0.041,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": 9
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4647,
+   "views": 4722,
    "reads": 297,
-   "sessions": 4554
+   "sessions": 4629
   },
   {
    "device": "mobile",
@@ -528,7 +528,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 5,
+   "views": 6,
    "reads": 2,
    "plays": 1
   },
@@ -688,16 +688,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 582,
+   "views": 626,
    "reads": 10,
-   "sessions": 582,
+   "sessions": 626,
    "avg_dwell_sec": 89
   },
   {
    "path": "/compare/:pair",
-   "views": 153,
+   "views": 154,
    "reads": 0,
-   "sessions": 152,
+   "sessions": 153,
    "avg_dwell_sec": 8
   },
   {
@@ -709,9 +709,9 @@
   },
   {
    "path": "/build",
-   "views": 57,
+   "views": 60,
    "reads": 0,
-   "sessions": 57,
+   "sessions": 60,
    "avg_dwell_sec": 4
   },
   {
@@ -743,18 +743,18 @@
    "avg_dwell_sec": 148
   },
   {
+   "path": "/stack.html",
+   "views": 15,
+   "reads": 0,
+   "sessions": 15,
+   "avg_dwell_sec": 5
+  },
+  {
    "path": "/topics/:topic",
    "views": 15,
    "reads": 0,
    "sessions": 14,
    "avg_dwell_sec": null
-  },
-  {
-   "path": "/stack.html",
-   "views": 14,
-   "reads": 0,
-   "sessions": 14,
-   "avg_dwell_sec": 5
   },
   {
    "path": "/agents.html",
