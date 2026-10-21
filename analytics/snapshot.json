@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-21T22:02:34.084Z",
+ "generated": "2026-10-21T22:12:40.446Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 22,
+  "readersNow": 4,
+  "todayReads": 24,
   "avgTimeSec": 31,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 8099,
-  "reads": 336,
+  "views": 8102,
+  "reads": 338,
   "completes": 17,
   "plays": 13,
-  "sessions": 7990
+  "sessions": 7993
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7729,
-   "reads": 206,
-   "sessions": 7730
+   "views": 7731,
+   "reads": 207,
+   "sessions": 7732
   },
   {
    "channel": "organic",
-   "views": 267,
-   "reads": 92,
-   "sessions": 261
+   "views": 268,
+   "reads": 93,
+   "sessions": 262
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7729,
-   "reads": 206,
+   "views": 7731,
+   "reads": 207,
    "completes": 15,
-   "sessions": 7729,
+   "sessions": 7731,
    "read_rate": 0.027,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 267,
-   "reads": 92,
+   "views": 268,
+   "reads": 93,
    "completes": 1,
-   "sessions": 261,
-   "read_rate": 0.345,
+   "sessions": 262,
+   "read_rate": 0.347,
    "complete_rate": 0.004,
    "pages_per_session": 1.02,
    "median_dwell_sec": 3
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7518,
-   "reads": 299,
-   "sessions": 7426
+   "views": 7520,
+   "reads": 301,
+   "sessions": 7428
   },
   {
    "device": "mobile",
-   "views": 580,
+   "views": 581,
    "reads": 36,
-   "sessions": 564
+   "sessions": 565
   },
   {
    "device": "tablet",
@@ -346,8 +346,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 41,
-   "reads": 19,
+   "views": 42,
+   "reads": 20,
    "plays": 0
   },
   {
@@ -610,8 +610,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 41,
-   "reads": 19,
+   "views": 42,
+   "reads": 20,
    "plays": 0
   },
   {
@@ -800,8 +800,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 79,
-   "sessions": 41
+   "hits": 81,
+   "sessions": 42
   },
   {
    "ref": "https://duckduckgo.com/",
