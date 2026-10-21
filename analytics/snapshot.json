@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-21T05:56:22.330Z",
+ "generated": "2026-10-21T06:06:24.976Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 5,
+  "readersNow": 2,
+  "todayReads": 6,
   "avgTimeSec": 145,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 4846,
-  "reads": 335,
+  "views": 4847,
+  "reads": 336,
   "completes": 17,
   "plays": 12,
   "sessions": 4734
@@ -17,8 +17,8 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 4473,
-   "reads": 202,
+   "views": 4474,
+   "reads": 203,
    "sessions": 4473
   },
   {
@@ -79,8 +79,8 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4473,
-   "reads": 202,
+   "views": 4474,
+   "reads": 203,
    "completes": 15,
    "sessions": 4472,
    "read_rate": 0.045,
@@ -312,8 +312,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4258,
-   "reads": 300,
+   "views": 4259,
+   "reads": 301,
    "sessions": 4164
   },
   {
@@ -406,7 +406,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 25,
+   "views": 26,
    "reads": 5,
    "plays": 0
   },
@@ -441,6 +441,16 @@
    "plays": 0
   },
   {
+   "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
+   "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 5,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "2026-10-15-founders-wire-anthropic-opens-its-books",
    "title": "The Founder's Wire, October 15: Anthropic Opened Its Books — $16.8B, an 85% Margin, and $1.70 of Revenue for Every $1 of Compute",
    "section": "wire",
@@ -467,16 +477,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 9,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "vllm-rust-frontend",
-   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
    "reads": 4,
    "plays": 0
   }
@@ -660,7 +660,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 25,
+   "views": 26,
    "reads": 5,
    "plays": 0
   },
