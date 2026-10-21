@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-21T04:15:00.383Z",
+ "generated": "2026-10-21T04:25:06.455Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 9,
+  "readersNow": 5,
   "todayReads": 3,
   "avgTimeSec": 4,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 4844,
+  "views": 4847,
   "reads": 334,
   "completes": 17,
   "plays": 12,
-  "sessions": 4731
+  "sessions": 4734
  },
  "channels": [
   {
@@ -23,9 +23,9 @@
   },
   {
    "channel": "organic",
-   "views": 275,
+   "views": 277,
    "reads": 96,
-   "sessions": 268
+   "sessions": 270
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 30,
+   "views": 31,
    "reads": 6,
-   "sessions": 27
+   "sessions": 28
   },
   {
    "channel": "campaign:owner-qa",
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 275,
+   "views": 277,
    "reads": 96,
    "completes": 1,
-   "sessions": 268,
-   "read_rate": 0.349,
+   "sessions": 270,
+   "read_rate": 0.347,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -112,11 +112,11 @@
   },
   {
    "channel": "referral",
-   "views": 30,
+   "views": 31,
    "reads": 6,
    "completes": 0,
-   "sessions": 27,
-   "read_rate": 0.2,
+   "sessions": 28,
+   "read_rate": 0.194,
    "complete_rate": 0,
    "pages_per_session": 1.11,
    "median_dwell_sec": null
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4257,
+   "views": 4260,
    "reads": 299,
-   "sessions": 4162
+   "sessions": 4165
   },
   {
    "device": "mobile",
@@ -605,6 +605,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 39,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "mcp-tool-annotations-explained",
    "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
    "section": "wire",
@@ -622,16 +632,6 @@
    "author": "dex",
    "views": 36,
    "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 36,
-   "reads": 2,
    "plays": 0
   },
   {
@@ -795,8 +795,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 149,
-   "sessions": 133
+   "hits": 151,
+   "sessions": 135
   },
   {
    "ref": "https://duckduckgo.com/",
