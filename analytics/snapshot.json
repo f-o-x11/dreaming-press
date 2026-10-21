@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-21T12:43:20.933Z",
+ "generated": "2026-10-21T12:53:40.544Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 49,
+  "readersNow": 176,
   "todayReads": 13,
-  "avgTimeSec": 44,
+  "avgTimeSec": 43,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 4930,
+  "views": 5098,
   "reads": 332,
   "completes": 17,
   "plays": 12,
-  "sessions": 4822
+  "sessions": 4990
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4564,
+   "views": 4731,
    "reads": 203,
-   "sessions": 4566
+   "sessions": 4733
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 34,
+   "views": 35,
    "reads": 10,
-   "sessions": 44
+   "sessions": 45
   },
   {
    "channel": "referral",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4564,
+   "views": 4731,
    "reads": 203,
    "completes": 15,
-   "sessions": 4565,
-   "read_rate": 0.044,
+   "sessions": 4732,
+   "read_rate": 0.043,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": 9
@@ -101,13 +101,13 @@
   },
   {
    "channel": "ai",
-   "views": 34,
+   "views": 35,
    "reads": 10,
    "completes": 0,
-   "sessions": 44,
-   "read_rate": 0.294,
+   "sessions": 45,
+   "read_rate": 0.286,
    "complete_rate": 0,
-   "pages_per_session": 0.77,
+   "pages_per_session": 0.78,
    "median_dwell_sec": 4
   },
   {
@@ -292,9 +292,9 @@
   },
   {
    "assistant": "Kimi",
-   "views": 20,
+   "views": 21,
    "reads": 0,
-   "sessions": 20
+   "sessions": 21
   },
   {
    "assistant": "Poe",
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4343,
+   "views": 4511,
    "reads": 297,
-   "sessions": 4250
+   "sessions": 4418
   },
   {
    "device": "mobile",
@@ -376,7 +376,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 9,
+   "views": 10,
    "reads": 6,
    "plays": 0
   },
@@ -620,7 +620,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 38,
+   "views": 39,
    "reads": 2,
    "plays": 0
   },
@@ -665,6 +665,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-10-14-founders-wire-gemini-4-argon-opens-three-models-one-price",
+   "title": "The Founder's Wire, October 14: Gemini 4 Argon Opens Its Gate — and Now Three Frontier Models Cost Exactly the Same",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 25,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "tuning-chunked-prefill-max-num-batched-tokens",
    "title": "Tuning Chunked Prefill in vLLM: The One Knob That Trades First-Token Latency for Smooth Streaming",
    "section": "wire",
@@ -673,24 +683,14 @@
    "views": 24,
    "reads": 1,
    "plays": 0
-  },
-  {
-   "slug": "2026-10-14-founders-wire-gemini-4-argon-opens-three-models-one-price",
-   "title": "The Founder's Wire, October 14: Gemini 4 Argon Opens Its Gate — and Now Three Frontier Models Cost Exactly the Same",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 24,
-   "reads": 0,
-   "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 517,
+   "views": 538,
    "reads": 10,
-   "sessions": 517,
+   "sessions": 538,
    "avg_dwell_sec": 89
   },
   {
@@ -709,30 +709,30 @@
   },
   {
    "path": "/build",
-   "views": 48,
+   "views": 50,
    "reads": 0,
-   "sessions": 48,
+   "sessions": 50,
    "avg_dwell_sec": 4
   },
   {
    "path": "/best/:cat",
-   "views": 40,
+   "views": 43,
    "reads": 0,
-   "sessions": 40,
+   "sessions": 43,
    "avg_dwell_sec": null
   },
   {
    "path": "/alternatives/:tool",
-   "views": 26,
+   "views": 27,
    "reads": 0,
-   "sessions": 26,
+   "sessions": 27,
    "avg_dwell_sec": 8
   },
   {
    "path": "/dashboard",
-   "views": 16,
+   "views": 18,
    "reads": 1,
-   "sessions": 10,
+   "sessions": 12,
    "avg_dwell_sec": 20
   },
   {
@@ -757,18 +757,18 @@
    "avg_dwell_sec": 44
   },
   {
+   "path": "/stack.html",
+   "views": 13,
+   "reads": 0,
+   "sessions": 13,
+   "avg_dwell_sec": 5
+  },
+  {
    "path": "/submit.html",
    "views": 12,
    "reads": 3,
    "sessions": 12,
    "avg_dwell_sec": 95
-  },
-  {
-   "path": "/stack.html",
-   "views": 11,
-   "reads": 0,
-   "sessions": 11,
-   "avg_dwell_sec": 5
   },
   {
    "path": "/about.html",
