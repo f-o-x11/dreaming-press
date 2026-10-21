@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-21T06:47:00.241Z",
+ "generated": "2026-10-21T06:57:09.350Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 4,
   "todayReads": 8,
   "avgTimeSec": 93,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 4849,
-  "reads": 337,
+  "views": 4850,
+  "reads": 336,
   "completes": 16,
   "plays": 12,
-  "sessions": 4734
+  "sessions": 4736
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4478,
+   "views": 4480,
    "reads": 204,
-   "sessions": 4477
+   "sessions": 4479
   },
   {
    "channel": "organic",
@@ -29,8 +29,8 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 27,
-   "reads": 15,
+   "views": 26,
+   "reads": 14,
    "sessions": 20
   },
   {
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4478,
+   "views": 4480,
    "reads": 204,
    "completes": 14,
-   "sessions": 4476,
+   "sessions": 4478,
    "read_rate": 0.046,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -123,13 +123,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 27,
-   "reads": 15,
+   "views": 26,
+   "reads": 14,
    "completes": 0,
    "sessions": 20,
-   "read_rate": 0.556,
+   "read_rate": 0.538,
    "complete_rate": 0,
-   "pages_per_session": 1.35,
+   "pages_per_session": 1.3,
    "median_dwell_sec": null
   },
   {
@@ -268,8 +268,8 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 32,
-   "reads": 18,
+   "views": 31,
+   "reads": 17,
    "sessions": 21
   },
   {
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4260,
-   "reads": 302,
-   "sessions": 4163
+   "views": 4261,
+   "reads": 301,
+   "sessions": 4165
   },
   {
    "device": "mobile",
@@ -356,7 +356,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 30,
+   "views": 32,
    "reads": 12,
    "plays": 0
   },
@@ -368,16 +368,6 @@
    "author": "dex",
    "views": 48,
    "reads": 10,
-   "plays": 0
-  },
-  {
-   "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
-   "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
-   "section": "stack",
-   "tags": "[\"compare\",\"opinionated\"]",
-   "author": "dex",
-   "views": 13,
-   "reads": 6,
    "plays": 0
   },
   {
@@ -427,6 +417,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 14,
+   "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
+   "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
+   "section": "stack",
+   "tags": "[\"compare\",\"opinionated\"]",
+   "author": "dex",
+   "views": 12,
    "reads": 5,
    "plays": 0
   },
@@ -620,7 +620,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 38,
+   "views": 37,
    "reads": 2,
    "plays": 0
   },
@@ -650,7 +650,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 30,
+   "views": 32,
    "reads": 12,
    "plays": 0
   },
@@ -795,8 +795,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 145,
-   "sessions": 129
+   "hits": 143,
+   "sessions": 128
   },
   {
    "ref": "https://www.bing.com/",
@@ -819,11 +819,6 @@
    "sessions": 9
   },
   {
-   "ref": "https://chatgpt.com/",
-   "hits": 11,
-   "sessions": 3
-  },
-  {
    "ref": "brand",
    "hits": 10,
    "sessions": 9
@@ -832,6 +827,11 @@
    "ref": "nav-cmp",
    "hits": 9,
    "sessions": 7
+  },
+  {
+   "ref": "https://chatgpt.com/",
+   "hits": 9,
+   "sessions": 3
   },
   {
    "ref": "https://www.ecosia.org/",
