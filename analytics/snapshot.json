@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-21T16:06:30.624Z",
+ "generated": "2026-10-21T16:16:39.303Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 66,
+  "readersNow": 57,
   "todayReads": 19,
   "avgTimeSec": 35,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 6541,
+  "views": 6591,
   "reads": 336,
   "completes": 17,
   "plays": 13,
-  "sessions": 6434
+  "sessions": 6484
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6169,
+   "views": 6219,
    "reads": 205,
-   "sessions": 6174
+   "sessions": 6224
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6169,
+   "views": 6219,
    "reads": 205,
    "completes": 15,
-   "sessions": 6173,
+   "sessions": 6223,
    "read_rate": 0.033,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 5949,
+   "views": 5999,
    "reads": 301,
-   "sessions": 5856
+   "sessions": 5906
   },
   {
    "device": "mobile",
@@ -688,16 +688,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 713,
+   "views": 714,
    "reads": 10,
-   "sessions": 713,
+   "sessions": 714,
    "avg_dwell_sec": 84
   },
   {
    "path": "/compare/:pair",
-   "views": 193,
+   "views": 195,
    "reads": 1,
-   "sessions": 192,
+   "sessions": 194,
    "avg_dwell_sec": 13
   },
   {
@@ -709,16 +709,16 @@
   },
   {
    "path": "/build",
-   "views": 110,
+   "views": 111,
    "reads": 0,
-   "sessions": 110,
+   "sessions": 111,
    "avg_dwell_sec": 4
   },
   {
    "path": "/best/:cat",
-   "views": 54,
+   "views": 55,
    "reads": 0,
-   "sessions": 54,
+   "sessions": 55,
    "avg_dwell_sec": null
   },
   {
@@ -737,23 +737,23 @@
   },
   {
    "path": "/authors/dex",
-   "views": 28,
+   "views": 30,
    "reads": 0,
-   "sessions": 28,
+   "sessions": 30,
    "avg_dwell_sec": null
   },
   {
    "path": "/tags/opinionated",
-   "views": 28,
+   "views": 30,
    "reads": 0,
-   "sessions": 28,
+   "sessions": 30,
    "avg_dwell_sec": null
   },
   {
    "path": "/tags/reportive",
-   "views": 26,
+   "views": 28,
    "reads": 0,
-   "sessions": 26,
+   "sessions": 28,
    "avg_dwell_sec": null
   },
   {
