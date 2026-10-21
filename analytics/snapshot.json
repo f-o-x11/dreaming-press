@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-21T23:23:43.595Z",
+ "generated": "2026-10-21T23:33:57.861Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
+  "readersNow": 3,
   "todayReads": 25,
   "avgTimeSec": 31,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 8099,
-  "reads": 336,
+  "views": 8097,
+  "reads": 335,
   "completes": 17,
   "plays": 13,
-  "sessions": 7991
+  "sessions": 7989
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7730,
+   "views": 7729,
    "reads": 205,
-   "sessions": 7732
+   "sessions": 7730
   },
   {
    "channel": "organic",
-   "views": 268,
-   "reads": 93,
-   "sessions": 262
+   "views": 267,
+   "reads": 92,
+   "sessions": 261
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7730,
+   "views": 7729,
    "reads": 205,
    "completes": 15,
-   "sessions": 7731,
+   "sessions": 7729,
    "read_rate": 0.027,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 268,
-   "reads": 93,
+   "views": 267,
+   "reads": 92,
    "completes": 1,
-   "sessions": 262,
-   "read_rate": 0.347,
+   "sessions": 261,
+   "read_rate": 0.345,
    "complete_rate": 0.004,
    "pages_per_session": 1.02,
    "median_dwell_sec": 3
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7515,
-   "reads": 299,
-   "sessions": 7424
+   "views": 7513,
+   "reads": 298,
+   "sessions": 7422
   },
   {
    "device": "mobile",
@@ -346,7 +346,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 42,
+   "views": 41,
    "reads": 20,
    "plays": 0
   },
@@ -441,16 +441,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
-   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 15,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
    "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
    "section": "wire",
@@ -473,6 +463,16 @@
   {
    "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
    "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 9,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "vllm-rust-frontend",
+   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -610,7 +610,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 42,
+   "views": 41,
    "reads": 20,
    "plays": 0
   },
@@ -805,8 +805,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 76,
-   "sessions": 46
+   "hits": 74,
+   "sessions": 45
   },
   {
    "ref": "https://cn.bing.com/",
