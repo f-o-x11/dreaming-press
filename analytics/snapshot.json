@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-21T14:55:46.914Z",
+ "generated": "2026-10-21T15:05:55.189Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 57,
+  "readersNow": 42,
   "todayReads": 17,
-  "avgTimeSec": 36,
+  "avgTimeSec": 35,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 6176,
+  "views": 6210,
   "reads": 335,
   "completes": 17,
   "plays": 13,
-  "sessions": 6068
+  "sessions": 6102
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 5806,
+   "views": 5840,
    "reads": 206,
-   "sessions": 5809
+   "sessions": 5843
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 5806,
+   "views": 5840,
    "reads": 206,
    "completes": 15,
-   "sessions": 5808,
+   "sessions": 5842,
    "read_rate": 0.035,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 5585,
+   "views": 5619,
    "reads": 300,
-   "sessions": 5491
+   "sessions": 5525
   },
   {
    "device": "mobile",
@@ -688,9 +688,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 704,
+   "views": 705,
    "reads": 10,
-   "sessions": 704,
+   "sessions": 705,
    "avg_dwell_sec": 84
   },
   {
@@ -716,24 +716,24 @@
   },
   {
    "path": "/best/:cat",
-   "views": 52,
+   "views": 54,
    "reads": 0,
-   "sessions": 52,
+   "sessions": 54,
    "avg_dwell_sec": null
   },
   {
    "path": "/alternatives/:tool",
-   "views": 35,
+   "views": 36,
    "reads": 0,
-   "sessions": 35,
+   "sessions": 36,
    "avg_dwell_sec": 8
   },
   {
    "path": "/stack.html",
-   "views": 26,
+   "views": 28,
    "reads": 0,
-   "sessions": 26,
-   "avg_dwell_sec": 5
+   "sessions": 28,
+   "avg_dwell_sec": 6
   },
   {
    "path": "/dashboard",
@@ -750,11 +750,25 @@
    "avg_dwell_sec": null
   },
   {
+   "path": "/authors/dex",
+   "views": 15,
+   "reads": 0,
+   "sessions": 15,
+   "avg_dwell_sec": null
+  },
+  {
    "path": "/partner",
    "views": 15,
    "reads": 2,
    "sessions": 13,
    "avg_dwell_sec": 148
+  },
+  {
+   "path": "/tags/opinionated",
+   "views": 15,
+   "reads": 0,
+   "sessions": 15,
+   "avg_dwell_sec": null
   },
   {
    "path": "/agents.html",
@@ -764,14 +778,7 @@
    "avg_dwell_sec": 44
   },
   {
-   "path": "/authors/dex",
-   "views": 13,
-   "reads": 0,
-   "sessions": 13,
-   "avg_dwell_sec": null
-  },
-  {
-   "path": "/tags/opinionated",
+   "path": "/tags/reportive",
    "views": 13,
    "reads": 0,
    "sessions": 13,
@@ -783,13 +790,6 @@
    "reads": 3,
    "sessions": 12,
    "avg_dwell_sec": 95
-  },
-  {
-   "path": "/apps",
-   "views": 11,
-   "reads": 0,
-   "sessions": 11,
-   "avg_dwell_sec": 20
   }
  ],
  "referrers": [
