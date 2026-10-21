@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-21T13:44:38.847Z",
+ "generated": "2026-10-21T13:54:39.507Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 144,
+  "readersNow": 188,
   "todayReads": 14,
   "avgTimeSec": 41,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 5668,
+  "views": 5816,
   "reads": 333,
   "completes": 17,
   "plays": 12,
-  "sessions": 5558
+  "sessions": 5706
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 5301,
+   "views": 5448,
    "reads": 204,
-   "sessions": 5301
+   "sessions": 5448
   },
   {
    "channel": "organic",
-   "views": 266,
+   "views": 267,
    "reads": 92,
-   "sessions": 259
+   "sessions": 260
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,22 +79,22 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 5301,
+   "views": 5448,
    "reads": 204,
    "completes": 15,
-   "sessions": 5300,
-   "read_rate": 0.038,
+   "sessions": 5447,
+   "read_rate": 0.037,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": 9
   },
   {
    "channel": "organic",
-   "views": 266,
+   "views": 267,
    "reads": 92,
    "completes": 1,
-   "sessions": 259,
-   "read_rate": 0.346,
+   "sessions": 260,
+   "read_rate": 0.345,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 5079,
+   "views": 5226,
    "reads": 298,
-   "sessions": 4984
+   "sessions": 5131
   },
   {
    "device": "mobile",
-   "views": 588,
+   "views": 589,
    "reads": 34,
-   "sessions": 574
+   "sessions": 575
   },
   {
    "device": "tablet",
@@ -528,7 +528,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 6,
+   "views": 7,
    "reads": 3,
    "plays": 1
   },
@@ -548,7 +548,7 @@
    "section": "stack",
    "tags": "[\"howto\",\"reportive\"]",
    "author": "dex",
-   "views": 6,
+   "views": 7,
    "reads": 1,
    "plays": 1
   },
@@ -640,7 +640,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 35,
+   "views": 36,
    "reads": 1,
    "plays": 0
   },
@@ -688,16 +688,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 679,
+   "views": 687,
    "reads": 10,
-   "sessions": 679,
+   "sessions": 687,
    "avg_dwell_sec": 89
   },
   {
    "path": "/compare/:pair",
-   "views": 163,
+   "views": 171,
    "reads": 0,
-   "sessions": 162,
+   "sessions": 170,
    "avg_dwell_sec": 8
   },
   {
@@ -709,9 +709,9 @@
   },
   {
    "path": "/build",
-   "views": 86,
+   "views": 91,
    "reads": 0,
-   "sessions": 86,
+   "sessions": 91,
    "avg_dwell_sec": 4
   },
   {
@@ -723,9 +723,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 31,
+   "views": 33,
    "reads": 0,
-   "sessions": 31,
+   "sessions": 33,
    "avg_dwell_sec": 8
   },
   {
@@ -736,18 +736,18 @@
    "avg_dwell_sec": 20
   },
   {
+   "path": "/stack.html",
+   "views": 19,
+   "reads": 0,
+   "sessions": 19,
+   "avg_dwell_sec": 5
+  },
+  {
    "path": "/topics/:topic",
    "views": 18,
    "reads": 0,
    "sessions": 17,
    "avg_dwell_sec": null
-  },
-  {
-   "path": "/stack.html",
-   "views": 17,
-   "reads": 0,
-   "sessions": 17,
-   "avg_dwell_sec": 5
   },
   {
    "path": "/partner",
@@ -771,6 +771,13 @@
    "avg_dwell_sec": 95
   },
   {
+   "path": "/apps",
+   "views": 11,
+   "reads": 0,
+   "sessions": 11,
+   "avg_dwell_sec": 20
+  },
+  {
    "path": "/about.html",
    "views": 10,
    "reads": 1,
@@ -778,18 +785,11 @@
    "avg_dwell_sec": 32
   },
   {
-   "path": "/apps",
+   "path": "/dispatches.html",
    "views": 9,
    "reads": 0,
-   "sessions": 9,
-   "avg_dwell_sec": 20
-  },
-  {
-   "path": "/stacks/:stack",
-   "views": 8,
-   "reads": 0,
    "sessions": 8,
-   "avg_dwell_sec": null
+   "avg_dwell_sec": 4
   }
  ],
  "referrers": [
@@ -800,8 +800,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 77,
-   "sessions": 45
+   "hits": 78,
+   "sessions": 46
   },
   {
    "ref": "https://www.bing.com/",
