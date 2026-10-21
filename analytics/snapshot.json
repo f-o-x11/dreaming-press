@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-21T16:37:00.445Z",
+ "generated": "2026-10-21T16:47:08.683Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 124,
+  "readersNow": 100,
   "todayReads": 19,
   "avgTimeSec": 35,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 6734,
-  "reads": 336,
+  "views": 6799,
+  "reads": 335,
   "completes": 17,
   "plays": 13,
-  "sessions": 6627
+  "sessions": 6692
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6362,
+   "views": 6428,
    "reads": 205,
-   "sessions": 6367
+   "sessions": 6432
   },
   {
    "channel": "organic",
-   "views": 268,
-   "reads": 93,
-   "sessions": 261
+   "views": 267,
+   "reads": 92,
+   "sessions": 260
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6362,
+   "views": 6428,
    "reads": 205,
    "completes": 15,
-   "sessions": 6366,
+   "sessions": 6431,
    "read_rate": 0.032,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 268,
-   "reads": 93,
+   "views": 267,
+   "reads": 92,
    "completes": 1,
-   "sessions": 261,
-   "read_rate": 0.347,
+   "sessions": 260,
+   "read_rate": 0.345,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6141,
-   "reads": 301,
-   "sessions": 6048
+   "views": 6205,
+   "reads": 300,
+   "sessions": 6112
   },
   {
    "device": "mobile",
-   "views": 592,
+   "views": 593,
    "reads": 34,
-   "sessions": 579
+   "sessions": 580
   },
   {
    "device": "tablet",
@@ -406,7 +406,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 26,
+   "views": 27,
    "reads": 5,
    "plays": 0
   },
@@ -660,7 +660,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 26,
+   "views": 27,
    "reads": 5,
    "plays": 0
   },
@@ -688,16 +688,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 718,
+   "views": 721,
    "reads": 10,
-   "sessions": 718,
+   "sessions": 721,
    "avg_dwell_sec": 84
   },
   {
    "path": "/compare/:pair",
-   "views": 198,
+   "views": 205,
    "reads": 1,
-   "sessions": 197,
+   "sessions": 204,
    "avg_dwell_sec": 13
   },
   {
@@ -716,9 +716,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 57,
+   "views": 58,
    "reads": 0,
-   "sessions": 57,
+   "sessions": 58,
    "avg_dwell_sec": null
   },
   {
@@ -730,9 +730,16 @@
   },
   {
    "path": "/authors/dex",
-   "views": 33,
+   "views": 34,
    "reads": 0,
-   "sessions": 33,
+   "sessions": 34,
+   "avg_dwell_sec": null
+  },
+  {
+   "path": "/tags/opinionated",
+   "views": 34,
+   "reads": 0,
+   "sessions": 34,
    "avg_dwell_sec": null
   },
   {
@@ -743,17 +750,10 @@
    "avg_dwell_sec": 6
   },
   {
-   "path": "/tags/opinionated",
-   "views": 33,
-   "reads": 0,
-   "sessions": 33,
-   "avg_dwell_sec": null
-  },
-  {
    "path": "/tags/reportive",
-   "views": 31,
+   "views": 32,
    "reads": 0,
-   "sessions": 31,
+   "sessions": 32,
    "avg_dwell_sec": null
   },
   {
@@ -810,8 +810,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 40,
-   "sessions": 24
+   "hits": 38,
+   "sessions": 23
   },
   {
    "ref": "https://search.brave.com/",
