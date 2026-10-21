@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-21T05:25:55.981Z",
+ "generated": "2026-10-21T05:36:00.258Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,24 +8,24 @@
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 4851,
+  "views": 4847,
   "reads": 335,
   "completes": 17,
   "plays": 12,
-  "sessions": 4739
+  "sessions": 4735
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4474,
+   "views": 4472,
    "reads": 202,
-   "sessions": 4474
+   "sessions": 4472
   },
   {
    "channel": "organic",
-   "views": 275,
+   "views": 273,
    "reads": 95,
-   "sessions": 269
+   "sessions": 267
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4474,
+   "views": 4472,
    "reads": 202,
    "completes": 15,
-   "sessions": 4473,
+   "sessions": 4471,
    "read_rate": 0.045,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 275,
+   "views": 273,
    "reads": 95,
    "completes": 1,
-   "sessions": 269,
-   "read_rate": 0.345,
+   "sessions": 267,
+   "read_rate": 0.348,
    "complete_rate": 0.004,
    "pages_per_session": 1.02,
    "median_dwell_sec": 3
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4263,
+   "views": 4259,
    "reads": 300,
-   "sessions": 4169
+   "sessions": 4165
   },
   {
    "device": "mobile",
@@ -688,9 +688,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 511,
+   "views": 510,
    "reads": 10,
-   "sessions": 511,
+   "sessions": 510,
    "avg_dwell_sec": 89
   },
   {
@@ -736,18 +736,18 @@
    "avg_dwell_sec": 20
   },
   {
-   "path": "/agents.html",
-   "views": 14,
-   "reads": 2,
-   "sessions": 14,
-   "avg_dwell_sec": 44
-  },
-  {
    "path": "/partner",
    "views": 14,
    "reads": 2,
    "sessions": 12,
    "avg_dwell_sec": 148
+  },
+  {
+   "path": "/agents.html",
+   "views": 13,
+   "reads": 2,
+   "sessions": 13,
+   "avg_dwell_sec": 44
   },
   {
    "path": "/submit.html",
@@ -785,18 +785,18 @@
    "avg_dwell_sec": null
   },
   {
-   "path": "/tools",
-   "views": 7,
-   "reads": 1,
-   "sessions": 7,
-   "avg_dwell_sec": 305
+   "path": "/dispatches.html",
+   "views": 6,
+   "reads": 0,
+   "sessions": 5,
+   "avg_dwell_sec": 4
   }
  ],
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 152,
-   "sessions": 136
+   "hits": 150,
+   "sessions": 134
   },
   {
    "ref": "https://duckduckgo.com/",
