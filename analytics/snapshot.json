@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-21T23:03:10.639Z",
+ "generated": "2026-10-21T23:13:41.786Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 3,
   "todayReads": 25,
   "avgTimeSec": 31,
   "postsThisWeek": 18
  },
  "funnel": {
-  "views": 8101,
-  "reads": 338,
+  "views": 8102,
+  "reads": 336,
   "completes": 17,
   "plays": 13,
-  "sessions": 7992
+  "sessions": 7994
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7730,
-   "reads": 207,
-   "sessions": 7731
+   "views": 7731,
+   "reads": 205,
+   "sessions": 7733
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7730,
-   "reads": 207,
+   "views": 7731,
+   "reads": 205,
    "completes": 15,
-   "sessions": 7730,
+   "sessions": 7732,
    "read_rate": 0.027,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7520,
-   "reads": 301,
+   "views": 7519,
+   "reads": 299,
    "sessions": 7428
   },
   {
    "device": "mobile",
-   "views": 580,
+   "views": 582,
    "reads": 36,
-   "sessions": 564
+   "sessions": 566
   },
   {
    "device": "tablet",
@@ -655,16 +655,6 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 26,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "tuning-chunked-prefill-max-num-batched-tokens",
    "title": "Tuning Chunked Prefill in vLLM: The One Knob That Trades First-Token Latency for Smooth Streaming",
    "section": "wire",
@@ -682,6 +672,16 @@
    "author": "dex",
    "views": 26,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 25,
+   "reads": 2,
    "plays": 0
   }
  ],
