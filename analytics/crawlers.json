@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-22T22:22:20.080Z",
+ "generated": "2026-10-22T22:32:30.307Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19814,
+ "verifiedAiHits": 19817,
  "logsScanned": 30,
  "windowStart": "2026-10-08",
  "windowEnd": "2026-10-22",
- "totalHits": 124004,
- "aiHits": 99471,
+ "totalHits": 124024,
+ "aiHits": 99489,
  "aiEngines": 17,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16545,
+   "hits": 16552,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14953,
+   "hits": 14960,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7151,
-   "verifiedHits": 7091,
+   "hits": 7153,
+   "verifiedHits": 7093,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 7140,
-   "verifiedHits": 7029,
+   "hits": 7142,
+   "verifiedHits": 7031,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -189,11 +189,11 @@
      "hits": 30
     },
     {
-     "path": "/newsroom",
-     "hits": 26
+     "path": "/tools",
+     "hits": 27
     },
     {
-     "path": "/tools",
+     "path": "/newsroom",
      "hits": 26
     },
     {
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3786,
-   "verifiedHits": 3667,
+   "hits": 3787,
+   "verifiedHits": 3668,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -476,7 +476,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 658,
+   "hits": 659,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
