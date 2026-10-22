@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-22T17:09:40.390Z",
+ "generated": "2026-10-22T17:19:45.934Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 28,
-  "todayReads": 18,
-  "avgTimeSec": 63,
+  "readersNow": 29,
+  "todayReads": 19,
+  "avgTimeSec": 71,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 8131,
-  "reads": 332,
+  "views": 8134,
+  "reads": 333,
   "completes": 17,
   "plays": 12,
-  "sessions": 8021
+  "sessions": 8022
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7754,
-   "reads": 201,
-   "sessions": 7761
+   "views": 7757,
+   "reads": 202,
+   "sessions": 7763
   },
   {
    "channel": "organic",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 27
+   "sessions": 28
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7754,
-   "reads": 201,
+   "views": 7757,
+   "reads": 202,
    "completes": 15,
-   "sessions": 7760,
+   "sessions": 7762,
    "read_rate": 0.026,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 27,
+   "sessions": 28,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -191,8 +191,8 @@
  "navSurfaces": [
   {
    "surface": "nav-cmp",
-   "clicks": 16,
-   "sessions": 9
+   "clicks": 17,
+   "sessions": 10
   },
   {
    "surface": "brand",
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7545,
-   "reads": 299,
+   "views": 7547,
+   "reads": 300,
    "sessions": 7450
   },
   {
    "device": "mobile",
-   "views": 585,
+   "views": 586,
    "reads": 32,
-   "sessions": 571
+   "sessions": 572
   },
   {
    "device": "tablet",
@@ -757,10 +757,10 @@
   },
   {
    "path": "/stack.html",
-   "views": 35,
+   "views": 36,
    "reads": 0,
-   "sessions": 35,
-   "avg_dwell_sec": 11
+   "sessions": 36,
+   "avg_dwell_sec": 10
   },
   {
    "path": "/topics/:topic",
@@ -826,8 +826,8 @@
   },
   {
    "ref": "nav-cmp",
-   "hits": 16,
-   "sessions": 9
+   "hits": 17,
+   "sessions": 10
   },
   {
    "ref": "brand",
