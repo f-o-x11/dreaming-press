@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-22T01:56:50.681Z",
+ "generated": "2026-10-22T02:06:52.783Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 3,
   "todayReads": 1,
   "avgTimeSec": 139,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 8091,
-  "reads": 334,
+  "views": 8092,
+  "reads": 333,
   "completes": 17,
   "plays": 13,
-  "sessions": 7990
+  "sessions": 7991
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7723,
-   "reads": 204,
-   "sessions": 7732
+   "views": 7724,
+   "reads": 203,
+   "sessions": 7733
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7723,
-   "reads": 204,
+   "views": 7724,
+   "reads": 203,
    "completes": 15,
-   "sessions": 7731,
+   "sessions": 7732,
    "read_rate": 0.026,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7506,
-   "reads": 297,
-   "sessions": 7422
+   "views": 7507,
+   "reads": 296,
+   "sessions": 7423
   },
   {
    "device": "mobile",
@@ -421,16 +421,6 @@
    "plays": 1
   },
   {
-   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
-   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 33,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "2026-10-15-founders-wire-anthropic-opens-its-books",
    "title": "The Founder's Wire, October 15: Anthropic Opened Its Books — $16.8B, an 85% Margin, and $1.70 of Revenue for Every $1 of Compute",
    "section": "wire",
@@ -478,6 +468,16 @@
    "author": "dex",
    "views": 9,
    "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 32,
+   "reads": 3,
    "plays": 0
   }
  ],
@@ -650,8 +650,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 33,
-   "reads": 4,
+   "views": 32,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -688,9 +688,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 755,
+   "views": 756,
    "reads": 10,
-   "sessions": 755,
+   "sessions": 756,
    "avg_dwell_sec": 84
   },
   {
