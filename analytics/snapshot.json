@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-22T15:17:40.650Z",
+ "generated": "2026-10-22T15:28:00.284Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 15,
-  "avgTimeSec": 63,
+  "readersNow": 2,
+  "todayReads": 16,
+  "avgTimeSec": 65,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 8101,
+  "views": 8102,
   "reads": 331,
   "completes": 17,
   "plays": 12,
-  "sessions": 7991
+  "sessions": 7992
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7726,
+   "views": 7727,
    "reads": 201,
-   "sessions": 7730
+   "sessions": 7732
   },
   {
    "channel": "organic",
-   "views": 270,
-   "reads": 89,
-   "sessions": 262
+   "views": 269,
+   "reads": 88,
+   "sessions": 261
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -46,16 +46,16 @@
    "sessions": 27
   },
   {
+   "channel": "social",
+   "views": 6,
+   "reads": 4,
+   "sessions": 6
+  },
+  {
    "channel": "campaign:owner-qa",
    "views": 4,
    "reads": 4,
    "sessions": 3
-  },
-  {
-   "channel": "social",
-   "views": 5,
-   "reads": 3,
-   "sessions": 5
   },
   {
    "channel": "campaign:perplexity",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7726,
+   "views": 7727,
    "reads": 201,
    "completes": 15,
-   "sessions": 7729,
+   "sessions": 7731,
    "read_rate": 0.026,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 270,
-   "reads": 89,
+   "views": 269,
+   "reads": 88,
    "completes": 1,
-   "sessions": 262,
-   "read_rate": 0.33,
+   "sessions": 261,
+   "read_rate": 0.327,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -134,11 +134,11 @@
   },
   {
    "channel": "social",
-   "views": 5,
-   "reads": 3,
+   "views": 6,
+   "reads": 4,
    "completes": 0,
-   "sessions": 5,
-   "read_rate": 0.6,
+   "sessions": 6,
+   "read_rate": 0.667,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7510,
+   "views": 7511,
    "reads": 298,
-   "sessions": 7415
+   "sessions": 7416
   },
   {
    "device": "mobile",
@@ -422,7 +422,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 19,
+   "views": 20,
    "reads": 4,
    "plays": 0
   },
@@ -811,8 +811,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 71,
-   "sessions": 43
+   "hits": 69,
+   "sessions": 42
   },
   {
    "ref": "https://cn.bing.com/",
