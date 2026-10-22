@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-22T17:40:00.041Z",
+ "generated": "2026-10-22T17:50:00.966Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19737,
+ "verifiedAiHits": 19739,
  "logsScanned": 30,
  "windowStart": "2026-10-08",
  "windowEnd": "2026-10-22",
- "totalHits": 122873,
- "aiHits": 98633,
+ "totalHits": 122922,
+ "aiHits": 98668,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32591,
+   "hits": 32600,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16399,
+   "hits": 16406,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14731,
+   "hits": 14740,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7040,
-   "verifiedHits": 6990,
+   "hits": 7046,
+   "verifiedHits": 6996,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5587,
-   "verifiedHits": 5537,
+   "hits": 5588,
+   "verifiedHits": 5538,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -289,7 +289,7 @@
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 91
+     "hits": 92
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -311,7 +311,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4438,
+   "hits": 4446,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -329,12 +329,12 @@
      "hits": 10
     },
     {
-     "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
+     "path": "/posts/best-llm-for-creative-writing-october-2026.html",
      "hits": 9
     },
     {
-     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 8
+     "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
+     "hits": 9
     }
    ],
    "verifiable": false
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3735,
-   "verifiedHits": 3626,
+   "hits": 3736,
+   "verifiedHits": 3627,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
     {
      "path": "/",
-     "hits": 969
+     "hits": 970
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -443,14 +443,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1474,
+   "hits": 1476,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
-     "hits": 231
+     "hits": 232
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
@@ -542,7 +542,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 589,
+   "hits": 592,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -641,11 +641,15 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 95,
+   "hits": 98,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
+    {
+     "path": "/posts/self-host-embeddings-vs-api-break-even-worksheet.html",
+     "hits": 2
+    },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
      "hits": 2
@@ -660,10 +664,6 @@
     },
     {
      "path": "/calculators/llm-latency",
-     "hits": 1
-    },
-    {
-     "path": "/posts/reasoning-effort-vs-thinking-budget.html",
      "hits": 1
     }
    ],

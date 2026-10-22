@@ -1,9 +1,9 @@
 {
- "generated": "2026-10-22T17:40:00.351Z",
+ "generated": "2026-10-22T17:50:01.359Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 19,
+  "readersNow": 1,
+  "todayReads": 20,
   "avgTimeSec": 71,
   "postsThisWeek": 17
  },
@@ -11,21 +11,21 @@
   "views": 8132,
   "reads": 332,
   "completes": 17,
-  "plays": 12,
+  "plays": 13,
   "sessions": 8020
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7755,
-   "reads": 201,
+   "views": 7754,
+   "reads": 200,
    "sessions": 7761
   },
   {
    "channel": "organic",
-   "views": 271,
-   "reads": 89,
-   "sessions": 263
+   "views": 272,
+   "reads": 90,
+   "sessions": 264
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,8 +79,8 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7755,
-   "reads": 201,
+   "views": 7754,
+   "reads": 200,
    "completes": 15,
    "sessions": 7760,
    "read_rate": 0.026,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 271,
-   "reads": 89,
+   "views": 272,
+   "reads": 90,
    "completes": 1,
-   "sessions": 263,
-   "read_rate": 0.328,
+   "sessions": 264,
+   "read_rate": 0.331,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -364,7 +364,7 @@
    "author": "dex",
    "views": 33,
    "reads": 11,
-   "plays": 0
+   "plays": 1
   },
   {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
@@ -509,6 +509,16 @@
    "plays": 1
   },
   {
+   "slug": "best-llm-for-creative-writing-october-2026",
+   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 33,
+   "reads": 11,
+   "plays": 1
+  },
+  {
    "slug": "coding-agent-edit-formats-diff-vs-whole-file",
    "title": "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace",
    "section": "wire",
@@ -577,16 +587,6 @@
    "views": 1,
    "reads": 1,
    "plays": 1
-  },
-  {
-   "slug": "context-offloading-for-ai-agents",
-   "title": "Context Offloading for AI Agents: Writing Tool Results to Disk to Beat the Context Window",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 6,
-   "reads": 0,
-   "plays": 1
   }
  ],
  "topViews": [
@@ -648,7 +648,7 @@
    "author": "dex",
    "views": 33,
    "reads": 11,
-   "plays": 0
+   "plays": 1
   },
   {
    "slug": "open-weight-llms-you-actually-run-locally-october-2026",
@@ -821,8 +821,8 @@
   },
   {
    "ref": "https://search.brave.com/",
-   "hits": 19,
-   "sessions": 10
+   "hits": 22,
+   "sessions": 11
   },
   {
    "ref": "nav-cmp",
