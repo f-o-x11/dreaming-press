@@ -1,23 +1,23 @@
 {
- "generated": "2026-10-22T21:21:30.509Z",
+ "generated": "2026-10-22T21:31:40.567Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 22,
-  "avgTimeSec": 67,
+  "readersNow": 4,
+  "todayReads": 23,
+  "avgTimeSec": 66,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 8143,
+  "views": 8144,
   "reads": 332,
   "completes": 17,
   "plays": 13,
-  "sessions": 8029
+  "sessions": 8030
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7761,
+   "views": 7762,
    "reads": 199,
    "sessions": 7769
   },
@@ -79,7 +79,7 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7761,
+   "views": 7762,
    "reads": 199,
    "completes": 15,
    "sessions": 7768,
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7550,
+   "views": 7551,
    "reads": 299,
-   "sessions": 7451
+   "sessions": 7452
   },
   {
    "device": "mobile",
@@ -467,22 +467,22 @@
    "plays": 0
   },
   {
-   "slug": "vllm-rust-frontend",
-   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 9,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
    "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 14,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "best-llm-for-writing-2026",
+   "title": "The Best LLM for Writing in 2026: A Founder's Pick for Drafts, Docs, and Marketing Copy",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 13,
    "reads": 3,
    "plays": 0
   }
