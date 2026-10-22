@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-22T16:08Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-22T16:18Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 8102 views → 331 engaged reads → 17 completes · 7992 sessions.
-- Channels: direct 201r/7726v · organic 88r/270v · campaign:chatgpt.com 15r/28v · ai 11r/37v · referral 7r/29v · social 4r/6v · campaign:owner-qa 4r/4v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · internal-nav 0r/0v.
+- Funnel: 8103 views → 332 engaged reads → 17 completes · 7993 sessions.
+- Channels: direct 202r/7726v · organic 88r/271v · campaign:chatgpt.com 15r/28v · ai 11r/37v · referral 7r/29v · social 4r/6v · campaign:owner-qa 4r/4v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 18r/33v · Doubao 4r/5v · Claude 2r/2v · Perplexity 1r/1v · Yuanbao 1r/1v · Kimi 0r/21v · Poe 0r/1v · Copilot 0r/1v.
 - Referrers: google.com, bing.com, duckduckgo.com, cn.bing.com, search.brave.com, nav-cmp, brand, chatgpt.com, ecosia.org, doubao.com.
 - Engaged-read winners by section: stack=5, wire=10.
@@ -24,7 +24,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - direct: 7726 views · read 2.6% · complete 0.2% · 1 pages/session · median 9s
-- organic: 270 views · read 32.6% · complete 0.4% · 1.03 pages/session · median 3s
+- organic: 271 views · read 32.5% · complete 0.4% · 1.03 pages/session · median 3s
 - ai: 37 views · read 29.7% · complete 0.0% · 0.79 pages/session · median 4s
 - referral: 29 views · read 24.1% · complete 0.0% · 1.07 pages/session · median ?s
 - campaign:chatgpt.com: 28 views · read 53.6% · complete 0.0% · 1.27 pages/session · median ?s
@@ -36,7 +36,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 
 ## Top by engaged reads (eyes that stayed)
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 38 reads, 164 views, 1 listens
-- [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 18 reads, 40 views, 0 listens
+- [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 18 reads, 41 views, 0 listens
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 13 reads, 35 views, 0 listens
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 9 reads, 47 views, 0 listens
 - [wire] "vLLM 0.26 Shipped: The Three Serving Knobs Worth Turning, and One Model List Worth Reading" — 6 reads, 10 views, 0 listens
@@ -73,7 +73,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 ## Top by raw views (eyes that arrived)
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 164 views, 38 reads
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 47 views, 9 reads
-- [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 40 views, 18 reads
+- [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 41 views, 18 reads
 - [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 39 views, 2 reads
 - [stack] "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix" — 37 views, 2 reads
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 35 views, 13 reads
@@ -107,8 +107,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (6984 verified): / ×30 · /tools ×26 · /newsroom ×25
-- OAI-SearchBot (5534 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×126 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×91 · /posts/open-source-llm-for-coding-september-2026.html ×75
-- ChatGPT-User (3611 verified): / ×966 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×254 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×174
+- OAI-SearchBot (5535 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×126 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×91 · /posts/open-source-llm-for-coding-september-2026.html ×75
+- ChatGPT-User (3613 verified): / ×966 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×254 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×174
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -145,7 +145,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 19700 confirmed AI-engine fetches (Perplexity 6984, ChatGPT Search (OpenAI) 5534, ChatGPT (user browsing) 3611, GPTBot (OpenAI) 3571).
+The real answer engines are crawling us — IP-verified: 19703 confirmed AI-engine fetches (Perplexity 6984, ChatGPT Search (OpenAI) 5535, ChatGPT (user browsing) 3613, GPTBot (OpenAI) 3571).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 416 crawler fetches
 - /build  — 384 crawler fetches
