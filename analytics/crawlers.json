@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-22T04:08:30.581Z",
+ "generated": "2026-10-22T04:18:37.860Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19336,
+ "verifiedAiHits": 19340,
  "logsScanned": 30,
  "windowStart": "2026-10-08",
  "windowEnd": "2026-10-22",
- "totalHits": 119047,
- "aiHits": 95816,
+ "totalHits": 119094,
+ "aiHits": 95846,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31276,
+   "hits": 31292,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14113,
+   "hits": 14120,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -90,11 +90,11 @@
      "hits": 54
     },
     {
-     "path": "/wire.html",
-     "hits": 31
+     "path": "/tags/reportive",
+     "hits": 32
     },
     {
-     "path": "/tags/reportive",
+     "path": "/wire.html",
      "hits": 31
     },
     {
@@ -113,14 +113,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7226,
+   "hits": 7230,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 66
+     "hits": 67
     },
     {
      "path": "/authors/rosalinda",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6797,
-   "verifiedHits": 6747,
+   "hits": 6798,
+   "verifiedHits": 6748,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5412,
-   "verifiedHits": 5362,
+   "hits": 5414,
+   "verifiedHits": 5364,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4258,
+   "hits": 4266,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4123,
+   "hits": 4125,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -371,6 +371,39 @@
     }
    ],
    "verifiable": false
+  },
+  {
+   "name": "ChatGPT-User",
+   "label": "ChatGPT (user browsing)",
+   "category": "ai",
+   "home": "https://openai.com/bot",
+   "hits": 3616,
+   "verifiedHits": 3507,
+   "firstSeen": "2026-10-08",
+   "lastSeen": "2026-10-22",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 936
+    },
+    {
+     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
+     "hits": 243
+    },
+    {
+     "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
+     "hits": 172
+    },
+    {
+     "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
+     "hits": 115
+    },
+    {
+     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
+     "hits": 84
+    }
+   ],
+   "verifiable": true
   },
   {
    "name": "GPTBot",
@@ -406,44 +439,11 @@
    "verifiable": true
   },
   {
-   "name": "ChatGPT-User",
-   "label": "ChatGPT (user browsing)",
-   "category": "ai",
-   "home": "https://openai.com/bot",
-   "hits": 3613,
-   "verifiedHits": 3505,
-   "firstSeen": "2026-10-08",
-   "lastSeen": "2026-10-22",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 936
-    },
-    {
-     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 242
-    },
-    {
-     "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 172
-    },
-    {
-     "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
-     "hits": 115
-    },
-    {
-     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
-     "hits": 84
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "Claude-User",
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1432,
+   "hits": 1434,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 608,
-   "verifiedHits": 524,
+   "hits": 610,
+   "verifiedHits": 526,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
