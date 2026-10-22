@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-22T19:30:34.170Z",
+ "generated": "2026-10-22T19:40:49.948Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19769,
+ "verifiedAiHits": 19770,
  "logsScanned": 30,
  "windowStart": "2026-10-08",
  "windowEnd": "2026-10-22",
- "totalHits": 123370,
- "aiHits": 98989,
+ "totalHits": 123421,
+ "aiHits": 99036,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32683,
+   "hits": 32694,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16441,
+   "hits": 16462,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14819,
+   "hits": 14828,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7779,
+   "hits": 7781,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 7122,
-   "verifiedHits": 7011,
+   "hits": 7123,
+   "verifiedHits": 7012,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7090,
-   "verifiedHits": 7030,
+   "hits": 7091,
+   "verifiedHits": 7031,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5672,
+   "hits": 5674,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4193,
+   "hits": 4194,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -542,7 +542,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 617,
+   "hits": 620,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -550,6 +550,10 @@
     {
      "path": "/build",
      "hits": 3
+    },
+    {
+     "path": "/posts/langmem-vs-mem0.html",
+     "hits": 2
     },
     {
      "path": "/posts/webhooks-vs-polling-for-long-running-agent-tasks.html",
@@ -561,10 +565,6 @@
     },
     {
      "path": "/posts/ai-sdk-7-human-in-the-loop-tool-approval-agent.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/time-to-100m-is-collapsing-2026.html",
      "hits": 2
     }
    ],
