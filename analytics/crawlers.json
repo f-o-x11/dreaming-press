@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-22T08:42:16.712Z",
+ "generated": "2026-10-22T08:52:20.306Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19483,
+ "verifiedAiHits": 19487,
  "logsScanned": 30,
  "windowStart": "2026-10-08",
  "windowEnd": "2026-10-22",
- "totalHits": 120309,
- "aiHits": 96826,
+ "totalHits": 120357,
+ "aiHits": 96868,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31774,
+   "hits": 31803,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14323,
+   "hits": 14331,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7260,
+   "hits": 7261,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6873,
-   "verifiedHits": 6823,
+   "hits": 6878,
+   "verifiedHits": 6828,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5607,
+   "hits": 5608,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5475,
-   "verifiedHits": 5425,
+   "hits": 5478,
+   "verifiedHits": 5428,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3649,
-   "verifiedHits": 3540,
+   "hits": 3650,
+   "verifiedHits": 3541,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
     {
      "path": "/",
-     "hits": 946
+     "hits": 947
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
