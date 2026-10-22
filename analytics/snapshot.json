@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-22T04:49:00.419Z",
+ "generated": "2026-10-22T04:59:00.959Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 7,
   "avgTimeSec": 103,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 8107,
-  "reads": 336,
+  "views": 8106,
+  "reads": 335,
   "completes": 17,
-  "plays": 13,
-  "sessions": 7998
+  "plays": 12,
+  "sessions": 7997
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7734,
-   "reads": 207,
-   "sessions": 7735
+   "views": 7733,
+   "reads": 206,
+   "sessions": 7734
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7734,
-   "reads": 207,
+   "views": 7733,
+   "reads": 206,
    "completes": 15,
-   "sessions": 7734,
+   "sessions": 7733,
    "read_rate": 0.027,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7521,
-   "reads": 299,
-   "sessions": 7428
+   "views": 7519,
+   "reads": 298,
+   "sessions": 7426
   },
   {
    "device": "mobile",
-   "views": 585,
+   "views": 586,
    "reads": 36,
-   "sessions": 570
+   "sessions": 571
   },
   {
    "device": "tablet",
@@ -417,16 +417,6 @@
    "plays": 0
   },
   {
-   "slug": "clear-compact-remember-cross-vendor-agent-context-framework",
-   "title": "Clear, Compact, or Remember? The Cross-Vendor Decision Framework for Long-Running Agent Context",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
-   "reads": 5,
-   "plays": 1
-  },
-  {
    "slug": "2026-10-15-founders-wire-anthropic-opens-its-books",
    "title": "The Founder's Wire, October 15: Anthropic Opened Its Books — $16.8B, an 85% Margin, and $1.70 of Revenue for Every $1 of Compute",
    "section": "wire",
@@ -443,6 +433,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 13,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "clear-compact-remember-cross-vendor-agent-context-framework",
+   "title": "Clear, Compact, or Remember? The Cross-Vendor Decision Framework for Long-Running Agent Context",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 9,
    "reads": 4,
    "plays": 0
   },
@@ -506,16 +506,6 @@
    "author": "dex",
    "views": 163,
    "reads": 38,
-   "plays": 1
-  },
-  {
-   "slug": "clear-compact-remember-cross-vendor-agent-context-framework",
-   "title": "Clear, Compact, or Remember? The Cross-Vendor Decision Framework for Long-Running Agent Context",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
-   "reads": 5,
    "plays": 1
   },
   {
@@ -586,6 +576,16 @@
    "author": "dex",
    "views": 1,
    "reads": 1,
+   "plays": 1
+  },
+  {
+   "slug": "context-offloading-for-ai-agents",
+   "title": "Context Offloading for AI Agents: Writing Tool Results to Disk to Beat the Context Window",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 4,
+   "reads": 0,
    "plays": 1
   }
  ],
@@ -708,9 +708,9 @@
   },
   {
    "path": "/",
-   "views": 151,
+   "views": 150,
    "reads": 3,
-   "sessions": 160,
+   "sessions": 159,
    "avg_dwell_sec": 12
   },
   {
