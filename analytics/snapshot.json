@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-22T03:07:42.874Z",
+ "generated": "2026-10-22T03:17:52.940Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 4,
-  "avgTimeSec": 236,
+  "readersNow": 2,
+  "todayReads": 5,
+  "avgTimeSec": 83,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 8092,
-  "reads": 334,
+  "views": 8100,
+  "reads": 335,
   "completes": 17,
   "plays": 13,
   "sessions": 7991
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 7724,
-   "reads": 204,
-   "sessions": 7732
+   "views": 7731,
+   "reads": 205,
+   "sessions": 7733
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 27,
+   "views": 28,
    "reads": 14,
-   "sessions": 21
+   "sessions": 22
   },
   {
    "channel": "ai",
@@ -73,17 +73,17 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 24
+   "sessions": 25
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7724,
-   "reads": 204,
+   "views": 7731,
+   "reads": 205,
    "completes": 15,
-   "sessions": 7731,
-   "read_rate": 0.026,
+   "sessions": 7732,
+   "read_rate": 0.027,
    "complete_rate": 0.002,
    "pages_per_session": 1,
    "median_dwell_sec": 9
@@ -112,13 +112,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 27,
+   "views": 28,
    "reads": 14,
    "completes": 0,
-   "sessions": 21,
-   "read_rate": 0.519,
+   "sessions": 22,
+   "read_rate": 0.5,
    "complete_rate": 0,
-   "pages_per_session": 1.29,
+   "pages_per_session": 1.27,
    "median_dwell_sec": null
   },
   {
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 24,
+   "sessions": 25,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -191,8 +191,8 @@
  "navSurfaces": [
   {
    "surface": "nav-cmp",
-   "clicks": 11,
-   "sessions": 8
+   "clicks": 16,
+   "sessions": 9
   },
   {
    "surface": "brand",
@@ -211,6 +211,11 @@
   },
   {
    "surface": "pager-link",
+   "clicks": 2,
+   "sessions": 2
+  },
+  {
+   "surface": "live",
    "clicks": 2,
    "sessions": 2
   },
@@ -235,6 +240,11 @@
    "sessions": 2
   },
   {
+   "surface": "btn-stats",
+   "clicks": 2,
+   "sessions": 2
+  },
+  {
    "surface": "article-byline",
    "clicks": 2,
    "sessions": 2
@@ -251,16 +261,6 @@
   },
   {
    "surface": "mtabbar",
-   "clicks": 1,
-   "sessions": 1
-  },
-  {
-   "surface": "more",
-   "clicks": 1,
-   "sessions": 1
-  },
-  {
-   "surface": "live",
    "clicks": 1,
    "sessions": 1
   }
@@ -318,8 +318,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7507,
-   "reads": 297,
+   "views": 7515,
+   "reads": 298,
    "sessions": 7423
   },
   {
@@ -707,18 +707,18 @@
    "avg_dwell_sec": 26
   },
   {
+   "path": "/",
+   "views": 150,
+   "reads": 3,
+   "sessions": 158,
+   "avg_dwell_sec": 12
+  },
+  {
    "path": "/build",
    "views": 150,
    "reads": 0,
    "sessions": 150,
    "avg_dwell_sec": 4
-  },
-  {
-   "path": "/",
-   "views": 149,
-   "reads": 3,
-   "sessions": 157,
-   "avg_dwell_sec": 11
   },
   {
    "path": "/best/:cat",
@@ -757,10 +757,10 @@
   },
   {
    "path": "/stack.html",
-   "views": 33,
+   "views": 34,
    "reads": 0,
-   "sessions": 33,
-   "avg_dwell_sec": 6
+   "sessions": 34,
+   "avg_dwell_sec": 11
   },
   {
    "path": "/topics/:topic",
@@ -792,9 +792,9 @@
   },
   {
    "path": "/dashboard",
-   "views": 12,
+   "views": 13,
    "reads": 1,
-   "sessions": 12,
+   "sessions": 13,
    "avg_dwell_sec": 100
   }
  ],
@@ -826,8 +826,8 @@
   },
   {
    "ref": "nav-cmp",
-   "hits": 11,
-   "sessions": 8
+   "hits": 16,
+   "sessions": 9
   },
   {
    "ref": "brand",
