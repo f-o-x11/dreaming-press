@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-22T15:38Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-22T15:48Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -106,7 +106,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html  — 59 retrieval fetches
 
 Per engine:
-- PerplexityBot (6978 verified): / ×30 · /tools ×26 · /newsroom ×25
+- PerplexityBot (6983 verified): / ×30 · /tools ×26 · /newsroom ×25
 - OAI-SearchBot (5531 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×126 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×91 · /posts/open-source-llm-for-coding-september-2026.html ×75
 - ChatGPT-User (3609 verified): / ×965 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×254 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×174
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -145,7 +145,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 19689 confirmed AI-engine fetches (Perplexity 6978, ChatGPT Search (OpenAI) 5531, ChatGPT (user browsing) 3609, GPTBot (OpenAI) 3571).
+The real answer engines are crawling us — IP-verified: 19694 confirmed AI-engine fetches (Perplexity 6983, ChatGPT Search (OpenAI) 5531, ChatGPT (user browsing) 3609, GPTBot (OpenAI) 3571).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 416 crawler fetches
 - /build  — 384 crawler fetches

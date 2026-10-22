@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-22T15:38:18.166Z",
+ "generated": "2026-10-22T15:48:20.298Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19689,
+ "verifiedAiHits": 19694,
  "logsScanned": 30,
  "windowStart": "2026-10-08",
  "windowEnd": "2026-10-22",
- "totalHits": 122313,
- "aiHits": 98210,
+ "totalHits": 122362,
+ "aiHits": 98238,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32412,
+   "hits": 32417,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16360,
+   "hits": 16365,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14639,
+   "hits": 14646,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7650,
+   "hits": 7669,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 7080,
-   "verifiedHits": 6978,
+   "hits": 7085,
+   "verifiedHits": 6983,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7002,
-   "verifiedHits": 6952,
+   "hits": 7003,
+   "verifiedHits": 6953,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4173,
+   "hits": 4174,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1469,
+   "hits": 1470,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -542,13 +542,17 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 541,
+   "hits": 546,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
     {
      "path": "/posts/webhooks-vs-polling-for-long-running-agent-tasks.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/how-to-not-orphan-an-mcp-task-client-handle-store.html",
      "hits": 2
     },
     {
@@ -561,10 +565,6 @@
     },
     {
      "path": "/posts/locomo-vs-longmemeval-vs-beam-agent-memory.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/claude-sonnet-5-cheaper-agents-for-founders.html",
      "hits": 2
     }
    ],
