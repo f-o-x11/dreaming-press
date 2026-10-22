@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-22T08:52:20.650Z",
+ "generated": "2026-10-22T09:02:40.002Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 9,
-  "avgTimeSec": 89,
+  "avgTimeSec": 78,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 8092,
+  "views": 8095,
   "reads": 331,
   "completes": 17,
   "plays": 12,
-  "sessions": 7986
+  "sessions": 7988
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7723,
+   "views": 7725,
    "reads": 203,
-   "sessions": 7726
+   "sessions": 7728
   },
   {
    "channel": "organic",
-   "views": 269,
+   "views": 270,
    "reads": 89,
-   "sessions": 262
+   "sessions": 263
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 25
+   "sessions": 26
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7723,
+   "views": 7725,
    "reads": 203,
    "completes": 15,
-   "sessions": 7725,
+   "sessions": 7727,
    "read_rate": 0.026,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 269,
+   "views": 270,
    "reads": 89,
    "completes": 1,
-   "sessions": 262,
-   "read_rate": 0.331,
+   "sessions": 263,
+   "read_rate": 0.33,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 25,
+   "sessions": 26,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -196,8 +196,8 @@
   },
   {
    "surface": "brand",
-   "clicks": 11,
-   "sessions": 10
+   "clicks": 12,
+   "sessions": 11
   },
   {
    "surface": "article-body",
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7506,
+   "views": 7508,
    "reads": 297,
-   "sessions": 7415
+   "sessions": 7416
   },
   {
    "device": "mobile",
-   "views": 585,
+   "views": 586,
    "reads": 33,
-   "sessions": 571
+   "sessions": 572
   },
   {
    "device": "tablet",
@@ -584,7 +584,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 5,
+   "views": 6,
    "reads": 0,
    "plays": 1
   }
@@ -715,9 +715,9 @@
   },
   {
    "path": "/",
-   "views": 147,
+   "views": 148,
    "reads": 3,
-   "sessions": 158,
+   "sessions": 159,
    "avg_dwell_sec": 12
   },
   {
@@ -821,8 +821,8 @@
   },
   {
    "ref": "https://search.brave.com/",
-   "hits": 18,
-   "sessions": 9
+   "hits": 19,
+   "sessions": 10
   },
   {
    "ref": "nav-cmp",
@@ -831,8 +831,8 @@
   },
   {
    "ref": "brand",
-   "hits": 11,
-   "sessions": 10
+   "hits": 12,
+   "sessions": 11
   },
   {
    "ref": "https://chatgpt.com/",
