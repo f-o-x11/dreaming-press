@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-22T17:19:45.623Z",
+ "generated": "2026-10-22T17:29:50.188Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19732,
+ "verifiedAiHits": 19736,
  "logsScanned": 30,
  "windowStart": "2026-10-08",
  "windowEnd": "2026-10-22",
- "totalHits": 122800,
- "aiHits": 98579,
+ "totalHits": 122834,
+ "aiHits": 98610,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32574,
+   "hits": 32583,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16392,
+   "hits": 16398,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14716,
+   "hits": 14724,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 7101,
-   "verifiedHits": 6999,
+   "hits": 7104,
+   "verifiedHits": 7002,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -179,14 +179,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7033,
-   "verifiedHits": 6983,
+   "hits": 7036,
+   "verifiedHits": 6986,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 120
+     "hits": 121
     },
     {
      "path": "/build",
@@ -197,11 +197,11 @@
      "hits": 44
     },
     {
-     "path": "/search",
-     "hits": 33
+     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
+     "hits": 34
     },
     {
-     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
+     "path": "/search",
      "hits": 33
     }
    ],
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3734,
-   "verifiedHits": 3625,
+   "hits": 3735,
+   "verifiedHits": 3626,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -542,7 +542,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 582,
+   "hits": 586,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -560,11 +560,11 @@
      "hits": 2
     },
     {
-     "path": "/posts/migrate-mcp-server-stateless-multi-round-trip.html",
+     "path": "/posts/time-to-100m-is-collapsing-2026.html",
      "hits": 2
     },
     {
-     "path": "/posts/where-the-leverage-actually-is-open-vs-closed-agents.html",
+     "path": "/posts/migrate-mcp-server-stateless-multi-round-trip.html",
      "hits": 2
     }
    ],
