@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-22T15:07:28.097Z",
+ "generated": "2026-10-22T15:17:40.303Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19683,
+ "verifiedAiHits": 19687,
  "logsScanned": 30,
  "windowStart": "2026-10-08",
  "windowEnd": "2026-10-22",
- "totalHits": 122141,
- "aiHits": 98107,
+ "totalHits": 122208,
+ "aiHits": 98148,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32357,
+   "hits": 32373,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16357,
+   "hits": 16360,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14615,
+   "hits": 14622,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7593,
+   "hits": 7617,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 7077,
-   "verifiedHits": 6975,
+   "hits": 7080,
+   "verifiedHits": 6978,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6991,
-   "verifiedHits": 6941,
+   "hits": 6992,
+   "verifiedHits": 6942,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4172,
+   "hits": 4173,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3715,
-   "verifiedHits": 3606,
+   "hits": 3716,
+   "verifiedHits": 3607,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1468,
+   "hits": 1469,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -542,11 +542,15 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 527,
+   "hits": 537,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
+    {
+     "path": "/posts/webhooks-vs-polling-for-long-running-agent-tasks.html",
+     "hits": 2
+    },
     {
      "path": "/posts/migrate-mcp-server-stateless-multi-round-trip.html",
      "hits": 2
@@ -561,10 +565,6 @@
     },
     {
      "path": "/posts/claude-sonnet-5-cheaper-agents-for-founders.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/mcp-2026-07-28-authorization-changes.html",
      "hits": 2
     }
    ],
