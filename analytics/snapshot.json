@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T17:50:01.359Z",
+ "generated": "2026-10-22T18:00:11.263Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 8132,
-  "reads": 332,
+  "views": 8130,
+  "reads": 330,
   "completes": 17,
   "plays": 13,
-  "sessions": 8020
+  "sessions": 8018
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7754,
-   "reads": 200,
-   "sessions": 7761
+   "views": 7752,
+   "reads": 198,
+   "sessions": 7759
   },
   {
    "channel": "organic",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 28
+   "sessions": 27
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7754,
-   "reads": 200,
+   "views": 7752,
+   "reads": 198,
    "completes": 15,
-   "sessions": 7760,
+   "sessions": 7758,
    "read_rate": 0.026,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 28,
+   "sessions": 27,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -201,8 +201,8 @@
   },
   {
    "surface": "article-body",
-   "clicks": 4,
-   "sessions": 3
+   "clicks": 3,
+   "sessions": 2
   },
   {
    "surface": "search-result",
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7545,
-   "reads": 299,
-   "sessions": 7448
+   "views": 7543,
+   "reads": 297,
+   "sessions": 7446
   },
   {
    "device": "mobile",
@@ -387,16 +387,6 @@
    "plays": 0
   },
   {
-   "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
-   "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 7,
-   "reads": 6,
-   "plays": 0
-  },
-  {
    "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
    "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
    "section": "stack",
@@ -413,6 +403,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 12,
+   "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
+   "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
    "reads": 5,
    "plays": 0
   },
