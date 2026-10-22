@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-22T16:59:20.463Z",
+ "generated": "2026-10-22T17:09:40.390Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 17,
+  "readersNow": 28,
+  "todayReads": 18,
   "avgTimeSec": 63,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 8103,
-  "reads": 331,
+  "views": 8131,
+  "reads": 332,
   "completes": 17,
   "plays": 12,
-  "sessions": 7993
+  "sessions": 8021
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7727,
+   "views": 7754,
    "reads": 201,
-   "sessions": 7734
+   "sessions": 7761
   },
   {
    "channel": "organic",
-   "views": 270,
-   "reads": 88,
-   "sessions": 262
+   "views": 271,
+   "reads": 89,
+   "sessions": 263
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7727,
+   "views": 7754,
    "reads": 201,
    "completes": 15,
-   "sessions": 7733,
+   "sessions": 7760,
    "read_rate": 0.026,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 270,
-   "reads": 88,
+   "views": 271,
+   "reads": 89,
    "completes": 1,
-   "sessions": 262,
-   "read_rate": 0.326,
+   "sessions": 263,
+   "read_rate": 0.328,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7517,
-   "reads": 298,
-   "sessions": 7422
+   "views": 7545,
+   "reads": 299,
+   "sessions": 7450
   },
   {
    "device": "mobile",
@@ -694,16 +694,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 754,
+   "views": 756,
    "reads": 10,
-   "sessions": 754,
+   "sessions": 756,
    "avg_dwell_sec": 79
   },
   {
    "path": "/compare/:pair",
-   "views": 354,
+   "views": 355,
    "reads": 2,
-   "sessions": 353,
+   "sessions": 354,
    "avg_dwell_sec": 26
   },
   {
@@ -715,9 +715,9 @@
   },
   {
    "path": "/",
-   "views": 148,
+   "views": 149,
    "reads": 4,
-   "sessions": 159,
+   "sessions": 160,
    "avg_dwell_sec": 13
   },
   {
@@ -764,9 +764,9 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 18,
+   "views": 20,
    "reads": 0,
-   "sessions": 17,
+   "sessions": 19,
    "avg_dwell_sec": null
   },
   {
@@ -811,8 +811,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 69,
-   "sessions": 42
+   "hits": 71,
+   "sessions": 43
   },
   {
    "ref": "https://cn.bing.com/",
