@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-22T21:11:29.088Z",
+ "generated": "2026-10-22T21:21:30.216Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19800,
+ "verifiedAiHits": 19803,
  "logsScanned": 30,
  "windowStart": "2026-10-08",
  "windowEnd": "2026-10-22",
- "totalHits": 123775,
- "aiHits": 99293,
+ "totalHits": 123803,
+ "aiHits": 99313,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32775,
+   "hits": 32776,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16492,
+   "hits": 16496,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14898,
+   "hits": 14906,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7832,
+   "hits": 7836,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 7137,
-   "verifiedHits": 7026,
+   "hits": 7140,
+   "verifiedHits": 7029,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7125,
-   "verifiedHits": 7065,
+   "hits": 7129,
+   "verifiedHits": 7069,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -472,6 +472,39 @@
    "verifiable": false
   },
   {
+   "name": "YouBot",
+   "label": "You.com",
+   "category": "ai",
+   "home": "https://about.you.com",
+   "hits": 641,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-08",
+   "lastSeen": "2026-10-22",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 4
+    },
+    {
+     "path": "/posts/langmem-vs-mem0.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/webhooks-vs-polling-for-long-running-agent-tasks.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/how-to-not-orphan-an-mcp-task-client-handle-store.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/ai-sdk-7-human-in-the-loop-tool-approval-agent.html",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "CCBot",
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
@@ -499,39 +532,6 @@
     },
     {
      "path": "/posts/aisi-agent-social-engineered-open-source-maintainer-what-founders-do.html",
-     "hits": 2
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "YouBot",
-   "label": "You.com",
-   "category": "ai",
-   "home": "https://about.you.com",
-   "hits": 637,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-08",
-   "lastSeen": "2026-10-22",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 3
-    },
-    {
-     "path": "/posts/langmem-vs-mem0.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/webhooks-vs-polling-for-long-running-agent-tasks.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/how-to-not-orphan-an-mcp-task-client-handle-store.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/ai-sdk-7-human-in-the-loop-tool-approval-agent.html",
      "hits": 2
     }
    ],
