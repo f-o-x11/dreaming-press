@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-22T21:31:40.236Z",
+ "generated": "2026-10-22T21:42:00.195Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19805,
+ "verifiedAiHits": 19807,
  "logsScanned": 30,
  "windowStart": "2026-10-08",
  "windowEnd": "2026-10-22",
- "totalHits": 123834,
- "aiHits": 99335,
+ "totalHits": 123872,
+ "aiHits": 99366,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32780,
+   "hits": 32784,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16502,
+   "hits": 16509,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14915,
+   "hits": 14922,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7838,
+   "hits": 7840,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -140,6 +140,39 @@
     }
    ],
    "verifiable": false
+  },
+  {
+   "name": "Bingbot",
+   "label": "Bingbot",
+   "category": "search",
+   "home": "https://www.bing.com/webmasters",
+   "hits": 7140,
+   "verifiedHits": 7080,
+   "firstSeen": "2026-10-08",
+   "lastSeen": "2026-10-22",
+   "topPaths": [
+    {
+     "path": "/posts/gartner-ai-agent-spending-2026.html",
+     "hits": 123
+    },
+    {
+     "path": "/build",
+     "hits": 90
+    },
+    {
+     "path": "/posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html",
+     "hits": 44
+    },
+    {
+     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
+     "hits": 34
+    },
+    {
+     "path": "/search",
+     "hits": 33
+    }
+   ],
+   "verifiable": true
   },
   {
    "name": "PerplexityBot",
@@ -170,39 +203,6 @@
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
      "hits": 24
-    }
-   ],
-   "verifiable": true
-  },
-  {
-   "name": "Bingbot",
-   "label": "Bingbot",
-   "category": "search",
-   "home": "https://www.bing.com/webmasters",
-   "hits": 7136,
-   "verifiedHits": 7076,
-   "firstSeen": "2026-10-08",
-   "lastSeen": "2026-10-22",
-   "topPaths": [
-    {
-     "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 123
-    },
-    {
-     "path": "/build",
-     "hits": 90
-    },
-    {
-     "path": "/posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html",
-     "hits": 44
-    },
-    {
-     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
-     "hits": 34
-    },
-    {
-     "path": "/search",
-     "hits": 33
     }
    ],
    "verifiable": true
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5677,
+   "hits": 5680,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4204,
+   "hits": 4205,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3779,
-   "verifiedHits": 3660,
+   "hits": 3781,
+   "verifiedHits": 3662,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -476,7 +476,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 641,
+   "hits": 649,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
