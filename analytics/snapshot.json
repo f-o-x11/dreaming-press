@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-22T04:59:00.959Z",
+ "generated": "2026-10-22T05:09:01.790Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
   "todayReads": 7,
-  "avgTimeSec": 103,
+  "avgTimeSec": 99,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 8106,
-  "reads": 335,
+  "views": 8102,
+  "reads": 333,
   "completes": 17,
   "plays": 12,
-  "sessions": 7997
+  "sessions": 7993
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7733,
-   "reads": 206,
-   "sessions": 7734
+   "views": 7729,
+   "reads": 204,
+   "sessions": 7730
   },
   {
    "channel": "organic",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7733,
-   "reads": 206,
+   "views": 7729,
+   "reads": 204,
    "completes": 15,
-   "sessions": 7733,
-   "read_rate": 0.027,
+   "sessions": 7729,
+   "read_rate": 0.026,
    "complete_rate": 0.002,
    "pages_per_session": 1,
    "median_dwell_sec": 9
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7519,
+   "views": 7518,
    "reads": 298,
-   "sessions": 7426
+   "sessions": 7425
   },
   {
    "device": "mobile",
-   "views": 586,
-   "reads": 36,
-   "sessions": 571
+   "views": 583,
+   "reads": 34,
+   "sessions": 568
   },
   {
    "device": "tablet",
@@ -437,16 +437,6 @@
    "plays": 0
   },
   {
-   "slug": "clear-compact-remember-cross-vendor-agent-context-framework",
-   "title": "Clear, Compact, or Remember? The Cross-Vendor Decision Framework for Long-Running Agent Context",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 9,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "coding-agent-edit-formats-diff-vs-whole-file",
    "title": "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace",
    "section": "wire",
@@ -483,6 +473,16 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 31,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
+   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 14,
    "reads": 3,
    "plays": 0
   }
