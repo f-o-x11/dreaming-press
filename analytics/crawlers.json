@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-22T21:01:20.290Z",
+ "generated": "2026-10-22T21:11:29.088Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19797,
+ "verifiedAiHits": 19800,
  "logsScanned": 30,
  "windowStart": "2026-10-08",
  "windowEnd": "2026-10-22",
- "totalHits": 123753,
- "aiHits": 99277,
+ "totalHits": 123775,
+ "aiHits": 99293,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32774,
+   "hits": 32775,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16488,
+   "hits": 16492,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14891,
+   "hits": 14898,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7119,
-   "verifiedHits": 7059,
+   "hits": 7125,
+   "verifiedHits": 7065,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3775,
-   "verifiedHits": 3656,
+   "hits": 3778,
+   "verifiedHits": 3659,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -392,11 +392,11 @@
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 177
+     "hits": 178
     },
     {
      "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
-     "hits": 118
+     "hits": 119
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
@@ -505,6 +505,39 @@
    "verifiable": false
   },
   {
+   "name": "YouBot",
+   "label": "You.com",
+   "category": "ai",
+   "home": "https://about.you.com",
+   "hits": 637,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-08",
+   "lastSeen": "2026-10-22",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 3
+    },
+    {
+     "path": "/posts/langmem-vs-mem0.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/webhooks-vs-polling-for-long-running-agent-tasks.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/how-to-not-orphan-an-mcp-task-client-handle-store.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/ai-sdk-7-human-in-the-loop-tool-approval-agent.html",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Googlebot",
    "label": "Googlebot",
    "category": "search",
@@ -536,39 +569,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "YouBot",
-   "label": "You.com",
-   "category": "ai",
-   "home": "https://about.you.com",
-   "hits": 636,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-08",
-   "lastSeen": "2026-10-22",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 3
-    },
-    {
-     "path": "/posts/langmem-vs-mem0.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/webhooks-vs-polling-for-long-running-agent-tasks.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/how-to-not-orphan-an-mcp-task-client-handle-store.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/ai-sdk-7-human-in-the-loop-tool-approval-agent.html",
-     "hits": 2
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "YandexBot",
