@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-22T00:34:46.111Z",
+ "generated": "2026-10-22T00:44:50.142Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19244,
+ "verifiedAiHits": 19248,
  "logsScanned": 30,
  "windowStart": "2026-10-08",
  "windowEnd": "2026-10-22",
- "totalHits": 118163,
- "aiHits": 95151,
+ "totalHits": 118214,
+ "aiHits": 95189,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30934,
+   "hits": 30959,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13965,
+   "hits": 13974,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6715,
-   "verifiedHits": 6665,
+   "hits": 6726,
+   "verifiedHits": 6676,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -201,8 +201,8 @@
      "hits": 33
     },
     {
-     "path": "/posts/microsoft-agent-framework-build-2026.html",
-     "hits": 30
+     "path": "/search",
+     "hits": 31
     }
    ],
    "verifiable": true
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5359,
-   "verifiedHits": 5309,
+   "hits": 5362,
+   "verifiedHits": 5312,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4108,
+   "hits": 4110,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3586,
-   "verifiedHits": 3478,
+   "hits": 3587,
+   "verifiedHits": 3479,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -421,7 +421,7 @@
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 240
+     "hits": 241
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
