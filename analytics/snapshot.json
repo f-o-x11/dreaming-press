@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-22T00:24:39.577Z",
+ "generated": "2026-10-22T00:34:46.414Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 0,
-  "avgTimeSec": 0,
+  "readersNow": 1,
+  "todayReads": 1,
+  "avgTimeSec": 139,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 8099,
-  "reads": 334,
+  "views": 8098,
+  "reads": 335,
   "completes": 17,
   "plays": 13,
-  "sessions": 7990
+  "sessions": 7989
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7731,
+   "views": 7729,
    "reads": 205,
-   "sessions": 7732
+   "sessions": 7731
   },
   {
    "channel": "organic",
-   "views": 267,
-   "reads": 91,
-   "sessions": 260
+   "views": 268,
+   "reads": 92,
+   "sessions": 261
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7731,
+   "views": 7729,
    "reads": 205,
    "completes": 15,
-   "sessions": 7731,
+   "sessions": 7730,
    "read_rate": 0.027,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 267,
-   "reads": 91,
+   "views": 268,
+   "reads": 92,
    "completes": 1,
-   "sessions": 260,
-   "read_rate": 0.341,
+   "sessions": 261,
+   "read_rate": 0.343,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7512,
-   "reads": 297,
-   "sessions": 7420
+   "views": 7511,
+   "reads": 298,
+   "sessions": 7419
   },
   {
    "device": "mobile",
@@ -695,10 +695,10 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 353,
-   "reads": 1,
-   "sessions": 352,
-   "avg_dwell_sec": 13
+   "views": 354,
+   "reads": 2,
+   "sessions": 353,
+   "avg_dwell_sec": 26
   },
   {
    "path": "/build",
@@ -709,9 +709,9 @@
   },
   {
    "path": "/",
-   "views": 149,
+   "views": 148,
    "reads": 3,
-   "sessions": 157,
+   "sessions": 156,
    "avg_dwell_sec": 11
   },
   {
@@ -800,8 +800,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 80,
-   "sessions": 41
+   "hits": 82,
+   "sessions": 42
   },
   {
    "ref": "https://duckduckgo.com/",

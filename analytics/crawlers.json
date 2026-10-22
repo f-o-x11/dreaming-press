@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-22T00:24:39.269Z",
+ "generated": "2026-10-22T00:34:46.111Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19239,
+ "verifiedAiHits": 19244,
  "logsScanned": 30,
  "windowStart": "2026-10-08",
  "windowEnd": "2026-10-22",
- "totalHits": 118113,
- "aiHits": 95108,
+ "totalHits": 118163,
+ "aiHits": 95151,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30914,
+   "hits": 30934,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -37,7 +37,7 @@
     },
     {
      "path": "/posts/golang-ai-agent-framework-eino-vs-langchaingo.html",
-     "hits": 16
+     "hits": 17
     }
    ],
    "verifiable": false
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16108,
+   "hits": 16109,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13957,
+   "hits": 13965,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7155,
+   "hits": 7161,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -245,10 +245,10 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5570,
+   "hits": 5579,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
-   "lastSeen": "2026-10-21",
+   "lastSeen": "2026-10-22",
    "topPaths": [
     {
      "path": "/tags/reportive",
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5355,
-   "verifiedHits": 5305,
+   "hits": 5359,
+   "verifiedHits": 5309,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4107,
+   "hits": 4108,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3585,
-   "verifiedHits": 3477,
+   "hits": 3586,
+   "verifiedHits": 3478,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
     {
      "path": "/",
-     "hits": 928
+     "hits": 929
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
