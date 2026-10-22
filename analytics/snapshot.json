@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-22T01:36:01.059Z",
+ "generated": "2026-10-22T01:46:38.810Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 4,
   "todayReads": 1,
   "avgTimeSec": 139,
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 8099,
-  "reads": 335,
+  "views": 8097,
+  "reads": 334,
   "completes": 17,
   "plays": 13,
   "sessions": 7990
@@ -17,8 +17,8 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 7730,
-   "reads": 205,
+   "views": 7729,
+   "reads": 204,
    "sessions": 7732
   },
   {
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 28,
+   "views": 27,
    "reads": 6,
-   "sessions": 27
+   "sessions": 26
   },
   {
    "channel": "campaign:owner-qa",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7730,
-   "reads": 205,
+   "views": 7729,
+   "reads": 204,
    "completes": 15,
    "sessions": 7731,
-   "read_rate": 0.027,
+   "read_rate": 0.026,
    "complete_rate": 0.002,
    "pages_per_session": 1,
    "median_dwell_sec": 9
@@ -111,17 +111,6 @@
    "median_dwell_sec": 4
   },
   {
-   "channel": "referral",
-   "views": 28,
-   "reads": 6,
-   "completes": 0,
-   "sessions": 27,
-   "read_rate": 0.214,
-   "complete_rate": 0,
-   "pages_per_session": 1.04,
-   "median_dwell_sec": null
-  },
-  {
    "channel": "campaign:chatgpt.com",
    "views": 27,
    "reads": 14,
@@ -130,6 +119,17 @@
    "read_rate": 0.519,
    "complete_rate": 0,
    "pages_per_session": 1.29,
+   "median_dwell_sec": null
+  },
+  {
+   "channel": "referral",
+   "views": 27,
+   "reads": 6,
+   "completes": 0,
+   "sessions": 26,
+   "read_rate": 0.222,
+   "complete_rate": 0,
+   "pages_per_session": 1.04,
    "median_dwell_sec": null
   },
   {
@@ -312,8 +312,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7514,
-   "reads": 298,
+   "views": 7512,
+   "reads": 297,
    "sessions": 7422
   },
   {
@@ -336,7 +336,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 158,
+   "views": 159,
    "reads": 35,
    "plays": 1
   },
@@ -498,7 +498,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 158,
+   "views": 159,
    "reads": 35,
    "plays": 1
   },
@@ -590,7 +590,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 158,
+   "views": 159,
    "reads": 35,
    "plays": 1
   },
@@ -709,7 +709,7 @@
   },
   {
    "path": "/",
-   "views": 148,
+   "views": 147,
    "reads": 3,
    "sessions": 156,
    "avg_dwell_sec": 11
