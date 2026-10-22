@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-22T07:21:00.227Z",
+ "generated": "2026-10-22T07:31:20.371Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19438,
+ "verifiedAiHits": 19439,
  "logsScanned": 30,
  "windowStart": "2026-10-08",
  "windowEnd": "2026-10-22",
- "totalHits": 119904,
- "aiHits": 96526,
+ "totalHits": 119968,
+ "aiHits": 96579,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31652,
+   "hits": 31680,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -29,7 +29,7 @@
     },
     {
      "path": "/dashboard",
-     "hits": 24
+     "hits": 25
     },
     {
      "path": "/posts/2026-10-01-founders-wire-openai-1-4t-instinct-10b-salesforce-aiforce.html",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16211,
+   "hits": 16215,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14261,
+   "hits": 14269,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 7034,
-   "verifiedHits": 6932,
+   "hits": 7035,
+   "verifiedHits": 6933,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6855,
-   "verifiedHits": 6805,
+   "hits": 6859,
+   "verifiedHits": 6809,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5600,
+   "hits": 5603,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -311,7 +311,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4301,
+   "hits": 4302,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4138,
+   "hits": 4140,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1443,
+   "hits": 1444,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 623,
-   "verifiedHits": 539,
+   "hits": 624,
+   "verifiedHits": 540,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -608,10 +608,10 @@
    "label": "Mistral AI",
    "category": "ai",
    "home": "https://mistral.ai",
-   "hits": 146,
+   "hits": 154,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
-   "lastSeen": "2026-10-21",
+   "lastSeen": "2026-10-22",
    "topPaths": [
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -626,11 +626,11 @@
      "hits": 4
     },
     {
-     "path": "/posts/2026-10-18-founders-wire-open-weights-went-frontier-deepseek-beam.html",
+     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
      "hits": 2
     },
     {
-     "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
+     "path": "/posts/2026-10-18-founders-wire-open-weights-went-frontier-deepseek-beam.html",
      "hits": 2
     }
    ],
@@ -674,7 +674,7 @@
    "label": "Yisou",
    "category": "search",
    "home": "https://www.yisou.com",
-   "hits": 43,
+   "hits": 46,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-22",
