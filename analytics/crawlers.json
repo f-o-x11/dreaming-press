@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-22T03:17:52.630Z",
+ "generated": "2026-10-22T03:28:00.043Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19316,
+ "verifiedAiHits": 19320,
  "logsScanned": 30,
  "windowStart": "2026-10-08",
  "windowEnd": "2026-10-22",
- "totalHits": 118833,
- "aiHits": 95659,
+ "totalHits": 118904,
+ "aiHits": 95712,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31207,
+   "hits": 31241,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14072,
+   "hits": 14080,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7197,
+   "hits": 7201,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6786,
-   "verifiedHits": 6736,
+   "hits": 6788,
+   "verifiedHits": 6738,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 6173,
+   "hits": 6175,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5402,
-   "verifiedHits": 5352,
+   "hits": 5405,
+   "verifiedHits": 5355,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4252,
+   "hits": 4258,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 4116,
+   "hits": 4118,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3605,
-   "verifiedHits": 3497,
+   "hits": 3606,
+   "verifiedHits": 3498,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
     {
      "path": "/",
-     "hits": 933
+     "hits": 934
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1429,
+   "hits": 1430,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 607,
-   "verifiedHits": 523,
+   "hits": 608,
+   "verifiedHits": 524,
    "firstSeen": "2026-10-08",
    "lastSeen": "2026-10-22",
    "topPaths": [
@@ -542,10 +542,10 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 464,
+   "hits": 466,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
-   "lastSeen": "2026-10-21",
+   "lastSeen": "2026-10-22",
    "topPaths": [
     {
      "path": "/posts/migrate-mcp-server-stateless-multi-round-trip.html",
@@ -641,10 +641,10 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 85,
+   "hits": 87,
    "verifiedHits": 0,
    "firstSeen": "2026-10-08",
-   "lastSeen": "2026-10-21",
+   "lastSeen": "2026-10-22",
    "topPaths": [
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
@@ -664,6 +664,23 @@
     },
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
+     "hits": 1
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "YisouSpider",
+   "label": "Yisou",
+   "category": "search",
+   "home": "https://www.yisou.com",
+   "hits": 43,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-13",
+   "lastSeen": "2026-10-22",
+   "topPaths": [
+    {
+     "path": "/",
      "hits": 1
     }
    ],
@@ -697,23 +714,6 @@
     },
     {
      "path": "/api%2F.env",
-     "hits": 1
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "YisouSpider",
-   "label": "Yisou",
-   "category": "search",
-   "home": "https://www.yisou.com",
-   "hits": 40,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-13",
-   "lastSeen": "2026-10-21",
-   "topPaths": [
-    {
-     "path": "/",
      "hits": 1
     }
    ],
