@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-22T01:46:38.810Z",
+ "generated": "2026-10-22T01:56:50.681Z",
  "windowDays": 14,
  "site": {
   "readersNow": 4,
@@ -8,7 +8,7 @@
   "postsThisWeek": 17
  },
  "funnel": {
-  "views": 8097,
+  "views": 8091,
   "reads": 334,
   "completes": 17,
   "plays": 13,
@@ -17,7 +17,7 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 7729,
+   "views": 7723,
    "reads": 204,
    "sessions": 7732
   },
@@ -73,13 +73,13 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 25
+   "sessions": 24
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7729,
+   "views": 7723,
    "reads": 204,
    "completes": 15,
    "sessions": 7731,
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 25,
+   "sessions": 24,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -198,11 +198,6 @@
    "surface": "brand",
    "clicks": 11,
    "sessions": 10
-  },
-  {
-   "surface": "dash-range",
-   "clicks": 6,
-   "sessions": 1
   },
   {
    "surface": "article-body",
@@ -240,11 +235,6 @@
    "sessions": 2
   },
   {
-   "surface": "btn-stats",
-   "clicks": 2,
-   "sessions": 2
-  },
-  {
    "surface": "article-byline",
    "clicks": 2,
    "sessions": 2
@@ -261,6 +251,16 @@
   },
   {
    "surface": "mtabbar",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
+   "surface": "more",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
+   "surface": "live",
    "clicks": 1,
    "sessions": 1
   }
@@ -312,7 +312,7 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7512,
+   "views": 7506,
    "reads": 297,
    "sessions": 7422
   },
@@ -709,7 +709,7 @@
   },
   {
    "path": "/",
-   "views": 147,
+   "views": 148,
    "reads": 3,
    "sessions": 156,
    "avg_dwell_sec": 11
@@ -757,13 +757,6 @@
    "avg_dwell_sec": 6
   },
   {
-   "path": "/dashboard",
-   "views": 19,
-   "reads": 1,
-   "sessions": 13,
-   "avg_dwell_sec": 20
-  },
-  {
    "path": "/topics/:topic",
    "views": 18,
    "reads": 0,
@@ -790,6 +783,13 @@
    "reads": 0,
    "sessions": 13,
    "avg_dwell_sec": 6
+  },
+  {
+   "path": "/dashboard",
+   "views": 12,
+   "reads": 1,
+   "sessions": 12,
+   "avg_dwell_sec": 100
   }
  ],
  "referrers": [
