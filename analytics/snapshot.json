@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-23T14:36:07.656Z",
+ "generated": "2026-10-23T14:46:09.251Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 2,
   "todayReads": 9,
   "avgTimeSec": 44,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 8136,
-  "reads": 326,
+  "views": 8134,
+  "reads": 324,
   "completes": 16,
   "plays": 13,
-  "sessions": 8021
+  "sessions": 8018
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7735,
-   "reads": 189,
-   "sessions": 7748
+   "views": 7733,
+   "reads": 187,
+   "sessions": 7745
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7735,
-   "reads": 189,
+   "views": 7733,
+   "reads": 187,
    "completes": 14,
-   "sessions": 7747,
+   "sessions": 7744,
    "read_rate": 0.024,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7541,
-   "reads": 293,
-   "sessions": 7441
+   "views": 7539,
+   "reads": 291,
+   "sessions": 7438
   },
   {
    "device": "mobile",
@@ -427,16 +427,6 @@
    "plays": 0
   },
   {
-   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
-   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 31,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "2026-10-15-founders-wire-anthropic-opens-its-books",
    "title": "The Founder's Wire, October 15: Anthropic Opened Its Books — $16.8B, an 85% Margin, and $1.70 of Revenue for Every $1 of Compute",
    "section": "wire",
@@ -465,6 +455,16 @@
    "views": 9,
    "reads": 4,
    "plays": 1
+  },
+  {
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 30,
+   "reads": 3,
+   "plays": 0
   },
   {
    "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
@@ -656,8 +656,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 31,
-   "reads": 4,
+   "views": 30,
+   "reads": 3,
    "plays": 0
   },
   {
