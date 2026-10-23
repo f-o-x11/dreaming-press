@@ -1,30 +1,30 @@
 {
- "generated": "2026-10-23T05:38:47.517Z",
+ "generated": "2026-10-23T05:48:50.399Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 7,
+  "readersNow": 2,
+  "todayReads": 8,
   "avgTimeSec": 77,
   "postsThisWeek": 13
  },
  "funnel": {
   "views": 8156,
-  "reads": 338,
+  "reads": 339,
   "completes": 17,
   "plays": 13,
-  "sessions": 8039
+  "sessions": 8038
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7760,
+   "views": 7759,
    "reads": 202,
-   "sessions": 7769
+   "sessions": 7768
   },
   {
    "channel": "organic",
-   "views": 278,
-   "reads": 90,
+   "views": 279,
+   "reads": 91,
    "sessions": 270
   },
   {
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7760,
+   "views": 7759,
    "reads": 202,
    "completes": 15,
-   "sessions": 7768,
+   "sessions": 7767,
    "read_rate": 0.026,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 278,
-   "reads": 90,
+   "views": 279,
+   "reads": 91,
    "completes": 1,
    "sessions": 270,
-   "read_rate": 0.324,
+   "read_rate": 0.326,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7564,
-   "reads": 305,
+   "views": 7565,
+   "reads": 306,
    "sessions": 7462
   },
   {
    "device": "mobile",
-   "views": 591,
+   "views": 590,
    "reads": 32,
-   "sessions": 577
+   "sessions": 576
   },
   {
    "device": "tablet",
@@ -407,6 +407,16 @@
    "plays": 0
   },
   {
+   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
+   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 10,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
    "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
    "section": "wire",
@@ -455,16 +465,6 @@
    "views": 9,
    "reads": 4,
    "plays": 1
-  },
-  {
-   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
-   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 9,
-   "reads": 4,
-   "plays": 0
   },
   {
    "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
@@ -816,7 +816,7 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 36,
+   "hits": 38,
    "sessions": 21
   },
   {
