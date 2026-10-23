@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-23T20:31:50.593Z",
+ "generated": "2026-10-23T20:41:52.284Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
+  "readersNow": 2,
   "todayReads": 12,
   "avgTimeSec": 38,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 8173,
-  "reads": 317,
+  "views": 8168,
+  "reads": 316,
   "completes": 16,
   "plays": 13,
-  "sessions": 8059
+  "sessions": 8055
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7775,
+   "views": 7770,
    "reads": 181,
-   "sessions": 7787
+   "sessions": 7783
   },
   {
    "channel": "organic",
@@ -46,16 +46,16 @@
    "sessions": 26
   },
   {
-   "channel": "social",
-   "views": 5,
-   "reads": 4,
-   "sessions": 6
-  },
-  {
    "channel": "campaign:owner-qa",
    "views": 4,
    "reads": 4,
    "sessions": 3
+  },
+  {
+   "channel": "social",
+   "views": 5,
+   "reads": 3,
+   "sessions": 5
   },
   {
    "channel": "campaign:perplexity",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 28
+   "sessions": 27
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7775,
+   "views": 7770,
    "reads": 181,
    "completes": 14,
-   "sessions": 7786,
+   "sessions": 7782,
    "read_rate": 0.023,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -135,12 +135,12 @@
   {
    "channel": "social",
    "views": 5,
-   "reads": 4,
+   "reads": 3,
    "completes": 0,
-   "sessions": 6,
-   "read_rate": 0.8,
+   "sessions": 5,
+   "read_rate": 0.6,
    "complete_rate": 0,
-   "pages_per_session": 0.83,
+   "pages_per_session": 1,
    "median_dwell_sec": null
   },
   {
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 28,
+   "sessions": 27,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -191,13 +191,13 @@
  "navSurfaces": [
   {
    "surface": "nav-cmp",
-   "clicks": 16,
-   "sessions": 9
+   "clicks": 15,
+   "sessions": 8
   },
   {
    "surface": "brand",
-   "clicks": 11,
-   "sessions": 10
+   "clicks": 10,
+   "sessions": 9
   },
   {
    "surface": "article-body",
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7566,
-   "reads": 284,
-   "sessions": 7467
+   "views": 7561,
+   "reads": 283,
+   "sessions": 7463
   },
   {
    "device": "mobile",
@@ -715,9 +715,9 @@
   },
   {
    "path": "/",
-   "views": 145,
+   "views": 144,
    "reads": 3,
-   "sessions": 156,
+   "sessions": 155,
    "avg_dwell_sec": 12
   },
   {
@@ -826,13 +826,13 @@
   },
   {
    "ref": "nav-cmp",
-   "hits": 16,
-   "sessions": 9
+   "hits": 15,
+   "sessions": 8
   },
   {
    "ref": "brand",
-   "hits": 11,
-   "sessions": 10
+   "hits": 10,
+   "sessions": 9
   },
   {
    "ref": "https://chatgpt.com/",
