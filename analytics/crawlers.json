@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-23T10:22:45.492Z",
+ "generated": "2026-10-23T10:32:59.863Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19324,
+ "verifiedAiHits": 19328,
  "logsScanned": 30,
  "windowStart": "2026-10-09",
  "windowEnd": "2026-10-23",
- "totalHits": 119797,
- "aiHits": 95995,
+ "totalHits": 119865,
+ "aiHits": 96040,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31609,
+   "hits": 31610,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15528,
+   "hits": 15539,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14383,
+   "hits": 14390,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7865,
+   "hits": 7876,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -124,7 +124,7 @@
     },
     {
      "path": "/wire.html",
-     "hits": 6
+     "hits": 7
     },
     {
      "path": "/tags/reportive",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6938,
-   "verifiedHits": 6877,
+   "hits": 6945,
+   "verifiedHits": 6883,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 6937,
+   "hits": 6939,
    "verifiedHits": 6847,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -212,7 +212,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 6207,
+   "hits": 6212,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -245,14 +245,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5469,
-   "verifiedHits": 5416,
+   "hits": 5472,
+   "verifiedHits": 5419,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
    "topPaths": [
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
-     "hits": 124
+     "hits": 125
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3899,
+   "hits": 3901,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -377,7 +377,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 3614,
+   "hits": 3617,
    "verifiedHits": 3571,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3600,
-   "verifiedHits": 3490,
+   "hits": 3605,
+   "verifiedHits": 3491,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1392,
+   "hits": 1393,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -476,7 +476,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 910,
+   "hits": 912,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -509,7 +509,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 633,
+   "hits": 636,
    "verifiedHits": 553,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -517,6 +517,10 @@
     {
      "path": "/",
      "hits": 34
+    },
+    {
+     "path": "/api",
+     "hits": 3
     },
     {
      "path": "/posts/2026-10-18-founders-wire-open-weights-went-frontier-deepseek-beam.html",
@@ -529,10 +533,6 @@
     {
      "path": "/topics/agent-memory",
      "hits": 2
-    },
-    {
-     "path": "/posts/mcp-tool-annotations-explained.html",
-     "hits": 2
     }
    ],
    "verifiable": true
@@ -542,10 +542,10 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 628,
+   "hits": 631,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
-   "lastSeen": "2026-10-22",
+   "lastSeen": "2026-10-23",
    "topPaths": [
     {
      "path": "/docker-compose.yml",
@@ -564,7 +564,7 @@
      "hits": 1
     },
     {
-     "path": "/application.yml",
+     "path": "/admin",
      "hits": 1
     }
    ],
@@ -691,10 +691,10 @@
    "label": "Claude Search (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 34,
+   "hits": 35,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
-   "lastSeen": "2026-10-21",
+   "lastSeen": "2026-10-23",
    "topPaths": [
     {
      "path": "/z9x8c7v6b5-debug-trigger-www.dreaming.press",
@@ -709,11 +709,11 @@
      "hits": 2
     },
     {
-     "path": "/api%2F.env",
+     "path": "/pages/index.astro.mjs.map",
      "hits": 1
     },
     {
-     "path": "/app",
+     "path": "/api%2F.env",
      "hits": 1
     }
    ],
@@ -724,10 +724,10 @@
    "label": "Cohere",
    "category": "ai",
    "home": "https://cohere.com",
-   "hits": 29,
+   "hits": 30,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
-   "lastSeen": "2026-10-21",
+   "lastSeen": "2026-10-23",
    "topPaths": [
     {
      "path": "/",
@@ -738,15 +738,15 @@
      "hits": 2
     },
     {
+     "path": "/login",
+     "hits": 1
+    },
+    {
      "path": "/_astro/pages/index.astro.mjs.map",
      "hits": 1
     },
     {
      "path": "/server.key",
-     "hits": 1
-    },
-    {
-     "path": "/cgi-bin/php",
      "hits": 1
     }
    ],
