@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-23T00:04:20.103Z",
+ "generated": "2026-10-23T00:14:30.148Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18935,
+ "verifiedAiHits": 18941,
  "logsScanned": 30,
  "windowStart": "2026-10-09",
  "windowEnd": "2026-10-23",
- "totalHits": 116522,
- "aiHits": 93654,
+ "totalHits": 116583,
+ "aiHits": 93698,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30630,
+   "hits": 30653,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -47,10 +47,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15309,
+   "hits": 15310,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
-   "lastSeen": "2026-10-22",
+   "lastSeen": "2026-10-23",
    "topPaths": [
     {
      "path": "/dashboard",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13945,
+   "hits": 13953,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -113,10 +113,10 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7445,
+   "hits": 7451,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
-   "lastSeen": "2026-10-22",
+   "lastSeen": "2026-10-23",
    "topPaths": [
     {
      "path": "/build",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6762,
-   "verifiedHits": 6702,
+   "hits": 6763,
+   "verifiedHits": 6703,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5364,
+   "hits": 5365,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -278,14 +278,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5192,
-   "verifiedHits": 5139,
+   "hits": 5197,
+   "verifiedHits": 5144,
    "firstSeen": "2026-10-09",
-   "lastSeen": "2026-10-22",
+   "lastSeen": "2026-10-23",
    "topPaths": [
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
-     "hits": 121
+     "hits": 122
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
@@ -311,10 +311,10 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4000,
+   "hits": 4008,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
-   "lastSeen": "2026-10-22",
+   "lastSeen": "2026-10-23",
    "topPaths": [
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3839,
+   "hits": 3841,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -410,10 +410,10 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3525,
-   "verifiedHits": 3416,
+   "hits": 3526,
+   "verifiedHits": 3417,
    "firstSeen": "2026-10-09",
-   "lastSeen": "2026-10-22",
+   "lastSeen": "2026-10-23",
    "topPaths": [
     {
      "path": "/",
@@ -421,7 +421,7 @@
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 258
+     "hits": 259
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
@@ -476,7 +476,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 679,
+   "hits": 684,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
