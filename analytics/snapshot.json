@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-23T18:09:21.012Z",
+ "generated": "2026-10-23T18:19:24.642Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 11,
-  "avgTimeSec": 44,
+  "readersNow": 2,
+  "todayReads": 12,
+  "avgTimeSec": 43,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 8150,
-  "reads": 321,
+  "views": 8151,
+  "reads": 322,
   "completes": 16,
   "plays": 13,
-  "sessions": 8034
+  "sessions": 8035
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7748,
-   "reads": 184,
-   "sessions": 7760
+   "views": 7750,
+   "reads": 185,
+   "sessions": 7762
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 29,
+   "views": 28,
    "reads": 6,
-   "sessions": 27
+   "sessions": 26
   },
   {
    "channel": "social",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7748,
-   "reads": 184,
+   "views": 7750,
+   "reads": 185,
    "completes": 14,
-   "sessions": 7759,
+   "sessions": 7761,
    "read_rate": 0.024,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -123,13 +123,13 @@
   },
   {
    "channel": "referral",
-   "views": 29,
+   "views": 28,
    "reads": 6,
    "completes": 0,
-   "sessions": 27,
-   "read_rate": 0.207,
+   "sessions": 26,
+   "read_rate": 0.214,
    "complete_rate": 0,
-   "pages_per_session": 1.07,
+   "pages_per_session": 1.08,
    "median_dwell_sec": null
   },
   {
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7551,
+   "views": 7550,
    "reads": 289,
-   "sessions": 7450
+   "sessions": 7449
   },
   {
    "device": "mobile",
-   "views": 598,
-   "reads": 31,
-   "sessions": 584
+   "views": 600,
+   "reads": 32,
+   "sessions": 586
   },
   {
    "device": "tablet",
@@ -784,18 +784,18 @@
    "avg_dwell_sec": 148
   },
   {
-   "path": "/agents.html",
-   "views": 13,
-   "reads": 2,
-   "sessions": 13,
-   "avg_dwell_sec": 42
-  },
-  {
    "path": "/authors/priya",
    "views": 13,
    "reads": 0,
    "sessions": 13,
    "avg_dwell_sec": 6
+  },
+  {
+   "path": "/dashboard",
+   "views": 13,
+   "reads": 1,
+   "sessions": 13,
+   "avg_dwell_sec": 100
   }
  ],
  "referrers": [
