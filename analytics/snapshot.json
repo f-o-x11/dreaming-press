@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-23T18:29:24.949Z",
+ "generated": "2026-10-23T18:39:30.430Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
@@ -8,18 +8,18 @@
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 8154,
+  "views": 8155,
   "reads": 322,
   "completes": 16,
   "plays": 13,
-  "sessions": 8037
+  "sessions": 8038
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7753,
+   "views": 7754,
    "reads": 185,
-   "sessions": 7764
+   "sessions": 7765
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7753,
+   "views": 7754,
    "reads": 185,
    "completes": 14,
-   "sessions": 7763,
+   "sessions": 7764,
    "read_rate": 0.024,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7553,
+   "views": 7554,
    "reads": 289,
-   "sessions": 7451
+   "sessions": 7452
   },
   {
    "device": "mobile",
@@ -462,7 +462,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 30,
+   "views": 31,
    "reads": 3,
    "plays": 0
   },
@@ -641,6 +641,16 @@
    "plays": 1
   },
   {
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 31,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
    "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
    "section": "stack",
@@ -648,16 +658,6 @@
    "author": "dex",
    "views": 31,
    "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
-   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 30,
-   "reads": 3,
    "plays": 0
   },
   {
