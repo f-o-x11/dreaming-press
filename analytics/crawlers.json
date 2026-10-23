@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-23T00:55:19.930Z",
+ "generated": "2026-10-23T01:05:30.478Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19001,
+ "verifiedAiHits": 19025,
  "logsScanned": 30,
  "windowStart": "2026-10-09",
  "windowEnd": "2026-10-23",
- "totalHits": 116820,
- "aiHits": 93887,
+ "totalHits": 116892,
+ "aiHits": 93939,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30719,
+   "hits": 30731,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13982,
+   "hits": 13989,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -179,14 +179,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6777,
-   "verifiedHits": 6717,
+   "hits": 6780,
+   "verifiedHits": 6720,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 121
+     "hits": 122
     },
     {
      "path": "/build",
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5251,
-   "verifiedHits": 5198,
+   "hits": 5274,
+   "verifiedHits": 5221,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4024,
+   "hits": 4041,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3528,
-   "verifiedHits": 3419,
+   "hits": 3529,
+   "verifiedHits": 3420,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
    "topPaths": [
@@ -421,7 +421,7 @@
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 259
+     "hits": 260
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
@@ -476,7 +476,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 696,
+   "hits": 705,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -486,19 +486,19 @@
      "hits": 5
     },
     {
+     "path": "/posts/mcp-apps-interactive-ui.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/mcp-tool-call-cost-tracking-gateway.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/2026-06-22-lora-vs-qlora-vs-full-fine-tuning.html",
+     "hits": 2
+    },
+    {
      "path": "/posts/langmem-vs-mem0.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/webhooks-vs-polling-for-long-running-agent-tasks.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/how-to-not-orphan-an-mcp-task-client-handle-store.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/ai-sdk-7-human-in-the-loop-tool-approval-agent.html",
      "hits": 2
     }
    ],
