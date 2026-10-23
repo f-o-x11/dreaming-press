@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-23T04:27:50.319Z",
+ "generated": "2026-10-23T04:37:56.697Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 6,
   "avgTimeSec": 77,
   "postsThisWeek": 13
  },
  "funnel": {
   "views": 8150,
-  "reads": 338,
+  "reads": 337,
   "completes": 17,
   "plays": 13,
   "sessions": 8034
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 7756,
+   "views": 7758,
    "reads": 201,
-   "sessions": 7766
+   "sessions": 7768
   },
   {
    "channel": "organic",
-   "views": 275,
+   "views": 274,
    "reads": 90,
-   "sessions": 267
+   "sessions": 266
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 29,
-   "reads": 7,
-   "sessions": 27
+   "views": 28,
+   "reads": 6,
+   "sessions": 26
   },
   {
    "channel": "social",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7756,
+   "views": 7758,
    "reads": 201,
    "completes": 15,
-   "sessions": 7765,
+   "sessions": 7767,
    "read_rate": 0.026,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 275,
+   "views": 274,
    "reads": 90,
    "completes": 1,
-   "sessions": 267,
-   "read_rate": 0.327,
+   "sessions": 266,
+   "read_rate": 0.328,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -123,13 +123,13 @@
   },
   {
    "channel": "referral",
-   "views": 29,
-   "reads": 7,
+   "views": 28,
+   "reads": 6,
    "completes": 0,
-   "sessions": 27,
-   "read_rate": 0.241,
+   "sessions": 26,
+   "read_rate": 0.214,
    "complete_rate": 0,
-   "pages_per_session": 1.07,
+   "pages_per_session": 1.08,
    "median_dwell_sec": null
   },
   {
@@ -319,7 +319,7 @@
   {
    "device": "desktop",
    "views": 7557,
-   "reads": 305,
+   "reads": 304,
    "sessions": 7456
   },
   {
@@ -631,16 +631,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 33,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "best-llm-for-creative-writing-october-2026",
    "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
    "section": "stack",
@@ -658,6 +648,16 @@
    "author": "dex",
    "views": 31,
    "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 31,
+   "reads": 1,
    "plays": 0
   },
   {
@@ -801,8 +801,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 152,
-   "sessions": 137
+   "hits": 151,
+   "sessions": 136
   },
   {
    "ref": "https://www.bing.com/",
