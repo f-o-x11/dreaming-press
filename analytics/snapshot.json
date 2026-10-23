@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-23T10:33:00.127Z",
+ "generated": "2026-10-23T10:43:20.647Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 9,
-  "avgTimeSec": 57,
+  "avgTimeSec": 50,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 8131,
+  "views": 8133,
   "reads": 326,
   "completes": 16,
   "plays": 13,
-  "sessions": 8016
+  "sessions": 8018
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7732,
+   "views": 7733,
    "reads": 189,
-   "sessions": 7743
+   "sessions": 7745
   },
   {
    "channel": "organic",
-   "views": 279,
+   "views": 280,
    "reads": 91,
-   "sessions": 270
+   "sessions": 271
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7732,
+   "views": 7733,
    "reads": 189,
    "completes": 14,
-   "sessions": 7742,
+   "sessions": 7744,
    "read_rate": 0.024,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 279,
+   "views": 280,
    "reads": 91,
    "completes": 1,
-   "sessions": 270,
-   "read_rate": 0.326,
+   "sessions": 271,
+   "read_rate": 0.325,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7538,
+   "views": 7539,
    "reads": 293,
-   "sessions": 7438
+   "sessions": 7439
   },
   {
    "device": "mobile",
-   "views": 592,
+   "views": 593,
    "reads": 32,
-   "sessions": 578
+   "sessions": 579
   },
   {
    "device": "tablet",
@@ -641,6 +641,16 @@
    "plays": 1
   },
   {
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 32,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "open-weight-llms-you-actually-run-locally-october-2026",
    "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
    "section": "stack",
@@ -648,16 +658,6 @@
    "author": "dex",
    "views": 31,
    "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 31,
-   "reads": 1,
    "plays": 0
   },
   {
@@ -811,8 +811,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 73,
-   "sessions": 44
+   "hits": 74,
+   "sessions": 45
   },
   {
    "ref": "https://cn.bing.com/",
