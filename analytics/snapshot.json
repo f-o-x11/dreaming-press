@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-23T23:03:21.178Z",
+ "generated": "2026-10-23T23:13:25.559Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 0,
   "todayReads": 16,
   "avgTimeSec": 36,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 8212,
+  "views": 8210,
   "reads": 320,
   "completes": 16,
   "plays": 13,
-  "sessions": 8099
+  "sessions": 8097
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7812,
+   "views": 7810,
    "reads": 182,
-   "sessions": 7825
+   "sessions": 7823
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7812,
+   "views": 7810,
    "reads": 182,
    "completes": 14,
-   "sessions": 7824,
+   "sessions": 7822,
    "read_rate": 0.023,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7605,
+   "views": 7604,
    "reads": 286,
-   "sessions": 7507
+   "sessions": 7506
   },
   {
    "device": "mobile",
-   "views": 606,
+   "views": 605,
    "reads": 33,
-   "sessions": 592
+   "sessions": 591
   },
   {
    "device": "tablet",
@@ -462,7 +462,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 31,
+   "views": 30,
    "reads": 3,
    "plays": 0
   },
@@ -641,16 +641,6 @@
    "plays": 1
   },
   {
-   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
-   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 31,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
    "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
    "section": "stack",
@@ -658,6 +648,16 @@
    "author": "dex",
    "views": 31,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 30,
+   "reads": 3,
    "plays": 0
   },
   {
