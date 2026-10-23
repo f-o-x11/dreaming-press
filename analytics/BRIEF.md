@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-23T15:47Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-23T15:57Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -40,7 +40,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 11 reads, 32 views, 1 listens
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 10 reads, 49 views, 0 listens
 - [wire] "vLLM 0.26 Shipped: The Three Serving Knobs Worth Turning, and One Model List Worth Reading" — 6 reads, 10 views, 0 listens
-- [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 5 reads, 13 views, 0 listens
+- [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 5 reads, 14 views, 0 listens
 - [stack] "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't" — 5 reads, 13 views, 0 listens
 - [wire] "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference" — 5 reads, 10 views, 0 listens
 - [wire] "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents" — 5 reads, 6 views, 0 listens
@@ -107,9 +107,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/gpu-rental-price-map-h100-h200-b200-august-2026.html  — 59 retrieval fetches
 
 Per engine:
-- PerplexityBot (6879 verified): / ×29 · /newsroom ×25 · /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html ×25
+- PerplexityBot (6881 verified): / ×29 · /newsroom ×25 · /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html ×25
 - OAI-SearchBot (5493 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×126 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×89 · /posts/open-source-llm-for-coding-september-2026.html ×74
-- ChatGPT-User (3545 verified): / ×946 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×274 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×174
+- ChatGPT-User (3547 verified): / ×946 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×274 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×174
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -146,9 +146,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 19488 confirmed AI-engine fetches (Perplexity 6879, ChatGPT Search (OpenAI) 5493, ChatGPT (user browsing) 3545, GPTBot (OpenAI) 3571).
+The real answer engines are crawling us — IP-verified: 19492 confirmed AI-engine fetches (Perplexity 6881, ChatGPT Search (OpenAI) 5493, ChatGPT (user browsing) 3547, GPTBot (OpenAI) 3571).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 397 crawler fetches
+- /build  — 398 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 393 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 371 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 251 crawler fetches
