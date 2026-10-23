@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-23T02:06:21.240Z",
+ "generated": "2026-10-23T02:16:27.036Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19119,
+ "verifiedAiHits": 19123,
  "logsScanned": 30,
  "windowStart": "2026-10-09",
  "windowEnd": "2026-10-23",
- "totalHits": 117280,
- "aiHits": 94232,
+ "totalHits": 117330,
+ "aiHits": 94259,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30821,
+   "hits": 30833,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15347,
+   "hits": 15350,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14031,
+   "hits": 14039,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7486,
+   "hits": 7490,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6807,
-   "verifiedHits": 6747,
+   "hits": 6817,
+   "verifiedHits": 6757,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5355,
-   "verifiedHits": 5302,
+   "hits": 5358,
+   "verifiedHits": 5305,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4081,
+   "hits": 4089,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -329,11 +329,11 @@
      "hits": 10
     },
     {
-     "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
+     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
      "hits": 8
     },
     {
-     "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
+     "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
      "hits": 8
     }
    ],
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3850,
+   "hits": 3851,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -352,6 +352,10 @@
     {
      "path": "/build",
      "hits": 31
+    },
+    {
+     "path": "/posts/cut-llm-api-costs-model-routing-by-task-2026.md",
+     "hits": 4
     },
     {
      "path": "/posts/tuning-claude-context-editing-trigger-keep-clear-at-least.md",
@@ -363,10 +367,6 @@
     },
     {
      "path": "/posts/how-to-add-tool-annotations-to-your-mcp-server.md",
-     "hits": 4
-    },
-    {
-     "path": "/posts/gpt-5-6-prompt-caching-explicit-breakpoints.md",
      "hits": 4
     }
    ],
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3536,
-   "verifiedHits": 3427,
+   "hits": 3537,
+   "verifiedHits": 3428,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
    "topPaths": [
