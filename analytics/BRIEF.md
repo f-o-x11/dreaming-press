@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-23T00:45Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-23T00:55Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 8152 views → 336 engaged reads → 17 completes · 8036 sessions.
-- Channels: direct 199r/7761v · organic 90r/273v · campaign:chatgpt.com 19r/36v · ai 12r/41v · referral 7r/29v · social 4r/6v · campaign:owner-qa 4r/4v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · internal-nav 0r/0v.
+- Funnel: 8151 views → 336 engaged reads → 17 completes · 8035 sessions.
+- Channels: direct 199r/7760v · organic 90r/273v · campaign:chatgpt.com 19r/36v · ai 12r/41v · referral 7r/29v · social 4r/6v · campaign:owner-qa 4r/4v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 22r/43v · Doubao 4r/5v · Perplexity 2r/3v · Claude 2r/2v · Yuanbao 1r/1v · Kimi 0r/21v · Poe 0r/1v · Copilot 0r/1v.
 - Referrers: google.com, bing.com, duckduckgo.com, cn.bing.com, search.brave.com, nav-cmp, brand, chatgpt.com, ecosia.org, doubao.com.
 - Engaged-read winners by section: stack=6, wire=9.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 7761 views · read 2.6% · complete 0.2% · 1 pages/session · median 9s
+- direct: 7760 views · read 2.6% · complete 0.2% · 1 pages/session · median 9s
 - organic: 273 views · read 33.0% · complete 0.4% · 1.03 pages/session · median 3s
 - ai: 41 views · read 29.3% · complete 0.0% · 0.79 pages/session · median 4s
 - campaign:chatgpt.com: 36 views · read 52.8% · complete 0.0% · 1.29 pages/session · median ?s
@@ -107,8 +107,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (6815 verified): / ×28 · /newsroom ×25 · /tools ×25
-- OAI-SearchBot (5182 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×122 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×88 · /posts/open-source-llm-for-coding-september-2026.html ×71
-- ChatGPT-User (3418 verified): / ×917 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×259 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×166
+- OAI-SearchBot (5198 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×122 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×88 · /posts/open-source-llm-for-coding-september-2026.html ×71
+- ChatGPT-User (3419 verified): / ×917 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×259 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×166
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -145,7 +145,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 18984 confirmed AI-engine fetches (Perplexity 6815, ChatGPT Search (OpenAI) 5182, GPTBot (OpenAI) 3569, ChatGPT (user browsing) 3418).
+The real answer engines are crawling us — IP-verified: 19001 confirmed AI-engine fetches (Perplexity 6815, ChatGPT Search (OpenAI) 5198, GPTBot (OpenAI) 3569, ChatGPT (user browsing) 3419).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 383 crawler fetches
 - /build  — 376 crawler fetches
