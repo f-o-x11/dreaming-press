@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-23T13:05:00.851Z",
+ "generated": "2026-10-23T13:15:06.251Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 3,
   "todayReads": 9,
-  "avgTimeSec": 46,
+  "avgTimeSec": 44,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 8128,
+  "views": 8129,
   "reads": 326,
   "completes": 16,
   "plays": 13,
-  "sessions": 8012
+  "sessions": 8013
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7727,
+   "views": 7728,
    "reads": 189,
-   "sessions": 7739
+   "sessions": 7740
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7727,
+   "views": 7728,
    "reads": 189,
    "completes": 14,
-   "sessions": 7738,
+   "sessions": 7739,
    "read_rate": 0.024,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7537,
+   "views": 7538,
    "reads": 293,
-   "sessions": 7436
+   "sessions": 7437
   },
   {
    "device": "mobile",
@@ -387,22 +387,22 @@
    "plays": 0
   },
   {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 13,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
    "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
    "section": "stack",
    "tags": "[\"compare\",\"opinionated\"]",
    "author": "dex",
    "views": 13,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 12,
    "reads": 5,
    "plays": 0
   },
