@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-23T11:54:30.221Z",
+ "generated": "2026-10-23T12:04:31.380Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19365,
+ "verifiedAiHits": 19370,
  "logsScanned": 30,
  "windowStart": "2026-10-09",
  "windowEnd": "2026-10-23",
- "totalHits": 120219,
- "aiHits": 96275,
+ "totalHits": 120271,
+ "aiHits": 96315,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31691,
+   "hits": 31709,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15562,
+   "hits": 15566,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -65,11 +65,11 @@
      "hits": 8
     },
     {
-     "path": "/posts/how-to-run-local-memory-server-openmemory-mcp.html",
+     "path": "/posts/anthropic-opus-4-1-retires-august-5-temperature-400-error-fixes.html",
      "hits": 6
     },
     {
-     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
+     "path": "/posts/how-to-run-local-memory-server-openmemory-mcp.html",
      "hits": 6
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14454,
+   "hits": 14463,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7947,
+   "hits": 7953,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6966,
-   "verifiedHits": 6904,
+   "hits": 6971,
+   "verifiedHits": 6909,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5491,
-   "verifiedHits": 5438,
+   "hits": 5495,
+   "verifiedHits": 5442,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3910,
+   "hits": 3911,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -371,6 +371,39 @@
     }
    ],
    "verifiable": false
+  },
+  {
+   "name": "ChatGPT-User",
+   "label": "ChatGPT (user browsing)",
+   "category": "ai",
+   "home": "https://openai.com/bot",
+   "hits": 3618,
+   "verifiedHits": 3504,
+   "firstSeen": "2026-10-09",
+   "lastSeen": "2026-10-23",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 939
+    },
+    {
+     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
+     "hits": 271
+    },
+    {
+     "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
+     "hits": 171
+    },
+    {
+     "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
+     "hits": 114
+    },
+    {
+     "path": "/posts/2026-10-15-founders-wire-anthropic-opens-its-books.html",
+     "hits": 83
+    }
+   ],
+   "verifiable": true
   },
   {
    "name": "GPTBot",
@@ -401,39 +434,6 @@
     {
      "path": "/",
      "hits": 3
-    }
-   ],
-   "verifiable": true
-  },
-  {
-   "name": "ChatGPT-User",
-   "label": "ChatGPT (user browsing)",
-   "category": "ai",
-   "home": "https://openai.com/bot",
-   "hits": 3617,
-   "verifiedHits": 3503,
-   "firstSeen": "2026-10-09",
-   "lastSeen": "2026-10-23",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 938
-    },
-    {
-     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 271
-    },
-    {
-     "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 171
-    },
-    {
-     "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
-     "hits": 114
-    },
-    {
-     "path": "/posts/2026-10-15-founders-wire-anthropic-opens-its-books.html",
-     "hits": 83
     }
    ],
    "verifiable": true
@@ -476,7 +476,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 934,
+   "hits": 938,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
