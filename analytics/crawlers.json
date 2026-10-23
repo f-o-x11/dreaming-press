@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-23T08:50:49.931Z",
+ "generated": "2026-10-23T09:00:59.993Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19287,
+ "verifiedAiHits": 19295,
  "logsScanned": 30,
  "windowStart": "2026-10-09",
  "windowEnd": "2026-10-23",
- "totalHits": 119290,
- "aiHits": 95647,
+ "totalHits": 119342,
+ "aiHits": 95688,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31442,
+   "hits": 31463,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14317,
+   "hits": 14324,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7808,
+   "hits": 7818,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -146,8 +146,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 6935,
-   "verifiedHits": 6845,
+   "hits": 6937,
+   "verifiedHits": 6847,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
    "topPaths": [
@@ -160,12 +160,12 @@
      "hits": 25
     },
     {
-     "path": "/tools",
+     "path": "/posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html",
      "hits": 25
     },
     {
-     "path": "/posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html",
-     "hits": 24
+     "path": "/tools",
+     "hits": 25
     },
     {
      "path": "/dashboard",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6904,
-   "verifiedHits": 6843,
+   "hits": 6905,
+   "verifiedHits": 6844,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5444,
-   "verifiedHits": 5391,
+   "hits": 5450,
+   "verifiedHits": 5397,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
    "topPaths": [
@@ -476,14 +476,14 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 881,
+   "hits": 886,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 11
+     "hits": 12
     },
     {
      "path": "/posts/how-to-roll-back-an-ai-agents-actions.html",
