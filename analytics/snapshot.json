@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-23T19:00:00.565Z",
+ "generated": "2026-10-23T19:10:20.615Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 1,
   "todayReads": 12,
   "avgTimeSec": 40,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 8162,
+  "views": 8160,
   "reads": 321,
   "completes": 16,
   "plays": 13,
-  "sessions": 8044
+  "sessions": 8042
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7761,
+   "views": 7760,
    "reads": 184,
-   "sessions": 7771
+   "sessions": 7769
   },
   {
    "channel": "organic",
-   "views": 282,
+   "views": 281,
    "reads": 91,
-   "sessions": 273
+   "sessions": 272
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7761,
+   "views": 7760,
    "reads": 184,
    "completes": 14,
-   "sessions": 7770,
+   "sessions": 7768,
    "read_rate": 0.024,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 282,
+   "views": 281,
    "reads": 91,
    "completes": 1,
-   "sessions": 273,
-   "read_rate": 0.323,
+   "sessions": 272,
+   "read_rate": 0.324,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7561,
+   "views": 7559,
    "reads": 288,
-   "sessions": 7458
+   "sessions": 7456
   },
   {
    "device": "mobile",
@@ -372,7 +372,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 48,
+   "views": 47,
    "reads": 9,
    "plays": 0
   },
@@ -606,7 +606,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 48,
+   "views": 47,
    "reads": 9,
    "plays": 0
   },
@@ -806,8 +806,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 80,
-   "sessions": 42
+   "hits": 79,
+   "sessions": 41
   },
   {
    "ref": "https://duckduckgo.com/",
