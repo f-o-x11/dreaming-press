@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-23T17:28:43.380Z",
+ "generated": "2026-10-23T17:39:00.183Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19584,
+ "verifiedAiHits": 19590,
  "logsScanned": 30,
  "windowStart": "2026-10-09",
  "windowEnd": "2026-10-23",
- "totalHits": 121995,
- "aiHits": 97660,
+ "totalHits": 122056,
+ "aiHits": 97712,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32261,
+   "hits": 32276,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15718,
+   "hits": 15729,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14716,
+   "hits": 14723,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8158,
+   "hits": 8166,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5582,
-   "verifiedHits": 5529,
+   "hits": 5586,
+   "verifiedHits": 5533,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5413,
+   "hits": 5414,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3934,
+   "hits": 3935,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3677,
-   "verifiedHits": 3563,
+   "hits": 3679,
+   "verifiedHits": 3565,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
    "topPaths": [
     {
      "path": "/",
-     "hits": 950
+     "hits": 951
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -476,7 +476,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1076,
+   "hits": 1080,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -571,6 +571,39 @@
    "verifiable": false
   },
   {
+   "name": "MistralAI",
+   "label": "Mistral AI",
+   "category": "ai",
+   "home": "https://mistral.ai",
+   "hits": 163,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-09",
+   "lastSeen": "2026-10-23",
+   "topPaths": [
+    {
+     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
+     "hits": 18
+    },
+    {
+     "path": "/posts/best-llm-for-creative-writing-october-2026.html",
+     "hits": 8
+    },
+    {
+     "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
+     "hits": 4
+    },
+    {
+     "path": "/posts/context-compaction-erases-agent-guardrails.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "YandexBot",
    "label": "Yandex",
    "category": "search",
@@ -599,39 +632,6 @@
     {
      "path": "/posts/langfuse-vs-langsmith-vs-phoenix-observability.html",
      "hits": 1
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "MistralAI",
-   "label": "Mistral AI",
-   "category": "ai",
-   "home": "https://mistral.ai",
-   "hits": 155,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-09",
-   "lastSeen": "2026-10-23",
-   "topPaths": [
-    {
-     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 18
-    },
-    {
-     "path": "/posts/best-llm-for-creative-writing-october-2026.html",
-     "hits": 8
-    },
-    {
-     "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-10-18-founders-wire-open-weights-went-frontier-deepseek-beam.html",
-     "hits": 2
     }
    ],
    "verifiable": false
