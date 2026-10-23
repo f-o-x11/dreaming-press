@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-23T17:08:36.994Z",
+ "generated": "2026-10-23T17:18:40.263Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19533,
+ "verifiedAiHits": 19581,
  "logsScanned": 30,
  "windowStart": "2026-10-09",
  "windowEnd": "2026-10-23",
- "totalHits": 121877,
- "aiHits": 97561,
+ "totalHits": 121963,
+ "aiHits": 97634,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32252,
+   "hits": 32257,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15711,
+   "hits": 15715,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14702,
+   "hits": 14709,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8148,
+   "hits": 8154,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7074,
-   "verifiedHits": 7012,
+   "hits": 7080,
+   "verifiedHits": 7018,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
    "topPaths": [
@@ -169,7 +169,7 @@
     },
     {
      "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
-     "hits": 31
+     "hits": 32
     }
    ],
    "verifiable": true
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 6975,
-   "verifiedHits": 6883,
+   "hits": 7013,
+   "verifiedHits": 6921,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5573,
-   "verifiedHits": 5520,
+   "hits": 5580,
+   "verifiedHits": 5527,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3933,
+   "hits": 3934,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3673,
-   "verifiedHits": 3559,
+   "hits": 3676,
+   "verifiedHits": 3562,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1412,
+   "hits": 1414,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -476,14 +476,14 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1060,
+   "hits": 1067,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 19
+     "hits": 20
     },
     {
      "path": "/posts/how-to-roll-back-an-ai-agents-actions.html",
