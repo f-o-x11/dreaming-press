@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-23T04:07:39.942Z",
+ "generated": "2026-10-23T04:17:40.273Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 19164,
+ "verifiedAiHits": 19165,
  "logsScanned": 30,
  "windowStart": "2026-10-09",
  "windowEnd": "2026-10-23",
- "totalHits": 117893,
- "aiHits": 94675,
+ "totalHits": 117935,
+ "aiHits": 94697,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31038,
+   "hits": 31043,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15380,
+   "hits": 15385,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14121,
+   "hits": 14128,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7561,
+   "hits": 7566,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6829,
-   "verifiedHits": 6768,
+   "hits": 6832,
+   "verifiedHits": 6771,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5378,
-   "verifiedHits": 5325,
+   "hits": 5379,
+   "verifiedHits": 5326,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3858,
+   "hits": 3860,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -476,7 +476,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 776,
+   "hits": 780,
    "verifiedHits": 0,
    "firstSeen": "2026-10-09",
    "lastSeen": "2026-10-23",
@@ -503,6 +503,39 @@
     }
    ],
    "verifiable": false
+  },
+  {
+   "name": "Googlebot",
+   "label": "Googlebot",
+   "category": "search",
+   "home": "https://developers.google.com/search",
+   "hits": 628,
+   "verifiedHits": 548,
+   "firstSeen": "2026-10-09",
+   "lastSeen": "2026-10-23",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 33
+    },
+    {
+     "path": "/posts/2026-10-18-founders-wire-open-weights-went-frontier-deepseek-beam.html",
+     "hits": 3
+    },
+    {
+     "path": "/dashboard",
+     "hits": 2
+    },
+    {
+     "path": "/topics/agent-memory",
+     "hits": 2
+    },
+    {
+     "path": "/posts/mcp-tool-annotations-explained.html",
+     "hits": 2
+    }
+   ],
+   "verifiable": true
   },
   {
    "name": "CCBot",
@@ -536,39 +569,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "Googlebot",
-   "label": "Googlebot",
-   "category": "search",
-   "home": "https://developers.google.com/search",
-   "hits": 618,
-   "verifiedHits": 538,
-   "firstSeen": "2026-10-09",
-   "lastSeen": "2026-10-23",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 31
-    },
-    {
-     "path": "/posts/2026-10-18-founders-wire-open-weights-went-frontier-deepseek-beam.html",
-     "hits": 3
-    },
-    {
-     "path": "/dashboard",
-     "hits": 2
-    },
-    {
-     "path": "/topics/agent-memory",
-     "hits": 2
-    },
-    {
-     "path": "/posts/mcp-tool-annotations-explained.html",
-     "hits": 2
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "YandexBot",
