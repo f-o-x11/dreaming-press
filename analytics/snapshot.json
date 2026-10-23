@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-23T01:56:20.422Z",
+ "generated": "2026-10-23T02:06:21.556Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 10,
   "todayReads": 3,
-  "avgTimeSec": 42,
+  "avgTimeSec": 31,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 8149,
+  "views": 8159,
   "reads": 336,
   "completes": 17,
   "plays": 13,
-  "sessions": 8033
+  "sessions": 8043
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7757,
+   "views": 7758,
    "reads": 199,
-   "sessions": 7766
+   "sessions": 7768
   },
   {
    "channel": "organic",
-   "views": 273,
+   "views": 282,
    "reads": 90,
-   "sessions": 265
+   "sessions": 274
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7757,
+   "views": 7758,
    "reads": 199,
    "completes": 15,
-   "sessions": 7765,
+   "sessions": 7767,
    "read_rate": 0.026,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 273,
+   "views": 282,
    "reads": 90,
    "completes": 1,
-   "sessions": 265,
-   "read_rate": 0.33,
+   "sessions": 274,
+   "read_rate": 0.319,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7556,
+   "views": 7566,
    "reads": 303,
-   "sessions": 7455
+   "sessions": 7465
   },
   {
    "device": "mobile",
@@ -694,9 +694,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 758,
+   "views": 759,
    "reads": 10,
-   "sessions": 758,
+   "sessions": 759,
    "avg_dwell_sec": 79
   },
   {
@@ -801,8 +801,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 151,
-   "sessions": 135
+   "hits": 160,
+   "sessions": 143
   },
   {
    "ref": "https://www.bing.com/",
@@ -816,8 +816,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 36,
-   "sessions": 21
+   "hits": 37,
+   "sessions": 22
   },
   {
    "ref": "https://search.brave.com/",
