@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-23T08:40:44.990Z",
+ "generated": "2026-10-23T08:50:50.182Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 2,
   "todayReads": 9,
   "avgTimeSec": 64,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 8156,
+  "views": 8154,
   "reads": 338,
   "completes": 16,
   "plays": 13,
-  "sessions": 8039
+  "sessions": 8038
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7757,
+   "views": 7754,
    "reads": 200,
-   "sessions": 7767
+   "sessions": 7765
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 36,
+   "views": 37,
    "reads": 19,
-   "sessions": 28
+   "sessions": 29
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7757,
+   "views": 7754,
    "reads": 200,
    "completes": 14,
-   "sessions": 7766,
+   "sessions": 7764,
    "read_rate": 0.026,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -112,13 +112,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 36,
+   "views": 37,
    "reads": 19,
    "completes": 0,
-   "sessions": 28,
-   "read_rate": 0.528,
+   "sessions": 29,
+   "read_rate": 0.514,
    "complete_rate": 0,
-   "pages_per_session": 1.29,
+   "pages_per_session": 1.28,
    "median_dwell_sec": null
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 43,
+   "views": 44,
    "reads": 22,
-   "sessions": 28
+   "sessions": 29
   },
   {
    "assistant": "Doubao",
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7561,
+   "views": 7559,
    "reads": 305,
-   "sessions": 7459
+   "sessions": 7458
   },
   {
    "device": "mobile",
@@ -770,18 +770,18 @@
    "avg_dwell_sec": null
   },
   {
+   "path": "/about.html",
+   "views": 15,
+   "reads": 1,
+   "sessions": 12,
+   "avg_dwell_sec": 26
+  },
+  {
    "path": "/partner",
    "views": 15,
    "reads": 2,
    "sessions": 13,
    "avg_dwell_sec": 148
-  },
-  {
-   "path": "/about.html",
-   "views": 14,
-   "reads": 1,
-   "sessions": 11,
-   "avg_dwell_sec": 26
   },
   {
    "path": "/agents.html",
