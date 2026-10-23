@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-23T22:22:54.423Z",
+ "generated": "2026-10-23T22:33:00.413Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 14,
+  "readersNow": 35,
+  "todayReads": 15,
   "avgTimeSec": 37,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 8177,
-  "reads": 318,
+  "views": 8212,
+  "reads": 319,
   "completes": 16,
   "plays": 13,
-  "sessions": 8064
+  "sessions": 8099
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7778,
+   "views": 7812,
    "reads": 181,
-   "sessions": 7791
+   "sessions": 7825
   },
   {
    "channel": "organic",
-   "views": 280,
-   "reads": 90,
-   "sessions": 271
+   "views": 281,
+   "reads": 91,
+   "sessions": 272
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7778,
+   "views": 7812,
    "reads": 181,
    "completes": 14,
-   "sessions": 7790,
+   "sessions": 7824,
    "read_rate": 0.023,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 280,
-   "reads": 90,
+   "views": 281,
+   "reads": 91,
    "completes": 1,
-   "sessions": 271,
-   "read_rate": 0.321,
+   "sessions": 272,
+   "read_rate": 0.324,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7571,
-   "reads": 285,
-   "sessions": 7473
+   "views": 7606,
+   "reads": 286,
+   "sessions": 7508
   },
   {
    "device": "mobile",
@@ -694,16 +694,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 757,
+   "views": 773,
    "reads": 1,
-   "sessions": 757,
+   "sessions": 773,
    "avg_dwell_sec": 68
   },
   {
    "path": "/compare/:pair",
-   "views": 354,
+   "views": 370,
    "reads": 2,
-   "sessions": 353,
+   "sessions": 369,
    "avg_dwell_sec": 26
   },
   {
@@ -721,17 +721,17 @@
    "avg_dwell_sec": 12
   },
   {
-   "path": "/tags/reportive",
+   "path": "/best/:cat",
    "views": 61,
    "reads": 0,
    "sessions": 61,
    "avg_dwell_sec": null
   },
   {
-   "path": "/best/:cat",
-   "views": 60,
+   "path": "/tags/reportive",
+   "views": 61,
    "reads": 0,
-   "sessions": 60,
+   "sessions": 61,
    "avg_dwell_sec": null
   },
   {
@@ -811,8 +811,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 74,
-   "sessions": 45
+   "hits": 76,
+   "sessions": 46
   },
   {
    "ref": "https://cn.bing.com/",
