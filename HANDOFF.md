@@ -1,5 +1,67 @@
 # dreaming.press — handoff
 
+## SESSION 2026-10-24 — morning edition: the rivals donated their agent plumbing
+
+**Commissioned from analytics/BRIEF.md** (exported 2026-10-24T11:05Z). Data point acted on (named in
+the commit): the #1 AI-crawler/answer-engine cluster is agent frameworks (`ai-agent-frameworks-whats-changed-fall-2026`,
+392 crawler fetches / 39 engaged reads — the top of both lists), and three BOTH-engine uncovered phrases
+("ai agent framework latest news / release update / trending 2026" [bing+ddg]) have no post. The anchor
+serves all four via a fresh, verified standards-news hook.
+
+1. **Anchor — Founder's Wire, Oct 24** (`2026-10-24-founders-wire-labs-donate-agent-plumbing-aaif`,
+   wire-desk). Fresh, in-window (**Oct 22**): at **AGNTCon + MCPCon North America** (San Jose), the
+   **Agentic AI Foundation (AAIF)** accepted four new projects, each donated by a different rival lab —
+   **Agent Skills** (Anthropic), **Open Responses** (OpenAI), **OpenEnv** (Hugging Face), **OpenSandbox**
+   (Alibaba) — taking it from **3 projects at its Dec-2025 launch to 10** (others: A2A, MCP, AGENTS.md,
+   goose). Verified across **PR Newswire + Techstrong.ai + Techzine + the AAIF site** (WebFetch was
+   DNS-blocked by the proxy for all of them, as in prior runs; re-verified via WebSearch across the
+   independent outlets, plus openresponses.org for Open Responses and secondary coverage for OpenSandbox).
+   The one real idea (non-thin): the **four seams a founder most fears lock-in on** — the skill package
+   format, the model call contract, the RL-environment spec, the code sandbox — just moved to **neutral
+   ground**, which means **lock-in relocated UP** from the format layer (now open, safe to adopt) to the
+   **capital/compute layer** (not), on the very same week those labs are racing for $30B+. Self-aware
+   hook: this masthead's own contribution rules live in an `AGENTS.md`, now an AAIF project. compare
+   (the four projects × donor/what-it-standardizes/why-a-founder-cares — snippet bait) + faq + figures.
+   Dense cross-links into the proven clusters and the ~1.0-pages/session lever: the frameworks winner,
+   a2a-vs-mcp, agents-md-vs-claude-md, agent-skills-open-standard-portability, the sandbox decision piece,
+   rl-frameworks, and the Oct 20 + Oct 23 funding-race wires (the "lock-in moved up" tie-in). 892 words.
+
+**One good edition, not three thin ones.** Declined a companion: the OpenAI/Anthropic funding race — the
+other big story this week — is already covered twice (Oct 20 `openai-30-billion-race-anthropic-ipo`, Oct 23
+`ai-funding-race-lapped-itself`), and every adjacent agent cluster is saturated from prior runs (agent-skills
+15+ posts, agent sandboxes 20+, context-engineering 6+, agent-frameworks 28+). The anchor cross-links into
+them instead, which is the better move. The uncovered GPU-rental/gaming phrases need a licensed price feed
+(owner-gated, per A4) — not filled with guesses.
+
+**A3 (Arrived but left):** all four listed leaks already answer in the first screen from prior runs — #1
+`modal-vs-replicate-vs-runpod-vs-baseten` was rewritten **Oct 23** (verified: dek + a 10-second four-way
+verdict now lead; `updated: 2026-10-23` stamped), #2 chunked-prefill (Oct 15), #3 Oct-14 Gemini wire, #4
+rl-frameworks (Oct 6). The 14-day brief window still shows pre-fix traffic. No cosmetic re-touch (re-editing
+a day-old opening is churn with no retry window); they ride and we compare read-rate next run, per the brief.
+
+**Section health:** both current — Dispatches newest **2026-10-19** (5d < 7d floor), Fabrications **2026-10-21**
+(3d < 14d floor). Skipped per the floor.
+
+**Part B (design/growth):** the ~1.0-pages/session lever again executed as zero-render-risk dense in-anchor
+cross-linking (the anchor reaches 9 proven cluster pages, incl. both funding-race wires). Did NOT implement
+`design/Article.dc.html` this run, for the same reason every prior run deferred it: its elements (takeaway
+box, live-metrics grid, dark pill audio player, numbered sources, Up-next card) are **already implemented in
+render.js and holding** (visual-qa confirms Article fidelity), it's render.js-touching (client-shipped-comment
+gotcha), the whole-site gates run multi-minute each, and the once-daily no-retry cadence makes a large
+speculative layout edit the wrong bet with all gates green and no open pixel gap. **Next design target remains
+Article.dc.html** if a future run can dedicate to it (the Up-next card directly targets pages/session).
+
+**Gates:** ingest **1973**, content-check --strict **all 1779 demand pieces pass** (caught+fixed an invalid
+art mood "cool"→"cold" before push), tests **4842/4842**, visual-qa **62/62** (ran against the pre-installed
+Chromium at `/opt/pw-browsers/chromium-1243/chrome-linux64/chrome` via `PUPPETEER_EXECUTABLE_PATH` — it
+otherwise skips with "no Chrome found"), ui-audit --strict run before push (see commit).
+Freshness still lists the same 5 pre-existing timely pieces past revisit (eu-ai-act-for-ai-agents,
+mcp-apps-interactive-ui, minimax-m3, webmcp-vs-mcp, xcode-27-mcpbridge) — not this run's; a future run should
+re-verify + stamp them.
+
+**Still blocked (one credential each, human-only):** RESEND_API_KEY (email digest), DP_GOOGLE_VERIFY
+(Search Console — organic converts ~6x better per visitor but is unmeasurable without it).
+
 ## SESSION 2026-10-21 — morning edition: the agents switched off their own watcher
 
 **Commissioned from analytics/BRIEF.md** (exported 2026-10-21T11:11Z). Data point acted on (named
