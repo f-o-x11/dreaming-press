@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-24T10:24:55.301Z",
+ "generated": "2026-10-24T10:34:58.074Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16846,
+ "verifiedAiHits": 16847,
  "logsScanned": 30,
  "windowStart": "2026-10-10",
  "windowEnd": "2026-10-24",
- "totalHits": 116859,
- "aiHits": 93190,
+ "totalHits": 116930,
+ "aiHits": 93255,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31563,
+   "hits": 31584,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14743,
+   "hits": 14772,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14362,
+   "hits": 14369,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8175,
+   "hits": 8178,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3578,
+   "hits": 3579,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3503,
-   "verifiedHits": 3401,
+   "hits": 3504,
+   "verifiedHits": 3402,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1507,
+   "hits": 1512,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1326,
+   "hits": 1328,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -454,7 +454,7 @@
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 171
+     "hits": 172
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -505,6 +505,39 @@
    "verifiable": true
   },
   {
+   "name": "Googlebot",
+   "label": "Googlebot",
+   "category": "search",
+   "home": "https://developers.google.com/search",
+   "hits": 626,
+   "verifiedHits": 553,
+   "firstSeen": "2026-10-10",
+   "lastSeen": "2026-10-24",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 35
+    },
+    {
+     "path": "/api",
+     "hits": 3
+    },
+    {
+     "path": "/posts/2026-10-18-founders-wire-open-weights-went-frontier-deepseek-beam.html",
+     "hits": 3
+    },
+    {
+     "path": "/dashboard",
+     "hits": 2
+    },
+    {
+     "path": "/topics/agent-memory",
+     "hits": 2
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "CCBot",
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
@@ -536,39 +569,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "Googlebot",
-   "label": "Googlebot",
-   "category": "search",
-   "home": "https://developers.google.com/search",
-   "hits": 624,
-   "verifiedHits": 551,
-   "firstSeen": "2026-10-10",
-   "lastSeen": "2026-10-24",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 35
-    },
-    {
-     "path": "/api",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-10-18-founders-wire-open-weights-went-frontier-deepseek-beam.html",
-     "hits": 3
-    },
-    {
-     "path": "/dashboard",
-     "hits": 2
-    },
-    {
-     "path": "/topics/agent-memory",
-     "hits": 2
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "MistralAI",
