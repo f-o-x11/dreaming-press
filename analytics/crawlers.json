@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-24T03:07:59.885Z",
+ "generated": "2026-10-24T03:18:20.271Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16683,
+ "verifiedAiHits": 16687,
  "logsScanned": 30,
  "windowStart": "2026-10-10",
  "windowEnd": "2026-10-24",
- "totalHits": 114742,
- "aiHits": 91500,
+ "totalHits": 114785,
+ "aiHits": 91520,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30934,
+   "hits": 30935,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14050,
+   "hits": 14058,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8018,
+   "hits": 8026,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6909,
-   "verifiedHits": 6848,
+   "hits": 6914,
+   "verifiedHits": 6853,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5402,
-   "verifiedHits": 5354,
+   "hits": 5405,
+   "verifiedHits": 5357,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5374,
+   "hits": 5375,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -311,7 +311,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3963,
+   "hits": 3972,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3562,
+   "hits": 3563,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3462,
-   "verifiedHits": 3360,
+   "hits": 3463,
+   "verifiedHits": 3361,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
    "topPaths": [
@@ -388,7 +388,7 @@
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 281
+     "hits": 282
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
@@ -404,6 +404,39 @@
     }
    ],
    "verifiable": true
+  },
+  {
+   "name": "YouBot",
+   "label": "You.com",
+   "category": "ai",
+   "home": "https://about.you.com",
+   "hits": 1324,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-10",
+   "lastSeen": "2026-10-24",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 25
+    },
+    {
+     "path": "/posts/how-to-roll-back-an-ai-agents-actions.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/mcp-apps-interactive-ui.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/mcp-tool-call-cost-tracking-gateway.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/2026-06-22-lora-vs-qlora-vs-full-fine-tuning.html",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
   },
   {
    "name": "GPTBot",
@@ -439,44 +472,11 @@
    "verifiable": true
   },
   {
-   "name": "YouBot",
-   "label": "You.com",
-   "category": "ai",
-   "home": "https://about.you.com",
-   "hits": 1320,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-10",
-   "lastSeen": "2026-10-24",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 25
-    },
-    {
-     "path": "/posts/how-to-roll-back-an-ai-agents-actions.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/mcp-apps-interactive-ui.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/mcp-tool-call-cost-tracking-gateway.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-06-22-lora-vs-qlora-vs-full-fine-tuning.html",
-     "hits": 2
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Claude-User",
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1309,
+   "hits": 1311,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
