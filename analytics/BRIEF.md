@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-24T21:35Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-24T21:45Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -75,7 +75,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 42 views, 9 reads
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 39 views, 17 reads
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 33 views, 11 reads
-- [stack] "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard" — 31 views, 3 reads
+- [stack] "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard" — 30 views, 3 reads
 - [stack] "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix" — 29 views, 2 reads
 
 ## Arrived but left (fix these openings first)
