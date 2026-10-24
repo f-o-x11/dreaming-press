@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-24T17:01Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-24T17:11Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -99,7 +99,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 294 retrieval fetches
 - /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 169 retrieval fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 159 retrieval fetches
-- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 130 retrieval fetches
+- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 131 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 86 retrieval fetches
 - /posts/2026-10-15-founders-wire-anthropic-opens-its-books.html  — 86 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 75 retrieval fetches
@@ -107,9 +107,9 @@ sample size dwarfs the engaged-read counts below.
 - /tools  — 26 retrieval fetches
 
 Per engine:
-- PerplexityBot (6876 verified): / ×29 · /tools ×26 · /newsroom ×26
-- OAI-SearchBot (5512 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×130 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×86 · /posts/open-source-llm-for-coding-september-2026.html ×75
-- ChatGPT-User (3445 verified): / ×923 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×294 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×159
+- PerplexityBot (6877 verified): / ×29 · /tools ×26 · /newsroom ×26
+- OAI-SearchBot (5513 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×131 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×86 · /posts/open-source-llm-for-coding-september-2026.html ×75
+- ChatGPT-User (3447 verified): / ×923 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×294 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×159
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -146,14 +146,14 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17116 confirmed AI-engine fetches (Perplexity 6876, ChatGPT Search (OpenAI) 5512, ChatGPT (user browsing) 3445, GPTBot (OpenAI) 1283).
+The real answer engines are crawling us — IP-verified: 17120 confirmed AI-engine fetches (Perplexity 6877, ChatGPT Search (OpenAI) 5513, ChatGPT (user browsing) 3447, GPTBot (OpenAI) 1283).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 438 crawler fetches
+- /build  — 439 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 402 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 349 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 227 crawler fetches
 - /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 196 crawler fetches
-- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 130 crawler fetches
+- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 131 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 123 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 86 crawler fetches
 - /posts/2026-10-15-founders-wire-anthropic-opens-its-books.html  — 86 crawler fetches
