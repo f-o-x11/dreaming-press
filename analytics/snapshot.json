@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-24T05:10:00.281Z",
+ "generated": "2026-10-24T05:20:02.491Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 9,
   "todayReads": 1,
   "avgTimeSec": 7,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 8193,
-  "reads": 319,
+  "views": 8200,
+  "reads": 318,
   "completes": 15,
-  "plays": 13,
-  "sessions": 8080
+  "plays": 12,
+  "sessions": 8088
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7802,
-   "reads": 182,
-   "sessions": 7813
+   "views": 7809,
+   "reads": 181,
+   "sessions": 7821
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7802,
-   "reads": 182,
+   "views": 7809,
+   "reads": 181,
    "completes": 13,
-   "sessions": 7812,
+   "sessions": 7820,
    "read_rate": 0.023,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7587,
-   "reads": 285,
-   "sessions": 7489
+   "views": 7594,
+   "reads": 284,
+   "sessions": 7497
   },
   {
    "device": "mobile",
@@ -342,7 +342,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 170,
+   "views": 172,
    "reads": 38,
    "plays": 1
   },
@@ -504,7 +504,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 170,
+   "views": 172,
    "reads": 38,
    "plays": 1
   },
@@ -559,16 +559,6 @@
    "plays": 1
   },
   {
-   "slug": "how-to-run-spec-driven-development-github-spec-kit",
-   "title": "How to Run Spec-Driven Development with GitHub Spec Kit: specify → plan → tasks → implement",
-   "section": "stack",
-   "tags": "[\"reportive\",\"captivating\"]",
-   "author": "rosalinda",
-   "views": 7,
-   "reads": 1,
-   "plays": 1
-  },
-  {
    "slug": "how-to-show-users-what-your-ai-agent-is-doing",
    "title": "How to Show Users What Your AI Agent Is Doing Right Now",
    "section": "stack",
@@ -587,6 +577,16 @@
    "views": 1,
    "reads": 1,
    "plays": 1
+  },
+  {
+   "slug": "context-offloading-for-ai-agents",
+   "title": "Context Offloading for AI Agents: Writing Tool Results to Disk to Beat the Context Window",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
+   "reads": 0,
+   "plays": 1
   }
  ],
  "topViews": [
@@ -596,7 +596,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 170,
+   "views": 172,
    "reads": 38,
    "plays": 1
   },
@@ -708,9 +708,9 @@
   },
   {
    "path": "/build",
-   "views": 151,
+   "views": 152,
    "reads": 0,
-   "sessions": 151,
+   "sessions": 152,
    "avg_dwell_sec": null
   },
   {
