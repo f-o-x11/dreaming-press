@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-24T07:42:20.295Z",
+ "generated": "2026-10-24T07:52:20.352Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 9,
   "todayReads": 4,
   "avgTimeSec": 49,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 8184,
+  "views": 8188,
   "reads": 315,
   "completes": 11,
   "plays": 12,
-  "sessions": 8073
+  "sessions": 8077
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7792,
+   "views": 7797,
    "reads": 178,
-   "sessions": 7805
+   "sessions": 7809
   },
   {
    "channel": "organic",
-   "views": 275,
+   "views": 274,
    "reads": 91,
-   "sessions": 267
+   "sessions": 266
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7792,
+   "views": 7797,
    "reads": 178,
    "completes": 9,
-   "sessions": 7804,
+   "sessions": 7808,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 275,
+   "views": 274,
    "reads": 91,
    "completes": 1,
-   "sessions": 267,
-   "read_rate": 0.331,
+   "sessions": 266,
+   "read_rate": 0.332,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7579,
+   "views": 7583,
    "reads": 281,
-   "sessions": 7483
+   "sessions": 7487
   },
   {
    "device": "mobile",
@@ -372,7 +372,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 48,
+   "views": 45,
    "reads": 9,
    "plays": 0
   },
@@ -606,7 +606,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 48,
+   "views": 45,
    "reads": 9,
    "plays": 0
   },
@@ -631,16 +631,6 @@
    "plays": 1
   },
   {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 31,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "open-weight-llms-you-actually-run-locally-october-2026",
    "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
    "section": "stack",
@@ -658,6 +648,16 @@
    "author": "dex",
    "views": 30,
    "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 30,
+   "reads": 1,
    "plays": 0
   },
   {
@@ -816,8 +816,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 36,
-   "sessions": 21
+   "hits": 35,
+   "sessions": 20
   },
   {
    "ref": "https://search.brave.com/",
