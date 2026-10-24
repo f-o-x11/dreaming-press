@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-24T05:50:13.129Z",
+ "generated": "2026-10-24T06:00:15.374Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 1,
-  "avgTimeSec": 7,
+  "readersNow": 9,
+  "todayReads": 3,
+  "avgTimeSec": 39,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 8197,
-  "reads": 318,
+  "views": 8204,
+  "reads": 320,
   "completes": 15,
   "plays": 12,
-  "sessions": 8085
+  "sessions": 8090
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7806,
-   "reads": 181,
-   "sessions": 7818
+   "views": 7813,
+   "reads": 183,
+   "sessions": 7823
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7806,
-   "reads": 181,
+   "views": 7813,
+   "reads": 183,
    "completes": 13,
-   "sessions": 7817,
+   "sessions": 7822,
    "read_rate": 0.023,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7593,
-   "reads": 284,
-   "sessions": 7496
+   "views": 7600,
+   "reads": 286,
+   "sessions": 7501
   },
   {
    "device": "mobile",
@@ -631,16 +631,6 @@
    "plays": 1
   },
   {
-   "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
-   "title": "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 31,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
    "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
    "section": "stack",
@@ -658,6 +648,16 @@
    "author": "dex",
    "views": 30,
    "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
+   "title": "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 30,
+   "reads": 2,
    "plays": 0
   },
   {
@@ -694,9 +694,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 773,
+   "views": 774,
    "reads": 1,
-   "sessions": 773,
+   "sessions": 774,
    "avg_dwell_sec": 68
   },
   {
@@ -777,18 +777,18 @@
    "avg_dwell_sec": 26
   },
   {
+   "path": "/agents.html",
+   "views": 15,
+   "reads": 3,
+   "sessions": 14,
+   "avg_dwell_sec": 37
+  },
+  {
    "path": "/partner",
    "views": 15,
    "reads": 2,
    "sessions": 13,
    "avg_dwell_sec": 148
-  },
-  {
-   "path": "/agents.html",
-   "views": 13,
-   "reads": 2,
-   "sessions": 13,
-   "avg_dwell_sec": 39
   },
   {
    "path": "/authors/priya",
