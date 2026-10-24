@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T08:53:10.321Z",
+ "generated": "2026-10-24T09:03:12.297Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,24 +8,24 @@
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 8196,
+  "views": 8192,
   "reads": 316,
   "completes": 11,
   "plays": 12,
-  "sessions": 8084
+  "sessions": 8080
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7805,
+   "views": 7802,
    "reads": 179,
-   "sessions": 7816
+   "sessions": 7812
   },
   {
    "channel": "organic",
-   "views": 274,
+   "views": 273,
    "reads": 91,
-   "sessions": 266
+   "sessions": 265
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7805,
+   "views": 7802,
    "reads": 179,
    "completes": 9,
-   "sessions": 7815,
+   "sessions": 7811,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 274,
+   "views": 273,
    "reads": 91,
    "completes": 1,
-   "sessions": 266,
-   "read_rate": 0.332,
+   "sessions": 265,
+   "read_rate": 0.333,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7584,
+   "views": 7580,
    "reads": 281,
-   "sessions": 7487
+   "sessions": 7483
   },
   {
    "device": "mobile",
@@ -422,7 +422,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 13,
+   "views": 12,
    "reads": 4,
    "plays": 0
   },
@@ -694,10 +694,10 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 774,
+   "views": 772,
    "reads": 1,
-   "sessions": 774,
-   "avg_dwell_sec": 68
+   "sessions": 772,
+   "avg_dwell_sec": 77
   },
   {
    "path": "/compare/:pair",
@@ -821,8 +821,8 @@
   },
   {
    "ref": "https://search.brave.com/",
-   "hits": 23,
-   "sessions": 12
+   "hits": 22,
+   "sessions": 11
   },
   {
    "ref": "nav-cmp",
