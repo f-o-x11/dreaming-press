@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-24T21:25:04.406Z",
+ "generated": "2026-10-24T21:35:16.692Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 10,
   "avgTimeSec": 64,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 8145,
-  "reads": 315,
+  "views": 8144,
+  "reads": 314,
   "completes": 11,
   "plays": 12,
-  "sessions": 8036
+  "sessions": 8035
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7759,
-   "reads": 181,
-   "sessions": 7770
+   "views": 7758,
+   "reads": 180,
+   "sessions": 7769
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7759,
-   "reads": 181,
+   "views": 7758,
+   "reads": 180,
    "completes": 9,
-   "sessions": 7769,
+   "sessions": 7768,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7553,
-   "reads": 279,
-   "sessions": 7459
+   "views": 7551,
+   "reads": 278,
+   "sessions": 7457
   },
   {
    "device": "mobile",
-   "views": 591,
+   "views": 592,
    "reads": 35,
-   "sessions": 577
+   "sessions": 578
   },
   {
    "device": "tablet",
@@ -671,21 +671,21 @@
    "plays": 0
   },
   {
-   "slug": "best-open-source-rl-frameworks-for-training-agents",
-   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 26,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "2026-10-14-founders-wire-gemini-4-argon-opens-three-models-one-price",
    "title": "The Founder's Wire, October 14: Gemini 4 Argon Opens Its Gate — and Now Three Frontier Models Cost Exactly the Same",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
+   "views": 25,
+   "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "best-open-source-rl-frameworks-for-training-agents",
+   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
    "views": 25,
    "reads": 0,
    "plays": 0
