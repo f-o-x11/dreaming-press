@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T06:40:50.184Z",
+ "generated": "2026-10-24T06:51:00.357Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,18 +8,18 @@
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 8203,
-  "reads": 319,
-  "completes": 14,
+  "views": 8200,
+  "reads": 318,
+  "completes": 13,
   "plays": 12,
-  "sessions": 8091
+  "sessions": 8090
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7812,
-   "reads": 182,
-   "sessions": 7824
+   "views": 7808,
+   "reads": 181,
+   "sessions": 7822
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 27,
+   "views": 28,
    "reads": 6,
-   "sessions": 25
+   "sessions": 26
   },
   {
    "channel": "campaign:owner-qa",
@@ -79,12 +79,12 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7812,
-   "reads": 182,
-   "completes": 12,
-   "sessions": 7823,
+   "views": 7808,
+   "reads": 181,
+   "completes": 11,
+   "sessions": 7821,
    "read_rate": 0.023,
-   "complete_rate": 0.002,
+   "complete_rate": 0.001,
    "pages_per_session": 1,
    "median_dwell_sec": 9
   },
@@ -123,11 +123,11 @@
   },
   {
    "channel": "referral",
-   "views": 27,
+   "views": 28,
    "reads": 6,
    "completes": 0,
-   "sessions": 25,
-   "read_rate": 0.222,
+   "sessions": 26,
+   "read_rate": 0.214,
    "complete_rate": 0,
    "pages_per_session": 1.08,
    "median_dwell_sec": null
@@ -250,17 +250,17 @@
    "sessions": 2
   },
   {
-   "surface": "article-byline",
-   "clicks": 2,
-   "sessions": 2
-  },
-  {
    "surface": "tl-row",
    "clicks": 1,
    "sessions": 1
   },
   {
    "surface": "sb-right",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
+   "surface": "nav-drawer-agents",
    "clicks": 1,
    "sessions": 1
   }
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7599,
-   "reads": 285,
-   "sessions": 7502
+   "views": 7595,
+   "reads": 284,
+   "sessions": 7500
   },
   {
    "device": "mobile",
-   "views": 603,
+   "views": 604,
    "reads": 33,
-   "sessions": 589
+   "sessions": 590
   },
   {
    "device": "tablet",
@@ -397,16 +397,6 @@
    "plays": 0
   },
   {
-   "slug": "vllm-0-26-serving-tuning-head-dtype-attention-backends-kv-offload",
-   "title": "vLLM 0.26 Shipped: The Three Serving Knobs Worth Turning, and One Model List Worth Reading",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 9,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
    "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
    "section": "wire",
@@ -457,6 +447,16 @@
    "plays": 0
   },
   {
+   "slug": "vllm-0-26-serving-tuning-head-dtype-attention-backends-kv-offload",
+   "title": "vLLM 0.26 Shipped: The Three Serving Knobs Worth Turning, and One Model List Worth Reading",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 8,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "open-weight-llms-you-actually-run-locally-october-2026",
    "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
    "section": "stack",
@@ -477,12 +477,12 @@
    "plays": 0
   },
   {
-   "slug": "text-to-sql-accuracy-spider-vs-bird",
-   "title": "Text-to-SQL Accuracy in 2026: Why the Benchmark Says 90% and Your Warehouse Says 40%",
+   "slug": "how-to-handle-a-truncated-llm-response",
+   "title": "How to Handle a Truncated LLM Response: finish_reason, max_tokens, and the Reasoning-Token Trap",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 13,
+   "author": "dex",
+   "views": 12,
    "reads": 3,
    "plays": 0
   }
@@ -701,9 +701,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 369,
+   "views": 370,
    "reads": 2,
-   "sessions": 368,
+   "sessions": 369,
    "avg_dwell_sec": 26
   },
   {
@@ -791,11 +791,11 @@
    "avg_dwell_sec": 148
   },
   {
-   "path": "/authors/priya",
-   "views": 13,
+   "path": "/apps",
+   "views": 12,
    "reads": 0,
-   "sessions": 13,
-   "avg_dwell_sec": 6
+   "sessions": 12,
+   "avg_dwell_sec": 20
   }
  ],
  "referrers": [
