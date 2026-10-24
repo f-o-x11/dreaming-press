@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-24T16:51:10.130Z",
+ "generated": "2026-10-24T17:01:15.175Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17113,
+ "verifiedAiHits": 17116,
  "logsScanned": 30,
  "windowStart": "2026-10-10",
  "windowEnd": "2026-10-24",
- "totalHits": 118993,
- "aiHits": 94904,
+ "totalHits": 119029,
+ "aiHits": 94930,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32099,
+   "hits": 32110,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15094,
+   "hits": 15097,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -61,15 +61,15 @@
      "hits": 8
     },
     {
+     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
+     "hits": 7
+    },
+    {
      "path": "/",
      "hits": 7
     },
     {
      "path": "/compare/agno-vs-dspy",
-     "hits": 6
-    },
-    {
-     "path": "/compare/google-adk-vs-langgraph",
      "hits": 6
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14655,
+   "hits": 14662,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8327,
+   "hits": 8334,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7226,
-   "verifiedHits": 7165,
+   "hits": 7229,
+   "verifiedHits": 7168,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 6948,
-   "verifiedHits": 6873,
+   "hits": 6951,
+   "verifiedHits": 6876,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1697,
+   "hits": 1698,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -641,7 +641,7 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 96,
+   "hits": 97,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
