@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-24T13:38:30.367Z",
+ "generated": "2026-10-24T13:48:50.568Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 6,
   "avgTimeSec": 43,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 8174,
+  "views": 8173,
   "reads": 313,
   "completes": 11,
   "plays": 12,
-  "sessions": 8062
+  "sessions": 8061
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7786,
+   "views": 7785,
    "reads": 178,
-   "sessions": 7795
+   "sessions": 7794
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7786,
+   "views": 7785,
    "reads": 178,
    "completes": 9,
-   "sessions": 7794,
+   "sessions": 7793,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7580,
+   "views": 7579,
    "reads": 278,
-   "sessions": 7483
+   "sessions": 7482
   },
   {
    "device": "mobile",
@@ -529,22 +529,22 @@
    "plays": 1
   },
   {
-   "slug": "cimd-vs-dynamic-client-registration-mcp",
-   "title": "CIMD vs Dynamic Client Registration: How MCP Clients Register After July 28",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 7,
-   "reads": 2,
-   "plays": 1
-  },
-  {
    "slug": "text-to-sql-vanna-vs-wrenai-vs-dataherald",
    "title": "Text-to-SQL for Agents: Vanna vs WrenAI vs Dataherald",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 6,
+   "reads": 2,
+   "plays": 1
+  },
+  {
+   "slug": "cimd-vs-dynamic-client-registration-mcp",
+   "title": "CIMD vs Dynamic Client Registration: How MCP Clients Register After July 28",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 5,
    "reads": 2,
    "plays": 1
   },
