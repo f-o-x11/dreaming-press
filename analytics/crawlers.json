@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-24T02:37:14.356Z",
+ "generated": "2026-10-24T02:47:19.869Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16674,
+ "verifiedAiHits": 16677,
  "logsScanned": 30,
  "windowStart": "2026-10-10",
  "windowEnd": "2026-10-24",
- "totalHits": 114586,
- "aiHits": 91384,
+ "totalHits": 114633,
+ "aiHits": 91420,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30891,
+   "hits": 30913,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14029,
+   "hits": 14036,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 7999,
+   "hits": 8007,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6891,
-   "verifiedHits": 6830,
+   "hits": 6893,
+   "verifiedHits": 6832,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5396,
-   "verifiedHits": 5348,
+   "hits": 5399,
+   "verifiedHits": 5351,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3561,
+   "hits": 3562,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -439,6 +439,39 @@
    "verifiable": true
   },
   {
+   "name": "YouBot",
+   "label": "You.com",
+   "category": "ai",
+   "home": "https://about.you.com",
+   "hits": 1311,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-10",
+   "lastSeen": "2026-10-24",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 25
+    },
+    {
+     "path": "/posts/how-to-roll-back-an-ai-agents-actions.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/mcp-apps-interactive-ui.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/mcp-tool-call-cost-tracking-gateway.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/2026-06-22-lora-vs-qlora-vs-full-fine-tuning.html",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Claude-User",
    "label": "Claude (user browsing)",
    "category": "ai",
@@ -467,39 +500,6 @@
     {
      "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
      "hits": 27
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "YouBot",
-   "label": "You.com",
-   "category": "ai",
-   "home": "https://about.you.com",
-   "hits": 1307,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-10",
-   "lastSeen": "2026-10-24",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 25
-    },
-    {
-     "path": "/posts/how-to-roll-back-an-ai-agents-actions.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/mcp-apps-interactive-ui.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/mcp-tool-call-cost-tracking-gateway.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-06-22-lora-vs-qlora-vs-full-fine-tuning.html",
-     "hits": 2
     }
    ],
    "verifiable": false
