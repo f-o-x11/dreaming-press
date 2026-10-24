@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-24T12:57:39.954Z",
+ "generated": "2026-10-24T13:08:00.084Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17039,
+ "verifiedAiHits": 17043,
  "logsScanned": 30,
  "windowStart": "2026-10-10",
  "windowEnd": "2026-10-24",
- "totalHits": 117800,
- "aiHits": 93969,
+ "totalHits": 117881,
+ "aiHits": 94047,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31801,
+   "hits": 31826,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14878,
+   "hits": 14907,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14478,
+   "hits": 14487,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8221,
+   "hits": 8223,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7140,
-   "verifiedHits": 7079,
+   "hits": 7141,
+   "verifiedHits": 7080,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 6933,
-   "verifiedHits": 6858,
+   "hits": 6934,
+   "verifiedHits": 6859,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5529,
-   "verifiedHits": 5481,
+   "hits": 5532,
+   "verifiedHits": 5484,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1581,
+   "hits": 1583,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1338,
+   "hits": 1339,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -458,7 +458,7 @@
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 48
+     "hits": 49
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
@@ -575,7 +575,7 @@
    "label": "Mistral AI",
    "category": "ai",
    "home": "https://mistral.ai",
-   "hits": 163,
+   "hits": 171,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-24",
@@ -593,11 +593,11 @@
      "hits": 4
     },
     {
-     "path": "/posts/context-compaction-erases-agent-guardrails.html",
+     "path": "/posts/open-source-llm-for-coding-september-2026.html",
      "hits": 2
     },
     {
-     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
+     "path": "/posts/context-compaction-erases-agent-guardrails.html",
      "hits": 2
     }
    ],
