@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-24T11:56:20.271Z",
+ "generated": "2026-10-24T12:06:30.314Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
-  "todayReads": 5,
+  "todayReads": 6,
   "avgTimeSec": 43,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 8173,
-  "reads": 313,
+  "views": 8166,
+  "reads": 314,
   "completes": 11,
   "plays": 12,
-  "sessions": 8061
+  "sessions": 8054
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7784,
-   "reads": 177,
-   "sessions": 7794
+   "views": 7777,
+   "reads": 178,
+   "sessions": 7787
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7784,
-   "reads": 177,
+   "views": 7777,
+   "reads": 178,
    "completes": 9,
-   "sessions": 7793,
+   "sessions": 7786,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -318,15 +318,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7566,
-   "reads": 278,
-   "sessions": 7469
+   "views": 7562,
+   "reads": 279,
+   "sessions": 7465
   },
   {
    "device": "mobile",
-   "views": 606,
+   "views": 603,
    "reads": 34,
-   "sessions": 592
+   "sessions": 589
   },
   {
    "device": "tablet",
@@ -447,6 +447,16 @@
    "plays": 0
   },
   {
+   "slug": "serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026",
+   "title": "Serverless GPU Compute, Explained: The Providers, the Prices, and When Scale-to-Zero Pays (September 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "open-weight-llms-you-actually-run-locally-october-2026",
    "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
    "section": "stack",
@@ -472,16 +482,6 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 12,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "text-to-sql-accuracy-spider-vs-bird",
-   "title": "Text-to-SQL Accuracy in 2026: Why the Benchmark Says 90% and Your Warehouse Says 40%",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
    "views": 12,
    "reads": 3,
    "plays": 0
@@ -694,9 +694,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 773,
+   "views": 772,
    "reads": 1,
-   "sessions": 773,
+   "sessions": 772,
    "avg_dwell_sec": 77
   },
   {
