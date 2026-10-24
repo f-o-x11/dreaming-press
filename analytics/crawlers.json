@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-24T19:33:19.946Z",
+ "generated": "2026-10-24T19:43:40.080Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 17143,
  "logsScanned": 30,
  "windowStart": "2026-10-10",
  "windowEnd": "2026-10-24",
- "totalHits": 119924,
- "aiHits": 95656,
+ "totalHits": 119953,
+ "aiHits": 95678,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32445,
+   "hits": 32455,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14779,
+   "hits": 14786,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8437,
+   "hits": 8438,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7276,
-   "verifiedHits": 7215,
+   "hits": 7282,
+   "verifiedHits": 7221,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5490,
+   "hits": 5491,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -410,7 +410,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1772,
+   "hits": 1776,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -418,6 +418,10 @@
     {
      "path": "/build",
      "hits": 38
+    },
+    {
+     "path": "/posts/migrate-bedrock-agents-classic-to-agentcore-runtime-gateway-memory.html",
+     "hits": 2
     },
     {
      "path": "/posts/how-to-roll-back-an-ai-agents-actions.html",
@@ -429,10 +433,6 @@
     },
     {
      "path": "/posts/mcp-tool-call-cost-tracking-gateway.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-06-22-lora-vs-qlora-vs-full-fine-tuning.html",
      "hits": 2
     }
    ],
