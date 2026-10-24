@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T19:43:40.364Z",
+ "generated": "2026-10-24T19:53:50.269Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,18 +8,18 @@
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 8150,
+  "views": 8149,
   "reads": 315,
   "completes": 11,
   "plays": 12,
-  "sessions": 8041
+  "sessions": 8040
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7764,
+   "views": 7763,
    "reads": 181,
-   "sessions": 7775
+   "sessions": 7774
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7764,
+   "views": 7763,
    "reads": 181,
    "completes": 9,
-   "sessions": 7774,
+   "sessions": 7773,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7558,
+   "views": 7557,
    "reads": 279,
-   "sessions": 7464
+   "sessions": 7463
   },
   {
    "device": "mobile",
@@ -735,18 +735,18 @@
    "avg_dwell_sec": null
   },
   {
-   "path": "/alternatives/:tool",
-   "views": 52,
-   "reads": 0,
-   "sessions": 52,
-   "avg_dwell_sec": 8
-  },
-  {
    "path": "/tags/opinionated",
    "views": 52,
    "reads": 0,
    "sessions": 52,
    "avg_dwell_sec": null
+  },
+  {
+   "path": "/alternatives/:tool",
+   "views": 51,
+   "reads": 0,
+   "sessions": 51,
+   "avg_dwell_sec": 8
   },
   {
    "path": "/authors/dex",
