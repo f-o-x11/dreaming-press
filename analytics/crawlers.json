@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-24T06:20:42.088Z",
+ "generated": "2026-10-24T06:30:42.551Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16744,
+ "verifiedAiHits": 16746,
  "logsScanned": 30,
  "windowStart": "2026-10-10",
  "windowEnd": "2026-10-24",
- "totalHits": 115574,
- "aiHits": 92176,
+ "totalHits": 115629,
+ "aiHits": 92225,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31172,
+   "hits": 31183,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14548,
+   "hits": 14570,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14187,
+   "hits": 14194,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8057,
+   "hits": 8059,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6980,
-   "verifiedHits": 6919,
+   "hits": 6983,
+   "verifiedHits": 6922,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 6774,
-   "verifiedHits": 6699,
+   "hits": 6775,
+   "verifiedHits": 6700,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
    "topPaths": [
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3467,
-   "verifiedHits": 3365,
+   "hits": 3468,
+   "verifiedHits": 3366,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
    "topPaths": [
@@ -388,7 +388,7 @@
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 283
+     "hits": 284
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
@@ -410,14 +410,14 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1400,
+   "hits": 1406,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 28
+     "hits": 29
     },
     {
      "path": "/posts/how-to-roll-back-an-ai-agents-actions.html",
@@ -542,8 +542,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 611,
-   "verifiedHits": 538,
+   "hits": 612,
+   "verifiedHits": 539,
    "firstSeen": "2026-10-10",
    "lastSeen": "2026-10-24",
    "topPaths": [
@@ -641,10 +641,10 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 94,
+   "hits": 95,
    "verifiedHits": 0,
    "firstSeen": "2026-10-10",
-   "lastSeen": "2026-10-23",
+   "lastSeen": "2026-10-24",
    "topPaths": [
     {
      "path": "/posts/spot-vs-on-demand-gpu-when-interruptible-pays.html",

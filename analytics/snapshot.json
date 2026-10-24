@@ -1,16 +1,16 @@
 {
- "generated": "2026-10-24T06:20:42.366Z",
+ "generated": "2026-10-24T06:30:42.854Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 2,
   "todayReads": 4,
   "avgTimeSec": 75,
   "postsThisWeek": 10
  },
  "funnel": {
   "views": 8204,
-  "reads": 321,
-  "completes": 15,
+  "reads": 320,
+  "completes": 14,
   "plays": 12,
   "sessions": 8091
  },
@@ -18,7 +18,7 @@
   {
    "channel": "direct",
    "views": 7812,
-   "reads": 183,
+   "reads": 182,
    "sessions": 7824
   },
   {
@@ -80,8 +80,8 @@
   {
    "channel": "direct",
    "views": 7812,
-   "reads": 183,
-   "completes": 13,
+   "reads": 182,
+   "completes": 12,
    "sessions": 7823,
    "read_rate": 0.023,
    "complete_rate": 0.002,
@@ -319,7 +319,7 @@
   {
    "device": "desktop",
    "views": 7600,
-   "reads": 287,
+   "reads": 286,
    "sessions": 7502
   },
   {
@@ -387,16 +387,6 @@
    "plays": 0
   },
   {
-   "slug": "vllm-0-26-serving-tuning-head-dtype-attention-backends-kv-offload",
-   "title": "vLLM 0.26 Shipped: The Three Serving Knobs Worth Turning, and One Model List Worth Reading",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 10,
-   "reads": 6,
-   "plays": 0
-  },
-  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
@@ -413,6 +403,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 10,
+   "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "vllm-0-26-serving-tuning-head-dtype-attention-backends-kv-offload",
+   "title": "vLLM 0.26 Shipped: The Three Serving Knobs Worth Turning, and One Model List Worth Reading",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 9,
    "reads": 5,
    "plays": 0
   },
