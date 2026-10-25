@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-25T18:35:13.871Z",
+ "generated": "2026-10-25T18:45:16.235Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 9,
+  "readersNow": 7,
   "todayReads": 5,
   "avgTimeSec": 22,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 8103,
-  "reads": 298,
+  "views": 8094,
+  "reads": 296,
   "completes": 13,
   "plays": 12,
-  "sessions": 8005
+  "sessions": 8001
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7734,
-   "reads": 173,
-   "sessions": 7751
+   "views": 7725,
+   "reads": 171,
+   "sessions": 7747
   },
   {
    "channel": "organic",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 26
+   "sessions": 25
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7734,
-   "reads": 173,
+   "views": 7725,
+   "reads": 171,
    "completes": 10,
-   "sessions": 7750,
+   "sessions": 7746,
    "read_rate": 0.022,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 26,
+   "sessions": 25,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -210,11 +210,6 @@
    "sessions": 3
   },
   {
-   "surface": "search-result",
-   "clicks": 2,
-   "sessions": 2
-  },
-  {
    "surface": "pager-link",
    "clicks": 2,
    "sessions": 2
@@ -236,6 +231,11 @@
   },
   {
    "surface": "tl-row",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
+   "surface": "search-result",
    "clicks": 1,
    "sessions": 1
   },
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7514,
+   "views": 7513,
    "reads": 262,
-   "sessions": 7433
+   "sessions": 7432
   },
   {
    "device": "mobile",
-   "views": 586,
-   "reads": 34,
-   "sessions": 571
+   "views": 578,
+   "reads": 32,
+   "sessions": 568
   },
   {
    "device": "tablet",
@@ -441,16 +441,6 @@
    "plays": 0
   },
   {
-   "slug": "best-llm-for-writing-2026",
-   "title": "The Best LLM for Writing in 2026: A Founder's Pick for Drafts, Docs, and Marketing Copy",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 16,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "text-to-sql-accuracy-spider-vs-bird",
    "title": "Text-to-SQL Accuracy in 2026: Why the Benchmark Says 90% and Your Warehouse Says 40%",
    "section": "wire",
@@ -479,6 +469,16 @@
    "views": 9,
    "reads": 3,
    "plays": 0
+  },
+  {
+   "slug": "tool-result-too-large-for-context-window",
+   "title": "How to Handle a Tool Result Too Large for the Context Window: Truncate, Paginate, or Hand Back a Handle",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 9,
+   "reads": 3,
+   "plays": 2
   }
  ],
  "topListens": [
@@ -688,9 +688,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 783,
+   "views": 780,
    "reads": 1,
-   "sessions": 783,
+   "sessions": 780,
    "avg_dwell_sec": 66
   },
   {
@@ -709,10 +709,17 @@
   },
   {
    "path": "/",
-   "views": 146,
+   "views": 145,
    "reads": 4,
-   "sessions": 155,
+   "sessions": 154,
    "avg_dwell_sec": 13
+  },
+  {
+   "path": "/best/:cat",
+   "views": 61,
+   "reads": 0,
+   "sessions": 61,
+   "avg_dwell_sec": 5
   },
   {
    "path": "/tags/reportive",
@@ -720,13 +727,6 @@
    "reads": 0,
    "sessions": 61,
    "avg_dwell_sec": null
-  },
-  {
-   "path": "/best/:cat",
-   "views": 60,
-   "reads": 0,
-   "sessions": 60,
-   "avg_dwell_sec": 5
   },
   {
    "path": "/tags/opinionated",
