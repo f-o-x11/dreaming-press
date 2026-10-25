@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-25T09:55Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-25T10:06Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 8093 views → 308 engaged reads → 12 completes · 7989 sessions.
-- Channels: direct 178r/7716v · organic 89r/267v · campaign:chatgpt.com 19r/37v · ai 8r/36v · referral 6r/26v · campaign:owner-qa 4r/4v · social 3r/5v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · internal-nav 0r/0v.
+- Funnel: 8090 views → 308 engaged reads → 12 completes · 7988 sessions.
+- Channels: direct 178r/7713v · organic 89r/267v · campaign:chatgpt.com 19r/37v · ai 8r/36v · referral 6r/26v · campaign:owner-qa 4r/4v · social 3r/5v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 21r/43v · Doubao 3r/3v · Perplexity 2r/3v · Yuanbao 1r/1v · Kimi 0r/21v · Poe 0r/1v · Copilot 0r/1v.
 - Referrers: google.com, bing.com, duckduckgo.com, cn.bing.com, search.brave.com, nav-cmp, brand, ecosia.org, youtube.com, qwant.com.
 - Engaged-read winners by section: stack=6, wire=9.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 7716 views · read 2.3% · complete 0.1% · 1 pages/session · median 9s
+- direct: 7713 views · read 2.3% · complete 0.1% · 1 pages/session · median 9s
 - organic: 267 views · read 33.3% · complete 0.4% · 1.03 pages/session · median 3s
 - campaign:chatgpt.com: 37 views · read 51.4% · complete 0.0% · 1.23 pages/session · median ?s
 - ai: 36 views · read 22.2% · complete 0.0% · 0.75 pages/session · median 4s
@@ -148,7 +148,7 @@ search intent, so put the answer in the first screen and use the phrasing in the
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 16224 confirmed AI-engine fetches (Perplexity 6403, ChatGPT Search (OpenAI) 5180, ChatGPT (user browsing) 3358, GPTBot (OpenAI) 1283).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 464 crawler fetches
+- /build  — 465 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 417 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 323 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 213 crawler fetches
