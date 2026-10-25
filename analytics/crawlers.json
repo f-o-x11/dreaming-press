@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-25T05:01:18.309Z",
+ "generated": "2026-10-25T05:11:19.805Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16168,
+ "verifiedAiHits": 16169,
  "logsScanned": 30,
  "windowStart": "2026-10-11",
  "windowEnd": "2026-10-25",
- "totalHits": 109134,
- "aiHits": 86081,
+ "totalHits": 109183,
+ "aiHits": 86119,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31385,
+   "hits": 31409,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -25,19 +25,19 @@
     },
     {
      "path": "/build",
-     "hits": 28
+     "hits": 29
     },
     {
      "path": "/dashboard",
      "hits": 19
     },
     {
-     "path": "/posts/2026-10-11-founders-wire-gemini-agent-ramp-manus.html",
+     "path": "/posts/2026-10-05-founders-wire-anthropic-s1-openai-subpoena-ibm-sovereign.html",
      "hits": 16
     },
     {
-     "path": "/posts/china-persona-law-took-effect-what-founders-do.html",
-     "hits": 15
+     "path": "/posts/2026-10-11-founders-wire-gemini-agent-ramp-manus.html",
+     "hits": 16
     }
    ],
    "verifiable": false
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14105,
+   "hits": 14113,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8246,
+   "hits": 8253,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6848,
-   "verifiedHits": 6793,
+   "hits": 6852,
+   "verifiedHits": 6797,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5100,
+   "hits": 5102,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3411,
-   "verifiedHits": 3317,
+   "hits": 3412,
+   "verifiedHits": 3318,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2011,
+   "hits": 2014,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
