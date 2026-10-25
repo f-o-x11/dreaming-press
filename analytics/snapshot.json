@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-25T20:37:40.605Z",
+ "generated": "2026-10-25T20:47:50.451Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 4,
   "todayReads": 5,
   "avgTimeSec": 21,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 8098,
+  "views": 8096,
   "reads": 296,
   "completes": 13,
   "plays": 12,
-  "sessions": 8003
+  "sessions": 8001
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7729,
+   "views": 7727,
    "reads": 171,
-   "sessions": 7749
+   "sessions": 7747
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7729,
+   "views": 7727,
    "reads": 171,
    "completes": 10,
-   "sessions": 7748,
+   "sessions": 7746,
    "read_rate": 0.022,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7509,
+   "views": 7507,
    "reads": 262,
-   "sessions": 7426
+   "sessions": 7424
   },
   {
    "device": "mobile",
@@ -655,21 +655,21 @@
    "plays": 0
   },
   {
-   "slug": "best-open-source-rl-frameworks-for-training-agents",
-   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 26,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "2026-10-14-founders-wire-gemini-4-argon-opens-three-models-one-price",
    "title": "The Founder's Wire, October 14: Gemini 4 Argon Opens Its Gate — and Now Three Frontier Models Cost Exactly the Same",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
+   "views": 25,
+   "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "best-open-source-rl-frameworks-for-training-agents",
+   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
    "views": 25,
    "reads": 0,
    "plays": 0
