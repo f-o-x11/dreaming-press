@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-25T01:28:02.379Z",
+ "generated": "2026-10-25T01:38:07.373Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 8,
-  "todayReads": 0,
-  "avgTimeSec": 2,
+  "readersNow": 1,
+  "todayReads": 1,
+  "avgTimeSec": 60,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 8121,
-  "reads": 313,
+  "views": 8123,
+  "reads": 314,
   "completes": 11,
   "plays": 12,
-  "sessions": 8013
+  "sessions": 8014
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7730,
+   "views": 7731,
    "reads": 179,
-   "sessions": 7742
+   "sessions": 7743
   },
   {
    "channel": "organic",
-   "views": 274,
-   "reads": 88,
-   "sessions": 266
+   "views": 275,
+   "reads": 89,
+   "sessions": 267
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 26
+   "sessions": 27
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7730,
+   "views": 7731,
    "reads": 179,
    "completes": 9,
-   "sessions": 7741,
+   "sessions": 7742,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 274,
-   "reads": 88,
+   "views": 275,
+   "reads": 89,
    "completes": 1,
-   "sessions": 266,
-   "read_rate": 0.321,
+   "sessions": 267,
+   "read_rate": 0.324,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 2
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 26,
+   "sessions": 27,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -205,6 +205,11 @@
    "sessions": 3
   },
   {
+   "surface": "dg-title",
+   "clicks": 3,
+   "sessions": 3
+  },
+  {
    "surface": "search-result",
    "clicks": 2,
    "sessions": 2
@@ -223,11 +228,6 @@
    "surface": "f-cols",
    "clicks": 2,
    "sessions": 1
-  },
-  {
-   "surface": "dg-title",
-   "clicks": 2,
-   "sessions": 2
   },
   {
    "surface": "dg-lead-img",
@@ -324,9 +324,9 @@
   },
   {
    "device": "mobile",
-   "views": 581,
-   "reads": 35,
-   "sessions": 567
+   "views": 583,
+   "reads": 36,
+   "sessions": 568
   },
   {
    "device": "tablet",
@@ -715,10 +715,10 @@
   },
   {
    "path": "/",
-   "views": 142,
-   "reads": 3,
-   "sessions": 152,
-   "avg_dwell_sec": 11
+   "views": 143,
+   "reads": 4,
+   "sessions": 153,
+   "avg_dwell_sec": 13
   },
   {
    "path": "/tags/reportive",
