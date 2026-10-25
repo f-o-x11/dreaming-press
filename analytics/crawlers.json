@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-25T10:47:00.016Z",
+ "generated": "2026-10-25T10:57:03.937Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16232,
+ "verifiedAiHits": 16235,
  "logsScanned": 30,
  "windowStart": "2026-10-11",
  "windowEnd": "2026-10-25",
- "totalHits": 110875,
- "aiHits": 87477,
+ "totalHits": 110913,
+ "aiHits": 87511,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31831,
+   "hits": 31848,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14377,
+   "hits": 14384,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 12705,
+   "hits": 12708,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8391,
+   "hits": 8395,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -212,14 +212,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5223,
-   "verifiedHits": 5181,
+   "hits": 5226,
+   "verifiedHits": 5184,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
    "topPaths": [
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
-     "hits": 128
+     "hits": 129
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
@@ -410,14 +410,14 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2123,
+   "hits": 2126,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 45
+     "hits": 46
     },
     {
      "path": "/posts/migrate-mcp-typescript-sdk-v2-split-packages-codemod.html",
@@ -476,7 +476,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1287,
+   "hits": 1288,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -487,7 +487,7 @@
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 155
+     "hits": 156
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
