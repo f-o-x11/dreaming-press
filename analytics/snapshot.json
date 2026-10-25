@@ -1,10 +1,10 @@
 {
- "generated": "2026-10-25T12:08:43.790Z",
+ "generated": "2026-10-25T12:18:50.172Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 3,
-  "avgTimeSec": 30,
+  "avgTimeSec": 27,
   "postsThisWeek": 9
  },
  "funnel": {
@@ -625,16 +625,6 @@
    "plays": 1
   },
   {
-   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
-   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 28,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
    "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
    "section": "stack",
@@ -642,6 +632,16 @@
    "author": "dex",
    "views": 28,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 27,
+   "reads": 2,
    "plays": 0
   },
   {
@@ -695,9 +695,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 353,
+   "views": 354,
    "reads": 2,
-   "sessions": 352,
+   "sessions": 353,
    "avg_dwell_sec": 29
   },
   {
@@ -723,10 +723,10 @@
   },
   {
    "path": "/best/:cat",
-   "views": 59,
+   "views": 60,
    "reads": 0,
-   "sessions": 59,
-   "avg_dwell_sec": null
+   "sessions": 60,
+   "avg_dwell_sec": 5
   },
   {
    "path": "/tags/opinionated",
