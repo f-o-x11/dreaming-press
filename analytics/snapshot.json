@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-25T18:14:51.348Z",
+ "generated": "2026-10-25T18:25:00.214Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 6,
   "todayReads": 5,
   "avgTimeSec": 22,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 8095,
+  "views": 8098,
   "reads": 298,
   "completes": 13,
   "plays": 12,
-  "sessions": 7997
+  "sessions": 8000
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7726,
+   "views": 7729,
    "reads": 173,
-   "sessions": 7743
+   "sessions": 7746
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7726,
+   "views": 7729,
    "reads": 173,
    "completes": 10,
-   "sessions": 7742,
+   "sessions": 7745,
    "read_rate": 0.022,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7506,
+   "views": 7509,
    "reads": 262,
-   "sessions": 7425
+   "sessions": 7428
   },
   {
    "device": "mobile",
@@ -488,7 +488,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 8,
+   "views": 9,
    "reads": 3,
    "plays": 2
   },
@@ -688,16 +688,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 780,
+   "views": 781,
    "reads": 1,
-   "sessions": 780,
+   "sessions": 781,
    "avg_dwell_sec": 66
   },
   {
    "path": "/compare/:pair",
-   "views": 360,
+   "views": 362,
    "reads": 2,
-   "sessions": 359,
+   "sessions": 361,
    "avg_dwell_sec": 29
   },
   {
