@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-25T14:41:04.694Z",
+ "generated": "2026-10-25T14:51:09.896Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16349,
+ "verifiedAiHits": 16350,
  "logsScanned": 30,
  "windowStart": "2026-10-11",
  "windowEnd": "2026-10-25",
- "totalHits": 112376,
- "aiHits": 88718,
+ "totalHits": 112445,
+ "aiHits": 88778,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32240,
+   "hits": 32280,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14556,
+   "hits": 14564,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 12987,
+   "hits": 12988,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8462,
+   "hits": 8464,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7011,
-   "verifiedHits": 6948,
+   "hits": 7017,
+   "verifiedHits": 6954,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5187,
+   "hits": 5188,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3486,
-   "verifiedHits": 3381,
+   "hits": 3487,
+   "verifiedHits": 3382,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2675,
+   "hits": 2676,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -410,7 +410,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2192,
+   "hits": 2197,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -505,6 +505,39 @@
    "verifiable": false
   },
   {
+   "name": "Googlebot",
+   "label": "Googlebot",
+   "category": "search",
+   "home": "https://developers.google.com/search",
+   "hits": 625,
+   "verifiedHits": 551,
+   "firstSeen": "2026-10-11",
+   "lastSeen": "2026-10-25",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 35
+    },
+    {
+     "path": "/api",
+     "hits": 3
+    },
+    {
+     "path": "/posts/2026-10-18-founders-wire-open-weights-went-frontier-deepseek-beam.html",
+     "hits": 3
+    },
+    {
+     "path": "/dashboard",
+     "hits": 2
+    },
+    {
+     "path": "/__vite_rsc_findSourceMapURL",
+     "hits": 2
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "CCBot",
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
@@ -536,39 +569,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "Googlebot",
-   "label": "Googlebot",
-   "category": "search",
-   "home": "https://developers.google.com/search",
-   "hits": 624,
-   "verifiedHits": 551,
-   "firstSeen": "2026-10-11",
-   "lastSeen": "2026-10-25",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 35
-    },
-    {
-     "path": "/api",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-10-18-founders-wire-open-weights-went-frontier-deepseek-beam.html",
-     "hits": 3
-    },
-    {
-     "path": "/dashboard",
-     "hits": 2
-    },
-    {
-     "path": "/__vite_rsc_findSourceMapURL",
-     "hits": 2
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "MistralAI",
@@ -641,7 +641,7 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 99,
+   "hits": 100,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -655,15 +655,15 @@
      "hits": 3
     },
     {
+     "path": "/login",
+     "hits": 2
+    },
+    {
      "path": "/posts/self-host-embeddings-vs-api-break-even-worksheet.html",
      "hits": 2
     },
     {
      "path": "/@fs/var/run/secrets/kubernetes.io/serviceaccount/token",
-     "hits": 1
-    },
-    {
-     "path": "/d7sfklui4lew8clmre9c",
      "hits": 1
     }
    ],
@@ -691,11 +691,15 @@
    "label": "Claude Search (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 26,
+   "hits": 28,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
    "topPaths": [
+    {
+     "path": "/app",
+     "hits": 2
+    },
     {
      "path": "/static/..;/..;/..;/..;/proc/self/environ",
      "hits": 1
@@ -710,10 +714,6 @@
     },
     {
      "path": "/pages/index.astro.mjs.map",
-     "hits": 1
-    },
-    {
-     "path": "/app",
      "hits": 1
     }
    ],
