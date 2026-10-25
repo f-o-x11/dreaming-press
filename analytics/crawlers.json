@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-25T19:05:32.596Z",
+ "generated": "2026-10-25T19:15:36.065Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 16391,
  "logsScanned": 30,
  "windowStart": "2026-10-11",
  "windowEnd": "2026-10-25",
- "totalHits": 113589,
- "aiHits": 89702,
+ "totalHits": 113614,
+ "aiHits": 89718,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32593,
+   "hits": 32598,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14758,
+   "hits": 14766,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8550,
+   "hits": 8554,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7089,
-   "verifiedHits": 7023,
+   "hits": 7092,
+   "verifiedHits": 7026,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5220,
+   "hits": 5221,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -377,7 +377,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2685,
+   "hits": 2686,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -395,11 +395,11 @@
      "hits": 4
     },
     {
-     "path": "/tags/reportive",
+     "path": "/posts/2026-06-22-bentoml-vs-ray-serve-vs-kserve.html",
      "hits": 4
     },
     {
-     "path": "/authors/dex",
+     "path": "/tags/reportive",
      "hits": 4
     }
    ],
@@ -410,7 +410,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2251,
+   "hits": 2252,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 644,
-   "verifiedHits": 555,
+   "hits": 646,
+   "verifiedHits": 557,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
    "topPaths": [
