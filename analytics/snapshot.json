@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-25T09:35:20.270Z",
+ "generated": "2026-10-25T09:45:25.246Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 5,
   "todayReads": 2,
   "avgTimeSec": 27,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 8092,
+  "views": 8095,
   "reads": 308,
   "completes": 12,
   "plays": 12,
-  "sessions": 7987
+  "sessions": 7990
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7714,
+   "views": 7717,
    "reads": 178,
-   "sessions": 7727
+   "sessions": 7730
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7714,
+   "views": 7717,
    "reads": 178,
    "completes": 10,
-   "sessions": 7726,
+   "sessions": 7729,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7507,
+   "views": 7510,
    "reads": 271,
-   "sessions": 7419
+   "sessions": 7422
   },
   {
    "device": "mobile",
@@ -625,16 +625,6 @@
    "plays": 1
   },
   {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 29,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "open-weight-llms-you-actually-run-locally-october-2026",
    "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
    "section": "stack",
@@ -642,6 +632,16 @@
    "author": "dex",
    "views": 28,
    "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 28,
+   "reads": 1,
    "plays": 0
   },
   {
@@ -688,9 +688,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 777,
+   "views": 781,
    "reads": 1,
-   "sessions": 777,
+   "sessions": 781,
    "avg_dwell_sec": 66
   },
   {
