@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-25T23:40:38.420Z",
+ "generated": "2026-10-25T23:50:57.089Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16452,
+ "verifiedAiHits": 16457,
  "logsScanned": 30,
  "windowStart": "2026-10-11",
  "windowEnd": "2026-10-25",
- "totalHits": 114890,
- "aiHits": 90749,
+ "totalHits": 114955,
+ "aiHits": 90798,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32842,
+   "hits": 32867,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -32,11 +32,11 @@
      "hits": 22
     },
     {
-     "path": "/posts/2026-10-05-founders-wire-anthropic-s1-openai-subpoena-ibm-sovereign.html",
-     "hits": 16
+     "path": "/posts/2026-10-11-founders-wire-gemini-agent-ramp-manus.html",
+     "hits": 17
     },
     {
-     "path": "/posts/2026-10-11-founders-wire-gemini-agent-ramp-manus.html",
+     "path": "/posts/2026-10-05-founders-wire-anthropic-s1-openai-subpoena-ibm-sovereign.html",
      "hits": 16
     }
    ],
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14967,
+   "hits": 14975,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13678,
+   "hits": 13688,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8669,
+   "hits": 8679,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7177,
-   "verifiedHits": 7111,
+   "hits": 7181,
+   "verifiedHits": 7115,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5258,
-   "verifiedHits": 5206,
+   "hits": 5260,
+   "verifiedHits": 5208,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
    "topPaths": [
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3551,
-   "verifiedHits": 3441,
+   "hits": 3554,
+   "verifiedHits": 3444,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
    "topPaths": [
     {
      "path": "/",
-     "hits": 902
+     "hits": 903
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -334,7 +334,7 @@
     },
     {
      "path": "/posts/2026-10-15-founders-wire-anthropic-opens-its-books.html",
-     "hits": 87
+     "hits": 88
     }
    ],
    "verifiable": true
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3353,
+   "hits": 3354,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -443,14 +443,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1338,
+   "hits": 1339,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
    "topPaths": [
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
-     "hits": 205
+     "hits": 206
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 657,
-   "verifiedHits": 568,
+   "hits": 658,
+   "verifiedHits": 569,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
    "topPaths": [
