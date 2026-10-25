@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-25T20:06:39.951Z",
+ "generated": "2026-10-25T20:17:00.021Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16401,
+ "verifiedAiHits": 16404,
  "logsScanned": 30,
  "windowStart": "2026-10-11",
  "windowEnd": "2026-10-25",
- "totalHits": 113839,
- "aiHits": 89894,
+ "totalHits": 113930,
+ "aiHits": 89971,
  "aiEngines": 16,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14804,
+   "hits": 14812,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13300,
+   "hits": 13364,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8589,
+   "hits": 8590,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7103,
-   "verifiedHits": 7037,
+   "hits": 7116,
+   "verifiedHits": 7050,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5222,
+   "hits": 5224,
    "verifiedHits": 0,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3518,
-   "verifiedHits": 3409,
+   "hits": 3521,
+   "verifiedHits": 3412,
    "firstSeen": "2026-10-11",
    "lastSeen": "2026-10-25",
    "topPaths": [
@@ -326,7 +326,7 @@
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 154
+     "hits": 155
     },
     {
      "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
