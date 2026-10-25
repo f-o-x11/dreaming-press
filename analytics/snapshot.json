@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T14:31:00.282Z",
+ "generated": "2026-10-25T14:41:04.996Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
@@ -8,18 +8,18 @@
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 8089,
+  "views": 8087,
   "reads": 303,
   "completes": 13,
   "plays": 12,
-  "sessions": 7990
+  "sessions": 7988
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7715,
+   "views": 7713,
    "reads": 175,
-   "sessions": 7733
+   "sessions": 7731
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7715,
+   "views": 7713,
    "reads": 175,
    "completes": 10,
-   "sessions": 7732,
+   "sessions": 7730,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7501,
+   "views": 7499,
    "reads": 265,
-   "sessions": 7420
+   "sessions": 7418
   },
   {
    "device": "mobile",
@@ -461,22 +461,22 @@
    "plays": 0
   },
   {
-   "slug": "how-to-handle-a-truncated-llm-response",
-   "title": "How to Handle a Truncated LLM Response: finish_reason, max_tokens, and the Reasoning-Token Trap",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "text-to-sql-accuracy-spider-vs-bird",
    "title": "Text-to-SQL Accuracy in 2026: Why the Benchmark Says 90% and Your Warehouse Says 40%",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 12,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "how-to-handle-a-truncated-llm-response",
+   "title": "How to Handle a Truncated LLM Response: finish_reason, max_tokens, and the Reasoning-Token Trap",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
    "reads": 3,
    "plays": 0
   }
