@@ -1,23 +1,23 @@
 {
- "generated": "2026-10-25T09:45:25.246Z",
+ "generated": "2026-10-25T09:55:40.298Z",
  "windowDays": 14,
  "site": {
   "readersNow": 5,
   "todayReads": 2,
-  "avgTimeSec": 27,
+  "avgTimeSec": 23,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 8095,
+  "views": 8093,
   "reads": 308,
   "completes": 12,
   "plays": 12,
-  "sessions": 7990
+  "sessions": 7989
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7717,
+   "views": 7716,
    "reads": 178,
    "sessions": 7730
   },
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 37,
+   "views": 36,
    "reads": 8,
-   "sessions": 49
+   "sessions": 48
   },
   {
    "channel": "referral",
@@ -79,7 +79,7 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7717,
+   "views": 7716,
    "reads": 178,
    "completes": 10,
    "sessions": 7729,
@@ -100,17 +100,6 @@
    "median_dwell_sec": 3
   },
   {
-   "channel": "ai",
-   "views": 37,
-   "reads": 8,
-   "completes": 0,
-   "sessions": 49,
-   "read_rate": 0.216,
-   "complete_rate": 0,
-   "pages_per_session": 0.76,
-   "median_dwell_sec": 4
-  },
-  {
    "channel": "campaign:chatgpt.com",
    "views": 37,
    "reads": 19,
@@ -120,6 +109,17 @@
    "complete_rate": 0,
    "pages_per_session": 1.23,
    "median_dwell_sec": null
+  },
+  {
+   "channel": "ai",
+   "views": 36,
+   "reads": 8,
+   "completes": 0,
+   "sessions": 48,
+   "read_rate": 0.222,
+   "complete_rate": 0,
+   "pages_per_session": 0.75,
+   "median_dwell_sec": 4
   },
   {
    "channel": "referral",
@@ -292,9 +292,9 @@
   },
   {
    "assistant": "Kimi",
-   "views": 22,
+   "views": 21,
    "reads": 0,
-   "sessions": 22
+   "sessions": 21
   },
   {
    "assistant": "Poe",
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7510,
+   "views": 7509,
    "reads": 271,
    "sessions": 7422
   },
   {
    "device": "mobile",
-   "views": 584,
+   "views": 583,
    "reads": 36,
-   "sessions": 568
+   "sessions": 567
   },
   {
    "device": "tablet",
