@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-25T01:18:00.222Z",
+ "generated": "2026-10-25T01:28:02.379Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 8,
   "todayReads": 0,
-  "avgTimeSec": 0,
+  "avgTimeSec": 2,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 8116,
+  "views": 8121,
   "reads": 313,
   "completes": 11,
   "plays": 12,
-  "sessions": 8008
+  "sessions": 8013
  },
  "channels": [
   {
@@ -23,9 +23,9 @@
   },
   {
    "channel": "organic",
-   "views": 269,
+   "views": 274,
    "reads": 88,
-   "sessions": 261
+   "sessions": 266
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -90,14 +90,14 @@
   },
   {
    "channel": "organic",
-   "views": 269,
+   "views": 274,
    "reads": 88,
    "completes": 1,
-   "sessions": 261,
-   "read_rate": 0.327,
+   "sessions": 266,
+   "read_rate": 0.321,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
-   "median_dwell_sec": 3
+   "median_dwell_sec": 2
   },
   {
    "channel": "ai",
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7534,
+   "views": 7539,
    "reads": 277,
-   "sessions": 7441
+   "sessions": 7446
   },
   {
    "device": "mobile",
@@ -694,10 +694,10 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 772,
+   "views": 777,
    "reads": 1,
-   "sessions": 772,
-   "avg_dwell_sec": 77
+   "sessions": 777,
+   "avg_dwell_sec": 66
   },
   {
    "path": "/compare/:pair",
@@ -801,8 +801,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 149,
-   "sessions": 134
+   "hits": 155,
+   "sessions": 139
   },
   {
    "ref": "https://www.bing.com/",
