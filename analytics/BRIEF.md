@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-25T15:42Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-25T15:52Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 8086 views → 300 engaged reads → 13 completes · 7988 sessions.
-- Channels: direct 175r/7716v · organic 86r/262v · campaign:chatgpt.com 18r/36v · ai 7r/35v · referral 6r/26v · campaign:owner-qa 4r/4v · social 3r/5v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · internal-nav 0r/0v.
+- Funnel: 8087 views → 300 engaged reads → 13 completes · 7989 sessions.
+- Channels: direct 175r/7717v · organic 86r/262v · campaign:chatgpt.com 18r/36v · ai 7r/35v · referral 6r/26v · campaign:owner-qa 4r/4v · social 3r/5v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 19r/41v · Doubao 3r/3v · Perplexity 2r/3v · Yuanbao 1r/1v · Kimi 0r/21v · Poe 0r/1v · Copilot 0r/1v.
 - Referrers: google.com, bing.com, duckduckgo.com, cn.bing.com, search.brave.com, nav-cmp, brand, ecosia.org, youtube.com, qwant.com.
 - Engaged-read winners by section: stack=6, wire=9.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 7716 views · read 2.3% · complete 0.1% · 1 pages/session · median 9s
+- direct: 7717 views · read 2.3% · complete 0.1% · 1 pages/session · median 9s
 - organic: 262 views · read 32.8% · complete 0.8% · 1.04 pages/session · median 3s
 - campaign:chatgpt.com: 36 views · read 50.0% · complete 0.0% · 1.24 pages/session · median ?s
 - ai: 35 views · read 20.0% · complete 0.0% · 0.74 pages/session · median 4s
@@ -60,7 +60,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 782 views, 1 reads, 782 sessions, avg 66s
-- /compare/:pair — 356 views, 2 reads, 355 sessions, avg 29s
+- /compare/:pair — 357 views, 2 reads, 356 sessions, avg 29s
 - /build — 154 views, 0 reads, 154 sessions
 - / — 146 views, 4 reads, 155 sessions, avg 13s
 - /tags/reportive — 61 views, 0 reads, 61 sessions
