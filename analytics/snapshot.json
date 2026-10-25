@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-25T14:20:50.776Z",
+ "generated": "2026-10-25T14:31:00.282Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 3,
   "todayReads": 5,
   "avgTimeSec": 24,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 8090,
-  "reads": 305,
+  "views": 8089,
+  "reads": 303,
   "completes": 13,
   "plays": 12,
-  "sessions": 7992
+  "sessions": 7990
  },
  "channels": [
   {
    "channel": "direct",
    "views": 7715,
    "reads": 175,
-   "sessions": 7734
+   "sessions": 7733
   },
   {
    "channel": "organic",
-   "views": 265,
-   "reads": 89,
-   "sessions": 257
+   "views": 264,
+   "reads": 87,
+   "sessions": 255
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -82,7 +82,7 @@
    "views": 7715,
    "reads": 175,
    "completes": 10,
-   "sessions": 7733,
+   "sessions": 7732,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -90,13 +90,13 @@
   },
   {
    "channel": "organic",
-   "views": 265,
-   "reads": 89,
+   "views": 264,
+   "reads": 87,
    "completes": 2,
-   "sessions": 257,
-   "read_rate": 0.336,
+   "sessions": 255,
+   "read_rate": 0.33,
    "complete_rate": 0.008,
-   "pages_per_session": 1.03,
+   "pages_per_session": 1.04,
    "median_dwell_sec": 3
   },
   {
@@ -313,14 +313,14 @@
   {
    "device": "desktop",
    "views": 7501,
-   "reads": 267,
-   "sessions": 7421
+   "reads": 265,
+   "sessions": 7420
   },
   {
    "device": "mobile",
-   "views": 586,
+   "views": 585,
    "reads": 36,
-   "sessions": 570
+   "sessions": 569
   },
   {
    "device": "tablet",
@@ -346,8 +346,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 39,
-   "reads": 17,
+   "views": 38,
+   "reads": 16,
    "plays": 0
   },
   {
@@ -610,8 +610,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 39,
-   "reads": 17,
+   "views": 38,
+   "reads": 16,
    "plays": 0
   },
   {
@@ -799,14 +799,14 @@
    "sessions": 131
   },
   {
-   "ref": "https://duckduckgo.com/",
-   "hits": 79,
-   "sessions": 47
-  },
-  {
    "ref": "https://www.bing.com/",
    "hits": 78,
    "sessions": 40
+  },
+  {
+   "ref": "https://duckduckgo.com/",
+   "hits": 76,
+   "sessions": 45
   },
   {
    "ref": "https://cn.bing.com/",
