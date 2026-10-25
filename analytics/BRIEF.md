@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-25T12:49Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-25T12:59Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -107,9 +107,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html  — 26 retrieval fetches
 
 Per engine:
-- PerplexityBot (6485 verified): / ×28 · /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html ×26 · /tools ×25
+- PerplexityBot (6486 verified): / ×28 · /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html ×26 · /tools ×25
 - OAI-SearchBot (5187 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×130 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×80 · /posts/open-source-llm-for-coding-september-2026.html ×75
-- ChatGPT-User (3366 verified): / ×886 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×309 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×152
+- ChatGPT-User (3367 verified): / ×886 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×309 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×152
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -126,9 +126,9 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Search-demand signal STALE (97h old, 243 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16321 confirmed AI-engine fetches (Perplexity 6485, ChatGPT Search (OpenAI) 5187, ChatGPT (user browsing) 3366, GPTBot (OpenAI) 1283).
+The real answer engines are crawling us — IP-verified: 16323 confirmed AI-engine fetches (Perplexity 6486, ChatGPT Search (OpenAI) 5187, ChatGPT (user browsing) 3367, GPTBot (OpenAI) 1283).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 469 crawler fetches
+- /build  — 470 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 419 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 324 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 215 crawler fetches
