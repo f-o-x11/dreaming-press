@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-25T00:17Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-25T00:27Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 8121 views → 314 engaged reads → 11 completes · 8013 sessions.
-- Channels: direct 180r/7735v · organic 88r/269v · campaign:chatgpt.com 21r/39v · ai 11r/40v · referral 6r/27v · campaign:owner-qa 4r/4v · social 3r/5v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · internal-nav 0r/0v.
+- Funnel: 8121 views → 313 engaged reads → 11 completes · 8013 sessions.
+- Channels: direct 179r/7735v · organic 88r/269v · campaign:chatgpt.com 21r/39v · ai 11r/40v · referral 6r/27v · campaign:owner-qa 4r/4v · social 3r/5v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 24r/46v · Doubao 3r/3v · Perplexity 2r/3v · Claude 2r/2v · Yuanbao 1r/1v · Kimi 0r/22v · Poe 0r/1v · Copilot 0r/1v.
 - Referrers: google.com, bing.com, duckduckgo.com, cn.bing.com, search.brave.com, nav-cmp, chatgpt.com, brand, ecosia.org, youtube.com.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -123,7 +123,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Uncovered search demand (243 of 453 phrases have NO post, 84h ago)
+## Uncovered search demand (243 of 453 phrases have NO post, 85h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
