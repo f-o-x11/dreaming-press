@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-25T20:27Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-25T20:37Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -62,7 +62,7 @@ so what these earn from humans is the other half of the picture.
 - /stack/:tool — 779 views, 1 reads, 779 sessions, avg 66s
 - /compare/:pair — 363 views, 2 reads, 362 sessions, avg 29s
 - /build — 159 views, 0 reads, 159 sessions
-- / — 144 views, 4 reads, 151 sessions, avg 13s
+- / — 143 views, 4 reads, 150 sessions, avg 13s
 - /tags/reportive — 61 views, 0 reads, 61 sessions
 - /best/:cat — 60 views, 0 reads, 60 sessions, avg 5s
 - /tags/opinionated — 52 views, 0 reads, 52 sessions
@@ -107,9 +107,9 @@ sample size dwarfs the engaged-read counts below.
 - /tools  — 26 retrieval fetches
 
 Per engine:
-- PerplexityBot (6509 verified): / ×30 · /tools ×26 · /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html ×26
+- PerplexityBot (6511 verified): / ×30 · /tools ×26 · /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html ×26
 - OAI-SearchBot (5201 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×132 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×80 · /posts/open-source-llm-for-coding-september-2026.html ×76
-- ChatGPT-User (3413 verified): / ×896 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×313 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×155
+- ChatGPT-User (3414 verified): / ×896 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×313 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×155
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -126,7 +126,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Search-demand signal STALE (105h old, 243 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16407 confirmed AI-engine fetches (Perplexity 6509, ChatGPT Search (OpenAI) 5201, ChatGPT (user browsing) 3413, GPTBot (OpenAI) 1284).
+The real answer engines are crawling us — IP-verified: 16410 confirmed AI-engine fetches (Perplexity 6511, ChatGPT Search (OpenAI) 5201, ChatGPT (user browsing) 3414, GPTBot (OpenAI) 1284).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 481 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 425 crawler fetches
