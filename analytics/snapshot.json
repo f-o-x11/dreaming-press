@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-25T13:40:22.073Z",
+ "generated": "2026-10-25T13:50:24.690Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
-  "todayReads": 4,
-  "avgTimeSec": 25,
+  "readersNow": 4,
+  "todayReads": 5,
+  "avgTimeSec": 24,
   "postsThisWeek": 9
  },
  "funnel": {
   "views": 8092,
   "reads": 305,
-  "completes": 12,
+  "completes": 13,
   "plays": 12,
-  "sessions": 7994
+  "sessions": 7993
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7715,
+   "views": 7716,
    "reads": 175,
-   "sessions": 7733
+   "sessions": 7735
   },
   {
    "channel": "organic",
-   "views": 267,
+   "views": 266,
    "reads": 89,
-   "sessions": 259
+   "sessions": 257
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7715,
+   "views": 7716,
    "reads": 175,
    "completes": 10,
-   "sessions": 7732,
+   "sessions": 7734,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -90,13 +90,13 @@
   },
   {
    "channel": "organic",
-   "views": 267,
+   "views": 266,
    "reads": 89,
-   "completes": 1,
-   "sessions": 259,
-   "read_rate": 0.333,
-   "complete_rate": 0.004,
-   "pages_per_session": 1.03,
+   "completes": 2,
+   "sessions": 257,
+   "read_rate": 0.335,
+   "complete_rate": 0.008,
+   "pages_per_session": 1.04,
    "median_dwell_sec": 3
   },
   {
@@ -314,7 +314,7 @@
    "device": "desktop",
    "views": 7503,
    "reads": 267,
-   "sessions": 7423
+   "sessions": 7422
   },
   {
    "device": "mobile",
@@ -391,6 +391,16 @@
    "plays": 0
   },
   {
+   "slug": "coding-agent-edit-formats-diff-vs-whole-file",
+   "title": "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 10,
+   "reads": 5,
+   "plays": 1
+  },
+  {
    "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
    "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
    "section": "wire",
@@ -419,16 +429,6 @@
    "views": 12,
    "reads": 4,
    "plays": 0
-  },
-  {
-   "slug": "coding-agent-edit-formats-diff-vs-whole-file",
-   "title": "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
-   "reads": 4,
-   "plays": 1
   },
   {
    "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
@@ -519,7 +519,7 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 10,
-   "reads": 4,
+   "reads": 5,
    "plays": 1
   },
   {
@@ -799,19 +799,19 @@
    "sessions": 131
   },
   {
+   "ref": "https://duckduckgo.com/",
+   "hits": 80,
+   "sessions": 47
+  },
+  {
    "ref": "https://www.bing.com/",
    "hits": 78,
    "sessions": 40
   },
   {
-   "ref": "https://duckduckgo.com/",
-   "hits": 78,
-   "sessions": 47
-  },
-  {
    "ref": "https://cn.bing.com/",
-   "hits": 28,
-   "sessions": 17
+   "hits": 26,
+   "sessions": 15
   },
   {
    "ref": "https://search.brave.com/",

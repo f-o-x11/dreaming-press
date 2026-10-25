@@ -1,12 +1,12 @@
-# Analytics brief — auto-exported 2026-10-25T13:40Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-25T13:50Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 8092 views → 305 engaged reads → 12 completes · 7994 sessions.
-- Channels: direct 175r/7715v · organic 89r/267v · campaign:chatgpt.com 19r/37v · ai 8r/36v · referral 6r/26v · campaign:owner-qa 4r/4v · social 3r/5v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · internal-nav 0r/0v.
+- Funnel: 8092 views → 305 engaged reads → 13 completes · 7993 sessions.
+- Channels: direct 175r/7716v · organic 89r/266v · campaign:chatgpt.com 19r/37v · ai 8r/36v · referral 6r/26v · campaign:owner-qa 4r/4v · social 3r/5v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 21r/43v · Doubao 3r/3v · Perplexity 2r/3v · Yuanbao 1r/1v · Kimi 0r/21v · Poe 0r/1v · Copilot 0r/1v.
-- Referrers: google.com, bing.com, duckduckgo.com, cn.bing.com, search.brave.com, nav-cmp, brand, ecosia.org, youtube.com, qwant.com.
+- Referrers: google.com, duckduckgo.com, bing.com, cn.bing.com, search.brave.com, nav-cmp, brand, ecosia.org, youtube.com, qwant.com.
 - Engaged-read winners by section: stack=6, wire=9.
 
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 7715 views · read 2.3% · complete 0.1% · 1 pages/session · median 9s
-- organic: 267 views · read 33.3% · complete 0.4% · 1.03 pages/session · median 3s
+- direct: 7716 views · read 2.3% · complete 0.1% · 1 pages/session · median 9s
+- organic: 266 views · read 33.5% · complete 0.8% · 1.04 pages/session · median 3s
 - campaign:chatgpt.com: 37 views · read 51.4% · complete 0.0% · 1.23 pages/session · median ?s
 - ai: 36 views · read 22.2% · complete 0.0% · 0.75 pages/session · median 4s
 - referral: 26 views · read 23.1% · complete 0.0% · 1.08 pages/session · median ?s
@@ -41,16 +41,16 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 8 reads, 41 views, 0 listens
 - [stack] "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't" — 5 reads, 14 views, 0 listens
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 5 reads, 13 views, 0 listens
+- [wire] "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace" — 5 reads, 10 views, 1 listens
 - [wire] "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents" — 5 reads, 6 views, 0 listens
 - [wire] "The Founder's Wire, October 15: Anthropic Opened Its Books — $16.8B, an 85% Margin, and $1.70 of Revenue for Every $1 of Compute" — 4 reads, 21 views, 0 listens
 - [wire] "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo" — 4 reads, 12 views, 0 listens
-- [wire] "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace" — 4 reads, 10 views, 1 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "How to Handle a Tool Result Too Large for the Context Window: Truncate, Paginate, or Hand Back a Handle" — 2 listens, 3 reads
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 1 listens, 40 reads
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 1 listens, 11 reads
-- [wire] "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace" — 1 listens, 4 reads
+- [wire] "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace" — 1 listens, 5 reads
 - [stack] "Text-to-SQL for Agents: Vanna vs WrenAI vs Dataherald" — 1 listens, 2 reads
 - [wire] "CIMD vs Dynamic Client Registration: How MCP Clients Register After July 28" — 1 listens, 2 reads
 - [stack] "Context Engineering for Claude: How Agent Skills Give Expertise Without Blowing Your Context Window" — 1 listens, 1 reads
@@ -95,7 +95,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 916 retrieval fetches
+- /  — 917 retrieval fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 310 retrieval fetches
 - /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 165 retrieval fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 152 retrieval fetches
@@ -107,9 +107,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html  — 26 retrieval fetches
 
 Per engine:
-- PerplexityBot (6491 verified): / ×28 · /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html ×26 · /tools ×25
+- PerplexityBot (6492 verified): / ×28 · /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html ×26 · /tools ×25
 - OAI-SearchBot (5187 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×130 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×80 · /posts/open-source-llm-for-coding-september-2026.html ×75
-- ChatGPT-User (3373 verified): / ×888 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×310 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×152
+- ChatGPT-User (3376 verified): / ×889 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×310 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×152
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -126,7 +126,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Search-demand signal STALE (98h old, 243 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16334 confirmed AI-engine fetches (Perplexity 6491, ChatGPT Search (OpenAI) 5187, ChatGPT (user browsing) 3373, GPTBot (OpenAI) 1283).
+The real answer engines are crawling us — IP-verified: 16338 confirmed AI-engine fetches (Perplexity 6492, ChatGPT Search (OpenAI) 5187, ChatGPT (user browsing) 3376, GPTBot (OpenAI) 1283).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 471 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 421 crawler fetches
