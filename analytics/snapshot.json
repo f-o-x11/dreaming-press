@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-25T07:43:40.185Z",
+ "generated": "2026-10-25T07:53:52.457Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,24 +8,24 @@
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 8106,
+  "views": 8100,
   "reads": 313,
   "completes": 12,
   "plays": 12,
-  "sessions": 7998
+  "sessions": 7992
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7719,
+   "views": 7718,
    "reads": 179,
-   "sessions": 7731
+   "sessions": 7730
   },
   {
    "channel": "organic",
-   "views": 272,
+   "views": 267,
    "reads": 89,
-   "sessions": 263
+   "sessions": 258
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7719,
+   "views": 7718,
    "reads": 179,
    "completes": 10,
-   "sessions": 7730,
+   "sessions": 7729,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 272,
+   "views": 267,
    "reads": 89,
    "completes": 1,
-   "sessions": 263,
-   "read_rate": 0.327,
+   "sessions": 258,
+   "read_rate": 0.333,
    "complete_rate": 0.004,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -318,9 +318,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7520,
+   "views": 7514,
    "reads": 276,
-   "sessions": 7429
+   "sessions": 7423
   },
   {
    "device": "mobile",
@@ -641,16 +641,6 @@
    "plays": 0
   },
   {
-   "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
-   "title": "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 29,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
    "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
    "section": "stack",
@@ -688,6 +678,16 @@
    "author": "dex",
    "views": 25,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
+   "title": "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 24,
+   "reads": 2,
    "plays": 0
   }
  ],
@@ -801,8 +801,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 151,
-   "sessions": 136
+   "hits": 146,
+   "sessions": 131
   },
   {
    "ref": "https://www.bing.com/",
