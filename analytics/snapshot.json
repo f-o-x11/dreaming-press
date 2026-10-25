@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-25T17:24:14.212Z",
+ "generated": "2026-10-25T17:34:30.287Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 4,
   "todayReads": 5,
   "avgTimeSec": 22,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 8093,
-  "reads": 300,
+  "views": 8095,
+  "reads": 298,
   "completes": 13,
   "plays": 12,
-  "sessions": 7995
+  "sessions": 7997
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7723,
-   "reads": 175,
-   "sessions": 7740
+   "views": 7725,
+   "reads": 173,
+   "sessions": 7742
   },
   {
    "channel": "organic",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7723,
-   "reads": 175,
+   "views": 7725,
+   "reads": 173,
    "completes": 10,
-   "sessions": 7739,
-   "read_rate": 0.023,
+   "sessions": 7741,
+   "read_rate": 0.022,
    "complete_rate": 0.001,
    "pages_per_session": 1,
    "median_dwell_sec": 9
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7504,
-   "reads": 264,
-   "sessions": 7423
+   "views": 7506,
+   "reads": 262,
+   "sessions": 7425
   },
   {
    "device": "mobile",
@@ -377,16 +377,6 @@
    "tags": "[\"compare\",\"opinionated\"]",
    "author": "dex",
    "views": 14,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 13,
    "reads": 5,
    "plays": 0
   },
@@ -467,6 +457,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 12,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 11,
    "reads": 3,
    "plays": 0
   },
@@ -688,16 +688,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 781,
+   "views": 782,
    "reads": 1,
-   "sessions": 781,
+   "sessions": 782,
    "avg_dwell_sec": 66
   },
   {
    "path": "/compare/:pair",
-   "views": 358,
+   "views": 359,
    "reads": 2,
-   "sessions": 357,
+   "sessions": 358,
    "avg_dwell_sec": 29
   },
   {
