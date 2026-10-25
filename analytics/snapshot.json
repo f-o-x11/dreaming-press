@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-25T16:22:43.751Z",
+ "generated": "2026-10-25T16:32:45.068Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 3,
   "todayReads": 5,
   "avgTimeSec": 22,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 8092,
+  "views": 8089,
   "reads": 300,
   "completes": 13,
   "plays": 12,
-  "sessions": 7994
+  "sessions": 7991
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7722,
+   "views": 7719,
    "reads": 175,
-   "sessions": 7739
+   "sessions": 7736
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7722,
+   "views": 7719,
    "reads": 175,
    "completes": 10,
-   "sessions": 7738,
+   "sessions": 7735,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7507,
+   "views": 7504,
    "reads": 264,
-   "sessions": 7426
+   "sessions": 7423
   },
   {
    "device": "mobile",
@@ -366,7 +366,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 41,
+   "views": 40,
    "reads": 8,
    "plays": 0
   },
@@ -600,7 +600,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 41,
+   "views": 40,
    "reads": 8,
    "plays": 0
   },
@@ -625,16 +625,6 @@
    "plays": 1
   },
   {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 28,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "open-weight-llms-you-actually-run-locally-october-2026",
    "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
    "section": "stack",
@@ -642,6 +632,16 @@
    "author": "dex",
    "views": 27,
    "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 27,
+   "reads": 1,
    "plays": 0
   },
   {
@@ -695,9 +695,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 358,
+   "views": 357,
    "reads": 2,
-   "sessions": 357,
+   "sessions": 356,
    "avg_dwell_sec": 29
   },
   {
