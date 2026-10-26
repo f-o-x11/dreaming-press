@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-26T21:29:50.417Z",
+ "generated": "2026-10-26T21:40:00.216Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 19,
   "avgTimeSec": 56,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 7678,
+  "views": 7668,
   "reads": 295,
   "completes": 13,
   "plays": 12,
-  "sessions": 7583
+  "sessions": 7573
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7326,
+   "views": 7316,
    "reads": 175,
-   "sessions": 7336
+   "sessions": 7326
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7326,
+   "views": 7316,
    "reads": 175,
    "completes": 10,
-   "sessions": 7335,
+   "sessions": 7325,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7089,
+   "views": 7079,
    "reads": 261,
-   "sessions": 7005
+   "sessions": 6995
   },
   {
    "device": "mobile",
@@ -395,22 +395,22 @@
    "plays": 0
   },
   {
-   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
-   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 12,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
    "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
    "section": "stack",
    "tags": "[\"compare\",\"opinionated\"]",
    "author": "dex",
    "views": 12,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
+   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 10,
    "reads": 4,
    "plays": 0
   },
