@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-26T08:49:20.221Z",
+ "generated": "2026-10-26T08:59:24.312Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 12,
   "todayReads": 6,
   "avgTimeSec": 40,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 8152,
+  "views": 8155,
   "reads": 295,
   "completes": 14,
   "plays": 12,
-  "sessions": 8061
+  "sessions": 8064
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7783,
+   "views": 7786,
    "reads": 171,
-   "sessions": 7803
+   "sessions": 7806
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7783,
+   "views": 7786,
    "reads": 171,
    "completes": 11,
-   "sessions": 7802,
+   "sessions": 7805,
    "read_rate": 0.022,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7551,
+   "views": 7554,
    "reads": 262,
-   "sessions": 7472
+   "sessions": 7475
   },
   {
    "device": "mobile",
@@ -619,19 +619,19 @@
    "plays": 1
   },
   {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
+   "slug": "tuning-chunked-prefill-max-num-batched-tokens",
+   "title": "Tuning Chunked Prefill in vLLM: The One Knob That Trades First-Token Latency for Smooth Streaming",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 27,
+   "views": 29,
    "reads": 1,
    "plays": 0
   },
   {
-   "slug": "tuning-chunked-prefill-max-num-batched-tokens",
-   "title": "Tuning Chunked Prefill in vLLM: The One Knob That Trades First-Token Latency for Smooth Streaming",
-   "section": "wire",
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 27,
