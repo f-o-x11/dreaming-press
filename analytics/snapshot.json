@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-26T08:08:43.915Z",
+ "generated": "2026-10-26T08:18:50.229Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 8,
+  "readersNow": 6,
   "todayReads": 6,
   "avgTimeSec": 40,
   "postsThisWeek": 7
@@ -350,7 +350,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 34,
+   "views": 35,
    "reads": 13,
    "plays": 1
   },
@@ -502,7 +502,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 34,
+   "views": 35,
    "reads": 13,
    "plays": 1
   },
@@ -614,7 +614,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 34,
+   "views": 35,
    "reads": 13,
    "plays": 1
   },
@@ -682,9 +682,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 788,
+   "views": 789,
    "reads": 1,
-   "sessions": 788,
+   "sessions": 789,
    "avg_dwell_sec": 66
   },
   {
@@ -709,18 +709,18 @@
    "avg_dwell_sec": 14
   },
   {
-   "path": "/best/:cat",
-   "views": 61,
-   "reads": 0,
-   "sessions": 61,
-   "avg_dwell_sec": 5
-  },
-  {
    "path": "/tags/reportive",
    "views": 61,
    "reads": 0,
    "sessions": 61,
    "avg_dwell_sec": null
+  },
+  {
+   "path": "/best/:cat",
+   "views": 60,
+   "reads": 0,
+   "sessions": 60,
+   "avg_dwell_sec": 5
   },
   {
    "path": "/tags/opinionated",
