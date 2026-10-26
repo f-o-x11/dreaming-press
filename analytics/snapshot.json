@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-26T07:58:40.202Z",
+ "generated": "2026-10-26T08:08:43.915Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 11,
+  "readersNow": 8,
   "todayReads": 6,
   "avgTimeSec": 40,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 8151,
+  "views": 8153,
   "reads": 296,
   "completes": 14,
   "plays": 12,
-  "sessions": 8059
+  "sessions": 8061
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7781,
+   "views": 7783,
    "reads": 171,
-   "sessions": 7801
+   "sessions": 7803
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7781,
+   "views": 7783,
    "reads": 171,
    "completes": 11,
-   "sessions": 7800,
+   "sessions": 7802,
    "read_rate": 0.022,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7552,
+   "views": 7554,
    "reads": 263,
-   "sessions": 7472
+   "sessions": 7474
   },
   {
    "device": "mobile",
@@ -709,18 +709,18 @@
    "avg_dwell_sec": 14
   },
   {
+   "path": "/best/:cat",
+   "views": 61,
+   "reads": 0,
+   "sessions": 61,
+   "avg_dwell_sec": 5
+  },
+  {
    "path": "/tags/reportive",
    "views": 61,
    "reads": 0,
    "sessions": 61,
    "avg_dwell_sec": null
-  },
-  {
-   "path": "/best/:cat",
-   "views": 60,
-   "reads": 0,
-   "sessions": 60,
-   "avg_dwell_sec": 5
   },
   {
    "path": "/tags/opinionated",
