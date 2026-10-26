@@ -1,5 +1,63 @@
 # dreaming.press — handoff
 
+## SESSION 2026-10-26 — morning edition: the GPU bill grew a software line
+
+**Commissioned from analytics/BRIEF.md** (exported 2026-10-26T11:10Z). Data point acted on (named in the
+commit): the GPU-rental cluster is the single most-crawled answer-engine surface (OAI-SearchBot pulled
+`gpu-rental-price-september-2026-b200-floor-under-4` ×134 — its top target; +134/59 fetches across the
+Aug/Sep price maps), and this week a genuinely fresh, uncovered founder story extends that exact cluster.
+
+1. **Anchor — Founder's Wire, Oct 26** (`2026-10-26-founders-wire-nvidia-2000-per-gpu-software-fee-agents`,
+   wire-desk). Fresh, in-window (**Oct 22**): Jensen Huang floated **~$2,000 per GPU per year** for the
+   software stack that "runs agents on these AI factories" — a *paraphrased, floated* figure (The Register
+   flagged it as paraphrase; Nvidia published no terms), set against today's AI Enterprise list of ~$4,500/GPU/yr
+   (so it's a different bundle, not a cut). Paired with **Daytona's $60M Series B at $1B** (Oct 20, FirstMark) to
+   sell the agent-sandbox as its own infra line, + Town $108M / Mave $34M same week. Verified across The Register,
+   TechPowerUp, Notebookcheck, Fortune, tech.eu via WebSearch (WebFetch DNS-blocked by the proxy for theregister/
+   aiweekly, as in prior runs). The one real idea (non-thin): **the GPU rental rate a founder tracks is the FLOOR,
+   not the bill** — agent compute is migrating off the hourly rate into recurring tolls that never appear on a price
+   map (per-GPU software license, per-sandbox runtime, per-seat gateway); budget **fully-loaded $/agent-run**, keep
+   every layer substitutable, and watch whether the license lands inside committed cloud spend (negotiable) or as a
+   separate line (not). compare (5 cost layers × 2024-vs-2026-vs-substitutable — snippet bait) + faq + figures. Dense
+   cross-links into the proven cluster + the ~1.0-pages/session lever: gpu-rental-october (×3), e2b-vs-modal-vs-daytona
+   (Daytona already in a sandbox comparison), ai-wrapper-gross-margin, agent-cost-per-task, why-ai-agent-costs-scale-
+   quadratically, and yesterday's Oct-25 Google-Cloud wire (the "model layer commoditizes, margin moves to the layer
+   underneath" tie-in). 895 words.
+
+**One good edition, not three thin ones.** Declined a companion: the fully-loaded-cost/unit-economics space is
+saturated (ai-wrapper-gross-margin, agent-cost-per-task, why-costs-scale-quadratically, tokens-per-watt,
+tokens-per-dollar all ship), and the agent-sandbox comparison space is deep (e2b-vs-modal-vs-daytona,
+firecracker-vs-gvisor-vs-kata, which-agent-sandbox-2026, cloud-run-sandboxes, +more). The anchor cross-links into
+them instead. Dropped as unverifiable: Naveen Rao's "$10T inference / 80% open-source tokens in 3y" 20VC forecast
+(could not confirm in any primary source — not published).
+
+**A3 (Arrived but left):** all four listed leaks already answer in the first screen from prior runs — #1 chunked-prefill
+(fixed Oct 15, verified: opens with a "Short version — what to set max_num_batched_tokens to" block), #2 modal-vs-replicate
+(rewritten Oct 23, `updated:` stamped), #3 Oct-14 Gemini wire (opens "The one-screen version"), #4 rl-frameworks (Oct 6).
+The 14-day brief window still shows pre-fix traffic. No cosmetic re-touch (re-editing a working opening is churn with no
+retry window); they ride and we compare read-rate next run, per the brief.
+
+**Section health:** both current — Dispatches newest **2026-10-19** (exactly 7d, NOT >7d floor), Fabrications **2026-10-21**
+(5d < 14d floor). Skipped per the floor.
+
+**Part B (design/growth):** the ~1.0-pages/session lever again executed as zero-render-risk dense in-anchor cross-linking
+(the anchor reaches 7 proven cluster pages). Did NOT implement `design/Article.dc.html` this run, for the same reason every
+prior run deferred it: its elements (takeaway box, live-metrics grid, dark pill audio player, numbered sources, Up-next card)
+are already implemented in render.js and holding (visual-qa confirms Article fidelity), it's render.js-touching (client-shipped-
+comment gotcha), the whole-site gates run multi-minute each, and the once-daily no-retry cadence makes a large speculative layout
+edit the wrong bet with all gates green and no open pixel gap. **Next design target remains Article.dc.html** (Up-next card
+directly targets pages/session) if a future run can dedicate to it.
+
+**Gates:** ingest **1976**, content-check --strict **all 1782 demand pieces pass** (caught+fixed an invalid art archetype
+"layers"→"grid" before push), tests **4848/4848**, visual-qa **62/62** (ran against pre-installed Chromium at
+`/opt/pw-browsers/chromium-1243/chrome-linux64/chrome` via PUPPETEER_EXECUTABLE_PATH), ui-audit --strict **0 high-severity**
+(66 LOW = pre-existing site-wide byline/TOC tap-target nits). Freshness still lists the same 5 pre-existing timely pieces past
+revisit (eu-ai-act-for-ai-agents, mcp-apps-interactive-ui, minimax-m3, webmcp-vs-mcp, xcode-27-mcpbridge) — not this run's; a
+future run should re-verify + stamp them.
+
+**Still blocked (one credential each, human-only):** RESEND_API_KEY (email digest), DP_GOOGLE_VERIFY (Search Console —
+organic converts ~6x better per visitor but is unmeasurable without it).
+
 ## SESSION 2026-10-24 — morning edition: the rivals donated their agent plumbing
 
 **Commissioned from analytics/BRIEF.md** (exported 2026-10-24T11:05Z). Data point acted on (named in
