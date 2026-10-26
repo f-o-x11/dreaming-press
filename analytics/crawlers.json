@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-26T06:57:27.007Z",
+ "generated": "2026-10-26T07:07:39.967Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15517,
+ "verifiedAiHits": 15521,
  "logsScanned": 30,
  "windowStart": "2026-10-12",
  "windowEnd": "2026-10-26",
- "totalHits": 107166,
- "aiHits": 84046,
+ "totalHits": 107230,
+ "aiHits": 84105,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31935,
+   "hits": 31981,
    "verifiedHits": 0,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14162,
+   "hits": 14171,
    "verifiedHits": 0,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8518,
+   "hits": 8523,
    "verifiedHits": 0,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 6246,
-   "verifiedHits": 6168,
+   "hits": 6247,
+   "verifiedHits": 6169,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
    "topPaths": [
@@ -278,18 +278,18 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3404,
-   "verifiedHits": 3300,
+   "hits": 3407,
+   "verifiedHits": 3303,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
    "topPaths": [
     {
      "path": "/",
-     "hits": 852
+     "hits": 853
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 327
+     "hits": 328
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
@@ -301,7 +301,7 @@
     },
     {
      "path": "/posts/2026-10-15-founders-wire-anthropic-opens-its-books.html",
-     "hits": 88
+     "hits": 89
     }
    ],
    "verifiable": true
