@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-26T16:05:06.028Z",
+ "generated": "2026-10-26T16:15:13.974Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15743,
+ "verifiedAiHits": 15747,
  "logsScanned": 30,
  "windowStart": "2026-10-12",
  "windowEnd": "2026-10-26",
- "totalHits": 110439,
- "aiHits": 86658,
+ "totalHits": 110561,
+ "aiHits": 86775,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32952,
+   "hits": 32986,
    "verifiedHits": 0,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
    "topPaths": [
     {
      "path": "/",
-     "hits": 42
+     "hits": 44
     },
     {
      "path": "/build",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14582,
+   "hits": 14590,
    "verifiedHits": 0,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
@@ -66,7 +66,7 @@
     },
     {
      "path": "/tags/opinionated",
-     "hits": 26
+     "hits": 28
     },
     {
      "path": "/stack.html",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14128,
+   "hits": 14197,
    "verifiedHits": 0,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
@@ -102,7 +102,7 @@
      "hits": 6
     },
     {
-     "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
+     "path": "/stack.html",
      "hits": 6
     }
    ],
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8796,
+   "hits": 8800,
    "verifiedHits": 0,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6992,
-   "verifiedHits": 6931,
+   "hits": 6993,
+   "verifiedHits": 6932,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 6303,
-   "verifiedHits": 6225,
+   "hits": 6304,
+   "verifiedHits": 6226,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3512,
-   "verifiedHits": 3408,
+   "hits": 3516,
+   "verifiedHits": 3411,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
    "topPaths": [
@@ -293,7 +293,7 @@
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 141
+     "hits": 142
     },
     {
      "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
@@ -301,7 +301,7 @@
     },
     {
      "path": "/posts/2026-10-15-founders-wire-anthropic-opens-its-books.html",
-     "hits": 95
+     "hits": 96
     }
    ],
    "verifiable": true
@@ -476,7 +476,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1292,
+   "hits": 1293,
    "verifiedHits": 0,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
