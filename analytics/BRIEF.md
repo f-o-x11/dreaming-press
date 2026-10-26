@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-26T10:20Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-26T10:30Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 8141 views → 297 engaged reads → 14 completes · 8048 sessions.
-- Channels: direct 173r/7772v · organic 86r/263v · campaign:chatgpt.com 17r/35v · ai 7r/35v · referral 6r/25v · campaign:owner-qa 4r/4v · social 3r/5v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · internal-nav 0r/0v.
+- Funnel: 8139 views → 297 engaged reads → 14 completes · 8046 sessions.
+- Channels: direct 173r/7770v · organic 86r/263v · campaign:chatgpt.com 17r/35v · ai 7r/35v · referral 6r/25v · campaign:owner-qa 4r/4v · social 3r/5v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 18r/40v · Doubao 3r/3v · Perplexity 2r/3v · Yuanbao 1r/1v · Kimi 0r/22v · Copilot 0r/1v.
 - Referrers: google.com, bing.com, duckduckgo.com, search.brave.com, cn.bing.com, nav-cmp, brand, ecosia.org, youtube.com, qwant.com.
 - Engaged-read winners by section: stack=5, wire=9, dispatches=1.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 7772 views · read 2.2% · complete 0.1% · 1 pages/session · median 9s
+- direct: 7770 views · read 2.2% · complete 0.1% · 1 pages/session · median 9s
 - organic: 263 views · read 32.7% · complete 0.8% · 1.04 pages/session · median 3s
 - ai: 35 views · read 20.0% · complete 0.0% · 0.74 pages/session · median 4s
 - campaign:chatgpt.com: 35 views · read 48.6% · complete 0.0% · 1.21 pages/session · median ?s
@@ -64,7 +64,7 @@ so what these earn from humans is the other half of the picture.
 - /build — 170 views, 0 reads, 170 sessions
 - / — 139 views, 4 reads, 147 sessions, avg 14s
 - /tags/reportive — 61 views, 0 reads, 61 sessions
-- /best/:cat — 60 views, 0 reads, 60 sessions, avg 5s
+- /best/:cat — 59 views, 0 reads, 59 sessions, avg 5s
 - /tags/opinionated — 52 views, 0 reads, 52 sessions
 - /alternatives/:tool — 48 views, 0 reads, 48 sessions, avg 8s
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
