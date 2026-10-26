@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-10-26T03:03Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-26T03:13Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
 - Funnel: 8133 views → 296 engaged reads → 14 completes · 8037 sessions.
-- Channels: direct 171r/7757v · organic 86r/269v · campaign:chatgpt.com 18r/35v · ai 7r/36v · referral 6r/26v · campaign:owner-qa 4r/4v · social 3r/5v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 19r/40v · Doubao 3r/3v · Perplexity 2r/3v · Yuanbao 1r/1v · Kimi 0r/22v · Poe 0r/1v · Copilot 0r/1v.
+- Channels: direct 171r/7756v · organic 86r/269v · campaign:chatgpt.com 18r/36v · ai 7r/36v · referral 6r/26v · campaign:owner-qa 4r/4v · social 3r/5v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 19r/41v · Doubao 3r/3v · Perplexity 2r/3v · Yuanbao 1r/1v · Kimi 0r/22v · Poe 0r/1v · Copilot 0r/1v.
 - Referrers: google.com, bing.com, duckduckgo.com, cn.bing.com, search.brave.com, nav-cmp, brand, ecosia.org, youtube.com, qwant.com.
 - Engaged-read winners by section: stack=5, wire=10.
 
@@ -23,10 +23,10 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 7757 views · read 2.2% · complete 0.1% · 1 pages/session · median 9s
+- direct: 7756 views · read 2.2% · complete 0.1% · 1 pages/session · median 9s
 - organic: 269 views · read 32.0% · complete 0.7% · 1.03 pages/session · median 3s
 - ai: 36 views · read 19.4% · complete 0.0% · 0.75 pages/session · median 4s
-- campaign:chatgpt.com: 35 views · read 51.4% · complete 0.0% · 1.25 pages/session · median ?s
+- campaign:chatgpt.com: 36 views · read 50.0% · complete 0.0% · 1.24 pages/session · median ?s
 - referral: 26 views · read 23.1% · complete 0.0% · 1.08 pages/session · median ?s
 - social: 5 views · read 60.0% · complete 0.0% · 1 pages/session · median ?s
 INSIGHT: social converts 27x better per view than direct, which is 95% of all views.
@@ -60,7 +60,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 787 views, 1 reads, 787 sessions, avg 66s
-- /compare/:pair — 362 views, 2 reads, 361 sessions, avg 35s
+- /compare/:pair — 361 views, 2 reads, 360 sessions, avg 35s
 - /build — 164 views, 0 reads, 164 sessions
 - / — 143 views, 4 reads, 150 sessions, avg 13s
 - /tags/reportive — 61 views, 0 reads, 61 sessions
