@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-26T19:38:32.654Z",
+ "generated": "2026-10-26T19:48:48.808Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 18,
   "avgTimeSec": 56,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 7721,
+  "views": 7701,
   "reads": 294,
   "completes": 13,
   "plays": 12,
-  "sessions": 7626
+  "sessions": 7606
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7370,
+   "views": 7350,
    "reads": 175,
-   "sessions": 7380
+   "sessions": 7360
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7370,
+   "views": 7350,
    "reads": 175,
    "completes": 10,
-   "sessions": 7379,
+   "sessions": 7359,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7130,
+   "views": 7110,
    "reads": 260,
-   "sessions": 7046
+   "sessions": 7026
   },
   {
    "device": "mobile",
@@ -360,7 +360,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 37,
+   "views": 36,
    "reads": 7,
    "plays": 0
   },
@@ -599,16 +599,6 @@
    "plays": 1
   },
   {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 37,
-   "reads": 7,
-   "plays": 0
-  },
-  {
    "slug": "mcp-tool-annotations-explained",
    "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
    "section": "wire",
@@ -616,6 +606,16 @@
    "author": "dex",
    "views": 36,
    "reads": 16,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 36,
+   "reads": 7,
    "plays": 0
   },
   {
@@ -682,9 +682,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 768,
+   "views": 767,
    "reads": 0,
-   "sessions": 768,
+   "sessions": 767,
    "avg_dwell_sec": 9
   },
   {
