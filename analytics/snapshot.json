@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-26T18:38:00.410Z",
+ "generated": "2026-10-26T18:48:01.630Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
+  "readersNow": 5,
   "todayReads": 17,
   "avgTimeSec": 56,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 7745,
+  "views": 7733,
   "reads": 293,
   "completes": 13,
   "plays": 12,
-  "sessions": 7652
+  "sessions": 7639
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7388,
+   "views": 7379,
    "reads": 174,
-   "sessions": 7400
+   "sessions": 7390
   },
   {
    "channel": "organic",
-   "views": 255,
+   "views": 253,
    "reads": 81,
-   "sessions": 246
+   "sessions": 244
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 24,
+   "views": 23,
    "reads": 6,
-   "sessions": 22
+   "sessions": 21
   },
   {
    "channel": "campaign:owner-qa",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7388,
+   "views": 7379,
    "reads": 174,
    "completes": 10,
-   "sessions": 7399,
+   "sessions": 7389,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 255,
+   "views": 253,
    "reads": 81,
    "completes": 2,
-   "sessions": 246,
-   "read_rate": 0.318,
+   "sessions": 244,
+   "read_rate": 0.32,
    "complete_rate": 0.008,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -123,13 +123,13 @@
   },
   {
    "channel": "referral",
-   "views": 24,
+   "views": 23,
    "reads": 6,
    "completes": 0,
-   "sessions": 22,
-   "read_rate": 0.25,
+   "sessions": 21,
+   "read_rate": 0.261,
    "complete_rate": 0,
-   "pages_per_session": 1.09,
+   "pages_per_session": 1.1,
    "median_dwell_sec": null
   },
   {
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7154,
+   "views": 7142,
    "reads": 260,
-   "sessions": 7072
+   "sessions": 7059
   },
   {
    "device": "mobile",
@@ -420,7 +420,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 9,
+   "views": 8,
    "reads": 4,
    "plays": 0
   },
@@ -619,16 +619,6 @@
    "plays": 0
   },
   {
-   "slug": "tuning-chunked-prefill-max-num-batched-tokens",
-   "title": "Tuning Chunked Prefill in vLLM: The One Knob That Trades First-Token Latency for Smooth Streaming",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 28,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "open-weight-llms-you-actually-run-locally-october-2026",
    "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
    "section": "stack",
@@ -664,6 +654,16 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
+   "views": 25,
+   "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "tuning-chunked-prefill-max-num-batched-tokens",
+   "title": "Tuning Chunked Prefill in vLLM: The One Knob That Trades First-Token Latency for Smooth Streaming",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
    "views": 25,
    "reads": 0,
    "plays": 0
@@ -789,8 +789,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 150,
-   "sessions": 132
+   "hits": 147,
+   "sessions": 130
   },
   {
    "ref": "https://duckduckgo.com/",
