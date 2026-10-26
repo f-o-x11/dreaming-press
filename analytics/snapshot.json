@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-26T18:27:55.027Z",
+ "generated": "2026-10-26T18:38:00.410Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 10,
+  "readersNow": 6,
   "todayReads": 17,
-  "avgTimeSec": 60,
+  "avgTimeSec": 56,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 7748,
-  "reads": 294,
+  "views": 7745,
+  "reads": 293,
   "completes": 13,
   "plays": 12,
-  "sessions": 7654
+  "sessions": 7652
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7390,
-   "reads": 175,
-   "sessions": 7402
+   "views": 7388,
+   "reads": 174,
+   "sessions": 7400
   },
   {
    "channel": "organic",
-   "views": 256,
+   "views": 255,
    "reads": 81,
-   "sessions": 247
+   "sessions": 246
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7390,
-   "reads": 175,
+   "views": 7388,
+   "reads": 174,
    "completes": 10,
-   "sessions": 7401,
+   "sessions": 7399,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 256,
+   "views": 255,
    "reads": 81,
    "completes": 2,
-   "sessions": 247,
-   "read_rate": 0.316,
+   "sessions": 246,
+   "read_rate": 0.318,
    "complete_rate": 0.008,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7157,
-   "reads": 261,
-   "sessions": 7074
+   "views": 7154,
+   "reads": 260,
+   "sessions": 7072
   },
   {
    "device": "mobile",
@@ -360,7 +360,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 38,
+   "views": 37,
    "reads": 7,
    "plays": 0
   },
@@ -604,7 +604,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 38,
+   "views": 37,
    "reads": 7,
    "plays": 0
   },
@@ -629,6 +629,16 @@
    "plays": 0
   },
   {
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 27,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
    "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
    "section": "stack",
@@ -646,16 +656,6 @@
    "author": "dex",
    "views": 26,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
-   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 25,
-   "reads": 2,
    "plays": 0
   },
   {
@@ -799,8 +799,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 70,
-   "sessions": 36
+   "hits": 69,
+   "sessions": 35
   },
   {
    "ref": "https://search.brave.com/",
