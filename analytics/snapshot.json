@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-26T13:42:40.342Z",
+ "generated": "2026-10-26T13:53:00.479Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
+  "readersNow": 3,
   "todayReads": 15,
   "avgTimeSec": 64,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 7982,
+  "views": 7927,
   "reads": 298,
   "completes": 14,
   "plays": 12,
-  "sessions": 7888
+  "sessions": 7833
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7618,
+   "views": 7564,
    "reads": 177,
-   "sessions": 7633
+   "sessions": 7579
   },
   {
    "channel": "organic",
-   "views": 260,
+   "views": 259,
    "reads": 83,
-   "sessions": 251
+   "sessions": 250
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7618,
+   "views": 7564,
    "reads": 177,
    "completes": 11,
-   "sessions": 7632,
+   "sessions": 7578,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 260,
+   "views": 259,
    "reads": 83,
    "completes": 2,
-   "sessions": 251,
-   "read_rate": 0.319,
+   "sessions": 250,
+   "read_rate": 0.32,
    "complete_rate": 0.008,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7392,
+   "views": 7339,
    "reads": 265,
-   "sessions": 7309
+   "sessions": 7256
   },
   {
    "device": "mobile",
-   "views": 587,
+   "views": 585,
    "reads": 31,
-   "sessions": 578
+   "sessions": 576
   },
   {
    "device": "tablet",
@@ -350,7 +350,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 37,
+   "views": 39,
    "reads": 13,
    "plays": 1
   },
@@ -502,7 +502,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 37,
+   "views": 39,
    "reads": 13,
    "plays": 1
   },
@@ -589,6 +589,16 @@
    "plays": 1
   },
   {
+   "slug": "best-llm-for-creative-writing-october-2026",
+   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 39,
+   "reads": 13,
+   "plays": 1
+  },
+  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -597,16 +607,6 @@
    "views": 38,
    "reads": 7,
    "plays": 0
-  },
-  {
-   "slug": "best-llm-for-creative-writing-october-2026",
-   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 37,
-   "reads": 13,
-   "plays": 1
   },
   {
    "slug": "mcp-tool-annotations-explained",
@@ -624,7 +624,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 29,
+   "views": 28,
    "reads": 1,
    "plays": 0
   },
@@ -682,9 +682,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 778,
+   "views": 776,
    "reads": 0,
-   "sessions": 778,
+   "sessions": 776,
    "avg_dwell_sec": 9
   },
   {
@@ -789,8 +789,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 151,
-   "sessions": 133
+   "hits": 150,
+   "sessions": 132
   },
   {
    "ref": "https://duckduckgo.com/",
