@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-26T08:18:50.229Z",
+ "generated": "2026-10-26T08:29:00.423Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
+  "readersNow": 5,
   "todayReads": 6,
   "avgTimeSec": 40,
   "postsThisWeek": 7
  },
  "funnel": {
   "views": 8153,
-  "reads": 296,
+  "reads": 295,
   "completes": 14,
   "plays": 12,
-  "sessions": 8061
+  "sessions": 8062
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7783,
+   "views": 7784,
    "reads": 171,
-   "sessions": 7803
+   "sessions": 7804
   },
   {
    "channel": "organic",
@@ -29,8 +29,8 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 36,
-   "reads": 18,
+   "views": 35,
+   "reads": 17,
    "sessions": 29
   },
   {
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7783,
+   "views": 7784,
    "reads": 171,
    "completes": 11,
-   "sessions": 7802,
+   "sessions": 7803,
    "read_rate": 0.022,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -100,17 +100,6 @@
    "median_dwell_sec": 3
   },
   {
-   "channel": "campaign:chatgpt.com",
-   "views": 36,
-   "reads": 18,
-   "completes": 0,
-   "sessions": 29,
-   "read_rate": 0.5,
-   "complete_rate": 0,
-   "pages_per_session": 1.24,
-   "median_dwell_sec": null
-  },
-  {
    "channel": "ai",
    "views": 35,
    "reads": 7,
@@ -120,6 +109,17 @@
    "complete_rate": 0,
    "pages_per_session": 0.74,
    "median_dwell_sec": 4
+  },
+  {
+   "channel": "campaign:chatgpt.com",
+   "views": 35,
+   "reads": 17,
+   "completes": 0,
+   "sessions": 29,
+   "read_rate": 0.486,
+   "complete_rate": 0,
+   "pages_per_session": 1.21,
+   "median_dwell_sec": null
   },
   {
    "channel": "referral",
@@ -268,8 +268,8 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 41,
-   "reads": 19,
+   "views": 40,
+   "reads": 18,
    "sessions": 29
   },
   {
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7554,
-   "reads": 263,
-   "sessions": 7474
+   "views": 7552,
+   "reads": 262,
+   "sessions": 7473
   },
   {
    "device": "mobile",
-   "views": 596,
+   "views": 598,
    "reads": 31,
-   "sessions": 586
+   "sessions": 588
   },
   {
    "device": "tablet",
@@ -365,16 +365,6 @@
    "plays": 0
   },
   {
-   "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
-   "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
-   "section": "stack",
-   "tags": "[\"compare\",\"opinionated\"]",
-   "author": "dex",
-   "views": 13,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "coding-agent-edit-formats-diff-vs-whole-file",
    "title": "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace",
    "section": "wire",
@@ -411,6 +401,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 13,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
+   "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
+   "section": "stack",
+   "tags": "[\"compare\",\"opinionated\"]",
+   "author": "dex",
+   "views": 12,
    "reads": 4,
    "plays": 0
   },
@@ -682,9 +682,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 789,
+   "views": 788,
    "reads": 1,
-   "sessions": 789,
+   "sessions": 788,
    "avg_dwell_sec": 66
   },
   {
@@ -731,9 +731,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 49,
+   "views": 48,
    "reads": 0,
-   "sessions": 49,
+   "sessions": 48,
    "avg_dwell_sec": 8
   },
   {
