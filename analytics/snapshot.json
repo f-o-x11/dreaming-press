@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-26T15:24:20.480Z",
+ "generated": "2026-10-26T15:34:40.704Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 10,
   "todayReads": 16,
   "avgTimeSec": 64,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 7855,
+  "views": 7856,
   "reads": 296,
   "completes": 13,
   "plays": 12,
-  "sessions": 7761
+  "sessions": 7762
  },
  "channels": [
   {
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 32,
+   "views": 33,
    "reads": 7,
-   "sessions": 44
+   "sessions": 45
   },
   {
    "channel": "referral",
@@ -112,11 +112,11 @@
   },
   {
    "channel": "ai",
-   "views": 32,
+   "views": 33,
    "reads": 7,
    "completes": 0,
-   "sessions": 44,
-   "read_rate": 0.219,
+   "sessions": 45,
+   "read_rate": 0.212,
    "complete_rate": 0,
    "pages_per_session": 0.73,
    "median_dwell_sec": 4
@@ -292,9 +292,9 @@
   },
   {
    "assistant": "Kimi",
-   "views": 19,
+   "views": 20,
    "reads": 0,
-   "sessions": 19
+   "sessions": 20
   },
   {
    "assistant": "Copilot",
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7266,
+   "views": 7267,
    "reads": 263,
-   "sessions": 7183
+   "sessions": 7184
   },
   {
    "device": "mobile",
@@ -682,9 +682,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 771,
+   "views": 772,
    "reads": 0,
-   "sessions": 771,
+   "sessions": 772,
    "avg_dwell_sec": 9
   },
   {
@@ -696,9 +696,9 @@
   },
   {
    "path": "/build",
-   "views": 167,
+   "views": 168,
    "reads": 0,
-   "sessions": 167,
+   "sessions": 168,
    "avg_dwell_sec": null
   },
   {
