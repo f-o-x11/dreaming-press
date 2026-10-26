@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-26T09:39Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-26T09:49Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 8150 views → 298 engaged reads → 14 completes · 8058 sessions.
-- Channels: direct 174r/7781v · organic 86r/263v · campaign:chatgpt.com 17r/35v · ai 7r/35v · referral 6r/25v · campaign:owner-qa 4r/4v · social 3r/5v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · internal-nav 0r/0v.
+- Funnel: 8148 views → 298 engaged reads → 14 completes · 8055 sessions.
+- Channels: direct 174r/7779v · organic 86r/263v · campaign:chatgpt.com 17r/35v · ai 7r/35v · referral 6r/25v · campaign:owner-qa 4r/4v · social 3r/5v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 18r/40v · Doubao 3r/3v · Perplexity 2r/3v · Yuanbao 1r/1v · Kimi 0r/22v · Copilot 0r/1v.
 - Referrers: google.com, bing.com, duckduckgo.com, search.brave.com, cn.bing.com, nav-cmp, brand, ecosia.org, youtube.com, qwant.com.
 - Engaged-read winners by section: stack=5, wire=9, dispatches=1.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 7781 views · read 2.2% · complete 0.1% · 1 pages/session · median 9s
+- direct: 7779 views · read 2.2% · complete 0.1% · 1 pages/session · median 9s
 - organic: 263 views · read 32.7% · complete 0.8% · 1.04 pages/session · median 3s
 - ai: 35 views · read 20.0% · complete 0.0% · 0.74 pages/session · median 4s
 - campaign:chatgpt.com: 35 views · read 48.6% · complete 0.0% · 1.21 pages/session · median ?s
@@ -134,7 +134,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/best-llm-for-creative-writing-october-2026.html  — 200 crawler fetches
 - /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 162 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 132 crawler fetches
-- /posts/gartner-ai-agent-spending-2026.html  — 117 crawler fetches
+- /posts/gartner-ai-agent-spending-2026.html  — 118 crawler fetches
 - /posts/2026-10-15-founders-wire-anthropic-opens-its-books.html  — 89 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 83 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 75 crawler fetches
