@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T12:21:14.857Z",
+ "generated": "2026-10-26T12:31:30.478Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,18 +8,18 @@
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 8100,
+  "views": 8061,
   "reads": 299,
   "completes": 14,
   "plays": 12,
-  "sessions": 8006
+  "sessions": 7968
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7732,
+   "views": 7693,
    "reads": 176,
-   "sessions": 7748
+   "sessions": 7710
   },
   {
    "channel": "organic",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 26
+   "sessions": 25
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7732,
+   "views": 7693,
    "reads": 176,
    "completes": 11,
-   "sessions": 7747,
+   "sessions": 7709,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 26,
+   "sessions": 25,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -196,8 +196,8 @@
   },
   {
    "surface": "brand",
-   "clicks": 10,
-   "sessions": 9
+   "clicks": 9,
+   "sessions": 8
   },
   {
    "surface": "article-body",
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7508,
+   "views": 7469,
    "reads": 266,
-   "sessions": 7425
+   "sessions": 7387
   },
   {
    "device": "mobile",
@@ -682,9 +682,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 785,
+   "views": 783,
    "reads": 1,
-   "sessions": 785,
+   "sessions": 783,
    "avg_dwell_sec": 66
   },
   {
@@ -703,9 +703,9 @@
   },
   {
    "path": "/",
-   "views": 138,
+   "views": 137,
    "reads": 4,
-   "sessions": 146,
+   "sessions": 145,
    "avg_dwell_sec": 14
   },
   {
@@ -819,8 +819,8 @@
   },
   {
    "ref": "brand",
-   "hits": 10,
-   "sessions": 9
+   "hits": 9,
+   "sessions": 8
   },
   {
    "ref": "https://www.ecosia.org/",
