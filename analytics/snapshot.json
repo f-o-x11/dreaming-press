@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-26T06:27:00.226Z",
+ "generated": "2026-10-26T06:37:20.853Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 10,
+  "readersNow": 12,
   "todayReads": 6,
   "avgTimeSec": 44,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 8139,
-  "reads": 299,
+  "views": 8142,
+  "reads": 298,
   "completes": 14,
   "plays": 12,
-  "sessions": 8045
+  "sessions": 8049
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7767,
+   "views": 7771,
    "reads": 172,
-   "sessions": 7786
+   "sessions": 7790
   },
   {
    "channel": "organic",
-   "views": 265,
-   "reads": 88,
-   "sessions": 256
+   "views": 264,
+   "reads": 87,
+   "sessions": 255
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7767,
+   "views": 7771,
    "reads": 172,
    "completes": 11,
-   "sessions": 7785,
+   "sessions": 7789,
    "read_rate": 0.022,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 265,
-   "reads": 88,
+   "views": 264,
+   "reads": 87,
    "completes": 2,
-   "sessions": 256,
-   "read_rate": 0.332,
+   "sessions": 255,
+   "read_rate": 0.33,
    "complete_rate": 0.008,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7543,
-   "reads": 266,
-   "sessions": 7461
+   "views": 7546,
+   "reads": 265,
+   "sessions": 7465
   },
   {
    "device": "mobile",
@@ -360,8 +360,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 40,
-   "reads": 8,
+   "views": 39,
+   "reads": 7,
    "plays": 0
   },
   {
@@ -594,8 +594,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 40,
-   "reads": 8,
+   "views": 39,
+   "reads": 7,
    "plays": 0
   },
   {
@@ -682,16 +682,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 788,
+   "views": 789,
    "reads": 1,
-   "sessions": 788,
+   "sessions": 789,
    "avg_dwell_sec": 66
   },
   {
    "path": "/compare/:pair",
-   "views": 364,
+   "views": 365,
    "reads": 2,
-   "sessions": 363,
+   "sessions": 364,
    "avg_dwell_sec": 41
   },
   {
@@ -803,14 +803,14 @@
    "sessions": 44
   },
   {
-   "ref": "https://cn.bing.com/",
-   "hits": 24,
-   "sessions": 13
-  },
-  {
    "ref": "https://search.brave.com/",
    "hits": 22,
    "sessions": 11
+  },
+  {
+   "ref": "https://cn.bing.com/",
+   "hits": 22,
+   "sessions": 12
   },
   {
    "ref": "nav-cmp",

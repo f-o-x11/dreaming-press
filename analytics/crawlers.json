@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-26T06:26:59.964Z",
+ "generated": "2026-10-26T06:37:20.547Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15508,
+ "verifiedAiHits": 15513,
  "logsScanned": 30,
  "windowStart": "2026-10-12",
  "windowEnd": "2026-10-26",
- "totalHits": 106970,
- "aiHits": 83877,
+ "totalHits": 107008,
+ "aiHits": 83913,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31844,
+   "hits": 31866,
    "verifiedHits": 0,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14140,
+   "hits": 14147,
    "verifiedHits": 0,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
@@ -62,7 +62,7 @@
     },
     {
      "path": "/tags/reportive",
-     "hits": 31
+     "hits": 33
     },
     {
      "path": "/tags/opinionated",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6825,
-   "verifiedHits": 6764,
+   "hits": 6826,
+   "verifiedHits": 6765,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3397,
-   "verifiedHits": 3293,
+   "hits": 3402,
+   "verifiedHits": 3298,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
    "topPaths": [
@@ -289,7 +289,7 @@
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 326
+     "hits": 327
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2988,
+   "hits": 2989,
    "verifiedHits": 0,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
@@ -476,7 +476,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1265,
+   "hits": 1267,
    "verifiedHits": 0,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
@@ -491,7 +491,7 @@
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 50
+     "hits": 51
     },
     {
      "path": "/posts/2026-06-21-routellm-vs-notdiamond-vs-martian.html",
