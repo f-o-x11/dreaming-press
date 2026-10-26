@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-26T07:48:30.333Z",
+ "generated": "2026-10-26T07:58:40.202Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 8,
+  "readersNow": 11,
   "todayReads": 6,
-  "avgTimeSec": 44,
+  "avgTimeSec": 40,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 8148,
-  "reads": 297,
+  "views": 8151,
+  "reads": 296,
   "completes": 14,
   "plays": 12,
-  "sessions": 8055
+  "sessions": 8059
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7777,
+   "views": 7781,
    "reads": 171,
-   "sessions": 7796
+   "sessions": 7801
   },
   {
    "channel": "organic",
-   "views": 264,
-   "reads": 87,
-   "sessions": 255
+   "views": 263,
+   "reads": 86,
+   "sessions": 254
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7777,
+   "views": 7781,
    "reads": 171,
    "completes": 11,
-   "sessions": 7795,
+   "sessions": 7800,
    "read_rate": 0.022,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 264,
-   "reads": 87,
+   "views": 263,
+   "reads": 86,
    "completes": 2,
-   "sessions": 255,
-   "read_rate": 0.33,
+   "sessions": 254,
+   "read_rate": 0.327,
    "complete_rate": 0.008,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7551,
-   "reads": 264,
-   "sessions": 7470
+   "views": 7552,
+   "reads": 263,
+   "sessions": 7472
   },
   {
    "device": "mobile",
-   "views": 594,
+   "views": 596,
    "reads": 31,
-   "sessions": 584
+   "sessions": 586
   },
   {
    "device": "tablet",
@@ -696,9 +696,9 @@
   },
   {
    "path": "/build",
-   "views": 167,
+   "views": 168,
    "reads": 0,
-   "sessions": 167,
+   "sessions": 168,
    "avg_dwell_sec": null
   },
   {
@@ -809,8 +809,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 22,
-   "sessions": 12
+   "hits": 20,
+   "sessions": 11
   },
   {
    "ref": "nav-cmp",
