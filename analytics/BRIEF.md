@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-10-26T03:44Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-26T03:54Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 8122 views → 295 engaged reads → 14 completes · 8029 sessions.
-- Channels: direct 170r/7750v · organic 86r/265v · campaign:chatgpt.com 18r/36v · ai 7r/36v · referral 6r/25v · campaign:owner-qa 4r/4v · social 3r/5v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 19r/41v · Doubao 3r/3v · Perplexity 2r/3v · Yuanbao 1r/1v · Kimi 0r/22v · Poe 0r/1v · Copilot 0r/1v.
+- Funnel: 8115 views → 297 engaged reads → 14 completes · 8022 sessions.
+- Channels: direct 172r/7752v · organic 86r/257v · campaign:chatgpt.com 18r/36v · ai 7r/35v · referral 6r/25v · campaign:owner-qa 4r/4v · social 3r/5v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 19r/41v · Doubao 3r/3v · Perplexity 2r/3v · Yuanbao 1r/1v · Kimi 0r/22v · Copilot 0r/1v.
 - Referrers: google.com, bing.com, duckduckgo.com, cn.bing.com, search.brave.com, nav-cmp, brand, ecosia.org, youtube.com, qwant.com.
 - Engaged-read winners by section: stack=5, wire=9, dispatches=1.
 
@@ -23,13 +23,13 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 7750 views · read 2.2% · complete 0.1% · 1 pages/session · median 9s
-- organic: 265 views · read 32.5% · complete 0.8% · 1.04 pages/session · median 3s
-- ai: 36 views · read 19.4% · complete 0.0% · 0.75 pages/session · median 4s
+- direct: 7752 views · read 2.2% · complete 0.1% · 1 pages/session · median 9s
+- organic: 257 views · read 33.5% · complete 0.8% · 1.04 pages/session · median 3s
 - campaign:chatgpt.com: 36 views · read 50.0% · complete 0.0% · 1.24 pages/session · median ?s
+- ai: 35 views · read 20.0% · complete 0.0% · 0.74 pages/session · median 4s
 - referral: 25 views · read 24.0% · complete 0.0% · 1.09 pages/session · median ?s
 - social: 5 views · read 60.0% · complete 0.0% · 1 pages/session · median ?s
-INSIGHT: social converts 27x better per view than direct, which is 95% of all views.
+INSIGHT: social converts 27x better per view than direct, which is 96% of all views.
 One visitor from social is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
@@ -37,9 +37,9 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Top by engaged reads (eyes that stayed)
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 41 reads, 183 views, 1 listens
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 16 reads, 36 views, 0 listens
-- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 11 reads, 32 views, 1 listens
+- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 13 reads, 34 views, 1 listens
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 8 reads, 40 views, 0 listens
-- [stack] "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't" — 5 reads, 14 views, 0 listens
+- [stack] "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't" — 5 reads, 13 views, 0 listens
 - [wire] "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace" — 5 reads, 10 views, 1 listens
 - [wire] "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents" — 5 reads, 6 views, 0 listens
 - [wire] "The Founder's Wire, October 15: Anthropic Opened Its Books — $16.8B, an 85% Margin, and $1.70 of Revenue for Every $1 of Compute" — 4 reads, 21 views, 0 listens
@@ -49,7 +49,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "How to Handle a Tool Result Too Large for the Context Window: Truncate, Paginate, or Hand Back a Handle" — 2 listens, 3 reads
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 1 listens, 41 reads
-- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 1 listens, 11 reads
+- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 1 listens, 13 reads
 - [wire] "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace" — 1 listens, 5 reads
 - [wire] "CIMD vs Dynamic Client Registration: How MCP Clients Register After July 28" — 1 listens, 2 reads
 - [stack] "Text-to-SQL for Agents: Vanna vs WrenAI vs Dataherald" — 1 listens, 2 reads
@@ -59,7 +59,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 787 views, 1 reads, 787 sessions, avg 66s
+- /stack/:tool — 786 views, 1 reads, 786 sessions, avg 66s
 - /compare/:pair — 362 views, 2 reads, 361 sessions, avg 35s
 - /build — 165 views, 0 reads, 165 sessions
 - / — 141 views, 4 reads, 149 sessions, avg 13s
@@ -74,7 +74,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 183 views, 41 reads
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 40 views, 8 reads
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 36 views, 16 reads
-- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 32 views, 11 reads
+- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 34 views, 13 reads
 - [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 27 views, 1 reads
 - [wire] "Tuning Chunked Prefill in vLLM: The One Knob That Trades First-Token Latency for Smooth Streaming" — 27 views, 1 reads
 
