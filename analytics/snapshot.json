@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-26T02:03:00.183Z",
+ "generated": "2026-10-26T02:13:20.470Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 11,
   "todayReads": 2,
-  "avgTimeSec": 19,
+  "avgTimeSec": 17,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 8123,
+  "views": 8131,
   "reads": 296,
   "completes": 14,
   "plays": 12,
-  "sessions": 8027
+  "sessions": 8035
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7754,
+   "views": 7755,
    "reads": 171,
-   "sessions": 7770
+   "sessions": 7771
   },
   {
    "channel": "organic",
-   "views": 261,
+   "views": 269,
    "reads": 86,
-   "sessions": 252
+   "sessions": 260
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7754,
+   "views": 7755,
    "reads": 171,
    "completes": 11,
-   "sessions": 7769,
+   "sessions": 7770,
    "read_rate": 0.022,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -90,13 +90,13 @@
   },
   {
    "channel": "organic",
-   "views": 261,
+   "views": 269,
    "reads": 86,
    "completes": 2,
-   "sessions": 252,
-   "read_rate": 0.33,
-   "complete_rate": 0.008,
-   "pages_per_session": 1.04,
+   "sessions": 260,
+   "read_rate": 0.32,
+   "complete_rate": 0.007,
+   "pages_per_session": 1.03,
    "median_dwell_sec": 3
   },
   {
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7526,
+   "views": 7536,
    "reads": 263,
-   "sessions": 7442
+   "sessions": 7452
   },
   {
    "device": "mobile",
-   "views": 594,
+   "views": 593,
    "reads": 31,
-   "sessions": 584
+   "sessions": 583
   },
   {
    "device": "tablet",
@@ -688,9 +688,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 779,
+   "views": 787,
    "reads": 1,
-   "sessions": 779,
+   "sessions": 787,
    "avg_dwell_sec": 66
   },
   {
@@ -795,8 +795,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 146,
-   "sessions": 131
+   "hits": 154,
+   "sessions": 139
   },
   {
    "ref": "https://www.bing.com/",
