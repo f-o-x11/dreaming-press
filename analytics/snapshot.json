@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T11:30:51.176Z",
+ "generated": "2026-10-26T11:41:00.852Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,18 +8,18 @@
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 8132,
+  "views": 8131,
   "reads": 300,
   "completes": 14,
   "plays": 12,
-  "sessions": 8038
+  "sessions": 8037
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7763,
+   "views": 7762,
    "reads": 176,
-   "sessions": 7779
+   "sessions": 7778
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7763,
+   "views": 7762,
    "reads": 176,
    "completes": 11,
-   "sessions": 7778,
+   "sessions": 7777,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7537,
+   "views": 7536,
    "reads": 267,
-   "sessions": 7454
+   "sessions": 7453
   },
   {
    "device": "mobile",
@@ -350,7 +350,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 36,
+   "views": 37,
    "reads": 13,
    "plays": 1
   },
@@ -502,7 +502,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 36,
+   "views": 37,
    "reads": 13,
    "plays": 1
   },
@@ -599,6 +599,16 @@
    "plays": 0
   },
   {
+   "slug": "best-llm-for-creative-writing-october-2026",
+   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 37,
+   "reads": 13,
+   "plays": 1
+  },
+  {
    "slug": "mcp-tool-annotations-explained",
    "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
    "section": "wire",
@@ -607,16 +617,6 @@
    "views": 36,
    "reads": 16,
    "plays": 0
-  },
-  {
-   "slug": "best-llm-for-creative-writing-october-2026",
-   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 36,
-   "reads": 13,
-   "plays": 1
   },
   {
    "slug": "tuning-chunked-prefill-max-num-batched-tokens",
