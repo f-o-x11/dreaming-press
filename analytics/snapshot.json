@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T18:58:05.965Z",
+ "generated": "2026-10-26T19:08:06.519Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 7732,
+  "views": 7726,
   "reads": 293,
   "completes": 13,
   "plays": 12,
-  "sessions": 7637
+  "sessions": 7631
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7378,
+   "views": 7372,
    "reads": 174,
-   "sessions": 7388
+   "sessions": 7382
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7378,
+   "views": 7372,
    "reads": 174,
    "completes": 10,
-   "sessions": 7387,
+   "sessions": 7381,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7141,
+   "views": 7135,
    "reads": 260,
-   "sessions": 7057
+   "sessions": 7051
   },
   {
    "device": "mobile",
@@ -400,7 +400,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 13,
+   "views": 12,
    "reads": 4,
    "plays": 0
   },
@@ -415,9 +415,9 @@
    "plays": 0
   },
   {
-   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
-   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
-   "section": "wire",
+   "slug": "serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026",
+   "title": "Serverless GPU Compute, Explained: The Providers, the Prices, and When Scale-to-Zero Pays (September 2026)",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 8,
@@ -425,12 +425,12 @@
    "plays": 0
   },
   {
-   "slug": "serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026",
-   "title": "Serverless GPU Compute, Explained: The Providers, the Prices, and When Scale-to-Zero Pays (September 2026)",
-   "section": "stack",
+   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
+   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 8,
+   "views": 7,
    "reads": 4,
    "plays": 0
   },
