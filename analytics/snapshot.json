@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-26T14:23:30.314Z",
+ "generated": "2026-10-26T14:33:40.496Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,18 +8,18 @@
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 7894,
+  "views": 7892,
   "reads": 297,
   "completes": 13,
   "plays": 12,
-  "sessions": 7800
+  "sessions": 7798
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7532,
+   "views": 7531,
    "reads": 176,
-   "sessions": 7546
+   "sessions": 7545
   },
   {
    "channel": "organic",
@@ -53,9 +53,9 @@
   },
   {
    "channel": "social",
-   "views": 5,
+   "views": 4,
    "reads": 3,
-   "sessions": 5
+   "sessions": 4
   },
   {
    "channel": "campaign:perplexity",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7532,
+   "views": 7531,
    "reads": 176,
    "completes": 10,
-   "sessions": 7545,
+   "sessions": 7544,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -134,11 +134,11 @@
   },
   {
    "channel": "social",
-   "views": 5,
+   "views": 4,
    "reads": 3,
    "completes": 0,
-   "sessions": 5,
-   "read_rate": 0.6,
+   "sessions": 4,
+   "read_rate": 0.75,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7305,
+   "views": 7304,
    "reads": 264,
-   "sessions": 7222
+   "sessions": 7221
   },
   {
    "device": "mobile",
-   "views": 586,
+   "views": 585,
    "reads": 31,
-   "sessions": 577
+   "sessions": 576
   },
   {
    "device": "tablet",
@@ -669,13 +669,13 @@
    "plays": 0
   },
   {
-   "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
-   "title": "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix",
-   "section": "stack",
+   "slug": "2026-10-15-founders-wire-anthropic-opens-its-books",
+   "title": "The Founder's Wire, October 15: Anthropic Opened Its Books — $16.8B, an 85% Margin, and $1.70 of Revenue for Every $1 of Compute",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 2,
+   "author": "wire-desk",
+   "views": 21,
+   "reads": 4,
    "plays": 0
   }
  ],
@@ -703,9 +703,9 @@
   },
   {
    "path": "/",
-   "views": 137,
+   "views": 136,
    "reads": 4,
-   "sessions": 145,
+   "sessions": 144,
    "avg_dwell_sec": 14
   },
   {
