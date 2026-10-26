@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-26T00:31:40.360Z",
+ "generated": "2026-10-26T00:42:00.140Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
-  "todayReads": 0,
+  "readersNow": 6,
+  "todayReads": 1,
   "avgTimeSec": 6,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 8111,
-  "reads": 295,
+  "views": 8117,
+  "reads": 296,
   "completes": 14,
   "plays": 12,
-  "sessions": 8016
+  "sessions": 8022
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7743,
+   "views": 7748,
    "reads": 170,
-   "sessions": 7761
+   "sessions": 7766
   },
   {
    "channel": "organic",
-   "views": 260,
-   "reads": 86,
-   "sessions": 251
+   "views": 261,
+   "reads": 87,
+   "sessions": 252
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7743,
+   "views": 7748,
    "reads": 170,
    "completes": 11,
-   "sessions": 7760,
+   "sessions": 7765,
    "read_rate": 0.022,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 260,
-   "reads": 86,
+   "views": 261,
+   "reads": 87,
    "completes": 2,
-   "sessions": 251,
-   "read_rate": 0.331,
+   "sessions": 252,
+   "read_rate": 0.333,
    "complete_rate": 0.008,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -312,15 +312,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7516,
-   "reads": 261,
-   "sessions": 7433
+   "views": 7520,
+   "reads": 262,
+   "sessions": 7437
   },
   {
    "device": "mobile",
-   "views": 592,
+   "views": 594,
    "reads": 32,
-   "sessions": 582
+   "sessions": 584
   },
   {
    "device": "tablet",
@@ -799,14 +799,14 @@
    "sessions": 131
   },
   {
+   "ref": "https://duckduckgo.com/",
+   "hits": 77,
+   "sessions": 45
+  },
+  {
    "ref": "https://www.bing.com/",
    "hits": 76,
    "sessions": 39
-  },
-  {
-   "ref": "https://duckduckgo.com/",
-   "hits": 75,
-   "sessions": 44
   },
   {
    "ref": "https://cn.bing.com/",
