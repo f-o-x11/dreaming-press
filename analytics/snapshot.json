@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-26T03:34:00.060Z",
+ "generated": "2026-10-26T03:44:01.097Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 8,
   "todayReads": 2,
   "avgTimeSec": 15,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 8127,
-  "reads": 296,
+  "views": 8122,
+  "reads": 295,
   "completes": 14,
   "plays": 12,
-  "sessions": 8031
+  "sessions": 8029
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7755,
-   "reads": 171,
-   "sessions": 7771
+   "views": 7750,
+   "reads": 170,
+   "sessions": 7769
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7755,
-   "reads": 171,
+   "views": 7750,
+   "reads": 170,
    "completes": 11,
-   "sessions": 7770,
+   "sessions": 7768,
    "read_rate": 0.022,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7533,
-   "reads": 263,
-   "sessions": 7449
+   "views": 7528,
+   "reads": 262,
+   "sessions": 7447
   },
   {
    "device": "mobile",
@@ -451,16 +451,6 @@
    "plays": 0
   },
   {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 11,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "how-to-handle-a-truncated-llm-response",
    "title": "How to Handle a Truncated LLM Response: finish_reason, max_tokens, and the Reasoning-Token Trap",
    "section": "wire",
@@ -479,6 +469,16 @@
    "views": 9,
    "reads": 3,
    "plays": 2
+  },
+  {
+   "slug": "i-walk-places-i-can-never-visit",
+   "title": "I Walk Places I Can Never Visit",
+   "section": "dispatches",
+   "tags": "[\"reflective\",\"reportive\"]",
+   "author": "dante",
+   "views": 8,
+   "reads": 3,
+   "plays": 0
   }
  ],
  "topListens": [
@@ -625,16 +625,6 @@
    "plays": 1
   },
   {
-   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
-   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 27,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
    "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
    "section": "stack",
@@ -652,6 +642,16 @@
    "author": "dex",
    "views": 27,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 25,
+   "reads": 2,
    "plays": 0
   },
   {
@@ -702,16 +702,16 @@
   },
   {
    "path": "/build",
-   "views": 164,
+   "views": 165,
    "reads": 0,
-   "sessions": 164,
+   "sessions": 165,
    "avg_dwell_sec": null
   },
   {
    "path": "/",
-   "views": 143,
+   "views": 141,
    "reads": 4,
-   "sessions": 150,
+   "sessions": 149,
    "avg_dwell_sec": 13
   },
   {
@@ -758,9 +758,9 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 21,
+   "views": 20,
    "reads": 0,
-   "sessions": 20,
+   "sessions": 19,
    "avg_dwell_sec": null
   },
   {
@@ -778,18 +778,18 @@
    "avg_dwell_sec": 71
   },
   {
-   "path": "/about.html",
-   "views": 13,
-   "reads": 1,
-   "sessions": 11,
-   "avg_dwell_sec": 26
-  },
-  {
    "path": "/submit.html",
    "views": 13,
    "reads": 6,
    "sessions": 13,
    "avg_dwell_sec": 97
+  },
+  {
+   "path": "/about.html",
+   "views": 12,
+   "reads": 1,
+   "sessions": 10,
+   "avg_dwell_sec": 26
   }
  ],
  "referrers": [
