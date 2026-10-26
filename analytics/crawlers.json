@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-26T16:15:13.974Z",
+ "generated": "2026-10-26T16:25:33.171Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15747,
+ "verifiedAiHits": 15752,
  "logsScanned": 30,
  "windowStart": "2026-10-12",
  "windowEnd": "2026-10-26",
- "totalHits": 110561,
- "aiHits": 86775,
+ "totalHits": 110600,
+ "aiHits": 86802,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32986,
+   "hits": 33001,
    "verifiedHits": 0,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14590,
+   "hits": 14597,
    "verifiedHits": 0,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6993,
-   "verifiedHits": 6932,
+   "hits": 6996,
+   "verifiedHits": 6935,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 6304,
-   "verifiedHits": 6226,
+   "hits": 6307,
+   "verifiedHits": 6229,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4177,
+   "hits": 4185,
    "verifiedHits": 0,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
@@ -259,15 +259,15 @@
      "hits": 14
     },
     {
+     "path": "/posts/best-llm-for-creative-writing-october-2026.html",
+     "hits": 9
+    },
+    {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
      "hits": 9
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 8
-    },
-    {
-     "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
      "hits": 8
     }
    ],
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3516,
-   "verifiedHits": 3411,
+   "hits": 3518,
+   "verifiedHits": 3413,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 3019,
+   "hits": 3020,
    "verifiedHits": 0,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
