@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-26T19:18:15.486Z",
+ "generated": "2026-10-26T19:28:30.762Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 17,
+  "readersNow": 2,
+  "todayReads": 18,
   "avgTimeSec": 56,
   "postsThisWeek": 7
  },
  "funnel": {
   "views": 7724,
-  "reads": 293,
+  "reads": 294,
   "completes": 13,
   "plays": 12,
   "sessions": 7629
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 7371,
-   "reads": 174,
-   "sessions": 7381
+   "views": 7373,
+   "reads": 175,
+   "sessions": 7383
   },
   {
    "channel": "organic",
-   "views": 252,
+   "views": 250,
    "reads": 81,
-   "sessions": 243
+   "sessions": 241
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7371,
-   "reads": 174,
+   "views": 7373,
+   "reads": 175,
    "completes": 10,
-   "sessions": 7380,
+   "sessions": 7382,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 252,
+   "views": 250,
    "reads": 81,
    "completes": 2,
-   "sessions": 243,
-   "read_rate": 0.321,
+   "sessions": 241,
+   "read_rate": 0.324,
    "complete_rate": 0.008,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7134,
+   "views": 7133,
    "reads": 260,
-   "sessions": 7050
+   "sessions": 7049
   },
   {
    "device": "mobile",
-   "views": 587,
-   "reads": 31,
-   "sessions": 578
+   "views": 588,
+   "reads": 32,
+   "sessions": 579
   },
   {
    "device": "tablet",
@@ -664,7 +664,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 24,
+   "views": 22,
    "reads": 0,
    "plays": 0
   },
@@ -789,8 +789,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 146,
-   "sessions": 129
+   "hits": 144,
+   "sessions": 127
   },
   {
    "ref": "https://duckduckgo.com/",
