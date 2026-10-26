@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-26T15:55:01.926Z",
+ "generated": "2026-10-26T16:05:06.345Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 4,
   "todayReads": 16,
   "avgTimeSec": 64,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 7842,
+  "views": 7843,
   "reads": 295,
   "completes": 13,
   "plays": 12,
-  "sessions": 7748
+  "sessions": 7749
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7482,
+   "views": 7483,
    "reads": 175,
-   "sessions": 7495
+   "sessions": 7496
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7482,
+   "views": 7483,
    "reads": 175,
    "completes": 10,
-   "sessions": 7494,
+   "sessions": 7495,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7253,
+   "views": 7255,
    "reads": 262,
-   "sessions": 7170
+   "sessions": 7172
   },
   {
    "device": "mobile",
-   "views": 586,
+   "views": 585,
    "reads": 31,
-   "sessions": 577
+   "sessions": 576
   },
   {
    "device": "tablet",
@@ -330,7 +330,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 177,
+   "views": 176,
    "reads": 42,
    "plays": 1
   },
@@ -492,7 +492,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 177,
+   "views": 176,
    "reads": 42,
    "plays": 1
   },
@@ -584,7 +584,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 177,
+   "views": 176,
    "reads": 42,
    "plays": 1
   },
@@ -639,6 +639,16 @@
    "plays": 0
   },
   {
+   "slug": "best-open-source-rl-frameworks-for-training-agents",
+   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 26,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "open-weight-llms-you-actually-run-locally-october-2026",
    "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
    "section": "stack",
@@ -654,16 +664,6 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 25,
-   "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "best-open-source-rl-frameworks-for-training-agents",
-   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
    "views": 25,
    "reads": 0,
    "plays": 0
