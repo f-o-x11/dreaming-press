@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-26T01:02:10.724Z",
+ "generated": "2026-10-26T01:12:19.946Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 15446,
  "logsScanned": 30,
  "windowStart": "2026-10-12",
  "windowEnd": "2026-10-26",
- "totalHits": 105530,
- "aiHits": 82733,
+ "totalHits": 105570,
+ "aiHits": 82761,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31294,
+   "hits": 31309,
    "verifiedHits": 0,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13940,
+   "hits": 13948,
    "verifiedHits": 0,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
@@ -62,7 +62,7 @@
     },
     {
      "path": "/tags/reportive",
-     "hits": 29
+     "hits": 31
     },
     {
      "path": "/tags/opinionated",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13049,
+   "hits": 13052,
    "verifiedHits": 0,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8375,
+   "hits": 8379,
    "verifiedHits": 0,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6730,
-   "verifiedHits": 6669,
+   "hits": 6734,
+   "verifiedHits": 6673,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2282,
+   "hits": 2283,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-26",
@@ -476,7 +476,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1254,
+   "hits": 1255,
    "verifiedHits": 0,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 605,
-   "verifiedHits": 522,
+   "hits": 609,
+   "verifiedHits": 526,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
    "topPaths": [
@@ -531,7 +531,7 @@
      "hits": 2
     },
     {
-     "path": "/__vite_rsc_findSourceMapURL",
+     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
      "hits": 2
     }
    ],
