@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-26T03:23:59.331Z",
+ "generated": "2026-10-26T03:34:00.060Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 4,
   "todayReads": 2,
   "avgTimeSec": 15,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 8126,
+  "views": 8127,
   "reads": 296,
   "completes": 14,
   "plays": 12,
-  "sessions": 8030
+  "sessions": 8031
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7754,
+   "views": 7755,
    "reads": 171,
-   "sessions": 7770
+   "sessions": 7771
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7754,
+   "views": 7755,
    "reads": 171,
    "completes": 11,
-   "sessions": 7769,
+   "sessions": 7770,
    "read_rate": 0.022,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -312,9 +312,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7532,
+   "views": 7533,
    "reads": 263,
-   "sessions": 7448
+   "sessions": 7449
   },
   {
    "device": "mobile",
@@ -523,19 +523,19 @@
    "plays": 1
   },
   {
-   "slug": "text-to-sql-vanna-vs-wrenai-vs-dataherald",
-   "title": "Text-to-SQL for Agents: Vanna vs WrenAI vs Dataherald",
-   "section": "stack",
+   "slug": "cimd-vs-dynamic-client-registration-mcp",
+   "title": "CIMD vs Dynamic Client Registration: How MCP Clients Register After July 28",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 6,
+   "views": 5,
    "reads": 2,
    "plays": 1
   },
   {
-   "slug": "cimd-vs-dynamic-client-registration-mcp",
-   "title": "CIMD vs Dynamic Client Registration: How MCP Clients Register After July 28",
-   "section": "wire",
+   "slug": "text-to-sql-vanna-vs-wrenai-vs-dataherald",
+   "title": "Text-to-SQL for Agents: Vanna vs WrenAI vs Dataherald",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 5,
@@ -695,9 +695,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 361,
+   "views": 362,
    "reads": 2,
-   "sessions": 360,
+   "sessions": 361,
    "avg_dwell_sec": 35
   },
   {

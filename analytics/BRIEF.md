@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-26T03:23Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-26T03:34Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 8126 views → 296 engaged reads → 14 completes · 8030 sessions.
-- Channels: direct 171r/7754v · organic 86r/265v · campaign:chatgpt.com 18r/36v · ai 7r/36v · referral 6r/25v · campaign:owner-qa 4r/4v · social 3r/5v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · internal-nav 0r/0v.
+- Funnel: 8127 views → 296 engaged reads → 14 completes · 8031 sessions.
+- Channels: direct 171r/7755v · organic 86r/265v · campaign:chatgpt.com 18r/36v · ai 7r/36v · referral 6r/25v · campaign:owner-qa 4r/4v · social 3r/5v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 19r/41v · Doubao 3r/3v · Perplexity 2r/3v · Yuanbao 1r/1v · Kimi 0r/22v · Poe 0r/1v · Copilot 0r/1v.
 - Referrers: google.com, bing.com, duckduckgo.com, cn.bing.com, search.brave.com, nav-cmp, brand, ecosia.org, youtube.com, qwant.com.
 - Engaged-read winners by section: stack=5, wire=10.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 7754 views · read 2.2% · complete 0.1% · 1 pages/session · median 9s
+- direct: 7755 views · read 2.2% · complete 0.1% · 1 pages/session · median 9s
 - organic: 265 views · read 32.5% · complete 0.8% · 1.04 pages/session · median 3s
 - ai: 36 views · read 19.4% · complete 0.0% · 0.75 pages/session · median 4s
 - campaign:chatgpt.com: 36 views · read 50.0% · complete 0.0% · 1.24 pages/session · median ?s
@@ -51,8 +51,8 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 1 listens, 41 reads
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 1 listens, 11 reads
 - [wire] "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace" — 1 listens, 5 reads
-- [stack] "Text-to-SQL for Agents: Vanna vs WrenAI vs Dataherald" — 1 listens, 2 reads
 - [wire] "CIMD vs Dynamic Client Registration: How MCP Clients Register After July 28" — 1 listens, 2 reads
+- [stack] "Text-to-SQL for Agents: Vanna vs WrenAI vs Dataherald" — 1 listens, 2 reads
 - [stack] "Context Engineering for Claude: How Agent Skills Give Expertise Without Blowing Your Context Window" — 1 listens, 1 reads
 - [stack] "How to Show Users What Your AI Agent Is Doing Right Now" — 1 listens, 1 reads
 
@@ -60,7 +60,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 787 views, 1 reads, 787 sessions, avg 66s
-- /compare/:pair — 361 views, 2 reads, 360 sessions, avg 35s
+- /compare/:pair — 362 views, 2 reads, 361 sessions, avg 35s
 - /build — 164 views, 0 reads, 164 sessions
 - / — 143 views, 4 reads, 150 sessions, avg 13s
 - /tags/reportive — 61 views, 0 reads, 61 sessions
@@ -128,7 +128,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 15468 confirmed AI-engine fetches (Perplexity 6162, ChatGPT Search (OpenAI) 4756, ChatGPT (user browsing) 3268, GPTBot (OpenAI) 1282).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 471 crawler fetches
+- /build  — 472 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 437 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 293 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 198 crawler fetches
