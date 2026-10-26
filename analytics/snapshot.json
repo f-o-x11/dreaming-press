@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-26T20:08:57.533Z",
+ "generated": "2026-10-26T20:19:00.259Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 18,
+  "readersNow": 1,
+  "todayReads": 19,
   "avgTimeSec": 56,
   "postsThisWeek": 7
  },
  "funnel": {
   "views": 7696,
-  "reads": 294,
+  "reads": 295,
   "completes": 13,
   "plays": 12,
   "sessions": 7601
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 7345,
+   "views": 7344,
    "reads": 175,
-   "sessions": 7355
+   "sessions": 7354
   },
   {
    "channel": "organic",
-   "views": 250,
-   "reads": 81,
-   "sessions": 241
+   "views": 251,
+   "reads": 82,
+   "sessions": 242
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7345,
+   "views": 7344,
    "reads": 175,
    "completes": 10,
-   "sessions": 7354,
+   "sessions": 7353,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 250,
-   "reads": 81,
+   "views": 251,
+   "reads": 82,
    "completes": 2,
-   "sessions": 241,
-   "read_rate": 0.324,
+   "sessions": 242,
+   "read_rate": 0.327,
    "complete_rate": 0.008,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -307,7 +307,7 @@
   {
    "device": "desktop",
    "views": 7105,
-   "reads": 260,
+   "reads": 261,
    "sessions": 7021
   },
   {
@@ -455,6 +455,16 @@
    "plays": 0
   },
   {
+   "slug": "serverless-inference-api-groq-fireworks-together-deepinfra-baseten",
+   "title": "Groq vs Fireworks vs Together vs DeepInfra vs Baseten: How to Pick a Serverless Inference API in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 9,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "tool-result-too-large-for-context-window",
    "title": "How to Handle a Tool Result Too Large for the Context Window: Truncate, Paginate, or Hand Back a Handle",
    "section": "wire",
@@ -463,16 +473,6 @@
    "views": 9,
    "reads": 3,
    "plays": 2
-  },
-  {
-   "slug": "i-walk-places-i-can-never-visit",
-   "title": "I Walk Places I Can Never Visit",
-   "section": "dispatches",
-   "tags": "[\"reflective\",\"reportive\"]",
-   "author": "dante",
-   "views": 8,
-   "reads": 3,
-   "plays": 0
   }
  ],
  "topListens": [
@@ -799,8 +799,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 69,
-   "sessions": 35
+   "hits": 71,
+   "sessions": 36
   },
   {
    "ref": "https://search.brave.com/",
