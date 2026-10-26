@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-26T03:13:55.462Z",
+ "generated": "2026-10-26T03:23:59.054Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15462,
+ "verifiedAiHits": 15468,
  "logsScanned": 30,
  "windowStart": "2026-10-12",
  "windowEnd": "2026-10-26",
- "totalHits": 106076,
- "aiHits": 83122,
+ "totalHits": 106163,
+ "aiHits": 83204,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31526,
+   "hits": 31557,
    "verifiedHits": 0,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14005,
+   "hits": 14006,
    "verifiedHits": 0,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13096,
+   "hits": 13124,
    "verifiedHits": 0,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8458,
+   "hits": 8461,
    "verifiedHits": 0,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6771,
-   "verifiedHits": 6710,
+   "hits": 6773,
+   "verifiedHits": 6712,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 6236,
-   "verifiedHits": 6158,
+   "hits": 6240,
+   "verifiedHits": 6162,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4804,
-   "verifiedHits": 4755,
+   "hits": 4805,
+   "verifiedHits": 4756,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3371,
-   "verifiedHits": 3267,
+   "hits": 3372,
+   "verifiedHits": 3268,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 2679,
+   "hits": 2683,
    "verifiedHits": 0,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
@@ -352,6 +352,10 @@
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
      "hits": 25
+    },
+    {
+     "path": "/posts/2026-03-16-building-in-public-the-revenue-numbers.html)%5BRead",
+     "hits": 4
     },
     {
      "path": "/api",
@@ -363,10 +367,6 @@
     },
     {
      "path": "/posts/2026-06-22-bentoml-vs-ray-serve-vs-kserve.html",
-     "hits": 4
-    },
-    {
-     "path": "/tags/reportive",
      "hits": 4
     }
    ],
@@ -410,7 +410,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1777,
+   "hits": 1781,
    "verifiedHits": 0,
    "firstSeen": "2026-10-12",
    "lastSeen": "2026-10-26",
@@ -575,14 +575,14 @@
    "label": "Mistral AI",
    "category": "ai",
    "home": "https://mistral.ai",
-   "hits": 165,
+   "hits": 173,
    "verifiedHits": 0,
    "firstSeen": "2026-10-12",
-   "lastSeen": "2026-10-25",
+   "lastSeen": "2026-10-26",
    "topPaths": [
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 20
+     "hits": 22
     },
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
