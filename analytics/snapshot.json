@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-27T06:47:00.378Z",
+ "generated": "2026-10-27T06:57:05.393Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 12,
-  "todayReads": 3,
+  "readersNow": 5,
+  "todayReads": 5,
   "avgTimeSec": 34,
   "postsThisWeek": 4
  },
  "funnel": {
-  "views": 7456,
-  "reads": 292,
+  "views": 7459,
+  "reads": 293,
   "completes": 12,
   "plays": 11,
-  "sessions": 7367
+  "sessions": 7369
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7116,
-   "reads": 171,
-   "sessions": 7132
+   "views": 7119,
+   "reads": 172,
+   "sessions": 7134
   },
   {
    "channel": "organic",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7116,
-   "reads": 171,
+   "views": 7119,
+   "reads": 172,
    "completes": 9,
-   "sessions": 7131,
+   "sessions": 7133,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -323,9 +323,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6880,
-   "reads": 259,
-   "sessions": 6798
+   "views": 6883,
+   "reads": 260,
+   "sessions": 6800
   },
   {
    "device": "mobile",
@@ -442,6 +442,16 @@
    "plays": 0
   },
   {
+   "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
+   "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 15,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
    "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
    "section": "stack",
@@ -480,16 +490,6 @@
    "views": 9,
    "reads": 3,
    "plays": 0
-  },
-  {
-   "slug": "tool-result-too-large-for-context-window",
-   "title": "How to Handle a Tool Result Too Large for the Context Window: Truncate, Paginate, or Hand Back a Handle",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 9,
-   "reads": 3,
-   "plays": 2
   }
  ],
  "topListens": [
@@ -740,18 +740,18 @@
    "avg_dwell_sec": 5
   },
   {
-   "path": "/alternatives/:tool",
-   "views": 52,
-   "reads": 0,
-   "sessions": 52,
-   "avg_dwell_sec": 6
-  },
-  {
    "path": "/tags/opinionated",
    "views": 52,
    "reads": 0,
    "sessions": 52,
    "avg_dwell_sec": null
+  },
+  {
+   "path": "/alternatives/:tool",
+   "views": 51,
+   "reads": 0,
+   "sessions": 51,
+   "avg_dwell_sec": 6
   },
   {
    "path": "/authors/dex",
