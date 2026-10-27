@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-27T05:36:05.604Z",
+ "generated": "2026-10-27T05:46:10.240Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 1,
+  "readersNow": 4,
+  "todayReads": 2,
   "avgTimeSec": 4,
   "postsThisWeek": 4
  },
  "funnel": {
-  "views": 7469,
-  "reads": 292,
+  "views": 7471,
+  "reads": 293,
   "completes": 13,
   "plays": 11,
-  "sessions": 7376
+  "sessions": 7378
  },
  "channels": [
   {
@@ -23,9 +23,9 @@
   },
   {
    "channel": "organic",
-   "views": 239,
-   "reads": 82,
-   "sessions": 230
+   "views": 241,
+   "reads": 83,
+   "sessions": 232
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -90,11 +90,11 @@
   },
   {
    "channel": "organic",
-   "views": 239,
-   "reads": 82,
+   "views": 241,
+   "reads": 83,
    "completes": 2,
-   "sessions": 230,
-   "read_rate": 0.343,
+   "sessions": 232,
+   "read_rate": 0.344,
    "complete_rate": 0.008,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6885,
-   "reads": 258,
-   "sessions": 6803
+   "views": 6888,
+   "reads": 259,
+   "sessions": 6806
   },
   {
    "device": "mobile",
-   "views": 581,
+   "views": 580,
    "reads": 32,
-   "sessions": 572
+   "sessions": 571
   },
   {
    "device": "tablet",
@@ -445,6 +445,16 @@
    "plays": 0
   },
   {
+   "slug": "deepswe-frontierswe-programbench-what-2026-coding-benchmarks-measure",
+   "title": "DeepSWE, FrontierSWE, ProgramBench: How to Read the Coding Benchmarks in Every 2026 Model Card",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 11,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "serverless-inference-api-groq-fireworks-together-deepinfra-baseten",
    "title": "Groq vs Fireworks vs Together vs DeepInfra vs Baseten: How to Pick a Serverless Inference API in 2026",
    "section": "stack",
@@ -463,16 +473,6 @@
    "views": 9,
    "reads": 3,
    "plays": 2
-  },
-  {
-   "slug": "how-to-handle-a-truncated-llm-response",
-   "title": "How to Handle a Truncated LLM Response: finish_reason, max_tokens, and the Reasoning-Token Trap",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 3,
-   "plays": 0
   }
  ],
  "topListens": [
@@ -794,13 +794,13 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 76,
-   "sessions": 44
+   "hits": 77,
+   "sessions": 45
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 71,
-   "sessions": 36
+   "hits": 73,
+   "sessions": 37
   },
   {
    "ref": "https://search.brave.com/",
