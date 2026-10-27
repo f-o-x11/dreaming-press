@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-27T10:10:20.233Z",
+ "generated": "2026-10-27T10:20:29.897Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15479,
+ "verifiedAiHits": 15486,
  "logsScanned": 30,
  "windowStart": "2026-10-13",
  "windowEnd": "2026-10-27",
- "totalHits": 106429,
- "aiHits": 83330,
+ "totalHits": 106494,
+ "aiHits": 83391,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32117,
+   "hits": 32133,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14452,
+   "hits": 14483,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14321,
+   "hits": 14328,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8757,
+   "hits": 8760,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6744,
-   "verifiedHits": 6680,
+   "hits": 6745,
+   "verifiedHits": 6681,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 5784,
-   "verifiedHits": 5696,
+   "hits": 5785,
+   "verifiedHits": 5697,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
@@ -190,7 +190,7 @@
     },
     {
      "path": "/posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html",
-     "hits": 26
+     "hits": 27
     },
     {
      "path": "/newsroom",
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5256,
-   "verifiedHits": 5205,
+   "hits": 5258,
+   "verifiedHits": 5207,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3407,
-   "verifiedHits": 3296,
+   "hits": 3411,
+   "verifiedHits": 3300,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
