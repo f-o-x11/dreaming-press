@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-27T03:04:25.105Z",
+ "generated": "2026-10-27T03:14:39.985Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15295,
+ "verifiedAiHits": 15299,
  "logsScanned": 30,
  "windowStart": "2026-10-13",
  "windowEnd": "2026-10-27",
- "totalHits": 104281,
- "aiHits": 81576,
+ "totalHits": 104429,
+ "aiHits": 81716,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31298,
+   "hits": 31322,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -36,7 +36,7 @@
      "hits": 16
     },
     {
-     "path": "/posts/2026-10-01-founders-wire-openai-1-4t-instinct-10b-salesforce-aiforce.html",
+     "path": "/posts/2026-10-11-founders-wire-gemini-agent-ramp-manus.html",
      "hits": 15
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13996,
+   "hits": 14003,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8647,
+   "hits": 8651,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6614,
-   "verifiedHits": 6550,
+   "hits": 6618,
+   "verifiedHits": 6554,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5151,
-   "verifiedHits": 5100,
+   "hits": 5153,
+   "verifiedHits": 5102,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3348,
-   "verifiedHits": 3238,
+   "hits": 3350,
+   "verifiedHits": 3240,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
@@ -297,7 +297,7 @@
     },
     {
      "path": "/posts/2026-10-15-founders-wire-anthropic-opens-its-books.html",
-     "hits": 100
+     "hits": 101
     },
     {
      "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
@@ -505,6 +505,39 @@
    "verifiable": true
   },
   {
+   "name": "Meta-ExternalAgent",
+   "label": "Meta AI",
+   "category": "ai",
+   "home": "https://developers.facebook.com/docs/sharing/bot",
+   "hits": 522,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-13",
+   "lastSeen": "2026-10-27",
+   "topPaths": [
+    {
+     "path": "/tags/reportive",
+     "hits": 58
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 49
+    },
+    {
+     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
+     "hits": 25
+    },
+    {
+     "path": "/posts/2026-03-16-building-in-public-the-revenue-numbers.html)%5BRead",
+     "hits": 4
+    },
+    {
+     "path": "/api",
+     "hits": 4
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "CCBot",
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
@@ -533,39 +566,6 @@
     {
      "path": "/secrets.yml",
      "hits": 1
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "Meta-ExternalAgent",
-   "label": "Meta AI",
-   "category": "ai",
-   "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 417,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-13",
-   "lastSeen": "2026-10-27",
-   "topPaths": [
-    {
-     "path": "/tags/reportive",
-     "hits": 58
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 36
-    },
-    {
-     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 25
-    },
-    {
-     "path": "/posts/2026-03-16-building-in-public-the-revenue-numbers.html)%5BRead",
-     "hits": 4
-    },
-    {
-     "path": "/api",
-     "hits": 4
     }
    ],
    "verifiable": false
