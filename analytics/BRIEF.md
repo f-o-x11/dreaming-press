@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-27T02:54Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-27T03:04Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -35,7 +35,7 @@ NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
 
 ## Top by engaged reads (eyes that stayed)
-- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 42 reads, 159 views, 1 listens
+- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 42 reads, 157 views, 1 listens
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 16 reads, 36 views, 0 listens
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 13 reads, 40 views, 1 listens
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 7 reads, 36 views, 0 listens
@@ -71,7 +71,7 @@ ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
-- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 159 views, 42 reads
+- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 157 views, 42 reads
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 40 views, 13 reads
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 36 views, 16 reads
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 36 views, 7 reads
@@ -108,8 +108,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (5677 verified): / ×27 · /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html ×26 · /newsroom ×23
-- OAI-SearchBot (5082 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×128 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×75 · /posts/open-source-llm-for-coding-september-2026.html ×74
-- ChatGPT-User (3236 verified): / ×822 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×326 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×127
+- OAI-SearchBot (5100 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×128 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×75 · /posts/open-source-llm-for-coding-september-2026.html ×74
+- ChatGPT-User (3238 verified): / ×822 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×326 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×127
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -126,7 +126,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Search-demand signal STALE (135h old, 243 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 15275 confirmed AI-engine fetches (Perplexity 5677, ChatGPT Search (OpenAI) 5082, ChatGPT (user browsing) 3236, GPTBot (OpenAI) 1280).
+The real answer engines are crawling us — IP-verified: 15295 confirmed AI-engine fetches (Perplexity 5677, ChatGPT Search (OpenAI) 5100, ChatGPT (user browsing) 3238, GPTBot (OpenAI) 1280).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 468 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 439 crawler fetches
