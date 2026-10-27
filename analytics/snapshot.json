@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-27T11:11:40.473Z",
+ "generated": "2026-10-27T11:22:00.387Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 12,
   "todayReads": 9,
-  "avgTimeSec": 23,
+  "avgTimeSec": 22,
   "postsThisWeek": 4
  },
  "funnel": {
-  "views": 7384,
-  "reads": 292,
+  "views": 7385,
+  "reads": 291,
   "completes": 12,
   "plays": 11,
-  "sessions": 7292
+  "sessions": 7293
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7052,
+   "views": 7054,
    "reads": 174,
-   "sessions": 7062
+   "sessions": 7063
   },
   {
    "channel": "organic",
-   "views": 232,
-   "reads": 82,
-   "sessions": 224
+   "views": 231,
+   "reads": 81,
+   "sessions": 223
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -85,22 +85,22 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7052,
+   "views": 7054,
    "reads": 174,
    "completes": 9,
-   "sessions": 7061,
+   "sessions": 7062,
    "read_rate": 0.025,
    "complete_rate": 0.001,
    "pages_per_session": 1,
-   "median_dwell_sec": 9
+   "median_dwell_sec": 8
   },
   {
    "channel": "organic",
-   "views": 232,
-   "reads": 82,
+   "views": 231,
+   "reads": 81,
    "completes": 2,
-   "sessions": 224,
-   "read_rate": 0.353,
+   "sessions": 223,
+   "read_rate": 0.351,
    "complete_rate": 0.009,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -329,15 +329,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6819,
-   "reads": 259,
-   "sessions": 6734
+   "views": 6818,
+   "reads": 258,
+   "sessions": 6733
   },
   {
    "device": "mobile",
-   "views": 562,
+   "views": 564,
    "reads": 31,
-   "sessions": 557
+   "sessions": 559
   },
   {
    "device": "tablet",
@@ -438,19 +438,19 @@
    "plays": 0
   },
   {
-   "slug": "serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026",
-   "title": "Serverless GPU Compute, Explained: The Providers, the Prices, and When Scale-to-Zero Pays (September 2026)",
-   "section": "stack",
+   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
+   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 8,
+   "views": 7,
    "reads": 4,
    "plays": 0
   },
   {
-   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
-   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
-   "section": "wire",
+   "slug": "serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026",
+   "title": "Serverless GPU Compute, Explained: The Providers, the Prices, and When Scale-to-Zero Pays (September 2026)",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 7,
@@ -505,7 +505,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 9,
+   "views": 8,
    "reads": 3,
    "plays": 2
   },
@@ -667,7 +667,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 24,
+   "views": 23,
    "reads": 2,
    "plays": 0
   },
@@ -719,9 +719,9 @@
   },
   {
    "path": "/build",
-   "views": 166,
+   "views": 167,
    "reads": 0,
-   "sessions": 166,
+   "sessions": 167,
    "avg_dwell_sec": null
   },
   {
@@ -826,14 +826,14 @@
    "sessions": 37
   },
   {
-   "ref": "https://cn.bing.com/",
-   "hits": 19,
-   "sessions": 10
-  },
-  {
    "ref": "https://search.brave.com/",
    "hits": 18,
    "sessions": 10
+  },
+  {
+   "ref": "https://cn.bing.com/",
+   "hits": 17,
+   "sessions": 9
   },
   {
    "ref": "nav-cmp",
