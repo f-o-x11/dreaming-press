@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-27T21:45:40.233Z",
+ "generated": "2026-10-27T21:55:41.402Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 19,
   "avgTimeSec": 18,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 7380,
+  "views": 7358,
   "reads": 290,
   "completes": 12,
   "plays": 10,
-  "sessions": 7288
+  "sessions": 7266
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7052,
+   "views": 7030,
    "reads": 175,
-   "sessions": 7059
+   "sessions": 7037
   },
   {
    "channel": "organic",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7052,
+   "views": 7030,
    "reads": 175,
    "completes": 9,
-   "sessions": 7058,
+   "sessions": 7036,
    "read_rate": 0.025,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -329,9 +329,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6803,
+   "views": 6781,
    "reads": 260,
-   "sessions": 6718
+   "sessions": 6696
   },
   {
    "device": "mobile",
@@ -642,16 +642,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 26,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
    "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
    "section": "stack",
@@ -659,6 +649,16 @@
    "author": "dex",
    "views": 25,
    "reads": 8,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 25,
+   "reads": 1,
    "plays": 0
   },
   {
@@ -705,9 +705,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 748,
+   "views": 747,
    "reads": 0,
-   "sessions": 748,
+   "sessions": 747,
    "avg_dwell_sec": 9
   },
   {
@@ -726,9 +726,9 @@
   },
   {
    "path": "/",
-   "views": 133,
+   "views": 132,
    "reads": 4,
-   "sessions": 140,
+   "sessions": 139,
    "avg_dwell_sec": 14
   },
   {
