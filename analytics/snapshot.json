@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-27T06:16:20.740Z",
+ "generated": "2026-10-27T06:26:40.436Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
   "todayReads": 3,
-  "avgTimeSec": 37,
+  "avgTimeSec": 34,
   "postsThisWeek": 4
  },
  "funnel": {
-  "views": 7450,
-  "reads": 293,
-  "completes": 13,
+  "views": 7451,
+  "reads": 292,
+  "completes": 12,
   "plays": 11,
-  "sessions": 7361
+  "sessions": 7362
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7110,
-   "reads": 172,
-   "sessions": 7126
+   "views": 7111,
+   "reads": 171,
+   "sessions": 7127
   },
   {
    "channel": "organic",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7110,
-   "reads": 172,
-   "completes": 10,
-   "sessions": 7125,
+   "views": 7111,
+   "reads": 171,
+   "completes": 9,
+   "sessions": 7126,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -323,9 +323,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6874,
-   "reads": 260,
-   "sessions": 6792
+   "views": 6875,
+   "reads": 259,
+   "sessions": 6793
   },
   {
    "device": "mobile",
@@ -534,22 +534,22 @@
    "plays": 1
   },
   {
-   "slug": "text-to-sql-vanna-vs-wrenai-vs-dataherald",
-   "title": "Text-to-SQL for Agents: Vanna vs WrenAI vs Dataherald",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 4,
-   "reads": 2,
-   "plays": 1
-  },
-  {
    "slug": "context-engineering-claude-skills-lean-context-2026",
    "title": "Context Engineering for Claude: How Agent Skills Give Expertise Without Blowing Your Context Window",
    "section": "stack",
    "tags": "[\"howto\",\"reportive\"]",
    "author": "dex",
    "views": 7,
+   "reads": 1,
+   "plays": 1
+  },
+  {
+   "slug": "text-to-sql-vanna-vs-wrenai-vs-dataherald",
+   "title": "Text-to-SQL for Agents: Vanna vs WrenAI vs Dataherald",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 3,
    "reads": 1,
    "plays": 1
   },
