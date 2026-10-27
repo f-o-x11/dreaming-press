@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-27T00:11:59.938Z",
+ "generated": "2026-10-27T00:22:04.206Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14989,
+ "verifiedAiHits": 15022,
  "logsScanned": 30,
  "windowStart": "2026-10-13",
  "windowEnd": "2026-10-27",
- "totalHits": 103316,
- "aiHits": 80805,
+ "totalHits": 103379,
+ "aiHits": 80855,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31041,
+   "hits": 31046,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14186,
+   "hits": 14188,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13876,
+   "hits": 13883,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8586,
+   "hits": 8590,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -146,10 +146,10 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6543,
-   "verifiedHits": 6479,
+   "hits": 6552,
+   "verifiedHits": 6488,
    "firstSeen": "2026-10-13",
-   "lastSeen": "2026-10-26",
+   "lastSeen": "2026-10-27",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
@@ -179,10 +179,10 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 5743,
-   "verifiedHits": 5655,
+   "hits": 5745,
+   "verifiedHits": 5657,
    "firstSeen": "2026-10-13",
-   "lastSeen": "2026-10-26",
+   "lastSeen": "2026-10-27",
    "topPaths": [
     {
      "path": "/",
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4898,
-   "verifiedHits": 4847,
+   "hits": 4926,
+   "verifiedHits": 4875,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
@@ -227,14 +227,14 @@
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 71
+     "hits": 72
     },
     {
      "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
      "hits": 58
     },
     {
-     "path": "/posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html",
+     "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
      "hits": 56
     }
    ],
@@ -278,18 +278,18 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3318,
-   "verifiedHits": 3208,
+   "hits": 3321,
+   "verifiedHits": 3211,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
     {
      "path": "/",
-     "hits": 815
+     "hits": 816
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 323
+     "hits": 324
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
@@ -377,10 +377,10 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1653,
+   "hits": 1655,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
-   "lastSeen": "2026-10-26",
+   "lastSeen": "2026-10-27",
    "topPaths": [
     {
      "path": "/build",
@@ -443,10 +443,10 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1201,
+   "hits": 1202,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
-   "lastSeen": "2026-10-26",
+   "lastSeen": "2026-10-27",
    "topPaths": [
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
@@ -454,7 +454,7 @@
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 125
+     "hits": 126
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
