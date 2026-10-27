@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-27T11:22:00.387Z",
+ "generated": "2026-10-27T11:32:10.398Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 12,
+  "readersNow": 10,
   "todayReads": 9,
   "avgTimeSec": 22,
   "postsThisWeek": 4
  },
  "funnel": {
-  "views": 7385,
+  "views": 7380,
   "reads": 291,
   "completes": 12,
   "plays": 11,
-  "sessions": 7293
+  "sessions": 7288
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7054,
+   "views": 7050,
    "reads": 174,
-   "sessions": 7063
+   "sessions": 7059
   },
   {
    "channel": "organic",
-   "views": 231,
+   "views": 230,
    "reads": 81,
-   "sessions": 223
+   "sessions": 222
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7054,
+   "views": 7050,
    "reads": 174,
    "completes": 9,
-   "sessions": 7062,
+   "sessions": 7058,
    "read_rate": 0.025,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,11 +96,11 @@
   },
   {
    "channel": "organic",
-   "views": 231,
+   "views": 230,
    "reads": 81,
    "completes": 2,
-   "sessions": 223,
-   "read_rate": 0.351,
+   "sessions": 222,
+   "read_rate": 0.352,
    "complete_rate": 0.009,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -329,9 +329,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6818,
+   "views": 6813,
    "reads": 258,
-   "sessions": 6733
+   "sessions": 6728
   },
   {
    "device": "mobile",
@@ -383,7 +383,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 37,
+   "views": 36,
    "reads": 7,
    "plays": 0
   },
@@ -453,7 +453,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 7,
+   "views": 6,
    "reads": 4,
    "plays": 0
   },
@@ -637,7 +637,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 37,
+   "views": 36,
    "reads": 7,
    "plays": 0
   },
@@ -692,13 +692,13 @@
    "plays": 0
   },
   {
-   "slug": "langfuse-vs-langsmith-vs-phoenix-observability",
-   "title": "LLM Observability in 2026: Datadog vs Langfuse vs LangSmith vs Arize Phoenix",
-   "section": "stack",
+   "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
+   "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
+   "author": "priya",
    "views": 19,
-   "reads": 2,
+   "reads": 0,
    "plays": 0
   }
  ],
@@ -719,9 +719,9 @@
   },
   {
    "path": "/build",
-   "views": 167,
+   "views": 166,
    "reads": 0,
-   "sessions": 167,
+   "sessions": 166,
    "avg_dwell_sec": null
   },
   {
@@ -832,8 +832,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 17,
-   "sessions": 9
+   "hits": 16,
+   "sessions": 8
   },
   {
    "ref": "nav-cmp",
