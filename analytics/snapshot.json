@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-27T04:35:44.501Z",
+ "generated": "2026-10-27T04:45:49.477Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 11,
+  "readersNow": 3,
   "todayReads": 1,
   "avgTimeSec": 4,
   "postsThisWeek": 4
  },
  "funnel": {
-  "views": 7519,
-  "reads": 295,
+  "views": 7505,
+  "reads": 294,
   "completes": 13,
-  "plays": 12,
-  "sessions": 7424
+  "plays": 11,
+  "sessions": 7411
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7169,
-   "reads": 174,
-   "sessions": 7179
+   "views": 7155,
+   "reads": 173,
+   "sessions": 7166
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7169,
-   "reads": 174,
+   "views": 7155,
+   "reads": 173,
    "completes": 10,
-   "sessions": 7178,
+   "sessions": 7165,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6936,
-   "reads": 261,
-   "sessions": 6852
+   "views": 6922,
+   "reads": 260,
+   "sessions": 6839
   },
   {
    "device": "mobile",
@@ -330,9 +330,9 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 155,
-   "reads": 42,
-   "plays": 1
+   "views": 153,
+   "reads": 41,
+   "plays": 0
   },
   {
    "slug": "mcp-tool-annotations-explained",
@@ -487,16 +487,6 @@
    "plays": 2
   },
   {
-   "slug": "ai-agent-frameworks-whats-changed-fall-2026",
-   "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 155,
-   "reads": 42,
-   "plays": 1
-  },
-  {
    "slug": "best-llm-for-creative-writing-october-2026",
    "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
    "section": "stack",
@@ -575,6 +565,16 @@
    "views": 7,
    "reads": 0,
    "plays": 1
+  },
+  {
+   "slug": "moonshot-retires-kimi-k2-5-moonshot-v1-august-31-migrate-api",
+   "title": "Moonshot Retires kimi-k2.5 and moonshot-v1 on August 31 — Migrate Your API Calls Now",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 3,
+   "reads": 0,
+   "plays": 1
   }
  ],
  "topViews": [
@@ -584,9 +584,9 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 155,
-   "reads": 42,
-   "plays": 1
+   "views": 153,
+   "reads": 41,
+   "plays": 0
   },
   {
    "slug": "best-llm-for-creative-writing-october-2026",
