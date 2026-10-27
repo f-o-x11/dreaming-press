@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-27T16:00Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-27T16:10Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -62,7 +62,7 @@ so what these earn from humans is the other half of the picture.
 - /stack/:tool — 748 views, 0 reads, 748 sessions, avg 9s
 - /compare/:pair — 369 views, 2 reads, 368 sessions, avg 36s
 - /build — 166 views, 0 reads, 166 sessions
-- / — 133 views, 4 reads, 141 sessions, avg 14s
+- / — 134 views, 4 reads, 142 sessions, avg 14s
 - /tags/reportive — 61 views, 0 reads, 61 sessions
 - /best/:cat — 58 views, 0 reads, 58 sessions, avg 5s
 - /tags/opinionated — 52 views, 0 reads, 52 sessions
@@ -94,12 +94,12 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 871 retrieval fetches
-- /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 335 retrieval fetches
+- /  — 872 retrieval fetches
+- /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 336 retrieval fetches
 - /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 160 retrieval fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 134 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 132 retrieval fetches
-- /posts/2026-10-15-founders-wire-anthropic-opens-its-books.html  — 103 retrieval fetches
+- /posts/2026-10-15-founders-wire-anthropic-opens-its-books.html  — 104 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 77 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 75 retrieval fetches
 - /posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html  — 59 retrieval fetches
@@ -108,7 +108,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (5820 verified): / ×29 · /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html ×27 · /tools ×23
 - OAI-SearchBot (5299 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×132 · /posts/open-source-llm-for-coding-september-2026.html ×77 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×75
-- ChatGPT-User (3345 verified): / ×842 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×335 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×134
+- ChatGPT-User (3350 verified): / ×843 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×336 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×134
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -145,16 +145,16 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 15746 confirmed AI-engine fetches (Perplexity 5820, ChatGPT Search (OpenAI) 5299, ChatGPT (user browsing) 3345, GPTBot (OpenAI) 1282).
+The real answer engines are crawling us — IP-verified: 15751 confirmed AI-engine fetches (Perplexity 5820, ChatGPT Search (OpenAI) 5299, ChatGPT (user browsing) 3350, GPTBot (OpenAI) 1282).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 475 crawler fetches
-- /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 449 crawler fetches
+- /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 450 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 277 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 197 crawler fetches
 - /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 160 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 132 crawler fetches
-- /posts/gartner-ai-agent-spending-2026.html  — 121 crawler fetches
-- /posts/2026-10-15-founders-wire-anthropic-opens-its-books.html  — 103 crawler fetches
+- /posts/gartner-ai-agent-spending-2026.html  — 122 crawler fetches
+- /posts/2026-10-15-founders-wire-anthropic-opens-its-books.html  — 104 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 79 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 77 crawler fetches
 - /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 65 crawler fetches
