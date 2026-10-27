@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-27T12:21Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-27T12:27Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 7396 views → 289 engaged reads → 12 completes · 7306 sessions.
-- Channels: direct 172r/7068v · organic 81r/228v · campaign:chatgpt.com 16r/35v · ai 6r/31v · referral 6r/23v · campaign:owner-qa 4r/4v · social 3r/4v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 7399 views → 288 engaged reads → 12 completes · 7309 sessions.
+- Channels: direct 171r/7071v · organic 81r/228v · campaign:chatgpt.com 16r/35v · ai 6r/31v · referral 6r/23v · campaign:owner-qa 4r/4v · social 3r/4v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 17r/39v · Perplexity 2r/3v · Doubao 2r/2v · Yuanbao 1r/1v · Kimi 0r/19v · Copilot 0r/1v · Grok 0r/1v.
 - Referrers: google.com, duckduckgo.com, bing.com, search.brave.com, cn.bing.com, nav-cmp, brand, ecosia.org, youtube.com, qwant.com.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 7068 views · read 2.4% · complete 0.1% · 1 pages/session · median 8s
+- direct: 7071 views · read 2.4% · complete 0.1% · 1 pages/session · median 8s
 - organic: 228 views · read 35.5% · complete 0.9% · 1.03 pages/session · median 3s
 - campaign:chatgpt.com: 35 views · read 45.7% · complete 0.0% · 1.21 pages/session · median ?s
 - ai: 31 views · read 19.4% · complete 0.0% · 0.72 pages/session · median 4s
@@ -35,9 +35,9 @@ NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
 
 ## Top by engaged reads (eyes that stayed)
-- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 39 reads, 148 views, 0 listens
+- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 38 reads, 147 views, 0 listens
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 16 reads, 37 views, 0 listens
-- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 13 reads, 40 views, 1 listens
+- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 13 reads, 41 views, 1 listens
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 7 reads, 34 views, 0 listens
 - [stack] "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)" — 6 reads, 22 views, 0 listens
 - [wire] "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace" — 5 reads, 11 views, 1 listens
@@ -71,8 +71,8 @@ ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
-- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 148 views, 39 reads
-- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 40 views, 13 reads
+- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 147 views, 38 reads
+- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 41 views, 13 reads
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 37 views, 16 reads
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 34 views, 7 reads
 - [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 26 views, 1 reads
@@ -107,15 +107,15 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (5738 verified): / ×29 · /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html ×27 · /newsroom ×23
-- OAI-SearchBot (5251 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×132 · /posts/open-source-llm-for-coding-september-2026.html ×77 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×75
-- ChatGPT-User (3313 verified): / ×836 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×334 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×130
+- OAI-SearchBot (5254 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×132 · /posts/open-source-llm-for-coding-september-2026.html ×77 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×75
+- ChatGPT-User (3314 verified): / ×836 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×334 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×130
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
 
 ## WRITE MORE LIKE THESE — SUPPRESSED (not enough support yet)
 3 piece(s) clear 10 engaged reads; this block needs 5 before a "winning
-format" distribution means anything (best in-window: 39 reads). Inferring a pattern from
+format" distribution means anything (best in-window: 38 reads). Inferring a pattern from
 single-digit samples is curve-fitting, and a confident wrong steer costs more than none.
 ACTION: commission from "WHAT ANSWER ENGINES ARE PULLING" above — its sample size is in the
 hundreds — and from uncovered search demand below. This block returns on its own.
@@ -145,7 +145,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 15584 confirmed AI-engine fetches (Perplexity 5738, ChatGPT Search (OpenAI) 5251, ChatGPT (user browsing) 3313, GPTBot (OpenAI) 1282).
+The real answer engines are crawling us — IP-verified: 15588 confirmed AI-engine fetches (Perplexity 5738, ChatGPT Search (OpenAI) 5254, ChatGPT (user browsing) 3314, GPTBot (OpenAI) 1282).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 470 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 448 crawler fetches
