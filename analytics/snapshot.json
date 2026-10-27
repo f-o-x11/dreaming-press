@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-27T21:05:11.888Z",
+ "generated": "2026-10-27T21:15:16.516Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 18,
   "avgTimeSec": 18,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 7384,
+  "views": 7383,
   "reads": 289,
   "completes": 12,
   "plays": 10,
-  "sessions": 7292
+  "sessions": 7291
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7056,
+   "views": 7055,
    "reads": 174,
-   "sessions": 7063
+   "sessions": 7062
   },
   {
    "channel": "organic",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7056,
+   "views": 7055,
    "reads": 174,
    "completes": 9,
-   "sessions": 7062,
+   "sessions": 7061,
    "read_rate": 0.025,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -329,9 +329,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6806,
+   "views": 6805,
    "reads": 259,
-   "sessions": 6721
+   "sessions": 6720
   },
   {
    "device": "mobile",
@@ -383,7 +383,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 26,
+   "views": 25,
    "reads": 8,
    "plays": 0
   },
@@ -642,16 +642,6 @@
    "plays": 0
   },
   {
-   "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
-   "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 26,
-   "reads": 8,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
    "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
    "section": "stack",
@@ -659,6 +649,16 @@
    "author": "dex",
    "views": 26,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
+   "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 25,
+   "reads": 8,
    "plays": 0
   },
   {
