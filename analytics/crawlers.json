@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-27T16:20:50.568Z",
+ "generated": "2026-10-27T16:31:00.244Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 15758,
  "logsScanned": 30,
  "windowStart": "2026-10-13",
  "windowEnd": "2026-10-27",
- "totalHits": 108600,
- "aiHits": 85130,
+ "totalHits": 108638,
+ "aiHits": 85163,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32986,
+   "hits": 33010,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14707,
+   "hits": 14708,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14607,
+   "hits": 14614,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8885,
+   "hits": 8889,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6890,
-   "verifiedHits": 6826,
+   "hits": 6891,
+   "verifiedHits": 6827,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
@@ -443,14 +443,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1250,
+   "hits": 1251,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
-     "hits": 185
+     "hits": 186
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",

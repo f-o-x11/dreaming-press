@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-27T16:20Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-27T16:31Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 7423 views → 288 engaged reads → 12 completes · 7333 sessions.
-- Channels: direct 172r/7095v · organic 80r/228v · campaign:chatgpt.com 16r/35v · ai 6r/31v · referral 6r/23v · campaign:owner-qa 4r/4v · social 3r/4v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 7424 views → 288 engaged reads → 12 completes · 7334 sessions.
+- Channels: direct 172r/7096v · organic 80r/228v · campaign:chatgpt.com 16r/35v · ai 6r/31v · referral 6r/23v · campaign:owner-qa 4r/4v · social 3r/4v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 17r/39v · Perplexity 2r/3v · Doubao 2r/2v · Yuanbao 1r/1v · Kimi 0r/19v · Copilot 0r/1v · Grok 0r/1v.
 - Referrers: google.com, bing.com, duckduckgo.com, search.brave.com, cn.bing.com, nav-cmp, brand, youtube.com, qwant.com, perplexity.ai.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 7095 views · read 2.4% · complete 0.1% · 1 pages/session · median 8s
+- direct: 7096 views · read 2.4% · complete 0.1% · 1 pages/session · median 8s
 - organic: 228 views · read 35.1% · complete 0.9% · 1.03 pages/session · median 3s
 - campaign:chatgpt.com: 35 views · read 45.7% · complete 0.0% · 1.21 pages/session · median ?s
 - ai: 31 views · read 19.4% · complete 0.0% · 0.72 pages/session · median 4s
@@ -150,7 +150,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /build  — 475 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 450 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 278 crawler fetches
-- /posts/best-llm-for-creative-writing-october-2026.html  — 197 crawler fetches
+- /posts/best-llm-for-creative-writing-october-2026.html  — 198 crawler fetches
 - /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 160 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 132 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 122 crawler fetches
