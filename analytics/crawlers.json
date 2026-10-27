@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-27T08:38:41.979Z",
+ "generated": "2026-10-27T08:48:50.194Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15435,
+ "verifiedAiHits": 15441,
  "logsScanned": 30,
  "windowStart": "2026-10-13",
  "windowEnd": "2026-10-27",
- "totalHits": 105900,
- "aiHits": 82881,
+ "totalHits": 106037,
+ "aiHits": 83006,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31851,
+   "hits": 31933,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14389,
+   "hits": 14417,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -65,11 +65,11 @@
      "hits": 8
     },
     {
-     "path": "/dispatches.html",
+     "path": "/posts/kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo.html",
      "hits": 6
     },
     {
-     "path": "/stack.html",
+     "path": "/dispatches.html",
      "hits": 6
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14254,
+   "hits": 14263,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8731,
+   "hits": 8735,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6718,
-   "verifiedHits": 6654,
+   "hits": 6725,
+   "verifiedHits": 6661,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5230,
-   "verifiedHits": 5179,
+   "hits": 5234,
+   "verifiedHits": 5183,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3395,
-   "verifiedHits": 3284,
+   "hits": 3397,
+   "verifiedHits": 3286,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2752,
+   "hits": 2753,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
