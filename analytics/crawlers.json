@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-27T22:36:34.631Z",
+ "generated": "2026-10-27T22:46:50.237Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15983,
+ "verifiedAiHits": 15994,
  "logsScanned": 30,
  "windowStart": "2026-10-13",
  "windowEnd": "2026-10-27",
- "totalHits": 110151,
- "aiHits": 86315,
+ "totalHits": 110185,
+ "aiHits": 86345,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 33426,
+   "hits": 33427,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -38,6 +38,39 @@
     {
      "path": "/posts/2026-10-11-founders-wire-gemini-agent-ramp-manus.html",
      "hits": 15
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "PetalBot",
+   "label": "Petal / Huawei",
+   "category": "ai",
+   "home": "https://webmaster.petalsearch.com/site/petalbot",
+   "hits": 14903,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-13",
+   "lastSeen": "2026-10-27",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 117
+    },
+    {
+     "path": "/tags/reportive",
+     "hits": 40
+    },
+    {
+     "path": "/wire.html",
+     "hits": 38
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 30
+    },
+    {
+     "path": "/stack.html",
+     "hits": 16
     }
    ],
    "verifiable": false
@@ -71,39 +104,6 @@
     {
      "path": "/posts/kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo.html",
      "hits": 6
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "PetalBot",
-   "label": "Petal / Huawei",
-   "category": "ai",
-   "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14895,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-13",
-   "lastSeen": "2026-10-27",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 117
-    },
-    {
-     "path": "/tags/reportive",
-     "hits": 40
-    },
-    {
-     "path": "/wire.html",
-     "hits": 38
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 30
-    },
-    {
-     "path": "/stack.html",
-     "hits": 16
     }
    ],
    "verifiable": false
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7014,
-   "verifiedHits": 6950,
+   "hits": 7016,
+   "verifiedHits": 6952,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 5957,
-   "verifiedHits": 5869,
+   "hits": 5964,
+   "verifiedHits": 5876,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5501,
-   "verifiedHits": 5450,
+   "hits": 5505,
+   "verifiedHits": 5454,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2789,
+   "hits": 2791,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1775,
+   "hits": 1784,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1267,
+   "hits": 1268,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
