@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-27T07:28Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-27T07:38Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -62,7 +62,7 @@ so what these earn from humans is the other half of the picture.
 - /stack/:tool — 750 views, 0 reads, 750 sessions, avg 9s
 - /compare/:pair — 367 views, 2 reads, 366 sessions, avg 41s
 - /build — 166 views, 0 reads, 166 sessions
-- / — 135 views, 4 reads, 143 sessions, avg 14s
+- / — 136 views, 4 reads, 144 sessions, avg 14s
 - /tags/reportive — 61 views, 0 reads, 61 sessions
 - /best/:cat — 58 views, 0 reads, 58 sessions, avg 5s
 - /tags/opinionated — 52 views, 0 reads, 52 sessions
@@ -107,7 +107,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (5690 verified): / ×28 · /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html ×26 · /newsroom ×23
-- OAI-SearchBot (5161 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×128 · /posts/open-source-llm-for-coding-september-2026.html ×76 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×75
+- OAI-SearchBot (5162 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×128 · /posts/open-source-llm-for-coding-september-2026.html ×76 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×75
 - ChatGPT-User (3274 verified): / ×829 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×330 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×127
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -125,9 +125,9 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Search-demand signal STALE (140h old, 243 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 15406 confirmed AI-engine fetches (Perplexity 5690, ChatGPT Search (OpenAI) 5161, ChatGPT (user browsing) 3274, GPTBot (OpenAI) 1281).
+The real answer engines are crawling us — IP-verified: 15407 confirmed AI-engine fetches (Perplexity 5690, ChatGPT Search (OpenAI) 5162, ChatGPT (user browsing) 3274, GPTBot (OpenAI) 1281).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 469 crawler fetches
+- /build  — 470 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 444 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 269 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 196 crawler fetches
