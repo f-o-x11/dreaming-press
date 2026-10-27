@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-27T10:40:48.837Z",
+ "generated": "2026-10-27T10:51:00.277Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 11,
   "todayReads": 9,
-  "avgTimeSec": 27,
+  "avgTimeSec": 25,
   "postsThisWeek": 4
  },
  "funnel": {
-  "views": 7395,
-  "reads": 294,
+  "views": 7397,
+  "reads": 293,
   "completes": 12,
   "plays": 11,
-  "sessions": 7302
+  "sessions": 7304
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7061,
+   "views": 7063,
    "reads": 174,
-   "sessions": 7073
+   "sessions": 7074
   },
   {
    "channel": "organic",
@@ -36,7 +36,7 @@
   {
    "channel": "ai",
    "views": 32,
-   "reads": 7,
+   "reads": 6,
    "sessions": 44
   },
   {
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7061,
+   "views": 7063,
    "reads": 174,
    "completes": 9,
-   "sessions": 7072,
+   "sessions": 7073,
    "read_rate": 0.025,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -119,10 +119,10 @@
   {
    "channel": "ai",
    "views": 32,
-   "reads": 7,
+   "reads": 6,
    "completes": 0,
    "sessions": 44,
-   "read_rate": 0.219,
+   "read_rate": 0.188,
    "complete_rate": 0,
    "pages_per_session": 0.73,
    "median_dwell_sec": 4
@@ -290,16 +290,16 @@
    "sessions": 30
   },
   {
-   "assistant": "Doubao",
-   "views": 3,
-   "reads": 3,
-   "sessions": 3
-  },
-  {
    "assistant": "Perplexity",
    "views": 3,
    "reads": 2,
    "sessions": 3
+  },
+  {
+   "assistant": "Doubao",
+   "views": 2,
+   "reads": 2,
+   "sessions": 2
   },
   {
    "assistant": "Yuanbao",
@@ -318,20 +318,26 @@
    "views": 1,
    "reads": 0,
    "sessions": 1
+  },
+  {
+   "assistant": "Grok",
+   "views": 1,
+   "reads": 0,
+   "sessions": 1
   }
  ],
  "devices": [
   {
    "device": "desktop",
-   "views": 6826,
-   "reads": 261,
-   "sessions": 6740
+   "views": 6832,
+   "reads": 260,
+   "sessions": 6746
   },
   {
    "device": "mobile",
-   "views": 566,
+   "views": 562,
    "reads": 31,
-   "sessions": 561
+   "sessions": 557
   },
   {
    "device": "tablet",
