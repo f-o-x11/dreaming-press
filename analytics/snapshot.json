@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T07:38:20.513Z",
+ "generated": "2026-10-27T07:48:23.664Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,24 +8,24 @@
   "postsThisWeek": 4
  },
  "funnel": {
-  "views": 7423,
+  "views": 7417,
   "reads": 294,
   "completes": 12,
   "plays": 11,
-  "sessions": 7332
+  "sessions": 7326
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7083,
+   "views": 7084,
    "reads": 173,
-   "sessions": 7097
+   "sessions": 7098
   },
   {
    "channel": "organic",
-   "views": 241,
+   "views": 234,
    "reads": 84,
-   "sessions": 232
+   "sessions": 225
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7083,
+   "views": 7084,
    "reads": 173,
    "completes": 9,
-   "sessions": 7096,
+   "sessions": 7097,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,12 +96,12 @@
   },
   {
    "channel": "organic",
-   "views": 241,
+   "views": 234,
    "reads": 84,
    "completes": 2,
-   "sessions": 232,
-   "read_rate": 0.349,
-   "complete_rate": 0.008,
+   "sessions": 225,
+   "read_rate": 0.359,
+   "complete_rate": 0.009,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
   },
@@ -323,9 +323,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6848,
+   "views": 6842,
    "reads": 261,
-   "sessions": 6764
+   "sessions": 6758
   },
   {
    "device": "mobile",
@@ -666,16 +666,6 @@
    "plays": 0
   },
   {
-   "slug": "best-open-source-rl-frameworks-for-training-agents",
-   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 23,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "2026-10-15-founders-wire-anthropic-opens-its-books",
    "title": "The Founder's Wire, October 15: Anthropic Opened Its Books — $16.8B, an 85% Margin, and $1.70 of Revenue for Every $1 of Compute",
    "section": "wire",
@@ -693,6 +683,16 @@
    "author": "dex",
    "views": 19,
    "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
+   "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 18,
+   "reads": 4,
    "plays": 0
   }
  ],
@@ -776,9 +776,9 @@
   },
   {
    "path": "/agents.html",
-   "views": 16,
+   "views": 17,
    "reads": 4,
-   "sessions": 15,
+   "sessions": 16,
    "avg_dwell_sec": 86
   },
   {
@@ -806,8 +806,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 133,
-   "sessions": 116
+   "hits": 125,
+   "sessions": 109
   },
   {
    "ref": "https://duckduckgo.com/",
