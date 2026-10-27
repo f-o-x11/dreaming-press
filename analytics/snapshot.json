@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T22:05:46.819Z",
+ "generated": "2026-10-27T22:16:00.416Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,24 +8,24 @@
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 7358,
-  "reads": 290,
+  "views": 7351,
+  "reads": 287,
   "completes": 12,
   "plays": 10,
-  "sessions": 7266
+  "sessions": 7262
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7030,
-   "reads": 175,
-   "sessions": 7037
+   "views": 7024,
+   "reads": 173,
+   "sessions": 7033
   },
   {
    "channel": "organic",
-   "views": 229,
-   "reads": 80,
-   "sessions": 222
+   "views": 228,
+   "reads": 79,
+   "sessions": 221
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7030,
-   "reads": 175,
+   "views": 7024,
+   "reads": 173,
    "completes": 9,
-   "sessions": 7036,
+   "sessions": 7032,
    "read_rate": 0.025,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,11 +96,11 @@
   },
   {
    "channel": "organic",
-   "views": 229,
-   "reads": 80,
+   "views": 228,
+   "reads": 79,
    "completes": 2,
-   "sessions": 222,
-   "read_rate": 0.349,
+   "sessions": 221,
+   "read_rate": 0.346,
    "complete_rate": 0.009,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -222,11 +222,6 @@
    "sessions": 3
   },
   {
-   "surface": "pager-link",
-   "clicks": 2,
-   "sessions": 2
-  },
-  {
    "surface": "f-cols",
    "clicks": 2,
    "sessions": 1
@@ -257,6 +252,11 @@
    "sessions": 1
   },
   {
+   "surface": "pager-link",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
    "surface": "nav-drawer-agents",
    "clicks": 1,
    "sessions": 1
@@ -277,7 +277,7 @@
    "sessions": 1
   },
   {
-   "surface": "cited-list",
+   "surface": "btn-stats",
    "clicks": 1,
    "sessions": 1
   }
@@ -329,9 +329,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6781,
-   "reads": 260,
-   "sessions": 6696
+   "views": 6774,
+   "reads": 257,
+   "sessions": 6692
   },
   {
    "device": "mobile",
@@ -822,8 +822,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 73,
-   "sessions": 43
+   "hits": 71,
+   "sessions": 42
   },
   {
    "ref": "https://search.brave.com/",
