@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-27T03:25:00.616Z",
+ "generated": "2026-10-27T03:35:10.366Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 1,
   "avgTimeSec": 4,
   "postsThisWeek": 4
  },
  "funnel": {
-  "views": 7543,
+  "views": 7517,
   "reads": 295,
   "completes": 13,
   "plays": 12,
-  "sessions": 7448
+  "sessions": 7422
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7193,
+   "views": 7167,
    "reads": 174,
-   "sessions": 7203
+   "sessions": 7177
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7193,
+   "views": 7167,
    "reads": 174,
    "completes": 10,
-   "sessions": 7202,
+   "sessions": 7176,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6959,
+   "views": 6933,
    "reads": 261,
-   "sessions": 6875
+   "sessions": 6849
   },
   {
    "device": "mobile",
@@ -445,16 +445,6 @@
    "plays": 0
   },
   {
-   "slug": "how-to-handle-a-truncated-llm-response",
-   "title": "How to Handle a Truncated LLM Response: finish_reason, max_tokens, and the Reasoning-Token Trap",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 9,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "serverless-inference-api-groq-fireworks-together-deepinfra-baseten",
    "title": "Groq vs Fireworks vs Together vs DeepInfra vs Baseten: How to Pick a Serverless Inference API in 2026",
    "section": "stack",
@@ -473,6 +463,16 @@
    "views": 9,
    "reads": 3,
    "plays": 2
+  },
+  {
+   "slug": "how-to-handle-a-truncated-llm-response",
+   "title": "How to Handle a Truncated LLM Response: finish_reason, max_tokens, and the Reasoning-Token Trap",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 3,
+   "plays": 0
   }
  ],
  "topListens": [
@@ -619,16 +619,6 @@
    "plays": 0
   },
   {
-   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
-   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 26,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
    "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
    "section": "stack",
@@ -646,6 +636,16 @@
    "author": "wire-desk",
    "views": 25,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 24,
+   "reads": 2,
    "plays": 0
   },
   {
