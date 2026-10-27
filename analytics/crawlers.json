@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-27T14:48:50.119Z",
+ "generated": "2026-10-27T14:58:50.563Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15737,
+ "verifiedAiHits": 15739,
  "logsScanned": 30,
  "windowStart": "2026-10-13",
  "windowEnd": "2026-10-27",
- "totalHits": 108149,
- "aiHits": 84782,
+ "totalHits": 108184,
+ "aiHits": 84808,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32806,
+   "hits": 32817,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14651,
+   "hits": 14655,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14533,
+   "hits": 14542,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -91,11 +91,11 @@
     },
     {
      "path": "/tags/reportive",
-     "hits": 39
+     "hits": 40
     },
     {
      "path": "/wire.html",
-     "hits": 36
+     "hits": 37
     },
     {
      "path": "/tags/opinionated",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8838,
+   "hits": 8842,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -146,14 +146,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6852,
-   "verifiedHits": 6788,
+   "hits": 6857,
+   "verifiedHits": 6793,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 120
+     "hits": 121
     },
     {
      "path": "/build",
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3449,
-   "verifiedHits": 3338,
+   "hits": 3451,
+   "verifiedHits": 3340,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
@@ -293,7 +293,7 @@
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 132
+     "hits": 133
     },
     {
      "path": "/posts/2026-10-15-founders-wire-anthropic-opens-its-books.html",
@@ -301,7 +301,7 @@
     },
     {
      "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
-     "hits": 99
+     "hits": 100
     }
    ],
    "verifiable": true
