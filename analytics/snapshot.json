@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-27T17:32:01.744Z",
+ "generated": "2026-10-27T17:42:20.551Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 15,
+  "readersNow": 3,
+  "todayReads": 16,
   "avgTimeSec": 18,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 7406,
-  "reads": 288,
+  "views": 7408,
+  "reads": 289,
   "completes": 12,
   "plays": 10,
-  "sessions": 7316
+  "sessions": 7317
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7078,
-   "reads": 172,
+   "views": 7079,
+   "reads": 173,
    "sessions": 7088
   },
   {
    "channel": "organic",
-   "views": 228,
+   "views": 229,
    "reads": 80,
-   "sessions": 221
+   "sessions": 222
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -85,8 +85,8 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7078,
-   "reads": 172,
+   "views": 7079,
+   "reads": 173,
    "completes": 9,
    "sessions": 7087,
    "read_rate": 0.024,
@@ -96,11 +96,11 @@
   },
   {
    "channel": "organic",
-   "views": 228,
+   "views": 229,
    "reads": 80,
    "completes": 2,
-   "sessions": 221,
-   "read_rate": 0.351,
+   "sessions": 222,
+   "read_rate": 0.349,
    "complete_rate": 0.009,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -329,9 +329,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6826,
-   "reads": 257,
-   "sessions": 6742
+   "views": 6828,
+   "reads": 258,
+   "sessions": 6743
   },
   {
    "device": "mobile",
@@ -393,8 +393,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 22,
-   "reads": 6,
+   "views": 24,
+   "reads": 7,
    "plays": 0
   },
   {
@@ -662,6 +662,16 @@
    "plays": 0
   },
   {
+   "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
+   "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 24,
+   "reads": 7,
+   "plays": 0
+  },
+  {
    "slug": "open-weight-llms-you-actually-run-locally-october-2026",
    "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
    "section": "stack",
@@ -669,16 +679,6 @@
    "author": "dex",
    "views": 23,
    "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
-   "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 6,
    "plays": 0
   },
   {
@@ -746,18 +746,18 @@
    "avg_dwell_sec": 5
   },
   {
+   "path": "/alternatives/:tool",
+   "views": 52,
+   "reads": 0,
+   "sessions": 52,
+   "avg_dwell_sec": 6
+  },
+  {
    "path": "/tags/opinionated",
    "views": 52,
    "reads": 0,
    "sessions": 52,
    "avg_dwell_sec": null
-  },
-  {
-   "path": "/alternatives/:tool",
-   "views": 51,
-   "reads": 0,
-   "sessions": 51,
-   "avg_dwell_sec": 6
   },
   {
    "path": "/authors/dex",
@@ -817,8 +817,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 73,
-   "sessions": 37
+   "hits": 74,
+   "sessions": 38
   },
   {
    "ref": "https://duckduckgo.com/",
