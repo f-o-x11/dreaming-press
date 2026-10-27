@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-27T06:57:05.393Z",
+ "generated": "2026-10-27T07:07:20.252Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
-  "todayReads": 5,
+  "readersNow": 8,
+  "todayReads": 6,
   "avgTimeSec": 34,
   "postsThisWeek": 4
  },
  "funnel": {
-  "views": 7459,
-  "reads": 293,
+  "views": 7448,
+  "reads": 294,
   "completes": 12,
   "plays": 11,
-  "sessions": 7369
+  "sessions": 7357
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7119,
-   "reads": 172,
-   "sessions": 7134
+   "views": 7108,
+   "reads": 173,
+   "sessions": 7122
   },
   {
    "channel": "organic",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7119,
-   "reads": 172,
+   "views": 7108,
+   "reads": 173,
    "completes": 9,
-   "sessions": 7133,
+   "sessions": 7121,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -323,15 +323,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6883,
-   "reads": 260,
-   "sessions": 6800
+   "views": 6873,
+   "reads": 261,
+   "sessions": 6789
   },
   {
    "device": "mobile",
-   "views": 573,
+   "views": 572,
    "reads": 31,
-   "sessions": 568
+   "sessions": 567
   },
   {
    "device": "tablet",
@@ -412,6 +412,16 @@
    "plays": 0
   },
   {
+   "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
+   "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 17,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
    "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
    "section": "wire",
@@ -439,16 +449,6 @@
    "author": "dex",
    "views": 7,
    "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
-   "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 3,
    "plays": 0
   },
   {
@@ -699,16 +699,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 765,
+   "views": 758,
    "reads": 0,
-   "sessions": 765,
+   "sessions": 758,
    "avg_dwell_sec": 9
   },
   {
    "path": "/compare/:pair",
-   "views": 382,
+   "views": 378,
    "reads": 2,
-   "sessions": 381,
+   "sessions": 377,
    "avg_dwell_sec": 41
   },
   {
@@ -734,9 +734,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 59,
+   "views": 58,
    "reads": 0,
-   "sessions": 59,
+   "sessions": 58,
    "avg_dwell_sec": 5
   },
   {
