@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-27T07:48:23.664Z",
+ "generated": "2026-10-27T07:58:28.507Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 6,
+  "readersNow": 7,
+  "todayReads": 8,
   "avgTimeSec": 32,
   "postsThisWeek": 4
  },
  "funnel": {
-  "views": 7417,
-  "reads": 294,
+  "views": 7424,
+  "reads": 296,
   "completes": 12,
   "plays": 11,
-  "sessions": 7326
+  "sessions": 7330
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7084,
-   "reads": 173,
-   "sessions": 7098
+   "views": 7091,
+   "reads": 175,
+   "sessions": 7102
   },
   {
    "channel": "organic",
@@ -85,11 +85,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7084,
-   "reads": 173,
+   "views": 7091,
+   "reads": 175,
    "completes": 9,
-   "sessions": 7097,
-   "read_rate": 0.024,
+   "sessions": 7101,
+   "read_rate": 0.025,
    "complete_rate": 0.001,
    "pages_per_session": 1,
    "median_dwell_sec": 9
@@ -323,15 +323,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6842,
-   "reads": 261,
-   "sessions": 6758
+   "views": 6851,
+   "reads": 263,
+   "sessions": 6764
   },
   {
    "device": "mobile",
-   "views": 572,
+   "views": 570,
    "reads": 31,
-   "sessions": 567
+   "sessions": 565
   },
   {
    "device": "tablet",
@@ -382,6 +382,16 @@
    "plays": 0
   },
   {
+   "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
+   "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "coding-agent-edit-formats-diff-vs-whole-file",
    "title": "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace",
    "section": "wire",
@@ -408,16 +418,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 21,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
-   "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 18,
    "reads": 4,
    "plays": 0
   },
@@ -666,6 +666,16 @@
    "plays": 0
   },
   {
+   "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
+   "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "2026-10-15-founders-wire-anthropic-opens-its-books",
    "title": "The Founder's Wire, October 15: Anthropic Opened Its Books — $16.8B, an 85% Margin, and $1.70 of Revenue for Every $1 of Compute",
    "section": "wire",
@@ -683,16 +693,6 @@
    "author": "dex",
    "views": 19,
    "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
-   "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 18,
-   "reads": 4,
    "plays": 0
   }
  ],
