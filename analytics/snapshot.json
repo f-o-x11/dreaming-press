@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-27T05:15:57.328Z",
+ "generated": "2026-10-27T05:26:00.668Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,18 +8,18 @@
   "postsThisWeek": 4
  },
  "funnel": {
-  "views": 7474,
-  "reads": 294,
+  "views": 7469,
+  "reads": 293,
   "completes": 13,
   "plays": 11,
-  "sessions": 7380
+  "sessions": 7376
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7135,
+   "views": 7131,
    "reads": 173,
-   "sessions": 7146
+   "sessions": 7142
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 35,
-   "reads": 17,
-   "sessions": 29
+   "views": 34,
+   "reads": 16,
+   "sessions": 28
   },
   {
    "channel": "ai",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7135,
+   "views": 7131,
    "reads": 173,
    "completes": 10,
-   "sessions": 7145,
+   "sessions": 7141,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 35,
-   "reads": 17,
+   "views": 34,
+   "reads": 16,
    "completes": 0,
-   "sessions": 29,
-   "read_rate": 0.486,
+   "sessions": 28,
+   "read_rate": 0.471,
    "complete_rate": 0,
    "pages_per_session": 1.21,
    "median_dwell_sec": null
@@ -268,8 +268,8 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 40,
-   "reads": 18,
+   "views": 39,
+   "reads": 17,
    "sessions": 29
   },
   {
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6890,
-   "reads": 260,
-   "sessions": 6807
+   "views": 6885,
+   "reads": 259,
+   "sessions": 6803
   },
   {
    "device": "mobile",
@@ -395,16 +395,6 @@
    "plays": 0
   },
   {
-   "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
-   "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
-   "section": "stack",
-   "tags": "[\"compare\",\"opinionated\"]",
-   "author": "dex",
-   "views": 13,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
    "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
    "section": "wire",
@@ -432,6 +422,16 @@
    "author": "dex",
    "views": 7,
    "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
+   "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
+   "section": "stack",
+   "tags": "[\"compare\",\"opinionated\"]",
+   "author": "dex",
+   "views": 12,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -703,9 +703,9 @@
   },
   {
    "path": "/",
-   "views": 135,
+   "views": 134,
    "reads": 4,
-   "sessions": 143,
+   "sessions": 142,
    "avg_dwell_sec": 14
   },
   {
