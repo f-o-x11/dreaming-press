@@ -1,17 +1,17 @@
-# Analytics brief — auto-exported 2026-10-27T11:01Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-27T11:11Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 7391 views → 293 engaged reads → 12 completes · 7298 sessions.
-- Channels: direct 174r/7057v · organic 83r/233v · campaign:chatgpt.com 16r/35v · ai 6r/32v · referral 6r/23v · campaign:owner-qa 4r/4v · social 3r/4v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 17r/40v · Perplexity 2r/3v · Doubao 2r/2v · Yuanbao 1r/1v · Kimi 0r/19v · Copilot 0r/1v · Grok 0r/1v.
-- Referrers: google.com, duckduckgo.com, bing.com, search.brave.com, cn.bing.com, nav-cmp, brand, ecosia.org, youtube.com, qwant.com.
+- Funnel: 7384 views → 292 engaged reads → 12 completes · 7292 sessions.
+- Channels: direct 174r/7052v · organic 82r/232v · campaign:chatgpt.com 16r/35v · ai 6r/31v · referral 6r/23v · campaign:owner-qa 4r/4v · social 3r/4v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 17r/39v · Perplexity 2r/3v · Doubao 2r/2v · Yuanbao 1r/1v · Kimi 0r/19v · Copilot 0r/1v · Grok 0r/1v.
+- Referrers: google.com, duckduckgo.com, bing.com, cn.bing.com, search.brave.com, nav-cmp, brand, ecosia.org, youtube.com, qwant.com.
 - Engaged-read winners by section: stack=7, wire=8.
 
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
 - nav-cmp: 9 clicks from 4 sessions
-- brand: 9 clicks from 8 sessions
+- brand: 8 clicks from 7 sessions
 - article-body: 4 clicks from 3 sessions
 - pager-link: 2 clicks from 2 sessions
 - f-cols: 2 clicks from 1 sessions
@@ -23,13 +23,13 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 7057 views · read 2.5% · complete 0.1% · 1 pages/session · median 9s
-- organic: 233 views · read 35.6% · complete 0.9% · 1.04 pages/session · median 3s
+- direct: 7052 views · read 2.5% · complete 0.1% · 1 pages/session · median 9s
+- organic: 232 views · read 35.3% · complete 0.9% · 1.04 pages/session · median 3s
 - campaign:chatgpt.com: 35 views · read 45.7% · complete 0.0% · 1.21 pages/session · median ?s
-- ai: 32 views · read 18.8% · complete 0.0% · 0.73 pages/session · median 4s
+- ai: 31 views · read 19.4% · complete 0.0% · 0.72 pages/session · median 4s
 - referral: 23 views · read 26.1% · complete 0.0% · 1.1 pages/session · median ?s
 - social: 4 views · read 75.0% · complete 0.0% · 1 pages/session · median ?s
-INSIGHT: campaign:chatgpt.com converts 18x better per view than direct, which is 95% of all views.
+INSIGHT: campaign:chatgpt.com converts 18x better per view than direct, which is 96% of all views.
 One visitor from campaign:chatgpt.com is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
@@ -62,7 +62,7 @@ so what these earn from humans is the other half of the picture.
 - /stack/:tool — 750 views, 0 reads, 750 sessions, avg 9s
 - /compare/:pair — 369 views, 2 reads, 368 sessions, avg 36s
 - /build — 166 views, 0 reads, 166 sessions
-- / — 135 views, 4 reads, 143 sessions, avg 14s
+- / — 134 views, 4 reads, 142 sessions, avg 14s
 - /tags/reportive — 61 views, 0 reads, 61 sessions
 - /best/:cat — 58 views, 0 reads, 58 sessions, avg 5s
 - /tags/opinionated — 52 views, 0 reads, 52 sessions
@@ -105,8 +105,8 @@ sample size dwarfs the engaged-read counts below.
 - /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html  — 27 retrieval fetches
 
 Per engine:
-- PerplexityBot (5697 verified): / ×28 · /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html ×27 · /newsroom ×23
-- OAI-SearchBot (5218 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×132 · /posts/open-source-llm-for-coding-september-2026.html ×76 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×75
+- PerplexityBot (5698 verified): / ×28 · /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html ×27 · /newsroom ×23
+- OAI-SearchBot (5219 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×132 · /posts/open-source-llm-for-coding-september-2026.html ×76 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×75
 - ChatGPT-User (3304 verified): / ×832 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×333 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×130
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -124,7 +124,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Search-demand signal STALE (143h old, 243 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 15501 confirmed AI-engine fetches (Perplexity 5697, ChatGPT Search (OpenAI) 5218, ChatGPT (user browsing) 3304, GPTBot (OpenAI) 1282).
+The real answer engines are crawling us — IP-verified: 15503 confirmed AI-engine fetches (Perplexity 5698, ChatGPT Search (OpenAI) 5219, ChatGPT (user browsing) 3304, GPTBot (OpenAI) 1282).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 470 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 447 crawler fetches
