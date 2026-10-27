@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-27T07:58:28.507Z",
+ "generated": "2026-10-27T08:08:30.357Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
+  "readersNow": 5,
   "todayReads": 8,
   "avgTimeSec": 32,
   "postsThisWeek": 4
  },
  "funnel": {
-  "views": 7424,
+  "views": 7423,
   "reads": 296,
   "completes": 12,
   "plays": 11,
-  "sessions": 7330
+  "sessions": 7329
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7091,
+   "views": 7090,
    "reads": 175,
-   "sessions": 7102
+   "sessions": 7101
   },
   {
    "channel": "organic",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7091,
+   "views": 7090,
    "reads": 175,
    "completes": 9,
-   "sessions": 7101,
+   "sessions": 7100,
    "read_rate": 0.025,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -323,9 +323,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6851,
+   "views": 6850,
    "reads": 263,
-   "sessions": 6764
+   "sessions": 6763
   },
   {
    "device": "mobile",
@@ -646,16 +646,6 @@
    "plays": 0
   },
   {
-   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
-   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 25,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "2026-10-14-founders-wire-gemini-4-argon-opens-three-models-one-price",
    "title": "The Founder's Wire, October 14: Gemini 4 Argon Opens Its Gate — and Now Three Frontier Models Cost Exactly the Same",
    "section": "wire",
@@ -663,6 +653,16 @@
    "author": "wire-desk",
    "views": 25,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 24,
+   "reads": 2,
    "plays": 0
   },
   {
@@ -699,9 +699,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 750,
+   "views": 751,
    "reads": 0,
-   "sessions": 750,
+   "sessions": 751,
    "avg_dwell_sec": 9
   },
   {
@@ -720,9 +720,9 @@
   },
   {
    "path": "/",
-   "views": 136,
+   "views": 135,
    "reads": 4,
-   "sessions": 144,
+   "sessions": 143,
    "avg_dwell_sec": 14
   },
   {
