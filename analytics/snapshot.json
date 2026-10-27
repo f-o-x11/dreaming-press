@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-27T14:08:36.389Z",
+ "generated": "2026-10-27T14:18:36.349Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 1,
   "todayReads": 11,
   "avgTimeSec": 19,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 7416,
-  "reads": 287,
+  "views": 7414,
+  "reads": 286,
   "completes": 12,
   "plays": 11,
-  "sessions": 7327
+  "sessions": 7326
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7090,
+   "views": 7089,
    "reads": 172,
-   "sessions": 7100
+   "sessions": 7099
   },
   {
    "channel": "organic",
-   "views": 226,
-   "reads": 79,
-   "sessions": 219
+   "views": 225,
+   "reads": 78,
+   "sessions": 218
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7090,
+   "views": 7089,
    "reads": 172,
    "completes": 9,
-   "sessions": 7099,
+   "sessions": 7098,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,11 +96,11 @@
   },
   {
    "channel": "organic",
-   "views": 226,
-   "reads": 79,
+   "views": 225,
+   "reads": 78,
    "completes": 2,
-   "sessions": 219,
-   "read_rate": 0.35,
+   "sessions": 218,
+   "read_rate": 0.347,
    "complete_rate": 0.009,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -329,9 +329,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6833,
-   "reads": 256,
-   "sessions": 6750
+   "views": 6831,
+   "reads": 255,
+   "sessions": 6749
   },
   {
    "device": "mobile",
@@ -550,21 +550,21 @@
    "plays": 1
   },
   {
-   "slug": "text-to-sql-vanna-vs-wrenai-vs-dataherald",
-   "title": "Text-to-SQL for Agents: Vanna vs WrenAI vs Dataherald",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 3,
-   "reads": 1,
-   "plays": 1
-  },
-  {
    "slug": "how-to-show-users-what-your-ai-agent-is-doing",
    "title": "How to Show Users What Your AI Agent Is Doing Right Now",
    "section": "stack",
    "tags": "[\"reportive\",\"captivating\"]",
    "author": "rosalinda",
+   "views": 2,
+   "reads": 1,
+   "plays": 1
+  },
+  {
+   "slug": "text-to-sql-vanna-vs-wrenai-vs-dataherald",
+   "title": "Text-to-SQL for Agents: Vanna vs WrenAI vs Dataherald",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
    "views": 2,
    "reads": 1,
    "plays": 1
@@ -816,14 +816,14 @@
    "sessions": 109
   },
   {
-   "ref": "https://www.bing.com/",
-   "hits": 73,
-   "sessions": 37
-  },
-  {
    "ref": "https://duckduckgo.com/",
    "hits": 72,
    "sessions": 42
+  },
+  {
+   "ref": "https://www.bing.com/",
+   "hits": 71,
+   "sessions": 36
   },
   {
    "ref": "https://search.brave.com/",
