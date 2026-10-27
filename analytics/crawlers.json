@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-27T05:05:56.913Z",
+ "generated": "2026-10-27T05:15:57.064Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15347,
+ "verifiedAiHits": 15356,
  "logsScanned": 30,
  "windowStart": "2026-10-13",
  "windowEnd": "2026-10-27",
- "totalHits": 104888,
- "aiHits": 82105,
+ "totalHits": 104923,
+ "aiHits": 82126,
  "aiEngines": 16,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14265,
+   "hits": 14269,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14087,
+   "hits": 14095,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8657,
+   "hits": 8658,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6652,
-   "verifiedHits": 6588,
+   "hits": 6656,
+   "verifiedHits": 6592,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5178,
-   "verifiedHits": 5127,
+   "hits": 5184,
+   "verifiedHits": 5133,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3926,
+   "hits": 3935,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3366,
-   "verifiedHits": 3255,
+   "hits": 3369,
+   "verifiedHits": 3258,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
@@ -301,7 +301,7 @@
     },
     {
      "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
-     "hits": 97
+     "hits": 98
     }
    ],
    "verifiable": true
