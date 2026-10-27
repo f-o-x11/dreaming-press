@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-27T05:56:12.589Z",
+ "generated": "2026-10-27T06:06:20.230Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 5,
   "todayReads": 3,
   "avgTimeSec": 37,
   "postsThisWeek": 4
  },
  "funnel": {
-  "views": 7459,
-  "reads": 294,
+  "views": 7452,
+  "reads": 293,
   "completes": 13,
   "plays": 11,
-  "sessions": 7369
+  "sessions": 7363
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7119,
-   "reads": 173,
-   "sessions": 7134
+   "views": 7112,
+   "reads": 172,
+   "sessions": 7128
   },
   {
    "channel": "organic",
@@ -79,16 +79,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 24
+   "sessions": 23
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7119,
-   "reads": 173,
+   "views": 7112,
+   "reads": 172,
    "completes": 10,
-   "sessions": 7133,
+   "sessions": 7127,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -198,7 +198,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 24,
+   "sessions": 23,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -208,8 +208,8 @@
  "navSurfaces": [
   {
    "surface": "nav-cmp",
-   "clicks": 10,
-   "sessions": 5
+   "clicks": 9,
+   "sessions": 4
   },
   {
    "surface": "brand",
@@ -222,11 +222,6 @@
    "sessions": 3
   },
   {
-   "surface": "dg-title",
-   "clicks": 3,
-   "sessions": 3
-  },
-  {
    "surface": "pager-link",
    "clicks": 2,
    "sessions": 2
@@ -235,6 +230,11 @@
    "surface": "f-cols",
    "clicks": 2,
    "sessions": 1
+  },
+  {
+   "surface": "dg-title",
+   "clicks": 2,
+   "sessions": 2
   },
   {
    "surface": "dg-lead-img",
@@ -323,15 +323,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6881,
+   "views": 6876,
    "reads": 260,
-   "sessions": 6799
+   "sessions": 6794
   },
   {
    "device": "mobile",
-   "views": 575,
-   "reads": 32,
-   "sessions": 569
+   "views": 573,
+   "reads": 31,
+   "sessions": 568
   },
   {
    "device": "tablet",
@@ -762,9 +762,9 @@
   },
   {
    "path": "/stack.html",
-   "views": 32,
+   "views": 31,
    "reads": 0,
-   "sessions": 32,
+   "sessions": 31,
    "avg_dwell_sec": 14
   },
   {
@@ -831,8 +831,8 @@
   },
   {
    "ref": "nav-cmp",
-   "hits": 10,
-   "sessions": 5
+   "hits": 9,
+   "sessions": 4
   },
   {
    "ref": "brand",
