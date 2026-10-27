@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-27T01:53:36.401Z",
+ "generated": "2026-10-27T02:03:35.907Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15180,
+ "verifiedAiHits": 15191,
  "logsScanned": 30,
  "windowStart": "2026-10-13",
  "windowEnd": "2026-10-27",
- "totalHits": 103826,
- "aiHits": 81229,
+ "totalHits": 103884,
+ "aiHits": 81261,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31167,
+   "hits": 31177,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14202,
+   "hits": 14207,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13950,
+   "hits": 13956,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8620,
+   "hits": 8622,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6577,
-   "verifiedHits": 6513,
+   "hits": 6585,
+   "verifiedHits": 6521,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5067,
-   "verifiedHits": 5016,
+   "hits": 5078,
+   "verifiedHits": 5027,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
@@ -222,20 +222,20 @@
      "hits": 128
     },
     {
+     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
+     "hits": 75
+    },
+    {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
      "hits": 74
     },
     {
-     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 74
+     "path": "/posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html",
+     "hits": 58
     },
     {
      "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
      "hits": 58
-    },
-    {
-     "path": "/posts/gpu-rental-price-map-h100-h200-b200-august-2026.html",
-     "hits": 57
     }
    ],
    "verifiable": true
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3866,
+   "hits": 3882,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
