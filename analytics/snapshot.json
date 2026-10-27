@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-27T18:02:50.663Z",
+ "generated": "2026-10-27T18:13:00.566Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 16,
+  "readersNow": 1,
+  "todayReads": 17,
   "avgTimeSec": 19,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 7401,
-  "reads": 289,
+  "views": 7403,
+  "reads": 290,
   "completes": 12,
   "plays": 10,
-  "sessions": 7311
+  "sessions": 7312
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7072,
-   "reads": 173,
-   "sessions": 7082
+   "views": 7074,
+   "reads": 174,
+   "sessions": 7083
   },
   {
    "channel": "organic",
@@ -85,11 +85,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7072,
-   "reads": 173,
+   "views": 7074,
+   "reads": 174,
    "completes": 9,
-   "sessions": 7081,
-   "read_rate": 0.024,
+   "sessions": 7082,
+   "read_rate": 0.025,
    "complete_rate": 0.001,
    "pages_per_session": 1,
    "median_dwell_sec": 8
@@ -329,9 +329,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6821,
-   "reads": 258,
-   "sessions": 6737
+   "views": 6823,
+   "reads": 259,
+   "sessions": 6738
   },
   {
    "device": "mobile",
@@ -378,22 +378,22 @@
    "plays": 1
   },
   {
+   "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
+   "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 26,
+   "reads": 8,
+   "plays": 0
+  },
+  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 31,
-   "reads": 7,
-   "plays": 0
-  },
-  {
-   "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
-   "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 24,
    "reads": 7,
    "plays": 0
   },
@@ -642,6 +642,16 @@
    "plays": 0
   },
   {
+   "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
+   "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 26,
+   "reads": 8,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
    "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
    "section": "stack",
@@ -659,16 +669,6 @@
    "author": "wire-desk",
    "views": 25,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
-   "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 24,
-   "reads": 7,
    "plays": 0
   },
   {
