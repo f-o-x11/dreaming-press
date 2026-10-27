@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-27T15:19:20.210Z",
+ "generated": "2026-10-27T15:29:40.569Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 12,
+  "readersNow": 7,
   "todayReads": 15,
-  "avgTimeSec": 19,
+  "avgTimeSec": 20,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 7432,
+  "views": 7434,
   "reads": 289,
   "completes": 12,
   "plays": 10,
-  "sessions": 7343
+  "sessions": 7345
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7105,
+   "views": 7106,
    "reads": 173,
-   "sessions": 7115
+   "sessions": 7117
   },
   {
    "channel": "organic",
-   "views": 227,
+   "views": 228,
    "reads": 80,
-   "sessions": 220
+   "sessions": 221
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7105,
+   "views": 7106,
    "reads": 173,
    "completes": 9,
-   "sessions": 7114,
+   "sessions": 7116,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,11 +96,11 @@
   },
   {
    "channel": "organic",
-   "views": 227,
+   "views": 228,
    "reads": 80,
    "completes": 2,
-   "sessions": 220,
-   "read_rate": 0.352,
+   "sessions": 221,
+   "read_rate": 0.351,
    "complete_rate": 0.009,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -329,15 +329,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6853,
+   "views": 6854,
    "reads": 258,
-   "sessions": 6770
+   "sessions": 6771
   },
   {
    "device": "mobile",
-   "views": 576,
+   "views": 577,
    "reads": 29,
-   "sessions": 572
+   "sessions": 573
   },
   {
    "device": "tablet",
@@ -363,7 +363,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 36,
+   "views": 37,
    "reads": 15,
    "plays": 0
   },
@@ -627,7 +627,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 36,
+   "views": 37,
    "reads": 15,
    "plays": 0
   },
@@ -822,8 +822,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 72,
-   "sessions": 42
+   "hits": 73,
+   "sessions": 43
   },
   {
    "ref": "https://search.brave.com/",
