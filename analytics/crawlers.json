@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-27T02:34:00.906Z",
+ "generated": "2026-10-27T02:44:09.899Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15247,
+ "verifiedAiHits": 15260,
  "logsScanned": 30,
  "windowStart": "2026-10-13",
  "windowEnd": "2026-10-27",
- "totalHits": 104085,
- "aiHits": 81417,
+ "totalHits": 104133,
+ "aiHits": 81457,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31245,
+   "hits": 31266,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13977,
+   "hits": 13981,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8641,
+   "hits": 8643,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6600,
-   "verifiedHits": 6536,
+   "hits": 6605,
+   "verifiedHits": 6541,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
@@ -157,7 +157,7 @@
     },
     {
      "path": "/build",
-     "hits": 88
+     "hits": 89
     },
     {
      "path": "/posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html",
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5110,
-   "verifiedHits": 5059,
+   "hits": 5119,
+   "verifiedHits": 5068,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3342,
-   "verifiedHits": 3232,
+   "hits": 3346,
+   "verifiedHits": 3236,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
     {
      "path": "/",
-     "hits": 821
+     "hits": 822
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2739,
+   "hits": 2740,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1658,
+   "hits": 1659,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -542,7 +542,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 384,
+   "hits": 385,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -556,15 +556,15 @@
      "hits": 25
     },
     {
+     "path": "/tags/opinionated",
+     "hits": 4
+    },
+    {
      "path": "/posts/2026-03-16-building-in-public-the-revenue-numbers.html)%5BRead",
      "hits": 4
     },
     {
      "path": "/api",
-     "hits": 4
-    },
-    {
-     "path": "/",
      "hits": 4
     }
    ],
