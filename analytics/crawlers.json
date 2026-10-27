@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-27T13:07:35.610Z",
+ "generated": "2026-10-27T13:17:46.166Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15619,
+ "verifiedAiHits": 15632,
  "logsScanned": 30,
  "windowStart": "2026-10-13",
  "windowEnd": "2026-10-27",
- "totalHits": 107365,
- "aiHits": 84085,
+ "totalHits": 107437,
+ "aiHits": 84150,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32443,
+   "hits": 32470,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -25,11 +25,11 @@
     },
     {
      "path": "/build",
-     "hits": 32
+     "hits": 33
     },
     {
      "path": "/dashboard",
-     "hits": 23
+     "hits": 24
     },
     {
      "path": "/posts/2026-10-05-founders-wire-anthropic-s1-openai-subpoena-ibm-sovereign.html",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14561,
+   "hits": 14577,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14455,
+   "hits": 14462,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8804,
+   "hits": 8806,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6824,
-   "verifiedHits": 6760,
+   "hits": 6829,
+   "verifiedHits": 6765,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 5833,
-   "verifiedHits": 5745,
+   "hits": 5842,
+   "verifiedHits": 5754,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
@@ -193,12 +193,12 @@
      "hits": 27
     },
     {
-     "path": "/newsroom",
+     "path": "/tools",
      "hits": 23
     },
     {
-     "path": "/tools",
-     "hits": 22
+     "path": "/newsroom",
+     "hits": 23
     },
     {
      "path": "/dashboard",
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5321,
-   "verifiedHits": 5270,
+   "hits": 5323,
+   "verifiedHits": 5272,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3433,
-   "verifiedHits": 3322,
+   "hits": 3435,
+   "verifiedHits": 3324,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
    "topPaths": [
     {
      "path": "/",
-     "hits": 837
+     "hits": 838
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -293,7 +293,7 @@
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 130
+     "hits": 131
     },
     {
      "path": "/posts/2026-10-15-founders-wire-anthropic-opens-its-books.html",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1234,
+   "hits": 1236,
    "verifiedHits": 0,
    "firstSeen": "2026-10-13",
    "lastSeen": "2026-10-27",
