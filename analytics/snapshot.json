@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-27T13:17:46.426Z",
+ "generated": "2026-10-27T13:27:50.846Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 13,
   "todayReads": 10,
-  "avgTimeSec": 20,
+  "avgTimeSec": 19,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 7404,
-  "reads": 288,
+  "views": 7412,
+  "reads": 287,
   "completes": 12,
   "plays": 11,
-  "sessions": 7314
+  "sessions": 7323
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7076,
+   "views": 7085,
    "reads": 171,
-   "sessions": 7085
+   "sessions": 7095
   },
   {
    "channel": "organic",
-   "views": 228,
-   "reads": 81,
-   "sessions": 221
+   "views": 227,
+   "reads": 80,
+   "sessions": 220
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7076,
+   "views": 7085,
    "reads": 171,
    "completes": 9,
-   "sessions": 7084,
+   "sessions": 7094,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,11 +96,11 @@
   },
   {
    "channel": "organic",
-   "views": 228,
-   "reads": 81,
+   "views": 227,
+   "reads": 80,
    "completes": 2,
-   "sessions": 221,
-   "read_rate": 0.355,
+   "sessions": 220,
+   "read_rate": 0.352,
    "complete_rate": 0.009,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -329,9 +329,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6823,
-   "reads": 257,
-   "sessions": 6739
+   "views": 6831,
+   "reads": 256,
+   "sessions": 6748
   },
   {
    "device": "mobile",
@@ -363,8 +363,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 37,
-   "reads": 16,
+   "views": 36,
+   "reads": 15,
    "plays": 0
   },
   {
@@ -627,8 +627,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 37,
-   "reads": 16,
+   "views": 36,
+   "reads": 15,
    "plays": 0
   },
   {
@@ -846,11 +846,6 @@
    "sessions": 7
   },
   {
-   "ref": "https://www.ecosia.org/",
-   "hits": 7,
-   "sessions": 5
-  },
-  {
    "ref": "https://www.youtube.com/",
    "hits": 6,
    "sessions": 4
@@ -858,6 +853,11 @@
   {
    "ref": "https://www.qwant.com/",
    "hits": 6,
+   "sessions": 3
+  },
+  {
+   "ref": "https://www.perplexity.ai/",
+   "hits": 5,
    "sessions": 3
   }
  ]
