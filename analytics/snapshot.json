@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-28T07:13:00.470Z",
+ "generated": "2026-10-28T07:23:10.873Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
   "todayReads": 3,
-  "avgTimeSec": 14,
+  "avgTimeSec": 13,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7330,
+  "views": 7329,
   "reads": 276,
   "completes": 8,
   "plays": 9,
-  "sessions": 7238
+  "sessions": 7237
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7005,
+   "views": 7003,
    "reads": 166,
-   "sessions": 7012
+   "sessions": 7010
   },
   {
    "channel": "organic",
-   "views": 227,
+   "views": 228,
    "reads": 76,
-   "sessions": 220
+   "sessions": 221
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7005,
+   "views": 7003,
    "reads": 166,
    "completes": 5,
-   "sessions": 7011,
+   "sessions": 7009,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,11 +96,11 @@
   },
   {
    "channel": "organic",
-   "views": 227,
+   "views": 228,
    "reads": 76,
    "completes": 2,
-   "sessions": 220,
-   "read_rate": 0.335,
+   "sessions": 221,
+   "read_rate": 0.333,
    "complete_rate": 0.009,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -329,9 +329,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6764,
+   "views": 6763,
    "reads": 245,
-   "sessions": 6683
+   "sessions": 6682
   },
   {
    "device": "mobile",
@@ -353,7 +353,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 145,
+   "views": 143,
    "reads": 36,
    "plays": 1
   },
@@ -515,7 +515,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 145,
+   "views": 143,
    "reads": 36,
    "plays": 1
   },
@@ -607,7 +607,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 145,
+   "views": 143,
    "reads": 36,
    "plays": 1
   },
@@ -637,7 +637,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 32,
+   "views": 33,
    "reads": 1,
    "plays": 0
   },
@@ -812,8 +812,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 127,
-   "sessions": 111
+   "hits": 128,
+   "sessions": 112
   },
   {
    "ref": "https://www.bing.com/",
