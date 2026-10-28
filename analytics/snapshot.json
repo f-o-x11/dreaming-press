@@ -1,23 +1,23 @@
 {
- "generated": "2026-10-28T14:20:06.566Z",
+ "generated": "2026-10-28T14:30:08.586Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 9,
   "todayReads": 8,
   "avgTimeSec": 29,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7358,
+  "views": 7364,
   "reads": 273,
   "completes": 8,
   "plays": 9,
-  "sessions": 7266
+  "sessions": 7272
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6998,
+   "views": 6997,
    "reads": 164,
    "sessions": 7001
   },
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 66,
+   "views": 72,
    "reads": 5,
-   "sessions": 64
+   "sessions": 70
   },
   {
    "channel": "campaign:owner-qa",
@@ -53,9 +53,9 @@
   },
   {
    "channel": "social",
-   "views": 4,
+   "views": 5,
    "reads": 3,
-   "sessions": 4
+   "sessions": 5
   },
   {
    "channel": "campaign:perplexity",
@@ -85,7 +85,7 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6998,
+   "views": 6997,
    "reads": 164,
    "completes": 5,
    "sessions": 7000,
@@ -107,11 +107,11 @@
   },
   {
    "channel": "referral",
-   "views": 66,
+   "views": 72,
    "reads": 5,
    "completes": 0,
-   "sessions": 64,
-   "read_rate": 0.076,
+   "sessions": 70,
+   "read_rate": 0.069,
    "complete_rate": 0,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -140,11 +140,11 @@
   },
   {
    "channel": "social",
-   "views": 4,
+   "views": 5,
    "reads": 3,
    "completes": 0,
-   "sessions": 4,
-   "read_rate": 0.75,
+   "sessions": 5,
+   "read_rate": 0.6,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -323,9 +323,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6797,
+   "views": 6803,
    "reads": 242,
-   "sessions": 6717
+   "sessions": 6723
   },
   {
    "device": "mobile",
@@ -357,7 +357,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 35,
+   "views": 36,
    "reads": 14,
    "plays": 0
   },
@@ -579,7 +579,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 35,
+   "views": 36,
    "reads": 14,
    "plays": 0
   },
@@ -621,7 +621,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 35,
+   "views": 36,
    "reads": 14,
    "plays": 0
   },
@@ -821,8 +821,8 @@
   },
   {
    "ref": "https://www.aocr.org/",
-   "hits": 43,
-   "sessions": 43
+   "hits": 49,
+   "sessions": 49
   },
   {
    "ref": "https://cn.bing.com/",
@@ -840,6 +840,11 @@
    "sessions": 3
   },
   {
+   "ref": "https://www.qwant.com/",
+   "hits": 7,
+   "sessions": 4
+  },
+  {
    "ref": "brand",
    "hits": 7,
    "sessions": 6
@@ -848,11 +853,6 @@
    "ref": "https://www.youtube.com/",
    "hits": 6,
    "sessions": 4
-  },
-  {
-   "ref": "https://www.qwant.com/",
-   "hits": 6,
-   "sessions": 3
   }
  ]
 }
