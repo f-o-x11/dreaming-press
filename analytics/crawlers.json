@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-28T17:43:50.489Z",
+ "generated": "2026-10-28T17:54:00.394Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16662,
+ "verifiedAiHits": 17850,
  "logsScanned": 30,
  "windowStart": "2026-10-14",
  "windowEnd": "2026-10-28",
- "totalHits": 108990,
- "aiHits": 85703,
+ "totalHits": 110227,
+ "aiHits": 86926,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32382,
+   "hits": 32409,
    "verifiedHits": 0,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14680,
+   "hits": 14687,
    "verifiedHits": 0,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8877,
+   "hits": 8882,
    "verifiedHits": 0,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6884,
-   "verifiedHits": 6821,
+   "hits": 6889,
+   "verifiedHits": 6826,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
    "topPaths": [
@@ -274,6 +274,39 @@
    "verifiable": false
   },
   {
+   "name": "GPTBot",
+   "label": "GPTBot (OpenAI)",
+   "category": "ai",
+   "home": "https://openai.com/gptbot",
+   "hits": 3804,
+   "verifiedHits": 3754,
+   "firstSeen": "2026-10-14",
+   "lastSeen": "2026-10-28",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 51
+    },
+    {
+     "path": "/tags/howto",
+     "hits": 7
+    },
+    {
+     "path": "/posts/mcp-2026-spec-security-new-attack-surfaces.md",
+     "hits": 3
+    },
+    {
+     "path": "/posts/mcp-server-ssrf-cloud-metadata-credentials.md",
+     "hits": 3
+    },
+    {
+     "path": "/posts/2026-06-20-the-confidence-interval-ate-the-leaderboard.html",
+     "hits": 3
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "ChatGPT-User",
    "label": "ChatGPT (user browsing)",
    "category": "ai",
@@ -307,44 +340,11 @@
    "verifiable": true
   },
   {
-   "name": "GPTBot",
-   "label": "GPTBot (OpenAI)",
-   "category": "ai",
-   "home": "https://openai.com/gptbot",
-   "hits": 2616,
-   "verifiedHits": 2566,
-   "firstSeen": "2026-10-14",
-   "lastSeen": "2026-10-28",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 21
-    },
-    {
-     "path": "/tags/howto",
-     "hits": 7
-    },
-    {
-     "path": "/posts/mcp-server-ssrf-cloud-metadata-credentials.md",
-     "hits": 3
-    },
-    {
-     "path": "/posts/cursor-vs-windsurf-vs-github-copilot-vs-claude-code.md",
-     "hits": 3
-    },
-    {
-     "path": "/posts/openai-gpt-5-6-sol-optimized-own-kernels-agent-as-performance-engineer.md",
-     "hits": 3
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "Applebot",
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2558,
+   "hits": 2562,
    "verifiedHits": 0,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
@@ -410,7 +410,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1675,
+   "hits": 1676,
    "verifiedHits": 0,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
