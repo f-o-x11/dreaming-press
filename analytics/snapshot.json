@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-28T03:00:17.325Z",
+ "generated": "2026-10-28T03:10:19.710Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 0,
   "avgTimeSec": 17,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7337,
-  "reads": 281,
+  "views": 7331,
+  "reads": 279,
   "completes": 8,
-  "plays": 9,
-  "sessions": 7245
+  "plays": 8,
+  "sessions": 7237
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7011,
+   "views": 7007,
    "reads": 167,
-   "sessions": 7017
+   "sessions": 7010
   },
   {
    "channel": "organic",
-   "views": 228,
-   "reads": 79,
-   "sessions": 221
+   "views": 227,
+   "reads": 78,
+   "sessions": 220
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 30,
-   "reads": 6,
-   "sessions": 42
+   "views": 29,
+   "reads": 5,
+   "sessions": 41
   },
   {
    "channel": "referral",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7011,
+   "views": 7007,
    "reads": 167,
    "completes": 5,
-   "sessions": 7016,
+   "sessions": 7009,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,11 +96,11 @@
   },
   {
    "channel": "organic",
-   "views": 228,
-   "reads": 79,
+   "views": 227,
+   "reads": 78,
    "completes": 2,
-   "sessions": 221,
-   "read_rate": 0.346,
+   "sessions": 220,
+   "read_rate": 0.344,
    "complete_rate": 0.009,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -118,11 +118,11 @@
   },
   {
    "channel": "ai",
-   "views": 30,
-   "reads": 6,
+   "views": 29,
+   "reads": 5,
    "completes": 0,
-   "sessions": 42,
-   "read_rate": 0.2,
+   "sessions": 41,
+   "read_rate": 0.172,
    "complete_rate": 0,
    "pages_per_session": 0.71,
    "median_dwell_sec": 4
@@ -297,9 +297,9 @@
   },
   {
    "assistant": "Doubao",
-   "views": 2,
-   "reads": 2,
-   "sessions": 2
+   "views": 1,
+   "reads": 1,
+   "sessions": 1
   },
   {
    "assistant": "Yuanbao",
@@ -329,15 +329,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6765,
-   "reads": 251,
-   "sessions": 6682
+   "views": 6760,
+   "reads": 249,
+   "sessions": 6677
   },
   {
    "device": "mobile",
-   "views": 570,
+   "views": 569,
    "reads": 29,
-   "sessions": 563
+   "sessions": 560
   },
   {
    "device": "tablet",
@@ -540,16 +540,6 @@
    "plays": 1
   },
   {
-   "slug": "context-engineering-claude-skills-lean-context-2026",
-   "title": "Context Engineering for Claude: How Agent Skills Give Expertise Without Blowing Your Context Window",
-   "section": "stack",
-   "tags": "[\"howto\",\"reportive\"]",
-   "author": "dex",
-   "views": 7,
-   "reads": 1,
-   "plays": 1
-  },
-  {
    "slug": "how-to-show-users-what-your-ai-agent-is-doing",
    "title": "How to Show Users What Your AI Agent Is Doing Right Now",
    "section": "stack",
@@ -597,6 +587,16 @@
    "author": "dex",
    "views": 36,
    "reads": 14,
+   "plays": 0
+  },
+  {
+   "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
+   "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 25,
+   "reads": 8,
    "plays": 0
   }
  ],
@@ -728,7 +728,7 @@
    "path": "/",
    "views": 134,
    "reads": 4,
-   "sessions": 139,
+   "sessions": 137,
    "avg_dwell_sec": 14
   },
   {
@@ -826,13 +826,13 @@
    "sessions": 42
   },
   {
-   "ref": "https://search.brave.com/",
-   "hits": 16,
-   "sessions": 9
-  },
-  {
    "ref": "https://cn.bing.com/",
    "hits": 16,
+   "sessions": 8
+  },
+  {
+   "ref": "https://search.brave.com/",
+   "hits": 13,
    "sessions": 8
   },
   {
