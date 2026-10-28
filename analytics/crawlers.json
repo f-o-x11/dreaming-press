@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-28T01:59:50.546Z",
+ "generated": "2026-10-28T02:10:00.242Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14925,
+ "verifiedAiHits": 14928,
  "logsScanned": 30,
  "windowStart": "2026-10-14",
  "windowEnd": "2026-10-28",
- "totalHits": 103385,
- "aiHits": 81068,
+ "totalHits": 103422,
+ "aiHits": 81095,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30838,
+   "hits": 30856,
    "verifiedHits": 0,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13970,
+   "hits": 13976,
    "verifiedHits": 0,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8595,
+   "hits": 8601,
    "verifiedHits": 0,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6581,
-   "verifiedHits": 6518,
+   "hits": 6585,
+   "verifiedHits": 6522,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
    "topPaths": [
@@ -179,18 +179,18 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 5549,
-   "verifiedHits": 5462,
+   "hits": 5550,
+   "verifiedHits": 5463,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
    "topPaths": [
     {
-     "path": "/",
+     "path": "/posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html",
      "hits": 27
     },
     {
-     "path": "/posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html",
-     "hits": 26
+     "path": "/",
+     "hits": 27
     },
     {
      "path": "/newsroom",
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5122,
-   "verifiedHits": 5071,
+   "hits": 5123,
+   "verifiedHits": 5072,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3221,
-   "verifiedHits": 3112,
+   "hits": 3222,
+   "verifiedHits": 3113,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
    "topPaths": [
