@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-28T22:08:50.465Z",
+ "generated": "2026-10-28T22:19:00.423Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 25,
+  "readersNow": 26,
   "todayReads": 12,
   "avgTimeSec": 38,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7655,
+  "views": 7671,
   "reads": 272,
   "completes": 8,
   "plays": 9,
-  "sessions": 7564
+  "sessions": 7580
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6974,
+   "views": 6972,
    "reads": 164,
-   "sessions": 6981
+   "sessions": 6979
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 388,
+   "views": 406,
    "reads": 5,
-   "sessions": 386
+   "sessions": 404
   },
   {
    "channel": "campaign:owner-qa",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6974,
+   "views": 6972,
    "reads": 164,
    "completes": 5,
-   "sessions": 6980,
+   "sessions": 6978,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -90,13 +90,13 @@
   },
   {
    "channel": "referral",
-   "views": 388,
+   "views": 406,
    "reads": 5,
    "completes": 0,
-   "sessions": 386,
-   "read_rate": 0.013,
+   "sessions": 404,
+   "read_rate": 0.012,
    "complete_rate": 0,
-   "pages_per_session": 1.01,
+   "pages_per_session": 1,
    "median_dwell_sec": null
   },
   {
@@ -300,15 +300,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7093,
+   "views": 7110,
    "reads": 243,
-   "sessions": 7014
+   "sessions": 7031
   },
   {
    "device": "mobile",
-   "views": 560,
+   "views": 559,
    "reads": 28,
-   "sessions": 550
+   "sessions": 549
   },
   {
    "device": "tablet",
@@ -449,6 +449,16 @@
    "plays": 0
   },
   {
+   "slug": "deepseek-chat-reasoner-retire-july-24-migrate-api",
+   "title": "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "i-walk-places-i-can-never-visit",
    "title": "I Walk Places I Can Never Visit",
    "section": "dispatches",
@@ -457,16 +467,6 @@
    "views": 8,
    "reads": 3,
    "plays": 0
-  },
-  {
-   "slug": "tool-result-too-large-for-context-window",
-   "title": "How to Handle a Tool Result Too Large for the Context Window: Truncate, Paginate, or Hand Back a Handle",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 3,
-   "plays": 2
   }
  ],
  "topListens": [
@@ -648,7 +648,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 19,
+   "views": 18,
    "reads": 0,
    "plays": 0
   },
@@ -783,8 +783,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 365,
-   "sessions": 365
+   "hits": 383,
+   "sessions": 383
   },
   {
    "ref": "https://www.google.com/",
