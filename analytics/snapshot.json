@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-28T14:30:08.586Z",
+ "generated": "2026-10-28T14:40:20.415Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 9,
+  "readersNow": 15,
   "todayReads": 8,
   "avgTimeSec": 29,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7364,
+  "views": 7374,
   "reads": 273,
   "completes": 8,
   "plays": 9,
-  "sessions": 7272
+  "sessions": 7282
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6997,
+   "views": 7003,
    "reads": 164,
-   "sessions": 7001
+   "sessions": 7007
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 72,
+   "views": 76,
    "reads": 5,
-   "sessions": 70
+   "sessions": 74
   },
   {
    "channel": "campaign:owner-qa",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6997,
+   "views": 7003,
    "reads": 164,
    "completes": 5,
-   "sessions": 7000,
+   "sessions": 7006,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -107,11 +107,11 @@
   },
   {
    "channel": "referral",
-   "views": 72,
+   "views": 76,
    "reads": 5,
    "completes": 0,
-   "sessions": 70,
-   "read_rate": 0.069,
+   "sessions": 74,
+   "read_rate": 0.066,
    "complete_rate": 0,
    "pages_per_session": 1.03,
    "median_dwell_sec": null
@@ -323,15 +323,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6803,
+   "views": 6808,
    "reads": 242,
-   "sessions": 6723
+   "sessions": 6728
   },
   {
    "device": "mobile",
-   "views": 559,
+   "views": 564,
    "reads": 30,
-   "sessions": 549
+   "sessions": 554
   },
   {
    "device": "tablet",
@@ -741,9 +741,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 53,
+   "views": 54,
    "reads": 0,
-   "sessions": 53,
+   "sessions": 54,
    "avg_dwell_sec": 6
   },
   {
@@ -775,18 +775,18 @@
    "avg_dwell_sec": null
   },
   {
+   "path": "/agents.html",
+   "views": 16,
+   "reads": 4,
+   "sessions": 15,
+   "avg_dwell_sec": 92
+  },
+  {
    "path": "/partner",
    "views": 16,
    "reads": 2,
    "sessions": 14,
    "avg_dwell_sec": 148
-  },
-  {
-   "path": "/agents.html",
-   "views": 15,
-   "reads": 4,
-   "sessions": 14,
-   "avg_dwell_sec": 92
   },
   {
    "path": "/submit.html",
@@ -821,8 +821,8 @@
   },
   {
    "ref": "https://www.aocr.org/",
-   "hits": 49,
-   "sessions": 49
+   "hits": 53,
+   "sessions": 53
   },
   {
    "ref": "https://cn.bing.com/",
