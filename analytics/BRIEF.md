@@ -1,12 +1,12 @@
-# Analytics brief — auto-exported 2026-10-28T11:06Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-28T11:17Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 7340 views → 274 engaged reads → 8 completes · 7247 sessions.
-- Channels: direct 165r/7013v · organic 76r/223v · campaign:chatgpt.com 16r/35v · referral 5r/31v · ai 4r/27v · campaign:owner-qa 4r/4v · social 3r/4v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 17r/39v · Perplexity 2r/2v · Yuanbao 1r/1v · Kimi 0r/18v · Copilot 0r/1v · Grok 0r/1v.
-- Referrers: google.com, duckduckgo.com, bing.com, cn.bing.com, search.brave.com, nav-cmp, aocr.org, brand, youtube.com, qwant.com.
+- Funnel: 7340 views → 272 engaged reads → 8 completes · 7247 sessions.
+- Channels: direct 164r/7011v · organic 76r/223v · campaign:chatgpt.com 16r/35v · referral 5r/33v · campaign:owner-qa 4r/4v · ai 3r/27v · social 3r/4v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 17r/39v · Perplexity 1r/2v · Yuanbao 1r/1v · Kimi 0r/18v · Copilot 0r/1v · Grok 0r/1v.
+- Referrers: google.com, duckduckgo.com, bing.com, cn.bing.com, search.brave.com, aocr.org, nav-cmp, brand, youtube.com, qwant.com.
 - Engaged-read winners by section: stack=7, wire=7, dispatches=1.
 
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
@@ -23,13 +23,13 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 7013 views · read 2.4% · complete 0.1% · 1 pages/session · median 8s
+- direct: 7011 views · read 2.3% · complete 0.1% · 1 pages/session · median 8s
 - organic: 223 views · read 34.1% · complete 0.9% · 1.03 pages/session · median 3s
 - campaign:chatgpt.com: 35 views · read 45.7% · complete 0.0% · 1.21 pages/session · median ?s
-- referral: 31 views · read 16.1% · complete 0.0% · 1.07 pages/session · median ?s
-- ai: 27 views · read 14.8% · complete 0.0% · 0.68 pages/session · median 4s
+- referral: 33 views · read 15.2% · complete 0.0% · 1.06 pages/session · median ?s
+- ai: 27 views · read 11.1% · complete 0.0% · 0.69 pages/session · median 4s
 - social: 4 views · read 75.0% · complete 0.0% · 1 pages/session · median ?s
-INSIGHT: campaign:chatgpt.com converts 19x better per view than direct, which is 96% of all views.
+INSIGHT: campaign:chatgpt.com converts 20x better per view than direct, which is 96% of all views.
 One visitor from campaign:chatgpt.com is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
@@ -59,7 +59,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 757 views, 0 reads, 757 sessions, avg 9s
+- /stack/:tool — 758 views, 0 reads, 758 sessions, avg 9s
 - /compare/:pair — 383 views, 2 reads, 382 sessions, avg 36s
 - /build — 166 views, 0 reads, 166 sessions
 - / — 135 views, 4 reads, 139 sessions, avg 14s
@@ -74,7 +74,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 140 views, 35 reads
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 45 views, 14 reads
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 36 views, 14 reads
-- [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 32 views, 1 reads
+- [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 30 views, 0 reads
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 27 views, 5 reads
 - [stack] "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)" — 25 views, 8 reads
 
@@ -83,7 +83,7 @@ These pulled real traffic and then lost it. The click already worked, so the
 problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
-- [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 32 views but only 1 engaged reads (3.1%)
+- [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 30 views but only 0 engaged reads (0.0%)
 - [wire] "The Founder's Wire, October 14: Gemini 4 Argon Opens Its Gate — and Now Three Frontier Models Cost Exactly the Same" — 25 views but only 0 engaged reads (0.0%)
 - [wire] "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock" — 19 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
@@ -94,7 +94,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 838 retrieval fetches
+- /  — 839 retrieval fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 303 retrieval fetches
 - /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 151 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 131 retrieval fetches
@@ -108,7 +108,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (5637 verified): / ×28 · /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html ×27 · /newsroom ×23
 - OAI-SearchBot (5193 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×131 · /posts/open-source-llm-for-coding-september-2026.html ×78 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×72
-- ChatGPT-User (3155 verified): / ×810 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×303 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×122
+- ChatGPT-User (3156 verified): / ×811 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×303 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×122
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -145,12 +145,12 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 15267 confirmed AI-engine fetches (Perplexity 5637, ChatGPT Search (OpenAI) 5193, ChatGPT (user browsing) 3155, GPTBot (OpenAI) 1282).
+The real answer engines are crawling us — IP-verified: 15268 confirmed AI-engine fetches (Perplexity 5637, ChatGPT Search (OpenAI) 5193, ChatGPT (user browsing) 3156, GPTBot (OpenAI) 1282).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 457 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 414 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 252 crawler fetches
-- /posts/best-llm-for-creative-writing-october-2026.html  — 180 crawler fetches
+- /posts/best-llm-for-creative-writing-october-2026.html  — 181 crawler fetches
 - /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 151 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 131 crawler fetches
 - /posts/2026-10-15-founders-wire-anthropic-opens-its-books.html  — 130 crawler fetches

@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-28T11:06:50.222Z",
+ "generated": "2026-10-28T11:17:00.669Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 5,
   "todayReads": 5,
   "avgTimeSec": 12,
   "postsThisWeek": 11
  },
  "funnel": {
   "views": 7340,
-  "reads": 274,
+  "reads": 272,
   "completes": 8,
   "plays": 9,
   "sessions": 7247
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 7013,
-   "reads": 165,
-   "sessions": 7017
+   "views": 7011,
+   "reads": 164,
+   "sessions": 7016
   },
   {
    "channel": "organic",
@@ -35,21 +35,21 @@
   },
   {
    "channel": "referral",
-   "views": 31,
+   "views": 33,
    "reads": 5,
-   "sessions": 29
-  },
-  {
-   "channel": "ai",
-   "views": 27,
-   "reads": 4,
-   "sessions": 40
+   "sessions": 31
   },
   {
    "channel": "campaign:owner-qa",
    "views": 4,
    "reads": 4,
    "sessions": 3
+  },
+  {
+   "channel": "ai",
+   "views": 27,
+   "reads": 3,
+   "sessions": 39
   },
   {
    "channel": "social",
@@ -85,11 +85,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7013,
-   "reads": 165,
+   "views": 7011,
+   "reads": 164,
    "completes": 5,
-   "sessions": 7016,
-   "read_rate": 0.024,
+   "sessions": 7015,
+   "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
    "median_dwell_sec": 8
@@ -118,24 +118,24 @@
   },
   {
    "channel": "referral",
-   "views": 31,
+   "views": 33,
    "reads": 5,
    "completes": 0,
-   "sessions": 29,
-   "read_rate": 0.161,
+   "sessions": 31,
+   "read_rate": 0.152,
    "complete_rate": 0,
-   "pages_per_session": 1.07,
+   "pages_per_session": 1.06,
    "median_dwell_sec": null
   },
   {
    "channel": "ai",
    "views": 27,
-   "reads": 4,
+   "reads": 3,
    "completes": 0,
-   "sessions": 40,
-   "read_rate": 0.148,
+   "sessions": 39,
+   "read_rate": 0.111,
    "complete_rate": 0,
-   "pages_per_session": 0.68,
+   "pages_per_session": 0.69,
    "median_dwell_sec": 4
   },
   {
@@ -292,8 +292,8 @@
   {
    "assistant": "Perplexity",
    "views": 2,
-   "reads": 2,
-   "sessions": 3
+   "reads": 1,
+   "sessions": 2
   },
   {
    "assistant": "Yuanbao",
@@ -324,7 +324,7 @@
   {
    "device": "desktop",
    "views": 6776,
-   "reads": 243,
+   "reads": 241,
    "sessions": 6694
   },
   {
@@ -631,8 +631,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 32,
-   "reads": 1,
+   "views": 30,
+   "reads": 0,
    "plays": 0
   },
   {
@@ -699,9 +699,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 757,
+   "views": 758,
    "reads": 0,
-   "sessions": 757,
+   "sessions": 758,
    "avg_dwell_sec": 9
   },
   {
@@ -830,14 +830,14 @@
    "sessions": 7
   },
   {
+   "ref": "https://www.aocr.org/",
+   "hits": 10,
+   "sessions": 10
+  },
+  {
    "ref": "nav-cmp",
    "hits": 9,
    "sessions": 4
-  },
-  {
-   "ref": "https://www.aocr.org/",
-   "hits": 8,
-   "sessions": 8
   },
   {
    "ref": "brand",
