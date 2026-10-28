@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-28T11:27:05.442Z",
+ "generated": "2026-10-28T11:37:20.505Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
+  "readersNow": 5,
   "todayReads": 5,
   "avgTimeSec": 12,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7342,
-  "reads": 272,
+  "views": 7343,
+  "reads": 271,
   "completes": 8,
   "plays": 9,
-  "sessions": 7248
+  "sessions": 7250
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7010,
+   "views": 7009,
    "reads": 164,
-   "sessions": 7014
+   "sessions": 7012
   },
   {
    "channel": "organic",
-   "views": 223,
-   "reads": 76,
-   "sessions": 216
+   "views": 221,
+   "reads": 75,
+   "sessions": 214
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 36,
+   "views": 40,
    "reads": 5,
-   "sessions": 34
+   "sessions": 38
   },
   {
    "channel": "campaign:owner-qa",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7010,
+   "views": 7009,
    "reads": 164,
    "completes": 5,
-   "sessions": 7013,
+   "sessions": 7011,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,24 +96,24 @@
   },
   {
    "channel": "organic",
-   "views": 223,
-   "reads": 76,
+   "views": 221,
+   "reads": 75,
    "completes": 2,
-   "sessions": 216,
-   "read_rate": 0.341,
+   "sessions": 214,
+   "read_rate": 0.339,
    "complete_rate": 0.009,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
   },
   {
    "channel": "referral",
-   "views": 36,
+   "views": 40,
    "reads": 5,
    "completes": 0,
-   "sessions": 34,
-   "read_rate": 0.139,
+   "sessions": 38,
+   "read_rate": 0.125,
    "complete_rate": 0,
-   "pages_per_session": 1.06,
+   "pages_per_session": 1.05,
    "median_dwell_sec": null
   },
   {
@@ -323,15 +323,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6778,
-   "reads": 241,
-   "sessions": 6696
+   "views": 6780,
+   "reads": 240,
+   "sessions": 6699
   },
   {
    "device": "mobile",
-   "views": 562,
+   "views": 561,
    "reads": 30,
-   "sessions": 552
+   "sessions": 551
   },
   {
    "device": "tablet",
@@ -699,9 +699,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 758,
+   "views": 760,
    "reads": 0,
-   "sessions": 758,
+   "sessions": 760,
    "avg_dwell_sec": 9
   },
   {
@@ -810,14 +810,19 @@
    "sessions": 107
   },
   {
-   "ref": "https://duckduckgo.com/",
-   "hits": 73,
-   "sessions": 43
-  },
-  {
    "ref": "https://www.bing.com/",
    "hits": 72,
    "sessions": 37
+  },
+  {
+   "ref": "https://duckduckgo.com/",
+   "hits": 71,
+   "sessions": 42
+  },
+  {
+   "ref": "https://www.aocr.org/",
+   "hits": 17,
+   "sessions": 17
   },
   {
    "ref": "https://cn.bing.com/",
@@ -825,14 +830,9 @@
    "sessions": 9
   },
   {
-   "ref": "https://www.aocr.org/",
-   "hits": 13,
-   "sessions": 13
-  },
-  {
    "ref": "https://search.brave.com/",
-   "hits": 11,
-   "sessions": 7
+   "hits": 10,
+   "sessions": 6
   },
   {
    "ref": "nav-cmp",
