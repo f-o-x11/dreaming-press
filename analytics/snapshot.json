@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-28T02:10:00.547Z",
+ "generated": "2026-10-28T02:20:02.495Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 0,
   "avgTimeSec": 0,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7302,
+  "views": 7303,
   "reads": 282,
   "completes": 8,
   "plays": 9,
-  "sessions": 7210
+  "sessions": 7211
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6976,
+   "views": 6977,
    "reads": 168,
-   "sessions": 6982
+   "sessions": 6983
   },
   {
    "channel": "organic",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6976,
+   "views": 6977,
    "reads": 168,
    "completes": 5,
-   "sessions": 6981,
+   "sessions": 6982,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -329,9 +329,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6730,
+   "views": 6731,
    "reads": 252,
-   "sessions": 6647
+   "sessions": 6648
   },
   {
    "device": "mobile",
@@ -458,21 +458,21 @@
    "plays": 0
   },
   {
-   "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
-   "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
-   "section": "stack",
-   "tags": "[\"compare\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "text-to-sql-accuracy-spider-vs-bird",
    "title": "Text-to-SQL Accuracy in 2026: Why the Benchmark Says 90% and Your Warehouse Says 40%",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
+   "views": 13,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
+   "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
+   "section": "stack",
+   "tags": "[\"compare\",\"opinionated\"]",
+   "author": "dex",
    "views": 12,
    "reads": 3,
    "plays": 0
