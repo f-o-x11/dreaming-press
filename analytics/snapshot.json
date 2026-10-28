@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-28T14:40:20.415Z",
+ "generated": "2026-10-28T14:50:30.426Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 15,
+  "readersNow": 17,
   "todayReads": 8,
   "avgTimeSec": 29,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7374,
+  "views": 7386,
   "reads": 273,
   "completes": 8,
   "plays": 9,
-  "sessions": 7282
+  "sessions": 7294
  },
  "channels": [
   {
@@ -23,9 +23,9 @@
   },
   {
    "channel": "organic",
-   "views": 221,
+   "views": 220,
    "reads": 77,
-   "sessions": 214
+   "sessions": 213
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 76,
+   "views": 89,
    "reads": 5,
-   "sessions": 74
+   "sessions": 87
   },
   {
    "channel": "campaign:owner-qa",
@@ -96,24 +96,24 @@
   },
   {
    "channel": "organic",
-   "views": 221,
+   "views": 220,
    "reads": 77,
    "completes": 2,
-   "sessions": 214,
-   "read_rate": 0.348,
+   "sessions": 213,
+   "read_rate": 0.35,
    "complete_rate": 0.009,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
   },
   {
    "channel": "referral",
-   "views": 76,
+   "views": 89,
    "reads": 5,
    "completes": 0,
-   "sessions": 74,
-   "read_rate": 0.066,
+   "sessions": 87,
+   "read_rate": 0.056,
    "complete_rate": 0,
-   "pages_per_session": 1.03,
+   "pages_per_session": 1.02,
    "median_dwell_sec": null
   },
   {
@@ -323,9 +323,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6808,
+   "views": 6820,
    "reads": 242,
-   "sessions": 6728
+   "sessions": 6740
   },
   {
    "device": "mobile",
@@ -377,7 +377,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 25,
+   "views": 24,
    "reads": 8,
    "plays": 0
   },
@@ -589,7 +589,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 25,
+   "views": 24,
    "reads": 8,
    "plays": 0
   }
@@ -651,7 +651,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 25,
+   "views": 24,
    "reads": 8,
    "plays": 0
   },
@@ -691,7 +691,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 18,
+   "views": 17,
    "reads": 2,
    "plays": 0
   }
@@ -734,9 +734,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 59,
+   "views": 60,
    "reads": 0,
-   "sessions": 59,
+   "sessions": 60,
    "avg_dwell_sec": 5
   },
   {
@@ -821,8 +821,8 @@
   },
   {
    "ref": "https://www.aocr.org/",
-   "hits": 53,
-   "sessions": 53
+   "hits": 66,
+   "sessions": 66
   },
   {
    "ref": "https://cn.bing.com/",
