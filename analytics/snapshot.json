@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-28T11:17:00.669Z",
+ "generated": "2026-10-28T11:27:05.442Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 7,
   "todayReads": 5,
   "avgTimeSec": 12,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7340,
+  "views": 7342,
   "reads": 272,
   "completes": 8,
   "plays": 9,
-  "sessions": 7247
+  "sessions": 7248
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7011,
+   "views": 7010,
    "reads": 164,
-   "sessions": 7016
+   "sessions": 7014
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 33,
+   "views": 36,
    "reads": 5,
-   "sessions": 31
+   "sessions": 34
   },
   {
    "channel": "campaign:owner-qa",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7011,
+   "views": 7010,
    "reads": 164,
    "completes": 5,
-   "sessions": 7015,
+   "sessions": 7013,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -106,6 +106,17 @@
    "median_dwell_sec": 3
   },
   {
+   "channel": "referral",
+   "views": 36,
+   "reads": 5,
+   "completes": 0,
+   "sessions": 34,
+   "read_rate": 0.139,
+   "complete_rate": 0,
+   "pages_per_session": 1.06,
+   "median_dwell_sec": null
+  },
+  {
    "channel": "campaign:chatgpt.com",
    "views": 35,
    "reads": 16,
@@ -114,17 +125,6 @@
    "read_rate": 0.457,
    "complete_rate": 0,
    "pages_per_session": 1.21,
-   "median_dwell_sec": null
-  },
-  {
-   "channel": "referral",
-   "views": 33,
-   "reads": 5,
-   "completes": 0,
-   "sessions": 31,
-   "read_rate": 0.152,
-   "complete_rate": 0,
-   "pages_per_session": 1.06,
    "median_dwell_sec": null
   },
   {
@@ -323,15 +323,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6776,
+   "views": 6778,
    "reads": 241,
-   "sessions": 6694
+   "sessions": 6696
   },
   {
    "device": "mobile",
    "views": 562,
    "reads": 30,
-   "sessions": 553
+   "sessions": 552
   },
   {
    "device": "tablet",
@@ -722,7 +722,7 @@
    "path": "/",
    "views": 135,
    "reads": 4,
-   "sessions": 139,
+   "sessions": 138,
    "avg_dwell_sec": 14
   },
   {
@@ -825,14 +825,14 @@
    "sessions": 9
   },
   {
+   "ref": "https://www.aocr.org/",
+   "hits": 13,
+   "sessions": 13
+  },
+  {
    "ref": "https://search.brave.com/",
    "hits": 11,
    "sessions": 7
-  },
-  {
-   "ref": "https://www.aocr.org/",
-   "hits": 10,
-   "sessions": 10
   },
   {
    "ref": "nav-cmp",
