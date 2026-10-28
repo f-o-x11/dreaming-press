@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-28T09:04:33.299Z",
+ "generated": "2026-10-28T09:14:34.344Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 3,
+  "readersNow": 4,
+  "todayReads": 4,
   "avgTimeSec": 13,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7323,
-  "reads": 273,
+  "views": 7327,
+  "reads": 274,
   "completes": 8,
   "plays": 9,
-  "sessions": 7231
+  "sessions": 7235
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7004,
-   "reads": 165,
-   "sessions": 7010
+   "views": 7008,
+   "reads": 166,
+   "sessions": 7014
   },
   {
    "channel": "organic",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7004,
-   "reads": 165,
+   "views": 7008,
+   "reads": 166,
    "completes": 5,
-   "sessions": 7009,
+   "sessions": 7013,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -323,9 +323,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6759,
-   "reads": 242,
-   "sessions": 6678
+   "views": 6763,
+   "reads": 243,
+   "sessions": 6682
   },
   {
    "device": "mobile",
@@ -422,6 +422,16 @@
    "plays": 0
   },
   {
+   "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
+   "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
+   "section": "stack",
+   "tags": "[\"compare\",\"opinionated\"]",
+   "author": "dex",
+   "views": 13,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
    "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
    "section": "wire",
@@ -448,16 +458,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 13,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
-   "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
-   "section": "stack",
-   "tags": "[\"compare\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
    "reads": 3,
    "plays": 0
   },
