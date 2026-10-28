@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-28T10:46:20.174Z",
+ "generated": "2026-10-28T10:56:30.424Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
+  "readersNow": 3,
   "todayReads": 5,
   "avgTimeSec": 12,
   "postsThisWeek": 11
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 7015,
+   "views": 7013,
    "reads": 166,
-   "sessions": 7018
+   "sessions": 7016
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 29,
+   "views": 31,
    "reads": 5,
-   "sessions": 27
+   "sessions": 29
   },
   {
    "channel": "ai",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7015,
+   "views": 7013,
    "reads": 166,
    "completes": 5,
-   "sessions": 7017,
+   "sessions": 7015,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -118,11 +118,11 @@
   },
   {
    "channel": "referral",
-   "views": 29,
+   "views": 31,
    "reads": 5,
    "completes": 0,
-   "sessions": 27,
-   "read_rate": 0.172,
+   "sessions": 29,
+   "read_rate": 0.161,
    "complete_rate": 0,
    "pages_per_session": 1.07,
    "median_dwell_sec": null
@@ -347,7 +347,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 142,
+   "views": 140,
    "reads": 35,
    "plays": 1
   },
@@ -509,7 +509,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 142,
+   "views": 140,
    "reads": 35,
    "plays": 1
   },
@@ -601,7 +601,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 142,
+   "views": 140,
    "reads": 35,
    "plays": 1
   },
@@ -835,6 +835,11 @@
    "sessions": 4
   },
   {
+   "ref": "https://www.aocr.org/",
+   "hits": 8,
+   "sessions": 8
+  },
+  {
    "ref": "brand",
    "hits": 8,
    "sessions": 7
@@ -848,11 +853,6 @@
    "ref": "https://www.qwant.com/",
    "hits": 6,
    "sessions": 3
-  },
-  {
-   "ref": "https://www.aocr.org/",
-   "hits": 6,
-   "sessions": 6
   }
  ]
 }
