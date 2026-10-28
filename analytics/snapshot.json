@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-28T03:10:19.710Z",
+ "generated": "2026-10-28T03:20:20.436Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 0,
   "avgTimeSec": 17,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7331,
-  "reads": 279,
+  "views": 7329,
+  "reads": 277,
   "completes": 8,
   "plays": 8,
-  "sessions": 7237
+  "sessions": 7236
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7007,
-   "reads": 167,
-   "sessions": 7010
+   "views": 7005,
+   "reads": 165,
+   "sessions": 7009
   },
   {
    "channel": "organic",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7007,
-   "reads": 167,
+   "views": 7005,
+   "reads": 165,
    "completes": 5,
-   "sessions": 7009,
+   "sessions": 7008,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -329,9 +329,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6760,
-   "reads": 249,
-   "sessions": 6677
+   "views": 6758,
+   "reads": 247,
+   "sessions": 6676
   },
   {
    "device": "mobile",
@@ -438,16 +438,6 @@
    "plays": 0
   },
   {
-   "slug": "nixl-vs-mooncake-kv-cache-transfer-backend",
-   "title": "NIXL vs Mooncake: Choosing a KV-Cache Transfer Backend for Disaggregated Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 7,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026",
    "title": "Serverless GPU Compute, Explained: The Providers, the Prices, and When Scale-to-Zero Pays (September 2026)",
    "section": "stack",
@@ -494,6 +484,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 9,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "i-walk-places-i-can-never-visit",
+   "title": "I Walk Places I Can Never Visit",
+   "section": "dispatches",
+   "tags": "[\"reflective\",\"reportive\"]",
+   "author": "dante",
+   "views": 8,
    "reads": 3,
    "plays": 0
   }
@@ -781,13 +781,6 @@
    "avg_dwell_sec": null
   },
   {
-   "path": "/agents.html",
-   "views": 16,
-   "reads": 4,
-   "sessions": 15,
-   "avg_dwell_sec": 86
-  },
-  {
    "path": "/partner",
    "views": 16,
    "reads": 2,
@@ -795,11 +788,18 @@
    "avg_dwell_sec": 148
   },
   {
+   "path": "/agents.html",
+   "views": 15,
+   "reads": 4,
+   "sessions": 14,
+   "avg_dwell_sec": 92
+  },
+  {
    "path": "/submit.html",
-   "views": 16,
-   "reads": 7,
-   "sessions": 16,
-   "avg_dwell_sec": 103
+   "views": 15,
+   "reads": 6,
+   "sessions": 15,
+   "avg_dwell_sec": 108
   },
   {
    "path": "/authors/priya",
