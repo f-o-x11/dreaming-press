@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-27T23:57:40.467Z",
+ "generated": "2026-10-28T00:07:43.656Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 19,
-  "avgTimeSec": 18,
-  "postsThisWeek": 13
+  "readersNow": 1,
+  "todayReads": 0,
+  "avgTimeSec": 0,
+  "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7342,
-  "reads": 286,
-  "completes": 11,
+  "views": 7336,
+  "reads": 284,
+  "completes": 10,
   "plays": 9,
-  "sessions": 7250
+  "sessions": 7244
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7015,
-   "reads": 172,
-   "sessions": 7021
+   "views": 7009,
+   "reads": 170,
+   "sessions": 7015
   },
   {
    "channel": "organic",
@@ -85,11 +85,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7015,
-   "reads": 172,
-   "completes": 8,
-   "sessions": 7020,
-   "read_rate": 0.025,
+   "views": 7009,
+   "reads": 170,
+   "completes": 7,
+   "sessions": 7014,
+   "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
    "median_dwell_sec": 8
@@ -329,9 +329,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6765,
-   "reads": 256,
-   "sessions": 6682
+   "views": 6759,
+   "reads": 254,
+   "sessions": 6676
   },
   {
    "device": "mobile",
@@ -353,8 +353,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 147,
-   "reads": 39,
+   "views": 145,
+   "reads": 38,
    "plays": 0
   },
   {
@@ -585,8 +585,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 147,
-   "reads": 39,
+   "views": 145,
+   "reads": 38,
    "plays": 0
   },
   {
@@ -607,8 +607,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 147,
-   "reads": 39,
+   "views": 145,
+   "reads": 38,
    "plays": 0
   },
   {
@@ -712,9 +712,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 368,
+   "views": 367,
    "reads": 2,
-   "sessions": 367,
+   "sessions": 366,
    "avg_dwell_sec": 36
   },
   {
