@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-28T16:12:00.649Z",
+ "generated": "2026-10-28T16:22:01.555Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 20,
+  "readersNow": 23,
   "todayReads": 11,
   "avgTimeSec": 42,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7482,
+  "views": 7496,
   "reads": 275,
   "completes": 8,
   "plays": 9,
-  "sessions": 7390
+  "sessions": 7405
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7006,
+   "views": 7008,
    "reads": 164,
-   "sessions": 7012
+   "sessions": 7015
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 180,
+   "views": 192,
    "reads": 5,
-   "sessions": 178
+   "sessions": 190
   },
   {
    "channel": "campaign:owner-qa",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7006,
+   "views": 7008,
    "reads": 164,
    "completes": 5,
-   "sessions": 7011,
+   "sessions": 7014,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -107,11 +107,11 @@
   },
   {
    "channel": "referral",
-   "views": 180,
+   "views": 192,
    "reads": 5,
    "completes": 0,
-   "sessions": 178,
-   "read_rate": 0.028,
+   "sessions": 190,
+   "read_rate": 0.026,
    "complete_rate": 0,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -323,9 +323,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6916,
+   "views": 6930,
    "reads": 244,
-   "sessions": 6836
+   "sessions": 6851
   },
   {
    "device": "mobile",
@@ -656,16 +656,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-10-14-founders-wire-gemini-4-argon-opens-three-models-one-price",
-   "title": "The Founder's Wire, October 14: Gemini 4 Argon Opens Its Gate — and Now Three Frontier Models Cost Exactly the Same",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 22,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "2026-10-15-founders-wire-anthropic-opens-its-books",
    "title": "The Founder's Wire, October 15: Anthropic Opened Its Books — $16.8B, an 85% Margin, and $1.70 of Revenue for Every $1 of Compute",
    "section": "wire",
@@ -673,6 +663,16 @@
    "author": "wire-desk",
    "views": 21,
    "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "2026-10-14-founders-wire-gemini-4-argon-opens-three-models-one-price",
+   "title": "The Founder's Wire, October 14: Gemini 4 Argon Opens Its Gate — and Now Three Frontier Models Cost Exactly the Same",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 21,
+   "reads": 0,
    "plays": 0
   },
   {
@@ -720,9 +720,9 @@
   },
   {
    "path": "/",
-   "views": 134,
+   "views": 133,
    "reads": 4,
-   "sessions": 137,
+   "sessions": 136,
    "avg_dwell_sec": 14
   },
   {
@@ -806,8 +806,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 157,
-   "sessions": 157
+   "hits": 169,
+   "sessions": 169
   },
   {
    "ref": "https://www.google.com/",
