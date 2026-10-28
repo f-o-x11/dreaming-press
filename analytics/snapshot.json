@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-28T05:11:12.533Z",
+ "generated": "2026-10-28T05:21:20.415Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
   "todayReads": 3,
-  "avgTimeSec": 10,
+  "avgTimeSec": 16,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7329,
+  "views": 7330,
   "reads": 279,
   "completes": 8,
-  "plays": 8,
-  "sessions": 7237
+  "plays": 9,
+  "sessions": 7238
  },
  "channels": [
   {
    "channel": "direct",
    "views": 7005,
    "reads": 167,
-   "sessions": 7010
+   "sessions": 7011
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "referral",
-   "views": 22,
+   "views": 23,
    "reads": 5,
-   "sessions": 20
+   "sessions": 21
   },
   {
    "channel": "campaign:owner-qa",
@@ -88,7 +88,7 @@
    "views": 7005,
    "reads": 167,
    "completes": 5,
-   "sessions": 7009,
+   "sessions": 7010,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -129,11 +129,11 @@
   },
   {
    "channel": "referral",
-   "views": 22,
+   "views": 23,
    "reads": 5,
    "completes": 0,
-   "sessions": 20,
-   "read_rate": 0.227,
+   "sessions": 21,
+   "read_rate": 0.217,
    "complete_rate": 0,
    "pages_per_session": 1.1,
    "median_dwell_sec": null
@@ -329,9 +329,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6761,
+   "views": 6762,
    "reads": 248,
-   "sessions": 6680
+   "sessions": 6681
   },
   {
    "device": "mobile",
@@ -353,9 +353,9 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 144,
+   "views": 145,
    "reads": 36,
-   "plays": 0
+   "plays": 1
   },
   {
    "slug": "best-llm-for-creative-writing-october-2026",
@@ -510,6 +510,16 @@
    "plays": 2
   },
   {
+   "slug": "ai-agent-frameworks-whats-changed-fall-2026",
+   "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 145,
+   "reads": 36,
+   "plays": 1
+  },
+  {
    "slug": "best-llm-for-creative-writing-october-2026",
    "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
    "section": "stack",
@@ -570,16 +580,6 @@
    "plays": 1
   },
   {
-   "slug": "ai-agent-frameworks-whats-changed-fall-2026",
-   "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 144,
-   "reads": 36,
-   "plays": 0
-  },
-  {
    "slug": "mcp-tool-annotations-explained",
    "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
    "section": "wire",
@@ -607,9 +607,9 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 144,
+   "views": 145,
    "reads": 36,
-   "plays": 0
+   "plays": 1
   },
   {
    "slug": "best-llm-for-creative-writing-october-2026",
