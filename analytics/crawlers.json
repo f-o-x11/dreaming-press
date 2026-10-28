@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-28T21:07:30.048Z",
+ "generated": "2026-10-28T21:17:50.317Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 18100,
+ "verifiedAiHits": 18102,
  "logsScanned": 30,
  "windowStart": "2026-10-14",
  "windowEnd": "2026-10-28",
- "totalHits": 111247,
- "aiHits": 87751,
+ "totalHits": 111285,
+ "aiHits": 87778,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32682,
+   "hits": 32692,
    "verifiedHits": 0,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15117,
+   "hits": 15121,
    "verifiedHits": 0,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14833,
+   "hits": 14843,
    "verifiedHits": 0,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
@@ -95,7 +95,7 @@
     },
     {
      "path": "/wire.html",
-     "hits": 38
+     "hits": 39
     },
     {
      "path": "/tags/opinionated",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8985,
+   "hits": 8993,
    "verifiedHits": 0,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6954,
-   "verifiedHits": 6891,
+   "hits": 6957,
+   "verifiedHits": 6894,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 5790,
-   "verifiedHits": 5703,
+   "hits": 5791,
+   "verifiedHits": 5704,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
    "topPaths": [
@@ -190,7 +190,7 @@
     },
     {
      "path": "/posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html",
-     "hits": 27
+     "hits": 28
     },
     {
      "path": "/newsroom",
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3311,
-   "verifiedHits": 3202,
+   "hits": 3312,
+   "verifiedHits": 3203,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
    "topPaths": [
     {
      "path": "/",
-     "hits": 836
+     "hits": 837
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1240,
+   "hits": 1241,
    "verifiedHits": 0,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
@@ -454,7 +454,7 @@
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 112
+     "hits": 113
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
