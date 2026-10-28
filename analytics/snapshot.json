@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-28T08:44:11.006Z",
+ "generated": "2026-10-28T08:54:20.257Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 3,
   "avgTimeSec": 13,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7324,
+  "views": 7322,
   "reads": 273,
   "completes": 8,
   "plays": 9,
-  "sessions": 7232
+  "sessions": 7230
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7005,
+   "views": 7003,
    "reads": 165,
-   "sessions": 7011
+   "sessions": 7009
   },
   {
    "channel": "organic",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7005,
+   "views": 7003,
    "reads": 165,
    "completes": 5,
-   "sessions": 7010,
+   "sessions": 7008,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -323,9 +323,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6761,
+   "views": 6759,
    "reads": 242,
-   "sessions": 6680
+   "sessions": 6678
   },
   {
    "device": "mobile",
@@ -676,16 +676,6 @@
    "plays": 0
   },
   {
-   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
-   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
    "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
    "section": "wire",
@@ -693,6 +683,16 @@
    "author": "priya",
    "views": 19,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 18,
+   "reads": 2,
    "plays": 0
   }
  ],
