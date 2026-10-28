@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-28T15:31:01.037Z",
+ "generated": "2026-10-28T15:41:10.591Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 17,
-  "todayReads": 9,
-  "avgTimeSec": 29,
+  "readersNow": 16,
+  "todayReads": 10,
+  "avgTimeSec": 44,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7435,
-  "reads": 273,
+  "views": 7446,
+  "reads": 274,
   "completes": 8,
   "plays": 9,
-  "sessions": 7343
+  "sessions": 7354
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7003,
+   "views": 7004,
    "reads": 164,
-   "sessions": 7007
+   "sessions": 7009
   },
   {
    "channel": "organic",
-   "views": 220,
-   "reads": 77,
-   "sessions": 213
+   "views": 221,
+   "reads": 78,
+   "sessions": 214
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 138,
+   "views": 147,
    "reads": 5,
-   "sessions": 136
+   "sessions": 145
   },
   {
    "channel": "campaign:owner-qa",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7003,
+   "views": 7004,
    "reads": 164,
    "completes": 5,
-   "sessions": 7006,
+   "sessions": 7008,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,22 +96,22 @@
   },
   {
    "channel": "organic",
-   "views": 220,
-   "reads": 77,
+   "views": 221,
+   "reads": 78,
    "completes": 2,
-   "sessions": 213,
-   "read_rate": 0.35,
+   "sessions": 214,
+   "read_rate": 0.353,
    "complete_rate": 0.009,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
   },
   {
    "channel": "referral",
-   "views": 138,
+   "views": 147,
    "reads": 5,
    "completes": 0,
-   "sessions": 136,
-   "read_rate": 0.036,
+   "sessions": 145,
+   "read_rate": 0.034,
    "complete_rate": 0,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -323,9 +323,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6869,
-   "reads": 242,
-   "sessions": 6789
+   "views": 6880,
+   "reads": 243,
+   "sessions": 6800
   },
   {
    "device": "mobile",
@@ -357,8 +357,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 36,
-   "reads": 14,
+   "views": 37,
+   "reads": 15,
    "plays": 0
   },
   {
@@ -579,8 +579,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 36,
-   "reads": 14,
+   "views": 37,
+   "reads": 15,
    "plays": 0
   },
   {
@@ -621,8 +621,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 36,
-   "reads": 14,
+   "views": 37,
+   "reads": 15,
    "plays": 0
   },
   {
@@ -805,14 +805,14 @@
  ],
  "referrers": [
   {
+   "ref": "https://www.aocr.org/",
+   "hits": 124,
+   "sessions": 124
+  },
+  {
    "ref": "https://www.google.com/",
    "hits": 123,
    "sessions": 107
-  },
-  {
-   "ref": "https://www.aocr.org/",
-   "hits": 115,
-   "sessions": 115
   },
   {
    "ref": "https://www.bing.com/",
@@ -821,8 +821,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 72,
-   "sessions": 42
+   "hits": 74,
+   "sessions": 43
   },
   {
    "ref": "https://cn.bing.com/",
