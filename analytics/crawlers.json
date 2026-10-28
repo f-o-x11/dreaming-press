@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-28T13:49:50.173Z",
+ "generated": "2026-10-28T14:00:00.142Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15329,
+ "verifiedAiHits": 15334,
  "logsScanned": 30,
  "windowStart": "2026-10-14",
  "windowEnd": "2026-10-28",
- "totalHits": 106833,
- "aiHits": 83747,
+ "totalHits": 106879,
+ "aiHits": 83782,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 32093,
+   "hits": 32111,
    "verifiedHits": 0,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
@@ -36,7 +36,7 @@
      "hits": 16
     },
     {
-     "path": "/posts/2026-10-05-founders-wire-anthropic-s1-openai-subpoena-ibm-sovereign.html",
+     "path": "/posts/2026-10-15-founders-wire-anthropic-opens-its-books.html",
      "hits": 16
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14493,
+   "hits": 14503,
    "verifiedHits": 0,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8805,
+   "hits": 8807,
    "verifiedHits": 0,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6799,
-   "verifiedHits": 6736,
+   "hits": 6800,
+   "verifiedHits": 6737,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
    "topPaths": [
@@ -161,7 +161,7 @@
     },
     {
      "path": "/posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html",
-     "hits": 63
+     "hits": 64
     },
     {
      "path": "/posts/three-days-of-runway.html",
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5282,
-   "verifiedHits": 5231,
+   "hits": 5285,
+   "verifiedHits": 5234,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
    "topPaths": [
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3277,
-   "verifiedHits": 3168,
+   "hits": 3279,
+   "verifiedHits": 3170,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
    "topPaths": [
     {
      "path": "/",
-     "hits": 817
+     "hits": 818
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2550,
+   "hits": 2551,
    "verifiedHits": 0,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1212,
+   "hits": 1214,
    "verifiedHits": 0,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
@@ -476,8 +476,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 635,
-   "verifiedHits": 547,
+   "hits": 642,
+   "verifiedHits": 554,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
    "topPaths": [
@@ -498,7 +498,7 @@
      "hits": 3
     },
     {
-     "path": "/posts/dead-letter-queues-for-ai-agent-tasks.html",
+     "path": "/posts/how-to-run-claude-code-on-a-schedule-loop-cron-routines.html",
      "hits": 2
     }
    ],
