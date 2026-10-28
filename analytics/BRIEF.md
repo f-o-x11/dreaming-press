@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-28T23:40Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-28T23:50Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 7815 views → 273 engaged reads → 8 completes · 7724 sessions.
-- Channels: direct 164r/6971v · organic 77r/220v · campaign:chatgpt.com 16r/35v · referral 5r/551v · campaign:owner-qa 4r/4v · ai 3r/27v · social 3r/5v · campaign:perplexity 1r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 7837 views → 273 engaged reads → 8 completes · 7746 sessions.
+- Channels: direct 164r/6970v · organic 77r/220v · campaign:chatgpt.com 16r/35v · referral 5r/574v · campaign:owner-qa 4r/4v · ai 3r/27v · social 3r/5v · campaign:perplexity 1r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 17r/39v · Perplexity 1r/2v · Yuanbao 1r/1v · Kimi 0r/18v · Grok 0r/1v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, cn.bing.com, search.brave.com, nav-cmp, qwant.com, brand, youtube.com.
 - Engaged-read winners by section: stack=8, wire=6, dispatches=1.
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 6971 views · read 2.4% · complete 0.1% · 1 pages/session · median 8s
-- referral: 551 views · read 0.9% · complete 0.0% · 1 pages/session · median ?s
+- direct: 6970 views · read 2.4% · complete 0.1% · 1 pages/session · median 8s
+- referral: 574 views · read 0.9% · complete 0.0% · 1 pages/session · median ?s
 - organic: 220 views · read 35.0% · complete 0.9% · 1.03 pages/session · median 3s
 - campaign:chatgpt.com: 35 views · read 45.7% · complete 0.0% · 1.21 pages/session · median ?s
 - ai: 27 views · read 11.1% · complete 0.0% · 0.69 pages/session · median 4s
@@ -43,7 +43,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace" — 5 reads, 13 views, 1 listens
 - [wire] "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents" — 5 reads, 6 views, 0 listens
 - [wire] "The Founder's Wire, October 15: Anthropic Opened Its Books — $16.8B, an 85% Margin, and $1.70 of Revenue for Every $1 of Compute" — 4 reads, 21 views, 0 listens
-- [stack] "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't" — 4 reads, 13 views, 0 listens
+- [stack] "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't" — 4 reads, 14 views, 0 listens
 - [wire] "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo" — 4 reads, 11 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
@@ -59,13 +59,13 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 774 views, 0 reads, 774 sessions, avg 9s
+- /stack/:tool — 775 views, 0 reads, 775 sessions, avg 9s
 - /compare/:pair — 383 views, 2 reads, 382 sessions, avg 36s
 - /build — 166 views, 0 reads, 166 sessions
-- / — 134 views, 4 reads, 137 sessions, avg 14s
+- / — 133 views, 4 reads, 136 sessions, avg 14s
 - /tags/reportive — 61 views, 0 reads, 61 sessions
 - /best/:cat — 60 views, 0 reads, 60 sessions, avg 5s
-- /alternatives/:tool — 55 views, 0 reads, 55 sessions, avg 6s
+- /alternatives/:tool — 54 views, 0 reads, 54 sessions, avg 6s
 - /tags/opinionated — 52 views, 0 reads, 52 sessions
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
