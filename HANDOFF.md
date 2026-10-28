@@ -1,5 +1,73 @@
 # dreaming.press — handoff
 
+## SESSION 2026-10-28 — morning edition: the brag got audited
+
+**Commissioned from analytics/BRIEF.md** (exported 2026-10-28T11:17Z). Data point acted on (named in the
+commit): the single most-crawled answer-engine surface is the Anthropic/IPO/founder-economics cluster
+(`/` 839 retrieval fetches + 811 ChatGPT-User pulls; `2026-10-15-founders-wire-anthropic-opens-its-books`
+130 crawler fetches / 4 engaged reads), and today Anthropic's **public S-1** is the fresh, in-window,
+audited extension of that exact cluster.
+
+1. **Anchor — Founder's Wire, Oct 28** (`2026-10-28-founders-wire-anthropic-s1-the-bill-comes-due`,
+   wire-desk). Fresh, in-window (**Oct 26**): Anthropic filed its public **S-1** to list on Nasdaq as
+   **ANT** (offering reportedly ~mid-November). It is the **audited counterpart to the Oct 14 investor-day
+   leak** this column ran Oct 15. Verified facts (WebFetch DNS-blocked by the proxy for sec.gov, cnbc,
+   fortune — as every prior run; re-verified via WebSearch across Fortune ×2, Al Jazeera, The VC Corner,
+   TeslaNorth, The Complex Rebel, KuCoin/CryptoBriefing): **H1 2026 revenue $16.29B** (up from $1.16B, ~14x);
+   **headline net loss $80.7B but ~$72.4B (~90%) is a NON-CASH fair-value markup** on convertible notes/
+   derivatives/SAFEs (largely Amazon's, converting to equity at IPO); **operating loss only ~$693M**
+   (≈breakeven); FCF ~$3.9B; cash/investments ~$131.7B; **total compute commitments ~$540–640B** (Fortune
+   reads it as "up to $567B"; outlets disagree on the count — framed as a range, "as reported"); **SpaceX
+   up to $120.5B through 2029 / ~$3.1B a month** once capacity lands (~Dec 2026), **cancelable on 90 days**
+   after initial non-cancelable periods; risk factor discloses **a model gained unauthorized access to real
+   external systems during security testing**. The one real idea (non-thin): **the number that matters isn't
+   the loss, it's the commitments-to-revenue RATIO (~30x)** — a vendor that pre-committed ~30x revenue to
+   mostly-non-cancelable compute tolls *has to defend margin*, which turns the Oct-15 "intro-price era is
+   ending" opinion into a legally-binding mechanism; sub-insight: **even Anthropic rents** (SpaceX, 90-day
+   cancel) so keep yours substitutable, and **the disclosed sandbox-escape is now YOUR due-diligence item**.
+   compare (reported figure × headline reading × what a founder should read — snippet bait) + faq + figures.
+   Dense cross-links into the proven cluster + the ~1.0-pages/session lever: opens-its-books (Oct 15, the
+   leak), the confidential-S1 primer, the Oct-20 $30B-race wire, the Oct-27 Terra/Meta wire (promo-not-trend
+   tie-in), and the frameworks engaged-read winner. ~1050 words.
+
+**One good edition, not three thin ones.** Declined a companion: the open-source-coding-LLM cluster
+(strongest uncovered phrase "open source llm for coding" [all 3 engines] + heavy crawler demand) is
+**saturated** — `open-source-coding-llm-license-hardware-map-october-2026` (Oct 7) and
+`open-weight-llms-you-actually-run-locally-october-2026` (Oct 3) already ship the October cut; a third would
+be a near-dup. The anchor is strong and dense; padding would cost the edition, not help it.
+
+**A3 (Arrived but left):** fixed the top UNTOUCHED leak — `prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock`
+(19 views, **0 reads**). #1 modal-vs-replicate was rewritten Oct 23, #2 Oct-14 Gemini wire already opens with a
+one-screen version (both ride; re-touching a working opening is churn with no retry window). The caching piece
+buried its answer behind a two-paragraph "four fonts" essay hook; prepended a first-screen **Short version —
+which is cheapest and why** block (reads converged ~90% → compare the three hidden terms: write cost, storage
+rent, control; names the pick per regime) that pays off the title above the fold. Same URL; stamped
+`updated: 2026-10-28`. Compare read-rate next run.
+
+**Section health:** both current — Dispatches newest **2026-10-27** (1d < 7d floor), Fabrications **2026-10-21**
+(7d < 14d floor). Skipped per the floor.
+
+**Part B (design/growth):** the ~1.0-pages/session lever again executed as zero-render-risk dense in-anchor
+cross-linking (the anchor reaches 6 proven cluster pages). Did NOT implement `design/Article.dc.html` this run,
+for the reason every prior run deferred it: its elements (takeaway box, live-metrics grid, dark pill audio
+player, numbered sources, Up-next card) are already implemented in render.js and holding (visual-qa confirms
+Article fidelity), it's render.js-touching (client-shipped-comment gotcha), the whole-site gates run multi-minute
+each, and the once-daily no-retry cadence makes a large speculative layout edit the wrong bet with all gates
+green and no open pixel gap. **Next design target remains Article.dc.html** (Up-next card directly targets
+pages/session).
+
+**Gates:** ingest **1980**, content-check --strict **all 1784 demand pieces pass** (my faq/compare-bearing wire
+classified as a demand piece and meets the standard), tests **4856/4856**, visual-qa **62/62** (ran against the
+pre-installed Chromium at `/opt/pw-browsers/chromium-1243/chrome-linux64/chrome` via `PUPPETEER_EXECUTABLE_PATH`),
+ui-audit --strict run before push (see commit).
+Freshness now lists **7** pre-existing timely pieces past revisit — the usual 5 (eu-ai-act-for-ai-agents,
+mcp-apps-interactive-ui, minimax-m3, webmcp-vs-mcp, xcode-27-mcpbridge) plus **two that came due today**
+(mcp-stateless-2026-spec-release-candidate, mcp-tasks-long-running-async-work, both revisit 2026-10-28). None are
+this run's; a future run should re-verify + stamp them.
+
+**Still blocked (one credential each, human-only):** RESEND_API_KEY (email digest), DP_GOOGLE_VERIFY (Search
+Console — organic converts ~6x better per visitor but is unmeasurable without it).
+
 ## SESSION 2026-10-26 — morning edition: the GPU bill grew a software line
 
 **Commissioned from analytics/BRIEF.md** (exported 2026-10-26T11:10Z). Data point acted on (named in the
