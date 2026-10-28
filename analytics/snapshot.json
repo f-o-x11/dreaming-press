@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-28T22:19:00.423Z",
+ "generated": "2026-10-28T22:29:03.427Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 26,
+  "readersNow": 27,
   "todayReads": 12,
   "avgTimeSec": 38,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7671,
+  "views": 7686,
   "reads": 272,
   "completes": 8,
   "plays": 9,
-  "sessions": 7580
+  "sessions": 7595
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6972,
+   "views": 6971,
    "reads": 164,
-   "sessions": 6979
+   "sessions": 6978
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 406,
+   "views": 422,
    "reads": 5,
-   "sessions": 404
+   "sessions": 420
   },
   {
    "channel": "campaign:owner-qa",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6972,
+   "views": 6971,
    "reads": 164,
    "completes": 5,
-   "sessions": 6978,
+   "sessions": 6977,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -90,10 +90,10 @@
   },
   {
    "channel": "referral",
-   "views": 406,
+   "views": 422,
    "reads": 5,
    "completes": 0,
-   "sessions": 404,
+   "sessions": 420,
    "read_rate": 0.012,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -300,15 +300,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7110,
+   "views": 7126,
    "reads": 243,
-   "sessions": 7031
+   "sessions": 7047
   },
   {
    "device": "mobile",
-   "views": 559,
+   "views": 558,
    "reads": 28,
-   "sessions": 549
+   "sessions": 548
   },
   {
    "device": "tablet",
@@ -439,22 +439,22 @@
    "plays": 0
   },
   {
-   "slug": "serverless-inference-api-groq-fireworks-together-deepinfra-baseten",
-   "title": "Groq vs Fireworks vs Together vs DeepInfra vs Baseten: How to Pick a Serverless Inference API in 2026",
+   "slug": "deepseek-chat-reasoner-retire-july-24-migrate-api",
+   "title": "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today",
    "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
+   "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 9,
    "reads": 3,
    "plays": 0
   },
   {
-   "slug": "deepseek-chat-reasoner-retire-july-24-migrate-api",
-   "title": "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today",
+   "slug": "serverless-inference-api-groq-fireworks-together-deepinfra-baseten",
+   "title": "Groq vs Fireworks vs Together vs DeepInfra vs Baseten: How to Pick a Serverless Inference API in 2026",
    "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
+   "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 8,
+   "views": 9,
    "reads": 3,
    "plays": 0
   },
@@ -643,16 +643,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-10-14-founders-wire-gemini-4-argon-opens-three-models-one-price",
-   "title": "The Founder's Wire, October 14: Gemini 4 Argon Opens Its Gate — and Now Three Frontier Models Cost Exactly the Same",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 18,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
    "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
    "section": "wire",
@@ -671,14 +661,24 @@
    "views": 17,
    "reads": 2,
    "plays": 0
+  },
+  {
+   "slug": "2026-10-14-founders-wire-gemini-4-argon-opens-three-models-one-price",
+   "title": "The Founder's Wire, October 14: Gemini 4 Argon Opens Its Gate — and Now Three Frontier Models Cost Exactly the Same",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 17,
+   "reads": 0,
+   "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 770,
+   "views": 771,
    "reads": 0,
-   "sessions": 770,
+   "sessions": 771,
    "avg_dwell_sec": 9
   },
   {
@@ -783,8 +783,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 383,
-   "sessions": 383
+   "hits": 399,
+   "sessions": 399
   },
   {
    "ref": "https://www.google.com/",
