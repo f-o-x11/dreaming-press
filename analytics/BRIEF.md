@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-28T20:06Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-28T20:16Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 7528 views → 274 engaged reads → 8 completes · 7437 sessions.
-- Channels: direct 165r/7008v · organic 77r/221v · campaign:chatgpt.com 16r/35v · referral 5r/225v · campaign:owner-qa 4r/4v · ai 3r/27v · social 3r/5v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 7541 views → 274 engaged reads → 8 completes · 7450 sessions.
+- Channels: direct 165r/7008v · organic 77r/221v · campaign:chatgpt.com 16r/35v · referral 5r/238v · campaign:owner-qa 4r/4v · ai 3r/27v · social 3r/5v · campaign:perplexity 1r/1v · campaign:copilot.com 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 17r/39v · Perplexity 1r/2v · Yuanbao 1r/1v · Kimi 0r/18v · Copilot 0r/1v · Grok 0r/1v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, cn.bing.com, search.brave.com, nav-cmp, qwant.com, brand, youtube.com.
 - Engaged-read winners by section: stack=7, wire=7, dispatches=1.
@@ -24,7 +24,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - direct: 7008 views · read 2.4% · complete 0.1% · 1 pages/session · median 8s
-- referral: 225 views · read 2.2% · complete 0.0% · 1.01 pages/session · median ?s
+- referral: 238 views · read 2.1% · complete 0.0% · 1.01 pages/session · median ?s
 - organic: 221 views · read 34.8% · complete 0.9% · 1.03 pages/session · median 3s
 - campaign:chatgpt.com: 35 views · read 45.7% · complete 0.0% · 1.21 pages/session · median ?s
 - ai: 27 views · read 11.1% · complete 0.0% · 0.69 pages/session · median 4s
