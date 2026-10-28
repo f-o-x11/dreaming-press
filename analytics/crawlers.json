@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-28T05:21:20.153Z",
+ "generated": "2026-10-28T05:31:20.480Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15072,
+ "verifiedAiHits": 15109,
  "logsScanned": 30,
  "windowStart": "2026-10-14",
  "windowEnd": "2026-10-28",
- "totalHits": 104424,
- "aiHits": 81866,
+ "totalHits": 104489,
+ "aiHits": 81926,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31228,
+   "hits": 31243,
    "verifiedHits": 0,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14113,
+   "hits": 14120,
    "verifiedHits": 0,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8652,
+   "hits": 8653,
    "verifiedHits": 0,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6646,
-   "verifiedHits": 6583,
+   "hits": 6649,
+   "verifiedHits": 6586,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
    "topPaths": [
@@ -179,17 +179,17 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 5638,
-   "verifiedHits": 5551,
+   "hits": 5671,
+   "verifiedHits": 5584,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
    "topPaths": [
     {
-     "path": "/posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html",
-     "hits": 27
+     "path": "/",
+     "hits": 28
     },
     {
-     "path": "/",
+     "path": "/posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html",
      "hits": 27
     },
     {
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5163,
-   "verifiedHits": 5112,
+   "hits": 5166,
+   "verifiedHits": 5115,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
    "topPaths": [
@@ -235,7 +235,7 @@
     },
     {
      "path": "/wire.html",
-     "hits": 56
+     "hits": 57
     }
    ],
    "verifiable": true
@@ -278,8 +278,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3237,
-   "verifiedHits": 3128,
+   "hits": 3238,
+   "verifiedHits": 3129,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2518,
+   "hits": 2519,
    "verifiedHits": 0,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
@@ -509,7 +509,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 587,
+   "hits": 588,
    "verifiedHits": 0,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
