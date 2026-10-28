@@ -1,30 +1,30 @@
 {
- "generated": "2026-10-28T13:09:00.192Z",
+ "generated": "2026-10-28T13:19:10.335Z",
  "windowDays": 14,
  "site": {
   "readersNow": 5,
-  "todayReads": 6,
+  "todayReads": 7,
   "avgTimeSec": 12,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7348,
-  "reads": 271,
+  "views": 7346,
+  "reads": 272,
   "completes": 8,
   "plays": 9,
-  "sessions": 7256
+  "sessions": 7254
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 7002,
+   "views": 6999,
    "reads": 164,
-   "sessions": 7007
+   "sessions": 7003
   },
   {
    "channel": "organic",
    "views": 222,
-   "reads": 75,
+   "reads": 76,
    "sessions": 215
   },
   {
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 51,
+   "views": 52,
    "reads": 5,
-   "sessions": 49
+   "sessions": 50
   },
   {
    "channel": "campaign:owner-qa",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 7002,
+   "views": 6999,
    "reads": 164,
    "completes": 5,
-   "sessions": 7006,
+   "sessions": 7002,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -97,21 +97,21 @@
   {
    "channel": "organic",
    "views": 222,
-   "reads": 75,
+   "reads": 76,
    "completes": 2,
    "sessions": 215,
-   "read_rate": 0.338,
+   "read_rate": 0.342,
    "complete_rate": 0.009,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
   },
   {
    "channel": "referral",
-   "views": 51,
+   "views": 52,
    "reads": 5,
    "completes": 0,
-   "sessions": 49,
-   "read_rate": 0.098,
+   "sessions": 50,
+   "read_rate": 0.096,
    "complete_rate": 0,
    "pages_per_session": 1.04,
    "median_dwell_sec": null
@@ -323,9 +323,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6789,
-   "reads": 240,
-   "sessions": 6709
+   "views": 6787,
+   "reads": 241,
+   "sessions": 6707
   },
   {
    "device": "mobile",
@@ -661,7 +661,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 23,
+   "views": 22,
    "reads": 0,
    "plays": 0
   },
@@ -811,7 +811,7 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 73,
+   "hits": 74,
    "sessions": 38
   },
   {
@@ -821,8 +821,8 @@
   },
   {
    "ref": "https://www.aocr.org/",
-   "hits": 28,
-   "sessions": 28
+   "hits": 29,
+   "sessions": 29
   },
   {
    "ref": "https://cn.bing.com/",
