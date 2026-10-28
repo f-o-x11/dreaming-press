@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-28T00:59:00.089Z",
+ "generated": "2026-10-28T01:09:10.043Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14911,
+ "verifiedAiHits": 14915,
  "logsScanned": 30,
  "windowStart": "2026-10-14",
  "windowEnd": "2026-10-28",
- "totalHits": 103077,
- "aiHits": 80872,
+ "totalHits": 103136,
+ "aiHits": 80906,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30717,
+   "hits": 30738,
    "verifiedHits": 0,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
@@ -32,12 +32,12 @@
      "hits": 23
     },
     {
-     "path": "/posts/2026-10-05-founders-wire-anthropic-s1-openai-subpoena-ibm-sovereign.html",
+     "path": "/posts/2026-10-01-founders-wire-openai-1-4t-instinct-10b-salesforce-aiforce.html",
      "hits": 16
     },
     {
-     "path": "/posts/china-persona-law-took-effect-what-founders-do.html",
-     "hits": 15
+     "path": "/posts/2026-10-05-founders-wire-anthropic-s1-openai-subpoena-ibm-sovereign.html",
+     "hits": 16
     }
    ],
    "verifiable": false
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14468,
+   "hits": 14469,
    "verifiedHits": 0,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13925,
+   "hits": 13933,
    "verifiedHits": 0,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8555,
+   "hits": 8563,
    "verifiedHits": 0,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5114,
-   "verifiedHits": 5063,
+   "hits": 5117,
+   "verifiedHits": 5066,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 3836,
+   "hits": 3853,
    "verifiedHits": 0,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
@@ -278,14 +278,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3218,
-   "verifiedHits": 3109,
+   "hits": 3219,
+   "verifiedHits": 3110,
    "firstSeen": "2026-10-14",
    "lastSeen": "2026-10-28",
    "topPaths": [
     {
      "path": "/",
-     "hits": 788
+     "hits": 789
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
