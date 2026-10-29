@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-29T20:30:10.437Z",
+ "generated": "2026-10-29T20:40:20.368Z",
  "windowDays": 14,
  "site": {
   "readersNow": 23,
@@ -8,18 +8,18 @@
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 10145,
+  "views": 10159,
   "reads": 275,
   "completes": 7,
   "plays": 5,
-  "sessions": 10055
+  "sessions": 10069
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6837,
+   "views": 6839,
    "reads": 165,
-   "sessions": 6841
+   "sessions": 6843
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 3022,
+   "views": 3034,
    "reads": 11,
-   "sessions": 3020
+   "sessions": 3032
   },
   {
    "channel": "campaign:owner-qa",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6837,
+   "views": 6839,
    "reads": 165,
    "completes": 6,
-   "sessions": 6840,
+   "sessions": 6842,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,10 +96,10 @@
   },
   {
    "channel": "referral",
-   "views": 3022,
+   "views": 3034,
    "reads": 11,
    "completes": 0,
-   "sessions": 3020,
+   "sessions": 3032,
    "read_rate": 0.004,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -317,9 +317,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9596,
+   "views": 9610,
    "reads": 247,
-   "sessions": 9518
+   "sessions": 9532
   },
   {
    "device": "mobile",
@@ -361,7 +361,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 45,
+   "views": 47,
    "reads": 12,
    "plays": 1
   },
@@ -431,7 +431,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 9,
+   "views": 10,
    "reads": 4,
    "plays": 0
   },
@@ -456,6 +456,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-21-n8n-vs-flowise-vs-langflow",
+   "title": "n8n vs Flowise vs Langflow: Choosing a Visual Agent Builder in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 13,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "deepseek-chat-reasoner-retire-july-24-migrate-api",
    "title": "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today",
    "section": "stack",
@@ -472,16 +482,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 12,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-21-n8n-vs-flowise-vs-langflow",
-   "title": "n8n vs Flowise vs Langflow: Choosing a Visual Agent Builder in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 11,
    "reads": 3,
    "plays": 0
   }
@@ -503,7 +503,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 45,
+   "views": 47,
    "reads": 12,
    "plays": 1
   },
@@ -605,7 +605,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 45,
+   "views": 47,
    "reads": 12,
    "plays": 1
   },
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3008,
-   "sessions": 3002
+   "hits": 3020,
+   "sessions": 3014
   },
   {
    "ref": "https://www.google.com/",
