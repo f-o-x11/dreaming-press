@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-29T01:01:00.128Z",
+ "generated": "2026-10-29T01:11:08.167Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 35,
-  "todayReads": 1,
-  "avgTimeSec": 0,
+  "readersNow": 26,
+  "todayReads": 2,
+  "avgTimeSec": 63,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 7935,
-  "reads": 273,
+  "views": 7948,
+  "reads": 274,
   "completes": 8,
   "plays": 9,
-  "sessions": 7844
+  "sessions": 7857
  },
  "channels": [
   {
    "channel": "direct",
    "views": 6937,
-   "reads": 164,
-   "sessions": 6944
+   "reads": 165,
+   "sessions": 6945
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 706,
+   "views": 718,
    "reads": 6,
-   "sessions": 704
+   "sessions": 716
   },
   {
    "channel": "campaign:owner-qa",
@@ -47,9 +47,9 @@
   },
   {
    "channel": "ai",
-   "views": 27,
+   "views": 28,
    "reads": 3,
-   "sessions": 38
+   "sessions": 39
   },
   {
    "channel": "social",
@@ -80,9 +80,9 @@
   {
    "channel": "direct",
    "views": 6937,
-   "reads": 164,
+   "reads": 165,
    "completes": 5,
-   "sessions": 6943,
+   "sessions": 6944,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -90,10 +90,10 @@
   },
   {
    "channel": "referral",
-   "views": 706,
+   "views": 718,
    "reads": 6,
    "completes": 0,
-   "sessions": 704,
+   "sessions": 716,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 27,
+   "views": 28,
    "reads": 3,
    "completes": 0,
-   "sessions": 38,
-   "read_rate": 0.111,
+   "sessions": 39,
+   "read_rate": 0.107,
    "complete_rate": 0,
-   "pages_per_session": 0.71,
+   "pages_per_session": 0.72,
    "median_dwell_sec": 4
   },
   {
@@ -273,16 +273,16 @@
    "sessions": 28
   },
   {
-   "assistant": "Perplexity",
+   "assistant": "Yuanbao",
    "views": 2,
    "reads": 1,
    "sessions": 2
   },
   {
-   "assistant": "Yuanbao",
-   "views": 1,
+   "assistant": "Perplexity",
+   "views": 2,
    "reads": 1,
-   "sessions": 1
+   "sessions": 2
   },
   {
    "assistant": "Kimi",
@@ -300,9 +300,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7375,
-   "reads": 244,
-   "sessions": 7296
+   "views": 7388,
+   "reads": 245,
+   "sessions": 7309
   },
   {
    "device": "mobile",
@@ -324,7 +324,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 130,
+   "views": 128,
    "reads": 35,
    "plays": 1
   },
@@ -486,7 +486,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 130,
+   "views": 128,
    "reads": 35,
    "plays": 1
   },
@@ -578,7 +578,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 130,
+   "views": 128,
    "reads": 35,
    "plays": 1
   },
@@ -783,8 +783,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 685,
-   "sessions": 684
+   "hits": 697,
+   "sessions": 696
   },
   {
    "ref": "https://www.google.com/",
