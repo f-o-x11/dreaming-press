@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-29T15:14:40.361Z",
+ "generated": "2026-10-29T15:25:00.402Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 36,
+  "readersNow": 53,
   "todayReads": 15,
   "avgTimeSec": 22,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 9580,
-  "reads": 271,
+  "views": 9611,
+  "reads": 270,
   "completes": 7,
   "plays": 5,
-  "sessions": 9490
+  "sessions": 9521
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6907,
+   "views": 6905,
    "reads": 162,
-   "sessions": 6913
+   "sessions": 6910
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 2384,
+   "views": 2418,
    "reads": 8,
-   "sessions": 2382
+   "sessions": 2416
   },
   {
    "channel": "campaign:owner-qa",
@@ -53,9 +53,9 @@
   },
   {
    "channel": "social",
-   "views": 5,
-   "reads": 3,
-   "sessions": 5
+   "views": 4,
+   "reads": 2,
+   "sessions": 4
   },
   {
    "channel": "campaign:perplexity",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6907,
+   "views": 6905,
    "reads": 162,
    "completes": 6,
-   "sessions": 6912,
+   "sessions": 6909,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,10 +96,10 @@
   },
   {
    "channel": "referral",
-   "views": 2384,
+   "views": 2418,
    "reads": 8,
    "completes": 0,
-   "sessions": 2382,
+   "sessions": 2416,
    "read_rate": 0.003,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -139,17 +139,6 @@
    "median_dwell_sec": 4
   },
   {
-   "channel": "social",
-   "views": 5,
-   "reads": 3,
-   "completes": 0,
-   "sessions": 5,
-   "read_rate": 0.6,
-   "complete_rate": 0,
-   "pages_per_session": 1,
-   "median_dwell_sec": null
-  },
-  {
    "channel": "campaign:owner-qa",
    "views": 4,
    "reads": 4,
@@ -158,6 +147,17 @@
    "read_rate": 1,
    "complete_rate": 0,
    "pages_per_session": 1.33,
+   "median_dwell_sec": null
+  },
+  {
+   "channel": "social",
+   "views": 4,
+   "reads": 2,
+   "completes": 0,
+   "sessions": 4,
+   "read_rate": 0.5,
+   "complete_rate": 0,
+   "pages_per_session": 1,
    "median_dwell_sec": null
   },
   {
@@ -317,9 +317,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9022,
-   "reads": 243,
-   "sessions": 8944
+   "views": 9053,
+   "reads": 242,
+   "sessions": 8975
   },
   {
    "device": "mobile",
@@ -351,7 +351,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 33,
+   "views": 32,
    "reads": 14,
    "plays": 0
   },
@@ -381,7 +381,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 31,
+   "views": 32,
    "reads": 5,
    "plays": 0
   },
@@ -543,7 +543,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 33,
+   "views": 32,
    "reads": 14,
    "plays": 0
   },
@@ -563,7 +563,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 31,
+   "views": 32,
    "reads": 5,
    "plays": 0
   },
@@ -615,7 +615,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 33,
+   "views": 32,
    "reads": 14,
    "plays": 0
   },
@@ -625,7 +625,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 31,
+   "views": 32,
    "reads": 5,
    "plays": 0
   },
@@ -645,7 +645,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 25,
+   "views": 26,
    "reads": 1,
    "plays": 0
   },
@@ -693,9 +693,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 800,
+   "views": 801,
    "reads": 0,
-   "sessions": 800,
+   "sessions": 801,
    "avg_dwell_sec": 9
   },
   {
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 2367,
-   "sessions": 2364
+   "hits": 2401,
+   "sessions": 2398
   },
   {
    "ref": "https://www.google.com/",
@@ -834,11 +834,6 @@
    "sessions": 3
   },
   {
-   "ref": "https://www.qwant.com/",
-   "hits": 7,
-   "sessions": 4
-  },
-  {
    "ref": "brand",
    "hits": 7,
    "sessions": 6
@@ -847,6 +842,11 @@
    "ref": "https://www.youtube.com/",
    "hits": 6,
    "sessions": 4
+  },
+  {
+   "ref": "https://www.qwant.com/",
+   "hits": 5,
+   "sessions": 3
   }
  ]
 }
