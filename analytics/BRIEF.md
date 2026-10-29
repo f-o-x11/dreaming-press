@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-29T20:40Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-29T20:50Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 10159 views → 275 engaged reads → 7 completes · 10069 sessions.
-- Channels: direct 165r/6839v · organic 74r/213v · campaign:chatgpt.com 15r/34v · referral 11r/3034v · campaign:owner-qa 4r/4v · ai 3r/28v · social 2r/4v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 10171 views → 275 engaged reads → 7 completes · 10081 sessions.
+- Channels: direct 165r/6837v · organic 74r/213v · campaign:chatgpt.com 15r/34v · referral 11r/3048v · campaign:owner-qa 4r/4v · ai 3r/28v · social 2r/4v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 16r/38v · Yuanbao 1r/2v · Perplexity 1r/2v · Kimi 0r/18v · Grok 0r/1v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, cn.bing.com, search.brave.com, nav-cmp, brand, youtube.com, qwant.com.
 - Engaged-read winners by section: stack=9, wire=6.
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 6839 views · read 2.4% · complete 0.1% · 1 pages/session · median 8s
-- referral: 3034 views · read 0.4% · complete 0.0% · 1 pages/session · median ?s
+- direct: 6837 views · read 2.4% · complete 0.1% · 1 pages/session · median 8s
+- referral: 3048 views · read 0.4% · complete 0.0% · 1 pages/session · median ?s
 - organic: 213 views · read 34.7% · complete 0.5% · 1.03 pages/session · median 3s
 - campaign:chatgpt.com: 34 views · read 44.1% · complete 0.0% · 1.21 pages/session · median ?s
 - ai: 28 views · read 10.7% · complete 0.0% · 0.72 pages/session · median 4s
@@ -40,7 +40,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 12 reads, 47 views, 1 listens
 - [stack] "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)" — 7 reads, 21 views, 0 listens
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 5 reads, 32 views, 0 listens
-- [wire] "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo" — 5 reads, 13 views, 0 listens
+- [wire] "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo" — 5 reads, 14 views, 0 listens
 - [wire] "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents" — 5 reads, 7 views, 0 listens
 - [wire] "The Founder's Wire, October 15: Anthropic Opened Its Books — $16.8B, an 85% Margin, and $1.70 of Revenue for Every $1 of Compute" — 4 reads, 18 views, 0 listens
 - [stack] "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't" — 4 reads, 13 views, 0 listens
@@ -62,7 +62,7 @@ so what these earn from humans is the other half of the picture.
 - / — 127 views, 4 reads, 130 sessions, avg 16s
 - /tags/reportive — 61 views, 0 reads, 61 sessions
 - /best/:cat — 57 views, 0 reads, 57 sessions, avg 5s
-- /alternatives/:tool — 54 views, 0 reads, 54 sessions, avg 6s
+- /alternatives/:tool — 53 views, 0 reads, 53 sessions, avg 6s
 - /tags/opinionated — 52 views, 0 reads, 52 sessions
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
