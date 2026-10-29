@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-29T17:07Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-29T17:17Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 9833 views → 270 engaged reads → 7 completes · 9743 sessions.
-- Channels: direct 161r/6861v · organic 75r/215v · campaign:chatgpt.com 15r/34v · referral 9r/2684v · campaign:owner-qa 4r/4v · ai 3r/28v · social 2r/4v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 9853 views → 271 engaged reads → 7 completes · 9761 sessions.
+- Channels: direct 162r/6863v · organic 75r/215v · campaign:chatgpt.com 15r/34v · referral 9r/2702v · campaign:owner-qa 4r/4v · ai 3r/28v · social 2r/4v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 16r/38v · Yuanbao 1r/2v · Perplexity 1r/2v · Kimi 0r/18v · Grok 0r/1v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, cn.bing.com, search.brave.com, nav-cmp, brand, youtube.com, qwant.com.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,13 +23,13 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 6861 views · read 2.3% · complete 0.1% · 1 pages/session · median 8s
-- referral: 2684 views · read 0.3% · complete 0.0% · 1 pages/session · median ?s
+- direct: 6863 views · read 2.4% · complete 0.1% · 1 pages/session · median 8s
+- referral: 2702 views · read 0.3% · complete 0.0% · 1 pages/session · median ?s
 - organic: 215 views · read 34.9% · complete 0.5% · 1.04 pages/session · median 3s
 - campaign:chatgpt.com: 34 views · read 44.1% · complete 0.0% · 1.21 pages/session · median ?s
 - ai: 28 views · read 10.7% · complete 0.0% · 0.72 pages/session · median 4s
 - campaign:owner-qa: 4 views · read 100.0% · complete 0.0% · 1.33 pages/session · median ?s
-INSIGHT: campaign:chatgpt.com converts 19x better per view than direct, which is 70% of all views.
+INSIGHT: campaign:chatgpt.com converts 18x better per view than direct, which is 70% of all views.
 One visitor from campaign:chatgpt.com is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
@@ -37,7 +37,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Top by engaged reads (eyes that stayed)
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 33 reads, 121 views, 1 listens
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 14 reads, 32 views, 0 listens
-- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 13 reads, 46 views, 1 listens
+- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 12 reads, 45 views, 1 listens
 - [stack] "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)" — 7 reads, 21 views, 0 listens
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 5 reads, 32 views, 0 listens
 - [wire] "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo" — 5 reads, 12 views, 0 listens
@@ -48,7 +48,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 1 listens, 33 reads
-- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 1 listens, 13 reads
+- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 1 listens, 12 reads
 - [wire] "CIMD vs Dynamic Client Registration: How MCP Clients Register After July 28" — 1 listens, 2 reads
 - [stack] "How to Show Users What Your AI Agent Is Doing Right Now" — 1 listens, 1 reads
 - [stack] "Moonshot Retires kimi-k2.5 and moonshot-v1 on August 31 — Migrate Your API Calls Now" — 1 listens, 0 reads
@@ -56,7 +56,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 795 views, 0 reads, 795 sessions, avg 9s
+- /stack/:tool — 797 views, 0 reads, 797 sessions, avg 9s
 - /compare/:pair — 363 views, 2 reads, 362 sessions, avg 36s
 - /build — 164 views, 0 reads, 164 sessions
 - / — 128 views, 4 reads, 131 sessions, avg 15s
@@ -69,7 +69,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 121 views, 33 reads
-- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 46 views, 13 reads
+- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 45 views, 12 reads
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 32 views, 14 reads
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 32 views, 5 reads
 - [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 29 views, 0 reads

@@ -1,24 +1,24 @@
 {
- "generated": "2026-10-29T17:07:00.367Z",
+ "generated": "2026-10-29T17:17:00.566Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 22,
-  "todayReads": 17,
-  "avgTimeSec": 25,
+  "readersNow": 25,
+  "todayReads": 19,
+  "avgTimeSec": 29,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 9833,
-  "reads": 270,
+  "views": 9853,
+  "reads": 271,
   "completes": 7,
   "plays": 5,
-  "sessions": 9743
+  "sessions": 9761
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6861,
-   "reads": 161,
+   "views": 6863,
+   "reads": 162,
    "sessions": 6867
   },
   {
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 2684,
+   "views": 2702,
    "reads": 9,
-   "sessions": 2682
+   "sessions": 2700
   },
   {
    "channel": "campaign:owner-qa",
@@ -85,21 +85,21 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6861,
-   "reads": 161,
+   "views": 6863,
+   "reads": 162,
    "completes": 6,
    "sessions": 6866,
-   "read_rate": 0.023,
+   "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
    "median_dwell_sec": 8
   },
   {
    "channel": "referral",
-   "views": 2684,
+   "views": 2702,
    "reads": 9,
    "completes": 0,
-   "sessions": 2682,
+   "sessions": 2700,
    "read_rate": 0.003,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -317,9 +317,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9282,
-   "reads": 242,
-   "sessions": 9204
+   "views": 9302,
+   "reads": 243,
+   "sessions": 9222
   },
   {
    "device": "mobile",
@@ -361,8 +361,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 46,
-   "reads": 13,
+   "views": 45,
+   "reads": 12,
    "plays": 1
   },
   {
@@ -503,8 +503,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 46,
-   "reads": 13,
+   "views": 45,
+   "reads": 12,
    "plays": 1
   },
   {
@@ -605,8 +605,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 46,
-   "reads": 13,
+   "views": 45,
+   "reads": 12,
    "plays": 1
   },
   {
@@ -693,9 +693,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 795,
+   "views": 797,
    "reads": 0,
-   "sessions": 795,
+   "sessions": 797,
    "avg_dwell_sec": 9
   },
   {
@@ -763,17 +763,17 @@
   },
   {
    "path": "/agents.html",
-   "views": 24,
-   "reads": 5,
-   "sessions": 23,
+   "views": 26,
+   "reads": 6,
+   "sessions": 25,
    "avg_dwell_sec": 84
   },
   {
    "path": "/submit.html",
-   "views": 22,
-   "reads": 6,
-   "sessions": 22,
-   "avg_dwell_sec": 87
+   "views": 23,
+   "reads": 7,
+   "sessions": 23,
+   "avg_dwell_sec": 81
   },
   {
    "path": "/topics/:topic",
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 2668,
-   "sessions": 2664
+   "hits": 2686,
+   "sessions": 2682
   },
   {
    "ref": "https://www.google.com/",
