@@ -1,30 +1,30 @@
 {
- "generated": "2026-10-29T19:29:07.845Z",
+ "generated": "2026-10-29T19:39:10.603Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 23,
+  "readersNow": 20,
   "todayReads": 24,
   "avgTimeSec": 37,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 10066,
-  "reads": 276,
+  "views": 10077,
+  "reads": 275,
   "completes": 7,
   "plays": 5,
-  "sessions": 9975
+  "sessions": 9987
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6850,
+   "views": 6848,
    "reads": 165,
-   "sessions": 6855
+   "sessions": 6853
   },
   {
    "channel": "organic",
-   "views": 215,
-   "reads": 75,
+   "views": 214,
+   "reads": 74,
    "sessions": 207
   },
   {
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 2928,
+   "views": 2942,
    "reads": 11,
-   "sessions": 2926
+   "sessions": 2940
   },
   {
    "channel": "campaign:owner-qa",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6850,
+   "views": 6848,
    "reads": 165,
    "completes": 6,
-   "sessions": 6854,
+   "sessions": 6852,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,10 +96,10 @@
   },
   {
    "channel": "referral",
-   "views": 2928,
+   "views": 2942,
    "reads": 11,
    "completes": 0,
-   "sessions": 2926,
+   "sessions": 2940,
    "read_rate": 0.004,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -107,13 +107,13 @@
   },
   {
    "channel": "organic",
-   "views": 215,
-   "reads": 75,
+   "views": 214,
+   "reads": 74,
    "completes": 1,
    "sessions": 207,
-   "read_rate": 0.349,
+   "read_rate": 0.346,
    "complete_rate": 0.005,
-   "pages_per_session": 1.04,
+   "pages_per_session": 1.03,
    "median_dwell_sec": 3
   },
   {
@@ -317,15 +317,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9516,
-   "reads": 248,
-   "sessions": 9437
+   "views": 9528,
+   "reads": 247,
+   "sessions": 9450
   },
   {
    "device": "mobile",
-   "views": 548,
+   "views": 547,
    "reads": 27,
-   "sessions": 538
+   "sessions": 537
   },
   {
    "device": "tablet",
@@ -351,8 +351,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 32,
-   "reads": 14,
+   "views": 31,
+   "reads": 13,
    "plays": 0
   },
   {
@@ -391,7 +391,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 13,
+   "views": 12,
    "reads": 5,
    "plays": 0
   },
@@ -543,8 +543,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 32,
-   "reads": 14,
+   "views": 31,
+   "reads": 13,
    "plays": 0
   },
   {
@@ -573,7 +573,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 13,
+   "views": 12,
    "reads": 5,
    "plays": 0
   },
@@ -610,16 +610,6 @@
    "plays": 1
   },
   {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 32,
-   "reads": 14,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -627,6 +617,16 @@
    "author": "dex",
    "views": 32,
    "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 31,
+   "reads": 13,
    "plays": 0
   },
   {
@@ -693,9 +693,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 801,
+   "views": 803,
    "reads": 0,
-   "sessions": 801,
+   "sessions": 803,
    "avg_dwell_sec": 9
   },
   {
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 2914,
-   "sessions": 2908
+   "hits": 2928,
+   "sessions": 2922
   },
   {
    "ref": "https://www.google.com/",
@@ -810,7 +810,7 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 72,
+   "hits": 70,
    "sessions": 40
   },
   {
