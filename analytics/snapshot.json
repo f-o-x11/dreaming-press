@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-29T12:12:00.494Z",
+ "generated": "2026-10-29T12:22:10.325Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 42,
+  "readersNow": 37,
   "todayReads": 11,
   "avgTimeSec": 20,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 9135,
-  "reads": 272,
+  "views": 9154,
+  "reads": 271,
   "completes": 6,
   "plays": 5,
-  "sessions": 9044
+  "sessions": 9063
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6908,
-   "reads": 164,
-   "sessions": 6913
+   "views": 6909,
+   "reads": 163,
+   "sessions": 6914
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 1937,
+   "views": 1955,
    "reads": 6,
-   "sessions": 1935
+   "sessions": 1953
   },
   {
    "channel": "campaign:owner-qa",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6908,
-   "reads": 164,
+   "views": 6909,
+   "reads": 163,
    "completes": 5,
-   "sessions": 6912,
+   "sessions": 6913,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,10 +96,10 @@
   },
   {
    "channel": "referral",
-   "views": 1937,
+   "views": 1955,
    "reads": 6,
    "completes": 0,
-   "sessions": 1935,
+   "sessions": 1953,
    "read_rate": 0.003,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -317,9 +317,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 8582,
-   "reads": 244,
-   "sessions": 8503
+   "views": 8601,
+   "reads": 243,
+   "sessions": 8522
   },
   {
    "device": "mobile",
@@ -665,7 +665,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 20,
+   "views": 21,
    "reads": 1,
    "plays": 0
   },
@@ -693,9 +693,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 789,
+   "views": 790,
    "reads": 0,
-   "sessions": 789,
+   "sessions": 790,
    "avg_dwell_sec": 9
   },
   {
@@ -714,9 +714,9 @@
   },
   {
    "path": "/",
-   "views": 126,
+   "views": 127,
    "reads": 4,
-   "sessions": 129,
+   "sessions": 130,
    "avg_dwell_sec": 15
   },
   {
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 1918,
-   "sessions": 1917
+   "hits": 1936,
+   "sessions": 1935
   },
   {
    "ref": "https://www.google.com/",
