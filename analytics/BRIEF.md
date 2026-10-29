@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-29T16:16Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-29T16:26Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 9736 views → 268 engaged reads → 7 completes · 9646 sessions.
-- Channels: direct 160r/6883v · organic 75r/215v · campaign:chatgpt.com 15r/34v · referral 8r/2565v · campaign:owner-qa 4r/4v · ai 3r/28v · social 2r/4v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 9759 views → 269 engaged reads → 7 completes · 9669 sessions.
+- Channels: direct 160r/6880v · organic 75r/216v · campaign:chatgpt.com 15r/34v · referral 9r/2590v · campaign:owner-qa 4r/4v · ai 3r/28v · social 2r/4v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 16r/38v · Yuanbao 1r/2v · Perplexity 1r/2v · Kimi 0r/18v · Grok 0r/1v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, cn.bing.com, search.brave.com, nav-cmp, brand, youtube.com, qwant.com.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,13 +23,13 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 6883 views · read 2.3% · complete 0.1% · 1 pages/session · median 8s
-- referral: 2565 views · read 0.3% · complete 0.0% · 1 pages/session · median ?s
-- organic: 215 views · read 34.9% · complete 0.5% · 1.04 pages/session · median 3s
+- direct: 6880 views · read 2.3% · complete 0.1% · 1 pages/session · median 8s
+- referral: 2590 views · read 0.3% · complete 0.0% · 1 pages/session · median ?s
+- organic: 216 views · read 34.7% · complete 0.5% · 1.04 pages/session · median 3s
 - campaign:chatgpt.com: 34 views · read 44.1% · complete 0.0% · 1.21 pages/session · median ?s
 - ai: 28 views · read 10.7% · complete 0.0% · 0.72 pages/session · median 4s
 - campaign:owner-qa: 4 views · read 100.0% · complete 0.0% · 1.33 pages/session · median ?s
-INSIGHT: campaign:chatgpt.com converts 19x better per view than direct, which is 71% of all views.
+INSIGHT: campaign:chatgpt.com converts 19x better per view than direct, which is 70% of all views.
 One visitor from campaign:chatgpt.com is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
@@ -56,12 +56,12 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 794 views, 0 reads, 794 sessions, avg 9s
-- /compare/:pair — 362 views, 2 reads, 361 sessions, avg 36s
+- /stack/:tool — 795 views, 0 reads, 795 sessions, avg 9s
+- /compare/:pair — 363 views, 2 reads, 362 sessions, avg 36s
 - /build — 164 views, 0 reads, 164 sessions
 - / — 129 views, 4 reads, 132 sessions, avg 15s
 - /tags/reportive — 61 views, 0 reads, 61 sessions
-- /best/:cat — 58 views, 0 reads, 58 sessions, avg 5s
+- /best/:cat — 57 views, 0 reads, 57 sessions, avg 5s
 - /alternatives/:tool — 54 views, 0 reads, 54 sessions, avg 6s
 - /tags/opinionated — 52 views, 0 reads, 52 sessions
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
@@ -73,7 +73,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 32 views, 14 reads
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 32 views, 5 reads
 - [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 29 views, 0 reads
-- [stack] "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent" — 27 views, 1 reads
+- [stack] "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent" — 28 views, 1 reads
 
 ## Arrived but left (fix these openings first)
 These pulled real traffic and then lost it. The click already worked, so the
@@ -81,7 +81,7 @@ problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 29 views but only 0 engaged reads (0.0%)
-- [stack] "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent" — 27 views but only 1 engaged reads (3.7%)
+- [stack] "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent" — 28 views but only 1 engaged reads (3.6%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
@@ -118,7 +118,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Uncovered search demand (244 of 456 phrases have NO post, 52h ago)
+## Uncovered search demand (244 of 456 phrases have NO post, 53h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
