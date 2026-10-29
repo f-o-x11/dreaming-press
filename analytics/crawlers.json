@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-29T11:11:29.941Z",
+ "generated": "2026-10-29T11:21:37.710Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17245,
+ "verifiedAiHits": 17248,
  "logsScanned": 30,
  "windowStart": "2026-10-15",
  "windowEnd": "2026-10-29",
- "totalHits": 107931,
- "aiHits": 85058,
+ "totalHits": 107989,
+ "aiHits": 85113,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31026,
+   "hits": 31040,
    "verifiedHits": 0,
    "firstSeen": "2026-10-15",
    "lastSeen": "2026-10-29",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15678,
+   "hits": 15706,
    "verifiedHits": 0,
    "firstSeen": "2026-10-15",
    "lastSeen": "2026-10-29",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14380,
+   "hits": 14387,
    "verifiedHits": 0,
    "firstSeen": "2026-10-15",
    "lastSeen": "2026-10-29",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8852,
+   "hits": 8855,
    "verifiedHits": 0,
    "firstSeen": "2026-10-15",
    "lastSeen": "2026-10-29",
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 5384,
-   "verifiedHits": 5297,
+   "hits": 5386,
+   "verifiedHits": 5299,
    "firstSeen": "2026-10-15",
    "lastSeen": "2026-10-29",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 5066,
-   "verifiedHits": 5015,
+   "hits": 5067,
+   "verifiedHits": 5016,
    "firstSeen": "2026-10-15",
    "lastSeen": "2026-10-29",
    "topPaths": [
@@ -410,14 +410,18 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1612,
+   "hits": 1615,
    "verifiedHits": 0,
    "firstSeen": "2026-10-15",
    "lastSeen": "2026-10-29",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 29
+     "hits": 31
+    },
+    {
+     "path": "/dispatches.html",
+     "hits": 3
     },
     {
      "path": "/posts/sakana-fugu-cyber-benchmark-gap-verify-before-agent-access.html",
@@ -430,10 +434,6 @@
     {
      "path": "/posts/gemini-3-6-flash-vs-kimi-k3-cheapest-agent-backend-july-2026.html",
      "hits": 3
-    },
-    {
-     "path": "/newsroom",
-     "hits": 2
     }
    ],
    "verifiable": false

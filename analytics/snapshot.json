@@ -1,30 +1,30 @@
 {
- "generated": "2026-10-29T11:11:30.237Z",
+ "generated": "2026-10-29T11:21:38.026Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 24,
+  "readersNow": 33,
   "todayReads": 11,
-  "avgTimeSec": 21,
+  "avgTimeSec": 20,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 9003,
-  "reads": 274,
-  "completes": 8,
-  "plays": 8,
-  "sessions": 8910
+  "views": 9025,
+  "reads": 273,
+  "completes": 7,
+  "plays": 7,
+  "sessions": 8933
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6919,
+   "views": 6920,
    "reads": 164,
-   "sessions": 6924
+   "sessions": 6925
   },
   {
    "channel": "organic",
-   "views": 218,
-   "reads": 78,
+   "views": 217,
+   "reads": 77,
    "sessions": 210
   },
   {
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 1792,
+   "views": 1814,
    "reads": 6,
-   "sessions": 1790
+   "sessions": 1812
   },
   {
    "channel": "campaign:owner-qa",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6919,
+   "views": 6920,
    "reads": 164,
    "completes": 5,
-   "sessions": 6923,
+   "sessions": 6924,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,10 +96,10 @@
   },
   {
    "channel": "referral",
-   "views": 1792,
+   "views": 1814,
    "reads": 6,
    "completes": 0,
-   "sessions": 1790,
+   "sessions": 1812,
    "read_rate": 0.003,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -107,13 +107,13 @@
   },
   {
    "channel": "organic",
-   "views": 218,
-   "reads": 78,
-   "completes": 2,
+   "views": 217,
+   "reads": 77,
+   "completes": 1,
    "sessions": 210,
-   "read_rate": 0.358,
-   "complete_rate": 0.009,
-   "pages_per_session": 1.04,
+   "read_rate": 0.355,
+   "complete_rate": 0.005,
+   "pages_per_session": 1.03,
    "median_dwell_sec": 3
   },
   {
@@ -317,9 +317,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 8448,
-   "reads": 246,
-   "sessions": 8367
+   "views": 8470,
+   "reads": 245,
+   "sessions": 8390
   },
   {
    "device": "mobile",
@@ -488,16 +488,6 @@
  ],
  "topListens": [
   {
-   "slug": "tool-result-too-large-for-context-window",
-   "title": "How to Handle a Tool Result Too Large for the Context Window: Truncate, Paginate, or Hand Back a Handle",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 3,
-   "plays": 2
-  },
-  {
    "slug": "ai-agent-frameworks-whats-changed-fall-2026",
    "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
    "section": "stack",
@@ -520,6 +510,16 @@
   {
    "slug": "cimd-vs-dynamic-client-registration-mcp",
    "title": "CIMD vs Dynamic Client Registration: How MCP Clients Register After July 28",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
+   "reads": 2,
+   "plays": 1
+  },
+  {
+   "slug": "tool-result-too-large-for-context-window",
+   "title": "How to Handle a Tool Result Too Large for the Context Window: Truncate, Paginate, or Hand Back a Handle",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -693,9 +693,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 788,
+   "views": 789,
    "reads": 0,
-   "sessions": 788,
+   "sessions": 789,
    "avg_dwell_sec": 9
   },
   {
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 1773,
-   "sessions": 1772
+   "hits": 1795,
+   "sessions": 1794
   },
   {
    "ref": "https://www.google.com/",
@@ -810,7 +810,7 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 80,
+   "hits": 76,
    "sessions": 41
   },
   {
