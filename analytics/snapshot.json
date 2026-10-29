@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-29T00:50:53.117Z",
+ "generated": "2026-10-29T01:01:00.128Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 34,
+  "readersNow": 35,
   "todayReads": 1,
   "avgTimeSec": 0,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 7912,
+  "views": 7935,
   "reads": 273,
   "completes": 8,
   "plays": 9,
-  "sessions": 7821
+  "sessions": 7844
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6934,
+   "views": 6937,
    "reads": 164,
-   "sessions": 6941
+   "sessions": 6944
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 686,
+   "views": 706,
    "reads": 6,
-   "sessions": 684
+   "sessions": 704
   },
   {
    "channel": "campaign:owner-qa",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6934,
+   "views": 6937,
    "reads": 164,
    "completes": 5,
-   "sessions": 6940,
+   "sessions": 6943,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -90,11 +90,11 @@
   },
   {
    "channel": "referral",
-   "views": 686,
+   "views": 706,
    "reads": 6,
    "completes": 0,
-   "sessions": 684,
-   "read_rate": 0.009,
+   "sessions": 704,
+   "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -300,9 +300,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7352,
+   "views": 7375,
    "reads": 244,
-   "sessions": 7273
+   "sessions": 7296
   },
   {
    "device": "mobile",
@@ -364,7 +364,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 28,
+   "views": 29,
    "reads": 5,
    "plays": 0
   },
@@ -526,7 +526,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"captivating\"]",
    "author": "rosalinda",
-   "views": 4,
+   "views": 5,
    "reads": 1,
    "plays": 1
   },
@@ -618,7 +618,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 28,
+   "views": 29,
    "reads": 5,
    "plays": 0
   },
@@ -676,9 +676,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 762,
+   "views": 763,
    "reads": 0,
-   "sessions": 762,
+   "sessions": 763,
    "avg_dwell_sec": 9
   },
   {
@@ -783,8 +783,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 665,
-   "sessions": 664
+   "hits": 685,
+   "sessions": 684
   },
   {
    "ref": "https://www.google.com/",
