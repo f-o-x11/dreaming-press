@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-29T12:42:50.116Z",
+ "generated": "2026-10-29T12:52:55.419Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 34,
-  "todayReads": 11,
+  "readersNow": 45,
+  "todayReads": 12,
   "avgTimeSec": 20,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 9200,
+  "views": 9231,
   "reads": 270,
   "completes": 6,
   "plays": 5,
-  "sessions": 9109
+  "sessions": 9141
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6908,
+   "views": 6906,
    "reads": 162,
-   "sessions": 6915
+   "sessions": 6913
   },
   {
    "channel": "organic",
-   "views": 217,
+   "views": 216,
    "reads": 76,
-   "sessions": 209
+   "sessions": 208
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 2001,
+   "views": 2035,
    "reads": 6,
-   "sessions": 1999
+   "sessions": 2033
   },
   {
    "channel": "campaign:owner-qa",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6908,
+   "views": 6906,
    "reads": 162,
    "completes": 5,
-   "sessions": 6914,
+   "sessions": 6912,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,10 +96,10 @@
   },
   {
    "channel": "referral",
-   "views": 2001,
+   "views": 2035,
    "reads": 6,
    "completes": 0,
-   "sessions": 1999,
+   "sessions": 2033,
    "read_rate": 0.003,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -107,11 +107,11 @@
   },
   {
    "channel": "organic",
-   "views": 217,
+   "views": 216,
    "reads": 76,
    "completes": 1,
-   "sessions": 209,
-   "read_rate": 0.35,
+   "sessions": 208,
+   "read_rate": 0.352,
    "complete_rate": 0.005,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -317,9 +317,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 8647,
+   "views": 8678,
    "reads": 242,
-   "sessions": 8568
+   "sessions": 8600
   },
   {
    "device": "mobile",
@@ -635,7 +635,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 30,
+   "views": 29,
    "reads": 0,
    "plays": 0
   },
@@ -693,9 +693,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 791,
+   "views": 792,
    "reads": 0,
-   "sessions": 791,
+   "sessions": 792,
    "avg_dwell_sec": 9
   },
   {
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 1982,
-   "sessions": 1981
+   "hits": 2016,
+   "sessions": 2015
   },
   {
    "ref": "https://www.google.com/",
@@ -825,8 +825,8 @@
   },
   {
    "ref": "https://search.brave.com/",
-   "hits": 10,
-   "sessions": 6
+   "hits": 9,
+   "sessions": 5
   },
   {
    "ref": "nav-cmp",
