@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-29T00:40Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-29T00:50Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 7894 views → 273 engaged reads → 8 completes · 7803 sessions.
-- Channels: direct 164r/6933v · organic 77r/220v · campaign:chatgpt.com 15r/34v · referral 6r/669v · campaign:owner-qa 4r/4v · ai 3r/27v · social 3r/5v · campaign:perplexity 1r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 7912 views → 273 engaged reads → 8 completes · 7821 sessions.
+- Channels: direct 164r/6934v · organic 77r/220v · campaign:chatgpt.com 15r/34v · referral 6r/686v · campaign:owner-qa 4r/4v · ai 3r/27v · social 3r/5v · campaign:perplexity 1r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 16r/38v · Perplexity 1r/2v · Yuanbao 1r/1v · Kimi 0r/18v · Grok 0r/1v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, cn.bing.com, search.brave.com, nav-cmp, qwant.com, brand, youtube.com.
 - Engaged-read winners by section: stack=9, wire=6.
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 6933 views · read 2.4% · complete 0.1% · 1 pages/session · median 8s
-- referral: 669 views · read 0.9% · complete 0.0% · 1 pages/session · median ?s
+- direct: 6934 views · read 2.4% · complete 0.1% · 1 pages/session · median 8s
+- referral: 686 views · read 0.9% · complete 0.0% · 1 pages/session · median ?s
 - organic: 220 views · read 35.0% · complete 0.9% · 1.03 pages/session · median 3s
 - campaign:chatgpt.com: 34 views · read 44.1% · complete 0.0% · 1.21 pages/session · median ?s
 - ai: 27 views · read 11.1% · complete 0.0% · 0.71 pages/session · median 4s
