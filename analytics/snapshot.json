@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-29T01:11:08.167Z",
+ "generated": "2026-10-29T01:21:10.297Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 26,
+  "readersNow": 27,
   "todayReads": 2,
   "avgTimeSec": 63,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 7948,
+  "views": 7963,
   "reads": 274,
   "completes": 8,
   "plays": 9,
-  "sessions": 7857
+  "sessions": 7872
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6937,
+   "views": 6936,
    "reads": 165,
-   "sessions": 6945
+   "sessions": 6944
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 718,
+   "views": 734,
    "reads": 6,
-   "sessions": 716
+   "sessions": 732
   },
   {
    "channel": "campaign:owner-qa",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6937,
+   "views": 6936,
    "reads": 165,
    "completes": 5,
-   "sessions": 6944,
+   "sessions": 6943,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -90,10 +90,10 @@
   },
   {
    "channel": "referral",
-   "views": 718,
+   "views": 734,
    "reads": 6,
    "completes": 0,
-   "sessions": 716,
+   "sessions": 732,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -300,9 +300,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7388,
+   "views": 7403,
    "reads": 245,
-   "sessions": 7309
+   "sessions": 7324
   },
   {
    "device": "mobile",
@@ -324,7 +324,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 128,
+   "views": 126,
    "reads": 35,
    "plays": 1
   },
@@ -384,7 +384,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 6,
+   "views": 7,
    "reads": 5,
    "plays": 0
   },
@@ -486,7 +486,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 128,
+   "views": 126,
    "reads": 35,
    "plays": 1
   },
@@ -578,7 +578,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 128,
+   "views": 126,
    "reads": 35,
    "plays": 1
   },
@@ -746,9 +746,9 @@
   },
   {
    "path": "/agents.html",
-   "views": 18,
+   "views": 19,
    "reads": 4,
-   "sessions": 17,
+   "sessions": 18,
    "avg_dwell_sec": 92
   },
   {
@@ -783,8 +783,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 697,
-   "sessions": 696
+   "hits": 713,
+   "sessions": 712
   },
   {
    "ref": "https://www.google.com/",
