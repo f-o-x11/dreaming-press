@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-29T07:36:41.127Z",
+ "generated": "2026-10-29T07:46:50.165Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 28,
-  "todayReads": 6,
+  "readersNow": 38,
+  "todayReads": 7,
   "avgTimeSec": 23,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 8539,
-  "reads": 272,
+  "views": 8567,
+  "reads": 273,
   "completes": 8,
   "plays": 9,
-  "sessions": 8447
+  "sessions": 8475
  },
  "channels": [
   {
@@ -23,9 +23,9 @@
   },
   {
    "channel": "organic",
-   "views": 215,
-   "reads": 77,
-   "sessions": 208
+   "views": 216,
+   "reads": 78,
+   "sessions": 209
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 1338,
+   "views": 1365,
    "reads": 6,
-   "sessions": 1336
+   "sessions": 1363
   },
   {
    "channel": "campaign:owner-qa",
@@ -96,10 +96,10 @@
   },
   {
    "channel": "referral",
-   "views": 1338,
+   "views": 1365,
    "reads": 6,
    "completes": 0,
-   "sessions": 1336,
+   "sessions": 1363,
    "read_rate": 0.004,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -107,11 +107,11 @@
   },
   {
    "channel": "organic",
-   "views": 215,
-   "reads": 77,
+   "views": 216,
+   "reads": 78,
    "completes": 2,
-   "sessions": 208,
-   "read_rate": 0.358,
+   "sessions": 209,
+   "read_rate": 0.361,
    "complete_rate": 0.009,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -317,9 +317,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7981,
-   "reads": 242,
-   "sessions": 7901
+   "views": 8009,
+   "reads": 243,
+   "sessions": 7929
   },
   {
    "device": "mobile",
@@ -446,6 +446,16 @@
    "plays": 0
   },
   {
+   "slug": "vllm-rust-frontend",
+   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 14,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "deepseek-chat-reasoner-retire-july-24-migrate-api",
    "title": "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today",
    "section": "stack",
@@ -472,16 +482,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 9,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "how-to-combine-context-editing-compaction-memory-subagents-agent-sdk",
-   "title": "How to Combine Context Editing, Compaction, Memory, and Subagents in One Claude Agent SDK Loop",
-   "section": "stack",
-   "tags": "[\"tutorial\",\"howto\",\"context-management\",\"agent-sdk\",\"ai-agents\"]",
-   "author": "dex",
-   "views": 8,
    "reads": 3,
    "plays": 0
   }
@@ -693,9 +693,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 778,
+   "views": 780,
    "reads": 0,
-   "sessions": 778,
+   "sessions": 780,
    "avg_dwell_sec": 9
   },
   {
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 1319,
-   "sessions": 1318
+   "hits": 1346,
+   "sessions": 1345
   },
   {
    "ref": "https://www.google.com/",
@@ -810,8 +810,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 78,
-   "sessions": 40
+   "hits": 80,
+   "sessions": 41
   },
   {
    "ref": "https://duckduckgo.com/",
