@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-29T02:01:45.295Z",
+ "generated": "2026-10-29T02:11:49.478Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 26,
-  "todayReads": 2,
+  "readersNow": 23,
+  "todayReads": 3,
   "avgTimeSec": 63,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 7999,
-  "reads": 273,
+  "views": 8013,
+  "reads": 274,
   "completes": 8,
   "plays": 9,
-  "sessions": 7908
+  "sessions": 7922
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6919,
+   "views": 6918,
    "reads": 164,
-   "sessions": 6927
+   "sessions": 6926
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 786,
-   "reads": 6,
-   "sessions": 784
+   "views": 801,
+   "reads": 7,
+   "sessions": 799
   },
   {
    "channel": "campaign:owner-qa",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6919,
+   "views": 6918,
    "reads": 164,
    "completes": 5,
-   "sessions": 6926,
+   "sessions": 6925,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,11 +96,11 @@
   },
   {
    "channel": "referral",
-   "views": 786,
-   "reads": 6,
+   "views": 801,
+   "reads": 7,
    "completes": 0,
-   "sessions": 784,
-   "read_rate": 0.008,
+   "sessions": 799,
+   "read_rate": 0.009,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -317,9 +317,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7439,
-   "reads": 244,
-   "sessions": 7360
+   "views": 7453,
+   "reads": 245,
+   "sessions": 7374
   },
   {
    "device": "mobile",
@@ -381,7 +381,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 30,
+   "views": 29,
    "reads": 5,
    "plays": 0
   },
@@ -620,16 +620,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 30,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
    "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
    "section": "stack",
@@ -637,6 +627,16 @@
    "author": "dex",
    "views": 30,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 29,
+   "reads": 5,
    "plays": 0
   },
   {
@@ -693,9 +693,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 764,
+   "views": 765,
    "reads": 0,
-   "sessions": 764,
+   "sessions": 765,
    "avg_dwell_sec": 9
   },
   {
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 765,
-   "sessions": 764
+   "hits": 779,
+   "sessions": 778
   },
   {
    "ref": "https://www.google.com/",
