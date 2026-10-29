@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-29T22:22Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-29T22:32Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 10244 views → 275 engaged reads → 7 completes · 10149 sessions.
-- Channels: direct 164r/6796v · organic 74r/212v · campaign:chatgpt.com 15r/38v · referral 11r/3156v · ai 4r/31v · campaign:owner-qa 4r/4v · social 2r/4v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 10253 views → 275 engaged reads → 7 completes · 10158 sessions.
+- Channels: direct 164r/6797v · organic 74r/212v · campaign:chatgpt.com 15r/38v · referral 11r/3164v · ai 4r/31v · campaign:owner-qa 4r/4v · social 2r/4v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 17r/45v · Yuanbao 1r/2v · Perplexity 1r/2v · Kimi 0r/18v · Grok 0r/1v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, cn.bing.com, nav-cmp, search.brave.com, brand, youtube.com, qwant.com.
 - Engaged-read winners by section: stack=9, wire=6.
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 6796 views · read 2.4% · complete 0.1% · 1 pages/session · median 8s
-- referral: 3156 views · read 0.3% · complete 0.0% · 1 pages/session · median ?s
+- direct: 6797 views · read 2.4% · complete 0.1% · 1 pages/session · median 8s
+- referral: 3164 views · read 0.3% · complete 0.0% · 1 pages/session · median ?s
 - organic: 212 views · read 34.9% · complete 0.5% · 1.03 pages/session · median 3s
 - campaign:chatgpt.com: 38 views · read 39.5% · complete 0.0% · 1.27 pages/session · median ?s
 - ai: 31 views · read 12.9% · complete 0.0% · 0.78 pages/session · median 4s
@@ -82,6 +82,7 @@ skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 29 views but only 0 engaged reads (0.0%)
 - [stack] "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent" — 28 views but only 1 engaged reads (3.6%)
+- [stack] "verl vs OpenRLHF vs TRL: Choosing an RL Post-Training Framework in 2026" — 21 views but only 1 engaged reads (4.8%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
