@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-29T05:25:10.513Z",
+ "generated": "2026-10-29T05:35:16.468Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 27,
+  "readersNow": 34,
   "todayReads": 5,
-  "avgTimeSec": 24,
+  "avgTimeSec": 23,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 8329,
+  "views": 8352,
   "reads": 274,
   "completes": 8,
   "plays": 9,
-  "sessions": 8237
+  "sessions": 8260
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6919,
+   "views": 6924,
    "reads": 165,
-   "sessions": 6925
+   "sessions": 6929
   },
   {
    "channel": "organic",
-   "views": 216,
+   "views": 215,
    "reads": 77,
-   "sessions": 209
+   "sessions": 208
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 1120,
+   "views": 1139,
    "reads": 6,
-   "sessions": 1118
+   "sessions": 1137
   },
   {
    "channel": "campaign:owner-qa",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6919,
+   "views": 6924,
    "reads": 165,
    "completes": 5,
-   "sessions": 6924,
+   "sessions": 6928,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,10 +96,10 @@
   },
   {
    "channel": "referral",
-   "views": 1120,
+   "views": 1139,
    "reads": 6,
    "completes": 0,
-   "sessions": 1118,
+   "sessions": 1137,
    "read_rate": 0.005,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -107,11 +107,11 @@
   },
   {
    "channel": "organic",
-   "views": 216,
+   "views": 215,
    "reads": 77,
    "completes": 2,
-   "sessions": 209,
-   "read_rate": 0.356,
+   "sessions": 208,
+   "read_rate": 0.358,
    "complete_rate": 0.009,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -317,15 +317,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7769,
+   "views": 7792,
    "reads": 245,
-   "sessions": 7689
+   "sessions": 7712
   },
   {
    "device": "mobile",
-   "views": 559,
+   "views": 558,
    "reads": 28,
-   "sessions": 549
+   "sessions": 548
   },
   {
    "device": "tablet",
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 1101,
-   "sessions": 1100
+   "hits": 1120,
+   "sessions": 1119
   },
   {
    "ref": "https://www.google.com/",
@@ -815,8 +815,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 68,
-   "sessions": 40
+   "hits": 67,
+   "sessions": 39
   },
   {
    "ref": "https://cn.bing.com/",
