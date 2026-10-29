@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-29T13:03:00.153Z",
+ "generated": "2026-10-29T13:13:20.398Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 47,
+  "readersNow": 41,
   "todayReads": 13,
   "avgTimeSec": 20,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 9264,
+  "views": 9289,
   "reads": 271,
   "completes": 6,
   "plays": 5,
-  "sessions": 9174
+  "sessions": 9198
  },
  "channels": [
   {
    "channel": "direct",
    "views": 6906,
    "reads": 162,
-   "sessions": 6913
+   "sessions": 6912
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 2068,
+   "views": 2093,
    "reads": 7,
-   "sessions": 2066
+   "sessions": 2091
   },
   {
    "channel": "campaign:owner-qa",
@@ -88,7 +88,7 @@
    "views": 6906,
    "reads": 162,
    "completes": 5,
-   "sessions": 6912,
+   "sessions": 6911,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,10 +96,10 @@
   },
   {
    "channel": "referral",
-   "views": 2068,
+   "views": 2093,
    "reads": 7,
    "completes": 0,
-   "sessions": 2066,
+   "sessions": 2091,
    "read_rate": 0.003,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -317,9 +317,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 8711,
+   "views": 8736,
    "reads": 243,
-   "sessions": 8633
+   "sessions": 8657
   },
   {
    "device": "mobile",
@@ -640,6 +640,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
+   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 23,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
    "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
    "section": "stack",
@@ -647,16 +657,6 @@
    "author": "dex",
    "views": 22,
    "reads": 7,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
-   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 1,
    "plays": 0
   },
   {
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 2050,
-   "sessions": 2048
+   "hits": 2075,
+   "sessions": 2073
   },
   {
    "ref": "https://www.google.com/",
