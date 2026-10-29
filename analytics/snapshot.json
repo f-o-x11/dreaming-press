@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-29T18:18:20.439Z",
+ "generated": "2026-10-29T18:28:40.396Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 36,
-  "todayReads": 23,
+  "readersNow": 39,
+  "todayReads": 24,
   "avgTimeSec": 38,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 9969,
-  "reads": 275,
+  "views": 9993,
+  "reads": 276,
   "completes": 7,
   "plays": 5,
-  "sessions": 9877
+  "sessions": 9901
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6858,
-   "reads": 164,
-   "sessions": 6862
+   "views": 6859,
+   "reads": 165,
+   "sessions": 6863
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 2823,
+   "views": 2846,
    "reads": 11,
-   "sessions": 2821
+   "sessions": 2844
   },
   {
    "channel": "campaign:owner-qa",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6858,
-   "reads": 164,
+   "views": 6859,
+   "reads": 165,
    "completes": 6,
-   "sessions": 6861,
+   "sessions": 6862,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,10 +96,10 @@
   },
   {
    "channel": "referral",
-   "views": 2823,
+   "views": 2846,
    "reads": 11,
    "completes": 0,
-   "sessions": 2821,
+   "sessions": 2844,
    "read_rate": 0.004,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -317,15 +317,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9417,
-   "reads": 247,
-   "sessions": 9337
+   "views": 9442,
+   "reads": 248,
+   "sessions": 9362
   },
   {
    "device": "mobile",
-   "views": 550,
+   "views": 549,
    "reads": 27,
-   "sessions": 540
+   "sessions": 539
   },
   {
    "device": "tablet",
@@ -670,6 +670,16 @@
    "plays": 0
   },
   {
+   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
+   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 19,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "open-weight-llms-you-actually-run-locally-october-2026",
    "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
    "section": "stack",
@@ -677,16 +687,6 @@
    "author": "dex",
    "views": 19,
    "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "2026-10-15-founders-wire-anthropic-opens-its-books",
-   "title": "The Founder's Wire, October 15: Anthropic Opened Its Books — $16.8B, an 85% Margin, and $1.70 of Revenue for Every $1 of Compute",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 18,
-   "reads": 4,
    "plays": 0
   }
  ],
@@ -700,9 +700,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 362,
+   "views": 363,
    "reads": 2,
-   "sessions": 361,
+   "sessions": 362,
    "avg_dwell_sec": 36
   },
   {
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 2809,
-   "sessions": 2803
+   "hits": 2832,
+   "sessions": 2826
   },
   {
    "ref": "https://www.google.com/",
