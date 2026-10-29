@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-29T22:52:30.961Z",
+ "generated": "2026-10-29T23:02:40.342Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 19,
+  "readersNow": 18,
   "todayReads": 25,
   "avgTimeSec": 35,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 10280,
+  "views": 10291,
   "reads": 275,
   "completes": 7,
   "plays": 5,
-  "sessions": 10184
+  "sessions": 10195
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6799,
+   "views": 6800,
    "reads": 164,
-   "sessions": 6804
+   "sessions": 6805
   },
   {
    "channel": "organic",
-   "views": 212,
+   "views": 211,
    "reads": 74,
-   "sessions": 205
+   "sessions": 204
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 3187,
+   "views": 3198,
    "reads": 11,
-   "sessions": 3185
+   "sessions": 3196
   },
   {
    "channel": "ai",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6799,
+   "views": 6800,
    "reads": 164,
    "completes": 6,
-   "sessions": 6803,
+   "sessions": 6804,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,10 +96,10 @@
   },
   {
    "channel": "referral",
-   "views": 3187,
+   "views": 3198,
    "reads": 11,
    "completes": 0,
-   "sessions": 3185,
+   "sessions": 3196,
    "read_rate": 0.003,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -107,11 +107,11 @@
   },
   {
    "channel": "organic",
-   "views": 212,
+   "views": 211,
    "reads": 74,
    "completes": 1,
-   "sessions": 205,
-   "read_rate": 0.349,
+   "sessions": 204,
+   "read_rate": 0.351,
    "complete_rate": 0.005,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -317,9 +317,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9727,
+   "views": 9738,
    "reads": 247,
-   "sessions": 9643
+   "sessions": 9654
   },
   {
    "device": "mobile",
@@ -351,7 +351,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 32,
+   "views": 31,
    "reads": 13,
    "plays": 0
   },
@@ -543,7 +543,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 32,
+   "views": 31,
    "reads": 13,
    "plays": 0
   },
@@ -610,16 +610,6 @@
    "plays": 1
   },
   {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 32,
-   "reads": 13,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -627,6 +617,16 @@
    "author": "dex",
    "views": 32,
    "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 31,
+   "reads": 13,
    "plays": 0
   },
   {
@@ -707,9 +707,9 @@
   },
   {
    "path": "/build",
-   "views": 163,
+   "views": 164,
    "reads": 0,
-   "sessions": 163,
+   "sessions": 164,
    "avg_dwell_sec": null
   },
   {
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3173,
-   "sessions": 3167
+   "hits": 3184,
+   "sessions": 3178
   },
   {
    "ref": "https://www.google.com/",
@@ -815,8 +815,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 66,
-   "sessions": 39
+   "hits": 65,
+   "sessions": 38
   },
   {
    "ref": "https://cn.bing.com/",
