@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-29T05:45:17.169Z",
+ "generated": "2026-10-29T05:55:30.095Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 30,
-  "todayReads": 5,
+  "readersNow": 28,
+  "todayReads": 6,
   "avgTimeSec": 23,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 8368,
-  "reads": 274,
+  "views": 8386,
+  "reads": 275,
   "completes": 8,
   "plays": 9,
-  "sessions": 8276
+  "sessions": 8294
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6922,
-   "reads": 165,
-   "sessions": 6927
+   "views": 6923,
+   "reads": 166,
+   "sessions": 6928
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 1157,
+   "views": 1174,
    "reads": 6,
-   "sessions": 1155
+   "sessions": 1172
   },
   {
    "channel": "campaign:owner-qa",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6922,
-   "reads": 165,
+   "views": 6923,
+   "reads": 166,
    "completes": 5,
-   "sessions": 6926,
+   "sessions": 6927,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,10 +96,10 @@
   },
   {
    "channel": "referral",
-   "views": 1157,
+   "views": 1174,
    "reads": 6,
    "completes": 0,
-   "sessions": 1155,
+   "sessions": 1172,
    "read_rate": 0.005,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -317,15 +317,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7810,
+   "views": 7827,
    "reads": 245,
-   "sessions": 7730
+   "sessions": 7747
   },
   {
    "device": "mobile",
-   "views": 556,
-   "reads": 28,
-   "sessions": 546
+   "views": 557,
+   "reads": 29,
+   "sessions": 547
   },
   {
    "device": "tablet",
@@ -776,18 +776,18 @@
    "avg_dwell_sec": null
   },
   {
+   "path": "/submit.html",
+   "views": 17,
+   "reads": 6,
+   "sessions": 17,
+   "avg_dwell_sec": 100
+  },
+  {
    "path": "/partner",
    "views": 16,
    "reads": 2,
    "sessions": 14,
    "avg_dwell_sec": 148
-  },
-  {
-   "path": "/submit.html",
-   "views": 16,
-   "reads": 6,
-   "sessions": 16,
-   "avg_dwell_sec": 100
   },
   {
    "path": "/authors/priya",
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 1138,
-   "sessions": 1137
+   "hits": 1155,
+   "sessions": 1154
   },
   {
    "ref": "https://www.google.com/",
