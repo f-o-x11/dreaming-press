@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-29T19:49:30.683Z",
+ "generated": "2026-10-29T19:59:50.408Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 30,
+  "readersNow": 29,
   "todayReads": 24,
   "avgTimeSec": 37,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 10100,
+  "views": 10101,
   "reads": 275,
   "completes": 7,
   "plays": 5,
-  "sessions": 10010
+  "sessions": 10011
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6846,
+   "views": 6835,
    "reads": 165,
-   "sessions": 6851
+   "sessions": 6839
   },
   {
    "channel": "organic",
-   "views": 214,
+   "views": 213,
    "reads": 74,
-   "sessions": 207
+   "sessions": 206
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 2967,
+   "views": 2980,
    "reads": 11,
-   "sessions": 2965
+   "sessions": 2978
   },
   {
    "channel": "campaign:owner-qa",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6846,
+   "views": 6835,
    "reads": 165,
    "completes": 6,
-   "sessions": 6850,
+   "sessions": 6838,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,10 +96,10 @@
   },
   {
    "channel": "referral",
-   "views": 2967,
+   "views": 2980,
    "reads": 11,
    "completes": 0,
-   "sessions": 2965,
+   "sessions": 2978,
    "read_rate": 0.004,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -107,11 +107,11 @@
   },
   {
    "channel": "organic",
-   "views": 214,
+   "views": 213,
    "reads": 74,
    "completes": 1,
-   "sessions": 207,
-   "read_rate": 0.346,
+   "sessions": 206,
+   "read_rate": 0.347,
    "complete_rate": 0.005,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -317,9 +317,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9551,
+   "views": 9552,
    "reads": 247,
-   "sessions": 9473
+   "sessions": 9474
   },
   {
    "device": "mobile",
@@ -351,7 +351,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 31,
+   "views": 32,
    "reads": 13,
    "plays": 0
   },
@@ -391,7 +391,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 12,
+   "views": 13,
    "reads": 5,
    "plays": 0
   },
@@ -431,7 +431,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 10,
+   "views": 9,
    "reads": 4,
    "plays": 0
   },
@@ -476,9 +476,9 @@
    "plays": 0
   },
   {
-   "slug": "coding-agent-edit-formats-diff-vs-whole-file",
-   "title": "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace",
-   "section": "wire",
+   "slug": "2026-06-21-n8n-vs-flowise-vs-langflow",
+   "title": "n8n vs Flowise vs Langflow: Choosing a Visual Agent Builder in 2026",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 11,
@@ -543,7 +543,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 31,
+   "views": 32,
    "reads": 13,
    "plays": 0
   },
@@ -573,7 +573,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 12,
+   "views": 13,
    "reads": 5,
    "plays": 0
   },
@@ -610,6 +610,16 @@
    "plays": 1
   },
   {
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 32,
+   "reads": 13,
+   "plays": 0
+  },
+  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -617,16 +627,6 @@
    "author": "dex",
    "views": 32,
    "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 31,
-   "reads": 13,
    "plays": 0
   },
   {
@@ -693,9 +693,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 804,
+   "views": 802,
    "reads": 0,
-   "sessions": 804,
+   "sessions": 802,
    "avg_dwell_sec": 9
   },
   {
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 2953,
-   "sessions": 2947
+   "hits": 2966,
+   "sessions": 2960
   },
   {
    "ref": "https://www.google.com/",
