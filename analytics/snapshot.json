@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-29T16:36:27.413Z",
+ "generated": "2026-10-29T16:46:30.484Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 46,
+  "readersNow": 50,
   "todayReads": 16,
   "avgTimeSec": 23,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 9789,
+  "views": 9797,
   "reads": 269,
   "completes": 7,
   "plays": 5,
-  "sessions": 9699
+  "sessions": 9708
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6878,
+   "views": 6857,
    "reads": 160,
-   "sessions": 6884
+   "sessions": 6864
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 2623,
+   "views": 2652,
    "reads": 9,
-   "sessions": 2621
+   "sessions": 2650
   },
   {
    "channel": "campaign:owner-qa",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6878,
+   "views": 6857,
    "reads": 160,
    "completes": 6,
-   "sessions": 6883,
+   "sessions": 6863,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,10 +96,10 @@
   },
   {
    "channel": "referral",
-   "views": 2623,
+   "views": 2652,
    "reads": 9,
    "completes": 0,
-   "sessions": 2621,
+   "sessions": 2650,
    "read_rate": 0.003,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -317,15 +317,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9230,
+   "views": 9246,
    "reads": 241,
-   "sessions": 9152
+   "sessions": 9169
   },
   {
    "device": "mobile",
-   "views": 557,
+   "views": 549,
    "reads": 27,
-   "sessions": 547
+   "sessions": 539
   },
   {
    "device": "tablet",
@@ -411,7 +411,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 21,
+   "views": 18,
    "reads": 4,
    "plays": 0
   },
@@ -660,16 +660,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-10-15-founders-wire-anthropic-opens-its-books",
-   "title": "The Founder's Wire, October 15: Anthropic Opened Its Books — $16.8B, an 85% Margin, and $1.70 of Revenue for Every $1 of Compute",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 21,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "verl-vs-openrlhf-vs-trl",
    "title": "verl vs OpenRLHF vs TRL: Choosing an RL Post-Training Framework in 2026",
    "section": "stack",
@@ -680,13 +670,23 @@
    "plays": 0
   },
   {
-   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
-   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
    "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
+   "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 18,
+   "views": 19,
    "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "2026-10-15-founders-wire-anthropic-opens-its-books",
+   "title": "The Founder's Wire, October 15: Anthropic Opened Its Books — $16.8B, an 85% Margin, and $1.70 of Revenue for Every $1 of Compute",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 18,
+   "reads": 4,
    "plays": 0
   }
  ],
@@ -714,9 +714,9 @@
   },
   {
    "path": "/",
-   "views": 129,
+   "views": 128,
    "reads": 4,
-   "sessions": 132,
+   "sessions": 131,
    "avg_dwell_sec": 15
   },
   {
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 2607,
-   "sessions": 2603
+   "hits": 2636,
+   "sessions": 2632
   },
   {
    "ref": "https://www.google.com/",
