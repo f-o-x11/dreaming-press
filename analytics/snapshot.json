@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-29T13:33:33.325Z",
+ "generated": "2026-10-29T13:43:40.043Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 44,
-  "todayReads": 14,
-  "avgTimeSec": 20,
+  "readersNow": 45,
+  "todayReads": 15,
+  "avgTimeSec": 22,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 9341,
-  "reads": 272,
-  "completes": 6,
+  "views": 9366,
+  "reads": 273,
+  "completes": 7,
   "plays": 5,
-  "sessions": 9250
+  "sessions": 9275
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6918,
-   "reads": 162,
-   "sessions": 6924
+   "views": 6919,
+   "reads": 163,
+   "sessions": 6925
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 2133,
+   "views": 2157,
    "reads": 8,
-   "sessions": 2131
+   "sessions": 2155
   },
   {
    "channel": "campaign:owner-qa",
@@ -85,21 +85,21 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6918,
-   "reads": 162,
-   "completes": 5,
-   "sessions": 6923,
-   "read_rate": 0.023,
+   "views": 6919,
+   "reads": 163,
+   "completes": 6,
+   "sessions": 6924,
+   "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
    "median_dwell_sec": 8
   },
   {
    "channel": "referral",
-   "views": 2133,
+   "views": 2157,
    "reads": 8,
    "completes": 0,
-   "sessions": 2131,
+   "sessions": 2155,
    "read_rate": 0.004,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -317,15 +317,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 8786,
-   "reads": 244,
-   "sessions": 8707
+   "views": 8812,
+   "reads": 245,
+   "sessions": 8733
   },
   {
    "device": "mobile",
-   "views": 553,
+   "views": 552,
    "reads": 27,
-   "sessions": 543
+   "sessions": 542
   },
   {
    "device": "tablet",
@@ -386,6 +386,16 @@
    "plays": 0
   },
   {
+   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
+   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 12,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
    "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
    "section": "wire",
@@ -412,16 +422,6 @@
    "tags": "[\"compare\",\"opinionated\"]",
    "author": "dex",
    "views": 13,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
-   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 11,
    "reads": 4,
    "plays": 0
   },
@@ -568,6 +568,16 @@
    "plays": 0
   },
   {
+   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
+   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 12,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
    "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
    "section": "wire",
@@ -575,16 +585,6 @@
    "author": "dex",
    "views": 7,
    "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "2026-10-15-founders-wire-anthropic-opens-its-books",
-   "title": "The Founder's Wire, October 15: Anthropic Opened Its Books — $16.8B, an 85% Margin, and $1.70 of Revenue for Every $1 of Compute",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 21,
-   "reads": 4,
    "plays": 0
   }
  ],
@@ -645,7 +645,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 23,
+   "views": 24,
    "reads": 1,
    "plays": 0
   },
@@ -680,13 +680,13 @@
    "plays": 0
   },
   {
-   "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
-   "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
-   "section": "wire",
+   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
+   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
+   "author": "dex",
    "views": 18,
-   "reads": 0,
+   "reads": 2,
    "plays": 0
   }
  ],
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 2116,
-   "sessions": 2113
+   "hits": 2140,
+   "sessions": 2137
   },
   {
    "ref": "https://www.google.com/",
