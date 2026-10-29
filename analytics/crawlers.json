@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-29T17:58:00.107Z",
+ "generated": "2026-10-29T18:08:02.186Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17389,
+ "verifiedAiHits": 17391,
  "logsScanned": 30,
  "windowStart": "2026-10-15",
  "windowEnd": "2026-10-29",
- "totalHits": 110246,
- "aiHits": 86893,
+ "totalHits": 110286,
+ "aiHits": 86917,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 31671,
+   "hits": 31681,
    "verifiedHits": 0,
    "firstSeen": "2026-10-15",
    "lastSeen": "2026-10-29",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16341,
+   "hits": 16346,
    "verifiedHits": 0,
    "firstSeen": "2026-10-15",
    "lastSeen": "2026-10-29",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14704,
+   "hits": 14711,
    "verifiedHits": 0,
    "firstSeen": "2026-10-15",
    "lastSeen": "2026-10-29",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9070,
+   "hits": 9072,
    "verifiedHits": 0,
    "firstSeen": "2026-10-15",
    "lastSeen": "2026-10-29",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6891,
-   "verifiedHits": 6828,
+   "hits": 6893,
+   "verifiedHits": 6830,
    "firstSeen": "2026-10-15",
    "lastSeen": "2026-10-29",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4324,
+   "hits": 4332,
    "verifiedHits": 0,
    "firstSeen": "2026-10-15",
    "lastSeen": "2026-10-29",
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3114,
-   "verifiedHits": 3007,
+   "hits": 3116,
+   "verifiedHits": 3009,
    "firstSeen": "2026-10-15",
    "lastSeen": "2026-10-29",
    "topPaths": [
     {
      "path": "/",
-     "hits": 814
+     "hits": 815
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2300,
+   "hits": 2301,
    "verifiedHits": 0,
    "firstSeen": "2026-10-15",
    "lastSeen": "2026-10-29",
@@ -476,14 +476,14 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 640,
-   "verifiedHits": 552,
+   "hits": 643,
+   "verifiedHits": 555,
    "firstSeen": "2026-10-15",
    "lastSeen": "2026-10-29",
    "topPaths": [
     {
      "path": "/",
-     "hits": 32
+     "hits": 33
     },
     {
      "path": "/api",
