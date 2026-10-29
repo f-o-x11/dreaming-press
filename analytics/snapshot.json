@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-29T03:02:50.177Z",
+ "generated": "2026-10-29T03:13:00.149Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 24,
+  "readersNow": 22,
   "todayReads": 4,
-  "avgTimeSec": 49,
+  "avgTimeSec": 31,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 8084,
+  "views": 8094,
   "reads": 273,
   "completes": 8,
   "plays": 9,
-  "sessions": 7993
+  "sessions": 8003
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6907,
+   "views": 6908,
    "reads": 164,
-   "sessions": 6915
+   "sessions": 6916
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 887,
+   "views": 896,
    "reads": 6,
-   "sessions": 885
+   "sessions": 894
   },
   {
    "channel": "campaign:owner-qa",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6907,
+   "views": 6908,
    "reads": 164,
    "completes": 5,
-   "sessions": 6914,
+   "sessions": 6915,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,10 +96,10 @@
   },
   {
    "channel": "referral",
-   "views": 887,
+   "views": 896,
    "reads": 6,
    "completes": 0,
-   "sessions": 885,
+   "sessions": 894,
    "read_rate": 0.007,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -317,9 +317,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7525,
+   "views": 7535,
    "reads": 244,
-   "sessions": 7446
+   "sessions": 7456
   },
   {
    "device": "mobile",
@@ -361,7 +361,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 45,
+   "views": 46,
    "reads": 13,
    "plays": 1
   },
@@ -381,7 +381,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 29,
+   "views": 30,
    "reads": 5,
    "plays": 0
   },
@@ -513,7 +513,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 45,
+   "views": 46,
    "reads": 13,
    "plays": 1
   },
@@ -605,7 +605,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 45,
+   "views": 46,
    "reads": 13,
    "plays": 1
   },
@@ -620,6 +620,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 30,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
    "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
    "section": "stack",
@@ -627,16 +637,6 @@
    "author": "dex",
    "views": 30,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 29,
-   "reads": 5,
    "plays": 0
   },
   {
@@ -763,9 +763,9 @@
   },
   {
    "path": "/agents.html",
-   "views": 21,
+   "views": 22,
    "reads": 4,
-   "sessions": 20,
+   "sessions": 21,
    "avg_dwell_sec": 92
   },
   {
@@ -784,10 +784,10 @@
   },
   {
    "path": "/submit.html",
-   "views": 15,
+   "views": 16,
    "reads": 6,
-   "sessions": 15,
-   "avg_dwell_sec": 108
+   "sessions": 16,
+   "avg_dwell_sec": 100
   },
   {
    "path": "/authors/priya",
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 867,
-   "sessions": 866
+   "hits": 876,
+   "sessions": 875
   },
   {
    "ref": "https://www.google.com/",
