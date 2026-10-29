@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-29T04:24:48.332Z",
+ "generated": "2026-10-29T04:34:49.898Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 27,
+  "readersNow": 26,
   "todayReads": 4,
   "avgTimeSec": 26,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 8220,
+  "views": 8238,
   "reads": 273,
   "completes": 8,
   "plays": 9,
-  "sessions": 8129
+  "sessions": 8147
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6918,
+   "views": 6917,
    "reads": 164,
-   "sessions": 6925
+   "sessions": 6924
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 1012,
+   "views": 1031,
    "reads": 6,
-   "sessions": 1010
+   "sessions": 1029
   },
   {
    "channel": "campaign:owner-qa",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6918,
+   "views": 6917,
    "reads": 164,
    "completes": 5,
-   "sessions": 6924,
+   "sessions": 6923,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,10 +96,10 @@
   },
   {
    "channel": "referral",
-   "views": 1012,
+   "views": 1031,
    "reads": 6,
    "completes": 0,
-   "sessions": 1010,
+   "sessions": 1029,
    "read_rate": 0.006,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -317,9 +317,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7659,
+   "views": 7677,
    "reads": 244,
-   "sessions": 7580
+   "sessions": 7598
   },
   {
    "device": "mobile",
@@ -381,7 +381,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 30,
+   "views": 31,
    "reads": 5,
    "plays": 0
   },
@@ -563,7 +563,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 3,
+   "views": 4,
    "reads": 0,
    "plays": 1
   },
@@ -625,7 +625,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 30,
+   "views": 31,
    "reads": 5,
    "plays": 0
   },
@@ -660,6 +660,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
+   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 18,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "prompt-caching-pricing-anthropic-vs-openai-vs-gemini-vs-bedrock",
    "title": "Prompt Caching Pricing in 2026: Anthropic vs OpenAI vs Gemini vs Bedrock",
    "section": "wire",
@@ -677,16 +687,6 @@
    "author": "dex",
    "views": 17,
    "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
-   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 17,
-   "reads": 1,
    "plays": 0
   }
  ],
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 993,
-   "sessions": 992
+   "hits": 1012,
+   "sessions": 1011
   },
   {
    "ref": "https://www.google.com/",
