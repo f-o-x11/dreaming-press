@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-29T02:11Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-29T02:22Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 8013 views → 274 engaged reads → 8 completes · 7922 sessions.
-- Channels: direct 164r/6918v · organic 77r/220v · campaign:chatgpt.com 15r/34v · referral 7r/801v · campaign:owner-qa 4r/4v · ai 3r/28v · social 3r/5v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 8024 views → 272 engaged reads → 8 completes · 7933 sessions.
+- Channels: direct 163r/6911v · organic 77r/220v · campaign:chatgpt.com 15r/34v · referral 6r/819v · campaign:owner-qa 4r/4v · ai 3r/28v · social 3r/5v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 16r/38v · Yuanbao 1r/2v · Perplexity 1r/2v · Kimi 0r/18v · Grok 0r/1v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, cn.bing.com, search.brave.com, nav-cmp, qwant.com, brand, youtube.com.
 - Engaged-read winners by section: stack=9, wire=6.
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 6918 views · read 2.4% · complete 0.1% · 1 pages/session · median 8s
-- referral: 801 views · read 0.9% · complete 0.0% · 1 pages/session · median ?s
+- direct: 6911 views · read 2.4% · complete 0.1% · 1 pages/session · median 8s
+- referral: 819 views · read 0.7% · complete 0.0% · 1 pages/session · median ?s
 - organic: 220 views · read 35.0% · complete 0.9% · 1.03 pages/session · median 3s
 - campaign:chatgpt.com: 34 views · read 44.1% · complete 0.0% · 1.21 pages/session · median ?s
 - ai: 28 views · read 10.7% · complete 0.0% · 0.72 pages/session · median 4s
@@ -35,7 +35,7 @@ NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
 
 ## Top by engaged reads (eyes that stayed)
-- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 35 reads, 126 views, 1 listens
+- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 35 reads, 125 views, 1 listens
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 15 reads, 37 views, 0 listens
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 13 reads, 45 views, 1 listens
 - [stack] "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)" — 8 reads, 24 views, 0 listens
@@ -44,7 +44,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "The Founder's Wire, October 15: Anthropic Opened Its Books — $16.8B, an 85% Margin, and $1.70 of Revenue for Every $1 of Compute" — 4 reads, 21 views, 0 listens
 - [stack] "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't" — 4 reads, 13 views, 0 listens
 - [wire] "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace" — 4 reads, 12 views, 1 listens
-- [wire] "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo" — 4 reads, 11 views, 0 listens
+- [wire] "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo" — 4 reads, 12 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "How to Handle a Tool Result Too Large for the Context Window: Truncate, Paginate, or Hand Back a Handle" — 2 listens, 3 reads
@@ -59,10 +59,10 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 765 views, 0 reads, 765 sessions, avg 9s
+- /stack/:tool — 767 views, 0 reads, 767 sessions, avg 9s
 - /compare/:pair — 365 views, 2 reads, 364 sessions, avg 36s
 - /build — 165 views, 0 reads, 165 sessions
-- / — 130 views, 4 reads, 133 sessions, avg 14s
+- / — 129 views, 4 reads, 132 sessions, avg 14s
 - /tags/reportive — 61 views, 0 reads, 61 sessions
 - /best/:cat — 59 views, 0 reads, 59 sessions, avg 5s
 - /alternatives/:tool — 54 views, 0 reads, 54 sessions, avg 6s
@@ -71,7 +71,7 @@ ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
-- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 126 views, 35 reads
+- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 125 views, 35 reads
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 45 views, 13 reads
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 37 views, 15 reads
 - [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 30 views, 0 reads
@@ -121,7 +121,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Uncovered search demand (244 of 456 phrases have NO post, 38h ago)
+## Uncovered search demand (244 of 456 phrases have NO post, 39h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -149,7 +149,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /build  — 491 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 382 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 224 crawler fetches
-- /posts/best-llm-for-creative-writing-october-2026.html  — 169 crawler fetches
+- /posts/best-llm-for-creative-writing-october-2026.html  — 170 crawler fetches
 - /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 141 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 124 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 122 crawler fetches
