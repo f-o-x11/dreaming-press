@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-29T00:10:30.047Z",
+ "generated": "2026-10-29T00:20:40.146Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 25,
+  "readersNow": 30,
   "todayReads": 0,
   "avgTimeSec": 0,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 7864,
+  "views": 7853,
   "reads": 272,
   "completes": 8,
   "plays": 9,
-  "sessions": 7773
+  "sessions": 7762
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6967,
+   "views": 6931,
    "reads": 164,
-   "sessions": 6974
+   "sessions": 6938
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 605,
+   "views": 630,
    "reads": 5,
-   "sessions": 603
+   "sessions": 628
   },
   {
    "channel": "campaign:owner-qa",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6967,
+   "views": 6931,
    "reads": 164,
    "completes": 5,
-   "sessions": 6973,
+   "sessions": 6937,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -90,10 +90,10 @@
   },
   {
    "channel": "referral",
-   "views": 605,
+   "views": 630,
    "reads": 5,
    "completes": 0,
-   "sessions": 603,
+   "sessions": 628,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -300,9 +300,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7307,
+   "views": 7296,
    "reads": 243,
-   "sessions": 7228
+   "sessions": 7217
   },
   {
    "device": "mobile",
@@ -364,7 +364,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 27,
+   "views": 28,
    "reads": 5,
    "plays": 0
   },
@@ -526,7 +526,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"captivating\"]",
    "author": "rosalinda",
-   "views": 3,
+   "views": 4,
    "reads": 1,
    "plays": 1
   },
@@ -618,7 +618,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 27,
+   "views": 28,
    "reads": 5,
    "plays": 0
   },
@@ -663,29 +663,29 @@
    "plays": 0
   },
   {
-   "slug": "2026-10-14-founders-wire-gemini-4-argon-opens-three-models-one-price",
-   "title": "The Founder's Wire, October 14: Gemini 4 Argon Opens Its Gate — and Now Three Frontier Models Cost Exactly the Same",
-   "section": "wire",
+   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
+   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 17,
-   "reads": 0,
+   "author": "dex",
+   "views": 16,
+   "reads": 1,
    "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 776,
+   "views": 760,
    "reads": 0,
-   "sessions": 776,
+   "sessions": 760,
    "avg_dwell_sec": 9
   },
   {
    "path": "/compare/:pair",
-   "views": 383,
+   "views": 365,
    "reads": 2,
-   "sessions": 382,
+   "sessions": 364,
    "avg_dwell_sec": 36
   },
   {
@@ -711,9 +711,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 60,
+   "views": 59,
    "reads": 0,
-   "sessions": 60,
+   "sessions": 59,
    "avg_dwell_sec": 5
   },
   {
@@ -783,8 +783,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 582,
-   "sessions": 582
+   "hits": 607,
+   "sessions": 607
   },
   {
    "ref": "https://www.google.com/",
