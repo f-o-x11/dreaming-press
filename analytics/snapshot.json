@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-29T09:28:50.455Z",
+ "generated": "2026-10-29T09:38:53.354Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 36,
+  "readersNow": 32,
   "todayReads": 9,
   "avgTimeSec": 21,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 8778,
-  "reads": 275,
+  "views": 8795,
+  "reads": 274,
   "completes": 8,
-  "plays": 9,
-  "sessions": 8685
+  "plays": 8,
+  "sessions": 8703
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6911,
+   "views": 6909,
    "reads": 165,
-   "sessions": 6915
+   "sessions": 6914
   },
   {
    "channel": "organic",
-   "views": 217,
-   "reads": 78,
-   "sessions": 210
+   "views": 216,
+   "reads": 77,
+   "sessions": 209
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 1576,
+   "views": 1596,
    "reads": 6,
-   "sessions": 1574
+   "sessions": 1594
   },
   {
    "channel": "campaign:owner-qa",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6911,
+   "views": 6909,
    "reads": 165,
    "completes": 5,
-   "sessions": 6914,
+   "sessions": 6913,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,10 +96,10 @@
   },
   {
    "channel": "referral",
-   "views": 1576,
+   "views": 1596,
    "reads": 6,
    "completes": 0,
-   "sessions": 1574,
+   "sessions": 1594,
    "read_rate": 0.004,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -107,11 +107,11 @@
   },
   {
    "channel": "organic",
-   "views": 217,
-   "reads": 78,
+   "views": 216,
+   "reads": 77,
    "completes": 2,
-   "sessions": 210,
-   "read_rate": 0.359,
+   "sessions": 209,
+   "read_rate": 0.356,
    "complete_rate": 0.009,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -317,15 +317,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 8224,
+   "views": 8242,
    "reads": 245,
-   "sessions": 8143
+   "sessions": 8162
   },
   {
    "device": "mobile",
-   "views": 552,
-   "reads": 29,
-   "sessions": 542
+   "views": 551,
+   "reads": 28,
+   "sessions": 541
   },
   {
    "device": "tablet",
@@ -416,16 +416,6 @@
    "plays": 0
   },
   {
-   "slug": "coding-agent-edit-formats-diff-vs-whole-file",
-   "title": "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 4,
-   "plays": 1
-  },
-  {
    "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
    "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
    "section": "wire",
@@ -476,6 +466,16 @@
    "plays": 0
   },
   {
+   "slug": "coding-agent-edit-formats-diff-vs-whole-file",
+   "title": "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "how-to-combine-context-editing-compaction-memory-subagents-agent-sdk",
    "title": "How to Combine Context Editing, Compaction, Memory, and Subagents in One Claude Agent SDK Loop",
    "section": "stack",
@@ -515,16 +515,6 @@
    "author": "dex",
    "views": 46,
    "reads": 13,
-   "plays": 1
-  },
-  {
-   "slug": "coding-agent-edit-formats-diff-vs-whole-file",
-   "title": "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 4,
    "plays": 1
   },
   {
@@ -585,6 +575,16 @@
    "author": "dex",
    "views": 24,
    "reads": 8,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 31,
+   "reads": 5,
    "plays": 0
   }
  ],
@@ -693,9 +693,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 783,
+   "views": 782,
    "reads": 0,
-   "sessions": 783,
+   "sessions": 782,
    "avg_dwell_sec": 9
   },
   {
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 1557,
-   "sessions": 1556
+   "hits": 1577,
+   "sessions": 1576
   },
   {
    "ref": "https://www.google.com/",
@@ -815,8 +815,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 68,
-   "sessions": 40
+   "hits": 65,
+   "sessions": 39
   },
   {
    "ref": "https://cn.bing.com/",
