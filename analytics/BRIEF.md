@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-29T06:56Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-29T07:06Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 8477 views → 273 engaged reads → 8 completes · 8385 sessions.
-- Channels: direct 164r/6914v · organic 77r/215v · campaign:chatgpt.com 15r/34v · referral 6r/1274v · campaign:owner-qa 4r/4v · ai 3r/28v · social 3r/5v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 8491 views → 273 engaged reads → 8 completes · 8399 sessions.
+- Channels: direct 164r/6913v · organic 77r/215v · campaign:chatgpt.com 15r/34v · referral 6r/1289v · campaign:owner-qa 4r/4v · ai 3r/28v · social 3r/5v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 16r/38v · Yuanbao 1r/2v · Perplexity 1r/2v · Kimi 0r/18v · Grok 0r/1v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, cn.bing.com, search.brave.com, nav-cmp, qwant.com, brand, youtube.com.
 - Engaged-read winners by section: stack=9, wire=6.
@@ -23,13 +23,13 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 6914 views · read 2.4% · complete 0.1% · 1 pages/session · median 8s
-- referral: 1274 views · read 0.5% · complete 0.0% · 1 pages/session · median ?s
+- direct: 6913 views · read 2.4% · complete 0.1% · 1 pages/session · median 8s
+- referral: 1289 views · read 0.5% · complete 0.0% · 1 pages/session · median ?s
 - organic: 215 views · read 35.8% · complete 0.9% · 1.03 pages/session · median 3s
 - campaign:chatgpt.com: 34 views · read 44.1% · complete 0.0% · 1.21 pages/session · median ?s
 - ai: 28 views · read 10.7% · complete 0.0% · 0.72 pages/session · median 4s
 - social: 5 views · read 60.0% · complete 0.0% · 1 pages/session · median ?s
-INSIGHT: social converts 25x better per view than direct, which is 82% of all views.
+INSIGHT: social converts 25x better per view than direct, which is 81% of all views.
 One visitor from social is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
@@ -99,14 +99,14 @@ sample size dwarfs the engaged-read counts below.
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 124 retrieval fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 110 retrieval fetches
 - /posts/2026-10-15-founders-wire-anthropic-opens-its-books.html  — 105 retrieval fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 78 retrieval fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 79 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 67 retrieval fetches
-- /wire.html  — 54 retrieval fetches
+- /wire.html  — 55 retrieval fetches
 - /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html  — 26 retrieval fetches
 
 Per engine:
 - PerplexityBot (5262 verified): / ×28 · /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html ×26 · /newsroom ×23
-- OAI-SearchBot (4887 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×124 · /posts/open-source-llm-for-coding-september-2026.html ×78 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×67
+- OAI-SearchBot (4907 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×124 · /posts/open-source-llm-for-coding-september-2026.html ×79 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×67
 - ChatGPT-User (2973 verified): / ×791 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×278 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×110
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -144,7 +144,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 17067 confirmed AI-engine fetches (Perplexity 5262, ChatGPT Search (OpenAI) 4887, GPTBot (OpenAI) 3945, ChatGPT (user browsing) 2973).
+The real answer engines are crawling us — IP-verified: 17087 confirmed AI-engine fetches (Perplexity 5262, ChatGPT Search (OpenAI) 4907, GPTBot (OpenAI) 3945, ChatGPT (user browsing) 2973).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 493 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 382 crawler fetches
@@ -155,7 +155,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 124 crawler fetches
 - /posts/2026-10-15-founders-wire-anthropic-opens-its-books.html  — 121 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 80 crawler fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 78 crawler fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 79 crawler fetches
 - /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 62 crawler fetches
 - /posts/three-days-of-runway.html  — 50 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
