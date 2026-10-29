@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-29T11:31:40.300Z",
+ "generated": "2026-10-29T11:41:49.665Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 44,
+  "readersNow": 36,
   "todayReads": 11,
   "avgTimeSec": 20,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 9049,
-  "reads": 273,
-  "completes": 7,
-  "plays": 7,
-  "sessions": 8957
+  "views": 9068,
+  "reads": 272,
+  "completes": 6,
+  "plays": 5,
+  "sessions": 8977
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6914,
+   "views": 6912,
    "reads": 164,
-   "sessions": 6919
+   "sessions": 6917
   },
   {
    "channel": "organic",
-   "views": 217,
-   "reads": 77,
-   "sessions": 210
+   "views": 216,
+   "reads": 76,
+   "sessions": 209
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 1844,
+   "views": 1866,
    "reads": 6,
-   "sessions": 1842
+   "sessions": 1864
   },
   {
    "channel": "campaign:owner-qa",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6914,
+   "views": 6912,
    "reads": 164,
    "completes": 5,
-   "sessions": 6918,
+   "sessions": 6916,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,10 +96,10 @@
   },
   {
    "channel": "referral",
-   "views": 1844,
+   "views": 1866,
    "reads": 6,
    "completes": 0,
-   "sessions": 1842,
+   "sessions": 1864,
    "read_rate": 0.003,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -107,11 +107,11 @@
   },
   {
    "channel": "organic",
-   "views": 217,
-   "reads": 77,
+   "views": 216,
+   "reads": 76,
    "completes": 1,
-   "sessions": 210,
-   "read_rate": 0.355,
+   "sessions": 209,
+   "read_rate": 0.352,
    "complete_rate": 0.005,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -317,15 +317,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 8494,
-   "reads": 245,
-   "sessions": 8414
+   "views": 8514,
+   "reads": 244,
+   "sessions": 8435
   },
   {
    "device": "mobile",
-   "views": 553,
+   "views": 552,
    "reads": 27,
-   "sessions": 543
+   "sessions": 542
   },
   {
    "device": "tablet",
@@ -518,16 +518,6 @@
    "plays": 1
   },
   {
-   "slug": "tool-result-too-large-for-context-window",
-   "title": "How to Handle a Tool Result Too Large for the Context Window: Truncate, Paginate, or Hand Back a Handle",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 7,
-   "reads": 2,
-   "plays": 1
-  },
-  {
    "slug": "how-to-show-users-what-your-ai-agent-is-doing",
    "title": "How to Show Users What Your AI Agent Is Doing Right Now",
    "section": "stack",
@@ -535,16 +525,6 @@
    "author": "rosalinda",
    "views": 6,
    "reads": 1,
-   "plays": 1
-  },
-  {
-   "slug": "context-offloading-for-ai-agents",
-   "title": "Context Offloading for AI Agents: Writing Tool Results to Disk to Beat the Context Window",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 7,
-   "reads": 0,
    "plays": 1
   },
   {
@@ -585,6 +565,26 @@
    "author": "dex",
    "views": 31,
    "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
+   "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
+   "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "2026-10-15-founders-wire-anthropic-opens-its-books",
+   "title": "The Founder's Wire, October 15: Anthropic Opened Its Books — $16.8B, an 85% Margin, and $1.70 of Revenue for Every $1 of Compute",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 21,
+   "reads": 4,
    "plays": 0
   }
  ],
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 1825,
-   "sessions": 1824
+   "hits": 1847,
+   "sessions": 1846
   },
   {
    "ref": "https://www.google.com/",
@@ -810,8 +810,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 76,
-   "sessions": 41
+   "hits": 72,
+   "sessions": 40
   },
   {
    "ref": "https://duckduckgo.com/",
