@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-29T16:26Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-29T16:36Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 9759 views → 269 engaged reads → 7 completes · 9669 sessions.
-- Channels: direct 160r/6880v · organic 75r/216v · campaign:chatgpt.com 15r/34v · referral 9r/2590v · campaign:owner-qa 4r/4v · ai 3r/28v · social 2r/4v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 9789 views → 269 engaged reads → 7 completes · 9699 sessions.
+- Channels: direct 160r/6878v · organic 75r/215v · campaign:chatgpt.com 15r/34v · referral 9r/2623v · campaign:owner-qa 4r/4v · ai 3r/28v · social 2r/4v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 16r/38v · Yuanbao 1r/2v · Perplexity 1r/2v · Kimi 0r/18v · Grok 0r/1v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, cn.bing.com, search.brave.com, nav-cmp, brand, youtube.com, qwant.com.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,9 +23,9 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 6880 views · read 2.3% · complete 0.1% · 1 pages/session · median 8s
-- referral: 2590 views · read 0.3% · complete 0.0% · 1 pages/session · median ?s
-- organic: 216 views · read 34.7% · complete 0.5% · 1.04 pages/session · median 3s
+- direct: 6878 views · read 2.3% · complete 0.1% · 1 pages/session · median 8s
+- referral: 2623 views · read 0.3% · complete 0.0% · 1 pages/session · median ?s
+- organic: 215 views · read 34.9% · complete 0.5% · 1.04 pages/session · median 3s
 - campaign:chatgpt.com: 34 views · read 44.1% · complete 0.0% · 1.21 pages/session · median ?s
 - ai: 28 views · read 10.7% · complete 0.0% · 0.72 pages/session · median 4s
 - campaign:owner-qa: 4 views · read 100.0% · complete 0.0% · 1.33 pages/session · median ?s
@@ -37,7 +37,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Top by engaged reads (eyes that stayed)
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 33 reads, 121 views, 1 listens
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 14 reads, 32 views, 0 listens
-- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 13 reads, 47 views, 1 listens
+- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 13 reads, 46 views, 1 listens
 - [stack] "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)" — 7 reads, 21 views, 0 listens
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 5 reads, 32 views, 0 listens
 - [wire] "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo" — 5 reads, 12 views, 0 listens
@@ -69,7 +69,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 121 views, 33 reads
-- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 47 views, 13 reads
+- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 46 views, 13 reads
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 32 views, 14 reads
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 32 views, 5 reads
 - [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 29 views, 0 reads
@@ -148,7 +148,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 226 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 173 crawler fetches
 - /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 143 crawler fetches
-- /posts/gartner-ai-agent-spending-2026.html  — 130 crawler fetches
+- /posts/gartner-ai-agent-spending-2026.html  — 131 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 126 crawler fetches
 - /posts/2026-10-15-founders-wire-anthropic-opens-its-books.html  — 122 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 82 crawler fetches
