@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-29T18:48:51.560Z",
+ "generated": "2026-10-29T18:58:51.448Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 25,
+  "readersNow": 27,
   "todayReads": 24,
-  "avgTimeSec": 38,
+  "avgTimeSec": 37,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 10013,
+  "views": 10029,
   "reads": 276,
   "completes": 7,
   "plays": 5,
-  "sessions": 9921
+  "sessions": 9937
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6853,
+   "views": 6854,
    "reads": 165,
-   "sessions": 6857
+   "sessions": 6858
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 2872,
+   "views": 2887,
    "reads": 11,
-   "sessions": 2870
+   "sessions": 2885
   },
   {
    "channel": "campaign:owner-qa",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6853,
+   "views": 6854,
    "reads": 165,
    "completes": 6,
-   "sessions": 6856,
+   "sessions": 6857,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,10 +96,10 @@
   },
   {
    "channel": "referral",
-   "views": 2872,
+   "views": 2887,
    "reads": 11,
    "completes": 0,
-   "sessions": 2870,
+   "sessions": 2885,
    "read_rate": 0.004,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -317,9 +317,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9462,
+   "views": 9478,
    "reads": 248,
-   "sessions": 9382
+   "sessions": 9398
   },
   {
    "device": "mobile",
@@ -513,7 +513,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 7,
+   "views": 8,
    "reads": 2,
    "plays": 1
   },
@@ -770,10 +770,10 @@
   },
   {
    "path": "/submit.html",
-   "views": 24,
+   "views": 25,
    "reads": 8,
-   "sessions": 24,
-   "avg_dwell_sec": 88
+   "sessions": 25,
+   "avg_dwell_sec": 84
   },
   {
    "path": "/topics/:topic",
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 2858,
-   "sessions": 2852
+   "hits": 2873,
+   "sessions": 2867
   },
   {
    "ref": "https://www.google.com/",
