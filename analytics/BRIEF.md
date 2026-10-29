@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-29T22:01Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-29T22:12Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 10252 views → 276 engaged reads → 7 completes · 10157 sessions.
-- Channels: direct 165r/6823v · organic 74r/212v · campaign:chatgpt.com 15r/38v · referral 11r/3137v · ai 4r/31v · campaign:owner-qa 4r/4v · social 2r/4v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 10260 views → 276 engaged reads → 7 completes · 10165 sessions.
+- Channels: direct 165r/6822v · organic 74r/212v · campaign:chatgpt.com 15r/38v · referral 11r/3146v · ai 4r/31v · campaign:owner-qa 4r/4v · social 2r/4v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 17r/45v · Yuanbao 1r/2v · Perplexity 1r/2v · Kimi 0r/18v · Grok 0r/1v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, cn.bing.com, nav-cmp, search.brave.com, brand, youtube.com, qwant.com.
 - Engaged-read winners by section: stack=9, wire=6.
@@ -23,13 +23,13 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 6823 views · read 2.4% · complete 0.1% · 1 pages/session · median 8s
-- referral: 3137 views · read 0.4% · complete 0.0% · 1 pages/session · median ?s
+- direct: 6822 views · read 2.4% · complete 0.1% · 1 pages/session · median 8s
+- referral: 3146 views · read 0.3% · complete 0.0% · 1 pages/session · median ?s
 - organic: 212 views · read 34.9% · complete 0.5% · 1.03 pages/session · median 3s
 - campaign:chatgpt.com: 38 views · read 39.5% · complete 0.0% · 1.27 pages/session · median ?s
 - ai: 31 views · read 12.9% · complete 0.0% · 0.78 pages/session · median 4s
 - campaign:owner-qa: 4 views · read 100.0% · complete 0.0% · 1.33 pages/session · median ?s
-INSIGHT: campaign:chatgpt.com converts 16x better per view than direct, which is 67% of all views.
+INSIGHT: campaign:chatgpt.com converts 16x better per view than direct, which is 66% of all views.
 One visitor from campaign:chatgpt.com is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
