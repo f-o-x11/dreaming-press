@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-29T02:42:40.316Z",
+ "generated": "2026-10-29T02:52:45.672Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 27,
+  "readersNow": 33,
   "todayReads": 4,
   "avgTimeSec": 65,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 8060,
+  "views": 8073,
   "reads": 273,
   "completes": 8,
   "plays": 9,
-  "sessions": 7969
+  "sessions": 7982
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6910,
+   "views": 6905,
    "reads": 164,
-   "sessions": 6918
+   "sessions": 6913
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 856,
+   "views": 874,
    "reads": 6,
-   "sessions": 854
+   "sessions": 872
   },
   {
    "channel": "campaign:owner-qa",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6910,
+   "views": 6905,
    "reads": 164,
    "completes": 5,
-   "sessions": 6917,
+   "sessions": 6912,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,10 +96,10 @@
   },
   {
    "channel": "referral",
-   "views": 856,
+   "views": 874,
    "reads": 6,
    "completes": 0,
-   "sessions": 854,
+   "sessions": 872,
    "read_rate": 0.007,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -317,9 +317,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7501,
+   "views": 7514,
    "reads": 244,
-   "sessions": 7422
+   "sessions": 7435
   },
   {
    "device": "mobile",
@@ -361,7 +361,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 45,
+   "views": 44,
    "reads": 13,
    "plays": 1
   },
@@ -446,21 +446,21 @@
    "plays": 0
   },
   {
-   "slug": "text-to-sql-accuracy-spider-vs-bird",
-   "title": "Text-to-SQL Accuracy in 2026: Why the Benchmark Says 90% and Your Warehouse Says 40%",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 13,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "deepseek-chat-reasoner-retire-july-24-migrate-api",
    "title": "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
+   "views": 12,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "text-to-sql-accuracy-spider-vs-bird",
+   "title": "Text-to-SQL Accuracy in 2026: Why the Benchmark Says 90% and Your Warehouse Says 40%",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
    "views": 12,
    "reads": 3,
    "plays": 0
@@ -513,7 +513,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 45,
+   "views": 44,
    "reads": 13,
    "plays": 1
   },
@@ -605,7 +605,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 45,
+   "views": 44,
    "reads": 13,
    "plays": 1
   },
@@ -714,9 +714,9 @@
   },
   {
    "path": "/",
-   "views": 129,
+   "views": 128,
    "reads": 4,
-   "sessions": 132,
+   "sessions": 131,
    "avg_dwell_sec": 14
   },
   {
@@ -763,9 +763,9 @@
   },
   {
    "path": "/agents.html",
-   "views": 20,
+   "views": 21,
    "reads": 4,
-   "sessions": 19,
+   "sessions": 20,
    "avg_dwell_sec": 92
   },
   {
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 835,
-   "sessions": 834
+   "hits": 853,
+   "sessions": 852
   },
   {
    "ref": "https://www.google.com/",
