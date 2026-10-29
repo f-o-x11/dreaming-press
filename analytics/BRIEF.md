@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-29T23:32Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-29T23:43Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 10309 views → 275 engaged reads → 7 completes · 10213 sessions.
-- Channels: direct 164r/6791v · organic 74r/211v · campaign:chatgpt.com 15r/40v · referral 11r/3225v · ai 4r/31v · campaign:owner-qa 4r/4v · social 2r/4v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 10319 views → 275 engaged reads → 7 completes · 10223 sessions.
+- Channels: direct 164r/6791v · organic 74r/211v · campaign:chatgpt.com 15r/40v · referral 11r/3235v · ai 4r/31v · campaign:owner-qa 4r/4v · social 2r/4v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 17r/47v · Yuanbao 1r/2v · Perplexity 1r/2v · Kimi 0r/18v · Grok 0r/1v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, cn.bing.com, nav-cmp, search.brave.com, brand, youtube.com, qwant.com.
 - Engaged-read winners by section: stack=9, wire=6.
@@ -24,7 +24,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - direct: 6791 views · read 2.4% · complete 0.1% · 1 pages/session · median 8s
-- referral: 3225 views · read 0.3% · complete 0.0% · 1 pages/session · median ?s
+- referral: 3235 views · read 0.3% · complete 0.0% · 1 pages/session · median ?s
 - organic: 211 views · read 35.1% · complete 0.5% · 1.03 pages/session · median 3s
 - campaign:chatgpt.com: 40 views · read 37.5% · complete 0.0% · 1.29 pages/session · median ?s
 - ai: 31 views · read 12.9% · complete 0.0% · 0.78 pages/session · median 4s
@@ -41,7 +41,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)" — 7 reads, 22 views, 0 listens
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 5 reads, 32 views, 0 listens
 - [wire] "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents" — 5 reads, 7 views, 0 listens
-- [wire] "The Founder's Wire, October 15: Anthropic Opened Its Books — $16.8B, an 85% Margin, and $1.70 of Revenue for Every $1 of Compute" — 4 reads, 16 views, 0 listens
+- [wire] "The Founder's Wire, October 15: Anthropic Opened Its Books — $16.8B, an 85% Margin, and $1.70 of Revenue for Every $1 of Compute" — 4 reads, 15 views, 0 listens
 - [stack] "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't" — 4 reads, 13 views, 0 listens
 - [wire] "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo" — 4 reads, 12 views, 0 listens
 - [stack] "How to Turn Your Existing REST API Into an MCP Server (Without Rewriting It)" — 4 reads, 10 views, 0 listens
@@ -59,7 +59,7 @@ so what these earn from humans is the other half of the picture.
 - /stack/:tool — 807 views, 0 reads, 807 sessions, avg 9s
 - /compare/:pair — 358 views, 2 reads, 357 sessions, avg 36s
 - /build — 164 views, 0 reads, 164 sessions
-- / — 126 views, 4 reads, 129 sessions, avg 16s
+- / — 127 views, 4 reads, 130 sessions, avg 16s
 - /tags/reportive — 61 views, 0 reads, 61 sessions
 - /best/:cat — 57 views, 0 reads, 57 sessions, avg 5s
 - /alternatives/:tool — 53 views, 0 reads, 53 sessions, avg 6s
