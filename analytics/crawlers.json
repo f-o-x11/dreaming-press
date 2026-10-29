@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-29T06:46:08.454Z",
+ "generated": "2026-10-29T06:56:16.337Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 17054,
+ "verifiedAiHits": 17067,
  "logsScanned": 30,
  "windowStart": "2026-10-15",
  "windowEnd": "2026-10-29",
- "totalHits": 106169,
- "aiHits": 83716,
+ "totalHits": 106244,
+ "aiHits": 83781,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30608,
+   "hits": 30651,
    "verifiedHits": 0,
    "firstSeen": "2026-10-15",
    "lastSeen": "2026-10-29",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15194,
+   "hits": 15195,
    "verifiedHits": 0,
    "firstSeen": "2026-10-15",
    "lastSeen": "2026-10-29",
@@ -69,7 +69,7 @@
      "hits": 6
     },
     {
-     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
+     "path": "/compare/langgraph-vs-dspy",
      "hits": 6
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14179,
+   "hits": 14187,
    "verifiedHits": 0,
    "firstSeen": "2026-10-15",
    "lastSeen": "2026-10-29",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8701,
+   "hits": 8706,
    "verifiedHits": 0,
    "firstSeen": "2026-10-15",
    "lastSeen": "2026-10-29",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6632,
-   "verifiedHits": 6569,
+   "hits": 6637,
+   "verifiedHits": 6574,
    "firstSeen": "2026-10-15",
    "lastSeen": "2026-10-29",
    "topPaths": [
@@ -161,7 +161,7 @@
     },
     {
      "path": "/posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html",
-     "hits": 61
+     "hits": 62
     },
     {
      "path": "/posts/three-days-of-runway.html",
@@ -169,7 +169,7 @@
     },
     {
      "path": "/search",
-     "hits": 31
+     "hits": 32
     }
    ],
    "verifiable": true
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4926,
-   "verifiedHits": 4875,
+   "hits": 4938,
+   "verifiedHits": 4887,
    "firstSeen": "2026-10-15",
    "lastSeen": "2026-10-29",
    "topPaths": [
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 3079,
-   "verifiedHits": 2972,
+   "hits": 3080,
+   "verifiedHits": 2973,
    "firstSeen": "2026-10-15",
    "lastSeen": "2026-10-29",
    "topPaths": [
     {
      "path": "/",
-     "hits": 790
+     "hits": 791
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
