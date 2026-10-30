@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-30T21:17:00.491Z",
+ "generated": "2026-10-30T21:27:06.566Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 9,
   "avgTimeSec": 15,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 10828,
-  "reads": 249,
+  "views": 10826,
+  "reads": 248,
   "completes": 8,
   "plays": 6,
-  "sessions": 10753
+  "sessions": 10750
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6754,
+   "views": 6752,
    "reads": 143,
-   "sessions": 6774
+   "sessions": 6772
   },
   {
    "channel": "organic",
    "views": 197,
-   "reads": 72,
-   "sessions": 192
+   "reads": 71,
+   "sessions": 191
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6754,
+   "views": 6752,
    "reads": 143,
    "completes": 7,
-   "sessions": 6773,
+   "sessions": 6771,
    "read_rate": 0.021,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -102,10 +102,10 @@
   {
    "channel": "organic",
    "views": 197,
-   "reads": 72,
+   "reads": 71,
    "completes": 1,
-   "sessions": 192,
-   "read_rate": 0.365,
+   "sessions": 191,
+   "read_rate": 0.36,
    "complete_rate": 0.005,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -300,15 +300,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10294,
+   "views": 10292,
    "reads": 222,
-   "sessions": 10225
+   "sessions": 10223
   },
   {
    "device": "mobile",
    "views": 532,
-   "reads": 26,
-   "sessions": 528
+   "reads": 25,
+   "sessions": 527
   },
   {
    "device": "tablet",
@@ -345,7 +345,7 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 42,
-   "reads": 11,
+   "reads": 10,
    "plays": 1
   },
   {
@@ -487,7 +487,7 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 42,
-   "reads": 11,
+   "reads": 10,
    "plays": 1
   },
   {
@@ -589,7 +589,7 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 42,
-   "reads": 11,
+   "reads": 10,
    "plays": 1
   },
   {
@@ -663,13 +663,13 @@
    "plays": 0
   },
   {
-   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
-   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
+   "slug": "agno-vs-langgraph-vs-crewai",
+   "title": "Agno vs LangGraph vs CrewAI: Choosing an Agent Framework in 2026",
    "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
+   "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 20,
-   "reads": 1,
+   "reads": 0,
    "plays": 0
   }
  ],
@@ -718,9 +718,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 55,
+   "views": 54,
    "reads": 0,
-   "sessions": 55,
+   "sessions": 54,
    "avg_dwell_sec": 6
   },
   {
@@ -813,8 +813,8 @@
   },
   {
    "ref": "https://search.brave.com/",
-   "hits": 8,
-   "sessions": 5
+   "hits": 7,
+   "sessions": 4
   },
   {
    "ref": "https://www.youtube.com/",
