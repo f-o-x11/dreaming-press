@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-30T09:44:40.711Z",
+ "generated": "2026-10-30T09:54:50.649Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 0,
   "todayReads": 5,
   "avgTimeSec": 5,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 10851,
-  "reads": 257,
+  "views": 10849,
+  "reads": 256,
   "completes": 7,
   "plays": 6,
-  "sessions": 10768
+  "sessions": 10766
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6770,
-   "reads": 147,
-   "sessions": 6788
+   "views": 6768,
+   "reads": 146,
+   "sessions": 6786
   },
   {
    "channel": "organic",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6770,
-   "reads": 147,
+   "views": 6768,
+   "reads": 146,
    "completes": 6,
-   "sessions": 6787,
+   "sessions": 6785,
    "read_rate": 0.022,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -317,9 +317,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10318,
-   "reads": 231,
-   "sessions": 10242
+   "views": 10316,
+   "reads": 230,
+   "sessions": 10240
   },
   {
    "device": "mobile",
@@ -620,16 +620,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
-   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 30,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -637,6 +627,16 @@
    "author": "dex",
    "views": 29,
    "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
+   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 29,
+   "reads": 0,
    "plays": 0
   },
   {
@@ -693,10 +693,10 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 834,
+   "views": 833,
    "reads": 0,
-   "sessions": 834,
-   "avg_dwell_sec": 9
+   "sessions": 833,
+   "avg_dwell_sec": 8
   },
   {
    "path": "/compare/:pair",

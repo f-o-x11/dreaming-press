@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-30T09:44:40.397Z",
+ "generated": "2026-10-30T09:54:50.329Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16128,
+ "verifiedAiHits": 16133,
  "logsScanned": 30,
  "windowStart": "2026-10-16",
  "windowEnd": "2026-10-30",
- "totalHits": 106410,
- "aiHits": 83369,
+ "totalHits": 106447,
+ "aiHits": 83401,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30252,
+   "hits": 30259,
    "verifiedHits": 0,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16222,
+   "hits": 16228,
    "verifiedHits": 0,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14310,
+   "hits": 14317,
    "verifiedHits": 0,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9000,
+   "hits": 9002,
    "verifiedHits": 0,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6834,
-   "verifiedHits": 6772,
+   "hits": 6836,
+   "verifiedHits": 6774,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4859,
-   "verifiedHits": 4811,
+   "hits": 4862,
+   "verifiedHits": 4814,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4734,
-   "verifiedHits": 4648,
+   "hits": 4736,
+   "verifiedHits": 4650,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
    "topPaths": [
@@ -230,11 +230,11 @@
      "hits": 23
     },
     {
-     "path": "/tools",
-     "hits": 18
+     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
+     "hits": 19
     },
     {
-     "path": "/tags",
+     "path": "/tools",
      "hits": 18
     }
    ],
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1990,
+   "hits": 1991,
    "verifiedHits": 0,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
@@ -575,7 +575,7 @@
    "label": "Mistral AI",
    "category": "ai",
    "home": "https://mistral.ai",
-   "hits": 242,
+   "hits": 249,
    "verifiedHits": 0,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
@@ -597,7 +597,7 @@
      "hits": 2
     },
     {
-     "path": "/posts/how-to-run-crewai-flows-in-parallel-and-branch.html",
+     "path": "/posts/run-671b-moe-single-gpu-ktransformers-vs-llama-llama-cpp.html",
      "hits": 2
     }
    ],
