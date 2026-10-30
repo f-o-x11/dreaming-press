@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-30T04:07:02.982Z",
+ "generated": "2026-10-30T04:17:20.144Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 15919,
  "logsScanned": 30,
  "windowStart": "2026-10-16",
  "windowEnd": "2026-10-30",
- "totalHits": 104877,
- "aiHits": 82308,
+ "totalHits": 104907,
+ "aiHits": 82332,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29781,
+   "hits": 29797,
    "verifiedHits": 0,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14059,
+   "hits": 14065,
    "verifiedHits": 0,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8764,
+   "hits": 8765,
    "verifiedHits": 0,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6719,
-   "verifiedHits": 6657,
+   "hits": 6724,
+   "verifiedHits": 6662,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
    "topPaths": [
@@ -641,14 +641,18 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 93,
+   "hits": 95,
    "verifiedHits": 0,
    "firstSeen": "2026-10-16",
-   "lastSeen": "2026-10-29",
+   "lastSeen": "2026-10-30",
    "topPaths": [
     {
      "path": "/posts/spot-vs-on-demand-gpu-when-interruptible-pays.html",
      "hits": 3
+    },
+    {
+     "path": "/posts/coding-agent-edit-formats-diff-vs-whole-file.html",
+     "hits": 2
     },
     {
      "path": "/app",
@@ -660,10 +664,6 @@
     },
     {
      "path": "/login",
-     "hits": 2
-    },
-    {
-     "path": "/posts/self-host-embeddings-vs-api-break-even-worksheet.html",
      "hits": 2
     }
    ],
