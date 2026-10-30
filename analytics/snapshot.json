@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T20:16:00.660Z",
+ "generated": "2026-10-30T20:26:11.164Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -9,7 +9,7 @@
  },
  "funnel": {
   "views": 10833,
-  "reads": 252,
+  "reads": 251,
   "completes": 8,
   "plays": 6,
   "sessions": 10755
@@ -30,7 +30,7 @@
   {
    "channel": "campaign:chatgpt.com",
    "views": 41,
-   "reads": 16,
+   "reads": 15,
    "sessions": 32
   },
   {
@@ -113,10 +113,10 @@
   {
    "channel": "campaign:chatgpt.com",
    "views": 41,
-   "reads": 16,
+   "reads": 15,
    "completes": 0,
    "sessions": 32,
-   "read_rate": 0.39,
+   "read_rate": 0.366,
    "complete_rate": 0,
    "pages_per_session": 1.28,
    "median_dwell_sec": null
@@ -269,7 +269,7 @@
   {
    "assistant": "ChatGPT",
    "views": 48,
-   "reads": 18,
+   "reads": 17,
    "sessions": 32
   },
   {
@@ -301,7 +301,7 @@
   {
    "device": "desktop",
    "views": 10300,
-   "reads": 225,
+   "reads": 224,
    "sessions": 10229
   },
   {
@@ -389,16 +389,6 @@
    "plays": 0
   },
   {
-   "slug": "how-to-turn-your-rest-api-into-an-mcp-server",
-   "title": "How to Turn Your Existing REST API Into an MCP Server (Without Rewriting It)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 9,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026",
    "title": "Serverless GPU Compute, Explained: The Providers, the Prices, and When Scale-to-Zero Pays (September 2026)",
    "section": "stack",
@@ -455,6 +445,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 10,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "how-to-turn-your-rest-api-into-an-mcp-server",
+   "title": "How to Turn Your Existing REST API Into an MCP Server (Without Rewriting It)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 9,
    "reads": 3,
    "plays": 0
   },
