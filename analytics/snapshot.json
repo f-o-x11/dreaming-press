@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-30T13:49:36.562Z",
+ "generated": "2026-10-30T13:59:50.801Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 0,
   "todayReads": 7,
   "avgTimeSec": 23,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 10856,
+  "views": 10854,
   "reads": 254,
   "completes": 7,
   "plays": 6,
-  "sessions": 10775
+  "sessions": 10773
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6774,
+   "views": 6773,
    "reads": 143,
-   "sessions": 6795
+   "sessions": 6793
   },
   {
    "channel": "organic",
-   "views": 202,
+   "views": 201,
    "reads": 74,
-   "sessions": 195
+   "sessions": 194
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6774,
+   "views": 6773,
    "reads": 143,
    "completes": 6,
-   "sessions": 6794,
+   "sessions": 6792,
    "read_rate": 0.021,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -107,11 +107,11 @@
   },
   {
    "channel": "organic",
-   "views": 202,
+   "views": 201,
    "reads": 74,
    "completes": 1,
-   "sessions": 195,
-   "read_rate": 0.366,
+   "sessions": 194,
+   "read_rate": 0.368,
    "complete_rate": 0.005,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -317,9 +317,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10323,
+   "views": 10321,
    "reads": 228,
-   "sessions": 10249
+   "sessions": 10247
   },
   {
    "device": "mobile",
@@ -456,22 +456,22 @@
    "plays": 0
   },
   {
-   "slug": "2026-10-15-founders-wire-anthropic-opens-its-books",
-   "title": "The Founder's Wire, October 15: Anthropic Opened Its Books — $16.8B, an 85% Margin, and $1.70 of Revenue for Every $1 of Compute",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 12,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "how-to-combine-context-editing-compaction-memory-subagents-agent-sdk",
    "title": "How to Combine Context Editing, Compaction, Memory, and Subagents in One Claude Agent SDK Loop",
    "section": "stack",
    "tags": "[\"tutorial\",\"howto\",\"context-management\",\"agent-sdk\",\"ai-agents\"]",
    "author": "dex",
    "views": 12,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "2026-10-15-founders-wire-anthropic-opens-its-books",
+   "title": "The Founder's Wire, October 15: Anthropic Opened Its Books — $16.8B, an 85% Margin, and $1.70 of Revenue for Every $1 of Compute",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 11,
    "reads": 3,
    "plays": 0
   },
@@ -815,8 +815,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 67,
-   "sessions": 39
+   "hits": 66,
+   "sessions": 38
   },
   {
    "ref": "https://cn.bing.com/",
