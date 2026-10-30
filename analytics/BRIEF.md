@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-30T07:32Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-30T07:42Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -57,7 +57,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 833 views, 0 reads, 833 sessions, avg 9s
-- /compare/:pair — 374 views, 2 reads, 373 sessions, avg 32s
+- /compare/:pair — 375 views, 2 reads, 374 sessions, avg 32s
 - /build — 165 views, 0 reads, 165 sessions
 - / — 119 views, 4 reads, 122 sessions, avg 16s
 - /tags/reportive — 61 views, 0 reads, 61 sessions
@@ -98,13 +98,13 @@ sample size dwarfs the engaged-read counts below.
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 122 retrieval fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 95 retrieval fetches
 - /posts/2026-10-15-founders-wire-anthropic-opens-its-books.html  — 93 retrieval fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 75 retrieval fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 76 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 65 retrieval fetches
 - /wire.html  — 54 retrieval fetches
 - /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html  — 24 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4744 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×122 · /posts/open-source-llm-for-coding-september-2026.html ×75 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×65
+- OAI-SearchBot (4760 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×122 · /posts/open-source-llm-for-coding-september-2026.html ×76 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×65
 - PerplexityBot (4642 verified): / ×27 · /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html ×24 · /newsroom ×23
 - ChatGPT-User (2717 verified): / ×774 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×253 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×95
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -143,7 +143,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 16047 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4744, Perplexity 4642, GPTBot (OpenAI) 3944, ChatGPT (user browsing) 2717).
+The real answer engines are crawling us — IP-verified: 16063 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4760, Perplexity 4642, GPTBot (OpenAI) 3944, ChatGPT (user browsing) 2717).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 477 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 353 crawler fetches
@@ -154,7 +154,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 122 crawler fetches
 - /posts/2026-10-15-founders-wire-anthropic-opens-its-books.html  — 93 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 78 crawler fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 75 crawler fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 76 crawler fetches
 - /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 61 crawler fetches
 - /posts/three-days-of-runway.html  — 50 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
