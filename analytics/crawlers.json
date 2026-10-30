@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-30T06:40:40.264Z",
+ "generated": "2026-10-30T06:51:00.718Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15967,
+ "verifiedAiHits": 15984,
  "logsScanned": 30,
  "windowStart": "2026-10-16",
  "windowEnd": "2026-10-30",
- "totalHits": 105457,
- "aiHits": 82729,
+ "totalHits": 105523,
+ "aiHits": 82776,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29988,
+   "hits": 30001,
    "verifiedHits": 0,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16191,
+   "hits": 16199,
    "verifiedHits": 0,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14168,
+   "hits": 14177,
    "verifiedHits": 0,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8815,
+   "hits": 8823,
    "verifiedHits": 0,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
@@ -146,14 +146,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6770,
-   "verifiedHits": 6708,
+   "hits": 6778,
+   "verifiedHits": 6716,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 129
+     "hits": 130
     },
     {
      "path": "/build",
@@ -175,45 +175,12 @@
    "verifiable": true
   },
   {
-   "name": "PerplexityBot",
-   "label": "Perplexity",
-   "category": "ai",
-   "home": "https://www.perplexity.ai/bot",
-   "hits": 4727,
-   "verifiedHits": 4641,
-   "firstSeen": "2026-10-16",
-   "lastSeen": "2026-10-30",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 27
-    },
-    {
-     "path": "/posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html",
-     "hits": 24
-    },
-    {
-     "path": "/newsroom",
-     "hits": 23
-    },
-    {
-     "path": "/tools",
-     "hits": 18
-    },
-    {
-     "path": "/tags",
-     "hits": 18
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "OAI-SearchBot",
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4715,
-   "verifiedHits": 4667,
+   "hits": 4731,
+   "verifiedHits": 4683,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
    "topPaths": [
@@ -236,6 +203,39 @@
     {
      "path": "/wire.html",
      "hits": 52
+    }
+   ],
+   "verifiable": true
+  },
+  {
+   "name": "PerplexityBot",
+   "label": "Perplexity",
+   "category": "ai",
+   "home": "https://www.perplexity.ai/bot",
+   "hits": 4728,
+   "verifiedHits": 4642,
+   "firstSeen": "2026-10-16",
+   "lastSeen": "2026-10-30",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 27
+    },
+    {
+     "path": "/posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html",
+     "hits": 24
+    },
+    {
+     "path": "/newsroom",
+     "hits": 23
+    },
+    {
+     "path": "/tools",
+     "hits": 18
+    },
+    {
+     "path": "/tags",
+     "hits": 18
     }
    ],
    "verifiable": true
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1975,
+   "hits": 1976,
    "verifiedHits": 0,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
@@ -476,8 +476,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 624,
-   "verifiedHits": 539,
+   "hits": 626,
+   "verifiedHits": 541,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
    "topPaths": [
