@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-30T03:46:49.636Z",
+ "generated": "2026-10-30T03:57:00.275Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 34,
+  "readersNow": 29,
   "todayReads": 3,
   "avgTimeSec": 4,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 10757,
+  "views": 10770,
   "reads": 270,
   "completes": 7,
   "plays": 5,
-  "sessions": 10666
+  "sessions": 10679
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6815,
+   "views": 6813,
    "reads": 158,
-   "sessions": 6824
+   "sessions": 6822
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 3657,
+   "views": 3672,
    "reads": 12,
-   "sessions": 3655
+   "sessions": 3670
   },
   {
    "channel": "ai",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6815,
+   "views": 6813,
    "reads": 158,
    "completes": 6,
-   "sessions": 6823,
+   "sessions": 6821,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,10 +96,10 @@
   },
   {
    "channel": "referral",
-   "views": 3657,
+   "views": 3672,
    "reads": 12,
    "completes": 0,
-   "sessions": 3655,
+   "sessions": 3670,
    "read_rate": 0.003,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -317,15 +317,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10217,
+   "views": 10231,
    "reads": 242,
-   "sessions": 10138
+   "sessions": 10152
   },
   {
    "device": "mobile",
-   "views": 538,
+   "views": 537,
    "reads": 27,
-   "sessions": 528
+   "sessions": 527
   },
   {
    "device": "tablet",
@@ -341,7 +341,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 123,
+   "views": 121,
    "reads": 31,
    "plays": 1
   },
@@ -493,7 +493,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 123,
+   "views": 121,
    "reads": 31,
    "plays": 1
   },
@@ -595,7 +595,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 123,
+   "views": 121,
    "reads": 31,
    "plays": 1
   },
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3642,
-   "sessions": 3636
+   "hits": 3657,
+   "sessions": 3651
   },
   {
    "ref": "https://www.google.com/",
