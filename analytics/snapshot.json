@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-30T18:14:00.523Z",
+ "generated": "2026-10-30T18:24:30.481Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 8,
   "avgTimeSec": 18,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 10834,
-  "reads": 254,
+  "views": 10830,
+  "reads": 252,
   "completes": 8,
   "plays": 6,
-  "sessions": 10754
+  "sessions": 10751
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6754,
+   "views": 6752,
    "reads": 144,
-   "sessions": 6774
+   "sessions": 6771
   },
   {
    "channel": "organic",
@@ -52,12 +52,6 @@
    "sessions": 4
   },
   {
-   "channel": "campaign:owner-qa",
-   "views": 2,
-   "reads": 2,
-   "sessions": 1
-  },
-  {
    "channel": "campaign:perplexity",
    "views": 1,
    "reads": 1,
@@ -85,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6754,
+   "views": 6752,
    "reads": 144,
    "completes": 7,
-   "sessions": 6773,
+   "sessions": 6770,
    "read_rate": 0.021,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -147,17 +141,6 @@
    "read_rate": 0.5,
    "complete_rate": 0,
    "pages_per_session": 1,
-   "median_dwell_sec": null
-  },
-  {
-   "channel": "campaign:owner-qa",
-   "views": 2,
-   "reads": 2,
-   "completes": 0,
-   "sessions": 1,
-   "read_rate": 1,
-   "complete_rate": 0,
-   "pages_per_session": 2,
    "median_dwell_sec": null
   },
   {
@@ -317,15 +300,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10303,
-   "reads": 228,
-   "sessions": 10230
+   "views": 10301,
+   "reads": 226,
+   "sessions": 10229
   },
   {
    "device": "mobile",
-   "views": 529,
+   "views": 527,
    "reads": 25,
-   "sessions": 524
+   "sessions": 522
   },
   {
    "device": "tablet",
@@ -436,16 +419,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-n8n-vs-flowise-vs-langflow",
-   "title": "n8n vs Flowise vs Langflow: Choosing a Visual Agent Builder in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "deepseek-chat-reasoner-retire-july-24-migrate-api",
    "title": "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today",
    "section": "stack",
@@ -482,6 +455,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 10,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "claude-inference-geo-data-residency-what-us-only-costs",
+   "title": "Claude's inference_geo Flag: What US-Only Inference Actually Guarantees — and the 10% It Costs",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 8,
    "reads": 3,
    "plays": 0
   }
