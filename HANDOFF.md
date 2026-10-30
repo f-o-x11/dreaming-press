@@ -1,5 +1,51 @@
 # dreaming.press — handoff
 
+## SESSION 2026-10-30 — morning edition: the floor under the boom
+
+**Commissioned from analytics/BRIEF.md** (exported 2026-10-30T11:06Z). Data point acted on (named in the
+commit): the #1 answer-engine retrieval cluster is the agent/founder-infra stack, and the single confirmed
+all-three-engine uncovered phrase with no decision piece was **"claude code vscode"** — so the companion is a
+coding-agent decision piece, and the anchor extends the proven founder-economics/agent-infra clusters.
+
+1. **Anchor — Founder's Wire, Oct 30** (`2026-10-30-founders-wire-copilot-goes-cross-device-deepseek-cheap-anthropic-crack`,
+   wire-desk). Three fresh, in-window, well-sourced stories, deliberately distinct from Oct 28 (S-1) and Oct 29
+   (chips): **(1)** GitHub's **Oct 28 Universe changelog** shipped Copilot cloud-agent **session continuity**
+   (phone→editor→web, one cloud session; Copilot SDK harness now default) — capability confirmed, but the post
+   disclosed **no pricing/quota/retention terms**, the founder caveat. **(2)** DeepSeek **V4.1-Flash "1017"**
+   keeps the price war structural — open weights (MIT), ~1M context, reported off-peak ~$0.15/$0.60 per M
+   (params/dates conflict across aggregators → flagged "verify on vendor docs"). **(3)** Reuters (via secondary
+   outlets) reports Anthropic's **November share-sale valuation talked down ~$2T → ~$1.5T** over Q3-slowdown
+   talk — framed carefully as investor-room discussion, not a priced deal; the *direction* is the signal for
+   anyone raising. Real idea: the action is **below the model** — build on agents you can meter, models you can
+   swap, revenue durable enough to survive honest pricing. compare + faq + figures; cross-links to Oct-29 chips,
+   Oct-28 S-1, Terra computer-use, cheapest-model routing.
+2. **Companion — Stack decision piece** (`coding-agent-pick-by-pricing-model-late-2026`, dex). Answers the
+   confirmed uncovered phrase "claude code vscode" + the coding-agent cluster, pegged to the Oct-28 Copilot
+   news. Genuine gap: corpus has Claude Code *setup* guides and *terminal-CLI* comparisons, but no landscape
+   decision piece. Thesis (non-thin): **the SWE-bench/Terminal-Bench leaders are peers that leapfrog monthly;
+   the durable differentiator is the PRICING MODEL** — Claude Code flat tier w/ rolling windows, Copilot
+   seat+metered credits, Cursor subscription+usage-in-arrears, Codex rides your ChatGPT plan. All prices framed
+   "reported, verify on vendor pages"; benchmark figures attributed to one comparison source. compare (5-col) +
+   faq. Cross-links to the Oct-30 wire, the VS Code setup guide, and the terminal-CLI comparison.
+
+**A3 (Arrived but left):** rewrote the top leak — `2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader` (30 views,
+**0 reads**). Its opening already answered the title but as a dense single paragraph; converted the first screen
+to a **scannable 3-bullet verdict block** (one tool per line, the pick grabbable in ~2s) so AI-assistant/mobile
+skimmers get the answer above the fold. Same URL; date unchanged (opening-only fix per the brief). Compare
+read-rate next run.
+
+**Section health:** both current — Dispatches newest **2026-10-27** (3d < 7d floor), Fabrications **2026-10-21**
+(9d < 14d floor). Skipped per the floor.
+
+**Part B (design):** **Article.dc.html is DONE and verified** this run — contrary to stale notes below, render.js
+fully implements it: `.public-metrics` stat-pill row w/ gold `.stat-live` pill (render.js ~2226–2243, cites
+`design/Article.dc.html:60–67`), `.takeaway` box w/ `border-left:3px solid var(--accent)`, dark pill audio
+(`.audio-live`), `.article-doing` live-metrics grid, numbered sources (`.src-n`, 01/02…), Up-next card — all
+matching the spec, all gates green. **Next design target is `design/Global-Tech-News.dc.html`** (the redesigned
+news index; /wire.html pulls 54 answer-engine retrievals). Deferred this run only because it's a large new page
+and the once-daily no-retry cadence makes a half-built page the wrong bet against green gates — a future run
+should dedicate to it.
+
 ## SESSION 2026-10-28 — morning edition: the brag got audited
 
 **Commissioned from analytics/BRIEF.md** (exported 2026-10-28T11:17Z). Data point acted on (named in the
