@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-30T00:53:45.478Z",
+ "generated": "2026-10-30T01:03:59.997Z",
  "windowDays": 14,
  "site": {
   "readersNow": 17,
-  "todayReads": 1,
-  "avgTimeSec": 0,
+  "todayReads": 2,
+  "avgTimeSec": 4,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 10377,
-  "reads": 275,
+  "views": 10390,
+  "reads": 276,
   "completes": 7,
   "plays": 5,
-  "sessions": 10282
+  "sessions": 10295
  },
  "channels": [
   {
@@ -29,21 +29,21 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 40,
-   "reads": 15,
-   "sessions": 31
+   "views": 41,
+   "reads": 16,
+   "sessions": 32
   },
   {
    "channel": "referral",
-   "views": 3297,
+   "views": 3309,
    "reads": 11,
-   "sessions": 3295
+   "sessions": 3307
   },
   {
    "channel": "ai",
    "views": 31,
    "reads": 4,
-   "sessions": 40
+   "sessions": 41
   },
   {
    "channel": "campaign:owner-qa",
@@ -96,10 +96,10 @@
   },
   {
    "channel": "referral",
-   "views": 3297,
+   "views": 3309,
    "reads": 11,
    "completes": 0,
-   "sessions": 3295,
+   "sessions": 3307,
    "read_rate": 0.003,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -118,13 +118,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 40,
-   "reads": 15,
+   "views": 41,
+   "reads": 16,
    "completes": 0,
-   "sessions": 31,
-   "read_rate": 0.375,
+   "sessions": 32,
+   "read_rate": 0.39,
    "complete_rate": 0,
-   "pages_per_session": 1.29,
+   "pages_per_session": 1.28,
    "median_dwell_sec": null
   },
   {
@@ -132,10 +132,10 @@
    "views": 31,
    "reads": 4,
    "completes": 0,
-   "sessions": 40,
+   "sessions": 41,
    "read_rate": 0.129,
    "complete_rate": 0,
-   "pages_per_session": 0.78,
+   "pages_per_session": 0.76,
    "median_dwell_sec": 4
   },
   {
@@ -285,9 +285,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 47,
-   "reads": 17,
-   "sessions": 31
+   "views": 48,
+   "reads": 18,
+   "sessions": 32
   },
   {
    "assistant": "Yuanbao",
@@ -317,9 +317,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9834,
-   "reads": 247,
-   "sessions": 9751
+   "views": 9847,
+   "reads": 248,
+   "sessions": 9764
   },
   {
    "device": "mobile",
@@ -680,13 +680,13 @@
    "plays": 0
   },
   {
-   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
-   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
+   "slug": "how-to-chunk-code-for-rag",
+   "title": "How to Chunk Code for RAG: AST-Aware Splitting vs Fixed-Size",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 19,
-   "reads": 0,
+   "reads": 1,
    "plays": 0
   }
  ],
@@ -714,9 +714,9 @@
   },
   {
    "path": "/",
-   "views": 124,
+   "views": 123,
    "reads": 4,
-   "sessions": 127,
+   "sessions": 126,
    "avg_dwell_sec": 16
   },
   {
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3283,
-   "sessions": 3277
+   "hits": 3295,
+   "sessions": 3289
   },
   {
    "ref": "https://www.google.com/",
