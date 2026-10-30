@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-30T08:12:20.492Z",
+ "generated": "2026-10-30T08:22:40.374Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 0,
   "todayReads": 4,
   "avgTimeSec": 5,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 10877,
-  "reads": 262,
+  "views": 10873,
+  "reads": 261,
   "completes": 7,
   "plays": 5,
-  "sessions": 10790
+  "sessions": 10786
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6794,
+   "views": 6791,
    "reads": 150,
-   "sessions": 6809
+   "sessions": 6806
   },
   {
    "channel": "organic",
@@ -46,16 +46,16 @@
    "sessions": 41
   },
   {
-   "channel": "campaign:owner-qa",
-   "views": 3,
-   "reads": 3,
-   "sessions": 2
-  },
-  {
    "channel": "social",
    "views": 4,
    "reads": 2,
    "sessions": 4
+  },
+  {
+   "channel": "campaign:owner-qa",
+   "views": 2,
+   "reads": 2,
+   "sessions": 1
   },
   {
    "channel": "campaign:perplexity",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6794,
+   "views": 6791,
    "reads": 150,
    "completes": 6,
-   "sessions": 6808,
+   "sessions": 6805,
    "read_rate": 0.022,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -151,13 +151,13 @@
   },
   {
    "channel": "campaign:owner-qa",
-   "views": 3,
-   "reads": 3,
+   "views": 2,
+   "reads": 2,
    "completes": 0,
-   "sessions": 2,
+   "sessions": 1,
    "read_rate": 1,
    "complete_rate": 0,
-   "pages_per_session": 1.5,
+   "pages_per_session": 2,
    "median_dwell_sec": null
   },
   {
@@ -317,9 +317,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10335,
-   "reads": 234,
-   "sessions": 10260
+   "views": 10331,
+   "reads": 233,
+   "sessions": 10256
   },
   {
    "device": "mobile",
@@ -351,7 +351,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 47,
+   "views": 46,
    "reads": 12,
    "plays": 1
   },
@@ -503,7 +503,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 47,
+   "views": 46,
    "reads": 12,
    "plays": 1
   },
@@ -605,7 +605,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 47,
+   "views": 46,
    "reads": 12,
    "plays": 1
   },
