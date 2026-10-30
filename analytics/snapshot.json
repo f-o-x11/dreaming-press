@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-30T10:04:51.496Z",
+ "generated": "2026-10-30T10:15:00.412Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 5,
   "avgTimeSec": 5,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 10846,
+  "views": 10847,
   "reads": 256,
   "completes": 7,
   "plays": 6,
-  "sessions": 10763
+  "sessions": 10764
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6765,
+   "views": 6766,
    "reads": 146,
-   "sessions": 6783
+   "sessions": 6784
   },
   {
    "channel": "organic",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6765,
+   "views": 6766,
    "reads": 146,
    "completes": 6,
-   "sessions": 6782,
+   "sessions": 6783,
    "read_rate": 0.022,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -317,9 +317,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10315,
+   "views": 10316,
    "reads": 230,
-   "sessions": 10239
+   "sessions": 10240
   },
   {
    "device": "mobile",
@@ -620,6 +620,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
+   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 30,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -627,16 +637,6 @@
    "author": "dex",
    "views": 29,
    "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
-   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 29,
-   "reads": 0,
    "plays": 0
   },
   {
