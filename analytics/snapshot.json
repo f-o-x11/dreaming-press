@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-30T08:53:30.323Z",
+ "generated": "2026-10-30T09:03:31.365Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,18 +8,18 @@
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 10861,
-  "reads": 261,
+  "views": 10860,
+  "reads": 260,
   "completes": 7,
   "plays": 6,
-  "sessions": 10774
+  "sessions": 10775
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6778,
-   "reads": 150,
-   "sessions": 6793
+   "views": 6777,
+   "reads": 149,
+   "sessions": 6794
   },
   {
    "channel": "organic",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6778,
-   "reads": 150,
+   "views": 6777,
+   "reads": 149,
    "completes": 6,
-   "sessions": 6792,
+   "sessions": 6793,
    "read_rate": 0.022,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -213,7 +213,7 @@
   },
   {
    "surface": "brand",
-   "clicks": 7,
+   "clicks": 6,
    "sessions": 6
   },
   {
@@ -317,14 +317,14 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10322,
+   "views": 10323,
    "reads": 233,
-   "sessions": 10247
+   "sessions": 10248
   },
   {
    "device": "mobile",
-   "views": 537,
-   "reads": 27,
+   "views": 535,
+   "reads": 26,
    "sessions": 527
   },
   {
@@ -346,16 +346,6 @@
    "plays": 1
   },
   {
-   "slug": "best-llm-for-creative-writing-october-2026",
-   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 46,
-   "reads": 12,
-   "plays": 1
-  },
-  {
    "slug": "mcp-tool-annotations-explained",
    "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
    "section": "wire",
@@ -364,6 +354,16 @@
    "views": 30,
    "reads": 12,
    "plays": 0
+  },
+  {
+   "slug": "best-llm-for-creative-writing-october-2026",
+   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 45,
+   "reads": 11,
+   "plays": 1
   },
   {
    "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
@@ -503,8 +503,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 46,
-   "reads": 12,
+   "views": 45,
+   "reads": 11,
    "plays": 1
   },
   {
@@ -605,8 +605,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 46,
-   "reads": 12,
+   "views": 45,
+   "reads": 11,
    "plays": 1
   },
   {
@@ -714,7 +714,7 @@
   },
   {
    "path": "/",
-   "views": 119,
+   "views": 118,
    "reads": 4,
    "sessions": 122,
    "avg_dwell_sec": 16
@@ -834,14 +834,14 @@
    "sessions": 5
   },
   {
-   "ref": "brand",
-   "hits": 7,
-   "sessions": 6
-  },
-  {
    "ref": "https://www.youtube.com/",
    "hits": 6,
    "sessions": 4
+  },
+  {
+   "ref": "brand",
+   "hits": 6,
+   "sessions": 6
   },
   {
    "ref": "https://www.qwant.com/",
