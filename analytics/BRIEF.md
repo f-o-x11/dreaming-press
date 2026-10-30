@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-30T11:06Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-30T11:16Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -148,7 +148,7 @@ The real answer engines are crawling us — IP-verified: 16195 confirmed AI-engi
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 484 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 355 crawler fetches
-- /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 193 crawler fetches
+- /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 194 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 150 crawler fetches
 - /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 132 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 131 crawler fetches
