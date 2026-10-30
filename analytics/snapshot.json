@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-30T03:36:41.785Z",
+ "generated": "2026-10-30T03:46:49.636Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 29,
+  "readersNow": 34,
   "todayReads": 3,
   "avgTimeSec": 4,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 10740,
-  "reads": 271,
+  "views": 10757,
+  "reads": 270,
   "completes": 7,
   "plays": 5,
-  "sessions": 10649
+  "sessions": 10666
  },
  "channels": [
   {
    "channel": "direct",
    "views": 6815,
    "reads": 158,
-   "sessions": 6825
+   "sessions": 6824
   },
   {
    "channel": "organic",
-   "views": 212,
-   "reads": 75,
-   "sessions": 205
+   "views": 203,
+   "reads": 74,
+   "sessions": 196
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 3631,
+   "views": 3657,
    "reads": 12,
-   "sessions": 3629
+   "sessions": 3655
   },
   {
    "channel": "ai",
@@ -88,7 +88,7 @@
    "views": 6815,
    "reads": 158,
    "completes": 6,
-   "sessions": 6824,
+   "sessions": 6823,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,10 +96,10 @@
   },
   {
    "channel": "referral",
-   "views": 3631,
+   "views": 3657,
    "reads": 12,
    "completes": 0,
-   "sessions": 3629,
+   "sessions": 3655,
    "read_rate": 0.003,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -107,13 +107,13 @@
   },
   {
    "channel": "organic",
-   "views": 212,
-   "reads": 75,
+   "views": 203,
+   "reads": 74,
    "completes": 1,
-   "sessions": 205,
-   "read_rate": 0.354,
+   "sessions": 196,
+   "read_rate": 0.365,
    "complete_rate": 0.005,
-   "pages_per_session": 1.03,
+   "pages_per_session": 1.04,
    "median_dwell_sec": 3
   },
   {
@@ -317,15 +317,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10198,
-   "reads": 243,
-   "sessions": 10119
+   "views": 10217,
+   "reads": 242,
+   "sessions": 10138
   },
   {
    "device": "mobile",
-   "views": 540,
+   "views": 538,
    "reads": 27,
-   "sessions": 530
+   "sessions": 528
   },
   {
    "device": "tablet",
@@ -381,7 +381,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 32,
+   "views": 33,
    "reads": 5,
    "plays": 0
   },
@@ -563,7 +563,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 32,
+   "views": 33,
    "reads": 5,
    "plays": 0
   },
@@ -615,7 +615,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 32,
+   "views": 33,
    "reads": 5,
    "plays": 0
   },
@@ -800,13 +800,13 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3616,
-   "sessions": 3610
+   "hits": 3642,
+   "sessions": 3636
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 117,
-   "sessions": 101
+   "hits": 109,
+   "sessions": 93
   },
   {
    "ref": "https://www.bing.com/",
@@ -820,8 +820,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 18,
-   "sessions": 9
+   "hits": 16,
+   "sessions": 8
   },
   {
    "ref": "nav-cmp",
