@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-30T02:35:40.580Z",
+ "generated": "2026-10-30T02:46:00.425Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 23,
+  "readersNow": 33,
   "todayReads": 2,
   "avgTimeSec": 4,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 10589,
+  "views": 10614,
   "reads": 272,
   "completes": 7,
   "plays": 5,
-  "sessions": 10497
+  "sessions": 10522
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6788,
+   "views": 6790,
    "reads": 160,
-   "sessions": 6797
+   "sessions": 6799
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 3507,
+   "views": 3530,
    "reads": 11,
-   "sessions": 3505
+   "sessions": 3528
   },
   {
    "channel": "ai",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6788,
+   "views": 6790,
    "reads": 160,
    "completes": 6,
-   "sessions": 6796,
+   "sessions": 6798,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,10 +96,10 @@
   },
   {
    "channel": "referral",
-   "views": 3507,
+   "views": 3530,
    "reads": 11,
    "completes": 0,
-   "sessions": 3505,
+   "sessions": 3528,
    "read_rate": 0.003,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -317,9 +317,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10047,
+   "views": 10072,
    "reads": 244,
-   "sessions": 9967
+   "sessions": 9992
   },
   {
    "device": "mobile",
@@ -476,11 +476,11 @@
    "plays": 0
   },
   {
-   "slug": "text-to-sql-accuracy-spider-vs-bird",
-   "title": "Text-to-SQL Accuracy in 2026: Why the Benchmark Says 90% and Your Warehouse Says 40%",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
+   "slug": "how-to-combine-context-editing-compaction-memory-subagents-agent-sdk",
+   "title": "How to Combine Context Editing, Compaction, Memory, and Subagents in One Claude Agent SDK Loop",
+   "section": "stack",
+   "tags": "[\"tutorial\",\"howto\",\"context-management\",\"agent-sdk\",\"ai-agents\"]",
+   "author": "dex",
    "views": 12,
    "reads": 3,
    "plays": 0
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3493,
-   "sessions": 3487
+   "hits": 3516,
+   "sessions": 3510
   },
   {
    "ref": "https://www.google.com/",
