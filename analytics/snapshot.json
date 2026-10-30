@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-30T05:18:40.674Z",
+ "generated": "2026-10-30T05:29:00.913Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 11,
+  "readersNow": 13,
   "todayReads": 4,
   "avgTimeSec": 5,
   "postsThisWeek": 9
  },
  "funnel": {
   "views": 10861,
-  "reads": 267,
+  "reads": 264,
   "completes": 7,
   "plays": 5,
-  "sessions": 10771
+  "sessions": 10775
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6812,
-   "reads": 155,
-   "sessions": 6823
+   "views": 6805,
+   "reads": 152,
+   "sessions": 6820
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 3763,
+   "views": 3770,
    "reads": 12,
-   "sessions": 3761
+   "sessions": 3768
   },
   {
    "channel": "ai",
@@ -85,21 +85,21 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6812,
-   "reads": 155,
+   "views": 6805,
+   "reads": 152,
    "completes": 6,
-   "sessions": 6822,
-   "read_rate": 0.023,
+   "sessions": 6819,
+   "read_rate": 0.022,
    "complete_rate": 0.001,
    "pages_per_session": 1,
    "median_dwell_sec": 8
   },
   {
    "channel": "referral",
-   "views": 3763,
+   "views": 3770,
    "reads": 12,
    "completes": 0,
-   "sessions": 3761,
+   "sessions": 3768,
    "read_rate": 0.003,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -317,15 +317,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10319,
-   "reads": 239,
-   "sessions": 10241
+   "views": 10320,
+   "reads": 236,
+   "sessions": 10246
   },
   {
    "device": "mobile",
-   "views": 540,
+   "views": 539,
    "reads": 27,
-   "sessions": 530
+   "sessions": 529
   },
   {
    "device": "tablet",
@@ -341,8 +341,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 120,
-   "reads": 30,
+   "views": 118,
+   "reads": 29,
    "plays": 1
   },
   {
@@ -373,16 +373,6 @@
    "author": "dex",
    "views": 22,
    "reads": 7,
-   "plays": 0
-  },
-  {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 33,
-   "reads": 5,
    "plays": 0
   },
   {
@@ -446,6 +436,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 29,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "deepseek-chat-reasoner-retire-july-24-migrate-api",
    "title": "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today",
    "section": "stack",
@@ -493,8 +493,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 120,
-   "reads": 30,
+   "views": 118,
+   "reads": 29,
    "plays": 1
   },
   {
@@ -558,16 +558,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 33,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
    "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
    "section": "wire",
@@ -586,6 +576,16 @@
    "views": 15,
    "reads": 4,
    "plays": 0
+  },
+  {
+   "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
+   "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
+   "section": "stack",
+   "tags": "[\"compare\",\"opinionated\"]",
+   "author": "dex",
+   "views": 13,
+   "reads": 4,
+   "plays": 0
   }
  ],
  "topViews": [
@@ -595,8 +595,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 120,
-   "reads": 30,
+   "views": 118,
+   "reads": 29,
    "plays": 1
   },
   {
@@ -608,16 +608,6 @@
    "views": 47,
    "reads": 12,
    "plays": 1
-  },
-  {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 33,
-   "reads": 5,
-   "plays": 0
   },
   {
    "slug": "mcp-tool-annotations-explained",
@@ -637,6 +627,16 @@
    "author": "dex",
    "views": 30,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 29,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -680,8 +680,8 @@
    "plays": 0
   },
   {
-   "slug": "browser-use-vs-stagehand-vs-playwright-mcp",
-   "title": "Browser Use vs Stagehand vs Playwright MCP: Which Browser Agent Actually Clicks in 2026",
+   "slug": "agno-vs-langgraph-vs-crewai",
+   "title": "Agno vs LangGraph vs CrewAI: Choosing an Agent Framework in 2026",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -770,7 +770,7 @@
   },
   {
    "path": "/submit.html",
-   "views": 24,
+   "views": 23,
    "reads": 7,
    "sessions": 24,
    "avg_dwell_sec": 80
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3750,
-   "sessions": 3743
+   "hits": 3757,
+   "sessions": 3750
   },
   {
    "ref": "https://www.google.com/",
