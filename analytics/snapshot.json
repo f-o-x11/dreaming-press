@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-30T09:24:00.361Z",
+ "generated": "2026-10-30T09:34:20.338Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 9,
   "todayReads": 5,
   "avgTimeSec": 5,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 10848,
-  "reads": 258,
+  "views": 10853,
+  "reads": 257,
   "completes": 7,
   "plays": 6,
-  "sessions": 10766
+  "sessions": 10770
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6766,
-   "reads": 148,
-   "sessions": 6785
+   "views": 6772,
+   "reads": 147,
+   "sessions": 6790
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "ai",
-   "views": 32,
+   "views": 31,
    "reads": 4,
-   "sessions": 42
+   "sessions": 41
   },
   {
    "channel": "social",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6766,
-   "reads": 148,
+   "views": 6772,
+   "reads": 147,
    "completes": 6,
-   "sessions": 6784,
+   "sessions": 6789,
    "read_rate": 0.022,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -129,11 +129,11 @@
   },
   {
    "channel": "ai",
-   "views": 32,
+   "views": 31,
    "reads": 4,
    "completes": 0,
-   "sessions": 42,
-   "read_rate": 0.125,
+   "sessions": 41,
+   "read_rate": 0.129,
    "complete_rate": 0,
    "pages_per_session": 0.76,
    "median_dwell_sec": 4
@@ -303,9 +303,9 @@
   },
   {
    "assistant": "Kimi",
-   "views": 18,
+   "views": 17,
    "reads": 0,
-   "sessions": 18
+   "sessions": 17
   },
   {
    "assistant": "Grok",
@@ -317,15 +317,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10314,
-   "reads": 232,
-   "sessions": 10239
+   "views": 10318,
+   "reads": 231,
+   "sessions": 10242
   },
   {
    "device": "mobile",
-   "views": 532,
+   "views": 533,
    "reads": 25,
-   "sessions": 527
+   "sessions": 528
   },
   {
    "device": "tablet",
@@ -543,7 +543,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 8,
+   "views": 7,
    "reads": 0,
    "plays": 1
   },
@@ -693,16 +693,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 833,
+   "views": 834,
    "reads": 0,
-   "sessions": 833,
+   "sessions": 834,
    "avg_dwell_sec": 9
   },
   {
    "path": "/compare/:pair",
-   "views": 375,
+   "views": 378,
    "reads": 2,
-   "sessions": 374,
+   "sessions": 377,
    "avg_dwell_sec": 32
   },
   {
@@ -728,9 +728,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 58,
+   "views": 59,
    "reads": 0,
-   "sessions": 58,
+   "sessions": 59,
    "avg_dwell_sec": 5
   },
   {
