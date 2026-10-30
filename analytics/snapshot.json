@@ -1,23 +1,23 @@
 {
- "generated": "2026-10-30T12:07:50.333Z",
+ "generated": "2026-10-30T12:17:50.954Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 7,
   "avgTimeSec": 23,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 10840,
+  "views": 10843,
   "reads": 257,
   "completes": 7,
   "plays": 6,
-  "sessions": 10759
+  "sessions": 10760
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6758,
+   "views": 6760,
    "reads": 146,
    "sessions": 6779
   },
@@ -41,9 +41,9 @@
   },
   {
    "channel": "ai",
-   "views": 31,
+   "views": 32,
    "reads": 4,
-   "sessions": 41
+   "sessions": 42
   },
   {
    "channel": "social",
@@ -85,7 +85,7 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6758,
+   "views": 6760,
    "reads": 146,
    "completes": 6,
    "sessions": 6778,
@@ -129,11 +129,11 @@
   },
   {
    "channel": "ai",
-   "views": 31,
+   "views": 32,
    "reads": 4,
    "completes": 0,
-   "sessions": 41,
-   "read_rate": 0.129,
+   "sessions": 42,
+   "read_rate": 0.125,
    "complete_rate": 0,
    "pages_per_session": 0.76,
    "median_dwell_sec": 4
@@ -303,9 +303,9 @@
   },
   {
    "assistant": "Kimi",
-   "views": 17,
+   "views": 18,
    "reads": 0,
-   "sessions": 17
+   "sessions": 18
   },
   {
    "assistant": "Grok",
@@ -317,15 +317,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10309,
+   "views": 10311,
    "reads": 231,
    "sessions": 10235
   },
   {
    "device": "mobile",
-   "views": 529,
+   "views": 530,
    "reads": 25,
-   "sessions": 524
+   "sessions": 525
   },
   {
    "device": "tablet",
