@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-30T20:56Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-30T21:06Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 10830 views → 249 engaged reads → 8 completes · 10754 sessions.
-- Channels: direct 143r/6755v · organic 72r/198v · campaign:chatgpt.com 15r/41v · referral 12r/3797v · ai 4r/32v · social 2r/4v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 10829 views → 249 engaged reads → 8 completes · 10753 sessions.
+- Channels: direct 143r/6754v · organic 72r/198v · campaign:chatgpt.com 15r/41v · referral 12r/3797v · ai 4r/32v · social 2r/4v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 17r/48v · Yuanbao 1r/2v · Perplexity 1r/2v · Kimi 0r/18v · Grok 0r/2v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, cn.bing.com, nav-cmp, search.brave.com, youtube.com, qwant.com, search.yahoo.com.
 - Engaged-read winners by section: stack=10, wire=5.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 6755 views · read 2.1% · complete 0.1% · 1 pages/session · median 8s
+- direct: 6754 views · read 2.1% · complete 0.1% · 1 pages/session · median 8s
 - referral: 3797 views · read 0.3% · complete 0.0% · 1 pages/session · median ?s
 - organic: 198 views · read 36.4% · complete 0.5% · 1.03 pages/session · median 3s
 - campaign:chatgpt.com: 41 views · read 36.6% · complete 0.0% · 1.28 pages/session · median ?s
@@ -60,7 +60,7 @@ so what these earn from humans is the other half of the picture.
 - /stack/:tool — 836 views, 0 reads, 836 sessions, avg 8s
 - /compare/:pair — 402 views, 2 reads, 401 sessions, avg 32s
 - /build — 165 views, 0 reads, 165 sessions
-- / — 117 views, 4 reads, 122 sessions, avg 17s
+- / — 116 views, 4 reads, 121 sessions, avg 17s
 - /best/:cat — 64 views, 0 reads, 64 sessions, avg 5s
 - /tags/reportive — 61 views, 0 reads, 61 sessions
 - /alternatives/:tool — 55 views, 0 reads, 55 sessions, avg 6s
@@ -149,11 +149,11 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /build  — 482 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 356 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 194 crawler fetches
-- /posts/best-llm-for-creative-writing-october-2026.html  — 155 crawler fetches
+- /posts/best-llm-for-creative-writing-october-2026.html  — 156 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 135 crawler fetches
 - /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 134 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 124 crawler fetches
-- /posts/2026-10-15-founders-wire-anthropic-opens-its-books.html  — 93 crawler fetches
+- /posts/2026-10-15-founders-wire-anthropic-opens-its-books.html  — 109 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 80 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 76 crawler fetches
 - /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 61 crawler fetches
