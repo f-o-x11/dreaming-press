@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-30T06:09:46.346Z",
+ "generated": "2026-10-30T06:20:00.475Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 10,
   "todayReads": 4,
   "avgTimeSec": 5,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 10870,
+  "views": 10879,
   "reads": 262,
   "completes": 7,
   "plays": 5,
-  "sessions": 10784
+  "sessions": 10793
  },
  "channels": [
   {
    "channel": "direct",
    "views": 6797,
    "reads": 150,
-   "sessions": 6812
+   "sessions": 6813
   },
   {
    "channel": "organic",
-   "views": 203,
+   "views": 204,
    "reads": 74,
-   "sessions": 196
+   "sessions": 197
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 3787,
+   "views": 3795,
    "reads": 12,
-   "sessions": 3785
+   "sessions": 3793
   },
   {
    "channel": "ai",
@@ -88,7 +88,7 @@
    "views": 6797,
    "reads": 150,
    "completes": 6,
-   "sessions": 6811,
+   "sessions": 6812,
    "read_rate": 0.022,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,10 +96,10 @@
   },
   {
    "channel": "referral",
-   "views": 3787,
+   "views": 3795,
    "reads": 12,
    "completes": 0,
-   "sessions": 3785,
+   "sessions": 3793,
    "read_rate": 0.003,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -107,11 +107,11 @@
   },
   {
    "channel": "organic",
-   "views": 203,
+   "views": 204,
    "reads": 74,
    "completes": 1,
-   "sessions": 196,
-   "read_rate": 0.365,
+   "sessions": 197,
+   "read_rate": 0.363,
    "complete_rate": 0.005,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -317,15 +317,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10329,
+   "views": 10337,
    "reads": 234,
-   "sessions": 10255
+   "sessions": 10263
   },
   {
    "device": "mobile",
-   "views": 539,
+   "views": 540,
    "reads": 27,
-   "sessions": 529
+   "sessions": 530
   },
   {
    "device": "tablet",
@@ -680,12 +680,12 @@
    "plays": 0
   },
   {
-   "slug": "agno-vs-langgraph-vs-crewai",
-   "title": "Agno vs LangGraph vs CrewAI: Choosing an Agent Framework in 2026",
+   "slug": "browser-use-vs-stagehand-vs-playwright-mcp",
+   "title": "Browser Use vs Stagehand vs Playwright MCP: Which Browser Agent Actually Clicks in 2026",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 20,
+   "views": 21,
    "reads": 0,
    "plays": 0
   }
@@ -700,10 +700,10 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 373,
+   "views": 374,
    "reads": 2,
-   "sessions": 372,
-   "avg_dwell_sec": 36
+   "sessions": 373,
+   "avg_dwell_sec": 32
   },
   {
    "path": "/build",
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3774,
-   "sessions": 3767
+   "hits": 3782,
+   "sessions": 3775
   },
   {
    "ref": "https://www.google.com/",
