@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-30T20:36:20.663Z",
+ "generated": "2026-10-30T20:46:20.476Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 2,
   "todayReads": 9,
   "avgTimeSec": 16,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 10833,
-  "reads": 251,
+  "views": 10831,
+  "reads": 249,
   "completes": 8,
   "plays": 6,
-  "sessions": 10756
+  "sessions": 10755
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6758,
-   "reads": 145,
-   "sessions": 6777
+   "views": 6756,
+   "reads": 143,
+   "sessions": 6776
   },
   {
    "channel": "organic",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 18
+   "sessions": 17
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6758,
-   "reads": 145,
+   "views": 6756,
+   "reads": 143,
    "completes": 7,
-   "sessions": 6776,
+   "sessions": 6775,
    "read_rate": 0.021,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 18,
+   "sessions": 17,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -200,17 +200,17 @@
    "sessions": 5
   },
   {
-   "surface": "article-body",
-   "clicks": 4,
-   "sessions": 3
-  },
-  {
    "surface": "f-cols",
    "clicks": 2,
    "sessions": 1
   },
   {
    "surface": "dg-title",
+   "clicks": 2,
+   "sessions": 2
+  },
+  {
+   "surface": "article-body",
    "clicks": 2,
    "sessions": 2
   },
@@ -300,15 +300,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10298,
-   "reads": 224,
-   "sessions": 10228
+   "views": 10295,
+   "reads": 222,
+   "sessions": 10226
   },
   {
    "device": "mobile",
-   "views": 533,
+   "views": 534,
    "reads": 26,
-   "sessions": 528
+   "sessions": 529
   },
   {
    "device": "tablet",
@@ -697,9 +697,9 @@
   },
   {
    "path": "/",
-   "views": 117,
+   "views": 118,
    "reads": 4,
-   "sessions": 122,
+   "sessions": 123,
    "avg_dwell_sec": 17
   },
   {
