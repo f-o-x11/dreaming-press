@@ -1,18 +1,18 @@
 {
- "generated": "2026-10-30T02:15:12.436Z",
+ "generated": "2026-10-30T02:25:30.364Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 31,
+  "readersNow": 34,
   "todayReads": 2,
   "avgTimeSec": 4,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 10549,
-  "reads": 273,
+  "views": 10572,
+  "reads": 272,
   "completes": 7,
   "plays": 5,
-  "sessions": 10457
+  "sessions": 10480
  },
  "channels": [
   {
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 3471,
+   "views": 3495,
    "reads": 11,
-   "sessions": 3469
+   "sessions": 3493
   },
   {
    "channel": "ai",
@@ -47,9 +47,9 @@
   },
   {
    "channel": "campaign:owner-qa",
-   "views": 4,
-   "reads": 4,
-   "sessions": 3
+   "views": 3,
+   "reads": 3,
+   "sessions": 2
   },
   {
    "channel": "social",
@@ -96,10 +96,10 @@
   },
   {
    "channel": "referral",
-   "views": 3471,
+   "views": 3495,
    "reads": 11,
    "completes": 0,
-   "sessions": 3469,
+   "sessions": 3493,
    "read_rate": 0.003,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -139,17 +139,6 @@
    "median_dwell_sec": 4
   },
   {
-   "channel": "campaign:owner-qa",
-   "views": 4,
-   "reads": 4,
-   "completes": 0,
-   "sessions": 3,
-   "read_rate": 1,
-   "complete_rate": 0,
-   "pages_per_session": 1.33,
-   "median_dwell_sec": null
-  },
-  {
    "channel": "social",
    "views": 4,
    "reads": 2,
@@ -158,6 +147,17 @@
    "read_rate": 0.5,
    "complete_rate": 0,
    "pages_per_session": 1,
+   "median_dwell_sec": null
+  },
+  {
+   "channel": "campaign:owner-qa",
+   "views": 3,
+   "reads": 3,
+   "completes": 0,
+   "sessions": 2,
+   "read_rate": 1,
+   "complete_rate": 0,
+   "pages_per_session": 1.5,
    "median_dwell_sec": null
   },
   {
@@ -317,9 +317,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10007,
-   "reads": 245,
-   "sessions": 9927
+   "views": 10030,
+   "reads": 244,
+   "sessions": 9950
   },
   {
    "device": "mobile",
@@ -346,16 +346,6 @@
    "plays": 1
   },
   {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 31,
-   "reads": 13,
-   "plays": 0
-  },
-  {
    "slug": "best-llm-for-creative-writing-october-2026",
    "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
    "section": "stack",
@@ -364,6 +354,16 @@
    "views": 47,
    "reads": 12,
    "plays": 1
+  },
+  {
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 30,
+   "reads": 12,
+   "plays": 0
   },
   {
    "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
@@ -381,7 +381,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 32,
+   "views": 33,
    "reads": 5,
    "plays": 0
   },
@@ -543,8 +543,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 31,
-   "reads": 13,
+   "views": 30,
+   "reads": 12,
    "plays": 0
   },
   {
@@ -563,7 +563,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 32,
+   "views": 33,
    "reads": 5,
    "plays": 0
   },
@@ -615,7 +615,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 32,
+   "views": 33,
    "reads": 5,
    "plays": 0
   },
@@ -625,8 +625,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 31,
-   "reads": 13,
+   "views": 30,
+   "reads": 12,
    "plays": 0
   },
   {
@@ -714,9 +714,9 @@
   },
   {
    "path": "/",
-   "views": 121,
+   "views": 120,
    "reads": 4,
-   "sessions": 124,
+   "sessions": 123,
    "avg_dwell_sec": 16
   },
   {
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3457,
-   "sessions": 3451
+   "hits": 3481,
+   "sessions": 3475
   },
   {
    "ref": "https://www.google.com/",
