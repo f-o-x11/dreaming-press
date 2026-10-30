@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-30T16:01:30.302Z",
+ "generated": "2026-10-30T16:11:50.448Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16312,
+ "verifiedAiHits": 16314,
  "logsScanned": 30,
  "windowStart": "2026-10-16",
  "windowEnd": "2026-10-30",
- "totalHits": 107876,
- "aiHits": 84450,
+ "totalHits": 107910,
+ "aiHits": 84479,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30696,
+   "hits": 30711,
    "verifiedHits": 0,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
@@ -32,12 +32,12 @@
      "hits": 23
     },
     {
-     "path": "/posts/dify-vs-langchain.html",
+     "path": "/posts/china-persona-shutdown-agent-memory-ownership-gap.html",
      "hits": 15
     },
     {
-     "path": "/posts/china-persona-shutdown-agent-memory-ownership-gap.html",
-     "hits": 14
+     "path": "/posts/cline-vs-roo-code-vs-kilo-code.html",
+     "hits": 15
     }
    ],
    "verifiable": false
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16321,
+   "hits": 16326,
    "verifiedHits": 0,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14611,
+   "hits": 14618,
    "verifiedHits": 0,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6939,
-   "verifiedHits": 6877,
+   "hits": 6941,
+   "verifiedHits": 6879,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2841,
-   "verifiedHits": 2739,
+   "hits": 2843,
+   "verifiedHits": 2741,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 2004,
+   "hits": 2007,
    "verifiedHits": 0,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
