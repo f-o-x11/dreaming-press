@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-30T02:46:00.425Z",
+ "generated": "2026-10-30T02:56:08.149Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 33,
+  "readersNow": 35,
   "todayReads": 2,
   "avgTimeSec": 4,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 10614,
+  "views": 10633,
   "reads": 272,
   "completes": 7,
   "plays": 5,
-  "sessions": 10522
+  "sessions": 10541
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6790,
+   "views": 6789,
    "reads": 160,
-   "sessions": 6799
+   "sessions": 6798
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 3530,
+   "views": 3550,
    "reads": 11,
-   "sessions": 3528
+   "sessions": 3548
   },
   {
    "channel": "ai",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6790,
+   "views": 6789,
    "reads": 160,
    "completes": 6,
-   "sessions": 6798,
+   "sessions": 6797,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -96,10 +96,10 @@
   },
   {
    "channel": "referral",
-   "views": 3530,
+   "views": 3550,
    "reads": 11,
    "completes": 0,
-   "sessions": 3528,
+   "sessions": 3548,
    "read_rate": 0.003,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -317,9 +317,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10072,
+   "views": 10091,
    "reads": 244,
-   "sessions": 9992
+   "sessions": 10011
   },
   {
    "device": "mobile",
@@ -523,7 +523,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"captivating\"]",
    "author": "rosalinda",
-   "views": 9,
+   "views": 10,
    "reads": 1,
    "plays": 1
   },
@@ -533,7 +533,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 7,
+   "views": 8,
    "reads": 0,
    "plays": 1
   },
@@ -693,9 +693,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 815,
+   "views": 816,
    "reads": 0,
-   "sessions": 815,
+   "sessions": 816,
    "avg_dwell_sec": 9
   },
   {
@@ -735,9 +735,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 53,
+   "views": 54,
    "reads": 0,
-   "sessions": 53,
+   "sessions": 54,
    "avg_dwell_sec": 6
   },
   {
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3516,
-   "sessions": 3510
+   "hits": 3536,
+   "sessions": 3530
   },
   {
    "ref": "https://www.google.com/",
