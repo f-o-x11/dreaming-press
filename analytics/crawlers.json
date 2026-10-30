@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-30T14:40:10.595Z",
+ "generated": "2026-10-30T14:50:20.093Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16265,
+ "verifiedAiHits": 16289,
  "logsScanned": 30,
  "windowStart": "2026-10-16",
  "windowEnd": "2026-10-30",
- "totalHits": 107543,
- "aiHits": 84181,
+ "totalHits": 107629,
+ "aiHits": 84258,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30564,
+   "hits": 30606,
    "verifiedHits": 0,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16304,
+   "hits": 16308,
    "verifiedHits": 0,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
@@ -65,11 +65,11 @@
      "hits": 8
     },
     {
-     "path": "/posts/how-to-run-local-memory-server-openmemory-mcp.html",
+     "path": "/posts/anthropic-opus-4-1-retires-august-5-temperature-400-error-fixes.html",
      "hits": 6
     },
     {
-     "path": "/build",
+     "path": "/posts/how-to-run-local-memory-server-openmemory-mcp.html",
      "hits": 6
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14549,
+   "hits": 14556,
    "verifiedHits": 0,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9130,
+   "hits": 9139,
    "verifiedHits": 0,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
@@ -212,22 +212,22 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4811,
-   "verifiedHits": 4725,
+   "hits": 4835,
+   "verifiedHits": 4749,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
    "topPaths": [
     {
      "path": "/",
-     "hits": 27
+     "hits": 29
+    },
+    {
+     "path": "/newsroom",
+     "hits": 24
     },
     {
      "path": "/posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html",
      "hits": 24
-    },
-    {
-     "path": "/newsroom",
-     "hits": 23
     },
     {
      "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
