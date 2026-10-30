@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-30T10:35:40.182Z",
+ "generated": "2026-10-30T10:46:00.278Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 16184,
+ "verifiedAiHits": 16186,
  "logsScanned": 30,
  "windowStart": "2026-10-16",
  "windowEnd": "2026-10-30",
- "totalHits": 106670,
- "aiHits": 83572,
+ "totalHits": 106701,
+ "aiHits": 83586,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30318,
+   "hits": 30321,
    "verifiedHits": 0,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14354,
+   "hits": 14363,
    "verifiedHits": 0,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9022,
+   "hits": 9033,
    "verifiedHits": 0,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
@@ -146,14 +146,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6848,
-   "verifiedHits": 6786,
+   "hits": 6854,
+   "verifiedHits": 6792,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 130
+     "hits": 131
     },
     {
      "path": "/build",
@@ -179,8 +179,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4867,
-   "verifiedHits": 4819,
+   "hits": 4868,
+   "verifiedHits": 4820,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
    "topPaths": [
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2829,
-   "verifiedHits": 2727,
+   "hits": 2830,
+   "verifiedHits": 2728,
    "firstSeen": "2026-10-16",
    "lastSeen": "2026-10-30",
    "topPaths": [
     {
      "path": "/",
-     "hits": 780
+     "hits": 781
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
