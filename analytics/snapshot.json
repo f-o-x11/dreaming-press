@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-29T23:53:10.529Z",
+ "generated": "2026-10-30T00:03:10.683Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 14,
-  "todayReads": 25,
-  "avgTimeSec": 35,
+  "readersNow": 15,
+  "todayReads": 0,
+  "avgTimeSec": 0,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 10326,
+  "views": 10334,
   "reads": 275,
   "completes": 7,
   "plays": 5,
-  "sessions": 10230
+  "sessions": 10238
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6790,
+   "views": 6789,
    "reads": 164,
-   "sessions": 6795
+   "sessions": 6794
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 3243,
+   "views": 3252,
    "reads": 11,
-   "sessions": 3241
+   "sessions": 3250
   },
   {
    "channel": "ai",
@@ -85,21 +85,21 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6790,
+   "views": 6789,
    "reads": 164,
    "completes": 6,
-   "sessions": 6794,
+   "sessions": 6793,
    "read_rate": 0.024,
    "complete_rate": 0.001,
    "pages_per_session": 1,
-   "median_dwell_sec": 8
+   "median_dwell_sec": 9
   },
   {
    "channel": "referral",
-   "views": 3243,
+   "views": 3252,
    "reads": 11,
    "completes": 0,
-   "sessions": 3241,
+   "sessions": 3250,
    "read_rate": 0.003,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -317,9 +317,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9777,
+   "views": 9785,
    "reads": 247,
-   "sessions": 9693
+   "sessions": 9701
   },
   {
    "device": "mobile",
@@ -341,7 +341,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 124,
+   "views": 125,
    "reads": 33,
    "plays": 1
   },
@@ -451,7 +451,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 16,
+   "views": 17,
    "reads": 3,
    "plays": 0
   },
@@ -493,7 +493,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 124,
+   "views": 125,
    "reads": 33,
    "plays": 1
   },
@@ -595,7 +595,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 124,
+   "views": 125,
    "reads": 33,
    "plays": 1
   },
@@ -680,13 +680,13 @@
    "plays": 0
   },
   {
-   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
-   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
+   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
+   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
    "author": "dex",
    "views": 19,
-   "reads": 2,
+   "reads": 0,
    "plays": 0
   }
  ],
@@ -714,9 +714,9 @@
   },
   {
    "path": "/",
-   "views": 126,
+   "views": 125,
    "reads": 4,
-   "sessions": 129,
+   "sessions": 128,
    "avg_dwell_sec": 16
   },
   {
@@ -800,8 +800,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3229,
-   "sessions": 3223
+   "hits": 3238,
+   "sessions": 3232
   },
   {
    "ref": "https://www.google.com/",
