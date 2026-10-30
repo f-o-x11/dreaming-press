@@ -1,15 +1,15 @@
 {
- "generated": "2026-10-30T13:09:20.589Z",
+ "generated": "2026-10-30T13:19:30.427Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 3,
   "todayReads": 7,
   "avgTimeSec": 23,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 10861,
-  "reads": 255,
+  "views": 10860,
+  "reads": 254,
   "completes": 7,
   "plays": 6,
   "sessions": 10778
@@ -17,8 +17,8 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 6778,
-   "reads": 144,
+   "views": 6777,
+   "reads": 143,
    "sessions": 6797
   },
   {
@@ -85,8 +85,8 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6778,
-   "reads": 144,
+   "views": 6777,
+   "reads": 143,
    "completes": 6,
    "sessions": 6796,
    "read_rate": 0.021,
@@ -317,15 +317,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10329,
-   "reads": 229,
-   "sessions": 10253
+   "views": 10326,
+   "reads": 228,
+   "sessions": 10251
   },
   {
    "device": "mobile",
-   "views": 530,
+   "views": 532,
    "reads": 25,
-   "sessions": 525
+   "sessions": 527
   },
   {
    "device": "tablet",
@@ -371,8 +371,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 21,
-   "reads": 7,
+   "views": 19,
+   "reads": 6,
    "plays": 0
   },
   {
@@ -563,8 +563,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 21,
-   "reads": 7,
+   "views": 19,
+   "reads": 6,
    "plays": 0
   },
   {
@@ -650,16 +650,6 @@
    "plays": 0
   },
   {
-   "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
-   "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 7,
-   "plays": 0
-  },
-  {
    "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
    "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
    "section": "stack",
@@ -687,6 +677,16 @@
    "author": "dex",
    "views": 21,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 1,
    "plays": 0
   }
  ],
