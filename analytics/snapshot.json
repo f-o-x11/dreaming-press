@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-30T08:43:20.741Z",
+ "generated": "2026-10-30T08:53:30.323Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 4,
+  "readersNow": 2,
+  "todayReads": 5,
   "avgTimeSec": 5,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 10862,
+  "views": 10861,
   "reads": 261,
   "completes": 7,
-  "plays": 5,
-  "sessions": 10775
+  "plays": 6,
+  "sessions": 10774
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6779,
+   "views": 6778,
    "reads": 150,
-   "sessions": 6794
+   "sessions": 6793
   },
   {
    "channel": "organic",
@@ -85,10 +85,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6779,
+   "views": 6778,
    "reads": 150,
    "completes": 6,
-   "sessions": 6793,
+   "sessions": 6792,
    "read_rate": 0.022,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -317,9 +317,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10323,
+   "views": 10322,
    "reads": 233,
-   "sessions": 10248
+   "sessions": 10247
   },
   {
    "device": "mobile",
@@ -396,22 +396,22 @@
    "plays": 0
   },
   {
+   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
+   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 13,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
    "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
    "section": "stack",
    "tags": "[\"compare\",\"opinionated\"]",
    "author": "dex",
    "views": 13,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
-   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 12,
    "reads": 4,
    "plays": 0
   },
@@ -528,6 +528,16 @@
    "plays": 1
   },
   {
+   "slug": "speech-to-speech-vs-cascaded-voice-agents",
+   "title": "Speech-to-Speech vs Cascaded: Two Architectures for Voice AI Agents in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 3,
+   "reads": 1,
+   "plays": 1
+  },
+  {
    "slug": "moonshot-retires-kimi-k2-5-moonshot-v1-august-31-migrate-api",
    "title": "Moonshot Retires kimi-k2.5 and moonshot-v1 on August 31 — Migrate Your API Calls Now",
    "section": "stack",
@@ -574,16 +584,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 15,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
-   "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
-   "section": "stack",
-   "tags": "[\"compare\",\"opinionated\"]",
-   "author": "dex",
-   "views": 13,
    "reads": 4,
    "plays": 0
   }
