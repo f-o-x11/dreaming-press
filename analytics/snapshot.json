@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-31T08:39:00.602Z",
+ "generated": "2026-10-31T08:49:17.436Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 1,
+  "readersNow": 4,
+  "todayReads": 2,
   "avgTimeSec": 34,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 10735,
-  "reads": 241,
+  "views": 10737,
+  "reads": 242,
   "completes": 8,
   "plays": 6,
-  "sessions": 10650
+  "sessions": 10651
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6680,
-   "reads": 140,
-   "sessions": 6690
+   "views": 6682,
+   "reads": 141,
+   "sessions": 6691
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6680,
-   "reads": 140,
+   "views": 6682,
+   "reads": 141,
    "completes": 7,
-   "sessions": 6689,
+   "sessions": 6690,
    "read_rate": 0.021,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -300,9 +300,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10211,
-   "reads": 217,
-   "sessions": 10133
+   "views": 10213,
+   "reads": 218,
+   "sessions": 10134
   },
   {
    "device": "mobile",
@@ -459,11 +459,11 @@
    "plays": 0
   },
   {
-   "slug": "claude-inference-geo-data-residency-what-us-only-costs",
-   "title": "Claude's inference_geo Flag: What US-Only Inference Actually Guarantees — and the 10% It Costs",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
+   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
+   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
    "views": 8,
    "reads": 3,
    "plays": 0
