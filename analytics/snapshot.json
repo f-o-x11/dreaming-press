@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-31T23:45:27.508Z",
+ "generated": "2026-10-31T23:55:30.204Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 2,
   "todayReads": 6,
   "avgTimeSec": 28,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 10703,
+  "views": 10698,
   "reads": 238,
   "completes": 9,
   "plays": 5,
-  "sessions": 10619
+  "sessions": 10614
  },
  "channels": [
   {
    "channel": "direct",
    "views": 6654,
    "reads": 138,
-   "sessions": 6662
+   "sessions": 6661
   },
   {
    "channel": "organic",
-   "views": 182,
+   "views": 178,
    "reads": 67,
-   "sessions": 177
+   "sessions": 173
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "referral",
-   "views": 3793,
+   "views": 3792,
    "reads": 12,
-   "sessions": 3791
+   "sessions": 3790
   },
   {
    "channel": "ai",
@@ -82,7 +82,7 @@
    "views": 6654,
    "reads": 138,
    "completes": 7,
-   "sessions": 6661,
+   "sessions": 6660,
    "read_rate": 0.021,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -90,10 +90,10 @@
   },
   {
    "channel": "referral",
-   "views": 3793,
+   "views": 3792,
    "reads": 12,
    "completes": 0,
-   "sessions": 3791,
+   "sessions": 3790,
    "read_rate": 0.003,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "organic",
-   "views": 182,
+   "views": 178,
    "reads": 67,
    "completes": 2,
-   "sessions": 177,
-   "read_rate": 0.368,
+   "sessions": 173,
+   "read_rate": 0.376,
    "complete_rate": 0.011,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -300,9 +300,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10180,
+   "views": 10175,
    "reads": 215,
-   "sessions": 10104
+   "sessions": 10099
   },
   {
    "device": "mobile",
@@ -414,7 +414,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 17,
+   "views": 18,
    "reads": 3,
    "plays": 0
   },
@@ -697,9 +697,9 @@
   },
   {
    "path": "/",
-   "views": 114,
+   "views": 113,
    "reads": 3,
-   "sessions": 118,
+   "sessions": 117,
    "avg_dwell_sec": 16
   },
   {
@@ -788,8 +788,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 94,
-   "sessions": 79
+   "hits": 90,
+   "sessions": 75
   },
   {
    "ref": "https://www.bing.com/",
