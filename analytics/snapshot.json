@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-31T00:40:20.280Z",
+ "generated": "2026-10-31T00:50:40.393Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 1,
   "todayReads": 0,
   "avgTimeSec": 0,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 10780,
+  "views": 10781,
   "reads": 246,
   "completes": 8,
   "plays": 6,
-  "sessions": 10698
+  "sessions": 10699
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6705,
+   "views": 6706,
    "reads": 142,
-   "sessions": 6720
+   "sessions": 6721
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6705,
+   "views": 6706,
    "reads": 142,
    "completes": 7,
-   "sessions": 6719,
+   "sessions": 6720,
    "read_rate": 0.021,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -300,9 +300,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10250,
+   "views": 10251,
    "reads": 221,
-   "sessions": 10175
+   "sessions": 10176
   },
   {
    "device": "mobile",
@@ -663,13 +663,13 @@
    "plays": 0
   },
   {
-   "slug": "agno-vs-langgraph-vs-crewai",
-   "title": "Agno vs LangGraph vs CrewAI: Choosing an Agent Framework in 2026",
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
    "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
+   "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 20,
-   "reads": 0,
+   "reads": 1,
    "plays": 0
   }
  ],
