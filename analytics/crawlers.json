@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-31T02:52:50.041Z",
+ "generated": "2026-10-31T03:02:59.960Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15374,
+ "verifiedAiHits": 15376,
  "logsScanned": 30,
  "windowStart": "2026-10-17",
  "windowEnd": "2026-10-31",
- "totalHits": 101251,
- "aiHits": 78966,
+ "totalHits": 101279,
+ "aiHits": 78987,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28921,
+   "hits": 28933,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14000,
+   "hits": 14007,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -91,7 +91,7 @@
     },
     {
      "path": "/wire.html",
-     "hits": 36
+     "hits": 37
     },
     {
      "path": "/tags/reportive",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8813,
+   "hits": 8819,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6728,
-   "verifiedHits": 6678,
+   "hits": 6729,
+   "verifiedHits": 6679,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4549,
-   "verifiedHits": 4470,
+   "hits": 4550,
+   "verifiedHits": 4471,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
    "topPaths": [
@@ -278,10 +278,10 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 3985,
-   "verifiedHits": 3943,
+   "hits": 3986,
+   "verifiedHits": 3944,
    "firstSeen": "2026-10-17",
-   "lastSeen": "2026-10-30",
+   "lastSeen": "2026-10-31",
    "topPaths": [
     {
      "path": "/build",
