@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T08:59:40.311Z",
+ "generated": "2026-10-31T09:10:00.851Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 10737,
+  "views": 10736,
   "reads": 242,
   "completes": 8,
   "plays": 6,
-  "sessions": 10651
+  "sessions": 10650
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6682,
+   "views": 6683,
    "reads": 141,
-   "sessions": 6691
+   "sessions": 6692
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "ai",
-   "views": 31,
+   "views": 29,
    "reads": 4,
-   "sessions": 40
+   "sessions": 38
   },
   {
    "channel": "social",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6682,
+   "views": 6683,
    "reads": 141,
    "completes": 7,
-   "sessions": 6690,
+   "sessions": 6691,
    "read_rate": 0.021,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -123,13 +123,13 @@
   },
   {
    "channel": "ai",
-   "views": 31,
+   "views": 29,
    "reads": 4,
    "completes": 0,
-   "sessions": 40,
-   "read_rate": 0.129,
+   "sessions": 38,
+   "read_rate": 0.138,
    "complete_rate": 0,
-   "pages_per_session": 0.78,
+   "pages_per_session": 0.76,
    "median_dwell_sec": 4
   },
   {
@@ -286,9 +286,9 @@
   },
   {
    "assistant": "Kimi",
-   "views": 18,
+   "views": 16,
    "reads": 0,
-   "sessions": 18
+   "sessions": 16
   },
   {
    "assistant": "Grok",
@@ -300,15 +300,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10213,
+   "views": 10214,
    "reads": 218,
-   "sessions": 10134
+   "sessions": 10135
   },
   {
    "device": "mobile",
-   "views": 522,
+   "views": 520,
    "reads": 23,
-   "sessions": 517
+   "sessions": 515
   },
   {
    "device": "tablet",
@@ -683,9 +683,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 395,
+   "views": 396,
    "reads": 2,
-   "sessions": 394,
+   "sessions": 395,
    "avg_dwell_sec": 32
   },
   {

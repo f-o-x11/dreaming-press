@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-31T08:59:40.031Z",
+ "generated": "2026-10-31T09:10:00.556Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15463,
+ "verifiedAiHits": 15466,
  "logsScanned": 30,
  "windowStart": "2026-10-17",
  "windowEnd": "2026-10-31",
- "totalHits": 102638,
- "aiHits": 79996,
+ "totalHits": 102687,
+ "aiHits": 80037,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29427,
+   "hits": 29450,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14624,
+   "hits": 14628,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14278,
+   "hits": 14286,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -95,7 +95,7 @@
     },
     {
      "path": "/tags/reportive",
-     "hits": 36
+     "hits": 37
     },
     {
      "path": "/tags/opinionated",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8987,
+   "hits": 8990,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -146,14 +146,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6854,
-   "verifiedHits": 6804,
+   "hits": 6859,
+   "verifiedHits": 6809,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 130
+     "hits": 131
     },
     {
      "path": "/build",
@@ -170,6 +170,39 @@
     {
      "path": "/search",
      "hits": 36
+    }
+   ],
+   "verifiable": true
+  },
+  {
+   "name": "PerplexityBot",
+   "label": "Perplexity",
+   "category": "ai",
+   "home": "https://www.perplexity.ai/bot",
+   "hits": 4575,
+   "verifiedHits": 4496,
+   "firstSeen": "2026-10-17",
+   "lastSeen": "2026-10-31",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 26
+    },
+    {
+     "path": "/newsroom",
+     "hits": 22
+    },
+    {
+     "path": "/posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html",
+     "hits": 22
+    },
+    {
+     "path": "/tags",
+     "hits": 19
+    },
+    {
+     "path": "/series",
+     "hits": 18
     }
    ],
    "verifiable": true
@@ -203,39 +236,6 @@
     {
      "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
      "hits": 51
-    }
-   ],
-   "verifiable": true
-  },
-  {
-   "name": "PerplexityBot",
-   "label": "Perplexity",
-   "category": "ai",
-   "home": "https://www.perplexity.ai/bot",
-   "hits": 4573,
-   "verifiedHits": 4494,
-   "firstSeen": "2026-10-17",
-   "lastSeen": "2026-10-31",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 26
-    },
-    {
-     "path": "/newsroom",
-     "hits": 22
-    },
-    {
-     "path": "/posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html",
-     "hits": 22
-    },
-    {
-     "path": "/tags",
-     "hits": 19
-    },
-    {
-     "path": "/series",
-     "hits": 18
     }
    ],
    "verifiable": true
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2586,
-   "verifiedHits": 2490,
+   "hits": 2587,
+   "verifiedHits": 2491,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
    "topPaths": [
     {
      "path": "/",
-     "hits": 743
+     "hits": 744
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -344,7 +344,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1957,
+   "hits": 1959,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1056,
+   "hits": 1057,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -458,7 +458,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-october-2026.html",
-     "hits": 51
+     "hits": 52
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
