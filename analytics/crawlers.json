@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-31T15:26:57.827Z",
+ "generated": "2026-10-31T15:37:00.001Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15698,
+ "verifiedAiHits": 15699,
  "logsScanned": 30,
  "windowStart": "2026-10-17",
  "windowEnd": "2026-10-31",
- "totalHits": 104416,
- "aiHits": 81280,
+ "totalHits": 104457,
+ "aiHits": 81311,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29901,
+   "hits": 29913,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14775,
+   "hits": 14781,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -80,14 +80,14 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14557,
+   "hits": 14564,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 118
+     "hits": 124
     },
     {
      "path": "/wire.html",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9145,
+   "hits": 9153,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6996,
-   "verifiedHits": 6941,
+   "hits": 6998,
+   "verifiedHits": 6943,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4724,
-   "verifiedHits": 4631,
+   "hits": 4725,
+   "verifiedHits": 4632,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1672,
+   "hits": 1675,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -608,7 +608,7 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 117,
+   "hits": 119,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -618,15 +618,15 @@
      "hits": 4
     },
     {
+     "path": "/posts/tool-highlight-tinfoil-confidential-llm-inference-cloud-cant-read.html",
+     "hits": 3
+    },
+    {
      "path": "/posts/spot-vs-on-demand-gpu-when-interruptible-pays.html",
      "hits": 3
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/tool-highlight-tinfoil-confidential-llm-inference-cloud-cant-read.html",
      "hits": 2
     },
     {
