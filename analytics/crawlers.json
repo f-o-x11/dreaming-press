@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-31T11:22:04.091Z",
+ "generated": "2026-10-31T11:40:22.909Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15497,
+ "verifiedAiHits": 15533,
  "logsScanned": 30,
  "windowStart": "2026-10-17",
  "windowEnd": "2026-10-31",
- "totalHits": 103277,
- "aiHits": 80442,
+ "totalHits": 103423,
+ "aiHits": 80542,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29609,
+   "hits": 29656,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14680,
+   "hits": 14682,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14382,
+   "hits": 14395,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9045,
+   "hits": 9048,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6898,
-   "verifiedHits": 6843,
+   "hits": 6921,
+   "verifiedHits": 6866,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4599,
-   "verifiedHits": 4506,
+   "hits": 4619,
+   "verifiedHits": 4526,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4597,
-   "verifiedHits": 4551,
+   "hits": 4613,
+   "verifiedHits": 4567,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4419,
+   "hits": 4427,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1781,
+   "hits": 1782,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -410,7 +410,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1642,
+   "hits": 1643,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -608,7 +608,7 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 108,
+   "hits": 109,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -632,6 +632,39 @@
     {
      "path": "/login",
      "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "YandexBot",
+   "label": "Yandex",
+   "category": "search",
+   "home": "https://yandex.com",
+   "hits": 42,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-22",
+   "lastSeen": "2026-10-31",
+   "topPaths": [
+    {
+     "path": "/graphql",
+     "hits": 1
+    },
+    {
+     "path": "/global-tech-news",
+     "hits": 1
+    },
+    {
+     "path": "/stack.html",
+     "hits": 1
+    },
+    {
+     "path": "/fabrications.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/rag-vs-okf-retrieve-or-structure-knowledge-2026.html",
+     "hits": 1
     }
    ],
    "verifiable": false
@@ -664,39 +697,6 @@
     },
     {
      "path": "/static/..;/..;/..;/..;/proc/self/environ",
-     "hits": 1
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "YandexBot",
-   "label": "Yandex",
-   "category": "search",
-   "home": "https://yandex.com",
-   "hits": 31,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-22",
-   "lastSeen": "2026-10-31",
-   "topPaths": [
-    {
-     "path": "/graphql",
-     "hits": 1
-    },
-    {
-     "path": "/global-tech-news",
-     "hits": 1
-    },
-    {
-     "path": "/stack.html",
-     "hits": 1
-    },
-    {
-     "path": "/fabrications.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/what-happened-when-i-stopped-publishing-every-hour.html",
      "hits": 1
     }
    ],
