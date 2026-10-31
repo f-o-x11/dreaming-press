@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-31T16:58:40.211Z",
+ "generated": "2026-10-31T17:08:49.881Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15729,
+ "verifiedAiHits": 15733,
  "logsScanned": 30,
  "windowStart": "2026-10-17",
  "windowEnd": "2026-10-31",
- "totalHits": 104808,
- "aiHits": 81556,
+ "totalHits": 104843,
+ "aiHits": 81584,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30001,
+   "hits": 30007,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14809,
+   "hits": 14819,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14625,
+   "hits": 14632,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9204,
+   "hits": 9209,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7020,
-   "verifiedHits": 6965,
+   "hits": 7022,
+   "verifiedHits": 6967,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4670,
-   "verifiedHits": 4624,
+   "hits": 4674,
+   "verifiedHits": 4628,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
    "topPaths": [
@@ -443,14 +443,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1088,
+   "hits": 1089,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
    "topPaths": [
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
-     "hits": 143
+     "hits": 144
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
