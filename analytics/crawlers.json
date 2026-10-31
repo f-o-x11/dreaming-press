@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-31T16:48:20.218Z",
+ "generated": "2026-10-31T16:58:40.211Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15725,
+ "verifiedAiHits": 15729,
  "logsScanned": 30,
  "windowStart": "2026-10-17",
  "windowEnd": "2026-10-31",
- "totalHits": 104773,
- "aiHits": 81529,
+ "totalHits": 104808,
+ "aiHits": 81556,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29987,
+   "hits": 30001,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14616,
+   "hits": 14625,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -99,11 +99,11 @@
     },
     {
      "path": "/tags/opinionated",
-     "hits": 33
+     "hits": 34
     },
     {
      "path": "/stack.html",
-     "hits": 16
+     "hits": 17
     }
    ],
    "verifiable": false
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9198,
+   "hits": 9204,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7018,
-   "verifiedHits": 6963,
+   "hits": 7020,
+   "verifiedHits": 6965,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4668,
-   "verifiedHits": 4622,
+   "hits": 4670,
+   "verifiedHits": 4624,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
    "topPaths": [
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2616,
-   "verifiedHits": 2505,
+   "hits": 2618,
+   "verifiedHits": 2507,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
    "topPaths": [
     {
      "path": "/",
-     "hits": 754
+     "hits": 755
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
