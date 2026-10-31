@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-31T20:11:30.721Z",
+ "generated": "2026-10-31T20:21:31.287Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15826,
+ "verifiedAiHits": 15827,
  "logsScanned": 30,
  "windowStart": "2026-10-17",
  "windowEnd": "2026-10-31",
- "totalHits": 105582,
- "aiHits": 82139,
+ "totalHits": 105608,
+ "aiHits": 82156,
  "aiEngines": 16,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14896,
+   "hits": 14903,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14769,
+   "hits": 14776,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9302,
+   "hits": 9303,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7084,
-   "verifiedHits": 7029,
+   "hits": 7085,
+   "verifiedHits": 7030,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4715,
-   "verifiedHits": 4669,
+   "hits": 4716,
+   "verifiedHits": 4670,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1980,
+   "hits": 1982,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -476,8 +476,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 654,
-   "verifiedHits": 563,
+   "hits": 661,
+   "verifiedHits": 570,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
    "topPaths": [
@@ -490,16 +490,16 @@
      "hits": 4
     },
     {
+     "path": "/comparisons/inference-and-gateways",
+     "hits": 3
+    },
+    {
      "path": "/posts/2026-10-18-founders-wire-open-weights-went-frontier-deepseek-beam.html",
      "hits": 3
     },
     {
      "path": "/serverless.yml",
      "hits": 3
-    },
-    {
-     "path": "/alternatives/novita-ai",
-     "hits": 2
     }
    ],
    "verifiable": true
