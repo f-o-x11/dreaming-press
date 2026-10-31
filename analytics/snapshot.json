@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T18:19:30.697Z",
+ "generated": "2026-10-31T18:29:33.567Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,23 +8,23 @@
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 10698,
-  "reads": 241,
+  "views": 10696,
+  "reads": 240,
   "completes": 9,
-  "plays": 6,
-  "sessions": 10613
+  "plays": 5,
+  "sessions": 10612
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6646,
+   "views": 6645,
    "reads": 139,
-   "sessions": 6654
+   "sessions": 6653
   },
   {
    "channel": "organic",
-   "views": 184,
-   "reads": 69,
+   "views": 183,
+   "reads": 68,
    "sessions": 178
   },
   {
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6646,
+   "views": 6645,
    "reads": 139,
    "completes": 7,
-   "sessions": 6653,
+   "sessions": 6652,
    "read_rate": 0.021,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "organic",
-   "views": 184,
-   "reads": 69,
+   "views": 183,
+   "reads": 68,
    "completes": 2,
    "sessions": 178,
-   "read_rate": 0.375,
+   "read_rate": 0.372,
    "complete_rate": 0.011,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -300,9 +300,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10176,
-   "reads": 217,
-   "sessions": 10098
+   "views": 10174,
+   "reads": 216,
+   "sessions": 10097
   },
   {
    "device": "mobile",
@@ -491,16 +491,6 @@
    "plays": 1
   },
   {
-   "slug": "cimd-vs-dynamic-client-registration-mcp",
-   "title": "CIMD vs Dynamic Client Registration: How MCP Clients Register After July 28",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 9,
-   "reads": 2,
-   "plays": 1
-  },
-  {
    "slug": "how-to-show-users-what-your-ai-agent-is-doing",
    "title": "How to Show Users What Your AI Agent Is Doing Right Now",
    "section": "stack",
@@ -567,6 +557,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 13,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
+   "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
+   "section": "stack",
+   "tags": "[\"compare\",\"opinionated\"]",
+   "author": "dex",
+   "views": 12,
    "reads": 4,
    "plays": 0
   }
@@ -827,9 +827,9 @@
    "sessions": 3
   },
   {
-   "ref": "https://search.yahoo.com/",
+   "ref": "brand",
    "hits": 5,
-   "sessions": 1
+   "sessions": 5
   }
  ]
 }

@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-31T18:19:30.401Z",
+ "generated": "2026-10-31T18:29:33.296Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15794,
+ "verifiedAiHits": 15795,
  "logsScanned": 30,
  "windowStart": "2026-10-17",
  "windowEnd": "2026-10-31",
- "totalHits": 105125,
- "aiHits": 81806,
+ "totalHits": 105167,
+ "aiHits": 81839,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30084,
+   "hits": 30092,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14839,
+   "hits": 14848,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14682,
+   "hits": 14689,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9239,
+   "hits": 9245,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -123,11 +123,11 @@
      "hits": 68
     },
     {
-     "path": "/dashboard",
-     "hits": 7
+     "path": "/wire.html",
+     "hits": 6
     },
     {
-     "path": "/wire.html",
+     "path": "/dashboard",
      "hits": 6
     },
     {
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7041,
-   "verifiedHits": 6986,
+   "hits": 7044,
+   "verifiedHits": 6989,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4699,
-   "verifiedHits": 4653,
+   "hits": 4700,
+   "verifiedHits": 4654,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
    "topPaths": [
@@ -575,7 +575,7 @@
    "label": "Mistral AI",
    "category": "ai",
    "home": "https://mistral.ai",
-   "hits": 265,
+   "hits": 273,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -597,7 +597,7 @@
      "hits": 2
     },
     {
-     "path": "/posts/streamlit-vs-gradio-vs-chainlit.html",
+     "path": "/posts/2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4.html",
      "hits": 2
     }
    ],
