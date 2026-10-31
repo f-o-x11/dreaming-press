@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-10-31T02:01Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-31T02:12Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 10767 views → 246 engaged reads → 8 completes · 10685 sessions.
-- Channels: direct 142r/6704v · organic 70r/187v · campaign:chatgpt.com 15r/41v · referral 12r/3796v · ai 4r/32v · social 2r/4v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 10764 views → 246 engaged reads → 8 completes · 10681 sessions.
+- Channels: direct 142r/6701v · organic 70r/187v · campaign:chatgpt.com 15r/41v · referral 12r/3796v · ai 4r/32v · social 2r/4v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 17r/48v · Yuanbao 1r/2v · Perplexity 1r/2v · Kimi 0r/18v · Grok 0r/2v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, cn.bing.com, nav-cmp, search.brave.com, youtube.com, qwant.com, search.yahoo.com.
 - Engaged-read winners by section: stack=10, wire=5.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 6704 views · read 2.1% · complete 0.1% · 1 pages/session · median 8s
+- direct: 6701 views · read 2.1% · complete 0.1% · 1 pages/session · median 8s
 - referral: 3796 views · read 0.3% · complete 0.0% · 1 pages/session · median ?s
 - organic: 187 views · read 37.4% · complete 0.5% · 1.03 pages/session · median 3s
 - campaign:chatgpt.com: 41 views · read 36.6% · complete 0.0% · 1.28 pages/session · median ?s
@@ -35,7 +35,7 @@ NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
 
 ## Top by engaged reads (eyes that stayed)
-- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 27 reads, 111 views, 1 listens
+- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 27 reads, 109 views, 1 listens
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 13 reads, 30 views, 0 listens
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 10 reads, 42 views, 1 listens
 - [stack] "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)" — 6 reads, 19 views, 0 listens
@@ -69,7 +69,7 @@ ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
-- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 111 views, 27 reads
+- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 109 views, 27 reads
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 42 views, 10 reads
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 30 views, 13 reads
 - [stack] "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent" — 30 views, 0 reads
