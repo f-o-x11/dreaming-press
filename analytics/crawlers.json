@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-31T12:24:23.928Z",
+ "generated": "2026-10-31T12:34:33.983Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 15571,
+ "verifiedAiHits": 15572,
  "logsScanned": 30,
  "windowStart": "2026-10-17",
  "windowEnd": "2026-10-31",
- "totalHits": 103644,
- "aiHits": 80719,
+ "totalHits": 103675,
+ "aiHits": 80735,
  "aiEngines": 16,
  "bots": [
   {
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14426,
+   "hits": 14433,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9062,
+   "hits": 9068,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6935,
-   "verifiedHits": 6880,
+   "hits": 6936,
+   "verifiedHits": 6881,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
    "topPaths": [
@@ -179,8 +179,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4642,
-   "verifiedHits": 4596,
+   "hits": 4643,
+   "verifiedHits": 4597,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
    "topPaths": [
@@ -202,7 +202,7 @@
     },
     {
      "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
-     "hits": 51
+     "hits": 52
     }
    ],
    "verifiable": true
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4443,
+   "hits": 4451,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1074,
+   "hits": 1075,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -575,10 +575,10 @@
    "label": "Mistral AI",
    "category": "ai",
    "home": "https://mistral.ai",
-   "hits": 250,
+   "hits": 257,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
-   "lastSeen": "2026-10-30",
+   "lastSeen": "2026-10-31",
    "topPaths": [
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -589,15 +589,15 @@
      "hits": 4
     },
     {
+     "path": "/posts/does-multi-agent-debate-improve-accuracy.html",
+     "hits": 2
+    },
+    {
      "path": "/posts/streamlit-vs-gradio-vs-chainlit.html",
      "hits": 2
     },
     {
      "path": "/posts/build-a-minimal-coding-agent-from-scratch.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/run-671b-moe-single-gpu-ktransformers-vs-llama-llama-cpp.html",
      "hits": 2
     }
    ],
