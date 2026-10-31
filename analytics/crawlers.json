@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-31T17:18:52.235Z",
+ "generated": "2026-10-31T17:28:57.780Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 15738,
  "logsScanned": 30,
  "windowStart": "2026-10-17",
  "windowEnd": "2026-10-31",
- "totalHits": 104881,
- "aiHits": 81608,
+ "totalHits": 104910,
+ "aiHits": 81626,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30015,
+   "hits": 30019,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14823,
+   "hits": 14828,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14639,
+   "hits": 14646,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7025,
-   "verifiedHits": 6970,
+   "hits": 7027,
+   "verifiedHits": 6972,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4525,
+   "hits": 4533,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -259,11 +259,11 @@
      "hits": 12
     },
     {
-     "path": "/posts/best-llm-for-creative-writing-october-2026.html",
-     "hits": 10
+     "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
+     "hits": 11
     },
     {
-     "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
+     "path": "/posts/best-llm-for-creative-writing-october-2026.html",
      "hits": 10
     },
     {
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1790,
+   "hits": 1791,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1089,
+   "hits": 1090,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -458,7 +458,7 @@
     },
     {
      "path": "/posts/gpu-rental-price-october-2026.html",
-     "hits": 54
+     "hits": 55
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -608,7 +608,7 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 119,
+   "hits": 120,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -622,15 +622,15 @@
      "hits": 3
     },
     {
+     "path": "/posts/coding-agent-edit-formats-diff-vs-whole-file.html",
+     "hits": 3
+    },
+    {
      "path": "/posts/spot-vs-on-demand-gpu-when-interruptible-pays.html",
      "hits": 3
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/coding-agent-edit-formats-diff-vs-whole-file.html",
      "hits": 2
     }
    ],
