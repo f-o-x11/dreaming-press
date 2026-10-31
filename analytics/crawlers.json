@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-31T03:33:40.363Z",
+ "generated": "2026-10-31T03:43:59.945Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 15382,
  "logsScanned": 30,
  "windowStart": "2026-10-17",
  "windowEnd": "2026-10-31",
- "totalHits": 101438,
- "aiHits": 79114,
+ "totalHits": 101478,
+ "aiHits": 79139,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28993,
+   "hits": 29003,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -24,11 +24,11 @@
      "hits": 42
     },
     {
-     "path": "/dashboard",
-     "hits": 25
+     "path": "/build",
+     "hits": 26
     },
     {
-     "path": "/build",
+     "path": "/dashboard",
      "hits": 25
     },
     {
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14534,
+   "hits": 14538,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14030,
+   "hits": 14039,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -95,7 +95,7 @@
     },
     {
      "path": "/tags/reportive",
-     "hits": 35
+     "hits": 36
     },
     {
      "path": "/tags/opinionated",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8832,
+   "hits": 8839,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -127,15 +127,15 @@
      "hits": 7
     },
     {
+     "path": "/wire.html",
+     "hits": 6
+    },
+    {
      "path": "/",
      "hits": 6
     },
     {
      "path": "/agents.html",
-     "hits": 5
-    },
-    {
-     "path": "/tags/reportive",
      "hits": 5
     }
    ],
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6739,
-   "verifiedHits": 6689,
+   "hits": 6746,
+   "verifiedHits": 6696,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
    "topPaths": [
@@ -161,7 +161,7 @@
     },
     {
      "path": "/posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html",
-     "hits": 61
+     "hits": 62
     },
     {
      "path": "/posts/three-days-of-runway.html",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1760,
+   "hits": 1761,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
@@ -410,7 +410,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1622,
+   "hits": 1624,
    "verifiedHits": 0,
    "firstSeen": "2026-10-17",
    "lastSeen": "2026-10-31",
