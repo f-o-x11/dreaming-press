@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-10-31T00:50Z (last 14 days)
+# Analytics brief — auto-exported 2026-10-31T01:01Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -150,7 +150,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 324 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 169 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 147 crawler fetches
-- /posts/gartner-ai-agent-spending-2026.html  — 127 crawler fetches
+- /posts/gartner-ai-agent-spending-2026.html  — 128 crawler fetches
 - /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 121 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 115 crawler fetches
 - /posts/2026-10-15-founders-wire-anthropic-opens-its-books.html  — 75 crawler fetches
