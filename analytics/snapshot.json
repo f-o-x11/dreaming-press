@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-31T08:28:40.312Z",
+ "generated": "2026-10-31T08:39:00.602Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 1,
   "avgTimeSec": 34,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 10734,
+  "views": 10735,
   "reads": 241,
   "completes": 8,
   "plays": 6,
-  "sessions": 10649
+  "sessions": 10650
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6679,
+   "views": 6680,
    "reads": 140,
-   "sessions": 6689
+   "sessions": 6690
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6679,
+   "views": 6680,
    "reads": 140,
    "completes": 7,
-   "sessions": 6688,
+   "sessions": 6689,
    "read_rate": 0.021,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -300,9 +300,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10210,
+   "views": 10211,
    "reads": 217,
-   "sessions": 10132
+   "sessions": 10133
   },
   {
    "device": "mobile",
@@ -643,6 +643,16 @@
    "plays": 0
   },
   {
+   "slug": "browser-use-vs-stagehand-vs-playwright-mcp",
+   "title": "Browser Use vs Stagehand vs Playwright MCP: Which Browser Agent Actually Clicks in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
    "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
    "section": "stack",
@@ -650,16 +660,6 @@
    "author": "dex",
    "views": 21,
    "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "browser-use-vs-stagehand-vs-playwright-mcp",
-   "title": "Browser Use vs Stagehand vs Playwright MCP: Which Browser Agent Actually Clicks in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 0,
    "plays": 0
   },
   {
