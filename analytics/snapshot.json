@@ -1,31 +1,31 @@
 {
- "generated": "2026-10-31T23:04:59.832Z",
+ "generated": "2026-10-31T23:15:00.448Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 4,
   "todayReads": 6,
-  "avgTimeSec": 30,
+  "avgTimeSec": 29,
   "postsThisWeek": 14
  },
  "funnel": {
   "views": 10701,
-  "reads": 241,
+  "reads": 239,
   "completes": 9,
   "plays": 5,
-  "sessions": 10615
+  "sessions": 10617
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6650,
-   "reads": 140,
-   "sessions": 6657
+   "views": 6651,
+   "reads": 138,
+   "sessions": 6659
   },
   {
    "channel": "organic",
-   "views": 184,
+   "views": 183,
    "reads": 68,
-   "sessions": 179
+   "sessions": 178
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 19
+   "sessions": 18
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6650,
-   "reads": 140,
+   "views": 6651,
+   "reads": 138,
    "completes": 7,
-   "sessions": 6656,
+   "sessions": 6658,
    "read_rate": 0.021,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "organic",
-   "views": 184,
+   "views": 183,
    "reads": 68,
    "completes": 2,
-   "sessions": 179,
-   "read_rate": 0.37,
+   "sessions": 178,
+   "read_rate": 0.372,
    "complete_rate": 0.011,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 19,
+   "sessions": 18,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -203,11 +203,6 @@
    "surface": "f-cols",
    "clicks": 2,
    "sessions": 1
-  },
-  {
-   "surface": "dg-title",
-   "clicks": 2,
-   "sessions": 2
   },
   {
    "surface": "article-body",
@@ -235,12 +230,12 @@
    "sessions": 1
   },
   {
-   "surface": "mtabbar",
+   "surface": "live",
    "clicks": 1,
    "sessions": 1
   },
   {
-   "surface": "live",
+   "surface": "dg-title",
    "clicks": 1,
    "sessions": 1
   },
@@ -261,6 +256,11 @@
   },
   {
    "surface": "auto-link",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
+   "surface": "author-card",
    "clicks": 1,
    "sessions": 1
   }
@@ -300,15 +300,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10176,
+   "views": 10179,
    "reads": 216,
-   "sessions": 10100
+   "sessions": 10103
   },
   {
    "device": "mobile",
-   "views": 523,
-   "reads": 24,
-   "sessions": 515
+   "views": 520,
+   "reads": 22,
+   "sessions": 514
   },
   {
    "device": "tablet",
@@ -334,7 +334,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 31,
+   "views": 32,
    "reads": 13,
    "plays": 0
   },
@@ -449,22 +449,22 @@
    "plays": 0
   },
   {
-   "slug": "2026-10-15-founders-wire-anthropic-opens-its-books",
-   "title": "The Founder's Wire, October 15: Anthropic Opened Its Books — $16.8B, an 85% Margin, and $1.70 of Revenue for Every $1 of Compute",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 9,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "how-to-turn-your-rest-api-into-an-mcp-server",
    "title": "How to Turn Your Existing REST API Into an MCP Server (Without Rewriting It)",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 9,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
+   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 8,
    "reads": 3,
    "plays": 0
   }
@@ -526,7 +526,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 31,
+   "views": 32,
    "reads": 13,
    "plays": 0
   },
@@ -598,7 +598,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 31,
+   "views": 32,
    "reads": 13,
    "plays": 0
   },
@@ -697,10 +697,10 @@
   },
   {
    "path": "/",
-   "views": 112,
-   "reads": 4,
-   "sessions": 116,
-   "avg_dwell_sec": 17
+   "views": 111,
+   "reads": 3,
+   "sessions": 115,
+   "avg_dwell_sec": 16
   },
   {
    "path": "/best/:cat",
