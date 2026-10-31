@@ -1,25 +1,25 @@
 {
- "generated": "2026-10-31T11:53:34.629Z",
+ "generated": "2026-10-31T12:02:49.479Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 6,
   "todayReads": 2,
   "avgTimeSec": 34,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 10713,
+  "views": 10716,
   "reads": 242,
   "completes": 8,
   "plays": 6,
-  "sessions": 10627
+  "sessions": 10630
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6660,
+   "views": 6664,
    "reads": 141,
-   "sessions": 6669
+   "sessions": 6673
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 39,
+   "views": 38,
    "reads": 14,
-   "sessions": 30
+   "sessions": 29
   },
   {
    "channel": "referral",
@@ -43,7 +43,7 @@
    "channel": "ai",
    "views": 29,
    "reads": 4,
-   "sessions": 38
+   "sessions": 37
   },
   {
    "channel": "social",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6660,
+   "views": 6664,
    "reads": 141,
    "completes": 7,
-   "sessions": 6668,
+   "sessions": 6672,
    "read_rate": 0.021,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -112,13 +112,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 39,
+   "views": 38,
    "reads": 14,
    "completes": 0,
-   "sessions": 30,
-   "read_rate": 0.359,
+   "sessions": 29,
+   "read_rate": 0.368,
    "complete_rate": 0,
-   "pages_per_session": 1.3,
+   "pages_per_session": 1.31,
    "median_dwell_sec": null
   },
   {
@@ -126,10 +126,10 @@
    "views": 29,
    "reads": 4,
    "completes": 0,
-   "sessions": 38,
+   "sessions": 37,
    "read_rate": 0.138,
    "complete_rate": 0,
-   "pages_per_session": 0.76,
+   "pages_per_session": 0.78,
    "median_dwell_sec": 4
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 45,
+   "views": 44,
    "reads": 16,
-   "sessions": 29
+   "sessions": 28
   },
   {
    "assistant": "Yuanbao",
@@ -300,15 +300,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10199,
+   "views": 10198,
    "reads": 218,
-   "sessions": 10120
+   "sessions": 10119
   },
   {
    "device": "mobile",
-   "views": 512,
+   "views": 516,
    "reads": 23,
-   "sessions": 507
+   "sessions": 511
   },
   {
    "device": "tablet",
@@ -633,16 +633,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
    "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
    "section": "stack",
@@ -650,6 +640,16 @@
    "author": "dex",
    "views": 21,
    "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
+   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 21,
+   "reads": 0,
    "plays": 0
   },
   {
