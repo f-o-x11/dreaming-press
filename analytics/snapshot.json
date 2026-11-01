@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-01T07:13:00.546Z",
+ "generated": "2026-11-01T07:23:10.096Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
+  "readersNow": 6,
   "todayReads": 1,
   "avgTimeSec": 12,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10712,
+  "views": 10714,
   "reads": 233,
   "completes": 9,
   "plays": 4,
-  "sessions": 10630
+  "sessions": 10632
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6664,
+   "views": 6666,
    "reads": 135,
-   "sessions": 6673
+   "sessions": 6675
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6664,
+   "views": 6666,
    "reads": 135,
    "completes": 7,
-   "sessions": 6672,
+   "sessions": 6674,
    "read_rate": 0.02,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -300,9 +300,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10199,
+   "views": 10201,
    "reads": 210,
-   "sessions": 10125
+   "sessions": 10127
   },
   {
    "device": "mobile",
@@ -623,6 +623,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4",
+   "title": "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 23,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "verl-vs-openrlhf-vs-trl",
    "title": "verl vs OpenRLHF vs TRL: Choosing an RL Post-Training Framework in 2026",
    "section": "stack",
@@ -630,16 +640,6 @@
    "author": "dex",
    "views": 22,
    "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4",
-   "title": "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 22,
-   "reads": 0,
    "plays": 0
   },
   {
