@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-01T02:59Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-01T03:09Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -59,10 +59,10 @@ so what these earn from humans is the other half of the picture.
 - /stack/:tool — 831 views, 0 reads, 831 sessions, avg 8s
 - /compare/:pair — 385 views, 2 reads, 384 sessions, avg 32s
 - /build — 165 views, 0 reads, 165 sessions
-- / — 115 views, 3 reads, 118 sessions, avg 17s
+- / — 114 views, 3 reads, 117 sessions, avg 17s
 - /best/:cat — 64 views, 0 reads, 64 sessions, avg 5s
 - /tags/reportive — 61 views, 0 reads, 61 sessions
-- /alternatives/:tool — 53 views, 0 reads, 53 sessions, avg 6s
+- /alternatives/:tool — 54 views, 0 reads, 54 sessions, avg 6s
 - /tags/opinionated — 52 views, 0 reads, 52 sessions
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
@@ -144,7 +144,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13991 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4310, Perplexity 4198, GPTBot (OpenAI) 3156, ChatGPT (user browsing) 2327).
+The real answer engines are crawling us — IP-verified: 13992 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4310, Perplexity 4198, GPTBot (OpenAI) 3157, ChatGPT (user browsing) 2327).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 446 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 289 crawler fetches
