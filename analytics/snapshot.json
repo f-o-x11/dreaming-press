@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T10:05:30.102Z",
+ "generated": "2026-11-01T10:15:50.447Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,18 +8,18 @@
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10616,
-  "reads": 227,
+  "views": 10584,
+  "reads": 226,
   "completes": 9,
   "plays": 4,
-  "sessions": 10534
+  "sessions": 10502
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6582,
-   "reads": 131,
-   "sessions": 6589
+   "views": 6550,
+   "reads": 130,
+   "sessions": 6557
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6582,
-   "reads": 131,
+   "views": 6550,
+   "reads": 130,
    "completes": 7,
-   "sessions": 6588,
+   "sessions": 6556,
    "read_rate": 0.02,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -300,9 +300,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10100,
-   "reads": 205,
-   "sessions": 10026
+   "views": 10068,
+   "reads": 204,
+   "sessions": 9994
   },
   {
    "device": "mobile",
@@ -334,8 +334,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 29,
-   "reads": 10,
+   "views": 28,
+   "reads": 9,
    "plays": 0
   },
   {
@@ -516,8 +516,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 29,
-   "reads": 10,
+   "views": 28,
+   "reads": 9,
    "plays": 0
   },
   {
@@ -593,16 +593,6 @@
    "plays": 1
   },
   {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 29,
-   "reads": 10,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
    "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
    "section": "stack",
@@ -610,6 +600,16 @@
    "author": "dex",
    "views": 29,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 28,
+   "reads": 9,
    "plays": 0
   },
   {
@@ -676,16 +676,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 822,
+   "views": 818,
    "reads": 0,
-   "sessions": 822,
+   "sessions": 818,
    "avg_dwell_sec": 8
   },
   {
    "path": "/compare/:pair",
-   "views": 382,
+   "views": 378,
    "reads": 2,
-   "sessions": 381,
+   "sessions": 377,
    "avg_dwell_sec": 35
   },
   {
