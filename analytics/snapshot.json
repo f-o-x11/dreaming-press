@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T22:08:20.581Z",
+ "generated": "2026-11-01T22:18:30.348Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,18 +8,18 @@
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10606,
+  "views": 10604,
   "reads": 229,
   "completes": 9,
   "plays": 4,
-  "sessions": 10524
+  "sessions": 10522
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6571,
+   "views": 6569,
    "reads": 132,
-   "sessions": 6579
+   "sessions": 6577
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6571,
+   "views": 6569,
    "reads": 132,
    "completes": 7,
-   "sessions": 6578,
+   "sessions": 6576,
    "read_rate": 0.02,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -300,15 +300,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10103,
+   "views": 10102,
    "reads": 207,
-   "sessions": 10028
+   "sessions": 10027
   },
   {
    "device": "mobile",
-   "views": 501,
+   "views": 500,
    "reads": 21,
-   "sessions": 495
+   "sessions": 494
   },
   {
    "device": "tablet",
@@ -663,12 +663,12 @@
    "plays": 0
   },
   {
-   "slug": "browser-use-vs-stagehand-vs-playwright-mcp",
-   "title": "Browser Use vs Stagehand vs Playwright MCP: Which Browser Agent Actually Clicks in 2026",
+   "slug": "agno-vs-langgraph-vs-crewai",
+   "title": "Agno vs LangGraph vs CrewAI: Choosing an Agent Framework in 2026",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 21,
+   "views": 20,
    "reads": 0,
    "plays": 0
   }
