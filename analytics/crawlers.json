@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-01T01:06:59.818Z",
+ "generated": "2026-11-01T01:17:01.913Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13973,
+ "verifiedAiHits": 13974,
  "logsScanned": 30,
  "windowStart": "2026-10-18",
  "windowEnd": "2026-11-01",
- "totalHits": 97397,
- "aiHits": 75208,
+ "totalHits": 97458,
+ "aiHits": 75240,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28408,
+   "hits": 28426,
    "verifiedHits": 0,
    "firstSeen": "2026-10-18",
    "lastSeen": "2026-11-01",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13927,
+   "hits": 13934,
    "verifiedHits": 0,
    "firstSeen": "2026-10-18",
    "lastSeen": "2026-11-01",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8898,
+   "hits": 8908,
    "verifiedHits": 0,
    "firstSeen": "2026-10-18",
    "lastSeen": "2026-11-01",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6752,
-   "verifiedHits": 6713,
+   "hits": 6755,
+   "verifiedHits": 6716,
    "firstSeen": "2026-10-18",
    "lastSeen": "2026-11-01",
    "topPaths": [
@@ -175,12 +175,45 @@
    "verifiable": true
   },
   {
+   "name": "Sogou",
+   "label": "Sogou",
+   "category": "search",
+   "home": "https://www.sogou.com",
+   "hits": 4344,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-18",
+   "lastSeen": "2026-11-01",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 24
+    },
+    {
+     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
+     "hits": 10
+    },
+    {
+     "path": "/posts/best-llm-for-creative-writing-october-2026.html",
+     "hits": 10
+    },
+    {
+     "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
+     "hits": 9
+    },
+    {
+     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
+     "hits": 9
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "OAI-SearchBot",
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4328,
-   "verifiedHits": 4296,
+   "hits": 4329,
+   "verifiedHits": 4297,
    "firstSeen": "2026-10-18",
    "lastSeen": "2026-11-01",
    "topPaths": [
@@ -206,39 +239,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "Sogou",
-   "label": "Sogou",
-   "category": "search",
-   "home": "https://www.sogou.com",
-   "hits": 4328,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-18",
-   "lastSeen": "2026-10-31",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 24
-    },
-    {
-     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 10
-    },
-    {
-     "path": "/posts/best-llm-for-creative-writing-october-2026.html",
-     "hits": 10
-    },
-    {
-     "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 9
-    },
-    {
-     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 9
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "PerplexityBot",
@@ -344,7 +344,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1997,
+   "hits": 2002,
    "verifiedHits": 0,
    "firstSeen": "2026-10-20",
    "lastSeen": "2026-11-01",
@@ -352,6 +352,10 @@
     {
      "path": "/build",
      "hits": 54
+    },
+    {
+     "path": "/posts/how-to-meter-and-bill-usage-based-pricing.html",
+     "hits": 2
     },
     {
      "path": "/posts/telemem-vs-mem0.html",
@@ -363,10 +367,6 @@
     },
     {
      "path": "/posts/vllm-kv-offload-configure-size-measure-how-to.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/migrate-bedrock-agents-classic-to-agentcore-runtime-gateway-memory.html",
      "hits": 2
     }
    ],
@@ -608,10 +608,10 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 117,
+   "hits": 118,
    "verifiedHits": 0,
    "firstSeen": "2026-10-18",
-   "lastSeen": "2026-10-31",
+   "lastSeen": "2026-11-01",
    "topPaths": [
     {
      "path": "/posts/tool-highlight-tinfoil-confidential-llm-inference-cloud-cant-read.html",
