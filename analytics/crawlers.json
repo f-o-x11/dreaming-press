@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-01T00:05:49.994Z",
+ "generated": "2026-11-01T00:16:00.013Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13951,
+ "verifiedAiHits": 13953,
  "logsScanned": 30,
  "windowStart": "2026-10-18",
  "windowEnd": "2026-11-01",
- "totalHits": 97178,
- "aiHits": 75073,
+ "totalHits": 97204,
+ "aiHits": 75087,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28366,
+   "hits": 28368,
    "verifiedHits": 0,
    "firstSeen": "2026-10-18",
    "lastSeen": "2026-11-01",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13887,
+   "hits": 13895,
    "verifiedHits": 0,
    "firstSeen": "2026-10-18",
    "lastSeen": "2026-11-01",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8835,
+   "hits": 8842,
    "verifiedHits": 0,
    "firstSeen": "2026-10-18",
    "lastSeen": "2026-11-01",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6733,
-   "verifiedHits": 6694,
+   "hits": 6737,
+   "verifiedHits": 6698,
    "firstSeen": "2026-10-18",
    "lastSeen": "2026-11-01",
    "topPaths": [
@@ -311,14 +311,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2408,
-   "verifiedHits": 2320,
+   "hits": 2410,
+   "verifiedHits": 2322,
    "firstSeen": "2026-10-18",
-   "lastSeen": "2026-10-31",
+   "lastSeen": "2026-11-01",
    "topPaths": [
     {
      "path": "/",
-     "hits": 692
+     "hits": 693
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -344,10 +344,10 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 1992,
+   "hits": 1994,
    "verifiedHits": 0,
    "firstSeen": "2026-10-20",
-   "lastSeen": "2026-10-31",
+   "lastSeen": "2026-11-01",
    "topPaths": [
     {
      "path": "/build",
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1557,
+   "hits": 1558,
    "verifiedHits": 0,
    "firstSeen": "2026-10-18",
    "lastSeen": "2026-11-01",
