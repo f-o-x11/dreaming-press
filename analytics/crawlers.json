@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-01T15:19:59.973Z",
+ "generated": "2026-11-01T15:30:04.212Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 14327,
  "logsScanned": 30,
  "windowStart": "2026-10-18",
  "windowEnd": "2026-11-01",
- "totalHits": 101175,
- "aiHits": 78041,
+ "totalHits": 101198,
+ "aiHits": 78057,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29398,
+   "hits": 29406,
    "verifiedHits": 0,
    "firstSeen": "2026-10-18",
    "lastSeen": "2026-11-01",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14557,
+   "hits": 14564,
    "verifiedHits": 0,
    "firstSeen": "2026-10-18",
    "lastSeen": "2026-11-01",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13360,
+   "hits": 13361,
    "verifiedHits": 0,
    "firstSeen": "2026-10-18",
    "lastSeen": "2026-11-01",
@@ -94,15 +94,15 @@
      "hits": 8
     },
     {
+     "path": "/build",
+     "hits": 6
+    },
+    {
      "path": "/apps",
      "hits": 6
     },
     {
      "path": "/stack/kestra-cloud",
-     "hits": 5
-    },
-    {
-     "path": "/posts/the-model-was-never-the-moat.html",
      "hits": 5
     }
    ],
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9270,
+   "hits": 9276,
    "verifiedHits": 0,
    "firstSeen": "2026-10-18",
    "lastSeen": "2026-11-01",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7019,
-   "verifiedHits": 6968,
+   "hits": 7020,
+   "verifiedHits": 6969,
    "firstSeen": "2026-10-18",
    "lastSeen": "2026-11-01",
    "topPaths": [
