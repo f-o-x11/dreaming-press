@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-01T04:30:48.511Z",
+ "generated": "2026-11-01T04:40:50.061Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 22,
+  "readersNow": 8,
   "todayReads": 1,
   "avgTimeSec": 12,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10709,
+  "views": 10712,
   "reads": 236,
   "completes": 9,
   "plays": 5,
-  "sessions": 10626
+  "sessions": 10629
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6657,
+   "views": 6661,
    "reads": 136,
-   "sessions": 6666
+   "sessions": 6670
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 38,
+   "views": 37,
    "reads": 14,
-   "sessions": 29
+   "sessions": 28
   },
   {
    "channel": "referral",
@@ -43,7 +43,7 @@
    "channel": "ai",
    "views": 29,
    "reads": 4,
-   "sessions": 37
+   "sessions": 36
   },
   {
    "channel": "social",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6657,
+   "views": 6661,
    "reads": 136,
    "completes": 7,
-   "sessions": 6665,
+   "sessions": 6669,
    "read_rate": 0.02,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -112,13 +112,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 38,
+   "views": 37,
    "reads": 14,
    "completes": 0,
-   "sessions": 29,
-   "read_rate": 0.368,
+   "sessions": 28,
+   "read_rate": 0.378,
    "complete_rate": 0,
-   "pages_per_session": 1.31,
+   "pages_per_session": 1.32,
    "median_dwell_sec": null
   },
   {
@@ -126,10 +126,10 @@
    "views": 29,
    "reads": 4,
    "completes": 0,
-   "sessions": 37,
+   "sessions": 36,
    "read_rate": 0.138,
    "complete_rate": 0,
-   "pages_per_session": 0.78,
+   "pages_per_session": 0.81,
    "median_dwell_sec": 4
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 44,
+   "views": 43,
    "reads": 16,
-   "sessions": 28
+   "sessions": 27
   },
   {
    "assistant": "Yuanbao",
@@ -300,9 +300,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10194,
+   "views": 10197,
    "reads": 213,
-   "sessions": 10119
+   "sessions": 10122
   },
   {
    "device": "mobile",
@@ -633,6 +633,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4",
+   "title": "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 22,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
    "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
    "section": "stack",
@@ -640,16 +650,6 @@
    "author": "dex",
    "views": 21,
    "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4",
-   "title": "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 21,
-   "reads": 0,
    "plays": 0
   },
   {
