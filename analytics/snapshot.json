@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-01T09:25:13.180Z",
+ "generated": "2026-11-01T09:35:13.733Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
   "todayReads": 1,
-  "avgTimeSec": 13,
+  "avgTimeSec": 12,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10693,
+  "views": 10686,
   "reads": 230,
   "completes": 9,
   "plays": 4,
-  "sessions": 10610
+  "sessions": 10603
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6649,
+   "views": 6647,
    "reads": 133,
-   "sessions": 6656
+   "sessions": 6654
   },
   {
    "channel": "organic",
-   "views": 181,
+   "views": 176,
    "reads": 66,
-   "sessions": 176
+   "sessions": 171
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6649,
+   "views": 6647,
    "reads": 133,
    "completes": 7,
-   "sessions": 6655,
+   "sessions": 6653,
    "read_rate": 0.02,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "organic",
-   "views": 181,
+   "views": 176,
    "reads": 66,
    "completes": 2,
-   "sessions": 176,
-   "read_rate": 0.365,
+   "sessions": 171,
+   "read_rate": 0.375,
    "complete_rate": 0.011,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -300,9 +300,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10179,
+   "views": 10172,
    "reads": 208,
-   "sessions": 10104
+   "sessions": 10097
   },
   {
    "device": "mobile",
@@ -404,7 +404,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 27,
+   "views": 26,
    "reads": 3,
    "plays": 0
   },
@@ -618,7 +618,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 27,
+   "views": 26,
    "reads": 3,
    "plays": 0
   },
@@ -788,8 +788,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 92,
-   "sessions": 77
+   "hits": 87,
+   "sessions": 72
   },
   {
    "ref": "https://www.bing.com/",

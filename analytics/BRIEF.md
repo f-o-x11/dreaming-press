@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-01T09:25Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-01T09:35Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 10693 views → 230 engaged reads → 9 completes · 10610 sessions.
-- Channels: direct 133r/6649v · organic 66r/181v · campaign:chatgpt.com 13r/34v · referral 12r/3794v · ai 3r/28v · social 2r/4v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 10686 views → 230 engaged reads → 9 completes · 10603 sessions.
+- Channels: direct 133r/6647v · organic 66r/176v · campaign:chatgpt.com 13r/34v · referral 12r/3794v · ai 3r/28v · social 2r/4v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 14r/39v · Yuanbao 1r/2v · Perplexity 1r/2v · Kimi 0r/16v · Grok 0r/2v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, cn.bing.com, nav-cmp, youtube.com, qwant.com, search.brave.com, brand.
 - Engaged-read winners by section: stack=10, wire=5.
@@ -23,9 +23,9 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 6649 views · read 2.0% · complete 0.1% · 1 pages/session · median 8s
+- direct: 6647 views · read 2.0% · complete 0.1% · 1 pages/session · median 8s
 - referral: 3794 views · read 0.3% · complete 0.0% · 1 pages/session · median ?s
-- organic: 181 views · read 36.5% · complete 1.1% · 1.03 pages/session · median 3s
+- organic: 176 views · read 37.5% · complete 1.1% · 1.03 pages/session · median 3s
 - campaign:chatgpt.com: 34 views · read 38.2% · complete 0.0% · 1.36 pages/session · median ?s
 - ai: 28 views · read 10.7% · complete 0.0% · 0.85 pages/session · median 4s
 - social: 4 views · read 50.0% · complete 0.0% · 1 pages/session · median ?s
@@ -43,7 +43,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo" — 4 reads, 13 views, 0 listens
 - [stack] "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't" — 4 reads, 12 views, 0 listens
 - [stack] "Serverless GPU Compute, Explained: The Providers, the Prices, and When Scale-to-Zero Pays (September 2026)" — 4 reads, 6 views, 0 listens
-- [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 3 reads, 27 views, 0 listens
+- [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 3 reads, 26 views, 0 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 3 reads, 19 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
@@ -71,7 +71,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 43 views, 8 reads
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 32 views, 13 reads
 - [stack] "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent" — 29 views, 0 reads
-- [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 27 views, 3 reads
+- [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 26 views, 3 reads
 - [wire] "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model" — 23 views, 0 reads
 
 ## Arrived but left (fix these openings first)
