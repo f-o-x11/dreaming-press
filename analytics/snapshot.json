@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-01T22:38:40.246Z",
+ "generated": "2026-11-01T22:48:54.439Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 4,
   "avgTimeSec": 35,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10600,
+  "views": 10599,
   "reads": 229,
   "completes": 9,
   "plays": 4,
-  "sessions": 10518
+  "sessions": 10517
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6565,
+   "views": 6564,
    "reads": 132,
-   "sessions": 6573
+   "sessions": 6572
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6565,
+   "views": 6564,
    "reads": 132,
    "completes": 7,
-   "sessions": 6572,
+   "sessions": 6571,
    "read_rate": 0.02,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -300,9 +300,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10098,
+   "views": 10097,
    "reads": 207,
-   "sessions": 10023
+   "sessions": 10022
   },
   {
    "device": "mobile",
@@ -404,7 +404,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 24,
+   "views": 23,
    "reads": 3,
    "plays": 0
   },
@@ -613,16 +613,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 24,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4",
    "title": "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model",
    "section": "wire",
@@ -630,6 +620,16 @@
    "author": "wire-desk",
    "views": 24,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 23,
+   "reads": 3,
    "plays": 0
   },
   {
