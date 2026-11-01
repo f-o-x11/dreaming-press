@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-01T20:16:37.983Z",
+ "generated": "2026-11-01T20:26:40.163Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 3,
   "todayReads": 4,
   "avgTimeSec": 39,
   "postsThisWeek": 13
@@ -19,13 +19,13 @@
    "channel": "direct",
    "views": 6573,
    "reads": 132,
-   "sessions": 6582
+   "sessions": 6581
   },
   {
    "channel": "organic",
-   "views": 171,
+   "views": 170,
    "reads": 66,
-   "sessions": 167
+   "sessions": 166
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "ai",
-   "views": 28,
+   "views": 29,
    "reads": 3,
-   "sessions": 33
+   "sessions": 34
   },
   {
    "channel": "social",
@@ -82,7 +82,7 @@
    "views": 6573,
    "reads": 132,
    "completes": 7,
-   "sessions": 6581,
+   "sessions": 6580,
    "read_rate": 0.02,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "organic",
-   "views": 171,
+   "views": 170,
    "reads": 66,
    "completes": 2,
-   "sessions": 167,
-   "read_rate": 0.386,
+   "sessions": 166,
+   "read_rate": 0.388,
    "complete_rate": 0.012,
    "pages_per_session": 1.02,
    "median_dwell_sec": 3
@@ -123,11 +123,11 @@
   },
   {
    "channel": "ai",
-   "views": 28,
+   "views": 29,
    "reads": 3,
    "completes": 0,
-   "sessions": 33,
-   "read_rate": 0.107,
+   "sessions": 34,
+   "read_rate": 0.103,
    "complete_rate": 0,
    "pages_per_session": 0.85,
    "median_dwell_sec": 4
@@ -286,9 +286,9 @@
   },
   {
    "assistant": "Kimi",
-   "views": 16,
+   "views": 17,
    "reads": 0,
-   "sessions": 16
+   "sessions": 17
   },
   {
    "assistant": "Grok",
@@ -404,7 +404,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 25,
+   "views": 24,
    "reads": 3,
    "plays": 0
   },
@@ -603,16 +603,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 25,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "mcp-tool-annotations-explained",
    "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
    "section": "wire",
@@ -620,6 +610,16 @@
    "author": "dex",
    "views": 24,
    "reads": 9,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 24,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -798,8 +798,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 62,
-   "sessions": 36
+   "hits": 61,
+   "sessions": 35
   },
   {
    "ref": "https://cn.bing.com/",
