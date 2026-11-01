@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-01T12:38Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-01T12:48Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -105,7 +105,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - OAI-SearchBot (4402 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×118 · /posts/open-source-llm-for-coding-september-2026.html ×71 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×58
-- PerplexityBot (4226 verified): / ×25 · /newsroom ×22 · /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html ×21
+- PerplexityBot (4348 verified): / ×25 · /newsroom ×22 · /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html ×21
 - ChatGPT-User (2346 verified): / ×710 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×212 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×76
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -143,19 +143,19 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 14132 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4402, Perplexity 4226, GPTBot (OpenAI) 3158, ChatGPT (user browsing) 2346).
+The real answer engines are crawling us — IP-verified: 14254 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4402, Perplexity 4348, GPTBot (OpenAI) 3158, ChatGPT (user browsing) 2346).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 500 crawler fetches
-- /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 294 crawler fetches
+- /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 295 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 155 crawler fetches
-- /posts/best-llm-for-creative-writing-october-2026.html  — 148 crawler fetches
+- /posts/best-llm-for-creative-writing-october-2026.html  — 149 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 130 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 118 crawler fetches
 - /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 116 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 71 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 71 crawler fetches
 - /posts/2026-10-15-founders-wire-anthropic-opens-its-books.html  — 66 crawler fetches
-- /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 58 crawler fetches
+- /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 59 crawler fetches
 - /posts/gpu-rental-price-october-2026.html  — 58 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
