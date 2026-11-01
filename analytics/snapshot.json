@@ -1,17 +1,17 @@
 {
- "generated": "2026-11-01T06:42:20.008Z",
+ "generated": "2026-11-01T06:52:40.055Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 1,
   "avgTimeSec": 12,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10707,
-  "reads": 235,
+  "views": 10706,
+  "reads": 234,
   "completes": 9,
-  "plays": 5,
+  "plays": 4,
   "sessions": 10624
  },
  "channels": [
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 36,
-   "reads": 14,
-   "sessions": 27
+   "views": 35,
+   "reads": 13,
+   "sessions": 26
   },
   {
    "channel": "referral",
@@ -112,13 +112,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 36,
-   "reads": 14,
+   "views": 35,
+   "reads": 13,
    "completes": 0,
-   "sessions": 27,
-   "read_rate": 0.389,
+   "sessions": 26,
+   "read_rate": 0.371,
    "complete_rate": 0,
-   "pages_per_session": 1.33,
+   "pages_per_session": 1.35,
    "median_dwell_sec": null
   },
   {
@@ -130,7 +130,7 @@
    "read_rate": 0.138,
    "complete_rate": 0,
    "pages_per_session": 0.83,
-   "median_dwell_sec": 4
+   "median_dwell_sec": 8
   },
   {
    "channel": "social",
@@ -268,8 +268,8 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 42,
-   "reads": 16,
+   "views": 41,
+   "reads": 15,
    "sessions": 26
   },
   {
@@ -300,8 +300,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10194,
-   "reads": 212,
+   "views": 10193,
+   "reads": 211,
    "sessions": 10119
   },
   {
@@ -491,16 +491,6 @@
    "plays": 1
   },
   {
-   "slug": "how-to-show-users-what-your-ai-agent-is-doing",
-   "title": "How to Show Users What Your AI Agent Is Doing Right Now",
-   "section": "stack",
-   "tags": "[\"reportive\",\"captivating\"]",
-   "author": "rosalinda",
-   "views": 10,
-   "reads": 1,
-   "plays": 1
-  },
-  {
    "slug": "speech-to-speech-vs-cascaded-voice-agents",
    "title": "Speech-to-Speech vs Cascaded: Two Architectures for Voice AI Agents in 2026",
    "section": "wire",
@@ -567,6 +557,16 @@
    "tags": "[\"compare\",\"opinionated\"]",
    "author": "dex",
    "views": 12,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026",
+   "title": "Serverless GPU Compute, Explained: The Providers, the Prices, and When Scale-to-Zero Pays (September 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
    "reads": 4,
    "plays": 0
   }
