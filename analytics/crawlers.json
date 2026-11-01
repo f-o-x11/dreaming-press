@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-01T18:44:49.907Z",
+ "generated": "2026-11-01T18:54:58.360Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 14385,
+ "verifiedAiHits": 14388,
  "logsScanned": 30,
  "windowStart": "2026-10-18",
  "windowEnd": "2026-11-01",
- "totalHits": 102186,
- "aiHits": 78796,
+ "totalHits": 102250,
+ "aiHits": 78857,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29654,
+   "hits": 29693,
    "verifiedHits": 0,
    "firstSeen": "2026-10-18",
    "lastSeen": "2026-11-01",
    "topPaths": [
     {
      "path": "/",
-     "hits": 45
+     "hits": 47
     },
     {
      "path": "/build",
@@ -37,7 +37,7 @@
     },
     {
      "path": "/posts/2026-10-17-founders-wire-eight-states-sue-openai-anthropic-safety-bill.html",
-     "hits": 14
+     "hits": 15
     }
    ],
    "verifiable": false
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14710,
+   "hits": 14718,
    "verifiedHits": 0,
    "firstSeen": "2026-10-18",
    "lastSeen": "2026-11-01",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13530,
+   "hits": 13539,
    "verifiedHits": 0,
    "firstSeen": "2026-10-18",
    "lastSeen": "2026-11-01",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9374,
+   "hits": 9375,
    "verifiedHits": 0,
    "firstSeen": "2026-10-18",
    "lastSeen": "2026-11-01",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7095,
-   "verifiedHits": 7043,
+   "hits": 7096,
+   "verifiedHits": 7044,
    "firstSeen": "2026-10-18",
    "lastSeen": "2026-11-01",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4495,
-   "verifiedHits": 4449,
+   "hits": 4497,
+   "verifiedHits": 4451,
    "firstSeen": "2026-10-18",
    "lastSeen": "2026-11-01",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2452,
-   "verifiedHits": 2355,
+   "hits": 2453,
+   "verifiedHits": 2356,
    "firstSeen": "2026-10-18",
    "lastSeen": "2026-11-01",
    "topPaths": [
@@ -326,7 +326,7 @@
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 76
+     "hits": 77
     },
     {
      "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
@@ -344,7 +344,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2102,
+   "hits": 2104,
    "verifiedHits": 0,
    "firstSeen": "2026-10-20",
    "lastSeen": "2026-11-01",
@@ -476,8 +476,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 661,
-   "verifiedHits": 562,
+   "hits": 662,
+   "verifiedHits": 563,
    "firstSeen": "2026-10-18",
    "lastSeen": "2026-11-01",
    "topPaths": [
