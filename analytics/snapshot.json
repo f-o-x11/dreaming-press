@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-01T19:05:00.326Z",
+ "generated": "2026-11-01T19:15:20.600Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
@@ -8,18 +8,18 @@
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10609,
+  "views": 10608,
   "reads": 229,
   "completes": 9,
   "plays": 4,
-  "sessions": 10527
+  "sessions": 10526
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6574,
+   "views": 6573,
    "reads": 132,
-   "sessions": 6583
+   "sessions": 6582
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6574,
+   "views": 6573,
    "reads": 132,
    "completes": 7,
-   "sessions": 6582,
+   "sessions": 6581,
    "read_rate": 0.02,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -300,9 +300,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10104,
+   "views": 10103,
    "reads": 207,
-   "sessions": 10029
+   "sessions": 10028
   },
   {
    "device": "mobile",
@@ -334,7 +334,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 25,
+   "views": 24,
    "reads": 9,
    "plays": 0
   },
@@ -516,7 +516,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 25,
+   "views": 24,
    "reads": 9,
    "plays": 0
   },
@@ -603,16 +603,6 @@
    "plays": 0
   },
   {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 25,
-   "reads": 9,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -620,6 +610,16 @@
    "author": "dex",
    "views": 25,
    "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 24,
+   "reads": 9,
    "plays": 0
   },
   {
