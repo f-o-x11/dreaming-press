@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-01T09:55:20.380Z",
+ "generated": "2026-11-01T10:05:30.102Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 0,
   "todayReads": 1,
   "avgTimeSec": 12,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10656,
+  "views": 10616,
   "reads": 227,
   "completes": 9,
   "plays": 4,
-  "sessions": 10574
+  "sessions": 10534
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6621,
+   "views": 6582,
    "reads": 131,
-   "sessions": 6628
+   "sessions": 6589
   },
   {
    "channel": "organic",
-   "views": 172,
+   "views": 171,
    "reads": 65,
-   "sessions": 168
+   "sessions": 167
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6621,
+   "views": 6582,
    "reads": 131,
    "completes": 7,
-   "sessions": 6627,
+   "sessions": 6588,
    "read_rate": 0.02,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "organic",
-   "views": 172,
+   "views": 171,
    "reads": 65,
    "completes": 2,
-   "sessions": 168,
-   "read_rate": 0.378,
+   "sessions": 167,
+   "read_rate": 0.38,
    "complete_rate": 0.012,
    "pages_per_session": 1.02,
    "median_dwell_sec": 3
@@ -300,9 +300,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10140,
+   "views": 10100,
    "reads": 205,
-   "sessions": 10066
+   "sessions": 10026
   },
   {
    "device": "mobile",
@@ -676,16 +676,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 826,
+   "views": 822,
    "reads": 0,
-   "sessions": 826,
+   "sessions": 822,
    "avg_dwell_sec": 8
   },
   {
    "path": "/compare/:pair",
-   "views": 393,
+   "views": 382,
    "reads": 2,
-   "sessions": 392,
+   "sessions": 381,
    "avg_dwell_sec": 35
   },
   {
@@ -704,9 +704,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 63,
+   "views": 62,
    "reads": 0,
-   "sessions": 63,
+   "sessions": 62,
    "avg_dwell_sec": 5
   },
   {
@@ -788,8 +788,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 81,
-   "sessions": 69
+   "hits": 80,
+   "sessions": 68
   },
   {
    "ref": "https://www.bing.com/",
