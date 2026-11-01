@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-01T04:20Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-01T04:30Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 10702 views → 236 engaged reads → 9 completes · 10619 sessions.
-- Channels: direct 136r/6651v · organic 67r/182v · campaign:chatgpt.com 14r/38v · referral 12r/3795v · ai 4r/29v · social 2r/4v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 10709 views → 236 engaged reads → 9 completes · 10626 sessions.
+- Channels: direct 136r/6657v · organic 67r/183v · campaign:chatgpt.com 14r/38v · referral 12r/3795v · ai 4r/29v · social 2r/4v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 16r/44v · Yuanbao 1r/2v · Perplexity 1r/2v · Kimi 0r/16v · Grok 0r/2v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, cn.bing.com, nav-cmp, search.brave.com, youtube.com, qwant.com, brand.
 - Engaged-read winners by section: stack=10, wire=5.
@@ -23,14 +23,14 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 6651 views · read 2.0% · complete 0.1% · 1 pages/session · median 9s
+- direct: 6657 views · read 2.0% · complete 0.1% · 1 pages/session · median 9s
 - referral: 3795 views · read 0.3% · complete 0.0% · 1 pages/session · median ?s
-- organic: 182 views · read 36.8% · complete 1.1% · 1.03 pages/session · median 3s
+- organic: 183 views · read 36.6% · complete 1.1% · 1.03 pages/session · median 3s
 - campaign:chatgpt.com: 38 views · read 36.8% · complete 0.0% · 1.31 pages/session · median ?s
 - ai: 29 views · read 13.8% · complete 0.0% · 0.78 pages/session · median 4s
 - social: 4 views · read 50.0% · complete 0.0% · 1 pages/session · median ?s
-INSIGHT: organic converts 18x better per view than direct, which is 62% of all views.
-One visitor from organic is worth many from direct. Commission for the channels that read.
+INSIGHT: campaign:chatgpt.com converts 18x better per view than direct, which is 62% of all views.
+One visitor from campaign:chatgpt.com is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
 
@@ -83,8 +83,8 @@ new traffic — and these pages already have the traffic.
 - [stack] "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent" — 31 views but only 0 engaged reads (0.0%)
 - [stack] "verl vs OpenRLHF vs TRL: Choosing an RL Post-Training Framework in 2026" — 22 views but only 1 engaged reads (4.5%)
 - [wire] "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model" — 21 views but only 0 engaged reads (0.0%)
+- [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 21 views but only 0 engaged reads (0.0%)
 - [stack] "Browser Use vs Stagehand vs Playwright MCP: Which Browser Agent Actually Clicks in 2026" — 21 views but only 0 engaged reads (0.0%)
-- [stack] "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026" — 20 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 

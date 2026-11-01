@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-01T04:20:40.021Z",
+ "generated": "2026-11-01T04:30:48.511Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 16,
+  "readersNow": 22,
   "todayReads": 1,
   "avgTimeSec": 12,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10702,
+  "views": 10709,
   "reads": 236,
   "completes": 9,
   "plays": 5,
-  "sessions": 10619
+  "sessions": 10626
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6651,
+   "views": 6657,
    "reads": 136,
-   "sessions": 6660
+   "sessions": 6666
   },
   {
    "channel": "organic",
-   "views": 182,
+   "views": 183,
    "reads": 67,
-   "sessions": 177
+   "sessions": 178
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6651,
+   "views": 6657,
    "reads": 136,
    "completes": 7,
-   "sessions": 6659,
+   "sessions": 6665,
    "read_rate": 0.02,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "organic",
-   "views": 182,
+   "views": 183,
    "reads": 67,
    "completes": 2,
-   "sessions": 177,
-   "read_rate": 0.368,
+   "sessions": 178,
+   "read_rate": 0.366,
    "complete_rate": 0.011,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -300,15 +300,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10189,
+   "views": 10194,
    "reads": 213,
-   "sessions": 10114
+   "sessions": 10119
   },
   {
    "device": "mobile",
-   "views": 511,
+   "views": 513,
    "reads": 22,
-   "sessions": 505
+   "sessions": 507
   },
   {
    "device": "tablet",
@@ -653,8 +653,8 @@
    "plays": 0
   },
   {
-   "slug": "browser-use-vs-stagehand-vs-playwright-mcp",
-   "title": "Browser Use vs Stagehand vs Playwright MCP: Which Browser Agent Actually Clicks in 2026",
+   "slug": "best-open-source-rl-frameworks-for-training-agents",
+   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -663,12 +663,12 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten",
-   "title": "Modal vs Replicate vs RunPod vs Baseten: Where to Deploy a Custom Model in 2026",
+   "slug": "browser-use-vs-stagehand-vs-playwright-mcp",
+   "title": "Browser Use vs Stagehand vs Playwright MCP: Which Browser Agent Actually Clicks in 2026",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 20,
+   "views": 21,
    "reads": 0,
    "plays": 0
   }
@@ -788,8 +788,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 92,
-   "sessions": 77
+   "hits": 93,
+   "sessions": 78
   },
   {
    "ref": "https://www.bing.com/",
