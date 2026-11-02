@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-02T15:26:03.084Z",
+ "generated": "2026-11-02T15:36:20.464Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 15,
   "avgTimeSec": 87,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 10556,
+  "views": 10554,
   "reads": 221,
   "completes": 9,
   "plays": 4,
-  "sessions": 10474
+  "sessions": 10471
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6530,
+   "views": 6528,
    "reads": 128,
-   "sessions": 6531
+   "sessions": 6528
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6530,
+   "views": 6528,
    "reads": 128,
    "completes": 7,
-   "sessions": 6530,
+   "sessions": 6527,
    "read_rate": 0.02,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10059,
+   "views": 10058,
    "reads": 200,
-   "sessions": 9984
+   "sessions": 9982
   },
   {
    "device": "mobile",
-   "views": 495,
+   "views": 494,
    "reads": 20,
-   "sessions": 489
+   "sessions": 488
   },
   {
    "device": "tablet",
@@ -629,16 +629,6 @@
    "plays": 0
   },
   {
-   "slug": "best-open-source-rl-frameworks-for-training-agents",
-   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -646,6 +636,16 @@
    "author": "dex",
    "views": 21,
    "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "best-open-source-rl-frameworks-for-training-agents",
+   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 21,
+   "reads": 0,
    "plays": 0
   },
   {
