@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-02T07:37:20.429Z",
+ "generated": "2026-11-02T07:47:30.278Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 4,
+  "readersNow": 7,
+  "todayReads": 5,
   "avgTimeSec": 7,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 10543,
-  "reads": 225,
+  "views": 10540,
+  "reads": 224,
   "completes": 9,
   "plays": 4,
-  "sessions": 10462
+  "sessions": 10459
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6510,
+   "views": 6508,
    "reads": 128,
-   "sessions": 6517
+   "sessions": 6513
   },
   {
    "channel": "organic",
-   "views": 169,
-   "reads": 66,
-   "sessions": 165
+   "views": 168,
+   "reads": 65,
+   "sessions": 164
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6510,
+   "views": 6508,
    "reads": 128,
    "completes": 7,
-   "sessions": 6516,
+   "sessions": 6512,
    "read_rate": 0.02,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "organic",
-   "views": 169,
-   "reads": 66,
+   "views": 168,
+   "reads": 65,
    "completes": 2,
-   "sessions": 165,
-   "read_rate": 0.391,
+   "sessions": 164,
+   "read_rate": 0.387,
    "complete_rate": 0.012,
    "pages_per_session": 1.02,
    "median_dwell_sec": 3
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10043,
-   "reads": 203,
-   "sessions": 9969
+   "views": 10042,
+   "reads": 202,
+   "sessions": 9968
   },
   {
    "device": "mobile",
-   "views": 498,
+   "views": 496,
    "reads": 21,
-   "sessions": 492
+   "sessions": 490
   },
   {
    "device": "tablet",
@@ -365,16 +365,6 @@
    "plays": 0
   },
   {
-   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
-   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 15,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
    "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
    "section": "wire",
@@ -391,6 +381,16 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 21,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
+   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 14,
    "reads": 4,
    "plays": 0
   },
@@ -537,16 +537,6 @@
    "plays": 0
   },
   {
-   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
-   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 15,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
    "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
    "section": "wire",
@@ -563,6 +553,16 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 21,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
+   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 14,
    "reads": 4,
    "plays": 0
   },
@@ -799,8 +799,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 72,
-   "sessions": 41
+   "hits": 68,
+   "sessions": 39
   },
   {
    "ref": "https://duckduckgo.com/",
