@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-02T20:51:40.254Z",
+ "generated": "2026-11-02T21:02:00.623Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 17,
   "avgTimeSec": 113,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 10541,
+  "views": 10542,
   "reads": 217,
   "completes": 9,
   "plays": 4,
-  "sessions": 10460
+  "sessions": 10461
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6516,
+   "views": 6517,
    "reads": 125,
-   "sessions": 6519
+   "sessions": 6520
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6516,
+   "views": 6517,
    "reads": 125,
    "completes": 7,
-   "sessions": 6518,
+   "sessions": 6519,
    "read_rate": 0.019,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10044,
+   "views": 10045,
    "reads": 194,
-   "sessions": 9970
+   "sessions": 9971
   },
   {
    "device": "mobile",
@@ -649,6 +649,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
+   "title": "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 21,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "gpu-rental-price-october-2026",
    "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
    "section": "stack",
@@ -666,16 +676,6 @@
    "author": "dex",
    "views": 20,
    "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
-   "title": "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 20,
-   "reads": 1,
    "plays": 0
   }
  ],
