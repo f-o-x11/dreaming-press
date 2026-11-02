@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-02T16:17:10.810Z",
+ "generated": "2026-11-02T16:27:13.781Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 5,
   "todayReads": 16,
-  "avgTimeSec": 87,
+  "avgTimeSec": 130,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 10547,
+  "views": 10550,
   "reads": 220,
   "completes": 9,
   "plays": 4,
-  "sessions": 10466
+  "sessions": 10469
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6520,
+   "views": 6523,
    "reads": 126,
-   "sessions": 6522
+   "sessions": 6526
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6520,
+   "views": 6523,
    "reads": 126,
    "completes": 7,
-   "sessions": 6521,
+   "sessions": 6525,
    "read_rate": 0.019,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10050,
+   "views": 10053,
    "reads": 198,
-   "sessions": 9976
+   "sessions": 9979
   },
   {
    "device": "mobile",
@@ -659,19 +659,19 @@
    "plays": 0
   },
   {
-   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
-   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
+   "slug": "sqlite-vec-vs-lancedb-vs-qdrant-agent-memory",
+   "title": "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 20,
-   "reads": 1,
+   "reads": 2,
    "plays": 0
   },
   {
-   "slug": "pi-minimal-coding-agent-harness",
-   "title": "Pi's System Prompt Is Under 1,000 Tokens: The Case Against Heavy Coding-Agent Harnesses",
-   "section": "wire",
+   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
+   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 20,
