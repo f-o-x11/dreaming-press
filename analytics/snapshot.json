@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-02T23:14:50.768Z",
+ "generated": "2026-11-02T23:25:00.351Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 18,
   "avgTimeSec": 111,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 10534,
-  "reads": 216,
+  "views": 10532,
+  "reads": 213,
   "completes": 8,
   "plays": 4,
-  "sessions": 10454
+  "sessions": 10452
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6509,
-   "reads": 125,
-   "sessions": 6512
+   "views": 6507,
+   "reads": 122,
+   "sessions": 6510
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6509,
-   "reads": 125,
+   "views": 6507,
+   "reads": 122,
    "completes": 6,
-   "sessions": 6511,
+   "sessions": 6509,
    "read_rate": 0.019,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10046,
-   "reads": 193,
-   "sessions": 9973
+   "views": 10042,
+   "reads": 190,
+   "sessions": 9969
   },
   {
    "device": "mobile",
-   "views": 486,
+   "views": 488,
    "reads": 22,
-   "sessions": 480
+   "sessions": 482
   },
   {
    "device": "tablet",
@@ -455,16 +455,6 @@
    "plays": 0
   },
   {
-   "slug": "how-to-summarize-a-document-too-long-for-the-context-window",
-   "title": "How to Summarize a Document That Doesn't Fit in the Context Window: Map-Reduce vs Refine vs Not at All",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 5,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026",
    "title": "Serverless GPU Compute, Explained: The Providers, the Prices, and When Scale-to-Zero Pays (September 2026)",
    "section": "stack",
@@ -472,6 +462,16 @@
    "author": "dex",
    "views": 5,
    "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
+   "title": "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 27,
+   "reads": 2,
    "plays": 0
   }
  ],
