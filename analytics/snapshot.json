@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-02T08:18:09.822Z",
+ "generated": "2026-11-02T08:28:10.591Z",
  "windowDays": 14,
  "site": {
   "readersNow": 4,
-  "todayReads": 6,
+  "todayReads": 7,
   "avgTimeSec": 7,
   "postsThisWeek": 11
  },
  "funnel": {
   "views": 10533,
-  "reads": 225,
+  "reads": 226,
   "completes": 9,
   "plays": 4,
   "sessions": 10452
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 6500,
+   "views": 6499,
    "reads": 128,
-   "sessions": 6505
+   "sessions": 6504
   },
   {
    "channel": "organic",
-   "views": 169,
-   "reads": 66,
-   "sessions": 165
+   "views": 170,
+   "reads": 67,
+   "sessions": 166
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6500,
+   "views": 6499,
    "reads": 128,
    "completes": 7,
-   "sessions": 6504,
+   "sessions": 6503,
    "read_rate": 0.02,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "organic",
-   "views": 169,
-   "reads": 66,
+   "views": 170,
+   "reads": 67,
    "completes": 2,
-   "sessions": 165,
-   "read_rate": 0.391,
+   "sessions": 166,
+   "read_rate": 0.394,
    "complete_rate": 0.012,
    "pages_per_session": 1.02,
    "median_dwell_sec": 3
@@ -307,7 +307,7 @@
   {
    "device": "desktop",
    "views": 10042,
-   "reads": 203,
+   "reads": 204,
    "sessions": 9968
   },
   {
@@ -669,22 +669,22 @@
    "plays": 0
   },
   {
-   "slug": "agno-vs-langgraph-vs-crewai",
-   "title": "Agno vs LangGraph vs CrewAI: Choosing an Agent Framework in 2026",
-   "section": "stack",
+   "slug": "pi-minimal-coding-agent-harness",
+   "title": "Pi's System Prompt Is Under 1,000 Tokens: The Case Against Heavy Coding-Agent Harnesses",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 20,
-   "reads": 0,
+   "reads": 1,
    "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 828,
+   "views": 827,
    "reads": 0,
-   "sessions": 828,
+   "sessions": 827,
    "avg_dwell_sec": 7
   },
   {
@@ -804,8 +804,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 61,
-   "sessions": 35
+   "hits": 63,
+   "sessions": 36
   },
   {
    "ref": "https://cn.bing.com/",
