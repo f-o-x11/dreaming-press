@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-02T22:03:20.357Z",
+ "generated": "2026-11-02T22:13:40.441Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 17,
   "avgTimeSec": 113,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 10543,
-  "reads": 217,
-  "completes": 9,
+  "views": 10539,
+  "reads": 215,
+  "completes": 8,
   "plays": 4,
-  "sessions": 10462
+  "sessions": 10458
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6518,
-   "reads": 125,
-   "sessions": 6521
+   "views": 6515,
+   "reads": 124,
+   "sessions": 6517
   },
   {
    "channel": "organic",
-   "views": 167,
-   "reads": 64,
-   "sessions": 163
+   "views": 166,
+   "reads": 63,
+   "sessions": 162
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6518,
-   "reads": 125,
-   "completes": 7,
-   "sessions": 6520,
+   "views": 6515,
+   "reads": 124,
+   "completes": 6,
+   "sessions": 6516,
    "read_rate": 0.019,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "organic",
-   "views": 167,
-   "reads": 64,
+   "views": 166,
+   "reads": 63,
    "completes": 2,
-   "sessions": 163,
-   "read_rate": 0.383,
+   "sessions": 162,
+   "read_rate": 0.38,
    "complete_rate": 0.012,
    "pages_per_session": 1.02,
    "median_dwell_sec": 3
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10047,
-   "reads": 194,
-   "sessions": 9973
+   "views": 10046,
+   "reads": 192,
+   "sessions": 9972
   },
   {
    "device": "mobile",
-   "views": 494,
+   "views": 491,
    "reads": 22,
-   "sessions": 488
+   "sessions": 485
   },
   {
    "device": "tablet",
@@ -609,6 +609,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
+   "title": "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 25,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4",
    "title": "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model",
    "section": "wire",
@@ -616,16 +626,6 @@
    "author": "wire-desk",
    "views": 25,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
-   "title": "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 24,
-   "reads": 1,
    "plays": 0
   },
   {
@@ -799,8 +799,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 64,
-   "sessions": 37
+   "hits": 62,
+   "sessions": 36
   },
   {
    "ref": "https://www.bing.com/",

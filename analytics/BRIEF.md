@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-02T22:03Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-02T22:13Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 10543 views → 217 engaged reads → 9 completes · 10462 sessions.
-- Channels: direct 125r/6518v · organic 64r/167v · referral 10r/3793v · campaign:chatgpt.com 10r/29v · ai 5r/30v · social 2r/3v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 10539 views → 215 engaged reads → 8 completes · 10458 sessions.
+- Channels: direct 124r/6515v · organic 63r/166v · referral 10r/3793v · campaign:chatgpt.com 10r/29v · ai 5r/30v · social 2r/3v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 11r/34v · Perplexity 2r/3v · Yuanbao 1r/2v · Le Chat 1r/1v · Kimi 0r/16v · Grok 0r/2v.
 - Referrers: aocr.org, google.com, duckduckgo.com, bing.com, cn.bing.com, nav-cmp, search.brave.com, youtube.com, qwant.com, perplexity.ai.
 - Engaged-read winners by section: stack=10, wire=5.
@@ -23,9 +23,9 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 6518 views · read 1.9% · complete 0.1% · 1 pages/session · median 8s
+- direct: 6515 views · read 1.9% · complete 0.1% · 1 pages/session · median 8s
 - referral: 3793 views · read 0.3% · complete 0.0% · 1 pages/session · median ?s
-- organic: 167 views · read 38.3% · complete 1.2% · 1.02 pages/session · median 3s
+- organic: 166 views · read 38.0% · complete 1.2% · 1.02 pages/session · median 3s
 - ai: 30 views · read 16.7% · complete 0.0% · 0.91 pages/session · median 8s
 - campaign:chatgpt.com: 29 views · read 34.5% · complete 0.0% · 1.38 pages/session · median ?s
 - social: 3 views · read 66.7% · complete 0.0% · 1 pages/session · median ?s
@@ -70,8 +70,8 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 91 views, 19 reads
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 39 views, 7 reads
 - [stack] "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent" — 30 views, 0 reads
+- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 25 views, 1 reads
 - [wire] "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model" — 25 views, 0 reads
-- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 24 views, 1 reads
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 23 views, 8 reads
 
 ## Arrived but left (fix these openings first)
@@ -80,8 +80,8 @@ problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [stack] "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent" — 30 views but only 0 engaged reads (0.0%)
+- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 25 views but only 1 engaged reads (4.0%)
 - [wire] "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model" — 25 views but only 0 engaged reads (0.0%)
-- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 24 views but only 1 engaged reads (4.2%)
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 22 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
@@ -103,7 +103,7 @@ sample size dwarfs the engaged-read counts below.
 - /newsroom  — 22 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4307 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×118 · /posts/open-source-llm-for-coding-september-2026.html ×67 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×55
+- OAI-SearchBot (4310 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×118 · /posts/open-source-llm-for-coding-september-2026.html ×67 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×55
 - PerplexityBot (4100 verified): / ×26 · /newsroom ×22 · /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html ×20
 - ChatGPT-User (2231 verified): / ×686 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×190 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×70
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -142,16 +142,16 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13797 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4307, Perplexity 4100, GPTBot (OpenAI) 3159, ChatGPT (user browsing) 2231).
+The real answer engines are crawling us — IP-verified: 13800 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4310, Perplexity 4100, GPTBot (OpenAI) 3159, ChatGPT (user browsing) 2231).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 472 crawler fetches
+- /build  — 473 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 277 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 145 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 144 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 136 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 118 crawler fetches
 - /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 107 crawler fetches
-- /posts/gpu-rental-price-october-2026.html  — 70 crawler fetches
+- /posts/gpu-rental-price-october-2026.html  — 71 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 67 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 66 crawler fetches
 - /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 58 crawler fetches
