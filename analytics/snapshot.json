@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T10:00:50.489Z",
+ "generated": "2026-11-02T10:11:00.569Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,24 +8,24 @@
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 10541,
-  "reads": 221,
+  "views": 10538,
+  "reads": 219,
   "completes": 9,
   "plays": 4,
-  "sessions": 10460
+  "sessions": 10457
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6511,
-   "reads": 126,
-   "sessions": 6514
+   "views": 6509,
+   "reads": 125,
+   "sessions": 6512
   },
   {
    "channel": "organic",
-   "views": 167,
-   "reads": 64,
-   "sessions": 163
+   "views": 166,
+   "reads": 63,
+   "sessions": 162
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6511,
-   "reads": 126,
+   "views": 6509,
+   "reads": 125,
    "completes": 7,
-   "sessions": 6513,
+   "sessions": 6511,
    "read_rate": 0.019,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "organic",
-   "views": 167,
-   "reads": 64,
+   "views": 166,
+   "reads": 63,
    "completes": 2,
-   "sessions": 163,
-   "read_rate": 0.383,
+   "sessions": 162,
+   "read_rate": 0.38,
    "complete_rate": 0.012,
    "pages_per_session": 1.02,
    "median_dwell_sec": 3
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10051,
-   "reads": 200,
-   "sessions": 9977
+   "views": 10048,
+   "reads": 198,
+   "sessions": 9974
   },
   {
    "device": "mobile",
@@ -340,8 +340,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 24,
-   "reads": 9,
+   "views": 23,
+   "reads": 8,
    "plays": 0
   },
   {
@@ -435,16 +435,6 @@
    "plays": 0
   },
   {
-   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
-   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 13,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "how-to-combine-context-editing-compaction-memory-subagents-agent-sdk",
    "title": "How to Combine Context Editing, Compaction, Memory, and Subagents in One Claude Agent SDK Loop",
    "section": "stack",
@@ -471,6 +461,16 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 9,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
+   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 8,
    "reads": 3,
    "plays": 0
   }
@@ -522,8 +522,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 24,
-   "reads": 9,
+   "views": 23,
+   "reads": 8,
    "plays": 0
   },
   {
@@ -624,8 +624,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 24,
-   "reads": 9,
+   "views": 23,
+   "reads": 8,
    "plays": 0
   },
   {
@@ -799,8 +799,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 66,
-   "sessions": 38
+   "hits": 64,
+   "sessions": 37
   },
   {
    "ref": "https://duckduckgo.com/",
