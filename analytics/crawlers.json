@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-02T16:57:50.507Z",
+ "generated": "2026-11-02T17:07:50.932Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13667,
+ "verifiedAiHits": 13670,
  "logsScanned": 30,
  "windowStart": "2026-10-19",
  "windowEnd": "2026-11-02",
- "totalHits": 101641,
- "aiHits": 78335,
+ "totalHits": 101680,
+ "aiHits": 78362,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29814,
+   "hits": 29818,
    "verifiedHits": 0,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14641,
+   "hits": 14649,
    "verifiedHits": 0,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
@@ -70,7 +70,7 @@
     },
     {
      "path": "/stack.html",
-     "hits": 17
+     "hits": 18
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13666,
+   "hits": 13678,
    "verifiedHits": 0,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
@@ -98,11 +98,11 @@
      "hits": 7
     },
     {
-     "path": "/posts/filesystem-vs-vector-database-agent-memory.html",
+     "path": "/posts/claude-cowork-vs-chatgpt-work-which-agent-does-your-work-2026.html",
      "hits": 6
     },
     {
-     "path": "/build",
+     "path": "/posts/filesystem-vs-vector-database-agent-memory.html",
      "hits": 6
     }
    ],
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9234,
+   "hits": 9240,
    "verifiedHits": 0,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
@@ -146,14 +146,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7055,
-   "verifiedHits": 6998,
+   "hits": 7059,
+   "verifiedHits": 7002,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 133
+     "hits": 135
     },
     {
      "path": "/build",
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4293,
-   "verifiedHits": 4245,
+   "hits": 4296,
+   "verifiedHits": 4248,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1432,
+   "hits": 1434,
    "verifiedHits": 0,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
