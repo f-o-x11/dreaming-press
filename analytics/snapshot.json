@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-02T15:46:40.325Z",
+ "generated": "2026-11-02T15:56:56.732Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 15,
   "avgTimeSec": 87,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 10551,
+  "views": 10546,
   "reads": 220,
   "completes": 9,
   "plays": 4,
-  "sessions": 10468
+  "sessions": 10465
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6525,
+   "views": 6520,
    "reads": 127,
-   "sessions": 6525
+   "sessions": 6522
   },
   {
    "channel": "organic",
@@ -73,16 +73,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 18
+   "sessions": 17
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6525,
+   "views": 6520,
    "reads": 127,
    "completes": 7,
-   "sessions": 6524,
+   "sessions": 6521,
    "read_rate": 0.019,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -181,7 +181,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 18,
+   "sessions": 17,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -198,11 +198,6 @@
    "surface": "brand",
    "clicks": 4,
    "sessions": 4
-  },
-  {
-   "surface": "f-cols",
-   "clicks": 2,
-   "sessions": 1
   },
   {
    "surface": "dg-title",
@@ -263,6 +258,11 @@
    "surface": "author-card",
    "clicks": 1,
    "sessions": 1
+  },
+  {
+   "surface": "article-byline",
+   "clicks": 1,
+   "sessions": 1
   }
  ],
  "assistants": [
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10055,
+   "views": 10050,
    "reads": 199,
-   "sessions": 9979
+   "sessions": 9976
   },
   {
    "device": "mobile",
@@ -703,9 +703,9 @@
   },
   {
    "path": "/",
-   "views": 112,
+   "views": 111,
    "reads": 4,
-   "sessions": 115,
+   "sessions": 114,
    "avg_dwell_sec": 19
   },
   {
@@ -773,10 +773,10 @@
   },
   {
    "path": "/about.html",
-   "views": 16,
+   "views": 15,
    "reads": 0,
-   "sessions": 10,
-   "avg_dwell_sec": 15
+   "sessions": 9,
+   "avg_dwell_sec": 17
   },
   {
    "path": "/authors/priya",
