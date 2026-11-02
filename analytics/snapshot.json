@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-02T05:15:06.536Z",
+ "generated": "2026-11-02T05:25:09.642Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 2,
+  "readersNow": 7,
+  "todayReads": 3,
   "avgTimeSec": 0,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 10546,
-  "reads": 228,
+  "views": 10540,
+  "reads": 229,
   "completes": 9,
   "plays": 4,
-  "sessions": 10464
+  "sessions": 10458
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6511,
+   "views": 6504,
    "reads": 131,
-   "sessions": 6518
+   "sessions": 6511
   },
   {
    "channel": "organic",
-   "views": 170,
-   "reads": 66,
-   "sessions": 166
+   "views": 171,
+   "reads": 67,
+   "sessions": 167
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6511,
+   "views": 6504,
    "reads": 131,
    "completes": 7,
-   "sessions": 6517,
+   "sessions": 6510,
    "read_rate": 0.02,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "organic",
-   "views": 170,
-   "reads": 66,
+   "views": 171,
+   "reads": 67,
    "completes": 2,
-   "sessions": 166,
-   "read_rate": 0.388,
+   "sessions": 167,
+   "read_rate": 0.392,
    "complete_rate": 0.012,
    "pages_per_session": 1.02,
    "median_dwell_sec": 3
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10055,
-   "reads": 206,
-   "sessions": 9980
+   "views": 10049,
+   "reads": 207,
+   "sessions": 9974
   },
   {
    "device": "mobile",
@@ -365,6 +365,16 @@
    "plays": 0
   },
   {
+   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
+   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 15,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
    "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
    "section": "wire",
@@ -372,16 +382,6 @@
    "author": "dex",
    "views": 7,
    "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
-   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 14,
-   "reads": 4,
    "plays": 0
   },
   {
@@ -410,7 +410,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 21,
+   "views": 20,
    "reads": 3,
    "plays": 0
   },
@@ -537,6 +537,16 @@
    "plays": 0
   },
   {
+   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
+   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 15,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
    "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
    "section": "wire",
@@ -544,16 +554,6 @@
    "author": "dex",
    "views": 7,
    "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
-   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 14,
-   "reads": 4,
    "plays": 0
   },
   {
@@ -639,16 +639,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "verl-vs-openrlhf-vs-trl",
    "title": "verl vs OpenRLHF vs TRL: Choosing an RL Post-Training Framework in 2026",
    "section": "stack",
@@ -656,6 +646,16 @@
    "author": "dex",
    "views": 21,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -682,9 +682,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 828,
+   "views": 827,
    "reads": 0,
-   "sessions": 828,
+   "sessions": 827,
    "avg_dwell_sec": 7
   },
   {
@@ -703,10 +703,10 @@
   },
   {
    "path": "/",
-   "views": 114,
+   "views": 112,
    "reads": 3,
-   "sessions": 117,
-   "avg_dwell_sec": 16
+   "sessions": 115,
+   "avg_dwell_sec": 17
   },
   {
    "path": "/best/:cat",
@@ -809,8 +809,8 @@
   },
   {
    "ref": "https://cn.bing.com/",
-   "hits": 16,
-   "sessions": 8
+   "hits": 18,
+   "sessions": 9
   },
   {
    "ref": "nav-cmp",
