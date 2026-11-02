@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-02T15:56:56.732Z",
+ "generated": "2026-11-02T16:07:00.521Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 15,
+  "readersNow": 3,
+  "todayReads": 16,
   "avgTimeSec": 87,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 10546,
-  "reads": 220,
+  "views": 10547,
+  "reads": 221,
   "completes": 9,
   "plays": 4,
-  "sessions": 10465
+  "sessions": 10466
  },
  "channels": [
   {
@@ -23,9 +23,9 @@
   },
   {
    "channel": "organic",
-   "views": 167,
-   "reads": 64,
-   "sessions": 163
+   "views": 168,
+   "reads": 65,
+   "sessions": 164
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -101,11 +101,11 @@
   },
   {
    "channel": "organic",
-   "views": 167,
-   "reads": 64,
+   "views": 168,
+   "reads": 65,
    "completes": 2,
-   "sessions": 163,
-   "read_rate": 0.383,
+   "sessions": 164,
+   "read_rate": 0.387,
    "complete_rate": 0.012,
    "pages_per_session": 1.02,
    "median_dwell_sec": 3
@@ -312,9 +312,9 @@
   },
   {
    "device": "mobile",
-   "views": 494,
-   "reads": 20,
-   "sessions": 488
+   "views": 495,
+   "reads": 21,
+   "sessions": 489
   },
   {
    "device": "tablet",
@@ -818,6 +818,11 @@
    "sessions": 5
   },
   {
+   "ref": "https://search.brave.com/",
+   "hits": 7,
+   "sessions": 4
+  },
+  {
    "ref": "https://www.youtube.com/",
    "hits": 6,
    "sessions": 4
@@ -829,11 +834,6 @@
   },
   {
    "ref": "https://www.perplexity.ai/",
-   "hits": 5,
-   "sessions": 3
-  },
-  {
-   "ref": "https://search.brave.com/",
    "hits": 5,
    "sessions": 3
   }
