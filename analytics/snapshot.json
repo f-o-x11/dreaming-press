@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-02T10:41:40.323Z",
+ "generated": "2026-11-02T10:52:00.273Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 5,
   "todayReads": 10,
   "avgTimeSec": 137,
   "postsThisWeek": 11
  },
  "funnel": {
   "views": 10544,
-  "reads": 219,
+  "reads": 218,
   "completes": 9,
   "plays": 4,
   "sessions": 10461
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 6515,
+   "views": 6516,
    "reads": 125,
-   "sessions": 6516
+   "sessions": 6517
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 33,
-   "reads": 13,
-   "sessions": 24
+   "views": 32,
+   "reads": 12,
+   "sessions": 23
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6515,
+   "views": 6516,
    "reads": 125,
    "completes": 7,
-   "sessions": 6515,
+   "sessions": 6516,
    "read_rate": 0.019,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -112,13 +112,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 33,
-   "reads": 13,
+   "views": 32,
+   "reads": 12,
    "completes": 0,
-   "sessions": 24,
-   "read_rate": 0.394,
+   "sessions": 23,
+   "read_rate": 0.375,
    "complete_rate": 0,
-   "pages_per_session": 1.38,
+   "pages_per_session": 1.39,
    "median_dwell_sec": null
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 38,
-   "reads": 14,
-   "sessions": 23
+   "views": 37,
+   "reads": 13,
+   "sessions": 22
   },
   {
    "assistant": "Perplexity",
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10054,
-   "reads": 198,
-   "sessions": 9978
+   "views": 10052,
+   "reads": 197,
+   "sessions": 9976
   },
   {
    "device": "mobile",
-   "views": 488,
+   "views": 490,
    "reads": 20,
-   "sessions": 482
+   "sessions": 484
   },
   {
    "device": "tablet",
@@ -669,10 +669,10 @@
    "plays": 0
   },
   {
-   "slug": "pi-minimal-coding-agent-harness",
-   "title": "Pi's System Prompt Is Under 1,000 Tokens: The Case Against Heavy Coding-Agent Harnesses",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
+   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
+   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 20,
    "reads": 1,
