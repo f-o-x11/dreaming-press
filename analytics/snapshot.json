@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-02T08:38:20.496Z",
+ "generated": "2026-11-02T08:48:40.134Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 6,
   "todayReads": 7,
   "avgTimeSec": 7,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 10535,
-  "reads": 226,
+  "views": 10538,
+  "reads": 225,
   "completes": 9,
   "plays": 4,
-  "sessions": 10454
+  "sessions": 10457
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6501,
-   "reads": 128,
-   "sessions": 6506
+   "views": 6504,
+   "reads": 127,
+   "sessions": 6509
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6501,
-   "reads": 128,
+   "views": 6504,
+   "reads": 127,
    "completes": 7,
-   "sessions": 6505,
+   "sessions": 6508,
    "read_rate": 0.02,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10044,
-   "reads": 204,
-   "sessions": 9970
+   "views": 10047,
+   "reads": 203,
+   "sessions": 9973
   },
   {
    "device": "mobile",
@@ -445,16 +445,6 @@
    "plays": 0
   },
   {
-   "slug": "how-to-combine-context-editing-compaction-memory-subagents-agent-sdk",
-   "title": "How to Combine Context Editing, Compaction, Memory, and Subagents in One Claude Agent SDK Loop",
-   "section": "stack",
-   "tags": "[\"tutorial\",\"howto\",\"context-management\",\"agent-sdk\",\"ai-agents\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "coding-agent-edit-formats-diff-vs-whole-file",
    "title": "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace",
    "section": "wire",
@@ -471,6 +461,16 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 9,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
+   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 8,
    "reads": 3,
    "plays": 0
   }
@@ -682,9 +682,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 827,
+   "views": 828,
    "reads": 0,
-   "sessions": 827,
+   "sessions": 828,
    "avg_dwell_sec": 7
   },
   {
