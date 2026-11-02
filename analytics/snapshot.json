@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T11:22:20.463Z",
+ "generated": "2026-11-02T11:32:30.451Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 10544,
+  "views": 10545,
   "reads": 218,
   "completes": 9,
   "plays": 4,
-  "sessions": 10461
+  "sessions": 10462
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6516,
+   "views": 6517,
    "reads": 125,
-   "sessions": 6517
+   "sessions": 6518
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6516,
+   "views": 6517,
    "reads": 125,
    "completes": 7,
-   "sessions": 6516,
+   "sessions": 6517,
    "read_rate": 0.019,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -312,9 +312,9 @@
   },
   {
    "device": "mobile",
-   "views": 490,
+   "views": 491,
    "reads": 20,
-   "sessions": 484
+   "sessions": 485
   },
   {
    "device": "tablet",
@@ -410,7 +410,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 19,
+   "views": 20,
    "reads": 3,
    "plays": 0
   },
@@ -659,20 +659,20 @@
    "plays": 0
   },
   {
+   "slug": "gpu-rental-price-october-2026",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
    "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "open-weight-llms-you-actually-run-locally-october-2026",
-   "title": "The Open-Weight LLMs People Actually Run Locally (October 2026): Pick by Your GPU, Not the Leaderboard",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 20,
    "reads": 1,
