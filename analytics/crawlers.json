@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-02T15:05:50.269Z",
+ "generated": "2026-11-02T15:16:00.179Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13634,
+ "verifiedAiHits": 13637,
  "logsScanned": 30,
  "windowStart": "2026-10-19",
  "windowEnd": "2026-11-02",
- "totalHits": 101017,
- "aiHits": 77845,
+ "totalHits": 101078,
+ "aiHits": 77891,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29583,
+   "hits": 29592,
    "verifiedHits": 0,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
@@ -24,12 +24,12 @@
      "hits": 44
     },
     {
-     "path": "/build",
+     "path": "/dashboard",
      "hits": 25
     },
     {
-     "path": "/dashboard",
-     "hits": 24
+     "path": "/build",
+     "hits": 25
     },
     {
      "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14560,
+   "hits": 14568,
    "verifiedHits": 0,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
@@ -66,7 +66,7 @@
     },
     {
      "path": "/tags/opinionated",
-     "hits": 28
+     "hits": 29
     },
     {
      "path": "/stack.html",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13547,
+   "hits": 13573,
    "verifiedHits": 0,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9179,
+   "hits": 9186,
    "verifiedHits": 0,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
@@ -179,7 +179,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4802,
+   "hits": 4810,
    "verifiedHits": 0,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4136,
-   "verifiedHits": 4039,
+   "hits": 4139,
+   "verifiedHits": 4042,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
    "topPaths": [
