@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-02T02:52Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-02T03:02Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 10562 views → 229 engaged reads → 9 completes · 10481 sessions.
-- Channels: direct 132r/6527v · organic 66r/170v · campaign:chatgpt.com 13r/34v · referral 11r/3795v · ai 4r/30v · social 2r/3v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 10559 views → 228 engaged reads → 9 completes · 10478 sessions.
+- Channels: direct 131r/6524v · organic 66r/170v · campaign:chatgpt.com 13r/34v · referral 11r/3795v · ai 4r/30v · social 2r/3v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 14r/39v · Yuanbao 1r/2v · Perplexity 1r/2v · Le Chat 1r/1v · Kimi 0r/17v · Grok 0r/2v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, cn.bing.com, nav-cmp, youtube.com, qwant.com, search.brave.com, brand.
 - Engaged-read winners by section: stack=11, wire=4.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 6527 views · read 2.0% · complete 0.1% · 1 pages/session · median 8s
+- direct: 6524 views · read 2.0% · complete 0.1% · 1 pages/session · median 8s
 - referral: 3795 views · read 0.3% · complete 0.0% · 1 pages/session · median ?s
 - organic: 170 views · read 38.8% · complete 1.2% · 1.02 pages/session · median 3s
 - campaign:chatgpt.com: 34 views · read 38.2% · complete 0.0% · 1.36 pages/session · median ?s
@@ -70,8 +70,8 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 103 views, 24 reads
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 42 views, 8 reads
 - [stack] "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent" — 29 views, 0 reads
+- [wire] "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model" — 25 views, 0 reads
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 24 views, 9 reads
-- [wire] "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model" — 24 views, 0 reads
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 23 views, 3 reads
 
 ## Arrived but left (fix these openings first)
@@ -80,7 +80,7 @@ problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [stack] "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent" — 29 views but only 0 engaged reads (0.0%)
-- [wire] "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model" — 24 views but only 0 engaged reads (0.0%)
+- [wire] "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model" — 25 views but only 0 engaged reads (0.0%)
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 22 views but only 0 engaged reads (0.0%)
 - [stack] "verl vs OpenRLHF vs TRL: Choosing an RL Post-Training Framework in 2026" — 21 views but only 1 engaged reads (4.8%)
 - [stack] "Agno vs LangGraph vs CrewAI: Choosing an Agent Framework in 2026" — 20 views but only 0 engaged reads (0.0%)

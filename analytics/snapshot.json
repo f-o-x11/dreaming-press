@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-02T02:52:20.262Z",
+ "generated": "2026-11-02T03:02:20.624Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
@@ -8,18 +8,18 @@
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 10562,
-  "reads": 229,
+  "views": 10559,
+  "reads": 228,
   "completes": 9,
   "plays": 4,
-  "sessions": 10481
+  "sessions": 10478
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6527,
-   "reads": 132,
-   "sessions": 6535
+   "views": 6524,
+   "reads": 131,
+   "sessions": 6532
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6527,
-   "reads": 132,
+   "views": 6524,
+   "reads": 131,
    "completes": 7,
-   "sessions": 6534,
+   "sessions": 6531,
    "read_rate": 0.02,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10062,
-   "reads": 207,
-   "sessions": 9988
+   "views": 10061,
+   "reads": 206,
+   "sessions": 9987
   },
   {
    "device": "mobile",
-   "views": 498,
+   "views": 496,
    "reads": 21,
-   "sessions": 492
+   "sessions": 490
   },
   {
    "device": "tablet",
@@ -609,6 +609,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4",
+   "title": "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 25,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "mcp-tool-annotations-explained",
    "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
    "section": "wire",
@@ -616,16 +626,6 @@
    "author": "dex",
    "views": 24,
    "reads": 9,
-   "plays": 0
-  },
-  {
-   "slug": "2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4",
-   "title": "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 24,
-   "reads": 0,
    "plays": 0
   },
   {
@@ -649,22 +649,22 @@
    "plays": 0
   },
   {
-   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
-   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "verl-vs-openrlhf-vs-trl",
    "title": "verl vs OpenRLHF vs TRL: Choosing an RL Post-Training Framework in 2026",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 21,
+   "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
+   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 20,
    "reads": 1,
    "plays": 0
   },
