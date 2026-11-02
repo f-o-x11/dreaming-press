@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-02T12:09:26.874Z",
+ "generated": "2026-11-02T12:12:56.859Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 3,
   "todayReads": 11,
   "avgTimeSec": 137,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 10541,
+  "views": 10540,
   "reads": 219,
   "completes": 9,
   "plays": 4,
-  "sessions": 10459
+  "sessions": 10458
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6513,
+   "views": 6512,
    "reads": 126,
-   "sessions": 6515
+   "sessions": 6514
   },
   {
    "channel": "organic",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6513,
+   "views": 6512,
    "reads": 126,
    "completes": 7,
-   "sessions": 6514,
+   "sessions": 6513,
    "read_rate": 0.019,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10046,
+   "views": 10045,
    "reads": 198,
-   "sessions": 9971
+   "sessions": 9970
   },
   {
    "device": "mobile",
@@ -649,16 +649,6 @@
    "plays": 0
   },
   {
-   "slug": "verl-vs-openrlhf-vs-trl",
-   "title": "verl vs OpenRLHF vs TRL: Choosing an RL Post-Training Framework in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "gpu-rental-price-october-2026",
    "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
    "section": "stack",
@@ -672,6 +662,16 @@
    "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
    "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
    "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "pi-minimal-coding-agent-harness",
+   "title": "Pi's System Prompt Is Under 1,000 Tokens: The Case Against Heavy Coding-Agent Harnesses",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 20,
