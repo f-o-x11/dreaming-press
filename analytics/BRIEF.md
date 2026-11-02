@@ -1,12 +1,12 @@
-# Analytics brief — auto-exported 2026-11-02T18:19Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-02T18:29Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 10546 views → 219 engaged reads → 9 completes · 10465 sessions.
-- Channels: direct 126r/6521v · organic 65r/167v · referral 10r/3793v · campaign:chatgpt.com 10r/29v · ai 5r/30v · social 2r/3v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 10549 views → 219 engaged reads → 9 completes · 10467 sessions.
+- Channels: direct 126r/6523v · organic 65r/168v · referral 10r/3793v · campaign:chatgpt.com 10r/29v · ai 5r/30v · social 2r/3v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 11r/34v · Perplexity 2r/3v · Yuanbao 1r/2v · Le Chat 1r/1v · Kimi 0r/16v · Grok 0r/2v.
-- Referrers: aocr.org, google.com, bing.com, duckduckgo.com, cn.bing.com, nav-cmp, search.brave.com, youtube.com, qwant.com, perplexity.ai.
+- Referrers: aocr.org, google.com, duckduckgo.com, bing.com, cn.bing.com, nav-cmp, search.brave.com, youtube.com, qwant.com, perplexity.ai.
 - Engaged-read winners by section: stack=10, wire=5.
 
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
@@ -16,16 +16,16 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - article-body: 2 clicks from 2 sessions
 - tr-row: 1 clicks from 1 sessions
 - tl-row: 1 clicks from 1 sessions
+- nr-head: 1 clicks from 1 sessions
 - nav-drawer-agents: 1 clicks from 1 sessions
-- live: 1 clicks from 1 sessions
 ACTION: a surface earning clicks deserves more prominence and more entries; one on
 every page earning none is decoration — cut it or move it, do not duplicate it.
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 6521 views · read 1.9% · complete 0.1% · 1 pages/session · median 8s
+- direct: 6523 views · read 1.9% · complete 0.1% · 1 pages/session · median 8s
 - referral: 3793 views · read 0.3% · complete 0.0% · 1 pages/session · median ?s
-- organic: 167 views · read 38.9% · complete 1.2% · 1.02 pages/session · median 3s
+- organic: 168 views · read 38.7% · complete 1.2% · 1.02 pages/session · median 3s
 - ai: 30 views · read 16.7% · complete 0.0% · 0.91 pages/session · median 8s
 - campaign:chatgpt.com: 29 views · read 34.5% · complete 0.0% · 1.38 pages/session · median ?s
 - social: 3 views · read 66.7% · complete 0.0% · 1 pages/session · median ?s
@@ -55,13 +55,13 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 828 views, 0 reads, 828 sessions, avg 7s
+- /stack/:tool — 830 views, 0 reads, 830 sessions, avg 10s
 - /compare/:pair — 406 views, 2 reads, 406 sessions, avg 47s
 - /build — 166 views, 0 reads, 166 sessions
 - / — 111 views, 4 reads, 114 sessions, avg 19s
 - /best/:cat — 63 views, 0 reads, 63 sessions, avg 5s
 - /tags/reportive — 61 views, 0 reads, 61 sessions
-- /alternatives/:tool — 54 views, 0 reads, 54 sessions, avg 4s
+- /alternatives/:tool — 55 views, 0 reads, 55 sessions, avg 5s
 - /tags/opinionated — 52 views, 0 reads, 52 sessions
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
