@@ -1,58 +1,58 @@
 {
- "generated": "2026-10-31T11:40:23.031Z",
+ "generated": "2026-11-02T12:01:48.903Z",
  "window_days": 14,
- "log_window": "2026-10-17 → 2026-10-31",
+ "log_window": "2026-10-19 → 2026-11-02",
  "totals": {
-  "verified_fetches": 15533,
-  "retrieval_fetches": 11588,
-  "index_fetches": 3945,
-  "referred_sessions": 31,
-  "retrieval_fetches_per_session": 374,
-  "click_through_pct": 0.268
+  "verified_fetches": 13553,
+  "retrieval_fetches": 10396,
+  "index_fetches": 3157,
+  "referred_sessions": 25,
+  "retrieval_fetches_per_session": 416,
+  "click_through_pct": 0.24
  },
  "engines": [
   {
    "engine": "ChatGPT",
-   "verified_fetches": 11007,
-   "retrieval_fetches": 7062,
-   "index_fetches": 3945,
-   "referred_sessions": 29,
-   "referred_views": 45,
-   "referred_reads": 16,
-   "fetches_per_session": 244,
-   "click_through_pct": 0.411,
+   "verified_fetches": 9540,
+   "retrieval_fetches": 6383,
+   "index_fetches": 3157,
+   "referred_sessions": 22,
+   "referred_views": 37,
+   "referred_reads": 13,
+   "fetches_per_session": 290,
+   "click_through_pct": 0.345,
    "bots": [
     {
      "name": "OAI-SearchBot",
-     "verified": 4567,
+     "verified": 4188,
      "retrieval": true
     },
     {
      "name": "GPTBot",
-     "verified": 3945,
+     "verified": 3157,
      "retrieval": false
     },
     {
      "name": "ChatGPT-User",
-     "verified": 2495,
+     "verified": 2195,
      "retrieval": true
     }
    ]
   },
   {
    "engine": "Perplexity",
-   "verified_fetches": 4526,
-   "retrieval_fetches": 4526,
+   "verified_fetches": 4013,
+   "retrieval_fetches": 4013,
    "index_fetches": 0,
-   "referred_sessions": 2,
-   "referred_views": 2,
-   "referred_reads": 1,
-   "fetches_per_session": 2263,
-   "click_through_pct": 0.044,
+   "referred_sessions": 3,
+   "referred_views": 3,
+   "referred_reads": 2,
+   "fetches_per_session": 1338,
+   "click_through_pct": 0.075,
    "bots": [
     {
      "name": "PerplexityBot",
-     "verified": 4526,
+     "verified": 4013,
      "retrieval": true
     }
    ]
