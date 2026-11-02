@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-02T13:44:20.476Z",
+ "generated": "2026-11-02T13:54:40.693Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 2,
   "todayReads": 13,
   "avgTimeSec": 137,
   "postsThisWeek": 15
  },
  "funnel": {
   "views": 10554,
-  "reads": 220,
+  "reads": 219,
   "completes": 9,
   "plays": 4,
-  "sessions": 10472
+  "sessions": 10473
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6526,
+   "views": 6527,
    "reads": 126,
-   "sessions": 6528
+   "sessions": 6529
   },
   {
    "channel": "organic",
@@ -29,8 +29,8 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 31,
-   "reads": 12,
+   "views": 30,
+   "reads": 11,
    "sessions": 22
   },
   {
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6526,
+   "views": 6527,
    "reads": 126,
    "completes": 7,
-   "sessions": 6527,
+   "sessions": 6528,
    "read_rate": 0.019,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -111,17 +111,6 @@
    "median_dwell_sec": 3
   },
   {
-   "channel": "campaign:chatgpt.com",
-   "views": 31,
-   "reads": 12,
-   "completes": 0,
-   "sessions": 22,
-   "read_rate": 0.387,
-   "complete_rate": 0,
-   "pages_per_session": 1.41,
-   "median_dwell_sec": null
-  },
-  {
    "channel": "ai",
    "views": 31,
    "reads": 5,
@@ -131,6 +120,17 @@
    "complete_rate": 0,
    "pages_per_session": 0.91,
    "median_dwell_sec": 8
+  },
+  {
+   "channel": "campaign:chatgpt.com",
+   "views": 30,
+   "reads": 11,
+   "completes": 0,
+   "sessions": 22,
+   "read_rate": 0.367,
+   "complete_rate": 0,
+   "pages_per_session": 1.36,
+   "median_dwell_sec": null
   },
   {
    "channel": "social",
@@ -268,8 +268,8 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 36,
-   "reads": 13,
+   "views": 35,
+   "reads": 12,
    "sessions": 21
   },
   {
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10059,
-   "reads": 199,
-   "sessions": 9984
+   "views": 10057,
+   "reads": 198,
+   "sessions": 9983
   },
   {
    "device": "mobile",
-   "views": 493,
+   "views": 495,
    "reads": 20,
-   "sessions": 487
+   "sessions": 489
   },
   {
    "device": "tablet",
@@ -455,22 +455,22 @@
    "plays": 0
   },
   {
-   "slug": "how-to-turn-your-rest-api-into-an-mcp-server",
-   "title": "How to Turn Your Existing REST API Into an MCP Server (Without Rewriting It)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 9,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
    "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 8,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "how-to-summarize-a-document-too-long-for-the-context-window",
+   "title": "How to Summarize a Document That Doesn't Fit in the Context Window: Map-Reduce vs Refine vs Not at All",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 5,
    "reads": 3,
    "plays": 0
   }
