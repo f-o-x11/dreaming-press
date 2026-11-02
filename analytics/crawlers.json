@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-02T01:20:39.890Z",
+ "generated": "2026-11-02T01:31:00.200Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13388,
+ "verifiedAiHits": 13389,
  "logsScanned": 30,
  "windowStart": "2026-10-19",
  "windowEnd": "2026-11-02",
- "totalHits": 96771,
- "aiHits": 74547,
+ "totalHits": 96820,
+ "aiHits": 74572,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28298,
+   "hits": 28310,
    "verifiedHits": 0,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13942,
+   "hits": 13949,
    "verifiedHits": 0,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 12601,
+   "hits": 12604,
    "verifiedHits": 0,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8927,
+   "hits": 8928,
    "verifiedHits": 0,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
@@ -146,14 +146,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6727,
-   "verifiedHits": 6672,
+   "hits": 6732,
+   "verifiedHits": 6677,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 124
+     "hits": 125
     },
     {
      "path": "/build",
@@ -179,7 +179,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4452,
+   "hits": 4468,
    "verifiedHits": 0,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
@@ -189,11 +189,11 @@
      "hits": 23
     },
     {
-     "path": "/posts/best-llm-for-creative-writing-october-2026.html",
-     "hits": 10
+     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
+     "hits": 11
     },
     {
-     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
+     "path": "/posts/best-llm-for-creative-writing-october-2026.html",
      "hits": 10
     },
     {
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4133,
-   "verifiedHits": 4086,
+   "hits": 4134,
+   "verifiedHits": 4087,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2123,
+   "hits": 2125,
    "verifiedHits": 0,
    "firstSeen": "2026-10-20",
    "lastSeen": "2026-11-02",
@@ -352,6 +352,10 @@
     {
      "path": "/build",
      "hits": 54
+    },
+    {
+     "path": "/founders",
+     "hits": 2
     },
     {
      "path": "/posts/how-to-meter-and-bill-usage-based-pricing.html",
@@ -363,10 +367,6 @@
     },
     {
      "path": "/posts/tool-highlight-cloudflare-drop.html",
-     "hits": 2
-    },
-    {
-     "path": "/docker-compose.yaml",
      "hits": 2
     }
    ],
@@ -476,10 +476,10 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 643,
-   "verifiedHits": 540,
+   "hits": 645,
+   "verifiedHits": 542,
    "firstSeen": "2026-10-19",
-   "lastSeen": "2026-11-01",
+   "lastSeen": "2026-11-02",
    "topPaths": [
     {
      "path": "/",
