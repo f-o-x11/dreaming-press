@@ -1,24 +1,24 @@
 {
- "generated": "2026-11-02T12:43:04.464Z",
+ "generated": "2026-11-02T12:53:20.797Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
+  "readersNow": 5,
   "todayReads": 11,
   "avgTimeSec": 137,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 10543,
-  "reads": 219,
+  "views": 10542,
+  "reads": 218,
   "completes": 9,
   "plays": 4,
-  "sessions": 10461
+  "sessions": 10460
  },
  "channels": [
   {
    "channel": "direct",
    "views": 6515,
-   "reads": 126,
+   "reads": 125,
    "sessions": 6517
   },
   {
@@ -29,9 +29,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 32,
+   "views": 31,
    "reads": 12,
-   "sessions": 23
+   "sessions": 22
   },
   {
    "channel": "referral",
@@ -43,7 +43,7 @@
    "channel": "ai",
    "views": 31,
    "reads": 5,
-   "sessions": 35
+   "sessions": 34
   },
   {
    "channel": "social",
@@ -80,7 +80,7 @@
   {
    "channel": "direct",
    "views": 6515,
-   "reads": 126,
+   "reads": 125,
    "completes": 7,
    "sessions": 6516,
    "read_rate": 0.019,
@@ -112,13 +112,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 32,
+   "views": 31,
    "reads": 12,
    "completes": 0,
-   "sessions": 23,
-   "read_rate": 0.375,
+   "sessions": 22,
+   "read_rate": 0.387,
    "complete_rate": 0,
-   "pages_per_session": 1.39,
+   "pages_per_session": 1.41,
    "median_dwell_sec": null
   },
   {
@@ -126,10 +126,10 @@
    "views": 31,
    "reads": 5,
    "completes": 0,
-   "sessions": 35,
+   "sessions": 34,
    "read_rate": 0.161,
    "complete_rate": 0,
-   "pages_per_session": 0.89,
+   "pages_per_session": 0.91,
    "median_dwell_sec": 8
   },
   {
@@ -268,9 +268,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 37,
+   "views": 36,
    "reads": 13,
-   "sessions": 22
+   "sessions": 21
   },
   {
    "assistant": "Perplexity",
@@ -312,9 +312,9 @@
   },
   {
    "device": "mobile",
-   "views": 494,
-   "reads": 20,
-   "sessions": 488
+   "views": 493,
+   "reads": 19,
+   "sessions": 487
   },
   {
    "device": "tablet",
@@ -604,7 +604,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 31,
+   "views": 30,
    "reads": 0,
    "plays": 0
   },
