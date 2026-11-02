@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-02T09:19:39.971Z",
+ "generated": "2026-11-02T09:30:00.081Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13503,
+ "verifiedAiHits": 13504,
  "logsScanned": 30,
  "windowStart": "2026-10-19",
  "windowEnd": "2026-11-02",
- "totalHits": 99207,
- "aiHits": 76391,
+ "totalHits": 99308,
+ "aiHits": 76472,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29031,
+   "hits": 29043,
    "verifiedHits": 0,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14290,
+   "hits": 14297,
    "verifiedHits": 0,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13144,
+   "hits": 13202,
    "verifiedHits": 0,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9081,
+   "hits": 9088,
    "verifiedHits": 0,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6890,
-   "verifiedHits": 6833,
+   "hits": 6895,
+   "verifiedHits": 6838,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4705,
+   "hits": 4713,
    "verifiedHits": 0,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4096,
-   "verifiedHits": 3999,
+   "hits": 4097,
+   "verifiedHits": 4000,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
    "topPaths": [
@@ -259,11 +259,11 @@
      "hits": 21
     },
     {
-     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
-     "hits": 19
+     "path": "/posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html",
+     "hits": 20
     },
     {
-     "path": "/posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html",
+     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
      "hits": 19
     },
     {
@@ -344,7 +344,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2166,
+   "hits": 2167,
    "verifiedHits": 0,
    "firstSeen": "2026-10-20",
    "lastSeen": "2026-11-02",
@@ -377,7 +377,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1879,
+   "hits": 1880,
    "verifiedHits": 0,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
@@ -674,10 +674,10 @@
    "label": "Claude Search (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 39,
+   "hits": 40,
    "verifiedHits": 0,
    "firstSeen": "2026-10-20",
-   "lastSeen": "2026-11-01",
+   "lastSeen": "2026-11-02",
    "topPaths": [
     {
      "path": "/app",
@@ -688,15 +688,15 @@
      "hits": 2
     },
     {
+     "path": "/dashboard%2F.env",
+     "hits": 1
+    },
+    {
      "path": "/railway.toml",
      "hits": 1
     },
     {
      "path": "/env.old",
-     "hits": 1
-    },
-    {
-     "path": "/pages/index.astro.mjs.map",
      "hits": 1
     }
    ],
