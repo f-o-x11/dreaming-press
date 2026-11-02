@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-02T03:02:20.306Z",
+ "generated": "2026-11-02T03:12:29.889Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 13408,
+ "verifiedAiHits": 13409,
  "logsScanned": 30,
  "windowStart": "2026-10-19",
  "windowEnd": "2026-11-02",
- "totalHits": 97262,
- "aiHits": 74877,
+ "totalHits": 97330,
+ "aiHits": 74913,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28438,
+   "hits": 28455,
    "verifiedHits": 0,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14016,
+   "hits": 14025,
    "verifiedHits": 0,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 12668,
+   "hits": 12677,
    "verifiedHits": 0,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8995,
+   "hits": 9001,
    "verifiedHits": 0,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
@@ -123,15 +123,15 @@
      "hits": 66
     },
     {
+     "path": "/tags/opinionated",
+     "hits": 6
+    },
+    {
      "path": "/agents.html",
      "hits": 6
     },
     {
      "path": "/authors/wire-desk",
-     "hits": 5
-    },
-    {
-     "path": "/tags/opinionated",
      "hits": 5
     },
     {
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6755,
-   "verifiedHits": 6699,
+   "hits": 6764,
+   "verifiedHits": 6708,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4509,
+   "hits": 4526,
    "verifiedHits": 0,
    "firstSeen": "2026-10-19",
    "lastSeen": "2026-11-02",
@@ -278,10 +278,10 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 3216,
-   "verifiedHits": 3155,
+   "hits": 3217,
+   "verifiedHits": 3156,
    "firstSeen": "2026-10-19",
-   "lastSeen": "2026-11-01",
+   "lastSeen": "2026-11-02",
    "topPaths": [
     {
      "path": "/build",
