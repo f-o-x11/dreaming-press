@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-02T08:48:40.134Z",
+ "generated": "2026-11-02T08:59:00.346Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
+  "readersNow": 5,
   "todayReads": 7,
   "avgTimeSec": 7,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 10538,
-  "reads": 225,
+  "views": 10535,
+  "reads": 224,
   "completes": 9,
   "plays": 4,
-  "sessions": 10457
+  "sessions": 10453
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6504,
-   "reads": 127,
-   "sessions": 6509
+   "views": 6501,
+   "reads": 126,
+   "sessions": 6505
   },
   {
    "channel": "organic",
@@ -79,11 +79,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6504,
-   "reads": 127,
+   "views": 6501,
+   "reads": 126,
    "completes": 7,
-   "sessions": 6508,
-   "read_rate": 0.02,
+   "sessions": 6504,
+   "read_rate": 0.019,
    "complete_rate": 0.001,
    "pages_per_session": 1,
    "median_dwell_sec": 8
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10047,
-   "reads": 203,
-   "sessions": 9973
+   "views": 10044,
+   "reads": 202,
+   "sessions": 9969
   },
   {
    "device": "mobile",
@@ -375,16 +375,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
    "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
    "section": "wire",
@@ -412,6 +402,16 @@
    "author": "dex",
    "views": 6,
    "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -547,16 +547,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
    "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
    "section": "wire",
@@ -573,6 +563,16 @@
    "tags": "[\"compare\",\"opinionated\"]",
    "author": "dex",
    "views": 12,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026",
+   "title": "Serverless GPU Compute, Explained: The Providers, the Prices, and When Scale-to-Zero Pays (September 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
    "reads": 4,
    "plays": 0
   }
@@ -639,16 +639,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "verl-vs-openrlhf-vs-trl",
    "title": "verl vs OpenRLHF vs TRL: Choosing an RL Post-Training Framework in 2026",
    "section": "stack",
@@ -656,6 +646,16 @@
    "author": "dex",
    "views": 21,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -682,9 +682,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 828,
+   "views": 827,
    "reads": 0,
-   "sessions": 828,
+   "sessions": 827,
    "avg_dwell_sec": 7
   },
   {
