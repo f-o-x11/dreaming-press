@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-03T20:35:20.460Z",
+ "generated": "2026-11-03T20:45:40.323Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 19,
+  "readersNow": 1,
+  "todayReads": 20,
   "avgTimeSec": 46,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 10497,
-  "reads": 216,
+  "views": 10498,
+  "reads": 217,
   "completes": 8,
-  "plays": 5,
-  "sessions": 10398
+  "plays": 6,
+  "sessions": 10399
  },
  "channels": [
   {
@@ -23,9 +23,9 @@
   },
   {
    "channel": "organic",
-   "views": 157,
-   "reads": 65,
-   "sessions": 152
+   "views": 158,
+   "reads": 66,
+   "sessions": 153
   },
   {
    "channel": "referral",
@@ -95,11 +95,11 @@
   },
   {
    "channel": "organic",
-   "views": 157,
-   "reads": 65,
+   "views": 158,
+   "reads": 66,
    "completes": 2,
-   "sessions": 152,
-   "read_rate": 0.414,
+   "sessions": 153,
+   "read_rate": 0.418,
    "complete_rate": 0.013,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10016,
-   "reads": 194,
-   "sessions": 9922
+   "views": 10017,
+   "reads": 195,
+   "sessions": 9923
   },
   {
    "device": "mobile",
@@ -500,6 +500,16 @@
    "plays": 1
   },
   {
+   "slug": "langgraph-checkpointing-vs-temporal-durable-execution",
+   "title": "LangGraph Checkpointing vs Temporal: Why Checkpoints Aren't Durable Execution",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 5,
+   "reads": 1,
+   "plays": 1
+  },
+  {
    "slug": "moonshot-retires-kimi-k2-5-moonshot-v1-august-31-migrate-api",
    "title": "Moonshot Retires kimi-k2.5 and moonshot-v1 on August 31 — Migrate Your API Calls Now",
    "section": "stack",
@@ -546,16 +556,6 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 20,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "deepseek-chat-reasoner-retire-july-24-migrate-api",
-   "title": "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 15,
    "reads": 3,
    "plays": 0
   }
@@ -782,8 +782,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 69,
-   "sessions": 38
+   "hits": 72,
+   "sessions": 39
   },
   {
    "ref": "https://duckduckgo.com/",
