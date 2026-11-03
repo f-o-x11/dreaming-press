@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-03T05:30:54.908Z",
+ "generated": "2026-11-03T05:40:57.913Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
   "todayReads": 4,
-  "avgTimeSec": 32,
+  "avgTimeSec": 29,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 10513,
-  "reads": 215,
+  "views": 10517,
+  "reads": 214,
   "completes": 8,
   "plays": 5,
   "sessions": 10426
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 6496,
+   "views": 6501,
    "reads": 126,
-   "sessions": 6489
+   "sessions": 6490
   },
   {
    "channel": "organic",
-   "views": 160,
-   "reads": 63,
-   "sessions": 156
+   "views": 159,
+   "reads": 62,
+   "sessions": 155
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6496,
+   "views": 6501,
    "reads": 126,
    "completes": 6,
-   "sessions": 6488,
+   "sessions": 6489,
    "read_rate": 0.019,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "organic",
-   "views": 160,
-   "reads": 63,
+   "views": 159,
+   "reads": 62,
    "completes": 2,
-   "sessions": 156,
-   "read_rate": 0.394,
+   "sessions": 155,
+   "read_rate": 0.39,
    "complete_rate": 0.013,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -174,13 +174,18 @@
  "navSurfaces": [
   {
    "surface": "nav-cmp",
-   "clicks": 16,
+   "clicks": 18,
    "sessions": 6
   },
   {
    "surface": "brand",
    "clicks": 4,
    "sessions": 4
+  },
+  {
+   "surface": "live",
+   "clicks": 2,
+   "sessions": 2
   },
   {
    "surface": "dg-title",
@@ -218,11 +223,6 @@
    "sessions": 1
   },
   {
-   "surface": "live",
-   "clicks": 1,
-   "sessions": 1
-  },
-  {
    "surface": "feature",
    "clicks": 1,
    "sessions": 1
@@ -243,7 +243,7 @@
    "sessions": 1
   },
   {
-   "surface": "auto-link",
+   "surface": "btn-agents",
    "clicks": 1,
    "sessions": 1
   }
@@ -289,8 +289,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10017,
-   "reads": 193,
+   "views": 10021,
+   "reads": 192,
    "sessions": 9936
   },
   {
@@ -363,7 +363,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 39,
+   "views": 40,
    "reads": 3,
    "plays": 1
   },
@@ -485,7 +485,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 39,
+   "views": 40,
    "reads": 3,
    "plays": 1
   },
@@ -577,7 +577,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 39,
+   "views": 40,
    "reads": 3,
    "plays": 1
   },
@@ -762,11 +762,11 @@
    "avg_dwell_sec": 17
   },
   {
-   "path": "/authors/priya",
-   "views": 11,
+   "path": "/tools",
+   "views": 12,
    "reads": 0,
-   "sessions": 11,
-   "avg_dwell_sec": null
+   "sessions": 8,
+   "avg_dwell_sec": 6
   }
  ],
  "referrers": [
@@ -777,8 +777,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 75,
-   "sessions": 63
+   "hits": 73,
+   "sessions": 62
   },
   {
    "ref": "https://www.bing.com/",
@@ -791,14 +791,14 @@
    "sessions": 35
   },
   {
+   "ref": "nav-cmp",
+   "hits": 18,
+   "sessions": 6
+  },
+  {
    "ref": "https://cn.bing.com/",
    "hits": 18,
    "sessions": 9
-  },
-  {
-   "ref": "nav-cmp",
-   "hits": 16,
-   "sessions": 6
   },
   {
    "ref": "https://search.brave.com/",
