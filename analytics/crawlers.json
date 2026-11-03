@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-03T07:01:59.931Z",
+ "generated": "2026-11-03T07:12:01.259Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12735,
+ "verifiedAiHits": 12738,
  "logsScanned": 30,
  "windowStart": "2026-10-20",
  "windowEnd": "2026-11-03",
- "totalHits": 98528,
- "aiHits": 76208,
+ "totalHits": 98591,
+ "aiHits": 76256,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28738,
+   "hits": 28743,
    "verifiedHits": 0,
    "firstSeen": "2026-10-20",
    "lastSeen": "2026-11-03",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14526,
+   "hits": 14534,
    "verifiedHits": 0,
    "firstSeen": "2026-10-20",
    "lastSeen": "2026-11-03",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13598,
+   "hits": 13628,
    "verifiedHits": 0,
    "firstSeen": "2026-10-20",
    "lastSeen": "2026-11-03",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8796,
+   "hits": 8797,
    "verifiedHits": 0,
    "firstSeen": "2026-10-20",
    "lastSeen": "2026-11-03",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6825,
-   "verifiedHits": 6768,
+   "hits": 6828,
+   "verifiedHits": 6771,
    "firstSeen": "2026-10-20",
    "lastSeen": "2026-11-03",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4681,
+   "hits": 4689,
    "verifiedHits": 0,
    "firstSeen": "2026-10-20",
    "lastSeen": "2026-11-03",
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4098,
-   "verifiedHits": 4050,
+   "hits": 4101,
+   "verifiedHits": 4053,
    "firstSeen": "2026-10-20",
    "lastSeen": "2026-11-03",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1015,
+   "hits": 1017,
    "verifiedHits": 0,
    "firstSeen": "2026-10-20",
    "lastSeen": "2026-11-03",
@@ -462,7 +462,7 @@
     },
     {
      "path": "/posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html",
-     "hits": 45
+     "hits": 46
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -703,6 +703,18 @@
    "verifiable": false
   },
   {
+   "name": "YisouSpider",
+   "label": "Yisou",
+   "category": "search",
+   "home": "https://www.yisou.com",
+   "hits": 29,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-21",
+   "lastSeen": "2026-11-03",
+   "topPaths": [],
+   "verifiable": false
+  },
+  {
    "name": "cohere-ai",
    "label": "Cohere",
    "category": "ai",
@@ -729,18 +741,6 @@
      "hits": 1
     }
    ],
-   "verifiable": false
-  },
-  {
-   "name": "YisouSpider",
-   "label": "Yisou",
-   "category": "search",
-   "home": "https://www.yisou.com",
-   "hits": 26,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-21",
-   "lastSeen": "2026-11-03",
-   "topPaths": [],
    "verifiable": false
   }
  ]
