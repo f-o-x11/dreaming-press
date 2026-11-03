@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T09:13:35.699Z",
+ "generated": "2026-11-03T09:23:50.345Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
@@ -8,8 +8,8 @@
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 10512,
-  "reads": 213,
+  "views": 10511,
+  "reads": 212,
   "completes": 8,
   "plays": 5,
   "sessions": 10416
@@ -35,8 +35,8 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 28,
-   "reads": 9,
+   "views": 27,
+   "reads": 8,
    "sessions": 21
   },
   {
@@ -117,13 +117,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 28,
-   "reads": 9,
+   "views": 27,
+   "reads": 8,
    "completes": 0,
    "sessions": 21,
-   "read_rate": 0.321,
+   "read_rate": 0.296,
    "complete_rate": 0,
-   "pages_per_session": 1.33,
+   "pages_per_session": 1.29,
    "median_dwell_sec": null
   },
   {
@@ -251,8 +251,8 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 33,
-   "reads": 10,
+   "views": 32,
+   "reads": 9,
    "sessions": 20
   },
   {
@@ -289,8 +289,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10021,
-   "reads": 191,
+   "views": 10020,
+   "reads": 190,
    "sessions": 9930
   },
   {
@@ -418,16 +418,6 @@
    "plays": 0
   },
   {
-   "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
-   "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
-   "section": "stack",
-   "tags": "[\"compare\",\"opinionated\"]",
-   "author": "dex",
-   "views": 11,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "coding-agent-edit-formats-diff-vs-whole-file",
    "title": "How AI Coding Agents Edit Code: Diff vs Whole-File vs Search-Replace",
    "section": "wire",
@@ -455,6 +445,16 @@
    "author": "dex",
    "views": 5,
    "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
+   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 16,
+   "reads": 2,
    "plays": 0
   }
  ],
