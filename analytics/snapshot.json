@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-03T03:18:53.901Z",
+ "generated": "2026-11-03T03:28:57.079Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 4,
   "avgTimeSec": 32,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 10522,
+  "views": 10525,
   "reads": 217,
   "completes": 8,
   "plays": 5,
-  "sessions": 10434
+  "sessions": 10437
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6498,
+   "views": 6500,
    "reads": 126,
-   "sessions": 6492
+   "sessions": 6494
   },
   {
    "channel": "organic",
@@ -59,9 +59,9 @@
   },
   {
    "channel": "campaign:openai",
-   "views": 1,
+   "views": 2,
    "reads": 0,
-   "sessions": 1
+   "sessions": 2
   },
   {
    "channel": "campaign:producthunt",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6498,
+   "views": 6500,
    "reads": 126,
    "completes": 6,
-   "sessions": 6491,
+   "sessions": 6493,
    "read_rate": 0.019,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -144,6 +144,17 @@
    "median_dwell_sec": null
   },
   {
+   "channel": "campaign:openai",
+   "views": 2,
+   "reads": 0,
+   "completes": 0,
+   "sessions": 2,
+   "read_rate": 0,
+   "complete_rate": 0,
+   "pages_per_session": 1,
+   "median_dwell_sec": null
+  },
+  {
    "channel": "campaign:perplexity",
    "views": 1,
    "reads": 1,
@@ -156,17 +167,6 @@
   },
   {
    "channel": "campaign:producthunt",
-   "views": 1,
-   "reads": 0,
-   "completes": 0,
-   "sessions": 1,
-   "read_rate": 0,
-   "complete_rate": 0,
-   "pages_per_session": 1,
-   "median_dwell_sec": null
-  },
-  {
-   "channel": "campaign:openai",
    "views": 1,
    "reads": 0,
    "completes": 0,
@@ -306,15 +306,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10027,
+   "views": 10029,
    "reads": 194,
-   "sessions": 9945
+   "sessions": 9947
   },
   {
    "device": "mobile",
-   "views": 493,
+   "views": 494,
    "reads": 22,
-   "sessions": 488
+   "sessions": 489
   },
   {
    "device": "tablet",
@@ -390,7 +390,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 37,
+   "views": 38,
    "reads": 3,
    "plays": 1
   },
@@ -400,7 +400,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 21,
+   "views": 22,
    "reads": 3,
    "plays": 0
   },
@@ -502,7 +502,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 37,
+   "views": 38,
    "reads": 3,
    "plays": 1
   },
@@ -572,7 +572,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 21,
+   "views": 22,
    "reads": 3,
    "plays": 0
   }
@@ -604,7 +604,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 37,
+   "views": 38,
    "reads": 3,
    "plays": 1
   },
@@ -629,6 +629,16 @@
    "plays": 0
   },
   {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "best-open-source-rl-frameworks-for-training-agents",
    "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
    "section": "stack",
@@ -646,16 +656,6 @@
    "author": "dex",
    "views": 21,
    "reads": 8,
-   "plays": 0
-  },
-  {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 3,
    "plays": 0
   },
   {
