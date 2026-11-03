@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-03T02:58Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-03T03:08Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 10522 views → 216 engaged reads → 8 completes · 10434 sessions.
-- Channels: direct 125r/6498v · organic 63r/165v · referral 10r/3793v · campaign:chatgpt.com 10r/29v · ai 5r/31v · social 2r/3v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 10522 views → 217 engaged reads → 8 completes · 10434 sessions.
+- Channels: direct 126r/6498v · organic 63r/165v · referral 10r/3793v · campaign:chatgpt.com 10r/29v · ai 5r/31v · social 2r/3v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 11r/34v · Perplexity 2r/3v · Yuanbao 1r/2v · Le Chat 1r/1v · Kimi 0r/17v · Grok 0r/2v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, cn.bing.com, nav-cmp, search.brave.com, youtube.com, qwant.com, perplexity.ai.
 - Engaged-read winners by section: stack=10, wire=5.
@@ -50,7 +50,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 1 listens, 19 reads
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 1 listens, 7 reads
 - [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 1 listens, 3 reads
-- [wire] "Speech-to-Speech vs Cascaded: Two Architectures for Voice AI Agents in 2026" — 1 listens, 1 reads
+- [wire] "Speech-to-Speech vs Cascaded: Two Architectures for Voice AI Agents in 2026" — 1 listens, 2 reads
 - [stack] "Moonshot Retires kimi-k2.5 and moonshot-v1 on August 31 — Migrate Your API Calls Now" — 1 listens, 0 reads
 
 ## Hubs and tools (non-article routes)
@@ -142,7 +142,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12687 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4018, Perplexity 3533, GPTBot (OpenAI) 3155, ChatGPT (user browsing) 1981).
+The real answer engines are crawling us — IP-verified: 12688 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4018, Perplexity 3533, GPTBot (OpenAI) 3156, ChatGPT (user browsing) 1981).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 480 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 244 crawler fetches
