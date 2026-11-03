@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T03:39:00.130Z",
+ "generated": "2026-11-03T03:49:03.459Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,30 +8,30 @@
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 10526,
+  "views": 10520,
   "reads": 217,
   "completes": 8,
   "plays": 5,
-  "sessions": 10438
+  "sessions": 10432
  },
  "channels": [
   {
    "channel": "direct",
    "views": 6501,
    "reads": 126,
-   "sessions": 6495
+   "sessions": 6494
   },
   {
    "channel": "organic",
-   "views": 165,
+   "views": 160,
    "reads": 63,
-   "sessions": 161
+   "sessions": 156
   },
   {
    "channel": "referral",
-   "views": 3793,
+   "views": 3792,
    "reads": 10,
-   "sessions": 3792
+   "sessions": 3791
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -82,7 +82,7 @@
    "views": 6501,
    "reads": 126,
    "completes": 6,
-   "sessions": 6494,
+   "sessions": 6493,
    "read_rate": 0.019,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -90,10 +90,10 @@
   },
   {
    "channel": "referral",
-   "views": 3793,
+   "views": 3792,
    "reads": 10,
    "completes": 0,
-   "sessions": 3792,
+   "sessions": 3791,
    "read_rate": 0.003,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -101,13 +101,13 @@
   },
   {
    "channel": "organic",
-   "views": 165,
+   "views": 160,
    "reads": 63,
    "completes": 2,
-   "sessions": 161,
-   "read_rate": 0.382,
-   "complete_rate": 0.012,
-   "pages_per_session": 1.02,
+   "sessions": 156,
+   "read_rate": 0.394,
+   "complete_rate": 0.013,
+   "pages_per_session": 1.03,
    "median_dwell_sec": 3
   },
   {
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10030,
+   "views": 10024,
    "reads": 194,
-   "sessions": 9948
+   "sessions": 9942
   },
   {
    "device": "mobile",
@@ -669,13 +669,13 @@
    "plays": 0
   },
   {
-   "slug": "sqlite-vec-vs-lancedb-vs-qdrant-agent-memory",
-   "title": "sqlite-vec vs LanceDB vs Qdrant: Picking the Vector Store for Agent Memory",
+   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
+   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 20,
-   "reads": 2,
+   "reads": 1,
    "plays": 0
   }
  ],
@@ -794,8 +794,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 80,
-   "sessions": 68
+   "hits": 75,
+   "sessions": 63
   },
   {
    "ref": "https://www.bing.com/",
