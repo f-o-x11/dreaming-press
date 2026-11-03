@@ -1,14 +1,14 @@
 {
- "generated": "2026-11-03T06:51:57.632Z",
+ "generated": "2026-11-03T07:02:00.203Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 6,
   "avgTimeSec": 30,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 10519,
+  "views": 10520,
   "reads": 216,
   "completes": 8,
   "plays": 5,
@@ -17,7 +17,7 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 6502,
+   "views": 6503,
    "reads": 127,
    "sessions": 6486
   },
@@ -73,7 +73,7 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6502,
+   "views": 6503,
    "reads": 127,
    "completes": 6,
    "sessions": 6485,
@@ -289,7 +289,7 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10026,
+   "views": 10027,
    "reads": 194,
    "sessions": 9935
   },
@@ -323,7 +323,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 21,
+   "views": 22,
    "reads": 8,
    "plays": 0
   },
@@ -515,7 +515,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 21,
+   "views": 22,
    "reads": 8,
    "plays": 0
   },
@@ -612,6 +612,16 @@
    "plays": 0
   },
   {
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 8,
+   "plays": 0
+  },
+  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -629,16 +639,6 @@
    "author": "dex",
    "views": 22,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 8,
    "plays": 0
   },
   {
