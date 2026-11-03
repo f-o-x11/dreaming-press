@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-03T23:28:40.469Z",
+ "generated": "2026-11-03T23:39:00.646Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
-  "todayReads": 29,
+  "todayReads": 30,
   "avgTimeSec": 50,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 10499,
-  "reads": 224,
-  "completes": 13,
+  "views": 10497,
+  "reads": 225,
+  "completes": 14,
   "plays": 7,
-  "sessions": 10388
+  "sessions": 10386
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6489,
-   "reads": 134,
-   "sessions": 6457
+   "views": 6487,
+   "reads": 135,
+   "sessions": 6455
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6489,
-   "reads": 134,
-   "completes": 10,
-   "sessions": 6457,
+   "views": 6487,
+   "reads": 135,
+   "completes": 11,
+   "sessions": 6455,
    "read_rate": 0.021,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -289,15 +289,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10020,
-   "reads": 201,
-   "sessions": 9914
+   "views": 10019,
+   "reads": 202,
+   "sessions": 9913
   },
   {
    "device": "mobile",
-   "views": 477,
+   "views": 476,
    "reads": 22,
-   "sessions": 473
+   "sessions": 472
   },
   {
    "device": "tablet",
@@ -368,6 +368,16 @@
    "plays": 1
   },
   {
+   "slug": "cheapest-gpu-rental-november-2026",
+   "title": "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
    "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
    "section": "wire",
@@ -423,16 +433,6 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 7,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "cheapest-gpu-rental-november-2026",
-   "title": "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
    "views": 7,
    "reads": 3,
    "plays": 0
@@ -686,9 +686,9 @@
   },
   {
    "path": "/",
-   "views": 113,
+   "views": 112,
    "reads": 4,
-   "sessions": 117,
+   "sessions": 116,
    "avg_dwell_sec": 19
   },
   {
@@ -707,9 +707,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 54,
+   "views": 53,
    "reads": 0,
-   "sessions": 54,
+   "sessions": 53,
    "avg_dwell_sec": 5
   },
   {
