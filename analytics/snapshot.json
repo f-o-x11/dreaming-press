@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-03T11:35:50.830Z",
+ "generated": "2026-11-03T11:45:50.505Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 9,
   "avgTimeSec": 38,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 10503,
+  "views": 10504,
   "reads": 214,
   "completes": 8,
   "plays": 5,
-  "sessions": 10406
+  "sessions": 10407
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6491,
+   "views": 6492,
    "reads": 126,
-   "sessions": 6472
+   "sessions": 6473
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6491,
+   "views": 6492,
    "reads": 126,
    "completes": 6,
-   "sessions": 6471,
+   "sessions": 6472,
    "read_rate": 0.019,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10017,
+   "views": 10018,
    "reads": 192,
-   "sessions": 9925
+   "sessions": 9926
   },
   {
    "device": "mobile",
@@ -632,6 +632,16 @@
    "plays": 0
   },
   {
+   "slug": "local-llm-for-coding-on-your-own-machine",
+   "title": "Local LLM for Coding: The Best Models to Run on Your Own Machine (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "best-open-source-rl-frameworks-for-training-agents",
    "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
    "section": "stack",
@@ -639,16 +649,6 @@
    "author": "dex",
    "views": 22,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "local-llm-for-coding-on-your-own-machine",
-   "title": "Local LLM for Coding: The Best Models to Run on Your Own Machine (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 1,
    "plays": 0
   },
   {
