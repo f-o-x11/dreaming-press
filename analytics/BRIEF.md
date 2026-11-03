@@ -1,18 +1,18 @@
-# Analytics brief — auto-exported 2026-11-03T06:21Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-03T06:31Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 10522 views → 215 engaged reads → 8 completes · 10425 sessions.
-- Channels: direct 127r/6506v · organic 62r/159v · referral 10r/3792v · campaign:chatgpt.com 9r/28v · ai 5r/31v · social 2r/3v · campaign:openai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 10520 views → 215 engaged reads → 8 completes · 10424 sessions.
+- Channels: direct 127r/6504v · organic 62r/159v · referral 10r/3792v · campaign:chatgpt.com 9r/28v · ai 5r/31v · social 2r/3v · campaign:openai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 10r/33v · Perplexity 2r/3v · Yuanbao 1r/2v · Le Chat 1r/1v · Kimi 0r/17v · Grok 0r/2v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, nav-cmp, cn.bing.com, search.brave.com, youtube.com, qwant.com, perplexity.ai.
 - Engaged-read winners by section: stack=10, wire=5.
 
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
 - nav-cmp: 20 clicks from 6 sessions
-- brand: 4 clicks from 4 sessions
 - feature: 3 clicks from 1 sessions
+- brand: 3 clicks from 3 sessions
 - live: 2 clicks from 2 sessions
 - dg-title: 2 clicks from 2 sessions
 - card: 2 clicks from 2 sessions
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 6506 views · read 2.0% · complete 0.1% · 1 pages/session · median 8s
+- direct: 6504 views · read 2.0% · complete 0.1% · 1 pages/session · median 8s
 - referral: 3792 views · read 0.3% · complete 0.0% · 1 pages/session · median ?s
 - organic: 159 views · read 39.0% · complete 1.3% · 1.03 pages/session · median 3s
 - ai: 31 views · read 16.1% · complete 0.0% · 0.91 pages/session · median 8s
@@ -59,7 +59,7 @@ so what these earn from humans is the other half of the picture.
 - /stack/:tool — 832 views, 0 reads, 830 sessions, avg 9s
 - /compare/:pair — 405 views, 2 reads, 405 sessions, avg 52s
 - /build — 166 views, 0 reads, 166 sessions
-- / — 113 views, 4 reads, 117 sessions, avg 18s
+- / — 112 views, 4 reads, 116 sessions, avg 18s
 - /best/:cat — 62 views, 0 reads, 62 sessions, avg 5s
 - /tags/reportive — 61 views, 0 reads, 61 sessions
 - /alternatives/:tool — 55 views, 0 reads, 55 sessions, avg 5s
@@ -144,7 +144,7 @@ search intent, so put the answer in the first screen and use the phrasing in the
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 12727 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4045, Perplexity 3540, GPTBot (OpenAI) 3156, ChatGPT (user browsing) 1986).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 498 crawler fetches
+- /build  — 499 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 244 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 132 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 125 crawler fetches
