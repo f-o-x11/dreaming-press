@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-03T02:48:40.292Z",
+ "generated": "2026-11-03T02:58:50.221Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 6,
   "todayReads": 3,
   "avgTimeSec": 32,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 10520,
+  "views": 10522,
   "reads": 216,
   "completes": 8,
   "plays": 5,
-  "sessions": 10433
+  "sessions": 10434
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6495,
+   "views": 6498,
    "reads": 125,
-   "sessions": 6491
+   "sessions": 6492
   },
   {
    "channel": "organic",
-   "views": 166,
+   "views": 165,
    "reads": 63,
-   "sessions": 162
+   "sessions": 161
   },
   {
    "channel": "referral",
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6495,
+   "views": 6498,
    "reads": 125,
    "completes": 6,
-   "sessions": 6490,
+   "sessions": 6491,
    "read_rate": 0.019,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -101,11 +101,11 @@
   },
   {
    "channel": "organic",
-   "views": 166,
+   "views": 165,
    "reads": 63,
    "completes": 2,
-   "sessions": 162,
-   "read_rate": 0.38,
+   "sessions": 161,
+   "read_rate": 0.382,
    "complete_rate": 0.012,
    "pages_per_session": 1.02,
    "median_dwell_sec": 3
@@ -308,13 +308,13 @@
    "device": "desktop",
    "views": 10027,
    "reads": 193,
-   "sessions": 9946
+   "sessions": 9945
   },
   {
    "device": "mobile",
-   "views": 491,
+   "views": 493,
    "reads": 22,
-   "sessions": 486
+   "sessions": 488
   },
   {
    "device": "tablet",
@@ -340,7 +340,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 22,
+   "views": 21,
    "reads": 8,
    "plays": 0
   },
@@ -512,7 +512,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 4,
+   "views": 5,
    "reads": 1,
    "plays": 1
   },
@@ -532,7 +532,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 22,
+   "views": 21,
    "reads": 8,
    "plays": 0
   },
@@ -629,16 +629,6 @@
    "plays": 0
   },
   {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 8,
-   "plays": 0
-  },
-  {
    "slug": "best-open-source-rl-frameworks-for-training-agents",
    "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
    "section": "stack",
@@ -646,6 +636,16 @@
    "author": "dex",
    "views": 22,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 21,
+   "reads": 8,
    "plays": 0
   },
   {
@@ -703,9 +703,9 @@
   },
   {
    "path": "/",
-   "views": 112,
+   "views": 113,
    "reads": 4,
-   "sessions": 116,
+   "sessions": 117,
    "avg_dwell_sec": 18
   },
   {
@@ -798,12 +798,12 @@
    "sessions": 68
   },
   {
-   "ref": "https://duckduckgo.com/",
-   "hits": 62,
-   "sessions": 36
+   "ref": "https://www.bing.com/",
+   "hits": 61,
+   "sessions": 35
   },
   {
-   "ref": "https://www.bing.com/",
+   "ref": "https://duckduckgo.com/",
    "hits": 61,
    "sessions": 35
   },
