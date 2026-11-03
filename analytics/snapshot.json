@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-03T08:02:31.597Z",
+ "generated": "2026-11-03T08:12:32.905Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 6,
   "avgTimeSec": 30,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 10512,
-  "reads": 215,
+  "views": 10511,
+  "reads": 214,
   "completes": 8,
   "plays": 5,
   "sessions": 10415
@@ -17,8 +17,8 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 6496,
-   "reads": 126,
+   "views": 6495,
+   "reads": 125,
    "sessions": 6478
   },
   {
@@ -73,8 +73,8 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6496,
-   "reads": 126,
+   "views": 6495,
+   "reads": 125,
    "completes": 6,
    "sessions": 6477,
    "read_rate": 0.019,
@@ -289,8 +289,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10021,
-   "reads": 193,
+   "views": 10020,
+   "reads": 192,
    "sessions": 9929
   },
   {
@@ -313,8 +313,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 87,
-   "reads": 19,
+   "views": 85,
+   "reads": 18,
    "plays": 1
   },
   {
@@ -465,8 +465,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 87,
-   "reads": 19,
+   "views": 85,
+   "reads": 18,
    "plays": 1
   },
   {
@@ -567,8 +567,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 87,
-   "reads": 19,
+   "views": 85,
+   "reads": 18,
    "plays": 1
   },
   {
@@ -642,6 +642,16 @@
    "plays": 0
   },
   {
+   "slug": "local-llm-for-coding-on-your-own-machine",
+   "title": "Local LLM for Coding: The Best Models to Run on Your Own Machine (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 21,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "gpu-rental-price-october-2026",
    "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
    "section": "stack",
@@ -649,16 +659,6 @@
    "author": "dex",
    "views": 20,
    "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
-   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 1,
    "plays": 0
   }
  ],
