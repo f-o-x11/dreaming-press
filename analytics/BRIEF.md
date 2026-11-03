@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-03T22:27Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-03T22:37Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 10498 views → 223 engaged reads → 11 completes · 10387 sessions.
-- Channels: direct 132r/6486v · organic 66r/158v · referral 10r/3792v · campaign:chatgpt.com 8r/24v · ai 5r/31v · social 2r/3v · campaign:openai 0r/3v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 10499 views → 223 engaged reads → 11 completes · 10388 sessions.
+- Channels: direct 132r/6487v · organic 66r/158v · referral 10r/3792v · campaign:chatgpt.com 8r/24v · ai 5r/31v · social 2r/3v · campaign:openai 0r/3v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 9r/29v · Perplexity 2r/3v · Yuanbao 1r/2v · Le Chat 1r/1v · Kimi 0r/17v · Grok 0r/2v.
 - Referrers: aocr.org, bing.com, google.com, duckduckgo.com, nav-cmp, cn.bing.com, search.brave.com, youtube.com, feature, qwant.com.
 - Engaged-read winners by section: stack=10, wire=5.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 6486 views · read 2.0% · complete 0.1% · 1 pages/session · median 8s
+- direct: 6487 views · read 2.0% · complete 0.1% · 1 pages/session · median 8s
 - referral: 3792 views · read 0.3% · complete 0.0% · 1 pages/session · median ?s
 - organic: 158 views · read 41.8% · complete 1.3% · 1.04 pages/session · median 3s
 - ai: 31 views · read 16.1% · complete 0.0% · 1 pages/session · median 33s
@@ -35,7 +35,7 @@ NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
 
 ## Top by engaged reads (eyes that stayed)
-- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 15 reads, 82 views, 1 listens
+- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 15 reads, 83 views, 1 listens
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 8 reads, 22 views, 0 listens
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 7 reads, 38 views, 1 listens
 - [stack] "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)" — 6 reads, 17 views, 0 listens
@@ -70,7 +70,7 @@ ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
-- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 82 views, 15 reads
+- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 83 views, 15 reads
 - [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 43 views, 4 reads
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 38 views, 7 reads
 - [stack] "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent" — 29 views, 0 reads
@@ -122,7 +122,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Uncovered search demand (242 of 454 phrases have NO post, 34h ago)
+## Uncovered search demand (242 of 454 phrases have NO post, 35h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
