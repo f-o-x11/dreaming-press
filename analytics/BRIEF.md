@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-03T20:05Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-03T20:15Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 10500 views → 216 engaged reads → 8 completes · 10401 sessions.
-- Channels: direct 126r/6488v · organic 65r/158v · referral 10r/3792v · campaign:chatgpt.com 8r/25v · ai 5r/31v · social 2r/3v · campaign:openai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 10498 views → 216 engaged reads → 8 completes · 10399 sessions.
+- Channels: direct 126r/6487v · organic 65r/157v · referral 10r/3792v · campaign:chatgpt.com 8r/25v · ai 5r/31v · social 2r/3v · campaign:openai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 9r/30v · Perplexity 2r/3v · Yuanbao 1r/2v · Le Chat 1r/1v · Kimi 0r/17v · Grok 0r/2v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, nav-cmp, cn.bing.com, search.brave.com, youtube.com, qwant.com, perplexity.ai.
 - Engaged-read winners by section: stack=10, wire=5.
@@ -23,9 +23,9 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 6488 views · read 1.9% · complete 0.1% · 1 pages/session · median 8s
+- direct: 6487 views · read 1.9% · complete 0.1% · 1 pages/session · median 8s
 - referral: 3792 views · read 0.3% · complete 0.0% · 1 pages/session · median ?s
-- organic: 158 views · read 41.1% · complete 1.3% · 1.03 pages/session · median 3s
+- organic: 157 views · read 41.4% · complete 1.3% · 1.03 pages/session · median 3s
 - ai: 31 views · read 16.1% · complete 0.0% · 0.97 pages/session · median 33s
 - campaign:chatgpt.com: 25 views · read 32.0% · complete 0.0% · 1.32 pages/session · median ?s
 - social: 3 views · read 66.7% · complete 0.0% · 1 pages/session · median ?s
@@ -104,8 +104,8 @@ sample size dwarfs the engaged-read counts below.
 - /newsroom  — 21 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4181 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×115 · /posts/open-source-llm-for-coding-september-2026.html ×63 · /wire.html ×48
-- PerplexityBot (3807 verified): / ×25 · /newsroom ×21 · /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html ×20
+- OAI-SearchBot (4183 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×115 · /posts/open-source-llm-for-coding-september-2026.html ×63 · /wire.html ×48
+- PerplexityBot (3808 verified): / ×25 · /newsroom ×21 · /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html ×20
 - ChatGPT-User (2026 verified): / ×656 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×164 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×60
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -143,7 +143,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13172 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4181, Perplexity 3807, GPTBot (OpenAI) 3158, ChatGPT (user browsing) 2026).
+The real answer engines are crawling us — IP-verified: 13175 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4183, Perplexity 3808, GPTBot (OpenAI) 3158, ChatGPT (user browsing) 2026).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 501 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 248 crawler fetches
@@ -152,7 +152,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 123 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 115 crawler fetches
 - /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 97 crawler fetches
-- /posts/gpu-rental-price-october-2026.html  — 74 crawler fetches
+- /posts/gpu-rental-price-october-2026.html  — 76 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 63 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 59 crawler fetches
 - /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html  — 55 crawler fetches
