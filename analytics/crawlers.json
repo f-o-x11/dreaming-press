@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-03T14:18:33.244Z",
+ "generated": "2026-11-03T14:28:40.089Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12835,
+ "verifiedAiHits": 12837,
  "logsScanned": 30,
  "windowStart": "2026-10-20",
  "windowEnd": "2026-11-03",
- "totalHits": 100839,
- "aiHits": 77958,
+ "totalHits": 100911,
+ "aiHits": 78017,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29441,
+   "hits": 29443,
    "verifiedHits": 0,
    "firstSeen": "2026-10-20",
    "lastSeen": "2026-11-03",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14866,
+   "hits": 14875,
    "verifiedHits": 0,
    "firstSeen": "2026-10-20",
    "lastSeen": "2026-11-03",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14082,
+   "hits": 14128,
    "verifiedHits": 0,
    "firstSeen": "2026-10-20",
    "lastSeen": "2026-11-03",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9046,
+   "hits": 9055,
    "verifiedHits": 0,
    "firstSeen": "2026-10-20",
    "lastSeen": "2026-11-03",
@@ -146,14 +146,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6950,
-   "verifiedHits": 6893,
+   "hits": 6954,
+   "verifiedHits": 6897,
    "firstSeen": "2026-10-20",
    "lastSeen": "2026-11-03",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 128
+     "hits": 129
     },
     {
      "path": "/build",
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3653,
-   "verifiedHits": 3554,
+   "hits": 3654,
+   "verifiedHits": 3555,
    "firstSeen": "2026-10-20",
    "lastSeen": "2026-11-03",
    "topPaths": [
@@ -340,6 +340,39 @@
    "verifiable": false
   },
   {
+   "name": "ChatGPT-User",
+   "label": "ChatGPT (user browsing)",
+   "category": "ai",
+   "home": "https://openai.com/bot",
+   "hits": 2101,
+   "verifiedHits": 2010,
+   "firstSeen": "2026-10-20",
+   "lastSeen": "2026-11-03",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 645
+    },
+    {
+     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
+     "hits": 164
+    },
+    {
+     "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
+     "hits": 60
+    },
+    {
+     "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
+     "hits": 54
+    },
+    {
+     "path": "/posts/2026-10-15-founders-wire-anthropic-opens-its-books.html",
+     "hits": 48
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "ClaudeBot",
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
@@ -371,39 +404,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "ChatGPT-User",
-   "label": "ChatGPT (user browsing)",
-   "category": "ai",
-   "home": "https://openai.com/bot",
-   "hits": 2100,
-   "verifiedHits": 2009,
-   "firstSeen": "2026-10-20",
-   "lastSeen": "2026-11-03",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 644
-    },
-    {
-     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 164
-    },
-    {
-     "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 60
-    },
-    {
-     "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
-     "hits": 54
-    },
-    {
-     "path": "/posts/2026-10-15-founders-wire-anthropic-opens-its-books.html",
-     "hits": 48
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "Applebot",
