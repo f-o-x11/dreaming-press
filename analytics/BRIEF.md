@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-03T06:41Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-03T06:51Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -103,7 +103,7 @@ sample size dwarfs the engaged-read counts below.
 - /newsroom  — 21 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4047 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×111 · /posts/open-source-llm-for-coding-september-2026.html ×63 · /wire.html ×47
+- OAI-SearchBot (4050 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×111 · /posts/open-source-llm-for-coding-september-2026.html ×63 · /wire.html ×47
 - PerplexityBot (3540 verified): / ×25 · /newsroom ×21 · /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html ×19
 - ChatGPT-User (1988 verified): / ×630 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×163 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×59
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -142,7 +142,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12731 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4047, Perplexity 3540, GPTBot (OpenAI) 3156, ChatGPT (user browsing) 1988).
+The real answer engines are crawling us — IP-verified: 12734 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4050, Perplexity 3540, GPTBot (OpenAI) 3156, ChatGPT (user browsing) 1988).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 499 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 244 crawler fetches
@@ -154,7 +154,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/gpu-rental-price-october-2026.html  — 72 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 63 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 57 crawler fetches
-- /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 52 crawler fetches
+- /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 53 crawler fetches
 - /posts/2026-10-15-founders-wire-anthropic-opens-its-books.html  — 48 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
