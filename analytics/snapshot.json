@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-03T11:45:50.505Z",
+ "generated": "2026-11-03T11:56:00.472Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 1,
   "todayReads": 9,
   "avgTimeSec": 38,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 10504,
-  "reads": 214,
+  "views": 10502,
+  "reads": 213,
   "completes": 8,
   "plays": 5,
-  "sessions": 10407
+  "sessions": 10405
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6492,
-   "reads": 126,
-   "sessions": 6473
+   "views": 6491,
+   "reads": 125,
+   "sessions": 6472
   },
   {
    "channel": "organic",
-   "views": 158,
+   "views": 157,
    "reads": 63,
-   "sessions": 154
+   "sessions": 153
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6492,
-   "reads": 126,
+   "views": 6491,
+   "reads": 125,
    "completes": 6,
-   "sessions": 6472,
+   "sessions": 6471,
    "read_rate": 0.019,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "organic",
-   "views": 158,
+   "views": 157,
    "reads": 63,
    "completes": 2,
-   "sessions": 154,
-   "read_rate": 0.399,
+   "sessions": 153,
+   "read_rate": 0.401,
    "complete_rate": 0.013,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10018,
-   "reads": 192,
-   "sessions": 9926
+   "views": 10016,
+   "reads": 191,
+   "sessions": 9924
   },
   {
    "device": "mobile",
@@ -328,16 +328,6 @@
    "plays": 0
   },
   {
-   "slug": "best-llm-for-creative-writing-october-2026",
-   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 37,
-   "reads": 6,
-   "plays": 1
-  },
-  {
    "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
    "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
    "section": "stack",
@@ -346,6 +336,16 @@
    "views": 17,
    "reads": 6,
    "plays": 0
+  },
+  {
+   "slug": "best-llm-for-creative-writing-october-2026",
+   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 36,
+   "reads": 5,
+   "plays": 1
   },
   {
    "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
@@ -475,8 +475,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 37,
-   "reads": 6,
+   "views": 36,
+   "reads": 5,
    "plays": 1
   },
   {
@@ -587,8 +587,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 37,
-   "reads": 6,
+   "views": 36,
+   "reads": 5,
    "plays": 1
   },
   {
@@ -777,8 +777,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 73,
-   "sessions": 62
+   "hits": 72,
+   "sessions": 61
   },
   {
    "ref": "https://www.bing.com/",
