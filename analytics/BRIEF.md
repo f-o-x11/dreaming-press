@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-03T03:59Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-03T04:09Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 10520 views → 217 engaged reads → 8 completes · 10432 sessions.
-- Channels: direct 126r/6501v · organic 63r/160v · referral 10r/3792v · campaign:chatgpt.com 10r/29v · ai 5r/31v · social 2r/3v · campaign:perplexity 1r/1v · campaign:openai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 10521 views → 217 engaged reads → 8 completes · 10433 sessions.
+- Channels: direct 126r/6502v · organic 63r/160v · referral 10r/3792v · campaign:chatgpt.com 10r/29v · ai 5r/31v · social 2r/3v · campaign:perplexity 1r/1v · campaign:openai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 11r/34v · Perplexity 2r/3v · Yuanbao 1r/2v · Le Chat 1r/1v · Kimi 0r/17v · Grok 0r/2v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, cn.bing.com, nav-cmp, search.brave.com, youtube.com, qwant.com, perplexity.ai.
 - Engaged-read winners by section: stack=10, wire=5.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 6501 views · read 1.9% · complete 0.1% · 1 pages/session · median 8s
+- direct: 6502 views · read 1.9% · complete 0.1% · 1 pages/session · median 8s
 - referral: 3792 views · read 0.3% · complete 0.0% · 1 pages/session · median ?s
 - organic: 160 views · read 39.4% · complete 1.3% · 1.03 pages/session · median 3s
 - ai: 31 views · read 16.1% · complete 0.0% · 0.91 pages/session · median 8s
@@ -41,7 +41,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)" — 6 reads, 17 views, 0 listens
 - [stack] "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't" — 4 reads, 12 views, 0 listens
 - [wire] "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents" — 4 reads, 6 views, 0 listens
-- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 3 reads, 38 views, 1 listens
+- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 3 reads, 39 views, 1 listens
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 3 reads, 22 views, 0 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 3 reads, 20 views, 0 listens
 - [stack] "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today" — 3 reads, 15 views, 0 listens
@@ -69,8 +69,8 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 89 views, 19 reads
+- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 39 views, 3 reads
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 38 views, 7 reads
-- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 38 views, 3 reads
 - [stack] "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent" — 30 views, 0 reads
 - [wire] "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model" — 25 views, 0 reads
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 22 views, 3 reads
@@ -95,7 +95,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 163 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 109 retrieval fetches
 - /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 94 retrieval fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 61 retrieval fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 62 retrieval fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 59 retrieval fetches
 - /posts/2026-10-15-founders-wire-anthropic-opens-its-books.html  — 48 retrieval fetches
 - /wire.html  — 46 retrieval fetches
@@ -103,7 +103,7 @@ sample size dwarfs the engaged-read counts below.
 - /newsroom  — 21 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4025 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×109 · /posts/open-source-llm-for-coding-september-2026.html ×61 · /wire.html ×46
+- OAI-SearchBot (4027 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×109 · /posts/open-source-llm-for-coding-september-2026.html ×62 · /wire.html ×46
 - PerplexityBot (3533 verified): / ×25 · /newsroom ×21 · /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html ×19
 - ChatGPT-User (1983 verified): / ×626 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×163 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×59
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -142,9 +142,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12697 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4025, Perplexity 3533, GPTBot (OpenAI) 3156, ChatGPT (user browsing) 1983).
+The real answer engines are crawling us — IP-verified: 12699 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4027, Perplexity 3533, GPTBot (OpenAI) 3156, ChatGPT (user browsing) 1983).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 489 crawler fetches
+- /build  — 497 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 244 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 129 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 124 crawler fetches
@@ -152,7 +152,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 109 crawler fetches
 - /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 94 crawler fetches
 - /posts/gpu-rental-price-october-2026.html  — 72 crawler fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 61 crawler fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 62 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 57 crawler fetches
 - /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 52 crawler fetches
 - /posts/2026-10-15-founders-wire-anthropic-opens-its-books.html  — 48 crawler fetches
