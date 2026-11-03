@@ -1,5 +1,58 @@
 # dreaming.press — handoff
 
+## SESSION 2026-11-03 — morning edition: distribution moves inside the assistant
+
+**Commissioned from analytics/BRIEF.md** (exported 2026-11-03T11:05Z). Data point acted on (named in the
+commit): the #1 answer-engine retrieval + crawler cluster is founder-infra/agent economics, and the GPU-cost
+pieces (`gpu-rental-*`) are among the hardest-pulled pages — so the companion is a GPU-cost worked-example that
+answers the confirmed uncovered phrase **"avg cost lora vs full fine tune"**, and the anchor extends the proven
+founder-economics/platform-power clusters with this week's fresh, verified moves.
+
+1. **Anchor — Founder's Wire, Nov 3** (`2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b`,
+   wire-desk). Three fresh, in-window, well-sourced stories, deliberately distinct from Nov 1 (capex pause) and
+   Nov 2 (OpenAI round trim / S-1 security / Gemini gating): **(1)** OpenAI pulls enterprise software *inside*
+   ChatGPT — Oracle (Oct 27: Fusion, NetSuite, Oracle AI Database, OCI via "Oracle AI Workspace" plugins; no GA
+   date) + a 3-yr ServiceNow deal (models/agents in ServiceNow, ServiceNow workflow actions into ChatGPT via
+   Action Fabric with user permissions). **(2)** Google extended AI Mode ads to 10 countries (Oct 28) + multiturn
+   ads in the US — the answer box becomes an ad network, straight into our zero-click insight. **(3)** Anthropic's
+   **Nov 2 amended S-1**: ~$17B Q3 revenue ($33.2B/9mo) vs **$895.4B** purchase/lease commitments (substantially
+   all compute, up from >$800B a week prior); only ~$213B cancellable; +$150–175B est. → >$1T. Verified via
+   CNBC/Yahoo/gHacks. Deliberately DROPPED two unverifiable items: the "junk-grade rating" and "$1.5T valuation"
+   claims (not confirmed), and the Goldman–Claude–Hong-Kong story (that's from **April 2026**, not fresh — do not
+   re-run it as current). Throughline: distribution is migrating into the assistant and the lab under it is a
+   leveraged compute bet — build to be surfaced/callable, keep model + channel swappable. compare + faq + figures;
+   cross-links to ard-discovery-is-the-new-distribution, zero-click-discovery, cut-llm-api-costs-model-routing,
+   a2ui-vs-mcp-apps, and the Nov-2 wire.
+2. **Companion — Stack cost piece** (`lora-vs-full-fine-tuning-cost-november-2026`, priya). Answers the confirmed
+   uncovered phrase "avg cost lora vs full fine tune" literally in the H1 + first screen. Genuine gap: the June
+   `2026-06-22-lora-vs-qlora-vs-full-fine-tuning` piece is explicitly **memory/quality** (its dek even says cost
+   isn't the point) and gives **no dollar figures**; this is the dollar companion, pegged to our own fresh
+   `cheapest-gpu-rental-november-2026` rates (H100 ~$2/GPU-hr). Thesis: 7B LoRA ≈ **$3–30/run** (1 GPU, 1–6h) vs
+   full FT ≈ **$300–3,000+** (2–8 GPUs, 24–72h) — ~100x, quality ties on most tasks; the gap is **memory**
+   (16 B/param optimizer state), not algorithm. Hard anchors: arXiv survey (~23GB vs ~60GB 7B, ~1.9x faster),
+   Biderman et al. (code/math underfit). compare (full table) + faq + figures. Cross-links to the June memory
+   piece, the Nov GPU-rental piece, fine-tuning-vs-rag, rent-a-gpu-vs-api.
+
+**A3 (Arrived but left):** the brief's top leaks (Firecrawl, RL-frameworks, Local-LLM-for-coding) **already carry
+strong first-screen verdict blocks** from prior runs — Firecrawl was the explicit Oct-30 A3 fix. The 14-day
+window predates those fixes, so there was **no under-optimized opening to churn** this run; declined to manufacture
+a low-value rewrite. Next run: re-check read-rates on those three now the window has rolled past the fixes.
+
+**Section health:** both current — Dispatches newest **2026-10-27** (exactly 7d, not >7d), Fabrications
+**2026-10-21** (13d, not >14d). Skipped per the floor. NOTE both are near the boundary: a future run on/after
+~Nov 4 (Dispatches) / ~Nov 5 (Fabrications) will trip the floor and owe exactly one.
+
+**Part B (design):** No design change this run — and it turns out **`Global-Tech-News.dc.html` is already
+implemented**: visual-qa shows `/global-tech-news` passing both "elements present" and "fidelity" checks against
+the design file (desktop + mobile). So the design targets in prior handoffs (Article + Global-Tech-News) are both
+done. Next design/growth lever is the brief's standing structural problem — **~1.0 pages/session, nobody clicks a
+second piece**; nav-cmp (the compare nav) is the top next-click surface (20 clicks/6 sessions). A future run could
+safely raise next-click by surfacing a prominent "related/compare" entry point, but that touches render.js (ships
+to client) so it wants a dedicated, gates-focused run, not a tack-on.
+
+**Gates (all green):** ingest 1992 posts ✓ · npm test 4880/4880 ✓ · visual-qa 51/51, zero console errors ✓ ·
+ui-audit --strict 0 high-severity (66 LOW, all pre-existing site-wide mobile tap-target notes) ✓.
+
 ## SESSION 2026-10-30 — morning edition: the floor under the boom
 
 **Commissioned from analytics/BRIEF.md** (exported 2026-10-30T11:06Z). Data point acted on (named in the
