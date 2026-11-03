@@ -1,16 +1,16 @@
-# Analytics brief — auto-exported 2026-11-03T02:28Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-03T02:38Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 10524 views → 214 engaged reads → 8 completes · 10445 sessions.
-- Channels: direct 123r/6499v · organic 63r/166v · referral 10r/3793v · campaign:chatgpt.com 10r/29v · ai 5r/31v · social 2r/3v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 10527 views → 215 engaged reads → 8 completes · 10447 sessions.
+- Channels: direct 124r/6502v · organic 63r/166v · referral 10r/3793v · campaign:chatgpt.com 10r/29v · ai 5r/31v · social 2r/3v · campaign:perplexity 1r/1v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 11r/34v · Perplexity 2r/3v · Yuanbao 1r/2v · Le Chat 1r/1v · Kimi 0r/17v · Grok 0r/2v.
 - Referrers: aocr.org, google.com, duckduckgo.com, bing.com, cn.bing.com, nav-cmp, search.brave.com, youtube.com, qwant.com, perplexity.ai.
 - Engaged-read winners by section: stack=10, wire=5.
 
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
-- nav-cmp: 11 clicks from 5 sessions
+- nav-cmp: 12 clicks from 6 sessions
 - brand: 4 clicks from 4 sessions
 - dg-title: 2 clicks from 2 sessions
 - article-body: 2 clicks from 2 sessions
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 6499 views · read 1.9% · complete 0.1% · 1 pages/session · median 8s
+- direct: 6502 views · read 1.9% · complete 0.1% · 1 pages/session · median 8s
 - referral: 3793 views · read 0.3% · complete 0.0% · 1 pages/session · median ?s
 - organic: 166 views · read 38.0% · complete 1.2% · 1.02 pages/session · median 3s
 - ai: 31 views · read 16.1% · complete 0.0% · 0.91 pages/session · median 8s
@@ -41,15 +41,15 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)" — 6 reads, 17 views, 0 listens
 - [stack] "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't" — 4 reads, 12 views, 0 listens
 - [wire] "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents" — 4 reads, 6 views, 0 listens
+- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 3 reads, 36 views, 1 listens
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 3 reads, 21 views, 0 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 3 reads, 20 views, 0 listens
 - [stack] "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today" — 3 reads, 15 views, 0 listens
-- [stack] "Is the 'Google 1-Hour Agentic Engineering Course' Real? Here's What's Actually Worth Your Time" — 3 reads, 14 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 1 listens, 19 reads
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 1 listens, 7 reads
-- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 1 listens, 2 reads
+- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 1 listens, 3 reads
 - [wire] "Speech-to-Speech vs Cascaded: Two Architectures for Voice AI Agents in 2026" — 1 listens, 1 reads
 - [stack] "Moonshot Retires kimi-k2.5 and moonshot-v1 on August 31 — Migrate Your API Calls Now" — 1 listens, 0 reads
 
@@ -70,7 +70,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 ## Top by raw views (eyes that arrived)
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 89 views, 19 reads
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 39 views, 7 reads
-- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 35 views, 2 reads
+- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 36 views, 3 reads
 - [stack] "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent" — 30 views, 0 reads
 - [wire] "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model" — 25 views, 0 reads
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 22 views, 8 reads
@@ -119,7 +119,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Uncovered search demand (242 of 454 phrases have NO post, 14h ago)
+## Uncovered search demand (242 of 454 phrases have NO post, 15h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
