@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-03T12:57:30.480Z",
+ "generated": "2026-11-03T13:07:50.744Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 14,
-  "avgTimeSec": 38,
+  "readersNow": 8,
+  "todayReads": 15,
+  "avgTimeSec": 41,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 10498,
-  "reads": 217,
+  "views": 10504,
+  "reads": 218,
   "completes": 8,
   "plays": 5,
-  "sessions": 10400
+  "sessions": 10406
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6485,
-   "reads": 127,
-   "sessions": 6465
+   "views": 6491,
+   "reads": 128,
+   "sessions": 6471
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6485,
-   "reads": 127,
+   "views": 6491,
+   "reads": 128,
    "completes": 6,
-   "sessions": 6464,
+   "sessions": 6470,
    "read_rate": 0.02,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10013,
-   "reads": 195,
-   "sessions": 9920
+   "views": 10019,
+   "reads": 196,
+   "sessions": 9926
   },
   {
    "device": "mobile",
@@ -348,6 +348,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
+   "title": "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 42,
+   "reads": 4,
+   "plays": 1
+  },
+  {
    "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
    "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
    "section": "wire",
@@ -356,16 +366,6 @@
    "views": 6,
    "reads": 4,
    "plays": 0
-  },
-  {
-   "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
-   "title": "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 41,
-   "reads": 3,
-   "plays": 1
   },
   {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
@@ -485,8 +485,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 41,
-   "reads": 3,
+   "views": 42,
+   "reads": 4,
    "plays": 1
   },
   {
@@ -577,8 +577,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 41,
-   "reads": 3,
+   "views": 42,
+   "reads": 4,
    "plays": 1
   },
   {
