@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-03T11:56:00.472Z",
+ "generated": "2026-11-03T12:06:20.303Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 9,
+  "readersNow": 4,
+  "todayReads": 11,
   "avgTimeSec": 38,
   "postsThisWeek": 14
  },
  "funnel": {
   "views": 10502,
-  "reads": 213,
+  "reads": 214,
   "completes": 8,
   "plays": 5,
-  "sessions": 10405
+  "sessions": 10406
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6491,
+   "views": 6490,
    "reads": 125,
    "sessions": 6472
   },
   {
    "channel": "organic",
-   "views": 157,
-   "reads": 63,
-   "sessions": 153
+   "views": 158,
+   "reads": 64,
+   "sessions": 154
   },
   {
    "channel": "referral",
@@ -73,7 +73,7 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6491,
+   "views": 6490,
    "reads": 125,
    "completes": 6,
    "sessions": 6471,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "organic",
-   "views": 157,
-   "reads": 63,
+   "views": 158,
+   "reads": 64,
    "completes": 2,
-   "sessions": 153,
-   "read_rate": 0.401,
+   "sessions": 154,
+   "read_rate": 0.405,
    "complete_rate": 0.013,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -290,8 +290,8 @@
   {
    "device": "desktop",
    "views": 10016,
-   "reads": 191,
-   "sessions": 9924
+   "reads": 192,
+   "sessions": 9925
   },
   {
    "device": "mobile",
@@ -313,8 +313,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 84,
-   "reads": 17,
+   "views": 82,
+   "reads": 16,
    "plays": 1
   },
   {
@@ -328,6 +328,16 @@
    "plays": 0
   },
   {
+   "slug": "best-llm-for-creative-writing-october-2026",
+   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 37,
+   "reads": 6,
+   "plays": 1
+  },
+  {
    "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
    "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
    "section": "stack",
@@ -336,16 +346,6 @@
    "views": 17,
    "reads": 6,
    "plays": 0
-  },
-  {
-   "slug": "best-llm-for-creative-writing-october-2026",
-   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 36,
-   "reads": 5,
-   "plays": 1
   },
   {
    "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
@@ -465,8 +465,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 84,
-   "reads": 17,
+   "views": 82,
+   "reads": 16,
    "plays": 1
   },
   {
@@ -475,8 +475,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 36,
-   "reads": 5,
+   "views": 37,
+   "reads": 6,
    "plays": 1
   },
   {
@@ -567,8 +567,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 84,
-   "reads": 17,
+   "views": 82,
+   "reads": 16,
    "plays": 1
   },
   {
@@ -587,8 +587,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 36,
-   "reads": 5,
+   "views": 37,
+   "reads": 6,
    "plays": 1
   },
   {
@@ -652,13 +652,13 @@
    "plays": 0
   },
   {
-   "slug": "gpu-rental-price-october-2026",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
+   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
+   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
    "author": "dex",
-   "views": 20,
-   "reads": 3,
+   "views": 21,
+   "reads": 1,
    "plays": 0
   }
  ],
@@ -679,9 +679,9 @@
   },
   {
    "path": "/build",
-   "views": 166,
+   "views": 165,
    "reads": 0,
-   "sessions": 166,
+   "sessions": 165,
    "avg_dwell_sec": null
   },
   {
@@ -782,8 +782,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 65,
-   "sessions": 37
+   "hits": 67,
+   "sessions": 38
   },
   {
    "ref": "https://duckduckgo.com/",
