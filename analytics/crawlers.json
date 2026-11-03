@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-03T05:51:00.459Z",
+ "generated": "2026-11-03T06:01:05.232Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12720,
+ "verifiedAiHits": 12722,
  "logsScanned": 30,
  "windowStart": "2026-10-20",
  "windowEnd": "2026-11-03",
- "totalHits": 98237,
- "aiHits": 75969,
+ "totalHits": 98265,
+ "aiHits": 75992,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28651,
+   "hits": 28663,
    "verifiedHits": 0,
    "firstSeen": "2026-10-20",
    "lastSeen": "2026-11-03",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14474,
+   "hits": 14482,
    "verifiedHits": 0,
    "firstSeen": "2026-10-20",
    "lastSeen": "2026-11-03",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8784,
+   "hits": 8788,
    "verifiedHits": 0,
    "firstSeen": "2026-10-20",
    "lastSeen": "2026-11-03",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6805,
-   "verifiedHits": 6748,
+   "hits": 6806,
+   "verifiedHits": 6749,
    "firstSeen": "2026-10-20",
    "lastSeen": "2026-11-03",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3637,
-   "verifiedHits": 3539,
+   "hits": 3638,
+   "verifiedHits": 3540,
    "firstSeen": "2026-10-20",
    "lastSeen": "2026-11-03",
    "topPaths": [
@@ -344,14 +344,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 2076,
-   "verifiedHits": 1985,
+   "hits": 2077,
+   "verifiedHits": 1986,
    "firstSeen": "2026-10-20",
    "lastSeen": "2026-11-03",
    "topPaths": [
     {
      "path": "/",
-     "hits": 628
+     "hits": 629
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1011,
+   "hits": 1012,
    "verifiedHits": 0,
    "firstSeen": "2026-10-20",
    "lastSeen": "2026-11-03",
@@ -462,7 +462,7 @@
     },
     {
      "path": "/posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html",
-     "hits": 44
+     "hits": 45
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
