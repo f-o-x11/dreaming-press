@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-03T16:51Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-03T17:01Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -56,7 +56,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 833 views, 0 reads, 831 sessions, avg 9s
+- /stack/:tool — 832 views, 0 reads, 830 sessions, avg 9s
 - /compare/:pair — 395 views, 2 reads, 395 sessions, avg 52s
 - /build — 165 views, 0 reads, 165 sessions
 - / — 111 views, 4 reads, 115 sessions, avg 19s
@@ -93,7 +93,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 675 retrieval fetches
+- /  — 676 retrieval fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 164 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 115 retrieval fetches
 - /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 97 retrieval fetches
@@ -106,8 +106,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - OAI-SearchBot (4127 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×115 · /posts/open-source-llm-for-coding-september-2026.html ×63 · /wire.html ×47
-- PerplexityBot (3574 verified): / ×25 · /newsroom ×21 · /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html ×19
-- ChatGPT-User (2018 verified): / ×650 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×164 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×60
+- PerplexityBot (3576 verified): / ×25 · /newsroom ×21 · /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html ×20
+- ChatGPT-User (2021 verified): / ×651 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×164 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×60
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -144,7 +144,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12876 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4127, Perplexity 3574, GPTBot (OpenAI) 3157, ChatGPT (user browsing) 2018).
+The real answer engines are crawling us — IP-verified: 12881 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4127, Perplexity 3576, GPTBot (OpenAI) 3157, ChatGPT (user browsing) 2021).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 505 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 246 crawler fetches
@@ -156,8 +156,8 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/gpu-rental-price-october-2026.html  — 73 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 63 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 58 crawler fetches
+- /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html  — 55 crawler fetches
 - /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 54 crawler fetches
-- /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html  — 54 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
