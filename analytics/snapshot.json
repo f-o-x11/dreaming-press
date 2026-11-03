@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T04:09:40.222Z",
+ "generated": "2026-11-03T04:19:50.004Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 10521,
-  "reads": 217,
+  "views": 10518,
+  "reads": 216,
   "completes": 8,
   "plays": 5,
-  "sessions": 10433
+  "sessions": 10431
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6502,
+   "views": 6500,
    "reads": 126,
-   "sessions": 6495
+   "sessions": 6493
   },
   {
    "channel": "organic",
@@ -35,8 +35,8 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 29,
-   "reads": 10,
+   "views": 28,
+   "reads": 9,
    "sessions": 21
   },
   {
@@ -79,10 +79,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6502,
+   "views": 6500,
    "reads": 126,
    "completes": 6,
-   "sessions": 6494,
+   "sessions": 6492,
    "read_rate": 0.019,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -123,13 +123,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 29,
-   "reads": 10,
+   "views": 28,
+   "reads": 9,
    "completes": 0,
    "sessions": 21,
-   "read_rate": 0.345,
+   "read_rate": 0.321,
    "complete_rate": 0,
-   "pages_per_session": 1.38,
+   "pages_per_session": 1.33,
    "median_dwell_sec": null
   },
   {
@@ -268,8 +268,8 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 34,
-   "reads": 11,
+   "views": 33,
+   "reads": 10,
    "sessions": 20
   },
   {
@@ -306,9 +306,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10025,
-   "reads": 194,
-   "sessions": 9943
+   "views": 10022,
+   "reads": 193,
+   "sessions": 9941
   },
   {
    "device": "mobile",
@@ -362,16 +362,6 @@
    "author": "dex",
    "views": 17,
    "reads": 6,
-   "plays": 0
-  },
-  {
-   "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
-   "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
-   "section": "stack",
-   "tags": "[\"compare\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 4,
    "plays": 0
   },
   {
@@ -441,6 +431,16 @@
    "tags": "[\"tutorial\",\"howto\",\"context-management\",\"agent-sdk\",\"ai-agents\"]",
    "author": "dex",
    "views": 12,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
+   "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
+   "section": "stack",
+   "tags": "[\"compare\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
    "reads": 3,
    "plays": 0
   },
@@ -547,16 +547,6 @@
    "plays": 0
   },
   {
-   "slug": "open-weight-coding-model-you-can-actually-self-host-september-2026",
-   "title": "The Open-Weight Coding Model You Can Actually Self-Host (September 2026): Qwen3-Coder vs the 700B Models You Can't",
-   "section": "stack",
-   "tags": "[\"compare\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
    "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
    "section": "wire",
@@ -573,6 +563,16 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 22,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "gpu-rental-price-october-2026",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 20,
    "reads": 3,
    "plays": 0
   }
