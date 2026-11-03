@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-03T01:16Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-03T01:27Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -59,7 +59,7 @@ so what these earn from humans is the other half of the picture.
 - /stack/:tool — 829 views, 0 reads, 829 sessions, avg 10s
 - /compare/:pair — 406 views, 2 reads, 406 sessions, avg 47s
 - /build — 166 views, 0 reads, 166 sessions
-- / — 113 views, 4 reads, 117 sessions, avg 18s
+- / — 112 views, 4 reads, 116 sessions, avg 18s
 - /best/:cat — 62 views, 0 reads, 62 sessions, avg 5s
 - /tags/reportive — 61 views, 0 reads, 61 sessions
 - /alternatives/:tool — 55 views, 0 reads, 55 sessions, avg 5s
@@ -70,7 +70,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 ## Top by raw views (eyes that arrived)
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 91 views, 19 reads
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 39 views, 7 reads
-- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 31 views, 2 reads
+- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 32 views, 2 reads
 - [stack] "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent" — 30 views, 0 reads
 - [wire] "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model" — 25 views, 0 reads
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 22 views, 8 reads
