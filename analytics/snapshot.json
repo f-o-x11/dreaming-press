@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-04T01:51:54.924Z",
+ "generated": "2026-11-04T02:01:55.105Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
-  "todayReads": 4,
-  "avgTimeSec": 4,
+  "readersNow": 3,
+  "todayReads": 6,
+  "avgTimeSec": 11,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 10470,
-  "reads": 227,
+  "views": 10475,
+  "reads": 229,
   "completes": 17,
   "plays": 7,
-  "sessions": 10359
+  "sessions": 10361
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6460,
-   "reads": 137,
-   "sessions": 6428
+   "views": 6465,
+   "reads": 139,
+   "sessions": 6430
   },
   {
    "channel": "organic",
@@ -67,20 +67,20 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 20
+   "sessions": 21
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6460,
-   "reads": 137,
+   "views": 6465,
+   "reads": 139,
    "completes": 14,
-   "sessions": 6428,
-   "read_rate": 0.021,
+   "sessions": 6430,
+   "read_rate": 0.022,
    "complete_rate": 0.002,
-   "pages_per_session": 1,
-   "median_dwell_sec": 8
+   "pages_per_session": 1.01,
+   "median_dwell_sec": 9
   },
   {
    "channel": "referral",
@@ -164,7 +164,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 20,
+   "sessions": 21,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -289,9 +289,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9996,
-   "reads": 205,
-   "sessions": 9890
+   "views": 10001,
+   "reads": 207,
+   "sessions": 9892
   },
   {
    "device": "mobile",
@@ -368,6 +368,16 @@
    "plays": 0
   },
   {
+   "slug": "deepseek-chat-reasoner-retire-july-24-migrate-api",
+   "title": "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 18,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
    "title": "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model",
    "section": "wire",
@@ -385,16 +395,6 @@
    "author": "dex",
    "views": 6,
    "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "deepseek-chat-reasoner-retire-july-24-migrate-api",
-   "title": "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 3,
    "plays": 0
   },
   {
@@ -686,9 +686,9 @@
   },
   {
    "path": "/",
-   "views": 115,
+   "views": 116,
    "reads": 4,
-   "sessions": 119,
+   "sessions": 120,
    "avg_dwell_sec": 19
   },
   {
@@ -721,10 +721,10 @@
   },
   {
    "path": "/authors/dex",
-   "views": 42,
+   "views": 43,
    "reads": 0,
-   "sessions": 42,
-   "avg_dwell_sec": 32
+   "sessions": 43,
+   "avg_dwell_sec": 23
   },
   {
    "path": "/stack.html",
