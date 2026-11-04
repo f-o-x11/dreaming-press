@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-04T14:42:50.443Z",
+ "generated": "2026-11-04T14:53:00.221Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 19,
   "avgTimeSec": 48,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 9225,
+  "views": 9171,
   "reads": 228,
   "completes": 17,
   "plays": 6,
-  "sessions": 9108
+  "sessions": 9053
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 5233,
+   "views": 5179,
    "reads": 135,
-   "sessions": 5196
+   "sessions": 5141
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 5233,
+   "views": 5179,
    "reads": 135,
    "completes": 14,
-   "sessions": 5196,
+   "sessions": 5141,
    "read_rate": 0.026,
    "complete_rate": 0.003,
    "pages_per_session": 1.01,
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 8754,
+   "views": 8700,
    "reads": 205,
-   "sessions": 8642
+   "sessions": 8588
   },
   {
    "device": "mobile",
    "views": 469,
    "reads": 22,
-   "sessions": 465
+   "sessions": 464
   },
   {
    "device": "tablet",
@@ -359,7 +359,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 17,
+   "views": 16,
    "reads": 6,
    "plays": 0
   },
@@ -551,7 +551,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 17,
+   "views": 16,
    "reads": 6,
    "plays": 0
   },
@@ -648,18 +648,18 @@
    "plays": 0
   },
   {
-   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
-   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
+   "slug": "best-open-source-rl-frameworks-for-training-agents",
+   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 20,
-   "reads": 1,
+   "views": 21,
+   "reads": 0,
    "plays": 0
   },
   {
-   "slug": "verl-vs-openrlhf-vs-trl",
-   "title": "verl vs OpenRLHF vs TRL: Choosing an RL Post-Training Framework in 2026",
+   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
+   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -678,30 +678,30 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 355,
+   "views": 351,
    "reads": 2,
-   "sessions": 355,
+   "sessions": 351,
    "avg_dwell_sec": 44
   },
   {
    "path": "/",
    "views": 116,
    "reads": 5,
-   "sessions": 120,
+   "sessions": 119,
    "avg_dwell_sec": 21
   },
   {
    "path": "/build",
-   "views": 116,
+   "views": 110,
    "reads": 0,
-   "sessions": 116,
+   "sessions": 110,
    "avg_dwell_sec": null
   },
   {
    "path": "/tags/reportive",
-   "views": 52,
+   "views": 50,
    "reads": 0,
-   "sessions": 52,
+   "sessions": 50,
    "avg_dwell_sec": null
   },
   {
@@ -720,16 +720,16 @@
   },
   {
    "path": "/tags/opinionated",
-   "views": 41,
+   "views": 39,
    "reads": 0,
-   "sessions": 41,
+   "sessions": 39,
    "avg_dwell_sec": null
   },
   {
    "path": "/authors/dex",
-   "views": 35,
+   "views": 33,
    "reads": 0,
-   "sessions": 35,
+   "sessions": 33,
    "avg_dwell_sec": 23
   },
   {
@@ -748,9 +748,9 @@
   },
   {
    "path": "/stack.html",
-   "views": 17,
+   "views": 15,
    "reads": 0,
-   "sessions": 17,
+   "sessions": 15,
    "avg_dwell_sec": 12
   },
   {
