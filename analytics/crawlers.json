@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-04T12:10:50.070Z",
+ "generated": "2026-11-04T12:20:50.343Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12702,
+ "verifiedAiHits": 12706,
  "logsScanned": 30,
  "windowStart": "2026-10-21",
  "windowEnd": "2026-11-04",
- "totalHits": 101050,
- "aiHits": 78033,
+ "totalHits": 101129,
+ "aiHits": 78108,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28880,
+   "hits": 28882,
    "verifiedHits": 0,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
@@ -43,44 +43,11 @@
    "verifiable": false
   },
   {
-   "name": "PetalBot",
-   "label": "Petal / Huawei",
-   "category": "ai",
-   "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14880,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-21",
-   "lastSeen": "2026-11-04",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 140
-    },
-    {
-     "path": "/wire.html",
-     "hits": 44
-    },
-    {
-     "path": "/tags/reportive",
-     "hits": 38
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 33
-    },
-    {
-     "path": "/stack.html",
-     "hits": 15
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Amazonbot",
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14852,
+   "hits": 14904,
    "verifiedHits": 0,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
@@ -109,11 +76,44 @@
    "verifiable": false
   },
   {
+   "name": "PetalBot",
+   "label": "Petal / Huawei",
+   "category": "ai",
+   "home": "https://webmaster.petalsearch.com/site/petalbot",
+   "hits": 14889,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-21",
+   "lastSeen": "2026-11-04",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 140
+    },
+    {
+     "path": "/wire.html",
+     "hits": 44
+    },
+    {
+     "path": "/tags/reportive",
+     "hits": 38
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 33
+    },
+    {
+     "path": "/stack.html",
+     "hits": 15
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Baiduspider",
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9163,
+   "hits": 9165,
    "verifiedHits": 0,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6933,
-   "verifiedHits": 6878,
+   "hits": 6935,
+   "verifiedHits": 6880,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4348,
-   "verifiedHits": 4300,
+   "hits": 4351,
+   "verifiedHits": 4303,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3513,
-   "verifiedHits": 3421,
+   "hits": 3514,
+   "verifiedHits": 3422,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2128,
+   "hits": 2132,
    "verifiedHits": 0,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1014,
+   "hits": 1018,
    "verifiedHits": 0,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
@@ -458,7 +458,7 @@
     },
     {
      "path": "/posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html",
-     "hits": 64
+     "hits": 66
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
