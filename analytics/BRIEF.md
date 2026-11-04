@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-04T21:20Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-04T21:30Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -106,7 +106,7 @@ sample size dwarfs the engaged-read counts below.
 - /newsroom  — 20 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4395 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×114 · /posts/open-source-llm-for-coding-september-2026.html ×61 · /wire.html ×46
+- OAI-SearchBot (4399 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×114 · /posts/open-source-llm-for-coding-september-2026.html ×61 · /wire.html ×46
 - PerplexityBot (3602 verified): / ×25 · /newsroom ×20 · /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html ×19
 - ChatGPT-User (1842 verified): / ×631 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×145 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×51
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -145,9 +145,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12996 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4395, Perplexity 3602, GPTBot (OpenAI) 3157, ChatGPT (user browsing) 1842).
+The real answer engines are crawling us — IP-verified: 13000 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4399, Perplexity 3602, GPTBot (OpenAI) 3157, ChatGPT (user browsing) 1842).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 483 crawler fetches
+- /build  — 485 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 222 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 133 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 133 crawler fetches
