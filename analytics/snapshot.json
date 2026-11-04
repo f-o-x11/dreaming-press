@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T19:58:20.195Z",
+ "generated": "2026-11-04T20:08:40.160Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,18 +8,18 @@
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 7606,
+  "views": 7528,
   "reads": 225,
   "completes": 17,
   "plays": 6,
-  "sessions": 7488
+  "sessions": 7410
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3618,
+   "views": 3540,
    "reads": 134,
-   "sessions": 3578
+   "sessions": 3500
   },
   {
    "channel": "organic",
@@ -84,11 +84,11 @@
   },
   {
    "channel": "direct",
-   "views": 3618,
+   "views": 3540,
    "reads": 134,
    "completes": 14,
-   "sessions": 3578,
-   "read_rate": 0.037,
+   "sessions": 3500,
+   "read_rate": 0.038,
    "complete_rate": 0.004,
    "pages_per_session": 1.01,
    "median_dwell_sec": 8
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7141,
+   "views": 7063,
    "reads": 203,
-   "sessions": 7029
+   "sessions": 6951
   },
   {
    "device": "mobile",
@@ -319,7 +319,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 74,
+   "views": 73,
    "reads": 13,
    "plays": 1
   },
@@ -399,7 +399,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"practical\"]",
    "author": "abe",
-   "views": 13,
+   "views": 12,
    "reads": 3,
    "plays": 0
   },
@@ -471,7 +471,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 74,
+   "views": 73,
    "reads": 13,
    "plays": 1
   },
@@ -573,7 +573,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 74,
+   "views": 73,
    "reads": 13,
    "plays": 1
   },
@@ -671,16 +671,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 584,
+   "views": 580,
    "reads": 0,
-   "sessions": 580,
+   "sessions": 576,
    "avg_dwell_sec": 10
   },
   {
    "path": "/compare/:pair",
-   "views": 230,
+   "views": 228,
    "reads": 1,
-   "sessions": 230,
+   "sessions": 228,
    "avg_dwell_sec": 42
   },
   {
@@ -692,9 +692,9 @@
   },
   {
    "path": "/build",
-   "views": 69,
+   "views": 68,
    "reads": 0,
-   "sessions": 69,
+   "sessions": 68,
    "avg_dwell_sec": null
   },
   {
@@ -706,9 +706,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 28,
+   "views": 27,
    "reads": 0,
-   "sessions": 28,
+   "sessions": 27,
    "avg_dwell_sec": 5
   },
   {
