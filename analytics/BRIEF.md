@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-04T01:41Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-04T01:51Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 10466 views → 226 engaged reads → 16 completes · 10355 sessions.
-- Channels: direct 136r/6456v · organic 65r/157v · referral 10r/3791v · campaign:chatgpt.com 8r/24v · ai 5r/31v · social 2r/3v · campaign:openai 0r/3v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 10470 views → 227 engaged reads → 17 completes · 10359 sessions.
+- Channels: direct 137r/6460v · organic 65r/157v · referral 10r/3791v · campaign:chatgpt.com 8r/24v · ai 5r/31v · social 2r/3v · campaign:openai 0r/3v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 9r/29v · Perplexity 2r/3v · Yuanbao 1r/2v · Le Chat 1r/1v · Kimi 0r/17v · Grok 0r/2v.
 - Referrers: aocr.org, bing.com, google.com, duckduckgo.com, nav-cmp, cn.bing.com, search.brave.com, feature, youtube.com, qwant.com.
 - Engaged-read winners by section: stack=10, wire=5.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 6456 views · read 2.1% · complete 0.2% · 1 pages/session · median 8s
+- direct: 6460 views · read 2.1% · complete 0.2% · 1 pages/session · median 8s
 - referral: 3791 views · read 0.3% · complete 0.0% · 1 pages/session · median ?s
 - organic: 157 views · read 41.4% · complete 1.3% · 1.04 pages/session · median 3s
 - ai: 31 views · read 16.1% · complete 0.0% · 1 pages/session · median 33s
@@ -40,7 +40,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 7 reads, 24 views, 0 listens
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 7 reads, 21 views, 0 listens
 - [stack] "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)" — 6 reads, 17 views, 0 listens
-- [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 5 reads, 9 views, 0 listens
+- [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 6 reads, 10 views, 0 listens
 - [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 4 reads, 43 views, 1 listens
 - [wire] "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents" — 4 reads, 6 views, 0 listens
 - [stack] "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today" — 3 reads, 15 views, 0 listens
