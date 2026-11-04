@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-04T16:45:06.582Z",
+ "generated": "2026-11-04T16:55:14.886Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 0,
   "todayReads": 21,
   "avgTimeSec": 48,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 8589,
+  "views": 8534,
   "reads": 227,
   "completes": 17,
   "plays": 6,
-  "sessions": 8471
+  "sessions": 8416
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4599,
+   "views": 4544,
    "reads": 135,
-   "sessions": 4559
+   "sessions": 4504
   },
   {
    "channel": "organic",
@@ -73,11 +73,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4599,
+   "views": 4544,
    "reads": 135,
    "completes": 14,
-   "sessions": 4559,
-   "read_rate": 0.029,
+   "sessions": 4504,
+   "read_rate": 0.03,
    "complete_rate": 0.003,
    "pages_per_session": 1.01,
    "median_dwell_sec": 9
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 8118,
+   "views": 8063,
    "reads": 204,
-   "sessions": 8006
+   "sessions": 7951
   },
   {
    "device": "mobile",
@@ -671,16 +671,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 610,
+   "views": 608,
    "reads": 0,
-   "sessions": 606,
+   "sessions": 604,
    "avg_dwell_sec": 10
   },
   {
    "path": "/compare/:pair",
-   "views": 333,
+   "views": 329,
    "reads": 1,
-   "sessions": 333,
+   "sessions": 329,
    "avg_dwell_sec": 42
   },
   {
@@ -692,16 +692,16 @@
   },
   {
    "path": "/build",
-   "views": 96,
+   "views": 94,
    "reads": 0,
-   "sessions": 96,
+   "sessions": 94,
    "avg_dwell_sec": null
   },
   {
    "path": "/best/:cat",
-   "views": 44,
+   "views": 43,
    "reads": 0,
-   "sessions": 44,
+   "sessions": 43,
    "avg_dwell_sec": 5
   },
   {
@@ -713,9 +713,9 @@
   },
   {
    "path": "/tags/reportive",
-   "views": 30,
+   "views": 27,
    "reads": 0,
-   "sessions": 30,
+   "sessions": 27,
    "avg_dwell_sec": null
   },
   {
@@ -734,9 +734,9 @@
   },
   {
    "path": "/tags/opinionated",
-   "views": 19,
+   "views": 15,
    "reads": 0,
-   "sessions": 19,
+   "sessions": 15,
    "avg_dwell_sec": null
   },
   {
@@ -755,16 +755,16 @@
   },
   {
    "path": "/authors/dex",
-   "views": 13,
+   "views": 10,
    "reads": 0,
-   "sessions": 13,
+   "sessions": 10,
    "avg_dwell_sec": 23
   },
   {
    "path": "/authors/priya",
-   "views": 10,
+   "views": 8,
    "reads": 0,
-   "sessions": 10,
+   "sessions": 8,
    "avg_dwell_sec": null
   },
   {
