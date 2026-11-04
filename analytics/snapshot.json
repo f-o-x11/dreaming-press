@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T15:33:50.421Z",
+ "generated": "2026-11-04T15:44:00.405Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,18 +8,18 @@
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 8959,
-  "reads": 228,
+  "views": 8900,
+  "reads": 227,
   "completes": 17,
   "plays": 6,
-  "sessions": 8841
+  "sessions": 8782
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4967,
+   "views": 4909,
    "reads": 135,
-   "sessions": 4928
+   "sessions": 4869
   },
   {
    "channel": "organic",
@@ -47,9 +47,9 @@
   },
   {
    "channel": "social",
-   "views": 3,
-   "reads": 2,
-   "sessions": 3
+   "views": 2,
+   "reads": 1,
+   "sessions": 2
   },
   {
    "channel": "campaign:openai",
@@ -73,11 +73,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4967,
+   "views": 4909,
    "reads": 135,
    "completes": 14,
-   "sessions": 4928,
-   "read_rate": 0.027,
+   "sessions": 4869,
+   "read_rate": 0.028,
    "complete_rate": 0.003,
    "pages_per_session": 1.01,
    "median_dwell_sec": 9
@@ -127,23 +127,23 @@
    "median_dwell_sec": null
   },
   {
-   "channel": "social",
-   "views": 3,
-   "reads": 2,
-   "completes": 0,
-   "sessions": 3,
-   "read_rate": 0.667,
-   "complete_rate": 0,
-   "pages_per_session": 1,
-   "median_dwell_sec": null
-  },
-  {
    "channel": "campaign:openai",
    "views": 3,
    "reads": 0,
    "completes": 0,
    "sessions": 3,
    "read_rate": 0,
+   "complete_rate": 0,
+   "pages_per_session": 1,
+   "median_dwell_sec": null
+  },
+  {
+   "channel": "social",
+   "views": 2,
+   "reads": 1,
+   "completes": 0,
+   "sessions": 2,
+   "read_rate": 0.5,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 8487,
-   "reads": 205,
-   "sessions": 8375
+   "views": 8428,
+   "reads": 204,
+   "sessions": 8316
   },
   {
    "device": "mobile",
@@ -349,7 +349,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 18,
+   "views": 17,
    "reads": 7,
    "plays": 0
   },
@@ -541,7 +541,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 18,
+   "views": 17,
    "reads": 7,
    "plays": 0
   },
@@ -671,17 +671,17 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 619,
+   "views": 617,
    "reads": 0,
-   "sessions": 615,
+   "sessions": 613,
    "avg_dwell_sec": 10
   },
   {
    "path": "/compare/:pair",
-   "views": 346,
-   "reads": 2,
-   "sessions": 346,
-   "avg_dwell_sec": 44
+   "views": 344,
+   "reads": 1,
+   "sessions": 344,
+   "avg_dwell_sec": 42
   },
   {
    "path": "/",
@@ -692,9 +692,9 @@
   },
   {
    "path": "/build",
-   "views": 107,
+   "views": 106,
    "reads": 0,
-   "sessions": 107,
+   "sessions": 106,
    "avg_dwell_sec": null
   },
   {
@@ -713,16 +713,16 @@
   },
   {
    "path": "/tags/reportive",
-   "views": 41,
+   "views": 39,
    "reads": 0,
-   "sessions": 41,
+   "sessions": 39,
    "avg_dwell_sec": null
   },
   {
    "path": "/tags/opinionated",
-   "views": 30,
+   "views": 28,
    "reads": 0,
-   "sessions": 30,
+   "sessions": 28,
    "avg_dwell_sec": null
   },
   {
@@ -734,9 +734,9 @@
   },
   {
    "path": "/authors/dex",
-   "views": 24,
+   "views": 22,
    "reads": 0,
-   "sessions": 24,
+   "sessions": 22,
    "avg_dwell_sec": 23
   },
   {
@@ -822,7 +822,7 @@
    "sessions": 3
   },
   {
-   "ref": "https://www.qwant.com/",
+   "ref": "https://www.perplexity.ai/",
    "hits": 5,
    "sessions": 3
   }
