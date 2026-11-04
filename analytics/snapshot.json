@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-04T13:01:20.343Z",
+ "generated": "2026-11-04T13:11:29.070Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 17,
-  "avgTimeSec": 32,
+  "readersNow": 2,
+  "todayReads": 18,
+  "avgTimeSec": 46,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 10149,
-  "reads": 229,
+  "views": 10038,
+  "reads": 230,
   "completes": 17,
   "plays": 7,
-  "sessions": 10031
+  "sessions": 9920
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6155,
+   "views": 6043,
    "reads": 138,
-   "sessions": 6115
+   "sessions": 6004
   },
   {
    "channel": "organic",
-   "views": 143,
-   "reads": 65,
-   "sessions": 136
+   "views": 144,
+   "reads": 66,
+   "sessions": 137
   },
   {
    "channel": "referral",
@@ -73,11 +73,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6155,
+   "views": 6043,
    "reads": 138,
    "completes": 14,
-   "sessions": 6115,
-   "read_rate": 0.022,
+   "sessions": 6004,
+   "read_rate": 0.023,
    "complete_rate": 0.002,
    "pages_per_session": 1.01,
    "median_dwell_sec": 9
@@ -95,11 +95,11 @@
   },
   {
    "channel": "organic",
-   "views": 143,
-   "reads": 65,
+   "views": 144,
+   "reads": 66,
    "completes": 2,
-   "sessions": 136,
-   "read_rate": 0.455,
+   "sessions": 137,
+   "read_rate": 0.458,
    "complete_rate": 0.014,
    "pages_per_session": 1.05,
    "median_dwell_sec": 3
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9677,
-   "reads": 206,
-   "sessions": 9564
+   "views": 9566,
+   "reads": 207,
+   "sessions": 9453
   },
   {
    "device": "mobile",
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 777,
+   "views": 709,
    "reads": 0,
-   "sessions": 773,
+   "sessions": 705,
    "avg_dwell_sec": 11
   },
   {
@@ -685,9 +685,9 @@
   },
   {
    "path": "/build",
-   "views": 154,
+   "views": 151,
    "reads": 0,
-   "sessions": 154,
+   "sessions": 151,
    "avg_dwell_sec": null
   },
   {
@@ -734,9 +734,9 @@
   },
   {
    "path": "/stack.html",
-   "views": 27,
+   "views": 26,
    "reads": 0,
-   "sessions": 27,
+   "sessions": 26,
    "avg_dwell_sec": 12
   },
   {
@@ -793,8 +793,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 54,
-   "sessions": 29
+   "hits": 56,
+   "sessions": 30
   },
   {
    "ref": "nav-cmp",
