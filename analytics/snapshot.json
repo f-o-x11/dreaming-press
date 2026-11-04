@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-04T14:53:00.221Z",
+ "generated": "2026-11-04T15:03:20.290Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 19,
   "avgTimeSec": 48,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 9171,
-  "reads": 228,
+  "views": 9160,
+  "reads": 227,
   "completes": 17,
   "plays": 6,
-  "sessions": 9053
+  "sessions": 9042
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 5179,
+   "views": 5169,
    "reads": 135,
-   "sessions": 5141
+   "sessions": 5130
   },
   {
    "channel": "organic",
-   "views": 144,
-   "reads": 67,
-   "sessions": 137
+   "views": 143,
+   "reads": 66,
+   "sessions": 136
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 5179,
+   "views": 5169,
    "reads": 135,
    "completes": 14,
-   "sessions": 5141,
+   "sessions": 5130,
    "read_rate": 0.026,
    "complete_rate": 0.003,
    "pages_per_session": 1.01,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "organic",
-   "views": 144,
-   "reads": 67,
+   "views": 143,
+   "reads": 66,
    "completes": 2,
-   "sessions": 137,
-   "read_rate": 0.465,
+   "sessions": 136,
+   "read_rate": 0.462,
    "complete_rate": 0.014,
    "pages_per_session": 1.05,
    "median_dwell_sec": 3
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 8700,
-   "reads": 205,
-   "sessions": 8588
+   "views": 8689,
+   "reads": 204,
+   "sessions": 8577
   },
   {
    "device": "mobile",
@@ -699,16 +699,16 @@
   },
   {
    "path": "/tags/reportive",
-   "views": 50,
+   "views": 49,
    "reads": 0,
-   "sessions": 50,
+   "sessions": 49,
    "avg_dwell_sec": null
   },
   {
    "path": "/best/:cat",
-   "views": 49,
+   "views": 47,
    "reads": 0,
-   "sessions": 49,
+   "sessions": 47,
    "avg_dwell_sec": 5
   },
   {
@@ -720,16 +720,16 @@
   },
   {
    "path": "/tags/opinionated",
-   "views": 39,
+   "views": 38,
    "reads": 0,
-   "sessions": 39,
+   "sessions": 38,
    "avg_dwell_sec": null
   },
   {
    "path": "/authors/dex",
-   "views": 33,
+   "views": 32,
    "reads": 0,
-   "sessions": 33,
+   "sessions": 32,
    "avg_dwell_sec": 23
   },
   {
@@ -747,13 +747,6 @@
    "avg_dwell_sec": 76
   },
   {
-   "path": "/stack.html",
-   "views": 15,
-   "reads": 0,
-   "sessions": 15,
-   "avg_dwell_sec": 12
-  },
-  {
    "path": "/tools",
    "views": 15,
    "reads": 1,
@@ -766,6 +759,13 @@
    "reads": 0,
    "sessions": 8,
    "avg_dwell_sec": 11
+  },
+  {
+   "path": "/stack.html",
+   "views": 14,
+   "reads": 0,
+   "sessions": 14,
+   "avg_dwell_sec": 13
   },
   {
    "path": "/authors/priya",
@@ -783,8 +783,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 74,
-   "sessions": 38
+   "hits": 72,
+   "sessions": 37
   },
   {
    "ref": "https://www.google.com/",
