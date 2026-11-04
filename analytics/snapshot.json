@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-04T17:46:34.115Z",
+ "generated": "2026-11-04T17:56:40.626Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 21,
   "avgTimeSec": 48,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 8320,
+  "views": 8266,
   "reads": 227,
   "completes": 17,
   "plays": 6,
-  "sessions": 8203
+  "sessions": 8149
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4331,
+   "views": 4277,
    "reads": 135,
-   "sessions": 4291
+   "sessions": 4237
   },
   {
    "channel": "organic",
@@ -73,11 +73,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4331,
+   "views": 4277,
    "reads": 135,
    "completes": 14,
-   "sessions": 4291,
-   "read_rate": 0.031,
+   "sessions": 4237,
+   "read_rate": 0.032,
    "complete_rate": 0.003,
    "pages_per_session": 1.01,
    "median_dwell_sec": 9
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7851,
+   "views": 7798,
    "reads": 204,
-   "sessions": 7739
+   "sessions": 7686
   },
   {
    "device": "mobile",
-   "views": 467,
+   "views": 466,
    "reads": 22,
-   "sessions": 463
+   "sessions": 462
   },
   {
    "device": "tablet",
@@ -521,7 +521,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 5,
+   "views": 4,
    "reads": 1,
    "plays": 1
   },
@@ -678,9 +678,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 314,
+   "views": 303,
    "reads": 1,
-   "sessions": 314,
+   "sessions": 303,
    "avg_dwell_sec": 42
   },
   {
@@ -692,9 +692,9 @@
   },
   {
    "path": "/build",
-   "views": 86,
+   "views": 84,
    "reads": 0,
-   "sessions": 86,
+   "sessions": 84,
    "avg_dwell_sec": null
   },
   {
@@ -706,9 +706,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 35,
+   "views": 34,
    "reads": 0,
-   "sessions": 35,
+   "sessions": 34,
    "avg_dwell_sec": 5
   },
   {
@@ -726,13 +726,6 @@
    "avg_dwell_sec": 76
   },
   {
-   "path": "/tags/reportive",
-   "views": 15,
-   "reads": 0,
-   "sessions": 15,
-   "avg_dwell_sec": null
-  },
-  {
    "path": "/tools",
    "views": 15,
    "reads": 1,
@@ -745,6 +738,13 @@
    "reads": 0,
    "sessions": 8,
    "avg_dwell_sec": 11
+  },
+  {
+   "path": "/tags/reportive",
+   "views": 14,
+   "reads": 0,
+   "sessions": 14,
+   "avg_dwell_sec": null
   },
   {
    "path": "/stack.html",
