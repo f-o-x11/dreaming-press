@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-04T12:41:03.496Z",
+ "generated": "2026-11-04T12:51:18.328Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 0,
   "todayReads": 17,
   "avgTimeSec": 32,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 10406,
+  "views": 10276,
   "reads": 229,
   "completes": 17,
   "plays": 7,
-  "sessions": 10288
+  "sessions": 10158
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6411,
+   "views": 6282,
    "reads": 138,
-   "sessions": 6371
+   "sessions": 6242
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "ai",
-   "views": 32,
+   "views": 31,
    "reads": 6,
-   "sessions": 32
+   "sessions": 31
   },
   {
    "channel": "social",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6411,
+   "views": 6282,
    "reads": 138,
    "completes": 14,
-   "sessions": 6371,
+   "sessions": 6242,
    "read_rate": 0.022,
    "complete_rate": 0.002,
    "pages_per_session": 1.01,
@@ -106,11 +106,11 @@
   },
   {
    "channel": "ai",
-   "views": 32,
+   "views": 31,
    "reads": 6,
    "completes": 0,
-   "sessions": 32,
-   "read_rate": 0.188,
+   "sessions": 31,
+   "read_rate": 0.194,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": 33
@@ -281,9 +281,9 @@
   },
   {
    "assistant": "Kimi",
-   "views": 17,
+   "views": 16,
    "reads": 0,
-   "sessions": 17
+   "sessions": 16
   },
   {
    "assistant": "Grok",
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9934,
+   "views": 9804,
    "reads": 206,
-   "sessions": 9821
+   "sessions": 9691
   },
   {
    "device": "mobile",
@@ -339,7 +339,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 38,
+   "views": 37,
    "reads": 7,
    "plays": 1
   },
@@ -409,7 +409,7 @@
    "section": "stack",
    "tags": "[\"tutorial\",\"howto\",\"context-management\",\"agent-sdk\",\"ai-agents\"]",
    "author": "dex",
-   "views": 12,
+   "views": 11,
    "reads": 3,
    "plays": 0
   },
@@ -481,7 +481,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 38,
+   "views": 37,
    "reads": 7,
    "plays": 1
   },
@@ -593,7 +593,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 38,
+   "views": 37,
    "reads": 7,
    "plays": 1
   },
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 813,
+   "views": 809,
    "reads": 0,
-   "sessions": 809,
+   "sessions": 805,
    "avg_dwell_sec": 11
   },
   {
@@ -698,13 +698,6 @@
    "avg_dwell_sec": 21
   },
   {
-   "path": "/best/:cat",
-   "views": 61,
-   "reads": 0,
-   "sessions": 61,
-   "avg_dwell_sec": 5
-  },
-  {
    "path": "/tags/reportive",
    "views": 60,
    "reads": 0,
@@ -712,10 +705,17 @@
    "avg_dwell_sec": null
   },
   {
-   "path": "/alternatives/:tool",
-   "views": 53,
+   "path": "/best/:cat",
+   "views": 59,
    "reads": 0,
-   "sessions": 53,
+   "sessions": 59,
+   "avg_dwell_sec": 5
+  },
+  {
+   "path": "/alternatives/:tool",
+   "views": 52,
+   "reads": 0,
+   "sessions": 52,
    "avg_dwell_sec": 5
   },
   {
@@ -734,9 +734,9 @@
   },
   {
    "path": "/stack.html",
-   "views": 30,
+   "views": 29,
    "reads": 0,
-   "sessions": 30,
+   "sessions": 29,
    "avg_dwell_sec": 12
   },
   {
