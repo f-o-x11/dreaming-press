@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-11-04T18:27Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-04T18:37Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 8142 views → 226 engaged reads → 17 completes · 8024 sessions.
-- Channels: direct 135r/4153v · organic 66r/143v · referral 10r/3790v · campaign:chatgpt.com 8r/23v · ai 6r/27v · social 1r/2v · campaign:openai 0r/3v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 9r/28v · Perplexity 2r/3v · Yuanbao 1r/2v · Le Chat 1r/1v · Doubao 1r/1v · Kimi 0r/12v · Grok 0r/2v.
+- Funnel: 8029 views → 226 engaged reads → 17 completes · 7911 sessions.
+- Channels: direct 135r/4041v · organic 66r/143v · referral 10r/3790v · campaign:chatgpt.com 8r/23v · ai 6r/26v · social 1r/2v · campaign:openai 0r/3v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 9r/28v · Perplexity 2r/3v · Yuanbao 1r/2v · Le Chat 1r/1v · Doubao 1r/1v · Kimi 0r/11v · Grok 0r/2v.
 - Referrers: aocr.org, bing.com, google.com, duckduckgo.com, nav-cmp, cn.bing.com, search.brave.com, feature, youtube.com, perplexity.ai.
 - Engaged-read winners by section: stack=12, wire=3.
 
@@ -23,13 +23,13 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 4153 views · read 3.3% · complete 0.3% · 1.01 pages/session · median 9s
+- direct: 4041 views · read 3.3% · complete 0.3% · 1.01 pages/session · median 9s
 - referral: 3790 views · read 0.3% · complete 0.0% · 1 pages/session · median ?s
 - organic: 143 views · read 46.2% · complete 1.4% · 1.05 pages/session · median 3s
-- ai: 27 views · read 22.2% · complete 0.0% · 1 pages/session · median 33s
+- ai: 26 views · read 23.1% · complete 0.0% · 1 pages/session · median 33s
 - campaign:chatgpt.com: 23 views · read 34.8% · complete 0.0% · 1.35 pages/session · median ?s
 - campaign:openai: 3 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
-INSIGHT: organic converts 14x better per view than direct, which is 51% of all views.
+INSIGHT: organic converts 14x better per view than direct, which is 50% of all views.
 One visitor from organic is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
@@ -42,7 +42,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)" — 6 reads, 15 views, 0 listens
 - [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 6 reads, 12 views, 0 listens
 - [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 5 reads, 48 views, 1 listens
-- [stack] "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today" — 5 reads, 19 views, 0 listens
+- [stack] "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today" — 5 reads, 18 views, 0 listens
 - [stack] "Is the 'Google 1-Hour Agentic Engineering Course' Real? Here's What's Actually Worth Your Time" — 3 reads, 13 views, 0 listens
 - [stack] "How to Combine Context Editing, Compaction, Memory, and Subagents in One Claude Agent SDK Loop" — 3 reads, 11 views, 0 listens
 
@@ -57,12 +57,12 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 596 views, 0 reads, 592 sessions, avg 10s
-- /compare/:pair — 290 views, 1 reads, 290 sessions, avg 42s
+- /stack/:tool — 594 views, 0 reads, 590 sessions, avg 10s
+- /compare/:pair — 272 views, 1 reads, 272 sessions, avg 42s
 - / — 115 views, 5 reads, 118 sessions, avg 21s
-- /build — 82 views, 0 reads, 82 sessions
+- /build — 77 views, 0 reads, 77 sessions
 - /best/:cat — 41 views, 0 reads, 41 sessions, avg 5s
-- /alternatives/:tool — 34 views, 0 reads, 34 sessions, avg 5s
+- /alternatives/:tool — 30 views, 0 reads, 30 sessions, avg 5s
 - /agents.html — 24 views, 7 reads, 23 sessions, avg 87s
 - /submit.html — 21 views, 9 reads, 21 sessions, avg 76s
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
@@ -83,7 +83,7 @@ skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [stack] "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent" — 26 views but only 0 engaged reads (0.0%)
 - [wire] "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model" — 25 views but only 0 engaged reads (0.0%)
-- [stack] "Local LLM for Coding: The Best Models to Run on Your Own Machine (August 2026)" — 23 views but only 1 engaged reads (4.3%)
+- [stack] "Local LLM for Coding: The Best Models to Run on Your Own Machine (August 2026)" — 22 views but only 1 engaged reads (4.5%)
 - [wire] "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp" — 21 views but only 1 engaged reads (4.8%)
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 21 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in

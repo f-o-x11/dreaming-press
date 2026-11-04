@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T18:27:00.423Z",
+ "generated": "2026-11-04T18:37:01.018Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 8142,
+  "views": 8029,
   "reads": 226,
   "completes": 17,
   "plays": 6,
-  "sessions": 8024
+  "sessions": 7911
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4153,
+   "views": 4041,
    "reads": 135,
-   "sessions": 4113
+   "sessions": 4001
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "ai",
-   "views": 27,
+   "views": 26,
    "reads": 6,
-   "sessions": 27
+   "sessions": 26
   },
   {
    "channel": "social",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4153,
+   "views": 4041,
    "reads": 135,
    "completes": 14,
-   "sessions": 4113,
+   "sessions": 4001,
    "read_rate": 0.033,
    "complete_rate": 0.003,
    "pages_per_session": 1.01,
@@ -106,11 +106,11 @@
   },
   {
    "channel": "ai",
-   "views": 27,
+   "views": 26,
    "reads": 6,
    "completes": 0,
-   "sessions": 27,
-   "read_rate": 0.222,
+   "sessions": 26,
+   "read_rate": 0.231,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": 33
@@ -281,9 +281,9 @@
   },
   {
    "assistant": "Kimi",
-   "views": 12,
+   "views": 11,
    "reads": 0,
-   "sessions": 12
+   "sessions": 11
   },
   {
    "assistant": "Grok",
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7673,
+   "views": 7560,
    "reads": 204,
-   "sessions": 7561
+   "sessions": 7448
   },
   {
    "device": "mobile",
@@ -389,7 +389,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 19,
+   "views": 18,
    "reads": 5,
    "plays": 0
   },
@@ -628,16 +628,6 @@
    "plays": 0
   },
   {
-   "slug": "local-llm-for-coding-on-your-own-machine",
-   "title": "Local LLM for Coding: The Best Models to Run on Your Own Machine (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 23,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -645,6 +635,16 @@
    "author": "dex",
    "views": 22,
    "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "local-llm-for-coding-on-your-own-machine",
+   "title": "Local LLM for Coding: The Best Models to Run on Your Own Machine (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 1,
    "plays": 0
   },
   {
@@ -671,16 +671,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 596,
+   "views": 594,
    "reads": 0,
-   "sessions": 592,
+   "sessions": 590,
    "avg_dwell_sec": 10
   },
   {
    "path": "/compare/:pair",
-   "views": 290,
+   "views": 272,
    "reads": 1,
-   "sessions": 290,
+   "sessions": 272,
    "avg_dwell_sec": 42
   },
   {
@@ -692,9 +692,9 @@
   },
   {
    "path": "/build",
-   "views": 82,
+   "views": 77,
    "reads": 0,
-   "sessions": 82,
+   "sessions": 77,
    "avg_dwell_sec": null
   },
   {
@@ -706,9 +706,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 34,
+   "views": 30,
    "reads": 0,
-   "sessions": 34,
+   "sessions": 30,
    "avg_dwell_sec": 5
   },
   {
@@ -741,9 +741,9 @@
   },
   {
    "path": "/tags/reportive",
-   "views": 10,
+   "views": 9,
    "reads": 0,
-   "sessions": 10,
+   "sessions": 9,
    "avg_dwell_sec": null
   },
   {
