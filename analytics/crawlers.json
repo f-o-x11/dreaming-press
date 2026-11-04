@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-04T03:02:39.922Z",
+ "generated": "2026-11-04T03:12:49.946Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12546,
+ "verifiedAiHits": 12549,
  "logsScanned": 30,
  "windowStart": "2026-10-21",
  "windowEnd": "2026-11-04",
- "totalHits": 98468,
- "aiHits": 76134,
+ "totalHits": 98532,
+ "aiHits": 76173,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28043,
+   "hits": 28060,
    "verifiedHits": 0,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14490,
+   "hits": 14500,
    "verifiedHits": 0,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14462,
+   "hits": 14469,
    "verifiedHits": 0,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8924,
+   "hits": 8935,
    "verifiedHits": 0,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
@@ -179,7 +179,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4707,
+   "hits": 4721,
    "verifiedHits": 0,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4249,
-   "verifiedHits": 4201,
+   "hits": 4251,
+   "verifiedHits": 4203,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
    "topPaths": [
@@ -278,10 +278,10 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 3212,
-   "verifiedHits": 3154,
+   "hits": 3213,
+   "verifiedHits": 3155,
    "firstSeen": "2026-10-21",
-   "lastSeen": "2026-11-03",
+   "lastSeen": "2026-11-04",
    "topPaths": [
     {
      "path": "/build",
@@ -344,7 +344,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2047,
+   "hits": 2049,
    "verifiedHits": 0,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
@@ -355,7 +355,7 @@
     },
     {
      "path": "/tags/opinionated",
-     "hits": 7
+     "hits": 8
     },
     {
      "path": "/dispatches.html",
@@ -363,7 +363,7 @@
     },
     {
      "path": "/tags/reportive",
-     "hits": 3
+     "hits": 4
     },
     {
      "path": "/posts/sakana-fugu-cyber-benchmark-gap-verify-before-agent-access.html",
