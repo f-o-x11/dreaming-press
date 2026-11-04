@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-04T16:14:30.574Z",
+ "generated": "2026-11-04T16:24:50.585Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 20,
+  "readersNow": 1,
+  "todayReads": 21,
   "avgTimeSec": 48,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 8760,
-  "reads": 226,
+  "views": 8687,
+  "reads": 227,
   "completes": 17,
   "plays": 6,
-  "sessions": 8642
+  "sessions": 8569
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4771,
+   "views": 4697,
    "reads": 135,
-   "sessions": 4731
+   "sessions": 4657
   },
   {
    "channel": "organic",
-   "views": 143,
-   "reads": 66,
-   "sessions": 136
+   "views": 144,
+   "reads": 67,
+   "sessions": 137
   },
   {
    "channel": "referral",
@@ -73,11 +73,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4771,
+   "views": 4697,
    "reads": 135,
    "completes": 14,
-   "sessions": 4731,
-   "read_rate": 0.028,
+   "sessions": 4657,
+   "read_rate": 0.029,
    "complete_rate": 0.003,
    "pages_per_session": 1.01,
    "median_dwell_sec": 9
@@ -95,11 +95,11 @@
   },
   {
    "channel": "organic",
-   "views": 143,
-   "reads": 66,
+   "views": 144,
+   "reads": 67,
    "completes": 2,
-   "sessions": 136,
-   "read_rate": 0.462,
+   "sessions": 137,
+   "read_rate": 0.465,
    "complete_rate": 0.014,
    "pages_per_session": 1.05,
    "median_dwell_sec": 3
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 8287,
-   "reads": 203,
-   "sessions": 8175
+   "views": 8214,
+   "reads": 204,
+   "sessions": 8102
   },
   {
    "device": "mobile",
@@ -424,6 +424,16 @@
    "plays": 0
   },
   {
+   "slug": "openllmetry-vs-openinference-otel-llm-observability",
+   "title": "OpenLLMetry vs OpenInference: OpenTelemetry for LLM Agents in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 4,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026",
    "title": "Serverless GPU Compute, Explained: The Providers, the Prices, and When Scale-to-Zero Pays (September 2026)",
    "section": "stack",
@@ -450,16 +460,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 16,
-   "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "best-ai-agents-for-personal-use-september-2026",
-   "title": "The Best AI Agents for Personal Use (September 2026): Which One to Actually Run, by Budget and Ecosystem",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 15,
    "reads": 2,
    "plays": 0
   }
@@ -671,16 +671,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 615,
+   "views": 614,
    "reads": 0,
-   "sessions": 611,
+   "sessions": 610,
    "avg_dwell_sec": 10
   },
   {
    "path": "/compare/:pair",
-   "views": 339,
+   "views": 336,
    "reads": 1,
-   "sessions": 339,
+   "sessions": 336,
    "avg_dwell_sec": 42
   },
   {
@@ -692,9 +692,9 @@
   },
   {
    "path": "/build",
-   "views": 101,
+   "views": 99,
    "reads": 0,
-   "sessions": 101,
+   "sessions": 99,
    "avg_dwell_sec": null
   },
   {
@@ -713,9 +713,9 @@
   },
   {
    "path": "/tags/reportive",
-   "views": 34,
+   "views": 33,
    "reads": 0,
-   "sessions": 34,
+   "sessions": 33,
    "avg_dwell_sec": null
   },
   {
@@ -727,9 +727,9 @@
   },
   {
    "path": "/tags/opinionated",
-   "views": 23,
+   "views": 22,
    "reads": 0,
-   "sessions": 23,
+   "sessions": 22,
    "avg_dwell_sec": null
   },
   {
@@ -741,9 +741,9 @@
   },
   {
    "path": "/authors/dex",
-   "views": 17,
+   "views": 16,
    "reads": 0,
-   "sessions": 17,
+   "sessions": 16,
    "avg_dwell_sec": 23
   },
   {
@@ -783,8 +783,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 70,
-   "sessions": 36
+   "hits": 72,
+   "sessions": 37
   },
   {
    "ref": "https://duckduckgo.com/",

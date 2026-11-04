@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-04T16:14Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-04T16:24Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 8760 views → 226 engaged reads → 17 completes · 8642 sessions.
-- Channels: direct 135r/4771v · organic 66r/143v · referral 10r/3790v · campaign:chatgpt.com 8r/23v · ai 6r/27v · social 1r/2v · campaign:openai 0r/3v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 8687 views → 227 engaged reads → 17 completes · 8569 sessions.
+- Channels: direct 135r/4697v · organic 67r/144v · referral 10r/3790v · campaign:chatgpt.com 8r/23v · ai 6r/27v · social 1r/2v · campaign:openai 0r/3v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 9r/28v · Perplexity 2r/3v · Yuanbao 1r/2v · Le Chat 1r/1v · Doubao 1r/1v · Kimi 0r/12v · Grok 0r/2v.
 - Referrers: aocr.org, bing.com, duckduckgo.com, google.com, nav-cmp, cn.bing.com, search.brave.com, feature, youtube.com, perplexity.ai.
 - Engaged-read winners by section: stack=12, wire=3.
@@ -23,13 +23,13 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 4771 views · read 2.8% · complete 0.3% · 1.01 pages/session · median 9s
+- direct: 4697 views · read 2.9% · complete 0.3% · 1.01 pages/session · median 9s
 - referral: 3790 views · read 0.3% · complete 0.0% · 1 pages/session · median ?s
-- organic: 143 views · read 46.2% · complete 1.4% · 1.05 pages/session · median 3s
+- organic: 144 views · read 46.5% · complete 1.4% · 1.05 pages/session · median 3s
 - ai: 27 views · read 22.2% · complete 0.0% · 1 pages/session · median 33s
 - campaign:chatgpt.com: 23 views · read 34.8% · complete 0.0% · 1.35 pages/session · median ?s
 - campaign:openai: 3 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
-INSIGHT: organic converts 17x better per view than direct, which is 54% of all views.
+INSIGHT: organic converts 16x better per view than direct, which is 54% of all views.
 One visitor from organic is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
@@ -57,13 +57,13 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 615 views, 0 reads, 611 sessions, avg 10s
-- /compare/:pair — 339 views, 1 reads, 339 sessions, avg 42s
+- /stack/:tool — 614 views, 0 reads, 610 sessions, avg 10s
+- /compare/:pair — 336 views, 1 reads, 336 sessions, avg 42s
 - / — 116 views, 5 reads, 119 sessions, avg 21s
-- /build — 101 views, 0 reads, 101 sessions
+- /build — 99 views, 0 reads, 99 sessions
 - /best/:cat — 46 views, 0 reads, 46 sessions, avg 5s
 - /alternatives/:tool — 41 views, 0 reads, 41 sessions, avg 5s
-- /tags/reportive — 34 views, 0 reads, 34 sessions
+- /tags/reportive — 33 views, 0 reads, 33 sessions
 - /agents.html — 24 views, 7 reads, 23 sessions, avg 87s
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
