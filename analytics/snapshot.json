@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-04T12:00:43.476Z",
+ "generated": "2026-11-04T12:10:50.355Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 13,
+  "readersNow": 4,
+  "todayReads": 14,
   "avgTimeSec": 25,
   "postsThisWeek": 13
  },
  "funnel": {
   "views": 10489,
-  "reads": 225,
+  "reads": 226,
   "completes": 17,
   "plays": 7,
   "sessions": 10373
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 6495,
+   "views": 6494,
    "reads": 135,
-   "sessions": 6457
+   "sessions": 6456
   },
   {
    "channel": "organic",
-   "views": 142,
-   "reads": 64,
-   "sessions": 135
+   "views": 143,
+   "reads": 65,
+   "sessions": 136
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6495,
+   "views": 6494,
    "reads": 135,
    "completes": 14,
-   "sessions": 6457,
+   "sessions": 6456,
    "read_rate": 0.021,
    "complete_rate": 0.002,
    "pages_per_session": 1.01,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "organic",
-   "views": 142,
-   "reads": 64,
+   "views": 143,
+   "reads": 65,
    "completes": 2,
-   "sessions": 135,
-   "read_rate": 0.451,
+   "sessions": 136,
+   "read_rate": 0.455,
    "complete_rate": 0.014,
    "pages_per_session": 1.05,
    "median_dwell_sec": 3
@@ -296,7 +296,7 @@
   {
    "device": "desktop",
    "views": 10013,
-   "reads": 202,
+   "reads": 203,
    "sessions": 9902
   },
   {
@@ -648,6 +648,16 @@
    "plays": 0
   },
   {
+   "slug": "verl-vs-openrlhf-vs-trl",
+   "title": "verl vs OpenRLHF vs TRL: Choosing an RL Post-Training Framework in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 21,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "best-open-source-rl-frameworks-for-training-agents",
    "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
    "section": "stack",
@@ -655,16 +665,6 @@
    "author": "dex",
    "views": 21,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
-   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 1,
    "plays": 0
   }
  ],
@@ -793,8 +793,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 52,
-   "sessions": 28
+   "hits": 54,
+   "sessions": 29
   },
   {
    "ref": "nav-cmp",
