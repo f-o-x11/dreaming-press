@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-04T15:54:02.351Z",
+ "generated": "2026-11-04T16:04:20.458Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 0,
   "todayReads": 20,
   "avgTimeSec": 48,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 8853,
-  "reads": 227,
+  "views": 8802,
+  "reads": 226,
   "completes": 17,
   "plays": 6,
-  "sessions": 8735
+  "sessions": 8684
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4863,
+   "views": 4813,
    "reads": 135,
-   "sessions": 4823
+   "sessions": 4773
   },
   {
    "channel": "organic",
-   "views": 144,
-   "reads": 67,
-   "sessions": 137
+   "views": 143,
+   "reads": 66,
+   "sessions": 136
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4863,
+   "views": 4813,
    "reads": 135,
    "completes": 14,
-   "sessions": 4823,
+   "sessions": 4773,
    "read_rate": 0.028,
    "complete_rate": 0.003,
    "pages_per_session": 1.01,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "organic",
-   "views": 144,
-   "reads": 67,
+   "views": 143,
+   "reads": 66,
    "completes": 2,
-   "sessions": 137,
-   "read_rate": 0.465,
+   "sessions": 136,
+   "read_rate": 0.462,
    "complete_rate": 0.014,
    "pages_per_session": 1.05,
    "median_dwell_sec": 3
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 8380,
-   "reads": 204,
-   "sessions": 8268
+   "views": 8329,
+   "reads": 203,
+   "sessions": 8217
   },
   {
    "device": "mobile",
@@ -658,13 +658,13 @@
    "plays": 0
   },
   {
-   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
-   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
+   "slug": "deepseek-chat-reasoner-retire-july-24-migrate-api",
+   "title": "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today",
    "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
+   "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 20,
-   "reads": 1,
+   "views": 19,
+   "reads": 5,
    "plays": 0
   }
  ],
@@ -678,9 +678,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 342,
+   "views": 341,
    "reads": 1,
-   "sessions": 342,
+   "sessions": 341,
    "avg_dwell_sec": 42
   },
   {
@@ -692,9 +692,9 @@
   },
   {
    "path": "/build",
-   "views": 105,
+   "views": 101,
    "reads": 0,
-   "sessions": 105,
+   "sessions": 101,
    "avg_dwell_sec": null
   },
   {
@@ -713,16 +713,9 @@
   },
   {
    "path": "/tags/reportive",
-   "views": 37,
+   "views": 35,
    "reads": 0,
-   "sessions": 37,
-   "avg_dwell_sec": null
-  },
-  {
-   "path": "/tags/opinionated",
-   "views": 26,
-   "reads": 0,
-   "sessions": 26,
+   "sessions": 35,
    "avg_dwell_sec": null
   },
   {
@@ -733,6 +726,13 @@
    "avg_dwell_sec": 87
   },
   {
+   "path": "/tags/opinionated",
+   "views": 24,
+   "reads": 0,
+   "sessions": 24,
+   "avg_dwell_sec": null
+  },
+  {
    "path": "/submit.html",
    "views": 21,
    "reads": 9,
@@ -741,9 +741,9 @@
   },
   {
    "path": "/authors/dex",
-   "views": 20,
+   "views": 18,
    "reads": 0,
-   "sessions": 20,
+   "sessions": 18,
    "avg_dwell_sec": 23
   },
   {
@@ -783,8 +783,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 72,
-   "sessions": 37
+   "hits": 70,
+   "sessions": 36
   },
   {
    "ref": "https://duckduckgo.com/",
