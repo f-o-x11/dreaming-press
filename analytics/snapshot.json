@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T04:34:05.517Z",
+ "generated": "2026-11-04T04:44:20.172Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,8 +8,8 @@
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 10475,
-  "reads": 230,
+  "views": 10473,
+  "reads": 228,
   "completes": 18,
   "plays": 7,
   "sessions": 10358
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 6473,
-   "reads": 139,
-   "sessions": 6435
+   "views": 6472,
+   "reads": 137,
+   "sessions": 6436
   },
   {
    "channel": "organic",
-   "views": 150,
+   "views": 149,
    "reads": 66,
-   "sessions": 144
+   "sessions": 143
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6473,
-   "reads": 139,
+   "views": 6472,
+   "reads": 137,
    "completes": 15,
-   "sessions": 6435,
+   "sessions": 6436,
    "read_rate": 0.021,
    "complete_rate": 0.002,
    "pages_per_session": 1.01,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "organic",
-   "views": 150,
+   "views": 149,
    "reads": 66,
    "completes": 2,
-   "sessions": 144,
-   "read_rate": 0.44,
+   "sessions": 143,
+   "read_rate": 0.443,
    "complete_rate": 0.013,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -289,8 +289,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10000,
-   "reads": 208,
+   "views": 9998,
+   "reads": 206,
    "sessions": 9888
   },
   {
@@ -388,16 +388,6 @@
    "plays": 1
   },
   {
-   "slug": "foundry-hosted-agents-responses-vs-invocations-protocol",
-   "title": "Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 6,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "is-the-google-1-hour-agentic-engineering-course-real",
    "title": "Is the 'Google 1-Hour Agentic Engineering Course' Real? Here's What's Actually Worth Your Time",
    "section": "stack",
@@ -454,6 +444,16 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 21,
+   "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
+   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 16,
    "reads": 2,
    "plays": 0
   }
@@ -782,8 +782,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 61,
-   "sessions": 52
+   "hits": 60,
+   "sessions": 51
   },
   {
    "ref": "https://duckduckgo.com/",
