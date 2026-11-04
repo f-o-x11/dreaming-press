@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-04T22:42Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-04T22:52Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -94,7 +94,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 657 retrieval fetches
+- /  — 658 retrieval fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 145 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 114 retrieval fetches
 - /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 90 retrieval fetches
@@ -106,9 +106,9 @@ sample size dwarfs the engaged-read counts below.
 - /newsroom  — 20 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4407 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×114 · /posts/open-source-llm-for-coding-september-2026.html ×61 · /wire.html ×46
-- PerplexityBot (3610 verified): / ×25 · /newsroom ×20 · /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html ×19
-- ChatGPT-User (1844 verified): / ×632 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×145 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×51
+- OAI-SearchBot (4411 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×114 · /posts/open-source-llm-for-coding-september-2026.html ×61 · /wire.html ×46
+- PerplexityBot (3611 verified): / ×25 · /newsroom ×20 · /posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html ×19
+- ChatGPT-User (1845 verified): / ×633 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×145 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×51
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -145,9 +145,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 13019 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4407, Perplexity 3610, GPTBot (OpenAI) 3158, ChatGPT (user browsing) 1844).
+The real answer engines are crawling us — IP-verified: 13025 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4411, Perplexity 3611, GPTBot (OpenAI) 3158, ChatGPT (user browsing) 1845).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 507 crawler fetches
+- /build  — 511 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 222 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 134 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 133 crawler fetches
