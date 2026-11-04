@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-04T04:23:59.855Z",
+ "generated": "2026-11-04T04:34:05.230Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 12567,
  "logsScanned": 30,
  "windowStart": "2026-10-21",
  "windowEnd": "2026-11-04",
- "totalHits": 98822,
- "aiHits": 76349,
+ "totalHits": 98891,
+ "aiHits": 76401,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28123,
+   "hits": 28152,
    "verifiedHits": 0,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
@@ -43,44 +43,11 @@
    "verifiable": false
   },
   {
-   "name": "PetalBot",
-   "label": "Petal / Huawei",
-   "category": "ai",
-   "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14523,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-21",
-   "lastSeen": "2026-11-04",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 140
-    },
-    {
-     "path": "/wire.html",
-     "hits": 44
-    },
-    {
-     "path": "/tags/reportive",
-     "hits": 38
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 32
-    },
-    {
-     "path": "/stack.html",
-     "hits": 15
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Amazonbot",
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14523,
+   "hits": 14538,
    "verifiedHits": 0,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
@@ -109,11 +76,44 @@
    "verifiable": false
   },
   {
+   "name": "PetalBot",
+   "label": "Petal / Huawei",
+   "category": "ai",
+   "home": "https://webmaster.petalsearch.com/site/petalbot",
+   "hits": 14530,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-21",
+   "lastSeen": "2026-11-04",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 140
+    },
+    {
+     "path": "/wire.html",
+     "hits": 44
+    },
+    {
+     "path": "/tags/reportive",
+     "hits": 38
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 32
+    },
+    {
+     "path": "/stack.html",
+     "hits": 15
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Baiduspider",
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8974,
+   "hits": 8984,
    "verifiedHits": 0,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6785,
-   "verifiedHits": 6730,
+   "hits": 6792,
+   "verifiedHits": 6737,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2060,
+   "hits": 2061,
    "verifiedHits": 0,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
