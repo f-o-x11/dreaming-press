@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-11-04T07:27Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-04T07:37Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 10477 views → 228 engaged reads → 18 completes · 10361 sessions.
-- Channels: direct 136r/6477v · organic 66r/147v · referral 10r/3790v · campaign:chatgpt.com 8r/24v · ai 6r/32v · social 2r/3v · campaign:openai 0r/3v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 9r/29v · Perplexity 2r/3v · Yuanbao 1r/2v · Le Chat 1r/1v · Doubao 1r/1v · Kimi 0r/17v · Grok 0r/2v.
+- Funnel: 10476 views → 228 engaged reads → 18 completes · 10360 sessions.
+- Channels: direct 136r/6477v · organic 66r/147v · referral 10r/3790v · campaign:chatgpt.com 8r/23v · ai 6r/32v · social 2r/3v · campaign:openai 0r/3v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 9r/28v · Perplexity 2r/3v · Yuanbao 1r/2v · Le Chat 1r/1v · Doubao 1r/1v · Kimi 0r/17v · Grok 0r/2v.
 - Referrers: aocr.org, bing.com, google.com, duckduckgo.com, nav-cmp, cn.bing.com, search.brave.com, feature, youtube.com, qwant.com.
 - Engaged-read winners by section: stack=11, wire=4.
 
@@ -27,7 +27,7 @@ Volume and quality point in opposite directions here. Read the second column, no
 - referral: 3790 views · read 0.3% · complete 0.0% · 1 pages/session · median ?s
 - organic: 147 views · read 44.9% · complete 1.4% · 1.05 pages/session · median 3s
 - ai: 32 views · read 18.8% · complete 0.0% · 1 pages/session · median 33s
-- campaign:chatgpt.com: 24 views · read 33.3% · complete 0.0% · 1.33 pages/session · median ?s
+- campaign:chatgpt.com: 23 views · read 34.8% · complete 0.0% · 1.35 pages/session · median ?s
 - social: 3 views · read 66.7% · complete 0.0% · 1 pages/session · median ?s
 INSIGHT: organic converts 21x better per view than direct, which is 62% of all views.
 One visitor from organic is worth many from direct. Commission for the channels that read.
@@ -122,7 +122,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Uncovered search demand (242 of 454 phrases have NO post, 43h ago)
+## Uncovered search demand (242 of 454 phrases have NO post, 44h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -147,7 +147,7 @@ search intent, so put the answer in the first screen and use the phrasing in the
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 12614 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4236, Perplexity 3410, GPTBot (OpenAI) 3155, ChatGPT (user browsing) 1813).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 471 crawler fetches
+- /build  — 473 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 220 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 129 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 124 crawler fetches
