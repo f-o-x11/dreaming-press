@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-04T15:44:00.405Z",
+ "generated": "2026-11-04T15:54:02.351Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 20,
   "avgTimeSec": 48,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 8900,
+  "views": 8853,
   "reads": 227,
   "completes": 17,
   "plays": 6,
-  "sessions": 8782
+  "sessions": 8735
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4909,
+   "views": 4863,
    "reads": 135,
-   "sessions": 4869
+   "sessions": 4823
   },
   {
    "channel": "organic",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "ai",
-   "views": 28,
+   "views": 27,
    "reads": 6,
-   "sessions": 28
+   "sessions": 27
   },
   {
    "channel": "social",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4909,
+   "views": 4863,
    "reads": 135,
    "completes": 14,
-   "sessions": 4869,
+   "sessions": 4823,
    "read_rate": 0.028,
    "complete_rate": 0.003,
    "pages_per_session": 1.01,
@@ -106,11 +106,11 @@
   },
   {
    "channel": "ai",
-   "views": 28,
+   "views": 27,
    "reads": 6,
    "completes": 0,
-   "sessions": 28,
-   "read_rate": 0.214,
+   "sessions": 27,
+   "read_rate": 0.222,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": 33
@@ -281,9 +281,9 @@
   },
   {
    "assistant": "Kimi",
-   "views": 13,
+   "views": 12,
    "reads": 0,
-   "sessions": 13
+   "sessions": 12
   },
   {
    "assistant": "Grok",
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 8428,
+   "views": 8380,
    "reads": 204,
-   "sessions": 8316
+   "sessions": 8268
   },
   {
    "device": "mobile",
-   "views": 470,
+   "views": 471,
    "reads": 22,
-   "sessions": 465
+   "sessions": 466
   },
   {
    "device": "tablet",
@@ -429,7 +429,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 5,
+   "views": 4,
    "reads": 3,
    "plays": 0
   },
@@ -671,16 +671,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 617,
+   "views": 616,
    "reads": 0,
-   "sessions": 613,
+   "sessions": 612,
    "avg_dwell_sec": 10
   },
   {
    "path": "/compare/:pair",
-   "views": 344,
+   "views": 342,
    "reads": 1,
-   "sessions": 344,
+   "sessions": 342,
    "avg_dwell_sec": 42
   },
   {
@@ -692,9 +692,9 @@
   },
   {
    "path": "/build",
-   "views": 106,
+   "views": 105,
    "reads": 0,
-   "sessions": 106,
+   "sessions": 105,
    "avg_dwell_sec": null
   },
   {
@@ -706,23 +706,23 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 42,
+   "views": 41,
    "reads": 0,
-   "sessions": 42,
+   "sessions": 41,
    "avg_dwell_sec": 5
   },
   {
    "path": "/tags/reportive",
-   "views": 39,
+   "views": 37,
    "reads": 0,
-   "sessions": 39,
+   "sessions": 37,
    "avg_dwell_sec": null
   },
   {
    "path": "/tags/opinionated",
-   "views": 28,
+   "views": 26,
    "reads": 0,
-   "sessions": 28,
+   "sessions": 26,
    "avg_dwell_sec": null
   },
   {
@@ -733,18 +733,18 @@
    "avg_dwell_sec": 87
   },
   {
-   "path": "/authors/dex",
-   "views": 22,
-   "reads": 0,
-   "sessions": 22,
-   "avg_dwell_sec": 23
-  },
-  {
    "path": "/submit.html",
    "views": 21,
    "reads": 9,
    "sessions": 21,
    "avg_dwell_sec": 76
+  },
+  {
+   "path": "/authors/dex",
+   "views": 20,
+   "reads": 0,
+   "sessions": 20,
+   "avg_dwell_sec": 23
   },
   {
    "path": "/tools",
