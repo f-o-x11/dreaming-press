@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-04T22:01:06.220Z",
+ "generated": "2026-11-04T22:11:08.415Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
-  "todayReads": 22,
+  "todayReads": 23,
   "avgTimeSec": 49,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 7198,
-  "reads": 225,
+  "views": 7194,
+  "reads": 224,
   "completes": 17,
   "plays": 6,
-  "sessions": 7084
+  "sessions": 7080
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3209,
-   "reads": 133,
-   "sessions": 3174
+   "views": 3206,
+   "reads": 132,
+   "sessions": 3171
   },
   {
    "channel": "organic",
-   "views": 145,
+   "views": 144,
    "reads": 67,
-   "sessions": 138
+   "sessions": 137
   },
   {
    "channel": "referral",
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3209,
-   "reads": 133,
+   "views": 3206,
+   "reads": 132,
    "completes": 14,
-   "sessions": 3174,
+   "sessions": 3171,
    "read_rate": 0.041,
    "complete_rate": 0.004,
    "pages_per_session": 1.01,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "organic",
-   "views": 145,
+   "views": 144,
    "reads": 67,
    "completes": 2,
-   "sessions": 138,
-   "read_rate": 0.462,
+   "sessions": 137,
+   "read_rate": 0.465,
    "complete_rate": 0.014,
    "pages_per_session": 1.05,
    "median_dwell_sec": 3
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6744,
-   "reads": 204,
-   "sessions": 6632
+   "views": 6742,
+   "reads": 203,
+   "sessions": 6630
   },
   {
    "device": "mobile",
-   "views": 452,
+   "views": 450,
    "reads": 20,
-   "sessions": 451
+   "sessions": 449
   },
   {
    "device": "tablet",
@@ -334,16 +334,6 @@
    "plays": 0
   },
   {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 16,
-   "reads": 7,
-   "plays": 0
-  },
-  {
    "slug": "best-llm-for-creative-writing-october-2026",
    "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
    "section": "stack",
@@ -352,6 +342,16 @@
    "views": 34,
    "reads": 6,
    "plays": 1
+  },
+  {
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 15,
+   "reads": 6,
+   "plays": 0
   },
   {
    "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
@@ -391,6 +391,16 @@
    "author": "dex",
    "views": 18,
    "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -441,16 +451,6 @@
    "author": "dex",
    "views": 4,
    "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 2,
    "plays": 0
   },
   {
@@ -541,8 +541,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 16,
-   "reads": 7,
+   "views": 15,
+   "reads": 6,
    "plays": 0
   },
   {
@@ -634,7 +634,7 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 22,
-   "reads": 2,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -783,8 +783,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 73,
-   "sessions": 38
+   "hits": 72,
+   "sessions": 37
   },
   {
    "ref": "https://duckduckgo.com/",
