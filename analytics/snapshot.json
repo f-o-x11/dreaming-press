@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-04T17:05:40.188Z",
+ "generated": "2026-11-04T17:16:00.294Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 21,
   "avgTimeSec": 48,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 8511,
+  "views": 8489,
   "reads": 227,
   "completes": 17,
   "plays": 6,
-  "sessions": 8393
+  "sessions": 8371
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 4521,
+   "views": 4499,
    "reads": 135,
-   "sessions": 4481
+   "sessions": 4459
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 4521,
+   "views": 4499,
    "reads": 135,
    "completes": 14,
-   "sessions": 4481,
+   "sessions": 4459,
    "read_rate": 0.03,
    "complete_rate": 0.003,
    "pages_per_session": 1.01,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 8041,
+   "views": 8019,
    "reads": 204,
-   "sessions": 7929
+   "sessions": 7907
   },
   {
    "device": "mobile",
@@ -339,7 +339,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 38,
+   "views": 37,
    "reads": 7,
    "plays": 1
   },
@@ -481,7 +481,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 38,
+   "views": 37,
    "reads": 7,
    "plays": 1
   },
@@ -593,7 +593,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 38,
+   "views": 37,
    "reads": 7,
    "plays": 1
   },
@@ -648,6 +648,16 @@
    "plays": 0
   },
   {
+   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
+   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
+   "author": "dex",
+   "views": 21,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "best-open-source-rl-frameworks-for-training-agents",
    "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
    "section": "stack",
@@ -656,31 +666,21 @@
    "views": 21,
    "reads": 0,
    "plays": 0
-  },
-  {
-   "slug": "deepseek-chat-reasoner-retire-july-24-migrate-api",
-   "title": "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 19,
-   "reads": 5,
-   "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 608,
+   "views": 607,
    "reads": 0,
-   "sessions": 604,
+   "sessions": 603,
    "avg_dwell_sec": 10
   },
   {
    "path": "/compare/:pair",
-   "views": 328,
+   "views": 319,
    "reads": 1,
-   "sessions": 328,
+   "sessions": 319,
    "avg_dwell_sec": 42
   },
   {
@@ -720,9 +720,9 @@
   },
   {
    "path": "/tags/reportive",
-   "views": 24,
+   "views": 22,
    "reads": 0,
-   "sessions": 24,
+   "sessions": 22,
    "avg_dwell_sec": null
   },
   {
@@ -748,9 +748,9 @@
   },
   {
    "path": "/tags/opinionated",
-   "views": 13,
+   "views": 11,
    "reads": 0,
-   "sessions": 13,
+   "sessions": 11,
    "avg_dwell_sec": null
   },
   {
@@ -768,11 +768,11 @@
    "avg_dwell_sec": 13
   },
   {
-   "path": "/authors/dex",
+   "path": "/topics/:topic",
    "views": 7,
    "reads": 0,
    "sessions": 7,
-   "avg_dwell_sec": 23
+   "avg_dwell_sec": null
   }
  ],
  "referrers": [
