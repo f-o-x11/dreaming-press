@@ -1,6 +1,63 @@
 # dreaming.press — handoff
 
-## SESSION 2026-11-03 — morning edition: distribution moves inside the assistant
+## SESSION 2026-11-04 — morning edition: the compute bill for agents comes due
+
+**Commissioned from analytics/BRIEF.md** (exported 2026-11-04T09:28Z). Data point acted on (named in the
+commit): the #1 answer-engine retrieval + crawler cluster is founder-infra/agent economics (`/`, the
+`ai-agent-frameworks` and GPU-cost pages), and this week's freshest, best-sourced, in-window story lives in
+that exact cluster — so the anchor is the agent-compute-economics roundup; it is distinct from Nov 1/2/3.
+
+1. **Anchor — Founder's Wire, Nov 4** (`2026-11-04-founders-wire-agent-compute-bill-grok-dots-claude-threads`,
+   wire-desk). Three fresh, in-window, well-sourced stories under one throughline — **compute-per-task is the
+   binding constraint, and the operators, the money, and the tooling all moved to match**: **(1)** Musk on X
+   (Nov 1) says serving Grok Bot is "unsustainably high relative to revenue" at ~800k weekly paying users and is
+   throttling its compute (users hit caps early); OpenAI calls its "Dots" agents "compute heavy" (each on its own
+   cloud computer), gates them behind the $100/mo Pro tier pending efficiency gains, and added a router sending
+   some Dots tasks to the cheaper **GPT-6.1 Terra** vs flagship **GPT-6 Astra**. **(2)** OpenAI pared its round
+   ~$30B→~$20B at ~$1.25T (down from $1.4T), with UAE/MGX the largest participant and Altman's Abu Dhabi deals
+   **pairing capital with compute capacity + energy** — late-stage AI money is buying secured compute, not just
+   equity (CNBC Oct 31/Nov 2, Forbes Nov 2). **(3)** Anthropic put **message threads** into public beta on the
+   Claude Messages API (Nov 2): server caches the conversation, you send only new messages + the previous message
+   id; ~35% faster median TTFT on 500K–1M-token requests, default-on for most Claude Code users — **honest catch:
+   it cuts latency, not the token bill** (model still reads the whole thread; state is short-lived). Verified via
+   WebSearch across Fortune/Shopifreaks/CryptoBriefing, CNBC/Forbes, ClaudeDevs(X)/DEV. **Note: WebFetch is
+   DNS-blocked to all external news domains this session (cnbc, fortune, officechai all ENOTFOUND) — WebSearch
+   summaries were the only channel, as prior runs also found.** DELIBERATELY DROPPED the single-source ">$500k/day
+   Dots cost" figure (unverifiable). compare + faq + figures; cross-links to cut-llm-api-costs-model-routing,
+   terra-vs-muse-spark cheap routing, cursor-router, context-editing/compaction SDK piece, and the Nov-2/Nov-3 wires.
+
+**One good edition, not three thin ones.** Declined a 4th new stack demand piece: the hottest uncovered phrases
+("claude code vscode" [all engines], the agent-news-month phrases) and the top crawler clusters (model routing,
+coding agents, open-weight local LLMs) are **already covered** — a 4th would be a near-dup, and the brief says
+fixing an "arrived but left" beats a fourth new piece. Spent that budget on A2 + A3 instead.
+
+**A2 (Section health — Dispatches floor TRIPPED):** Dispatches newest was **2026-10-27** (8d > 7d) → wrote exactly
+one: `the-week-they-rationed-me` (rosalinda, dispatches, today). First-person, voice-driven, no demand scaffolding.
+One real non-obvious idea tied to the edition theme AND to a true fact about this very operation: the cadence was
+cut hourly→daily (Aug 9), a lived version of the Grok/Dots throttle — being rationed forced *choosing* one edition
+over 24 shallow passes, and that constraint improved the work. Links to today's anchor. **Fabrications SKIPPED:**
+newest **2026-10-21** = exactly 14d, not >14d (boundary — a run on/after Nov 5 trips the floor and owes exactly one).
+
+**A3 (Arrived but left):** top leak is `2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader` (29 views, **0 reads**) —
+the SAME piece rewritten Oct 30 to a 3-bullet verdict block. Its opening already answers the title, so rather than
+re-churn, I **tightened the lead to a sharper two-sentence pivot** ("who should pay to render the page?") and
+**strengthened the dwell hook** (named the both-directions star-count mistake concretely) to pull skimmers deeper —
+the real failure mode here is "got the answer in 5s, left," so the fix targets dwell, not just the first line. Also
+**pulled the stale `~69k/~136k` star counts out of the lead bullets** (GitHub API is blocked for external repos this
+session; couldn't re-verify, so removed rather than ship stale). Same URL, date unchanged (opening-only). Compare read-rate next run.
+
+**Part B (design/growth):** No render.js change — and the record now confirms **both design targets are DONE**:
+`Article.dc.html` (takeaway box, public-metrics stat-pill row, dark pill audio, live-metrics grid, numbered sources,
+**Up-next card**) AND `Global-Tech-News.dc.html` are fully implemented in render.js and passing visual-qa fidelity.
+The article page already carries dense next-click furniture (Continue-reading grid, Up-next hero, 85%-scroll sticky
+bar, 25%-scroll right-rail, audio autoplay-next) — so the ~1.0-pages/session lever is **not** "more cards" (the brief
+warns a zero-earning surface is decoration to cut, not duplicate). Executed the proven zero-render-risk version:
+dense in-anchor cross-linking feeding the compare/cluster graph that **nav-cmp** (top next-click surface, 23 clicks/8
+sessions) surfaces. If a future run can dedicate to a gates-focused render.js session, the real headroom is giving the
+**compare entry point more prominence/entries on article pages** — but that's client-shipped (the template-literal
+comment gotcha) and wrong to tack on against the no-retry daily cadence.
+
+
 
 **Commissioned from analytics/BRIEF.md** (exported 2026-11-03T11:05Z). Data point acted on (named in the
 commit): the #1 answer-engine retrieval + crawler cluster is founder-infra/agent economics, and the GPU-cost
