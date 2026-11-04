@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-04T14:32:30.688Z",
+ "generated": "2026-11-04T14:42:50.443Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 19,
   "avgTimeSec": 48,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 9373,
+  "views": 9225,
   "reads": 228,
   "completes": 17,
   "plays": 6,
-  "sessions": 9257
+  "sessions": 9108
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 5381,
+   "views": 5233,
    "reads": 135,
-   "sessions": 5345
+   "sessions": 5196
   },
   {
    "channel": "organic",
@@ -73,11 +73,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 5381,
+   "views": 5233,
    "reads": 135,
    "completes": 14,
-   "sessions": 5345,
-   "read_rate": 0.025,
+   "sessions": 5196,
+   "read_rate": 0.026,
    "complete_rate": 0.003,
    "pages_per_session": 1.01,
    "median_dwell_sec": 9
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 8904,
+   "views": 8754,
    "reads": 205,
-   "sessions": 8793
+   "sessions": 8642
   },
   {
    "device": "mobile",
-   "views": 467,
+   "views": 469,
    "reads": 22,
-   "sessions": 463
+   "sessions": 465
   },
   {
    "device": "tablet",
@@ -613,7 +613,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 27,
+   "views": 26,
    "reads": 0,
    "plays": 0
   },
@@ -648,18 +648,18 @@
    "plays": 0
   },
   {
-   "slug": "verl-vs-openrlhf-vs-trl",
-   "title": "verl vs OpenRLHF vs TRL: Choosing an RL Post-Training Framework in 2026",
+   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
+   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 21,
+   "views": 20,
    "reads": 1,
    "plays": 0
   },
   {
-   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
-   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
+   "slug": "verl-vs-openrlhf-vs-trl",
+   "title": "verl vs OpenRLHF vs TRL: Choosing an RL Post-Training Framework in 2026",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -671,16 +671,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 634,
+   "views": 625,
    "reads": 0,
-   "sessions": 630,
+   "sessions": 621,
    "avg_dwell_sec": 10
   },
   {
    "path": "/compare/:pair",
-   "views": 357,
+   "views": 355,
    "reads": 2,
-   "sessions": 357,
+   "sessions": 355,
    "avg_dwell_sec": 44
   },
   {
@@ -713,9 +713,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 45,
+   "views": 44,
    "reads": 0,
-   "sessions": 45,
+   "sessions": 44,
    "avg_dwell_sec": 5
   },
   {
