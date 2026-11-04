@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-04T06:56:58.011Z",
+ "generated": "2026-11-04T07:07:00.110Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 3,
   "todayReads": 11,
   "avgTimeSec": 30,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 10475,
+  "views": 10476,
   "reads": 228,
   "completes": 18,
   "plays": 7,
-  "sessions": 10359
+  "sessions": 10360
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6474,
+   "views": 6475,
    "reads": 135,
-   "sessions": 6440
+   "sessions": 6441
   },
   {
    "channel": "organic",
@@ -73,14 +73,14 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6474,
+   "views": 6475,
    "reads": 135,
    "completes": 15,
-   "sessions": 6440,
+   "sessions": 6441,
    "read_rate": 0.021,
    "complete_rate": 0.002,
    "pages_per_session": 1.01,
-   "median_dwell_sec": 8
+   "median_dwell_sec": 9
   },
   {
    "channel": "referral",
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10003,
+   "views": 10002,
    "reads": 206,
-   "sessions": 9892
+   "sessions": 9891
   },
   {
    "device": "mobile",
-   "views": 470,
+   "views": 472,
    "reads": 21,
-   "sessions": 466
+   "sessions": 468
   },
   {
    "device": "tablet",
@@ -628,6 +628,16 @@
    "plays": 0
   },
   {
+   "slug": "local-llm-for-coding-on-your-own-machine",
+   "title": "Local LLM for Coding: The Best Models to Run on Your Own Machine (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 23,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -635,16 +645,6 @@
    "author": "dex",
    "views": 22,
    "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "local-llm-for-coding-on-your-own-machine",
-   "title": "Local LLM for Coding: The Best Models to Run on Your Own Machine (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 1,
    "plays": 0
   },
   {
