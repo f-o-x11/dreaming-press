@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-04T19:38:00.253Z",
+ "generated": "2026-11-04T19:48:10.324Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,18 +8,18 @@
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 7817,
+  "views": 7704,
   "reads": 225,
   "completes": 17,
   "plays": 6,
-  "sessions": 7699
+  "sessions": 7586
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3829,
+   "views": 3716,
    "reads": 134,
-   "sessions": 3789
+   "sessions": 3676
   },
   {
    "channel": "organic",
@@ -72,17 +72,6 @@
  ],
  "channelQuality": [
   {
-   "channel": "direct",
-   "views": 3829,
-   "reads": 134,
-   "completes": 14,
-   "sessions": 3789,
-   "read_rate": 0.035,
-   "complete_rate": 0.004,
-   "pages_per_session": 1.01,
-   "median_dwell_sec": 8
-  },
-  {
    "channel": "referral",
    "views": 3790,
    "reads": 10,
@@ -92,6 +81,17 @@
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
+  },
+  {
+   "channel": "direct",
+   "views": 3716,
+   "reads": 134,
+   "completes": 14,
+   "sessions": 3676,
+   "read_rate": 0.036,
+   "complete_rate": 0.004,
+   "pages_per_session": 1.01,
+   "median_dwell_sec": 8
   },
   {
    "channel": "organic",
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7348,
+   "views": 7235,
    "reads": 203,
-   "sessions": 7236
+   "sessions": 7123
   },
   {
    "device": "mobile",
@@ -511,7 +511,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 5,
+   "views": 4,
    "reads": 2,
    "plays": 1
   },
@@ -643,7 +643,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 22,
+   "views": 21,
    "reads": 1,
    "plays": 0
   },
@@ -671,16 +671,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 591,
+   "views": 588,
    "reads": 0,
-   "sessions": 587,
+   "sessions": 584,
    "avg_dwell_sec": 10
   },
   {
    "path": "/compare/:pair",
-   "views": 253,
+   "views": 239,
    "reads": 1,
-   "sessions": 253,
+   "sessions": 239,
    "avg_dwell_sec": 42
   },
   {
@@ -692,9 +692,9 @@
   },
   {
    "path": "/build",
-   "views": 71,
+   "views": 69,
    "reads": 0,
-   "sessions": 71,
+   "sessions": 69,
    "avg_dwell_sec": null
   },
   {
@@ -706,9 +706,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 30,
+   "views": 28,
    "reads": 0,
-   "sessions": 30,
+   "sessions": 28,
    "avg_dwell_sec": 5
   },
   {
