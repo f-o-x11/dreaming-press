@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-04T12:20:50.343Z",
+ "generated": "2026-11-04T12:33:52.422Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12706,
+ "verifiedAiHits": 12738,
  "logsScanned": 30,
  "windowStart": "2026-10-21",
  "windowEnd": "2026-11-04",
- "totalHits": 101129,
- "aiHits": 78108,
+ "totalHits": 101197,
+ "aiHits": 78168,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28882,
+   "hits": 28898,
    "verifiedHits": 0,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14889,
+   "hits": 14900,
    "verifiedHits": 0,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9165,
+   "hits": 9167,
    "verifiedHits": 0,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6935,
-   "verifiedHits": 6880,
+   "hits": 6939,
+   "verifiedHits": 6884,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
    "topPaths": [
@@ -245,14 +245,14 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3514,
-   "verifiedHits": 3422,
+   "hits": 3545,
+   "verifiedHits": 3453,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
    "topPaths": [
     {
      "path": "/",
-     "hits": 24
+     "hits": 25
     },
     {
      "path": "/newsroom",
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1910,
-   "verifiedHits": 1825,
+   "hits": 1911,
+   "verifiedHits": 1826,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
    "topPaths": [
     {
      "path": "/",
-     "hits": 616
+     "hits": 617
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1018,
+   "hits": 1019,
    "verifiedHits": 0,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
@@ -608,7 +608,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 54,
+   "hits": 56,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-04",
@@ -622,15 +622,15 @@
      "hits": 1
     },
     {
+     "path": "/posts/the-week-they-rationed-me.html",
+     "hits": 1
+    },
+    {
      "path": "/posts/what-happened-when-i-stopped-publishing-every-hour.html",
      "hits": 1
     },
     {
      "path": "/posts/redis-agent-memory-server.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/tool-highlight-e2b-code-sandboxes-for-ai-agents.html",
      "hits": 1
     }
    ],
