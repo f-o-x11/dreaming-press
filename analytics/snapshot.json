@@ -1,30 +1,30 @@
 {
- "generated": "2026-11-04T13:31:34.390Z",
+ "generated": "2026-11-04T13:41:41.769Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
-  "todayReads": 18,
-  "avgTimeSec": 46,
+  "readersNow": 11,
+  "todayReads": 19,
+  "avgTimeSec": 48,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 9725,
-  "reads": 229,
+  "views": 9691,
+  "reads": 230,
   "completes": 17,
   "plays": 7,
-  "sessions": 9608
+  "sessions": 9575
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 5730,
+   "views": 5696,
    "reads": 137,
-   "sessions": 5692
+   "sessions": 5660
   },
   {
    "channel": "organic",
    "views": 145,
-   "reads": 66,
+   "reads": 67,
    "sessions": 138
   },
   {
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 5730,
+   "views": 5696,
    "reads": 137,
    "completes": 14,
-   "sessions": 5692,
+   "sessions": 5660,
    "read_rate": 0.024,
    "complete_rate": 0.002,
    "pages_per_session": 1.01,
@@ -96,10 +96,10 @@
   {
    "channel": "organic",
    "views": 145,
-   "reads": 66,
+   "reads": 67,
    "completes": 2,
    "sessions": 138,
-   "read_rate": 0.455,
+   "read_rate": 0.462,
    "complete_rate": 0.014,
    "pages_per_session": 1.05,
    "median_dwell_sec": 3
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9253,
-   "reads": 206,
-   "sessions": 9141
+   "views": 9219,
+   "reads": 207,
+   "sessions": 9108
   },
   {
    "device": "mobile",
@@ -319,7 +319,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 76,
+   "views": 75,
    "reads": 13,
    "plays": 1
   },
@@ -339,7 +339,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 37,
+   "views": 38,
    "reads": 7,
    "plays": 1
   },
@@ -459,7 +459,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 16,
+   "views": 15,
    "reads": 2,
    "plays": 0
   }
@@ -471,7 +471,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 76,
+   "views": 75,
    "reads": 13,
    "plays": 1
   },
@@ -481,7 +481,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 37,
+   "views": 38,
    "reads": 7,
    "plays": 1
   },
@@ -573,7 +573,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 76,
+   "views": 75,
    "reads": 13,
    "plays": 1
   },
@@ -593,7 +593,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 37,
+   "views": 38,
    "reads": 7,
    "plays": 1
   },
@@ -671,23 +671,23 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 655,
+   "views": 654,
    "reads": 0,
-   "sessions": 651,
+   "sessions": 650,
    "avg_dwell_sec": 11
   },
   {
    "path": "/compare/:pair",
-   "views": 372,
+   "views": 371,
    "reads": 2,
-   "sessions": 372,
+   "sessions": 371,
    "avg_dwell_sec": 44
   },
   {
    "path": "/build",
-   "views": 132,
+   "views": 125,
    "reads": 0,
-   "sessions": 132,
+   "sessions": 125,
    "avg_dwell_sec": null
   },
   {
@@ -713,16 +713,16 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 49,
+   "views": 48,
    "reads": 0,
-   "sessions": 49,
+   "sessions": 48,
    "avg_dwell_sec": 5
   },
   {
    "path": "/tags/opinionated",
-   "views": 49,
+   "views": 48,
    "reads": 0,
-   "sessions": 49,
+   "sessions": 48,
    "avg_dwell_sec": null
   },
   {
@@ -733,18 +733,18 @@
    "avg_dwell_sec": 23
   },
   {
-   "path": "/stack.html",
-   "views": 25,
-   "reads": 0,
-   "sessions": 25,
-   "avg_dwell_sec": 12
-  },
-  {
    "path": "/agents.html",
    "views": 24,
    "reads": 7,
    "sessions": 23,
    "avg_dwell_sec": 87
+  },
+  {
+   "path": "/stack.html",
+   "views": 24,
+   "reads": 0,
+   "sessions": 24,
+   "avg_dwell_sec": 12
   },
   {
    "path": "/submit.html",
@@ -793,7 +793,7 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 57,
+   "hits": 58,
    "sessions": 31
   },
   {
