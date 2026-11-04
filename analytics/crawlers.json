@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-04T04:03:29.889Z",
+ "generated": "2026-11-04T04:13:49.901Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12562,
+ "verifiedAiHits": 12564,
  "logsScanned": 30,
  "windowStart": "2026-10-21",
  "windowEnd": "2026-11-04",
- "totalHits": 98760,
- "aiHits": 76308,
+ "totalHits": 98788,
+ "aiHits": 76324,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28117,
+   "hits": 28118,
    "verifiedHits": 0,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
@@ -38,6 +38,39 @@
     {
      "path": "/posts/rag-vs-long-context.html",
      "hits": 14
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "PetalBot",
+   "label": "Petal / Huawei",
+   "category": "ai",
+   "home": "https://webmaster.petalsearch.com/site/petalbot",
+   "hits": 14515,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-21",
+   "lastSeen": "2026-11-04",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 140
+    },
+    {
+     "path": "/wire.html",
+     "hits": 44
+    },
+    {
+     "path": "/tags/reportive",
+     "hits": 38
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 32
+    },
+    {
+     "path": "/stack.html",
+     "hits": 15
     }
    ],
    "verifiable": false
@@ -76,44 +109,11 @@
    "verifiable": false
   },
   {
-   "name": "PetalBot",
-   "label": "Petal / Huawei",
-   "category": "ai",
-   "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14505,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-21",
-   "lastSeen": "2026-11-04",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 140
-    },
-    {
-     "path": "/wire.html",
-     "hits": 44
-    },
-    {
-     "path": "/tags/reportive",
-     "hits": 38
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 32
-    },
-    {
-     "path": "/stack.html",
-     "hits": 15
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Baiduspider",
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8961,
+   "hits": 8970,
    "verifiedHits": 0,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6779,
-   "verifiedHits": 6724,
+   "hits": 6781,
+   "verifiedHits": 6726,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3485,
-   "verifiedHits": 3393,
+   "hits": 3486,
+   "verifiedHits": 3394,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
    "topPaths": [
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1886,
-   "verifiedHits": 1801,
+   "hits": 1887,
+   "verifiedHits": 1802,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 982,
+   "hits": 985,
    "verifiedHits": 0,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
@@ -476,8 +476,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 653,
-   "verifiedHits": 553,
+   "hits": 654,
+   "verifiedHits": 554,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
    "topPaths": [
