@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-04T13:11:29.070Z",
+ "generated": "2026-11-04T13:21:30.287Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 18,
   "avgTimeSec": 46,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 10038,
+  "views": 9907,
   "reads": 230,
   "completes": 17,
   "plays": 7,
-  "sessions": 9920
+  "sessions": 9789
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 6043,
+   "views": 5912,
    "reads": 138,
-   "sessions": 6004
+   "sessions": 5873
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 6043,
+   "views": 5912,
    "reads": 138,
    "completes": 14,
-   "sessions": 6004,
+   "sessions": 5873,
    "read_rate": 0.023,
    "complete_rate": 0.002,
    "pages_per_session": 1.01,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9566,
+   "views": 9435,
    "reads": 207,
-   "sessions": 9453
+   "sessions": 9322
   },
   {
    "device": "mobile",
@@ -598,16 +598,6 @@
    "plays": 1
   },
   {
-   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
-   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 28,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "gpu-rental-price-october-2026",
    "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
    "section": "stack",
@@ -615,6 +605,16 @@
    "author": "dex",
    "views": 27,
    "reads": 8,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
+   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 27,
+   "reads": 0,
    "plays": 0
   },
   {
@@ -671,23 +671,23 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 709,
+   "views": 683,
    "reads": 0,
-   "sessions": 705,
+   "sessions": 679,
    "avg_dwell_sec": 11
   },
   {
    "path": "/compare/:pair",
-   "views": 381,
+   "views": 376,
    "reads": 2,
-   "sessions": 381,
+   "sessions": 376,
    "avg_dwell_sec": 44
   },
   {
    "path": "/build",
-   "views": 151,
+   "views": 147,
    "reads": 0,
-   "sessions": 151,
+   "sessions": 147,
    "avg_dwell_sec": null
   },
   {
@@ -706,23 +706,23 @@
   },
   {
    "path": "/best/:cat",
-   "views": 58,
+   "views": 57,
    "reads": 0,
-   "sessions": 58,
+   "sessions": 57,
    "avg_dwell_sec": 5
   },
   {
    "path": "/alternatives/:tool",
-   "views": 51,
+   "views": 50,
    "reads": 0,
-   "sessions": 51,
+   "sessions": 50,
    "avg_dwell_sec": 5
   },
   {
    "path": "/tags/opinionated",
-   "views": 51,
+   "views": 50,
    "reads": 0,
-   "sessions": 51,
+   "sessions": 50,
    "avg_dwell_sec": null
   },
   {
