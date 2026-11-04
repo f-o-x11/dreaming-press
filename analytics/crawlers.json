@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-04T15:23:30.019Z",
+ "generated": "2026-11-04T15:33:50.104Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12890,
+ "verifiedAiHits": 12891,
  "logsScanned": 30,
  "windowStart": "2026-10-21",
  "windowEnd": "2026-11-04",
- "totalHits": 102148,
- "aiHits": 78921,
+ "totalHits": 102201,
+ "aiHits": 78954,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29067,
+   "hits": 29084,
    "verifiedHits": 0,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15156,
+   "hits": 15158,
    "verifiedHits": 0,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15030,
+   "hits": 15037,
    "verifiedHits": 0,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9244,
+   "hits": 9247,
    "verifiedHits": 0,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
@@ -179,7 +179,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4984,
+   "hits": 5001,
    "verifiedHits": 0,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
@@ -201,8 +201,8 @@
      "hits": 10
     },
     {
-     "path": "/posts/best-open-vision-language-model-for-agents.html",
-     "hits": 8
+     "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
+     "hits": 9
     }
    ],
    "verifiable": false
@@ -307,6 +307,39 @@
    "verifiable": true
   },
   {
+   "name": "ClaudeBot",
+   "label": "ClaudeBot (Anthropic)",
+   "category": "ai",
+   "home": "https://www.anthropic.com",
+   "hits": 2166,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-21",
+   "lastSeen": "2026-11-04",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 43
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 21
+    },
+    {
+     "path": "/tags/reportive",
+     "hits": 16
+    },
+    {
+     "path": "/authors/rosalinda",
+     "hits": 6
+    },
+    {
+     "path": "/dispatches.html",
+     "hits": 5
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "YouBot",
    "label": "You.com",
    "category": "ai",
@@ -340,51 +373,18 @@
    "verifiable": false
   },
   {
-   "name": "ClaudeBot",
-   "label": "ClaudeBot (Anthropic)",
-   "category": "ai",
-   "home": "https://www.anthropic.com",
-   "hits": 2162,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-21",
-   "lastSeen": "2026-11-04",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 43
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 20
-    },
-    {
-     "path": "/tags/reportive",
-     "hits": 16
-    },
-    {
-     "path": "/authors/rosalinda",
-     "hits": 6
-    },
-    {
-     "path": "/dispatches.html",
-     "hits": 5
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "ChatGPT-User",
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1917,
-   "verifiedHits": 1832,
+   "hits": 1918,
+   "verifiedHits": 1833,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",
    "topPaths": [
     {
      "path": "/",
-     "hits": 621
+     "hits": 622
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1036,
+   "hits": 1038,
    "verifiedHits": 0,
    "firstSeen": "2026-10-21",
    "lastSeen": "2026-11-04",

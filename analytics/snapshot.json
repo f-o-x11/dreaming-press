@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-04T15:23:30.328Z",
+ "generated": "2026-11-04T15:33:50.421Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
-  "todayReads": 19,
+  "todayReads": 20,
   "avgTimeSec": 48,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 9023,
-  "reads": 227,
+  "views": 8959,
+  "reads": 228,
   "completes": 17,
   "plays": 6,
-  "sessions": 8905
+  "sessions": 8841
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 5032,
+   "views": 4967,
    "reads": 135,
-   "sessions": 4993
+   "sessions": 4928
   },
   {
    "channel": "organic",
-   "views": 143,
-   "reads": 66,
-   "sessions": 136
+   "views": 144,
+   "reads": 67,
+   "sessions": 137
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 5032,
+   "views": 4967,
    "reads": 135,
    "completes": 14,
-   "sessions": 4993,
+   "sessions": 4928,
    "read_rate": 0.027,
    "complete_rate": 0.003,
    "pages_per_session": 1.01,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "organic",
-   "views": 143,
-   "reads": 66,
+   "views": 144,
+   "reads": 67,
    "completes": 2,
-   "sessions": 136,
-   "read_rate": 0.462,
+   "sessions": 137,
+   "read_rate": 0.465,
    "complete_rate": 0.014,
    "pages_per_session": 1.05,
    "median_dwell_sec": 3
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 8551,
-   "reads": 204,
-   "sessions": 8439
+   "views": 8487,
+   "reads": 205,
+   "sessions": 8375
   },
   {
    "device": "mobile",
@@ -671,16 +671,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 622,
+   "views": 619,
    "reads": 0,
-   "sessions": 618,
+   "sessions": 615,
    "avg_dwell_sec": 10
   },
   {
    "path": "/compare/:pair",
-   "views": 347,
+   "views": 346,
    "reads": 2,
-   "sessions": 347,
+   "sessions": 346,
    "avg_dwell_sec": 44
   },
   {
@@ -692,9 +692,9 @@
   },
   {
    "path": "/build",
-   "views": 108,
+   "views": 107,
    "reads": 0,
-   "sessions": 108,
+   "sessions": 107,
    "avg_dwell_sec": null
   },
   {
@@ -705,13 +705,6 @@
    "avg_dwell_sec": 5
   },
   {
-   "path": "/tags/reportive",
-   "views": 43,
-   "reads": 0,
-   "sessions": 43,
-   "avg_dwell_sec": null
-  },
-  {
    "path": "/alternatives/:tool",
    "views": 42,
    "reads": 0,
@@ -719,18 +712,18 @@
    "avg_dwell_sec": 5
   },
   {
-   "path": "/tags/opinionated",
-   "views": 32,
+   "path": "/tags/reportive",
+   "views": 41,
    "reads": 0,
-   "sessions": 32,
+   "sessions": 41,
    "avg_dwell_sec": null
   },
   {
-   "path": "/authors/dex",
-   "views": 26,
+   "path": "/tags/opinionated",
+   "views": 30,
    "reads": 0,
-   "sessions": 26,
-   "avg_dwell_sec": 23
+   "sessions": 30,
+   "avg_dwell_sec": null
   },
   {
    "path": "/agents.html",
@@ -738,6 +731,13 @@
    "reads": 7,
    "sessions": 23,
    "avg_dwell_sec": 87
+  },
+  {
+   "path": "/authors/dex",
+   "views": 24,
+   "reads": 0,
+   "sessions": 24,
+   "avg_dwell_sec": 23
   },
   {
    "path": "/submit.html",
@@ -787,14 +787,14 @@
    "sessions": 37
   },
   {
+   "ref": "https://duckduckgo.com/",
+   "hits": 59,
+   "sessions": 31
+  },
+  {
    "ref": "https://www.google.com/",
    "hits": 58,
    "sessions": 49
-  },
-  {
-   "ref": "https://duckduckgo.com/",
-   "hits": 57,
-   "sessions": 30
   },
   {
    "ref": "nav-cmp",
