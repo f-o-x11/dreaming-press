@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-05T05:06:54.182Z",
+ "generated": "2026-11-05T05:17:00.070Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 16,
-  "todayReads": 7,
+  "readersNow": 27,
+  "todayReads": 8,
   "avgTimeSec": 8,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 7287,
-  "reads": 225,
+  "views": 7310,
+  "reads": 226,
   "completes": 17,
   "plays": 7,
-  "sessions": 7176
+  "sessions": 7198
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3255,
-   "reads": 134,
-   "sessions": 3220
+   "views": 3257,
+   "reads": 135,
+   "sessions": 3221
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 3841,
+   "views": 3862,
    "reads": 10,
-   "sessions": 3840
+   "sessions": 3861
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 3841,
+   "views": 3862,
    "reads": 10,
    "completes": 0,
-   "sessions": 3840,
+   "sessions": 3861,
    "read_rate": 0.003,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3255,
-   "reads": 134,
+   "views": 3257,
+   "reads": 135,
    "completes": 14,
-   "sessions": 3220,
+   "sessions": 3221,
    "read_rate": 0.041,
    "complete_rate": 0.004,
    "pages_per_session": 1.01,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6836,
-   "reads": 204,
-   "sessions": 6727
+   "views": 6859,
+   "reads": 205,
+   "sessions": 6749
   },
   {
    "device": "mobile",
@@ -399,8 +399,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 11,
-   "reads": 4,
+   "views": 13,
+   "reads": 5,
    "plays": 1
   },
   {
@@ -410,6 +410,16 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 22,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "how-to-combine-context-editing-compaction-memory-subagents-agent-sdk",
+   "title": "How to Combine Context Editing, Compaction, Memory, and Subagents in One Claude Agent SDK Loop",
+   "section": "stack",
+   "tags": "[\"tutorial\",\"howto\",\"context-management\",\"agent-sdk\",\"ai-agents\"]",
+   "author": "dex",
+   "views": 12,
    "reads": 3,
    "plays": 0
   },
@@ -430,16 +440,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 12,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "how-to-combine-context-editing-compaction-memory-subagents-agent-sdk",
-   "title": "How to Combine Context Editing, Compaction, Memory, and Subagents in One Claude Agent SDK Loop",
-   "section": "stack",
-   "tags": "[\"tutorial\",\"howto\",\"context-management\",\"agent-sdk\",\"ai-agents\"]",
-   "author": "dex",
-   "views": 11,
    "reads": 3,
    "plays": 0
   },
@@ -501,8 +501,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 11,
-   "reads": 4,
+   "views": 13,
+   "reads": 5,
    "plays": 1
   },
   {
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 588,
+   "views": 589,
    "reads": 0,
-   "sessions": 584,
+   "sessions": 585,
    "avg_dwell_sec": 10
   },
   {
@@ -692,9 +692,9 @@
   },
   {
    "path": "/build",
-   "views": 64,
+   "views": 65,
    "reads": 0,
-   "sessions": 64,
+   "sessions": 65,
    "avg_dwell_sec": null
   },
   {
@@ -713,9 +713,9 @@
   },
   {
    "path": "/agents.html",
-   "views": 23,
+   "views": 24,
    "reads": 7,
-   "sessions": 22,
+   "sessions": 23,
    "avg_dwell_sec": 94
   },
   {
@@ -741,9 +741,9 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 9,
+   "views": 10,
    "reads": 0,
-   "sessions": 9,
+   "sessions": 10,
    "avg_dwell_sec": null
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3835,
-   "sessions": 3828
+   "hits": 3856,
+   "sessions": 3849
   },
   {
    "ref": "https://www.bing.com/",
