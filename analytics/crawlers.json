@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-05T13:03:49.847Z",
+ "generated": "2026-11-05T13:13:59.923Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12169,
+ "verifiedAiHits": 12170,
  "logsScanned": 30,
  "windowStart": "2026-10-22",
  "windowEnd": "2026-11-05",
- "totalHits": 101936,
- "aiHits": 78703,
+ "totalHits": 101973,
+ "aiHits": 78731,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28423,
+   "hits": 28440,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16104,
+   "hits": 16108,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9380,
+   "hits": 9381,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -179,7 +179,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5055,
+   "hits": 5063,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -311,14 +311,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2234,
+   "hits": 2240,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
     {
      "path": "/tags/opinionated",
-     "hits": 46
+     "hits": 47
     },
     {
      "path": "/build",
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1694,
-   "verifiedHits": 1614,
+   "hits": 1695,
+   "verifiedHits": 1615,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
     {
      "path": "/",
-     "hits": 583
+     "hits": 584
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
