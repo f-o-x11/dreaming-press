@@ -1,16 +1,16 @@
-# Analytics brief — auto-exported 2026-11-05T17:08Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-05T17:18Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 8421 views → 253 engaged reads → 17 completes · 8297 sessions.
-- Channels: direct 157r/3328v · organic 63r/133v · referral 21r/4910v · campaign:chatgpt.com 7r/22v · ai 5r/23v · campaign:openai 0r/3v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 8431 views → 251 engaged reads → 17 completes · 8308 sessions.
+- Channels: direct 156r/3315v · organic 62r/133v · referral 21r/4933v · campaign:chatgpt.com 7r/22v · ai 5r/23v · campaign:openai 0r/3v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 8r/27v · Perplexity 2r/3v · Le Chat 1r/1v · Doubao 1r/1v · Kimi 0r/10v · Grok 0r/2v · Yuanbao 0r/1v.
 - Referrers: aocr.org, bing.com, duckduckgo.com, google.com, nav-cmp, search.brave.com, cn.bing.com, feature, perplexity.ai, article-body.
 - Engaged-read winners by section: wire=5, stack=10.
 
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
-- nav-cmp: 16 clicks from 6 sessions
+- nav-cmp: 15 clicks from 5 sessions
 - feature: 6 clicks from 2 sessions
 - article-body: 4 clicks from 4 sessions
 - f-cols: 2 clicks from 1 sessions
@@ -23,13 +23,13 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- referral: 4910 views · read 0.4% · complete 0.0% · 1 pages/session · median ?s
-- direct: 3328 views · read 4.7% · complete 0.4% · 1.02 pages/session · median 8s
-- organic: 133 views · read 47.4% · complete 1.5% · 1.04 pages/session · median 3s
+- referral: 4933 views · read 0.4% · complete 0.0% · 1 pages/session · median ?s
+- direct: 3315 views · read 4.7% · complete 0.4% · 1.02 pages/session · median 8s
+- organic: 133 views · read 46.6% · complete 1.5% · 1.05 pages/session · median 3s
 - ai: 23 views · read 21.7% · complete 0.0% · 1 pages/session · median 8s
 - campaign:chatgpt.com: 22 views · read 31.8% · complete 0.0% · 1.38 pages/session · median ?s
 - campaign:openai: 3 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
-INSIGHT: organic converts 10x better per view than direct, which is 40% of all views.
+INSIGHT: organic converts 10x better per view than direct, which is 39% of all views.
 One visitor from organic is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
@@ -58,14 +58,14 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 696 views, 0 reads, 692 sessions, avg 11s
-- /compare/:pair — 242 views, 0 reads, 242 sessions, avg 16s
-- /build — 132 views, 0 reads, 132 sessions
-- / — 111 views, 3 reads, 113 sessions, avg 19s
+- /stack/:tool — 694 views, 0 reads, 690 sessions, avg 11s
+- /compare/:pair — 241 views, 0 reads, 241 sessions, avg 16s
+- /build — 133 views, 0 reads, 133 sessions
+- / — 110 views, 3 reads, 112 sessions, avg 19s
 - /best/:cat — 43 views, 0 reads, 43 sessions, avg 5s
-- /topics/:topic — 28 views, 0 reads, 28 sessions
 - /agents.html — 27 views, 7 reads, 26 sessions, avg 94s
 - /alternatives/:tool — 27 views, 0 reads, 27 sessions, avg 5s
+- /topics/:topic — 27 views, 0 reads, 27 sessions
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
 
@@ -101,14 +101,14 @@ sample size dwarfs the engaged-read counts below.
 - /posts/open-source-coding-llm-license-hardware-map-october-2026.html  — 82 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 59 retrieval fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 48 retrieval fetches
-- /wire.html  — 43 retrieval fetches
+- /wire.html  — 44 retrieval fetches
 - /posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html  — 34 retrieval fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 27 retrieval fetches
 - /newsroom  — 21 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4325 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×106 · /posts/open-source-llm-for-coding-september-2026.html ×59 · /wire.html ×43
-- PerplexityBot (3648 verified): / ×25 · /newsroom ×21 · /posts/claude-code-vscode-extension-setup-october-2026.html ×18
+- OAI-SearchBot (4329 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×106 · /posts/open-source-llm-for-coding-september-2026.html ×59 · /wire.html ×44
+- PerplexityBot (3658 verified): / ×25 · /newsroom ×21 · /posts/claude-code-vscode-extension-setup-october-2026.html ×18
 - ChatGPT-User (1628 verified): / ×592 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×129 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×48
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -146,7 +146,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12326 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4325, Perplexity 3648, GPTBot (OpenAI) 2725, ChatGPT (user browsing) 1628).
+The real answer engines are crawling us — IP-verified: 12340 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4329, Perplexity 3658, GPTBot (OpenAI) 2725, ChatGPT (user browsing) 1628).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 488 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 207 crawler fetches

@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-05T17:07:59.780Z",
+ "generated": "2026-11-05T17:18:19.858Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12326,
+ "verifiedAiHits": 12340,
  "logsScanned": 30,
  "windowStart": "2026-10-22",
  "windowEnd": "2026-11-05",
- "totalHits": 111539,
- "aiHits": 88088,
+ "totalHits": 111935,
+ "aiHits": 88472,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28745,
+   "hits": 28750,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15275,
+   "hits": 15282,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9467,
+   "hits": 9475,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -146,7 +146,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 8922,
+   "hits": 9278,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6936,
-   "verifiedHits": 6880,
+   "hits": 6939,
+   "verifiedHits": 6883,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4378,
-   "verifiedHits": 4325,
+   "hits": 4382,
+   "verifiedHits": 4329,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
@@ -260,7 +260,7 @@
     },
     {
      "path": "/wire.html",
-     "hits": 43
+     "hits": 44
     },
     {
      "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3746,
-   "verifiedHits": 3648,
+   "hits": 3756,
+   "verifiedHits": 3658,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 685,
-   "verifiedHits": 573,
+   "hits": 686,
+   "verifiedHits": 574,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
@@ -575,7 +575,7 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 154,
+   "hits": 156,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -589,16 +589,16 @@
      "hits": 11
     },
     {
+     "path": "/posts/coding-agent-edit-formats-diff-vs-whole-file.html",
+     "hits": 3
+    },
+    {
      "path": "/posts/spot-vs-on-demand-gpu-when-interruptible-pays.html",
      "hits": 3
     },
     {
      "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
      "hits": 3
-    },
-    {
-     "path": "/z9x8c7v6b5-debug-trigger-www.dreaming.press",
-     "hits": 2
     }
    ],
    "verifiable": false
