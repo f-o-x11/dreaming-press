@@ -1,37 +1,37 @@
 {
- "generated": "2026-11-05T10:21:20.326Z",
+ "generated": "2026-11-05T10:31:30.187Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 22,
-  "todayReads": 37,
-  "avgTimeSec": 27,
+  "readersNow": 23,
+  "todayReads": 38,
+  "avgTimeSec": 23,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 7806,
-  "reads": 252,
+  "views": 7824,
+  "reads": 253,
   "completes": 17,
   "plays": 7,
-  "sessions": 7680
+  "sessions": 7697
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3305,
-   "reads": 153,
-   "sessions": 3253
+   "views": 3307,
+   "reads": 154,
+   "sessions": 3256
   },
   {
    "channel": "organic",
-   "views": 138,
+   "views": 140,
    "reads": 67,
-   "sessions": 131
+   "sessions": 133
   },
   {
    "channel": "referral",
-   "views": 4313,
+   "views": 4327,
    "reads": 19,
-   "sessions": 4312
+   "sessions": 4326
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 4313,
+   "views": 4327,
    "reads": 19,
    "completes": 0,
-   "sessions": 4312,
+   "sessions": 4326,
    "read_rate": 0.004,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,22 +84,22 @@
   },
   {
    "channel": "direct",
-   "views": 3305,
-   "reads": 153,
+   "views": 3307,
+   "reads": 154,
    "completes": 14,
-   "sessions": 3253,
-   "read_rate": 0.046,
+   "sessions": 3256,
+   "read_rate": 0.047,
    "complete_rate": 0.004,
    "pages_per_session": 1.02,
    "median_dwell_sec": 8
   },
   {
    "channel": "organic",
-   "views": 138,
+   "views": 140,
    "reads": 67,
    "completes": 2,
-   "sessions": 131,
-   "read_rate": 0.486,
+   "sessions": 133,
+   "read_rate": 0.479,
    "complete_rate": 0.014,
    "pages_per_session": 1.05,
    "median_dwell_sec": 3
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7358,
-   "reads": 231,
-   "sessions": 7234
+   "views": 7376,
+   "reads": 232,
+   "sessions": 7251
   },
   {
    "device": "mobile",
@@ -319,8 +319,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 47,
-   "reads": 24,
+   "views": 49,
+   "reads": 25,
    "plays": 1
   },
   {
@@ -454,12 +454,12 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
-   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
-   "section": "wire",
+   "slug": "serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026",
+   "title": "Serverless GPU Compute, Explained: The Providers, the Prices, and When Scale-to-Zero Pays (September 2026)",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 6,
+   "author": "dex",
+   "views": 7,
    "reads": 3,
    "plays": 0
   }
@@ -471,8 +471,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 47,
-   "reads": 24,
+   "views": 49,
+   "reads": 25,
    "plays": 1
   },
   {
@@ -593,8 +593,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 47,
-   "reads": 24,
+   "views": 49,
+   "reads": 25,
    "plays": 1
   },
   {
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 633,
+   "views": 634,
    "reads": 0,
-   "sessions": 629,
+   "sessions": 630,
    "avg_dwell_sec": 11
   },
   {
@@ -692,9 +692,9 @@
   },
   {
    "path": "/build",
-   "views": 85,
+   "views": 88,
    "reads": 0,
-   "sessions": 85,
+   "sessions": 88,
    "avg_dwell_sec": null
   },
   {
@@ -778,13 +778,13 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 4316,
-   "sessions": 4300
+   "hits": 4330,
+   "sessions": 4314
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 68,
-   "sessions": 35
+   "hits": 70,
+   "sessions": 37
   },
   {
    "ref": "https://duckduckgo.com/",
