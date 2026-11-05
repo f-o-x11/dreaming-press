@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-05T04:56:49.800Z",
+ "generated": "2026-11-05T05:06:53.895Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12030,
+ "verifiedAiHits": 12062,
  "logsScanned": 30,
  "windowStart": "2026-10-22",
  "windowEnd": "2026-11-05",
- "totalHits": 100087,
- "aiHits": 77337,
+ "totalHits": 100131,
+ "aiHits": 77378,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27769,
+   "hits": 27773,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15646,
+   "hits": 15648,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9196,
+   "hits": 9197,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6730,
-   "verifiedHits": 6675,
+   "hits": 6732,
+   "verifiedHits": 6677,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4283,
-   "verifiedHits": 4233,
+   "hits": 4287,
+   "verifiedHits": 4237,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3567,
-   "verifiedHits": 3473,
+   "hits": 3594,
+   "verifiedHits": 3500,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
@@ -255,11 +255,11 @@
      "hits": 24
     },
     {
-     "path": "/posts/claude-code-vscode-extension-setup-october-2026.html",
-     "hits": 18
+     "path": "/newsroom",
+     "hits": 19
     },
     {
-     "path": "/newsroom",
+     "path": "/posts/claude-code-vscode-extension-setup-october-2026.html",
      "hits": 18
     },
     {
@@ -307,6 +307,39 @@
    "verifiable": true
   },
   {
+   "name": "ClaudeBot",
+   "label": "ClaudeBot (Anthropic)",
+   "category": "ai",
+   "home": "https://www.anthropic.com",
+   "hits": 2164,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-22",
+   "lastSeen": "2026-11-05",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 41
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 36
+    },
+    {
+     "path": "/tags/reportive",
+     "hits": 20
+    },
+    {
+     "path": "/authors/rosalinda",
+     "hits": 6
+    },
+    {
+     "path": "/dispatches.html",
+     "hits": 5
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "YouBot",
    "label": "You.com",
    "category": "ai",
@@ -340,51 +373,18 @@
    "verifiable": false
   },
   {
-   "name": "ClaudeBot",
-   "label": "ClaudeBot (Anthropic)",
-   "category": "ai",
-   "home": "https://www.anthropic.com",
-   "hits": 2161,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-22",
-   "lastSeen": "2026-11-05",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 41
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 35
-    },
-    {
-     "path": "/tags/reportive",
-     "hits": 20
-    },
-    {
-     "path": "/authors/rosalinda",
-     "hits": 6
-    },
-    {
-     "path": "/dispatches.html",
-     "hits": 5
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "ChatGPT-User",
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1680,
-   "verifiedHits": 1600,
+   "hits": 1681,
+   "verifiedHits": 1601,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
     {
      "path": "/",
-     "hits": 571
+     "hits": 572
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
