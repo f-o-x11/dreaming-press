@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-05T21:02:20.516Z",
+ "generated": "2026-11-05T21:12:40.487Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 34,
+  "readersNow": 26,
   "todayReads": 49,
   "avgTimeSec": 29,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 8901,
-  "reads": 253,
+  "views": 8917,
+  "reads": 252,
   "completes": 17,
   "plays": 6,
-  "sessions": 8780
+  "sessions": 8796
  },
  "channels": [
   {
@@ -29,15 +29,15 @@
   },
   {
    "channel": "referral",
-   "views": 5419,
+   "views": 5436,
    "reads": 24,
-   "sessions": 5420
+   "sessions": 5437
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 20,
-   "reads": 7,
-   "sessions": 16
+   "views": 19,
+   "reads": 6,
+   "sessions": 15
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 5419,
+   "views": 5436,
    "reads": 24,
    "completes": 0,
-   "sessions": 5420,
+   "sessions": 5437,
    "read_rate": 0.004,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -117,13 +117,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 20,
-   "reads": 7,
+   "views": 19,
+   "reads": 6,
    "completes": 0,
-   "sessions": 16,
-   "read_rate": 0.35,
+   "sessions": 15,
+   "read_rate": 0.316,
    "complete_rate": 0,
-   "pages_per_session": 1.25,
+   "pages_per_session": 1.27,
    "median_dwell_sec": null
   },
   {
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 24,
-   "reads": 8,
-   "sessions": 16
+   "views": 23,
+   "reads": 7,
+   "sessions": 15
   },
   {
    "assistant": "Perplexity",
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 8465,
-   "reads": 232,
-   "sessions": 8346
+   "views": 8481,
+   "reads": 231,
+   "sessions": 8362
   },
   {
    "device": "mobile",
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 730,
+   "views": 732,
    "reads": 0,
-   "sessions": 726,
+   "sessions": 728,
    "avg_dwell_sec": 11
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 5431,
-   "sessions": 5410
+   "hits": 5448,
+   "sessions": 5427
   },
   {
    "ref": "https://www.bing.com/",
