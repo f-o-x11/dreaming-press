@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-05T07:18:46.285Z",
+ "generated": "2026-11-05T07:29:00.430Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 25,
+  "readersNow": 21,
   "todayReads": 23,
   "avgTimeSec": 33,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 7471,
+  "views": 7487,
   "reads": 240,
   "completes": 17,
   "plays": 7,
-  "sessions": 7349
+  "sessions": 7365
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3286,
+   "views": 3289,
    "reads": 145,
-   "sessions": 3241
+   "sessions": 3244
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 3994,
+   "views": 4007,
    "reads": 14,
-   "sessions": 3993
+   "sessions": 4006
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,21 +73,21 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 3994,
+   "views": 4007,
    "reads": 14,
    "completes": 0,
-   "sessions": 3993,
-   "read_rate": 0.004,
+   "sessions": 4006,
+   "read_rate": 0.003,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
   {
    "channel": "direct",
-   "views": 3286,
+   "views": 3289,
    "reads": 145,
    "completes": 14,
-   "sessions": 3241,
+   "sessions": 3244,
    "read_rate": 0.044,
    "complete_rate": 0.004,
    "pages_per_session": 1.01,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7016,
+   "views": 7032,
    "reads": 219,
-   "sessions": 6895
+   "sessions": 6911
   },
   {
    "device": "mobile",
@@ -389,7 +389,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 52,
+   "views": 53,
    "reads": 5,
    "plays": 1
   },
@@ -501,7 +501,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 52,
+   "views": 53,
    "reads": 5,
    "plays": 1
   },
@@ -583,7 +583,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 52,
+   "views": 53,
    "reads": 5,
    "plays": 1
   },
@@ -648,20 +648,20 @@
    "plays": 0
   },
   {
-   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
-   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
    "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
+   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 21,
    "reads": 1,
@@ -671,16 +671,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 597,
+   "views": 598,
    "reads": 0,
-   "sessions": 593,
+   "sessions": 594,
    "avg_dwell_sec": 10
   },
   {
    "path": "/compare/:pair",
-   "views": 212,
+   "views": 213,
    "reads": 0,
-   "sessions": 212,
+   "sessions": 213,
    "avg_dwell_sec": 18
   },
   {
@@ -705,18 +705,18 @@
    "avg_dwell_sec": 5
   },
   {
+   "path": "/agents.html",
+   "views": 26,
+   "reads": 7,
+   "sessions": 25,
+   "avg_dwell_sec": 94
+  },
+  {
    "path": "/alternatives/:tool",
    "views": 26,
    "reads": 0,
    "sessions": 26,
    "avg_dwell_sec": 5
-  },
-  {
-   "path": "/agents.html",
-   "views": 25,
-   "reads": 7,
-   "sessions": 24,
-   "avg_dwell_sec": 94
   },
   {
    "path": "/submit.html",
@@ -726,18 +726,18 @@
    "avg_dwell_sec": 76
   },
   {
+   "path": "/tools",
+   "views": 15,
+   "reads": 1,
+   "sessions": 8,
+   "avg_dwell_sec": 18
+  },
+  {
    "path": "/about.html",
    "views": 14,
    "reads": 0,
    "sessions": 8,
    "avg_dwell_sec": 11
-  },
-  {
-   "path": "/tools",
-   "views": 14,
-   "reads": 1,
-   "sessions": 7,
-   "avg_dwell_sec": 18
   },
   {
    "path": "/topics/:topic",
@@ -761,25 +761,25 @@
    "avg_dwell_sec": null
   },
   {
+   "path": "/authors/dex",
+   "views": 6,
+   "reads": 0,
+   "sessions": 6,
+   "avg_dwell_sec": 23
+  },
+  {
    "path": "/posts",
    "views": 6,
    "reads": 0,
    "sessions": 6,
    "avg_dwell_sec": null
-  },
-  {
-   "path": "/authors/dex",
-   "views": 5,
-   "reads": 0,
-   "sessions": 5,
-   "avg_dwell_sec": 23
   }
  ],
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3992,
-   "sessions": 3981
+   "hits": 4005,
+   "sessions": 3994
   },
   {
    "ref": "https://www.bing.com/",
