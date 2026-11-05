@@ -1,24 +1,24 @@
 {
- "generated": "2026-11-05T06:17:54.639Z",
+ "generated": "2026-11-05T06:28:00.239Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
-  "todayReads": 12,
+  "readersNow": 9,
+  "todayReads": 13,
   "avgTimeSec": 8,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 7380,
-  "reads": 230,
+  "views": 7387,
+  "reads": 231,
   "completes": 17,
   "plays": 7,
-  "sessions": 7265
+  "sessions": 7270
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3264,
-   "reads": 138,
+   "views": 3266,
+   "reads": 139,
    "sessions": 3225
   },
   {
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 3925,
+   "views": 3930,
    "reads": 11,
-   "sessions": 3924
+   "sessions": 3929
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 3925,
+   "views": 3930,
    "reads": 11,
    "completes": 0,
-   "sessions": 3924,
+   "sessions": 3929,
    "read_rate": 0.003,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "direct",
-   "views": 3264,
-   "reads": 138,
+   "views": 3266,
+   "reads": 139,
    "completes": 14,
    "sessions": 3225,
-   "read_rate": 0.042,
+   "read_rate": 0.043,
    "complete_rate": 0.004,
    "pages_per_session": 1.01,
    "median_dwell_sec": 8
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6928,
-   "reads": 209,
-   "sessions": 6815
+   "views": 6935,
+   "reads": 210,
+   "sessions": 6820
   },
   {
    "device": "mobile",
@@ -324,6 +324,16 @@
    "plays": 1
   },
   {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 21,
+   "reads": 9,
+   "plays": 1
+  },
+  {
    "slug": "gpu-rental-price-october-2026",
    "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
    "section": "stack",
@@ -332,16 +342,6 @@
    "views": 27,
    "reads": 8,
    "plays": 0
-  },
-  {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 19,
-   "reads": 8,
-   "plays": 1
   },
   {
    "slug": "best-llm-for-creative-writing-october-2026",
@@ -481,8 +481,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 19,
-   "reads": 8,
+   "views": 21,
+   "reads": 9,
    "plays": 1
   },
   {
@@ -638,6 +638,16 @@
    "plays": 0
   },
   {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 21,
+   "reads": 9,
+   "plays": 1
+  },
+  {
    "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
    "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
    "section": "stack",
@@ -655,16 +665,6 @@
    "author": "dex",
    "views": 21,
    "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "best-open-source-rl-frameworks-for-training-agents",
-   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 0,
    "plays": 0
   }
  ],
@@ -687,7 +687,7 @@
    "path": "/",
    "views": 114,
    "reads": 4,
-   "sessions": 117,
+   "sessions": 116,
    "avg_dwell_sec": 20
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3920,
-   "sessions": 3912
+   "hits": 3925,
+   "sessions": 3917
   },
   {
    "ref": "https://www.bing.com/",
