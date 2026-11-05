@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-05T05:47:20.089Z",
+ "generated": "2026-11-05T05:57:39.858Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 25,
-  "todayReads": 9,
+  "readersNow": 9,
+  "todayReads": 10,
   "avgTimeSec": 8,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 7364,
-  "reads": 227,
+  "views": 7371,
+  "reads": 228,
   "completes": 17,
   "plays": 7,
-  "sessions": 7252
+  "sessions": 7258
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3256,
-   "reads": 135,
-   "sessions": 3220
+   "views": 3259,
+   "reads": 136,
+   "sessions": 3222
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 3917,
+   "views": 3921,
    "reads": 11,
-   "sessions": 3916
+   "sessions": 3920
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 3917,
+   "views": 3921,
    "reads": 11,
    "completes": 0,
-   "sessions": 3916,
+   "sessions": 3920,
    "read_rate": 0.003,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "direct",
-   "views": 3256,
-   "reads": 135,
+   "views": 3259,
+   "reads": 136,
    "completes": 14,
-   "sessions": 3220,
-   "read_rate": 0.041,
+   "sessions": 3222,
+   "read_rate": 0.042,
    "complete_rate": 0.004,
    "pages_per_session": 1.01,
    "median_dwell_sec": 8
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6912,
-   "reads": 206,
-   "sessions": 6802
+   "views": 6919,
+   "reads": 207,
+   "sessions": 6808
   },
   {
    "device": "mobile",
@@ -340,6 +340,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 34,
+   "reads": 6,
+   "plays": 1
+  },
+  {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 15,
    "reads": 6,
    "plays": 1
   },
@@ -392,16 +402,6 @@
    "views": 18,
    "reads": 5,
    "plays": 0
-  },
-  {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 13,
-   "reads": 5,
-   "plays": 1
   },
   {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
@@ -486,22 +486,22 @@
    "plays": 1
   },
   {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 15,
+   "reads": 6,
+   "plays": 1
+  },
+  {
    "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
    "title": "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 52,
-   "reads": 5,
-   "plays": 1
-  },
-  {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 13,
    "reads": 5,
    "plays": 1
   },
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3912,
-   "sessions": 3904
+   "hits": 3916,
+   "sessions": 3908
   },
   {
    "ref": "https://www.bing.com/",
