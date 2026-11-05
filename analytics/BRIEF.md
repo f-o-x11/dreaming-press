@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-05T18:29Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-05T18:39Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 8582 views → 250 engaged reads → 17 completes · 8459 sessions.
-- Channels: direct 156r/3313v · organic 61r/132v · referral 21r/5087v · campaign:chatgpt.com 7r/22v · ai 5r/23v · campaign:openai 0r/3v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 8597 views → 250 engaged reads → 17 completes · 8474 sessions.
+- Channels: direct 156r/3313v · organic 61r/132v · referral 21r/5102v · campaign:chatgpt.com 7r/22v · ai 5r/23v · campaign:openai 0r/3v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 8r/27v · Perplexity 2r/3v · Le Chat 1r/1v · Doubao 1r/1v · Kimi 0r/10v · Grok 0r/2v · Yuanbao 0r/1v.
 - Referrers: aocr.org, bing.com, duckduckgo.com, google.com, nav-cmp, cn.bing.com, feature, perplexity.ai, search.brave.com, article-body.
 - Engaged-read winners by section: wire=5, stack=10.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- referral: 5087 views · read 0.4% · complete 0.0% · 1 pages/session · median ?s
+- referral: 5102 views · read 0.4% · complete 0.0% · 1 pages/session · median ?s
 - direct: 3313 views · read 4.7% · complete 0.4% · 1.02 pages/session · median 8s
 - organic: 132 views · read 46.2% · complete 1.5% · 1.05 pages/session · median 3s
 - ai: 23 views · read 21.7% · complete 0.0% · 1 pages/session · median 8s
@@ -107,7 +107,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - OAI-SearchBot (4351 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×106 · /posts/open-source-llm-for-coding-september-2026.html ×59 · /wire.html ×44
-- PerplexityBot (3660 verified): / ×25 · /newsroom ×21 · /posts/claude-code-vscode-extension-setup-october-2026.html ×18
+- PerplexityBot (3661 verified): / ×25 · /newsroom ×21 · /posts/claude-code-vscode-extension-setup-october-2026.html ×18
 - ChatGPT-User (1630 verified): / ×594 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×129 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×48
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -145,12 +145,12 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12366 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4351, Perplexity 3660, GPTBot (OpenAI) 2725, ChatGPT (user browsing) 1630).
+The real answer engines are crawling us — IP-verified: 12367 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4351, Perplexity 3661, GPTBot (OpenAI) 2725, ChatGPT (user browsing) 1630).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 488 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 207 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 133 crawler fetches
-- /posts/best-llm-for-creative-writing-october-2026.html  — 128 crawler fetches
+- /posts/best-llm-for-creative-writing-october-2026.html  — 129 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 106 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 93 crawler fetches
 - /posts/gpu-rental-price-october-2026.html  — 88 crawler fetches
