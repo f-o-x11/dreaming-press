@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-05T01:14:19.791Z",
+ "generated": "2026-11-05T01:24:29.810Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11791,
+ "verifiedAiHits": 11987,
  "logsScanned": 30,
  "windowStart": "2026-10-22",
  "windowEnd": "2026-11-05",
- "totalHits": 99001,
- "aiHits": 76549,
+ "totalHits": 99237,
+ "aiHits": 76769,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27461,
+   "hits": 27476,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15029,
+   "hits": 15037,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9080,
+   "hits": 9087,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6672,
-   "verifiedHits": 6617,
+   "hits": 6673,
+   "verifiedHits": 6618,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4826,
+   "hits": 4834,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4253,
-   "verifiedHits": 4203,
+   "hits": 4255,
+   "verifiedHits": 4205,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
@@ -245,14 +245,18 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3365,
-   "verifiedHits": 3271,
+   "hits": 3559,
+   "verifiedHits": 3465,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
     {
      "path": "/",
-     "hits": 23
+     "hits": 24
+    },
+    {
+     "path": "/posts/claude-code-vscode-extension-setup-october-2026.html",
+     "hits": 18
     },
     {
      "path": "/newsroom",
@@ -264,10 +268,6 @@
     },
     {
      "path": "/posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html",
-     "hits": 17
-    },
-    {
-     "path": "/posts/claude-code-vscode-extension-setup-october-2026.html",
      "hits": 17
     }
    ],
@@ -377,7 +377,7 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1672,
+   "hits": 1673,
    "verifiedHits": 1594,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
