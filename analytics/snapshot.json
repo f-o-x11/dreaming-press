@@ -1,37 +1,37 @@
 {
- "generated": "2026-11-05T16:06:42.422Z",
+ "generated": "2026-11-05T16:16:51.001Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 27,
+  "readersNow": 35,
   "todayReads": 45,
   "avgTimeSec": 19,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 8307,
-  "reads": 254,
+  "views": 8331,
+  "reads": 253,
   "completes": 17,
   "plays": 7,
-  "sessions": 8182
+  "sessions": 8206
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3351,
-   "reads": 158,
-   "sessions": 3295
+   "views": 3350,
+   "reads": 157,
+   "sessions": 3293
   },
   {
    "channel": "organic",
-   "views": 135,
+   "views": 134,
    "reads": 63,
-   "sessions": 129
+   "sessions": 128
   },
   {
    "channel": "referral",
-   "views": 4772,
+   "views": 4798,
    "reads": 21,
-   "sessions": 4773
+   "sessions": 4799
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 4772,
+   "views": 4798,
    "reads": 21,
    "completes": 0,
-   "sessions": 4773,
+   "sessions": 4799,
    "read_rate": 0.004,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3351,
-   "reads": 158,
+   "views": 3350,
+   "reads": 157,
    "completes": 14,
-   "sessions": 3295,
+   "sessions": 3293,
    "read_rate": 0.047,
    "complete_rate": 0.004,
    "pages_per_session": 1.02,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "organic",
-   "views": 135,
+   "views": 134,
    "reads": 63,
    "completes": 2,
-   "sessions": 129,
-   "read_rate": 0.467,
+   "sessions": 128,
+   "read_rate": 0.47,
    "complete_rate": 0.015,
    "pages_per_session": 1.05,
    "median_dwell_sec": 3
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7866,
-   "reads": 233,
-   "sessions": 7743
+   "views": 7890,
+   "reads": 232,
+   "sessions": 7767
   },
   {
    "device": "mobile",
@@ -399,7 +399,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 15,
+   "views": 14,
    "reads": 5,
    "plays": 0
   },
@@ -434,16 +434,6 @@
    "plays": 0
   },
   {
-   "slug": "openllmetry-vs-openinference-otel-llm-observability",
-   "title": "OpenLLMetry vs OpenInference: OpenTelemetry for LLM Agents in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 7,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026",
    "title": "Serverless GPU Compute, Explained: The Providers, the Prices, and When Scale-to-Zero Pays (September 2026)",
    "section": "stack",
@@ -459,6 +449,16 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
+   "views": 6,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "is-the-google-1-hour-agentic-engineering-course-real",
+   "title": "Is the 'Google 1-Hour Agentic Engineering Course' Real? Here's What's Actually Worth Your Time",
+   "section": "stack",
+   "tags": "[\"reportive\",\"practical\"]",
+   "author": "abe",
    "views": 6,
    "reads": 3,
    "plays": 0
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 682,
+   "views": 685,
    "reads": 0,
-   "sessions": 678,
+   "sessions": 681,
    "avg_dwell_sec": 11
   },
   {
@@ -685,9 +685,9 @@
   },
   {
    "path": "/build",
-   "views": 120,
+   "views": 123,
    "reads": 0,
-   "sessions": 120,
+   "sessions": 123,
    "avg_dwell_sec": null
   },
   {
@@ -720,9 +720,9 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 26,
+   "views": 27,
    "reads": 0,
-   "sessions": 26,
+   "sessions": 27,
    "avg_dwell_sec": null
   },
   {
@@ -778,13 +778,13 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 4781,
-   "sessions": 4763
+   "hits": 4807,
+   "sessions": 4789
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 68,
-   "sessions": 36
+   "hits": 67,
+   "sessions": 35
   },
   {
    "ref": "https://duckduckgo.com/",
