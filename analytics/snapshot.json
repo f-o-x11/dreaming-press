@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-05T21:43:07.236Z",
+ "generated": "2026-11-05T21:53:10.310Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 22,
+  "readersNow": 27,
   "todayReads": 49,
   "avgTimeSec": 29,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 8969,
+  "views": 8988,
   "reads": 251,
   "completes": 17,
   "plays": 6,
-  "sessions": 8848
+  "sessions": 8867
  },
  "channels": [
   {
@@ -23,15 +23,15 @@
   },
   {
    "channel": "organic",
-   "views": 131,
+   "views": 130,
    "reads": 60,
-   "sessions": 125
+   "sessions": 124
   },
   {
    "channel": "referral",
-   "views": 5488,
+   "views": 5508,
    "reads": 24,
-   "sessions": 5489
+   "sessions": 5509
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 5488,
+   "views": 5508,
    "reads": 24,
    "completes": 0,
-   "sessions": 5489,
+   "sessions": 5509,
    "read_rate": 0.004,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "organic",
-   "views": 131,
+   "views": 130,
    "reads": 60,
    "completes": 2,
-   "sessions": 125,
-   "read_rate": 0.458,
+   "sessions": 124,
+   "read_rate": 0.462,
    "complete_rate": 0.015,
    "pages_per_session": 1.05,
    "median_dwell_sec": 3
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 8530,
+   "views": 8549,
    "reads": 230,
-   "sessions": 8411
+   "sessions": 8430
   },
   {
    "device": "mobile",
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 736,
+   "views": 738,
    "reads": 0,
-   "sessions": 732,
+   "sessions": 734,
    "avg_dwell_sec": 11
   },
   {
@@ -685,9 +685,9 @@
   },
   {
    "path": "/build",
-   "views": 166,
+   "views": 167,
    "reads": 0,
-   "sessions": 166,
+   "sessions": 167,
    "avg_dwell_sec": null
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 5500,
-   "sessions": 5479
+   "hits": 5520,
+   "sessions": 5499
   },
   {
    "ref": "https://www.bing.com/",
@@ -793,8 +793,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 52,
-   "sessions": 44
+   "hits": 51,
+   "sessions": 43
   },
   {
    "ref": "nav-cmp",
