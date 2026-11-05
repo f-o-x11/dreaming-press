@@ -1,37 +1,37 @@
 {
- "generated": "2026-11-05T17:38:30.408Z",
+ "generated": "2026-11-05T17:48:42.118Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 35,
+  "readersNow": 37,
   "todayReads": 45,
   "avgTimeSec": 17,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 8481,
-  "reads": 251,
+  "views": 8503,
+  "reads": 250,
   "completes": 17,
-  "plays": 7,
-  "sessions": 8358
+  "plays": 6,
+  "sessions": 8380
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3320,
+   "views": 3322,
    "reads": 156,
-   "sessions": 3264
+   "sessions": 3265
   },
   {
    "channel": "organic",
-   "views": 133,
-   "reads": 62,
-   "sessions": 127
+   "views": 132,
+   "reads": 61,
+   "sessions": 126
   },
   {
    "channel": "referral",
-   "views": 4978,
+   "views": 4999,
    "reads": 21,
-   "sessions": 4979
+   "sessions": 5000
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 4978,
+   "views": 4999,
    "reads": 21,
    "completes": 0,
-   "sessions": 4979,
+   "sessions": 5000,
    "read_rate": 0.004,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3320,
+   "views": 3322,
    "reads": 156,
    "completes": 14,
-   "sessions": 3264,
+   "sessions": 3265,
    "read_rate": 0.047,
    "complete_rate": 0.004,
    "pages_per_session": 1.02,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "organic",
-   "views": 133,
-   "reads": 62,
+   "views": 132,
+   "reads": 61,
    "completes": 2,
-   "sessions": 127,
-   "read_rate": 0.466,
+   "sessions": 126,
+   "read_rate": 0.462,
    "complete_rate": 0.015,
    "pages_per_session": 1.05,
    "median_dwell_sec": 3
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 8039,
-   "reads": 230,
-   "sessions": 7918
+   "views": 8059,
+   "reads": 229,
+   "sessions": 7938
   },
   {
    "device": "mobile",
-   "views": 439,
+   "views": 441,
    "reads": 20,
-   "sessions": 438
+   "sessions": 440
   },
   {
    "device": "tablet",
@@ -344,16 +344,6 @@
    "plays": 0
   },
   {
-   "slug": "best-llm-for-creative-writing-october-2026",
-   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 36,
-   "reads": 6,
-   "plays": 1
-  },
-  {
    "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
    "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
    "section": "stack",
@@ -382,6 +372,16 @@
    "views": 53,
    "reads": 5,
    "plays": 1
+  },
+  {
+   "slug": "best-llm-for-creative-writing-october-2026",
+   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 35,
+   "reads": 5,
+   "plays": 0
   },
   {
    "slug": "deepseek-chat-reasoner-retire-july-24-migrate-api",
@@ -486,16 +486,6 @@
    "plays": 1
   },
   {
-   "slug": "best-llm-for-creative-writing-october-2026",
-   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 36,
-   "reads": 6,
-   "plays": 1
-  },
-  {
    "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
    "title": "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model",
    "section": "wire",
@@ -564,6 +554,16 @@
    "views": 12,
    "reads": 6,
    "plays": 0
+  },
+  {
+   "slug": "best-llm-for-creative-writing-october-2026",
+   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 35,
+   "reads": 5,
+   "plays": 0
   }
  ],
  "topViews": [
@@ -603,9 +603,9 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 36,
-   "reads": 6,
-   "plays": 1
+   "views": 35,
+   "reads": 5,
+   "plays": 0
   },
   {
    "slug": "gpu-rental-price-october-2026",
@@ -625,6 +625,16 @@
    "author": "dex",
    "views": 26,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
+   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
+   "author": "dex",
+   "views": 25,
+   "reads": 1,
    "plays": 0
   },
   {
@@ -648,23 +658,13 @@
    "plays": 0
   },
   {
-   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
-   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
+   "slug": "pi-minimal-coding-agent-harness",
+   "title": "Pi's System Prompt Is Under 1,000 Tokens: The Case Against Heavy Coding-Agent Harnesses",
    "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
-   "author": "dex",
-   "views": 23,
-   "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "best-open-source-rl-frameworks-for-training-agents",
-   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
-   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 21,
-   "reads": 0,
+   "reads": 1,
    "plays": 0
   }
  ],
@@ -685,9 +685,9 @@
   },
   {
    "path": "/build",
-   "views": 134,
+   "views": 135,
    "reads": 0,
-   "sessions": 134,
+   "sessions": 135,
    "avg_dwell_sec": null
   },
   {
@@ -733,18 +733,18 @@
    "avg_dwell_sec": 76
   },
   {
+   "path": "/about.html",
+   "views": 17,
+   "reads": 0,
+   "sessions": 11,
+   "avg_dwell_sec": 10
+  },
+  {
    "path": "/tools",
    "views": 17,
    "reads": 1,
    "sessions": 10,
    "avg_dwell_sec": 16
-  },
-  {
-   "path": "/about.html",
-   "views": 16,
-   "reads": 0,
-   "sessions": 10,
-   "avg_dwell_sec": 10
   },
   {
    "path": "/authors/dex",
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 4987,
-   "sessions": 4969
+   "hits": 5008,
+   "sessions": 4990
   },
   {
    "ref": "https://www.bing.com/",
@@ -802,11 +802,6 @@
    "sessions": 5
   },
   {
-   "ref": "https://search.brave.com/",
-   "hits": 8,
-   "sessions": 4
-  },
-  {
    "ref": "https://cn.bing.com/",
    "hits": 7,
    "sessions": 4
@@ -818,6 +813,11 @@
   },
   {
    "ref": "https://www.perplexity.ai/",
+   "hits": 5,
+   "sessions": 3
+  },
+  {
+   "ref": "https://search.brave.com/",
    "hits": 5,
    "sessions": 3
   },
