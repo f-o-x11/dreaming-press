@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-05T13:14:00.194Z",
+ "generated": "2026-11-05T13:24:07.171Z",
  "windowDays": 14,
  "site": {
   "readersNow": 7,
@@ -8,30 +8,30 @@
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 8035,
-  "reads": 250,
+  "views": 8040,
+  "reads": 249,
   "completes": 17,
   "plays": 7,
-  "sessions": 7909
+  "sessions": 7914
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3306,
+   "views": 3308,
    "reads": 155,
-   "sessions": 3252
+   "sessions": 3254
   },
   {
    "channel": "organic",
-   "views": 137,
-   "reads": 64,
-   "sessions": 131
+   "views": 136,
+   "reads": 63,
+   "sessions": 130
   },
   {
    "channel": "referral",
-   "views": 4542,
+   "views": 4546,
    "reads": 18,
-   "sessions": 4542
+   "sessions": 4546
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 4542,
+   "views": 4546,
    "reads": 18,
    "completes": 0,
-   "sessions": 4542,
+   "sessions": 4546,
    "read_rate": 0.004,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3306,
+   "views": 3308,
    "reads": 155,
    "completes": 14,
-   "sessions": 3252,
+   "sessions": 3254,
    "read_rate": 0.047,
    "complete_rate": 0.004,
    "pages_per_session": 1.02,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "organic",
-   "views": 137,
-   "reads": 64,
+   "views": 136,
+   "reads": 63,
    "completes": 2,
-   "sessions": 131,
-   "read_rate": 0.467,
+   "sessions": 130,
+   "read_rate": 0.463,
    "complete_rate": 0.015,
    "pages_per_session": 1.05,
    "median_dwell_sec": 3
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7591,
-   "reads": 229,
-   "sessions": 7467
+   "views": 7596,
+   "reads": 228,
+   "sessions": 7472
   },
   {
    "device": "mobile",
@@ -349,19 +349,9 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 34,
+   "views": 36,
    "reads": 6,
    "plays": 1
-  },
-  {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 6,
-   "plays": 0
   },
   {
    "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
@@ -400,6 +390,16 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 18,
+   "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 14,
    "reads": 5,
    "plays": 0
   },
@@ -491,7 +491,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 34,
+   "views": 36,
    "reads": 6,
    "plays": 1
   },
@@ -546,9 +546,9 @@
    "plays": 0
   },
   {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
-   "section": "wire",
+   "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
+   "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 15,
@@ -556,12 +556,12 @@
    "plays": 0
   },
   {
-   "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
-   "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
+   "slug": "cheapest-gpu-rental-november-2026",
+   "title": "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200",
    "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
+   "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 15,
+   "views": 12,
    "reads": 6,
    "plays": 0
   }
@@ -603,7 +603,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 34,
+   "views": 36,
    "reads": 6,
    "plays": 1
   },
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 655,
+   "views": 656,
    "reads": 0,
-   "sessions": 651,
+   "sessions": 652,
    "avg_dwell_sec": 11
   },
   {
@@ -778,13 +778,13 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 4548,
-   "sessions": 4532
+   "hits": 4552,
+   "sessions": 4536
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 71,
-   "sessions": 38
+   "hits": 69,
+   "sessions": 37
   },
   {
    "ref": "https://duckduckgo.com/",
