@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-05T15:46:35.200Z",
+ "generated": "2026-11-05T15:56:40.077Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12299,
+ "verifiedAiHits": 12300,
  "logsScanned": 30,
  "windowStart": "2026-10-22",
  "windowEnd": "2026-11-05",
- "totalHits": 109760,
- "aiHits": 86383,
+ "totalHits": 110205,
+ "aiHits": 86822,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28669,
+   "hits": 28685,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15212,
+   "hits": 15220,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -103,7 +103,7 @@
     },
     {
      "path": "/stack.html",
-     "hits": 16
+     "hits": 17
     }
    ],
    "verifiable": false
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9429,
+   "hits": 9433,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -146,14 +146,14 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 7501,
+   "hits": 7913,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
     {
      "path": "/tags/reportive",
-     "hits": 55
+     "hits": 56
     },
     {
      "path": "/tags/opinionated",
@@ -161,7 +161,7 @@
     },
     {
      "path": "/authors/dex",
-     "hits": 33
+     "hits": 34
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6913,
-   "verifiedHits": 6857,
+   "hits": 6914,
+   "verifiedHits": 6858,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3733,
-   "verifiedHits": 3635,
+   "hits": 3734,
+   "verifiedHits": 3636,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 681,
-   "verifiedHits": 569,
+   "hits": 682,
+   "verifiedHits": 570,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
@@ -575,14 +575,14 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 152,
+   "hits": 154,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
     {
      "path": "/posts/tool-highlight-tinfoil-confidential-llm-inference-cloud-cant-read.html",
-     "hits": 12
+     "hits": 13
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
