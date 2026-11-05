@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-05T06:48:20.321Z",
+ "generated": "2026-11-05T06:58:30.234Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 28,
-  "todayReads": 17,
+  "readersNow": 27,
+  "todayReads": 21,
   "avgTimeSec": 9,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 7418,
-  "reads": 235,
+  "views": 7439,
+  "reads": 239,
   "completes": 17,
   "plays": 7,
-  "sessions": 7300
+  "sessions": 7318
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3273,
-   "reads": 141,
-   "sessions": 3231
+   "views": 3279,
+   "reads": 145,
+   "sessions": 3234
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 3954,
+   "views": 3969,
    "reads": 13,
-   "sessions": 3953
+   "sessions": 3968
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 3954,
+   "views": 3969,
    "reads": 13,
    "completes": 0,
-   "sessions": 3953,
+   "sessions": 3968,
    "read_rate": 0.003,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "direct",
-   "views": 3273,
-   "reads": 141,
+   "views": 3279,
+   "reads": 145,
    "completes": 14,
-   "sessions": 3231,
-   "read_rate": 0.043,
+   "sessions": 3234,
+   "read_rate": 0.044,
    "complete_rate": 0.004,
    "pages_per_session": 1.01,
    "median_dwell_sec": 8
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6966,
-   "reads": 214,
-   "sessions": 6849
+   "views": 6986,
+   "reads": 218,
+   "sessions": 6866
   },
   {
    "device": "mobile",
-   "views": 449,
+   "views": 450,
    "reads": 20,
-   "sessions": 449
+   "sessions": 450
   },
   {
    "device": "tablet",
@@ -319,8 +319,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 25,
-   "reads": 11,
+   "views": 32,
+   "reads": 15,
    "plays": 1
   },
   {
@@ -459,7 +459,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 5,
+   "views": 6,
    "reads": 3,
    "plays": 0
   }
@@ -471,8 +471,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 25,
-   "reads": 11,
+   "views": 32,
+   "reads": 15,
    "plays": 1
   },
   {
@@ -531,7 +531,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 4,
+   "views": 5,
    "reads": 1,
    "plays": 1
   },
@@ -598,6 +598,16 @@
    "plays": 1
   },
   {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 32,
+   "reads": 15,
+   "plays": 1
+  },
+  {
    "slug": "gpu-rental-price-october-2026",
    "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
    "section": "stack",
@@ -616,16 +626,6 @@
    "views": 26,
    "reads": 0,
    "plays": 0
-  },
-  {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 25,
-   "reads": 11,
-   "plays": 1
   },
   {
    "slug": "2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4",
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 594,
+   "views": 595,
    "reads": 0,
-   "sessions": 590,
+   "sessions": 591,
    "avg_dwell_sec": 10
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3951,
-   "sessions": 3941
+   "hits": 3966,
+   "sessions": 3956
   },
   {
    "ref": "https://www.bing.com/",
