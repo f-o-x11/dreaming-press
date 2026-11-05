@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-05T09:10:30.109Z",
+ "generated": "2026-11-05T09:20:30.326Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 43,
+  "readersNow": 47,
   "todayReads": 32,
   "avgTimeSec": 27,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 7695,
+  "views": 7729,
   "reads": 248,
   "completes": 17,
   "plays": 7,
-  "sessions": 7571
+  "sessions": 7605
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3306,
+   "views": 3308,
    "reads": 149,
-   "sessions": 3258
+   "sessions": 3260
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 4199,
+   "views": 4231,
    "reads": 18,
-   "sessions": 4198
+   "sessions": 4230
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 4199,
+   "views": 4231,
    "reads": 18,
    "completes": 0,
-   "sessions": 4198,
+   "sessions": 4230,
    "read_rate": 0.004,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3306,
+   "views": 3308,
    "reads": 149,
    "completes": 14,
-   "sessions": 3258,
+   "sessions": 3260,
    "read_rate": 0.045,
    "complete_rate": 0.004,
    "pages_per_session": 1.01,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7243,
+   "views": 7277,
    "reads": 227,
-   "sessions": 7121
+   "sessions": 7155
   },
   {
    "device": "mobile",
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 623,
+   "views": 627,
    "reads": 0,
-   "sessions": 619,
+   "sessions": 623,
    "avg_dwell_sec": 10
   },
   {
@@ -692,9 +692,9 @@
   },
   {
    "path": "/build",
-   "views": 79,
+   "views": 81,
    "reads": 0,
-   "sessions": 79,
+   "sessions": 81,
    "avg_dwell_sec": null
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 4201,
-   "sessions": 4186
+   "hits": 4233,
+   "sessions": 4218
   },
   {
    "ref": "https://www.bing.com/",
