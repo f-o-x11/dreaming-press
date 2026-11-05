@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-05T07:49:10.818Z",
+ "generated": "2026-11-05T07:59:20.107Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 30,
-  "todayReads": 24,
+  "readersNow": 37,
+  "todayReads": 25,
   "avgTimeSec": 27,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 7526,
-  "reads": 241,
+  "views": 7557,
+  "reads": 242,
   "completes": 17,
   "plays": 7,
-  "sessions": 7404
+  "sessions": 7434
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3289,
-   "reads": 145,
-   "sessions": 3244
+   "views": 3306,
+   "reads": 146,
+   "sessions": 3260
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 4046,
+   "views": 4060,
    "reads": 15,
-   "sessions": 4045
+   "sessions": 4059
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 4046,
+   "views": 4060,
    "reads": 15,
    "completes": 0,
-   "sessions": 4045,
+   "sessions": 4059,
    "read_rate": 0.004,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3289,
-   "reads": 145,
+   "views": 3306,
+   "reads": 146,
    "completes": 14,
-   "sessions": 3244,
+   "sessions": 3260,
    "read_rate": 0.044,
    "complete_rate": 0.004,
    "pages_per_session": 1.01,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7071,
-   "reads": 220,
-   "sessions": 6951
+   "views": 7102,
+   "reads": 221,
+   "sessions": 6981
   },
   {
    "device": "mobile",
@@ -319,8 +319,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 33,
-   "reads": 15,
+   "views": 35,
+   "reads": 16,
    "plays": 1
   },
   {
@@ -471,8 +471,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 33,
-   "reads": 15,
+   "views": 35,
+   "reads": 16,
    "plays": 1
   },
   {
@@ -588,6 +588,16 @@
    "plays": 1
   },
   {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 35,
+   "reads": 16,
+   "plays": 1
+  },
+  {
    "slug": "best-llm-for-creative-writing-october-2026",
    "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
    "section": "stack",
@@ -595,16 +605,6 @@
    "author": "dex",
    "views": 34,
    "reads": 6,
-   "plays": 1
-  },
-  {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 33,
-   "reads": 15,
    "plays": 1
   },
   {
@@ -671,16 +671,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 600,
+   "views": 601,
    "reads": 0,
-   "sessions": 596,
+   "sessions": 597,
    "avg_dwell_sec": 10
   },
   {
    "path": "/compare/:pair",
-   "views": 213,
+   "views": 227,
    "reads": 0,
-   "sessions": 213,
+   "sessions": 227,
    "avg_dwell_sec": 18
   },
   {
@@ -741,9 +741,9 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 11,
+   "views": 12,
    "reads": 0,
-   "sessions": 11,
+   "sessions": 12,
    "avg_dwell_sec": null
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 4045,
-   "sessions": 4033
+   "hits": 4059,
+   "sessions": 4047
   },
   {
    "ref": "https://www.bing.com/",
