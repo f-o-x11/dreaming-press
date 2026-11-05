@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-05T16:26:51.160Z",
+ "generated": "2026-11-05T16:37:00.601Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 29,
+  "readersNow": 43,
   "todayReads": 45,
   "avgTimeSec": 19,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 8348,
+  "views": 8379,
   "reads": 253,
   "completes": 17,
   "plays": 7,
-  "sessions": 8223
+  "sessions": 8254
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3349,
+   "views": 3347,
    "reads": 157,
-   "sessions": 3292
+   "sessions": 3290
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 4816,
+   "views": 4849,
    "reads": 21,
-   "sessions": 4817
+   "sessions": 4850
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 4816,
+   "views": 4849,
    "reads": 21,
    "completes": 0,
-   "sessions": 4817,
+   "sessions": 4850,
    "read_rate": 0.004,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3349,
+   "views": 3347,
    "reads": 157,
    "completes": 14,
-   "sessions": 3292,
+   "sessions": 3290,
    "read_rate": 0.047,
    "complete_rate": 0.004,
    "pages_per_session": 1.02,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7907,
+   "views": 7938,
    "reads": 232,
-   "sessions": 7784
+   "sessions": 7815
   },
   {
    "device": "mobile",
@@ -409,7 +409,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 22,
+   "views": 20,
    "reads": 3,
    "plays": 0
   },
@@ -648,16 +648,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
    "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
    "section": "stack",
@@ -666,14 +656,24 @@
    "views": 22,
    "reads": 1,
    "plays": 0
+  },
+  {
+   "slug": "best-open-source-rl-frameworks-for-training-agents",
+   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 21,
+   "reads": 0,
+   "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 685,
+   "views": 688,
    "reads": 0,
-   "sessions": 681,
+   "sessions": 684,
    "avg_dwell_sec": 11
   },
   {
@@ -685,9 +685,9 @@
   },
   {
    "path": "/build",
-   "views": 125,
+   "views": 129,
    "reads": 0,
-   "sessions": 125,
+   "sessions": 129,
    "avg_dwell_sec": null
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 4825,
-   "sessions": 4807
+   "hits": 4858,
+   "sessions": 4840
   },
   {
    "ref": "https://www.bing.com/",
