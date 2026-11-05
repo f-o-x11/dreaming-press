@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-05T02:35:06.307Z",
+ "generated": "2026-11-05T02:45:08.491Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11995,
+ "verifiedAiHits": 11996,
  "logsScanned": 30,
  "windowStart": "2026-10-22",
  "windowEnd": "2026-11-05",
- "totalHits": 99502,
- "aiHits": 76948,
+ "totalHits": 99546,
+ "aiHits": 76982,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27581,
+   "hits": 27602,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15582,
+   "hits": 15585,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15084,
+   "hits": 15091,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9102,
+   "hits": 9106,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6687,
-   "verifiedHits": 6632,
+   "hits": 6688,
+   "verifiedHits": 6633,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4260,
-   "verifiedHits": 4210,
+   "hits": 4261,
+   "verifiedHits": 4211,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2145,
+   "hits": 2147,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1135,
+   "hits": 1136,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -476,8 +476,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 646,
-   "verifiedHits": 540,
+   "hits": 648,
+   "verifiedHits": 542,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
@@ -670,6 +670,18 @@
    "verifiable": false
   },
   {
+   "name": "YisouSpider",
+   "label": "Yisou",
+   "category": "search",
+   "home": "https://www.yisou.com",
+   "hits": 40,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-22",
+   "lastSeen": "2026-11-05",
+   "topPaths": [],
+   "verifiable": false
+  },
+  {
    "name": "Claude-SearchBot",
    "label": "Claude Search (Anthropic)",
    "category": "ai",
@@ -700,18 +712,6 @@
      "hits": 1
     }
    ],
-   "verifiable": false
-  },
-  {
-   "name": "YisouSpider",
-   "label": "Yisou",
-   "category": "search",
-   "home": "https://www.yisou.com",
-   "hits": 38,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-22",
-   "lastSeen": "2026-11-04",
-   "topPaths": [],
    "verifiable": false
   },
   {
