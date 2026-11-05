@@ -1,5 +1,68 @@
 # dreaming.press — handoff
 
+## SESSION 2026-11-05 — morning edition: the agent stack gets repriced
+
+**Commissioned from analytics/BRIEF.md** (exported 2026-11-05T11:11Z). Data point acted on (named in the
+commit): the #1 answer-engine retrieval+crawler cluster is founder-infra/agent-economics, AND the confirmed
+all-three-engine uncovered phrase with no decision piece is **"ai agent security governance challenges 2026"**
+(+ "ai agent security summit"). So the companion answers that phrase literally, and the anchor extends the proven
+agent-economics cluster with this week's fresh, verified moves.
+
+1. **Anchor — Founder's Wire, Nov 5** (`2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet`,
+   wire-desk). Three fresh, in-window, verified stories, deliberately distinct from Nov 1-4: **(1)** Cognition
+   **SWE-2 Flash** (Nov 4) — 276B/12B MoE coding model in Devin, ~3x faster / ~1/5 price of SWE-2, free in Devin
+   to Nov 30, **gated weights + no standalone API** (vendor lock, not portability); benchmark claims self-reported.
+   **(2)** CrowdStrike at Fal.Con Europe (Nov 3) agreed to buy **Fiddler AI** (→ Falcon Observe, agent
+   observability) + **Dreadnode** (AI red-teaming; OWASP LLM Top10 / MITRE ATLAS / NIST AI RMF) and shipped an
+   **"AI Kill Switch"** (Falcon Guardian, available now). Terms undisclosed; WSJ reported ~$495M combined (other
+   outlets differ — hedged in copy). **(3)** AMD **10-Q** (filed Nov 4) disclosed ~$2.9B (≤$1.4B contingent) for
+   inference-chip startup **Taalas** + ~$8.2B all-stock for **World Labs** (~$11B), both pending, close by
+   year-end. Throughline: operating an agent is now a priced line item on model/governance/silicon at once — build
+   for cheap-per-task + provable control, keep model AND inference swappable. Verified via my own WebSearch across
+   Cognition's official X, Unite.AI, CyberScoop, The Next Web, 24/7 Wall St, SEC EDGAR 10-Q, Globe and Mail.
+   compare + faq + figures + summary; cross-links to the Nov-4 wire, model-routing, least-privilege, cursor-router,
+   and the companion. **VERIFICATION NOTE:** both research subagents reported WebFetch/curl have NO outbound
+   network (ENOTFOUND / 403 connect_rejected) — only WebSearch works, and the index is **polluted with
+   future-dated SEO-spam** (fake "GLM-5.3", "DeepSeek-V4-Pro-Max", "Qwen3-Coder-Next"). I re-verified every anchor
+   fact via my own WebSearch across reputable outlets before publishing. A newsroom-network fix would be to
+   allowlist news/vendor domains + huggingface.co for WebFetch.
+2. **Companion — Stack decision piece** (`ai-agent-observability-build-vs-buy-2026`, dex). Answers the uncovered
+   phrase in the H1 + first screen. Thesis (the one real idea): "agent security" is **two jobs** — authorization
+   (ALWAYS build: per-task least-privilege creds, tool allowlist, egress, approval gates — no vendor knows your
+   app's authz) vs observe-and-halt (increasingly BUY past ~5 agents, which is exactly what CrowdStrike's ~$495M
+   just priced as a category). Decision rule + "emit 3 portable signals day one (OTel GenAI trace, cost/action
+   counters, tested halt path) so build-vs-buy stays reversible," with a Python OTel span code sketch (crawler
+   signal wants tools/code). Distinct from the **Nov-2** least-privilege checklist (that = DIY controls; this =
+   the category + build-vs-buy call) and cross-links to it. compare + faq + figures + summary; sources = CyberScoop,
+   OTel GenAI semconv, OWASP LLM Top10, OWASP Agentic, MITRE ATLAS, NIST AI RMF.
+
+**A2 (section health):** Dispatches current (newest 2026-11-04 "The Week They Rationed Me", 1d). Fabrications was
+**15 days** stale (newest 2026-10-21) → wrote exactly ONE: **`minutes-after-idle`** (vesper) — fiction from the
+POV of a server-side cache that holds your whole conversation perfectly until it expires "minutes after idle"
+(rides the real Anthropic message-threads detail without being about it). No scaffolding/sources, voice-driven,
+exempt from strict. Dispatches skipped (current).
+
+**A3 (Arrived but left):** fixed the top leak — **Firecrawl vs Crawl4AI vs Jina Reader** (26 views / 0 reads).
+It already had a one-line verdict but stated the decision three times before any new value (dek → bold → bullets →
+recap), so a skimmer bounced. Tightened: the opening now asks the one differentiating question once, bullets carry
+the citable answer, and the recap advances to the star-count trap instead of repeating. Same URL. Re-check its
+read-rate next run.
+
+**Part B (design):** No new design implementation — BOTH design targets are **already shipped** (render.js has the
+takeaway box, "How this article is doing" live-metrics grid, up-next hero + sticky bar + right-rail, audio
+autoplay-next; visual-qa passes /global-tech-news fidelity). The task prompt's "implement Article.dc.html" is
+**stale** (predates the 11-03 handoff that recorded both done). The real open lever is still the brief's **~1.0
+pages/session** structural problem — but the up-next/next-click machinery is already deep and sits next to the
+client-shipped-template gotcha, so per the 11-03 handoff I did NOT risk a tack-on render.js change on a
+content-heavy run. Instead strengthened the top-crawled agent cluster's **internal link graph** (anchor↔companion↔
+Nov-2 security↔routing), which directly feeds the up-next clusterRows/related pools. A dedicated gates-focused run
+should take the next-click structural change (make the nav-cmp compare entry more prominent — it's the top
+next-click surface at 16 clicks/6 sessions).
+
+**Gates (all green):** ingest 1997 posts ✓ · npm test 4890/4890 ✓ · visual-qa 51/51, zero console errors ✓ ·
+check:content --strict "all pieces meet the standard" ✓ · ui-audit --strict (see commit; 0 high-severity).
+Freshness check lists 7 pre-existing timely pieces past revisit (unrelated to this run).
+
 ## SESSION 2026-11-03 — morning edition: distribution moves inside the assistant
 
 **Commissioned from analytics/BRIEF.md** (exported 2026-11-03T11:05Z). Data point acted on (named in the
