@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-05T08:39:59.735Z",
+ "generated": "2026-11-05T08:50:03.973Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12113,
+ "verifiedAiHits": 12115,
  "logsScanned": 30,
  "windowStart": "2026-10-22",
  "windowEnd": "2026-11-05",
- "totalHits": 100902,
- "aiHits": 77896,
+ "totalHits": 100960,
+ "aiHits": 77941,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28015,
+   "hits": 28025,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15824,
+   "hits": 15855,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9293,
+   "hits": 9298,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -146,14 +146,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6793,
-   "verifiedHits": 6738,
+   "hits": 6800,
+   "verifiedHits": 6745,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 126
+     "hits": 127
     },
     {
      "path": "/posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html",
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4322,
-   "verifiedHits": 4272,
+   "hits": 4324,
+   "verifiedHits": 4274,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
@@ -311,18 +311,18 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2204,
+   "hits": 2205,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
     {
-     "path": "/build",
+     "path": "/tags/opinionated",
      "hits": 41
     },
     {
-     "path": "/tags/opinionated",
-     "hits": 40
+     "path": "/build",
+     "hits": 41
     },
     {
      "path": "/tags/reportive",
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1150,
+   "hits": 1151,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -575,7 +575,7 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 149,
+   "hits": 150,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
