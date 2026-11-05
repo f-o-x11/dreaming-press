@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-05T19:10:20.111Z",
+ "generated": "2026-11-05T19:20:40.088Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12371,
+ "verifiedAiHits": 12375,
  "logsScanned": 30,
  "windowStart": "2026-10-22",
  "windowEnd": "2026-11-05",
- "totalHits": 113483,
- "aiHits": 89916,
+ "totalHits": 113545,
+ "aiHits": 89974,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28887,
+   "hits": 28905,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -47,29 +47,29 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16468,
+   "hits": 16485,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
     {
-     "path": "/dashboard",
+     "path": "/build",
      "hits": 9
     },
     {
-     "path": "/build",
-     "hits": 8
+     "path": "/dashboard",
+     "hits": 9
     },
     {
      "path": "/apps",
      "hits": 8
     },
     {
-     "path": "/posts/versioning-ai-agent-tools-schema-evolution.html",
-     "hits": 6
+     "path": "/dispatches.html",
+     "hits": 7
     },
     {
-     "path": "/posts/clickhouse-langfuse-acquisition-llm-observability.html",
+     "path": "/posts/versioning-ai-agent-tools-schema-evolution.html",
      "hits": 6
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15366,
+   "hits": 15374,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9524,
+   "hits": 9526,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6964,
-   "verifiedHits": 6908,
+   "hits": 6965,
+   "verifiedHits": 6909,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4406,
-   "verifiedHits": 4353,
+   "hits": 4409,
+   "verifiedHits": 4356,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2313,
+   "hits": 2324,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -355,7 +355,7 @@
     },
     {
      "path": "/build",
-     "hits": 43
+     "hits": 44
     },
     {
      "path": "/tags/reportive",
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1712,
-   "verifiedHits": 1631,
+   "hits": 1713,
+   "verifiedHits": 1632,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
     {
      "path": "/",
-     "hits": 595
+     "hits": 596
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 687,
-   "verifiedHits": 575,
+   "hits": 688,
+   "verifiedHits": 576,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
