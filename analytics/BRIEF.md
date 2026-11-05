@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-05T13:34Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-05T13:44Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 8059 views → 250 engaged reads → 17 completes · 7933 sessions.
-- Channels: direct 156r/3324v · organic 63r/136v · referral 18r/4549v · campaign:chatgpt.com 7r/21v · ai 5r/23v · social 1r/2v · campaign:openai 0r/3v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 8069 views → 251 engaged reads → 17 completes · 7943 sessions.
+- Channels: direct 157r/3332v · organic 63r/136v · referral 18r/4551v · campaign:chatgpt.com 7r/21v · ai 5r/23v · social 1r/2v · campaign:openai 0r/3v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 8r/26v · Perplexity 2r/3v · Le Chat 1r/1v · Doubao 1r/1v · Kimi 0r/10v · Grok 0r/2v · Yuanbao 0r/1v.
 - Referrers: aocr.org, bing.com, duckduckgo.com, google.com, nav-cmp, search.brave.com, cn.bing.com, feature, perplexity.ai, article-body.
 - Engaged-read winners by section: wire=4, stack=11.
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- referral: 4549 views · read 0.4% · complete 0.0% · 1 pages/session · median ?s
-- direct: 3324 views · read 4.7% · complete 0.4% · 1.02 pages/session · median 8s
+- referral: 4551 views · read 0.4% · complete 0.0% · 1 pages/session · median ?s
+- direct: 3332 views · read 4.7% · complete 0.4% · 1.02 pages/session · median 8s
 - organic: 136 views · read 46.3% · complete 1.5% · 1.05 pages/session · median 3s
 - ai: 23 views · read 21.7% · complete 0.0% · 1 pages/session · median 8s
 - campaign:chatgpt.com: 21 views · read 33.3% · complete 0.0% · 1.4 pages/session · median ?s
@@ -43,7 +43,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 6 reads, 12 views, 0 listens
 - [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 5 reads, 53 views, 1 listens
 - [stack] "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today" — 5 reads, 18 views, 0 listens
-- [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 5 reads, 14 views, 0 listens
+- [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 5 reads, 15 views, 0 listens
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 3 reads, 22 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
