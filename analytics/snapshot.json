@@ -1,37 +1,37 @@
 {
- "generated": "2026-11-05T06:58:30.234Z",
+ "generated": "2026-11-05T07:08:40.273Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 27,
-  "todayReads": 21,
+  "readersNow": 31,
+  "todayReads": 22,
   "avgTimeSec": 9,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 7439,
-  "reads": 239,
+  "views": 7455,
+  "reads": 240,
   "completes": 17,
   "plays": 7,
-  "sessions": 7318
+  "sessions": 7334
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3279,
+   "views": 3283,
    "reads": 145,
-   "sessions": 3234
+   "sessions": 3237
   },
   {
    "channel": "organic",
-   "views": 139,
+   "views": 138,
    "reads": 67,
    "sessions": 132
   },
   {
    "channel": "referral",
-   "views": 3969,
-   "reads": 13,
-   "sessions": 3968
+   "views": 3982,
+   "reads": 14,
+   "sessions": 3981
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,21 +73,21 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 3969,
-   "reads": 13,
+   "views": 3982,
+   "reads": 14,
    "completes": 0,
-   "sessions": 3968,
-   "read_rate": 0.003,
+   "sessions": 3981,
+   "read_rate": 0.004,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
   {
    "channel": "direct",
-   "views": 3279,
+   "views": 3283,
    "reads": 145,
    "completes": 14,
-   "sessions": 3234,
+   "sessions": 3237,
    "read_rate": 0.044,
    "complete_rate": 0.004,
    "pages_per_session": 1.01,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "organic",
-   "views": 139,
+   "views": 138,
    "reads": 67,
    "completes": 2,
    "sessions": 132,
-   "read_rate": 0.482,
+   "read_rate": 0.486,
    "complete_rate": 0.014,
    "pages_per_session": 1.05,
    "median_dwell_sec": 3
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6986,
-   "reads": 218,
-   "sessions": 6866
+   "views": 7000,
+   "reads": 219,
+   "sessions": 6880
   },
   {
    "device": "mobile",
-   "views": 450,
+   "views": 452,
    "reads": 20,
-   "sessions": 450
+   "sessions": 452
   },
   {
    "device": "tablet",
@@ -319,7 +319,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 32,
+   "views": 33,
    "reads": 15,
    "plays": 1
   },
@@ -471,7 +471,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 32,
+   "views": 33,
    "reads": 15,
    "plays": 1
   },
@@ -603,7 +603,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 32,
+   "views": 33,
    "reads": 15,
    "plays": 1
   },
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 595,
+   "views": 596,
    "reads": 0,
-   "sessions": 591,
+   "sessions": 592,
    "avg_dwell_sec": 10
   },
   {
@@ -692,9 +692,9 @@
   },
   {
    "path": "/build",
-   "views": 66,
+   "views": 67,
    "reads": 0,
-   "sessions": 66,
+   "sessions": 67,
    "avg_dwell_sec": null
   },
   {
@@ -706,9 +706,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 25,
+   "views": 26,
    "reads": 0,
-   "sessions": 25,
+   "sessions": 26,
    "avg_dwell_sec": 5
   },
   {
@@ -778,12 +778,12 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3966,
-   "sessions": 3956
+   "hits": 3980,
+   "sessions": 3969
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 70,
+   "hits": 69,
    "sessions": 36
   },
   {
