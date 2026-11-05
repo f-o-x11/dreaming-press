@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-05T00:44Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-05T00:54Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -106,7 +106,7 @@ sample size dwarfs the engaged-read counts below.
 - /newsroom  — 18 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4199 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×104 · /posts/open-source-llm-for-coding-september-2026.html ×57 · /wire.html ×42
+- OAI-SearchBot (4200 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×104 · /posts/open-source-llm-for-coding-september-2026.html ×57 · /wire.html ×42
 - PerplexityBot (3271 verified): / ×23 · /newsroom ×18 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×18
 - ChatGPT-User (1593 verified): / ×567 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×128 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×48
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -145,7 +145,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 11786 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4199, Perplexity 3271, GPTBot (OpenAI) 2723, ChatGPT (user browsing) 1593).
+The real answer engines are crawling us — IP-verified: 11787 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4200, Perplexity 3271, GPTBot (OpenAI) 2723, ChatGPT (user browsing) 1593).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 477 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 205 crawler fetches
