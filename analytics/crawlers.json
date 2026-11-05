@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-05T13:44:12.937Z",
+ "generated": "2026-11-05T13:54:29.905Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12187,
+ "verifiedAiHits": 12188,
  "logsScanned": 30,
  "windowStart": "2026-10-22",
  "windowEnd": "2026-11-05",
- "totalHits": 102064,
- "aiHits": 78794,
+ "totalHits": 102115,
+ "aiHits": 78838,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28481,
+   "hits": 28499,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -47,17 +47,17 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16110,
+   "hits": 16135,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
     {
-     "path": "/build",
-     "hits": 8
+     "path": "/dashboard",
+     "hits": 9
     },
     {
-     "path": "/dashboard",
+     "path": "/build",
      "hits": 8
     },
     {
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9390,
+   "hits": 9392,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6876,
-   "verifiedHits": 6821,
+   "hits": 6881,
+   "verifiedHits": 6826,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4358,
-   "verifiedHits": 4308,
+   "hits": 4359,
+   "verifiedHits": 4309,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [

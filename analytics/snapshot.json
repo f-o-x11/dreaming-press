@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-05T13:44:13.227Z",
+ "generated": "2026-11-05T13:54:30.207Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 29,
+  "readersNow": 9,
   "todayReads": 41,
   "avgTimeSec": 19,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 8069,
+  "views": 8061,
   "reads": 251,
   "completes": 17,
   "plays": 7,
-  "sessions": 7943
+  "sessions": 7935
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3332,
+   "views": 3323,
    "reads": 157,
-   "sessions": 3278
+   "sessions": 3269
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 4551,
+   "views": 4552,
    "reads": 18,
-   "sessions": 4551
+   "sessions": 4552
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 4551,
+   "views": 4552,
    "reads": 18,
    "completes": 0,
-   "sessions": 4551,
+   "sessions": 4552,
    "read_rate": 0.004,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3332,
+   "views": 3323,
    "reads": 157,
    "completes": 14,
-   "sessions": 3278,
+   "sessions": 3269,
    "read_rate": 0.047,
    "complete_rate": 0.004,
    "pages_per_session": 1.02,
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7621,
+   "views": 7617,
    "reads": 230,
-   "sessions": 7497
+   "sessions": 7493
   },
   {
    "device": "mobile",
-   "views": 445,
+   "views": 441,
    "reads": 20,
-   "sessions": 444
+   "sessions": 440
   },
   {
    "device": "tablet",
@@ -434,16 +434,6 @@
    "plays": 0
   },
   {
-   "slug": "is-the-google-1-hour-agentic-engineering-course-real",
-   "title": "Is the 'Google 1-Hour Agentic Engineering Course' Real? Here's What's Actually Worth Your Time",
-   "section": "stack",
-   "tags": "[\"reportive\",\"practical\"]",
-   "author": "abe",
-   "views": 10,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "openllmetry-vs-openinference-otel-llm-observability",
    "title": "OpenLLMetry vs OpenInference: OpenTelemetry for LLM Agents in 2026",
    "section": "stack",
@@ -460,6 +450,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 7,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
+   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 6,
    "reads": 3,
    "plays": 0
   }
@@ -720,9 +720,9 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 23,
+   "views": 24,
    "reads": 0,
-   "sessions": 23,
+   "sessions": 24,
    "avg_dwell_sec": null
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 4557,
-   "sessions": 4541
+   "hits": 4558,
+   "sessions": 4542
   },
   {
    "ref": "https://www.bing.com/",
