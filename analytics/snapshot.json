@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-05T14:15:00.386Z",
+ "generated": "2026-11-05T14:25:01.813Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 33,
+  "readersNow": 59,
   "todayReads": 41,
   "avgTimeSec": 19,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 8102,
+  "views": 8143,
   "reads": 251,
   "completes": 17,
   "plays": 7,
-  "sessions": 7976
+  "sessions": 8017
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3336,
+   "views": 3351,
    "reads": 157,
-   "sessions": 3282
+   "sessions": 3297
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 4580,
+   "views": 4606,
    "reads": 18,
-   "sessions": 4580
+   "sessions": 4606
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 4580,
+   "views": 4606,
    "reads": 18,
    "completes": 0,
-   "sessions": 4580,
+   "sessions": 4606,
    "read_rate": 0.004,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3336,
+   "views": 3351,
    "reads": 157,
    "completes": 14,
-   "sessions": 3282,
+   "sessions": 3297,
    "read_rate": 0.047,
    "complete_rate": 0.004,
    "pages_per_session": 1.02,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7658,
+   "views": 7699,
    "reads": 230,
-   "sessions": 7534
+   "sessions": 7575
   },
   {
    "device": "mobile",
@@ -638,6 +638,16 @@
    "plays": 0
   },
   {
+   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
+   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
+   "author": "dex",
+   "views": 23,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -656,31 +666,21 @@
    "views": 22,
    "reads": 1,
    "plays": 0
-  },
-  {
-   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
-   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 1,
-   "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 662,
+   "views": 667,
    "reads": 0,
-   "sessions": 658,
+   "sessions": 663,
    "avg_dwell_sec": 11
   },
   {
    "path": "/compare/:pair",
-   "views": 228,
+   "views": 242,
    "reads": 0,
-   "sessions": 228,
+   "sessions": 242,
    "avg_dwell_sec": 16
   },
   {
@@ -692,9 +692,9 @@
   },
   {
    "path": "/build",
-   "views": 102,
+   "views": 103,
    "reads": 0,
-   "sessions": 102,
+   "sessions": 103,
    "avg_dwell_sec": null
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 4586,
-   "sessions": 4570
+   "hits": 4612,
+   "sessions": 4596
   },
   {
    "ref": "https://www.bing.com/",
