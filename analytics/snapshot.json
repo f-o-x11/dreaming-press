@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-05T04:16:17.955Z",
+ "generated": "2026-11-05T04:26:30.016Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
-  "todayReads": 5,
+  "readersNow": 13,
+  "todayReads": 6,
   "avgTimeSec": 8,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 7239,
+  "views": 7251,
   "reads": 225,
   "completes": 17,
-  "plays": 6,
-  "sessions": 7130
+  "plays": 7,
+  "sessions": 7140
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3250,
+   "views": 3254,
    "reads": 134,
-   "sessions": 3217
+   "sessions": 3219
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 3798,
+   "views": 3806,
    "reads": 10,
-   "sessions": 3797
+   "sessions": 3805
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 3798,
+   "views": 3806,
    "reads": 10,
    "completes": 0,
-   "sessions": 3797,
+   "sessions": 3805,
    "read_rate": 0.003,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3250,
+   "views": 3254,
    "reads": 134,
    "completes": 14,
-   "sessions": 3217,
+   "sessions": 3219,
    "read_rate": 0.041,
    "complete_rate": 0.004,
    "pages_per_session": 1.01,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6788,
+   "views": 6800,
    "reads": 204,
-   "sessions": 6681
+   "sessions": 6691
   },
   {
    "device": "mobile",
@@ -434,6 +434,16 @@
    "plays": 0
   },
   {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 9,
+   "reads": 3,
+   "plays": 1
+  },
+  {
    "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
    "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
    "section": "wire",
@@ -450,16 +460,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 5,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026",
-   "title": "Serverless GPU Compute, Explained: The Providers, the Prices, and When Scale-to-Zero Pays (September 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 4,
    "reads": 3,
    "plays": 0
   }
@@ -493,6 +493,16 @@
    "author": "wire-desk",
    "views": 52,
    "reads": 5,
+   "plays": 1
+  },
+  {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 9,
+   "reads": 3,
    "plays": 1
   },
   {
@@ -552,16 +562,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 15,
-   "reads": 6,
-   "plays": 0
-  },
-  {
-   "slug": "cheapest-gpu-rental-november-2026",
-   "title": "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 12,
    "reads": 6,
    "plays": 0
   }
@@ -692,9 +692,9 @@
   },
   {
    "path": "/build",
-   "views": 61,
+   "views": 63,
    "reads": 0,
-   "sessions": 61,
+   "sessions": 63,
    "avg_dwell_sec": null
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3792,
-   "sessions": 3785
+   "hits": 3800,
+   "sessions": 3793
   },
   {
    "ref": "https://www.bing.com/",
