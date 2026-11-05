@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-05T04:36:32.372Z",
+ "generated": "2026-11-05T04:46:40.005Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 13,
+  "readersNow": 15,
   "todayReads": 7,
   "avgTimeSec": 8,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 7261,
-  "reads": 226,
+  "views": 7268,
+  "reads": 225,
   "completes": 17,
   "plays": 7,
-  "sessions": 7149
+  "sessions": 7157
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3256,
-   "reads": 135,
-   "sessions": 3220
+   "views": 3254,
+   "reads": 134,
+   "sessions": 3219
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 3814,
+   "views": 3823,
    "reads": 10,
-   "sessions": 3813
+   "sessions": 3822
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 3814,
+   "views": 3823,
    "reads": 10,
    "completes": 0,
-   "sessions": 3813,
+   "sessions": 3822,
    "read_rate": 0.003,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3256,
-   "reads": 135,
+   "views": 3254,
+   "reads": 134,
    "completes": 14,
-   "sessions": 3220,
+   "sessions": 3219,
    "read_rate": 0.041,
    "complete_rate": 0.004,
    "pages_per_session": 1.01,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6810,
-   "reads": 205,
-   "sessions": 6700
+   "views": 6817,
+   "reads": 204,
+   "sessions": 6708
   },
   {
    "device": "mobile",
@@ -319,8 +319,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 71,
-   "reads": 11,
+   "views": 69,
+   "reads": 10,
    "plays": 1
   },
   {
@@ -471,8 +471,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 71,
-   "reads": 11,
+   "views": 69,
+   "reads": 10,
    "plays": 1
   },
   {
@@ -573,8 +573,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 71,
-   "reads": 11,
+   "views": 69,
+   "reads": 10,
    "plays": 1
   },
   {
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 585,
+   "views": 586,
    "reads": 0,
-   "sessions": 581,
+   "sessions": 582,
    "avg_dwell_sec": 10
   },
   {
@@ -740,21 +740,21 @@
    "avg_dwell_sec": 18
   },
   {
-   "path": "/apps",
-   "views": 7,
-   "reads": 0,
-   "sessions": 7,
-   "avg_dwell_sec": null
-  },
-  {
    "path": "/stack.html",
-   "views": 7,
+   "views": 8,
    "reads": 0,
-   "sessions": 7,
+   "sessions": 8,
    "avg_dwell_sec": 8
   },
   {
    "path": "/topics/:topic",
+   "views": 8,
+   "reads": 0,
+   "sessions": 8,
+   "avg_dwell_sec": null
+  },
+  {
+   "path": "/apps",
    "views": 7,
    "reads": 0,
    "sessions": 7,
@@ -768,18 +768,18 @@
    "avg_dwell_sec": null
   },
   {
-   "path": "/authors",
-   "views": 4,
+   "path": "/authors/dex",
+   "views": 5,
    "reads": 0,
-   "sessions": 4,
-   "avg_dwell_sec": null
+   "sessions": 5,
+   "avg_dwell_sec": 23
   }
  ],
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3808,
-   "sessions": 3801
+   "hits": 3817,
+   "sessions": 3810
   },
   {
    "ref": "https://www.bing.com/",
