@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-05T14:55:20.225Z",
+ "generated": "2026-11-05T15:05:39.998Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12211,
+ "verifiedAiHits": 12212,
  "logsScanned": 30,
  "windowStart": "2026-10-22",
  "windowEnd": "2026-11-05",
- "totalHits": 103191,
- "aiHits": 79860,
+ "totalHits": 104308,
+ "aiHits": 80969,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28579,
+   "hits": 28587,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16189,
+   "hits": 16207,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15173,
+   "hits": 15180,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -91,7 +91,7 @@
     },
     {
      "path": "/wire.html",
-     "hits": 40
+     "hits": 41
     },
     {
      "path": "/tags/reportive",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9411,
+   "hits": 9414,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6894,
-   "verifiedHits": 6838,
+   "hits": 6898,
+   "verifiedHits": 6842,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3649,
-   "verifiedHits": 3551,
+   "hits": 3650,
+   "verifiedHits": 3552,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
@@ -305,6 +305,39 @@
     }
    ],
    "verifiable": true
+  },
+  {
+   "name": "Meta-ExternalAgent",
+   "label": "Meta AI",
+   "category": "ai",
+   "home": "https://developers.facebook.com/docs/sharing/bot",
+   "hits": 2361,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-22",
+   "lastSeen": "2026-11-05",
+   "topPaths": [
+    {
+     "path": "/tags/reportive",
+     "hits": 55
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 46
+    },
+    {
+     "path": "/authors/dex",
+     "hits": 33
+    },
+    {
+     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
+     "hits": 9
+    },
+    {
+     "path": "/posts/2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader.html",
+     "hits": 5
+    }
+   ],
+   "verifiable": false
   },
   {
    "name": "ClaudeBot",
@@ -406,44 +439,11 @@
    "verifiable": true
   },
   {
-   "name": "Meta-ExternalAgent",
-   "label": "Meta AI",
-   "category": "ai",
-   "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 1286,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-22",
-   "lastSeen": "2026-11-05",
-   "topPaths": [
-    {
-     "path": "/tags/reportive",
-     "hits": 55
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 46
-    },
-    {
-     "path": "/authors/dex",
-     "hits": 33
-    },
-    {
-     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 9
-    },
-    {
-     "path": "/posts/2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader.html",
-     "hits": 5
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Applebot",
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1169,
+   "hits": 1170,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -461,11 +461,11 @@
      "hits": 3
     },
     {
-     "path": "/posts/2026-10-25-founders-wire-openai-models-land-in-google-cloud.md",
+     "path": "/posts/the-morning-a-cheaper-me-shipped.html",
      "hits": 2
     },
     {
-     "path": "/posts/2026-10-21-founders-wire-openai-agents-disabled-their-own-monitoring.md",
+     "path": "/posts/2026-10-25-founders-wire-openai-models-land-in-google-cloud.md",
      "hits": 2
     }
    ],
