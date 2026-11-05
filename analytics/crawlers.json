@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-05T09:30:40.148Z",
+ "generated": "2026-11-05T09:40:40.218Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12122,
+ "verifiedAiHits": 12123,
  "logsScanned": 30,
  "windowStart": "2026-10-22",
  "windowEnd": "2026-11-05",
- "totalHits": 101090,
- "aiHits": 78031,
+ "totalHits": 101157,
+ "aiHits": 78094,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28084,
+   "hits": 28104,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15869,
+   "hits": 15909,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9305,
+   "hits": 9307,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -146,8 +146,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6807,
-   "verifiedHits": 6752,
+   "hits": 6808,
+   "verifiedHits": 6753,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
@@ -212,8 +212,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4328,
-   "verifiedHits": 4278,
+   "hits": 4329,
+   "verifiedHits": 4279,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
@@ -311,18 +311,18 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2209,
+   "hits": 2210,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
     {
-     "path": "/build",
+     "path": "/tags/opinionated",
      "hits": 42
     },
     {
-     "path": "/tags/opinionated",
-     "hits": 41
+     "path": "/build",
+     "hits": 42
     },
     {
      "path": "/tags/reportive",
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1152,
+   "hits": 1153,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -641,7 +641,7 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 54,
+   "hits": 55,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -655,15 +655,15 @@
      "hits": 2
     },
     {
+     "path": "/dashboard",
+     "hits": 2
+    },
+    {
      "path": "/server.key",
      "hits": 1
     },
     {
      "path": "/tools",
-     "hits": 1
-    },
-    {
-     "path": "/global-tech-news",
      "hits": 1
     }
    ],
