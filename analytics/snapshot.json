@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-05T01:54:49.971Z",
+ "generated": "2026-11-05T02:04:53.181Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 2,
+  "readersNow": 3,
+  "todayReads": 3,
   "avgTimeSec": 0,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 7220,
-  "reads": 226,
+  "views": 7219,
+  "reads": 227,
   "completes": 17,
   "plays": 6,
-  "sessions": 7106
+  "sessions": 7105
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3233,
+   "views": 3231,
    "reads": 135,
-   "sessions": 3197
+   "sessions": 3195
   },
   {
    "channel": "organic",
-   "views": 143,
-   "reads": 66,
-   "sessions": 136
+   "views": 144,
+   "reads": 67,
+   "sessions": 137
   },
   {
    "channel": "referral",
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3233,
+   "views": 3231,
    "reads": 135,
    "completes": 14,
-   "sessions": 3197,
+   "sessions": 3195,
    "read_rate": 0.042,
    "complete_rate": 0.004,
    "pages_per_session": 1.01,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "organic",
-   "views": 143,
-   "reads": 66,
+   "views": 144,
+   "reads": 67,
    "completes": 2,
-   "sessions": 136,
-   "read_rate": 0.462,
+   "sessions": 137,
+   "read_rate": 0.465,
    "complete_rate": 0.014,
    "pages_per_session": 1.05,
    "median_dwell_sec": 3
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6768,
-   "reads": 205,
-   "sessions": 6655
+   "views": 6767,
+   "reads": 206,
+   "sessions": 6654
   },
   {
    "device": "mobile",
@@ -414,6 +414,16 @@
    "plays": 0
   },
   {
+   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
+   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 12,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "how-to-combine-context-editing-compaction-memory-subagents-agent-sdk",
    "title": "How to Combine Context Editing, Compaction, Memory, and Subagents in One Claude Agent SDK Loop",
    "section": "stack",
@@ -451,16 +461,6 @@
    "author": "dex",
    "views": 4,
    "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
-   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 16,
-   "reads": 2,
    "plays": 0
   }
  ],
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 573,
+   "views": 572,
    "reads": 0,
-   "sessions": 569,
+   "sessions": 568,
    "avg_dwell_sec": 10
   },
   {
@@ -788,8 +788,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 59,
-   "sessions": 31
+   "hits": 61,
+   "sessions": 32
   },
   {
    "ref": "https://www.google.com/",
