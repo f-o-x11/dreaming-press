@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-05T17:18:19.858Z",
+ "generated": "2026-11-05T17:28:27.236Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12340,
+ "verifiedAiHits": 12346,
  "logsScanned": 30,
  "windowStart": "2026-10-22",
  "windowEnd": "2026-11-05",
- "totalHits": 111935,
- "aiHits": 88472,
+ "totalHits": 112227,
+ "aiHits": 88758,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28750,
+   "hits": 28772,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15282,
+   "hits": 15289,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -109,44 +109,11 @@
    "verifiable": false
   },
   {
-   "name": "Baiduspider",
-   "label": "Baidu",
-   "category": "search",
-   "home": "https://www.baidu.com",
-   "hits": 9475,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-22",
-   "lastSeen": "2026-11-05",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 71
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 7
-    },
-    {
-     "path": "/authors/dex",
-     "hits": 6
-    },
-    {
-     "path": "/posts/2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4.html",
-     "hits": 6
-    },
-    {
-     "path": "/wire.html",
-     "hits": 5
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Meta-ExternalAgent",
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 9278,
+   "hits": 9529,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -175,12 +142,45 @@
    "verifiable": false
   },
   {
+   "name": "Baiduspider",
+   "label": "Baidu",
+   "category": "search",
+   "home": "https://www.baidu.com",
+   "hits": 9480,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-22",
+   "lastSeen": "2026-11-05",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 71
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 7
+    },
+    {
+     "path": "/authors/dex",
+     "hits": 6
+    },
+    {
+     "path": "/posts/2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4.html",
+     "hits": 6
+    },
+    {
+     "path": "/wire.html",
+     "hits": 5
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Bingbot",
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6939,
-   "verifiedHits": 6883,
+   "hits": 6940,
+   "verifiedHits": 6884,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4382,
-   "verifiedHits": 4329,
+   "hits": 4387,
+   "verifiedHits": 4334,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3756,
-   "verifiedHits": 3658,
+   "hits": 3757,
+   "verifiedHits": 3659,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
