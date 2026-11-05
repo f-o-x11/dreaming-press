@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-05T13:24:07.171Z",
+ "generated": "2026-11-05T13:34:10.224Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
-  "todayReads": 39,
+  "readersNow": 25,
+  "todayReads": 40,
   "avgTimeSec": 19,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 8040,
-  "reads": 249,
+  "views": 8059,
+  "reads": 250,
   "completes": 17,
   "plays": 7,
-  "sessions": 7914
+  "sessions": 7933
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3308,
-   "reads": 155,
-   "sessions": 3254
+   "views": 3324,
+   "reads": 156,
+   "sessions": 3270
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 4546,
+   "views": 4549,
    "reads": 18,
-   "sessions": 4546
+   "sessions": 4549
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 4546,
+   "views": 4549,
    "reads": 18,
    "completes": 0,
-   "sessions": 4546,
+   "sessions": 4549,
    "read_rate": 0.004,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3308,
-   "reads": 155,
+   "views": 3324,
+   "reads": 156,
    "completes": 14,
-   "sessions": 3254,
+   "sessions": 3270,
    "read_rate": 0.047,
    "complete_rate": 0.004,
    "pages_per_session": 1.02,
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7596,
-   "reads": 228,
-   "sessions": 7472
+   "views": 7611,
+   "reads": 229,
+   "sessions": 7487
   },
   {
    "device": "mobile",
-   "views": 441,
+   "views": 445,
    "reads": 20,
-   "sessions": 440
+   "sessions": 444
   },
   {
    "device": "tablet",
@@ -424,22 +424,22 @@
    "plays": 0
   },
   {
-   "slug": "is-the-google-1-hour-agentic-engineering-course-real",
-   "title": "Is the 'Google 1-Hour Agentic Engineering Course' Real? Here's What's Actually Worth Your Time",
-   "section": "stack",
-   "tags": "[\"reportive\",\"practical\"]",
-   "author": "abe",
-   "views": 12,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
    "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 12,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "is-the-google-1-hour-agentic-engineering-course-real",
+   "title": "Is the 'Google 1-Hour Agentic Engineering Course' Real? Here's What's Actually Worth Your Time",
+   "section": "stack",
+   "tags": "[\"reportive\",\"practical\"]",
+   "author": "abe",
+   "views": 10,
    "reads": 3,
    "plays": 0
   },
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 656,
+   "views": 657,
    "reads": 0,
-   "sessions": 652,
+   "sessions": 653,
    "avg_dwell_sec": 11
   },
   {
@@ -699,9 +699,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 42,
+   "views": 43,
    "reads": 0,
-   "sessions": 42,
+   "sessions": 43,
    "avg_dwell_sec": 5
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 4552,
-   "sessions": 4536
+   "hits": 4555,
+   "sessions": 4539
   },
   {
    "ref": "https://www.bing.com/",
