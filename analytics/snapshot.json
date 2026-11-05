@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-05T03:05:40.046Z",
+ "generated": "2026-11-05T03:15:43.533Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 3,
   "avgTimeSec": 6,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 7213,
-  "reads": 225,
+  "views": 7210,
+  "reads": 224,
   "completes": 17,
   "plays": 6,
-  "sessions": 7099
+  "sessions": 7100
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3225,
+   "views": 3224,
    "reads": 133,
-   "sessions": 3189
+   "sessions": 3190
   },
   {
    "channel": "organic",
@@ -35,15 +35,15 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 23,
+   "views": 22,
    "reads": 8,
-   "sessions": 17
+   "sessions": 16
   },
   {
    "channel": "ai",
-   "views": 25,
-   "reads": 6,
-   "sessions": 25
+   "views": 24,
+   "reads": 5,
+   "sessions": 24
   },
   {
    "channel": "social",
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3225,
+   "views": 3224,
    "reads": 133,
    "completes": 14,
-   "sessions": 3189,
+   "sessions": 3190,
    "read_rate": 0.041,
    "complete_rate": 0.004,
    "pages_per_session": 1.01,
@@ -106,24 +106,24 @@
   },
   {
    "channel": "ai",
-   "views": 25,
-   "reads": 6,
+   "views": 24,
+   "reads": 5,
    "completes": 0,
-   "sessions": 25,
-   "read_rate": 0.24,
+   "sessions": 24,
+   "read_rate": 0.208,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": 33
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 23,
+   "views": 22,
    "reads": 8,
    "completes": 0,
-   "sessions": 17,
-   "read_rate": 0.348,
+   "sessions": 16,
+   "read_rate": 0.364,
    "complete_rate": 0,
-   "pages_per_session": 1.35,
+   "pages_per_session": 1.38,
    "median_dwell_sec": null
   },
   {
@@ -174,7 +174,7 @@
  "navSurfaces": [
   {
    "surface": "nav-cmp",
-   "clicks": 21,
+   "clicks": 20,
    "sessions": 7
   },
   {
@@ -191,11 +191,6 @@
    "surface": "brand",
    "clicks": 3,
    "sessions": 3
-  },
-  {
-   "surface": "live",
-   "clicks": 2,
-   "sessions": 2
   },
   {
    "surface": "f-cols",
@@ -246,6 +241,11 @@
    "surface": "more",
    "clicks": 1,
    "sessions": 1
+  },
+  {
+   "surface": "live",
+   "clicks": 1,
+   "sessions": 1
   }
  ],
  "assistants": [
@@ -260,12 +260,6 @@
    "views": 3,
    "reads": 2,
    "sessions": 3
-  },
-  {
-   "assistant": "Yuanbao",
-   "views": 2,
-   "reads": 1,
-   "sessions": 2
   },
   {
    "assistant": "Le Chat",
@@ -290,14 +284,20 @@
    "views": 2,
    "reads": 0,
    "sessions": 2
+  },
+  {
+   "assistant": "Yuanbao",
+   "views": 1,
+   "reads": 0,
+   "sessions": 1
   }
  ],
  "devices": [
   {
    "device": "desktop",
-   "views": 6761,
-   "reads": 204,
-   "sessions": 6648
+   "views": 6758,
+   "reads": 203,
+   "sessions": 6649
   },
   {
    "device": "mobile",
@@ -638,16 +638,6 @@
    "plays": 0
   },
   {
-   "slug": "local-llm-for-coding-on-your-own-machine",
-   "title": "Local LLM for Coding: The Best Models to Run on Your Own Machine (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
    "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
    "section": "wire",
@@ -660,6 +650,16 @@
   {
    "slug": "best-open-source-rl-frameworks-for-training-agents",
    "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "local-llm-for-coding-on-your-own-machine",
+   "title": "Local LLM for Coding: The Best Models to Run on Your Own Machine (August 2026)",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -685,10 +685,10 @@
   },
   {
    "path": "/",
-   "views": 114,
+   "views": 113,
    "reads": 4,
-   "sessions": 118,
-   "avg_dwell_sec": 20
+   "sessions": 117,
+   "avg_dwell_sec": 19
   },
   {
    "path": "/build",
@@ -706,9 +706,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 24,
+   "views": 25,
    "reads": 0,
-   "sessions": 24,
+   "sessions": 25,
    "avg_dwell_sec": 5
   },
   {
@@ -798,7 +798,7 @@
   },
   {
    "ref": "nav-cmp",
-   "hits": 21,
+   "hits": 20,
    "sessions": 7
   },
   {
