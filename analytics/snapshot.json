@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-05T14:25:01.813Z",
+ "generated": "2026-11-05T14:35:06.549Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 59,
-  "todayReads": 41,
+  "readersNow": 25,
+  "todayReads": 44,
   "avgTimeSec": 19,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 8143,
-  "reads": 251,
+  "views": 8142,
+  "reads": 254,
   "completes": 17,
   "plays": 7,
   "sessions": 8017
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3351,
+   "views": 3348,
    "reads": 157,
-   "sessions": 3297
+   "sessions": 3294
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 4606,
-   "reads": 18,
-   "sessions": 4606
+   "views": 4608,
+   "reads": 21,
+   "sessions": 4609
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,21 +73,21 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 4606,
-   "reads": 18,
+   "views": 4608,
+   "reads": 21,
    "completes": 0,
-   "sessions": 4606,
-   "read_rate": 0.004,
+   "sessions": 4609,
+   "read_rate": 0.005,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
   {
    "channel": "direct",
-   "views": 3351,
+   "views": 3348,
    "reads": 157,
    "completes": 14,
-   "sessions": 3297,
+   "sessions": 3294,
    "read_rate": 0.047,
    "complete_rate": 0.004,
    "pages_per_session": 1.02,
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7699,
-   "reads": 230,
-   "sessions": 7575
+   "views": 7700,
+   "reads": 233,
+   "sessions": 7577
   },
   {
    "device": "mobile",
-   "views": 441,
+   "views": 439,
    "reads": 20,
-   "sessions": 440
+   "sessions": 438
   },
   {
    "device": "tablet",
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 4612,
-   "sessions": 4596
+   "hits": 4617,
+   "sessions": 4599
   },
   {
    "ref": "https://www.bing.com/",
