@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-05T18:19Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-05T18:29Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 8560 views → 250 engaged reads → 17 completes · 8437 sessions.
-- Channels: direct 156r/3316v · organic 61r/132v · referral 21r/5062v · campaign:chatgpt.com 7r/22v · ai 5r/23v · campaign:openai 0r/3v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 8582 views → 250 engaged reads → 17 completes · 8459 sessions.
+- Channels: direct 156r/3313v · organic 61r/132v · referral 21r/5087v · campaign:chatgpt.com 7r/22v · ai 5r/23v · campaign:openai 0r/3v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 8r/27v · Perplexity 2r/3v · Le Chat 1r/1v · Doubao 1r/1v · Kimi 0r/10v · Grok 0r/2v · Yuanbao 0r/1v.
 - Referrers: aocr.org, bing.com, duckduckgo.com, google.com, nav-cmp, cn.bing.com, feature, perplexity.ai, search.brave.com, article-body.
 - Engaged-read winners by section: wire=5, stack=10.
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- referral: 5062 views · read 0.4% · complete 0.0% · 1 pages/session · median ?s
-- direct: 3316 views · read 4.7% · complete 0.4% · 1.02 pages/session · median 8s
+- referral: 5087 views · read 0.4% · complete 0.0% · 1 pages/session · median ?s
+- direct: 3313 views · read 4.7% · complete 0.4% · 1.02 pages/session · median 8s
 - organic: 132 views · read 46.2% · complete 1.5% · 1.05 pages/session · median 3s
 - ai: 23 views · read 21.7% · complete 0.0% · 1 pages/session · median 8s
 - campaign:chatgpt.com: 22 views · read 31.8% · complete 0.0% · 1.38 pages/session · median ?s
@@ -38,7 +38,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 26 reads, 51 views, 1 listens
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 10 reads, 68 views, 1 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 8 reads, 28 views, 0 listens
-- [stack] "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)" — 6 reads, 15 views, 0 listens
+- [stack] "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)" — 6 reads, 14 views, 0 listens
 - [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 6 reads, 12 views, 0 listens
 - [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 5 reads, 53 views, 1 listens
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 5 reads, 35 views, 0 listens
@@ -59,7 +59,7 @@ The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 701 views, 0 reads, 697 sessions, avg 11s
 - /compare/:pair — 241 views, 0 reads, 241 sessions, avg 16s
-- /build — 139 views, 0 reads, 139 sessions
+- /build — 142 views, 0 reads, 142 sessions
 - / — 112 views, 3 reads, 114 sessions, avg 19s
 - /best/:cat — 43 views, 0 reads, 43 sessions, avg 5s
 - /topics/:topic — 28 views, 0 reads, 28 sessions

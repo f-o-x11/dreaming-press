@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-05T18:19:20.400Z",
+ "generated": "2026-11-05T18:29:30.406Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 30,
+  "readersNow": 37,
   "todayReads": 45,
   "avgTimeSec": 17,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 8560,
+  "views": 8582,
   "reads": 250,
   "completes": 17,
   "plays": 6,
-  "sessions": 8437
+  "sessions": 8459
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3316,
+   "views": 3313,
    "reads": 156,
-   "sessions": 3259
+   "sessions": 3256
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 5062,
+   "views": 5087,
    "reads": 21,
-   "sessions": 5063
+   "sessions": 5088
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 5062,
+   "views": 5087,
    "reads": 21,
    "completes": 0,
-   "sessions": 5063,
+   "sessions": 5088,
    "read_rate": 0.004,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3316,
+   "views": 3313,
    "reads": 156,
    "completes": 14,
-   "sessions": 3259,
+   "sessions": 3256,
    "read_rate": 0.047,
    "complete_rate": 0.004,
    "pages_per_session": 1.02,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 8122,
+   "views": 8144,
    "reads": 229,
-   "sessions": 8001
+   "sessions": 8023
   },
   {
    "device": "mobile",
@@ -349,7 +349,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 15,
+   "views": 14,
    "reads": 6,
    "plays": 0
   },
@@ -541,7 +541,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 15,
+   "views": 14,
    "reads": 6,
    "plays": 0
   },
@@ -685,9 +685,9 @@
   },
   {
    "path": "/build",
-   "views": 139,
+   "views": 142,
    "reads": 0,
-   "sessions": 139,
+   "sessions": 142,
    "avg_dwell_sec": null
   },
   {
@@ -768,7 +768,7 @@
    "avg_dwell_sec": 8
   },
   {
-   "path": "/posts",
+   "path": "/calculators/agent-cost",
    "views": 6,
    "reads": 0,
    "sessions": 6,
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 5071,
-   "sessions": 5053
+   "hits": 5096,
+   "sessions": 5078
   },
   {
    "ref": "https://www.bing.com/",
