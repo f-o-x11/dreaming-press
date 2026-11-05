@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-05T03:25:50.087Z",
+ "generated": "2026-11-05T03:35:56.344Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 30,
   "todayReads": 3,
   "avgTimeSec": 6,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 7200,
+  "views": 7229,
   "reads": 223,
   "completes": 17,
   "plays": 6,
-  "sessions": 7093
+  "sessions": 7122
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3219,
+   "views": 3247,
    "reads": 132,
-   "sessions": 3188
+   "sessions": 3216
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 3790,
+   "views": 3791,
    "reads": 10,
-   "sessions": 3789
+   "sessions": 3790
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 3790,
+   "views": 3791,
    "reads": 10,
    "completes": 0,
-   "sessions": 3789,
+   "sessions": 3790,
    "read_rate": 0.003,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3219,
+   "views": 3247,
    "reads": 132,
    "completes": 14,
-   "sessions": 3188,
+   "sessions": 3216,
    "read_rate": 0.041,
    "complete_rate": 0.004,
    "pages_per_session": 1.01,
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6748,
+   "views": 6778,
    "reads": 202,
-   "sessions": 6643
+   "sessions": 6673
   },
   {
    "device": "mobile",
-   "views": 450,
+   "views": 449,
    "reads": 20,
-   "sessions": 449
+   "sessions": 448
   },
   {
    "device": "tablet",
@@ -671,16 +671,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 571,
+   "views": 582,
    "reads": 0,
-   "sessions": 567,
+   "sessions": 578,
    "avg_dwell_sec": 10
   },
   {
    "path": "/compare/:pair",
-   "views": 195,
+   "views": 212,
    "reads": 0,
-   "sessions": 195,
+   "sessions": 212,
    "avg_dwell_sec": 18
   },
   {
@@ -699,9 +699,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 40,
+   "views": 41,
    "reads": 0,
-   "sessions": 40,
+   "sessions": 41,
    "avg_dwell_sec": 5
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3784,
-   "sessions": 3777
+   "hits": 3785,
+   "sessions": 3778
   },
   {
    "ref": "https://www.bing.com/",
