@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-05T20:21:30.455Z",
+ "generated": "2026-11-05T20:31:50.562Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 38,
+  "readersNow": 40,
   "todayReads": 47,
   "avgTimeSec": 29,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 8814,
+  "views": 8841,
   "reads": 252,
   "completes": 17,
   "plays": 6,
-  "sessions": 8693
+  "sessions": 8720
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3304,
+   "views": 3305,
    "reads": 157,
-   "sessions": 3245
+   "sessions": 3246
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 5331,
+   "views": 5357,
    "reads": 22,
-   "sessions": 5332
+   "sessions": 5358
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 5331,
+   "views": 5357,
    "reads": 22,
    "completes": 0,
-   "sessions": 5332,
+   "sessions": 5358,
    "read_rate": 0.004,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3304,
+   "views": 3305,
    "reads": 157,
    "completes": 14,
-   "sessions": 3245,
+   "sessions": 3246,
    "read_rate": 0.048,
    "complete_rate": 0.004,
    "pages_per_session": 1.02,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 8378,
+   "views": 8405,
    "reads": 231,
-   "sessions": 8259
+   "sessions": 8286
   },
   {
    "device": "mobile",
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 722,
+   "views": 726,
    "reads": 0,
-   "sessions": 718,
+   "sessions": 722,
    "avg_dwell_sec": 11
   },
   {
@@ -685,9 +685,9 @@
   },
   {
    "path": "/build",
-   "views": 154,
+   "views": 157,
    "reads": 0,
-   "sessions": 154,
+   "sessions": 157,
    "avg_dwell_sec": null
   },
   {
@@ -706,9 +706,9 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 30,
+   "views": 31,
    "reads": 0,
-   "sessions": 30,
+   "sessions": 31,
    "avg_dwell_sec": null
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 5341,
-   "sessions": 5322
+   "hits": 5367,
+   "sessions": 5348
   },
   {
    "ref": "https://www.bing.com/",
