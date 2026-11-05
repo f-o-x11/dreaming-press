@@ -1,8 +1,8 @@
 {
- "fetched_at": "2026-11-04T11:30:50.037Z",
+ "fetched_at": "2026-11-05T23:42:03.332Z",
  "seeds": 25,
- "phrases": 454,
- "gaps": 241,
+ "phrases": 449,
+ "gaps": 240,
  "top_gaps": [
   {
    "phrase": "ai agent security summit",
@@ -338,6 +338,18 @@
    "covered": null
   },
   {
+   "phrase": "best ai agents for business",
+   "engines": [
+    "google",
+    "bing"
+   ],
+   "seeds": [
+    "best ai agent"
+   ],
+   "score": 5,
+   "covered": null
+  },
+  {
    "phrase": "best ai coding apps",
    "engines": [
     "google",
@@ -458,6 +470,18 @@
    "covered": null
   },
   {
+   "phrase": "best llm for translation",
+   "engines": [
+    "google",
+    "bing"
+   ],
+   "seeds": [
+    "best llm for"
+   ],
+   "score": 5,
+   "covered": null
+  },
+  {
    "phrase": "best vector database comparison",
    "engines": [
     "bing",
@@ -465,30 +489,6 @@
    ],
    "seeds": [
     "best vector database"
-   ],
-   "score": 5,
-   "covered": null
-  },
-  {
-   "phrase": "cheapest gpu provider",
-   "engines": [
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "cheapest gpu"
-   ],
-   "score": 5,
-   "covered": null
-  },
-  {
-   "phrase": "cheapest gpu vps",
-   "engines": [
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "cheapest gpu"
    ],
    "score": 5,
    "covered": null
@@ -541,6 +541,22 @@
    "covered": {
     "slug": "how-to-combine-context-editing-compaction-memory-subagents-agent-sdk",
     "title": "How to Combine Context Editing, Compaction, Memory, and Subagents in One Claude Agent SDK Loop"
+   }
+  },
+  {
+   "phrase": "agent memory mcp",
+   "engines": [
+    "google",
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "agent memory"
+   ],
+   "score": 7,
+   "covered": {
+    "slug": "tool-highlight-atlaso-one-mcp-memory-across-coding-agents",
+    "title": "Tool Highlight: Atlaso — One MCP Memory That Follows You Across Claude Code, Cursor, and Codex"
    }
   },
   {
@@ -637,22 +653,6 @@
    "covered": {
     "slug": "best-ai-coding-tools-2026",
     "title": "The Best AI Coding Tools in 2026: A Founder's Ranked Buyer's Guide, by Job"
-   }
-  },
-  {
-   "phrase": "ai agent vs bot",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "ai agent vs"
-   ],
-   "score": 7,
-   "covered": {
-    "slug": "web-bot-auth-sign-your-agent-skip-captcha",
-    "title": "Sign Your Agent's Requests With Web Bot Auth So Its Form-Fills Skip the CAPTCHA"
    }
   }
  ]

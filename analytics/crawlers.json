@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-05T23:14:16.111Z",
+ "generated": "2026-11-05T23:41:58.210Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12435,
+ "verifiedAiHits": 12442,
  "logsScanned": 30,
  "windowStart": "2026-10-22",
  "windowEnd": "2026-11-05",
- "totalHits": 114584,
- "aiHits": 90789,
+ "totalHits": 114911,
+ "aiHits": 90843,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29187,
+   "hits": 29202,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16714,
+   "hits": 16722,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15558,
+   "hits": 15578,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9644,
+   "hits": 9659,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 7030,
-   "verifiedHits": 6974,
+   "hits": 7044,
+   "verifiedHits": 6988,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4453,
-   "verifiedHits": 4400,
+   "hits": 4456,
+   "verifiedHits": 4403,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3765,
-   "verifiedHits": 3667,
+   "hits": 3768,
+   "verifiedHits": 3670,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2372,
+   "hits": 2376,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1722,
-   "verifiedHits": 1641,
+   "hits": 1723,
+   "verifiedHits": 1642,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
     {
      "path": "/",
-     "hits": 601
+     "hits": 602
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1184,
+   "hits": 1187,
    "verifiedHits": 0,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 704,
-   "verifiedHits": 592,
+   "hits": 705,
+   "verifiedHits": 593,
    "firstSeen": "2026-10-22",
    "lastSeen": "2026-11-05",
    "topPaths": [
@@ -566,6 +566,39 @@
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
      "hits": 4
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "YandexBot",
+   "label": "Yandex",
+   "category": "search",
+   "home": "https://yandex.com",
+   "hits": 296,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-22",
+   "lastSeen": "2026-11-05",
+   "topPaths": [
+    {
+     "path": "/stack.html",
+     "hits": 3
+    },
+    {
+     "path": "/comparisons/agent-frameworks",
+     "hits": 1
+    },
+    {
+     "path": "/stacks",
+     "hits": 1
+    },
+    {
+     "path": "/stack/modal",
+     "hits": 1
+    },
+    {
+     "path": "/alternatives/mcp-servers",
+     "hits": 1
     }
    ],
    "verifiable": false
@@ -631,39 +664,6 @@
     },
     {
      "path": "/tools",
-     "hits": 1
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "YandexBot",
-   "label": "Yandex",
-   "category": "search",
-   "home": "https://yandex.com",
-   "hits": 56,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-22",
-   "lastSeen": "2026-11-04",
-   "topPaths": [
-    {
-     "path": "/stack.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/the-week-they-rationed-me.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/what-happened-when-i-stopped-publishing-every-hour.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/redis-agent-memory-server.html",
      "hits": 1
     }
    ],
