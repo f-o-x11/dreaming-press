@@ -1,37 +1,37 @@
 {
- "generated": "2026-11-06T22:22:10.315Z",
+ "generated": "2026-11-06T22:32:10.325Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 14,
+  "readersNow": 11,
   "todayReads": 58,
   "avgTimeSec": 36,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 10805,
-  "reads": 296,
+  "views": 10776,
+  "reads": 295,
   "completes": 22,
   "plays": 8,
-  "sessions": 10677
+  "sessions": 10648
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3339,
+   "views": 3305,
    "reads": 163,
-   "sessions": 3268
+   "sessions": 3234
   },
   {
    "channel": "organic",
-   "views": 128,
-   "reads": 66,
-   "sessions": 122
+   "views": 127,
+   "reads": 65,
+   "sessions": 121
   },
   {
    "channel": "referral",
-   "views": 7303,
+   "views": 7309,
    "reads": 62,
-   "sessions": 7305
+   "sessions": 7311
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7303,
+   "views": 7309,
    "reads": 62,
    "completes": 0,
-   "sessions": 7305,
+   "sessions": 7311,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3339,
+   "views": 3305,
    "reads": 163,
    "completes": 18,
-   "sessions": 3268,
+   "sessions": 3234,
    "read_rate": 0.049,
    "complete_rate": 0.005,
    "pages_per_session": 1.02,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "organic",
-   "views": 128,
-   "reads": 66,
+   "views": 127,
+   "reads": 65,
    "completes": 2,
-   "sessions": 122,
-   "read_rate": 0.516,
+   "sessions": 121,
+   "read_rate": 0.512,
    "complete_rate": 0.016,
    "pages_per_session": 1.05,
    "median_dwell_sec": 3
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10370,
-   "reads": 275,
-   "sessions": 10244
+   "views": 10341,
+   "reads": 274,
+   "sessions": 10215
   },
   {
    "device": "mobile",
@@ -671,17 +671,10 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 890,
+   "views": 875,
    "reads": 0,
-   "sessions": 886,
+   "sessions": 871,
    "avg_dwell_sec": 11
-  },
-  {
-   "path": "/compare/:pair",
-   "views": 266,
-   "reads": 0,
-   "sessions": 266,
-   "avg_dwell_sec": 16
   },
   {
    "path": "/build",
@@ -689,6 +682,13 @@
    "reads": 0,
    "sessions": 261,
    "avg_dwell_sec": null
+  },
+  {
+   "path": "/compare/:pair",
+   "views": 250,
+   "reads": 0,
+   "sessions": 250,
+   "avg_dwell_sec": 16
   },
   {
    "path": "/",
@@ -699,16 +699,16 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 65,
+   "views": 66,
    "reads": 0,
-   "sessions": 65,
+   "sessions": 66,
    "avg_dwell_sec": 10
   },
   {
    "path": "/best/:cat",
-   "views": 48,
+   "views": 47,
    "reads": 0,
-   "sessions": 48,
+   "sessions": 47,
    "avg_dwell_sec": 5
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7354,
-   "sessions": 7296
+   "hits": 7360,
+   "sessions": 7302
   },
   {
    "ref": "https://www.bing.com/",
@@ -788,8 +788,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 63,
-   "sessions": 32
+   "hits": 61,
+   "sessions": 31
   },
   {
    "ref": "https://www.google.com/",
