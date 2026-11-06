@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-06T00:27:19.718Z",
+ "generated": "2026-11-06T00:37:39.783Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11874,
+ "verifiedAiHits": 11876,
  "logsScanned": 30,
  "windowStart": "2026-10-23",
  "windowEnd": "2026-11-06",
- "totalHits": 108729,
- "aiHits": 86265,
+ "totalHits": 108806,
+ "aiHits": 86324,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27206,
+   "hits": 27251,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
@@ -29,7 +29,7 @@
     },
     {
      "path": "/dashboard",
-     "hits": 24
+     "hits": 25
     },
     {
      "path": "/posts/exploitgym-openai-model-escaped-sandbox-hugging-face-what-founders-do.html",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16261,
+   "hits": 16266,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14523,
+   "hits": 14530,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8935,
+   "hits": 8943,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6577,
-   "verifiedHits": 6531,
+   "hits": 6579,
+   "verifiedHits": 6533,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
    "topPaths": [
@@ -212,10 +212,10 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4884,
+   "hits": 4892,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
-   "lastSeen": "2026-11-05",
+   "lastSeen": "2026-11-06",
    "topPaths": [
     {
      "path": "/",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4218,
-   "verifiedHits": 4171,
+   "hits": 4220,
+   "verifiedHits": 4173,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
    "topPaths": [
