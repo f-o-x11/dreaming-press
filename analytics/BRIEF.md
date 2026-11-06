@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-06T00:48Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-06T00:58Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 9335 views → 250 engaged reads → 18 completes · 9215 sessions.
-- Channels: direct 157r/3309v · organic 61r/131v · referral 25r/5857v · ai 4r/19v · campaign:chatgpt.com 3r/14v · campaign:openai 0r/3v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 9365 views → 250 engaged reads → 18 completes · 9245 sessions.
+- Channels: direct 157r/3314v · organic 61r/131v · referral 25r/5882v · ai 4r/19v · campaign:chatgpt.com 3r/14v · campaign:openai 0r/3v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 4r/17v · Le Chat 1r/1v · Perplexity 1r/1v · Doubao 1r/1v · Kimi 0r/10v · Grok 0r/2v · Yuanbao 0r/1v.
 - Referrers: aocr.org, bing.com, duckduckgo.com, google.com, nav-cmp, cn.bing.com, feature, search.brave.com, search.yahoo.com, article-body.
 - Engaged-read winners by section: wire=6, stack=9.
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- referral: 5857 views · read 0.4% · complete 0.0% · 1 pages/session · median ?s
-- direct: 3309 views · read 4.7% · complete 0.5% · 1.02 pages/session · median 8s
+- referral: 5882 views · read 0.4% · complete 0.0% · 1 pages/session · median ?s
+- direct: 3314 views · read 4.7% · complete 0.5% · 1.02 pages/session · median 8s
 - organic: 131 views · read 46.6% · complete 1.5% · 1.05 pages/session · median 3s
 - ai: 19 views · read 21.1% · complete 0.0% · 1.06 pages/session · median 4s
 - campaign:chatgpt.com: 14 views · read 21.4% · complete 0.0% · 1.4 pages/session · median ?s
@@ -41,7 +41,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 6 reads, 15 views, 0 listens
 - [stack] "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)" — 6 reads, 14 views, 0 listens
 - [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 5 reads, 53 views, 1 listens
-- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 5 reads, 35 views, 0 listens
+- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 5 reads, 37 views, 0 listens
 - [stack] "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today" — 5 reads, 18 views, 0 listens
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 5 reads, 14 views, 0 listens
 - [wire] "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo" — 3 reads, 14 views, 0 listens
@@ -57,9 +57,9 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 764 views, 0 reads, 760 sessions, avg 11s
+- /stack/:tool — 768 views, 0 reads, 764 sessions, avg 11s
 - /compare/:pair — 241 views, 0 reads, 241 sessions, avg 16s
-- /build — 187 views, 0 reads, 187 sessions
+- /build — 189 views, 0 reads, 189 sessions
 - / — 111 views, 3 reads, 113 sessions, avg 19s
 - /best/:cat — 45 views, 0 reads, 45 sessions, avg 5s
 - /topics/:topic — 39 views, 0 reads, 39 sessions
@@ -72,7 +72,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 66 views, 10 reads
 - [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 53 views, 5 reads
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 51 views, 26 reads
-- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 35 views, 5 reads
+- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 37 views, 5 reads
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 30 views, 8 reads
 - [stack] "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent" — 26 views, 0 reads
 
