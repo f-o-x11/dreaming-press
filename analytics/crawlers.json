@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-06T04:42:59.909Z",
+ "generated": "2026-11-06T04:53:10.478Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11963,
+ "verifiedAiHits": 11965,
  "logsScanned": 30,
  "windowStart": "2026-10-23",
  "windowEnd": "2026-11-06",
- "totalHits": 109995,
- "aiHits": 87212,
+ "totalHits": 110010,
+ "aiHits": 87223,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27668,
+   "hits": 27673,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16399,
+   "hits": 16400,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14707,
+   "hits": 14710,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6646,
-   "verifiedHits": 6600,
+   "hits": 6650,
+   "verifiedHits": 6604,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
    "topPaths": [
@@ -194,7 +194,7 @@
     },
     {
      "path": "/build",
-     "hits": 51
+     "hits": 52
     },
     {
      "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4245,
-   "verifiedHits": 4198,
+   "hits": 4246,
+   "verifiedHits": 4199,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
    "topPaths": [
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1516,
-   "verifiedHits": 1446,
+   "hits": 1517,
+   "verifiedHits": 1447,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
    "topPaths": [
     {
      "path": "/",
-     "hits": 552
+     "hits": 553
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
