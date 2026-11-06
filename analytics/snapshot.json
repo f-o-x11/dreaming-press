@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-06T07:16:00.804Z",
+ "generated": "2026-11-06T07:26:01.001Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 18,
-  "todayReads": 40,
-  "avgTimeSec": 47,
+  "readersNow": 20,
+  "todayReads": 42,
+  "avgTimeSec": 39,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 10098,
-  "reads": 284,
-  "completes": 19,
-  "plays": 7,
-  "sessions": 9978
+  "views": 10112,
+  "reads": 286,
+  "completes": 21,
+  "plays": 8,
+  "sessions": 9991
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3341,
-   "reads": 157,
-   "sessions": 3279
+   "views": 3346,
+   "reads": 159,
+   "sessions": 3283
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 6592,
+   "views": 6601,
    "reads": 57,
-   "sessions": 6593
+   "sessions": 6602
   },
   {
    "channel": "ai",
@@ -67,16 +67,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 18
+   "sessions": 19
   }
  ],
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 6592,
+   "views": 6601,
    "reads": 57,
    "completes": 0,
-   "sessions": 6593,
+   "sessions": 6602,
    "read_rate": 0.009,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "direct",
-   "views": 3341,
-   "reads": 157,
-   "completes": 16,
-   "sessions": 3279,
-   "read_rate": 0.047,
+   "views": 3346,
+   "reads": 159,
+   "completes": 17,
+   "sessions": 3283,
+   "read_rate": 0.048,
    "complete_rate": 0.005,
    "pages_per_session": 1.02,
    "median_dwell_sec": 8
@@ -164,7 +164,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 18,
+   "sessions": 19,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -184,8 +184,8 @@
   },
   {
    "surface": "article-body",
-   "clicks": 3,
-   "sessions": 3
+   "clicks": 4,
+   "sessions": 4
   },
   {
    "surface": "wire-row",
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9652,
-   "reads": 262,
-   "sessions": 9534
+   "views": 9666,
+   "reads": 264,
+   "sessions": 9547
   },
   {
    "device": "mobile",
@@ -511,7 +511,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 6,
+   "views": 7,
    "reads": 2,
    "plays": 1
   },
@@ -536,6 +536,16 @@
    "plays": 1
   },
   {
+   "slug": "2026-10-01-founders-wire-openai-1-4t-instinct-10b-salesforce-aiforce",
+   "title": "The Founder's Wire, October 1: OpenAI's $1.4T Private Raise, Instinct's $10B Month, and Salesforce Puts Agents Where the UI Used to Be",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 1,
+   "reads": 1,
+   "plays": 1
+  },
+  {
    "slug": "gpu-rental-price-october-2026",
    "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
    "section": "stack",
@@ -552,16 +562,6 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 15,
-   "reads": 6,
-   "plays": 0
-  },
-  {
-   "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
-   "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 14,
    "reads": 6,
    "plays": 0
   }
@@ -623,7 +623,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 26,
+   "views": 27,
    "reads": 1,
    "plays": 0
   },
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 824,
+   "views": 825,
    "reads": 0,
-   "sessions": 820,
+   "sessions": 821,
    "avg_dwell_sec": 11
   },
   {
@@ -685,9 +685,9 @@
   },
   {
    "path": "/build",
-   "views": 227,
+   "views": 228,
    "reads": 0,
-   "sessions": 227,
+   "sessions": 228,
    "avg_dwell_sec": null
   },
   {
@@ -699,10 +699,10 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 51,
+   "views": 52,
    "reads": 0,
-   "sessions": 51,
-   "avg_dwell_sec": null
+   "sessions": 52,
+   "avg_dwell_sec": 10
   },
   {
    "path": "/best/:cat",
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 6638,
-   "sessions": 6584
+   "hits": 6647,
+   "sessions": 6593
   },
   {
    "ref": "https://www.bing.com/",
@@ -817,14 +817,14 @@
    "sessions": 3
   },
   {
+   "ref": "article-body",
+   "hits": 4,
+   "sessions": 4
+  },
+  {
    "ref": "https://search.yahoo.com/",
    "hits": 3,
    "sessions": 1
-  },
-  {
-   "ref": "article-body",
-   "hits": 3,
-   "sessions": 3
   }
  ]
 }
