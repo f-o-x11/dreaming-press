@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-06T03:41:40.256Z",
+ "generated": "2026-11-06T03:52:00.167Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 43,
-  "todayReads": 29,
+  "readersNow": 30,
+  "todayReads": 30,
   "avgTimeSec": 91,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 9749,
-  "reads": 275,
+  "views": 9765,
+  "reads": 276,
   "completes": 18,
   "plays": 6,
-  "sessions": 9629
+  "sessions": 9645
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3332,
+   "views": 3331,
    "reads": 156,
-   "sessions": 3271
+   "sessions": 3270
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 6248,
-   "reads": 48,
-   "sessions": 6249
+   "views": 6265,
+   "reads": 49,
+   "sessions": 6266
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 6248,
-   "reads": 48,
+   "views": 6265,
+   "reads": 49,
    "completes": 0,
-   "sessions": 6249,
+   "sessions": 6266,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3332,
+   "views": 3331,
    "reads": 156,
    "completes": 15,
-   "sessions": 3271,
+   "sessions": 3270,
    "read_rate": 0.047,
    "complete_rate": 0.005,
    "pages_per_session": 1.02,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9304,
-   "reads": 253,
-   "sessions": 9186
+   "views": 9320,
+   "reads": 254,
+   "sessions": 9202
   },
   {
    "device": "mobile",
@@ -638,6 +638,16 @@
    "plays": 0
   },
   {
+   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
+   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 25,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4",
    "title": "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model",
    "section": "wire",
@@ -645,16 +655,6 @@
    "author": "wire-desk",
    "views": 25,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
-   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 24,
-   "reads": 1,
    "plays": 0
   },
   {
@@ -755,9 +755,9 @@
   },
   {
    "path": "/stack.html",
-   "views": 9,
+   "views": 10,
    "reads": 0,
-   "sessions": 9,
+   "sessions": 10,
    "avg_dwell_sec": 8
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 6284,
-   "sessions": 6239
+   "hits": 6302,
+   "sessions": 6256
   },
   {
    "ref": "https://www.bing.com/",
