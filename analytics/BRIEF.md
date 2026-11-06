@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-06T16:15Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-06T16:26Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 10568 views → 296 engaged reads → 22 completes · 10442 sessions.
-- Channels: direct 163r/3377v · organic 67r/130v · referral 59r/7024v · ai 4r/18v · campaign:chatgpt.com 3r/13v · campaign:openai 0r/4v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 10569 views → 296 engaged reads → 22 completes · 10443 sessions.
+- Channels: direct 163r/3375v · organic 67r/130v · referral 59r/7027v · ai 4r/18v · campaign:chatgpt.com 3r/13v · campaign:openai 0r/4v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 4r/16v · Le Chat 1r/1v · Perplexity 1r/1v · Doubao 1r/1v · Kimi 0r/9v · Grok 0r/2v · Yuanbao 0r/1v.
 - Referrers: aocr.org, bing.com, duckduckgo.com, google.com, nav-cmp, cn.bing.com, feature, search.brave.com, article-body, search.yahoo.com.
 - Engaged-read winners by section: wire=5, stack=10.
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- referral: 7024 views · read 0.8% · complete 0.0% · 1 pages/session · median ?s
-- direct: 3377 views · read 4.8% · complete 0.5% · 1.02 pages/session · median 8s
+- referral: 7027 views · read 0.8% · complete 0.0% · 1 pages/session · median ?s
+- direct: 3375 views · read 4.8% · complete 0.5% · 1.02 pages/session · median 8s
 - organic: 130 views · read 51.5% · complete 1.5% · 1.05 pages/session · median 3s
 - ai: 18 views · read 22.2% · complete 0.0% · 1.06 pages/session · median 4s
 - campaign:chatgpt.com: 13 views · read 23.1% · complete 0.0% · 1.44 pages/session · median ?s
