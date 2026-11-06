@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-06T22:01:40.297Z",
+ "generated": "2026-11-06T22:12:00.313Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 8,
+  "readersNow": 15,
   "todayReads": 58,
   "avgTimeSec": 36,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 10789,
+  "views": 10795,
   "reads": 296,
   "completes": 22,
   "plays": 8,
-  "sessions": 10661
+  "sessions": 10667
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3338,
+   "views": 3339,
    "reads": 163,
-   "sessions": 3267
+   "sessions": 3268
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 7288,
+   "views": 7293,
    "reads": 62,
-   "sessions": 7290
+   "sessions": 7295
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7288,
+   "views": 7293,
    "reads": 62,
    "completes": 0,
-   "sessions": 7290,
+   "sessions": 7295,
    "read_rate": 0.009,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3338,
+   "views": 3339,
    "reads": 163,
    "completes": 18,
-   "sessions": 3267,
+   "sessions": 3268,
    "read_rate": 0.049,
    "complete_rate": 0.005,
    "pages_per_session": 1.02,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10354,
+   "views": 10360,
    "reads": 275,
-   "sessions": 10228
+   "sessions": 10234
   },
   {
    "device": "mobile",
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 888,
+   "views": 889,
    "reads": 0,
-   "sessions": 884,
+   "sessions": 885,
    "avg_dwell_sec": 11
   },
   {
@@ -692,9 +692,9 @@
   },
   {
    "path": "/",
-   "views": 118,
+   "views": 120,
    "reads": 3,
-   "sessions": 120,
+   "sessions": 122,
    "avg_dwell_sec": 19
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7339,
-   "sessions": 7281
+   "hits": 7344,
+   "sessions": 7286
   },
   {
    "ref": "https://www.bing.com/",
