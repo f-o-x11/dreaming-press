@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-06T07:56:50.213Z",
+ "generated": "2026-11-06T08:07:00.201Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 11,
+  "readersNow": 17,
   "todayReads": 42,
   "avgTimeSec": 39,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 10136,
+  "views": 10143,
   "reads": 286,
   "completes": 21,
   "plays": 8,
-  "sessions": 10015
+  "sessions": 10022
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3345,
+   "views": 3346,
    "reads": 159,
-   "sessions": 3282
+   "sessions": 3283
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 6626,
+   "views": 6632,
    "reads": 57,
-   "sessions": 6627
+   "sessions": 6633
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 6626,
+   "views": 6632,
    "reads": 57,
    "completes": 0,
-   "sessions": 6627,
+   "sessions": 6633,
    "read_rate": 0.009,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3345,
+   "views": 3346,
    "reads": 159,
    "completes": 17,
-   "sessions": 3282,
+   "sessions": 3283,
    "read_rate": 0.048,
    "complete_rate": 0.005,
    "pages_per_session": 1.02,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9690,
+   "views": 9697,
    "reads": 264,
-   "sessions": 9571
+   "sessions": 9578
   },
   {
    "device": "mobile",
@@ -671,16 +671,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 830,
+   "views": 831,
    "reads": 0,
-   "sessions": 826,
+   "sessions": 827,
    "avg_dwell_sec": 11
   },
   {
    "path": "/compare/:pair",
-   "views": 242,
+   "views": 241,
    "reads": 0,
-   "sessions": 242,
+   "sessions": 241,
    "avg_dwell_sec": 16
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 6672,
-   "sessions": 6618
+   "hits": 6678,
+   "sessions": 6624
   },
   {
    "ref": "https://www.bing.com/",
