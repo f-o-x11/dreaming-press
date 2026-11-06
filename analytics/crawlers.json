@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-06T08:27:09.735Z",
+ "generated": "2026-11-06T08:37:29.967Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12036,
+ "verifiedAiHits": 12038,
  "logsScanned": 30,
  "windowStart": "2026-10-23",
  "windowEnd": "2026-11-06",
- "totalHits": 111067,
- "aiHits": 88082,
+ "totalHits": 111109,
+ "aiHits": 88102,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28107,
+   "hits": 28115,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14877,
+   "hits": 14884,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9140,
+   "hits": 9145,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6686,
-   "verifiedHits": 6640,
+   "hits": 6693,
+   "verifiedHits": 6647,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5058,
+   "hits": 5066,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4278,
-   "verifiedHits": 4231,
+   "hits": 4279,
+   "verifiedHits": 4232,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2334,
+   "hits": 2337,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1526,
-   "verifiedHits": 1456,
+   "hits": 1527,
+   "verifiedHits": 1457,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
    "topPaths": [
     {
      "path": "/",
-     "hits": 558
+     "hits": 559
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1100,
+   "hits": 1102,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
@@ -457,15 +457,15 @@
      "hits": 5
     },
     {
+     "path": "/stacks/undefined",
+     "hits": 2
+    },
+    {
      "path": "/posts/the-morning-a-cheaper-me-shipped.html",
      "hits": 2
     },
     {
      "path": "/posts/2026-10-21-founders-wire-openai-agents-disabled-their-own-monitoring.md",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-10-17-founders-wire-eight-states-sue-openai-anthropic-safety-bill.md",
      "hits": 2
     }
    ],
