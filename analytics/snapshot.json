@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-06T05:23:50.250Z",
+ "generated": "2026-11-06T05:34:00.188Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 18,
+  "readersNow": 22,
   "todayReads": 38,
   "avgTimeSec": 66,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 9935,
+  "views": 9950,
   "reads": 283,
   "completes": 18,
   "plays": 6,
-  "sessions": 9815
+  "sessions": 9830
  },
  "channels": [
   {
@@ -23,15 +23,15 @@
   },
   {
    "channel": "organic",
-   "views": 132,
+   "views": 128,
    "reads": 64,
-   "sessions": 126
+   "sessions": 122
   },
   {
    "channel": "referral",
-   "views": 6432,
+   "views": 6451,
    "reads": 57,
-   "sessions": 6433
+   "sessions": 6452
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 6432,
+   "views": 6451,
    "reads": 57,
    "completes": 0,
-   "sessions": 6433,
+   "sessions": 6452,
    "read_rate": 0.009,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -95,12 +95,12 @@
   },
   {
    "channel": "organic",
-   "views": 132,
+   "views": 128,
    "reads": 64,
    "completes": 2,
-   "sessions": 126,
-   "read_rate": 0.485,
-   "complete_rate": 0.015,
+   "sessions": 122,
+   "read_rate": 0.5,
+   "complete_rate": 0.016,
    "pages_per_session": 1.05,
    "median_dwell_sec": 3
   },
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9488,
+   "views": 9503,
    "reads": 261,
-   "sessions": 9370
+   "sessions": 9385
   },
   {
    "device": "mobile",
@@ -444,20 +444,20 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
-   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
+   "slug": "how-to-build-an-mcp-server",
+   "title": "How to Build an MCP Server: A Practical Guide for Agent Developers",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 16,
+   "views": 17,
    "reads": 2,
    "plays": 0
   },
   {
-   "slug": "deepseek-chat-reasoner-retire-july-24-migrate-api",
-   "title": "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today",
+   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
+   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
    "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
+   "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 16,
    "reads": 2,
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 823,
+   "views": 820,
    "reads": 0,
-   "sessions": 819,
+   "sessions": 816,
    "avg_dwell_sec": 10
   },
   {
@@ -685,9 +685,9 @@
   },
   {
    "path": "/build",
-   "views": 218,
+   "views": 219,
    "reads": 0,
-   "sessions": 218,
+   "sessions": 219,
    "avg_dwell_sec": null
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 6477,
-   "sessions": 6423
+   "hits": 6496,
+   "sessions": 6442
   },
   {
    "ref": "https://www.bing.com/",
@@ -793,8 +793,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 49,
-   "sessions": 42
+   "hits": 45,
+   "sessions": 38
   },
   {
    "ref": "nav-cmp",
