@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-06T08:37:29.967Z",
+ "generated": "2026-11-06T08:47:50.236Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12038,
+ "verifiedAiHits": 12063,
  "logsScanned": 30,
  "windowStart": "2026-10-23",
  "windowEnd": "2026-11-06",
- "totalHits": 111109,
- "aiHits": 88102,
+ "totalHits": 111170,
+ "aiHits": 88155,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28115,
+   "hits": 28134,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14884,
+   "hits": 14891,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9145,
+   "hits": 9146,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6693,
-   "verifiedHits": 6647,
+   "hits": 6700,
+   "verifiedHits": 6654,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4279,
-   "verifiedHits": 4232,
+   "hits": 4281,
+   "verifiedHits": 4234,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3714,
-   "verifiedHits": 3625,
+   "hits": 3735,
+   "verifiedHits": 3646,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
    "topPaths": [
@@ -296,11 +296,11 @@
      "hits": 18
     },
     {
-     "path": "/posts/mcp-tool-annotations-explained.html",
+     "path": "/posts/gpt-6-1-terra-vs-claude-opus-5-5-computer-use-agents.html",
      "hits": 16
     },
     {
-     "path": "/posts/claude-code-vscode-extension-setup-october-2026.html",
+     "path": "/posts/mcp-tool-annotations-explained.html",
      "hits": 16
     }
    ],
@@ -344,7 +344,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2337,
+   "hits": 2339,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1527,
-   "verifiedHits": 1457,
+   "hits": 1529,
+   "verifiedHits": 1459,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
    "topPaths": [
     {
      "path": "/",
-     "hits": 559
+     "hits": 560
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
