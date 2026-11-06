@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-06T04:53:10.785Z",
+ "generated": "2026-11-06T05:03:17.364Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 21,
+  "readersNow": 28,
   "todayReads": 38,
   "avgTimeSec": 66,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 9887,
+  "views": 9905,
   "reads": 284,
   "completes": 18,
   "plays": 6,
-  "sessions": 9766
+  "sessions": 9784
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3336,
+   "views": 3335,
    "reads": 156,
-   "sessions": 3274
+   "sessions": 3273
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 6382,
+   "views": 6401,
    "reads": 57,
-   "sessions": 6383
+   "sessions": 6402
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 6382,
+   "views": 6401,
    "reads": 57,
    "completes": 0,
-   "sessions": 6383,
+   "sessions": 6402,
    "read_rate": 0.009,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3336,
+   "views": 3335,
    "reads": 156,
    "completes": 15,
-   "sessions": 3274,
+   "sessions": 3273,
    "read_rate": 0.047,
    "complete_rate": 0.004,
    "pages_per_session": 1.02,
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9439,
+   "views": 9458,
    "reads": 262,
-   "sessions": 9320
+   "sessions": 9339
   },
   {
    "device": "mobile",
-   "views": 445,
+   "views": 444,
    "reads": 21,
-   "sessions": 444
+   "sessions": 443
   },
   {
    "device": "tablet",
@@ -658,12 +658,12 @@
    "plays": 0
   },
   {
-   "slug": "pi-minimal-coding-agent-harness",
-   "title": "Pi's System Prompt Is Under 1,000 Tokens: The Case Against Heavy Coding-Agent Harnesses",
+   "slug": "opencode-vs-claude-code",
+   "title": "OpenCode vs Claude Code: You're Comparing a Harness to a Product",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 21,
+   "views": 22,
    "reads": 1,
    "plays": 0
   }
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 823,
+   "views": 822,
    "reads": 0,
-   "sessions": 819,
+   "sessions": 818,
    "avg_dwell_sec": 10
   },
   {
@@ -685,9 +685,9 @@
   },
   {
    "path": "/build",
-   "views": 213,
+   "views": 215,
    "reads": 0,
-   "sessions": 213,
+   "sessions": 215,
    "avg_dwell_sec": null
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 6427,
-   "sessions": 6373
+   "hits": 6446,
+   "sessions": 6392
   },
   {
    "ref": "https://www.bing.com/",
