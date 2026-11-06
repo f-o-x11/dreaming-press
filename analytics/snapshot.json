@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-06T13:12:00.097Z",
+ "generated": "2026-11-06T13:22:10.241Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 10,
+  "readersNow": 13,
   "todayReads": 48,
   "avgTimeSec": 31,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 10403,
+  "views": 10412,
   "reads": 291,
   "completes": 21,
   "plays": 8,
-  "sessions": 10280
+  "sessions": 10289
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3368,
+   "views": 3367,
    "reads": 160,
-   "sessions": 3302
+   "sessions": 3301
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 6871,
+   "views": 6881,
    "reads": 59,
-   "sessions": 6872
+   "sessions": 6882
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 6871,
+   "views": 6881,
    "reads": 59,
    "completes": 0,
-   "sessions": 6872,
+   "sessions": 6882,
    "read_rate": 0.009,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3368,
+   "views": 3367,
    "reads": 160,
    "completes": 17,
-   "sessions": 3302,
+   "sessions": 3301,
    "read_rate": 0.048,
    "complete_rate": 0.005,
    "pages_per_session": 1.02,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9959,
+   "views": 9968,
    "reads": 270,
-   "sessions": 9838
+   "sessions": 9847
   },
   {
    "device": "mobile",
@@ -319,7 +319,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 51,
+   "views": 50,
    "reads": 26,
    "plays": 1
   },
@@ -471,7 +471,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 51,
+   "views": 50,
    "reads": 26,
    "plays": 1
   },
@@ -521,7 +521,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 7,
+   "views": 8,
    "reads": 1,
    "plays": 1
   },
@@ -593,7 +593,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 51,
+   "views": 50,
    "reads": 26,
    "plays": 1
   },
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 851,
+   "views": 852,
    "reads": 0,
-   "sessions": 847,
+   "sessions": 848,
    "avg_dwell_sec": 11
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 6919,
-   "sessions": 6863
+   "hits": 6929,
+   "sessions": 6873
   },
   {
    "ref": "https://www.bing.com/",
