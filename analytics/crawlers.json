@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-06T00:58:09.883Z",
+ "generated": "2026-11-06T01:08:30.054Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11877,
+ "verifiedAiHits": 11878,
  "logsScanned": 30,
  "windowStart": "2026-10-23",
  "windowEnd": "2026-11-06",
- "totalHits": 108902,
- "aiHits": 86377,
+ "totalHits": 108944,
+ "aiHits": 86406,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27278,
+   "hits": 27290,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14545,
+   "hits": 14552,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
@@ -113,10 +113,10 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 10272,
+   "hits": 10279,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
-   "lastSeen": "2026-11-05",
+   "lastSeen": "2026-11-06",
    "topPaths": [
     {
      "path": "/tags/reportive",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8963,
+   "hits": 8970,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6583,
-   "verifiedHits": 6537,
+   "hits": 6589,
+   "verifiedHits": 6543,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4221,
-   "verifiedHits": 4174,
+   "hits": 4222,
+   "verifiedHits": 4175,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
    "topPaths": [
@@ -476,7 +476,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 969,
+   "hits": 971,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
@@ -499,7 +499,7 @@
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 23
+     "hits": 24
     }
    ],
    "verifiable": false
