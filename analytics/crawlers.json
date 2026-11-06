@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-06T12:41:04.905Z",
+ "generated": "2026-11-06T12:51:19.935Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12118,
+ "verifiedAiHits": 12121,
  "logsScanned": 30,
  "windowStart": "2026-10-23",
  "windowEnd": "2026-11-06",
- "totalHits": 112253,
- "aiHits": 88985,
+ "totalHits": 112330,
+ "aiHits": 89059,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28447,
+   "hits": 28508,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
    "topPaths": [
     {
      "path": "/",
-     "hits": 39
+     "hits": 40
     },
     {
      "path": "/build",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16727,
+   "hits": 16729,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15061,
+   "hits": 15069,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
@@ -103,7 +103,7 @@
     },
     {
      "path": "/stack.html",
-     "hits": 18
+     "hits": 19
     }
    ],
    "verifiable": false
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6765,
-   "verifiedHits": 6719,
+   "hits": 6767,
+   "verifiedHits": 6721,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4311,
-   "verifiedHits": 4264,
+   "hits": 4313,
+   "verifiedHits": 4266,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
    "topPaths": [
@@ -267,8 +267,8 @@
      "hits": 35
     },
     {
-     "path": "/posts/best-open-vision-language-model-for-agents.html",
-     "hits": 30
+     "path": "/posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html",
+     "hits": 31
     }
    ],
    "verifiable": true
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3755,
-   "verifiedHits": 3666,
+   "hits": 3756,
+   "verifiedHits": 3667,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1129,
+   "hits": 1130,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
