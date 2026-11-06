@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T06:35:40.327Z",
+ "generated": "2026-11-06T06:45:41.149Z",
  "windowDays": 14,
  "site": {
   "readersNow": 22,
@@ -8,11 +8,11 @@
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 10057,
+  "views": 10072,
   "reads": 283,
   "completes": 19,
   "plays": 7,
-  "sessions": 9937
+  "sessions": 9952
  },
  "channels": [
   {
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 6555,
+   "views": 6569,
    "reads": 57,
-   "sessions": 6556
+   "sessions": 6570
   },
   {
    "channel": "ai",
@@ -47,9 +47,9 @@
   },
   {
    "channel": "campaign:openai",
-   "views": 3,
+   "views": 4,
    "reads": 0,
-   "sessions": 3
+   "sessions": 4
   },
   {
    "channel": "campaign:producthunt",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 6555,
+   "views": 6569,
    "reads": 57,
    "completes": 0,
-   "sessions": 6556,
+   "sessions": 6570,
    "read_rate": 0.009,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -128,10 +128,10 @@
   },
   {
    "channel": "campaign:openai",
-   "views": 3,
+   "views": 4,
    "reads": 0,
    "completes": 0,
-   "sessions": 3,
+   "sessions": 4,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9611,
+   "views": 9626,
    "reads": 261,
-   "sessions": 9493
+   "sessions": 9508
   },
   {
    "device": "mobile",
@@ -439,7 +439,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 19,
+   "views": 20,
    "reads": 2,
    "plays": 0
   },
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 824,
+   "views": 825,
    "reads": 0,
-   "sessions": 820,
+   "sessions": 821,
    "avg_dwell_sec": 10
   },
   {
@@ -685,9 +685,9 @@
   },
   {
    "path": "/build",
-   "views": 226,
+   "views": 227,
    "reads": 0,
-   "sessions": 226,
+   "sessions": 227,
    "avg_dwell_sec": null
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 6601,
-   "sessions": 6547
+   "hits": 6615,
+   "sessions": 6561
   },
   {
    "ref": "https://www.bing.com/",
