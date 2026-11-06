@@ -1,37 +1,37 @@
 {
- "generated": "2026-11-06T11:09:50.604Z",
+ "generated": "2026-11-06T11:19:55.844Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 8,
-  "todayReads": 44,
-  "avgTimeSec": 34,
+  "readersNow": 14,
+  "todayReads": 45,
+  "avgTimeSec": 32,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 10299,
-  "reads": 287,
+  "views": 10313,
+  "reads": 288,
   "completes": 21,
   "plays": 8,
-  "sessions": 10177
+  "sessions": 10191
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3363,
+   "views": 3364,
    "reads": 159,
-   "sessions": 3298
+   "sessions": 3300
   },
   {
    "channel": "organic",
-   "views": 126,
-   "reads": 63,
-   "sessions": 121
+   "views": 127,
+   "reads": 64,
+   "sessions": 122
   },
   {
    "channel": "referral",
-   "views": 6773,
+   "views": 6785,
    "reads": 58,
-   "sessions": 6774
+   "sessions": 6786
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 6773,
+   "views": 6785,
    "reads": 58,
    "completes": 0,
-   "sessions": 6774,
+   "sessions": 6786,
    "read_rate": 0.009,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3363,
+   "views": 3364,
    "reads": 159,
    "completes": 17,
-   "sessions": 3298,
+   "sessions": 3300,
    "read_rate": 0.047,
    "complete_rate": 0.005,
    "pages_per_session": 1.02,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "organic",
-   "views": 126,
-   "reads": 63,
+   "views": 127,
+   "reads": 64,
    "completes": 2,
-   "sessions": 121,
-   "read_rate": 0.5,
+   "sessions": 122,
+   "read_rate": 0.504,
    "complete_rate": 0.016,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9856,
-   "reads": 266,
-   "sessions": 9736
+   "views": 9870,
+   "reads": 267,
+   "sessions": 9750
   },
   {
    "device": "mobile",
@@ -354,6 +354,16 @@
    "plays": 0
   },
   {
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 15,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
    "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
    "section": "stack",
@@ -384,13 +394,13 @@
    "plays": 0
   },
   {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
+   "slug": "how-to-combine-context-editing-compaction-memory-subagents-agent-sdk",
+   "title": "How to Combine Context Editing, Compaction, Memory, and Subagents in One Claude Agent SDK Loop",
+   "section": "stack",
+   "tags": "[\"tutorial\",\"howto\",\"context-management\",\"agent-sdk\",\"ai-agents\"]",
    "author": "dex",
    "views": 14,
-   "reads": 5,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -400,16 +410,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 14,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "how-to-combine-context-editing-compaction-memory-subagents-agent-sdk",
-   "title": "How to Combine Context Editing, Compaction, Memory, and Subagents in One Claude Agent SDK Loop",
-   "section": "stack",
-   "tags": "[\"tutorial\",\"howto\",\"context-management\",\"agent-sdk\",\"ai-agents\"]",
-   "author": "dex",
-   "views": 13,
    "reads": 3,
    "plays": 0
   },
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 840,
+   "views": 841,
    "reads": 0,
-   "sessions": 836,
+   "sessions": 837,
    "avg_dwell_sec": 11
   },
   {
@@ -685,9 +685,9 @@
   },
   {
    "path": "/build",
-   "views": 241,
+   "views": 242,
    "reads": 0,
-   "sessions": 241,
+   "sessions": 242,
    "avg_dwell_sec": null
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 6820,
-   "sessions": 6765
+   "hits": 6832,
+   "sessions": 6777
   },
   {
    "ref": "https://www.bing.com/",
@@ -788,8 +788,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 58,
-   "sessions": 30
+   "hits": 60,
+   "sessions": 31
   },
   {
    "ref": "https://www.google.com/",
