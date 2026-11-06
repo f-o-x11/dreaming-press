@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-06T04:02Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-06T04:12Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 9786 views → 277 engaged reads → 18 completes · 9666 sessions.
-- Channels: direct 156r/3334v · organic 64r/132v · referral 50r/6283v · ai 4r/18v · campaign:chatgpt.com 3r/14v · campaign:openai 0r/3v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 9805 views → 278 engaged reads → 18 completes · 9684 sessions.
+- Channels: direct 156r/3336v · organic 64r/132v · referral 51r/6300v · ai 4r/18v · campaign:chatgpt.com 3r/14v · campaign:openai 0r/3v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 4r/17v · Le Chat 1r/1v · Perplexity 1r/1v · Doubao 1r/1v · Kimi 0r/9v · Grok 0r/2v · Yuanbao 0r/1v.
 - Referrers: aocr.org, bing.com, duckduckgo.com, google.com, nav-cmp, cn.bing.com, feature, search.brave.com, search.yahoo.com, article-body.
 - Engaged-read winners by section: wire=5, stack=10.
@@ -13,18 +13,18 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - nav-cmp: 15 clicks from 5 sessions
 - feature: 6 clicks from 2 sessions
 - article-body: 3 clicks from 3 sessions
+- wire-row: 2 clicks from 2 sessions
 - f-cols: 2 clicks from 1 sessions
 - dg-title: 2 clicks from 2 sessions
 - card: 2 clicks from 2 sessions
 - brand: 2 clicks from 2 sessions
-- wrap: 1 clicks from 1 sessions
 ACTION: a surface earning clicks deserves more prominence and more entries; one on
 every page earning none is decoration — cut it or move it, do not duplicate it.
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- referral: 6283 views · read 0.8% · complete 0.0% · 1 pages/session · median ?s
-- direct: 3334 views · read 4.7% · complete 0.4% · 1.02 pages/session · median 8s
+- referral: 6300 views · read 0.8% · complete 0.0% · 1 pages/session · median ?s
+- direct: 3336 views · read 4.7% · complete 0.4% · 1.02 pages/session · median 8s
 - organic: 132 views · read 48.5% · complete 1.5% · 1.05 pages/session · median 3s
 - ai: 18 views · read 22.2% · complete 0.0% · 1.06 pages/session · median 4s
 - campaign:chatgpt.com: 14 views · read 21.4% · complete 0.0% · 1.4 pages/session · median ?s
@@ -40,7 +40,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 8 reads, 30 views, 0 listens
 - [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 6 reads, 15 views, 0 listens
 - [stack] "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)" — 6 reads, 14 views, 0 listens
-- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 5 reads, 54 views, 1 listens
+- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 5 reads, 55 views, 1 listens
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 5 reads, 37 views, 0 listens
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 5 reads, 14 views, 0 listens
 - [wire] "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo" — 3 reads, 14 views, 0 listens
@@ -70,7 +70,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 67 views, 10 reads
-- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 54 views, 5 reads
+- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 55 views, 5 reads
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 51 views, 26 reads
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 37 views, 5 reads
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 30 views, 8 reads
@@ -106,8 +106,8 @@ sample size dwarfs the engaged-read counts below.
 - /newsroom  — 20 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4192 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×99 · /posts/open-source-llm-for-coding-september-2026.html ×55 · /wire.html ×43
-- PerplexityBot (3593 verified): / ×25 · /newsroom ×20 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×18
+- OAI-SearchBot (4197 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×99 · /posts/open-source-llm-for-coding-september-2026.html ×55 · /wire.html ×43
+- PerplexityBot (3595 verified): / ×25 · /newsroom ×20 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×18
 - ChatGPT-User (1446 verified): / ×552 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×111 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×40
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -122,7 +122,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Uncovered search demand (240 of 449 phrases have NO post, 4h ago)
+## Uncovered search demand (240 of 449 phrases have NO post, 5h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -145,11 +145,11 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 11954 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4192, Perplexity 3593, GPTBot (OpenAI) 2723, ChatGPT (user browsing) 1446).
+The real answer engines are crawling us — IP-verified: 11961 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4197, Perplexity 3595, GPTBot (OpenAI) 2723, ChatGPT (user browsing) 1446).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 481 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 182 crawler fetches
-- /posts/gartner-ai-agent-spending-2026.html  — 132 crawler fetches
+- /posts/gartner-ai-agent-spending-2026.html  — 133 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 121 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 99 crawler fetches
 - /posts/gpu-rental-price-october-2026.html  — 89 crawler fetches
