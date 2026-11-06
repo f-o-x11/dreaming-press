@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-06T02:09:50.542Z",
+ "generated": "2026-11-06T02:20:00.130Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 32,
+  "readersNow": 41,
   "todayReads": 4,
   "avgTimeSec": 91,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 9560,
-  "reads": 253,
+  "views": 9585,
+  "reads": 252,
   "completes": 18,
   "plays": 6,
-  "sessions": 9440
+  "sessions": 9465
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3328,
-   "reads": 158,
-   "sessions": 3267
+   "views": 3330,
+   "reads": 157,
+   "sessions": 3269
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 6064,
+   "views": 6087,
    "reads": 25,
-   "sessions": 6065
+   "sessions": 6088
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 6064,
+   "views": 6087,
    "reads": 25,
    "completes": 0,
-   "sessions": 6065,
+   "sessions": 6088,
    "read_rate": 0.004,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3328,
-   "reads": 158,
+   "views": 3330,
+   "reads": 157,
    "completes": 15,
-   "sessions": 3267,
+   "sessions": 3269,
    "read_rate": 0.047,
    "complete_rate": 0.005,
    "pages_per_session": 1.02,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9113,
-   "reads": 232,
-   "sessions": 8995
+   "views": 9138,
+   "reads": 231,
+   "sessions": 9020
   },
   {
    "device": "mobile",
@@ -329,7 +329,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 66,
+   "views": 67,
    "reads": 10,
    "plays": 1
   },
@@ -384,16 +384,6 @@
    "plays": 0
   },
   {
-   "slug": "deepseek-chat-reasoner-retire-july-24-migrate-api",
-   "title": "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 18,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "mcp-tool-annotations-explained",
    "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
    "section": "wire",
@@ -401,6 +391,16 @@
    "author": "dex",
    "views": 14,
    "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "deepseek-chat-reasoner-retire-july-24-migrate-api",
+   "title": "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 17,
+   "reads": 4,
    "plays": 0
   },
   {
@@ -481,7 +481,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 66,
+   "views": 67,
    "reads": 10,
    "plays": 1
   },
@@ -573,7 +573,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 66,
+   "views": 67,
    "reads": 10,
    "plays": 1
   },
@@ -618,6 +618,16 @@
    "plays": 0
   },
   {
+   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
+   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
+   "author": "dex",
+   "views": 26,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
    "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
    "section": "stack",
@@ -625,16 +635,6 @@
    "author": "dex",
    "views": 26,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
-   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
-   "author": "dex",
-   "views": 25,
-   "reads": 1,
    "plays": 0
   },
   {
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 789,
+   "views": 791,
    "reads": 0,
-   "sessions": 785,
+   "sessions": 787,
    "avg_dwell_sec": 10
   },
   {
@@ -685,9 +685,9 @@
   },
   {
    "path": "/build",
-   "views": 195,
+   "views": 196,
    "reads": 0,
-   "sessions": 195,
+   "sessions": 196,
    "avg_dwell_sec": null
   },
   {
@@ -706,9 +706,9 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 41,
+   "views": 42,
    "reads": 0,
-   "sessions": 41,
+   "sessions": 42,
    "avg_dwell_sec": null
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 6077,
-   "sessions": 6055
+   "hits": 6100,
+   "sessions": 6078
   },
   {
    "ref": "https://www.bing.com/",
