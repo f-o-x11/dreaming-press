@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-06T05:44Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-06T05:54Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 9973 views → 283 engaged reads → 19 completes · 9854 sessions.
-- Channels: direct 156r/3338v · organic 63r/127v · referral 57r/6471v · ai 4r/18v · campaign:chatgpt.com 3r/14v · campaign:openai 0r/3v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 9992 views → 283 engaged reads → 19 completes · 9873 sessions.
+- Channels: direct 156r/3337v · organic 63r/127v · referral 57r/6491v · ai 4r/18v · campaign:chatgpt.com 3r/14v · campaign:openai 0r/3v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 4r/17v · Le Chat 1r/1v · Perplexity 1r/1v · Doubao 1r/1v · Kimi 0r/9v · Grok 0r/2v · Yuanbao 0r/1v.
 - Referrers: aocr.org, bing.com, duckduckgo.com, google.com, nav-cmp, cn.bing.com, feature, search.brave.com, search.yahoo.com, article-body.
 - Engaged-read winners by section: wire=5, stack=10.
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- referral: 6471 views · read 0.9% · complete 0.0% · 1 pages/session · median ?s
-- direct: 3338 views · read 4.7% · complete 0.5% · 1.02 pages/session · median 8s
+- referral: 6491 views · read 0.9% · complete 0.0% · 1 pages/session · median ?s
+- direct: 3337 views · read 4.7% · complete 0.5% · 1.02 pages/session · median 8s
 - organic: 127 views · read 49.6% · complete 1.6% · 1.04 pages/session · median 3s
 - ai: 18 views · read 22.2% · complete 0.0% · 1.06 pages/session · median 4s
 - campaign:chatgpt.com: 14 views · read 21.4% · complete 0.0% · 1.4 pages/session · median ?s
@@ -60,7 +60,7 @@ so what these earn from humans is the other half of the picture.
 - /stack/:tool — 824 views, 0 reads, 820 sessions, avg 10s
 - /compare/:pair — 241 views, 0 reads, 241 sessions, avg 16s
 - /build — 220 views, 0 reads, 220 sessions
-- / — 112 views, 3 reads, 114 sessions, avg 19s
+- / — 111 views, 3 reads, 113 sessions, avg 19s
 - /topics/:topic — 49 views, 0 reads, 49 sessions
 - /best/:cat — 45 views, 0 reads, 45 sessions, avg 5s
 - /alternatives/:tool — 28 views, 0 reads, 28 sessions, avg 5s
@@ -74,16 +74,16 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 51 views, 26 reads
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 37 views, 5 reads
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 30 views, 8 reads
-- [wire] "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp" — 26 views, 1 reads
+- [stack] "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026" — 26 views, 1 reads
 
 ## Arrived but left (fix these openings first)
 These pulled real traffic and then lost it. The click already worked, so the
 problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
+- [stack] "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026" — 26 views but only 1 engaged reads (3.8%)
 - [wire] "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp" — 26 views but only 1 engaged reads (3.8%)
 - [stack] "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent" — 26 views but only 0 engaged reads (0.0%)
-- [stack] "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026" — 25 views but only 1 engaged reads (4.0%)
 - [wire] "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model" — 25 views but only 0 engaged reads (0.0%)
 - [wire] "OpenCode vs Claude Code: You're Comparing a Harness to a Product" — 22 views but only 1 engaged reads (4.5%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
@@ -150,7 +150,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /build  — 482 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 183 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 133 crawler fetches
-- /posts/best-llm-for-creative-writing-october-2026.html  — 122 crawler fetches
+- /posts/best-llm-for-creative-writing-october-2026.html  — 123 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 99 crawler fetches
 - /posts/gpu-rental-price-october-2026.html  — 90 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 81 crawler fetches

@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-06T05:44:03.926Z",
+ "generated": "2026-11-06T05:54:20.219Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 37,
+  "readersNow": 32,
   "todayReads": 39,
   "avgTimeSec": 66,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 9973,
+  "views": 9992,
   "reads": 283,
   "completes": 19,
   "plays": 6,
-  "sessions": 9854
+  "sessions": 9873
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3338,
+   "views": 3337,
    "reads": 156,
-   "sessions": 3277
+   "sessions": 3276
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 6471,
+   "views": 6491,
    "reads": 57,
-   "sessions": 6472
+   "sessions": 6492
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 6471,
+   "views": 6491,
    "reads": 57,
    "completes": 0,
-   "sessions": 6472,
+   "sessions": 6492,
    "read_rate": 0.009,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3338,
+   "views": 3337,
    "reads": 156,
    "completes": 16,
-   "sessions": 3277,
+   "sessions": 3276,
    "read_rate": 0.047,
    "complete_rate": 0.005,
    "pages_per_session": 1.02,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9526,
+   "views": 9545,
    "reads": 261,
-   "sessions": 9409
+   "sessions": 9428
   },
   {
    "device": "mobile",
@@ -501,7 +501,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 9,
+   "views": 10,
    "reads": 2,
    "plays": 1
   },
@@ -618,6 +618,16 @@
    "plays": 0
   },
   {
+   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
+   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 26,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
    "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
    "section": "wire",
@@ -635,16 +645,6 @@
    "author": "dex",
    "views": 26,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
-   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 25,
-   "reads": 1,
    "plays": 0
   },
   {
@@ -692,9 +692,9 @@
   },
   {
    "path": "/",
-   "views": 112,
+   "views": 111,
    "reads": 3,
-   "sessions": 114,
+   "sessions": 113,
    "avg_dwell_sec": 19
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 6516,
-   "sessions": 6462
+   "hits": 6536,
+   "sessions": 6482
   },
   {
    "ref": "https://www.bing.com/",
