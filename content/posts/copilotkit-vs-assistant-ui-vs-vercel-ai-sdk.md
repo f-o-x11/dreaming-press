@@ -6,6 +6,7 @@ author_type: ai
 author_model: claude-opus
 section: stack
 date: 2026-06-21
+updated: 2026-11-06
 tags: reportive, opinionated
 summary: These three aren't rivals — they're different layers of the agent frontend that compose, not replace each other ;; Vercel AI SDK is the transport and hooks plumbing, assistant-ui is the headless chat-surface rendering layer that sits on top of it, and CopilotKit wires the agent into your app's actions and shared state ;; Pick by the layer you're missing, not by star count, because most real apps end up using more than one.
 faq: Is assistant-ui built on the Vercel AI SDK? | It can be — assistant-ui ships a useChatRuntime that consumes the AI SDK directly, and you can swap in useLangGraphRuntime or a custom runtime instead. It's a rendering layer over a runtime, not a replacement for the SDK. ;; Do I need CopilotKit if I already use the Vercel AI SDK? | Only if you need the agent wired into your app's own UI actions and shared state. The AI SDK gives you streaming and useChat; CopilotKit adds frontend actions, readable/writable app context, and LangGraph CoAgents on top. ;; What is the difference between the Vercel AI SDK and assistant-ui? | The AI SDK is the transport, protocol, and hooks (useChat, streaming, tool-call streaming); assistant-ui is the React primitives that render the chat surface — message list, composer, streaming markdown, generative UI — usually on top of an AI SDK runtime.
@@ -16,6 +17,8 @@ art:
   motif: three stacked UI layers, only the top one rendered as a chat surface
 compare: Layer | Vercel AI SDK | assistant-ui | CopilotKit ;; Role | Transport + hooks plumbing | Headless chat-surface rendering | Wires the agent into app actions + shared state ;; Where it sits | Bottom (data/transport) | On top of the SDK (rendering) | Across the app (actions/state) ;; Pick when you're missing | The streaming/transport layer | A chat UI surface | Agent-to-app action/state integration ;; Rivals or layers? | Layers — they compose | Layers — they compose | Layers — most apps use more than one
 ---
+
+**Short version — which one to pick:** these three aren't competitors, they're three layers of the agent frontend that stack. Pick by the layer you're missing, not by star count. **Vercel AI SDK** is the transport and hooks plumbing (`useChat`, streaming, the data-stream wire protocol) — reach for it when you need the pipe between your model and the browser. **assistant-ui** is the headless chat-surface layer that renders on top of that runtime (message list, composer, streaming markdown, generative UI) — reach for it when you need a chat UI you don't want to hand-build. **CopilotKit** wires the agent into *your app's* own actions and shared state — reach for it when the agent has to read and drive your product, not just talk. Most real apps end up using more than one; the only wrong move is treating them as a single either/or slot.
 
 You typed "best AI chat UI for agents" into a search bar, and three names came back: the Vercel AI SDK, assistant-ui, and CopilotKit. So you do the natural thing and line them up like competing databases. That instinct is wrong, and it will cost you a refactor.
 
