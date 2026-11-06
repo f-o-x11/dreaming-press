@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-06T17:57:20.145Z",
+ "generated": "2026-11-06T18:07:40.209Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 20,
+  "readersNow": 16,
   "todayReads": 55,
   "avgTimeSec": 40,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 10649,
-  "reads": 297,
+  "views": 10657,
+  "reads": 296,
   "completes": 22,
   "plays": 8,
-  "sessions": 10518
+  "sessions": 10526
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3377,
-   "reads": 165,
-   "sessions": 3304
+   "views": 3376,
+   "reads": 164,
+   "sessions": 3303
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 7107,
+   "views": 7116,
    "reads": 59,
-   "sessions": 7108
+   "sessions": 7117
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7107,
+   "views": 7116,
    "reads": 59,
    "completes": 0,
-   "sessions": 7108,
+   "sessions": 7117,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3377,
-   "reads": 165,
+   "views": 3376,
+   "reads": 164,
    "completes": 18,
-   "sessions": 3304,
+   "sessions": 3303,
    "read_rate": 0.049,
    "complete_rate": 0.005,
    "pages_per_session": 1.02,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10207,
-   "reads": 275,
-   "sessions": 10078
+   "views": 10215,
+   "reads": 274,
+   "sessions": 10086
   },
   {
    "device": "mobile",
@@ -414,16 +414,6 @@
    "plays": 0
   },
   {
-   "slug": "serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026",
-   "title": "Serverless GPU Compute, Explained: The Providers, the Prices, and When Scale-to-Zero Pays (September 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
    "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
    "section": "wire",
@@ -460,6 +450,16 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 16,
+   "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
+   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 15,
    "reads": 2,
    "plays": 0
   }
@@ -623,7 +623,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 28,
+   "views": 27,
    "reads": 1,
    "plays": 0
   },
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 870,
+   "views": 872,
    "reads": 0,
-   "sessions": 866,
+   "sessions": 868,
    "avg_dwell_sec": 11
   },
   {
@@ -685,9 +685,9 @@
   },
   {
    "path": "/build",
-   "views": 253,
+   "views": 254,
    "reads": 0,
-   "sessions": 253,
+   "sessions": 254,
    "avg_dwell_sec": null
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7155,
-   "sessions": 7099
+   "hits": 7164,
+   "sessions": 7108
   },
   {
    "ref": "https://www.bing.com/",
