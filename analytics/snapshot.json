@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-06T01:49:20.297Z",
+ "generated": "2026-11-06T01:59:40.397Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 63,
+  "readersNow": 34,
   "todayReads": 4,
   "avgTimeSec": 118,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 9530,
+  "views": 9537,
   "reads": 253,
   "completes": 18,
   "plays": 6,
-  "sessions": 9410
+  "sessions": 9417
  },
  "channels": [
   {
@@ -23,15 +23,15 @@
   },
   {
    "channel": "organic",
-   "views": 140,
+   "views": 132,
    "reads": 63,
-   "sessions": 134
+   "sessions": 126
   },
   {
    "channel": "referral",
-   "views": 6026,
+   "views": 6041,
    "reads": 25,
-   "sessions": 6027
+   "sessions": 6042
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 6026,
+   "views": 6041,
    "reads": 25,
    "completes": 0,
-   "sessions": 6027,
+   "sessions": 6042,
    "read_rate": 0.004,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -95,13 +95,13 @@
   },
   {
    "channel": "organic",
-   "views": 140,
+   "views": 132,
    "reads": 63,
    "completes": 2,
-   "sessions": 134,
-   "read_rate": 0.45,
-   "complete_rate": 0.014,
-   "pages_per_session": 1.04,
+   "sessions": 126,
+   "read_rate": 0.477,
+   "complete_rate": 0.015,
+   "pages_per_session": 1.05,
    "median_dwell_sec": 3
   },
   {
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9083,
+   "views": 9090,
    "reads": 232,
-   "sessions": 8965
+   "sessions": 8972
   },
   {
    "device": "mobile",
@@ -454,12 +454,12 @@
    "plays": 0
   },
   {
-   "slug": "microsoft-agent-framework-vs-langgraph-vs-openai-agents-sdk",
-   "title": "Microsoft Agent Framework vs LangGraph vs OpenAI Agents SDK: Which to Bet On in 2026",
-   "section": "wire",
+   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
+   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 17,
+   "views": 16,
    "reads": 2,
    "plays": 0
   }
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 784,
+   "views": 786,
    "reads": 0,
-   "sessions": 780,
+   "sessions": 782,
    "avg_dwell_sec": 10
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 6039,
-   "sessions": 6017
+   "hits": 6054,
+   "sessions": 6032
   },
   {
    "ref": "https://www.bing.com/",
@@ -787,14 +787,14 @@
    "sessions": 36
   },
   {
-   "ref": "https://www.google.com/",
-   "hits": 58,
-   "sessions": 50
-  },
-  {
    "ref": "https://duckduckgo.com/",
    "hits": 57,
    "sessions": 30
+  },
+  {
+   "ref": "https://www.google.com/",
+   "hits": 49,
+   "sessions": 42
   },
   {
    "ref": "nav-cmp",
