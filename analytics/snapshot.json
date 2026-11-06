@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-06T17:37:00.323Z",
+ "generated": "2026-11-06T17:47:02.312Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
-  "todayReads": 54,
-  "avgTimeSec": 36,
+  "readersNow": 22,
+  "todayReads": 55,
+  "avgTimeSec": 40,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 10621,
-  "reads": 296,
+  "views": 10640,
+  "reads": 297,
   "completes": 22,
   "plays": 8,
-  "sessions": 10494
+  "sessions": 10509
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3375,
-   "reads": 164,
-   "sessions": 3306
+   "views": 3380,
+   "reads": 165,
+   "sessions": 3307
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 7081,
+   "views": 7095,
    "reads": 59,
-   "sessions": 7082
+   "sessions": 7096
   },
   {
    "channel": "ai",
@@ -67,16 +67,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 19
+   "sessions": 20
   }
  ],
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7081,
+   "views": 7095,
    "reads": 59,
    "completes": 0,
-   "sessions": 7082,
+   "sessions": 7096,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,14 +84,14 @@
   },
   {
    "channel": "direct",
-   "views": 3375,
-   "reads": 164,
+   "views": 3380,
+   "reads": 165,
    "completes": 18,
-   "sessions": 3306,
+   "sessions": 3307,
    "read_rate": 0.049,
    "complete_rate": 0.005,
    "pages_per_session": 1.02,
-   "median_dwell_sec": 8
+   "median_dwell_sec": 9
   },
   {
    "channel": "organic",
@@ -164,7 +164,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 19,
+   "sessions": 20,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -174,13 +174,13 @@
  "navSurfaces": [
   {
    "surface": "nav-cmp",
-   "clicks": 15,
-   "sessions": 5
+   "clicks": 18,
+   "sessions": 6
   },
   {
    "surface": "feature",
-   "clicks": 6,
-   "sessions": 2
+   "clicks": 7,
+   "sessions": 3
   },
   {
    "surface": "article-body",
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10177,
-   "reads": 274,
-   "sessions": 10052
+   "views": 10196,
+   "reads": 275,
+   "sessions": 10067
   },
   {
    "device": "mobile",
@@ -339,7 +339,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 30,
+   "views": 31,
    "reads": 8,
    "plays": 0
   },
@@ -551,7 +551,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 30,
+   "views": 31,
    "reads": 8,
    "plays": 0
   },
@@ -613,7 +613,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 30,
+   "views": 31,
    "reads": 8,
    "plays": 0
   },
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 868,
+   "views": 869,
    "reads": 0,
-   "sessions": 864,
+   "sessions": 865,
    "avg_dwell_sec": 11
   },
   {
@@ -685,9 +685,9 @@
   },
   {
    "path": "/build",
-   "views": 251,
+   "views": 252,
    "reads": 0,
-   "sessions": 251,
+   "sessions": 252,
    "avg_dwell_sec": null
   },
   {
@@ -706,9 +706,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 47,
+   "views": 48,
    "reads": 0,
-   "sessions": 47,
+   "sessions": 48,
    "avg_dwell_sec": 5
   },
   {
@@ -726,18 +726,18 @@
    "avg_dwell_sec": 77
   },
   {
+   "path": "/tools",
+   "views": 27,
+   "reads": 2,
+   "sessions": 20,
+   "avg_dwell_sec": 28
+  },
+  {
    "path": "/agents.html",
    "views": 26,
    "reads": 7,
    "sessions": 25,
    "avg_dwell_sec": 99
-  },
-  {
-   "path": "/tools",
-   "views": 26,
-   "reads": 2,
-   "sessions": 19,
-   "avg_dwell_sec": 28
   },
   {
    "path": "/about.html",
@@ -755,10 +755,10 @@
   },
   {
    "path": "/stack.html",
-   "views": 10,
+   "views": 11,
    "reads": 0,
-   "sessions": 10,
-   "avg_dwell_sec": 8
+   "sessions": 11,
+   "avg_dwell_sec": 6
   },
   {
    "path": "/apps",
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7129,
-   "sessions": 7073
+   "hits": 7143,
+   "sessions": 7087
   },
   {
    "ref": "https://www.bing.com/",
@@ -798,18 +798,18 @@
   },
   {
    "ref": "nav-cmp",
-   "hits": 15,
-   "sessions": 5
+   "hits": 18,
+   "sessions": 6
+  },
+  {
+   "ref": "feature",
+   "hits": 7,
+   "sessions": 3
   },
   {
    "ref": "https://cn.bing.com/",
    "hits": 6,
    "sessions": 4
-  },
-  {
-   "ref": "feature",
-   "hits": 6,
-   "sessions": 2
   },
   {
    "ref": "https://search.brave.com/",
