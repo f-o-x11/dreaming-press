@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-06T04:32:50.299Z",
+ "generated": "2026-11-06T04:43:00.173Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 44,
+  "readersNow": 25,
   "todayReads": 38,
   "avgTimeSec": 66,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 9862,
+  "views": 9870,
   "reads": 284,
   "completes": 18,
   "plays": 6,
-  "sessions": 9741
+  "sessions": 9749
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3338,
+   "views": 3336,
    "reads": 156,
-   "sessions": 3276
+   "sessions": 3274
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 6355,
+   "views": 6365,
    "reads": 57,
-   "sessions": 6356
+   "sessions": 6366
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 6355,
+   "views": 6365,
    "reads": 57,
    "completes": 0,
-   "sessions": 6356,
+   "sessions": 6366,
    "read_rate": 0.009,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3338,
+   "views": 3336,
    "reads": 156,
    "completes": 15,
-   "sessions": 3276,
+   "sessions": 3274,
    "read_rate": 0.047,
    "complete_rate": 0.004,
    "pages_per_session": 1.02,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9414,
+   "views": 9422,
    "reads": 262,
-   "sessions": 9295
+   "sessions": 9303
   },
   {
    "device": "mobile",
@@ -685,9 +685,9 @@
   },
   {
    "path": "/build",
-   "views": 209,
+   "views": 210,
    "reads": 0,
-   "sessions": 209,
+   "sessions": 210,
    "avg_dwell_sec": null
   },
   {
@@ -699,9 +699,9 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 46,
+   "views": 47,
    "reads": 0,
-   "sessions": 46,
+   "sessions": 47,
    "avg_dwell_sec": null
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 6400,
-   "sessions": 6346
+   "hits": 6410,
+   "sessions": 6356
   },
   {
    "ref": "https://www.bing.com/",
