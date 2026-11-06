@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-06T00:17:04.422Z",
+ "generated": "2026-11-06T00:27:19.718Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11848,
+ "verifiedAiHits": 11874,
  "logsScanned": 30,
  "windowStart": "2026-10-23",
  "windowEnd": "2026-11-06",
- "totalHits": 108670,
- "aiHits": 86208,
+ "totalHits": 108729,
+ "aiHits": 86265,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27190,
+   "hits": 27206,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
@@ -32,12 +32,12 @@
      "hits": 24
     },
     {
-     "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
+     "path": "/posts/exploitgym-openai-model-escaped-sandbox-hugging-face-what-founders-do.html",
      "hits": 14
     },
     {
-     "path": "/posts/best-llm-for-writing-2026.html",
-     "hits": 13
+     "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
+     "hits": 14
     }
    ],
    "verifiable": false
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16258,
+   "hits": 16261,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14516,
+   "hits": 14523,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6576,
-   "verifiedHits": 6530,
+   "hits": 6577,
+   "verifiedHits": 6531,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4212,
-   "verifiedHits": 4165,
+   "hits": 4218,
+   "verifiedHits": 4171,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
    "topPaths": [
@@ -278,10 +278,10 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3611,
-   "verifiedHits": 3522,
+   "hits": 3631,
+   "verifiedHits": 3542,
    "firstSeen": "2026-10-23",
-   "lastSeen": "2026-11-05",
+   "lastSeen": "2026-11-06",
    "topPaths": [
     {
      "path": "/",
@@ -344,7 +344,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2259,
+   "hits": 2264,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
    "lastSeen": "2026-11-06",
@@ -443,10 +443,10 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1077,
+   "hits": 1078,
    "verifiedHits": 0,
    "firstSeen": "2026-10-23",
-   "lastSeen": "2026-11-05",
+   "lastSeen": "2026-11-06",
    "topPaths": [
     {
      "path": "/build",
