@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-07T20:55Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-07T21:05Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 11137 views → 296 engaged reads → 23 completes · 11009 sessions.
-- Channels: direct 163r/3234v · organic 66r/138v · referral 62r/7728v · ai 4r/20v · campaign:chatgpt.com 1r/11v · campaign:openai 0r/4v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 11138 views → 296 engaged reads → 23 completes · 11010 sessions.
+- Channels: direct 163r/3233v · organic 66r/138v · referral 62r/7730v · ai 4r/20v · campaign:chatgpt.com 1r/11v · campaign:openai 0r/4v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 2r/14v · Le Chat 1r/1v · Perplexity 1r/1v · Doubao 1r/1v · Kimi 0r/11v · Grok 0r/2v · Yuanbao 0r/1v.
 - Referrers: aocr.org, bing.com, duckduckgo.com, google.com, nav-cmp, feature, cn.bing.com, search.brave.com, article-body, wire-row.
 - Engaged-read winners by section: wire=5, stack=10.
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- referral: 7728 views · read 0.8% · complete 0.0% · 1 pages/session · median ?s
-- direct: 3234 views · read 5.0% · complete 0.6% · 1.02 pages/session · median 9s
+- referral: 7730 views · read 0.8% · complete 0.0% · 1 pages/session · median ?s
+- direct: 3233 views · read 5.0% · complete 0.6% · 1.02 pages/session · median 9s
 - organic: 138 views · read 47.8% · complete 2.2% · 1.05 pages/session · median 2s
 - ai: 20 views · read 20.0% · complete 0.0% · 1.05 pages/session · median 4s
 - campaign:chatgpt.com: 11 views · read 9.1% · complete 0.0% · 1.57 pages/session · median ?s
