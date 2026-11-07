@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-07T20:25:01.068Z",
+ "generated": "2026-11-07T20:35:05.436Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11902,
+ "verifiedAiHits": 11910,
  "logsScanned": 30,
  "windowStart": "2026-10-24",
  "windowEnd": "2026-11-07",
- "totalHits": 112784,
- "aiHits": 89592,
+ "totalHits": 112827,
+ "aiHits": 89620,
  "aiEngines": 16,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 17319,
+   "hits": 17331,
    "verifiedHits": 0,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15441,
+   "hits": 15448,
    "verifiedHits": 0,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9167,
+   "hits": 9178,
    "verifiedHits": 0,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6783,
-   "verifiedHits": 6733,
+   "hits": 6787,
+   "verifiedHits": 6737,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4076,
-   "verifiedHits": 4019,
+   "hits": 4081,
+   "verifiedHits": 4024,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3741,
-   "verifiedHits": 3644,
+   "hits": 3744,
+   "verifiedHits": 3647,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
    "topPaths": [
@@ -476,7 +476,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 990,
+   "hits": 991,
    "verifiedHits": 0,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
@@ -499,7 +499,7 @@
     },
     {
      "path": "/posts/cheapest-gpu-rental-november-2026.html",
-     "hits": 27
+     "hits": 28
     }
    ],
    "verifiable": false
