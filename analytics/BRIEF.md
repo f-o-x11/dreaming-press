@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-07T12:17Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-07T12:27Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 11031 views → 290 engaged reads → 22 completes · 10910 sessions.
-- Channels: direct 159r/3233v · organic 64r/136v · referral 62r/7626v · ai 4r/19v · campaign:chatgpt.com 1r/11v · campaign:openai 0r/4v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 11033 views → 290 engaged reads → 22 completes · 10912 sessions.
+- Channels: direct 159r/3233v · organic 64r/136v · referral 62r/7628v · ai 4r/19v · campaign:chatgpt.com 1r/11v · campaign:openai 0r/4v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 2r/14v · Le Chat 1r/1v · Perplexity 1r/1v · Doubao 1r/1v · Kimi 0r/10v · Grok 0r/2v · Yuanbao 0r/1v.
 - Referrers: aocr.org, bing.com, duckduckgo.com, google.com, nav-cmp, feature, cn.bing.com, search.brave.com, article-body, search.yahoo.com.
 - Engaged-read winners by section: wire=5, stack=10.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- referral: 7626 views · read 0.8% · complete 0.0% · 1 pages/session · median ?s
+- referral: 7628 views · read 0.8% · complete 0.0% · 1 pages/session · median ?s
 - direct: 3233 views · read 4.9% · complete 0.6% · 1.02 pages/session · median 9s
 - organic: 136 views · read 47.1% · complete 1.5% · 1.05 pages/session · median 2s
 - ai: 19 views · read 21.1% · complete 0.0% · 1.06 pages/session · median 4s
@@ -36,7 +36,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 26 reads, 50 views, 1 listens
-- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 9 reads, 60 views, 1 listens
+- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 9 reads, 59 views, 1 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 8 reads, 31 views, 0 listens
 - [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 7 reads, 16 views, 0 listens
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 6 reads, 15 views, 0 listens
@@ -59,7 +59,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 904 views, 0 reads, 900 sessions, avg 10s
+- /stack/:tool — 905 views, 0 reads, 901 sessions, avg 10s
 - /build — 273 views, 0 reads, 273 sessions
 - /compare/:pair — 248 views, 0 reads, 248 sessions, avg 16s
 - / — 117 views, 3 reads, 120 sessions, avg 20s
@@ -71,7 +71,7 @@ ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
-- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 60 views, 9 reads
+- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 59 views, 9 reads
 - [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 57 views, 5 reads
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 50 views, 26 reads
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 36 views, 5 reads
