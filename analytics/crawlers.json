@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-07T01:05:39.799Z",
+ "generated": "2026-11-07T01:15:59.709Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11470,
+ "verifiedAiHits": 11473,
  "logsScanned": 30,
  "windowStart": "2026-10-24",
  "windowEnd": "2026-11-07",
- "totalHits": 107992,
- "aiHits": 85957,
+ "totalHits": 108034,
+ "aiHits": 85985,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27116,
+   "hits": 27128,
    "verifiedHits": 0,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16782,
+   "hits": 16788,
    "verifiedHits": 0,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14566,
+   "hits": 14573,
    "verifiedHits": 0,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8648,
+   "hits": 8662,
    "verifiedHits": 0,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3910,
-   "verifiedHits": 3853,
+   "hits": 3912,
+   "verifiedHits": 3855,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
    "topPaths": [
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1366,
-   "verifiedHits": 1297,
+   "hits": 1367,
+   "verifiedHits": 1298,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
    "topPaths": [
     {
      "path": "/",
-     "hits": 528
+     "hits": 529
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
