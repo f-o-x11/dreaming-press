@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-07T02:06:39.939Z",
+ "generated": "2026-11-07T02:16:49.792Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11484,
+ "verifiedAiHits": 11485,
  "logsScanned": 30,
  "windowStart": "2026-10-24",
  "windowEnd": "2026-11-07",
- "totalHits": 108243,
- "aiHits": 86135,
+ "totalHits": 108265,
+ "aiHits": 86151,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27208,
+   "hits": 27216,
    "verifiedHits": 0,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14612,
+   "hits": 14619,
    "verifiedHits": 0,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8694,
+   "hits": 8697,
    "verifiedHits": 0,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6496,
-   "verifiedHits": 6446,
+   "hits": 6499,
+   "verifiedHits": 6449,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
    "topPaths": [
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1368,
-   "verifiedHits": 1298,
+   "hits": 1369,
+   "verifiedHits": 1299,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
    "topPaths": [
     {
      "path": "/",
-     "hits": 529
+     "hits": 530
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
