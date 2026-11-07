@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-07T01:26Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-07T01:36Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 10858 views → 293 engaged reads → 22 completes · 10730 sessions.
-- Channels: direct 161r/3290v · organic 65r/127v · referral 62r/7407v · ai 4r/17v · campaign:chatgpt.com 1r/11v · campaign:openai 0r/4v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 10864 views → 293 engaged reads → 22 completes · 10736 sessions.
+- Channels: direct 161r/3289v · organic 65r/127v · referral 62r/7414v · ai 4r/17v · campaign:chatgpt.com 1r/11v · campaign:openai 0r/4v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 2r/14v · Le Chat 1r/1v · Perplexity 1r/1v · Doubao 1r/1v · Kimi 0r/8v · Grok 0r/2v · Yuanbao 0r/1v.
 - Referrers: aocr.org, bing.com, duckduckgo.com, google.com, nav-cmp, feature, cn.bing.com, search.brave.com, article-body, search.yahoo.com.
 - Engaged-read winners by section: wire=5, stack=10.
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- referral: 7407 views · read 0.8% · complete 0.0% · 1 pages/session · median ?s
-- direct: 3290 views · read 4.9% · complete 0.5% · 1.02 pages/session · median 9s
+- referral: 7414 views · read 0.8% · complete 0.0% · 1 pages/session · median ?s
+- direct: 3289 views · read 4.9% · complete 0.5% · 1.02 pages/session · median 9s
 - organic: 127 views · read 51.2% · complete 1.6% · 1.05 pages/session · median 3s
 - ai: 17 views · read 23.5% · complete 0.0% · 1.06 pages/session · median 4s
 - campaign:chatgpt.com: 11 views · read 9.1% · complete 0.0% · 1.57 pages/session · median ?s
@@ -84,7 +84,7 @@ problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [stack] "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026" — 28 views but only 1 engaged reads (3.6%)
-- [stack] "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent" — 26 views but only 0 engaged reads (0.0%)
+- [stack] "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent" — 27 views but only 0 engaged reads (0.0%)
 - [wire] "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp" — 25 views but only 1 engaged reads (4.0%)
 - [wire] "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model" — 25 views but only 0 engaged reads (0.0%)
 - [wire] "Pi's System Prompt Is Under 1,000 Tokens: The Case Against Heavy Coding-Agent Harnesses" — 24 views but only 1 engaged reads (4.2%)

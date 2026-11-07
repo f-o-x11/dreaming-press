@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-07T01:26:14.299Z",
+ "generated": "2026-11-07T01:36:14.959Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 9,
+  "readersNow": 11,
   "todayReads": 0,
-  "avgTimeSec": 0,
+  "avgTimeSec": 2,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10858,
+  "views": 10864,
   "reads": 293,
   "completes": 22,
   "plays": 8,
-  "sessions": 10730
+  "sessions": 10736
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3290,
+   "views": 3289,
    "reads": 161,
-   "sessions": 3219
+   "sessions": 3218
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 7407,
+   "views": 7414,
    "reads": 62,
-   "sessions": 7409
+   "sessions": 7416
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7407,
+   "views": 7414,
    "reads": 62,
    "completes": 0,
-   "sessions": 7409,
+   "sessions": 7416,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3290,
+   "views": 3289,
    "reads": 161,
    "completes": 18,
-   "sessions": 3219,
+   "sessions": 3218,
    "read_rate": 0.049,
    "complete_rate": 0.005,
    "pages_per_session": 1.02,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10426,
+   "views": 10432,
    "reads": 273,
-   "sessions": 10300
+   "sessions": 10306
   },
   {
    "device": "mobile",
@@ -633,7 +633,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 26,
+   "views": 27,
    "reads": 0,
    "plays": 0
   },
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7458,
-   "sessions": 7400
+   "hits": 7465,
+   "sessions": 7407
   },
   {
    "ref": "https://www.bing.com/",
