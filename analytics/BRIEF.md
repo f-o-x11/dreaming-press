@@ -1,35 +1,35 @@
-# Analytics brief — auto-exported 2026-11-07T12:38Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-07T12:48Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 11028 views → 290 engaged reads → 22 completes · 10907 sessions.
-- Channels: direct 159r/3228v · organic 64r/136v · referral 62r/7628v · ai 4r/19v · campaign:chatgpt.com 1r/11v · campaign:openai 0r/4v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 11033 views → 293 engaged reads → 22 completes · 10909 sessions.
+- Channels: direct 162r/3231v · organic 64r/136v · referral 62r/7630v · ai 4r/19v · campaign:chatgpt.com 1r/11v · campaign:openai 0r/4v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 2r/14v · Le Chat 1r/1v · Perplexity 1r/1v · Doubao 1r/1v · Kimi 0r/10v · Grok 0r/2v · Yuanbao 0r/1v.
 - Referrers: aocr.org, bing.com, duckduckgo.com, google.com, nav-cmp, feature, cn.bing.com, search.brave.com, article-body, search.yahoo.com.
 - Engaged-read winners by section: wire=5, stack=10.
 
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
-- nav-cmp: 18 clicks from 6 sessions
+- nav-cmp: 19 clicks from 7 sessions
 - feature: 7 clicks from 3 sessions
 - article-body: 4 clicks from 4 sessions
+- brand: 3 clicks from 3 sessions
 - wire-row: 2 clicks from 2 sessions
 - f-cols: 2 clicks from 1 sessions
 - dg-title: 2 clicks from 2 sessions
 - card: 2 clicks from 2 sessions
-- breadcrumb: 2 clicks from 2 sessions
 ACTION: a surface earning clicks deserves more prominence and more entries; one on
 every page earning none is decoration — cut it or move it, do not duplicate it.
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- referral: 7628 views · read 0.8% · complete 0.0% · 1 pages/session · median ?s
-- direct: 3228 views · read 4.9% · complete 0.6% · 1.02 pages/session · median 9s
+- referral: 7630 views · read 0.8% · complete 0.0% · 1 pages/session · median ?s
+- direct: 3231 views · read 5.0% · complete 0.6% · 1.02 pages/session · median 9s
 - organic: 136 views · read 47.1% · complete 1.5% · 1.05 pages/session · median 2s
 - ai: 19 views · read 21.1% · complete 0.0% · 1.06 pages/session · median 4s
 - campaign:chatgpt.com: 11 views · read 9.1% · complete 0.0% · 1.57 pages/session · median ?s
 - campaign:openai: 4 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
-INSIGHT: organic converts 10x better per view than direct, which is 29% of all views.
+INSIGHT: organic converts 9x better per view than direct, which is 29% of all views.
 One visitor from organic is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
@@ -39,17 +39,17 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 9 reads, 59 views, 1 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 8 reads, 31 views, 0 listens
 - [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 7 reads, 16 views, 0 listens
+- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 6 reads, 58 views, 2 listens
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 6 reads, 15 views, 0 listens
 - [stack] "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)" — 6 reads, 14 views, 0 listens
-- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 5 reads, 57 views, 1 listens
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 5 reads, 36 views, 0 listens
+- [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 3 reads, 21 views, 0 listens
 - [wire] "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo" — 3 reads, 15 views, 0 listens
-- [stack] "How to Combine Context Editing, Compaction, Memory, and Subagents in One Claude Agent SDK Loop" — 3 reads, 14 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
+- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 2 listens, 6 reads
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 1 listens, 26 reads
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 1 listens, 9 reads
-- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 1 listens, 5 reads
 - [wire] "LangGraph Checkpointing vs Temporal: Why Checkpoints Aren't Durable Execution" — 1 listens, 2 reads
 - [wire] "Speech-to-Speech vs Cascaded: Two Architectures for Voice AI Agents in 2026" — 1 listens, 2 reads
 - [wire] "How to Resume a Crashed AI Agent: Checkpoints, Durable Execution, and the Replay Trap" — 1 listens, 1 reads
@@ -59,10 +59,10 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 905 views, 0 reads, 901 sessions, avg 10s
+- /stack/:tool — 906 views, 0 reads, 902 sessions, avg 10s
 - /build — 273 views, 0 reads, 273 sessions
 - /compare/:pair — 248 views, 0 reads, 248 sessions, avg 16s
-- / — 117 views, 3 reads, 120 sessions, avg 20s
+- / — 118 views, 4 reads, 121 sessions, avg 22s
 - /topics/:topic — 73 views, 0 reads, 73 sessions, avg 10s
 - /best/:cat — 48 views, 0 reads, 48 sessions, avg 5s
 - /alternatives/:tool — 31 views, 0 reads, 31 sessions, avg 5s
@@ -72,7 +72,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 59 views, 9 reads
-- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 57 views, 5 reads
+- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 58 views, 6 reads
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 50 views, 26 reads
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 36 views, 5 reads
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 31 views, 8 reads
@@ -152,7 +152,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /build  — 463 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 135 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 135 crawler fetches
-- /posts/best-llm-for-creative-writing-october-2026.html  — 117 crawler fetches
+- /posts/best-llm-for-creative-writing-october-2026.html  — 118 crawler fetches
 - /posts/gpu-rental-price-october-2026.html  — 97 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 91 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 70 crawler fetches
