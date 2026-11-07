@@ -1,37 +1,37 @@
 {
- "generated": "2026-11-07T06:11:32.063Z",
+ "generated": "2026-11-07T06:21:40.783Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 11,
-  "todayReads": 0,
-  "avgTimeSec": 4,
+  "readersNow": 10,
+  "todayReads": 1,
+  "avgTimeSec": 38,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10944,
-  "reads": 290,
+  "views": 10948,
+  "reads": 291,
   "completes": 22,
   "plays": 8,
-  "sessions": 10819
+  "sessions": 10822
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3263,
-   "reads": 159,
-   "sessions": 3194
+   "views": 3262,
+   "reads": 160,
+   "sessions": 3192
   },
   {
    "channel": "organic",
-   "views": 134,
+   "views": 135,
    "reads": 64,
-   "sessions": 128
+   "sessions": 129
   },
   {
    "channel": "referral",
-   "views": 7513,
+   "views": 7517,
    "reads": 62,
-   "sessions": 7515
+   "sessions": 7519
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7513,
+   "views": 7517,
    "reads": 62,
    "completes": 0,
-   "sessions": 7515,
+   "sessions": 7519,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3263,
-   "reads": 159,
+   "views": 3262,
+   "reads": 160,
    "completes": 18,
-   "sessions": 3194,
+   "sessions": 3192,
    "read_rate": 0.049,
    "complete_rate": 0.006,
    "pages_per_session": 1.02,
@@ -95,14 +95,14 @@
   },
   {
    "channel": "organic",
-   "views": 134,
+   "views": 135,
    "reads": 64,
    "completes": 2,
-   "sessions": 128,
-   "read_rate": 0.478,
+   "sessions": 129,
+   "read_rate": 0.474,
    "complete_rate": 0.015,
    "pages_per_session": 1.05,
-   "median_dwell_sec": 3
+   "median_dwell_sec": 2
   },
   {
    "channel": "ai",
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10511,
-   "reads": 270,
-   "sessions": 10388
+   "views": 10515,
+   "reads": 271,
+   "sessions": 10391
   },
   {
    "device": "mobile",
@@ -628,18 +628,18 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
-   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
+   "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
+   "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 27,
+   "views": 28,
    "reads": 0,
    "plays": 0
   },
   {
-   "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
-   "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
+   "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
+   "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -699,9 +699,9 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 71,
+   "views": 72,
    "reads": 0,
-   "sessions": 71,
+   "sessions": 72,
    "avg_dwell_sec": 10
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7563,
-   "sessions": 7505
+   "hits": 7567,
+   "sessions": 7509
   },
   {
    "ref": "https://www.bing.com/",
@@ -793,8 +793,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 54,
-   "sessions": 46
+   "hits": 56,
+   "sessions": 47
   },
   {
    "ref": "nav-cmp",
