@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-07T14:19Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-07T14:30Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 11037 views → 295 engaged reads → 23 completes · 10911 sessions.
-- Channels: direct 163r/3217v · organic 65r/137v · referral 62r/7647v · ai 4r/19v · campaign:chatgpt.com 1r/11v · campaign:openai 0r/4v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 11036 views → 297 engaged reads → 23 completes · 10908 sessions.
+- Channels: direct 165r/3213v · organic 65r/137v · referral 62r/7650v · ai 4r/19v · campaign:chatgpt.com 1r/11v · campaign:openai 0r/4v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 2r/14v · Le Chat 1r/1v · Perplexity 1r/1v · Doubao 1r/1v · Kimi 0r/10v · Grok 0r/2v · Yuanbao 0r/1v.
 - Referrers: aocr.org, bing.com, duckduckgo.com, google.com, nav-cmp, feature, cn.bing.com, search.brave.com, article-body, wire-row.
 - Engaged-read winners by section: wire=5, stack=10.
@@ -15,16 +15,16 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - article-body: 4 clicks from 4 sessions
 - wire-row: 3 clicks from 3 sessions
 - f-cols: 3 clicks from 2 sessions
+- card: 3 clicks from 3 sessions
 - brand: 3 clicks from 3 sessions
 - dg-title: 2 clicks from 2 sessions
-- card: 2 clicks from 2 sessions
 ACTION: a surface earning clicks deserves more prominence and more entries; one on
 every page earning none is decoration — cut it or move it, do not duplicate it.
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- referral: 7647 views · read 0.8% · complete 0.0% · 1 pages/session · median ?s
-- direct: 3217 views · read 5.1% · complete 0.6% · 1.02 pages/session · median 9s
+- referral: 7650 views · read 0.8% · complete 0.0% · 1 pages/session · median ?s
+- direct: 3213 views · read 5.1% · complete 0.6% · 1.02 pages/session · median 9s
 - organic: 137 views · read 47.4% · complete 2.2% · 1.05 pages/session · median 2s
 - ai: 19 views · read 21.1% · complete 0.0% · 1.06 pages/session · median 4s
 - campaign:chatgpt.com: 11 views · read 9.1% · complete 0.0% · 1.57 pages/session · median ?s
@@ -59,8 +59,8 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 908 views, 0 reads, 904 sessions, avg 10s
-- /build — 274 views, 0 reads, 274 sessions
+- /stack/:tool — 909 views, 0 reads, 905 sessions, avg 10s
+- /build — 275 views, 0 reads, 275 sessions
 - /compare/:pair — 248 views, 0 reads, 248 sessions, avg 16s
 - / — 118 views, 4 reads, 121 sessions, avg 22s
 - /topics/:topic — 74 views, 0 reads, 74 sessions, avg 23s
@@ -85,7 +85,7 @@ skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [stack] "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026" — 29 views but only 1 engaged reads (3.4%)
 - [stack] "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM" — 29 views but only 0 engaged reads (0.0%)
-- [stack] "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent" — 27 views but only 0 engaged reads (0.0%)
+- [stack] "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent" — 26 views but only 0 engaged reads (0.0%)
 - [wire] "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp" — 25 views but only 1 engaged reads (4.0%)
 - [wire] "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model" — 25 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
