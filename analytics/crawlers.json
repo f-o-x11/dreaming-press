@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-07T07:02:03.051Z",
+ "generated": "2026-11-07T07:12:19.877Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11532,
+ "verifiedAiHits": 11534,
  "logsScanned": 30,
  "windowStart": "2026-10-24",
  "windowEnd": "2026-11-07",
- "totalHits": 109503,
- "aiHits": 87095,
+ "totalHits": 109548,
+ "aiHits": 87115,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27673,
+   "hits": 27685,
    "verifiedHits": 0,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14823,
+   "hits": 14829,
    "verifiedHits": 0,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8795,
+   "hits": 8802,
    "verifiedHits": 0,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6585,
-   "verifiedHits": 6535,
+   "hits": 6589,
+   "verifiedHits": 6539,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4993,
+   "hits": 5001,
    "verifiedHits": 0,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
@@ -223,7 +223,7 @@
     },
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
-     "hits": 15
+     "hits": 16
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3947,
-   "verifiedHits": 3890,
+   "hits": 3949,
+   "verifiedHits": 3892,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1033,
+   "hits": 1039,
    "verifiedHits": 0,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
@@ -457,15 +457,15 @@
      "hits": 4
     },
     {
+     "path": "/post/2026-03-07-agenthost-vercel-for-ai-agents",
+     "hits": 2
+    },
+    {
      "path": "/stacks/undefined",
      "hits": 2
     },
     {
      "path": "/authors/isla",
-     "hits": 2
-    },
-    {
-     "path": "/posts/my-voice-speaks-it-wont-sing.md",
      "hits": 2
     }
    ],
