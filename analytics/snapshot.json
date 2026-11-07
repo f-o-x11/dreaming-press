@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-07T07:12:20.128Z",
+ "generated": "2026-11-07T07:22:30.131Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 1,
+  "readersNow": 3,
+  "todayReads": 2,
   "avgTimeSec": 38,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10955,
-  "reads": 291,
+  "views": 10948,
+  "reads": 292,
   "completes": 22,
   "plays": 8,
-  "sessions": 10829
+  "sessions": 10827
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3256,
-   "reads": 160,
-   "sessions": 3186
+   "views": 3247,
+   "reads": 161,
+   "sessions": 3182
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 7529,
+   "views": 7531,
    "reads": 62,
-   "sessions": 7531
+   "sessions": 7533
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7529,
+   "views": 7531,
    "reads": 62,
    "completes": 0,
-   "sessions": 7531,
+   "sessions": 7533,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,14 +84,14 @@
   },
   {
    "channel": "direct",
-   "views": 3256,
-   "reads": 160,
+   "views": 3247,
+   "reads": 161,
    "completes": 18,
-   "sessions": 3186,
-   "read_rate": 0.049,
+   "sessions": 3182,
+   "read_rate": 0.05,
    "complete_rate": 0.006,
    "pages_per_session": 1.02,
-   "median_dwell_sec": 8
+   "median_dwell_sec": 9
   },
   {
    "channel": "organic",
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10525,
+   "views": 10517,
    "reads": 271,
-   "sessions": 10401
+   "sessions": 10398
   },
   {
    "device": "mobile",
-   "views": 427,
-   "reads": 19,
-   "sessions": 426
+   "views": 428,
+   "reads": 20,
+   "sessions": 427
   },
   {
    "device": "tablet",
@@ -349,8 +349,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 15,
-   "reads": 6,
+   "views": 16,
+   "reads": 7,
    "plays": 0
   },
   {
@@ -561,8 +561,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 15,
-   "reads": 6,
+   "views": 16,
+   "reads": 7,
    "plays": 0
   }
  ],
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 892,
+   "views": 893,
    "reads": 0,
-   "sessions": 888,
+   "sessions": 889,
    "avg_dwell_sec": 10
   },
   {
@@ -692,10 +692,10 @@
   },
   {
    "path": "/",
-   "views": 119,
+   "views": 116,
    "reads": 3,
-   "sessions": 121,
-   "avg_dwell_sec": 19
+   "sessions": 119,
+   "avg_dwell_sec": 20
   },
   {
    "path": "/topics/:topic",
@@ -720,17 +720,17 @@
   },
   {
    "path": "/tools",
-   "views": 28,
+   "views": 27,
    "reads": 2,
-   "sessions": 21,
-   "avg_dwell_sec": 28
+   "sessions": 20,
+   "avg_dwell_sec": 30
   },
   {
    "path": "/submit.html",
-   "views": 26,
+   "views": 25,
    "reads": 10,
-   "sessions": 26,
-   "avg_dwell_sec": 75
+   "sessions": 25,
+   "avg_dwell_sec": 80
   },
   {
    "path": "/agents.html",
@@ -761,25 +761,25 @@
    "avg_dwell_sec": 6
   },
   {
-   "path": "/apps",
+   "path": "/authors/soren",
    "views": 10,
    "reads": 0,
    "sessions": 10,
    "avg_dwell_sec": null
   },
   {
-   "path": "/authors/soren",
-   "views": 10,
+   "path": "/apps",
+   "views": 9,
    "reads": 0,
-   "sessions": 10,
+   "sessions": 9,
    "avg_dwell_sec": null
   }
  ],
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7580,
-   "sessions": 7522
+   "hits": 7582,
+   "sessions": 7524
   },
   {
    "ref": "https://www.bing.com/",
