@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-07T14:09:49.939Z",
+ "generated": "2026-11-07T14:19:50.824Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11631,
+ "verifiedAiHits": 11636,
  "logsScanned": 30,
  "windowStart": "2026-10-24",
  "windowEnd": "2026-11-07",
- "totalHits": 111320,
- "aiHits": 88440,
+ "totalHits": 111354,
+ "aiHits": 88472,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28334,
+   "hits": 28352,
    "verifiedHits": 0,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15149,
+   "hits": 15156,
    "verifiedHits": 0,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4016,
-   "verifiedHits": 3959,
+   "hits": 4019,
+   "verifiedHits": 3962,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3731,
-   "verifiedHits": 3634,
+   "hits": 3732,
+   "verifiedHits": 3635,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
    "topPaths": [
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1385,
-   "verifiedHits": 1314,
+   "hits": 1386,
+   "verifiedHits": 1315,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
    "topPaths": [
     {
      "path": "/",
-     "hits": 542
+     "hits": 543
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1058,
+   "hits": 1060,
    "verifiedHits": 0,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
@@ -476,7 +476,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 975,
+   "hits": 977,
    "verifiedHits": 0,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
@@ -499,7 +499,7 @@
     },
     {
      "path": "/posts/cheapest-gpu-rental-november-2026.html",
-     "hits": 25
+     "hits": 26
     }
    ],
    "verifiable": false
