@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-07T00:45:00.084Z",
+ "generated": "2026-11-07T00:55:20.227Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 10,
+  "readersNow": 11,
   "todayReads": 0,
   "avgTimeSec": 0,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10838,
+  "views": 10845,
   "reads": 294,
   "completes": 22,
   "plays": 8,
-  "sessions": 10709
+  "sessions": 10716
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3299,
+   "views": 3297,
    "reads": 162,
-   "sessions": 3227
+   "sessions": 3225
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 7378,
+   "views": 7387,
    "reads": 62,
-   "sessions": 7380
+   "sessions": 7389
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7378,
+   "views": 7387,
    "reads": 62,
    "completes": 0,
-   "sessions": 7380,
+   "sessions": 7389,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3299,
+   "views": 3297,
    "reads": 162,
    "completes": 18,
-   "sessions": 3227,
+   "sessions": 3225,
    "read_rate": 0.049,
    "complete_rate": 0.005,
    "pages_per_session": 1.02,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10406,
+   "views": 10413,
    "reads": 274,
-   "sessions": 10279
+   "sessions": 10286
   },
   {
    "device": "mobile",
@@ -678,9 +678,9 @@
   },
   {
    "path": "/build",
-   "views": 263,
+   "views": 265,
    "reads": 0,
-   "sessions": 263,
+   "sessions": 265,
    "avg_dwell_sec": null
   },
   {
@@ -699,9 +699,9 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 68,
+   "views": 69,
    "reads": 0,
-   "sessions": 68,
+   "sessions": 69,
    "avg_dwell_sec": 10
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7429,
-   "sessions": 7371
+   "hits": 7438,
+   "sessions": 7380
   },
   {
    "ref": "https://www.bing.com/",
