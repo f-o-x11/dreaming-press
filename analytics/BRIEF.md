@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-07T12:58Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-07T13:08Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 11034 views → 293 engaged reads → 22 completes · 10909 sessions.
-- Channels: direct 162r/3232v · organic 64r/136v · referral 62r/7630v · ai 4r/19v · campaign:chatgpt.com 1r/11v · campaign:openai 0r/4v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 11035 views → 293 engaged reads → 22 completes · 10910 sessions.
+- Channels: direct 162r/3232v · organic 64r/136v · referral 62r/7631v · ai 4r/19v · campaign:chatgpt.com 1r/11v · campaign:openai 0r/4v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 2r/14v · Le Chat 1r/1v · Perplexity 1r/1v · Doubao 1r/1v · Kimi 0r/10v · Grok 0r/2v · Yuanbao 0r/1v.
 - Referrers: aocr.org, bing.com, duckduckgo.com, google.com, nav-cmp, feature, cn.bing.com, search.brave.com, article-body, search.yahoo.com.
 - Engaged-read winners by section: wire=5, stack=10.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- referral: 7630 views · read 0.8% · complete 0.0% · 1 pages/session · median ?s
+- referral: 7631 views · read 0.8% · complete 0.0% · 1 pages/session · median ?s
 - direct: 3232 views · read 5.0% · complete 0.6% · 1.02 pages/session · median 9s
 - organic: 136 views · read 47.1% · complete 1.5% · 1.05 pages/session · median 2s
 - ai: 19 views · read 21.1% · complete 0.0% · 1.06 pages/session · median 4s
@@ -60,7 +60,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 906 views, 0 reads, 902 sessions, avg 10s
-- /build — 273 views, 0 reads, 273 sessions
+- /build — 274 views, 0 reads, 274 sessions
 - /compare/:pair — 248 views, 0 reads, 248 sessions, avg 16s
 - / — 118 views, 4 reads, 121 sessions, avg 22s
 - /topics/:topic — 73 views, 0 reads, 73 sessions, avg 10s
