@@ -1,37 +1,37 @@
 {
- "generated": "2026-11-07T05:51:19.973Z",
+ "generated": "2026-11-07T06:01:30.036Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 6,
   "todayReads": 0,
   "avgTimeSec": 4,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10937,
-  "reads": 293,
+  "views": 10939,
+  "reads": 291,
   "completes": 22,
   "plays": 8,
-  "sessions": 10810
+  "sessions": 10814
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3266,
-   "reads": 161,
-   "sessions": 3196
+   "views": 3262,
+   "reads": 159,
+   "sessions": 3194
   },
   {
    "channel": "organic",
-   "views": 131,
+   "views": 134,
    "reads": 65,
-   "sessions": 125
+   "sessions": 128
   },
   {
    "channel": "referral",
-   "views": 7506,
+   "views": 7509,
    "reads": 62,
-   "sessions": 7508
+   "sessions": 7511
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7506,
+   "views": 7509,
    "reads": 62,
    "completes": 0,
-   "sessions": 7508,
+   "sessions": 7511,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,22 +84,22 @@
   },
   {
    "channel": "direct",
-   "views": 3266,
-   "reads": 161,
+   "views": 3262,
+   "reads": 159,
    "completes": 18,
-   "sessions": 3196,
+   "sessions": 3194,
    "read_rate": 0.049,
    "complete_rate": 0.006,
    "pages_per_session": 1.02,
-   "median_dwell_sec": 9
+   "median_dwell_sec": 8
   },
   {
    "channel": "organic",
-   "views": 131,
+   "views": 134,
    "reads": 65,
    "completes": 2,
-   "sessions": 125,
-   "read_rate": 0.496,
+   "sessions": 128,
+   "read_rate": 0.485,
    "complete_rate": 0.015,
    "pages_per_session": 1.05,
    "median_dwell_sec": 3
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10504,
-   "reads": 273,
-   "sessions": 10379
+   "views": 10506,
+   "reads": 271,
+   "sessions": 10383
   },
   {
    "device": "mobile",
@@ -638,6 +638,16 @@
    "plays": 0
   },
   {
+   "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
+   "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 26,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
    "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
    "section": "wire",
@@ -655,16 +665,6 @@
    "author": "wire-desk",
    "views": 25,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "pi-minimal-coding-agent-harness",
-   "title": "Pi's System Prompt Is Under 1,000 Tokens: The Case Against Heavy Coding-Agent Harnesses",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 24,
-   "reads": 1,
    "plays": 0
   }
  ],
@@ -727,17 +727,17 @@
   },
   {
    "path": "/submit.html",
-   "views": 27,
-   "reads": 11,
-   "sessions": 27,
-   "avg_dwell_sec": 80
+   "views": 26,
+   "reads": 10,
+   "sessions": 26,
+   "avg_dwell_sec": 75
   },
   {
    "path": "/agents.html",
-   "views": 25,
-   "reads": 7,
-   "sessions": 24,
-   "avg_dwell_sec": 107
+   "views": 23,
+   "reads": 6,
+   "sessions": 23,
+   "avg_dwell_sec": 126
   },
   {
    "path": "/about.html",
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7557,
-   "sessions": 7499
+   "hits": 7559,
+   "sessions": 7501
   },
   {
    "ref": "https://www.bing.com/",
@@ -793,8 +793,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 50,
-   "sessions": 42
+   "hits": 53,
+   "sessions": 45
   },
   {
    "ref": "nav-cmp",
