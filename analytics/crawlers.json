@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-07T00:14:33.289Z",
+ "generated": "2026-11-07T00:24:35.157Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11454,
+ "verifiedAiHits": 11460,
  "logsScanned": 30,
  "windowStart": "2026-10-24",
  "windowEnd": "2026-11-07",
- "totalHits": 107793,
- "aiHits": 85848,
+ "totalHits": 107839,
+ "aiHits": 85881,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27078,
+   "hits": 27095,
    "verifiedHits": 0,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14530,
+   "hits": 14538,
    "verifiedHits": 0,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8591,
+   "hits": 8601,
    "verifiedHits": 0,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6470,
-   "verifiedHits": 6420,
+   "hits": 6471,
+   "verifiedHits": 6421,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3903,
-   "verifiedHits": 3846,
+   "hits": 3906,
+   "verifiedHits": 3849,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
    "topPaths": [
@@ -278,10 +278,10 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3687,
-   "verifiedHits": 3590,
+   "hits": 3689,
+   "verifiedHits": 3592,
    "firstSeen": "2026-10-24",
-   "lastSeen": "2026-11-06",
+   "lastSeen": "2026-11-07",
    "topPaths": [
     {
      "path": "/",
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1365,
-   "verifiedHits": 1296,
+   "hits": 1366,
+   "verifiedHits": 1297,
    "firstSeen": "2026-10-24",
-   "lastSeen": "2026-11-06",
+   "lastSeen": "2026-11-07",
    "topPaths": [
     {
      "path": "/",
-     "hits": 527
+     "hits": 528
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -476,7 +476,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 948,
+   "hits": 950,
    "verifiedHits": 0,
    "firstSeen": "2026-10-24",
    "lastSeen": "2026-11-07",
@@ -509,10 +509,10 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 660,
-   "verifiedHits": 547,
+   "hits": 662,
+   "verifiedHits": 549,
    "firstSeen": "2026-10-24",
-   "lastSeen": "2026-11-06",
+   "lastSeen": "2026-11-07",
    "topPaths": [
     {
      "path": "/",
