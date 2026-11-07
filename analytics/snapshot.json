@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-07T08:13:28.622Z",
+ "generated": "2026-11-07T08:23:30.056Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 7,
   "todayReads": 2,
   "avgTimeSec": 31,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10948,
+  "views": 10952,
   "reads": 292,
   "completes": 22,
   "plays": 8,
-  "sessions": 10827
+  "sessions": 10831
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3236,
+   "views": 3234,
    "reads": 161,
-   "sessions": 3171
+   "sessions": 3169
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 7542,
+   "views": 7548,
    "reads": 62,
-   "sessions": 7544
+   "sessions": 7550
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7542,
+   "views": 7548,
    "reads": 62,
    "completes": 0,
-   "sessions": 7544,
+   "sessions": 7550,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3236,
+   "views": 3234,
    "reads": 161,
    "completes": 18,
-   "sessions": 3171,
+   "sessions": 3169,
    "read_rate": 0.05,
    "complete_rate": 0.006,
    "pages_per_session": 1.02,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10519,
+   "views": 10523,
    "reads": 271,
-   "sessions": 10400
+   "sessions": 10404
   },
   {
    "device": "mobile",
@@ -671,16 +671,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 895,
+   "views": 896,
    "reads": 0,
-   "sessions": 891,
+   "sessions": 892,
    "avg_dwell_sec": 10
   },
   {
    "path": "/build",
-   "views": 271,
+   "views": 272,
    "reads": 0,
-   "sessions": 271,
+   "sessions": 272,
    "avg_dwell_sec": null
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7593,
-   "sessions": 7535
+   "hits": 7599,
+   "sessions": 7541
   },
   {
    "ref": "https://www.bing.com/",
