@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-07T02:16:50.074Z",
+ "generated": "2026-11-07T02:27:00.090Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 10,
+  "readersNow": 9,
   "todayReads": 0,
   "avgTimeSec": 2,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10881,
+  "views": 10887,
   "reads": 293,
   "completes": 22,
   "plays": 8,
-  "sessions": 10753
+  "sessions": 10759
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3293,
+   "views": 3292,
    "reads": 161,
-   "sessions": 3222
+   "sessions": 3221
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 7427,
+   "views": 7434,
    "reads": 62,
-   "sessions": 7429
+   "sessions": 7436
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7427,
+   "views": 7434,
    "reads": 62,
    "completes": 0,
-   "sessions": 7429,
+   "sessions": 7436,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3293,
+   "views": 3292,
    "reads": 161,
    "completes": 18,
-   "sessions": 3222,
+   "sessions": 3221,
    "read_rate": 0.049,
    "complete_rate": 0.005,
    "pages_per_session": 1.02,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10449,
+   "views": 10455,
    "reads": 273,
-   "sessions": 10323
+   "sessions": 10329
   },
   {
    "device": "mobile",
@@ -761,25 +761,25 @@
    "avg_dwell_sec": 6
   },
   {
-   "path": "/authors/soren",
+   "path": "/apps",
    "views": 10,
    "reads": 0,
    "sessions": 10,
    "avg_dwell_sec": null
   },
   {
-   "path": "/apps",
-   "views": 9,
+   "path": "/authors/soren",
+   "views": 10,
    "reads": 0,
-   "sessions": 9,
+   "sessions": 10,
    "avg_dwell_sec": null
   }
  ],
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7478,
-   "sessions": 7420
+   "hits": 7485,
+   "sessions": 7427
   },
   {
    "ref": "https://www.bing.com/",
