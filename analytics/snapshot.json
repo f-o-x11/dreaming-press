@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-08T07:06:31.474Z",
+ "generated": "2026-11-08T07:16:40.213Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
+  "readersNow": 8,
   "todayReads": 0,
   "avgTimeSec": 4,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 11146,
+  "views": 11149,
   "reads": 294,
   "completes": 22,
   "plays": 9,
-  "sessions": 11019
+  "sessions": 11022
  },
  "channels": [
   {
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 7756,
+   "views": 7759,
    "reads": 62,
-   "sessions": 7758
+   "sessions": 7761
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7756,
+   "views": 7759,
    "reads": 62,
    "completes": 0,
-   "sessions": 7758,
+   "sessions": 7761,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10714,
+   "views": 10718,
    "reads": 271,
-   "sessions": 10591
+   "sessions": 10595
   },
   {
    "device": "mobile",
-   "views": 424,
+   "views": 423,
    "reads": 18,
-   "sessions": 425
+   "sessions": 424
   },
   {
    "device": "tablet",
@@ -638,6 +638,16 @@
    "plays": 0
   },
   {
+   "slug": "agno-vs-langgraph-vs-crewai",
+   "title": "Agno vs LangGraph vs CrewAI: Choosing an Agent Framework in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 26,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
    "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
    "section": "stack",
@@ -653,16 +663,6 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 25,
-   "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "agno-vs-langgraph-vs-crewai",
-   "title": "Agno vs LangGraph vs CrewAI: Choosing an Agent Framework in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
    "views": 25,
    "reads": 0,
    "plays": 0
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7806,
-   "sessions": 7748
+   "hits": 7809,
+   "sessions": 7751
   },
   {
    "ref": "https://www.bing.com/",
