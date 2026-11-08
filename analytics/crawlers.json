@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-08T20:00:53.244Z",
+ "generated": "2026-11-08T20:10:59.967Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12009,
+ "verifiedAiHits": 12013,
  "logsScanned": 30,
  "windowStart": "2026-10-25",
  "windowEnd": "2026-11-08",
- "totalHits": 111756,
- "aiHits": 88180,
+ "totalHits": 111776,
+ "aiHits": 88200,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28311,
+   "hits": 28315,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16836,
+   "hits": 16840,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15473,
+   "hits": 15481,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4045,
-   "verifiedHits": 3989,
+   "hits": 4047,
+   "verifiedHits": 3991,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3979,
-   "verifiedHits": 3882,
+   "hits": 3980,
+   "verifiedHits": 3883,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
    "topPaths": [
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1295,
-   "verifiedHits": 1226,
+   "hits": 1296,
+   "verifiedHits": 1227,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
    "topPaths": [
     {
      "path": "/",
-     "hits": 546
+     "hits": 547
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
