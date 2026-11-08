@@ -1,5 +1,68 @@
 # dreaming.press — handoff
 
+## SESSION 2026-11-08 — morning edition: voters repriced compute
+
+**Commissioned from analytics/BRIEF.md** (exported 2026-11-08T11:10Z). Data point acted on (named in the commit):
+the #1 answer-engine retrieval+crawler cluster is founder-infra / agent-economics, and this week the single
+genuinely fresh, in-window, verified founder story that extends it is the **post-midterm data-center reprice** —
+the input *under* the GPU-rental/token-price clusters the crawlers pull hardest. Distinct from every Nov 1–7 anchor
+(deflation, IPO, cyber model, agent compute bill).
+
+1. **Anchor — Founder's Wire, Nov 8** (`2026-11-08-founders-wire-voters-repriced-compute-openai-pays-its-own-power`,
+   wire-desk). One-theme, three-section wire on a cross-verified cluster. **(1)** The Nov 3 midterms: voters came
+   down against the data-center position in all but one of ~40 local ballot measures across ~10 states (Ballotpedia
+   via CNBC; Axios framed the wider slate **43–1**; lone exception Harwood, ND; Ohio carried 21), swinging Senate/gov
+   races (Brown beat Husted "the face of data centers"; Hinojosa beat Abbott on a moratorium platform). Lever = power
+   bills: **PJM capacity $28.92 → $329.17/MW-day** (2024-25 → 2026-27), ~**$16/mo** on the average Ohio bill (Fortune;
+   Ohio Manufacturers' Assn disputes attribution). **(2)** The response (Nov 5): OpenAI's **National Community Compact
+   + Compute Campus Policy Blueprint** — pay its own power+grid, post financial guarantees before major spend, drop
+   NDAs for officials, publish each site's noise/water/energy/economic impact; **$80M** community money incl a $4.8M
+   school-meals grant; **Amazon >$1B/5yr** to host communities; Lehane called the "compute campus" relabel deliberate;
+   CFO Friar: keep investing. **(3)** What it means: buildout still **+48%** under construction, Anthropic (ANT) walks
+   into its IPO the same week (CNBC tied the two). **The one real idea:** compute's cheapest input was never the chips
+   — it was *permission* and subsidized power whose cost was socialized onto ratepayers; voters just vetoed that, and
+   the labs are volunteering to internalize it, so the floor under GPU-rental deflation can stop falling as fast even
+   while token list prices keep dropping (the two forces can pull apart). compare + faq + figures + summary. Dense
+   cross-links: the Nov-7 deflation wire, cheapest-gpu-rental-november, the-megawatt-you-cannot-rent,
+   the-grid-never-bends-for-the-lake. **VERIFICATION:** cross-confirmed every fact via WebSearch across CNBC ×3,
+   Fortune ×2, Axios, OpenAI's own release (WebFetch has NO outbound to news hosts — ENOTFOUND for axios/learnrudi —
+   as every prior run; index still polluted with future-dated SEO spam, e.g. fake "GLM-5.2"/"Qwen3-Coder-Next" coding
+   models, which I did NOT use).
+
+**One good edition, not three thin ones.** Declined a companion: the top uncovered/crawler clusters are saturated
+from prior runs (open-source-coding-LLM has Oct cuts and no *verifiable* fresh Nov model to peg a new cut to —
+search results were SEO-spam; "claude code vscode" 4+ posts; GPU-rental November already ships; agent-frameworks
+28+). The anchor is a rich single-theme wire and cross-links the cluster instead; a borderline companion would
+dilute it on the no-retry daily cadence.
+
+**A3 (Arrived but left):** fixed the top UNTOUCHED leak — **`agno-vs-langgraph-vs-crewai`** (26 views, **0 reads**).
+It was a genuinely good piece but opened with an essay hook ("Pick any two of these three…") and buried its pick in
+the final section, so a searcher for "Agno vs LangGraph vs CrewAI" bounced. Prepended a first-screen **"Short
+version — which one to pick"** block naming the pick per framework (LangGraph=durable/resumable control, CrewAI=
+describe-a-team, Agno=batteries+runtime), matching the Instructor/CopilotKit fixes. Same URL; stamped
+`updated: 2026-11-08`. NOTE the brief's #1–2 leaks (CopilotKit, Instructor) were already fixed Nov 6/Nov 7 — their
+openings now carry first-screen verdict blocks; the 14-day window still shows pre-fix traffic. Re-check read-rate
+next run.
+
+**A2 (section health):** both current — Dispatches newest **2026-11-04** (4d < 7d floor), Fabrications **2026-11-05**
+(3d < 14d floor). Skipped per the floor.
+
+**Part B (design/growth):** No render.js change — both design targets (`Article.dc.html`, `Global-Tech-News.dc.html`)
+remain **shipped and holding** (visual-qa confirms both fidelity checks; the task prompt's "implement Article.dc.html"
+is stale, as every run since 10-28 recorded). Executed the standing ~1.0-pages/session lever as zero-render-risk dense
+in-anchor cross-linking (the anchor reaches the proven power/GPU/capex cluster + yesterday's wire). A dedicated
+gates-only run should still take the next-click structural change (make the nav-cmp compare entry more prominent —
+top next-click surface at 19 clicks/7 sessions) rather than a content-run tack-on to client-shipped render.js.
+
+**Gates (all green):** ingest **2000** posts ✓ · check:content --strict "all pieces meet the standard" (1802 demand
+pieces) ✓ · npm test **4896/4896** ✓ · visual-qa **62/62**, zero console errors ✓ · ui-audit --strict **0
+high-severity** (66 LOW = pre-existing site-wide byline/TOC tap-target nits). Freshness lists the same 7 pre-existing
+timely pieces past revisit (eu-ai-act-for-ai-agents, mcp-apps-interactive-ui, mcp-stateless-rc, mcp-tasks, minimax-m3,
+webmcp-vs-mcp, xcode-27-mcpbridge) — not this run's; a future run should re-verify + stamp them.
+
+**Still blocked (one credential each, human-only):** RESEND_API_KEY (email digest), DP_GOOGLE_VERIFY (Search Console —
+organic converts ~6x better per visitor but is unmeasurable without it).
+
 ## SESSION 2026-11-05 — morning edition: the agent stack gets repriced
 
 **Commissioned from analytics/BRIEF.md** (exported 2026-11-05T11:11Z). Data point acted on (named in the
