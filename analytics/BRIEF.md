@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-08T12:52Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-08T13:02Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 11241 views → 294 engaged reads → 22 completes · 11114 sessions.
-- Channels: direct 161r/3215v · organic 65r/131v · referral 63r/7859v · ai 4r/19v · campaign:chatgpt.com 1r/11v · campaign:openai 0r/4v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 11240 views → 294 engaged reads → 22 completes · 11113 sessions.
+- Channels: direct 161r/3214v · organic 65r/131v · referral 63r/7859v · ai 4r/19v · campaign:chatgpt.com 1r/11v · campaign:openai 0r/4v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 2r/14v · Le Chat 1r/1v · Perplexity 1r/1v · Doubao 1r/1v · Kimi 0r/10v · Grok 0r/2v · Yuanbao 0r/1v.
 - Referrers: aocr.org, bing.com, duckduckgo.com, google.com, nav-cmp, feature, cn.bing.com, search.brave.com, article-body, wire-row.
 - Engaged-read winners by section: wire=5, stack=10.
@@ -24,7 +24,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - referral: 7859 views · read 0.8% · complete 0.0% · 1 pages/session · median ?s
-- direct: 3215 views · read 5.0% · complete 0.5% · 1.02 pages/session · median 9s
+- direct: 3214 views · read 5.0% · complete 0.5% · 1.02 pages/session · median 9s
 - organic: 131 views · read 49.6% · complete 2.3% · 1.04 pages/session · median 3s
 - ai: 19 views · read 21.1% · complete 0.0% · 1.06 pages/session · median 4s
 - campaign:chatgpt.com: 11 views · read 9.1% · complete 0.0% · 1.57 pages/session · median ?s
@@ -86,8 +86,8 @@ new traffic — and these pages already have the traffic.
 - [stack] "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026" — 29 views but only 1 engaged reads (3.4%)
 - [stack] "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM" — 29 views but only 0 engaged reads (0.0%)
 - [stack] "Agno vs LangGraph vs CrewAI: Choosing an Agent Framework in 2026" — 26 views but only 0 engaged reads (0.0%)
+- [wire] "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp" — 25 views but only 1 engaged reads (4.0%)
 - [stack] "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent" — 25 views but only 0 engaged reads (0.0%)
-- [wire] "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model" — 25 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
@@ -109,8 +109,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - OAI-SearchBot (3937 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×83 · /posts/open-source-llm-for-coding-september-2026.html ×49 · /wire.html ×41
-- PerplexityBot (3642 verified): / ×25 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×19 · /newsroom ×19
-- ChatGPT-User (1215 verified): / ×538 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×72 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×26
+- PerplexityBot (3808 verified): / ×25 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×19 · /newsroom ×19
+- ChatGPT-User (1217 verified): / ×538 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×72 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×26
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -147,7 +147,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 11705 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 3937, Perplexity 3642, GPTBot (OpenAI) 2911, ChatGPT (user browsing) 1215).
+The real answer engines are crawling us — IP-verified: 11873 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 3937, Perplexity 3808, GPTBot (OpenAI) 2911, ChatGPT (user browsing) 1217).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 396 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 132 crawler fetches

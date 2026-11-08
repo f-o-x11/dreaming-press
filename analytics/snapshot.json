@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T12:52:20.236Z",
+ "generated": "2026-11-08T13:02:40.477Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
@@ -8,18 +8,18 @@
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 11241,
+  "views": 11240,
   "reads": 294,
   "completes": 22,
   "plays": 9,
-  "sessions": 11114
+  "sessions": 11113
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3215,
+   "views": 3214,
    "reads": 161,
-   "sessions": 3144
+   "sessions": 3143
   },
   {
    "channel": "organic",
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3215,
+   "views": 3214,
    "reads": 161,
    "completes": 17,
-   "sessions": 3144,
+   "sessions": 3143,
    "read_rate": 0.05,
    "complete_rate": 0.005,
    "pages_per_session": 1.02,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10810,
+   "views": 10809,
    "reads": 272,
-   "sessions": 10686
+   "sessions": 10685
   },
   {
    "device": "mobile",
@@ -648,21 +648,21 @@
    "plays": 0
   },
   {
+   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
+   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
+   "author": "dex",
+   "views": 25,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader",
    "title": "Firecrawl vs Crawl4AI vs Jina Reader: Feeding the Web to an AI Agent",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 25,
-   "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4",
-   "title": "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
    "views": 25,
    "reads": 0,
    "plays": 0
