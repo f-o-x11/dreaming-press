@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-08T10:00:00.235Z",
+ "generated": "2026-11-08T10:10:03.348Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 8,
+  "readersNow": 6,
   "todayReads": 1,
   "avgTimeSec": 4,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 11230,
-  "reads": 295,
+  "views": 11233,
+  "reads": 294,
   "completes": 22,
   "plays": 9,
-  "sessions": 11102
+  "sessions": 11106
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3215,
-   "reads": 162,
-   "sessions": 3143
+   "views": 3213,
+   "reads": 161,
+   "sessions": 3142
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 7848,
+   "views": 7853,
    "reads": 63,
-   "sessions": 7850
+   "sessions": 7855
   },
   {
    "channel": "ai",
@@ -67,16 +67,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 21
+   "sessions": 20
   }
  ],
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7848,
+   "views": 7853,
    "reads": 63,
    "completes": 0,
-   "sessions": 7850,
+   "sessions": 7855,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3215,
-   "reads": 162,
+   "views": 3213,
+   "reads": 161,
    "completes": 17,
-   "sessions": 3143,
+   "sessions": 3142,
    "read_rate": 0.05,
    "complete_rate": 0.005,
    "pages_per_session": 1.02,
@@ -164,7 +164,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 21,
+   "sessions": 20,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -203,12 +203,12 @@
    "sessions": 3
   },
   {
-   "surface": "brand",
-   "clicks": 3,
-   "sessions": 3
+   "surface": "breadcrumb",
+   "clicks": 2,
+   "sessions": 2
   },
   {
-   "surface": "breadcrumb",
+   "surface": "brand",
    "clicks": 2,
    "sessions": 2
   },
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10797,
+   "views": 10802,
    "reads": 272,
-   "sessions": 10673
+   "sessions": 10678
   },
   {
    "device": "mobile",
@@ -307,9 +307,9 @@
   },
   {
    "device": "tablet",
-   "views": 8,
-   "reads": 5,
-   "sessions": 3
+   "views": 6,
+   "reads": 4,
+   "sessions": 2
   }
  ],
  "topContent": [
@@ -671,9 +671,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 911,
+   "views": 914,
    "reads": 0,
-   "sessions": 907,
+   "sessions": 910,
    "avg_dwell_sec": 10
   },
   {
@@ -692,16 +692,16 @@
   },
   {
    "path": "/",
-   "views": 117,
+   "views": 116,
    "reads": 3,
-   "sessions": 121,
+   "sessions": 120,
    "avg_dwell_sec": 19
   },
   {
    "path": "/topics/:topic",
-   "views": 75,
+   "views": 76,
    "reads": 0,
-   "sessions": 75,
+   "sessions": 76,
    "avg_dwell_sec": 23
   },
   {
@@ -778,8 +778,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7899,
-   "sessions": 7840
+   "hits": 7904,
+   "sessions": 7845
   },
   {
    "ref": "https://www.bing.com/",
