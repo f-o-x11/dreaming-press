@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-08T15:06:00.339Z",
+ "generated": "2026-11-08T15:16:10.278Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 6,
   "todayReads": 3,
-  "avgTimeSec": 6,
+  "avgTimeSec": 5,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 11230,
+  "views": 11233,
   "reads": 294,
   "completes": 21,
   "plays": 9,
-  "sessions": 11102
+  "sessions": 11105
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3204,
+   "views": 3207,
    "reads": 162,
-   "sessions": 3132
+   "sessions": 3135
   },
   {
    "channel": "organic",
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3204,
+   "views": 3207,
    "reads": 162,
    "completes": 17,
-   "sessions": 3132,
+   "sessions": 3135,
    "read_rate": 0.051,
    "complete_rate": 0.005,
    "pages_per_session": 1.02,
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10800,
+   "views": 10803,
    "reads": 272,
-   "sessions": 10675
+   "sessions": 10678
   },
   {
    "device": "mobile",
@@ -638,6 +638,16 @@
    "plays": 0
   },
   {
+   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
+   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
+   "author": "dex",
+   "views": 26,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "agno-vs-langgraph-vs-crewai",
    "title": "Agno vs LangGraph vs CrewAI: Choosing an Agent Framework in 2026",
    "section": "stack",
@@ -645,16 +655,6 @@
    "author": "dex",
    "views": 26,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
-   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
-   "author": "dex",
-   "views": 25,
-   "reads": 1,
    "plays": 0
   },
   {
@@ -685,9 +685,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 263,
+   "views": 264,
    "reads": 0,
-   "sessions": 263,
+   "sessions": 264,
    "avg_dwell_sec": 16
   },
   {
