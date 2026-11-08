@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-07T23:58:26.987Z",
+ "generated": "2026-11-08T00:08:39.827Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11957,
+ "verifiedAiHits": 11404,
  "logsScanned": 30,
- "windowStart": "2026-10-24",
- "windowEnd": "2026-11-07",
- "totalHits": 113526,
- "aiHits": 90141,
+ "windowStart": "2026-10-25",
+ "windowEnd": "2026-11-08",
+ "totalHits": 106431,
+ "aiHits": 84506,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,29 +14,29 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28878,
+   "hits": 26890,
    "verifiedHits": 0,
-   "firstSeen": "2026-10-24",
-   "lastSeen": "2026-11-07",
+   "firstSeen": "2026-10-25",
+   "lastSeen": "2026-11-08",
    "topPaths": [
     {
      "path": "/",
-     "hits": 42
+     "hits": 40
     },
     {
      "path": "/build",
-     "hits": 29
+     "hits": 25
     },
     {
      "path": "/dashboard",
-     "hits": 24
+     "hits": 22
     },
     {
      "path": "/posts/best-llm-for-writing-2026.html",
      "hits": 15
     },
     {
-     "path": "/posts/china-persona-law-took-effect-what-founders-do.html",
+     "path": "/posts/2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4.html",
      "hits": 14
     }
    ],
@@ -47,10 +47,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 17460,
+   "hits": 16350,
    "verifiedHits": 0,
-   "firstSeen": "2026-10-24",
-   "lastSeen": "2026-11-07",
+   "firstSeen": "2026-10-25",
+   "lastSeen": "2026-11-08",
    "topPaths": [
     {
      "path": "/build",
@@ -65,12 +65,12 @@
      "hits": 9
     },
     {
-     "path": "/dispatches.html",
+     "path": "/apps",
      "hits": 9
     },
     {
-     "path": "/apps",
-     "hits": 9
+     "path": "/dispatches.html",
+     "hits": 8
     }
    ],
    "verifiable": false
@@ -80,30 +80,30 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15597,
+   "hits": 14564,
    "verifiedHits": 0,
-   "firstSeen": "2026-10-24",
-   "lastSeen": "2026-11-07",
+   "firstSeen": "2026-10-25",
+   "lastSeen": "2026-11-08",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 166
-    },
-    {
-     "path": "/tags/reportive",
-     "hits": 43
+     "hits": 115
     },
     {
      "path": "/wire.html",
-     "hits": 42
+     "hits": 41
+    },
+    {
+     "path": "/tags/reportive",
+     "hits": 41
     },
     {
      "path": "/tags/opinionated",
-     "hits": 39
+     "hits": 38
     },
     {
      "path": "/stack.html",
-     "hits": 20
+     "hits": 18
     }
    ],
    "verifiable": false
@@ -113,9 +113,9 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 10270,
+   "hits": 10260,
    "verifiedHits": 0,
-   "firstSeen": "2026-10-24",
+   "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-06",
    "topPaths": [
     {
@@ -131,12 +131,12 @@
      "hits": 34
     },
     {
-     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
+     "path": "/posts/2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader.html",
      "hits": 4
     },
     {
-     "path": "/posts/2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader.html",
-     "hits": 4
+     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
+     "hits": 3
     }
    ],
    "verifiable": false
@@ -146,30 +146,30 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9269,
+   "hits": 8653,
    "verifiedHits": 0,
-   "firstSeen": "2026-10-24",
-   "lastSeen": "2026-11-07",
+   "firstSeen": "2026-10-25",
+   "lastSeen": "2026-11-08",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 72
+     "hits": 66
     },
     {
      "path": "/tags/opinionated",
-     "hits": 8
+     "hits": 7
+    },
+    {
+     "path": "/posts/2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4.html",
+     "hits": 6
     },
     {
      "path": "/authors/priya",
-     "hits": 6
+     "hits": 5
     },
     {
      "path": "/tags/reportive",
-     "hits": 6
-    },
-    {
-     "path": "/authors/dex",
-     "hits": 6
+     "hits": 5
     }
    ],
    "verifiable": false
@@ -179,29 +179,29 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6828,
-   "verifiedHits": 6778,
-   "firstSeen": "2026-10-24",
-   "lastSeen": "2026-11-07",
+   "hits": 6300,
+   "verifiedHits": 6250,
+   "firstSeen": "2026-10-25",
+   "lastSeen": "2026-11-08",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 137
+     "hits": 130
     },
     {
      "path": "/posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html",
-     "hits": 57
-    },
-    {
-     "path": "/build",
      "hits": 49
     },
     {
-     "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
-     "hits": 38
+     "path": "/build",
+     "hits": 44
     },
     {
      "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
+     "hits": 32
+    },
+    {
+     "path": "/posts/agent-funding-august-2026-control-won-the-summer.html",
      "hits": 32
     }
    ],
@@ -212,18 +212,18 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5181,
+   "hits": 4993,
    "verifiedHits": 0,
-   "firstSeen": "2026-10-24",
+   "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-07",
    "topPaths": [
     {
      "path": "/",
-     "hits": 21
+     "hits": 19
     },
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
-     "hits": 17
+     "hits": 15
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -231,7 +231,7 @@
     },
     {
      "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
-     "hits": 12
+     "hits": 11
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
@@ -245,30 +245,30 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4110,
-   "verifiedHits": 4053,
-   "firstSeen": "2026-10-24",
-   "lastSeen": "2026-11-07",
+   "hits": 3897,
+   "verifiedHits": 3841,
+   "firstSeen": "2026-10-25",
+   "lastSeen": "2026-11-08",
    "topPaths": [
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
-     "hits": 92
+     "hits": 82
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 54
+     "hits": 47
     },
     {
      "path": "/wire.html",
-     "hits": 44
+     "hits": 40
     },
     {
-     "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
-     "hits": 32
-    },
-    {
-     "path": "/posts/best-open-vision-language-model-for-agents.html",
+     "path": "/posts/best-llm-for-image-generation-september-2026.html",
      "hits": 30
+    },
+    {
+     "path": "/posts/best-open-source-vector-database-2026.html",
+     "hits": 29
     }
    ],
    "verifiable": true
@@ -278,29 +278,29 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3755,
-   "verifiedHits": 3658,
-   "firstSeen": "2026-10-24",
+   "hits": 3554,
+   "verifiedHits": 3457,
+   "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-07",
    "topPaths": [
     {
      "path": "/",
-     "hits": 25
-    },
-    {
-     "path": "/newsroom",
-     "hits": 20
+     "hits": 24
     },
     {
      "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
-     "hits": 19
+     "hits": 18
     },
     {
-     "path": "/posts/context-engineering-anthropic-way-claude-skills-compaction-memory.html",
-     "hits": 17
+     "path": "/newsroom",
+     "hits": 18
     },
     {
-     "path": "/posts/claude-code-vscode-extension-setup-october-2026.html",
+     "path": "/posts/gpt-6-1-terra-vs-claude-opus-5-5-computer-use-agents.html",
+     "hits": 16
+    },
+    {
+     "path": "/global-tech-news",
      "hits": 16
     }
    ],
@@ -311,9 +311,9 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 2975,
-   "verifiedHits": 2913,
-   "firstSeen": "2026-10-24",
+   "hits": 2970,
+   "verifiedHits": 2909,
+   "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-07",
    "topPaths": [
     {
@@ -344,18 +344,18 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2629,
+   "hits": 2411,
    "verifiedHits": 0,
-   "firstSeen": "2026-10-24",
+   "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-07",
    "topPaths": [
     {
-     "path": "/build",
+     "path": "/tags/opinionated",
      "hits": 47
     },
     {
-     "path": "/tags/opinionated",
-     "hits": 47
+     "path": "/build",
+     "hits": 44
     },
     {
      "path": "/tags/reportive",
@@ -377,76 +377,43 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1405,
-   "verifiedHits": 1333,
-   "firstSeen": "2026-10-24",
+   "hits": 1266,
+   "verifiedHits": 1197,
+   "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-07",
    "topPaths": [
     {
      "path": "/",
-     "hits": 554
+     "hits": 522
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 89
+     "hits": 72
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 30
+     "hits": 26
     },
     {
      "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
-     "hits": 27
+     "hits": 22
     },
     {
      "path": "/posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html",
-     "hits": 21
+     "hits": 20
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "YouBot",
-   "label": "You.com",
-   "category": "ai",
-   "home": "https://about.you.com",
-   "hits": 1375,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-24",
-   "lastSeen": "2026-11-05",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 29
-    },
-    {
-     "path": "/founders",
-     "hits": 2
-    },
-    {
-     "path": "/docker-compose.yaml",
-     "hits": 2
-    },
-    {
-     "path": "/posts/how-to-meter-and-bill-usage-based-pricing.html",
-     "hits": 2
-    },
-    {
-     "path": "/partner",
-     "hits": 2
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "Applebot",
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1079,
+   "hits": 998,
    "verifiedHits": 0,
-   "firstSeen": "2026-10-24",
-   "lastSeen": "2026-11-07",
+   "firstSeen": "2026-10-25",
+   "lastSeen": "2026-11-08",
    "topPaths": [
     {
      "path": "/build",
@@ -457,15 +424,15 @@
      "hits": 4
     },
     {
-     "path": "/post/2026-03-07-agenthost-vercel-for-ai-agents",
+     "path": "/posts/2026-10-20-founders-wire-openai-30-billion-race-anthropic-ipo.md",
      "hits": 2
     },
     {
-     "path": "/stacks/undefined",
+     "path": "/posts/claude-code-vscode-extension-setup-october-2026.md",
      "hits": 2
     },
     {
-     "path": "/authors/isla",
+     "path": "/posts/2026-10-21-founders-wire-openai-agents-disabled-their-own-monitoring.md",
      "hits": 2
     }
    ],
@@ -476,18 +443,18 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 992,
+   "hits": 927,
    "verifiedHits": 0,
-   "firstSeen": "2026-10-24",
+   "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-07",
    "topPaths": [
     {
-     "path": "/posts/best-llm-for-creative-writing-october-2026.html",
+     "path": "/posts/gpu-rental-price-october-2026.html",
      "hits": 99
     },
     {
-     "path": "/posts/gpu-rental-price-october-2026.html",
-     "hits": 99
+     "path": "/posts/best-llm-for-creative-writing-october-2026.html",
+     "hits": 91
     },
     {
      "path": "/posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html",
@@ -495,7 +462,7 @@
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 36
+     "hits": 31
     },
     {
      "path": "/posts/cheapest-gpu-rental-november-2026.html",
@@ -505,22 +472,59 @@
    "verifiable": false
   },
   {
+   "name": "YouBot",
+   "label": "You.com",
+   "category": "ai",
+   "home": "https://about.you.com",
+   "hits": 743,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-25",
+   "lastSeen": "2026-11-05",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 13
+    },
+    {
+     "path": "/founders",
+     "hits": 2
+    },
+    {
+     "path": "/docker-compose.yaml",
+     "hits": 2
+    },
+    {
+     "path": "/partner",
+     "hits": 2
+    },
+    {
+     "path": "/posts/tool-highlight-cloudflare-drop.html",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Googlebot",
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 705,
-   "verifiedHits": 592,
-   "firstSeen": "2026-10-24",
-   "lastSeen": "2026-11-07",
+   "hits": 665,
+   "verifiedHits": 556,
+   "firstSeen": "2026-10-25",
+   "lastSeen": "2026-11-08",
    "topPaths": [
     {
      "path": "/",
-     "hits": 33
+     "hits": 32
     },
     {
      "path": "/alternatives/novita-ai",
      "hits": 4
+    },
+    {
+     "path": "/comparisons/inference-and-gateways",
+     "hits": 3
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -528,10 +532,6 @@
     },
     {
      "path": "/news/",
-     "hits": 3
-    },
-    {
-     "path": "/comparisons/inference-and-gateways",
      "hits": 3
     }
    ],
@@ -542,14 +542,14 @@
    "label": "Mistral AI",
    "category": "ai",
    "home": "https://mistral.ai",
-   "hits": 411,
+   "hits": 395,
    "verifiedHits": 0,
-   "firstSeen": "2026-10-24",
+   "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-06",
    "topPaths": [
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 26
+     "hits": 24
     },
     {
      "path": "/posts/2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4.html",
@@ -575,9 +575,9 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 289,
+   "hits": 282,
    "verifiedHits": 0,
-   "firstSeen": "2026-10-24",
+   "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-07",
    "topPaths": [
     {
@@ -597,7 +597,7 @@
      "hits": 1
     },
     {
-     "path": "/posts/what-happened-when-i-stopped-publishing-every-hour.html",
+     "path": "/comparisons/agent-frameworks",
      "hits": 1
     }
    ],
@@ -608,9 +608,9 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 145,
+   "hits": 140,
    "verifiedHits": 0,
-   "firstSeen": "2026-10-24",
+   "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-07",
    "topPaths": [
     {
@@ -663,7 +663,7 @@
      "hits": 2
     },
     {
-     "path": "/docker-compose.yml",
+     "path": "/secrets.yml",
      "hits": 1
     }
    ],
