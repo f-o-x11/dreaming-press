@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-08T23:35Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-08T23:45Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -62,7 +62,7 @@ so what these earn from humans is the other half of the picture.
 - /stack/:tool — 912 views, 0 reads, 908 sessions, avg 10s
 - /build — 271 views, 0 reads, 271 sessions
 - /compare/:pair — 254 views, 0 reads, 254 sessions, avg 16s
-- / — 117 views, 3 reads, 121 sessions, avg 19s
+- / — 118 views, 3 reads, 122 sessions, avg 19s
 - /topics/:topic — 76 views, 0 reads, 76 sessions, avg 23s
 - /best/:cat — 48 views, 0 reads, 48 sessions
 - /alternatives/:tool — 32 views, 0 reads, 32 sessions, avg 5s
