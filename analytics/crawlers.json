@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-08T02:00:39.084Z",
+ "generated": "2026-11-08T02:10:49.872Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11430,
+ "verifiedAiHits": 11431,
  "logsScanned": 30,
  "windowStart": "2026-10-25",
  "windowEnd": "2026-11-08",
- "totalHits": 106781,
- "aiHits": 84737,
+ "totalHits": 106817,
+ "aiHits": 84757,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 26989,
+   "hits": 27001,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16374,
+   "hits": 16375,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14643,
+   "hits": 14649,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8716,
+   "hits": 8720,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5009,
+   "hits": 5017,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -231,7 +231,7 @@
     },
     {
      "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
-     "hits": 11
+     "hits": 12
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1269,
-   "verifiedHits": 1200,
+   "hits": 1270,
+   "verifiedHits": 1201,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
    "topPaths": [
     {
      "path": "/",
-     "hits": 525
+     "hits": 526
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -509,14 +509,14 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 671,
-   "verifiedHits": 562,
+   "hits": 675,
+   "verifiedHits": 566,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
    "topPaths": [
     {
      "path": "/",
-     "hits": 32
+     "hits": 33
     },
     {
      "path": "/alternatives/novita-ai",
