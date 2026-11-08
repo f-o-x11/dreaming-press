@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-08T16:27:10.170Z",
+ "generated": "2026-11-08T16:37:13.481Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11956,
+ "verifiedAiHits": 11960,
  "logsScanned": 30,
  "windowStart": "2026-10-25",
  "windowEnd": "2026-11-08",
- "totalHits": 110930,
- "aiHits": 87636,
+ "totalHits": 111068,
+ "aiHits": 87648,
  "aiEngines": 16,
  "bots": [
   {
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15307,
+   "hits": 15315,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9145,
+   "hits": 9149,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6559,
-   "verifiedHits": 6509,
+   "hits": 6560,
+   "verifiedHits": 6510,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3970,
-   "verifiedHits": 3873,
+   "hits": 3974,
+   "verifiedHits": 3877,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
    "topPaths": [
@@ -406,6 +406,39 @@
    "verifiable": true
   },
   {
+   "name": "Googlebot",
+   "label": "Googlebot",
+   "category": "search",
+   "home": "https://developers.google.com/search",
+   "hits": 1096,
+   "verifiedHits": 585,
+   "firstSeen": "2026-10-25",
+   "lastSeen": "2026-11-08",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 37
+    },
+    {
+     "path": "/comparisons/inference-and-gateways",
+     "hits": 4
+    },
+    {
+     "path": "/alternatives/novita-ai",
+     "hits": 4
+    },
+    {
+     "path": "/stack/deepinfra",
+     "hits": 3
+    },
+    {
+     "path": "/stack/nebius-ai-studio",
+     "hits": 3
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "Applebot",
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
@@ -437,39 +470,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "Googlebot",
-   "label": "Googlebot",
-   "category": "search",
-   "home": "https://developers.google.com/search",
-   "hits": 975,
-   "verifiedHits": 583,
-   "firstSeen": "2026-10-25",
-   "lastSeen": "2026-11-08",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 37
-    },
-    {
-     "path": "/comparisons/inference-and-gateways",
-     "hits": 4
-    },
-    {
-     "path": "/alternatives/novita-ai",
-     "hits": 4
-    },
-    {
-     "path": "/stack/deepinfra",
-     "hits": 3
-    },
-    {
-     "path": "/stack/nebius-ai-studio",
-     "hits": 3
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "Claude-User",
