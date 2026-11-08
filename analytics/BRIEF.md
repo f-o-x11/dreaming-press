@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-08T00:19Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-08T00:29Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -62,7 +62,7 @@ so what these earn from humans is the other half of the picture.
 - /stack/:tool — 914 views, 0 reads, 910 sessions, avg 10s
 - /build — 277 views, 0 reads, 277 sessions
 - /compare/:pair — 265 views, 0 reads, 265 sessions, avg 16s
-- / — 118 views, 4 reads, 121 sessions, avg 22s
+- / — 119 views, 4 reads, 122 sessions, avg 22s
 - /topics/:topic — 75 views, 0 reads, 75 sessions, avg 23s
 - /best/:cat — 49 views, 0 reads, 49 sessions, avg 5s
 - /alternatives/:tool — 32 views, 0 reads, 32 sessions, avg 5s
@@ -108,7 +108,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/coreweave-vs-lambda-vs-nebius-gpu-cloud.html  — 20 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (3843 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×82 · /posts/open-source-llm-for-coding-september-2026.html ×47 · /wire.html ×40
+- OAI-SearchBot (3844 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×82 · /posts/open-source-llm-for-coding-september-2026.html ×47 · /wire.html ×40
 - PerplexityBot (3458 verified): / ×24 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×18 · /newsroom ×18
 - ChatGPT-User (1198 verified): / ×523 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×72 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×26
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -147,7 +147,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 11408 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 3843, Perplexity 3458, GPTBot (OpenAI) 2909, ChatGPT (user browsing) 1198).
+The real answer engines are crawling us — IP-verified: 11409 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 3844, Perplexity 3458, GPTBot (OpenAI) 2909, ChatGPT (user browsing) 1198).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 393 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 130 crawler fetches
