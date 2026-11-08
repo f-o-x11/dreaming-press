@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-08T04:54:26.350Z",
+ "generated": "2026-11-08T05:04:29.843Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 11451,
  "logsScanned": 30,
  "windowStart": "2026-10-25",
  "windowEnd": "2026-11-08",
- "totalHits": 107612,
- "aiHits": 85381,
+ "totalHits": 107677,
+ "aiHits": 85432,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27379,
+   "hits": 27391,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16415,
+   "hits": 16429,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14765,
+   "hits": 14772,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8813,
+   "hits": 8816,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6366,
-   "verifiedHits": 6316,
+   "hits": 6377,
+   "verifiedHits": 6327,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 936,
+   "hits": 937,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -604,6 +604,39 @@
    "verifiable": false
   },
   {
+   "name": "CCBot",
+   "label": "Common Crawl (feeds many LLMs)",
+   "category": "ai",
+   "home": "https://commoncrawl.org/ccbot",
+   "hits": 153,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-25",
+   "lastSeen": "2026-11-08",
+   "topPaths": [
+    {
+     "path": "/agents.html",
+     "hits": 3
+    },
+    {
+     "path": "/topics/mcp",
+     "hits": 2
+    },
+    {
+     "path": "/posts/2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b.html",
+     "hits": 2
+    },
+    {
+     "path": "/newsroom",
+     "hits": 2
+    },
+    {
+     "path": "/dashboard",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "DuckAssistBot",
    "label": "DuckDuckGo AI",
    "category": "ai",
@@ -631,39 +664,6 @@
     },
     {
      "path": "/z9x8c7v6b5-debug-trigger-www.dreaming.press",
-     "hits": 2
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "CCBot",
-   "label": "Common Crawl (feeds many LLMs)",
-   "category": "ai",
-   "home": "https://commoncrawl.org/ccbot",
-   "hits": 136,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-25",
-   "lastSeen": "2026-11-08",
-   "topPaths": [
-    {
-     "path": "/agents.html",
-     "hits": 3
-    },
-    {
-     "path": "/topics/mcp",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b.html",
-     "hits": 2
-    },
-    {
-     "path": "/newsroom",
-     "hits": 2
-    },
-    {
-     "path": "/dashboard",
      "hits": 2
     }
    ],
