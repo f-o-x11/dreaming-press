@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-08T04:03:19.998Z",
+ "generated": "2026-11-08T04:13:40.145Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11448,
+ "verifiedAiHits": 11449,
  "logsScanned": 30,
  "windowStart": "2026-10-25",
  "windowEnd": "2026-11-08",
- "totalHits": 107399,
- "aiHits": 85202,
+ "totalHits": 107466,
+ "aiHits": 85260,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27320,
+   "hits": 27352,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16399,
+   "hits": 16415,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14729,
+   "hits": 14736,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8799,
+   "hits": 8801,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6350,
-   "verifiedHits": 6300,
+   "hits": 6357,
+   "verifiedHits": 6307,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3561,
-   "verifiedHits": 3464,
+   "hits": 3562,
+   "verifiedHits": 3465,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
    "topPaths": [
@@ -641,10 +641,10 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 73,
+   "hits": 75,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
-   "lastSeen": "2026-11-06",
+   "lastSeen": "2026-11-08",
    "topPaths": [
     {
      "path": "/agents.html",
@@ -663,7 +663,7 @@
      "hits": 2
     },
     {
-     "path": "/secrets.yml",
+     "path": "/comparisons/fine-tuning-and-training",
      "hits": 1
     }
    ],
