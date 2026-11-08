@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-08T05:14:32.928Z",
+ "generated": "2026-11-08T05:24:40.142Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 11454,
  "logsScanned": 30,
  "windowStart": "2026-10-25",
  "windowEnd": "2026-11-08",
- "totalHits": 107714,
- "aiHits": 85465,
+ "totalHits": 107757,
+ "aiHits": 85503,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27395,
+   "hits": 27405,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14780,
+   "hits": 14787,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8818,
+   "hits": 8820,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6379,
-   "verifiedHits": 6329,
+   "hits": 6382,
+   "verifiedHits": 6332,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
    "topPaths": [
@@ -608,7 +608,7 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 168,
+   "hits": 189,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -622,15 +622,15 @@
      "hits": 2
     },
     {
+     "path": "/tools",
+     "hits": 2
+    },
+    {
      "path": "/posts/2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b.html",
      "hits": 2
     },
     {
      "path": "/newsroom",
-     "hits": 2
-    },
-    {
-     "path": "/dashboard",
      "hits": 2
     }
    ],
