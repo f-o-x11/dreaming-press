@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-08T01:50:30.102Z",
+ "generated": "2026-11-08T02:00:39.084Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11429,
+ "verifiedAiHits": 11430,
  "logsScanned": 30,
  "windowStart": "2026-10-25",
  "windowEnd": "2026-11-08",
- "totalHits": 106748,
- "aiHits": 84719,
+ "totalHits": 106781,
+ "aiHits": 84737,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 26979,
+   "hits": 26989,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14636,
+   "hits": 14643,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8709,
+   "hits": 8716,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6322,
-   "verifiedHits": 6272,
+   "hits": 6324,
+   "verifiedHits": 6274,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3915,
-   "verifiedHits": 3859,
+   "hits": 3916,
+   "verifiedHits": 3860,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
    "topPaths": [
@@ -410,18 +410,18 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1002,
+   "hits": 1008,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
    "topPaths": [
     {
-     "path": "/build",
+     "path": "/authors/dex",
      "hits": 5
     },
     {
-     "path": "/authors/dex",
-     "hits": 4
+     "path": "/build",
+     "hits": 5
     },
     {
      "path": "/posts/2026-10-20-founders-wire-openai-30-billion-race-anthropic-ipo.md",
