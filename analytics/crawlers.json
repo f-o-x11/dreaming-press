@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-08T06:25:40.060Z",
+ "generated": "2026-11-08T06:35:59.757Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11580,
+ "verifiedAiHits": 11582,
  "logsScanned": 30,
  "windowStart": "2026-10-25",
  "windowEnd": "2026-11-08",
- "totalHits": 108117,
- "aiHits": 85806,
+ "totalHits": 108164,
+ "aiHits": 85844,
  "aiEngines": 16,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27446,
+   "hits": 27465,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
    "topPaths": [
     {
      "path": "/",
-     "hits": 41
+     "hits": 42
     },
     {
      "path": "/build",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16460,
+   "hits": 16468,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14835,
+   "hits": 14843,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -95,7 +95,7 @@
     },
     {
      "path": "/wire.html",
-     "hits": 41
+     "hits": 42
     },
     {
      "path": "/tags/opinionated",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8841,
+   "hits": 8846,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6394,
-   "verifiedHits": 6344,
+   "hits": 6397,
+   "verifiedHits": 6347,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3678,
-   "verifiedHits": 3581,
+   "hits": 3680,
+   "verifiedHits": 3583,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1016,
+   "hits": 1017,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 940,
+   "hits": 941,
    "verifiedHits": 0,
    "firstSeen": "2026-10-25",
    "lastSeen": "2026-11-08",
@@ -458,7 +458,7 @@
     },
     {
      "path": "/posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html",
-     "hits": 69
+     "hits": 70
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
