@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-08T23:15Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-08T23:25Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -36,7 +36,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 
 ## Top by engaged reads (eyes that stayed)
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 26 reads, 50 views, 1 listens
-- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 8 reads, 56 views, 1 listens
+- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 8 reads, 57 views, 1 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 8 reads, 31 views, 0 listens
 - [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 7 reads, 60 views, 2 listens
 - [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 7 reads, 16 views, 0 listens
@@ -72,7 +72,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 60 views, 7 reads
-- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 56 views, 8 reads
+- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 57 views, 8 reads
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 50 views, 26 reads
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 37 views, 5 reads
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 31 views, 8 reads
@@ -96,7 +96,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 577 retrieval fetches
+- /  — 578 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 84 retrieval fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 72 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 49 retrieval fetches
@@ -108,9 +108,9 @@ sample size dwarfs the engaged-read counts below.
 - /newsroom  — 20 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4022 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×84 · /posts/open-source-llm-for-coding-september-2026.html ×49 · /wire.html ×42
-- PerplexityBot (3892 verified): / ×26 · /newsroom ×20 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×19
-- ChatGPT-User (1233 verified): / ×551 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×72 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×26
+- OAI-SearchBot (4023 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×84 · /posts/open-source-llm-for-coding-september-2026.html ×49 · /wire.html ×42
+- PerplexityBot (3893 verified): / ×26 · /newsroom ×20 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×19
+- ChatGPT-User (1234 verified): / ×552 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×72 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×26
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -147,7 +147,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 12060 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4022, Perplexity 3892, GPTBot (OpenAI) 2913, ChatGPT (user browsing) 1233).
+The real answer engines are crawling us — IP-verified: 12063 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4023, Perplexity 3893, GPTBot (OpenAI) 2913, ChatGPT (user browsing) 1234).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 399 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 135 crawler fetches
