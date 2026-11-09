@@ -1,11 +1,11 @@
-# Analytics brief — auto-exported 2026-11-09T15:26Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-09T15:36Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 11091 views → 287 engaged reads → 21 completes · 10970 sessions.
-- Channels: direct 156r/3080v · referral 63r/7860v · organic 62r/116v · ai 4r/18v · campaign:chatgpt.com 1r/10v · campaign:openai 1r/5v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 2r/13v · Le Chat 1r/1v · Perplexity 1r/1v · Doubao 1r/1v · Kimi 0r/9v · Grok 0r/2v · Yuanbao 0r/1v.
+- Funnel: 11082 views → 287 engaged reads → 21 completes · 10961 sessions.
+- Channels: direct 156r/3072v · referral 63r/7860v · organic 62r/116v · ai 4r/17v · campaign:chatgpt.com 1r/10v · campaign:openai 1r/5v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 2r/13v · Le Chat 1r/1v · Perplexity 1r/1v · Doubao 1r/1v · Kimi 0r/8v · Grok 0r/2v · Yuanbao 0r/1v.
 - Referrers: aocr.org, bing.com, duckduckgo.com, google.com, nav-cmp, cn.bing.com, feature, search.brave.com, article-body, wire-row.
 - Engaged-read winners by section: wire=5, stack=10.
 
@@ -24,9 +24,9 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - referral: 7860 views · read 0.8% · complete 0.0% · 1 pages/session · median ?s
-- direct: 3080 views · read 5.1% · complete 0.6% · 1.02 pages/session · median 9s
+- direct: 3072 views · read 5.1% · complete 0.6% · 1.02 pages/session · median 9s
 - organic: 116 views · read 53.4% · complete 1.7% · 1.05 pages/session · median 2s
-- ai: 18 views · read 22.2% · complete 0.0% · 1.06 pages/session · median 4s
+- ai: 17 views · read 23.5% · complete 0.0% · 1.06 pages/session · median 4s
 - campaign:chatgpt.com: 10 views · read 10.0% · complete 0.0% · 1.67 pages/session · median ?s
 - campaign:openai: 5 views · read 20.0% · complete 0.0% · 0.83 pages/session · median ?s
 INSIGHT: organic converts 10x better per view than direct, which is 28% of all views.
@@ -59,9 +59,9 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 901 views, 0 reads, 897 sessions, avg 10s
+- /stack/:tool — 899 views, 0 reads, 895 sessions, avg 10s
 - /compare/:pair — 274 views, 0 reads, 274 sessions, avg 16s
-- /build — 264 views, 0 reads, 264 sessions
+- /build — 263 views, 0 reads, 263 sessions
 - / — 122 views, 3 reads, 127 sessions, avg 18s
 - /topics/:topic — 76 views, 0 reads, 76 sessions, avg 23s
 - /best/:cat — 48 views, 0 reads, 48 sessions
@@ -149,7 +149,7 @@ search intent, so put the answer in the first screen and use the phrasing in the
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 11932 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4097, Perplexity 3822, GPTBot (OpenAI) 2911, ChatGPT (user browsing) 1102).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 356 crawler fetches
+- /build  — 357 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 134 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 107 crawler fetches
 - /posts/gpu-rental-price-october-2026.html  — 104 crawler fetches
