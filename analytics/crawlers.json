@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-09T17:39:10.191Z",
+ "generated": "2026-11-09T17:49:15.201Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11961,
+ "verifiedAiHits": 11967,
  "logsScanned": 30,
  "windowStart": "2026-10-26",
  "windowEnd": "2026-11-09",
- "totalHits": 119339,
- "aiHits": 95884,
+ "totalHits": 119428,
+ "aiHits": 95967,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28127,
+   "hits": 28153,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15968,
+   "hits": 15989,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15363,
+   "hits": 15371,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9342,
+   "hits": 9344,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6492,
-   "verifiedHits": 6446,
+   "hits": 6496,
+   "verifiedHits": 6450,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4167,
-   "verifiedHits": 4114,
+   "hits": 4173,
+   "verifiedHits": 4120,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2265,
+   "hits": 2266,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -538,6 +538,39 @@
    "verifiable": false
   },
   {
+   "name": "CCBot",
+   "label": "Common Crawl (feeds many LLMs)",
+   "category": "ai",
+   "home": "https://commoncrawl.org/ccbot",
+   "hits": 337,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-11-09",
+   "topPaths": [
+    {
+     "path": "/agents.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/2026-10-26-founders-wire-nvidia-2000-per-gpu-software-fee-agents.html",
+     "hits": 2
+    },
+    {
+     "path": "/build",
+     "hits": 2
+    },
+    {
+     "path": "/topics/mcp",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "YouBot",
    "label": "You.com",
    "category": "ai",
@@ -566,39 +599,6 @@
     {
      "path": "/posts/2026-10-12-founders-wire-decart-deno-reflection-neutral-layers-bought.html",
      "hits": 1
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "CCBot",
-   "label": "Common Crawl (feeds many LLMs)",
-   "category": "ai",
-   "home": "https://commoncrawl.org/ccbot",
-   "hits": 316,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-26",
-   "lastSeen": "2026-11-09",
-   "topPaths": [
-    {
-     "path": "/agents.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-10-26-founders-wire-nvidia-2000-per-gpu-software-fee-agents.html",
-     "hits": 2
-    },
-    {
-     "path": "/topics/mcp",
-     "hits": 2
-    },
-    {
-     "path": "/tools",
-     "hits": 2
     }
    ],
    "verifiable": false
