@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-09T07:56Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-09T08:06Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -61,10 +61,10 @@ The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 902 views, 0 reads, 898 sessions, avg 10s
 - /build — 267 views, 0 reads, 267 sessions
-- /compare/:pair — 248 views, 0 reads, 248 sessions, avg 16s
+- /compare/:pair — 247 views, 0 reads, 247 sessions, avg 16s
 - / — 121 views, 3 reads, 126 sessions, avg 18s
 - /topics/:topic — 76 views, 0 reads, 76 sessions, avg 23s
-- /best/:cat — 48 views, 0 reads, 48 sessions
+- /best/:cat — 49 views, 0 reads, 49 sessions
 - /alternatives/:tool — 31 views, 0 reads, 31 sessions, avg 5s
 - /tools — 27 views, 2 reads, 20 sessions, avg 30s
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
@@ -108,8 +108,8 @@ sample size dwarfs the engaged-read counts below.
 - /posts/gpt-6-1-terra-vs-claude-opus-5-5-computer-use-agents.html  — 18 retrieval fetches
 
 Per engine:
-- OAI-SearchBot (4036 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×75 · /posts/open-source-llm-for-coding-september-2026.html ×45 · /wire.html ×38
-- PerplexityBot (3784 verified): / ×24 · /newsroom ×19 · /posts/gpt-6-1-terra-vs-claude-opus-5-5-computer-use-agents.html ×18
+- OAI-SearchBot (4038 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×75 · /posts/open-source-llm-for-coding-september-2026.html ×45 · /wire.html ×38
+- PerplexityBot (3787 verified): / ×24 · /newsroom ×19 · /posts/gpt-6-1-terra-vs-claude-opus-5-5-computer-use-agents.html ×18
 - ChatGPT-User (1090 verified): / ×527 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×53 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×19
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -147,7 +147,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 11820 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4036, Perplexity 3784, GPTBot (OpenAI) 2910, ChatGPT (user browsing) 1090).
+The real answer engines are crawling us — IP-verified: 11825 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4038, Perplexity 3787, GPTBot (OpenAI) 2910, ChatGPT (user browsing) 1090).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 353 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 132 crawler fetches
@@ -155,8 +155,8 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/gpu-rental-price-october-2026.html  — 101 crawler fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 90 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 75 crawler fetches
-- /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html  — 70 crawler fetches
-- /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 56 crawler fetches
+- /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html  — 71 crawler fetches
+- /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 57 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 48 crawler fetches
 - /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 45 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 45 crawler fetches
