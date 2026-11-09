@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T11:50:40.425Z",
+ "generated": "2026-11-09T12:01:00.531Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,8 +8,8 @@
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 11075,
-  "reads": 288,
+  "views": 11074,
+  "reads": 287,
   "completes": 20,
   "plays": 9,
   "sessions": 10952
@@ -17,8 +17,8 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3063,
-   "reads": 156,
+   "views": 3062,
+   "reads": 155,
    "sessions": 2996
   },
   {
@@ -84,8 +84,8 @@
   },
   {
    "channel": "direct",
-   "views": 3063,
-   "reads": 156,
+   "views": 3062,
+   "reads": 155,
    "completes": 16,
    "sessions": 2996,
    "read_rate": 0.051,
@@ -295,8 +295,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10663,
-   "reads": 266,
+   "views": 10662,
+   "reads": 265,
    "sessions": 10543
   },
   {
@@ -354,16 +354,6 @@
    "plays": 0
   },
   {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 16,
-   "reads": 7,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-frameworks-whats-changed-fall-2026",
    "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
    "section": "stack",
@@ -372,6 +362,16 @@
    "views": 53,
    "reads": 6,
    "plays": 1
+  },
+  {
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 15,
+   "reads": 6,
+   "plays": 0
   },
   {
    "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
