@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-09T18:09:50.532Z",
+ "generated": "2026-11-09T18:20:00.285Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11979,
+ "verifiedAiHits": 11982,
  "logsScanned": 30,
  "windowStart": "2026-10-26",
  "windowEnd": "2026-11-09",
- "totalHits": 119538,
- "aiHits": 96067,
+ "totalHits": 119591,
+ "aiHits": 96119,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28172,
+   "hits": 28183,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16002,
+   "hits": 16005,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15385,
+   "hits": 15395,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6498,
-   "verifiedHits": 6452,
+   "hits": 6499,
+   "verifiedHits": 6453,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4182,
-   "verifiedHits": 4129,
+   "hits": 4184,
+   "verifiedHits": 4131,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
    "topPaths": [
@@ -267,7 +267,7 @@
      "hits": 33
     },
     {
-     "path": "/posts/serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026.html",
+     "path": "/posts/time-series-foundation-models-chronos-2-vs-timesfm-vs-moirai-vs-toto.html",
      "hits": 33
     }
    ],
@@ -377,8 +377,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1175,
-   "verifiedHits": 1108,
+   "hits": 1176,
+   "verifiedHits": 1109,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
    "topPaths": [
@@ -476,7 +476,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 941,
+   "hits": 942,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -487,7 +487,7 @@
     },
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
-     "hits": 86
+     "hits": 87
     },
     {
      "path": "/posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html",
@@ -500,6 +500,39 @@
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
      "hits": 25
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "CCBot",
+   "label": "Common Crawl (feeds many LLMs)",
+   "category": "ai",
+   "home": "https://commoncrawl.org/ccbot",
+   "hits": 403,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-11-09",
+   "topPaths": [
+    {
+     "path": "/agents.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/2026-10-26-founders-wire-nvidia-2000-per-gpu-software-fee-agents.html",
+     "hits": 2
+    },
+    {
+     "path": "/build",
+     "hits": 2
+    },
+    {
+     "path": "/topics/mcp",
+     "hits": 2
     }
    ],
    "verifiable": false
@@ -533,39 +566,6 @@
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
      "hits": 4
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "CCBot",
-   "label": "Common Crawl (feeds many LLMs)",
-   "category": "ai",
-   "home": "https://commoncrawl.org/ccbot",
-   "hits": 379,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-26",
-   "lastSeen": "2026-11-09",
-   "topPaths": [
-    {
-     "path": "/agents.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-10-26-founders-wire-nvidia-2000-per-gpu-software-fee-agents.html",
-     "hits": 2
-    },
-    {
-     "path": "/build",
-     "hits": 2
-    },
-    {
-     "path": "/topics/mcp",
-     "hits": 2
     }
    ],
    "verifiable": false
