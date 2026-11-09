@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-09T13:54:05.554Z",
+ "generated": "2026-11-09T14:04:20.766Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,18 +8,18 @@
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 11079,
-  "reads": 288,
+  "views": 11070,
+  "reads": 287,
   "completes": 21,
   "plays": 9,
-  "sessions": 10958
+  "sessions": 10949
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3067,
+   "views": 3059,
    "reads": 156,
-   "sessions": 3002
+   "sessions": 2994
   },
   {
    "channel": "referral",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "organic",
-   "views": 117,
-   "reads": 63,
-   "sessions": 112
+   "views": 116,
+   "reads": 62,
+   "sessions": 111
   },
   {
    "channel": "ai",
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3067,
+   "views": 3059,
    "reads": 156,
    "completes": 17,
-   "sessions": 3002,
+   "sessions": 2994,
    "read_rate": 0.051,
    "complete_rate": 0.006,
    "pages_per_session": 1.02,
@@ -95,13 +95,13 @@
   },
   {
    "channel": "organic",
-   "views": 117,
-   "reads": 63,
+   "views": 116,
+   "reads": 62,
    "completes": 2,
-   "sessions": 112,
-   "read_rate": 0.538,
+   "sessions": 111,
+   "read_rate": 0.534,
    "complete_rate": 0.017,
-   "pages_per_session": 1.04,
+   "pages_per_session": 1.05,
    "median_dwell_sec": 2
   },
   {
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10668,
-   "reads": 266,
-   "sessions": 10550
+   "views": 10660,
+   "reads": 265,
+   "sessions": 10542
   },
   {
    "device": "mobile",
-   "views": 405,
+   "views": 404,
    "reads": 18,
-   "sessions": 406
+   "sessions": 405
   },
   {
    "device": "tablet",
@@ -434,16 +434,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-23-fp8-vs-int8-vs-int4-quantization",
-   "title": "FP8 vs INT8 vs INT4: Picking a Quantization Format for LLM Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 9,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "how-to-build-an-mcp-server",
    "title": "How to Build an MCP Server: A Practical Guide for Agent Developers",
    "section": "stack",
@@ -460,6 +450,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 17,
+   "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "deepseek-chat-reasoner-retire-july-24-migrate-api",
+   "title": "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 16,
    "reads": 2,
    "plays": 0
   }
@@ -788,8 +788,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 62,
-   "sessions": 32
+   "hits": 60,
+   "sessions": 31
   },
   {
    "ref": "https://www.google.com/",
