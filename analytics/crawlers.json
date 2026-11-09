@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-09T20:43:00.404Z",
+ "generated": "2026-11-09T20:53:20.452Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12015,
+ "verifiedAiHits": 12033,
  "logsScanned": 30,
  "windowStart": "2026-10-26",
  "windowEnd": "2026-11-09",
- "totalHits": 120116,
- "aiHits": 96508,
+ "totalHits": 120155,
+ "aiHits": 96542,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28290,
+   "hits": 28295,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16105,
+   "hits": 16108,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15501,
+   "hits": 15509,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9441,
+   "hits": 9445,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6539,
-   "verifiedHits": 6493,
+   "hits": 6540,
+   "verifiedHits": 6494,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4204,
-   "verifiedHits": 4151,
+   "hits": 4207,
+   "verifiedHits": 4154,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3920,
-   "verifiedHits": 3837,
+   "hits": 3935,
+   "verifiedHits": 3852,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
    "topPaths": [
@@ -289,19 +289,19 @@
     },
     {
      "path": "/newsroom",
-     "hits": 19
+     "hits": 21
     },
     {
      "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
+     "hits": 19
+    },
+    {
+     "path": "/wire.html",
      "hits": 18
     },
     {
      "path": "/posts/gpt-6-1-terra-vs-claude-opus-5-5-computer-use-agents.html",
      "hits": 18
-    },
-    {
-     "path": "/wire.html",
-     "hits": 17
     }
    ],
    "verifiable": true
