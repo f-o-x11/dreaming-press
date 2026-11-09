@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-09T15:46Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-09T15:56Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -86,8 +86,8 @@ new traffic — and these pages already have the traffic.
 - [stack] "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM" — 29 views but only 0 engaged reads (0.0%)
 - [stack] "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026" — 28 views but only 1 engaged reads (3.6%)
 - [wire] "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp" — 26 views but only 1 engaged reads (3.8%)
-- [stack] "Agno vs LangGraph vs CrewAI: Choosing an Agent Framework in 2026" — 26 views but only 0 engaged reads (0.0%)
 - [wire] "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model" — 25 views but only 0 engaged reads (0.0%)
+- [stack] "Agno vs LangGraph vs CrewAI: Choosing an Agent Framework in 2026" — 25 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
@@ -109,7 +109,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - OAI-SearchBot (4097 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×75 · /posts/open-source-llm-for-coding-september-2026.html ×45 · /wire.html ×38
-- PerplexityBot (3823 verified): / ×25 · /newsroom ×19 · /posts/gpt-6-1-terra-vs-claude-opus-5-5-computer-use-agents.html ×18
+- PerplexityBot (3824 verified): / ×25 · /newsroom ×19 · /posts/gpt-6-1-terra-vs-claude-opus-5-5-computer-use-agents.html ×18
 - ChatGPT-User (1102 verified): / ×537 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×53 · /posts/open-weight-llms-you-actually-run-locally-october-2026.html ×19
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -147,7 +147,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 11933 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4097, Perplexity 3823, GPTBot (OpenAI) 2911, ChatGPT (user browsing) 1102).
+The real answer engines are crawling us — IP-verified: 11934 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4097, Perplexity 3824, GPTBot (OpenAI) 2911, ChatGPT (user browsing) 1102).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 357 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 134 crawler fetches
