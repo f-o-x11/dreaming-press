@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-09T17:29:00.499Z",
+ "generated": "2026-11-09T17:39:10.526Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 8,
   "avgTimeSec": 31,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 11061,
-  "reads": 287,
+  "views": 11060,
+  "reads": 286,
   "completes": 21,
   "plays": 9,
   "sessions": 10941
@@ -17,8 +17,8 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3051,
-   "reads": 156,
+   "views": 3050,
+   "reads": 155,
    "sessions": 2987
   },
   {
@@ -84,8 +84,8 @@
   },
   {
    "channel": "direct",
-   "views": 3051,
-   "reads": 156,
+   "views": 3050,
+   "reads": 155,
    "completes": 17,
    "sessions": 2987,
    "read_rate": 0.051,
@@ -295,8 +295,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10652,
-   "reads": 265,
+   "views": 10651,
+   "reads": 264,
    "sessions": 10535
   },
   {
@@ -364,16 +364,6 @@
    "plays": 1
   },
   {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 6,
-   "plays": 0
-  },
-  {
    "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
    "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
    "section": "stack",
@@ -381,6 +371,16 @@
    "author": "dex",
    "views": 14,
    "reads": 6,
+   "plays": 0
+  },
+  {
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 14,
+   "reads": 5,
    "plays": 0
   },
   {

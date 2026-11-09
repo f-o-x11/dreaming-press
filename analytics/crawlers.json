@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-09T17:29:00.169Z",
+ "generated": "2026-11-09T17:39:10.191Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11957,
+ "verifiedAiHits": 11961,
  "logsScanned": 30,
  "windowStart": "2026-10-26",
  "windowEnd": "2026-11-09",
- "totalHits": 119277,
- "aiHits": 95837,
+ "totalHits": 119339,
+ "aiHits": 95884,
  "aiEngines": 17,
  "bots": [
   {
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15955,
+   "hits": 15968,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15356,
+   "hits": 15363,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9332,
+   "hits": 9342,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6490,
-   "verifiedHits": 6444,
+   "hits": 6492,
+   "verifiedHits": 6446,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4164,
-   "verifiedHits": 4111,
+   "hits": 4167,
+   "verifiedHits": 4114,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
    "topPaths": [
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1171,
-   "verifiedHits": 1104,
+   "hits": 1172,
+   "verifiedHits": 1105,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
    "topPaths": [
     {
      "path": "/",
-     "hits": 539
+     "hits": 540
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -410,8 +410,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1081,
-   "verifiedHits": 583,
+   "hits": 1083,
+   "verifiedHits": 585,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 977,
+   "hits": 978,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -575,7 +575,7 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 293,
+   "hits": 316,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -589,15 +589,15 @@
      "hits": 2
     },
     {
+     "path": "/posts/2026-10-26-founders-wire-nvidia-2000-per-gpu-software-fee-agents.html",
+     "hits": 2
+    },
+    {
      "path": "/topics/mcp",
      "hits": 2
     },
     {
      "path": "/tools",
-     "hits": 2
-    },
-    {
-     "path": "/fabrications.html",
      "hits": 2
     }
    ],
