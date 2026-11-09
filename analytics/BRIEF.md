@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-09T20:53Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-09T21:03Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -149,7 +149,7 @@ search intent, so put the answer in the first screen and use the phrasing in the
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 12033 confirmed AI-engine fetches (ChatGPT Search (OpenAI) 4154, Perplexity 3852, GPTBot (OpenAI) 2912, ChatGPT (user browsing) 1115).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 362 crawler fetches
+- /build  — 363 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 135 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 108 crawler fetches
 - /posts/gpu-rental-price-october-2026.html  — 105 crawler fetches
@@ -160,7 +160,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 50 crawler fetches
 - /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 47 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 45 crawler fetches
-- /posts/2026-10-15-founders-wire-anthropic-opens-its-books.html  — 33 crawler fetches
+- /posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html  — 37 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
