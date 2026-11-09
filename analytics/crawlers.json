@@ -1,20 +1,20 @@
 {
- "generated": "2026-11-09T02:08:00.296Z",
+ "generated": "2026-11-09T02:18:20.863Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11748,
+ "verifiedAiHits": 11751,
  "logsScanned": 30,
  "windowStart": "2026-10-26",
  "windowEnd": "2026-11-09",
- "totalHits": 105691,
- "aiHits": 83215,
- "aiEngines": 16,
+ "totalHits": 105787,
+ "aiHits": 83306,
+ "aiEngines": 17,
  "bots": [
   {
    "name": "Bytespider",
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 26796,
+   "hits": 26801,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -47,7 +47,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15266,
+   "hits": 15270,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14652,
+   "hits": 14661,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -113,10 +113,10 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 10255,
+   "hits": 10317,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
-   "lastSeen": "2026-11-08",
+   "lastSeen": "2026-11-09",
    "topPaths": [
     {
      "path": "/tags/reportive",
@@ -131,12 +131,12 @@
      "hits": 34
     },
     {
-     "path": "/posts/2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader.html",
+     "path": "/build",
      "hits": 3
     },
     {
-     "path": "/posts/how-to-roll-out-a-new-llm-shadow-vs-canary-vs-ab.html",
-     "hits": 2
+     "path": "/posts/2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader.html",
+     "hits": 3
     }
    ],
    "verifiable": false
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8870,
+   "hits": 8872,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6271,
-   "verifiedHits": 6232,
+   "hits": 6273,
+   "verifiedHits": 6234,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5023,
+   "hits": 5024,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4042,
-   "verifiedHits": 3996,
+   "hits": 4044,
+   "verifiedHits": 3997,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3834,
-   "verifiedHits": 3761,
+   "hits": 3835,
+   "verifiedHits": 3762,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
    "topPaths": [
@@ -311,10 +311,10 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 2957,
+   "hits": 2958,
    "verifiedHits": 2909,
    "firstSeen": "2026-10-26",
-   "lastSeen": "2026-11-08",
+   "lastSeen": "2026-11-09",
    "topPaths": [
     {
      "path": "/build",
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 1137,
-   "verifiedHits": 1082,
+   "hits": 1138,
+   "verifiedHits": 1083,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
    "topPaths": [
     {
      "path": "/",
-     "hits": 521
+     "hits": 522
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -608,14 +608,18 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 238,
+   "hits": 241,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
-   "lastSeen": "2026-11-08",
+   "lastSeen": "2026-11-09",
    "topPaths": [
     {
      "path": "/agents.html",
      "hits": 3
+    },
+    {
+     "path": "/posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html",
+     "hits": 2
     },
     {
      "path": "/topics/mcp",
@@ -628,10 +632,6 @@
     {
      "path": "/fabrications.html",
      "hits": 2
-    },
-    {
-     "path": "/",
-     "hits": 2
     }
    ],
    "verifiable": false
@@ -641,10 +641,10 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 126,
+   "hits": 127,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
-   "lastSeen": "2026-11-08",
+   "lastSeen": "2026-11-09",
    "topPaths": [
     {
      "path": "/posts/tool-highlight-tinfoil-confidential-llm-inference-cloud-cant-read.html",
@@ -715,13 +715,34 @@
    "label": "Cohere",
    "category": "ai",
    "home": "https://cohere.com",
-   "hits": 19,
+   "hits": 20,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
-   "lastSeen": "2026-11-05",
+   "lastSeen": "2026-11-09",
    "topPaths": [
     {
+     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
+     "hits": 1
+    },
+    {
      "path": "/userfiles/x",
+     "hits": 1
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "Google-Extended",
+   "label": "Gemini / Vertex (Google-Extended)",
+   "category": "ai",
+   "home": "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers",
+   "hits": 1,
+   "verifiedHits": 0,
+   "firstSeen": "2026-11-09",
+   "lastSeen": "2026-11-09",
+   "topPaths": [
+    {
+     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
      "hits": 1
     }
    ],
