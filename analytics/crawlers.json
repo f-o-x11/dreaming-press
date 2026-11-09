@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-09T22:14:40.026Z",
+ "generated": "2026-11-09T22:25:00.218Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 12054,
+ "verifiedAiHits": 12055,
  "logsScanned": 30,
  "windowStart": "2026-10-26",
  "windowEnd": "2026-11-09",
- "totalHits": 120426,
- "aiHits": 96718,
+ "totalHits": 120453,
+ "aiHits": 96742,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28335,
+   "hits": 28341,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 16161,
+   "hits": 16170,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15567,
+   "hits": 15575,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9490,
+   "hits": 9493,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4218,
-   "verifiedHits": 4165,
+   "hits": 4219,
+   "verifiedHits": 4166,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
    "topPaths": [
@@ -263,11 +263,11 @@
      "hits": 39
     },
     {
-     "path": "/posts/best-open-source-vector-database-2026.html",
-     "hits": 33
+     "path": "/posts/best-llm-for-image-generation-september-2026.html",
+     "hits": 34
     },
     {
-     "path": "/posts/time-series-foundation-models-chronos-2-vs-timesfm-vs-moirai-vs-toto.html",
+     "path": "/posts/best-open-source-vector-database-2026.html",
      "hits": 33
     }
    ],
