@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-09T07:25:30.469Z",
+ "generated": "2026-11-09T07:35:50.406Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
+  "readersNow": 4,
   "todayReads": 3,
   "avgTimeSec": 10,
   "postsThisWeek": 9
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3090,
+   "views": 3089,
    "reads": 161,
-   "sessions": 3020
+   "sessions": 3019
   },
   {
    "channel": "referral",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "organic",
-   "views": 115,
+   "views": 116,
    "reads": 62,
-   "sessions": 110
+   "sessions": 111
   },
   {
    "channel": "ai",
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3090,
+   "views": 3089,
    "reads": 161,
    "completes": 16,
-   "sessions": 3020,
+   "sessions": 3019,
    "read_rate": 0.052,
    "complete_rate": 0.005,
    "pages_per_session": 1.02,
@@ -95,11 +95,11 @@
   },
   {
    "channel": "organic",
-   "views": 115,
+   "views": 116,
    "reads": 62,
    "completes": 2,
-   "sessions": 110,
-   "read_rate": 0.539,
+   "sessions": 111,
+   "read_rate": 0.534,
    "complete_rate": 0.017,
    "pages_per_session": 1.05,
    "median_dwell_sec": 2
@@ -295,15 +295,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10690,
+   "views": 10689,
    "reads": 270,
-   "sessions": 10568
+   "sessions": 10567
   },
   {
    "device": "mobile",
-   "views": 404,
+   "views": 405,
    "reads": 18,
-   "sessions": 405
+   "sessions": 406
   },
   {
    "device": "tablet",
@@ -349,7 +349,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 53,
+   "views": 54,
    "reads": 7,
    "plays": 1
   },
@@ -491,7 +491,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 53,
+   "views": 54,
    "reads": 7,
    "plays": 1
   },
@@ -583,7 +583,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 53,
+   "views": 54,
    "reads": 7,
    "plays": 1
   },
@@ -802,14 +802,14 @@
    "sessions": 7
   },
   {
+   "ref": "https://cn.bing.com/",
+   "hits": 7,
+   "sessions": 5
+  },
+  {
    "ref": "feature",
    "hits": 7,
    "sessions": 3
-  },
-  {
-   "ref": "https://cn.bing.com/",
-   "hits": 6,
-   "sessions": 4
   },
   {
    "ref": "https://search.brave.com/",
