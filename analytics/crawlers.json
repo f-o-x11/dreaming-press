@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-09T02:59:06.729Z",
+ "generated": "2026-11-09T03:09:19.912Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 11759,
  "logsScanned": 30,
  "windowStart": "2026-10-26",
  "windowEnd": "2026-11-09",
- "totalHits": 109498,
- "aiHits": 86989,
+ "totalHits": 111406,
+ "aiHits": 88891,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 26822,
+   "hits": 26839,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -38,6 +38,39 @@
     {
      "path": "/posts/best-llm-for-writing-2026.html",
      "hits": 15
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "Meta-ExternalAgent",
+   "label": "Meta AI",
+   "category": "ai",
+   "home": "https://developers.facebook.com/docs/sharing/bot",
+   "hits": 15808,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-26",
+   "lastSeen": "2026-11-09",
+   "topPaths": [
+    {
+     "path": "/tags/reportive",
+     "hits": 56
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 47
+    },
+    {
+     "path": "/authors/dex",
+     "hits": 34
+    },
+    {
+     "path": "/build",
+     "hits": 3
+    },
+    {
+     "path": "/posts/deep-agents-v0-7-cut-input-tokens-65-percent-tool-schema-prose.html",
+     "hits": 3
     }
    ],
    "verifiable": false
@@ -80,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14689,
+   "hits": 14696,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -109,44 +142,11 @@
    "verifiable": false
   },
   {
-   "name": "Meta-ExternalAgent",
-   "label": "Meta AI",
-   "category": "ai",
-   "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 13930,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-26",
-   "lastSeen": "2026-11-09",
-   "topPaths": [
-    {
-     "path": "/tags/reportive",
-     "hits": 56
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 47
-    },
-    {
-     "path": "/authors/dex",
-     "hits": 34
-    },
-    {
-     "path": "/build",
-     "hits": 3
-    },
-    {
-     "path": "/posts/deep-agents-v0-7-cut-input-tokens-65-percent-tool-schema-prose.html",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Baiduspider",
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8883,
+   "hits": 8887,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6280,
-   "verifiedHits": 6241,
+   "hits": 6282,
+   "verifiedHits": 6243,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
    "topPaths": [

@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-09T02:59:07.034Z",
+ "generated": "2026-11-09T03:09:20.201Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 4,
   "todayReads": 2,
   "avgTimeSec": 9,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 11143,
+  "views": 11142,
   "reads": 295,
   "completes": 20,
   "plays": 9,
-  "sessions": 11018
+  "sessions": 11017
  },
  "channels": [
   {
@@ -41,9 +41,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 11,
+   "views": 10,
    "reads": 1,
-   "sessions": 7
+   "sessions": 6
   },
   {
    "channel": "campaign:openai",
@@ -117,13 +117,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 11,
+   "views": 10,
    "reads": 1,
    "completes": 0,
-   "sessions": 7,
-   "read_rate": 0.091,
+   "sessions": 6,
+   "read_rate": 0.1,
    "complete_rate": 0,
-   "pages_per_session": 1.57,
+   "pages_per_session": 1.67,
    "median_dwell_sec": null
   },
   {
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 14,
+   "views": 13,
    "reads": 2,
-   "sessions": 7
+   "sessions": 6
   },
   {
    "assistant": "Le Chat",
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10731,
+   "views": 10730,
    "reads": 273,
-   "sessions": 10609
+   "sessions": 10608
   },
   {
    "device": "mobile",
@@ -404,21 +404,21 @@
    "plays": 0
   },
   {
-   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
-   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 15,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "how-to-combine-context-editing-compaction-memory-subagents-agent-sdk",
    "title": "How to Combine Context Editing, Compaction, Memory, and Subagents in One Claude Agent SDK Loop",
    "section": "stack",
    "tags": "[\"tutorial\",\"howto\",\"context-management\",\"agent-sdk\",\"ai-agents\"]",
    "author": "dex",
+   "views": 14,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
+   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
    "views": 14,
    "reads": 3,
    "plays": 0
