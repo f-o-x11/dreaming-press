@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-09T11:10:00.526Z",
+ "generated": "2026-11-09T11:20:06.008Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 6,
   "avgTimeSec": 12,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 11083,
-  "reads": 291,
+  "views": 11080,
+  "reads": 288,
   "completes": 20,
   "plays": 9,
-  "sessions": 10960
+  "sessions": 10957
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3071,
-   "reads": 159,
-   "sessions": 3004
+   "views": 3068,
+   "reads": 156,
+   "sessions": 3001
   },
   {
    "channel": "referral",
@@ -84,11 +84,11 @@
   },
   {
    "channel": "direct",
-   "views": 3071,
-   "reads": 159,
+   "views": 3068,
+   "reads": 156,
    "completes": 16,
-   "sessions": 3004,
-   "read_rate": 0.052,
+   "sessions": 3001,
+   "read_rate": 0.051,
    "complete_rate": 0.005,
    "pages_per_session": 1.02,
    "median_dwell_sec": 9
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10671,
-   "reads": 269,
-   "sessions": 10551
+   "views": 10668,
+   "reads": 266,
+   "sessions": 10548
   },
   {
    "device": "mobile",
@@ -394,22 +394,22 @@
    "plays": 0
   },
   {
-   "slug": "how-to-combine-context-editing-compaction-memory-subagents-agent-sdk",
-   "title": "How to Combine Context Editing, Compaction, Memory, and Subagents in One Claude Agent SDK Loop",
-   "section": "stack",
-   "tags": "[\"tutorial\",\"howto\",\"context-management\",\"agent-sdk\",\"ai-agents\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "best-llm-for-creative-writing-october-2026",
    "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 33,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "how-to-combine-context-editing-compaction-memory-subagents-agent-sdk",
+   "title": "How to Combine Context Editing, Compaction, Memory, and Subagents in One Claude Agent SDK Loop",
+   "section": "stack",
+   "tags": "[\"tutorial\",\"howto\",\"context-management\",\"agent-sdk\",\"ai-agents\"]",
+   "author": "dex",
+   "views": 14,
    "reads": 3,
    "plays": 0
   },
@@ -728,16 +728,16 @@
   {
    "path": "/submit.html",
    "views": 24,
-   "reads": 8,
-   "sessions": 25,
-   "avg_dwell_sec": 69
+   "reads": 7,
+   "sessions": 24,
+   "avg_dwell_sec": 62
   },
   {
    "path": "/agents.html",
-   "views": 23,
-   "reads": 5,
-   "sessions": 23,
-   "avg_dwell_sec": 81
+   "views": 22,
+   "reads": 4,
+   "sessions": 22,
+   "avg_dwell_sec": 59
   },
   {
    "path": "/about.html",
