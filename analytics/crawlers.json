@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-09T08:47:40.163Z",
+ "generated": "2026-11-09T08:57:50.124Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11841,
+ "verifiedAiHits": 11843,
  "logsScanned": 30,
  "windowStart": "2026-10-26",
  "windowEnd": "2026-11-09",
- "totalHits": 116863,
- "aiHits": 94009,
+ "totalHits": 116974,
+ "aiHits": 94108,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27362,
+   "hits": 27450,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
    "topPaths": [
     {
      "path": "/",
-     "hits": 41
+     "hits": 42
     },
     {
      "path": "/build",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14957,
+   "hits": 14966,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -123,12 +123,12 @@
      "hits": 103
     },
     {
-     "path": "/tags/reportive",
+     "path": "/wire.html",
      "hits": 42
     },
     {
-     "path": "/wire.html",
-     "hits": 41
+     "path": "/tags/reportive",
+     "hits": 42
     },
     {
      "path": "/tags/opinionated",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6363,
-   "verifiedHits": 6324,
+   "hits": 6367,
+   "verifiedHits": 6328,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5129,
+   "hits": 5137,
    "verifiedHits": 0,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
@@ -245,8 +245,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 4096,
-   "verifiedHits": 4049,
+   "hits": 4098,
+   "verifiedHits": 4051,
    "firstSeen": "2026-10-26",
    "lastSeen": "2026-11-09",
    "topPaths": [
