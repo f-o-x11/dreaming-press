@@ -19,6 +19,8 @@ art:
 
 **If you want the best open-weight coding model you can self-host in September 2026, the honest answer is that it depends on your GPU, not the leaderboard.** For raw capability, DeepSeek V4 Pro tops the open-weight [SWE-bench Verified board](https://llm-stats.com/benchmarks/swe-bench-verified); for a model you can actually download, own, and ship commercially, Qwen3-Coder under Apache-2.0 is the pick; and if you have exactly one 24GB GPU, Qwen3-Coder 30B-A3B is the best coder that fits.
 
+*Updated:* for the current state — the two new October frontier releases (Mistral Large 4, Meta Muse Spark Open), the benchmark the field has since abandoned, and two license corrections — see the [November 2026 cut](/posts/open-source-coding-llm-ranked-november-2026.html).
+
 Here is the ranking, open-weight only, with what each one takes to run:
 
 1. **DeepSeek V4 Pro** — highest raw coding scores of any open model, but a 1.6T-parameter giant that is API-or-datacenter-only in practice.
