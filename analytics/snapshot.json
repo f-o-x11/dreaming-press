@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-09T13:33:50.431Z",
+ "generated": "2026-11-09T13:44:00.461Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 24,
-  "todayReads": 7,
+  "readersNow": 19,
+  "todayReads": 8,
   "avgTimeSec": 38,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 11082,
-  "reads": 287,
-  "completes": 20,
+  "views": 11079,
+  "reads": 288,
+  "completes": 21,
   "plays": 9,
-  "sessions": 10961
+  "sessions": 10958
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3070,
-   "reads": 155,
-   "sessions": 3005
+   "views": 3067,
+   "reads": 156,
+   "sessions": 3002
   },
   {
    "channel": "referral",
@@ -84,12 +84,12 @@
   },
   {
    "channel": "direct",
-   "views": 3070,
-   "reads": 155,
-   "completes": 16,
-   "sessions": 3005,
-   "read_rate": 0.05,
-   "complete_rate": 0.005,
+   "views": 3067,
+   "reads": 156,
+   "completes": 17,
+   "sessions": 3002,
+   "read_rate": 0.051,
+   "complete_rate": 0.006,
    "pages_per_session": 1.02,
    "median_dwell_sec": 9
   },
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10671,
-   "reads": 265,
-   "sessions": 10553
+   "views": 10668,
+   "reads": 266,
+   "sessions": 10550
   },
   {
    "device": "mobile",
@@ -334,6 +334,16 @@
    "plays": 0
   },
   {
+   "slug": "cheapest-gpu-rental-november-2026",
+   "title": "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 18,
+   "reads": 8,
+   "plays": 0
+  },
+  {
    "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
    "title": "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model",
    "section": "wire",
@@ -342,16 +352,6 @@
    "views": 61,
    "reads": 7,
    "plays": 2
-  },
-  {
-   "slug": "cheapest-gpu-rental-november-2026",
-   "title": "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 17,
-   "reads": 7,
-   "plays": 0
   },
   {
    "slug": "ai-agent-frameworks-whats-changed-fall-2026",
@@ -399,7 +399,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 32,
+   "views": 30,
    "reads": 3,
    "plays": 0
   },
@@ -561,8 +561,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 17,
-   "reads": 7,
+   "views": 18,
+   "reads": 8,
    "plays": 0
   }
  ],
@@ -598,16 +598,6 @@
    "plays": 1
   },
   {
-   "slug": "best-llm-for-creative-writing-october-2026",
-   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 32,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "gpu-rental-price-october-2026",
    "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
    "section": "stack",
@@ -615,6 +605,16 @@
    "author": "dex",
    "views": 31,
    "reads": 8,
+   "plays": 0
+  },
+  {
+   "slug": "best-llm-for-creative-writing-october-2026",
+   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 30,
+   "reads": 3,
    "plays": 0
   },
   {
