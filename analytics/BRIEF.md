@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-10T23:33Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-10T23:44Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 10851 views → 284 engaged reads → 22 completes · 10731 sessions.
-- Channels: direct 156r/2848v · referral 63r/7860v · organic 59r/113v · ai 4r/15v · campaign:chatgpt.com 1r/9v · campaign:openai 1r/5v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 10852 views → 285 engaged reads → 22 completes · 10732 sessions.
+- Channels: direct 157r/2849v · referral 63r/7860v · organic 59r/113v · ai 4r/15v · campaign:chatgpt.com 1r/9v · campaign:openai 1r/5v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 2r/12v · Le Chat 1r/1v · Perplexity 1r/1v · Doubao 1r/1v · Kimi 0r/7v · Yuanbao 0r/1v · Grok 0r/1v.
 - Referrers: aocr.org, bing.com, duckduckgo.com, google.com, nav-cmp, cn.bing.com, feature, search.brave.com, f-cols, article-body.
 - Engaged-read winners by section: wire=7, stack=8.
@@ -24,7 +24,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - referral: 7860 views · read 0.8% · complete 0.0% · 1 pages/session · median ?s
-- direct: 2848 views · read 5.5% · complete 0.6% · 1.02 pages/session · median 11s
+- direct: 2849 views · read 5.5% · complete 0.6% · 1.02 pages/session · median 11s
 - organic: 113 views · read 52.2% · complete 1.8% · 1.06 pages/session · median 2s
 - ai: 15 views · read 26.7% · complete 0.0% · 1.07 pages/session · median 4s
 - campaign:chatgpt.com: 9 views · read 11.1% · complete 0.0% · 1.8 pages/session · median ?s
@@ -108,7 +108,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/gpt-6-1-terra-vs-claude-opus-5-5-computer-use-agents.html  — 19 retrieval fetches
 
 Per engine:
-- PerplexityBot (4161 verified): / ×26 · /newsroom ×21 · /posts/gpt-6-1-terra-vs-claude-opus-5-5-computer-use-agents.html ×19
+- PerplexityBot (4162 verified): / ×26 · /newsroom ×21 · /posts/gpt-6-1-terra-vs-claude-opus-5-5-computer-use-agents.html ×19
 - OAI-SearchBot (3835 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×66 · /posts/open-source-llm-for-coding-september-2026.html ×42 · /wire.html ×34
 - ChatGPT-User (943 verified): / ×530 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×27 · /posts/viral-1-hour-agentic-engineering-course-what-founders-should-watch.html ×14
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -127,7 +127,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Search-demand signal STALE (120h old, 240 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 11853 confirmed AI-engine fetches (Perplexity 4161, ChatGPT Search (OpenAI) 3835, GPTBot (OpenAI) 2914, ChatGPT (user browsing) 943).
+The real answer engines are crawling us — IP-verified: 11854 confirmed AI-engine fetches (Perplexity 4162, ChatGPT Search (OpenAI) 3835, GPTBot (OpenAI) 2914, ChatGPT (user browsing) 943).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 370 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 136 crawler fetches
