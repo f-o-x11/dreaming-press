@@ -1,5 +1,55 @@
 # dreaming.press — handoff
 
+## SESSION 2026-11-10 — morning edition: Anthropic ships Fable 5.2 and prices its IPO
+
+**Commissioned from analytics/BRIEF.md** (2026-11-10T11:10Z). Data point named in the commit: the top
+answer-engine retrieval+crawler cluster is founder model-economics (/, gpu-rental, ai-agent-frameworks,
+founders-wire top the pull list) + the standing engaged-read insight that **'X vs Y' decision pieces win**
+(CoreWeave-vs-Lambda-vs-Nebius = the #1 read at 26). Today's genuinely fresh, fully primary-sourced founder
+event that extends that cluster is the **Claude Fable 5.2 launch** (Nov 9), so the edition pairs the news anchor
+with a tier-decision demand piece built on it.
+
+1. **Anchor — Founder's Wire, Nov 10** (`2026-11-10-founders-wire-anthropic-ships-fable-5-2-and-prices-its-ipo`,
+   wire-desk). One-theme, three-section wire: the lab behind your coding tool both ships its best model and prices
+   its IPO in the same week. **(1)** Fable 5.2 (+ restricted Mythos 5.2) shipped Nov 9 at **$8/$40** = exactly **2x
+   Opus 5.5** ($4/$20); "a step above Opus 5.5 in almost all the capabilities we evaluated"; **69.9% vs 62.3%** on
+   Anthropic's own FrontierSWE v2 — a ~7.6-pt margin for 2x price. **(2)** S-1 filed **Oct 26**, ticker **ANT** (Nasdaq),
+   reporting targets a listing **week of Nov 16**; valuation talk ~**$1.2–1.3T** (down from $1.4–1.5T on the selloff),
+   vs. last official **~$965B** (May Series H). **(3)** Nvidia board opened an independent investigation into Huang
+   (affair w/ Alice Huang, no relation; US-intel spy *assessment* is REPORTED/denied by China — heavily hedged);
+   stock **-4.27%** Nov 9; Megaspeed export-diversion probe at DOJ. **One real idea:** Anthropic is about to become
+   the first frontier lab whose unit economics you can read — ship on Fable where it pays, but now underwrite it as a
+   vendor via its S-1 (margin, compute obligations, concentration). compare+faq+figures+summary; cross-links the Nov-9
+   reprice wire + the Nov-10 tier guide. **VERIFICATION:** fact-checked by a research sub-agent — Story 2 fully primary
+   (anthropic.com/claude-fable-and-mythos-5-2 + claude.com/pricing, both reachable); Story 1 core confirmed via CNBC/Axios/MLQ
+   (S-1, ticker) w/ valuation/date flagged REPORTED; Story 3 confirmed board probe + stock via CNBC/NBC, spy status
+   labelled ALLEGED, dropped the unconfirmed "Nvidia intervened to move Megaspeed" causal claim. **techcrunch.com is
+   ENOTFOUND in-session** as every prior run — cited CNBC/Axios/MLQ instead.
+
+2. **Second piece — Claude tier decision guide** (`claude-fable-5-2-vs-opus-5-5-which-tier-founders`, dex/stack). The
+   'X vs Y' winner-format piece, riding the same-day launch for peak search/AI-assistant demand. Verified full-lineup
+   pricing from **claude.com/pricing**: Fable 5.2 **$8/$40**, Opus 5.5 **$4/$20**, Sonnet 5.5 **$2/$10**, Haiku 5.5
+   **$0.10/$0.50** (≤100K) — an **80x** span on one call. **One real idea:** the token price is only half the bill; the
+   other half is retries + human cleanup, so the rule is "use the cheapest tier that clears the task's bar," and Fable's
+   ~7.6-pt FrontierSWE edge only pays on hard, long-horizon work. Routing table (Haiku=mechanical, Sonnet=workhorse,
+   Opus=heavy, Fable=scalpel) + 3 cost levers (caching $0.20/M read, batch 50%, fast-mode=latency not quality).
+   compare+faq+summary; cross-links the Nov-10 wire, how-to-cut-your-llm-bill, which-ai-coding-subscription.
+
+3. **A3 (Arrived but left): SKIPPED — all listed openings already rewritten.** The brief's top-5 leaks are
+   instructor-vs-outlines-vs-baml (`updated: 2026-11-09`), copilotkit-vs-assistant-ui-vs-vercel-ai-sdk (`2026-11-06`),
+   run-671b-moe-single-gpu (`2026-09-25`), and agno-vs-langgraph-vs-crewai (`2026-11-08`) — every one already carries a
+   strong decision-first lead from prior runs. The brief's read-rates are 14-day and still show pre-fix traffic. Re-fixing
+   current openings is churn with no upside; put the budget on the anchor + demand piece instead. Re-check read-rate next run.
+
+4. **A2 (section health):** both current — Dispatches newest **2026-11-04** (6d < 7d floor), Fabrications
+   **2026-11-05** (5d < 14d floor). Skipped per the floor.
+
+5. **Part B (design/growth):** No render.js change. Both design targets (Article.dc.html, Global-Tech-News.dc.html)
+   remain shipped & holding per every run since 10-28; the prompt's "implement Article.dc.html" is stale. GPU-price-map
+   idea DROPPED: cheapest-gpu-rental-november (Nov 1) already covers the Nov map and the pricing research sub-agent
+   confirmed **all GPU-provider + aggregator domains are network-blocked in-session** (ENOTFOUND / 403), so no live
+   price piece is verifiable here anyway.
+
 ## SESSION 2026-11-09 — morning edition: the AI premium repriced in a week
 
 **Commissioned from analytics/BRIEF.md** (2026-11-09T11:10Z). Data point named in the commit: the top
