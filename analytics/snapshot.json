@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-10T05:42:50.457Z",
+ "generated": "2026-11-10T05:53:00.343Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 0,
   "todayReads": 3,
   "avgTimeSec": 66,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 11027,
-  "reads": 292,
+  "views": 11024,
+  "reads": 290,
   "completes": 21,
   "plays": 9,
-  "sessions": 10904
+  "sessions": 10901
  },
  "channels": [
   {
    "channel": "direct",
    "views": 3016,
    "reads": 160,
-   "sessions": 2952
+   "sessions": 2951
   },
   {
    "channel": "referral",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "organic",
-   "views": 117,
-   "reads": 63,
-   "sessions": 111
+   "views": 115,
+   "reads": 61,
+   "sessions": 109
   },
   {
    "channel": "ai",
@@ -50,12 +50,6 @@
    "views": 5,
    "reads": 1,
    "sessions": 6
-  },
-  {
-   "channel": "campaign:producthunt",
-   "views": 1,
-   "reads": 0,
-   "sessions": 1
   },
   {
    "channel": "social",
@@ -87,7 +81,7 @@
    "views": 3016,
    "reads": 160,
    "completes": 17,
-   "sessions": 2952,
+   "sessions": 2951,
    "read_rate": 0.053,
    "complete_rate": 0.006,
    "pages_per_session": 1.02,
@@ -95,13 +89,13 @@
   },
   {
    "channel": "organic",
-   "views": 117,
-   "reads": 63,
+   "views": 115,
+   "reads": 61,
    "completes": 2,
-   "sessions": 111,
-   "read_rate": 0.538,
+   "sessions": 109,
+   "read_rate": 0.53,
    "complete_rate": 0.017,
-   "pages_per_session": 1.05,
+   "pages_per_session": 1.06,
    "median_dwell_sec": 2
   },
   {
@@ -135,17 +129,6 @@
    "read_rate": 0.2,
    "complete_rate": 0,
    "pages_per_session": 0.83,
-   "median_dwell_sec": null
-  },
-  {
-   "channel": "campaign:producthunt",
-   "views": 1,
-   "reads": 0,
-   "completes": 0,
-   "sessions": 1,
-   "read_rate": 0,
-   "complete_rate": 0,
-   "pages_per_session": 1,
    "median_dwell_sec": null
   },
   {
@@ -295,9 +278,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10624,
-   "reads": 271,
-   "sessions": 10504
+   "views": 10621,
+   "reads": 269,
+   "sessions": 10501
   },
   {
    "device": "mobile",
@@ -692,9 +675,9 @@
   },
   {
    "path": "/",
-   "views": 119,
+   "views": 118,
    "reads": 3,
-   "sessions": 124,
+   "sessions": 123,
    "avg_dwell_sec": 19
   },
   {
@@ -783,13 +766,13 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 71,
-   "sessions": 36
+   "hits": 69,
+   "sessions": 35
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 60,
-   "sessions": 31
+   "hits": 58,
+   "sessions": 30
   },
   {
    "ref": "https://www.google.com/",
