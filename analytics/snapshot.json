@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-10T10:50:00.473Z",
+ "generated": "2026-11-10T11:00:05.846Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 5,
   "avgTimeSec": 45,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 10986,
+  "views": 10977,
   "reads": 286,
   "completes": 21,
   "plays": 9,
-  "sessions": 10866
+  "sessions": 10857
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2979,
+   "views": 2971,
    "reads": 155,
-   "sessions": 2917
+   "sessions": 2909
   },
   {
    "channel": "referral",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 16,
+   "views": 15,
    "reads": 4,
-   "sessions": 15
+   "sessions": 14
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2979,
+   "views": 2971,
    "reads": 155,
    "completes": 17,
-   "sessions": 2917,
+   "sessions": 2909,
    "read_rate": 0.052,
    "complete_rate": 0.006,
    "pages_per_session": 1.02,
@@ -100,11 +100,11 @@
   },
   {
    "channel": "ai",
-   "views": 16,
+   "views": 15,
    "reads": 4,
    "completes": 0,
-   "sessions": 15,
-   "read_rate": 0.25,
+   "sessions": 14,
+   "read_rate": 0.267,
    "complete_rate": 0,
    "pages_per_session": 1.07,
    "median_dwell_sec": 4
@@ -263,13 +263,13 @@
    "sessions": 7
   },
   {
-   "assistant": "Grok",
-   "views": 2,
+   "assistant": "Yuanbao",
+   "views": 1,
    "reads": 0,
-   "sessions": 2
+   "sessions": 1
   },
   {
-   "assistant": "Yuanbao",
+   "assistant": "Grok",
    "views": 1,
    "reads": 0,
    "sessions": 1
@@ -278,9 +278,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10583,
+   "views": 10574,
    "reads": 265,
-   "sessions": 10466
+   "sessions": 10457
   },
   {
    "device": "mobile",
@@ -362,7 +362,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 22,
+   "views": 21,
    "reads": 4,
    "plays": 0
   },
