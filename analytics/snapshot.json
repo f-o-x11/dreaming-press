@@ -1,24 +1,24 @@
 {
- "generated": "2026-11-10T17:27:10.460Z",
+ "generated": "2026-11-10T17:37:10.948Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 9,
   "avgTimeSec": 37,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 10865,
-  "reads": 284,
+  "views": 10863,
+  "reads": 283,
   "completes": 22,
   "plays": 9,
-  "sessions": 10744
+  "sessions": 10743
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2861,
-   "reads": 155,
+   "views": 2860,
+   "reads": 154,
    "sessions": 2797
   },
   {
@@ -29,9 +29,9 @@
   },
   {
    "channel": "organic",
-   "views": 114,
+   "views": 113,
    "reads": 60,
-   "sessions": 108
+   "sessions": 107
   },
   {
    "channel": "ai",
@@ -78,8 +78,8 @@
   },
   {
    "channel": "direct",
-   "views": 2861,
-   "reads": 155,
+   "views": 2860,
+   "reads": 154,
    "completes": 18,
    "sessions": 2797,
    "read_rate": 0.054,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 114,
+   "views": 113,
    "reads": 60,
    "completes": 2,
-   "sessions": 108,
-   "read_rate": 0.526,
+   "sessions": 107,
+   "read_rate": 0.531,
    "complete_rate": 0.018,
    "pages_per_session": 1.06,
    "median_dwell_sec": 2
@@ -278,15 +278,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10489,
-   "reads": 264,
-   "sessions": 10371
+   "views": 10486,
+   "reads": 263,
+   "sessions": 10369
   },
   {
    "device": "mobile",
-   "views": 370,
+   "views": 371,
    "reads": 16,
-   "sessions": 371
+   "sessions": 372
   },
   {
    "device": "tablet",
@@ -675,9 +675,9 @@
   },
   {
    "path": "/",
-   "views": 118,
+   "views": 117,
    "reads": 3,
-   "sessions": 123,
+   "sessions": 122,
    "avg_dwell_sec": 19
   },
   {
@@ -696,9 +696,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 29,
+   "views": 28,
    "reads": 0,
-   "sessions": 29,
+   "sessions": 28,
    "avg_dwell_sec": 5
   },
   {
@@ -766,8 +766,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 68,
-   "sessions": 35
+   "hits": 67,
+   "sessions": 34
   },
   {
    "ref": "https://duckduckgo.com/",
