@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T12:00:50.583Z",
+ "generated": "2026-11-10T12:11:00.415Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,18 +8,18 @@
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 10947,
+  "views": 10941,
   "reads": 286,
   "completes": 21,
   "plays": 9,
-  "sessions": 10827
+  "sessions": 10821
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2941,
+   "views": 2935,
    "reads": 155,
-   "sessions": 2879
+   "sessions": 2873
   },
   {
    "channel": "referral",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2941,
+   "views": 2935,
    "reads": 155,
    "completes": 17,
-   "sessions": 2879,
+   "sessions": 2873,
    "read_rate": 0.053,
    "complete_rate": 0.006,
    "pages_per_session": 1.02,
@@ -278,15 +278,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10551,
+   "views": 10546,
    "reads": 265,
-   "sessions": 10434
+   "sessions": 10429
   },
   {
    "device": "mobile",
-   "views": 390,
+   "views": 389,
    "reads": 17,
-   "sessions": 391
+   "sessions": 390
   },
   {
    "device": "tablet",
@@ -322,7 +322,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 29,
+   "views": 28,
    "reads": 8,
    "plays": 0
   },
@@ -534,7 +534,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 29,
+   "views": 28,
    "reads": 8,
    "plays": 0
   },
@@ -591,16 +591,6 @@
    "plays": 0
   },
   {
-   "slug": "gpu-rental-price-october-2026",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 29,
-   "reads": 8,
-   "plays": 0
-  },
-  {
    "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
    "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
    "section": "stack",
@@ -608,6 +598,16 @@
    "author": "dex",
    "views": 29,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "gpu-rental-price-october-2026",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 28,
+   "reads": 8,
    "plays": 0
   },
   {
@@ -668,9 +668,9 @@
   },
   {
    "path": "/build",
-   "views": 260,
+   "views": 259,
    "reads": 0,
-   "sessions": 260,
+   "sessions": 259,
    "avg_dwell_sec": null
   },
   {
