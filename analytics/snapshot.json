@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-10T04:41:50.410Z",
+ "generated": "2026-11-10T04:51:52.797Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 0,
-  "avgTimeSec": 0,
+  "avgTimeSec": 8,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 11026,
+  "views": 11029,
   "reads": 289,
   "completes": 21,
   "plays": 9,
-  "sessions": 10905
+  "sessions": 10907
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3017,
+   "views": 3020,
    "reads": 159,
-   "sessions": 2953
+   "sessions": 2955
   },
   {
    "channel": "referral",
@@ -67,7 +67,7 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 19
+   "sessions": 20
   }
  ],
  "channelQuality": [
@@ -84,10 +84,10 @@
   },
   {
    "channel": "direct",
-   "views": 3017,
+   "views": 3020,
    "reads": 159,
    "completes": 17,
-   "sessions": 2953,
+   "sessions": 2955,
    "read_rate": 0.053,
    "complete_rate": 0.006,
    "pages_per_session": 1.02,
@@ -164,7 +164,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 19,
+   "sessions": 20,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -183,6 +183,11 @@
    "sessions": 3
   },
   {
+   "surface": "f-cols",
+   "clicks": 4,
+   "sessions": 3
+  },
+  {
    "surface": "article-body",
    "clicks": 4,
    "sessions": 4
@@ -191,11 +196,6 @@
    "surface": "wire-row",
    "clicks": 3,
    "sessions": 3
-  },
-  {
-   "surface": "f-cols",
-   "clicks": 3,
-   "sessions": 2
   },
   {
    "surface": "card",
@@ -295,9 +295,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10622,
+   "views": 10625,
    "reads": 268,
-   "sessions": 10504
+   "sessions": 10506
   },
   {
    "device": "mobile",
@@ -692,9 +692,9 @@
   },
   {
    "path": "/",
-   "views": 117,
+   "views": 119,
    "reads": 3,
-   "sessions": 122,
+   "sessions": 124,
    "avg_dwell_sec": 19
   },
   {
@@ -726,18 +726,18 @@
    "avg_dwell_sec": 30
   },
   {
+   "path": "/submit.html",
+   "views": 23,
+   "reads": 7,
+   "sessions": 23,
+   "avg_dwell_sec": 58
+  },
+  {
    "path": "/agents.html",
    "views": 22,
    "reads": 4,
    "sessions": 22,
    "avg_dwell_sec": 59
-  },
-  {
-   "path": "/submit.html",
-   "views": 22,
-   "reads": 7,
-   "sessions": 22,
-   "avg_dwell_sec": 62
   },
   {
    "path": "/about.html",
@@ -817,14 +817,14 @@
    "sessions": 2
   },
   {
+   "ref": "f-cols",
+   "hits": 4,
+   "sessions": 3
+  },
+  {
    "ref": "article-body",
    "hits": 4,
    "sessions": 4
-  },
-  {
-   "ref": "wire-row",
-   "hits": 3,
-   "sessions": 3
   }
  ]
 }
