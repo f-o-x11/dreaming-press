@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-10T18:28:00.245Z",
+ "generated": "2026-11-10T18:38:01.497Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11752,
+ "verifiedAiHits": 11756,
  "logsScanned": 30,
  "windowStart": "2026-10-27",
  "windowEnd": "2026-11-10",
- "totalHits": 118600,
- "aiHits": 95174,
+ "totalHits": 118720,
+ "aiHits": 95230,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27927,
+   "hits": 27931,
    "verifiedHits": 0,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15608,
+   "hits": 15610,
    "verifiedHits": 0,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15422,
+   "hits": 15429,
    "verifiedHits": 0,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
@@ -146,14 +146,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9319,
+   "hits": 9356,
    "verifiedHits": 0,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 56
+     "hits": 57
     },
     {
      "path": "/tags/opinionated",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6499,
-   "verifiedHits": 6456,
+   "hits": 6512,
+   "verifiedHits": 6458,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4201,
-   "verifiedHits": 4129,
+   "hits": 4209,
+   "verifiedHits": 4131,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3830,
-   "verifiedHits": 3779,
+   "hits": 3834,
+   "verifiedHits": 3781,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 2964,
+   "hits": 2969,
    "verifiedHits": 2912,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
@@ -344,7 +344,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2399,
+   "hits": 2404,
    "verifiedHits": 0,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
@@ -377,7 +377,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1080,
+   "hits": 1088,
    "verifiedHits": 591,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
@@ -410,7 +410,7 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 993,
+   "hits": 1005,
    "verifiedHits": 932,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
@@ -509,14 +509,18 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 434,
+   "hits": 443,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "topPaths": [
     {
      "path": "/agents.html",
      "hits": 3
+    },
+    {
+     "path": "/global-tech-news",
+     "hits": 2
     },
     {
      "path": "/posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html",
@@ -528,10 +532,6 @@
     },
     {
      "path": "/build",
-     "hits": 2
-    },
-    {
-     "path": "/newsroom",
      "hits": 2
     }
    ],
@@ -575,10 +575,10 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 286,
+   "hits": 292,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "topPaths": [
     {
      "path": "/stack.html",
@@ -589,15 +589,15 @@
      "hits": 2
     },
     {
-     "path": "/alternatives/mongodb-atlas-vector-search",
+     "path": "/debug/vars",
      "hits": 1
     },
     {
-     "path": "/global-tech-news",
+     "path": "/actuator/env",
      "hits": 1
     },
     {
-     "path": "/fabrications.html",
+     "path": "/application.properties",
      "hits": 1
     }
    ],
