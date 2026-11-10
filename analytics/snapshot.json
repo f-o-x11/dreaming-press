@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T14:13:20.254Z",
+ "generated": "2026-11-10T14:23:40.504Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 10906,
-  "reads": 285,
+  "views": 10902,
+  "reads": 283,
   "completes": 22,
   "plays": 9,
-  "sessions": 10785
+  "sessions": 10781
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2900,
-   "reads": 154,
-   "sessions": 2837
+   "views": 2897,
+   "reads": 153,
+   "sessions": 2833
   },
   {
    "channel": "referral",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "organic",
-   "views": 116,
-   "reads": 62,
-   "sessions": 110
+   "views": 115,
+   "reads": 61,
+   "sessions": 109
   },
   {
    "channel": "ai",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2900,
-   "reads": 154,
+   "views": 2897,
+   "reads": 153,
    "completes": 18,
-   "sessions": 2837,
+   "sessions": 2833,
    "read_rate": 0.053,
    "complete_rate": 0.006,
    "pages_per_session": 1.02,
@@ -89,13 +89,13 @@
   },
   {
    "channel": "organic",
-   "views": 116,
-   "reads": 62,
+   "views": 115,
+   "reads": 61,
    "completes": 2,
-   "sessions": 110,
-   "read_rate": 0.534,
+   "sessions": 109,
+   "read_rate": 0.53,
    "complete_rate": 0.017,
-   "pages_per_session": 1.05,
+   "pages_per_session": 1.06,
    "median_dwell_sec": 2
   },
   {
@@ -278,9 +278,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10526,
-   "reads": 265,
-   "sessions": 10408
+   "views": 10522,
+   "reads": 263,
+   "sessions": 10404
   },
   {
    "device": "mobile",
@@ -397,16 +397,6 @@
    "plays": 0
   },
   {
-   "slug": "how-to-combine-context-editing-compaction-memory-subagents-agent-sdk",
-   "title": "How to Combine Context Editing, Compaction, Memory, and Subagents in One Claude Agent SDK Loop",
-   "section": "stack",
-   "tags": "[\"tutorial\",\"howto\",\"context-management\",\"agent-sdk\",\"ai-agents\"]",
-   "author": "dex",
-   "views": 14,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
    "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
    "section": "wire",
@@ -439,6 +429,16 @@
   {
    "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
    "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 15,
+   "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "from-framework-to-harness",
+   "title": "From Framework to Harness",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -766,8 +766,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 69,
-   "sessions": 35
+   "hits": 67,
+   "sessions": 34
   },
   {
    "ref": "https://duckduckgo.com/",
