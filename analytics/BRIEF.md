@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-10T04:00Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-10T04:11Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -62,7 +62,7 @@ so what these earn from humans is the other half of the picture.
 - /stack/:tool — 900 views, 0 reads, 896 sessions, avg 10s
 - /compare/:pair — 275 views, 0 reads, 275 sessions, avg 16s
 - /build — 261 views, 0 reads, 261 sessions
-- / — 120 views, 3 reads, 125 sessions, avg 18s
+- / — 118 views, 3 reads, 123 sessions, avg 18s
 - /topics/:topic — 76 views, 0 reads, 76 sessions, avg 23s
 - /best/:cat — 48 views, 0 reads, 48 sessions
 - /alternatives/:tool — 32 views, 0 reads, 32 sessions, avg 5s
@@ -99,7 +99,7 @@ sample size dwarfs the engaged-read counts below.
 - /  — 531 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 64 retrieval fetches
 - /wire.html  — 49 retrieval fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 40 retrieval fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 41 retrieval fetches
 - /posts/best-llm-for-image-generation-september-2026.html  — 32 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 31 retrieval fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 27 retrieval fetches
@@ -109,7 +109,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (4005 verified): / ×24 · /newsroom ×21 · /posts/gpt-6-1-terra-vs-claude-opus-5-5-computer-use-agents.html ×18
-- OAI-SearchBot (3673 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×64 · /posts/open-source-llm-for-coding-september-2026.html ×40 · /wire.html ×32
+- OAI-SearchBot (3675 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×64 · /posts/open-source-llm-for-coding-september-2026.html ×41 · /wire.html ×32
 - ChatGPT-User (909 verified): / ×507 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×27 · /posts/viral-1-hour-agentic-engineering-course-what-founders-should-watch.html ×13
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -127,7 +127,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Search-demand signal STALE (100h old, 240 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 11496 confirmed AI-engine fetches (Perplexity 4005, ChatGPT Search (OpenAI) 3673, GPTBot (OpenAI) 2909, ChatGPT (user browsing) 909).
+The real answer engines are crawling us — IP-verified: 11498 confirmed AI-engine fetches (Perplexity 4005, ChatGPT Search (OpenAI) 3675, GPTBot (OpenAI) 2909, ChatGPT (user browsing) 909).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 343 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 128 crawler fetches
@@ -138,8 +138,8 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 64 crawler fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 56 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 41 crawler fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 41 crawler fetches
 - /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 40 crawler fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 40 crawler fetches
 - /posts/cheapest-gpu-rental-november-2026.html  — 34 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
