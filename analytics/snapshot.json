@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-10T16:05:20.520Z",
+ "generated": "2026-11-10T16:15:40.539Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 9,
   "avgTimeSec": 37,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 10882,
+  "views": 10881,
   "reads": 284,
   "completes": 22,
   "plays": 9,
-  "sessions": 10761
+  "sessions": 10760
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2878,
+   "views": 2877,
    "reads": 155,
-   "sessions": 2814
+   "sessions": 2813
   },
   {
    "channel": "referral",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2878,
+   "views": 2877,
    "reads": 155,
    "completes": 18,
-   "sessions": 2814,
+   "sessions": 2813,
    "read_rate": 0.054,
    "complete_rate": 0.006,
    "pages_per_session": 1.02,
@@ -278,9 +278,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10503,
+   "views": 10502,
    "reads": 264,
-   "sessions": 10385
+   "sessions": 10384
   },
   {
    "device": "mobile",
@@ -332,7 +332,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 25,
+   "views": 24,
    "reads": 7,
    "plays": 0
   },
@@ -544,7 +544,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 25,
+   "views": 24,
    "reads": 7,
    "plays": 0
   }
@@ -621,16 +621,6 @@
    "plays": 0
   },
   {
-   "slug": "gpu-rental-price-october-2026",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 25,
-   "reads": 7,
-   "plays": 0
-  },
-  {
    "slug": "2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4",
    "title": "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model",
    "section": "wire",
@@ -644,6 +634,16 @@
    "slug": "agno-vs-langgraph-vs-crewai",
    "title": "Agno vs LangGraph vs CrewAI: Choosing an Agent Framework in 2026",
    "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 25,
+   "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "crewai-flows-vs-crews",
+   "title": "CrewAI Flows vs Crews: When to Let Agents Decide and When to Script Them",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 25,
