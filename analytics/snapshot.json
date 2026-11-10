@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-10T13:53:10.594Z",
+ "generated": "2026-11-10T14:03:10.915Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 6,
   "avgTimeSec": 45,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 10910,
+  "views": 10907,
   "reads": 285,
   "completes": 22,
   "plays": 9,
-  "sessions": 10789
+  "sessions": 10786
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2904,
+   "views": 2901,
    "reads": 154,
-   "sessions": 2841
+   "sessions": 2838
   },
   {
    "channel": "referral",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2904,
+   "views": 2901,
    "reads": 154,
    "completes": 18,
-   "sessions": 2841,
+   "sessions": 2838,
    "read_rate": 0.053,
    "complete_rate": 0.006,
    "pages_per_session": 1.02,
@@ -278,9 +278,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10530,
+   "views": 10527,
    "reads": 265,
-   "sessions": 10412
+   "sessions": 10409
   },
   {
    "device": "mobile",
@@ -372,7 +372,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 29,
+   "views": 28,
    "reads": 3,
    "plays": 0
   },
@@ -581,16 +581,6 @@
    "plays": 1
   },
   {
-   "slug": "best-llm-for-creative-writing-october-2026",
-   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 29,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
    "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
    "section": "stack",
@@ -598,6 +588,16 @@
    "author": "dex",
    "views": 29,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "best-llm-for-creative-writing-october-2026",
+   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 28,
+   "reads": 3,
    "plays": 0
   },
   {
