@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-10T04:51:52.797Z",
+ "generated": "2026-11-10T05:02:00.521Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
-  "todayReads": 0,
-  "avgTimeSec": 8,
+  "todayReads": 1,
+  "avgTimeSec": 66,
   "postsThisWeek": 7
  },
  "funnel": {
   "views": 11029,
-  "reads": 289,
+  "reads": 290,
   "completes": 21,
   "plays": 9,
   "sessions": 10907
@@ -17,7 +17,7 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3020,
+   "views": 3019,
    "reads": 159,
    "sessions": 2955
   },
@@ -29,9 +29,9 @@
   },
   {
    "channel": "organic",
-   "views": 115,
-   "reads": 61,
-   "sessions": 109
+   "views": 116,
+   "reads": 62,
+   "sessions": 110
   },
   {
    "channel": "ai",
@@ -84,7 +84,7 @@
   },
   {
    "channel": "direct",
-   "views": 3020,
+   "views": 3019,
    "reads": 159,
    "completes": 17,
    "sessions": 2955,
@@ -95,13 +95,13 @@
   },
   {
    "channel": "organic",
-   "views": 115,
-   "reads": 61,
+   "views": 116,
+   "reads": 62,
    "completes": 2,
-   "sessions": 109,
-   "read_rate": 0.53,
+   "sessions": 110,
+   "read_rate": 0.534,
    "complete_rate": 0.017,
-   "pages_per_session": 1.06,
+   "pages_per_session": 1.05,
    "median_dwell_sec": 2
   },
   {
@@ -296,7 +296,7 @@
   {
    "device": "desktop",
    "views": 10625,
-   "reads": 268,
+   "reads": 269,
    "sessions": 10506
   },
   {
@@ -414,6 +414,16 @@
    "plays": 0
   },
   {
+   "slug": "vllm-rust-frontend",
+   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 15,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "how-to-combine-context-editing-compaction-memory-subagents-agent-sdk",
    "title": "How to Combine Context Editing, Compaction, Memory, and Subagents in One Claude Agent SDK Loop",
    "section": "stack",
@@ -450,16 +460,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 21,
-   "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "deepseek-chat-reasoner-retire-july-24-migrate-api",
-   "title": "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 16,
    "reads": 2,
    "plays": 0
   }
@@ -783,8 +783,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 69,
-   "sessions": 35
+   "hits": 71,
+   "sessions": 36
   },
   {
    "ref": "https://duckduckgo.com/",
