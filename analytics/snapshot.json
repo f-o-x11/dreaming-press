@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T06:54:30.401Z",
+ "generated": "2026-11-10T07:04:50.355Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 11005,
-  "reads": 290,
+  "views": 10997,
+  "reads": 287,
   "completes": 21,
   "plays": 9,
-  "sessions": 10882
+  "sessions": 10876
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2997,
-   "reads": 160,
-   "sessions": 2932
+   "views": 2989,
+   "reads": 157,
+   "sessions": 2926
   },
   {
    "channel": "referral",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2997,
-   "reads": 160,
+   "views": 2989,
+   "reads": 157,
    "completes": 17,
-   "sessions": 2932,
+   "sessions": 2926,
    "read_rate": 0.053,
    "complete_rate": 0.006,
    "pages_per_session": 1.02,
@@ -278,15 +278,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10602,
-   "reads": 269,
-   "sessions": 10482
+   "views": 10596,
+   "reads": 266,
+   "sessions": 10478
   },
   {
    "device": "mobile",
-   "views": 397,
+   "views": 395,
    "reads": 17,
-   "sessions": 398
+   "sessions": 396
   },
   {
    "device": "tablet",
@@ -347,16 +347,6 @@
    "plays": 1
   },
   {
-   "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
-   "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 14,
-   "reads": 6,
-   "plays": 0
-  },
-  {
    "slug": "mcp-tool-annotations-explained",
    "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
    "section": "wire",
@@ -373,6 +363,16 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 22,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
+   "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 10,
    "reads": 4,
    "plays": 0
   },
