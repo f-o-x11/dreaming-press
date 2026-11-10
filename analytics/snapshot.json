@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-10T23:44:00.611Z",
+ "generated": "2026-11-10T23:54:01.589Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 14,
-  "avgTimeSec": 37,
+  "readersNow": 6,
+  "todayReads": 17,
+  "avgTimeSec": 80,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 10852,
-  "reads": 285,
+  "views": 10858,
+  "reads": 288,
   "completes": 22,
   "plays": 9,
-  "sessions": 10732
+  "sessions": 10734
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2849,
-   "reads": 157,
-   "sessions": 2786
+   "views": 2853,
+   "reads": 159,
+   "sessions": 2788
   },
   {
    "channel": "referral",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "organic",
-   "views": 113,
-   "reads": 59,
-   "sessions": 107
+   "views": 115,
+   "reads": 60,
+   "sessions": 108
   },
   {
    "channel": "ai",
@@ -61,7 +61,7 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 20
+   "sessions": 21
   }
  ],
  "channelQuality": [
@@ -78,23 +78,23 @@
   },
   {
    "channel": "direct",
-   "views": 2849,
-   "reads": 157,
+   "views": 2853,
+   "reads": 159,
    "completes": 18,
-   "sessions": 2786,
-   "read_rate": 0.055,
+   "sessions": 2788,
+   "read_rate": 0.056,
    "complete_rate": 0.006,
    "pages_per_session": 1.02,
    "median_dwell_sec": 11
   },
   {
    "channel": "organic",
-   "views": 113,
-   "reads": 59,
+   "views": 115,
+   "reads": 60,
    "completes": 2,
-   "sessions": 107,
+   "sessions": 108,
    "read_rate": 0.522,
-   "complete_rate": 0.018,
+   "complete_rate": 0.017,
    "pages_per_session": 1.06,
    "median_dwell_sec": 2
   },
@@ -147,7 +147,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 20,
+   "sessions": 21,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -186,17 +186,22 @@
    "sessions": 3
   },
   {
+   "surface": "brand",
+   "clicks": 3,
+   "sessions": 3
+  },
+  {
    "surface": "breadcrumb",
    "clicks": 2,
    "sessions": 2
   },
   {
-   "surface": "brand",
-   "clicks": 2,
-   "sessions": 2
+   "surface": "wrap",
+   "clicks": 1,
+   "sessions": 1
   },
   {
-   "surface": "wrap",
+   "surface": "un-body",
    "clicks": 1,
    "sessions": 1
   },
@@ -222,11 +227,6 @@
   },
   {
    "surface": "dg-lead-img",
-   "clicks": 1,
-   "sessions": 1
-  },
-  {
-   "surface": "desk-mostread",
    "clicks": 1,
    "sessions": 1
   }
@@ -278,15 +278,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10476,
-   "reads": 263,
+   "views": 10480,
+   "reads": 265,
    "sessions": 10359
   },
   {
    "device": "mobile",
-   "views": 370,
-   "reads": 18,
-   "sessions": 371
+   "views": 372,
+   "reads": 19,
+   "sessions": 373
   },
   {
    "device": "tablet",
@@ -342,7 +342,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 46,
+   "views": 47,
    "reads": 5,
    "plays": 1
   },
@@ -417,6 +417,16 @@
    "plays": 0
   },
   {
+   "slug": "tool-highlight-qoder-security-in-session-code-security",
+   "title": "Tool Highlight: Qoder Security Puts Three Security Layers Inside the AI Coding Session",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 4,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "deepseek-chat-reasoner-retire-july-24-migrate-api",
    "title": "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today",
    "section": "stack",
@@ -432,16 +442,6 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 15,
-   "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b",
-   "title": "The Founder's Wire, November 3: Your Software Moves Inside ChatGPT, Google Turns AI Search Into an Ad Network, and Anthropic's $895B Compute Bill",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
    "views": 15,
    "reads": 2,
    "plays": 0
@@ -474,7 +474,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 46,
+   "views": 47,
    "reads": 5,
    "plays": 1
   },
@@ -576,7 +576,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 46,
+   "views": 47,
    "reads": 5,
    "plays": 1
   },
@@ -675,9 +675,9 @@
   },
   {
    "path": "/",
-   "views": 118,
+   "views": 119,
    "reads": 3,
-   "sessions": 123,
+   "sessions": 124,
    "avg_dwell_sec": 19
   },
   {
@@ -766,13 +766,13 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 65,
+   "hits": 66,
    "sessions": 33
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 59,
-   "sessions": 30
+   "hits": 61,
+   "sessions": 31
   },
   {
    "ref": "https://www.google.com/",
