@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-10T14:54:00.194Z",
+ "generated": "2026-11-10T15:04:20.312Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11701,
+ "verifiedAiHits": 11704,
  "logsScanned": 30,
  "windowStart": "2026-10-27",
  "windowEnd": "2026-11-10",
- "totalHits": 117447,
- "aiHits": 94277,
+ "totalHits": 117511,
+ "aiHits": 94333,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27654,
+   "hits": 27670,
    "verifiedHits": 0,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15445,
+   "hits": 15475,
    "verifiedHits": 0,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
@@ -94,16 +94,16 @@
      "hits": 14
     },
     {
+     "path": "/tags/howto",
+     "hits": 9
+    },
+    {
      "path": "/dashboard",
      "hits": 9
     },
     {
      "path": "/apps",
      "hits": 9
-    },
-    {
-     "path": "/tags/howto",
-     "hits": 8
     }
    ],
    "verifiable": false
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15270,
+   "hits": 15277,
    "verifiedHits": 0,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9173,
+   "hits": 9179,
    "verifiedHits": 0,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6429,
-   "verifiedHits": 6386,
+   "hits": 6431,
+   "verifiedHits": 6388,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4178,
-   "verifiedHits": 4106,
+   "hits": 4180,
+   "verifiedHits": 4108,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
    "topPaths": [
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 985,
-   "verifiedHits": 924,
+   "hits": 986,
+   "verifiedHits": 925,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
    "topPaths": [
     {
      "path": "/",
-     "hits": 517
+     "hits": 518
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
