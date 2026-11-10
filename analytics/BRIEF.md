@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-10T19:59Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-10T20:09Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -7,7 +7,7 @@ The mission is visitors + time-on-site: make MORE of what already earns reads an
 - Channels: direct 155r/2850v · referral 63r/7860v · organic 59r/113v · ai 4r/15v · campaign:chatgpt.com 1r/9v · campaign:openai 1r/5v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 2r/12v · Le Chat 1r/1v · Perplexity 1r/1v · Doubao 1r/1v · Kimi 0r/7v · Yuanbao 0r/1v · Grok 0r/1v.
 - Referrers: aocr.org, bing.com, duckduckgo.com, google.com, nav-cmp, cn.bing.com, feature, search.brave.com, f-cols, article-body.
-- Engaged-read winners by section: wire=6, stack=9.
+- Engaged-read winners by section: wire=7, stack=8.
 
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
 - nav-cmp: 19 clicks from 7 sessions
@@ -96,7 +96,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 549 retrieval fetches
+- /  — 550 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 66 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 42 retrieval fetches
 - /wire.html  — 34 retrieval fetches
@@ -104,13 +104,13 @@ sample size dwarfs the engaged-read counts below.
 - /posts/best-open-source-vector-database-2026.html  — 32 retrieval fetches
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 27 retrieval fetches
 - /newsroom  — 21 retrieval fetches
-- /posts/gpt-6-1-terra-vs-claude-opus-5-5-computer-use-agents.html  — 18 retrieval fetches
+- /posts/gpt-6-1-terra-vs-claude-opus-5-5-computer-use-agents.html  — 19 retrieval fetches
 - /dashboard  — 17 retrieval fetches
 
 Per engine:
-- PerplexityBot (4137 verified): / ×26 · /newsroom ×21 · /posts/gpt-6-1-terra-vs-claude-opus-5-5-computer-use-agents.html ×18
-- OAI-SearchBot (3804 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×66 · /posts/open-source-llm-for-coding-september-2026.html ×42 · /wire.html ×34
-- ChatGPT-User (934 verified): / ×523 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×27 · /posts/viral-1-hour-agentic-engineering-course-what-founders-should-watch.html ×13
+- PerplexityBot (4142 verified): / ×26 · /newsroom ×21 · /posts/gpt-6-1-terra-vs-claude-opus-5-5-computer-use-agents.html ×19
+- OAI-SearchBot (3805 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×66 · /posts/open-source-llm-for-coding-september-2026.html ×42 · /wire.html ×34
+- ChatGPT-User (935 verified): / ×524 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×27 · /posts/viral-1-hour-agentic-engineering-course-what-founders-should-watch.html ×13
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -127,9 +127,9 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Search-demand signal STALE (116h old, 240 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 11788 confirmed AI-engine fetches (Perplexity 4137, ChatGPT Search (OpenAI) 3804, GPTBot (OpenAI) 2913, ChatGPT (user browsing) 934).
+The real answer engines are crawling us — IP-verified: 11795 confirmed AI-engine fetches (Perplexity 4142, ChatGPT Search (OpenAI) 3805, GPTBot (OpenAI) 2913, ChatGPT (user browsing) 935).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 369 crawler fetches
+- /build  — 370 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 134 crawler fetches
 - /posts/gpu-rental-price-october-2026.html  — 108 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 97 crawler fetches
