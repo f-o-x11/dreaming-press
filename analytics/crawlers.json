@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-10T00:47:50.201Z",
+ "generated": "2026-11-10T00:58:00.124Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 11224,
  "logsScanned": 30,
  "windowStart": "2026-10-27",
  "windowEnd": "2026-11-10",
- "totalHits": 113253,
- "aiHits": 90832,
+ "totalHits": 113302,
+ "aiHits": 90873,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 26313,
+   "hits": 26337,
    "verifiedHits": 0,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
@@ -47,10 +47,10 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 19701,
+   "hits": 19703,
    "verifiedHits": 0,
    "firstSeen": "2026-10-27",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-10",
    "topPaths": [
     {
      "path": "/tags/opinionated",
@@ -65,11 +65,11 @@
      "hits": 5
     },
     {
-     "path": "/build",
+     "path": "/posts/2026-06-22-bentoml-vs-ray-serve-vs-kserve.html",
      "hits": 3
     },
     {
-     "path": "/posts/deep-agents-v0-7-cut-input-tokens-65-percent-tool-schema-prose.html",
+     "path": "/build",
      "hits": 3
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14631,
+   "hits": 14638,
    "verifiedHits": 0,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
@@ -99,7 +99,7 @@
     },
     {
      "path": "/tags/opinionated",
-     "hits": 34
+     "hits": 35
     },
     {
      "path": "/stack.html",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14506,
+   "hits": 14514,
    "verifiedHits": 0,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8926,
+   "hits": 8927,
    "verifiedHits": 0,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6220,
-   "verifiedHits": 6177,
+   "hits": 6227,
+   "verifiedHits": 6184,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
    "topPaths": [
