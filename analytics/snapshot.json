@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-10T19:08:50.710Z",
+ "generated": "2026-11-10T19:19:00.921Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,18 +8,18 @@
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 10858,
+  "views": 10856,
   "reads": 282,
   "completes": 22,
   "plays": 9,
-  "sessions": 10738
+  "sessions": 10736
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2855,
+   "views": 2853,
    "reads": 154,
-   "sessions": 2792
+   "sessions": 2790
   },
   {
    "channel": "referral",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2855,
+   "views": 2853,
    "reads": 154,
    "completes": 18,
-   "sessions": 2792,
+   "sessions": 2790,
    "read_rate": 0.054,
    "complete_rate": 0.006,
    "pages_per_session": 1.02,
@@ -278,9 +278,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10478,
+   "views": 10476,
    "reads": 261,
-   "sessions": 10361
+   "sessions": 10359
   },
   {
    "device": "mobile",
@@ -631,16 +631,6 @@
    "plays": 0
   },
   {
-   "slug": "agno-vs-langgraph-vs-crewai",
-   "title": "Agno vs LangGraph vs CrewAI: Choosing an Agent Framework in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 25,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "crewai-flows-vs-crews",
    "title": "CrewAI Flows vs Crews: When to Let Agents Decide and When to Script Them",
    "section": "wire",
@@ -648,6 +638,16 @@
    "author": "dex",
    "views": 25,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "gpu-rental-price-october-2026",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 24,
+   "reads": 7,
    "plays": 0
   }
  ],
