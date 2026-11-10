@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-10T07:55:30.070Z",
+ "generated": "2026-11-10T08:05:50.270Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11571,
+ "verifiedAiHits": 11574,
  "logsScanned": 30,
  "windowStart": "2026-10-27",
  "windowEnd": "2026-11-10",
- "totalHits": 115376,
- "aiHits": 92621,
+ "totalHits": 115471,
+ "aiHits": 92695,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 26959,
+   "hits": 26964,
    "verifiedHits": 0,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
@@ -76,44 +76,11 @@
    "verifiable": false
   },
   {
-   "name": "PetalBot",
-   "label": "Petal / Huawei",
-   "category": "ai",
-   "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14965,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-27",
-   "lastSeen": "2026-11-10",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 103
-    },
-    {
-     "path": "/wire.html",
-     "hits": 42
-    },
-    {
-     "path": "/tags/reportive",
-     "hits": 39
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 38
-    },
-    {
-     "path": "/stack.html",
-     "hits": 16
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Amazonbot",
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14950,
+   "hits": 15009,
    "verifiedHits": 0,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
@@ -142,11 +109,44 @@
    "verifiable": false
   },
   {
+   "name": "PetalBot",
+   "label": "Petal / Huawei",
+   "category": "ai",
+   "home": "https://webmaster.petalsearch.com/site/petalbot",
+   "hits": 14972,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-27",
+   "lastSeen": "2026-11-10",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 103
+    },
+    {
+     "path": "/wire.html",
+     "hits": 42
+    },
+    {
+     "path": "/tags/reportive",
+     "hits": 39
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 38
+    },
+    {
+     "path": "/stack.html",
+     "hits": 16
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Baiduspider",
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9032,
+   "hits": 9037,
    "verifiedHits": 0,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6318,
-   "verifiedHits": 6275,
+   "hits": 6325,
+   "verifiedHits": 6282,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5094,
+   "hits": 5102,
    "verifiedHits": 0,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3752,
-   "verifiedHits": 3701,
+   "hits": 3755,
+   "verifiedHits": 3704,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 928,
+   "hits": 929,
    "verifiedHits": 0,
    "firstSeen": "2026-10-27",
    "lastSeen": "2026-11-10",
