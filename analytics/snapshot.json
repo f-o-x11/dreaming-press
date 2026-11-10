@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-10T07:45:10.520Z",
+ "generated": "2026-11-10T07:55:30.344Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 3,
   "avgTimeSec": 66,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 10994,
-  "reads": 287,
+  "views": 10988,
+  "reads": 285,
   "completes": 21,
   "plays": 9,
-  "sessions": 10873
+  "sessions": 10869
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2986,
-   "reads": 157,
-   "sessions": 2923
+   "views": 2980,
+   "reads": 155,
+   "sessions": 2919
   },
   {
    "channel": "referral",
@@ -78,11 +78,11 @@
   },
   {
    "channel": "direct",
-   "views": 2986,
-   "reads": 157,
+   "views": 2980,
+   "reads": 155,
    "completes": 17,
-   "sessions": 2923,
-   "read_rate": 0.053,
+   "sessions": 2919,
+   "read_rate": 0.052,
    "complete_rate": 0.006,
    "pages_per_session": 1.02,
    "median_dwell_sec": 10
@@ -278,9 +278,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10593,
-   "reads": 266,
-   "sessions": 10475
+   "views": 10587,
+   "reads": 264,
+   "sessions": 10471
   },
   {
    "device": "mobile",
@@ -367,16 +367,6 @@
    "plays": 0
   },
   {
-   "slug": "usage-based-billing-metronome-vs-orb-vs-lago",
-   "title": "Usage-Based Billing for AI Products: Metronome vs Orb vs Lago (2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 9,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "best-llm-for-creative-writing-october-2026",
    "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
    "section": "stack",
@@ -443,6 +433,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 21,
+   "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "deepseek-chat-reasoner-retire-july-24-migrate-api",
+   "title": "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 16,
    "reads": 2,
    "plays": 0
   }
