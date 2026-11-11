@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-11T09:45:59.949Z",
+ "generated": "2026-11-11T09:56:20.276Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10955,
+ "verifiedAiHits": 10959,
  "logsScanned": 30,
  "windowStart": "2026-10-28",
  "windowEnd": "2026-11-11",
- "totalHits": 115283,
- "aiHits": 92156,
+ "totalHits": 115321,
+ "aiHits": 92187,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 26658,
+   "hits": 26676,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15397,
+   "hits": 15399,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15016,
+   "hits": 15023,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9428,
+   "hits": 9431,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6274,
-   "verifiedHits": 6220,
+   "hits": 6276,
+   "verifiedHits": 6222,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3300,
-   "verifiedHits": 3247,
+   "hits": 3304,
+   "verifiedHits": 3251,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
    "topPaths": [
@@ -292,15 +292,15 @@
      "hits": 36
     },
     {
+     "path": "/posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html",
+     "hits": 30
+    },
+    {
      "path": "/posts/best-open-vision-language-model-for-agents.html",
      "hits": 29
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 29
-    },
-    {
-     "path": "/posts/best-open-source-vector-database-2026.html",
      "hits": 29
     }
    ],
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 935,
+   "hits": 937,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
