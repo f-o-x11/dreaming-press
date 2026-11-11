@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-11T00:24:49.945Z",
+ "generated": "2026-11-11T00:34:59.857Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10810,
+ "verifiedAiHits": 10812,
  "logsScanned": 30,
  "windowStart": "2026-10-28",
  "windowEnd": "2026-11-11",
- "totalHits": 112738,
- "aiHits": 90302,
+ "totalHits": 112773,
+ "aiHits": 90322,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 25723,
+   "hits": 25728,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -47,14 +47,18 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 19500,
+   "hits": 19501,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
-   "lastSeen": "2026-11-10",
+   "lastSeen": "2026-11-11",
    "topPaths": [
     {
      "path": "/dashboard",
      "hits": 5
+    },
+    {
+     "path": "/build",
+     "hits": 3
     },
     {
      "path": "/posts/2026-06-22-bentoml-vs-ray-serve-vs-kserve.html",
@@ -67,10 +71,6 @@
     {
      "path": "/posts/2026-06-21-firecrawl-vs-crawl4ai-vs-jina-reader.html",
      "hits": 3
-    },
-    {
-     "path": "/posts/tool-highlight-payman-let-an-agent-pay-with-guardrails.html",
-     "hits": 3
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15075,
+   "hits": 15078,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14610,
+   "hits": 14619,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9086,
+   "hits": 9100,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -168,7 +168,7 @@
      "hits": 6
     },
     {
-     "path": "/tags/reportive",
+     "path": "/wire.html",
      "hits": 5
     }
    ],
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6092,
-   "verifiedHits": 6038,
+   "hits": 6093,
+   "verifiedHits": 6039,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3244,
-   "verifiedHits": 3191,
+   "hits": 3246,
+   "verifiedHits": 3193,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
    "topPaths": [
@@ -293,7 +293,7 @@
     },
     {
      "path": "/posts/best-open-vision-language-model-for-agents.html",
-     "hits": 28
+     "hits": 29
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
