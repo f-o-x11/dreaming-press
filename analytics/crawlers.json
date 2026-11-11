@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-11T03:07:54.495Z",
+ "generated": "2026-11-11T03:17:59.807Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10846,
+ "verifiedAiHits": 10849,
  "logsScanned": 30,
  "windowStart": "2026-10-28",
  "windowEnd": "2026-11-11",
- "totalHits": 113475,
- "aiHits": 90811,
+ "totalHits": 113537,
+ "aiHits": 90863,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 25982,
+   "hits": 26009,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15156,
+   "hits": 15170,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14727,
+   "hits": 14734,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9200,
+   "hits": 9205,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6129,
-   "verifiedHits": 6075,
+   "hits": 6131,
+   "verifiedHits": 6077,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4038,
-   "verifiedHits": 3960,
+   "hits": 4040,
+   "verifiedHits": 3962,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
    "topPaths": [
@@ -263,12 +263,12 @@
      "hits": 18
     },
     {
-     "path": "/posts/gpt-6-1-terra-vs-claude-opus-5-5-computer-use-agents.html",
+     "path": "/wire.html",
      "hits": 17
     },
     {
-     "path": "/posts/how-to-opt-out-ai-training-shared-token-robots-txt.html",
-     "hits": 16
+     "path": "/posts/gpt-6-1-terra-vs-claude-opus-5-5-computer-use-agents.html",
+     "hits": 17
     }
    ],
    "verifiable": true
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3259,
-   "verifiedHits": 3206,
+   "hits": 3260,
+   "verifiedHits": 3207,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2276,
+   "hits": 2277,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -377,8 +377,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1068,
-   "verifiedHits": 572,
+   "hits": 1070,
+   "verifiedHits": 574,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 913,
+   "hits": 914,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
