@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-11T15:15Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-11T15:25Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 10830 views → 299 engaged reads → 25 completes · 10681 sessions.
-- Channels: direct 171r/2934v · referral 64r/7762v · organic 58r/104v · ai 4r/15v · campaign:chatgpt.com 1r/10v · campaign:openai 1r/5v · internal-nav 0r/0v.
+- Funnel: 10817 views → 298 engaged reads → 25 completes · 10668 sessions.
+- Channels: direct 170r/2933v · referral 64r/7750v · organic 58r/104v · ai 4r/15v · campaign:chatgpt.com 1r/10v · campaign:openai 1r/5v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 2r/13v · Le Chat 1r/1v · Perplexity 1r/1v · Doubao 1r/1v · Kimi 0r/7v · Yuanbao 0r/1v · Grok 0r/1v.
 - Referrers: aocr.org, bing.com, duckduckgo.com, nav-cmp, google.com, feature, cn.bing.com, f-cols, wire-row, search.brave.com.
 - Engaged-read winners by section: wire=8, stack=7.
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- referral: 7762 views · read 0.8% · complete 0.0% · 1 pages/session · median ?s
-- direct: 2934 views · read 5.8% · complete 0.7% · 1.03 pages/session · median 11s
+- referral: 7750 views · read 0.8% · complete 0.0% · 1 pages/session · median ?s
+- direct: 2933 views · read 5.8% · complete 0.7% · 1.03 pages/session · median 11s
 - organic: 104 views · read 55.8% · complete 1.9% · 1.08 pages/session · median 2s
 - ai: 15 views · read 26.7% · complete 0.0% · 1.07 pages/session · median 4s
 - campaign:chatgpt.com: 10 views · read 10.0% · complete 0.0% · 1.67 pages/session · median ?s
@@ -41,10 +41,10 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 8 reads, 25 views, 0 listens
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 5 reads, 12 views, 0 listens
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 4 reads, 22 views, 0 listens
-- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 3 reads, 37 views, 0 listens
 - [wire] "The Founder's Wire, November 5: Coding Agents Get Cheaper, Agent Security Gets Bought, and AMD Bets $11B on Cheaper Inference" — 3 reads, 20 views, 0 listens
 - [wire] "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo" — 3 reads, 15 views, 0 listens
 - [wire] "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck" — 3 reads, 15 views, 0 listens
+- [stack] "How to Run a Local Agent Backend on LM Studio's OpenAI-Compatible Server" — 3 reads, 12 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 2 listens, 32 reads
@@ -73,7 +73,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 64 views, 8 reads
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 63 views, 32 reads
-- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 37 views, 3 reads
+- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 36 views, 2 reads
 - [stack] "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM" — 28 views, 0 reads
 - [stack] "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026" — 26 views, 1 reads
 - [wire] "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp" — 26 views, 1 reads
@@ -124,7 +124,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Uncovered search demand (239 of 449 phrases have NO post, 3h ago)
+## Uncovered search demand (239 of 449 phrases have NO post, 4h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.

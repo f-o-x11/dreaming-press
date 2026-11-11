@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T15:15:10.381Z",
+ "generated": "2026-11-11T15:25:18.245Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,24 +8,24 @@
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10830,
-  "reads": 299,
+  "views": 10817,
+  "reads": 298,
   "completes": 25,
   "plays": 10,
-  "sessions": 10681
+  "sessions": 10668
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2934,
-   "reads": 171,
-   "sessions": 2842
+   "views": 2933,
+   "reads": 170,
+   "sessions": 2841
   },
   {
    "channel": "referral",
-   "views": 7762,
+   "views": 7750,
    "reads": 64,
-   "sessions": 7764
+   "sessions": 7752
   },
   {
    "channel": "organic",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7762,
+   "views": 7750,
    "reads": 64,
    "completes": 0,
-   "sessions": 7764,
+   "sessions": 7752,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -72,10 +72,10 @@
   },
   {
    "channel": "direct",
-   "views": 2934,
-   "reads": 171,
+   "views": 2933,
+   "reads": 170,
    "completes": 21,
-   "sessions": 2842,
+   "sessions": 2841,
    "read_rate": 0.058,
    "complete_rate": 0.007,
    "pages_per_session": 1.03,
@@ -261,15 +261,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10446,
+   "views": 10434,
    "reads": 277,
-   "sessions": 10299
+   "sessions": 10287
   },
   {
    "device": "mobile",
-   "views": 378,
-   "reads": 18,
-   "sessions": 380
+   "views": 377,
+   "reads": 17,
+   "sessions": 379
   },
   {
    "device": "tablet",
@@ -340,16 +340,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-whats-changed-fall-2026",
-   "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 37,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
    "title": "The Founder's Wire, November 5: Coding Agents Get Cheaper, Agent Security Gets Bought, and AMD Bets $11B on Cheaper Inference",
    "section": "wire",
@@ -407,6 +397,16 @@
    "author": "priya",
    "views": 4,
    "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-whats-changed-fall-2026",
+   "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 36,
+   "reads": 2,
    "plays": 0
   },
   {
@@ -559,8 +559,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 37,
-   "reads": 3,
+   "views": 36,
+   "reads": 2,
    "plays": 0
   },
   {
@@ -744,8 +744,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7813,
-   "sessions": 7754
+   "hits": 7801,
+   "sessions": 7742
   },
   {
    "ref": "https://www.bing.com/",
