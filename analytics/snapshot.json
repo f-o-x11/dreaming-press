@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T23:03:20.431Z",
+ "generated": "2026-11-11T23:13:40.263Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,30 +8,30 @@
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10476,
-  "reads": 300,
+  "views": 10448,
+  "reads": 299,
   "completes": 25,
   "plays": 11,
-  "sessions": 10321
+  "sessions": 10293
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2934,
+   "views": 2930,
    "reads": 174,
-   "sessions": 2835
+   "sessions": 2830
   },
   {
    "channel": "referral",
-   "views": 7410,
+   "views": 7387,
    "reads": 64,
-   "sessions": 7412
+   "sessions": 7389
   },
   {
    "channel": "organic",
-   "views": 102,
-   "reads": 56,
-   "sessions": 94
+   "views": 101,
+   "reads": 55,
+   "sessions": 93
   },
   {
    "channel": "ai",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7410,
+   "views": 7387,
    "reads": 64,
    "completes": 0,
-   "sessions": 7412,
+   "sessions": 7389,
    "read_rate": 0.009,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -72,22 +72,22 @@
   },
   {
    "channel": "direct",
-   "views": 2934,
+   "views": 2930,
    "reads": 174,
    "completes": 21,
-   "sessions": 2835,
+   "sessions": 2830,
    "read_rate": 0.059,
    "complete_rate": 0.007,
-   "pages_per_session": 1.03,
+   "pages_per_session": 1.04,
    "median_dwell_sec": 11
   },
   {
    "channel": "organic",
-   "views": 102,
-   "reads": 56,
+   "views": 101,
+   "reads": 55,
    "completes": 2,
-   "sessions": 94,
-   "read_rate": 0.549,
+   "sessions": 93,
+   "read_rate": 0.545,
    "complete_rate": 0.02,
    "pages_per_session": 1.09,
    "median_dwell_sec": 2
@@ -261,15 +261,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10090,
+   "views": 10064,
    "reads": 279,
-   "sessions": 9936
+   "sessions": 9910
   },
   {
    "device": "mobile",
-   "views": 379,
-   "reads": 17,
-   "sessions": 382
+   "views": 377,
+   "reads": 16,
+   "sessions": 380
   },
   {
    "device": "tablet",
@@ -315,7 +315,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 25,
+   "views": 23,
    "reads": 8,
    "plays": 0
   },
@@ -584,16 +584,6 @@
    "plays": 0
   },
   {
-   "slug": "gpu-rental-price-october-2026",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 25,
-   "reads": 8,
-   "plays": 0
-  },
-  {
    "slug": "2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4",
    "title": "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model",
    "section": "wire",
@@ -631,6 +621,16 @@
    "author": "dex",
    "views": 24,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "gpu-rental-price-october-2026",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 23,
+   "reads": 8,
    "plays": 0
   }
  ],
@@ -744,13 +744,13 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7460,
-   "sessions": 7401
+   "hits": 7437,
+   "sessions": 7378
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 64,
-   "sessions": 31
+   "hits": 62,
+   "sessions": 30
   },
   {
    "ref": "https://duckduckgo.com/",
