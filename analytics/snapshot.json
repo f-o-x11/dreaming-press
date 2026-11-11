@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T15:25:18.245Z",
+ "generated": "2026-11-11T15:35:40.371Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,11 +8,11 @@
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10817,
-  "reads": 298,
+  "views": 10806,
+  "reads": 297,
   "completes": 25,
   "plays": 10,
-  "sessions": 10668
+  "sessions": 10658
  },
  "channels": [
   {
@@ -23,15 +23,15 @@
   },
   {
    "channel": "referral",
-   "views": 7750,
+   "views": 7740,
    "reads": 64,
-   "sessions": 7752
+   "sessions": 7742
   },
   {
    "channel": "organic",
-   "views": 104,
-   "reads": 58,
-   "sessions": 96
+   "views": 103,
+   "reads": 57,
+   "sessions": 95
   },
   {
    "channel": "ai",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7750,
+   "views": 7740,
    "reads": 64,
    "completes": 0,
-   "sessions": 7752,
+   "sessions": 7742,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -83,11 +83,11 @@
   },
   {
    "channel": "organic",
-   "views": 104,
-   "reads": 58,
+   "views": 103,
+   "reads": 57,
    "completes": 2,
-   "sessions": 96,
-   "read_rate": 0.558,
+   "sessions": 95,
+   "read_rate": 0.553,
    "complete_rate": 0.019,
    "pages_per_session": 1.08,
    "median_dwell_sec": 2
@@ -261,15 +261,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10434,
-   "reads": 277,
-   "sessions": 10287
+   "views": 10424,
+   "reads": 276,
+   "sessions": 10278
   },
   {
    "device": "mobile",
-   "views": 377,
+   "views": 376,
    "reads": 17,
-   "sessions": 379
+   "sessions": 378
   },
   {
    "device": "tablet",
@@ -320,22 +320,22 @@
    "plays": 0
   },
   {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 22,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 11,
    "reads": 4,
    "plays": 0
   },
@@ -651,9 +651,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 250,
+   "views": 251,
    "reads": 0,
-   "sessions": 250,
+   "sessions": 251,
    "avg_dwell_sec": 19
   },
   {
@@ -744,8 +744,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7801,
-   "sessions": 7742
+   "hits": 7791,
+   "sessions": 7732
   },
   {
    "ref": "https://www.bing.com/",
@@ -754,8 +754,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 57,
-   "sessions": 29
+   "hits": 55,
+   "sessions": 28
   },
   {
    "ref": "nav-cmp",
