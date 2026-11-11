@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-11T21:31:30.274Z",
+ "generated": "2026-11-11T21:41:50.299Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 22,
   "avgTimeSec": 25,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10624,
+  "views": 10601,
   "reads": 300,
   "completes": 25,
   "plays": 11,
-  "sessions": 10469
+  "sessions": 10446
  },
  "channels": [
   {
@@ -23,9 +23,9 @@
   },
   {
    "channel": "referral",
-   "views": 7557,
+   "views": 7534,
    "reads": 64,
-   "sessions": 7559
+   "sessions": 7536
   },
   {
    "channel": "organic",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7557,
+   "views": 7534,
    "reads": 64,
    "completes": 0,
-   "sessions": 7559,
+   "sessions": 7536,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -261,9 +261,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10238,
+   "views": 10215,
    "reads": 279,
-   "sessions": 10084
+   "sessions": 10061
   },
   {
    "device": "mobile",
@@ -350,20 +350,20 @@
    "plays": 0
   },
   {
-   "slug": "vllm-rust-frontend",
-   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 13,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "how-to-run-a-local-agent-backend-lm-studio-openai-compatible",
    "title": "How to Run a Local Agent Backend on LM Studio's OpenAI-Compatible Server",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 12,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "vllm-rust-frontend",
+   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 12,
    "reads": 3,
@@ -744,8 +744,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7607,
-   "sessions": 7548
+   "hits": 7584,
+   "sessions": 7525
   },
   {
    "ref": "https://www.bing.com/",
