@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-11T11:47:02.646Z",
+ "generated": "2026-11-11T12:01:30.613Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 4,
   "todayReads": 17,
   "avgTimeSec": 30,
   "postsThisWeek": 13
  },
  "funnel": {
   "views": 10897,
-  "reads": 302,
+  "reads": 301,
   "completes": 25,
   "plays": 10,
-  "sessions": 10749
+  "sessions": 10750
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2918,
-   "reads": 172,
-   "sessions": 2828
+   "views": 2919,
+   "reads": 171,
+   "sessions": 2830
   },
   {
    "channel": "referral",
-   "views": 7843,
+   "views": 7842,
    "reads": 64,
-   "sessions": 7845
+   "sessions": 7844
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7843,
+   "views": 7842,
    "reads": 64,
    "completes": 0,
-   "sessions": 7845,
+   "sessions": 7844,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2918,
-   "reads": 172,
+   "views": 2919,
+   "reads": 171,
    "completes": 21,
-   "sessions": 2828,
+   "sessions": 2830,
    "read_rate": 0.059,
    "complete_rate": 0.007,
    "pages_per_session": 1.03,
@@ -278,15 +278,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10521,
-   "reads": 280,
-   "sessions": 10375
+   "views": 10519,
+   "reads": 279,
+   "sessions": 10374
   },
   {
    "device": "mobile",
-   "views": 370,
+   "views": 372,
    "reads": 18,
-   "sessions": 372
+   "sessions": 374
   },
   {
    "device": "tablet",
@@ -347,16 +347,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-whats-changed-fall-2026",
-   "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 39,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -364,6 +354,16 @@
    "author": "dex",
    "views": 22,
    "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-whats-changed-fall-2026",
+   "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 37,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -576,8 +576,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 39,
-   "reads": 4,
+   "views": 37,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -761,8 +761,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7894,
-   "sessions": 7835
+   "hits": 7893,
+   "sessions": 7834
   },
   {
    "ref": "https://www.bing.com/",
