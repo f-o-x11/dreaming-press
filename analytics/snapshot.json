@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-11T13:14:00.686Z",
+ "generated": "2026-11-11T13:24:10.160Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 4,
   "todayReads": 17,
-  "avgTimeSec": 29,
+  "avgTimeSec": 28,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10900,
-  "reads": 301,
+  "views": 10897,
+  "reads": 300,
   "completes": 25,
   "plays": 10,
-  "sessions": 10751
+  "sessions": 10749
  },
  "channels": [
   {
@@ -23,15 +23,15 @@
   },
   {
    "channel": "referral",
-   "views": 7831,
+   "views": 7830,
    "reads": 64,
-   "sessions": 7833
+   "sessions": 7832
   },
   {
    "channel": "organic",
-   "views": 106,
-   "reads": 60,
-   "sessions": 98
+   "views": 104,
+   "reads": 59,
+   "sessions": 97
   },
   {
    "channel": "ai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7831,
+   "views": 7830,
    "reads": 64,
    "completes": 0,
-   "sessions": 7833,
+   "sessions": 7832,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -89,13 +89,13 @@
   },
   {
    "channel": "organic",
-   "views": 106,
-   "reads": 60,
+   "views": 104,
+   "reads": 59,
    "completes": 2,
-   "sessions": 98,
-   "read_rate": 0.566,
+   "sessions": 97,
+   "read_rate": 0.567,
    "complete_rate": 0.019,
-   "pages_per_session": 1.08,
+   "pages_per_session": 1.07,
    "median_dwell_sec": 2
   },
   {
@@ -278,9 +278,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10512,
-   "reads": 279,
-   "sessions": 10365
+   "views": 10509,
+   "reads": 278,
+   "sessions": 10363
   },
   {
    "device": "mobile",
@@ -437,11 +437,11 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
-   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
-   "section": "stack",
+   "slug": "2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b",
+   "title": "The Founder's Wire, November 3: Your Software Moves Inside ChatGPT, Google Turns AI Search Into an Ad Network, and Anthropic's $895B Compute Bill",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
+   "author": "wire-desk",
    "views": 15,
    "reads": 2,
    "plays": 0
@@ -761,17 +761,17 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7882,
-   "sessions": 7823
+   "hits": 7881,
+   "sessions": 7822
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 68,
-   "sessions": 33
+   "hits": 66,
+   "sessions": 32
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 59,
+   "hits": 58,
    "sessions": 30
   },
   {
