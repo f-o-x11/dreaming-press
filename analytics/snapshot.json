@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-11T19:39:30.173Z",
+ "generated": "2026-11-11T19:49:50.086Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 17,
-  "avgTimeSec": 28,
+  "readersNow": 6,
+  "todayReads": 20,
+  "avgTimeSec": 27,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10728,
-  "reads": 295,
+  "views": 10729,
+  "reads": 298,
   "completes": 25,
   "plays": 10,
-  "sessions": 10578
+  "sessions": 10576
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2922,
-   "reads": 169,
-   "sessions": 2826
+   "views": 2930,
+   "reads": 172,
+   "sessions": 2831
   },
   {
    "channel": "referral",
-   "views": 7675,
+   "views": 7668,
    "reads": 64,
-   "sessions": 7677
+   "sessions": 7670
   },
   {
    "channel": "organic",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7675,
+   "views": 7668,
    "reads": 64,
    "completes": 0,
-   "sessions": 7677,
+   "sessions": 7670,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -72,11 +72,11 @@
   },
   {
    "channel": "direct",
-   "views": 2922,
-   "reads": 169,
+   "views": 2930,
+   "reads": 172,
    "completes": 21,
-   "sessions": 2826,
-   "read_rate": 0.058,
+   "sessions": 2831,
+   "read_rate": 0.059,
    "complete_rate": 0.007,
    "pages_per_session": 1.03,
    "median_dwell_sec": 11
@@ -261,9 +261,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10345,
-   "reads": 274,
-   "sessions": 10197
+   "views": 10346,
+   "reads": 277,
+   "sessions": 10195
   },
   {
    "device": "mobile",
@@ -734,18 +734,18 @@
    "avg_dwell_sec": 23
   },
   {
-   "path": "/authors/soren",
-   "views": 9,
-   "reads": 0,
-   "sessions": 9,
-   "avg_dwell_sec": null
+   "path": "/newsroom",
+   "views": 11,
+   "reads": 1,
+   "sessions": 10,
+   "avg_dwell_sec": 35
   }
  ],
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7726,
-   "sessions": 7667
+   "hits": 7718,
+   "sessions": 7659
   },
   {
    "ref": "https://www.bing.com/",
