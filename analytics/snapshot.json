@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-11T16:16:33.484Z",
+ "generated": "2026-11-11T16:26:40.348Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 2,
   "todayReads": 17,
   "avgTimeSec": 28,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10762,
+  "views": 10750,
   "reads": 296,
   "completes": 25,
   "plays": 10,
-  "sessions": 10612
+  "sessions": 10600
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2932,
+   "views": 2929,
    "reads": 170,
-   "sessions": 2837
+   "sessions": 2834
   },
   {
    "channel": "referral",
-   "views": 7698,
+   "views": 7689,
    "reads": 64,
-   "sessions": 7700
+   "sessions": 7691
   },
   {
    "channel": "organic",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7698,
+   "views": 7689,
    "reads": 64,
    "completes": 0,
-   "sessions": 7700,
+   "sessions": 7691,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -72,10 +72,10 @@
   },
   {
    "channel": "direct",
-   "views": 2932,
+   "views": 2929,
    "reads": 170,
    "completes": 21,
-   "sessions": 2837,
+   "sessions": 2834,
    "read_rate": 0.058,
    "complete_rate": 0.007,
    "pages_per_session": 1.03,
@@ -261,9 +261,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10380,
+   "views": 10368,
    "reads": 275,
-   "sessions": 10232
+   "sessions": 10220
   },
   {
    "device": "mobile",
@@ -594,16 +594,6 @@
    "plays": 0
   },
   {
-   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
-   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
-   "author": "dex",
-   "views": 25,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4",
    "title": "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model",
    "section": "wire",
@@ -631,6 +621,16 @@
    "author": "dex",
    "views": 24,
    "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
+   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
+   "author": "dex",
+   "views": 24,
+   "reads": 1,
    "plays": 0
   }
  ],
@@ -744,8 +744,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7749,
-   "sessions": 7690
+   "hits": 7740,
+   "sessions": 7681
   },
   {
    "ref": "https://www.bing.com/",
