@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-11T11:08:00.091Z",
+ "generated": "2026-11-11T11:18:20.219Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10969,
+ "verifiedAiHits": 10970,
  "logsScanned": 30,
  "windowStart": "2026-10-28",
  "windowEnd": "2026-11-11",
- "totalHits": 115641,
- "aiHits": 92367,
+ "totalHits": 115687,
+ "aiHits": 92377,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 26744,
+   "hits": 26746,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 15076,
+   "hits": 15083,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9513,
+   "hits": 9545,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6299,
-   "verifiedHits": 6245,
+   "hits": 6301,
+   "verifiedHits": 6247,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 947,
+   "hits": 949,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -476,14 +476,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 860,
-   "verifiedHits": 787,
+   "hits": 861,
+   "verifiedHits": 788,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
    "topPaths": [
     {
      "path": "/",
-     "hits": 504
+     "hits": 505
     },
     {
      "path": "/posts/viral-1-hour-agentic-engineering-course-what-founders-should-watch.html",
