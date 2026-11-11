@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-11T00:45Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-11T00:55Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -139,7 +139,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 60 crawler fetches
 - /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 41 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 38 crawler fetches
-- /posts/cheapest-gpu-rental-november-2026.html  — 36 crawler fetches
+- /posts/cheapest-gpu-rental-november-2026.html  — 37 crawler fetches
 - /posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html  — 35 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 

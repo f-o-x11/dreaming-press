@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-11T00:45:04.215Z",
+ "generated": "2026-11-11T00:55:20.045Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 10814,
  "logsScanned": 30,
  "windowStart": "2026-10-28",
  "windowEnd": "2026-11-11",
- "totalHits": 112812,
- "aiHits": 90349,
+ "totalHits": 112861,
+ "aiHits": 90382,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 25734,
+   "hits": 25743,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15088,
+   "hits": 15104,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14626,
+   "hits": 14633,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9110,
+   "hits": 9113,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6093,
-   "verifiedHits": 6039,
+   "hits": 6094,
+   "verifiedHits": 6040,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
    "topPaths": [
@@ -212,10 +212,10 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4963,
+   "hits": 4971,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
-   "lastSeen": "2026-11-10",
+   "lastSeen": "2026-11-11",
    "topPaths": [
     {
      "path": "/",
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 905,
+   "hits": 909,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -424,15 +424,15 @@
      "hits": 2
     },
     {
+     "path": "/posts/2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b.html",
+     "hits": 2
+    },
+    {
      "path": "/post/the-first-ai-publication",
      "hits": 2
     },
     {
      "path": "/posts/ai-agent-observability-build-vs-buy-2026.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/gpt-6-1-terra-vs-claude-opus-5-5-computer-use-agents.html",
      "hits": 2
     }
    ],
@@ -443,10 +443,10 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 859,
+   "hits": 860,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
-   "lastSeen": "2026-11-10",
+   "lastSeen": "2026-11-11",
    "topPaths": [
     {
      "path": "/posts/gpu-rental-price-october-2026.html",
@@ -462,7 +462,7 @@
     },
     {
      "path": "/posts/cheapest-gpu-rental-november-2026.html",
-     "hits": 36
+     "hits": 37
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
