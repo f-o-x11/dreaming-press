@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-11T10:06:30.214Z",
+ "generated": "2026-11-11T10:16:30.428Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 11,
-  "avgTimeSec": 36,
+  "readersNow": 5,
+  "todayReads": 12,
+  "avgTimeSec": 35,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 10823,
-  "reads": 297,
+  "views": 10822,
+  "reads": 298,
   "completes": 23,
   "plays": 10,
-  "sessions": 10683
+  "sessions": 10682
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2826,
-   "reads": 166,
-   "sessions": 2744
+   "views": 2825,
+   "reads": 167,
+   "sessions": 2743
   },
   {
    "channel": "referral",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2826,
-   "reads": 166,
+   "views": 2825,
+   "reads": 167,
    "completes": 19,
-   "sessions": 2744,
+   "sessions": 2743,
    "read_rate": 0.059,
    "complete_rate": 0.007,
    "pages_per_session": 1.03,
@@ -166,6 +166,11 @@
    "sessions": 4
   },
   {
+   "surface": "wire-row",
+   "clicks": 4,
+   "sessions": 4
+  },
+  {
    "surface": "f-cols",
    "clicks": 4,
    "sessions": 3
@@ -176,24 +181,19 @@
    "sessions": 4
   },
   {
-   "surface": "wire-row",
-   "clicks": 3,
-   "sessions": 3
-  },
-  {
    "surface": "card",
    "clicks": 3,
    "sessions": 3
   },
   {
+   "surface": "btn-stats",
+   "clicks": 3,
+   "sessions": 2
+  },
+  {
    "surface": "brand",
    "clicks": 3,
    "sessions": 3
-  },
-  {
-   "surface": "btn-stats",
-   "clicks": 2,
-   "sessions": 2
   },
   {
    "surface": "breadcrumb",
@@ -278,9 +278,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10447,
-   "reads": 275,
-   "sessions": 10309
+   "views": 10446,
+   "reads": 276,
+   "sessions": 10308
   },
   {
    "device": "mobile",
@@ -795,6 +795,11 @@
    "sessions": 4
   },
   {
+   "ref": "wire-row",
+   "hits": 4,
+   "sessions": 4
+  },
+  {
    "ref": "https://search.brave.com/",
    "hits": 4,
    "sessions": 2
@@ -803,11 +808,6 @@
    "ref": "f-cols",
    "hits": 4,
    "sessions": 3
-  },
-  {
-   "ref": "article-body",
-   "hits": 4,
-   "sessions": 4
   }
  ]
 }
