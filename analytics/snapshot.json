@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T03:18:00.105Z",
+ "generated": "2026-11-11T03:28:00.196Z",
  "windowDays": 14,
  "site": {
   "readersNow": 4,
@@ -8,18 +8,18 @@
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 10838,
+  "views": 10839,
   "reads": 296,
   "completes": 22,
   "plays": 10,
-  "sessions": 10699
+  "sessions": 10700
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2832,
+   "views": 2833,
    "reads": 166,
-   "sessions": 2753
+   "sessions": 2754
   },
   {
    "channel": "referral",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2832,
+   "views": 2833,
    "reads": 166,
    "completes": 18,
-   "sessions": 2753,
+   "sessions": 2754,
    "read_rate": 0.059,
    "complete_rate": 0.006,
    "pages_per_session": 1.03,
@@ -278,9 +278,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10460,
+   "views": 10461,
    "reads": 273,
-   "sessions": 10324
+   "sessions": 10325
   },
   {
    "device": "mobile",
@@ -387,22 +387,22 @@
    "plays": 0
   },
   {
+   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
+   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 15,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "vllm-rust-frontend",
    "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 15,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
-   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 14,
    "reads": 3,
    "plays": 0
   },
