@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-11T05:40Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-11T05:50Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
 - Funnel: 10835 views → 296 engaged reads → 22 completes · 10694 sessions.
-- Channels: direct 165r/2829v · referral 64r/7860v · organic 61r/116v · ai 4r/15v · campaign:chatgpt.com 1r/9v · campaign:openai 1r/5v · social 0r/1v · internal-nav 0r/0v.
+- Channels: direct 165r/2830v · referral 64r/7860v · organic 61r/115v · ai 4r/15v · campaign:chatgpt.com 1r/9v · campaign:openai 1r/5v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 2r/12v · Le Chat 1r/1v · Perplexity 1r/1v · Doubao 1r/1v · Kimi 0r/7v · Yuanbao 0r/1v · Grok 0r/1v.
 - Referrers: aocr.org, bing.com, duckduckgo.com, google.com, nav-cmp, feature, cn.bing.com, search.brave.com, f-cols, article-body.
 - Engaged-read winners by section: wire=7, stack=8.
@@ -24,8 +24,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - referral: 7860 views · read 0.8% · complete 0.0% · 1 pages/session · median ?s
-- direct: 2829 views · read 5.8% · complete 0.6% · 1.03 pages/session · median 11s
-- organic: 116 views · read 52.6% · complete 1.7% · 1.06 pages/session · median 2s
+- direct: 2830 views · read 5.8% · complete 0.6% · 1.03 pages/session · median 11s
+- organic: 115 views · read 53.0% · complete 1.7% · 1.06 pages/session · median 2s
 - ai: 15 views · read 26.7% · complete 0.0% · 1.07 pages/session · median 4s
 - campaign:chatgpt.com: 9 views · read 11.1% · complete 0.0% · 1.8 pages/session · median ?s
 - campaign:openai: 5 views · read 20.0% · complete 0.0% · 0.83 pages/session · median ?s
@@ -35,7 +35,7 @@ NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
 
 ## Top by engaged reads (eyes that stayed)
-- [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 32 reads, 62 views, 2 listens
+- [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 32 reads, 63 views, 2 listens
 - [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 8 reads, 64 views, 2 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 8 reads, 25 views, 0 listens
 - [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 8 reads, 20 views, 0 listens
@@ -72,7 +72,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 64 views, 8 reads
-- [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 62 views, 32 reads
+- [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 63 views, 32 reads
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 39 views, 4 reads
 - [stack] "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM" — 29 views, 0 reads
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 27 views, 2 reads
@@ -129,7 +129,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 10906 confirmed AI-engine fetches (Perplexity 4002, ChatGPT Search (OpenAI) 3218, GPTBot (OpenAI) 2910, ChatGPT (user browsing) 776).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 366 crawler fetches
+- /build  — 368 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 126 crawler fetches
 - /posts/gpu-rental-price-october-2026.html  — 97 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 92 crawler fetches
