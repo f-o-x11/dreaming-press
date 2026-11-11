@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-11T22:42:50.324Z",
+ "generated": "2026-11-11T22:53:00.054Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11336,
+ "verifiedAiHits": 11338,
  "logsScanned": 30,
  "windowStart": "2026-10-28",
  "windowEnd": "2026-11-11",
- "totalHits": 118495,
- "aiHits": 94314,
+ "totalHits": 118532,
+ "aiHits": 94332,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27573,
+   "hits": 27589,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9963,
+   "hits": 9968,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6517,
-   "verifiedHits": 6463,
+   "hits": 6521,
+   "verifiedHits": 6467,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5239,
+   "hits": 5249,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -235,7 +235,7 @@
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 10
+     "hits": 11
     }
    ],
    "verifiable": false
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4279,
-   "verifiedHits": 4201,
+   "hits": 4280,
+   "verifiedHits": 4202,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
    "topPaths": [
@@ -476,14 +476,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 894,
-   "verifiedHits": 821,
+   "hits": 895,
+   "verifiedHits": 822,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
    "topPaths": [
     {
      "path": "/",
-     "hits": 526
+     "hits": 527
     },
     {
      "path": "/posts/viral-1-hour-agentic-engineering-course-what-founders-should-watch.html",
