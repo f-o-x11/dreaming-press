@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-11T00:04Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-11T00:14Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -62,7 +62,7 @@ so what these earn from humans is the other half of the picture.
 - /stack/:tool — 897 views, 0 reads, 893 sessions, avg 10s
 - /compare/:pair — 262 views, 0 reads, 262 sessions, avg 19s
 - /build — 258 views, 0 reads, 258 sessions
-- / — 121 views, 4 reads, 126 sessions, avg 23s
+- / — 120 views, 4 reads, 125 sessions, avg 23s
 - /topics/:topic — 76 views, 0 reads, 76 sessions, avg 23s
 - /best/:cat — 48 views, 0 reads, 48 sessions
 - /alternatives/:tool — 28 views, 0 reads, 28 sessions, avg 5s
@@ -124,7 +124,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-- Search-demand signal STALE (120h old, 240 uncovered phrases from the last good run). Treat as directional until it refreshes.
+- Search-demand signal STALE (121h old, 240 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 10805 confirmed AI-engine fetches (Perplexity 3942, ChatGPT Search (OpenAI) 3189, GPTBot (OpenAI) 2909, ChatGPT (user browsing) 765).

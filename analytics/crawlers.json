@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-11T00:04:09.771Z",
+ "generated": "2026-11-11T00:14:29.958Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 10805,
  "logsScanned": 30,
  "windowStart": "2026-10-28",
  "windowEnd": "2026-11-11",
- "totalHits": 112682,
- "aiHits": 90265,
+ "totalHits": 112711,
+ "aiHits": 90281,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,10 +14,10 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 25714,
+   "hits": 25719,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
-   "lastSeen": "2026-11-10",
+   "lastSeen": "2026-11-11",
    "topPaths": [
     {
      "path": "/",
@@ -28,15 +28,15 @@
      "hits": 21
     },
     {
+     "path": "/dashboard",
+     "hits": 17
+    },
+    {
      "path": "/posts/2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4.html",
      "hits": 17
     },
     {
      "path": "/posts/how-to-opt-out-ai-training-shared-token-robots-txt.html",
-     "hits": 16
-    },
-    {
-     "path": "/dashboard",
      "hits": 16
     }
    ],
@@ -80,10 +80,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15066,
+   "hits": 15070,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
-   "lastSeen": "2026-11-10",
+   "lastSeen": "2026-11-11",
    "topPaths": [
     {
      "path": "/build",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14596,
+   "hits": 14603,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9074,
+   "hits": 9082,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6085,
-   "verifiedHits": 6031,
+   "hits": 6090,
+   "verifiedHits": 6036,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
    "topPaths": [
