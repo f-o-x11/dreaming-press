@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-11T10:26:40.069Z",
+ "generated": "2026-11-11T10:37:00.249Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
-  "todayReads": 12,
-  "avgTimeSec": 35,
+  "todayReads": 17,
+  "avgTimeSec": 36,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 10820,
-  "reads": 298,
-  "completes": 23,
+  "views": 10826,
+  "reads": 303,
+  "completes": 25,
   "plays": 10,
-  "sessions": 10680
+  "sessions": 10678
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2825,
-   "reads": 167,
+   "views": 2833,
+   "reads": 172,
    "sessions": 2743
   },
   {
    "channel": "referral",
-   "views": 7858,
+   "views": 7856,
    "reads": 64,
-   "sessions": 7860
+   "sessions": 7858
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7858,
+   "views": 7856,
    "reads": 64,
    "completes": 0,
-   "sessions": 7860,
+   "sessions": 7858,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -78,14 +78,14 @@
   },
   {
    "channel": "direct",
-   "views": 2825,
-   "reads": 167,
-   "completes": 19,
+   "views": 2833,
+   "reads": 172,
+   "completes": 21,
    "sessions": 2743,
-   "read_rate": 0.059,
+   "read_rate": 0.061,
    "complete_rate": 0.007,
    "pages_per_session": 1.03,
-   "median_dwell_sec": 11
+   "median_dwell_sec": 13
   },
   {
    "channel": "organic",
@@ -157,8 +157,8 @@
  "navSurfaces": [
   {
    "surface": "nav-cmp",
-   "clicks": 27,
-   "sessions": 8
+   "clicks": 29,
+   "sessions": 9
   },
   {
    "surface": "feature",
@@ -166,14 +166,14 @@
    "sessions": 4
   },
   {
-   "surface": "wire-row",
-   "clicks": 4,
+   "surface": "f-cols",
+   "clicks": 5,
    "sessions": 4
   },
   {
-   "surface": "f-cols",
+   "surface": "wire-row",
    "clicks": 4,
-   "sessions": 3
+   "sessions": 4
   },
   {
    "surface": "article-body",
@@ -196,6 +196,16 @@
    "sessions": 3
   },
   {
+   "surface": "legal-links",
+   "clicks": 2,
+   "sessions": 1
+  },
+  {
+   "surface": "desk-compare",
+   "clicks": 2,
+   "sessions": 2
+  },
+  {
    "surface": "breadcrumb",
    "clicks": 2,
    "sessions": 2
@@ -211,22 +221,12 @@
    "sessions": 1
   },
   {
-   "surface": "nr-head",
+   "surface": "rr-card",
    "clicks": 1,
    "sessions": 1
   },
   {
-   "surface": "more",
-   "clicks": 1,
-   "sessions": 1
-  },
-  {
-   "surface": "live",
-   "clicks": 1,
-   "sessions": 1
-  },
-  {
-   "surface": "dg-title",
+   "surface": "nrf-lastfiled",
    "clicks": 1,
    "sessions": 1
   }
@@ -278,9 +278,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10444,
-   "reads": 276,
-   "sessions": 10306
+   "views": 10450,
+   "reads": 281,
+   "sessions": 10304
   },
   {
    "device": "mobile",
@@ -717,10 +717,17 @@
   },
   {
    "path": "/agents.html",
-   "views": 21,
-   "reads": 4,
-   "sessions": 21,
-   "avg_dwell_sec": 59
+   "views": 22,
+   "reads": 5,
+   "sessions": 22,
+   "avg_dwell_sec": 58
+  },
+  {
+   "path": "/stack.html",
+   "views": 16,
+   "reads": 0,
+   "sessions": 14,
+   "avg_dwell_sec": 10
   },
   {
    "path": "/about.html",
@@ -728,13 +735,6 @@
    "reads": 0,
    "sessions": 11,
    "avg_dwell_sec": 5
-  },
-  {
-   "path": "/stack.html",
-   "views": 15,
-   "reads": 0,
-   "sessions": 14,
-   "avg_dwell_sec": 9
   },
   {
    "path": "/apps",
@@ -761,8 +761,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7909,
-   "sessions": 7850
+   "hits": 7907,
+   "sessions": 7848
   },
   {
    "ref": "https://www.bing.com/",
@@ -776,8 +776,8 @@
   },
   {
    "ref": "nav-cmp",
-   "hits": 27,
-   "sessions": 8
+   "hits": 29,
+   "sessions": 9
   },
   {
    "ref": "https://www.google.com/",
@@ -795,6 +795,11 @@
    "sessions": 4
   },
   {
+   "ref": "f-cols",
+   "hits": 5,
+   "sessions": 4
+  },
+  {
    "ref": "wire-row",
    "hits": 4,
    "sessions": 4
@@ -803,11 +808,6 @@
    "ref": "https://search.brave.com/",
    "hits": 4,
    "sessions": 2
-  },
-  {
-   "ref": "f-cols",
-   "hits": 4,
-   "sessions": 3
   }
  ]
 }
