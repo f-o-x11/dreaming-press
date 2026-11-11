@@ -1,22 +1,9 @@
 {
- "fetched_at": "2026-11-05T23:42:03.332Z",
+ "fetched_at": "2026-11-11T11:47:02.575Z",
  "seeds": 25,
  "phrases": 449,
- "gaps": 240,
+ "gaps": 239,
  "top_gaps": [
-  {
-   "phrase": "ai agent security summit",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "ai agent security"
-   ],
-   "score": 7,
-   "covered": null
-  },
   {
    "phrase": "cheapest gpu for gaming",
    "engines": [
@@ -70,7 +57,20 @@
    "covered": null
   },
   {
-   "phrase": "open source llm for coding",
+   "phrase": "mcp server blender",
+   "engines": [
+    "google",
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "mcp server"
+   ],
+   "score": 7,
+   "covered": null
+  },
+  {
+   "phrase": "open source llm ranking",
    "engines": [
     "google",
     "bing",
@@ -314,19 +314,7 @@
    "covered": null
   },
   {
-   "phrase": "best ai agent for image generation",
-   "engines": [
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "best ai agent"
-   ],
-   "score": 5,
-   "covered": null
-  },
-  {
-   "phrase": "best ai agent for stock trading",
+   "phrase": "best ai agent for personal assistant",
    "engines": [
     "google",
     "bing"
@@ -338,7 +326,7 @@
    "covered": null
   },
   {
-   "phrase": "best ai agents for business",
+   "phrase": "best ai agent for stock trading",
    "engines": [
     "google",
     "bing"
@@ -422,7 +410,7 @@
    "covered": null
   },
   {
-   "phrase": "best llm for local agent",
+   "phrase": "best llm for home assistant voice",
    "engines": [
     "bing",
     "ddg"
@@ -434,7 +422,7 @@
    "covered": null
   },
   {
-   "phrase": "best llm for rag",
+   "phrase": "best llm for local use",
    "engines": [
     "bing",
     "ddg"
@@ -492,9 +480,37 @@
    ],
    "score": 5,
    "covered": null
+  },
+  {
+   "phrase": "cheapest gpu for llm highest ram under 300",
+   "engines": [
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "cheapest gpu"
+   ],
+   "score": 5,
+   "covered": null
   }
  ],
  "covered_sample": [
+  {
+   "phrase": "agent memory benchmark",
+   "engines": [
+    "google",
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "agent memory"
+   ],
+   "score": 7,
+   "covered": {
+    "slug": "agent-memory-survey-2026",
+    "title": "Agent Memory in 2026: A Field Survey of the Frameworks, the Tradeoffs, and How to Choose"
+   }
+  },
   {
    "phrase": "agent memory github",
    "engines": [
@@ -557,22 +573,6 @@
    "covered": {
     "slug": "tool-highlight-atlaso-one-mcp-memory-across-coding-agents",
     "title": "Tool Highlight: Atlaso — One MCP Memory That Follows You Across Claude Code, Cursor, and Codex"
-   }
-  },
-  {
-   "phrase": "agent memory survey",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "agent memory"
-   ],
-   "score": 7,
-   "covered": {
-    "slug": "agent-memory-survey-2026",
-    "title": "Agent Memory in 2026: A Field Survey of the Frameworks, the Tradeoffs, and How to Choose"
    }
   },
   {

@@ -1,58 +1,58 @@
 {
- "generated": "2026-11-05T23:41:58.334Z",
+ "generated": "2026-11-11T11:46:57.433Z",
  "window_days": 14,
- "log_window": "2026-10-22 → 2026-11-05",
+ "log_window": "2026-10-28 → 2026-11-11",
  "totals": {
-  "verified_fetches": 12442,
-  "retrieval_fetches": 9715,
-  "index_fetches": 2727,
-  "referred_sessions": 17,
-  "retrieval_fetches_per_session": 571,
-  "click_through_pct": 0.175
+  "verified_fetches": 10975,
+  "retrieval_fetches": 8064,
+  "index_fetches": 2911,
+  "referred_sessions": 6,
+  "retrieval_fetches_per_session": 1344,
+  "click_through_pct": 0.074
  },
  "engines": [
   {
    "engine": "ChatGPT",
-   "verified_fetches": 8772,
-   "retrieval_fetches": 6045,
-   "index_fetches": 2727,
-   "referred_sessions": 15,
-   "referred_views": 23,
-   "referred_reads": 7,
-   "fetches_per_session": 403,
-   "click_through_pct": 0.248,
+   "verified_fetches": 6959,
+   "retrieval_fetches": 4048,
+   "index_fetches": 2911,
+   "referred_sessions": 5,
+   "referred_views": 12,
+   "referred_reads": 2,
+   "fetches_per_session": 810,
+   "click_through_pct": 0.124,
    "bots": [
     {
      "name": "OAI-SearchBot",
-     "verified": 4403,
+     "verified": 3260,
      "retrieval": true
     },
     {
      "name": "GPTBot",
-     "verified": 2727,
+     "verified": 2911,
      "retrieval": false
     },
     {
      "name": "ChatGPT-User",
-     "verified": 1642,
+     "verified": 788,
      "retrieval": true
     }
    ]
   },
   {
    "engine": "Perplexity",
-   "verified_fetches": 3670,
-   "retrieval_fetches": 3670,
+   "verified_fetches": 4016,
+   "retrieval_fetches": 4016,
    "index_fetches": 0,
-   "referred_sessions": 2,
-   "referred_views": 2,
+   "referred_sessions": 1,
+   "referred_views": 1,
    "referred_reads": 1,
-   "fetches_per_session": 1835,
-   "click_through_pct": 0.054,
+   "fetches_per_session": 4016,
+   "click_through_pct": 0.025,
    "bots": [
     {
      "name": "PerplexityBot",
-     "verified": 3670,
+     "verified": 4016,
      "retrieval": true
     }
    ]
