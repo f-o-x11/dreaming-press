@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-10T23:54:01.589Z",
+ "generated": "2026-11-11T00:04:10.108Z",
  "windowDays": 14,
  "site": {
   "readersNow": 6,
-  "todayReads": 17,
-  "avgTimeSec": 80,
-  "postsThisWeek": 7
+  "todayReads": 1,
+  "avgTimeSec": 21,
+  "postsThisWeek": 5
  },
  "funnel": {
-  "views": 10858,
-  "reads": 288,
+  "views": 10862,
+  "reads": 291,
   "completes": 22,
   "plays": 9,
-  "sessions": 10734
+  "sessions": 10736
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2853,
-   "reads": 159,
-   "sessions": 2788
+   "views": 2856,
+   "reads": 161,
+   "sessions": 2790
   },
   {
    "channel": "referral",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "organic",
-   "views": 115,
-   "reads": 60,
-   "sessions": 108
+   "views": 116,
+   "reads": 61,
+   "sessions": 109
   },
   {
    "channel": "ai",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2853,
-   "reads": 159,
+   "views": 2856,
+   "reads": 161,
    "completes": 18,
-   "sessions": 2788,
+   "sessions": 2790,
    "read_rate": 0.056,
    "complete_rate": 0.006,
    "pages_per_session": 1.02,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 115,
-   "reads": 60,
+   "views": 116,
+   "reads": 61,
    "completes": 2,
-   "sessions": 108,
-   "read_rate": 0.522,
+   "sessions": 109,
+   "read_rate": 0.526,
    "complete_rate": 0.017,
    "pages_per_session": 1.06,
    "median_dwell_sec": 2
@@ -157,8 +157,8 @@
  "navSurfaces": [
   {
    "surface": "nav-cmp",
-   "clicks": 19,
-   "sessions": 7
+   "clicks": 20,
+   "sessions": 8
   },
   {
    "surface": "feature",
@@ -278,15 +278,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10480,
-   "reads": 265,
-   "sessions": 10359
+   "views": 10485,
+   "reads": 268,
+   "sessions": 10362
   },
   {
    "device": "mobile",
-   "views": 372,
+   "views": 371,
    "reads": 19,
-   "sessions": 373
+   "sessions": 372
   },
   {
    "device": "tablet",
@@ -352,7 +352,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 12,
+   "views": 13,
    "reads": 5,
    "plays": 0
   },
@@ -417,6 +417,16 @@
    "plays": 0
   },
   {
+   "slug": "arm-metis-open-source-ai-security-code-review",
+   "title": "Arm Open-Sourced Its Internal Security Reviewer. Here's Whether You Should Run It.",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "tool-highlight-qoder-security-in-session-code-security",
    "title": "Tool Highlight: Qoder Security Puts Three Security Layers Inside the AI Coding Session",
    "section": "stack",
@@ -433,16 +443,6 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 16,
-   "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
-   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 15,
    "reads": 2,
    "plays": 0
   }
@@ -675,10 +675,10 @@
   },
   {
    "path": "/",
-   "views": 119,
-   "reads": 3,
-   "sessions": 124,
-   "avg_dwell_sec": 19
+   "views": 121,
+   "reads": 4,
+   "sessions": 126,
+   "avg_dwell_sec": 23
   },
   {
    "path": "/topics/:topic",
@@ -731,9 +731,9 @@
   },
   {
    "path": "/stack.html",
-   "views": 13,
+   "views": 14,
    "reads": 0,
-   "sessions": 13,
+   "sessions": 14,
    "avg_dwell_sec": 8
   },
   {
@@ -766,8 +766,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 66,
-   "sessions": 33
+   "hits": 68,
+   "sessions": 34
   },
   {
    "ref": "https://duckduckgo.com/",
@@ -781,8 +781,8 @@
   },
   {
    "ref": "nav-cmp",
-   "hits": 19,
-   "sessions": 7
+   "hits": 20,
+   "sessions": 8
   },
   {
    "ref": "https://cn.bing.com/",
