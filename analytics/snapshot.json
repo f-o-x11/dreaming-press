@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-11T12:23:34.048Z",
+ "generated": "2026-11-11T12:33:35.835Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 10,
   "todayReads": 17,
   "avgTimeSec": 29,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10898,
+  "views": 10907,
   "reads": 301,
   "completes": 25,
   "plays": 10,
-  "sessions": 10749
+  "sessions": 10758
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2921,
+   "views": 2931,
    "reads": 171,
-   "sessions": 2831
+   "sessions": 2841
   },
   {
    "channel": "referral",
-   "views": 7841,
+   "views": 7840,
    "reads": 64,
-   "sessions": 7843
+   "sessions": 7842
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7841,
+   "views": 7840,
    "reads": 64,
    "completes": 0,
-   "sessions": 7843,
+   "sessions": 7842,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "direct",
-   "views": 2921,
+   "views": 2931,
    "reads": 171,
    "completes": 21,
-   "sessions": 2831,
-   "read_rate": 0.059,
+   "sessions": 2841,
+   "read_rate": 0.058,
    "complete_rate": 0.007,
    "pages_per_session": 1.03,
    "median_dwell_sec": 12
@@ -284,9 +284,9 @@
   },
   {
    "device": "mobile",
-   "views": 372,
+   "views": 381,
    "reads": 18,
-   "sessions": 374
+   "sessions": 383
   },
   {
    "device": "tablet",
@@ -437,12 +437,12 @@
    "plays": 0
   },
   {
-   "slug": "deepseek-chat-reasoner-retire-july-24-migrate-api",
-   "title": "DeepSeek Retires deepseek-chat and deepseek-reasoner on July 24 — Migrate Your API Calls Today",
+   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
+   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
    "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
+   "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 16,
+   "views": 15,
    "reads": 2,
    "plays": 0
   }
@@ -761,8 +761,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7892,
-   "sessions": 7833
+   "hits": 7891,
+   "sessions": 7832
   },
   {
    "ref": "https://www.bing.com/",
