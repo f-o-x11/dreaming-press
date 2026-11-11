@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T15:56:20.292Z",
+ "generated": "2026-11-11T16:06:30.288Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,30 +8,30 @@
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10787,
-  "reads": 297,
+  "views": 10775,
+  "reads": 296,
   "completes": 25,
   "plays": 10,
-  "sessions": 10638
+  "sessions": 10626
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2933,
+   "views": 2932,
    "reads": 170,
-   "sessions": 2840
+   "sessions": 2838
   },
   {
    "channel": "referral",
-   "views": 7721,
+   "views": 7711,
    "reads": 64,
-   "sessions": 7723
+   "sessions": 7713
   },
   {
    "channel": "organic",
-   "views": 103,
-   "reads": 57,
-   "sessions": 95
+   "views": 102,
+   "reads": 56,
+   "sessions": 94
   },
   {
    "channel": "ai",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7721,
+   "views": 7711,
    "reads": 64,
    "completes": 0,
-   "sessions": 7723,
+   "sessions": 7713,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -72,10 +72,10 @@
   },
   {
    "channel": "direct",
-   "views": 2933,
+   "views": 2932,
    "reads": 170,
    "completes": 21,
-   "sessions": 2840,
+   "sessions": 2838,
    "read_rate": 0.058,
    "complete_rate": 0.007,
    "pages_per_session": 1.03,
@@ -83,13 +83,13 @@
   },
   {
    "channel": "organic",
-   "views": 103,
-   "reads": 57,
+   "views": 102,
+   "reads": 56,
    "completes": 2,
-   "sessions": 95,
-   "read_rate": 0.553,
-   "complete_rate": 0.019,
-   "pages_per_session": 1.08,
+   "sessions": 94,
+   "read_rate": 0.549,
+   "complete_rate": 0.02,
+   "pages_per_session": 1.09,
    "median_dwell_sec": 2
   },
   {
@@ -261,9 +261,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10405,
-   "reads": 276,
-   "sessions": 10258
+   "views": 10393,
+   "reads": 275,
+   "sessions": 10246
   },
   {
    "device": "mobile",
@@ -330,16 +330,6 @@
    "plays": 0
   },
   {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 11,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
    "title": "The Founder's Wire, November 5: Coding Agents Get Cheaper, Agent Security Gets Bought, and AMD Bets $11B on Cheaper Inference",
    "section": "wire",
@@ -376,6 +366,16 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 12,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 10,
    "reads": 3,
    "plays": 0
   },
@@ -700,10 +700,10 @@
   },
   {
    "path": "/agents.html",
-   "views": 21,
+   "views": 22,
    "reads": 5,
-   "sessions": 21,
-   "avg_dwell_sec": 58
+   "sessions": 22,
+   "avg_dwell_sec": 51
   },
   {
    "path": "/stack.html",
@@ -744,13 +744,13 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7772,
-   "sessions": 7713
+   "hits": 7762,
+   "sessions": 7703
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 66,
-   "sessions": 32
+   "hits": 64,
+   "sessions": 31
   },
   {
    "ref": "https://duckduckgo.com/",
