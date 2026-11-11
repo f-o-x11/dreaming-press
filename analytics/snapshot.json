@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T22:02:03.477Z",
+ "generated": "2026-11-11T22:12:20.792Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,11 +8,11 @@
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10576,
+  "views": 10558,
   "reads": 300,
   "completes": 25,
   "plays": 11,
-  "sessions": 10421
+  "sessions": 10403
  },
  "channels": [
   {
@@ -23,9 +23,9 @@
   },
   {
    "channel": "referral",
-   "views": 7509,
+   "views": 7491,
    "reads": 64,
-   "sessions": 7511
+   "sessions": 7493
   },
   {
    "channel": "organic",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7509,
+   "views": 7491,
    "reads": 64,
    "completes": 0,
-   "sessions": 7511,
+   "sessions": 7493,
    "read_rate": 0.009,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -261,9 +261,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10190,
+   "views": 10172,
    "reads": 279,
-   "sessions": 10036
+   "sessions": 10018
   },
   {
    "device": "mobile",
@@ -604,16 +604,6 @@
    "plays": 0
   },
   {
-   "slug": "crewai-flows-vs-crews",
-   "title": "CrewAI Flows vs Crews: When to Let Agents Decide and When to Script Them",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 25,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "best-llm-for-creative-writing-october-2026",
    "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
    "section": "stack",
@@ -631,6 +621,16 @@
    "author": "dex",
    "views": 24,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "crewai-flows-vs-crews",
+   "title": "CrewAI Flows vs Crews: When to Let Agents Decide and When to Script Them",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 24,
+   "reads": 0,
    "plays": 0
   }
  ],
@@ -744,8 +744,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7559,
-   "sessions": 7500
+   "hits": 7541,
+   "sessions": 7482
   },
   {
    "ref": "https://www.bing.com/",
