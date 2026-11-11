@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-11T01:46:19.974Z",
+ "generated": "2026-11-11T01:56:30.107Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 2,
-  "avgTimeSec": 62,
+  "readersNow": 3,
+  "todayReads": 3,
+  "avgTimeSec": 53,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 10860,
-  "reads": 292,
+  "views": 10866,
+  "reads": 293,
   "completes": 22,
   "plays": 9,
-  "sessions": 10729
+  "sessions": 10730
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2854,
-   "reads": 162,
-   "sessions": 2783
+   "views": 2860,
+   "reads": 163,
+   "sessions": 2784
   },
   {
    "channel": "referral",
@@ -61,7 +61,7 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 21
+   "sessions": 22
   }
  ],
  "channelQuality": [
@@ -78,14 +78,14 @@
   },
   {
    "channel": "direct",
-   "views": 2854,
-   "reads": 162,
+   "views": 2860,
+   "reads": 163,
    "completes": 18,
-   "sessions": 2783,
+   "sessions": 2784,
    "read_rate": 0.057,
    "complete_rate": 0.006,
    "pages_per_session": 1.03,
-   "median_dwell_sec": 11
+   "median_dwell_sec": 12
   },
   {
    "channel": "organic",
@@ -147,7 +147,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 21,
+   "sessions": 22,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -157,7 +157,7 @@
  "navSurfaces": [
   {
    "surface": "nav-cmp",
-   "clicks": 23,
+   "clicks": 27,
    "sessions": 8
   },
   {
@@ -191,6 +191,11 @@
    "sessions": 3
   },
   {
+   "surface": "btn-stats",
+   "clicks": 2,
+   "sessions": 2
+  },
+  {
    "surface": "breadcrumb",
    "clicks": 2,
    "sessions": 2
@@ -222,11 +227,6 @@
   },
   {
    "surface": "dg-title",
-   "clicks": 1,
-   "sessions": 1
-  },
-  {
-   "surface": "dg-lead-img",
    "clicks": 1,
    "sessions": 1
   }
@@ -278,9 +278,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10482,
-   "reads": 269,
-   "sessions": 10354
+   "views": 10488,
+   "reads": 270,
+   "sessions": 10355
   },
   {
    "device": "mobile",
@@ -723,6 +723,13 @@
    "avg_dwell_sec": 59
   },
   {
+   "path": "/stack.html",
+   "views": 16,
+   "reads": 0,
+   "sessions": 15,
+   "avg_dwell_sec": 9
+  },
+  {
    "path": "/about.html",
    "views": 15,
    "reads": 0,
@@ -730,11 +737,11 @@
    "avg_dwell_sec": 5
   },
   {
-   "path": "/stack.html",
-   "views": 14,
-   "reads": 0,
-   "sessions": 14,
-   "avg_dwell_sec": 8
+   "path": "/apps",
+   "views": 12,
+   "reads": 1,
+   "sessions": 11,
+   "avg_dwell_sec": 104
   },
   {
    "path": "/authors/dex",
@@ -742,13 +749,6 @@
    "reads": 0,
    "sessions": 12,
    "avg_dwell_sec": 23
-  },
-  {
-   "path": "/apps",
-   "views": 11,
-   "reads": 0,
-   "sessions": 11,
-   "avg_dwell_sec": null
   },
   {
    "path": "/authors/soren",
@@ -781,7 +781,7 @@
   },
   {
    "ref": "nav-cmp",
-   "hits": 23,
+   "hits": 27,
    "sessions": 8
   },
   {
