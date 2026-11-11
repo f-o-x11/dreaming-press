@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-11T02:37Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-11T02:47Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 10833 views → 294 engaged reads → 22 completes · 10696 sessions.
-- Channels: direct 164r/2827v · referral 63r/7860v · organic 61r/116v · ai 4r/15v · campaign:chatgpt.com 1r/9v · campaign:openai 1r/5v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 10833 views → 295 engaged reads → 22 completes · 10695 sessions.
+- Channels: direct 165r/2827v · referral 63r/7860v · organic 61r/116v · ai 4r/15v · campaign:chatgpt.com 1r/9v · campaign:openai 1r/5v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 2r/12v · Le Chat 1r/1v · Perplexity 1r/1v · Doubao 1r/1v · Kimi 0r/7v · Yuanbao 0r/1v · Grok 0r/1v.
 - Referrers: aocr.org, bing.com, duckduckgo.com, google.com, nav-cmp, feature, cn.bing.com, search.brave.com, f-cols, article-body.
 - Engaged-read winners by section: wire=7, stack=8.
@@ -35,11 +35,11 @@ NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
 
 ## Top by engaged reads (eyes that stayed)
-- [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 28 reads, 54 views, 1 listens
+- [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 29 reads, 56 views, 2 listens
 - [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 8 reads, 64 views, 2 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 8 reads, 25 views, 0 listens
 - [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 8 reads, 19 views, 0 listens
-- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 5 reads, 43 views, 1 listens
+- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 5 reads, 42 views, 1 listens
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 5 reads, 13 views, 0 listens
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 4 reads, 22 views, 0 listens
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 3 reads, 28 views, 0 listens
@@ -47,8 +47,8 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck" — 3 reads, 15 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
+- [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 2 listens, 29 reads
 - [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 2 listens, 8 reads
-- [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 1 listens, 28 reads
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 1 listens, 5 reads
 - [wire] "LangGraph Checkpointing vs Temporal: Why Checkpoints Aren't Durable Execution" — 1 listens, 2 reads
 - [wire] "Speech-to-Speech vs Cascaded: Two Architectures for Voice AI Agents in 2026" — 1 listens, 2 reads
@@ -72,8 +72,8 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 64 views, 8 reads
-- [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 54 views, 28 reads
-- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 43 views, 5 reads
+- [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 56 views, 29 reads
+- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 42 views, 5 reads
 - [stack] "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM" — 29 views, 0 reads
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 28 views, 3 reads
 - [stack] "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026" — 27 views, 1 reads
@@ -108,8 +108,8 @@ sample size dwarfs the engaged-read counts below.
 - /posts/how-to-opt-out-ai-training-shared-token-robots-txt.html  — 16 retrieval fetches
 
 Per engine:
-- PerplexityBot (3949 verified): / ×24 · /newsroom ×19 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×18
-- OAI-SearchBot (3205 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×60 · /posts/open-source-llm-for-coding-september-2026.html ×34 · /posts/best-open-vision-language-model-for-agents.html ×29
+- PerplexityBot (3950 verified): / ×24 · /newsroom ×19 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×18
+- OAI-SearchBot (3206 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×60 · /posts/open-source-llm-for-coding-september-2026.html ×34 · /posts/best-open-vision-language-model-for-agents.html ×29
 - ChatGPT-User (771 verified): / ×493 · /posts/viral-1-hour-agentic-engineering-course-what-founders-should-watch.html ×14 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×14
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -117,7 +117,7 @@ precedes a human click is proven demand; a page with 4 engaged reads is not yet 
 
 ## WRITE MORE LIKE THESE — SUPPRESSED (not enough support yet)
 1 piece(s) clear 10 engaged reads; this block needs 5 before a "winning
-format" distribution means anything (best in-window: 28 reads). Inferring a pattern from
+format" distribution means anything (best in-window: 29 reads). Inferring a pattern from
 single-digit samples is curve-fitting, and a confident wrong steer costs more than none.
 ACTION: commission from "WHAT ANSWER ENGINES ARE PULLING" above — its sample size is in the
 hundreds — and from uncovered search demand below. This block returns on its own.
@@ -127,7 +127,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Search-demand signal STALE (123h old, 240 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10834 confirmed AI-engine fetches (Perplexity 3949, ChatGPT Search (OpenAI) 3205, GPTBot (OpenAI) 2909, ChatGPT (user browsing) 771).
+The real answer engines are crawling us — IP-verified: 10836 confirmed AI-engine fetches (Perplexity 3950, ChatGPT Search (OpenAI) 3206, GPTBot (OpenAI) 2909, ChatGPT (user browsing) 771).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 363 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 125 crawler fetches
@@ -138,9 +138,9 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/ai-agent-frameworks-whats-changed-fall-2026.html  — 66 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 60 crawler fetches
 - /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 42 crawler fetches
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 39 crawler fetches
 - /posts/cheapest-gpu-rental-november-2026.html  — 37 crawler fetches
 - /posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html  — 36 crawler fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 34 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)

@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-11T02:37:20.337Z",
+ "generated": "2026-11-11T02:47:40.262Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
-  "todayReads": 4,
+  "todayReads": 5,
   "avgTimeSec": 53,
   "postsThisWeek": 5
  },
  "funnel": {
   "views": 10833,
-  "reads": 294,
+  "reads": 295,
   "completes": 22,
-  "plays": 9,
-  "sessions": 10696
+  "plays": 10,
+  "sessions": 10695
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2827,
-   "reads": 164,
-   "sessions": 2750
+   "reads": 165,
+   "sessions": 2749
   },
   {
    "channel": "referral",
@@ -79,9 +79,9 @@
   {
    "channel": "direct",
    "views": 2827,
-   "reads": 164,
+   "reads": 165,
    "completes": 18,
-   "sessions": 2750,
+   "sessions": 2749,
    "read_rate": 0.058,
    "complete_rate": 0.006,
    "pages_per_session": 1.03,
@@ -279,8 +279,8 @@
   {
    "device": "desktop",
    "views": 10455,
-   "reads": 271,
-   "sessions": 10321
+   "reads": 272,
+   "sessions": 10320
   },
   {
    "device": "mobile",
@@ -302,9 +302,9 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 54,
-   "reads": 28,
-   "plays": 1
+   "views": 56,
+   "reads": 29,
+   "plays": 2
   },
   {
    "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
@@ -342,7 +342,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 43,
+   "views": 42,
    "reads": 5,
    "plays": 1
   },
@@ -449,6 +449,16 @@
  ],
  "topListens": [
   {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 56,
+   "reads": 29,
+   "plays": 2
+  },
+  {
    "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
    "title": "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model",
    "section": "wire",
@@ -459,22 +469,12 @@
    "plays": 2
   },
   {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 54,
-   "reads": 28,
-   "plays": 1
-  },
-  {
    "slug": "ai-agent-frameworks-whats-changed-fall-2026",
    "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 43,
+   "views": 42,
    "reads": 5,
    "plays": 1
   },
@@ -566,9 +566,9 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 54,
-   "reads": 28,
-   "plays": 1
+   "views": 56,
+   "reads": 29,
+   "plays": 2
   },
   {
    "slug": "ai-agent-frameworks-whats-changed-fall-2026",
@@ -576,7 +576,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 43,
+   "views": 42,
    "reads": 5,
    "plays": 1
   },
