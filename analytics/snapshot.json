@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-11T05:10:05.720Z",
+ "generated": "2026-11-11T05:20:06.252Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 2,
   "todayReads": 9,
   "avgTimeSec": 48,
   "postsThisWeek": 5
@@ -11,21 +11,21 @@
   "views": 10836,
   "reads": 296,
   "completes": 22,
-  "plays": 11,
+  "plays": 10,
   "sessions": 10695
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2829,
+   "views": 2830,
    "reads": 165,
    "sessions": 2748
   },
   {
    "channel": "referral",
-   "views": 7861,
+   "views": 7860,
    "reads": 64,
-   "sessions": 7863
+   "sessions": 7862
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7861,
+   "views": 7860,
    "reads": 64,
    "completes": 0,
-   "sessions": 7863,
+   "sessions": 7862,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -78,7 +78,7 @@
   },
   {
    "channel": "direct",
-   "views": 2829,
+   "views": 2830,
    "reads": 165,
    "completes": 18,
    "sessions": 2748,
@@ -352,9 +352,9 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 40,
+   "views": 39,
    "reads": 4,
-   "plays": 1
+   "plays": 0
   },
   {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
@@ -469,16 +469,6 @@
    "plays": 2
   },
   {
-   "slug": "ai-agent-frameworks-whats-changed-fall-2026",
-   "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 40,
-   "reads": 4,
-   "plays": 1
-  },
-  {
    "slug": "langgraph-checkpointing-vs-temporal-durable-execution",
    "title": "LangGraph Checkpointing vs Temporal: Why Checkpoints Aren't Durable Execution",
    "section": "wire",
@@ -547,6 +537,16 @@
    "views": 25,
    "reads": 8,
    "plays": 0
+  },
+  {
+   "slug": "cheapest-gpu-rental-november-2026",
+   "title": "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 8,
+   "plays": 0
   }
  ],
  "topViews": [
@@ -576,9 +576,9 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 40,
+   "views": 39,
    "reads": 4,
-   "plays": 1
+   "plays": 0
   },
   {
    "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
