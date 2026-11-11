@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-11T02:16:40.100Z",
+ "generated": "2026-11-11T02:27:00.310Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
-  "todayReads": 3,
+  "todayReads": 4,
   "avgTimeSec": 53,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 10865,
-  "reads": 293,
+  "views": 10837,
+  "reads": 294,
   "completes": 22,
   "plays": 9,
-  "sessions": 10729
+  "sessions": 10700
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2859,
-   "reads": 163,
-   "sessions": 2783
+   "views": 2831,
+   "reads": 164,
+   "sessions": 2754
   },
   {
    "channel": "referral",
@@ -78,11 +78,11 @@
   },
   {
    "channel": "direct",
-   "views": 2859,
-   "reads": 163,
+   "views": 2831,
+   "reads": 164,
    "completes": 18,
-   "sessions": 2783,
-   "read_rate": 0.057,
+   "sessions": 2754,
+   "read_rate": 0.058,
    "complete_rate": 0.006,
    "pages_per_session": 1.03,
    "median_dwell_sec": 12
@@ -278,9 +278,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10487,
-   "reads": 270,
-   "sessions": 10354
+   "views": 10459,
+   "reads": 271,
+   "sessions": 10325
   },
   {
    "device": "mobile",
@@ -302,8 +302,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 52,
-   "reads": 27,
+   "views": 54,
+   "reads": 28,
    "plays": 1
   },
   {
@@ -464,8 +464,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 52,
-   "reads": 27,
+   "views": 54,
+   "reads": 28,
    "plays": 1
   },
   {
@@ -566,8 +566,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 52,
-   "reads": 27,
+   "views": 54,
+   "reads": 28,
    "plays": 1
   },
   {
@@ -654,17 +654,10 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 898,
+   "views": 886,
    "reads": 0,
-   "sessions": 893,
+   "sessions": 881,
    "avg_dwell_sec": 11
-  },
-  {
-   "path": "/compare/:pair",
-   "views": 262,
-   "reads": 0,
-   "sessions": 262,
-   "avg_dwell_sec": 19
   },
   {
    "path": "/build",
@@ -672,6 +665,13 @@
    "reads": 0,
    "sessions": 258,
    "avg_dwell_sec": null
+  },
+  {
+   "path": "/compare/:pair",
+   "views": 247,
+   "reads": 0,
+   "sessions": 247,
+   "avg_dwell_sec": 19
   },
   {
    "path": "/",
@@ -689,9 +689,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 48,
+   "views": 47,
    "reads": 0,
-   "sessions": 48,
+   "sessions": 47,
    "avg_dwell_sec": null
   },
   {
