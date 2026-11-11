@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-11T18:07:23.331Z",
+ "generated": "2026-11-11T18:17:40.026Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11232,
+ "verifiedAiHits": 11251,
  "logsScanned": 30,
  "windowStart": "2026-10-28",
  "windowEnd": "2026-11-11",
- "totalHits": 117518,
- "aiHits": 93652,
+ "totalHits": 117573,
+ "aiHits": 93685,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27330,
+   "hits": 27338,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15682,
+   "hits": 15688,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9829,
+   "hits": 9842,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6438,
-   "verifiedHits": 6384,
+   "hits": 6445,
+   "verifiedHits": 6391,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4250,
-   "verifiedHits": 4172,
+   "hits": 4264,
+   "verifiedHits": 4186,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3393,
-   "verifiedHits": 3340,
+   "hits": 3398,
+   "verifiedHits": 3345,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
    "topPaths": [
@@ -300,7 +300,7 @@
      "hits": 30
     },
     {
-     "path": "/posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html",
+     "path": "/posts/time-series-foundation-models-chronos-2-vs-timesfm-vs-moirai-vs-toto.html",
      "hits": 30
     }
    ],
@@ -575,7 +575,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 303,
+   "hits": 305,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-11",
@@ -583,6 +583,10 @@
     {
      "path": "/stack.html",
      "hits": 3
+    },
+    {
+     "path": "/alternatives/lunary",
+     "hits": 2
     },
     {
      "path": "/graphql",
@@ -594,10 +598,6 @@
     },
     {
      "path": "/posts/2026-11-09-founders-wire-ai-valuation-repriced-in-a-week-openai-markdown-nvidia-selloff.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/agno-vs-langgraph-vs-crewai.html",
      "hits": 1
     }
    ],
