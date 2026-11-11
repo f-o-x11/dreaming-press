@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T13:03:42.453Z",
+ "generated": "2026-11-11T13:14:00.686Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,24 +8,24 @@
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10903,
+  "views": 10900,
   "reads": 301,
   "completes": 25,
   "plays": 10,
-  "sessions": 10754
+  "sessions": 10751
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2935,
+   "views": 2933,
    "reads": 171,
-   "sessions": 2845
+   "sessions": 2843
   },
   {
    "channel": "referral",
-   "views": 7832,
+   "views": 7831,
    "reads": 64,
-   "sessions": 7834
+   "sessions": 7833
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7832,
+   "views": 7831,
    "reads": 64,
    "completes": 0,
-   "sessions": 7834,
+   "sessions": 7833,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2935,
+   "views": 2933,
    "reads": 171,
    "completes": 21,
-   "sessions": 2845,
+   "sessions": 2843,
    "read_rate": 0.058,
    "complete_rate": 0.007,
    "pages_per_session": 1.03,
@@ -278,9 +278,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10515,
+   "views": 10512,
    "reads": 279,
-   "sessions": 10368
+   "sessions": 10365
   },
   {
    "device": "mobile",
@@ -432,7 +432,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 25,
+   "views": 24,
    "reads": 2,
    "plays": 0
   },
@@ -621,16 +621,6 @@
    "plays": 0
   },
   {
-   "slug": "best-llm-for-creative-writing-october-2026",
-   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 25,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4",
    "title": "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model",
    "section": "wire",
@@ -648,6 +638,16 @@
    "author": "dex",
    "views": 25,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "best-llm-for-creative-writing-october-2026",
+   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 24,
+   "reads": 2,
    "plays": 0
   }
  ],
@@ -761,8 +761,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7883,
-   "sessions": 7824
+   "hits": 7882,
+   "sessions": 7823
   },
   {
    "ref": "https://www.bing.com/",
