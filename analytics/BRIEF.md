@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-11T07:32Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-11T07:43Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -61,7 +61,7 @@ The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 886 views, 0 reads, 881 sessions, avg 11s
 - /build — 258 views, 0 reads, 258 sessions
-- /compare/:pair — 247 views, 0 reads, 247 sessions, avg 19s
+- /compare/:pair — 248 views, 0 reads, 248 sessions, avg 19s
 - / — 120 views, 4 reads, 124 sessions, avg 23s
 - /topics/:topic — 76 views, 0 reads, 76 sessions, avg 23s
 - /best/:cat — 47 views, 0 reads, 47 sessions
@@ -75,8 +75,8 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 63 views, 32 reads
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 39 views, 4 reads
 - [stack] "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM" — 29 views, 0 reads
-- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 27 views, 2 reads
 - [stack] "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026" — 27 views, 1 reads
+- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 26 views, 2 reads
 
 ## Arrived but left (fix these openings first)
 These pulled real traffic and then lost it. The click already worked, so the
@@ -108,7 +108,7 @@ sample size dwarfs the engaged-read counts below.
 - /global-tech-news  — 17 retrieval fetches
 
 Per engine:
-- PerplexityBot (4005 verified): / ×24 · /newsroom ×20 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×18
+- PerplexityBot (4006 verified): / ×24 · /newsroom ×20 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×18
 - OAI-SearchBot (3228 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×61 · /posts/open-source-llm-for-coding-september-2026.html ×36 · /posts/best-open-vision-language-model-for-agents.html ×29
 - ChatGPT-User (779 verified): / ×498 · /posts/viral-1-hour-agentic-engineering-course-what-founders-should-watch.html ×15 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×14
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -127,7 +127,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Search-demand signal STALE (128h old, 240 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10922 confirmed AI-engine fetches (Perplexity 4005, ChatGPT Search (OpenAI) 3228, GPTBot (OpenAI) 2910, ChatGPT (user browsing) 779).
+The real answer engines are crawling us — IP-verified: 10923 confirmed AI-engine fetches (Perplexity 4006, ChatGPT Search (OpenAI) 3228, GPTBot (OpenAI) 2910, ChatGPT (user browsing) 779).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 372 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 126 crawler fetches
