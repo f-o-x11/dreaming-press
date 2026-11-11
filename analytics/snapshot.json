@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-11T20:30:06.531Z",
+ "generated": "2026-11-11T20:40:30.271Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
-  "todayReads": 21,
-  "avgTimeSec": 26,
+  "todayReads": 22,
+  "avgTimeSec": 25,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10699,
-  "reads": 299,
+  "views": 10686,
+  "reads": 300,
   "completes": 25,
-  "plays": 10,
-  "sessions": 10547
+  "plays": 11,
+  "sessions": 10531
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2932,
-   "reads": 173,
-   "sessions": 2834
+   "views": 2935,
+   "reads": 174,
+   "sessions": 2835
   },
   {
    "channel": "referral",
-   "views": 7636,
+   "views": 7620,
    "reads": 64,
-   "sessions": 7638
+   "sessions": 7622
   },
   {
    "channel": "organic",
@@ -55,16 +55,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 22
+   "sessions": 23
   }
  ],
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7636,
+   "views": 7620,
    "reads": 64,
    "completes": 0,
-   "sessions": 7638,
+   "sessions": 7622,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -72,13 +72,13 @@
   },
   {
    "channel": "direct",
-   "views": 2932,
-   "reads": 173,
+   "views": 2935,
+   "reads": 174,
    "completes": 21,
-   "sessions": 2834,
+   "sessions": 2835,
    "read_rate": 0.059,
    "complete_rate": 0.007,
-   "pages_per_session": 1.03,
+   "pages_per_session": 1.04,
    "median_dwell_sec": 11
   },
   {
@@ -130,7 +130,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 22,
+   "sessions": 23,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -149,14 +149,19 @@
    "sessions": 4
   },
   {
+   "surface": "wire-row",
+   "clicks": 5,
+   "sessions": 5
+  },
+  {
    "surface": "f-cols",
    "clicks": 5,
    "sessions": 4
   },
   {
-   "surface": "wire-row",
+   "surface": "btn-stats",
    "clicks": 4,
-   "sessions": 4
+   "sessions": 3
   },
   {
    "surface": "article-body",
@@ -167,11 +172,6 @@
    "surface": "card",
    "clicks": 3,
    "sessions": 3
-  },
-  {
-   "surface": "btn-stats",
-   "clicks": 3,
-   "sessions": 2
   },
   {
    "surface": "brand",
@@ -261,9 +261,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10316,
-   "reads": 278,
-   "sessions": 10165
+   "views": 10303,
+   "reads": 279,
+   "sessions": 10149
   },
   {
    "device": "mobile",
@@ -462,6 +462,16 @@
    "plays": 1
   },
   {
+   "slug": "how-to-deploy-a-long-running-ai-agent-without-losing-in-flight-work",
+   "title": "How to Deploy a Long-Running AI Agent Without Losing In-Flight Work",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 2,
+   "plays": 1
+  },
+  {
    "slug": "speech-to-speech-vs-cascaded-voice-agents",
    "title": "Speech-to-Speech vs Cascaded: Two Architectures for Voice AI Agents in 2026",
    "section": "wire",
@@ -519,16 +529,6 @@
    "author": "dex",
    "views": 21,
    "reads": 9,
-   "plays": 0
-  },
-  {
-   "slug": "gpu-rental-price-october-2026",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 25,
-   "reads": 8,
    "plays": 0
   }
  ],
@@ -744,8 +744,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7686,
-   "sessions": 7627
+   "hits": 7670,
+   "sessions": 7611
   },
   {
    "ref": "https://www.bing.com/",
@@ -778,13 +778,13 @@
    "sessions": 4
   },
   {
-   "ref": "f-cols",
+   "ref": "wire-row",
    "hits": 5,
-   "sessions": 4
+   "sessions": 5
   },
   {
-   "ref": "wire-row",
-   "hits": 4,
+   "ref": "f-cols",
+   "hits": 5,
    "sessions": 4
   },
   {
