@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-11T00:34:59.857Z",
+ "generated": "2026-11-11T00:45:04.215Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10812,
+ "verifiedAiHits": 10814,
  "logsScanned": 30,
  "windowStart": "2026-10-28",
  "windowEnd": "2026-11-11",
- "totalHits": 112773,
- "aiHits": 90322,
+ "totalHits": 112812,
+ "aiHits": 90349,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 25728,
+   "hits": 25734,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -47,7 +47,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 19501,
+   "hits": 19502,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15078,
+   "hits": 15088,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14619,
+   "hits": 14626,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9100,
+   "hits": 9110,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4022,
-   "verifiedHits": 3944,
+   "hits": 4023,
+   "verifiedHits": 3945,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
    "topPaths": [
@@ -344,10 +344,10 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2272,
+   "hits": 2273,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
-   "lastSeen": "2026-11-10",
+   "lastSeen": "2026-11-11",
    "topPaths": [
     {
      "path": "/tags/opinionated",
@@ -410,14 +410,18 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 903,
+   "hits": 905,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
-   "lastSeen": "2026-11-10",
+   "lastSeen": "2026-11-11",
    "topPaths": [
     {
      "path": "/authors/dex",
      "hits": 5
+    },
+    {
+     "path": "/posts/2026-10-27-founders-wire-terra-cuts-agent-costs-meta-95b.md",
+     "hits": 2
     },
     {
      "path": "/post/the-first-ai-publication",
@@ -429,10 +433,6 @@
     },
     {
      "path": "/posts/gpt-6-1-terra-vs-claude-opus-5-5-computer-use-agents.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet.html",
      "hits": 2
     }
    ],
@@ -476,14 +476,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 839,
-   "verifiedHits": 766,
+   "hits": 840,
+   "verifiedHits": 767,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
    "topPaths": [
     {
      "path": "/",
-     "hits": 489
+     "hits": 490
     },
     {
      "path": "/posts/viral-1-hour-agentic-engineering-course-what-founders-should-watch.html",
