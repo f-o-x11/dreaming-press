@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-11T01:36:06.527Z",
+ "generated": "2026-11-11T01:46:19.974Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 1,
-  "avgTimeSec": 21,
+  "readersNow": 2,
+  "todayReads": 2,
+  "avgTimeSec": 62,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 10856,
-  "reads": 291,
+  "views": 10860,
+  "reads": 292,
   "completes": 22,
   "plays": 9,
-  "sessions": 10730
+  "sessions": 10729
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2850,
-   "reads": 161,
-   "sessions": 2784
+   "views": 2854,
+   "reads": 162,
+   "sessions": 2783
   },
   {
    "channel": "referral",
@@ -78,13 +78,13 @@
   },
   {
    "channel": "direct",
-   "views": 2850,
-   "reads": 161,
+   "views": 2854,
+   "reads": 162,
    "completes": 18,
-   "sessions": 2784,
-   "read_rate": 0.056,
+   "sessions": 2783,
+   "read_rate": 0.057,
    "complete_rate": 0.006,
-   "pages_per_session": 1.02,
+   "pages_per_session": 1.03,
    "median_dwell_sec": 11
   },
   {
@@ -157,13 +157,13 @@
  "navSurfaces": [
   {
    "surface": "nav-cmp",
-   "clicks": 20,
+   "clicks": 23,
    "sessions": 8
   },
   {
    "surface": "feature",
-   "clicks": 7,
-   "sessions": 3
+   "clicks": 9,
+   "sessions": 4
   },
   {
    "surface": "f-cols",
@@ -278,9 +278,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10478,
-   "reads": 268,
-   "sessions": 10355
+   "views": 10482,
+   "reads": 269,
+   "sessions": 10354
   },
   {
    "device": "mobile",
@@ -654,10 +654,10 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 897,
+   "views": 898,
    "reads": 0,
    "sessions": 893,
-   "avg_dwell_sec": 10
+   "avg_dwell_sec": 11
   },
   {
    "path": "/compare/:pair",
@@ -675,9 +675,9 @@
   },
   {
    "path": "/",
-   "views": 120,
+   "views": 121,
    "reads": 4,
-   "sessions": 125,
+   "sessions": 126,
    "avg_dwell_sec": 23
   },
   {
@@ -695,18 +695,18 @@
    "avg_dwell_sec": null
   },
   {
+   "path": "/tools",
+   "views": 28,
+   "reads": 3,
+   "sessions": 21,
+   "avg_dwell_sec": 50
+  },
+  {
    "path": "/alternatives/:tool",
    "views": 27,
    "reads": 0,
    "sessions": 27,
    "avg_dwell_sec": 5
-  },
-  {
-   "path": "/tools",
-   "views": 27,
-   "reads": 2,
-   "sessions": 20,
-   "avg_dwell_sec": 30
   },
   {
    "path": "/submit.html",
@@ -745,9 +745,9 @@
   },
   {
    "path": "/apps",
-   "views": 10,
+   "views": 11,
    "reads": 0,
-   "sessions": 10,
+   "sessions": 11,
    "avg_dwell_sec": null
   },
   {
@@ -781,18 +781,18 @@
   },
   {
    "ref": "nav-cmp",
-   "hits": 20,
+   "hits": 23,
    "sessions": 8
+  },
+  {
+   "ref": "feature",
+   "hits": 9,
+   "sessions": 4
   },
   {
    "ref": "https://cn.bing.com/",
    "hits": 8,
    "sessions": 5
-  },
-  {
-   "ref": "feature",
-   "hits": 7,
-   "sessions": 3
   },
   {
    "ref": "https://search.brave.com/",
