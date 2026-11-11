@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-11T15:35:40.371Z",
+ "generated": "2026-11-11T15:46:00.264Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,24 +8,24 @@
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 10806,
+  "views": 10796,
   "reads": 297,
   "completes": 25,
   "plays": 10,
-  "sessions": 10658
+  "sessions": 10647
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2933,
+   "views": 2932,
    "reads": 170,
-   "sessions": 2841
+   "sessions": 2839
   },
   {
    "channel": "referral",
-   "views": 7740,
+   "views": 7731,
    "reads": 64,
-   "sessions": 7742
+   "sessions": 7733
   },
   {
    "channel": "organic",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7740,
+   "views": 7731,
    "reads": 64,
    "completes": 0,
-   "sessions": 7742,
+   "sessions": 7733,
    "read_rate": 0.008,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -72,10 +72,10 @@
   },
   {
    "channel": "direct",
-   "views": 2933,
+   "views": 2932,
    "reads": 170,
    "completes": 21,
-   "sessions": 2841,
+   "sessions": 2839,
    "read_rate": 0.058,
    "complete_rate": 0.007,
    "pages_per_session": 1.03,
@@ -261,9 +261,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 10424,
+   "views": 10414,
    "reads": 276,
-   "sessions": 10278
+   "sessions": 10267
   },
   {
    "device": "mobile",
@@ -584,16 +584,6 @@
    "plays": 0
   },
   {
-   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
-   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
-   "author": "dex",
-   "views": 26,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "gpu-rental-price-october-2026",
    "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
    "section": "stack",
@@ -601,6 +591,16 @@
    "author": "dex",
    "views": 25,
    "reads": 8,
+   "plays": 0
+  },
+  {
+   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
+   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
+   "author": "dex",
+   "views": 25,
+   "reads": 1,
    "plays": 0
   },
   {
@@ -744,8 +744,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7791,
-   "sessions": 7732
+   "hits": 7782,
+   "sessions": 7723
   },
   {
    "ref": "https://www.bing.com/",
