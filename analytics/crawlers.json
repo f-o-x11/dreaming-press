@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-11T18:28:00.158Z",
+ "generated": "2026-11-11T18:38:09.844Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 11265,
+ "verifiedAiHits": 11270,
  "logsScanned": 30,
  "windowStart": "2026-10-28",
  "windowEnd": "2026-11-11",
- "totalHits": 117639,
- "aiHits": 93741,
+ "totalHits": 117662,
+ "aiHits": 93758,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27356,
+   "hits": 27368,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9850,
+   "hits": 9853,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6445,
-   "verifiedHits": 6391,
+   "hits": 6446,
+   "verifiedHits": 6392,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3404,
-   "verifiedHits": 3350,
+   "hits": 3409,
+   "verifiedHits": 3355,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 977,
+   "hits": 978,
    "verifiedHits": 0,
    "firstSeen": "2026-10-28",
    "lastSeen": "2026-11-11",
@@ -575,18 +575,18 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 305,
+   "hits": 306,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-11",
    "topPaths": [
     {
-     "path": "/stack.html",
+     "path": "/alternatives/lunary",
      "hits": 3
     },
     {
-     "path": "/alternatives/lunary",
-     "hits": 2
+     "path": "/stack.html",
+     "hits": 3
     },
     {
      "path": "/graphql",
