@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-12T05:00:50.320Z",
+ "generated": "2026-11-12T05:11:00.324Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 13,
+  "readersNow": 10,
   "todayReads": 0,
-  "avgTimeSec": 10,
+  "avgTimeSec": 5,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 9848,
+  "views": 9837,
   "reads": 294,
   "completes": 25,
   "plays": 11,
-  "sessions": 9695
+  "sessions": 9684
  },
  "channels": [
   {
@@ -23,15 +23,15 @@
   },
   {
    "channel": "referral",
-   "views": 6804,
+   "views": 6784,
    "reads": 62,
-   "sessions": 6806
+   "sessions": 6786
   },
   {
    "channel": "organic",
-   "views": 102,
+   "views": 111,
    "reads": 55,
-   "sessions": 94
+   "sessions": 103
   },
   {
    "channel": "ai",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 6804,
+   "views": 6784,
    "reads": 62,
    "completes": 0,
-   "sessions": 6806,
+   "sessions": 6786,
    "read_rate": 0.009,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -83,14 +83,14 @@
   },
   {
    "channel": "organic",
-   "views": 102,
+   "views": 111,
    "reads": 55,
    "completes": 2,
-   "sessions": 94,
-   "read_rate": 0.539,
-   "complete_rate": 0.02,
-   "pages_per_session": 1.09,
-   "median_dwell_sec": 2
+   "sessions": 103,
+   "read_rate": 0.495,
+   "complete_rate": 0.018,
+   "pages_per_session": 1.08,
+   "median_dwell_sec": 3
   },
   {
    "channel": "ai",
@@ -255,9 +255,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9473,
+   "views": 9462,
    "reads": 274,
-   "sessions": 9320
+   "sessions": 9309
   },
   {
    "device": "mobile",
@@ -558,6 +558,16 @@
    "plays": 0
   },
   {
+   "slug": "best-open-source-rl-frameworks-for-training-agents",
+   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 28,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
    "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
    "section": "stack",
@@ -616,24 +626,14 @@
    "views": 22,
    "reads": 8,
    "plays": 0
-  },
-  {
-   "slug": "best-llm-for-creative-writing-october-2026",
-   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 2,
-   "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 851,
+   "views": 850,
    "reads": 0,
-   "sessions": 846,
+   "sessions": 845,
    "avg_dwell_sec": 11
   },
   {
@@ -738,8 +738,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 6854,
-   "sessions": 6796
+   "hits": 6834,
+   "sessions": 6776
   },
   {
    "ref": "https://www.bing.com/",
@@ -752,14 +752,14 @@
    "sessions": 27
   },
   {
+   "ref": "https://www.google.com/",
+   "hits": 39,
+   "sessions": 31
+  },
+  {
    "ref": "nav-cmp",
    "hits": 29,
    "sessions": 9
-  },
-  {
-   "ref": "https://www.google.com/",
-   "hits": 24,
-   "sessions": 22
   },
   {
    "ref": "feature",
