@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-12T15:12:53.272Z",
+ "generated": "2026-11-12T15:23:00.335Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8336,
+ "verifiedAiHits": 8339,
  "logsScanned": 30,
  "windowStart": "2026-10-29",
  "windowEnd": "2026-11-12",
- "totalHits": 114131,
- "aiHits": 89809,
+ "totalHits": 114154,
+ "aiHits": 89823,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27185,
+   "hits": 27196,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9823,
+   "hits": 9826,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6377,
-   "verifiedHits": 6323,
+   "hits": 6381,
+   "verifiedHits": 6327,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4106,
-   "verifiedHits": 4028,
+   "hits": 4107,
+   "verifiedHits": 4029,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1109,
+   "hits": 1111,
    "verifiedHits": 600,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 835,
-   "verifiedHits": 757,
+   "hits": 837,
+   "verifiedHits": 759,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
    "topPaths": [
     {
      "path": "/",
-     "hits": 501
+     "hits": 502
     },
     {
      "path": "/posts/viral-1-hour-agentic-engineering-course-what-founders-should-watch.html",
@@ -461,12 +461,12 @@
      "hits": 10
     },
     {
-     "path": "/posts/how-to-add-sign-in-with-chatgpt-oauth.html",
+     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
      "hits": 8
     },
     {
-     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
-     "hits": 7
+     "path": "/posts/how-to-add-sign-in-with-chatgpt-oauth.html",
+     "hits": 8
     }
    ],
    "verifiable": true
