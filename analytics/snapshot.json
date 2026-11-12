@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-12T10:58:00.606Z",
+ "generated": "2026-11-12T11:08:20.384Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 8,
-  "avgTimeSec": 13,
+  "avgTimeSec": 12,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 9149,
+  "views": 9139,
   "reads": 296,
   "completes": 25,
   "plays": 12,
-  "sessions": 8995
+  "sessions": 8982
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2903,
+   "views": 2906,
    "reads": 173,
-   "sessions": 2805
+   "sessions": 2806
   },
   {
    "channel": "referral",
-   "views": 6109,
+   "views": 6096,
    "reads": 62,
-   "sessions": 6111
+   "sessions": 6098
   },
   {
    "channel": "organic",
@@ -55,16 +55,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 23
+   "sessions": 24
   }
  ],
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 6109,
+   "views": 6096,
    "reads": 62,
    "completes": 0,
-   "sessions": 6111,
+   "sessions": 6098,
    "read_rate": 0.01,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -72,13 +72,13 @@
   },
   {
    "channel": "direct",
-   "views": 2903,
+   "views": 2906,
    "reads": 173,
    "completes": 21,
-   "sessions": 2805,
+   "sessions": 2806,
    "read_rate": 0.06,
    "complete_rate": 0.007,
-   "pages_per_session": 1.03,
+   "pages_per_session": 1.04,
    "median_dwell_sec": 11
   },
   {
@@ -130,7 +130,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 23,
+   "sessions": 24,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -140,8 +140,8 @@
  "navSurfaces": [
   {
    "surface": "nav-cmp",
-   "clicks": 29,
-   "sessions": 9
+   "clicks": 31,
+   "sessions": 10
   },
   {
    "surface": "feature",
@@ -149,14 +149,14 @@
    "sessions": 4
   },
   {
-   "surface": "wire-row",
-   "clicks": 5,
+   "surface": "f-cols",
+   "clicks": 6,
    "sessions": 5
   },
   {
-   "surface": "f-cols",
+   "surface": "wire-row",
    "clicks": 5,
-   "sessions": 4
+   "sessions": 5
   },
   {
    "surface": "btn-stats",
@@ -255,9 +255,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 8772,
+   "views": 8762,
    "reads": 277,
-   "sessions": 8618
+   "sessions": 8605
   },
   {
    "device": "mobile",
@@ -631,9 +631,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 834,
+   "views": 833,
    "reads": 0,
-   "sessions": 829,
+   "sessions": 828,
    "avg_dwell_sec": 11
   },
   {
@@ -645,16 +645,16 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 249,
+   "views": 248,
    "reads": 0,
-   "sessions": 249,
+   "sessions": 248,
    "avg_dwell_sec": 19
   },
   {
    "path": "/",
-   "views": 208,
+   "views": 209,
    "reads": 4,
-   "sessions": 215,
+   "sessions": 216,
    "avg_dwell_sec": 20
   },
   {
@@ -694,10 +694,10 @@
   },
   {
    "path": "/stack.html",
-   "views": 16,
+   "views": 17,
    "reads": 0,
-   "sessions": 14,
-   "avg_dwell_sec": 10
+   "sessions": 15,
+   "avg_dwell_sec": 9
   },
   {
    "path": "/about.html",
@@ -715,10 +715,10 @@
   },
   {
    "path": "/apps",
-   "views": 12,
+   "views": 13,
    "reads": 1,
-   "sessions": 11,
-   "avg_dwell_sec": 104
+   "sessions": 12,
+   "avg_dwell_sec": 55
   },
   {
    "path": "/authors/dex",
@@ -738,8 +738,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 6157,
-   "sessions": 6099
+   "hits": 6143,
+   "sessions": 6085
   },
   {
    "ref": "https://www.bing.com/",
@@ -758,8 +758,8 @@
   },
   {
    "ref": "nav-cmp",
-   "hits": 29,
-   "sessions": 9
+   "hits": 31,
+   "sessions": 10
   },
   {
    "ref": "feature",
@@ -772,6 +772,11 @@
    "sessions": 4
   },
   {
+   "ref": "f-cols",
+   "hits": 6,
+   "sessions": 5
+  },
+  {
    "ref": "wire-row",
    "hits": 5,
    "sessions": 5
@@ -780,11 +785,6 @@
    "ref": "https://search.brave.com/",
    "hits": 5,
    "sessions": 3
-  },
-  {
-   "ref": "f-cols",
-   "hits": 5,
-   "sessions": 4
   }
  ]
 }

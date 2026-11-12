@@ -1,19 +1,19 @@
-# Analytics brief — auto-exported 2026-11-12T10:58Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-12T11:08Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 9149 views → 296 engaged reads → 25 completes · 8995 sessions.
-- Channels: direct 173r/2903v · referral 62r/6109v · organic 55r/109v · ai 4r/14v · campaign:chatgpt.com 1r/10v · campaign:openai 1r/4v · internal-nav 0r/0v.
+- Funnel: 9139 views → 296 engaged reads → 25 completes · 8982 sessions.
+- Channels: direct 173r/2906v · referral 62r/6096v · organic 55r/109v · ai 4r/14v · campaign:chatgpt.com 1r/10v · campaign:openai 1r/4v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 2r/13v · Le Chat 1r/1v · Perplexity 1r/1v · Doubao 1r/1v · Kimi 0r/7v · Grok 0r/1v.
-- Referrers: aocr.org, bing.com, duckduckgo.com, google.com, nav-cmp, feature, cn.bing.com, wire-row, search.brave.com, f-cols.
+- Referrers: aocr.org, bing.com, duckduckgo.com, google.com, nav-cmp, feature, cn.bing.com, f-cols, wire-row, search.brave.com.
 - Engaged-read winners by section: wire=7, stack=8.
 
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
-- nav-cmp: 29 clicks from 9 sessions
+- nav-cmp: 31 clicks from 10 sessions
 - feature: 9 clicks from 4 sessions
+- f-cols: 6 clicks from 5 sessions
 - wire-row: 5 clicks from 5 sessions
-- f-cols: 5 clicks from 4 sessions
 - btn-stats: 4 clicks from 3 sessions
 - article-body: 4 clicks from 4 sessions
 - card: 3 clicks from 3 sessions
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- referral: 6109 views · read 1.0% · complete 0.0% · 1 pages/session · median ?s
-- direct: 2903 views · read 6.0% · complete 0.7% · 1.03 pages/session · median 11s
+- referral: 6096 views · read 1.0% · complete 0.0% · 1 pages/session · median ?s
+- direct: 2906 views · read 6.0% · complete 0.7% · 1.04 pages/session · median 11s
 - organic: 109 views · read 50.5% · complete 1.8% · 1.08 pages/session · median 3s
 - ai: 14 views · read 28.6% · complete 0.0% · 1.08 pages/session · median 4s
 - campaign:chatgpt.com: 10 views · read 10.0% · complete 0.0% · 1.67 pages/session · median ?s
@@ -59,10 +59,10 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 834 views, 0 reads, 829 sessions, avg 11s
+- /stack/:tool — 833 views, 0 reads, 828 sessions, avg 11s
 - /build — 259 views, 0 reads, 259 sessions
-- /compare/:pair — 249 views, 0 reads, 249 sessions, avg 19s
-- / — 208 views, 4 reads, 215 sessions, avg 20s
+- /compare/:pair — 248 views, 0 reads, 248 sessions, avg 19s
+- / — 209 views, 4 reads, 216 sessions, avg 20s
 - /topics/:topic — 76 views, 0 reads, 76 sessions, avg 23s
 - /best/:cat — 47 views, 0 reads, 47 sessions
 - /tools — 28 views, 3 reads, 21 sessions, avg 50s
