@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-12T23:22:20.251Z",
+ "generated": "2026-11-12T23:32:40.307Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8408,
+ "verifiedAiHits": 8502,
  "logsScanned": 30,
  "windowStart": "2026-10-29",
  "windowEnd": "2026-11-12",
- "totalHits": 115898,
- "aiHits": 91023,
+ "totalHits": 116019,
+ "aiHits": 91139,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27721,
+   "hits": 27735,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14650,
+   "hits": 14658,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 10143,
+   "hits": 10145,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6534,
-   "verifiedHits": 6480,
+   "hits": 6535,
+   "verifiedHits": 6481,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4140,
-   "verifiedHits": 4062,
+   "hits": 4232,
+   "verifiedHits": 4154,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 986,
+   "hits": 988,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 868,
-   "verifiedHits": 789,
+   "hits": 870,
+   "verifiedHits": 791,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
    "topPaths": [
     {
      "path": "/",
-     "hits": 518
+     "hits": 519
     },
     {
      "path": "/posts/viral-1-hour-agentic-engineering-course-what-founders-should-watch.html",

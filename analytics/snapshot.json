@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-12T23:22:20.526Z",
+ "generated": "2026-11-12T23:32:40.604Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 0,
   "todayReads": 13,
   "avgTimeSec": 11,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7660,
+  "views": 7649,
   "reads": 287,
   "completes": 25,
   "plays": 12,
-  "sessions": 7513
+  "sessions": 7502
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2864,
+   "views": 2861,
    "reads": 167,
-   "sessions": 2764
+   "sessions": 2761
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 4666,
+   "views": 4658,
    "reads": 57,
-   "sessions": 4668
+   "sessions": 4660
   },
   {
    "channel": "ai",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 4666,
+   "views": 4658,
    "reads": 57,
    "completes": 0,
-   "sessions": 4668,
+   "sessions": 4660,
    "read_rate": 0.012,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -72,10 +72,10 @@
   },
   {
    "channel": "direct",
-   "views": 2864,
+   "views": 2861,
    "reads": 167,
    "completes": 21,
-   "sessions": 2764,
+   "sessions": 2761,
    "read_rate": 0.058,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
@@ -255,15 +255,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7296,
+   "views": 7286,
    "reads": 266,
-   "sessions": 7149
+   "sessions": 7139
   },
   {
    "device": "mobile",
-   "views": 357,
+   "views": 356,
    "reads": 17,
-   "sessions": 361
+   "sessions": 360
   },
   {
    "device": "tablet",
@@ -553,7 +553,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 31,
+   "views": 30,
    "reads": 1,
    "plays": 0
   },
@@ -631,9 +631,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 798,
+   "views": 797,
    "reads": 0,
-   "sessions": 793,
+   "sessions": 792,
    "avg_dwell_sec": 11
   },
   {
@@ -738,8 +738,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 4708,
-   "sessions": 4655
+   "hits": 4700,
+   "sessions": 4647
   },
   {
    "ref": "https://www.bing.com/",
