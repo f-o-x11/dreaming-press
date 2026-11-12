@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-12T00:15:00.347Z",
+ "generated": "2026-11-12T00:25:01.475Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 1,
   "todayReads": 0,
   "avgTimeSec": 0,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 10326,
+  "views": 10301,
   "reads": 299,
   "completes": 25,
   "plays": 11,
-  "sessions": 10171
+  "sessions": 10146
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2926,
+   "views": 2927,
    "reads": 174,
-   "sessions": 2826
+   "sessions": 2827
   },
   {
    "channel": "referral",
-   "views": 7269,
+   "views": 7243,
    "reads": 64,
-   "sessions": 7271
+   "sessions": 7245
   },
   {
    "channel": "organic",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7269,
+   "views": 7243,
    "reads": 64,
    "completes": 0,
-   "sessions": 7271,
+   "sessions": 7245,
    "read_rate": 0.009,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -72,10 +72,10 @@
   },
   {
    "channel": "direct",
-   "views": 2926,
+   "views": 2927,
    "reads": 174,
    "completes": 21,
-   "sessions": 2826,
+   "sessions": 2827,
    "read_rate": 0.059,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
@@ -261,9 +261,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9943,
+   "views": 9918,
    "reads": 279,
-   "sessions": 9789
+   "sessions": 9764
   },
   {
    "device": "mobile",
@@ -325,7 +325,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 22,
+   "views": 21,
    "reads": 4,
    "plays": 0
   },
@@ -360,18 +360,18 @@
    "plays": 0
   },
   {
-   "slug": "vllm-rust-frontend",
-   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 12,
+   "views": 10,
    "reads": 3,
    "plays": 0
   },
   {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "slug": "vllm-rust-frontend",
+   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -637,9 +637,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 863,
+   "views": 862,
    "reads": 0,
-   "sessions": 858,
+   "sessions": 857,
    "avg_dwell_sec": 11
   },
   {
@@ -744,8 +744,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7319,
-   "sessions": 7260
+   "hits": 7293,
+   "sessions": 7234
   },
   {
    "ref": "https://www.bing.com/",

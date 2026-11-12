@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-12T00:15:00.053Z",
+ "generated": "2026-11-12T00:25:01.138Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8136,
+ "verifiedAiHits": 8138,
  "logsScanned": 30,
  "windowStart": "2026-10-29",
  "windowEnd": "2026-11-12",
- "totalHits": 109837,
- "aiHits": 87074,
+ "totalHits": 109862,
+ "aiHits": 87085,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 25525,
+   "hits": 25534,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -179,14 +179,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6079,
-   "verifiedHits": 6025,
+   "hits": 6086,
+   "verifiedHits": 6032,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 126
+     "hits": 127
     },
     {
      "path": "/posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html",
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4863,
+   "hits": 4865,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4042,
-   "verifiedHits": 3964,
+   "hits": 4043,
+   "verifiedHits": 3965,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3264,
-   "verifiedHits": 3210,
+   "hits": 3265,
+   "verifiedHits": 3211,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
    "topPaths": [
@@ -344,10 +344,10 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1063,
-   "verifiedHits": 567,
+   "hits": 1066,
+   "verifiedHits": 570,
    "firstSeen": "2026-10-29",
-   "lastSeen": "2026-11-11",
+   "lastSeen": "2026-11-12",
    "topPaths": [
     {
      "path": "/",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 915,
+   "hits": 917,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -391,15 +391,15 @@
      "hits": 2
     },
     {
+     "path": "/posts/ai-agent-observability-build-vs-buy-2026.md",
+     "hits": 2
+    },
+    {
      "path": "/posts/2026-10-27-founders-wire-terra-cuts-agent-costs-meta-95b.md",
      "hits": 2
     },
     {
      "path": "/posts/2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-10-26-founders-wire-nvidia-2000-per-gpu-software-fee-agents.html",
      "hits": 2
     }
    ],
