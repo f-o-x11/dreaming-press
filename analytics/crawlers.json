@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-12T13:11:00.429Z",
+ "generated": "2026-11-12T13:21:00.747Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8314,
+ "verifiedAiHits": 8316,
  "logsScanned": 30,
  "windowStart": "2026-10-29",
  "windowEnd": "2026-11-12",
- "totalHits": 113596,
- "aiHits": 89399,
+ "totalHits": 113657,
+ "aiHits": 89445,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27018,
+   "hits": 27044,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9806,
+   "hits": 9809,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -164,11 +164,11 @@
      "hits": 6
     },
     {
-     "path": "/tags/howto",
+     "path": "/wire.html",
      "hits": 6
     },
     {
-     "path": "/posts/2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4.html",
+     "path": "/tags/howto",
      "hits": 6
     }
    ],
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6335,
-   "verifiedHits": 6281,
+   "hits": 6337,
+   "verifiedHits": 6283,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5630,
+   "hits": 5638,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3346,
-   "verifiedHits": 3292,
+   "hits": 3348,
+   "verifiedHits": 3294,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 944,
+   "hits": 946,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -476,7 +476,7 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 474,
+   "hits": 492,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-12",
