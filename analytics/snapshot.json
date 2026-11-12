@@ -1,37 +1,37 @@
 {
- "generated": "2026-11-12T07:33:00.627Z",
+ "generated": "2026-11-12T07:43:30.295Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 3,
   "todayReads": 7,
   "avgTimeSec": 14,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 9615,
-  "reads": 300,
+  "views": 9589,
+  "reads": 299,
   "completes": 25,
   "plays": 12,
-  "sessions": 9461
+  "sessions": 9435
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2925,
+   "views": 2927,
    "reads": 176,
-   "sessions": 2827
+   "sessions": 2829
   },
   {
    "channel": "referral",
-   "views": 6550,
+   "views": 6523,
    "reads": 62,
-   "sessions": 6552
+   "sessions": 6525
   },
   {
    "channel": "organic",
-   "views": 112,
-   "reads": 56,
-   "sessions": 104
+   "views": 111,
+   "reads": 55,
+   "sessions": 103
   },
   {
    "channel": "ai",
@@ -61,21 +61,21 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 6550,
+   "views": 6523,
    "reads": 62,
    "completes": 0,
-   "sessions": 6552,
-   "read_rate": 0.009,
+   "sessions": 6525,
+   "read_rate": 0.01,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
   {
    "channel": "direct",
-   "views": 2925,
+   "views": 2927,
    "reads": 176,
    "completes": 21,
-   "sessions": 2827,
+   "sessions": 2829,
    "read_rate": 0.06,
    "complete_rate": 0.007,
    "pages_per_session": 1.03,
@@ -83,11 +83,11 @@
   },
   {
    "channel": "organic",
-   "views": 112,
-   "reads": 56,
+   "views": 111,
+   "reads": 55,
    "completes": 2,
-   "sessions": 104,
-   "read_rate": 0.5,
+   "sessions": 103,
+   "read_rate": 0.495,
    "complete_rate": 0.018,
    "pages_per_session": 1.08,
    "median_dwell_sec": 3
@@ -255,15 +255,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9242,
-   "reads": 281,
-   "sessions": 9088
+   "views": 9214,
+   "reads": 280,
+   "sessions": 9060
   },
   {
    "device": "mobile",
-   "views": 366,
+   "views": 368,
    "reads": 15,
-   "sessions": 370
+   "sessions": 372
   },
   {
    "device": "tablet",
@@ -394,16 +394,6 @@
    "plays": 0
   },
   {
-   "slug": "vllm-rust-frontend",
-   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 7,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "arm-metis-open-source-ai-security-code-review",
    "title": "Arm Open-Sourced Its Internal Security Reviewer. Here's Whether You Should Run It.",
    "section": "wire",
@@ -421,6 +411,16 @@
    "author": "priya",
    "views": 4,
    "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b",
+   "title": "The Founder's Wire, November 3: Your Software Moves Inside ChatGPT, Google Turns AI Search Into an Ad Network, and Anthropic's $895B Compute Bill",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 15,
+   "reads": 2,
    "plays": 0
   }
  ],
@@ -631,9 +631,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 846,
+   "views": 844,
    "reads": 0,
-   "sessions": 841,
+   "sessions": 839,
    "avg_dwell_sec": 11
   },
   {
@@ -645,9 +645,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 252,
+   "views": 253,
    "reads": 0,
-   "sessions": 252,
+   "sessions": 253,
    "avg_dwell_sec": 19
   },
   {
@@ -738,13 +738,13 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 6599,
-   "sessions": 6541
+   "hits": 6572,
+   "sessions": 6514
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 63,
-   "sessions": 31
+   "hits": 61,
+   "sessions": 30
   },
   {
    "ref": "https://duckduckgo.com/",
