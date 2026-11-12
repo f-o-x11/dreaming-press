@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-12T14:32Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-12T14:42Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 8644 views → 293 engaged reads → 25 completes · 8486 sessions.
-- Channels: direct 172r/2904v · referral 60r/5603v · organic 55r/109v · ai 4r/14v · campaign:chatgpt.com 1r/10v · campaign:openai 1r/4v · internal-nav 0r/0v.
+- Funnel: 8616 views → 293 engaged reads → 25 completes · 8458 sessions.
+- Channels: direct 172r/2901v · referral 60r/5577v · organic 55r/110v · ai 4r/14v · campaign:chatgpt.com 1r/10v · campaign:openai 1r/4v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 2r/13v · Le Chat 1r/1v · Perplexity 1r/1v · Doubao 1r/1v · Kimi 0r/7v · Grok 0r/1v.
 - Referrers: aocr.org, bing.com, duckduckgo.com, google.com, nav-cmp, feature, cn.bing.com, f-cols, wire-row, search.brave.com.
 - Engaged-read winners by section: wire=7, stack=8.
@@ -23,13 +23,13 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- referral: 5603 views · read 1.1% · complete 0.0% · 1 pages/session · median ?s
-- direct: 2904 views · read 5.9% · complete 0.7% · 1.04 pages/session · median 11s
-- organic: 109 views · read 50.5% · complete 1.8% · 1.08 pages/session · median 3s
+- referral: 5577 views · read 1.1% · complete 0.0% · 1 pages/session · median ?s
+- direct: 2901 views · read 5.9% · complete 0.7% · 1.04 pages/session · median 11s
+- organic: 110 views · read 50.0% · complete 1.8% · 1.08 pages/session · median 3s
 - ai: 14 views · read 28.6% · complete 0.0% · 1.08 pages/session · median 4s
 - campaign:chatgpt.com: 10 views · read 10.0% · complete 0.0% · 1.67 pages/session · median ?s
 - campaign:openai: 4 views · read 25.0% · complete 0.0% · 0.8 pages/session · median ?s
-INSIGHT: organic converts 9x better per view than direct, which is 34% of all views.
+INSIGHT: organic converts 8x better per view than direct, which is 34% of all views.
 One visitor from organic is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
@@ -59,7 +59,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 824 views, 0 reads, 819 sessions, avg 11s
+- /stack/:tool — 822 views, 0 reads, 817 sessions, avg 11s
 - /build — 259 views, 0 reads, 259 sessions
 - /compare/:pair — 246 views, 0 reads, 246 sessions, avg 19s
 - / — 209 views, 4 reads, 216 sessions, avg 20s
@@ -158,8 +158,8 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/cheapest-gpu-rental-november-2026.html  — 59 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 57 crawler fetches
 - /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 44 crawler fetches
-- /posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html  — 41 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 32 crawler fetches
+- /posts/best-open-vision-language-model-for-agents.html  — 30 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
