@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-12T18:46:50.528Z",
+ "generated": "2026-11-12T18:57:00.655Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
+  "readersNow": 2,
   "todayReads": 11,
   "avgTimeSec": 11,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 8033,
+  "views": 8015,
   "reads": 286,
   "completes": 25,
   "plays": 12,
-  "sessions": 7878
+  "sessions": 7860
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2881,
+   "views": 2879,
    "reads": 167,
-   "sessions": 2781
+   "sessions": 2779
   },
   {
    "channel": "referral",
-   "views": 5015,
+   "views": 4999,
    "reads": 57,
-   "sessions": 5017
+   "sessions": 5001
   },
   {
    "channel": "organic",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 5015,
+   "views": 4999,
    "reads": 57,
    "completes": 0,
-   "sessions": 5017,
+   "sessions": 5001,
    "read_rate": 0.011,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -72,10 +72,10 @@
   },
   {
    "channel": "direct",
-   "views": 2881,
+   "views": 2879,
    "reads": 167,
    "completes": 21,
-   "sessions": 2781,
+   "sessions": 2779,
    "read_rate": 0.058,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
@@ -255,9 +255,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7664,
+   "views": 7646,
    "reads": 266,
-   "sessions": 7509
+   "sessions": 7491
   },
   {
    "device": "mobile",
@@ -700,18 +700,18 @@
    "avg_dwell_sec": 5
   },
   {
-   "path": "/submit.html",
-   "views": 14,
-   "reads": 5,
-   "sessions": 14,
-   "avg_dwell_sec": 62
-  },
-  {
    "path": "/apps",
    "views": 13,
    "reads": 1,
    "sessions": 12,
    "avg_dwell_sec": 55
+  },
+  {
+   "path": "/submit.html",
+   "views": 13,
+   "reads": 5,
+   "sessions": 13,
+   "avg_dwell_sec": 68
   },
   {
    "path": "/agents.html",
@@ -738,8 +738,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 5057,
-   "sessions": 5004
+   "hits": 5041,
+   "sessions": 4988
   },
   {
    "ref": "https://www.bing.com/",
