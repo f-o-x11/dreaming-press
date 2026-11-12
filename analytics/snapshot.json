@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-12T06:22:10.433Z",
+ "generated": "2026-11-12T06:32:16.388Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 2,
-  "avgTimeSec": 6,
+  "readersNow": 5,
+  "todayReads": 5,
+  "avgTimeSec": 14,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 9723,
-  "reads": 295,
+  "views": 9710,
+  "reads": 298,
   "completes": 25,
-  "plays": 11,
-  "sessions": 9571
+  "plays": 12,
+  "sessions": 9556
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2916,
-   "reads": 172,
-   "sessions": 2820
+   "views": 2921,
+   "reads": 175,
+   "sessions": 2823
   },
   {
    "channel": "referral",
-   "views": 6668,
+   "views": 6650,
    "reads": 62,
-   "sessions": 6670
+   "sessions": 6652
   },
   {
    "channel": "organic",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 6668,
+   "views": 6650,
    "reads": 62,
    "completes": 0,
-   "sessions": 6670,
+   "sessions": 6652,
    "read_rate": 0.009,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -72,11 +72,11 @@
   },
   {
    "channel": "direct",
-   "views": 2916,
-   "reads": 172,
+   "views": 2921,
+   "reads": 175,
    "completes": 21,
-   "sessions": 2820,
-   "read_rate": 0.059,
+   "sessions": 2823,
+   "read_rate": 0.06,
    "complete_rate": 0.007,
    "pages_per_session": 1.03,
    "median_dwell_sec": 11
@@ -255,15 +255,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9349,
-   "reads": 276,
-   "sessions": 9197
+   "views": 9337,
+   "reads": 279,
+   "sessions": 9183
   },
   {
    "device": "mobile",
-   "views": 367,
+   "views": 366,
    "reads": 15,
-   "sessions": 371
+   "sessions": 370
   },
   {
    "device": "tablet",
@@ -312,6 +312,16 @@
    "views": 22,
    "reads": 8,
    "plays": 0
+  },
+  {
+   "slug": "best-llm-for-creative-writing-october-2026",
+   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 25,
+   "reads": 5,
+   "plays": 1
   },
   {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
@@ -404,16 +414,6 @@
    "plays": 0
   },
   {
-   "slug": "best-llm-for-creative-writing-october-2026",
-   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b",
    "title": "The Founder's Wire, November 3: Your Software Moves Inside ChatGPT, Google Turns AI Search Into an Ad Network, and Anthropic's $895B Compute Bill",
    "section": "wire",
@@ -444,6 +444,16 @@
    "views": 65,
    "reads": 9,
    "plays": 2
+  },
+  {
+   "slug": "best-llm-for-creative-writing-october-2026",
+   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 25,
+   "reads": 5,
+   "plays": 1
   },
   {
    "slug": "langgraph-checkpointing-vs-temporal-durable-execution",
@@ -514,16 +524,6 @@
    "views": 1,
    "reads": 1,
    "plays": 1
-  },
-  {
-   "slug": "cheapest-gpu-rental-november-2026",
-   "title": "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 9,
-   "plays": 0
   }
  ],
  "topViews": [
@@ -578,22 +578,22 @@
    "plays": 0
   },
   {
+   "slug": "best-llm-for-creative-writing-october-2026",
+   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 25,
+   "reads": 5,
+   "plays": 1
+  },
+  {
    "slug": "2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4",
    "title": "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 25,
-   "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
-   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 23,
    "reads": 0,
    "plays": 0
   },
@@ -608,18 +608,18 @@
    "plays": 0
   },
   {
-   "slug": "best-llm-for-creative-writing-october-2026",
-   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
+   "slug": "browser-use-vs-stagehand-vs-playwright-mcp",
+   "title": "Browser Use vs Stagehand vs Playwright MCP: Which Browser Agent Actually Clicks in 2026",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 22,
-   "reads": 2,
+   "reads": 0,
    "plays": 0
   },
   {
-   "slug": "browser-use-vs-stagehand-vs-playwright-mcp",
-   "title": "Browser Use vs Stagehand vs Playwright MCP: Which Browser Agent Actually Clicks in 2026",
+   "slug": "copilotkit-vs-assistant-ui-vs-vercel-ai-sdk",
+   "title": "CopilotKit vs assistant-ui vs Vercel AI SDK: Picking an Agent Chat UI in 2026",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -738,8 +738,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 6717,
-   "sessions": 6659
+   "hits": 6699,
+   "sessions": 6641
   },
   {
    "ref": "https://www.bing.com/",
