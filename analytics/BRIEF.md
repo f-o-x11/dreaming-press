@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-12T19:27Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-12T19:37Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 7972 views → 286 engaged reads → 25 completes · 7817 sessions.
-- Channels: direct 167r/2879v · referral 57r/4956v · organic 56r/109v · ai 4r/14v · campaign:chatgpt.com 1r/10v · campaign:openai 1r/4v · internal-nav 0r/0v.
+- Funnel: 7957 views → 286 engaged reads → 25 completes · 7802 sessions.
+- Channels: direct 167r/2879v · referral 57r/4941v · organic 56r/109v · ai 4r/14v · campaign:chatgpt.com 1r/10v · campaign:openai 1r/4v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 2r/13v · Le Chat 1r/1v · Perplexity 1r/1v · Doubao 1r/1v · Kimi 0r/7v · Grok 0r/1v.
 - Referrers: aocr.org, bing.com, duckduckgo.com, google.com, nav-cmp, feature, cn.bing.com, f-cols, wire-row, search.brave.com.
 - Engaged-read winners by section: wire=7, stack=8.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- referral: 4956 views · read 1.2% · complete 0.0% · 1 pages/session · median ?s
+- referral: 4941 views · read 1.2% · complete 0.0% · 1 pages/session · median ?s
 - direct: 2879 views · read 5.8% · complete 0.7% · 1.04 pages/session · median 10s
 - organic: 109 views · read 51.4% · complete 1.8% · 1.08 pages/session · median 3s
 - ai: 14 views · read 28.6% · complete 0.0% · 1.08 pages/session · median 4s
@@ -59,7 +59,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 806 views, 0 reads, 801 sessions, avg 11s
+- /stack/:tool — 804 views, 0 reads, 799 sessions, avg 11s
 - /build — 259 views, 0 reads, 259 sessions
 - /compare/:pair — 243 views, 0 reads, 243 sessions, avg 19s
 - / — 207 views, 4 reads, 214 sessions, avg 20s
@@ -86,7 +86,7 @@ new traffic — and these pages already have the traffic.
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 33 views but only 1 engaged reads (3.0%)
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 28 views but only 0 engaged reads (0.0%)
 - [wire] "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model" — 25 views but only 0 engaged reads (0.0%)
-- [stack] "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM" — 22 views but only 0 engaged reads (0.0%)
+- [stack] "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM" — 21 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
