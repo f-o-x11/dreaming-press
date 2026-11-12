@@ -1,13 +1,13 @@
-# Analytics brief — auto-exported 2026-11-12T05:41Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-12T05:51Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 9780 views → 294 engaged reads → 25 completes · 9628 sessions.
-- Channels: direct 171r/2912v · referral 62r/6729v · organic 55r/111v · ai 4r/14v · campaign:chatgpt.com 1r/10v · campaign:openai 1r/4v · internal-nav 0r/0v.
+- Funnel: 9763 views → 294 engaged reads → 25 completes · 9611 sessions.
+- Channels: direct 171r/2912v · referral 62r/6712v · organic 55r/111v · ai 4r/14v · campaign:chatgpt.com 1r/10v · campaign:openai 1r/4v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 2r/13v · Le Chat 1r/1v · Perplexity 1r/1v · Doubao 1r/1v · Kimi 0r/7v · Grok 0r/1v.
 - Referrers: aocr.org, bing.com, duckduckgo.com, google.com, nav-cmp, feature, cn.bing.com, wire-row, search.brave.com, f-cols.
-- Engaged-read winners by section: wire=8, stack=7.
+- Engaged-read winners by section: wire=9, stack=6.
 
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
 - nav-cmp: 29 clicks from 9 sessions
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- referral: 6729 views · read 0.9% · complete 0.0% · 1 pages/session · median ?s
+- referral: 6712 views · read 0.9% · complete 0.0% · 1 pages/session · median ?s
 - direct: 2912 views · read 5.9% · complete 0.7% · 1.03 pages/session · median 11s
 - organic: 111 views · read 49.5% · complete 1.8% · 1.08 pages/session · median 3s
 - ai: 14 views · read 28.6% · complete 0.0% · 1.08 pages/session · median 4s
@@ -41,10 +41,10 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 8 reads, 22 views, 0 listens
 - [stack] "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)" — 4 reads, 17 views, 0 listens
 - [wire] "The Founder's Wire, November 5: Coding Agents Get Cheaper, Agent Security Gets Bought, and AMD Bets $11B on Cheaper Inference" — 3 reads, 20 views, 0 listens
+- [wire] "Supervisor vs Swarm vs Handoffs: Multi-Agent Orchestration Patterns in 2026" — 3 reads, 15 views, 0 listens
 - [wire] "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo" — 3 reads, 13 views, 0 listens
 - [stack] "How to Run a Local Agent Backend on LM Studio's OpenAI-Compatible Server" — 3 reads, 11 views, 0 listens
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 3 reads, 10 views, 0 listens
-- [wire] "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck" — 3 reads, 8 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 2 listens, 32 reads
@@ -64,7 +64,7 @@ so what these earn from humans is the other half of the picture.
 - /compare/:pair — 252 views, 0 reads, 252 sessions, avg 19s
 - / — 207 views, 4 reads, 214 sessions, avg 21s
 - /topics/:topic — 76 views, 0 reads, 76 sessions, avg 23s
-- /best/:cat — 46 views, 0 reads, 46 sessions
+- /best/:cat — 47 views, 0 reads, 47 sessions
 - /tools — 28 views, 3 reads, 21 sessions, avg 50s
 - /alternatives/:tool — 26 views, 0 reads, 26 sessions, avg 5s
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and

@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-12T05:41:40.286Z",
+ "generated": "2026-11-12T05:51:50.379Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 0,
+  "readersNow": 4,
+  "todayReads": 1,
   "avgTimeSec": 5,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 9780,
+  "views": 9763,
   "reads": 294,
   "completes": 25,
   "plays": 11,
-  "sessions": 9628
+  "sessions": 9611
  },
  "channels": [
   {
@@ -23,9 +23,9 @@
   },
   {
    "channel": "referral",
-   "views": 6729,
+   "views": 6712,
    "reads": 62,
-   "sessions": 6731
+   "sessions": 6714
   },
   {
    "channel": "organic",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 6729,
+   "views": 6712,
    "reads": 62,
    "completes": 0,
-   "sessions": 6731,
+   "sessions": 6714,
    "read_rate": 0.009,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -255,15 +255,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9405,
-   "reads": 274,
-   "sessions": 9253
+   "views": 9389,
+   "reads": 275,
+   "sessions": 9237
   },
   {
    "device": "mobile",
-   "views": 368,
-   "reads": 16,
-   "sessions": 372
+   "views": 367,
+   "reads": 15,
+   "sessions": 371
   },
   {
    "device": "tablet",
@@ -330,6 +330,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 20,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "multi-agent-orchestration-supervisor-vs-swarm-vs-handoffs",
+   "title": "Supervisor vs Swarm vs Handoffs: Multi-Agent Orchestration Patterns in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 15,
    "reads": 3,
    "plays": 0
   },
@@ -409,16 +419,6 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 15,
-   "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "from-framework-to-harness",
-   "title": "From Framework to Harness",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
    "views": 15,
    "reads": 2,
    "plays": 0
@@ -666,9 +666,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 46,
+   "views": 47,
    "reads": 0,
-   "sessions": 46,
+   "sessions": 47,
    "avg_dwell_sec": null
   },
   {
@@ -687,9 +687,9 @@
   },
   {
    "path": "/submit.html",
-   "views": 22,
+   "views": 21,
    "reads": 7,
-   "sessions": 22,
+   "sessions": 21,
    "avg_dwell_sec": 61
   },
   {
@@ -738,8 +738,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 6779,
-   "sessions": 6721
+   "hits": 6762,
+   "sessions": 6704
   },
   {
    "ref": "https://www.bing.com/",
