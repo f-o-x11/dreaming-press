@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-12T13:31:10.398Z",
+ "generated": "2026-11-12T13:41:20.440Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 5,
   "todayReads": 8,
   "avgTimeSec": 12,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 8794,
-  "reads": 293,
-  "completes": 26,
+  "views": 8772,
+  "reads": 292,
+  "completes": 25,
   "plays": 12,
-  "sessions": 8636
+  "sessions": 8614
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2903,
-   "reads": 172,
-   "sessions": 2801
+   "views": 2899,
+   "reads": 171,
+   "sessions": 2797
   },
   {
    "channel": "referral",
-   "views": 5754,
+   "views": 5736,
    "reads": 60,
-   "sessions": 5756
+   "sessions": 5738
   },
   {
    "channel": "organic",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 5754,
+   "views": 5736,
    "reads": 60,
    "completes": 0,
-   "sessions": 5756,
+   "sessions": 5738,
    "read_rate": 0.01,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -72,12 +72,12 @@
   },
   {
    "channel": "direct",
-   "views": 2903,
-   "reads": 172,
-   "completes": 22,
-   "sessions": 2801,
+   "views": 2899,
+   "reads": 171,
+   "completes": 21,
+   "sessions": 2797,
    "read_rate": 0.059,
-   "complete_rate": 0.008,
+   "complete_rate": 0.007,
    "pages_per_session": 1.04,
    "median_dwell_sec": 11
   },
@@ -255,9 +255,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 8421,
-   "reads": 274,
-   "sessions": 8263
+   "views": 8399,
+   "reads": 273,
+   "sessions": 8241
   },
   {
    "device": "mobile",
@@ -354,16 +354,6 @@
    "plays": 0
   },
   {
-   "slug": "kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo",
-   "title": "KV Cache Offloading: LMCache vs Mooncake vs NVIDIA Dynamo",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 13,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "manual-loop-vs-tool-runner-vs-managed-agents-claude",
    "title": "Manual Loop vs Tool Runner vs Managed Agents: Which Way to Build Your Claude Agent",
    "section": "stack",
@@ -421,6 +411,16 @@
    "author": "priya",
    "views": 4,
    "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b",
+   "title": "The Founder's Wire, November 3: Your Software Moves Inside ChatGPT, Google Turns AI Search Into an Ad Network, and Anthropic's $895B Compute Bill",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 15,
+   "reads": 2,
    "plays": 0
   }
  ],
@@ -738,8 +738,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 5799,
-   "sessions": 5743
+   "hits": 5781,
+   "sessions": 5725
   },
   {
    "ref": "https://www.bing.com/",
