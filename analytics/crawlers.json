@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-12T01:05:15.212Z",
+ "generated": "2026-11-12T01:15:29.942Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8145,
+ "verifiedAiHits": 8150,
  "logsScanned": 30,
  "windowStart": "2026-10-29",
  "windowEnd": "2026-11-12",
- "totalHits": 109998,
- "aiHits": 87161,
+ "totalHits": 110032,
+ "aiHits": 87184,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 25577,
+   "hits": 25581,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15177,
+   "hits": 15181,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14173,
+   "hits": 14180,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9492,
+   "hits": 9494,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6104,
-   "verifiedHits": 6050,
+   "hits": 6106,
+   "verifiedHits": 6052,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4884,
+   "hits": 4891,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4044,
-   "verifiedHits": 3966,
+   "hits": 4045,
+   "verifiedHits": 3967,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3269,
-   "verifiedHits": 3215,
+   "hits": 3272,
+   "verifiedHits": 3218,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 868,
+   "hits": 869,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 792,
-   "verifiedHits": 719,
+   "hits": 793,
+   "verifiedHits": 720,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
    "topPaths": [
     {
      "path": "/",
-     "hits": 472
+     "hits": 473
     },
     {
      "path": "/posts/viral-1-hour-agentic-engineering-course-what-founders-should-watch.html",
@@ -641,14 +641,14 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 135,
+   "hits": 137,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
-   "lastSeen": "2026-11-11",
+   "lastSeen": "2026-11-12",
    "topPaths": [
     {
      "path": "/posts/tool-highlight-tinfoil-confidential-llm-inference-cloud-cant-read.html",
-     "hits": 14
+     "hits": 15
     },
     {
      "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
