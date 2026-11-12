@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-12T14:11:33.348Z",
+ "generated": "2026-11-12T14:21:50.329Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8327,
+ "verifiedAiHits": 8329,
  "logsScanned": 30,
  "windowStart": "2026-10-29",
  "windowEnd": "2026-11-12",
- "totalHits": 113885,
- "aiHits": 89631,
+ "totalHits": 113947,
+ "aiHits": 89679,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27090,
+   "hits": 27111,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15535,
+   "hits": 15537,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6357,
-   "verifiedHits": 6303,
+   "hits": 6358,
+   "verifiedHits": 6304,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5646,
+   "hits": 5655,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4103,
-   "verifiedHits": 4025,
+   "hits": 4104,
+   "verifiedHits": 4026,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3355,
-   "verifiedHits": 3301,
+   "hits": 3356,
+   "verifiedHits": 3302,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
    "topPaths": [
@@ -344,14 +344,14 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1103,
+   "hits": 1107,
    "verifiedHits": 598,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
    "topPaths": [
     {
      "path": "/",
-     "hits": 33
+     "hits": 34
     },
     {
      "path": "/alternatives/novita-ai",
@@ -476,7 +476,7 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 597,
+   "hits": 620,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-12",
