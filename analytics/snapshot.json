@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-12T17:15:00.522Z",
+ "generated": "2026-11-12T17:25:10.395Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 10,
   "avgTimeSec": 11,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 8206,
-  "reads": 290,
+  "views": 8184,
+  "reads": 288,
   "completes": 25,
   "plays": 12,
-  "sessions": 8050
+  "sessions": 8029
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2885,
-   "reads": 169,
-   "sessions": 2784
+   "views": 2883,
+   "reads": 168,
+   "sessions": 2783
   },
   {
    "channel": "referral",
-   "views": 5184,
-   "reads": 59,
-   "sessions": 5186
+   "views": 5164,
+   "reads": 58,
+   "sessions": 5166
   },
   {
    "channel": "organic",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 5184,
-   "reads": 59,
+   "views": 5164,
+   "reads": 58,
    "completes": 0,
-   "sessions": 5186,
+   "sessions": 5166,
    "read_rate": 0.011,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -72,11 +72,11 @@
   },
   {
    "channel": "direct",
-   "views": 2885,
-   "reads": 169,
+   "views": 2883,
+   "reads": 168,
    "completes": 21,
-   "sessions": 2784,
-   "read_rate": 0.059,
+   "sessions": 2783,
+   "read_rate": 0.058,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
    "median_dwell_sec": 11
@@ -255,9 +255,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7837,
-   "reads": 270,
-   "sessions": 7681
+   "views": 7815,
+   "reads": 268,
+   "sessions": 7660
   },
   {
    "device": "mobile",
@@ -631,9 +631,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 810,
+   "views": 809,
    "reads": 0,
-   "sessions": 805,
+   "sessions": 804,
    "avg_dwell_sec": 11
   },
   {
@@ -693,13 +693,6 @@
    "avg_dwell_sec": 9
   },
   {
-   "path": "/submit.html",
-   "views": 16,
-   "reads": 6,
-   "sessions": 16,
-   "avg_dwell_sec": 72
-  },
-  {
    "path": "/about.html",
    "views": 15,
    "reads": 0,
@@ -707,11 +700,11 @@
    "avg_dwell_sec": 5
   },
   {
-   "path": "/agents.html",
-   "views": 13,
-   "reads": 3,
-   "sessions": 13,
-   "avg_dwell_sec": 45
+   "path": "/submit.html",
+   "views": 15,
+   "reads": 6,
+   "sessions": 15,
+   "avg_dwell_sec": 77
   },
   {
    "path": "/apps",
@@ -719,6 +712,13 @@
    "reads": 1,
    "sessions": 12,
    "avg_dwell_sec": 55
+  },
+  {
+   "path": "/agents.html",
+   "views": 12,
+   "reads": 2,
+   "sessions": 12,
+   "avg_dwell_sec": 37
   },
   {
    "path": "/authors/dex",
@@ -738,8 +738,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 5228,
-   "sessions": 5173
+   "hits": 5207,
+   "sessions": 5153
   },
   {
    "ref": "https://www.bing.com/",
