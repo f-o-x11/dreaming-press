@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-12T00:04:50.500Z",
+ "generated": "2026-11-12T00:15:00.053Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8134,
+ "verifiedAiHits": 8136,
  "logsScanned": 30,
  "windowStart": "2026-10-29",
  "windowEnd": "2026-11-12",
- "totalHits": 109800,
- "aiHits": 87058,
+ "totalHits": 109837,
+ "aiHits": 87074,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 25516,
+   "hits": 25525,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15160,
+   "hits": 15164,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9471,
+   "hits": 9475,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6072,
-   "verifiedHits": 6018,
+   "hits": 6079,
+   "verifiedHits": 6025,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
    "topPaths": [
@@ -212,10 +212,10 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4857,
+   "hits": 4863,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
-   "lastSeen": "2026-11-11",
+   "lastSeen": "2026-11-12",
    "topPaths": [
     {
      "path": "/",
@@ -245,10 +245,10 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4041,
-   "verifiedHits": 3963,
+   "hits": 4042,
+   "verifiedHits": 3964,
    "firstSeen": "2026-10-29",
-   "lastSeen": "2026-11-11",
+   "lastSeen": "2026-11-12",
    "topPaths": [
     {
      "path": "/",
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 912,
+   "hits": 915,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 864,
+   "hits": 865,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 789,
-   "verifiedHits": 716,
+   "hits": 790,
+   "verifiedHits": 717,
    "firstSeen": "2026-10-29",
-   "lastSeen": "2026-11-11",
+   "lastSeen": "2026-11-12",
    "topPaths": [
     {
      "path": "/",
-     "hits": 470
+     "hits": 471
     },
     {
      "path": "/posts/viral-1-hour-agentic-engineering-course-what-founders-should-watch.html",
@@ -505,6 +505,39 @@
    "verifiable": false
   },
   {
+   "name": "YandexBot",
+   "label": "Yandex",
+   "category": "search",
+   "home": "https://yandex.com",
+   "hits": 319,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-31",
+   "lastSeen": "2026-11-12",
+   "topPaths": [
+    {
+     "path": "/alternatives/lunary",
+     "hits": 6
+    },
+    {
+     "path": "/stack.html",
+     "hits": 3
+    },
+    {
+     "path": "/alternatives/dspy",
+     "hits": 2
+    },
+    {
+     "path": "/alternatives/inngest",
+     "hits": 2
+    },
+    {
+     "path": "/graphql",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "MistralAI",
    "label": "Mistral AI",
    "category": "ai",
@@ -533,39 +566,6 @@
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
      "hits": 4
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "YandexBot",
-   "label": "Yandex",
-   "category": "search",
-   "home": "https://yandex.com",
-   "hits": 318,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-31",
-   "lastSeen": "2026-11-11",
-   "topPaths": [
-    {
-     "path": "/alternatives/lunary",
-     "hits": 6
-    },
-    {
-     "path": "/stack.html",
-     "hits": 3
-    },
-    {
-     "path": "/alternatives/inngest",
-     "hits": 2
-    },
-    {
-     "path": "/graphql",
-     "hits": 2
-    },
-    {
-     "path": "/posts/instructor-vs-outlines-vs-baml-structured-outputs.html",
-     "hits": 1
     }
    ],
    "verifiable": false
