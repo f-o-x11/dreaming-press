@@ -1,36 +1,36 @@
 {
- "generated": "2026-11-12T08:14:20.394Z",
+ "generated": "2026-11-12T08:24:40.423Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 7,
+  "readersNow": 2,
+  "todayReads": 8,
   "avgTimeSec": 14,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 9531,
-  "reads": 299,
+  "views": 9509,
+  "reads": 300,
   "completes": 25,
   "plays": 12,
-  "sessions": 9377
+  "sessions": 9354
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2928,
+   "views": 2929,
    "reads": 176,
-   "sessions": 2830
+   "sessions": 2831
   },
   {
    "channel": "referral",
-   "views": 6464,
+   "views": 6440,
    "reads": 62,
-   "sessions": 6466
+   "sessions": 6442
   },
   {
    "channel": "organic",
-   "views": 111,
-   "reads": 55,
+   "views": 112,
+   "reads": 56,
    "sessions": 103
   },
   {
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 6464,
+   "views": 6440,
    "reads": 62,
    "completes": 0,
-   "sessions": 6466,
+   "sessions": 6442,
    "read_rate": 0.01,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -72,10 +72,10 @@
   },
   {
    "channel": "direct",
-   "views": 2928,
+   "views": 2929,
    "reads": 176,
    "completes": 21,
-   "sessions": 2830,
+   "sessions": 2831,
    "read_rate": 0.06,
    "complete_rate": 0.007,
    "pages_per_session": 1.03,
@@ -83,13 +83,13 @@
   },
   {
    "channel": "organic",
-   "views": 111,
-   "reads": 55,
+   "views": 112,
+   "reads": 56,
    "completes": 2,
    "sessions": 103,
-   "read_rate": 0.495,
+   "read_rate": 0.5,
    "complete_rate": 0.018,
-   "pages_per_session": 1.08,
+   "pages_per_session": 1.09,
    "median_dwell_sec": 3
   },
   {
@@ -255,9 +255,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9154,
-   "reads": 280,
-   "sessions": 9000
+   "views": 9132,
+   "reads": 281,
+   "sessions": 8977
   },
   {
    "device": "mobile",
@@ -364,6 +364,16 @@
    "plays": 0
   },
   {
+   "slug": "manual-loop-vs-tool-runner-vs-managed-agents-claude",
+   "title": "Manual Loop vs Tool Runner vs Managed Agents: Which Way to Build Your Claude Agent",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 12,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "how-to-run-a-local-agent-backend-lm-studio-openai-compatible",
    "title": "How to Run a Local Agent Backend on LM Studio's OpenAI-Compatible Server",
    "section": "stack",
@@ -411,16 +421,6 @@
    "author": "priya",
    "views": 4,
    "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b",
-   "title": "The Founder's Wire, November 3: Your Software Moves Inside ChatGPT, Google Turns AI Search Into an Ad Network, and Anthropic's $895B Compute Bill",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 15,
-   "reads": 2,
    "plays": 0
   }
  ],
@@ -573,7 +573,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 27,
+   "views": 26,
    "reads": 0,
    "plays": 0
   },
@@ -631,9 +631,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 842,
+   "views": 841,
    "reads": 0,
-   "sessions": 837,
+   "sessions": 836,
    "avg_dwell_sec": 11
   },
   {
@@ -738,12 +738,12 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 6513,
-   "sessions": 6455
+   "hits": 6489,
+   "sessions": 6431
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 61,
+   "hits": 63,
    "sessions": 30
   },
   {
