@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-12T03:59:04.121Z",
+ "generated": "2026-11-12T04:09:20.023Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8179,
+ "verifiedAiHits": 8181,
  "logsScanned": 30,
  "windowStart": "2026-10-29",
  "windowEnd": "2026-11-12",
- "totalHits": 110823,
- "aiHits": 87665,
+ "totalHits": 110892,
+ "aiHits": 87697,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 25874,
+   "hits": 25887,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15225,
+   "hits": 15233,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14291,
+   "hits": 14299,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9583,
+   "hits": 9592,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6162,
-   "verifiedHits": 6108,
+   "hits": 6165,
+   "verifiedHits": 6111,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5042,
+   "hits": 5064,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3283,
-   "verifiedHits": 3229,
+   "hits": 3285,
+   "verifiedHits": 3231,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
    "topPaths": [
@@ -288,11 +288,11 @@
      "hits": 56
     },
     {
-     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 30
+     "path": "/posts/open-source-llm-for-coding-september-2026.html",
+     "hits": 31
     },
     {
-     "path": "/posts/open-source-llm-for-coding-september-2026.html",
+     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
      "hits": 30
     },
     {
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 870,
+   "hits": 871,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -674,10 +674,10 @@
    "label": "Yisou",
    "category": "search",
    "home": "https://www.yisou.com",
-   "hits": 49,
+   "hits": 52,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
-   "lastSeen": "2026-11-11",
+   "lastSeen": "2026-11-12",
    "topPaths": [],
    "verifiable": false
   },
