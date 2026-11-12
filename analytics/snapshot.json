@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-12T08:55:30.563Z",
+ "generated": "2026-11-12T09:05:34.319Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 8,
-  "avgTimeSec": 14,
+  "avgTimeSec": 13,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 9432,
+  "views": 9410,
   "reads": 300,
   "completes": 25,
   "plays": 12,
-  "sessions": 9279
+  "sessions": 9256
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2924,
    "reads": 176,
-   "sessions": 2827
+   "sessions": 2826
   },
   {
    "channel": "referral",
-   "views": 6369,
+   "views": 6347,
    "reads": 62,
-   "sessions": 6371
+   "sessions": 6349
   },
   {
    "channel": "organic",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 6369,
+   "views": 6347,
    "reads": 62,
    "completes": 0,
-   "sessions": 6371,
+   "sessions": 6349,
    "read_rate": 0.01,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -75,7 +75,7 @@
    "views": 2924,
    "reads": 176,
    "completes": 21,
-   "sessions": 2827,
+   "sessions": 2826,
    "read_rate": 0.06,
    "complete_rate": 0.007,
    "pages_per_session": 1.03,
@@ -255,9 +255,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9051,
+   "views": 9029,
    "reads": 281,
-   "sessions": 8898
+   "sessions": 8875
   },
   {
    "device": "mobile",
@@ -568,16 +568,6 @@
    "plays": 0
   },
   {
-   "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
-   "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 26,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "best-llm-for-creative-writing-october-2026",
    "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
    "section": "stack",
@@ -593,6 +583,16 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
+   "views": 25,
+   "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
+   "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
    "views": 25,
    "reads": 0,
    "plays": 0
@@ -645,16 +645,16 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 251,
+   "views": 250,
    "reads": 0,
-   "sessions": 251,
+   "sessions": 250,
    "avg_dwell_sec": 19
   },
   {
    "path": "/",
-   "views": 208,
+   "views": 209,
    "reads": 4,
-   "sessions": 215,
+   "sessions": 216,
    "avg_dwell_sec": 20
   },
   {
@@ -738,8 +738,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 6418,
-   "sessions": 6360
+   "hits": 6396,
+   "sessions": 6338
   },
   {
    "ref": "https://www.bing.com/",
