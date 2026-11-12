@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12T09:26:00.625Z",
+ "generated": "2026-11-12T09:36:02.369Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,24 +8,24 @@
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 9368,
+  "views": 9350,
   "reads": 298,
   "completes": 25,
   "plays": 12,
-  "sessions": 9214
+  "sessions": 9196
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2918,
+   "views": 2919,
    "reads": 174,
-   "sessions": 2820
+   "sessions": 2821
   },
   {
    "channel": "referral",
-   "views": 6311,
+   "views": 6292,
    "reads": 62,
-   "sessions": 6313
+   "sessions": 6294
   },
   {
    "channel": "organic",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 6311,
+   "views": 6292,
    "reads": 62,
    "completes": 0,
-   "sessions": 6313,
+   "sessions": 6294,
    "read_rate": 0.01,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -72,10 +72,10 @@
   },
   {
    "channel": "direct",
-   "views": 2918,
+   "views": 2919,
    "reads": 174,
    "completes": 21,
-   "sessions": 2820,
+   "sessions": 2821,
    "read_rate": 0.06,
    "complete_rate": 0.007,
    "pages_per_session": 1.03,
@@ -255,9 +255,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 8987,
+   "views": 8969,
    "reads": 279,
-   "sessions": 8833
+   "sessions": 8815
   },
   {
    "device": "mobile",
@@ -608,16 +608,6 @@
    "plays": 0
   },
   {
-   "slug": "browser-use-vs-stagehand-vs-playwright-mcp",
-   "title": "Browser Use vs Stagehand vs Playwright MCP: Which Browser Agent Actually Clicks in 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "crewai-flows-vs-crews",
    "title": "CrewAI Flows vs Crews: When to Let Agents Decide and When to Script Them",
    "section": "wire",
@@ -626,14 +616,24 @@
    "views": 22,
    "reads": 0,
    "plays": 0
+  },
+  {
+   "slug": "deepeval-vs-ragas-vs-promptfoo",
+   "title": "DeepEval vs Ragas vs Promptfoo: Choosing an LLM Eval Framework",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 22,
+   "reads": 0,
+   "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 840,
+   "views": 839,
    "reads": 0,
-   "sessions": 835,
+   "sessions": 834,
    "avg_dwell_sec": 11
   },
   {
@@ -738,8 +738,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 6360,
-   "sessions": 6302
+   "hits": 6341,
+   "sessions": 6283
   },
   {
    "ref": "https://www.bing.com/",
