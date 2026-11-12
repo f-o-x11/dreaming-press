@@ -1,37 +1,37 @@
 {
- "generated": "2026-11-12T02:06:30.437Z",
+ "generated": "2026-11-12T02:16:50.512Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
   "todayReads": 0,
-  "avgTimeSec": 0,
+  "avgTimeSec": 10,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 10134,
-  "reads": 297,
+  "views": 10118,
+  "reads": 296,
   "completes": 25,
   "plays": 11,
-  "sessions": 9979
+  "sessions": 9963
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2918,
    "reads": 173,
-   "sessions": 2817
+   "sessions": 2818
   },
   {
    "channel": "referral",
-   "views": 7087,
-   "reads": 63,
-   "sessions": 7089
+   "views": 7070,
+   "reads": 62,
+   "sessions": 7072
   },
   {
    "channel": "organic",
-   "views": 101,
+   "views": 102,
    "reads": 55,
-   "sessions": 93
+   "sessions": 94
   },
   {
    "channel": "ai",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 7087,
-   "reads": 63,
+   "views": 7070,
+   "reads": 62,
    "completes": 0,
-   "sessions": 7089,
+   "sessions": 7072,
    "read_rate": 0.009,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -75,7 +75,7 @@
    "views": 2918,
    "reads": 173,
    "completes": 21,
-   "sessions": 2817,
+   "sessions": 2818,
    "read_rate": 0.059,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
@@ -83,11 +83,11 @@
   },
   {
    "channel": "organic",
-   "views": 101,
+   "views": 102,
    "reads": 55,
    "completes": 2,
-   "sessions": 93,
-   "read_rate": 0.545,
+   "sessions": 94,
+   "read_rate": 0.539,
    "complete_rate": 0.02,
    "pages_per_session": 1.09,
    "median_dwell_sec": 2
@@ -255,9 +255,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 9756,
-   "reads": 277,
-   "sessions": 9602
+   "views": 9740,
+   "reads": 276,
+   "sessions": 9586
   },
   {
    "device": "mobile",
@@ -339,7 +339,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 14,
+   "views": 13,
    "reads": 3,
    "plays": 0
   },
@@ -631,9 +631,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 860,
+   "views": 857,
    "reads": 0,
-   "sessions": 855,
+   "sessions": 852,
    "avg_dwell_sec": 11
   },
   {
@@ -738,13 +738,13 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 7136,
-   "sessions": 7078
+   "hits": 7120,
+   "sessions": 7062
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 62,
-   "sessions": 30
+   "hits": 63,
+   "sessions": 31
   },
   {
    "ref": "https://duckduckgo.com/",
