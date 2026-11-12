@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-12T13:00:52.473Z",
+ "generated": "2026-11-12T13:11:00.744Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 8,
   "avgTimeSec": 12,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 8866,
+  "views": 8842,
   "reads": 294,
   "completes": 26,
   "plays": 12,
-  "sessions": 8708
+  "sessions": 8684
  },
  "channels": [
   {
@@ -23,15 +23,15 @@
   },
   {
    "channel": "referral",
-   "views": 5822,
+   "views": 5797,
    "reads": 61,
-   "sessions": 5824
+   "sessions": 5799
   },
   {
    "channel": "organic",
-   "views": 108,
+   "views": 109,
    "reads": 55,
-   "sessions": 100
+   "sessions": 101
   },
   {
    "channel": "ai",
@@ -61,11 +61,11 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 5822,
+   "views": 5797,
    "reads": 61,
    "completes": 0,
-   "sessions": 5824,
-   "read_rate": 0.01,
+   "sessions": 5799,
+   "read_rate": 0.011,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -83,12 +83,12 @@
   },
   {
    "channel": "organic",
-   "views": 108,
+   "views": 109,
    "reads": 55,
    "completes": 2,
-   "sessions": 100,
-   "read_rate": 0.509,
-   "complete_rate": 0.019,
+   "sessions": 101,
+   "read_rate": 0.505,
+   "complete_rate": 0.018,
    "pages_per_session": 1.08,
    "median_dwell_sec": 3
   },
@@ -255,9 +255,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 8491,
+   "views": 8467,
    "reads": 275,
-   "sessions": 8333
+   "sessions": 8309
   },
   {
    "device": "mobile",
@@ -279,7 +279,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 63,
+   "views": 64,
    "reads": 32,
    "plays": 2
   },
@@ -431,7 +431,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 63,
+   "views": 64,
    "reads": 32,
    "plays": 2
   },
@@ -543,7 +543,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 63,
+   "views": 64,
    "reads": 32,
    "plays": 2
   },
@@ -631,9 +631,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 829,
+   "views": 828,
    "reads": 0,
-   "sessions": 824,
+   "sessions": 823,
    "avg_dwell_sec": 11
   },
   {
@@ -738,8 +738,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 5868,
-   "sessions": 5811
+   "hits": 5843,
+   "sessions": 5786
   },
   {
    "ref": "https://www.bing.com/",
@@ -753,8 +753,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 39,
-   "sessions": 31
+   "hits": 40,
+   "sessions": 32
   },
   {
    "ref": "nav-cmp",
