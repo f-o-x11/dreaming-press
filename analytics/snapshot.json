@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-12T20:59:20.515Z",
+ "generated": "2026-11-12T21:09:40.302Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 11,
   "avgTimeSec": 11,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7837,
+  "views": 7822,
   "reads": 286,
   "completes": 25,
   "plays": 12,
-  "sessions": 7682
+  "sessions": 7668
  },
  "channels": [
   {
@@ -23,9 +23,9 @@
   },
   {
    "channel": "referral",
-   "views": 4827,
+   "views": 4813,
    "reads": 57,
-   "sessions": 4829
+   "sessions": 4815
   },
   {
    "channel": "organic",
@@ -41,7 +41,7 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 10,
+   "views": 9,
    "reads": 1,
    "sessions": 6
   },
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 4827,
+   "views": 4813,
    "reads": 57,
    "completes": 0,
-   "sessions": 4829,
+   "sessions": 4815,
    "read_rate": 0.012,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -105,13 +105,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 10,
+   "views": 9,
    "reads": 1,
    "completes": 0,
    "sessions": 6,
-   "read_rate": 0.1,
+   "read_rate": 0.111,
    "complete_rate": 0,
-   "pages_per_session": 1.67,
+   "pages_per_session": 1.5,
    "median_dwell_sec": null
   },
   {
@@ -217,7 +217,7 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 13,
+   "views": 12,
    "reads": 2,
    "sessions": 6
   },
@@ -255,9 +255,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7471,
+   "views": 7456,
    "reads": 266,
-   "sessions": 7316
+   "sessions": 7302
   },
   {
    "device": "mobile",
@@ -374,22 +374,22 @@
    "plays": 0
   },
   {
-   "slug": "how-to-run-a-local-agent-backend-lm-studio-openai-compatible",
-   "title": "How to Run a Local Agent Backend on LM Studio's OpenAI-Compatible Server",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "manual-loop-vs-tool-runner-vs-managed-agents-claude",
    "title": "Manual Loop vs Tool Runner vs Managed Agents: Which Way to Build Your Claude Agent",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 8,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "how-to-run-a-local-agent-backend-lm-studio-openai-compatible",
+   "title": "How to Run a Local Agent Backend on LM Studio's OpenAI-Compatible Server",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 7,
    "reads": 3,
    "plays": 0
   },
@@ -694,7 +694,7 @@
   },
   {
    "path": "/about.html",
-   "views": 15,
+   "views": 14,
    "reads": 0,
    "sessions": 11,
    "avg_dwell_sec": 5
@@ -738,8 +738,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 4869,
-   "sessions": 4816
+   "hits": 4855,
+   "sessions": 4802
   },
   {
    "ref": "https://www.bing.com/",
