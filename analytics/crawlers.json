@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-12T12:09:40.156Z",
+ "generated": "2026-11-12T12:20:00.099Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8304,
+ "verifiedAiHits": 8306,
  "logsScanned": 30,
  "windowStart": "2026-10-29",
  "windowEnd": "2026-11-12",
- "totalHits": 113384,
- "aiHits": 89218,
+ "totalHits": 113409,
+ "aiHits": 89241,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 26913,
+   "hits": 26928,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/build",
-     "hits": 26
+     "hits": 27
     },
     {
      "path": "/dashboard",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 15481,
+   "hits": 15487,
    "verifiedHits": 0,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6323,
-   "verifiedHits": 6269,
+   "hits": 6325,
+   "verifiedHits": 6271,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3338,
-   "verifiedHits": 3284,
+   "hits": 3340,
+   "verifiedHits": 3286,
    "firstSeen": "2026-10-29",
    "lastSeen": "2026-11-12",
    "topPaths": [
