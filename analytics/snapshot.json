@@ -1,37 +1,37 @@
 {
- "generated": "2026-11-12T21:09:40.302Z",
+ "generated": "2026-11-12T21:19:47.381Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 11,
+  "readersNow": 1,
+  "todayReads": 12,
   "avgTimeSec": 11,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7822,
-  "reads": 286,
+  "views": 7810,
+  "reads": 287,
   "completes": 25,
   "plays": 12,
-  "sessions": 7668
+  "sessions": 7656
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2873,
+   "views": 2872,
    "reads": 167,
-   "sessions": 2773
+   "sessions": 2772
   },
   {
    "channel": "referral",
-   "views": 4813,
+   "views": 4801,
    "reads": 57,
-   "sessions": 4815
+   "sessions": 4803
   },
   {
    "channel": "organic",
-   "views": 109,
-   "reads": 56,
-   "sessions": 101
+   "views": 110,
+   "reads": 57,
+   "sessions": 102
   },
   {
    "channel": "ai",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 4813,
+   "views": 4801,
    "reads": 57,
    "completes": 0,
-   "sessions": 4815,
+   "sessions": 4803,
    "read_rate": 0.012,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -72,10 +72,10 @@
   },
   {
    "channel": "direct",
-   "views": 2873,
+   "views": 2872,
    "reads": 167,
    "completes": 21,
-   "sessions": 2773,
+   "sessions": 2772,
    "read_rate": 0.058,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
@@ -83,11 +83,11 @@
   },
   {
    "channel": "organic",
-   "views": 109,
-   "reads": 56,
+   "views": 110,
+   "reads": 57,
    "completes": 2,
-   "sessions": 101,
-   "read_rate": 0.514,
+   "sessions": 102,
+   "read_rate": 0.518,
    "complete_rate": 0.018,
    "pages_per_session": 1.08,
    "median_dwell_sec": 3
@@ -255,15 +255,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7456,
-   "reads": 266,
-   "sessions": 7302
+   "views": 7445,
+   "reads": 267,
+   "sessions": 7291
   },
   {
    "device": "mobile",
-   "views": 359,
+   "views": 358,
    "reads": 16,
-   "sessions": 363
+   "sessions": 362
   },
   {
    "device": "tablet",
@@ -553,7 +553,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 33,
+   "views": 32,
    "reads": 1,
    "plays": 0
   },
@@ -738,13 +738,13 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 4855,
-   "sessions": 4802
+   "hits": 4843,
+   "sessions": 4790
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 63,
-   "sessions": 30
+   "hits": 65,
+   "sessions": 31
   },
   {
    "ref": "https://duckduckgo.com/",
