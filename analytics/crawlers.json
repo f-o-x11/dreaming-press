@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-13T09:35:00.087Z",
+ "generated": "2026-11-13T09:45:05.381Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8050,
+ "verifiedAiHits": 8060,
  "logsScanned": 30,
  "windowStart": "2026-10-30",
  "windowEnd": "2026-11-13",
- "totalHits": 110875,
- "aiHits": 87161,
+ "totalHits": 110919,
+ "aiHits": 87199,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27030,
+   "hits": 27047,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14018,
+   "hits": 14025,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13784,
+   "hits": 13788,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9768,
+   "hits": 9772,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6129,
-   "verifiedHits": 6073,
+   "hits": 6131,
+   "verifiedHits": 6075,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
    "topPaths": [
@@ -278,14 +278,18 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3147,
-   "verifiedHits": 3088,
+   "hits": 3157,
+   "verifiedHits": 3098,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
    "topPaths": [
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
      "hits": 52
+    },
+    {
+     "path": "/posts/gpu-rental-price-october-2026.html",
+     "hits": 30
     },
     {
      "path": "/posts/serverless-inference-api-groq-fireworks-together-deepinfra-baseten.html",
@@ -296,12 +300,8 @@
      "hits": 30
     },
     {
-     "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 29
-    },
-    {
-     "path": "/posts/gpu-rental-price-october-2026.html",
-     "hits": 29
+     "path": "/wire.html",
+     "hits": 30
     }
    ],
    "verifiable": true
