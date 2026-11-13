@@ -1,30 +1,30 @@
 {
- "generated": "2026-11-13T10:46:01.205Z",
+ "generated": "2026-11-13T10:56:10.505Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 8,
+  "readersNow": 3,
   "todayReads": 3,
-  "avgTimeSec": 145,
+  "avgTimeSec": 125,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 7038,
-  "reads": 285,
+  "views": 7037,
+  "reads": 284,
   "completes": 25,
   "plays": 11,
-  "sessions": 6892
+  "sessions": 6891
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2824,
+   "views": 2823,
    "reads": 169,
-   "sessions": 2725
+   "sessions": 2724
   },
   {
    "channel": "organic",
    "views": 112,
-   "reads": 57,
+   "reads": 56,
    "sessions": 104
   },
   {
@@ -72,10 +72,10 @@
   },
   {
    "channel": "direct",
-   "views": 2824,
+   "views": 2823,
    "reads": 169,
    "completes": 21,
-   "sessions": 2725,
+   "sessions": 2724,
    "read_rate": 0.06,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
@@ -84,10 +84,10 @@
   {
    "channel": "organic",
    "views": 112,
-   "reads": 57,
+   "reads": 56,
    "completes": 2,
    "sessions": 104,
-   "read_rate": 0.509,
+   "read_rate": 0.5,
    "complete_rate": 0.018,
    "pages_per_session": 1.08,
    "median_dwell_sec": 3
@@ -249,15 +249,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6679,
-   "reads": 264,
-   "sessions": 6533
+   "views": 6680,
+   "reads": 263,
+   "sessions": 6534
   },
   {
    "device": "mobile",
-   "views": 352,
+   "views": 350,
    "reads": 17,
-   "sessions": 356
+   "sessions": 354
   },
   {
    "device": "tablet",
@@ -348,16 +348,6 @@
    "plays": 0
   },
   {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 9,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "best-vector-database-for-windows-local-rag",
    "title": "The Best Vector Database for Windows (2026): Which Ones Run Natively — and Which Quietly Need Docker",
    "section": "stack",
@@ -413,6 +403,16 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
+   "views": 15,
+   "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "from-framework-to-harness",
+   "title": "From Framework to Harness",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
    "views": 15,
    "reads": 2,
    "plays": 0
@@ -737,7 +737,7 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 65,
+   "hits": 64,
    "sessions": 31
   },
   {
