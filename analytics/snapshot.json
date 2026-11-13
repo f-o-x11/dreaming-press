@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-13T02:05:40.361Z",
+ "generated": "2026-11-13T02:15:50.420Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 4,
   "todayReads": 0,
   "avgTimeSec": 14,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 7407,
+  "views": 7389,
   "reads": 285,
   "completes": 25,
   "plays": 12,
-  "sessions": 7260
+  "sessions": 7242
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2847,
+   "views": 2850,
    "reads": 167,
-   "sessions": 2748
+   "sessions": 2751
   },
   {
    "channel": "referral",
-   "views": 4432,
+   "views": 4411,
    "reads": 57,
-   "sessions": 4434
+   "sessions": 4413
   },
   {
    "channel": "organic",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 4432,
+   "views": 4411,
    "reads": 57,
    "completes": 0,
-   "sessions": 4434,
+   "sessions": 4413,
    "read_rate": 0.013,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -72,10 +72,10 @@
   },
   {
    "channel": "direct",
-   "views": 2847,
+   "views": 2850,
    "reads": 167,
    "completes": 21,
-   "sessions": 2748,
+   "sessions": 2751,
    "read_rate": 0.059,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
@@ -255,9 +255,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7043,
+   "views": 7025,
    "reads": 264,
-   "sessions": 6896
+   "sessions": 6878
   },
   {
    "device": "mobile",
@@ -399,7 +399,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 4,
+   "views": 5,
    "reads": 3,
    "plays": 0
   },
@@ -506,21 +506,21 @@
    "plays": 1
   },
   {
-   "slug": "environments-hub-vs-hud-vs-gymnasium-rl-agents",
-   "title": "Environments Hub vs HUD vs Gymnasium: Where RL Environments for Agents Actually Come From",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 3,
-   "reads": 1,
-   "plays": 1
-  },
-  {
    "slug": "2026-10-01-founders-wire-openai-1-4t-instinct-10b-salesforce-aiforce",
    "title": "The Founder's Wire, October 1: OpenAI's $1.4T Private Raise, Instinct's $10B Month, and Salesforce Puts Agents Where the UI Used to Be",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
+   "views": 2,
+   "reads": 1,
+   "plays": 1
+  },
+  {
+   "slug": "environments-hub-vs-hud-vs-gymnasium-rl-agents",
+   "title": "Environments Hub vs HUD vs Gymnasium: Where RL Environments for Agents Actually Come From",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
    "views": 2,
    "reads": 1,
    "plays": 1
@@ -631,9 +631,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 791,
+   "views": 790,
    "reads": 0,
-   "sessions": 786,
+   "sessions": 785,
    "avg_dwell_sec": 11
   },
   {
@@ -738,8 +738,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 4473,
-   "sessions": 4420
+   "hits": 4452,
+   "sessions": 4399
   },
   {
    "ref": "https://www.bing.com/",
