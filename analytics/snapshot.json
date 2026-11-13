@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-13T00:13:40.069Z",
+ "generated": "2026-11-13T00:23:44.237Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 3,
   "todayReads": 0,
-  "avgTimeSec": 0,
+  "avgTimeSec": 7,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 7613,
+  "views": 7604,
   "reads": 287,
   "completes": 25,
   "plays": 12,
-  "sessions": 7466
+  "sessions": 7458
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2862,
+   "views": 2860,
    "reads": 167,
-   "sessions": 2762
+   "sessions": 2761
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 4621,
+   "views": 4614,
    "reads": 57,
-   "sessions": 4623
+   "sessions": 4616
   },
   {
    "channel": "ai",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 4621,
+   "views": 4614,
    "reads": 57,
    "completes": 0,
-   "sessions": 4623,
+   "sessions": 4616,
    "read_rate": 0.012,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -72,10 +72,10 @@
   },
   {
    "channel": "direct",
-   "views": 2862,
+   "views": 2860,
    "reads": 167,
    "completes": 21,
-   "sessions": 2762,
+   "sessions": 2761,
    "read_rate": 0.058,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
@@ -255,9 +255,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7250,
+   "views": 7241,
    "reads": 266,
-   "sessions": 7103
+   "sessions": 7095
   },
   {
    "device": "mobile",
@@ -548,16 +548,6 @@
    "plays": 2
   },
   {
-   "slug": "ai-agent-frameworks-whats-changed-fall-2026",
-   "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 29,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "best-open-source-rl-frameworks-for-training-agents",
    "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
    "section": "stack",
@@ -565,6 +555,16 @@
    "author": "dex",
    "views": 28,
    "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-whats-changed-fall-2026",
+   "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 27,
+   "reads": 1,
    "plays": 0
   },
   {
@@ -631,9 +631,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 797,
+   "views": 798,
    "reads": 0,
-   "sessions": 792,
+   "sessions": 793,
    "avg_dwell_sec": 11
   },
   {
@@ -738,8 +738,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 4663,
-   "sessions": 4610
+   "hits": 4656,
+   "sessions": 4603
   },
   {
    "ref": "https://www.bing.com/",
