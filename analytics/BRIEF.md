@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-13T20:39Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-13T20:49Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -58,9 +58,9 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 778 views, 0 reads, 773 sessions, avg 11s
+- /stack/:tool — 779 views, 0 reads, 774 sessions, avg 11s
 - /build — 257 views, 0 reads, 257 sessions
-- / — 208 views, 4 reads, 215 sessions, avg 20s
+- / — 207 views, 4 reads, 214 sessions, avg 20s
 - /compare/:pair — 202 views, 0 reads, 202 sessions, avg 23s
 - /topics/:topic — 77 views, 0 reads, 77 sessions, avg 23s
 - /best/:cat — 43 views, 0 reads, 43 sessions
@@ -93,7 +93,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 533 retrieval fetches
+- /  — 534 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 54 retrieval fetches
 - /best/eval  — 32 retrieval fetches
 - /tools  — 32 retrieval fetches
@@ -106,8 +106,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (4048 verified): / ×24 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×20 · /newsroom ×20
-- OAI-SearchBot (3264 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×54 · /best/eval ×32 · /tools ×32
-- ChatGPT-User (761 verified): / ×509 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×9 · /agents.html ×8
+- OAI-SearchBot (3268 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×54 · /best/eval ×32 · /tools ×32
+- ChatGPT-User (762 verified): / ×510 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×9 · /agents.html ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -144,7 +144,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9265 confirmed AI-engine fetches (Perplexity 4048, ChatGPT Search (OpenAI) 3264, GPTBot (OpenAI) 1192, ChatGPT (user browsing) 761).
+The real answer engines are crawling us — IP-verified: 9272 confirmed AI-engine fetches (Perplexity 4048, ChatGPT Search (OpenAI) 3268, GPTBot (OpenAI) 1194, ChatGPT (user browsing) 762).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 411 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 135 crawler fetches
