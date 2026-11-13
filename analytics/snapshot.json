@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-13T03:16:50.685Z",
+ "generated": "2026-11-13T03:27:00.306Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 0,
+  "readersNow": 1,
+  "todayReads": 1,
   "avgTimeSec": 14,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 7233,
-  "reads": 284,
+  "views": 7207,
+  "reads": 285,
   "completes": 25,
   "plays": 12,
-  "sessions": 7086
+  "sessions": 7060
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2811,
-   "reads": 167,
-   "sessions": 2712
+   "views": 2812,
+   "reads": 168,
+   "sessions": 2713
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 4294,
+   "views": 4267,
    "reads": 56,
-   "sessions": 4296
+   "sessions": 4269
   },
   {
    "channel": "ai",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 4294,
+   "views": 4267,
    "reads": 56,
    "completes": 0,
-   "sessions": 4296,
+   "sessions": 4269,
    "read_rate": 0.013,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -72,11 +72,11 @@
   },
   {
    "channel": "direct",
-   "views": 2811,
-   "reads": 167,
+   "views": 2812,
+   "reads": 168,
    "completes": 21,
-   "sessions": 2712,
-   "read_rate": 0.059,
+   "sessions": 2713,
+   "read_rate": 0.06,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
    "median_dwell_sec": 10
@@ -255,9 +255,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6869,
-   "reads": 263,
-   "sessions": 6722
+   "views": 6843,
+   "reads": 264,
+   "sessions": 6696
   },
   {
    "device": "mobile",
@@ -608,16 +608,6 @@
    "plays": 0
   },
   {
-   "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
-   "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "gpu-rental-price-october-2026",
    "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
    "section": "stack",
@@ -625,6 +615,16 @@
    "author": "dex",
    "views": 19,
    "reads": 7,
+   "plays": 0
+  },
+  {
+   "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
+   "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 19,
+   "reads": 0,
    "plays": 0
   }
  ],
@@ -738,8 +738,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 4336,
-   "sessions": 4283
+   "hits": 4309,
+   "sessions": 4256
   },
   {
    "ref": "https://www.bing.com/",
