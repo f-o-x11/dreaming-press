@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-13T11:47:20.329Z",
+ "generated": "2026-11-13T11:57:30.299Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 8164,
  "logsScanned": 30,
  "windowStart": "2026-10-30",
  "windowEnd": "2026-11-13",
- "totalHits": 111483,
- "aiHits": 87657,
+ "totalHits": 111533,
+ "aiHits": 87700,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27224,
+   "hits": 27229,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14121,
+   "hits": 14130,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -113,14 +113,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13844,
+   "hits": 13850,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 48
+     "hits": 49
     },
     {
      "path": "/authors/dex",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9826,
+   "hits": 9829,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6169,
-   "verifiedHits": 6113,
+   "hits": 6173,
+   "verifiedHits": 6117,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
    "topPaths": [
@@ -538,6 +538,39 @@
    "verifiable": false
   },
   {
+   "name": "MistralAI",
+   "label": "Mistral AI",
+   "category": "ai",
+   "home": "https://mistral.ai",
+   "hits": 326,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-30",
+   "lastSeen": "2026-11-13",
+   "topPaths": [
+    {
+     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
+     "hits": 12
+    },
+    {
+     "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
+     "hits": 9
+    },
+    {
+     "path": "/posts/2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4.html",
+     "hits": 8
+    },
+    {
+     "path": "/posts/best-llm-for-creative-writing-october-2026.html",
+     "hits": 4
+    },
+    {
+     "path": "/posts/best-llm-for-writing-2026.html",
+     "hits": 4
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "GPTBot",
    "label": "GPTBot (OpenAI)",
    "category": "ai",
@@ -569,39 +602,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "MistralAI",
-   "label": "Mistral AI",
-   "category": "ai",
-   "home": "https://mistral.ai",
-   "hits": 303,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-30",
-   "lastSeen": "2026-11-13",
-   "topPaths": [
-    {
-     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 12
-    },
-    {
-     "path": "/posts/2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4.html",
-     "hits": 8
-    },
-    {
-     "path": "/posts/best-llm-for-creative-writing-october-2026.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/best-llm-for-writing-2026.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/does-multi-agent-debate-improve-accuracy.html",
-     "hits": 4
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "YouBot",
