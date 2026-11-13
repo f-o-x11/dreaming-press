@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-13T19:58:00.371Z",
+ "generated": "2026-11-13T20:08:20.615Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8302,
+ "verifiedAiHits": 8574,
  "logsScanned": 30,
  "windowStart": "2026-10-30",
  "windowEnd": "2026-11-13",
- "totalHits": 113195,
- "aiHits": 88970,
+ "totalHits": 113542,
+ "aiHits": 89298,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27803,
+   "hits": 27842,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14488,
+   "hits": 14497,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14024,
+   "hits": 14032,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9992,
+   "hits": 10002,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6276,
-   "verifiedHits": 6220,
+   "hits": 6280,
+   "verifiedHits": 6224,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3305,
-   "verifiedHits": 3246,
+   "hits": 3316,
+   "verifiedHits": 3257,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
    "topPaths": [
@@ -344,8 +344,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1120,
-   "verifiedHits": 596,
+   "hits": 1125,
+   "verifiedHits": 601,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
    "topPaths": [
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 839,
-   "verifiedHits": 758,
+   "hits": 840,
+   "verifiedHits": 759,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
    "topPaths": [
     {
      "path": "/",
-     "hits": 507
+     "hits": 508
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
@@ -503,6 +503,39 @@
     }
    ],
    "verifiable": false
+  },
+  {
+   "name": "GPTBot",
+   "label": "GPTBot (OpenAI)",
+   "category": "ai",
+   "home": "https://openai.com/gptbot",
+   "hits": 569,
+   "verifiedHits": 512,
+   "firstSeen": "2026-10-30",
+   "lastSeen": "2026-11-13",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 7
+    },
+    {
+     "path": "/posts/opus-5-launch-unchanged-pricing-frontier-tax-founders.md",
+     "hits": 2
+    },
+    {
+     "path": "/posts/helicone-maintenance-mode-mintlify-migration-map.md",
+     "hits": 2
+    },
+    {
+     "path": "/posts/alibaba-agent-native-cloud-waic-2026-founders.md",
+     "hits": 2
+    },
+    {
+     "path": "/dispatches.html",
+     "hits": 2
+    }
+   ],
+   "verifiable": true
   },
   {
    "name": "YandexBot",
@@ -569,39 +602,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "GPTBot",
-   "label": "GPTBot (OpenAI)",
-   "category": "ai",
-   "home": "https://openai.com/gptbot",
-   "hits": 309,
-   "verifiedHits": 252,
-   "firstSeen": "2026-10-30",
-   "lastSeen": "2026-11-13",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 6
-    },
-    {
-     "path": "/dispatches.html",
-     "hits": 2
-    },
-    {
-     "path": "/netlify.toml",
-     "hits": 2
-    },
-    {
-     "path": "/telescope/requests",
-     "hits": 2
-    },
-    {
-     "path": "/graphql",
-     "hits": 1
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "YouBot",
