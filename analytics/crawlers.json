@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-13T03:06:30.279Z",
+ "generated": "2026-11-13T03:16:50.374Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 7954,
  "logsScanned": 30,
  "windowStart": "2026-10-30",
  "windowEnd": "2026-11-13",
- "totalHits": 108921,
- "aiHits": 85612,
+ "totalHits": 109003,
+ "aiHits": 85679,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 26076,
+   "hits": 26135,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13737,
+   "hits": 13744,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13604,
+   "hits": 13605,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -128,7 +128,7 @@
     },
     {
      "path": "/tags/howto",
-     "hits": 13
+     "hits": 14
     },
     {
      "path": "/wire.html",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9598,
+   "hits": 9602,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6008,
-   "verifiedHits": 5954,
+   "hits": 6016,
+   "verifiedHits": 5962,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
    "topPaths": [
@@ -509,7 +509,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 352,
+   "hits": 355,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-13",
@@ -523,15 +523,15 @@
      "hits": 3
     },
     {
+     "path": "/stack/linkup",
+     "hits": 2
+    },
+    {
+     "path": "/alternatives/skyvern",
+     "hits": 2
+    },
+    {
      "path": "/alternatives/dspy",
-     "hits": 2
-    },
-    {
-     "path": "/comparisons/web-search-and-browsing",
-     "hits": 2
-    },
-    {
-     "path": "/alternatives/langgraph",
      "hits": 2
     }
    ],
