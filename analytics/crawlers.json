@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-13T14:00:20.267Z",
+ "generated": "2026-11-13T14:10:30.071Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8214,
+ "verifiedAiHits": 8216,
  "logsScanned": 30,
  "windowStart": "2026-10-30",
  "windowEnd": "2026-11-13",
- "totalHits": 111977,
- "aiHits": 88057,
+ "totalHits": 112009,
+ "aiHits": 88084,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27402,
+   "hits": 27419,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14220,
+   "hits": 14227,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -91,7 +91,7 @@
     },
     {
      "path": "/tags/opinionated",
-     "hits": 41
+     "hits": 42
     },
     {
      "path": "/wire.html",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9848,
+   "hits": 9849,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6204,
-   "verifiedHits": 6148,
+   "hits": 6205,
+   "verifiedHits": 6149,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3266,
-   "verifiedHits": 3207,
+   "hits": 3268,
+   "verifiedHits": 3209,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 964,
+   "hits": 967,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 889,
+   "hits": 890,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
