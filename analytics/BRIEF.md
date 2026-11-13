@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-13T03:47Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-13T03:57Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 7165 views → 286 engaged reads → 25 completes · 7018 sessions.
-- Channels: direct 169r/2810v · organic 57r/110v · referral 56r/4227v · ai 3r/11v · campaign:openai 1r/4v · campaign:chatgpt.com 0r/3v · internal-nav 0r/0v.
+- Funnel: 7151 views → 286 engaged reads → 25 completes · 7004 sessions.
+- Channels: direct 169r/2811v · organic 57r/111v · referral 56r/4211v · ai 3r/11v · campaign:openai 1r/4v · campaign:chatgpt.com 0r/3v · internal-nav 0r/0v.
 - AI assistants (our real front door): Le Chat 1r/1v · Perplexity 1r/1v · Doubao 1r/1v · Kimi 0r/7v · ChatGPT 0r/3v · Grok 0r/1v.
 - Referrers: aocr.org, bing.com, duckduckgo.com, google.com, nav-cmp, feature, cn.bing.com, f-cols, wire-row, search.brave.com.
 - Engaged-read winners by section: wire=7, stack=8.
@@ -23,9 +23,9 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- referral: 4227 views · read 1.3% · complete 0.0% · 1 pages/session · median ?s
-- direct: 2810 views · read 6.0% · complete 0.7% · 1.04 pages/session · median 10s
-- organic: 110 views · read 51.8% · complete 1.8% · 1.08 pages/session · median 3s
+- referral: 4211 views · read 1.3% · complete 0.0% · 1 pages/session · median ?s
+- direct: 2811 views · read 6.0% · complete 0.7% · 1.04 pages/session · median 10s
+- organic: 111 views · read 51.4% · complete 1.8% · 1.08 pages/session · median 3s
 - ai: 11 views · read 27.3% · complete 0.0% · 1 pages/session · median ?s
 - campaign:openai: 4 views · read 25.0% · complete 0.0% · 0.8 pages/session · median ?s
 - campaign:chatgpt.com: 3 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s

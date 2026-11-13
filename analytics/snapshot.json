@@ -1,37 +1,37 @@
 {
- "generated": "2026-11-13T03:47:20.411Z",
+ "generated": "2026-11-13T03:57:40.551Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 2,
-  "avgTimeSec": 19,
+  "avgTimeSec": 17,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 7165,
+  "views": 7151,
   "reads": 286,
   "completes": 25,
   "plays": 12,
-  "sessions": 7018
+  "sessions": 7004
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2810,
+   "views": 2811,
    "reads": 169,
-   "sessions": 2711
+   "sessions": 2712
   },
   {
    "channel": "organic",
-   "views": 110,
+   "views": 111,
    "reads": 57,
-   "sessions": 102
+   "sessions": 103
   },
   {
    "channel": "referral",
-   "views": 4227,
+   "views": 4211,
    "reads": 56,
-   "sessions": 4229
+   "sessions": 4213
   },
   {
    "channel": "ai",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 4227,
+   "views": 4211,
    "reads": 56,
    "completes": 0,
-   "sessions": 4229,
+   "sessions": 4213,
    "read_rate": 0.013,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -72,10 +72,10 @@
   },
   {
    "channel": "direct",
-   "views": 2810,
+   "views": 2811,
    "reads": 169,
    "completes": 21,
-   "sessions": 2711,
+   "sessions": 2712,
    "read_rate": 0.06,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
@@ -83,11 +83,11 @@
   },
   {
    "channel": "organic",
-   "views": 110,
+   "views": 111,
    "reads": 57,
    "completes": 2,
-   "sessions": 102,
-   "read_rate": 0.518,
+   "sessions": 103,
+   "read_rate": 0.514,
    "complete_rate": 0.018,
    "pages_per_session": 1.08,
    "median_dwell_sec": 3
@@ -255,9 +255,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6801,
+   "views": 6787,
    "reads": 265,
-   "sessions": 6654
+   "sessions": 6640
   },
   {
    "device": "mobile",
@@ -738,8 +738,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 4269,
-   "sessions": 4216
+   "hits": 4253,
+   "sessions": 4200
   },
   {
    "ref": "https://www.bing.com/",
@@ -753,8 +753,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 40,
-   "sessions": 32
+   "hits": 41,
+   "sessions": 33
   },
   {
    "ref": "nav-cmp",
