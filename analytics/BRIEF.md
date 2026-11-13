@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-13T14:10Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-13T14:20Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -58,7 +58,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 772 views, 0 reads, 767 sessions, avg 11s
+- /stack/:tool — 774 views, 0 reads, 769 sessions, avg 11s
 - /build — 256 views, 0 reads, 256 sessions
 - / — 209 views, 4 reads, 216 sessions, avg 20s
 - /compare/:pair — 201 views, 0 reads, 201 sessions, avg 23s
@@ -94,7 +94,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 518 retrieval fetches
+- /  — 519 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 53 retrieval fetches
 - /tools  — 31 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 30 retrieval fetches
@@ -106,9 +106,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/cheapest-gpu-rental-november-2026.html  — 18 retrieval fetches
 
 Per engine:
-- PerplexityBot (4016 verified): / ×24 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×20 · /newsroom ×20
-- OAI-SearchBot (3209 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×53 · /tools ×31 · /posts/open-source-llm-for-coding-september-2026.html ×30
-- ChatGPT-User (744 verified): / ×494 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×9 · /agents.html ×8
+- PerplexityBot (4017 verified): / ×24 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×20 · /newsroom ×20
+- OAI-SearchBot (3210 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×53 · /tools ×31 · /posts/open-source-llm-for-coding-september-2026.html ×30
+- ChatGPT-User (745 verified): / ×495 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×9 · /agents.html ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -122,7 +122,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Uncovered search demand (239 of 449 phrases have NO post, 50h ago)
+## Uncovered search demand (239 of 449 phrases have NO post, 51h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -145,9 +145,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8216 confirmed AI-engine fetches (Perplexity 4016, ChatGPT Search (OpenAI) 3209, ChatGPT (user browsing) 744, GPTBot (OpenAI) 247).
+The real answer engines are crawling us — IP-verified: 8219 confirmed AI-engine fetches (Perplexity 4017, ChatGPT Search (OpenAI) 3210, ChatGPT (user browsing) 745, GPTBot (OpenAI) 247).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 389 crawler fetches
+- /build  — 390 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 131 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 101 crawler fetches
 - /posts/gpu-rental-price-october-2026.html  — 101 crawler fetches
