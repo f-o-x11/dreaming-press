@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-13T19:37:20.710Z",
+ "generated": "2026-11-13T19:47:40.461Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 2,
   "todayReads": 5,
-  "avgTimeSec": 90,
+  "avgTimeSec": 86,
   "postsThisWeek": 8
  },
  "funnel": {
   "views": 7028,
-  "reads": 284,
+  "reads": 283,
   "completes": 24,
   "plays": 11,
   "sessions": 6883
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2811,
-   "reads": 168,
+   "views": 2810,
+   "reads": 167,
    "sessions": 2714
   },
   {
    "channel": "organic",
-   "views": 116,
+   "views": 117,
    "reads": 57,
-   "sessions": 108
+   "sessions": 109
   },
   {
    "channel": "referral",
@@ -72,22 +72,22 @@
   },
   {
    "channel": "direct",
-   "views": 2811,
-   "reads": 168,
+   "views": 2810,
+   "reads": 167,
    "completes": 20,
    "sessions": 2714,
-   "read_rate": 0.06,
+   "read_rate": 0.059,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
    "median_dwell_sec": 10
   },
   {
    "channel": "organic",
-   "views": 116,
+   "views": 117,
    "reads": 57,
    "completes": 2,
-   "sessions": 108,
-   "read_rate": 0.491,
+   "sessions": 109,
+   "read_rate": 0.487,
    "complete_rate": 0.017,
    "pages_per_session": 1.07,
    "median_dwell_sec": 3
@@ -249,15 +249,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6673,
+   "views": 6674,
    "reads": 262,
-   "sessions": 6528
+   "sessions": 6529
   },
   {
    "device": "mobile",
-   "views": 348,
-   "reads": 18,
-   "sessions": 352
+   "views": 347,
+   "reads": 17,
+   "sessions": 351
   },
   {
    "device": "tablet",
@@ -612,13 +612,13 @@
    "plays": 0
   },
   {
-   "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
-   "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
+   "slug": "local-llm-for-coding-on-your-own-machine",
+   "title": "Local LLM for Coding: The Best Models to Run on Your Own Machine (August 2026)",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 18,
-   "reads": 0,
+   "reads": 1,
    "plays": 0
   }
  ],
@@ -737,8 +737,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 64,
-   "sessions": 31
+   "hits": 65,
+   "sessions": 32
   },
   {
    "ref": "https://duckduckgo.com/",
