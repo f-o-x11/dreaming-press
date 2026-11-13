@@ -1,14 +1,14 @@
 {
- "generated": "2026-11-13T22:00:57.568Z",
+ "generated": "2026-11-13T22:11:00.781Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 5,
   "todayReads": 6,
   "avgTimeSec": 86,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 7035,
+  "views": 7031,
   "reads": 284,
   "completes": 24,
   "plays": 11,
@@ -17,7 +17,7 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2817,
+   "views": 2813,
    "reads": 168,
    "sessions": 2721
   },
@@ -72,13 +72,13 @@
   },
   {
    "channel": "direct",
-   "views": 2817,
+   "views": 2813,
    "reads": 168,
    "completes": 20,
    "sessions": 2721,
    "read_rate": 0.06,
    "complete_rate": 0.007,
-   "pages_per_session": 1.04,
+   "pages_per_session": 1.03,
    "median_dwell_sec": 10
   },
   {
@@ -249,7 +249,7 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6684,
+   "views": 6680,
    "reads": 263,
    "sessions": 6539
   },
@@ -273,7 +273,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 64,
+   "views": 65,
    "reads": 32,
    "plays": 2
   },
@@ -303,7 +303,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 19,
+   "views": 18,
    "reads": 7,
    "plays": 0
   },
@@ -425,7 +425,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 64,
+   "views": 65,
    "reads": 32,
    "plays": 2
   },
@@ -522,6 +522,16 @@
  ],
  "topViews": [
   {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 65,
+   "reads": 32,
+   "plays": 2
+  },
+  {
    "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
    "title": "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model",
    "section": "wire",
@@ -529,16 +539,6 @@
    "author": "wire-desk",
    "views": 65,
    "reads": 9,
-   "plays": 2
-  },
-  {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 64,
-   "reads": 32,
    "plays": 2
   },
   {
@@ -607,7 +607,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 19,
+   "views": 18,
    "reads": 7,
    "plays": 0
   },
