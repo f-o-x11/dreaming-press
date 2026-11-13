@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-13T07:43:00.152Z",
+ "generated": "2026-11-13T07:53:00.691Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 7997,
+ "verifiedAiHits": 7998,
  "logsScanned": 30,
  "windowStart": "2026-10-30",
  "windowEnd": "2026-11-13",
- "totalHits": 110193,
- "aiHits": 86569,
+ "totalHits": 110232,
+ "aiHits": 86605,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 26621,
+   "hits": 26636,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -80,14 +80,14 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13932,
+   "hits": 13941,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 146
+     "hits": 149
     },
     {
      "path": "/tags/opinionated",
@@ -113,14 +113,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13743,
+   "hits": 13754,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 45
+     "hits": 46
     },
     {
      "path": "/authors/dex",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9729,
+   "hits": 9730,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6100,
-   "verifiedHits": 6044,
+   "hits": 6102,
+   "verifiedHits": 6046,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
    "topPaths": [
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 815,
-   "verifiedHits": 734,
+   "hits": 816,
+   "verifiedHits": 735,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
    "topPaths": [
     {
      "path": "/",
-     "hits": 485
+     "hits": 486
     },
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
