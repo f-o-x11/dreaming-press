@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-13T17:24:40.562Z",
+ "generated": "2026-11-13T17:34:50.535Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 4,
   "todayReads": 5,
   "avgTimeSec": 107,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 7016,
+  "views": 7018,
   "reads": 284,
   "completes": 24,
   "plays": 11,
-  "sessions": 6871
+  "sessions": 6873
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2799,
+   "views": 2801,
    "reads": 168,
-   "sessions": 2702
+   "sessions": 2704
   },
   {
    "channel": "organic",
@@ -72,10 +72,10 @@
   },
   {
    "channel": "direct",
-   "views": 2799,
+   "views": 2801,
    "reads": 168,
    "completes": 20,
-   "sessions": 2702,
+   "sessions": 2704,
    "read_rate": 0.06,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
@@ -249,15 +249,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6661,
+   "views": 6662,
    "reads": 262,
-   "sessions": 6516
+   "sessions": 6517
   },
   {
    "device": "mobile",
-   "views": 348,
+   "views": 349,
    "reads": 18,
-   "sessions": 352
+   "sessions": 353
   },
   {
    "device": "tablet",
@@ -408,12 +408,12 @@
    "plays": 0
   },
   {
-   "slug": "2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b",
-   "title": "The Founder's Wire, November 3: Your Software Moves Inside ChatGPT, Google Turns AI Search Into an Ad Network, and Anthropic's $895B Compute Bill",
-   "section": "wire",
+   "slug": "from-framework-to-harness",
+   "title": "From Framework to Harness",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 15,
+   "author": "dex",
+   "views": 16,
    "reads": 2,
    "plays": 0
   }
@@ -557,7 +557,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 27,
+   "views": 26,
    "reads": 1,
    "plays": 0
   },
@@ -625,9 +625,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 776,
+   "views": 775,
    "reads": 0,
-   "sessions": 771,
+   "sessions": 770,
    "avg_dwell_sec": 11
   },
   {
