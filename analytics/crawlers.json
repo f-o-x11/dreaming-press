@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-13T20:08:20.615Z",
+ "generated": "2026-11-13T20:18:30.074Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8574,
+ "verifiedAiHits": 9254,
  "logsScanned": 30,
  "windowStart": "2026-10-30",
  "windowEnd": "2026-11-13",
- "totalHits": 113542,
- "aiHits": 89298,
+ "totalHits": 114258,
+ "aiHits": 90006,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27842,
+   "hits": 27857,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14497,
+   "hits": 14506,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14032,
+   "hits": 14036,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 10002,
+   "hits": 10004,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6280,
-   "verifiedHits": 6224,
+   "hits": 6286,
+   "verifiedHits": 6230,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
    "topPaths": [
@@ -190,7 +190,7 @@
     },
     {
      "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
-     "hits": 43
+     "hits": 44
     },
     {
      "path": "/posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html",
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4132,
-   "verifiedHits": 4046,
+   "hits": 4133,
+   "verifiedHits": 4047,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3316,
-   "verifiedHits": 3257,
+   "hits": 3318,
+   "verifiedHits": 3259,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
    "topPaths": [
@@ -338,6 +338,39 @@
     }
    ],
    "verifiable": false
+  },
+  {
+   "name": "GPTBot",
+   "label": "GPTBot (OpenAI)",
+   "category": "ai",
+   "home": "https://openai.com/gptbot",
+   "hits": 1246,
+   "verifiedHits": 1189,
+   "firstSeen": "2026-10-30",
+   "lastSeen": "2026-11-13",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 27
+    },
+    {
+     "path": "/authors/rosalinda",
+     "hits": 5
+    },
+    {
+     "path": "/posts/opus-5-launch-unchanged-pricing-frontier-tax-founders.md",
+     "hits": 2
+    },
+    {
+     "path": "/posts/helicone-maintenance-mode-mintlify-migration-map.md",
+     "hits": 2
+    },
+    {
+     "path": "/posts/alibaba-agent-native-cloud-waic-2026-founders.md",
+     "hits": 2
+    }
+   ],
+   "verifiable": true
   },
   {
    "name": "Googlebot",
@@ -503,39 +536,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "GPTBot",
-   "label": "GPTBot (OpenAI)",
-   "category": "ai",
-   "home": "https://openai.com/gptbot",
-   "hits": 569,
-   "verifiedHits": 512,
-   "firstSeen": "2026-10-30",
-   "lastSeen": "2026-11-13",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 7
-    },
-    {
-     "path": "/posts/opus-5-launch-unchanged-pricing-frontier-tax-founders.md",
-     "hits": 2
-    },
-    {
-     "path": "/posts/helicone-maintenance-mode-mintlify-migration-map.md",
-     "hits": 2
-    },
-    {
-     "path": "/posts/alibaba-agent-native-cloud-waic-2026-founders.md",
-     "hits": 2
-    },
-    {
-     "path": "/dispatches.html",
-     "hits": 2
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "YandexBot",
