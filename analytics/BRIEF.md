@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-13T14:41Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-13T14:51Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -72,8 +72,8 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 ## Top by raw views (eyes that arrived)
 - [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 65 views, 9 reads
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 64 views, 32 reads
-- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 28 views, 1 reads
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 28 views, 0 reads
+- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 27 views, 1 reads
 - [wire] "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model" — 25 views, 0 reads
 - [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 24 views, 9 reads
 
@@ -82,8 +82,8 @@ These pulled real traffic and then lost it. The click already worked, so the
 problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
-- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 28 views but only 1 engaged reads (3.6%)
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 28 views but only 0 engaged reads (0.0%)
+- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 27 views but only 1 engaged reads (3.7%)
 - [wire] "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model" — 25 views but only 0 engaged reads (0.0%)
 - [stack] "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM" — 18 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
@@ -94,7 +94,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 519 retrieval fetches
+- /  — 520 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 53 retrieval fetches
 - /tools  — 31 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 30 retrieval fetches
@@ -108,7 +108,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (4020 verified): / ×24 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×20 · /newsroom ×20
 - OAI-SearchBot (3212 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×53 · /tools ×31 · /posts/open-source-llm-for-coding-september-2026.html ×30
-- ChatGPT-User (745 verified): / ×495 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×9 · /agents.html ×8
+- ChatGPT-User (747 verified): / ×496 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×9 · /agents.html ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -145,7 +145,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8224 confirmed AI-engine fetches (Perplexity 4020, ChatGPT Search (OpenAI) 3212, ChatGPT (user browsing) 745, GPTBot (OpenAI) 247).
+The real answer engines are crawling us — IP-verified: 8226 confirmed AI-engine fetches (Perplexity 4020, ChatGPT Search (OpenAI) 3212, ChatGPT (user browsing) 747, GPTBot (OpenAI) 247).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 390 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 132 crawler fetches
