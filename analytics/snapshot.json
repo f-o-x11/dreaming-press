@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-13T01:04:50.328Z",
+ "generated": "2026-11-13T01:15:00.594Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 0,
   "avgTimeSec": 7,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 7558,
+  "views": 7538,
   "reads": 285,
   "completes": 25,
   "plays": 12,
-  "sessions": 7412
+  "sessions": 7392
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2857,
+   "views": 2855,
    "reads": 167,
-   "sessions": 2758
+   "sessions": 2756
   },
   {
    "channel": "referral",
-   "views": 4573,
+   "views": 4555,
    "reads": 57,
-   "sessions": 4575
+   "sessions": 4557
   },
   {
    "channel": "organic",
@@ -61,21 +61,21 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 4573,
+   "views": 4555,
    "reads": 57,
    "completes": 0,
-   "sessions": 4575,
-   "read_rate": 0.012,
+   "sessions": 4557,
+   "read_rate": 0.013,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
   {
    "channel": "direct",
-   "views": 2857,
+   "views": 2855,
    "reads": 167,
    "completes": 21,
-   "sessions": 2758,
+   "sessions": 2756,
    "read_rate": 0.058,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
@@ -255,9 +255,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7195,
+   "views": 7175,
    "reads": 264,
-   "sessions": 7049
+   "sessions": 7029
   },
   {
    "device": "mobile",
@@ -309,7 +309,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 20,
+   "views": 19,
    "reads": 7,
    "plays": 0
   },
@@ -608,16 +608,6 @@
    "plays": 0
   },
   {
-   "slug": "gpu-rental-price-october-2026",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 7,
-   "plays": 0
-  },
-  {
    "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
    "title": "The Founder's Wire, November 5: Coding Agents Get Cheaper, Agent Security Gets Bought, and AMD Bets $11B on Cheaper Inference",
    "section": "wire",
@@ -626,14 +616,24 @@
    "views": 20,
    "reads": 3,
    "plays": 0
+  },
+  {
+   "slug": "gpu-rental-price-october-2026",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 19,
+   "reads": 7,
+   "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 798,
+   "views": 797,
    "reads": 0,
-   "sessions": 793,
+   "sessions": 792,
    "avg_dwell_sec": 11
   },
   {
@@ -738,8 +738,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 4615,
-   "sessions": 4562
+   "hits": 4597,
+   "sessions": 4544
   },
   {
    "ref": "https://www.bing.com/",
