@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-13T01:35:06.073Z",
+ "generated": "2026-11-13T01:45:06.450Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 0,
   "avgTimeSec": 7,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 7489,
+  "views": 7460,
   "reads": 285,
   "completes": 25,
   "plays": 12,
-  "sessions": 7343
+  "sessions": 7314
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2855,
+   "views": 2851,
    "reads": 167,
-   "sessions": 2756
+   "sessions": 2752
   },
   {
    "channel": "referral",
-   "views": 4506,
+   "views": 4481,
    "reads": 57,
-   "sessions": 4508
+   "sessions": 4483
   },
   {
    "channel": "organic",
@@ -61,10 +61,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 4506,
+   "views": 4481,
    "reads": 57,
    "completes": 0,
-   "sessions": 4508,
+   "sessions": 4483,
    "read_rate": 0.013,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -72,11 +72,11 @@
   },
   {
    "channel": "direct",
-   "views": 2855,
+   "views": 2851,
    "reads": 167,
    "completes": 21,
-   "sessions": 2756,
-   "read_rate": 0.058,
+   "sessions": 2752,
+   "read_rate": 0.059,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
    "median_dwell_sec": 10
@@ -255,9 +255,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 7125,
+   "views": 7096,
    "reads": 264,
-   "sessions": 6979
+   "sessions": 6950
   },
   {
    "device": "mobile",
@@ -598,16 +598,6 @@
    "plays": 1
   },
   {
-   "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
-   "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
    "title": "The Founder's Wire, November 5: Coding Agents Get Cheaper, Agent Security Gets Bought, and AMD Bets $11B on Cheaper Inference",
    "section": "wire",
@@ -615,6 +605,16 @@
    "author": "wire-desk",
    "views": 20,
    "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
+   "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 0,
    "plays": 0
   },
   {
@@ -631,9 +631,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 794,
+   "views": 793,
    "reads": 0,
-   "sessions": 789,
+   "sessions": 788,
    "avg_dwell_sec": 11
   },
   {
@@ -728,18 +728,18 @@
    "avg_dwell_sec": 35
   },
   {
-   "path": "/dashboard",
-   "views": 10,
+   "path": "/about.html",
+   "views": 9,
    "reads": 0,
-   "sessions": 8,
-   "avg_dwell_sec": 14
+   "sessions": 9,
+   "avg_dwell_sec": 4
   }
  ],
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 4548,
-   "sessions": 4495
+   "hits": 4523,
+   "sessions": 4470
   },
   {
    "ref": "https://www.bing.com/",

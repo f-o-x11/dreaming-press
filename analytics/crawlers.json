@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-13T01:35:05.773Z",
+ "generated": "2026-11-13T01:45:06.144Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 7945,
  "logsScanned": 30,
  "windowStart": "2026-10-30",
  "windowEnd": "2026-11-13",
- "totalHits": 108504,
- "aiHits": 85305,
+ "totalHits": 108537,
+ "aiHits": 85323,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 25875,
+   "hits": 25881,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13674,
+   "hits": 13681,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13576,
+   "hits": 13580,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9546,
+   "hits": 9559,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -160,15 +160,15 @@
      "hits": 8
     },
     {
+     "path": "/authors/dex",
+     "hits": 7
+    },
+    {
      "path": "/authors/priya",
      "hits": 7
     },
     {
      "path": "/wire.html",
-     "hits": 6
-    },
-    {
-     "path": "/authors/dex",
      "hits": 6
     }
    ],
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5980,
-   "verifiedHits": 5926,
+   "hits": 5982,
+   "verifiedHits": 5928,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
    "topPaths": [
@@ -311,10 +311,10 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2249,
+   "hits": 2250,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-13",
    "topPaths": [
     {
      "path": "/tags/opinionated",
