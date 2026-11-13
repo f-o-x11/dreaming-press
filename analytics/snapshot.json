@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-13T13:09:00.552Z",
+ "generated": "2026-11-13T13:19:05.500Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 4,
-  "avgTimeSec": 125,
+  "readersNow": 5,
+  "todayReads": 5,
+  "avgTimeSec": 118,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 7016,
-  "reads": 284,
+  "views": 7017,
+  "reads": 285,
   "completes": 25,
   "plays": 11,
-  "sessions": 6871
+  "sessions": 6872
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2801,
    "reads": 169,
-   "sessions": 2703
+   "sessions": 2704
   },
   {
    "channel": "organic",
-   "views": 114,
-   "reads": 56,
-   "sessions": 106
+   "views": 115,
+   "reads": 57,
+   "sessions": 107
   },
   {
    "channel": "referral",
@@ -75,7 +75,7 @@
    "views": 2801,
    "reads": 169,
    "completes": 21,
-   "sessions": 2703,
+   "sessions": 2704,
    "read_rate": 0.06,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
@@ -83,13 +83,13 @@
   },
   {
    "channel": "organic",
-   "views": 114,
-   "reads": 56,
+   "views": 115,
+   "reads": 57,
    "completes": 2,
-   "sessions": 106,
-   "read_rate": 0.491,
-   "complete_rate": 0.018,
-   "pages_per_session": 1.08,
+   "sessions": 107,
+   "read_rate": 0.496,
+   "complete_rate": 0.017,
+   "pages_per_session": 1.07,
    "median_dwell_sec": 3
   },
   {
@@ -249,15 +249,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6658,
+   "views": 6660,
    "reads": 263,
-   "sessions": 6513
+   "sessions": 6515
   },
   {
    "device": "mobile",
-   "views": 351,
-   "reads": 17,
-   "sessions": 355
+   "views": 350,
+   "reads": 18,
+   "sessions": 354
   },
   {
    "device": "tablet",
@@ -388,6 +388,16 @@
    "plays": 0
   },
   {
+   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
+   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 4,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "tool-highlight-qoder-security-in-session-code-security",
    "title": "Tool Highlight: Qoder Security Puts Three Security Layers Inside the AI Coding Session",
    "section": "stack",
@@ -403,16 +413,6 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 15,
-   "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "from-framework-to-harness",
-   "title": "From Framework to Harness",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
    "views": 15,
    "reads": 2,
    "plays": 0
@@ -646,9 +646,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 200,
+   "views": 201,
    "reads": 0,
-   "sessions": 200,
+   "sessions": 201,
    "avg_dwell_sec": 23
   },
   {
@@ -761,6 +761,11 @@
    "sessions": 4
   },
   {
+   "ref": "https://search.brave.com/",
+   "hits": 7,
+   "sessions": 4
+  },
+  {
    "ref": "https://cn.bing.com/",
    "hits": 6,
    "sessions": 3
@@ -774,11 +779,6 @@
    "ref": "wire-row",
    "hits": 5,
    "sessions": 5
-  },
-  {
-   "ref": "https://search.brave.com/",
-   "hits": 5,
-   "sessions": 3
   }
  ]
 }
