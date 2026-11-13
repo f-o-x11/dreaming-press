@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-13T08:13:30.446Z",
+ "generated": "2026-11-13T08:23:31.338Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 2,
   "avgTimeSec": 17,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 7033,
+  "views": 7035,
   "reads": 285,
   "completes": 25,
   "plays": 12,
-  "sessions": 6886
+  "sessions": 6888
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2818,
+   "views": 2821,
    "reads": 169,
-   "sessions": 2718
+   "sessions": 2721
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 11,
+   "views": 10,
    "reads": 3,
-   "sessions": 11
+   "sessions": 10
   },
   {
    "channel": "campaign:openai",
@@ -72,10 +72,10 @@
   },
   {
    "channel": "direct",
-   "views": 2818,
+   "views": 2821,
    "reads": 169,
    "completes": 21,
-   "sessions": 2718,
+   "sessions": 2721,
    "read_rate": 0.06,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
@@ -94,11 +94,11 @@
   },
   {
    "channel": "ai",
-   "views": 11,
+   "views": 10,
    "reads": 3,
    "completes": 0,
-   "sessions": 11,
-   "read_rate": 0.273,
+   "sessions": 10,
+   "read_rate": 0.3,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -244,20 +244,14 @@
    "views": 2,
    "reads": 0,
    "sessions": 2
-  },
-  {
-   "assistant": "Grok",
-   "views": 1,
-   "reads": 0,
-   "sessions": 1
   }
  ],
  "devices": [
   {
    "device": "desktop",
-   "views": 6674,
+   "views": 6676,
    "reads": 264,
-   "sessions": 6527
+   "sessions": 6529
   },
   {
    "device": "mobile",
@@ -563,7 +557,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 26,
+   "views": 28,
    "reads": 1,
    "plays": 0
   },
