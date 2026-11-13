@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-13T14:20:30.930Z",
+ "generated": "2026-11-13T14:30:40.555Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
   "todayReads": 5,
-  "avgTimeSec": 118,
+  "avgTimeSec": 107,
   "postsThisWeek": 8
  },
  "funnel": {
-  "views": 7014,
+  "views": 7015,
   "reads": 285,
   "completes": 25,
   "plays": 11,
-  "sessions": 6869
+  "sessions": 6870
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2798,
+   "views": 2799,
    "reads": 169,
-   "sessions": 2701
+   "sessions": 2702
   },
   {
    "channel": "organic",
@@ -72,10 +72,10 @@
   },
   {
    "channel": "direct",
-   "views": 2798,
+   "views": 2799,
    "reads": 169,
    "completes": 21,
-   "sessions": 2701,
+   "sessions": 2702,
    "read_rate": 0.06,
    "complete_rate": 0.008,
    "pages_per_session": 1.04,
@@ -249,9 +249,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6657,
+   "views": 6658,
    "reads": 263,
-   "sessions": 6512
+   "sessions": 6513
   },
   {
    "device": "mobile",
@@ -542,16 +542,6 @@
    "plays": 2
   },
   {
-   "slug": "best-open-source-rl-frameworks-for-training-agents",
-   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 29,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "ai-agent-frameworks-whats-changed-fall-2026",
    "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
    "section": "stack",
@@ -559,6 +549,16 @@
    "author": "dex",
    "views": 28,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "best-open-source-rl-frameworks-for-training-agents",
+   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 28,
+   "reads": 0,
    "plays": 0
   },
   {
@@ -625,9 +625,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 774,
+   "views": 775,
    "reads": 0,
-   "sessions": 769,
+   "sessions": 770,
    "avg_dwell_sec": 11
   },
   {
