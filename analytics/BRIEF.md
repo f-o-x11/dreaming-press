@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-13T09:45Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-13T09:55Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -98,8 +98,8 @@ sample size dwarfs the engaged-read counts below.
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 52 retrieval fetches
 - /posts/gpu-rental-price-october-2026.html  — 30 retrieval fetches
 - /posts/serverless-inference-api-groq-fireworks-together-deepinfra-baseten.html  — 30 retrieval fetches
-- /tools  — 30 retrieval fetches
-- /wire.html  — 30 retrieval fetches
+- /posts/best-open-source-rl-frameworks-for-training-agents.html  — 30 retrieval fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 30 retrieval fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 27 retrieval fetches
 - /newsroom  — 19 retrieval fetches
 - /subscribe  — 18 retrieval fetches
@@ -107,7 +107,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (3978 verified): / ×24 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×20 · /newsroom ×19
-- OAI-SearchBot (3098 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×52 · /posts/gpu-rental-price-october-2026.html ×30 · /posts/serverless-inference-api-groq-fireworks-together-deepinfra-baseten.html ×30
+- OAI-SearchBot (3119 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×52 · /posts/gpu-rental-price-october-2026.html ×30 · /posts/serverless-inference-api-groq-fireworks-together-deepinfra-baseten.html ×30
 - ChatGPT-User (737 verified): / ×488 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×9 · /agents.html ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -145,7 +145,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8060 confirmed AI-engine fetches (Perplexity 3978, ChatGPT Search (OpenAI) 3098, ChatGPT (user browsing) 737, GPTBot (OpenAI) 247).
+The real answer engines are crawling us — IP-verified: 8081 confirmed AI-engine fetches (Perplexity 3978, ChatGPT Search (OpenAI) 3119, ChatGPT (user browsing) 737, GPTBot (OpenAI) 247).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 383 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 130 crawler fetches

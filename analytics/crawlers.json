@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-13T09:45:05.381Z",
+ "generated": "2026-11-13T09:55:10.611Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8060,
+ "verifiedAiHits": 8081,
  "logsScanned": 30,
  "windowStart": "2026-10-30",
  "windowEnd": "2026-11-13",
- "totalHits": 110919,
- "aiHits": 87199,
+ "totalHits": 110989,
+ "aiHits": 87256,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27047,
+   "hits": 27068,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14025,
+   "hits": 14032,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9772,
+   "hits": 9779,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6131,
-   "verifiedHits": 6075,
+   "hits": 6135,
+   "verifiedHits": 6079,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3157,
-   "verifiedHits": 3098,
+   "hits": 3178,
+   "verifiedHits": 3119,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
    "topPaths": [
@@ -296,11 +296,11 @@
      "hits": 30
     },
     {
-     "path": "/tools",
+     "path": "/posts/best-open-source-rl-frameworks-for-training-agents.html",
      "hits": 30
     },
     {
-     "path": "/wire.html",
+     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
      "hits": 30
     }
    ],
@@ -344,8 +344,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1099,
-   "verifiedHits": 578,
+   "hits": 1101,
+   "verifiedHits": 580,
    "firstSeen": "2026-10-30",
    "lastSeen": "2026-11-13",
    "topPaths": [
@@ -575,10 +575,10 @@
    "label": "Mistral AI",
    "category": "ai",
    "home": "https://mistral.ai",
-   "hits": 295,
+   "hits": 303,
    "verifiedHits": 0,
    "firstSeen": "2026-10-30",
-   "lastSeen": "2026-11-11",
+   "lastSeen": "2026-11-13",
    "topPaths": [
     {
      "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
