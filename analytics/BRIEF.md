@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-13T12:38Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-13T12:48Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 7040 views → 284 engaged reads → 25 completes · 6895 sessions.
-- Channels: direct 169r/2825v · organic 56r/114v · referral 55r/4086v · ai 3r/9v · campaign:openai 1r/4v · campaign:chatgpt.com 0r/2v · internal-nav 0r/0v.
+- Funnel: 7014 views → 284 engaged reads → 25 completes · 6869 sessions.
+- Channels: direct 169r/2799v · organic 56r/114v · referral 55r/4086v · ai 3r/9v · campaign:openai 1r/4v · campaign:chatgpt.com 0r/2v · internal-nav 0r/0v.
 - AI assistants (our real front door): Le Chat 1r/1v · Perplexity 1r/1v · Doubao 1r/1v · Kimi 0r/6v · ChatGPT 0r/2v.
 - Referrers: aocr.org, bing.com, duckduckgo.com, google.com, nav-cmp, feature, cn.bing.com, f-cols, wire-row, search.brave.com.
 - Engaged-read winners by section: wire=6, stack=9.
@@ -24,7 +24,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - referral: 4086 views · read 1.3% · complete 0.0% · 1 pages/session · median ?s
-- direct: 2825 views · read 6.0% · complete 0.7% · 1.04 pages/session · median 10s
+- direct: 2799 views · read 6.0% · complete 0.8% · 1.04 pages/session · median 10s
 - organic: 114 views · read 49.1% · complete 1.8% · 1.08 pages/session · median 3s
 - ai: 9 views · read 33.3% · complete 0.0% · 1 pages/session · median ?s
 - campaign:openai: 4 views · read 25.0% · complete 0.0% · 0.8 pages/session · median ?s
@@ -58,12 +58,12 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 771 views, 0 reads, 766 sessions, avg 11s
+- /stack/:tool — 772 views, 0 reads, 767 sessions, avg 11s
 - /build — 256 views, 0 reads, 256 sessions
-- /compare/:pair — 222 views, 0 reads, 222 sessions, avg 23s
 - / — 209 views, 4 reads, 216 sessions, avg 20s
+- /compare/:pair — 200 views, 0 reads, 200 sessions, avg 23s
 - /topics/:topic — 76 views, 0 reads, 76 sessions, avg 23s
-- /best/:cat — 48 views, 0 reads, 48 sessions
+- /best/:cat — 43 views, 0 reads, 43 sessions
 - /tools — 28 views, 3 reads, 21 sessions, avg 50s
 - /alternatives/:tool — 23 views, 0 reads, 23 sessions, avg 5s
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
@@ -107,7 +107,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (3982 verified): / ×24 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×20 · /newsroom ×19
-- OAI-SearchBot (3201 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×53 · /tools ×31 · /posts/open-source-llm-for-coding-september-2026.html ×30
+- OAI-SearchBot (3202 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×53 · /tools ×31 · /posts/open-source-llm-for-coding-september-2026.html ×30
 - ChatGPT-User (741 verified): / ×492 · /posts/ai-agent-frameworks-whats-changed-fall-2026.html ×9 · /agents.html ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -145,7 +145,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8171 confirmed AI-engine fetches (Perplexity 3982, ChatGPT Search (OpenAI) 3201, ChatGPT (user browsing) 741, GPTBot (OpenAI) 247).
+The real answer engines are crawling us — IP-verified: 8172 confirmed AI-engine fetches (Perplexity 3982, ChatGPT Search (OpenAI) 3202, ChatGPT (user browsing) 741, GPTBot (OpenAI) 247).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 387 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 131 crawler fetches
