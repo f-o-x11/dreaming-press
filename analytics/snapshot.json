@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-13T22:21:05.659Z",
+ "generated": "2026-11-13T22:31:20.357Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
-  "todayReads": 6,
+  "todayReads": 7,
   "avgTimeSec": 86,
   "postsThisWeek": 8
  },
  "funnel": {
   "views": 7033,
-  "reads": 284,
+  "reads": 285,
   "completes": 24,
   "plays": 11,
   "sessions": 6892
@@ -19,12 +19,12 @@
    "channel": "direct",
    "views": 2815,
    "reads": 168,
-   "sessions": 2723
+   "sessions": 2722
   },
   {
    "channel": "organic",
    "views": 117,
-   "reads": 57,
+   "reads": 58,
    "sessions": 109
   },
   {
@@ -75,7 +75,7 @@
    "views": 2815,
    "reads": 168,
    "completes": 20,
-   "sessions": 2723,
+   "sessions": 2722,
    "read_rate": 0.06,
    "complete_rate": 0.007,
    "pages_per_session": 1.03,
@@ -84,10 +84,10 @@
   {
    "channel": "organic",
    "views": 117,
-   "reads": 57,
+   "reads": 58,
    "completes": 2,
    "sessions": 109,
-   "read_rate": 0.487,
+   "read_rate": 0.496,
    "complete_rate": 0.017,
    "pages_per_session": 1.07,
    "median_dwell_sec": 3
@@ -249,15 +249,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6682,
+   "views": 6681,
    "reads": 263,
-   "sessions": 6541
+   "sessions": 6540
   },
   {
    "device": "mobile",
-   "views": 344,
-   "reads": 17,
-   "sessions": 348
+   "views": 345,
+   "reads": 18,
+   "sessions": 349
   },
   {
    "device": "tablet",
@@ -338,6 +338,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-23-mcp-code-execution-vs-direct-tool-calls",
+   "title": "Code Execution vs Direct Tool Calls: How Agents Actually Scale MCP",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 15,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "multi-agent-orchestration-supervisor-vs-swarm-vs-handoffs",
    "title": "Supervisor vs Swarm vs Handoffs: Multi-Agent Orchestration Patterns in 2026",
    "section": "wire",
@@ -405,16 +415,6 @@
    "author": "priya",
    "views": 4,
    "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "from-framework-to-harness",
-   "title": "From Framework to Harness",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 16,
-   "reads": 2,
    "plays": 0
   }
  ],
@@ -737,13 +737,13 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 65,
-   "sessions": 32
+   "hits": 64,
+   "sessions": 31
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 52,
-   "sessions": 26
+   "hits": 54,
+   "sessions": 27
   },
   {
    "ref": "https://www.google.com/",
