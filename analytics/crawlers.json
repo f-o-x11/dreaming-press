@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-14T08:32:27.943Z",
+ "generated": "2026-11-14T08:42:30.066Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8854,
+ "verifiedAiHits": 8857,
  "logsScanned": 30,
  "windowStart": "2026-10-31",
  "windowEnd": "2026-11-14",
- "totalHits": 111416,
- "aiHits": 88257,
+ "totalHits": 111491,
+ "aiHits": 88317,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27246,
+   "hits": 27274,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13993,
+   "hits": 14000,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9604,
+   "hits": 9611,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5050,
+   "hits": 5058,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3059,
-   "verifiedHits": 3000,
+   "hits": 3061,
+   "verifiedHits": 3002,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
    "topPaths": [
@@ -344,8 +344,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 1285,
-   "verifiedHits": 1228,
+   "hits": 1286,
+   "verifiedHits": 1229,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
    "topPaths": [
@@ -509,7 +509,7 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 672,
+   "hits": 694,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -523,15 +523,15 @@
      "hits": 3
     },
     {
+     "path": "/posts/2026-10-28-founders-wire-anthropic-s1-the-bill-comes-due.html",
+     "hits": 2
+    },
+    {
      "path": "/",
      "hits": 2
     },
     {
      "path": "/newsroom",
-     "hits": 2
-    },
-    {
-     "path": "/dashboard",
      "hits": 2
     }
    ],
