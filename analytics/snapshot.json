@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T06:11:20.216Z",
+ "generated": "2026-11-14T06:21:40.042Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,11 +8,11 @@
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 7085,
+  "views": 7086,
   "reads": 299,
   "completes": 24,
   "plays": 11,
-  "sessions": 6944
+  "sessions": 6945
  },
  "channels": [
   {
@@ -41,9 +41,9 @@
   },
   {
    "channel": "campaign:openai",
-   "views": 4,
+   "views": 5,
    "reads": 1,
-   "sessions": 5
+   "sessions": 6
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -105,13 +105,13 @@
   },
   {
    "channel": "campaign:openai",
-   "views": 4,
+   "views": 5,
    "reads": 1,
    "completes": 0,
-   "sessions": 5,
-   "read_rate": 0.25,
+   "sessions": 6,
+   "read_rate": 0.2,
    "complete_rate": 0,
-   "pages_per_session": 0.8,
+   "pages_per_session": 0.83,
    "median_dwell_sec": null
   },
   {
@@ -249,9 +249,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6714,
+   "views": 6715,
    "reads": 264,
-   "sessions": 6573
+   "sessions": 6574
   },
   {
    "device": "mobile",
@@ -323,7 +323,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 15,
+   "views": 16,
    "reads": 4,
    "plays": 0
   },
@@ -638,18 +638,18 @@
    "avg_dwell_sec": null
   },
   {
+   "path": "/compare/:pair",
+   "views": 206,
+   "reads": 0,
+   "sessions": 206,
+   "avg_dwell_sec": 23
+  },
+  {
    "path": "/",
    "views": 205,
    "reads": 4,
    "sessions": 212,
    "avg_dwell_sec": 20
-  },
-  {
-   "path": "/compare/:pair",
-   "views": 205,
-   "reads": 0,
-   "sessions": 205,
-   "avg_dwell_sec": 23
   },
   {
    "path": "/topics/:topic",
