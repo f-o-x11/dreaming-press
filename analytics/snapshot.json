@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-14T12:58:41.208Z",
+ "generated": "2026-11-14T13:08:42.338Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 2,
   "avgTimeSec": 82,
   "postsThisWeek": 12
  },
  "funnel": {
   "views": 7097,
-  "reads": 299,
-  "completes": 26,
+  "reads": 298,
+  "completes": 25,
   "plays": 11,
   "sessions": 6956
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2875,
+   "views": 2876,
    "reads": 182,
-   "sessions": 2781
+   "sessions": 2782
   },
   {
    "channel": "organic",
-   "views": 118,
-   "reads": 58,
-   "sessions": 110
+   "views": 117,
+   "reads": 57,
+   "sessions": 109
   },
   {
    "channel": "referral",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2875,
+   "views": 2876,
    "reads": 182,
    "completes": 22,
-   "sessions": 2781,
+   "sessions": 2782,
    "read_rate": 0.063,
    "complete_rate": 0.008,
    "pages_per_session": 1.03,
@@ -89,12 +89,12 @@
   },
   {
    "channel": "organic",
-   "views": 118,
-   "reads": 58,
-   "completes": 2,
-   "sessions": 110,
-   "read_rate": 0.492,
-   "complete_rate": 0.017,
+   "views": 117,
+   "reads": 57,
+   "completes": 1,
+   "sessions": 109,
+   "read_rate": 0.487,
+   "complete_rate": 0.009,
    "pages_per_session": 1.07,
    "median_dwell_sec": 3
   },
@@ -267,7 +267,7 @@
   {
    "device": "desktop",
    "views": 6725,
-   "reads": 264,
+   "reads": 263,
    "sessions": 6584
   },
   {
@@ -589,16 +589,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4",
-   "title": "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 23,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "best-llm-for-creative-writing-october-2026",
    "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
    "section": "stack",
@@ -607,6 +597,16 @@
    "views": 22,
    "reads": 5,
    "plays": 1
+  },
+  {
+   "slug": "2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4",
+   "title": "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 22,
+   "reads": 0,
+   "plays": 0
   },
   {
    "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
@@ -677,9 +677,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 47,
+   "views": 48,
    "reads": 0,
-   "sessions": 47,
+   "sessions": 48,
    "avg_dwell_sec": null
   },
   {
@@ -754,8 +754,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 63,
-   "sessions": 30
+   "hits": 60,
+   "sessions": 29
   },
   {
    "ref": "https://duckduckgo.com/",
