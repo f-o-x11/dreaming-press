@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-14T11:23:08.679Z",
+ "generated": "2026-11-14T11:45:39.611Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8889,
+ "verifiedAiHits": 9617,
  "logsScanned": 30,
  "windowStart": "2026-10-31",
  "windowEnd": "2026-11-14",
- "totalHits": 112252,
- "aiHits": 88927,
+ "totalHits": 113127,
+ "aiHits": 89738,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27532,
+   "hits": 27593,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14120,
+   "hits": 14137,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9690,
+   "hits": 9701,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6033,
-   "verifiedHits": 5977,
+   "hits": 6054,
+   "verifiedHits": 5998,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
    "topPaths": [
@@ -198,7 +198,7 @@
     },
     {
      "path": "/build",
-     "hits": 37
+     "hits": 38
     },
     {
      "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5075,
+   "hits": 5083,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3075,
-   "verifiedHits": 3016,
+   "hits": 3081,
+   "verifiedHits": 3022,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
    "topPaths": [
@@ -344,30 +344,30 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 1291,
-   "verifiedHits": 1234,
+   "hits": 2013,
+   "verifiedHits": 1956,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 28
+     "hits": 30
     },
     {
      "path": "/authors/rosalinda",
      "hits": 5
     },
     {
-     "path": "/posts/opus-5-launch-unchanged-pricing-frontier-tax-founders.md",
-     "hits": 2
-    },
-    {
      "path": "/posts/helicone-maintenance-mode-mintlify-migration-map.md",
-     "hits": 2
+     "hits": 3
     },
     {
-     "path": "/posts/alibaba-agent-native-cloud-waic-2026-founders.md",
-     "hits": 2
+     "path": "/posts/horizontal-agent-platform-vs-vertical-ai-app-where-to-build-2026.md",
+     "hits": 3
+    },
+    {
+     "path": "/posts/2026-06-22-graphrag-vs-lightrag-vs-graphiti.md",
+     "hits": 3
     }
    ],
    "verifiable": true
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 963,
+   "hits": 965,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 876,
+   "hits": 880,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -542,7 +542,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 402,
+   "hits": 424,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -550,6 +550,10 @@
     {
      "path": "/alternatives/lunary",
      "hits": 6
+    },
+    {
+     "path": "/stack/stigg",
+     "hits": 3
     },
     {
      "path": "/stack/bright-data",
@@ -561,10 +565,6 @@
     },
     {
      "path": "/alternatives/crustdata",
-     "hits": 2
-    },
-    {
-     "path": "/comparisons/synthetic-data",
      "hits": 2
     }
    ],
@@ -641,10 +641,10 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 132,
+   "hits": 133,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
-   "lastSeen": "2026-11-12",
+   "lastSeen": "2026-11-14",
    "topPaths": [
     {
      "path": "/posts/tool-highlight-tinfoil-confidential-llm-inference-cloud-cant-read.html",

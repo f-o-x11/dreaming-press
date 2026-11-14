@@ -1,8 +1,8 @@
 {
- "fetched_at": "2026-11-11T11:47:02.575Z",
+ "fetched_at": "2026-11-14T11:45:44.748Z",
  "seeds": 25,
- "phrases": 449,
- "gaps": 239,
+ "phrases": 454,
+ "gaps": 243,
  "top_gaps": [
   {
    "phrase": "cheapest gpu for gaming",
@@ -65,19 +65,6 @@
    ],
    "seeds": [
     "mcp server"
-   ],
-   "score": 7,
-   "covered": null
-  },
-  {
-   "phrase": "open source llm ranking",
-   "engines": [
-    "google",
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "open source llm"
    ],
    "score": 7,
    "covered": null
@@ -492,25 +479,21 @@
    ],
    "score": 5,
    "covered": null
-  }
- ],
- "covered_sample": [
+  },
   {
-   "phrase": "agent memory benchmark",
+   "phrase": "cheapest gpu provider",
    "engines": [
-    "google",
     "bing",
     "ddg"
    ],
    "seeds": [
-    "agent memory"
+    "cheapest gpu"
    ],
-   "score": 7,
-   "covered": {
-    "slug": "agent-memory-survey-2026",
-    "title": "Agent Memory in 2026: A Field Survey of the Frameworks, the Tradeoffs, and How to Choose"
-   }
-  },
+   "score": 5,
+   "covered": null
+  }
+ ],
+ "covered_sample": [
   {
    "phrase": "agent memory github",
    "engines": [
@@ -653,6 +636,22 @@
    "covered": {
     "slug": "best-ai-coding-tools-2026",
     "title": "The Best AI Coding Tools in 2026: A Founder's Ranked Buyer's Guide, by Job"
+   }
+  },
+  {
+   "phrase": "ai agent vs bot",
+   "engines": [
+    "google",
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "ai agent vs"
+   ],
+   "score": 7,
+   "covered": {
+    "slug": "web-bot-auth-sign-your-agent-skip-captcha",
+    "title": "Sign Your Agent's Requests With Web Bot Auth So Its Form-Fills Skip the CAPTCHA"
    }
   }
  ]
