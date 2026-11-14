@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-14T01:45:06.440Z",
+ "generated": "2026-11-14T01:55:29.978Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8416,
+ "verifiedAiHits": 8418,
  "logsScanned": 30,
  "windowStart": "2026-10-31",
  "windowEnd": "2026-11-14",
- "totalHits": 109290,
- "aiHits": 86541,
+ "totalHits": 109327,
+ "aiHits": 86574,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 26471,
+   "hits": 26494,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -80,7 +80,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13706,
+   "hits": 13707,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -113,7 +113,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13691,
+   "hits": 13698,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9433,
+   "hits": 9437,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3619,
-   "verifiedHits": 3533,
+   "hits": 3620,
+   "verifiedHits": 3534,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
    "topPaths": [
@@ -476,14 +476,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 792,
-   "verifiedHits": 711,
+   "hits": 793,
+   "verifiedHits": 712,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
    "topPaths": [
     {
      "path": "/",
-     "hits": 480
+     "hits": 481
     },
     {
      "path": "/agents.html",
