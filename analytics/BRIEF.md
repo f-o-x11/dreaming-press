@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-14T03:48Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-14T03:58Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -59,7 +59,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 785 views, 0 reads, 780 sessions, avg 11s
-- /build — 257 views, 0 reads, 257 sessions
+- /build — 256 views, 0 reads, 256 sessions
 - / — 205 views, 4 reads, 212 sessions, avg 20s
 - /compare/:pair — 205 views, 0 reads, 205 sessions, avg 23s
 - /topics/:topic — 78 views, 0 reads, 78 sessions, avg 23s
@@ -105,7 +105,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4.html  — 19 retrieval fetches
 
 Per engine:
-- PerplexityBot (3563 verified): / ×24 · /posts/cheapest-gpu-rental-november-2026.html ×20 · /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html ×19
+- PerplexityBot (3564 verified): / ×24 · /posts/cheapest-gpu-rental-november-2026.html ×20 · /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html ×19
 - OAI-SearchBot (2977 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×49 · /tools ×30 · /posts/best-open-vision-language-model-for-agents.html ×29
 - ChatGPT-User (716 verified): / ×484 · /agents.html ×9 · /posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -144,10 +144,10 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8473 confirmed AI-engine fetches (Perplexity 3563, ChatGPT Search (OpenAI) 2977, GPTBot (OpenAI) 1217, ChatGPT (user browsing) 716).
+The real answer engines are crawling us — IP-verified: 8474 confirmed AI-engine fetches (Perplexity 3564, ChatGPT Search (OpenAI) 2977, GPTBot (OpenAI) 1217, ChatGPT (user browsing) 716).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 412 crawler fetches
-- /posts/gartner-ai-agent-spending-2026.html  — 128 crawler fetches
+- /posts/gartner-ai-agent-spending-2026.html  — 129 crawler fetches
 - /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html  — 107 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 90 crawler fetches
 - /posts/cheapest-gpu-rental-november-2026.html  — 72 crawler fetches
