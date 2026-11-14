@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-14T15:39:01.811Z",
+ "generated": "2026-11-14T15:49:01.847Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
-  "todayReads": 2,
+  "todayReads": 3,
   "avgTimeSec": 59,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 7106,
-  "reads": 297,
+  "views": 7094,
+  "reads": 298,
   "completes": 25,
   "plays": 12,
-  "sessions": 6966
+  "sessions": 6953
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2886,
-   "reads": 181,
-   "sessions": 2793
+   "views": 2874,
+   "reads": 182,
+   "sessions": 2780
   },
   {
    "channel": "organic",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2886,
-   "reads": 181,
+   "views": 2874,
+   "reads": 182,
    "completes": 22,
-   "sessions": 2793,
+   "sessions": 2780,
    "read_rate": 0.063,
    "complete_rate": 0.008,
    "pages_per_session": 1.03,
@@ -266,9 +266,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6733,
-   "reads": 262,
-   "sessions": 6593
+   "views": 6721,
+   "reads": 263,
+   "sessions": 6580
   },
   {
    "device": "mobile",
@@ -405,6 +405,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
+   "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 5,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "arm-metis-open-source-ai-security-code-review",
    "title": "Arm Open-Sourced Its Internal Security Reviewer. Here's Whether You Should Run It.",
    "section": "wire",
@@ -420,16 +430,6 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 4,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "tool-highlight-qoder-security-in-session-code-security",
-   "title": "Tool Highlight: Qoder Security Puts Three Security Layers Inside the AI Coding Session",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
    "views": 4,
    "reads": 3,
    "plays": 0
@@ -564,7 +564,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 28,
+   "views": 27,
    "reads": 0,
    "plays": 0
   },
@@ -614,7 +614,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 21,
+   "views": 20,
    "reads": 0,
    "plays": 0
   },
