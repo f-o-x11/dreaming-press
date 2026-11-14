@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-14T08:12:24.225Z",
+ "generated": "2026-11-14T08:22:24.865Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 1,
   "avgTimeSec": 6,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 7083,
+  "views": 7085,
   "reads": 299,
   "completes": 25,
   "plays": 11,
-  "sessions": 6942
+  "sessions": 6944
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2863,
+   "views": 2864,
    "reads": 182,
-   "sessions": 2769
+   "sessions": 2770
   },
   {
    "channel": "organic",
-   "views": 117,
+   "views": 118,
    "reads": 58,
-   "sessions": 109
+   "sessions": 110
   },
   {
    "channel": "referral",
@@ -72,10 +72,10 @@
   },
   {
    "channel": "direct",
-   "views": 2863,
+   "views": 2864,
    "reads": 182,
    "completes": 21,
-   "sessions": 2769,
+   "sessions": 2770,
    "read_rate": 0.064,
    "complete_rate": 0.007,
    "pages_per_session": 1.03,
@@ -83,11 +83,11 @@
   },
   {
    "channel": "organic",
-   "views": 117,
+   "views": 118,
    "reads": 58,
    "completes": 2,
-   "sessions": 109,
-   "read_rate": 0.496,
+   "sessions": 110,
+   "read_rate": 0.492,
    "complete_rate": 0.017,
    "pages_per_session": 1.07,
    "median_dwell_sec": 3
@@ -249,9 +249,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6713,
+   "views": 6715,
    "reads": 264,
-   "sessions": 6572
+   "sessions": 6574
   },
   {
    "device": "mobile",
@@ -625,9 +625,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 787,
+   "views": 788,
    "reads": 0,
-   "sessions": 782,
+   "sessions": 783,
    "avg_dwell_sec": 11
   },
   {
@@ -666,18 +666,18 @@
    "avg_dwell_sec": null
   },
   {
+   "path": "/alternatives/:tool",
+   "views": 28,
+   "reads": 0,
+   "sessions": 28,
+   "avg_dwell_sec": 5
+  },
+  {
    "path": "/tools",
    "views": 28,
    "reads": 3,
    "sessions": 21,
    "avg_dwell_sec": 47
-  },
-  {
-   "path": "/alternatives/:tool",
-   "views": 27,
-   "reads": 0,
-   "sessions": 27,
-   "avg_dwell_sec": 5
   },
   {
    "path": "/stack.html",
@@ -762,8 +762,8 @@
   },
   {
    "ref": "https://search.brave.com/",
-   "hits": 7,
-   "sessions": 4
+   "hits": 8,
+   "sessions": 5
   },
   {
    "ref": "https://cn.bing.com/",
