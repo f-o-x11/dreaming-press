@@ -18,9 +18,9 @@ art:
   motif: "a policy circling a single reward point, each training lap a tighter concentric ring pulling the orbit inward"
 ---
 
-If you want an AI agent that *learns* from attempting a task — not just one that follows a smarter prompt — reinforcement learning (RL) is how you train it, and the tooling to do it on your own hardware is now free and open-source. This guide ranks the seven frameworks that actually ship, by the job you're doing. Here's the short version before the detail.
+**The best open-source RL framework for training an AI agent is OpenPipe's ART for most people** — it wraps GRPO around an agent you already have and ships a built-in LLM-judge reward (RULER), so you can start a real training run without hand-writing a reward function. If you're building reusable training environments instead, reach for **Prime Intellect's verifiers**; if you need maximum-scale trainer infrastructure and will write your own reward, it's **verl**. All seven frameworks below are free, open-source and self-hostable on your own GPUs — here's the whole picture, ranked by the job you're doing.
 
-**The best open-source RL framework for most people is OpenPipe's ART** — it wraps GRPO around an agent you already have and ships a built-in LLM-judge reward, so you can start a real training run without hand-writing a reward function. If you're building reusable training environments instead, it's **Prime Intellect's verifiers**; if you need maximum-scale trainer infrastructure, it's **verl**.
+The reason the pick is framed by *what you're doing* rather than by a leaderboard: reinforcement learning is how you train an agent that *learns* from attempting a task instead of just following a smarter prompt, and the hard part isn't the algorithm. All seven ship GRPO, so the trainer is commodity — the environment and the reward are your real differentiator, and that's the axis this guide ranks on.
 
 That's the whole answer, and here's why it's framed by *what you're doing* rather than by a benchmark: all seven frameworks below ship GRPO, so the algorithm isn't your differentiator — the environment and reward are. Every one is real, actively maintained, and self-hostable on your own GPUs. Pick by which half of the problem you're on:
 
