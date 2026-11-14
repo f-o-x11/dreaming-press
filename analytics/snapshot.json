@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-14T09:12:33.614Z",
+ "generated": "2026-11-14T09:22:37.202Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 1,
   "avgTimeSec": 6,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 7084,
+  "views": 7086,
   "reads": 298,
   "completes": 25,
   "plays": 11,
-  "sessions": 6943
+  "sessions": 6945
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2863,
+   "views": 2864,
    "reads": 181,
-   "sessions": 2769
+   "sessions": 2770
   },
   {
    "channel": "organic",
@@ -52,6 +52,12 @@
    "sessions": 3
   },
   {
+   "channel": "campaign:producthunt",
+   "views": 1,
+   "reads": 0,
+   "sessions": 1
+  },
+  {
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
@@ -72,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2863,
+   "views": 2864,
    "reads": 181,
    "completes": 21,
-   "sessions": 2769,
+   "sessions": 2770,
    "read_rate": 0.063,
    "complete_rate": 0.007,
    "pages_per_session": 1.03,
@@ -120,6 +126,17 @@
    "reads": 0,
    "completes": 0,
    "sessions": 3,
+   "read_rate": 0,
+   "complete_rate": 0,
+   "pages_per_session": 1,
+   "median_dwell_sec": null
+  },
+  {
+   "channel": "campaign:producthunt",
+   "views": 1,
+   "reads": 0,
+   "completes": 0,
+   "sessions": 1,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -249,9 +266,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6714,
+   "views": 6716,
    "reads": 263,
-   "sessions": 6573
+   "sessions": 6575
   },
   {
    "device": "mobile",
@@ -639,16 +656,16 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 206,
+   "views": 207,
    "reads": 0,
-   "sessions": 206,
+   "sessions": 207,
    "avg_dwell_sec": 23
   },
   {
    "path": "/",
-   "views": 205,
+   "views": 206,
    "reads": 4,
-   "sessions": 212,
+   "sessions": 213,
    "avg_dwell_sec": 20
   },
   {
