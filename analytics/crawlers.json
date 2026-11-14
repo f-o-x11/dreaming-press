@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-14T23:40:25.209Z",
+ "generated": "2026-11-14T23:50:25.566Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 10285,
  "logsScanned": 30,
  "windowStart": "2026-10-31",
  "windowEnd": "2026-11-14",
- "totalHits": 116408,
- "aiHits": 92239,
+ "totalHits": 116486,
+ "aiHits": 92291,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28510,
+   "hits": 28531,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14683,
+   "hits": 14690,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14154,
+   "hits": 14161,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 10072,
+   "hits": 10085,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6243,
-   "verifiedHits": 6187,
+   "hits": 6246,
+   "verifiedHits": 6190,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5207,
+   "hits": 5215,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -234,7 +234,7 @@
      "hits": 12
     },
     {
-     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
+     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
      "hits": 9
     }
    ],
@@ -443,7 +443,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 902,
+   "hits": 903,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -467,6 +467,39 @@
     {
      "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
      "hits": 29
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "CCBot",
+   "label": "Common Crawl (feeds many LLMs)",
+   "category": "ai",
+   "home": "https://commoncrawl.org/ccbot",
+   "hits": 853,
+   "verifiedHits": 0,
+   "firstSeen": "2026-10-31",
+   "lastSeen": "2026-11-14",
+   "topPaths": [
+    {
+     "path": "/posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b.html",
+     "hits": 3
+    },
+    {
+     "path": "/agents.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/2026-10-28-founders-wire-anthropic-s1-the-bill-comes-due.html",
+     "hits": 2
+    },
+    {
+     "path": "/",
+     "hits": 2
     }
    ],
    "verifiable": false
@@ -505,44 +538,11 @@
    "verifiable": true
   },
   {
-   "name": "CCBot",
-   "label": "Common Crawl (feeds many LLMs)",
-   "category": "ai",
-   "home": "https://commoncrawl.org/ccbot",
-   "hits": 839,
-   "verifiedHits": 0,
-   "firstSeen": "2026-10-31",
-   "lastSeen": "2026-11-14",
-   "topPaths": [
-    {
-     "path": "/posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b.html",
-     "hits": 3
-    },
-    {
-     "path": "/agents.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-10-28-founders-wire-anthropic-s1-the-bill-comes-due.html",
-     "hits": 2
-    },
-    {
-     "path": "/",
-     "hits": 2
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "YandexBot",
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 441,
+   "hits": 443,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -608,7 +608,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 304,
+   "hits": 306,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",

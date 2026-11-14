@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T23:40:25.504Z",
+ "generated": "2026-11-14T23:50:25.874Z",
  "windowDays": 14,
  "site": {
   "readersNow": 6,
@@ -8,18 +8,18 @@
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 7142,
+  "views": 7154,
   "reads": 300,
   "completes": 25,
   "plays": 12,
-  "sessions": 6982
+  "sessions": 6985
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2913,
+   "views": 2925,
    "reads": 182,
-   "sessions": 2801
+   "sessions": 2804
   },
   {
    "channel": "organic",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2913,
+   "views": 2925,
    "reads": 182,
    "completes": 22,
-   "sessions": 2801,
+   "sessions": 2804,
    "read_rate": 0.062,
    "complete_rate": 0.008,
    "pages_per_session": 1.04,
@@ -161,14 +161,14 @@
    "sessions": 9
   },
   {
+   "surface": "f-cols",
+   "clicks": 10,
+   "sessions": 6
+  },
+  {
    "surface": "feature",
    "clicks": 9,
    "sessions": 4
-  },
-  {
-   "surface": "f-cols",
-   "clicks": 7,
-   "sessions": 6
   },
   {
    "surface": "wire-row",
@@ -266,9 +266,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6778,
+   "views": 6790,
    "reads": 266,
-   "sessions": 6615
+   "sessions": 6618
   },
   {
    "device": "mobile",
@@ -642,9 +642,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 804,
+   "views": 806,
    "reads": 0,
-   "sessions": 799,
+   "sessions": 801,
    "avg_dwell_sec": 11
   },
   {
@@ -663,9 +663,9 @@
   },
   {
    "path": "/",
-   "views": 214,
+   "views": 213,
    "reads": 4,
-   "sessions": 212,
+   "sessions": 211,
    "avg_dwell_sec": 21
   },
   {
@@ -691,14 +691,14 @@
   },
   {
    "path": "/tools",
-   "views": 28,
+   "views": 29,
    "reads": 3,
-   "sessions": 21,
+   "sessions": 22,
    "avg_dwell_sec": 47
   },
   {
    "path": "/subscribe",
-   "views": 18,
+   "views": 24,
    "reads": 0,
    "sessions": 9,
    "avg_dwell_sec": null
@@ -773,6 +773,11 @@
    "sessions": 9
   },
   {
+   "ref": "f-cols",
+   "hits": 10,
+   "sessions": 6
+  },
+  {
    "ref": "https://search.brave.com/",
    "hits": 9,
    "sessions": 6
@@ -781,11 +786,6 @@
    "ref": "feature",
    "hits": 9,
    "sessions": 4
-  },
-  {
-   "ref": "f-cols",
-   "hits": 7,
-   "sessions": 6
   },
   {
    "ref": "wire-row",
