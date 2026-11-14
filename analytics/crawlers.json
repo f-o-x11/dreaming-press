@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-14T06:31:49.913Z",
+ "generated": "2026-11-14T06:41:59.935Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8826,
+ "verifiedAiHits": 8828,
  "logsScanned": 30,
  "windowStart": "2026-10-31",
  "windowEnd": "2026-11-14",
- "totalHits": 110798,
- "aiHits": 87740,
+ "totalHits": 110825,
+ "aiHits": 87764,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 26937,
+   "hits": 26942,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13906,
+   "hits": 13914,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13784,
+   "hits": 13791,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -135,8 +135,8 @@
      "hits": 12
     },
     {
-     "path": "/dispatches.html",
-     "hits": 9
+     "path": "/apps",
+     "hits": 10
     }
    ],
    "verifiable": false
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5959,
-   "verifiedHits": 5903,
+   "hits": 5962,
+   "verifiedHits": 5906,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3045,
-   "verifiedHits": 2986,
+   "hits": 3046,
+   "verifiedHits": 2987,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
    "topPaths": [
@@ -476,14 +476,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 801,
-   "verifiedHits": 720,
+   "hits": 802,
+   "verifiedHits": 721,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
    "topPaths": [
     {
      "path": "/",
-     "hits": 488
+     "hits": 489
     },
     {
      "path": "/agents.html",
@@ -608,7 +608,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 236,
+   "hits": 238,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -626,11 +626,11 @@
      "hits": 1
     },
     {
-     "path": "/comparisons/email-and-transactional-apis",
+     "path": "/posts/china-ai-companion-law-doubao-qwen-agent-shutdown.html",
      "hits": 1
     },
     {
-     "path": "/posts/meta-muse-spark-open-weight-llms-on-a-mac-studio.html",
+     "path": "/comparisons/email-and-transactional-apis",
      "hits": 1
     }
    ],
