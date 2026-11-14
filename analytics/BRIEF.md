@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-14T03:17Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-14T03:27Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -99,14 +99,14 @@ sample size dwarfs the engaged-read counts below.
 - /posts/best-open-vision-language-model-for-agents.html  — 29 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 29 retrieval fetches
 - /posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html  — 29 retrieval fetches
-- /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 25 retrieval fetches
 - /posts/cheapest-gpu-rental-november-2026.html  — 20 retrieval fetches
 - /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html  — 19 retrieval fetches
-- /posts/how-to-opt-out-ai-training-shared-token-robots-txt.html  — 18 retrieval fetches
+- /posts/how-to-opt-out-ai-training-shared-token-robots-txt.html  — 19 retrieval fetches
+- /posts/2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4.html  — 19 retrieval fetches
 
 Per engine:
-- PerplexityBot (3544 verified): / ×24 · /posts/cheapest-gpu-rental-november-2026.html ×20 · /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html ×19
-- OAI-SearchBot (2975 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×49 · /tools ×30 · /posts/best-open-vision-language-model-for-agents.html ×29
+- PerplexityBot (3560 verified): / ×24 · /posts/cheapest-gpu-rental-november-2026.html ×20 · /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html ×19
+- OAI-SearchBot (2976 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×49 · /tools ×30 · /posts/best-open-vision-language-model-for-agents.html ×29
 - ChatGPT-User (716 verified): / ×484 · /agents.html ×9 · /posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -144,7 +144,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8449 confirmed AI-engine fetches (Perplexity 3544, ChatGPT Search (OpenAI) 2975, GPTBot (OpenAI) 1214, ChatGPT (user browsing) 716).
+The real answer engines are crawling us — IP-verified: 8467 confirmed AI-engine fetches (Perplexity 3560, ChatGPT Search (OpenAI) 2976, GPTBot (OpenAI) 1215, ChatGPT (user browsing) 716).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 412 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 128 crawler fetches
@@ -152,11 +152,11 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/best-llm-for-creative-writing-october-2026.html  — 90 crawler fetches
 - /posts/cheapest-gpu-rental-november-2026.html  — 72 crawler fetches
 - /posts/gpu-rental-price-october-2026.html  — 67 crawler fetches
-- /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 63 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 49 crawler fetches
 - /posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html  — 46 crawler fetches
+- /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 45 crawler fetches
 - /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 40 crawler fetches
-- /posts/how-to-opt-out-ai-training-shared-token-robots-txt.html  — 36 crawler fetches
+- /posts/how-to-opt-out-ai-training-shared-token-robots-txt.html  — 37 crawler fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 34 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
