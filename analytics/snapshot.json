@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-14T20:50:03.943Z",
+ "generated": "2026-11-14T21:00:04.191Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 5,
   "avgTimeSec": 73,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 7105,
+  "views": 7107,
   "reads": 298,
   "completes": 25,
   "plays": 12,
-  "sessions": 6967
+  "sessions": 6969
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2878,
+   "views": 2879,
    "reads": 182,
-   "sessions": 2788
+   "sessions": 2789
   },
   {
    "channel": "organic",
-   "views": 124,
+   "views": 125,
    "reads": 57,
-   "sessions": 116
+   "sessions": 117
   },
   {
    "channel": "referral",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2878,
+   "views": 2879,
    "reads": 182,
    "completes": 22,
-   "sessions": 2788,
+   "sessions": 2789,
    "read_rate": 0.063,
    "complete_rate": 0.008,
    "pages_per_session": 1.03,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 124,
+   "views": 125,
    "reads": 57,
    "completes": 1,
-   "sessions": 116,
-   "read_rate": 0.46,
+   "sessions": 117,
+   "read_rate": 0.456,
    "complete_rate": 0.008,
    "pages_per_session": 1.07,
    "median_dwell_sec": 3
@@ -266,15 +266,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6740,
+   "views": 6741,
    "reads": 265,
-   "sessions": 6599
+   "sessions": 6600
   },
   {
    "device": "mobile",
-   "views": 358,
+   "views": 359,
    "reads": 29,
-   "sessions": 365
+   "sessions": 366
   },
   {
    "device": "tablet",
@@ -656,9 +656,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 217,
+   "views": 218,
    "reads": 0,
-   "sessions": 217,
+   "sessions": 218,
    "avg_dwell_sec": 23
   },
   {
@@ -758,14 +758,14 @@
    "sessions": 29
   },
   {
+   "ref": "https://duckduckgo.com/",
+   "hits": 55,
+   "sessions": 28
+  },
+  {
    "ref": "https://www.google.com/",
    "hits": 54,
    "sessions": 46
-  },
-  {
-   "ref": "https://duckduckgo.com/",
-   "hits": 54,
-   "sessions": 27
   },
   {
    "ref": "nav-cmp",
