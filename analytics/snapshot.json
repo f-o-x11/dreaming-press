@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-14T13:58:53.207Z",
+ "generated": "2026-11-14T14:08:53.277Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 2,
   "avgTimeSec": 67,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 7100,
+  "views": 7102,
   "reads": 298,
   "completes": 25,
   "plays": 11,
-  "sessions": 6960
+  "sessions": 6962
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2879,
+   "views": 2881,
    "reads": 182,
-   "sessions": 2786
+   "sessions": 2788
   },
   {
    "channel": "organic",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2879,
+   "views": 2881,
    "reads": 182,
    "completes": 22,
-   "sessions": 2786,
+   "sessions": 2788,
    "read_rate": 0.063,
    "complete_rate": 0.008,
    "pages_per_session": 1.03,
@@ -266,9 +266,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6727,
+   "views": 6729,
    "reads": 263,
-   "sessions": 6587
+   "sessions": 6589
   },
   {
    "device": "mobile",
@@ -599,16 +599,6 @@
    "plays": 1
   },
   {
-   "slug": "2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4",
-   "title": "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 22,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
    "title": "The Founder's Wire, November 5: Coding Agents Get Cheaper, Agent Security Gets Bought, and AMD Bets $11B on Cheaper Inference",
    "section": "wire",
@@ -616,6 +606,16 @@
    "author": "wire-desk",
    "views": 21,
    "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4",
+   "title": "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 21,
+   "reads": 0,
    "plays": 0
   },
   {
@@ -656,9 +656,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 210,
+   "views": 211,
    "reads": 0,
-   "sessions": 210,
+   "sessions": 211,
    "avg_dwell_sec": 23
   },
   {
@@ -684,9 +684,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 31,
+   "views": 32,
    "reads": 0,
-   "sessions": 31,
+   "sessions": 32,
    "avg_dwell_sec": 5
   },
   {
