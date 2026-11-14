@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-14T16:49:19.303Z",
+ "generated": "2026-11-14T16:59:20.356Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 1,
   "todayReads": 3,
   "avgTimeSec": 59,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 7100,
+  "views": 7098,
   "reads": 298,
   "completes": 25,
   "plays": 12,
-  "sessions": 6959
+  "sessions": 6957
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2880,
+   "views": 2878,
    "reads": 182,
-   "sessions": 2786
+   "sessions": 2784
   },
   {
    "channel": "organic",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2880,
+   "views": 2878,
    "reads": 182,
    "completes": 22,
-   "sessions": 2786,
+   "sessions": 2784,
    "read_rate": 0.063,
    "complete_rate": 0.008,
    "pages_per_session": 1.03,
@@ -266,9 +266,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6730,
+   "views": 6728,
    "reads": 263,
-   "sessions": 6589
+   "sessions": 6587
   },
   {
    "device": "mobile",
@@ -619,16 +619,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4",
-   "title": "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 19,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "local-llm-for-coding-on-your-own-machine",
    "title": "Local LLM for Coding: The Best Models to Run on Your Own Machine (August 2026)",
    "section": "stack",
@@ -636,6 +626,16 @@
    "author": "dex",
    "views": 18,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
+   "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 18,
+   "reads": 0,
    "plays": 0
   }
  ],
