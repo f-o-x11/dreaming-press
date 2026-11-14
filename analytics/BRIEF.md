@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-14T00:54Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-14T01:04Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -105,7 +105,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4.html  — 18 retrieval fetches
 
 Per engine:
-- PerplexityBot (3525 verified): / ×24 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×18 · /newsroom ×18
+- PerplexityBot (3527 verified): / ×24 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×18 · /newsroom ×18
 - OAI-SearchBot (2962 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×49 · /tools ×30 · /posts/best-open-vision-language-model-for-agents.html ×29
 - ChatGPT-User (710 verified): / ×479 · /agents.html ×8 · /posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -144,7 +144,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8401 confirmed AI-engine fetches (Perplexity 3525, ChatGPT Search (OpenAI) 2962, GPTBot (OpenAI) 1204, ChatGPT (user browsing) 710).
+The real answer engines are crawling us — IP-verified: 8403 confirmed AI-engine fetches (Perplexity 3527, ChatGPT Search (OpenAI) 2962, GPTBot (OpenAI) 1204, ChatGPT (user browsing) 710).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 410 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 127 crawler fetches
