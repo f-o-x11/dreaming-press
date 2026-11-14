@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-14T17:09:24.287Z",
+ "generated": "2026-11-14T17:19:28.339Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 3,
   "avgTimeSec": 59,
   "postsThisWeek": 12
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2879,
+   "views": 2880,
    "reads": 182,
-   "sessions": 2785
+   "sessions": 2786
   },
   {
    "channel": "organic",
-   "views": 117,
+   "views": 116,
    "reads": 57,
-   "sessions": 109
+   "sessions": 108
   },
   {
    "channel": "referral",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2879,
+   "views": 2880,
    "reads": 182,
    "completes": 22,
-   "sessions": 2785,
+   "sessions": 2786,
    "read_rate": 0.063,
    "complete_rate": 0.008,
    "pages_per_session": 1.03,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 117,
+   "views": 116,
    "reads": 57,
    "completes": 1,
-   "sessions": 109,
-   "read_rate": 0.487,
+   "sessions": 108,
+   "read_rate": 0.491,
    "complete_rate": 0.009,
    "pages_per_session": 1.07,
    "median_dwell_sec": 3
@@ -266,15 +266,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6729,
+   "views": 6730,
    "reads": 263,
-   "sessions": 6588
+   "sessions": 6589
   },
   {
    "device": "mobile",
-   "views": 363,
+   "views": 362,
    "reads": 31,
-   "sessions": 367
+   "sessions": 366
   },
   {
    "device": "tablet",
@@ -330,7 +330,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 22,
+   "views": 21,
    "reads": 5,
    "plays": 1
   },
@@ -462,7 +462,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 22,
+   "views": 21,
    "reads": 5,
    "plays": 1
   },
@@ -594,7 +594,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 22,
+   "views": 21,
    "reads": 5,
    "plays": 1
   },
@@ -656,9 +656,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 215,
+   "views": 216,
    "reads": 0,
-   "sessions": 215,
+   "sessions": 216,
    "avg_dwell_sec": 23
   },
   {
