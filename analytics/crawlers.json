@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-14T17:29:28.210Z",
+ "generated": "2026-11-14T17:39:30.029Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10100,
+ "verifiedAiHits": 10102,
  "logsScanned": 30,
  "windowStart": "2026-10-31",
  "windowEnd": "2026-11-14",
- "totalHits": 114958,
- "aiHits": 91196,
+ "totalHits": 115010,
+ "aiHits": 91229,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28145,
+   "hits": 28168,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14394,
+   "hits": 14402,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -103,7 +103,7 @@
     },
     {
      "path": "/stack.html",
-     "hits": 22
+     "hits": 23
     }
    ],
    "verifiable": false
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9843,
+   "hits": 9854,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6138,
-   "verifiedHits": 6082,
+   "hits": 6144,
+   "verifiedHits": 6088,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
    "topPaths": [
@@ -190,7 +190,7 @@
     },
     {
      "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
-     "hits": 49
+     "hits": 50
     },
     {
      "path": "/build",
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3113,
-   "verifiedHits": 3054,
+   "hits": 3114,
+   "verifiedHits": 3055,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
    "topPaths": [
@@ -292,15 +292,15 @@
      "hits": 30
     },
     {
+     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
+     "hits": 30
+    },
+    {
      "path": "/posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html",
      "hits": 30
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 30
-    },
-    {
-     "path": "/wire.html",
      "hits": 30
     }
    ],
@@ -311,8 +311,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 2379,
-   "verifiedHits": 2322,
+   "hits": 2380,
+   "verifiedHits": 2323,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
    "topPaths": [
@@ -542,7 +542,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 435,
+   "hits": 437,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
