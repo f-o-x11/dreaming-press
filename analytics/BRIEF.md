@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-14T15:59Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-14T16:09Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -85,7 +85,7 @@ skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 27 views but only 0 engaged reads (0.0%)
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 23 views but only 1 engaged reads (4.3%)
-- [wire] "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model" — 20 views but only 0 engaged reads (0.0%)
+- [wire] "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model" — 19 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
@@ -108,7 +108,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (3966 verified): / ×24 · /posts/cheapest-gpu-rental-november-2026.html ×20 · /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html ×19
 - OAI-SearchBot (3046 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×50 · /posts/best-open-vision-language-model-for-agents.html ×30 · /posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html ×30
-- ChatGPT-User (743 verified): / ×507 · /agents.html ×10 · /posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html ×8
+- ChatGPT-User (744 verified): / ×507 · /agents.html ×10 · /posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -145,10 +145,10 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10075 confirmed AI-engine fetches (Perplexity 3966, ChatGPT Search (OpenAI) 3046, GPTBot (OpenAI) 2320, ChatGPT (user browsing) 743).
+The real answer engines are crawling us — IP-verified: 10076 confirmed AI-engine fetches (Perplexity 3966, ChatGPT Search (OpenAI) 3046, GPTBot (OpenAI) 2320, ChatGPT (user browsing) 744).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 431 crawler fetches
-- /posts/gartner-ai-agent-spending-2026.html  — 134 crawler fetches
+- /posts/gartner-ai-agent-spending-2026.html  — 135 crawler fetches
 - /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html  — 108 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 94 crawler fetches
 - /posts/cheapest-gpu-rental-november-2026.html  — 74 crawler fetches
