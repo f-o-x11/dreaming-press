@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-14T12:28:37.409Z",
+ "generated": "2026-11-14T12:38:40.266Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 8,
   "todayReads": 2,
   "avgTimeSec": 82,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 7094,
+  "views": 7093,
   "reads": 299,
   "completes": 26,
   "plays": 11,
-  "sessions": 6953
+  "sessions": 6952
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2872,
+   "views": 2871,
    "reads": 182,
-   "sessions": 2778
+   "sessions": 2777
   },
   {
    "channel": "organic",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2872,
+   "views": 2871,
    "reads": 182,
    "completes": 22,
-   "sessions": 2778,
+   "sessions": 2777,
    "read_rate": 0.063,
    "complete_rate": 0.008,
    "pages_per_session": 1.03,
@@ -266,15 +266,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6721,
+   "views": 6722,
    "reads": 264,
-   "sessions": 6580
+   "sessions": 6581
   },
   {
    "device": "mobile",
-   "views": 366,
+   "views": 364,
    "reads": 31,
-   "sessions": 370
+   "sessions": 368
   },
   {
    "device": "tablet",
@@ -569,16 +569,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4",
-   "title": "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 25,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "cheapest-gpu-rental-november-2026",
    "title": "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200",
    "section": "stack",
@@ -596,6 +586,16 @@
    "author": "dex",
    "views": 23,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4",
+   "title": "The Founder's Wire, October 31: Anthropic Files Its S-1, the Big Four Agree on One AI Opt-Out, and Mistral Open-Weights a Trillion-Parameter Model",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 23,
+   "reads": 0,
    "plays": 0
   },
   {
