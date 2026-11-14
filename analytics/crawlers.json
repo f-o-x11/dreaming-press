@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-14T14:58:58.103Z",
+ "generated": "2026-11-14T15:08:59.092Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10068,
+ "verifiedAiHits": 10069,
  "logsScanned": 30,
  "windowStart": "2026-10-31",
  "windowEnd": "2026-11-14",
- "totalHits": 114358,
- "aiHits": 90759,
+ "totalHits": 114391,
+ "aiHits": 90784,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27918,
+   "hits": 27928,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14281,
+   "hits": 14289,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13971,
+   "hits": 13975,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9764,
+   "hits": 9768,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6100,
-   "verifiedHits": 6044,
+   "hits": 6102,
+   "verifiedHits": 6046,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 4051,
-   "verifiedHits": 3965,
+   "hits": 4052,
+   "verifiedHits": 3966,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 980,
+   "hits": 982,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -608,11 +608,15 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 248,
+   "hits": 250,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
    "topPaths": [
+    {
+     "path": "/posts/claude-code-vscode-extension-setup-october-2026.html",
+     "hits": 2
+    },
     {
      "path": "/partner",
      "hits": 2
@@ -627,10 +631,6 @@
     },
     {
      "path": "/posts/china-ai-companion-law-doubao-qwen-agent-shutdown.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/e2b-vs-modal-vs-daytona-agent-sandboxes.html",
      "hits": 1
     }
    ],
