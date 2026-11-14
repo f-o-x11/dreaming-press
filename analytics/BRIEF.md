@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-14T04:49Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-14T04:59Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -93,7 +93,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 509 retrieval fetches
+- /  — 510 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 49 retrieval fetches
 - /tools  — 30 retrieval fetches
 - /posts/best-open-vision-language-model-for-agents.html  — 29 retrieval fetches
@@ -105,9 +105,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4.html  — 19 retrieval fetches
 
 Per engine:
-- PerplexityBot (3801 verified): / ×24 · /posts/cheapest-gpu-rental-november-2026.html ×20 · /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html ×19
+- PerplexityBot (3810 verified): / ×24 · /posts/cheapest-gpu-rental-november-2026.html ×20 · /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html ×19
 - OAI-SearchBot (2979 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×49 · /tools ×30 · /posts/best-open-vision-language-model-for-agents.html ×29
-- ChatGPT-User (717 verified): / ×485 · /agents.html ×9 · /posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html ×8
+- ChatGPT-User (718 verified): / ×486 · /agents.html ×9 · /posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -144,7 +144,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8715 confirmed AI-engine fetches (Perplexity 3801, ChatGPT Search (OpenAI) 2979, GPTBot (OpenAI) 1218, ChatGPT (user browsing) 717).
+The real answer engines are crawling us — IP-verified: 8725 confirmed AI-engine fetches (Perplexity 3810, ChatGPT Search (OpenAI) 2979, GPTBot (OpenAI) 1218, ChatGPT (user browsing) 718).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 413 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 129 crawler fetches
