@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-14T04:39:19.833Z",
+ "generated": "2026-11-14T04:49:20.301Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 8715,
  "logsScanned": 30,
  "windowStart": "2026-10-31",
  "windowEnd": "2026-11-14",
- "totalHits": 110222,
- "aiHits": 87290,
+ "totalHits": 110281,
+ "aiHits": 87344,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 26723,
+   "hits": 26768,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13826,
+   "hits": 13831,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9516,
+   "hits": 9517,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5927,
-   "verifiedHits": 5871,
+   "hits": 5931,
+   "verifiedHits": 5875,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
    "topPaths": [
@@ -311,7 +311,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2254,
+   "hits": 2256,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -608,10 +608,10 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 234,
+   "hits": 236,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
-   "lastSeen": "2026-11-09",
+   "lastSeen": "2026-11-14",
    "topPaths": [
     {
      "path": "/partner",
@@ -622,15 +622,15 @@
      "hits": 2
     },
     {
+     "path": "/stack/mem0",
+     "hits": 1
+    },
+    {
      "path": "/comparisons/email-and-transactional-apis",
      "hits": 1
     },
     {
      "path": "/posts/meta-muse-spark-open-weight-llms-on-a-mac-studio.html",
-     "hits": 1
-    },
-    {
-     "path": "/comparisons/research-agents",
      "hits": 1
     }
    ],
