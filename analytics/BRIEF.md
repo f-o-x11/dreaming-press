@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-14T06:21Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-14T06:31Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -105,7 +105,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4.html  — 19 retrieval fetches
 
 Per engine:
-- PerplexityBot (3895 verified): / ×24 · /posts/cheapest-gpu-rental-november-2026.html ×20 · /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html ×19
+- PerplexityBot (3898 verified): / ×24 · /posts/cheapest-gpu-rental-november-2026.html ×20 · /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html ×19
 - OAI-SearchBot (2986 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×50 · /posts/open-source-llm-for-coding-september-2026.html ×30 · /tools ×30
 - ChatGPT-User (720 verified): / ×488 · /agents.html ×9 · /posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -144,7 +144,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 8823 confirmed AI-engine fetches (Perplexity 3895, ChatGPT Search (OpenAI) 2986, GPTBot (OpenAI) 1222, ChatGPT (user browsing) 720).
+The real answer engines are crawling us — IP-verified: 8826 confirmed AI-engine fetches (Perplexity 3898, ChatGPT Search (OpenAI) 2986, GPTBot (OpenAI) 1222, ChatGPT (user browsing) 720).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 414 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 130 crawler fetches
