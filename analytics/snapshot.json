@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-14T23:30:22.339Z",
+ "generated": "2026-11-14T23:40:25.504Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 6,
   "todayReads": 7,
   "avgTimeSec": 74,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 7117,
+  "views": 7142,
   "reads": 300,
   "completes": 25,
   "plays": 12,
-  "sessions": 6978
+  "sessions": 6982
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2888,
+   "views": 2913,
    "reads": 182,
-   "sessions": 2797
+   "sessions": 2801
   },
   {
    "channel": "organic",
@@ -61,7 +61,7 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 22
+   "sessions": 23
   }
  ],
  "channelQuality": [
@@ -78,13 +78,13 @@
   },
   {
    "channel": "direct",
-   "views": 2888,
+   "views": 2913,
    "reads": 182,
    "completes": 22,
-   "sessions": 2797,
-   "read_rate": 0.063,
+   "sessions": 2801,
+   "read_rate": 0.062,
    "complete_rate": 0.008,
-   "pages_per_session": 1.03,
+   "pages_per_session": 1.04,
    "median_dwell_sec": 10
   },
   {
@@ -147,7 +147,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 22,
+   "sessions": 23,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -167,13 +167,13 @@
   },
   {
    "surface": "f-cols",
-   "clicks": 6,
-   "sessions": 5
+   "clicks": 7,
+   "sessions": 6
   },
   {
    "surface": "wire-row",
-   "clicks": 5,
-   "sessions": 5
+   "clicks": 6,
+   "sessions": 6
   },
   {
    "surface": "btn-stats",
@@ -206,6 +206,11 @@
    "sessions": 2
   },
   {
+   "surface": "btn-agents",
+   "clicks": 2,
+   "sessions": 2
+  },
+  {
    "surface": "breadcrumb",
    "clicks": 2,
    "sessions": 2
@@ -222,11 +227,6 @@
   },
   {
    "surface": "rr-card",
-   "clicks": 1,
-   "sessions": 1
-  },
-  {
-   "surface": "nrf-lastfiled",
    "clicks": 1,
    "sessions": 1
   }
@@ -266,15 +266,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6752,
+   "views": 6778,
    "reads": 266,
-   "sessions": 6610
+   "sessions": 6615
   },
   {
    "device": "mobile",
-   "views": 358,
+   "views": 357,
    "reads": 30,
-   "sessions": 365
+   "sessions": 364
   },
   {
    "device": "tablet",
@@ -663,9 +663,9 @@
   },
   {
    "path": "/",
-   "views": 203,
+   "views": 214,
    "reads": 4,
-   "sessions": 210,
+   "sessions": 212,
    "avg_dwell_sec": 21
   },
   {
@@ -697,6 +697,13 @@
    "avg_dwell_sec": 47
   },
   {
+   "path": "/subscribe",
+   "views": 18,
+   "reads": 0,
+   "sessions": 9,
+   "avg_dwell_sec": null
+  },
+  {
    "path": "/stack.html",
    "views": 17,
    "reads": 0,
@@ -725,25 +732,18 @@
    "avg_dwell_sec": 15
   },
   {
+   "path": "/newsroom",
+   "views": 12,
+   "reads": 1,
+   "sessions": 11,
+   "avg_dwell_sec": 35
+  },
+  {
    "path": "/dashboard",
    "views": 11,
    "reads": 0,
    "sessions": 9,
    "avg_dwell_sec": 14
-  },
-  {
-   "path": "/newsroom",
-   "views": 11,
-   "reads": 1,
-   "sessions": 10,
-   "avg_dwell_sec": 35
-  },
-  {
-   "path": "/agents.html",
-   "views": 10,
-   "reads": 2,
-   "sessions": 10,
-   "avg_dwell_sec": 41
   }
  ],
  "referrers": [
@@ -783,19 +783,19 @@
    "sessions": 4
   },
   {
-   "ref": "https://cn.bing.com/",
-   "hits": 6,
-   "sessions": 3
-  },
-  {
    "ref": "f-cols",
-   "hits": 6,
-   "sessions": 5
+   "hits": 7,
+   "sessions": 6
   },
   {
    "ref": "wire-row",
-   "hits": 5,
-   "sessions": 5
+   "hits": 6,
+   "sessions": 6
+  },
+  {
+   "ref": "https://cn.bing.com/",
+   "hits": 6,
+   "sessions": 3
   }
  ]
 }
