@@ -148,7 +148,7 @@ search intent, so put the answer in the first screen and use the phrasing in the
 The real answer engines are crawling us — IP-verified: 9967 confirmed AI-engine fetches (Perplexity 3907, ChatGPT Search (OpenAI) 3022, GPTBot (OpenAI) 2305, ChatGPT (user browsing) 733).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 428 crawler fetches
-- /posts/gartner-ai-agent-spending-2026.html  — 132 crawler fetches
+- /posts/gartner-ai-agent-spending-2026.html  — 133 crawler fetches
 - /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html  — 108 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 91 crawler fetches
 - /posts/cheapest-gpu-rental-november-2026.html  — 74 crawler fetches
