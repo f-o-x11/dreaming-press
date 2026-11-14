@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-14T07:52:20.264Z",
+ "generated": "2026-11-14T08:02:20.366Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 8840,
+ "verifiedAiHits": 8842,
  "logsScanned": 30,
  "windowStart": "2026-10-31",
  "windowEnd": "2026-11-14",
- "totalHits": 111144,
- "aiHits": 88013,
+ "totalHits": 111189,
+ "aiHits": 88046,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27099,
+   "hits": 27112,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13964,
+   "hits": 13971,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13816,
+   "hits": 13824,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9597,
+   "hits": 9598,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -179,14 +179,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5986,
-   "verifiedHits": 5930,
+   "hits": 5989,
+   "verifiedHits": 5933,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 130
+     "hits": 131
     },
     {
      "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5042,
+   "hits": 5050,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3984,
-   "verifiedHits": 3898,
+   "hits": 3985,
+   "verifiedHits": 3899,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
    "topPaths": [
@@ -476,14 +476,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 806,
-   "verifiedHits": 725,
+   "hits": 807,
+   "verifiedHits": 726,
    "firstSeen": "2026-10-31",
    "lastSeen": "2026-11-14",
    "topPaths": [
     {
      "path": "/",
-     "hits": 491
+     "hits": 492
     },
     {
      "path": "/agents.html",
@@ -509,10 +509,10 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 637,
+   "hits": 640,
    "verifiedHits": 0,
    "firstSeen": "2026-10-31",
-   "lastSeen": "2026-11-13",
+   "lastSeen": "2026-11-14",
    "topPaths": [
     {
      "path": "/agents.html",
