@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-15T04:21:20.409Z",
+ "generated": "2026-11-15T04:31:21.701Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 2,
   "avgTimeSec": 203,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7160,
+  "views": 7154,
   "reads": 301,
   "completes": 25,
   "plays": 12,
-  "sessions": 6973
+  "sessions": 6967
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2938,
+   "views": 2932,
    "reads": 183,
-   "sessions": 2798
+   "sessions": 2792
   },
   {
    "channel": "organic",
@@ -78,12 +78,12 @@
   },
   {
    "channel": "direct",
-   "views": 2938,
+   "views": 2932,
    "reads": 183,
    "completes": 22,
-   "sessions": 2798,
+   "sessions": 2792,
    "read_rate": 0.062,
-   "complete_rate": 0.007,
+   "complete_rate": 0.008,
    "pages_per_session": 1.05,
    "median_dwell_sec": 11
   },
@@ -266,15 +266,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6795,
+   "views": 6791,
    "reads": 267,
-   "sessions": 6605
+   "sessions": 6601
   },
   {
    "device": "mobile",
-   "views": 358,
+   "views": 356,
    "reads": 30,
-   "sessions": 365
+   "sessions": 363
   },
   {
    "device": "tablet",
@@ -579,16 +579,6 @@
    "plays": 0
   },
   {
-   "slug": "best-open-source-rl-frameworks-for-training-agents",
-   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "best-llm-for-creative-writing-october-2026",
    "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
    "section": "stack",
@@ -606,6 +596,16 @@
    "author": "wire-desk",
    "views": 21,
    "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "best-open-source-rl-frameworks-for-training-agents",
+   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 21,
+   "reads": 0,
    "plays": 0
   },
   {
