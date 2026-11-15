@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-15T15:13:24.725Z",
+ "generated": "2026-11-15T15:23:24.857Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 3,
   "todayReads": 2,
   "avgTimeSec": 37,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 7150,
+  "views": 7148,
   "reads": 298,
   "completes": 25,
   "plays": 12,
-  "sessions": 6964
+  "sessions": 6962
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2928,
+   "views": 2926,
    "reads": 181,
-   "sessions": 2787
+   "sessions": 2785
   },
   {
    "channel": "organic",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2928,
+   "views": 2926,
    "reads": 181,
    "completes": 22,
-   "sessions": 2787,
+   "sessions": 2785,
    "read_rate": 0.062,
    "complete_rate": 0.008,
    "pages_per_session": 1.05,
@@ -266,9 +266,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6782,
+   "views": 6780,
    "reads": 264,
-   "sessions": 6593
+   "sessions": 6591
   },
   {
    "device": "mobile",
@@ -579,16 +579,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-whats-changed-fall-2026",
-   "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "best-llm-for-creative-writing-october-2026",
    "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
    "section": "stack",
@@ -605,6 +595,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 20,
+   "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-whats-changed-fall-2026",
+   "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 19,
    "reads": 0,
    "plays": 0
   },
