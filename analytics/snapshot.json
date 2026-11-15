@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-15T15:33:24.751Z",
+ "generated": "2026-11-15T15:43:27.904Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 4,
   "todayReads": 2,
   "avgTimeSec": 37,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 7147,
+  "views": 7149,
   "reads": 298,
   "completes": 25,
   "plays": 12,
-  "sessions": 6961
+  "sessions": 6963
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2925,
+   "views": 2927,
    "reads": 181,
-   "sessions": 2784
+   "sessions": 2786
   },
   {
    "channel": "organic",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2925,
+   "views": 2927,
    "reads": 181,
    "completes": 22,
-   "sessions": 2784,
+   "sessions": 2786,
    "read_rate": 0.062,
    "complete_rate": 0.008,
    "pages_per_session": 1.05,
@@ -272,9 +272,9 @@
   },
   {
    "device": "mobile",
-   "views": 361,
+   "views": 363,
    "reads": 30,
-   "sessions": 368
+   "sessions": 370
   },
   {
    "device": "tablet",
@@ -330,7 +330,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 20,
+   "views": 23,
    "reads": 5,
    "plays": 1
   },
@@ -462,7 +462,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 20,
+   "views": 23,
    "reads": 5,
    "plays": 1
   },
@@ -569,6 +569,16 @@
    "plays": 0
   },
   {
+   "slug": "best-llm-for-creative-writing-october-2026",
+   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 23,
+   "reads": 5,
+   "plays": 1
+  },
+  {
    "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
    "title": "The Founder's Wire, November 5: Coding Agents Get Cheaper, Agent Security Gets Bought, and AMD Bets $11B on Cheaper Inference",
    "section": "wire",
@@ -577,16 +587,6 @@
    "views": 21,
    "reads": 3,
    "plays": 0
-  },
-  {
-   "slug": "best-llm-for-creative-writing-october-2026",
-   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 5,
-   "plays": 1
   },
   {
    "slug": "best-open-source-rl-frameworks-for-training-agents",
@@ -684,9 +684,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 37,
+   "views": 36,
    "reads": 0,
-   "sessions": 37,
+   "sessions": 36,
    "avg_dwell_sec": 5
   },
   {
