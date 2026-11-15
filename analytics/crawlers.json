@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-15T13:53:05.285Z",
+ "generated": "2026-11-15T14:03:09.258Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9912,
+ "verifiedAiHits": 9915,
  "logsScanned": 30,
  "windowStart": "2026-11-01",
  "windowEnd": "2026-11-15",
- "totalHits": 114119,
- "aiHits": 90678,
+ "totalHits": 114160,
+ "aiHits": 90703,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28024,
+   "hits": 28036,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -47,7 +47,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 19502,
+   "hits": 19503,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -55,6 +55,10 @@
     {
      "path": "/dashboard",
      "hits": 5
+    },
+    {
+     "path": "/posts/open-source-llm-for-coding-september-2026.html",
+     "hits": 3
     },
     {
      "path": "/build",
@@ -67,10 +71,6 @@
     {
      "path": "/posts/2026-06-22-bentoml-vs-ray-serve-vs-kserve.html",
      "hits": 3
-    },
-    {
-     "path": "/posts/humanoid-135b-unicorn-physical-ai-offtake-contract-founders.html",
-     "hits": 3
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14244,
+   "hits": 14251,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -95,7 +95,7 @@
     },
     {
      "path": "/tags/reportive",
-     "hits": 38
+     "hits": 39
     },
     {
      "path": "/tags/opinionated",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9661,
+   "hits": 9666,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5999,
-   "verifiedHits": 5948,
+   "hits": 6001,
+   "verifiedHits": 5950,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5165,
+   "hits": 5173,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2998,
-   "verifiedHits": 2946,
+   "hits": 2999,
+   "verifiedHits": 2947,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1008,
+   "hits": 1009,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -476,7 +476,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 873,
+   "hits": 874,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -509,14 +509,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 819,
-   "verifiedHits": 754,
+   "hits": 821,
+   "verifiedHits": 756,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
    "topPaths": [
     {
      "path": "/",
-     "hits": 519
+     "hits": 521
     },
     {
      "path": "/agents.html",
@@ -641,7 +641,7 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 112,
+   "hits": 113,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
