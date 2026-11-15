@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-15T17:13Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-15T17:23Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -101,13 +101,13 @@ sample size dwarfs the engaged-read counts below.
 - /posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html  — 30 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 30 retrieval fetches
 - /posts/2026-07-16-founders-wire-mcp-stateless-rc-china-law-effect.html  — 30 retrieval fetches
-- /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 26 retrieval fetches
+- /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 28 retrieval fetches
 - /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html  — 21 retrieval fetches
 - /posts/cheapest-gpu-rental-november-2026.html  — 20 retrieval fetches
 - /posts/lora-vs-full-fine-tuning-cost-november-2026.html  — 19 retrieval fetches
 
 Per engine:
-- PerplexityBot (3883 verified): / ×23 · /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html ×21 · /posts/cheapest-gpu-rental-november-2026.html ×20
+- PerplexityBot (3886 verified): / ×23 · /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html ×21 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×21
 - OAI-SearchBot (2951 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×45 · /posts/best-open-vision-language-model-for-agents.html ×30 · /posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html ×30
 - ChatGPT-User (765 verified): / ×528 · /agents.html ×13 · /posts/how-to-add-sign-in-with-chatgpt-oauth.html ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -146,7 +146,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9954 confirmed AI-engine fetches (Perplexity 3883, ChatGPT Search (OpenAI) 2951, GPTBot (OpenAI) 2355, ChatGPT (user browsing) 765).
+The real answer engines are crawling us — IP-verified: 9957 confirmed AI-engine fetches (Perplexity 3886, ChatGPT Search (OpenAI) 2951, GPTBot (OpenAI) 2355, ChatGPT (user browsing) 765).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 430 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 138 crawler fetches
@@ -159,7 +159,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 45 crawler fetches
 - /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 39 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 33 crawler fetches
-- /posts/best-open-vision-language-model-for-agents.html  — 30 crawler fetches
+- /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 30 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
