@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-11-15T22:44Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-15T22:54Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 7152 views → 300 engaged reads → 25 completes · 6965 sessions.
+- Funnel: 7152 views → 300 engaged reads → 25 completes · 6966 sessions.
 - Channels: direct 183r/2926v · organic 58r/128v · referral 55r/4081v · ai 3r/7v · campaign:openai 1r/5v · campaign:chatgpt.com 0r/4v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): Le Chat 1r/1v · Perplexity 1r/1v · Doubao 1r/1v · Kimi 0r/4v · ChatGPT 0r/4v.
 - Referrers: aocr.org, google.com, duckduckgo.com, bing.com, nav-cmp, f-cols, feature, search.brave.com, wire-row, cn.bing.com.
@@ -61,7 +61,7 @@ The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 813 views, 0 reads, 808 sessions, avg 12s
 - /build — 255 views, 0 reads, 255 sessions
-- / — 213 views, 4 reads, 208 sessions, avg 22s
+- / — 213 views, 4 reads, 209 sessions, avg 22s
 - /compare/:pair — 208 views, 0 reads, 208 sessions, avg 6s
 - /topics/:topic — 80 views, 0 reads, 80 sessions, avg 23s
 - /best/:cat — 51 views, 0 reads, 51 sessions
