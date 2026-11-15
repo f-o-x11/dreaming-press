@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-15T21:24:24.804Z",
+ "generated": "2026-11-15T21:34:25.221Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 3,
+  "readersNow": 2,
+  "todayReads": 4,
   "avgTimeSec": 23,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 7144,
-  "reads": 299,
+  "views": 7146,
+  "reads": 300,
   "completes": 25,
   "plays": 12,
-  "sessions": 6958
+  "sessions": 6959
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2921,
-   "reads": 182,
-   "sessions": 2780
+   "views": 2923,
+   "reads": 183,
+   "sessions": 2781
   },
   {
    "channel": "organic",
@@ -78,11 +78,11 @@
   },
   {
    "channel": "direct",
-   "views": 2921,
-   "reads": 182,
+   "views": 2923,
+   "reads": 183,
    "completes": 22,
-   "sessions": 2780,
-   "read_rate": 0.062,
+   "sessions": 2781,
+   "read_rate": 0.063,
    "complete_rate": 0.008,
    "pages_per_session": 1.05,
    "median_dwell_sec": 10
@@ -266,9 +266,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6784,
-   "reads": 265,
-   "sessions": 6595
+   "views": 6786,
+   "reads": 266,
+   "sessions": 6596
   },
   {
    "device": "mobile",
@@ -355,6 +355,16 @@
    "plays": 0
   },
   {
+   "slug": "open-source-coding-llm-ranked-november-2026",
+   "title": "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 18,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-23-mcp-code-execution-vs-direct-tool-calls",
    "title": "Code Execution vs Direct Tool Calls: How Agents Actually Scale MCP",
    "section": "wire",
@@ -418,16 +428,6 @@
    "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
    "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
    "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 5,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "arm-metis-open-source-ai-security-code-review",
-   "title": "Arm Open-Sourced Its Internal Security Reviewer. Here's Whether You Should Run It.",
-   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 5,
@@ -609,6 +609,16 @@
    "plays": 0
   },
   {
+   "slug": "open-source-coding-llm-ranked-november-2026",
+   "title": "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 18,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
    "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
    "section": "stack",
@@ -623,16 +633,6 @@
    "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 17,
-   "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
-   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
    "author": "dex",
    "views": 17,
    "reads": 0,
@@ -684,9 +684,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 36,
+   "views": 37,
    "reads": 0,
-   "sessions": 36,
+   "sessions": 37,
    "avg_dwell_sec": 5
   },
   {
