@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-15T09:52:14.273Z",
+ "generated": "2026-11-15T10:02:17.271Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9855,
+ "verifiedAiHits": 9858,
  "logsScanned": 30,
  "windowStart": "2026-11-01",
  "windowEnd": "2026-11-15",
- "totalHits": 113248,
- "aiHits": 90018,
+ "totalHits": 113272,
+ "aiHits": 90038,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27729,
+   "hits": 27735,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14063,
+   "hits": 14070,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13848,
+   "hits": 13852,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5921,
-   "verifiedHits": 5870,
+   "hits": 5924,
+   "verifiedHits": 5873,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
    "topPaths": [
@@ -278,14 +278,18 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2973,
-   "verifiedHits": 2921,
+   "hits": 2976,
+   "verifiedHits": 2924,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
    "topPaths": [
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
      "hits": 45
+    },
+    {
+     "path": "/posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html",
+     "hits": 30
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -297,10 +301,6 @@
     },
     {
      "path": "/posts/best-open-vision-language-model-for-agents.html",
-     "hits": 29
-    },
-    {
-     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
      "hits": 29
     }
    ],
@@ -542,7 +542,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 433,
+   "hits": 434,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
