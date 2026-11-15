@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T04:11:19.481Z",
+ "generated": "2026-11-15T04:21:20.409Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,30 +8,30 @@
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7174,
+  "views": 7160,
   "reads": 301,
   "completes": 25,
   "plays": 12,
-  "sessions": 6987
+  "sessions": 6973
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2947,
+   "views": 2938,
    "reads": 183,
-   "sessions": 2808
+   "sessions": 2798
   },
   {
    "channel": "organic",
-   "views": 125,
+   "views": 122,
    "reads": 59,
-   "sessions": 117
+   "sessions": 114
   },
   {
    "channel": "referral",
-   "views": 4085,
+   "views": 4083,
    "reads": 55,
-   "sessions": 4087
+   "sessions": 4085
   },
   {
    "channel": "ai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 4085,
+   "views": 4083,
    "reads": 55,
    "completes": 0,
-   "sessions": 4087,
+   "sessions": 4085,
    "read_rate": 0.013,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2947,
+   "views": 2938,
    "reads": 183,
    "completes": 22,
-   "sessions": 2808,
+   "sessions": 2798,
    "read_rate": 0.062,
    "complete_rate": 0.007,
    "pages_per_session": 1.05,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 125,
+   "views": 122,
    "reads": 59,
    "completes": 1,
-   "sessions": 117,
-   "read_rate": 0.472,
+   "sessions": 114,
+   "read_rate": 0.484,
    "complete_rate": 0.008,
    "pages_per_session": 1.07,
    "median_dwell_sec": 3
@@ -266,9 +266,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6809,
+   "views": 6795,
    "reads": 267,
-   "sessions": 6619
+   "sessions": 6605
   },
   {
    "device": "mobile",
@@ -559,16 +559,6 @@
    "plays": 2
   },
   {
-   "slug": "best-open-source-rl-frameworks-for-training-agents",
-   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 27,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "cheapest-gpu-rental-november-2026",
    "title": "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200",
    "section": "stack",
@@ -583,6 +573,16 @@
    "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "best-open-source-rl-frameworks-for-training-agents",
+   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 22,
    "reads": 0,
@@ -764,8 +764,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 55,
-   "sessions": 47
+   "hits": 53,
+   "sessions": 45
   },
   {
    "ref": "nav-cmp",
