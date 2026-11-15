@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-15T13:22:53.496Z",
+ "generated": "2026-11-15T13:32:56.511Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 2,
-  "avgTimeSec": 54,
+  "avgTimeSec": 43,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 7177,
+  "views": 7175,
   "reads": 299,
   "completes": 25,
   "plays": 12,
-  "sessions": 6989
+  "sessions": 6987
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2952,
+   "views": 2951,
    "reads": 181,
-   "sessions": 2811
+   "sessions": 2809
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 4083,
+   "views": 4082,
    "reads": 55,
-   "sessions": 4085
+   "sessions": 4084
   },
   {
    "channel": "ai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 4083,
+   "views": 4082,
    "reads": 55,
    "completes": 0,
-   "sessions": 4085,
+   "sessions": 4084,
    "read_rate": 0.013,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2952,
+   "views": 2951,
    "reads": 181,
    "completes": 22,
-   "sessions": 2811,
+   "sessions": 2809,
    "read_rate": 0.061,
    "complete_rate": 0.007,
    "pages_per_session": 1.05,
@@ -266,15 +266,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6810,
+   "views": 6809,
    "reads": 265,
-   "sessions": 6619
+   "sessions": 6618
   },
   {
    "device": "mobile",
-   "views": 360,
+   "views": 359,
    "reads": 30,
-   "sessions": 367
+   "sessions": 366
   },
   {
    "device": "tablet",
@@ -589,16 +589,6 @@
    "plays": 0
   },
   {
-   "slug": "best-open-source-rl-frameworks-for-training-agents",
-   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "best-llm-for-creative-writing-october-2026",
    "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
    "section": "stack",
@@ -607,6 +597,16 @@
    "views": 20,
    "reads": 5,
    "plays": 1
+  },
+  {
+   "slug": "best-open-source-rl-frameworks-for-training-agents",
+   "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 0,
+   "plays": 0
   },
   {
    "slug": "open-source-llm-leaderboard-september-2026-run-locally",
@@ -663,9 +663,9 @@
   },
   {
    "path": "/",
-   "views": 213,
+   "views": 212,
    "reads": 4,
-   "sessions": 208,
+   "sessions": 207,
    "avg_dwell_sec": 22
   },
   {
