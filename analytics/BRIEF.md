@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-15T21:04Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-15T21:14Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 7144 views → 299 engaged reads → 25 completes · 6958 sessions.
-- Channels: direct 182r/2921v · organic 58r/125v · referral 55r/4081v · ai 3r/7v · campaign:openai 1r/5v · campaign:chatgpt.com 0r/4v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 7145 views → 299 engaged reads → 25 completes · 6959 sessions.
+- Channels: direct 182r/2922v · organic 58r/125v · referral 55r/4081v · ai 3r/7v · campaign:openai 1r/5v · campaign:chatgpt.com 0r/4v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): Le Chat 1r/1v · Perplexity 1r/1v · Doubao 1r/1v · Kimi 0r/4v · ChatGPT 0r/4v.
 - Referrers: aocr.org, duckduckgo.com, google.com, bing.com, nav-cmp, f-cols, feature, search.brave.com, wire-row, cn.bing.com.
 - Engaged-read winners by section: wire=6, stack=9.
@@ -24,7 +24,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - referral: 4081 views · read 1.3% · complete 0.0% · 1 pages/session · median ?s
-- direct: 2921 views · read 6.2% · complete 0.8% · 1.05 pages/session · median 10s
+- direct: 2922 views · read 6.2% · complete 0.8% · 1.05 pages/session · median 10s
 - organic: 125 views · read 46.4% · complete 0.8% · 1.07 pages/session · median 3s
 - ai: 7 views · read 42.9% · complete 0.0% · 1 pages/session · median ?s
 - campaign:openai: 5 views · read 20.0% · complete 0.0% · 0.83 pages/session · median ?s
@@ -97,10 +97,10 @@ nothing. This is the closest thing to a live query log this publication gets, an
 sample size dwarfs the engaged-read counts below.
 - /  — 559 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 46 retrieval fetches
+- /tools  — 31 retrieval fetches
 - /posts/best-open-vision-language-model-for-agents.html  — 30 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 30 retrieval fetches
 - /posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html  — 30 retrieval fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 30 retrieval fetches
 - /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html  — 21 retrieval fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 21 retrieval fetches
 - /posts/cheapest-gpu-rental-november-2026.html  — 20 retrieval fetches
@@ -108,7 +108,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (3891 verified): / ×23 · /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html ×21 · /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html ×21
-- OAI-SearchBot (3002 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×46 · /posts/best-open-vision-language-model-for-agents.html ×30 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×30
+- OAI-SearchBot (3005 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×46 · /tools ×31 · /posts/best-open-vision-language-model-for-agents.html ×30
 - ChatGPT-User (775 verified): / ×536 · /agents.html ×13 · /posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html ×9
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -123,7 +123,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Uncovered search demand (244 of 454 phrases have NO post, 9h ago)
+## Uncovered search demand (244 of 454 phrases have NO post, 10h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -146,7 +146,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10029 confirmed AI-engine fetches (Perplexity 3891, ChatGPT Search (OpenAI) 3002, GPTBot (OpenAI) 2361, ChatGPT (user browsing) 775).
+The real answer engines are crawling us — IP-verified: 10032 confirmed AI-engine fetches (Perplexity 3891, ChatGPT Search (OpenAI) 3005, GPTBot (OpenAI) 2361, ChatGPT (user browsing) 775).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 435 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 141 crawler fetches
@@ -159,7 +159,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 46 crawler fetches
 - /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 40 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 39 crawler fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 34 crawler fetches
+- /tools  — 33 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
