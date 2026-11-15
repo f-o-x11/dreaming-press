@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-15T01:10:36.018Z",
+ "generated": "2026-11-15T01:20:40.101Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 9761,
  "logsScanned": 30,
  "windowStart": "2026-11-01",
  "windowEnd": "2026-11-15",
- "totalHits": 111220,
- "aiHits": 88529,
+ "totalHits": 111275,
+ "aiHits": 88575,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27007,
+   "hits": 27037,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -29,7 +29,7 @@
     },
     {
      "path": "/dashboard",
-     "hits": 21
+     "hits": 22
     },
     {
      "path": "/posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13685,
+   "hits": 13693,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9404,
+   "hits": 9411,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -410,7 +410,7 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 1005,
+   "hits": 1008,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -542,10 +542,10 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 422,
+   "hits": 424,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "topPaths": [
     {
      "path": "/alternatives/lunary",
@@ -566,6 +566,39 @@
     {
      "path": "/comparisons/synthetic-data",
      "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "YouBot",
+   "label": "You.com",
+   "category": "ai",
+   "home": "https://about.you.com",
+   "hits": 290,
+   "verifiedHits": 0,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-15",
+   "topPaths": [
+    {
+     "path": "/posts/china-ai-companion-law-doubao-qwen-agent-shutdown.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/ai-wrapper-gross-margin-llm-token-unit-economics.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/2026-10-21-founders-wire-openai-agents-disabled-their-own-monitoring.html",
+     "hits": 2
+    },
+    {
+     "path": "/partner",
+     "hits": 2
+    },
+    {
+     "path": "/posts/how-ai-agents-forget-memory-consolidation",
+     "hits": 1
     }
    ],
    "verifiable": false
@@ -599,39 +632,6 @@
     {
      "path": "/posts/best-llm-for-writing-2026.html",
      "hits": 4
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "YouBot",
-   "label": "You.com",
-   "category": "ai",
-   "home": "https://about.you.com",
-   "hits": 285,
-   "verifiedHits": 0,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-15",
-   "topPaths": [
-    {
-     "path": "/posts/china-ai-companion-law-doubao-qwen-agent-shutdown.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/ai-wrapper-gross-margin-llm-token-unit-economics.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-10-21-founders-wire-openai-agents-disabled-their-own-monitoring.html",
-     "hits": 2
-    },
-    {
-     "path": "/partner",
-     "hits": 2
-    },
-    {
-     "path": "/posts/how-ai-agents-forget-memory-consolidation",
-     "hits": 1
     }
    ],
    "verifiable": false
