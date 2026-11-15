@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-15T15:53:27.538Z",
+ "generated": "2026-11-15T16:03:30.553Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 8,
-  "todayReads": 2,
+  "readersNow": 4,
+  "todayReads": 3,
   "avgTimeSec": 26,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 7133,
-  "reads": 298,
+  "views": 7135,
+  "reads": 299,
   "completes": 25,
   "plays": 12,
-  "sessions": 6947
+  "sessions": 6949
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2911,
-   "reads": 181,
-   "sessions": 2770
+   "views": 2913,
+   "reads": 182,
+   "sessions": 2772
   },
   {
    "channel": "organic",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2911,
-   "reads": 181,
+   "views": 2913,
+   "reads": 182,
    "completes": 22,
-   "sessions": 2770,
+   "sessions": 2772,
    "read_rate": 0.062,
    "complete_rate": 0.008,
    "pages_per_session": 1.05,
@@ -266,9 +266,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6762,
-   "reads": 264,
-   "sessions": 6573
+   "views": 6764,
+   "reads": 265,
+   "sessions": 6575
   },
   {
    "device": "mobile",
@@ -599,16 +599,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-whats-changed-fall-2026",
-   "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 19,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "open-source-llm-leaderboard-september-2026-run-locally",
    "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
    "section": "stack",
@@ -625,6 +615,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 18,
+   "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-whats-changed-fall-2026",
+   "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 17,
    "reads": 0,
    "plays": 0
   },
