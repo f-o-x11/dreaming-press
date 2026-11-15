@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-15T23:04:38.297Z",
+ "generated": "2026-11-15T23:14:38.662Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10045,
+ "verifiedAiHits": 10049,
  "logsScanned": 30,
  "windowStart": "2026-11-01",
  "windowEnd": "2026-11-15",
- "totalHits": 116404,
- "aiHits": 92194,
+ "totalHits": 116452,
+ "aiHits": 92220,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28693,
+   "hits": 28702,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14675,
+   "hits": 14683,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 14160,
+   "hits": 14164,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9822,
+   "hits": 9828,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -168,7 +168,7 @@
      "hits": 7
     },
     {
-     "path": "/authors/priya",
+     "path": "/posts/2026-10-31-founders-wire-anthropic-files-s1-opt-out-token-mistral-large-4.html",
      "hits": 7
     }
    ],
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6200,
-   "verifiedHits": 6147,
+   "hits": 6203,
+   "verifiedHits": 6150,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5509,
+   "hits": 5519,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -222,12 +222,12 @@
      "hits": 18
     },
     {
-     "path": "/",
+     "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
      "hits": 17
     },
     {
-     "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
-     "hits": 16
+     "path": "/",
+     "hits": 17
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 3069,
-   "verifiedHits": 3016,
+   "hits": 3072,
+   "verifiedHits": 3019,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1032,
+   "hits": 1035,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -476,7 +476,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 911,
+   "hits": 912,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -509,14 +509,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 845,
-   "verifiedHits": 777,
+   "hits": 846,
+   "verifiedHits": 778,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
    "topPaths": [
     {
      "path": "/",
-     "hits": 538
+     "hits": 539
     },
     {
      "path": "/agents.html",
