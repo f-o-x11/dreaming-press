@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-15T08:52:05.255Z",
+ "generated": "2026-11-15T09:02:05.148Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 2,
   "avgTimeSec": 103,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7162,
+  "views": 7163,
   "reads": 301,
   "completes": 25,
   "plays": 12,
-  "sessions": 6975
+  "sessions": 6976
  },
  "channels": [
   {
@@ -23,9 +23,9 @@
   },
   {
    "channel": "organic",
-   "views": 123,
+   "views": 124,
    "reads": 59,
-   "sessions": 115
+   "sessions": 116
   },
   {
    "channel": "referral",
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 123,
+   "views": 124,
    "reads": 59,
    "completes": 1,
-   "sessions": 115,
-   "read_rate": 0.48,
+   "sessions": 116,
+   "read_rate": 0.476,
    "complete_rate": 0.008,
    "pages_per_session": 1.07,
    "median_dwell_sec": 3
@@ -266,15 +266,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6796,
+   "views": 6798,
    "reads": 267,
-   "sessions": 6606
+   "sessions": 6608
   },
   {
    "device": "mobile",
-   "views": 359,
+   "views": 358,
    "reads": 30,
-   "sessions": 366
+   "sessions": 365
   },
   {
    "device": "tablet",
@@ -569,16 +569,6 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-whats-changed-fall-2026",
-   "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
    "title": "The Founder's Wire, November 5: Coding Agents Get Cheaper, Agent Security Gets Bought, and AMD Bets $11B on Cheaper Inference",
    "section": "wire",
@@ -586,6 +576,16 @@
    "author": "wire-desk",
    "views": 21,
    "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-whats-changed-fall-2026",
+   "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 21,
+   "reads": 0,
    "plays": 0
   },
   {
@@ -764,8 +764,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 54,
-   "sessions": 46
+   "hits": 55,
+   "sessions": 47
   },
   {
    "ref": "nav-cmp",
