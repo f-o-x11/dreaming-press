@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T05:51:41.768Z",
+ "generated": "2026-11-15T06:01:45.544Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
@@ -8,18 +8,18 @@
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7158,
+  "views": 7159,
   "reads": 301,
   "completes": 25,
   "plays": 12,
-  "sessions": 6971
+  "sessions": 6972
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2936,
+   "views": 2937,
    "reads": 183,
-   "sessions": 2796
+   "sessions": 2797
   },
   {
    "channel": "organic",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2936,
+   "views": 2937,
    "reads": 183,
    "completes": 22,
-   "sessions": 2796,
+   "sessions": 2797,
    "read_rate": 0.062,
    "complete_rate": 0.007,
    "pages_per_session": 1.05,
@@ -266,9 +266,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6794,
+   "views": 6795,
    "reads": 267,
-   "sessions": 6604
+   "sessions": 6605
   },
   {
    "device": "mobile",
@@ -629,13 +629,13 @@
    "plays": 0
   },
   {
-   "slug": "local-llm-for-coding-on-your-own-machine",
-   "title": "Local LLM for Coding: The Best Models to Run on Your Own Machine (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
+   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
+   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
    "author": "dex",
    "views": 17,
-   "reads": 1,
+   "reads": 0,
    "plays": 0
   }
  ],

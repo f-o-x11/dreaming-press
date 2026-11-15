@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-15T05:51Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-15T06:01Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 7158 views → 301 engaged reads → 25 completes · 6971 sessions.
-- Channels: direct 183r/2936v · organic 59r/122v · referral 55r/4083v · ai 3r/8v · campaign:openai 1r/5v · campaign:chatgpt.com 0r/3v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 7159 views → 301 engaged reads → 25 completes · 6972 sessions.
+- Channels: direct 183r/2937v · organic 59r/122v · referral 55r/4083v · ai 3r/8v · campaign:openai 1r/5v · campaign:chatgpt.com 0r/3v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): Le Chat 1r/1v · Perplexity 1r/1v · Doubao 1r/1v · Kimi 0r/5v · ChatGPT 0r/3v.
 - Referrers: aocr.org, bing.com, duckduckgo.com, google.com, nav-cmp, f-cols, feature, search.brave.com, wire-row, cn.bing.com.
 - Engaged-read winners by section: wire=6, stack=9.
@@ -24,7 +24,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - referral: 4083 views · read 1.3% · complete 0.0% · 1 pages/session · median ?s
-- direct: 2936 views · read 6.2% · complete 0.7% · 1.05 pages/session · median 11s
+- direct: 2937 views · read 6.2% · complete 0.7% · 1.05 pages/session · median 11s
 - organic: 122 views · read 48.4% · complete 0.8% · 1.07 pages/session · median 3s
 - ai: 8 views · read 37.5% · complete 0.0% · 1 pages/session · median ?s
 - campaign:openai: 5 views · read 20.0% · complete 0.0% · 0.83 pages/session · median ?s
@@ -86,6 +86,7 @@ new traffic — and these pages already have the traffic.
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 22 views but only 0 engaged reads (0.0%)
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 21 views but only 0 engaged reads (0.0%)
 - [stack] "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM" — 18 views but only 0 engaged reads (0.0%)
+- [wire] "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp" — 17 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
