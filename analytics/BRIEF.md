@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-15T02:50Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-15T03:00Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 7184 views → 300 engaged reads → 25 completes · 6997 sessions.
-- Channels: direct 183r/2958v · organic 58r/124v · referral 55r/4085v · ai 3r/8v · campaign:openai 1r/5v · campaign:chatgpt.com 0r/3v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 7185 views → 300 engaged reads → 25 completes · 6998 sessions.
+- Channels: direct 183r/2959v · organic 58r/124v · referral 55r/4085v · ai 3r/8v · campaign:openai 1r/5v · campaign:chatgpt.com 0r/3v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): Le Chat 1r/1v · Perplexity 1r/1v · Doubao 1r/1v · Kimi 0r/5v · ChatGPT 0r/3v.
 - Referrers: aocr.org, duckduckgo.com, bing.com, google.com, nav-cmp, f-cols, feature, search.brave.com, wire-row, cn.bing.com.
 - Engaged-read winners by section: wire=6, stack=9.
@@ -24,7 +24,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - referral: 4085 views · read 1.3% · complete 0.0% · 1 pages/session · median ?s
-- direct: 2958 views · read 6.2% · complete 0.7% · 1.05 pages/session · median 11s
+- direct: 2959 views · read 6.2% · complete 0.7% · 1.05 pages/session · median 11s
 - organic: 124 views · read 46.8% · complete 0.8% · 1.07 pages/session · median 3s
 - ai: 8 views · read 37.5% · complete 0.0% · 1 pages/session · median ?s
 - campaign:openai: 5 views · read 20.0% · complete 0.0% · 0.83 pages/session · median ?s
@@ -75,7 +75,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 65 views, 9 reads
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 27 views, 0 reads
 - [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 24 views, 9 reads
-- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 22 views, 0 reads
+- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 23 views, 0 reads
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 21 views, 5 reads
 
 ## Arrived but left (fix these openings first)
@@ -84,7 +84,7 @@ problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 27 views but only 0 engaged reads (0.0%)
-- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 22 views but only 0 engaged reads (0.0%)
+- [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 23 views but only 0 engaged reads (0.0%)
 - [stack] "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM" — 18 views but only 0 engaged reads (0.0%)
 - [wire] "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp" — 18 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
