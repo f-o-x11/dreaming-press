@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-15T00:30:30.574Z",
+ "generated": "2026-11-15T00:40:31.126Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9744,
+ "verifiedAiHits": 9746,
  "logsScanned": 30,
  "windowStart": "2026-11-01",
  "windowEnd": "2026-11-15",
- "totalHits": 110973,
- "aiHits": 88330,
+ "totalHits": 111039,
+ "aiHits": 88383,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 26977,
+   "hits": 26989,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13655,
+   "hits": 13663,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13627,
+   "hits": 13636,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9391,
+   "hits": 9395,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5753,
-   "verifiedHits": 5702,
+   "hits": 5761,
+   "verifiedHits": 5710,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2912,
-   "verifiedHits": 2860,
+   "hits": 2913,
+   "verifiedHits": 2861,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
    "topPaths": [
@@ -288,12 +288,12 @@
      "hits": 44
     },
     {
-     "path": "/tools",
+     "path": "/posts/best-open-vision-language-model-for-agents.html",
      "hits": 29
     },
     {
-     "path": "/posts/best-open-vision-language-model-for-agents.html",
-     "hits": 28
+     "path": "/tools",
+     "hits": 29
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 963,
+   "hits": 964,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -443,7 +443,7 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 910,
+   "hits": 929,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -476,7 +476,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 836,
+   "hits": 838,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -495,7 +495,7 @@
     },
     {
      "path": "/posts/cheapest-gpu-rental-november-2026.html",
-     "hits": 54
+     "hits": 55
     },
     {
      "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
@@ -509,14 +509,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 789,
-   "verifiedHits": 724,
+   "hits": 790,
+   "verifiedHits": 725,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "topPaths": [
     {
      "path": "/",
-     "hits": 494
+     "hits": 495
     },
     {
      "path": "/agents.html",
@@ -608,7 +608,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 273,
+   "hits": 274,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
