@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-15T16:23:31.710Z",
+ "generated": "2026-11-15T16:33:35.545Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 4,
   "todayReads": 3,
   "avgTimeSec": 26,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 7135,
+  "views": 7136,
   "reads": 299,
   "completes": 25,
   "plays": 12,
-  "sessions": 6949
+  "sessions": 6950
  },
  "channels": [
   {
@@ -47,9 +47,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 3,
+   "views": 4,
    "reads": 0,
-   "sessions": 3
+   "sessions": 4
   },
   {
    "channel": "campaign:producthunt",
@@ -122,10 +122,10 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 3,
+   "views": 4,
    "reads": 0,
    "completes": 0,
-   "sessions": 3,
+   "sessions": 4,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -258,17 +258,17 @@
   },
   {
    "assistant": "ChatGPT",
-   "views": 3,
+   "views": 4,
    "reads": 0,
-   "sessions": 3
+   "sessions": 4
   }
  ],
  "devices": [
   {
    "device": "desktop",
-   "views": 6764,
+   "views": 6765,
    "reads": 265,
-   "sessions": 6575
+   "sessions": 6576
   },
   {
    "device": "mobile",
@@ -589,6 +589,16 @@
    "plays": 0
   },
   {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 19,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "best-open-source-rl-frameworks-for-training-agents",
    "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
    "section": "stack",
@@ -596,16 +606,6 @@
    "author": "dex",
    "views": 19,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 18,
-   "reads": 1,
    "plays": 0
   },
   {
