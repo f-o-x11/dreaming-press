@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-15T00:00:26.457Z",
+ "generated": "2026-11-15T00:10:26.771Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 0,
+  "readersNow": 8,
+  "todayReads": 1,
   "avgTimeSec": 0,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7154,
-  "reads": 300,
+  "views": 7179,
+  "reads": 301,
   "completes": 25,
   "plays": 12,
-  "sessions": 6985
+  "sessions": 6991
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2925,
-   "reads": 182,
-   "sessions": 2804
+   "views": 2950,
+   "reads": 183,
+   "sessions": 2810
   },
   {
    "channel": "organic",
@@ -61,7 +61,7 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 23
+   "sessions": 27
   }
  ],
  "channelQuality": [
@@ -78,13 +78,13 @@
   },
   {
    "channel": "direct",
-   "views": 2925,
-   "reads": 182,
+   "views": 2950,
+   "reads": 183,
    "completes": 22,
-   "sessions": 2804,
+   "sessions": 2810,
    "read_rate": 0.062,
-   "complete_rate": 0.008,
-   "pages_per_session": 1.04,
+   "complete_rate": 0.007,
+   "pages_per_session": 1.05,
    "median_dwell_sec": 10
   },
   {
@@ -147,7 +147,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 23,
+   "sessions": 27,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -162,22 +162,27 @@
   },
   {
    "surface": "f-cols",
-   "clicks": 10,
-   "sessions": 6
+   "clicks": 12,
+   "sessions": 8
   },
   {
    "surface": "feature",
-   "clicks": 9,
-   "sessions": 4
+   "clicks": 10,
+   "sessions": 5
   },
   {
    "surface": "wire-row",
-   "clicks": 6,
-   "sessions": 6
+   "clicks": 7,
+   "sessions": 7
   },
   {
    "surface": "btn-stats",
    "clicks": 4,
+   "sessions": 3
+  },
+  {
+   "surface": "btn-agents",
+   "clicks": 3,
    "sessions": 3
   },
   {
@@ -189,6 +194,11 @@
    "surface": "article-body",
    "clicks": 3,
    "sessions": 3
+  },
+  {
+   "surface": "more",
+   "clicks": 2,
+   "sessions": 2
   },
   {
    "surface": "legal-links",
@@ -206,11 +216,6 @@
    "sessions": 2
   },
   {
-   "surface": "btn-agents",
-   "clicks": 2,
-   "sessions": 2
-  },
-  {
    "surface": "breadcrumb",
    "clicks": 2,
    "sessions": 2
@@ -222,11 +227,6 @@
   },
   {
    "surface": "un-body",
-   "clicks": 1,
-   "sessions": 1
-  },
-  {
-   "surface": "rr-card",
    "clicks": 1,
    "sessions": 1
   }
@@ -266,9 +266,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6790,
-   "reads": 266,
-   "sessions": 6618
+   "views": 6815,
+   "reads": 267,
+   "sessions": 6624
   },
   {
    "device": "mobile",
@@ -405,6 +405,16 @@
    "plays": 0
   },
   {
+   "slug": "neo4j-vs-falkordb-vs-memgraph",
+   "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
    "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
    "section": "stack",
@@ -421,16 +431,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 5,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
-   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 4,
    "reads": 3,
    "plays": 0
   }
@@ -642,9 +642,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 806,
+   "views": 807,
    "reads": 0,
-   "sessions": 801,
+   "sessions": 802,
    "avg_dwell_sec": 11
   },
   {
@@ -663,9 +663,9 @@
   },
   {
    "path": "/",
-   "views": 212,
+   "views": 218,
    "reads": 4,
-   "sessions": 210,
+   "sessions": 213,
    "avg_dwell_sec": 21
   },
   {
@@ -690,18 +690,18 @@
    "avg_dwell_sec": 5
   },
   {
+   "path": "/subscribe",
+   "views": 32,
+   "reads": 0,
+   "sessions": 12,
+   "avg_dwell_sec": null
+  },
+  {
    "path": "/tools",
    "views": 29,
    "reads": 3,
    "sessions": 22,
    "avg_dwell_sec": 47
-  },
-  {
-   "path": "/subscribe",
-   "views": 24,
-   "reads": 0,
-   "sessions": 9,
-   "avg_dwell_sec": null
   },
   {
    "path": "/stack.html",
@@ -774,8 +774,13 @@
   },
   {
    "ref": "f-cols",
+   "hits": 12,
+   "sessions": 8
+  },
+  {
+   "ref": "feature",
    "hits": 10,
-   "sessions": 6
+   "sessions": 5
   },
   {
    "ref": "https://search.brave.com/",
@@ -783,14 +788,9 @@
    "sessions": 6
   },
   {
-   "ref": "feature",
-   "hits": 9,
-   "sessions": 4
-  },
-  {
    "ref": "wire-row",
-   "hits": 6,
-   "sessions": 6
+   "hits": 7,
+   "sessions": 7
   },
   {
    "ref": "https://cn.bing.com/",
