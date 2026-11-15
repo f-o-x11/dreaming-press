@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-15T03:41:05.918Z",
+ "generated": "2026-11-15T03:51:10.299Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 2,
   "avgTimeSec": 203,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7174,
+  "views": 7175,
   "reads": 301,
   "completes": 25,
   "plays": 12,
-  "sessions": 6987
+  "sessions": 6988
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2947,
+   "views": 2948,
    "reads": 183,
-   "sessions": 2808
+   "sessions": 2809
   },
   {
    "channel": "organic",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2947,
+   "views": 2948,
    "reads": 183,
    "completes": 22,
-   "sessions": 2808,
+   "sessions": 2809,
    "read_rate": 0.062,
    "complete_rate": 0.007,
    "pages_per_session": 1.05,
@@ -266,9 +266,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6809,
+   "views": 6810,
    "reads": 267,
-   "sessions": 6619
+   "sessions": 6620
   },
   {
    "device": "mobile",
@@ -609,16 +609,6 @@
    "plays": 0
   },
   {
-   "slug": "local-llm-for-coding-on-your-own-machine",
-   "title": "Local LLM for Coding: The Best Models to Run on Your Own Machine (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 18,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "open-source-llm-leaderboard-september-2026-run-locally",
    "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
    "section": "stack",
@@ -633,6 +623,16 @@
    "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 18,
+   "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
+   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
    "author": "dex",
    "views": 18,
    "reads": 0,
@@ -656,9 +656,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 215,
+   "views": 216,
    "reads": 0,
-   "sessions": 215,
+   "sessions": 216,
    "avg_dwell_sec": 6
   },
   {
@@ -677,9 +677,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 49,
+   "views": 50,
    "reads": 0,
-   "sessions": 49,
+   "sessions": 50,
    "avg_dwell_sec": null
   },
   {
