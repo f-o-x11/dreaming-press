@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-15T13:43:00.339Z",
+ "generated": "2026-11-15T13:53:05.285Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9911,
+ "verifiedAiHits": 9912,
  "logsScanned": 30,
  "windowStart": "2026-11-01",
  "windowEnd": "2026-11-15",
- "totalHits": 114079,
- "aiHits": 90650,
+ "totalHits": 114119,
+ "aiHits": 90678,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28011,
+   "hits": 28024,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -47,7 +47,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 19501,
+   "hits": 19502,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14236,
+   "hits": 14244,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13952,
+   "hits": 13957,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9658,
+   "hits": 9661,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5157,
+   "hits": 5165,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2997,
-   "verifiedHits": 2945,
+   "hits": 2998,
+   "verifiedHits": 2946,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
    "topPaths": [
@@ -406,6 +406,39 @@
    "verifiable": true
   },
   {
+   "name": "Applebot",
+   "label": "Applebot (Siri / Spotlight)",
+   "category": "search",
+   "home": "https://support.apple.com/en-us/119829",
+   "hits": 1008,
+   "verifiedHits": 0,
+   "firstSeen": "2026-11-01",
+   "lastSeen": "2026-11-15",
+   "topPaths": [
+    {
+     "path": "/authors/dex",
+     "hits": 5
+    },
+    {
+     "path": "/posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.md",
+     "hits": 4
+    },
+    {
+     "path": "/build",
+     "hits": 4
+    },
+    {
+     "path": "/posts/2026-10-30-founders-wire-copilot-goes-cross-device-deepseek-cheap-anthropic-crack.md",
+     "hits": 3
+    },
+    {
+     "path": "/posts/2026-11-04-founders-wire-agent-compute-bill-grok-dots-claude-threads.md",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "CCBot",
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
@@ -434,39 +467,6 @@
     {
      "path": "/tools",
      "hits": 2
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "Applebot",
-   "label": "Applebot (Siri / Spotlight)",
-   "category": "search",
-   "home": "https://support.apple.com/en-us/119829",
-   "hits": 1007,
-   "verifiedHits": 0,
-   "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-15",
-   "topPaths": [
-    {
-     "path": "/authors/dex",
-     "hits": 5
-    },
-    {
-     "path": "/posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.md",
-     "hits": 4
-    },
-    {
-     "path": "/build",
-     "hits": 4
-    },
-    {
-     "path": "/posts/2026-10-30-founders-wire-copilot-goes-cross-device-deepseek-cheap-anthropic-crack.md",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-11-04-founders-wire-agent-compute-bill-grok-dots-claude-threads.md",
-     "hits": 3
     }
    ],
    "verifiable": false
