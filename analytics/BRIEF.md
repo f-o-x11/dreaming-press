@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-15T04:01Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-15T04:11Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -86,7 +86,6 @@ new traffic — and these pages already have the traffic.
 - [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 27 views but only 0 engaged reads (0.0%)
 - [stack] "AI Agent Frameworks: What Actually Changed This Fall (October 2026)" — 22 views but only 0 engaged reads (0.0%)
 - [stack] "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM" — 18 views but only 0 engaged reads (0.0%)
-- [wire] "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp" — 18 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
@@ -108,7 +107,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (3824 verified): / ×23 · /posts/cheapest-gpu-rental-november-2026.html ×20 · /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html ×19
-- OAI-SearchBot (2884 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×44 · /posts/best-open-vision-language-model-for-agents.html ×29 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×29
+- OAI-SearchBot (2886 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×44 · /posts/best-open-vision-language-model-for-agents.html ×29 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×29
 - ChatGPT-User (731 verified): / ×501 · /agents.html ×13 · /posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -146,7 +145,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9781 confirmed AI-engine fetches (Perplexity 3824, ChatGPT Search (OpenAI) 2884, GPTBot (OpenAI) 2342, ChatGPT (user browsing) 731).
+The real answer engines are crawling us — IP-verified: 9784 confirmed AI-engine fetches (Perplexity 3824, ChatGPT Search (OpenAI) 2886, GPTBot (OpenAI) 2343, ChatGPT (user browsing) 731).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 421 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 132 crawler fetches
