@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-15T00:10:26.448Z",
+ "generated": "2026-11-15T00:20:26.665Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9742,
+ "verifiedAiHits": 9743,
  "logsScanned": 30,
  "windowStart": "2026-11-01",
  "windowEnd": "2026-11-15",
- "totalHits": 110850,
- "aiHits": 88232,
+ "totalHits": 110912,
+ "aiHits": 88276,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 26942,
+   "hits": 26955,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13639,
+   "hits": 13646,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -113,10 +113,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13623,
+   "hits": 13627,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "topPaths": [
     {
      "path": "/build",
@@ -146,10 +146,10 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9382,
+   "hits": 9387,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "topPaths": [
     {
      "path": "/build",
@@ -179,14 +179,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5749,
-   "verifiedHits": 5698,
+   "hits": 5751,
+   "verifiedHits": 5700,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 129
+     "hits": 130
     },
     {
      "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 4960,
+   "hits": 4968,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2910,
-   "verifiedHits": 2858,
+   "hits": 2911,
+   "verifiedHits": 2859,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
    "topPaths": [
@@ -410,10 +410,10 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 959,
+   "hits": 962,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
-   "lastSeen": "2026-11-14",
+   "lastSeen": "2026-11-15",
    "topPaths": [
     {
      "path": "/authors/dex",
@@ -443,7 +443,7 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 878,
+   "hits": 897,
    "verifiedHits": 0,
    "firstSeen": "2026-11-01",
    "lastSeen": "2026-11-15",
