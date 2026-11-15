@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-15T23:34:41.889Z",
+ "generated": "2026-11-15T23:44:45.687Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 4,
+  "readersNow": 3,
+  "todayReads": 5,
   "avgTimeSec": 22,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 7157,
-  "reads": 300,
+  "views": 7158,
+  "reads": 301,
   "completes": 25,
   "plays": 12,
-  "sessions": 6971
+  "sessions": 6972
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2931,
-   "reads": 183,
-   "sessions": 2790
+   "views": 2932,
+   "reads": 184,
+   "sessions": 2791
   },
   {
    "channel": "organic",
@@ -78,11 +78,11 @@
   },
   {
    "channel": "direct",
-   "views": 2931,
-   "reads": 183,
+   "views": 2932,
+   "reads": 184,
    "completes": 22,
-   "sessions": 2790,
-   "read_rate": 0.062,
+   "sessions": 2791,
+   "read_rate": 0.063,
    "complete_rate": 0.008,
    "pages_per_session": 1.05,
    "median_dwell_sec": 10
@@ -266,9 +266,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6793,
-   "reads": 266,
-   "sessions": 6604
+   "views": 6794,
+   "reads": 267,
+   "sessions": 6605
   },
   {
    "device": "mobile",
@@ -629,10 +629,10 @@
    "plays": 0
   },
   {
-   "slug": "ai-agent-frameworks-whats-changed-fall-2026",
-   "title": "AI Agent Frameworks: What Actually Changed This Fall (October 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
+   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
+   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
    "author": "dex",
    "views": 17,
    "reads": 0,
@@ -656,9 +656,9 @@
   },
   {
    "path": "/",
-   "views": 213,
+   "views": 214,
    "reads": 4,
-   "sessions": 209,
+   "sessions": 210,
    "avg_dwell_sec": 22
   },
   {
