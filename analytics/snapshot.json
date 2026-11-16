@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T18:18:21.374Z",
+ "generated": "2026-11-16T18:28:25.450Z",
  "windowDays": 14,
  "site": {
   "readersNow": 6,
@@ -8,7 +8,7 @@
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7182,
+  "views": 7181,
   "reads": 300,
   "completes": 27,
   "plays": 12,
@@ -29,9 +29,9 @@
   },
   {
    "channel": "organic",
-   "views": 134,
+   "views": 133,
    "reads": 55,
-   "sessions": 126
+   "sessions": 125
   },
   {
    "channel": "ai",
@@ -61,7 +61,7 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 25
+   "sessions": 24
   }
  ],
  "channelQuality": [
@@ -89,12 +89,12 @@
   },
   {
    "channel": "organic",
-   "views": 134,
+   "views": 133,
    "reads": 55,
    "completes": 1,
-   "sessions": 126,
-   "read_rate": 0.41,
-   "complete_rate": 0.007,
+   "sessions": 125,
+   "read_rate": 0.414,
+   "complete_rate": 0.008,
    "pages_per_session": 1.06,
    "median_dwell_sec": 3
   },
@@ -147,7 +147,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 25,
+   "sessions": 24,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -254,7 +254,7 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6835,
+   "views": 6834,
    "reads": 267,
    "sessions": 6644
   },
@@ -630,10 +630,10 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 819,
+   "views": 818,
    "reads": 0,
-   "sessions": 814,
-   "avg_dwell_sec": 12
+   "sessions": 813,
+   "avg_dwell_sec": 10
   },
   {
    "path": "/build",
@@ -644,9 +644,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 240,
+   "views": 241,
    "reads": 0,
-   "sessions": 240,
+   "sessions": 241,
    "avg_dwell_sec": 6
   },
   {
@@ -672,10 +672,10 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 42,
+   "views": 41,
    "reads": 0,
-   "sessions": 42,
-   "avg_dwell_sec": 5
+   "sessions": 41,
+   "avg_dwell_sec": null
   },
   {
    "path": "/subscribe",
@@ -752,8 +752,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 54,
-   "sessions": 27
+   "hits": 53,
+   "sessions": 26
   },
   {
    "ref": "nav-cmp",
