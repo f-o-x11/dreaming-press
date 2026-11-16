@@ -1,37 +1,37 @@
 {
- "generated": "2026-11-16T14:07:30.226Z",
+ "generated": "2026-11-16T14:17:30.900Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 9,
+  "readersNow": 7,
+  "todayReads": 12,
   "avgTimeSec": 35,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7175,
-  "reads": 295,
+  "views": 7182,
+  "reads": 298,
   "completes": 27,
   "plays": 12,
-  "sessions": 6991
+  "sessions": 6996
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2945,
-   "reads": 182,
-   "sessions": 2808
+   "views": 2951,
+   "reads": 184,
+   "sessions": 2812
+  },
+  {
+   "channel": "referral",
+   "views": 4082,
+   "reads": 56,
+   "sessions": 4084
   },
   {
    "channel": "organic",
    "views": 131,
    "reads": 56,
    "sessions": 123
-  },
-  {
-   "channel": "referral",
-   "views": 4081,
-   "reads": 55,
-   "sessions": 4083
   },
   {
    "channel": "ai",
@@ -67,21 +67,21 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 4081,
-   "reads": 55,
+   "views": 4082,
+   "reads": 56,
    "completes": 0,
-   "sessions": 4083,
-   "read_rate": 0.013,
+   "sessions": 4084,
+   "read_rate": 0.014,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
   {
    "channel": "direct",
-   "views": 2945,
-   "reads": 182,
+   "views": 2951,
+   "reads": 184,
    "completes": 24,
-   "sessions": 2808,
+   "sessions": 2812,
    "read_rate": 0.062,
    "complete_rate": 0.008,
    "pages_per_session": 1.05,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6829,
-   "reads": 262,
-   "sessions": 6642
+   "views": 6836,
+   "reads": 265,
+   "sessions": 6647
   },
   {
    "device": "mobile",
@@ -321,6 +321,16 @@
    "views": 24,
    "reads": 5,
    "plays": 1
+  },
+  {
+   "slug": "openai-responses-api-state-previous-response-id-vs-conversations-api",
+   "title": "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 4,
+   "plays": 0
   },
   {
    "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
@@ -409,16 +419,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 4,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "vllm-rust-frontend",
-   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 3,
    "reads": 3,
    "plays": 0
   }
@@ -700,9 +700,9 @@
   },
   {
    "path": "/authors/dex",
-   "views": 14,
+   "views": 15,
    "reads": 0,
-   "sessions": 14,
+   "sessions": 15,
    "avg_dwell_sec": 15
   },
   {
@@ -714,9 +714,9 @@
   },
   {
    "path": "/dashboard",
-   "views": 12,
+   "views": 13,
    "reads": 0,
-   "sessions": 10,
+   "sessions": 11,
    "avg_dwell_sec": 14
   },
   {
