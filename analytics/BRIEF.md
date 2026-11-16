@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-16T14:47Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-16T14:57Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -37,7 +37,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Top by engaged reads (eyes that stayed)
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 33 reads, 68 views, 2 listens
 - [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 9 reads, 21 views, 0 listens
-- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 8 reads, 55 views, 2 listens
+- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 8 reads, 54 views, 2 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 6 reads, 13 views, 0 listens
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 5 reads, 24 views, 1 listens
 - [stack] "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own" — 4 reads, 6 views, 0 listens
@@ -60,7 +60,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 820 views, 0 reads, 815 sessions, avg 12s
-- /build — 255 views, 0 reads, 255 sessions
+- /build — 256 views, 0 reads, 256 sessions
 - /compare/:pair — 237 views, 0 reads, 237 sessions, avg 6s
 - / — 215 views, 3 reads, 211 sessions, avg 20s
 - /topics/:topic — 80 views, 0 reads, 80 sessions, avg 23s
@@ -72,7 +72,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 68 views, 33 reads
-- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 55 views, 8 reads
+- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 54 views, 8 reads
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 24 views, 5 reads
 - [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 21 views, 9 reads
 - [wire] "The Founder's Wire, November 5: Coding Agents Get Cheaper, Agent Security Gets Bought, and AMD Bets $11B on Cheaper Inference" — 21 views, 3 reads
@@ -95,7 +95,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 555 retrieval fetches
+- /  — 556 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 41 retrieval fetches
 - /posts/best-open-vision-language-model-for-agents.html  — 30 retrieval fetches
 - /posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html  — 30 retrieval fetches
@@ -109,7 +109,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (3661 verified): / ×23 · /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html ×21 · /posts/cheapest-gpu-rental-november-2026.html ×20
 - OAI-SearchBot (2881 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×41 · /posts/best-open-vision-language-model-for-agents.html ×30 · /posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html ×30
-- ChatGPT-User (768 verified): / ×532 · /agents.html ×13 · /posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html ×9
+- ChatGPT-User (769 verified): / ×533 · /agents.html ×13 · /posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html ×9
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -146,7 +146,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9676 confirmed AI-engine fetches (Perplexity 3661, ChatGPT Search (OpenAI) 2881, GPTBot (OpenAI) 2366, ChatGPT (user browsing) 768).
+The real answer engines are crawling us — IP-verified: 9677 confirmed AI-engine fetches (Perplexity 3661, ChatGPT Search (OpenAI) 2881, GPTBot (OpenAI) 2366, ChatGPT (user browsing) 769).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 387 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 143 crawler fetches
