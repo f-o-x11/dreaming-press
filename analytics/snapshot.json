@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T15:57:46.350Z",
+ "generated": "2026-11-16T16:07:47.015Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -9,17 +9,17 @@
  },
  "funnel": {
   "views": 7188,
-  "reads": 300,
+  "reads": 299,
   "completes": 27,
   "plays": 12,
-  "sessions": 7000
+  "sessions": 7001
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2956,
+   "views": 2957,
    "reads": 186,
-   "sessions": 2816
+   "sessions": 2817
   },
   {
    "channel": "referral",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "organic",
-   "views": 131,
-   "reads": 56,
-   "sessions": 123
+   "views": 130,
+   "reads": 55,
+   "sessions": 122
   },
   {
    "channel": "ai",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2956,
+   "views": 2957,
    "reads": 186,
    "completes": 24,
-   "sessions": 2816,
+   "sessions": 2817,
    "read_rate": 0.063,
    "complete_rate": 0.008,
    "pages_per_session": 1.05,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 131,
-   "reads": 56,
+   "views": 130,
+   "reads": 55,
    "completes": 1,
-   "sessions": 123,
-   "read_rate": 0.427,
+   "sessions": 122,
+   "read_rate": 0.423,
    "complete_rate": 0.008,
    "pages_per_session": 1.07,
    "median_dwell_sec": 3
@@ -254,14 +254,14 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6842,
+   "views": 6843,
    "reads": 267,
-   "sessions": 6651
+   "sessions": 6652
   },
   {
    "device": "mobile",
-   "views": 339,
-   "reads": 29,
+   "views": 338,
+   "reads": 28,
    "sessions": 346
   },
   {
@@ -298,7 +298,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 52,
+   "views": 51,
    "reads": 8,
    "plays": 2
   },
@@ -440,7 +440,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 52,
+   "views": 51,
    "reads": 8,
    "plays": 2
   },
@@ -542,7 +542,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 52,
+   "views": 51,
    "reads": 8,
    "plays": 2
   },
@@ -637,16 +637,16 @@
   },
   {
    "path": "/build",
-   "views": 256,
+   "views": 257,
    "reads": 0,
-   "sessions": 256,
+   "sessions": 257,
    "avg_dwell_sec": null
   },
   {
    "path": "/compare/:pair",
-   "views": 238,
+   "views": 239,
    "reads": 0,
-   "sessions": 238,
+   "sessions": 239,
    "avg_dwell_sec": 6
   },
   {
@@ -771,14 +771,14 @@
    "sessions": 5
   },
   {
-   "ref": "https://search.brave.com/",
-   "hits": 9,
-   "sessions": 6
-  },
-  {
    "ref": "wire-row",
    "hits": 7,
    "sessions": 7
+  },
+  {
+   "ref": "https://search.brave.com/",
+   "hits": 7,
+   "sessions": 5
   },
   {
    "ref": "https://cn.bing.com/",
