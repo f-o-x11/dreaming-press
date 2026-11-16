@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-16T14:27:34.120Z",
+ "generated": "2026-11-16T14:37:34.410Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 10,
+  "readersNow": 2,
   "todayReads": 12,
   "avgTimeSec": 32,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7186,
+  "views": 7185,
   "reads": 298,
   "completes": 27,
   "plays": 12,
-  "sessions": 7000
+  "sessions": 6999
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2955,
+   "views": 2954,
    "reads": 184,
-   "sessions": 2816
+   "sessions": 2815
   },
   {
    "channel": "referral",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2955,
+   "views": 2954,
    "reads": 184,
    "completes": 24,
-   "sessions": 2816,
+   "sessions": 2815,
    "read_rate": 0.062,
    "complete_rate": 0.008,
    "pages_per_session": 1.05,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6840,
+   "views": 6839,
    "reads": 265,
-   "sessions": 6651
+   "sessions": 6650
   },
   {
    "device": "mobile",
@@ -607,20 +607,20 @@
    "plays": 0
   },
   {
-   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
-   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
-   "author": "dex",
-   "views": 18,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
    "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 17,
+   "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
+   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
    "author": "dex",
    "views": 17,
    "reads": 0,
