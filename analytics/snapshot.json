@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-16T09:06:30.210Z",
+ "generated": "2026-11-16T09:16:32.183Z",
  "windowDays": 14,
  "site": {
   "readersNow": 7,
   "todayReads": 3,
-  "avgTimeSec": 36,
+  "avgTimeSec": 37,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7187,
+  "views": 7189,
   "reads": 296,
   "completes": 26,
   "plays": 12,
-  "sessions": 7003
+  "sessions": 7005
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2958,
+   "views": 2960,
    "reads": 184,
-   "sessions": 2820
+   "sessions": 2822
   },
   {
    "channel": "referral",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2958,
+   "views": 2960,
    "reads": 184,
    "completes": 23,
-   "sessions": 2820,
+   "sessions": 2822,
    "read_rate": 0.062,
    "complete_rate": 0.008,
    "pages_per_session": 1.05,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6827,
+   "views": 6829,
    "reads": 262,
-   "sessions": 6640
+   "sessions": 6642
   },
   {
    "device": "mobile",
@@ -343,6 +343,16 @@
    "plays": 0
   },
   {
+   "slug": "multi-agent-orchestration-supervisor-vs-swarm-vs-handoffs",
+   "title": "Supervisor vs Swarm vs Handoffs: Multi-Agent Orchestration Patterns in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 16,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-23-mcp-code-execution-vs-direct-tool-calls",
    "title": "Code Execution vs Direct Tool Calls: How Agents Actually Scale MCP",
    "section": "wire",
@@ -357,16 +367,6 @@
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 15,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "multi-agent-orchestration-supervisor-vs-swarm-vs-handoffs",
-   "title": "Supervisor vs Swarm vs Handoffs: Multi-Agent Orchestration Patterns in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 15,
    "reads": 3,
