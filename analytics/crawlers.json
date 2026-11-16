@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-16T16:27:50.535Z",
+ "generated": "2026-11-16T16:37:54.998Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 9681,
  "logsScanned": 30,
  "windowStart": "2026-11-02",
  "windowEnd": "2026-11-16",
- "totalHits": 115400,
- "aiHits": 91205,
+ "totalHits": 115430,
+ "aiHits": 91234,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29183,
+   "hits": 29187,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14389,
+   "hits": 14398,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13552,
+   "hits": 13556,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6059,
-   "verifiedHits": 6023,
+   "hits": 6060,
+   "verifiedHits": 6024,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
    "topPaths": [
@@ -641,11 +641,15 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 86,
+   "hits": 98,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
    "topPaths": [
+    {
+     "path": "/posts/ai-wrapper-gross-margin-llm-token-unit-economics.html",
+     "hits": 8
+    },
     {
      "path": "/posts/tool-highlight-tinfoil-confidential-llm-inference-cloud-cant-read.html",
      "hits": 6
@@ -661,10 +665,6 @@
     {
      "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
      "hits": 2
-    },
-    {
-     "path": "/posts/tool-result-too-large-for-context-window.html",
-     "hits": 1
     }
    ],
    "verifiable": false
