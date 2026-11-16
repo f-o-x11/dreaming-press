@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T11:36:58.367Z",
+ "generated": "2026-11-16T11:46:58.613Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,18 +8,18 @@
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7191,
-  "reads": 298,
+  "views": 7193,
+  "reads": 297,
   "completes": 26,
   "plays": 12,
-  "sessions": 7007
+  "sessions": 7008
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2961,
-   "reads": 185,
-   "sessions": 2824
+   "views": 2963,
+   "reads": 184,
+   "sessions": 2825
   },
   {
    "channel": "organic",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2961,
-   "reads": 185,
+   "views": 2963,
+   "reads": 184,
    "completes": 23,
-   "sessions": 2824,
+   "sessions": 2825,
    "read_rate": 0.062,
    "complete_rate": 0.008,
    "pages_per_session": 1.05,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6834,
-   "reads": 264,
-   "sessions": 6647
+   "views": 6836,
+   "reads": 263,
+   "sessions": 6648
   },
   {
    "device": "mobile",
@@ -383,16 +383,6 @@
    "plays": 0
   },
   {
-   "slug": "best-vector-database-for-windows-local-rag",
-   "title": "The Best Vector Database for Windows (2026): Which Ones Run Natively — and Which Quietly Need Docker",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 7,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "neo4j-vs-falkordb-vs-memgraph",
    "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
    "section": "stack",
@@ -419,6 +409,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
    "views": 4,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "vllm-rust-frontend",
+   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 3,
    "reads": 3,
    "plays": 0
   }
