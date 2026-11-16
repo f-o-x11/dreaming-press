@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-16T09:46:41.280Z",
+ "generated": "2026-11-16T09:56:42.465Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9606,
+ "verifiedAiHits": 9610,
  "logsScanned": 30,
  "windowStart": "2026-11-02",
  "windowEnd": "2026-11-16",
- "totalHits": 113790,
- "aiHits": 89951,
+ "totalHits": 113855,
+ "aiHits": 90000,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28494,
+   "hits": 28530,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -47,7 +47,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 19513,
+   "hits": 19514,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -57,12 +57,12 @@
      "hits": 6
     },
     {
-     "path": "/dashboard",
+     "path": "/posts/openai-responses-api-vs-assistants-api-vs-chat-completions.html",
      "hits": 5
     },
     {
-     "path": "/posts/openai-responses-api-vs-assistants-api-vs-chat-completions.html",
-     "hits": 4
+     "path": "/dashboard",
+     "hits": 5
     },
     {
      "path": "/posts/deep-agents-v0-7-cut-input-tokens-65-percent-tool-schema-prose.html",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14078,
+   "hits": 14085,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9331,
+   "hits": 9338,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -179,7 +179,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5991,
+   "hits": 5999,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -212,8 +212,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5925,
-   "verifiedHits": 5889,
+   "hits": 5926,
+   "verifiedHits": 5890,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
    "topPaths": [
@@ -278,14 +278,18 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2893,
-   "verifiedHits": 2855,
+   "hits": 2897,
+   "verifiedHits": 2859,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
    "topPaths": [
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
      "hits": 41
+    },
+    {
+     "path": "/posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html",
+     "hits": 30
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -297,10 +301,6 @@
     },
     {
      "path": "/posts/best-open-vision-language-model-for-agents.html",
-     "hits": 29
-    },
-    {
-     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
      "hits": 29
     }
    ],
@@ -476,7 +476,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 881,
+   "hits": 882,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
