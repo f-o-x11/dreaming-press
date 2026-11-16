@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-16T09:16:32.183Z",
+ "generated": "2026-11-16T09:26:36.439Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
+  "readersNow": 18,
   "todayReads": 3,
-  "avgTimeSec": 37,
+  "avgTimeSec": 33,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7189,
+  "views": 7204,
   "reads": 296,
   "completes": 26,
   "plays": 12,
-  "sessions": 7005
+  "sessions": 7020
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2960,
+   "views": 2975,
    "reads": 184,
-   "sessions": 2822
+   "sessions": 2837
   },
   {
    "channel": "referral",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2960,
+   "views": 2975,
    "reads": 184,
    "completes": 23,
-   "sessions": 2822,
+   "sessions": 2837,
    "read_rate": 0.062,
    "complete_rate": 0.008,
    "pages_per_session": 1.05,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6829,
+   "views": 6844,
    "reads": 262,
-   "sessions": 6642
+   "sessions": 6657
   },
   {
    "device": "mobile",
@@ -338,7 +338,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 19,
+   "views": 20,
    "reads": 3,
    "plays": 0
   },
@@ -592,7 +592,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 19,
+   "views": 20,
    "reads": 3,
    "plays": 0
   },
@@ -607,20 +607,20 @@
    "plays": 0
   },
   {
-   "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
-   "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 17,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
    "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
+   "author": "dex",
+   "views": 18,
+   "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
+   "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 17,
    "reads": 0,
@@ -643,18 +643,18 @@
    "avg_dwell_sec": null
   },
   {
+   "path": "/compare/:pair",
+   "views": 231,
+   "reads": 0,
+   "sessions": 231,
+   "avg_dwell_sec": 6
+  },
+  {
    "path": "/",
    "views": 216,
    "reads": 4,
    "sessions": 212,
    "avg_dwell_sec": 21
-  },
-  {
-   "path": "/compare/:pair",
-   "views": 216,
-   "reads": 0,
-   "sessions": 216,
-   "avg_dwell_sec": 6
   },
   {
    "path": "/topics/:topic",
