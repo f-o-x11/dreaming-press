@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-16T19:38:36.057Z",
+ "generated": "2026-11-16T19:48:40.474Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 19,
-  "avgTimeSec": 27,
+  "readersNow": 7,
+  "todayReads": 22,
+  "avgTimeSec": 25,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7193,
-  "reads": 304,
+  "views": 7200,
+  "reads": 306,
   "completes": 28,
   "plays": 12,
-  "sessions": 7004
+  "sessions": 7008
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2958,
-   "reads": 191,
-   "sessions": 2816
+   "views": 2966,
+   "reads": 194,
+   "sessions": 2821
   },
   {
    "channel": "referral",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "organic",
-   "views": 133,
-   "reads": 55,
-   "sessions": 125
+   "views": 132,
+   "reads": 54,
+   "sessions": 124
   },
   {
    "channel": "ai",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2958,
-   "reads": 191,
+   "views": 2966,
+   "reads": 194,
    "completes": 25,
-   "sessions": 2816,
+   "sessions": 2821,
    "read_rate": 0.065,
    "complete_rate": 0.008,
    "pages_per_session": 1.05,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 133,
-   "reads": 55,
+   "views": 132,
+   "reads": 54,
    "completes": 1,
-   "sessions": 125,
-   "read_rate": 0.414,
+   "sessions": 124,
+   "read_rate": 0.409,
    "complete_rate": 0.008,
    "pages_per_session": 1.06,
    "median_dwell_sec": 3
@@ -254,13 +254,13 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6845,
-   "reads": 270,
-   "sessions": 6653
+   "views": 6851,
+   "reads": 272,
+   "sessions": 6657
   },
   {
    "device": "mobile",
-   "views": 341,
+   "views": 342,
    "reads": 30,
    "sessions": 348
   },
@@ -293,6 +293,16 @@
    "plays": 0
   },
   {
+   "slug": "openai-responses-api-state-previous-response-id-vs-conversations-api",
+   "title": "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 17,
+   "reads": 9,
+   "plays": 0
+  },
+  {
    "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
    "title": "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model",
    "section": "wire",
@@ -313,16 +323,6 @@
    "plays": 0
   },
   {
-   "slug": "openai-responses-api-state-previous-response-id-vs-conversations-api",
-   "title": "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 13,
-   "reads": 7,
-   "plays": 0
-  },
-  {
    "slug": "best-llm-for-creative-writing-october-2026",
    "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
    "section": "stack",
@@ -331,6 +331,16 @@
    "views": 24,
    "reads": 5,
    "plays": 1
+  },
+  {
+   "slug": "responses-api-multi-vendor-deepseek-what-to-build-against",
+   "title": "The Responses API Just Went Multi-Vendor: DeepSeek Speaks It Too — So What Do You Build Your Agent Against?",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 12,
+   "reads": 4,
+   "plays": 0
   },
   {
    "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
@@ -379,16 +389,6 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 14,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "responses-api-multi-vendor-deepseek-what-to-build-against",
-   "title": "The Responses API Just Went Multi-Vendor: DeepSeek Speaks It Too — So What Do You Build Your Agent Against?",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 10,
    "reads": 3,
    "plays": 0
   },
@@ -607,20 +607,20 @@
    "plays": 0
   },
   {
-   "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
-   "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
+   "slug": "openai-responses-api-state-previous-response-id-vs-conversations-api",
+   "title": "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 17,
-   "reads": 0,
+   "reads": 9,
    "plays": 0
   },
   {
-   "slug": "run-671b-moe-single-gpu-ktransformers-vs-llama-cpp",
-   "title": "Run a 671B Model on One 24GB GPU: The MoE Offload Trick, KTransformers vs llama.cpp",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\",\"cynical\"]",
+   "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
+   "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 17,
    "reads": 0,
@@ -693,9 +693,9 @@
   },
   {
    "path": "/authors/dex",
-   "views": 17,
+   "views": 18,
    "reads": 0,
-   "sessions": 17,
+   "sessions": 18,
    "avg_dwell_sec": 15
   },
   {
@@ -707,9 +707,9 @@
   },
   {
    "path": "/dashboard",
-   "views": 15,
+   "views": 16,
    "reads": 0,
-   "sessions": 13,
+   "sessions": 14,
    "avg_dwell_sec": 14
   },
   {
@@ -752,8 +752,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 53,
-   "sessions": 26
+   "hits": 51,
+   "sessions": 25
   },
   {
    "ref": "nav-cmp",
