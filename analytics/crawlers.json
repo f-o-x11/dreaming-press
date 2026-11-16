@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-16T16:07:46.734Z",
+ "generated": "2026-11-16T16:17:49.967Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 9680,
  "logsScanned": 30,
  "windowStart": "2026-11-02",
  "windowEnd": "2026-11-16",
- "totalHits": 115288,
- "aiHits": 91112,
+ "totalHits": 115344,
+ "aiHits": 91158,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,17 +14,17 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29117,
+   "hits": 29150,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
    "topPaths": [
     {
-     "path": "/build",
-     "hits": 36
+     "path": "/",
+     "hits": 37
     },
     {
-     "path": "/",
+     "path": "/build",
      "hits": 36
     },
     {
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14371,
+   "hits": 14380,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13544,
+   "hits": 13548,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9439,
+   "hits": 9446,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -160,19 +160,52 @@
      "hits": 8
     },
     {
+     "path": "/posts/coding-agent-pick-by-pricing-model-late-2026.html",
+     "hits": 7
+    },
+    {
      "path": "/tags/reportive",
      "hits": 7
     },
     {
      "path": "/authors/dex",
      "hits": 6
-    },
-    {
-     "path": "/wire.html",
-     "hits": 6
     }
    ],
    "verifiable": false
+  },
+  {
+   "name": "Bingbot",
+   "label": "Bingbot",
+   "category": "search",
+   "home": "https://www.bing.com/webmasters",
+   "hits": 6057,
+   "verifiedHits": 6021,
+   "firstSeen": "2026-11-02",
+   "lastSeen": "2026-11-16",
+   "topPaths": [
+    {
+     "path": "/posts/gartner-ai-agent-spending-2026.html",
+     "hits": 144
+    },
+    {
+     "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
+     "hits": 60
+    },
+    {
+     "path": "/posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html",
+     "hits": 43
+    },
+    {
+     "path": "/search",
+     "hits": 37
+    },
+    {
+     "path": "/build",
+     "hits": 34
+    }
+   ],
+   "verifiable": true
   },
   {
    "name": "Sogou",
@@ -206,39 +239,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "Bingbot",
-   "label": "Bingbot",
-   "category": "search",
-   "home": "https://www.bing.com/webmasters",
-   "hits": 6054,
-   "verifiedHits": 6018,
-   "firstSeen": "2026-11-02",
-   "lastSeen": "2026-11-16",
-   "topPaths": [
-    {
-     "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 144
-    },
-    {
-     "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
-     "hits": 60
-    },
-    {
-     "path": "/posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html",
-     "hits": 43
-    },
-    {
-     "path": "/search",
-     "hits": 37
-    },
-    {
-     "path": "/build",
-     "hits": 34
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "PerplexityBot",

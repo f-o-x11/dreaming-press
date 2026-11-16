@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-16T16:07Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-16T16:17Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -65,7 +65,7 @@ so what these earn from humans is the other half of the picture.
 - / — 215 views, 3 reads, 211 sessions, avg 20s
 - /topics/:topic — 80 views, 0 reads, 80 sessions, avg 23s
 - /best/:cat — 51 views, 0 reads, 51 sessions
-- /alternatives/:tool — 41 views, 0 reads, 41 sessions, avg 5s
+- /alternatives/:tool — 42 views, 0 reads, 42 sessions, avg 5s
 - /subscribe — 32 views, 0 reads, 12 sessions
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
