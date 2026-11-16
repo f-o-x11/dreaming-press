@@ -1,37 +1,37 @@
 {
- "generated": "2026-11-16T13:57:27.337Z",
+ "generated": "2026-11-16T14:07:30.226Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 8,
+  "readersNow": 2,
+  "todayReads": 9,
   "avgTimeSec": 35,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7179,
-  "reads": 296,
+  "views": 7175,
+  "reads": 295,
   "completes": 27,
   "plays": 12,
-  "sessions": 6994
+  "sessions": 6991
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2950,
-   "reads": 184,
-   "sessions": 2812
+   "views": 2945,
+   "reads": 182,
+   "sessions": 2808
+  },
+  {
+   "channel": "organic",
+   "views": 131,
+   "reads": 56,
+   "sessions": 123
   },
   {
    "channel": "referral",
    "views": 4081,
    "reads": 55,
    "sessions": 4083
-  },
-  {
-   "channel": "organic",
-   "views": 130,
-   "reads": 55,
-   "sessions": 122
   },
   {
    "channel": "ai",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2950,
-   "reads": 184,
+   "views": 2945,
+   "reads": 182,
    "completes": 24,
-   "sessions": 2812,
+   "sessions": 2808,
    "read_rate": 0.062,
    "complete_rate": 0.008,
    "pages_per_session": 1.05,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 130,
-   "reads": 55,
+   "views": 131,
+   "reads": 56,
    "completes": 1,
-   "sessions": 122,
-   "read_rate": 0.423,
+   "sessions": 123,
+   "read_rate": 0.427,
    "complete_rate": 0.008,
    "pages_per_session": 1.07,
    "median_dwell_sec": 3
@@ -254,15 +254,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6831,
-   "reads": 263,
-   "sessions": 6643
+   "views": 6829,
+   "reads": 262,
+   "sessions": 6642
   },
   {
    "device": "mobile",
-   "views": 341,
+   "views": 339,
    "reads": 29,
-   "sessions": 348
+   "sessions": 346
   },
   {
    "device": "tablet",
@@ -651,10 +651,10 @@
   },
   {
    "path": "/",
-   "views": 216,
-   "reads": 4,
-   "sessions": 212,
-   "avg_dwell_sec": 21
+   "views": 215,
+   "reads": 3,
+   "sessions": 211,
+   "avg_dwell_sec": 20
   },
   {
    "path": "/topics/:topic",
@@ -713,13 +713,6 @@
    "avg_dwell_sec": 38
   },
   {
-   "path": "/submit.html",
-   "views": 13,
-   "reads": 4,
-   "sessions": 13,
-   "avg_dwell_sec": 51
-  },
-  {
    "path": "/dashboard",
    "views": 12,
    "reads": 0,
@@ -732,6 +725,13 @@
    "reads": 1,
    "sessions": 11,
    "avg_dwell_sec": 35
+  },
+  {
+   "path": "/submit.html",
+   "views": 12,
+   "reads": 3,
+   "sessions": 12,
+   "avg_dwell_sec": 47
   }
  ],
  "referrers": [
@@ -747,8 +747,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 57,
-   "sessions": 27
+   "hits": 59,
+   "sessions": 28
   },
   {
    "ref": "https://duckduckgo.com/",
