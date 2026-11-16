@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-16T23:09:25.342Z",
+ "generated": "2026-11-16T23:19:25.838Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 27,
   "avgTimeSec": 28,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7213,
+  "views": 7212,
   "reads": 310,
   "completes": 29,
   "plays": 12,
-  "sessions": 7019
+  "sessions": 7017
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2979,
    "reads": 198,
-   "sessions": 2832
+   "sessions": 2831
   },
   {
    "channel": "referral",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 7,
+   "views": 6,
    "reads": 1,
-   "sessions": 7
+   "sessions": 6
   },
   {
    "channel": "campaign:openai",
@@ -81,7 +81,7 @@
    "views": 2979,
    "reads": 198,
    "completes": 26,
-   "sessions": 2832,
+   "sessions": 2831,
    "read_rate": 0.066,
    "complete_rate": 0.009,
    "pages_per_session": 1.05,
@@ -100,11 +100,11 @@
   },
   {
    "channel": "ai",
-   "views": 7,
+   "views": 6,
    "reads": 1,
    "completes": 0,
-   "sessions": 7,
-   "read_rate": 0.143,
+   "sessions": 6,
+   "read_rate": 0.167,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -246,9 +246,9 @@
   },
   {
    "assistant": "Kimi",
-   "views": 4,
+   "views": 3,
    "reads": 0,
-   "sessions": 4
+   "sessions": 3
   }
  ],
  "devices": [
@@ -256,13 +256,13 @@
    "device": "desktop",
    "views": 6866,
    "reads": 276,
-   "sessions": 6670
+   "sessions": 6669
   },
   {
    "device": "mobile",
-   "views": 340,
+   "views": 339,
    "reads": 30,
-   "sessions": 346
+   "sessions": 345
   },
   {
    "device": "tablet",
