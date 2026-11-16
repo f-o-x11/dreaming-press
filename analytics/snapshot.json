@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T11:26:54.592Z",
+ "generated": "2026-11-16T11:36:58.367Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -12,14 +12,14 @@
   "reads": 298,
   "completes": 26,
   "plays": 12,
-  "sessions": 7006
+  "sessions": 7007
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2961,
    "reads": 185,
-   "sessions": 2823
+   "sessions": 2824
   },
   {
    "channel": "organic",
@@ -81,7 +81,7 @@
    "views": 2961,
    "reads": 185,
    "completes": 23,
-   "sessions": 2823,
+   "sessions": 2824,
    "read_rate": 0.062,
    "complete_rate": 0.008,
    "pages_per_session": 1.05,
@@ -254,15 +254,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6833,
+   "views": 6834,
    "reads": 264,
-   "sessions": 6645
+   "sessions": 6647
   },
   {
    "device": "mobile",
-   "views": 351,
+   "views": 350,
    "reads": 30,
-   "sessions": 358
+   "sessions": 357
   },
   {
    "device": "tablet",
@@ -308,7 +308,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 14,
+   "views": 13,
    "reads": 6,
    "plays": 0
   },
@@ -373,22 +373,22 @@
    "plays": 0
   },
   {
-   "slug": "best-vector-database-for-windows-local-rag",
-   "title": "The Best Vector Database for Windows (2026): Which Ones Run Natively — and Which Quietly Need Docker",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "manual-loop-vs-tool-runner-vs-managed-agents-claude",
    "title": "Manual Loop vs Tool Runner vs Managed Agents: Which Way to Build Your Claude Agent",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 8,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "best-vector-database-for-windows-local-rag",
+   "title": "The Best Vector Database for Windows (2026): Which Ones Run Natively — and Which Quietly Need Docker",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 7,
    "reads": 3,
    "plays": 0
   },
@@ -713,6 +713,13 @@
    "avg_dwell_sec": 15
   },
   {
+   "path": "/submit.html",
+   "views": 13,
+   "reads": 4,
+   "sessions": 13,
+   "avg_dwell_sec": 51
+  },
+  {
    "path": "/dashboard",
    "views": 12,
    "reads": 0,
@@ -725,13 +732,6 @@
    "reads": 1,
    "sessions": 11,
    "avg_dwell_sec": 35
-  },
-  {
-   "path": "/submit.html",
-   "views": 12,
-   "reads": 4,
-   "sessions": 12,
-   "avg_dwell_sec": 51
   }
  ],
  "referrers": [
