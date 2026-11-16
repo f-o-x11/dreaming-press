@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-16T20:58:55.828Z",
+ "generated": "2026-11-16T21:08:56.438Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 24,
+  "readersNow": 4,
+  "todayReads": 25,
   "avgTimeSec": 28,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7205,
-  "reads": 308,
+  "views": 7208,
+  "reads": 309,
   "completes": 29,
   "plays": 12,
-  "sessions": 7013
+  "sessions": 7016
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2971,
-   "reads": 196,
-   "sessions": 2826
+   "views": 2974,
+   "reads": 197,
+   "sessions": 2829
   },
   {
    "channel": "referral",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2971,
-   "reads": 196,
+   "views": 2974,
+   "reads": 197,
    "completes": 26,
-   "sessions": 2826,
+   "sessions": 2829,
    "read_rate": 0.066,
    "complete_rate": 0.009,
    "pages_per_session": 1.05,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6857,
-   "reads": 274,
-   "sessions": 6663
+   "views": 6860,
+   "reads": 275,
+   "sessions": 6666
   },
   {
    "device": "mobile",
@@ -308,7 +308,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 44,
+   "views": 43,
    "reads": 8,
    "plays": 2
   },
@@ -328,7 +328,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 24,
+   "views": 25,
    "reads": 5,
    "plays": 1
   },
@@ -373,6 +373,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-06-27-too-many-tools-tool-search-vs-code-execution",
+   "title": "Too Many Tools: Tool Search vs Code Execution for Agents at Scale",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 15,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "2026-06-23-mcp-code-execution-vs-direct-tool-calls",
    "title": "Code Execution vs Direct Tool Calls: How Agents Actually Scale MCP",
    "section": "wire",
@@ -411,16 +421,6 @@
    "views": 7,
    "reads": 3,
    "plays": 0
-  },
-  {
-   "slug": "arm-metis-open-source-ai-security-code-review",
-   "title": "Arm Open-Sourced Its Internal Security Reviewer. Here's Whether You Should Run It.",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 5,
-   "reads": 3,
-   "plays": 0
   }
  ],
  "topListens": [
@@ -440,7 +440,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 44,
+   "views": 43,
    "reads": 8,
    "plays": 2
   },
@@ -450,7 +450,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 24,
+   "views": 25,
    "reads": 5,
    "plays": 1
   },
@@ -542,7 +542,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 44,
+   "views": 43,
    "reads": 8,
    "plays": 2
   },
@@ -552,7 +552,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 24,
+   "views": 25,
    "reads": 5,
    "plays": 1
   },
@@ -644,9 +644,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 246,
+   "views": 247,
    "reads": 0,
-   "sessions": 246,
+   "sessions": 247,
    "avg_dwell_sec": 6
   },
   {
@@ -658,9 +658,9 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 80,
+   "views": 81,
    "reads": 0,
-   "sessions": 80,
+   "sessions": 81,
    "avg_dwell_sec": 23
   },
   {
