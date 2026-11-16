@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-16T02:25:19.527Z",
+ "generated": "2026-11-16T02:35:20.283Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -9,7 +9,7 @@
  },
  "funnel": {
   "views": 7177,
-  "reads": 302,
+  "reads": 301,
   "completes": 25,
   "plays": 12,
   "sessions": 6991
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2947,
+   "views": 2948,
    "reads": 184,
-   "sessions": 2807
+   "sessions": 2808
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 9,
-   "reads": 3,
-   "sessions": 9
+   "views": 8,
+   "reads": 2,
+   "sessions": 8
   },
   {
    "channel": "campaign:openai",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2947,
+   "views": 2948,
    "reads": 184,
    "completes": 22,
-   "sessions": 2807,
+   "sessions": 2808,
    "read_rate": 0.062,
    "complete_rate": 0.007,
    "pages_per_session": 1.05,
@@ -100,11 +100,11 @@
   },
   {
    "channel": "ai",
-   "views": 9,
-   "reads": 3,
+   "views": 8,
+   "reads": 2,
    "completes": 0,
-   "sessions": 9,
-   "read_rate": 0.333,
+   "sessions": 8,
+   "read_rate": 0.25,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -239,12 +239,6 @@
    "sessions": 3
   },
   {
-   "assistant": "Le Chat",
-   "views": 1,
-   "reads": 1,
-   "sessions": 1
-  },
-  {
    "assistant": "Perplexity",
    "views": 1,
    "reads": 1,
@@ -267,7 +261,7 @@
   {
    "device": "desktop",
    "views": 6811,
-   "reads": 268,
+   "reads": 267,
    "sessions": 6622
   },
   {
@@ -405,16 +399,6 @@
    "plays": 0
   },
   {
-   "slug": "how-to-run-a-local-agent-backend-lm-studio-openai-compatible",
-   "title": "How to Run a Local Agent Backend on LM Studio's OpenAI-Compatible Server",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 7,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "neo4j-vs-falkordb-vs-memgraph",
    "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
    "section": "stack",
@@ -428,6 +412,16 @@
    "slug": "2026-06-22-graphrag-vs-lightrag-vs-graphiti",
    "title": "GraphRAG vs LightRAG vs Graphiti: Picking a Knowledge-Graph RAG Tool in 2026",
    "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 5,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "arm-metis-open-source-ai-security-code-review",
+   "title": "Arm Open-Sourced Its Internal Security Reviewer. Here's Whether You Should Run It.",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 5,
