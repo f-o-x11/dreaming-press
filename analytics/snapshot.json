@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-16T08:56:29.581Z",
+ "generated": "2026-11-16T09:06:30.210Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 7,
   "todayReads": 3,
-  "avgTimeSec": 44,
+  "avgTimeSec": 36,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7185,
-  "reads": 297,
+  "views": 7187,
+  "reads": 296,
   "completes": 26,
   "plays": 12,
-  "sessions": 7000
+  "sessions": 7003
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2957,
-   "reads": 185,
-   "sessions": 2818
+   "views": 2958,
+   "reads": 184,
+   "sessions": 2820
   },
   {
    "channel": "referral",
@@ -47,9 +47,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 4,
+   "views": 5,
    "reads": 0,
-   "sessions": 4
+   "sessions": 5
   },
   {
    "channel": "campaign:producthunt",
@@ -78,11 +78,11 @@
   },
   {
    "channel": "direct",
-   "views": 2957,
-   "reads": 185,
+   "views": 2958,
+   "reads": 184,
    "completes": 23,
-   "sessions": 2818,
-   "read_rate": 0.063,
+   "sessions": 2820,
+   "read_rate": 0.062,
    "complete_rate": 0.008,
    "pages_per_session": 1.05,
    "median_dwell_sec": 10
@@ -122,10 +122,10 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 4,
+   "views": 5,
    "reads": 0,
    "completes": 0,
-   "sessions": 4,
+   "sessions": 5,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -239,13 +239,13 @@
    "sessions": 3
   },
   {
-   "assistant": "Kimi",
-   "views": 4,
+   "assistant": "ChatGPT",
+   "views": 5,
    "reads": 0,
-   "sessions": 4
+   "sessions": 5
   },
   {
-   "assistant": "ChatGPT",
+   "assistant": "Kimi",
    "views": 4,
    "reads": 0,
    "sessions": 4
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6825,
-   "reads": 263,
-   "sessions": 6637
+   "views": 6827,
+   "reads": 262,
+   "sessions": 6640
   },
   {
    "device": "mobile",
@@ -278,7 +278,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 65,
+   "views": 66,
    "reads": 32,
    "plays": 2
   },
@@ -430,7 +430,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 65,
+   "views": 66,
    "reads": 32,
    "plays": 2
   },
@@ -532,7 +532,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 65,
+   "views": 66,
    "reads": 32,
    "plays": 2
   },
@@ -582,7 +582,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 20,
+   "views": 21,
    "reads": 1,
    "plays": 0
   },
