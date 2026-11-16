@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-16T16:57:59.957Z",
+ "generated": "2026-11-16T17:08:02.158Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9688,
+ "verifiedAiHits": 9689,
  "logsScanned": 30,
  "windowStart": "2026-11-02",
  "windowEnd": "2026-11-16",
- "totalHits": 115498,
- "aiHits": 91282,
+ "totalHits": 115526,
+ "aiHits": 91304,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29208,
+   "hits": 29217,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14413,
+   "hits": 14421,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13561,
+   "hits": 13565,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6070,
-   "verifiedHits": 6034,
+   "hits": 6075,
+   "verifiedHits": 6039,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
    "topPaths": [
@@ -509,14 +509,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 833,
-   "verifiedHits": 777,
+   "hits": 834,
+   "verifiedHits": 778,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
    "topPaths": [
     {
      "path": "/",
-     "hits": 539
+     "hits": 540
     },
     {
      "path": "/agents.html",
@@ -542,7 +542,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 464,
+   "hits": 465,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
