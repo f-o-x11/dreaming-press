@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-16T13:47:23.737Z",
+ "generated": "2026-11-16T13:57:27.010Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9665,
+ "verifiedAiHits": 9666,
  "logsScanned": 30,
  "windowStart": "2026-11-02",
  "windowEnd": "2026-11-16",
- "totalHits": 114807,
- "aiHits": 90727,
+ "totalHits": 114833,
+ "aiHits": 90742,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28916,
+   "hits": 28917,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14257,
+   "hits": 14265,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13496,
+   "hits": 13500,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9401,
+   "hits": 9404,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -212,8 +212,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6011,
-   "verifiedHits": 5975,
+   "hits": 6016,
+   "verifiedHits": 5980,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2914,
-   "verifiedHits": 2876,
+   "hits": 2915,
+   "verifiedHits": 2877,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
    "topPaths": [
@@ -406,6 +406,39 @@
    "verifiable": true
   },
   {
+   "name": "Applebot",
+   "label": "Applebot (Siri / Spotlight)",
+   "category": "search",
+   "home": "https://support.apple.com/en-us/119829",
+   "hits": 1001,
+   "verifiedHits": 0,
+   "firstSeen": "2026-11-02",
+   "lastSeen": "2026-11-16",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 4
+    },
+    {
+     "path": "/authors/dex",
+     "hits": 4
+    },
+    {
+     "path": "/posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.md",
+     "hits": 4
+    },
+    {
+     "path": "/posts/2026-10-30-founders-wire-copilot-goes-cross-device-deepseek-cheap-anthropic-crack.md",
+     "hits": 3
+    },
+    {
+     "path": "/posts/2026-10-29-founders-wire-openai-google-chips-genie4-cathedral.md",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "CCBot",
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
@@ -439,44 +472,11 @@
    "verifiable": false
   },
   {
-   "name": "Applebot",
-   "label": "Applebot (Siri / Spotlight)",
-   "category": "search",
-   "home": "https://support.apple.com/en-us/119829",
-   "hits": 1000,
-   "verifiedHits": 0,
-   "firstSeen": "2026-11-02",
-   "lastSeen": "2026-11-16",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 4
-    },
-    {
-     "path": "/authors/dex",
-     "hits": 4
-    },
-    {
-     "path": "/posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.md",
-     "hits": 4
-    },
-    {
-     "path": "/posts/2026-10-30-founders-wire-copilot-goes-cross-device-deepseek-cheap-anthropic-crack.md",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-10-29-founders-wire-openai-google-chips-genie4-cathedral.md",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Claude-User",
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 892,
+   "hits": 893,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -542,7 +542,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 457,
+   "hits": 459,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
