@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-16T07:36:10.445Z",
+ "generated": "2026-11-16T07:46:14.212Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9577,
+ "verifiedAiHits": 9580,
  "logsScanned": 30,
  "windowStart": "2026-11-02",
  "windowEnd": "2026-11-16",
- "totalHits": 113123,
- "aiHits": 89467,
+ "totalHits": 113202,
+ "aiHits": 89544,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28193,
+   "hits": 28250,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -47,7 +47,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 19510,
+   "hits": 19511,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -61,15 +61,15 @@
      "hits": 5
     },
     {
+     "path": "/posts/openai-responses-api-vs-assistants-api-vs-chat-completions.html",
+     "hits": 3
+    },
+    {
      "path": "/posts/deep-agents-v0-7-cut-input-tokens-65-percent-tool-schema-prose.html",
      "hits": 3
     },
     {
      "path": "/posts/the-evals-are-the-product.html",
-     "hits": 3
-    },
-    {
-     "path": "/build",
      "hits": 3
     }
    ],
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13985,
+   "hits": 13993,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -212,8 +212,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5893,
-   "verifiedHits": 5857,
+   "hits": 5895,
+   "verifiedHits": 5859,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3672,
-   "verifiedHits": 3621,
+   "hits": 3674,
+   "verifiedHits": 3623,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
    "topPaths": [
@@ -509,14 +509,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 809,
-   "verifiedHits": 753,
+   "hits": 810,
+   "verifiedHits": 754,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
    "topPaths": [
     {
      "path": "/",
-     "hits": 520
+     "hits": 521
     },
     {
      "path": "/agents.html",
@@ -575,7 +575,7 @@
    "label": "Mistral AI",
    "category": "ai",
    "home": "https://mistral.ai",
-   "hits": 275,
+   "hits": 283,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
