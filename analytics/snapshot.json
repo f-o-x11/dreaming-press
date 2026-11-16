@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-16T06:15:59.386Z",
+ "generated": "2026-11-16T06:25:59.630Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 6,
+  "readersNow": 8,
   "todayReads": 2,
   "avgTimeSec": 44,
   "postsThisWeek": 11
  },
  "funnel": {
   "views": 7188,
-  "reads": 300,
+  "reads": 299,
   "completes": 25,
   "plays": 12,
   "sessions": 7003
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2958,
+   "views": 2959,
    "reads": 184,
-   "sessions": 2819
+   "sessions": 2820
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "ai",
-   "views": 8,
-   "reads": 2,
-   "sessions": 8
+   "views": 7,
+   "reads": 1,
+   "sessions": 7
   },
   {
    "channel": "campaign:openai",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2958,
+   "views": 2959,
    "reads": 184,
    "completes": 22,
-   "sessions": 2819,
+   "sessions": 2820,
    "read_rate": 0.062,
    "complete_rate": 0.007,
    "pages_per_session": 1.05,
@@ -100,11 +100,11 @@
   },
   {
    "channel": "ai",
-   "views": 8,
-   "reads": 2,
+   "views": 7,
+   "reads": 1,
    "completes": 0,
-   "sessions": 8,
-   "read_rate": 0.25,
+   "sessions": 7,
+   "read_rate": 0.143,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -239,12 +239,6 @@
    "sessions": 3
   },
   {
-   "assistant": "Perplexity",
-   "views": 1,
-   "reads": 1,
-   "sessions": 1
-  },
-  {
    "assistant": "Kimi",
    "views": 4,
    "reads": 0,
@@ -260,15 +254,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6824,
-   "reads": 266,
-   "sessions": 6636
+   "views": 6825,
+   "reads": 265,
+   "sessions": 6637
   },
   {
    "device": "mobile",
-   "views": 357,
+   "views": 356,
    "reads": 30,
-   "sessions": 364
+   "sessions": 363
   },
   {
    "device": "tablet",
@@ -329,16 +323,6 @@
    "plays": 1
   },
   {
-   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
-   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 16,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
    "title": "The Founder's Wire, November 5: Coding Agents Get Cheaper, Agent Security Gets Bought, and AMD Bets $11B on Cheaper Inference",
    "section": "wire",
@@ -363,6 +347,16 @@
    "title": "Code Execution vs Direct Tool Calls: How Agents Actually Scale MCP",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 15,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
+   "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 15,
    "reads": 3,
