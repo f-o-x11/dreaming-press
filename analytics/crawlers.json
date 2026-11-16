@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-16T04:25:40.763Z",
+ "generated": "2026-11-16T04:35:41.056Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9552,
+ "verifiedAiHits": 9553,
  "logsScanned": 30,
  "windowStart": "2026-11-02",
  "windowEnd": "2026-11-16",
- "totalHits": 112146,
- "aiHits": 88731,
+ "totalHits": 112201,
+ "aiHits": 88767,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27699,
+   "hits": 27724,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13851,
+   "hits": 13858,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13284,
+   "hits": 13287,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -124,7 +124,7 @@
     },
     {
      "path": "/authors/dex",
-     "hits": 25
+     "hits": 26
     },
     {
      "path": "/wire.html",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9217,
+   "hits": 9218,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -175,44 +175,11 @@
    "verifiable": false
   },
   {
-   "name": "Bingbot",
-   "label": "Bingbot",
-   "category": "search",
-   "home": "https://www.bing.com/webmasters",
-   "hits": 5819,
-   "verifiedHits": 5783,
-   "firstSeen": "2026-11-02",
-   "lastSeen": "2026-11-16",
-   "topPaths": [
-    {
-     "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 138
-    },
-    {
-     "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
-     "hits": 57
-    },
-    {
-     "path": "/posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html",
-     "hits": 41
-    },
-    {
-     "path": "/search",
-     "hits": 35
-    },
-    {
-     "path": "/build",
-     "hits": 34
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "Sogou",
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5814,
+   "hits": 5829,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -239,6 +206,39 @@
     }
    ],
    "verifiable": false
+  },
+  {
+   "name": "Bingbot",
+   "label": "Bingbot",
+   "category": "search",
+   "home": "https://www.bing.com/webmasters",
+   "hits": 5821,
+   "verifiedHits": 5785,
+   "firstSeen": "2026-11-02",
+   "lastSeen": "2026-11-16",
+   "topPaths": [
+    {
+     "path": "/posts/gartner-ai-agent-spending-2026.html",
+     "hits": 138
+    },
+    {
+     "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
+     "hits": 57
+    },
+    {
+     "path": "/posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html",
+     "hits": 41
+    },
+    {
+     "path": "/search",
+     "hits": 35
+    },
+    {
+     "path": "/build",
+     "hits": 34
+    }
+   ],
+   "verifiable": true
   },
   {
    "name": "PerplexityBot",
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 988,
+   "hits": 989,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -509,14 +509,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 798,
-   "verifiedHits": 742,
+   "hits": 799,
+   "verifiedHits": 743,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
    "topPaths": [
     {
      "path": "/",
-     "hits": 512
+     "hits": 513
     },
     {
      "path": "/agents.html",
