@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-16T19:08:31.369Z",
+ "generated": "2026-11-16T19:18:35.466Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 15,
-  "avgTimeSec": 29,
+  "readersNow": 8,
+  "todayReads": 17,
+  "avgTimeSec": 27,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 7184,
-  "reads": 300,
+  "views": 7193,
+  "reads": 302,
   "completes": 27,
   "plays": 12,
-  "sessions": 6997
+  "sessions": 7004
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2950,
-   "reads": 187,
-   "sessions": 2809
+   "views": 2958,
+   "reads": 189,
+   "sessions": 2816
   },
   {
    "channel": "referral",
-   "views": 4083,
+   "views": 4084,
    "reads": 56,
-   "sessions": 4085
+   "sessions": 4086
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 4083,
+   "views": 4084,
    "reads": 56,
    "completes": 0,
-   "sessions": 4085,
+   "sessions": 4086,
    "read_rate": 0.014,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "direct",
-   "views": 2950,
-   "reads": 187,
+   "views": 2958,
+   "reads": 189,
    "completes": 24,
-   "sessions": 2809,
-   "read_rate": 0.063,
+   "sessions": 2816,
+   "read_rate": 0.064,
    "complete_rate": 0.008,
    "pages_per_session": 1.05,
    "median_dwell_sec": 10
@@ -254,15 +254,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6837,
-   "reads": 267,
-   "sessions": 6647
+   "views": 6845,
+   "reads": 269,
+   "sessions": 6653
   },
   {
    "device": "mobile",
-   "views": 340,
+   "views": 341,
    "reads": 29,
-   "sessions": 347
+   "sessions": 348
   },
   {
    "device": "tablet",
@@ -313,6 +313,16 @@
    "plays": 0
   },
   {
+   "slug": "openai-responses-api-state-previous-response-id-vs-conversations-api",
+   "title": "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 13,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "best-llm-for-creative-writing-october-2026",
    "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
    "section": "stack",
@@ -321,16 +331,6 @@
    "views": 24,
    "reads": 5,
    "plays": 1
-  },
-  {
-   "slug": "openai-responses-api-state-previous-response-id-vs-conversations-api",
-   "title": "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 9,
-   "reads": 5,
-   "plays": 0
   },
   {
    "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
@@ -383,6 +383,16 @@
    "plays": 0
   },
   {
+   "slug": "responses-api-multi-vendor-deepseek-what-to-build-against",
+   "title": "The Responses API Just Went Multi-Vendor: DeepSeek Speaks It Too — So What Do You Build Your Agent Against?",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 10,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "manual-loop-vs-tool-runner-vs-managed-agents-claude",
    "title": "Manual Loop vs Tool Runner vs Managed Agents: Which Way to Build Your Claude Agent",
    "section": "stack",
@@ -409,16 +419,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 5,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "tool-highlight-qoder-security-in-session-code-security",
-   "title": "Tool Highlight: Qoder Security Puts Three Security Layers Inside the AI Coding Session",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 4,
    "reads": 3,
    "plays": 0
   }
@@ -692,6 +692,13 @@
    "avg_dwell_sec": 47
   },
   {
+   "path": "/authors/dex",
+   "views": 17,
+   "reads": 0,
+   "sessions": 17,
+   "avg_dwell_sec": 15
+  },
+  {
    "path": "/stack.html",
    "views": 17,
    "reads": 0,
@@ -699,17 +706,10 @@
    "avg_dwell_sec": 9
   },
   {
-   "path": "/authors/dex",
-   "views": 16,
-   "reads": 0,
-   "sessions": 16,
-   "avg_dwell_sec": 15
-  },
-  {
    "path": "/dashboard",
-   "views": 14,
+   "views": 15,
    "reads": 0,
-   "sessions": 12,
+   "sessions": 13,
    "avg_dwell_sec": 14
   },
   {
