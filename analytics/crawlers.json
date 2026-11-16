@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-16T00:04:46.296Z",
+ "generated": "2026-11-16T00:14:48.784Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 9513,
  "logsScanned": 30,
  "windowStart": "2026-11-02",
  "windowEnd": "2026-11-16",
- "totalHits": 110479,
- "aiHits": 87762,
+ "totalHits": 110574,
+ "aiHits": 87821,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,10 +14,10 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27185,
+   "hits": 27195,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
-   "lastSeen": "2026-11-15",
+   "lastSeen": "2026-11-16",
    "topPaths": [
     {
      "path": "/build",
@@ -47,10 +47,10 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 19505,
+   "hits": 19506,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
-   "lastSeen": "2026-11-15",
+   "lastSeen": "2026-11-16",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13657,
+   "hits": 13664,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -113,10 +113,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 13217,
+   "hits": 13219,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
-   "lastSeen": "2026-11-15",
+   "lastSeen": "2026-11-16",
    "topPaths": [
     {
      "path": "/build",
@@ -146,14 +146,14 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9155,
+   "hits": 9156,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
-   "lastSeen": "2026-11-15",
+   "lastSeen": "2026-11-16",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 75
+     "hits": 76
     },
     {
      "path": "/tags/opinionated",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5730,
-   "verifiedHits": 5694,
+   "hits": 5732,
+   "verifiedHits": 5696,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5287,
+   "hits": 5319,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -344,7 +344,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2053,
+   "hits": 2083,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
    "lastSeen": "2026-11-16",
@@ -443,10 +443,10 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 981,
+   "hits": 982,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
-   "lastSeen": "2026-11-15",
+   "lastSeen": "2026-11-16",
    "topPaths": [
     {
      "path": "/build",
@@ -476,10 +476,10 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 862,
+   "hits": 863,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
-   "lastSeen": "2026-11-15",
+   "lastSeen": "2026-11-16",
    "topPaths": [
     {
      "path": "/posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html",
@@ -575,10 +575,10 @@
    "label": "Mistral AI",
    "category": "ai",
    "home": "https://mistral.ai",
-   "hits": 267,
+   "hits": 275,
    "verifiedHits": 0,
    "firstSeen": "2026-11-02",
-   "lastSeen": "2026-11-15",
+   "lastSeen": "2026-11-16",
    "topPaths": [
     {
      "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
@@ -597,7 +597,7 @@
      "hits": 4
     },
     {
-     "path": "/posts/2026-11-15-founders-wire-new-york-raise-act-final-adobe-mcp-anthropic-ipo-week.html",
+     "path": "/posts/lora-vs-full-fine-tuning-cost-november-2026.html",
      "hits": 2
     }
    ],
