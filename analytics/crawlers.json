@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-17T18:52:16.123Z",
+ "generated": "2026-11-17T19:02:17.523Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9635,
+ "verifiedAiHits": 10021,
  "logsScanned": 30,
  "windowStart": "2026-11-03",
  "windowEnd": "2026-11-17",
- "totalHits": 115367,
- "aiHits": 90855,
+ "totalHits": 115788,
+ "aiHits": 91269,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29505,
+   "hits": 29525,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14503,
+   "hits": 14511,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6046,
-   "verifiedHits": 6009,
+   "hits": 6050,
+   "verifiedHits": 6013,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
    "topPaths": [
@@ -274,12 +274,45 @@
    "verifiable": true
   },
   {
+   "name": "GPTBot",
+   "label": "GPTBot (OpenAI)",
+   "category": "ai",
+   "home": "https://openai.com/gptbot",
+   "hits": 2883,
+   "verifiedHits": 2850,
+   "firstSeen": "2026-11-03",
+   "lastSeen": "2026-11-17",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 45
+    },
+    {
+     "path": "/authors/rosalinda",
+     "hits": 5
+    },
+    {
+     "path": "/posts/helicone-maintenance-mode-mintlify-migration-map.md",
+     "hits": 3
+    },
+    {
+     "path": "/posts/horizontal-agent-platform-vs-vertical-ai-app-where-to-build-2026.md",
+     "hits": 3
+    },
+    {
+     "path": "/posts/2026-06-22-graphrag-vs-lightrag-vs-graphiti.md",
+     "hits": 3
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "OAI-SearchBot",
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2841,
-   "verifiedHits": 2801,
+   "hits": 2844,
+   "verifiedHits": 2804,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
    "topPaths": [
@@ -302,39 +335,6 @@
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
      "hits": 30
-    }
-   ],
-   "verifiable": true
-  },
-  {
-   "name": "GPTBot",
-   "label": "GPTBot (OpenAI)",
-   "category": "ai",
-   "home": "https://openai.com/gptbot",
-   "hits": 2500,
-   "verifiedHits": 2467,
-   "firstSeen": "2026-11-03",
-   "lastSeen": "2026-11-17",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 44
-    },
-    {
-     "path": "/authors/rosalinda",
-     "hits": 5
-    },
-    {
-     "path": "/posts/helicone-maintenance-mode-mintlify-migration-map.md",
-     "hits": 3
-    },
-    {
-     "path": "/posts/horizontal-agent-platform-vs-vertical-ai-app-where-to-build-2026.md",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-06-22-graphrag-vs-lightrag-vs-graphiti.md",
-     "hits": 3
     }
    ],
    "verifiable": true
@@ -410,8 +410,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1127,
-   "verifiedHits": 606,
+   "hits": 1129,
+   "verifiedHits": 608,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1028,
+   "hits": 1029,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
