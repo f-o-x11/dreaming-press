@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-17T02:09:58.902Z",
+ "generated": "2026-11-17T02:19:59.958Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9356,
+ "verifiedAiHits": 9357,
  "logsScanned": 30,
  "windowStart": "2026-11-03",
  "windowEnd": "2026-11-17",
- "totalHits": 110348,
- "aiHits": 87122,
+ "totalHits": 110385,
+ "aiHits": 87147,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27688,
+   "hits": 27697,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13758,
+   "hits": 13765,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9237,
+   "hits": 9244,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5741,
-   "verifiedHits": 5707,
+   "hits": 5742,
+   "verifiedHits": 5708,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5629,
+   "hits": 5631,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2735,
-   "verifiedHits": 2698,
+   "hits": 2736,
+   "verifiedHits": 2699,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
    "topPaths": [
@@ -542,7 +542,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 477,
+   "hits": 479,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-17",
@@ -564,7 +564,7 @@
      "hits": 2
     },
     {
-     "path": "/alternatives/replit-agent",
+     "path": "/stack/orb",
      "hits": 2
     }
    ],
@@ -575,14 +575,14 @@
    "label": "Mistral AI",
    "category": "ai",
    "home": "https://mistral.ai",
-   "hits": 222,
+   "hits": 230,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "topPaths": [
     {
      "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
-     "hits": 13
+     "hits": 15
     },
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
