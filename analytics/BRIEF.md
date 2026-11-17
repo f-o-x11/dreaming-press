@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-17T22:42Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-17T22:53Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -147,12 +147,12 @@ search intent, so put the answer in the first screen and use the phrasing in the
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 10239 confirmed AI-engine fetches (Perplexity 3637, GPTBot (OpenAI) 2990, ChatGPT Search (OpenAI) 2822, ChatGPT (user browsing) 790).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 365 crawler fetches
+- /build  — 366 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 142 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 80 crawler fetches
 - /posts/cheapest-gpu-rental-november-2026.html  — 73 crawler fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 58 crawler fetches
-- /posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html  — 55 crawler fetches
+- /posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html  — 56 crawler fetches
 - /posts/gpu-rental-price-october-2026.html  — 54 crawler fetches
 - /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 47 crawler fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 42 crawler fetches
