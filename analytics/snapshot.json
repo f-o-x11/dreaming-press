@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-17T03:10:08.301Z",
+ "generated": "2026-11-17T03:20:08.464Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 5,
   "todayReads": 1,
   "avgTimeSec": 10,
   "postsThisWeek": 9
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2962,
+   "views": 2963,
    "reads": 195,
-   "sessions": 2824
+   "sessions": 2825
   },
   {
    "channel": "referral",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "campaign:openai",
-   "views": 5,
+   "views": 4,
    "reads": 1,
-   "sessions": 6
+   "sessions": 5
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2962,
+   "views": 2963,
    "reads": 195,
    "completes": 26,
-   "sessions": 2824,
+   "sessions": 2825,
    "read_rate": 0.066,
    "complete_rate": 0.009,
    "pages_per_session": 1.05,
@@ -110,17 +110,6 @@
    "median_dwell_sec": null
   },
   {
-   "channel": "campaign:openai",
-   "views": 5,
-   "reads": 1,
-   "completes": 0,
-   "sessions": 6,
-   "read_rate": 0.2,
-   "complete_rate": 0,
-   "pages_per_session": 0.83,
-   "median_dwell_sec": null
-  },
-  {
    "channel": "campaign:chatgpt.com",
    "views": 5,
    "reads": 0,
@@ -129,6 +118,17 @@
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 1,
+   "median_dwell_sec": null
+  },
+  {
+   "channel": "campaign:openai",
+   "views": 4,
+   "reads": 1,
+   "completes": 0,
+   "sessions": 5,
+   "read_rate": 0.25,
+   "complete_rate": 0,
+   "pages_per_session": 0.8,
    "median_dwell_sec": null
   },
   {
@@ -288,7 +288,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 22,
+   "views": 21,
    "reads": 10,
    "plays": 0
   },
@@ -318,7 +318,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 28,
+   "views": 27,
    "reads": 6,
    "plays": 1
   },
@@ -388,7 +388,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 14,
+   "views": 13,
    "reads": 3,
    "plays": 0
   },
@@ -440,7 +440,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 28,
+   "views": 27,
    "reads": 6,
    "plays": 1
   },
@@ -542,7 +542,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 28,
+   "views": 27,
    "reads": 6,
    "plays": 1
   },
@@ -562,7 +562,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 22,
+   "views": 21,
    "reads": 10,
    "plays": 0
   },
@@ -672,9 +672,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 44,
+   "views": 45,
    "reads": 0,
-   "sessions": 44,
+   "sessions": 45,
    "avg_dwell_sec": null
   },
   {
