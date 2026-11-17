@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-17T23:23:04.299Z",
+ "generated": "2026-11-17T23:33:08.535Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 20,
   "avgTimeSec": 33,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 7250,
-  "reads": 303,
-  "completes": 33,
+  "views": 7248,
+  "reads": 300,
+  "completes": 31,
   "plays": 9,
-  "sessions": 7087
+  "sessions": 7086
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3015,
-   "reads": 194,
-   "sessions": 2896
+   "views": 3013,
+   "reads": 191,
+   "sessions": 2895
   },
   {
    "channel": "referral",
@@ -78,12 +78,12 @@
   },
   {
    "channel": "direct",
-   "views": 3015,
-   "reads": 194,
-   "completes": 30,
-   "sessions": 2896,
-   "read_rate": 0.064,
-   "complete_rate": 0.01,
+   "views": 3013,
+   "reads": 191,
+   "completes": 28,
+   "sessions": 2895,
+   "read_rate": 0.063,
+   "complete_rate": 0.009,
    "pages_per_session": 1.04,
    "median_dwell_sec": 10
   },
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6910,
-   "reads": 269,
-   "sessions": 6744
+   "views": 6908,
+   "reads": 266,
+   "sessions": 6743
   },
   {
    "device": "mobile",
@@ -298,17 +298,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 19,
-   "reads": 8,
-   "plays": 0
-  },
-  {
-   "slug": "gpu-rental-price-october-2026",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 13,
+   "views": 17,
    "reads": 6,
    "plays": 0
   },
@@ -329,6 +319,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 14,
+   "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "gpu-rental-price-october-2026",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 12,
    "reads": 5,
    "plays": 0
   },
@@ -520,8 +520,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 19,
-   "reads": 8,
+   "views": 17,
+   "reads": 6,
    "plays": 0
   }
  ],
@@ -602,8 +602,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 19,
-   "reads": 8,
+   "views": 17,
+   "reads": 6,
    "plays": 0
   },
   {
