@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;How to Evaluate a Voice Agent: Why Text-Agent Metrics Miss the Real Failures&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1424"/>
+      <stop offset="1" stop-color="#04101d"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#2f6df0" opacity="0.07" text-anchor="middle"
+        transform="rotate(-2.7 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><polygon points="0,0 1200,45 1200,146 0,101" fill="#4187f3" opacity="0.25"/>
+<polygon points="0,71 1200,13 1200,158 0,216" fill="#4993f5" opacity="0.30"/>
+<polygon points="0,172 1200,137 1200,266 0,301" fill="#5eb1f9" opacity="0.23"/>
+<polygon points="0,263 1200,266 1200,403 0,400" fill="#7cdbfe" opacity="0.44"/>
+<polygon points="0,359 1200,320 1200,473 0,511" fill="#66bcfa" opacity="0.46"/>
+<polygon points="0,465 1200,496 1200,615 0,584" fill="#3e83f3" opacity="0.13"/>
+<polygon points="0,548 1200,559 1200,654 0,643" fill="#509cf6" opacity="0.44"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e6f0ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#2f6df0" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e6f0ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e6f0ff" opacity="0.5">№ 480</text>
+</svg>

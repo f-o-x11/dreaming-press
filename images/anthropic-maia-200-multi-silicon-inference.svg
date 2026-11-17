@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;Anthropic Wants Claude on Microsoft's Maia 200 — Which Would Make It the Fourth Chip Running Inference&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1424"/>
+      <stop offset="1" stop-color="#04101d"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#2f6df0" opacity="0.07" text-anchor="middle"
+        transform="rotate(-2.7 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><polygon points="0,0 1200,-16 1200,39 0,55" fill="#5fb2f9" opacity="0.35"/>
+<polygon points="0,39 1200,8 1200,83 0,113" fill="#3576f1" opacity="0.48"/>
+<polygon points="0,91 1200,87 1200,149 0,153" fill="#61b5f9" opacity="0.14"/>
+<polygon points="0,134 1200,158 1200,207 0,183" fill="#3a7cf2" opacity="0.46"/>
+<polygon points="0,169 1200,142 1200,227 0,253" fill="#387af2" opacity="0.15"/>
+<polygon points="0,228 1200,268 1200,348 0,309" fill="#60b4f9" opacity="0.14"/>
+<polygon points="0,285 1200,260 1200,314 0,339" fill="#6fc9fc" opacity="0.27"/>
+<polygon points="0,323 1200,370 1200,415 0,367" fill="#3171f0" opacity="0.17"/>
+<polygon points="0,354 1200,335 1200,411 0,430" fill="#4d98f6" opacity="0.40"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e6f0ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#2f6df0" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e6f0ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e6f0ff" opacity="0.5">№ 274</text>
+</svg>

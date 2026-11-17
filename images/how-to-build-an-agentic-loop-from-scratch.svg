@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;How to Build an Agentic Loop From Scratch (No Framework)&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06140d"/>
+      <stop offset="1" stop-color="#0a2417"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#38c47e" opacity="0.07" text-anchor="middle"
+        transform="rotate(-1.5 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><circle cx="55" cy="50" r="32" fill="#38c47e" opacity="0.56"/>
+<rect x="17" y="113" width="74" height="74" fill="#38c47e" opacity="0.65"/>
+<circle cx="55" cy="250" r="42" fill="#38c47e" opacity="0.72"/>
+<circle cx="55" cy="350" r="45" fill="#38c47e" opacity="0.76"/>
+<circle cx="55" cy="450" r="43" fill="#38c47e" opacity="0.73"/>
+<circle cx="55" cy="550" r="38" fill="#38c47e" opacity="0.66"/>
+<circle cx="55" cy="650" r="33" fill="#38c47e" opacity="0.58"/>
+<circle cx="55" cy="750" r="28" fill="#38c47e" opacity="0.50"/>
+<circle cx="164" cy="50" r="33" fill="#44c97e" opacity="0.58"/>
+<circle cx="164" cy="150" r="38" fill="#44c97e" opacity="0.66"/>
+<rect x="120" y="206" width="88" height="88" fill="#44c97e" opacity="0.75"/>
+<circle cx="164" cy="350" r="49" fill="#44c97e" opacity="0.84"/>
+<circle cx="164" cy="450" r="45" fill="#44c97e" opacity="0.77"/>
+<rect x="124" y="510" width="80" height="80" fill="#44c97e" opacity="0.69"/>
+<circle cx="164" cy="650" r="34" fill="#44c97e" opacity="0.60"/>
+<rect x="135" y="721" width="58" height="58" fill="#44c97e" opacity="0.51"/>
+<rect x="241" y="18" width="64" height="64" fill="#4fcf7d" opacity="0.56"/>
+<circle cx="273" cy="150" r="37" fill="#4fcf7d" opacity="0.64"/>
+<rect x="231" y="208" width="83" height="83" fill="#4fcf7d" opacity="0.72"/>
+<circle cx="273" cy="350" r="44" fill="#4fcf7d" opacity="0.76"/>
+<circle cx="273" cy="450" r="43" fill="#4fcf7d" opacity="0.73"/>
+<circle cx="273" cy="550" r="38" fill="#4fcf7d" opacity="0.66"/>
+<circle cx="273" cy="650" r="33" fill="#4fcf7d" opacity="0.58"/>
+<rect x="245" y="722" width="56" height="56" fill="#4fcf7d" opacity="0.50"/>
+<circle cx="382" cy="50" r="30" fill="#5bd47d" opacity="0.53"/>
+<circle cx="382" cy="150" r="34" fill="#5bd47d" opacity="0.59"/>
+<rect x="344" y="213" width="75" height="75" fill="#5bd47d" opacity="0.65"/>
+<rect x="343" y="311" width="78" height="78" fill="#5bd47d" opacity="0.67"/>
+<rect x="344" y="412" width="76" height="76" fill="#5bd47d" opacity="0.66"/>
+<rect x="347" y="515" width="70" height="70" fill="#5bd47d" opacity="0.61"/>
+<rect x="351" y="619" width="62" height="62" fill="#5bd47d" opacity="0.54"/>
+<circle cx="382" cy="750" r="26" fill="#5bd47d" opacity="0.47"/>
+<circle cx="491" cy="50" r="26" fill="#67d97d" opacity="0.47"/>
+<circle cx="491" cy="150" r="30" fill="#67d97d" opacity="0.53"/>
+<circle cx="491" cy="250" r="32" fill="#67d97d" opacity="0.57"/>
+<circle cx="491" cy="350" r="34" fill="#67d97d" opacity="0.59"/>
+<rect x="458" y="417" width="66" height="66" fill="#67d97d" opacity="0.58"/>
+<circle cx="491" cy="550" r="31" fill="#67d97d" opacity="0.54"/>
+<circle cx="491" cy="650" r="27" fill="#67d97d" opacity="0.49"/>
+<circle cx="491" cy="750" r="23" fill="#67d97d" opacity="0.42"/>
+<circle cx="600" cy="50" r="22" fill="#72df7c" opacity="0.41"/>
+<circle cx="600" cy="150" r="25" fill="#72df7c" opacity="0.45"/>
+<circle cx="600" cy="250" r="27" fill="#72df7c" opacity="0.49"/>
+<circle cx="600" cy="350" r="28" fill="#72df7c" opacity="0.50"/>
+<circle cx="600" cy="450" r="28" fill="#72df7c" opacity="0.49"/>
+<circle cx="600" cy="550" r="26" fill="#72df7c" opacity="0.46"/>
+<rect x="577" y="627" width="46" height="46" fill="#72df7c" opacity="0.42"/>
+<circle cx="600" cy="750" r="20" fill="#72df7c" opacity="0.36"/>
+<circle cx="709" cy="50" r="18" fill="#7ee47c" opacity="0.33"/>
+<circle cx="709" cy="150" r="20" fill="#7ee47c" opacity="0.37"/>
+<circle cx="709" cy="250" r="22" fill="#7ee47c" opacity="0.40"/>
+<circle cx="709" cy="350" r="23" fill="#7ee47c" opacity="0.41"/>
+<circle cx="709" cy="450" r="22" fill="#7ee47c" opacity="0.41"/>
+<rect x="688" y="529" width="42" height="42" fill="#7ee47c" opacity="0.38"/>
+<circle cx="709" cy="650" r="18" fill="#7ee47c" opacity="0.35"/>
+<circle cx="709" cy="750" r="15" fill="#7ee47c" opacity="0.30"/>
+<rect x="803" y="135" width="30" height="30" fill="#89ea7b" opacity="0.29"/>
+<rect x="802" y="233" width="33" height="33" fill="#89ea7b" opacity="0.32"/>
+<rect x="801" y="333" width="34" height="34" fill="#89ea7b" opacity="0.33"/>
+<circle cx="818" cy="450" r="17" fill="#89ea7b" opacity="0.32"/>
+<circle cx="818" cy="550" r="16" fill="#89ea7b" opacity="0.30"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e9ffef" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#38c47e" font-weight="600">THE STACK</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e9ffef" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e9ffef" opacity="0.5">№ 236</text>
+</svg>

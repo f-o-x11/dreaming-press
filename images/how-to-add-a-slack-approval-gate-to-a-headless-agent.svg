@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;How to Put a Slack Approve/Deny Gate in Front of Your Agent's Riskiest Tool Call&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06140d"/>
+      <stop offset="1" stop-color="#0a2417"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#38c47e" opacity="0.07" text-anchor="middle"
+        transform="rotate(1.7 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><line x1="504" y1="475" x2="649" y2="721" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="504" y1="475" x2="632" y2="326" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="504" y1="475" x2="835" y2="333" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="504" y1="475" x2="356" y2="629" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="504" y1="475" x2="957" y2="454" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="894" y1="703" x2="649" y2="721" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="894" y1="703" x2="632" y2="326" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="894" y1="703" x2="356" y2="629" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="894" y1="703" x2="957" y2="454" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="602" y1="691" x2="835" y2="333" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="602" y1="691" x2="795" y2="468" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="910" y1="362" x2="632" y2="326" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="910" y1="362" x2="874" y2="305" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="910" y1="362" x2="957" y2="454" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="649" y1="721" x2="632" y2="326" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="632" y1="326" x2="874" y2="305" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="874" y1="305" x2="356" y2="629" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="835" y1="333" x2="957" y2="454" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="795" y1="468" x2="356" y2="629" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<circle cx="504" cy="475" r="19" fill="#b8ff7a" opacity="0.9"/>
+<circle cx="504" cy="475" r="27" fill="none" stroke="#b8ff7a" stroke-width="1" opacity="0.25"/>
+<circle cx="894" cy="703" r="15" fill="#38c47e" opacity="0.9"/>
+<circle cx="894" cy="703" r="23" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="602" cy="691" r="13" fill="#38c47e" opacity="0.9"/>
+<circle cx="602" cy="691" r="21" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="910" cy="362" r="29" fill="#b8ff7a" opacity="0.9"/>
+<circle cx="910" cy="362" r="37" fill="none" stroke="#b8ff7a" stroke-width="1" opacity="0.25"/>
+<circle cx="649" cy="721" r="25" fill="#38c47e" opacity="0.9"/>
+<circle cx="649" cy="721" r="33" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="632" cy="326" r="28" fill="#38c47e" opacity="0.9"/>
+<circle cx="632" cy="326" r="36" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="874" cy="305" r="26" fill="#b8ff7a" opacity="0.9"/>
+<circle cx="874" cy="305" r="34" fill="none" stroke="#b8ff7a" stroke-width="1" opacity="0.25"/>
+<circle cx="835" cy="333" r="14" fill="#38c47e" opacity="0.9"/>
+<circle cx="835" cy="333" r="22" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="795" cy="468" r="31" fill="#b8ff7a" opacity="0.9"/>
+<circle cx="795" cy="468" r="39" fill="none" stroke="#b8ff7a" stroke-width="1" opacity="0.25"/>
+<circle cx="356" cy="629" r="23" fill="#b8ff7a" opacity="0.9"/>
+<circle cx="356" cy="629" r="31" fill="none" stroke="#b8ff7a" stroke-width="1" opacity="0.25"/>
+<circle cx="957" cy="454" r="19" fill="#38c47e" opacity="0.9"/>
+<circle cx="957" cy="454" r="27" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e9ffef" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#38c47e" font-weight="600">THE STACK</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e9ffef" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e9ffef" opacity="0.5">№ 127</text>
+</svg>

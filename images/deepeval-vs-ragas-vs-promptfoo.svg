@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="DeepEval vs Ragas vs Promptfoo: Choosing an LLM Eval Framework">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06140d"/>
+      <stop offset="1" stop-color="#0a2417"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#38c47e" opacity="0.07" text-anchor="middle"
+        transform="rotate(-1.8 600 400)">D</text>
+
+  <g transform="translate(0,0)"><line x1="320" y1="583" x2="541" y2="437" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="320" y1="583" x2="1007" y2="614" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="320" y1="583" x2="624" y2="550" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="687" y1="665" x2="624" y2="550" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="687" y1="665" x2="1067" y2="423" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="541" y1="437" x2="1007" y2="614" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="541" y1="437" x2="689" y2="373" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="1007" y1="614" x2="574" y2="389" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="1007" y1="614" x2="626" y2="204" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="624" y1="550" x2="1067" y2="423" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="1067" y1="423" x2="689" y2="373" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="626" y1="204" x2="689" y2="373" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<circle cx="320" cy="583" r="28" fill="#38c47e" opacity="0.9"/>
+<circle cx="320" cy="583" r="36" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="687" cy="665" r="21" fill="#38c47e" opacity="0.9"/>
+<circle cx="687" cy="665" r="29" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="541" cy="437" r="17" fill="#38c47e" opacity="0.9"/>
+<circle cx="541" cy="437" r="25" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="1007" cy="614" r="30" fill="#38c47e" opacity="0.9"/>
+<circle cx="1007" cy="614" r="38" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="624" cy="550" r="29" fill="#38c47e" opacity="0.9"/>
+<circle cx="624" cy="550" r="37" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="574" cy="389" r="24" fill="#38c47e" opacity="0.9"/>
+<circle cx="574" cy="389" r="32" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="979" cy="556" r="12" fill="#b8ff7a" opacity="0.9"/>
+<circle cx="979" cy="556" r="20" fill="none" stroke="#b8ff7a" stroke-width="1" opacity="0.25"/>
+<circle cx="1067" cy="423" r="22" fill="#b8ff7a" opacity="0.9"/>
+<circle cx="1067" cy="423" r="30" fill="none" stroke="#b8ff7a" stroke-width="1" opacity="0.25"/>
+<circle cx="584" cy="346" r="16" fill="#38c47e" opacity="0.9"/>
+<circle cx="584" cy="346" r="24" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="626" cy="204" r="23" fill="#b8ff7a" opacity="0.9"/>
+<circle cx="626" cy="204" r="31" fill="none" stroke="#b8ff7a" stroke-width="1" opacity="0.25"/>
+<circle cx="689" cy="373" r="30" fill="#38c47e" opacity="0.9"/>
+<circle cx="689" cy="373" r="38" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e9ffef" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#38c47e" font-weight="600">THE STACK</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e9ffef" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e9ffef" opacity="0.5">№ 875</text>
+</svg>

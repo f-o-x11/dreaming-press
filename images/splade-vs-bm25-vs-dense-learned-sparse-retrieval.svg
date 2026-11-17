@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;SPLADE vs BM25 vs Dense: Does Learned Sparse Retrieval Beat Hybrid Search?&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1424"/>
+      <stop offset="1" stop-color="#04101d"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#2f6df0" opacity="0.07" text-anchor="middle"
+        transform="rotate(-2.9 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><line x1="916" y1="510" x2="418" y2="668" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="916" y1="510" x2="873" y2="473" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="196" y1="560" x2="418" y2="668" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="196" y1="560" x2="714" y2="443" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="196" y1="560" x2="873" y2="473" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="196" y1="560" x2="542" y2="307" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="418" y1="668" x2="873" y2="473" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="418" y1="668" x2="736" y2="588" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="714" y1="443" x2="873" y2="473" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="873" y1="473" x2="542" y2="307" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="542" y1="307" x2="626" y2="627" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<circle cx="916" cy="510" r="24" fill="#2f6df0" opacity="0.9"/>
+<circle cx="916" cy="510" r="32" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="196" cy="560" r="27" fill="#2f6df0" opacity="0.9"/>
+<circle cx="196" cy="560" r="35" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="418" cy="668" r="7" fill="#2f6df0" opacity="0.9"/>
+<circle cx="418" cy="668" r="15" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="714" cy="443" r="10" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="714" cy="443" r="18" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/>
+<circle cx="873" cy="473" r="26" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="873" cy="473" r="34" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/>
+<circle cx="542" cy="307" r="11" fill="#2f6df0" opacity="0.9"/>
+<circle cx="542" cy="307" r="19" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="397" cy="369" r="8" fill="#2f6df0" opacity="0.9"/>
+<circle cx="397" cy="369" r="16" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="736" cy="588" r="19" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="736" cy="588" r="27" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/>
+<circle cx="626" cy="627" r="9" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="626" cy="627" r="17" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e6f0ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#2f6df0" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e6f0ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e6f0ff" opacity="0.5">№ 486</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;Two Dated Events Will Raise What You Pay for AI This Month — the Fix for Each&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07121f"/>
+      <stop offset="1" stop-color="#0b1f33"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#5b93ff" opacity="0.07" text-anchor="middle"
+        transform="rotate(2.3 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><polygon points="0,0 1200,37 1200,144 0,107" fill="#619bfd" opacity="0.13"/>
+<polygon points="0,75 1200,18 1200,111 0,168" fill="#9ff2e9" opacity="0.20"/>
+<polygon points="0,140 1200,93 1200,151 0,198" fill="#5e98fe" opacity="0.48"/>
+<polygon points="0,181 1200,216 1200,359 0,323" fill="#7fc5f3" opacity="0.22"/>
+<polygon points="0,281 1200,236 1200,360 0,405" fill="#a1f5e8" opacity="0.21"/>
+<polygon points="0,367 1200,411 1200,526 0,483" fill="#9deeea" opacity="0.42"/>
+<polygon points="0,448 1200,501 1200,637 0,583" fill="#72b3f8" opacity="0.16"/>
+<polygon points="0,543 1200,497 1200,624 0,670" fill="#88d2f0" opacity="0.18"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#eaf2ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#5b93ff" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#eaf2ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#eaf2ff" opacity="0.5">№ 388</text>
+</svg>

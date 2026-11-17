@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;DiffusionGemma 26B: A Diffusion LLM Belongs on the Edges of Your Agent, Not the Core&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07121f"/>
+      <stop offset="1" stop-color="#0b1f33"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#5b93ff" opacity="0.07" text-anchor="middle"
+        transform="rotate(2.1 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><line x1="818" y1="470" x2="526" y2="428" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="818" y1="470" x2="776" y2="596" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="818" y1="470" x2="698" y2="291" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="818" y1="470" x2="622" y2="639" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="524" y1="470" x2="526" y2="428" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="524" y1="470" x2="993" y2="544" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="526" y1="428" x2="698" y2="291" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="776" y1="596" x2="656" y2="178" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="776" y1="596" x2="536" y2="398" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="776" y1="596" x2="622" y2="639" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="656" y1="178" x2="698" y2="291" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<circle cx="818" cy="470" r="28" fill="#5b93ff" opacity="0.9"/>
+<circle cx="818" cy="470" r="36" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="524" cy="470" r="31" fill="#a9ffe6" opacity="0.9"/>
+<circle cx="524" cy="470" r="39" fill="none" stroke="#a9ffe6" stroke-width="1" opacity="0.25"/>
+<circle cx="526" cy="428" r="9" fill="#a9ffe6" opacity="0.9"/>
+<circle cx="526" cy="428" r="17" fill="none" stroke="#a9ffe6" stroke-width="1" opacity="0.25"/>
+<circle cx="993" cy="544" r="13" fill="#a9ffe6" opacity="0.9"/>
+<circle cx="993" cy="544" r="21" fill="none" stroke="#a9ffe6" stroke-width="1" opacity="0.25"/>
+<circle cx="776" cy="596" r="14" fill="#5b93ff" opacity="0.9"/>
+<circle cx="776" cy="596" r="22" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="656" cy="178" r="13" fill="#5b93ff" opacity="0.9"/>
+<circle cx="656" cy="178" r="21" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="536" cy="398" r="21" fill="#a9ffe6" opacity="0.9"/>
+<circle cx="536" cy="398" r="29" fill="none" stroke="#a9ffe6" stroke-width="1" opacity="0.25"/>
+<circle cx="698" cy="291" r="14" fill="#5b93ff" opacity="0.9"/>
+<circle cx="698" cy="291" r="22" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="622" cy="639" r="13" fill="#5b93ff" opacity="0.9"/>
+<circle cx="622" cy="639" r="21" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#eaf2ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#5b93ff" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#eaf2ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#eaf2ff" opacity="0.5">№ 630</text>
+</svg>

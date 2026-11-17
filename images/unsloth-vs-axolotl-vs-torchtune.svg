@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;Unsloth vs Axolotl vs Torchtune: Choosing an LLM Fine-Tuning Framework in 2026&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06140d"/>
+      <stop offset="1" stop-color="#0a2417"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#38c47e" opacity="0.07" text-anchor="middle"
+        transform="rotate(0.9 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><circle cx="273" cy="489" r="14" fill="#4fcf7d" opacity="0.31"/>
+<circle cx="273" cy="578" r="16" fill="#4fcf7d" opacity="0.34"/>
+<circle cx="273" cy="667" r="17" fill="#4fcf7d" opacity="0.35"/>
+<circle cx="273" cy="756" r="17" fill="#4fcf7d" opacity="0.35"/>
+<circle cx="382" cy="311" r="13" fill="#5bd47d" opacity="0.29"/>
+<circle cx="382" cy="400" r="16" fill="#5bd47d" opacity="0.34"/>
+<rect x="363" y="470" width="38" height="38" fill="#5bd47d" opacity="0.39"/>
+<circle cx="382" cy="578" r="21" fill="#5bd47d" opacity="0.42"/>
+<circle cx="382" cy="667" r="22" fill="#5bd47d" opacity="0.44"/>
+<circle cx="382" cy="756" r="22" fill="#5bd47d" opacity="0.44"/>
+<rect x="478" y="210" width="25" height="25" fill="#67d97d" opacity="0.28"/>
+<circle cx="491" cy="311" r="16" fill="#67d97d" opacity="0.35"/>
+<circle cx="491" cy="400" r="20" fill="#67d97d" opacity="0.41"/>
+<rect x="468" y="466" width="46" height="46" fill="#67d97d" opacity="0.46"/>
+<circle cx="491" cy="578" r="25" fill="#67d97d" opacity="0.50"/>
+<circle cx="491" cy="667" r="26" fill="#67d97d" opacity="0.53"/>
+<circle cx="491" cy="756" r="26" fill="#67d97d" opacity="0.53"/>
+<rect x="585" y="207" width="30" height="30" fill="#72df7c" opacity="0.32"/>
+<rect x="581" y="292" width="39" height="39" fill="#72df7c" opacity="0.40"/>
+<rect x="577" y="377" width="47" height="47" fill="#72df7c" opacity="0.47"/>
+<circle cx="600" cy="489" r="27" fill="#72df7c" opacity="0.53"/>
+<rect x="570" y="548" width="59" height="59" fill="#72df7c" opacity="0.58"/>
+<rect x="569" y="635" width="63" height="63" fill="#72df7c" opacity="0.61"/>
+<circle cx="600" cy="756" r="31" fill="#72df7c" opacity="0.61"/>
+<circle cx="709" cy="222" r="17" fill="#7ee47c" opacity="0.35"/>
+<circle cx="709" cy="311" r="21" fill="#7ee47c" opacity="0.43"/>
+<rect x="683" y="374" width="52" height="52" fill="#7ee47c" opacity="0.52"/>
+<circle cx="709" cy="489" r="30" fill="#7ee47c" opacity="0.59"/>
+<rect x="675" y="544" width="67" height="67" fill="#7ee47c" opacity="0.66"/>
+<rect x="673" y="631" width="72" height="72" fill="#7ee47c" opacity="0.70"/>
+<circle cx="709" cy="756" r="36" fill="#7ee47c" opacity="0.70"/>
+<circle cx="818" cy="133" r="13" fill="#89ea7b" opacity="0.28"/>
+<circle cx="818" cy="222" r="18" fill="#89ea7b" opacity="0.37"/>
+<circle cx="818" cy="311" r="23" fill="#89ea7b" opacity="0.46"/>
+<rect x="791" y="373" width="55" height="55" fill="#89ea7b" opacity="0.54"/>
+<rect x="786" y="457" width="64" height="64" fill="#89ea7b" opacity="0.63"/>
+<circle cx="818" cy="578" r="37" fill="#89ea7b" opacity="0.71"/>
+<circle cx="818" cy="667" r="40" fill="#89ea7b" opacity="0.78"/>
+<circle cx="818" cy="756" r="40" fill="#89ea7b" opacity="0.77"/>
+<rect x="914" y="120" width="26" height="26" fill="#95ef7b" opacity="0.29"/>
+<circle cx="927" cy="222" r="18" fill="#95ef7b" opacity="0.37"/>
+<circle cx="927" cy="311" r="23" fill="#95ef7b" opacity="0.46"/>
+<rect x="900" y="372" width="55" height="55" fill="#95ef7b" opacity="0.55"/>
+<circle cx="927" cy="489" r="32" fill="#95ef7b" opacity="0.63"/>
+<circle cx="927" cy="578" r="37" fill="#95ef7b" opacity="0.72"/>
+<circle cx="927" cy="667" r="42" fill="#95ef7b" opacity="0.80"/>
+<circle cx="927" cy="756" r="41" fill="#95ef7b" opacity="0.79"/>
+<rect x="1024" y="121" width="25" height="25" fill="#a1f47b" opacity="0.28"/>
+<circle cx="1036" cy="222" r="17" fill="#a1f47b" opacity="0.36"/>
+<rect x="1014" y="289" width="44" height="44" fill="#a1f47b" opacity="0.44"/>
+<circle cx="1036" cy="400" r="27" fill="#a1f47b" opacity="0.53"/>
+<rect x="1005" y="458" width="62" height="62" fill="#a1f47b" opacity="0.61"/>
+<rect x="1001" y="543" width="70" height="70" fill="#a1f47b" opacity="0.68"/>
+<circle cx="1036" cy="667" r="38" fill="#a1f47b" opacity="0.73"/>
+<circle cx="1036" cy="756" r="38" fill="#a1f47b" opacity="0.73"/>
+<circle cx="1145" cy="222" r="16" fill="#acfa7a" opacity="0.33"/>
+<rect x="1125" y="291" width="40" height="40" fill="#acfa7a" opacity="0.41"/>
+<circle cx="1145" cy="400" r="24" fill="#acfa7a" opacity="0.49"/>
+<circle cx="1145" cy="489" r="28" fill="#acfa7a" opacity="0.56"/>
+<rect x="1114" y="547" width="62" height="62" fill="#acfa7a" opacity="0.61"/>
+<circle cx="1145" cy="667" r="33" fill="#acfa7a" opacity="0.64"/>
+<circle cx="1145" cy="756" r="33" fill="#acfa7a" opacity="0.64"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e9ffef" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#38c47e" font-weight="600">THE STACK</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e9ffef" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e9ffef" opacity="0.5">№ 232</text>
+</svg>

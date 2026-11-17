@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;How Many Tokens Does an Agent Memory Layer Use? From 7K to 3.26M per Query&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1424"/>
+      <stop offset="1" stop-color="#04101d"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#2f6df0" opacity="0.07" text-anchor="middle"
+        transform="rotate(2.6 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><polygon points="0,0 1200,-50 1200,53 0,103" fill="#3b7ef2" opacity="0.22"/>
+<polygon points="0,72 1200,31 1200,89 0,130" fill="#448bf4" opacity="0.37"/>
+<polygon points="0,112 1200,60 1200,198 0,250" fill="#4993f5" opacity="0.29"/>
+<polygon points="0,209 1200,195 1200,332 0,345" fill="#6ac1fb" opacity="0.30"/>
+<polygon points="0,304 1200,282 1200,345 0,367" fill="#53a0f7" opacity="0.36"/>
+<polygon points="0,348 1200,367 1200,447 0,428" fill="#4992f5" opacity="0.50"/>
+<polygon points="0,404 1200,434 1200,534 0,504" fill="#4288f4" opacity="0.49"/>
+<polygon points="0,474 1200,415 1200,505 0,564" fill="#4d98f6" opacity="0.31"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e6f0ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#2f6df0" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e6f0ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e6f0ff" opacity="0.5">№ 649</text>
+</svg>

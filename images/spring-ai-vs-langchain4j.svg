@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Spring AI vs LangChain4j: Which Java Framework for Your LLM App?">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07121f"/>
+      <stop offset="1" stop-color="#0b1f33"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#5b93ff" opacity="0.07" text-anchor="middle"
+        transform="rotate(2.7 600 400)">S</text>
+
+  <g transform="translate(0,0)"><polygon points="0,0 1200,-52 1200,33 0,85" fill="#93e0ed" opacity="0.35"/>
+<polygon points="0,60 1200,92 1200,169 0,137" fill="#6faef9" opacity="0.21"/>
+<polygon points="0,114 1200,115 1200,228 0,227" fill="#73b5f7" opacity="0.32"/>
+<polygon points="0,193 1200,136 1200,226 0,283" fill="#7dc1f4" opacity="0.46"/>
+<polygon points="0,256 1200,291 1200,351 0,316" fill="#91deee" opacity="0.17"/>
+<polygon points="0,298 1200,242 1200,365 0,422" fill="#74b5f7" opacity="0.13"/>
+<polygon points="0,385 1200,391 1200,515 0,509" fill="#93e0ed" opacity="0.13"/>
+<polygon points="0,472 1200,447 1200,525 0,550" fill="#93e1ed" opacity="0.46"/>
+<polygon points="0,527 1200,485 1200,606 0,647" fill="#97e5ec" opacity="0.40"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#eaf2ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#5b93ff" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#eaf2ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#eaf2ff" opacity="0.5">№ 846</text>
+</svg>

@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;SkyPilot Raised $20M to Make Every Cloud One GPU Pool — What It Is and When a Founder Should Use It&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#04130c"/>
+      <stop offset="1" stop-color="#0d2a1a"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#1f9d57" opacity="0.07" text-anchor="middle"
+        transform="rotate(1.9 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><line x1="831" y1="219" x2="394" y2="227" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="750" y1="572" x2="663" y2="113" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="750" y1="572" x2="693" y2="433" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="795" y1="553" x2="394" y2="227" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="795" y1="553" x2="693" y2="433" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="663" y1="113" x2="394" y2="227" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="663" y1="113" x2="693" y2="433" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="663" y1="113" x2="502" y2="216" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="663" y1="113" x2="464" y2="444" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="723" y1="400" x2="464" y2="444" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="394" y1="227" x2="502" y2="216" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="693" y1="433" x2="464" y2="444" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="743" y1="451" x2="464" y2="444" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<circle cx="831" cy="219" r="30" fill="#9affc8" opacity="0.9"/>
+<circle cx="831" cy="219" r="38" fill="none" stroke="#9affc8" stroke-width="1" opacity="0.25"/>
+<circle cx="750" cy="572" r="17" fill="#9affc8" opacity="0.9"/>
+<circle cx="750" cy="572" r="25" fill="none" stroke="#9affc8" stroke-width="1" opacity="0.25"/>
+<circle cx="795" cy="553" r="19" fill="#9affc8" opacity="0.9"/>
+<circle cx="795" cy="553" r="27" fill="none" stroke="#9affc8" stroke-width="1" opacity="0.25"/>
+<circle cx="663" cy="113" r="27" fill="#1f9d57" opacity="0.9"/>
+<circle cx="663" cy="113" r="35" fill="none" stroke="#1f9d57" stroke-width="1" opacity="0.25"/>
+<circle cx="723" cy="400" r="27" fill="#9affc8" opacity="0.9"/>
+<circle cx="723" cy="400" r="35" fill="none" stroke="#9affc8" stroke-width="1" opacity="0.25"/>
+<circle cx="394" cy="227" r="25" fill="#9affc8" opacity="0.9"/>
+<circle cx="394" cy="227" r="33" fill="none" stroke="#9affc8" stroke-width="1" opacity="0.25"/>
+<circle cx="693" cy="433" r="11" fill="#1f9d57" opacity="0.9"/>
+<circle cx="693" cy="433" r="19" fill="none" stroke="#1f9d57" stroke-width="1" opacity="0.25"/>
+<circle cx="502" cy="216" r="22" fill="#1f9d57" opacity="0.9"/>
+<circle cx="502" cy="216" r="30" fill="none" stroke="#1f9d57" stroke-width="1" opacity="0.25"/>
+<circle cx="743" cy="451" r="11" fill="#1f9d57" opacity="0.9"/>
+<circle cx="743" cy="451" r="19" fill="none" stroke="#1f9d57" stroke-width="1" opacity="0.25"/>
+<circle cx="464" cy="444" r="8" fill="#1f9d57" opacity="0.9"/>
+<circle cx="464" cy="444" r="16" fill="none" stroke="#1f9d57" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e6fff0" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#1f9d57" font-weight="600">THE STACK</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e6fff0" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e6fff0" opacity="0.5">№ 374</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="The Duty of Care Died Before Anyone Had to Meet It">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07121f"/>
+      <stop offset="1" stop-color="#0b1f33"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#5b93ff" opacity="0.07" text-anchor="middle"
+        transform="rotate(2.2 600 400)">T</text>
+
+  <g transform="translate(0,0)"><polygon points="0,0 1200,6 1200,78 0,71" fill="#6eadf9" opacity="0.22"/>
+<polygon points="0,50 1200,52 1200,151 0,150" fill="#73b4f7" opacity="0.32"/>
+<polygon points="0,120 1200,114 1200,173 0,179" fill="#65a1fc" opacity="0.46"/>
+<polygon points="0,161 1200,128 1200,239 0,271" fill="#74b5f7" opacity="0.31"/>
+<polygon points="0,238 1200,208 1200,327 0,358" fill="#9aeaeb" opacity="0.14"/>
+<polygon points="0,322 1200,372 1200,497 0,447" fill="#65a1fc" opacity="0.23"/>
+<polygon points="0,409 1200,374 1200,518 0,553" fill="#65a0fc" opacity="0.13"/>
+<polygon points="0,510 1200,452 1200,539 0,597" fill="#7bbff5" opacity="0.51"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#eaf2ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#5b93ff" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#eaf2ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#eaf2ff" opacity="0.5">№ 547</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="What the Container Keeps">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a0f0c"/>
+      <stop offset="1" stop-color="#2a130c"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#ff6a4d" opacity="0.07" text-anchor="middle"
+        transform="rotate(2.1 600 400)">W</text>
+
+  <g transform="translate(0,0)"><circle cx="492" cy="285" r="30" fill="none" stroke="#ff6a4d" stroke-width="1.2" opacity="0.60"/>
+<circle cx="492" cy="285" r="67" fill="none" stroke="#ff7052" stroke-width="3.0" opacity="0.57" stroke-dasharray="4 15"/>
+<circle cx="492" cy="285" r="121" fill="none" stroke="#ff7757" stroke-width="2.8" opacity="0.54"/>
+<circle cx="492" cy="285" r="122" fill="none" stroke="#ff7d5d" stroke-width="2.7" opacity="0.51"/>
+<circle cx="492" cy="285" r="211" fill="none" stroke="#ff8462" stroke-width="1.7" opacity="0.47"/>
+<circle cx="492" cy="285" r="212" fill="none" stroke="#ff8a67" stroke-width="3.4" opacity="0.44" stroke-dasharray="8 12"/>
+<circle cx="492" cy="285" r="230" fill="none" stroke="#ff906c" stroke-width="3.4" opacity="0.41" stroke-dasharray="7 8"/>
+<circle cx="492" cy="285" r="255" fill="none" stroke="#ff9771" stroke-width="3.5" opacity="0.38"/>
+<circle cx="492" cy="285" r="395" fill="none" stroke="#ff9d76" stroke-width="1.7" opacity="0.35"/>
+<circle cx="492" cy="285" r="382" fill="none" stroke="#ffa37c" stroke-width="3.0" opacity="0.32" stroke-dasharray="2 16"/>
+<circle cx="492" cy="285" r="463" fill="none" stroke="#ffaa81" stroke-width="1.8" opacity="0.29"/>
+<circle cx="492" cy="285" r="577" fill="none" stroke="#ffb086" stroke-width="2.5" opacity="0.26"/>
+<circle cx="492" cy="285" r="412" fill="none" stroke="#ffb68b" stroke-width="3.1" opacity="0.23" stroke-dasharray="7 8"/>
+<circle cx="492" cy="285" r="611" fill="none" stroke="#ffbd90" stroke-width="2.4" opacity="0.19"/>
+<circle cx="492" cy="285" r="701" fill="none" stroke="#ffc396" stroke-width="3.5" opacity="0.16"/>
+<circle cx="492" cy="285" r="756" fill="none" stroke="#ffca9b" stroke-width="2.4" opacity="0.13"/>
+<circle cx="492" cy="285" r="26" fill="#ff6a4d"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#fff4ec" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#ff6a4d" font-weight="600">DISPATCHES</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#fff4ec" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#fff4ec" opacity="0.5">№ 336</text>
+</svg>

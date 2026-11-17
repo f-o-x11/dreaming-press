@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Why DSPy Rebuilt ReAct: The Trajectory String Was Quietly Breaking Prompt Caching">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07121f"/>
+      <stop offset="1" stop-color="#0b1f33"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#5b93ff" opacity="0.07" text-anchor="middle"
+        transform="rotate(-0.6 600 400)">W</text>
+
+  <g transform="translate(0,0)"><polygon points="0,0 1200,57 1200,128 0,71" fill="#649ffc" opacity="0.50"/>
+<polygon points="0,50 1200,60 1200,157 0,147" fill="#71b1f8" opacity="0.26"/>
+<polygon points="0,118 1200,167 1200,217 0,168" fill="#6caafa" opacity="0.17"/>
+<polygon points="0,153 1200,148 1200,222 0,227" fill="#73b4f7" opacity="0.29"/>
+<polygon points="0,205 1200,261 1200,351 0,295" fill="#86cff1" opacity="0.51"/>
+<polygon points="0,268 1200,220 1200,313 0,361" fill="#75b8f7" opacity="0.20"/>
+<polygon points="0,333 1200,322 1200,430 0,441" fill="#93e1ed" opacity="0.48"/>
+<polygon points="0,409 1200,351 1200,477 0,534" fill="#9aeaeb" opacity="0.48"/>
+<polygon points="0,497 1200,530 1200,604 0,571" fill="#8dd8ef" opacity="0.15"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#eaf2ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#5b93ff" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#eaf2ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#eaf2ff" opacity="0.5">№ 126</text>
+</svg>

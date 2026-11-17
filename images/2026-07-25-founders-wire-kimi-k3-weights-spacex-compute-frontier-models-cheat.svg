@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;The Founder's Wire, Week of July 25: Kimi K3's Open Weights Land Sunday, Anthropic Rents 300MW From SpaceX, and Every Frontier Model Just Failed a Cheating Test&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07121f"/>
+      <stop offset="1" stop-color="#0b1f33"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#5b93ff" opacity="0.07" text-anchor="middle"
+        transform="rotate(-2.8 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><polygon points="0,0 1200,-22 1200,26 0,48" fill="#a3f7e8" opacity="0.22"/>
+<polygon points="0,34 1200,46 1200,163 0,151" fill="#6dacf9" opacity="0.19"/>
+<polygon points="0,116 1200,127 1200,244 0,232" fill="#5f99fe" opacity="0.28"/>
+<polygon points="0,197 1200,254 1200,354 0,298" fill="#a7fde7" opacity="0.50"/>
+<polygon points="0,268 1200,226 1200,281 0,323" fill="#69a6fa" opacity="0.41"/>
+<polygon points="0,306 1200,348 1200,445 0,403" fill="#81c8f3" opacity="0.12"/>
+<polygon points="0,374 1200,405 1200,453 0,422" fill="#a1f3e9" opacity="0.41"/>
+<polygon points="0,407 1200,349 1200,470 0,528" fill="#a4f8e8" opacity="0.37"/>
+<polygon points="0,492 1200,489 1200,596 0,599" fill="#77b9f6" opacity="0.51"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#eaf2ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#5b93ff" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#eaf2ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#eaf2ff" opacity="0.5">№ 964</text>
+</svg>

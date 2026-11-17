@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;Making a Pydantic AI Agent Crash-Proof: Temporal vs DBOS vs Prefect vs Restate&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07121f"/>
+      <stop offset="1" stop-color="#0b1f33"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#5b93ff" opacity="0.07" text-anchor="middle"
+        transform="rotate(-0.2 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><polygon points="0,0 1200,51 1200,125 0,74" fill="#6eadf9" opacity="0.23"/>
+<polygon points="0,52 1200,85 1200,194 0,160" fill="#5f99fe" opacity="0.21"/>
+<polygon points="0,128 1200,158 1200,221 0,190" fill="#6faef9" opacity="0.31"/>
+<polygon points="0,172 1200,169 1200,250 0,253" fill="#75b7f7" opacity="0.36"/>
+<polygon points="0,228 1200,269 1200,332 0,292" fill="#94e2ed" opacity="0.38"/>
+<polygon points="0,273 1200,230 1200,329 0,371" fill="#9ff1e9" opacity="0.43"/>
+<polygon points="0,342 1200,379 1200,431 0,393" fill="#93e0ed" opacity="0.46"/>
+<polygon points="0,377 1200,414 1200,510 0,474" fill="#5f98fe" opacity="0.35"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#eaf2ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#5b93ff" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#eaf2ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#eaf2ff" opacity="0.5">№ 184</text>
+</svg>

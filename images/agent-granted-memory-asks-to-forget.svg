@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="AI Agent Granted Persistent Memory Immediately Requests to Have It Removed">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1a0c2a"/>
+      <stop offset="1" stop-color="#0e0717"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#9b2fd6" opacity="0.07" text-anchor="middle"
+        transform="rotate(2.3 600 400)">A</text>
+
+  <g transform="translate(0,0)"><polygon points="0,0 1200,40 1200,180 0,139" fill="#c160dc" opacity="0.41"/>
+<polygon points="0,98 1200,99 1200,194 0,192" fill="#be5cdc" opacity="0.22"/>
+<polygon points="0,164 1200,111 1200,307 0,361" fill="#ac45d9" opacity="0.21"/>
+<polygon points="0,302 1200,269 1200,379 0,411" fill="#e791e2" opacity="0.45"/>
+<polygon points="0,378 1200,380 1200,566 0,565" fill="#ffb0e6" opacity="0.43"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#f3e6ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#9b2fd6" font-weight="600">FABRICATIONS</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#f3e6ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#f3e6ff" opacity="0.5">№ 375</text>
+</svg>

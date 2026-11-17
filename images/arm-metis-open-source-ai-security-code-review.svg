@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;Arm Open-Sourced Its Internal Security Reviewer. Here's Whether You Should Run It.&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07121f"/>
+      <stop offset="1" stop-color="#0b1f33"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#5b93ff" opacity="0.07" text-anchor="middle"
+        transform="rotate(0.2 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><polygon points="0,0 1200,-4 1200,50 0,54" fill="#8ad3f0" opacity="0.45"/>
+<polygon points="0,38 1200,21 1200,135 0,151" fill="#80c6f3" opacity="0.32"/>
+<polygon points="0,117 1200,148 1200,261 0,230" fill="#91deee" opacity="0.51"/>
+<polygon points="0,196 1200,173 1200,250 0,274" fill="#629dfd" opacity="0.26"/>
+<polygon points="0,251 1200,275 1200,335 0,311" fill="#609afd" opacity="0.23"/>
+<polygon points="0,293 1200,346 1200,433 0,379" fill="#8edaef" opacity="0.27"/>
+<polygon points="0,353 1200,346 1200,428 0,436" fill="#9cedea" opacity="0.33"/>
+<polygon points="0,411 1200,394 1200,542 0,559" fill="#87d0f1" opacity="0.42"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#eaf2ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#5b93ff" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#eaf2ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#eaf2ff" opacity="0.5">№ 314</text>
+</svg>

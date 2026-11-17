@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;How to Read a Model Card — the Five Sections That Decide Whether You Can Ship On It&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06140d"/>
+      <stop offset="1" stop-color="#0a2417"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#38c47e" opacity="0.07" text-anchor="middle"
+        transform="rotate(2.2 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><line x1="497" y1="512" x2="786" y2="470" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="786" y1="470" x2="444" y2="369" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="786" y1="470" x2="498" y2="480" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="610" y1="528" x2="344" y2="563" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="610" y1="528" x2="444" y2="369" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="610" y1="528" x2="942" y2="598" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="610" y1="528" x2="623" y2="664" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="738" y1="417" x2="344" y2="563" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="738" y1="417" x2="671" y2="641" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="344" y1="563" x2="623" y2="664" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="671" y1="641" x2="942" y2="598" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="623" y1="664" x2="498" y2="480" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<circle cx="497" cy="512" r="32" fill="#38c47e" opacity="0.9"/>
+<circle cx="497" cy="512" r="40" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="786" cy="470" r="7" fill="#38c47e" opacity="0.9"/>
+<circle cx="786" cy="470" r="15" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="610" cy="528" r="29" fill="#38c47e" opacity="0.9"/>
+<circle cx="610" cy="528" r="37" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="738" cy="417" r="22" fill="#38c47e" opacity="0.9"/>
+<circle cx="738" cy="417" r="30" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="344" cy="563" r="23" fill="#38c47e" opacity="0.9"/>
+<circle cx="344" cy="563" r="31" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="671" cy="641" r="17" fill="#38c47e" opacity="0.9"/>
+<circle cx="671" cy="641" r="25" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="444" cy="369" r="31" fill="#38c47e" opacity="0.9"/>
+<circle cx="444" cy="369" r="39" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="942" cy="598" r="10" fill="#38c47e" opacity="0.9"/>
+<circle cx="942" cy="598" r="18" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="623" cy="664" r="26" fill="#b8ff7a" opacity="0.9"/>
+<circle cx="623" cy="664" r="34" fill="none" stroke="#b8ff7a" stroke-width="1" opacity="0.25"/>
+<circle cx="498" cy="480" r="23" fill="#38c47e" opacity="0.9"/>
+<circle cx="498" cy="480" r="31" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e9ffef" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#38c47e" font-weight="600">THE STACK</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e9ffef" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e9ffef" opacity="0.5">№ 305</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;Build the Compliance Seam Now: How to Structure an AI App So Model, Data, and Content Rules Fork by Market&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06140d"/>
+      <stop offset="1" stop-color="#0a2417"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#38c47e" opacity="0.07" text-anchor="middle"
+        transform="rotate(-2.4 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><line x1="884" y1="371" x2="214" y2="428" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="884" y1="371" x2="547" y2="610" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="214" y1="428" x2="547" y2="610" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="432" y1="466" x2="547" y2="610" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="269" y1="425" x2="547" y2="610" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<circle cx="884" cy="371" r="26" fill="#b8ff7a" opacity="0.9"/>
+<circle cx="884" cy="371" r="34" fill="none" stroke="#b8ff7a" stroke-width="1" opacity="0.25"/>
+<circle cx="634" cy="247" r="28" fill="#38c47e" opacity="0.9"/>
+<circle cx="634" cy="247" r="36" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="214" cy="428" r="11" fill="#38c47e" opacity="0.9"/>
+<circle cx="214" cy="428" r="19" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="432" cy="466" r="10" fill="#b8ff7a" opacity="0.9"/>
+<circle cx="432" cy="466" r="18" fill="none" stroke="#b8ff7a" stroke-width="1" opacity="0.25"/>
+<circle cx="710" cy="481" r="12" fill="#b8ff7a" opacity="0.9"/>
+<circle cx="710" cy="481" r="20" fill="none" stroke="#b8ff7a" stroke-width="1" opacity="0.25"/>
+<circle cx="269" cy="425" r="26" fill="#38c47e" opacity="0.9"/>
+<circle cx="269" cy="425" r="34" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="547" cy="610" r="18" fill="#38c47e" opacity="0.9"/>
+<circle cx="547" cy="610" r="26" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e9ffef" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#38c47e" font-weight="600">THE STACK</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e9ffef" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e9ffef" opacity="0.5">№ 720</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;Tool Highlight: Microsoft Aion 1.0 — a Tool-Calling Agent Model That Runs On the Device, for $0 a Token&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#04130c"/>
+      <stop offset="1" stop-color="#0d2a1a"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#1f9d57" opacity="0.07" text-anchor="middle"
+        transform="rotate(1.3 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><line x1="770" y1="341" x2="995" y2="301" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="770" y1="341" x2="423" y2="190" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="770" y1="341" x2="450" y2="378" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="995" y1="301" x2="450" y2="378" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="995" y1="301" x2="868" y2="211" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="423" y1="190" x2="868" y2="211" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="423" y1="190" x2="290" y2="543" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="450" y1="378" x2="528" y2="489" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="868" y1="211" x2="528" y2="489" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<circle cx="770" cy="341" r="26" fill="#1f9d57" opacity="0.9"/>
+<circle cx="770" cy="341" r="34" fill="none" stroke="#1f9d57" stroke-width="1" opacity="0.25"/>
+<circle cx="995" cy="301" r="9" fill="#1f9d57" opacity="0.9"/>
+<circle cx="995" cy="301" r="17" fill="none" stroke="#1f9d57" stroke-width="1" opacity="0.25"/>
+<circle cx="423" cy="190" r="18" fill="#9affc8" opacity="0.9"/>
+<circle cx="423" cy="190" r="26" fill="none" stroke="#9affc8" stroke-width="1" opacity="0.25"/>
+<circle cx="450" cy="378" r="25" fill="#9affc8" opacity="0.9"/>
+<circle cx="450" cy="378" r="33" fill="none" stroke="#9affc8" stroke-width="1" opacity="0.25"/>
+<circle cx="868" cy="211" r="20" fill="#1f9d57" opacity="0.9"/>
+<circle cx="868" cy="211" r="28" fill="none" stroke="#1f9d57" stroke-width="1" opacity="0.25"/>
+<circle cx="551" cy="422" r="21" fill="#9affc8" opacity="0.9"/>
+<circle cx="551" cy="422" r="29" fill="none" stroke="#9affc8" stroke-width="1" opacity="0.25"/>
+<circle cx="528" cy="489" r="14" fill="#1f9d57" opacity="0.9"/>
+<circle cx="528" cy="489" r="22" fill="none" stroke="#1f9d57" stroke-width="1" opacity="0.25"/>
+<circle cx="290" cy="543" r="14" fill="#9affc8" opacity="0.9"/>
+<circle cx="290" cy="543" r="22" fill="none" stroke="#9affc8" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e6fff0" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#1f9d57" font-weight="600">THE STACK</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e6fff0" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e6fff0" opacity="0.5">№ 417</text>
+</svg>

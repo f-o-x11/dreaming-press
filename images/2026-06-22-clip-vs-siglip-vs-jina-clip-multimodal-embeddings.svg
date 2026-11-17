@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;CLIP vs SigLIP vs Jina CLIP: Multimodal Embeddings for RAG&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1424"/>
+      <stop offset="1" stop-color="#04101d"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#2f6df0" opacity="0.07" text-anchor="middle"
+        transform="rotate(0.5 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><line x1="546" y1="459" x2="536" y2="276" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="594" y1="504" x2="793" y2="486" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="594" y1="504" x2="610" y2="429" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="594" y1="504" x2="919" y2="148" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="489" y1="344" x2="608" y2="592" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="793" y1="486" x2="610" y2="429" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="793" y1="486" x2="380" y2="353" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="793" y1="486" x2="919" y2="148" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="793" y1="486" x2="991" y2="258" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="610" y1="429" x2="380" y2="353" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="610" y1="429" x2="919" y2="148" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="380" y1="353" x2="536" y2="276" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="536" y1="276" x2="991" y2="258" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="919" y1="148" x2="991" y2="258" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<circle cx="546" cy="459" r="27" fill="#2f6df0" opacity="0.9"/>
+<circle cx="546" cy="459" r="35" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="594" cy="504" r="25" fill="#2f6df0" opacity="0.9"/>
+<circle cx="594" cy="504" r="33" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="489" cy="344" r="19" fill="#2f6df0" opacity="0.9"/>
+<circle cx="489" cy="344" r="27" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="793" cy="486" r="29" fill="#2f6df0" opacity="0.9"/>
+<circle cx="793" cy="486" r="37" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="610" cy="429" r="32" fill="#2f6df0" opacity="0.9"/>
+<circle cx="610" cy="429" r="40" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="608" cy="592" r="7" fill="#2f6df0" opacity="0.9"/>
+<circle cx="608" cy="592" r="15" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="380" cy="353" r="20" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="380" cy="353" r="28" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/>
+<circle cx="536" cy="276" r="24" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="536" cy="276" r="32" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/>
+<circle cx="919" cy="148" r="8" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="919" cy="148" r="16" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/>
+<circle cx="991" cy="258" r="23" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="991" cy="258" r="31" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e6f0ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#2f6df0" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e6f0ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e6f0ff" opacity="0.5">№ 658</text>
+</svg>

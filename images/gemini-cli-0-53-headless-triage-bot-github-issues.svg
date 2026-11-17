@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;How to Build a GitHub-Issue Triage Bot with Gemini CLI's Headless Mode (v0.53.0 Ships a Triage Orchestrator)&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#04130c"/>
+      <stop offset="1" stop-color="#0d2a1a"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#1f9d57" opacity="0.07" text-anchor="middle"
+        transform="rotate(-1.1 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><line x1="735" y1="373" x2="512" y2="175" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="735" y1="373" x2="447" y2="546" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="735" y1="373" x2="565" y2="665" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="673" y1="264" x2="473" y2="552" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="673" y1="264" x2="908" y2="363" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="673" y1="264" x2="565" y2="665" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="676" y1="390" x2="440" y2="148" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="676" y1="390" x2="447" y2="546" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="676" y1="390" x2="908" y2="363" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="676" y1="390" x2="466" y2="486" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="512" y1="175" x2="908" y2="363" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="440" y1="148" x2="447" y2="546" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<circle cx="735" cy="373" r="32" fill="#1f9d57" opacity="0.9"/>
+<circle cx="735" cy="373" r="40" fill="none" stroke="#1f9d57" stroke-width="1" opacity="0.25"/>
+<circle cx="673" cy="264" r="25" fill="#1f9d57" opacity="0.9"/>
+<circle cx="673" cy="264" r="33" fill="none" stroke="#1f9d57" stroke-width="1" opacity="0.25"/>
+<circle cx="676" cy="390" r="11" fill="#1f9d57" opacity="0.9"/>
+<circle cx="676" cy="390" r="19" fill="none" stroke="#1f9d57" stroke-width="1" opacity="0.25"/>
+<circle cx="512" cy="175" r="15" fill="#9affc8" opacity="0.9"/>
+<circle cx="512" cy="175" r="23" fill="none" stroke="#9affc8" stroke-width="1" opacity="0.25"/>
+<circle cx="473" cy="552" r="13" fill="#1f9d57" opacity="0.9"/>
+<circle cx="473" cy="552" r="21" fill="none" stroke="#1f9d57" stroke-width="1" opacity="0.25"/>
+<circle cx="440" cy="148" r="30" fill="#1f9d57" opacity="0.9"/>
+<circle cx="440" cy="148" r="38" fill="none" stroke="#1f9d57" stroke-width="1" opacity="0.25"/>
+<circle cx="447" cy="546" r="23" fill="#9affc8" opacity="0.9"/>
+<circle cx="447" cy="546" r="31" fill="none" stroke="#9affc8" stroke-width="1" opacity="0.25"/>
+<circle cx="908" cy="363" r="20" fill="#1f9d57" opacity="0.9"/>
+<circle cx="908" cy="363" r="28" fill="none" stroke="#1f9d57" stroke-width="1" opacity="0.25"/>
+<circle cx="565" cy="665" r="30" fill="#9affc8" opacity="0.9"/>
+<circle cx="565" cy="665" r="38" fill="none" stroke="#9affc8" stroke-width="1" opacity="0.25"/>
+<circle cx="466" cy="486" r="28" fill="#1f9d57" opacity="0.9"/>
+<circle cx="466" cy="486" r="36" fill="none" stroke="#1f9d57" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e6fff0" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#1f9d57" font-weight="600">THE STACK</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e6fff0" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e6fff0" opacity="0.5">№ 513</text>
+</svg>

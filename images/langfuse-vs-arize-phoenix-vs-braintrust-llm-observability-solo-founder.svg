@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;Langfuse vs Arize Phoenix vs Braintrust: Which LLM Observability Tool a Solo Founder Should Self-Host&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06140d"/>
+      <stop offset="1" stop-color="#0a2417"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#38c47e" opacity="0.07" text-anchor="middle"
+        transform="rotate(0.6 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><line x1="789" y1="632" x2="821" y2="492" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="789" y1="632" x2="888" y2="538" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="789" y1="632" x2="402" y2="627" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="789" y1="632" x2="615" y2="294" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="579" y1="601" x2="750" y2="404" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="579" y1="601" x2="888" y2="538" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="579" y1="601" x2="732" y2="506" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="579" y1="601" x2="402" y2="627" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="750" y1="404" x2="821" y2="492" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="750" y1="404" x2="402" y2="627" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="750" y1="404" x2="615" y2="294" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="616" y1="255" x2="821" y2="492" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="821" y1="492" x2="550" y2="615" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="283" y1="397" x2="888" y2="538" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="283" y1="397" x2="402" y2="627" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="283" y1="397" x2="615" y2="294" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="888" y1="538" x2="550" y2="615" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="888" y1="538" x2="615" y2="294" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="550" y1="615" x2="615" y2="294" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="402" y1="627" x2="615" y2="294" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<circle cx="789" cy="632" r="19" fill="#b8ff7a" opacity="0.9"/>
+<circle cx="789" cy="632" r="27" fill="none" stroke="#b8ff7a" stroke-width="1" opacity="0.25"/>
+<circle cx="579" cy="601" r="27" fill="#b8ff7a" opacity="0.9"/>
+<circle cx="579" cy="601" r="35" fill="none" stroke="#b8ff7a" stroke-width="1" opacity="0.25"/>
+<circle cx="750" cy="404" r="16" fill="#b8ff7a" opacity="0.9"/>
+<circle cx="750" cy="404" r="24" fill="none" stroke="#b8ff7a" stroke-width="1" opacity="0.25"/>
+<circle cx="616" cy="255" r="14" fill="#b8ff7a" opacity="0.9"/>
+<circle cx="616" cy="255" r="22" fill="none" stroke="#b8ff7a" stroke-width="1" opacity="0.25"/>
+<circle cx="821" cy="492" r="23" fill="#38c47e" opacity="0.9"/>
+<circle cx="821" cy="492" r="31" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="283" cy="397" r="11" fill="#38c47e" opacity="0.9"/>
+<circle cx="283" cy="397" r="19" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="888" cy="538" r="17" fill="#b8ff7a" opacity="0.9"/>
+<circle cx="888" cy="538" r="25" fill="none" stroke="#b8ff7a" stroke-width="1" opacity="0.25"/>
+<circle cx="550" cy="615" r="26" fill="#38c47e" opacity="0.9"/>
+<circle cx="550" cy="615" r="34" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="732" cy="506" r="16" fill="#38c47e" opacity="0.9"/>
+<circle cx="732" cy="506" r="24" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="402" cy="627" r="21" fill="#38c47e" opacity="0.9"/>
+<circle cx="402" cy="627" r="29" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="615" cy="294" r="28" fill="#38c47e" opacity="0.9"/>
+<circle cx="615" cy="294" r="36" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e9ffef" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#38c47e" font-weight="600">THE STACK</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e9ffef" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e9ffef" opacity="0.5">№ 259</text>
+</svg>

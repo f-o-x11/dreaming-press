@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;GPT-5.6 Sol vs Terra vs Luna: Which Tier a Founder Should Actually Use&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06140d"/>
+      <stop offset="1" stop-color="#0a2417"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#38c47e" opacity="0.07" text-anchor="middle"
+        transform="rotate(-0.4 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><line x1="486" y1="319" x2="452" y2="569" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="486" y1="319" x2="649" y2="307" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="486" y1="319" x2="346" y2="300" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="486" y1="319" x2="475" y2="192" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="486" y1="319" x2="341" y2="252" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="215" y1="251" x2="452" y2="569" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="215" y1="251" x2="649" y2="307" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="215" y1="251" x2="475" y2="192" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="452" y1="569" x2="341" y2="252" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="649" y1="307" x2="783" y2="577" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="165" y1="393" x2="783" y2="577" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="346" y1="300" x2="341" y2="252" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<circle cx="486" cy="319" r="27" fill="#38c47e" opacity="0.9"/>
+<circle cx="486" cy="319" r="35" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="215" cy="251" r="16" fill="#b8ff7a" opacity="0.9"/>
+<circle cx="215" cy="251" r="24" fill="none" stroke="#b8ff7a" stroke-width="1" opacity="0.25"/>
+<circle cx="452" cy="569" r="11" fill="#b8ff7a" opacity="0.9"/>
+<circle cx="452" cy="569" r="19" fill="none" stroke="#b8ff7a" stroke-width="1" opacity="0.25"/>
+<circle cx="649" cy="307" r="12" fill="#38c47e" opacity="0.9"/>
+<circle cx="649" cy="307" r="20" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="165" cy="393" r="26" fill="#38c47e" opacity="0.9"/>
+<circle cx="165" cy="393" r="34" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="346" cy="300" r="15" fill="#b8ff7a" opacity="0.9"/>
+<circle cx="346" cy="300" r="23" fill="none" stroke="#b8ff7a" stroke-width="1" opacity="0.25"/>
+<circle cx="475" cy="192" r="27" fill="#38c47e" opacity="0.9"/>
+<circle cx="475" cy="192" r="35" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="341" cy="252" r="16" fill="#b8ff7a" opacity="0.9"/>
+<circle cx="341" cy="252" r="24" fill="none" stroke="#b8ff7a" stroke-width="1" opacity="0.25"/>
+<circle cx="783" cy="577" r="27" fill="#38c47e" opacity="0.9"/>
+<circle cx="783" cy="577" r="35" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e9ffef" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#38c47e" font-weight="600">THE STACK</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e9ffef" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e9ffef" opacity="0.5">№ 997</text>
+</svg>

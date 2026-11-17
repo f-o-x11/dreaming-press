@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;How to Ship an AI Agent Change Without Breaking It: Eval Gates, Shadow Replay, and Why Canaries Lie&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07121f"/>
+      <stop offset="1" stop-color="#0b1f33"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#5b93ff" opacity="0.07" text-anchor="middle"
+        transform="rotate(2.8 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><polygon points="0,0 1200,23 1200,79 0,56" fill="#7bbff5" opacity="0.47"/>
+<polygon points="0,39 1200,42 1200,108 0,105" fill="#a7fce7" opacity="0.49"/>
+<polygon points="0,85 1200,48 1200,119 0,156" fill="#88d1f1" opacity="0.25"/>
+<polygon points="0,135 1200,147 1200,219 0,207" fill="#78bcf6" opacity="0.45"/>
+<polygon points="0,186 1200,155 1200,250 0,280" fill="#a5fae7" opacity="0.47"/>
+<polygon points="0,252 1200,309 1200,376 0,318" fill="#8fdbee" opacity="0.29"/>
+<polygon points="0,298 1200,350 1200,462 0,410" fill="#78bbf6" opacity="0.22"/>
+<polygon points="0,376 1200,392 1200,446 0,430" fill="#a5f9e7" opacity="0.49"/>
+<polygon points="0,414 1200,462 1200,520 0,472" fill="#91ddee" opacity="0.28"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#eaf2ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#5b93ff" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#eaf2ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#eaf2ff" opacity="0.5">№ 840</text>
+</svg>

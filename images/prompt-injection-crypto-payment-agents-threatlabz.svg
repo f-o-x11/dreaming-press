@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;Your Agent Was Told to Pay a Stranger — and 4 in 26 Did: Hardening Payment-Capable Agents After the ThreatLabz Attacks&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1424"/>
+      <stop offset="1" stop-color="#04101d"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#2f6df0" opacity="0.07" text-anchor="middle"
+        transform="rotate(-0.7 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><polygon points="0,0 1200,-45 1200,14 0,59" fill="#6fc9fc" opacity="0.13"/>
+<polygon points="0,41 1200,93 1200,212 0,161" fill="#78d5fe" opacity="0.25"/>
+<polygon points="0,125 1200,93 1200,223 0,256" fill="#3271f0" opacity="0.17"/>
+<polygon points="0,217 1200,188 1200,264 0,293" fill="#3c7ff2" opacity="0.17"/>
+<polygon points="0,270 1200,258 1200,360 0,372" fill="#3474f1" opacity="0.31"/>
+<polygon points="0,342 1200,318 1200,395 0,419" fill="#306ef0" opacity="0.16"/>
+<polygon points="0,396 1200,377 1200,469 0,487" fill="#2f6ef0" opacity="0.44"/>
+<polygon points="0,460 1200,479 1200,524 0,504" fill="#70cbfc" opacity="0.27"/>
+<polygon points="0,491 1200,488 1200,621 0,623" fill="#478ff4" opacity="0.48"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e6f0ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#2f6df0" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e6f0ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e6f0ff" opacity="0.5">№ 203</text>
+</svg>

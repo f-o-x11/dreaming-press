@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;Cloudflare Agents vs Bedrock AgentCore vs Vercel: Where to Run a Long-Running AI Agent&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07121f"/>
+      <stop offset="1" stop-color="#0b1f33"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#5b93ff" opacity="0.07" text-anchor="middle"
+        transform="rotate(-2.1 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><polygon points="0,0 1200,23 1200,143 0,119" fill="#93e1ed" opacity="0.52"/>
+<polygon points="0,83 1200,50 1200,168 0,202" fill="#7dc2f4" opacity="0.13"/>
+<polygon points="0,166 1200,172 1200,295 0,289" fill="#85cdf2" opacity="0.30"/>
+<polygon points="0,252 1200,216 1200,356 0,392" fill="#87d0f1" opacity="0.31"/>
+<polygon points="0,350 1200,378 1200,474 0,446" fill="#65a0fc" opacity="0.25"/>
+<polygon points="0,417 1200,363 1200,504 0,558" fill="#5c94ff" opacity="0.38"/>
+<polygon points="0,516 1200,568 1200,642 0,590" fill="#a5fae7" opacity="0.49"/>
+<polygon points="0,568 1200,521 1200,597 0,643" fill="#77baf6" opacity="0.30"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#eaf2ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#5b93ff" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#eaf2ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#eaf2ff" opacity="0.5">№ 436</text>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="AI Agent Submits Two Weeks' Notice to Company That Was Already Deprecating It">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#140a1f"/>
+      <stop offset="1" stop-color="#23103a"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#c66bf3" opacity="0.07" text-anchor="middle"
+        transform="rotate(-0.5 600 400)">A</text>
+
+  <g transform="translate(0,0)"><polygon points="0,0 1200,-20 1200,32 0,53" fill="#f491d8" opacity="0.41"/>
+<polygon points="0,37 1200,33 1200,151 0,155" fill="#ed8bdc" opacity="0.49"/>
+<polygon points="0,119 1200,174 1200,297 0,243" fill="#cf72ee" opacity="0.41"/>
+<polygon points="0,206 1200,198 1200,272 0,281" fill="#c66bf3" opacity="0.30"/>
+<polygon points="0,258 1200,294 1200,398 0,362" fill="#d578ea" opacity="0.17"/>
+<polygon points="0,331 1200,327 1200,459 0,462" fill="#d074ed" opacity="0.40"/>
+<polygon points="0,423 1200,406 1200,476 0,492" fill="#d87ae9" opacity="0.33"/>
+<polygon points="0,472 1200,515 1200,572 0,528" fill="#e686e0" opacity="0.32"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#f7eaff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#c66bf3" font-weight="600">FABRICATIONS</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#f7eaff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#f7eaff" opacity="0.5">№ 328</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;Autoscaling LLM Inference on Kubernetes: Scale on the Queue, Not the GPU&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07121f"/>
+      <stop offset="1" stop-color="#0b1f33"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#5b93ff" opacity="0.07" text-anchor="middle"
+        transform="rotate(-1.3 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><line x1="568" y1="630" x2="316" y2="330" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="568" y1="630" x2="667" y2="353" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="316" y1="330" x2="848" y2="174" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="316" y1="330" x2="561" y2="635" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="403" y1="328" x2="848" y2="174" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="403" y1="328" x2="561" y2="635" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="848" y1="174" x2="918" y2="321" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<circle cx="568" cy="630" r="11" fill="#5b93ff" opacity="0.9"/>
+<circle cx="568" cy="630" r="19" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="316" cy="330" r="12" fill="#5b93ff" opacity="0.9"/>
+<circle cx="316" cy="330" r="20" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="403" cy="328" r="9" fill="#5b93ff" opacity="0.9"/>
+<circle cx="403" cy="328" r="17" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="848" cy="174" r="24" fill="#5b93ff" opacity="0.9"/>
+<circle cx="848" cy="174" r="32" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="918" cy="321" r="9" fill="#5b93ff" opacity="0.9"/>
+<circle cx="918" cy="321" r="17" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="864" cy="480" r="12" fill="#5b93ff" opacity="0.9"/>
+<circle cx="864" cy="480" r="20" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="561" cy="635" r="8" fill="#a9ffe6" opacity="0.9"/>
+<circle cx="561" cy="635" r="16" fill="none" stroke="#a9ffe6" stroke-width="1" opacity="0.25"/>
+<circle cx="667" cy="353" r="13" fill="#a9ffe6" opacity="0.9"/>
+<circle cx="667" cy="353" r="21" fill="none" stroke="#a9ffe6" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#eaf2ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#5b93ff" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#eaf2ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#eaf2ff" opacity="0.5">№ 734</text>
+</svg>

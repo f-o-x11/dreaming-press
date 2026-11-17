@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;HappyRobot at $1.2B: Enterprise Agents Just Crossed From Chat to Operations&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1424"/>
+      <stop offset="1" stop-color="#04101d"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#2f6df0" opacity="0.07" text-anchor="middle"
+        transform="rotate(0.9 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><line x1="595" y1="487" x2="660" y2="191" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="595" y1="487" x2="636" y2="316" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="660" y1="191" x2="473" y2="362" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="660" y1="191" x2="317" y2="699" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="660" y1="191" x2="751" y2="540" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="622" y1="509" x2="636" y2="316" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="622" y1="509" x2="205" y2="524" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="622" y1="509" x2="751" y2="540" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="636" y1="316" x2="317" y2="699" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<circle cx="595" cy="487" r="21" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="595" cy="487" r="29" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/>
+<circle cx="660" cy="191" r="24" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="660" cy="191" r="32" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/>
+<circle cx="622" cy="509" r="17" fill="#2f6df0" opacity="0.9"/>
+<circle cx="622" cy="509" r="25" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="636" cy="316" r="8" fill="#2f6df0" opacity="0.9"/>
+<circle cx="636" cy="316" r="16" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="473" cy="362" r="9" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="473" cy="362" r="17" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/>
+<circle cx="205" cy="524" r="20" fill="#2f6df0" opacity="0.9"/>
+<circle cx="205" cy="524" r="28" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="788" cy="481" r="17" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="788" cy="481" r="25" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/>
+<circle cx="317" cy="699" r="13" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="317" cy="699" r="21" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/>
+<circle cx="751" cy="540" r="15" fill="#2f6df0" opacity="0.9"/>
+<circle cx="751" cy="540" r="23" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e6f0ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#2f6df0" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e6f0ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e6f0ff" opacity="0.5">№ 294</text>
+</svg>

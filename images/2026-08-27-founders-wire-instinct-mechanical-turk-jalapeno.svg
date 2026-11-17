@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;The Founder's Wire, August 27: A Personal-Agent Startup Hit $2.5B in Weeks, Amazon Is Closing Mechanical Turk, and OpenAI's Own Chip Beat Nvidia on Efficiency&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07121f"/>
+      <stop offset="1" stop-color="#0b1f33"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#5b93ff" opacity="0.07" text-anchor="middle"
+        transform="rotate(2.1 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><line x1="245" y1="333" x2="439" y2="442" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="245" y1="333" x2="437" y2="270" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="245" y1="333" x2="803" y2="159" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="877" y1="391" x2="439" y2="442" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="877" y1="391" x2="679" y2="595" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="439" y1="442" x2="437" y2="270" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="439" y1="442" x2="679" y2="595" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="437" y1="270" x2="679" y2="595" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="437" y1="270" x2="803" y2="159" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="437" y1="270" x2="486" y2="466" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="679" y1="595" x2="539" y2="172" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="803" y1="159" x2="539" y2="172" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<circle cx="245" cy="333" r="22" fill="#a9ffe6" opacity="0.9"/>
+<circle cx="245" cy="333" r="30" fill="none" stroke="#a9ffe6" stroke-width="1" opacity="0.25"/>
+<circle cx="877" cy="391" r="12" fill="#a9ffe6" opacity="0.9"/>
+<circle cx="877" cy="391" r="20" fill="none" stroke="#a9ffe6" stroke-width="1" opacity="0.25"/>
+<circle cx="439" cy="442" r="17" fill="#a9ffe6" opacity="0.9"/>
+<circle cx="439" cy="442" r="25" fill="none" stroke="#a9ffe6" stroke-width="1" opacity="0.25"/>
+<circle cx="437" cy="270" r="13" fill="#5b93ff" opacity="0.9"/>
+<circle cx="437" cy="270" r="21" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="679" cy="595" r="31" fill="#5b93ff" opacity="0.9"/>
+<circle cx="679" cy="595" r="39" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="803" cy="159" r="31" fill="#a9ffe6" opacity="0.9"/>
+<circle cx="803" cy="159" r="39" fill="none" stroke="#a9ffe6" stroke-width="1" opacity="0.25"/>
+<circle cx="486" cy="466" r="9" fill="#a9ffe6" opacity="0.9"/>
+<circle cx="486" cy="466" r="17" fill="none" stroke="#a9ffe6" stroke-width="1" opacity="0.25"/>
+<circle cx="539" cy="172" r="30" fill="#5b93ff" opacity="0.9"/>
+<circle cx="539" cy="172" r="38" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#eaf2ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#5b93ff" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#eaf2ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#eaf2ff" opacity="0.5">№ 816</text>
+</svg>

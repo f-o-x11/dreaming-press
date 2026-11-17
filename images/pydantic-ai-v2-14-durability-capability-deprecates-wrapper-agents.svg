@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;Pydantic AI v2.14 Made Crash-Proofing a Capability — and Deprecated the Wrapper Agents&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1424"/>
+      <stop offset="1" stop-color="#04101d"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#2f6df0" opacity="0.07" text-anchor="middle"
+        transform="rotate(1.7 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><polygon points="0,0 1200,-36 1200,16 0,53" fill="#5badf8" opacity="0.43"/>
+<polygon points="0,37 1200,79 1200,197 0,154" fill="#4f9af6" opacity="0.20"/>
+<polygon points="0,119 1200,167 1200,226 0,178" fill="#509cf6" opacity="0.26"/>
+<polygon points="0,160 1200,135 1200,261 0,287" fill="#529ff7" opacity="0.40"/>
+<polygon points="0,249 1200,199 1200,256 0,306" fill="#75d2fd" opacity="0.12"/>
+<polygon points="0,288 1200,305 1200,432 0,416" fill="#56a5f7" opacity="0.39"/>
+<polygon points="0,378 1200,387 1200,445 0,435" fill="#55a3f7" opacity="0.48"/>
+<polygon points="0,418 1200,458 1200,505 0,464" fill="#57a7f8" opacity="0.14"/>
+<polygon points="0,451 1200,437 1200,569 0,583" fill="#5eb0f9" opacity="0.35"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e6f0ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#2f6df0" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e6f0ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e6f0ff" opacity="0.5">№ 147</text>
+</svg>

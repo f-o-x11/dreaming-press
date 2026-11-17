@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="How to Manage Context in a Long-Running Agent: Clearing vs Compaction vs Memory">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1424"/>
+      <stop offset="1" stop-color="#04101d"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#2f6df0" opacity="0.07" text-anchor="middle"
+        transform="rotate(0.1 600 400)">H</text>
+
+  <g transform="translate(0,0)"><polygon points="0,0 1200,23 1200,132 0,109" fill="#72cdfd" opacity="0.32"/>
+<polygon points="0,77 1200,86 1200,141 0,131" fill="#70cafc" opacity="0.48"/>
+<polygon points="0,115 1200,60 1200,164 0,219" fill="#3373f1" opacity="0.24"/>
+<polygon points="0,188 1200,245 1200,351 0,294" fill="#3474f1" opacity="0.50"/>
+<polygon points="0,262 1200,221 1200,344 0,385" fill="#397bf2" opacity="0.42"/>
+<polygon points="0,348 1200,292 1200,408 0,464" fill="#448cf4" opacity="0.29"/>
+<polygon points="0,429 1200,431 1200,488 0,486" fill="#7dddff" opacity="0.48"/>
+<polygon points="0,469 1200,461 1200,576 0,584" fill="#56a5f7" opacity="0.51"/>
+<polygon points="0,549 1200,548 1200,677 0,678" fill="#468ef4" opacity="0.36"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e6f0ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#2f6df0" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e6f0ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e6f0ff" opacity="0.5">№ 669</text>
+</svg>

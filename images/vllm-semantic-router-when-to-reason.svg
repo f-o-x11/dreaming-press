@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;The vLLM Semantic Router: The Gateway That Decides Whether to Reason at All&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06140d"/>
+      <stop offset="1" stop-color="#0a2417"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#38c47e" opacity="0.07" text-anchor="middle"
+        transform="rotate(2.4 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><rect x="494" y="653" width="26" height="26" fill="#69db7c" opacity="0.29"/>
+<rect x="494" y="742" width="28" height="28" fill="#69db7c" opacity="0.30"/>
+<circle cx="600" cy="489" r="14" fill="#73df7c" opacity="0.31"/>
+<circle cx="600" cy="578" r="16" fill="#73df7c" opacity="0.34"/>
+<circle cx="600" cy="667" r="17" fill="#73df7c" opacity="0.36"/>
+<circle cx="600" cy="756" r="18" fill="#73df7c" opacity="0.37"/>
+<rect x="680" y="299" width="25" height="25" fill="#7de47c" opacity="0.28"/>
+<rect x="677" y="385" width="31" height="31" fill="#7de47c" opacity="0.33"/>
+<circle cx="692" cy="489" r="18" fill="#7de47c" opacity="0.37"/>
+<circle cx="692" cy="578" r="20" fill="#7de47c" opacity="0.41"/>
+<circle cx="692" cy="667" r="21" fill="#7de47c" opacity="0.43"/>
+<rect x="670" y="734" width="44" height="44" fill="#7de47c" opacity="0.44"/>
+<rect x="769" y="296" width="31" height="31" fill="#87e87c" opacity="0.32"/>
+<circle cx="785" cy="400" r="18" fill="#87e87c" opacity="0.38"/>
+<rect x="764" y="468" width="42" height="42" fill="#87e87c" opacity="0.43"/>
+<circle cx="785" cy="578" r="23" fill="#87e87c" opacity="0.47"/>
+<rect x="760" y="642" width="50" height="50" fill="#87e87c" opacity="0.50"/>
+<circle cx="785" cy="756" r="26" fill="#87e87c" opacity="0.52"/>
+<circle cx="877" cy="222" r="14" fill="#91ed7b" opacity="0.30"/>
+<circle cx="877" cy="311" r="18" fill="#91ed7b" opacity="0.37"/>
+<rect x="856" y="379" width="42" height="42" fill="#91ed7b" opacity="0.43"/>
+<circle cx="877" cy="489" r="24" fill="#91ed7b" opacity="0.48"/>
+<circle cx="877" cy="578" r="27" fill="#91ed7b" opacity="0.53"/>
+<circle cx="877" cy="667" r="29" fill="#91ed7b" opacity="0.57"/>
+<rect x="847" y="725" width="60" height="60" fill="#91ed7b" opacity="0.59"/>
+<circle cx="969" cy="222" r="16" fill="#9af17b" opacity="0.33"/>
+<circle cx="969" cy="311" r="20" fill="#9af17b" opacity="0.40"/>
+<circle cx="969" cy="400" r="23" fill="#9af17b" opacity="0.47"/>
+<circle cx="969" cy="489" r="27" fill="#9af17b" opacity="0.53"/>
+<circle cx="969" cy="578" r="30" fill="#9af17b" opacity="0.59"/>
+<circle cx="969" cy="667" r="33" fill="#9af17b" opacity="0.64"/>
+<rect x="935" y="721" width="68" height="68" fill="#9af17b" opacity="0.66"/>
+<circle cx="1062" cy="133" r="13" fill="#a4f67b" opacity="0.28"/>
+<circle cx="1062" cy="222" r="17" fill="#a4f67b" opacity="0.36"/>
+<circle cx="1062" cy="311" r="21" fill="#a4f67b" opacity="0.43"/>
+<circle cx="1062" cy="400" r="25" fill="#a4f67b" opacity="0.50"/>
+<circle cx="1062" cy="489" r="29" fill="#a4f67b" opacity="0.57"/>
+<rect x="1029" y="545" width="65" height="65" fill="#a4f67b" opacity="0.63"/>
+<rect x="1026" y="631" width="71" height="71" fill="#a4f67b" opacity="0.69"/>
+<circle cx="1062" cy="756" r="38" fill="#a4f67b" opacity="0.74"/>
+<circle cx="1154" cy="133" r="13" fill="#aefa7a" opacity="0.29"/>
+<circle cx="1154" cy="222" r="18" fill="#aefa7a" opacity="0.37"/>
+<rect x="1132" y="289" width="43" height="43" fill="#aefa7a" opacity="0.44"/>
+<rect x="1128" y="374" width="51" height="51" fill="#aefa7a" opacity="0.51"/>
+<rect x="1124" y="459" width="60" height="60" fill="#aefa7a" opacity="0.59"/>
+<circle cx="1154" cy="578" r="34" fill="#aefa7a" opacity="0.66"/>
+<rect x="1116" y="629" width="76" height="76" fill="#aefa7a" opacity="0.73"/>
+<circle cx="1154" cy="756" r="42" fill="#aefa7a" opacity="0.80"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e9ffef" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#38c47e" font-weight="600">THE STACK</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e9ffef" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e9ffef" opacity="0.5">№ 646</text>
+</svg>

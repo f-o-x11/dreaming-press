@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;Claude Sonnet 5's Tokenizer Tax: Why the Same Rate Card Costs More Per Task&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1424"/>
+      <stop offset="1" stop-color="#04101d"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#2f6df0" opacity="0.07" text-anchor="middle"
+        transform="rotate(-0.4 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><polygon points="0,0 1200,35 1200,147 0,113" fill="#67befb" opacity="0.37"/>
+<polygon points="0,79 1200,99 1200,158 0,138" fill="#4891f5" opacity="0.18"/>
+<polygon points="0,120 1200,86 1200,187 0,222" fill="#3e83f3" opacity="0.27"/>
+<polygon points="0,191 1200,202 1200,310 0,299" fill="#5aabf8" opacity="0.40"/>
+<polygon points="0,267 1200,268 1200,314 0,313" fill="#4d98f6" opacity="0.38"/>
+<polygon points="0,299 1200,282 1200,352 0,369" fill="#448bf4" opacity="0.47"/>
+<polygon points="0,348 1200,324 1200,441 0,466" fill="#397bf2" opacity="0.29"/>
+<polygon points="0,431 1200,389 1200,485 0,527" fill="#3475f1" opacity="0.22"/>
+<polygon points="0,498 1200,491 1200,573 0,580" fill="#69c0fb" opacity="0.23"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e6f0ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#2f6df0" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e6f0ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e6f0ff" opacity="0.5">№ 407</text>
+</svg>

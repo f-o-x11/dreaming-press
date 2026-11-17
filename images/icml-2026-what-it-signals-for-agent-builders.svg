@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;ICML 2026, Decoded for Agent Builders: The Moat Isn't the Agent, It's the Evals&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07121f"/>
+      <stop offset="1" stop-color="#0b1f33"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#5b93ff" opacity="0.07" text-anchor="middle"
+        transform="rotate(1.5 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><line x1="355" y1="363" x2="497" y2="261" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="355" y1="363" x2="409" y2="260" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="355" y1="363" x2="1028" y2="284" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="810" y1="246" x2="497" y2="261" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="810" y1="246" x2="758" y2="679" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="810" y1="246" x2="409" y2="260" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="810" y1="246" x2="1028" y2="284" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="497" y1="261" x2="666" y2="600" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="666" y1="600" x2="493" y2="344" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="493" y1="344" x2="409" y2="260" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<circle cx="586" cy="402" r="21" fill="#5b93ff" opacity="0.9"/>
+<circle cx="586" cy="402" r="29" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="355" cy="363" r="11" fill="#5b93ff" opacity="0.9"/>
+<circle cx="355" cy="363" r="19" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="810" cy="246" r="18" fill="#5b93ff" opacity="0.9"/>
+<circle cx="810" cy="246" r="26" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="497" cy="261" r="22" fill="#5b93ff" opacity="0.9"/>
+<circle cx="497" cy="261" r="30" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="666" cy="600" r="26" fill="#a9ffe6" opacity="0.9"/>
+<circle cx="666" cy="600" r="34" fill="none" stroke="#a9ffe6" stroke-width="1" opacity="0.25"/>
+<circle cx="758" cy="679" r="7" fill="#a9ffe6" opacity="0.9"/>
+<circle cx="758" cy="679" r="15" fill="none" stroke="#a9ffe6" stroke-width="1" opacity="0.25"/>
+<circle cx="493" cy="344" r="11" fill="#5b93ff" opacity="0.9"/>
+<circle cx="493" cy="344" r="19" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="409" cy="260" r="16" fill="#5b93ff" opacity="0.9"/>
+<circle cx="409" cy="260" r="24" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="1028" cy="284" r="10" fill="#5b93ff" opacity="0.9"/>
+<circle cx="1028" cy="284" r="18" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#eaf2ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#5b93ff" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#eaf2ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#eaf2ff" opacity="0.5">№ 198</text>
+</svg>

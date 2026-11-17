@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;When Agent Memories Contradict: Don't Let the LLM Decide Which One Is Fresh&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1424"/>
+      <stop offset="1" stop-color="#04101d"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#2f6df0" opacity="0.07" text-anchor="middle"
+        transform="rotate(2.1 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><polygon points="0,0 1200,15 1200,143 0,128" fill="#77d5fe" opacity="0.29"/>
+<polygon points="0,90 1200,114 1200,189 0,165" fill="#3170f0" opacity="0.38"/>
+<polygon points="0,142 1200,83 1200,169 0,229" fill="#4f9bf6" opacity="0.29"/>
+<polygon points="0,203 1200,219 1200,354 0,338" fill="#3475f1" opacity="0.37"/>
+<polygon points="0,298 1200,297 1200,367 0,368" fill="#72cefd" opacity="0.51"/>
+<polygon points="0,347 1200,359 1200,460 0,448" fill="#66bcfa" opacity="0.16"/>
+<polygon points="0,418 1200,432 1200,509 0,495" fill="#4086f3" opacity="0.19"/>
+<polygon points="0,471 1200,476 1200,575 0,570" fill="#306ff0" opacity="0.38"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e6f0ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#2f6df0" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e6f0ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e6f0ff" opacity="0.5">№ 594</text>
+</svg>

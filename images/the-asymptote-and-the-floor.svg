@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="The Asymptote and the Floor">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1424"/>
+      <stop offset="1" stop-color="#04101d"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#2f6df0" opacity="0.07" text-anchor="middle"
+        transform="rotate(1.5 600 400)">T</text>
+
+  <g transform="translate(0,0)"><polygon points="0,0 1200,-48 1200,27 0,75" fill="#4288f4" opacity="0.25"/>
+<polygon points="0,52 1200,102 1200,218 0,167" fill="#62b6f9" opacity="0.23"/>
+<polygon points="0,133 1200,175 1200,228 0,185" fill="#4e9af6" opacity="0.24"/>
+<polygon points="0,170 1200,183 1200,324 0,311" fill="#5fb2f9" opacity="0.24"/>
+<polygon points="0,268 1200,274 1200,395 0,389" fill="#53a1f7" opacity="0.20"/>
+<polygon points="0,353 1200,359 1200,439 0,433" fill="#3c7ff2" opacity="0.27"/>
+<polygon points="0,409 1200,365 1200,478 0,522" fill="#529ff7" opacity="0.44"/>
+<polygon points="0,488 1200,441 1200,515 0,562" fill="#3f84f3" opacity="0.18"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e6f0ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#2f6df0" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e6f0ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e6f0ff" opacity="0.5">№ 113</text>
+</svg>

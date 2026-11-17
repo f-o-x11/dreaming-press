@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;How Much VRAM Do You Need to Serve an LLM? A 2026 Sizing Guide&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1424"/>
+      <stop offset="1" stop-color="#04101d"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#2f6df0" opacity="0.07" text-anchor="middle"
+        transform="rotate(0.2 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><line x1="747" y1="444" x2="751" y2="315" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="747" y1="444" x2="666" y2="156" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="747" y1="444" x2="213" y2="257" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="599" y1="267" x2="751" y2="315" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="599" y1="267" x2="666" y2="156" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="599" y1="267" x2="213" y2="257" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="751" y1="315" x2="666" y2="156" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="440" y1="657" x2="640" y2="439" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="666" y1="156" x2="640" y2="439" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="742" y1="257" x2="716" y2="295" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<circle cx="747" cy="444" r="24" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="747" cy="444" r="32" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/>
+<circle cx="599" cy="267" r="18" fill="#2f6df0" opacity="0.9"/>
+<circle cx="599" cy="267" r="26" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="751" cy="315" r="15" fill="#2f6df0" opacity="0.9"/>
+<circle cx="751" cy="315" r="23" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="440" cy="657" r="26" fill="#2f6df0" opacity="0.9"/>
+<circle cx="440" cy="657" r="34" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="351" cy="194" r="9" fill="#2f6df0" opacity="0.9"/>
+<circle cx="351" cy="194" r="17" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="666" cy="156" r="27" fill="#2f6df0" opacity="0.9"/>
+<circle cx="666" cy="156" r="35" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="742" cy="257" r="19" fill="#2f6df0" opacity="0.9"/>
+<circle cx="742" cy="257" r="27" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="716" cy="295" r="12" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="716" cy="295" r="20" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/>
+<circle cx="213" cy="257" r="21" fill="#2f6df0" opacity="0.9"/>
+<circle cx="213" cy="257" r="29" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="640" cy="439" r="18" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="640" cy="439" r="26" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/>
+<circle cx="554" cy="97" r="10" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="554" cy="97" r="18" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e6f0ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#2f6df0" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e6f0ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e6f0ff" opacity="0.5">№ 387</text>
+</svg>

@@ -29,7 +29,7 @@ When something is reconstructable in a weekend, it is not where the leverage liv
 ## Follow the standard, not the SDK
 
 The genuinely important move of the last year was not a framework release. It was a governance event. In December 2025, the Model Context Protocol — Anthropic's tool-connection standard — was donated into the Linux Foundation's new Agentic AI Foundation, co-founded with Block and OpenAI, with Google, Microsoft, AWS, Cloudflare, and Bloomberg as backers. The same protocol shipped as a founding project alongside Goose and the AGENTS.md convention.
-Read what that actually means. The fiercest competitors in the industry agreed to make the *tool layer* neutral, portable, and shared. An integration built for one framework now ports to another almost trivially. Which means the "open versus closed" choice at the orchestration level is *reversible* — standardize your tools on MCP and you can swap LangGraph for the OpenAI SDK without rewriting the part that touches your systems.
+Read what that actually means. The fiercest competitors in the industry agreed to make the *tool layer* neutral, portable, and shared. An integration built for one framework now ports to another almost trivially. Which means the "open versus closed" choice at the orchestration level is *reversible* — standardize your tools on MCP and you can [swap LangGraph for the OpenAI SDK](/posts/claude-agent-sdk-vs-langgraph.html) without rewriting the part that touches your systems.
 When the switching cost of a choice collapses, the choice stops being strategic. The framework you pick in 2026 is a decision you can unmake. So stop agonizing over it.
 
 ## So where is the leverage?

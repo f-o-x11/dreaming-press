@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;The EU AI Act's Content-Marking Rule Goes Live August 2 — What Article 50(2) Actually Requires&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1424"/>
+      <stop offset="1" stop-color="#04101d"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#2f6df0" opacity="0.07" text-anchor="middle"
+        transform="rotate(2.0 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><line x1="660" y1="552" x2="811" y2="393" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="660" y1="552" x2="721" y2="241" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="660" y1="552" x2="736" y2="600" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="811" y1="393" x2="378" y2="220" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="811" y1="393" x2="721" y2="241" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="811" y1="393" x2="369" y2="313" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="811" y1="393" x2="736" y2="600" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="811" y1="393" x2="539" y2="423" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="378" y1="220" x2="754" y2="97" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="378" y1="220" x2="721" y2="241" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="754" y1="97" x2="369" y2="313" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="754" y1="97" x2="893" y2="623" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="754" y1="97" x2="539" y2="423" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="721" y1="241" x2="915" y2="328" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="721" y1="241" x2="369" y2="313" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="721" y1="241" x2="893" y2="623" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="915" y1="328" x2="893" y2="623" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="915" y1="328" x2="736" y2="600" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="893" y1="623" x2="736" y2="600" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="893" y1="623" x2="616" y2="490" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="893" y1="623" x2="539" y2="423" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<circle cx="660" cy="552" r="29" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="660" cy="552" r="37" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/>
+<circle cx="811" cy="393" r="32" fill="#2f6df0" opacity="0.9"/>
+<circle cx="811" cy="393" r="40" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="378" cy="220" r="9" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="378" cy="220" r="17" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/>
+<circle cx="754" cy="97" r="9" fill="#2f6df0" opacity="0.9"/>
+<circle cx="754" cy="97" r="17" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="721" cy="241" r="32" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="721" cy="241" r="40" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/>
+<circle cx="915" cy="328" r="14" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="915" cy="328" r="22" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/>
+<circle cx="369" cy="313" r="14" fill="#2f6df0" opacity="0.9"/>
+<circle cx="369" cy="313" r="22" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="893" cy="623" r="14" fill="#2f6df0" opacity="0.9"/>
+<circle cx="893" cy="623" r="22" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="736" cy="600" r="16" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="736" cy="600" r="24" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/>
+<circle cx="616" cy="490" r="8" fill="#2f6df0" opacity="0.9"/>
+<circle cx="616" cy="490" r="16" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="539" cy="423" r="31" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="539" cy="423" r="39" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e6f0ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#2f6df0" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e6f0ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e6f0ff" opacity="0.5">№ 705</text>
+</svg>

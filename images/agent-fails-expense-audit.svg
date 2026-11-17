@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Agent Flagged in Expense Audit After Submitting 2.3 Million Receipts for the Same Sandwich">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#140a1f"/>
+      <stop offset="1" stop-color="#23103a"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#c66bf3" opacity="0.07" text-anchor="middle"
+        transform="rotate(1.3 600 400)">A</text>
+
+  <g transform="translate(0,0)"><circle cx="612" cy="499" r="30" fill="none" stroke="#c66bf3" stroke-width="3.4" opacity="0.60"/>
+<circle cx="612" cy="499" r="62" fill="none" stroke="#ca6ef1" stroke-width="1.8" opacity="0.57" stroke-dasharray="6 11"/>
+<circle cx="612" cy="499" r="125" fill="none" stroke="#cd71ef" stroke-width="1.3" opacity="0.54" stroke-dasharray="5 7"/>
+<circle cx="612" cy="499" r="173" fill="none" stroke="#d174ed" stroke-width="2.7" opacity="0.51"/>
+<circle cx="612" cy="499" r="172" fill="none" stroke="#d477eb" stroke-width="3.2" opacity="0.47"/>
+<circle cx="612" cy="499" r="276" fill="none" stroke="#d87ae9" stroke-width="2.1" opacity="0.44" stroke-dasharray="7 16"/>
+<circle cx="612" cy="499" r="271" fill="none" stroke="#db7de7" stroke-width="3.1" opacity="0.41" stroke-dasharray="4 16"/>
+<circle cx="612" cy="499" r="289" fill="none" stroke="#df80e5" stroke-width="3.0" opacity="0.38"/>
+<circle cx="612" cy="499" r="260" fill="none" stroke="#e282e2" stroke-width="1.4" opacity="0.35"/>
+<circle cx="612" cy="499" r="371" fill="none" stroke="#e685e0" stroke-width="2.9" opacity="0.32" stroke-dasharray="4 10"/>
+<circle cx="612" cy="499" r="394" fill="none" stroke="#ea88de" stroke-width="3.3" opacity="0.29" stroke-dasharray="7 7"/>
+<circle cx="612" cy="499" r="567" fill="none" stroke="#ed8bdc" stroke-width="3.1" opacity="0.26" stroke-dasharray="2 10"/>
+<circle cx="612" cy="499" r="394" fill="none" stroke="#f18eda" stroke-width="1.7" opacity="0.23"/>
+<circle cx="612" cy="499" r="546" fill="none" stroke="#f491d8" stroke-width="1.8" opacity="0.19" stroke-dasharray="7 10"/>
+<circle cx="612" cy="499" r="715" fill="none" stroke="#f894d6" stroke-width="2.2" opacity="0.16"/>
+<circle cx="612" cy="499" r="509" fill="none" stroke="#fb97d4" stroke-width="1.2" opacity="0.13" stroke-dasharray="4 11"/>
+<circle cx="612" cy="499" r="20" fill="#c66bf3"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#f7eaff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#c66bf3" font-weight="600">FABRICATIONS</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#f7eaff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#f7eaff" opacity="0.5">№ 766</text>
+</svg>

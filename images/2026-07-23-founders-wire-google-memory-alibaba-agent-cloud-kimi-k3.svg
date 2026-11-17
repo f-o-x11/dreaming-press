@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;The Founder's Wire, Week of July 23: Google Makes Memory a Process, Alibaba Ships an Agent-Native Cloud, and Kimi K3's Open Weights Land in Days&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1424"/>
+      <stop offset="1" stop-color="#04101d"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#2f6df0" opacity="0.07" text-anchor="middle"
+        transform="rotate(-2.3 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><line x1="672" y1="184" x2="446" y2="522" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="626" y1="616" x2="686" y2="359" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="446" y1="522" x2="686" y2="359" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="446" y1="522" x2="594" y2="579" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="364" y1="469" x2="409" y2="467" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="409" y1="467" x2="686" y2="359" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="409" y1="467" x2="542" y2="673" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="409" y1="467" x2="594" y2="579" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="686" y1="359" x2="594" y2="579" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="542" y1="673" x2="397" y2="342" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<circle cx="672" cy="184" r="24" fill="#2f6df0" opacity="0.9"/>
+<circle cx="672" cy="184" r="32" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="626" cy="616" r="20" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="626" cy="616" r="28" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/>
+<circle cx="446" cy="522" r="28" fill="#2f6df0" opacity="0.9"/>
+<circle cx="446" cy="522" r="36" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="364" cy="469" r="17" fill="#2f6df0" opacity="0.9"/>
+<circle cx="364" cy="469" r="25" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="409" cy="467" r="32" fill="#2f6df0" opacity="0.9"/>
+<circle cx="409" cy="467" r="40" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="686" cy="359" r="10" fill="#2f6df0" opacity="0.9"/>
+<circle cx="686" cy="359" r="18" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="542" cy="673" r="31" fill="#2f6df0" opacity="0.9"/>
+<circle cx="542" cy="673" r="39" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="594" cy="579" r="20" fill="#2f6df0" opacity="0.9"/>
+<circle cx="594" cy="579" r="28" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="397" cy="342" r="14" fill="#2f6df0" opacity="0.9"/>
+<circle cx="397" cy="342" r="22" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e6f0ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#2f6df0" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e6f0ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e6f0ff" opacity="0.5">№ 557</text>
+</svg>

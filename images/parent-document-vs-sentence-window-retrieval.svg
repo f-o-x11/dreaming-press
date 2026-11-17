@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;Parent Document vs Sentence Window vs Auto-Merging Retrieval&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07121f"/>
+      <stop offset="1" stop-color="#0b1f33"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#5b93ff" opacity="0.07" text-anchor="middle"
+        transform="rotate(1.4 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><line x1="374" y1="456" x2="548" y2="262" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="374" y1="456" x2="221" y2="634" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="374" y1="456" x2="660" y2="500" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="548" y1="262" x2="653" y2="169" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="548" y1="262" x2="551" y2="374" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="548" y1="262" x2="660" y2="500" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="653" y1="169" x2="383" y2="413" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="551" y1="374" x2="221" y2="634" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="551" y1="374" x2="660" y2="500" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="582" y1="743" x2="221" y2="634" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="660" y1="500" x2="383" y2="413" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<circle cx="374" cy="456" r="29" fill="#a9ffe6" opacity="0.9"/>
+<circle cx="374" cy="456" r="37" fill="none" stroke="#a9ffe6" stroke-width="1" opacity="0.25"/>
+<circle cx="548" cy="262" r="11" fill="#a9ffe6" opacity="0.9"/>
+<circle cx="548" cy="262" r="19" fill="none" stroke="#a9ffe6" stroke-width="1" opacity="0.25"/>
+<circle cx="653" cy="169" r="27" fill="#5b93ff" opacity="0.9"/>
+<circle cx="653" cy="169" r="35" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="551" cy="374" r="6" fill="#a9ffe6" opacity="0.9"/>
+<circle cx="551" cy="374" r="14" fill="none" stroke="#a9ffe6" stroke-width="1" opacity="0.25"/>
+<circle cx="582" cy="743" r="28" fill="#5b93ff" opacity="0.9"/>
+<circle cx="582" cy="743" r="36" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="221" cy="634" r="23" fill="#5b93ff" opacity="0.9"/>
+<circle cx="221" cy="634" r="31" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="660" cy="500" r="20" fill="#5b93ff" opacity="0.9"/>
+<circle cx="660" cy="500" r="28" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="383" cy="413" r="25" fill="#5b93ff" opacity="0.9"/>
+<circle cx="383" cy="413" r="33" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#eaf2ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#5b93ff" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#eaf2ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#eaf2ff" opacity="0.5">№ 660</text>
+</svg>

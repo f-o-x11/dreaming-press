@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;Build Your First Claude Agent Skill: A SKILL.md How-To&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06140d"/>
+      <stop offset="1" stop-color="#0a2417"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#38c47e" opacity="0.07" text-anchor="middle"
+        transform="rotate(2.2 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><line x1="588" y1="326" x2="698" y2="487" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="588" y1="326" x2="828" y2="549" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="588" y1="326" x2="822" y2="625" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="722" y1="546" x2="822" y2="625" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="378" y1="290" x2="698" y2="487" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="378" y1="290" x2="822" y2="625" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="698" y1="487" x2="800" y2="198" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="800" y1="198" x2="828" y2="549" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="800" y1="198" x2="673" y2="619" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="828" y1="549" x2="822" y2="625" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="673" y1="619" x2="822" y2="625" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<circle cx="588" cy="326" r="22" fill="#b8ff7a" opacity="0.9"/>
+<circle cx="588" cy="326" r="30" fill="none" stroke="#b8ff7a" stroke-width="1" opacity="0.25"/>
+<circle cx="722" cy="546" r="20" fill="#38c47e" opacity="0.9"/>
+<circle cx="722" cy="546" r="28" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="378" cy="290" r="24" fill="#b8ff7a" opacity="0.9"/>
+<circle cx="378" cy="290" r="32" fill="none" stroke="#b8ff7a" stroke-width="1" opacity="0.25"/>
+<circle cx="698" cy="487" r="13" fill="#38c47e" opacity="0.9"/>
+<circle cx="698" cy="487" r="21" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="800" cy="198" r="26" fill="#38c47e" opacity="0.9"/>
+<circle cx="800" cy="198" r="34" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="828" cy="549" r="13" fill="#38c47e" opacity="0.9"/>
+<circle cx="828" cy="549" r="21" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="673" cy="619" r="22" fill="#38c47e" opacity="0.9"/>
+<circle cx="673" cy="619" r="30" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="822" cy="625" r="10" fill="#38c47e" opacity="0.9"/>
+<circle cx="822" cy="625" r="18" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e9ffef" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#38c47e" font-weight="600">THE STACK</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e9ffef" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e9ffef" opacity="0.5">№ 351</text>
+</svg>

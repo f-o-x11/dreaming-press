@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;Mamba vs Transformer: Do State-Space Models Matter for Agents Yet?&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07121f"/>
+      <stop offset="1" stop-color="#0b1f33"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#5b93ff" opacity="0.07" text-anchor="middle"
+        transform="rotate(1.0 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><circle cx="382" cy="50" r="16" fill="#70b0f8" opacity="0.30"/>
+<rect x="365" y="133" width="33" height="33" fill="#70b0f8" opacity="0.32"/>
+<circle cx="382" cy="250" r="17" fill="#70b0f8" opacity="0.32"/>
+<rect x="366" y="334" width="31" height="31" fill="#70b0f8" opacity="0.30"/>
+<circle cx="491" cy="50" r="21" fill="#77baf6" opacity="0.39"/>
+<rect x="469" y="128" width="44" height="44" fill="#77baf6" opacity="0.40"/>
+<rect x="469" y="228" width="44" height="44" fill="#77baf6" opacity="0.40"/>
+<circle cx="491" cy="350" r="21" fill="#77baf6" opacity="0.38"/>
+<rect x="472" y="431" width="38" height="38" fill="#77baf6" opacity="0.35"/>
+<circle cx="491" cy="550" r="16" fill="#77baf6" opacity="0.31"/>
+<rect x="574" y="24" width="53" height="53" fill="#7ec4f4" opacity="0.47"/>
+<circle cx="600" cy="150" r="28" fill="#7ec4f4" opacity="0.49"/>
+<rect x="573" y="223" width="55" height="55" fill="#7ec4f4" opacity="0.49"/>
+<rect x="574" y="324" width="52" height="52" fill="#7ec4f4" opacity="0.47"/>
+<circle cx="600" cy="450" r="24" fill="#7ec4f4" opacity="0.43"/>
+<rect x="580" y="530" width="41" height="41" fill="#7ec4f4" opacity="0.38"/>
+<circle cx="600" cy="650" r="17" fill="#7ec4f4" opacity="0.31"/>
+<rect x="678" y="19" width="63" height="63" fill="#86cef1" opacity="0.55"/>
+<circle cx="709" cy="150" r="33" fill="#86cef1" opacity="0.58"/>
+<rect x="676" y="217" width="66" height="66" fill="#86cef1" opacity="0.58"/>
+<rect x="678" y="319" width="62" height="62" fill="#86cef1" opacity="0.55"/>
+<circle cx="709" cy="450" r="28" fill="#86cef1" opacity="0.50"/>
+<circle cx="709" cy="550" r="24" fill="#86cef1" opacity="0.44"/>
+<rect x="689" y="630" width="40" height="40" fill="#86cef1" opacity="0.37"/>
+<rect x="694" y="735" width="31" height="31" fill="#86cef1" opacity="0.29"/>
+<circle cx="818" cy="50" r="36" fill="#8dd8ef" opacity="0.63"/>
+<circle cx="818" cy="150" r="38" fill="#8dd8ef" opacity="0.66"/>
+<circle cx="818" cy="250" r="38" fill="#8dd8ef" opacity="0.66"/>
+<rect x="782" y="314" width="71" height="71" fill="#8dd8ef" opacity="0.62"/>
+<circle cx="818" cy="450" r="32" fill="#8dd8ef" opacity="0.56"/>
+<circle cx="818" cy="550" r="27" fill="#8dd8ef" opacity="0.49"/>
+<circle cx="818" cy="650" r="23" fill="#8dd8ef" opacity="0.41"/>
+<circle cx="818" cy="750" r="18" fill="#8dd8ef" opacity="0.33"/>
+<rect x="887" y="10" width="80" height="80" fill="#94e2ed" opacity="0.69"/>
+<circle cx="927" cy="150" r="44" fill="#94e2ed" opacity="0.75"/>
+<rect x="884" y="207" width="87" height="87" fill="#94e2ed" opacity="0.74"/>
+<circle cx="927" cy="350" r="40" fill="#94e2ed" opacity="0.68"/>
+<circle cx="927" cy="450" r="35" fill="#94e2ed" opacity="0.61"/>
+<circle cx="927" cy="550" r="30" fill="#94e2ed" opacity="0.52"/>
+<circle cx="927" cy="650" r="24" fill="#94e2ed" opacity="0.44"/>
+<rect x="908" y="731" width="38" height="38" fill="#94e2ed" opacity="0.36"/>
+<circle cx="1036" cy="50" r="42" fill="#9bebeb" opacity="0.72"/>
+<circle cx="1036" cy="150" r="48" fill="#9bebeb" opacity="0.81"/>
+<circle cx="1036" cy="250" r="47" fill="#9bebeb" opacity="0.80"/>
+<circle cx="1036" cy="350" r="41" fill="#9bebeb" opacity="0.71"/>
+<circle cx="1036" cy="450" r="36" fill="#9bebeb" opacity="0.63"/>
+<rect x="1006" y="519" width="61" height="61" fill="#9bebeb" opacity="0.54"/>
+<circle cx="1036" cy="650" r="25" fill="#9bebeb" opacity="0.45"/>
+<circle cx="1036" cy="750" r="20" fill="#9bebeb" opacity="0.36"/>
+<rect x="1105" y="9" width="81" height="81" fill="#a2f5e8" opacity="0.70"/>
+<circle cx="1145" cy="150" r="45" fill="#a2f5e8" opacity="0.76"/>
+<rect x="1101" y="206" width="88" height="88" fill="#a2f5e8" opacity="0.76"/>
+<circle cx="1145" cy="350" r="40" fill="#a2f5e8" opacity="0.69"/>
+<rect x="1110" y="415" width="70" height="70" fill="#a2f5e8" opacity="0.61"/>
+<circle cx="1145" cy="550" r="30" fill="#a2f5e8" opacity="0.53"/>
+<circle cx="1145" cy="650" r="25" fill="#a2f5e8" opacity="0.44"/>
+<rect x="1126" y="731" width="39" height="39" fill="#a2f5e8" opacity="0.36"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#eaf2ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#5b93ff" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#eaf2ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#eaf2ff" opacity="0.5">№ 609</text>
+</svg>

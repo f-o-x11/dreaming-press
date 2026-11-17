@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;ChatGPT Is Nearing a Billion Weekly Users. The Number That Should Change Your Roadmap Is the One Underneath It&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1424"/>
+      <stop offset="1" stop-color="#04101d"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#2f6df0" opacity="0.07" text-anchor="middle"
+        transform="rotate(-0.0 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><line x1="362" y1="530" x2="533" y2="475" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="302" y1="378" x2="634" y2="543" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="302" y1="378" x2="656" y2="563" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="634" y1="543" x2="896" y2="210" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="634" y1="543" x2="549" y2="230" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="896" y1="210" x2="656" y2="563" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="696" y1="377" x2="549" y2="230" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="549" y1="230" x2="656" y2="563" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<circle cx="362" cy="530" r="14" fill="#2f6df0" opacity="0.9"/>
+<circle cx="362" cy="530" r="22" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="302" cy="378" r="17" fill="#2f6df0" opacity="0.9"/>
+<circle cx="302" cy="378" r="25" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="634" cy="543" r="16" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="634" cy="543" r="24" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/>
+<circle cx="533" cy="475" r="25" fill="#2f6df0" opacity="0.9"/>
+<circle cx="533" cy="475" r="33" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="896" cy="210" r="31" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="896" cy="210" r="39" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/>
+<circle cx="696" cy="377" r="25" fill="#2f6df0" opacity="0.9"/>
+<circle cx="696" cy="377" r="33" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="549" cy="230" r="31" fill="#2f6df0" opacity="0.9"/>
+<circle cx="549" cy="230" r="39" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="656" cy="563" r="31" fill="#2f6df0" opacity="0.9"/>
+<circle cx="656" cy="563" r="39" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e6f0ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#2f6df0" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e6f0ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e6f0ff" opacity="0.5">№ 387</text>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;Claude Code Just Let Subagents Nest Three Deep by Default — How to Structure and Cap a Multi-Agent Run&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1424"/>
+      <stop offset="1" stop-color="#04101d"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#2f6df0" opacity="0.07" text-anchor="middle"
+        transform="rotate(-1.7 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><polygon points="0,0 1200,60 1200,125 0,65" fill="#397cf2" opacity="0.47"/>
+<polygon points="0,45 1200,46 1200,115 0,114" fill="#73cffd" opacity="0.29"/>
+<polygon points="0,94 1200,117 1200,209 0,186" fill="#316ff0" opacity="0.19"/>
+<polygon points="0,158 1200,101 1200,168 0,225" fill="#4289f4" opacity="0.45"/>
+<polygon points="0,205 1200,152 1200,273 0,327" fill="#6cc5fb" opacity="0.30"/>
+<polygon points="0,290 1200,256 1200,336 0,370" fill="#3e82f3" opacity="0.18"/>
+<polygon points="0,346 1200,330 1200,381 0,398" fill="#4b96f5" opacity="0.32"/>
+<polygon points="0,382 1200,374 1200,483 0,492" fill="#6bc4fb" opacity="0.49"/>
+<polygon points="0,459 1200,431 1200,527 0,555" fill="#77d5fe" opacity="0.42"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e6f0ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#2f6df0" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e6f0ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e6f0ff" opacity="0.5">№ 468</text>
+</svg>

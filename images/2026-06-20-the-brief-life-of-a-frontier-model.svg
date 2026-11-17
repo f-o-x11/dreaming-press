@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Field Notes: The Brief Life of a Frontier Model">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#140a1f"/>
+      <stop offset="1" stop-color="#23103a"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#c66bf3" opacity="0.07" text-anchor="middle"
+        transform="rotate(0.4 600 400)">F</text>
+
+  <g transform="translate(0,0)"><line x1="339" y1="545" x2="876" y2="511" stroke="#c66bf3" stroke-width="1.2" opacity="0.30"/>
+<line x1="269" y1="258" x2="619" y2="266" stroke="#c66bf3" stroke-width="1.2" opacity="0.30"/>
+<line x1="269" y1="258" x2="724" y2="464" stroke="#c66bf3" stroke-width="1.2" opacity="0.30"/>
+<line x1="782" y1="443" x2="724" y2="464" stroke="#c66bf3" stroke-width="1.2" opacity="0.30"/>
+<line x1="619" y1="266" x2="758" y2="248" stroke="#c66bf3" stroke-width="1.2" opacity="0.30"/>
+<line x1="619" y1="266" x2="724" y2="464" stroke="#c66bf3" stroke-width="1.2" opacity="0.30"/>
+<line x1="738" y1="434" x2="724" y2="464" stroke="#c66bf3" stroke-width="1.2" opacity="0.30"/>
+<line x1="738" y1="434" x2="650" y2="282" stroke="#c66bf3" stroke-width="1.2" opacity="0.30"/>
+<line x1="876" y1="511" x2="724" y2="464" stroke="#c66bf3" stroke-width="1.2" opacity="0.30"/>
+<line x1="724" y1="464" x2="853" y2="589" stroke="#c66bf3" stroke-width="1.2" opacity="0.30"/>
+<line x1="650" y1="282" x2="853" y2="589" stroke="#c66bf3" stroke-width="1.2" opacity="0.30"/>
+<circle cx="339" cy="545" r="31" fill="#c66bf3" opacity="0.9"/>
+<circle cx="339" cy="545" r="39" fill="none" stroke="#c66bf3" stroke-width="1" opacity="0.25"/>
+<circle cx="269" cy="258" r="14" fill="#c66bf3" opacity="0.9"/>
+<circle cx="269" cy="258" r="22" fill="none" stroke="#c66bf3" stroke-width="1" opacity="0.25"/>
+<circle cx="782" cy="443" r="17" fill="#c66bf3" opacity="0.9"/>
+<circle cx="782" cy="443" r="25" fill="none" stroke="#c66bf3" stroke-width="1" opacity="0.25"/>
+<circle cx="619" cy="266" r="23" fill="#c66bf3" opacity="0.9"/>
+<circle cx="619" cy="266" r="31" fill="none" stroke="#c66bf3" stroke-width="1" opacity="0.25"/>
+<circle cx="738" cy="434" r="25" fill="#c66bf3" opacity="0.9"/>
+<circle cx="738" cy="434" r="33" fill="none" stroke="#c66bf3" stroke-width="1" opacity="0.25"/>
+<circle cx="758" cy="248" r="12" fill="#ff9ad2" opacity="0.9"/>
+<circle cx="758" cy="248" r="20" fill="none" stroke="#ff9ad2" stroke-width="1" opacity="0.25"/>
+<circle cx="876" cy="511" r="27" fill="#ff9ad2" opacity="0.9"/>
+<circle cx="876" cy="511" r="35" fill="none" stroke="#ff9ad2" stroke-width="1" opacity="0.25"/>
+<circle cx="892" cy="570" r="14" fill="#c66bf3" opacity="0.9"/>
+<circle cx="892" cy="570" r="22" fill="none" stroke="#c66bf3" stroke-width="1" opacity="0.25"/>
+<circle cx="724" cy="464" r="16" fill="#ff9ad2" opacity="0.9"/>
+<circle cx="724" cy="464" r="24" fill="none" stroke="#ff9ad2" stroke-width="1" opacity="0.25"/>
+<circle cx="650" cy="282" r="27" fill="#ff9ad2" opacity="0.9"/>
+<circle cx="650" cy="282" r="35" fill="none" stroke="#ff9ad2" stroke-width="1" opacity="0.25"/>
+<circle cx="853" cy="589" r="23" fill="#c66bf3" opacity="0.9"/>
+<circle cx="853" cy="589" r="31" fill="none" stroke="#c66bf3" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#f7eaff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#c66bf3" font-weight="600">FABRICATIONS</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#f7eaff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#f7eaff" opacity="0.5">№ 378</text>
+</svg>

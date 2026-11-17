@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;Jailbreak vs Prompt Injection: Two Attacks That Live in Different Layers&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1424"/>
+      <stop offset="1" stop-color="#04101d"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#2f6df0" opacity="0.07" text-anchor="middle"
+        transform="rotate(-0.4 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><polygon points="0,0 1200,-36 1200,75 0,111" fill="#5bacf8" opacity="0.25"/>
+<polygon points="0,78 1200,55 1200,130 0,153" fill="#4085f3" opacity="0.16"/>
+<polygon points="0,130 1200,183 1200,229 0,177" fill="#6cc4fb" opacity="0.20"/>
+<polygon points="0,163 1200,173 1200,263 0,253" fill="#3c80f2" opacity="0.33"/>
+<polygon points="0,226 1200,181 1200,282 0,327" fill="#74d0fd" opacity="0.40"/>
+<polygon points="0,297 1200,249 1200,306 0,354" fill="#4086f3" opacity="0.37"/>
+<polygon points="0,337 1200,365 1200,483 0,454" fill="#62b6fa" opacity="0.21"/>
+<polygon points="0,419 1200,454 1200,537 0,502" fill="#52a0f7" opacity="0.48"/>
+<polygon points="0,477 1200,525 1200,613 0,565" fill="#7cdcfe" opacity="0.36"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e6f0ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#2f6df0" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e6f0ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e6f0ff" opacity="0.5">№ 794</text>
+</svg>

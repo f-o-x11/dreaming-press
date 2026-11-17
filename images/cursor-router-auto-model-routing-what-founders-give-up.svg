@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;Cursor Router Ships: The Model Picker Is Now a Classifier — and What You Give Up to Save 60%&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07121f"/>
+      <stop offset="1" stop-color="#0b1f33"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#5b93ff" opacity="0.07" text-anchor="middle"
+        transform="rotate(-1.8 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><polygon points="0,0 1200,14 1200,89 0,74" fill="#69a7fa" opacity="0.41"/>
+<polygon points="0,52 1200,-4 1200,76 0,132" fill="#5f98fe" opacity="0.47"/>
+<polygon points="0,108 1200,133 1200,212 0,186" fill="#a4f7e8" opacity="0.22"/>
+<polygon points="0,163 1200,217 1200,278 0,224" fill="#609afd" opacity="0.30"/>
+<polygon points="0,206 1200,213 1200,336 0,329" fill="#a2f5e8" opacity="0.31"/>
+<polygon points="0,292 1200,259 1200,372 0,404" fill="#9cedea" opacity="0.33"/>
+<polygon points="0,371 1200,388 1200,444 0,427" fill="#8dd9ef" opacity="0.27"/>
+<polygon points="0,410 1200,398 1200,470 0,482" fill="#8cd7ef" opacity="0.21"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#eaf2ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#5b93ff" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#eaf2ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#eaf2ff" opacity="0.5">№ 950</text>
+</svg>

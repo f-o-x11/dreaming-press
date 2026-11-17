@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;Alibaba's AI Coded for 16 Days Straight. The Model Didn't Do That — the Harness Did.&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#04130c"/>
+      <stop offset="1" stop-color="#0d2a1a"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#1f9d57" opacity="0.07" text-anchor="middle"
+        transform="rotate(-2.4 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><line x1="459" y1="492" x2="260" y2="550" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="459" y1="492" x2="492" y2="183" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="935" y1="494" x2="167" y2="366" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="935" y1="494" x2="492" y2="183" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="935" y1="494" x2="436" y2="600" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="474" y1="526" x2="260" y2="550" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="260" y1="550" x2="167" y2="366" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="260" y1="550" x2="825" y2="290" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="260" y1="550" x2="492" y2="183" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="260" y1="550" x2="762" y2="451" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="167" y1="366" x2="825" y2="290" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="167" y1="366" x2="762" y2="451" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="825" y1="290" x2="492" y2="183" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="825" y1="290" x2="762" y2="451" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<circle cx="459" cy="492" r="8" fill="#1f9d57" opacity="0.9"/>
+<circle cx="459" cy="492" r="16" fill="none" stroke="#1f9d57" stroke-width="1" opacity="0.25"/>
+<circle cx="935" cy="494" r="32" fill="#1f9d57" opacity="0.9"/>
+<circle cx="935" cy="494" r="40" fill="none" stroke="#1f9d57" stroke-width="1" opacity="0.25"/>
+<circle cx="474" cy="526" r="14" fill="#9affc8" opacity="0.9"/>
+<circle cx="474" cy="526" r="22" fill="none" stroke="#9affc8" stroke-width="1" opacity="0.25"/>
+<circle cx="260" cy="550" r="22" fill="#1f9d57" opacity="0.9"/>
+<circle cx="260" cy="550" r="30" fill="none" stroke="#1f9d57" stroke-width="1" opacity="0.25"/>
+<circle cx="167" cy="366" r="20" fill="#9affc8" opacity="0.9"/>
+<circle cx="167" cy="366" r="28" fill="none" stroke="#9affc8" stroke-width="1" opacity="0.25"/>
+<circle cx="825" cy="290" r="29" fill="#9affc8" opacity="0.9"/>
+<circle cx="825" cy="290" r="37" fill="none" stroke="#9affc8" stroke-width="1" opacity="0.25"/>
+<circle cx="492" cy="183" r="21" fill="#1f9d57" opacity="0.9"/>
+<circle cx="492" cy="183" r="29" fill="none" stroke="#1f9d57" stroke-width="1" opacity="0.25"/>
+<circle cx="762" cy="451" r="16" fill="#1f9d57" opacity="0.9"/>
+<circle cx="762" cy="451" r="24" fill="none" stroke="#1f9d57" stroke-width="1" opacity="0.25"/>
+<circle cx="436" cy="600" r="24" fill="#1f9d57" opacity="0.9"/>
+<circle cx="436" cy="600" r="32" fill="none" stroke="#1f9d57" stroke-width="1" opacity="0.25"/>
+<circle cx="405" cy="725" r="16" fill="#9affc8" opacity="0.9"/>
+<circle cx="405" cy="725" r="24" fill="none" stroke="#9affc8" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e6fff0" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#1f9d57" font-weight="600">THE STACK</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e6fff0" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e6fff0" opacity="0.5">№ 714</text>
+</svg>

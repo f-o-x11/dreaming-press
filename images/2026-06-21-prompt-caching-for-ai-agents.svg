@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="Prompt Caching for AI Agents: Why Your Cache Keeps Missing">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1424"/>
+      <stop offset="1" stop-color="#04101d"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#2f6df0" opacity="0.07" text-anchor="middle"
+        transform="rotate(-2.1 600 400)">P</text>
+
+  <g transform="translate(0,0)"><circle cx="43" cy="400" r="13" fill="#2f6df0" opacity="0.30"/>
+<rect x="29" y="500" width="28" height="28" fill="#2f6df0" opacity="0.31"/>
+<circle cx="43" cy="629" r="15" fill="#2f6df0" opacity="0.33"/>
+<circle cx="43" cy="743" r="15" fill="#2f6df0" opacity="0.33"/>
+<circle cx="129" cy="171" r="13" fill="#3575f1" opacity="0.29"/>
+<rect x="114" y="271" width="30" height="30" fill="#3575f1" opacity="0.33"/>
+<circle cx="129" cy="400" r="17" fill="#3575f1" opacity="0.36"/>
+<circle cx="129" cy="514" r="18" fill="#3575f1" opacity="0.38"/>
+<circle cx="129" cy="629" r="18" fill="#3575f1" opacity="0.39"/>
+<circle cx="129" cy="743" r="18" fill="#3575f1" opacity="0.40"/>
+<rect x="201" y="44" width="27" height="27" fill="#3a7df2" opacity="0.30"/>
+<circle cx="214" cy="171" r="16" fill="#3a7df2" opacity="0.35"/>
+<circle cx="214" cy="286" r="18" fill="#3a7df2" opacity="0.39"/>
+<circle cx="214" cy="400" r="20" fill="#3a7df2" opacity="0.42"/>
+<circle cx="214" cy="514" r="21" fill="#3a7df2" opacity="0.45"/>
+<circle cx="214" cy="629" r="22" fill="#3a7df2" opacity="0.46"/>
+<circle cx="214" cy="743" r="22" fill="#3a7df2" opacity="0.46"/>
+<rect x="284" y="41" width="32" height="32" fill="#4086f3" opacity="0.35"/>
+<circle cx="300" cy="171" r="19" fill="#4086f3" opacity="0.40"/>
+<circle cx="300" cy="286" r="21" fill="#4086f3" opacity="0.44"/>
+<circle cx="300" cy="400" r="23" fill="#4086f3" opacity="0.48"/>
+<circle cx="300" cy="514" r="25" fill="#4086f3" opacity="0.51"/>
+<rect x="274" y="603" width="51" height="51" fill="#4086f3" opacity="0.53"/>
+<circle cx="300" cy="743" r="26" fill="#4086f3" opacity="0.53"/>
+<rect x="368" y="39" width="36" height="36" fill="#468ef4" opacity="0.39"/>
+<circle cx="386" cy="171" r="21" fill="#468ef4" opacity="0.44"/>
+<circle cx="386" cy="286" r="24" fill="#468ef4" opacity="0.50"/>
+<circle cx="386" cy="400" r="26" fill="#468ef4" opacity="0.54"/>
+<circle cx="386" cy="514" r="28" fill="#468ef4" opacity="0.58"/>
+<rect x="356" y="599" width="59" height="59" fill="#468ef4" opacity="0.60"/>
+<circle cx="386" cy="743" r="29" fill="#468ef4" opacity="0.60"/>
+<circle cx="471" cy="57" r="20" fill="#4c96f5" opacity="0.42"/>
+<rect x="448" y="148" width="46" height="46" fill="#4c96f5" opacity="0.48"/>
+<circle cx="471" cy="286" r="26" fill="#4c96f5" opacity="0.54"/>
+<circle cx="471" cy="400" r="29" fill="#4c96f5" opacity="0.59"/>
+<circle cx="471" cy="514" r="31" fill="#4c96f5" opacity="0.64"/>
+<rect x="439" y="596" width="66" height="66" fill="#4c96f5" opacity="0.66"/>
+<circle cx="471" cy="743" r="33" fill="#4c96f5" opacity="0.67"/>
+<circle cx="557" cy="57" r="21" fill="#519ef6" opacity="0.45"/>
+<circle cx="557" cy="171" r="25" fill="#519ef6" opacity="0.51"/>
+<circle cx="557" cy="286" r="28" fill="#519ef6" opacity="0.57"/>
+<rect x="526" y="369" width="63" height="63" fill="#519ef6" opacity="0.64"/>
+<circle cx="557" cy="514" r="34" fill="#519ef6" opacity="0.69"/>
+<circle cx="557" cy="629" r="36" fill="#519ef6" opacity="0.73"/>
+<circle cx="557" cy="743" r="37" fill="#519ef6" opacity="0.74"/>
+<rect x="621" y="35" width="44" height="44" fill="#57a6f8" opacity="0.46"/>
+<circle cx="643" cy="171" r="26" fill="#57a6f8" opacity="0.53"/>
+<circle cx="643" cy="286" r="29" fill="#57a6f8" opacity="0.59"/>
+<rect x="610" y="367" width="66" height="66" fill="#57a6f8" opacity="0.66"/>
+<circle cx="643" cy="514" r="36" fill="#57a6f8" opacity="0.73"/>
+<circle cx="643" cy="629" r="39" fill="#57a6f8" opacity="0.79"/>
+<circle cx="643" cy="743" r="40" fill="#57a6f8" opacity="0.80"/>
+<circle cx="729" cy="57" r="22" fill="#5daff9" opacity="0.46"/>
+<rect x="703" y="146" width="51" height="51" fill="#5daff9" opacity="0.53"/>
+<rect x="699" y="256" width="59" height="59" fill="#5daff9" opacity="0.60"/>
+<circle cx="729" cy="400" r="33" fill="#5daff9" opacity="0.66"/>
+<circle cx="729" cy="514" r="37" fill="#5daff9" opacity="0.73"/>
+<rect x="689" y="589" width="80" height="80" fill="#5daff9" opacity="0.80"/>
+<rect x="688" y="702" width="82" height="82" fill="#5daff9" opacity="0.82"/>
+<circle cx="814" cy="57" r="21" fill="#62b7fa" opacity="0.45"/>
+<circle cx="814" cy="171" r="25" fill="#62b7fa" opacity="0.52"/>
+<circle cx="814" cy="286" r="28" fill="#62b7fa" opacity="0.58"/>
+<circle cx="814" cy="400" r="32" fill="#62b7fa" opacity="0.64"/>
+<rect x="779" y="479" width="70" height="70" fill="#62b7fa" opacity="0.70"/>
+<rect x="777" y="591" width="74" height="74" fill="#62b7fa" opacity="0.74"/>
+<circle cx="814" cy="743" r="38" fill="#62b7fa" opacity="0.75"/>
+<rect x="880" y="37" width="41" height="41" fill="#68bffb" opacity="0.43"/>
+<circle cx="900" cy="171" r="24" fill="#68bffb" opacity="0.49"/>
+<rect x="873" y="259" width="54" height="54" fill="#68bffb" opacity="0.55"/>
+<rect x="870" y="370" width="59" height="59" fill="#68bffb" opacity="0.60"/>
+<circle cx="900" cy="514" r="32" fill="#68bffb" opacity="0.65"/>
+<rect x="866" y="595" width="68" height="68" fill="#68bffb" opacity="0.68"/>
+<rect x="866" y="709" width="68" height="68" fill="#68bffb" opacity="0.69"/>
+<circle cx="986" cy="57" r="19" fill="#6ec7fc" opacity="0.40"/>
+<rect x="964" y="150" width="43" height="43" fill="#6ec7fc" opacity="0.45"/>
+<circle cx="986" cy="286" r="25" fill="#6ec7fc" opacity="0.51"/>
+<circle cx="986" cy="400" r="27" fill="#6ec7fc" opacity="0.55"/>
+<circle cx="986" cy="514" r="29" fill="#6ec7fc" opacity="0.59"/>
+<rect x="956" y="598" width="60" height="60" fill="#6ec7fc" opacity="0.61"/>
+<circle cx="986" cy="743" r="30" fill="#6ec7fc" opacity="0.62"/>
+<rect x="1055" y="41" width="33" height="33" fill="#74d0fd" opacity="0.36"/>
+<rect x="1052" y="152" width="39" height="39" fill="#74d0fd" opacity="0.41"/>
+<circle cx="1071" cy="286" r="22" fill="#74d0fd" opacity="0.46"/>
+<circle cx="1071" cy="400" r="24" fill="#74d0fd" opacity="0.50"/>
+<rect x="1046" y="489" width="51" height="51" fill="#74d0fd" opacity="0.53"/>
+<circle cx="1071" cy="629" r="27" fill="#74d0fd" opacity="0.55"/>
+<circle cx="1071" cy="743" r="27" fill="#74d0fd" opacity="0.55"/>
+<circle cx="1157" cy="57" r="14" fill="#79d8fe" opacity="0.31"/>
+<circle cx="1157" cy="171" r="17" fill="#79d8fe" opacity="0.36"/>
+<circle cx="1157" cy="286" r="19" fill="#79d8fe" opacity="0.40"/>
+<circle cx="1157" cy="400" r="21" fill="#79d8fe" opacity="0.44"/>
+<rect x="1135" y="492" width="44" height="44" fill="#79d8fe" opacity="0.46"/>
+<circle cx="1157" cy="629" r="23" fill="#79d8fe" opacity="0.48"/>
+<rect x="1134" y="720" width="46" height="46" fill="#79d8fe" opacity="0.48"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e6f0ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#2f6df0" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e6f0ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e6f0ff" opacity="0.5">№ 485</text>
+</svg>

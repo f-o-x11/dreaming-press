@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;Responses API vs the Invocations Protocol: The Real Choice in Foundry Hosted Agents&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07121f"/>
+      <stop offset="1" stop-color="#0b1f33"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#5b93ff" opacity="0.07" text-anchor="middle"
+        transform="rotate(0.4 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><polygon points="0,0 1200,34 1200,150 0,116" fill="#91deee" opacity="0.22"/>
+<polygon points="0,81 1200,95 1200,168 0,154" fill="#80c6f3" opacity="0.46"/>
+<polygon points="0,132 1200,146 1200,211 0,197" fill="#90ddee" opacity="0.46"/>
+<polygon points="0,178 1200,151 1200,243 0,270" fill="#9ef0e9" opacity="0.13"/>
+<polygon points="0,242 1200,273 1200,322 0,291" fill="#64a0fc" opacity="0.41"/>
+<polygon points="0,276 1200,283 1200,382 0,375" fill="#8ad3f0" opacity="0.50"/>
+<polygon points="0,345 1200,337 1200,425 0,433" fill="#6dacf9" opacity="0.41"/>
+<polygon points="0,407 1200,409 1200,514 0,512" fill="#96e4ec" opacity="0.31"/>
+<polygon points="0,481 1200,432 1200,532 0,581" fill="#5c95ff" opacity="0.37"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#eaf2ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#5b93ff" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#eaf2ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#eaf2ff" opacity="0.5">№ 408</text>
+</svg>

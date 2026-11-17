@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;How to Add an 'I Am an AI' Disclosure to Your Chatbot Before the EU AI Act's August 2 Deadline&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06140d"/>
+      <stop offset="1" stop-color="#0a2417"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#38c47e" opacity="0.07" text-anchor="middle"
+        transform="rotate(0.7 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><line x1="487" y1="498" x2="260" y2="506" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="487" y1="498" x2="203" y2="496" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="487" y1="498" x2="446" y2="682" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="487" y1="498" x2="463" y2="475" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="487" y1="498" x2="405" y2="376" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="260" y1="506" x2="794" y2="319" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="794" y1="319" x2="203" y2="496" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="794" y1="319" x2="405" y2="376" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="446" y1="682" x2="405" y2="376" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="463" y1="475" x2="405" y2="376" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<circle cx="487" cy="498" r="30" fill="#38c47e" opacity="0.9"/>
+<circle cx="487" cy="498" r="38" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="260" cy="506" r="16" fill="#38c47e" opacity="0.9"/>
+<circle cx="260" cy="506" r="24" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="794" cy="319" r="31" fill="#38c47e" opacity="0.9"/>
+<circle cx="794" cy="319" r="39" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="203" cy="496" r="16" fill="#b8ff7a" opacity="0.9"/>
+<circle cx="203" cy="496" r="24" fill="none" stroke="#b8ff7a" stroke-width="1" opacity="0.25"/>
+<circle cx="446" cy="682" r="26" fill="#38c47e" opacity="0.9"/>
+<circle cx="446" cy="682" r="34" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="463" cy="475" r="27" fill="#b8ff7a" opacity="0.9"/>
+<circle cx="463" cy="475" r="35" fill="none" stroke="#b8ff7a" stroke-width="1" opacity="0.25"/>
+<circle cx="405" cy="376" r="7" fill="#38c47e" opacity="0.9"/>
+<circle cx="405" cy="376" r="15" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e9ffef" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#38c47e" font-weight="600">THE STACK</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e9ffef" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e9ffef" opacity="0.5">№ 109</text>
+</svg>

@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;Android CLI 1.0: Ship a Mobile App With Your Coding Agent, No IDE Required&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06140d"/>
+      <stop offset="1" stop-color="#0a2417"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#38c47e" opacity="0.07" text-anchor="middle"
+        transform="rotate(-1.2 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><line x1="566" y1="593" x2="195" y2="460" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="566" y1="593" x2="852" y2="386" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="584" y1="736" x2="842" y2="596" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="584" y1="736" x2="797" y2="448" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="584" y1="736" x2="411" y2="449" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="842" y1="596" x2="195" y2="460" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="842" y1="596" x2="428" y2="389" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="478" y1="333" x2="195" y2="460" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="195" y1="460" x2="797" y2="448" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="195" y1="460" x2="428" y2="389" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<line x1="797" y1="448" x2="428" y2="389" stroke="#38c47e" stroke-width="1.2" opacity="0.30"/>
+<circle cx="566" cy="593" r="15" fill="#38c47e" opacity="0.9"/>
+<circle cx="566" cy="593" r="23" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="584" cy="736" r="31" fill="#38c47e" opacity="0.9"/>
+<circle cx="584" cy="736" r="39" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="842" cy="596" r="16" fill="#b8ff7a" opacity="0.9"/>
+<circle cx="842" cy="596" r="24" fill="none" stroke="#b8ff7a" stroke-width="1" opacity="0.25"/>
+<circle cx="478" cy="333" r="20" fill="#b8ff7a" opacity="0.9"/>
+<circle cx="478" cy="333" r="28" fill="none" stroke="#b8ff7a" stroke-width="1" opacity="0.25"/>
+<circle cx="195" cy="460" r="8" fill="#b8ff7a" opacity="0.9"/>
+<circle cx="195" cy="460" r="16" fill="none" stroke="#b8ff7a" stroke-width="1" opacity="0.25"/>
+<circle cx="852" cy="386" r="29" fill="#38c47e" opacity="0.9"/>
+<circle cx="852" cy="386" r="37" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="797" cy="448" r="7" fill="#b8ff7a" opacity="0.9"/>
+<circle cx="797" cy="448" r="15" fill="none" stroke="#b8ff7a" stroke-width="1" opacity="0.25"/>
+<circle cx="411" cy="449" r="25" fill="#38c47e" opacity="0.9"/>
+<circle cx="411" cy="449" r="33" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/>
+<circle cx="428" cy="389" r="21" fill="#38c47e" opacity="0.9"/>
+<circle cx="428" cy="389" r="29" fill="none" stroke="#38c47e" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e9ffef" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#38c47e" font-weight="600">THE STACK</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e9ffef" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e9ffef" opacity="0.5">№ 237</text>
+</svg>

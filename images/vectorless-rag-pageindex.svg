@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;RAG Without a Vector Database: What PageIndex's Reasoning-Based Retrieval Actually Trades&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1424"/>
+      <stop offset="1" stop-color="#04101d"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#2f6df0" opacity="0.07" text-anchor="middle"
+        transform="rotate(-0.8 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><line x1="833" y1="525" x2="418" y2="405" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="833" y1="525" x2="636" y2="293" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="833" y1="525" x2="711" y2="528" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="605" y1="118" x2="784" y2="651" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="609" y1="698" x2="636" y2="293" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="609" y1="698" x2="711" y2="528" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<line x1="636" y1="293" x2="711" y2="528" stroke="#2f6df0" stroke-width="1.2" opacity="0.30"/>
+<circle cx="833" cy="525" r="27" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="833" cy="525" r="35" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/>
+<circle cx="418" cy="405" r="20" fill="#2f6df0" opacity="0.9"/>
+<circle cx="418" cy="405" r="28" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="605" cy="118" r="17" fill="#2f6df0" opacity="0.9"/>
+<circle cx="605" cy="118" r="25" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/>
+<circle cx="609" cy="698" r="10" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="609" cy="698" r="18" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/>
+<circle cx="359" cy="221" r="28" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="359" cy="221" r="36" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/>
+<circle cx="784" cy="651" r="25" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="784" cy="651" r="33" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/>
+<circle cx="636" cy="293" r="14" fill="#7fe0ff" opacity="0.9"/>
+<circle cx="636" cy="293" r="22" fill="none" stroke="#7fe0ff" stroke-width="1" opacity="0.25"/>
+<circle cx="711" cy="528" r="20" fill="#2f6df0" opacity="0.9"/>
+<circle cx="711" cy="528" r="28" fill="none" stroke="#2f6df0" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e6f0ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#2f6df0" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e6f0ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e6f0ff" opacity="0.5">№ 635</text>
+</svg>

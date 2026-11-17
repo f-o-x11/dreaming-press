@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;How to Cut Your Claude Bill With a Three-Tier Model Router (Haiku → Sonnet → Opus)&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06140d"/>
+      <stop offset="1" stop-color="#0a2417"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#38c47e" opacity="0.07" text-anchor="middle"
+        transform="rotate(1.5 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><circle cx="46" cy="36" r="33" fill="#38c47e" opacity="0.77"/>
+<rect x="10" y="73" width="71" height="71" fill="#38c47e" opacity="0.83"/>
+<rect x="13" y="148" width="67" height="67" fill="#38c47e" opacity="0.79"/>
+<circle cx="46" cy="255" r="30" fill="#38c47e" opacity="0.71"/>
+<circle cx="46" cy="327" r="27" fill="#38c47e" opacity="0.64"/>
+<circle cx="46" cy="400" r="23" fill="#38c47e" opacity="0.56"/>
+<rect x="26" y="453" width="40" height="40" fill="#38c47e" opacity="0.49"/>
+<circle cx="46" cy="545" r="17" fill="#38c47e" opacity="0.42"/>
+<rect x="33" y="605" width="27" height="27" fill="#38c47e" opacity="0.34"/>
+<circle cx="138" cy="36" r="32" fill="#42c97e" opacity="0.75"/>
+<circle cx="138" cy="109" r="33" fill="#42c97e" opacity="0.79"/>
+<rect x="106" y="150" width="65" height="65" fill="#42c97e" opacity="0.76"/>
+<circle cx="138" cy="255" r="29" fill="#42c97e" opacity="0.70"/>
+<circle cx="138" cy="327" r="26" fill="#42c97e" opacity="0.63"/>
+<circle cx="138" cy="400" r="23" fill="#42c97e" opacity="0.56"/>
+<circle cx="138" cy="473" r="20" fill="#42c97e" opacity="0.49"/>
+<circle cx="138" cy="545" r="16" fill="#42c97e" opacity="0.41"/>
+<circle cx="138" cy="618" r="13" fill="#42c97e" opacity="0.34"/>
+<circle cx="231" cy="36" r="29" fill="#4ccd7d" opacity="0.69"/>
+<circle cx="231" cy="109" r="30" fill="#4ccd7d" opacity="0.71"/>
+<circle cx="231" cy="182" r="30" fill="#4ccd7d" opacity="0.70"/>
+<rect x="203" y="227" width="55" height="55" fill="#4ccd7d" opacity="0.66"/>
+<circle cx="231" cy="327" r="25" fill="#4ccd7d" opacity="0.60"/>
+<circle cx="231" cy="400" r="22" fill="#4ccd7d" opacity="0.53"/>
+<circle cx="231" cy="473" r="19" fill="#4ccd7d" opacity="0.47"/>
+<circle cx="231" cy="545" r="16" fill="#4ccd7d" opacity="0.40"/>
+<circle cx="231" cy="618" r="13" fill="#4ccd7d" opacity="0.33"/>
+<rect x="297" y="10" width="52" height="52" fill="#56d27d" opacity="0.62"/>
+<circle cx="323" cy="109" r="27" fill="#56d27d" opacity="0.64"/>
+<circle cx="323" cy="182" r="26" fill="#56d27d" opacity="0.63"/>
+<circle cx="323" cy="255" r="25" fill="#56d27d" opacity="0.60"/>
+<circle cx="323" cy="327" r="23" fill="#56d27d" opacity="0.55"/>
+<rect x="303" y="380" width="41" height="41" fill="#56d27d" opacity="0.50"/>
+<rect x="306" y="455" width="35" height="35" fill="#56d27d" opacity="0.43"/>
+<rect x="309" y="531" width="29" height="29" fill="#56d27d" opacity="0.37"/>
+<circle cx="323" cy="618" r="11" fill="#56d27d" opacity="0.30"/>
+<circle cx="415" cy="36" r="23" fill="#5fd67d" opacity="0.55"/>
+<circle cx="415" cy="109" r="23" fill="#5fd67d" opacity="0.57"/>
+<rect x="392" y="159" width="46" height="46" fill="#5fd67d" opacity="0.56"/>
+<circle cx="415" cy="255" r="22" fill="#5fd67d" opacity="0.53"/>
+<rect x="395" y="307" width="41" height="41" fill="#5fd67d" opacity="0.50"/>
+<circle cx="415" cy="400" r="18" fill="#5fd67d" opacity="0.45"/>
+<circle cx="415" cy="473" r="16" fill="#5fd67d" opacity="0.39"/>
+<circle cx="415" cy="545" r="13" fill="#5fd67d" opacity="0.33"/>
+<circle cx="508" cy="36" r="20" fill="#69db7c" opacity="0.48"/>
+<rect x="488" y="89" width="40" height="40" fill="#69db7c" opacity="0.49"/>
+<rect x="488" y="162" width="40" height="40" fill="#69db7c" opacity="0.49"/>
+<circle cx="508" cy="255" r="19" fill="#69db7c" opacity="0.47"/>
+<circle cx="508" cy="327" r="17" fill="#69db7c" opacity="0.43"/>
+<circle cx="508" cy="400" r="16" fill="#69db7c" opacity="0.39"/>
+<circle cx="508" cy="473" r="13" fill="#69db7c" opacity="0.34"/>
+<circle cx="508" cy="545" r="11" fill="#69db7c" opacity="0.29"/>
+<rect x="584" y="20" width="33" height="33" fill="#73df7c" opacity="0.41"/>
+<circle cx="600" cy="109" r="17" fill="#73df7c" opacity="0.42"/>
+<circle cx="600" cy="182" r="17" fill="#73df7c" opacity="0.41"/>
+<circle cx="600" cy="255" r="16" fill="#73df7c" opacity="0.40"/>
+<circle cx="600" cy="327" r="15" fill="#73df7c" opacity="0.37"/>
+<circle cx="600" cy="400" r="13" fill="#73df7c" opacity="0.33"/>
+<circle cx="600" cy="473" r="11" fill="#73df7c" opacity="0.29"/>
+<circle cx="692" cy="36" r="13" fill="#7de47c" opacity="0.34"/>
+<rect x="679" y="96" width="27" height="27" fill="#7de47c" opacity="0.34"/>
+<circle cx="692" cy="182" r="13" fill="#7de47c" opacity="0.34"/>
+<circle cx="692" cy="255" r="13" fill="#7de47c" opacity="0.33"/>
+<rect x="681" y="316" width="23" height="23" fill="#7de47c" opacity="0.30"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e9ffef" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#38c47e" font-weight="600">THE STACK</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e9ffef" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e9ffef" opacity="0.5">№ 598</text>
+</svg>

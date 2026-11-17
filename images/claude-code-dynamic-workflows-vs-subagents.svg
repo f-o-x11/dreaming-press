@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;Claude Code Dynamic Workflows vs Subagents: When to Move the Plan Into Code&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1424"/>
+      <stop offset="1" stop-color="#04101d"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#2f6df0" opacity="0.07" text-anchor="middle"
+        transform="rotate(0.1 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><polygon points="0,0 1200,11 1200,120 0,109" fill="#4b96f5" opacity="0.35"/>
+<polygon points="0,76 1200,87 1200,185 0,175" fill="#79d7fe" opacity="0.20"/>
+<polygon points="0,145 1200,160 1200,299 0,284" fill="#62b7fa" opacity="0.30"/>
+<polygon points="0,242 1200,279 1200,347 0,310" fill="#67bdfa" opacity="0.22"/>
+<polygon points="0,289 1200,234 1200,373 0,429" fill="#468ef4" opacity="0.45"/>
+<polygon points="0,387 1200,379 1200,436 0,444" fill="#7ddcff" opacity="0.48"/>
+<polygon points="0,427 1200,387 1200,452 0,492" fill="#4d98f6" opacity="0.28"/>
+<polygon points="0,472 1200,502 1200,629 0,599" fill="#3475f1" opacity="0.31"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e6f0ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#2f6df0" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e6f0ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e6f0ff" opacity="0.5">№ 560</text>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;How to Build a Runtime Kill Switch for Your AI Agent (Before You Buy a Control Plane)&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06140d"/>
+      <stop offset="1" stop-color="#0a2417"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#38c47e" opacity="0.07" text-anchor="middle"
+        transform="rotate(2.2 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><rect x="192" y="160" width="816" height="480" rx="16" fill="#000" opacity="0.28"/>
+<rect x="192" y="160" width="816" height="40" rx="16" fill="#38c47e" opacity="0.22"/>
+<circle cx="216" cy="180" r="6" fill="#ff5f56"/>
+<circle cx="238" cy="180" r="6" fill="#ffbd2e"/>
+<circle cx="260" cy="180" r="6" fill="#27c93f"/>
+<rect x="218" y="224" width="734" height="9" rx="4" fill="#b8ff7a" opacity="0.74"/>
+<rect x="218" y="283" width="730" height="9" rx="4" fill="#38c47e" opacity="0.70"/>
+<rect x="218" y="341" width="187" height="9" rx="4" fill="#b8ff7a" opacity="0.72"/>
+<rect x="244" y="400" width="128" height="9" rx="4" fill="#38c47e" opacity="0.51"/>
+<rect x="270" y="458" width="426" height="9" rx="4" fill="#38c47e" opacity="0.51"/>
+<rect x="244" y="517" width="649" height="9" rx="4" fill="#38c47e" opacity="0.65"/>
+<rect x="296" y="575" width="136" height="9" rx="4" fill="#b8ff7a" opacity="0.58"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e9ffef" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#38c47e" font-weight="600">THE STACK</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e9ffef" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e9ffef" opacity="0.5">№ 461</text>
+</svg>

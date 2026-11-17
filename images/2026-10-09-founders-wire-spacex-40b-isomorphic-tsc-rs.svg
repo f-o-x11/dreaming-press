@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;The Founder's Wire, October 9: The Money Stacked Up at the Top While the Leverage Showed Up at the Bottom&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1424"/>
+      <stop offset="1" stop-color="#04101d"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#2f6df0" opacity="0.07" text-anchor="middle"
+        transform="rotate(-0.5 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><circle cx="262" cy="44" r="12" fill="#3e83f3" opacity="0.30"/>
+<rect x="251" y="121" width="24" height="24" fill="#3e83f3" opacity="0.30"/>
+<rect x="251" y="211" width="23" height="23" fill="#3e83f3" opacity="0.30"/>
+<circle cx="262" cy="311" r="11" fill="#3e83f3" opacity="0.28"/>
+<circle cx="338" cy="44" r="15" fill="#438af4" opacity="0.36"/>
+<circle cx="338" cy="133" r="15" fill="#438af4" opacity="0.36"/>
+<rect x="323" y="208" width="29" height="29" fill="#438af4" opacity="0.35"/>
+<circle cx="338" cy="311" r="14" fill="#438af4" opacity="0.34"/>
+<circle cx="338" cy="400" r="13" fill="#438af4" opacity="0.32"/>
+<circle cx="338" cy="489" r="11" fill="#438af4" opacity="0.29"/>
+<circle cx="412" cy="44" r="18" fill="#4891f5" opacity="0.42"/>
+<circle cx="412" cy="133" r="17" fill="#4891f5" opacity="0.42"/>
+<circle cx="412" cy="222" r="17" fill="#4891f5" opacity="0.41"/>
+<circle cx="412" cy="311" r="16" fill="#4891f5" opacity="0.40"/>
+<circle cx="412" cy="400" r="15" fill="#4891f5" opacity="0.37"/>
+<circle cx="412" cy="489" r="14" fill="#4891f5" opacity="0.34"/>
+<rect x="400" y="566" width="24" height="24" fill="#4891f5" opacity="0.31"/>
+<circle cx="488" cy="44" r="20" fill="#4d98f6" opacity="0.48"/>
+<rect x="467" y="113" width="41" height="41" fill="#4d98f6" opacity="0.48"/>
+<circle cx="488" cy="222" r="20" fill="#4d98f6" opacity="0.47"/>
+<rect x="469" y="292" width="38" height="38" fill="#4d98f6" opacity="0.45"/>
+<circle cx="488" cy="400" r="18" fill="#4d98f6" opacity="0.42"/>
+<rect x="472" y="473" width="32" height="32" fill="#4d98f6" opacity="0.39"/>
+<circle cx="488" cy="578" r="14" fill="#4d98f6" opacity="0.35"/>
+<circle cx="488" cy="667" r="12" fill="#4d98f6" opacity="0.31"/>
+<rect x="539" y="21" width="46" height="46" fill="#529ff7" opacity="0.54"/>
+<circle cx="562" cy="133" r="23" fill="#529ff7" opacity="0.54"/>
+<rect x="540" y="200" width="45" height="45" fill="#529ff7" opacity="0.53"/>
+<rect x="541" y="290" width="43" height="43" fill="#529ff7" opacity="0.51"/>
+<rect x="543" y="380" width="40" height="40" fill="#529ff7" opacity="0.47"/>
+<circle cx="562" cy="489" r="18" fill="#529ff7" opacity="0.44"/>
+<circle cx="562" cy="578" r="16" fill="#529ff7" opacity="0.39"/>
+<rect x="549" y="653" width="28" height="28" fill="#529ff7" opacity="0.35"/>
+<rect x="551" y="744" width="23" height="23" fill="#529ff7" opacity="0.30"/>
+<circle cx="638" cy="44" r="26" fill="#57a6f8" opacity="0.60"/>
+<rect x="612" y="107" width="52" height="52" fill="#57a6f8" opacity="0.60"/>
+<circle cx="638" cy="222" r="25" fill="#57a6f8" opacity="0.59"/>
+<circle cx="638" cy="311" r="24" fill="#57a6f8" opacity="0.56"/>
+<circle cx="638" cy="400" r="22" fill="#57a6f8" opacity="0.52"/>
+<circle cx="638" cy="489" r="20" fill="#57a6f8" opacity="0.48"/>
+<circle cx="638" cy="578" r="18" fill="#57a6f8" opacity="0.43"/>
+<rect x="622" y="651" width="31" height="31" fill="#57a6f8" opacity="0.38"/>
+<circle cx="638" cy="756" r="13" fill="#57a6f8" opacity="0.33"/>
+<circle cx="712" cy="44" r="29" fill="#5caef8" opacity="0.66"/>
+<circle cx="712" cy="133" r="29" fill="#5caef8" opacity="0.66"/>
+<circle cx="712" cy="222" r="28" fill="#5caef8" opacity="0.64"/>
+<rect x="686" y="285" width="52" height="52" fill="#5caef8" opacity="0.61"/>
+<circle cx="712" cy="400" r="24" fill="#5caef8" opacity="0.56"/>
+<circle cx="712" cy="489" r="22" fill="#5caef8" opacity="0.52"/>
+<rect x="693" y="558" width="39" height="39" fill="#5caef8" opacity="0.46"/>
+<circle cx="712" cy="667" r="17" fill="#5caef8" opacity="0.41"/>
+<circle cx="712" cy="756" r="14" fill="#5caef8" opacity="0.36"/>
+<circle cx="788" cy="44" r="32" fill="#61b5f9" opacity="0.72"/>
+<rect x="756" y="102" width="63" height="63" fill="#61b5f9" opacity="0.72"/>
+<circle cx="788" cy="222" r="30" fill="#61b5f9" opacity="0.69"/>
+<circle cx="788" cy="311" r="28" fill="#61b5f9" opacity="0.65"/>
+<circle cx="788" cy="400" r="26" fill="#61b5f9" opacity="0.60"/>
+<circle cx="788" cy="489" r="23" fill="#61b5f9" opacity="0.55"/>
+<rect x="767" y="557" width="41" height="41" fill="#61b5f9" opacity="0.49"/>
+<circle cx="788" cy="667" r="18" fill="#61b5f9" opacity="0.43"/>
+<circle cx="788" cy="756" r="15" fill="#61b5f9" opacity="0.38"/>
+<rect x="828" y="10" width="68" height="68" fill="#66bcfa" opacity="0.78"/>
+<circle cx="862" cy="133" r="34" fill="#66bcfa" opacity="0.77"/>
+<circle cx="862" cy="222" r="32" fill="#66bcfa" opacity="0.73"/>
+<rect x="833" y="282" width="59" height="59" fill="#66bcfa" opacity="0.68"/>
+<rect x="836" y="373" width="54" height="54" fill="#66bcfa" opacity="0.62"/>
+<circle cx="862" cy="489" r="24" fill="#66bcfa" opacity="0.56"/>
+<circle cx="862" cy="578" r="21" fill="#66bcfa" opacity="0.51"/>
+<circle cx="862" cy="667" r="19" fill="#66bcfa" opacity="0.45"/>
+<rect x="847" y="740" width="32" height="32" fill="#66bcfa" opacity="0.39"/>
+<rect x="901" y="8" width="73" height="73" fill="#6bc3fb" opacity="0.83"/>
+<circle cx="938" cy="133" r="36" fill="#6bc3fb" opacity="0.81"/>
+<circle cx="938" cy="222" r="33" fill="#6bc3fb" opacity="0.75"/>
+<circle cx="938" cy="311" r="30" fill="#6bc3fb" opacity="0.69"/>
+<rect x="910" y="373" width="55" height="55" fill="#6bc3fb" opacity="0.63"/>
+<circle cx="938" cy="489" r="24" fill="#6bc3fb" opacity="0.57"/>
+<rect x="916" y="556" width="43" height="43" fill="#6bc3fb" opacity="0.51"/>
+<circle cx="938" cy="667" r="19" fill="#6bc3fb" opacity="0.45"/>
+<circle cx="938" cy="756" r="16" fill="#6bc3fb" opacity="0.39"/>
+<circle cx="1012" cy="44" r="35" fill="#70cafc" opacity="0.79"/>
+<circle cx="1012" cy="133" r="34" fill="#70cafc" opacity="0.78"/>
+<circle cx="1012" cy="222" r="32" fill="#70cafc" opacity="0.74"/>
+<circle cx="1012" cy="311" r="30" fill="#70cafc" opacity="0.68"/>
+<circle cx="1012" cy="400" r="27" fill="#70cafc" opacity="0.63"/>
+<circle cx="1012" cy="489" r="24" fill="#70cafc" opacity="0.57"/>
+<circle cx="1012" cy="578" r="21" fill="#70cafc" opacity="0.51"/>
+<rect x="994" y="648" width="37" height="37" fill="#70cafc" opacity="0.45"/>
+<rect x="997" y="740" width="32" height="32" fill="#70cafc" opacity="0.39"/>
+<rect x="1055" y="12" width="64" height="64" fill="#75d2fd" opacity="0.73"/>
+<circle cx="1088" cy="133" r="32" fill="#75d2fd" opacity="0.73"/>
+<circle cx="1088" cy="222" r="30" fill="#75d2fd" opacity="0.70"/>
+<circle cx="1088" cy="311" r="28" fill="#75d2fd" opacity="0.66"/>
+<rect x="1062" y="374" width="52" height="52" fill="#75d2fd" opacity="0.60"/>
+<circle cx="1088" cy="489" r="23" fill="#75d2fd" opacity="0.55"/>
+<circle cx="1088" cy="578" r="21" fill="#75d2fd" opacity="0.49"/>
+<rect x="1069" y="649" width="36" height="36" fill="#75d2fd" opacity="0.44"/>
+<rect x="1072" y="740" width="31" height="31" fill="#75d2fd" opacity="0.38"/>
+<circle cx="1162" cy="44" r="29" fill="#7ad9fe" opacity="0.67"/>
+<circle cx="1162" cy="133" r="29" fill="#7ad9fe" opacity="0.67"/>
+<rect x="1134" y="194" width="56" height="56" fill="#7ad9fe" opacity="0.65"/>
+<circle cx="1162" cy="311" r="26" fill="#7ad9fe" opacity="0.62"/>
+<rect x="1138" y="376" width="49" height="49" fill="#7ad9fe" opacity="0.57"/>
+<circle cx="1162" cy="489" r="22" fill="#7ad9fe" opacity="0.52"/>
+<rect x="1143" y="558" width="39" height="39" fill="#7ad9fe" opacity="0.47"/>
+<circle cx="1162" cy="667" r="17" fill="#7ad9fe" opacity="0.42"/>
+<circle cx="1162" cy="756" r="15" fill="#7ad9fe" opacity="0.36"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e6f0ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#2f6df0" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e6f0ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e6f0ff" opacity="0.5">№ 997</text>
+</svg>

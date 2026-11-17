@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;Self-Host Your Agents or Rent Them? What NVIDIA + LangChain's NemoClaw Blueprint Changes for a Founder&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a1424"/>
+      <stop offset="1" stop-color="#04101d"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#2f6df0" opacity="0.07" text-anchor="middle"
+        transform="rotate(-1.2 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><polygon points="0,0 1200,23 1200,150 0,127" fill="#4c96f5" opacity="0.30"/>
+<polygon points="0,89 1200,143 1200,271 0,217" fill="#3778f1" opacity="0.15"/>
+<polygon points="0,178 1200,191 1200,276 0,263" fill="#6fc9fc" opacity="0.26"/>
+<polygon points="0,238 1200,256 1200,379 0,361" fill="#7fe0ff" opacity="0.48"/>
+<polygon points="0,324 1200,315 1200,370 0,379" fill="#65bbfa" opacity="0.43"/>
+<polygon points="0,362 1200,329 1200,386 0,420" fill="#68bffb" opacity="0.26"/>
+<polygon points="0,403 1200,378 1200,492 0,517" fill="#3879f2" opacity="0.14"/>
+<polygon points="0,483 1200,479 1200,569 0,573" fill="#7bdafe" opacity="0.19"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e6f0ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#2f6df0" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e6f0ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e6f0ff" opacity="0.5">№ 835</text>
+</svg>

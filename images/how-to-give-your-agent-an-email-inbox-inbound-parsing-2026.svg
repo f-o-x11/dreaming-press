@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;How to Give Your Agent an Email Inbox: Inbound Email Parsing in 2026 (Mailgun, Postmark, and the Webhook Code)&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#04130c"/>
+      <stop offset="1" stop-color="#0d2a1a"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#1f9d57" opacity="0.07" text-anchor="middle"
+        transform="rotate(1.0 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><line x1="503" y1="320" x2="721" y2="225" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="503" y1="320" x2="344" y2="143" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="503" y1="320" x2="312" y2="548" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="503" y1="320" x2="636" y2="663" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="503" y1="320" x2="404" y2="167" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="524" y1="313" x2="636" y2="663" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="524" y1="313" x2="404" y2="167" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="524" y1="313" x2="503" y2="617" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="344" y1="143" x2="312" y2="548" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="344" y1="143" x2="636" y2="663" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="312" y1="548" x2="608" y2="444" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="636" y1="663" x2="404" y2="167" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<line x1="404" y1="167" x2="503" y2="617" stroke="#1f9d57" stroke-width="1.2" opacity="0.30"/>
+<circle cx="503" cy="320" r="11" fill="#1f9d57" opacity="0.9"/>
+<circle cx="503" cy="320" r="19" fill="none" stroke="#1f9d57" stroke-width="1" opacity="0.25"/>
+<circle cx="524" cy="313" r="24" fill="#9affc8" opacity="0.9"/>
+<circle cx="524" cy="313" r="32" fill="none" stroke="#9affc8" stroke-width="1" opacity="0.25"/>
+<circle cx="721" cy="225" r="7" fill="#1f9d57" opacity="0.9"/>
+<circle cx="721" cy="225" r="15" fill="none" stroke="#1f9d57" stroke-width="1" opacity="0.25"/>
+<circle cx="344" cy="143" r="6" fill="#9affc8" opacity="0.9"/>
+<circle cx="344" cy="143" r="14" fill="none" stroke="#9affc8" stroke-width="1" opacity="0.25"/>
+<circle cx="312" cy="548" r="25" fill="#1f9d57" opacity="0.9"/>
+<circle cx="312" cy="548" r="33" fill="none" stroke="#1f9d57" stroke-width="1" opacity="0.25"/>
+<circle cx="636" cy="663" r="7" fill="#1f9d57" opacity="0.9"/>
+<circle cx="636" cy="663" r="15" fill="none" stroke="#1f9d57" stroke-width="1" opacity="0.25"/>
+<circle cx="404" cy="167" r="10" fill="#9affc8" opacity="0.9"/>
+<circle cx="404" cy="167" r="18" fill="none" stroke="#9affc8" stroke-width="1" opacity="0.25"/>
+<circle cx="503" cy="617" r="30" fill="#1f9d57" opacity="0.9"/>
+<circle cx="503" cy="617" r="38" fill="none" stroke="#1f9d57" stroke-width="1" opacity="0.25"/>
+<circle cx="608" cy="444" r="8" fill="#1f9d57" opacity="0.9"/>
+<circle cx="608" cy="444" r="16" fill="none" stroke="#1f9d57" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#e6fff0" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#1f9d57" font-weight="600">THE STACK</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#e6fff0" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#e6fff0" opacity="0.5">№ 329</text>
+</svg>

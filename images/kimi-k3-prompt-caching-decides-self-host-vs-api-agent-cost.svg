@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;The Number That Decides Kimi K3 Self-Host vs API Isn't the GPU Bill — It's the Cache Hit&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07121f"/>
+      <stop offset="1" stop-color="#0b1f33"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#5b93ff" opacity="0.07" text-anchor="middle"
+        transform="rotate(-0.6 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><line x1="825" y1="435" x2="623" y2="275" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="825" y1="435" x2="578" y2="248" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="623" y1="275" x2="493" y2="244" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="623" y1="275" x2="630" y2="462" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="743" y1="159" x2="787" y2="307" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="743" y1="159" x2="839" y2="530" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="743" y1="159" x2="578" y2="248" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="787" y1="307" x2="839" y2="530" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="787" y1="307" x2="843" y2="497" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="839" y1="530" x2="493" y2="244" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="839" y1="530" x2="364" y2="228" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="843" y1="497" x2="630" y2="462" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="843" y1="497" x2="578" y2="248" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="843" y1="497" x2="552" y2="574" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="630" y1="462" x2="552" y2="574" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="552" y1="574" x2="364" y2="228" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<circle cx="825" cy="435" r="19" fill="#5b93ff" opacity="0.9"/>
+<circle cx="825" cy="435" r="27" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="623" cy="275" r="21" fill="#5b93ff" opacity="0.9"/>
+<circle cx="623" cy="275" r="29" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="743" cy="159" r="19" fill="#a9ffe6" opacity="0.9"/>
+<circle cx="743" cy="159" r="27" fill="none" stroke="#a9ffe6" stroke-width="1" opacity="0.25"/>
+<circle cx="787" cy="307" r="29" fill="#a9ffe6" opacity="0.9"/>
+<circle cx="787" cy="307" r="37" fill="none" stroke="#a9ffe6" stroke-width="1" opacity="0.25"/>
+<circle cx="839" cy="530" r="30" fill="#5b93ff" opacity="0.9"/>
+<circle cx="839" cy="530" r="38" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="843" cy="497" r="31" fill="#5b93ff" opacity="0.9"/>
+<circle cx="843" cy="497" r="39" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="493" cy="244" r="22" fill="#5b93ff" opacity="0.9"/>
+<circle cx="493" cy="244" r="30" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="630" cy="462" r="12" fill="#a9ffe6" opacity="0.9"/>
+<circle cx="630" cy="462" r="20" fill="none" stroke="#a9ffe6" stroke-width="1" opacity="0.25"/>
+<circle cx="578" cy="248" r="31" fill="#5b93ff" opacity="0.9"/>
+<circle cx="578" cy="248" r="39" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="552" cy="574" r="17" fill="#a9ffe6" opacity="0.9"/>
+<circle cx="552" cy="574" r="25" fill="none" stroke="#a9ffe6" stroke-width="1" opacity="0.25"/>
+<circle cx="364" cy="228" r="29" fill="#5b93ff" opacity="0.9"/>
+<circle cx="364" cy="228" r="37" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#eaf2ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#5b93ff" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#eaf2ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#eaf2ff" opacity="0.5">№ 814</text>
+</svg>

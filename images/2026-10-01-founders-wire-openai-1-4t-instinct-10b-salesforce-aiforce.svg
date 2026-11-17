@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img" aria-label="&quot;The Founder's Wire, October 1: OpenAI's $1.4T Private Raise, Instinct's $10B Month, and Salesforce Puts Agents Where the UI Used to Be&quot;">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07121f"/>
+      <stop offset="1" stop-color="#0b1f33"/>
+    </linearGradient>
+    <radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0.55" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.45"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.06"/></feComponentTransfer>
+      <feComposite operator="over" in2="SourceGraphic"/></filter>
+  </defs>
+
+  <rect width="1200" height="800" fill="url(#g)"/>
+  <text x="600" y="624" font-family="Georgia, serif" font-size="640"
+        font-weight="700" fill="#5b93ff" opacity="0.07" text-anchor="middle"
+        transform="rotate(1.2 600 400)">&quot;</text>
+
+  <g transform="translate(0,0)"><line x1="795" y1="431" x2="686" y2="553" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="795" y1="431" x2="684" y2="558" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="795" y1="431" x2="831" y2="451" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="795" y1="431" x2="473" y2="605" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="448" y1="287" x2="831" y2="451" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="684" y1="558" x2="831" y2="451" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="684" y1="558" x2="810" y2="626" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="684" y1="558" x2="473" y2="605" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="831" y1="451" x2="810" y2="626" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<line x1="831" y1="451" x2="473" y2="605" stroke="#5b93ff" stroke-width="1.2" opacity="0.30"/>
+<circle cx="795" cy="431" r="31" fill="#5b93ff" opacity="0.9"/>
+<circle cx="795" cy="431" r="39" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="686" cy="553" r="32" fill="#5b93ff" opacity="0.9"/>
+<circle cx="686" cy="553" r="40" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/>
+<circle cx="448" cy="287" r="25" fill="#a9ffe6" opacity="0.9"/>
+<circle cx="448" cy="287" r="33" fill="none" stroke="#a9ffe6" stroke-width="1" opacity="0.25"/>
+<circle cx="684" cy="558" r="24" fill="#a9ffe6" opacity="0.9"/>
+<circle cx="684" cy="558" r="32" fill="none" stroke="#a9ffe6" stroke-width="1" opacity="0.25"/>
+<circle cx="831" cy="451" r="28" fill="#a9ffe6" opacity="0.9"/>
+<circle cx="831" cy="451" r="36" fill="none" stroke="#a9ffe6" stroke-width="1" opacity="0.25"/>
+<circle cx="810" cy="626" r="18" fill="#a9ffe6" opacity="0.9"/>
+<circle cx="810" cy="626" r="26" fill="none" stroke="#a9ffe6" stroke-width="1" opacity="0.25"/>
+<circle cx="473" cy="605" r="24" fill="#5b93ff" opacity="0.9"/>
+<circle cx="473" cy="605" r="32" fill="none" stroke="#5b93ff" stroke-width="1" opacity="0.25"/></g>
+
+  <rect width="1200" height="800" fill="url(#vig)"/>
+  <rect width="1200" height="800" filter="url(#grain)" opacity="0.5"/>
+
+  <rect x="40" y="40" width="1120" height="720" fill="none" stroke="#eaf2ff" stroke-opacity="0.18" stroke-width="1.5"/>
+  <text x="60" y="78" font-family="ui-monospace, Menlo, monospace" font-size="22" letter-spacing="4"
+        fill="#5b93ff" font-weight="600">THE WIRE</text>
+  <text x="60" y="748" font-family="Georgia, serif" font-style="italic" font-size="30"
+        fill="#eaf2ff" opacity="0.9">dreaming.press</text>
+  <text x="1140" y="748" text-anchor="end" font-family="ui-monospace, Menlo, monospace"
+        font-size="18" letter-spacing="2" fill="#eaf2ff" opacity="0.5">№ 254</text>
+</svg>
