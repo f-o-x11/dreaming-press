@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-17T20:42:35.617Z",
+ "generated": "2026-11-17T20:52:39.334Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 16,
   "avgTimeSec": 36,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 7258,
-  "reads": 306,
-  "completes": 34,
-  "plays": 10,
-  "sessions": 7089
+  "views": 7248,
+  "reads": 303,
+  "completes": 33,
+  "plays": 9,
+  "sessions": 7088
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3021,
-   "reads": 196,
-   "sessions": 2898
+   "views": 3011,
+   "reads": 193,
+   "sessions": 2896
   },
   {
    "channel": "referral",
@@ -61,7 +61,7 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 24
+   "sessions": 23
   }
  ],
  "channelQuality": [
@@ -78,11 +78,11 @@
   },
   {
    "channel": "direct",
-   "views": 3021,
-   "reads": 196,
+   "views": 3011,
+   "reads": 193,
    "completes": 30,
-   "sessions": 2898,
-   "read_rate": 0.065,
+   "sessions": 2896,
+   "read_rate": 0.064,
    "complete_rate": 0.01,
    "pages_per_session": 1.04,
    "median_dwell_sec": 10
@@ -147,7 +147,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 24,
+   "sessions": 23,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -157,8 +157,8 @@
  "navSurfaces": [
   {
    "surface": "nav-cmp",
-   "clicks": 20,
-   "sessions": 8
+   "clicks": 18,
+   "sessions": 7
   },
   {
    "surface": "f-cols",
@@ -167,22 +167,17 @@
   },
   {
    "surface": "wire-row",
-   "clicks": 8,
-   "sessions": 8
+   "clicks": 7,
+   "sessions": 7
   },
   {
    "surface": "feature",
-   "clicks": 7,
-   "sessions": 4
-  },
-  {
-   "surface": "btn-stats",
    "clicks": 4,
    "sessions": 3
   },
   {
-   "surface": "brand",
-   "clicks": 3,
+   "surface": "btn-stats",
+   "clicks": 4,
    "sessions": 3
   },
   {
@@ -192,11 +187,6 @@
   },
   {
    "surface": "un-body",
-   "clicks": 2,
-   "sessions": 2
-  },
-  {
-   "surface": "more",
    "clicks": 2,
    "sessions": 2
   },
@@ -221,12 +211,22 @@
    "sessions": 2
   },
   {
+   "surface": "brand",
+   "clicks": 2,
+   "sessions": 2
+  },
+  {
    "surface": "wrap",
    "clicks": 1,
    "sessions": 1
   },
   {
    "surface": "rr-card",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
+   "surface": "ns-item",
    "clicks": 1,
    "sessions": 1
   }
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6917,
-   "reads": 272,
-   "sessions": 6745
+   "views": 6907,
+   "reads": 269,
+   "sessions": 6744
   },
   {
    "device": "mobile",
@@ -475,16 +475,6 @@
    "plays": 1
   },
   {
-   "slug": "resume-crashed-ai-agent-durable-execution-replay-trap",
-   "title": "How to Resume a Crashed AI Agent: Checkpoints, Durable Execution, and the Replay Trap",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 1,
-   "plays": 1
-  },
-  {
    "slug": "2026-10-01-founders-wire-openai-1-4t-instinct-10b-salesforce-aiforce",
    "title": "The Founder's Wire, October 1: OpenAI's $1.4T Private Raise, Instinct's $10B Month, and Salesforce Puts Agents Where the UI Used to Be",
    "section": "wire",
@@ -522,6 +512,16 @@
    "author": "dex",
    "views": 20,
    "reads": 11,
+   "plays": 0
+  },
+  {
+   "slug": "cheapest-gpu-rental-november-2026",
+   "title": "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 21,
+   "reads": 10,
    "plays": 0
   }
  ],
@@ -630,17 +630,17 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 835,
+   "views": 832,
    "reads": 0,
-   "sessions": 832,
-   "avg_dwell_sec": 11
+   "sessions": 831,
+   "avg_dwell_sec": 8
   },
   {
    "path": "/compare/:pair",
-   "views": 281,
+   "views": 280,
    "reads": 0,
-   "sessions": 281,
-   "avg_dwell_sec": 6
+   "sessions": 280,
+   "avg_dwell_sec": 9
   },
   {
    "path": "/build",
@@ -651,9 +651,9 @@
   },
   {
    "path": "/",
-   "views": 212,
+   "views": 211,
    "reads": 4,
-   "sessions": 209,
+   "sessions": 208,
    "avg_dwell_sec": 21
   },
   {
@@ -686,10 +686,10 @@
   },
   {
    "path": "/tools",
-   "views": 22,
+   "views": 21,
    "reads": 2,
-   "sessions": 22,
-   "avg_dwell_sec": 63
+   "sessions": 21,
+   "avg_dwell_sec": 73
   },
   {
    "path": "/authors/dex",
@@ -752,22 +752,17 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 50,
+   "hits": 49,
    "sessions": 26
   },
   {
    "ref": "nav-cmp",
-   "hits": 20,
-   "sessions": 8
+   "hits": 18,
+   "sessions": 7
   },
   {
    "ref": "f-cols",
    "hits": 12,
-   "sessions": 8
-  },
-  {
-   "ref": "wire-row",
-   "hits": 8,
    "sessions": 8
   },
   {
@@ -776,14 +771,19 @@
    "sessions": 5
   },
   {
+   "ref": "wire-row",
+   "hits": 7,
+   "sessions": 7
+  },
+  {
    "ref": "https://search.brave.com/",
    "hits": 7,
    "sessions": 5
   },
   {
-   "ref": "feature",
-   "hits": 7,
-   "sessions": 4
+   "ref": "https://cn.bing.com/",
+   "hits": 6,
+   "sessions": 3
   }
  ]
 }
