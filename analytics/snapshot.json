@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-17T21:32:44.418Z",
+ "generated": "2026-11-17T21:42:45.535Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 16,
-  "avgTimeSec": 36,
+  "avgTimeSec": 34,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 7246,
-  "reads": 303,
+  "views": 7245,
+  "reads": 301,
   "completes": 33,
   "plays": 9,
   "sessions": 7086
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3009,
-   "reads": 193,
-   "sessions": 2894
+   "views": 3010,
+   "reads": 192,
+   "sessions": 2895
   },
   {
    "channel": "referral",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "organic",
-   "views": 137,
-   "reads": 51,
-   "sessions": 131
+   "views": 135,
+   "reads": 50,
+   "sessions": 129
   },
   {
    "channel": "ai",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 3009,
-   "reads": 193,
+   "views": 3010,
+   "reads": 192,
    "completes": 30,
-   "sessions": 2894,
+   "sessions": 2895,
    "read_rate": 0.064,
    "complete_rate": 0.01,
    "pages_per_session": 1.04,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 137,
-   "reads": 51,
+   "views": 135,
+   "reads": 50,
    "completes": 1,
-   "sessions": 131,
-   "read_rate": 0.372,
+   "sessions": 129,
+   "read_rate": 0.37,
    "complete_rate": 0.007,
    "pages_per_session": 1.05,
    "median_dwell_sec": 3
@@ -255,14 +255,14 @@
   {
    "device": "desktop",
    "views": 6905,
-   "reads": 269,
-   "sessions": 6742
+   "reads": 268,
+   "sessions": 6743
   },
   {
    "device": "mobile",
-   "views": 334,
-   "reads": 30,
-   "sessions": 341
+   "views": 333,
+   "reads": 29,
+   "sessions": 340
   },
   {
    "device": "tablet",
@@ -298,8 +298,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 21,
-   "reads": 10,
+   "views": 20,
+   "reads": 9,
    "plays": 0
   },
   {
@@ -520,8 +520,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 21,
-   "reads": 10,
+   "views": 20,
+   "reads": 9,
    "plays": 0
   }
  ],
@@ -567,16 +567,6 @@
    "plays": 0
   },
   {
-   "slug": "cheapest-gpu-rental-november-2026",
-   "title": "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 10,
-   "plays": 0
-  },
-  {
    "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
    "title": "The Founder's Wire, November 5: Coding Agents Get Cheaper, Agent Security Gets Bought, and AMD Bets $11B on Cheaper Inference",
    "section": "wire",
@@ -604,6 +594,16 @@
    "author": "dex",
    "views": 20,
    "reads": 11,
+   "plays": 0
+  },
+  {
+   "slug": "cheapest-gpu-rental-november-2026",
+   "title": "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 9,
    "plays": 0
   },
   {
@@ -752,8 +752,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 49,
-   "sessions": 26
+   "hits": 46,
+   "sessions": 24
   },
   {
    "ref": "nav-cmp",
