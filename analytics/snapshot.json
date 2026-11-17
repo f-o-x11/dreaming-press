@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T12:01:22.440Z",
+ "generated": "2026-11-17T12:11:25.459Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,18 +8,18 @@
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 7268,
-  "reads": 308,
+  "views": 7264,
+  "reads": 306,
   "completes": 31,
   "plays": 11,
-  "sessions": 7095
+  "sessions": 7092
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3034,
-   "reads": 197,
-   "sessions": 2908
+   "views": 3031,
+   "reads": 196,
+   "sessions": 2905
   },
   {
    "channel": "referral",
@@ -29,8 +29,8 @@
   },
   {
    "channel": "organic",
-   "views": 133,
-   "reads": 52,
+   "views": 132,
+   "reads": 51,
    "sessions": 125
   },
   {
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 3034,
-   "reads": 197,
+   "views": 3031,
+   "reads": 196,
    "completes": 27,
-   "sessions": 2908,
+   "sessions": 2905,
    "read_rate": 0.065,
    "complete_rate": 0.009,
    "pages_per_session": 1.04,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 133,
-   "reads": 52,
+   "views": 132,
+   "reads": 51,
    "completes": 1,
    "sessions": 125,
-   "read_rate": 0.391,
+   "read_rate": 0.386,
    "complete_rate": 0.008,
    "pages_per_session": 1.06,
    "median_dwell_sec": 3
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6924,
-   "reads": 274,
-   "sessions": 6748
+   "views": 6920,
+   "reads": 272,
+   "sessions": 6745
   },
   {
    "device": "mobile",
@@ -323,16 +323,6 @@
    "plays": 1
   },
   {
-   "slug": "best-llm-for-creative-writing-october-2026",
-   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 26,
-   "reads": 5,
-   "plays": 1
-  },
-  {
    "slug": "responses-api-multi-vendor-deepseek-what-to-build-against",
    "title": "The Responses API Just Went Multi-Vendor: DeepSeek Speaks It Too — So What Do You Build Your Agent Against?",
    "section": "wire",
@@ -341,6 +331,16 @@
    "views": 14,
    "reads": 5,
    "plays": 0
+  },
+  {
+   "slug": "best-llm-for-creative-writing-october-2026",
+   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 25,
+   "reads": 4,
+   "plays": 1
   },
   {
    "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
@@ -383,16 +383,6 @@
    "plays": 0
   },
   {
-   "slug": "manual-loop-vs-tool-runner-vs-managed-agents-claude",
-   "title": "Manual Loop vs Tool Runner vs Managed Agents: Which Way to Build Your Claude Agent",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "neo4j-vs-falkordb-vs-memgraph",
    "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
    "section": "stack",
@@ -418,6 +408,16 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
+   "views": 4,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "vllm-rust-frontend",
+   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
    "views": 4,
    "reads": 3,
    "plays": 0
@@ -450,8 +450,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 26,
-   "reads": 5,
+   "views": 25,
+   "reads": 4,
    "plays": 1
   },
   {
@@ -542,8 +542,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 26,
-   "reads": 5,
+   "views": 25,
+   "reads": 4,
    "plays": 1
   },
   {
@@ -747,7 +747,7 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 55,
+   "hits": 53,
    "sessions": 26
   },
   {
