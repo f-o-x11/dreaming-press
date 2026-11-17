@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-17T17:22:06.052Z",
+ "generated": "2026-11-17T17:32:06.930Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9536,
+ "verifiedAiHits": 9539,
  "logsScanned": 30,
  "windowStart": "2026-11-03",
  "windowEnd": "2026-11-17",
- "totalHits": 114792,
- "aiHits": 90401,
+ "totalHits": 114828,
+ "aiHits": 90429,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29352,
+   "hits": 29367,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
    "topPaths": [
     {
      "path": "/",
-     "hits": 40
+     "hits": 41
     },
     {
      "path": "/build",
@@ -47,7 +47,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 19722,
+   "hits": 19723,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14437,
+   "hits": 14445,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -91,7 +91,7 @@
     },
     {
      "path": "/wire.html",
-     "hits": 45
+     "hits": 46
     },
     {
      "path": "/tags/opinionated",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 12545,
+   "hits": 12546,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -212,8 +212,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6011,
-   "verifiedHits": 5977,
+   "hits": 6016,
+   "verifiedHits": 5982,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2811,
-   "verifiedHits": 2774,
+   "hits": 2812,
+   "verifiedHits": 2775,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1113,
+   "hits": 1116,
    "verifiedHits": 604,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -509,8 +509,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 828,
-   "verifiedHits": 773,
+   "hits": 830,
+   "verifiedHits": 775,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
    "topPaths": [
@@ -524,11 +524,11 @@
     },
     {
      "path": "/posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html",
-     "hits": 9
+     "hits": 10
     },
     {
      "path": "/posts/serverless-gpu-compute-scale-to-zero-vs-dedicated-september-2026.html",
-     "hits": 8
+     "hits": 9
     },
     {
      "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.html",
