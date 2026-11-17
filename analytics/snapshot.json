@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-17T09:31:04.484Z",
+ "generated": "2026-11-17T09:41:04.952Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 3,
+  "readersNow": 8,
+  "todayReads": 6,
   "avgTimeSec": 7,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 7259,
-  "reads": 307,
-  "completes": 29,
+  "views": 7264,
+  "reads": 310,
+  "completes": 30,
   "plays": 11,
-  "sessions": 7086
+  "sessions": 7089
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3025,
-   "reads": 196,
-   "sessions": 2899
+   "views": 3029,
+   "reads": 198,
+   "sessions": 2901
   },
   {
    "channel": "referral",
-   "views": 4084,
-   "reads": 56,
-   "sessions": 4086
+   "views": 4085,
+   "reads": 57,
+   "sessions": 4087
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 4084,
-   "reads": 56,
-   "completes": 0,
-   "sessions": 4086,
+   "views": 4085,
+   "reads": 57,
+   "completes": 1,
+   "sessions": 4087,
    "read_rate": 0.014,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 3025,
-   "reads": 196,
+   "views": 3029,
+   "reads": 198,
    "completes": 26,
-   "sessions": 2899,
+   "sessions": 2901,
    "read_rate": 0.065,
    "complete_rate": 0.009,
    "pages_per_session": 1.04,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6918,
-   "reads": 273,
-   "sessions": 6742
+   "views": 6923,
+   "reads": 276,
+   "sessions": 6745
   },
   {
    "device": "mobile",
@@ -283,6 +283,16 @@
    "plays": 2
   },
   {
+   "slug": "openai-responses-api-state-previous-response-id-vs-conversations-api",
+   "title": "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 11,
+   "plays": 0
+  },
+  {
    "slug": "cheapest-gpu-rental-november-2026",
    "title": "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200",
    "section": "stack",
@@ -290,16 +300,6 @@
    "author": "dex",
    "views": 21,
    "reads": 10,
-   "plays": 0
-  },
-  {
-   "slug": "openai-responses-api-state-previous-response-id-vs-conversations-api",
-   "title": "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 17,
-   "reads": 9,
    "plays": 0
   },
   {
@@ -338,8 +338,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 12,
-   "reads": 4,
+   "views": 14,
+   "reads": 5,
    "plays": 0
   },
   {
@@ -597,6 +597,16 @@
    "plays": 0
   },
   {
+   "slug": "openai-responses-api-state-previous-response-id-vs-conversations-api",
+   "title": "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 11,
+   "plays": 0
+  },
+  {
    "slug": "best-open-source-rl-frameworks-for-training-agents",
    "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
    "section": "stack",
@@ -604,16 +614,6 @@
    "author": "dex",
    "views": 18,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "openai-responses-api-state-previous-response-id-vs-conversations-api",
-   "title": "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 17,
-   "reads": 9,
    "plays": 0
   },
   {
@@ -630,9 +630,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 835,
+   "views": 834,
    "reads": 0,
-   "sessions": 832,
+   "sessions": 831,
    "avg_dwell_sec": 11
   },
   {
@@ -693,16 +693,16 @@
   },
   {
    "path": "/authors/dex",
-   "views": 18,
+   "views": 19,
    "reads": 0,
-   "sessions": 18,
+   "sessions": 19,
    "avg_dwell_sec": 15
   },
   {
    "path": "/dashboard",
-   "views": 16,
+   "views": 17,
    "reads": 0,
-   "sessions": 14,
+   "sessions": 15,
    "avg_dwell_sec": 14
   },
   {
@@ -766,6 +766,11 @@
    "sessions": 8
   },
   {
+   "ref": "https://teams.public.onecdn.static.microsoft/",
+   "hits": 8,
+   "sessions": 5
+  },
+  {
    "ref": "wire-row",
    "hits": 7,
    "sessions": 7
@@ -779,11 +784,6 @@
    "ref": "feature",
    "hits": 7,
    "sessions": 4
-  },
-  {
-   "ref": "https://cn.bing.com/",
-   "hits": 6,
-   "sessions": 3
   }
  ]
 }
