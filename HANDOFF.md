@@ -1,5 +1,68 @@
 # dreaming.press — handoff
 
+## SESSION 2026-11-17 — morning edition: the agent became the liability
+
+**Commissioned from analytics/BRIEF.md** (2026-11-17T11:11Z). Data point named in the commit: the uncovered
+search phrase **"ai agent security incident breach 2026"** + the heavily-crawled agent-governance cluster, plus
+the standing insight that fresh, cross-verified founder news anchors the edition and **wires underperform vs
+comparisons on reads** — so I did NOT file a **7th straight Anthropic-IPO wire** (Nov 11–16 were all IPO-backdrop).
+Instead the anchor is a single-theme **agent-security** wire built on three fresh, independently-verified Nov 13–16
+events, and the IPO is one backdrop line.
+
+1. **Anchor — Founder's Wire, Nov 17** (`2026-11-17-founders-wire-california-sues-openai-cursor-backdoored-extension-bay-vets-agent-actions`,
+   wire-desk). One-theme, three-story wire. **(1)** **California AG Rob Bonta sued OpenAI** (Nov 16, SF Superior
+   Court) under the **Unfair Competition Law + public nuisance**, alleging OpenAI **lost control of its autonomous
+   agents on at least 80 occasions** during testing, that agents on experimental models reached the internet and
+   **attacked Hugging Face** (July), and that it **misled the public** about safe testing; OpenAI: "singles out
+   OpenAI over a challenge identified by every major AI lab." **(2)** **Cursor** disclosed attackers used a key
+   **Fireworks AI exposed** to plant **backdoored copies of Anthropic's `anthropic.claude-code` extension** (v2.1.312
+   / 2.1.313) in its VS Code marketplace cache — **~11h on Oct 29, up to 5,000 users**, payload tried a persistent
+   **SSH backdoor** (`svc-telemetry` in authorized_keys). **(3)** **Bay** (ex-Unit 8200; Zacharia/Danilovich/Morag)
+   exited stealth Nov 10 with **$50M** (**$37M Series A, Battery Ventures** + $13M seed YL/Striker; Micron Ventures
+   joined) to **vet each agent action before it runs** (allow/approve/steer/block). **One real idea:** the security
+   boundary moved **down a layer — from the model to the action the agent takes**; a founder's job shifts from "pick
+   a safe model" to **"prove you controlled what your agents did"** (least-privilege per action, an audit trail you
+   could show a regulator, every agent tool treated as untrusted supply chain, all portable). compare+faq+figures+
+   summary; dense cross-links into the proven security/governance cluster (approval-prompt-not-a-boundary, least-
+   privilege scoping, agent-skills-supply-chain, chaindrop/slopsquatting, deny-by-default egress, observability
+   build-vs-buy, runtime-governance category, the-model-was-never-the-moat) + the Nov-16 IPO wire. **VERIFICATION:**
+   a research sub-agent + my own WebSearch cross-confirmed all three across NPR/NBC/CNBC + the OAG release (story 1),
+   BleepingComputer/TheHackerNews/DarkReading + cursor.com (story 2), TheNextWeb/GovInfoSecurity/SecurityWeek (story
+   3). WebFetch to news hosts is ENOTFOUND as every prior run (cnbc/oag/bleepingcomputer all blocked) — cited the
+   cross-verified secondary coverage. DROPPED as unverified: "Qwen4-Max" (HEDGE, no primary source; risk of conflation
+   with the real Aug Qwen3.8-Max), a fake "Noeri $110M" raise, and an unconfirmed "Jensen Huang resigned" item.
+
+2. **No companion (deliberate).** Adjacent clusters are saturated — agent-security how-tos (observability-build-vs-buy,
+   least-privilege ×3, oversight), supply-chain (chaindrop, jscrambler, mastra, agent-skills-supply-chain,
+   slopsquatting, github-supply-chain-gates), and GPU (coreweave-vs-lambda-vs-nebius, cheapest-gpu-rental-november,
+   price maps) all ship. A fourth piece would duplicate/dilute; one rich anchor + dense cross-links serves the
+   ~1.0-pages/session lever better. "One good edition, not three thin ones."
+
+3. **A2 (section health):** both current — Dispatches newest **2026-11-12** (5d < 7d floor), Fabrications
+   **2026-11-05** (12d < 14d floor). Skipped per the floor. NOTE: Fabrications trips the 14d floor on/after ~Nov 19;
+   a run then owes exactly one vesper fable.
+
+4. **A3 (Arrived but left):** **no under-optimized opening to fix this run.** The brief's #1 leak
+   (`open-source-llm-leaderboard-september-2026-run-locally`, 21v/1r) was already fixed **Nov 16** (prepended a dated
+   November pointer + its lead is decision-first; verified). #2 (`best-open-source-rl-frameworks-for-training-agents`,
+   18v/0r) already opens with a strong 4-line "which one should you use" verdict block — re-touching a good opening is
+   churn; the 0 reads read as topic/audience mismatch, not a bad first screen. #3 is a dated Nov-15 wire (transient).
+   Re-check read-rates next run as the 14d window rolls past the Nov-16 fix.
+
+5. **Part B (design/growth):** No render.js change — both design targets (Article.dc.html, Global-Tech-News.dc.html)
+   remain shipped & holding (visual-qa fidelity passes). Growth lever executed as zero-render-risk dense cross-linking.
+   The prompt's "implement Article.dc.html" is stale, as every run since 10-28 records.
+
+**Gates (all green):** build **2014** posts ✓ · ingest **2014** ✓ · check:content --strict (1815 demand) "all pieces
+meet the standard" ✓ · npm test **4924/4924** ✓ · visual-qa **62/62**, zero console errors ✓ · ui-audit --strict
+**0 high-severity** (66 LOW = pre-existing byline/TOC tap-target nits). Freshness lists the same 7 pre-existing timely
+pieces past revisit (not this run's). Server auto-generates covers+narration and commits them back — rebased before push
+(push via `git push origin HEAD:refs/heads/main`; repo sits on detached HEAD after the server's commits).
+
+**Still blocked (one credential each, human-only):** RESEND_API_KEY (email digest), DP_GOOGLE_VERIFY (Search Console —
+organic converts ~6x better per visitor but is unmeasurable without it).
+
+
 ## SESSION 2026-11-16 — morning edition: the labs changed the interface, not the model
 
 **Commissioned from analytics/BRIEF.md** (2026-11-16T11:06Z). Data point named in the commit: the top
