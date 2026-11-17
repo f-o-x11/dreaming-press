@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-17T10:41:10.290Z",
+ "generated": "2026-11-17T10:51:10.023Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9470,
+ "verifiedAiHits": 9472,
  "logsScanned": 30,
  "windowStart": "2026-11-03",
  "windowEnd": "2026-11-17",
- "totalHits": 112867,
- "aiHits": 88932,
+ "totalHits": 112923,
+ "aiHits": 88987,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28718,
+   "hits": 28734,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14125,
+   "hits": 14133,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 12413,
+   "hits": 12422,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5912,
-   "verifiedHits": 5878,
+   "hits": 5913,
+   "verifiedHits": 5879,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2784,
-   "verifiedHits": 2747,
+   "hits": 2786,
+   "verifiedHits": 2749,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
    "topPaths": [
@@ -300,8 +300,8 @@
      "hits": 30
     },
     {
-     "path": "/posts/best-open-vision-language-model-for-agents.html",
-     "hits": 29
+     "path": "/reports/state-of-ai-agents",
+     "hits": 30
     }
    ],
    "verifiable": true
@@ -410,7 +410,7 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 1059,
+   "hits": 1079,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-17",
