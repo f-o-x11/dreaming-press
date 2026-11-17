@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-17T14:21:45.428Z",
+ "generated": "2026-11-17T14:31:45.833Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 10,
-  "avgTimeSec": 37,
+  "readersNow": 2,
+  "todayReads": 11,
+  "avgTimeSec": 45,
   "postsThisWeek": 12
  },
  "funnel": {
   "views": 7254,
-  "reads": 305,
+  "reads": 306,
   "completes": 31,
   "plays": 11,
-  "sessions": 7083
+  "sessions": 7082
  },
  "channels": [
   {
    "channel": "direct",
    "views": 3019,
-   "reads": 195,
-   "sessions": 2895
+   "reads": 196,
+   "sessions": 2894
   },
   {
    "channel": "referral",
@@ -61,7 +61,7 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 23
+   "sessions": 24
   }
  ],
  "channelQuality": [
@@ -79,9 +79,9 @@
   {
    "channel": "direct",
    "views": 3019,
-   "reads": 195,
+   "reads": 196,
    "completes": 27,
-   "sessions": 2895,
+   "sessions": 2894,
    "read_rate": 0.065,
    "complete_rate": 0.009,
    "pages_per_session": 1.04,
@@ -147,7 +147,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 23,
+   "sessions": 24,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -167,8 +167,8 @@
   },
   {
    "surface": "wire-row",
-   "clicks": 7,
-   "sessions": 7
+   "clicks": 8,
+   "sessions": 8
   },
   {
    "surface": "feature",
@@ -254,15 +254,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6909,
-   "reads": 271,
+   "views": 6910,
+   "reads": 272,
    "sessions": 6735
   },
   {
    "device": "mobile",
-   "views": 338,
+   "views": 337,
    "reads": 30,
-   "sessions": 345
+   "sessions": 344
   },
   {
    "device": "tablet",
@@ -651,9 +651,9 @@
   },
   {
    "path": "/",
-   "views": 212,
+   "views": 211,
    "reads": 4,
-   "sessions": 209,
+   "sessions": 208,
    "avg_dwell_sec": 21
   },
   {
@@ -766,14 +766,14 @@
    "sessions": 8
   },
   {
+   "ref": "wire-row",
+   "hits": 8,
+   "sessions": 8
+  },
+  {
    "ref": "https://teams.public.onecdn.static.microsoft/",
    "hits": 8,
    "sessions": 5
-  },
-  {
-   "ref": "wire-row",
-   "hits": 7,
-   "sessions": 7
   },
   {
    "ref": "https://search.brave.com/",
