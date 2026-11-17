@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-17T04:50:22.341Z",
+ "generated": "2026-11-17T05:00:26.027Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9374,
+ "verifiedAiHits": 9375,
  "logsScanned": 30,
  "windowStart": "2026-11-03",
  "windowEnd": "2026-11-17",
- "totalHits": 111118,
- "aiHits": 87624,
+ "totalHits": 111149,
+ "aiHits": 87645,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,18 +14,18 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 27996,
+   "hits": 28006,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
    "topPaths": [
     {
-     "path": "/",
+     "path": "/build",
      "hits": 37
     },
     {
-     "path": "/build",
-     "hits": 36
+     "path": "/",
+     "hits": 37
     },
     {
      "path": "/dashboard",
@@ -36,8 +36,8 @@
      "hits": 17
     },
     {
-     "path": "/best/framework",
-     "hits": 14
+     "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
+     "hits": 15
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13869,
+   "hits": 13877,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 12306,
+   "hits": 12307,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9328,
+   "hits": 9329,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -179,14 +179,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5800,
-   "verifiedHits": 5766,
+   "hits": 5805,
+   "verifiedHits": 5771,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 137
+     "hits": 138
     },
     {
      "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5739,
+   "hits": 5743,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3593,
-   "verifiedHits": 3543,
+   "hits": 3594,
+   "verifiedHits": 3544,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
    "topPaths": [
@@ -476,7 +476,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 831,
+   "hits": 832,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -486,12 +486,12 @@
      "hits": 59
     },
     {
-     "path": "/posts/cheapest-gpu-rental-november-2026.html",
+     "path": "/posts/gpu-rental-price-october-2026.html",
      "hits": 53
     },
     {
-     "path": "/posts/gpu-rental-price-october-2026.html",
-     "hits": 52
+     "path": "/posts/cheapest-gpu-rental-november-2026.html",
+     "hits": 53
     },
     {
      "path": "/posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html",
