@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-17T05:30:30.642Z",
+ "generated": "2026-11-17T05:40:30.460Z",
  "windowDays": 14,
  "site": {
   "readersNow": 5,
@@ -8,7 +8,7 @@
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 7251,
+  "views": 7247,
   "reads": 307,
   "completes": 29,
   "plays": 11,
@@ -17,7 +17,7 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 3016,
+   "views": 3012,
    "reads": 195,
    "sessions": 2881
   },
@@ -78,7 +78,7 @@
   },
   {
    "channel": "direct",
-   "views": 3016,
+   "views": 3012,
    "reads": 195,
    "completes": 26,
    "sessions": 2881,
@@ -157,7 +157,7 @@
  "navSurfaces": [
   {
    "surface": "nav-cmp",
-   "clicks": 24,
+   "clicks": 22,
    "sessions": 9
   },
   {
@@ -178,11 +178,6 @@
   {
    "surface": "btn-stats",
    "clicks": 4,
-   "sessions": 3
-  },
-  {
-   "surface": "btn-agents",
-   "clicks": 3,
    "sessions": 3
   },
   {
@@ -207,6 +202,11 @@
   },
   {
    "surface": "desk-compare",
+   "clicks": 2,
+   "sessions": 2
+  },
+  {
+   "surface": "btn-agents",
    "clicks": 2,
    "sessions": 2
   },
@@ -254,7 +254,7 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6916,
+   "views": 6912,
    "reads": 273,
    "sessions": 6731
   },
@@ -318,7 +318,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 26,
+   "views": 25,
    "reads": 6,
    "plays": 1
   },
@@ -440,7 +440,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 26,
+   "views": 25,
    "reads": 6,
    "plays": 1
   },
@@ -537,16 +537,6 @@
    "plays": 2
   },
   {
-   "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
-   "title": "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 26,
-   "reads": 6,
-   "plays": 1
-  },
-  {
    "slug": "best-llm-for-creative-writing-october-2026",
    "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
    "section": "stack",
@@ -554,6 +544,16 @@
    "author": "dex",
    "views": 26,
    "reads": 5,
+   "plays": 1
+  },
+  {
+   "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
+   "title": "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 25,
+   "reads": 6,
    "plays": 1
   },
   {
@@ -630,9 +630,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 836,
+   "views": 837,
    "reads": 0,
-   "sessions": 832,
+   "sessions": 833,
    "avg_dwell_sec": 11
   },
   {
@@ -679,17 +679,17 @@
   },
   {
    "path": "/subscribe",
-   "views": 32,
+   "views": 31,
    "reads": 0,
    "sessions": 12,
    "avg_dwell_sec": null
   },
   {
    "path": "/tools",
-   "views": 27,
+   "views": 25,
    "reads": 3,
    "sessions": 23,
-   "avg_dwell_sec": 51
+   "avg_dwell_sec": 56
   },
   {
    "path": "/authors/dex",
@@ -720,18 +720,18 @@
    "avg_dwell_sec": 38
   },
   {
-   "path": "/newsroom",
-   "views": 12,
-   "reads": 1,
-   "sessions": 11,
-   "avg_dwell_sec": 35
-  },
-  {
    "path": "/submit.html",
    "views": 12,
    "reads": 3,
    "sessions": 12,
    "avg_dwell_sec": 47
+  },
+  {
+   "path": "/authors/priya",
+   "views": 11,
+   "reads": 0,
+   "sessions": 11,
+   "avg_dwell_sec": null
   }
  ],
  "referrers": [
@@ -757,7 +757,7 @@
   },
   {
    "ref": "nav-cmp",
-   "hits": 24,
+   "hits": 22,
    "sessions": 9
   },
   {
