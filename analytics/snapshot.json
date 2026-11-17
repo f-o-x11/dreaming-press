@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-17T21:42:45.535Z",
+ "generated": "2026-11-17T21:52:49.581Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 16,
+  "readersNow": 4,
+  "todayReads": 17,
   "avgTimeSec": 34,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 7245,
-  "reads": 301,
+  "views": 7250,
+  "reads": 302,
   "completes": 33,
   "plays": 9,
-  "sessions": 7086
+  "sessions": 7087
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3010,
-   "reads": 192,
-   "sessions": 2895
+   "views": 3015,
+   "reads": 193,
+   "sessions": 2896
   },
   {
    "channel": "referral",
@@ -61,7 +61,7 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 23
+   "sessions": 22
   }
  ],
  "channelQuality": [
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 3010,
-   "reads": 192,
+   "views": 3015,
+   "reads": 193,
    "completes": 30,
-   "sessions": 2895,
+   "sessions": 2896,
    "read_rate": 0.064,
    "complete_rate": 0.01,
    "pages_per_session": 1.04,
@@ -147,7 +147,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 23,
+   "sessions": 22,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -177,8 +177,8 @@
   },
   {
    "surface": "btn-stats",
-   "clicks": 4,
-   "sessions": 3
+   "clicks": 3,
+   "sessions": 2
   },
   {
    "surface": "article-body",
@@ -254,15 +254,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6905,
+   "views": 6909,
    "reads": 268,
    "sessions": 6743
   },
   {
    "device": "mobile",
-   "views": 333,
-   "reads": 29,
-   "sessions": 340
+   "views": 334,
+   "reads": 30,
+   "sessions": 341
   },
   {
    "device": "tablet",
@@ -333,6 +333,16 @@
    "plays": 0
   },
   {
+   "slug": "open-source-coding-llm-ranked-november-2026",
+   "title": "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "best-llm-for-creative-writing-october-2026",
    "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
    "section": "stack",
@@ -348,16 +358,6 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 21,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "open-source-coding-llm-ranked-november-2026",
-   "title": "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
    "views": 21,
    "reads": 3,
    "plays": 0
@@ -557,6 +557,16 @@
    "plays": 1
   },
   {
+   "slug": "open-source-coding-llm-ranked-november-2026",
+   "title": "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "open-source-llm-leaderboard-september-2026-run-locally",
    "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
    "section": "stack",
@@ -572,16 +582,6 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 21,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "open-source-coding-llm-ranked-november-2026",
-   "title": "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
    "views": 21,
    "reads": 3,
    "plays": 0
@@ -700,9 +700,9 @@
   },
   {
    "path": "/dashboard",
-   "views": 17,
+   "views": 16,
    "reads": 0,
-   "sessions": 15,
+   "sessions": 14,
    "avg_dwell_sec": 14
   },
   {
