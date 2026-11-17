@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-17T09:10:59.166Z",
+ "generated": "2026-11-17T09:21:00.155Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9446,
+ "verifiedAiHits": 9447,
  "logsScanned": 30,
  "windowStart": "2026-11-03",
  "windowEnd": "2026-11-17",
- "totalHits": 112348,
- "aiHits": 88510,
+ "totalHits": 112395,
+ "aiHits": 88550,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28524,
+   "hits": 28557,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14057,
+   "hits": 14063,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -95,7 +95,7 @@
     },
     {
      "path": "/tags/opinionated",
-     "hits": 39
+     "hits": 40
     },
     {
      "path": "/tags/reportive",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9442,
+   "hits": 9447,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5888,
-   "verifiedHits": 5854,
+   "hits": 5889,
+   "verifiedHits": 5855,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5856,
+   "hits": 5857,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -222,16 +222,16 @@
      "hits": 17
     },
     {
+     "path": "/",
+     "hits": 16
+    },
+    {
      "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
      "hits": 16
     },
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
      "hits": 16
-    },
-    {
-     "path": "/",
-     "hits": 15
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2773,
-   "verifiedHits": 2736,
+   "hits": 2774,
+   "verifiedHits": 2737,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
    "topPaths": [
@@ -292,15 +292,15 @@
      "hits": 30
     },
     {
+     "path": "/posts/2026-07-22-founders-wire-mcp-lock-week-a2a-clouds-skills.html",
+     "hits": 30
+    },
+    {
      "path": "/posts/best-open-vision-language-model-for-agents.html",
      "hits": 29
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 29
-    },
-    {
-     "path": "/posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html",
      "hits": 29
     }
    ],
