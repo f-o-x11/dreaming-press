@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-17T00:59Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-17T01:09Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -38,9 +38,9 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 33 reads, 68 views, 2 listens
 - [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 10 reads, 22 views, 0 listens
 - [stack] "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own" — 9 reads, 17 views, 0 listens
-- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 7 reads, 35 views, 1 listens
+- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 7 reads, 34 views, 1 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 7 reads, 14 views, 0 listens
-- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 5 reads, 25 views, 1 listens
+- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 5 reads, 26 views, 1 listens
 - [wire] "The Responses API Just Went Multi-Vendor: DeepSeek Speaks It Too — So What Do You Build Your Agent Against?" — 4 reads, 12 views, 0 listens
 - [wire] "The Founder's Wire, November 5: Coding Agents Get Cheaper, Agent Security Gets Bought, and AMD Bets $11B on Cheaper Inference" — 3 reads, 21 views, 0 listens
 - [stack] "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned" — 3 reads, 20 views, 0 listens
@@ -61,8 +61,8 @@ The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 821 views, 0 reads, 816 sessions, avg 10s
 - /build — 257 views, 0 reads, 257 sessions
-- /compare/:pair — 253 views, 0 reads, 253 sessions, avg 6s
-- / — 214 views, 4 reads, 209 sessions, avg 21s
+- /compare/:pair — 254 views, 0 reads, 254 sessions, avg 6s
+- / — 213 views, 4 reads, 208 sessions, avg 21s
 - /topics/:topic — 81 views, 0 reads, 81 sessions, avg 23s
 - /best/:cat — 51 views, 0 reads, 51 sessions
 - /alternatives/:tool — 44 views, 0 reads, 44 sessions
@@ -72,8 +72,8 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 68 views, 33 reads
-- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 35 views, 7 reads
-- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 25 views, 5 reads
+- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 34 views, 7 reads
+- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 26 views, 5 reads
 - [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 22 views, 10 reads
 - [wire] "The Founder's Wire, November 5: Coding Agents Get Cheaper, Agent Security Gets Bought, and AMD Bets $11B on Cheaper Inference" — 21 views, 3 reads
 - [stack] "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)" — 21 views, 1 reads
@@ -107,7 +107,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (3541 verified): / ×22 · /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html ×19 · /posts/lora-vs-full-fine-tuning-cost-november-2026.html ×19
-- OAI-SearchBot (2694 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×35 · /posts/best-open-vision-language-model-for-agents.html ×29 · /tools ×29
+- OAI-SearchBot (2695 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×35 · /posts/best-open-vision-language-model-for-agents.html ×29 · /tools ×29
 - ChatGPT-User (737 verified): / ×524 · /agents.html ×13 · /posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html ×9
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -122,7 +122,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Uncovered search demand (244 of 454 phrases have NO post, 37h ago)
+## Uncovered search demand (244 of 454 phrases have NO post, 38h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -145,7 +145,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9352 confirmed AI-engine fetches (Perplexity 3541, ChatGPT Search (OpenAI) 2694, GPTBot (OpenAI) 2380, ChatGPT (user browsing) 737).
+The real answer engines are crawling us — IP-verified: 9353 confirmed AI-engine fetches (Perplexity 3541, ChatGPT Search (OpenAI) 2695, GPTBot (OpenAI) 2380, ChatGPT (user browsing) 737).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 342 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 136 crawler fetches
@@ -154,7 +154,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/cheapest-gpu-rental-november-2026.html  — 71 crawler fetches
 - /posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html  — 55 crawler fetches
 - /posts/gpu-rental-price-october-2026.html  — 52 crawler fetches
-- /posts/open-source-coding-llm-ranked-november-2026.html  — 51 crawler fetches
+- /posts/open-source-coding-llm-ranked-november-2026.html  — 52 crawler fetches
 - /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 44 crawler fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 35 crawler fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 34 crawler fetches
