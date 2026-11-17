@@ -1,17 +1,17 @@
 {
- "generated": "2026-11-17T20:32:35.388Z",
+ "generated": "2026-11-17T20:42:35.617Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 1,
   "todayReads": 16,
   "avgTimeSec": 36,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 7259,
-  "reads": 307,
+  "views": 7258,
+  "reads": 306,
   "completes": 34,
-  "plays": 11,
+  "plays": 10,
   "sessions": 7089
  },
  "channels": [
@@ -29,8 +29,8 @@
   },
   {
    "channel": "organic",
-   "views": 138,
-   "reads": 52,
+   "views": 137,
+   "reads": 51,
    "sessions": 131
   },
   {
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 138,
-   "reads": 52,
+   "views": 137,
+   "reads": 51,
    "completes": 1,
    "sessions": 131,
-   "read_rate": 0.377,
+   "read_rate": 0.372,
    "complete_rate": 0.007,
    "pages_per_session": 1.05,
    "median_dwell_sec": 3
@@ -254,8 +254,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6918,
-   "reads": 273,
+   "views": 6917,
+   "reads": 272,
    "sessions": 6745
   },
   {
@@ -455,16 +455,6 @@
    "plays": 1
   },
   {
-   "slug": "langgraph-checkpointing-vs-temporal-durable-execution",
-   "title": "LangGraph Checkpointing vs Temporal: Why Checkpoints Aren't Durable Execution",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 14,
-   "reads": 2,
-   "plays": 1
-  },
-  {
    "slug": "how-to-deploy-a-long-running-ai-agent-without-losing-in-flight-work",
    "title": "How to Deploy a Long-Running AI Agent Without Losing In-Flight Work",
    "section": "wire",
@@ -523,6 +513,16 @@
    "views": 4,
    "reads": 0,
    "plays": 1
+  },
+  {
+   "slug": "openai-responses-api-state-previous-response-id-vs-conversations-api",
+   "title": "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 11,
+   "plays": 0
   }
  ],
  "topViews": [
@@ -746,14 +746,14 @@
    "sessions": 68
   },
   {
-   "ref": "https://www.bing.com/",
-   "hits": 53,
-   "sessions": 26
-  },
-  {
    "ref": "https://duckduckgo.com/",
    "hits": 51,
    "sessions": 25
+  },
+  {
+   "ref": "https://www.bing.com/",
+   "hits": 50,
+   "sessions": 26
   },
   {
    "ref": "nav-cmp",
