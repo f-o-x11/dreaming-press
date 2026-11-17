@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-17T11:39Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-17T11:45Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -61,7 +61,7 @@ The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 835 views, 0 reads, 832 sessions, avg 11s
 - /compare/:pair — 280 views, 0 reads, 280 sessions, avg 6s
-- /build — 257 views, 0 reads, 257 sessions
+- /build — 258 views, 0 reads, 258 sessions
 - / — 212 views, 4 reads, 209 sessions, avg 21s
 - /topics/:topic — 81 views, 0 reads, 81 sessions, avg 23s
 - /best/:cat — 52 views, 0 reads, 52 sessions
@@ -147,7 +147,7 @@ search intent, so put the answer in the first screen and use the phrasing in the
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 9484 confirmed AI-engine fetches (Perplexity 3565, ChatGPT Search (OpenAI) 2753, GPTBot (OpenAI) 2408, ChatGPT (user browsing) 758).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 353 crawler fetches
+- /build  — 354 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 140 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 79 crawler fetches
 - /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html  — 75 crawler fetches
