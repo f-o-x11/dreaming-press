@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-17T22:22Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-17T22:32Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 7249 views → 303 engaged reads → 33 completes · 7086 sessions.
-- Channels: direct 194r/3014v · referral 57r/4085v · organic 50r/135v · ai 1r/6v · campaign:openai 1r/3v · campaign:chatgpt.com 0r/5v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 7247 views → 302 engaged reads → 32 completes · 7084 sessions.
+- Channels: direct 193r/3012v · referral 57r/4085v · organic 50r/135v · ai 1r/6v · campaign:openai 1r/3v · campaign:chatgpt.com 0r/5v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): Doubao 1r/3v · ChatGPT 0r/5v · Kimi 0r/3v.
 - Referrers: aocr.org, google.com, duckduckgo.com, bing.com, nav-cmp, f-cols, teams.public.onecdn.static.microsoft, wire-row, search.brave.com, cn.bing.com.
 - Engaged-read winners by section: wire=7, stack=8.
@@ -24,7 +24,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - referral: 4085 views · read 1.4% · complete 0.0% · 1 pages/session · median ?s
-- direct: 3014 views · read 6.4% · complete 1.0% · 1.04 pages/session · median 10s
+- direct: 3012 views · read 6.4% · complete 1.0% · 1.04 pages/session · median 10s
 - organic: 135 views · read 37.0% · complete 0.7% · 1.05 pages/session · median 3s
 - ai: 6 views · read 16.7% · complete 0.0% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 5 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
@@ -37,8 +37,8 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Top by engaged reads (eyes that stayed)
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 33 reads, 68 views, 2 listens
 - [stack] "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own" — 11 reads, 20 views, 0 listens
-- [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 9 reads, 20 views, 0 listens
-- [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 7 reads, 14 views, 0 listens
+- [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 8 reads, 19 views, 0 listens
+- [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 6 reads, 13 views, 0 listens
 - [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 5 reads, 22 views, 1 listens
 - [wire] "The Responses API Just Went Multi-Vendor: DeepSeek Speaks It Too — So What Do You Build Your Agent Against?" — 5 reads, 14 views, 0 listens
 - [stack] "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned" — 4 reads, 22 views, 0 listens
