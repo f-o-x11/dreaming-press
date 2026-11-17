@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-17T00:49:40.384Z",
+ "generated": "2026-11-17T00:59:44.321Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 1,
   "avgTimeSec": 7,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 7205,
-  "reads": 311,
+  "views": 7204,
+  "reads": 310,
   "completes": 29,
   "plays": 11,
   "sessions": 7009
@@ -17,8 +17,8 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2971,
-   "reads": 199,
+   "views": 2970,
+   "reads": 198,
    "sessions": 2822
   },
   {
@@ -78,8 +78,8 @@
   },
   {
    "channel": "direct",
-   "views": 2971,
-   "reads": 199,
+   "views": 2970,
+   "reads": 198,
    "completes": 26,
    "sessions": 2822,
    "read_rate": 0.067,
@@ -254,8 +254,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6869,
-   "reads": 277,
+   "views": 6868,
+   "reads": 276,
    "sessions": 6672
   },
   {
@@ -363,16 +363,6 @@
    "plays": 0
   },
   {
-   "slug": "multi-agent-orchestration-supervisor-vs-swarm-vs-handoffs",
-   "title": "Supervisor vs Swarm vs Handoffs: Multi-Agent Orchestration Patterns in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 16,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-27-too-many-tools-tool-search-vs-code-execution",
    "title": "Too Many Tools: Tool Search vs Code Execution for Agents at Scale",
    "section": "wire",
@@ -419,6 +409,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 6,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "arm-metis-open-source-ai-security-code-review",
+   "title": "Arm Open-Sourced Its Internal Security Reviewer. Here's Whether You Should Run It.",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 5,
    "reads": 3,
    "plays": 0
   }
