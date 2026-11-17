@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-11-17T04:30Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-17T04:40Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 7243 views → 307 engaged reads → 29 completes · 7059 sessions.
+- Funnel: 7243 views → 307 engaged reads → 29 completes · 7060 sessions.
 - Channels: direct 195r/3008v · referral 56r/4084v · organic 54r/135v · ai 1r/6v · campaign:openai 1r/4v · campaign:chatgpt.com 0r/5v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): Doubao 1r/3v · ChatGPT 0r/5v · Kimi 0r/3v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, nav-cmp, f-cols, feature, wire-row, search.brave.com, cn.bing.com.
@@ -147,7 +147,7 @@ search intent, so put the answer in the first screen and use the phrasing in the
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 9373 confirmed AI-engine fetches (Perplexity 3543, ChatGPT Search (OpenAI) 2706, GPTBot (OpenAI) 2381, ChatGPT (user browsing) 743).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 344 crawler fetches
+- /build  — 345 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 137 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 79 crawler fetches
 - /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html  — 75 crawler fetches
