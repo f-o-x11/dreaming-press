@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-17T02:40:03.142Z",
+ "generated": "2026-11-17T02:50:05.451Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 0,
   "todayReads": 1,
   "avgTimeSec": 10,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 7205,
-  "reads": 309,
+  "views": 7197,
+  "reads": 308,
   "completes": 29,
   "plays": 11,
-  "sessions": 7013
+  "sessions": 7012
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2969,
-   "reads": 197,
-   "sessions": 2824
+   "views": 2961,
+   "reads": 196,
+   "sessions": 2823
   },
   {
    "channel": "referral",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2969,
-   "reads": 197,
+   "views": 2961,
+   "reads": 196,
    "completes": 26,
-   "sessions": 2824,
+   "sessions": 2823,
    "read_rate": 0.066,
    "complete_rate": 0.009,
    "pages_per_session": 1.05,
@@ -157,7 +157,7 @@
  "navSurfaces": [
   {
    "surface": "nav-cmp",
-   "clicks": 28,
+   "clicks": 24,
    "sessions": 9
   },
   {
@@ -167,7 +167,7 @@
   },
   {
    "surface": "feature",
-   "clicks": 10,
+   "clicks": 9,
    "sessions": 5
   },
   {
@@ -211,11 +211,6 @@
    "sessions": 2
   },
   {
-   "surface": "card",
-   "clicks": 2,
-   "sessions": 2
-  },
-  {
    "surface": "breadcrumb",
    "clicks": 2,
    "sessions": 2
@@ -227,6 +222,11 @@
   },
   {
    "surface": "un-body",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
+   "surface": "rr-card",
    "clicks": 1,
    "sessions": 1
   }
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6869,
-   "reads": 275,
-   "sessions": 6675
+   "views": 6861,
+   "reads": 274,
+   "sessions": 6674
   },
   {
    "device": "mobile",
@@ -318,7 +318,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 29,
+   "views": 28,
    "reads": 6,
    "plays": 1
   },
@@ -440,7 +440,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 29,
+   "views": 28,
    "reads": 6,
    "plays": 1
   },
@@ -542,7 +542,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 29,
+   "views": 28,
    "reads": 6,
    "plays": 1
   },
@@ -630,10 +630,10 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 821,
+   "views": 820,
    "reads": 0,
    "sessions": 816,
-   "avg_dwell_sec": 10
+   "avg_dwell_sec": 11
   },
   {
    "path": "/build",
@@ -686,10 +686,10 @@
   },
   {
    "path": "/tools",
-   "views": 29,
+   "views": 27,
    "reads": 3,
    "sessions": 23,
-   "avg_dwell_sec": 47
+   "avg_dwell_sec": 51
   },
   {
    "path": "/authors/dex",
@@ -699,18 +699,18 @@
    "avg_dwell_sec": 15
   },
   {
-   "path": "/stack.html",
-   "views": 17,
-   "reads": 0,
-   "sessions": 15,
-   "avg_dwell_sec": 9
-  },
-  {
    "path": "/dashboard",
    "views": 16,
    "reads": 0,
    "sessions": 14,
    "avg_dwell_sec": 14
+  },
+  {
+   "path": "/stack.html",
+   "views": 16,
+   "reads": 0,
+   "sessions": 14,
+   "avg_dwell_sec": 9
   },
   {
    "path": "/apps",
@@ -757,7 +757,7 @@
   },
   {
    "ref": "nav-cmp",
-   "hits": 28,
+   "hits": 24,
    "sessions": 9
   },
   {
@@ -767,7 +767,7 @@
   },
   {
    "ref": "feature",
-   "hits": 10,
+   "hits": 9,
    "sessions": 5
   },
   {
