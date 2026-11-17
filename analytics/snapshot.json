@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-17T02:30:02.517Z",
+ "generated": "2026-11-17T02:40:03.142Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 7,
+  "readersNow": 4,
   "todayReads": 1,
   "avgTimeSec": 10,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 7208,
-  "reads": 310,
+  "views": 7205,
+  "reads": 309,
   "completes": 29,
   "plays": 11,
-  "sessions": 7014
+  "sessions": 7013
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2972,
-   "reads": 198,
-   "sessions": 2825
+   "views": 2969,
+   "reads": 197,
+   "sessions": 2824
   },
   {
    "channel": "referral",
@@ -78,11 +78,11 @@
   },
   {
    "channel": "direct",
-   "views": 2972,
-   "reads": 198,
+   "views": 2969,
+   "reads": 197,
    "completes": 26,
-   "sessions": 2825,
-   "read_rate": 0.067,
+   "sessions": 2824,
+   "read_rate": 0.066,
    "complete_rate": 0.009,
    "pages_per_session": 1.05,
    "median_dwell_sec": 10
@@ -157,7 +157,7 @@
  "navSurfaces": [
   {
    "surface": "nav-cmp",
-   "clicks": 29,
+   "clicks": 28,
    "sessions": 9
   },
   {
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6872,
-   "reads": 276,
-   "sessions": 6676
+   "views": 6869,
+   "reads": 275,
+   "sessions": 6675
   },
   {
    "device": "mobile",
@@ -303,16 +303,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
-   "title": "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 30,
-   "reads": 7,
-   "plays": 1
-  },
-  {
    "slug": "gpu-rental-price-october-2026",
    "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
    "section": "stack",
@@ -321,6 +311,16 @@
    "views": 14,
    "reads": 7,
    "plays": 0
+  },
+  {
+   "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
+   "title": "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 29,
+   "reads": 6,
+   "plays": 1
   },
   {
    "slug": "best-llm-for-creative-writing-october-2026",
@@ -440,8 +440,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 30,
-   "reads": 7,
+   "views": 29,
+   "reads": 6,
    "plays": 1
   },
   {
@@ -542,8 +542,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 30,
-   "reads": 7,
+   "views": 29,
+   "reads": 6,
    "plays": 1
   },
   {
@@ -686,7 +686,7 @@
   },
   {
    "path": "/tools",
-   "views": 30,
+   "views": 29,
    "reads": 3,
    "sessions": 23,
    "avg_dwell_sec": 47
@@ -757,7 +757,7 @@
   },
   {
    "ref": "nav-cmp",
-   "hits": 29,
+   "hits": 28,
    "sessions": 9
   },
   {
