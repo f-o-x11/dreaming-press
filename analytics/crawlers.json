@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-17T18:02:08.600Z",
+ "generated": "2026-11-17T18:12:10.470Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9556,
+ "verifiedAiHits": 9561,
  "logsScanned": 30,
  "windowStart": "2026-11-03",
  "windowEnd": "2026-11-17",
- "totalHits": 114947,
- "aiHits": 90523,
+ "totalHits": 115068,
+ "aiHits": 90609,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29399,
+   "hits": 29425,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -47,7 +47,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 19733,
+   "hits": 19741,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -58,7 +58,7 @@
     },
     {
      "path": "/posts/openai-responses-api-vs-assistants-api-vs-chat-completions.html",
-     "hits": 7
+     "hits": 8
     },
     {
      "path": "/dashboard",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14467,
+   "hits": 14473,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 12559,
+   "hits": 12565,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9657,
+   "hits": 9664,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -179,7 +179,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 6038,
+   "hits": 6046,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -212,8 +212,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6026,
-   "verifiedHits": 5992,
+   "hits": 6034,
+   "verifiedHits": 5997,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3615,
+   "hits": 3618,
    "verifiedHits": 3565,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -278,8 +278,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2825,
-   "verifiedHits": 2788,
+   "hits": 2829,
+   "verifiedHits": 2791,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
    "topPaths": [
@@ -292,15 +292,15 @@
      "hits": 30
     },
     {
+     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
+     "hits": 30
+    },
+    {
      "path": "/posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html",
      "hits": 30
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 30
-    },
-    {
-     "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
      "hits": 30
     }
    ],
@@ -311,7 +311,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 2456,
+   "hits": 2459,
    "verifiedHits": 2427,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -344,10 +344,10 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2041,
+   "hits": 2047,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
-   "lastSeen": "2026-11-16",
+   "lastSeen": "2026-11-17",
    "topPaths": [
     {
      "path": "/tags/opinionated",
@@ -377,7 +377,7 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 1194,
+   "hits": 1200,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-17",
@@ -410,8 +410,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1116,
-   "verifiedHits": 604,
+   "hits": 1125,
+   "verifiedHits": 606,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1021,
+   "hits": 1024,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -476,7 +476,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 888,
+   "hits": 889,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -509,14 +509,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 831,
-   "verifiedHits": 776,
+   "hits": 837,
+   "verifiedHits": 778,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
    "topPaths": [
     {
      "path": "/",
-     "hits": 554
+     "hits": 555
     },
     {
      "path": "/agents.html",
@@ -608,14 +608,18 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 167,
+   "hits": 171,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
-   "lastSeen": "2026-11-15",
+   "lastSeen": "2026-11-17",
    "topPaths": [
     {
      "path": "/posts/china-ai-companion-law-doubao-qwen-agent-shutdown.html",
      "hits": 2
+    },
+    {
+     "path": "/local_settings.py",
+     "hits": 1
     },
     {
      "path": "/z9x8c7v6b5-debug-trigger-www.dreaming.press",
@@ -628,10 +632,6 @@
     {
      "path": "/posts/how-ai-agents-forget-memory-consolidation.html",
      "hits": 1
-    },
-    {
-     "path": "/posts/china-ai-companion-law-in-effect-what-founders-do",
-     "hits": 1
     }
    ],
    "verifiable": false
@@ -641,7 +641,7 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 91,
+   "hits": 94,
    "verifiedHits": 0,
    "firstSeen": "2026-11-03",
    "lastSeen": "2026-11-17",
@@ -686,11 +686,15 @@
    "label": "Claude Search (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 16,
+   "hits": 19,
    "verifiedHits": 0,
    "firstSeen": "2026-11-05",
-   "lastSeen": "2026-11-15",
+   "lastSeen": "2026-11-17",
    "topPaths": [
+    {
+     "path": "/userfiles/x",
+     "hits": 1
+    },
     {
      "path": "/local_settings.py",
      "hits": 1
@@ -707,10 +711,10 @@
    "label": "Cohere",
    "category": "ai",
    "home": "https://cohere.com",
-   "hits": 10,
+   "hits": 11,
    "verifiedHits": 0,
    "firstSeen": "2026-11-05",
-   "lastSeen": "2026-11-15",
+   "lastSeen": "2026-11-17",
    "topPaths": [
     {
      "path": "/userfiles/x",
