@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-17T17:52:07.809Z",
+ "generated": "2026-11-17T18:02:08.885Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 13,
+  "readersNow": 3,
+  "todayReads": 15,
   "avgTimeSec": 45,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 7245,
-  "reads": 305,
-  "completes": 33,
+  "views": 7248,
+  "reads": 307,
+  "completes": 34,
   "plays": 11,
-  "sessions": 7076
+  "sessions": 7078
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3009,
-   "reads": 196,
-   "sessions": 2886
+   "views": 3011,
+   "reads": 197,
+   "sessions": 2888
   },
   {
    "channel": "referral",
@@ -29,8 +29,8 @@
   },
   {
    "channel": "organic",
-   "views": 135,
-   "reads": 50,
+   "views": 136,
+   "reads": 51,
    "sessions": 129
   },
   {
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 3009,
-   "reads": 196,
-   "completes": 29,
-   "sessions": 2886,
+   "views": 3011,
+   "reads": 197,
+   "completes": 30,
+   "sessions": 2888,
    "read_rate": 0.065,
    "complete_rate": 0.01,
    "pages_per_session": 1.04,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 135,
-   "reads": 50,
+   "views": 136,
+   "reads": 51,
    "completes": 1,
    "sessions": 129,
-   "read_rate": 0.37,
+   "read_rate": 0.375,
    "complete_rate": 0.007,
    "pages_per_session": 1.05,
    "median_dwell_sec": 3
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6905,
-   "reads": 271,
-   "sessions": 6733
+   "views": 6908,
+   "reads": 273,
+   "sessions": 6735
   },
   {
    "device": "mobile",
@@ -403,21 +403,21 @@
    "plays": 0
   },
   {
-   "slug": "tool-highlight-qoder-security-in-session-code-security",
-   "title": "Tool Highlight: Qoder Security Puts Three Security Layers Inside the AI Coding Session",
-   "section": "stack",
+   "slug": "microsoft-agent-framework-codeact-hyperlight",
+   "title": "Microsoft Agent Framework's CodeAct: When the Sandbox Stops Being the Hard Part",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
+   "author": "dex",
    "views": 4,
    "reads": 3,
    "plays": 0
   },
   {
-   "slug": "vllm-rust-frontend",
-   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
-   "section": "wire",
+   "slug": "tool-highlight-qoder-security-in-session-code-security",
+   "title": "Tool Highlight: Qoder Security Puts Three Security Layers Inside the AI Coding Session",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
+   "author": "priya",
    "views": 4,
    "reads": 3,
    "plays": 0
@@ -747,7 +747,7 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 51,
+   "hits": 53,
    "sessions": 26
   },
   {
