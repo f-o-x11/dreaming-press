@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T02:03:37.404Z",
+ "generated": "2026-11-18T02:13:40.318Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,18 +8,18 @@
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 7236,
-  "reads": 298,
-  "completes": 30,
+  "views": 7233,
+  "reads": 297,
+  "completes": 29,
   "plays": 9,
-  "sessions": 7080
+  "sessions": 7078
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3001,
-   "reads": 189,
-   "sessions": 2889
+   "views": 2998,
+   "reads": 188,
+   "sessions": 2887
   },
   {
    "channel": "referral",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 3001,
-   "reads": 189,
-   "completes": 27,
-   "sessions": 2889,
+   "views": 2998,
+   "reads": 188,
+   "completes": 26,
+   "sessions": 2887,
    "read_rate": 0.063,
    "complete_rate": 0.009,
    "pages_per_session": 1.04,
@@ -162,7 +162,7 @@
   },
   {
    "surface": "f-cols",
-   "clicks": 12,
+   "clicks": 11,
    "sessions": 8
   },
   {
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6895,
-   "reads": 264,
-   "sessions": 6736
+   "views": 6892,
+   "reads": 263,
+   "sessions": 6734
   },
   {
    "device": "mobile",
@@ -333,16 +333,6 @@
    "plays": 0
   },
   {
-   "slug": "gpu-rental-price-october-2026",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 11,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "best-llm-for-creative-writing-october-2026",
    "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
    "section": "stack",
@@ -379,6 +369,16 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 12,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "gpu-rental-price-october-2026",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 10,
    "reads": 3,
    "plays": 0
   },
@@ -727,11 +727,11 @@
    "avg_dwell_sec": 47
   },
   {
-   "path": "/about.html",
+   "path": "/agents.html",
    "views": 11,
-   "reads": 1,
+   "reads": 2,
    "sessions": 11,
-   "avg_dwell_sec": 68
+   "avg_dwell_sec": 41
   }
  ],
  "referrers": [
@@ -762,7 +762,7 @@
   },
   {
    "ref": "f-cols",
-   "hits": 12,
+   "hits": 11,
    "sessions": 8
   },
   {
