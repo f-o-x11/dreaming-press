@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-18T18:11:54.999Z",
+ "generated": "2026-11-18T18:21:55.088Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 12,
   "avgTimeSec": 61,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 7255,
+  "views": 7256,
   "reads": 293,
   "completes": 33,
   "plays": 9,
-  "sessions": 7101
+  "sessions": 7102
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3018,
+   "views": 3019,
    "reads": 189,
-   "sessions": 2906
+   "sessions": 2907
   },
   {
    "channel": "referral",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 3018,
+   "views": 3019,
    "reads": 189,
    "completes": 29,
-   "sessions": 2906,
+   "sessions": 2907,
    "read_rate": 0.063,
    "complete_rate": 0.01,
    "pages_per_session": 1.04,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6930,
+   "views": 6931,
    "reads": 260,
-   "sessions": 6773
+   "sessions": 6774
   },
   {
    "device": "mobile",
@@ -720,18 +720,18 @@
    "avg_dwell_sec": 38
   },
   {
+   "path": "/submit.html",
+   "views": 12,
+   "reads": 2,
+   "sessions": 12,
+   "avg_dwell_sec": 46
+  },
+  {
    "path": "/authors/priya",
    "views": 11,
    "reads": 0,
    "sessions": 11,
    "avg_dwell_sec": null
-  },
-  {
-   "path": "/newsroom",
-   "views": 11,
-   "reads": 1,
-   "sessions": 10,
-   "avg_dwell_sec": 52
   }
  ],
  "referrers": [
