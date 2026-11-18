@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-18T08:54:42.050Z",
+ "generated": "2026-11-18T09:04:45.114Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9704,
+ "verifiedAiHits": 9706,
  "logsScanned": 30,
  "windowStart": "2026-11-04",
  "windowEnd": "2026-11-18",
- "totalHits": 112635,
- "aiHits": 88796,
+ "totalHits": 112683,
+ "aiHits": 88841,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29371,
+   "hits": 29409,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -29,7 +29,7 @@
     },
     {
      "path": "/dashboard",
-     "hits": 21
+     "hits": 22
     },
     {
      "path": "/posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 11338,
+   "hits": 11342,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5837,
-   "verifiedHits": 5793,
+   "hits": 5838,
+   "verifiedHits": 5794,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2688,
-   "verifiedHits": 2645,
+   "hits": 2689,
+   "verifiedHits": 2646,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1047,
+   "hits": 1049,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -476,7 +476,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 862,
+   "hits": 863,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -494,12 +494,12 @@
      "hits": 50
     },
     {
-     "path": "/posts/best-open-source-vector-database-2026.html",
+     "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
      "hits": 44
     },
     {
-     "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
-     "hits": 43
+     "path": "/posts/best-open-source-vector-database-2026.html",
+     "hits": 44
     }
    ],
    "verifiable": false
@@ -509,8 +509,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 824,
-   "verifiedHits": 758,
+   "hits": 825,
+   "verifiedHits": 759,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
    "topPaths": [
