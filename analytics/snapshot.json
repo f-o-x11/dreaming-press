@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-18T21:42:35.133Z",
+ "generated": "2026-11-18T21:52:38.017Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 2,
   "todayReads": 15,
   "avgTimeSec": 70,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 7266,
+  "views": 7267,
   "reads": 295,
   "completes": 33,
   "plays": 9,
-  "sessions": 7111
+  "sessions": 7112
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3026,
+   "views": 3027,
    "reads": 191,
-   "sessions": 2913
+   "sessions": 2914
   },
   {
    "channel": "referral",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 3026,
+   "views": 3027,
    "reads": 191,
    "completes": 29,
-   "sessions": 2913,
+   "sessions": 2914,
    "read_rate": 0.063,
    "complete_rate": 0.01,
    "pages_per_session": 1.04,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6939,
+   "views": 6940,
    "reads": 262,
-   "sessions": 6782
+   "sessions": 6783
   },
   {
    "device": "mobile",
@@ -607,19 +607,19 @@
    "plays": 0
   },
   {
-   "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
-   "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
-   "section": "stack",
+   "slug": "vllm-vs-sglang-vs-lmdeploy",
+   "title": "vLLM vs SGLang vs LMDeploy: Picking a Self-Hosted Inference Engine in 2026",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 17,
+   "views": 18,
    "reads": 0,
    "plays": 0
   },
   {
-   "slug": "vllm-vs-sglang-vs-lmdeploy",
-   "title": "vLLM vs SGLang vs LMDeploy: Picking a Self-Hosted Inference Engine in 2026",
-   "section": "wire",
+   "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
+   "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 17,

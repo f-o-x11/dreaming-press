@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-18T21:42:34.801Z",
+ "generated": "2026-11-18T21:52:37.701Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10099,
+ "verifiedAiHits": 10102,
  "logsScanned": 30,
  "windowStart": "2026-11-04",
  "windowEnd": "2026-11-18",
- "totalHits": 115540,
- "aiHits": 90998,
+ "totalHits": 115571,
+ "aiHits": 91025,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30485,
+   "hits": 30494,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -47,7 +47,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 19769,
+   "hits": 19770,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14371,
+   "hits": 14379,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 11598,
+   "hits": 11604,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6027,
-   "verifiedHits": 5982,
+   "hits": 6030,
+   "verifiedHits": 5985,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
    "topPaths": [
@@ -212,21 +212,21 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5915,
+   "hits": 5916,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
    "topPaths": [
+    {
+     "path": "/build",
+     "hits": 18
+    },
     {
      "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
      "hits": 17
     },
     {
      "path": "/",
-     "hits": 17
-    },
-    {
-     "path": "/build",
      "hits": 17
     },
     {
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3590,
-   "verifiedHits": 3530,
+   "hits": 3593,
+   "verifiedHits": 3533,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
    "topPaths": [
