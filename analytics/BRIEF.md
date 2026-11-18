@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-18T08:44Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-18T08:54Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -65,7 +65,7 @@ so what these earn from humans is the other half of the picture.
 - / — 207 views, 4 reads, 206 sessions, avg 20s
 - /topics/:topic — 82 views, 1 reads, 82 sessions, avg 23s
 - /best/:cat — 52 views, 0 reads, 52 sessions
-- /alternatives/:tool — 46 views, 0 reads, 46 sessions
+- /alternatives/:tool — 47 views, 0 reads, 47 sessions
 - /subscribe — 31 views, 0 reads, 11 sessions
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
@@ -107,7 +107,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/cheapest-gpu-rental-november-2026.html  — 17 retrieval fetches
 
 Per engine:
-- PerplexityBot (3278 verified): / ×22 · /posts/lora-vs-full-fine-tuning-cost-november-2026.html ×21 · /posts/2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b.html ×19
+- PerplexityBot (3279 verified): / ×22 · /posts/lora-vs-full-fine-tuning-cost-november-2026.html ×21 · /posts/2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b.html ×19
 - OAI-SearchBot (2645 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×31 · /posts/open-source-llm-for-coding-september-2026.html ×30 · /posts/best-open-vision-language-model-for-agents.html ×29
 - ChatGPT-User (758 verified): / ×548 · /agents.html ×13 · /posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html ×9
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -146,7 +146,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9703 confirmed AI-engine fetches (Perplexity 3278, GPTBot (OpenAI) 3022, ChatGPT Search (OpenAI) 2645, ChatGPT (user browsing) 758).
+The real answer engines are crawling us — IP-verified: 9704 confirmed AI-engine fetches (Perplexity 3279, GPTBot (OpenAI) 3022, ChatGPT Search (OpenAI) 2645, ChatGPT (user browsing) 758).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 343 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 135 crawler fetches
