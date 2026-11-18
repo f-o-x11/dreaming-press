@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-18T04:54:04.177Z",
+ "generated": "2026-11-18T05:04:07.000Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9638,
+ "verifiedAiHits": 9639,
  "logsScanned": 30,
  "windowStart": "2026-11-04",
  "windowEnd": "2026-11-18",
- "totalHits": 111481,
- "aiHits": 87909,
+ "totalHits": 111512,
+ "aiHits": 87930,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28784,
+   "hits": 28797,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13865,
+   "hits": 13872,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9366,
+   "hits": 9367,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5783,
-   "verifiedHits": 5739,
+   "hits": 5784,
+   "verifiedHits": 5740,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
    "topPaths": [
@@ -212,21 +212,21 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5717,
+   "hits": 5725,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
    "topPaths": [
+    {
+     "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
+     "hits": 17
+    },
     {
      "path": "/build",
      "hits": 17
     },
     {
      "path": "/",
-     "hits": 16
-    },
-    {
-     "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
      "hits": 16
     },
     {
@@ -311,8 +311,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2663,
-   "verifiedHits": 2620,
+   "hits": 2664,
+   "verifiedHits": 2621,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
    "topPaths": [
