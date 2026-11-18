@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-18T06:54:27.332Z",
+ "generated": "2026-11-18T07:04:27.578Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 8,
   "todayReads": 4,
   "avgTimeSec": 5,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 7230,
+  "views": 7233,
   "reads": 295,
   "completes": 31,
   "plays": 9,
-  "sessions": 7076
+  "sessions": 7079
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2998,
+   "views": 3001,
    "reads": 189,
-   "sessions": 2884
+   "sessions": 2887
   },
   {
    "channel": "referral",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2998,
+   "views": 3001,
    "reads": 189,
    "completes": 28,
-   "sessions": 2884,
+   "sessions": 2887,
    "read_rate": 0.063,
    "complete_rate": 0.009,
    "pages_per_session": 1.04,
@@ -254,15 +254,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6891,
+   "views": 6896,
    "reads": 261,
-   "sessions": 6734
+   "sessions": 6739
   },
   {
    "device": "mobile",
-   "views": 332,
+   "views": 330,
    "reads": 30,
-   "sessions": 339
+   "sessions": 337
   },
   {
    "device": "tablet",
@@ -602,6 +602,16 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
+   "views": 18,
+   "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "2026-11-17-founders-wire-california-sues-openai-cursor-backdoored-extension-bay-vets-agent-actions",
+   "title": "The Founder's Wire, November 17: California Sues OpenAI Over Agents That Lost Control, a Backdoored Claude Code Extension Reaches Cursor Users, and a Startup Raises $50M to Vet Every Agent Action",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
    "views": 17,
    "reads": 0,
    "plays": 0
@@ -609,16 +619,6 @@
   {
    "slug": "best-open-source-rl-frameworks-for-training-agents",
    "title": "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 17,
-   "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
-   "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
