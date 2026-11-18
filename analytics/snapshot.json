@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-18T05:54:17.467Z",
+ "generated": "2026-11-18T06:04:17.858Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 3,
+  "readersNow": 1,
+  "todayReads": 4,
   "avgTimeSec": 5,
   "postsThisWeek": 10
  },
  "funnel": {
   "views": 7226,
-  "reads": 296,
-  "completes": 30,
+  "reads": 295,
+  "completes": 31,
   "plays": 9,
   "sessions": 7073
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2993,
-   "reads": 188,
-   "sessions": 2880
+   "views": 2994,
+   "reads": 189,
+   "sessions": 2881
   },
   {
    "channel": "referral",
@@ -29,21 +29,21 @@
   },
   {
    "channel": "organic",
-   "views": 134,
-   "reads": 49,
-   "sessions": 129
-  },
-  {
-   "channel": "ai",
-   "views": 5,
-   "reads": 1,
-   "sessions": 6
+   "views": 133,
+   "reads": 48,
+   "sessions": 128
   },
   {
    "channel": "campaign:openai",
    "views": 3,
    "reads": 1,
    "sessions": 4
+  },
+  {
+   "channel": "ai",
+   "views": 5,
+   "reads": 0,
+   "sessions": 5
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2993,
-   "reads": 188,
-   "completes": 27,
-   "sessions": 2880,
+   "views": 2994,
+   "reads": 189,
+   "completes": 28,
+   "sessions": 2881,
    "read_rate": 0.063,
    "complete_rate": 0.009,
    "pages_per_session": 1.04,
@@ -89,28 +89,28 @@
   },
   {
    "channel": "organic",
-   "views": 134,
-   "reads": 49,
+   "views": 133,
+   "reads": 48,
    "completes": 1,
-   "sessions": 129,
-   "read_rate": 0.366,
-   "complete_rate": 0.007,
+   "sessions": 128,
+   "read_rate": 0.361,
+   "complete_rate": 0.008,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
   },
   {
-   "channel": "ai",
+   "channel": "campaign:chatgpt.com",
    "views": 5,
-   "reads": 1,
+   "reads": 0,
    "completes": 0,
-   "sessions": 6,
-   "read_rate": 0.2,
+   "sessions": 5,
+   "read_rate": 0,
    "complete_rate": 0,
-   "pages_per_session": 0.83,
+   "pages_per_session": 1,
    "median_dwell_sec": null
   },
   {
-   "channel": "campaign:chatgpt.com",
+   "channel": "ai",
    "views": 5,
    "reads": 0,
    "completes": 0,
@@ -233,12 +233,6 @@
  ],
  "assistants": [
   {
-   "assistant": "Doubao",
-   "views": 2,
-   "reads": 1,
-   "sessions": 3
-  },
-  {
    "assistant": "ChatGPT",
    "views": 5,
    "reads": 0,
@@ -249,13 +243,19 @@
    "views": 3,
    "reads": 0,
    "sessions": 3
+  },
+  {
+   "assistant": "Doubao",
+   "views": 2,
+   "reads": 0,
+   "sessions": 2
   }
  ],
  "devices": [
   {
    "device": "desktop",
    "views": 6887,
-   "reads": 262,
+   "reads": 261,
    "sessions": 6731
   },
   {
@@ -747,8 +747,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 51,
-   "sessions": 25
+   "hits": 49,
+   "sessions": 24
   },
   {
    "ref": "https://www.bing.com/",
