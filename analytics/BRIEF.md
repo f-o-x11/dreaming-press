@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-18T03:53Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-18T04:04Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -100,7 +100,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/best-open-vision-language-model-for-agents.html  — 29 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 29 retrieval fetches
 - /posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html  — 29 retrieval fetches
-- /tools  — 29 retrieval fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 29 retrieval fetches
 - /posts/lora-vs-full-fine-tuning-cost-november-2026.html  — 21 retrieval fetches
 - /posts/2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b.html  — 19 retrieval fetches
 - /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html  — 18 retrieval fetches
@@ -108,7 +108,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (3266 verified): / ×22 · /posts/lora-vs-full-fine-tuning-cost-november-2026.html ×21 · /posts/2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b.html ×19
-- OAI-SearchBot (2617 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×30 · /posts/best-open-vision-language-model-for-agents.html ×29 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×29
+- OAI-SearchBot (2620 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×30 · /posts/best-open-vision-language-model-for-agents.html ×29 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×29
 - ChatGPT-User (744 verified): / ×537 · /agents.html ×13 · /posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html ×9
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -146,7 +146,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9630 confirmed AI-engine fetches (Perplexity 3266, GPTBot (OpenAI) 3003, ChatGPT Search (OpenAI) 2617, ChatGPT (user browsing) 744).
+The real answer engines are crawling us — IP-verified: 9634 confirmed AI-engine fetches (Perplexity 3266, GPTBot (OpenAI) 3004, ChatGPT Search (OpenAI) 2620, ChatGPT (user browsing) 744).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 340 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 132 crawler fetches
@@ -157,9 +157,9 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/gpu-rental-price-october-2026.html  — 50 crawler fetches
 - /posts/best-open-source-vector-database-2026.html  — 44 crawler fetches
 - /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 41 crawler fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 40 crawler fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 40 crawler fetches
 - /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html  — 34 crawler fetches
-- /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 30 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
