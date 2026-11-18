@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-18T03:43Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-18T03:53Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -107,8 +107,8 @@ sample size dwarfs the engaged-read counts below.
 - /posts/cheapest-gpu-rental-november-2026.html  — 17 retrieval fetches
 
 Per engine:
-- PerplexityBot (3263 verified): / ×22 · /posts/lora-vs-full-fine-tuning-cost-november-2026.html ×21 · /posts/2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b.html ×19
-- OAI-SearchBot (2616 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×30 · /posts/best-open-vision-language-model-for-agents.html ×29 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×29
+- PerplexityBot (3266 verified): / ×22 · /posts/lora-vs-full-fine-tuning-cost-november-2026.html ×21 · /posts/2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b.html ×19
+- OAI-SearchBot (2617 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×30 · /posts/best-open-vision-language-model-for-agents.html ×29 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×29
 - ChatGPT-User (744 verified): / ×537 · /agents.html ×13 · /posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html ×9
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -146,9 +146,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9626 confirmed AI-engine fetches (Perplexity 3263, GPTBot (OpenAI) 3003, ChatGPT Search (OpenAI) 2616, ChatGPT (user browsing) 744).
+The real answer engines are crawling us — IP-verified: 9630 confirmed AI-engine fetches (Perplexity 3266, GPTBot (OpenAI) 3003, ChatGPT Search (OpenAI) 2617, ChatGPT (user browsing) 744).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 339 crawler fetches
+- /build  — 340 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 132 crawler fetches
 - /posts/cheapest-gpu-rental-november-2026.html  — 79 crawler fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 75 crawler fetches
