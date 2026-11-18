@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-18T14:41Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-18T14:51Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 7231 views → 289 engaged reads → 32 completes · 7079 sessions.
-- Channels: direct 185r/2998v · referral 57r/4085v · organic 46r/134v · campaign:openai 1r/3v · ai 0r/5v · campaign:chatgpt.com 0r/5v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 7230 views → 289 engaged reads → 32 completes · 7078 sessions.
+- Channels: direct 185r/2997v · referral 57r/4085v · organic 46r/134v · campaign:openai 1r/3v · ai 0r/5v · campaign:chatgpt.com 0r/5v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 0r/5v · Kimi 0r/3v · Doubao 0r/2v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, nav-cmp, f-cols, teams.public.onecdn.static.microsoft, cn.bing.com, wire-row, search.brave.com.
 - Engaged-read winners by section: wire=7, stack=8.
@@ -24,7 +24,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - referral: 4085 views · read 1.4% · complete 0.0% · 1 pages/session · median ?s
-- direct: 2998 views · read 6.2% · complete 1.0% · 1.04 pages/session · median 10s
+- direct: 2997 views · read 6.2% · complete 1.0% · 1.04 pages/session · median 10s
 - organic: 134 views · read 34.3% · complete 0.7% · 1.04 pages/session · median 3s
 - campaign:chatgpt.com: 5 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
 - ai: 5 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
@@ -86,7 +86,7 @@ new traffic — and these pages already have the traffic.
 - [stack] "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)" — 22 views but only 1 engaged reads (4.5%)
 - [wire] "The Founder's Wire, November 15: New York's AI Law Gets a Compliance Clock, Adobe Puts an MCP Server on Photoshop, and Anthropic Prices the First Frontier IPO" — 18 views but only 0 engaged reads (0.0%)
 - [wire] "The Founder's Wire, November 17: California Sues OpenAI Over Agents That Lost Control, a Backdoored Claude Code Extension Reaches Cursor Users, and a Startup Raises $50M to Vet Every Agent Action" — 17 views but only 0 engaged reads (0.0%)
-- [stack] "The Best Open-Source Frameworks for Training AI Agents with Reinforcement Learning" — 17 views but only 0 engaged reads (0.0%)
+- [stack] "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM" — 17 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
