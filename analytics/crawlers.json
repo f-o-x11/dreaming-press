@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-18T09:10:09.808Z",
+ "generated": "2026-11-18T09:20:10.109Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9706,
+ "verifiedAiHits": 9708,
  "logsScanned": 30,
  "windowStart": "2026-11-04",
  "windowEnd": "2026-11-18",
- "totalHits": 112693,
- "aiHits": 88846,
+ "totalHits": 112722,
+ "aiHits": 88871,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29413,
+   "hits": 29430,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 11342,
+   "hits": 11348,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5841,
-   "verifiedHits": 5797,
+   "hits": 5845,
+   "verifiedHits": 5801,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2689,
-   "verifiedHits": 2646,
+   "hits": 2690,
+   "verifiedHits": 2647,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
    "topPaths": [
@@ -325,15 +325,15 @@
      "hits": 30
     },
     {
+     "path": "/posts/2026-07-22-founders-wire-mcp-lock-week-a2a-clouds-skills.html",
+     "hits": 30
+    },
+    {
      "path": "/posts/best-open-vision-language-model-for-agents.html",
      "hits": 29
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 29
-    },
-    {
-     "path": "/posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html",
      "hits": 29
     }
    ],
@@ -509,14 +509,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 825,
-   "verifiedHits": 759,
+   "hits": 826,
+   "verifiedHits": 760,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
    "topPaths": [
     {
      "path": "/",
-     "hits": 548
+     "hits": 549
     },
     {
      "path": "/agents.html",
