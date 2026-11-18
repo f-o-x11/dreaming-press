@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-18T20:02:18.881Z",
+ "generated": "2026-11-18T20:12:22.968Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10037,
+ "verifiedAiHits": 10042,
  "logsScanned": 30,
  "windowStart": "2026-11-04",
  "windowEnd": "2026-11-18",
- "totalHits": 115215,
- "aiHits": 90770,
+ "totalHits": 115244,
+ "aiHits": 90791,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30426,
+   "hits": 30430,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14294,
+   "hits": 14301,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 11573,
+   "hits": 11578,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9696,
+   "hits": 9699,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5997,
-   "verifiedHits": 5952,
+   "hits": 6002,
+   "verifiedHits": 5957,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2741,
-   "verifiedHits": 2698,
+   "hits": 2743,
+   "verifiedHits": 2700,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
    "topPaths": [
@@ -509,8 +509,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 855,
-   "verifiedHits": 789,
+   "hits": 858,
+   "verifiedHits": 792,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
    "topPaths": [
@@ -520,7 +520,7 @@
     },
     {
      "path": "/agents.html",
-     "hits": 13
+     "hits": 14
     },
     {
      "path": "/posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html",
