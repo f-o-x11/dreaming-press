@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-18T19:52Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-18T20:02Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -96,7 +96,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 595 retrieval fetches
+- /  — 597 retrieval fetches
 - /wire.html  — 48 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 32 retrieval fetches
 - /posts/best-open-vision-language-model-for-agents.html  — 30 retrieval fetches
@@ -108,9 +108,9 @@ sample size dwarfs the engaged-read counts below.
 - /agents.html  — 13 retrieval fetches
 
 Per engine:
-- PerplexityBot (3511 verified): / ×22 · /posts/lora-vs-full-fine-tuning-cost-november-2026.html ×21 · /posts/2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b.html ×20
-- OAI-SearchBot (2696 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×32 · /posts/best-open-vision-language-model-for-agents.html ×30 · /posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html ×30
-- ChatGPT-User (788 verified): / ×573 · /agents.html ×13 · /posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html ×9
+- PerplexityBot (3514 verified): / ×23 · /posts/lora-vs-full-fine-tuning-cost-november-2026.html ×21 · /posts/2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b.html ×20
+- OAI-SearchBot (2698 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×32 · /posts/best-open-vision-language-model-for-agents.html ×30 · /posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html ×30
+- ChatGPT-User (789 verified): / ×574 · /agents.html ×13 · /posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html ×9
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -147,7 +147,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10026 confirmed AI-engine fetches (Perplexity 3511, GPTBot (OpenAI) 3031, ChatGPT Search (OpenAI) 2696, ChatGPT (user browsing) 788).
+The real answer engines are crawling us — IP-verified: 10037 confirmed AI-engine fetches (Perplexity 3514, GPTBot (OpenAI) 3036, ChatGPT Search (OpenAI) 2698, ChatGPT (user browsing) 789).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 344 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 140 crawler fetches
