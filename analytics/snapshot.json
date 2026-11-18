@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-18T15:51:25.537Z",
+ "generated": "2026-11-18T16:01:29.026Z",
  "windowDays": 14,
  "site": {
   "readersNow": 4,
   "todayReads": 12,
-  "avgTimeSec": 70,
+  "avgTimeSec": 65,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 7241,
+  "views": 7242,
   "reads": 294,
   "completes": 33,
   "plays": 9,
-  "sessions": 7087
+  "sessions": 7088
  },
  "channels": [
   {
    "channel": "direct",
    "views": 3006,
    "reads": 189,
-   "sessions": 2892
+   "sessions": 2893
   },
   {
    "channel": "referral",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "organic",
-   "views": 136,
+   "views": 137,
    "reads": 47,
-   "sessions": 131
+   "sessions": 132
   },
   {
    "channel": "campaign:openai",
@@ -81,7 +81,7 @@
    "views": 3006,
    "reads": 189,
    "completes": 29,
-   "sessions": 2892,
+   "sessions": 2893,
    "read_rate": 0.063,
    "complete_rate": 0.01,
    "pages_per_session": 1.04,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 136,
+   "views": 137,
    "reads": 47,
    "completes": 2,
-   "sessions": 131,
-   "read_rate": 0.346,
+   "sessions": 132,
+   "read_rate": 0.343,
    "complete_rate": 0.015,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6915,
+   "views": 6916,
    "reads": 261,
-   "sessions": 6758
+   "sessions": 6759
   },
   {
    "device": "mobile",
@@ -413,12 +413,12 @@
    "plays": 0
   },
   {
-   "slug": "microsoft-agent-framework-codeact-hyperlight",
-   "title": "Microsoft Agent Framework's CodeAct: When the Sandbox Stops Being the Hard Part",
+   "slug": "vllm-rust-frontend",
+   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 4,
+   "views": 5,
    "reads": 3,
    "plays": 0
   }
@@ -747,8 +747,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 49,
-   "sessions": 26
+   "hits": 50,
+   "sessions": 27
   },
   {
    "ref": "https://duckduckgo.com/",
