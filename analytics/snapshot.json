@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-18T10:20:25.305Z",
+ "generated": "2026-11-18T10:30:25.362Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 5,
   "avgTimeSec": 5,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 7251,
+  "views": 7250,
   "reads": 294,
   "completes": 32,
   "plays": 9,
-  "sessions": 7097
+  "sessions": 7096
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3017,
+   "views": 3016,
    "reads": 188,
-   "sessions": 2903
+   "sessions": 2902
   },
   {
    "channel": "referral",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 3017,
+   "views": 3016,
    "reads": 188,
    "completes": 29,
-   "sessions": 2903,
+   "sessions": 2902,
    "read_rate": 0.062,
    "complete_rate": 0.01,
    "pages_per_session": 1.04,
@@ -254,15 +254,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6913,
+   "views": 6915,
    "reads": 261,
-   "sessions": 6756
+   "sessions": 6758
   },
   {
    "device": "mobile",
-   "views": 331,
+   "views": 328,
    "reads": 29,
-   "sessions": 338
+   "sessions": 335
   },
   {
    "device": "tablet",
@@ -637,9 +637,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 300,
+   "views": 302,
    "reads": 0,
-   "sessions": 300,
+   "sessions": 302,
    "avg_dwell_sec": 9
   },
   {
