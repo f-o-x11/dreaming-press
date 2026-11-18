@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-18T00:13:17.908Z",
+ "generated": "2026-11-18T00:23:18.950Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 9585,
  "logsScanned": 30,
  "windowStart": "2026-11-04",
  "windowEnd": "2026-11-18",
- "totalHits": 110301,
- "aiHits": 86993,
+ "totalHits": 110331,
+ "aiHits": 87017,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28225,
+   "hits": 28241,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -47,10 +47,10 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 19744,
+   "hits": 19745,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -61,16 +61,16 @@
      "hits": 8
     },
     {
+     "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
+     "hits": 5
+    },
+    {
      "path": "/posts/open-weight-coding-model-you-can-actually-self-host-september-2026.html",
      "hits": 5
     },
     {
      "path": "/dashboard",
      "hits": 5
-    },
-    {
-     "path": "/posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html",
-     "hits": 4
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13667,
+   "hits": 13674,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9256,
+   "hits": 9257,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5707,
-   "verifiedHits": 5663,
+   "hits": 5712,
+   "verifiedHits": 5668,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
    "topPaths": [
