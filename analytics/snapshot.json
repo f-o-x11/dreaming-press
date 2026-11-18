@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-18T11:10:28.222Z",
+ "generated": "2026-11-18T11:20:30.946Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 3,
   "todayReads": 5,
   "avgTimeSec": 5,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 7250,
+  "views": 7249,
   "reads": 294,
   "completes": 32,
   "plays": 9,
-  "sessions": 7096
+  "sessions": 7095
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3016,
+   "views": 3014,
    "reads": 188,
-   "sessions": 2902
+   "sessions": 2900
   },
   {
    "channel": "referral",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "organic",
-   "views": 135,
+   "views": 136,
    "reads": 48,
-   "sessions": 130
+   "sessions": 131
   },
   {
    "channel": "campaign:openai",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 3016,
+   "views": 3014,
    "reads": 188,
    "completes": 29,
-   "sessions": 2902,
+   "sessions": 2900,
    "read_rate": 0.062,
    "complete_rate": 0.01,
    "pages_per_session": 1.04,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 135,
+   "views": 136,
    "reads": 48,
    "completes": 1,
-   "sessions": 130,
-   "read_rate": 0.356,
+   "sessions": 131,
+   "read_rate": 0.353,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -260,9 +260,9 @@
   },
   {
    "device": "mobile",
-   "views": 328,
+   "views": 327,
    "reads": 29,
-   "sessions": 335
+   "sessions": 334
   },
   {
    "device": "tablet",
@@ -637,9 +637,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 304,
+   "views": 305,
    "reads": 0,
-   "sessions": 304,
+   "sessions": 305,
    "avg_dwell_sec": 9
   },
   {
@@ -651,10 +651,10 @@
   },
   {
    "path": "/",
-   "views": 207,
+   "views": 206,
    "reads": 4,
-   "sessions": 206,
-   "avg_dwell_sec": 20
+   "sessions": 205,
+   "avg_dwell_sec": 21
   },
   {
    "path": "/topics/:topic",
@@ -752,8 +752,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 46,
-   "sessions": 24
+   "hits": 47,
+   "sessions": 25
   },
   {
    "ref": "nav-cmp",
