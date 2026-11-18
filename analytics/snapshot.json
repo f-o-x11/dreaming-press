@@ -1,24 +1,24 @@
 {
- "generated": "2026-11-18T22:12:42.920Z",
+ "generated": "2026-11-18T22:22:43.513Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 15,
   "avgTimeSec": 70,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 7266,
-  "reads": 294,
+  "views": 7267,
+  "reads": 293,
   "completes": 33,
   "plays": 9,
-  "sessions": 7111
+  "sessions": 7112
  },
  "channels": [
   {
    "channel": "direct",
    "views": 3027,
-   "reads": 191,
+   "reads": 190,
    "sessions": 2914
   },
   {
@@ -29,9 +29,9 @@
   },
   {
    "channel": "organic",
-   "views": 140,
+   "views": 141,
    "reads": 45,
-   "sessions": 135
+   "sessions": 136
   },
   {
    "channel": "campaign:openai",
@@ -79,7 +79,7 @@
   {
    "channel": "direct",
    "views": 3027,
-   "reads": 191,
+   "reads": 190,
    "completes": 29,
    "sessions": 2914,
    "read_rate": 0.063,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 140,
+   "views": 141,
    "reads": 45,
    "completes": 2,
-   "sessions": 135,
-   "read_rate": 0.321,
+   "sessions": 136,
+   "read_rate": 0.319,
    "complete_rate": 0.014,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6939,
-   "reads": 261,
-   "sessions": 6782
+   "views": 6940,
+   "reads": 260,
+   "sessions": 6783
   },
   {
    "device": "mobile",
@@ -637,9 +637,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 319,
+   "views": 320,
    "reads": 0,
-   "sessions": 319,
+   "sessions": 320,
    "avg_dwell_sec": 9
   },
   {
