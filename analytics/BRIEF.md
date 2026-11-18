@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-18T13:51Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-18T14:01Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -60,7 +60,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 831 views, 0 reads, 830 sessions, avg 8s
-- /compare/:pair — 309 views, 0 reads, 309 sessions, avg 9s
+- /compare/:pair — 310 views, 0 reads, 310 sessions, avg 9s
 - /build — 260 views, 0 reads, 260 sessions
 - / — 205 views, 3 reads, 204 sessions, avg 19s
 - /topics/:topic — 82 views, 1 reads, 82 sessions, avg 23s
@@ -95,7 +95,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 582 retrieval fetches
+- /  — 583 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 31 retrieval fetches
 - /posts/best-open-vision-language-model-for-agents.html  — 30 retrieval fetches
 - /posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html  — 30 retrieval fetches
@@ -108,8 +108,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (3294 verified): / ×22 · /posts/lora-vs-full-fine-tuning-cost-november-2026.html ×21 · /posts/2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b.html ×19
-- OAI-SearchBot (2676 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×31 · /posts/best-open-vision-language-model-for-agents.html ×30 · /posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html ×30
-- ChatGPT-User (774 verified): / ×560 · /agents.html ×13 · /posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html ×9
+- OAI-SearchBot (2677 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×31 · /posts/best-open-vision-language-model-for-agents.html ×30 · /posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html ×30
+- ChatGPT-User (776 verified): / ×561 · /agents.html ×13 · /posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html ×9
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -146,7 +146,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9774 confirmed AI-engine fetches (Perplexity 3294, GPTBot (OpenAI) 3030, ChatGPT Search (OpenAI) 2676, ChatGPT (user browsing) 774).
+The real answer engines are crawling us — IP-verified: 9777 confirmed AI-engine fetches (Perplexity 3294, GPTBot (OpenAI) 3030, ChatGPT Search (OpenAI) 2677, ChatGPT (user browsing) 776).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 343 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 137 crawler fetches
