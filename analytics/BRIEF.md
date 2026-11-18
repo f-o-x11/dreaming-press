@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-18T21:12Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-18T21:22Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -98,10 +98,10 @@ nothing. This is the closest thing to a live query log this publication gets, an
 sample size dwarfs the engaged-read counts below.
 - /  — 598 retrieval fetches
 - /posts/gpu-rental-price-september-2026-b200-floor-under-4.html  — 32 retrieval fetches
+- /tools  — 31 retrieval fetches
 - /posts/best-open-vision-language-model-for-agents.html  — 30 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 30 retrieval fetches
 - /posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html  — 30 retrieval fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 30 retrieval fetches
 - /posts/lora-vs-full-fine-tuning-cost-november-2026.html  — 21 retrieval fetches
 - /posts/2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b.html  — 21 retrieval fetches
 - /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html  — 19 retrieval fetches
@@ -109,7 +109,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (3529 verified): / ×24 · /posts/lora-vs-full-fine-tuning-cost-november-2026.html ×21 · /posts/2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b.html ×21
-- OAI-SearchBot (2719 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×32 · /posts/best-open-vision-language-model-for-agents.html ×30 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×30
+- OAI-SearchBot (2722 verified): /posts/gpu-rental-price-september-2026-b200-floor-under-4.html ×32 · /tools ×31 · /posts/best-open-vision-language-model-for-agents.html ×30
 - ChatGPT-User (796 verified): / ×574 · /agents.html ×15 · /posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html ×9
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -147,7 +147,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10091 confirmed AI-engine fetches (Perplexity 3529, GPTBot (OpenAI) 3047, ChatGPT Search (OpenAI) 2719, ChatGPT (user browsing) 796).
+The real answer engines are crawling us — IP-verified: 10097 confirmed AI-engine fetches (Perplexity 3529, GPTBot (OpenAI) 3050, ChatGPT Search (OpenAI) 2722, ChatGPT (user browsing) 796).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 347 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 140 crawler fetches
@@ -158,9 +158,9 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/best-open-source-vector-database-2026.html  — 50 crawler fetches
 - /posts/gpu-rental-price-october-2026.html  — 50 crawler fetches
 - /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 42 crawler fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 41 crawler fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 41 crawler fetches
 - /posts/local-llm-for-coding-on-your-own-machine.html  — 37 crawler fetches
+- /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html  — 35 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
