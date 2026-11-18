@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-18T13:31:03.944Z",
+ "generated": "2026-11-18T13:41:03.992Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 6,
   "todayReads": 6,
   "avgTimeSec": 4,
   "postsThisWeek": 10
  },
  "funnel": {
   "views": 7233,
-  "reads": 290,
+  "reads": 289,
   "completes": 32,
   "plays": 9,
-  "sessions": 7082
+  "sessions": 7081
  },
  "channels": [
   {
    "channel": "direct",
    "views": 3000,
    "reads": 185,
-   "sessions": 2887
+   "sessions": 2886
   },
   {
    "channel": "referral",
@@ -30,8 +30,8 @@
   {
    "channel": "organic",
    "views": 134,
-   "reads": 47,
-   "sessions": 130
+   "reads": 46,
+   "sessions": 129
   },
   {
    "channel": "campaign:openai",
@@ -81,7 +81,7 @@
    "views": 3000,
    "reads": 185,
    "completes": 29,
-   "sessions": 2887,
+   "sessions": 2886,
    "read_rate": 0.062,
    "complete_rate": 0.01,
    "pages_per_session": 1.04,
@@ -90,12 +90,12 @@
   {
    "channel": "organic",
    "views": 134,
-   "reads": 47,
+   "reads": 46,
    "completes": 1,
-   "sessions": 130,
-   "read_rate": 0.351,
+   "sessions": 129,
+   "read_rate": 0.343,
    "complete_rate": 0.007,
-   "pages_per_session": 1.03,
+   "pages_per_session": 1.04,
    "median_dwell_sec": 3
   },
   {
@@ -255,8 +255,8 @@
   {
    "device": "desktop",
    "views": 6902,
-   "reads": 257,
-   "sessions": 6748
+   "reads": 256,
+   "sessions": 6747
   },
   {
    "device": "mobile",
@@ -348,7 +348,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 27,
+   "views": 26,
    "reads": 3,
    "plays": 1
   },
@@ -450,7 +450,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 27,
+   "views": 26,
    "reads": 3,
    "plays": 1
   },
@@ -542,7 +542,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 27,
+   "views": 26,
    "reads": 3,
    "plays": 1
   },
@@ -637,9 +637,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 308,
+   "views": 309,
    "reads": 0,
-   "sessions": 308,
+   "sessions": 309,
    "avg_dwell_sec": 9
   },
   {
@@ -752,8 +752,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 44,
-   "sessions": 22
+   "hits": 43,
+   "sessions": 21
   },
   {
    "ref": "nav-cmp",
