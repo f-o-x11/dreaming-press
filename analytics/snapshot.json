@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-17T23:53:12.510Z",
+ "generated": "2026-11-18T00:03:16.212Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 22,
-  "avgTimeSec": 33,
-  "postsThisWeek": 12
+  "readersNow": 0,
+  "todayReads": 0,
+  "avgTimeSec": 0,
+  "postsThisWeek": 10
  },
  "funnel": {
-  "views": 7251,
-  "reads": 302,
-  "completes": 32,
+  "views": 7249,
+  "reads": 301,
+  "completes": 31,
   "plays": 9,
-  "sessions": 7088
+  "sessions": 7086
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3016,
-   "reads": 193,
-   "sessions": 2897
+   "views": 3014,
+   "reads": 192,
+   "sessions": 2895
   },
   {
    "channel": "referral",
@@ -78,12 +78,12 @@
   },
   {
    "channel": "direct",
-   "views": 3016,
-   "reads": 193,
-   "completes": 29,
-   "sessions": 2897,
+   "views": 3014,
+   "reads": 192,
+   "completes": 28,
+   "sessions": 2895,
    "read_rate": 0.064,
-   "complete_rate": 0.01,
+   "complete_rate": 0.009,
    "pages_per_session": 1.04,
    "median_dwell_sec": 10
   },
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6911,
-   "reads": 268,
-   "sessions": 6745
+   "views": 6909,
+   "reads": 267,
+   "sessions": 6743
   },
   {
    "device": "mobile",
@@ -323,22 +323,22 @@
    "plays": 0
   },
   {
-   "slug": "gpu-rental-price-october-2026",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 12,
-   "reads": 5,
-   "plays": 0
-  },
-  {
    "slug": "open-source-coding-llm-ranked-november-2026",
    "title": "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 22,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "gpu-rental-price-october-2026",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 11,
    "reads": 4,
    "plays": 0
   },
@@ -651,9 +651,9 @@
   },
   {
    "path": "/",
-   "views": 211,
+   "views": 210,
    "reads": 4,
-   "sessions": 208,
+   "sessions": 207,
    "avg_dwell_sec": 20
   },
   {
