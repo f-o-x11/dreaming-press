@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-18T10:40:26.704Z",
+ "generated": "2026-11-18T10:50:27.711Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9727,
+ "verifiedAiHits": 9732,
  "logsScanned": 30,
  "windowStart": "2026-11-04",
  "windowEnd": "2026-11-18",
- "totalHits": 112971,
- "aiHits": 89064,
+ "totalHits": 112990,
+ "aiHits": 89078,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29564,
+   "hits": 29572,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9455,
+   "hits": 9456,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5857,
-   "verifiedHits": 5813,
+   "hits": 5861,
+   "verifiedHits": 5817,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3346,
-   "verifiedHits": 3286,
+   "hits": 3347,
+   "verifiedHits": 3287,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
    "topPaths": [
@@ -267,7 +267,7 @@
      "hits": 18
     },
     {
-     "path": "/posts/cheapest-gpu-rental-november-2026.html",
+     "path": "/wire.html",
      "hits": 17
     }
    ],
@@ -278,8 +278,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 3061,
-   "verifiedHits": 3024,
+   "hits": 3062,
+   "verifiedHits": 3025,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2696,
-   "verifiedHits": 2653,
+   "hits": 2698,
+   "verifiedHits": 2655,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
    "topPaths": [
@@ -333,8 +333,8 @@
      "hits": 30
     },
     {
-     "path": "/posts/best-open-vision-language-model-for-agents.html",
-     "hits": 29
+     "path": "/reports/state-of-ai-agents",
+     "hits": 30
     }
    ],
    "verifiable": true
@@ -476,7 +476,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 867,
+   "hits": 868,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -494,12 +494,12 @@
      "hits": 50
     },
     {
-     "path": "/posts/best-open-source-vector-database-2026.html",
+     "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
      "hits": 45
     },
     {
-     "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
-     "hits": 44
+     "path": "/posts/best-open-source-vector-database-2026.html",
+     "hits": 45
     }
    ],
    "verifiable": false
@@ -509,8 +509,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 830,
-   "verifiedHits": 764,
+   "hits": 831,
+   "verifiedHits": 765,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
    "topPaths": [
