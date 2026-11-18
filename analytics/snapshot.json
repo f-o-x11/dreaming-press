@@ -1,16 +1,16 @@
 {
- "generated": "2026-11-18T02:33:41.399Z",
+ "generated": "2026-11-18T02:43:43.271Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 2,
+  "readersNow": 2,
+  "todayReads": 3,
   "avgTimeSec": 3,
   "postsThisWeek": 10
  },
  "funnel": {
   "views": 7229,
-  "reads": 297,
-  "completes": 29,
+  "reads": 298,
+  "completes": 30,
   "plays": 9,
   "sessions": 7074
  },
@@ -18,7 +18,7 @@
   {
    "channel": "direct",
    "views": 2994,
-   "reads": 188,
+   "reads": 189,
    "sessions": 2883
   },
   {
@@ -79,8 +79,8 @@
   {
    "channel": "direct",
    "views": 2994,
-   "reads": 188,
-   "completes": 26,
+   "reads": 189,
+   "completes": 27,
    "sessions": 2883,
    "read_rate": 0.063,
    "complete_rate": 0.009,
@@ -254,15 +254,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6888,
-   "reads": 263,
-   "sessions": 6730
+   "views": 6889,
+   "reads": 264,
+   "sessions": 6731
   },
   {
    "device": "mobile",
-   "views": 334,
+   "views": 333,
    "reads": 30,
-   "sessions": 341
+   "sessions": 340
   },
   {
    "device": "tablet",
@@ -333,6 +333,16 @@
    "plays": 0
   },
   {
+   "slug": "gpu-rental-price-october-2026",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "best-llm-for-creative-writing-october-2026",
    "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
    "section": "stack",
@@ -369,16 +379,6 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 12,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "gpu-rental-price-october-2026",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 10,
    "reads": 3,
    "plays": 0
   },
