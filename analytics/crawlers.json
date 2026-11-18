@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-18T22:42:43.460Z",
+ "generated": "2026-11-18T22:52:44.646Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10111,
+ "verifiedAiHits": 10112,
  "logsScanned": 30,
  "windowStart": "2026-11-04",
  "windowEnd": "2026-11-18",
- "totalHits": 115704,
- "aiHits": 91126,
+ "totalHits": 115747,
+ "aiHits": 91153,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30534,
+   "hits": 30550,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14415,
+   "hits": 14422,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 11611,
+   "hits": 11614,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9765,
+   "hits": 9777,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -164,12 +164,12 @@
      "hits": 9
     },
     {
-     "path": "/wire.html",
+     "path": "/tags/opinionated",
      "hits": 8
     },
     {
-     "path": "/tags/opinionated",
-     "hits": 7
+     "path": "/wire.html",
+     "hits": 8
     }
    ],
    "verifiable": false
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6039,
-   "verifiedHits": 5994,
+   "hits": 6043,
+   "verifiedHits": 5998,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3597,
-   "verifiedHits": 3537,
+   "hits": 3598,
+   "verifiedHits": 3538,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
    "topPaths": [
