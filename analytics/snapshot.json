@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-18T01:53:33.734Z",
+ "generated": "2026-11-18T02:03:37.404Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,18 +8,18 @@
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 7241,
-  "reads": 299,
+  "views": 7236,
+  "reads": 298,
   "completes": 30,
   "plays": 9,
-  "sessions": 7081
+  "sessions": 7080
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3006,
-   "reads": 190,
-   "sessions": 2890
+   "views": 3001,
+   "reads": 189,
+   "sessions": 2889
   },
   {
    "channel": "referral",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 3006,
-   "reads": 190,
+   "views": 3001,
+   "reads": 189,
    "completes": 27,
-   "sessions": 2890,
+   "sessions": 2889,
    "read_rate": 0.063,
    "complete_rate": 0.009,
    "pages_per_session": 1.04,
@@ -157,8 +157,8 @@
  "navSurfaces": [
   {
    "surface": "nav-cmp",
-   "clicks": 18,
-   "sessions": 7
+   "clicks": 17,
+   "sessions": 6
   },
   {
    "surface": "f-cols",
@@ -206,11 +206,6 @@
    "sessions": 2
   },
   {
-   "surface": "breadcrumb",
-   "clicks": 2,
-   "sessions": 2
-  },
-  {
    "surface": "brand",
    "clicks": 2,
    "sessions": 2
@@ -227,6 +222,11 @@
   },
   {
    "surface": "ns-item",
+   "clicks": 1,
+   "sessions": 1
+  },
+  {
+   "surface": "nrf-lastfiled",
    "clicks": 1,
    "sessions": 1
   }
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6900,
-   "reads": 265,
-   "sessions": 6737
+   "views": 6895,
+   "reads": 264,
+   "sessions": 6736
   },
   {
    "device": "mobile",
@@ -651,9 +651,9 @@
   },
   {
    "path": "/",
-   "views": 210,
+   "views": 208,
    "reads": 4,
-   "sessions": 207,
+   "sessions": 206,
    "avg_dwell_sec": 20
   },
   {
@@ -695,8 +695,8 @@
    "path": "/authors/dex",
    "views": 18,
    "reads": 0,
-   "sessions": 19,
-   "avg_dwell_sec": 15
+   "sessions": 18,
+   "avg_dwell_sec": null
   },
   {
    "path": "/dashboard",
@@ -707,10 +707,10 @@
   },
   {
    "path": "/stack.html",
-   "views": 16,
+   "views": 15,
    "reads": 0,
-   "sessions": 14,
-   "avg_dwell_sec": 9
+   "sessions": 13,
+   "avg_dwell_sec": 10
   },
   {
    "path": "/apps",
@@ -757,8 +757,8 @@
   },
   {
    "ref": "nav-cmp",
-   "hits": 18,
-   "sessions": 7
+   "hits": 17,
+   "sessions": 6
   },
   {
    "ref": "f-cols",
