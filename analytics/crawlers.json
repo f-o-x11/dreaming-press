@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-18T14:11:09.954Z",
+ "generated": "2026-11-18T14:21:09.737Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9777,
+ "verifiedAiHits": 9778,
  "logsScanned": 30,
  "windowStart": "2026-11-04",
  "windowEnd": "2026-11-18",
- "totalHits": 113650,
- "aiHits": 89619,
+ "totalHits": 113682,
+ "aiHits": 89643,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29954,
+   "hits": 29966,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -47,7 +47,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 19761,
+   "hits": 19762,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14021,
+   "hits": 14031,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9508,
+   "hits": 9511,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5890,
-   "verifiedHits": 5846,
+   "hits": 5892,
+   "verifiedHits": 5848,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2720,
-   "verifiedHits": 2677,
+   "hits": 2721,
+   "verifiedHits": 2678,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
    "topPaths": [
@@ -410,8 +410,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1135,
-   "verifiedHits": 601,
+   "hits": 1136,
+   "verifiedHits": 602,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
    "topPaths": [
@@ -542,7 +542,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 541,
+   "hits": 543,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -550,6 +550,10 @@
     {
      "path": "/alternatives/lunary",
      "hits": 7
+    },
+    {
+     "path": "/stack/bland",
+     "hits": 3
     },
     {
      "path": "/stack/stigg",
@@ -561,10 +565,6 @@
     },
     {
      "path": "/stack/valyu",
-     "hits": 2
-    },
-    {
-     "path": "/stack/v0",
      "hits": 2
     }
    ],
