@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-18T15:31:21.984Z",
+ "generated": "2026-11-18T15:41:24.827Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 8,
+  "readersNow": 6,
+  "todayReads": 10,
   "avgTimeSec": 34,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 7233,
-  "reads": 290,
+  "views": 7239,
+  "reads": 292,
   "completes": 32,
   "plays": 9,
-  "sessions": 7081
+  "sessions": 7087
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2999,
-   "reads": 186,
-   "sessions": 2886
+   "views": 3004,
+   "reads": 187,
+   "sessions": 2891
   },
   {
    "channel": "referral",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "organic",
-   "views": 135,
-   "reads": 46,
-   "sessions": 130
+   "views": 136,
+   "reads": 47,
+   "sessions": 131
   },
   {
    "channel": "campaign:openai",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2999,
-   "reads": 186,
+   "views": 3004,
+   "reads": 187,
    "completes": 29,
-   "sessions": 2886,
+   "sessions": 2891,
    "read_rate": 0.062,
    "complete_rate": 0.01,
    "pages_per_session": 1.04,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 135,
-   "reads": 46,
+   "views": 136,
+   "reads": 47,
    "completes": 1,
-   "sessions": 130,
-   "read_rate": 0.341,
+   "sessions": 131,
+   "read_rate": 0.346,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6905,
-   "reads": 257,
-   "sessions": 6750
+   "views": 6911,
+   "reads": 259,
+   "sessions": 6756
   },
   {
    "device": "mobile",
@@ -373,6 +373,16 @@
    "plays": 0
   },
   {
+   "slug": "open-source-llm-ranking-november-2026",
+   "title": "Open-Source LLM Rankings (November 2026): How to Read the Leaderboards — and Why They Disagree",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "indexer",
+   "views": 13,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "ai-agent-frameworks-github-ranked-by-stars-2026",
    "title": "The AI Agent Frameworks on GitHub, Ranked by Stars (August 2026)",
    "section": "stack",
@@ -408,16 +418,6 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 4,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "tool-highlight-qoder-security-in-session-code-security",
-   "title": "Tool Highlight: Qoder Security Puts Three Security Layers Inside the AI Coding Session",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
    "views": 4,
    "reads": 3,
    "plays": 0
@@ -612,7 +612,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 17,
+   "views": 18,
    "reads": 0,
    "plays": 0
   },
@@ -630,16 +630,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 831,
+   "views": 832,
    "reads": 0,
-   "sessions": 830,
+   "sessions": 831,
    "avg_dwell_sec": 8
   },
   {
    "path": "/compare/:pair",
-   "views": 311,
+   "views": 312,
    "reads": 0,
-   "sessions": 311,
+   "sessions": 312,
    "avg_dwell_sec": 9
   },
   {
@@ -651,9 +651,9 @@
   },
   {
    "path": "/",
-   "views": 206,
+   "views": 207,
    "reads": 3,
-   "sessions": 205,
+   "sessions": 206,
    "avg_dwell_sec": 19
   },
   {
@@ -766,6 +766,11 @@
    "sessions": 7
   },
   {
+   "ref": "https://search.brave.com/",
+   "hits": 9,
+   "sessions": 6
+  },
+  {
    "ref": "https://teams.public.onecdn.static.microsoft/",
    "hits": 8,
    "sessions": 5
@@ -779,11 +784,6 @@
    "ref": "wire-row",
    "hits": 7,
    "sessions": 7
-  },
-  {
-   "ref": "https://search.brave.com/",
-   "hits": 7,
-   "sessions": 5
   }
  ]
 }
