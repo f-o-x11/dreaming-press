@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-18T19:12:06.209Z",
+ "generated": "2026-11-18T19:22:09.879Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 13,
   "avgTimeSec": 66,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 7259,
+  "views": 7257,
   "reads": 294,
   "completes": 33,
   "plays": 9,
-  "sessions": 7104
+  "sessions": 7102
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3022,
+   "views": 3020,
    "reads": 190,
-   "sessions": 2909
+   "sessions": 2907
   },
   {
    "channel": "referral",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 3022,
+   "views": 3020,
    "reads": 190,
    "completes": 29,
-   "sessions": 2909,
+   "sessions": 2907,
    "read_rate": 0.063,
    "complete_rate": 0.01,
    "pages_per_session": 1.04,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6934,
+   "views": 6932,
    "reads": 261,
-   "sessions": 6777
+   "sessions": 6775
   },
   {
    "device": "mobile",
@@ -318,7 +318,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 17,
+   "views": 16,
    "reads": 4,
    "plays": 1
   },
@@ -440,7 +440,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 17,
+   "views": 16,
    "reads": 4,
    "plays": 1
   },
@@ -607,19 +607,19 @@
    "plays": 0
   },
   {
-   "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
-   "title": "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 17,
-   "reads": 4,
-   "plays": 1
-  },
-  {
    "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
    "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
    "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 17,
+   "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "vllm-vs-sglang-vs-lmdeploy",
+   "title": "vLLM vs SGLang vs LMDeploy: Picking a Self-Hosted Inference Engine in 2026",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 17,
