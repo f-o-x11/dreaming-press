@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-18T09:20:10.415Z",
+ "generated": "2026-11-18T09:30:10.885Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 5,
   "avgTimeSec": 5,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 7233,
+  "views": 7234,
   "reads": 295,
   "completes": 32,
   "plays": 9,
-  "sessions": 7079
+  "sessions": 7080
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3001,
+   "views": 3002,
    "reads": 189,
-   "sessions": 2887
+   "sessions": 2888
   },
   {
    "channel": "referral",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 3001,
+   "views": 3002,
    "reads": 189,
    "completes": 29,
-   "sessions": 2887,
+   "sessions": 2888,
    "read_rate": 0.063,
    "complete_rate": 0.01,
    "pages_per_session": 1.04,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6896,
+   "views": 6897,
    "reads": 262,
-   "sessions": 6739
+   "sessions": 6740
   },
   {
    "device": "mobile",
@@ -308,7 +308,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 22,
+   "views": 24,
    "reads": 4,
    "plays": 0
   },
@@ -547,6 +547,16 @@
    "plays": 1
   },
   {
+   "slug": "open-source-coding-llm-ranked-november-2026",
+   "title": "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 24,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "open-source-llm-leaderboard-september-2026-run-locally",
    "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
    "section": "stack",
@@ -554,16 +564,6 @@
    "author": "priya",
    "views": 23,
    "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "open-source-coding-llm-ranked-november-2026",
-   "title": "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 4,
    "plays": 0
   },
   {
