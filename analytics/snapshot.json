@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-18T04:44:04.399Z",
+ "generated": "2026-11-18T04:54:04.421Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 4,
   "todayReads": 3,
-  "avgTimeSec": 3,
+  "avgTimeSec": 5,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 7229,
+  "views": 7230,
   "reads": 297,
   "completes": 30,
   "plays": 9,
-  "sessions": 7075
+  "sessions": 7077
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2994,
+   "views": 2996,
    "reads": 189,
-   "sessions": 2883
+   "sessions": 2885
   },
   {
    "channel": "referral",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "organic",
-   "views": 135,
+   "views": 134,
    "reads": 49,
-   "sessions": 130
+   "sessions": 129
   },
   {
    "channel": "ai",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2994,
+   "views": 2996,
    "reads": 189,
    "completes": 27,
-   "sessions": 2883,
+   "sessions": 2885,
    "read_rate": 0.063,
    "complete_rate": 0.009,
    "pages_per_session": 1.04,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 135,
+   "views": 134,
    "reads": 49,
    "completes": 1,
-   "sessions": 130,
-   "read_rate": 0.363,
+   "sessions": 129,
+   "read_rate": 0.366,
    "complete_rate": 0.007,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -256,13 +256,13 @@
    "device": "desktop",
    "views": 6890,
    "reads": 263,
-   "sessions": 6733
+   "sessions": 6734
   },
   {
    "device": "mobile",
-   "views": 332,
+   "views": 333,
    "reads": 30,
-   "sessions": 339
+   "sessions": 340
   },
   {
    "device": "tablet",
@@ -298,7 +298,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 22,
+   "views": 21,
    "reads": 5,
    "plays": 1
   },
@@ -440,7 +440,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 22,
+   "views": 21,
    "reads": 5,
    "plays": 1
   },
@@ -547,14 +547,14 @@
    "plays": 1
   },
   {
-   "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
-   "title": "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 22,
-   "reads": 5,
-   "plays": 1
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 23,
+   "reads": 1,
+   "plays": 0
   },
   {
    "slug": "open-source-coding-llm-ranked-november-2026",
@@ -567,14 +567,14 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 22,
-   "reads": 1,
-   "plays": 0
+   "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
+   "title": "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 21,
+   "reads": 5,
+   "plays": 1
   },
   {
    "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
@@ -653,7 +653,7 @@
    "path": "/",
    "views": 207,
    "reads": 4,
-   "sessions": 205,
+   "sessions": 206,
    "avg_dwell_sec": 20
   },
   {
