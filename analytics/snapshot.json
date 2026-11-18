@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-18T23:43:02.033Z",
+ "generated": "2026-11-18T23:53:02.192Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 15,
   "avgTimeSec": 70,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 7256,
+  "views": 7258,
   "reads": 292,
   "completes": 33,
   "plays": 9,
-  "sessions": 7101
+  "sessions": 7103
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3016,
+   "views": 3017,
    "reads": 189,
-   "sessions": 2903
+   "sessions": 2904
   },
   {
    "channel": "referral",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "organic",
-   "views": 141,
+   "views": 142,
    "reads": 45,
-   "sessions": 136
+   "sessions": 137
   },
   {
    "channel": "campaign:openai",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 3016,
+   "views": 3017,
    "reads": 189,
    "completes": 29,
-   "sessions": 2903,
+   "sessions": 2904,
    "read_rate": 0.063,
    "complete_rate": 0.01,
    "pages_per_session": 1.04,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 141,
+   "views": 142,
    "reads": 45,
    "completes": 2,
-   "sessions": 136,
-   "read_rate": 0.319,
+   "sessions": 137,
+   "read_rate": 0.317,
    "complete_rate": 0.014,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6933,
+   "views": 6935,
    "reads": 259,
-   "sessions": 6777
+   "sessions": 6779
   },
   {
    "device": "mobile",
@@ -637,9 +637,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 323,
+   "views": 324,
    "reads": 0,
-   "sessions": 323,
+   "sessions": 324,
    "avg_dwell_sec": 9
   },
   {
@@ -742,8 +742,8 @@
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 83,
-   "sessions": 75
+   "hits": 84,
+   "sessions": 76
   },
   {
    "ref": "https://www.bing.com/",
