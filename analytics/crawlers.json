@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-18T06:24:25.161Z",
+ "generated": "2026-11-18T06:34:25.694Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9657,
+ "verifiedAiHits": 9659,
  "logsScanned": 30,
  "windowStart": "2026-11-04",
  "windowEnd": "2026-11-18",
- "totalHits": 111881,
- "aiHits": 88237,
+ "totalHits": 111953,
+ "aiHits": 88272,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28993,
+   "hits": 29007,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13935,
+   "hits": 13945,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -90,16 +90,16 @@
      "hits": 72
     },
     {
+     "path": "/wire.html",
+     "hits": 41
+    },
+    {
      "path": "/tags/opinionated",
      "hits": 40
     },
     {
-     "path": "/wire.html",
-     "hits": 40
-    },
-    {
      "path": "/tags/reportive",
-     "hits": 36
+     "hits": 37
     },
     {
      "path": "/stack.html",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 11284,
+   "hits": 11289,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9378,
+   "hits": 9382,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5740,
+   "hits": 5772,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1040,
+   "hits": 1041,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -476,7 +476,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 853,
+   "hits": 855,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
@@ -509,14 +509,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 816,
-   "verifiedHits": 750,
+   "hits": 818,
+   "verifiedHits": 752,
    "firstSeen": "2026-11-04",
    "lastSeen": "2026-11-18",
    "topPaths": [
     {
      "path": "/",
-     "hits": 542
+     "hits": 544
     },
     {
      "path": "/agents.html",
@@ -641,10 +641,10 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 101,
+   "hits": 103,
    "verifiedHits": 0,
    "firstSeen": "2026-11-04",
-   "lastSeen": "2026-11-17",
+   "lastSeen": "2026-11-18",
    "topPaths": [
     {
      "path": "/posts/ai-wrapper-gross-margin-llm-token-unit-economics.html",
@@ -663,7 +663,7 @@
      "hits": 2
     },
     {
-     "path": "/posts/mem0-vs-zep-vs-letta-self-host-august-2026.html",
+     "path": "/posts/durable-execution-engines-for-ai-agents.html",
      "hits": 1
     }
    ],
