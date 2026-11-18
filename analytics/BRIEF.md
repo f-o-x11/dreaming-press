@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-18T11:40Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-18T11:50Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 7248 views → 294 engaged reads → 32 completes · 7094 sessions.
-- Channels: direct 188r/3013v · referral 57r/4085v · organic 48r/136v · campaign:openai 1r/3v · ai 0r/5v · campaign:chatgpt.com 0r/5v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 7245 views → 294 engaged reads → 32 completes · 7091 sessions.
+- Channels: direct 188r/3010v · referral 57r/4085v · organic 48r/136v · campaign:openai 1r/3v · ai 0r/5v · campaign:chatgpt.com 0r/5v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 0r/5v · Kimi 0r/3v · Doubao 0r/2v.
 - Referrers: aocr.org, google.com, duckduckgo.com, bing.com, nav-cmp, f-cols, teams.public.onecdn.static.microsoft, wire-row, search.brave.com, cn.bing.com.
 - Engaged-read winners by section: wire=7, stack=8.
@@ -24,7 +24,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - referral: 4085 views · read 1.4% · complete 0.0% · 1 pages/session · median ?s
-- direct: 3013 views · read 6.2% · complete 1.0% · 1.04 pages/session · median 10s
+- direct: 3010 views · read 6.2% · complete 1.0% · 1.04 pages/session · median 10s
 - organic: 136 views · read 35.3% · complete 0.7% · 1.04 pages/session · median 3s
 - campaign:chatgpt.com: 5 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
 - ai: 5 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
@@ -40,7 +40,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "The Responses API Just Went Multi-Vendor: DeepSeek Speaks It Too — So What Do You Build Your Agent Against?" — 5 reads, 14 views, 0 listens
 - [stack] "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned" — 4 reads, 24 views, 0 listens
 - [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 4 reads, 19 views, 1 listens
-- [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 4 reads, 14 views, 0 listens
+- [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 4 reads, 13 views, 0 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 4 reads, 9 views, 0 listens
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 3 reads, 27 views, 1 listens
 - [wire] "The Founder's Wire, November 5: Coding Agents Get Cheaper, Agent Security Gets Bought, and AMD Bets $11B on Cheaper Inference" — 3 reads, 21 views, 0 listens
@@ -60,7 +60,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 831 views, 0 reads, 830 sessions, avg 8s
-- /compare/:pair — 305 views, 0 reads, 305 sessions, avg 9s
+- /compare/:pair — 306 views, 0 reads, 306 sessions, avg 9s
 - /build — 260 views, 0 reads, 260 sessions
 - / — 206 views, 4 reads, 205 sessions, avg 21s
 - /topics/:topic — 82 views, 1 reads, 82 sessions, avg 23s
