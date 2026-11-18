@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-18T05:14:10.548Z",
+ "generated": "2026-11-18T05:24:11.003Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 3,
   "avgTimeSec": 5,
   "postsThisWeek": 10
  },
  "funnel": {
-  "views": 7233,
+  "views": 7229,
   "reads": 297,
   "completes": 30,
   "plays": 9,
-  "sessions": 7079
+  "sessions": 7075
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2999,
+   "views": 2995,
    "reads": 189,
-   "sessions": 2887
+   "sessions": 2883
   },
   {
    "channel": "referral",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2999,
+   "views": 2995,
    "reads": 189,
    "completes": 27,
-   "sessions": 2887,
+   "sessions": 2883,
    "read_rate": 0.063,
    "complete_rate": 0.009,
    "pages_per_session": 1.04,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6893,
+   "views": 6889,
    "reads": 263,
-   "sessions": 6736
+   "sessions": 6732
   },
   {
    "device": "mobile",
@@ -298,7 +298,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 21,
+   "views": 20,
    "reads": 5,
    "plays": 1
   },
@@ -328,7 +328,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 15,
+   "views": 14,
    "reads": 4,
    "plays": 0
   },
@@ -440,7 +440,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 21,
+   "views": 20,
    "reads": 5,
    "plays": 1
   },
@@ -567,16 +567,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
-   "title": "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 21,
-   "reads": 5,
-   "plays": 1
-  },
-  {
    "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
    "title": "The Founder's Wire, November 5: Coding Agents Get Cheaper, Agent Security Gets Bought, and AMD Bets $11B on Cheaper Inference",
    "section": "wire",
@@ -595,6 +585,16 @@
    "views": 20,
    "reads": 11,
    "plays": 0
+  },
+  {
+   "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
+   "title": "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 20,
+   "reads": 5,
+   "plays": 1
   },
   {
    "slug": "2026-11-15-founders-wire-new-york-raise-act-final-adobe-mcp-anthropic-ipo-week",
