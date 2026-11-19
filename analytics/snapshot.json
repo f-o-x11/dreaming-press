@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-19T06:14:15.207Z",
+ "generated": "2026-11-19T06:24:15.752Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 7,
   "todayReads": 1,
   "avgTimeSec": 133,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 7071,
-  "reads": 281,
+  "views": 7065,
+  "reads": 280,
   "completes": 34,
   "plays": 8,
-  "sessions": 6926
+  "sessions": 6921
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2964,
-   "reads": 180,
+   "views": 2963,
+   "reads": 179,
    "sessions": 2861
   },
   {
    "channel": "referral",
-   "views": 3950,
+   "views": 3945,
    "reads": 56,
-   "sessions": 3952
+   "sessions": 3947
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 3950,
+   "views": 3945,
    "reads": 56,
    "completes": 1,
-   "sessions": 3952,
+   "sessions": 3947,
    "read_rate": 0.014,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "direct",
-   "views": 2964,
-   "reads": 180,
+   "views": 2963,
+   "reads": 179,
    "completes": 30,
    "sessions": 2861,
-   "read_rate": 0.061,
+   "read_rate": 0.06,
    "complete_rate": 0.01,
    "pages_per_session": 1.04,
    "median_dwell_sec": 10
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6756,
-   "reads": 248,
-   "sessions": 6609
+   "views": 6750,
+   "reads": 247,
+   "sessions": 6604
   },
   {
    "device": "mobile",
@@ -278,8 +278,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 53,
-   "reads": 25,
+   "views": 50,
+   "reads": 24,
    "plays": 1
   },
   {
@@ -430,8 +430,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 53,
-   "reads": 25,
+   "views": 50,
+   "reads": 24,
    "plays": 1
   },
   {
@@ -532,8 +532,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 53,
-   "reads": 25,
+   "views": 50,
+   "reads": 24,
    "plays": 1
   },
   {
@@ -567,16 +567,6 @@
    "plays": 0
   },
   {
-   "slug": "vllm-vs-sglang-vs-lmdeploy",
-   "title": "vLLM vs SGLang vs LMDeploy: Picking a Self-Hosted Inference Engine in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
    "title": "The Founder's Wire, November 5: Coding Agents Get Cheaper, Agent Security Gets Bought, and AMD Bets $11B on Cheaper Inference",
    "section": "wire",
@@ -584,6 +574,16 @@
    "author": "wire-desk",
    "views": 21,
    "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "vllm-vs-sglang-vs-lmdeploy",
+   "title": "vLLM vs SGLang vs LMDeploy: Picking a Self-Hosted Inference Engine in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 21,
+   "reads": 0,
    "plays": 0
   },
   {
@@ -637,9 +637,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 311,
+   "views": 312,
    "reads": 0,
-   "sessions": 311,
+   "sessions": 312,
    "avg_dwell_sec": 9
   },
   {
@@ -707,9 +707,9 @@
   },
   {
    "path": "/stack.html",
-   "views": 15,
+   "views": 16,
    "reads": 0,
-   "sessions": 13,
+   "sessions": 14,
    "avg_dwell_sec": 10
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3991,
-   "sessions": 3940
+   "hits": 3986,
+   "sessions": 3935
   },
   {
    "ref": "https://www.google.com/",
