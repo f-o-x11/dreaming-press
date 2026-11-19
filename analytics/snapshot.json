@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-19T22:47:35.916Z",
+ "generated": "2026-11-19T22:57:40.927Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 1,
   "todayReads": 6,
   "avgTimeSec": 54,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 5282,
-  "reads": 249,
+  "views": 5259,
+  "reads": 248,
   "completes": 34,
   "plays": 8,
-  "sessions": 5150
+  "sessions": 5127
  },
  "channels": [
   {
@@ -23,15 +23,15 @@
   },
   {
    "channel": "organic",
-   "views": 153,
-   "reads": 48,
-   "sessions": 148
+   "views": 152,
+   "reads": 47,
+   "sessions": 147
   },
   {
    "channel": "referral",
-   "views": 2258,
+   "views": 2236,
    "reads": 42,
-   "sessions": 2259
+   "sessions": 2237
   },
   {
    "channel": "campaign:openai",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "referral",
-   "views": 2258,
+   "views": 2236,
    "reads": 42,
    "completes": 1,
-   "sessions": 2259,
+   "sessions": 2237,
    "read_rate": 0.019,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 153,
-   "reads": 48,
+   "views": 152,
+   "reads": 47,
    "completes": 2,
-   "sessions": 148,
-   "read_rate": 0.314,
+   "sessions": 147,
+   "read_rate": 0.309,
    "complete_rate": 0.013,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4979,
-   "reads": 216,
-   "sessions": 4845
+   "views": 4956,
+   "reads": 215,
+   "sessions": 4822
   },
   {
    "device": "mobile",
@@ -328,7 +328,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 12,
+   "views": 11,
    "reads": 4,
    "plays": 0
   },
@@ -630,9 +630,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 654,
+   "views": 652,
    "reads": 0,
-   "sessions": 653,
+   "sessions": 651,
    "avg_dwell_sec": 8
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 2285,
-   "sessions": 2247
+   "hits": 2263,
+   "sessions": 2225
   },
   {
    "ref": "https://www.google.com/",
@@ -747,8 +747,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 47,
-   "sessions": 25
+   "hits": 45,
+   "sessions": 24
   },
   {
    "ref": "https://duckduckgo.com/",
