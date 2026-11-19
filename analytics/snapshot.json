@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T15:15:55.628Z",
+ "generated": "2026-11-19T15:25:58.971Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,18 +8,18 @@
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 6233,
+  "views": 6207,
   "reads": 253,
   "completes": 34,
   "plays": 8,
-  "sessions": 6098
+  "sessions": 6072
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2865,
+   "views": 2862,
    "reads": 160,
-   "sessions": 2770
+   "sessions": 2767
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 3208,
+   "views": 3185,
    "reads": 45,
-   "sessions": 3209
+   "sessions": 3186
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 3208,
+   "views": 3185,
    "reads": 45,
    "completes": 1,
-   "sessions": 3209,
+   "sessions": 3186,
    "read_rate": 0.014,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2865,
+   "views": 2862,
    "reads": 160,
    "completes": 30,
-   "sessions": 2770,
+   "sessions": 2767,
    "read_rate": 0.056,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 5926,
+   "views": 5900,
    "reads": 220,
-   "sessions": 5790
+   "sessions": 5764
   },
   {
    "device": "mobile",
@@ -587,16 +587,6 @@
    "plays": 0
   },
   {
-   "slug": "vllm-vs-sglang-vs-lmdeploy",
-   "title": "vLLM vs SGLang vs LMDeploy: Picking a Self-Hosted Inference Engine in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
    "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
    "section": "wire",
@@ -605,6 +595,16 @@
    "views": 19,
    "reads": 7,
    "plays": 1
+  },
+  {
+   "slug": "vllm-vs-sglang-vs-lmdeploy",
+   "title": "vLLM vs SGLang vs LMDeploy: Picking a Self-Hosted Inference Engine in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 19,
+   "reads": 0,
+   "plays": 0
   },
   {
    "slug": "2026-11-15-founders-wire-new-york-raise-act-final-adobe-mcp-anthropic-ipo-week",
@@ -630,9 +630,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 734,
+   "views": 729,
    "reads": 0,
-   "sessions": 733,
+   "sessions": 728,
    "avg_dwell_sec": 8
   },
   {
@@ -644,9 +644,9 @@
   },
   {
    "path": "/build",
-   "views": 210,
+   "views": 207,
    "reads": 0,
-   "sessions": 210,
+   "sessions": 207,
    "avg_dwell_sec": null
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3238,
-   "sessions": 3197
+   "hits": 3215,
+   "sessions": 3174
   },
   {
    "ref": "https://www.google.com/",
