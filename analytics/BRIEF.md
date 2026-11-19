@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-19T05:24Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-19T05:34Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 7125 views → 285 engaged reads → 34 completes · 6976 sessions.
-- Channels: direct 183r/2967v · referral 57r/4001v · organic 44r/143v · campaign:openai 1r/3v · ai 0r/5v · campaign:chatgpt.com 0r/5v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 7102 views → 284 engaged reads → 34 completes · 6953 sessions.
+- Channels: direct 183r/2967v · referral 56r/3978v · organic 44r/143v · campaign:openai 1r/3v · ai 0r/5v · campaign:chatgpt.com 0r/5v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 0r/5v · Kimi 0r/3v · Doubao 0r/2v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, nav-cmp, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, cn.bing.com, wire-row.
 - Engaged-read winners by section: wire=8, stack=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- referral: 4001 views · read 1.4% · complete 0.0% · 1 pages/session · median ?s
+- referral: 3978 views · read 1.4% · complete 0.0% · 1 pages/session · median ?s
 - direct: 2967 views · read 6.2% · complete 1.0% · 1.04 pages/session · median 10s
 - organic: 143 views · read 30.8% · complete 1.4% · 1.04 pages/session · median 3s
 - campaign:chatgpt.com: 5 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
@@ -59,9 +59,9 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 818 views, 0 reads, 817 sessions, avg 8s
+- /stack/:tool — 816 views, 0 reads, 815 sessions, avg 8s
 - /compare/:pair — 308 views, 0 reads, 308 sessions, avg 9s
-- /build — 256 views, 0 reads, 256 sessions
+- /build — 255 views, 0 reads, 255 sessions
 - / — 201 views, 3 reads, 198 sessions, avg 19s
 - /topics/:topic — 79 views, 1 reads, 79 sessions, avg 23s
 - /best/:cat — 51 views, 0 reads, 51 sessions
@@ -101,7 +101,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 29 retrieval fetches
 - /posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html  — 29 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 29 retrieval fetches
-- /tools  — 29 retrieval fetches
+- /wire.html  — 29 retrieval fetches
 - /posts/lora-vs-full-fine-tuning-cost-november-2026.html  — 19 retrieval fetches
 - /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html  — 19 retrieval fetches
 - /posts/2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b.html  — 19 retrieval fetches
@@ -109,7 +109,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (3324 verified): / ×23 · /posts/lora-vs-full-fine-tuning-cost-november-2026.html ×19 · /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html ×19
-- OAI-SearchBot (2510 verified): /posts/best-open-vision-language-model-for-agents.html ×29 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×29 · /posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html ×29
+- OAI-SearchBot (2512 verified): /posts/best-open-vision-language-model-for-agents.html ×29 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×29 · /posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html ×29
 - ChatGPT-User (761 verified): / ×553 · /agents.html ×15 · /posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html ×9
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -147,9 +147,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9647 confirmed AI-engine fetches (Perplexity 3324, GPTBot (OpenAI) 3052, ChatGPT Search (OpenAI) 2510, ChatGPT (user browsing) 761).
+The real answer engines are crawling us — IP-verified: 10156 confirmed AI-engine fetches (GPTBot (OpenAI) 3559, Perplexity 3324, ChatGPT Search (OpenAI) 2512, ChatGPT (user browsing) 761).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 311 crawler fetches
+- /build  — 319 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 131 crawler fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 70 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 62 crawler fetches
@@ -160,7 +160,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/open-source-llm-for-coding-september-2026.html  — 40 crawler fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 39 crawler fetches
 - /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 37 crawler fetches
-- /tools  — 31 crawler fetches
+- /posts/best-open-vision-language-model-for-agents.html  — 29 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
