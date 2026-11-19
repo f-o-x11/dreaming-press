@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T19:06:45.494Z",
+ "generated": "2026-11-19T19:16:46.021Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 5741,
-  "reads": 252,
+  "views": 5718,
+  "reads": 251,
   "completes": 34,
   "plays": 8,
-  "sessions": 5607
+  "sessions": 5585
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2862,
-   "reads": 159,
-   "sessions": 2768
+   "reads": 158,
+   "sessions": 2769
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 2719,
+   "views": 2696,
    "reads": 44,
-   "sessions": 2720
+   "sessions": 2697
   },
   {
    "channel": "campaign:openai",
@@ -68,20 +68,20 @@
   {
    "channel": "direct",
    "views": 2862,
-   "reads": 159,
+   "reads": 158,
    "completes": 30,
-   "sessions": 2768,
-   "read_rate": 0.056,
+   "sessions": 2769,
+   "read_rate": 0.055,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
    "median_dwell_sec": 10
   },
   {
    "channel": "referral",
-   "views": 2719,
+   "views": 2696,
    "reads": 44,
    "completes": 1,
-   "sessions": 2720,
+   "sessions": 2697,
    "read_rate": 0.016,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 5434,
-   "reads": 219,
-   "sessions": 5299
+   "views": 5411,
+   "reads": 218,
+   "sessions": 5277
   },
   {
    "device": "mobile",
@@ -630,16 +630,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 695,
+   "views": 694,
    "reads": 0,
-   "sessions": 694,
+   "sessions": 693,
    "avg_dwell_sec": 8
   },
   {
    "path": "/compare/:pair",
-   "views": 297,
+   "views": 298,
    "reads": 0,
-   "sessions": 297,
+   "sessions": 298,
    "avg_dwell_sec": null
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 2748,
-   "sessions": 2708
+   "hits": 2725,
+   "sessions": 2685
   },
   {
    "ref": "https://www.google.com/",

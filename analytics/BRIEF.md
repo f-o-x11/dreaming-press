@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-19T19:06Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-19T19:16Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 5741 views → 252 engaged reads → 34 completes · 5607 sessions.
-- Channels: direct 159r/2862v · organic 48r/147v · referral 44r/2719v · campaign:openai 1r/3v · ai 0r/5v · campaign:chatgpt.com 0r/4v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 5718 views → 251 engaged reads → 34 completes · 5585 sessions.
+- Channels: direct 158r/2862v · organic 48r/147v · referral 44r/2696v · campaign:openai 1r/3v · ai 0r/5v · campaign:chatgpt.com 0r/4v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 0r/4v · Kimi 0r/3v · Doubao 0r/2v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, nav-cmp, f-cols, teams.public.onecdn.static.microsoft, search.brave.com, cn.bing.com, wire-row.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2862 views · read 5.6% · complete 1.0% · 1.03 pages/session · median 10s
-- referral: 2719 views · read 1.6% · complete 0.0% · 1 pages/session · median ?s
+- direct: 2862 views · read 5.5% · complete 1.0% · 1.03 pages/session · median 10s
+- referral: 2696 views · read 1.6% · complete 0.0% · 1 pages/session · median ?s
 - organic: 147 views · read 32.7% · complete 1.4% · 1.04 pages/session · median 3s
 - ai: 5 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 4 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
@@ -59,8 +59,8 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 695 views, 0 reads, 694 sessions, avg 8s
-- /compare/:pair — 297 views, 0 reads, 297 sessions
+- /stack/:tool — 694 views, 0 reads, 693 sessions, avg 8s
+- /compare/:pair — 298 views, 0 reads, 298 sessions
 - / — 199 views, 3 reads, 196 sessions, avg 19s
 - /build — 176 views, 0 reads, 176 sessions
 - /topics/:topic — 58 views, 1 reads, 58 sessions, avg 23s
@@ -108,7 +108,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (3330 verified): / ×23 · /posts/lora-vs-full-fine-tuning-cost-november-2026.html ×19 · /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html ×19
-- OAI-SearchBot (2602 verified): /posts/best-open-vision-language-model-for-agents.html ×30 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×30 · /posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html ×30
+- OAI-SearchBot (2604 verified): /posts/best-open-vision-language-model-for-agents.html ×30 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×30 · /posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html ×30
 - ChatGPT-User (797 verified): / ×583 · /agents.html ×15 · /posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html ×9
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -123,7 +123,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Uncovered search demand (243 of 454 phrases have NO post, 55h ago)
+## Uncovered search demand (243 of 454 phrases have NO post, 56h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -146,7 +146,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 10343 confirmed AI-engine fetches (GPTBot (OpenAI) 3614, Perplexity 3330, ChatGPT Search (OpenAI) 2602, ChatGPT (user browsing) 797).
+The real answer engines are crawling us — IP-verified: 10345 confirmed AI-engine fetches (GPTBot (OpenAI) 3614, Perplexity 3330, ChatGPT Search (OpenAI) 2604, ChatGPT (user browsing) 797).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 326 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 139 crawler fetches
@@ -156,8 +156,8 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/best-open-source-vector-database-2026.html  — 56 crawler fetches
 - /posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html  — 52 crawler fetches
 - /posts/gpu-rental-price-october-2026.html  — 48 crawler fetches
+- /posts/open-source-llm-for-coding-september-2026.html  — 42 crawler fetches
 - /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 42 crawler fetches
-- /posts/open-source-llm-for-coding-september-2026.html  — 41 crawler fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 40 crawler fetches
 - /posts/best-open-vision-language-model-for-agents.html  — 30 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
