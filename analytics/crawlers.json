@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-19T18:56:42.678Z",
+ "generated": "2026-11-19T19:06:45.203Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 10340,
+ "verifiedAiHits": 10343,
  "logsScanned": 30,
  "windowStart": "2026-11-05",
  "windowEnd": "2026-11-19",
- "totalHits": 114503,
- "aiHits": 90173,
+ "totalHits": 114536,
+ "aiHits": 90193,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30684,
+   "hits": 30692,
    "verifiedHits": 0,
    "firstSeen": "2026-11-05",
    "lastSeen": "2026-11-19",
@@ -47,7 +47,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 19790,
+   "hits": 19791,
    "verifiedHits": 0,
    "firstSeen": "2026-11-05",
    "lastSeen": "2026-11-19",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14251,
+   "hits": 14259,
    "verifiedHits": 0,
    "firstSeen": "2026-11-05",
    "lastSeen": "2026-11-19",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9709,
+   "hits": 9714,
    "verifiedHits": 0,
    "firstSeen": "2026-11-05",
    "lastSeen": "2026-11-19",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6090,
-   "verifiedHits": 6046,
+   "hits": 6094,
+   "verifiedHits": 6050,
    "firstSeen": "2026-11-05",
    "lastSeen": "2026-11-19",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2642,
-   "verifiedHits": 2599,
+   "hits": 2645,
+   "verifiedHits": 2602,
    "firstSeen": "2026-11-05",
    "lastSeen": "2026-11-19",
    "topPaths": [
@@ -443,18 +443,18 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1052,
+   "hits": 1054,
    "verifiedHits": 0,
    "firstSeen": "2026-11-05",
    "lastSeen": "2026-11-19",
    "topPaths": [
     {
-     "path": "/authors/dex",
+     "path": "/build",
      "hits": 5
     },
     {
-     "path": "/build",
-     "hits": 4
+     "path": "/authors/dex",
+     "hits": 5
     },
     {
      "path": "/posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.md",
@@ -542,7 +542,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 602,
+   "hits": 604,
    "verifiedHits": 0,
    "firstSeen": "2026-11-05",
    "lastSeen": "2026-11-19",
