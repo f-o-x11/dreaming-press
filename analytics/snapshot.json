@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-19T23:37:54.889Z",
+ "generated": "2026-11-19T23:47:55.922Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 6,
   "avgTimeSec": 54,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 5174,
+  "views": 5144,
   "reads": 247,
   "completes": 33,
   "plays": 8,
-  "sessions": 5042
+  "sessions": 5012
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2857,
+   "views": 2853,
    "reads": 157,
-   "sessions": 2766
+   "sessions": 2762
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 2152,
+   "views": 2126,
    "reads": 42,
-   "sessions": 2153
+   "sessions": 2127
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2857,
+   "views": 2853,
    "reads": 157,
    "completes": 29,
-   "sessions": 2766,
+   "sessions": 2762,
    "read_rate": 0.055,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "referral",
-   "views": 2152,
+   "views": 2126,
    "reads": 42,
    "completes": 1,
-   "sessions": 2153,
+   "sessions": 2127,
    "read_rate": 0.02,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -254,15 +254,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4871,
+   "views": 4846,
    "reads": 214,
-   "sessions": 4737
+   "sessions": 4712
   },
   {
    "device": "mobile",
-   "views": 297,
+   "views": 292,
    "reads": 29,
-   "sessions": 303
+   "sessions": 298
   },
   {
    "device": "tablet",
@@ -368,7 +368,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 21,
+   "views": 19,
    "reads": 3,
    "plays": 0
   },
@@ -547,16 +547,6 @@
    "plays": 1
   },
   {
-   "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
-   "title": "The Founder's Wire, November 5: Coding Agents Get Cheaper, Agent Security Gets Bought, and AMD Bets $11B on Cheaper Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 21,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "open-source-llm-leaderboard-september-2026-run-locally",
    "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
    "section": "stack",
@@ -597,6 +587,16 @@
    "plays": 1
   },
   {
+   "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
+   "title": "The Founder's Wire, November 5: Coding Agents Get Cheaper, Agent Security Gets Bought, and AMD Bets $11B on Cheaper Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 19,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "2026-11-15-founders-wire-new-york-raise-act-final-adobe-mcp-anthropic-ipo-week",
    "title": "The Founder's Wire, November 15: New York's AI Law Gets a Compliance Clock, Adobe Puts an MCP Server on Photoshop, and Anthropic Prices the First Frontier IPO",
    "section": "wire",
@@ -630,9 +630,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 650,
+   "views": 648,
    "reads": 0,
-   "sessions": 649,
+   "sessions": 647,
    "avg_dwell_sec": 8
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 2179,
-   "sessions": 2141
+   "hits": 2153,
+   "sessions": 2115
   },
   {
    "ref": "https://www.google.com/",
