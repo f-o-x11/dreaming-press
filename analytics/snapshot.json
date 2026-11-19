@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-19T23:07:44.911Z",
+ "generated": "2026-11-19T23:17:48.898Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 0,
   "todayReads": 6,
   "avgTimeSec": 54,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 5231,
-  "reads": 248,
-  "completes": 34,
+  "views": 5206,
+  "reads": 247,
+  "completes": 33,
   "plays": 8,
-  "sessions": 5099
+  "sessions": 5074
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2858,
-   "reads": 158,
-   "sessions": 2767
+   "views": 2857,
+   "reads": 157,
+   "sessions": 2766
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 2208,
+   "views": 2184,
    "reads": 42,
-   "sessions": 2209
+   "sessions": 2185
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2858,
-   "reads": 158,
-   "completes": 30,
-   "sessions": 2767,
+   "views": 2857,
+   "reads": 157,
+   "completes": 29,
+   "sessions": 2766,
    "read_rate": 0.055,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "referral",
-   "views": 2208,
+   "views": 2184,
    "reads": 42,
    "completes": 1,
-   "sessions": 2209,
+   "sessions": 2185,
    "read_rate": 0.019,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4928,
-   "reads": 215,
-   "sessions": 4794
+   "views": 4903,
+   "reads": 214,
+   "sessions": 4769
   },
   {
    "device": "mobile",
@@ -664,18 +664,18 @@
    "avg_dwell_sec": null
   },
   {
-   "path": "/topics/:topic",
-   "views": 49,
-   "reads": 1,
-   "sessions": 49,
-   "avg_dwell_sec": 23
-  },
-  {
    "path": "/alternatives/:tool",
    "views": 48,
    "reads": 0,
    "sessions": 48,
    "avg_dwell_sec": null
+  },
+  {
+   "path": "/topics/:topic",
+   "views": 48,
+   "reads": 1,
+   "sessions": 48,
+   "avg_dwell_sec": 23
   },
   {
    "path": "/subscribe",
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 2235,
-   "sessions": 2197
+   "hits": 2211,
+   "sessions": 2173
   },
   {
    "ref": "https://www.google.com/",
