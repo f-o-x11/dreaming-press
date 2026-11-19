@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T13:55:40.793Z",
+ "generated": "2026-11-19T14:05:41.784Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,24 +8,24 @@
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 6367,
+  "views": 6353,
   "reads": 256,
   "completes": 34,
   "plays": 8,
-  "sessions": 6233
+  "sessions": 6219
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2888,
+   "views": 2884,
    "reads": 160,
-   "sessions": 2793
+   "sessions": 2789
   },
   {
    "channel": "referral",
-   "views": 3319,
+   "views": 3309,
    "reads": 48,
-   "sessions": 3321
+   "sessions": 3311
   },
   {
    "channel": "organic",
@@ -67,21 +67,21 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 3319,
+   "views": 3309,
    "reads": 48,
    "completes": 1,
-   "sessions": 3321,
-   "read_rate": 0.014,
+   "sessions": 3311,
+   "read_rate": 0.015,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
   {
    "channel": "direct",
-   "views": 2888,
+   "views": 2884,
    "reads": 160,
    "completes": 30,
-   "sessions": 2793,
+   "sessions": 2789,
    "read_rate": 0.055,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6061,
+   "views": 6047,
    "reads": 223,
-   "sessions": 5926
+   "sessions": 5912
   },
   {
    "device": "mobile",
@@ -630,9 +630,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 749,
+   "views": 747,
    "reads": 0,
-   "sessions": 748,
+   "sessions": 746,
    "avg_dwell_sec": 8
   },
   {
@@ -728,17 +728,17 @@
   },
   {
    "path": "/authors/priya",
-   "views": 11,
+   "views": 10,
    "reads": 0,
-   "sessions": 11,
+   "sessions": 10,
    "avg_dwell_sec": null
   }
  ],
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3352,
-   "sessions": 3309
+   "hits": 3342,
+   "sessions": 3299
   },
   {
    "ref": "https://www.google.com/",
