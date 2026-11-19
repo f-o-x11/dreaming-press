@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T09:44:51.791Z",
+ "generated": "2026-11-19T09:54:54.784Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,24 +8,24 @@
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 6680,
-  "reads": 261,
+  "views": 6667,
+  "reads": 260,
   "completes": 34,
   "plays": 8,
-  "sessions": 6543
+  "sessions": 6531
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2919,
-   "reads": 168,
-   "sessions": 2823
+   "views": 2917,
+   "reads": 167,
+   "sessions": 2822
   },
   {
    "channel": "referral",
-   "views": 3604,
+   "views": 3593,
    "reads": 49,
-   "sessions": 3606
+   "sessions": 3595
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 3604,
+   "views": 3593,
    "reads": 49,
    "completes": 1,
-   "sessions": 3606,
+   "sessions": 3595,
    "read_rate": 0.014,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "direct",
-   "views": 2919,
-   "reads": 168,
+   "views": 2917,
+   "reads": 167,
    "completes": 30,
-   "sessions": 2823,
-   "read_rate": 0.058,
+   "sessions": 2822,
+   "read_rate": 0.057,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
    "median_dwell_sec": 10
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6372,
-   "reads": 228,
-   "sessions": 6234
+   "views": 6359,
+   "reads": 227,
+   "sessions": 6222
   },
   {
    "device": "mobile",
@@ -278,8 +278,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 30,
-   "reads": 13,
+   "views": 28,
+   "reads": 12,
    "plays": 1
   },
   {
@@ -430,8 +430,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 30,
-   "reads": 13,
+   "views": 28,
+   "reads": 12,
    "plays": 1
   },
   {
@@ -532,8 +532,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 30,
-   "reads": 13,
+   "views": 28,
+   "reads": 12,
    "plays": 1
   },
   {
@@ -658,9 +658,9 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 70,
+   "views": 69,
    "reads": 1,
-   "sessions": 70,
+   "sessions": 69,
    "avg_dwell_sec": 23
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3638,
-   "sessions": 3594
+   "hits": 3627,
+   "sessions": 3583
   },
   {
    "ref": "https://www.google.com/",
