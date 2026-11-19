@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-19T08:34:44.987Z",
+ "generated": "2026-11-19T08:44:45.615Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 1,
   "avgTimeSec": 133,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 6841,
-  "reads": 265,
+  "views": 6819,
+  "reads": 264,
   "completes": 34,
   "plays": 8,
-  "sessions": 6703
+  "sessions": 6682
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2923,
-   "reads": 170,
-   "sessions": 2826
+   "views": 2918,
+   "reads": 169,
+   "sessions": 2822
   },
   {
    "channel": "referral",
-   "views": 3761,
+   "views": 3744,
    "reads": 51,
-   "sessions": 3763
+   "sessions": 3746
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 3761,
+   "views": 3744,
    "reads": 51,
    "completes": 1,
-   "sessions": 3763,
+   "sessions": 3746,
    "read_rate": 0.014,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2923,
-   "reads": 170,
+   "views": 2918,
+   "reads": 169,
    "completes": 30,
-   "sessions": 2826,
+   "sessions": 2822,
    "read_rate": 0.058,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6533,
-   "reads": 232,
-   "sessions": 6394
+   "views": 6511,
+   "reads": 231,
+   "sessions": 6373
   },
   {
    "device": "mobile",
@@ -278,8 +278,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 33,
-   "reads": 15,
+   "views": 31,
+   "reads": 14,
    "plays": 1
   },
   {
@@ -430,8 +430,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 33,
-   "reads": 15,
+   "views": 31,
+   "reads": 14,
    "plays": 1
   },
   {
@@ -532,8 +532,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 33,
-   "reads": 15,
+   "views": 31,
+   "reads": 14,
    "plays": 1
   },
   {
@@ -577,16 +577,6 @@
    "plays": 0
   },
   {
-   "slug": "vllm-vs-sglang-vs-lmdeploy",
-   "title": "vLLM vs SGLang vs LMDeploy: Picking a Self-Hosted Inference Engine in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "openai-responses-api-state-previous-response-id-vs-conversations-api",
    "title": "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own",
    "section": "stack",
@@ -602,6 +592,16 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
+   "views": 20,
+   "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "vllm-vs-sglang-vs-lmdeploy",
+   "title": "vLLM vs SGLang vs LMDeploy: Picking a Self-Hosted Inference Engine in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
    "views": 20,
    "reads": 0,
    "plays": 0
@@ -630,23 +630,23 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 794,
+   "views": 793,
    "reads": 0,
-   "sessions": 793,
+   "sessions": 792,
    "avg_dwell_sec": 8
   },
   {
    "path": "/compare/:pair",
-   "views": 300,
+   "views": 301,
    "reads": 0,
-   "sessions": 300,
+   "sessions": 301,
    "avg_dwell_sec": 9
   },
   {
    "path": "/build",
-   "views": 247,
+   "views": 246,
    "reads": 0,
-   "sessions": 247,
+   "sessions": 246,
    "avg_dwell_sec": null
   },
   {
@@ -658,9 +658,9 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 77,
+   "views": 76,
    "reads": 1,
-   "sessions": 77,
+   "sessions": 76,
    "avg_dwell_sec": 23
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3797,
-   "sessions": 3751
+   "hits": 3780,
+   "sessions": 3734
   },
   {
    "ref": "https://www.google.com/",
