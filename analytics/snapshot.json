@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T22:37:34.850Z",
+ "generated": "2026-11-19T22:47:35.916Z",
  "windowDays": 14,
  "site": {
   "readersNow": 4,
@@ -8,18 +8,18 @@
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 5296,
+  "views": 5282,
   "reads": 249,
   "completes": 34,
   "plays": 8,
-  "sessions": 5164
+  "sessions": 5150
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2857,
+   "views": 2858,
    "reads": 158,
-   "sessions": 2766
+   "sessions": 2767
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 2273,
+   "views": 2258,
    "reads": 42,
-   "sessions": 2274
+   "sessions": 2259
   },
   {
    "channel": "campaign:openai",
@@ -67,22 +67,22 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2857,
+   "views": 2858,
    "reads": 158,
    "completes": 30,
-   "sessions": 2766,
+   "sessions": 2767,
    "read_rate": 0.055,
-   "complete_rate": 0.011,
+   "complete_rate": 0.01,
    "pages_per_session": 1.03,
    "median_dwell_sec": 10
   },
   {
    "channel": "referral",
-   "views": 2273,
+   "views": 2258,
    "reads": 42,
    "completes": 1,
-   "sessions": 2274,
-   "read_rate": 0.018,
+   "sessions": 2259,
+   "read_rate": 0.019,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -254,15 +254,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4994,
+   "views": 4979,
    "reads": 216,
-   "sessions": 4860
+   "sessions": 4845
   },
   {
    "device": "mobile",
-   "views": 296,
+   "views": 297,
    "reads": 29,
-   "sessions": 302
+   "sessions": 303
   },
   {
    "device": "tablet",
@@ -630,9 +630,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 655,
+   "views": 654,
    "reads": 0,
-   "sessions": 654,
+   "sessions": 653,
    "avg_dwell_sec": 8
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 2300,
-   "sessions": 2262
+   "hits": 2285,
+   "sessions": 2247
   },
   {
    "ref": "https://www.google.com/",
