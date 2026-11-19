@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-19T04:13:54.931Z",
+ "generated": "2026-11-19T04:23:58.967Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 1,
   "avgTimeSec": 174,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 7208,
-  "reads": 288,
+  "views": 7198,
+  "reads": 287,
   "completes": 34,
-  "plays": 9,
-  "sessions": 7056
+  "plays": 8,
+  "sessions": 7047
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2972,
-   "reads": 186,
+   "views": 2971,
+   "reads": 185,
    "sessions": 2862
   },
   {
    "channel": "referral",
-   "views": 4079,
+   "views": 4070,
    "reads": 57,
-   "sessions": 4081
+   "sessions": 4072
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 4079,
+   "views": 4070,
    "reads": 57,
    "completes": 1,
-   "sessions": 4081,
+   "sessions": 4072,
    "read_rate": 0.014,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "direct",
-   "views": 2972,
-   "reads": 186,
+   "views": 2971,
+   "reads": 185,
    "completes": 30,
    "sessions": 2862,
-   "read_rate": 0.063,
+   "read_rate": 0.062,
    "complete_rate": 0.01,
    "pages_per_session": 1.04,
    "median_dwell_sec": 10
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6891,
-   "reads": 255,
-   "sessions": 6738
+   "views": 6881,
+   "reads": 254,
+   "sessions": 6729
   },
   {
    "device": "mobile",
@@ -278,9 +278,9 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 64,
-   "reads": 31,
-   "plays": 2
+   "views": 62,
+   "reads": 30,
+   "plays": 1
   },
   {
    "slug": "openai-responses-api-state-previous-response-id-vs-conversations-api",
@@ -430,9 +430,9 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 64,
-   "reads": 31,
-   "plays": 2
+   "views": 62,
+   "reads": 30,
+   "plays": 1
   },
   {
    "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
@@ -532,9 +532,9 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 64,
-   "reads": 31,
-   "plays": 2
+   "views": 62,
+   "reads": 30,
+   "plays": 1
   },
   {
    "slug": "open-source-coding-llm-ranked-november-2026",
@@ -637,16 +637,16 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 305,
+   "views": 306,
    "reads": 0,
-   "sessions": 305,
+   "sessions": 306,
    "avg_dwell_sec": 9
   },
   {
    "path": "/build",
-   "views": 260,
+   "views": 258,
    "reads": 0,
-   "sessions": 260,
+   "sessions": 258,
    "avg_dwell_sec": null
   },
   {
@@ -679,9 +679,9 @@
   },
   {
    "path": "/subscribe",
-   "views": 31,
+   "views": 30,
    "reads": 0,
-   "sessions": 11,
+   "sessions": 10,
    "avg_dwell_sec": null
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 4121,
-   "sessions": 4069
+   "hits": 4112,
+   "sessions": 4060
   },
   {
    "ref": "https://www.google.com/",
