@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-19T15:25Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-19T15:35Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 6207 views → 253 engaged reads → 34 completes · 6072 sessions.
-- Channels: direct 160r/2862v · organic 47r/146v · referral 45r/3185v · campaign:openai 1r/3v · ai 0r/5v · campaign:chatgpt.com 0r/5v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 6187 views → 253 engaged reads → 34 completes · 6053 sessions.
+- Channels: direct 159r/2863v · organic 48r/147v · referral 45r/3163v · campaign:openai 1r/3v · ai 0r/5v · campaign:chatgpt.com 0r/5v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 0r/5v · Kimi 0r/3v · Doubao 0r/2v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, nav-cmp, f-cols, teams.public.onecdn.static.microsoft, search.brave.com, cn.bing.com, wire-row.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -23,9 +23,9 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- referral: 3185 views · read 1.4% · complete 0.0% · 1 pages/session · median ?s
-- direct: 2862 views · read 5.6% · complete 1.0% · 1.03 pages/session · median 10s
-- organic: 146 views · read 32.2% · complete 1.4% · 1.04 pages/session · median 3s
+- referral: 3163 views · read 1.4% · complete 0.0% · 1 pages/session · median ?s
+- direct: 2863 views · read 5.6% · complete 1.0% · 1.03 pages/session · median 10s
+- organic: 147 views · read 32.7% · complete 1.4% · 1.04 pages/session · median 3s
 - campaign:chatgpt.com: 5 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
 - ai: 5 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
 - campaign:openai: 3 views · read 33.3% · complete 0.0% · 0.75 pages/session · median ?s
@@ -53,15 +53,15 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "How to Deploy a Long-Running AI Agent Without Losing In-Flight Work" — 1 listens, 2 reads
 - [wire] "Every AI Agent Framework Became a Graph in 2026 — and the Hard Part Is Still Unsolved" — 1 listens, 1 reads
 - [wire] "The Founder's Wire, October 1: OpenAI's $1.4T Private Raise, Instinct's $10B Month, and Salesforce Puts Agents Where the UI Used to Be" — 1 listens, 1 reads
-- [wire] "Environments Hub vs HUD vs Gymnasium: Where RL Environments for Agents Actually Come From" — 1 listens, 1 reads
 - [stack] "Run Claude Code on Alibaba's Qwen Coding Plan: the ~$50/mo Agent Backend" — 1 listens, 0 reads
+- [wire] "Environments Hub vs HUD vs Gymnasium: Where RL Environments for Agents Actually Come From" — 1 listens, 0 reads
 
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 729 views, 0 reads, 728 sessions, avg 8s
-- /compare/:pair — 294 views, 0 reads, 294 sessions
-- /build — 207 views, 0 reads, 207 sessions
+- /compare/:pair — 295 views, 0 reads, 295 sessions
+- /build — 205 views, 0 reads, 205 sessions
 - / — 202 views, 3 reads, 199 sessions, avg 19s
 - /topics/:topic — 64 views, 1 reads, 64 sessions, avg 23s
 - /best/:cat — 49 views, 0 reads, 49 sessions
@@ -87,7 +87,7 @@ new traffic — and these pages already have the traffic.
 - [wire] "The Founder's Wire, November 17: California Sues OpenAI Over Agents That Lost Control, a Backdoored Claude Code Extension Reaches Cursor Users, and a Startup Raises $50M to Vet Every Agent Action" — 20 views but only 0 engaged reads (0.0%)
 - [wire] "vLLM vs SGLang vs LMDeploy: Picking a Self-Hosted Inference Engine in 2026" — 19 views but only 0 engaged reads (0.0%)
 - [wire] "The Founder's Wire, November 15: New York's AI Law Gets a Compliance Clock, Adobe Puts an MCP Server on Photoshop, and Anthropic Prices the First Frontier IPO" — 18 views but only 0 engaged reads (0.0%)
-- [stack] "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM" — 18 views but only 0 engaged reads (0.0%)
+- [stack] "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM" — 17 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 

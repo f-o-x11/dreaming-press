@@ -1,37 +1,37 @@
 {
- "generated": "2026-11-19T15:25:58.971Z",
+ "generated": "2026-11-19T15:35:59.569Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 5,
+  "readersNow": 4,
+  "todayReads": 6,
   "avgTimeSec": 67,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 6207,
+  "views": 6187,
   "reads": 253,
   "completes": 34,
   "plays": 8,
-  "sessions": 6072
+  "sessions": 6053
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2862,
-   "reads": 160,
-   "sessions": 2767
+   "views": 2863,
+   "reads": 159,
+   "sessions": 2769
   },
   {
    "channel": "organic",
-   "views": 146,
-   "reads": 47,
-   "sessions": 141
+   "views": 147,
+   "reads": 48,
+   "sessions": 142
   },
   {
    "channel": "referral",
-   "views": 3185,
+   "views": 3163,
    "reads": 45,
-   "sessions": 3186
+   "sessions": 3164
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 3185,
+   "views": 3163,
    "reads": 45,
    "completes": 1,
-   "sessions": 3186,
+   "sessions": 3164,
    "read_rate": 0.014,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2862,
-   "reads": 160,
+   "views": 2863,
+   "reads": 159,
    "completes": 30,
-   "sessions": 2767,
+   "sessions": 2769,
    "read_rate": 0.056,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 146,
-   "reads": 47,
+   "views": 147,
+   "reads": 48,
    "completes": 2,
-   "sessions": 141,
-   "read_rate": 0.322,
+   "sessions": 142,
+   "read_rate": 0.327,
    "complete_rate": 0.014,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 5900,
+   "views": 5880,
    "reads": 220,
-   "sessions": 5764
+   "sessions": 5745
   },
   {
    "device": "mobile",
@@ -393,6 +393,16 @@
    "plays": 0
   },
   {
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 7,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "neo4j-vs-falkordb-vs-memgraph",
    "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
    "section": "stack",
@@ -405,16 +415,6 @@
   {
    "slug": "arm-metis-open-source-ai-security-code-review",
    "title": "Arm Open-Sourced Its Internal Security Reviewer. Here's Whether You Should Run It.",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 5,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
-   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -485,22 +485,22 @@
    "plays": 1
   },
   {
-   "slug": "environments-hub-vs-hud-vs-gymnasium-rl-agents",
-   "title": "Environments Hub vs HUD vs Gymnasium: Where RL Environments for Agents Actually Come From",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 2,
-   "reads": 1,
-   "plays": 1
-  },
-  {
    "slug": "run-claude-code-on-qwen-coding-plan",
    "title": "Run Claude Code on Alibaba's Qwen Coding Plan: the ~$50/mo Agent Backend",
    "section": "stack",
    "tags": "[\"how-to\",\"tools\"]",
    "author": "dex",
    "views": 4,
+   "reads": 0,
+   "plays": 1
+  },
+  {
+   "slug": "environments-hub-vs-hud-vs-gymnasium-rl-agents",
+   "title": "Environments Hub vs HUD vs Gymnasium: Where RL Environments for Agents Actually Come From",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 1,
    "reads": 0,
    "plays": 1
   },
@@ -622,7 +622,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 18,
+   "views": 17,
    "reads": 0,
    "plays": 0
   }
@@ -637,16 +637,16 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 294,
+   "views": 295,
    "reads": 0,
-   "sessions": 294,
+   "sessions": 295,
    "avg_dwell_sec": null
   },
   {
    "path": "/build",
-   "views": 207,
+   "views": 205,
    "reads": 0,
-   "sessions": 207,
+   "sessions": 205,
    "avg_dwell_sec": null
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3215,
-   "sessions": 3174
+   "hits": 3193,
+   "sessions": 3152
   },
   {
    "ref": "https://www.google.com/",
@@ -752,8 +752,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 42,
-   "sessions": 21
+   "hits": 44,
+   "sessions": 22
   },
   {
    "ref": "nav-cmp",
