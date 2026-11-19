@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-19T02:43Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-19T02:53Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 7243 views → 290 engaged reads → 33 completes · 7089 sessions.
-- Channels: direct 188r/3002v · referral 57r/4085v · organic 44r/142v · campaign:openai 1r/3v · ai 0r/5v · campaign:chatgpt.com 0r/5v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 7244 views → 290 engaged reads → 34 completes · 7090 sessions.
+- Channels: direct 188r/3003v · referral 57r/4085v · organic 44r/142v · campaign:openai 1r/3v · ai 0r/5v · campaign:chatgpt.com 0r/5v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 0r/5v · Kimi 0r/3v · Doubao 0r/2v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, nav-cmp, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, cn.bing.com, wire-row.
 - Engaged-read winners by section: wire=8, stack=7.
@@ -24,7 +24,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - referral: 4085 views · read 1.4% · complete 0.0% · 1 pages/session · median ?s
-- direct: 3002 views · read 6.3% · complete 1.0% · 1.04 pages/session · median 10s
+- direct: 3003 views · read 6.3% · complete 1.0% · 1.04 pages/session · median 10s
 - organic: 142 views · read 31.0% · complete 1.4% · 1.04 pages/session · median 3s
 - campaign:chatgpt.com: 5 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
 - ai: 5 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
@@ -62,10 +62,10 @@ so what these earn from humans is the other half of the picture.
 - /stack/:tool — 836 views, 0 reads, 835 sessions, avg 8s
 - /compare/:pair — 320 views, 0 reads, 320 sessions, avg 9s
 - /build — 260 views, 0 reads, 260 sessions
-- / — 202 views, 3 reads, 199 sessions, avg 19s
+- / — 203 views, 3 reads, 200 sessions, avg 19s
 - /topics/:topic — 82 views, 1 reads, 82 sessions, avg 23s
 - /best/:cat — 52 views, 0 reads, 52 sessions
-- /alternatives/:tool — 48 views, 0 reads, 48 sessions
+- /alternatives/:tool — 49 views, 0 reads, 49 sessions
 - /subscribe — 31 views, 0 reads, 11 sessions
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
