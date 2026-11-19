@@ -1,37 +1,37 @@
 {
- "generated": "2026-11-19T22:07:25.231Z",
+ "generated": "2026-11-19T22:17:29.432Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 4,
   "todayReads": 6,
   "avgTimeSec": 57,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 5354,
+  "views": 5338,
   "reads": 249,
   "completes": 34,
   "plays": 8,
-  "sessions": 5222
+  "sessions": 5206
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2858,
+   "views": 2857,
    "reads": 158,
-   "sessions": 2766
+   "sessions": 2765
   },
   {
    "channel": "organic",
-   "views": 149,
+   "views": 151,
    "reads": 48,
-   "sessions": 144
+   "sessions": 146
   },
   {
    "channel": "referral",
-   "views": 2334,
+   "views": 2317,
    "reads": 42,
-   "sessions": 2335
+   "sessions": 2318
   },
   {
    "channel": "campaign:openai",
@@ -67,21 +67,21 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2858,
+   "views": 2857,
    "reads": 158,
    "completes": 30,
-   "sessions": 2766,
+   "sessions": 2765,
    "read_rate": 0.055,
-   "complete_rate": 0.01,
+   "complete_rate": 0.011,
    "pages_per_session": 1.03,
    "median_dwell_sec": 10
   },
   {
    "channel": "referral",
-   "views": 2334,
+   "views": 2317,
    "reads": 42,
    "completes": 1,
-   "sessions": 2335,
+   "sessions": 2318,
    "read_rate": 0.018,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 149,
+   "views": 151,
    "reads": 48,
    "completes": 2,
-   "sessions": 144,
-   "read_rate": 0.322,
+   "sessions": 146,
+   "read_rate": 0.318,
    "complete_rate": 0.013,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -254,15 +254,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 5050,
+   "views": 5036,
    "reads": 216,
-   "sessions": 4916
+   "sessions": 4902
   },
   {
    "device": "mobile",
-   "views": 298,
+   "views": 296,
    "reads": 29,
-   "sessions": 304
+   "sessions": 302
   },
   {
    "device": "tablet",
@@ -398,7 +398,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 7,
+   "views": 8,
    "reads": 3,
    "plays": 0
   },
@@ -630,16 +630,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 662,
+   "views": 660,
    "reads": 0,
-   "sessions": 661,
+   "sessions": 659,
    "avg_dwell_sec": 8
   },
   {
    "path": "/compare/:pair",
-   "views": 300,
+   "views": 301,
    "reads": 0,
-   "sessions": 300,
+   "sessions": 301,
    "avg_dwell_sec": null
   },
   {
@@ -651,9 +651,9 @@
   },
   {
    "path": "/build",
-   "views": 150,
+   "views": 149,
    "reads": 0,
-   "sessions": 150,
+   "sessions": 149,
    "avg_dwell_sec": null
   },
   {
@@ -737,13 +737,13 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 2361,
-   "sessions": 2323
+   "hits": 2344,
+   "sessions": 2306
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 91,
-   "sessions": 83
+   "hits": 93,
+   "sessions": 85
   },
   {
    "ref": "https://www.bing.com/",
