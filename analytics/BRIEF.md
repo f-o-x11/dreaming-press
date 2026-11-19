@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-19T14:05Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-19T14:15Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 6353 views → 256 engaged reads → 34 completes · 6219 sessions.
-- Channels: direct 160r/2884v · referral 48r/3309v · organic 47r/146v · campaign:openai 1r/3v · ai 0r/5v · campaign:chatgpt.com 0r/5v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 6326 views → 256 engaged reads → 34 completes · 6192 sessions.
+- Channels: direct 160r/2877v · referral 48r/3289v · organic 47r/146v · campaign:openai 1r/3v · ai 0r/5v · campaign:chatgpt.com 0r/5v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 0r/5v · Kimi 0r/3v · Doubao 0r/2v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, nav-cmp, f-cols, teams.public.onecdn.static.microsoft, search.brave.com, cn.bing.com, wire-row.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- referral: 3309 views · read 1.5% · complete 0.0% · 1 pages/session · median ?s
-- direct: 2884 views · read 5.5% · complete 1.0% · 1.03 pages/session · median 10s
+- referral: 3289 views · read 1.5% · complete 0.0% · 1 pages/session · median ?s
+- direct: 2877 views · read 5.6% · complete 1.0% · 1.03 pages/session · median 10s
 - organic: 146 views · read 32.2% · complete 1.4% · 1.04 pages/session · median 3s
 - campaign:chatgpt.com: 5 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
 - ai: 5 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
@@ -59,13 +59,13 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 747 views, 0 reads, 746 sessions, avg 8s
-- /compare/:pair — 306 views, 0 reads, 306 sessions
+- /stack/:tool — 742 views, 0 reads, 741 sessions, avg 8s
+- /compare/:pair — 307 views, 0 reads, 307 sessions
 - /build — 218 views, 0 reads, 218 sessions
 - / — 202 views, 3 reads, 199 sessions, avg 19s
 - /topics/:topic — 65 views, 1 reads, 65 sessions, avg 23s
-- /alternatives/:tool — 49 views, 0 reads, 49 sessions
 - /best/:cat — 49 views, 0 reads, 49 sessions
+- /alternatives/:tool — 48 views, 0 reads, 48 sessions
 - /subscribe — 30 views, 0 reads, 10 sessions
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
@@ -124,7 +124,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Uncovered search demand (243 of 454 phrases have NO post, 50h ago)
+## Uncovered search demand (243 of 454 phrases have NO post, 51h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -156,7 +156,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/cheapest-gpu-rental-november-2026.html  — 61 crawler fetches
 - /posts/best-open-source-vector-database-2026.html  — 55 crawler fetches
 - /posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html  — 52 crawler fetches
-- /posts/gpu-rental-price-october-2026.html  — 46 crawler fetches
+- /posts/gpu-rental-price-october-2026.html  — 47 crawler fetches
 - /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 42 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 41 crawler fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 40 crawler fetches
