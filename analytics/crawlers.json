@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-19T00:33:08.513Z",
+ "generated": "2026-11-19T00:43:12.564Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 9604,
  "logsScanned": 30,
  "windowStart": "2026-11-05",
  "windowEnd": "2026-11-19",
- "totalHits": 109430,
- "aiHits": 86384,
+ "totalHits": 109505,
+ "aiHits": 86444,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 28832,
+   "hits": 28885,
    "verifiedHits": 0,
    "firstSeen": "2026-11-05",
    "lastSeen": "2026-11-19",
    "topPaths": [
     {
      "path": "/",
-     "hits": 41
+     "hits": 43
     },
     {
      "path": "/build",
@@ -80,7 +80,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13431,
+   "hits": 13438,
    "verifiedHits": 0,
    "firstSeen": "2026-11-05",
    "lastSeen": "2026-11-19",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9201,
+   "hits": 9211,
    "verifiedHits": 0,
    "firstSeen": "2026-11-05",
    "lastSeen": "2026-11-19",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5648,
-   "verifiedHits": 5604,
+   "hits": 5652,
+   "verifiedHits": 5608,
    "firstSeen": "2026-11-05",
    "lastSeen": "2026-11-19",
    "topPaths": [
@@ -443,10 +443,10 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 997,
+   "hits": 998,
    "verifiedHits": 0,
    "firstSeen": "2026-11-05",
-   "lastSeen": "2026-11-18",
+   "lastSeen": "2026-11-19",
    "topPaths": [
     {
      "path": "/authors/dex",
