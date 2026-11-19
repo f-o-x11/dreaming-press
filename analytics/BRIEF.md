@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-19T00:23Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-19T00:33Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -62,7 +62,7 @@ so what these earn from humans is the other half of the picture.
 - /stack/:tool — 835 views, 0 reads, 834 sessions, avg 8s
 - /compare/:pair — 324 views, 0 reads, 324 sessions, avg 9s
 - /build — 260 views, 0 reads, 260 sessions
-- / — 202 views, 3 reads, 199 sessions, avg 19s
+- / — 203 views, 3 reads, 200 sessions, avg 19s
 - /topics/:topic — 82 views, 1 reads, 82 sessions, avg 23s
 - /best/:cat — 52 views, 0 reads, 52 sessions
 - /alternatives/:tool — 49 views, 0 reads, 49 sessions
@@ -97,8 +97,8 @@ human just asked a question. Not index crawlers, which enumerate everything and 
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
 - /  — 565 retrieval fetches
+- /posts/best-open-vision-language-model-for-agents.html  — 29 retrieval fetches
 - /tools  — 29 retrieval fetches
-- /posts/best-open-vision-language-model-for-agents.html  — 28 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 28 retrieval fetches
 - /posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html  — 28 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 28 retrieval fetches
@@ -109,7 +109,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (3319 verified): / ×23 · /posts/lora-vs-full-fine-tuning-cost-november-2026.html ×19 · /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html ×19
-- OAI-SearchBot (2485 verified): /tools ×29 · /posts/best-open-vision-language-model-for-agents.html ×28 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×28
+- OAI-SearchBot (2489 verified): /posts/best-open-vision-language-model-for-agents.html ×29 · /tools ×29 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×28
 - ChatGPT-User (748 verified): / ×542 · /agents.html ×15 · /posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html ×9
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -147,7 +147,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9599 confirmed AI-engine fetches (Perplexity 3319, GPTBot (OpenAI) 3047, ChatGPT Search (OpenAI) 2485, ChatGPT (user browsing) 748).
+The real answer engines are crawling us — IP-verified: 9604 confirmed AI-engine fetches (Perplexity 3319, GPTBot (OpenAI) 3048, ChatGPT Search (OpenAI) 2489, ChatGPT (user browsing) 748).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 305 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 130 crawler fetches
