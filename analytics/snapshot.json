@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-19T01:13:15.162Z",
+ "generated": "2026-11-19T01:23:19.939Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 4,
   "todayReads": 0,
-  "avgTimeSec": 0,
+  "avgTimeSec": 2,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 7245,
+  "views": 7248,
   "reads": 291,
   "completes": 33,
   "plays": 9,
-  "sessions": 7091
+  "sessions": 7094
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3004,
+   "views": 3007,
    "reads": 188,
-   "sessions": 2892
+   "sessions": 2895
   },
   {
    "channel": "referral",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 3004,
+   "views": 3007,
    "reads": 188,
    "completes": 29,
-   "sessions": 2892,
+   "sessions": 2895,
    "read_rate": 0.063,
    "complete_rate": 0.01,
    "pages_per_session": 1.04,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6926,
+   "views": 6929,
    "reads": 258,
-   "sessions": 6771
+   "sessions": 6774
   },
   {
    "device": "mobile",
@@ -298,7 +298,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 25,
+   "views": 26,
    "reads": 5,
    "plays": 0
   },
@@ -520,7 +520,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 25,
+   "views": 26,
    "reads": 5,
    "plays": 0
   }
@@ -537,6 +537,16 @@
    "plays": 2
   },
   {
+   "slug": "open-source-coding-llm-ranked-november-2026",
+   "title": "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 26,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "best-llm-for-creative-writing-october-2026",
    "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
    "section": "stack",
@@ -545,16 +555,6 @@
    "views": 26,
    "reads": 3,
    "plays": 1
-  },
-  {
-   "slug": "open-source-coding-llm-ranked-november-2026",
-   "title": "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 25,
-   "reads": 5,
-   "plays": 0
   },
   {
    "slug": "open-source-llm-leaderboard-september-2026-run-locally",
@@ -637,9 +637,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 326,
+   "views": 327,
    "reads": 0,
-   "sessions": 326,
+   "sessions": 327,
    "avg_dwell_sec": 9
   },
   {
