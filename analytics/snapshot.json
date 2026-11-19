@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-19T12:05:15.207Z",
+ "generated": "2026-11-19T12:15:19.281Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 5,
   "avgTimeSec": 92,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 6467,
-  "reads": 259,
+  "views": 6453,
+  "reads": 258,
   "completes": 34,
   "plays": 8,
-  "sessions": 6332
+  "sessions": 6319
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2920,
-   "reads": 163,
+   "views": 2919,
+   "reads": 162,
    "sessions": 2824
   },
   {
    "channel": "referral",
-   "views": 3389,
+   "views": 3376,
    "reads": 48,
-   "sessions": 3391
+   "sessions": 3378
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 3389,
+   "views": 3376,
    "reads": 48,
    "completes": 1,
-   "sessions": 3391,
+   "sessions": 3378,
    "read_rate": 0.014,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "direct",
-   "views": 2920,
-   "reads": 163,
+   "views": 2919,
+   "reads": 162,
    "completes": 30,
    "sessions": 2824,
-   "read_rate": 0.056,
+   "read_rate": 0.055,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
    "median_dwell_sec": 10
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6158,
-   "reads": 226,
-   "sessions": 6022
+   "views": 6144,
+   "reads": 225,
+   "sessions": 6009
   },
   {
    "device": "mobile",
@@ -288,8 +288,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 21,
-   "reads": 8,
+   "views": 19,
+   "reads": 7,
    "plays": 1
   },
   {
@@ -430,8 +430,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 21,
-   "reads": 8,
+   "views": 19,
+   "reads": 7,
    "plays": 1
   },
   {
@@ -557,16 +557,6 @@
    "plays": 0
   },
   {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 21,
-   "reads": 8,
-   "plays": 1
-  },
-  {
    "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
    "title": "The Founder's Wire, November 5: Coding Agents Get Cheaper, Agent Security Gets Bought, and AMD Bets $11B on Cheaper Inference",
    "section": "wire",
@@ -607,6 +597,16 @@
    "plays": 0
   },
   {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 19,
+   "reads": 7,
+   "plays": 1
+  },
+  {
    "slug": "2026-11-15-founders-wire-new-york-raise-act-final-adobe-mcp-anthropic-ipo-week",
    "title": "The Founder's Wire, November 15: New York's AI Law Gets a Compliance Clock, Adobe Puts an MCP Server on Photoshop, and Anthropic Prices the First Frontier IPO",
    "section": "wire",
@@ -630,9 +630,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 758,
+   "views": 755,
    "reads": 0,
-   "sessions": 757,
+   "sessions": 754,
    "avg_dwell_sec": 8
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3422,
-   "sessions": 3379
+   "hits": 3409,
+   "sessions": 3366
   },
   {
    "ref": "https://www.google.com/",
