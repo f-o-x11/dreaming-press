@@ -1,37 +1,37 @@
 {
- "generated": "2026-11-19T10:14:55.386Z",
+ "generated": "2026-11-19T10:24:55.222Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 2,
+  "readersNow": 3,
+  "todayReads": 3,
   "avgTimeSec": 133,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 6640,
-  "reads": 258,
+  "views": 6629,
+  "reads": 257,
   "completes": 34,
   "plays": 8,
-  "sessions": 6505
+  "sessions": 6496
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2917,
-   "reads": 165,
-   "sessions": 2823
+   "views": 2912,
+   "reads": 163,
+   "sessions": 2820
   },
   {
    "channel": "referral",
-   "views": 3565,
+   "views": 3558,
    "reads": 48,
-   "sessions": 3567
+   "sessions": 3560
   },
   {
    "channel": "organic",
-   "views": 144,
-   "reads": 44,
-   "sessions": 139
+   "views": 145,
+   "reads": 45,
+   "sessions": 140
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 3565,
+   "views": 3558,
    "reads": 48,
    "completes": 1,
-   "sessions": 3567,
+   "sessions": 3560,
    "read_rate": 0.013,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -78,22 +78,22 @@
   },
   {
    "channel": "direct",
-   "views": 2917,
-   "reads": 165,
+   "views": 2912,
+   "reads": 163,
    "completes": 30,
-   "sessions": 2823,
-   "read_rate": 0.057,
+   "sessions": 2820,
+   "read_rate": 0.056,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
    "median_dwell_sec": 10
   },
   {
    "channel": "organic",
-   "views": 144,
-   "reads": 44,
+   "views": 145,
+   "reads": 45,
    "completes": 2,
-   "sessions": 139,
-   "read_rate": 0.306,
+   "sessions": 140,
+   "read_rate": 0.31,
    "complete_rate": 0.014,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6332,
-   "reads": 225,
-   "sessions": 6196
+   "views": 6321,
+   "reads": 224,
+   "sessions": 6187
   },
   {
    "device": "mobile",
@@ -288,8 +288,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 25,
-   "reads": 10,
+   "views": 21,
+   "reads": 8,
    "plays": 1
   },
   {
@@ -339,6 +339,16 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 9,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "vllm-rust-frontend",
+   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
    "reads": 4,
    "plays": 0
   },
@@ -411,16 +421,6 @@
    "views": 5,
    "reads": 3,
    "plays": 0
-  },
-  {
-   "slug": "vllm-rust-frontend",
-   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 5,
-   "reads": 3,
-   "plays": 0
   }
  ],
  "topListens": [
@@ -430,8 +430,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 25,
-   "reads": 10,
+   "views": 21,
+   "reads": 8,
    "plays": 1
   },
   {
@@ -537,16 +537,6 @@
    "plays": 0
   },
   {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 25,
-   "reads": 10,
-   "plays": 1
-  },
-  {
    "slug": "best-llm-for-creative-writing-october-2026",
    "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
    "section": "stack",
@@ -565,6 +555,16 @@
    "views": 22,
    "reads": 1,
    "plays": 0
+  },
+  {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 21,
+   "reads": 8,
+   "plays": 1
   },
   {
    "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
@@ -630,9 +630,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 774,
+   "views": 773,
    "reads": 0,
-   "sessions": 773,
+   "sessions": 772,
    "avg_dwell_sec": 8
   },
   {
@@ -644,9 +644,9 @@
   },
   {
    "path": "/build",
-   "views": 236,
+   "views": 234,
    "reads": 0,
-   "sessions": 236,
+   "sessions": 234,
    "avg_dwell_sec": null
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3598,
-   "sessions": 3555
+   "hits": 3591,
+   "sessions": 3548
   },
   {
    "ref": "https://www.google.com/",
@@ -747,8 +747,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 47,
-   "sessions": 26
+   "hits": 49,
+   "sessions": 27
   },
   {
    "ref": "https://duckduckgo.com/",
