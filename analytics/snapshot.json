@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-19T11:25:10.152Z",
+ "generated": "2026-11-19T11:35:10.673Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 2,
   "todayReads": 5,
   "avgTimeSec": 92,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 6528,
+  "views": 6514,
   "reads": 259,
   "completes": 34,
   "plays": 8,
-  "sessions": 6393
+  "sessions": 6379
  },
  "channels": [
   {
@@ -23,9 +23,9 @@
   },
   {
    "channel": "referral",
-   "views": 3451,
+   "views": 3437,
    "reads": 48,
-   "sessions": 3453
+   "sessions": 3439
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 3451,
+   "views": 3437,
    "reads": 48,
    "completes": 1,
-   "sessions": 3453,
+   "sessions": 3439,
    "read_rate": 0.014,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6220,
+   "views": 6206,
    "reads": 226,
-   "sessions": 6084
+   "sessions": 6070
   },
   {
    "device": "mobile",
@@ -373,21 +373,21 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-27-too-many-tools-tool-search-vs-code-execution",
-   "title": "Too Many Tools: Tool Search vs Code Execution for Agents at Scale",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 13,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "open-source-llm-ranking-november-2026",
    "title": "Open-Source LLM Rankings (November 2026): How to Read the Leaderboards — and Why They Disagree",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "indexer",
+   "views": 14,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-27-too-many-tools-tool-search-vs-code-execution",
+   "title": "Too Many Tools: Tool Search vs Code Execution for Agents at Scale",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
    "views": 13,
    "reads": 3,
    "plays": 0
@@ -630,9 +630,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 764,
+   "views": 763,
    "reads": 0,
-   "sessions": 763,
+   "sessions": 762,
    "avg_dwell_sec": 8
   },
   {
@@ -644,9 +644,9 @@
   },
   {
    "path": "/build",
-   "views": 227,
+   "views": 225,
    "reads": 0,
-   "sessions": 227,
+   "sessions": 225,
    "avg_dwell_sec": null
   },
   {
@@ -692,13 +692,6 @@
    "avg_dwell_sec": 73
   },
   {
-   "path": "/authors/dex",
-   "views": 16,
-   "reads": 0,
-   "sessions": 16,
-   "avg_dwell_sec": null
-  },
-  {
    "path": "/dashboard",
    "views": 16,
    "reads": 0,
@@ -711,6 +704,13 @@
    "reads": 0,
    "sessions": 14,
    "avg_dwell_sec": 10
+  },
+  {
+   "path": "/authors/dex",
+   "views": 15,
+   "reads": 0,
+   "sessions": 15,
+   "avg_dwell_sec": null
   },
   {
    "path": "/apps",
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3484,
-   "sessions": 3441
+   "hits": 3470,
+   "sessions": 3427
   },
   {
    "ref": "https://www.google.com/",
