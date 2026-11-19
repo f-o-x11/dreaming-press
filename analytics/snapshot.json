@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-19T09:04:47.489Z",
+ "generated": "2026-11-19T09:14:47.834Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 3,
   "todayReads": 1,
   "avgTimeSec": 133,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 6766,
+  "views": 6733,
   "reads": 261,
   "completes": 34,
   "plays": 8,
-  "sessions": 6629
+  "sessions": 6596
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2918,
+   "views": 2919,
    "reads": 168,
-   "sessions": 2822
+   "sessions": 2823
   },
   {
    "channel": "referral",
-   "views": 3691,
+   "views": 3657,
    "reads": 49,
-   "sessions": 3693
+   "sessions": 3659
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 3691,
+   "views": 3657,
    "reads": 49,
    "completes": 1,
-   "sessions": 3693,
+   "sessions": 3659,
    "read_rate": 0.013,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2918,
+   "views": 2919,
    "reads": 168,
    "completes": 30,
-   "sessions": 2822,
+   "sessions": 2823,
    "read_rate": 0.058,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6458,
+   "views": 6425,
    "reads": 228,
-   "sessions": 6320
+   "sessions": 6287
   },
   {
    "device": "mobile",
@@ -470,7 +470,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 10,
+   "views": 9,
    "reads": 1,
    "plays": 1
   },
@@ -607,16 +607,6 @@
    "plays": 0
   },
   {
-   "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
-   "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 19,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "2026-11-15-founders-wire-new-york-raise-act-final-adobe-mcp-anthropic-ipo-week",
    "title": "The Founder's Wire, November 15: New York's AI Law Gets a Compliance Clock, Adobe Puts an MCP Server on Photoshop, and Anthropic Prices the First Frontier IPO",
    "section": "wire",
@@ -625,28 +615,38 @@
    "views": 18,
    "reads": 0,
    "plays": 0
+  },
+  {
+   "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
+   "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 18,
+   "reads": 0,
+   "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 786,
+   "views": 781,
    "reads": 0,
-   "sessions": 785,
+   "sessions": 780,
    "avg_dwell_sec": 8
   },
   {
    "path": "/compare/:pair",
-   "views": 302,
+   "views": 303,
    "reads": 0,
-   "sessions": 302,
+   "sessions": 303,
    "avg_dwell_sec": 9
   },
   {
    "path": "/build",
-   "views": 243,
+   "views": 241,
    "reads": 0,
-   "sessions": 243,
+   "sessions": 241,
    "avg_dwell_sec": null
   },
   {
@@ -658,9 +658,9 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 76,
+   "views": 73,
    "reads": 1,
-   "sessions": 76,
+   "sessions": 73,
    "avg_dwell_sec": 23
   },
   {
@@ -672,9 +672,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 48,
+   "views": 49,
    "reads": 0,
-   "sessions": 48,
+   "sessions": 49,
    "avg_dwell_sec": null
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3725,
-   "sessions": 3681
+   "hits": 3691,
+   "sessions": 3647
   },
   {
    "ref": "https://www.google.com/",
