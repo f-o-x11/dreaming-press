@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T01:03:14.894Z",
+ "generated": "2026-11-19T01:13:15.162Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
@@ -8,18 +8,18 @@
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 7250,
+  "views": 7245,
   "reads": 291,
   "completes": 33,
   "plays": 9,
-  "sessions": 7096
+  "sessions": 7091
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3009,
+   "views": 3004,
    "reads": 188,
-   "sessions": 2897
+   "sessions": 2892
   },
   {
    "channel": "referral",
@@ -78,11 +78,11 @@
   },
   {
    "channel": "direct",
-   "views": 3009,
+   "views": 3004,
    "reads": 188,
    "completes": 29,
-   "sessions": 2897,
-   "read_rate": 0.062,
+   "sessions": 2892,
+   "read_rate": 0.063,
    "complete_rate": 0.01,
    "pages_per_session": 1.04,
    "median_dwell_sec": 10
@@ -260,9 +260,9 @@
   },
   {
    "device": "mobile",
-   "views": 317,
+   "views": 312,
    "reads": 29,
-   "sessions": 322
+   "sessions": 317
   },
   {
    "device": "tablet",
@@ -597,21 +597,21 @@
    "plays": 0
   },
   {
-   "slug": "2026-11-15-founders-wire-new-york-raise-act-final-adobe-mcp-anthropic-ipo-week",
-   "title": "The Founder's Wire, November 15: New York's AI Law Gets a Compliance Clock, Adobe Puts an MCP Server on Photoshop, and Anthropic Prices the First Frontier IPO",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 18,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "vllm-vs-sglang-vs-lmdeploy",
    "title": "vLLM vs SGLang vs LMDeploy: Picking a Self-Hosted Inference Engine in 2026",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
+   "views": 19,
+   "reads": 0,
+   "plays": 0
+  },
+  {
+   "slug": "2026-11-15-founders-wire-new-york-raise-act-final-adobe-mcp-anthropic-ipo-week",
+   "title": "The Founder's Wire, November 15: New York's AI Law Gets a Compliance Clock, Adobe Puts an MCP Server on Photoshop, and Anthropic Prices the First Frontier IPO",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
    "views": 18,
    "reads": 0,
    "plays": 0
@@ -651,9 +651,9 @@
   },
   {
    "path": "/",
-   "views": 203,
+   "views": 202,
    "reads": 3,
-   "sessions": 200,
+   "sessions": 199,
    "avg_dwell_sec": 19
   },
   {
@@ -672,9 +672,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 49,
+   "views": 48,
    "reads": 0,
-   "sessions": 49,
+   "sessions": 48,
    "avg_dwell_sec": null
   },
   {
