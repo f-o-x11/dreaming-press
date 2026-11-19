@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-19T16:26:15.011Z",
+ "generated": "2026-11-19T16:36:14.940Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 6,
   "avgTimeSec": 67,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 6081,
+  "views": 6050,
   "reads": 253,
   "completes": 34,
   "plays": 8,
-  "sessions": 5947
+  "sessions": 5916
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2862,
+   "views": 2864,
    "reads": 159,
-   "sessions": 2768
+   "sessions": 2770
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 3058,
+   "views": 3025,
    "reads": 45,
-   "sessions": 3059
+   "sessions": 3026
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 3058,
+   "views": 3025,
    "reads": 45,
    "completes": 1,
-   "sessions": 3059,
+   "sessions": 3026,
    "read_rate": 0.015,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2862,
+   "views": 2864,
    "reads": 159,
    "completes": 30,
-   "sessions": 2768,
+   "sessions": 2770,
    "read_rate": 0.056,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 5774,
+   "views": 5743,
    "reads": 220,
-   "sessions": 5639
+   "sessions": 5608
   },
   {
    "device": "mobile",
@@ -630,9 +630,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 721,
+   "views": 718,
    "reads": 0,
-   "sessions": 720,
+   "sessions": 717,
    "avg_dwell_sec": 8
   },
   {
@@ -651,9 +651,9 @@
   },
   {
    "path": "/build",
-   "views": 195,
+   "views": 191,
    "reads": 0,
-   "sessions": 195,
+   "sessions": 191,
    "avg_dwell_sec": null
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3088,
-   "sessions": 3047
+   "hits": 3055,
+   "sessions": 3014
   },
   {
    "ref": "https://www.google.com/",
