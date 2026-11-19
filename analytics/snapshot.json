@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-19T03:23:43.960Z",
+ "generated": "2026-11-19T03:33:44.044Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 4,
   "todayReads": 1,
   "avgTimeSec": 174,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 7244,
+  "views": 7217,
   "reads": 290,
   "completes": 34,
   "plays": 9,
-  "sessions": 7090
+  "sessions": 7063
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 3003,
+   "views": 2976,
    "reads": 188,
-   "sessions": 2891
+   "sessions": 2864
   },
   {
    "channel": "referral",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 3003,
+   "views": 2976,
    "reads": 188,
    "completes": 30,
-   "sessions": 2891,
+   "sessions": 2864,
    "read_rate": 0.063,
    "complete_rate": 0.01,
    "pages_per_session": 1.04,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6927,
+   "views": 6900,
    "reads": 257,
-   "sessions": 6772
+   "sessions": 6745
   },
   {
    "device": "mobile",
@@ -567,6 +567,16 @@
    "plays": 0
   },
   {
+   "slug": "vllm-vs-sglang-vs-lmdeploy",
+   "title": "vLLM vs SGLang vs LMDeploy: Picking a Self-Hosted Inference Engine in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
    "title": "The Founder's Wire, November 5: Coding Agents Get Cheaper, Agent Security Gets Bought, and AMD Bets $11B on Cheaper Inference",
    "section": "wire",
@@ -574,16 +584,6 @@
    "author": "wire-desk",
    "views": 21,
    "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "vllm-vs-sglang-vs-lmdeploy",
-   "title": "vLLM vs SGLang vs LMDeploy: Picking a Self-Hosted Inference Engine in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 0,
    "plays": 0
   },
   {
@@ -630,16 +630,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 836,
+   "views": 825,
    "reads": 0,
-   "sessions": 835,
+   "sessions": 824,
    "avg_dwell_sec": 8
   },
   {
    "path": "/compare/:pair",
-   "views": 320,
+   "views": 303,
    "reads": 0,
-   "sessions": 320,
+   "sessions": 303,
    "avg_dwell_sec": 9
   },
   {
@@ -665,16 +665,16 @@
   },
   {
    "path": "/best/:cat",
-   "views": 52,
+   "views": 51,
    "reads": 0,
-   "sessions": 52,
+   "sessions": 51,
    "avg_dwell_sec": null
   },
   {
    "path": "/alternatives/:tool",
-   "views": 48,
+   "views": 49,
    "reads": 0,
-   "sessions": 48,
+   "sessions": 49,
    "avg_dwell_sec": null
   },
   {
