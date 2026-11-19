@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-19T06:04:15.040Z",
+ "generated": "2026-11-19T06:14:15.207Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 4,
   "todayReads": 1,
-  "avgTimeSec": 174,
+  "avgTimeSec": 133,
   "postsThisWeek": 9
  },
  "funnel": {
   "views": 7071,
-  "reads": 282,
+  "reads": 281,
   "completes": 34,
   "plays": 8,
-  "sessions": 6924
+  "sessions": 6926
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2962,
-   "reads": 181,
-   "sessions": 2857
+   "views": 2964,
+   "reads": 180,
+   "sessions": 2861
   },
   {
    "channel": "referral",
-   "views": 3952,
+   "views": 3950,
    "reads": 56,
-   "sessions": 3954
+   "sessions": 3952
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 3952,
+   "views": 3950,
    "reads": 56,
    "completes": 1,
-   "sessions": 3954,
+   "sessions": 3952,
    "read_rate": 0.014,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2962,
-   "reads": 181,
+   "views": 2964,
+   "reads": 180,
    "completes": 30,
-   "sessions": 2857,
+   "sessions": 2861,
    "read_rate": 0.061,
    "complete_rate": 0.01,
    "pages_per_session": 1.04,
@@ -255,14 +255,14 @@
   {
    "device": "desktop",
    "views": 6756,
-   "reads": 249,
-   "sessions": 6608
+   "reads": 248,
+   "sessions": 6609
   },
   {
    "device": "mobile",
    "views": 309,
    "reads": 29,
-   "sessions": 314
+   "sessions": 315
   },
   {
    "device": "tablet",
@@ -278,8 +278,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 54,
-   "reads": 26,
+   "views": 53,
+   "reads": 25,
    "plays": 1
   },
   {
@@ -430,8 +430,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 54,
-   "reads": 26,
+   "views": 53,
+   "reads": 25,
    "plays": 1
   },
   {
@@ -532,8 +532,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 54,
-   "reads": 26,
+   "views": 53,
+   "reads": 25,
    "plays": 1
   },
   {
@@ -607,22 +607,22 @@
    "plays": 0
   },
   {
+   "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
+   "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 19,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "2026-11-15-founders-wire-new-york-raise-act-final-adobe-mcp-anthropic-ipo-week",
    "title": "The Founder's Wire, November 15: New York's AI Law Gets a Compliance Clock, Adobe Puts an MCP Server on Photoshop, and Anthropic Prices the First Frontier IPO",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 18,
-   "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
-   "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 17,
    "reads": 0,
    "plays": 0
   }
@@ -637,9 +637,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 310,
+   "views": 311,
    "reads": 0,
-   "sessions": 310,
+   "sessions": 311,
    "avg_dwell_sec": 9
   },
   {
@@ -653,7 +653,7 @@
    "path": "/",
    "views": 201,
    "reads": 3,
-   "sessions": 198,
+   "sessions": 199,
    "avg_dwell_sec": 19
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3993,
-   "sessions": 3942
+   "hits": 3991,
+   "sessions": 3940
   },
   {
    "ref": "https://www.google.com/",
