@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-19T19:46:55.164Z",
+ "generated": "2026-11-19T19:56:59.095Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,18 +8,18 @@
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 5651,
+  "views": 5628,
   "reads": 251,
   "completes": 34,
   "plays": 8,
-  "sessions": 5518
+  "sessions": 5495
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2862,
+   "views": 2858,
    "reads": 158,
-   "sessions": 2769
+   "sessions": 2765
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 2629,
+   "views": 2610,
    "reads": 44,
-   "sessions": 2630
+   "sessions": 2611
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2862,
+   "views": 2858,
    "reads": 158,
    "completes": 30,
-   "sessions": 2769,
+   "sessions": 2765,
    "read_rate": 0.055,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "referral",
-   "views": 2629,
+   "views": 2610,
    "reads": 44,
    "completes": 1,
-   "sessions": 2630,
+   "sessions": 2611,
    "read_rate": 0.017,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -254,15 +254,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 5344,
+   "views": 5323,
    "reads": 218,
-   "sessions": 5210
+   "sessions": 5189
   },
   {
    "device": "mobile",
-   "views": 301,
+   "views": 299,
    "reads": 29,
-   "sessions": 306
+   "sessions": 304
   },
   {
    "device": "tablet",
@@ -403,19 +403,19 @@
    "plays": 0
   },
   {
-   "slug": "neo4j-vs-falkordb-vs-memgraph",
-   "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
-   "section": "stack",
+   "slug": "arm-metis-open-source-ai-security-code-review",
+   "title": "Arm Open-Sourced Its Internal Security Reviewer. Here's Whether You Should Run It.",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 6,
+   "views": 5,
    "reads": 3,
    "plays": 0
   },
   {
-   "slug": "arm-metis-open-source-ai-security-code-review",
-   "title": "Arm Open-Sourced Its Internal Security Reviewer. Here's Whether You Should Run It.",
-   "section": "wire",
+   "slug": "neo4j-vs-falkordb-vs-memgraph",
+   "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 5,
@@ -630,9 +630,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 686,
+   "views": 685,
    "reads": 0,
-   "sessions": 685,
+   "sessions": 684,
    "avg_dwell_sec": 8
   },
   {
@@ -651,16 +651,16 @@
   },
   {
    "path": "/build",
-   "views": 173,
+   "views": 172,
    "reads": 0,
-   "sessions": 173,
+   "sessions": 172,
    "avg_dwell_sec": null
   },
   {
    "path": "/topics/:topic",
-   "views": 58,
+   "views": 57,
    "reads": 1,
-   "sessions": 58,
+   "sessions": 57,
    "avg_dwell_sec": 23
   },
   {
@@ -714,9 +714,9 @@
   },
   {
    "path": "/apps",
-   "views": 12,
+   "views": 11,
    "reads": 1,
-   "sessions": 11,
+   "sessions": 10,
    "avg_dwell_sec": 38
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 2658,
-   "sessions": 2618
+   "hits": 2639,
+   "sessions": 2599
   },
   {
    "ref": "https://www.google.com/",
