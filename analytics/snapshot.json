@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-19T17:36:25.188Z",
+ "generated": "2026-11-19T17:46:28.347Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 0,
   "todayReads": 6,
   "avgTimeSec": 67,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 5923,
+  "views": 5902,
   "reads": 253,
   "completes": 34,
   "plays": 8,
-  "sessions": 5789
+  "sessions": 5768
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2864,
+   "views": 2862,
    "reads": 159,
-   "sessions": 2770
+   "sessions": 2768
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 2899,
+   "views": 2880,
    "reads": 45,
-   "sessions": 2900
+   "sessions": 2881
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 2899,
+   "views": 2880,
    "reads": 45,
    "completes": 1,
-   "sessions": 2900,
+   "sessions": 2881,
    "read_rate": 0.016,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "direct",
-   "views": 2864,
+   "views": 2862,
    "reads": 159,
    "completes": 30,
-   "sessions": 2770,
+   "sessions": 2768,
    "read_rate": 0.056,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -254,15 +254,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 5618,
+   "views": 5598,
    "reads": 220,
-   "sessions": 5483
+   "sessions": 5463
   },
   {
    "device": "mobile",
-   "views": 299,
+   "views": 298,
    "reads": 29,
-   "sessions": 304
+   "sessions": 303
   },
   {
    "device": "tablet",
@@ -617,13 +617,13 @@
    "plays": 0
   },
   {
-   "slug": "instructor-vs-outlines-vs-baml-structured-outputs",
-   "title": "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM",
-   "section": "stack",
+   "slug": "2026-11-14-founders-wire-court-asked-to-halt-ai-as-anthropic-ipo-nears",
+   "title": "The Founder's Wire, November 14: A Court Is Asked to Freeze Frontier AI the Same Week the First Pure-Play AI Stock Goes Public",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 17,
-   "reads": 0,
+   "author": "wire-desk",
+   "views": 16,
+   "reads": 1,
    "plays": 0
   }
  ],
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 2929,
-   "sessions": 2888
+   "hits": 2910,
+   "sessions": 2869
   },
   {
    "ref": "https://www.google.com/",

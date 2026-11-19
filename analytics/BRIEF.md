@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-19T17:36Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-19T17:46Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 5923 views → 253 engaged reads → 34 completes · 5789 sessions.
-- Channels: direct 159r/2864v · organic 48r/147v · referral 45r/2899v · campaign:openai 1r/3v · ai 0r/5v · campaign:chatgpt.com 0r/4v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 5902 views → 253 engaged reads → 34 completes · 5768 sessions.
+- Channels: direct 159r/2862v · organic 48r/147v · referral 45r/2880v · campaign:openai 1r/3v · ai 0r/5v · campaign:chatgpt.com 0r/4v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 0r/4v · Kimi 0r/3v · Doubao 0r/2v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, nav-cmp, f-cols, teams.public.onecdn.static.microsoft, search.brave.com, cn.bing.com, wire-row.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- referral: 2899 views · read 1.6% · complete 0.0% · 1 pages/session · median ?s
-- direct: 2864 views · read 5.6% · complete 1.0% · 1.03 pages/session · median 10s
+- referral: 2880 views · read 1.6% · complete 0.0% · 1 pages/session · median ?s
+- direct: 2862 views · read 5.6% · complete 1.0% · 1.03 pages/session · median 10s
 - organic: 147 views · read 32.7% · complete 1.4% · 1.04 pages/session · median 3s
 - ai: 5 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 4 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
@@ -87,7 +87,6 @@ new traffic — and these pages already have the traffic.
 - [wire] "The Founder's Wire, November 17: California Sues OpenAI Over Agents That Lost Control, a Backdoored Claude Code Extension Reaches Cursor Users, and a Startup Raises $50M to Vet Every Agent Action" — 20 views but only 0 engaged reads (0.0%)
 - [wire] "The Founder's Wire, November 15: New York's AI Law Gets a Compliance Clock, Adobe Puts an MCP Server on Photoshop, and Anthropic Prices the First Frontier IPO" — 18 views but only 0 engaged reads (0.0%)
 - [wire] "vLLM vs SGLang vs LMDeploy: Picking a Self-Hosted Inference Engine in 2026" — 18 views but only 0 engaged reads (0.0%)
-- [stack] "Instructor vs Outlines vs BAML: Getting Structured Output From an LLM" — 17 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
