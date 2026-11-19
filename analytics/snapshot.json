@@ -1,37 +1,37 @@
 {
- "generated": "2026-11-19T10:04:54.993Z",
+ "generated": "2026-11-19T10:14:55.386Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 1,
+  "readersNow": 4,
+  "todayReads": 2,
   "avgTimeSec": 133,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 6656,
-  "reads": 259,
+  "views": 6640,
+  "reads": 258,
   "completes": 34,
   "plays": 8,
-  "sessions": 6520
+  "sessions": 6505
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2916,
-   "reads": 166,
-   "sessions": 2821
+   "views": 2917,
+   "reads": 165,
+   "sessions": 2823
   },
   {
    "channel": "referral",
-   "views": 3583,
-   "reads": 49,
-   "sessions": 3585
+   "views": 3565,
+   "reads": 48,
+   "sessions": 3567
   },
   {
    "channel": "organic",
-   "views": 143,
-   "reads": 43,
-   "sessions": 138
+   "views": 144,
+   "reads": 44,
+   "sessions": 139
   },
   {
    "channel": "campaign:openai",
@@ -67,21 +67,21 @@
  "channelQuality": [
   {
    "channel": "referral",
-   "views": 3583,
-   "reads": 49,
+   "views": 3565,
+   "reads": 48,
    "completes": 1,
-   "sessions": 3585,
-   "read_rate": 0.014,
+   "sessions": 3567,
+   "read_rate": 0.013,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
   {
    "channel": "direct",
-   "views": 2916,
-   "reads": 166,
+   "views": 2917,
+   "reads": 165,
    "completes": 30,
-   "sessions": 2821,
+   "sessions": 2823,
    "read_rate": 0.057,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 143,
-   "reads": 43,
+   "views": 144,
+   "reads": 44,
    "completes": 2,
-   "sessions": 138,
-   "read_rate": 0.301,
+   "sessions": 139,
+   "read_rate": 0.306,
    "complete_rate": 0.014,
    "pages_per_session": 1.04,
    "median_dwell_sec": 3
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 6348,
-   "reads": 226,
-   "sessions": 6211
+   "views": 6332,
+   "reads": 225,
+   "sessions": 6196
   },
   {
    "device": "mobile",
@@ -273,16 +273,6 @@
  ],
  "topContent": [
   {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 27,
-   "reads": 11,
-   "plays": 1
-  },
-  {
    "slug": "openai-responses-api-state-previous-response-id-vs-conversations-api",
    "title": "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own",
    "section": "stack",
@@ -291,6 +281,16 @@
    "views": 20,
    "reads": 11,
    "plays": 0
+  },
+  {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 25,
+   "reads": 10,
+   "plays": 1
   },
   {
    "slug": "open-source-coding-llm-ranked-november-2026",
@@ -403,8 +403,8 @@
    "plays": 0
   },
   {
-   "slug": "vllm-rust-frontend",
-   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
+   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
+   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
@@ -413,12 +413,12 @@
    "plays": 0
   },
   {
-   "slug": "microsoft-agent-framework-codeact-hyperlight",
-   "title": "Microsoft Agent Framework's CodeAct: When the Sandbox Stops Being the Hard Part",
+   "slug": "vllm-rust-frontend",
+   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 4,
+   "views": 5,
    "reads": 3,
    "plays": 0
   }
@@ -430,8 +430,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 27,
-   "reads": 11,
+   "views": 25,
+   "reads": 10,
    "plays": 1
   },
   {
@@ -527,16 +527,6 @@
  ],
  "topViews": [
   {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 27,
-   "reads": 11,
-   "plays": 1
-  },
-  {
    "slug": "open-source-coding-llm-ranked-november-2026",
    "title": "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned",
    "section": "stack",
@@ -545,6 +535,16 @@
    "views": 27,
    "reads": 5,
    "plays": 0
+  },
+  {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 25,
+   "reads": 10,
+   "plays": 1
   },
   {
    "slug": "best-llm-for-creative-writing-october-2026",
@@ -630,16 +630,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 775,
+   "views": 774,
    "reads": 0,
-   "sessions": 774,
+   "sessions": 773,
    "avg_dwell_sec": 8
   },
   {
    "path": "/compare/:pair",
-   "views": 304,
+   "views": 305,
    "reads": 0,
-   "sessions": 304,
+   "sessions": 305,
    "avg_dwell_sec": 9
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 3617,
-   "sessions": 3573
+   "hits": 3598,
+   "sessions": 3555
   },
   {
    "ref": "https://www.google.com/",
