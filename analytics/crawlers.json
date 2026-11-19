@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-19T10:55:04.764Z",
+ "generated": "2026-11-19T11:05:06.474Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 10207,
  "logsScanned": 30,
  "windowStart": "2026-11-05",
  "windowEnd": "2026-11-19",
- "totalHits": 112683,
- "aiHits": 88867,
+ "totalHits": 112715,
+ "aiHits": 88896,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30028,
+   "hits": 30048,
    "verifiedHits": 0,
    "firstSeen": "2026-11-05",
    "lastSeen": "2026-11-19",
@@ -80,18 +80,18 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13884,
+   "hits": 13892,
    "verifiedHits": 0,
    "firstSeen": "2026-11-05",
    "lastSeen": "2026-11-19",
    "topPaths": [
     {
-     "path": "/build",
+     "path": "/wire.html",
      "hits": 46
     },
     {
-     "path": "/wire.html",
-     "hits": 45
+     "path": "/build",
+     "hits": 46
     },
     {
      "path": "/tags/opinionated",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9505,
+   "hits": 9507,
    "verifiedHits": 0,
    "firstSeen": "2026-11-05",
    "lastSeen": "2026-11-19",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5877,
-   "verifiedHits": 5833,
+   "hits": 5878,
+   "verifiedHits": 5834,
    "firstSeen": "2026-11-05",
    "lastSeen": "2026-11-19",
    "topPaths": [
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 830,
+   "hits": 831,
    "verifiedHits": 0,
    "firstSeen": "2026-11-05",
    "lastSeen": "2026-11-19",
