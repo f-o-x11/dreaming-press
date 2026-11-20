@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-20T05:09Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-20T05:19Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 4427 views → 211 engaged reads → 34 completes · 4298 sessions.
-- Channels: direct 156r/2812v · organic 44r/144v · referral 10r/1458v · campaign:openai 1r/3v · ai 0r/5v · campaign:chatgpt.com 0r/4v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 4413 views → 211 engaged reads → 34 completes · 4284 sessions.
+- Channels: direct 156r/2812v · organic 44r/144v · referral 10r/1444v · campaign:openai 1r/3v · ai 0r/5v · campaign:chatgpt.com 0r/4v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 0r/4v · Kimi 0r/3v · Doubao 0r/2v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, nav-cmp, f-cols, search.brave.com, teams.public.onecdn.static.microsoft, wire-row, cn.bing.com.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -24,7 +24,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - direct: 2812 views · read 5.5% · complete 1.1% · 1.03 pages/session · median 10s
-- referral: 1458 views · read 0.7% · complete 0.1% · 1 pages/session · median ?s
+- referral: 1444 views · read 0.7% · complete 0.1% · 1 pages/session · median ?s
 - organic: 144 views · read 30.6% · complete 1.4% · 1.03 pages/session · median 3s
 - ai: 5 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 4 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
@@ -59,13 +59,13 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 580 views, 0 reads, 579 sessions, avg 8s
+- /stack/:tool — 579 views, 0 reads, 578 sessions, avg 8s
 - /compare/:pair — 307 views, 0 reads, 307 sessions
 - / — 200 views, 3 reads, 198 sessions, avg 19s
-- /build — 101 views, 0 reads, 101 sessions
+- /build — 100 views, 0 reads, 100 sessions
 - /alternatives/:tool — 47 views, 0 reads, 47 sessions
 - /best/:cat — 47 views, 0 reads, 47 sessions
-- /topics/:topic — 39 views, 1 reads, 39 sessions, avg 23s
+- /topics/:topic — 38 views, 1 reads, 38 sessions, avg 23s
 - /subscribe — 28 views, 0 reads, 8 sessions
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
@@ -122,7 +122,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Uncovered search demand (243 of 454 phrases have NO post, 65h ago)
+## Uncovered search demand (243 of 454 phrases have NO post, 66h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
