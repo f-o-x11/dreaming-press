@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-20T16:10Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-20T16:20Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3774 views → 202 engaged reads → 30 completes · 3650 sessions.
-- Channels: direct 150r/2757v · organic 42r/148v · referral 9r/857v · campaign:openai 1r/2v · ai 0r/5v · campaign:chatgpt.com 0r/4v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 3763 views → 202 engaged reads → 30 completes · 3639 sessions.
+- Channels: direct 150r/2757v · organic 42r/148v · referral 9r/846v · campaign:openai 1r/2v · ai 0r/5v · campaign:chatgpt.com 0r/4v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 0r/4v · Kimi 0r/3v · Doubao 0r/2v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, nav-cmp, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, wire-row, cn.bing.com.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -24,7 +24,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - direct: 2757 views · read 5.4% · complete 1.0% · 1.03 pages/session · median 10s
-- referral: 857 views · read 1.1% · complete 0.1% · 1 pages/session · median ?s
+- referral: 846 views · read 1.1% · complete 0.1% · 1 pages/session · median ?s
 - organic: 148 views · read 28.4% · complete 1.4% · 1.02 pages/session · median 3s
 - ai: 5 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 4 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
@@ -153,7 +153,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/open-source-llm-for-coding-september-2026.html  — 42 crawler fetches
 - /posts/gpu-rental-price-october-2026.html  — 40 crawler fetches
 - /posts/local-llm-for-coding-on-your-own-machine.html  — 38 crawler fetches
-- /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 34 crawler fetches
+- /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 35 crawler fetches
 - /posts/best-open-vision-language-model-for-agents.html  — 30 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
