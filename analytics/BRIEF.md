@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-20T01:58Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-20T02:08Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 4816 views → 243 engaged reads → 33 completes · 4685 sessions.
-- Channels: direct 156r/2825v · organic 45r/145v · referral 41r/1833v · campaign:openai 1r/3v · ai 0r/5v · campaign:chatgpt.com 0r/4v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 4795 views → 244 engaged reads → 33 completes · 4664 sessions.
+- Channels: direct 156r/2824v · organic 45r/145v · referral 42r/1813v · campaign:openai 1r/3v · ai 0r/5v · campaign:chatgpt.com 0r/4v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 0r/4v · Kimi 0r/3v · Doubao 0r/2v.
 - Referrers: aocr.org, google.com, duckduckgo.com, bing.com, nav-cmp, f-cols, search.brave.com, teams.public.onecdn.static.microsoft, wire-row, cn.bing.com.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2825 views · read 5.5% · complete 1.0% · 1.03 pages/session · median 10s
-- referral: 1833 views · read 2.2% · complete 0.1% · 1 pages/session · median ?s
+- direct: 2824 views · read 5.5% · complete 1.0% · 1.03 pages/session · median 10s
+- referral: 1813 views · read 2.3% · complete 0.1% · 1 pages/session · median ?s
 - organic: 145 views · read 31.0% · complete 1.4% · 1.03 pages/session · median 3s
 - ai: 5 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 4 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
@@ -59,14 +59,14 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 617 views, 0 reads, 616 sessions, avg 8s
+- /stack/:tool — 614 views, 0 reads, 613 sessions, avg 8s
 - /compare/:pair — 306 views, 0 reads, 306 sessions
 - / — 199 views, 3 reads, 197 sessions, avg 19s
-- /build — 125 views, 0 reads, 125 sessions
+- /build — 124 views, 0 reads, 124 sessions
 - /alternatives/:tool — 47 views, 0 reads, 47 sessions
 - /best/:cat — 47 views, 0 reads, 47 sessions
 - /topics/:topic — 45 views, 1 reads, 45 sessions, avg 23s
-- /subscribe — 29 views, 0 reads, 9 sessions
+- /subscribe — 28 views, 0 reads, 8 sessions
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
 
@@ -96,9 +96,9 @@ nothing. This is the closest thing to a live query log this publication gets, an
 sample size dwarfs the engaged-read counts below.
 - /  — 583 retrieval fetches
 - /posts/best-open-vision-language-model-for-agents.html  — 29 retrieval fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 29 retrieval fetches
 - /tools  — 29 retrieval fetches
 - /posts/local-llm-for-coding-on-your-own-machine.html  — 28 retrieval fetches
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 28 retrieval fetches
 - /posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html  — 28 retrieval fetches
 - /posts/2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b.html  — 17 retrieval fetches
 - /posts/lora-vs-full-fine-tuning-cost-november-2026.html  — 17 retrieval fetches
@@ -107,7 +107,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (2938 verified): / ×22 · /posts/2026-11-03-founders-wire-apps-inside-chatgpt-google-ai-ads-anthropic-895b.html ×17 · /posts/lora-vs-full-fine-tuning-cost-november-2026.html ×17
-- OAI-SearchBot (2406 verified): /posts/best-open-vision-language-model-for-agents.html ×29 · /tools ×29 · /posts/local-llm-for-coding-on-your-own-machine.html ×28
+- OAI-SearchBot (2408 verified): /posts/best-open-vision-language-model-for-agents.html ×29 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×29 · /tools ×29
 - ChatGPT-User (764 verified): / ×561 · /agents.html ×16 · /posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -145,7 +145,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9742 confirmed AI-engine fetches (GPTBot (OpenAI) 3634, Perplexity 2938, ChatGPT Search (OpenAI) 2406, ChatGPT (user browsing) 764).
+The real answer engines are crawling us — IP-verified: 9744 confirmed AI-engine fetches (GPTBot (OpenAI) 3634, Perplexity 2938, ChatGPT Search (OpenAI) 2408, ChatGPT (user browsing) 764).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 350 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 129 crawler fetches
@@ -156,8 +156,8 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html  — 52 crawler fetches
 - /posts/local-llm-for-coding-on-your-own-machine.html  — 49 crawler fetches
 - /posts/gpu-rental-price-october-2026.html  — 40 crawler fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 33 crawler fetches
 - /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 33 crawler fetches
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 32 crawler fetches
 - /posts/best-open-vision-language-model-for-agents.html  — 29 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
