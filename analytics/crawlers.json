@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-20T18:21:20.252Z",
+ "generated": "2026-11-20T18:31:23.920Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9907,
+ "verifiedAiHits": 9908,
  "logsScanned": 30,
  "windowStart": "2026-11-06",
  "windowEnd": "2026-11-20",
- "totalHits": 103128,
- "aiHits": 79154,
+ "totalHits": 103167,
+ "aiHits": 79176,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30656,
+   "hits": 30657,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14688,
+   "hits": 14695,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 9848,
+   "hits": 9857,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -124,11 +124,11 @@
     },
     {
      "path": "/authors/dex",
-     "hits": 30
+     "hits": 31
     },
     {
      "path": "/wire.html",
-     "hits": 16
+     "hits": 17
     },
     {
      "path": "/tags/howto",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9616,
+   "hits": 9623,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6149,
-   "verifiedHits": 6094,
+   "hits": 6156,
+   "verifiedHits": 6099,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5541,
+   "hits": 5542,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -245,7 +245,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 3674,
+   "hits": 3676,
    "verifiedHits": 3641,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -311,8 +311,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2533,
-   "verifiedHits": 2490,
+   "hits": 2534,
+   "verifiedHits": 2491,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
    "home": "https://commoncrawl.org/ccbot",
-   "hits": 1186,
+   "hits": 1188,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -385,6 +385,10 @@
     {
      "path": "/posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html",
      "hits": 3
+    },
+    {
+     "path": "/global-tech-news",
+     "hits": 2
     },
     {
      "path": "/graphql",
@@ -396,10 +400,6 @@
     },
     {
      "path": "/userfiles",
-     "hits": 2
-    },
-    {
-     "path": "/env.old",
      "hits": 2
     }
    ],
@@ -542,7 +542,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 445,
+   "hits": 447,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
