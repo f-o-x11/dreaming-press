@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-20T00:18:04.442Z",
+ "generated": "2026-11-20T00:28:03.998Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9730,
+ "verifiedAiHits": 9731,
  "logsScanned": 30,
  "windowStart": "2026-11-06",
  "windowEnd": "2026-11-20",
- "totalHits": 99230,
- "aiHits": 76294,
+ "totalHits": 99256,
+ "aiHits": 76318,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29176,
+   "hits": 29188,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13883,
+   "hits": 13890,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 9542,
+   "hits": 9546,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5796,
-   "verifiedHits": 5755,
+   "hits": 5798,
+   "verifiedHits": 5757,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
    "topPaths": [
@@ -202,7 +202,7 @@
     },
     {
      "path": "/build",
-     "hits": 29
+     "hits": 30
     }
    ],
    "verifiable": true
@@ -311,10 +311,10 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2438,
-   "verifiedHits": 2401,
+   "hits": 2439,
+   "verifiedHits": 2402,
    "firstSeen": "2026-11-06",
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-20",
    "topPaths": [
     {
      "path": "/tools",
