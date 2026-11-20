@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-20T05:19:07.791Z",
+ "generated": "2026-11-20T05:29:11.901Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 4,
   "todayReads": 2,
   "avgTimeSec": 5,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 4413,
+  "views": 4407,
   "reads": 211,
   "completes": 34,
   "plays": 8,
-  "sessions": 4284
+  "sessions": 4278
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2812,
+   "views": 2815,
    "reads": 156,
-   "sessions": 2724
+   "sessions": 2727
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 1444,
+   "views": 1435,
    "reads": 10,
-   "sessions": 1445
+   "sessions": 1436
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2812,
+   "views": 2815,
    "reads": 156,
    "completes": 30,
-   "sessions": 2724,
+   "sessions": 2727,
    "read_rate": 0.055,
    "complete_rate": 0.011,
    "pages_per_session": 1.03,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "referral",
-   "views": 1444,
+   "views": 1435,
    "reads": 10,
    "completes": 1,
-   "sessions": 1445,
+   "sessions": 1436,
    "read_rate": 0.007,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4124,
+   "views": 4118,
    "reads": 179,
-   "sessions": 3993
+   "sessions": 3987
   },
   {
    "device": "mobile",
@@ -298,7 +298,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 27,
+   "views": 28,
    "reads": 5,
    "plays": 0
   },
@@ -403,9 +403,9 @@
    "plays": 0
   },
   {
-   "slug": "neo4j-vs-falkordb-vs-memgraph",
-   "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
-   "section": "stack",
+   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
+   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 5,
@@ -413,12 +413,12 @@
    "plays": 0
   },
   {
-   "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
-   "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
-   "section": "wire",
+   "slug": "neo4j-vs-falkordb-vs-memgraph",
+   "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 5,
+   "views": 4,
    "reads": 3,
    "plays": 0
   }
@@ -520,7 +520,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 27,
+   "views": 28,
    "reads": 5,
    "plays": 0
   }
@@ -532,7 +532,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 27,
+   "views": 28,
    "reads": 5,
    "plays": 0
   },
@@ -651,9 +651,9 @@
   },
   {
    "path": "/build",
-   "views": 100,
+   "views": 99,
    "reads": 0,
-   "sessions": 100,
+   "sessions": 99,
    "avg_dwell_sec": null
   },
   {
@@ -672,9 +672,9 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 38,
+   "views": 37,
    "reads": 1,
-   "sessions": 38,
+   "sessions": 37,
    "avg_dwell_sec": 23
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 1437,
-   "sessions": 1432
+   "hits": 1428,
+   "sessions": 1423
   },
   {
    "ref": "https://www.google.com/",
