@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-20T00:48:06.278Z",
+ "generated": "2026-11-20T00:58:09.990Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 0,
   "avgTimeSec": 0,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 5028,
+  "views": 4998,
   "reads": 246,
   "completes": 33,
   "plays": 8,
-  "sessions": 4896
+  "sessions": 4866
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2847,
+   "views": 2842,
    "reads": 157,
-   "sessions": 2756
+   "sessions": 2751
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 2015,
+   "views": 1990,
    "reads": 41,
-   "sessions": 2016
+   "sessions": 1991
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2847,
+   "views": 2842,
    "reads": 157,
    "completes": 29,
-   "sessions": 2756,
+   "sessions": 2751,
    "read_rate": 0.055,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -78,12 +78,12 @@
   },
   {
    "channel": "referral",
-   "views": 2015,
+   "views": 1990,
    "reads": 41,
    "completes": 1,
-   "sessions": 2016,
-   "read_rate": 0.02,
-   "complete_rate": 0,
+   "sessions": 1991,
+   "read_rate": 0.021,
+   "complete_rate": 0.001,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
@@ -254,15 +254,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4734,
+   "views": 4706,
    "reads": 213,
-   "sessions": 4600
+   "sessions": 4572
   },
   {
    "device": "mobile",
-   "views": 288,
+   "views": 286,
    "reads": 29,
-   "sessions": 294
+   "sessions": 292
   },
   {
    "device": "tablet",
@@ -358,7 +358,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 23,
+   "views": 21,
    "reads": 3,
    "plays": 1
   },
@@ -368,7 +368,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 18,
+   "views": 16,
    "reads": 3,
    "plays": 0
   },
@@ -388,7 +388,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 12,
+   "views": 11,
    "reads": 3,
    "plays": 0
   },
@@ -450,7 +450,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 23,
+   "views": 21,
    "reads": 3,
    "plays": 1
   },
@@ -542,7 +542,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 23,
+   "views": 21,
    "reads": 3,
    "plays": 1
   },
@@ -587,16 +587,6 @@
    "plays": 1
   },
   {
-   "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
-   "title": "The Founder's Wire, November 5: Coding Agents Get Cheaper, Agent Security Gets Bought, and AMD Bets $11B on Cheaper Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 18,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "2026-11-15-founders-wire-new-york-raise-act-final-adobe-mcp-anthropic-ipo-week",
    "title": "The Founder's Wire, November 15: New York's AI Law Gets a Compliance Clock, Adobe Puts an MCP Server on Photoshop, and Anthropic Prices the First Frontier IPO",
    "section": "wire",
@@ -617,6 +607,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
+   "title": "The Founder's Wire, November 5: Coding Agents Get Cheaper, Agent Security Gets Bought, and AMD Bets $11B on Cheaper Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 16,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "2026-11-14-founders-wire-court-asked-to-halt-ai-as-anthropic-ipo-nears",
    "title": "The Founder's Wire, November 14: A Court Is Asked to Freeze Frontier AI the Same Week the First Pure-Play AI Stock Goes Public",
    "section": "wire",
@@ -630,9 +630,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 638,
+   "views": 634,
    "reads": 0,
-   "sessions": 637,
+   "sessions": 633,
    "avg_dwell_sec": 8
   },
   {
@@ -651,9 +651,9 @@
   },
   {
    "path": "/build",
-   "views": 132,
+   "views": 130,
    "reads": 0,
-   "sessions": 132,
+   "sessions": 130,
    "avg_dwell_sec": null
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 2041,
-   "sessions": 2004
+   "hits": 2016,
+   "sessions": 1979
   },
   {
    "ref": "https://www.google.com/",
