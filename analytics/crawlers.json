@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-20T14:20:38.696Z",
+ "generated": "2026-11-20T14:30:43.131Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9871,
+ "verifiedAiHits": 9875,
  "logsScanned": 30,
  "windowStart": "2026-11-06",
  "windowEnd": "2026-11-20",
- "totalHits": 102283,
- "aiHits": 78574,
+ "totalHits": 102316,
+ "aiHits": 78598,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30400,
+   "hits": 30412,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14511,
+   "hits": 14519,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6070,
-   "verifiedHits": 6029,
+   "hits": 6071,
+   "verifiedHits": 6030,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5512,
+   "hits": 5520,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -222,12 +222,12 @@
      "hits": 18
     },
     {
-     "path": "/",
+     "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
      "hits": 15
     },
     {
-     "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
-     "hits": 14
+     "path": "/",
+     "hits": 15
     },
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
@@ -245,8 +245,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 3671,
-   "verifiedHits": 3639,
+   "hits": 3672,
+   "verifiedHits": 3640,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3018,
-   "verifiedHits": 2959,
+   "hits": 3020,
+   "verifiedHits": 2961,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2513,
-   "verifiedHits": 2476,
+   "hits": 2514,
+   "verifiedHits": 2477,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
    "topPaths": [
