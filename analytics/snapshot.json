@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-20T11:30:06.123Z",
+ "generated": "2026-11-20T11:50:06.597Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 0,
   "todayReads": 6,
   "avgTimeSec": 7,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 4017,
+  "views": 4004,
   "reads": 208,
   "completes": 31,
   "plays": 6,
-  "sessions": 3892
+  "sessions": 3879
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2779,
+   "views": 2777,
    "reads": 154,
-   "sessions": 2693
+   "sessions": 2691
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 1078,
+   "views": 1067,
    "reads": 9,
-   "sessions": 1079
+   "sessions": 1068
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2779,
+   "views": 2777,
    "reads": 154,
    "completes": 28,
-   "sessions": 2693,
+   "sessions": 2691,
    "read_rate": 0.055,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "referral",
-   "views": 1078,
+   "views": 1067,
    "reads": 9,
    "completes": 1,
-   "sessions": 1079,
+   "sessions": 1068,
    "read_rate": 0.008,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -254,15 +254,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3731,
+   "views": 3719,
    "reads": 175,
-   "sessions": 3603
+   "sessions": 3591
   },
   {
    "device": "mobile",
-   "views": 280,
+   "views": 279,
    "reads": 29,
-   "sessions": 287
+   "sessions": 286
   },
   {
    "device": "tablet",
@@ -672,9 +672,9 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 30,
+   "views": 28,
    "reads": 1,
-   "sessions": 30,
+   "sessions": 28,
    "avg_dwell_sec": 37
   },
   {
@@ -727,18 +727,18 @@
    "avg_dwell_sec": 28
   },
   {
-   "path": "/authors/wire-desk",
+   "path": "/calculators/llm-vram",
    "views": 7,
    "reads": 0,
    "sessions": 7,
-   "avg_dwell_sec": null
+   "avg_dwell_sec": 37
   }
  ],
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 1070,
-   "sessions": 1066
+   "hits": 1059,
+   "sessions": 1055
   },
   {
    "ref": "https://www.google.com/",
