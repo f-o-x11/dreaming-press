@@ -1,37 +1,37 @@
 {
- "generated": "2026-11-20T21:52:00.049Z",
+ "generated": "2026-11-20T22:02:02.978Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 9,
   "avgTimeSec": 81,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3498,
+  "views": 3494,
   "reads": 198,
   "completes": 30,
   "plays": 6,
-  "sessions": 3379
+  "sessions": 3375
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2743,
+   "views": 2742,
    "reads": 148,
-   "sessions": 2666
+   "sessions": 2665
   },
   {
    "channel": "organic",
-   "views": 154,
+   "views": 155,
    "reads": 43,
-   "sessions": 151
+   "sessions": 152
   },
   {
    "channel": "referral",
-   "views": 589,
+   "views": 585,
    "reads": 6,
-   "sessions": 589
+   "sessions": 585
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2743,
+   "views": 2742,
    "reads": 148,
    "completes": 27,
-   "sessions": 2666,
+   "sessions": 2665,
    "read_rate": 0.054,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "referral",
-   "views": 589,
+   "views": 585,
    "reads": 6,
    "completes": 1,
-   "sessions": 589,
+   "sessions": 585,
    "read_rate": 0.01,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 154,
+   "views": 155,
    "reads": 43,
    "completes": 2,
-   "sessions": 151,
-   "read_rate": 0.279,
+   "sessions": 152,
+   "read_rate": 0.277,
    "complete_rate": 0.013,
    "pages_per_session": 1.02,
    "median_dwell_sec": 3
@@ -254,15 +254,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3220,
+   "views": 3217,
    "reads": 166,
-   "sessions": 3097
+   "sessions": 3094
   },
   {
    "device": "mobile",
-   "views": 272,
+   "views": 271,
    "reads": 28,
-   "sessions": 280
+   "sessions": 279
   },
   {
    "device": "tablet",
@@ -630,9 +630,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 521,
+   "views": 520,
    "reads": 0,
-   "sessions": 520,
+   "sessions": 519,
    "avg_dwell_sec": 8
   },
   {
@@ -727,23 +727,23 @@
    "avg_dwell_sec": 28
   },
   {
-   "path": "/calculators/llm-vram",
-   "views": 7,
+   "path": "/authors/wire-desk",
+   "views": 6,
    "reads": 0,
-   "sessions": 7,
-   "avg_dwell_sec": 37
+   "sessions": 6,
+   "avg_dwell_sec": null
   }
  ],
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 576,
-   "sessions": 575
+   "hits": 572,
+   "sessions": 571
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 99,
-   "sessions": 91
+   "hits": 100,
+   "sessions": 92
   },
   {
    "ref": "https://www.bing.com/",
