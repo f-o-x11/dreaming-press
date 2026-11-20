@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-20T20:31:46.001Z",
+ "generated": "2026-11-20T20:41:50.156Z",
  "windowDays": 14,
  "site": {
   "readersNow": 4,
-  "todayReads": 8,
+  "todayReads": 9,
   "avgTimeSec": 88,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3548,
-  "reads": 199,
+  "views": 3546,
+  "reads": 200,
   "completes": 30,
   "plays": 6,
-  "sessions": 3429
+  "sessions": 3427
  },
  "channels": [
   {
@@ -23,15 +23,15 @@
   },
   {
    "channel": "organic",
-   "views": 151,
-   "reads": 42,
-   "sessions": 148
+   "views": 152,
+   "reads": 43,
+   "sessions": 149
   },
   {
    "channel": "referral",
-   "views": 639,
+   "views": 636,
    "reads": 8,
-   "sessions": 640
+   "sessions": 637
   },
   {
    "channel": "campaign:openai",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "referral",
-   "views": 639,
+   "views": 636,
    "reads": 8,
    "completes": 1,
-   "sessions": 640,
+   "sessions": 637,
    "read_rate": 0.013,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 151,
-   "reads": 42,
+   "views": 152,
+   "reads": 43,
    "completes": 2,
-   "sessions": 148,
-   "read_rate": 0.278,
+   "sessions": 149,
+   "read_rate": 0.283,
    "complete_rate": 0.013,
    "pages_per_session": 1.02,
    "median_dwell_sec": 3
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3270,
-   "reads": 167,
-   "sessions": 3147
+   "views": 3268,
+   "reads": 168,
+   "sessions": 3145
   },
   {
    "device": "mobile",
@@ -644,9 +644,9 @@
   },
   {
    "path": "/",
-   "views": 194,
+   "views": 193,
    "reads": 3,
-   "sessions": 194,
+   "sessions": 193,
    "avg_dwell_sec": 19
   },
   {
@@ -658,9 +658,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 49,
+   "views": 50,
    "reads": 0,
-   "sessions": 49,
+   "sessions": 50,
    "avg_dwell_sec": null
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 628,
-   "sessions": 626
+   "hits": 625,
+   "sessions": 623
   },
   {
    "ref": "https://www.google.com/",
@@ -747,8 +747,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 41,
-   "sessions": 23
+   "hits": 43,
+   "sessions": 24
   },
   {
    "ref": "https://duckduckgo.com/",
