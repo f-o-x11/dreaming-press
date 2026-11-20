@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-20T04:49:00.099Z",
+ "generated": "2026-11-20T04:59:04.031Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 2,
   "avgTimeSec": 5,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 4467,
+  "views": 4449,
   "reads": 211,
   "completes": 34,
   "plays": 8,
-  "sessions": 4338
+  "sessions": 4320
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2811,
+   "views": 2813,
    "reads": 156,
-   "sessions": 2723
+   "sessions": 2725
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 1499,
+   "views": 1479,
    "reads": 10,
-   "sessions": 1500
+   "sessions": 1480
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2811,
+   "views": 2813,
    "reads": 156,
    "completes": 30,
-   "sessions": 2723,
+   "sessions": 2725,
    "read_rate": 0.055,
    "complete_rate": 0.011,
    "pages_per_session": 1.03,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "referral",
-   "views": 1499,
+   "views": 1479,
    "reads": 10,
    "completes": 1,
-   "sessions": 1500,
+   "sessions": 1480,
    "read_rate": 0.007,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -254,15 +254,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4179,
+   "views": 4160,
    "reads": 179,
-   "sessions": 4048
+   "sessions": 4029
   },
   {
    "device": "mobile",
-   "views": 282,
+   "views": 283,
    "reads": 28,
-   "sessions": 288
+   "sessions": 289
   },
   {
    "device": "tablet",
@@ -368,7 +368,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "indexer",
-   "views": 15,
+   "views": 16,
    "reads": 3,
    "plays": 0
   },
@@ -597,6 +597,16 @@
    "plays": 0
   },
   {
+   "slug": "open-source-llm-ranking-november-2026",
+   "title": "Open-Source LLM Rankings (November 2026): How to Read the Leaderboards — and Why They Disagree",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "indexer",
+   "views": 16,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "2026-11-14-founders-wire-court-asked-to-halt-ai-as-anthropic-ipo-nears",
    "title": "The Founder's Wire, November 14: A Court Is Asked to Freeze Frontier AI the Same Week the First Pure-Play AI Stock Goes Public",
    "section": "wire",
@@ -614,16 +624,6 @@
    "author": "dex",
    "views": 16,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "open-source-llm-ranking-november-2026",
-   "title": "Open-Source LLM Rankings (November 2026): How to Read the Leaderboards — and Why They Disagree",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "indexer",
-   "views": 15,
-   "reads": 3,
    "plays": 0
   }
  ],
@@ -651,9 +651,9 @@
   },
   {
    "path": "/build",
-   "views": 107,
+   "views": 103,
    "reads": 0,
-   "sessions": 107,
+   "sessions": 103,
    "avg_dwell_sec": null
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 1492,
-   "sessions": 1487
+   "hits": 1472,
+   "sessions": 1467
   },
   {
    "ref": "https://www.google.com/",

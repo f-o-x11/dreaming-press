@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-20T04:48:59.833Z",
+ "generated": "2026-11-20T04:59:03.752Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9764,
+ "verifiedAiHits": 9766,
  "logsScanned": 30,
  "windowStart": "2026-11-06",
  "windowEnd": "2026-11-20",
- "totalHits": 100191,
- "aiHits": 76972,
+ "totalHits": 100216,
+ "aiHits": 76995,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29550,
+   "hits": 29558,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14084,
+   "hits": 14089,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 9606,
+   "hits": 9614,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5884,
-   "verifiedHits": 5843,
+   "hits": 5886,
+   "verifiedHits": 5845,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
    "topPaths": [
@@ -245,10 +245,10 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 3666,
-   "verifiedHits": 3634,
+   "hits": 3667,
+   "verifiedHits": 3635,
    "firstSeen": "2026-11-06",
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-20",
    "topPaths": [
     {
      "path": "/wire.html",
@@ -476,14 +476,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 831,
-   "verifiedHits": 768,
+   "hits": 832,
+   "verifiedHits": 769,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
    "topPaths": [
     {
      "path": "/",
-     "hits": 564
+     "hits": 565
     },
     {
      "path": "/agents.html",
