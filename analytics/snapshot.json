@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-20T08:19:36.808Z",
+ "generated": "2026-11-20T08:29:42.327Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 2,
   "todayReads": 4,
-  "avgTimeSec": 5,
+  "avgTimeSec": 7,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 4186,
+  "views": 4163,
   "reads": 209,
   "completes": 31,
   "plays": 6,
-  "sessions": 4059
+  "sessions": 4037
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2799,
+   "views": 2786,
    "reads": 153,
-   "sessions": 2713
+   "sessions": 2701
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 1229,
+   "views": 1219,
    "reads": 10,
-   "sessions": 1230
+   "sessions": 1220
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2799,
+   "views": 2786,
    "reads": 153,
    "completes": 28,
-   "sessions": 2713,
+   "sessions": 2701,
    "read_rate": 0.055,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "referral",
-   "views": 1229,
+   "views": 1219,
    "reads": 10,
    "completes": 1,
-   "sessions": 1230,
+   "sessions": 1220,
    "read_rate": 0.008,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -254,15 +254,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3898,
+   "views": 3875,
    "reads": 176,
-   "sessions": 3769
+   "sessions": 3746
   },
   {
    "device": "mobile",
    "views": 282,
    "reads": 29,
-   "sessions": 288
+   "sessions": 289
   },
   {
    "device": "tablet",
@@ -388,7 +388,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 9,
+   "views": 8,
    "reads": 3,
    "plays": 0
   },
@@ -637,17 +637,17 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 306,
+   "views": 299,
    "reads": 0,
-   "sessions": 306,
+   "sessions": 299,
    "avg_dwell_sec": null
   },
   {
    "path": "/",
    "views": 199,
    "reads": 3,
-   "sessions": 197,
-   "avg_dwell_sec": 20
+   "sessions": 198,
+   "avg_dwell_sec": 19
   },
   {
    "path": "/build",
@@ -665,9 +665,9 @@
   },
   {
    "path": "/alternatives/:tool",
-   "views": 46,
+   "views": 45,
    "reads": 0,
-   "sessions": 46,
+   "sessions": 45,
    "avg_dwell_sec": null
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 1222,
-   "sessions": 1217
+   "hits": 1212,
+   "sessions": 1207
   },
   {
    "ref": "https://www.google.com/",
