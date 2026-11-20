@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T17:31:12.999Z",
+ "generated": "2026-11-20T17:41:15.112Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,18 +8,18 @@
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3710,
-  "reads": 201,
+  "views": 3697,
+  "reads": 200,
   "completes": 30,
   "plays": 6,
-  "sessions": 3587
+  "sessions": 3575
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2754,
-   "reads": 149,
-   "sessions": 2671
+   "views": 2751,
+   "reads": 148,
+   "sessions": 2669
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 796,
+   "views": 786,
    "reads": 9,
-   "sessions": 797
+   "sessions": 787
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2754,
-   "reads": 149,
+   "views": 2751,
+   "reads": 148,
    "completes": 27,
-   "sessions": 2671,
+   "sessions": 2669,
    "read_rate": 0.054,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "referral",
-   "views": 796,
+   "views": 786,
    "reads": 9,
    "completes": 1,
-   "sessions": 797,
+   "sessions": 787,
    "read_rate": 0.011,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3430,
-   "reads": 169,
-   "sessions": 3304
+   "views": 3417,
+   "reads": 168,
+   "sessions": 3292
   },
   {
    "device": "mobile",
@@ -630,9 +630,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 540,
+   "views": 539,
    "reads": 0,
-   "sessions": 539,
+   "sessions": 538,
    "avg_dwell_sec": 8
   },
   {
@@ -651,9 +651,9 @@
   },
   {
    "path": "/build",
-   "views": 67,
+   "views": 66,
    "reads": 0,
-   "sessions": 67,
+   "sessions": 66,
    "avg_dwell_sec": null
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 786,
-   "sessions": 783
+   "hits": 776,
+   "sessions": 773
   },
   {
    "ref": "https://www.google.com/",
