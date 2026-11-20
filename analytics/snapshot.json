@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T17:11:04.972Z",
+ "generated": "2026-11-20T17:21:08.946Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,18 +8,18 @@
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3726,
-  "reads": 202,
+  "views": 3714,
+  "reads": 201,
   "completes": 30,
   "plays": 6,
-  "sessions": 3602
+  "sessions": 3591
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2756,
-   "reads": 150,
-   "sessions": 2672
+   "views": 2754,
+   "reads": 149,
+   "sessions": 2671
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 810,
+   "views": 800,
    "reads": 9,
-   "sessions": 811
+   "sessions": 801
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2756,
-   "reads": 150,
+   "views": 2754,
+   "reads": 149,
    "completes": 27,
-   "sessions": 2672,
+   "sessions": 2671,
    "read_rate": 0.054,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "referral",
-   "views": 810,
+   "views": 800,
    "reads": 9,
    "completes": 1,
-   "sessions": 811,
+   "sessions": 801,
    "read_rate": 0.011,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3446,
-   "reads": 170,
-   "sessions": 3319
+   "views": 3434,
+   "reads": 169,
+   "sessions": 3308
   },
   {
    "device": "mobile",
@@ -373,16 +373,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
-   "title": "The Founder's Wire, November 5: Coding Agents Get Cheaper, Agent Security Gets Bought, and AMD Bets $11B on Cheaper Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 11,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "2026-06-27-too-many-tools-tool-search-vs-code-execution",
    "title": "Too Many Tools: Tool Search vs Code Execution for Agents at Scale",
    "section": "wire",
@@ -419,6 +409,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 4,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "microsoft-agent-framework-codeact-hyperlight",
+   "title": "Microsoft Agent Framework's CodeAct: When the Sandbox Stops Being the Hard Part",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 3,
    "reads": 3,
    "plays": 0
   }
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 800,
-   "sessions": 797
+   "hits": 790,
+   "sessions": 787
   },
   {
    "ref": "https://www.google.com/",

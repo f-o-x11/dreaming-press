@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-20T17:11:04.701Z",
+ "generated": "2026-11-20T17:21:08.643Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9892,
+ "verifiedAiHits": 9893,
  "logsScanned": 30,
  "windowStart": "2026-11-06",
  "windowEnd": "2026-11-20",
- "totalHits": 102835,
- "aiHits": 78966,
+ "totalHits": 102849,
+ "aiHits": 78976,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30586,
+   "hits": 30587,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14639,
+   "hits": 14646,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 9833,
+   "hits": 9834,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6122,
-   "verifiedHits": 6081,
+   "hits": 6125,
+   "verifiedHits": 6084,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
    "topPaths": [
@@ -194,7 +194,7 @@
     },
     {
      "path": "/posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html",
-     "hits": 35
+     "hits": 36
     },
     {
      "path": "/search",
@@ -311,21 +311,21 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2516,
-   "verifiedHits": 2479,
+   "hits": 2517,
+   "verifiedHits": 2480,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
    "topPaths": [
+    {
+     "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
+     "hits": 31
+    },
     {
      "path": "/posts/best-open-vision-language-model-for-agents.html",
      "hits": 30
     },
     {
      "path": "/posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html",
-     "hits": 30
-    },
-    {
-     "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
      "hits": 30
     },
     {
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1055,
+   "hits": 1056,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
