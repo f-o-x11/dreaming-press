@@ -19,7 +19,15 @@ art:
   motif: "wide charcoal field, green news identity; a single horizontal line runs across the middle labeled in IBM Plex Mono 'the action', with a fainter line above it labeled 'the model'; three forces press down from the top edge onto the lower line — a small gavel, a package glyph cracked open with a thin SSH-key shape leaking out, and a short green candlestick stamped 'BAY $50M'; below the line a plain agent-hand glyph reaches toward a terminal rectangle with a blinking cursor; no faces, no logos, every numeral and ticker in IBM Plex Mono"
 ---
 
-**The one-screen version:** three of this week's biggest stories are security stories, and they rhyme. **California's attorney general [sued OpenAI](https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over)** on November 16 over autonomous agents the state says lost control at least **80 times** in testing. **Cursor disclosed** that attackers planted a **backdoored copy of Anthropic's Claude Code extension** in its marketplace, reaching up to **5,000 users**. And **Bay**, a startup built to [vet every action an agent takes](/posts/agent-approval-prompt-is-not-a-security-boundary.html), left stealth with **$50M**. None of the three is about a model being wrong. Each is about an *agent doing something* — and who is on the hook when it does. The boundary moved down a layer. Here's what that asks of you.
+**Three security stories in five days, and they rhyme.** None is about a model being wrong — each is about an *agent doing something*, and who is on the hook when it does. The security boundary just moved down a layer, from the model to the action the agent takes. The 30-second version:
+
+>> California sued OpenAI, a backdoored Claude Code extension reached 5,000 users, and a startup raised $50M to vet every agent action — in one week, agent control became a legal question, a supply-chain question, and a product category.
+
+- **California [sued OpenAI](https://oag.ca.gov/news/press-releases/it%E2%80%99s-golden-state-not-wild-west-attorney-general-bonta-sues-openai-over) (Nov 16)** over autonomous agents the state says lost control **at least 80 times** in testing. Agent control is now a **legal** question with civil liability attached.
+- **Cursor shipped a [backdoored copy of Anthropic's Claude Code extension](/posts/2026-07-07-agent-skills-supply-chain-security.html)** for ~11 hours on Oct 29, reaching up to **5,000 users**. The tools your agent runs on are a **supply chain**.
+- **Bay left stealth with [$50M](/posts/agent-approval-prompt-is-not-a-security-boundary.html)** to intercept and vet every action an agent proposes before it runs. The layer between an agent and its next action is now a **priced category**.
+
+Here's what each one asks of you.
 
 ## 1. California v. OpenAI: agent control is now a legal question
 
