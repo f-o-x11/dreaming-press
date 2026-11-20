@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T03:28:41.018Z",
+ "generated": "2026-11-20T03:38:41.464Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 4634,
-  "reads": 226,
+  "views": 4604,
+  "reads": 221,
   "completes": 34,
   "plays": 8,
-  "sessions": 4505
+  "sessions": 4474
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2821,
+   "views": 2817,
    "reads": 156,
-   "sessions": 2732
+   "sessions": 2728
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 1656,
-   "reads": 25,
-   "sessions": 1658
+   "views": 1630,
+   "reads": 20,
+   "sessions": 1631
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2821,
+   "views": 2817,
    "reads": 156,
    "completes": 30,
-   "sessions": 2732,
+   "sessions": 2728,
    "read_rate": 0.055,
    "complete_rate": 0.011,
    "pages_per_session": 1.03,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "referral",
-   "views": 1656,
-   "reads": 25,
+   "views": 1630,
+   "reads": 20,
    "completes": 1,
-   "sessions": 1658,
-   "read_rate": 0.015,
+   "sessions": 1631,
+   "read_rate": 0.012,
    "complete_rate": 0.001,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4343,
-   "reads": 194,
-   "sessions": 4212
+   "views": 4313,
+   "reads": 189,
+   "sessions": 4181
   },
   {
    "device": "mobile",
@@ -630,9 +630,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 596,
+   "views": 595,
    "reads": 0,
-   "sessions": 595,
+   "sessions": 594,
    "avg_dwell_sec": 8
   },
   {
@@ -651,9 +651,9 @@
   },
   {
    "path": "/build",
-   "views": 117,
+   "views": 112,
    "reads": 0,
-   "sessions": 117,
+   "sessions": 112,
    "avg_dwell_sec": null
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 1664,
-   "sessions": 1645
+   "hits": 1633,
+   "sessions": 1618
   },
   {
    "ref": "https://www.google.com/",
