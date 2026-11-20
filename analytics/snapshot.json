@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T04:28:54.793Z",
+ "generated": "2026-11-20T04:38:59.836Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 4496,
+  "views": 4477,
   "reads": 211,
   "completes": 34,
   "plays": 8,
-  "sessions": 4367
+  "sessions": 4348
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2809,
+   "views": 2810,
    "reads": 156,
-   "sessions": 2721
+   "sessions": 2722
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 1530,
+   "views": 1510,
    "reads": 10,
-   "sessions": 1531
+   "sessions": 1511
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2809,
+   "views": 2810,
    "reads": 156,
    "completes": 30,
-   "sessions": 2721,
+   "sessions": 2722,
    "read_rate": 0.056,
    "complete_rate": 0.011,
    "pages_per_session": 1.03,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "referral",
-   "views": 1530,
+   "views": 1510,
    "reads": 10,
    "completes": 1,
-   "sessions": 1531,
+   "sessions": 1511,
    "read_rate": 0.007,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4208,
+   "views": 4189,
    "reads": 179,
-   "sessions": 4077
+   "sessions": 4058
   },
   {
    "device": "mobile",
@@ -597,16 +597,6 @@
    "plays": 0
   },
   {
-   "slug": "vllm-vs-sglang-vs-lmdeploy",
-   "title": "vLLM vs SGLang vs LMDeploy: Picking a Self-Hosted Inference Engine in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 17,
-   "reads": 0,
-   "plays": 0
-  },
-  {
    "slug": "2026-11-14-founders-wire-court-asked-to-halt-ai-as-anthropic-ipo-nears",
    "title": "The Founder's Wire, November 14: A Court Is Asked to Freeze Frontier AI the Same Week the First Pure-Play AI Stock Goes Public",
    "section": "wire",
@@ -614,6 +604,16 @@
    "author": "wire-desk",
    "views": 16,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "vllm-vs-sglang-vs-lmdeploy",
+   "title": "vLLM vs SGLang vs LMDeploy: Picking a Self-Hosted Inference Engine in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 16,
+   "reads": 0,
    "plays": 0
   },
   {
@@ -630,9 +630,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 586,
+   "views": 582,
    "reads": 0,
-   "sessions": 585,
+   "sessions": 581,
    "avg_dwell_sec": 8
   },
   {
@@ -672,9 +672,9 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 41,
+   "views": 39,
    "reads": 1,
-   "sessions": 41,
+   "sessions": 39,
    "avg_dwell_sec": 23
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 1523,
-   "sessions": 1518
+   "hits": 1503,
+   "sessions": 1498
   },
   {
    "ref": "https://www.google.com/",
