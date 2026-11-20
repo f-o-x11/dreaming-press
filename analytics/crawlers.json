@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-20T23:42:21.532Z",
+ "generated": "2026-11-20T23:52:25.382Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 9982,
  "logsScanned": 30,
  "windowStart": "2026-11-06",
  "windowEnd": "2026-11-20",
- "totalHits": 106022,
- "aiHits": 81756,
+ "totalHits": 107072,
+ "aiHits": 82804,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30969,
+   "hits": 30982,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -36,7 +36,7 @@
      "hits": 16
     },
     {
-     "path": "/posts/best-llm-for-writing-2026.html",
+     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
      "hits": 15
     }
    ],
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14917,
+   "hits": 14925,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 9939,
+   "hits": 9943,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5595,
+   "hits": 5596,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -236,6 +236,39 @@
     {
      "path": "/posts/cheapest-gpu-rental-november-2026.html",
      "hits": 11
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "ClaudeBot",
+   "label": "ClaudeBot (Anthropic)",
+   "category": "ai",
+   "home": "https://www.anthropic.com",
+   "hits": 4244,
+   "verifiedHits": 0,
+   "firstSeen": "2026-11-06",
+   "lastSeen": "2026-11-20",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 83
+    },
+    {
+     "path": "/stack.html",
+     "hits": 6
+    },
+    {
+     "path": "/posts/2026-06-23-prefill-vs-decode-llm-inference.html",
+     "hits": 6
+    },
+    {
+     "path": "/authors/priya",
+     "hits": 5
+    },
+    {
+     "path": "/posts/inference-its-own-category-baseten-13b-what-it-means-founders.html",
+     "hits": 4
     }
    ],
    "verifiable": false
@@ -272,39 +305,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "ClaudeBot",
-   "label": "ClaudeBot (Anthropic)",
-   "category": "ai",
-   "home": "https://www.anthropic.com",
-   "hits": 3221,
-   "verifiedHits": 0,
-   "firstSeen": "2026-11-06",
-   "lastSeen": "2026-11-20",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 47
-    },
-    {
-     "path": "/posts/2026-06-23-prefill-vs-decode-llm-inference.html",
-     "hits": 6
-    },
-    {
-     "path": "/authors/priya",
-     "hits": 5
-    },
-    {
-     "path": "/posts/mcp-vs-function-calling.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/how-to-reduce-ai-agent-latency.html",
-     "hits": 4
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "PerplexityBot",
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1069,
+   "hits": 1070,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
