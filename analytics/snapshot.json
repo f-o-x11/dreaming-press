@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T08:59:47.572Z",
+ "generated": "2026-11-20T09:09:52.074Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,30 +8,30 @@
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 4131,
+  "views": 4126,
   "reads": 208,
   "completes": 31,
   "plays": 6,
-  "sessions": 4004
+  "sessions": 3999
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2785,
+   "views": 2784,
    "reads": 154,
-   "sessions": 2699
+   "sessions": 2698
   },
   {
    "channel": "organic",
-   "views": 145,
+   "views": 146,
    "reads": 44,
-   "sessions": 141
+   "sessions": 142
   },
   {
    "channel": "referral",
-   "views": 1189,
+   "views": 1184,
    "reads": 9,
-   "sessions": 1190
+   "sessions": 1185
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2785,
+   "views": 2784,
    "reads": 154,
    "completes": 28,
-   "sessions": 2699,
+   "sessions": 2698,
    "read_rate": 0.055,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "referral",
-   "views": 1189,
+   "views": 1184,
    "reads": 9,
    "completes": 1,
-   "sessions": 1190,
+   "sessions": 1185,
    "read_rate": 0.008,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 145,
+   "views": 146,
    "reads": 44,
    "completes": 2,
-   "sessions": 141,
-   "read_rate": 0.303,
+   "sessions": 142,
+   "read_rate": 0.301,
    "complete_rate": 0.014,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3843,
+   "views": 3838,
    "reads": 175,
-   "sessions": 3713
+   "sessions": 3708
   },
   {
    "device": "mobile",
@@ -737,13 +737,13 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 1181,
-   "sessions": 1177
+   "hits": 1176,
+   "sessions": 1172
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 89,
-   "sessions": 81
+   "hits": 90,
+   "sessions": 82
   },
   {
    "ref": "https://www.bing.com/",
