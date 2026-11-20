@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-20T23:32:19.423Z",
+ "generated": "2026-11-20T23:42:21.532Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9979,
+ "verifiedAiHits": 9982,
  "logsScanned": 30,
  "windowStart": "2026-11-06",
  "windowEnd": "2026-11-20",
- "totalHits": 104986,
- "aiHits": 80731,
+ "totalHits": 106022,
+ "aiHits": 81756,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30958,
+   "hits": 30969,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14910,
+   "hits": 14917,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 9936,
+   "hits": 9939,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6255,
-   "verifiedHits": 6198,
+   "hits": 6256,
+   "verifiedHits": 6199,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5587,
+   "hits": 5595,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -245,8 +245,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 3680,
-   "verifiedHits": 3645,
+   "hits": 3681,
+   "verifiedHits": 3646,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
    "topPaths": [
@@ -274,12 +274,45 @@
    "verifiable": true
   },
   {
+   "name": "ClaudeBot",
+   "label": "ClaudeBot (Anthropic)",
+   "category": "ai",
+   "home": "https://www.anthropic.com",
+   "hits": 3221,
+   "verifiedHits": 0,
+   "firstSeen": "2026-11-06",
+   "lastSeen": "2026-11-20",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 47
+    },
+    {
+     "path": "/posts/2026-06-23-prefill-vs-decode-llm-inference.html",
+     "hits": 6
+    },
+    {
+     "path": "/authors/priya",
+     "hits": 5
+    },
+    {
+     "path": "/posts/mcp-vs-function-calling.html",
+     "hits": 4
+    },
+    {
+     "path": "/posts/how-to-reduce-ai-agent-latency.html",
+     "hits": 4
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "PerplexityBot",
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3046,
-   "verifiedHits": 2981,
+   "hits": 3048,
+   "verifiedHits": 2983,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
    "topPaths": [
@@ -338,39 +371,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "ClaudeBot",
-   "label": "ClaudeBot (Anthropic)",
-   "category": "ai",
-   "home": "https://www.anthropic.com",
-   "hits": 2220,
-   "verifiedHits": 0,
-   "firstSeen": "2026-11-06",
-   "lastSeen": "2026-11-20",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 21
-    },
-    {
-     "path": "/authors/priya",
-     "hits": 5
-    },
-    {
-     "path": "/posts/how-to-reduce-ai-agent-latency.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/context-rot-why-long-context-degrades.html",
-     "hits": 4
-    },
-    {
-     "path": "/posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html",
-     "hits": 4
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "CCBot",
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1068,
+   "hits": 1069,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -542,7 +542,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 462,
+   "hits": 463,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
