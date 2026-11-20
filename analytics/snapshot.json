@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T08:39:44.779Z",
+ "generated": "2026-11-20T08:49:46.843Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,30 +8,30 @@
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 4155,
-  "reads": 210,
+  "views": 4140,
+  "reads": 208,
   "completes": 31,
   "plays": 6,
-  "sessions": 4028
+  "sessions": 4013
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2786,
+   "views": 2785,
    "reads": 154,
-   "sessions": 2700
+   "sessions": 2699
   },
   {
    "channel": "organic",
-   "views": 146,
-   "reads": 45,
-   "sessions": 142
+   "views": 145,
+   "reads": 44,
+   "sessions": 141
   },
   {
    "channel": "referral",
-   "views": 1211,
-   "reads": 10,
-   "sessions": 1212
+   "views": 1198,
+   "reads": 9,
+   "sessions": 1199
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2786,
+   "views": 2785,
    "reads": 154,
    "completes": 28,
-   "sessions": 2700,
+   "sessions": 2699,
    "read_rate": 0.055,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "referral",
-   "views": 1211,
-   "reads": 10,
+   "views": 1198,
+   "reads": 9,
    "completes": 1,
-   "sessions": 1212,
+   "sessions": 1199,
    "read_rate": 0.008,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -89,11 +89,11 @@
   },
   {
    "channel": "organic",
-   "views": 146,
-   "reads": 45,
+   "views": 145,
+   "reads": 44,
    "completes": 2,
-   "sessions": 142,
-   "read_rate": 0.308,
+   "sessions": 141,
+   "read_rate": 0.303,
    "complete_rate": 0.014,
    "pages_per_session": 1.03,
    "median_dwell_sec": 3
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3867,
-   "reads": 177,
-   "sessions": 3737
+   "views": 3852,
+   "reads": 175,
+   "sessions": 3722
   },
   {
    "device": "mobile",
@@ -607,6 +607,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-11-16-founders-wire-gemini-hydrogen-chatgpt-wallet-anthropic-ipo-week",
+   "title": "The Founder's Wire, November 16: Google Ships a Fast Agentic-Coding Model, OpenAI Hands Agents a Wallet, and the First AI IPO Prices This Week",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 16,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "2026-11-14-founders-wire-court-asked-to-halt-ai-as-anthropic-ipo-nears",
    "title": "The Founder's Wire, November 14: A Court Is Asked to Freeze Frontier AI the Same Week the First Pure-Play AI Stock Goes Public",
    "section": "wire",
@@ -614,16 +624,6 @@
    "author": "wire-desk",
    "views": 16,
    "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "2026-11-16-founders-wire-gemini-hydrogen-chatgpt-wallet-anthropic-ipo-week",
-   "title": "The Founder's Wire, November 16: Google Ships a Fast Agentic-Coding Model, OpenAI Hands Agents a Wallet, and the First AI IPO Prices This Week",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 15,
-   "reads": 2,
    "plays": 0
   }
  ],
@@ -651,9 +651,9 @@
   },
   {
    "path": "/build",
-   "views": 88,
+   "views": 86,
    "reads": 0,
-   "sessions": 88,
+   "sessions": 86,
    "avg_dwell_sec": null
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 1204,
-   "sessions": 1199
+   "hits": 1190,
+   "sessions": 1186
   },
   {
    "ref": "https://www.google.com/",
@@ -752,8 +752,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 42,
-   "sessions": 21
+   "hits": 40,
+   "sessions": 20
   },
   {
    "ref": "nav-cmp",
