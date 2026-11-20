@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-20T02:18:29.761Z",
+ "generated": "2026-11-20T02:28:31.838Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 3,
   "todayReads": 1,
   "avgTimeSec": 4,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 4769,
-  "reads": 244,
+  "views": 4755,
+  "reads": 242,
   "completes": 33,
   "plays": 8,
-  "sessions": 4638
+  "sessions": 4624
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2822,
+   "views": 2824,
    "reads": 156,
-   "sessions": 2731
+   "sessions": 2733
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 1789,
-   "reads": 42,
-   "sessions": 1790
+   "views": 1773,
+   "reads": 40,
+   "sessions": 1774
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2822,
+   "views": 2824,
    "reads": 156,
    "completes": 29,
-   "sessions": 2731,
+   "sessions": 2733,
    "read_rate": 0.055,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "referral",
-   "views": 1789,
-   "reads": 42,
+   "views": 1773,
+   "reads": 40,
    "completes": 1,
-   "sessions": 1790,
+   "sessions": 1774,
    "read_rate": 0.023,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4477,
-   "reads": 211,
-   "sessions": 4344
+   "views": 4463,
+   "reads": 209,
+   "sessions": 4330
   },
   {
    "device": "mobile",
@@ -363,22 +363,22 @@
    "plays": 1
   },
   {
-   "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
-   "title": "The Founder's Wire, November 5: Coding Agents Get Cheaper, Agent Security Gets Bought, and AMD Bets $11B on Cheaper Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 15,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "open-source-llm-ranking-november-2026",
    "title": "Open-Source LLM Rankings (November 2026): How to Read the Leaderboards — and Why They Disagree",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "indexer",
    "views": 15,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
+   "title": "The Founder's Wire, November 5: Coding Agents Get Cheaper, Agent Security Gets Bought, and AMD Bets $11B on Cheaper Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 14,
    "reads": 3,
    "plays": 0
   },
@@ -617,11 +617,11 @@
    "plays": 0
   },
   {
-   "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
-   "title": "The Founder's Wire, November 5: Coding Agents Get Cheaper, Agent Security Gets Bought, and AMD Bets $11B on Cheaper Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
+   "slug": "open-source-llm-ranking-november-2026",
+   "title": "Open-Source LLM Rankings (November 2026): How to Read the Leaderboards — and Why They Disagree",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "indexer",
    "views": 15,
    "reads": 3,
    "plays": 0
@@ -630,9 +630,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 612,
+   "views": 610,
    "reads": 0,
-   "sessions": 611,
+   "sessions": 609,
    "avg_dwell_sec": 8
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 1814,
-   "sessions": 1777
+   "hits": 1796,
+   "sessions": 1761
   },
   {
    "ref": "https://www.google.com/",
