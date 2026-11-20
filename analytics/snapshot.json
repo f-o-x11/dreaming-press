@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-20T23:22:14.960Z",
+ "generated": "2026-11-20T23:32:19.735Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 10,
   "avgTimeSec": 81,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3449,
+  "views": 3444,
   "reads": 199,
   "completes": 30,
   "plays": 6,
-  "sessions": 3330
+  "sessions": 3325
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2740,
+   "views": 2741,
    "reads": 149,
-   "sessions": 2663
+   "sessions": 2664
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 542,
+   "views": 536,
    "reads": 6,
-   "sessions": 542
+   "sessions": 536
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2740,
+   "views": 2741,
    "reads": 149,
    "completes": 27,
-   "sessions": 2663,
+   "sessions": 2664,
    "read_rate": 0.054,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "referral",
-   "views": 542,
+   "views": 536,
    "reads": 6,
    "completes": 1,
-   "sessions": 542,
+   "sessions": 536,
    "read_rate": 0.011,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3171,
+   "views": 3166,
    "reads": 166,
-   "sessions": 3048
+   "sessions": 3043
   },
   {
    "device": "mobile",
@@ -630,9 +630,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 515,
+   "views": 514,
    "reads": 0,
-   "sessions": 514,
+   "sessions": 513,
    "avg_dwell_sec": 8
   },
   {
@@ -679,9 +679,9 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 20,
+   "views": 19,
    "reads": 1,
-   "sessions": 20,
+   "sessions": 19,
    "avg_dwell_sec": 37
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 529,
-   "sessions": 528
+   "hits": 523,
+   "sessions": 522
   },
   {
    "ref": "https://www.google.com/",

@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-20T23:22:14.663Z",
+ "generated": "2026-11-20T23:32:19.423Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9976,
+ "verifiedAiHits": 9979,
  "logsScanned": 30,
  "windowStart": "2026-11-06",
  "windowEnd": "2026-11-20",
- "totalHits": 104179,
- "aiHits": 79937,
+ "totalHits": 104986,
+ "aiHits": 80731,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30948,
+   "hits": 30958,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14903,
+   "hits": 14910,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 9930,
+   "hits": 9936,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6246,
-   "verifiedHits": 6189,
+   "hits": 6255,
+   "verifiedHits": 6198,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
    "topPaths": [
@@ -190,7 +190,7 @@
     },
     {
      "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
-     "hits": 52
+     "hits": 53
     },
     {
      "path": "/posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html",
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3045,
-   "verifiedHits": 2980,
+   "hits": 3046,
+   "verifiedHits": 2981,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2574,
-   "verifiedHits": 2531,
+   "hits": 2576,
+   "verifiedHits": 2533,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1452,
+   "hits": 2220,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -358,16 +358,16 @@
      "hits": 5
     },
     {
-     "path": "/posts/2026-11-15-founders-wire-new-york-raise-act-final-adobe-mcp-anthropic-ipo-week.html",
-     "hits": 3
+     "path": "/posts/how-to-reduce-ai-agent-latency.html",
+     "hits": 4
     },
     {
-     "path": "/posts/inference-its-own-category-baseten-13b-what-it-means-founders.html",
-     "hits": 3
+     "path": "/posts/context-rot-why-long-context-degrades.html",
+     "hits": 4
     },
     {
-     "path": "/posts/2026-06-23-prefill-vs-decode-llm-inference.html",
-     "hits": 3
+     "path": "/posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html",
+     "hits": 4
     }
    ],
    "verifiable": false
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1066,
+   "hits": 1068,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -542,7 +542,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 460,
+   "hits": 462,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
