@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-20T06:39Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-20T06:49Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 4273 views → 210 engaged reads → 33 completes · 4145 sessions.
-- Channels: direct 155r/2807v · organic 44r/144v · referral 10r/1309v · campaign:openai 1r/3v · ai 0r/5v · campaign:chatgpt.com 0r/4v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 4261 views → 210 engaged reads → 33 completes · 4133 sessions.
+- Channels: direct 155r/2806v · organic 44r/144v · referral 10r/1299v · campaign:openai 1r/2v · ai 0r/5v · campaign:chatgpt.com 0r/4v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 0r/4v · Kimi 0r/3v · Doubao 0r/2v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, nav-cmp, f-cols, search.brave.com, teams.public.onecdn.static.microsoft, wire-row, cn.bing.com.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -23,12 +23,11 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2807 views · read 5.5% · complete 1.0% · 1.03 pages/session · median 10s
-- referral: 1309 views · read 0.8% · complete 0.1% · 1 pages/session · median ?s
+- direct: 2806 views · read 5.5% · complete 1.0% · 1.03 pages/session · median 10s
+- referral: 1299 views · read 0.8% · complete 0.1% · 1 pages/session · median ?s
 - organic: 144 views · read 30.6% · complete 1.4% · 1.03 pages/session · median 3s
 - ai: 5 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 4 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
-- campaign:openai: 3 views · read 33.3% · complete 0.0% · 0.75 pages/session · median ?s
 INSIGHT: organic converts 6x better per view than direct, which is 66% of all views.
 One visitor from organic is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
