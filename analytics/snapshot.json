@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T15:30:53.083Z",
+ "generated": "2026-11-20T15:40:53.004Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,30 +8,30 @@
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3800,
+  "views": 3795,
   "reads": 202,
-  "completes": 31,
+  "completes": 30,
   "plays": 6,
-  "sessions": 3677
+  "sessions": 3671
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2754,
    "reads": 150,
-   "sessions": 2671
+   "sessions": 2670
   },
   {
    "channel": "organic",
-   "views": 148,
+   "views": 149,
    "reads": 42,
-   "sessions": 145
+   "sessions": 146
   },
   {
    "channel": "referral",
-   "views": 886,
+   "views": 880,
    "reads": 9,
-   "sessions": 887
+   "sessions": 881
   },
   {
    "channel": "campaign:openai",
@@ -69,8 +69,8 @@
    "channel": "direct",
    "views": 2754,
    "reads": 150,
-   "completes": 28,
-   "sessions": 2671,
+   "completes": 27,
+   "sessions": 2670,
    "read_rate": 0.054,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "referral",
-   "views": 886,
+   "views": 880,
    "reads": 9,
    "completes": 1,
-   "sessions": 887,
+   "sessions": 881,
    "read_rate": 0.01,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -89,12 +89,12 @@
   },
   {
    "channel": "organic",
-   "views": 148,
+   "views": 149,
    "reads": 42,
    "completes": 2,
-   "sessions": 145,
-   "read_rate": 0.284,
-   "complete_rate": 0.014,
+   "sessions": 146,
+   "read_rate": 0.282,
+   "complete_rate": 0.013,
    "pages_per_session": 1.02,
    "median_dwell_sec": 3
   },
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3517,
+   "views": 3512,
    "reads": 170,
-   "sessions": 3391
+   "sessions": 3385
   },
   {
    "device": "mobile",
@@ -651,9 +651,9 @@
   },
   {
    "path": "/build",
-   "views": 70,
+   "views": 69,
    "reads": 0,
-   "sessions": 70,
+   "sessions": 69,
    "avg_dwell_sec": null
   },
   {
@@ -737,13 +737,13 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 876,
-   "sessions": 873
+   "hits": 870,
+   "sessions": 867
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 94,
-   "sessions": 86
+   "hits": 95,
+   "sessions": 87
   },
   {
    "ref": "https://www.bing.com/",
