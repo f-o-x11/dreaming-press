@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-20T03:58:45.084Z",
+ "generated": "2026-11-20T04:08:46.954Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 2,
   "avgTimeSec": 5,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 4571,
-  "reads": 219,
+  "views": 4550,
+  "reads": 217,
   "completes": 34,
   "plays": 8,
-  "sessions": 4441
+  "sessions": 4420
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2817,
+   "views": 2813,
    "reads": 156,
-   "sessions": 2728
+   "sessions": 2724
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 1597,
-   "reads": 18,
-   "sessions": 1598
+   "views": 1580,
+   "reads": 16,
+   "sessions": 1581
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2817,
+   "views": 2813,
    "reads": 156,
    "completes": 30,
-   "sessions": 2728,
+   "sessions": 2724,
    "read_rate": 0.055,
    "complete_rate": 0.011,
    "pages_per_session": 1.03,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "referral",
-   "views": 1597,
-   "reads": 18,
+   "views": 1580,
+   "reads": 16,
    "completes": 1,
-   "sessions": 1598,
-   "read_rate": 0.011,
+   "sessions": 1581,
+   "read_rate": 0.01,
    "complete_rate": 0.001,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4281,
-   "reads": 187,
-   "sessions": 4149
+   "views": 4260,
+   "reads": 185,
+   "sessions": 4128
   },
   {
    "device": "mobile",
@@ -318,7 +318,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 11,
+   "views": 10,
    "reads": 4,
    "plays": 1
   },
@@ -378,7 +378,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 13,
+   "views": 12,
    "reads": 3,
    "plays": 0
   },
@@ -440,7 +440,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 11,
+   "views": 10,
    "reads": 4,
    "plays": 1
   },
@@ -557,16 +557,6 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 20,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "2026-11-17-founders-wire-california-sues-openai-cursor-backdoored-extension-bay-vets-agent-actions",
    "title": "The Founder's Wire, November 17: California Sues OpenAI Over Agents That Lost Control, a Backdoored Claude Code Extension Reaches Cursor Users, and a Startup Raises $50M to Vet Every Agent Action",
    "section": "wire",
@@ -585,6 +575,16 @@
    "views": 19,
    "reads": 7,
    "plays": 1
+  },
+  {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 19,
+   "reads": 1,
+   "plays": 0
   },
   {
    "slug": "2026-11-15-founders-wire-new-york-raise-act-final-adobe-mcp-anthropic-ipo-week",
@@ -651,9 +651,9 @@
   },
   {
    "path": "/build",
-   "views": 112,
+   "views": 111,
    "reads": 0,
-   "sessions": 112,
+   "sessions": 111,
    "avg_dwell_sec": null
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 1598,
-   "sessions": 1585
+   "hits": 1579,
+   "sessions": 1568
   },
   {
    "ref": "https://www.google.com/",
