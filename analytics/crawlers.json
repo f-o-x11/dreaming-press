@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-20T08:29:42.025Z",
+ "generated": "2026-11-20T08:39:44.523Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9810,
+ "verifiedAiHits": 9815,
  "logsScanned": 30,
  "windowStart": "2026-11-06",
  "windowEnd": "2026-11-20",
- "totalHits": 100977,
- "aiHits": 77600,
+ "totalHits": 101035,
+ "aiHits": 77651,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29878,
+   "hits": 29913,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14246,
+   "hits": 14255,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -62,7 +62,7 @@
     },
     {
      "path": "/tags/opinionated",
-     "hits": 42
+     "hits": 43
     },
     {
      "path": "/tags/reportive",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 9688,
+   "hits": 9689,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -245,8 +245,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 3669,
-   "verifiedHits": 3637,
+   "hits": 3670,
+   "verifiedHits": 3638,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2483,
-   "verifiedHits": 2446,
+   "hits": 2485,
+   "verifiedHits": 2448,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1037,
+   "hits": 1038,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -476,14 +476,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 839,
-   "verifiedHits": 776,
+   "hits": 841,
+   "verifiedHits": 778,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
    "topPaths": [
     {
      "path": "/",
-     "hits": 570
+     "hits": 572
     },
     {
      "path": "/agents.html",
@@ -542,7 +542,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 397,
+   "hits": 403,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -641,10 +641,10 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 102,
+   "hits": 103,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-20",
    "topPaths": [
     {
      "path": "/posts/ai-wrapper-gross-margin-llm-token-unit-economics.html",

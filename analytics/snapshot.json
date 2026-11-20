@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-20T08:29:42.327Z",
+ "generated": "2026-11-20T08:39:44.779Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
-  "todayReads": 4,
+  "todayReads": 5,
   "avgTimeSec": 7,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 4163,
-  "reads": 209,
+  "views": 4155,
+  "reads": 210,
   "completes": 31,
   "plays": 6,
-  "sessions": 4037
+  "sessions": 4028
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2786,
-   "reads": 153,
-   "sessions": 2701
+   "reads": 154,
+   "sessions": 2700
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 1219,
+   "views": 1211,
    "reads": 10,
-   "sessions": 1220
+   "sessions": 1212
   },
   {
    "channel": "campaign:openai",
@@ -68,9 +68,9 @@
   {
    "channel": "direct",
    "views": 2786,
-   "reads": 153,
+   "reads": 154,
    "completes": 28,
-   "sessions": 2701,
+   "sessions": 2700,
    "read_rate": 0.055,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "referral",
-   "views": 1219,
+   "views": 1211,
    "reads": 10,
    "completes": 1,
-   "sessions": 1220,
+   "sessions": 1212,
    "read_rate": 0.008,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3875,
-   "reads": 176,
-   "sessions": 3746
+   "views": 3867,
+   "reads": 177,
+   "sessions": 3737
   },
   {
    "device": "mobile",
@@ -403,22 +403,22 @@
    "plays": 0
   },
   {
+   "slug": "gemini-4-hydrogen-vs-claude-haiku-sonnet-fast-agent-model-november-2026",
+   "title": "Gemini 4 Hydrogen vs Claude Haiku 5.5 vs Sonnet 5.5: The Cheap, Fast Model for Agent Loops (November 2026)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 7,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
    "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 6,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "neo4j-vs-falkordb-vs-memgraph",
-   "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 4,
    "reads": 3,
    "plays": 0
   }
@@ -630,9 +630,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 563,
+   "views": 562,
    "reads": 0,
-   "sessions": 562,
+   "sessions": 561,
    "avg_dwell_sec": 8
   },
   {
@@ -651,9 +651,9 @@
   },
   {
    "path": "/build",
-   "views": 89,
+   "views": 88,
    "reads": 0,
-   "sessions": 89,
+   "sessions": 88,
    "avg_dwell_sec": null
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 1212,
-   "sessions": 1207
+   "hits": 1204,
+   "sessions": 1199
   },
   {
    "ref": "https://www.google.com/",
