@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-20T05:29:11.901Z",
+ "generated": "2026-11-20T05:39:15.252Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 2,
   "todayReads": 2,
   "avgTimeSec": 5,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 4407,
-  "reads": 211,
-  "completes": 34,
+  "views": 4383,
+  "reads": 210,
+  "completes": 33,
   "plays": 8,
-  "sessions": 4278
+  "sessions": 4254
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2815,
-   "reads": 156,
-   "sessions": 2727
+   "views": 2813,
+   "reads": 155,
+   "sessions": 2725
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 1435,
+   "views": 1413,
    "reads": 10,
-   "sessions": 1436
+   "sessions": 1414
   },
   {
    "channel": "campaign:openai",
@@ -67,21 +67,21 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2815,
-   "reads": 156,
-   "completes": 30,
-   "sessions": 2727,
+   "views": 2813,
+   "reads": 155,
+   "completes": 29,
+   "sessions": 2725,
    "read_rate": 0.055,
-   "complete_rate": 0.011,
+   "complete_rate": 0.01,
    "pages_per_session": 1.03,
    "median_dwell_sec": 10
   },
   {
    "channel": "referral",
-   "views": 1435,
+   "views": 1413,
    "reads": 10,
    "completes": 1,
-   "sessions": 1436,
+   "sessions": 1414,
    "read_rate": 0.007,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4118,
-   "reads": 179,
-   "sessions": 3987
+   "views": 4094,
+   "reads": 178,
+   "sessions": 3963
   },
   {
    "device": "mobile",
@@ -408,7 +408,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 5,
+   "views": 6,
    "reads": 3,
    "plays": 0
   },
@@ -617,22 +617,22 @@
    "plays": 0
   },
   {
-   "slug": "vllm-vs-sglang-vs-lmdeploy",
-   "title": "vLLM vs SGLang vs LMDeploy: Picking a Self-Hosted Inference Engine in 2026",
+   "slug": "2026-11-16-founders-wire-gemini-hydrogen-chatgpt-wallet-anthropic-ipo-week",
+   "title": "The Founder's Wire, November 16: Google Ships a Fast Agentic-Coding Model, OpenAI Hands Agents a Wallet, and the First AI IPO Prices This Week",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 16,
-   "reads": 0,
+   "author": "wire-desk",
+   "views": 15,
+   "reads": 2,
    "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 579,
+   "views": 576,
    "reads": 0,
-   "sessions": 578,
+   "sessions": 575,
    "avg_dwell_sec": 8
   },
   {
@@ -651,9 +651,9 @@
   },
   {
    "path": "/build",
-   "views": 99,
+   "views": 98,
    "reads": 0,
-   "sessions": 99,
+   "sessions": 98,
    "avg_dwell_sec": null
   },
   {
@@ -679,9 +679,9 @@
   },
   {
    "path": "/subscribe",
-   "views": 28,
+   "views": 27,
    "reads": 0,
-   "sessions": 8,
+   "sessions": 7,
    "avg_dwell_sec": null
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 1428,
-   "sessions": 1423
+   "hits": 1406,
+   "sessions": 1401
   },
   {
    "ref": "https://www.google.com/",
