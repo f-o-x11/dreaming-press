@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-20T16:30:54.750Z",
+ "generated": "2026-11-20T16:40:55.674Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9886,
+ "verifiedAiHits": 9888,
  "logsScanned": 30,
  "windowStart": "2026-11-06",
  "windowEnd": "2026-11-20",
- "totalHits": 102698,
- "aiHits": 78883,
+ "totalHits": 102748,
+ "aiHits": 78917,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30549,
+   "hits": 30574,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14610,
+   "hits": 14617,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6110,
-   "verifiedHits": 6069,
+   "hits": 6115,
+   "verifiedHits": 6074,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5527,
+   "hits": 5537,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -222,11 +222,11 @@
      "hits": 18
     },
     {
-     "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
-     "hits": 15
+     "path": "/",
+     "hits": 16
     },
     {
-     "path": "/",
+     "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
      "hits": 15
     },
     {
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3023,
-   "verifiedHits": 2964,
+   "hits": 3025,
+   "verifiedHits": 2966,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
    "topPaths": [
@@ -410,8 +410,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1100,
-   "verifiedHits": 579,
+   "hits": 1101,
+   "verifiedHits": 580,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
    "topPaths": [

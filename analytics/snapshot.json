@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-20T16:30:55.071Z",
+ "generated": "2026-11-20T16:40:55.992Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 8,
   "avgTimeSec": 98,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3759,
+  "views": 3752,
   "reads": 202,
   "completes": 30,
   "plays": 6,
-  "sessions": 3635
+  "sessions": 3628
  },
  "channels": [
   {
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 841,
+   "views": 834,
    "reads": 9,
-   "sessions": 842
+   "sessions": 835
   },
   {
    "channel": "campaign:openai",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "referral",
-   "views": 841,
+   "views": 834,
    "reads": 9,
    "completes": 1,
-   "sessions": 842,
+   "sessions": 835,
    "read_rate": 0.011,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -254,15 +254,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3476,
+   "views": 3471,
    "reads": 170,
-   "sessions": 3349
+   "sessions": 3344
   },
   {
    "device": "mobile",
-   "views": 277,
+   "views": 275,
    "reads": 28,
-   "sessions": 284
+   "sessions": 282
   },
   {
    "device": "tablet",
@@ -378,7 +378,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 12,
+   "views": 11,
    "reads": 3,
    "plays": 0
   },
@@ -630,16 +630,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 543,
+   "views": 544,
    "reads": 0,
-   "sessions": 542,
+   "sessions": 543,
    "avg_dwell_sec": 8
   },
   {
    "path": "/compare/:pair",
-   "views": 283,
+   "views": 284,
    "reads": 0,
-   "sessions": 283,
+   "sessions": 284,
    "avg_dwell_sec": null
   },
   {
@@ -658,9 +658,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 47,
+   "views": 48,
    "reads": 0,
-   "sessions": 47,
+   "sessions": 48,
    "avg_dwell_sec": null
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 831,
-   "sessions": 828
+   "hits": 824,
+   "sessions": 821
   },
   {
    "ref": "https://www.google.com/",
