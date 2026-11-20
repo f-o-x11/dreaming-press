@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-20T22:12Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-20T22:22Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3488 views → 198 engaged reads → 30 completes · 3369 sessions.
-- Channels: direct 148r/2741v · organic 43r/155v · referral 6r/580v · campaign:openai 1r/2v · ai 0r/5v · campaign:chatgpt.com 0r/4v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 3479 views → 198 engaged reads → 30 completes · 3360 sessions.
+- Channels: direct 148r/2742v · organic 43r/155v · referral 6r/570v · campaign:openai 1r/2v · ai 0r/5v · campaign:chatgpt.com 0r/4v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 0r/4v · Kimi 0r/3v · Doubao 0r/2v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, nav-cmp, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, wire-row, cn.bing.com.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2741 views · read 5.4% · complete 1.0% · 1.03 pages/session · median 10s
-- referral: 580 views · read 1.0% · complete 0.2% · 1 pages/session · median ?s
+- direct: 2742 views · read 5.4% · complete 1.0% · 1.03 pages/session · median 10s
+- referral: 570 views · read 1.1% · complete 0.2% · 1 pages/session · median ?s
 - organic: 155 views · read 27.7% · complete 1.3% · 1.02 pages/session · median 3s
 - ai: 5 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 4 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
@@ -56,14 +56,14 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 519 views, 0 reads, 518 sessions, avg 8s
+- /stack/:tool — 518 views, 0 reads, 517 sessions, avg 8s
 - /compare/:pair — 286 views, 0 reads, 286 sessions
-- / — 190 views, 3 reads, 190 sessions, avg 20s
-- /build — 58 views, 0 reads, 58 sessions
+- / — 191 views, 3 reads, 191 sessions, avg 20s
+- /build — 57 views, 0 reads, 57 sessions
 - /best/:cat — 50 views, 0 reads, 50 sessions
 - /alternatives/:tool — 44 views, 0 reads, 44 sessions
 - /subscribe — 26 views, 0 reads, 6 sessions
-- /topics/:topic — 22 views, 1 reads, 22 sessions, avg 37s
+- /topics/:topic — 21 views, 1 reads, 21 sessions, avg 37s
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
 
@@ -148,7 +148,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 113 crawler fetches
 - /posts/best-open-source-vector-database-2026.html  — 65 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 63 crawler fetches
-- /posts/cheapest-gpu-rental-november-2026.html  — 59 crawler fetches
+- /posts/cheapest-gpu-rental-november-2026.html  — 60 crawler fetches
 - /posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html  — 54 crawler fetches
 - /posts/gpu-rental-price-october-2026.html  — 40 crawler fetches
 - /posts/local-llm-for-coding-on-your-own-machine.html  — 38 crawler fetches
