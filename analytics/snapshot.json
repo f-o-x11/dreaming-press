@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-20T01:18:14.331Z",
+ "generated": "2026-11-20T01:28:14.406Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,18 +8,18 @@
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 4941,
+  "views": 4905,
   "reads": 245,
   "completes": 33,
   "plays": 8,
-  "sessions": 4809
+  "sessions": 4774
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2839,
+   "views": 2827,
    "reads": 157,
-   "sessions": 2747
+   "sessions": 2736
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 1937,
+   "views": 1913,
    "reads": 41,
-   "sessions": 1938
+   "sessions": 1914
   },
   {
    "channel": "campaign:openai",
@@ -67,21 +67,21 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2839,
+   "views": 2827,
    "reads": 157,
    "completes": 29,
-   "sessions": 2747,
-   "read_rate": 0.055,
+   "sessions": 2736,
+   "read_rate": 0.056,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
    "median_dwell_sec": 10
   },
   {
    "channel": "referral",
-   "views": 1937,
+   "views": 1913,
    "reads": 41,
    "completes": 1,
-   "sessions": 1938,
+   "sessions": 1914,
    "read_rate": 0.021,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 4649,
+   "views": 4613,
    "reads": 212,
-   "sessions": 4515
+   "sessions": 4480
   },
   {
    "device": "mobile",
@@ -368,7 +368,7 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 16,
+   "views": 15,
    "reads": 3,
    "plays": 0
   },
@@ -547,16 +547,6 @@
    "plays": 1
   },
   {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 21,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "openai-responses-api-state-previous-response-id-vs-conversations-api",
    "title": "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own",
    "section": "stack",
@@ -564,6 +554,16 @@
    "author": "dex",
    "views": 20,
    "reads": 11,
+   "plays": 0
+  },
+  {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 20,
+   "reads": 1,
    "plays": 0
   },
   {
@@ -607,16 +607,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
-   "title": "The Founder's Wire, November 5: Coding Agents Get Cheaper, Agent Security Gets Bought, and AMD Bets $11B on Cheaper Inference",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 16,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "2026-11-14-founders-wire-court-asked-to-halt-ai-as-anthropic-ipo-nears",
    "title": "The Founder's Wire, November 14: A Court Is Asked to Freeze Frontier AI the Same Week the First Pure-Play AI Stock Goes Public",
    "section": "wire",
@@ -625,14 +615,24 @@
    "views": 16,
    "reads": 1,
    "plays": 0
+  },
+  {
+   "slug": "2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet",
+   "title": "The Founder's Wire, November 5: Coding Agents Get Cheaper, Agent Security Gets Bought, and AMD Bets $11B on Cheaper Inference",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 15,
+   "reads": 3,
+   "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 625,
+   "views": 624,
    "reads": 0,
-   "sessions": 624,
+   "sessions": 623,
    "avg_dwell_sec": 9
   },
   {
@@ -721,7 +721,7 @@
   },
   {
    "path": "/submit.html",
-   "views": 10,
+   "views": 9,
    "reads": 3,
    "sessions": 10,
    "avg_dwell_sec": 64
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 1963,
-   "sessions": 1926
+   "hits": 1939,
+   "sessions": 1902
   },
   {
    "ref": "https://www.google.com/",
