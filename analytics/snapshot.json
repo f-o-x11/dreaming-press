@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-20T15:00:52.687Z",
+ "generated": "2026-11-20T15:10:52.228Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 7,
+  "readersNow": 7,
+  "todayReads": 8,
   "avgTimeSec": 98,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3816,
-  "reads": 203,
+  "views": 3814,
+  "reads": 204,
   "completes": 31,
   "plays": 6,
-  "sessions": 3693
+  "sessions": 3691
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2749,
+   "views": 2754,
    "reads": 150,
-   "sessions": 2666
+   "sessions": 2671
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 905,
-   "reads": 8,
-   "sessions": 906
+   "views": 898,
+   "reads": 9,
+   "sessions": 899
   },
   {
    "channel": "campaign:openai",
@@ -67,22 +67,22 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2749,
+   "views": 2754,
    "reads": 150,
    "completes": 28,
-   "sessions": 2666,
-   "read_rate": 0.055,
+   "sessions": 2671,
+   "read_rate": 0.054,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
    "median_dwell_sec": 10
   },
   {
    "channel": "referral",
-   "views": 905,
-   "reads": 8,
+   "views": 898,
+   "reads": 9,
    "completes": 1,
-   "sessions": 906,
-   "read_rate": 0.009,
+   "sessions": 899,
+   "read_rate": 0.01,
    "complete_rate": 0.001,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3532,
-   "reads": 170,
-   "sessions": 3406
+   "views": 3530,
+   "reads": 171,
+   "sessions": 3404
   },
   {
    "device": "mobile",
@@ -679,9 +679,9 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 25,
+   "views": 24,
    "reads": 1,
-   "sessions": 25,
+   "sessions": 24,
    "avg_dwell_sec": 37
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 896,
-   "sessions": 893
+   "hits": 888,
+   "sessions": 885
   },
   {
    "ref": "https://www.google.com/",
