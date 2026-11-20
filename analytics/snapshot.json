@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-20T15:50:53.378Z",
+ "generated": "2026-11-20T16:00:54.269Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 0,
   "todayReads": 8,
   "avgTimeSec": 98,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 3788,
+  "views": 3782,
   "reads": 202,
   "completes": 30,
   "plays": 6,
-  "sessions": 3664
+  "sessions": 3658
  },
  "channels": [
   {
@@ -23,15 +23,15 @@
   },
   {
    "channel": "organic",
-   "views": 149,
+   "views": 148,
    "reads": 42,
-   "sessions": 146
+   "sessions": 145
   },
   {
    "channel": "referral",
-   "views": 871,
+   "views": 866,
    "reads": 9,
-   "sessions": 872
+   "sessions": 867
   },
   {
    "channel": "campaign:openai",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "referral",
-   "views": 871,
+   "views": 866,
    "reads": 9,
    "completes": 1,
-   "sessions": 872,
+   "sessions": 867,
    "read_rate": 0.01,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -89,12 +89,12 @@
   },
   {
    "channel": "organic",
-   "views": 149,
+   "views": 148,
    "reads": 42,
    "completes": 2,
-   "sessions": 146,
-   "read_rate": 0.282,
-   "complete_rate": 0.013,
+   "sessions": 145,
+   "read_rate": 0.284,
+   "complete_rate": 0.014,
    "pages_per_session": 1.02,
    "median_dwell_sec": 3
   },
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3505,
+   "views": 3499,
    "reads": 170,
-   "sessions": 3378
+   "sessions": 3372
   },
   {
    "device": "mobile",
@@ -630,9 +630,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 543,
+   "views": 542,
    "reads": 0,
-   "sessions": 542,
+   "sessions": 541,
    "avg_dwell_sec": 8
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 861,
-   "sessions": 858
+   "hits": 856,
+   "sessions": 853
   },
   {
    "ref": "https://www.google.com/",
@@ -752,8 +752,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 36,
-   "sessions": 19
+   "hits": 35,
+   "sessions": 18
   },
   {
    "ref": "nav-cmp",
