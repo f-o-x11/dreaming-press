@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-20T07:39:33.883Z",
+ "generated": "2026-11-20T07:49:33.518Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 9796,
  "logsScanned": 30,
  "windowStart": "2026-11-06",
  "windowEnd": "2026-11-20",
- "totalHits": 100761,
- "aiHits": 77454,
+ "totalHits": 100805,
+ "aiHits": 77484,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29801,
+   "hits": 29818,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14209,
+   "hits": 14217,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 9672,
+   "hits": 9676,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9384,
+   "hits": 9394,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1035,
+   "hits": 1036,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 819,
+   "hits": 820,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -520,7 +520,7 @@
     },
     {
      "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
-     "hits": 50
+     "hits": 51
     },
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
@@ -542,7 +542,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 394,
+   "hits": 397,
    "verifiedHits": 0,
    "firstSeen": "2026-11-06",
    "lastSeen": "2026-11-20",
@@ -556,15 +556,15 @@
      "hits": 3
     },
     {
+     "path": "/alternatives/freestyle",
+     "hits": 2
+    },
+    {
      "path": "/alternatives/zep-cloud",
      "hits": 2
     },
     {
      "path": "/stack/amp",
-     "hits": 2
-    },
-    {
-     "path": "/stack/stigg",
      "hits": 2
     }
    ],
