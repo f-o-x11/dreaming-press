@@ -1,37 +1,37 @@
 {
- "generated": "2026-11-20T11:10:04.104Z",
+ "generated": "2026-11-20T11:20:05.332Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 3,
   "todayReads": 6,
   "avgTimeSec": 7,
   "postsThisWeek": 7
  },
  "funnel": {
-  "views": 4037,
-  "reads": 209,
+  "views": 4024,
+  "reads": 208,
   "completes": 31,
   "plays": 6,
-  "sessions": 3911
+  "sessions": 3899
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2780,
+   "views": 2779,
    "reads": 154,
-   "sessions": 2695
+   "sessions": 2693
   },
   {
    "channel": "organic",
-   "views": 147,
-   "reads": 45,
+   "views": 146,
+   "reads": 44,
    "sessions": 143
   },
   {
    "channel": "referral",
-   "views": 1098,
+   "views": 1087,
    "reads": 9,
-   "sessions": 1099
+   "sessions": 1088
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2780,
+   "views": 2779,
    "reads": 154,
    "completes": 28,
-   "sessions": 2695,
+   "sessions": 2693,
    "read_rate": 0.055,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "referral",
-   "views": 1098,
+   "views": 1087,
    "reads": 9,
    "completes": 1,
-   "sessions": 1099,
+   "sessions": 1088,
    "read_rate": 0.008,
    "complete_rate": 0.001,
    "pages_per_session": 1,
@@ -89,13 +89,13 @@
   },
   {
    "channel": "organic",
-   "views": 147,
-   "reads": 45,
+   "views": 146,
+   "reads": 44,
    "completes": 2,
    "sessions": 143,
-   "read_rate": 0.306,
+   "read_rate": 0.301,
    "complete_rate": 0.014,
-   "pages_per_session": 1.03,
+   "pages_per_session": 1.02,
    "median_dwell_sec": 3
   },
   {
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3751,
-   "reads": 176,
-   "sessions": 3622
+   "views": 3738,
+   "reads": 175,
+   "sessions": 3610
   },
   {
    "device": "mobile",
@@ -393,16 +393,6 @@
    "plays": 0
   },
   {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "gemini-4-hydrogen-vs-claude-haiku-sonnet-fast-agent-model-november-2026",
    "title": "Gemini 4 Hydrogen vs Claude Haiku 5.5 vs Sonnet 5.5: The Cheap, Fast Model for Agent Loops (November 2026)",
    "section": "stack",
@@ -419,6 +409,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 6,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "neo4j-vs-falkordb-vs-memgraph",
+   "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 4,
    "reads": 3,
    "plays": 0
   }
@@ -630,9 +630,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 559,
+   "views": 558,
    "reads": 0,
-   "sessions": 558,
+   "sessions": 557,
    "avg_dwell_sec": 8
   },
   {
@@ -651,9 +651,9 @@
   },
   {
    "path": "/build",
-   "views": 77,
+   "views": 76,
    "reads": 0,
-   "sessions": 77,
+   "sessions": 76,
    "avg_dwell_sec": null
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 1090,
-   "sessions": 1086
+   "hits": 1079,
+   "sessions": 1075
   },
   {
    "ref": "https://www.google.com/",
@@ -752,7 +752,7 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 40,
+   "hits": 38,
    "sessions": 20
   },
   {
