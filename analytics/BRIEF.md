@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-21T17:20Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-21T17:30Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3152 views → 194 engaged reads → 29 completes · 3036 sessions.
-- Channels: direct 145r/2803v · organic 41r/146v · referral 7r/192v · campaign:openai 1r/2v · campaign:chatgpt.com 0r/6v · ai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 3149 views → 194 engaged reads → 29 completes · 3033 sessions.
+- Channels: direct 145r/2801v · organic 41r/146v · referral 7r/191v · campaign:openai 1r/2v · campaign:chatgpt.com 0r/6v · ai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 0r/6v · Doubao 0r/2v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, nav-cmp, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, cn.bing.com, wire-row.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2803 views · read 5.2% · complete 1.0% · 1.03 pages/session · median 9s
-- referral: 192 views · read 3.6% · complete 0.5% · 1 pages/session · median ?s
+- direct: 2801 views · read 5.2% · complete 1.0% · 1.03 pages/session · median 9s
+- referral: 191 views · read 3.7% · complete 0.5% · 1 pages/session · median ?s
 - organic: 146 views · read 28.1% · complete 0.7% · 1.02 pages/session · median 3s
 - campaign:chatgpt.com: 6 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
 INSIGHT: organic converts 5x better per view than direct, which is 89% of all views.
@@ -145,7 +145,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/gartner-ai-agent-spending-2026.html  — 123 crawler fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 117 crawler fetches
 - /posts/best-open-source-vector-database-2026.html  — 66 crawler fetches
-- /posts/best-llm-for-creative-writing-october-2026.html  — 57 crawler fetches
+- /posts/best-llm-for-creative-writing-october-2026.html  — 58 crawler fetches
 - /posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html  — 52 crawler fetches
 - /posts/cheapest-gpu-rental-november-2026.html  — 52 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 42 crawler fetches
