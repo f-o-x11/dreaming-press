@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-21T10:54Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-21T11:04Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3215 views → 201 engaged reads → 30 completes · 3094 sessions.
-- Channels: direct 150r/2770v · organic 43r/147v · referral 7r/286v · campaign:openai 1r/2v · campaign:chatgpt.com 0r/6v · ai 0r/3v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 3211 views → 201 engaged reads → 30 completes · 3090 sessions.
+- Channels: direct 150r/2769v · organic 43r/147v · referral 7r/283v · campaign:openai 1r/2v · campaign:chatgpt.com 0r/6v · ai 0r/3v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 0r/6v · Doubao 0r/2v · Kimi 0r/1v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, nav-cmp, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, wire-row, cn.bing.com.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2770 views · read 5.4% · complete 1.0% · 1.03 pages/session · median 10s
-- referral: 286 views · read 2.4% · complete 0.3% · 1 pages/session · median ?s
+- direct: 2769 views · read 5.4% · complete 1.0% · 1.03 pages/session · median 10s
+- referral: 283 views · read 2.5% · complete 0.4% · 1 pages/session · median ?s
 - organic: 147 views · read 29.3% · complete 1.4% · 1.02 pages/session · median 3s
 - campaign:chatgpt.com: 6 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
 - ai: 3 views · read 0.0% · complete 0.0% · 0.75 pages/session · median 29s
@@ -38,7 +38,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 7 reads, 18 views, 1 listens
 - [stack] "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned" — 5 reads, 32 views, 0 listens
 - [wire] "The Responses API Just Went Multi-Vendor: DeepSeek Speaks It Too — So What Do You Build Your Agent Against?" — 5 reads, 13 views, 0 listens
-- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 4 reads, 9 views, 1 listens
+- [wire] "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model" — 4 reads, 8 views, 1 listens
 - [wire] "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck" — 4 reads, 6 views, 0 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 4 reads, 5 views, 0 listens
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 3 reads, 22 views, 1 listens
