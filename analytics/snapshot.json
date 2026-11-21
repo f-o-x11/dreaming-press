@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-21T09:34:12.625Z",
+ "generated": "2026-11-21T09:44:12.801Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 2,
   "avgTimeSec": 60,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3237,
+  "views": 3231,
   "reads": 199,
   "completes": 30,
   "plays": 6,
-  "sessions": 3117
+  "sessions": 3111
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2767,
+   "views": 2765,
    "reads": 149,
-   "sessions": 2689
+   "sessions": 2687
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 309,
+   "views": 307,
    "reads": 6,
-   "sessions": 309
+   "sessions": 307
   },
   {
    "channel": "campaign:openai",
@@ -47,9 +47,9 @@
   },
   {
    "channel": "ai",
-   "views": 5,
+   "views": 3,
    "reads": 0,
-   "sessions": 6
+   "sessions": 4
   },
   {
    "channel": "campaign:producthunt",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2767,
+   "views": 2765,
    "reads": 149,
    "completes": 27,
-   "sessions": 2689,
+   "sessions": 2687,
    "read_rate": 0.054,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "referral",
-   "views": 309,
+   "views": 307,
    "reads": 6,
    "completes": 1,
-   "sessions": 309,
-   "read_rate": 0.019,
+   "sessions": 307,
+   "read_rate": 0.02,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -111,13 +111,13 @@
   },
   {
    "channel": "ai",
-   "views": 5,
+   "views": 3,
    "reads": 0,
    "completes": 0,
-   "sessions": 6,
+   "sessions": 4,
    "read_rate": 0,
    "complete_rate": 0,
-   "pages_per_session": 0.83,
+   "pages_per_session": 0.75,
    "median_dwell_sec": 29
   },
   {
@@ -239,30 +239,30 @@
    "sessions": 6
   },
   {
-   "assistant": "Kimi",
-   "views": 3,
-   "reads": 0,
-   "sessions": 3
-  },
-  {
    "assistant": "Doubao",
    "views": 2,
    "reads": 0,
    "sessions": 2
+  },
+  {
+   "assistant": "Kimi",
+   "views": 1,
+   "reads": 0,
+   "sessions": 1
   }
  ],
  "devices": [
   {
    "device": "desktop",
-   "views": 2952,
+   "views": 2949,
    "reads": 167,
-   "sessions": 2828
+   "sessions": 2825
   },
   {
    "device": "mobile",
-   "views": 279,
+   "views": 276,
    "reads": 28,
-   "sessions": 287
+   "sessions": 284
   },
   {
    "device": "tablet",
@@ -630,9 +630,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 500,
+   "views": 499,
    "reads": 0,
-   "sessions": 499,
+   "sessions": 498,
    "avg_dwell_sec": 10
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 298,
-   "sessions": 297
+   "hits": 296,
+   "sessions": 295
   },
   {
    "ref": "https://www.google.com/",
