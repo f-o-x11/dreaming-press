@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-21T01:22:40.498Z",
+ "generated": "2026-11-21T01:32:41.908Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9569,
+ "verifiedAiHits": 9572,
  "logsScanned": 30,
  "windowStart": "2026-11-07",
  "windowEnd": "2026-11-21",
- "totalHits": 102360,
- "aiHits": 79450,
+ "totalHits": 102382,
+ "aiHits": 79467,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29089,
+   "hits": 29094,
    "verifiedHits": 0,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13915,
+   "hits": 13923,
    "verifiedHits": 0,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9142,
+   "hits": 9143,
    "verifiedHits": 0,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 5920,
-   "verifiedHits": 5869,
+   "hits": 5921,
+   "verifiedHits": 5870,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
    "topPaths": [
@@ -245,14 +245,14 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5265,
+   "hits": 5266,
    "verifiedHits": 0,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 20
+     "hits": 21
     },
     {
      "path": "/",
@@ -311,8 +311,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2873,
-   "verifiedHits": 2818,
+   "hits": 2876,
+   "verifiedHits": 2821,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
    "topPaths": [
@@ -410,10 +410,10 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1074,
-   "verifiedHits": 555,
+   "hits": 1076,
+   "verifiedHits": 557,
    "firstSeen": "2026-11-07",
-   "lastSeen": "2026-11-20",
+   "lastSeen": "2026-11-21",
    "topPaths": [
     {
      "path": "/",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 797,
+   "hits": 798,
    "verifiedHits": 0,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
@@ -528,7 +528,7 @@
     },
     {
      "path": "/posts/cheapest-gpu-rental-november-2026.html",
-     "hits": 41
+     "hits": 42
     },
     {
      "path": "/posts/gpu-rental-price-october-2026.html",
