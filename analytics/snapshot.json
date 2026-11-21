@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-21T03:02:55.728Z",
+ "generated": "2026-11-21T03:12:59.750Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 4,
   "todayReads": 0,
   "avgTimeSec": 29,
   "postsThisWeek": 5
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2760,
+   "views": 2763,
    "reads": 149,
-   "sessions": 2683
+   "sessions": 2686
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 425,
+   "views": 422,
    "reads": 6,
-   "sessions": 425
+   "sessions": 422
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2760,
+   "views": 2763,
    "reads": 149,
    "completes": 27,
-   "sessions": 2683,
+   "sessions": 2686,
    "read_rate": 0.054,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "referral",
-   "views": 425,
+   "views": 422,
    "reads": 6,
    "completes": 1,
-   "sessions": 425,
+   "sessions": 422,
    "read_rate": 0.014,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -254,15 +254,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3071,
+   "views": 3070,
    "reads": 166,
-   "sessions": 2948
+   "sessions": 2947
   },
   {
    "device": "mobile",
-   "views": 277,
+   "views": 278,
    "reads": 29,
-   "sessions": 285
+   "sessions": 286
   },
   {
    "device": "tablet",
@@ -630,9 +630,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 513,
+   "views": 514,
    "reads": 0,
-   "sessions": 512,
+   "sessions": 513,
    "avg_dwell_sec": 8
   },
   {
@@ -651,9 +651,9 @@
   },
   {
    "path": "/build",
-   "views": 52,
+   "views": 51,
    "reads": 0,
-   "sessions": 52,
+   "sessions": 51,
    "avg_dwell_sec": null
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 412,
-   "sessions": 411
+   "hits": 409,
+   "sessions": 408
   },
   {
    "ref": "https://www.google.com/",
