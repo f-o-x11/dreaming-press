@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-21T11:54:56.416Z",
+ "generated": "2026-11-21T12:08:40.265Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9867,
+ "verifiedAiHits": 9913,
  "logsScanned": 30,
  "windowStart": "2026-11-07",
  "windowEnd": "2026-11-21",
- "totalHits": 104851,
- "aiHits": 81364,
+ "totalHits": 104973,
+ "aiHits": 81461,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29984,
+   "hits": 29997,
    "verifiedHits": 0,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14358,
+   "hits": 14368,
    "verifiedHits": 0,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9259,
+   "hits": 9273,
    "verifiedHits": 0,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
@@ -127,15 +127,15 @@
      "hits": 13
     },
     {
-     "path": "/authors/priya",
-     "hits": 9
-    },
-    {
      "path": "/tags/opinionated",
      "hits": 9
     },
     {
      "path": "/authors/dex",
+     "hits": 8
+    },
+    {
+     "path": "/stack.html",
      "hits": 8
     }
    ],
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6149,
-   "verifiedHits": 6098,
+   "hits": 6152,
+   "verifiedHits": 6101,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
    "topPaths": [
@@ -212,14 +212,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5451,
+   "hits": 5479,
    "verifiedHits": 0,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 131
+     "hits": 132
     },
     {
      "path": "/authors/dex",
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5390,
+   "hits": 5398,
    "verifiedHits": 0,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
@@ -278,8 +278,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 3672,
-   "verifiedHits": 3646,
+   "hits": 3708,
+   "verifiedHits": 3682,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3090,
-   "verifiedHits": 3035,
+   "hits": 3091,
+   "verifiedHits": 3036,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
    "topPaths": [
@@ -344,14 +344,18 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2427,
-   "verifiedHits": 2394,
+   "hits": 2435,
+   "verifiedHits": 2402,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
    "topPaths": [
     {
      "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
      "hits": 36
+    },
+    {
+     "path": "/posts/best-open-vision-language-model-for-agents.html",
+     "hits": 30
     },
     {
      "path": "/posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html",
@@ -363,10 +367,6 @@
     },
     {
      "path": "/posts/2026-07-22-founders-wire-mcp-lock-week-a2a-clouds-skills.html",
-     "hits": 30
-    },
-    {
-     "path": "/reports/state-of-ai-agents",
      "hits": 30
     }
    ],
@@ -476,14 +476,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 859,
-   "verifiedHits": 792,
+   "hits": 860,
+   "verifiedHits": 793,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
    "topPaths": [
     {
      "path": "/",
-     "hits": 591
+     "hits": 592
     },
     {
      "path": "/agents.html",
