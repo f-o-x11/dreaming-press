@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-21T07:13:50.530Z",
+ "generated": "2026-11-21T07:23:50.601Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 0,
   "todayReads": 1,
   "avgTimeSec": 60,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3276,
-  "reads": 199,
+  "views": 3273,
+  "reads": 198,
   "completes": 30,
   "plays": 6,
-  "sessions": 3157
+  "sessions": 3154
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2772,
-   "reads": 149,
-   "sessions": 2695
+   "views": 2771,
+   "reads": 148,
+   "sessions": 2694
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 343,
+   "views": 341,
    "reads": 6,
-   "sessions": 343
+   "sessions": 341
   },
   {
    "channel": "campaign:openai",
@@ -67,22 +67,22 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2772,
-   "reads": 149,
+   "views": 2771,
+   "reads": 148,
    "completes": 27,
-   "sessions": 2695,
-   "read_rate": 0.054,
+   "sessions": 2694,
+   "read_rate": 0.053,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
    "median_dwell_sec": 10
   },
   {
    "channel": "referral",
-   "views": 343,
+   "views": 341,
    "reads": 6,
    "completes": 1,
-   "sessions": 343,
-   "read_rate": 0.017,
+   "sessions": 341,
+   "read_rate": 0.018,
    "complete_rate": 0.003,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -254,15 +254,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2990,
+   "views": 2988,
    "reads": 166,
-   "sessions": 2867
+   "sessions": 2865
   },
   {
    "device": "mobile",
-   "views": 280,
-   "reads": 29,
-   "sessions": 288
+   "views": 279,
+   "reads": 28,
+   "sessions": 287
   },
   {
    "device": "tablet",
@@ -313,16 +313,6 @@
    "plays": 0
   },
   {
-   "slug": "cheapest-gpu-rental-november-2026",
-   "title": "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 11,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
    "title": "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model",
    "section": "wire",
@@ -369,6 +359,16 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "indexer",
    "views": 16,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "cheapest-gpu-rental-november-2026",
+   "title": "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 10,
    "reads": 3,
    "plays": 0
   },
@@ -515,12 +515,12 @@
    "plays": 0
   },
   {
-   "slug": "cheapest-gpu-rental-november-2026",
-   "title": "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
+   "slug": "vllm-rust-frontend",
+   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 11,
+   "views": 6,
    "reads": 4,
    "plays": 0
   }
@@ -630,9 +630,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 507,
+   "views": 506,
    "reads": 0,
-   "sessions": 506,
+   "sessions": 505,
    "avg_dwell_sec": 10
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 331,
-   "sessions": 330
+   "hits": 329,
+   "sessions": 328
   },
   {
    "ref": "https://www.google.com/",
