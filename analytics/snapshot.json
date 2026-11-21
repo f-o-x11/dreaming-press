@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-21T19:50:45.273Z",
+ "generated": "2026-11-21T20:00:44.829Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 2,
   "todayReads": 7,
   "avgTimeSec": 19,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3137,
+  "views": 3136,
   "reads": 194,
   "completes": 29,
   "plays": 5,
-  "sessions": 3017
+  "sessions": 3016
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2815,
+   "views": 2816,
    "reads": 144,
-   "sessions": 2737
+   "sessions": 2738
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 159,
+   "views": 157,
    "reads": 7,
-   "sessions": 159
+   "sessions": 157
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2815,
+   "views": 2816,
    "reads": 144,
    "completes": 27,
-   "sessions": 2737,
+   "sessions": 2738,
    "read_rate": 0.051,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -78,11 +78,11 @@
   },
   {
    "channel": "referral",
-   "views": 159,
+   "views": 157,
    "reads": 7,
    "completes": 1,
-   "sessions": 159,
-   "read_rate": 0.044,
+   "sessions": 157,
+   "read_rate": 0.045,
    "complete_rate": 0.006,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -248,9 +248,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2843,
+   "views": 2842,
    "reads": 166,
-   "sessions": 2719
+   "sessions": 2718
   },
   {
    "device": "mobile",
@@ -731,8 +731,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 147,
-   "sessions": 146
+   "hits": 145,
+   "sessions": 144
   },
   {
    "ref": "https://www.google.com/",
