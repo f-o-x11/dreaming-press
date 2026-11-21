@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-21T12:39:08.958Z",
+ "generated": "2026-11-21T12:49:08.852Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 15,
+  "readersNow": 4,
   "todayReads": 4,
   "avgTimeSec": 61,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3190,
-  "reads": 201,
+  "views": 3186,
+  "reads": 198,
   "completes": 30,
-  "plays": 6,
+  "plays": 5,
   "sessions": 3069
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2786,
-   "reads": 150,
-   "sessions": 2708
+   "views": 2784,
+   "reads": 147,
+   "sessions": 2710
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 245,
+   "views": 243,
    "reads": 7,
-   "sessions": 245
+   "sessions": 243
   },
   {
    "channel": "campaign:openai",
@@ -61,27 +61,27 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 18
+   "sessions": 17
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2786,
-   "reads": 150,
+   "views": 2784,
+   "reads": 147,
    "completes": 27,
-   "sessions": 2708,
-   "read_rate": 0.054,
+   "sessions": 2710,
+   "read_rate": 0.053,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
    "median_dwell_sec": 10
   },
   {
    "channel": "referral",
-   "views": 245,
+   "views": 243,
    "reads": 7,
    "completes": 1,
-   "sessions": 245,
+   "sessions": 243,
    "read_rate": 0.029,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -147,7 +147,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 18,
+   "sessions": 17,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -157,8 +157,8 @@
  "navSurfaces": [
   {
    "surface": "nav-cmp",
-   "clicks": 14,
-   "sessions": 5
+   "clicks": 13,
+   "sessions": 4
   },
   {
    "surface": "f-cols",
@@ -186,11 +186,6 @@
    "sessions": 2
   },
   {
-   "surface": "brand",
-   "clicks": 3,
-   "sessions": 3
-  },
-  {
    "surface": "un-body",
    "clicks": 2,
    "sessions": 2
@@ -212,6 +207,11 @@
   },
   {
    "surface": "btn-agents",
+   "clicks": 2,
+   "sessions": 2
+  },
+  {
+   "surface": "brand",
    "clicks": 2,
    "sessions": 2
   },
@@ -254,8 +254,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2892,
-   "reads": 169,
+   "views": 2888,
+   "reads": 166,
    "sessions": 2767
   },
   {
@@ -311,16 +311,6 @@
    "views": 12,
    "reads": 5,
    "plays": 0
-  },
-  {
-   "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
-   "title": "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 8,
-   "reads": 4,
-   "plays": 1
   },
   {
    "slug": "vllm-rust-frontend",
@@ -383,6 +373,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
+   "title": "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 7,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "gemini-4-hydrogen-vs-claude-haiku-sonnet-fast-agent-model-november-2026",
    "title": "Gemini 4 Hydrogen vs Claude Haiku 5.5 vs Sonnet 5.5: The Cheap, Fast Model for Agent Loops (November 2026)",
    "section": "stack",
@@ -432,16 +432,6 @@
    "author": "priya",
    "views": 18,
    "reads": 7,
-   "plays": 1
-  },
-  {
-   "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
-   "title": "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 8,
-   "reads": 4,
    "plays": 1
   },
   {
@@ -521,6 +511,16 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 6,
+   "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "gpu-rental-price-october-2026",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 5,
    "reads": 4,
    "plays": 0
   }
@@ -630,9 +630,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 499,
+   "views": 498,
    "reads": 0,
-   "sessions": 498,
+   "sessions": 497,
    "avg_dwell_sec": 10
   },
   {
@@ -644,10 +644,10 @@
   },
   {
    "path": "/",
-   "views": 189,
-   "reads": 3,
-   "sessions": 189,
-   "avg_dwell_sec": 20
+   "views": 188,
+   "reads": 2,
+   "sessions": 188,
+   "avg_dwell_sec": 18
   },
   {
    "path": "/best/:cat",
@@ -700,10 +700,10 @@
   },
   {
    "path": "/stack.html",
-   "views": 11,
+   "views": 10,
    "reads": 0,
-   "sessions": 9,
-   "avg_dwell_sec": 11
+   "sessions": 8,
+   "avg_dwell_sec": 10
   },
   {
    "path": "/tools",
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 233,
-   "sessions": 232
+   "hits": 231,
+   "sessions": 230
   },
   {
    "ref": "https://www.google.com/",
@@ -757,8 +757,8 @@
   },
   {
    "ref": "nav-cmp",
-   "hits": 14,
-   "sessions": 5
+   "hits": 13,
+   "sessions": 4
   },
   {
    "ref": "https://search.brave.com/",
