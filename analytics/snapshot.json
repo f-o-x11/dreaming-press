@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-21T19:20:38.823Z",
+ "generated": "2026-11-21T19:30:41.785Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 2,
   "todayReads": 6,
   "avgTimeSec": 19,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3145,
+  "views": 3138,
   "reads": 193,
   "completes": 29,
   "plays": 5,
-  "sessions": 3025
+  "sessions": 3018
  },
  "channels": [
   {
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 171,
+   "views": 164,
    "reads": 7,
-   "sessions": 171
+   "sessions": 164
   },
   {
    "channel": "campaign:openai",
@@ -78,11 +78,11 @@
   },
   {
    "channel": "referral",
-   "views": 171,
+   "views": 164,
    "reads": 7,
    "completes": 1,
-   "sessions": 171,
-   "read_rate": 0.041,
+   "sessions": 164,
+   "read_rate": 0.043,
    "complete_rate": 0.006,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -248,9 +248,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2850,
+   "views": 2843,
    "reads": 165,
-   "sessions": 2726
+   "sessions": 2719
   },
   {
    "device": "mobile",
@@ -357,22 +357,22 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-27-too-many-tools-tool-search-vs-code-execution",
-   "title": "Too Many Tools: Tool Search vs Code Execution for Agents at Scale",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 7,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "gemini-4-hydrogen-vs-claude-haiku-sonnet-fast-agent-model-november-2026",
    "title": "Gemini 4 Hydrogen vs Claude Haiku 5.5 vs Sonnet 5.5: The Cheap, Fast Model for Agent Loops (November 2026)",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
    "views": 7,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "2026-06-27-too-many-tools-tool-search-vs-code-execution",
+   "title": "Too Many Tools: Tool Search vs Code Execution for Agents at Scale",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
    "reads": 3,
    "plays": 0
   },
@@ -645,9 +645,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 51,
+   "views": 50,
    "reads": 0,
-   "sessions": 51,
+   "sessions": 50,
    "avg_dwell_sec": null
   },
   {
@@ -731,8 +731,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 159,
-   "sessions": 158
+   "hits": 152,
+   "sessions": 151
   },
   {
    "ref": "https://www.google.com/",

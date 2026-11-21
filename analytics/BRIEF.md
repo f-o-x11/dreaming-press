@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-21T19:20Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-21T19:30Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3145 views → 193 engaged reads → 29 completes · 3025 sessions.
-- Channels: direct 144r/2815v · organic 41r/148v · referral 7r/171v · campaign:openai 1r/2v · campaign:chatgpt.com 0r/6v · ai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 3138 views → 193 engaged reads → 29 completes · 3018 sessions.
+- Channels: direct 144r/2815v · organic 41r/148v · referral 7r/164v · campaign:openai 1r/2v · campaign:chatgpt.com 0r/6v · ai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 0r/6v · Doubao 0r/2v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, nav-cmp, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, cn.bing.com, wire-row.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -24,7 +24,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - direct: 2815 views · read 5.1% · complete 1.0% · 1.03 pages/session · median 10s
-- referral: 171 views · read 4.1% · complete 0.6% · 1 pages/session · median ?s
+- referral: 164 views · read 4.3% · complete 0.6% · 1 pages/session · median ?s
 - organic: 148 views · read 27.7% · complete 0.7% · 1.02 pages/session · median 3s
 - campaign:chatgpt.com: 6 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
 INSIGHT: organic converts 5x better per view than direct, which is 90% of all views.
@@ -42,7 +42,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 3 reads, 20 views, 1 listens
 - [stack] "Open-Source LLM Rankings (November 2026): How to Read the Leaderboards — and Why They Disagree" — 3 reads, 17 views, 0 listens
 - [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 3 reads, 10 views, 0 listens
-- [wire] "Too Many Tools: Tool Search vs Code Execution for Agents at Scale" — 3 reads, 7 views, 0 listens
+- [stack] "Gemini 4 Hydrogen vs Claude Haiku 5.5 vs Sonnet 5.5: The Cheap, Fast Model for Agent Loops (November 2026)" — 3 reads, 7 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 1 listens, 7 reads
@@ -57,7 +57,7 @@ so what these earn from humans is the other half of the picture.
 - /stack/:tool — 495 views, 0 reads, 494 sessions, avg 10s
 - /compare/:pair — 311 views, 0 reads, 311 sessions
 - / — 190 views, 2 reads, 190 sessions, avg 18s
-- /best/:cat — 51 views, 0 reads, 51 sessions
+- /best/:cat — 50 views, 0 reads, 50 sessions
 - /alternatives/:tool — 47 views, 0 reads, 47 sessions, avg 3s
 - /build — 41 views, 0 reads, 41 sessions
 - /subscribe — 25 views, 0 reads, 5 sessions
@@ -144,7 +144,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /build  — 469 crawler fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 135 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 123 crawler fetches
-- /posts/best-open-source-vector-database-2026.html  — 71 crawler fetches
+- /posts/best-open-source-vector-database-2026.html  — 72 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 58 crawler fetches
 - /posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html  — 53 crawler fetches
 - /posts/cheapest-gpu-rental-november-2026.html  — 52 crawler fetches
