@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-21T20:30:51.806Z",
+ "generated": "2026-11-21T20:40:54.953Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 7,
-  "avgTimeSec": 19,
+  "avgTimeSec": 18,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3131,
+  "views": 3126,
   "reads": 194,
   "completes": 29,
   "plays": 5,
-  "sessions": 3011
+  "sessions": 3006
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2815,
+   "views": 2816,
    "reads": 144,
-   "sessions": 2737
+   "sessions": 2738
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 153,
+   "views": 147,
    "reads": 7,
-   "sessions": 153
+   "sessions": 147
   },
   {
    "channel": "campaign:openai",
@@ -67,25 +67,14 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2815,
+   "views": 2816,
    "reads": 144,
    "completes": 27,
-   "sessions": 2737,
+   "sessions": 2738,
    "read_rate": 0.051,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
-   "median_dwell_sec": 10
-  },
-  {
-   "channel": "referral",
-   "views": 153,
-   "reads": 7,
-   "completes": 1,
-   "sessions": 153,
-   "read_rate": 0.046,
-   "complete_rate": 0.007,
-   "pages_per_session": 1,
-   "median_dwell_sec": null
+   "median_dwell_sec": 9
   },
   {
    "channel": "organic",
@@ -97,6 +86,17 @@
    "complete_rate": 0.007,
    "pages_per_session": 1.02,
    "median_dwell_sec": 3
+  },
+  {
+   "channel": "referral",
+   "views": 147,
+   "reads": 7,
+   "completes": 1,
+   "sessions": 147,
+   "read_rate": 0.048,
+   "complete_rate": 0.007,
+   "pages_per_session": 1,
+   "median_dwell_sec": null
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -248,9 +248,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2837,
+   "views": 2832,
    "reads": 166,
-   "sessions": 2713
+   "sessions": 2708
   },
   {
    "device": "mobile",
@@ -387,19 +387,19 @@
    "plays": 0
   },
   {
-   "slug": "neo4j-vs-falkordb-vs-memgraph",
-   "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
-   "section": "stack",
+   "slug": "microsoft-agent-framework-codeact-hyperlight",
+   "title": "Microsoft Agent Framework's CodeAct: When the Sandbox Stops Being the Hard Part",
+   "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 4,
+   "views": 3,
    "reads": 3,
    "plays": 0
   },
   {
-   "slug": "microsoft-agent-framework-codeact-hyperlight",
-   "title": "Microsoft Agent Framework's CodeAct: When the Sandbox Stops Being the Hard Part",
-   "section": "wire",
+   "slug": "neo4j-vs-falkordb-vs-memgraph",
+   "title": "Neo4j vs FalkorDB vs Memgraph: Choosing a Graph Database for GraphRAG",
+   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 3,
@@ -627,7 +627,7 @@
    "views": 495,
    "reads": 0,
    "sessions": 494,
-   "avg_dwell_sec": 10
+   "avg_dwell_sec": 8
   },
   {
    "path": "/compare/:pair",
@@ -731,8 +731,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 141,
-   "sessions": 140
+   "hits": 135,
+   "sessions": 134
   },
   {
    "ref": "https://www.google.com/",
