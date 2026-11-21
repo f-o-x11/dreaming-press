@@ -1,37 +1,37 @@
 {
- "generated": "2026-11-21T06:03:34.580Z",
+ "generated": "2026-11-21T06:13:36.696Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 0,
   "avgTimeSec": 29,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3292,
-  "reads": 199,
+  "views": 3288,
+  "reads": 198,
   "completes": 30,
   "plays": 6,
-  "sessions": 3173
+  "sessions": 3169
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2767,
-   "reads": 149,
-   "sessions": 2690
+   "views": 2766,
+   "reads": 148,
+   "sessions": 2689
   },
   {
    "channel": "organic",
-   "views": 149,
+   "views": 148,
    "reads": 43,
-   "sessions": 146
+   "sessions": 145
   },
   {
    "channel": "referral",
-   "views": 362,
+   "views": 360,
    "reads": 6,
-   "sessions": 362
+   "sessions": 360
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2767,
-   "reads": 149,
+   "views": 2766,
+   "reads": 148,
    "completes": 27,
-   "sessions": 2690,
+   "sessions": 2689,
    "read_rate": 0.054,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "referral",
-   "views": 362,
+   "views": 360,
    "reads": 6,
    "completes": 1,
-   "sessions": 362,
+   "sessions": 360,
    "read_rate": 0.017,
    "complete_rate": 0.003,
    "pages_per_session": 1,
@@ -89,12 +89,12 @@
   },
   {
    "channel": "organic",
-   "views": 149,
+   "views": 148,
    "reads": 43,
    "completes": 2,
-   "sessions": 146,
-   "read_rate": 0.289,
-   "complete_rate": 0.013,
+   "sessions": 145,
+   "read_rate": 0.291,
+   "complete_rate": 0.014,
    "pages_per_session": 1.02,
    "median_dwell_sec": 3
   },
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3008,
-   "reads": 166,
-   "sessions": 2885
+   "views": 3004,
+   "reads": 165,
+   "sessions": 2881
   },
   {
    "device": "mobile",
@@ -737,13 +737,13 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 350,
-   "sessions": 349
+   "hits": 348,
+   "sessions": 347
   },
   {
    "ref": "https://www.google.com/",
-   "hits": 93,
-   "sessions": 86
+   "hits": 92,
+   "sessions": 85
   },
   {
    "ref": "https://www.bing.com/",
