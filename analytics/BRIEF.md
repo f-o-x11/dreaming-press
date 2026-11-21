@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-21T09:04Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-21T09:14Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3246 views → 199 engaged reads → 30 completes · 3126 sessions.
-- Channels: direct 149r/2768v · organic 43r/147v · referral 6r/317v · campaign:openai 1r/2v · campaign:chatgpt.com 0r/6v · ai 0r/5v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 3243 views → 199 engaged reads → 30 completes · 3123 sessions.
+- Channels: direct 149r/2768v · organic 43r/147v · referral 6r/314v · campaign:openai 1r/2v · campaign:chatgpt.com 0r/6v · ai 0r/5v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 0r/6v · Kimi 0r/3v · Doubao 0r/2v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, nav-cmp, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, wire-row, cn.bing.com.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -24,7 +24,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - direct: 2768 views · read 5.4% · complete 1.0% · 1.03 pages/session · median 10s
-- referral: 317 views · read 1.9% · complete 0.3% · 1 pages/session · median ?s
+- referral: 314 views · read 1.9% · complete 0.3% · 1 pages/session · median ?s
 - organic: 147 views · read 29.3% · complete 1.4% · 1.02 pages/session · median 3s
 - campaign:chatgpt.com: 6 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
 - ai: 5 views · read 0.0% · complete 0.0% · 0.83 pages/session · median 29s
@@ -118,7 +118,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Uncovered search demand (243 of 454 phrases have NO post, 93h ago)
+## Uncovered search demand (243 of 454 phrases have NO post, 94h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
