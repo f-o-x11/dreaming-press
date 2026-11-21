@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-21T15:19Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-21T15:29Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3162 views → 194 engaged reads → 29 completes · 3050 sessions.
-- Channels: direct 144r/2787v · organic 42r/147v · referral 7r/217v · campaign:openai 1r/2v · campaign:chatgpt.com 0r/6v · ai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 3164 views → 194 engaged reads → 29 completes · 3052 sessions.
+- Channels: direct 144r/2790v · organic 42r/147v · referral 7r/216v · campaign:openai 1r/2v · campaign:chatgpt.com 0r/6v · ai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 0r/6v · Doubao 0r/2v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, nav-cmp, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, cn.bing.com, wire-row.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2787 views · read 5.2% · complete 1.0% · 1.03 pages/session · median 10s
-- referral: 217 views · read 3.2% · complete 0.5% · 1 pages/session · median ?s
+- direct: 2790 views · read 5.2% · complete 1.0% · 1.03 pages/session · median 10s
+- referral: 216 views · read 3.2% · complete 0.5% · 1 pages/session · median ?s
 - organic: 147 views · read 28.6% · complete 0.7% · 1.02 pages/session · median 3s
 - campaign:chatgpt.com: 6 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
 INSIGHT: organic converts 6x better per view than direct, which is 88% of all views.
@@ -58,7 +58,7 @@ so what these earn from humans is the other half of the picture.
 - /compare/:pair — 312 views, 0 reads, 312 sessions
 - / — 188 views, 2 reads, 188 sessions, avg 18s
 - /best/:cat — 50 views, 0 reads, 50 sessions
-- /alternatives/:tool — 46 views, 0 reads, 46 sessions
+- /alternatives/:tool — 47 views, 0 reads, 47 sessions
 - /build — 42 views, 0 reads, 42 sessions
 - /subscribe — 25 views, 0 reads, 5 sessions
 - /dashboard — 13 views, 0 reads, 11 sessions, avg 14s
