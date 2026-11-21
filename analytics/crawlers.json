@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-21T03:12:59.455Z",
+ "generated": "2026-11-21T03:22:59.461Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9756,
+ "verifiedAiHits": 9761,
  "logsScanned": 30,
  "windowStart": "2026-11-07",
  "windowEnd": "2026-11-21",
- "totalHits": 102990,
- "aiHits": 79961,
+ "totalHits": 103034,
+ "aiHits": 80002,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29299,
+   "hits": 29326,
    "verifiedHits": 0,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13989,
+   "hits": 13997,
    "verifiedHits": 0,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5326,
+   "hits": 5329,
    "verifiedHits": 0,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
@@ -311,8 +311,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3051,
-   "verifiedHits": 2996,
+   "hits": 3055,
+   "verifiedHits": 3000,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
    "topPaths": [
@@ -344,8 +344,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2371,
-   "verifiedHits": 2338,
+   "hits": 2372,
+   "verifiedHits": 2339,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
    "topPaths": [
@@ -362,11 +362,11 @@
      "hits": 29
     },
     {
-     "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
-     "hits": 28
+     "path": "/posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html",
+     "hits": 29
     },
     {
-     "path": "/posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html",
+     "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
      "hits": 28
     }
    ],
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 799,
+   "hits": 800,
    "verifiedHits": 0,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
