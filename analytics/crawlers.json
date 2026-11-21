@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-21T08:23:59.560Z",
+ "generated": "2026-11-21T08:34:01.523Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9835,
+ "verifiedAiHits": 9836,
  "logsScanned": 30,
  "windowStart": "2026-11-07",
  "windowEnd": "2026-11-21",
- "totalHits": 104063,
- "aiHits": 80804,
+ "totalHits": 104098,
+ "aiHits": 80831,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29722,
+   "hits": 29733,
    "verifiedHits": 0,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14209,
+   "hits": 14216,
    "verifiedHits": 0,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9188,
+   "hits": 9192,
    "verifiedHits": 0,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6045,
-   "verifiedHits": 5994,
+   "hits": 6047,
+   "verifiedHits": 5996,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
    "topPaths": [
@@ -344,8 +344,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2411,
-   "verifiedHits": 2378,
+   "hits": 2412,
+   "verifiedHits": 2379,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
    "topPaths": [
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1026,
+   "hits": 1027,
    "verifiedHits": 0,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
@@ -542,7 +542,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 481,
+   "hits": 482,
    "verifiedHits": 0,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
@@ -608,14 +608,18 @@
    "label": "Mistral AI",
    "category": "ai",
    "home": "https://mistral.ai",
-   "hits": 154,
+   "hits": 162,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-19",
+   "lastSeen": "2026-11-21",
    "topPaths": [
     {
      "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
      "hits": 23
+    },
+    {
+     "path": "/posts/2026-11-16-founders-wire-gemini-hydrogen-chatgpt-wallet-anthropic-ipo-week.html",
+     "hits": 2
     },
     {
      "path": "/posts/best-llm-for-writing-2026.html",
@@ -627,10 +631,6 @@
     },
     {
      "path": "/posts/cross-agent-memory-layer-memorix-vs-memsearch-vs-agentmemory-vs-memmy.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/lora-vs-full-fine-tuning-cost-november-2026.html",
      "hits": 2
     }
    ],
