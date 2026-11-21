@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-21T12:09:04.751Z",
+ "generated": "2026-11-21T12:19:08.648Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 5,
+  "readersNow": 1,
   "todayReads": 4,
   "avgTimeSec": 61,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3177,
+  "views": 3176,
   "reads": 201,
   "completes": 30,
   "plays": 6,
-  "sessions": 3056
+  "sessions": 3055
  },
  "channels": [
   {
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 247,
+   "views": 246,
    "reads": 7,
-   "sessions": 247
+   "sessions": 246
   },
   {
    "channel": "campaign:openai",
@@ -78,10 +78,10 @@
   },
   {
    "channel": "referral",
-   "views": 247,
+   "views": 246,
    "reads": 7,
    "completes": 1,
-   "sessions": 247,
+   "sessions": 246,
    "read_rate": 0.028,
    "complete_rate": 0.004,
    "pages_per_session": 1,
@@ -254,15 +254,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2892,
+   "views": 2890,
    "reads": 169,
-   "sessions": 2767
+   "sessions": 2765
   },
   {
    "device": "mobile",
-   "views": 279,
+   "views": 280,
    "reads": 28,
-   "sessions": 287
+   "sessions": 288
   },
   {
    "device": "tablet",
@@ -577,16 +577,6 @@
    "plays": 1
   },
   {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 18,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "2026-11-15-founders-wire-new-york-raise-act-final-adobe-mcp-anthropic-ipo-week",
    "title": "The Founder's Wire, November 15: New York's AI Law Gets a Compliance Clock, Adobe Puts an MCP Server on Photoshop, and Anthropic Prices the First Frontier IPO",
    "section": "wire",
@@ -604,6 +594,16 @@
    "author": "indexer",
    "views": 17,
    "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 17,
+   "reads": 1,
    "plays": 0
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 235,
-   "sessions": 234
+   "hits": 234,
+   "sessions": 233
   },
   {
    "ref": "https://www.google.com/",
