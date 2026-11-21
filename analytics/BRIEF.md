@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-21T23:31Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-21T23:41Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
 - Funnel: 3126 views → 194 engaged reads → 29 completes · 3005 sessions.
-- Channels: direct 144r/2829v · organic 42r/154v · referral 7r/132v · campaign:openai 1r/2v · campaign:chatgpt.com 0r/6v · ai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Channels: direct 144r/2830v · organic 42r/154v · referral 7r/131v · campaign:openai 1r/2v · campaign:chatgpt.com 0r/6v · ai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 0r/6v · Doubao 0r/2v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, nav-cmp, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, cn.bing.com, wire-row.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,11 +23,11 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2829 views · read 5.1% · complete 1.0% · 1.03 pages/session · median 9s
+- direct: 2830 views · read 5.1% · complete 1.0% · 1.03 pages/session · median 9s
 - organic: 154 views · read 27.3% · complete 0.6% · 1.02 pages/session · median 3s
-- referral: 132 views · read 5.3% · complete 0.8% · 1 pages/session · median ?s
+- referral: 131 views · read 5.3% · complete 0.8% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 6 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
-INSIGHT: organic converts 5x better per view than direct, which is 90% of all views.
+INSIGHT: organic converts 5x better per view than direct, which is 91% of all views.
 One visitor from organic is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
@@ -55,7 +55,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 499 views, 0 reads, 498 sessions, avg 8s
-- /compare/:pair — 313 views, 0 reads, 313 sessions
+- /compare/:pair — 314 views, 0 reads, 314 sessions
 - / — 192 views, 2 reads, 192 sessions, avg 18s
 - /best/:cat — 52 views, 0 reads, 52 sessions
 - /alternatives/:tool — 47 views, 0 reads, 47 sessions, avg 3s
