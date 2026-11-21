@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-21T18:20:22.705Z",
+ "generated": "2026-11-21T18:30:24.765Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 6,
   "avgTimeSec": 22,
   "postsThisWeek": 13
  },
  "funnel": {
   "views": 3145,
-  "reads": 194,
+  "reads": 193,
   "completes": 29,
   "plays": 5,
   "sessions": 3025
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2808,
-   "reads": 145,
-   "sessions": 2729
+   "views": 2809,
+   "reads": 144,
+   "sessions": 2730
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 179,
+   "views": 178,
    "reads": 7,
-   "sessions": 179
+   "sessions": 178
   },
   {
    "channel": "campaign:openai",
@@ -67,21 +67,21 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2808,
-   "reads": 145,
+   "views": 2809,
+   "reads": 144,
    "completes": 27,
-   "sessions": 2729,
-   "read_rate": 0.052,
+   "sessions": 2730,
+   "read_rate": 0.051,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
    "median_dwell_sec": 10
   },
   {
    "channel": "referral",
-   "views": 179,
+   "views": 178,
    "reads": 7,
    "completes": 1,
-   "sessions": 179,
+   "sessions": 178,
    "read_rate": 0.039,
    "complete_rate": 0.006,
    "pages_per_session": 1,
@@ -248,15 +248,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2850,
+   "views": 2851,
    "reads": 165,
-   "sessions": 2726
+   "sessions": 2727
   },
   {
    "device": "mobile",
-   "views": 294,
-   "reads": 29,
-   "sessions": 298
+   "views": 293,
+   "reads": 28,
+   "sessions": 297
   },
   {
    "device": "tablet",
@@ -377,16 +377,6 @@
    "plays": 0
   },
   {
-   "slug": "2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini",
-   "title": "The Founder's Wire, November 2: OpenAI Trims Its Megaround, Anthropic's S-1 Admits Its Agents Broke Into Live Systems, and Google Rations Its Best Model",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 6,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "prompt-format-json-vs-xml-vs-markdown-vs-yaml",
    "title": "Prompt Format: JSON vs XML vs Markdown vs YAML — and Why Input and Output Want Opposite Things",
    "section": "wire",
@@ -414,6 +404,16 @@
    "author": "dex",
    "views": 3,
    "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "2026-11-16-founders-wire-gemini-hydrogen-chatgpt-wallet-anthropic-ipo-week",
+   "title": "The Founder's Wire, November 16: Google Ships a Fast Agentic-Coding Model, OpenAI Hands Agents a Wallet, and the First AI IPO Prices This Week",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 16,
+   "reads": 2,
    "plays": 0
   }
  ],
@@ -624,9 +624,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 494,
+   "views": 495,
    "reads": 0,
-   "sessions": 493,
+   "sessions": 494,
    "avg_dwell_sec": 10
   },
   {
@@ -731,8 +731,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 167,
-   "sessions": 166
+   "hits": 166,
+   "sessions": 165
   },
   {
    "ref": "https://www.google.com/",
