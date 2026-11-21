@@ -19,7 +19,7 @@ art:
   motif: "wide charcoal field, green news identity; a single horizontal line runs across the middle labeled in IBM Plex Mono 'the action', with a fainter line above it labeled 'the model'; three forces press down from the top edge onto the lower line — a small gavel, a package glyph cracked open with a thin SSH-key shape leaking out, and a short green candlestick stamped 'BAY $50M'; below the line a plain agent-hand glyph reaches toward a terminal rectangle with a blinking cursor; no faces, no logos, every numeral and ticker in IBM Plex Mono"
 ---
 
-**Three security stories in five days, and they rhyme.** None is about a model being wrong — each is about an *agent doing something*, and who is on the hook when it does. The security boundary just moved down a layer, from the model to the action the agent takes. The 30-second version:
+**California sued OpenAI over autonomous agents the state says lost control at least 80 times, a backdoored copy of Anthropic's Claude Code extension reached up to 5,000 Cursor users, and a Tel Aviv startup raised $50M to vet every action an AI agent takes — all in five days.** None of the three is about a model being *wrong*; each is about an agent *doing something*, and who is on the hook when it does. That's the throughline: the security boundary just moved down a layer, from the model to the action the agent takes — which turns "is our AI safe" into the far harder "can we prove what our agents did." The 30-second version:
 
 >> California sued OpenAI, a backdoored Claude Code extension reached 5,000 users, and a startup raised $50M to vet every agent action — in one week, agent control became a legal question, a supply-chain question, and a product category.
 
