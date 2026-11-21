@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-21T14:49:27.051Z",
+ "generated": "2026-11-21T14:59:31.695Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 5,
   "avgTimeSec": 47,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3169,
+  "views": 3167,
   "reads": 195,
   "completes": 29,
   "plays": 5,
-  "sessions": 3056
+  "sessions": 3054
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2792,
+   "views": 2791,
    "reads": 145,
-   "sessions": 2721
+   "sessions": 2720
   },
   {
    "channel": "organic",
@@ -47,9 +47,9 @@
   },
   {
    "channel": "ai",
-   "views": 3,
+   "views": 2,
    "reads": 0,
-   "sessions": 4
+   "sessions": 3
   },
   {
    "channel": "campaign:producthunt",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2792,
+   "views": 2791,
    "reads": 145,
    "completes": 27,
-   "sessions": 2721,
+   "sessions": 2720,
    "read_rate": 0.052,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -110,17 +110,6 @@
    "median_dwell_sec": null
   },
   {
-   "channel": "ai",
-   "views": 3,
-   "reads": 0,
-   "completes": 0,
-   "sessions": 4,
-   "read_rate": 0,
-   "complete_rate": 0,
-   "pages_per_session": 0.75,
-   "median_dwell_sec": 29
-  },
-  {
    "channel": "campaign:openai",
    "views": 2,
    "reads": 1,
@@ -130,6 +119,17 @@
    "complete_rate": 0,
    "pages_per_session": 0.67,
    "median_dwell_sec": null
+  },
+  {
+   "channel": "ai",
+   "views": 2,
+   "reads": 0,
+   "completes": 0,
+   "sessions": 3,
+   "read_rate": 0,
+   "complete_rate": 0,
+   "pages_per_session": 0.67,
+   "median_dwell_sec": 29
   },
   {
    "channel": "campaign:producthunt",
@@ -243,26 +243,20 @@
    "views": 2,
    "reads": 0,
    "sessions": 2
-  },
-  {
-   "assistant": "Kimi",
-   "views": 1,
-   "reads": 0,
-   "sessions": 1
   }
  ],
  "devices": [
   {
    "device": "desktop",
-   "views": 2878,
+   "views": 2877,
    "reads": 167,
-   "sessions": 2757
+   "sessions": 2756
   },
   {
    "device": "mobile",
-   "views": 290,
+   "views": 289,
    "reads": 28,
-   "sessions": 298
+   "sessions": 297
   },
   {
    "device": "tablet",
