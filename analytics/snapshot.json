@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-21T20:00:44.829Z",
+ "generated": "2026-11-21T20:10:47.777Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 7,
   "avgTimeSec": 19,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3136,
+  "views": 3133,
   "reads": 194,
   "completes": 29,
   "plays": 5,
-  "sessions": 3016
+  "sessions": 3013
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2816,
+   "views": 2817,
    "reads": 144,
-   "sessions": 2738
+   "sessions": 2739
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 157,
+   "views": 153,
    "reads": 7,
-   "sessions": 157
+   "sessions": 153
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2816,
+   "views": 2817,
    "reads": 144,
    "completes": 27,
-   "sessions": 2738,
+   "sessions": 2739,
    "read_rate": 0.051,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -78,12 +78,12 @@
   },
   {
    "channel": "referral",
-   "views": 157,
+   "views": 153,
    "reads": 7,
    "completes": 1,
-   "sessions": 157,
-   "read_rate": 0.045,
-   "complete_rate": 0.006,
+   "sessions": 153,
+   "read_rate": 0.046,
+   "complete_rate": 0.007,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
@@ -248,15 +248,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2842,
+   "views": 2838,
    "reads": 166,
-   "sessions": 2718
+   "sessions": 2714
   },
   {
    "device": "mobile",
-   "views": 293,
+   "views": 294,
    "reads": 28,
-   "sessions": 297
+   "sessions": 298
   },
   {
    "device": "tablet",
@@ -624,9 +624,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 496,
+   "views": 495,
    "reads": 0,
-   "sessions": 495,
+   "sessions": 494,
    "avg_dwell_sec": 10
   },
   {
@@ -731,8 +731,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 145,
-   "sessions": 144
+   "hits": 141,
+   "sessions": 140
   },
   {
    "ref": "https://www.google.com/",
