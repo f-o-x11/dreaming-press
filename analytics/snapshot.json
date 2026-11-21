@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-21T14:39:24.643Z",
+ "generated": "2026-11-21T14:49:27.051Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 0,
   "todayReads": 5,
   "avgTimeSec": 47,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3172,
+  "views": 3169,
   "reads": 195,
   "completes": 29,
   "plays": 5,
-  "sessions": 3059
+  "sessions": 3056
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2794,
+   "views": 2792,
    "reads": 145,
-   "sessions": 2723
+   "sessions": 2721
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 220,
+   "views": 219,
    "reads": 7,
-   "sessions": 220
+   "sessions": 219
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2794,
+   "views": 2792,
    "reads": 145,
    "completes": 27,
-   "sessions": 2723,
+   "sessions": 2721,
    "read_rate": 0.052,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "referral",
-   "views": 220,
+   "views": 219,
    "reads": 7,
    "completes": 1,
-   "sessions": 220,
+   "sessions": 219,
    "read_rate": 0.032,
    "complete_rate": 0.005,
    "pages_per_session": 1,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2881,
+   "views": 2878,
    "reads": 167,
-   "sessions": 2760
+   "sessions": 2757
   },
   {
    "device": "mobile",
@@ -338,7 +338,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 22,
+   "views": 20,
    "reads": 3,
    "plays": 1
   },
@@ -440,7 +440,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 22,
+   "views": 20,
    "reads": 3,
    "plays": 1
   },
@@ -537,16 +537,6 @@
    "plays": 0
   },
   {
-   "slug": "best-llm-for-creative-writing-october-2026",
-   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 22,
-   "reads": 3,
-   "plays": 1
-  },
-  {
    "slug": "openai-responses-api-state-previous-response-id-vs-conversations-api",
    "title": "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own",
    "section": "stack",
@@ -555,6 +545,16 @@
    "views": 20,
    "reads": 11,
    "plays": 0
+  },
+  {
+   "slug": "best-llm-for-creative-writing-october-2026",
+   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 3,
+   "plays": 1
   },
   {
    "slug": "2026-11-17-founders-wire-california-sues-openai-cursor-backdoored-extension-bay-vets-agent-actions",
@@ -630,9 +630,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 495,
+   "views": 494,
    "reads": 0,
-   "sessions": 494,
+   "sessions": 493,
    "avg_dwell_sec": 10
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 208,
-   "sessions": 207
+   "hits": 207,
+   "sessions": 206
   },
   {
    "ref": "https://www.google.com/",
