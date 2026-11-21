@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-21T10:34:16.540Z",
+ "generated": "2026-11-21T10:44:16.688Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9856,
+ "verifiedAiHits": 9857,
  "logsScanned": 30,
  "windowStart": "2026-11-07",
  "windowEnd": "2026-11-21",
- "totalHits": 104482,
- "aiHits": 81136,
+ "totalHits": 104521,
+ "aiHits": 81165,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29900,
+   "hits": 29910,
    "verifiedHits": 0,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14300,
+   "hits": 14307,
    "verifiedHits": 0,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9222,
+   "hits": 9227,
    "verifiedHits": 0,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 9024,
+   "hits": 9035,
    "verifiedHits": 0,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6080,
-   "verifiedHits": 6029,
+   "hits": 6084,
+   "verifiedHits": 6033,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
    "topPaths": [
@@ -344,8 +344,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2421,
-   "verifiedHits": 2388,
+   "hits": 2422,
+   "verifiedHits": 2389,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
    "topPaths": [
@@ -366,8 +366,8 @@
      "hits": 30
     },
     {
-     "path": "/posts/best-open-vision-language-model-for-agents.html",
-     "hits": 29
+     "path": "/reports/state-of-ai-agents",
+     "hits": 30
     }
    ],
    "verifiable": true
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1031,
+   "hits": 1032,
    "verifiedHits": 0,
    "firstSeen": "2026-11-07",
    "lastSeen": "2026-11-21",
