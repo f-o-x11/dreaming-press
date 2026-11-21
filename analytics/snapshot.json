@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-21T02:32:52.298Z",
+ "generated": "2026-11-21T02:42:54.743Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 0,
   "avgTimeSec": 29,
   "postsThisWeek": 5
  },
  "funnel": {
-  "views": 3355,
+  "views": 3347,
   "reads": 199,
   "completes": 30,
   "plays": 6,
-  "sessions": 3236
+  "sessions": 3228
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2749,
+   "views": 2748,
    "reads": 149,
-   "sessions": 2672
+   "sessions": 2671
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 437,
+   "views": 430,
    "reads": 6,
-   "sessions": 437
+   "sessions": 430
   },
   {
    "channel": "campaign:openai",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2749,
+   "views": 2748,
    "reads": 149,
    "completes": 27,
-   "sessions": 2672,
+   "sessions": 2671,
    "read_rate": 0.054,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -78,10 +78,10 @@
   },
   {
    "channel": "referral",
-   "views": 437,
+   "views": 430,
    "reads": 6,
    "completes": 1,
-   "sessions": 437,
+   "sessions": 430,
    "read_rate": 0.014,
    "complete_rate": 0.002,
    "pages_per_session": 1,
@@ -254,9 +254,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 3072,
+   "views": 3064,
    "reads": 166,
-   "sessions": 2949
+   "sessions": 2941
   },
   {
    "device": "mobile",
@@ -672,9 +672,9 @@
   },
   {
    "path": "/subscribe",
-   "views": 26,
+   "views": 25,
    "reads": 0,
-   "sessions": 6,
+   "sessions": 5,
    "avg_dwell_sec": null
   },
   {
@@ -707,9 +707,9 @@
   },
   {
    "path": "/apps",
-   "views": 9,
+   "views": 8,
    "reads": 1,
-   "sessions": 8,
+   "sessions": 7,
    "avg_dwell_sec": 38
   },
   {
@@ -737,8 +737,8 @@
  "referrers": [
   {
    "ref": "https://www.aocr.org/",
-   "hits": 424,
-   "sessions": 423
+   "hits": 417,
+   "sessions": 416
   },
   {
    "ref": "https://www.google.com/",
