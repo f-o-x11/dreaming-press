@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-22T01:11:50.980Z",
+ "generated": "2026-11-22T01:21:53.850Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9669,
+ "verifiedAiHits": 9671,
  "logsScanned": 30,
  "windowStart": "2026-11-08",
  "windowEnd": "2026-11-22",
- "totalHits": 102192,
- "aiHits": 79334,
+ "totalHits": 102234,
+ "aiHits": 79360,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29168,
+   "hits": 29176,
    "verifiedHits": 0,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13887,
+   "hits": 13894,
    "verifiedHits": 0,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8946,
+   "hits": 8952,
    "verifiedHits": 0,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6067,
-   "verifiedHits": 6016,
+   "hits": 6077,
+   "verifiedHits": 6026,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5373,
+   "hits": 5381,
    "verifiedHits": 0,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
@@ -344,8 +344,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2292,
-   "verifiedHits": 2259,
+   "hits": 2294,
+   "verifiedHits": 2261,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
    "topPaths": [
@@ -358,15 +358,15 @@
      "hits": 29
     },
     {
+     "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
+     "hits": 28
+    },
+    {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
      "hits": 28
     },
     {
      "path": "/posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html",
-     "hits": 28
-    },
-    {
-     "path": "/posts/open-source-llm-for-coding-september-2026.html",
      "hits": 28
     }
    ],
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 807,
+   "hits": 808,
    "verifiedHits": 0,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
@@ -520,7 +520,7 @@
     },
     {
      "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
-     "hits": 52
+     "hits": 53
     },
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",
