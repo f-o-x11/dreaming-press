@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-22T22:25:48.714Z",
+ "generated": "2026-11-22T22:35:49.536Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9993,
+ "verifiedAiHits": 9994,
  "logsScanned": 30,
  "windowStart": "2026-11-08",
  "windowEnd": "2026-11-22",
- "totalHits": 106839,
- "aiHits": 83067,
+ "totalHits": 106896,
+ "aiHits": 83119,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30706,
+   "hits": 30750,
    "verifiedHits": 0,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/",
-     "hits": 40
+     "hits": 42
     },
     {
      "path": "/dashboard",
@@ -36,7 +36,7 @@
      "hits": 15
     },
     {
-     "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
+     "path": "/posts/ai-agent-frameworks-github-ranked-by-stars-2026.md",
      "hits": 15
     }
    ],
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14852,
+   "hits": 14859,
    "verifiedHits": 0,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
@@ -113,7 +113,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 9058,
+   "hits": 9059,
    "verifiedHits": 0,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6532,
-   "verifiedHits": 6481,
+   "hits": 6536,
+   "verifiedHits": 6485,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3252,
-   "verifiedHits": 3197,
+   "hits": 3253,
+   "verifiedHits": 3198,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
    "topPaths": [
@@ -333,7 +333,7 @@
      "hits": 16
     },
     {
-     "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
+     "path": "/weekly",
      "hits": 16
     }
    ],
