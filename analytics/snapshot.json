@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-22T08:43:04.890Z",
+ "generated": "2026-11-22T08:53:05.599Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 0,
   "todayReads": 1,
   "avgTimeSec": 27,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3081,
+  "views": 3074,
   "reads": 194,
   "completes": 30,
   "plays": 5,
-  "sessions": 2955
+  "sessions": 2948
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2848,
+   "views": 2847,
    "reads": 145,
-   "sessions": 2764
+   "sessions": 2763
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 61,
+   "views": 55,
    "reads": 6,
-   "sessions": 61
+   "sessions": 55
   },
   {
    "channel": "campaign:openai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2848,
+   "views": 2847,
    "reads": 145,
    "completes": 28,
-   "sessions": 2764,
+   "sessions": 2763,
    "read_rate": 0.051,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -95,12 +95,12 @@
   },
   {
    "channel": "referral",
-   "views": 61,
+   "views": 55,
    "reads": 6,
    "completes": 1,
-   "sessions": 61,
-   "read_rate": 0.098,
-   "complete_rate": 0.016,
+   "sessions": 55,
+   "read_rate": 0.109,
+   "complete_rate": 0.018,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
@@ -265,15 +265,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2790,
+   "views": 2784,
    "reads": 166,
-   "sessions": 2660
+   "sessions": 2654
   },
   {
    "device": "mobile",
-   "views": 290,
+   "views": 289,
    "reads": 28,
-   "sessions": 294
+   "sessions": 293
   },
   {
    "device": "tablet",
@@ -676,9 +676,9 @@
   },
   {
    "path": "/build",
-   "views": 36,
+   "views": 35,
    "reads": 0,
-   "sessions": 36,
+   "sessions": 35,
    "avg_dwell_sec": null
   },
   {
@@ -752,14 +752,14 @@
    "sessions": 97
   },
   {
-   "ref": "https://www.aocr.org/",
-   "hits": 48,
-   "sessions": 48
-  },
-  {
    "ref": "https://www.bing.com/",
    "hits": 46,
    "sessions": 26
+  },
+  {
+   "ref": "https://www.aocr.org/",
+   "hits": 42,
+   "sessions": 42
   },
   {
    "ref": "https://duckduckgo.com/",
