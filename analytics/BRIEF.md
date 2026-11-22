@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-22T17:44Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-22T17:54Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -101,7 +101,7 @@ sample size dwarfs the engaged-read counts below.
 - /apps  — 15 retrieval fetches
 
 Per engine:
-- PerplexityBot (3157 verified): / ×24 · /wire.html ×16 · /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html ×16
+- PerplexityBot (3158 verified): / ×24 · /wire.html ×16 · /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html ×16
 - OAI-SearchBot (2330 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×43 · /posts/best-open-vision-language-model-for-agents.html ×30 · /posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html ×30
 - ChatGPT-User (840 verified): / ×616 · /agents.html ×18 · /posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -140,9 +140,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9911 confirmed AI-engine fetches (GPTBot (OpenAI) 3584, Perplexity 3157, ChatGPT Search (OpenAI) 2330, ChatGPT (user browsing) 840).
+The real answer engines are crawling us — IP-verified: 9912 confirmed AI-engine fetches (GPTBot (OpenAI) 3584, Perplexity 3158, ChatGPT Search (OpenAI) 2330, ChatGPT (user browsing) 840).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 467 crawler fetches
+- /build  — 468 crawler fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 148 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 124 crawler fetches
 - /posts/best-open-source-vector-database-2026.html  — 72 crawler fetches
