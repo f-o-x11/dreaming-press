@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-22T22:45:54.614Z",
+ "generated": "2026-11-22T22:55:54.974Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9997,
+ "verifiedAiHits": 9998,
  "logsScanned": 30,
  "windowStart": "2026-11-08",
  "windowEnd": "2026-11-22",
- "totalHits": 106930,
- "aiHits": 83146,
+ "totalHits": 106957,
+ "aiHits": 83168,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30752,
+   "hits": 30761,
    "verifiedHits": 0,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14869,
+   "hits": 14876,
    "verifiedHits": 0,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
@@ -109,6 +109,39 @@
    "verifiable": false
   },
   {
+   "name": "Amazonbot",
+   "label": "Amazon (Alexa / Rufus)",
+   "category": "ai",
+   "home": "https://developer.amazon.com/amazonbot",
+   "hits": 9061,
+   "verifiedHits": 0,
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-22",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 47
+    },
+    {
+     "path": "/authors/dex",
+     "hits": 31
+    },
+    {
+     "path": "/wire.html",
+     "hits": 17
+    },
+    {
+     "path": "/tags/howto",
+     "hits": 11
+    },
+    {
+     "path": "/authors/priya",
+     "hits": 10
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Baiduspider",
    "label": "Baidu",
    "category": "search",
@@ -142,45 +175,12 @@
    "verifiable": false
   },
   {
-   "name": "Amazonbot",
-   "label": "Amazon (Alexa / Rufus)",
-   "category": "ai",
-   "home": "https://developer.amazon.com/amazonbot",
-   "hits": 9057,
-   "verifiedHits": 0,
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-22",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 47
-    },
-    {
-     "path": "/authors/dex",
-     "hits": 31
-    },
-    {
-     "path": "/wire.html",
-     "hits": 17
-    },
-    {
-     "path": "/tags/howto",
-     "hits": 11
-    },
-    {
-     "path": "/authors/priya",
-     "hits": 10
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Bingbot",
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6542,
-   "verifiedHits": 6491,
+   "hits": 6543,
+   "verifiedHits": 6492,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5361,
+   "hits": 5365,
    "verifiedHits": 0,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
@@ -311,8 +311,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3254,
-   "verifiedHits": 3199,
+   "hits": 3255,
+   "verifiedHits": 3200,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
    "topPaths": [
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 906,
+   "hits": 907,
    "verifiedHits": 0,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
