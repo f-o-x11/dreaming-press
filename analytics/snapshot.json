@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-22T09:13:06.428Z",
+ "generated": "2026-11-22T09:23:07.180Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 2,
   "todayReads": 1,
   "avgTimeSec": 27,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3070,
+  "views": 3068,
   "reads": 194,
   "completes": 30,
   "plays": 5,
-  "sessions": 2944
+  "sessions": 2942
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2851,
+   "views": 2853,
    "reads": 145,
-   "sessions": 2767
+   "sessions": 2769
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 47,
+   "views": 43,
    "reads": 6,
-   "sessions": 47
+   "sessions": 43
   },
   {
    "channel": "campaign:openai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2851,
+   "views": 2853,
    "reads": 145,
    "completes": 28,
-   "sessions": 2767,
+   "sessions": 2769,
    "read_rate": 0.051,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -95,12 +95,12 @@
   },
   {
    "channel": "referral",
-   "views": 47,
+   "views": 43,
    "reads": 6,
    "completes": 1,
-   "sessions": 47,
-   "read_rate": 0.128,
-   "complete_rate": 0.021,
+   "sessions": 43,
+   "read_rate": 0.14,
+   "complete_rate": 0.023,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2780,
+   "views": 2778,
    "reads": 166,
-   "sessions": 2650
+   "sessions": 2648
   },
   {
    "device": "mobile",
@@ -608,6 +608,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money",
+   "title": "The Founder's Wire, November 21: Washington Puts a License on the Chips Inside Overseas Data Centers, Meta's Agent Moves Into a $300 Pocket Charm, and the Money Keeps Funding the Layer Above the Model",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 17,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "2026-11-16-founders-wire-gemini-hydrogen-chatgpt-wallet-anthropic-ipo-week",
    "title": "The Founder's Wire, November 16: Google Ships a Fast Agentic-Coding Model, OpenAI Hands Agents a Wallet, and the First AI IPO Prices This Week",
    "section": "wire",
@@ -623,16 +633,6 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
-   "views": 16,
-   "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
    "views": 16,
    "reads": 1,
    "plays": 0
@@ -758,8 +758,8 @@
   },
   {
    "ref": "https://www.aocr.org/",
-   "hits": 34,
-   "sessions": 34
+   "hits": 30,
+   "sessions": 30
   },
   {
    "ref": "https://duckduckgo.com/",
