@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-22T23:05:58.615Z",
+ "generated": "2026-11-22T23:16:02.159Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 9998,
  "logsScanned": 30,
  "windowStart": "2026-11-08",
  "windowEnd": "2026-11-22",
- "totalHits": 106981,
- "aiHits": 83191,
+ "totalHits": 107016,
+ "aiHits": 83208,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30774,
+   "hits": 30784,
    "verifiedHits": 0,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14884,
+   "hits": 14891,
    "verifiedHits": 0,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
@@ -109,6 +109,39 @@
    "verifiable": false
   },
   {
+   "name": "Baiduspider",
+   "label": "Baidu",
+   "category": "search",
+   "home": "https://www.baidu.com",
+   "hits": 9075,
+   "verifiedHits": 0,
+   "firstSeen": "2026-11-08",
+   "lastSeen": "2026-11-22",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 72
+    },
+    {
+     "path": "/wire.html",
+     "hits": 15
+    },
+    {
+     "path": "/authors/dex",
+     "hits": 9
+    },
+    {
+     "path": "/stack.html",
+     "hits": 8
+    },
+    {
+     "path": "/tags/opinionated",
+     "hits": 8
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Amazonbot",
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
@@ -142,51 +175,18 @@
    "verifiable": false
   },
   {
-   "name": "Baiduspider",
-   "label": "Baidu",
-   "category": "search",
-   "home": "https://www.baidu.com",
-   "hits": 9059,
-   "verifiedHits": 0,
-   "firstSeen": "2026-11-08",
-   "lastSeen": "2026-11-22",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 72
-    },
-    {
-     "path": "/wire.html",
-     "hits": 14
-    },
-    {
-     "path": "/authors/dex",
-     "hits": 9
-    },
-    {
-     "path": "/stack.html",
-     "hits": 8
-    },
-    {
-     "path": "/tags/opinionated",
-     "hits": 8
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Bingbot",
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6544,
-   "verifiedHits": 6493,
+   "hits": 6546,
+   "verifiedHits": 6495,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 126
+     "hits": 127
     },
     {
      "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
