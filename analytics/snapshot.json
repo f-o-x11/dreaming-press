@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-22T11:03:23.818Z",
+ "generated": "2026-11-22T11:13:24.180Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 2,
   "avgTimeSec": 27,
   "postsThisWeek": 12
@@ -17,9 +17,9 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2853,
+   "views": 2854,
    "reads": 145,
-   "sessions": 2769
+   "sessions": 2770
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 17,
+   "views": 16,
    "reads": 6,
-   "sessions": 17
+   "sessions": 16
   },
   {
    "channel": "campaign:openai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2853,
+   "views": 2854,
    "reads": 145,
    "completes": 28,
-   "sessions": 2769,
+   "sessions": 2770,
    "read_rate": 0.051,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -95,12 +95,12 @@
   },
   {
    "channel": "referral",
-   "views": 17,
+   "views": 16,
    "reads": 6,
    "completes": 1,
-   "sessions": 17,
-   "read_rate": 0.353,
-   "complete_rate": 0.059,
+   "sessions": 16,
+   "read_rate": 0.375,
+   "complete_rate": 0.063,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
@@ -641,9 +641,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 497,
+   "views": 498,
    "reads": 0,
-   "sessions": 496,
+   "sessions": 497,
    "avg_dwell_sec": 8
   },
   {
@@ -676,9 +676,9 @@
   },
   {
    "path": "/build",
-   "views": 35,
+   "views": 34,
    "reads": 0,
-   "sessions": 35,
+   "sessions": 34,
    "avg_dwell_sec": null
   },
   {
@@ -792,9 +792,9 @@
    "sessions": 5
   },
   {
-   "ref": "https://www.aocr.org/",
+   "ref": "https://l.meta.ai/",
    "hits": 4,
-   "sessions": 4
+   "sessions": 2
   }
  ]
 }
