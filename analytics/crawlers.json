@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-22T19:15:05.957Z",
+ "generated": "2026-11-22T19:25:10.599Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9943,
+ "verifiedAiHits": 9945,
  "logsScanned": 30,
  "windowStart": "2026-11-08",
  "windowEnd": "2026-11-22",
- "totalHits": 106265,
- "aiHits": 82584,
+ "totalHits": 106313,
+ "aiHits": 82623,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30542,
+   "hits": 30548,
    "verifiedHits": 0,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14710,
+   "hits": 14717,
    "verifiedHits": 0,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 8955,
+   "hits": 8971,
    "verifiedHits": 0,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
@@ -179,14 +179,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6463,
-   "verifiedHits": 6412,
+   "hits": 6467,
+   "verifiedHits": 6416,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 124
+     "hits": 125
     },
     {
      "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
@@ -311,8 +311,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 3228,
-   "verifiedHits": 3173,
+   "hits": 3229,
+   "verifiedHits": 3174,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
    "topPaths": [
@@ -344,8 +344,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2376,
-   "verifiedHits": 2343,
+   "hits": 2377,
+   "verifiedHits": 2344,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
    "topPaths": [
@@ -366,7 +366,7 @@
      "hits": 30
     },
     {
-     "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
+     "path": "/wire.html",
      "hits": 30
     }
    ],
@@ -410,8 +410,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 1097,
-   "verifiedHits": 570,
+   "hits": 1098,
+   "verifiedHits": 571,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
    "topPaths": [
@@ -542,7 +542,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 594,
+   "hits": 598,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-22",
@@ -566,6 +566,39 @@
     {
      "path": "/alternatives/crossmint",
      "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "MistralAI",
+   "label": "Mistral AI",
+   "category": "ai",
+   "home": "https://mistral.ai",
+   "hits": 178,
+   "verifiedHits": 0,
+   "firstSeen": "2026-11-09",
+   "lastSeen": "2026-11-22",
+   "topPaths": [
+    {
+     "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
+     "hits": 23
+    },
+    {
+     "path": "/posts/2026-11-22-founders-wire-ant-volatile-debut-gemini-tool-retrieval-isomorphic-5b.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/2026-11-16-founders-wire-gemini-hydrogen-chatgpt-wallet-anthropic-ipo-week.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/sqlite-vec-ann-diskann-alpha-brute-force-when-to-graduate.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/best-llm-for-writing-2026.html",
+     "hits": 2
     }
    ],
    "verifiable": false
@@ -599,39 +632,6 @@
     {
      "path": "/backend/settings.py",
      "hits": 1
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "MistralAI",
-   "label": "Mistral AI",
-   "category": "ai",
-   "home": "https://mistral.ai",
-   "hits": 170,
-   "verifiedHits": 0,
-   "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-21",
-   "topPaths": [
-    {
-     "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
-     "hits": 23
-    },
-    {
-     "path": "/posts/2026-11-16-founders-wire-gemini-hydrogen-chatgpt-wallet-anthropic-ipo-week.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/sqlite-vec-ann-diskann-alpha-brute-force-when-to-graduate.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/best-llm-for-writing-2026.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 2
     }
    ],
    "verifiable": false
