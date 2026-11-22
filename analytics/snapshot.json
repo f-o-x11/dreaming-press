@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-22T01:01:50.656Z",
+ "generated": "2026-11-22T01:11:51.248Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 0,
   "avgTimeSec": 0,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3131,
+  "views": 3129,
   "reads": 194,
   "completes": 29,
   "plays": 5,
-  "sessions": 3010
+  "sessions": 3008
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2834,
+   "views": 2832,
    "reads": 144,
-   "sessions": 2755
+   "sessions": 2753
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2834,
+   "views": 2832,
    "reads": 144,
    "completes": 27,
-   "sessions": 2755,
+   "sessions": 2753,
    "read_rate": 0.051,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -248,9 +248,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2836,
+   "views": 2834,
    "reads": 166,
-   "sessions": 2711
+   "sessions": 2709
   },
   {
    "device": "mobile",
@@ -591,16 +591,6 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
-   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 17,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "2026-11-16-founders-wire-gemini-hydrogen-chatgpt-wallet-anthropic-ipo-week",
    "title": "The Founder's Wire, November 16: Google Ships a Fast Agentic-Coding Model, OpenAI Hands Agents a Wallet, and the First AI IPO Prices This Week",
    "section": "wire",
@@ -616,6 +606,16 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
+   "views": 16,
+   "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "open-source-llm-leaderboard-september-2026-run-locally",
+   "title": "The Open-Source LLM Leaderboard, September 2026: The Best Open-Weight Models to Run Locally (and Which You Can Actually Ship)",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
    "views": 16,
    "reads": 1,
    "plays": 0
@@ -714,18 +714,18 @@
    "avg_dwell_sec": 21
   },
   {
-   "path": "/submit.html",
-   "views": 8,
-   "reads": 1,
-   "sessions": 6,
-   "avg_dwell_sec": 31
-  },
-  {
    "path": "/apps",
    "views": 7,
    "reads": 1,
    "sessions": 6,
    "avg_dwell_sec": 38
+  },
+  {
+   "path": "/submit.html",
+   "views": 7,
+   "reads": 1,
+   "sessions": 5,
+   "avg_dwell_sec": 31
   }
  ],
  "referrers": [
