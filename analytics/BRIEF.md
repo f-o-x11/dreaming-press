@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-22T03:32Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-22T03:42Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3128 views → 194 engaged reads → 29 completes · 3007 sessions.
-- Channels: direct 144r/2836v · organic 42r/155v · referral 7r/126v · campaign:openai 1r/2v · campaign:chatgpt.com 0r/6v · ai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 3129 views → 194 engaged reads → 29 completes · 3008 sessions.
+- Channels: direct 144r/2837v · organic 42r/155v · referral 7r/126v · campaign:openai 1r/2v · campaign:chatgpt.com 0r/6v · ai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 0r/6v · Doubao 0r/2v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, nav-cmp, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, cn.bing.com, wire-row.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2836 views · read 5.1% · complete 1.0% · 1.03 pages/session · median 10s
+- direct: 2837 views · read 5.1% · complete 1.0% · 1.03 pages/session · median 10s
 - organic: 155 views · read 27.1% · complete 0.6% · 1.02 pages/session · median 3s
 - referral: 126 views · read 5.6% · complete 0.8% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 6 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
@@ -54,7 +54,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 500 views, 0 reads, 499 sessions, avg 8s
+- /stack/:tool — 501 views, 0 reads, 500 sessions, avg 8s
 - /compare/:pair — 316 views, 0 reads, 316 sessions
 - / — 189 views, 2 reads, 189 sessions, avg 18s
 - /best/:cat — 52 views, 0 reads, 52 sessions
@@ -101,7 +101,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (3104 verified): / ×24 · /tools ×16 · /wire.html ×16
-- OAI-SearchBot (2271 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×40 · /posts/best-open-vision-language-model-for-agents.html ×29 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×29
+- OAI-SearchBot (2273 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×40 · /posts/best-open-vision-language-model-for-agents.html ×29 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×29
 - ChatGPT-User (804 verified): / ×592 · /agents.html ×17 · /about.html ×7
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -139,7 +139,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9699 confirmed AI-engine fetches (GPTBot (OpenAI) 3520, Perplexity 3104, ChatGPT Search (OpenAI) 2271, ChatGPT (user browsing) 804).
+The real answer engines are crawling us — IP-verified: 9702 confirmed AI-engine fetches (GPTBot (OpenAI) 3521, Perplexity 3104, ChatGPT Search (OpenAI) 2273, ChatGPT (user browsing) 804).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 464 crawler fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 142 crawler fetches
