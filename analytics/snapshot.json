@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-22T12:43:47.436Z",
+ "generated": "2026-11-22T12:53:50.816Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 1,
   "todayReads": 2,
-  "avgTimeSec": 27,
+  "avgTimeSec": 20,
   "postsThisWeek": 14
  },
  "funnel": {
-  "views": 3046,
-  "reads": 195,
+  "views": 3044,
+  "reads": 194,
   "completes": 30,
   "plays": 5,
-  "sessions": 2920
+  "sessions": 2918
  },
  "channels": [
   {
@@ -23,15 +23,15 @@
   },
   {
    "channel": "organic",
-   "views": 164,
-   "reads": 43,
-   "sessions": 161
+   "views": 163,
+   "reads": 42,
+   "sessions": 160
   },
   {
    "channel": "referral",
-   "views": 15,
+   "views": 14,
    "reads": 6,
-   "sessions": 15
+   "sessions": 14
   },
   {
    "channel": "campaign:openai",
@@ -84,23 +84,23 @@
   },
   {
    "channel": "organic",
-   "views": 164,
-   "reads": 43,
+   "views": 163,
+   "reads": 42,
    "completes": 1,
-   "sessions": 161,
-   "read_rate": 0.262,
+   "sessions": 160,
+   "read_rate": 0.258,
    "complete_rate": 0.006,
    "pages_per_session": 1.02,
    "median_dwell_sec": 3
   },
   {
    "channel": "referral",
-   "views": 15,
+   "views": 14,
    "reads": 6,
    "completes": 1,
-   "sessions": 15,
-   "read_rate": 0.4,
-   "complete_rate": 0.067,
+   "sessions": 14,
+   "read_rate": 0.429,
+   "complete_rate": 0.071,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2750,
-   "reads": 167,
-   "sessions": 2620
+   "views": 2748,
+   "reads": 166,
+   "sessions": 2618
   },
   {
    "device": "mobile",
@@ -710,18 +710,18 @@
    "avg_dwell_sec": 10
   },
   {
+   "path": "/tools",
+   "views": 10,
+   "reads": 1,
+   "sessions": 10,
+   "avg_dwell_sec": 59
+  },
+  {
    "path": "/topics/:topic",
    "views": 10,
    "reads": 1,
    "sessions": 10,
    "avg_dwell_sec": null
-  },
-  {
-   "path": "/tools",
-   "views": 9,
-   "reads": 1,
-   "sessions": 9,
-   "avg_dwell_sec": 71
   },
   {
    "path": "/agents.html",
@@ -758,8 +758,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 30,
-   "sessions": 16
+   "hits": 28,
+   "sessions": 15
   },
   {
    "ref": "nav-cmp",
