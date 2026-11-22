@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-22T04:22Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-22T04:32Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3138 views → 195 engaged reads → 30 completes · 3012 sessions.
-- Channels: direct 145r/2844v · organic 42r/157v · referral 7r/126v · campaign:openai 1r/2v · campaign:chatgpt.com 0r/6v · ai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 3139 views → 195 engaged reads → 30 completes · 3013 sessions.
+- Channels: direct 145r/2845v · organic 42r/157v · referral 7r/126v · campaign:openai 1r/2v · campaign:chatgpt.com 0r/6v · ai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 0r/6v · Doubao 0r/2v.
 - Referrers: aocr.org, google.com, bing.com, duckduckgo.com, nav-cmp, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, cn.bing.com, wire-row.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2844 views · read 5.1% · complete 1.0% · 1.03 pages/session · median 10s
+- direct: 2845 views · read 5.1% · complete 1.0% · 1.03 pages/session · median 10s
 - organic: 157 views · read 26.8% · complete 0.6% · 1.02 pages/session · median 3s
 - referral: 126 views · read 5.6% · complete 0.8% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 6 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
@@ -54,7 +54,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 501 views, 0 reads, 500 sessions, avg 8s
+- /stack/:tool — 502 views, 0 reads, 501 sessions, avg 8s
 - /compare/:pair — 316 views, 0 reads, 316 sessions
 - / — 190 views, 2 reads, 190 sessions, avg 18s
 - /best/:cat — 52 views, 0 reads, 52 sessions
