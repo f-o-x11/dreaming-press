@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-22T19:35Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-22T19:45Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -91,18 +91,18 @@ nothing. This is the closest thing to a live query log this publication gets, an
 sample size dwarfs the engaged-read counts below.
 - /  — 645 retrieval fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 61 retrieval fetches
-- /wire.html  — 46 retrieval fetches
 - /posts/best-open-vision-language-model-for-agents.html  — 30 retrieval fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 30 retrieval fetches
 - /posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html  — 30 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 30 retrieval fetches
 - /agents.html  — 18 retrieval fetches
 - /apps  — 16 retrieval fetches
+- /wire.html  — 16 retrieval fetches
 - /posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.html  — 16 retrieval fetches
-- /posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html  — 8 retrieval fetches
 
 Per engine:
-- PerplexityBot (3175 verified): / ×24 · /apps ×16 · /wire.html ×16
-- OAI-SearchBot (2346 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×45 · /posts/best-open-vision-language-model-for-agents.html ×30 · /posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html ×30
+- PerplexityBot (3176 verified): / ×24 · /apps ×16 · /wire.html ×16
+- OAI-SearchBot (2348 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×45 · /posts/best-open-vision-language-model-for-agents.html ×30 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×30
 - ChatGPT-User (845 verified): / ×621 · /agents.html ×18 · /posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -140,20 +140,20 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9950 confirmed AI-engine fetches (GPTBot (OpenAI) 3584, Perplexity 3175, ChatGPT Search (OpenAI) 2346, ChatGPT (user browsing) 845).
+The real answer engines are crawling us — IP-verified: 9953 confirmed AI-engine fetches (GPTBot (OpenAI) 3584, Perplexity 3176, ChatGPT Search (OpenAI) 2348, ChatGPT (user browsing) 845).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 468 crawler fetches
+- /build  — 469 crawler fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 151 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 125 crawler fetches
 - /posts/best-open-source-vector-database-2026.html  — 72 crawler fetches
 - /posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html  — 54 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 54 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 42 crawler fetches
+- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 40 crawler fetches
 - /posts/cheapest-gpu-rental-november-2026.html  — 36 crawler fetches
 - /posts/gpu-rental-price-october-2026.html  — 35 crawler fetches
 - /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 33 crawler fetches
 - /posts/best-open-vision-language-model-for-agents.html  — 30 crawler fetches
-- /posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html  — 30 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
