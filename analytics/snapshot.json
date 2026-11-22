@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-22T08:53:05.599Z",
+ "generated": "2026-11-22T09:03:05.714Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 3,
   "todayReads": 1,
   "avgTimeSec": 27,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3074,
+  "views": 3072,
   "reads": 194,
   "completes": 30,
   "plays": 5,
-  "sessions": 2948
+  "sessions": 2946
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2847,
+   "views": 2850,
    "reads": 145,
-   "sessions": 2763
+   "sessions": 2766
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 55,
+   "views": 50,
    "reads": 6,
-   "sessions": 55
+   "sessions": 50
   },
   {
    "channel": "campaign:openai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2847,
+   "views": 2850,
    "reads": 145,
    "completes": 28,
-   "sessions": 2763,
+   "sessions": 2766,
    "read_rate": 0.051,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -95,12 +95,12 @@
   },
   {
    "channel": "referral",
-   "views": 55,
+   "views": 50,
    "reads": 6,
    "completes": 1,
-   "sessions": 55,
-   "read_rate": 0.109,
-   "complete_rate": 0.018,
+   "sessions": 50,
+   "read_rate": 0.12,
+   "complete_rate": 0.02,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2784,
+   "views": 2782,
    "reads": 166,
-   "sessions": 2654
+   "sessions": 2652
   },
   {
    "device": "mobile",
@@ -641,16 +641,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 500,
+   "views": 499,
    "reads": 0,
-   "sessions": 499,
+   "sessions": 498,
    "avg_dwell_sec": 8
   },
   {
    "path": "/compare/:pair",
-   "views": 318,
+   "views": 320,
    "reads": 0,
-   "sessions": 318,
+   "sessions": 320,
    "avg_dwell_sec": null
   },
   {
@@ -758,8 +758,8 @@
   },
   {
    "ref": "https://www.aocr.org/",
-   "hits": 42,
-   "sessions": 42
+   "hits": 37,
+   "sessions": 37
   },
   {
    "ref": "https://duckduckgo.com/",
