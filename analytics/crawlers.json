@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-22T11:53:39.270Z",
+ "generated": "2026-11-22T12:03:39.616Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9823,
+ "verifiedAiHits": 9859,
  "logsScanned": 30,
  "windowStart": "2026-11-08",
  "windowEnd": "2026-11-22",
- "totalHits": 104661,
- "aiHits": 81277,
+ "totalHits": 104713,
+ "aiHits": 81325,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30059,
+   "hits": 30063,
    "verifiedHits": 0,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14368,
+   "hits": 14376,
    "verifiedHits": 0,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6305,
-   "verifiedHits": 6254,
+   "hits": 6309,
+   "verifiedHits": 6258,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
    "topPaths": [
@@ -278,8 +278,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 3580,
-   "verifiedHits": 3554,
+   "hits": 3610,
+   "verifiedHits": 3584,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
    "topPaths": [
@@ -344,14 +344,18 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2345,
-   "verifiedHits": 2312,
+   "hits": 2351,
+   "verifiedHits": 2318,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
    "topPaths": [
     {
      "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
      "hits": 42
+    },
+    {
+     "path": "/posts/best-open-vision-language-model-for-agents.html",
+     "hits": 30
     },
     {
      "path": "/posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html",
@@ -363,10 +367,6 @@
     },
     {
      "path": "/posts/2026-07-22-founders-wire-mcp-lock-week-a2a-clouds-skills.html",
-     "hits": 30
-    },
-    {
-     "path": "/reports/state-of-ai-agents",
      "hits": 30
     }
    ],
