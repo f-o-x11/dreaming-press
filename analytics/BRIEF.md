@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-22T14:04Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-22T14:14Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -116,7 +116,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Uncovered search demand (245 of 459 phrases have NO post, 2h ago)
+## Uncovered search demand (245 of 459 phrases have NO post, 3h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
