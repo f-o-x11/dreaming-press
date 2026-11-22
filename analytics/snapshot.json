@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-22T09:53:13.051Z",
+ "generated": "2026-11-22T10:03:13.258Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 1,
   "avgTimeSec": 27,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3053,
+  "views": 3052,
   "reads": 194,
   "completes": 30,
   "plays": 5,
-  "sessions": 2927
+  "sessions": 2926
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2853,
+   "views": 2855,
    "reads": 145,
-   "sessions": 2769
+   "sessions": 2771
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 28,
+   "views": 25,
    "reads": 6,
-   "sessions": 28
+   "sessions": 25
   },
   {
    "channel": "campaign:openai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2853,
+   "views": 2855,
    "reads": 145,
    "completes": 28,
-   "sessions": 2769,
+   "sessions": 2771,
    "read_rate": 0.051,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -95,12 +95,12 @@
   },
   {
    "channel": "referral",
-   "views": 28,
+   "views": 25,
    "reads": 6,
    "completes": 1,
-   "sessions": 28,
-   "read_rate": 0.214,
-   "complete_rate": 0.036,
+   "sessions": 25,
+   "read_rate": 0.24,
+   "complete_rate": 0.04,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2763,
+   "views": 2762,
    "reads": 166,
-   "sessions": 2633
+   "sessions": 2632
   },
   {
    "device": "mobile",
@@ -309,7 +309,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 34,
+   "views": 36,
    "reads": 5,
    "plays": 0
   },
@@ -501,7 +501,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 34,
+   "views": 36,
    "reads": 5,
    "plays": 0
   },
@@ -543,7 +543,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 34,
+   "views": 36,
    "reads": 5,
    "plays": 0
   },
@@ -762,14 +762,14 @@
    "sessions": 16
   },
   {
-   "ref": "https://www.aocr.org/",
-   "hits": 15,
-   "sessions": 15
-  },
-  {
    "ref": "nav-cmp",
    "hits": 14,
    "sessions": 5
+  },
+  {
+   "ref": "https://www.aocr.org/",
+   "hits": 12,
+   "sessions": 12
   },
   {
    "ref": "https://search.brave.com/",
