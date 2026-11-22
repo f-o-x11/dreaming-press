@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-22T03:42:17.685Z",
+ "generated": "2026-11-22T03:52:21.879Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9702,
+ "verifiedAiHits": 9703,
  "logsScanned": 30,
  "windowStart": "2026-11-08",
  "windowEnd": "2026-11-22",
- "totalHits": 102872,
- "aiHits": 79842,
+ "totalHits": 102900,
+ "aiHits": 79866,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29395,
+   "hits": 29407,
    "verifiedHits": 0,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14004,
+   "hits": 14011,
    "verifiedHits": 0,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 8627,
+   "hits": 8630,
    "verifiedHits": 0,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6117,
-   "verifiedHits": 6066,
+   "hits": 6120,
+   "verifiedHits": 6069,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5467,
+   "hits": 5468,
    "verifiedHits": 0,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
@@ -223,7 +223,7 @@
     },
     {
      "path": "/authors/dex",
-     "hits": 32
+     "hits": 33
     },
     {
      "path": "/stack.html",
@@ -344,14 +344,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2306,
-   "verifiedHits": 2273,
+   "hits": 2307,
+   "verifiedHits": 2274,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
    "topPaths": [
     {
      "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
-     "hits": 40
+     "hits": 41
     },
     {
      "path": "/posts/best-open-vision-language-model-for-agents.html",
@@ -542,7 +542,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 550,
+   "hits": 551,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-22",
