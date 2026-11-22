@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-22T07:12:54.235Z",
+ "generated": "2026-11-22T07:22:54.476Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9765,
+ "verifiedAiHits": 9767,
  "logsScanned": 30,
  "windowStart": "2026-11-08",
  "windowEnd": "2026-11-22",
- "totalHits": 103623,
- "aiHits": 80434,
+ "totalHits": 103657,
+ "aiHits": 80455,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29634,
+   "hits": 29642,
    "verifiedHits": 0,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14157,
+   "hits": 14164,
    "verifiedHits": 0,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 8689,
+   "hits": 8693,
    "verifiedHits": 0,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6184,
-   "verifiedHits": 6133,
+   "hits": 6194,
+   "verifiedHits": 6143,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5273,
+   "hits": 5274,
    "verifiedHits": 0,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1031,
+   "hits": 1032,
    "verifiedHits": 0,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
@@ -476,25 +476,25 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 873,
-   "verifiedHits": 809,
+   "hits": 875,
+   "verifiedHits": 811,
    "firstSeen": "2026-11-08",
    "lastSeen": "2026-11-22",
    "topPaths": [
     {
      "path": "/",
-     "hits": 596
+     "hits": 597
     },
     {
      "path": "/agents.html",
      "hits": 17
     },
     {
-     "path": "/about.html",
-     "hits": 7
+     "path": "/posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html",
+     "hits": 8
     },
     {
-     "path": "/posts/runpod-vs-modal-vs-baseten-serverless-gpu-cost-august-2026.html",
+     "path": "/about.html",
      "hits": 7
     },
     {
@@ -542,7 +542,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 559,
+   "hits": 560,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-22",
