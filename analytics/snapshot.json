@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-23T03:36:44.831Z",
+ "generated": "2026-11-23T03:46:45.814Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 3,
   "todayReads": 0,
   "avgTimeSec": 3,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3072,
+  "views": 3074,
   "reads": 189,
   "completes": 30,
   "plays": 5,
-  "sessions": 2944
+  "sessions": 2946
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2882,
+   "views": 2884,
    "reads": 143,
-   "sessions": 2797
+   "sessions": 2799
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2882,
+   "views": 2884,
    "reads": 143,
    "completes": 28,
-   "sessions": 2797,
+   "sessions": 2799,
    "read_rate": 0.05,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -265,15 +265,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2772,
+   "views": 2773,
    "reads": 161,
-   "sessions": 2640
+   "sessions": 2641
   },
   {
    "device": "mobile",
-   "views": 299,
+   "views": 300,
    "reads": 28,
-   "sessions": 303
+   "sessions": 304
   },
   {
    "device": "tablet",
@@ -618,6 +618,16 @@
    "plays": 0
   },
   {
+   "slug": "2026-11-22-founders-wire-ant-volatile-debut-gemini-tool-retrieval-isomorphic-5b",
+   "title": "The Founder's Wire, November 22: Anthropic's Stock Swings on Day One, Google Ships a Token-Saver for Tool-Heavy Agents, and $5B Goes to AI That Designs Drugs",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 17,
+   "reads": 0,
+   "plays": 0
+  },
+  {
    "slug": "2026-11-16-founders-wire-gemini-hydrogen-chatgpt-wallet-anthropic-ipo-week",
    "title": "The Founder's Wire, November 16: Google Ships a Fast Agentic-Coding Model, OpenAI Hands Agents a Wallet, and the First AI IPO Prices This Week",
    "section": "wire",
@@ -625,16 +635,6 @@
    "author": "wire-desk",
    "views": 16,
    "reads": 2,
-   "plays": 0
-  },
-  {
-   "slug": "2026-11-14-founders-wire-court-asked-to-halt-ai-as-anthropic-ipo-nears",
-   "title": "The Founder's Wire, November 14: A Court Is Asked to Freeze Frontier AI the Same Week the First Pure-Play AI Stock Goes Public",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 16,
-   "reads": 1,
    "plays": 0
   }
  ],

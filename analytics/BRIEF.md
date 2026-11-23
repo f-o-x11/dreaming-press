@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-23T03:36Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-23T03:46Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3072 views → 189 engaged reads → 30 completes · 2944 sessions.
-- Channels: direct 143r/2882v · organic 40r/165v · referral 6r/14v · campaign:chatgpt.com 0r/6v · ai 0r/2v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 3074 views → 189 engaged reads → 30 completes · 2946 sessions.
+- Channels: direct 143r/2884v · organic 40r/165v · referral 6r/14v · campaign:chatgpt.com 0r/6v · ai 0r/2v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 0r/6v · Doubao 0r/2v.
 - Referrers: google.com, bing.com, duckduckgo.com, nav-cmp, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, cn.bing.com, wire-row, l.meta.ai.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2882 views · read 5.0% · complete 1.0% · 1.03 pages/session · median 10s
+- direct: 2884 views · read 5.0% · complete 1.0% · 1.03 pages/session · median 10s
 - organic: 165 views · read 24.2% · complete 0.6% · 1.02 pages/session · median 3s
 - referral: 14 views · read 42.9% · complete 7.1% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 6 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
@@ -81,6 +81,7 @@ new traffic — and these pages already have the traffic.
 - [wire] "The Founder's Wire, November 21: Washington Puts a License on the Chips Inside Overseas Data Centers, Meta's Agent Moves Into a $300 Pocket Charm, and the Money Keeps Funding the Layer Above the Model" — 22 views but only 1 engaged reads (4.5%)
 - [wire] "The Founder's Wire, November 17: California Sues OpenAI Over Agents That Lost Control, a Backdoored Claude Code Extension Reaches Cursor Users, and a Startup Raises $50M to Vet Every Agent Action" — 21 views but only 0 engaged reads (0.0%)
 - [wire] "The Founder's Wire, November 15: New York's AI Law Gets a Compliance Clock, Adobe Puts an MCP Server on Photoshop, and Anthropic Prices the First Frontier IPO" — 18 views but only 0 engaged reads (0.0%)
+- [wire] "The Founder's Wire, November 22: Anthropic's Stock Swings on Day One, Google Ships a Token-Saver for Tool-Heavy Agents, and $5B Goes to AI That Designs Drugs" — 17 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
 
@@ -102,7 +103,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (2785 verified): / ×23 · /posts/open-source-coding-llm-ranked-november-2026.html ×16 · /dashboard ×14
-- OAI-SearchBot (2190 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×46 · /posts/best-open-vision-language-model-for-agents.html ×29 · /posts/local-llm-for-coding-on-your-own-machine.html ×29
+- OAI-SearchBot (2191 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×46 · /posts/best-open-vision-language-model-for-agents.html ×29 · /posts/local-llm-for-coding-on-your-own-machine.html ×29
 - ChatGPT-User (822 verified): / ×603 · /agents.html ×18 · /about.html ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -140,7 +141,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9381 confirmed AI-engine fetches (GPTBot (OpenAI) 3584, Perplexity 2785, ChatGPT Search (OpenAI) 2190, ChatGPT (user browsing) 822).
+The real answer engines are crawling us — IP-verified: 9382 confirmed AI-engine fetches (GPTBot (OpenAI) 3584, Perplexity 2785, ChatGPT Search (OpenAI) 2191, ChatGPT (user browsing) 822).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 464 crawler fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 154 crawler fetches
