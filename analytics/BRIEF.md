@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-23T16:21Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-23T16:31Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -102,7 +102,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-07-22-founders-wire-mcp-lock-week-a2a-clouds-skills.html  — 6 retrieval fetches
 
 Per engine:
-- PerplexityBot (674 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×8 · /posts/gemini-4-hydrogen-vs-claude-haiku-sonnet-fast-agent-model-november-2026.html ×7 · /posts/open-source-llm-ranking-november-2026.html ×6
+- PerplexityBot (676 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×8 · /posts/gemini-4-hydrogen-vs-claude-haiku-sonnet-fast-agent-model-november-2026.html ×7 · /posts/open-source-llm-ranking-november-2026.html ×6
 - OAI-SearchBot (303 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×16 · /posts/local-llm-for-coding-on-your-own-machine.html ×6 · /posts/open-source-llm-for-coding-september-2026.html ×6
 - ChatGPT-User (178 verified): / ×118 · /about.html ×5 · /agents.html ×4
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -141,7 +141,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 1303 confirmed AI-engine fetches (Perplexity 674, ChatGPT Search (OpenAI) 303, ChatGPT (user browsing) 178, GPTBot (OpenAI) 148).
+The real answer engines are crawling us — IP-verified: 1305 confirmed AI-engine fetches (Perplexity 676, ChatGPT Search (OpenAI) 303, ChatGPT (user browsing) 178, GPTBot (OpenAI) 148).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 54 crawler fetches
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 32 crawler fetches
