@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-23T01:06:15.389Z",
+ "generated": "2026-11-23T01:16:17.640Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 9358,
  "logsScanned": 30,
  "windowStart": "2026-11-09",
  "windowEnd": "2026-11-23",
- "totalHits": 101533,
- "aiHits": 79277,
+ "totalHits": 102379,
+ "aiHits": 79312,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29335,
+   "hits": 29356,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13878,
+   "hits": 13885,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 8495,
+   "hits": 8499,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6212,
-   "verifiedHits": 6161,
+   "hits": 6216,
+   "verifiedHits": 6165,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -212,7 +212,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5616,
+   "hits": 5619,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5116,
+   "hits": 5119,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -371,6 +371,39 @@
     }
    ],
    "verifiable": true
+  },
+  {
+   "name": "YandexBot",
+   "label": "Yandex",
+   "category": "search",
+   "home": "https://yandex.com",
+   "hits": 1649,
+   "verifiedHits": 0,
+   "firstSeen": "2026-11-09",
+   "lastSeen": "2026-11-23",
+   "topPaths": [
+    {
+     "path": "/alternatives/lunary",
+     "hits": 8
+    },
+    {
+     "path": "/stack/amp",
+     "hits": 3
+    },
+    {
+     "path": "/alternatives/zep-cloud",
+     "hits": 3
+    },
+    {
+     "path": "/stack/browserless",
+     "hits": 3
+    },
+    {
+     "path": "/alternatives/crossmint",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
   },
   {
    "name": "CCBot",
@@ -500,39 +533,6 @@
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
      "hits": 34
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "YandexBot",
-   "label": "Yandex",
-   "category": "search",
-   "home": "https://yandex.com",
-   "hits": 845,
-   "verifiedHits": 0,
-   "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-23",
-   "topPaths": [
-    {
-     "path": "/alternatives/lunary",
-     "hits": 8
-    },
-    {
-     "path": "/stack/amp",
-     "hits": 3
-    },
-    {
-     "path": "/alternatives/zep-cloud",
-     "hits": 3
-    },
-    {
-     "path": "/stack/browserless",
-     "hits": 3
-    },
-    {
-     "path": "/alternatives/crossmint",
-     "hits": 3
     }
    ],
    "verifiable": false
