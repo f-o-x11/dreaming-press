@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-23T00:26:09.365Z",
+ "generated": "2026-11-23T00:36:13.621Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9350,
+ "verifiedAiHits": 9354,
  "logsScanned": 30,
  "windowStart": "2026-11-09",
  "windowEnd": "2026-11-23",
- "totalHits": 101151,
- "aiHits": 79157,
+ "totalHits": 101182,
+ "aiHits": 79187,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29265,
+   "hits": 29282,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13850,
+   "hits": 13858,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6207,
-   "verifiedHits": 6156,
+   "hits": 6208,
+   "verifiedHits": 6157,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2829,
-   "verifiedHits": 2774,
+   "hits": 2830,
+   "verifiedHits": 2775,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -344,18 +344,18 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2212,
-   "verifiedHits": 2179,
+   "hits": 2215,
+   "verifiedHits": 2182,
    "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-22",
+   "lastSeen": "2026-11-23",
    "topPaths": [
     {
      "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
-     "hits": 45
+     "hits": 46
     },
     {
      "path": "/posts/best-open-vision-language-model-for-agents.html",
-     "hits": 28
+     "hits": 29
     },
     {
      "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
@@ -476,7 +476,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 864,
+   "hits": 865,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -487,7 +487,7 @@
     },
     {
      "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
-     "hits": 57
+     "hits": 58
     },
     {
      "path": "/posts/best-llm-for-creative-writing-october-2026.html",

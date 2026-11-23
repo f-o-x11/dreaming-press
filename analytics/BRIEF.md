@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-23T00:26Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-23T00:36Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3064 views → 191 engaged reads → 30 completes · 2938 sessions.
-- Channels: direct 144r/2875v · organic 40r/163v · referral 6r/14v · campaign:openai 1r/2v · campaign:chatgpt.com 0r/6v · ai 0r/2v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 3069 views → 191 engaged reads → 30 completes · 2943 sessions.
+- Channels: direct 144r/2880v · organic 40r/163v · referral 6r/14v · campaign:openai 1r/2v · campaign:chatgpt.com 0r/6v · ai 0r/2v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 0r/6v · Doubao 0r/2v.
 - Referrers: google.com, bing.com, duckduckgo.com, nav-cmp, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, cn.bing.com, wire-row, l.meta.ai.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2875 views · read 5.0% · complete 1.0% · 1.03 pages/session · median 10s
+- direct: 2880 views · read 5.0% · complete 1.0% · 1.03 pages/session · median 10s
 - organic: 163 views · read 24.5% · complete 0.6% · 1.02 pages/session · median 3s
 - referral: 14 views · read 42.9% · complete 7.1% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 6 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
@@ -68,9 +68,9 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 ## Top by raw views (eyes that arrived)
 - [stack] "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned" — 36 views, 5 reads
 - [wire] "The Founder's Wire, November 21: Washington Puts a License on the Chips Inside Overseas Data Centers, Meta's Agent Moves Into a $300 Pocket Charm, and the Money Keeps Funding the Layer Above the Model" — 22 views, 1 reads
+- [wire] "The Founder's Wire, November 17: California Sues OpenAI Over Agents That Lost Control, a Backdoored Claude Code Extension Reaches Cursor Users, and a Startup Raises $50M to Vet Every Agent Action" — 21 views, 0 reads
 - [stack] "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own" — 20 views, 11 reads
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 20 views, 3 reads
-- [wire] "The Founder's Wire, November 17: California Sues OpenAI Over Agents That Lost Control, a Backdoored Claude Code Extension Reaches Cursor Users, and a Startup Raises $50M to Vet Every Agent Action" — 20 views, 0 reads
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 18 views, 7 reads
 
 ## Arrived but left (fix these openings first)
@@ -79,7 +79,7 @@ problem is the first screen: headline promise not paid off fast enough, or no
 skimmable answer above the fold. Rewriting an opening is cheaper than earning
 new traffic — and these pages already have the traffic.
 - [wire] "The Founder's Wire, November 21: Washington Puts a License on the Chips Inside Overseas Data Centers, Meta's Agent Moves Into a $300 Pocket Charm, and the Money Keeps Funding the Layer Above the Model" — 22 views but only 1 engaged reads (4.5%)
-- [wire] "The Founder's Wire, November 17: California Sues OpenAI Over Agents That Lost Control, a Backdoored Claude Code Extension Reaches Cursor Users, and a Startup Raises $50M to Vet Every Agent Action" — 20 views but only 0 engaged reads (0.0%)
+- [wire] "The Founder's Wire, November 17: California Sues OpenAI Over Agents That Lost Control, a Backdoored Claude Code Extension Reaches Cursor Users, and a Startup Raises $50M to Vet Every Agent Action" — 21 views but only 0 engaged reads (0.0%)
 - [wire] "The Founder's Wire, November 15: New York's AI Law Gets a Compliance Clock, Adobe Puts an MCP Server on Photoshop, and Anthropic Prices the First Frontier IPO" — 18 views but only 0 engaged reads (0.0%)
 ACTION: pick the top one, rewrite its opening to answer the title's question in
 the first two sentences, and keep the URL. Compare its read rate next run.
@@ -90,8 +90,8 @@ human just asked a question. Not index crawlers, which enumerate everything and 
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
 - /  — 619 retrieval fetches
-- /posts/open-source-coding-llm-ranked-november-2026.html  — 61 retrieval fetches
-- /posts/best-open-vision-language-model-for-agents.html  — 28 retrieval fetches
+- /posts/open-source-coding-llm-ranked-november-2026.html  — 62 retrieval fetches
+- /posts/best-open-vision-language-model-for-agents.html  — 29 retrieval fetches
 - /posts/local-llm-for-coding-on-your-own-machine.html  — 28 retrieval fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 28 retrieval fetches
 - /posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html  — 28 retrieval fetches
@@ -101,8 +101,8 @@ sample size dwarfs the engaged-read counts below.
 - /wire.html  — 14 retrieval fetches
 
 Per engine:
-- PerplexityBot (2774 verified): / ×22 · /posts/open-source-coding-llm-ranked-november-2026.html ×16 · /tools ×15
-- OAI-SearchBot (2179 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×45 · /posts/best-open-vision-language-model-for-agents.html ×28 · /posts/local-llm-for-coding-on-your-own-machine.html ×28
+- PerplexityBot (2775 verified): / ×22 · /posts/open-source-coding-llm-ranked-november-2026.html ×16 · /tools ×15
+- OAI-SearchBot (2182 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×46 · /posts/best-open-vision-language-model-for-agents.html ×29 · /posts/local-llm-for-coding-on-your-own-machine.html ×28
 - ChatGPT-User (814 verified): / ×597 · /agents.html ×18 · /about.html ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -140,10 +140,10 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9350 confirmed AI-engine fetches (GPTBot (OpenAI) 3583, Perplexity 2774, ChatGPT Search (OpenAI) 2179, ChatGPT (user browsing) 814).
+The real answer engines are crawling us — IP-verified: 9354 confirmed AI-engine fetches (GPTBot (OpenAI) 3583, Perplexity 2775, ChatGPT Search (OpenAI) 2182, ChatGPT (user browsing) 814).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 461 crawler fetches
-- /posts/open-source-coding-llm-ranked-november-2026.html  — 151 crawler fetches
+- /posts/open-source-coding-llm-ranked-november-2026.html  — 153 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 122 crawler fetches
 - /posts/best-open-source-vector-database-2026.html  — 72 crawler fetches
 - /posts/local-llm-for-coding-on-your-own-machine.html  — 54 crawler fetches
@@ -153,7 +153,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 38 crawler fetches
 - /posts/cheapest-gpu-rental-november-2026.html  — 35 crawler fetches
 - /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 31 crawler fetches
-- /posts/best-open-vision-language-model-for-agents.html  — 28 crawler fetches
+- /posts/best-open-vision-language-model-for-agents.html  — 29 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
