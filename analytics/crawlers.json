@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-23T00:56:14.947Z",
+ "generated": "2026-11-23T01:06:15.389Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9357,
+ "verifiedAiHits": 9358,
  "logsScanned": 30,
  "windowStart": "2026-11-09",
  "windowEnd": "2026-11-23",
- "totalHits": 101255,
- "aiHits": 79254,
+ "totalHits": 101533,
+ "aiHits": 79277,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29322,
+   "hits": 29335,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13871,
+   "hits": 13878,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6209,
-   "verifiedHits": 6158,
+   "hits": 6212,
+   "verifiedHits": 6161,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -198,7 +198,7 @@
     },
     {
      "path": "/search",
-     "hits": 32
+     "hits": 33
     },
     {
      "path": "/posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html",
@@ -212,10 +212,10 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5614,
+   "hits": 5616,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-22",
+   "lastSeen": "2026-11-23",
    "topPaths": [
     {
      "path": "/build",
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5108,
+   "hits": 5116,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -311,8 +311,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2831,
-   "verifiedHits": 2776,
+   "hits": 2832,
+   "verifiedHits": 2777,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -505,6 +505,39 @@
    "verifiable": false
   },
   {
+   "name": "YandexBot",
+   "label": "Yandex",
+   "category": "search",
+   "home": "https://yandex.com",
+   "hits": 845,
+   "verifiedHits": 0,
+   "firstSeen": "2026-11-09",
+   "lastSeen": "2026-11-23",
+   "topPaths": [
+    {
+     "path": "/alternatives/lunary",
+     "hits": 8
+    },
+    {
+     "path": "/stack/amp",
+     "hits": 3
+    },
+    {
+     "path": "/alternatives/zep-cloud",
+     "hits": 3
+    },
+    {
+     "path": "/stack/browserless",
+     "hits": 3
+    },
+    {
+     "path": "/alternatives/crossmint",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Googlebot",
    "label": "Googlebot",
    "category": "search",
@@ -536,39 +569,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "YandexBot",
-   "label": "Yandex",
-   "category": "search",
-   "home": "https://yandex.com",
-   "hits": 601,
-   "verifiedHits": 0,
-   "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-23",
-   "topPaths": [
-    {
-     "path": "/alternatives/lunary",
-     "hits": 7
-    },
-    {
-     "path": "/stack/amp",
-     "hits": 3
-    },
-    {
-     "path": "/alternatives/zep-cloud",
-     "hits": 3
-    },
-    {
-     "path": "/stack/browserless",
-     "hits": 3
-    },
-    {
-     "path": "/alternatives/crossmint",
-     "hits": 3
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "MistralAI",
