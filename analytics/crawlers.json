@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-23T09:58:00.606Z",
+ "generated": "2026-11-23T10:08:00.887Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9512,
+ "verifiedAiHits": 9514,
  "logsScanned": 30,
  "windowStart": "2026-11-09",
  "windowEnd": "2026-11-23",
- "totalHits": 104771,
- "aiHits": 81155,
+ "totalHits": 104808,
+ "aiHits": 81171,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30342,
+   "hits": 30346,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14272,
+   "hits": 14280,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -70,7 +70,7 @@
     },
     {
      "path": "/stack.html",
-     "hits": 26
+     "hits": 27
     }
    ],
    "verifiable": false
@@ -146,7 +146,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 8404,
+   "hits": 8411,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6429,
-   "verifiedHits": 6378,
+   "hits": 6434,
+   "verifiedHits": 6383,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5274,
+   "hits": 5276,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -311,8 +311,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2909,
-   "verifiedHits": 2854,
+   "hits": 2911,
+   "verifiedHits": 2856,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1762,
+   "hits": 1764,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 890,
+   "hits": 892,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -542,14 +542,18 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 681,
-   "verifiedHits": 556,
+   "hits": 686,
+   "verifiedHits": 561,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
    "topPaths": [
     {
      "path": "/",
      "hits": 22
+    },
+    {
+     "path": "/reports/state-of-ai-agents",
+     "hits": 2
     },
     {
      "path": "/posts/tuning-chunked-prefill-max-num-batched-tokens.html",
@@ -561,10 +565,6 @@
     },
     {
      "path": "/posts/vllm-kv-offload-configure-size-measure-how-to.html",
-     "hits": 2
-    },
-    {
-     "path": "/stack/openrouter",
      "hits": 2
     }
    ],
