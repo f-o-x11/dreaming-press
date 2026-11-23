@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-23T14:18:39.043Z",
+ "generated": "2026-11-23T14:28:52.350Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 4,
+  "readersNow": 1,
+  "todayReads": 5,
   "avgTimeSec": 10,
   "postsThisWeek": 15
  },
  "funnel": {
   "views": 3048,
-  "reads": 187,
+  "reads": 188,
   "completes": 29,
   "plays": 5,
   "sessions": 2920
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2856,
+   "views": 2855,
    "reads": 141,
-   "sessions": 2771
+   "sessions": 2770
   },
   {
    "channel": "organic",
-   "views": 166,
-   "reads": 38,
-   "sessions": 163
+   "views": 167,
+   "reads": 39,
+   "sessions": 164
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2856,
+   "views": 2855,
    "reads": 141,
    "completes": 27,
-   "sessions": 2771,
+   "sessions": 2770,
    "read_rate": 0.049,
    "complete_rate": 0.009,
    "pages_per_session": 1.03,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 166,
-   "reads": 38,
+   "views": 167,
+   "reads": 39,
    "completes": 1,
-   "sessions": 163,
-   "read_rate": 0.229,
+   "sessions": 164,
+   "read_rate": 0.234,
    "complete_rate": 0.006,
    "pages_per_session": 1.02,
    "median_dwell_sec": 3
@@ -266,7 +266,7 @@
   {
    "device": "desktop",
    "views": 2750,
-   "reads": 158,
+   "reads": 159,
    "sessions": 2619
   },
   {
@@ -364,6 +364,16 @@
    "plays": 0
   },
   {
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 8,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "vertical-ai-agents-legal-health-finance-where-2026-funding-is-going",
    "title": "Where 2026's Vertical-AI Money Actually Went: Legal Took the Cash, Healthcare Took the Deals",
    "section": "wire",
@@ -421,16 +431,6 @@
    "author": "dex",
    "views": 3,
    "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "2026-11-16-founders-wire-gemini-hydrogen-chatgpt-wallet-anthropic-ipo-week",
-   "title": "The Founder's Wire, November 16: Google Ships a Fast Agentic-Coding Model, OpenAI Hands Agents a Wallet, and the First AI IPO Prices This Week",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 16,
-   "reads": 2,
    "plays": 0
   }
  ],
@@ -758,8 +758,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 27,
-   "sessions": 15
+   "hits": 29,
+   "sessions": 16
   },
   {
    "ref": "nav-cmp",
