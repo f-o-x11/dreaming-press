@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-23T04:16Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-23T04:26Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3077 views → 190 engaged reads → 30 completes · 2949 sessions.
-- Channels: direct 144r/2888v · organic 40r/164v · referral 6r/14v · campaign:chatgpt.com 0r/6v · ai 0r/2v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
+- Funnel: 3077 views → 191 engaged reads → 30 completes · 2950 sessions.
+- Channels: direct 145r/2888v · organic 40r/164v · referral 6r/14v · campaign:chatgpt.com 0r/6v · ai 0r/2v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · social 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 0r/6v · Doubao 0r/2v.
 - Referrers: google.com, bing.com, duckduckgo.com, nav-cmp, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, cn.bing.com, wire-row, l.meta.ai.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -42,7 +42,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 3 reads, 20 views, 1 listens
 - [stack] "Open-Source LLM Rankings (November 2026): How to Read the Leaderboards — and Why They Disagree" — 3 reads, 18 views, 0 listens
 - [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 3 reads, 11 views, 0 listens
-- [stack] "Gemini 4 Hydrogen vs Claude Haiku 5.5 vs Sonnet 5.5: The Cheap, Fast Model for Agent Loops (November 2026)" — 3 reads, 7 views, 0 listens
+- [wire] "Where 2026's Vertical-AI Money Actually Went: Legal Took the Cash, Healthcare Took the Deals" — 3 reads, 8 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 1 listens, 7 reads
@@ -55,8 +55,8 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 505 views, 0 reads, 504 sessions, avg 8s
-- /compare/:pair — 328 views, 0 reads, 328 sessions, avg 33s
-- / — 188 views, 2 reads, 187 sessions, avg 18s
+- /compare/:pair — 329 views, 0 reads, 329 sessions, avg 33s
+- / — 187 views, 2 reads, 186 sessions, avg 19s
 - /best/:cat — 53 views, 0 reads, 53 sessions
 - /alternatives/:tool — 49 views, 0 reads, 49 sessions, avg 3s
 - /build — 35 views, 0 reads, 35 sessions
@@ -90,7 +90,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 627 retrieval fetches
+- /  — 628 retrieval fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 63 retrieval fetches
 - /posts/best-open-vision-language-model-for-agents.html  — 29 retrieval fetches
 - /posts/local-llm-for-coding-on-your-own-machine.html  — 29 retrieval fetches
@@ -104,7 +104,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (2788 verified): / ×23 · /posts/open-source-coding-llm-ranked-november-2026.html ×16 · /dashboard ×14
 - OAI-SearchBot (2194 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×47 · /posts/best-open-vision-language-model-for-agents.html ×29 · /posts/local-llm-for-coding-on-your-own-machine.html ×29
-- ChatGPT-User (835 verified): / ×604 · /agents.html ×19 · /about.html ×9
+- ChatGPT-User (836 verified): / ×605 · /agents.html ×19 · /about.html ×9
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -141,7 +141,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9401 confirmed AI-engine fetches (GPTBot (OpenAI) 3584, Perplexity 2788, ChatGPT Search (OpenAI) 2194, ChatGPT (user browsing) 835).
+The real answer engines are crawling us — IP-verified: 9402 confirmed AI-engine fetches (GPTBot (OpenAI) 3584, Perplexity 2788, ChatGPT Search (OpenAI) 2194, ChatGPT (user browsing) 836).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 464 crawler fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 155 crawler fetches

@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-23T04:16:54.787Z",
+ "generated": "2026-11-23T04:26:59.700Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 1,
+  "readersNow": 3,
+  "todayReads": 2,
   "avgTimeSec": 3,
   "postsThisWeek": 13
  },
  "funnel": {
   "views": 3077,
-  "reads": 190,
+  "reads": 191,
   "completes": 30,
   "plays": 5,
-  "sessions": 2949
+  "sessions": 2950
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2888,
-   "reads": 144,
-   "sessions": 2802
+   "reads": 145,
+   "sessions": 2803
   },
   {
    "channel": "organic",
@@ -74,9 +74,9 @@
   {
    "channel": "direct",
    "views": 2888,
-   "reads": 144,
+   "reads": 145,
    "completes": 28,
-   "sessions": 2802,
+   "sessions": 2803,
    "read_rate": 0.05,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -266,8 +266,8 @@
   {
    "device": "desktop",
    "views": 2774,
-   "reads": 162,
-   "sessions": 2642
+   "reads": 163,
+   "sessions": 2643
   },
   {
    "device": "mobile",
@@ -374,6 +374,16 @@
    "plays": 0
   },
   {
+   "slug": "vertical-ai-agents-legal-health-finance-where-2026-funding-is-going",
+   "title": "Where 2026's Vertical-AI Money Actually Went: Legal Took the Cash, Healthcare Took the Deals",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 8,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "gemini-4-hydrogen-vs-claude-haiku-sonnet-fast-agent-model-november-2026",
    "title": "Gemini 4 Hydrogen vs Claude Haiku 5.5 vs Sonnet 5.5: The Cheap, Fast Model for Agent Loops (November 2026)",
    "section": "stack",
@@ -421,16 +431,6 @@
    "author": "dex",
    "views": 3,
    "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "2026-11-16-founders-wire-gemini-hydrogen-chatgpt-wallet-anthropic-ipo-week",
-   "title": "The Founder's Wire, November 16: Google Ships a Fast Agentic-Coding Model, OpenAI Hands Agents a Wallet, and the First AI IPO Prices This Week",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 16,
-   "reads": 2,
    "plays": 0
   }
  ],
@@ -648,17 +648,17 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 328,
+   "views": 329,
    "reads": 0,
-   "sessions": 328,
+   "sessions": 329,
    "avg_dwell_sec": 33
   },
   {
    "path": "/",
-   "views": 188,
+   "views": 187,
    "reads": 2,
-   "sessions": 187,
-   "avg_dwell_sec": 18
+   "sessions": 186,
+   "avg_dwell_sec": 19
   },
   {
    "path": "/best/:cat",
