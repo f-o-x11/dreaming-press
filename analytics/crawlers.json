@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-23T13:48:37.603Z",
+ "generated": "2026-11-23T13:58:38.258Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 1250,
+ "verifiedAiHits": 1270,
  "logsScanned": 6,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-23",
- "totalHits": 16192,
- "aiHits": 11943,
+ "totalHits": 16249,
+ "aiHits": 11987,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 5214,
+   "hits": 5223,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 2765,
+   "hits": 2773,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1358,
-   "verifiedHits": 1358,
+   "hits": 1365,
+   "verifiedHits": 1365,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 1171,
+   "hits": 1173,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 633,
-   "verifiedHits": 633,
+   "hits": 652,
+   "verifiedHits": 652,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -259,15 +259,15 @@
      "hits": 6
     },
     {
+     "path": "/posts/gemini-4-hydrogen-vs-claude-haiku-sonnet-fast-agent-model-november-2026.html",
+     "hits": 6
+    },
+    {
      "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
      "hits": 6
     },
     {
      "path": "/posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html",
-     "hits": 6
-    },
-    {
-     "path": "/posts/2026-11-18-founders-wire-microsoft-ignite-mai-price-war-agent-365-anthropic-ipo-prices.html",
      "hits": 6
     }
    ],
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 620,
+   "hits": 624,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -311,8 +311,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 298,
-   "verifiedHits": 298,
+   "hits": 299,
+   "verifiedHits": 299,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -476,7 +476,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 115,
+   "hits": 120,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -494,12 +494,12 @@
      "hits": 5
     },
     {
-     "path": "/authors/rosalinda",
+     "path": "/data/agent-tools.json.",
      "hits": 4
     },
     {
-     "path": "/data/agent-tools.json.",
-     "hits": 3
+     "path": "/authors/rosalinda",
+     "hits": 4
     }
    ],
    "verifiable": false
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 101,
-   "verifiedHits": 90,
+   "hits": 103,
+   "verifiedHits": 92,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
