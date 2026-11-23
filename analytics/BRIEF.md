@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-23T05:17Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-23T05:27Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -54,7 +54,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 503 views, 0 reads, 502 sessions, avg 8s
+- /stack/:tool — 505 views, 0 reads, 504 sessions, avg 8s
 - /compare/:pair — 330 views, 0 reads, 330 sessions, avg 33s
 - / — 187 views, 2 reads, 186 sessions, avg 19s
 - /best/:cat — 53 views, 0 reads, 53 sessions
@@ -98,12 +98,12 @@ sample size dwarfs the engaged-read counts below.
 - /posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html  — 29 retrieval fetches
 - /agents.html  — 19 retrieval fetches
 - /dashboard  — 15 retrieval fetches
-- /posts/claude-fable-5-2-vs-opus-5-5-which-tier-founders.html  — 14 retrieval fetches
+- /posts/claude-fable-5-2-vs-opus-5-5-which-tier-founders.html  — 15 retrieval fetches
 - /posts/open-source-llm-ranking-november-2026.html  — 14 retrieval fetches
 
 Per engine:
-- PerplexityBot (2791 verified): / ×23 · /posts/open-source-coding-llm-ranked-november-2026.html ×17 · /dashboard ×15
-- OAI-SearchBot (2196 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×47 · /posts/best-open-vision-language-model-for-agents.html ×29 · /posts/local-llm-for-coding-on-your-own-machine.html ×29
+- PerplexityBot (2792 verified): / ×23 · /posts/open-source-coding-llm-ranked-november-2026.html ×17 · /dashboard ×15
+- OAI-SearchBot (2198 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×47 · /posts/best-open-vision-language-model-for-agents.html ×29 · /posts/local-llm-for-coding-on-your-own-machine.html ×29
 - ChatGPT-User (837 verified): / ×606 · /agents.html ×19 · /about.html ×9
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -141,7 +141,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9409 confirmed AI-engine fetches (GPTBot (OpenAI) 3585, Perplexity 2791, ChatGPT Search (OpenAI) 2196, ChatGPT (user browsing) 837).
+The real answer engines are crawling us — IP-verified: 9413 confirmed AI-engine fetches (GPTBot (OpenAI) 3586, Perplexity 2792, ChatGPT Search (OpenAI) 2198, ChatGPT (user browsing) 837).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 465 crawler fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 156 crawler fetches
