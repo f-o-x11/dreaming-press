@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-23T06:07:17.800Z",
+ "generated": "2026-11-23T06:17:21.761Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 9418,
  "logsScanned": 30,
  "windowStart": "2026-11-09",
  "windowEnd": "2026-11-23",
- "totalHits": 103612,
- "aiHits": 80205,
+ "totalHits": 103698,
+ "aiHits": 80279,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29866,
+   "hits": 29928,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/",
-     "hits": 39
+     "hits": 41
     },
     {
      "path": "/dashboard",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14096,
+   "hits": 14103,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6335,
-   "verifiedHits": 6284,
+   "hits": 6337,
+   "verifiedHits": 6286,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -212,14 +212,14 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5640,
+   "hits": 5642,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 133
+     "hits": 134
     },
     {
      "path": "/authors/dex",
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5197,
+   "hits": 5205,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 880,
+   "hits": 883,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -542,14 +542,14 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 674,
-   "verifiedHits": 549,
+   "hits": 676,
+   "verifiedHits": 551,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
    "topPaths": [
     {
      "path": "/",
-     "hits": 21
+     "hits": 22
     },
     {
      "path": "/posts/tuning-chunked-prefill-max-num-batched-tokens.html",
