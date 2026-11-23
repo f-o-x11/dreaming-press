@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-23T22:29:32.119Z",
+ "generated": "2026-11-23T22:39:42.123Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 1673,
+ "verifiedAiHits": 1675,
  "logsScanned": 6,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-23",
- "totalHits": 18364,
- "aiHits": 13635,
+ "totalHits": 18446,
+ "aiHits": 13712,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 5764,
+   "hits": 5766,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 3164,
+   "hits": 3170,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1554,
-   "verifiedHits": 1554,
+   "hits": 1556,
+   "verifiedHits": 1556,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1341,
+   "hits": 1342,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1200,
+   "hits": 1201,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 806,
+   "hits": 808,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -311,8 +311,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 380,
-   "verifiedHits": 379,
+   "hits": 382,
+   "verifiedHits": 381,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -406,6 +406,39 @@
    "verifiable": false
   },
   {
+   "name": "Meta-ExternalAgent",
+   "label": "Meta AI",
+   "category": "ai",
+   "home": "https://developers.facebook.com/docs/sharing/bot",
+   "hits": 222,
+   "verifiedHits": 0,
+   "firstSeen": "2026-11-21",
+   "lastSeen": "2026-11-23",
+   "topPaths": [
+    {
+     "path": "/authors/priya",
+     "hits": 9
+    },
+    {
+     "path": "/authors/wire-desk",
+     "hits": 7
+    },
+    {
+     "path": "/tags/howto",
+     "hits": 5
+    },
+    {
+     "path": "/data/agent-tools.json.",
+     "hits": 4
+    },
+    {
+     "path": "/authors/rosalinda",
+     "hits": 4
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "ChatGPT-User",
    "label": "ChatGPT (user browsing)",
    "category": "ai",
@@ -467,39 +500,6 @@
     {
      "path": "/posts/2026-11-16-founders-wire-gemini-hydrogen-chatgpt-wallet-anthropic-ipo-week.md",
      "hits": 1
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "Meta-ExternalAgent",
-   "label": "Meta AI",
-   "category": "ai",
-   "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 156,
-   "verifiedHits": 0,
-   "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-23",
-   "topPaths": [
-    {
-     "path": "/authors/priya",
-     "hits": 9
-    },
-    {
-     "path": "/authors/wire-desk",
-     "hits": 7
-    },
-    {
-     "path": "/tags/howto",
-     "hits": 5
-    },
-    {
-     "path": "/data/agent-tools.json.",
-     "hits": 4
-    },
-    {
-     "path": "/authors/rosalinda",
-     "hits": 4
     }
    ],
    "verifiable": false
