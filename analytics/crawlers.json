@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-23T14:28:52.065Z",
+ "generated": "2026-11-23T14:39:12.076Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 1272,
+ "verifiedAiHits": 1275,
  "logsScanned": 6,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-23",
- "totalHits": 16354,
- "aiHits": 12063,
+ "totalHits": 16402,
+ "aiHits": 12091,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 5255,
+   "hits": 5271,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 2796,
+   "hits": 2805,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1372,
-   "verifiedHits": 1372,
+   "hits": 1379,
+   "verifiedHits": 1379,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -241,44 +241,11 @@
    "verifiable": false
   },
   {
-   "name": "PerplexityBot",
-   "label": "Perplexity",
-   "category": "ai",
-   "home": "https://www.perplexity.ai/bot",
-   "hits": 652,
-   "verifiedHits": 652,
-   "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-23",
-   "topPaths": [
-    {
-     "path": "/posts/how-to-connect-claude-to-blender-mcp-server.html",
-     "hits": 8
-    },
-    {
-     "path": "/posts/open-source-llm-ranking-november-2026.html",
-     "hits": 6
-    },
-    {
-     "path": "/posts/gemini-4-hydrogen-vs-claude-haiku-sonnet-fast-agent-model-november-2026.html",
-     "hits": 6
-    },
-    {
-     "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
-     "hits": 6
-    },
-    {
-     "path": "/posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html",
-     "hits": 6
-    }
-   ],
-   "verifiable": true
-  },
-  {
    "name": "Sogou",
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 646,
+   "hits": 658,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -307,18 +274,55 @@
    "verifiable": false
   },
   {
+   "name": "PerplexityBot",
+   "label": "Perplexity",
+   "category": "ai",
+   "home": "https://www.perplexity.ai/bot",
+   "hits": 653,
+   "verifiedHits": 653,
+   "firstSeen": "2026-11-21",
+   "lastSeen": "2026-11-23",
+   "topPaths": [
+    {
+     "path": "/posts/how-to-connect-claude-to-blender-mcp-server.html",
+     "hits": 8
+    },
+    {
+     "path": "/posts/open-source-llm-ranking-november-2026.html",
+     "hits": 6
+    },
+    {
+     "path": "/posts/gemini-4-hydrogen-vs-claude-haiku-sonnet-fast-agent-model-november-2026.html",
+     "hits": 6
+    },
+    {
+     "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
+     "hits": 6
+    },
+    {
+     "path": "/posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html",
+     "hits": 6
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "OAI-SearchBot",
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 300,
-   "verifiedHits": 300,
+   "hits": 301,
+   "verifiedHits": 301,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
     {
      "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
      "hits": 16
+    },
+    {
+     "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
+     "hits": 6
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -331,10 +335,6 @@
     {
      "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
      "hits": 6
-    },
-    {
-     "path": "/posts/best-open-vision-language-model-for-agents.html",
-     "hits": 5
     }
    ],
    "verifiable": true
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 173,
-   "verifiedHits": 172,
+   "hits": 174,
+   "verifiedHits": 173,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
     {
      "path": "/",
-     "hits": 113
+     "hits": 114
     },
     {
      "path": "/about.html",
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 156,
+   "hits": 157,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
