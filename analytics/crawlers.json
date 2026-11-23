@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-23T17:53:52.068Z",
+ "generated": "2026-11-23T18:04:12.102Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 1311,
+ "verifiedAiHits": 1317,
  "logsScanned": 6,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-23",
- "totalHits": 17040,
- "aiHits": 12578,
+ "totalHits": 17079,
+ "aiHits": 12613,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 5477,
+   "hits": 5494,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 2955,
+   "hits": 2963,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -69,7 +69,7 @@
      "hits": 6
     },
     {
-     "path": "/posts/gpt-5-6-prompt-caching-explicit-breakpoints.md",
+     "path": "/posts/langfuse-vs-langsmith-vs-phoenix-observability.html",
      "hits": 3
     }
    ],
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1446,
-   "verifiedHits": 1446,
+   "hits": 1448,
+   "verifiedHits": 1448,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 1262,
+   "hits": 1266,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 705,
+   "hits": 706,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -311,8 +311,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 304,
-   "verifiedHits": 304,
+   "hits": 308,
+   "verifiedHits": 308,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -329,11 +329,11 @@
      "hits": 6
     },
     {
-     "path": "/posts/2026-07-22-founders-wire-mcp-lock-week-a2a-clouds-skills.html",
+     "path": "/wire.html",
      "hits": 6
     },
     {
-     "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
+     "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
      "hits": 6
     }
    ],
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 160,
+   "hits": 161,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -418,6 +418,10 @@
     {
      "path": "/posts/2026-11-13-founders-wire-nvidia-loses-jensen-huang-the-industry-finances-around-him.md",
      "hits": 3
+    },
+    {
+     "path": "/posts/2026-11-06-founders-wire-openai-cyber-model-too-dangerous-google-backstops-anthropic.md",
+     "hits": 2
     },
     {
      "path": "/posts/2026-11-14-founders-wire-court-asked-to-halt-ai-as-anthropic-ipo-nears.md",
@@ -430,10 +434,6 @@
     {
      "path": "/posts/2026-11-16-founders-wire-gemini-hydrogen-chatgpt-wallet-anthropic-ipo-week.md",
      "hits": 1
-    },
-    {
-     "path": "/posts/kv-cache-offloading-lmcache-vs-mooncake-vs-dynamo.html",
-     "hits": 1
     }
    ],
    "verifiable": false
@@ -443,8 +443,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 148,
-   "verifiedHits": 148,
+   "hits": 150,
+   "verifiedHits": 150,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
