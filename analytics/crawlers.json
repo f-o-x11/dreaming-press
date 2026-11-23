@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-23T13:58:38.258Z",
+ "generated": "2026-11-23T14:08:38.604Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 1270,
+ "verifiedAiHits": 1272,
  "logsScanned": 6,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-23",
- "totalHits": 16249,
- "aiHits": 11987,
+ "totalHits": 16296,
+ "aiHits": 12015,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 5223,
+   "hits": 5237,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 14
+     "hits": 15
     },
     {
      "path": "/",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 2773,
+   "hits": 2781,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1365,
-   "verifiedHits": 1365,
+   "hits": 1367,
+   "verifiedHits": 1367,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 1173,
+   "hits": 1177,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -168,7 +168,7 @@
      "hits": 2
     },
     {
-     "path": "/posts/2026-11-22-founders-wire-ant-volatile-debut-gemini-tool-retrieval-isomorphic-5b.html",
+     "path": "/posts/how-to-put-spend-caps-rate-limits-on-ai-agent.html",
      "hits": 2
     }
    ],
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 624,
+   "hits": 641,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -311,8 +311,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 299,
-   "verifiedHits": 299,
+   "hits": 300,
+   "verifiedHits": 300,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 172,
-   "verifiedHits": 171,
+   "hits": 173,
+   "verifiedHits": 172,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
     {
      "path": "/",
-     "hits": 112
+     "hits": 113
     },
     {
      "path": "/about.html",
