@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-23T09:48:00.694Z",
+ "generated": "2026-11-23T09:58:00.875Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
-  "todayReads": 3,
+  "todayReads": 4,
   "avgTimeSec": 14,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3061,
-  "reads": 189,
+  "views": 3062,
+  "reads": 190,
   "completes": 30,
   "plays": 5,
-  "sessions": 2933
+  "sessions": 2934
  },
  "channels": [
   {
@@ -34,6 +34,12 @@
    "sessions": 14
   },
   {
+   "channel": "social",
+   "views": 2,
+   "reads": 1,
+   "sessions": 2
+  },
+  {
    "channel": "campaign:chatgpt.com",
    "views": 6,
    "reads": 0,
@@ -53,12 +59,6 @@
   },
   {
    "channel": "campaign:producthunt",
-   "views": 1,
-   "reads": 0,
-   "sessions": 1
-  },
-  {
-   "channel": "social",
    "views": 1,
    "reads": 0,
    "sessions": 1
@@ -127,6 +127,17 @@
    "median_dwell_sec": 29
   },
   {
+   "channel": "social",
+   "views": 2,
+   "reads": 1,
+   "completes": 0,
+   "sessions": 2,
+   "read_rate": 0.5,
+   "complete_rate": 0,
+   "pages_per_session": 1,
+   "median_dwell_sec": null
+  },
+  {
    "channel": "campaign:openai",
    "views": 1,
    "reads": 0,
@@ -139,17 +150,6 @@
   },
   {
    "channel": "campaign:producthunt",
-   "views": 1,
-   "reads": 0,
-   "completes": 0,
-   "sessions": 1,
-   "read_rate": 0,
-   "complete_rate": 0,
-   "pages_per_session": 1,
-   "median_dwell_sec": null
-  },
-  {
-   "channel": "social",
    "views": 1,
    "reads": 0,
    "completes": 0,
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2762,
-   "reads": 160,
-   "sessions": 2631
+   "views": 2763,
+   "reads": 161,
+   "sessions": 2632
   },
   {
    "device": "mobile",
