@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T07:27:35.044Z",
+ "generated": "2026-11-23T07:37:38.673Z",
  "windowDays": 14,
  "site": {
   "readersNow": 10,
@@ -8,24 +8,24 @@
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3075,
-  "reads": 190,
+  "views": 3079,
+  "reads": 189,
   "completes": 30,
   "plays": 5,
-  "sessions": 2948
+  "sessions": 2952
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2886,
+   "views": 2889,
    "reads": 144,
-   "sessions": 2802
+   "sessions": 2804
   },
   {
    "channel": "organic",
-   "views": 165,
-   "reads": 40,
-   "sessions": 162
+   "views": 166,
+   "reads": 39,
+   "sessions": 163
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2886,
+   "views": 2889,
    "reads": 144,
    "completes": 28,
-   "sessions": 2802,
+   "sessions": 2804,
    "read_rate": 0.05,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 165,
-   "reads": 40,
+   "views": 166,
+   "reads": 39,
    "completes": 1,
-   "sessions": 162,
-   "read_rate": 0.242,
+   "sessions": 163,
+   "read_rate": 0.235,
    "complete_rate": 0.006,
    "pages_per_session": 1.02,
    "median_dwell_sec": 3
@@ -265,15 +265,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2773,
-   "reads": 162,
-   "sessions": 2642
+   "views": 2778,
+   "reads": 161,
+   "sessions": 2647
   },
   {
    "device": "mobile",
-   "views": 301,
+   "views": 300,
    "reads": 28,
-   "sessions": 305
+   "sessions": 304
   },
   {
    "device": "tablet",
@@ -748,8 +748,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 109,
-   "sessions": 103
+   "hits": 111,
+   "sessions": 105
   },
   {
    "ref": "https://www.bing.com/",
@@ -782,17 +782,17 @@
    "sessions": 5
   },
   {
-   "ref": "https://cn.bing.com/",
-   "hits": 6,
-   "sessions": 3
-  },
-  {
    "ref": "wire-row",
    "hits": 5,
    "sessions": 5
   },
   {
    "ref": "https://l.meta.ai/",
+   "hits": 4,
+   "sessions": 2
+  },
+  {
+   "ref": "https://cn.bing.com/",
    "hits": 4,
    "sessions": 2
   }
