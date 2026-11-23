@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-23T00:06:07.339Z",
+ "generated": "2026-11-23T00:16:09.472Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9341,
+ "verifiedAiHits": 9350,
  "logsScanned": 30,
  "windowStart": "2026-11-09",
  "windowEnd": "2026-11-23",
- "totalHits": 101096,
- "aiHits": 79108,
+ "totalHits": 101130,
+ "aiHits": 79138,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,10 +14,10 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29245,
+   "hits": 29257,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-22",
+   "lastSeen": "2026-11-23",
    "topPaths": [
     {
      "path": "/build",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 13836,
+   "hits": 13843,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -179,10 +179,10 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6203,
-   "verifiedHits": 6152,
+   "hits": 6205,
+   "verifiedHits": 6154,
    "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-22",
+   "lastSeen": "2026-11-23",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
@@ -245,10 +245,10 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5103,
+   "hits": 5104,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-22",
+   "lastSeen": "2026-11-23",
    "topPaths": [
     {
      "path": "/build",
@@ -311,8 +311,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2821,
-   "verifiedHits": 2766,
+   "hits": 2829,
+   "verifiedHits": 2774,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 876,
-   "verifiedHits": 813,
+   "hits": 877,
+   "verifiedHits": 814,
    "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-22",
+   "lastSeen": "2026-11-23",
    "topPaths": [
     {
      "path": "/",
-     "hits": 596
+     "hits": 597
     },
     {
      "path": "/agents.html",
@@ -476,10 +476,10 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 862,
+   "hits": 864,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-22",
+   "lastSeen": "2026-11-23",
    "topPaths": [
     {
      "path": "/posts/best-open-source-vector-database-2026.html",
@@ -542,7 +542,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 600,
+   "hits": 601,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
