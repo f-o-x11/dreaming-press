@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-23T14:49Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-23T14:59Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -39,7 +39,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "The Responses API Just Went Multi-Vendor: DeepSeek Speaks It Too — So What Do You Build Your Agent Against?" — 5 reads, 11 views, 0 listens
 - [wire] "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck" — 4 reads, 6 views, 0 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 4 reads, 5 views, 0 listens
-- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 3 reads, 20 views, 1 listens
+- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 3 reads, 19 views, 1 listens
 - [stack] "Open-Source LLM Rankings (November 2026): How to Read the Leaderboards — and Why They Disagree" — 3 reads, 18 views, 0 listens
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 3 reads, 8 views, 0 listens
 - [wire] "Where 2026's Vertical-AI Money Actually Went: Legal Took the Cash, Healthcare Took the Deals" — 3 reads, 8 views, 0 listens
@@ -69,7 +69,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [stack] "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned" — 41 views, 5 reads
 - [wire] "The Founder's Wire, November 21: Washington Puts a License on the Chips Inside Overseas Data Centers, Meta's Agent Moves Into a $300 Pocket Charm, and the Money Keeps Funding the Layer Above the Model" — 23 views, 1 reads
 - [wire] "The Founder's Wire, November 17: California Sues OpenAI Over Agents That Lost Control, a Backdoored Claude Code Extension Reaches Cursor Users, and a Startup Raises $50M to Vet Every Agent Action" — 21 views, 0 reads
-- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 20 views, 3 reads
+- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 19 views, 3 reads
 - [stack] "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own" — 18 views, 10 reads
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 18 views, 7 reads
 
@@ -90,7 +90,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 114 retrieval fetches
+- /  — 115 retrieval fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 16 retrieval fetches
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 8 retrieval fetches
 - /posts/open-source-llm-ranking-november-2026.html  — 6 retrieval fetches
@@ -103,8 +103,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (657 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×8 · /posts/open-source-llm-ranking-november-2026.html ×6 · /posts/gemini-4-hydrogen-vs-claude-haiku-sonnet-fast-agent-model-november-2026.html ×6
-- OAI-SearchBot (301 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×16 · /posts/local-llm-for-coding-on-your-own-machine.html ×6 · /posts/open-source-llm-for-coding-september-2026.html ×6
-- ChatGPT-User (173 verified): / ×114 · /about.html ×5 · /agents.html ×4
+- OAI-SearchBot (302 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×16 · /posts/local-llm-for-coding-on-your-own-machine.html ×6 · /posts/open-source-llm-for-coding-september-2026.html ×6
+- ChatGPT-User (174 verified): / ×115 · /about.html ×5 · /agents.html ×4
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -141,7 +141,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 1279 confirmed AI-engine fetches (Perplexity 657, ChatGPT Search (OpenAI) 301, ChatGPT (user browsing) 173, GPTBot (OpenAI) 148).
+The real answer engines are crawling us — IP-verified: 1281 confirmed AI-engine fetches (Perplexity 657, ChatGPT Search (OpenAI) 302, ChatGPT (user browsing) 174, GPTBot (OpenAI) 148).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 54 crawler fetches
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 31 crawler fetches
