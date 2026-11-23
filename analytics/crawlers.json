@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-23T06:57:26.496Z",
+ "generated": "2026-11-23T07:07:27.614Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9430,
+ "verifiedAiHits": 9433,
  "logsScanned": 30,
  "windowStart": "2026-11-09",
  "windowEnd": "2026-11-23",
- "totalHits": 103870,
- "aiHits": 80414,
+ "totalHits": 103896,
+ "aiHits": 80436,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30004,
+   "hits": 30014,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14134,
+   "hits": 14139,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 8583,
+   "hits": 8587,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6355,
-   "verifiedHits": 6304,
+   "hits": 6357,
+   "verifiedHits": 6306,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1759,
+   "hits": 1760,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -443,7 +443,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 1005,
+   "hits": 1006,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -461,11 +461,11 @@
      "hits": 4
     },
     {
-     "path": "/posts/2026-11-06-founders-wire-openai-cyber-model-too-dangerous-google-backstops-anthropic.md",
+     "path": "/posts/2026-11-13-founders-wire-nvidia-loses-jensen-huang-the-industry-finances-around-him.md",
      "hits": 3
     },
     {
-     "path": "/posts/2026-11-04-founders-wire-agent-compute-bill-grok-dots-claude-threads.md",
+     "path": "/posts/2026-11-06-founders-wire-openai-cyber-model-too-dangerous-google-backstops-anthropic.md",
      "hits": 3
     }
    ],
@@ -476,14 +476,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 904,
-   "verifiedHits": 841,
+   "hits": 907,
+   "verifiedHits": 844,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
    "topPaths": [
     {
      "path": "/",
-     "hits": 610
+     "hits": 611
     },
     {
      "path": "/agents.html",
