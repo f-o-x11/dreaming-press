@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-23T16:11:12.130Z",
+ "generated": "2026-11-23T16:21:32.026Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 1301,
+ "verifiedAiHits": 1303,
  "logsScanned": 6,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-23",
- "totalHits": 16740,
- "aiHits": 12342,
+ "totalHits": 16775,
+ "aiHits": 12365,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 5383,
+   "hits": 5392,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 2873,
+   "hits": 2882,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1411,
-   "verifiedHits": 1411,
+   "hits": 1421,
+   "verifiedHits": 1421,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -94,15 +94,15 @@
      "hits": 8
     },
     {
+     "path": "/tags/reportive",
+     "hits": 7
+    },
+    {
      "path": "/search",
      "hits": 6
     },
     {
      "path": "/posts/2026-11-16-founders-wire-gemini-hydrogen-chatgpt-wallet-anthropic-ipo-week.html",
-     "hits": 6
-    },
-    {
-     "path": "/posts/model-price-drop-early-july-2026-founder-routing-map.html",
      "hits": 6
     }
    ],
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1172,
+   "hits": 1175,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 684,
+   "hits": 686,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 673,
-   "verifiedHits": 673,
+   "hits": 674,
+   "verifiedHits": 674,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 178,
-   "verifiedHits": 177,
+   "hits": 179,
+   "verifiedHits": 178,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
     {
      "path": "/",
-     "hits": 117
+     "hits": 118
     },
     {
      "path": "/about.html",
