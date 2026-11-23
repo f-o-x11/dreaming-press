@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-23T09:27:54.480Z",
+ "generated": "2026-11-23T09:37:56.749Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9457,
+ "verifiedAiHits": 9509,
  "logsScanned": 30,
  "windowStart": "2026-11-09",
  "windowEnd": "2026-11-23",
- "totalHits": 104599,
- "aiHits": 81011,
+ "totalHits": 104684,
+ "aiHits": 81087,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30293,
+   "hits": 30310,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -32,11 +32,11 @@
      "hits": 21
     },
     {
-     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
-     "hits": 16
+     "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
+     "hits": 17
     },
     {
-     "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
+     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
      "hits": 16
     }
    ],
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14251,
+   "hits": 14258,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6415,
-   "verifiedHits": 6364,
+   "hits": 6420,
+   "verifiedHits": 6369,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5272,
+   "hits": 5273,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -311,8 +311,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2856,
-   "verifiedHits": 2801,
+   "hits": 2908,
+   "verifiedHits": 2853,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -333,8 +333,8 @@
      "hits": 15
     },
     {
-     "path": "/posts/open-source-llm-ranking-november-2026.html",
-     "hits": 14
+     "path": "/posts/2026-11-07-founders-wire-ramp-shows-ai-spend-stalling-labs-cut-prices-anthropic-walks-into-its-ipo.html",
+     "hits": 15
     }
    ],
    "verifiable": true
@@ -406,6 +406,39 @@
    "verifiable": false
   },
   {
+   "name": "Applebot",
+   "label": "Applebot (Siri / Spotlight)",
+   "category": "search",
+   "home": "https://support.apple.com/en-us/119829",
+   "hits": 1011,
+   "verifiedHits": 0,
+   "firstSeen": "2026-11-09",
+   "lastSeen": "2026-11-23",
+   "topPaths": [
+    {
+     "path": "/build",
+     "hits": 4
+    },
+    {
+     "path": "/authors/dex",
+     "hits": 4
+    },
+    {
+     "path": "/posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.md",
+     "hits": 4
+    },
+    {
+     "path": "/posts/2026-11-13-founders-wire-nvidia-loses-jensen-huang-the-industry-finances-around-him.md",
+     "hits": 3
+    },
+    {
+     "path": "/posts/2026-11-06-founders-wire-openai-cyber-model-too-dangerous-google-backstops-anthropic.md",
+     "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "CCBot",
    "label": "Common Crawl (feeds many LLMs)",
    "category": "ai",
@@ -434,39 +467,6 @@
     {
      "path": "/userfiles",
      "hits": 2
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "Applebot",
-   "label": "Applebot (Siri / Spotlight)",
-   "category": "search",
-   "home": "https://support.apple.com/en-us/119829",
-   "hits": 1008,
-   "verifiedHits": 0,
-   "firstSeen": "2026-11-09",
-   "lastSeen": "2026-11-23",
-   "topPaths": [
-    {
-     "path": "/build",
-     "hits": 4
-    },
-    {
-     "path": "/authors/dex",
-     "hits": 4
-    },
-    {
-     "path": "/posts/2026-11-02-founders-wire-openai-trims-round-anthropic-agents-broke-in-google-rations-gemini.md",
-     "hits": 4
-    },
-    {
-     "path": "/posts/2026-11-13-founders-wire-nvidia-loses-jensen-huang-the-industry-finances-around-him.md",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-11-06-founders-wire-openai-cyber-model-too-dangerous-google-backstops-anthropic.md",
-     "hits": 3
     }
    ],
    "verifiable": false
