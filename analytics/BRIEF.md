@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-23T05:37Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-23T05:47Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -103,7 +103,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (2792 verified): / ×23 · /posts/open-source-coding-llm-ranked-november-2026.html ×17 · /dashboard ×15
-- OAI-SearchBot (2199 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×47 · /posts/best-open-vision-language-model-for-agents.html ×29 · /posts/local-llm-for-coding-on-your-own-machine.html ×29
+- OAI-SearchBot (2200 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×47 · /posts/best-open-vision-language-model-for-agents.html ×29 · /posts/local-llm-for-coding-on-your-own-machine.html ×29
 - ChatGPT-User (839 verified): / ×608 · /agents.html ×19 · /about.html ×9
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -141,7 +141,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9416 confirmed AI-engine fetches (GPTBot (OpenAI) 3586, Perplexity 2792, ChatGPT Search (OpenAI) 2199, ChatGPT (user browsing) 839).
+The real answer engines are crawling us — IP-verified: 9417 confirmed AI-engine fetches (GPTBot (OpenAI) 3586, Perplexity 2792, ChatGPT Search (OpenAI) 2200, ChatGPT (user browsing) 839).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 465 crawler fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 156 crawler fetches
