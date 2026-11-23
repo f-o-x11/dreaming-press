@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-23T22:19:12.062Z",
+ "generated": "2026-11-23T22:29:32.119Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 1673,
  "logsScanned": 6,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-23",
- "totalHits": 18306,
- "aiHits": 13587,
+ "totalHits": 18364,
+ "aiHits": 13635,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 5760,
+   "hits": 5764,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 3157,
+   "hits": 3164,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1549,
-   "verifiedHits": 1549,
+   "hits": 1554,
+   "verifiedHits": 1554,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 1371,
+   "hits": 1375,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -146,7 +146,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1340,
+   "hits": 1341,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 802,
+   "hits": 806,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -472,6 +472,39 @@
    "verifiable": false
   },
   {
+   "name": "Meta-ExternalAgent",
+   "label": "Meta AI",
+   "category": "ai",
+   "home": "https://developers.facebook.com/docs/sharing/bot",
+   "hits": 156,
+   "verifiedHits": 0,
+   "firstSeen": "2026-11-21",
+   "lastSeen": "2026-11-23",
+   "topPaths": [
+    {
+     "path": "/authors/priya",
+     "hits": 9
+    },
+    {
+     "path": "/authors/wire-desk",
+     "hits": 7
+    },
+    {
+     "path": "/tags/howto",
+     "hits": 5
+    },
+    {
+     "path": "/data/agent-tools.json.",
+     "hits": 4
+    },
+    {
+     "path": "/authors/rosalinda",
+     "hits": 4
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Googlebot",
    "label": "Googlebot",
    "category": "search",
@@ -503,39 +536,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "Meta-ExternalAgent",
-   "label": "Meta AI",
-   "category": "ai",
-   "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 123,
-   "verifiedHits": 0,
-   "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-23",
-   "topPaths": [
-    {
-     "path": "/authors/priya",
-     "hits": 9
-    },
-    {
-     "path": "/authors/wire-desk",
-     "hits": 7
-    },
-    {
-     "path": "/tags/howto",
-     "hits": 5
-    },
-    {
-     "path": "/data/agent-tools.json.",
-     "hits": 4
-    },
-    {
-     "path": "/authors/rosalinda",
-     "hits": 4
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "MistralAI",
