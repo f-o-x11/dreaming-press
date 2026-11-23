@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-23T13:28:36.997Z",
+ "generated": "2026-11-23T13:38:37.396Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 2,
   "todayReads": 4,
   "avgTimeSec": 10,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3083,
-  "reads": 188,
-  "completes": 30,
+  "views": 3064,
+  "reads": 187,
+  "completes": 29,
   "plays": 5,
-  "sessions": 2955
+  "sessions": 2936
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2892,
-   "reads": 142,
-   "sessions": 2807
+   "views": 2873,
+   "reads": 141,
+   "sessions": 2788
   },
   {
    "channel": "organic",
@@ -73,12 +73,12 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2892,
-   "reads": 142,
-   "completes": 28,
-   "sessions": 2807,
+   "views": 2873,
+   "reads": 141,
+   "completes": 27,
+   "sessions": 2788,
    "read_rate": 0.049,
-   "complete_rate": 0.01,
+   "complete_rate": 0.009,
    "pages_per_session": 1.03,
    "median_dwell_sec": 10
   },
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2785,
-   "reads": 159,
-   "sessions": 2654
+   "views": 2766,
+   "reads": 158,
+   "sessions": 2635
   },
   {
    "device": "mobile",
@@ -364,16 +364,6 @@
    "plays": 0
   },
   {
-   "slug": "cheapest-gpu-rental-november-2026",
-   "title": "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 11,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "vertical-ai-agents-legal-health-finance-where-2026-funding-is-going",
    "title": "Where 2026's Vertical-AI Money Actually Went: Legal Took the Cash, Healthcare Took the Deals",
    "section": "wire",
@@ -431,6 +421,16 @@
    "author": "dex",
    "views": 3,
    "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "2026-11-16-founders-wire-gemini-hydrogen-chatgpt-wallet-anthropic-ipo-week",
+   "title": "The Founder's Wire, November 16: Google Ships a Fast Agentic-Coding Model, OpenAI Hands Agents a Wallet, and the First AI IPO Prices This Week",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 16,
+   "reads": 2,
    "plays": 0
   }
  ],
@@ -641,16 +641,16 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 506,
+   "views": 505,
    "reads": 0,
-   "sessions": 505,
+   "sessions": 504,
    "avg_dwell_sec": 8
   },
   {
    "path": "/compare/:pair",
-   "views": 331,
+   "views": 314,
    "reads": 0,
-   "sessions": 331,
+   "sessions": 314,
    "avg_dwell_sec": 33
   },
   {
