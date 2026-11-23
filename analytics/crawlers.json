@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-23T20:46:52.019Z",
+ "generated": "2026-11-23T20:57:12.330Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 1628,
+ "verifiedAiHits": 1657,
  "logsScanned": 6,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-23",
- "totalHits": 17937,
- "aiHits": 13301,
+ "totalHits": 17992,
+ "aiHits": 13349,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 5637,
+   "hits": 5643,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -24,12 +24,12 @@
      "hits": 15
     },
     {
-     "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
+     "path": "/",
      "hits": 10
     },
     {
-     "path": "/",
-     "hits": 9
+     "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
+     "hits": 10
     },
     {
      "path": "/posts/tool-highlight-fish-audio-open-core-voice-ai.html",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 3085,
+   "hits": 3093,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1517,
-   "verifiedHits": 1517,
+   "hits": 1520,
+   "verifiedHits": 1520,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 1339,
+   "hits": 1343,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 760,
+   "hits": 764,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -239,6 +239,39 @@
     }
    ],
    "verifiable": false
+  },
+  {
+   "name": "PerplexityBot",
+   "label": "Perplexity",
+   "category": "ai",
+   "home": "https://www.perplexity.ai/bot",
+   "hits": 751,
+   "verifiedHits": 751,
+   "firstSeen": "2026-11-21",
+   "lastSeen": "2026-11-23",
+   "topPaths": [
+    {
+     "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
+     "hits": 9
+    },
+    {
+     "path": "/posts/gemini-4-hydrogen-vs-claude-haiku-sonnet-fast-agent-model-november-2026.html",
+     "hits": 8
+    },
+    {
+     "path": "/posts/how-to-connect-claude-to-blender-mcp-server.html",
+     "hits": 8
+    },
+    {
+     "path": "/posts/2026-11-20-founders-wire-apple-builds-its-own-agent-arizona-opens-criminal-probe-anthropic-ant-debuts.html",
+     "hits": 7
+    },
+    {
+     "path": "/posts/open-source-llm-ranking-november-2026.html",
+     "hits": 7
+    }
+   ],
+   "verifiable": true
   },
   {
    "name": "Baiduspider",
@@ -272,39 +305,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "PerplexityBot",
-   "label": "Perplexity",
-   "category": "ai",
-   "home": "https://www.perplexity.ai/bot",
-   "hits": 724,
-   "verifiedHits": 724,
-   "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-23",
-   "topPaths": [
-    {
-     "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
-     "hits": 8
-    },
-    {
-     "path": "/posts/how-to-connect-claude-to-blender-mcp-server.html",
-     "hits": 8
-    },
-    {
-     "path": "/posts/gemini-4-hydrogen-vs-claude-haiku-sonnet-fast-agent-model-november-2026.html",
-     "hits": 7
-    },
-    {
-     "path": "/posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html",
-     "hits": 7
-    },
-    {
-     "path": "/posts/2026-11-20-founders-wire-apple-builds-its-own-agent-arizona-opens-criminal-probe-anthropic-ant-debuts.html",
-     "hits": 6
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "GPTBot",
@@ -344,8 +344,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 328,
-   "verifiedHits": 328,
+   "hits": 330,
+   "verifiedHits": 330,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -509,7 +509,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 121,
+   "hits": 122,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
