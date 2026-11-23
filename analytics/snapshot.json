@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-23T16:42:02.441Z",
+ "generated": "2026-11-23T16:52:22.355Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 5,
+  "readersNow": 5,
+  "todayReads": 6,
   "avgTimeSec": 9,
   "postsThisWeek": 15
  },
  "funnel": {
-  "views": 3050,
-  "reads": 188,
+  "views": 3054,
+  "reads": 189,
   "completes": 29,
   "plays": 5,
-  "sessions": 2922
+  "sessions": 2926
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2855,
+   "views": 2858,
    "reads": 141,
-   "sessions": 2770
+   "sessions": 2773
   },
   {
    "channel": "organic",
-   "views": 169,
-   "reads": 39,
-   "sessions": 166
+   "views": 170,
+   "reads": 40,
+   "sessions": 167
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2855,
+   "views": 2858,
    "reads": 141,
    "completes": 27,
-   "sessions": 2770,
+   "sessions": 2773,
    "read_rate": 0.049,
    "complete_rate": 0.009,
    "pages_per_session": 1.03,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 169,
-   "reads": 39,
+   "views": 170,
+   "reads": 40,
    "completes": 1,
-   "sessions": 166,
-   "read_rate": 0.231,
+   "sessions": 167,
+   "read_rate": 0.235,
    "complete_rate": 0.006,
    "pages_per_session": 1.02,
    "median_dwell_sec": 3
@@ -265,15 +265,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2754,
-   "reads": 159,
-   "sessions": 2623
+   "views": 2755,
+   "reads": 160,
+   "sessions": 2624
   },
   {
    "device": "mobile",
-   "views": 295,
+   "views": 298,
    "reads": 29,
-   "sessions": 298
+   "sessions": 301
   },
   {
    "device": "tablet",
@@ -329,8 +329,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 6,
-   "reads": 4,
+   "views": 7,
+   "reads": 5,
    "plays": 0
   },
   {
@@ -521,8 +521,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 6,
-   "reads": 4,
+   "views": 7,
+   "reads": 5,
    "plays": 0
   },
   {
@@ -753,8 +753,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 42,
-   "sessions": 24
+   "hits": 44,
+   "sessions": 25
   },
   {
    "ref": "https://duckduckgo.com/",
