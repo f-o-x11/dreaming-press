@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-23T02:46:35.000Z",
+ "generated": "2026-11-23T02:56:40.085Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3077,
+  "views": 3076,
   "reads": 189,
   "completes": 30,
   "plays": 5,
-  "sessions": 2949
+  "sessions": 2948
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2887,
+   "views": 2886,
    "reads": 143,
-   "sessions": 2802
+   "sessions": 2801
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2887,
+   "views": 2886,
    "reads": 143,
    "completes": 28,
-   "sessions": 2802,
+   "sessions": 2801,
    "read_rate": 0.05,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2776,
+   "views": 2775,
    "reads": 161,
-   "sessions": 2644
+   "sessions": 2643
   },
   {
    "device": "mobile",
@@ -289,7 +289,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 20,
+   "views": 19,
    "reads": 11,
    "plays": 0
   },
@@ -491,7 +491,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 20,
+   "views": 19,
    "reads": 11,
    "plays": 0
   },
@@ -568,16 +568,6 @@
    "plays": 0
   },
   {
-   "slug": "openai-responses-api-state-previous-response-id-vs-conversations-api",
-   "title": "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 11,
-   "plays": 0
-  },
-  {
    "slug": "best-llm-for-creative-writing-october-2026",
    "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
    "section": "stack",
@@ -586,6 +576,16 @@
    "views": 20,
    "reads": 3,
    "plays": 1
+  },
+  {
+   "slug": "openai-responses-api-state-previous-response-id-vs-conversations-api",
+   "title": "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 19,
+   "reads": 11,
+   "plays": 0
   },
   {
    "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
