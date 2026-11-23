@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-23T08:07:42.126Z",
+ "generated": "2026-11-23T08:17:44.747Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 2,
-  "avgTimeSec": 10,
+  "readersNow": 3,
+  "todayReads": 3,
+  "avgTimeSec": 14,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3074,
-  "reads": 189,
+  "views": 3075,
+  "reads": 190,
   "completes": 30,
   "plays": 5,
   "sessions": 2947
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 13,
-   "reads": 6,
-   "sessions": 13
+   "views": 14,
+   "reads": 7,
+   "sessions": 14
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -67,7 +67,7 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 18
+   "sessions": 19
   }
  ],
  "channelQuality": [
@@ -95,12 +95,12 @@
   },
   {
    "channel": "referral",
-   "views": 13,
-   "reads": 6,
+   "views": 14,
+   "reads": 7,
    "completes": 1,
-   "sessions": 13,
-   "read_rate": 0.462,
-   "complete_rate": 0.077,
+   "sessions": 14,
+   "read_rate": 0.5,
+   "complete_rate": 0.071,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
@@ -164,7 +164,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 18,
+   "sessions": 19,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -208,6 +208,11 @@
    "sessions": 2
   },
   {
+   "surface": "brand",
+   "clicks": 3,
+   "sessions": 3
+  },
+  {
    "surface": "un-body",
    "clicks": 2,
    "sessions": 2
@@ -224,11 +229,6 @@
   },
   {
    "surface": "btn-agents",
-   "clicks": 2,
-   "sessions": 2
-  },
-  {
-   "surface": "brand",
    "clicks": 2,
    "sessions": 2
   },
@@ -265,15 +265,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2773,
+   "views": 2772,
    "reads": 161,
-   "sessions": 2642
+   "sessions": 2641
   },
   {
    "device": "mobile",
-   "views": 300,
-   "reads": 28,
-   "sessions": 304
+   "views": 302,
+   "reads": 29,
+   "sessions": 305
   },
   {
    "device": "tablet",
@@ -641,9 +641,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 505,
+   "views": 504,
    "reads": 0,
-   "sessions": 504,
+   "sessions": 503,
    "avg_dwell_sec": 8
   },
   {
@@ -792,7 +792,7 @@
    "sessions": 2
   },
   {
-   "ref": "https://cn.bing.com/",
+   "ref": "https://kagi.com/",
    "hits": 4,
    "sessions": 2
   }
