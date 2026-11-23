@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-23T10:28Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-23T10:38Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3067 views → 190 engaged reads → 30 completes · 2940 sessions.
-- Channels: direct 143r/2877v · organic 39r/164v · referral 7r/14v · social 1r/2v · campaign:chatgpt.com 0r/6v · ai 0r/2v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 3067 views → 189 engaged reads → 30 completes · 2939 sessions.
+- Channels: direct 143r/2877v · organic 38r/164v · referral 7r/14v · social 1r/2v · campaign:chatgpt.com 0r/6v · ai 0r/2v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 0r/6v · Doubao 0r/2v.
 - Referrers: google.com, bing.com, duckduckgo.com, nav-cmp, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, wire-row, l.meta.ai, kagi.com.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -24,7 +24,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
 - direct: 2877 views · read 5.0% · complete 1.0% · 1.03 pages/session · median 10s
-- organic: 164 views · read 23.8% · complete 0.6% · 1.01 pages/session · median 3s
+- organic: 164 views · read 23.2% · complete 0.6% · 1.02 pages/session · median 3s
 - referral: 14 views · read 50.0% · complete 7.1% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 6 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
 INSIGHT: referral converts 10x better per view than direct, which is 94% of all views.
@@ -33,7 +33,7 @@ NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
 
 ## Top by engaged reads (eyes that stayed)
-- [stack] "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own" — 11 reads, 18 views, 0 listens
+- [stack] "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own" — 10 reads, 18 views, 0 listens
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 7 reads, 18 views, 1 listens
 - [stack] "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned" — 5 reads, 41 views, 0 listens
 - [wire] "The Responses API Just Went Multi-Vendor: DeepSeek Speaks It Too — So What Do You Build Your Agent Against?" — 5 reads, 11 views, 0 listens
@@ -70,7 +70,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [wire] "The Founder's Wire, November 21: Washington Puts a License on the Chips Inside Overseas Data Centers, Meta's Agent Moves Into a $300 Pocket Charm, and the Money Keeps Funding the Layer Above the Model" — 22 views, 1 reads
 - [wire] "The Founder's Wire, November 17: California Sues OpenAI Over Agents That Lost Control, a Backdoored Claude Code Extension Reaches Cursor Users, and a Startup Raises $50M to Vet Every Agent Action" — 21 views, 0 reads
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 20 views, 3 reads
-- [stack] "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own" — 18 views, 11 reads
+- [stack] "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own" — 18 views, 10 reads
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 18 views, 7 reads
 
 ## Arrived but left (fix these openings first)
@@ -111,7 +111,7 @@ precedes a human click is proven demand; a page with 4 engaged reads is not yet 
 
 ## WRITE MORE LIKE THESE — SUPPRESSED (not enough support yet)
 1 piece(s) clear 10 engaged reads; this block needs 5 before a "winning
-format" distribution means anything (best in-window: 11 reads). Inferring a pattern from
+format" distribution means anything (best in-window: 10 reads). Inferring a pattern from
 single-digit samples is curve-fitting, and a confident wrong steer costs more than none.
 ACTION: commission from "WHAT ANSWER ENGINES ARE PULLING" above — its sample size is in the
 hundreds — and from uncovered search demand below. This block returns on its own.
