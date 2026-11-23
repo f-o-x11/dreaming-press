@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-23T20:26Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-23T20:36Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -90,7 +90,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 126 retrieval fetches
+- /  — 127 retrieval fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 18 retrieval fetches
 - /wire.html  — 9 retrieval fetches
 - /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html  — 8 retrieval fetches
@@ -102,9 +102,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 6 retrieval fetches
 
 Per engine:
-- PerplexityBot (721 verified): /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×8 · /posts/how-to-connect-claude-to-blender-mcp-server.html ×8 · /posts/gemini-4-hydrogen-vs-claude-haiku-sonnet-fast-agent-model-november-2026.html ×7
-- OAI-SearchBot (325 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×18 · /posts/local-llm-for-coding-on-your-own-machine.html ×6 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×6
-- ChatGPT-User (197 verified): / ×126 · /about.html ×6 · /agents.html ×4
+- PerplexityBot (723 verified): /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×8 · /posts/how-to-connect-claude-to-blender-mcp-server.html ×8 · /posts/gemini-4-hydrogen-vs-claude-haiku-sonnet-fast-agent-model-november-2026.html ×7
+- OAI-SearchBot (327 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×18 · /posts/local-llm-for-coding-on-your-own-machine.html ×6 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×6
+- ChatGPT-User (198 verified): / ×127 · /about.html ×6 · /agents.html ×4
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -141,10 +141,10 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 1395 confirmed AI-engine fetches (Perplexity 721, ChatGPT Search (OpenAI) 325, ChatGPT (user browsing) 197, GPTBot (OpenAI) 152).
+The real answer engines are crawling us — IP-verified: 1400 confirmed AI-engine fetches (Perplexity 723, ChatGPT Search (OpenAI) 327, ChatGPT (user browsing) 198, GPTBot (OpenAI) 152).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 54 crawler fetches
-- /posts/best-llm-for-16gb-vram-november-2026.html  — 40 crawler fetches
+- /posts/best-llm-for-16gb-vram-november-2026.html  — 41 crawler fetches
 - /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html  — 35 crawler fetches
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 32 crawler fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 18 crawler fetches
