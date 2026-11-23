@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-23T18:54:52.298Z",
+ "generated": "2026-11-23T19:05:03.997Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 1361,
+ "verifiedAiHits": 1376,
  "logsScanned": 6,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-23",
- "totalHits": 17286,
- "aiHits": 12786,
+ "totalHits": 17359,
+ "aiHits": 12832,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 5550,
+   "hits": 5562,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 3002,
+   "hits": 3010,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1461,
-   "verifiedHits": 1461,
+   "hits": 1474,
+   "verifiedHits": 1474,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -113,7 +113,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1330,
+   "hits": 1331,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 1283,
+   "hits": 1289,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -208,6 +208,39 @@
    "verifiable": false
   },
   {
+   "name": "Sogou",
+   "label": "Sogou",
+   "category": "search",
+   "home": "https://www.sogou.com",
+   "hits": 719,
+   "verifiedHits": 0,
+   "firstSeen": "2026-11-21",
+   "lastSeen": "2026-11-23",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 3
+    },
+    {
+     "path": "/posts/open-source-llm-for-coding-september-2026.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/claude-opus-5-vs-kimi-k3-agentic-coding-model.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet.md",
+     "hits": 2
+    },
+    {
+     "path": "/posts/2026-11-13-founders-wire-nvidia-loses-jensen-huang-the-industry-finances-around-him.md",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Baiduspider",
    "label": "Baidu",
    "category": "search",
@@ -241,45 +274,12 @@
    "verifiable": false
   },
   {
-   "name": "Sogou",
-   "label": "Sogou",
-   "category": "search",
-   "home": "https://www.sogou.com",
-   "hits": 716,
-   "verifiedHits": 0,
-   "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-23",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 3
-    },
-    {
-     "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/claude-opus-5-vs-kimi-k3-agentic-coding-model.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet.md",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-11-13-founders-wire-nvidia-loses-jensen-huang-the-industry-finances-around-him.md",
-     "hits": 2
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "PerplexityBot",
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 709,
-   "verifiedHits": 709,
+   "hits": 712,
+   "verifiedHits": 712,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 319,
-   "verifiedHits": 319,
+   "hits": 320,
+   "verifiedHits": 320,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -344,18 +344,22 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 225,
+   "hits": 228,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
     {
      "path": "/posts/best-llm-for-16gb-vram-november-2026.html",
-     "hits": 36
+     "hits": 37
     },
     {
      "path": "/posts/how-to-connect-claude-to-blender-mcp-server.html",
      "hits": 24
+    },
+    {
+     "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
+     "hits": 12
     },
     {
      "path": "/posts/best-open-source-vector-database-2026.html",
@@ -364,10 +368,6 @@
     {
      "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
      "hits": 12
-    },
-    {
-     "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 11
     }
    ],
    "verifiable": false
@@ -377,18 +377,18 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 185,
-   "verifiedHits": 183,
+   "hits": 196,
+   "verifiedHits": 194,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
     {
      "path": "/",
-     "hits": 122
+     "hits": 123
     },
     {
      "path": "/about.html",
-     "hits": 5
+     "hits": 6
     },
     {
      "path": "/agents.html",
@@ -399,7 +399,7 @@
      "hits": 3
     },
     {
-     "path": "/posts/tpu-vs-gpu-llm-inference.html",
+     "path": "/wire.html",
      "hits": 3
     }
    ],
@@ -472,6 +472,39 @@
    "verifiable": true
   },
   {
+   "name": "Googlebot",
+   "label": "Googlebot",
+   "category": "search",
+   "home": "https://developers.google.com/search",
+   "hits": 123,
+   "verifiedHits": 112,
+   "firstSeen": "2026-11-21",
+   "lastSeen": "2026-11-23",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 7
+    },
+    {
+     "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
+     "hits": 4
+    },
+    {
+     "path": "/reports/state-of-ai-agents",
+     "hits": 2
+    },
+    {
+     "path": "/posts/tuning-chunked-prefill-max-num-batched-tokens.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/i-launched-a-product.html",
+     "hits": 1
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "Meta-ExternalAgent",
    "label": "Meta AI",
    "category": "ai",
@@ -503,39 +536,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "Googlebot",
-   "label": "Googlebot",
-   "category": "search",
-   "home": "https://developers.google.com/search",
-   "hits": 113,
-   "verifiedHits": 102,
-   "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-23",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 5
-    },
-    {
-     "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
-     "hits": 4
-    },
-    {
-     "path": "/reports/state-of-ai-agents",
-     "hits": 2
-    },
-    {
-     "path": "/posts/tuning-chunked-prefill-max-num-batched-tokens.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/i-launched-a-product.html",
-     "hits": 1
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "MistralAI",
@@ -571,7 +571,7 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 19,
+   "hits": 21,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -585,15 +585,15 @@
      "hits": 2
     },
     {
+     "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
+     "hits": 2
+    },
+    {
      "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
      "hits": 1
     },
     {
      "path": "/posts/best-llm-for-16gb-vram-november-2026.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/mem0-vs-zep-vs-letta-self-host-august-2026.html",
      "hits": 1
     }
    ],
