@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-23T12:38Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-23T12:48Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -54,7 +54,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 506 views, 0 reads, 505 sessions, avg 8s
+- /stack/:tool — 505 views, 0 reads, 504 sessions, avg 8s
 - /compare/:pair — 331 views, 0 reads, 331 sessions, avg 33s
 - / — 184 views, 2 reads, 183 sessions, avg 18s
 - /best/:cat — 53 views, 0 reads, 53 sessions
@@ -102,9 +102,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-11-07-founders-wire-ramp-shows-ai-spend-stalling-labs-cut-prices-anthropic-walks-into-its-ipo.html  — 15 retrieval fetches
 
 Per engine:
-- PerplexityBot (2907 verified): / ×24 · /posts/open-source-coding-llm-ranked-november-2026.html ×17 · /dashboard ×15
-- OAI-SearchBot (2229 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×48 · /posts/open-source-llm-for-coding-september-2026.html ×30 · /posts/2026-07-22-founders-wire-mcp-lock-week-a2a-clouds-skills.html ×30
-- ChatGPT-User (861 verified): / ×626 · /agents.html ×19 · /about.html ×9
+- PerplexityBot (2908 verified): / ×24 · /posts/open-source-coding-llm-ranked-november-2026.html ×17 · /dashboard ×15
+- OAI-SearchBot (2230 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×48 · /posts/open-source-llm-for-coding-september-2026.html ×30 · /posts/2026-07-22-founders-wire-mcp-lock-week-a2a-clouds-skills.html ×30
+- ChatGPT-User (862 verified): / ×626 · /agents.html ×19 · /about.html ×9
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -141,7 +141,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 9592 confirmed AI-engine fetches (GPTBot (OpenAI) 3595, Perplexity 2907, ChatGPT Search (OpenAI) 2229, ChatGPT (user browsing) 861).
+The real answer engines are crawling us — IP-verified: 9595 confirmed AI-engine fetches (GPTBot (OpenAI) 3595, Perplexity 2908, ChatGPT Search (OpenAI) 2230, ChatGPT (user browsing) 862).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 467 crawler fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 154 crawler fetches

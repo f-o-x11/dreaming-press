@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-23T12:38:28.949Z",
+ "generated": "2026-11-23T12:48:32.676Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9592,
+ "verifiedAiHits": 9595,
  "logsScanned": 30,
  "windowStart": "2026-11-09",
  "windowEnd": "2026-11-23",
- "totalHits": 105460,
- "aiHits": 81708,
+ "totalHits": 105502,
+ "aiHits": 81741,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 30628,
+   "hits": 30649,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14400,
+   "hits": 14407,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6498,
-   "verifiedHits": 6447,
+   "hits": 6506,
+   "verifiedHits": 6455,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2962,
-   "verifiedHits": 2907,
+   "hits": 2963,
+   "verifiedHits": 2908,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -344,8 +344,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 2262,
-   "verifiedHits": 2229,
+   "hits": 2263,
+   "verifiedHits": 2230,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -476,8 +476,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 924,
-   "verifiedHits": 861,
+   "hits": 925,
+   "verifiedHits": 862,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -509,7 +509,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 902,
+   "hits": 904,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -542,14 +542,14 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 691,
-   "verifiedHits": 563,
+   "hits": 692,
+   "verifiedHits": 564,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
    "topPaths": [
     {
      "path": "/",
-     "hits": 22
+     "hits": 23
     },
     {
      "path": "/reports/state-of-ai-agents",
