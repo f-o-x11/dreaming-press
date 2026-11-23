@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-23T18:24:28.125Z",
+ "generated": "2026-11-23T18:34:32.093Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 1326,
+ "verifiedAiHits": 1356,
  "logsScanned": 6,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-23",
- "totalHits": 17147,
- "aiHits": 12675,
+ "totalHits": 17208,
+ "aiHits": 12723,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 5523,
+   "hits": 5532,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 2977,
+   "hits": 2986,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1453,
-   "verifiedHits": 1453,
+   "hits": 1457,
+   "verifiedHits": 1457,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 707,
+   "hits": 709,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 682,
-   "verifiedHits": 682,
+   "hits": 708,
+   "verifiedHits": 708,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 312,
-   "verifiedHits": 312,
+   "hits": 316,
+   "verifiedHits": 316,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -325,15 +325,15 @@
      "hits": 6
     },
     {
+     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
+     "hits": 6
+    },
+    {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
      "hits": 6
     },
     {
      "path": "/wire.html",
-     "hits": 6
-    },
-    {
-     "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
      "hits": 6
     }
    ],
@@ -509,14 +509,18 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 106,
-   "verifiedHits": 95,
+   "hits": 113,
+   "verifiedHits": 102,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
     {
      "path": "/",
      "hits": 5
+    },
+    {
+     "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
+     "hits": 4
     },
     {
      "path": "/reports/state-of-ai-agents",
@@ -528,10 +532,6 @@
     },
     {
      "path": "/posts/i-launched-a-product.html",
-     "hits": 1
-    },
-    {
-     "path": "/dispatches.html",
      "hits": 1
     }
    ],
