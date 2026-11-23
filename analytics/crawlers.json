@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-23T04:06:51.156Z",
+ "generated": "2026-11-23T04:16:54.480Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 9398,
+ "verifiedAiHits": 9401,
  "logsScanned": 30,
  "windowStart": "2026-11-09",
  "windowEnd": "2026-11-23",
- "totalHits": 103159,
- "aiHits": 79841,
+ "totalHits": 103211,
+ "aiHits": 79876,
  "aiEngines": 17,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 29654,
+   "hits": 29676,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 14004,
+   "hits": 14011,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 8539,
+   "hits": 8542,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -179,8 +179,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 6287,
-   "verifiedHits": 6236,
+   "hits": 6295,
+   "verifiedHits": 6244,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 5164,
+   "hits": 5173,
    "verifiedHits": 0,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
@@ -267,7 +267,7 @@
      "hits": 10
     },
     {
-     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
+     "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
      "hits": 10
     }
    ],
@@ -311,8 +311,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 2840,
-   "verifiedHits": 2785,
+   "hits": 2843,
+   "verifiedHits": 2788,
    "firstSeen": "2026-11-09",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -333,7 +333,7 @@
      "hits": 14
     },
     {
-     "path": "/apps",
+     "path": "/posts/open-source-llm-ranking-november-2026.html",
      "hits": 14
     }
    ],
