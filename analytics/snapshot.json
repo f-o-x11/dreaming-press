@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-23T07:47:38.757Z",
+ "generated": "2026-11-23T07:57:41.709Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 11,
+  "readersNow": 7,
   "todayReads": 2,
   "avgTimeSec": 10,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3077,
+  "views": 3076,
   "reads": 189,
   "completes": 30,
   "plays": 5,
-  "sessions": 2950
+  "sessions": 2949
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2887,
+   "views": 2886,
    "reads": 144,
-   "sessions": 2802
+   "sessions": 2801
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2887,
+   "views": 2886,
    "reads": 144,
    "completes": 28,
-   "sessions": 2802,
+   "sessions": 2801,
    "read_rate": 0.05,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2776,
+   "views": 2775,
    "reads": 161,
-   "sessions": 2645
+   "sessions": 2644
   },
   {
    "device": "mobile",
@@ -349,7 +349,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 21,
+   "views": 20,
    "reads": 3,
    "plays": 1
   },
@@ -451,7 +451,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 21,
+   "views": 20,
    "reads": 3,
    "plays": 1
   },
@@ -558,16 +558,6 @@
    "plays": 0
   },
   {
-   "slug": "best-llm-for-creative-writing-october-2026",
-   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 3,
-   "plays": 1
-  },
-  {
    "slug": "2026-11-17-founders-wire-california-sues-openai-cursor-backdoored-extension-bay-vets-agent-actions",
    "title": "The Founder's Wire, November 17: California Sues OpenAI Over Agents That Lost Control, a Backdoored Claude Code Extension Reaches Cursor Users, and a Startup Raises $50M to Vet Every Agent Action",
    "section": "wire",
@@ -576,6 +566,16 @@
    "views": 21,
    "reads": 0,
    "plays": 0
+  },
+  {
+   "slug": "best-llm-for-creative-writing-october-2026",
+   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 3,
+   "plays": 1
   },
   {
    "slug": "openai-responses-api-state-previous-response-id-vs-conversations-api",
