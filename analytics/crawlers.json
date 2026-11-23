@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-23T22:08:52.089Z",
+ "generated": "2026-11-23T22:19:12.062Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 1672,
+ "verifiedAiHits": 1673,
  "logsScanned": 6,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-23",
- "totalHits": 18260,
- "aiHits": 13557,
+ "totalHits": 18306,
+ "aiHits": 13587,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 5749,
+   "hits": 5760,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/",
-     "hits": 10
+     "hits": 12
     },
     {
      "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
@@ -36,8 +36,8 @@
      "hits": 7
     },
     {
-     "path": "/posts/2026-11-18-founders-wire-microsoft-ignite-mai-price-war-agent-365-anthropic-ipo-prices.html",
-     "hits": 5
+     "path": "/posts/open-source-agent-memory-libraries-mem0-zep-letta-cognee.html",
+     "hits": 6
     }
    ],
    "verifiable": false
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 3149,
+   "hits": 3157,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1543,
-   "verifiedHits": 1543,
+   "hits": 1549,
+   "verifiedHits": 1549,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 1367,
+   "hits": 1371,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -146,7 +146,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1339,
+   "hits": 1340,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1197,
+   "hits": 1200,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 795,
+   "hits": 802,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -311,7 +311,7 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 379,
+   "hits": 380,
    "verifiedHits": 379,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -344,7 +344,7 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 335,
+   "hits": 336,
    "verifiedHits": 335,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 204,
-   "verifiedHits": 201,
+   "hits": 205,
+   "verifiedHits": 202,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
     {
      "path": "/",
-     "hits": 130
+     "hits": 131
     },
     {
      "path": "/about.html",
@@ -476,8 +476,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 127,
-   "verifiedHits": 116,
+   "hits": 129,
+   "verifiedHits": 118,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -509,7 +509,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 122,
+   "hits": 123,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
