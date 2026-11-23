@@ -1,7 +1,7 @@
 {
- "fetched_at": "2026-11-22T11:43:31.625Z",
+ "fetched_at": "2026-11-23T11:44:22.626Z",
  "seeds": 25,
- "phrases": 459,
+ "phrases": 461,
  "gaps": 245,
  "top_gaps": [
   {
@@ -71,6 +71,19 @@
   },
   {
    "phrase": "vibe coding meaning",
+   "engines": [
+    "google",
+    "bing",
+    "ddg"
+   ],
+   "seeds": [
+    "vibe coding"
+   ],
+   "score": 7,
+   "covered": null
+  },
+  {
+   "phrase": "vibe coding meme",
    "engines": [
     "google",
     "bing",
@@ -475,18 +488,6 @@
    ],
    "seeds": [
     "cheapest gpu"
-   ],
-   "score": 5,
-   "covered": null
-  },
-  {
-   "phrase": "claude code vscode extension",
-   "engines": [
-    "bing",
-    "ddg"
-   ],
-   "seeds": [
-    "claude code vs"
    ],
    "score": 5,
    "covered": null
