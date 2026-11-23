@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-23T19:35:32.134Z",
+ "generated": "2026-11-23T19:45:32.772Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 1387,
+ "verifiedAiHits": 1388,
  "logsScanned": 6,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-23",
- "totalHits": 17466,
- "aiHits": 12911,
+ "totalHits": 17509,
+ "aiHits": 12941,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 5592,
+   "hits": 5601,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 3034,
+   "hits": 3042,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1483,
-   "verifiedHits": 1483,
+   "hits": 1486,
+   "verifiedHits": 1486,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 1297,
+   "hits": 1307,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1193,
+   "hits": 1195,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -208,44 +208,11 @@
    "verifiable": false
   },
   {
-   "name": "Sogou",
-   "label": "Sogou",
-   "category": "search",
-   "home": "https://www.sogou.com",
-   "hits": 726,
-   "verifiedHits": 0,
-   "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-23",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 3
-    },
-    {
-     "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/claude-opus-5-vs-kimi-k3-agentic-coding-model.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet.md",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-11-13-founders-wire-nvidia-loses-jensen-huang-the-industry-finances-around-him.md",
-     "hits": 2
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Baiduspider",
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 724,
+   "hits": 731,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -269,6 +236,39 @@
     {
      "path": "/authors/dex",
      "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "Sogou",
+   "label": "Sogou",
+   "category": "search",
+   "home": "https://www.sogou.com",
+   "hits": 728,
+   "verifiedHits": 0,
+   "firstSeen": "2026-11-21",
+   "lastSeen": "2026-11-23",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 3
+    },
+    {
+     "path": "/posts/open-source-llm-for-coding-september-2026.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/claude-opus-5-vs-kimi-k3-agentic-coding-model.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/2026-11-05-founders-wire-coding-agents-cheaper-agent-security-bought-amd-inference-bet.md",
+     "hits": 2
+    },
+    {
+     "path": "/posts/2026-11-13-founders-wire-nvidia-loses-jensen-huang-the-industry-finances-around-him.md",
+     "hits": 2
     }
    ],
    "verifiable": false
@@ -377,14 +377,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 197,
-   "verifiedHits": 195,
+   "hits": 198,
+   "verifiedHits": 196,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
     {
      "path": "/",
-     "hits": 124
+     "hits": 125
     },
     {
      "path": "/about.html",
@@ -476,8 +476,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 126,
-   "verifiedHits": 115,
+   "hits": 127,
+   "verifiedHits": 116,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
