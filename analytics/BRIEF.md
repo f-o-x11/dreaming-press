@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-23T15:30Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-23T15:40Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -93,8 +93,8 @@ sample size dwarfs the engaged-read counts below.
 - /  — 117 retrieval fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 16 retrieval fetches
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 8 retrieval fetches
+- /posts/gemini-4-hydrogen-vs-claude-haiku-sonnet-fast-agent-model-november-2026.html  — 7 retrieval fetches
 - /posts/open-source-llm-ranking-november-2026.html  — 6 retrieval fetches
-- /posts/gemini-4-hydrogen-vs-claude-haiku-sonnet-fast-agent-model-november-2026.html  — 6 retrieval fetches
 - /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html  — 6 retrieval fetches
 - /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html  — 6 retrieval fetches
 - /posts/local-llm-for-coding-on-your-own-machine.html  — 6 retrieval fetches
@@ -102,7 +102,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-07-22-founders-wire-mcp-lock-week-a2a-clouds-skills.html  — 6 retrieval fetches
 
 Per engine:
-- PerplexityBot (662 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×8 · /posts/open-source-llm-ranking-november-2026.html ×6 · /posts/gemini-4-hydrogen-vs-claude-haiku-sonnet-fast-agent-model-november-2026.html ×6
+- PerplexityBot (663 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×8 · /posts/gemini-4-hydrogen-vs-claude-haiku-sonnet-fast-agent-model-november-2026.html ×7 · /posts/open-source-llm-ranking-november-2026.html ×6
 - OAI-SearchBot (303 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×16 · /posts/local-llm-for-coding-on-your-own-machine.html ×6 · /posts/open-source-llm-for-coding-september-2026.html ×6
 - ChatGPT-User (177 verified): / ×117 · /about.html ×5 · /agents.html ×4
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -141,7 +141,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 1290 confirmed AI-engine fetches (Perplexity 662, ChatGPT Search (OpenAI) 303, ChatGPT (user browsing) 177, GPTBot (OpenAI) 148).
+The real answer engines are crawling us — IP-verified: 1291 confirmed AI-engine fetches (Perplexity 663, ChatGPT Search (OpenAI) 303, ChatGPT (user browsing) 177, GPTBot (OpenAI) 148).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 54 crawler fetches
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 31 crawler fetches
@@ -154,7 +154,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/open-source-llm-for-coding-september-2026.html  — 9 crawler fetches
 - /posts/open-source-llm-ranking-november-2026.html  — 8 crawler fetches
 - /posts/tool-highlight-fish-audio-open-core-voice-ai.html  — 7 crawler fetches
-- /posts/model-price-drop-early-july-2026-founder-routing-map.html  — 6 crawler fetches
+- /posts/gemini-4-hydrogen-vs-claude-haiku-sonnet-fast-agent-model-november-2026.html  — 7 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
