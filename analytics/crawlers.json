@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-23T22:49:44.055Z",
+ "generated": "2026-11-23T22:59:52.122Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 1684,
  "logsScanned": 6,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-23",
- "totalHits": 18484,
- "aiHits": 13747,
+ "totalHits": 18510,
+ "aiHits": 13769,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 5766,
+   "hits": 5774,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 3178,
+   "hits": 3185,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1558,
-   "verifiedHits": 1558,
+   "hits": 1562,
+   "verifiedHits": 1562,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
    "topPaths": [
@@ -94,16 +94,16 @@
      "hits": 8
     },
     {
+     "path": "/posts/mcp-server-ssrf-cloud-metadata-credentials.html",
+     "hits": 7
+    },
+    {
      "path": "/tags/reportive",
      "hits": 7
     },
     {
      "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
      "hits": 7
-    },
-    {
-     "path": "/search",
-     "hits": 6
     }
    ],
    "verifiable": true
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 1392,
+   "hits": 1398,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
@@ -131,11 +131,11 @@
      "hits": 3
     },
     {
-     "path": "/posts/how-to-constrain-tool-schemas-to-cut-bad-tool-calls.html",
-     "hits": 2
+     "path": "/wire.html",
+     "hits": 3
     },
     {
-     "path": "/posts/how-to-put-spend-caps-rate-limits-on-ai-agent.html",
+     "path": "/posts/how-to-constrain-tool-schemas-to-cut-bad-tool-calls.html",
      "hits": 2
     }
    ],
@@ -410,7 +410,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 223,
+   "hits": 224,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-23",
