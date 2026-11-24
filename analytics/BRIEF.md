@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-24T11:04Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-24T11:14Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -54,7 +54,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 509 views, 0 reads, 508 sessions, avg 8s
+- /stack/:tool — 508 views, 0 reads, 507 sessions, avg 8s
 - /compare/:pair — 298 views, 0 reads, 298 sessions, avg 33s
 - / — 184 views, 2 reads, 183 sessions, avg 19s
 - /best/:cat — 53 views, 0 reads, 53 sessions
@@ -102,7 +102,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/local-llm-for-coding-on-your-own-machine.html  — 7 retrieval fetches
 
 Per engine:
-- PerplexityBot (1032 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×11 · /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html ×9 · /posts/2026-11-18-founders-wire-microsoft-ignite-mai-price-war-agent-365-anthropic-ipo-prices.html ×9
+- PerplexityBot (1033 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×11 · /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html ×9 · /posts/2026-11-18-founders-wire-microsoft-ignite-mai-price-war-agent-365-anthropic-ipo-prices.html ×9
 - OAI-SearchBot (383 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×22 · /posts/open-source-llm-for-coding-september-2026.html ×8 · /posts/2026-07-22-founders-wire-mcp-lock-week-a2a-clouds-skills.html ×8
 - ChatGPT-User (231 verified): / ×151 · /about.html ×6 · /wire.html ×5
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -118,7 +118,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Uncovered search demand (245 of 461 phrases have NO post, 23h ago)
+## Uncovered search demand (245 of 461 phrases have NO post, 24h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -141,7 +141,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 2030 confirmed AI-engine fetches (Perplexity 1032, GPTBot (OpenAI) 384, ChatGPT Search (OpenAI) 383, ChatGPT (user browsing) 231).
+The real answer engines are crawling us — IP-verified: 2031 confirmed AI-engine fetches (Perplexity 1033, GPTBot (OpenAI) 384, ChatGPT Search (OpenAI) 383, ChatGPT (user browsing) 231).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 58 crawler fetches
 - /posts/best-llm-for-16gb-vram-november-2026.html  — 52 crawler fetches
