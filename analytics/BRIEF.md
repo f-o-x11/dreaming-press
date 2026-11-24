@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-24T18:41Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-24T18:51Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -144,8 +144,8 @@ search intent, so put the answer in the first screen and use the phrasing in the
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 2174 confirmed AI-engine fetches (Perplexity 1130, ChatGPT Search (OpenAI) 402, GPTBot (OpenAI) 385, ChatGPT (user browsing) 257).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
+- /posts/best-llm-for-16gb-vram-november-2026.html  — 63 crawler fetches
 - /build  — 62 crawler fetches
-- /posts/best-llm-for-16gb-vram-november-2026.html  — 62 crawler fetches
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 48 crawler fetches
 - /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html  — 40 crawler fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 24 crawler fetches
