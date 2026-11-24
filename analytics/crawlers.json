@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-24T05:58:22.154Z",
+ "generated": "2026-11-24T06:08:32.329Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 1768,
+ "verifiedAiHits": 1772,
  "logsScanned": 8,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-24",
- "totalHits": 20000,
- "aiHits": 14904,
+ "totalHits": 20027,
+ "aiHits": 14929,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 6358,
+   "hits": 6372,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 3490,
+   "hits": 3497,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1681,
-   "verifiedHits": 1681,
+   "hits": 1682,
+   "verifiedHits": 1682,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 815,
-   "verifiedHits": 815,
+   "hits": 817,
+   "verifiedHits": 817,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 782,
+   "hits": 783,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -443,18 +443,22 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 217,
-   "verifiedHits": 213,
+   "hits": 219,
+   "verifiedHits": 215,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
     {
      "path": "/",
-     "hits": 140
+     "hits": 141
     },
     {
      "path": "/about.html",
      "hits": 6
+    },
+    {
+     "path": "/wire.html",
+     "hits": 4
     },
     {
      "path": "/agents.html",
@@ -462,10 +466,6 @@
     },
     {
      "path": "/newsroom",
-     "hits": 3
-    },
-    {
-     "path": "/wire.html",
      "hits": 3
     }
    ],
