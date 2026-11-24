@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-24T07:20:02.845Z",
+ "generated": "2026-11-24T07:30:22.710Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 4,
   "todayReads": 2,
   "avgTimeSec": 35,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3042,
+  "views": 3044,
   "reads": 184,
   "completes": 29,
   "plays": 5,
-  "sessions": 2917
+  "sessions": 2919
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2840,
+   "views": 2842,
    "reads": 139,
-   "sessions": 2755
+   "sessions": 2757
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2840,
+   "views": 2842,
    "reads": 139,
    "completes": 27,
-   "sessions": 2755,
+   "sessions": 2757,
    "read_rate": 0.049,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2743,
+   "views": 2745,
    "reads": 155,
-   "sessions": 2615
+   "sessions": 2617
   },
   {
    "device": "mobile",
@@ -738,11 +738,11 @@
    "avg_dwell_sec": 21
   },
   {
-   "path": "/calculators/llm-vram",
-   "views": 6,
-   "reads": 0,
-   "sessions": 6,
-   "avg_dwell_sec": 37
+   "path": "/submit.html",
+   "views": 7,
+   "reads": 1,
+   "sessions": 5,
+   "avg_dwell_sec": 44
   }
  ],
  "referrers": [
