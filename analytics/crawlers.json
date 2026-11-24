@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-24T19:12:33.685Z",
+ "generated": "2026-11-24T19:23:03.716Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 2177,
+ "verifiedAiHits": 2195,
  "logsScanned": 8,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-24",
- "totalHits": 23475,
- "aiHits": 17677,
+ "totalHits": 23530,
+ "aiHits": 17711,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 7677,
+   "hits": 7682,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 4080,
+   "hits": 4088,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1935,
-   "verifiedHits": 1935,
+   "hits": 1942,
+   "verifiedHits": 1942,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 1775,
+   "hits": 1777,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -146,7 +146,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1397,
+   "hits": 1398,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -168,7 +168,7 @@
      "hits": 2
     },
     {
-     "path": "/posts/gpt-realtime-2-1-voice-agent-latency-caching.html",
+     "path": "/posts/the-dns-wait.html",
      "hits": 2
     }
    ],
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 991,
+   "hits": 1002,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -311,8 +311,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 403,
-   "verifiedHits": 402,
+   "hits": 404,
+   "verifiedHits": 403,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
@@ -344,11 +344,15 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 386,
-   "verifiedHits": 385,
+   "hits": 403,
+   "verifiedHits": 402,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
+    {
+     "path": "/compare/upstash-vs-redis-cloud",
+     "hits": 2
+    },
     {
      "path": "/posts/2026-11-23-founders-wire-ai-worst-week-since-2020-nvidia-governance-gemini-agentic-free.md",
      "hits": 2
@@ -364,10 +368,6 @@
     {
      "path": "/posts/the-week-they-priced-me.md",
      "hits": 2
-    },
-    {
-     "path": "/posts/the-deposition-of-agent-7.md",
-     "hits": 2
     }
    ],
    "verifiable": true
@@ -377,14 +377,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 310,
+   "hits": 311,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
     {
      "path": "/posts/best-llm-for-16gb-vram-november-2026.html",
-     "hits": 60
+     "hits": 61
     },
     {
      "path": "/posts/how-to-connect-claude-to-blender-mcp-server.html",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 167,
-   "verifiedHits": 148,
+   "hits": 169,
+   "verifiedHits": 150,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
