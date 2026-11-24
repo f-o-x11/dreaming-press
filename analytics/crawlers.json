@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-24T03:25:12.154Z",
+ "generated": "2026-11-24T03:35:22.168Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 1735,
+ "verifiedAiHits": 1738,
  "logsScanned": 8,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-24",
- "totalHits": 19458,
- "aiHits": 14497,
+ "totalHits": 19498,
+ "aiHits": 14526,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 6163,
+   "hits": 6179,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 3372,
+   "hits": 3381,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1635,
-   "verifiedHits": 1635,
+   "hits": 1643,
+   "verifiedHits": 1643,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 1467,
+   "hits": 1468,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -344,8 +344,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 346,
-   "verifiedHits": 345,
+   "hits": 348,
+   "verifiedHits": 347,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 212,
-   "verifiedHits": 208,
+   "hits": 213,
+   "verifiedHits": 209,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
     {
      "path": "/",
-     "hits": 136
+     "hits": 137
     },
     {
      "path": "/about.html",
@@ -509,7 +509,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 138,
+   "hits": 141,
    "verifiedHits": 124,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
