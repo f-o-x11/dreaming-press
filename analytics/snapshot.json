@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-24T11:25:02.692Z",
+ "generated": "2026-11-24T11:35:22.529Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 4,
+  "readersNow": 6,
+  "todayReads": 5,
   "avgTimeSec": 84,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3041,
-  "reads": 184,
+  "views": 3044,
+  "reads": 185,
   "completes": 30,
   "plays": 5,
-  "sessions": 2917
+  "sessions": 2920
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2837,
+   "views": 2839,
    "reads": 138,
-   "sessions": 2755
+   "sessions": 2757
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 15,
-   "reads": 8,
-   "sessions": 15
+   "views": 16,
+   "reads": 9,
+   "sessions": 16
   },
   {
    "channel": "social",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2837,
+   "views": 2839,
    "reads": 138,
    "completes": 27,
-   "sessions": 2755,
+   "sessions": 2757,
    "read_rate": 0.049,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -95,12 +95,12 @@
   },
   {
    "channel": "referral",
-   "views": 15,
-   "reads": 8,
+   "views": 16,
+   "reads": 9,
    "completes": 2,
-   "sessions": 15,
-   "read_rate": 0.533,
-   "complete_rate": 0.133,
+   "sessions": 16,
+   "read_rate": 0.563,
+   "complete_rate": 0.125,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
@@ -265,15 +265,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2742,
-   "reads": 154,
-   "sessions": 2615
+   "views": 2744,
+   "reads": 155,
+   "sessions": 2617
   },
   {
    "device": "mobile",
-   "views": 298,
+   "views": 299,
    "reads": 30,
-   "sessions": 301
+   "sessions": 302
   },
   {
    "device": "tablet",
@@ -787,12 +787,12 @@
    "sessions": 5
   },
   {
-   "ref": "https://l.meta.ai/",
-   "hits": 4,
+   "ref": "https://bytedance.larkoffice.com/",
+   "hits": 5,
    "sessions": 2
   },
   {
-   "ref": "https://kagi.com/",
+   "ref": "https://l.meta.ai/",
    "hits": 4,
    "sessions": 2
   }

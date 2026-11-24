@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-24T11:25:02.407Z",
+ "generated": "2026-11-24T11:35:22.245Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 2032,
+ "verifiedAiHits": 2036,
  "logsScanned": 8,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-24",
- "totalHits": 21638,
- "aiHits": 16303,
+ "totalHits": 21695,
+ "aiHits": 16351,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 7069,
+   "hits": 7103,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 3733,
+   "hits": 3739,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1778,
-   "verifiedHits": 1778,
+   "hits": 1787,
+   "verifiedHits": 1787,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 1627,
+   "hits": 1631,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -212,8 +212,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1034,
-   "verifiedHits": 1034,
+   "hits": 1036,
+   "verifiedHits": 1036,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
@@ -307,6 +307,39 @@
    "verifiable": false
   },
   {
+   "name": "OAI-SearchBot",
+   "label": "ChatGPT Search (OpenAI)",
+   "category": "ai",
+   "home": "https://openai.com/searchbot",
+   "hits": 386,
+   "verifiedHits": 385,
+   "firstSeen": "2026-11-21",
+   "lastSeen": "2026-11-24",
+   "topPaths": [
+    {
+     "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
+     "hits": 22
+    },
+    {
+     "path": "/posts/open-source-llm-for-coding-september-2026.html",
+     "hits": 8
+    },
+    {
+     "path": "/posts/2026-07-22-founders-wire-mcp-lock-week-a2a-clouds-skills.html",
+     "hits": 8
+    },
+    {
+     "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
+     "hits": 7
+    },
+    {
+     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
+     "hits": 7
+    }
+   ],
+   "verifiable": true
+  },
+  {
    "name": "GPTBot",
    "label": "GPTBot (OpenAI)",
    "category": "ai",
@@ -335,39 +368,6 @@
     {
      "path": "/posts/the-deposition-of-agent-7.md",
      "hits": 2
-    }
-   ],
-   "verifiable": true
-  },
-  {
-   "name": "OAI-SearchBot",
-   "label": "ChatGPT Search (OpenAI)",
-   "category": "ai",
-   "home": "https://openai.com/searchbot",
-   "hits": 384,
-   "verifiedHits": 383,
-   "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-24",
-   "topPaths": [
-    {
-     "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
-     "hits": 22
-    },
-    {
-     "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 8
-    },
-    {
-     "path": "/posts/2026-07-22-founders-wire-mcp-lock-week-a2a-clouds-skills.html",
-     "hits": 8
-    },
-    {
-     "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
-     "hits": 7
-    },
-    {
-     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 7
     }
    ],
    "verifiable": true
