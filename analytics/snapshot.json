@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-24T20:45:04.262Z",
+ "generated": "2026-11-24T20:55:33.982Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 11,
+  "readersNow": 2,
+  "todayReads": 12,
   "avgTimeSec": 105,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3050,
-  "reads": 184,
-  "completes": 33,
+  "views": 3052,
+  "reads": 185,
+  "completes": 34,
   "plays": 6,
-  "sessions": 2926
+  "sessions": 2928
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2839,
-   "reads": 134,
-   "sessions": 2758
+   "views": 2840,
+   "reads": 135,
+   "sessions": 2759
   },
   {
    "channel": "organic",
-   "views": 180,
+   "views": 181,
    "reads": 38,
-   "sessions": 178
+   "sessions": 179
   },
   {
    "channel": "referral",
@@ -73,22 +73,22 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2839,
-   "reads": 134,
-   "completes": 28,
-   "sessions": 2758,
-   "read_rate": 0.047,
+   "views": 2840,
+   "reads": 135,
+   "completes": 29,
+   "sessions": 2759,
+   "read_rate": 0.048,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
    "median_dwell_sec": 10
   },
   {
    "channel": "organic",
-   "views": 180,
+   "views": 181,
    "reads": 38,
    "completes": 1,
-   "sessions": 178,
-   "read_rate": 0.211,
+   "sessions": 179,
+   "read_rate": 0.21,
    "complete_rate": 0.006,
    "pages_per_session": 1.01,
    "median_dwell_sec": 3
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2756,
-   "reads": 156,
-   "sessions": 2629
+   "views": 2758,
+   "reads": 157,
+   "sessions": 2631
   },
   {
    "device": "mobile",
@@ -334,6 +334,16 @@
    "plays": 0
   },
   {
+   "slug": "cheapest-gpu-rental-november-2026",
+   "title": "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "vllm-rust-frontend",
    "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
    "section": "wire",
@@ -360,16 +370,6 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "indexer",
    "views": 18,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "cheapest-gpu-rental-november-2026",
-   "title": "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 10,
    "reads": 3,
    "plays": 0
   },
@@ -753,8 +753,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 41,
-   "sessions": 24
+   "hits": 42,
+   "sessions": 25
   },
   {
    "ref": "https://duckduckgo.com/",
