@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-24T09:42:22.190Z",
+ "generated": "2026-11-24T09:52:32.216Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 1899,
+ "verifiedAiHits": 1900,
  "logsScanned": 8,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-24",
- "totalHits": 21011,
- "aiHits": 15743,
+ "totalHits": 21108,
+ "aiHits": 15835,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 6795,
+   "hits": 6860,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 3654,
+   "hits": 3664,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1745,
-   "verifiedHits": 1745,
+   "hits": 1750,
+   "verifiedHits": 1750,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
@@ -94,15 +94,15 @@
      "hits": 9
     },
     {
+     "path": "/tags/reportive",
+     "hits": 8
+    },
+    {
      "path": "/search",
      "hits": 7
     },
     {
      "path": "/posts/mcp-server-ssrf-cloud-metadata-credentials.html",
-     "hits": 7
-    },
-    {
-     "path": "/tags/reportive",
      "hits": 7
     }
    ],
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1233,
+   "hits": 1248,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -344,8 +344,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 378,
-   "verifiedHits": 377,
+   "hits": 379,
+   "verifiedHits": 378,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 274,
+   "hits": 275,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
