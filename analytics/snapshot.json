@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T06:08:32.632Z",
+ "generated": "2026-11-24T06:18:35.522Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,18 +8,18 @@
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3042,
+  "views": 3043,
   "reads": 183,
   "completes": 29,
   "plays": 5,
-  "sessions": 2916
+  "sessions": 2917
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2840,
+   "views": 2841,
    "reads": 138,
-   "sessions": 2754
+   "sessions": 2755
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2840,
+   "views": 2841,
    "reads": 138,
    "completes": 27,
-   "sessions": 2754,
+   "sessions": 2755,
    "read_rate": 0.049,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -271,9 +271,9 @@
   },
   {
    "device": "mobile",
-   "views": 297,
+   "views": 298,
    "reads": 29,
-   "sessions": 300
+   "sessions": 301
   },
   {
    "device": "tablet",
@@ -349,7 +349,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 20,
+   "views": 19,
    "reads": 3,
    "plays": 1
   },
@@ -451,7 +451,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 20,
+   "views": 19,
    "reads": 3,
    "plays": 1
   },
@@ -568,16 +568,6 @@
    "plays": 0
   },
   {
-   "slug": "best-llm-for-creative-writing-october-2026",
-   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 3,
-   "plays": 1
-  },
-  {
    "slug": "openai-responses-api-state-previous-response-id-vs-conversations-api",
    "title": "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own",
    "section": "stack",
@@ -586,6 +576,16 @@
    "views": 19,
    "reads": 10,
    "plays": 0
+  },
+  {
+   "slug": "best-llm-for-creative-writing-october-2026",
+   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 19,
+   "reads": 3,
+   "plays": 1
   },
   {
    "slug": "2026-11-22-founders-wire-ant-volatile-debut-gemini-tool-retrieval-isomorphic-5b",

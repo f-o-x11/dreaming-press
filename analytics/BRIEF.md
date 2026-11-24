@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-24T06:08Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-24T06:18Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3042 views → 183 engaged reads → 29 completes · 2916 sessions.
-- Channels: direct 138r/2840v · organic 37r/175v · referral 7r/14v · social 1r/2v · campaign:chatgpt.com 0r/7v · ai 0r/2v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 3043 views → 183 engaged reads → 29 completes · 2917 sessions.
+- Channels: direct 138r/2841v · organic 37r/175v · referral 7r/14v · social 1r/2v · campaign:chatgpt.com 0r/7v · ai 0r/2v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 0r/7v · Doubao 0r/2v.
 - Referrers: google.com, bing.com, duckduckgo.com, nav-cmp, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, wire-row, l.meta.ai, kagi.com.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2840 views · read 4.9% · complete 1.0% · 1.03 pages/session · median 10s
+- direct: 2841 views · read 4.9% · complete 1.0% · 1.03 pages/session · median 10s
 - organic: 175 views · read 21.1% · complete 0.6% · 1.01 pages/session · median 3s
 - referral: 14 views · read 50.0% · complete 7.1% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 7 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
@@ -39,7 +39,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "The Responses API Just Went Multi-Vendor: DeepSeek Speaks It Too — So What Do You Build Your Agent Against?" — 5 reads, 11 views, 0 listens
 - [wire] "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck" — 4 reads, 6 views, 0 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 4 reads, 5 views, 0 listens
-- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 3 reads, 20 views, 1 listens
+- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 3 reads, 19 views, 1 listens
 - [stack] "Open-Source LLM Rankings (November 2026): How to Read the Leaderboards — and Why They Disagree" — 3 reads, 18 views, 0 listens
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 3 reads, 8 views, 0 listens
 - [stack] "Gemini 4 Hydrogen vs Claude Haiku 5.5 vs Sonnet 5.5: The Cheap, Fast Model for Agent Loops (November 2026)" — 3 reads, 7 views, 0 listens
@@ -69,8 +69,8 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 - [stack] "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned" — 43 views, 5 reads
 - [wire] "The Founder's Wire, November 21: Washington Puts a License on the Chips Inside Overseas Data Centers, Meta's Agent Moves Into a $300 Pocket Charm, and the Money Keeps Funding the Layer Above the Model" — 23 views, 1 reads
 - [wire] "The Founder's Wire, November 17: California Sues OpenAI Over Agents That Lost Control, a Backdoored Claude Code Extension Reaches Cursor Users, and a Startup Raises $50M to Vet Every Agent Action" — 21 views, 0 reads
-- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 20 views, 3 reads
 - [stack] "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own" — 19 views, 10 reads
+- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 19 views, 3 reads
 - [wire] "The Founder's Wire, November 22: Anthropic's Stock Swings on Day One, Google Ships a Token-Saver for Tool-Heavy Agents, and $5B Goes to AI That Designs Drugs" — 19 views, 0 reads
 
 ## Arrived but left (fix these openings first)
@@ -102,9 +102,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 7 retrieval fetches
 
 Per engine:
-- PerplexityBot (817 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×11 · /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html ×9 · /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×9
-- OAI-SearchBot (357 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×20 · /posts/local-llm-for-coding-on-your-own-machine.html ×7 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×7
-- ChatGPT-User (215 verified): / ×141 · /about.html ×6 · /wire.html ×4
+- PerplexityBot (818 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×11 · /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html ×9 · /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×9
+- OAI-SearchBot (358 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×20 · /posts/local-llm-for-coding-on-your-own-machine.html ×7 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×7
+- ChatGPT-User (216 verified): / ×141 · /about.html ×6 · /wire.html ×4
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -118,7 +118,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Uncovered search demand (245 of 461 phrases have NO post, 18h ago)
+## Uncovered search demand (245 of 461 phrases have NO post, 19h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -141,14 +141,14 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 1772 confirmed AI-engine fetches (Perplexity 817, GPTBot (OpenAI) 383, ChatGPT Search (OpenAI) 357, ChatGPT (user browsing) 215).
+The real answer engines are crawling us — IP-verified: 1775 confirmed AI-engine fetches (Perplexity 818, GPTBot (OpenAI) 383, ChatGPT Search (OpenAI) 358, ChatGPT (user browsing) 216).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 56 crawler fetches
 - /posts/best-llm-for-16gb-vram-november-2026.html  — 48 crawler fetches
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 42 crawler fetches
 - /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html  — 37 crawler fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 20 crawler fetches
-- /posts/gartner-ai-agent-spending-2026.html  — 18 crawler fetches
+- /posts/gartner-ai-agent-spending-2026.html  — 19 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 12 crawler fetches
 - /posts/best-open-source-vector-database-2026.html  — 12 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 11 crawler fetches
