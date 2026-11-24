@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-24T14:55:13.675Z",
+ "generated": "2026-11-24T15:05:33.779Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 2148,
+ "verifiedAiHits": 2149,
  "logsScanned": 8,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-24",
- "totalHits": 22539,
- "aiHits": 17046,
+ "totalHits": 22584,
+ "aiHits": 17082,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 7403,
+   "hits": 7423,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 3894,
+   "hits": 3902,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1854,
-   "verifiedHits": 1854,
+   "hits": 1861,
+   "verifiedHits": 1861,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
@@ -94,15 +94,15 @@
      "hits": 10
     },
     {
+     "path": "/posts/2026-11-17-founders-wire-california-sues-openai-cursor-backdoored-extension-bay-vets-agent-actions.html",
+     "hits": 8
+    },
+    {
      "path": "/search",
      "hits": 8
     },
     {
      "path": "/tags/reportive",
-     "hits": 8
-    },
-    {
-     "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
      "hits": 8
     }
    ],
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 1701,
+   "hits": 1708,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 836,
+   "hits": 838,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -410,8 +410,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 244,
-   "verifiedHits": 240,
+   "hits": 245,
+   "verifiedHits": 241,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
@@ -421,7 +421,7 @@
     },
     {
      "path": "/wire.html",
-     "hits": 6
+     "hits": 7
     },
     {
      "path": "/about.html",

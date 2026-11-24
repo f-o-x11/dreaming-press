@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-24T14:55:13.959Z",
+ "generated": "2026-11-24T15:05:34.070Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 5,
-  "avgTimeSec": 73,
+  "readersNow": 3,
+  "todayReads": 7,
+  "avgTimeSec": 67,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3053,
-  "reads": 183,
-  "completes": 29,
-  "plays": 5,
+  "views": 3054,
+  "reads": 185,
+  "completes": 31,
+  "plays": 6,
   "sessions": 2929
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2844,
+   "views": 2843,
    "reads": 136,
-   "sessions": 2762
+   "sessions": 2761
   },
   {
    "channel": "organic",
@@ -34,22 +34,22 @@
    "sessions": 16
   },
   {
+   "channel": "campaign:chatgpt.com",
+   "views": 9,
+   "reads": 2,
+   "sessions": 8
+  },
+  {
    "channel": "social",
    "views": 2,
    "reads": 1,
    "sessions": 2
   },
   {
-   "channel": "campaign:chatgpt.com",
-   "views": 7,
-   "reads": 0,
-   "sessions": 7
-  },
-  {
    "channel": "ai",
    "views": 2,
    "reads": 0,
-   "sessions": 3
+   "sessions": 4
   },
   {
    "channel": "campaign:openai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2844,
+   "views": 2843,
    "reads": 136,
    "completes": 26,
-   "sessions": 2762,
+   "sessions": 2761,
    "read_rate": 0.048,
    "complete_rate": 0.009,
    "pages_per_session": 1.03,
@@ -106,13 +106,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 7,
-   "reads": 0,
-   "completes": 0,
-   "sessions": 7,
-   "read_rate": 0,
-   "complete_rate": 0,
-   "pages_per_session": 1,
+   "views": 9,
+   "reads": 2,
+   "completes": 2,
+   "sessions": 8,
+   "read_rate": 0.222,
+   "complete_rate": 0.222,
+   "pages_per_session": 1.13,
    "median_dwell_sec": null
   },
   {
@@ -120,10 +120,10 @@
    "views": 2,
    "reads": 0,
    "completes": 0,
-   "sessions": 3,
+   "sessions": 4,
    "read_rate": 0,
    "complete_rate": 0,
-   "pages_per_session": 0.67,
+   "pages_per_session": 0.5,
    "median_dwell_sec": 29
   },
   {
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 7,
-   "reads": 0,
-   "sessions": 7
+   "views": 9,
+   "reads": 2,
+   "sessions": 8
   },
   {
    "assistant": "Doubao",
@@ -265,8 +265,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2753,
-   "reads": 153,
+   "views": 2754,
+   "reads": 155,
    "sessions": 2626
   },
   {
@@ -466,6 +466,16 @@
    "plays": 1
   },
   {
+   "slug": "fast-apply-models-morph-vs-relace-vs-cursor",
+   "title": "Fast-Apply Models: How Cursor, Morph, and Relace Write Edits at 4,000+ Tokens/Second",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 3,
+   "reads": 2,
+   "plays": 1
+  },
+  {
    "slug": "every-ai-agent-framework-became-a-graph",
    "title": "Every AI Agent Framework Became a Graph in 2026 — and the Hard Part Is Still Unsolved",
    "section": "wire",
@@ -522,16 +532,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 6,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "gpu-rental-price-october-2026",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 5,
    "reads": 4,
    "plays": 0
   }
@@ -618,6 +618,16 @@
    "plays": 0
   },
   {
+   "slug": "best-llm-for-16gb-vram-november-2026",
+   "title": "The Best LLM for 16GB of VRAM (November 2026): What Actually Fits Once You Count the Context",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 18,
+   "reads": 2,
+   "plays": 0
+  },
+  {
    "slug": "llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten",
    "title": "LLM API Pricing, November 2026: What You Actually Pay Per Token After the GPT-6.2 and Gemini 4 Cuts",
    "section": "stack",
@@ -625,16 +635,6 @@
    "author": "priya",
    "views": 18,
    "reads": 1,
-   "plays": 0
-  },
-  {
-   "slug": "2026-11-15-founders-wire-new-york-raise-act-final-adobe-mcp-anthropic-ipo-week",
-   "title": "The Founder's Wire, November 15: New York's AI Law Gets a Compliance Clock, Adobe Puts an MCP Server on Photoshop, and Anthropic Prices the First Frontier IPO",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 18,
-   "reads": 0,
    "plays": 0
   }
  ],
