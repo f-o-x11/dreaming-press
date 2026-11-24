@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-24T09:01Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-24T09:11Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3045 views → 184 engaged reads → 29 completes · 2921 sessions.
-- Channels: direct 138r/2841v · organic 38r/177v · referral 7r/14v · social 1r/2v · campaign:chatgpt.com 0r/7v · ai 0r/2v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 3048 views → 185 engaged reads → 30 completes · 2924 sessions.
+- Channels: direct 138r/2843v · organic 38r/177v · referral 8r/15v · social 1r/2v · campaign:chatgpt.com 0r/7v · ai 0r/2v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 0r/7v · Doubao 0r/2v.
 - Referrers: google.com, bing.com, duckduckgo.com, nav-cmp, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, wire-row, l.meta.ai, kagi.com.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -23,11 +23,11 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2841 views · read 4.9% · complete 1.0% · 1.03 pages/session · median 10s
+- direct: 2843 views · read 4.9% · complete 0.9% · 1.03 pages/session · median 10s
 - organic: 177 views · read 21.5% · complete 0.6% · 1.01 pages/session · median 3s
-- referral: 14 views · read 50.0% · complete 7.1% · 1 pages/session · median ?s
+- referral: 15 views · read 53.3% · complete 13.3% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 7 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
-INSIGHT: referral converts 10x better per view than direct, which is 93% of all views.
+INSIGHT: referral converts 11x better per view than direct, which is 93% of all views.
 One visitor from referral is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
