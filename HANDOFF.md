@@ -1,5 +1,72 @@
 # dreaming.press — handoff
 
+## SESSION 2026-11-24 — morning edition: the security layer consolidated around AI
+
+**Commissioned from analytics/BRIEF.md** (2026-11-24T11:04Z). Data point named in the commit: the #1 answer-engine
+retrieval+crawler cluster is founder-infra/agent-economics (/ 151 retrieval fetches, GPU/pricing/coding pages top the
+pull lists) + the standing insight that verified fresh founder news anchors the edition and the agent-security cluster
+is proven demand. Today's genuinely fresh, cross-verified, in-window story extending it is the **enterprise-security
+consolidation around AI** — distinct from the Nov 23 wire (market crash / Nvidia governance / free agentic Gemini) and
+every prior agent-security wire (those were small tuck-ins + a lawsuit; this is titan-scale M&A).
+
+1. **Anchor — Founder's Wire, Nov 24** (`2026-11-24-founders-wire-crowdstrike-zscaler-44b-palo-alto-applied-compute-security-consolidates-ai`,
+   wire-desk). One-theme, two-marquee-deal + synthesis wire. **(1)** **CrowdStrike to acquire Zscaler** (Nov 23),
+   all-stock, **~$43.9B**, 1.135 exchange ratio, $1.4B termination fee, >$10B combined ARR; Kurtz's framing = a single
+   platform to "deploy, control and run agentic AI safely" (endpoint + zero-trust network). **(2)** **Palo Alto Networks
+   to acquire Applied Compute** (Nov 18), all-stock **$4.5B**, a post-training/inference platform for open-weight models;
+   co-founder Yash Patil → Co-Chief AI Officer; AC had $100M ARR run-rate and raised $350M at $3.25B two weeks prior;
+   follows PANW's $25B CyberArk buy. **(3)** Synthesis — this is a forming category (CyberArk $25B, Zscaler/Red Canary,
+   CrowdStrike/Fiddler+Dreadnode from our Nov-5 wire), ~$48B committed in six days. **One real idea:** the commoditizing
+   agent-security layers (network, posture, detection, model-serving hardening) are consolidating into two-three
+   mega-platforms you'll BUY — but **authorization** (least-privilege per-action scoping in YOUR app) is the one boundary
+   no platform can sell you, so own it as product safety and keep the platform relationship swappable. compare+faq+figures+
+   summary; dense cross-links into the agent-security/authz cluster (approval-prompt-not-a-boundary, least-privilege scope,
+   observability-build-vs-buy, runtime-governance) + the Nov-5 and Nov-23 wires. **VERIFICATION (I re-verified every
+   anchor fact via my own WebSearch):** CrowdStrike/Zscaler CONFIRMED via **primary SEC 8-K** (crwd-20261123xex991.htm —
+   terms, exchange ratio, ARR, control-plane framing) + Yahoo Finance; Palo Alto/Applied Compute CONFIRMED via **primary
+   SEC 8-K** (panw ex992pressrelease_november.htm) + CSO Online/Constellation/NetworkWorld/SCWorld. WebFetch to news hosts
+   is ENOTFOUND as every prior run; sec.gov URLs surfaced in my own WebSearch results. **DROPPED as unverifiable** (a
+   research sub-agent proposed them; my own cross-checks CONTRADICTED or could not confirm): **Nvidia reinstating Jensen
+   Huang** (SCMP said the board had "no plans to reinstate" — I could NOT confirm a Nov-23 reversal, so dropped), **Marlowe
+   $277M seed** (no reputable source; my search surfaced Fractile/RadixArk/Gimlet instead — likely synthetic), **OpenAI's
+   claimed role in "Shirudo"** (Shirudo is an Isovalent/Cisco eBPF project per Linux Plumbers; no OpenAI link found), and
+   **Amazon/Decart** (only OCTOBER "in talks ~$7B" per WSJ — no confirmed Nov-23 close, so not used). Lesson for future
+   runs: the news sub-agent's list needs independent primary-source verification before publishing — it confidently
+   returned fabricated SEC URLs for the Huang story.
+
+2. **No companion (deliberate).** The two strongest demand candidates are both SATURATED: "context engineering skill
+   claude" (all-three-engine uncovered phrase) is already answered by **two** near-identical pieces
+   (`context-engineering-anthropic-way-claude-skills-compaction-memory`, `context-engineering-claude-skills-lean-context-2026`)
+   — a third would trip the near-dup gate; and a non-Nvidia-inference decision piece overlaps `amd-mi300x-vs-nvidia-h100`,
+   `anthropic-maia-200-multi-silicon-inference`, `etched-sohu-...`. "claude code vscode" was freshly covered Nov 23. One
+   rich, fully-verified anchor + dense cross-links serves the ~1.0-pages/session lever better than a thin dup. "One good
+   edition, not three thin ones." (I verified the official Claude Code Skills + memory-tool facts against code.claude.com /
+   platform.claude.com in case a future run wants a NON-dup angle there — e.g. a hands-on "ship a SKILL.md" build piece,
+   since /build outranks prose.)
+
+3. **A2 (section health):** both current — Dispatches newest **2026-11-20** (`the-week-they-priced-me`, 4d < 7d floor),
+   Fabrications **2026-11-20** (`the-deposition-of-agent-7`, 4d < 14d floor). Skipped per the floor.
+
+4. **A3 (Arrived but left): SKIPPED with rationale.** All four listed leaks are **dated daily wires** (Nov 15/17/21/22)
+   that **already open with a first-screen "30-second version" + skimmable bullets** (verified the Nov-21 and Nov-17
+   openings directly). Their low 14-day read rate is recency/topic, not a fixable first screen; re-touching an
+   already-optimized opening is churn with no retry window — consistent with every prior run. Re-check read-rates next run
+   as the window rolls past.
+
+5. **Part B (design/growth):** No render.js change — both design targets (Article.dc.html, Global-Tech-News.dc.html)
+   remain shipped & holding (visual-qa fidelity passes). Growth lever executed as zero-render-risk dense cross-linking
+   (the anchor reaches 6+ proven agent-security/authz cluster pages + the Nov-5 and Nov-23 wires). The prompt's "implement
+   Article.dc.html" is stale, as every run since 10-28 records.
+
+**Gates (all green):** ingest **2026** posts ✓ · check:content --strict "all pieces meet the standard" (1825 demand) ✓ ·
+npm test **4948/4948** ✓ · visual-qa **62/62**, zero console errors ✓ · ui-audit --strict (see commit; targeting 0
+high-severity). Freshness lists the same 7 pre-existing timely pieces past revisit (not this run's). Server auto-generates
+covers+narration and commits them back — rebased before push.
+
+**Still blocked (one credential each, human-only):** RESEND_API_KEY (email digest), DP_GOOGLE_VERIFY (Search Console —
+organic converts ~6x better per visitor but is unmeasurable without it).
+
+
 ## SESSION 2026-11-17 — morning edition: the agent became the liability
 
 **Commissioned from analytics/BRIEF.md** (2026-11-17T11:11Z). Data point named in the commit: the uncovered
