@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-24T12:42Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-24T12:53Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3049 views → 185 engaged reads → 30 completes · 2925 sessions.
-- Channels: direct 138r/2841v · organic 37r/179v · referral 9r/16v · social 1r/2v · campaign:chatgpt.com 0r/7v · ai 0r/2v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 3054 views → 185 engaged reads → 30 completes · 2930 sessions.
+- Channels: direct 138r/2846v · organic 37r/179v · referral 9r/16v · social 1r/2v · campaign:chatgpt.com 0r/7v · ai 0r/2v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 0r/7v · Doubao 0r/2v.
 - Referrers: google.com, bing.com, duckduckgo.com, nav-cmp, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, wire-row, bytedance.larkoffice.com, l.meta.ai.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -23,11 +23,11 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2841 views · read 4.9% · complete 1.0% · 1.03 pages/session · median 10s
+- direct: 2846 views · read 4.8% · complete 0.9% · 1.03 pages/session · median 10s
 - organic: 179 views · read 20.7% · complete 0.6% · 1.01 pages/session · median 3s
 - referral: 16 views · read 56.3% · complete 12.5% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 7 views · read 0.0% · complete 0.0% · 1 pages/session · median ?s
-INSIGHT: referral converts 11x better per view than direct, which is 93% of all views.
+INSIGHT: referral converts 12x better per view than direct, which is 93% of all views.
 One visitor from referral is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
@@ -42,7 +42,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 3 reads, 19 views, 1 listens
 - [stack] "Open-Source LLM Rankings (November 2026): How to Read the Leaderboards — and Why They Disagree" — 3 reads, 18 views, 0 listens
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 3 reads, 8 views, 0 listens
-- [stack] "Gemini 4 Hydrogen vs Claude Haiku 5.5 vs Sonnet 5.5: The Cheap, Fast Model for Agent Loops (November 2026)" — 3 reads, 7 views, 0 listens
+- [wire] "Where 2026's Vertical-AI Money Actually Went: Legal Took the Cash, Healthcare Took the Deals" — 3 reads, 8 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 1 listens, 7 reads
@@ -90,7 +90,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 154 retrieval fetches
+- /  — 155 retrieval fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 23 retrieval fetches
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 11 retrieval fetches
 - /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html  — 9 retrieval fetches
@@ -103,8 +103,8 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (1093 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×11 · /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html ×9 · /posts/2026-11-18-founders-wire-microsoft-ignite-mai-price-war-agent-365-anthropic-ipo-prices.html ×9
-- OAI-SearchBot (390 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×23 · /posts/open-source-llm-for-coding-september-2026.html ×8 · /posts/2026-07-22-founders-wire-mcp-lock-week-a2a-clouds-skills.html ×8
-- ChatGPT-User (235 verified): / ×154 · /wire.html ×6 · /about.html ×6
+- OAI-SearchBot (391 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×23 · /posts/open-source-llm-for-coding-september-2026.html ×8 · /posts/2026-07-22-founders-wire-mcp-lock-week-a2a-clouds-skills.html ×8
+- ChatGPT-User (236 verified): / ×155 · /wire.html ×6 · /about.html ×6
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -141,11 +141,11 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 2102 confirmed AI-engine fetches (Perplexity 1093, ChatGPT Search (OpenAI) 390, GPTBot (OpenAI) 384, ChatGPT (user browsing) 235).
+The real answer engines are crawling us — IP-verified: 2104 confirmed AI-engine fetches (Perplexity 1093, ChatGPT Search (OpenAI) 391, GPTBot (OpenAI) 384, ChatGPT (user browsing) 236).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 58 crawler fetches
 - /posts/best-llm-for-16gb-vram-november-2026.html  — 53 crawler fetches
-- /posts/how-to-connect-claude-to-blender-mcp-server.html  — 44 crawler fetches
+- /posts/how-to-connect-claude-to-blender-mcp-server.html  — 45 crawler fetches
 - /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html  — 38 crawler fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 23 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 19 crawler fetches
