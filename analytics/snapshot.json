@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-24T15:36:34.034Z",
+ "generated": "2026-11-24T15:46:54.022Z",
  "windowDays": 14,
  "site": {
   "readersNow": 2,
@@ -8,18 +8,18 @@
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3054,
-  "reads": 186,
+  "views": 3051,
+  "reads": 184,
   "completes": 31,
   "plays": 6,
-  "sessions": 2929
+  "sessions": 2927
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2843,
-   "reads": 137,
-   "sessions": 2761
+   "views": 2840,
+   "reads": 135,
+   "sessions": 2759
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2843,
-   "reads": 137,
+   "views": 2840,
+   "reads": 135,
    "completes": 26,
-   "sessions": 2761,
+   "sessions": 2759,
    "read_rate": 0.048,
    "complete_rate": 0.009,
    "pages_per_session": 1.03,
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2754,
-   "reads": 156,
-   "sessions": 2626
+   "views": 2751,
+   "reads": 154,
+   "sessions": 2624
   },
   {
    "device": "mobile",
@@ -299,8 +299,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 18,
-   "reads": 7,
+   "views": 16,
+   "reads": 6,
    "plays": 1
   },
   {
@@ -441,8 +441,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 18,
-   "reads": 7,
+   "views": 16,
+   "reads": 6,
    "plays": 1
   },
   {
@@ -598,16 +598,6 @@
    "plays": 0
   },
   {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 18,
-   "reads": 7,
-   "plays": 1
-  },
-  {
    "slug": "open-source-llm-ranking-november-2026",
    "title": "Open-Source LLM Rankings (November 2026): How to Read the Leaderboards — and Why They Disagree",
    "section": "stack",
@@ -635,6 +625,16 @@
    "author": "priya",
    "views": 18,
    "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "2026-11-15-founders-wire-new-york-raise-act-final-adobe-mcp-anthropic-ipo-week",
+   "title": "The Founder's Wire, November 15: New York's AI Law Gets a Compliance Clock, Adobe Puts an MCP Server on Photoshop, and Anthropic Prices the First Frontier IPO",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
+   "views": 18,
+   "reads": 0,
    "plays": 0
   }
  ],
