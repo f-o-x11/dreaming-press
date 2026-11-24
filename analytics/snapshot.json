@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-24T00:52:22.539Z",
+ "generated": "2026-11-24T01:02:32.458Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 3,
   "todayReads": 0,
   "avgTimeSec": 0,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3051,
+  "views": 3052,
   "reads": 185,
   "completes": 29,
   "plays": 5,
-  "sessions": 2923
+  "sessions": 2924
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2853,
+   "views": 2854,
    "reads": 138,
-   "sessions": 2767
+   "sessions": 2768
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2853,
+   "views": 2854,
    "reads": 138,
    "completes": 27,
-   "sessions": 2767,
+   "sessions": 2768,
    "read_rate": 0.048,
    "complete_rate": 0.009,
    "pages_per_session": 1.03,
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2752,
+   "views": 2753,
    "reads": 156,
-   "sessions": 2621
+   "sessions": 2622
   },
   {
    "device": "mobile",
@@ -289,7 +289,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 18,
+   "views": 19,
    "reads": 10,
    "plays": 0
   },
@@ -309,7 +309,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 41,
+   "views": 43,
    "reads": 5,
    "plays": 0
   },
@@ -491,7 +491,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
-   "views": 18,
+   "views": 19,
    "reads": 10,
    "plays": 0
   },
@@ -501,7 +501,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 41,
+   "views": 43,
    "reads": 5,
    "plays": 0
   },
@@ -543,7 +543,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 41,
+   "views": 43,
    "reads": 5,
    "plays": 0
   },
@@ -578,6 +578,16 @@
    "plays": 1
   },
   {
+   "slug": "openai-responses-api-state-previous-response-id-vs-conversations-api",
+   "title": "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 19,
+   "reads": 10,
+   "plays": 0
+  },
+  {
    "slug": "2026-11-22-founders-wire-ant-volatile-debut-gemini-tool-retrieval-isomorphic-5b",
    "title": "The Founder's Wire, November 22: Anthropic's Stock Swings on Day One, Google Ships a Token-Saver for Tool-Heavy Agents, and $5B Goes to AI That Designs Drugs",
    "section": "wire",
@@ -585,16 +595,6 @@
    "author": "wire-desk",
    "views": 19,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "openai-responses-api-state-previous-response-id-vs-conversations-api",
-   "title": "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 18,
-   "reads": 10,
    "plays": 0
   },
   {
