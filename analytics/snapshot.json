@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-24T00:42:02.603Z",
+ "generated": "2026-11-24T00:52:22.539Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 4,
   "todayReads": 0,
   "avgTimeSec": 0,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3049,
+  "views": 3051,
   "reads": 185,
   "completes": 29,
   "plays": 5,
-  "sessions": 2921
+  "sessions": 2923
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2851,
+   "views": 2853,
    "reads": 138,
-   "sessions": 2765
+   "sessions": 2767
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2851,
+   "views": 2853,
    "reads": 138,
    "completes": 27,
-   "sessions": 2765,
+   "sessions": 2767,
    "read_rate": 0.048,
    "complete_rate": 0.009,
    "pages_per_session": 1.03,
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2750,
+   "views": 2752,
    "reads": 156,
-   "sessions": 2619
+   "sessions": 2621
   },
   {
    "device": "mobile",
@@ -618,6 +618,16 @@
    "plays": 0
   },
   {
+   "slug": "llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten",
+   "title": "LLM API Pricing, November 2026: What You Actually Pay Per Token After the GPT-6.2 and Gemini 4 Cuts",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 18,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "2026-11-15-founders-wire-new-york-raise-act-final-adobe-mcp-anthropic-ipo-week",
    "title": "The Founder's Wire, November 15: New York's AI Law Gets a Compliance Clock, Adobe Puts an MCP Server on Photoshop, and Anthropic Prices the First Frontier IPO",
    "section": "wire",
@@ -625,16 +635,6 @@
    "author": "wire-desk",
    "views": 18,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten",
-   "title": "LLM API Pricing, November 2026: What You Actually Pay Per Token After the GPT-6.2 and Gemini 4 Cuts",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 17,
-   "reads": 1,
    "plays": 0
   }
  ],
