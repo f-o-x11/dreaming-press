@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-24T03:14:52.132Z",
+ "generated": "2026-11-24T03:25:12.154Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 1734,
+ "verifiedAiHits": 1735,
  "logsScanned": 8,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-24",
- "totalHits": 19419,
- "aiHits": 14464,
+ "totalHits": 19458,
+ "aiHits": 14497,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 6148,
+   "hits": 6163,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 3365,
+   "hits": 3372,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -69,7 +69,7 @@
      "hits": 6
     },
     {
-     "path": "/posts/langfuse-vs-langsmith-vs-phoenix-observability.html",
+     "path": "/posts/zero-trust-for-ai-agents.html",
      "hits": 3
     }
    ],
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1632,
-   "verifiedHits": 1632,
+   "hits": 1635,
+   "verifiedHits": 1635,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 1457,
+   "hits": 1467,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -146,7 +146,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1354,
+   "hits": 1356,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 799,
-   "verifiedHits": 799,
+   "hits": 800,
+   "verifiedHits": 800,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 137,
-   "verifiedHits": 123,
+   "hits": 138,
+   "verifiedHits": 124,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
