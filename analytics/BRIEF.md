@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-24T21:27Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-24T21:37Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -145,16 +145,16 @@ search intent, so put the answer in the first screen and use the phrasing in the
 The real answer engines are crawling us — IP-verified: 2205 confirmed AI-engine fetches (Perplexity 1133, GPTBot (OpenAI) 404, ChatGPT Search (OpenAI) 403, ChatGPT (user browsing) 265).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/best-llm-for-16gb-vram-november-2026.html  — 67 crawler fetches
-- /build  — 64 crawler fetches
-- /posts/how-to-connect-claude-to-blender-mcp-server.html  — 49 crawler fetches
+- /build  — 65 crawler fetches
+- /posts/how-to-connect-claude-to-blender-mcp-server.html  — 50 crawler fetches
 - /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html  — 42 crawler fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 24 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 20 crawler fetches
 - /posts/best-open-source-vector-database-2026.html  — 19 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 13 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 13 crawler fetches
+- /posts/2026-11-17-founders-wire-california-sues-openai-cursor-backdoored-extension-bay-vets-agent-actions.html  — 10 crawler fetches
 - /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 9 crawler fetches
-- /posts/2026-11-17-founders-wire-california-sues-openai-cursor-backdoored-extension-bay-vets-agent-actions.html  — 9 crawler fetches
 - /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html  — 9 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
