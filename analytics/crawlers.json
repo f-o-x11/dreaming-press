@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-24T19:43:23.907Z",
+ "generated": "2026-11-24T19:53:33.804Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 2197,
  "logsScanned": 8,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-24",
- "totalHits": 23656,
- "aiHits": 17805,
+ "totalHits": 23692,
+ "aiHits": 17834,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 7755,
+   "hits": 7775,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 4102,
+   "hits": 4110,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -146,11 +146,15 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1401,
+   "hits": 1404,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
+    {
+     "path": "/posts/honeycomb-canvas-agent-auto-investigations.html",
+     "hits": 3
+    },
     {
      "path": "/best/sandboxes-runtime",
      "hits": 2
@@ -165,10 +169,6 @@
     },
     {
      "path": "/posts/best-vector-database-for-windows-local-rag.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/the-dns-wait.html",
      "hits": 2
     }
    ],
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1018,
+   "hits": 1019,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -377,7 +377,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 312,
+   "hits": 313,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -391,12 +391,12 @@
      "hits": 37
     },
     {
-     "path": "/posts/best-open-source-vector-database-2026.html",
+     "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
      "hits": 16
     },
     {
-     "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
-     "hits": 15
+     "path": "/posts/best-open-source-vector-database-2026.html",
+     "hits": 16
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
@@ -476,7 +476,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 211,
+   "hits": 212,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -509,7 +509,7 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 171,
+   "hits": 173,
    "verifiedHits": 152,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
