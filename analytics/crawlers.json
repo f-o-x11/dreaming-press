@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-24T00:11:32.186Z",
+ "generated": "2026-11-24T00:21:33.188Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 1699,
+ "verifiedAiHits": 1701,
  "logsScanned": 8,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-24",
- "totalHits": 18720,
- "aiHits": 13923,
+ "totalHits": 18769,
+ "aiHits": 13943,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 5833,
+   "hits": 5838,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 3236,
+   "hits": 3244,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -113,10 +113,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 1414,
+   "hits": 1419,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-23",
+   "lastSeen": "2026-11-24",
    "topPaths": [
     {
      "path": "/authors/dex",
@@ -135,7 +135,7 @@
      "hits": 3
     },
     {
-     "path": "/posts/how-to-constrain-tool-schemas-to-cut-bad-tool-calls.html",
+     "path": "/weekly",
      "hits": 2
     }
    ],
@@ -212,21 +212,21 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 820,
+   "hits": 828,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-23",
+   "lastSeen": "2026-11-24",
    "topPaths": [
+    {
+     "path": "/posts/open-source-llm-for-coding-september-2026.html",
+     "hits": 4
+    },
     {
      "path": "/",
      "hits": 3
     },
     {
      "path": "/posts/grok-4-5-vs-gpt-5-6-vs-opus-4-8-coding-agent-backend.md",
-     "hits": 3
-    },
-    {
-     "path": "/posts/open-source-llm-for-coding-september-2026.html",
      "hits": 3
     },
     {
@@ -245,14 +245,18 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 777,
-   "verifiedHits": 777,
+   "hits": 778,
+   "verifiedHits": 778,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-23",
+   "lastSeen": "2026-11-24",
    "topPaths": [
     {
      "path": "/posts/how-to-connect-claude-to-blender-mcp-server.html",
      "hits": 11
+    },
+    {
+     "path": "/posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html",
+     "hits": 9
     },
     {
      "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
@@ -260,10 +264,6 @@
     },
     {
      "path": "/posts/gemini-4-hydrogen-vs-claude-haiku-sonnet-fast-agent-model-november-2026.html",
-     "hits": 8
-    },
-    {
-     "path": "/posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html",
      "hits": 8
     },
     {
@@ -278,10 +278,10 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 750,
+   "hits": 771,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-23",
+   "lastSeen": "2026-11-24",
    "topPaths": [
     {
      "path": "/tools",
@@ -344,14 +344,14 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 338,
-   "verifiedHits": 337,
+   "hits": 339,
+   "verifiedHits": 338,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-23",
+   "lastSeen": "2026-11-24",
    "topPaths": [
     {
      "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
-     "hits": 18
+     "hits": 19
     },
     {
      "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
