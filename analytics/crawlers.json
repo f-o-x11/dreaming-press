@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-24T01:12:38.225Z",
+ "generated": "2026-11-24T01:22:52.132Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 1716,
+ "verifiedAiHits": 1718,
  "logsScanned": 8,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-24",
- "totalHits": 18954,
- "aiHits": 14103,
+ "totalHits": 18990,
+ "aiHits": 14137,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 5929,
+   "hits": 5949,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 3279,
+   "hits": 3287,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 1431,
+   "hits": 1435,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 790,
-   "verifiedHits": 790,
+   "hits": 791,
+   "verifiedHits": 791,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 776,
+   "hits": 778,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -344,8 +344,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 340,
-   "verifiedHits": 339,
+   "hits": 341,
+   "verifiedHits": 340,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
@@ -355,7 +355,7 @@
     },
     {
      "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
-     "hits": 6
+     "hits": 7
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
