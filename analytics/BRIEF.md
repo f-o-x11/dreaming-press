@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-24T17:39Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-24T17:50Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -92,7 +92,7 @@ human just asked a question. Not index crawlers, which enumerate everything and 
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
 - /  — 165 retrieval fetches
-- /posts/open-source-coding-llm-ranked-november-2026.html  — 23 retrieval fetches
+- /posts/open-source-coding-llm-ranked-november-2026.html  — 24 retrieval fetches
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 11 retrieval fetches
 - /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html  — 9 retrieval fetches
 - /posts/2026-11-18-founders-wire-microsoft-ignite-mai-price-war-agent-365-anthropic-ipo-prices.html  — 9 retrieval fetches
@@ -104,7 +104,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (1130 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×11 · /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html ×9 · /posts/2026-11-18-founders-wire-microsoft-ignite-mai-price-war-agent-365-anthropic-ipo-prices.html ×9
-- OAI-SearchBot (401 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×23 · /posts/local-llm-for-coding-on-your-own-machine.html ×8 · /posts/open-source-llm-for-coding-september-2026.html ×8
+- OAI-SearchBot (402 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×24 · /posts/local-llm-for-coding-on-your-own-machine.html ×8 · /posts/open-source-llm-for-coding-september-2026.html ×8
 - ChatGPT-User (254 verified): / ×165 · /wire.html ×8 · /about.html ×7
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -142,20 +142,20 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 2170 confirmed AI-engine fetches (Perplexity 1130, ChatGPT Search (OpenAI) 401, GPTBot (OpenAI) 385, ChatGPT (user browsing) 254).
+The real answer engines are crawling us — IP-verified: 2171 confirmed AI-engine fetches (Perplexity 1130, ChatGPT Search (OpenAI) 402, GPTBot (OpenAI) 385, ChatGPT (user browsing) 254).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 61 crawler fetches
 - /posts/best-llm-for-16gb-vram-november-2026.html  — 58 crawler fetches
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 48 crawler fetches
 - /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html  — 40 crawler fetches
-- /posts/open-source-coding-llm-ranked-november-2026.html  — 23 crawler fetches
+- /posts/open-source-coding-llm-ranked-november-2026.html  — 24 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 20 crawler fetches
 - /posts/best-open-source-vector-database-2026.html  — 14 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 13 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 13 crawler fetches
 - /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html  — 9 crawler fetches
 - /posts/2026-11-18-founders-wire-microsoft-ignite-mai-price-war-agent-365-anthropic-ipo-prices.html  — 9 crawler fetches
-- /posts/2026-11-17-founders-wire-california-sues-openai-cursor-backdoored-extension-bay-vets-agent-actions.html  — 8 crawler fetches
+- /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 8 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
