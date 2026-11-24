@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-24T08:31:17.382Z",
+ "generated": "2026-11-24T08:41:22.220Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 1811,
+ "verifiedAiHits": 1815,
  "logsScanned": 8,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-24",
- "totalHits": 20672,
- "aiHits": 15455,
+ "totalHits": 20700,
+ "aiHits": 15477,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 6670,
+   "hits": 6682,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -47,14 +47,14 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 3605,
+   "hits": 3611,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
     {
      "path": "/wire.html",
-     "hits": 14
+     "hits": 15
     },
     {
      "path": "/tags/reportive",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1729,
-   "verifiedHits": 1729,
+   "hits": 1730,
+   "verifiedHits": 1730,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
@@ -344,8 +344,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 370,
-   "verifiedHits": 369,
+   "hits": 374,
+   "verifiedHits": 373,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
@@ -476,7 +476,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 186,
+   "hits": 190,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -490,15 +490,15 @@
      "hits": 3
     },
     {
+     "path": "/authors/dex",
+     "hits": 2
+    },
+    {
      "path": "/posts/2026-11-16-founders-wire-gemini-hydrogen-chatgpt-wallet-anthropic-ipo-week.md",
      "hits": 2
     },
     {
      "path": "/posts/2026-11-06-founders-wire-openai-cyber-model-too-dangerous-google-backstops-anthropic.md",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-11-14-founders-wire-court-asked-to-halt-ai-as-anthropic-ipo-nears.md",
      "hits": 2
     }
    ],
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 157,
-   "verifiedHits": 140,
+   "hits": 158,
+   "verifiedHits": 141,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
