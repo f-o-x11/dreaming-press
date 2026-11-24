@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-24T08:51:25.361Z",
+ "generated": "2026-11-24T09:01:32.223Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 1818,
+ "verifiedAiHits": 1824,
  "logsScanned": 8,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-24",
- "totalHits": 20746,
- "aiHits": 15516,
+ "totalHits": 20803,
+ "aiHits": 15558,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 6705,
+   "hits": 6733,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 3619,
+   "hits": 3626,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1734,
-   "verifiedHits": 1734,
+   "hits": 1741,
+   "verifiedHits": 1741,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
@@ -94,15 +94,15 @@
      "hits": 9
     },
     {
+     "path": "/search",
+     "hits": 7
+    },
+    {
      "path": "/posts/mcp-server-ssrf-cloud-metadata-credentials.html",
      "hits": 7
     },
     {
      "path": "/tags/reportive",
-     "hits": 7
-    },
-    {
-     "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
      "hits": 7
     }
    ],
@@ -212,7 +212,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 975,
+   "hits": 983,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 837,
-   "verifiedHits": 837,
+   "hits": 839,
+   "verifiedHits": 839,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
@@ -344,8 +344,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 374,
-   "verifiedHits": 373,
+   "hits": 376,
+   "verifiedHits": 375,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
@@ -377,14 +377,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 273,
+   "hits": 274,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
     {
      "path": "/posts/best-llm-for-16gb-vram-november-2026.html",
-     "hits": 49
+     "hits": 50
     },
     {
      "path": "/posts/how-to-connect-claude-to-blender-mcp-server.html",
@@ -404,6 +404,39 @@
     }
    ],
    "verifiable": false
+  },
+  {
+   "name": "ChatGPT-User",
+   "label": "ChatGPT (user browsing)",
+   "category": "ai",
+   "home": "https://openai.com/bot",
+   "hits": 230,
+   "verifiedHits": 226,
+   "firstSeen": "2026-11-21",
+   "lastSeen": "2026-11-24",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 147
+    },
+    {
+     "path": "/about.html",
+     "hits": 6
+    },
+    {
+     "path": "/wire.html",
+     "hits": 5
+    },
+    {
+     "path": "/agents.html",
+     "hits": 4
+    },
+    {
+     "path": "/newsroom",
+     "hits": 3
+    }
+   ],
+   "verifiable": true
   },
   {
    "name": "Meta-ExternalAgent",
@@ -437,39 +470,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "ChatGPT-User",
-   "label": "ChatGPT (user browsing)",
-   "category": "ai",
-   "home": "https://openai.com/bot",
-   "hits": 228,
-   "verifiedHits": 224,
-   "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-24",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 145
-    },
-    {
-     "path": "/about.html",
-     "hits": 6
-    },
-    {
-     "path": "/wire.html",
-     "hits": 5
-    },
-    {
-     "path": "/agents.html",
-     "hits": 4
-    },
-    {
-     "path": "/newsroom",
-     "hits": 3
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "Applebot",
