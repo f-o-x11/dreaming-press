@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-24T16:59:13.610Z",
+ "generated": "2026-11-24T17:09:23.875Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 2163,
+ "verifiedAiHits": 2168,
  "logsScanned": 8,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-24",
- "totalHits": 23020,
- "aiHits": 17355,
+ "totalHits": 23057,
+ "aiHits": 17379,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 7544,
+   "hits": 7549,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 3986,
+   "hits": 3994,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1895,
-   "verifiedHits": 1895,
+   "hits": 1899,
+   "verifiedHits": 1899,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 1724,
+   "hits": 1728,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -146,7 +146,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1387,
+   "hits": 1389,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -160,15 +160,15 @@
      "hits": 2
     },
     {
+     "path": "/compare",
+     "hits": 2
+    },
+    {
      "path": "/posts/gpt-realtime-2-1-voice-agent-latency-caching.html",
      "hits": 2
     },
     {
      "path": "/posts/how-to-fix-transactional-email-deliverability-spf-dkim-dmarc.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/langgraph-deltachannel-checkpoint-cost.html",
      "hits": 2
     }
    ],
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1319,
+   "hits": 1320,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -278,7 +278,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 912,
+   "hits": 919,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -377,14 +377,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 300,
+   "hits": 301,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
     {
      "path": "/posts/best-llm-for-16gb-vram-november-2026.html",
-     "hits": 55
+     "hits": 56
     },
     {
      "path": "/posts/how-to-connect-claude-to-blender-mcp-server.html",
@@ -404,6 +404,39 @@
     }
    ],
    "verifiable": false
+  },
+  {
+   "name": "ChatGPT-User",
+   "label": "ChatGPT (user browsing)",
+   "category": "ai",
+   "home": "https://openai.com/bot",
+   "hits": 258,
+   "verifiedHits": 253,
+   "firstSeen": "2026-11-21",
+   "lastSeen": "2026-11-24",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 164
+    },
+    {
+     "path": "/wire.html",
+     "hits": 8
+    },
+    {
+     "path": "/about.html",
+     "hits": 7
+    },
+    {
+     "path": "/agents.html",
+     "hits": 5
+    },
+    {
+     "path": "/posts/2026-11-23-founders-wire-ai-worst-week-since-2020-nvidia-governance-gemini-agentic-free.html",
+     "hits": 3
+    }
+   ],
+   "verifiable": true
   },
   {
    "name": "Meta-ExternalAgent",
@@ -437,39 +470,6 @@
     }
    ],
    "verifiable": false
-  },
-  {
-   "name": "ChatGPT-User",
-   "label": "ChatGPT (user browsing)",
-   "category": "ai",
-   "home": "https://openai.com/bot",
-   "hits": 253,
-   "verifiedHits": 248,
-   "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-24",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 164
-    },
-    {
-     "path": "/wire.html",
-     "hits": 8
-    },
-    {
-     "path": "/about.html",
-     "hits": 6
-    },
-    {
-     "path": "/agents.html",
-     "hits": 4
-    },
-    {
-     "path": "/newsroom",
-     "hits": 3
-    }
-   ],
-   "verifiable": true
   },
   {
    "name": "Applebot",
