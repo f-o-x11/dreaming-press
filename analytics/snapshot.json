@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-24T05:27:32.540Z",
+ "generated": "2026-11-24T05:37:42.481Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 1,
   "avgTimeSec": 0,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3041,
-  "reads": 184,
+  "views": 3040,
+  "reads": 183,
   "completes": 29,
   "plays": 5,
   "sessions": 2915
@@ -17,15 +17,15 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2839,
+   "views": 2838,
    "reads": 138,
-   "sessions": 2754
+   "sessions": 2753
   },
   {
    "channel": "organic",
-   "views": 176,
-   "reads": 38,
-   "sessions": 174
+   "views": 175,
+   "reads": 37,
+   "sessions": 173
   },
   {
    "channel": "referral",
@@ -41,9 +41,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 6,
+   "views": 7,
    "reads": 0,
-   "sessions": 6
+   "sessions": 7
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2839,
+   "views": 2838,
    "reads": 138,
    "completes": 27,
-   "sessions": 2754,
+   "sessions": 2753,
    "read_rate": 0.049,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 176,
-   "reads": 38,
+   "views": 175,
+   "reads": 37,
    "completes": 1,
-   "sessions": 174,
-   "read_rate": 0.216,
+   "sessions": 173,
+   "read_rate": 0.211,
    "complete_rate": 0.006,
    "pages_per_session": 1.01,
    "median_dwell_sec": 3
@@ -106,10 +106,10 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 6,
+   "views": 7,
    "reads": 0,
    "completes": 0,
-   "sessions": 6,
+   "sessions": 7,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 1,
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 6,
+   "views": 7,
    "reads": 0,
-   "sessions": 6
+   "sessions": 7
   },
   {
    "assistant": "Doubao",
@@ -265,8 +265,8 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2743,
-   "reads": 155,
+   "views": 2742,
+   "reads": 154,
    "sessions": 2614
   },
   {
@@ -758,8 +758,8 @@
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 29,
-   "sessions": 16
+   "hits": 27,
+   "sessions": 15
   },
   {
    "ref": "nav-cmp",
