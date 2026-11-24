@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-24T23:43:04.114Z",
+ "generated": "2026-11-24T23:53:14.282Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 13,
   "avgTimeSec": 93,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3054,
-  "reads": 184,
+  "views": 3049,
+  "reads": 181,
   "completes": 34,
   "plays": 6,
-  "sessions": 2931
+  "sessions": 2929
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2840,
-   "reads": 133,
-   "sessions": 2761
+   "views": 2837,
+   "reads": 131,
+   "sessions": 2759
   },
   {
    "channel": "organic",
-   "views": 183,
-   "reads": 39,
-   "sessions": 181
+   "views": 181,
+   "reads": 38,
+   "sessions": 180
   },
   {
    "channel": "referral",
@@ -73,23 +73,23 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2840,
-   "reads": 133,
+   "views": 2837,
+   "reads": 131,
    "completes": 29,
-   "sessions": 2761,
-   "read_rate": 0.047,
+   "sessions": 2759,
+   "read_rate": 0.046,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
    "median_dwell_sec": 10
   },
   {
    "channel": "organic",
-   "views": 183,
-   "reads": 39,
+   "views": 181,
+   "reads": 38,
    "completes": 1,
-   "sessions": 181,
-   "read_rate": 0.213,
-   "complete_rate": 0.005,
+   "sessions": 180,
+   "read_rate": 0.21,
+   "complete_rate": 0.006,
    "pages_per_session": 1.01,
    "median_dwell_sec": 3
   },
@@ -208,16 +208,6 @@
    "sessions": 2
   },
   {
-   "surface": "brand",
-   "clicks": 3,
-   "sessions": 3
-  },
-  {
-   "surface": "un-body",
-   "clicks": 2,
-   "sessions": 2
-  },
-  {
    "surface": "rr-card",
    "clicks": 2,
    "sessions": 2
@@ -236,6 +226,16 @@
    "surface": "btn-agents",
    "clicks": 2,
    "sessions": 2
+  },
+  {
+   "surface": "brand",
+   "clicks": 2,
+   "sessions": 2
+  },
+  {
+   "surface": "un-body",
+   "clicks": 1,
+   "sessions": 1
   },
   {
    "surface": "ns-item",
@@ -265,15 +265,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2761,
-   "reads": 156,
+   "views": 2758,
+   "reads": 154,
    "sessions": 2635
   },
   {
    "device": "mobile",
-   "views": 292,
-   "reads": 28,
-   "sessions": 295
+   "views": 290,
+   "reads": 27,
+   "sessions": 293
   },
   {
    "device": "tablet",
@@ -655,7 +655,7 @@
   },
   {
    "path": "/",
-   "views": 183,
+   "views": 182,
    "reads": 2,
    "sessions": 182,
    "avg_dwell_sec": 17
@@ -753,13 +753,13 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 42,
+   "hits": 41,
    "sessions": 25
   },
   {
    "ref": "https://duckduckgo.com/",
-   "hits": 25,
-   "sessions": 14
+   "hits": 23,
+   "sessions": 13
   },
   {
    "ref": "nav-cmp",
