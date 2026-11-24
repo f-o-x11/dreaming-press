@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-24T07:10Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-24T07:20Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3042 views → 183 engaged reads → 29 completes · 2917 sessions.
-- Channels: direct 138r/2840v · organic 37r/175v · referral 7r/14v · social 1r/2v · campaign:chatgpt.com 0r/7v · ai 0r/2v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 3042 views → 184 engaged reads → 29 completes · 2917 sessions.
+- Channels: direct 139r/2840v · organic 37r/175v · referral 7r/14v · social 1r/2v · campaign:chatgpt.com 0r/7v · ai 0r/2v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 0r/7v · Doubao 0r/2v.
 - Referrers: google.com, bing.com, duckduckgo.com, nav-cmp, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, wire-row, l.meta.ai, kagi.com.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -90,7 +90,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 143 retrieval fetches
+- /  — 144 retrieval fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 22 retrieval fetches
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 11 retrieval fetches
 - /wire.html  — 11 retrieval fetches
@@ -102,9 +102,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/local-llm-for-coding-on-your-own-machine.html  — 7 retrieval fetches
 
 Per engine:
-- PerplexityBot (823 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×11 · /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html ×9 · /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×9
+- PerplexityBot (824 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×11 · /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html ×9 · /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×9
 - OAI-SearchBot (364 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×22 · /posts/open-source-llm-for-coding-september-2026.html ×8 · /posts/local-llm-for-coding-on-your-own-machine.html ×7
-- ChatGPT-User (218 verified): / ×143 · /about.html ×6 · /wire.html ×4
+- ChatGPT-User (219 verified): / ×144 · /about.html ×6 · /wire.html ×4
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -118,7 +118,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Uncovered search demand (245 of 461 phrases have NO post, 19h ago)
+## Uncovered search demand (245 of 461 phrases have NO post, 20h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -141,7 +141,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 1788 confirmed AI-engine fetches (Perplexity 823, GPTBot (OpenAI) 383, ChatGPT Search (OpenAI) 364, ChatGPT (user browsing) 218).
+The real answer engines are crawling us — IP-verified: 1790 confirmed AI-engine fetches (Perplexity 824, GPTBot (OpenAI) 383, ChatGPT Search (OpenAI) 364, ChatGPT (user browsing) 219).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 56 crawler fetches
 - /posts/best-llm-for-16gb-vram-november-2026.html  — 50 crawler fetches
