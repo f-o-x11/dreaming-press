@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-24T21:06:04.185Z",
+ "generated": "2026-11-24T21:16:34.079Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
-  "todayReads": 12,
+  "todayReads": 13,
   "avgTimeSec": 99,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3052,
-  "reads": 185,
+  "views": 3053,
+  "reads": 186,
   "completes": 34,
   "plays": 6,
-  "sessions": 2928
+  "sessions": 2929
  },
  "channels": [
   {
@@ -23,9 +23,9 @@
   },
   {
    "channel": "organic",
-   "views": 181,
-   "reads": 38,
-   "sessions": 179
+   "views": 182,
+   "reads": 39,
+   "sessions": 180
   },
   {
    "channel": "referral",
@@ -84,12 +84,12 @@
   },
   {
    "channel": "organic",
-   "views": 181,
-   "reads": 38,
+   "views": 182,
+   "reads": 39,
    "completes": 1,
-   "sessions": 179,
-   "read_rate": 0.21,
-   "complete_rate": 0.006,
+   "sessions": 180,
+   "read_rate": 0.214,
+   "complete_rate": 0.005,
    "pages_per_session": 1.01,
    "median_dwell_sec": 3
   },
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2758,
-   "reads": 157,
-   "sessions": 2631
+   "views": 2759,
+   "reads": 158,
+   "sessions": 2632
   },
   {
    "device": "mobile",
@@ -354,6 +354,16 @@
    "plays": 0
   },
   {
+   "slug": "best-llm-for-16gb-vram-november-2026",
+   "title": "The Best LLM for 16GB of VRAM (November 2026): What Actually Fits Once You Count the Context",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 19,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "best-llm-for-creative-writing-october-2026",
    "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
    "section": "stack",
@@ -417,16 +427,6 @@
    "slug": "2026-06-27-too-many-tools-tool-search-vs-code-execution",
    "title": "Too Many Tools: Tool Search vs Code Execution for Agents at Scale",
    "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 4,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "cheapest-gpu-16gb-vram-local-ai-august-2026",
-   "title": "Cheapest GPU With 16GB VRAM (August 2026): The Best Value Card for Local AI — and Why It Isn't the Obvious One",
-   "section": "stack",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 4,
@@ -578,6 +578,16 @@
    "plays": 0
   },
   {
+   "slug": "best-llm-for-16gb-vram-november-2026",
+   "title": "The Best LLM for 16GB of VRAM (November 2026): What Actually Fits Once You Count the Context",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 19,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "best-llm-for-creative-writing-october-2026",
    "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
    "section": "stack",
@@ -605,16 +615,6 @@
    "author": "indexer",
    "views": 18,
    "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "best-llm-for-16gb-vram-november-2026",
-   "title": "The Best LLM for 16GB of VRAM (November 2026): What Actually Fits Once You Count the Context",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 18,
-   "reads": 2,
    "plays": 0
   },
   {
@@ -768,8 +768,8 @@
   },
   {
    "ref": "https://search.brave.com/",
-   "hits": 11,
-   "sessions": 7
+   "hits": 13,
+   "sessions": 8
   },
   {
    "ref": "f-cols",
