@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-24T22:19Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-24T22:29Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -55,7 +55,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 508 views, 0 reads, 507 sessions, avg 8s
+- /stack/:tool — 507 views, 0 reads, 506 sessions, avg 8s
 - /compare/:pair — 298 views, 0 reads, 298 sessions, avg 33s
 - / — 185 views, 2 reads, 184 sessions, avg 18s
 - /best/:cat — 53 views, 0 reads, 53 sessions
@@ -96,14 +96,14 @@ sample size dwarfs the engaged-read counts below.
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 11 retrieval fetches
 - /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html  — 10 retrieval fetches
 - /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html  — 9 retrieval fetches
+- /posts/2026-11-20-founders-wire-apple-builds-its-own-agent-arizona-opens-criminal-probe-anthropic-ant-debuts.html  — 9 retrieval fetches
 - /posts/2026-11-18-founders-wire-microsoft-ignite-mai-price-war-agent-365-anthropic-ipo-prices.html  — 9 retrieval fetches
 - /wire.html  — 9 retrieval fetches
-- /posts/2026-11-20-founders-wire-apple-builds-its-own-agent-arizona-opens-criminal-probe-anthropic-ant-debuts.html  — 8 retrieval fetches
 - /posts/local-llm-for-coding-on-your-own-machine.html  — 8 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 8 retrieval fetches
 
 Per engine:
-- PerplexityBot (1137 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×11 · /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×10 · /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html ×9
+- PerplexityBot (1139 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×11 · /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×10 · /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html ×9
 - OAI-SearchBot (404 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×24 · /posts/local-llm-for-coding-on-your-own-machine.html ×8 · /posts/open-source-llm-for-coding-september-2026.html ×8
 - ChatGPT-User (266 verified): / ×175 · /wire.html ×9 · /about.html ×7
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -142,7 +142,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 2211 confirmed AI-engine fetches (Perplexity 1137, GPTBot (OpenAI) 404, ChatGPT Search (OpenAI) 404, ChatGPT (user browsing) 266).
+The real answer engines are crawling us — IP-verified: 2213 confirmed AI-engine fetches (Perplexity 1139, GPTBot (OpenAI) 404, ChatGPT Search (OpenAI) 404, ChatGPT (user browsing) 266).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/best-llm-for-16gb-vram-november-2026.html  — 67 crawler fetches
 - /build  — 65 crawler fetches
