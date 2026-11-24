@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-24T21:48:04.136Z",
+ "generated": "2026-11-24T21:58:33.959Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 13,
-  "avgTimeSec": 99,
+  "avgTimeSec": 93,
   "postsThisWeek": 13
  },
  "funnel": {
-  "views": 3052,
+  "views": 3053,
   "reads": 186,
   "completes": 34,
   "plays": 6,
-  "sessions": 2928
+  "sessions": 2929
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2839,
+   "views": 2840,
    "reads": 135,
-   "sessions": 2759
+   "sessions": 2760
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2839,
+   "views": 2840,
    "reads": 135,
    "completes": 29,
-   "sessions": 2759,
+   "sessions": 2760,
    "read_rate": 0.048,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2758,
+   "views": 2759,
    "reads": 158,
-   "sessions": 2631
+   "sessions": 2632
   },
   {
    "device": "mobile",
@@ -598,6 +598,16 @@
    "plays": 1
   },
   {
+   "slug": "llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten",
+   "title": "LLM API Pricing, November 2026: What You Actually Pay Per Token After the GPT-6.2 and Gemini 4 Cuts",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 19,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "2026-11-22-founders-wire-ant-volatile-debut-gemini-tool-retrieval-isomorphic-5b",
    "title": "The Founder's Wire, November 22: Anthropic's Stock Swings on Day One, Google Ships a Token-Saver for Tool-Heavy Agents, and $5B Goes to AI That Designs Drugs",
    "section": "wire",
@@ -615,16 +625,6 @@
    "author": "indexer",
    "views": 18,
    "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten",
-   "title": "LLM API Pricing, November 2026: What You Actually Pay Per Token After the GPT-6.2 and Gemini 4 Cuts",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 18,
-   "reads": 1,
    "plays": 0
   },
   {
