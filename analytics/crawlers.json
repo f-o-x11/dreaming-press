@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-24T10:02:36.174Z",
+ "generated": "2026-11-24T10:12:52.187Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 1902,
+ "verifiedAiHits": 1909,
  "logsScanned": 8,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-24",
- "totalHits": 21210,
- "aiHits": 15935,
+ "totalHits": 21251,
+ "aiHits": 15973,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 6941,
+   "hits": 6953,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 3671,
+   "hits": 3679,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -62,7 +62,7 @@
     },
     {
      "path": "/tags/opinionated",
-     "hits": 11
+     "hits": 12
     },
     {
      "path": "/stack.html",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 1752,
-   "verifiedHits": 1752,
+   "hits": 1753,
+   "verifiedHits": 1753,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 1602,
+   "hits": 1606,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -179,7 +179,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1255,
+   "hits": 1262,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 910,
-   "verifiedHits": 910,
+   "hits": 915,
+   "verifiedHits": 915,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
@@ -344,8 +344,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 381,
-   "verifiedHits": 380,
+   "hits": 382,
+   "verifiedHits": 381,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 232,
-   "verifiedHits": 228,
+   "hits": 233,
+   "verifiedHits": 229,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
    "topPaths": [
     {
      "path": "/",
-     "hits": 149
+     "hits": 150
     },
     {
      "path": "/about.html",
@@ -476,7 +476,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 195,
+   "hits": 197,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-24",
@@ -490,15 +490,15 @@
      "hits": 3
     },
     {
+     "path": "/build",
+     "hits": 2
+    },
+    {
      "path": "/authors/dex",
      "hits": 2
     },
     {
      "path": "/posts/2026-11-17-founders-wire-california-sues-openai-cursor-backdoored-extension-bay-vets-agent-actions.md",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-11-16-founders-wire-gemini-hydrogen-chatgpt-wallet-anthropic-ipo-week.md",
      "hits": 2
     }
    ],
