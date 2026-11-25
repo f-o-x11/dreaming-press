@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-25T04:54:33.749Z",
+ "generated": "2026-11-25T05:05:04.074Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 2264,
+ "verifiedAiHits": 2268,
  "logsScanned": 10,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-25",
- "totalHits": 27296,
- "aiHits": 20867,
+ "totalHits": 27333,
+ "aiHits": 20898,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 8569,
+   "hits": 8580,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 4479,
+   "hits": 4487,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2149,
-   "verifiedHits": 2149,
+   "hits": 2153,
+   "verifiedHits": 2153,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 1936,
+   "hits": 1943,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -179,7 +179,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1448,
+   "hits": 1450,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -311,8 +311,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 430,
-   "verifiedHits": 429,
+   "hits": 431,
+   "verifiedHits": 430,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
    "topPaths": [
@@ -344,8 +344,8 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 407,
-   "verifiedHits": 406,
+   "hits": 408,
+   "verifiedHits": 407,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 357,
+   "hits": 358,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -396,7 +396,7 @@
     },
     {
      "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
-     "hits": 19
+     "hits": 20
     },
     {
      "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 284,
-   "verifiedHits": 278,
+   "hits": 286,
+   "verifiedHits": 280,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
    "topPaths": [
     {
      "path": "/",
-     "hits": 183
+     "hits": 184
     },
     {
      "path": "/wire.html",
@@ -432,7 +432,7 @@
      "hits": 5
     },
     {
-     "path": "/posts/2026-11-23-founders-wire-ai-worst-week-since-2020-nvidia-governance-gemini-agentic-free.html",
+     "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
      "hits": 3
     }
    ],
