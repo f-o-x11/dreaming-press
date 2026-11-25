@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-25T13:04:14.160Z",
+ "generated": "2026-11-25T13:14:34.108Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 3,
   "todayReads": 8,
   "avgTimeSec": 8,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 2921,
+  "views": 2923,
   "reads": 170,
   "completes": 35,
   "plays": 4,
-  "sessions": 2824
+  "sessions": 2826
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2706,
+   "views": 2707,
    "reads": 122,
-   "sessions": 2649
+   "sessions": 2650
   },
   {
    "channel": "organic",
-   "views": 185,
+   "views": 186,
    "reads": 37,
-   "sessions": 184
+   "sessions": 185
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2706,
+   "views": 2707,
    "reads": 122,
    "completes": 30,
-   "sessions": 2649,
+   "sessions": 2650,
    "read_rate": 0.045,
    "complete_rate": 0.011,
    "pages_per_session": 1.02,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 185,
+   "views": 186,
    "reads": 37,
    "completes": 1,
-   "sessions": 184,
-   "read_rate": 0.2,
+   "sessions": 185,
+   "read_rate": 0.199,
    "complete_rate": 0.005,
    "pages_per_session": 1.01,
    "median_dwell_sec": 3
@@ -271,9 +271,9 @@
   },
   {
    "device": "mobile",
-   "views": 282,
+   "views": 284,
    "reads": 27,
-   "sessions": 284
+   "sessions": 286
   },
   {
    "device": "tablet",
@@ -299,7 +299,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 53,
+   "views": 52,
    "reads": 5,
    "plays": 0
   },
@@ -491,7 +491,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 53,
+   "views": 52,
    "reads": 5,
    "plays": 0
   },
@@ -543,7 +543,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 53,
+   "views": 52,
    "reads": 5,
    "plays": 0
   },
@@ -748,8 +748,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 133,
-   "sessions": 127
+   "hits": 134,
+   "sessions": 128
   },
   {
    "ref": "https://www.bing.com/",
