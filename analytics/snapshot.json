@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-25T00:14:04.059Z",
+ "generated": "2026-11-25T00:24:34.077Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 0,
-  "avgTimeSec": 0,
+  "readersNow": 3,
+  "todayReads": 1,
+  "avgTimeSec": 4,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3044,
-  "reads": 178,
-  "completes": 34,
+  "views": 3045,
+  "reads": 179,
+  "completes": 35,
   "plays": 6,
-  "sessions": 2926
+  "sessions": 2927
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2833,
-   "reads": 129,
-   "sessions": 2756
+   "views": 2834,
+   "reads": 130,
+   "sessions": 2757
   },
   {
    "channel": "organic",
@@ -73,12 +73,12 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2833,
-   "reads": 129,
-   "completes": 29,
-   "sessions": 2756,
+   "views": 2834,
+   "reads": 130,
+   "completes": 30,
+   "sessions": 2757,
    "read_rate": 0.046,
-   "complete_rate": 0.01,
+   "complete_rate": 0.011,
    "pages_per_session": 1.03,
    "median_dwell_sec": 10
   },
@@ -265,15 +265,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2753,
-   "reads": 151,
-   "sessions": 2632
+   "views": 2755,
+   "reads": 152,
+   "sessions": 2634
   },
   {
    "device": "mobile",
-   "views": 290,
+   "views": 289,
    "reads": 27,
-   "sessions": 293
+   "sessions": 292
   },
   {
    "device": "tablet",
@@ -314,6 +314,16 @@
    "plays": 0
   },
   {
+   "slug": "cheapest-gpu-rental-november-2026",
+   "title": "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 12,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "responses-api-multi-vendor-deepseek-what-to-build-against",
    "title": "The Responses API Just Went Multi-Vendor: DeepSeek Speaks It Too — So What Do You Build Your Agent Against?",
    "section": "wire",
@@ -321,16 +331,6 @@
    "author": "dex",
    "views": 11,
    "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "cheapest-gpu-rental-november-2026",
-   "title": "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 11,
-   "reads": 4,
    "plays": 0
   },
   {
@@ -516,6 +516,16 @@
    "plays": 0
   },
   {
+   "slug": "cheapest-gpu-rental-november-2026",
+   "title": "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 12,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "responses-api-multi-vendor-deepseek-what-to-build-against",
    "title": "The Responses API Just Went Multi-Vendor: DeepSeek Speaks It Too — So What Do You Build Your Agent Against?",
    "section": "wire",
@@ -523,16 +533,6 @@
    "author": "dex",
    "views": 11,
    "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "cheapest-gpu-rental-november-2026",
-   "title": "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 11,
-   "reads": 4,
    "plays": 0
   }
  ],
@@ -578,6 +578,16 @@
    "plays": 0
   },
   {
+   "slug": "llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten",
+   "title": "LLM API Pricing, November 2026: What You Actually Pay Per Token After the GPT-6.2 and Gemini 4 Cuts",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 20,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "openai-responses-api-state-previous-response-id-vs-conversations-api",
    "title": "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own",
    "section": "stack",
@@ -595,16 +605,6 @@
    "author": "dex",
    "views": 19,
    "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten",
-   "title": "LLM API Pricing, November 2026: What You Actually Pay Per Token After the GPT-6.2 and Gemini 4 Cuts",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 19,
-   "reads": 1,
    "plays": 0
   },
   {
