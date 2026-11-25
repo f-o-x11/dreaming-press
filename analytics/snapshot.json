@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T02:19:34.021Z",
+ "generated": "2026-11-25T02:30:04.055Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,18 +8,18 @@
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3031,
-  "reads": 178,
+  "views": 3029,
+  "reads": 177,
   "completes": 35,
   "plays": 6,
-  "sessions": 2922
+  "sessions": 2921
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2819,
-   "reads": 129,
-   "sessions": 2751
+   "views": 2817,
+   "reads": 128,
+   "sessions": 2750
   },
   {
    "channel": "organic",
@@ -73,11 +73,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2819,
-   "reads": 129,
+   "views": 2817,
+   "reads": 128,
    "completes": 30,
-   "sessions": 2751,
-   "read_rate": 0.046,
+   "sessions": 2750,
+   "read_rate": 0.045,
    "complete_rate": 0.011,
    "pages_per_session": 1.02,
    "median_dwell_sec": 8
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2741,
-   "reads": 151,
-   "sessions": 2629
+   "views": 2739,
+   "reads": 150,
+   "sessions": 2628
   },
   {
    "device": "mobile",
@@ -294,16 +294,6 @@
    "plays": 0
   },
   {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 17,
-   "reads": 6,
-   "plays": 1
-  },
-  {
    "slug": "open-source-coding-llm-ranked-november-2026",
    "title": "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned",
    "section": "stack",
@@ -312,6 +302,16 @@
    "views": 45,
    "reads": 5,
    "plays": 0
+  },
+  {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 15,
+   "reads": 5,
+   "plays": 1
   },
   {
    "slug": "cheapest-gpu-rental-november-2026",
@@ -441,8 +441,8 @@
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "priya",
-   "views": 17,
-   "reads": 6,
+   "views": 15,
+   "reads": 5,
    "plays": 1
   },
   {
