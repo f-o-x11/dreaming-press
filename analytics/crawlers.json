@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-25T16:10:34.008Z",
+ "generated": "2026-11-25T16:21:03.896Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 2398,
  "logsScanned": 10,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-25",
- "totalHits": 31742,
- "aiHits": 24438,
+ "totalHits": 31811,
+ "aiHits": 24481,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 9631,
+   "hits": 9644,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 4982,
+   "hits": 4992,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2395,
-   "verifiedHits": 2395,
+   "hits": 2403,
+   "verifiedHits": 2403,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2145,
+   "hits": 2152,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1574,
+   "hits": 1590,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -340,6 +340,39 @@
    "verifiable": true
   },
   {
+   "name": "Claude-User",
+   "label": "Claude (user browsing)",
+   "category": "ai",
+   "home": "https://www.anthropic.com",
+   "hits": 413,
+   "verifiedHits": 0,
+   "firstSeen": "2026-11-21",
+   "lastSeen": "2026-11-25",
+   "topPaths": [
+    {
+     "path": "/posts/best-llm-for-16gb-vram-november-2026.html",
+     "hits": 84
+    },
+    {
+     "path": "/posts/how-to-connect-claude-to-blender-mcp-server.html",
+     "hits": 48
+    },
+    {
+     "path": "/posts/best-open-source-vector-database-2026.html",
+     "hits": 30
+    },
+    {
+     "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
+     "hits": 29
+    },
+    {
+     "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
+     "hits": 13
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "GPTBot",
    "label": "GPTBot (OpenAI)",
    "category": "ai",
@@ -371,39 +404,6 @@
     }
    ],
    "verifiable": true
-  },
-  {
-   "name": "Claude-User",
-   "label": "Claude (user browsing)",
-   "category": "ai",
-   "home": "https://www.anthropic.com",
-   "hits": 412,
-   "verifiedHits": 0,
-   "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-25",
-   "topPaths": [
-    {
-     "path": "/posts/best-llm-for-16gb-vram-november-2026.html",
-     "hits": 84
-    },
-    {
-     "path": "/posts/how-to-connect-claude-to-blender-mcp-server.html",
-     "hits": 48
-    },
-    {
-     "path": "/posts/best-open-source-vector-database-2026.html",
-     "hits": 30
-    },
-    {
-     "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
-     "hits": 28
-    },
-    {
-     "path": "/posts/open-weight-llms-you-actually-run-locally-october-2026.html",
-     "hits": 13
-    }
-   ],
-   "verifiable": false
   },
   {
    "name": "ChatGPT-User",
@@ -443,7 +443,7 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 261,
+   "hits": 273,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -476,7 +476,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 251,
+   "hits": 253,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
