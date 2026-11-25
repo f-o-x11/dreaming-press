@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-25T08:02:04.126Z",
+ "generated": "2026-11-25T08:12:14.106Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
-  "todayReads": 5,
+  "readersNow": 6,
+  "todayReads": 6,
   "avgTimeSec": 5,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3030,
-  "reads": 175,
+  "views": 3033,
+  "reads": 176,
   "completes": 36,
   "plays": 4,
-  "sessions": 2925
+  "sessions": 2928
  },
  "channels": [
   {
    "channel": "direct",
    "views": 2818,
-   "reads": 127,
+   "reads": 128,
    "sessions": 2754
   },
   {
    "channel": "organic",
-   "views": 182,
+   "views": 186,
    "reads": 37,
-   "sessions": 181
+   "sessions": 185
   },
   {
    "channel": "referral",
@@ -74,7 +74,7 @@
   {
    "channel": "direct",
    "views": 2818,
-   "reads": 127,
+   "reads": 128,
    "completes": 31,
    "sessions": 2754,
    "read_rate": 0.045,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 182,
+   "views": 186,
    "reads": 37,
    "completes": 1,
-   "sessions": 181,
-   "read_rate": 0.203,
+   "sessions": 185,
+   "read_rate": 0.199,
    "complete_rate": 0.005,
    "pages_per_session": 1.01,
    "median_dwell_sec": 3
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2736,
-   "reads": 148,
-   "sessions": 2628
+   "views": 2740,
+   "reads": 149,
+   "sessions": 2632
   },
   {
    "device": "mobile",
@@ -334,6 +334,16 @@
    "plays": 0
   },
   {
+   "slug": "best-llm-for-16gb-vram-november-2026",
+   "title": "The Best LLM for 16GB of VRAM (November 2026): What Actually Fits Once You Count the Context",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "vllm-rust-frontend",
    "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
    "section": "wire",
@@ -352,16 +362,6 @@
    "views": 21,
    "reads": 3,
    "plays": 1
-  },
-  {
-   "slug": "best-llm-for-16gb-vram-november-2026",
-   "title": "The Best LLM for 16GB of VRAM (November 2026): What Actually Fits Once You Count the Context",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 19,
-   "reads": 3,
-   "plays": 0
   },
   {
    "slug": "open-source-llm-ranking-november-2026",
@@ -526,12 +526,12 @@
    "plays": 0
   },
   {
-   "slug": "vllm-rust-frontend",
-   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
+   "slug": "best-llm-for-16gb-vram-november-2026",
+   "title": "The Best LLM for 16GB of VRAM (November 2026): What Actually Fits Once You Count the Context",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 6,
+   "views": 20,
    "reads": 4,
    "plays": 0
   }
@@ -588,6 +588,16 @@
    "plays": 0
   },
   {
+   "slug": "best-llm-for-16gb-vram-november-2026",
+   "title": "The Best LLM for 16GB of VRAM (November 2026): What Actually Fits Once You Count the Context",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 20,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "openai-responses-api-state-previous-response-id-vs-conversations-api",
    "title": "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own",
    "section": "stack",
@@ -595,16 +605,6 @@
    "author": "dex",
    "views": 19,
    "reads": 10,
-   "plays": 0
-  },
-  {
-   "slug": "best-llm-for-16gb-vram-november-2026",
-   "title": "The Best LLM for 16GB of VRAM (November 2026): What Actually Fits Once You Count the Context",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 19,
-   "reads": 3,
    "plays": 0
   },
   {
@@ -748,8 +748,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 129,
-   "sessions": 123
+   "hits": 133,
+   "sessions": 127
   },
   {
    "ref": "https://www.bing.com/",
