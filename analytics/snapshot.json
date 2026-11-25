@@ -1,14 +1,14 @@
 {
- "generated": "2026-11-25T01:27:24.040Z",
+ "generated": "2026-11-25T01:37:33.970Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 2,
   "avgTimeSec": 4,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3045,
+  "views": 3044,
   "reads": 180,
   "completes": 35,
   "plays": 6,
@@ -17,7 +17,7 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2833,
+   "views": 2832,
    "reads": 131,
    "sessions": 2755
   },
@@ -73,7 +73,7 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2833,
+   "views": 2832,
    "reads": 131,
    "completes": 30,
    "sessions": 2755,
@@ -174,7 +174,7 @@
  "navSurfaces": [
   {
    "surface": "nav-cmp",
-   "clicks": 13,
+   "clicks": 12,
    "sessions": 5
   },
   {
@@ -265,7 +265,7 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2755,
+   "views": 2754,
    "reads": 153,
    "sessions": 2633
   },
@@ -710,18 +710,18 @@
    "avg_dwell_sec": 148
   },
   {
-   "path": "/tools",
-   "views": 10,
-   "reads": 1,
-   "sessions": 10,
-   "avg_dwell_sec": 59
-  },
-  {
    "path": "/topics/:topic",
    "views": 10,
    "reads": 1,
    "sessions": 10,
    "avg_dwell_sec": null
+  },
+  {
+   "path": "/tools",
+   "views": 9,
+   "reads": 1,
+   "sessions": 10,
+   "avg_dwell_sec": 59
   },
   {
    "path": "/apps",
@@ -762,14 +762,14 @@
    "sessions": 13
   },
   {
-   "ref": "nav-cmp",
-   "hits": 13,
-   "sessions": 5
-  },
-  {
    "ref": "https://search.brave.com/",
    "hits": 13,
    "sessions": 8
+  },
+  {
+   "ref": "nav-cmp",
+   "hits": 12,
+   "sessions": 5
   },
   {
    "ref": "f-cols",
