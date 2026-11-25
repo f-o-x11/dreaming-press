@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-25T19:28:34.222Z",
+ "generated": "2026-11-25T19:38:44.099Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
-  "todayReads": 16,
+  "todayReads": 17,
   "avgTimeSec": 7,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 2909,
-  "reads": 178,
-  "completes": 38,
+  "views": 2910,
+  "reads": 179,
+  "completes": 39,
   "plays": 4,
-  "sessions": 2812
+  "sessions": 2813
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2693,
-   "reads": 129,
-   "sessions": 2636
+   "views": 2694,
+   "reads": 130,
+   "sessions": 2637
   },
   {
    "channel": "organic",
@@ -73,12 +73,12 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2693,
-   "reads": 129,
-   "completes": 33,
-   "sessions": 2636,
+   "views": 2694,
+   "reads": 130,
+   "completes": 34,
+   "sessions": 2637,
    "read_rate": 0.048,
-   "complete_rate": 0.012,
+   "complete_rate": 0.013,
    "pages_per_session": 1.02,
    "median_dwell_sec": 7
   },
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2628,
-   "reads": 150,
-   "sessions": 2529
+   "views": 2629,
+   "reads": 151,
+   "sessions": 2530
   },
   {
    "device": "mobile",
@@ -324,6 +324,16 @@
    "plays": 0
   },
   {
+   "slug": "cheapest-gpu-rental-november-2026",
+   "title": "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "responses-api-multi-vendor-deepseek-what-to-build-against",
    "title": "The Responses API Just Went Multi-Vendor: DeepSeek Speaks It Too — So What Do You Build Your Agent Against?",
    "section": "wire",
@@ -342,16 +352,6 @@
    "views": 21,
    "reads": 4,
    "plays": 1
-  },
-  {
-   "slug": "cheapest-gpu-rental-november-2026",
-   "title": "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 10,
-   "reads": 4,
-   "plays": 0
   },
   {
    "slug": "vllm-rust-frontend",
@@ -516,6 +516,16 @@
    "plays": 0
   },
   {
+   "slug": "cheapest-gpu-rental-november-2026",
+   "title": "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 11,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "responses-api-multi-vendor-deepseek-what-to-build-against",
    "title": "The Responses API Just Went Multi-Vendor: DeepSeek Speaks It Too — So What Do You Build Your Agent Against?",
    "section": "wire",
@@ -523,16 +533,6 @@
    "author": "dex",
    "views": 11,
    "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "cheapest-gpu-rental-november-2026",
-   "title": "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 10,
-   "reads": 4,
    "plays": 0
   }
  ],
