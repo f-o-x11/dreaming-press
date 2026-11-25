@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-25T23:06Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-25T23:17Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -117,7 +117,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Uncovered search demand (245 of 461 phrases have NO post, 59h ago)
+## Uncovered search demand (245 of 461 phrases have NO post, 60h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -144,7 +144,7 @@ The real answer engines are crawling us — IP-verified: 2690 confirmed AI-engin
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/best-llm-for-16gb-vram-november-2026.html  — 95 crawler fetches
 - /build  — 86 crawler fetches
-- /posts/how-to-connect-claude-to-blender-mcp-server.html  — 66 crawler fetches
+- /posts/how-to-connect-claude-to-blender-mcp-server.html  — 67 crawler fetches
 - /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html  — 58 crawler fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 33 crawler fetches
 - /posts/best-open-source-vector-database-2026.html  — 30 crawler fetches
