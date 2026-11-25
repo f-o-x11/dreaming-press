@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-25T00:24:33.758Z",
+ "generated": "2026-11-25T00:35:03.782Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 2226,
+ "verifiedAiHits": 2227,
  "logsScanned": 10,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-25",
- "totalHits": 24670,
- "aiHits": 18531,
+ "totalHits": 24720,
+ "aiHits": 18570,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 8105,
+   "hits": 8133,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 4303,
+   "hits": 4311,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2048,
-   "verifiedHits": 2048,
+   "hits": 2056,
+   "verifiedHits": 2056,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
    "topPaths": [
@@ -91,7 +91,11 @@
     },
     {
      "path": "/build",
-     "hits": 11
+     "hits": 12
+    },
+    {
+     "path": "/tags/reportive",
+     "hits": 10
     },
     {
      "path": "/posts/2026-11-17-founders-wire-california-sues-openai-cursor-backdoored-extension-bay-vets-agent-actions.html",
@@ -99,10 +103,6 @@
     },
     {
      "path": "/posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html",
-     "hits": 9
-    },
-    {
-     "path": "/tags/reportive",
      "hits": 9
     }
    ],
@@ -146,7 +146,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1425,
+   "hits": 1427,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -154,6 +154,10 @@
     {
      "path": "/posts/honeycomb-canvas-agent-auto-investigations.html",
      "hits": 3
+    },
+    {
+     "path": "/posts/best-open-vision-language-model-for-agents.html",
+     "hits": 2
     },
     {
      "path": "/best/sandboxes-runtime",
@@ -165,10 +169,6 @@
     },
     {
      "path": "/compare",
-     "hits": 2
-    },
-    {
-     "path": "/posts/best-vector-database-for-windows-local-rag.html",
      "hits": 2
     }
    ],
@@ -377,7 +377,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 339,
+   "hits": 341,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -392,7 +392,7 @@
     },
     {
      "path": "/posts/best-open-source-vector-database-2026.html",
-     "hits": 19
+     "hits": 20
     },
     {
      "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 274,
-   "verifiedHits": 269,
+   "hits": 275,
+   "verifiedHits": 270,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-24",
+   "lastSeen": "2026-11-25",
    "topPaths": [
     {
      "path": "/",
-     "hits": 178
+     "hits": 179
     },
     {
      "path": "/wire.html",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 189,
-   "verifiedHits": 166,
+   "hits": 190,
+   "verifiedHits": 167,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
    "topPaths": [
