@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-25T11:40Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-25T11:51Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -104,7 +104,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (1161 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×12 · /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×11 · /posts/harvey-benchmark-vertical-ai-rollup-founder-exit.html ×9
 - OAI-SearchBot (484 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×29 · /posts/open-source-llm-for-coding-september-2026.html ×10 · /posts/2026-07-22-founders-wire-mcp-lock-week-a2a-clouds-skills.html ×10
-- ChatGPT-User (301 verified): / ×194 · /wire.html ×10 · /about.html ×7
+- ChatGPT-User (302 verified): / ×194 · /wire.html ×10 · /about.html ×7
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -141,7 +141,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 2357 confirmed AI-engine fetches (Perplexity 1161, ChatGPT Search (OpenAI) 484, GPTBot (OpenAI) 411, ChatGPT (user browsing) 301).
+The real answer engines are crawling us — IP-verified: 2358 confirmed AI-engine fetches (Perplexity 1161, ChatGPT Search (OpenAI) 484, GPTBot (OpenAI) 411, ChatGPT (user browsing) 302).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/best-llm-for-16gb-vram-november-2026.html  — 81 crawler fetches
 - /build  — 74 crawler fetches
