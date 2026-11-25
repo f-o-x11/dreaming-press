@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-24T23:53:14.282Z",
+ "generated": "2026-11-25T00:03:34.049Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 13,
-  "avgTimeSec": 93,
-  "postsThisWeek": 13
+  "readersNow": 2,
+  "todayReads": 0,
+  "avgTimeSec": 0,
+  "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3049,
-  "reads": 181,
+  "views": 3045,
+  "reads": 178,
   "completes": 34,
   "plays": 6,
-  "sessions": 2929
+  "sessions": 2927
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2837,
-   "reads": 131,
-   "sessions": 2759
+   "views": 2834,
+   "reads": 129,
+   "sessions": 2757
   },
   {
    "channel": "organic",
-   "views": 181,
-   "reads": 38,
-   "sessions": 180
+   "views": 180,
+   "reads": 37,
+   "sessions": 179
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2837,
-   "reads": 131,
+   "views": 2834,
+   "reads": 129,
    "completes": 29,
-   "sessions": 2759,
+   "sessions": 2757,
    "read_rate": 0.046,
    "complete_rate": 0.01,
    "pages_per_session": 1.03,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 181,
-   "reads": 38,
+   "views": 180,
+   "reads": 37,
    "completes": 1,
-   "sessions": 180,
-   "read_rate": 0.21,
+   "sessions": 179,
+   "read_rate": 0.206,
    "complete_rate": 0.006,
    "pages_per_session": 1.01,
    "median_dwell_sec": 3
@@ -174,7 +174,7 @@
  "navSurfaces": [
   {
    "surface": "nav-cmp",
-   "clicks": 14,
+   "clicks": 13,
    "sessions": 5
   },
   {
@@ -213,11 +213,6 @@
    "sessions": 2
   },
   {
-   "surface": "desk-compare",
-   "clicks": 2,
-   "sessions": 2
-  },
-  {
    "surface": "cited-list",
    "clicks": 2,
    "sessions": 2
@@ -246,6 +241,11 @@
    "surface": "nrf-lastfiled",
    "clicks": 1,
    "sessions": 1
+  },
+  {
+   "surface": "nav-drawer-agents",
+   "clicks": 1,
+   "sessions": 1
   }
  ],
  "assistants": [
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2758,
-   "reads": 154,
-   "sessions": 2635
+   "views": 2754,
+   "reads": 151,
+   "sessions": 2633
   },
   {
    "device": "mobile",
@@ -384,16 +384,6 @@
    "plays": 0
   },
   {
-   "slug": "mcp-tool-annotations-explained",
-   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 8,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "vertical-ai-agents-legal-health-finance-where-2026-funding-is-going",
    "title": "Where 2026's Vertical-AI Money Actually Went: Legal Took the Cash, Healthcare Took the Deals",
    "section": "wire",
@@ -408,6 +398,16 @@
    "title": "Gemini 4 Hydrogen vs Claude Haiku 5.5 vs Sonnet 5.5: The Cheap, Fast Model for Agent Loops (November 2026)",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 7,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "mcp-tool-annotations-explained",
+   "title": "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 7,
    "reads": 3,
@@ -655,10 +655,10 @@
   },
   {
    "path": "/",
-   "views": 182,
-   "reads": 2,
-   "sessions": 182,
-   "avg_dwell_sec": 17
+   "views": 180,
+   "reads": 1,
+   "sessions": 179,
+   "avg_dwell_sec": 13
   },
   {
    "path": "/best/:cat",
@@ -703,6 +703,13 @@
    "avg_dwell_sec": null
   },
   {
+   "path": "/submit.html",
+   "views": 10,
+   "reads": 2,
+   "sessions": 8,
+   "avg_dwell_sec": 148
+  },
+  {
    "path": "/tools",
    "views": 10,
    "reads": 1,
@@ -717,25 +724,18 @@
    "avg_dwell_sec": null
   },
   {
-   "path": "/stack.html",
-   "views": 9,
-   "reads": 0,
-   "sessions": 7,
-   "avg_dwell_sec": 12
-  },
-  {
-   "path": "/submit.html",
-   "views": 9,
-   "reads": 2,
-   "sessions": 7,
-   "avg_dwell_sec": 171
-  },
-  {
    "path": "/apps",
    "views": 8,
    "reads": 1,
    "sessions": 7,
    "avg_dwell_sec": 38
+  },
+  {
+   "path": "/stack.html",
+   "views": 8,
+   "reads": 0,
+   "sessions": 7,
+   "avg_dwell_sec": 12
   },
   {
    "path": "/agents.html",
@@ -753,8 +753,8 @@
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 41,
-   "sessions": 25
+   "hits": 39,
+   "sessions": 24
   },
   {
    "ref": "https://duckduckgo.com/",
@@ -763,7 +763,7 @@
   },
   {
    "ref": "nav-cmp",
-   "hits": 14,
+   "hits": 13,
    "sessions": 5
   },
   {
