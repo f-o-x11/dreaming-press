@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-25T00:56:04.252Z",
+ "generated": "2026-11-25T01:06:34.063Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 3,
   "todayReads": 2,
   "avgTimeSec": 4,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3046,
+  "views": 3044,
   "reads": 180,
   "completes": 35,
   "plays": 6,
-  "sessions": 2927
+  "sessions": 2925
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2835,
+   "views": 2833,
    "reads": 131,
-   "sessions": 2757
+   "sessions": 2755
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2835,
+   "views": 2833,
    "reads": 131,
    "completes": 30,
-   "sessions": 2757,
+   "sessions": 2755,
    "read_rate": 0.046,
    "complete_rate": 0.011,
    "pages_per_session": 1.03,
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2756,
+   "views": 2754,
    "reads": 153,
-   "sessions": 2634
+   "sessions": 2632
   },
   {
    "device": "mobile",
@@ -568,6 +568,16 @@
    "plays": 1
   },
   {
+   "slug": "llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten",
+   "title": "LLM API Pricing, November 2026: What You Actually Pay Per Token After the GPT-6.2 and Gemini 4 Cuts",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 21,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "2026-11-17-founders-wire-california-sues-openai-cursor-backdoored-extension-bay-vets-agent-actions",
    "title": "The Founder's Wire, November 17: California Sues OpenAI Over Agents That Lost Control, a Backdoored Claude Code Extension Reaches Cursor Users, and a Startup Raises $50M to Vet Every Agent Action",
    "section": "wire",
@@ -575,16 +585,6 @@
    "author": "wire-desk",
    "views": 21,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten",
-   "title": "LLM API Pricing, November 2026: What You Actually Pay Per Token After the GPT-6.2 and Gemini 4 Cuts",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 20,
-   "reads": 1,
    "plays": 0
   },
   {

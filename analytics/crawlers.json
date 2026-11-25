@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-25T00:56:03.953Z",
+ "generated": "2026-11-25T01:06:33.773Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 2228,
  "logsScanned": 10,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-25",
- "totalHits": 24829,
- "aiHits": 18655,
+ "totalHits": 24955,
+ "aiHits": 18763,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 8182,
+   "hits": 8198,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 4325,
+   "hits": 4333,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2061,
-   "verifiedHits": 2061,
+   "hits": 2063,
+   "verifiedHits": 2063,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
    "topPaths": [
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 1879,
+   "hits": 1883,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -142,44 +142,11 @@
    "verifiable": false
   },
   {
-   "name": "YandexBot",
-   "label": "Yandex",
-   "category": "search",
-   "home": "https://yandex.com",
-   "hits": 1428,
-   "verifiedHits": 0,
-   "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-25",
-   "topPaths": [
-    {
-     "path": "/posts/honeycomb-canvas-agent-auto-investigations.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/best-open-vision-language-model-for-agents.html",
-     "hits": 2
-    },
-    {
-     "path": "/best/sandboxes-runtime",
-     "hits": 2
-    },
-    {
-     "path": "/alternatives/airtop",
-     "hits": 2
-    },
-    {
-     "path": "/compare",
-     "hits": 2
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "ClaudeBot",
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1371,
+   "hits": 1450,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -208,11 +175,44 @@
    "verifiable": false
   },
   {
+   "name": "YandexBot",
+   "label": "Yandex",
+   "category": "search",
+   "home": "https://yandex.com",
+   "hits": 1430,
+   "verifiedHits": 0,
+   "firstSeen": "2026-11-21",
+   "lastSeen": "2026-11-25",
+   "topPaths": [
+    {
+     "path": "/posts/honeycomb-canvas-agent-auto-investigations.html",
+     "hits": 3
+    },
+    {
+     "path": "/posts/best-open-vision-language-model-for-agents.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/how-to-trace-and-evaluate-an-ai-agent-with-langfuse.html",
+     "hits": 2
+    },
+    {
+     "path": "/best/sandboxes-runtime",
+     "hits": 2
+    },
+    {
+     "path": "/alternatives/airtop",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Baiduspider",
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1174,
+   "hits": 1180,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -278,10 +278,10 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1098,
+   "hits": 1106,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-24",
+   "lastSeen": "2026-11-25",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -377,7 +377,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 341,
+   "hits": 342,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
