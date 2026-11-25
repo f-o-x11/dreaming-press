@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-25T23:17Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-25T23:27Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -89,7 +89,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 227 retrieval fetches
+- /  — 228 retrieval fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 31 retrieval fetches
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 12 retrieval fetches
 - /wire.html  — 12 retrieval fetches
@@ -101,9 +101,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 10 retrieval fetches
 
 Per engine:
-- PerplexityBot (1413 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×12 · /posts/2026-11-20-founders-wire-apple-builds-its-own-agent-arizona-opens-criminal-probe-anthropic-ant-debuts.html ×11 · /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×11
-- OAI-SearchBot (520 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×31 · /posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html ×10 · /posts/lm-studio-bionic-local-agent-open-models.html ×10
-- ChatGPT-User (342 verified): / ×217 · /wire.html ×12 · /about.html ×8
+- PerplexityBot (1415 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×12 · /posts/2026-11-20-founders-wire-apple-builds-its-own-agent-arizona-opens-criminal-probe-anthropic-ant-debuts.html ×11 · /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×11
+- OAI-SearchBot (521 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×31 · /posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html ×10 · /posts/lm-studio-bionic-local-agent-open-models.html ×10
+- ChatGPT-User (343 verified): / ×218 · /wire.html ×12 · /about.html ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -140,7 +140,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 2690 confirmed AI-engine fetches (Perplexity 1413, ChatGPT Search (OpenAI) 520, GPTBot (OpenAI) 415, ChatGPT (user browsing) 342).
+The real answer engines are crawling us — IP-verified: 2694 confirmed AI-engine fetches (Perplexity 1415, ChatGPT Search (OpenAI) 521, GPTBot (OpenAI) 415, ChatGPT (user browsing) 343).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/best-llm-for-16gb-vram-november-2026.html  — 95 crawler fetches
 - /build  — 86 crawler fetches
