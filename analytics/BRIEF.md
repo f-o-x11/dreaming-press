@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-25T19:59Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-25T20:10Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -102,7 +102,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/stripe-usage-based-billing-with-meters.html  — 10 retrieval fetches
 
 Per engine:
-- PerplexityBot (1394 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×12 · /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×11 · / ×10
+- PerplexityBot (1395 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×12 · /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×11 · / ×10
 - OAI-SearchBot (511 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×31 · /posts/lm-studio-bionic-local-agent-open-models.html ×10 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×10
 - ChatGPT-User (335 verified): / ×211 · /wire.html ×12 · /about.html ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -141,10 +141,10 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 2653 confirmed AI-engine fetches (Perplexity 1394, ChatGPT Search (OpenAI) 511, GPTBot (OpenAI) 413, ChatGPT (user browsing) 335).
+The real answer engines are crawling us — IP-verified: 2656 confirmed AI-engine fetches (Perplexity 1395, ChatGPT Search (OpenAI) 511, GPTBot (OpenAI) 415, ChatGPT (user browsing) 335).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/best-llm-for-16gb-vram-november-2026.html  — 92 crawler fetches
-- /build  — 85 crawler fetches
+- /build  — 86 crawler fetches
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 63 crawler fetches
 - /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html  — 57 crawler fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 33 crawler fetches
