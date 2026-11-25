@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-25T03:01:04.033Z",
+ "generated": "2026-11-25T03:11:34.027Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 2,
   "todayReads": 2,
   "avgTimeSec": 4,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3027,
-  "reads": 176,
+  "views": 3024,
+  "reads": 175,
   "completes": 35,
   "plays": 5,
-  "sessions": 2920
+  "sessions": 2918
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2815,
-   "reads": 127,
-   "sessions": 2749
+   "views": 2812,
+   "reads": 126,
+   "sessions": 2747
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2815,
-   "reads": 127,
+   "views": 2812,
+   "reads": 126,
    "completes": 30,
-   "sessions": 2749,
+   "sessions": 2747,
    "read_rate": 0.045,
    "complete_rate": 0.011,
    "pages_per_session": 1.02,
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2737,
-   "reads": 149,
-   "sessions": 2627
+   "views": 2734,
+   "reads": 148,
+   "sessions": 2625
   },
   {
    "device": "mobile",
@@ -324,16 +324,6 @@
    "plays": 0
   },
   {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 13,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "vllm-rust-frontend",
    "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
    "section": "wire",
@@ -380,6 +370,16 @@
    "tags": "[\"reportive\",\"howto\"]",
    "author": "indexer",
    "views": 18,
+   "reads": 3,
+   "plays": 0
+  },
+  {
+   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
+   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 11,
    "reads": 3,
    "plays": 0
   },
@@ -526,12 +526,12 @@
    "plays": 0
   },
   {
-   "slug": "coreweave-vs-lambda-vs-nebius-gpu-cloud",
-   "title": "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026",
+   "slug": "vllm-rust-frontend",
+   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "priya",
-   "views": 13,
+   "author": "dex",
+   "views": 6,
    "reads": 4,
    "plays": 0
   }
