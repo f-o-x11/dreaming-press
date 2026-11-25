@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T10:07:14.136Z",
+ "generated": "2026-11-25T10:17:34.170Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3028,
-  "reads": 174,
+  "views": 3023,
+  "reads": 173,
   "completes": 35,
   "plays": 4,
-  "sessions": 2922
+  "sessions": 2919
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2812,
-   "reads": 126,
-   "sessions": 2747
+   "views": 2807,
+   "reads": 125,
+   "sessions": 2744
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2812,
-   "reads": 126,
+   "views": 2807,
+   "reads": 125,
    "completes": 30,
-   "sessions": 2747,
+   "sessions": 2744,
    "read_rate": 0.045,
    "complete_rate": 0.011,
    "pages_per_session": 1.02,
@@ -184,8 +184,8 @@
   },
   {
    "surface": "wire-row",
-   "clicks": 5,
-   "sessions": 5
+   "clicks": 4,
+   "sessions": 4
   },
   {
    "surface": "legal-links",
@@ -198,17 +198,17 @@
    "sessions": 2
   },
   {
-   "surface": "btn-stats",
-   "clicks": 3,
-   "sessions": 3
-  },
-  {
    "surface": "rr-card",
    "clicks": 2,
    "sessions": 2
   },
   {
    "surface": "cited-list",
+   "clicks": 2,
+   "sessions": 2
+  },
+  {
+   "surface": "btn-stats",
    "clicks": 2,
    "sessions": 2
   },
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2733,
-   "reads": 147,
-   "sessions": 2625
+   "views": 2728,
+   "reads": 146,
+   "sessions": 2622
   },
   {
    "device": "mobile",
@@ -690,10 +690,10 @@
   },
   {
    "path": "/dashboard",
-   "views": 17,
+   "views": 16,
    "reads": 0,
-   "sessions": 14,
-   "avg_dwell_sec": 9
+   "sessions": 13,
+   "avg_dwell_sec": 7
   },
   {
    "path": "/authors/dex",
@@ -782,14 +782,14 @@
    "sessions": 4
   },
   {
-   "ref": "wire-row",
-   "hits": 5,
-   "sessions": 5
-  },
-  {
    "ref": "https://bytedance.larkoffice.com/",
    "hits": 5,
    "sessions": 2
+  },
+  {
+   "ref": "wire-row",
+   "hits": 4,
+   "sessions": 4
   },
   {
    "ref": "https://kagi.com/",
