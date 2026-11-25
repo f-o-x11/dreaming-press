@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-25T19:38:43.824Z",
+ "generated": "2026-11-25T19:49:13.897Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 2639,
+ "verifiedAiHits": 2651,
  "logsScanned": 10,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-25",
- "totalHits": 32834,
- "aiHits": 25197,
+ "totalHits": 32893,
+ "aiHits": 25235,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 9888,
+   "hits": 9897,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 5144,
+   "hits": 5152,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2484,
-   "verifiedHits": 2484,
+   "hits": 2490,
+   "verifiedHits": 2490,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2205,
+   "hits": 2214,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -156,11 +156,11 @@
      "hits": 10
     },
     {
-     "path": "/wire.html",
-     "hits": 6
+     "path": "/build",
+     "hits": 7
     },
     {
-     "path": "/build",
+     "path": "/wire.html",
      "hits": 6
     },
     {
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1738,
+   "hits": 1753,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1382,
-   "verifiedHits": 1382,
+   "hits": 1394,
+   "verifiedHits": 1394,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
    "topPaths": [
@@ -259,15 +259,15 @@
      "hits": 11
     },
     {
+     "path": "/",
+     "hits": 10
+    },
+    {
      "path": "/posts/2026-11-20-founders-wire-apple-builds-its-own-agent-arizona-opens-criminal-probe-anthropic-ant-debuts.html",
      "hits": 10
     },
     {
      "path": "/posts/2026-11-18-founders-wire-microsoft-ignite-mai-price-war-agent-365-anthropic-ipo-prices.html",
-     "hits": 10
-    },
-    {
-     "path": "/posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html",
      "hits": 10
     }
    ],

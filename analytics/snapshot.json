@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-25T19:38:44.099Z",
+ "generated": "2026-11-25T19:49:14.210Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 17,
   "avgTimeSec": 7,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 2910,
-  "reads": 179,
+  "views": 2901,
+  "reads": 176,
   "completes": 39,
   "plays": 4,
-  "sessions": 2813
+  "sessions": 2808
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2694,
-   "reads": 130,
-   "sessions": 2637
+   "views": 2686,
+   "reads": 127,
+   "sessions": 2632
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 15,
+   "views": 14,
    "reads": 8,
-   "sessions": 15
+   "sessions": 14
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,11 +73,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2694,
-   "reads": 130,
+   "views": 2686,
+   "reads": 127,
    "completes": 34,
-   "sessions": 2637,
-   "read_rate": 0.048,
+   "sessions": 2632,
+   "read_rate": 0.047,
    "complete_rate": 0.013,
    "pages_per_session": 1.02,
    "median_dwell_sec": 7
@@ -95,12 +95,12 @@
   },
   {
    "channel": "referral",
-   "views": 15,
+   "views": 14,
    "reads": 8,
    "completes": 2,
-   "sessions": 15,
-   "read_rate": 0.533,
-   "complete_rate": 0.133,
+   "sessions": 14,
+   "read_rate": 0.571,
+   "complete_rate": 0.143,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2629,
-   "reads": 151,
-   "sessions": 2530
+   "views": 2620,
+   "reads": 148,
+   "sessions": 2525
   },
   {
    "device": "mobile",
@@ -446,16 +446,6 @@
    "plays": 1
   },
   {
-   "slug": "how-to-deploy-a-long-running-ai-agent-without-losing-in-flight-work",
-   "title": "How to Deploy a Long-Running AI Agent Without Losing In-Flight Work",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 4,
-   "reads": 2,
-   "plays": 1
-  },
-  {
    "slug": "fast-apply-models-morph-vs-relace-vs-cursor",
    "title": "Fast-Apply Models: How Cursor, Morph, and Relace Write Edits at 4,000+ Tokens/Second",
    "section": "wire",
@@ -463,6 +453,16 @@
    "author": "dex",
    "views": 3,
    "reads": 2,
+   "plays": 1
+  },
+  {
+   "slug": "how-to-deploy-a-long-running-ai-agent-without-losing-in-flight-work",
+   "title": "How to Deploy a Long-Running AI Agent Without Losing In-Flight Work",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 1,
+   "reads": 1,
    "plays": 1
   },
   {
@@ -773,8 +773,8 @@
   },
   {
    "ref": "https://teams.public.onecdn.static.microsoft/",
-   "hits": 8,
-   "sessions": 5
+   "hits": 7,
+   "sessions": 4
   },
   {
    "ref": "https://bytedance.larkoffice.com/",
