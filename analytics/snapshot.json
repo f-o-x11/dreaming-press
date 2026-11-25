@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-25T16:31:12.940Z",
+ "generated": "2026-11-25T16:41:34.327Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
-  "todayReads": 15,
+  "readersNow": 1,
+  "todayReads": 16,
   "avgTimeSec": 8,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 2908,
-  "reads": 177,
-  "completes": 37,
+  "views": 2905,
+  "reads": 178,
+  "completes": 38,
   "plays": 4,
-  "sessions": 2811
+  "sessions": 2808
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2692,
-   "reads": 128,
-   "sessions": 2635
+   "views": 2689,
+   "reads": 129,
+   "sessions": 2632
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2692,
-   "reads": 128,
-   "completes": 32,
-   "sessions": 2635,
+   "views": 2689,
+   "reads": 129,
+   "completes": 33,
+   "sessions": 2632,
    "read_rate": 0.048,
    "complete_rate": 0.012,
    "pages_per_session": 1.02,
@@ -265,15 +265,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2624,
-   "reads": 149,
-   "sessions": 2525
+   "views": 2623,
+   "reads": 150,
+   "sessions": 2524
   },
   {
    "device": "mobile",
-   "views": 283,
+   "views": 281,
    "reads": 28,
-   "sessions": 285
+   "sessions": 283
   },
   {
    "device": "tablet",
@@ -291,6 +291,16 @@
    "author": "dex",
    "views": 19,
    "reads": 10,
+   "plays": 0
+  },
+  {
+   "slug": "gpu-rental-price-october-2026",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 7,
+   "reads": 6,
    "plays": 0
   },
   {
@@ -320,16 +330,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 11,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "gpu-rental-price-october-2026",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 6,
    "reads": 5,
    "plays": 0
   },
@@ -486,6 +486,16 @@
    "plays": 0
   },
   {
+   "slug": "gpu-rental-price-october-2026",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 7,
+   "reads": 6,
+   "plays": 0
+  },
+  {
    "slug": "open-source-coding-llm-ranked-november-2026",
    "title": "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned",
    "section": "stack",
@@ -512,16 +522,6 @@
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 11,
-   "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "gpu-rental-price-october-2026",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 6,
    "reads": 5,
    "plays": 0
   },
