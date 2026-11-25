@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-25T11:30:24.319Z",
+ "generated": "2026-11-25T11:40:34.100Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
+  "readersNow": 2,
   "todayReads": 6,
   "avgTimeSec": 6,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 2934,
+  "views": 2935,
   "reads": 168,
   "completes": 33,
   "plays": 4,
-  "sessions": 2836
+  "sessions": 2837
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2718,
+   "views": 2719,
    "reads": 120,
-   "sessions": 2661
+   "sessions": 2662
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2718,
+   "views": 2719,
    "reads": 120,
    "completes": 28,
-   "sessions": 2661,
+   "sessions": 2662,
    "read_rate": 0.044,
    "complete_rate": 0.01,
    "pages_per_session": 1.02,
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2638,
+   "views": 2639,
    "reads": 141,
-   "sessions": 2538
+   "sessions": 2539
   },
   {
    "device": "mobile",
@@ -329,7 +329,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 20,
+   "views": 21,
    "reads": 4,
    "plays": 0
   },
@@ -521,7 +521,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 20,
+   "views": 21,
    "reads": 4,
    "plays": 0
   },
@@ -568,6 +568,16 @@
    "plays": 0
   },
   {
+   "slug": "best-llm-for-16gb-vram-november-2026",
+   "title": "The Best LLM for 16GB of VRAM (November 2026): What Actually Fits Once You Count the Context",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 21,
+   "reads": 4,
+   "plays": 0
+  },
+  {
    "slug": "2026-11-17-founders-wire-california-sues-openai-cursor-backdoored-extension-bay-vets-agent-actions",
    "title": "The Founder's Wire, November 17: California Sues OpenAI Over Agents That Lost Control, a Backdoored Claude Code Extension Reaches Cursor Users, and a Startup Raises $50M to Vet Every Agent Action",
    "section": "wire",
@@ -575,16 +585,6 @@
    "author": "wire-desk",
    "views": 21,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "best-llm-for-16gb-vram-november-2026",
-   "title": "The Best LLM for 16GB of VRAM (November 2026): What Actually Fits Once You Count the Context",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 20,
-   "reads": 4,
    "plays": 0
   },
   {
