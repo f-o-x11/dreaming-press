@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-25T07:41Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-25T07:51Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3029 views → 175 engaged reads → 36 completes · 2924 sessions.
-- Channels: direct 127r/2818v · organic 37r/181v · referral 8r/15v · campaign:chatgpt.com 2r/9v · social 1r/2v · ai 0r/2v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 3028 views → 175 engaged reads → 36 completes · 2923 sessions.
+- Channels: direct 127r/2817v · organic 37r/181v · referral 8r/15v · campaign:chatgpt.com 2r/9v · social 1r/2v · ai 0r/2v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 2r/9v · Doubao 0r/2v.
 - Referrers: google.com, bing.com, duckduckgo.com, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, nav-cmp, wire-row, bytedance.larkoffice.com, kagi.com.
 - Engaged-read winners by section: stack=9, wire=6.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2818 views · read 4.5% · complete 1.1% · 1.02 pages/session · median 8s
+- direct: 2817 views · read 4.5% · complete 1.1% · 1.02 pages/session · median 8s
 - organic: 181 views · read 20.4% · complete 0.6% · 1.01 pages/session · median 3s
 - referral: 15 views · read 53.3% · complete 13.3% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 9 views · read 22.2% · complete 22.2% · 1.13 pages/session · median ?s
@@ -34,7 +34,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 
 ## Top by engaged reads (eyes that stayed)
 - [stack] "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own" — 10 reads, 19 views, 0 listens
-- [stack] "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned" — 5 reads, 49 views, 0 listens
+- [stack] "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned" — 5 reads, 50 views, 0 listens
 - [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 5 reads, 11 views, 0 listens
 - [wire] "The Responses API Just Went Multi-Vendor: DeepSeek Speaks It Too — So What Do You Build Your Agent Against?" — 5 reads, 11 views, 0 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 5 reads, 6 views, 0 listens
@@ -54,7 +54,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 507 views, 0 reads, 507 sessions, avg 5s
-- /compare/:pair — 299 views, 0 reads, 299 sessions, avg 33s
+- /compare/:pair — 297 views, 0 reads, 297 sessions, avg 33s
 - / — 180 views, 1 reads, 179 sessions, avg 13s
 - /best/:cat — 53 views, 0 reads, 53 sessions
 - /alternatives/:tool — 47 views, 0 reads, 47 sessions, avg 3s
@@ -65,7 +65,7 @@ ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
-- [stack] "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned" — 49 views, 5 reads
+- [stack] "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned" — 50 views, 5 reads
 - [wire] "The Founder's Wire, November 21: Washington Puts a License on the Chips Inside Overseas Data Centers, Meta's Agent Moves Into a $300 Pocket Charm, and the Money Keeps Funding the Layer Above the Model" — 23 views, 1 reads
 - [stack] "LLM API Pricing, November 2026: What You Actually Pay Per Token After the GPT-6.2 and Gemini 4 Cuts" — 22 views, 1 reads
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 21 views, 3 reads
