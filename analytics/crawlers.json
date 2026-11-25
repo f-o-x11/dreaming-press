@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-25T01:48:03.866Z",
+ "generated": "2026-11-25T01:58:33.765Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 2230,
  "logsScanned": 10,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-25",
- "totalHits": 25095,
- "aiHits": 18856,
+ "totalHits": 25148,
+ "aiHits": 18898,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 8250,
+   "hits": 8279,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -36,7 +36,7 @@
      "hits": 7
     },
     {
-     "path": "/posts/2026-11-19-founders-wire-anthropic-ant-record-ipo-debuts-frontier-token-cheaper-palo-alto-buys-applied-compute.html",
+     "path": "/posts/ai-agent-frameworks-whats-changed-fall-2026.html",
      "hits": 6
     }
    ],
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 4363,
+   "hits": 4372,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -80,8 +80,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2082,
-   "verifiedHits": 2082,
+   "hits": 2089,
+   "verifiedHits": 2089,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
    "topPaths": [
@@ -102,7 +102,7 @@
      "hits": 10
     },
     {
-     "path": "/posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html",
+     "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
      "hits": 9
     }
    ],
@@ -113,7 +113,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 1886,
+   "hits": 1887,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -179,7 +179,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1434,
+   "hits": 1436,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1201,
+   "hits": 1203,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -220,10 +220,6 @@
     {
      "path": "/build",
      "hits": 6
-    },
-    {
-     "path": "/tools",
-     "hits": 5
     },
     {
      "path": "/newsroom",
@@ -236,6 +232,10 @@
     {
      "path": "/wire.html",
      "hits": 4
+    },
+    {
+     "path": "/stack.html",
+     "hits": 3
     }
    ],
    "verifiable": false
@@ -377,14 +377,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 343,
+   "hits": 346,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
    "topPaths": [
     {
      "path": "/posts/best-llm-for-16gb-vram-november-2026.html",
-     "hits": 64
+     "hits": 67
     },
     {
      "path": "/posts/how-to-connect-claude-to-blender-mcp-server.html",

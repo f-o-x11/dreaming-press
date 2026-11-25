@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T01:48:04.176Z",
+ "generated": "2026-11-25T01:58:34.049Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,7 +8,7 @@
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3035,
+  "views": 3033,
   "reads": 178,
   "completes": 35,
   "plays": 6,
@@ -17,7 +17,7 @@
  "channels": [
   {
    "channel": "direct",
-   "views": 2823,
+   "views": 2821,
    "reads": 129,
    "sessions": 2753
   },
@@ -73,13 +73,13 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2823,
+   "views": 2821,
    "reads": 129,
    "completes": 30,
    "sessions": 2753,
    "read_rate": 0.046,
    "complete_rate": 0.011,
-   "pages_per_session": 1.03,
+   "pages_per_session": 1.02,
    "median_dwell_sec": 8
   },
   {
@@ -188,11 +188,6 @@
    "sessions": 5
   },
   {
-   "surface": "btn-stats",
-   "clicks": 4,
-   "sessions": 3
-  },
-  {
    "surface": "legal-links",
    "clicks": 3,
    "sessions": 2
@@ -201,6 +196,11 @@
    "surface": "dash-range",
    "clicks": 3,
    "sessions": 2
+  },
+  {
+   "surface": "btn-stats",
+   "clicks": 3,
+   "sessions": 3
   },
   {
    "surface": "rr-card",
@@ -265,7 +265,7 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2745,
+   "views": 2743,
    "reads": 151,
    "sessions": 2631
   },
@@ -690,7 +690,7 @@
   },
   {
    "path": "/dashboard",
-   "views": 18,
+   "views": 17,
    "reads": 0,
    "sessions": 14,
    "avg_dwell_sec": 9
@@ -731,18 +731,18 @@
    "avg_dwell_sec": 21
   },
   {
-   "path": "/stack.html",
-   "views": 7,
-   "reads": 0,
-   "sessions": 6,
-   "avg_dwell_sec": 12
-  },
-  {
    "path": "/apps",
    "views": 6,
    "reads": 0,
    "sessions": 6,
    "avg_dwell_sec": 5
+  },
+  {
+   "path": "/authors/priya",
+   "views": 6,
+   "reads": 0,
+   "sessions": 6,
+   "avg_dwell_sec": null
   }
  ],
  "referrers": [
