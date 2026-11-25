@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-25T07:20:34.163Z",
+ "generated": "2026-11-25T07:30:54.200Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 4,
+  "readersNow": 7,
+  "todayReads": 5,
   "avgTimeSec": 5,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3028,
-  "reads": 174,
-  "completes": 35,
+  "views": 3032,
+  "reads": 175,
+  "completes": 36,
   "plays": 4,
-  "sessions": 2924
+  "sessions": 2927
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2817,
-   "reads": 126,
-   "sessions": 2754
+   "views": 2821,
+   "reads": 127,
+   "sessions": 2757
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2817,
-   "reads": 126,
-   "completes": 30,
-   "sessions": 2754,
+   "views": 2821,
+   "reads": 127,
+   "completes": 31,
+   "sessions": 2757,
    "read_rate": 0.045,
    "complete_rate": 0.011,
    "pages_per_session": 1.02,
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2733,
-   "reads": 147,
-   "sessions": 2626
+   "views": 2737,
+   "reads": 148,
+   "sessions": 2629
   },
   {
    "device": "mobile",
@@ -299,7 +299,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 48,
+   "views": 49,
    "reads": 5,
    "plays": 0
   },
@@ -324,22 +324,22 @@
    "plays": 0
   },
   {
+   "slug": "gpu-rental-price-october-2026",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "vllm-rust-frontend",
    "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 6,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "gpu-rental-price-october-2026",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 5,
    "reads": 4,
    "plays": 0
   },
@@ -491,7 +491,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 48,
+   "views": 49,
    "reads": 5,
    "plays": 0
   },
@@ -516,22 +516,22 @@
    "plays": 0
   },
   {
+   "slug": "gpu-rental-price-october-2026",
+   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "vllm-rust-frontend",
    "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "dex",
    "views": 6,
-   "reads": 4,
-   "plays": 0
-  },
-  {
-   "slug": "gpu-rental-price-october-2026",
-   "title": "What It Actually Costs to Rent an H100, H200, or B200 in October 2026",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 5,
    "reads": 4,
    "plays": 0
   }
@@ -543,7 +543,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 48,
+   "views": 49,
    "reads": 5,
    "plays": 0
   },
@@ -655,9 +655,9 @@
   },
   {
    "path": "/",
-   "views": 178,
+   "views": 180,
    "reads": 1,
-   "sessions": 177,
+   "sessions": 179,
    "avg_dwell_sec": 13
   },
   {
@@ -697,17 +697,17 @@
   },
   {
    "path": "/authors/dex",
-   "views": 12,
+   "views": 13,
    "reads": 0,
-   "sessions": 12,
+   "sessions": 13,
    "avg_dwell_sec": null
   },
   {
    "path": "/submit.html",
-   "views": 12,
+   "views": 13,
    "reads": 2,
    "sessions": 10,
-   "avg_dwell_sec": 113
+   "avg_dwell_sec": 101
   },
   {
    "path": "/tools",
