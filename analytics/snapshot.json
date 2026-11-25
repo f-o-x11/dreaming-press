@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-25T13:25:04.269Z",
+ "generated": "2026-11-25T13:35:04.612Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 3,
-  "todayReads": 9,
+  "readersNow": 5,
+  "todayReads": 10,
   "avgTimeSec": 8,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 2922,
-  "reads": 171,
+  "views": 2921,
+  "reads": 172,
   "completes": 36,
   "plays": 4,
-  "sessions": 2825
+  "sessions": 2824
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2706,
-   "reads": 123,
-   "sessions": 2649
+   "views": 2705,
+   "reads": 124,
+   "sessions": 2648
   },
   {
    "channel": "organic",
@@ -73,11 +73,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2706,
-   "reads": 123,
+   "views": 2705,
+   "reads": 124,
    "completes": 31,
-   "sessions": 2649,
-   "read_rate": 0.045,
+   "sessions": 2648,
+   "read_rate": 0.046,
    "complete_rate": 0.011,
    "pages_per_session": 1.02,
    "median_dwell_sec": 7
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2637,
-   "reads": 144,
-   "sessions": 2538
+   "views": 2636,
+   "reads": 145,
+   "sessions": 2537
   },
   {
    "device": "mobile",
@@ -304,6 +304,16 @@
    "plays": 0
   },
   {
+   "slug": "best-llm-for-16gb-vram-november-2026",
+   "title": "The Best LLM for 16GB of VRAM (November 2026): What Actually Fits Once You Count the Context",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "responses-api-multi-vendor-deepseek-what-to-build-against",
    "title": "The Responses API Just Went Multi-Vendor: DeepSeek Speaks It Too — So What Do You Build Your Agent Against?",
    "section": "wire",
@@ -321,16 +331,6 @@
    "author": "dex",
    "views": 6,
    "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "best-llm-for-16gb-vram-november-2026",
-   "title": "The Best LLM for 16GB of VRAM (November 2026): What Actually Fits Once You Count the Context",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 4,
    "plays": 0
   },
   {
@@ -496,6 +496,16 @@
    "plays": 0
   },
   {
+   "slug": "best-llm-for-16gb-vram-november-2026",
+   "title": "The Best LLM for 16GB of VRAM (November 2026): What Actually Fits Once You Count the Context",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 22,
+   "reads": 5,
+   "plays": 0
+  },
+  {
    "slug": "responses-api-multi-vendor-deepseek-what-to-build-against",
    "title": "The Responses API Just Went Multi-Vendor: DeepSeek Speaks It Too — So What Do You Build Your Agent Against?",
    "section": "wire",
@@ -513,16 +523,6 @@
    "author": "dex",
    "views": 6,
    "reads": 5,
-   "plays": 0
-  },
-  {
-   "slug": "best-llm-for-16gb-vram-november-2026",
-   "title": "The Best LLM for 16GB of VRAM (November 2026): What Actually Fits Once You Count the Context",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 4,
    "plays": 0
   },
   {
@@ -573,8 +573,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 21,
-   "reads": 4,
+   "views": 22,
+   "reads": 5,
    "plays": 0
   },
   {
