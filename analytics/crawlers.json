@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-25T04:02:43.878Z",
+ "generated": "2026-11-25T04:13:13.708Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 2238,
+ "verifiedAiHits": 2244,
  "logsScanned": 10,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-25",
- "totalHits": 27122,
- "aiHits": 20744,
+ "totalHits": 27152,
+ "aiHits": 20770,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 8539,
+   "hits": 8548,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 4436,
+   "hits": 4445,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -66,7 +66,7 @@
     },
     {
      "path": "/stack.html",
-     "hits": 7
+     "hits": 8
     },
     {
      "path": "/posts/2026-06-27-too-many-tools-tool-search-vs-code-execution.html",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 2927,
+   "hits": 2928,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2128,
-   "verifiedHits": 2128,
+   "hits": 2131,
+   "verifiedHits": 2131,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
    "topPaths": [
@@ -136,7 +136,7 @@
     },
     {
      "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
-     "hits": 9
+     "hits": 10
     }
    ],
    "verifiable": true
@@ -179,7 +179,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1444,
+   "hits": 1445,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -311,14 +311,22 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 407,
-   "verifiedHits": 406,
+   "hits": 411,
+   "verifiedHits": 410,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-24",
+   "lastSeen": "2026-11-25",
    "topPaths": [
     {
      "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
-     "hits": 25
+     "hits": 26
+    },
+    {
+     "path": "/posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html",
+     "hits": 8
+    },
+    {
+     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
+     "hits": 8
     },
     {
      "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
@@ -326,14 +334,6 @@
     },
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
-     "hits": 8
-    },
-    {
-     "path": "/posts/2026-07-22-founders-wire-mcp-lock-week-a2a-clouds-skills.html",
-     "hits": 8
-    },
-    {
-     "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
      "hits": 8
     }
    ],
@@ -410,18 +410,18 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 282,
-   "verifiedHits": 276,
+   "hits": 284,
+   "verifiedHits": 278,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
    "topPaths": [
     {
      "path": "/",
-     "hits": 182
+     "hits": 183
     },
     {
      "path": "/wire.html",
-     "hits": 9
+     "hits": 10
     },
     {
      "path": "/about.html",
@@ -443,10 +443,10 @@
    "label": "Meta AI",
    "category": "ai",
    "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 258,
+   "hits": 259,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-24",
+   "lastSeen": "2026-11-25",
    "topPaths": [
     {
      "path": "/authors/priya",
