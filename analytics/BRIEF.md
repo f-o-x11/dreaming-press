@@ -1,13 +1,13 @@
-# Analytics brief — auto-exported 2026-11-25T04:23Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-25T04:34Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 3023 views → 175 engaged reads → 35 completes · 2917 sessions.
-- Channels: direct 126r/2811v · organic 37r/181v · referral 9r/16v · campaign:chatgpt.com 2r/9v · social 1r/2v · ai 0r/2v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 3021 views → 173 engaged reads → 35 completes · 2916 sessions.
+- Channels: direct 125r/2810v · organic 37r/181v · referral 8r/15v · campaign:chatgpt.com 2r/9v · social 1r/2v · ai 0r/2v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 2r/9v · Doubao 0r/2v.
-- Referrers: google.com, bing.com, duckduckgo.com, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, nav-cmp, wire-row, bytedance.larkoffice.com, l.meta.ai.
-- Engaged-read winners by section: stack=8, wire=7.
+- Referrers: google.com, bing.com, duckduckgo.com, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, nav-cmp, wire-row, bytedance.larkoffice.com, kagi.com.
+- Engaged-read winners by section: stack=9, wire=6.
 
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
 - f-cols: 10 clicks from 6 sessions
@@ -23,11 +23,11 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2811 views · read 4.5% · complete 1.1% · 1.02 pages/session · median 8s
+- direct: 2810 views · read 4.4% · complete 1.1% · 1.02 pages/session · median 8s
 - organic: 181 views · read 20.4% · complete 0.6% · 1.01 pages/session · median 3s
-- referral: 16 views · read 56.3% · complete 12.5% · 1 pages/session · median ?s
+- referral: 15 views · read 53.3% · complete 13.3% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 9 views · read 22.2% · complete 22.2% · 1.13 pages/session · median ?s
-INSIGHT: referral converts 13x better per view than direct, which is 93% of all views.
+INSIGHT: referral converts 12x better per view than direct, which is 93% of all views.
 One visitor from referral is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
 That is a site-structure problem, not a traffic problem, and it caps time-on-site regardless of volume.
@@ -42,13 +42,12 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 3 reads, 21 views, 1 listens
 - [stack] "The Best LLM for 16GB of VRAM (November 2026): What Actually Fits Once You Count the Context" — 3 reads, 19 views, 0 listens
 - [stack] "Open-Source LLM Rankings (November 2026): How to Read the Leaderboards — and Why They Disagree" — 3 reads, 18 views, 0 listens
-- [wire] "CoreWeave vs Lambda vs Nebius: How to Actually Pick a GPU Cloud in 2026" — 3 reads, 11 views, 0 listens
+- [wire] "Where 2026's Vertical-AI Money Actually Went: Legal Took the Cash, Healthcare Took the Deals" — 3 reads, 8 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 1 listens, 3 reads
 - [wire] "How to Deploy a Long-Running AI Agent Without Losing In-Flight Work" — 1 listens, 2 reads
 - [wire] "Fast-Apply Models: How Cursor, Morph, and Relace Write Edits at 4,000+ Tokens/Second" — 1 listens, 2 reads
-- [wire] "Every AI Agent Framework Became a Graph in 2026 — and the Hard Part Is Still Unsolved" — 1 listens, 1 reads
 - [stack] "Run Claude Code on Alibaba's Qwen Coding Plan: the ~$50/mo Agent Backend" — 1 listens, 0 reads
 
 ## Hubs and tools (non-article routes)
@@ -104,7 +103,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (1151 verified): /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×11 · /posts/how-to-connect-claude-to-blender-mcp-server.html ×11 · /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html ×9
-- OAI-SearchBot (416 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×26 · /posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html ×8 · /posts/lm-studio-bionic-local-agent-open-models.html ×8
+- OAI-SearchBot (419 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×26 · /posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html ×8 · /posts/lm-studio-bionic-local-agent-open-models.html ×8
 - ChatGPT-User (278 verified): / ×183 · /wire.html ×10 · /about.html ×7
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -142,7 +141,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 2250 confirmed AI-engine fetches (Perplexity 1151, ChatGPT Search (OpenAI) 416, GPTBot (OpenAI) 405, ChatGPT (user browsing) 278).
+The real answer engines are crawling us — IP-verified: 2253 confirmed AI-engine fetches (Perplexity 1151, ChatGPT Search (OpenAI) 419, GPTBot (OpenAI) 405, ChatGPT (user browsing) 278).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/best-llm-for-16gb-vram-november-2026.html  — 73 crawler fetches
 - /build  — 71 crawler fetches
