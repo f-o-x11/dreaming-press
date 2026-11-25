@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-25T01:37:33.705Z",
+ "generated": "2026-11-25T01:48:03.866Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 2229,
+ "verifiedAiHits": 2230,
  "logsScanned": 10,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-25",
- "totalHits": 25059,
- "aiHits": 18837,
+ "totalHits": 25095,
+ "aiHits": 18856,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 8242,
+   "hits": 8250,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 4356,
+   "hits": 4363,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -80,14 +80,14 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2076,
-   "verifiedHits": 2076,
+   "hits": 2082,
+   "verifiedHits": 2082,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
-     "hits": 20
+     "hits": 21
     },
     {
      "path": "/build",
@@ -146,7 +146,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 1453,
+   "hits": 1454,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -179,7 +179,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1432,
+   "hits": 1434,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -201,7 +201,7 @@
      "hits": 2
     },
     {
-     "path": "/best/sandboxes-runtime",
+     "path": "/posts/coding-agent-clis-permission-hardening-week-august-2026.html",
      "hits": 2
     }
    ],
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1192,
+   "hits": 1201,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -377,7 +377,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 342,
+   "hits": 343,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 276,
-   "verifiedHits": 271,
+   "hits": 278,
+   "verifiedHits": 272,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
    "topPaths": [
     {
      "path": "/",
-     "hits": 180
+     "hits": 181
     },
     {
      "path": "/wire.html",
