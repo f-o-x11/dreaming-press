@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-25T15:39:43.889Z",
+ "generated": "2026-11-25T15:50:04.269Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 2394,
+ "verifiedAiHits": 2395,
  "logsScanned": 10,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-25",
- "totalHits": 31631,
- "aiHits": 24342,
+ "totalHits": 31684,
+ "aiHits": 24389,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 9578,
+   "hits": 9614,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 4960,
+   "hits": 4968,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -58,11 +58,11 @@
     },
     {
      "path": "/tags/reportive",
-     "hits": 18
+     "hits": 20
     },
     {
      "path": "/tags/opinionated",
-     "hits": 15
+     "hits": 16
     },
     {
      "path": "/stack.html",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2390,
-   "verifiedHits": 2390,
+   "hits": 2394,
+   "verifiedHits": 2394,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1565,
+   "hits": 1567,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -377,18 +377,18 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 406,
+   "hits": 408,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
    "topPaths": [
     {
      "path": "/posts/best-llm-for-16gb-vram-november-2026.html",
-     "hits": 82
+     "hits": 83
     },
     {
      "path": "/posts/how-to-connect-claude-to-blender-mcp-server.html",
-     "hits": 46
+     "hits": 47
     },
     {
      "path": "/posts/best-open-source-vector-database-2026.html",
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 325,
-   "verifiedHits": 318,
+   "hits": 326,
+   "verifiedHits": 319,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
    "topPaths": [
     {
      "path": "/",
-     "hits": 203
+     "hits": 204
     },
     {
      "path": "/wire.html",
