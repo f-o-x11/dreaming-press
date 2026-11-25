@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-25T21:22Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-25T21:32Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2894 views → 174 engaged reads → 39 completes · 2803 sessions.
-- Channels: direct 125r/2678v · organic 38r/188v · referral 8r/14v · campaign:chatgpt.com 2r/8v · social 1r/2v · ai 0r/2v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 2895 views → 175 engaged reads → 40 completes · 2804 sessions.
+- Channels: direct 126r/2679v · organic 38r/188v · referral 8r/14v · campaign:chatgpt.com 2r/8v · social 1r/2v · ai 0r/2v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 2r/8v · Doubao 0r/2v.
 - Referrers: google.com, bing.com, duckduckgo.com, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, bytedance.larkoffice.com, nav-cmp, kagi.com, cn.bing.com.
 - Engaged-read winners by section: stack=9, wire=6.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2678 views · read 4.7% · complete 1.3% · 1.02 pages/session · median 7s
+- direct: 2679 views · read 4.7% · complete 1.3% · 1.02 pages/session · median 7s
 - organic: 188 views · read 20.2% · complete 0.5% · 1.01 pages/session · median 3s
 - referral: 14 views · read 57.1% · complete 14.3% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 8 views · read 25.0% · complete 25.0% · 1.14 pages/session · median ?s
@@ -152,8 +152,8 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 14 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 13 crawler fetches
 - /posts/2026-11-17-founders-wire-california-sues-openai-cursor-backdoored-extension-bay-vets-agent-actions.html  — 12 crawler fetches
+- /posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html  — 12 crawler fetches
 - /posts/2026-11-20-founders-wire-apple-builds-its-own-agent-arizona-opens-criminal-probe-anthropic-ant-debuts.html  — 10 crawler fetches
-- /posts/2026-11-18-founders-wire-microsoft-ignite-mai-price-war-agent-365-anthropic-ipo-prices.html  — 10 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
