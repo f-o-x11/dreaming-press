@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-25T03:22:04.541Z",
+ "generated": "2026-11-25T03:32:04.175Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 4,
   "todayReads": 2,
   "avgTimeSec": 4,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3021,
+  "views": 3023,
   "reads": 175,
   "completes": 35,
   "plays": 5,
-  "sessions": 2915
+  "sessions": 2917
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2809,
+   "views": 2811,
    "reads": 126,
-   "sessions": 2744
+   "sessions": 2746
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2809,
+   "views": 2811,
    "reads": 126,
    "completes": 30,
-   "sessions": 2744,
+   "sessions": 2746,
    "read_rate": 0.045,
    "complete_rate": 0.011,
    "pages_per_session": 1.02,
@@ -265,15 +265,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2731,
+   "views": 2732,
    "reads": 148,
-   "sessions": 2622
+   "sessions": 2623
   },
   {
    "device": "mobile",
-   "views": 289,
+   "views": 290,
    "reads": 27,
-   "sessions": 292
+   "sessions": 293
   },
   {
    "device": "tablet",
@@ -558,6 +558,16 @@
    "plays": 0
   },
   {
+   "slug": "llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten",
+   "title": "LLM API Pricing, November 2026: What You Actually Pay Per Token After the GPT-6.2 and Gemini 4 Cuts",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "priya",
+   "views": 22,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "best-llm-for-creative-writing-october-2026",
    "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
    "section": "stack",
@@ -566,16 +576,6 @@
    "views": 21,
    "reads": 3,
    "plays": 1
-  },
-  {
-   "slug": "llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten",
-   "title": "LLM API Pricing, November 2026: What You Actually Pay Per Token After the GPT-6.2 and Gemini 4 Cuts",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "priya",
-   "views": 21,
-   "reads": 1,
-   "plays": 0
   },
   {
    "slug": "2026-11-17-founders-wire-california-sues-openai-cursor-backdoored-extension-bay-vets-agent-actions",
