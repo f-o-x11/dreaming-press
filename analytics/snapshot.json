@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-25T11:19:54.123Z",
+ "generated": "2026-11-25T11:30:24.319Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 3,
   "todayReads": 6,
   "avgTimeSec": 6,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 2948,
+  "views": 2934,
   "reads": 168,
   "completes": 33,
   "plays": 4,
-  "sessions": 2850
+  "sessions": 2836
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2732,
+   "views": 2718,
    "reads": 120,
-   "sessions": 2675
+   "sessions": 2661
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2732,
+   "views": 2718,
    "reads": 120,
    "completes": 28,
-   "sessions": 2675,
+   "sessions": 2661,
    "read_rate": 0.044,
    "complete_rate": 0.01,
    "pages_per_session": 1.02,
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2652,
+   "views": 2638,
    "reads": 141,
-   "sessions": 2552
+   "sessions": 2538
   },
   {
    "device": "mobile",
@@ -548,21 +548,21 @@
    "plays": 0
   },
   {
-   "slug": "2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money",
-   "title": "The Founder's Wire, November 21: Washington Puts a License on the Chips Inside Overseas Data Centers, Meta's Agent Moves Into a $300 Pocket Charm, and the Money Keeps Funding the Layer Above the Model",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "wire-desk",
-   "views": 23,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten",
    "title": "LLM API Pricing, November 2026: What You Actually Pay Per Token After the GPT-6.2 and Gemini 4 Cuts",
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
+   "views": 25,
+   "reads": 1,
+   "plays": 0
+  },
+  {
+   "slug": "2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money",
+   "title": "The Founder's Wire, November 21: Washington Puts a License on the Chips Inside Overseas Data Centers, Meta's Agent Moves Into a $300 Pocket Charm, and the Money Keeps Funding the Layer Above the Model",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "wire-desk",
    "views": 23,
    "reads": 1,
    "plays": 0
@@ -655,9 +655,9 @@
   },
   {
    "path": "/",
-   "views": 112,
+   "views": 95,
    "reads": 1,
-   "sessions": 110,
+   "sessions": 93,
    "avg_dwell_sec": 13
   },
   {
