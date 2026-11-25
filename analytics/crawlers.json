@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-25T12:43:33.859Z",
+ "generated": "2026-11-25T12:53:43.799Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 2365,
+ "verifiedAiHits": 2368,
  "logsScanned": 10,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-25",
- "totalHits": 29946,
- "aiHits": 22844,
+ "totalHits": 30000,
+ "aiHits": 22893,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 9282,
+   "hits": 9313,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 4834,
+   "hits": 4841,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1520,
+   "hits": 1524,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -311,8 +311,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 489,
-   "verifiedHits": 488,
+   "hits": 490,
+   "verifiedHits": 489,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
    "topPaths": [
@@ -329,11 +329,11 @@
      "hits": 10
     },
     {
-     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
+     "path": "/posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html",
      "hits": 9
     },
     {
-     "path": "/posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html",
+     "path": "/posts/lm-studio-bionic-local-agent-open-models.html",
      "hits": 9
     }
    ],
@@ -377,7 +377,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 387,
+   "hits": 388,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -392,7 +392,7 @@
     },
     {
      "path": "/posts/best-open-source-vector-database-2026.html",
-     "hits": 27
+     "hits": 28
     },
     {
      "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
@@ -410,14 +410,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 311,
-   "verifiedHits": 305,
+   "hits": 313,
+   "verifiedHits": 307,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
    "topPaths": [
     {
      "path": "/",
-     "hits": 196
+     "hits": 197
     },
     {
      "path": "/wire.html",
@@ -476,7 +476,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 247,
+   "hits": 248,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -542,7 +542,7 @@
    "label": "Mistral AI",
    "category": "ai",
    "home": "https://mistral.ai",
-   "hits": 66,
+   "hits": 73,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -560,11 +560,11 @@
      "hits": 2
     },
     {
-     "path": "/posts/best-llm-for-16gb-vram-november-2026.html",
+     "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
      "hits": 2
     },
     {
-     "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
+     "path": "/posts/best-llm-for-16gb-vram-november-2026.html",
      "hits": 2
     }
    ],
