@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-25T18:57Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-25T19:07Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -91,7 +91,7 @@ human just asked a question. Not index crawlers, which enumerate everything and 
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
 - /  — 209 retrieval fetches
-- /posts/open-source-coding-llm-ranked-november-2026.html  — 30 retrieval fetches
+- /posts/open-source-coding-llm-ranked-november-2026.html  — 31 retrieval fetches
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 12 retrieval fetches
 - /wire.html  — 12 retrieval fetches
 - /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html  — 11 retrieval fetches
@@ -102,8 +102,8 @@ sample size dwarfs the engaged-read counts below.
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 10 retrieval fetches
 
 Per engine:
-- PerplexityBot (1379 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×12 · /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×11 · /posts/2026-11-20-founders-wire-apple-builds-its-own-agent-arizona-opens-criminal-probe-anthropic-ant-debuts.html ×10
-- OAI-SearchBot (507 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×30 · /posts/lm-studio-bionic-local-agent-open-models.html ×10 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×10
+- PerplexityBot (1380 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×12 · /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×11 · /posts/2026-11-20-founders-wire-apple-builds-its-own-agent-arizona-opens-criminal-probe-anthropic-ant-debuts.html ×10
+- OAI-SearchBot (509 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×31 · /posts/lm-studio-bionic-local-agent-open-models.html ×10 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×10
 - ChatGPT-User (333 verified): / ×209 · /wire.html ×12 · /about.html ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -141,20 +141,20 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 2630 confirmed AI-engine fetches (Perplexity 1379, ChatGPT Search (OpenAI) 507, GPTBot (OpenAI) 411, ChatGPT (user browsing) 333).
+The real answer engines are crawling us — IP-verified: 2633 confirmed AI-engine fetches (Perplexity 1380, ChatGPT Search (OpenAI) 509, GPTBot (OpenAI) 411, ChatGPT (user browsing) 333).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /posts/best-llm-for-16gb-vram-november-2026.html  — 90 crawler fetches
+- /posts/best-llm-for-16gb-vram-november-2026.html  — 91 crawler fetches
 - /build  — 84 crawler fetches
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 63 crawler fetches
 - /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html  — 57 crawler fetches
-- /posts/open-source-coding-llm-ranked-november-2026.html  — 32 crawler fetches
+- /posts/open-source-coding-llm-ranked-november-2026.html  — 33 crawler fetches
 - /posts/best-open-source-vector-database-2026.html  — 30 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 24 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 16 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 14 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 13 crawler fetches
 - /posts/2026-11-17-founders-wire-california-sues-openai-cursor-backdoored-extension-bay-vets-agent-actions.html  — 12 crawler fetches
-- /posts/2026-11-20-founders-wire-apple-builds-its-own-agent-arizona-opens-criminal-probe-anthropic-ant-debuts.html  — 10 crawler fetches
+- /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 11 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
