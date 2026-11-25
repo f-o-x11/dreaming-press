@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-25T06:39:24.261Z",
+ "generated": "2026-11-25T06:49:34.051Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 3,
+  "readersNow": 6,
+  "todayReads": 4,
   "avgTimeSec": 5,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 3020,
-  "reads": 173,
+  "views": 3023,
+  "reads": 174,
   "completes": 35,
   "plays": 4,
-  "sessions": 2916
+  "sessions": 2919
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2809,
-   "reads": 125,
-   "sessions": 2746
+   "views": 2812,
+   "reads": 126,
+   "sessions": 2749
   },
   {
    "channel": "organic",
@@ -73,11 +73,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2809,
-   "reads": 125,
+   "views": 2812,
+   "reads": 126,
    "completes": 30,
-   "sessions": 2746,
-   "read_rate": 0.044,
+   "sessions": 2749,
+   "read_rate": 0.045,
    "complete_rate": 0.011,
    "pages_per_session": 1.02,
    "median_dwell_sec": 8
@@ -265,15 +265,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2726,
-   "reads": 146,
-   "sessions": 2619
+   "views": 2730,
+   "reads": 147,
+   "sessions": 2623
   },
   {
    "device": "mobile",
-   "views": 293,
+   "views": 292,
    "reads": 27,
-   "sessions": 296
+   "sessions": 295
   },
   {
    "device": "tablet",
@@ -655,9 +655,9 @@
   },
   {
    "path": "/",
-   "views": 178,
+   "views": 177,
    "reads": 1,
-   "sessions": 177,
+   "sessions": 176,
    "avg_dwell_sec": 13
   },
   {
@@ -710,18 +710,18 @@
    "avg_dwell_sec": 128
   },
   {
+   "path": "/tools",
+   "views": 10,
+   "reads": 0,
+   "sessions": 10,
+   "avg_dwell_sec": 10
+  },
+  {
    "path": "/topics/:topic",
    "views": 10,
    "reads": 1,
    "sessions": 10,
    "avg_dwell_sec": null
-  },
-  {
-   "path": "/tools",
-   "views": 9,
-   "reads": 0,
-   "sessions": 9,
-   "avg_dwell_sec": 10
   },
   {
    "path": "/agents.html",

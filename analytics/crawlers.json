@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-25T06:39:23.959Z",
+ "generated": "2026-11-25T06:49:33.773Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 2309,
+ "verifiedAiHits": 2311,
  "logsScanned": 10,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-25",
- "totalHits": 28235,
- "aiHits": 21669,
+ "totalHits": 28289,
+ "aiHits": 21699,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 8702,
+   "hits": 8722,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 4558,
+   "hits": 4565,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2184,
-   "verifiedHits": 2184,
+   "hits": 2188,
+   "verifiedHits": 2188,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
    "topPaths": [
@@ -179,11 +179,15 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1464,
+   "hits": 1465,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
    "topPaths": [
+    {
+     "path": "/posts/how-to-fix-transactional-email-deliverability-spf-dkim-dmarc.html",
+     "hits": 3
+    },
     {
      "path": "/posts/honeycomb-canvas-agent-auto-investigations.html",
      "hits": 3
@@ -199,10 +203,6 @@
     {
      "path": "/posts/tool-highlight-tinfoil-confidential-llm-inference-cloud-cant-read.html",
      "hits": 2
-    },
-    {
-     "path": "/posts/coding-agent-clis-permission-hardening-week-august-2026.html",
-     "hits": 2
     }
    ],
    "verifiable": false
@@ -212,7 +212,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1295,
+   "hits": 1305,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1191,
+   "hits": 1200,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -278,8 +278,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1151,
-   "verifiedHits": 1151,
+   "hits": 1152,
+   "verifiedHits": 1152,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
    "topPaths": [
@@ -311,8 +311,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 460,
-   "verifiedHits": 459,
+   "hits": 461,
+   "verifiedHits": 460,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
    "topPaths": [
@@ -377,14 +377,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 364,
+   "hits": 365,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
    "topPaths": [
     {
      "path": "/posts/best-llm-for-16gb-vram-november-2026.html",
-     "hits": 73
+     "hits": 74
     },
     {
      "path": "/posts/how-to-connect-claude-to-blender-mcp-server.html",
