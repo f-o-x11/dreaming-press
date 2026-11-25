@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-25T12:01:33.877Z",
+ "generated": "2026-11-25T12:12:03.974Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 2360,
+ "verifiedAiHits": 2361,
  "logsScanned": 10,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-25",
- "totalHits": 29778,
- "aiHits": 22725,
+ "totalHits": 29833,
+ "aiHits": 22775,
  "aiEngines": 12,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 9245,
+   "hits": 9249,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 4801,
+   "hits": 4810,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 3514,
+   "hits": 3533,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2294,
-   "verifiedHits": 2294,
+   "hits": 2298,
+   "verifiedHits": 2298,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2068,
+   "hits": 2077,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -156,12 +156,12 @@
      "hits": 9
     },
     {
-     "path": "/build",
+     "path": "/wire.html",
      "hits": 6
     },
     {
-     "path": "/wire.html",
-     "hits": 5
+     "path": "/build",
+     "hits": 6
     },
     {
      "path": "/apps",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1512,
+   "hits": 1513,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -311,8 +311,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 486,
-   "verifiedHits": 485,
+   "hits": 487,
+   "verifiedHits": 486,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
    "topPaths": [
@@ -542,7 +542,7 @@
    "label": "Mistral AI",
    "category": "ai",
    "home": "https://mistral.ai",
-   "hits": 58,
+   "hits": 66,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-25",
@@ -556,15 +556,15 @@
      "hits": 2
     },
     {
+     "path": "/posts/how-to-charge-an-agent-per-call-x402-your-own-server.html",
+     "hits": 2
+    },
+    {
      "path": "/posts/best-llm-for-16gb-vram-november-2026.html",
      "hits": 2
     },
     {
      "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-11-22-founders-wire-ant-volatile-debut-gemini-tool-retrieval-isomorphic-5b.html",
      "hits": 2
     }
    ],
