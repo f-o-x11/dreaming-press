@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-25T20:30:04.498Z",
+ "generated": "2026-11-25T20:40:34.238Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 17,
   "avgTimeSec": 9,
   "postsThisWeek": 12
  },
  "funnel": {
-  "views": 2902,
-  "reads": 175,
+  "views": 2899,
+  "reads": 174,
   "completes": 39,
-  "plays": 4,
-  "sessions": 2808
+  "plays": 3,
+  "sessions": 2807
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2686,
-   "reads": 126,
-   "sessions": 2632
+   "views": 2683,
+   "reads": 125,
+   "sessions": 2631
   },
   {
    "channel": "organic",
@@ -67,16 +67,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 17
+   "sessions": 16
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2686,
-   "reads": 126,
+   "views": 2683,
+   "reads": 125,
    "completes": 34,
-   "sessions": 2632,
+   "sessions": 2631,
    "read_rate": 0.047,
    "complete_rate": 0.013,
    "pages_per_session": 1.02,
@@ -164,7 +164,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 17,
+   "sessions": 16,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -178,27 +178,22 @@
    "sessions": 5
   },
   {
-   "surface": "wire-row",
-   "clicks": 4,
-   "sessions": 4
-  },
-  {
    "surface": "nav-cmp",
    "clicks": 4,
    "sessions": 3
   },
   {
-   "surface": "dash-range",
+   "surface": "wire-row",
    "clicks": 3,
-   "sessions": 2
+   "sessions": 3
+  },
+  {
+   "surface": "dash-range",
+   "clicks": 2,
+   "sessions": 1
   },
   {
    "surface": "cited-list",
-   "clicks": 2,
-   "sessions": 2
-  },
-  {
-   "surface": "btn-stats",
    "clicks": 2,
    "sessions": 2
   },
@@ -246,6 +241,11 @@
    "surface": "feature",
    "clicks": 1,
    "sessions": 1
+  },
+  {
+   "surface": "dg-title",
+   "clicks": 1,
+   "sessions": 1
   }
  ],
  "assistants": [
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2620,
-   "reads": 147,
-   "sessions": 2525
+   "views": 2617,
+   "reads": 146,
+   "sessions": 2524
   },
   {
    "device": "mobile",
@@ -456,16 +456,6 @@
    "plays": 1
   },
   {
-   "slug": "how-to-deploy-a-long-running-ai-agent-without-losing-in-flight-work",
-   "title": "How to Deploy a Long-Running AI Agent Without Losing In-Flight Work",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 1,
-   "reads": 1,
-   "plays": 1
-  },
-  {
    "slug": "run-claude-code-on-qwen-coding-plan",
    "title": "Run Claude Code on Alibaba's Qwen Coding Plan: the ~$50/mo Agent Backend",
    "section": "stack",
@@ -533,6 +523,16 @@
    "author": "dex",
    "views": 11,
    "reads": 5,
+   "plays": 0
+  },
+  {
+   "slug": "vllm-rust-frontend",
+   "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 6,
+   "reads": 4,
    "plays": 0
   }
  ],
@@ -697,10 +697,10 @@
   },
   {
    "path": "/dashboard",
-   "views": 16,
+   "views": 14,
    "reads": 0,
-   "sessions": 13,
-   "avg_dwell_sec": 7
+   "sessions": 12,
+   "avg_dwell_sec": 6
   },
   {
    "path": "/authors/dex",
@@ -782,17 +782,17 @@
    "sessions": 2
   },
   {
-   "ref": "wire-row",
-   "hits": 4,
-   "sessions": 4
-  },
-  {
    "ref": "nav-cmp",
    "hits": 4,
    "sessions": 3
   },
   {
    "ref": "https://kagi.com/",
+   "hits": 4,
+   "sessions": 2
+  },
+  {
+   "ref": "https://cn.bing.com/",
    "hits": 4,
    "sessions": 2
   }
