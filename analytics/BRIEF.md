@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-25T08:43Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-25T08:54Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -104,7 +104,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (1155 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×12 · /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×11 · /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html ×9
 - OAI-SearchBot (467 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×29 · /posts/open-source-llm-for-coding-september-2026.html ×10 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×9
-- ChatGPT-User (295 verified): / ×190 · /wire.html ×10 · /about.html ×7
+- ChatGPT-User (296 verified): / ×190 · /wire.html ×10 · /about.html ×7
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -141,14 +141,14 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 2327 confirmed AI-engine fetches (Perplexity 1155, ChatGPT Search (OpenAI) 467, GPTBot (OpenAI) 410, ChatGPT (user browsing) 295).
+The real answer engines are crawling us — IP-verified: 2329 confirmed AI-engine fetches (Perplexity 1155, ChatGPT Search (OpenAI) 467, GPTBot (OpenAI) 411, ChatGPT (user browsing) 296).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /posts/best-llm-for-16gb-vram-november-2026.html  — 77 crawler fetches
-- /build  — 72 crawler fetches
+- /posts/best-llm-for-16gb-vram-november-2026.html  — 79 crawler fetches
+- /build  — 73 crawler fetches
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 54 crawler fetches
 - /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html  — 47 crawler fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 29 crawler fetches
-- /posts/gartner-ai-agent-spending-2026.html  — 22 crawler fetches
+- /posts/gartner-ai-agent-spending-2026.html  — 23 crawler fetches
 - /posts/best-open-source-vector-database-2026.html  — 20 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 16 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 13 crawler fetches
