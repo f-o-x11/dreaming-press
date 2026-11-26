@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-26T03:13:48.593Z",
+ "generated": "2026-11-26T03:24:18.489Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 2744,
+ "verifiedAiHits": 2746,
  "logsScanned": 12,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-26",
- "totalHits": 34729,
- "aiHits": 26506,
+ "totalHits": 34772,
+ "aiHits": 26539,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 10503,
+   "hits": 10524,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 5481,
+   "hits": 5489,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2619,
-   "verifiedHits": 2619,
+   "hits": 2622,
+   "verifiedHits": 2622,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1452,
-   "verifiedHits": 1452,
+   "hits": 1453,
+   "verifiedHits": 1453,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1375,
+   "hits": 1379,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -311,8 +311,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 530,
-   "verifiedHits": 529,
+   "hits": 531,
+   "verifiedHits": 530,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
@@ -377,7 +377,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 424,
+   "hits": 427,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -608,11 +608,15 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 2,
+   "hits": 4,
    "verifiedHits": 0,
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-25",
+   "lastSeen": "2026-11-26",
    "topPaths": [
+    {
+     "path": "/posts/claude-memory-tool-storage-backend-local-disk-vs-s3-vs-database.html",
+     "hits": 1
+    },
     {
      "path": "/stack/deepinfra",
      "hits": 1
