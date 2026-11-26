@@ -1,37 +1,37 @@
 {
- "generated": "2026-11-26T06:30:28.759Z",
+ "generated": "2026-11-26T06:40:48.976Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 7,
   "todayReads": 2,
-  "avgTimeSec": 5,
+  "avgTimeSec": 3,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 2848,
-  "reads": 175,
+  "views": 2846,
+  "reads": 174,
   "completes": 42,
   "plays": 2,
-  "sessions": 2757
+  "sessions": 2755
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2642,
-   "reads": 125,
-   "sessions": 2588
+   "views": 2636,
+   "reads": 124,
+   "sessions": 2583
   },
   {
    "channel": "organic",
-   "views": 178,
+   "views": 181,
    "reads": 38,
-   "sessions": 177
+   "sessions": 180
   },
   {
    "channel": "referral",
-   "views": 13,
+   "views": 14,
    "reads": 8,
-   "sessions": 13
+   "sessions": 14
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2642,
-   "reads": 125,
+   "views": 2636,
+   "reads": 124,
    "completes": 37,
-   "sessions": 2588,
+   "sessions": 2583,
    "read_rate": 0.047,
    "complete_rate": 0.014,
    "pages_per_session": 1.02,
@@ -84,23 +84,23 @@
   },
   {
    "channel": "organic",
-   "views": 178,
+   "views": 181,
    "reads": 38,
    "completes": 1,
-   "sessions": 177,
-   "read_rate": 0.213,
+   "sessions": 180,
+   "read_rate": 0.21,
    "complete_rate": 0.006,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
   },
   {
    "channel": "referral",
-   "views": 13,
+   "views": 14,
    "reads": 8,
    "completes": 2,
-   "sessions": 13,
-   "read_rate": 0.615,
-   "complete_rate": 0.154,
+   "sessions": 14,
+   "read_rate": 0.571,
+   "complete_rate": 0.143,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2570,
-   "reads": 147,
-   "sessions": 2479
+   "views": 2568,
+   "reads": 146,
+   "sessions": 2477
   },
   {
    "device": "mobile",
@@ -592,16 +592,6 @@
    "plays": 0
   },
   {
-   "slug": "best-llm-for-creative-writing-october-2026",
-   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 19,
-   "reads": 2,
-   "plays": 0
-  },
-  {
    "slug": "2026-11-22-founders-wire-ant-volatile-debut-gemini-tool-retrieval-isomorphic-5b",
    "title": "The Founder's Wire, November 22: Anthropic's Stock Swings on Day One, Google Ships a Token-Saver for Tool-Heavy Agents, and $5B Goes to AI That Designs Drugs",
    "section": "wire",
@@ -622,6 +612,16 @@
    "plays": 0
   },
   {
+   "slug": "best-llm-for-creative-writing-october-2026",
+   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 18,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "2026-11-15-founders-wire-new-york-raise-act-final-adobe-mcp-anthropic-ipo-week",
    "title": "The Founder's Wire, November 15: New York's AI Law Gets a Compliance Clock, Adobe Puts an MCP Server on Photoshop, and Anthropic Prices the First Frontier IPO",
    "section": "wire",
@@ -635,10 +635,10 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 510,
+   "views": 515,
    "reads": 0,
-   "sessions": 510,
-   "avg_dwell_sec": 5
+   "sessions": 515,
+   "avg_dwell_sec": 4
   },
   {
    "path": "/compare/:pair",
@@ -742,8 +742,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 120,
-   "sessions": 120
+   "hits": 123,
+   "sessions": 123
   },
   {
    "ref": "https://www.bing.com/",
