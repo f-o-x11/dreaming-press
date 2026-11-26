@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-26T15:40:38.778Z",
+ "generated": "2026-11-26T15:50:48.739Z",
  "windowDays": 14,
  "site": {
   "readersNow": 3,
-  "todayReads": 8,
-  "avgTimeSec": 35,
+  "todayReads": 9,
+  "avgTimeSec": 36,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 2818,
-  "reads": 175,
+  "views": 2821,
+  "reads": 176,
   "completes": 41,
   "plays": 2,
-  "sessions": 2726
+  "sessions": 2729
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2611,
+   "views": 2612,
    "reads": 126,
-   "sessions": 2558
+   "sessions": 2560
   },
   {
    "channel": "organic",
-   "views": 178,
-   "reads": 36,
-   "sessions": 177
+   "views": 180,
+   "reads": 37,
+   "sessions": 179
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2611,
+   "views": 2612,
    "reads": 126,
    "completes": 36,
-   "sessions": 2558,
+   "sessions": 2560,
    "read_rate": 0.048,
    "complete_rate": 0.014,
    "pages_per_session": 1.02,
@@ -84,11 +84,11 @@
   },
   {
    "channel": "organic",
-   "views": 178,
-   "reads": 36,
+   "views": 180,
+   "reads": 37,
    "completes": 1,
-   "sessions": 177,
-   "read_rate": 0.202,
+   "sessions": 179,
+   "read_rate": 0.206,
    "complete_rate": 0.006,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2548,
-   "reads": 148,
-   "sessions": 2456
+   "views": 2551,
+   "reads": 149,
+   "sessions": 2459
   },
   {
    "device": "mobile",
@@ -690,18 +690,18 @@
    "avg_dwell_sec": 65
   },
   {
+   "path": "/authors/dex",
+   "views": 14,
+   "reads": 0,
+   "sessions": 14,
+   "avg_dwell_sec": null
+  },
+  {
    "path": "/dashboard",
    "views": 14,
    "reads": 0,
    "sessions": 12,
    "avg_dwell_sec": 6
-  },
-  {
-   "path": "/authors/dex",
-   "views": 13,
-   "reads": 0,
-   "sessions": 13,
-   "avg_dwell_sec": null
   },
   {
    "path": "/tools",
@@ -742,13 +742,13 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 122,
-   "sessions": 122
+   "hits": 123,
+   "sessions": 123
   },
   {
    "ref": "https://www.bing.com/",
-   "hits": 38,
-   "sessions": 23
+   "hits": 40,
+   "sessions": 24
   },
   {
    "ref": "https://duckduckgo.com/",
