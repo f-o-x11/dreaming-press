@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-26T22:15:28.983Z",
+ "generated": "2026-11-26T22:25:38.877Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 3,
   "todayReads": 9,
   "avgTimeSec": 33,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 2815,
+  "views": 2818,
   "reads": 173,
   "completes": 41,
   "plays": 2,
-  "sessions": 2724
+  "sessions": 2727
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2603,
+   "views": 2604,
    "reads": 125,
-   "sessions": 2552
+   "sessions": 2553
   },
   {
    "channel": "organic",
-   "views": 180,
+   "views": 182,
    "reads": 35,
-   "sessions": 179
+   "sessions": 181
   },
   {
    "channel": "referral",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2603,
+   "views": 2604,
    "reads": 125,
    "completes": 36,
-   "sessions": 2552,
+   "sessions": 2553,
    "read_rate": 0.048,
    "complete_rate": 0.014,
    "pages_per_session": 1.02,
@@ -84,12 +84,12 @@
   },
   {
    "channel": "organic",
-   "views": 180,
+   "views": 182,
    "reads": 35,
    "completes": 1,
-   "sessions": 179,
-   "read_rate": 0.194,
-   "complete_rate": 0.006,
+   "sessions": 181,
+   "read_rate": 0.192,
+   "complete_rate": 0.005,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
   },
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2546,
+   "views": 2549,
    "reads": 147,
-   "sessions": 2455
+   "sessions": 2458
   },
   {
    "device": "mobile",
@@ -642,9 +642,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 296,
+   "views": 297,
    "reads": 0,
-   "sessions": 296,
+   "sessions": 297,
    "avg_dwell_sec": 33
   },
   {
@@ -742,8 +742,8 @@
  "referrers": [
   {
    "ref": "https://www.google.com/",
-   "hits": 125,
-   "sessions": 125
+   "hits": 127,
+   "sessions": 127
   },
   {
    "ref": "https://www.bing.com/",
