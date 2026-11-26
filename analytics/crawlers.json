@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-26T07:43:18.568Z",
+ "generated": "2026-11-26T07:53:48.576Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 2868,
+ "verifiedAiHits": 2869,
  "logsScanned": 12,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-26",
- "totalHits": 35988,
- "aiHits": 27508,
+ "totalHits": 36070,
+ "aiHits": 27569,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 10983,
+   "hits": 11031,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 5689,
+   "hits": 5696,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2403,
+   "hits": 2407,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2061,
+   "hits": 2076,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -187,6 +187,10 @@
     {
      "path": "/build",
      "hits": 9
+    },
+    {
+     "path": "/authors/dex",
+     "hits": 7
     },
     {
      "path": "/wire.html",
@@ -199,10 +203,6 @@
     {
      "path": "/authors/priya",
      "hits": 5
-    },
-    {
-     "path": "/authors/dex",
-     "hits": 5
     }
    ],
    "verifiable": false
@@ -212,7 +212,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1605,
+   "hits": 1606,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -245,14 +245,14 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1546,
-   "verifiedHits": 1546,
+   "hits": 1547,
+   "verifiedHits": 1547,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
     {
      "path": "/posts/how-to-connect-claude-to-blender-mcp-server.html",
-     "hits": 13
+     "hits": 14
     },
     {
      "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 491,
+   "hits": 495,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -377,14 +377,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 462,
+   "hits": 463,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
     {
      "path": "/posts/best-llm-for-16gb-vram-november-2026.html",
-     "hits": 96
+     "hits": 97
     },
     {
      "path": "/posts/how-to-connect-claude-to-blender-mcp-server.html",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 238,
-   "verifiedHits": 203,
+   "hits": 239,
+   "verifiedHits": 204,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
