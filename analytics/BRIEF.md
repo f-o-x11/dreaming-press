@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-26T04:15Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-26T04:25Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -89,7 +89,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 223 retrieval fetches
+- /  — 224 retrieval fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 33 retrieval fetches
 - /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html  — 12 retrieval fetches
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 12 retrieval fetches
@@ -103,7 +103,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (1454 verified): /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×12 · /posts/how-to-connect-claude-to-blender-mcp-server.html ×12 · /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html ×11
 - OAI-SearchBot (533 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×33 · /posts/local-llm-for-coding-on-your-own-machine.html ×11 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×11
-- ChatGPT-User (350 verified): / ×223 · /wire.html ×12 · /about.html ×8
+- ChatGPT-User (351 verified): / ×224 · /wire.html ×12 · /about.html ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -140,7 +140,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 2753 confirmed AI-engine fetches (Perplexity 1454, ChatGPT Search (OpenAI) 533, GPTBot (OpenAI) 416, ChatGPT (user browsing) 350).
+The real answer engines are crawling us — IP-verified: 2754 confirmed AI-engine fetches (Perplexity 1454, ChatGPT Search (OpenAI) 533, GPTBot (OpenAI) 416, ChatGPT (user browsing) 351).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/best-llm-for-16gb-vram-november-2026.html  — 108 crawler fetches
 - /build  — 87 crawler fetches
@@ -153,7 +153,7 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/open-source-llm-for-coding-september-2026.html  — 17 crawler fetches
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 14 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 14 crawler fetches
-- /posts/2026-11-17-founders-wire-california-sues-openai-cursor-backdoored-extension-bay-vets-agent-actions.html  — 12 crawler fetches
+- /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 13 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
