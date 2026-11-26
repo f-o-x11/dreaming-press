@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-26T05:07:48.501Z",
+ "generated": "2026-11-26T05:17:58.521Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 2770,
+ "verifiedAiHits": 2771,
  "logsScanned": 12,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-26",
- "totalHits": 35201,
- "aiHits": 26869,
+ "totalHits": 35252,
+ "aiHits": 26907,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 10716,
+   "hits": 10740,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 5570,
+   "hits": 5580,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 4604,
+   "hits": 4607,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2654,
-   "verifiedHits": 2654,
+   "hits": 2657,
+   "verifiedHits": 2657,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2023,
+   "hits": 2026,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -212,7 +212,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1591,
+   "hits": 1593,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1379,
+   "hits": 1380,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -340,6 +340,39 @@
    "verifiable": true
   },
   {
+   "name": "Applebot",
+   "label": "Applebot (Siri / Spotlight)",
+   "category": "search",
+   "home": "https://support.apple.com/en-us/119829",
+   "hits": 457,
+   "verifiedHits": 0,
+   "firstSeen": "2026-11-21",
+   "lastSeen": "2026-11-26",
+   "topPaths": [
+    {
+     "path": "/posts/2026-11-15-founders-wire-new-york-raise-act-final-adobe-mcp-anthropic-ipo-week.md",
+     "hits": 3
+    },
+    {
+     "path": "/posts/2026-11-13-founders-wire-nvidia-loses-jensen-huang-the-industry-finances-around-him.md",
+     "hits": 3
+    },
+    {
+     "path": "/build",
+     "hits": 2
+    },
+    {
+     "path": "/authors/dex",
+     "hits": 2
+    },
+    {
+     "path": "/posts/2026-11-17-founders-wire-california-sues-openai-cursor-backdoored-extension-bay-vets-agent-actions.md",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "Claude-User",
    "label": "Claude (user browsing)",
    "category": "ai",
@@ -373,47 +406,14 @@
    "verifiable": false
   },
   {
-   "name": "Applebot",
-   "label": "Applebot (Siri / Spotlight)",
-   "category": "search",
-   "home": "https://support.apple.com/en-us/119829",
-   "hits": 454,
-   "verifiedHits": 0,
-   "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-26",
-   "topPaths": [
-    {
-     "path": "/posts/2026-11-15-founders-wire-new-york-raise-act-final-adobe-mcp-anthropic-ipo-week.md",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-11-13-founders-wire-nvidia-loses-jensen-huang-the-industry-finances-around-him.md",
-     "hits": 3
-    },
-    {
-     "path": "/build",
-     "hits": 2
-    },
-    {
-     "path": "/authors/dex",
-     "hits": 2
-    },
-    {
-     "path": "/posts/2026-11-17-founders-wire-california-sues-openai-cursor-backdoored-extension-bay-vets-agent-actions.md",
-     "hits": 2
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "GPTBot",
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 417,
-   "verifiedHits": 416,
+   "hits": 418,
+   "verifiedHits": 417,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-25",
+   "lastSeen": "2026-11-26",
    "topPaths": [
     {
      "path": "/compare/upstash-vs-redis-cloud",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 231,
-   "verifiedHits": 196,
+   "hits": 232,
+   "verifiedHits": 197,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
