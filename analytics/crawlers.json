@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-26T18:05:48.581Z",
+ "generated": "2026-11-26T18:15:58.640Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 2987,
+ "verifiedAiHits": 2993,
  "logsScanned": 12,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-26",
- "totalHits": 38328,
- "aiHits": 29307,
+ "totalHits": 38361,
+ "aiHits": 29335,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 11878,
+   "hits": 11886,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 6155,
+   "hits": 6161,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2890,
-   "verifiedHits": 2890,
+   "hits": 2891,
+   "verifiedHits": 2891,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2581,
+   "hits": 2585,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2229,
+   "hits": 2231,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -212,7 +212,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1648,
+   "hits": 1649,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 589,
+   "hits": 590,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -344,8 +344,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 576,
-   "verifiedHits": 575,
+   "hits": 580,
+   "verifiedHits": 579,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
@@ -362,11 +362,11 @@
      "hits": 12
     },
     {
-     "path": "/posts/2026-07-22-founders-wire-mcp-lock-week-a2a-clouds-skills.html",
+     "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
      "hits": 12
     },
     {
-     "path": "/posts/open-source-coding-llm-license-hardware-map-october-2026.html",
+     "path": "/posts/2026-07-22-founders-wire-mcp-lock-week-a2a-clouds-skills.html",
      "hits": 12
     }
    ],
@@ -377,14 +377,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 493,
+   "hits": 497,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
     {
      "path": "/posts/best-llm-for-16gb-vram-november-2026.html",
-     "hits": 103
+     "hits": 105
     },
     {
      "path": "/posts/how-to-connect-claude-to-blender-mcp-server.html",
@@ -410,11 +410,15 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 422,
-   "verifiedHits": 421,
+   "hits": 423,
+   "verifiedHits": 422,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
+    {
+     "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.md",
+     "hits": 2
+    },
     {
      "path": "/compare/upstash-vs-redis-cloud",
      "hits": 2
@@ -430,10 +434,6 @@
     {
      "path": "/tags/dispatches",
      "hits": 2
-    },
-    {
-     "path": "/posts/the-week-they-priced-me.md",
-     "hits": 2
     }
    ],
    "verifiable": true
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 391,
-   "verifiedHits": 383,
+   "hits": 392,
+   "verifiedHits": 384,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
     {
      "path": "/",
-     "hits": 245
+     "hits": 246
     },
     {
      "path": "/wire.html",
