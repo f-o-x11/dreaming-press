@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-26T00:05:48.303Z",
+ "generated": "2026-11-26T00:16:48.324Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 2713,
+ "verifiedAiHits": 2717,
  "logsScanned": 12,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-26",
- "totalHits": 33928,
- "aiHits": 25954,
+ "totalHits": 33972,
+ "aiHits": 25978,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 10163,
+   "hits": 10171,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 5353,
+   "hits": 5361,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -113,10 +113,10 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2567,
-   "verifiedHits": 2567,
+   "hits": 2573,
+   "verifiedHits": 2573,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-25",
+   "lastSeen": "2026-11-26",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
@@ -146,10 +146,10 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2277,
+   "hits": 2281,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-25",
+   "lastSeen": "2026-11-26",
    "topPaths": [
     {
      "path": "/authors/dex",
@@ -179,10 +179,10 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1876,
+   "hits": 1880,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-25",
+   "lastSeen": "2026-11-26",
    "topPaths": [
     {
      "path": "/build",
@@ -245,21 +245,21 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1430,
-   "verifiedHits": 1430,
+   "hits": 1433,
+   "verifiedHits": 1433,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-25",
+   "lastSeen": "2026-11-26",
    "topPaths": [
+    {
+     "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
+     "hits": 12
+    },
     {
      "path": "/posts/how-to-connect-claude-to-blender-mcp-server.html",
      "hits": 12
     },
     {
      "path": "/posts/2026-11-20-founders-wire-apple-builds-its-own-agent-arizona-opens-criminal-probe-anthropic-ant-debuts.html",
-     "hits": 11
-    },
-    {
-     "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
      "hits": 11
     },
     {
@@ -278,10 +278,10 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1359,
+   "hits": 1367,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-25",
+   "lastSeen": "2026-11-26",
    "topPaths": [
     {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
@@ -311,10 +311,10 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 524,
-   "verifiedHits": 523,
+   "hits": 525,
+   "verifiedHits": 524,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-25",
+   "lastSeen": "2026-11-26",
    "topPaths": [
     {
      "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 371,
+   "hits": 373,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
