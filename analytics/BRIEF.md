@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-26T11:10Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-26T11:20Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2822 views → 172 engaged reads → 42 completes · 2736 sessions.
-- Channels: direct 124r/2615v · organic 36r/179v · referral 8r/12v · campaign:chatgpt.com 2r/8v · ai 1r/3v · social 1r/2v · campaign:openai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 2821 views → 173 engaged reads → 42 completes · 2735 sessions.
+- Channels: direct 125r/2614v · organic 36r/179v · referral 8r/12v · campaign:chatgpt.com 2r/8v · ai 1r/3v · social 1r/2v · campaign:openai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 2r/8v · Doubao 1r/3v.
 - Referrers: google.com, bing.com, duckduckgo.com, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, bytedance.larkoffice.com, doubao.com, kagi.com, cn.bing.com.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2615 views · read 4.7% · complete 1.4% · 1.02 pages/session · median 7s
+- direct: 2614 views · read 4.8% · complete 1.4% · 1.02 pages/session · median 7s
 - organic: 179 views · read 20.1% · complete 0.6% · 1.01 pages/session · median ?s
 - referral: 12 views · read 66.7% · complete 16.7% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 8 views · read 25.0% · complete 25.0% · 1.14 pages/session · median ?s
@@ -42,7 +42,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [wire] "The Responses API Just Went Multi-Vendor: DeepSeek Speaks It Too — So What Do You Build Your Agent Against?" — 5 reads, 11 views, 0 listens
 - [wire] "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck" — 4 reads, 6 views, 0 listens
 - [stack] "Open-Source LLM Rankings (November 2026): How to Read the Leaderboards — and Why They Disagree" — 3 reads, 18 views, 0 listens
-- [wire] "Where 2026's Vertical-AI Money Actually Went: Legal Took the Cash, Healthcare Took the Deals" — 3 reads, 9 views, 0 listens
+- [wire] "Where 2026's Vertical-AI Money Actually Went: Legal Took the Cash, Healthcare Took the Deals" — 3 reads, 8 views, 0 listens
 - [stack] "Gemini 4 Hydrogen vs Claude Haiku 5.5 vs Sonnet 5.5: The Cheap, Fast Model for Agent Loops (November 2026)" — 3 reads, 7 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
@@ -52,7 +52,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 515 views, 0 reads, 515 sessions, avg 4s
+- /stack/:tool — 514 views, 0 reads, 514 sessions, avg 4s
 - /compare/:pair — 296 views, 0 reads, 296 sessions, avg 33s
 - / — 91 views, 1 reads, 91 sessions, avg 12s
 - /best/:cat — 52 views, 0 reads, 52 sessions
@@ -101,7 +101,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-11-18-founders-wire-microsoft-ignite-mai-price-war-agent-365-anthropic-ipo-prices.html  — 11 retrieval fetches
 
 Per engine:
-- PerplexityBot (1577 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×14 · /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×13 · /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html ×12
+- PerplexityBot (1583 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×14 · /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×13 · /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html ×12
 - OAI-SearchBot (559 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×35 · /posts/open-source-llm-for-coding-september-2026.html ×12 · /posts/2026-07-22-founders-wire-mcp-lock-week-a2a-clouds-skills.html ×12
 - ChatGPT-User (372 verified): / ×236 · /wire.html ×12 · /about.html ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -117,7 +117,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Uncovered search demand (245 of 461 phrases have NO post, 71h ago)
+## Uncovered search demand (245 of 461 phrases have NO post, 72h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -140,7 +140,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 2929 confirmed AI-engine fetches (Perplexity 1577, ChatGPT Search (OpenAI) 559, GPTBot (OpenAI) 421, ChatGPT (user browsing) 372).
+The real answer engines are crawling us — IP-verified: 2935 confirmed AI-engine fetches (Perplexity 1583, ChatGPT Search (OpenAI) 559, GPTBot (OpenAI) 421, ChatGPT (user browsing) 372).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/best-llm-for-16gb-vram-november-2026.html  — 103 crawler fetches
 - /build  — 90 crawler fetches
