@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-26T16:43Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-26T16:53Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2822 views → 176 engaged reads → 41 completes · 2731 sessions.
-- Channels: direct 126r/2612v · organic 37r/181v · referral 9r/13v · campaign:chatgpt.com 2r/8v · ai 1r/3v · social 1r/2v · campaign:openai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 2823 views → 176 engaged reads → 41 completes · 2732 sessions.
+- Channels: direct 126r/2613v · organic 37r/181v · referral 9r/13v · campaign:chatgpt.com 2r/8v · ai 1r/3v · social 1r/2v · campaign:openai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 2r/8v · Doubao 1r/3v.
 - Referrers: google.com, bing.com, duckduckgo.com, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, bytedance.larkoffice.com, doubao.com, kagi.com, cn.bing.com.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2612 views · read 4.8% · complete 1.4% · 1.02 pages/session · median 7s
+- direct: 2613 views · read 4.8% · complete 1.4% · 1.02 pages/session · median 7s
 - organic: 181 views · read 20.4% · complete 0.6% · 1.01 pages/session · median ?s
 - referral: 13 views · read 69.2% · complete 15.4% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 8 views · read 25.0% · complete 25.0% · 1.14 pages/session · median ?s
@@ -39,7 +39,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 7 reads, 8 views, 0 listens
 - [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 6 reads, 11 views, 0 listens
 - [wire] "The Responses API Just Went Multi-Vendor: DeepSeek Speaks It Too — So What Do You Build Your Agent Against?" — 5 reads, 11 views, 0 listens
-- [stack] "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned" — 4 reads, 45 views, 0 listens
+- [stack] "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned" — 4 reads, 46 views, 0 listens
 - [wire] "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck" — 4 reads, 6 views, 0 listens
 - [stack] "Open-Source LLM Rankings (November 2026): How to Read the Leaderboards — and Why They Disagree" — 3 reads, 18 views, 0 listens
 - [wire] "Where 2026's Vertical-AI Money Actually Went: Legal Took the Cash, Healthcare Took the Deals" — 3 reads, 8 views, 0 listens
@@ -56,7 +56,7 @@ so what these earn from humans is the other half of the picture.
 - /compare/:pair — 296 views, 0 reads, 296 sessions, avg 33s
 - / — 97 views, 2 reads, 96 sessions, avg 16s
 - /best/:cat — 52 views, 0 reads, 52 sessions
-- /alternatives/:tool — 47 views, 0 reads, 47 sessions, avg 3s
+- /alternatives/:tool — 48 views, 0 reads, 48 sessions, avg 3s
 - /build — 34 views, 0 reads, 34 sessions
 - /subscribe — 26 views, 0 reads, 6 sessions
 - /submit.html — 23 views, 2 reads, 19 sessions, avg 65s
@@ -64,7 +64,7 @@ ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
-- [stack] "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned" — 45 views, 4 reads
+- [stack] "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned" — 46 views, 4 reads
 - [stack] "LLM API Pricing, November 2026: What You Actually Pay Per Token After the GPT-6.2 and Gemini 4 Cuts" — 26 views, 1 reads
 - [stack] "The Best LLM for 16GB of VRAM (November 2026): What Actually Fits Once You Count the Context" — 24 views, 7 reads
 - [wire] "The Founder's Wire, November 21: Washington Puts a License on the Chips Inside Overseas Data Centers, Meta's Agent Moves Into a $300 Pocket Charm, and the Money Keeps Funding the Layer Above the Model" — 23 views, 1 reads
@@ -103,7 +103,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (1608 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×14 · /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×13 · /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html ×12
 - OAI-SearchBot (575 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×37 · /posts/local-llm-for-coding-on-your-own-machine.html ×12 · /posts/open-source-llm-for-coding-september-2026.html ×12
-- ChatGPT-User (381 verified): / ×244 · /wire.html ×12 · /about.html ×8
+- ChatGPT-User (382 verified): / ×244 · /wire.html ×12 · /about.html ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -140,7 +140,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 2985 confirmed AI-engine fetches (Perplexity 1608, ChatGPT Search (OpenAI) 575, GPTBot (OpenAI) 421, ChatGPT (user browsing) 381).
+The real answer engines are crawling us — IP-verified: 2986 confirmed AI-engine fetches (Perplexity 1608, ChatGPT Search (OpenAI) 575, GPTBot (OpenAI) 421, ChatGPT (user browsing) 382).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/best-llm-for-16gb-vram-november-2026.html  — 105 crawler fetches
 - /build  — 94 crawler fetches
