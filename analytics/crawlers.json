@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-26T05:49:18.501Z",
+ "generated": "2026-11-26T05:59:48.485Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 2778,
  "logsScanned": 12,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-26",
- "totalHits": 35457,
- "aiHits": 27083,
+ "totalHits": 35485,
+ "aiHits": 27104,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 10796,
+   "hits": 10804,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 5604,
+   "hits": 5611,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -146,14 +146,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2359,
+   "hits": 2362,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
     {
      "path": "/authors/dex",
-     "hits": 11
+     "hits": 12
     },
     {
      "path": "/build",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2033,
+   "hits": 2035,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1380,
+   "hits": 1381,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 463,
+   "hits": 467,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -608,13 +608,21 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 4,
+   "hits": 7,
    "verifiedHits": 0,
    "firstSeen": "2026-11-25",
    "lastSeen": "2026-11-26",
    "topPaths": [
     {
      "path": "/posts/claude-memory-tool-storage-backend-local-disk-vs-s3-vs-database.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/x401-protocol-agent-authorization",
+     "hits": 1
+    },
+    {
+     "path": "/posts/x401-protocol-agent-authorization.html",
      "hits": 1
     },
     {
