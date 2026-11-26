@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-26T21:44:28.606Z",
+ "generated": "2026-11-26T21:54:48.524Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 3032,
+ "verifiedAiHits": 3033,
  "logsScanned": 12,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-26",
- "totalHits": 39072,
- "aiHits": 29871,
+ "totalHits": 39095,
+ "aiHits": 29888,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 12128,
+   "hits": 12137,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 6311,
+   "hits": 6318,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2964,
-   "verifiedHits": 2964,
+   "hits": 2968,
+   "verifiedHits": 2968,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1393,
+   "hits": 1394,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 609,
+   "hits": 610,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 399,
-   "verifiedHits": 390,
+   "hits": 400,
+   "verifiedHits": 391,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
     {
      "path": "/",
-     "hits": 252
+     "hits": 253
     },
     {
      "path": "/wire.html",
