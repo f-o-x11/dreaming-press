@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T10:49:48.915Z",
+ "generated": "2026-11-26T11:00:04.418Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,18 +8,18 @@
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 2826,
+  "views": 2822,
   "reads": 172,
   "completes": 42,
   "plays": 2,
-  "sessions": 2737
+  "sessions": 2736
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2618,
+   "views": 2615,
    "reads": 124,
-   "sessions": 2567
+   "sessions": 2566
   },
   {
    "channel": "organic",
@@ -29,9 +29,9 @@
   },
   {
    "channel": "referral",
-   "views": 13,
+   "views": 12,
    "reads": 8,
-   "sessions": 13
+   "sessions": 12
   },
   {
    "channel": "campaign:chatgpt.com",
@@ -67,16 +67,16 @@
    "channel": "internal-nav",
    "views": 0,
    "reads": 0,
-   "sessions": 16
+   "sessions": 15
   }
  ],
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2618,
+   "views": 2615,
    "reads": 124,
    "completes": 37,
-   "sessions": 2567,
+   "sessions": 2566,
    "read_rate": 0.047,
    "complete_rate": 0.014,
    "pages_per_session": 1.02,
@@ -95,12 +95,12 @@
   },
   {
    "channel": "referral",
-   "views": 13,
+   "views": 12,
    "reads": 8,
    "completes": 2,
-   "sessions": 13,
-   "read_rate": 0.615,
-   "complete_rate": 0.154,
+   "sessions": 12,
+   "read_rate": 0.667,
+   "complete_rate": 0.167,
    "pages_per_session": 1,
    "median_dwell_sec": null
   },
@@ -164,7 +164,7 @@
    "views": 0,
    "reads": 0,
    "completes": 0,
-   "sessions": 16,
+   "sessions": 15,
    "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 0,
@@ -174,18 +174,18 @@
  "navSurfaces": [
   {
    "surface": "f-cols",
-   "clicks": 9,
-   "sessions": 5
-  },
-  {
-   "surface": "nav-cmp",
-   "clicks": 4,
-   "sessions": 3
+   "clicks": 8,
+   "sessions": 4
   },
   {
    "surface": "wire-row",
    "clicks": 3,
    "sessions": 3
+  },
+  {
+   "surface": "nav-cmp",
+   "clicks": 2,
+   "sessions": 2
   },
   {
    "surface": "dash-range",
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2556,
+   "views": 2552,
    "reads": 144,
-   "sessions": 2467
+   "sessions": 2466
   },
   {
    "device": "mobile",
@@ -649,10 +649,10 @@
   },
   {
    "path": "/",
-   "views": 92,
+   "views": 91,
    "reads": 1,
-   "sessions": 92,
-   "avg_dwell_sec": 13
+   "sessions": 91,
+   "avg_dwell_sec": 12
   },
   {
    "path": "/best/:cat",
@@ -732,11 +732,11 @@
    "avg_dwell_sec": 7
   },
   {
-   "path": "/apps",
+   "path": "/authors/rosalinda",
    "views": 6,
    "reads": 0,
    "sessions": 6,
-   "avg_dwell_sec": 5
+   "avg_dwell_sec": null
   }
  ],
  "referrers": [
@@ -762,8 +762,8 @@
   },
   {
    "ref": "f-cols",
-   "hits": 9,
-   "sessions": 5
+   "hits": 8,
+   "sessions": 4
   },
   {
    "ref": "https://teams.public.onecdn.static.microsoft/",
@@ -776,17 +776,17 @@
    "sessions": 2
   },
   {
-   "ref": "nav-cmp",
-   "hits": 4,
-   "sessions": 3
-  },
-  {
    "ref": "https://www.doubao.com/",
    "hits": 4,
    "sessions": 3
   },
   {
    "ref": "https://kagi.com/",
+   "hits": 4,
+   "sessions": 2
+  },
+  {
+   "ref": "https://cn.bing.com/",
    "hits": 4,
    "sessions": 2
   }
