@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-26T00:16:48.324Z",
+ "generated": "2026-11-26T00:27:18.492Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 2717,
+ "verifiedAiHits": 2719,
  "logsScanned": 12,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-26",
- "totalHits": 33972,
- "aiHits": 25978,
+ "totalHits": 34012,
+ "aiHits": 26000,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 10171,
+   "hits": 10179,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 5361,
+   "hits": 5368,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2573,
-   "verifiedHits": 2573,
+   "hits": 2574,
+   "verifiedHits": 2574,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2281,
+   "hits": 2285,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1880,
+   "hits": 1893,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -197,11 +197,11 @@
      "hits": 5
     },
     {
-     "path": "/authors/priya",
+     "path": "/comparisons",
      "hits": 4
     },
     {
-     "path": "/authors/dex",
+     "path": "/authors/priya",
      "hits": 4
     }
    ],
@@ -212,10 +212,10 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1575,
+   "hits": 1576,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-25",
+   "lastSeen": "2026-11-26",
    "topPaths": [
     {
      "path": "/posts/how-to-fix-transactional-email-deliverability-spf-dkim-dmarc.html",
@@ -344,14 +344,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 447,
+   "hits": 448,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-25",
+   "lastSeen": "2026-11-26",
    "topPaths": [
     {
      "path": "/posts/best-llm-for-16gb-vram-november-2026.html",
-     "hits": 92
+     "hits": 93
     },
     {
      "path": "/posts/how-to-connect-claude-to-blender-mcp-server.html",
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 373,
+   "hits": 376,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 351,
-   "verifiedHits": 344,
+   "hits": 353,
+   "verifiedHits": 346,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
     {
      "path": "/",
-     "hits": 218
+     "hits": 220
     },
     {
      "path": "/wire.html",
