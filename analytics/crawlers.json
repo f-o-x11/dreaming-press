@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-26T12:34:18.478Z",
+ "generated": "2026-11-26T12:44:48.586Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 2955,
+ "verifiedAiHits": 2959,
  "logsScanned": 12,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-26",
- "totalHits": 37171,
- "aiHits": 28412,
+ "totalHits": 37213,
+ "aiHits": 28442,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 11474,
+   "hits": 11490,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 5895,
+   "hits": 5903,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -66,7 +66,7 @@
     },
     {
      "path": "/stack.html",
-     "hits": 10
+     "hits": 12
     },
     {
      "path": "/build",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 4697,
+   "hits": 4699,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2789,
-   "verifiedHits": 2789,
+   "hits": 2790,
+   "verifiedHits": 2790,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2150,
+   "hits": 2153,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1593,
-   "verifiedHits": 1593,
+   "hits": 1596,
+   "verifiedHits": 1596,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
@@ -344,7 +344,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 563,
+   "hits": 565,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 380,
-   "verifiedHits": 372,
+   "hits": 381,
+   "verifiedHits": 373,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
     {
      "path": "/",
-     "hits": 236
+     "hits": 237
     },
     {
      "path": "/wire.html",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 250,
-   "verifiedHits": 211,
+   "hits": 256,
+   "verifiedHits": 217,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
@@ -523,16 +523,16 @@
      "hits": 4
     },
     {
+     "path": "/posts/how-to-pick-parallel-coding-agent-runner-terminal-desktop-web-2026.html",
+     "hits": 2
+    },
+    {
      "path": "/reports/state-of-ai-agents",
      "hits": 2
     },
     {
      "path": "/posts/tuning-chunked-prefill-max-num-batched-tokens.html",
      "hits": 2
-    },
-    {
-     "path": "/tools",
-     "hits": 1
     }
    ],
    "verifiable": true
