@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-26T19:18Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-26T19:29Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -102,7 +102,7 @@ sample size dwarfs the engaged-read counts below.
 
 Per engine:
 - PerplexityBot (1608 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×14 · /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×13 · /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html ×12
-- OAI-SearchBot (592 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×38 · /posts/local-llm-for-coding-on-your-own-machine.html ×12 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×12
+- OAI-SearchBot (593 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×38 · /posts/local-llm-for-coding-on-your-own-machine.html ×12 · /posts/open-source-llm-leaderboard-september-2026-run-locally.html ×12
 - ChatGPT-User (386 verified): / ×248 · /wire.html ×12 · /about.html ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
@@ -140,9 +140,9 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 3008 confirmed AI-engine fetches (Perplexity 1608, ChatGPT Search (OpenAI) 592, GPTBot (OpenAI) 422, ChatGPT (user browsing) 386).
+The real answer engines are crawling us — IP-verified: 3009 confirmed AI-engine fetches (Perplexity 1608, ChatGPT Search (OpenAI) 593, GPTBot (OpenAI) 422, ChatGPT (user browsing) 386).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /posts/best-llm-for-16gb-vram-november-2026.html  — 112 crawler fetches
+- /posts/best-llm-for-16gb-vram-november-2026.html  — 113 crawler fetches
 - /build  — 95 crawler fetches
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 80 crawler fetches
 - /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html  — 63 crawler fetches
