@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-26T01:19Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-26T01:30Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -52,9 +52,9 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 504 views, 0 reads, 504 sessions, avg 5s
+- /stack/:tool — 506 views, 0 reads, 506 sessions, avg 5s
 - /compare/:pair — 297 views, 0 reads, 297 sessions, avg 33s
-- / — 95 views, 1 reads, 95 sessions, avg 13s
+- / — 96 views, 1 reads, 96 sessions, avg 13s
 - /best/:cat — 52 views, 0 reads, 52 sessions
 - /alternatives/:tool — 46 views, 0 reads, 46 sessions, avg 3s
 - /build — 35 views, 0 reads, 35 sessions
@@ -89,21 +89,21 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 230 retrieval fetches
+- /  — 231 retrieval fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 32 retrieval fetches
 - /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html  — 12 retrieval fetches
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 12 retrieval fetches
 - /wire.html  — 12 retrieval fetches
+- /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html  — 11 retrieval fetches
 - /posts/2026-11-20-founders-wire-apple-builds-its-own-agent-arizona-opens-criminal-probe-anthropic-ant-debuts.html  — 11 retrieval fetches
-- /posts/2026-11-18-founders-wire-microsoft-ignite-mai-price-war-agent-365-anthropic-ipo-prices.html  — 10 retrieval fetches
+- /posts/local-llm-for-coding-on-your-own-machine.html  — 11 retrieval fetches
 - /posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html  — 10 retrieval fetches
 - /posts/lm-studio-bionic-local-agent-open-models.html  — 10 retrieval fetches
-- /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 10 retrieval fetches
 
 Per engine:
-- PerplexityBot (1437 verified): /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×12 · /posts/how-to-connect-claude-to-blender-mcp-server.html ×12 · /posts/2026-11-20-founders-wire-apple-builds-its-own-agent-arizona-opens-criminal-probe-anthropic-ant-debuts.html ×11
-- OAI-SearchBot (526 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×32 · /posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html ×10 · /posts/lm-studio-bionic-local-agent-open-models.html ×10
-- ChatGPT-User (346 verified): / ×220 · /wire.html ×12 · /about.html ×8
+- PerplexityBot (1445 verified): /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×12 · /posts/how-to-connect-claude-to-blender-mcp-server.html ×12 · /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html ×11
+- OAI-SearchBot (527 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×32 · /posts/local-llm-for-coding-on-your-own-machine.html ×11 · /posts/2026-06-22-modal-vs-replicate-vs-runpod-vs-baseten.html ×10
+- ChatGPT-User (347 verified): / ×221 · /wire.html ×12 · /about.html ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -140,7 +140,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 2725 confirmed AI-engine fetches (Perplexity 1437, ChatGPT Search (OpenAI) 526, GPTBot (OpenAI) 416, ChatGPT (user browsing) 346).
+The real answer engines are crawling us — IP-verified: 2735 confirmed AI-engine fetches (Perplexity 1445, ChatGPT Search (OpenAI) 527, GPTBot (OpenAI) 416, ChatGPT (user browsing) 347).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/best-llm-for-16gb-vram-november-2026.html  — 96 crawler fetches
 - /build  — 86 crawler fetches
@@ -149,11 +149,11 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 34 crawler fetches
 - /posts/best-open-source-vector-database-2026.html  — 30 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 24 crawler fetches
+- /posts/local-llm-for-coding-on-your-own-machine.html  — 19 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 14 crawler fetches
-- /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 13 crawler fetches
 - /posts/2026-11-17-founders-wire-california-sues-openai-cursor-backdoored-extension-bay-vets-agent-actions.html  — 12 crawler fetches
+- /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html  — 11 crawler fetches
 - /posts/2026-11-20-founders-wire-apple-builds-its-own-agent-arizona-opens-criminal-probe-anthropic-ant-debuts.html  — 11 crawler fetches
-- /posts/2026-11-18-founders-wire-microsoft-ignite-mai-price-war-agent-365-anthropic-ipo-prices.html  — 10 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
 ## READY BUT BLOCKED (2 capabilities are one credential away)
