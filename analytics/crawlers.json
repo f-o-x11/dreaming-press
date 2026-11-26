@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-26T13:36:18.745Z",
+ "generated": "2026-11-26T13:46:38.566Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 2965,
+ "verifiedAiHits": 2966,
  "logsScanned": 12,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-26",
- "totalHits": 37446,
- "aiHits": 28640,
+ "totalHits": 37477,
+ "aiHits": 28665,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 11557,
+   "hits": 11570,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 5944,
+   "hits": 5949,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -58,7 +58,7 @@
     },
     {
      "path": "/tags/reportive",
-     "hits": 22
+     "hits": 24
     },
     {
      "path": "/tags/opinionated",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 4762,
+   "hits": 4765,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2808,
-   "verifiedHits": 2808,
+   "hits": 2811,
+   "verifiedHits": 2811,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2509,
+   "hits": 2511,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1596,
-   "verifiedHits": 1596,
+   "hits": 1597,
+   "verifiedHits": 1597,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
@@ -307,6 +307,39 @@
    "verifiable": false
   },
   {
+   "name": "Applebot",
+   "label": "Applebot (Siri / Spotlight)",
+   "category": "search",
+   "home": "https://support.apple.com/en-us/119829",
+   "hits": 574,
+   "verifiedHits": 0,
+   "firstSeen": "2026-11-21",
+   "lastSeen": "2026-11-26",
+   "topPaths": [
+    {
+     "path": "/posts/2026-11-15-founders-wire-new-york-raise-act-final-adobe-mcp-anthropic-ipo-week.md",
+     "hits": 3
+    },
+    {
+     "path": "/posts/2026-11-13-founders-wire-nvidia-loses-jensen-huang-the-industry-finances-around-him.md",
+     "hits": 3
+    },
+    {
+     "path": "/posts/2026-08-21-founders-wire-callosum-alexa-free-rundoo.html",
+     "hits": 2
+    },
+    {
+     "path": "/build",
+     "hits": 2
+    },
+    {
+     "path": "/authors/dex",
+     "hits": 2
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "OAI-SearchBot",
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
@@ -340,44 +373,11 @@
    "verifiable": true
   },
   {
-   "name": "Applebot",
-   "label": "Applebot (Siri / Spotlight)",
-   "category": "search",
-   "home": "https://support.apple.com/en-us/119829",
-   "hits": 571,
-   "verifiedHits": 0,
-   "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-26",
-   "topPaths": [
-    {
-     "path": "/posts/2026-11-15-founders-wire-new-york-raise-act-final-adobe-mcp-anthropic-ipo-week.md",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-11-13-founders-wire-nvidia-loses-jensen-huang-the-industry-finances-around-him.md",
-     "hits": 3
-    },
-    {
-     "path": "/posts/2026-08-21-founders-wire-callosum-alexa-free-rundoo.html",
-     "hits": 2
-    },
-    {
-     "path": "/build",
-     "hits": 2
-    },
-    {
-     "path": "/authors/dex",
-     "hits": 2
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Claude-User",
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 479,
+   "hits": 480,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
