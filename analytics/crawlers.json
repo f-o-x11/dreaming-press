@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-26T14:38:48.750Z",
+ "generated": "2026-11-26T14:49:18.607Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 2976,
  "logsScanned": 12,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-26",
- "totalHits": 37654,
- "aiHits": 28805,
+ "totalHits": 37695,
+ "aiHits": 28844,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 11643,
+   "hits": 11670,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 5990,
+   "hits": 5998,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2159,
+   "hits": 2160,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 579,
+   "hits": 580,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -575,11 +575,19 @@
    "label": "DuckDuckGo AI",
    "category": "ai",
    "home": "https://duckduckgo.com/duckassistbot",
-   "hits": 25,
+   "hits": 29,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
+    {
+     "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
+     "hits": 2
+    },
+    {
+     "path": "/posts/best-llm-for-16gb-vram-november-2026.html",
+     "hits": 2
+    },
     {
      "path": "/posts/2026-11-23-founders-wire-ai-worst-week-since-2020-nvidia-governance-gemini-agentic-free.html",
      "hits": 2
@@ -591,14 +599,6 @@
     {
      "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
      "hits": 2
-    },
-    {
-     "path": "/posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/best-llm-for-16gb-vram-november-2026.html",
-     "hits": 1
     }
    ],
    "verifiable": false

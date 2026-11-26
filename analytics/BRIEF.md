@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-26T14:38Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-26T14:49Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2814 views → 176 engaged reads → 41 completes · 2722 sessions.
-- Channels: direct 126r/2606v · organic 37r/179v · referral 9r/13v · campaign:chatgpt.com 2r/8v · ai 1r/3v · social 1r/2v · campaign:openai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 2814 views → 175 engaged reads → 41 completes · 2722 sessions.
+- Channels: direct 126r/2607v · organic 36r/178v · referral 9r/13v · campaign:chatgpt.com 2r/8v · ai 1r/3v · social 1r/2v · campaign:openai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 2r/8v · Doubao 1r/3v.
 - Referrers: google.com, bing.com, duckduckgo.com, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, bytedance.larkoffice.com, doubao.com, kagi.com, cn.bing.com.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2606 views · read 4.8% · complete 1.4% · 1.02 pages/session · median 7s
-- organic: 179 views · read 20.7% · complete 0.6% · 1.01 pages/session · median ?s
+- direct: 2607 views · read 4.8% · complete 1.4% · 1.02 pages/session · median 7s
+- organic: 178 views · read 20.2% · complete 0.6% · 1.01 pages/session · median ?s
 - referral: 13 views · read 69.2% · complete 15.4% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 8 views · read 25.0% · complete 25.0% · 1.14 pages/session · median ?s
 - ai: 3 views · read 33.3% · complete 0.0% · 0.6 pages/session · median 29s
@@ -59,7 +59,7 @@ so what these earn from humans is the other half of the picture.
 - /alternatives/:tool — 47 views, 0 reads, 47 sessions, avg 3s
 - /build — 34 views, 0 reads, 34 sessions
 - /subscribe — 26 views, 0 reads, 6 sessions
-- /submit.html — 21 views, 2 reads, 17 sessions, avg 69s
+- /submit.html — 22 views, 2 reads, 18 sessions, avg 69s
 ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
 
@@ -142,17 +142,17 @@ search intent, so put the answer in the first screen and use the phrasing in the
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
 The real answer engines are crawling us — IP-verified: 2976 confirmed AI-engine fetches (Perplexity 1604, ChatGPT Search (OpenAI) 575, GPTBot (OpenAI) 421, ChatGPT (user browsing) 376).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /posts/best-llm-for-16gb-vram-november-2026.html  — 103 crawler fetches
+- /posts/best-llm-for-16gb-vram-november-2026.html  — 104 crawler fetches
 - /build  — 92 crawler fetches
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 77 crawler fetches
 - /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html  — 63 crawler fetches
-- /posts/open-source-coding-llm-ranked-november-2026.html  — 39 crawler fetches
+- /posts/open-source-coding-llm-ranked-november-2026.html  — 41 crawler fetches
 - /posts/best-open-source-vector-database-2026.html  — 32 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 25 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 18 crawler fetches
 - /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 14 crawler fetches
 - /posts/best-llm-for-creative-writing-october-2026.html  — 14 crawler fetches
-- /posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html  — 13 crawler fetches
+- /posts/cheapest-gpu-16gb-vram-local-ai-august-2026.html  — 12 crawler fetches
 - /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html  — 12 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
 
