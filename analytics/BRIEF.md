@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-26T14:07Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-26T14:17Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -117,7 +117,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Uncovered search demand (245 of 461 phrases have NO post, 74h ago)
+## Uncovered search demand (245 of 461 phrases have NO post, 75h ago)
 Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
 confirmed by BOTH engines are listed first — two independent indexes agreeing is the
 closest thing to a volume signal we get without a paid keyword tool.
@@ -143,7 +143,7 @@ search intent, so put the answer in the first screen and use the phrasing in the
 The real answer engines are crawling us — IP-verified: 2971 confirmed AI-engine fetches (Perplexity 1600, ChatGPT Search (OpenAI) 574, GPTBot (OpenAI) 421, ChatGPT (user browsing) 376).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/best-llm-for-16gb-vram-november-2026.html  — 103 crawler fetches
-- /build  — 91 crawler fetches
+- /build  — 92 crawler fetches
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 76 crawler fetches
 - /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html  — 63 crawler fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 39 crawler fetches

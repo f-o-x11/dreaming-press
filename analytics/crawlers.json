@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-26T14:07:18.487Z",
+ "generated": "2026-11-26T14:17:48.564Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 2971,
  "logsScanned": 12,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-26",
- "totalHits": 37538,
- "aiHits": 28713,
+ "totalHits": 37578,
+ "aiHits": 28740,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,14 +14,14 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 11594,
+   "hits": 11609,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
     {
      "path": "/build",
-     "hits": 21
+     "hits": 22
     },
     {
      "path": "/",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 5964,
+   "hits": 5972,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2816,
-   "verifiedHits": 2816,
+   "hits": 2821,
+   "verifiedHits": 2821,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2515,
+   "hits": 2519,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2157,
+   "hits": 2158,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 578,
+   "hits": 579,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -509,14 +509,14 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 259,
+   "hits": 265,
    "verifiedHits": 220,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
     {
      "path": "/",
-     "hits": 11
+     "hits": 12
     },
     {
      "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
