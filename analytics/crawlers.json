@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-26T00:27:18.492Z",
+ "generated": "2026-11-26T00:37:48.516Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 2719,
+ "verifiedAiHits": 2720,
  "logsScanned": 12,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-26",
- "totalHits": 34012,
- "aiHits": 26000,
+ "totalHits": 34036,
+ "aiHits": 26015,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 10179,
+   "hits": 10180,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 5368,
+   "hits": 5376,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -80,10 +80,10 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 4602,
+   "hits": 4603,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-25",
+   "lastSeen": "2026-11-26",
    "topPaths": [
     {
      "path": "/authors/dex",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2285,
+   "hits": 2289,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -168,7 +168,7 @@
      "hits": 3
     },
     {
-     "path": "/stack/rime",
+     "path": "/posts/gpt-5-6-sol-terra-luna-which-tier-for-founders-2026.html",
      "hits": 2
     }
    ],
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1893,
+   "hits": 1896,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -212,7 +212,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1576,
+   "hits": 1577,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -230,11 +230,11 @@
      "hits": 3
     },
     {
-     "path": "/posts/best-open-vision-language-model-for-agents.html",
+     "path": "/posts/how-to-tail-sample-agent-traces-cut-observability-bill.html",
      "hits": 2
     },
     {
-     "path": "/posts/how-to-trace-and-evaluate-an-ai-agent-with-langfuse.html",
+     "path": "/posts/best-open-vision-language-model-for-agents.html",
      "hits": 2
     }
    ],
@@ -311,8 +311,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 525,
-   "verifiedHits": 524,
+   "hits": 526,
+   "verifiedHits": 525,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 376,
+   "hits": 381,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
