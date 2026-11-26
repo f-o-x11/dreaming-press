@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-26T08:24:48.905Z",
+ "generated": "2026-11-26T08:35:04.205Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 1,
   "todayReads": 3,
   "avgTimeSec": 3,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 2835,
+  "views": 2833,
   "reads": 172,
   "completes": 42,
   "plays": 2,
-  "sessions": 2744
+  "sessions": 2742
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2627,
+   "views": 2624,
    "reads": 124,
-   "sessions": 2574
+   "sessions": 2571
   },
   {
    "channel": "organic",
@@ -53,9 +53,9 @@
   },
   {
    "channel": "campaign:openai",
-   "views": 1,
+   "views": 2,
    "reads": 0,
-   "sessions": 1
+   "sessions": 2
   },
   {
    "channel": "campaign:producthunt",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2627,
+   "views": 2624,
    "reads": 124,
    "completes": 37,
-   "sessions": 2574,
+   "sessions": 2571,
    "read_rate": 0.047,
    "complete_rate": 0.014,
    "pages_per_session": 1.02,
@@ -127,23 +127,23 @@
    "median_dwell_sec": 29
   },
   {
+   "channel": "campaign:openai",
+   "views": 2,
+   "reads": 0,
+   "completes": 0,
+   "sessions": 2,
+   "read_rate": 0,
+   "complete_rate": 0,
+   "pages_per_session": 1,
+   "median_dwell_sec": null
+  },
+  {
    "channel": "social",
    "views": 2,
    "reads": 1,
    "completes": 0,
    "sessions": 2,
    "read_rate": 0.5,
-   "complete_rate": 0,
-   "pages_per_session": 1,
-   "median_dwell_sec": null
-  },
-  {
-   "channel": "campaign:openai",
-   "views": 1,
-   "reads": 0,
-   "completes": 0,
-   "sessions": 1,
-   "read_rate": 0,
    "complete_rate": 0,
    "pages_per_session": 1,
    "median_dwell_sec": null
@@ -265,15 +265,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2561,
+   "views": 2562,
    "reads": 144,
-   "sessions": 2470
+   "sessions": 2471
   },
   {
    "device": "mobile",
-   "views": 274,
+   "views": 271,
    "reads": 28,
-   "sessions": 274
+   "sessions": 271
   }
  ],
  "topContent": [
