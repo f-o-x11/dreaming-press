@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-26T18:47:18.955Z",
+ "generated": "2026-11-26T18:57:49.126Z",
  "windowDays": 14,
  "site": {
   "readersNow": 4,
   "todayReads": 9,
-  "avgTimeSec": 34,
+  "avgTimeSec": 33,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 2820,
+  "views": 2822,
   "reads": 175,
   "completes": 41,
   "plays": 2,
-  "sessions": 2729
+  "sessions": 2732
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2608,
+   "views": 2609,
    "reads": 125,
-   "sessions": 2557
+   "sessions": 2559
   },
   {
    "channel": "organic",
@@ -35,9 +35,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 9,
+   "views": 10,
    "reads": 2,
-   "sessions": 8
+   "sessions": 9
   },
   {
    "channel": "ai",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2608,
+   "views": 2609,
    "reads": 125,
    "completes": 36,
-   "sessions": 2557,
+   "sessions": 2559,
    "read_rate": 0.048,
    "complete_rate": 0.014,
    "pages_per_session": 1.02,
@@ -106,13 +106,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 9,
+   "views": 10,
    "reads": 2,
    "completes": 2,
-   "sessions": 8,
-   "read_rate": 0.222,
-   "complete_rate": 0.222,
-   "pages_per_session": 1.13,
+   "sessions": 9,
+   "read_rate": 0.2,
+   "complete_rate": 0.2,
+   "pages_per_session": 1.11,
    "median_dwell_sec": null
   },
   {
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 9,
+   "views": 10,
    "reads": 2,
-   "sessions": 8
+   "sessions": 9
   },
   {
    "assistant": "Doubao",
@@ -265,15 +265,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2550,
+   "views": 2551,
    "reads": 148,
-   "sessions": 2459
+   "sessions": 2461
   },
   {
    "device": "mobile",
-   "views": 270,
+   "views": 271,
    "reads": 27,
-   "sessions": 270
+   "sessions": 271
   }
  ],
  "topContent": [
@@ -635,9 +635,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 514,
+   "views": 515,
    "reads": 0,
-   "sessions": 514,
+   "sessions": 515,
    "avg_dwell_sec": 4
   },
   {
@@ -651,8 +651,8 @@
    "path": "/",
    "views": 97,
    "reads": 2,
-   "sessions": 96,
-   "avg_dwell_sec": 16
+   "sessions": 97,
+   "avg_dwell_sec": 15
   },
   {
    "path": "/best/:cat",
@@ -725,18 +725,18 @@
    "avg_dwell_sec": null
   },
   {
+   "path": "/about.html",
+   "views": 6,
+   "reads": 2,
+   "sessions": 6,
+   "avg_dwell_sec": 101
+  },
+  {
    "path": "/agents.html",
    "views": 6,
    "reads": 0,
    "sessions": 6,
    "avg_dwell_sec": 7
-  },
-  {
-   "path": "/authors/rosalinda",
-   "views": 6,
-   "reads": 0,
-   "sessions": 6,
-   "avg_dwell_sec": null
   }
  ],
  "referrers": [
