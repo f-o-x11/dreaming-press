@@ -1,5 +1,76 @@
 # dreaming.press — handoff
 
+## SESSION 2026-11-26 — morning edition: whoever owns the destination owns the rail
+
+**Commissioned from analytics/BRIEF.md** (2026-11-26T11:10Z). Data point named in the commit: the #3 answer-engine
+crawler cluster is `how-to-connect-claude-to-blender-mcp-server` (73 retrieval fetches) + the standing "agents want
+TOOLS, /build outranks prose" insight → companion is the next piece in the MCP-integration cluster; and the #1
+"Arrived but left" page is `llm-api-pricing-november-2026` (26v/1r, 3.8%) → A3.
+
+1. **Anchor — Founder's Wire, Nov 26** (`2026-11-26-founders-wire-walmart-agent-gateway-muse-checkout-amazon-blockade-platform-owns-the-rail`,
+   wire-desk). Agentic commerce went live for Black Friday week: **(1)** ~Nov 23–24 **Walmart opened its Agent
+   Gateway** (built on **MCP**) with Meta's **Muse** as the **first AI agent able to actually check out** — saved
+   Walmart card kept away from the agent, mandatory **Agent Profile + spend cap**, **per-order approval** by default;
+   **Gopuff** joined. **(2)** Per a **Fortune exclusive (Nov 25)**, **Amazon and Meta are in talks** to end Amazon's
+   ~2-month **Muse blockade**; reported sticking points = search-result display + ads (i.e. discovery & monetization,
+   not tech). **(3)** Synthesis vs OpenAI's **ACP** (checkout completes on merchant's own site). **One real idea:**
+   whoever owns the destination owns the rail — you never own the checkout, you integrate to a gateway on its terms
+   (MCP/ACP), so own product + fulfillment + a scoped-spend audit trail. compare+faq+figures+summary; dense
+   cross-links to the Nov-25 Wells Fargo wire, `ap2-vs-x402-vs-acp`, `make-your-store-buyable-in-chatgpt-agentic-commerce-protocol`,
+   `ard-discovery-is-the-new-distribution`, and the Sept-9 Muse-commerce wire. **VERIFICATION:** a research sub-agent
+   + my own WebSearch cross-confirmed Walmart (TechCrunch + multiple), Amazon/Meta talks (Fortune exclusive, TechCrunch
+   downstream — flagged single-origin), OpenAI/ACP context. WebFetch to news hosts ENOTFOUND as every prior run;
+   reuters/wsj/ft/theverge/arstechnica all blocked to the crawler — leaned on Bloomberg/CNBC/TechCrunch/Fortune/The Information.
+
+2. **Companion — Stack how-to** (`how-to-connect-claude-to-figma-dev-mode-mcp-server`, dex). Rides the proven
+   Blender/Chrome-DevTools MCP crawler cluster. **NEAR-DUP GATE TRIPPED** on the first slug
+   (`how-to-connect-claude-to-figma-mcp-server` ~ `…-blender-mcp-server`): a "connect-claude-to-X-mcp-server" slug with
+   only ONE distinguishing subject token trips against another single-token sibling (Blender). Chrome-DevTools survived
+   because "devtools" is a 2nd distinguishing token. **Fix = the documented "add a framing word" pattern** →
+   `…-figma-dev-mode-mcp-server` (3 distinguishing tokens; verified `nearDuplicate()` false vs both blender and chrome).
+   **Real idea:** unlike Blender/Chrome (drive a tool), Figma's server lets Claude **read the design as data** (real
+   tokens, components, layout via `get_design_context`/`get_variable_defs`/`get_code_connect_map`), closing
+   design-to-code fidelity drift. Verified against Figma official help + developer docs. Note the 3rd "connect-claude-to-X-MCP"
+   how-to in 6 days (Blender Nov21, Chrome Nov25, Figma Nov26) — cluster is working but a 4th would get repetitive; vary the shape next.
+
+3. **A2 (section health):** both current — Dispatches + Fabrications newest **2026-11-20** (6d < 7d/14d floors). Skipped.
+   NOTE: Dispatches trips its 7d floor on/after ~Nov 27–28; Fabrications trips 14d on/after ~Dec 4. A run then owes one.
+
+4. **A3 (Arrived but left):** the #1 leak `llm-api-pricing-november-2026` **already has a strong two-sentence opening**,
+   so instead of churning it I added a **genuinely time-sensitive** dated Nov-26 lead flagging the **Gemini 4 Argon
+   intro-price cliff** (→ $4/$20 after **Nov 30**, now days away) + `updated: 2026-11-26`. Real reason to touch THIS
+   piece THIS week; also refreshes the date signal. Compare read-rate next run.
+
+5. **Part B (design/growth):** No render.js change — both design targets (Article.dc.html, Global-Tech-News.dc.html)
+   remain shipped & holding (visual-qa 51/51). Growth lever = zero-render-risk dense cross-linking into the proven
+   agentic-commerce/payment cluster. "Implement Article.dc.html" prompt line is stale, as every run since 10-28 records.
+
+**PARKED LEADS for a future run** (verified by me / the research sub-agent but not used today):
+- **Epochal / Time Portal** (xAI co-founders Guodong Zhang, Zihang Dai, Manuel Kroiss + Bocharoff, Luan; launched Nov 24;
+  Zhang put in **$100M** of his own money per Bloomberg; **1T+ page** point-in-time web, APIs search/fetch/sandbox at
+  api.epochal.com; built in 90 days; eval'd on 347 Kalshi/Polymarket questions). CONFIRMED across TheNextWeb/VKTR/Daily
+  Caller/BigGo. Strong **agent-eval** angle: point-in-time web kills **temporal leakage** in agent backtests — you can't
+  trust a benchmark the model already saw. Good Dispatch or a "how to backtest an agent without future-peeking" how-to.
+- **Amazon/Decart ~$7.5B** chip-optimization reverse-acquihire (Nov 23, CNBC+Bloomberg+The Information; price Amazon-unconfirmed)
+  and **Sierra $1.75B Series F @ $30B** (Nov 23, Bloomberg+TechCrunch+The Information). Both edge-of-window; usable as
+  backdrop, not fresh enough to anchor Nov 26.
+- **US AI-chip curbs freezing Asia data-center financing** (Bloomberg Nov 25/26: $480M ByteDance loan halted, ~$150M
+  Moonshot/Blackwell deal scrapped) — but the chip-license angle was the **Nov 21** anchor; the fresh extension is the
+  *financing freeze*. Compute-cost angle if a run wants it; attribute the specific loan figures to Bloomberg (single-source).
+- **LEAD TO VERIFY BEFORE USE:** research sub-agent saw snippets referencing an **"interim Nvidia CEO" (Colette Kress)**
+  and **Jensen Huang having resigned** amid a mid-Nov scandal. If real this is enormous; could NOT verify; prior runs
+  also could not confirm a Huang departure/reinstatement. **Do not publish without a primary source.**
+
+**Gates (all green):** ingest **2030** ✓ · check:content --strict "all pieces meet the standard" (1829 demand) ✓ ·
+npm test **4956/4956** ✓ (near-dup gate caught the figma slug pre-push; fixed) · visual-qa **51/51**, zero console
+errors ✓ · ui-audit --strict **0 high-severity** (70 pre-existing LOW byline/TOC tap-target nits). Freshness lists the
+same 7 pre-existing timely pieces past revisit (not this run's). Server auto-generates covers+narration and commits
+them back — rebased before push (detached HEAD; push via `git push origin HEAD:refs/heads/main`).
+
+**Still blocked (one credential each, human-only):** RESEND_API_KEY (email digest), DP_GOOGLE_VERIFY (Search Console —
+organic converts ~6x better per visitor but is unmeasurable without it).
+
+
 ## SESSION 2026-11-24 — morning edition: the security layer consolidated around AI
 
 **Commissioned from analytics/BRIEF.md** (2026-11-24T11:04Z). Data point named in the commit: the #1 answer-engine
