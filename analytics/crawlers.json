@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-26T19:08:18.587Z",
+ "generated": "2026-11-26T19:18:48.509Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 3002,
+ "verifiedAiHits": 3008,
  "logsScanned": 12,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-26",
- "totalHits": 38538,
- "aiHits": 29458,
+ "totalHits": 38576,
+ "aiHits": 29472,
  "aiEngines": 13,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 6198,
+   "hits": 6206,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2908,
-   "verifiedHits": 2908,
+   "hits": 2913,
+   "verifiedHits": 2913,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2245,
+   "hits": 2258,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 597,
+   "hits": 600,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -344,8 +344,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 587,
-   "verifiedHits": 586,
+   "hits": 593,
+   "verifiedHits": 592,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
@@ -358,15 +358,15 @@
      "hits": 12
     },
     {
+     "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
+     "hits": 12
+    },
+    {
      "path": "/posts/open-source-llm-for-coding-september-2026.html",
      "hits": 12
     },
     {
      "path": "/wire.html",
-     "hits": 12
-    },
-    {
-     "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.html",
      "hits": 12
     }
    ],
@@ -509,14 +509,14 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 277,
-   "verifiedHits": 225,
+   "hits": 280,
+   "verifiedHits": 228,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
     {
      "path": "/",
-     "hits": 13
+     "hits": 14
     },
     {
      "path": "/posts/context-editing-vs-compaction-for-long-running-agents.html",
