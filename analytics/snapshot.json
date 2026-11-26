@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-26T06:20:04.793Z",
+ "generated": "2026-11-26T06:30:28.759Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 1,
+  "readersNow": 2,
+  "todayReads": 2,
   "avgTimeSec": 5,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 2851,
-  "reads": 176,
+  "views": 2848,
+  "reads": 175,
   "completes": 42,
-  "plays": 3,
-  "sessions": 2758
+  "plays": 2,
+  "sessions": 2757
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2646,
-   "reads": 127,
-   "sessions": 2590
+   "views": 2642,
+   "reads": 125,
+   "sessions": 2588
   },
   {
    "channel": "organic",
@@ -40,16 +40,16 @@
    "sessions": 7
   },
   {
+   "channel": "ai",
+   "views": 3,
+   "reads": 1,
+   "sessions": 5
+  },
+  {
    "channel": "social",
    "views": 2,
    "reads": 1,
    "sessions": 2
-  },
-  {
-   "channel": "ai",
-   "views": 2,
-   "reads": 0,
-   "sessions": 4
   },
   {
    "channel": "campaign:openai",
@@ -73,11 +73,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2646,
-   "reads": 127,
+   "views": 2642,
+   "reads": 125,
    "completes": 37,
-   "sessions": 2590,
-   "read_rate": 0.048,
+   "sessions": 2588,
+   "read_rate": 0.047,
    "complete_rate": 0.014,
    "pages_per_session": 1.02,
    "median_dwell_sec": 7
@@ -117,13 +117,13 @@
   },
   {
    "channel": "ai",
-   "views": 2,
-   "reads": 0,
+   "views": 3,
+   "reads": 1,
    "completes": 0,
-   "sessions": 4,
-   "read_rate": 0,
+   "sessions": 5,
+   "read_rate": 0.333,
    "complete_rate": 0,
-   "pages_per_session": 0.5,
+   "pages_per_session": 0.6,
    "median_dwell_sec": 29
   },
   {
@@ -257,17 +257,17 @@
   },
   {
    "assistant": "Doubao",
-   "views": 2,
-   "reads": 0,
-   "sessions": 2
+   "views": 3,
+   "reads": 1,
+   "sessions": 3
   }
  ],
  "devices": [
   {
    "device": "desktop",
-   "views": 2573,
-   "reads": 148,
-   "sessions": 2480
+   "views": 2570,
+   "reads": 147,
+   "sessions": 2479
   },
   {
    "device": "mobile",
@@ -323,7 +323,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 49,
+   "views": 48,
    "reads": 5,
    "plays": 0
   },
@@ -336,16 +336,6 @@
    "views": 11,
    "reads": 5,
    "plays": 0
-  },
-  {
-   "slug": "best-llm-for-creative-writing-october-2026",
-   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 4,
-   "plays": 1
   },
   {
    "slug": "vllm-rust-frontend",
@@ -426,19 +416,19 @@
    "views": 4,
    "reads": 3,
    "plays": 0
+  },
+  {
+   "slug": "microsoft-agent-framework-codeact-hyperlight",
+   "title": "Microsoft Agent Framework's CodeAct: When the Sandbox Stops Being the Hard Part",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 3,
+   "reads": 3,
+   "plays": 0
   }
  ],
  "topListens": [
-  {
-   "slug": "best-llm-for-creative-writing-october-2026",
-   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 4,
-   "plays": 1
-  },
   {
    "slug": "fast-apply-models-morph-vs-relace-vs-cursor",
    "title": "Fast-Apply Models: How Cursor, Morph, and Relace Write Edits at 4,000+ Tokens/Second",
@@ -505,7 +495,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 49,
+   "views": 48,
    "reads": 5,
    "plays": 0
   },
@@ -528,6 +518,16 @@
    "views": 6,
    "reads": 4,
    "plays": 0
+  },
+  {
+   "slug": "open-source-llm-ranking-november-2026",
+   "title": "Open-Source LLM Rankings (November 2026): How to Read the Leaderboards — and Why They Disagree",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "indexer",
+   "views": 18,
+   "reads": 3,
+   "plays": 0
   }
  ],
  "topViews": [
@@ -537,7 +537,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 49,
+   "views": 48,
    "reads": 5,
    "plays": 0
   },
@@ -582,16 +582,6 @@
    "plays": 0
   },
   {
-   "slug": "best-llm-for-creative-writing-october-2026",
-   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 21,
-   "reads": 4,
-   "plays": 1
-  },
-  {
    "slug": "openai-responses-api-state-previous-response-id-vs-conversations-api",
    "title": "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own",
    "section": "stack",
@@ -599,6 +589,16 @@
    "author": "dex",
    "views": 19,
    "reads": 10,
+   "plays": 0
+  },
+  {
+   "slug": "best-llm-for-creative-writing-october-2026",
+   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 19,
+   "reads": 2,
    "plays": 0
   },
   {
@@ -781,12 +781,12 @@
    "sessions": 3
   },
   {
-   "ref": "https://kagi.com/",
+   "ref": "https://www.doubao.com/",
    "hits": 4,
-   "sessions": 2
+   "sessions": 3
   },
   {
-   "ref": "https://cn.bing.com/",
+   "ref": "https://kagi.com/",
    "hits": 4,
    "sessions": 2
   }

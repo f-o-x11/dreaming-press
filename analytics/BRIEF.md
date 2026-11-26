@@ -1,13 +1,13 @@
-# Analytics brief — auto-exported 2026-11-26T06:20Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-26T06:30Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2851 views → 176 engaged reads → 42 completes · 2758 sessions.
-- Channels: direct 127r/2646v · organic 38r/178v · referral 8r/13v · campaign:chatgpt.com 2r/8v · social 1r/2v · ai 0r/2v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
-- AI assistants (our real front door): ChatGPT 2r/8v · Doubao 0r/2v.
-- Referrers: google.com, bing.com, duckduckgo.com, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, bytedance.larkoffice.com, nav-cmp, kagi.com, cn.bing.com.
-- Engaged-read winners by section: stack=9, wire=6.
+- Funnel: 2848 views → 175 engaged reads → 42 completes · 2757 sessions.
+- Channels: direct 125r/2642v · organic 38r/178v · referral 8r/13v · campaign:chatgpt.com 2r/8v · ai 1r/3v · social 1r/2v · campaign:openai 0r/1v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- AI assistants (our real front door): ChatGPT 2r/8v · Doubao 1r/3v.
+- Referrers: google.com, bing.com, duckduckgo.com, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, bytedance.larkoffice.com, nav-cmp, doubao.com, kagi.com.
+- Engaged-read winners by section: stack=8, wire=7.
 
 ## NEXT-CLICK SURFACES (what actually earns the second pageview)
 - f-cols: 9 clicks from 5 sessions
@@ -23,10 +23,11 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2646 views · read 4.8% · complete 1.4% · 1.02 pages/session · median 7s
+- direct: 2642 views · read 4.7% · complete 1.4% · 1.02 pages/session · median 7s
 - organic: 178 views · read 21.3% · complete 0.6% · 1.01 pages/session · median ?s
 - referral: 13 views · read 61.5% · complete 15.4% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 8 views · read 25.0% · complete 25.0% · 1.14 pages/session · median ?s
+- ai: 3 views · read 33.3% · complete 0.0% · 0.6 pages/session · median 29s
 INSIGHT: referral converts 13x better per view than direct, which is 93% of all views.
 One visitor from referral is worth many from direct. Commission for the channels that read.
 NOTE: every channel sits near 1.0 pages/session — nobody clicks a second piece, anywhere.
@@ -37,15 +38,14 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 7 reads, 8 views, 0 listens
 - [stack] "The Best LLM for 16GB of VRAM (November 2026): What Actually Fits Once You Count the Context" — 6 reads, 23 views, 0 listens
 - [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 6 reads, 12 views, 0 listens
-- [stack] "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned" — 5 reads, 49 views, 0 listens
+- [stack] "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned" — 5 reads, 48 views, 0 listens
 - [wire] "The Responses API Just Went Multi-Vendor: DeepSeek Speaks It Too — So What Do You Build Your Agent Against?" — 5 reads, 11 views, 0 listens
-- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 4 reads, 21 views, 1 listens
 - [wire] "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck" — 4 reads, 6 views, 0 listens
 - [stack] "Open-Source LLM Rankings (November 2026): How to Read the Leaderboards — and Why They Disagree" — 3 reads, 18 views, 0 listens
 - [wire] "Where 2026's Vertical-AI Money Actually Went: Legal Took the Cash, Healthcare Took the Deals" — 3 reads, 9 views, 0 listens
+- [stack] "Gemini 4 Hydrogen vs Claude Haiku 5.5 vs Sonnet 5.5: The Cheap, Fast Model for Agent Loops (November 2026)" — 3 reads, 7 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
-- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 1 listens, 4 reads
 - [wire] "Fast-Apply Models: How Cursor, Morph, and Relace Write Edits at 4,000+ Tokens/Second" — 1 listens, 2 reads
 - [stack] "Run Claude Code on Alibaba's Qwen Coding Plan: the ~$50/mo Agent Backend" — 1 listens, 0 reads
 
@@ -64,12 +64,12 @@ ACTION: a hub out-earning articles per view is a signal to build MORE tools and
 fewer posts; the reverse means the tools need entry points, not more surface.
 
 ## Top by raw views (eyes that arrived)
-- [stack] "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned" — 49 views, 5 reads
+- [stack] "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned" — 48 views, 5 reads
 - [stack] "LLM API Pricing, November 2026: What You Actually Pay Per Token After the GPT-6.2 and Gemini 4 Cuts" — 26 views, 1 reads
 - [stack] "The Best LLM for 16GB of VRAM (November 2026): What Actually Fits Once You Count the Context" — 23 views, 6 reads
 - [wire] "The Founder's Wire, November 21: Washington Puts a License on the Chips Inside Overseas Data Centers, Meta's Agent Moves Into a $300 Pocket Charm, and the Money Keeps Funding the Layer Above the Model" — 23 views, 1 reads
 - [wire] "The Founder's Wire, November 17: California Sues OpenAI Over Agents That Lost Control, a Backdoored Claude Code Extension Reaches Cursor Users, and a Startup Raises $50M to Vet Every Agent Action" — 22 views, 1 reads
-- [stack] "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One" — 21 views, 4 reads
+- [stack] "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own" — 19 views, 10 reads
 
 ## Arrived but left (fix these openings first)
 These pulled real traffic and then lost it. The click already worked, so the
@@ -101,7 +101,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/open-source-llm-leaderboard-september-2026-run-locally.html  — 11 retrieval fetches
 
 Per engine:
-- PerplexityBot (1520 verified): /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×12 · /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html ×12 · /posts/how-to-connect-claude-to-blender-mcp-server.html ×12
+- PerplexityBot (1521 verified): /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×12 · /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html ×12 · /posts/how-to-connect-claude-to-blender-mcp-server.html ×12
 - OAI-SearchBot (540 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×33 · /posts/open-source-llm-for-coding-september-2026.html ×12 · /posts/local-llm-for-coding-on-your-own-machine.html ×11
 - ChatGPT-User (355 verified): / ×226 · /wire.html ×12 · /about.html ×8
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -140,14 +140,14 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 2832 confirmed AI-engine fetches (Perplexity 1520, ChatGPT Search (OpenAI) 540, GPTBot (OpenAI) 417, ChatGPT (user browsing) 355).
+The real answer engines are crawling us — IP-verified: 2835 confirmed AI-engine fetches (Perplexity 1521, ChatGPT Search (OpenAI) 540, GPTBot (OpenAI) 419, ChatGPT (user browsing) 355).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/best-llm-for-16gb-vram-november-2026.html  — 108 crawler fetches
 - /build  — 89 crawler fetches
-- /posts/how-to-connect-claude-to-blender-mcp-server.html  — 67 crawler fetches
+- /posts/how-to-connect-claude-to-blender-mcp-server.html  — 68 crawler fetches
 - /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html  — 60 crawler fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 35 crawler fetches
-- /posts/best-open-source-vector-database-2026.html  — 30 crawler fetches
+- /posts/best-open-source-vector-database-2026.html  — 32 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 24 crawler fetches
 - /posts/local-llm-for-coding-on-your-own-machine.html  — 19 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 18 crawler fetches
