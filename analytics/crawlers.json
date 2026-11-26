@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-26T06:51:18.673Z",
+ "generated": "2026-11-26T07:01:38.548Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 2855,
  "logsScanned": 12,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-26",
- "totalHits": 35777,
- "aiHits": 27347,
+ "totalHits": 35811,
+ "aiHits": 27372,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 10894,
+   "hits": 10908,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 5652,
+   "hits": 5659,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2683,
-   "verifiedHits": 2683,
+   "hits": 2684,
+   "verifiedHits": 2684,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2046,
+   "hits": 2053,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1383,
+   "hits": 1384,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -608,7 +608,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 7,
+   "hits": 11,
    "verifiedHits": 0,
    "firstSeen": "2026-11-25",
    "lastSeen": "2026-11-26",
@@ -626,7 +626,11 @@
      "hits": 1
     },
     {
-     "path": "/stack/deepinfra",
+     "path": "/posts/2026-08-06-founders-wire-openai-price-cut-deepseek-mit-happyrobot-opus-retire.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/2026-10-01-founders-wire-openai-1-4t-instinct-10b-salesforce-aiforce.html",
      "hits": 1
     }
    ],
