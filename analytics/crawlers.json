@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-26T01:40:08.533Z",
+ "generated": "2026-11-26T01:50:38.431Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 2735,
+ "verifiedAiHits": 2736,
  "logsScanned": 12,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-26",
- "totalHits": 34334,
- "aiHits": 26230,
+ "totalHits": 34393,
+ "aiHits": 26262,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 10320,
+   "hits": 10341,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 5421,
+   "hits": 5429,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 2597,
-   "verifiedHits": 2597,
+   "hits": 2601,
+   "verifiedHits": 2601,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 1928,
+   "hits": 1949,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -187,6 +187,10 @@
     {
      "path": "/build",
      "hits": 9
+    },
+    {
+     "path": "/comparisons",
+     "hits": 5
     },
     {
      "path": "/authors/priya",
@@ -199,10 +203,6 @@
     {
      "path": "/wire.html",
      "hits": 5
-    },
-    {
-     "path": "/comparisons",
-     "hits": 4
     }
    ],
    "verifiable": false
@@ -212,7 +212,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1580,
+   "hits": 1581,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -245,8 +245,8 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1445,
-   "verifiedHits": 1445,
+   "hits": 1446,
+   "verifiedHits": 1446,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
    "topPaths": [
@@ -267,7 +267,7 @@
      "hits": 11
     },
     {
-     "path": "/",
+     "path": "/posts/best-llm-for-16gb-vram-november-2026.html",
      "hits": 10
     }
    ],
@@ -344,7 +344,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 449,
+   "hits": 451,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
@@ -410,7 +410,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 406,
+   "hits": 407,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-26",
