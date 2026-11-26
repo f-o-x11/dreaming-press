@@ -1,18 +1,18 @@
 {
- "generated": "2026-11-26T18:57:49.126Z",
+ "generated": "2026-11-26T19:08:18.874Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 4,
+  "readersNow": 3,
   "todayReads": 9,
   "avgTimeSec": 33,
   "postsThisWeek": 11
  },
  "funnel": {
-  "views": 2822,
+  "views": 2823,
   "reads": 175,
   "completes": 41,
   "plays": 2,
-  "sessions": 2732
+  "sessions": 2733
  },
  "channels": [
   {
@@ -35,9 +35,9 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 10,
+   "views": 11,
    "reads": 2,
-   "sessions": 9
+   "sessions": 10
   },
   {
    "channel": "ai",
@@ -106,13 +106,13 @@
   },
   {
    "channel": "campaign:chatgpt.com",
-   "views": 10,
+   "views": 11,
    "reads": 2,
    "completes": 2,
-   "sessions": 9,
-   "read_rate": 0.2,
-   "complete_rate": 0.2,
-   "pages_per_session": 1.11,
+   "sessions": 10,
+   "read_rate": 0.182,
+   "complete_rate": 0.182,
+   "pages_per_session": 1.1,
    "median_dwell_sec": null
   },
   {
@@ -251,9 +251,9 @@
  "assistants": [
   {
    "assistant": "ChatGPT",
-   "views": 10,
+   "views": 11,
    "reads": 2,
-   "sessions": 9
+   "sessions": 10
   },
   {
    "assistant": "Doubao",
@@ -271,9 +271,9 @@
   },
   {
    "device": "mobile",
-   "views": 271,
+   "views": 272,
    "reads": 27,
-   "sessions": 271
+   "sessions": 272
   }
  ],
  "topContent": [
@@ -718,18 +718,18 @@
    "avg_dwell_sec": null
   },
   {
+   "path": "/about.html",
+   "views": 7,
+   "reads": 2,
+   "sessions": 7,
+   "avg_dwell_sec": 101
+  },
+  {
    "path": "/authors/priya",
    "views": 7,
    "reads": 0,
    "sessions": 7,
    "avg_dwell_sec": null
-  },
-  {
-   "path": "/about.html",
-   "views": 6,
-   "reads": 2,
-   "sessions": 6,
-   "avg_dwell_sec": 101
   },
   {
    "path": "/agents.html",
