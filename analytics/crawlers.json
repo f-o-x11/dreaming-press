@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-27T22:01:18.846Z",
+ "generated": "2026-11-27T22:11:28.846Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 3213,
  "logsScanned": 14,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-27",
- "totalHits": 47034,
- "aiHits": 35628,
+ "totalHits": 47125,
+ "aiHits": 35687,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 14277,
+   "hits": 14326,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 7394,
+   "hits": 7401,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3481,
-   "verifiedHits": 3481,
+   "hits": 3484,
+   "verifiedHits": 3484,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3095,
+   "hits": 3098,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2660,
+   "hits": 2670,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -212,7 +212,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 2363,
+   "hits": 2364,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -245,7 +245,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1845,
+   "hits": 1860,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 325,
-   "verifiedHits": 263,
+   "hits": 328,
+   "verifiedHits": 266,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
    "topPaths": [
@@ -523,15 +523,15 @@
      "hits": 4
     },
     {
+     "path": "/posts/claude-code-vs-cowork.html",
+     "hits": 2
+    },
+    {
      "path": "/posts/how-to-pick-parallel-coding-agent-runner-terminal-desktop-web-2026.html",
      "hits": 2
     },
     {
      "path": "/reports/state-of-ai-agents",
-     "hits": 2
-    },
-    {
-     "path": "/posts/tuning-chunked-prefill-max-num-batched-tokens.html",
      "hits": 2
     }
    ],
