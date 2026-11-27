@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T19:25:04.921Z",
+ "generated": "2026-11-27T19:35:29.436Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,18 +8,18 @@
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 2774,
+  "views": 2771,
   "reads": 174,
   "completes": 42,
   "plays": 2,
-  "sessions": 2686
+  "sessions": 2683
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2563,
+   "views": 2560,
    "reads": 124,
-   "sessions": 2515
+   "sessions": 2512
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2563,
+   "views": 2560,
    "reads": 124,
    "completes": 37,
-   "sessions": 2515,
+   "sessions": 2512,
    "read_rate": 0.048,
    "complete_rate": 0.014,
    "pages_per_session": 1.02,
@@ -265,15 +265,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2510,
+   "views": 2508,
    "reads": 148,
-   "sessions": 2422
+   "sessions": 2420
   },
   {
    "device": "mobile",
-   "views": 264,
+   "views": 263,
    "reads": 26,
-   "sessions": 264
+   "sessions": 263
   }
  ],
  "topContent": [
@@ -592,16 +592,6 @@
    "plays": 0
   },
   {
-   "slug": "best-llm-for-creative-writing-october-2026",
-   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
-   "section": "stack",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 19,
-   "reads": 1,
-   "plays": 0
-  },
-  {
    "slug": "2026-11-22-founders-wire-ant-volatile-debut-gemini-tool-retrieval-isomorphic-5b",
    "title": "The Founder's Wire, November 22: Anthropic's Stock Swings on Day One, Google Ships a Token-Saver for Tool-Heavy Agents, and $5B Goes to AI That Designs Drugs",
    "section": "wire",
@@ -622,6 +612,16 @@
    "plays": 0
   },
   {
+   "slug": "best-llm-for-creative-writing-october-2026",
+   "title": "The Best LLM for Creative Writing (October 2026): Why the Leaderboards Disagree — and How to Actually Pick One",
+   "section": "stack",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 18,
+   "reads": 1,
+   "plays": 0
+  },
+  {
    "slug": "2026-11-15-founders-wire-new-york-raise-act-final-adobe-mcp-anthropic-ipo-week",
    "title": "The Founder's Wire, November 15: New York's AI Law Gets a Compliance Clock, Adobe Puts an MCP Server on Photoshop, and Anthropic Prices the First Frontier IPO",
    "section": "wire",
@@ -635,9 +635,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 503,
+   "views": 502,
    "reads": 1,
-   "sessions": 503,
+   "sessions": 502,
    "avg_dwell_sec": 13
   },
   {
