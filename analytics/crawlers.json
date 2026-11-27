@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-27T08:59:38.924Z",
+ "generated": "2026-11-27T09:09:48.700Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 3104,
+ "verifiedAiHits": 3110,
  "logsScanned": 14,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-27",
- "totalHits": 43331,
- "aiHits": 32872,
+ "totalHits": 43375,
+ "aiHits": 32915,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13180,
+   "hits": 13197,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 6802,
+   "hits": 6811,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5324,
+   "hits": 5327,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3184,
-   "verifiedHits": 3184,
+   "hits": 3185,
+   "verifiedHits": 3185,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2858,
+   "hits": 2864,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -476,8 +476,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 419,
-   "verifiedHits": 409,
+   "hits": 425,
+   "verifiedHits": 415,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
    "topPaths": [
@@ -487,19 +487,19 @@
     },
     {
      "path": "/wire.html",
-     "hits": 12
+     "hits": 13
     },
     {
      "path": "/about.html",
-     "hits": 8
+     "hits": 9
+    },
+    {
+     "path": "/dashboard",
+     "hits": 7
     },
     {
      "path": "/agents.html",
      "hits": 7
-    },
-    {
-     "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
-     "hits": 6
     }
    ],
    "verifiable": true
@@ -575,7 +575,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 39,
+   "hits": 41,
    "verifiedHits": 0,
    "firstSeen": "2026-11-25",
    "lastSeen": "2026-11-27",
