@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-26T23:59Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-27T00:09Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2813 views → 173 engaged reads → 41 completes · 2722 sessions.
-- Channels: direct 125r/2599v · organic 35r/182v · referral 9r/13v · campaign:chatgpt.com 2r/11v · ai 1r/3v · social 1r/2v · campaign:openai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 2815 views → 173 engaged reads → 41 completes · 2724 sessions.
+- Channels: direct 125r/2601v · organic 35r/182v · referral 9r/13v · campaign:chatgpt.com 2r/11v · ai 1r/3v · social 1r/2v · campaign:openai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 2r/11v · Doubao 1r/3v.
 - Referrers: google.com, bing.com, duckduckgo.com, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, bytedance.larkoffice.com, doubao.com, kagi.com, cn.bing.com.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2599 views · read 4.8% · complete 1.4% · 1.02 pages/session · median 7s
+- direct: 2601 views · read 4.8% · complete 1.4% · 1.02 pages/session · median 7s
 - organic: 182 views · read 19.2% · complete 0.5% · 1.01 pages/session · median ?s
 - referral: 13 views · read 69.2% · complete 15.4% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 11 views · read 18.2% · complete 18.2% · 1.1 pages/session · median ?s
@@ -54,7 +54,7 @@ The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 511 views, 0 reads, 511 sessions, avg 4s
 - /compare/:pair — 297 views, 0 reads, 297 sessions, avg 33s
-- / — 97 views, 2 reads, 97 sessions, avg 15s
+- / — 96 views, 2 reads, 96 sessions, avg 15s
 - /best/:cat — 52 views, 0 reads, 52 sessions
 - /alternatives/:tool — 48 views, 0 reads, 48 sessions, avg 3s
 - /build — 34 views, 0 reads, 34 sessions
@@ -143,7 +143,7 @@ search intent, so put the answer in the first screen and use the phrasing in the
 The real answer engines are crawling us — IP-verified: 3041 confirmed AI-engine fetches (Perplexity 1619, ChatGPT Search (OpenAI) 602, GPTBot (OpenAI) 427, ChatGPT (user browsing) 393).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /posts/best-llm-for-16gb-vram-november-2026.html  — 117 crawler fetches
-- /build  — 95 crawler fetches
+- /build  — 96 crawler fetches
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 84 crawler fetches
 - /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html  — 65 crawler fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 42 crawler fetches

@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-26T23:59:18.606Z",
+ "generated": "2026-11-27T00:09:18.838Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 3041,
- "logsScanned": 12,
+ "logsScanned": 14,
  "windowStart": "2026-11-21",
- "windowEnd": "2026-11-26",
- "totalHits": 39517,
- "aiHits": 30156,
+ "windowEnd": "2026-11-27",
+ "totalHits": 39546,
+ "aiHits": 30171,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,10 +14,10 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 12252,
+   "hits": 12256,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-26",
+   "lastSeen": "2026-11-27",
    "topPaths": [
     {
      "path": "/build",
@@ -47,10 +47,10 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 6409,
+   "hits": 6417,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-26",
+   "lastSeen": "2026-11-27",
    "topPaths": [
     {
      "path": "/wire.html",
@@ -70,7 +70,7 @@
     },
     {
      "path": "/build",
-     "hits": 7
+     "hits": 8
     }
    ],
    "verifiable": false
@@ -113,10 +113,10 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3015,
-   "verifiedHits": 3015,
+   "hits": 3017,
+   "verifiedHits": 3017,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-26",
+   "lastSeen": "2026-11-27",
    "topPaths": [
     {
      "path": "/posts/gartner-ai-agent-spending-2026.html",
@@ -179,10 +179,10 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2320,
+   "hits": 2322,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-26",
+   "lastSeen": "2026-11-27",
    "topPaths": [
     {
      "path": "/build",
@@ -278,10 +278,10 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1433,
+   "hits": 1440,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-26",
+   "lastSeen": "2026-11-27",
    "topPaths": [
     {
      "path": "/",
@@ -311,10 +311,10 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 623,
+   "hits": 626,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-26",
+   "lastSeen": "2026-11-27",
    "topPaths": [
     {
      "path": "/posts/2026-11-15-founders-wire-new-york-raise-act-final-adobe-mcp-anthropic-ipo-week.md",
@@ -608,11 +608,19 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 26,
+   "hits": 29,
    "verifiedHits": 0,
    "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-26",
+   "lastSeen": "2026-11-27",
    "topPaths": [
+    {
+     "path": "/posts/china-national-ai-agent-interconnection-standards",
+     "hits": 1
+    },
+    {
+     "path": "/posts/china-national-ai-agent-interconnection-standards.html",
+     "hits": 1
+    },
     {
      "path": "/posts/claude-memory-tool-storage-backend-local-disk-vs-s3-vs-database.html",
      "hits": 1
@@ -623,14 +631,6 @@
     },
     {
      "path": "/posts/x401-protocol-agent-authorization.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/2026-08-06-founders-wire-openai-price-cut-deepseek-mit-happyrobot-opus-retire.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/2026-10-01-founders-wire-openai-1-4t-instinct-10b-salesforce-aiforce.html",
      "hits": 1
     }
    ],
