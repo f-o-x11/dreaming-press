@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-27T07:05:04.394Z",
+ "generated": "2026-11-27T07:15:18.830Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 3076,
+ "verifiedAiHits": 3087,
  "logsScanned": 14,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-27",
- "totalHits": 42183,
- "aiHits": 31879,
+ "totalHits": 42242,
+ "aiHits": 31933,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 12924,
+   "hits": 12957,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -25,7 +25,7 @@
     },
     {
      "path": "/",
-     "hits": 18
+     "hits": 20
     },
     {
      "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 6717,
+   "hits": 6725,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2382,
+   "hits": 2383,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1486,
+   "hits": 1490,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -377,7 +377,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 531,
+   "hits": 533,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -410,11 +410,15 @@
    "label": "GPTBot (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/gptbot",
-   "hits": 429,
-   "verifiedHits": 428,
+   "hits": 440,
+   "verifiedHits": 439,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
    "topPaths": [
+    {
+     "path": "/",
+     "hits": 3
+    },
     {
      "path": "/posts/gpu-rental-price-september-2026-b200-floor-under-4.md",
      "hits": 2
@@ -429,10 +433,6 @@
     },
     {
      "path": "/posts/2026-06-23-kv-cache-quantization-fp8-vs-int8-vs-int4.html",
-     "hits": 2
-    },
-    {
-     "path": "/tags/dispatches",
      "hits": 2
     }
    ],

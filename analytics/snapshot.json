@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-27T07:05:04.713Z",
+ "generated": "2026-11-27T07:15:19.104Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 23,
   "todayReads": 1,
   "avgTimeSec": 19,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 2788,
+  "views": 2809,
   "reads": 172,
   "completes": 41,
   "plays": 2,
-  "sessions": 2698
+  "sessions": 2719
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2577,
+   "views": 2598,
    "reads": 123,
-   "sessions": 2527
+   "sessions": 2548
   },
   {
    "channel": "organic",
@@ -73,11 +73,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2577,
+   "views": 2598,
    "reads": 123,
    "completes": 36,
-   "sessions": 2527,
-   "read_rate": 0.048,
+   "sessions": 2548,
+   "read_rate": 0.047,
    "complete_rate": 0.014,
    "pages_per_session": 1.02,
    "median_dwell_sec": 7
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2517,
+   "views": 2538,
    "reads": 146,
-   "sessions": 2427
+   "sessions": 2448
   },
   {
    "device": "mobile",
@@ -293,7 +293,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 24,
+   "views": 25,
    "reads": 7,
    "plays": 0
   },
@@ -465,7 +465,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 24,
+   "views": 25,
    "reads": 7,
    "plays": 0
   },
@@ -557,7 +557,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 24,
+   "views": 25,
    "reads": 7,
    "plays": 0
   },
@@ -670,9 +670,9 @@
   },
   {
    "path": "/build",
-   "views": 35,
+   "views": 36,
    "reads": 0,
-   "sessions": 35,
+   "sessions": 36,
    "avg_dwell_sec": null
   },
   {
@@ -712,17 +712,24 @@
   },
   {
    "path": "/topics/:topic",
-   "views": 10,
+   "views": 12,
    "reads": 1,
-   "sessions": 10,
+   "sessions": 12,
    "avg_dwell_sec": null
   },
   {
    "path": "/about.html",
-   "views": 7,
+   "views": 8,
    "reads": 2,
-   "sessions": 7,
+   "sessions": 8,
    "avg_dwell_sec": 101
+  },
+  {
+   "path": "/agents.html",
+   "views": 7,
+   "reads": 0,
+   "sessions": 7,
+   "avg_dwell_sec": 7
   },
   {
    "path": "/authors/priya",
@@ -730,13 +737,6 @@
    "reads": 0,
    "sessions": 7,
    "avg_dwell_sec": null
-  },
-  {
-   "path": "/agents.html",
-   "views": 6,
-   "reads": 0,
-   "sessions": 6,
-   "avg_dwell_sec": 7
   }
  ],
  "referrers": [
