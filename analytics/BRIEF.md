@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-27T09:30Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-27T09:40Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -89,7 +89,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 278 retrieval fetches
+- /  — 279 retrieval fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 41 retrieval fetches
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 14 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 14 retrieval fetches
@@ -103,7 +103,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (1621 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×14 · /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×13 · /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html ×12
 - OAI-SearchBot (635 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×41 · /posts/open-source-llm-for-coding-september-2026.html ×14 · /posts/2026-07-22-founders-wire-mcp-lock-week-a2a-clouds-skills.html ×14
-- ChatGPT-User (415 verified): / ×266 · /wire.html ×13 · /about.html ×9
+- ChatGPT-User (417 verified): / ×267 · /wire.html ×13 · /about.html ×9
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -140,7 +140,7 @@ format above (comparison / how-to / news) and answer it literally — the phrase
 search intent, so put the answer in the first screen and use the phrasing in the H1.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 3111 confirmed AI-engine fetches (Perplexity 1621, ChatGPT Search (OpenAI) 635, GPTBot (OpenAI) 440, ChatGPT (user browsing) 415).
+The real answer engines are crawling us — IP-verified: 3113 confirmed AI-engine fetches (Perplexity 1621, ChatGPT Search (OpenAI) 635, GPTBot (OpenAI) 440, ChatGPT (user browsing) 417).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 124 crawler fetches
 - /posts/best-llm-for-16gb-vram-november-2026.html  — 120 crawler fetches
