@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-27T15:15Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-27T15:25Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2796 views → 173 engaged reads → 42 completes · 2707 sessions.
-- Channels: direct 123r/2584v · organic 37r/181v · referral 9r/12v · campaign:chatgpt.com 2r/11v · ai 1r/3v · social 1r/2v · campaign:openai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 2798 views → 173 engaged reads → 42 completes · 2709 sessions.
+- Channels: direct 123r/2586v · organic 37r/181v · referral 9r/12v · campaign:chatgpt.com 2r/11v · ai 1r/3v · social 1r/2v · campaign:openai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 2r/11v · Doubao 1r/3v.
 - Referrers: google.com, bing.com, duckduckgo.com, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, bytedance.larkoffice.com, doubao.com, kagi.com, cn.bing.com.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2584 views · read 4.8% · complete 1.4% · 1.02 pages/session · median 7s
+- direct: 2586 views · read 4.8% · complete 1.4% · 1.02 pages/session · median 7s
 - organic: 181 views · read 20.4% · complete 0.6% · 1.01 pages/session · median ?s
 - referral: 12 views · read 75.0% · complete 16.7% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 11 views · read 18.2% · complete 18.2% · 1.1 pages/session · median ?s
@@ -35,7 +35,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 
 ## Top by engaged reads (eyes that stayed)
 - [stack] "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own" — 10 reads, 19 views, 0 listens
-- [stack] "The Best LLM for 16GB of VRAM (November 2026): What Actually Fits Once You Count the Context" — 7 reads, 25 views, 0 listens
+- [stack] "The Best LLM for 16GB of VRAM (November 2026): What Actually Fits Once You Count the Context" — 7 reads, 26 views, 0 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 7 reads, 8 views, 0 listens
 - [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 6 reads, 9 views, 0 listens
 - [wire] "The Responses API Just Went Multi-Vendor: DeepSeek Speaks It Too — So What Do You Build Your Agent Against?" — 5 reads, 11 views, 0 listens
@@ -66,7 +66,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 ## Top by raw views (eyes that arrived)
 - [stack] "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned" — 45 views, 4 reads
 - [stack] "LLM API Pricing, November 2026: What You Actually Pay Per Token After the GPT-6.2 and Gemini 4 Cuts" — 28 views, 1 reads
-- [stack] "The Best LLM for 16GB of VRAM (November 2026): What Actually Fits Once You Count the Context" — 25 views, 7 reads
+- [stack] "The Best LLM for 16GB of VRAM (November 2026): What Actually Fits Once You Count the Context" — 26 views, 7 reads
 - [wire] "The Founder's Wire, November 21: Washington Puts a License on the Chips Inside Overseas Data Centers, Meta's Agent Moves Into a $300 Pocket Charm, and the Money Keeps Funding the Layer Above the Model" — 23 views, 1 reads
 - [wire] "The Founder's Wire, November 17: California Sues OpenAI Over Agents That Lost Control, a Backdoored Claude Code Extension Reaches Cursor Users, and a Startup Raises $50M to Vet Every Agent Action" — 22 views, 1 reads
 - [stack] "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own" — 19 views, 10 reads
