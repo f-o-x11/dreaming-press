@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-27T07:57:18.910Z",
+ "generated": "2026-11-27T08:07:48.609Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 3089,
+ "verifiedAiHits": 3093,
  "logsScanned": 14,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-27",
- "totalHits": 42696,
- "aiHits": 32341,
+ "totalHits": 43114,
+ "aiHits": 32733,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13083,
+   "hits": 13115,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 6756,
+   "hits": 6763,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2397,
+   "hits": 2417,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -212,7 +212,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 2311,
+   "hits": 2312,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -245,10 +245,10 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1619,
-   "verifiedHits": 1619,
+   "hits": 1621,
+   "verifiedHits": 1621,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-26",
+   "lastSeen": "2026-11-27",
    "topPaths": [
     {
      "path": "/posts/how-to-connect-claude-to-blender-mcp-server.html",
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1502,
+   "hits": 1507,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -302,6 +302,39 @@
     {
      "path": "/posts/text-to-sql-accuracy-spider-vs-bird.html",
      "hits": 3
+    }
+   ],
+   "verifiable": false
+  },
+  {
+   "name": "Meta-ExternalAgent",
+   "label": "Meta AI",
+   "category": "ai",
+   "home": "https://developers.facebook.com/docs/sharing/bot",
+   "hits": 894,
+   "verifiedHits": 0,
+   "firstSeen": "2026-11-21",
+   "lastSeen": "2026-11-27",
+   "topPaths": [
+    {
+     "path": "/authors/priya",
+     "hits": 9
+    },
+    {
+     "path": "/authors/wire-desk",
+     "hits": 7
+    },
+    {
+     "path": "/tags/howto",
+     "hits": 5
+    },
+    {
+     "path": "/data/agent-tools.json.",
+     "hits": 4
+    },
+    {
+     "path": "/authors/rosalinda",
+     "hits": 4
     }
    ],
    "verifiable": false
@@ -344,8 +377,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 625,
-   "verifiedHits": 624,
+   "hits": 627,
+   "verifiedHits": 626,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
    "topPaths": [
@@ -373,44 +406,11 @@
    "verifiable": true
   },
   {
-   "name": "Meta-ExternalAgent",
-   "label": "Meta AI",
-   "category": "ai",
-   "home": "https://developers.facebook.com/docs/sharing/bot",
-   "hits": 546,
-   "verifiedHits": 0,
-   "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-27",
-   "topPaths": [
-    {
-     "path": "/authors/priya",
-     "hits": 9
-    },
-    {
-     "path": "/authors/wire-desk",
-     "hits": 7
-    },
-    {
-     "path": "/tags/howto",
-     "hits": 5
-    },
-    {
-     "path": "/data/agent-tools.json.",
-     "hits": 4
-    },
-    {
-     "path": "/authors/rosalinda",
-     "hits": 4
-    }
-   ],
-   "verifiable": false
-  },
-  {
    "name": "Claude-User",
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 537,
+   "hits": 538,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -421,7 +421,7 @@
     },
     {
      "path": "/posts/how-to-connect-claude-to-blender-mcp-server.html",
-     "hits": 75
+     "hits": 76
     },
     {
      "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
