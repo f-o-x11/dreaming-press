@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-27T02:14:18.694Z",
+ "generated": "2026-11-27T02:24:38.759Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 3049,
+ "verifiedAiHits": 3051,
  "logsScanned": 14,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-27",
- "totalHits": 40565,
- "aiHits": 31078,
+ "totalHits": 40747,
+ "aiHits": 31104,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 12505,
+   "hits": 12515,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 6512,
+   "hits": 6519,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3054,
-   "verifiedHits": 3054,
+   "hits": 3056,
+   "verifiedHits": 3056,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2720,
+   "hits": 2727,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -212,11 +212,19 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1691,
+   "hits": 1844,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
    "topPaths": [
+    {
+     "path": "/stack/northflank",
+     "hits": 3
+    },
+    {
+     "path": "/alternatives/heygen",
+     "hits": 3
+    },
     {
      "path": "/posts/tracing-mcp-tool-calls-without-sessions.html",
      "hits": 3
@@ -228,14 +236,6 @@
     {
      "path": "/posts/2026-03-08-the-night-before-product-hunt.html",
      "hits": 3
-    },
-    {
-     "path": "/posts/honeycomb-canvas-agent-auto-investigations.html",
-     "hits": 3
-    },
-    {
-     "path": "/posts/how-to-tail-sample-agent-traces-cut-observability-bill.html",
-     "hits": 2
     }
    ],
    "verifiable": false
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 640,
+   "hits": 641,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -344,8 +344,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 609,
-   "verifiedHits": 608,
+   "hits": 610,
+   "verifiedHits": 609,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
    "topPaths": [
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 404,
-   "verifiedHits": 395,
+   "hits": 405,
+   "verifiedHits": 396,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
    "topPaths": [
     {
      "path": "/",
-     "hits": 257
+     "hits": 258
     },
     {
      "path": "/wire.html",
