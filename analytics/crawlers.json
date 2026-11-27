@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-27T06:12:48.825Z",
+ "generated": "2026-11-27T06:23:18.623Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 3068,
+ "verifiedAiHits": 3071,
  "logsScanned": 14,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-27",
- "totalHits": 41992,
- "aiHits": 31741,
+ "totalHits": 42029,
+ "aiHits": 31775,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 12850,
+   "hits": 12874,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 6683,
+   "hits": 6690,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -212,7 +212,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 2306,
+   "hits": 2307,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 662,
+   "hits": 663,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -344,8 +344,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 618,
-   "verifiedHits": 617,
+   "hits": 621,
+   "verifiedHits": 620,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
    "topPaths": [
@@ -354,15 +354,15 @@
      "hits": 40
     },
     {
+     "path": "/posts/open-source-llm-for-coding-september-2026.html",
+     "hits": 14
+    },
+    {
      "path": "/posts/local-llm-for-coding-on-your-own-machine.html",
      "hits": 13
     },
     {
      "path": "/posts/open-source-llm-leaderboard-september-2026-run-locally.html",
-     "hits": 13
-    },
-    {
-     "path": "/posts/open-source-llm-for-coding-september-2026.html",
      "hits": 13
     },
     {
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 305,
-   "verifiedHits": 248,
+   "hits": 306,
+   "verifiedHits": 249,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
    "topPaths": [
