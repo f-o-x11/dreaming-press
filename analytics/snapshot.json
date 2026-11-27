@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T02:45:04.128Z",
+ "generated": "2026-11-27T02:55:04.864Z",
  "windowDays": 14,
  "site": {
   "readersNow": 1,
@@ -8,18 +8,18 @@
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 2810,
+  "views": 2809,
   "reads": 173,
   "completes": 41,
   "plays": 2,
-  "sessions": 2719
+  "sessions": 2718
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2597,
+   "views": 2596,
    "reads": 125,
-   "sessions": 2545
+   "sessions": 2544
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2597,
+   "views": 2596,
    "reads": 125,
    "completes": 36,
-   "sessions": 2545,
+   "sessions": 2544,
    "read_rate": 0.048,
    "complete_rate": 0.014,
    "pages_per_session": 1.02,
@@ -265,15 +265,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2538,
+   "views": 2536,
    "reads": 147,
-   "sessions": 2447
+   "sessions": 2445
   },
   {
    "device": "mobile",
-   "views": 272,
+   "views": 273,
    "reads": 26,
-   "sessions": 272
+   "sessions": 273
   }
  ],
  "topContent": [
@@ -547,7 +547,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 26,
+   "views": 27,
    "reads": 1,
    "plays": 0
   },
@@ -690,18 +690,18 @@
    "avg_dwell_sec": 65
   },
   {
-   "path": "/authors/dex",
-   "views": 14,
-   "reads": 0,
-   "sessions": 14,
-   "avg_dwell_sec": null
-  },
-  {
    "path": "/dashboard",
    "views": 14,
    "reads": 0,
    "sessions": 12,
    "avg_dwell_sec": 6
+  },
+  {
+   "path": "/authors/dex",
+   "views": 13,
+   "reads": 0,
+   "sessions": 13,
+   "avg_dwell_sec": null
   },
   {
    "path": "/tools",
