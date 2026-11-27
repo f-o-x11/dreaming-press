@@ -1,15 +1,15 @@
 {
- "generated": "2026-11-27T06:54:48.932Z",
+ "generated": "2026-11-27T07:05:04.713Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 0,
-  "avgTimeSec": 7,
+  "readersNow": 2,
+  "todayReads": 1,
+  "avgTimeSec": 19,
   "postsThisWeek": 9
  },
  "funnel": {
   "views": 2788,
-  "reads": 171,
+  "reads": 172,
   "completes": 41,
   "plays": 2,
   "sessions": 2698
@@ -19,12 +19,12 @@
    "channel": "direct",
    "views": 2577,
    "reads": 123,
-   "sessions": 2526
+   "sessions": 2527
   },
   {
    "channel": "organic",
    "views": 180,
-   "reads": 35,
+   "reads": 36,
    "sessions": 179
   },
   {
@@ -76,7 +76,7 @@
    "views": 2577,
    "reads": 123,
    "completes": 36,
-   "sessions": 2526,
+   "sessions": 2527,
    "read_rate": 0.048,
    "complete_rate": 0.014,
    "pages_per_session": 1.02,
@@ -85,10 +85,10 @@
   {
    "channel": "organic",
    "views": 180,
-   "reads": 35,
+   "reads": 36,
    "completes": 1,
    "sessions": 179,
-   "read_rate": 0.194,
+   "read_rate": 0.2,
    "complete_rate": 0.006,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -266,7 +266,7 @@
   {
    "device": "desktop",
    "views": 2517,
-   "reads": 145,
+   "reads": 146,
    "sessions": 2427
   },
   {
@@ -636,9 +636,9 @@
   {
    "path": "/stack/:tool",
    "views": 511,
-   "reads": 0,
+   "reads": 1,
    "sessions": 511,
-   "avg_dwell_sec": 4
+   "avg_dwell_sec": 13
   },
   {
    "path": "/compare/:pair",
@@ -757,7 +757,7 @@
   },
   {
    "ref": "https://search.brave.com/",
-   "hits": 13,
+   "hits": 14,
    "sessions": 8
   },
   {
