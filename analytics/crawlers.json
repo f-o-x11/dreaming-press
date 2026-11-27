@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-27T17:10:04.483Z",
+ "generated": "2026-11-27T17:20:28.770Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 3165,
+ "verifiedAiHits": 3167,
  "logsScanned": 14,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-27",
- "totalHits": 45898,
- "aiHits": 34947,
+ "totalHits": 45919,
+ "aiHits": 34968,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13969,
+   "hits": 13975,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 7181,
+   "hits": 7189,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -146,14 +146,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3005,
+   "hits": 3009,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
    "topPaths": [
     {
      "path": "/authors/dex",
-     "hits": 13
+     "hits": 14
     },
     {
      "path": "/build",
@@ -377,8 +377,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 658,
-   "verifiedHits": 657,
+   "hits": 659,
+   "verifiedHits": 658,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
    "topPaths": [
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 563,
+   "hits": 564,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -437,6 +437,39 @@
     }
    ],
    "verifiable": false
+  },
+  {
+   "name": "ChatGPT-User",
+   "label": "ChatGPT (user browsing)",
+   "category": "ai",
+   "home": "https://openai.com/bot",
+   "hits": 442,
+   "verifiedHits": 432,
+   "firstSeen": "2026-11-21",
+   "lastSeen": "2026-11-27",
+   "topPaths": [
+    {
+     "path": "/",
+     "hits": 279
+    },
+    {
+     "path": "/wire.html",
+     "hits": 13
+    },
+    {
+     "path": "/about.html",
+     "hits": 9
+    },
+    {
+     "path": "/dashboard",
+     "hits": 7
+    },
+    {
+     "path": "/agents.html",
+     "hits": 7
+    }
+   ],
+   "verifiable": true
   },
   {
    "name": "GPTBot",
@@ -467,39 +500,6 @@
     {
      "path": "/posts/2026-06-23-kv-cache-quantization-fp8-vs-int8-vs-int4.html",
      "hits": 2
-    }
-   ],
-   "verifiable": true
-  },
-  {
-   "name": "ChatGPT-User",
-   "label": "ChatGPT (user browsing)",
-   "category": "ai",
-   "home": "https://openai.com/bot",
-   "hits": 441,
-   "verifiedHits": 431,
-   "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-27",
-   "topPaths": [
-    {
-     "path": "/",
-     "hits": 278
-    },
-    {
-     "path": "/wire.html",
-     "hits": 13
-    },
-    {
-     "path": "/about.html",
-     "hits": 9
-    },
-    {
-     "path": "/dashboard",
-     "hits": 7
-    },
-    {
-     "path": "/agents.html",
-     "hits": 7
     }
    ],
    "verifiable": true
