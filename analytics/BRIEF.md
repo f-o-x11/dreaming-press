@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-27T05:51Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-27T06:02Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2797 views → 171 engaged reads → 41 completes · 2707 sessions.
-- Channels: direct 123r/2585v · organic 35r/181v · referral 9r/12v · campaign:chatgpt.com 2r/11v · ai 1r/3v · social 1r/2v · campaign:openai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
+- Funnel: 2792 views → 171 engaged reads → 41 completes · 2702 sessions.
+- Channels: direct 123r/2580v · organic 35r/181v · referral 9r/12v · campaign:chatgpt.com 2r/11v · ai 1r/3v · social 1r/2v · campaign:openai 0r/2v · campaign:producthunt 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 2r/11v · Doubao 1r/3v.
 - Referrers: google.com, bing.com, duckduckgo.com, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, bytedance.larkoffice.com, doubao.com, kagi.com, cn.bing.com.
 - Engaged-read winners by section: stack=8, wire=7.
@@ -23,7 +23,7 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2585 views · read 4.8% · complete 1.4% · 1.02 pages/session · median 7s
+- direct: 2580 views · read 4.8% · complete 1.4% · 1.02 pages/session · median 7s
 - organic: 181 views · read 19.3% · complete 0.6% · 1.01 pages/session · median ?s
 - referral: 12 views · read 75.0% · complete 16.7% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 11 views · read 18.2% · complete 18.2% · 1.1 pages/session · median ?s
@@ -42,8 +42,8 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 - [stack] "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned" — 4 reads, 45 views, 0 listens
 - [wire] "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck" — 4 reads, 6 views, 0 listens
 - [stack] "Open-Source LLM Rankings (November 2026): How to Read the Leaderboards — and Why They Disagree" — 3 reads, 18 views, 0 listens
-- [wire] "Where 2026's Vertical-AI Money Actually Went: Legal Took the Cash, Healthcare Took the Deals" — 3 reads, 8 views, 0 listens
 - [stack] "Gemini 4 Hydrogen vs Claude Haiku 5.5 vs Sonnet 5.5: The Cheap, Fast Model for Agent Loops (November 2026)" — 3 reads, 7 views, 0 listens
+- [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 3 reads, 7 views, 0 listens
 
 ## Top by listens (audio is now on every piece — Item 1)
 - [wire] "Fast-Apply Models: How Cursor, Morph, and Relace Write Edits at 4,000+ Tokens/Second" — 1 listens, 2 reads
