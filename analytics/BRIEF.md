@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-27T14:43Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-27T14:54Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -52,7 +52,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 507 views, 1 reads, 507 sessions, avg 13s
+- /stack/:tool — 508 views, 1 reads, 508 sessions, avg 13s
 - /compare/:pair — 295 views, 0 reads, 295 sessions, avg 33s
 - / — 99 views, 2 reads, 100 sessions, avg 14s
 - /best/:cat — 50 views, 0 reads, 50 sessions
