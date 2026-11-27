@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-27T22:32:19.046Z",
+ "generated": "2026-11-27T22:42:49.040Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
+  "readersNow": 1,
   "todayReads": 7,
   "avgTimeSec": 37,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 2749,
-  "reads": 173,
+  "views": 2738,
+  "reads": 160,
   "completes": 42,
   "plays": 2,
-  "sessions": 2663
+  "sessions": 2650
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2539,
-   "reads": 123,
-   "sessions": 2492
+   "views": 2528,
+   "reads": 110,
+   "sessions": 2479
   },
   {
    "channel": "organic",
@@ -73,11 +73,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2539,
-   "reads": 123,
+   "views": 2528,
+   "reads": 110,
    "completes": 37,
-   "sessions": 2492,
-   "read_rate": 0.048,
+   "sessions": 2479,
+   "read_rate": 0.044,
    "complete_rate": 0.015,
    "pages_per_session": 1.02,
    "median_dwell_sec": 7
@@ -271,9 +271,9 @@
   },
   {
    "device": "mobile",
-   "views": 257,
-   "reads": 25,
-   "sessions": 259
+   "views": 246,
+   "reads": 12,
+   "sessions": 246
   }
  ],
  "topContent": [
@@ -398,32 +398,32 @@
    "plays": 0
   },
   {
-   "slug": "2026-06-27-too-many-tools-tool-search-vs-code-execution",
-   "title": "Too Many Tools: Tool Search vs Code Execution for Agents at Scale",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 4,
-   "reads": 3,
-   "plays": 0
-  },
-  {
-   "slug": "microsoft-agent-framework-codeact-hyperlight",
-   "title": "Microsoft Agent Framework's CodeAct: When the Sandbox Stops Being the Hard Part",
-   "section": "wire",
-   "tags": "[\"reportive\",\"opinionated\"]",
-   "author": "dex",
-   "views": 3,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "2026-11-16-founders-wire-gemini-hydrogen-chatgpt-wallet-anthropic-ipo-week",
    "title": "The Founder's Wire, November 16: Google Ships a Fast Agentic-Coding Model, OpenAI Hands Agents a Wallet, and the First AI IPO Prices This Week",
    "section": "wire",
    "tags": "[\"reportive\",\"opinionated\"]",
    "author": "wire-desk",
    "views": 16,
+   "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "agent-database-land-grab-databricks-neon-snowflake-crunchy-lakebase",
+   "title": "Both Data Giants Bought a Postgres for the Agents — and Databricks' $188B Round Just Proved the Bet",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "priya",
+   "views": 9,
+   "reads": 2,
+   "plays": 0
+  },
+  {
+   "slug": "crewai-flows-vs-crews",
+   "title": "CrewAI Flows vs Crews: When to Let Agents Decide and When to Script Them",
+   "section": "wire",
+   "tags": "[\"reportive\",\"opinionated\"]",
+   "author": "dex",
+   "views": 5,
    "reads": 2,
    "plays": 0
   }
