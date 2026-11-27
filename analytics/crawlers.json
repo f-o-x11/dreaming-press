@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-27T05:00:04.377Z",
+ "generated": "2026-11-27T05:10:28.644Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 3061,
  "logsScanned": 14,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-27",
- "totalHits": 41734,
- "aiHits": 31531,
+ "totalHits": 41783,
+ "aiHits": 31578,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 12763,
+   "hits": 12767,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 6632,
+   "hits": 6639,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -65,12 +65,12 @@
      "hits": 19
     },
     {
-     "path": "/stack.html",
-     "hits": 12
+     "path": "/build",
+     "hits": 15
     },
     {
-     "path": "/build",
-     "hits": 9
+     "path": "/stack.html",
+     "hits": 12
     }
    ],
    "verifiable": false
@@ -80,7 +80,7 @@
    "label": "ClaudeBot (Anthropic)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 5295,
+   "hits": 5324,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3108,
-   "verifiedHits": 3108,
+   "hits": 3109,
+   "verifiedHits": 3109,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2775,
+   "hits": 2782,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -509,8 +509,8 @@
    "label": "Googlebot",
    "category": "search",
    "home": "https://developers.google.com/search",
-   "hits": 299,
-   "verifiedHits": 242,
+   "hits": 300,
+   "verifiedHits": 243,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
    "topPaths": [
