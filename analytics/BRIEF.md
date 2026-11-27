@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-27T09:20Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-27T09:30Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -54,7 +54,7 @@ The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 513 views, 1 reads, 513 sessions, avg 13s
 - /compare/:pair — 297 views, 0 reads, 297 sessions, avg 33s
-- / — 97 views, 2 reads, 98 sessions, avg 15s
+- / — 98 views, 2 reads, 99 sessions, avg 15s
 - /best/:cat — 50 views, 0 reads, 50 sessions
 - /alternatives/:tool — 48 views, 0 reads, 48 sessions, avg 3s
 - /build — 36 views, 0 reads, 36 sessions
