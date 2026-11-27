@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-27T05:20:48.758Z",
+ "generated": "2026-11-27T05:31:18.713Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 3064,
+ "verifiedAiHits": 3066,
  "logsScanned": 14,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-27",
- "totalHits": 41830,
- "aiHits": 31617,
+ "totalHits": 41845,
+ "aiHits": 31631,
  "aiEngines": 13,
  "bots": [
   {
@@ -47,11 +47,15 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 6646,
+   "hits": 6654,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
    "topPaths": [
+    {
+     "path": "/build",
+     "hits": 30
+    },
     {
      "path": "/wire.html",
      "hits": 29
@@ -59,10 +63,6 @@
     {
      "path": "/tags/reportive",
      "hits": 25
-    },
-    {
-     "path": "/build",
-     "hits": 22
     },
     {
      "path": "/tags/opinionated",
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2790,
+   "hits": 2794,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 657,
+   "hits": 658,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -344,8 +344,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 615,
-   "verifiedHits": 614,
+   "hits": 617,
+   "verifiedHits": 616,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
    "topPaths": [
@@ -366,8 +366,8 @@
      "hits": 13
     },
     {
-     "path": "/posts/serverless-gpu-2026-azure-databricks-modal-runpod-baseten.html",
-     "hits": 12
+     "path": "/wire.html",
+     "hits": 13
     }
    ],
    "verifiable": true
