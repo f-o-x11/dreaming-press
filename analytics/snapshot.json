@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-27T07:15:19.104Z",
+ "generated": "2026-11-27T07:25:49.135Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 23,
+  "readersNow": 45,
   "todayReads": 1,
   "avgTimeSec": 19,
   "postsThisWeek": 9
  },
  "funnel": {
-  "views": 2809,
+  "views": 2833,
   "reads": 172,
   "completes": 41,
   "plays": 2,
-  "sessions": 2719
+  "sessions": 2743
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2598,
+   "views": 2622,
    "reads": 123,
-   "sessions": 2548
+   "sessions": 2572
   },
   {
    "channel": "organic",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2598,
+   "views": 2622,
    "reads": 123,
    "completes": 36,
-   "sessions": 2548,
+   "sessions": 2572,
    "read_rate": 0.047,
    "complete_rate": 0.014,
    "pages_per_session": 1.02,
@@ -265,15 +265,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2538,
+   "views": 2561,
    "reads": 146,
-   "sessions": 2448
+   "sessions": 2471
   },
   {
    "device": "mobile",
-   "views": 271,
+   "views": 272,
    "reads": 26,
-   "sessions": 271
+   "sessions": 272
   }
  ],
  "topContent": [
@@ -547,7 +547,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "priya",
-   "views": 27,
+   "views": 28,
    "reads": 1,
    "plays": 0
   },
@@ -656,9 +656,9 @@
   },
   {
    "path": "/best/:cat",
-   "views": 50,
+   "views": 51,
    "reads": 0,
-   "sessions": 50,
+   "sessions": 51,
    "avg_dwell_sec": null
   },
   {
@@ -690,6 +690,13 @@
    "avg_dwell_sec": 65
   },
   {
+   "path": "/topics/:topic",
+   "views": 16,
+   "reads": 1,
+   "sessions": 16,
+   "avg_dwell_sec": null
+  },
+  {
    "path": "/authors/dex",
    "views": 14,
    "reads": 0,
@@ -709,13 +716,6 @@
    "reads": 0,
    "sessions": 12,
    "avg_dwell_sec": 8
-  },
-  {
-   "path": "/topics/:topic",
-   "views": 12,
-   "reads": 1,
-   "sessions": 12,
-   "avg_dwell_sec": null
   },
   {
    "path": "/about.html",
