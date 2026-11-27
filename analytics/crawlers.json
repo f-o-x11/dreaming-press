@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-27T04:07:48.590Z",
+ "generated": "2026-11-27T04:18:18.577Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 3058,
+ "verifiedAiHits": 3059,
  "logsScanned": 14,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-27",
- "totalHits": 41555,
- "aiHits": 31394,
+ "totalHits": 41608,
+ "aiHits": 31435,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 12691,
+   "hits": 12711,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 6595,
+   "hits": 6603,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3089,
-   "verifiedHits": 3089,
+   "hits": 3092,
+   "verifiedHits": 3092,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 2750,
+   "hits": 2762,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1462,
+   "hits": 1470,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 646,
+   "hits": 647,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 408,
-   "verifiedHits": 399,
+   "hits": 409,
+   "verifiedHits": 400,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
    "topPaths": [
@@ -465,8 +465,8 @@
      "hits": 7
     },
     {
-     "path": "/newsroom",
-     "hits": 5
+     "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
+     "hits": 6
     }
    ],
    "verifiable": true
