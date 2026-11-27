@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-27T00:09:18.838Z",
+ "generated": "2026-11-27T00:19:48.633Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 3041,
+ "verifiedAiHits": 3044,
  "logsScanned": 14,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-27",
- "totalHits": 39546,
- "aiHits": 30171,
+ "totalHits": 39596,
+ "aiHits": 30216,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 12256,
+   "hits": 12291,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 6417,
+   "hits": 6424,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -212,10 +212,10 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1681,
+   "hits": 1683,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-26",
+   "lastSeen": "2026-11-27",
    "topPaths": [
     {
      "path": "/posts/tracing-mcp-tool-calls-without-sessions.html",
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1440,
+   "hits": 1442,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 626,
+   "hits": 627,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -344,10 +344,10 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 603,
-   "verifiedHits": 602,
+   "hits": 604,
+   "verifiedHits": 603,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-26",
+   "lastSeen": "2026-11-27",
    "topPaths": [
     {
      "path": "/posts/open-source-coding-llm-ranked-november-2026.html",
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 402,
-   "verifiedHits": 393,
+   "hits": 404,
+   "verifiedHits": 395,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-26",
+   "lastSeen": "2026-11-27",
    "topPaths": [
     {
      "path": "/",
-     "hits": 255
+     "hits": 257
     },
     {
      "path": "/wire.html",
