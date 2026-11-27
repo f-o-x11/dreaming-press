@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-27T07:25:48.887Z",
+ "generated": "2026-11-27T07:36:18.759Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 3087,
+ "verifiedAiHits": 3089,
  "logsScanned": 14,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-27",
- "totalHits": 42311,
- "aiHits": 31992,
+ "totalHits": 42368,
+ "aiHits": 32032,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 13001,
+   "hits": 13030,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 6732,
+   "hits": 6741,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3150,
-   "verifiedHits": 3150,
+   "hits": 3151,
+   "verifiedHits": 3151,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2389,
+   "hits": 2396,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -212,7 +212,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 2309,
+   "hits": 2311,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -278,7 +278,7 @@
    "label": "Sogou",
    "category": "search",
    "home": "https://www.sogou.com",
-   "hits": 1493,
+   "hits": 1499,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 668,
+   "hits": 669,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -329,11 +329,11 @@
      "hits": 3
     },
     {
-     "path": "/posts/2026-08-21-founders-wire-callosum-alexa-free-rundoo.html",
+     "path": "/posts/2026-06-27-advisory-to-exploit-window-self-hosted-ai-infrastructure.md",
      "hits": 2
     },
     {
-     "path": "/build",
+     "path": "/posts/2026-08-21-founders-wire-callosum-alexa-free-rundoo.html",
      "hits": 2
     }
    ],
@@ -443,14 +443,14 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 414,
-   "verifiedHits": 405,
+   "hits": 416,
+   "verifiedHits": 407,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
    "topPaths": [
     {
      "path": "/",
-     "hits": 264
+     "hits": 265
     },
     {
      "path": "/wire.html",
