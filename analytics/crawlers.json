@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-27T00:30:04.797Z",
+ "generated": "2026-11-27T00:40:28.868Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 3044,
+ "verifiedAiHits": 3046,
  "logsScanned": 14,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-27",
- "totalHits": 39654,
- "aiHits": 30267,
+ "totalHits": 39705,
+ "aiHits": 30308,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 12327,
+   "hits": 12354,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 6432,
+   "hits": 6441,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3018,
-   "verifiedHits": 3018,
+   "hits": 3021,
+   "verifiedHits": 3021,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
    "topPaths": [
@@ -127,16 +127,16 @@
      "hits": 18
     },
     {
+     "path": "/tags/reportive",
+     "hits": 15
+    },
+    {
      "path": "/search",
      "hits": 15
     },
     {
      "path": "/posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html",
      "hits": 15
-    },
-    {
-     "path": "/tags/reportive",
-     "hits": 14
     }
    ],
    "verifiable": true
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2324,
+   "hits": 2327,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -212,7 +212,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1683,
+   "hits": 1686,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -311,7 +311,7 @@
    "label": "Applebot (Siri / Spotlight)",
    "category": "search",
    "home": "https://support.apple.com/en-us/119829",
-   "hits": 627,
+   "hits": 628,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -344,8 +344,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 604,
-   "verifiedHits": 603,
+   "hits": 606,
+   "verifiedHits": 605,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
    "topPaths": [
@@ -377,10 +377,10 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 517,
+   "hits": 518,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
-   "lastSeen": "2026-11-26",
+   "lastSeen": "2026-11-27",
    "topPaths": [
     {
      "path": "/posts/best-llm-for-16gb-vram-november-2026.html",
@@ -571,6 +571,39 @@
    "verifiable": false
   },
   {
+   "name": "YouBot",
+   "label": "You.com",
+   "category": "ai",
+   "home": "https://about.you.com",
+   "hits": 31,
+   "verifiedHits": 0,
+   "firstSeen": "2026-11-25",
+   "lastSeen": "2026-11-27",
+   "topPaths": [
+    {
+     "path": "/posts/china-national-ai-agent-interconnection-standards",
+     "hits": 1
+    },
+    {
+     "path": "/posts/china-national-ai-agent-interconnection-standards.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/best-open-vision-language-model-for-agents",
+     "hits": 1
+    },
+    {
+     "path": "/posts/best-open-vision-language-model-for-agents.html",
+     "hits": 1
+    },
+    {
+     "path": "/posts/claude-memory-tool-storage-backend-local-disk-vs-s3-vs-database.html",
+     "hits": 1
+    }
+   ],
+   "verifiable": false
+  },
+  {
    "name": "DuckAssistBot",
    "label": "DuckDuckGo AI",
    "category": "ai",
@@ -599,39 +632,6 @@
     {
      "path": "/posts/open-source-llm-ranking-november-2026.html",
      "hits": 2
-    }
-   ],
-   "verifiable": false
-  },
-  {
-   "name": "YouBot",
-   "label": "You.com",
-   "category": "ai",
-   "home": "https://about.you.com",
-   "hits": 29,
-   "verifiedHits": 0,
-   "firstSeen": "2026-11-25",
-   "lastSeen": "2026-11-27",
-   "topPaths": [
-    {
-     "path": "/posts/china-national-ai-agent-interconnection-standards",
-     "hits": 1
-    },
-    {
-     "path": "/posts/china-national-ai-agent-interconnection-standards.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/claude-memory-tool-storage-backend-local-disk-vs-s3-vs-database.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/x401-protocol-agent-authorization",
-     "hits": 1
-    },
-    {
-     "path": "/posts/x401-protocol-agent-authorization.html",
-     "hits": 1
     }
    ],
    "verifiable": false
