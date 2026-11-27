@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-27T02:24:38.759Z",
+ "generated": "2026-11-27T02:34:48.795Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 3051,
+ "verifiedAiHits": 3052,
  "logsScanned": 14,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-27",
- "totalHits": 40747,
- "aiHits": 31104,
+ "totalHits": 41129,
+ "aiHits": 31130,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 12515,
+   "hits": 12533,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 6519,
+   "hits": 6525,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3056,
-   "verifiedHits": 3056,
+   "hits": 3062,
+   "verifiedHits": 3062,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
    "topPaths": [
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2356,
+   "hits": 2357,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -212,7 +212,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 1844,
+   "hits": 2193,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
@@ -226,15 +226,15 @@
      "hits": 3
     },
     {
-     "path": "/posts/tracing-mcp-tool-calls-without-sessions.html",
+     "path": "/alternatives/airtop",
      "hits": 3
     },
     {
-     "path": "/posts/how-to-fix-transactional-email-deliverability-spf-dkim-dmarc.html",
+     "path": "/alternatives/dagster-plus",
      "hits": 3
     },
     {
-     "path": "/posts/2026-03-08-the-night-before-product-hunt.html",
+     "path": "/posts/zero-trust-for-ai-agents.html",
      "hits": 3
     }
    ],
@@ -377,14 +377,14 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 526,
+   "hits": 527,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
    "topPaths": [
     {
      "path": "/posts/best-llm-for-16gb-vram-november-2026.html",
-     "hits": 111
+     "hits": 112
     },
     {
      "path": "/posts/how-to-connect-claude-to-blender-mcp-server.html",
@@ -443,8 +443,8 @@
    "label": "ChatGPT (user browsing)",
    "category": "ai",
    "home": "https://openai.com/bot",
-   "hits": 405,
-   "verifiedHits": 396,
+   "hits": 406,
+   "verifiedHits": 397,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-27",
    "topPaths": [
