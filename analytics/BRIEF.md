@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-27T11:35Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-27T11:46Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -54,7 +54,7 @@ The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 513 views, 1 reads, 513 sessions, avg 13s
 - /compare/:pair — 297 views, 0 reads, 297 sessions, avg 33s
-- / — 98 views, 2 reads, 99 sessions, avg 15s
+- / — 99 views, 2 reads, 100 sessions, avg 14s
 - /best/:cat — 50 views, 0 reads, 50 sessions
 - /alternatives/:tool — 48 views, 0 reads, 48 sessions, avg 3s
 - /build — 36 views, 0 reads, 36 sessions
@@ -89,7 +89,7 @@ These are IP-verified fetches by RETRIEVAL bots — the ones that fetch a page b
 human just asked a question. Not index crawlers, which enumerate everything and mean
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
-- /  — 281 retrieval fetches
+- /  — 282 retrieval fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 41 retrieval fetches
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 14 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 14 retrieval fetches
@@ -103,7 +103,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (1625 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×14 · /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×13 · /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html ×12
 - OAI-SearchBot (643 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×41 · /posts/open-source-llm-for-coding-september-2026.html ×14 · /posts/2026-07-22-founders-wire-mcp-lock-week-a2a-clouds-skills.html ×14
-- ChatGPT-User (419 verified): / ×269 · /wire.html ×13 · /about.html ×9
+- ChatGPT-User (420 verified): / ×270 · /wire.html ×13 · /about.html ×9
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -117,30 +117,10 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-## Uncovered search demand (245 of 461 phrases have NO post, 96h ago)
-Real Google + Bing autocomplete, minus everything the corpus already answers. Phrases
-confirmed by BOTH engines are listed first — two independent indexes agreeing is the
-closest thing to a volume signal we get without a paid keyword tool.
-- "ai agent security summit"  [google+bing+ddg]
-- "cheapest gpu for gaming"  [google+bing+ddg]
-- "claude code vscode"  [google+bing+ddg]
-- "context engineering skill claude"  [google+bing+ddg]
-- "local llm reddit"  [google+bing+ddg]
-- "vibe coding meaning"  [google+bing+ddg]
-- "vibe coding meme"  [google+bing+ddg]
-- "vibe coding reddit"  [google+bing+ddg]
-- "agent memory skill"  [bing+ddg]
-- "ai agent framework latest news"  [bing+ddg]
-- "ai agent framework release update"  [bing+ddg]
-- "ai agent framework trending 2026"  [bing+ddg]
-- "ai agent security beyondtrust"  [bing+ddg]
-- "ai agent security immune system"  [bing+ddg]
-ACTION: these are titles waiting to be written. Pick one that also matches a winning
-format above (comparison / how-to / news) and answer it literally — the phrase IS the
-search intent, so put the answer in the first screen and use the phrasing in the H1.
+- Search-demand signal STALE (96h old, 245 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 3127 confirmed AI-engine fetches (Perplexity 1625, ChatGPT Search (OpenAI) 643, GPTBot (OpenAI) 440, ChatGPT (user browsing) 419).
+The real answer engines are crawling us — IP-verified: 3128 confirmed AI-engine fetches (Perplexity 1625, ChatGPT Search (OpenAI) 643, GPTBot (OpenAI) 440, ChatGPT (user browsing) 420).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 131 crawler fetches
 - /posts/best-llm-for-16gb-vram-november-2026.html  — 122 crawler fetches
