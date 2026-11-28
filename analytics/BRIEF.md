@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-28T04:55Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-28T05:06Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -52,7 +52,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 493 views, 1 reads, 493 sessions, avg 13s
+- /stack/:tool — 494 views, 1 reads, 494 sessions, avg 13s
 - /compare/:pair — 289 views, 0 reads, 289 sessions, avg 33s
 - / — 106 views, 2 reads, 108 sessions, avg 14s
 - /best/:cat — 47 views, 0 reads, 47 sessions
@@ -130,8 +130,8 @@ These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perple
 - /posts/best-open-source-vector-database-2026.html  — 33 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 28 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 24 crawler fetches
+- /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 21 crawler fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 21 crawler fetches
-- /posts/vertical-ai-agents-legal-health-finance-where-2026-funding-is-going.html  — 20 crawler fetches
 - /posts/ai-agent-frameworks-github-ranked-by-stars-2026.html  — 17 crawler fetches
 - /posts/local-llm-for-coding-on-your-own-machine.html  — 15 crawler fetches
 Rule: before writing, check this list. A heavily-crawled topic is proven answer-engine demand — write the next piece in that cluster and cross-link it.
