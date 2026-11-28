@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-28T09:46:49.002Z",
+ "generated": "2026-11-28T09:57:19.015Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
- "verifiedAiHits": 3300,
+ "verifiedAiHits": 3307,
  "logsScanned": 16,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-28",
- "totalHits": 49552,
- "aiHits": 37379,
+ "totalHits": 49586,
+ "aiHits": 37400,
  "aiEngines": 13,
  "bots": [
   {
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 7906,
+   "hits": 7913,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3713,
-   "verifiedHits": 3713,
+   "hits": 3722,
+   "verifiedHits": 3722,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
    "topPaths": [
@@ -146,7 +146,7 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3295,
+   "hits": 3299,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
@@ -179,7 +179,7 @@
    "label": "Baidu",
    "category": "search",
    "home": "https://www.baidu.com",
-   "hits": 2916,
+   "hits": 2919,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
@@ -187,6 +187,10 @@
     {
      "path": "/build",
      "hits": 12
+    },
+    {
+     "path": "/comparisons",
+     "hits": 8
     },
     {
      "path": "/wire.html",
@@ -199,10 +203,6 @@
     {
      "path": "/newsroom",
      "hits": 7
-    },
-    {
-     "path": "/comparisons",
-     "hits": 7
     }
    ],
    "verifiable": false
@@ -212,7 +212,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 2410,
+   "hits": 2411,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
@@ -278,14 +278,18 @@
    "label": "Perplexity",
    "category": "ai",
    "home": "https://www.perplexity.ai/bot",
-   "hits": 1665,
-   "verifiedHits": 1665,
+   "hits": 1669,
+   "verifiedHits": 1669,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
    "topPaths": [
     {
      "path": "/posts/how-to-connect-claude-to-blender-mcp-server.html",
      "hits": 15
+    },
+    {
+     "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
+     "hits": 14
     },
     {
      "path": "/",
@@ -297,10 +301,6 @@
     },
     {
      "path": "/posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html",
-     "hits": 13
-    },
-    {
-     "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
      "hits": 13
     }
    ],
@@ -377,8 +377,8 @@
    "label": "ChatGPT Search (OpenAI)",
    "category": "ai",
    "home": "https://openai.com/searchbot",
-   "hits": 725,
-   "verifiedHits": 724,
+   "hits": 728,
+   "verifiedHits": 727,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
    "topPaths": [
@@ -575,7 +575,7 @@
    "label": "You.com",
    "category": "ai",
    "home": "https://about.you.com",
-   "hits": 53,
+   "hits": 56,
    "verifiedHits": 0,
    "firstSeen": "2026-11-25",
    "lastSeen": "2026-11-28",
@@ -585,19 +585,19 @@
      "hits": 1
     },
     {
+     "path": "/posts/mcp-server-ssrf-cloud-metadata-credentials",
+     "hits": 1
+    },
+    {
+     "path": "/posts/mcp-server-ssrf-cloud-metadata-credentials.html",
+     "hits": 1
+    },
+    {
      "path": "/posts/china-national-ai-agent-interconnection-standards",
      "hits": 1
     },
     {
      "path": "/posts/china-national-ai-agent-interconnection-standards.html",
-     "hits": 1
-    },
-    {
-     "path": "/posts/best-open-vision-language-model-for-agents",
-     "hits": 1
-    },
-    {
-     "path": "/posts/best-open-vision-language-model-for-agents.html",
      "hits": 1
     }
    ],
