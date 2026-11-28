@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-28T14:27:49.235Z",
+ "generated": "2026-11-28T14:38:19.255Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 2,
-  "todayReads": 1,
+  "readersNow": 6,
+  "todayReads": 2,
   "avgTimeSec": 5,
   "postsThisWeek": 6
  },
  "funnel": {
-  "views": 2673,
-  "reads": 158,
+  "views": 2678,
+  "reads": 159,
   "completes": 40,
   "plays": 2,
-  "sessions": 2585
+  "sessions": 2590
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2466,
-   "reads": 109,
-   "sessions": 2417
+   "views": 2471,
+   "reads": 110,
+   "sessions": 2422
   },
   {
    "channel": "organic",
@@ -67,11 +67,11 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2466,
-   "reads": 109,
+   "views": 2471,
+   "reads": 110,
    "completes": 35,
-   "sessions": 2417,
-   "read_rate": 0.044,
+   "sessions": 2422,
+   "read_rate": 0.045,
    "complete_rate": 0.014,
    "pages_per_session": 1.02,
    "median_dwell_sec": 7
@@ -248,15 +248,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2440,
-   "reads": 146,
-   "sessions": 2352
+   "views": 2441,
+   "reads": 147,
+   "sessions": 2353
   },
   {
    "device": "mobile",
-   "views": 233,
+   "views": 237,
    "reads": 12,
-   "sessions": 233
+   "sessions": 237
   }
  ],
  "topContent": [
@@ -276,8 +276,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 27,
-   "reads": 8,
+   "views": 28,
+   "reads": 9,
    "plays": 0
   },
   {
@@ -448,8 +448,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 27,
-   "reads": 8,
+   "views": 28,
+   "reads": 9,
    "plays": 0
   },
   {
@@ -540,8 +540,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 27,
-   "reads": 8,
+   "views": 28,
+   "reads": 9,
    "plays": 0
   },
   {
@@ -625,9 +625,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 281,
+   "views": 280,
    "reads": 0,
-   "sessions": 281,
+   "sessions": 280,
    "avg_dwell_sec": 33
   },
   {
