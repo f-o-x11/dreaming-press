@@ -1,9 +1,9 @@
-# Analytics brief — auto-exported 2026-11-28T10:18Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-28T10:28Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2689 views → 157 engaged reads → 41 completes · 2603 sessions.
+- Funnel: 2689 views → 157 engaged reads → 40 completes · 2603 sessions.
 - Channels: direct 108r/2483v · organic 36r/178v · referral 9r/12v · campaign:chatgpt.com 2r/10v · ai 1r/3v · social 1r/2v · campaign:openai 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 2r/10v · Doubao 1r/3v.
 - Referrers: google.com, bing.com, duckduckgo.com, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, bytedance.larkoffice.com, doubao.com, kagi.com, cn.bing.com.
@@ -54,7 +54,7 @@ The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
 - /stack/:tool — 492 views, 1 reads, 492 sessions, avg 13s
 - /compare/:pair — 285 views, 0 reads, 285 sessions, avg 33s
-- / — 106 views, 2 reads, 109 sessions, avg 13s
+- / — 106 views, 2 reads, 110 sessions, avg 13s
 - /best/:cat — 47 views, 0 reads, 47 sessions
 - /alternatives/:tool — 41 views, 0 reads, 41 sessions, avg 3s
 - /build — 35 views, 0 reads, 35 sessions
@@ -101,7 +101,7 @@ sample size dwarfs the engaged-read counts below.
 - /posts/2026-11-21-founders-wire-chip-license-overseas-data-centers-meta-muse-charm-300-agent-memory-money.html  — 13 retrieval fetches
 
 Per engine:
-- PerplexityBot (1669 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×15 · /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×14 · / ×13
+- PerplexityBot (1677 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×15 · /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×14 · / ×13
 - OAI-SearchBot (728 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×47 · /posts/open-source-llm-for-coding-september-2026.html ×16 · /posts/2026-07-22-founders-wire-mcp-lock-week-a2a-clouds-skills.html ×16
 - ChatGPT-User (462 verified): / ×305 · /wire.html ×13 · /about.html ×9
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
@@ -120,12 +120,12 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Search-demand signal STALE (119h old, 245 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 3308 confirmed AI-engine fetches (Perplexity 1669, ChatGPT Search (OpenAI) 728, ChatGPT (user browsing) 462, GPTBot (OpenAI) 449).
+The real answer engines are crawling us — IP-verified: 3316 confirmed AI-engine fetches (Perplexity 1677, ChatGPT Search (OpenAI) 728, ChatGPT (user browsing) 462, GPTBot (OpenAI) 449).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
-- /build  — 145 crawler fetches
+- /build  — 146 crawler fetches
 - /posts/best-llm-for-16gb-vram-november-2026.html  — 134 crawler fetches
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 102 crawler fetches
-- /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html  — 71 crawler fetches
+- /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html  — 72 crawler fetches
 - /posts/open-source-coding-llm-ranked-november-2026.html  — 56 crawler fetches
 - /posts/best-open-source-vector-database-2026.html  — 33 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 29 crawler fetches
