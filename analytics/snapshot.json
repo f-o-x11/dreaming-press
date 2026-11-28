@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-28T06:08:49.264Z",
+ "generated": "2026-11-28T06:19:19.210Z",
  "windowDays": 14,
  "site": {
   "readersNow": 0,
@@ -8,18 +8,18 @@
   "postsThisWeek": 6
  },
  "funnel": {
-  "views": 2714,
+  "views": 2712,
   "reads": 159,
   "completes": 42,
   "plays": 2,
-  "sessions": 2626
+  "sessions": 2624
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2504,
+   "views": 2503,
    "reads": 110,
-   "sessions": 2454
+   "sessions": 2453
   },
   {
    "channel": "organic",
@@ -53,9 +53,9 @@
   },
   {
    "channel": "campaign:openai",
-   "views": 2,
+   "views": 1,
    "reads": 0,
-   "sessions": 2
+   "sessions": 1
   },
   {
    "channel": "campaign:producthunt",
@@ -73,10 +73,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2504,
+   "views": 2503,
    "reads": 110,
    "completes": 37,
-   "sessions": 2454,
+   "sessions": 2453,
    "read_rate": 0.044,
    "complete_rate": 0.015,
    "pages_per_session": 1.02,
@@ -127,17 +127,6 @@
    "median_dwell_sec": 29
   },
   {
-   "channel": "campaign:openai",
-   "views": 2,
-   "reads": 0,
-   "completes": 0,
-   "sessions": 2,
-   "read_rate": 0,
-   "complete_rate": 0,
-   "pages_per_session": 1,
-   "median_dwell_sec": null
-  },
-  {
    "channel": "social",
    "views": 2,
    "reads": 1,
@@ -150,6 +139,17 @@
   },
   {
    "channel": "campaign:producthunt",
+   "views": 1,
+   "reads": 0,
+   "completes": 0,
+   "sessions": 1,
+   "read_rate": 0,
+   "complete_rate": 0,
+   "pages_per_session": 1,
+   "median_dwell_sec": null
+  },
+  {
+   "channel": "campaign:openai",
    "views": 1,
    "reads": 0,
    "completes": 0,
@@ -265,9 +265,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2470,
+   "views": 2468,
    "reads": 147,
-   "sessions": 2382
+   "sessions": 2380
   },
   {
    "device": "mobile",
@@ -642,9 +642,9 @@
   },
   {
    "path": "/compare/:pair",
-   "views": 289,
+   "views": 288,
    "reads": 0,
-   "sessions": 289,
+   "sessions": 288,
    "avg_dwell_sec": 33
   },
   {
