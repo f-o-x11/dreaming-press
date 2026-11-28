@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-28T10:07:49.255Z",
+ "generated": "2026-11-28T10:18:19.291Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 0,
+  "readersNow": 2,
   "todayReads": 0,
   "avgTimeSec": 5,
   "postsThisWeek": 6
  },
  "funnel": {
-  "views": 2688,
-  "reads": 158,
+  "views": 2689,
+  "reads": 157,
   "completes": 41,
   "plays": 2,
-  "sessions": 2601
+  "sessions": 2603
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2482,
-   "reads": 109,
-   "sessions": 2433
+   "views": 2483,
+   "reads": 108,
+   "sessions": 2435
   },
   {
    "channel": "organic",
@@ -67,12 +67,12 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2482,
-   "reads": 109,
+   "views": 2483,
+   "reads": 108,
    "completes": 36,
-   "sessions": 2433,
-   "read_rate": 0.044,
-   "complete_rate": 0.015,
+   "sessions": 2435,
+   "read_rate": 0.043,
+   "complete_rate": 0.014,
    "pages_per_session": 1.02,
    "median_dwell_sec": 7
   },
@@ -249,14 +249,14 @@
   {
    "device": "desktop",
    "views": 2446,
-   "reads": 146,
-   "sessions": 2359
+   "reads": 145,
+   "sessions": 2360
   },
   {
    "device": "mobile",
-   "views": 242,
+   "views": 243,
    "reads": 12,
-   "sessions": 242
+   "sessions": 243
   }
  ],
  "topContent": [
@@ -311,16 +311,6 @@
    "plays": 0
   },
   {
-   "slug": "open-source-coding-llm-ranked-november-2026",
-   "title": "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 41,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "vllm-rust-frontend",
    "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
    "section": "wire",
@@ -328,6 +318,16 @@
    "author": "dex",
    "views": 6,
    "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "open-source-coding-llm-ranked-november-2026",
+   "title": "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 40,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -483,16 +483,6 @@
    "plays": 0
   },
   {
-   "slug": "open-source-coding-llm-ranked-november-2026",
-   "title": "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "dex",
-   "views": 41,
-   "reads": 4,
-   "plays": 0
-  },
-  {
    "slug": "vllm-rust-frontend",
    "title": "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck",
    "section": "wire",
@@ -500,6 +490,16 @@
    "author": "dex",
    "views": 6,
    "reads": 4,
+   "plays": 0
+  },
+  {
+   "slug": "open-source-coding-llm-ranked-november-2026",
+   "title": "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "dex",
+   "views": 40,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -520,8 +520,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 41,
-   "reads": 4,
+   "views": 40,
+   "reads": 3,
    "plays": 0
   },
   {
@@ -618,9 +618,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 491,
+   "views": 492,
    "reads": 1,
-   "sessions": 491,
+   "sessions": 492,
    "avg_dwell_sec": 13
   },
   {
