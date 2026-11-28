@@ -1,10 +1,10 @@
-# Analytics brief — auto-exported 2026-11-28T10:28Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-28T10:39Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
 
-- Funnel: 2689 views → 157 engaged reads → 40 completes · 2603 sessions.
-- Channels: direct 108r/2483v · organic 36r/178v · referral 9r/12v · campaign:chatgpt.com 2r/10v · ai 1r/3v · social 1r/2v · campaign:openai 0r/1v · internal-nav 0r/0v.
+- Funnel: 2692 views → 158 engaged reads → 40 completes · 2605 sessions.
+- Channels: direct 109r/2485v · organic 36r/179v · referral 9r/12v · campaign:chatgpt.com 2r/10v · ai 1r/3v · social 1r/2v · campaign:openai 0r/1v · internal-nav 0r/0v.
 - AI assistants (our real front door): ChatGPT 2r/10v · Doubao 1r/3v.
 - Referrers: google.com, bing.com, duckduckgo.com, search.brave.com, f-cols, teams.public.onecdn.static.microsoft, bytedance.larkoffice.com, doubao.com, kagi.com, cn.bing.com.
 - Engaged-read winners by section: stack=7, wire=8.
@@ -23,8 +23,8 @@ every page earning none is decoration — cut it or move it, do not duplicate it
 
 ## Channel QUALITY (not just volume)
 Volume and quality point in opposite directions here. Read the second column, not the first.
-- direct: 2483 views · read 4.3% · complete 1.4% · 1.02 pages/session · median 7s
-- organic: 178 views · read 20.2% · complete 0.6% · 1.01 pages/session · median ?s
+- direct: 2485 views · read 4.4% · complete 1.4% · 1.02 pages/session · median 7s
+- organic: 179 views · read 20.1% · complete 0.6% · 1.01 pages/session · median ?s
 - referral: 12 views · read 75.0% · complete 16.7% · 1 pages/session · median ?s
 - campaign:chatgpt.com: 10 views · read 20.0% · complete 20.0% · 1.11 pages/session · median ?s
 - ai: 3 views · read 33.3% · complete 0.0% · 0.6 pages/session · median 29s
@@ -35,13 +35,13 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 
 ## Top by engaged reads (eyes that stayed)
 - [stack] "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own" — 10 reads, 19 views, 0 listens
-- [stack] "The Best LLM for 16GB of VRAM (November 2026): What Actually Fits Once You Count the Context" — 7 reads, 26 views, 0 listens
+- [stack] "The Best LLM for 16GB of VRAM (November 2026): What Actually Fits Once You Count the Context" — 8 reads, 27 views, 0 listens
 - [stack] "What It Actually Costs to Rent an H100, H200, or B200 in October 2026" — 7 reads, 7 views, 0 listens
 - [stack] "The Cheapest GPU Rental Right Now (November 2026): What 'Cheapest' Actually Means for H100, H200, and B200" — 6 reads, 9 views, 0 listens
 - [wire] "The Responses API Just Went Multi-Vendor: DeepSeek Speaks It Too — So What Do You Build Your Agent Against?" — 5 reads, 11 views, 0 listens
 - [wire] "vLLM Rewrote Its Frontend in Rust — and the GPU Was Never the Bottleneck" — 4 reads, 6 views, 0 listens
 - [stack] "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned" — 3 reads, 40 views, 0 listens
-- [stack] "Open-Source LLM Rankings (November 2026): How to Read the Leaderboards — and Why They Disagree" — 3 reads, 18 views, 0 listens
+- [stack] "Open-Source LLM Rankings (November 2026): How to Read the Leaderboards — and Why They Disagree" — 3 reads, 19 views, 0 listens
 - [stack] "Gemini 4 Hydrogen vs Claude Haiku 5.5 vs Sonnet 5.5: The Cheap, Fast Model for Agent Loops (November 2026)" — 3 reads, 7 views, 0 listens
 - [wire] "MCP Tool Annotations, Explained: What readOnlyHint, destructiveHint, and idempotentHint Actually Guarantee" — 3 reads, 7 views, 0 listens
 
@@ -52,7 +52,7 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 492 views, 1 reads, 492 sessions, avg 13s
+- /stack/:tool — 493 views, 1 reads, 493 sessions, avg 13s
 - /compare/:pair — 285 views, 0 reads, 285 sessions, avg 33s
 - / — 106 views, 2 reads, 110 sessions, avg 13s
 - /best/:cat — 47 views, 0 reads, 47 sessions
@@ -66,7 +66,7 @@ fewer posts; the reverse means the tools need entry points, not more surface.
 ## Top by raw views (eyes that arrived)
 - [stack] "The Best Open-Source LLM for Coding (November 2026): What Changed Since September — and the Benchmark the Field Quietly Abandoned" — 40 views, 3 reads
 - [stack] "LLM API Pricing, November 2026: What You Actually Pay Per Token After the GPT-6.2 and Gemini 4 Cuts" — 29 views, 1 reads
-- [stack] "The Best LLM for 16GB of VRAM (November 2026): What Actually Fits Once You Count the Context" — 26 views, 7 reads
+- [stack] "The Best LLM for 16GB of VRAM (November 2026): What Actually Fits Once You Count the Context" — 27 views, 8 reads
 - [wire] "The Founder's Wire, November 21: Washington Puts a License on the Chips Inside Overseas Data Centers, Meta's Agent Moves Into a $300 Pocket Charm, and the Money Keeps Funding the Layer Above the Model" — 23 views, 1 reads
 - [wire] "The Founder's Wire, November 17: California Sues OpenAI Over Agents That Lost Control, a Backdoored Claude Code Extension Reaches Cursor Users, and a Startup Raises $50M to Vet Every Agent Action" — 22 views, 1 reads
 - [stack] "Responses API State: previous_response_id vs the Conversations API vs Rolling Your Own" — 19 views, 10 reads
@@ -103,7 +103,7 @@ sample size dwarfs the engaged-read counts below.
 Per engine:
 - PerplexityBot (1677 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×15 · /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html ×14 · / ×13
 - OAI-SearchBot (728 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×47 · /posts/open-source-llm-for-coding-september-2026.html ×16 · /posts/2026-07-22-founders-wire-mcp-lock-week-a2a-clouds-skills.html ×16
-- ChatGPT-User (462 verified): / ×305 · /wire.html ×13 · /about.html ×9
+- ChatGPT-User (463 verified): / ×305 · /wire.html ×13 · /about.html ×9
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -120,7 +120,7 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Search-demand signal STALE (119h old, 245 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 3316 confirmed AI-engine fetches (Perplexity 1677, ChatGPT Search (OpenAI) 728, ChatGPT (user browsing) 462, GPTBot (OpenAI) 449).
+The real answer engines are crawling us — IP-verified: 3317 confirmed AI-engine fetches (Perplexity 1677, ChatGPT Search (OpenAI) 728, ChatGPT (user browsing) 463, GPTBot (OpenAI) 449).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 146 crawler fetches
 - /posts/best-llm-for-16gb-vram-november-2026.html  — 134 crawler fetches

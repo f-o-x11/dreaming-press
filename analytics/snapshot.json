@@ -1,31 +1,31 @@
 {
- "generated": "2026-11-28T10:28:49.256Z",
+ "generated": "2026-11-28T10:39:19.321Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
-  "todayReads": 0,
+  "readersNow": 3,
+  "todayReads": 1,
   "avgTimeSec": 5,
   "postsThisWeek": 6
  },
  "funnel": {
-  "views": 2689,
-  "reads": 157,
+  "views": 2692,
+  "reads": 158,
   "completes": 40,
   "plays": 2,
-  "sessions": 2603
+  "sessions": 2605
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2483,
-   "reads": 108,
-   "sessions": 2435
+   "views": 2485,
+   "reads": 109,
+   "sessions": 2437
   },
   {
    "channel": "organic",
-   "views": 178,
+   "views": 179,
    "reads": 36,
-   "sessions": 177
+   "sessions": 178
   },
   {
    "channel": "referral",
@@ -67,22 +67,22 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2483,
-   "reads": 108,
+   "views": 2485,
+   "reads": 109,
    "completes": 35,
-   "sessions": 2435,
-   "read_rate": 0.043,
+   "sessions": 2437,
+   "read_rate": 0.044,
    "complete_rate": 0.014,
    "pages_per_session": 1.02,
    "median_dwell_sec": 7
   },
   {
    "channel": "organic",
-   "views": 178,
+   "views": 179,
    "reads": 36,
    "completes": 1,
-   "sessions": 177,
-   "read_rate": 0.202,
+   "sessions": 178,
+   "read_rate": 0.201,
    "complete_rate": 0.006,
    "pages_per_session": 1.01,
    "median_dwell_sec": null
@@ -248,9 +248,9 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2446,
-   "reads": 145,
-   "sessions": 2360
+   "views": 2449,
+   "reads": 146,
+   "sessions": 2362
   },
   {
    "device": "mobile",
@@ -276,8 +276,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 26,
-   "reads": 7,
+   "views": 27,
+   "reads": 8,
    "plays": 0
   },
   {
@@ -336,7 +336,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "indexer",
-   "views": 18,
+   "views": 19,
    "reads": 3,
    "plays": 0
   },
@@ -448,8 +448,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 26,
-   "reads": 7,
+   "views": 27,
+   "reads": 8,
    "plays": 0
   },
   {
@@ -508,7 +508,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "indexer",
-   "views": 18,
+   "views": 19,
    "reads": 3,
    "plays": 0
   }
@@ -540,8 +540,8 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "dex",
-   "views": 26,
-   "reads": 7,
+   "views": 27,
+   "reads": 8,
    "plays": 0
   },
   {
@@ -575,6 +575,16 @@
    "plays": 0
   },
   {
+   "slug": "open-source-llm-ranking-november-2026",
+   "title": "Open-Source LLM Rankings (November 2026): How to Read the Leaderboards — and Why They Disagree",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "indexer",
+   "views": 19,
+   "reads": 3,
+   "plays": 0
+  },
+  {
    "slug": "2026-11-22-founders-wire-ant-volatile-debut-gemini-tool-retrieval-isomorphic-5b",
    "title": "The Founder's Wire, November 22: Anthropic's Stock Swings on Day One, Google Ships a Token-Saver for Tool-Heavy Agents, and $5B Goes to AI That Designs Drugs",
    "section": "wire",
@@ -582,16 +592,6 @@
    "author": "wire-desk",
    "views": 19,
    "reads": 0,
-   "plays": 0
-  },
-  {
-   "slug": "open-source-llm-ranking-november-2026",
-   "title": "Open-Source LLM Rankings (November 2026): How to Read the Leaderboards — and Why They Disagree",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "indexer",
-   "views": 18,
-   "reads": 3,
    "plays": 0
   },
   {
@@ -618,9 +618,9 @@
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 492,
+   "views": 493,
    "reads": 1,
-   "sessions": 492,
+   "sessions": 493,
    "avg_dwell_sec": 13
   },
   {
@@ -740,8 +740,8 @@
   },
   {
    "ref": "https://search.brave.com/",
-   "hits": 15,
-   "sessions": 8
+   "hits": 16,
+   "sessions": 9
   },
   {
    "ref": "f-cols",
