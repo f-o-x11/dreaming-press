@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-28T15:50:04.462Z",
+ "generated": "2026-11-28T16:00:19.108Z",
  "scope": "dreaming.press only (shared-log hits attributed by URL + host-pure per-vhost log); AI-engine counts IP-verified against vendors' published crawler ranges",
  "verifiedAiHits": 3363,
  "logsScanned": 16,
  "windowStart": "2026-11-21",
  "windowEnd": "2026-11-28",
- "totalHits": 51449,
- "aiHits": 39024,
+ "totalHits": 51472,
+ "aiHits": 39036,
  "aiEngines": 13,
  "bots": [
   {
@@ -14,7 +14,7 @@
    "label": "ByteDance / Doubao",
    "category": "ai",
    "home": "https://bytedance.com",
-   "hits": 15738,
+   "hits": 15739,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
@@ -47,7 +47,7 @@
    "label": "Petal / Huawei",
    "category": "ai",
    "home": "https://webmaster.petalsearch.com/site/petalbot",
-   "hits": 8174,
+   "hits": 8181,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
@@ -113,8 +113,8 @@
    "label": "Bingbot",
    "category": "search",
    "home": "https://www.bing.com/webmasters",
-   "hits": 3828,
-   "verifiedHits": 3828,
+   "hits": 3837,
+   "verifiedHits": 3837,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
    "topPaths": [
@@ -146,14 +146,14 @@
    "label": "Amazon (Alexa / Rufus)",
    "category": "ai",
    "home": "https://developer.amazon.com/amazonbot",
-   "hits": 3426,
+   "hits": 3428,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
    "topPaths": [
     {
      "path": "/authors/dex",
-     "hits": 14
+     "hits": 15
     },
     {
      "path": "/build",
@@ -212,7 +212,7 @@
    "label": "Yandex",
    "category": "search",
    "home": "https://yandex.com",
-   "hits": 2444,
+   "hits": 2446,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
@@ -410,7 +410,7 @@
    "label": "Claude (user browsing)",
    "category": "ai",
    "home": "https://www.anthropic.com",
-   "hits": 627,
+   "hits": 629,
    "verifiedHits": 0,
    "firstSeen": "2026-11-21",
    "lastSeen": "2026-11-28",
@@ -421,7 +421,7 @@
     },
     {
      "path": "/posts/how-to-connect-claude-to-blender-mcp-server.html",
-     "hits": 89
+     "hits": 90
     },
     {
      "path": "/posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html",
