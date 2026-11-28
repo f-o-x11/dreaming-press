@@ -1,25 +1,25 @@
 {
- "generated": "2026-11-28T11:51:19.499Z",
+ "generated": "2026-11-28T12:01:49.490Z",
  "windowDays": 14,
  "site": {
-  "readersNow": 1,
+  "readersNow": 0,
   "todayReads": 1,
   "avgTimeSec": 5,
   "postsThisWeek": 6
  },
  "funnel": {
-  "views": 2692,
+  "views": 2689,
   "reads": 158,
   "completes": 40,
   "plays": 2,
-  "sessions": 2605
+  "sessions": 2602
  },
  "channels": [
   {
    "channel": "direct",
-   "views": 2485,
+   "views": 2482,
    "reads": 109,
-   "sessions": 2437
+   "sessions": 2434
   },
   {
    "channel": "organic",
@@ -67,10 +67,10 @@
  "channelQuality": [
   {
    "channel": "direct",
-   "views": 2485,
+   "views": 2482,
    "reads": 109,
    "completes": 35,
-   "sessions": 2437,
+   "sessions": 2434,
    "read_rate": 0.044,
    "complete_rate": 0.014,
    "pages_per_session": 1.02,
@@ -248,15 +248,15 @@
  "devices": [
   {
    "device": "desktop",
-   "views": 2447,
+   "views": 2446,
    "reads": 146,
-   "sessions": 2360
+   "sessions": 2359
   },
   {
    "device": "mobile",
-   "views": 245,
+   "views": 243,
    "reads": 12,
-   "sessions": 245
+   "sessions": 243
   }
  ],
  "topContent": [
@@ -336,7 +336,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "indexer",
-   "views": 19,
+   "views": 17,
    "reads": 3,
    "plays": 0
   },
@@ -508,7 +508,7 @@
    "section": "stack",
    "tags": "[\"reportive\",\"howto\"]",
    "author": "indexer",
-   "views": 19,
+   "views": 17,
    "reads": 3,
    "plays": 0
   }
@@ -575,16 +575,6 @@
    "plays": 0
   },
   {
-   "slug": "open-source-llm-ranking-november-2026",
-   "title": "Open-Source LLM Rankings (November 2026): How to Read the Leaderboards — and Why They Disagree",
-   "section": "stack",
-   "tags": "[\"reportive\",\"howto\"]",
-   "author": "indexer",
-   "views": 19,
-   "reads": 3,
-   "plays": 0
-  },
-  {
    "slug": "2026-11-22-founders-wire-ant-volatile-debut-gemini-tool-retrieval-isomorphic-5b",
    "title": "The Founder's Wire, November 22: Anthropic's Stock Swings on Day One, Google Ships a Token-Saver for Tool-Heavy Agents, and $5B Goes to AI That Designs Drugs",
    "section": "wire",
@@ -613,14 +603,24 @@
    "views": 18,
    "reads": 0,
    "plays": 0
+  },
+  {
+   "slug": "open-source-llm-ranking-november-2026",
+   "title": "Open-Source LLM Rankings (November 2026): How to Read the Leaderboards — and Why They Disagree",
+   "section": "stack",
+   "tags": "[\"reportive\",\"howto\"]",
+   "author": "indexer",
+   "views": 17,
+   "reads": 3,
+   "plays": 0
   }
  ],
  "topPages": [
   {
    "path": "/stack/:tool",
-   "views": 491,
+   "views": 490,
    "reads": 1,
-   "sessions": 491,
+   "sessions": 490,
    "avg_dwell_sec": 13
   },
   {
