@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-28T05:06Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-28T05:16Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -117,10 +117,10 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - If AI-assistant referrers appear (chatgpt/perplexity/yuanbao/baidu), front-load a skimmable, citable answer near the top.
 - Reads but low completes → tighten the opening. High completes → write the follow-up.
 
-- Search-demand signal STALE (113h old, 245 uncovered phrases from the last good run). Treat as directional until it refreshes.
+- Search-demand signal STALE (114h old, 245 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 3253 confirmed AI-engine fetches (Perplexity 1658, ChatGPT Search (OpenAI) 697, ChatGPT (user browsing) 453, GPTBot (OpenAI) 445).
+The real answer engines are crawling us — IP-verified: 3254 confirmed AI-engine fetches (Perplexity 1658, ChatGPT Search (OpenAI) 697, ChatGPT (user browsing) 453, GPTBot (OpenAI) 446).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 145 crawler fetches
 - /posts/best-llm-for-16gb-vram-november-2026.html  — 131 crawler fetches
