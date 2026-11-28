@@ -1,4 +1,4 @@
-# Analytics brief — auto-exported 2026-11-28T08:34Z (last 14 days)
+# Analytics brief — auto-exported 2026-11-28T08:45Z (last 14 days)
 
 READ THIS FIRST, COMMISSION FROM IT. Real reader data from dreaming.press/dashboard.
 The mission is visitors + time-on-site: make MORE of what already earns reads and listens.
@@ -52,11 +52,11 @@ That is a site-structure problem, not a traffic problem, and it caps time-on-sit
 ## Hubs and tools (non-article routes)
 The interactive surfaces. /build is the most-crawled path on the whole domain,
 so what these earn from humans is the other half of the picture.
-- /stack/:tool — 492 views, 1 reads, 492 sessions, avg 13s
+- /stack/:tool — 493 views, 1 reads, 493 sessions, avg 13s
 - /compare/:pair — 287 views, 0 reads, 287 sessions, avg 33s
 - / — 107 views, 2 reads, 110 sessions, avg 13s
 - /best/:cat — 47 views, 0 reads, 47 sessions
-- /alternatives/:tool — 43 views, 0 reads, 43 sessions, avg 3s
+- /alternatives/:tool — 42 views, 0 reads, 42 sessions, avg 3s
 - /build — 35 views, 0 reads, 35 sessions
 - /subscribe — 25 views, 0 reads, 5 sessions
 - /submit.html — 23 views, 2 reads, 19 sessions, avg 65s
@@ -90,7 +90,7 @@ human just asked a question. Not index crawlers, which enumerate everything and 
 nothing. This is the closest thing to a live query log this publication gets, and its
 sample size dwarfs the engaged-read counts below.
 - /  — 317 retrieval fetches
-- /posts/open-source-coding-llm-ranked-november-2026.html  — 47 retrieval fetches
+- /posts/open-source-coding-llm-ranked-november-2026.html  — 54 retrieval fetches
 - /wire.html  — 28 retrieval fetches
 - /posts/open-source-llm-for-coding-september-2026.html  — 16 retrieval fetches
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 15 retrieval fetches
@@ -101,9 +101,9 @@ sample size dwarfs the engaged-read counts below.
 - /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html  — 13 retrieval fetches
 
 Per engine:
-- PerplexityBot (1660 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×15 · / ×13 · /posts/harvey-benchmark-vertical-ai-rollup-founder-exit.html ×13
-- OAI-SearchBot (719 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×47 · /posts/open-source-llm-for-coding-september-2026.html ×16 · /posts/local-llm-for-coding-on-your-own-machine.html ×15
-- ChatGPT-User (460 verified): / ×304 · /wire.html ×13 · /about.html ×9
+- PerplexityBot (1662 verified): /posts/how-to-connect-claude-to-blender-mcp-server.html ×15 · / ×13 · /posts/harvey-benchmark-vertical-ai-rollup-founder-exit.html ×13
+- OAI-SearchBot (720 verified): /posts/open-source-coding-llm-ranked-november-2026.html ×47 · /posts/open-source-llm-for-coding-september-2026.html ×16 · /posts/local-llm-for-coding-on-your-own-machine.html ×15
+- ChatGPT-User (461 verified): / ×304 · /wire.html ×13 · /about.html ×9
 ACTION: write the NEXT piece in the cluster at the top of this list — an updated cut, an
 adjacent comparison, a deeper version. A page pulled hundreds of times by the bot that
 precedes a human click is proven demand; a page with 4 engaged reads is not yet evidence.
@@ -120,13 +120,13 @@ hundreds — and from uncovered search demand below. This block returns on its o
 - Search-demand signal STALE (117h old, 245 uncovered phrases from the last good run). Treat as directional until it refreshes.
 
 ## AI-crawler demand (RESEARCH BEFORE YOU WRITE)
-The real answer engines are crawling us — IP-verified: 3286 confirmed AI-engine fetches (Perplexity 1660, ChatGPT Search (OpenAI) 719, ChatGPT (user browsing) 460, GPTBot (OpenAI) 447).
+The real answer engines are crawling us — IP-verified: 3290 confirmed AI-engine fetches (Perplexity 1662, ChatGPT Search (OpenAI) 720, ChatGPT (user browsing) 461, GPTBot (OpenAI) 447).
 These are the pages the crawlers pull hardest — each is a topic ChatGPT/Perplexity/etc. are actively ingesting, so commission MORE around them (deeper cuts, adjacent comparisons, updated versions):
 - /build  — 145 crawler fetches
 - /posts/best-llm-for-16gb-vram-november-2026.html  — 134 crawler fetches
 - /posts/how-to-connect-claude-to-blender-mcp-server.html  — 102 crawler fetches
 - /posts/llm-api-pricing-november-2026-frontier-mid-tier-converged-two-ten.html  — 70 crawler fetches
-- /posts/open-source-coding-llm-ranked-november-2026.html  — 49 crawler fetches
+- /posts/open-source-coding-llm-ranked-november-2026.html  — 56 crawler fetches
 - /posts/best-open-source-vector-database-2026.html  — 33 crawler fetches
 - /posts/gartner-ai-agent-spending-2026.html  — 29 crawler fetches
 - /posts/open-weight-llms-you-actually-run-locally-october-2026.html  — 24 crawler fetches
